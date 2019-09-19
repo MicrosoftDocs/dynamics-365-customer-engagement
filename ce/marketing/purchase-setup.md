@@ -79,12 +79,6 @@ For more information about licensing, see the [Administration and setup FAQ](set
 > 
 > See also the  [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
-> [!IMPORTANT]
-> Problems can occur if you try to reinstall Dynamics 365 for Marketing on an instance where it was previously uninstalled. Before you can reinstall Marketing onto an instance where it was previously uninstalled, you must do one of the following:
-> 
-> - [Reset the instance](../admin/manage-sandbox-instances.md#BKMK_Reset) before starting to reinstall Marketing (only possible on sandbox instances).
-> - If a reset isn't possible (for example, because you aren't working with a sandbox instance) then please [contact Microsoft Support](setup-troubleshooting.md#contact-support) before attempting to reinstall Marketing.
-
 ## Add a Marketing app to your Microsoft 365 tenant
 
 There are many ways to add one or more Marketing apps to your Microsoft 365 tenant. For example, you can purchase it from the [Dynamics 365 for Marketing overview page](https://dynamics.microsoft.com/en-us/marketing/overview/), or by going to **Billing** > **Purchase services** in your Microsoft 365 admin center, or by contacting your Microsoft sales representative or channel partner. As mentioned previously, you might even qualify to have a free Marketing app added to your tenant.

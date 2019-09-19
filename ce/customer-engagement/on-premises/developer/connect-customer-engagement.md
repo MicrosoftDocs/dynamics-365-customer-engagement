@@ -22,7 +22,7 @@ search.app:
 ---
 # Connect to Dynamics 365 Customer Engagement (on-premises)
 
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provide a developer with many opportunities to add value to an organization using [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Most of these opportunities will require understanding of a few essential concepts. The topics in this section will explain what options are available to you. Choose the approach that will work best for your solution.  
+Dynamics 365 Customer Engagement (on-premises) provide a developer with many opportunities to add value to an organization using Dynamics 365 Customer Engagement (on-premises). Most of these opportunities will require understanding of a few essential concepts. The topics in this section will explain what options are available to you. Choose the approach that will work best for your solution.  
   
 ## In This Section  
  [Authenticate users to Dynamics 365 Customer Engagement (on-premises)](authenticate-users.md)<br />

@@ -22,7 +22,7 @@ search.app:
 ---
 # Manage your deployment of Customer Engagement
 
-Write application code to administer your deployment and import sample data into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+Write application code to administer your deployment and import sample data into Dynamics 365 Customer Engagement (on-premises).  
   
 ## In This Section  
 [Administer the deployment using the deployment web service](administer-deployment-using-deployment-web-service.md)  

@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# What's new for instance management 
+# Manage instances 
 
 You might have noticed some changes to the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)]. On March 21, 2018, we introduced the following:
 

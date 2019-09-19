@@ -2,12 +2,12 @@
 title: Set up knowledge management using embedded knowledge search (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: See how to set up knowledge management using embedded knowledge search in Dynamics 365 for Customer Service
 keywords: Set up knowledge management; Dynamics 365 for Customer Engagement; Customer Service; using Embedded knowledge search; service manager
-author: anjgupta
+author: kabala123
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-ms.author: anjgup
+ms.author: kabala
 manager: shujoshi
-ms.date: 10/01/2018
+ms.date: 10/19/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 68356343-fdd5-4c0e-9c09-dbebf718c764
@@ -61,7 +61,7 @@ After knowledge management is set up, users will be able to:
         Select **Yes** to share the knowledge article as a link in the email sent to the customer. Select **No** to share the article content inserted in the email body. If you choose **Yes**, provide the **URL format**.
   
    - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: 
-        </br> </br> *http://\<support portal URL>/kb/{kbnum}* 
+        </br> </br> *http://\<support portal URL>/knowledgebase/article/{kbnum}* 
   
         The placeholder "{kbnum}" is replaced by an actual knowledge article number.  
   

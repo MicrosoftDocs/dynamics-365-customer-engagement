@@ -4,7 +4,7 @@ description: "Learn about registration and execution of custom workflow activiti
 ms.custom: 
 ms.date: 06/12/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.service: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -25,14 +25,14 @@ You can extend the options available within the workflow designer used in [!INCL
 
 The capability to use these custom extensions with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] (online) is provided by the Common Data Service. For information about creating, deploying, and debugging these extensions see the Common Data Service documentation: [Common Data Service](/powerapps/developer/common-data-service/overview) > [Workflow extensions](/powerapps/developer/common-data-service/workflow/workflow-extensions).
 
-The following section includes information specifically for on-premises deployments of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].
+The following section includes information specifically for on-premises deployments of Dynamics 365 Customer Engagement (on-premises).
   
 ## On-premises options
 
 On-premises developers should be aware of additional capabilities available when debugging or registering custom workflow activities and assemblies.
 
 ### Registration of custom workflow activity assemblies
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (on-premises) support execution of custom workflow activities in partial or full trust. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online) only supports sandbox (partial trust) execution of custom workflow activities.
+Dynamics 365 Customer Engagement (on-premises) support execution of custom workflow activities in partial or full trust.
 
 When registering a custom workflow activity assembly, you do not register a step as is done for plug-ins. For more detailed registration information, see [Register a plug-in to be deployed on-premise](register-deploy-plugins.md)
 

@@ -22,12 +22,7 @@ search.app:
 ---
 # Get started with the Dynamics 365 Customer Engagement Web API
 
-> [!NOTE]
-> The topics listed in the Dynamics 365 Customer Engagement developer documentation TOC are applicable only for the on-premises users of Customer Engagement (on-premises).
->
-> The Web API documentation that is applicable to Dynamics 365 Customer Engagement (on-premises) (online) users is now available in the PowerApps documentation at: [Use the Common Data Service Web API](/powerapps/developer/common-data-service/webapi/overview).
-
-This topic lists the resources that you can use to get started with using the Web API. All the operations that you can perform with the Web API are same for Dynamics 365 Customer Engagement (on-premises) online and on-premises users. The resources listed below are now available in PowerApps Common Data Service documentation.
+This topic lists the resources that you can use to get started with using the Web API in Dynamics 365 Customer Engagement (on-premises). Most of the operations that you can perform with the Web API are same for Dynamics 365 Customer Engagement (on-premises) and Common Data Service users. See the resources listed below the Common Data Service documentation.
 
 - [Get started with Web API(C#)](/powerapps/developer/common-data-service/webapi/get-started-dynamics-365-web-api-csharp)<br />
 - [Quick Start: Web API sample(C#)](/powerapps/developer/common-data-service/webapi/quick-start-console-app-csharp)<br />

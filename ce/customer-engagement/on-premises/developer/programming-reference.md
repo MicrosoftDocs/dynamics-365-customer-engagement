@@ -21,7 +21,7 @@ search.app:
 ---
 # Programming reference for Dynamics 365 Customer Engagement (on-premises)
 
-This section contains reference documentation of the public assemblies, web services, client API, schemas, and error codes for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+This section contains reference documentation of the public assemblies, web services, client API, schemas, and error codes for Dynamics 365 Customer Engagement (on-premises).  
   
 ## In This Section  
  [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />

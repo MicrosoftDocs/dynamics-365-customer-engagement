@@ -22,19 +22,19 @@ search.app:
 ---
 # Introduction to solutions
 
-*Solutions* are how customizers and developers author, package, and maintain units of software that extend [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Customizers and developers distribute solutions so that organizations can use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to install and uninstall the business functionality defined by the solution.  
+*Solutions* are how customizers and developers author, package, and maintain units of software that extend [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Customizers and developers distribute solutions so that organizations can use Dynamics 365 Customer Engagement (on-premises) to install and uninstall the business functionality defined by the solution.  
   
 <a name="BKMK_ExtensibilityChoices"></a>   
 ## Extensibility choices  
- Use solutions to extend the capability of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. For software that operates outside the application, use traditional methods to package and install your application, such as an installer program.  
+ Use solutions to extend the capability of Dynamics 365 Customer Engagement (on-premises). For software that operates outside the application, use traditional methods to package and install your application, such as an installer program.  
   
- If your application consists only of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] solution components, it can be imported directly into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You won’t have to create an installer program.  
+ If your application consists only of Dynamics 365 Customer Engagement (on-premises) solution components, it can be imported directly into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You won’t have to create an installer program.  
   
  ![An application with external components](media/external-components.png "An application with external components")  
   
- However, if your extensions include a combination of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] solution components and external components, which are not [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] solution components, you’ll need an installer.  
+ However, if your extensions include a combination of Dynamics 365 Customer Engagement (on-premises) solution components and external components, which are not Dynamics 365 Customer Engagement (on-premises) solution components, you’ll need an installer.  
   
- For example, you can create a [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] application that manages data stored in custom [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] entities using the web service APIs. People who install your application may install a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] solution to create the custom entities and then install your application separately by using an installer. Or, you could include the installation of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] solution into the installer you create for your application.  
+ For example, you can create a [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] application that manages data stored in custom Dynamics 365 Customer Engagement (on-premises) entities using the web service APIs. People who install your application may install a Dynamics 365 Customer Engagement (on-premises) solution to create the custom entities and then install your application separately by using an installer. Or, you could include the installation of the Dynamics 365 Customer Engagement (on-premises) solution into the installer you create for your application.  
   
 <a name="BKMK_VersionCompat"></a>   
 ## Version compatibility  
@@ -51,7 +51,7 @@ search.app:
 
 ## Solution components
 
- Solution components are created by using the customization tools or APIs included in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and are fully hosted in the application. The following diagram shows the types of solution components.  
+ Solution components are created by using the customization tools or APIs included in Dynamics 365 Customer Engagement (on-premises) and are fully hosted in the application. The following diagram shows the types of solution components.  
   
  ![Solution Components](media/solution-components.png "Solution Components")  
   
@@ -62,14 +62,14 @@ search.app:
   
 <a name="BKMK_UnmanagedandManagedSolutions"></a>   
 ## Unmanaged and managed solutions  
- There are two types of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] solutions: *managed* and *unmanaged*. A managed solution is a completed solution that is intended to be distributed and installed. An unmanaged solution is one that is still under development or isn’t intended to be distributed. When the unmanaged solution is complete and you want to distribute it, export it and package it as a managed solution.  
+ There are two types of Dynamics 365 Customer Engagement (on-premises) solutions: *managed* and *unmanaged*. A managed solution is a completed solution that is intended to be distributed and installed. An unmanaged solution is one that is still under development or isn’t intended to be distributed. When the unmanaged solution is complete and you want to distribute it, export it and package it as a managed solution.  
   
  The following diagram introduces how managed and unmanaged solutions interact with the system solution to control application behavior.  
   
  ![Solution layering](media/solution-layering.png "Solution layering")  
   
  **System solution**  
- The system solution represents the solution components defined within [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Without any managed solutions or customizations, the system solution defines the default application behavior.  
+ The system solution represents the solution components defined within Dynamics 365 Customer Engagement (on-premises). Without any managed solutions or customizations, the system solution defines the default application behavior.  
   
  Many of the components in the system solution are customizable and can be used in managed solutions or unmanaged customizations.  
   
@@ -87,7 +87,7 @@ search.app:
  You create a managed solution by exporting an unmanaged solution and selecting to package it as a managed solution.  
   
  **Application behavior**  
- The ultimate behavior of an instance of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] for a specific organization is the culmination of the system solution, any managed solutions, and any unmanaged customizations.  
+ The ultimate behavior of an instance of Dynamics 365 Customer Engagement (on-premises) for a specific organization is the culmination of the system solution, any managed solutions, and any unmanaged customizations.  
   
 ### Unmanaged solutions  
  When a solution is unmanaged, you can perform the following actions:  
@@ -111,10 +111,10 @@ search.app:
 >  When you import an unmanaged solution, the definitions of any solution components that already are in the organization will be overwritten. You can’t undo this action.  
   
 #### Unmanaged customizations  
- Each [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization contains customizable solution components. Together, all of these solution components are called the *default solution*. This is the solution you edit when you select **Customize the System** in the application. You can export this solution and the customizations in it in just like an unmanaged solution. However, you can’t export the default solution as a managed solution.  
+ Each Dynamics 365 Customer Engagement (on-premises) organization contains customizable solution components. Together, all of these solution components are called the *default solution*. This is the solution you edit when you select **Customize the System** in the application. You can export this solution and the customizations in it in just like an unmanaged solution. However, you can’t export the default solution as a managed solution.  
   
 #### Create an unmanaged solution  
- If you don’t intend to generate a managed solution, you don’t have to create an unmanaged solution. You can customize the system directly. Organizations that just want to be able to edit, back up, and transport their customizations don’t have to use the more advanced capabilities of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] solution framework.  
+ If you don’t intend to generate a managed solution, you don’t have to create an unmanaged solution. You can customize the system directly. Organizations that just want to be able to edit, back up, and transport their customizations don’t have to use the more advanced capabilities of the Dynamics 365 Customer Engagement (on-premises) solution framework.  
   
  When you create an unmanaged solution, you create a way to group a subset of the available customizable solution components. The solution components in an unmanaged solution are references to customizable solution components in the organization.  
   
@@ -146,7 +146,7 @@ search.app:
  If you intend to distribute your solution as a managed solution, export your unmanaged solution and select the **Managed** option in the **Package Type** dialog box.  
   
 > [!NOTE]
->  After you generate a managed solution, you can’t install it in the same [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization that contains the unmanaged solution used to create it. It must be installed in a different organization.  
+>  After you generate a managed solution, you can’t install it in the same Dynamics 365 Customer Engagement (on-premises) organization that contains the unmanaged solution used to create it. It must be installed in a different organization.  
   
  After you install a managed solution, the following applies:  
   
@@ -185,7 +185,7 @@ search.app:
   
 <a name="BKMK_ConflictResolution"></a>   
 ## Conflict resolution  
- When two or more solutions define solution components differently, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] resolve the conflict using two strategies, **Merge** and **Top Wins**. The following diagram illustrates the differences.  
+ When two or more solutions define solution components differently, Dynamics 365 Customer Engagement (on-premises) resolve the conflict using two strategies, **Merge** and **Top Wins**. The following diagram illustrates the differences.  
   
  ![Two Solution conflict resolution strategies](media/solution-merge.png "Two Solution conflict resolution strategies")  
   
@@ -229,7 +229,7 @@ search.app:
   
 <a name="BKMK_SupportforMultipleLanguages"></a>   
 ## Support for multiple languages  
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] natively supports multiple languages. Whenever a language pack (sometimes referred to as a ”MUI pack”) is installed, user interface elements can be displayed in a different language.  
+ Dynamics 365 Customer Engagement (on-premises) natively supports multiple languages. Whenever a language pack (sometimes referred to as a ”MUI pack”) is installed, user interface elements can be displayed in a different language.  
   
  There are a number of different tactics you should apply based on the type of solution components included in your solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create Solutions that Support Multiple Languages](create-solutions-support-multiple-languages.md)  
   
