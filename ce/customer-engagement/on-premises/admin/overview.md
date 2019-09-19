@@ -20,10 +20,7 @@ Implementers and administrators for Dynamics 365 Customer Engagement (on-premise
 > - If you are an online customer, see [Administer Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)
 
 ### See also
-
-[Deployment and operation Guide](../../../deploy/overview.md)<br/>
 [Customization Guide](../customize/overview.md)<br />
 [Developer Guide](../developer/overview.md)<br />
-[Reporting and Analytics Guide](../../../analytics/overview.md) <br />
 [Dynamics 365 Customer Engagement (on-premises) Help](../overview.md)
 
