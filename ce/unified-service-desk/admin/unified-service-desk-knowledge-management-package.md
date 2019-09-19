@@ -44,7 +44,7 @@ search.app:
   
  Here’s what you’ll see when you install [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
   
-1. **Dashboards**: Opens the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customer service dashboard.  
+1. **Dashboards**: Opens the customer service dashboard.  
   
 2. **My Work**: Shows a list of all the active cases assigned to a service rep.  
   

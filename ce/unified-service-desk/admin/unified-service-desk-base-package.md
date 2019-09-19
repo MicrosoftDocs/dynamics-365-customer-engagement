@@ -38,7 +38,7 @@ search.app:
   
 1. **Left Nav**: Opens the left navigation area that you can open or collapse.  
   
-2. **Dashboards**: Opens the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customer service dashboard.  
+2. **Dashboards**: Opens the customer service dashboard.  
   
 3. **My Work**: Shows a list of all active cases assigned to a service rep.  
   
