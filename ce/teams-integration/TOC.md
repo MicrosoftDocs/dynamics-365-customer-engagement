@@ -1,4 +1,4 @@
-# [Microsoft Teams integration](../basics/teams-integration.md) 
+# [Microsoft Teams integration](teams-integration.md) 
 ## [Install and setup](teams-install-app.md)
 ## [Basic vs Enhanced Collaboration Experience](teams-basic-vs-enhanced-collaboration.md)
 ## Use Teams integration
@@ -7,8 +7,7 @@
 ### [Work with Teams integration](teams-work-records-and-view.md)
 ### [Use the bot](teams-bot-search.md)
 ### [Use the personal dashboard](teams-personal-use.md)
-## [Troubleshoot](teams-troubleshoot.md)
 ## [Delete personal data](teams-delete-data.md)
-
+## [Troubleshoot](teams-troubleshoot.md)
 
 
