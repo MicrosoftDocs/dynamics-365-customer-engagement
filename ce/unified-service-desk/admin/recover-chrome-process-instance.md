@@ -24,7 +24,7 @@ monikerRange: '>= dynamics-usd-4.1'
 # Recover a Chrome Process instance
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Chrome Process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
-By default, Chrome Process instance recovery is enabled. 
+By default, Chrome Process instance recovery is enabled.
 
 ## When Unified Service Desk can help recover Chrome Process instances
 
@@ -91,19 +91,21 @@ To change the keyboard shortcut:
 
 1. Sign in to the Common Data Service platform.
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+2. Select the down arrow next to Dynamics 365.
 
-3. Choose **Options**.  
+3. Select **Unified Service Desk Administrator**. 
 
-4. Select **New** on the **Active UII Options** page.
+4. Select **Options** under **Advance Settings** in the sitemap.
 
-5. Choose **Others** for the **Global Option** field.
+5. Select **+ New** in the **Active UII Options** page.
 
-6. Type **On-DemandChromeProcessTerminationShortcut** for the **Name** field.
+6. Choose **Others** for the **Global Option** field.
 
-7. Type the character value for the **Value** field. <br>See the list of [value keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
+7. Type **On-DemandChromeProcessTerminationShortcut** for the **Name** field.
 
-8. Select **Save**.
+8. Type the character value for the **Value** field. <br>See the list of [value keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
+
+9. Select **Save**.
 
 ## See also
 

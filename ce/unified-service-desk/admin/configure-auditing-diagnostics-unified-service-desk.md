@@ -80,7 +80,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
  
     This example is for tracking all events, so when you select **Activity Tracking Enabled**, all the check boxes are selected. Alternatively, you can clear the check box for any events you don’t want to audit for this record.
 
-    You can also include diagnostics logging in this record. For more information see the [Diagnostics](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md#BKMK_Diagnostics) section.
+    You can also include diagnostics logging in this record. For more information see step 9.
 
 8. Select **Save** to select the record. After saving the record, you can start updating the diagnostics settings.
 
@@ -98,7 +98,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
     | Enable Crash Dump Generation | The default is enabled and dump files are collected during a fatal exception of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. If the options is not set dump files will not be collected during a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client exception. If this options is disabled and Enable Exit Monitoring is enabled, both diagnostics logs and exit logs are collected, but dump files aren’t. |
     | Max Diagnostics Logs Size (MB) | Specifies the maximum size of the folder in megabytes where diagnostics files are kept. The default size is 5 GB (5000 MB). When the specified value is exceeded, the oldest log folders will be deleted until the folder size no longer exceeds the value. Notice that, the most recent log folder is not deleted even if it exceeds the value specified. |
 
-11. Retain the values for the **On-Demand Begin Shortcut** and **On-Demand End Shortcut**. To learn more, see [Generate performance data logs (Performance data collection)](../../unified-interface/admin/performance-data-collection-using-keyboard-shortcut.md).
+11. Retain the values for the **On-Demand Begin Shortcut** and **On-Demand End Shortcut**. To learn more, see [Generate performance data logs (Performance data collection)](../unified-interface/admin/performance-data-collection-using-keyboard-shortcut.md).
 
 12. Add a Trace Source Setting record in the Trace Source Settings section. The Trace Source Setting includes the Listener Hosted Control that is used to channel the audit and diagnostic activity to a data store, event log, or text file. To create a Trace Source Setting record, follow these steps.  
 

@@ -21,7 +21,7 @@ search.app:
 
 # How to migrate Unified Service Desk configurations from Web Client to Unified Interface
 
-The migration of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configurations from Web Client to  Unified Interface is a three-step process.
+The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from Web Client to  Unified Interface is a three-step process.
 
 - **Step 1:** Fetch and migrate the configuration elements to a **USD_UI_Configurations** folder using the Web Client - Unified Interface Migration Assistant.
 
@@ -33,7 +33,7 @@ This diagram illustrates the flow of the migration:
 > [!div class="mx-imgBorder"]
 > ![Migration Steps](../media/migration-steps-web-client-unified-interface-migration-assistant.PNG "Migration Steps") 
 
-1. **Web Client** </br></br> The Web Client is the instance from where you want to migrate your [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configurations. 
+1. **Web Client** </br></br> The Web Client is the instance from where you want to migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations. 
 
 2. **Web Client - Unified Interface Migration Assistant** </br></br> The tool to fetch and migrate the Web Client configurations to **USD_UI_Configurations** folder, which contains the **Data** and **WebResources** zip folders. If you have **RunXrmCommand** actions in Web Client configurations, the migration assistant migrates the **RunXRMCommand** actions as a web resource and you can find them in the **USDWebResources** folder under the **USD_UI_Configurations** folder.
 

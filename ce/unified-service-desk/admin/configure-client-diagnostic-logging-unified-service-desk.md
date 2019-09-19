@@ -211,11 +211,11 @@ StackTrace:   at DemoControl.USDControl.throwExceptionMethod()
 
 2. Click **New**, and then select **DiagnosticsConfiguration**.  
 
-3. Select or enter the values that you want, such as tracking, exit monitoring, and the diagnostics logs folder location. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Diagnostics](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md#BKMK_Diagnostics)  
+3. Select or enter the values that you want, such as tracking, exit monitoring, and the diagnostics logs folder location. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Diagnostics](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md#create-an-audit--diagnostics-record-to-use-for-auditing)
 
 4. Click **Save & Close**.  
 
 ## See also  
- [Configure auditing and diagnostics in Unified Service Desk](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md)   
+ [Configure auditing and diagnostics in Unified Service Desk](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md)
  [Debugging support in Unified Service Desk to troubleshoot issues](../../unified-service-desk/admin/troubleshoot-unified-service-desk.md)   
  [Debug issues in Unified Service Desk](../../unified-service-desk/debug-issues-unified-service-desk.md)
