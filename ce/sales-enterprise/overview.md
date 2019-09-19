@@ -22,7 +22,10 @@ caps.latest.revision: 9
 
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! 
 
-[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, and create sales collateral. It also lets you create marketing lists and campaigns, and even follow service cases associated with specific accounts or opportunities
+[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, and create sales collateral. It also lets you create marketing lists and campaigns, and even follow service cases associated with specific accounts or opportunities.
+
+    > [!IMPORTANT]
+    > Dynamics 365 Sales is a model-driven app that is built on the Common Data Service platform. You can create and manage model-driven apps by using PowerApps. More information: What are model-driven apps?
 
 ## Available anywhere, on any device
 
@@ -31,6 +34,9 @@ The My Apps page shows the apps based on the logged in user's security role.
 Here are the flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] is available in: 
 
 - The Sales Hub app is built on the Unified Interface framework. The Unified Interface framework uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. The Sales Hub app is optimized to work on mobile devices as well as desktops.
+
+    > [!IMPORTANT]
+    > Dynamics 365 Sales is a model-driven app that is built on the Common Data Service platform. You can create and manage model-driven apps by using PowerApps. More information: What are model-driven apps?
 
 - The Sales app is designed for the legacy web client and is the full-featured, desktop-optimized web client app for sales scenarios. 
 
