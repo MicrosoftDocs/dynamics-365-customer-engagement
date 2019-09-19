@@ -1,5 +1,5 @@
 ---
-title: "Session Timer (Custom Hosted Control) in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Session Timer (Custom Hosted Control) in Unified Service Desk  | MicrosoftDocs"
 description: "Learn about Session Timer type of hosted control in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
@@ -9,12 +9,6 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 044cd615-691e-454d-9877-31095940b226
 author: kabala123
 ms.author: kabala
@@ -29,7 +23,7 @@ search.app:
 # Session Timer (Custom Hosted Control)
 In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], the session timer (`Timer`) hosted control displays the elapsed time in seconds since a session was started, and uses different colors to specify the threshold time limits.  
   
- The `Timer` hosted control isn’t one of the predefined hosted controls; it’s a custom control that is available when you deploy one of the sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] applications on your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps instance. The `Timer` hosted control is displayed in the status panel of your client application whenever a session is started.  
+ The `Timer` hosted control isn’t one of the predefined hosted controls; it’s a custom control that is available when you deploy one of the sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] applications on your Common Data Service platform instance. The `Timer` hosted control is displayed in the status panel of your client application whenever a session is started.  
   
 <a name="Actions"></a>   
 ## Actions for the Timer hosted control  
@@ -43,7 +37,7 @@ In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], 
   
   The values are returned and displayed under the `$Return` replacement parameter. To test the values returned by these two actions:  
   
-1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client and connect to your Dynamics 365 for Customer Engagement apps instance.  
+1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client and connect to your Common Data Service platform instance.  
   
 2. Click the **My Work** menu, and then click a case record to open a session.  
   

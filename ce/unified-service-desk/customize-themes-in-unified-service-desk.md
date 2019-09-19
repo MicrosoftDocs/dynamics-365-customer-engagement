@@ -8,12 +8,6 @@ ms.service:
 ms.custom: 
   - dyn365-USD
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 27b60bcc-787e-451d-b795-be9b0efbc57d
 author: kabala123
 ms.author: kabala
@@ -84,7 +78,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
 |Blue|/UnifiedServiceDesk;component/Styles/BlueStyle.xaml|  
 |Style|/UnifiedServiceDesk;component/Styles/Style.xaml|  
   
- In the sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, agents can set the theme by clicking the down arrow next to the settings icon at the top-right corner, and then selecting a predefined theme from the **Set Theme** submenu.  
+ In the sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, agents can set theme by clicking the down arrow next to the settings icon at the top-right corner, and then selecting a predefined theme from the **Set Theme** submenu.  
   
  Clicking a theme in the **Set Theme** submenu makes an action call to the **SetTheme** action with the appropriate syntax in the **Data** field as mentioned earlier. For example, this is the action call definition for the Air style:  
   
@@ -101,7 +95,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
   
  Let us create an action call to change the text in the title and the skin color of the agent application to Yellow. Make sure you have the DefaultStyle.xaml file handy as we will need it.  
   
-1. Sign in to Microsoft Dynamics 365 for Customer Engagement apps.  
+1. Sign in to the Common Data Service platform..  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
@@ -113,7 +107,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
   
    1.  In the **Name** field, type **Action Call for Custom Display**.  
   
-   2.  In the **Hosted Control** field, select **Dynamics 365 for Customer Engagement apps Global Manager**. If you have a different name for your Global Manager hosted control type, specify that name instead.  
+   2.  In the **Hosted Control** field, select **CRM Global Manager**. If you have a different name for your Global Manager hosted control type, specify that name instead.  
   
    3.  In the **Action** field, select **SetTheme**.  
   
@@ -172,7 +166,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
 ## Test the action call for customizing your display  
  You can call this action call by creating a toolbar button, and then attaching the action call to it. For the sake of brevity, we will use the Debugger hosted application to test the action call.  
   
-1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to your Dynamics 365 for Customer Engagement server.  
+1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to your Dynamics 365 Customer Engagement server.  
   
 2. In the client application, start Debugger by clicking down arrow next to the settings menu in the top-right corner, and clicking **Debug**.  
   

@@ -9,12 +9,6 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: bd6242eb-5b59-4ceb-bc09-0f7b1e892cdc
 author: kabala123
 ms.author: kabala
@@ -27,7 +21,7 @@ search.app:
   - D365USD
 ---
 # Deploy the hosted application to Unified Service Desk
-Once you have created a hosted application as described in [Create a HAT hosted application project](../unified-service-desk/use-hat-software-factory-create-hosted-application.md#Create), you can deploy it to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is configured on the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps server. You must ensure that all workflow-dependent applications that contain a default workflow include the workflow assembly (.dll file). If the assembly file isn’t found or is deleted, the `Type` field in the Action XML is set to `NULL`.  
+Once you have created a hosted application as described in [Create a HAT hosted application project](../unified-service-desk/use-hat-software-factory-create-hosted-application.md#Create), you can deploy it to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is configured on the Common Data Service platform server. You must ensure that all workflow-dependent applications that contain a default workflow include the workflow assembly (.dll file). If the assembly file isn’t found or is deleted, the `Type` field in the Action XML is set to `NULL`.  
   
 <a name="deploy"></a>   
 ## Deploy your hosted application to Unified Service Desk  
@@ -36,9 +30,9 @@ Once you have created a hosted application as described in [Create a HAT hosted 
   
    ![Use the shortcut menu to configure](../unified-service-desk/media/usd-create-hat-control-11.png "Use the shortcut menu to configure")  
   
-2. In the **Publish to Dynamics 365 for Customer Engagement** dialog box, enter the Dynamics 365 for Customer Engagement server name and your credentials.  
+2. In the **Publish to Dynamics 365 Customer Engagement** dialog box, enter the Dynamics 365 Customer Engagement server name and your credentials.  
   
-   ![Publish to Dynamics 365 for Customer Engagement apps dialog box](../unified-service-desk/media/usd-deploy.png "Publish to Dynamics 365 for Customer Engagement apps dialog box")  
+   ![Publish to dialog box](../unified-service-desk/media/usd-deploy.png "Publish to dialog box")  
   
 3. If there is more than one organization, check the **Display list of available organizations** check box and click **Login**.  
   
@@ -47,9 +41,9 @@ Once you have created a hosted application as described in [Create a HAT hosted 
 <a name="verify"></a>   
 ## Verify that the application is successfully deployed  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
-2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement apps**, and then select **Settings**.  
+2. On the nav bar, choose **Dynamics 365**, and then select **Settings**.  
   
 3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
   

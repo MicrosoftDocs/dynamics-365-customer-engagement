@@ -1,5 +1,5 @@
 ---
-title: "Keyboard shortcuts for panels in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Keyboard shortcuts for panels in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the keyboard shortcuts for panels in Unified Service Desk"
 ms.custom: 
   - dyn365-a11y

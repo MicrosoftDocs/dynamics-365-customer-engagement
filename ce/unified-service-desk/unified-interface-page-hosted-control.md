@@ -1,17 +1,11 @@
 ---
-title: "Unified Interface Page (Hosted Control) (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-description: "Learn about the Unified Interface Page hosted control type to load a URL or page from Dynamics 365 for Customer Engagement apps. When a Dynamics 365 for Customer Engagement apps page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
+title: "Unified Interface Page (Hosted Control) | MicrosoftDocs"
+description: "Learn about the Unified Interface Page hosted control type to load a URL or page from the model-driven app. When a model-driven apps page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
 keywords: 
 ms.date: 04/24/2018
 ms.service: 
   - usd
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 3AEB8475-FCBE-4526-8000-CF06CED9586C
 author: kabala123
 ms.author: kabala
@@ -25,9 +19,9 @@ search.app:
 ---
 
 # Unified Interface Page (Hosted Control)
-Use the **Unified Interface Page** hosted control type to load a URL or page from Unified Interface Apps in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. When a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters.
+Use the **Unified Interface Page** hosted control type to load a URL or page from Unified Interface Apps in the model-driven apps. When a model-driven app page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters.
   
- This hosted control type exposes a number of predefined UII actions and events that are unique to handling of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] including list manipulation actions, and a find action for displaying a quick search or advanced search page.
+ This hosted control type exposes a number of predefined UII actions and events that are unique to handling of model-driven apps [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] including list manipulation actions, and a find action for displaying a quick search or advanced search page.
 
 ## Create a Unified Interface Page hosted control
 
@@ -39,7 +33,7 @@ In the New Hosted Control screen:
 
 - Select **Pre-fetch Data** to load related information for an entity record in the context along with the entity record page without having to wait for the full entity web page to load in the client application. The fetched entity information is populated in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context thus enabling any hosted control to quickly display relevant entity information on the client application. This could help agents instantly act or kick start discussion with customers, and save crucial interaction time.
 
-- From the **Allow Multiple Pages** drop-down list, select **No** (default) to replace the Dynamics 365 for Customer Engagement apps page that is currently displayed, and update the browser history when [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] receives a navigate action call or a page is routed to the tab. Select **Yes** to automatically create a drop-down list when a second URL is called or a window navigation rule directs a page to the tab. This allows the user to quickly search between the Dynamics 365 for Customer Engagement apps pages that are attached to this control. Also, when you select **Yes**, an additional field, **Maximum Browsers**, becomes available where you can specify the maximum number of pages to be displayed in the drop-down list.
+- From the **Allow Multiple Pages** drop-down list, select **No** (default) to replace the model-driven apps page that is currently displayed, and update the browser history when [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] receives a navigate action call or a page is routed to the tab. Select **Yes** to automatically create a drop-down list when a second URL is called or a window navigation rule directs a page to the tab. This allows the user to quickly search between the model-driven app pages that are attached to this control. Also, when you select **Yes**, an additional field, **Maximum Browsers**, becomes available where you can specify the maximum number of pages to be displayed in the drop-down list.
 
 - Under the **Common Properties** area, select the **Application is Global** check box to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall or search are common uses for global hosted controls. Global hosted controls do not have session-specific state so when you change sessions, these same global hosted controls remain. If the check box is not selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.
 
@@ -53,15 +47,15 @@ These are the predefined actions for this hosted control type.
 
 ### AssociatedView
 
-This action loads a specific associated view of Dynamics 365 for Customer Engagement apps. These views are typically accessed by clicking down arrow next to an entity record name in the nav bar, and selecting the associated entities.
+This action loads a specific associated view. These views are typically accessed by clicking down arrow next to an entity record name in the nav bar, and selecting the associated entities.
 
 | Parameter         | Description                                                                                                             |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------|
 | etn               | The name of the entity for which you want to load list of records of the associated entity.  This is a mandatory parameter|
 | Id                | The ID of the main entity record for which to display the associated entity records.                                    |
 | navItemId         | Id of the navigation item corresponding to the associated entity. More information: [formContext.ui.navigation](/dynamics365/customer-engagement/developer/clientapi/reference/formcontext-ui-navigation)      |
-| hideCommandBar    | If this parameter is supplied and False, the page will be displayed along with the Dynamics 365 for Customer Engagement apps command bar. |
-| hideNavigationBar | If this parameter is supplied and False, the page will be displayed along with the Dynamics 365 for Customer Engagement apps navigation bar.     |
+| hideCommandBar    | If this parameter is supplied and False, the page will be displayed along with the model-driven app command bar. |
+| hideNavigationBar | If this parameter is supplied and False, the page will be displayed along with the model-driven app navigation bar.     |
 
 ### Close
 
@@ -148,7 +142,7 @@ This action moves a Unified Interface Page hosted control to a different panel a
 
 ### Navigate
 
-This action is used to navigate to a Dynamics 365 for Customer Engagement apps url. The App Id for the App that you select from **Select App Module** window is appended automatically.
+This action is used to navigate to a model-driven app url. The App Id for the App that you select from **Select App Module** window is appended automatically.
 
 <table>
 <thead>
@@ -164,11 +158,11 @@ This action is used to navigate to a Dynamics 365 for Customer Engagement apps u
 </tr>
 <tr class="even">
 <td>HideCommandBar</td>
-<td>If this parameter is supplied and True, the inner frame will be displayed without loading the Dynamics 365 for Customer Engagement apps command bar.</td>
+<td>If this parameter is supplied and True, the inner frame will be displayed without loading the model-driven app command bar.</td>
 </tr>
 <tr class="odd">
 <td>HideNavigationBar</td>
-<td>If this parameter is supplied and True, the form will be displayed without loading the Dynamics 365 for Customer Engagement apps navigation bar.</td>
+<td>If this parameter is supplied and True, the form will be displayed without loading the model-driven app navigation bar.</td>
 </tr>
 <tr class="even">
 <td>Frame</td>
@@ -191,7 +185,7 @@ If a Unified Service Desk POST event triggers the Navigate action, the default v
 
 ### New\_CRM\_Page
 
-Creates a page for creating a new Dynamics 365 for Customer Engagement apps record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.
+Creates a page for creating a new  record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.
 
 | Parameter   | Description                                                 |
 |-------------|-------------------------------------------------------------|
@@ -235,7 +229,7 @@ Displays the hosted control at the specified location on a monitor. You can disp
 This action refreshes the current page.
 
 ### RunScript  
- This action injects JavaScript into the main frame of the application. You should avoid using [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps client SDK calls with this action; instead, use the **RunXrmCommand** action.  
+ This action injects JavaScript into the main frame of the application. You should avoid using the Common Data Service platform client SDK calls with this action; instead, use the **RunXrmCommand** action.  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -244,9 +238,9 @@ This action refreshes the current page.
 
   
 ### RunXrmCommand  
- This action is used to run JavaScript code that uses [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps [Client API Reference](/dynamics365/customer-engagement/developer/clientapi/reference) into the Unified Interface Pages (entity forms and grids). 
+ This action is used to run JavaScript code that uses the model-driven apps [Client API Reference](/dynamics365/customer-engagement/developer/clientapi/reference) into the Unified Interface Pages (entity forms and grids). 
 
- You must configure the script as a function of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps JavaScript webResource. The function's first parameter is a context parameter (reserved parameter) which may have one of the following values:
+ You must configure the script as a function of the model-driven apps JavaScript webResource. The function's first parameter is a context parameter (reserved parameter) which may have one of the following values:
 
  - [FormContext](/dynamics365/customer-engagement/developer/clientapi/clientapi-form-context) on entity form pages
  - [GridContext](/dynamics365/customer-engagement/developer/clientapi/clientapi-grid-context) on entity grid pages
@@ -293,7 +287,7 @@ This action explicitly sets the width and height of the hosted control. This is 
 
 ### SaveAndClose
 
-This action saves the dirty data on the Dynamics 365 for Customer Engagement apps form, and closes the hosted control.
+This action saves the dirty data on the model-driven app form, and closes the hosted control.
 
 ### SaveAll
 
@@ -329,7 +323,7 @@ Occurs when refresh is requested on the current page. Refresh can be requested e
 
 ### Saved
 
-Occurs after a record in the Dynamics 365 for Customer Engagement apps page is saved.
+Occurs after a record in the model-driven app page is saved.
 
 | Parameter | Description                                  |
 |-----------|----------------------------------------------|
@@ -371,8 +365,8 @@ To learn more, see [onsendkbarticle](/dynamics365/customer-engagement/developer/
 [Unified Service Desk and Unified Interface Configuration Walkthroughs](../unified-service-desk/unified-service-desk-unified-interface-configuration-walkthroughs.md)
 [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md) 
 [Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md)   
-[Walkthrough 3: Display Microsoft Dynamics 365 for Customer Engagement apps (Unified Interface apps) records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
-[Walkthrough 4: Display a Microsoft Dynamics 365 for Customer Engagement apps (Unified Interface apps) record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)   
+[Walkthrough 3: Display Unified Interface apps records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
+[Walkthrough 4: Display a Unified Interface apps record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)   
 [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)   
 [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)
 [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md) 
