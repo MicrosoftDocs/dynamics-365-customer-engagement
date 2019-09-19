@@ -364,7 +364,7 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
 - **Warning for HelpImproveUSD parameter in Dynamics 365 Customer Engagement (on-premises)**
 
-  Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is enabled/disabled only for [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. If you are using [!INCLUDE[pn-crm-onprem](../includes/pn-crm-onprem.md)] apps, you can see a warning for the Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] (HelpImproveUSD) parameter in the report.
+  Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is enabled/disabled only for the Common Data Service platform. If you are using Customer Engagement (On-premises), you can see a warning for the Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] (HelpImproveUSD) parameter in the report.
 
 - **Error for Enable Enhanced Protected mode in Windows 7 operating system**
 
@@ -374,7 +374,7 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
 - **Insufficient permissions to provide feedback**
 
-  The **Provide Feedback** feature is available only if you have a [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] apps instance.
+  The **Provide Feedback** feature is available only if you have the Common Data Service platform.
 
   If you log in using administrator credentials and select **Provide Feedback** to provide your feedback/comments, you can see an **Insufficient Permissions** message. 
 
