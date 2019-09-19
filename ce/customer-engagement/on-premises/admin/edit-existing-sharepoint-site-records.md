@@ -75,5 +75,6 @@ Store documents related to your Dynamics 365 Customer Engagement (on-premises) r
 >  To activate or deactivate a site record, on the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] Sites page, select the site record, and then in the **Records** group, click **Activate** or **Deactivate**.  
   
 ### See also  
- [Set up SharePoint integration](set-up-sharepoint-integration.md)   
- [Switching from the list component or changing the deployment](switch-dynamics-crm-online-dynamics-365.md)
+ [Set up SharePoint integration](set-up-sharepoint-integration.md) <br />
+ [Switching from the list component or changing the SharePoint deployment](switching-list-component-changing-deployment.md) 
+
