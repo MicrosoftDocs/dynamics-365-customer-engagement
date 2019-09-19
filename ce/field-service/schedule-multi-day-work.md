@@ -214,21 +214,21 @@ Bookings are created for each resource on the days selected. Availability for ea
 
 ## Configuration considerations
 
-- Each requirement has its own calendar that you can view and edit from the Modify Calendar button in the top ribbon of a requirement. The calendar is important because it allows you to edit the time zone of the requirement and how schedule assistant results should be displayed. In the case of multi-day scheduling with allocation methods, the calendar will dictate the hours and pattern of the resulting bookings. As an example, if the calendar is 9AM - 5PM, Monday - Friday, if you select **Full Capacity** as the allocation method, it will assume Full Capacity means the total time of the calendar.
+- Each requirement has its own calendar that you can view and edit from the Modify Calendar button in the top ribbon of a requirement. The calendar is important because it allows you to edit the time zone of the requirement and how schedule assistant results should be displayed. In the case of multi-day scheduling with allocation methods, the calendar will dictate the hours and pattern of the resulting bookings. As an example, if the calendar is 9AM - 5PM, Monday - Friday, if you select **Full Capacity** as the allocation method, it will assume Full Capacity means the total time of the calendar. The **Percent Capacity** allocation method also uses the calendar. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-30-modify-calendar.png)
 
 - Availability does not need to be continuous. As an example, if a dispatcher needs to schedule a resource for 4 hours one of the days, that resource will show as available as long as there is 4 total hours of availability, not necessarily a single block of 4 available hours. 
 - You can manually create requirement details as needed to schedule multi-day work according to a custom pattern. 
-- You cannot schedule greater than the calendar. As an example, if the calendar is 9AM - 5PM, Monday - Friday, which equates to 40 hours per week, you cannot schedule more than 40 hours
+- You cannot schedule greater than the calendar. As an example, if the calendar is 9AM - 5PM, Monday - Friday, which equates to 40 hours per week, you cannot schedule more than 40 hours in one week. THis would have to be done manually.
 - Front load vs full capacity allocation methods. Front load will schedule around existing bookings, and full capacity will schedule in addition to existing bookings, overbooking as needed.
 
 ## Additional Notes
+- Requirement groups cannot be scheduled for multiple days. 
 - remaining duration
-- work order auto creates requirements
-- cannot schedule requirement groups for multiple days, meaning you cannot break it up
-- travel time? does not include travel time, books as location agnostic
+- An on site multi-day work order or requirement will filter available resources by their location, but travel time will not be calculated and added to the resulting bookings.
 
 ### See also
-[Allocation methods](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/project-service/faq-allocation-methods)
+
+- [Allocation methods](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/project-service/faq-allocation-methods)
