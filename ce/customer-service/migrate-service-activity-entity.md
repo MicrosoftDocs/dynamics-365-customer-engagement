@@ -7,8 +7,6 @@ ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
-applies_to: 
-  - "Dynamics 365 (online)"
 ms.assetid: 0965FCB8-22B4-47B6-931B-D0AE31722E30
 author: "susikka"
 ms.author: "susikka"
