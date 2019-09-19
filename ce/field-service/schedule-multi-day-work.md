@@ -78,7 +78,7 @@ If you have not done so, enter a multi-day duration in the **Duration** field, a
 **Pro Tip:** The requirement From Date and To Date will populate with the **Date Window Start** and **Date Window End** work order field values.
 
 
-Next go to the Hours view of the schedule board and select the requirement in the lower pane.
+Next, go to the Hours view of the schedule board and select the multi-day work order requirement in the lower pane.
 
 Then select a Resource on the board you would like to schedule the multi-day work order requirement to. DO NOT drag and drop.
 
@@ -200,11 +200,11 @@ Select a Resource and specific days of just that resource, then choose Book (not
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-2-person-requirement-book-1.png)
 
-Then choose another resource and specific for only that resource. Then choose Book.
+Then choose another resource and specific days for only that resource. Then choose **Book**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-2-person-requirement-book-2.png)
 
-Bookings will be created for each resource on the days selected. Availability for each scheduled resource will be updated as well.
+Bookings are created for each resource on the days selected. Availability for each scheduled resource are updated as well.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-2-person-requirement-book-final.png)
