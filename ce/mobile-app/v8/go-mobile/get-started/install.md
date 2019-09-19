@@ -8,8 +8,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -37,7 +37,7 @@ search.app:
 ## Privileges required to run the app  
 
 > [!IMPORTANT]
->  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 for Customer Engagement apps administrator or support person](../../../../basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](https://technet.microsoft.com/en-us/library/dn531128.aspx).  
+>  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 apps administrator or support person](../../../../basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](https://technet.microsoft.com/en-us/library/dn531128.aspx).  
 
 <a name="bkmk2"></a>   
 ## Install the app from your device’s app store  

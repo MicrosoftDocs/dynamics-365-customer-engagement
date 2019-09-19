@@ -1,5 +1,5 @@
 ---
-title: "What's new with Dynamics 365 App for Outlook (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "What's new with Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 ms.date: 01/15/2019
 ms.reviewer: 
@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement apps
+applies_to: Dynamics 365 apps
 ms.assetid: db584cf3-6662-4650-a8e5-8a30a668e9aa
 caps.latest.revision: 99
 author: mduelae
@@ -64,7 +64,7 @@ description: "Updates to Dynamics 365 App for Outlook."
 2. Reliability improvements. 
 
 ## March 2018
-1. Draft emails that are tracked in App for Outlook in compose mode from Outlook Web Access now display correct status in Dynamics 365 for Customer Engagement apps. 
+1. Draft emails that are tracked in App for Outlook in compose mode from Outlook Web Access now display correct status in Dynamics 365 apps. 
 2. Added accessibility enhancements to App for Outlook. 
-3. All Dynamics 365 for Customer Engagement apps version 9.x organizations can now access Track and Set Regarding commands in App for Outlook. 
+3. All Dynamics 365 apps version 9.x organizations can now access Track and Set Regarding commands in App for Outlook. 
 4. Follow emails using App for Outlook from Outlook desktop without seeing a visible pixel link in the email body. 

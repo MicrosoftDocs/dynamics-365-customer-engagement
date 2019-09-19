@@ -20,9 +20,7 @@ search.app:
 # Use Microsoft Flow to automate processes across services
 
 Microsoft Flow lets you create automated processes between your favorite apps and services. From within Customer Engagement (on-premises), you can run a Flow on one or more records. Also, you can open Microsoft Flow from Customer Engagement (on-premises) to view, edit, or create new flows.  
-  
-> [!NOTE]
->  To manage and run Microsoft Flow from Customer Engagement (on-premises), Microsoft Flow must be enabled in System Settings for you organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable embedded Flow in your organization](../admin/enable-embedded-flow-in-your-organization.md)  
+
   
 ## Manage your flows  
  Connect with Microsoft Flow from Customer Engagement (on-premises) to manage your flows.  
@@ -62,7 +60,7 @@ Microsoft Flow lets you create automated processes between your favorite apps an
 ### Flow commands do not respond from your mobile device
 When you tap a Flow command, such as **Login to Flows**, **Create a Flow**, or **See your Flows**, from your mobile device, the command does not respond.
 
-This occurs when your Customer Engagement (on-premises) instance has the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], and your device has an earlier version of [!INCLUDE [pn-dyn-365-phones](../includes/pn-dyn-365-phones.md)] or [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)]. To work around this issue, remove the current app, and install the latest app. [Install Dynamics 365 Customer Engagement (on-premises)for phones and tablets](https://docs.microsoft.com/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets)
+This occurs when your Customer Engagement (on-premises) instance has the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], and your device has an earlier version of [!INCLUDE [pn-dyn-365-phones](../includes/pn-dyn-365-phones.md)] or [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)]. To work around this issue, remove the current app, and install the latest app. [Install Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets)
 
   
 
