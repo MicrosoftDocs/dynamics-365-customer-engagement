@@ -5,8 +5,9 @@ ms.custom: ""
 ms.date: 04/01/2019
 ms.service: "D365CE"
 ms.topic: "article"
-ms.author: "nabuthuk" 
-manager: "kvivek" 
+ms.author: nabuthuk
+author: Nkrb
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 

@@ -6,9 +6,9 @@ ms.date: 04/03/2019
 ms.reviewer: ""
 ms.service: "D365CE"
 ms.topic: "article"
-author: "nkrb" # GitHub ID
-ms.author: "nabuthuk" # MSFT alias of Microsoft employees only
-manager: "kvivek" # MSFT alias of manager or PM counterpart
+ms.author: nabuthuk
+author: Nkrb
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
