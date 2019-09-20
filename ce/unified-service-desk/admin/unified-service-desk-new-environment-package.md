@@ -1,22 +1,17 @@
 ---
 title: "Unified Service Desk - New Environment package | MicrosoftDocs"
 description: "Overview of the New Environment sample application."
-keywords: 
-ms.date: 08/17/2018
-ms.service: 
-  - dynamics-365-customerservice
 ms.custom: 
-  - dyn365-USD, dyn365-admin
+  - dyn365-USD
+  - dyn365-admin
+ms.date: 08/17/2018
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 79001344-0a15-4459-8381-14a8fb9ca380
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-search.audienceType: 
-  - admin
+search.audienceType: admin
 search.app: 
   - D365CE
   - D365USD

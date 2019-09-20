@@ -1,20 +1,14 @@
 ---
 title: "Release history (Unified Service Desk )| MicrosoftDocs"
 description: "The topic provide release history information for the Unified Service Desk Guide."
-keywords: 
+ms.custom: dyn365-USD
 ms.date: 07/15/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 1949915b-77a0-4489-addf-b3b3b37c3e89
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 search.audienceType: 
   - customizer
   - developer

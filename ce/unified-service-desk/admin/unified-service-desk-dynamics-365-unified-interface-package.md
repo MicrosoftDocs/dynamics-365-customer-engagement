@@ -1,15 +1,13 @@
 ---
 title: "Unified Service Desk  Unified Interface package | MicrosoftDocs"
 description: "Overview of the Unified Interface sample application."
-keywords: 
 ms.date: 08/17/2018
 ms.topic: article
 ms.assetid: FA01CA74-AD17-44A1-8AAD-C296B549F8A2
 author: kabala123
 ms.author: kabala
-manager: shujoshi 
-search.audienceType: 
-  - admin
+manager: shujoshi
+search.audienceType: admin
 search.app: 
   - D365CE
   - D365USD

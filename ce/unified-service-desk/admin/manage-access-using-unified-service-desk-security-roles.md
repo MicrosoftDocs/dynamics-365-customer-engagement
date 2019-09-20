@@ -2,24 +2,20 @@
 title: "Manage access using Unified Service Desk security roles | MicrosoftDocs"
 description: "Learn to control how agents use Unified Service Desk by using security roles."
 ms.custom: 
-  - dyn365-USD, dyn365-admin
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 1d1e06fc-188d-4f3e-91b1-a6c371c28eb4
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-tags: 
-  - MigrationHO
-search.audienceType: 
-  - admin
+search.audienceType: admin
 search.app: 
   - D365CE
   - D365USD
+tags: MigrationHO
 ---
 # Use security roles to manage access 
 You must assign the two [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] security roles to appropriate users or teams. The **USD Administrator** role must be assigned to the users who will be configuring the application using the Common Data Service platform to define an agent application. The **USD Agent** role must be assigned to the end users (agents) who will be using the client application to connect to the Common Data Service platform instance with the configured [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities.  

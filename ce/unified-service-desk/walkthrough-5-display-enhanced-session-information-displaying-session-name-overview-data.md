@@ -1,13 +1,9 @@
 ---
-title: "Walkthrough 5: Display enhanced session information by displaying session name and overview data | MicrosoftDocs"
+title: "Walkthrough 5  Display enhanced session information by displaying session name and overview data | MicrosoftDocs"
 description: "Demonstrates how to dynamically display session name and session overview information in Unified Service Desk to enhance the customer-interaction experience for your agents."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 01e6b62c-2add-46ca-9d90-0c45c60f83f9
 author: kabala123

@@ -1,13 +1,9 @@
 ---
 title: "Use UII automation adapter to interact with external and web applications in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use UII automation adapter to interact with external and web applications in Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 88bb2566-f82f-4020-b2d9-6fd18a833aad
 author: kabala123

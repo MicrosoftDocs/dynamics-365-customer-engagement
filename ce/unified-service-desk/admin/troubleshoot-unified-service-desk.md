@@ -2,19 +2,16 @@
 title: "Troubleshoot Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to troubleshoot and resolve issues in Unified Service Desk ."
 ms.custom: 
-  - dyn365-USD, dyn365-admin
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 856cde8b-e0a3-432e-bae0-0a77c53c5408
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: 
-  - admin
+search.audienceType: admin
 search.app: 
   - D365CE
   - D365USD

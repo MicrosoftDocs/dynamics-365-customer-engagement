@@ -5,10 +5,7 @@ ms.custom:
   - dyn365-a11y
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: D9FE67A6-2E02-48DF-B9C2-4250433D72BE
 author: kabala123

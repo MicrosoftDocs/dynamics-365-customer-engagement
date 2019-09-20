@@ -1,18 +1,14 @@
 ---
 title: "What's new in Unified Service Desk for developers and customizers | MicrosoftDocs"
 description: "Learn about the new features for developers and customizers in Unified Service Desk."
-keywords: ""
+ms.custom: dyn365-USD
 ms.date: 04/10/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 1c6da924-cfef-4cbf-a6d5-63af8f1a640d
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.tgt_pltfrm: 
 search.audienceType: 
   - customizer
   - developer

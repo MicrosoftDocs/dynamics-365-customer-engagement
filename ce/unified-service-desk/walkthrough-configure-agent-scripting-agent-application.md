@@ -1,12 +1,8 @@
 ---
-title: "Walkthrough 7: Configure agent scripting in your agent application | MicrosoftDocs"
-ms.custom: 
-  - dyn365-USD
+title: "Walkthrough 7  Configure agent scripting in your agent application | MicrosoftDocs"
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 083926df-aa2e-410c-9d23-719450c77edb
 author: kabala123

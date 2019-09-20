@@ -1,22 +1,17 @@
 ---
 title: "Unified Service Desk  Upgrade package | MicrosoftDocs"
 description: "Overview of the Upgrade sample application."
-keywords: 
-ms.date: 08/17/2018
-ms.service: 
-  - dynamics-365-customerservice
 ms.custom: 
-  - dyn365-USD, dyn365-admin
+  - dyn365-USD
+  - dyn365-admin
+ms.date: 08/17/2018
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 78fc6f0c-6192-455f-b8b9-511548c44d82
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-search.audienceType: 
-  - admin
+search.audienceType: admin
 search.app: 
   - D365CE
   - D365USD

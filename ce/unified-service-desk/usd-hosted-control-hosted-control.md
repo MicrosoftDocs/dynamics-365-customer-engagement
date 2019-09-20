@@ -1,13 +1,9 @@
 ---
 title: "USD Hosted Control (Hosted Control) | MicrosoftDocs"
 description: "Learn about the USD Hosted Control."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: cb30eace-2b56-47e5-acc4-969775276add
 author: kabala123

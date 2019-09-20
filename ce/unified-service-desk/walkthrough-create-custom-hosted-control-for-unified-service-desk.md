@@ -1,13 +1,9 @@
 ---
-title: "Walkthrough: Create custom hosted control for Unified Service Desk | MicrosoftDocs"
+title: "Walkthrough  Create custom hosted control for Unified Service Desk | MicrosoftDocs"
 description: "Learn about how to create a custom hosted control for Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 01/25/2019
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 7d184ce7-ba95-46ea-9219-67fd6821eba5
 author: kabala123

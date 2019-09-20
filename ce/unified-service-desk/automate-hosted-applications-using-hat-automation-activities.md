@@ -1,13 +1,9 @@
 ---
 title: "Automate hosted applications using HAT automation activities | MicrosoftDocs"
 description: "Learn about the Hosted Application Toolkit (HAT) Software Factory that provides a set of workflow activities to drive automations that help you to automate hosted applications."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: d6d724ee-b55b-4b2d-afe5-991a32ff1a3c
 author: kabala123

@@ -1,25 +1,21 @@
 ---
 title: "Overview of Unified Service Desk  | MicrosoftDocs"
-description: "Get started with Unified Service Desk "
+description: "Get started with Unified Service Desk"
 ms.custom: 
-  - dyn365-USD, dyn365-admin
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: hero-article
 ms.assetid: bccc29e3-23a7-4d5a-b53f-432510e63c99
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-tags: 
-  - MigrationHO
-search.audienceType: 
-  - admin
+search.audienceType: admin
 search.app: 
   - D365CE
   - D365USD
+tags: MigrationHO
 ---
 
 # Overview to Unified Service Desk

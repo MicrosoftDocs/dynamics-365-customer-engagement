@@ -1,19 +1,12 @@
 ---
-title: "Walkthrough 6: Configure the Debugger hosted control in your agent application | MicrosoftDocs"
-description: ""
-keywords: 
+title: "Walkthrough 6  Configure the Debugger hosted control in your agent application | MicrosoftDocs"
 ms.date: 05/07/2018
-ms.service: 
-  - usd
+ms.service: usd
 ms.topic: article
-applies_to: 
 ms.assetid: B87B63D0-7BE3-4B43-806A-29429D9DE75A
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 search.audienceType: 
   - customizer
   - developer

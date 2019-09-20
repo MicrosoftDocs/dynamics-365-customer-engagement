@@ -1,18 +1,13 @@
 ---
-title: "Walkthrough 1: Build a simple agent application in Unified Service Desk for Unified Interface apps | MicrosoftDocs"
+title: "Walkthrough 1  Build a simple agent application in Unified Service Desk for Unified Interface apps | MicrosoftDocs"
 description: "Demonstrates how to set up a basic agent application from scratch using Unified Service Desk that can connect to Customer Engagement."
-keywords: 
 ms.date: 05/07/2018
-ms.service: 
-  - usd
+ms.service: usd
 ms.topic: article
 ms.assetid: 75042EF8-9CA4-464B-A587-47B1F8265210
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 search.audienceType: 
   - customizer
   - developer
