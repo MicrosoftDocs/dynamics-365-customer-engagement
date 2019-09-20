@@ -1,5 +1,5 @@
 ---
-title: "Create or edit quick create forms in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Create or edit quick create forms in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to create or edit a quick create form"
 ms.custom: 
 ms.date: 04/29/2019

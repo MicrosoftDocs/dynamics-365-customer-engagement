@@ -1,5 +1,5 @@
 ---
-title: "Publish reports (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Publish reports (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -25,7 +25,7 @@ search.app:
 *This content also applies to the on-premises version.*
 To make reports available to users, publish the reports in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
   
-## Publish a report in Dynamics 365 for Customer Engagement apps by using the web application  
+## Publish a report in Dynamics 365 Customer Engagement (on-premises) by using the web application  
   
 1. Create a new report or modify a report by using [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create Custom Reports Using Business Intelligence Development Studio](../analytics/create-a-new-report-using-sql-server-data-tools.md)  
   

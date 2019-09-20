@@ -42,7 +42,7 @@ They will have familiar capabilities on Unified Interface and will also discover
 
 **Business process enhancement** - The business process flow has been improved by the docking mechanism. You can dock the business process stage on your screen to help you stay focused on the task at hand in your business process flow. This is especially useful when the stage of the process has complex steps to complete. 
 
-**Reference panel** - Use the reference panel for apps built on Unified Interface like Dynamics 365 for Customer Engagement apps for Customer Service. The reference panel is a great way to get work done without clicking away from the screen you are on. You can look up other things like knowledge base articles within the context of the record you are viewing. 
+**Reference panel** - Use the reference panel for apps built on Unified Interface like Customer Service Hub. The reference panel is a great way to get work done without clicking away from the screen you are on. You can look up other things like knowledge base articles within the context of the record you are viewing. 
 
 **Navigation** - The new menu options let you swiftly navigate the different apps in the system. It provides quick access to recently viewed records and pinned favorites. 
 

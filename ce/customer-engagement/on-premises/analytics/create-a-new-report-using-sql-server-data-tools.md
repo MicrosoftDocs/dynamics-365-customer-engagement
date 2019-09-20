@@ -1,5 +1,5 @@
 ---
-title: "Create a new report using SQL Server Data Tools (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Create a new report using SQL Server Data Tools (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 

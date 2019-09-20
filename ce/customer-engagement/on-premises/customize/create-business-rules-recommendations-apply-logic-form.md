@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
 
-You can create business rules and recommendations to apply form logic without writing [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code or creating plug-ins.  Business rules provide a simple interface to implement and maintain fast-changing and commonly used rules. They can be applied to Main and Quick Create forms, and they work in Dynamics 365 for Customer Engagement apps, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web apps, [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)], and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] (online or offline mode).  
+You can create business rules and recommendations to apply form logic without writing [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code or creating plug-ins.  Business rules provide a simple interface to implement and maintain fast-changing and commonly used rules. They can be applied to Main and Quick Create forms, and they work in Dynamics 365 Customer Engagement (on-premises), [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web apps, [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)], and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] (online or offline mode).  
 
  By combining conditions and actions, you can do any of the following with business rules:  
 

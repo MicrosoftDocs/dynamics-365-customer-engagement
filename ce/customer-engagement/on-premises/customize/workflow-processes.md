@@ -42,11 +42,11 @@ Workflows automate business processes without a user interface. People usually u
 ## Where do you customize workflow processes?  
  You can see the workflows in your organization by viewing the **Processes** node in the **Default Solution** and filtering on processes that have the **Category** **Workflow**.  
   
- ![Processes filtered by workflow in Dynamics 365 for Customer Engagement](../customize/media/workflow-processes-filtered.PNG "Processes filtered by workflow in Dynamics 365 for Customer Engagement apps")  
+ ![Processes filtered by workflow in Dynamics 365 for Customer Engagement](../customize/media/workflow-processes-filtered.PNG "Processes filtered by workflow in Dynamics 365 Customer Engagement (on-premises)")  
   
  Depending on how the app is built, users can create or modify their workflows in the app. 
  
-Developers can create workflows using information in the [Dynamics 365 for Customer Engagement apps Developer Guide](../developer/overview.md) and solutions you purchase may include workflows that you may modify.  
+Developers can create workflows using information in the [Dynamics 365 Customer Engagement (on-premises) Developer Guide](../developer/overview.md) and solutions you purchase may include workflows that you may modify.  
   
 <a name="BKMK_WorkflowProperties"></a>   
 ## Workflow properties  

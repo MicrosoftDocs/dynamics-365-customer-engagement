@@ -1,5 +1,5 @@
 ---
-title: "Add or edit app components with Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Add or edit app components with Dynamics 365 Customer Engagement (on-premises)| MicrosoftDocs"
 description: "Use the Dynamics 365 for Customer Engagement app designer to add or edit components"
 keywords: 
 ms.date: 03/04/2019

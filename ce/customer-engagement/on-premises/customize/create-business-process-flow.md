@@ -1,5 +1,5 @@
 ---
-title: "Create a business process flow in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Create a business process flow in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to create a business process flow"
 ms.custom: 
 ms.date: 11/09/2018
@@ -24,13 +24,13 @@ search.app:
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-This topic shows how to create a business process flow with Dynamics 365 for Customer Engagement apps. To learn more about why you use business process flows, see [Business process flows overview](../customize/business-process-flows-overview.md). For information on creating a mobile task flow, see [Create a mobile task flow](../customize/create-mobile-task-flow.md).  
+This topic shows how to create a business process flow with Dynamics 365 Customer Engagement (on-premises). To learn more about why you use business process flows, see [Business process flows overview](../customize/business-process-flows-overview.md). For information on creating a mobile task flow, see [Create a mobile task flow](../customize/create-mobile-task-flow.md).  
   
  When a user starts a business process flow, the stages and steps of the process are displayed in the process bar at the top of a form:  
   
  ![Business process with stages](../customize/media/business-process-stages.png "Business process with stages")  
   
- Dynamics 365 for Customer Engagement apps comes with several ready-to-use business process flows for common business scenarios. Add them to your system and use as is, or modify them to fit your business needs. To find out how to add ready-to-use business process flows, see [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md).  
+ Dynamics 365 Customer Engagement (on-premises) comes with several ready-to-use business process flows for common business scenarios. Add them to your system and use as is, or modify them to fit your business needs. To find out how to add ready-to-use business process flows, see [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md).  
   
 <a name="BKMK_Createbusinessprocessflows"></a>   
 ## Create a business process flow  

@@ -1,6 +1,6 @@
 ---
-title: "Customize Dynamics 365 for Customer Engagement apps Power BI content packs (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
-description: "Learn how to modify the available Power BI content packs to use with Dynamics 365 for Customer Engagement apps data."
+title: "Customize Dynamics 365 Customer Engagement (on-premises) Power BI content packs (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Learn how to modify the available Power BI content packs to use with Dynamics 365 Customer Engagement (on-premises) data."
 keywords: PBI
 ms.date: 09/30/2017
 ms.service: crm-online
@@ -24,14 +24,14 @@ search.app:
   - D365CE
 ---
 
-# Customize Dynamics 365 for Customer Engagement apps Power BI content packs
+# Customize Dynamics 365 Customer Engagement (on-premises) Power BI content packs
 *This content also applies to the on-premises version.*
 [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] is a comprehensive collection of services and  tools that you use to visualize your business data.  Content packs are available that make it easy to visualize and analyze the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps data with [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] based on a standard data model. The content packs are built with a set of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps entities and fields that are useful for most sales, service, or marketing reporting scenarios.  
   
  Instances of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps are often extended with custom fields. These custom fields don’t automatically show up in the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] model. This topic describes the different ways that you can edit or extend the reports included in a content pack to include custom fields in the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] model.  
     
 <a name="PBI_edit_first"></a>   
-## Do this before you customize a Dynamics 365 for Customer Engagement apps content pack for Power BI reports  
+## Do this before you customize a Dynamics 365 Customer Engagement (on-premises) content pack for Power BI reports  
  Before you customize a content pack, read  the information here and perform each task  as necessary.  
   
 ### Meet the requirements  
@@ -46,7 +46,7 @@ search.app:
   
   -   [Download the Dynamics CRM Online Service Manager.PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Customer%20Service%20Manager.pbix)  
   
-  -   [Download the Dynamics 365 for Customer Engagement apps Process Analyzer .PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Process%20Analyzer%20-1.34b.pbix)  
+  -   [Download the Dynamics 365 Customer Engagement (on-premises) Process Analyzer .PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Process%20Analyzer%20-1.34b.pbix)  
   
   [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] content packs are currently only supported in the U.S. English language.  
   
@@ -82,7 +82,7 @@ search.app:
     The content pack queries are updated. This may take several minutes.  
   
 <a name="PBI_edit_report"></a>   
-## Customize a Dynamics 365 for Customer Engagement apps content pack  
+## Customize a Dynamics 365 Customer Engagement (on-premises) content pack  
  [Change the date format that is displayed in a report](#PBI_edit_date)  
   
  [Add a custom field to a report for any entity except Account](#PBI_edit_field)  
@@ -344,4 +344,4 @@ search.app:
 3. If multiple destinations are available, select the one you want, and then click **Publish**.  
   
 ### See also  
- [Use Power BI with Dynamics 365 for Customer Engagement apps](../admin/use-power-bi.md)
+ [Use Power BI with Dynamics 365 Customer Engagement (on-premises)](../admin/use-power-bi.md)
