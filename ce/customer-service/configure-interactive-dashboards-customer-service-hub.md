@@ -5,12 +5,10 @@ author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 ms.date: 03/15/2018
-ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
+ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
+ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
 search.audienceType: 
   - admin
   - customizer

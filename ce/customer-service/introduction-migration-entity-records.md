@@ -2,8 +2,6 @@
 title: "Introduction to migration of entity records (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn how to migrate entity records from the legacy Service Scheduling to the Unified Interface Service Scheduling in Dynamics 365 Customer Service"
 author: kabala123
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: kabala
 manager: shujoshi
 ms.date: 08/07/2019

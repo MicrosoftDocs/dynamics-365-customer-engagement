@@ -7,10 +7,9 @@ manager: shujoshi
 ms.date: 07/30/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ms.assetid: 14948307-A824-4DA6-BE20-6B323182FCDF
 ms.custom: dyn365-customerservice
-search.audienceType: 
-  - developer
+ms.assetid: 14948307-A824-4DA6-BE20-6B323182FCDF
+search.audienceType: developer
 search.app: 
   - D365CE
   - D365CS

@@ -2,14 +2,13 @@
 title: Understanding Cases and SLA in Customer Service Hub | Microsoft Docs
 description: Understand Cases and SLA in Customer Service Hub for Dynamics 365 Customer Service.
 author: anjgupta
-applies_to: Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
 ms.custom: dyn365-customerservice
+ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
 search.audienceType: 
   - admin
   - customizer

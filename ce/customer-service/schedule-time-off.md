@@ -2,8 +2,6 @@
 title: Schedule time off (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Understand how to schedule time off in Dynamics 365 Customer Service
 author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 09/15/2017

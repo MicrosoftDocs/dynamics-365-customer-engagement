@@ -2,15 +2,13 @@
 title: Service Manager Guide (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Service Management Guide for Dynamics 365 Customer Service.
 author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: get-started-article
 ms.service: dynamics-365-customerservice
-ms.assetid: fbf7f81b-5c92-40a5-8579-711027c4d8ad
 ms.custom: dyn365-customerservice
+ms.assetid: fbf7f81b-5c92-40a5-8579-711027c4d8ad
 search.audienceType: 
   - admin
   - customizer

@@ -2,8 +2,6 @@
 title: Overview of Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know the basics of service and service scheduling in Dynamics 365 Customer Service
 author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 06/17/2019

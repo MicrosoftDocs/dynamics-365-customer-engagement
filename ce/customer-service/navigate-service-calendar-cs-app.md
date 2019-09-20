@@ -1,15 +1,13 @@
 ---
 title: Navigate the service calendar (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Understand how to navigate the service calendar in Dynamics 365 Customer Service
-ms.custom: dyn365-customerservice
-ms.date: 09/15/2017
-ms.service: dynamics-365-customerservice
-ms.topic: article
+author: anjgupta
 ms.author: anjgup
 manager: shujoshi
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-author: anjgupta
+ms.date: 09/15/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.custom: dyn365-customerservice
 ms.assetid: 9b3b8279-47b2-47c6-b390-4af0289ceca1
 search.audienceType: 
   - admin

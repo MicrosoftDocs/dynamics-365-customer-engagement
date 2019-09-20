@@ -7,8 +7,8 @@ manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ms.assetid: 1cbbf33b-e194-4ff3-b840-64e60b094dc9
 ms.custom: dyn365-customerservice
+ms.assetid: 1cbbf33b-e194-4ff3-b840-64e60b094dc9
 search.audienceType: 
   - admin
   - customizer

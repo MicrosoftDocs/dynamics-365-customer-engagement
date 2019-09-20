@@ -1,19 +1,14 @@
 ---
 title: "Create templates for knowledge article for Dynamics 365 Customer Service | MicrosoftDocs"
-ms.custom: 
-ms.date: 07/31/2019
-ms.reviewer: 
-ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-ms.assetid: b47eec74-e83c-4cfe-b7a0-a9195a3ac4da
-caps.latest.revision: 35
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-search.audienceType: 
-  - admin
+ms.date: 07/31/2019
+ms.topic: article
+ms.service: crm-online
+ms.assetid: b47eec74-e83c-4cfe-b7a0-a9195a3ac4da
+search.audienceType: admin
+caps.latest.revision: 35
 ---
 
 # Create knowledge article template

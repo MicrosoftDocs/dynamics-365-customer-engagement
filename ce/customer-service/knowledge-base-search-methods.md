@@ -2,16 +2,13 @@
 title: Knowledge base search mechanisms in Dynamics 365 Customer Service| MicrosoftDocs
 description: Know how the Knowledge base search mechanisms and methods works in Microsoft Dynamics 365 Customer Service
 author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 8.2
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ms.assetid: 16e57ec7-e14e-4ffa-9ca7-54a4fa63b4a9
 ms.custom: dyn365-customerservice
+ms.assetid: 16e57ec7-e14e-4ffa-9ca7-54a4fa63b4a9
 search.audienceType: 
   - admin
   - customizer

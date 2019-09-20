@@ -1,16 +1,13 @@
 ---
 title: "Migrate Service Activity entity (Developer Guide for Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Service Activity is not directly available in the new scheduling experience. Read how you can migrate Service Activity to the new scheduling experience."
-ms.date: 11/27/2018
-ms.reviewer: ""
-ms.service: crm-online
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-ms.assetid: 0965FCB8-22B4-47B6-931B-D0AE31722E30
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
+ms.date: 11/27/2018
+ms.topic: "get-started-article"
+ms.service: crm-online
+ms.assetid: 0965FCB8-22B4-47B6-931B-D0AE31722E30
 ---
 
 # Migrate Service Activity entity
