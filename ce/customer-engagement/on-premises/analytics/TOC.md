@@ -18,12 +18,8 @@
 ## [Best practices](best-practices-reports.md)
 ## [Improve performance](improve-performance-reports.md)
 ## [Improve performance by using filters](improve-report-performance-by-using-filters.md)
-## [Reporting considerations](reporting-considerations.md)
-## [RDL sandboxing](rdl-sandboxing.md)
 
 # [Example reports](example-reports.md)
 ## [Limit the number of items displayed in a chart](example-limit-number-items-displayed-chart.md)
 ## [Display the top X values](example-display-top-x-values.md)
 ## [Make a report context-sensitive](example-make-report-context-sensitive.md)
-
-# [Customize Power BI content packs](customize-power-bi-content-packs.md)
