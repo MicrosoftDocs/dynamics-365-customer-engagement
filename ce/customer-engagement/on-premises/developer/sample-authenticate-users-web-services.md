@@ -28,7 +28,7 @@ search.app:
 
 # Sample: Authenticate users with Dynamics 365 Customer Engagement web services
 
-This sample shows how to authenticate a user with any Dynamics 365 Customer Engagement (on-premises) deployment and obtain a reference to the web services. This sample includes support for [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] users provisioned in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+This sample shows how to authenticate a user with any Dynamics 365 Customer Engagement (on-premises) deployment and obtain a reference to the web services. This sample includes support for [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] users provisioned in Dynamics 365 Customer Engagement (on-premises).  
   
  Download the sample: [Authenticate users with Microsoft Dynamics 365 Customer Engagement web services](https://code.msdn.microsoft.com/Authenticate-users-with-707e0375).
 
@@ -36,7 +36,7 @@ This sample shows how to authenticate a user with any Dynamics 365 Customer Enga
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
   
 ## Demonstrates  
- This sample demonstrates how to authenticate a user with any [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] deployment and make web service calls. This sample doesn’t rely on the CrmServiceHelpers.cs helper code. For a sample that does use helper code, see [Sample: QuickStart sample program](sample-quick-start.md).  
+ This sample demonstrates how to authenticate a user with any Dynamics 365 Customer Engagement (on-premises) deployment and make web service calls. This sample doesn’t rely on the CrmServiceHelpers.cs helper code. For a sample that does use helper code, see [Sample: QuickStart sample program](sample-quick-start.md).  
   
 ## Example  
  [!code-csharp[authenticatewithnohelp#authenticatewithnohelp](../snippets/csharp/CRMV8/authenticatewithnohelp/cs/authenticatewithnohelp.cs#authenticatewithnohelp)]  
