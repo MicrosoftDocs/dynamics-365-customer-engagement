@@ -20,19 +20,14 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use the Organization service
+# Use the Dynamics 365 Customer Engagement (on-premises) Organization service
 
 Learn about the techniques available to you when developing managed application code that accesses the Organization service using .NET SDK assemblies. Learn how to access the service, retrieve data, and perform the many supported web service operations.
 
-> [!NOTE]
-> [!INCLUDE[cc-cdsnote-1](./includes/cc-cdsnote-1.md)]
->
-> The Organization service programming documentation that is applicable to Dynamics 365 Customer Engagement (on-premises) (online) users is now available in the Common Data Service documentation at: [Use the Common Data Service Organization Service](/powerapps/developer/common-data-service/org-service/overview)
->
-> [!INCLUDE[cc-cdsnote-2-section](./includes/cc-cdsnote-2-section.md)]
-  
 ### See also
 
 [Choose your development style](choose-development-style.md)
 
 [Developer tools](developer-tools.md)
+
+[Use the Common Data Service Organization Service](/powerapps/developer/common-data-service/org-service/overview)

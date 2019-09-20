@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: ff791d05-326a-42be-a9fb-912a8bb497d0
 caps.latest.revision: 15
 author: Mattp123
@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Edit an organization's attributes
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Before you can edit an organization, you must disable it. After you make the changes, re-enable the organization.  
   
@@ -26,7 +26,7 @@ Before you can edit an organization, you must disable it. After you make the cha
  You cannot change the name of the organization.  
   
 > [!TIP]
->  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the Disable-CrmOrganization and Edit-CrmOrganization commands in the [Microsoft Dynamics 365 for Customer Engagement PowerShell Reference](/powershell/module/microsoft.crm.powershell/?view=dynamics365ce-ps).  
+>  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the Disable-CrmOrganization and Edit-CrmOrganization commands in the [Microsoft Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/module/microsoft.crm.powershell/?view=dynamics365ce-ps).  
   
 ### Edit an organization  
   

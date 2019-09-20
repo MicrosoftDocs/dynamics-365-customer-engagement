@@ -26,14 +26,14 @@ search.app:
 
 **CrmSvcUtil.exe** is a command-line code generation tool for use Dynamics 365 Customer Engagement (on-premises). This tool generates early-bound [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] classes that represent the entity data model used by Dynamics 365 Customer Engagement (on-premises).
 
-The code generation tool (CrmSvcUtil.exe) is distributed as part of the [Microsoft.CrmSdk.CoreTools](https://www.nuget.org/packages/Microsoft.CrmSdk.CoreTools) NuGet package. For information about downloading the code generation tool (CrmSvcUtil.exe), see [Download tools from NuGet](../download-tools-NuGet.md).
+The code generation tool (CrmSvcUtil.exe) is distributed as part of the [Microsoft.CrmSdk.CoreTools](https://www.nuget.org/packages/Microsoft.CrmSdk.CoreTools) NuGet package. For information about downloading the code generation tool (CrmSvcUtil.exe), see [Download tools from NuGet](download-tools-NuGet.md).
 
 <a name="bkmk_about"></a>
 ## About the code generation tool
 
-The **CrmSvcUtil.exe** tool creates a [!INCLUDE[pn_MS_Visual_C#](../includes/pn-ms-visual-csharp.md)] or [!INCLUDE[pn_Visual_Basic](../includes/pn-visual-basic.md)] output file that contains strongly-typed classes for entities in your organization. This includes custom entities and attributes. This output file contains one class for each entity, providing early binding and [!INCLUDE[pn_IntelliSense](../includes/pn-intellisense.md)] support in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] to aid you as you write custom code. The generated classes are partial classes that can be extended with custom business logic in separate files. You can also create extensions to this tool. For more information, see [Create Extensions for the Code Generation Tool](extend-code-generation-tool.md).  
+The **CrmSvcUtil.exe** tool creates a [!INCLUDE[pn_MS_Visual_C#](../includes/pn-ms-visual-csharp.md)] or [!INCLUDE[pn_Visual_Basic](../includes/pn-visual-basic.md)] output file that contains strongly-typed classes for entities in your organization. This includes custom entities and attributes. This output file contains one class for each entity, providing early binding and [!INCLUDE[pn_IntelliSense](../includes/pn-intellisense.md)] support in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] to aid you as you write custom code. The generated classes are partial classes that can be extended with custom business logic in separate files. You can also create extensions to this tool. For more information, see [Create extensions for the code generation tool](/powerapps/developer/common-data-service/org-service/extend-code-generation-tool) in the Common Data Service documentation.  
 
-The tool can also be used to generate a class derived from the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext> class that acts as an entity container in the entity data model. This service context provides the facilities for tracking changes and managing identities, concurrency, and relationships. This class also exposes a <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.SaveChanges> method that writes inserts, updates, and deletes records in Dynamics 365 Customer Engagement (on-premises). For more information, see [Use the Organization Service Context Class](use-the-organizationservicecontext-class.md).  
+The tool can also be used to generate a class derived from the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext> class that acts as an entity container in the entity data model. This service context provides the facilities for tracking changes and managing identities, concurrency, and relationships. This class also exposes a <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.SaveChanges> method that writes inserts, updates, and deletes records in Dynamics 365 Customer Engagement (on-premises). For more information, see [Use OrganizatioServiceContext](/powerapps/developer/common-data-service/org-service/organizationservicecontext) in the Common Data Service documentation.  
 
 The code generation tool takes several parameters that determine the contents of the file that is created. The parameters can be passed in from the command line when you run the tool or in a .NET-connected application configuration file.  
 
@@ -111,9 +111,8 @@ The following sample shows how to configure the output file and the domain name 
 
 ### See Also
 
- [Developer Tools for Dynamics 365 Customer Engagement (on-premises)](../developer-tools.md)<br />
- [Browse the Metadata for Your Organization](../browse-your-metadata.md)<br />
- [Create an Extensions for the Code Generation Tool](extend-code-generation-tool.md)<br />
- [Use the Early Bound Entity Classes for Create, Update and Delete](use-entity-class-create-update-delete.md)<br />
- [Troubleshooting Tips](troubleshooting-tips.md)<br />
- [Run a simple program using Customer Engagement web services](../simple-program-web-services.md)<br />
+ [Developer Tools for Dynamics 365 Customer Engagement (on-premises)](developer-tools.md)<br />
+ [Browse the Metadata for Your Organization](browse-your-metadata.md)<br />
+ [Create extensions for the code generation tool](/powerapps/developer/common-data-service/org-service/extend-code-generation-tool)<br />
+ [Late-bound and Early-bound programming using the Organization service](/powerapps/developer/common-data-service/org-service/early-bound-programming)<br />
+ [Run a simple program using Customer Engagement web services](simple-program-web-services.md)<br />

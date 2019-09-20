@@ -1,5 +1,5 @@
 ---
-title: "Create and edit virtual entities with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Create and edit virtual entities with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to create virtual entities"
 ms.custom: 
 ms.date: 11/09/2018
@@ -24,13 +24,13 @@ search.app:
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-A virtual entity is a custom entity in Dynamics 365 for Customer Engagement apps that has fields containing data from an external data source. Virtual entities appear in your app to users as regular entity records, but contain data that is sourced from an external database, such as an [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)]. Records based on virtual entities are available in all clients including custom clients developed using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)].  
+A virtual entity is a custom entity in Dynamics 365 Customer Engagement (on-premises) that has fields containing data from an external data source. Virtual entities appear in your app to users as regular entity records, but contain data that is sourced from an external database, such as an [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)]. Records based on virtual entities are available in all clients including custom clients developed using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)].  
   
  In the past, to integrate the disparate data sources you would need to create a connector to move data or develop a custom plug-in, either client or server-side. However, with virtual entities you can connect directly with an external data source  at runtime so that specific data from the external data source is available in an environmnent, without the need for data replication.  
 
-Virtual entities are made up of three main components, a *data provider*, a *data source* record, and a *virtual entity*. The data provider consists of plug-ins and a data source entity. The data source is an entity record in Dynamics 365 for Customer Engagement apps, which includes metadata that represents the schema of the connection parameters. Each virtual entity references a data source in the entity definition.  
+Virtual entities are made up of three main components, a *data provider*, a *data source* record, and a *virtual entity*. The data provider consists of plug-ins and a data source entity. The data source is an entity record in Dynamics 365 Customer Engagement (on-premises), which includes metadata that represents the schema of the connection parameters. Each virtual entity references a data source in the entity definition.  
   
-Dynamics 365 for Customer Engagement apps includes an OData Data Provider that you can use to connect with an OData v4 web service that accesses the external data. 
+Dynamics 365 Customer Engagement (on-premises) includes an OData Data Provider that you can use to connect with an OData v4 web service that accesses the external data. 
   
 Alternatively, developers can build their own data providers. Data providers are installed in an environment as a solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](../developer/virtual-entities/get-started-ve.md)
   
@@ -41,7 +41,7 @@ Alternatively, developers can build their own data providers. Data providers are
   
 - Developers can implement plugins to read external data using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Plug-in Registration tool.  
   
-- System customizers use Dynamics 365 for Customer Engagement apps to configure the data source record and create virtual entities that are used to access external data without writing any code.  
+- System customizers use Dynamics 365 Customer Engagement (on-premises) to configure the data source record and create virtual entities that are used to access external data without writing any code.  
   
 - End users work with the records created by the virtual entity to view the data in fields, grids, search results, and Fetch XML-based reports and dashboards.  
   
@@ -57,7 +57,7 @@ Alternatively, developers can build their own data providers. Data providers are
     
    - *Custom data provider*. If you've imported a data  provider plug-in, the data provider will appear here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](https://docs.microsoft.com/dynamics365/#pivot=developer&panel=developer_sales)  
     
-   - **OData v4 Data Provider**. Dynamics 365 for Customer Engagement apps includes an OData Data Provider that can be used with OData v4 web services. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [OData v4 Data Provider configuration, requirements, and best practices](virtual-entity-odata-provider-requirements.md)
+   - **OData v4 Data Provider**. Dynamics 365 Customer Engagement (on-premises) includes an OData Data Provider that can be used with OData v4 web services. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [OData v4 Data Provider configuration, requirements, and best practices](virtual-entity-odata-provider-requirements.md)
   
 ### Add a secured field to a Data Source
 You create fields for a Data Source in the same way as any other entity. For data that is encrypted or sensitive, enable the Data Source Secret attribute on the custom field of the Data Source. For example, to secure a field that contains a database connection string. 
@@ -135,7 +135,7 @@ You create fields for a Data Source in the same way as any other entity. For dat
   
 - A virtual entity can't be an activity type of entity.  
   
-- Many features that affect entity table rows cannot be enabled with virtual entities.  Examples include queues, knowledge management, SLAs, duplicate detection, change tracking, mobile offline  capability, field security, Relevance Search, Portals for Dynamics 365 for Customer Engagement apps web portal solutions, and N:N relationships between virtual entities.  
+- Many features that affect entity table rows cannot be enabled with virtual entities.  Examples include queues, knowledge management, SLAs, duplicate detection, change tracking, mobile offline  capability, field security, Relevance Search, Portals for Dynamics 365 Customer Engagement (on-premises) web portal solutions, and N:N relationships between virtual entities.  
   
 - Virtual entities are organization owned and don't support the row-level Commond Data Service for Apps security concepts. We recommend that you implement your own security model for the external data source.  
   

@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Test internal claims-based authentication
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You should now be able to access [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] internally using claims authentication. Browse to the internal [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] webpage (for example, https://internalcrm.contoso.com).  
   

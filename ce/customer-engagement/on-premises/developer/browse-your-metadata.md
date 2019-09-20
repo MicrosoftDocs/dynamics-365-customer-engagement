@@ -25,12 +25,12 @@ search.app:
 
 # Browse the metadata for your organization
 
-You can use the Entity Metadata Browser to view entities and their properties in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The Entity Metadata Browser is a managed solution you can download using the links below.
+You can use the Entity Metadata Browser to view entities and their properties in Dynamics 365 Customer Engagement (on-premises). The Entity Metadata Browser is a managed solution you can download using the links below.
 
 
 |                                                                                               Version                                                                                                |                                                                                     Download                                                                                      |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                              [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)] (v9.0)                                                              | [Microsoft Downloads: MetadataBrowser_3_0_0_5_managed.zip](http://download.microsoft.com/download/8/E/3/8E3279FE-7915-48FE-A68B-ACAFB86DA69C/MetadataBrowser_3_0_0_5_managed.zip) |
+|                                                              Dynamics 365 Customer Engagement (on-premises)                                                              | [Microsoft Downloads: MetadataBrowser_3_0_0_5_managed.zip](http://download.microsoft.com/download/8/E/3/8E3279FE-7915-48FE-A68B-ACAFB86DA69C/MetadataBrowser_3_0_0_5_managed.zip) |
 | [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] (v8.2\) [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)] (v8.1) | [Microsoft Downloads: MetadataBrowser_3_0_0_4_managed.zip](http://download.microsoft.com/download/C/5/D/C5DEA99B-5CD1-40BA-BAB8-15CDC956FDAB/MetadataBrowser_3_0_0_4_managed.zip) |
 |                                                                         Dynamics CRM Online 2016 Update and CRM 2016 (v8.0)                                                                          | [Microsoft Downloads: MetadataBrowser_3_0_0_2_managed.zip](http://download.microsoft.com/download/6/D/3/6D341DDC-01B4-44A3-925D-D9188342E3B4/MetadataBrowser_3_0_0_2_managed.zip) |
 
@@ -89,7 +89,7 @@ You can perform the following actions:
 
 ## Community tools
 
-**Metadata Browser** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Please see the [Developer tools](developer-tools.md) topic for community developed tools.
+**Metadata Browser** is a tool that XrmToolbox community developed for Dynamics 365 Customer Engagement (on-premises). Please see the [Developer tools](developer-tools.md) topic for community developed tools.
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 

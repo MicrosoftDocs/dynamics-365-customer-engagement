@@ -76,4 +76,4 @@ Store documents related to your Dynamics 365 Customer Engagement (on-premises) r
   
 ### See also  
  [Set up SharePoint integration](set-up-sharepoint-integration.md)   
- [Switching from the list component or changing the deployment](switch-dynamics-crm-online-dynamics-365.md)
+

@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Troubleshoot Dynamics 365 Server IFD
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 ## A quick checklist  
   

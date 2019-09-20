@@ -78,7 +78,7 @@ User and team management is the area of [!INCLUDE[pn_microsoftcrm](../includes/p
 
 ## Community tools
 
-**User Settings Utility** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Please see the [Developer tools](developer-tools.md) topic for community developed tools.
+**User Settings Utility** is a tool that XrmToolbox community developed for Dynamics 365 Customer Engagement (on-premises). Please see the [Developer tools](developer-tools.md) topic for community developed tools.
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools.

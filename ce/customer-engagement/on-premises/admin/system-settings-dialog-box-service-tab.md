@@ -55,4 +55,4 @@ Use the Service tab in System Settings to set preferences for the customer servi
   
 ### See also  
 
-[Service Manager guide (Customer Service Hub)](../customer-service/service-manager-guide.md) <br>
+[Service Manager guide (Customer Service Hub)](../../../customer-service/service-manager-guide.md) <br>

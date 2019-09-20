@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Install Microsoft Dynamics 365 Reporting Extensions using a command prompt
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] are data processing extensions that are installed on the [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] server. [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] accept the authentication information from [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] and pass it to the [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] server.  
   
@@ -37,7 +37,7 @@ manager: kvivek
 -   For smaller data sets and fewer users, it may be suitable to use a single-server deployment where [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] database engine and [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] run on the same server. However, with larger datasets or more users, performance will decrease quickly when complex reports are run, so we recommend that you use a multi-server deployment with one computer running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] for the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases, and another server for [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)].  
   
 ## Command example  
- [!INCLUDE[pn_Microsoft_Dynamics_CRM_Reporting_Extensions_Setup](../includes/pn-microsoft-dynamics-crm-reporting-extensions-setup.md)] accepts the same command-line parameters as [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)]. To install Dynamics 365 Reporting Extensions in quiet mode, which uses an XML configuration file named **install-config.xml**, and creates a log file named **log.txt**, run the Setup program that is located in the **SrsDataConnector** folder from the Dynamics 365 for Customer Engagement installation files as follows:  
+ [!INCLUDE[pn_Microsoft_Dynamics_CRM_Reporting_Extensions_Setup](../includes/pn-microsoft-dynamics-crm-reporting-extensions-setup.md)] accepts the same command-line parameters as [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)]. To install Dynamics 365 Reporting Extensions in quiet mode, which uses an XML configuration file named **install-config.xml**, and creates a log file named **log.txt**, run the Setup program that is located in the **SrsDataConnector** folder from the Dynamics 365 Customer Engagement (on-premises) installation files as follows:  
   
  SetupSrsDataConnector /Q /CONFIG folderpath\install-config.xml /L c:\logfiles\crm\log.txt  
   

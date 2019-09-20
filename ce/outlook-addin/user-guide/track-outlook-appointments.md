@@ -8,8 +8,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps 
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -70,4 +70,4 @@ You can track an appointment in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook]
   
 ### See also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

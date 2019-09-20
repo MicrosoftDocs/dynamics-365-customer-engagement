@@ -1,5 +1,5 @@
 ---
-title: "Customize Dynamics 365 for phones and tablets (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Customize Dynamics 365 for phones and tablets (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 06/18/2019
 ms.reviewer: 
@@ -29,7 +29,7 @@ With [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you can d
 
  After you’ve made customizations to a form, users will see a prompt to download updates the next time they open their mobile app.  
 
- [Watch a short video (1:51) about customizing the Dynamics 365 for Customer Engagement apps mobile app](https://go.microsoft.com/fwlink/p/?linkid=836829).  
+ [Watch a short video (1:51) about customizing the Dynamics 365 Customer Engagement (on-premises) mobile app](https://go.microsoft.com/fwlink/p/?linkid=836829).  
 
 
 ## Home page for Dynamics 365 for phones and tablets  
@@ -41,15 +41,15 @@ With [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you can d
 
  **Web app**  
 
- ![Dynamics 365 for Customer Engagement form reflow from web app](../customize/media/custon-reflow-web-app.png "Dynamics 365 for Customer Engagement apps form reflow from web app")  
+ ![Dynamics 365 for Customer Engagement form reflow from web app](../customize/media/custon-reflow-web-app.png "Dynamics 365 Customer Engagement (on-premises) form reflow from web app")  
 
  **Tablet app**  
 
- ![Dynamics 365 for Customer Engagement form reflow to tablet app](../customize/media/reflow-tablet-app.png "Dynamics 365 for Customer Engagement apps form reflow to tablet app")  
+ ![Dynamics 365 for Customer Engagement form reflow to tablet app](../customize/media/reflow-tablet-app.png "Dynamics 365 Customer Engagement (on-premises) form reflow to tablet app")  
 
  **Phone app**  
 
- ![Dynamics 365 for Customer Engagement form reflow to phone app](../customize/media/custon-reflow-phone-app.png "Dynamics 365 for Customer Engagement apps form reflow to phone app")  
+ ![Dynamics 365 for Customer Engagement form reflow to phone app](../customize/media/custon-reflow-phone-app.png "Dynamics 365 Customer Engagement (on-premises) form reflow to phone app")  
 
  Dynamics 365 for phones and tablets does not provide the capability to switch between forms. If you have more than one main form for an entity, the one displayed depends on the form order set and which security roles are assigned to the form. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Multiple forms](../customize/main-form-presentations.md#BKMK_MultipleForms)  
 

@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
   - Dynamics CRM 2016
 ms.assetid: 3ffb8f29-2bc2-4074-8c44-f7e3cb4a14be
 caps.latest.revision: 19
@@ -18,7 +18,7 @@ manager: kvivek
 ---
 # Install and enable a Language Pack
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Follow the procedures in this topic to install a [!INCLUDE[pn_Microsoft_Dynamics_CRM_Language_Pack](../includes/pn-microsoft-dynamics-crm-language-pack.md)].  
   
@@ -30,7 +30,7 @@ Follow the procedures in this topic to install a [!INCLUDE[pn_Microsoft_Dynamics
   
 2.  Verify that you have local Administrator permission on the computer and System Administrator security role or equivalent privileges on [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
-3. Download the [Microsoft Dynamics 365 for Customer Engagement Language Pack](https://go.microsoft.com/fwlink/?linkid=2025434).  
+3. Download the [Microsoft Dynamics 365 Customer Engagement (on-premises) Language Pack](https://go.microsoft.com/fwlink/?linkid=2025434).  
   
 4.  Where the [!INCLUDE[pn_Language_Pack_short](../includes/pn-language-pack-short.md)] files are located, double-click the file MUISetup_<`loc_code`>_<`proc_type`>.msi file,  
   
@@ -42,7 +42,7 @@ Follow the procedures in this topic to install a [!INCLUDE[pn_Microsoft_Dynamics
   
 5.  On the  **License Agreement** page, review the information and, if you accept the terms of the agreement, select **I accept the terms in the License Agreement**, and then select **Install**.  
   
-     Setup copies the [!INCLUDE[pn_Language_Pack_short](../includes/pn-language-pack-short.md)] files to the correct locations in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. By default, the [!INCLUDE[pn_Language_Pack_short](../includes/pn-language-pack-short.md)] files are copied to drive:\Program Files\Microsoft Dynamics 365 for Customer Engagement\LangPacks\\<loc_code>, where <loc_code> is the locale code for the [!INCLUDE[pn_Language_Pack_short](../includes/pn-language-pack-short.md)] that you are installing.  
+     Setup copies the [!INCLUDE[pn_Language_Pack_short](../includes/pn-language-pack-short.md)] files to the correct locations in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. By default, the [!INCLUDE[pn_Language_Pack_short](../includes/pn-language-pack-short.md)] files are copied to drive:\Program Files\Microsoft Dynamics 365 Customer Engagement (on-premises)\LangPacks\\<loc_code>, where <loc_code> is the locale code for the [!INCLUDE[pn_Language_Pack_short](../includes/pn-language-pack-short.md)] that you are installing.  
   
 6.  To complete the installation, select **Finish**.  
   
@@ -51,5 +51,5 @@ Follow the procedures in this topic to install a [!INCLUDE[pn_Microsoft_Dynamics
 7.  Enable the language packs that you want to make available to users. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable languages](../admin/enable-languages.md)  
   
 ## See also  
-[Microsoft Dynamics 365 for Customer Engagement language support](microsoft-dynamics-365-language-support.md)
+[Microsoft Dynamics 365 Customer Engagement (on-premises) language support](microsoft-dynamics-365-language-support.md)
 

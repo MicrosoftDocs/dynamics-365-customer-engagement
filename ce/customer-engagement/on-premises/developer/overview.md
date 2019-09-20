@@ -1,10 +1,10 @@
 ---
 title: "Developer Guide for Dynamics 365 Customer Engagement (on-premises)| MicrosoftDocs"
-description: "This SDK contains a wealth of resources, including code samples, which are designed to help you build powerful vertical applications using the Customer Engagement platform. It is a guide for developers writing solutions, server-side code, client applications and extensions, custom business logic, plug-ins, integration modules, custom workflow modules and more. The SDK contains an architectural overview of Customer Engagement, the entity model, security model, web services, and sample code."
+description: "This SDK contains a wealth of resources, including code samples, which are designed to help you build powerful vertical applications using the Customer Engagement (on-premises) platform. It is a guide for developers writing solutions, server-side code, client applications and extensions, custom business logic, plug-ins, integration modules, custom workflow modules and more. The SDK contains an architectural overview of Customer Engagement, the entity model, security model, web services, and sample code."
 ms.custom: 
-ms.date: 02/04/2019
+ms.date: 09/30/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.service: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -22,11 +22,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Developer Guide for Dynamics 365 Customer Engagement (on-premises)
+# Developer Guide for Dynamics 365 Customer Engagement (on-premises), version 9.x
 
-Welcome to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]  apps Developer Guide. This documentation is for version 9.x.
+Welcome to the Dynamics 365 Customer Engagement (on-premise) Developer Guide.
 
-For documentation of earlier versions (8.x and earlier), visit <https://docs.microsoft.com/previous-versions/dynamics/>.
+For documentation of earlier versions (8.x and earlier), see <https://docs.microsoft.com/previous-versions/dynamics/>.
 
 <table>
 <tr>
@@ -66,7 +66,6 @@ For documentation of earlier versions (8.x and earlier), visit <https://docs.mic
 <li><a href="use-microsoft-dynamics-365-web-api.md" data-raw-source="[Web API](use-microsoft-dynamics-365-web-api.md)">Web API</a></li>
 <li><a href="org-service/get-started-managed-code-application-development.md" data-raw-source="[Organization service](org-service/get-started-managed-code-application-development.md)">Organization service</a></li>
 <li><a href="use-discovery-service.md" data-raw-source="[Discovery service](use-discovery-service.md)">Discovery service</a></li>
-<li><a href="online-management-api.md" data-raw-source="[Online Management API](online-management-api.md)">Online Management API</a></li>
 </td>
 </tr>
 
@@ -115,9 +114,6 @@ For documentation of earlier versions (8.x and earlier), visit <https://docs.mic
 <tr>
 <td>
 <h2> Additional resources </h2>
-
-<li><a href="../field-service/developer/connected-field-service-developer-guide.md" data-raw-source="[Developer Guide for Connected Field Service](../field-service/developer/connected-field-service-developer-guide.md)">Developer Guide for Connected Field Service</a></li>
-<!--<li>[Developer Guide for Dynamics 365 for Marketing](../marketing/developer/marketing-developer-guide.md)</li>-->
 <li><a href="sample-code-directory.md" data-raw-source="[Sample code directory](sample-code-directory.md)">Sample code directory</a></li>
 <li><a href="download-tools-nuget.md" data-raw-source="[Tools on NuGet](download-tools-nuget.md)">Tools on NuGet</a></li>
 </td>

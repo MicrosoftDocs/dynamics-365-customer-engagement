@@ -27,7 +27,7 @@ The asynchronous service executes long-running operations independent of the mai
 This results in improved overall system performance and improved scalability. The asynchronous service features a managed queue for the execution of 
 asynchronous registered plug-ins, workflows, and operations such as bulk mail, bulk import, and campaign activity propagation. These operations are 
 registered with the asynchronous service and executed periodically when the service processes its queue. The asynchronous service can be hosted on a 
-server other that the server running [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+server other that the server running Dynamics 365 Customer Engagement (on-premises).  
   
 ## In This Section  
  [Asynchronous Service Architecture](asynchronous-service-architecture.md)  

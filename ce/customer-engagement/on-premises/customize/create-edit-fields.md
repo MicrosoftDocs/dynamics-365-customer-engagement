@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-With Dynamics 365 for Customer Engagement apps, fields define the individual data items that can be used to store data in an entity. Fields are sometimes called attributes by developers. You can use the customization tools in the solution explorer to edit system fields that allow customization, or to create, edit, or delete custom entities.  
+With Dynamics 365 Customer Engagement (on-premises), fields define the individual data items that can be used to store data in an entity. Fields are sometimes called attributes by developers. You can use the customization tools in the solution explorer to edit system fields that allow customization, or to create, edit, or delete custom entities.  
   
 <a name="BKMK_CreatingAndEditngFields"></a>   
 ## Create and edit fields  

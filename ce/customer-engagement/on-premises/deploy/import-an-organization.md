@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: c4a9106e-26e2-482d-acd7-2f66b722efee
 caps.latest.revision: 16
 author: Mattp123
@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Import an organization
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can import an existing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization with the Import Organization Wizard. You can use this wizard when you move [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] to another computer. Use the Import Organization Wizard to import an organization from any domain in the [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] directory service forest.  
   
@@ -30,7 +30,7 @@ You can import an existing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcr
 > -   The encryption key is required to activate data encryption when you import an organization database into a new deployment; a deployment that has had the configuration database (MSCRM_CONFIG) re-created after the organization was encrypted; or a restore from an earlier backup that doesn’t contain the encryption key. You can copy the original encryption key to Notepad and paste it into the Settings > Data Management > Data Encryption dialog after the organization import is completed. When you activate data encryption after redeployment, we recommend you use [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] to paste the encryption key into the Data Encryption dialog box. For more information about data encryption, see [Enhance security by encrypting your data](../admin/data-encryption.md).  
   
 > [!TIP]
->  The procedure described here can be implemented by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the Import-CrmOrganization command in the [Microsoft Dynamics 365 for Customer Engagement PowerShell Reference](/powershell/module/microsoft.crm.powershell/import-crmorganization?view=dynamics365ce-ps).  
+>  The procedure described here can be implemented by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the Import-CrmOrganization command in the [Microsoft Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/module/microsoft.crm.powershell/import-crmorganization?view=dynamics365ce-ps).  
   
 #### Import an organization  
   

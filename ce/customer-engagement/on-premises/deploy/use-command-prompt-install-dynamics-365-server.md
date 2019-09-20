@@ -1,5 +1,5 @@
 ---
-title: "Use the command prompt to install Dynamics 365 for Customer Engagement (on-premises) | Microsoft Docs"
+title: "Use the command prompt to install Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: "crm-2016"
@@ -15,19 +15,19 @@ ms.author: matp
 author: Mattp123
 manager: kvivek
 ---
-# Use the command prompt to install Dynamics 365 for Customer Engagement (on-premises) 
+# Use the command prompt to install Dynamics 365 Customer Engagement (on-premises) 
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can install Dynamics 365 Server and Dynamics 365 Reporting Extensions from their respective installation media location by using the command prompt. The required setup information is provided to the Setup program both as command-line parameters and as an XML configuration file that the Setup program references.  
   
- One advantage of using the command prompt to install Dynamics 365 for Customer Engagement is that you don’t have to attend to the installation. Attended installation requires you to make decisions and provide information so the installation can run successfully. Unattended installation, by using the command prompt, requires you to provide installation information as command-line parameters and an XML configuration file. No other action is required until the Setup program is finished. Warnings and installation progress can be logged to a file you can view and analyze later.  
+ One advantage of using the command prompt to install Dynamics 365 Customer Engagement (on-premises) is that you don’t have to attend to the installation. Attended installation requires you to make decisions and provide information so the installation can run successfully. Unattended installation, by using the command prompt, requires you to provide installation information as command-line parameters and an XML configuration file. No other action is required until the Setup program is finished. Warnings and installation progress can be logged to a file you can view and analyze later.  
   
 > [!TIP]
 >  To help troubleshoot invalid XML error messages, open the XML configuration file using a web browser to help indicate where the problem occurs in the file.  
   
 ## General procedures  
- The general procedures for running the Setup program from a command prompt are described here. The prerequisites for each of the Dynamics 365 for Customer Engagement system features as discussed in previous section also apply.  
+ The general procedures for running the Setup program from a command prompt are described here. The prerequisites for each of the Dynamics 365 Customer Engagement (on-premises) system features as discussed in previous section also apply.  
   
 #### To run the Setup program from a command prompt, follow these steps:  
   
@@ -39,11 +39,11 @@ You can install Dynamics 365 Server and Dynamics 365 Reporting Extensions from t
   
 4.  Open a Command Prompt window.  
   
-5.  At the command prompt, change to the CD/DVD drive or change to the location where the Dynamics 365 for Customer Engagement installation files are located:  
+5.  At the command prompt, change to the CD/DVD drive or change to the location where the Dynamics 365 Customer Engagement (on-premises) installation files are located:  
   
-    -   **SetupServer.exe** for Dynamics 365 Server is located in the Server folder of the Dynamics 365 for Customer Engagement installation disk or file download location.  
+    -   **SetupServer.exe** for Dynamics 365 Server is located in the Server folder of the Dynamics 365 Customer Engagement (on-premises) installation disk or file download location.  
   
-    -   **SetupSrsDataConnector.exe** for the Dynamics 365 Reporting Extensions is located in the \SrsDataConnector folder of the Dynamics 365 for Customer Engagement installation disk or file download location.    
+    -   **SetupSrsDataConnector.exe** for the Dynamics 365 Reporting Extensions is located in the \SrsDataConnector folder of the Dynamics 365 Customer Engagement (on-premises) installation disk or file download location.    
   
 6.  Run the Setup command using the following syntax:  
   
@@ -58,7 +58,7 @@ You can install Dynamics 365 Server and Dynamics 365 Reporting Extensions from t
   
 -   The [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] server that is specified in the Setup XML configuration file configured for an authentication type that is not NTLM authentication only.  
   
- To work around this problem, on the [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] where you are installing Dynamics 365 for Customer Engagement, modify the RSServer.config file to remove all authentication types so that the only authentication type is RSWindowsNTLM.  
+ To work around this problem, on the [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] where you are installing Dynamics 365 Customer Engagement (on-premises), modify the RSServer.config file to remove all authentication types so that the only authentication type is RSWindowsNTLM.  
   
 ```  
 <AuthenticationTypes>     

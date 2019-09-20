@@ -1,35 +1,20 @@
 ---
-title: "About Unified Interface Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "About Unified Interface in Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Introducing the new Unified Interface."
 ms.custom: 
-ms.date: 11/15/2018
+ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.service: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
-ms.assetid: 64987a8b-21e4-4c2a-9366-39dabef90bb1
-caps.latest.revision: 21
 author: mduelae
 ms.author: mkaur
 manager: kvivek
-search.audienceType: 
-  - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
-# About Unified Interface 
+# About Unified Interface in Dynamics 365 Customer Engagement (on-premises) 
 
-Redirect this to: https://docs.microsoft.com/powerapps/user/unified-interface.
-
-<!-- 
-With the release of [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], we've introduced a new user experience - Unified Interface - which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. 
-
-The new Unified Interface brings all the rich experiences to any client that you are using. Whether you are on a browser, tablet, or phone, you will be able to consume similar experiences. Some examples: 
+Unified Interface uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. Unified Interface brings all the rich experiences to any client that you are using; whether you are on a browser, tablet, or phone, you will be able to consume similar experiences. Some examples: 
 
 > - Similar form experiences to update and view your records.
 > - Interactive dashboards across all devices to view your information and drill into it. 
@@ -37,7 +22,7 @@ The new Unified Interface brings all the rich experiences to any client that you
 > - We now support right-to-left (RTL) languages.
 > - All experiences on Unified Interface have accessibility improvements. 
 
-## Capabilities available in Unified Interface with Dynamics 365 for Customer Engagement, version 9.0 
+## Capabilities available in Unified Interface with Customer Engagement (on-premises), version 9.x 
 
 Most of the core functionalities of sales and customer service have moved to the Unified Interface client. 
 
@@ -57,7 +42,7 @@ They will have familiar capabilities on Unified Interface and will also discover
 
 **Business process enhancement** - The business process flow has been improved by the docking mechanism. You can dock the business process stage on your screen to help you stay focused on the task at hand in your business process flow. This is especially useful when the stage of the process has complex steps to complete. 
 
-**Reference panel** - Use the reference panel for apps built on Unified Interface like Dynamics 365 for Customer Engagement apps for Customer Service. The reference panel is a great way to get work done without clicking away from the screen you are on. You can look up other things like knowledge base articles within the context of the record you are viewing. 
+**Reference panel** - Use the reference panel for apps built on Unified Interface like Customer Service Hub. The reference panel is a great way to get work done without clicking away from the screen you are on. You can look up other things like knowledge base articles within the context of the record you are viewing. 
 
 **Navigation** - The new menu options let you swiftly navigate the different apps in the system. It provides quick access to recently viewed records and pinned favorites. 
 
@@ -66,62 +51,32 @@ They will have familiar capabilities on Unified Interface and will also discover
 ![Unified Interface adapts to screen](media/uci-reflow.png "Unified Interface adapts to screen")
 
 ### Focused Experience
-Unified interface experiences are based on [model-driven apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview). You can scope the user experience based on the jobs they need to accomplish. Users can have single or multiple apps based on their requirements and can easily switch between apps as needed. 
+You can scope the user experience based on the jobs they need to accomplish. Users can have single or multiple apps based on their requirements and can easily switch between apps as needed. 
 
 ### Rich controls 
 Unified interface is a metadata driven experience. All controls experiences are built on the control framework that is extensible and provides a uniform experience across clients. The app display reflows to the viewport size the user is working in. 
 
-## Getting started with Unified Interface experience
-When you are provisioning a new Dynamics 365 for Customer Engagement apps org, depending on whether you are provisioning for Sales, Customer service, Field service, Project service automation, all the options, or an org with no customization, you will see the following Unified Interface apps:
+## Accessing Unified Interface apps on browsers
 
-|Choice while provisioning  |Unified Interface apps |
-|---------|---------|
-|Sales     |Sales Hub         |
-|Customer service     |Customer Service Hub         |
-|Field service     |Field Resource Hub         |
-|Project service automation     |Project Resource Hub          |
-|None     |Dynamics 365 for Customer Engagement apps Hub         |
-|All      |All the above except Dynamics 365 for Customer Engagement apps Hub         |
+On browsers, you can access the installed Unified Interface and web apps by selecting **Settings** > **Application** > **My Apps**. 
 
-![Unified Interface apps](media/uci-apps.png "Unified Interface apps")
+![Unified Interface apps on My Apps page](media/uci-my-apps-page.png "Unified Interface apps on My Apps page")
 
-> [!NOTE]
-> [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] always uses the Unified Interface and is  [provisioned separately](../marketing/trial-signup.md).
-
-### Accessing Unified Interface apps on browsers
-Once provisioned, you can access the installed Unified Interface and web apps from multiple interfaces. On browsers you can see all the apps both Unified Interface and web: 
-
-1. In [https://home.dynamics.com/](https://home.dynamics.com/)
-
-   ![Dynamics 365 for Customer Engagement apps Home page](media/uci-home-dynamics.png "Dynamics 365 for Customer Engagement apps Home page")
-
-2. In app navigation
-
-   ![In app navigation](media/uci-in-app-navigation.png "In app navigation")
-
-3. In My Apps page under Settings
-
-   ![Unified Interface apps on My Apps page](media/uci-my-apps-page.png "Unified Interface apps on My Apps page")
-
-### Accessing Unified Interface apps on phone and tablets
-Unified interface apps are the only apps supported on phones and tablets for Dynamics 365 for Customer Engagement, version 9.0. When a user logs into the above org, they will only see the Unified Interface apps on their apps landing page. 
+## Accessing Unified Interface apps on phone and tablets
+Unified interface apps are the only apps supported on phones and tablets for Customer Engagement (on-premises), version 9.x. When a user logs into the above org, they will only see the Unified Interface apps on their apps landing page. 
 
 |  | |  |
 |---------|---------|---------|
 |On phone <br/>![Unified Interface phone app](media/uci-app-phone.png "Unified Interface phone app")     |    |On tablet <br/>![Unified Interface tablet app](media/uci-app-tablet.png "Unified Interface tablet app")    |
 
-### Creating a new Unified Interface app
-In case you have requirements to create your own experience on Unified Interface, you can create a model-driven app using the app designer. See [Overview of building model-driven apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview).
+## Create a new Unified Interface app
+In case you have requirements to create your own experience on Unified Interface, you can create an app using the app designer. More information: [Create or edit an app by using the app designer](../customize/create-edit-app.md)
 
-![Create new Unified Interface app](media/uci-model-driven-app.png "Create new Unified Interface app")
-
-![Unified Interface custom hub](media/uci-custom-hub.png "Unified Interface custom hub")
+![Create new Unified Interface app](media/uci-create-app.png "Create new Unified Interface app")
 
 ## Capabilities not yet on Unified Interface
 
-We released some capabilities of the legacy web client in the Unified Interface that are available in the hybrid experience. You can [enable the hybrid experience](enable-hybrid-experience.md) to get them in the browser client.
-
-There are certain capabilities that continue to be unavailable in the Unified Interface and we are working to provide these in future releases:
+There are certain capabilities that continue to be unavailable in the Unified Interface:
 
 -	Custom styling of advanced chart properties (excluding colors and basic formatting)
 -	Composite address control
@@ -132,7 +87,7 @@ There are certain capabilities that continue to be unavailable in the Unified In
 
 ## Read-only entities on Unified Interface
 
-There are certain entities that are currently read-only on Unified Interface. Users will not be able to make changes to these entity records within an Unified Interface app. We are working to make them editable in future releases.
+There are certain entities that are currently read-only on Unified Interface. Users will not be able to make changes to these entity records within an Unified Interface app.
 
 > [!NOTE]
 > Some entities are being deprecated. Check out [Important changes (deprecations) coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#contracts-contract-line-items-and-contract-templates-entities-are-deprecated).
@@ -153,6 +108,3 @@ The following are entities that are currently read-only in Unified Interface:
 - Case Resolution
 - Service
 
-### See also
-[Overview of building model-driven apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
--->

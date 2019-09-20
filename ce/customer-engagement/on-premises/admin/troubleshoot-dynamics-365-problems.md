@@ -41,7 +41,7 @@ We're sorry you're having a problem with Dynamics 365 Customer Engagement (on-pr
   
 ## Mobile  
   
--   [Troubleshooting and things to know about Dynamics 365 for phones and tablets](../mobile-app/troubleshooting-things-know-about-phones-tablets.md)  
+-   [Troubleshooting and things to know about Dynamics 365 for phones and tablets](../../../mobile-app/troubleshooting-things-know-about-phones-tablets.md)  
 
 ## Billing and licensing  
   

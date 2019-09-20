@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Entities define the types of records people can use in Dynamics 365 for Customer Engagement apps or a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps organization. In Dynamics 365 for Customer Engagement apps, you can edit customizable system entities and create, edit, and delete custom entities.  
+Entities define the types of records people can use in Dynamics 365 Customer Engagement (on-premises) or a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps organization. In Dynamics 365 Customer Engagement (on-premises), you can edit customizable system entities and create, edit, and delete custom entities.  
   
 ### See also    
  [Entities and metadata overview](../customize/create-edit-metadata.md)   <br/>

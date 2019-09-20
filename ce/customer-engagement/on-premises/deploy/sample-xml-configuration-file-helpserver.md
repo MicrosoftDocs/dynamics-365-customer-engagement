@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Sample XML configuration file that installs only the HelpServer role
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The following example installs only the [!INCLUDE[pn_Help_Server](../includes/pn-help-server.md)] role on the local computer.  
   

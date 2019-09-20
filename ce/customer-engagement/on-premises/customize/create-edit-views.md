@@ -27,7 +27,7 @@ search.app:
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
 
-With Dynamics 365 for Customer Engagement apps, use views to define how a list of records for a specific entity is displayed in the application. A view defines:  
+With Dynamics 365 Customer Engagement (on-premises), use views to define how a list of records for a specific entity is displayed in the application. A view defines:  
 -  The columns to display    
 -  How wide each column should be    
 -  How the list of records should be sorted by default  

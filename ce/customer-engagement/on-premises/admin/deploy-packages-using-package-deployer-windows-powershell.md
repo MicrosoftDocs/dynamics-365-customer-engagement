@@ -263,8 +263,8 @@ Import-CrmPackage –CrmConnection $CRMConn –PackageDirectory c:\CRM\SDK\Tools
 > - The folder that you specify when you use the `LogWriteDirectory` parameter must already exist, and the user who is running the Import-CrmPackage cmdlet must have write permission to the folder. Additionally, the -Verbose parameter is required  when you use the LogWriteDirectory parameter.  
 > 
 >    The LogWriteDirectory parameter was first introduced with [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)]. 
->   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for Customer Engagement apps Developer Guide](../developer/developer-guide.md) 
-  
+>   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for Customer Engagement apps Developer Guide](../developer/overview.md)  
+
  The following example command imports a package named *SampleCRMPackage* and specifies English-United States (1033) as the language to import the package.  
   
 ```  

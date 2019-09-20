@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Update deployment configuration settings
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can use the `Microsoft.Crm.PowerShell.Get-CrmSetting` and `Microsoft.Crm.PowerShell.Set-CrmSetting` cmdlets to retrieve and update many different settings properties for your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment. The `Get-CrmSetting` cmdlet retrieves a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment setting object, such as `IfdSettings`. The `Set-CrmSetting` cmdlet updates the deployment setting.  
   

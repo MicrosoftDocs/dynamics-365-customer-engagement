@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Uninstall, change, or repair Dynamics 365 Server
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 To perform [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] maintenance, select from the following options that are available. Before selecting an option, you must start **Programs and Features** in [!INCLUDE[pn_Control_Panel](../includes/pn-control-panel.md)].  
   

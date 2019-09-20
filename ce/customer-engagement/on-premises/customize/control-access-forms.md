@@ -74,7 +74,7 @@ search.app:
 The Client API form context (formContext) provides a reference to the form or to an item on the form, such as, a quick view control or a row in an editable grid, against which the current code is executed. More information: [Client API form context](/dynamics365/customer-engagement/developer/clientapi/clientapi-form-context)
 
 > [!IMPORTANT]
-> With Dynamics 365 for Customer Engagement apps version 9.0, the Xrm.Page object is [deprecated](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated), and you should use the [getFormContext](/dynamics365/customer-engagement/developer/clientapi/reference/executioncontext/getformcontext) method of the passed in execution context object to return reference to the appropriate form or an item on the form.
+> With Dynamics 365 Customer Engagement (on-premises) version 9.0, the Xrm.Page object is [deprecated](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated), and you should use the [getFormContext](/dynamics365/customer-engagement/developer/clientapi/reference/executioncontext/getformcontext) method of the passed in execution context object to return reference to the appropriate form or an item on the form.
 
 ### See also  
 [Assign security roles to forms](../admin/assign-security-roles-form.md)

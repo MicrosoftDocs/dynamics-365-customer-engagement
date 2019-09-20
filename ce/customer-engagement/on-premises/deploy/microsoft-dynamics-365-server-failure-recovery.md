@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Microsoft Dynamics 365 Server failure recovery
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Most of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] configuration information is stored on the computer that’s running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]. Therefore, the information can be recovered if all, or part, of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] fails. [!INCLUDE[pn_Windows_registry](../includes/pn-windows-registry.md)] entries on [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] are recovered when you run the repair program or reinstall processes for [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] and [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)].  
   

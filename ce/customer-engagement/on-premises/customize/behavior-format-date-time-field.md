@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-In Dynamics 365 for Customer Engagement apps, the Date and Time data type is used in many system entity fields. For example, you can show when an account was last used in a marketing campaign or the date and time when a case was escalated. You can also create custom entities that include the date and time fields. Depending on what the field represents, you can choose several different field behaviors: **User Local**, **Date Only** or **Time-Zone Independent**.  
+In Dynamics 365 Customer Engagement (on-premises), the Date and Time data type is used in many system entity fields. For example, you can show when an account was last used in a marketing campaign or the date and time when a case was escalated. You can also create custom entities that include the date and time fields. Depending on what the field represents, you can choose several different field behaviors: **User Local**, **Date Only** or **Time-Zone Independent**.  
 
 <a name="Behavior"></a>   
 ## Date and time field behavior and format  

@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: e62f7606-fa78-49b3-ab49-6e451d90e535
 caps.latest.revision: 36
 author: mduelae
@@ -54,13 +54,13 @@ search.app:
   
 3. On the nav bar, choose the drop down menu next to the account name, and then select **Office 365 Groups**.  
   
-4. In the **Welcome to Office 365 Groups for Dynamics 365 for Customer Engagement apps!** section, select **Create Office 365 Group** or search for an existing group to join.  
+4. In the **Welcome to Office 365 Groups for Dynamics 365 Customer Engagement (on-premises)!** section, select **Create Office 365 Group** or search for an existing group to join.  
   
 > [!NOTE]
 > - You can only connect to groups returned in search for which you are a member. Hover over the search results to see your status.  
 >   - When you add team members to a project, they will be automatically added to the associated group.  
 >   - You can associate existing groups to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records. You don't need to create a new group to create an association.  
->   - When you delete a group, you'll receive a notification on the Welcome to Office 365 Groups for Dynamics 365 for Customer Engagement apps page so you can take the  appropriate action.  
+>   - When you delete a group, you'll receive a notification on the Welcome to Office 365 Groups for Dynamics 365 Customer Engagement (on-premises) page so you can take the  appropriate action.  
   
 ## Join a meeting  
  Group meetings help all members coordinate their schedules. Everyone in the group automatically sees meeting invites and other events.  

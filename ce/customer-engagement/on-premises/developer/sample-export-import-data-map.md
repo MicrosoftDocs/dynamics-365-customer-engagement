@@ -37,7 +37,7 @@ This sample code is for Dynamics 365 Customer Engagement. Download the sample: [
 [!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
   
 ## Demonstrates  
- This sample shows how to create an import map (data map) in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for Customer Engagement, export it as an XML formatted data, import modified mappings, and create a new import map in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] for Customer Engagement based on the imported mappings.  
+ This sample shows how to create an import map (data map) in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for Customer Engagement, export it as an XML formatted data, import modified mappings, and create a new import map in Dynamics 365 Customer Engagement (on-premises) for Customer Engagement based on the imported mappings.  
   
 ## Example  
  [!code-csharp[DataImport#UsingExportAndImportMappings](../snippets/csharp/CRMV8/dataimport/cs/usingexportandimportmappings.cs#usingexportandimportmappings)]  

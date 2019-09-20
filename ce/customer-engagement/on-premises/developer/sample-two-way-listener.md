@@ -24,7 +24,7 @@ search.app:
 ---
 # Sample: Two-way listener
 
-This sample registers a remote service plug-in that executes whenever a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] message is posted to a two-way endpoint on the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. When the plug-in executes, it prints to the console the contents of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] execution context contained in the message. 
+This sample registers a remote service plug-in that executes whenever a Dynamics 365 Customer Engagement (on-premises) message is posted to a two-way endpoint on the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. When the plug-in executes, it prints to the console the contents of the Dynamics 365 Customer Engagement (on-premises) execution context contained in the message. 
 Download the sample: [Work with Microsoft Dynamics 365 Customer Engagement (on-premises) and Azure Integration](https://code.msdn.microsoft.com/Sample-Dynamics-365-and-6a95df2a) 
 
 ## Prerequisites

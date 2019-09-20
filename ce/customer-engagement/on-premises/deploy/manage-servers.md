@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 821da27b-9dc5-4fc6-8ba2-cf19201fb549
 caps.latest.revision: 9
 author: Mattp123
@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Manage servers
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can do the following actions in the **Servers** area of [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)]:  
   

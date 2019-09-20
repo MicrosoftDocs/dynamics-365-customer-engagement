@@ -1,5 +1,5 @@
 ---
-title: "Report considerations and best practices (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Report considerations and best practices (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -31,9 +31,9 @@ Make sure that your reports execute reliably and efficiently by understanding th
   
  [Improve report performance by using filters](../analytics/improve-report-performance-by-using-filters.md)  
   
- [Dynamics 365 for Customer Engagement apps Reporting Considerations](../analytics/reporting-considerations.md)  
+ [Dynamics 365 Customer Engagement (on-premises) Reporting Considerations](../analytics/reporting-considerations.md)  
   
- [RDL Sandboxing for Dynamics 365 for Customer Engagement apps](../analytics/rdl-sandboxing.md)  
+ [RDL Sandboxing for Dynamics 365 Customer Engagement (on-premises)](../analytics/rdl-sandboxing.md)  
   
 ### See also  
  [Publish reports](../analytics/publish-reports.md)   

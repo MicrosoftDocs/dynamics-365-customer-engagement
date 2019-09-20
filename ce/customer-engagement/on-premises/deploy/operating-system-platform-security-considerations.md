@@ -1,5 +1,5 @@
 ---
-title: "Operating system and platform technology security considerations for Dynamics 365 for Customer Engagement (on-premises) | Microsoft Docs"
+title: "Operating system and platform technology security considerations for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: "crm-2016"
@@ -15,9 +15,9 @@ ms.author: matp
 author: Mattp123
 manager: kvivek
 ---
-# Operating system and platform technology security considerations for Dynamics 365 for Customer Engagement (on-premises)
+# Operating system and platform technology security considerations for Dynamics 365 Customer Engagement (on-premises)
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 In the broadest sense, security involves planning and considering tradeoffs between threats and access. For example, a computer can be locked in a vault and available only to one system administrator. This computer may be secure, but it’s not very usable because it’s not connected to any other computer. If your business users need access to the Internet and your corporate intranet, you must consider how to make the network both secure and usable.  
   

@@ -28,12 +28,12 @@ This walkthrough demonstrates how to register a service endpoint step using the 
 
 - Access to the Plug-in Registration Tool. [!INCLUDE[proc-download-plugin-registration-tool](../includes/proc-download-plugin-registration-tool.md)] 
 
-- Your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] system user account must have the System Customizer or System Administrator role. For more information, see [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365 Customer Engagement](security-dev/how-role-based-security-control-access-entities.md).  
+- Your Dynamics 365 Customer Engagement (on-premises) system user account must have the System Customizer or System Administrator role. For more information, see [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365 Customer Engagement](security-dev/how-role-based-security-control-access-entities.md).  
 
-- Have access to a [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] platform service namespace that is configured for SAS authorization, to which [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] will post a message.  
+- Have access to a [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] platform service namespace that is configured for SAS authorization, to which Dynamics 365 Customer Engagement (on-premises) will post a message.  
 
 
-- If you plan to use any other [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] messaging entity other than a queue, for example a relay, there must be a listener application actively listening to the specified solution endpoint for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to successfully post to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. For more information, see [Write a Listener for an Azure Solution](write-listener-application-azure-solution.md).  
+- If you plan to use any other [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] messaging entity other than a queue, for example a relay, there must be a listener application actively listening to the specified solution endpoint for Dynamics 365 Customer Engagement (on-premises) to successfully post to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. For more information, see [Write a Listener for an Azure Solution](write-listener-application-azure-solution.md).  
 
 - A configured service endpoint with SAS authorization is available in the target organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365 Customer Engagement](walkthrough-configure-azure-sas-integration.md).  
 
@@ -47,14 +47,14 @@ This walkthrough demonstrates how to register a service endpoint step using the 
 3.  [Test the endpoint registration](#BKMK_Test)  
 
 <a name="BKMK_Connect"></a>   
-## Connect to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server  
- Follow the steps below to connect to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server using the Plug-in Registration tool.  
+## Connect to the Dynamics 365 Customer Engagement (on-premises) server  
+ Follow the steps below to connect to the Dynamics 365 Customer Engagement (on-premises) server using the Plug-in Registration tool.  
 
 1. Run the Plug-in Registration tool.  
 
 2. Click **Create New Connection**.  
 
-3. In the **Login** dialog box, select the deployment type radio button corresponding to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server you intend to register a service endpoint with. The **On-premises** radio button includes an IFD deployment and the **Office 365** button is for the [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] provider of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+3. In the **Login** dialog box, select the deployment type radio button corresponding to the Dynamics 365 Customer Engagement (on-premises) server you intend to register a service endpoint with. The **On-premises** radio button includes an IFD deployment and the **Office 365** button is for the [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] provider of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
 
 
    |                                                                                                                                             |                                                                                                                                                                                 |
@@ -80,13 +80,13 @@ This walkthrough demonstrates how to register a service endpoint step using the 
 
 4. Click **Register New Step**.  
 
-   [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] will now post the current message containing the execution context to the service bus whenever an account is created. The post is performed asynchronously and is not executed immediately.  
+   Dynamics 365 Customer Engagement (on-premises) will now post the current message containing the execution context to the service bus whenever an account is created. The post is performed asynchronously and is not executed immediately.  
 
 <a name="BKMK_Test"></a>   
 ## Test the endpoint registration  
  After you register the endpoint you can test it. A listener must be running or a queue available on the target endpoint for the service bus post from the plug-in to happen.  
 
-1. Open the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application for the same organization that you registered the service endpoint under.  
+1. Open the Dynamics 365 Customer Engagement (on-premises) web application for the same organization that you registered the service endpoint under.  
 
 2. Click the **Create** button ![Create button](media/crm-v6s-wa-create-icon.PNG "Create button"), and then click **Account**.  
 

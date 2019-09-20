@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: de32c74a-906b-444d-92f1-028d73637eab
 caps.latest.revision: 13
 author: Mattp123
@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Delete (remove) a Microsoft Dynamics 365 Server
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 To delete a [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] from a deployment, use the **Servers** area. However, before you can delete a server, you must disable it.  
   

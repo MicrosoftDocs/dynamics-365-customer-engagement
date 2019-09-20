@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Administer the deployment using Windows PowerShell
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 With [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] you can easily run deployment commands to change the configuration of your deployment, like tasks that can be performed from the [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] user interface.  You can also use the methods described in the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] to perform these tasks. The [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] cmdlets are installed on the computer when you install a Full Server role or when you install the [!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] server role, if you’re installing individual server roles. To execute commands, you must first register the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] commands with [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)]. This topic describes how to do this plus additional tasks to help you use  [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)].  
   

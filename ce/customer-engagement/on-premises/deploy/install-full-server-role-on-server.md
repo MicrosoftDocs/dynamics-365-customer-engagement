@@ -1,5 +1,5 @@
 ---
-title: "Install Dynamics 365 for Customer Engagement Full Server role on a server without Dynamics 365 for Customer Engagement installed | Microsoft Docs"
+title: "Install Dynamics 365 Customer Engagement (on-premises) Full Server role on a server without Dynamics 365 Customer Engagement (on-premises) installed | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.prod: crm-2016
@@ -8,28 +8,28 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: a9325e0d-b020-4f0f-a339-9eaf2d6387d2
 caps.latest.revision: 38
 author: Mattp123
 ms.author: matp
 manager: kvivek
 ---
-# Install Dynamics 365 for Customer Engagement Full Server role on a server without Dynamics 365 for Customer Engagement installed
+# Install Dynamics 365 Customer Engagement (on-premises) Full Server role on a server without Dynamics 365 Customer Engagement (on-premises) installed
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 ## Install the Dynamics 365 Server software  
   
-1.  Meet all requirements specified in [Microsoft Dynamics 365 for Customer Engagement System Requirements and Required Components](system-requirements-required-technologies.md).  
+1.  Meet all requirements specified in [Microsoft Dynamics 365 Customer Engagement (on-premises) System Requirements and Required Components](system-requirements-required-technologies.md).  
   
 2.  Log on to the domain as a user who has administrator-level privileges where [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] will be installed and who is a member of the Administrators group on the local computer. You cannot install the application as a member from a trusted domain.  
   
-3.  See the [Dynamics 365 for Customer Engagement Readme](https://go.microsoft.com/fwlink/?linkid=2024795) file to determine the location of the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] installation files.  
+3.  See the [Dynamics 365 Customer Engagement (on-premises) Readme](https://go.microsoft.com/fwlink/?linkid=2024795) file to determine the location of the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] installation files.  
   
 4.  In the folder where the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] files are located, move to the Server\amd64 folder, and then double-click **SetupServer.exe**.  
   
-5.  On the **Welcome to Microsoft Dynamics 365 Server Setup** page, we recommend that you select **Get updates for Microsoft Dynamics 365 for Customer Engagement**, to make sure that Setup has the most recent installation files. Select **Next**.  
+5.  On the **Welcome to Microsoft Dynamics 365 Server Setup** page, we recommend that you select **Get updates for Microsoft Dynamics 365 Customer Engagement (on-premises)**, to make sure that Setup has the most recent installation files. Select **Next**.  
   
 6.  On the **Product Key Information** page, type your product key in the **Product key** boxes, and then select **Next**.  
   
@@ -46,7 +46,7 @@ manager: kvivek
   
 9. On the **Select Installation Location** page, accept the default location or enter a different file installation location, and then select **Next**.  
   
-10. The **Specify Server Roles** page appears. By default, Full Server is selected and will install all server roles on the computer. Alternatively, you can select a predefined group of server roles or one or more individual server roles. Notice that all server roles must be deployed on the network in the same [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain for the deployment to operate correctly. For more information, see [Planning your deployment of Dynamics 365 for Customer Engagement](planning-your-deployment-of-microsoft-dynamics-365.md). Select **Next**.  
+10. The **Specify Server Roles** page appears. By default, Full Server is selected and will install all server roles on the computer. Alternatively, you can select a predefined group of server roles or one or more individual server roles. Notice that all server roles must be deployed on the network in the same [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain for the deployment to operate correctly. For more information, see [Planning your deployment of Dynamics 365 Customer Engagement (on-premises)](planning-your-deployment-of-microsoft-dynamics-365.md). Select **Next**.  
   
     > [!IMPORTANT]
     >  When you select a server role other than Full Server, [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] does not create an organization database during the installation. If the deployment does not have an organization database, you must use the [New-CrmOrganization](/powershell/module/microsoft.crm.powershell/new-crmorganization?view=dynamics365ce-ps) [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet or [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] to create a new organization.  
@@ -64,11 +64,11 @@ manager: kvivek
   
 13. On the **Specify Service Accounts** page, select the security accounts for the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] services, and then select **Next**.  
   
-     The services are described below. <!-- For more information about the service accounts required to run these services, see [Minimum permissions required for Microsoft Dynamics 365 for Customer Engagement Setup, services, and components](security-considerations-for-microsoft-dynamics-365.md#BKMK_MinimumPermissions). --> 
+     The services are described below. <!-- For more information about the service accounts required to run these services, see [Minimum permissions required for Microsoft Dynamics 365 Customer Engagement (on-premises) Setup, services, and components](security-considerations-for-microsoft-dynamics-365.md#BKMK_MinimumPermissions). --> 
   
-    -   **Application Service.** This service runs the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application that is used to connect users to Dynamics 365 for Customer Engagement data.  
+    -   **Application Service.** This service runs the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application that is used to connect users to Dynamics 365 Customer Engagement (on-premises) data.  
   
-    -   **[!INCLUDE[pn_Deployment_Web_Service](../includes/pn-deployment-web-service.md)].** Publishes the web service that provides the deployment interface described in the [Developer Guide for Dynamics 365 for Customer Engagement for Customer Engagement](/dynamics365/customer-engagement/developer/developer-guide), such as create an organization or manage the list of Deployment Administrators for the deployment.  
+    -   **[!INCLUDE[pn_Deployment_Web_Service](../includes/pn-deployment-web-service.md)].** Publishes the web service that provides the deployment interface described in the [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customer-engagement/developer/developer-guide), such as create an organization or manage the list of Deployment Administrators for the deployment.  
   
     -   **[!INCLUDE[pn_Sandbox_Processing_Service](../includes/pn-sandbox-processing-service.md)].** Enables an isolated environment to allow for the execution of custom code, such as plug-ins. This isolated environment reduces the possibility of custom code affecting the operation of the organizations in the deployment.  
   
@@ -125,7 +125,7 @@ manager: kvivek
   
 18. On the **Specify Reporting Services Server** page, type the [!INCLUDE[pn_Report_Server](../includes/pn-report-server.md)] URL. Make sure that you use the [!INCLUDE[pn_Report_Server](../includes/pn-report-server.md)] URL, not the [!INCLUDE[pn_Report_Manager](../includes/pn-report-manager.md)] URL. To verify that you are using the correct URL, in a browser, type the [!INCLUDE[pn_Report_Server](../includes/pn-report-server.md)] URL as the address. Select **Next**.  
   
-19. On the **Help Us Improve the Customer Experience** page, select whether you want to participate in the [!INCLUDE[pn_Customer_Experience_Program](../includes/pn-customer-experience-program.md)]. When selected, the application automatically sends basic, anonymous information to Microsoft about how you use Dynamics 365 for Customer Engagement and the types and number of errors you encounter. This information helps Microsoft solve problems and improve products and features. Microsoft does not collect your name, address, or other contact information. Select **Next**.     
+19. On the **Help Us Improve the Customer Experience** page, select whether you want to participate in the [!INCLUDE[pn_Customer_Experience_Program](../includes/pn-customer-experience-program.md)]. When selected, the application automatically sends basic, anonymous information to Microsoft about how you use Dynamics 365 Customer Engagement (on-premises) and the types and number of errors you encounter. This information helps Microsoft solve problems and improve products and features. Microsoft does not collect your name, address, or other contact information. Select **Next**.     
   
 20. On the **Select Microsoft Update Preference** page, select whether you want to use [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)] for checking for updates for your Microsoft products, and select **Next**. We recommend that you use [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)] to check for updates because this helps keep your computer up-to-date and secure.  
   
@@ -133,18 +133,18 @@ manager: kvivek
   
 22. The **Service Disruption Warning** page appears. Verify the suitability of the services that will be stopped or restarted, and then select **Next**.  
   
-23. Review the **Ready to Install Microsoft Dynamics 365 for Customer Engagement** page, and then select **Back** to correct any warnings. When you are ready to continue, select **Install**.  
+23. Review the **Ready to Install Microsoft Dynamics 365 Customer Engagement (on-premises)** page, and then select **Back** to correct any warnings. When you are ready to continue, select **Install**.  
   
      When Setup completes successfully, the **Microsoft Dynamics 365 Server setup completed** page appears. If the Reporting Server instance that you specified during this Setup points to the local computer where [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] is installed, Setup provides an option to invoke [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] Setup.  
   
-24. To install [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] on the computer now, select the **Launch Microsoft Dynamics 365 for Customer Engagement Reporting Extensions Setup** check box. Select **Finish**.  
+24. To install [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] on the computer now, select the **Launch Microsoft Dynamics 365 Customer Engagement (on-premises) Reporting Extensions Setup** check box. Select **Finish**.  
   
     > [!IMPORTANT]
-    >  -   After you install [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)], you must install the [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] to create, run, and schedule reports in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For instructions, see [Install Microsoft Dynamics 365 for Customer Engagement Reporting Extensions](install-microsoft-dynamics-365-reporting-extensions.md).  
+    >  -   After you install [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)], you must install the [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] to create, run, and schedule reports in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For instructions, see [Install Microsoft Dynamics 365 Customer Engagement (on-premises) Reporting Extensions](install-microsoft-dynamics-365-reporting-extensions.md).  
     > -   By default, Setup turns on HTTP compression on the server that is running [!INCLUDE[pn_iis](../includes/pn-iis.md)] where the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application is installed. If you use another method to compress HTTP communications, you may want to turn this feature off. To do this, start [!INCLUDE[pn_ms_Internet_Information_Services_Manager_short](../includes/pn-ms-internet-information-services-manager-short.md)], click the website, double-click **Compression**, and then clear the compression check boxes.  
-    > -   For an [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)] deployment, after [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] completes, you must configure claims-based authentication and the relying parties on the STS server. Then, run the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)] to complete the configuration. <!-- For more information about this configuration see [Configure IFD for Microsoft Dynamics 365 for Customer Engagement](configure-ifd-for-dynamics-365.md). --> 
+    > -   For an [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)] deployment, after [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] completes, you must configure claims-based authentication and the relying parties on the STS server. Then, run the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)] to complete the configuration. <!-- For more information about this configuration see [Configure IFD for Microsoft Dynamics 365 Customer Engagement (on-premises)](configure-ifd-for-dynamics-365.md). --> 
   
 ## See also  
  [Microsoft Dynamics 365 Server installation](microsoft-dynamics-365-server-installation.md)   
- [Install Microsoft Dynamics 365 for Customer Engagement Reporting Extensions](install-microsoft-dynamics-365-reporting-extensions.md)
+ [Install Microsoft Dynamics 365 Customer Engagement (on-premises) Reporting Extensions](install-microsoft-dynamics-365-reporting-extensions.md)
 

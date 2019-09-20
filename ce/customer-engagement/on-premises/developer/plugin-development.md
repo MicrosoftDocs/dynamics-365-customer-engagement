@@ -22,14 +22,7 @@ search.app:
 ---
 # On-premise plug-in development
 
-A plug-in is custom business logic (code) that you can integrate with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] to modify or augment the standard behavior of the platform. Another way to think about plug-ins is that they are handlers for events fired by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can subscribe, or register, a plug-in to a known set of events to have your code run when the event occurs.
-
-> [!NOTE]
-> [!INCLUDE[cc-cdsnote-1](./includes/cc-cdsnote-1.md)]
->
-> The plug-in documentation that is applicable to Dynamics 365 Customer Engagement (on-premises) (online) users is now available in the PowerApps documentation at: [Use plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins)
->
-> [!INCLUDE[cc-cdsnote-2-section](./includes/cc-cdsnote-2-section.md)]
+A plug-in is custom business logic (code) that you can integrate with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] to modify or augment the standard behavior of the platform. Another way to think about plug-ins is that they are handlers for events fired by Dynamics 365 Customer Engagement (on-premises). You can subscribe, or register, a plug-in to a known set of events to have your code run when the event occurs.
   
  For more information about plug-in run-time execution, see [Event Framework](/powerapps/developer/common-data-service/event-framework).  
   
@@ -62,5 +55,6 @@ For on-disk plug-ins or custom workflow activities, place the assemblies in the 
  [Offline plug-in execution](support-offline-execution.md)  
   
 ## Related Sections  
- [Write Plug-Ins to Extend Business Processes](write-plugin-extend-business-processes.md)  
- [Web Service Authentication and Impersonation](authenticate-users.md)
+ [Write Plug-Ins to Extend Business Processes](write-plugin-extend-business-processes.md) <br/> 
+ [Web Service Authentication and Impersonation](authenticate-users.md) <br/>
+ [Use plug-ins to extend business processes in Common Data Service](/powerapps/developer/common-data-service/plug-ins)

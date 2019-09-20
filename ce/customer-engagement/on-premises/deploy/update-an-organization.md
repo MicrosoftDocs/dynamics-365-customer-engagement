@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 6089d370-2675-4fae-a800-f01ec9927747
 caps.latest.revision: 13
 author: Mattp123
@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Update an organization
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 When you update the organizations in your deployment, disabled organizations can’t be updated until they are enabled. In the list of organizations in the details pane for the disabled organization, the **Update** column will show that an update is **Available**.  
   

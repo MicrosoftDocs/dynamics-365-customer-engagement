@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Configure the AD FS server for IFD
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 After you have enabled IFD on the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] you will need to create a relying party for the IFD endpoint on the [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] server.  
   
