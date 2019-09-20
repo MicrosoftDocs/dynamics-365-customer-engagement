@@ -1,20 +1,14 @@
 ---
 title: "Customize the Dynamics 365 Sales Professional app"
 description: "Learn how to customize the Dynamics 365 Sales Professional app."
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
 ms.assetid: a4b27f55-9fb6-4a3f-a133-8213165eb018
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
 
 # Customize the Dynamics 365 Sales Professional app
