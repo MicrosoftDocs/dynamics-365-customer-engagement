@@ -22,7 +22,7 @@ search.app:
 ---
 # Sample: Add products to a bundle
 
-This sample code is for Dynamics 365 Customer Engagement(on-premises). [Download the Product Catalog samples](https://code.msdn.microsoft.com/Product-Catalog-Samples-5766194b).  
+This sample code is for Dynamics 365 Customer Engagement (on-premises). [Download the Product Catalog samples](https://code.msdn.microsoft.com/Product-Catalog-Samples-5766194b).  
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

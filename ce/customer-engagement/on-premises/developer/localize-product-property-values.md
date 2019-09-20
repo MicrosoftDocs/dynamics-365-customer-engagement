@@ -22,7 +22,7 @@ search.app:
 ---
 # Localize product property values
 
-Product names may be localized for different regions. With [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] you can provide localized labels for certain product attributes so that people will see the localized names that match their language preferences. This topic is about how developers can interact with this feature. For step-by-step instructions to use this feature in the application, see the previous versions documentation on [Translate product names and properties into multiple languages](http://go.microsoft.com/fwlink/p/?LinkId=512440).  
+Product names may be localized for different regions. With Dynamics 365 Customer Engagement (on-premises) you can provide localized labels for certain product attributes so that people will see the localized names that match their language preferences. This topic is about how developers can interact with this feature. For step-by-step instructions to use this feature in the application, see the previous versions documentation on [Translate product names and properties into multiple languages](http://go.microsoft.com/fwlink/p/?LinkId=512440).  
 
 <a name="BKMK_supportedAttributes"></a>   
 ## Attributes that support localized property values  
