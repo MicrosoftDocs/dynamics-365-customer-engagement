@@ -22,8 +22,8 @@ search.app:
   - D365CE
 ---
 # Example reports
-*This content also applies to the on-premises version.*
-This section provides example reports that show how to implement common techniques in your reports for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
+
+This section provides example reports that show how to implement common techniques in your reports.  
   
 ## Create a report using an example  
   

@@ -22,10 +22,10 @@ search.app:
   - D365CE
 ---
 # Create a new report using SQL Server Data Tools
-*This content also applies to the on-premises version.*
-[!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] is a report authoring environment that lets you create or edit [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] reports in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. The end result is a report definition .rdl file that contains the report definition that you can publish in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps to view reports.  
+
+[!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] is a report authoring environment that lets you create or edit [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] reports in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. The end result is a report definition .rdl file that contains the report definition that you can publish to view reports.  
   
- You can also author reports by using a common text editor. To reduce the effort to create a custom report, modify an existing .rdl file that provides most of the desired functionality. For more information about the format of the XML elements in an .rdl file, see [Report Definition Language Reference](http://go.microsoft.com/fwlink/p/?LinkId=194988). The modified report XML can be verified by using the specified XML schema. [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] will also verify the report definition and reject a report if the definition is invalid when you try to upload the report in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
+ You can also author reports by using a common text editor. To reduce the effort to create a custom report, modify an existing .rdl file that provides most of the desired functionality. For more information about the format of the XML elements in an .rdl file, see [Report Definition Language Reference](http://go.microsoft.com/fwlink/p/?LinkId=194988). The modified report XML can be verified by using the specified XML schema. [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] will also verify the report definition and reject a report if the definition is invalid when you try to upload the report.  
   
 > [!NOTE]
 >  If the .rdl file contains a FetchXML query, the query in the RDL is validated by [!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)], which internally validates it against the FetchXML schema. <!-- For more information, see [Fetch XML Schema](../developer/fetchxml-schema.md).  -->
@@ -58,7 +58,7 @@ search.app:
   
 6. On the **Design the Query** page, type the FetchXML query in the **Query** box. To get this query, you can do one of the following:  
   
-   - Get the FetchXML from an Advanced Find query. To do this, open [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, click **Advanced Find**, create the query that you want, and then on the **Advanced Find** tab, click **Download Fetch XML**. Copy the FetchXML into the **Query** box of the Dataset Properties in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)].  
+   - Get the FetchXML from an Advanced Find query. To do this, open a Common Data Service or Customer Engagement (on-premises) app, click **Advanced Find**, create the query that you want, and then on the **Advanced Find** tab, click **Download Fetch XML**. Copy the FetchXML into the **Query** box of the Dataset Properties in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)].  
   
    - Manually enter the FetchXML query. The following example shows how to create a report that displays all accounts with 5,000 or more employees.  
   
@@ -91,6 +91,5 @@ search.app:
     This generates an .rdl file with the specified report name. You can use this file to publish your custom report in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps using the Report Wizard. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish reports](../analytics/publish-reports.md)  
   
 ### See also  
- [Report Writing Environment](../analytics/report-writing-environment-using-sql-server-data-tools.md)   
- <!-- ADD BACK AFTER Potassium on-prem publish [Modify Reports Using Business Intelligence Development Studio](../Topic/Modify%20an%20existing%20SQL-based%20report%20using%20SQL%20Server%20Data%20Tools.md)   -->
+ [Report Writing Environment](../analytics/report-writing-environment-using-sql-server-data-tools.md)   <br />
  [Blog: Getting Started With Custom Reports In The Cloud](http://community.dynamics.com/product/crm/crmtechnical/b/crmteamblog/archive/2010/10/19/getting-started-with-custom-reports-in-the-cloud.aspx)

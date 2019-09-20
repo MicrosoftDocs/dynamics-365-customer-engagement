@@ -22,7 +22,7 @@ search.app:
   - D365CE
 ---
 # Report writing environment using SQL Server Data Tools
-*This content also applies to the on-premises version.*
+
 This topic describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps reports.  
   
  You must have the required development tools and appropriate privileges in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps to write and publish a report. Also, you should be familiar with:  
