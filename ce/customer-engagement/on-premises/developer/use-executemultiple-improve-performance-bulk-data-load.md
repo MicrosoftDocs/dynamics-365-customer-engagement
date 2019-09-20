@@ -46,9 +46,9 @@ There are several constraints related to the use of the <xref:Microsoft.Xrm.Sdk.
   
 ### See also  
  [Read and Write Data and Metadata using the IOrganizationService Web Service](use-organization-service-read-write-data-metadata.md)   
- [Microsoft.Xrm.Sdk Messages](xrm-messages-organization-service.md)   
+ <xref:Microsoft.Xrm.Sdk.Messages>   
  <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*>   
  <xref:Microsoft.Xrm.Sdk.OrganizationRequest>   
  <xref:Microsoft.Xrm.Sdk.OrganizationResponse>   
- [Microsoft.Crm.Sdk Messages](organization-service-messages.md)   
- [Import data](../import-data.md)
+ <xref:Microsoft.Crm.Sdk.Messages>   
+ [Import data](import-data.md)

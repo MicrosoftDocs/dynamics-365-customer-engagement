@@ -26,7 +26,7 @@ Hierarchy security offers a more granular access to records for an organization 
   
  Previously, implementing this kind of security often required developers to mimic this behavior using custom plug-ins. Now, with the hierarchy security model, that type of security is built into the  product. This removes the need to create and update custom plug-ins.  
   
- For a detailed description of the hierarchy security model, see [Security concepts for Microsoft Dynamics 365 for Customer Engagment apps](https://technet.microsoft.com/library/hh699698.aspx) in the [!INCLUDE[pn_crm_2015_ig](../../includes/pn-crm-2015-ig.md)] for Customer Engagement (on-premises) documentation.  
+ For a detailed description of the hierarchy security model, see [Security concepts for Microsoft Dynamics 365 Customer Engagment apps](https://technet.microsoft.com/library/hh699698.aspx) in the [!INCLUDE[pn_crm_2015_ig](../../includes/pn-crm-2015-ig.md)] Customer Engagement (on-premises) documentation.  
   
  [Video: Hierarchical Security Modelling in Microsoft Dynamics CRM 2015](http://youtu.be/kx5So32DrCo)  
   

@@ -21,7 +21,7 @@ search.app:
 ---
 # Application platform for building extended xRM applications
 
-[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] offers customers, partners, independent software vendors (ISVs), and systems integrators (SIs), a powerful platform for building line-of-business applications. These applications are often referred to as *Extended Dynamics 365 Customer Engagement (on-premises)* applications (*xRM*) applications because they leverage the relationship tracking capabilities beyond the typical customer relationship management (CRM) scenarios. These applications span across various industries including [Retail](https://www.microsoft.com/en-us/dynamics/retail.aspx), [Service industries](https://www.microsoft.com/en-us/dynamics/service-industries.aspx), [Manufacturing](https://www.microsoft.com/en-us/dynamics/manufacturing.aspx), [Distribution](https://www.microsoft.com/en-us/dynamics/distribution), [Financial services](https://www.microsoft.com/en-us/dynamics/crm-financial-services.aspx), and [Public sector](https://www.microsoft.com/en-us/dynamics/public-sector.aspx).  
+Dynamics 365 Customer Engagement (on-premises) offers customers, partners, independent software vendors (ISVs), and systems integrators (SIs), a powerful platform for building line-of-business applications. These applications are often referred to as *Extended Dynamics 365 Customer Engagement (on-premises)* applications (*xRM*) applications because they leverage the relationship tracking capabilities beyond the typical customer relationship management (CRM) scenarios. These applications span across various industries including [Retail](https://www.microsoft.com/en-us/dynamics/retail.aspx), [Service industries](https://www.microsoft.com/en-us/dynamics/service-industries.aspx), [Manufacturing](https://www.microsoft.com/en-us/dynamics/manufacturing.aspx), [Distribution](https://www.microsoft.com/en-us/dynamics/distribution), [Financial services](https://www.microsoft.com/en-us/dynamics/crm-financial-services.aspx), and [Public sector](https://www.microsoft.com/en-us/dynamics/public-sector.aspx).  
   
  Dynamics 365 Customer Engagement (on-premises) includes additional capabilities for Operations and Financials. For developer documentation using these capabilities, see:  
   
@@ -139,7 +139,7 @@ search.app:
 - [Integrate Dynamics 365 Customer Engagement (on-premises) with OneNote](integration-dev/integrate-onenote.md)  
   
   Cross-platform mobile applications  
-  [User Guide (Dynamics 365 for phones and tablets)](../mobile-app/dynamics-365-phones-tablets-users-guide.md)
+  [User Guide (Dynamics 365 for phones and tablets)](../../../mobile-app/dynamics-365-phones-tablets-users-guide.md)
   
   Business intelligence  
   [Use Power BI with Dynamics 365 Customer Engagement (on-premises)](../admin/use-power-bi.md)  

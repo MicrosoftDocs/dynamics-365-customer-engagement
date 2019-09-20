@@ -21,7 +21,7 @@ search.app:
 ---
 # Metadata and data models
 
-[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] uses a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes. This structure also makes upgrades and the transportation of customizations easier. The data structure can change without requiring any change to code in the Dynamics 365 Customer Engagement (on-premises) server or client applications.  
+Dynamics 365 Customer Engagement (on-premises) uses a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes. This structure also makes upgrades and the transportation of customizations easier. The data structure can change without requiring any change to code in the Dynamics 365 Customer Engagement (on-premises) server or client applications.  
 
  All the information necessary for Dynamics 365 Customer Engagement (on-premises) server to operate is stored in the Dynamics 365 Customer Engagement (on-premises) metadata. This includes information about entities, attributes, relationships, and option sets.  
 

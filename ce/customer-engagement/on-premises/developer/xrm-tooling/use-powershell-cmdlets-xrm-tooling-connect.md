@@ -72,7 +72,7 @@ You’re now ready to use the PowerShell cmdlet. To list the cmdlets that you re
 
 2. Use the following command to retrieve your organizations, and store the information in the `$CRMOrgs` variable:
   
-   - If you’re connecting to the [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] server:  
+   - If you’re connecting to the Dynamics 365 Customer Engagement (on-premises) server:  
   
      ```powershell  
      $CRMOrgs = Get-CrmOrganizations –ServerUrl http://<CRM_Server_Host> –Credential $Cred  

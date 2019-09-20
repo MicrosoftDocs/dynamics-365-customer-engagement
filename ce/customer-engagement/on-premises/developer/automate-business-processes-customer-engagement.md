@@ -29,7 +29,7 @@ Business processes are an integral part of any enterprise software application. 
 communication among applications based on a set of rules, and *interactive* processes that also rely on people to initiate and run the process, and to make the 
 appropriate decisions during the running of the process.  
 <!-- TODO: Do you really mean online here?-->  
- In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], a process enables you to create and manage your automated and 
+ In Dynamics 365 Customer Engagement (on-premises), a process enables you to create and manage your automated and 
 interactive business processes. While the name has been changed from workflow to *process*, the entity that’s used to implement a process is still called 
 *workflow*. A Dynamics 365 Customer Engagement (on-premises) process provides many out-of-the-box components that business users and administrators 
 can use to model their business processes. Dynamics 365 Customer Engagement (on-premises) also offers developers a mechanism to extend and customize 

@@ -102,7 +102,7 @@ That way, if you think phone users need to focus only on the primary information
 |   Social Profile    |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
 |        Task         |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
 
-*For [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], we support basic connections. For earlier versions, we only support connections for Sales Team and Stakeholders on the Opportunity form.
+*For Dynamics 365 Customer Engagement (on-premises), we support basic connections. For earlier versions, we only support connections for Sales Team and Stakeholders on the Opportunity form.
 
  **Entities that are visible and read-only in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**  
 

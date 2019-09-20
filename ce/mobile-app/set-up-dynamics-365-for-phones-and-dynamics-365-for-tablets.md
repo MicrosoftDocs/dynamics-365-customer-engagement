@@ -37,7 +37,7 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
  For hardware and software requirements for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], see [Support for Dynamics 365 for phones and Dynamics 365 for tablets](support-phones-tablets.md).  
   
 ### Required privileges  
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses a security privilege, **Dynamics 365 for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
+ Both Common Data Service abd Dynamics 365 Customer Engagement (on-premises) uses a security privilege, **Dynamics 365 for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
   
  Follow these steps to check and assign the security privilege for a security role:  
   
@@ -58,7 +58,7 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
 > You haven't been authorized to use this app. Check with your system administrator to update your settings.  
 > 
 > [!NOTE]
-> [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes the ability to audit user access. Audit events are logged if a user accesses your Dynamics 365 apps organization through [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. However, there is not a new event type that indicates the access was through [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The audit login events would appear as **User Access via Web**.  
+> Both Common Data Service and Dynamics 365 Customer Engagement (on-premises) include the ability to audit user access. Audit events are logged if a user accesses your Dynamics 365 apps organization through [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. However, there is not a new event type that indicates the access was through [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The audit login events would appear as **User Access via Web**.  
   
  In addition, particularly if you have created a custom security role, validate that these entities have **Read** permission.  
   
@@ -113,7 +113,7 @@ This list identifies all services to which Dynamics 365 for Phones and Tablets t
 ## What admins need to do  
   
 ### Security privileges  
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses a security privilege, **Dynamics 365 apps for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
+ Both Common Data Service and Dynamics 365 Customer Engagement (on-premises) use a security privilege, **Dynamics 365 apps for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
   
 ### Enable dashboards for Dynamics 365 for phones and Dynamics 365 for tablet users  
  Multiple dashboards are available for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] users. After you set up standard or custom dashboards for mobile access, users can easily modify which dashboards appear and how they appear on their phones or tablets.  
@@ -254,7 +254,7 @@ else
 ### Navigation bar  
  If an entity is enabled for **Dynamics 365 apps for mobile** and appears in the nav bar (sitemap) for the web application, it will also appear on the nav bar in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
   
- The [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] apps show the entities as a flat list in the same order as the sitemap in the web application. They ignore any groupings within web application areas. You can add an entity to multiple groups on the web application, but [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] display a flattened list and do not show any repeats. [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] apply your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security role, so you will not see an entity unless you have at least read access to that entity.  
+ The [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] apps show the entities as a flat list in the same order as the sitemap in the web application. They ignore any groupings within web application areas. You can add an entity to multiple groups on the web application, but [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] display a flattened list and do not show any repeats. [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] apply your Common Data Service or Dynamics 365 Customer Engagement (on-premises) security role, so you will not see an entity unless you have at least read access to that entity.  
   
  Custom entities use a fixed custom entity symbol.  
   
@@ -299,7 +299,7 @@ else
   The activities list shows activities that are due today and past due activities in a darker color. Activities that are not due today or past due appear in a lighter color. Activities with a due date include the date and time of when they are due.  
   
 > [!IMPORTANT]
-> [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses a composite Activity entity to store and retrieve data common between different activity types (like Task, Appointment, or Phone Call). The due date for activities is stored in the Actual End field for the composite Activity entity.  Appointment activities have a Start Date and End Date.  Because the due date for the activities list is retrieved from the Actual End field, the time that an appointment ends is displayed in the Activities list. This means an appointment that starts at 1pm and ends at 2pm will show a time of 2pm on the tile for the appointment in the activities simple list.  
+> Both Common Data Service and Dynamics 365 Customer Engagement (on-premises) use a composite Activity entity to store and retrieve data common between different activity types (like Task, Appointment, or Phone Call). The due date for activities is stored in the Actual End field for the composite Activity entity.  Appointment activities have a Start Date and End Date.  Because the due date for the activities list is retrieved from the Actual End field, the time that an appointment ends is displayed in the Activities list. This means an appointment that starts at 1pm and ends at 2pm will show a time of 2pm on the tile for the appointment in the activities simple list.  
   
  ![Dynamics 365 for tablets simple activity list](../admin/media/y-microsoft-crm.png "Dynamics 365 for tablets simple activity list")  
   
@@ -321,7 +321,7 @@ else
   
   To change the view used to display a list of records, tap and hold the name of the list. The command bar appears, which includes the **Select View** button.  Tap the **Select View** button to select a different view.  
   
-  Personal views are listed before system views.  You can’t create new views within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+  Personal views are listed before system views.  You can’t create new views within Common Data Service or Dynamics 365 Customer Engagement (on-premises).  
   
 ### Charts  
  All the charts you can create in the Chart Designer, such as Bar, Line, Pie, and Funnel charts, are viewable in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
@@ -479,7 +479,7 @@ else
   
 - Ukrainian - 380  
   
-  When the application first loads after installation, it will determine the device language and load the user interface in that language. If the device language is not one of the supported languages, the application will load in English. When the application has been configured in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization, the application will load in the language specified in the user’s personal options. If the user language is not one of the supported languages, the application will fall back to the base language of the Dynamics 365 apps organization, if it is in the supported language list. If the organization’s base language isn’t supported, English will be the final fallback if it is enabled on the server.  
+  When the application first loads after installation, it will determine the device language and load the user interface in that language. If the device language is not one of the supported languages, the application will load in English. When the application has been configured in a Common Data Service environment or Dynamics 365 Customer Engagement (on-premises) organization, the application will load in the language specified in the user’s personal options. If the user language is not one of the supported languages, the application will fall back to the base language of the Common Data Service environment or Dynamics 365 Customer Engagement (on-premises) organization, if it is in the supported language list. If the organization’s base language isn’t supported, English will be the final fallback if it is enabled on the server.  
   
 <a name="BKMK_PhoneEntities"></a>   
 ## Entities and [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
