@@ -50,13 +50,10 @@ search.app:
  [Data Export service in Dynamics 365 Customer Engagement (on-premises)](/powerapps/developer/common-data-service/data-export-service.md)  
   
 ## Related Sections  
- [Release history](release-history.md)  
-  
- [What's new for developers: Dynamics 365 Customer Engagement (on-premises)](whats-new-developers.md)  
   
  [Start here](get-started-sdk.md)  
   
- [Connect to Dynamics 365 Customer Engagement (on-premises)](connect-customer-engagement.md)  
+ [Authenticate users in Dynamics 365 Customer Engagement](authenticate-users.md)  
   
  [The Security Model of Dynamics 365 Customer Engagement (on-premises)](security-dev/security-model.md)  
   

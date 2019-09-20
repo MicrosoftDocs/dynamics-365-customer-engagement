@@ -24,7 +24,7 @@ search.app:
 ---
 # Programming models for Dynamics 365 Customer Engagement (on-premises)
 
-Dynamics 365 Customer Engagement (on-premises) offers several programming models designed to give you the flexibility to decide what works best for your needs.
+Microsoft Dynamics 365 Customer Engagement (on-premises) offers several programming models designed to give you the flexibility to decide what works best for your needs.
 
 The following diagram illustrates the key programmability scenarios for Dynamics 365 Customer Engagement (on-premises). Use the appropriate Dynamics 365 Customer Engagement (on-premises) programming models for the type of solutions you create.
 
@@ -39,14 +39,14 @@ The following diagram illustrates the key programmability scenarios for Dynamics
 <a name="bkmk_webAPI"></a>
 
 ### Web API
- The Web API was introduced with [!INCLUDE[pn_crm_2016_and_online_full](../includes/pn-crm-2016-and-online-full.md)] and it provides a development experience that can be used across a wide variety of programming languages, platforms, and devices. The Web API implements the [OData](http://odata.org) (Open Data Protocol) v4. OData is an OASIS standard for building and consuming RESTfulAPIs over rich data sources.
+ The Web API was introduced with [!INCLUDE[pn_crm_2016_and_online_full](../includes/pn-crm-2016-and-online-full.md)] and it provides a development experience that can be used across a wide variety of programming languages, platforms, and devices. The Web API implements the [OData](http://odata.org) (Open Data Protocol) v4. OData is an OASIS standard for building and consuming RESTful APIs over rich data sources.
 
  When you use the Web API, you can choose from [a list of community-supported libraries that support the OData v4 standard](http://www.odata.org/libraries/). You can also choose to write code using HTTP directly. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Dynamics 365 Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md)
 
- When you connect to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or on-premises environments with Internet-facing deployment (IFD), you can use [Azure AD Authentication Libraries (ADAL)](https://azure.microsoft.com/documentation/articles/active-directory-authentication-libraries/) to enable authentication from a wide variety of programming languages and platforms. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Authenticate to Dynamics 365 Customer Engagement (on-premises) with the Web API](webapi/authenticate-web-api.md)
+ When you connect to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] (on-premises) environments with Internet-facing deployment (IFD), you can use [Azure AD Authentication Libraries (ADAL)](https://azure.microsoft.com/documentation/articles/active-directory-authentication-libraries/) to enable authentication from a wide variety of programming languages and platforms. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Authenticate to Dynamics 365 Customer Engagement (on-premises) with the Web API](webapi/authenticate-web-api.md)
 
 > [!NOTE]
-> The organization data service (a.k.a "REST endpoint" or  "OData endpoint") is an OData v2 service that was deprecated in [!INCLUDE[pn_crm_2016_and_online_full](../includes/pn-crm-2016-and-online-full.md)] in favor of the Web API. The organization data service isn’t included in the preceding diagram. The organization service is still available to support code that used it. However, for any new development for Dynamics 365 Customer Engagement (on-premises) we recommend using the Web API. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the OData endpoint with web resources](https://msdn.microsoft.com/library/gg334279\(v=crm.7\).aspx)
+> The organization data service ("REST endpoint" or  "OData endpoint") is an OData v2 service that was deprecated in [!INCLUDE[pn_crm_2016_and_online_full](../includes/pn-crm-2016-and-online-full.md)] in favor of the Web API. The organization data service isn’t included in the preceding diagram. The organization service is still available to support code that used it. However, for any new development for Dynamics 365 Customer Engagement (on-premises) we recommend using the Web API. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the OData endpoint with web resources](https://msdn.microsoft.com/library/gg334279\(v=crm.7\).aspx)
 
 <a name="bkmk_organizationService"></a>
 
@@ -74,7 +74,7 @@ The following diagram illustrates the key programmability scenarios for Dynamics
  When you need to access Dynamics 365 Customer Engagement (on-premises) data that isn’t available in the context where your [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code is running, you can make calls to the server to get the data you need. The organization service can be used, but it is much easier to use the Web API with JSON rather than the XML required by the organization service. Because your script runs in the context of the application, you are automatically authenticated. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with the Dynamics 365 Customer Engagement Web API (client-side JavaScript)](webapi/get-started-web-api-client-side-javascript.md)
 
 ### See also
-[Software Development Kit for Dynamics 365 Customer Engagement (on-premises)](developer-guide.md)<br />
+[Developer Guide for Dynamics 365 Customer Engagement (on-premises)](overview.md)<br />
 [Get started](get-started-sdk.md)<br />
 [Tutorials and resources](tutorials-resources-sdk.md)<br />
 [Best practices](best-practices-sdk.md)<br />

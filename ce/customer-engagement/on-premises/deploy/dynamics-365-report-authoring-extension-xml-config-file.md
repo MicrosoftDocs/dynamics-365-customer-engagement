@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Microsoft Dynamics 365 Report Authoring Extension XML configuration file
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This topic lists explanations for each XML element and a sample XML file for installing Dynamics 365 [!INCLUDE[pn_crm_fetch_extension_short](../includes/pn-crm-fetch-extension-short.md)]:  
   
@@ -28,7 +28,7 @@ This topic lists explanations for each XML element and a sample XML file for ins
  The configuration file must be a valid XML file that uses **\<bidsextensions>** as the primary element. All the [!INCLUDE[pn_crm_fetch_extension_short](../includes/pn-crm-fetch-extension-short.md)] entries that follow must be within the **\<bidsextensions>** tags  
   
  `<patch update=”true” / ”false” />`  
- Determines the behavior of the update Setup technology. When you specify **True** this feature lets Setup perform a one-time search for, and if applicable, download to apply the latest update files for Dynamics 365 for Customer Engagement. If you specify **False**, updates will not be applied to Setup.  
+ Determines the behavior of the update Setup technology. When you specify **True** this feature lets Setup perform a one-time search for, and if applicable, download to apply the latest update files for Dynamics 365 Customer Engagement (on-premises). If you specify **False**, updates will not be applied to Setup.  
   
  `<muoptin optin="true” / “false" />`  
  Specifies whether to use [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)] to download and install updates for [!INCLUDE[pn_crm_fetch_extension_short](../includes/pn-crm-fetch-extension-short.md)]. After the installation is completed, this feature helps keep your computer up-to-date on an ongoing basis.  

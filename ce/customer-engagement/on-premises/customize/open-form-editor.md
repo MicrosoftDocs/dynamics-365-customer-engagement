@@ -1,5 +1,5 @@
 ---
-title: "Open the form editor (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Open the form editor (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
@@ -21,9 +21,9 @@ search.app:
 ---
 # Open the form editor
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
+ 
 
- You can access the form editor in Dynamics 365 for Customer Engagement apps through the command bar or the ribbon, depending on the entity. Both of these methods open the form in the context of the default solution. If you create any new solution components in the process of editing the form, for example web resources, the names of the components will use the solution publisher customization prefix for the default solution and these components will only be included in the default solution. If you want any new solution components to be included in a specific unmanaged solution, you should open the form editor through that unmanaged solution.  
+ You can access the form editor in Dynamics 365 Customer Engagement (on-premises) through the command bar or the ribbon, depending on the entity. Both of these methods open the form in the context of the default solution. If you create any new solution components in the process of editing the form, for example web resources, the names of the components will use the solution publisher customization prefix for the default solution and these components will only be included in the default solution. If you want any new solution components to be included in a specific unmanaged solution, you should open the form editor through that unmanaged solution.  
   
 ## Access the form editor through the command bar  
 > [!NOTE]

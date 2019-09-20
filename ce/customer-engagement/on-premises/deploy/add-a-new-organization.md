@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0370ff17-bcb8-41d4-ba58-5dda590d8949
 caps.latest.revision: 18
 author: Mattp123
@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Add a new organization
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can add a new organization in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment in the Organizations node of [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)].  
   

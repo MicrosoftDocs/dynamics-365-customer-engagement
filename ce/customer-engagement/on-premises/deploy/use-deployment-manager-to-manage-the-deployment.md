@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 445ac6a6-f193-444b-ac2f-620ef114d405
 caps.latest.revision: 10
 author: Mattp123
@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Use Deployment Manager to manage the deployment
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 [!INCLUDE[pn_Deployment_Manager_long](../includes/pn-deployment-manager-long.md)] is a [!INCLUDE[pn_Microsoft_Management_Console](../includes/pn-microsoft-management-console.md)] snap-in that system administrators and value-added resellers use to manage [!INCLUDE[pn_Deployment_Administrator](../includes/pn-deployment-administrator.md)] accounts, organizations, servers, and licenses for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployments.  
   

@@ -23,7 +23,7 @@ search.app:
 ---
 # Create 1:N (one-to-many) or N:1 (many-to-one) relationships
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 <a name="BKMK_CreateEditN1Relationships"></a>   
 

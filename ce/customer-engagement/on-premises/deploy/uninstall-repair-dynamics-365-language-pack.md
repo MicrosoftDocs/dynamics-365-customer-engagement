@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Uninstall or repair a Dynamics 365 Language Pack
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 To perform [!INCLUDE[pn_Language_Pack_short](../includes/pn-language-pack-short.md)] maintenance, select from the following options that are available. Before you select an option, you must start **Programs and Features** in [!INCLUDE[pn_Control_Panel](../includes/pn-control-panel.md)].  
   

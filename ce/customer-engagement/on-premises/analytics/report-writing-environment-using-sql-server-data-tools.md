@@ -36,7 +36,7 @@ This topic describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../inc
 ## Required tools  
  The following are required to write a custom report for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps:  
   
-- **[!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]** . For specific versions, see [Dynamics 365 for Customer Engagement Report Authoring Extension requirements](../deploy/microsoft-dynamics-365-reporting-requirements.md#dynamics-365-for-customer-engagement-report-authoring-extension-requirements).  
+- **[!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]** . For specific versions, see [Dynamics 365 for Customer Engagement Report Authoring Extension requirements](../deploy/microsoft-dynamics-365-reporting-requirements.md#report_ext_gen_req).  
   
 - **[!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)]** . This is a report authoring environment that is used as a plug-in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)].  
   

@@ -1,5 +1,5 @@
 ---
-title: "Change the color scheme or add a logo  in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Change the color scheme or add a logo  in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to change the color scheme or add a logo to match your organization’s brand"
 s.custom: 
 ms.date: 02/15/2019
@@ -22,7 +22,7 @@ search.app:
 ---
 # Create a theme
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can create a custom look and feel (a theme), for your app by making changes to the default colors and visual elements provided in the uncustomized system. For example, you can create your personal product branding by adding a company logo and providing entity-specific coloring. A theme is created by using the customization tools in the user interface, without requiring a developer to write code. You can create, change or delete themes that are used in your organization. The theme customization is supported in the Web forms in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. You can define multiple themes, but only one can be set and published as the default theme.  
   

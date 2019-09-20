@@ -22,7 +22,7 @@ search.app:
 ---
 # Create or edit a system chart
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
+ 
 
 System charts are organization-owned charts and can’t be assigned or shared.  
   

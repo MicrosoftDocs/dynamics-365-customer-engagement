@@ -1,5 +1,5 @@
 ---
-title: "Create custom business logic through processes with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Create custom business logic through processes with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn about the different types of business logic you can use in your app"
 ms.custom: 
 ms.date: 01/23/2019
@@ -22,13 +22,13 @@ search.app:
 ---
 # Create custom business logic through processes
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Defining and enforcing consistent business processes is one of the main reasons people use Dynamics 365 for Customer Engagement apps. Consistent processes help make sure people using the system can focus on their work and not on remembering to perform a set of manual steps. Processes can be simple or complex and can change over time.  
 
-[!INCLUDE [cds-platform-note-for-on-premises](../includes/cds-platform-note-for-on-premises.md)]
+Defining and enforcing consistent business processes is one of the main reasons people use Dynamics 365 Customer Engagement (on-premises). Consistent processes help make sure people using the system can focus on their work and not on remembering to perform a set of manual steps. Processes can be simple or complex and can change over time.  
+
+
   
-Dynamics 365 for Customer Engagement apps includes four types of processes, each designed for a different purpose:  
+Dynamics 365 Customer Engagement (on-premises) includes four types of processes, each designed for a different purpose:  
   
 - Business process flows  
   
@@ -77,7 +77,7 @@ Dynamics 365 for Customer Engagement apps includes four types of processes, each
 ## Where do I go to create processes?  
  There are two paths to navigate to processes:  
   
-- **Settings>Processes.** in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps this path is easiest to access and allows you to use views defined for the Process entity, including any custom views.  
+- **Settings>Processes.** in Dynamics 365 Customer Engagement (on-premises) this path is easiest to access and allows you to use views defined for the Process entity, including any custom views.  
   
 - In solution explorer. **Components > Processes.** This path provides convenient access when you are doing other customization work in the customization tools.  
   

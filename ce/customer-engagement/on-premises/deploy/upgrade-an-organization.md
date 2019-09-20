@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 74fefb8c-2c70-4f61-85ad-83ede2d4158a
 caps.latest.revision: 15
 author: Mattp123
@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Upgrade an organization
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can upgrade organizations from earlier versions of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] on-premises by using [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] to import them into the new deployment.  
   
@@ -30,7 +30,7 @@ You can upgrade organizations from earlier versions of [!INCLUDE[pn_microsoftcrm
 > [!IMPORTANT]
 >  Before you import, upgrade, or update a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization, you should back up the configuration and organization databases.  
 >   
->  Only December 2016 update for Dynamics 365 for Customer Engagement (8.2) or later organizations are supported for importing with this version of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. <!-- To upgrade earlier versions, see [Upgrade from Dynamics 365 Server 2013 or Dynamics Server 2011](upgrade-dynamics-crm-server-2013-or-2011.md). --> 
+>  Only December 2016 update for Dynamics 365 Customer Engagement (on-premises) (8.2) or later organizations are supported for importing with this version of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. <!-- To upgrade earlier versions, see [Upgrade from Dynamics 365 Server 2013 or Dynamics Server 2011](upgrade-dynamics-crm-server-2013-or-2011.md). --> 
   
 ## Upgrade an organization in-place  
  After you upgrade [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)], if the deployment contains additional organizations from the earlier version of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], those organizations become disabled and aren’t upgraded. You can upgrade those organizations by using the steps described here.  

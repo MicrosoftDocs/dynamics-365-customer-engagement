@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Troubleshooting installation and upgrade
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This section describes how to troubleshoot installation and known issues.  
   

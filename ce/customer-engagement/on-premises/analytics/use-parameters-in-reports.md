@@ -1,5 +1,5 @@
 ---
-title: "Use parameters in reports (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Use parameters in reports (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 

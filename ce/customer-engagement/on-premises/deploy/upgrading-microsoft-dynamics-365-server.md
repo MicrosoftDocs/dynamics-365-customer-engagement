@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Upgrading Dynamics 365 Server
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This section provides best practices guidelines and procedures to install [!INCLUDE[pn_crm_server_2016_legacy](../includes/pn-crm-server-2016-legacy.md)] in a deployment that already has the previous version of [!INCLUDE[pn_crm_legacy](../includes/pn-crm-legacy.md)] Server installed.  
   

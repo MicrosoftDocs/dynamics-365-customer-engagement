@@ -23,7 +23,7 @@ search.app:
 ---
 # How main forms appear on different devices
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The main form is used by all app clients. This form provides a consistent user experience whether someone is using a web browser,  [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)], [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)], or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
 

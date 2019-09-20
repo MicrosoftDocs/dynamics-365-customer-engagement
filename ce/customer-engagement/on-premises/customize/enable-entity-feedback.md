@@ -23,7 +23,7 @@ search.app:
 ---
 # Enable an entity for feedback/ratings
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Let customers write feedback for any entity record, or rate entity records within a defined rating range by enabling entities for feedback.  
   

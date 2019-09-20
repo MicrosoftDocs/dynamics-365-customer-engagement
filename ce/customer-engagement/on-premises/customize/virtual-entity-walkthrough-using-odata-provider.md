@@ -24,7 +24,7 @@ search.app:
 
 # Virtual entity walkthrough using the OData v4 Data Provider
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 ## About this virtual entity walkthrough
 
@@ -163,7 +163,7 @@ On the Solution Explorer window select **Publish All Customizations**.
 
 After all customizations are published, close the Solution Explorer window.
 
-## View the virtual entity in action with Dynamics 365 for Customer Engagement apps
+## View the virtual entity in action with Dynamics 365 Customer Engagement (on-premises)
 
 Go to **Service** > **Extensions** > **Tickets**.
 

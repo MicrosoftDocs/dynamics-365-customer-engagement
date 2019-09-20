@@ -43,44 +43,25 @@
       - name: Solution component file reference (SolutionPackager)
         href: solution-component-file-reference-solutionpackager.md
 - name: Connect to Customer Engagement
-  href: connect-customer-engagement.md
   items:
   - name: Authenticate users
     href: authenticate-users.md
+  - name: Active Directory and claims-based authentication
+    href: active-directory-claims-based-authentication.md
     items:
-    - name: Connect to web services using OAuth
-      href: connect-customer-engagement-web-services-using-oauth.md
+    - name: 'Walkthrough: Register an app with Active Directory'
+      href: walkthrough-register-app-active-directory.md
+    - name: Connect with Microsoft Office 365 and Dynamics 365 Customer Engagement
+      href: connect-microsoft-office-365.md
       items:
-      - name: 'Walkthrough: Register an app with Azure Active Directory'
-        href: walkthrough-register-dynamics-365-app-azure-active-directory.md
-    - name: Use OAuth with CORS to connect a Single Page Application
-      href: oauth-cross-origin-resource-sharing-connect-single-page-application.md
-      items:
-      - name: 'Walkthrough: Registering and configuring a SPA application with adal.js'
-        href: walkthrough-registering-configuring-simplespa-application-adal-js.md
-    - name: Active Directory and claims-based authentication
-      href: active-directory-claims-based-authentication.md
-      items:
-      - name: 'Walkthrough: Register an app with Active Directory'
-        href: walkthrough-register-app-active-directory.md
-      - name: Connect with Microsoft Office 365 and Dynamics 365 (online) Customer Engagement
-        href: connect-microsoft-office-365.md
-        items:
-        - name: Integration with Office 365
-          href: online-integration-office-365.md
-        - name: Authenticate Office 365 users with Customer Engagement web services
-          href: authenticate-office-365-users-customer-engagement-web-services.md
-      - name: Implement single sign-on from an ASPX webpage or IFRAME
-        href: implement-single-sign-aspx-webpage-iframe.md
-      - name: 'Sample: Authenticate users with Dynamics 365 web services'
-        href: sample-authenticate-users-web-services.md
-  - name: Build web applications using Server-to-Server (S2S) authentication
-    href: build-web-applications-server-server-s2s-authentication.md
-    items:
-    - name: Use Multi-Tenant Server-to-server authentication
-      href: use-multi-tenant-server-server-authentication.md
-    - name: Use Single-Tenant Server-to-server authentication
-      href: use-single-tenant-server-server-authentication.md
+      - name: Integration with Office 365
+        href: online-integration-office-365.md
+      - name: Authenticate Office 365 users with Customer Engagement web services
+        href: authenticate-office-365-users-customer-engagement-web-services.md
+    - name: Implement single sign-on from an ASPX webpage or IFRAME
+      href: implement-single-sign-aspx-webpage-iframe.md
+    - name: 'Sample: Authenticate users with Dynamics 365 web services'
+      href: sample-authenticate-users-web-services.md
 - name: Use Dynamics 365 web services
   href: use-microsoft-dynamics-365-web-services.md
   items:

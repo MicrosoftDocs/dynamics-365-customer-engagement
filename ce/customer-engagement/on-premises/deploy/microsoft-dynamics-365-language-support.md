@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Customer Engagement (on-premises) language support | Microsoft Docs"
+title: "Dynamics 365 Customer Engagement (on-premises) language support | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: "crm-2016"
@@ -8,16 +8,16 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 4d5a67ea-55ab-4bdc-b905-3ba75d3889d3
 caps.latest.revision: 20
 ms.author: matp
 author: Mattp123
 manager: kvivek
 ---
-# Microsoft Dynamics 365 for Customer Engagement language support
+# Microsoft Dynamics 365 Customer Engagement (on-premises) language support
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This section describes the supported configurations for different language versions of a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system. It doesn’t include information about [!INCLUDE[pn_Microsoft_Dynamics_CRM_Language_Pack](../includes/pn-microsoft-dynamics-crm-language-pack.md)] support, but instead explains the supported configurations for the base-language versions. For more information about [!INCLUDE[pn_Microsoft_Dynamics_CRM_Language_Pack](../includes/pn-microsoft-dynamics-crm-language-pack.md)], see [Install and deploy a Language Pack](install-and-enable-a-language-pack.md).  
   
@@ -58,6 +58,6 @@ This section describes the supported configurations for different language versi
 -   [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)]  
   
 ## See also     
- [Microsoft Dynamics 365 for Customer Engagement system requirements and required technologies](system-requirements-required-technologies.md)   </br>
+ [Microsoft Dynamics 365 Customer Engagement (on-premises) system requirements and required technologies](system-requirements-required-technologies.md)   </br>
  [User Guide (Dynamics 365 for phones and tablets)](../../../mobile-app/dynamics-365-phones-tablets-users-guide.md)
 

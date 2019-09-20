@@ -7,7 +7,7 @@ ms.service:
   - crm-online
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 972864a7-dc1d-d91c-4003-6056bf312840
 author: mduelae
 ms.author: mkaur
@@ -40,11 +40,11 @@ Hierarchical views are also available on mobile.
 
 To see hierarchies that show the relationships between records, on the list of accounts, contacts, products, or users, select a record, and on the command bar, choose **View Hierarchy**.   
 
-![View Hierarchy button in Dynamics 365 for Customer Engagement apps](../basics/media/view-hierarchy-button.png "View Hierarchy button in Dynamics 365 for Customer Engagement apps")  
+![View Hierarchy button in Dynamics 365 Customer Engagement (on-premises)](../basics/media/view-hierarchy-button.png "View Hierarchy button in Dynamics 365 Customer Engagement (on-premises)")  
 
 The hierarchy of the related records is shown in a Tree view and Tile view:
 
-![Tree view and Tile view in hierarchy in Dynamics 365 for Customer Engagement apps](../basics/media/tree-view-and-tile-view-in-hierarchy.png "Tree view and Tile view in hierarchy in Dynamics 365 for Customer Engagement apps")
+![Tree view and Tile view in hierarchy in Dynamics 365 Customer Engagement (on-premises)](../basics/media/tree-view-and-tile-view-in-hierarchy.png "Tree view and Tile view in hierarchy in Dynamics 365 Customer Engagement (on-premises)")
 
 You can take the following actions from the hierarchical view:
 

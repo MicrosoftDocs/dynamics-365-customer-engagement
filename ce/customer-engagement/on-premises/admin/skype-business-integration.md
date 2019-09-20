@@ -93,4 +93,4 @@ If your organization uses [!INCLUDE[pn_skype_for_business](../includes/pn-skype-
   
 ### See also  
  [Set up Dynamics 365 for Customer Engagement apps (online) to use Skype or Skype for Business](../admin/set-up-skype-or-skype-for-business.md)   
- [Microsoft Dynamics 365 for Customer Engagement apps (online) requirements](online-requirements.md)
+

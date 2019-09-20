@@ -1,5 +1,5 @@
 ---
-title: "Reporting and Analytics Guide (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Reporting and Analytics Guide (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
   - NaosGA
 ms.date: 09/30/2017
@@ -22,7 +22,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Reporting and Analytics Guide for Dynamics 365 for Customer Engagement apps
+# Reporting and Analytics Guide for Dynamics 365 Customer Engagement (on-premises)
 *This content also applies to the on-premises version.*
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps includes reports, dashboards, and support for [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-office-365-long.md)] that provides useful business information and visualizations to the user.  
   
@@ -38,7 +38,7 @@ search.app:
   
  ## [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)]  
   
- [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] is a self-service business intelligence (BI) platform used to discover, analyze, visualize data, and share or collaborate these insights with colleagues. [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] provides information workers and everyday business users with excellent data analysis and visualization capabilities to get better business insights. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Power BI with Dynamics 365 for Customer Engagement apps](../admin/use-power-bi.md)  
+ [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] is a self-service business intelligence (BI) platform used to discover, analyze, visualize data, and share or collaborate these insights with colleagues. [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] provides information workers and everyday business users with excellent data analysis and visualization capabilities to get better business insights. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Power BI with Dynamics 365 Customer Engagement (on-premises)](../admin/use-power-bi.md)  
   
  There are several ways you can use [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps:  
   
@@ -48,7 +48,7 @@ search.app:
   
 - Use [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] to modify and customize your reports and visualizations.  
   
-- Embed a [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] tile in a Dynamics 365 for Customer Engagement apps personal dashboard.  
+- Embed a [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] tile in a Dynamics 365 Customer Engagement (on-premises) personal dashboard.  
   
 - Use [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] and [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] together.  
   

@@ -21,7 +21,7 @@ search.app:
 ---
 # Download Dynamics 365 Customer Engagement (on-premises) version 9.x Software Development Kit (SDK)
 
-This topic provides information about where you can download the developer tools, assemblies, and code samples that are shipped as part of the Software Development Kit (SDK) for Dynamics 365 Customer Engagement (on-premises) version 9.x.
+This topic provides information about where you can download the developer tools, assemblies, and code samples that are shipped as part of the Software Development Kit (SDK) for Microsoft Dynamics 365 Customer Engagement (on-premises) version 9.x.
 
 ## Developer tools
 

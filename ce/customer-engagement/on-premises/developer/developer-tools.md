@@ -61,5 +61,5 @@ This section provides a single location for you to learn about the developer too
 
 [Choose your development style for Dynamics 365 Customer Engagement (on-premises)](choose-development-style.md)
   
-[Developer Guide for Dynamics 365 Customer Engagement (on-premises)](developer-guide.md)
+[Developer Guide for Dynamics 365 Customer Engagement (on-premises)](overview.md)
  

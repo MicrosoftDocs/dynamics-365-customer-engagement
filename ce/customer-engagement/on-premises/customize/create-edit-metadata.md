@@ -1,5 +1,5 @@
 ---
-title: "Entities and metadata overview in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Entities and metadata overview in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn about entities and metadata"
 ms.custom: 
 ms.date: 11/09/2018
@@ -23,14 +23,14 @@ search.app:
 
 # Entities, metadata, and the metadata browser
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-This topic looks at metadata and how you can use it to create Dynamics 365 for Customer Engagement apps or customize an existing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] app.  
+
+This topic looks at metadata and how you can use it to create Dynamics 365 Customer Engagement (on-premises) or customize an existing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] app.  
 
 <a name="BKMK_Metadata"></a>
 
 ## Metadata used with customization  
- *Metadata* means data about data. Dynamics 365 for Customer Engagement apps provides a flexible platform for you because it is relatively easy to edit the definitions of the data that the environment will use. In Dynamics 365 for Customer Engagement apps the metadata is a collection of entities. Entities describe the kinds of data which is stored in the database.  Each entity corresponds to a database table and each field (also known as attribute) within an entity represents a column in that table. Entity metadata is what controls the kinds of records you can create and what kind of actions can be performed on them. Using only the entity metadata and web services a developer can write code to perform actions with data on your environment. You have the ability to edit this metadata with the customization tools to create or edit entities, fields, and entity relationships.  
+ *Metadata* means data about data. Dynamics 365 Customer Engagement (on-premises) provides a flexible platform for you because it is relatively easy to edit the definitions of the data that the environment will use. In Dynamics 365 Customer Engagement (on-premises) the metadata is a collection of entities. Entities describe the kinds of data which is stored in the database.  Each entity corresponds to a database table and each field (also known as attribute) within an entity represents a column in that table. Entity metadata is what controls the kinds of records you can create and what kind of actions can be performed on them. Using only the entity metadata and web services a developer can write code to perform actions with data on your environment. You have the ability to edit this metadata with the customization tools to create or edit entities, fields, and entity relationships.  
 
  The web application or different clients people use to interact with the data in your environment depend on the entity metadata and adapt as the entity metadata changes. But these clients also depend on other data to control what visual elements to display, any custom logic to apply, and how to apply security. This system data is also stored within entities but the entities themselves are not available for customization.  
 
@@ -107,7 +107,7 @@ You can perform the following actions:
 <a name="BKMK_CreateNewOrUseExistingMetadata"></a>
 
 ## Create new metadata or use existing metadata  
- Dynamics 365 for Customer Engagement apps comes with a number of system entities that support core business application capabilities. For example, data about your customers or potential customers is intended to be stored using the account or contact entities. The lead entity is where information about prospects or potential sales opportunities should be kept. The opportunity entity is intended to be used to track potential revenue generating events.  
+ Dynamics 365 Customer Engagement (on-premises) comes with a number of system entities that support core business application capabilities. For example, data about your customers or potential customers is intended to be stored using the account or contact entities. The lead entity is where information about prospects or potential sales opportunities should be kept. The opportunity entity is intended to be used to track potential revenue generating events.  
 
  Each of these entities also contain a number of fields that represent common data that the system may need to store for the respective entity.  
 
@@ -127,7 +127,7 @@ You can perform the following actions:
 
 <a name="BKMK_LimitationsOnMetadata"></a>   
 ## Limitations on creating metadata items  
- There is a limit to the number of entities you can create. You can find information about the maximum number in the **Resources In Use** page. If you need more custom entities, contact [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps technical support. This upper limit can be adjusted.  
+ There is a limit to the number of entities you can create. You can find information about the maximum number in the **Resources In Use** page. If you need more custom entities, contact Dynamics 365 Customer Engagement (on-premises) technical support. This upper limit can be adjusted.  
 
  Within each entity there is an upper limit on the number of fields you can create. This limit is based on the technical limitations on the amount of data that can be stored in a row of a database table. It is difficult to provide a specific number because each type of field can use a different amount of space. The upper limit depends on the total space used by all the fields for the entity.  
 

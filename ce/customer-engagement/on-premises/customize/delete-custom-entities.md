@@ -23,7 +23,7 @@ search.app:
 ---
 # Delete custom entities
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 <a name="BKMK_DeleteCustomEntities"></a>   
   

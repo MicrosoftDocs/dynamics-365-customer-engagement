@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 06fae39f-6455-46af-adf7-23b6a1793e93
 caps.latest.revision: 39
 author: Mattp123
@@ -17,12 +17,12 @@ manager: kvivek
 ---
 # Install or upgrade Microsoft Dynamics 365 Server
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This section explains how to install [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].   
   
 > [!IMPORTANT]
->  There is additional information in the [Microsoft Dynamics 365 for Customer Engagement on-premises Readme](https://go.microsoft.com/fwlink/?linkid=2024795).  
+>  There is additional information in the [Microsoft Dynamics 365 Customer Engagement (on-premises) on-premises Readme](https://go.microsoft.com/fwlink/?linkid=2024795).  
   
 ## Components installed during Dynamics 365 Server Setup  
  This section describes what is installed during [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] [!INCLUDE[pn_Setup](../includes/pn-setup.md)].  
@@ -36,7 +36,7 @@ This section explains how to install [!INCLUDE[pn_microsoftcrm_server](../includ
 |---------------|----------|-----------------|  
 |Application Pool|CRMAppPool|[!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] [!INCLUDE[pn_Setup](../includes/pn-setup.md)] creates a separate application pool for the  deployment.|  
 |Application Pool|CRMDeploymentServiceAppPool|[!INCLUDE[pn_Setup](../includes/pn-setup.md)] creates a separate application pool for the [!INCLUDE[pn_Deployment_Web_Service](../includes/pn-deployment-web-service.md)].|  
-|Site|Microsoft Dynamics 365 for Customer Engagement|Website for the deployment.|  
+|Site|Microsoft Dynamics 365 Customer Engagement (on-premises)|Website for the deployment.|  
 |Applications|XRMDeployment|Facilitates the implementation of XRM deployments.|  
 |Applications|Help|Services the  Help system for the application.|  
   
@@ -112,6 +112,6 @@ This section explains how to install [!INCLUDE[pn_microsoftcrm_server](../includ
   
   
 ## See also  
- [Microsoft Dynamics 365 for Customer Engagement Installation Guide](installing-on-premises-dynamics-365.md) </br>   
+ [Microsoft Dynamics 365 Customer Engagement (on-premises) Installation Guide](installing-on-premises-dynamics-365.md) </br>   
  [Install and enable a Language Pack](install-and-enable-a-language-pack.md)
 

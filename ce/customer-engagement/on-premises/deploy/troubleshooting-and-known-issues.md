@@ -1,5 +1,5 @@
 ---
-title: "Monitoring and troubleshooting Dynamics 365 for Customer Engagement (on-premises) | Microsoft Docs"
+title: "Monitoring and troubleshooting Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: "crm-2016"
@@ -15,9 +15,9 @@ ms.author: matp
 author: Mattp123
 manager: kvivek
 ---
-# Monitoring and troubleshooting Dynamics 365 for Customer Engagement (on-premises)
+# Monitoring and troubleshooting Dynamics 365 Customer Engagement (on-premises)
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Administrators can use the information in this section to monitor and troubleshoot issues with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
@@ -27,6 +27,6 @@ Learn about creating trace files to troubleshoot error messages or other issues 
   
 ## See Also  
  [Known issues for Dynamics 365 for tablets and phones](../../../mobile-app/troubleshooting-things-know-about-phones-tablets.md)   </br>
- [Operating Dynamics 365 for Customer Engagement](operating-microsoft-dynamics-365.md)   </br>
- [Dynamics 365 for Customer Engagement PowerShell Reference](/powershell/dynamics365/customer-engagement/overview)
+ [Operating Dynamics 365 Customer Engagement (on-premises)](operating-microsoft-dynamics-365.md)   </br>
+ [Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/dynamics365/customer-engagement/overview)
 

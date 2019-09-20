@@ -1,5 +1,5 @@
 ---
-title: "Operating Dynamics 365 for Customer Engagement for Customer Engagement (on-premises), version 9.x | Microsoft Docs"
+title: "Operating Dynamics 365 Customer Engagement (on-premises) (on-premises), version 9.x | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.prod: crm-2016
@@ -15,9 +15,9 @@ author: Mattp123
 ms.author: matp
 manager: kvivek
 ---
-# Operating Dynamics 365 for Customer Engagement for Customer Engagement (on-premises)
+# Operating Dynamics 365 Customer Engagement (on-premises) (on-premises)
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 As you administer [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you’ll want to guarantee availability for your users by monitoring server status and performance, troubleshooting issues, and planning for disaster recovery.  
   
@@ -36,4 +36,4 @@ As you administer [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], y
 <!-- ## See also
 [Administer the deployment using Windows PowerShell](administer-the-deployment-using-windows-powershell.md) <br/>
 [Use Deployment Manager to manage the deployment](use-deployment-manager-to-manage-the-deployment.md) <br/> 
-[Microsoft Dynamics 365 for Customer Engagement database maintenance](microsoft-dynamics-365-database-maintenance.md) -->
+[Microsoft Dynamics 365 Customer Engagement (on-premises) database maintenance](microsoft-dynamics-365-database-maintenance.md) -->

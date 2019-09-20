@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d656262d-7828-443d-bebc-52c4170341f5
 caps.latest.revision: 9
 author: Mattp123
@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Hardware requirements
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Depending on how you plan to deploy the system, as a single-server solution, a multiple-server solution, or a clustered solution, the computer hardware that [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and components will run on is important for acceptable application performance.  
   

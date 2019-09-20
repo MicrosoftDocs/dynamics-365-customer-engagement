@@ -129,7 +129,7 @@ For documentation of earlier versions (8.x and earlier), see <https://docs.micro
 
 ### See also
 
-[Administrator Guide](../admin/admin-guide.md)
+[Administrator Guide](../admin/overview.md)
 
 [Customization Guide](../customize/overview.md)
 

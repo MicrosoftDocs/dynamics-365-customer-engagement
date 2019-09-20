@@ -24,7 +24,7 @@ search.app:
 
 # OData v4 Data Provider configuration, requirements, and best practices
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This topic describes how to configure the OData v4 data provider as well as the requirements and recommended best practices for using the OData v4 data provider to connect with an OData v4 web service. 
 

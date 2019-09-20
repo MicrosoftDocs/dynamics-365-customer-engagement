@@ -74,7 +74,7 @@ Business logic that runs in plug-ins or workflow assemblies on the server expect
   
   
 ### See also  
- [Connect to Dynamics 365 Customer Engagement (on-premises)](connect-customer-engagement.md)   
+ [Authenticate users in Dynamics 365 Customer Engagement](authenticate-users.md)   
  [Authenticate users to Dynamics 365 Customer Engagement (on-premises)](authenticate-users.md)   
  [Use Dynamics 365 Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)   
  [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)   

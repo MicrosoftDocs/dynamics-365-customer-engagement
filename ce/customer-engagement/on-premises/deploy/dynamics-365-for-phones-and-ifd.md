@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Dynamics 365 for phones and IFD
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 By default, Windows Integrated Authentication (WIA) is enabled in [!INCLUDE[pn_adfs_windows_server_2012R2_long](../includes/pn-adfs-windows-server-2012r2-long.md)]. WIA is used for authentication requests that occur within the organization’s internal network (intranet) for any application that uses a browser for its authentication.  
   

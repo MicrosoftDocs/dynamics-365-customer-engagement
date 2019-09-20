@@ -23,7 +23,7 @@ search.app:
 ---
 # Create a solution
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
+ 
 
  Because the default solution contains all the solutions components, it may be easier for you to locate just the solution components that you’ve customized if you create a separate solution and do all your customization there. This also makes it easy to export a backup of your solution as a smaller file. If you choose to do this, you must always remember to add any of the solution components you edit to this solution. When you create new solution components, you should always create them in the context of this solution. This way the solution publisher customization prefix will be applied consistently. After you have created solution components in your solution, or added existing solution components to that solution, you can also edit them in the default solution if you wish.  
 

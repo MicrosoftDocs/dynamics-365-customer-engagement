@@ -78,10 +78,8 @@ When you develop an application that uses the Dynamics 365 Customer Engagement (
  Set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] Integration in Dynamics 365 Customer Engagement (on-premises) so that a dedicated [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook is automatically created for the selected entity records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. This feature provides you the ability to easily take notes in the context of a Dynamics 365 Customer Engagement (on-premises) record in various formats such as pictures, drawings, formatted text (bullet points and tables), and voice recordings in a OneNote notebook. You can access the OneNote notebook directly on the activity wall in the Dynamics 365 Customer Engagement (on-premises) web client or from the record form in the Dynamics 365 Customer Engagement (on-premises) mobile apps.  
   
 ## Related Sections  
-[Release history](release-history.md)<br />
-[What's new for developers: Dynamics 365 Customer Engagement (on-premises)](whats-new-developers.md)<br />
 [Start here](get-started-sdk.md)<br />
-[Connect to Dynamics 365 Customer Engagement (on-premises)](connect-customer-engagement.md)<br />
+[Authenticate users in Dynamics 365 Customer Engagement (on-premises)](authenticate-users.md)<br />
 [The Security Model of Dynamics 365 Customer Engagement (on-premises)](security-dev/security-model.md)<br />
 [Model your business data](model-business-data.md)<br />
 [Manage Your Data](manage-data.md)<br />

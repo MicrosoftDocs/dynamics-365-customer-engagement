@@ -23,11 +23,11 @@ search.app:
 ---
 # Design considerations for main forms
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Main forms are the primary user interface where people view and interact with their data. Main forms provide the widest range of options and are available for custom business apps, the exception being [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)].  
   
- One of the main design objectives for main forms is that you design them once and deploy them everywhere. The same main form you design for a custom business app or the Dynamics 365 for Customer Engagement apps web application, is also used in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The advantage to this approach is that you don’t have to integrate changes into multiple forms. However there are several important factors to consider in designing these forms.  
+ One of the main design objectives for main forms is that you design them once and deploy them everywhere. The same main form you design for a custom business app or the Dynamics 365 Customer Engagement (on-premises) web application, is also used in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The advantage to this approach is that you don’t have to integrate changes into multiple forms. However there are several important factors to consider in designing these forms.  
   
 <a name="BKMK_CustomFormsForGroups"></a>   
 

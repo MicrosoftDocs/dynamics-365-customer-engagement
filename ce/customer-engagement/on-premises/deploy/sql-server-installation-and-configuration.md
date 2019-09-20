@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # SQL Server installation and configuration
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 To plan your use of [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] with [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)], you must understand how [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], and what [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] does and does not do:  
   
