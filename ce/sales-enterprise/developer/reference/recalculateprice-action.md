@@ -9,9 +9,6 @@ ms.assetid: 1B6B25C3-5DD5-4527-987A-A786DEB240F4
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
 
 # RecalculatePrice Action

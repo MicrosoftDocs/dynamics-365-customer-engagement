@@ -3,18 +3,13 @@ title: "Revise a product (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Keep the product inventory updated by quickly revising the products in Dynamics 365 Sales."
 keywords: "Revise"
 ms.date: 10/01/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
 ms.assetid: d823053e-2f30-461f-8f2e-bc3646d0491c
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 21
 ---
 

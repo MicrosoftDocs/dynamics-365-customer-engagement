@@ -1,17 +1,12 @@
 ---
 title: "Auto capture for Dynamics 365 Sales | MicrosoftDocs"
-keywords: 
 ms.date: 10/31/2018
 ms.service: crm-online
-ms.custom: 
 ms.topic: article
 ms.assetid: 1d005ded-099e-4d66-a435-f1024e1316b6
 author: udaykirang
 ms.author: udag
 manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 13
 ---
 

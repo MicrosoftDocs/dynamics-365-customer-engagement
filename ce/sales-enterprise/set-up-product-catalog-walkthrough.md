@@ -3,18 +3,13 @@ title: "Set up a product catalog  Walkthrough (Dynamics 365 Sales) | MicrosoftDo
 description: "Make it easier for your sales reps to increase their sales by creating a product catalog in Dynamics 365 Sales."
 keywords: "Product catalog, collection, products"
 ms.date: 10/01/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: get-started-article
 ms.assetid: d1677843-906a-49ec-a8c1-d2733870020e
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 28
 ---
 

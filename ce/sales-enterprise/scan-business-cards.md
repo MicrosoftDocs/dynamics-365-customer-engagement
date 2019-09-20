@@ -3,20 +3,13 @@ title: "Scan business cards (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the business card scanner in Dynamics 365 Sales to quickly scan business cards of the prospective customers you've met with."
 keywords: "business card, scan, scanner, lead, contact, populate, data"
 ms.date: 10/01/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - ""
 ms.assetid: b1798d84-617a-4284-8cc8-bf146d8a5578
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
 
 # Scan business cards

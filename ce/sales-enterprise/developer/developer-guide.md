@@ -10,9 +10,6 @@ ms.assetid: b16a9d08-e24a-4b60-9dcc-6803cea4882e
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 5
 ---
 # Developer Guide for Dynamics 365 Sales

@@ -1,17 +1,12 @@
 ---
 title: "Configure and enable embedded intelligence features for Dynamics 365 Sales | MicrosoftDocs"
-keywords: 
 ms.date: 10/31/2018
 ms.service: crm-online
-ms.custom: 
 ms.topic: article
 ms.assetid: f2ba3ad4-96a0-47a9-a54a-71265f4d8053
 author: udag
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 28
 ---
 # Configure and enable embedded intelligence

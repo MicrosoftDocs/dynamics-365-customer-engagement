@@ -3,18 +3,13 @@ title: "Add products an opportunity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Develop your opportunity by defining the products your customers are interested in purchasing."
 keywords: "opportunity, deal, develop, propose, nurture sales"
 ms.date: 10/01/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
 ms.assetid: 36b834d9-7b37-49f7-a110-efcaee8dea04
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 58
 ---
 

@@ -3,16 +3,11 @@ title: "Manage custom insight cards in Dynamics 365 Sales | MicrosoftDocs"
 description: "Create custom insight cards using Microsoft and optimize ranking for cards in assistant"
 ms.date: 03/21/2019
 ms.service: crm-online
-ms.custom: 
 ms.topic: article
-applies_to: Dynamics 365 (online)
 ms.assetid: 2c2a2739-a7ab-4de1-9dd9-8d6a423dc090
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 1
 ---
 
