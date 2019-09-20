@@ -14,7 +14,7 @@ ms.assetid: 48997010-a47c-4e16-b7d2-f55d7a52ba19
 caps.latest.revision: 36
 author: Mattp123
 ms.author: matp
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -22,8 +22,6 @@ search.app:
   - Powerplatform
 ---
 # Use Power BI
-
-*This content also applies to the on-premises version.*
 
 The [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-office-365-long.md)] cloud service works with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps to provide a self-service analytics solution. [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] automatically refreshes the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps data displayed. With [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] or [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] Power Query for authoring reports and [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] for sharing dashboards and refreshing data from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, sales, marketing, and service personnel in your organization have a powerful new way to work with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data.  
   
@@ -75,8 +73,6 @@ The [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-offic
  Before users can embed [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] visualizations on personal dashboards, the organization-wide setting must be enabled.  
   
 > [!NOTE]
->  This feature was first introduced in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)].  
-> 
 >  By default, [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] visualization embedding is disabled and must be enabled before users can embed them in personal dashboards.  
   
 ### Enable [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] visualizations in the organization  
@@ -121,7 +117,7 @@ To learn more about how to add [!INCLUDE[pn_power_bi_for_office_365_short](../in
 > For more information about the different endpoint versions, see [Web API URL and versions]( https://msdn.microsoft.com/library/gg334391.aspx#bkmk_url_and_versions).
  
 > [!TIP]
->  You can find your OData endpoint URL in the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps web client. Go to **Settings** > **Customizations** > **Developer Resources** and locate the URL under **Instance Web API**.  
+>  You can find your OData endpoint URL in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)]. Go to **Settings** > **Customizations** > **Developer Resources** and locate the URL under **Instance Web API**.  
   
 5. In the Access an OData feed dialog click **Organizational account**, and then click **Connect**.  
   
