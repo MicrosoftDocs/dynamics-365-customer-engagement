@@ -30,7 +30,7 @@ Easily pin a Dynamics 365 apps record or view to a Teams channel using the **Col
 
 The [basic collaboration experience](teams-collaboration.md) only lets you pin records to a Teams channel from within Teams. The enhanced collaboration experience lets you pin a record or a view of records to a Teams channel while you are working in Dynamics 365 apps.
 
-For more information on which entities support the collaborate option, see [Record types supporting collaborate](teams-work-records-and-view.md#Record-types-supporting-Collaborate)
+For more information on which entities support the collaborate option, see [Record types supporting collaborate](teams-work-records-and-view.md#record-types-supporting-collaborate)
 
 ## Pin a Dynamics 365 apps record or view to a Teams channel
 
