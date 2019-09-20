@@ -22,7 +22,7 @@ search.app:
 ---
 # Sample: Create a real-time workflow in code
 
-This sample code applies to on–premises [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with workflows](https://code.msdn.microsoft.com/Work-with-workflows-edf8f3bf).
+This sample code applies to Dynamics 365 Customer Engagement (on-premises). Download the sample: [Work with workflows](https://code.msdn.microsoft.com/Work-with-workflows-edf8f3bf).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
