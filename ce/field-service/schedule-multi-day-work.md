@@ -28,7 +28,7 @@ search.app:
 
 # Schedule work over multiple days 
 
-Work orders for on site service and requirements for other business needs can be scheduled across multiple days and weeks. A common example is scheduling a 40 hour requirement across an entire work week where the field technician is expected to perform more detailed work at the same location each day. 
+Work orders and generic scheduling requirements can be scheduled across multiple days and weeks. A common example is scheduling a 40 hour work order across an entire work week where the field technician is expected to perform more detailed work at the same location each day. 
 
 Dispatchers can schedule multi-day work in between existing bookings, by double booking existing schedules, or as a continuous block of time. 
 
@@ -40,7 +40,7 @@ When scheduling multi-day work orders or requirements, dispatchers can choose an
 - Distribute evenly
 - Front load
 
-For more details see the topic on [Allocation methods](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/project-service/faq-allocation-methods).
+For more details see the topic on [allocation methods](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/project-service/faq-allocation-methods).
 
 Let's explore multi-day scheduling and allocation methods by configuring three scenarios:
 
@@ -214,19 +214,19 @@ Bookings are created for each resource on the days selected. Availability for ea
 
 ## Configuration considerations
 
-- Each requirement has its own calendar that you can view and edit from the Modify Calendar button in the top ribbon of a requirement. The calendar is important because it allows you to edit the time zone of the requirement and how schedule assistant results should be displayed. In the case of multi-day scheduling with allocation methods, the calendar will dictate the hours and pattern of the resulting bookings. As an example, if the calendar is 9AM - 5PM, Monday - Friday, if you select **Full Capacity** as the allocation method, it will assume Full Capacity means the total time of the calendar. The **Percent Capacity** allocation method also uses the calendar. 
+- Each requirement has its own calendar that you can view and edit from the Modify Calendar button in the top ribbon of a requirement. The calendar is important because it allows you to edit the time zone of the requirement and how the schedule assistant results should be displayed. In the case of multi-day scheduling with allocation methods, the calendar will dictate the hours and pattern of the resulting bookings. As an example, if the calendar is 9AM - 5PM, Monday - Friday, and you select **Full Capacity** as the allocation method, it will assume Full Capacity means the total time of the calendar. The **Percent Capacity** allocation method also uses the calendar. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-30-modify-calendar.png)
 
 - Availability does not need to be continuous. As an example, if a dispatcher needs to schedule a resource for 4 hours one of the days, that resource will show as available as long as there is 4 total hours of availability, not necessarily a single block of 4 available hours. 
 - You can manually create requirement details as needed to schedule multi-day work according to a custom pattern. 
-- You cannot schedule greater than the calendar. As an example, if the calendar is 9AM - 5PM, Monday - Friday, which equates to 40 hours per week, you cannot schedule more than 40 hours in one week. THis would have to be done manually.
+- You cannot schedule greater than the calendar. As an example, if the calendar is 9AM - 5PM, Monday - Friday, which equates to 40 hours per week, you cannot schedule more than 40 hours in one week. This would have to be done manually.
 - Front load vs full capacity allocation methods. Front load will schedule around existing bookings, and full capacity will schedule in addition to existing bookings, overbooking as needed.
 
 ## Additional Notes
 - Requirement groups cannot be scheduled for multiple days. 
-- An on site multi-day work order or requirement will filter available resources by their location, but travel time will not be calculated and added to the resulting bookings.
+- The schedule assistant will filter available resources for multi-day work by their location (i.e. Radius), but travel time will not be calculated and added to the resulting bookings.
 - As you book requirements, multi-day or otherwise, the system tracks fulfilled duration and remaining duration. These field values compare total booked time with the duration of the requirement. 
 
 ### See also
