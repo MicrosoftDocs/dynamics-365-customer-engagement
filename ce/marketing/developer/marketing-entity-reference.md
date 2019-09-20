@@ -35,7 +35,7 @@ To view information about all the entities and their properties, attributes, and
 
 ## Use Entity Metadata Browser
 
-In your Dynamics 365 instance, select **Dynamics 365** >  **Metadata Tools** to open the app.
+In your Dynamics 365 Marketing instance, select **Dynamics 365** >  **Metadata Tools** to open the app.
 
 ![](../media/dev-metadata-browser-app.png)
 

@@ -1,6 +1,6 @@
 ---
 title: "Remove custom channel (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
-description: "Provides information on how to uninstall/remove custom channel from your Dynamics 365 instance."
+description: "Provides information on how to uninstall/remove custom channel from your Dynamics 365 Marketing instance."
 ms.custom: 
   - dyn365-developer
   - dyn365-marketing
@@ -21,13 +21,13 @@ search.app:
 ---
 # Remove custom channel
 
-This step is typically performed by administrators of your Dynamics 365 instance.
+This step is typically performed by administrators of your Dynamics 365 Marketing instance.
 
-To remove a custom channel app from your Dynamics 365 instance, you will first have to ensure that none of the components of the custom channel app are in use. This implies that before removing a custom channel app, you will have to remove the custom tile from your customer journeys, or delete the customer journeys containing the custom tile altogether. This includes journeys in any state: draft, live or even past journeys in stopped/expired state. 
+To remove a custom channel app from your Dynamics 365 Marketing instance, you will first have to ensure that none of the components of the custom channel app are in use. This implies that before removing a custom channel app, you will have to remove the custom tile from your customer journeys, or delete the customer journeys containing the custom tile altogether. This includes journeys in any state: draft, live or even past journeys in stopped/expired state. 
 
-This is because the custom channel app is a [managed solution](../../developer/introduction-solutions.md#unmanaged-and-managed-solutions), and the solution component [dependency tracking](../../developer/dependency-tracking-solution-components.md) feature in Dynamics 365 *prevents* you from deleting a managed solution if any of the managed solution component is used by other components in a customization.
+This is because the custom channel app is a [managed solution](../../developer/introduction-solutions.md#unmanaged-and-managed-solutions), and the solution component [dependency tracking](../../developer/dependency-tracking-solution-components.md) feature *prevents* you from deleting a managed solution if any of the managed solution component is used by other components in a customization.
 
-After you have taken care of the dependencies, delete the managed solution to remove the custom channel app from your Dynamics 365 instance. More information: [Uninstall or delete a solution](../../developer/uninstall-delete-solution.md)
+After you have taken care of the dependencies, delete the managed solution to remove the custom channel app from your Dynamics 365 Marketing instance. More information: [Uninstall or delete a solution](../../developer/uninstall-delete-solution.md)
 
 If there are any customer journeys that still use one or more components of the custom channel app solution, you will receive the following error on deleting the custom channel app solution:
 

@@ -55,9 +55,9 @@ Dynamics 365 Marketing has been tested to work correctly with the following acce
 
 Regardless of which supported browser you use, you must configure your browser as follows:
 
-- **Allow pop-up windows from Dynamics 365 Marketing**<br>You must configure your browser to allow all pop-up windows from your Dynamics 365 domain (see your browser's documentation for instructions). Most modern web browsers block all pop-up windows by default. Some browsers alert you when they block a pop-up window, (for example by showing an icon in the address bar), but others do not.
-- **Allow JavaScript from Dynamics 365 Marketing**<br>JavaScript must be enabled for your browser, at least for your Dynamics 365 domain. Most browsers enable JavaScript by default.
-- **Allow cookies from Dynamics 365 Marketing**<br>Cookies must be enabled for your browser, at least for your Dynamics 365 domain. Most browsers enable cookies by default.
+- **Allow pop-up windows from Dynamics 365 Marketing**<br>You must configure your browser to allow all pop-up windows from your Dynamics 365 Marketing domain (see your browser's documentation for instructions). Most modern web browsers block all pop-up windows by default. Some browsers alert you when they block a pop-up window, (for example by showing an icon in the address bar), but others do not.
+- **Allow JavaScript from Dynamics 365 Marketing**<br>JavaScript must be enabled for your browser, at least for your Dynamics 365 Marketing domain. Most browsers enable JavaScript by default.
+- **Allow cookies from Dynamics 365 Marketing**<br>Cookies must be enabled for your browser, at least for your Dynamics 365 Marketing domain. Most browsers enable cookies by default.
 
 ## Enable touch for Microsoft Edge browsers
 

@@ -177,7 +177,7 @@ All marketing-page settings are editable when the page has a status reason of Dr
 
 ## Marketing forms go-live operations and status
 
-Marketing forms are reusable form elements that you can embed in your marketing pages. They get published to the marketing services, where they are made available to marketing pages running on the portal. The forms can also be embedded onto any web page, such as on your own website, rather than on a Dynamics 365 marketing page.
+Marketing forms are reusable form elements that you can embed in your marketing pages. They get published to the marketing services, where they are made available to marketing pages running on the portal. The forms can also be embedded onto any web page, such as on your own website, rather than on a Dynamics 365 Marketing page.
 
 You can manually set the **Status** of a draft or stopped marketing form to _active_ or _inactive_ by using the buttons on the command bar (as with most entities). The **Status reason** indicates the page's go-live state and is read-only.
 

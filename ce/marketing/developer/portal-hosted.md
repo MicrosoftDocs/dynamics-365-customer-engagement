@@ -9,8 +9,6 @@ ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
 ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
 author: Nkrb
 ms.author: nabuthuk
 manager: kvivek

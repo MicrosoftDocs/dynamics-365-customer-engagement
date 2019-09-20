@@ -24,11 +24,11 @@ search.app:
 
 # Invite, register, and house event attendees
 
-After your event is fully modelled in Dynamics 365, you're ready to start promoting it. The system provides many tools to help you do this.
+After your event is fully modelled in Dynamics 365 Marketing, you're ready to start promoting it. The system provides many tools to help you do this.
 
 ## Invite contacts to your events
 
-After your event is planned and set up, it's time to start promoting it! Dynamics 365 provides several tools to help you do this:
+After your event is planned and set up, it's time to start promoting it! Dynamics 365 Marketing provides several tools to help you do this:
 
 - Create a marketing email message that includes an event element in its design. The event element creates a call-to-action button in your message that takes message recipients directly to your event website. More information: [Email marketing overview](prepare-marketing-emails.md) and [Event elements](content-blocks-reference.md#event-elements).
 - Set up a customer journey that sends your marketing email message to all the relevant contacts, registers message interactions, and reacts to event registrations. More information: [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md).

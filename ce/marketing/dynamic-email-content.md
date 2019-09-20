@@ -55,7 +55,7 @@ To view, edit, or create a content-settings record:
 1. Make the following settings, as needed:
 
     - **Name**: Enter a name for the customer-settings record. This is the name shown when you're assigning content settings to a customer journey or email-message preview.
-    - **Owner**: Shows the Dynamics 365 user who created the record.
+    - **Owner**: Shows the Dynamics 365 Marketing user who created the record.
     - **Address main**: Enter the main part of your organization's postal address. All marketing email messages must include a valid main address taken from a content-settings record. Select the  **&lt;/&gt;**  button to use [assist-edit](#assist-edit) to enter an expression that references a field from an existing record (such as an address field from a specific account record).
     - **Address line 2**: Enter supplemental postal address information (if needed). Select the  **&lt;/&gt;**  button to use [assist-edit](#assist-edit) to enter an expression that references a field from an existing record (such as an address field from a specific account record).
     - **Default**: Set to **Yes** to make the current content-settings record the default for all new customer journeys. There must always be exactly one default; if you change the default, the existing default will automatically be changed to **No**.

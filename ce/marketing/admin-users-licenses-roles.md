@@ -62,7 +62,7 @@ To purchase and assign a free Marketing user license:
 
     ![Add a license](media/admin-m365-assign-license.png "Add a license")
 
-1. Select **Save changes** and then close the fly-out. The user now has a free Marketing license and should be visible in the Dynamics 365 user-admin interface in a few minutes.
+1. Select **Save changes** and then close the fly-out. The user now has a free Marketing license and should be visible in the user-admin interface in a few minutes.
 
 1. Assign the appropriate security roles to grant the new user access to the required Marketing features, as described in the next section. The app doesn't allow access to any user who does not have at least one relevant security role.
 
@@ -86,7 +86,7 @@ To apply security roles to users, and to customize each role, do the following:
 
 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
 
-1. The Dynamics 365 advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
+1. The advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
 
 1. Work with the **Users** settings here to assign security roles to users. For details, see [Manage security, users, and team](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).
 
@@ -103,7 +103,7 @@ To find out which permissions apply to any existing security role (and/or edit a
 
 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
 
-1. The Dynamics 365 advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
+1. The advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
 
 1. Select the **Security roles** icon.
 

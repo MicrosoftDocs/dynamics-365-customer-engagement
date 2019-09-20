@@ -25,7 +25,7 @@ search.app:
 
 Matching strategies define how form submissions are matched to existing contacts or leads when deciding whether to update an existing record or to create a new one.
 
-For example, a simple contact-matching strategy might be based on email address alone. When a submission is received, Dynamics 365 will check whether any existing contact has the submitted email address. If a match is found, the submission is used to update that contact; if no match is found, a new contact is created with the received values.
+For example, a simple contact-matching strategy might be based on email address alone. When a submission is received, Dynamics 365 Marketing will check whether any existing contact has the submitted email address. If a match is found, the submission is used to update that contact; if no match is found, a new contact is created with the received values.
 
 For leads, if an existing lead record is found to match an incoming form submission, then the new submission will become part of that lead's history and could affect the lead's score.
 

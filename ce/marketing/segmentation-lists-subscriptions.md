@@ -77,7 +77,7 @@ Segment records provide several tabs for describing, defining, and reviewing the
 
 The **General** tab provides general information about the segment, including:
 
-- **Name**: Enter a name that will make the segment easy for you and others to identify while working in Dynamics 365.
+- **Name**: Enter a name that will make the segment easy for you and others to identify while working in Dynamics 365 Marketing.
 - **Segment Type**: Set the segment to dynamic, static, or compound. This setting controls which types of settings you'll see for populating the list on the **Definition** tab.
 - **Status reason**: Shows whether the segment is draft or live. Only live segments are available for use in customer journeys and compound segments.
 

@@ -46,7 +46,7 @@ We recommend that you include a privacy banner on all your landing pages. This w
 
 ## Configure how incoming form data is matched to existing records
 
-Most of your landing pages will include an input form that visitors can use to sign up for an offer, event, or mailing list by entering their name, email address, and other information. When a visitor submits a form, Dynamics 365 accepts the submitted values and checks to see whether it should update an existing record or create a new one.
+Most of your landing pages will include an input form that visitors can use to sign up for an offer, event, or mailing list by entering their name, email address, and other information. When a visitor submits a form, Dynamics 365 Marketing accepts the submitted values and checks to see whether it should update an existing record or create a new one.
 
 The **Contact creation context capture** and **Lead creation context capture** sections show where various types of information about the marketing context are stored when a submission results in a new contact or lead record. Here, you can see which fields in the contact or lead entity store each type of context information.
 

@@ -25,7 +25,7 @@ search.app:
 
 Use the entities in the **Logistics** area to provide information that can help attendees from farther away to plan accommodation for their trip. Register local hotels, record their contact information, allocate sets of rooms that will be made available to attendees, and take reservations for the allocated rooms. You can also register various other types of attendee-facing vendors here, such as airlines, car rentals, food caterers, and more.
 
-Logistics features are mostly informational, and they are not exposed directly to attendees through the standard event website. For example, you can enter hotel reservations in Dynamics 365 based on communications you've had with attendees, but you'd still need to contact the hotel to let them know about the reservations.
+Logistics features are mostly informational, and they are not exposed directly to attendees through the standard event website. For example, you can enter hotel reservations in Dynamics 365 Marketing based on communications you've had with attendees, but you'd still need to contact the hotel to let them know about the reservations.
 
 Use the following entities of the [Events work area](open-events.md) to record and provide logistics services for attendees:
 

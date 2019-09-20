@@ -58,7 +58,7 @@ You can assign any number of security roles to each team. When a team is assigne
 
 To apply security roles to teams, and to customize each role:
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The Dynamics 365 advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 1. Navigate to **Settings** > **System** > **Security**.
 1. Work with the **Users**, **Security roles**, and **Teams** items here as needed.
 

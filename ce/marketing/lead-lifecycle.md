@@ -36,7 +36,7 @@ Dynamics 365 Marketing provides automated lead scoring, but this feature also re
 
 So, the starting point for engaging potential customers in Dynamics 365 Marketing is to establish your collection of contact records through the following mechanisms:
 
-- Create contacts manually in the Dynamics 365 UI.
+- Create contacts manually in the Dynamics 365 Marketing UI.
 - Import contacts from a file.
 - Customer opt-in from a landing page (typically created together with a linked lead).
 - Customer opt-in from an event registration (typically created together with a linked lead).
@@ -46,7 +46,7 @@ So, the starting point for engaging potential customers in Dynamics 365 Marketin
 
 As contacts interact with your marketing initiatives, you'll generate leads to represent expressions of interest made by those contacts. You might generate a lead manually (such as after a meeting or phone conversation), or you might allow the system to generate them automatically (such as in response to an event registration). Leads are usually generated in one of the following ways:
 
-- Use the Dynamics 365 UI to create a lead record and then manually link it to a new or existing contact record.
+- Use the Dynamics 365 Marketing UI to create a lead record and then manually link it to a new or existing contact record.
 - Import leads from a file and then manually map each lead to a contact or account.
 - Customer opt-in from a landing page (matched to an existing contact or creates a new, linked contact).
 - Customer opt-in from an event registration (matched to an existing contact or creates a new, linked contact).
@@ -101,4 +101,4 @@ The standard process guides users through the following stages:
 Business processes are highly customizable and can be used to drive further automation. They are a standard feature of many Dynamics 365 apps. You'll typically also customize your system to support other aspects of this process, such as by setting up dashboards and custom views for teleprospectors and salespeople to discover their newly qualified leads, and by setting up workflows that automate other aspects of your internal sales processes. More information: [Create custom business logic through processes](../customize/guide-staff-through-common-tasks-processes.md)
 
 > [!NOTE]
-> If you are integrating Dynamics 365 Marketing with [!INCLUDEDynamics 365 Sales, then you should probably also customize the lead views and dashboards shown to salespeople to ensure that only sales-ready leads are shown to them. More information: [Create or edit views](../customize/create-edit-views.md) and [Create or edit dashboards](../customize/create-edit-dashboards.md)
+> If you are integrating Dynamics 365 Marketing with Dynamics 365 Sales, then you should probably also customize the lead views and dashboards shown to salespeople to ensure that only sales-ready leads are shown to them. More information: [Create or edit views](../customize/create-edit-views.md) and [Create or edit dashboards](../customize/create-edit-dashboards.md)

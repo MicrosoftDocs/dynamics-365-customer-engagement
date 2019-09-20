@@ -24,9 +24,9 @@ search.app:
 
 # Create and deploy marketing pages
 
-A marketing page is a webpage that is hosted by Dynamics 365 and usually includes a form where people can register for an offer, update their contact information, manage mailing list subscriptions, and more. All the information submitted through a marketing page is automatically captured by Dynamics 365 and applied immediately to your customer database.
+A marketing page is a webpage that includes a form where people can register for an offer, update their contact information, manage mailing list subscriptions, and more. All the information submitted through a marketing page is automatically captured by Dynamics 365 Marketing and applied immediately to your customer database.
 
-Marketing pages integrate with&mdash;and provide expanded functionality for&mdash;many other Dynamics 365 features, including email marketing, customer journeys, behavior analysis, lead scoring, and result analytics.
+Marketing pages integrate with&mdash;and provide expanded functionality for&mdash;many other Dynamics 365 Marketing features, including email marketing, customer journeys, behavior analysis, lead scoring, and result analytics.
 
 > [!IMPORTANT]
 > The marketing-page feature described in this topic requires that you have a Dynamics 365 Portal associated with your Dynamics 365 Marketing instance. If your admin chose to install Marketing without a portal, then the features described in this topic won't be available to you. If you attempt to go live with a marketing page without having a portal available, you'll be alerted to the issue and offered a chance to install a portal if you like (admin privileges required). For details about how to create landing pages without using a portal (or in addition to the portal), see [Integrate with landing pages on external websites](embed-forms.md).
@@ -45,7 +45,7 @@ The overall process of creating a new marketing page and making it available on 
 
 4. When you are satisfied with the design, check it for required content and technical errors by selecting **Check for Errors** in the command bar. If a problem is found, read the description, address the issue, and try again until the page passes the error check.
 
-5. Select **Save** in the command bar. Your page is now verified and saved in your system, but is still not available on the web. Select **Go Live** to publish it by using the portal capabilities for Dynamics 365, where it will be made available at a public URL. You are now ready to start promoting it by including links to it in your marketing email messages, banners, social-media posts, and other marketing initiatives.
+5. Select **Save** in the command bar. Your page is now verified and saved in your system, but is still not available on the web. Select **Go Live** to publish it to your Dynamics 365 Portal, where it will be made available at a public URL. You are now ready to start promoting it by including links to it in your marketing email messages, banners, social-media posts, and other marketing initiatives.
 
 More information: [Design your digital content](design-digital-content.md)
 
@@ -58,13 +58,13 @@ The remainder of this topic provides more information about these steps, includi
 There are three basic types of marketing pages:
 
 - **Landing pages**  
-    Landing pages provide a webpage with an input form that visitors can use to sign up for a download, discount, mailing list, or other perk by entering their contact details. When a visitor submits a form, Dynamics 365 automatically stores the submitted values in your database, creating new records or updating existing ones as needed.
+    Landing pages provide a webpage with an input form that visitors can use to sign up for a download, discount, mailing list, or other perk by entering their contact details. When a visitor submits a form, Dynamics 365 Marketing automatically stores the submitted values in your database, creating new records or updating existing ones as needed.
 - **Subscription centers**  
     All marketing email messages must include a link to a subscription center, where mail recipients can go to unsubscribe, choose other lists to subscribe to, or update their contact information. You can choose which mailing lists to include in each subscription center, but all subscription centers will also include a check box the visitor can use to opt out of all marketing emails.
 - **Forward to a friend**  
     If you'd like to enable recipients of your marketing email messages to forward those messages to friends who might also be interested in your offers, create a forward-to-a-friend marketing page and include links to it in your marketing email messages. Dynamics 365 Marketing tracks when messages are forwarded by contacts who use the forward-to-a-friend form, but not when contacts simply forward a message by using their standard email client. Messages forwarded using an email client will still contain the web beacon and personalized links of the original recipient, so your email results will show all interactions with these forwarded messages as being done by the original recipient too&mdash;but when a contact uses the forward-to-a-friend form, Dynamics 365 Marketing generates a new web beacon and personalized redirect links for each forwarded message. Forward-to-a-friend recipients also won't see any personalized information that was intended for the original recipient. For reasons of data privacy, all data entered into a forward-to-a-friend form is deleted after 30 days, so no new contact or lead records are created unless a recipient of the forward chooses to register with your organization using a landing page.
 
-Dynamics 365 Marketing also includes both Voice of the Customer (for running online surveys) and Event Management (which includes a full-featured event website that provides event information and registration). Like marketing pages, these provide interactive webpages that run as Dynamics 365 Portals, and work similarly to marketing pages under the hood, but they are more specialized so you'll work with them differently in Dynamics 365. More information: [Set up the event website](set-up-event-portal.md), and [Create and run online surveys](surveys.md)
+Dynamics 365 Marketing also includes both Voice of the Customer (for running online surveys) and Event Management (which includes a full-featured event website that provides event information and registration). Like marketing pages, these provide interactive webpages that run as Dynamics 365 Portals, and work similarly to marketing pages under the hood, but they are more specialized so you'll work with them differently. More information: [Set up the event website](set-up-event-portal.md), and [Create and run online surveys](surveys.md)
 
 ## Create, view, and manage marketing pages
 
@@ -91,7 +91,7 @@ Select **Save** on the command bar after you've finished making these settings.
 
 ### Design your content
 
-After choosing a template, you'll be in the page content designer, which resembles the other digital content designers provided in Dynamics 365. Work with it as follows:
+After choosing a template, you'll be in the page content designer, which resembles the other digital content designers provided in Dynamics 365 Marketing. Work with it as follows:
 
 - The **Content** &gt; **Designer** tab provides a graphical tool that you use to design your content by using drag-and-drop, point-and-click operations. Add new elements to your design by dragging elements from the **Content** &gt; **Designer** &gt; **Toolbox** tab to the content canvas. Choose a design element that already exists in your design, and then use the **Content** &gt; **Designer** &gt; **Properties** tab to configure and style it.
 
@@ -108,7 +108,7 @@ More information: [Design your digital content](design-digital-content.md)
 
 ### Establish marketing page templates
 
-Dynamics 365 comes with a collection of sample templates to help get you started quickly. You can also save your own templates, which you might do to establish your own visual identity and quickly create new pages that conform to it.
+Dynamics 365 Marketing comes with a collection of sample templates to help get you started quickly. You can also save your own templates, which you might do to establish your own visual identity and quickly create new pages that conform to it.
 
 You can view, edit, and create all marketing page templates by going to **Marketing** &gt; **Templates** &gt; **Marketing Page Templates**. The process for creating a new template is similar to creating a new page, but you'll start from a blank slate rather than choose a template at the beginning.
 
@@ -116,7 +116,7 @@ More information: [Work with email, page, and form templates](email-templates.md
 
 ## Deploy your marketing pages
 
-While you are building a marketing page it remains in draft status, and is therefore editable in Dynamics 365 but is unavailable to customers on the internet. When your page is ready for use, you must publish it by selecting **Go Live**. Your design will be checked for errors and then, provided it passes, be published to your portal. If a problem is found, read the error message, address the issue, and try again.
+While you are building a marketing page it remains in draft status, and is therefore editable in Dynamics 365 Marketing but is unavailable to customers on the internet. When your page is ready for use, you must publish it by selecting **Go Live**. Your design will be checked for errors and then, provided it passes, be published to your portal. If a problem is found, read the error message, address the issue, and try again.
 
 You can edit a live page by selecting **Edit** in the command bar. While you are editing it, it remains available on the internet. After editing, select **Save** to go live with your changes. Your design will be checked for errors and then, provided it passes, your updates will be published.
 

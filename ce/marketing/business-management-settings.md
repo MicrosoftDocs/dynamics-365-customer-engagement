@@ -33,7 +33,7 @@ This topic describes what you can do when working in the **Advanced Settings** >
 
 Bring your customer and sales data quickly into your app by importing it. You can import data into most record types.
 
-Dynamics 365 processes imports in the background. After an import is completed, you can review which records were successfully imported, failed to be imported, or were partially imported. To fix the records that failed to be imported, export them into a separate file, fix them, and then try to import them again (if necessary, you can start over by deleting all records associated with the previous import).
+Dynamics 365 Marketing processes imports in the background. After an import is completed, you can review which records were successfully imported, failed to be imported, or were partially imported. To fix the records that failed to be imported, export them into a separate file, fix them, and then try to import them again (if necessary, you can start over by deleting all records associated with the previous import).
 
 Data can be imported from:
 
@@ -48,7 +48,7 @@ More information: [Import data](import-data.md)
 
 ## Export data or templates
 
-Present information to people who don't have access to Dynamics 365 by exporting the data to an Excel workbook. You can export just the data from a list, or you can export a template.
+Present information to people who don't have access to Dynamics 365 Marketing by exporting the data to an Excel workbook. You can export just the data from a list, or you can export a template.
 
 When you export a template, a ready-made workbook with column headings matching the fields of the record is created for you. Templates are already formatted as expected by Dynamics 365, so they are easy to edit and reimport later.
 
@@ -69,7 +69,7 @@ To maintain the integrity of your data, it's a good idea to set up duplicate det
 
 ### Duplicate detection rules
 
-Dynamics 365 includes duplicate detection rules for accounts and contacts. The rules are automatically published when duplicate detection is enabled.
+Dynamics 365 Marketing includes duplicate detection rules for accounts and contacts. The rules are automatically published when duplicate detection is enabled.
 
 - Accounts with the same account name are found
 - Contacts with the same first name and last name are found

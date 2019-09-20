@@ -37,8 +37,8 @@ The following table summarizes the capabilities available with each of these app
 
 |   | Embedded marketing form | Captured external form | Native marketing page |
 | --- | --- | --- | --- |
-| Form design | Dynamics 365 | External/CMS | Dynamics 365 |
-| Page design and publishing | External/CMS | External/CMS | Dynamics 365 |
+| Form design | Dynamics 365 Marketing | External/CMS | Dynamics 365 Marketing |
+| Page design and publishing | External/CMS | External/CMS | Dynamics 365 Marketing |
 | Form prefill | Yes | No | Yes |
 | Subscription center functionality | Yes | No | Yes |
 | Forward to a friend functionality | No | No | Yes |
@@ -79,7 +79,7 @@ To design a form in Dynamics 365 Marketing that you can embed on an external web
 
 1. In the **Related marketing form pages** column, select **Add new form page** (open the ellipsis menu here to find this command if you don't see it). A quick-create flyout slides in. A _form page_ is a virtual page where you can make a few extra configuration settings for forms that will be embedded externally.
 
-1. Use the quick-create form to set up your form options. The settings here are the same as those for a [form element](content-blocks-reference.md#the-form-element-for-marketing-pages) placed on a Dynamics 365 marketing page.
+1. Use the quick-create form to set up your form options. The settings here are the same as those for a [form element](content-blocks-reference.md#the-form-element-for-marketing-pages) placed on a marketing page.
 
 1. Select **Save** to create the new form page and go back to the **Form hosting** tab for your form.
 

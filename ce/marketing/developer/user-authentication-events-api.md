@@ -53,7 +53,7 @@ In case no matching contact is found, a new contact will be created automaticall
 
 ### Retrieving information of authenticated user 
 
-The Events API provides an endpoint that returns the information of the authenticated user. Starting with the June 2019 release, it also includes the Dynamics 365 contact ID of the authenticated user. 
+The Events API provides an endpoint that returns the information of the authenticated user. Starting with the June 2019 release, it also includes the Dynamics 365 Marketing contact ID of the authenticated user. 
 
 **Request** 
 

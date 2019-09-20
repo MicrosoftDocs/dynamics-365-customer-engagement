@@ -38,7 +38,7 @@ The email tile sends a marketing email message to each contact that enters it. I
 - **Email**: Identify the marketing email message that the tile will send. Before you can publish your customer journey, all the marketing emails it references must also be finalized and published.
 - **Description**: Add a description or other notes here (optional).
 
-Your marketing email messages might contain special links to other Dynamics 365 features such as marketing pages, event websites, or voice-of-the-customer surveys, and you can set up customer-journey trigger tiles that react to customer interactions regarding each or any of these specifically. But even though you've selected a marketing email message that includes elements such as these, the customer journey won't know about them unless you also add a nested tile for each specific link that you want to trigger on. Add a nested marketing-page, marketing-form, event, or survey to an email tile to expose these elements and make them selectable in your trigger-tile configurations. (Triggers can also react to message opens and unspecified link clicks, but you don't need to do anything special to enable this.)
+Your marketing email messages might contain special links to other Dynamics 365 Marketing features such as marketing pages, event websites, or voice-of-the-customer surveys, and you can set up customer-journey trigger tiles that react to customer interactions regarding each or any of these specifically. But even though you've selected a marketing email message that includes elements such as these, the customer journey won't know about them unless you also add a nested tile for each specific link that you want to trigger on. Add a nested marketing-page, marketing-form, event, or survey to an email tile to expose these elements and make them selectable in your trigger-tile configurations. (Triggers can also react to message opens and unspecified link clicks, but you don't need to do anything special to enable this.)
 
 You can add nested tiles under an email even if the associated message doesn't yet include the link represented by the nested tile. This lets you plan your customer journey first and then finish your email designs later.
 
@@ -123,11 +123,11 @@ Action tiles launch workflows or create new action records within Dynamics 365. 
 
 ### Activity
 
-An *activity* is a record of a planned or completed real-world activity, such as an appointment, task, or phone call, that relates to some other record in Dynamics 365. Most forms in Dynamics 365 include an activity wall that shows all the activities that various users planned or completed in relation to that record, such as phone conversations with a specific contact, or meetings related to planning a particular event. Records for planned activities can function as a to-do list for the users they are assigned to, and records for completed activities can contain details about what happened or what the outcome was.
+An *activity* is a record of a planned or completed real-world activity, such as an appointment, task, or phone call, that relates to some other record in Dynamics 365. Most forms in Dynamics 365 Marketing include an activity wall that shows all the activities that various users planned or completed in relation to that record, such as phone conversations with a specific contact, or meetings related to planning a particular event. Records for planned activities can function as a to-do list for the users they are assigned to, and records for completed activities can contain details about what happened or what the outcome was.
 
 Activity tiles are stand-alone, so they can neither contain nor be nested under other tiles.
 
-When a contact enters an activity tile, the tile generates a new Dynamics 365 activity related to that contact (or the company the contact works for), and then the contact proceeds immediately to the next step in their customer journey.
+When a contact enters an activity tile, the tile generates a new Dynamics 365 Marketing activity related to that contact (or the company the contact works for), and then the contact proceeds immediately to the next step in their customer journey.
 
 Activity tiles provide the following settings in the **Properties** pane while selected:
 
@@ -218,7 +218,7 @@ A segment is a collection of contacts grouped according to some common attribute
 
 Usually, each of your customer journeys starts with a segment tile, which establishes the collection of contacts who you'll be working with for that journey. When your customer journey starts running, it immediately processes all the contacts found in its target segments at that time. As time goes on, any new contacts that join the target segments will also start their journey here for as long as the customer journey is active.
 
-Each segment tile always either contains or is nested below another segment tile, so at minimum you'll have a container segment with a single nested segment. The container tile identifies it self as a *segment group*; it displays a name for the group and shows information about the total number of contacts it includes, and it establishes the logic for combining its various nested tiles (intersection or union). Each nested tile identifies an actual segment configured in Dynamics 365.
+Each segment tile always either contains or is nested below another segment tile, so at minimum you'll have a container segment with a single nested segment. The container tile identifies it self as a *segment group*; it displays a name for the group and shows information about the total number of contacts it includes, and it establishes the logic for combining its various nested tiles (intersection or union). Each nested tile identifies an actual segment configured in Dynamics 365 Marketing.
 
 ![A segment tile with two nested segments](media/cj-segment-stack.png "A segment tile with two nested segments")
 
@@ -341,7 +341,7 @@ Splitter-branch tiles provide the following settings in the **Properties** pane 
 
 ## Custom content tiles
 
-Custom content tiles provide similar capabilities as the standard tiles described earlier (such as sending communication, tracking customer interactions, and adding triggers) but are created by partners and third-party developers to extend the marketing capabilities in Dynamics 365 Marketing. These custom tiles will appear in the designer if you have installed a partner-developed custom channel for customer journeys or have created and deployed your own custom channel for your Dynamics 365 instance. 
+Custom content tiles provide similar capabilities as the standard tiles described earlier (such as sending communication, tracking customer interactions, and adding triggers) but are created by partners and third-party developers to extend the marketing capabilities in Dynamics 365 Marketing. These custom tiles will appear in the designer if you have installed a partner-developed custom channel for customer journeys or have created and deployed your own custom channel for your Dynamics 365 Marketing instance. 
 
 Custom channels take advantage of the existing extensibility infrastructure and tooling in Dynamics 365, such as custom entities, workflows, and plug-ins, which allow developers and partners to leverage their knowledge of Dynamics 365. More information:  [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)
 

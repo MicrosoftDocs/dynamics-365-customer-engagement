@@ -29,7 +29,7 @@ However, it is possible to expose the new field in the Events API by creating a 
 
 To create a new website entity configuration: 
 
-1. Open your Dynamics 365 instance. 
+1. Open your Dynamics 365 Marketing instance. 
 2. Go to **Dynamics 365** > **Marketing** > **Settings** > **Website Entity Configurations**. 
 3. Enter a name of your choice in the `Name` field. 
 4. Select the entity for which you would like to expose an extra field in the `Selected Entity` field. 

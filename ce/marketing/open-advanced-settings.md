@@ -25,9 +25,9 @@ search.app:
 
 # Open the advanced settings
 
-Administrators use advanced settings to fine-tune application behavior, set defaults, manage users, enable webinars, check quotas, and more. If you also use [!INCLUDEDynamics 365 Sales, many of the settings you find here also apply to that app, though some settings are unique to Sales or Marketing.
+Administrators use advanced settings to fine-tune application behavior, set defaults, manage users, enable webinars, check quotas, and more. If you also use Dynamics 365 Sales, many of the settings you find here also apply to that app, though some settings are unique to Sales or Marketing.
 
-1. If you haven't already done so, sign in to Dynamics 365 as a user with [administrator privileges](admin-users-licenses-roles.md). Then use the app-selector menu to open the **Marketing** app.
+1. If you haven't already done so, sign in to Dynamics 365 Marketing as a user with [administrator privileges](admin-users-licenses-roles.md). Then use the app-selector menu to open the **Marketing** app.
 
     ![The app-selector menu](media/nav-apps-ill.png "The app-selector menu")
 

@@ -38,9 +38,9 @@ Here are some resources where you can learn more about how to bring your Dynamic
 - [Microsoft Trust Center](https://www.microsoft.com/trustcenter). This webpage includes links to information about how new features in Microsoft 365 help you secure personal data and meet strict GDPR privacy requirements.
 - [Microsoft Compliance Manager](https://aka.ms/compliancemanager). This webpage includes links to information about control management, integrated task assignment, evidence collection, and audit-ready reporting tools to streamline your compliance workflow.
 
-## Prepare Dynamics 365 for GDPR compliance
+## Prepare Dynamics 365 Marketing for GDPR compliance
 
-Most Dynamics 365 installations are customized to meet the specific needs of each organization that uses it. Some organizations have in-house developers, and some organizations work with external partners or consultants to implement their customizations. Either way, you must customize your Dynamics 365 system to enable its built-in GDPR compliance tools to function correctly.
+Most Dynamics 365 installations are customized to meet the specific needs of each organization that uses it. Some organizations have in-house developers, and some organizations work with external partners or consultants to implement their customizations. Either way, you must customize your Dynamics 365 Marketing system to enable its built-in GDPR compliance tools to function correctly.
 
 Among other things, you must be able to identify all data structures (including tables, entities, and fields) that contain personal information. You should establish mechanics that allow you to easily discover, deliver, update, and/or delete this data when requested by your customer.
 
@@ -63,10 +63,10 @@ To help you with consent management and other GDPR related workloads, Dynamics 3
 - You can configure each customer journey to only process contacts that have given a minimum-required level of consent.
 - You can configure each lead-scoring model to only compute scores for leads associated with contacts that have given a minimum-required level of consent.
 - You can create marketing pages with marketing forms that encourage contacts to grant a level of consent while being unambiguously informed. The consent is stored in each contact's record.
-- You’ll be able to use various mechanics in Dynamics 365 to extract all information related to a specific contact and share relevant information with that contact when requested.
-- You'll be able to use mechanics to have Dynamics 365 "forget" (delete) all information about a specific contact when requested.
+- You’ll be able to use various mechanics in Dynamics 365 Marketing to extract all information related to a specific contact and share relevant information with that contact when requested.
+- You'll be able to use mechanics to have Dynamics 365 Marketing "forget" (delete) all information about a specific contact when requested.
 - You'll be able to find and update information about a specific contact when requested.
-- You'll be able to provide means for your contacts to ask to view, retrieve, update, and delete their consent and data, and to use Dynamics 365 to model the fulfillment on your side.
+- You'll be able to provide means for your contacts to ask to view, retrieve, update, and delete their consent and data, and to use Dynamics 365 Marketing to model the fulfillment on your side.
 
 The consent levels provided out of the box are just recommendations. It is up to you to decide the relevance of each level, and how you would like to use it in your marketing activities. The following table summarizes each supplied consent level and how it is typically used. Consent levels are hierarchical, so higher levels include all lower levels.
 
@@ -159,7 +159,7 @@ Under GDPR, individuals have the right to submit several types of data requests 
 
 ### Set up a customer journey for accepting GDPR requests
 
-One way to make it easy for individuals to submit GDPR requests to your organization could be to publish a page on your website that provides relevant details to your customer and includes links for each type of request (send me my data, update my data, and delete my data). Each of those links would bring the customer to a different Dynamics 365 marketing page, which provides:
+One way to make it easy for individuals to submit GDPR requests to your organization could be to publish a page on your website that provides relevant details to your customer and includes links for each type of request (send me my data, update my data, and delete my data). Each of those links would bring the customer to a different marketing page, which provides:
 
 - Further information about the specific type of request and what the customer can expect upon submitting the form.
 - All the input fields required to uniquely identify the contact in your database. This is typically their email address and last name, but the actual requirements will depend on your de-duplication settings.
@@ -181,14 +181,14 @@ The following list provides a few ideas for how your organization could set up a
 
 - Instruct your privacy officer to use the standard search functionality to identify relevant data and then use the built-in export capabilities to generate an Office document. No custom development is required to allow this, but for a heavily customized system it could prove to be impractical.
 - Create a custom solution based on the dedicated API in Dynamics 365 that loads all the relevant information from the back-end system and assembles it into a single, portable document. This would require some custom development, but the result could provide a faster and easier solution for your privacy officer to use. More information: [Retrieve interactions for a contact using code](developer/retrieve-interactions-contact.md)
-- Set up a custom reporting solution in Dynamics 365.
-- Create a new Power BI report that loads the relevant data from your Dynamics 365 organization database.
+- Set up a custom reporting solution in Dynamics 365 Marketing.
+- Create a new Power BI report that loads the relevant data from your Dynamics 365 Marketing organization database.
 
 ### Respond to forget-me requests
 
 Ideally, you should prepare your system to make it easy for your privacy officer to completely delete a contact and all their related data on request. 
 
-- For a non-customized system, your privacy officer can just use the standard search function to find the contact and then hard-delete the contact. The system will automatically unlink and remove all related interaction data stored in Dynamics 365 back-end systems (including from all marketing services).
+- For a non-customized system, your privacy officer can just use the standard search function to find the contact and then hard-delete the contact. The system will automatically unlink and remove all related interaction data stored in Dynamics 365 Marketing back-end systems (including from all marketing services).
 - If you have custom fields or entities, then you must further customize your system to make sure it deletes all related personal data from related records and/or unlinks them from the contact record so that all personal information is removed. More information: [Developer Guide (Marketing)](developer/marketing-developer-guide.md)
 
 > [!NOTE]
@@ -208,7 +208,7 @@ As mentioned earlier, when a privacy officer receives the task generated by the 
  
 ### Secure and control access to personal information
 
-Part of the GDP regulations is a requirement that your organization take steps to secure and control access to personal information that is stored in your database. You can use the standard field-level, form-level, and entity-level security controls in Dynamics 365 to make sure that only authorized users, who know how to handle it legally, will be able to access it. Here are some examples of data that you may need to protect:
+Part of the GDP regulations is a requirement that your organization take steps to secure and control access to personal information that is stored in your database. You can use the standard field-level, form-level, and entity-level security controls to make sure that only authorized users, who know how to handle it legally, will be able to access it. Here are some examples of data that you may need to protect:
 
 - **Contact records:** Contact records contain many types of basic, personal data, such as names, addresses, email, phone numbers, and more. You can control access to these records by assigning entity permissions as part of each security role definition.
 - **Marketing insights:** Marketing insights can include details such as website browsing records, form submissions, event attendance, and more.  Some, but not necessarily all, users that have access to contact records may be granted access to view this information. You can control this access by assigning security groups at the form level.
@@ -218,7 +218,7 @@ For more information about how to work with the security groups and other securi
 
 ## Demonstrate GDPR compliance
 
-From time to time, you may be asked to demonstrate that your organization complies with the GDPR regulations. Dynamics 365 provides several tools to help you do this.
+From time to time, you may be asked to demonstrate that your organization complies with the GDPR regulations. Dynamics 365 Marketing provides several tools to help you do this.
 
 ### Record and view justifications for consent-level changes made by users
 
@@ -242,7 +242,7 @@ Dynamics 365 can keep a record of all database changes, who made them, and when.
 
 To access the auditing features:
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The Dynamics 365 advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 1. Navigate to **Settings** > **System** > **Auditing** to open the **Audit** page. From there, you can access the auditing settings and review the audit record.
 
 This feature is part of the standard functionality of Dynamics 365. For information about how auditing works, how to set it up, and how to review the log, see [Audit data and user activity for security and compliance](../admin/audit-data-user-activity.md).

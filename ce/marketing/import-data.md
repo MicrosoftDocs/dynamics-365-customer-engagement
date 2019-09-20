@@ -62,7 +62,7 @@ Here are some guidelines to help make sure that your file will be imported succe
 
 5. Make sure data exists for all required fields.
 
-    A record will only be imported if all Dynamics 365 required fields are mapped, and if data exists in each of the source columns that are mapped to the required fields. A required field is an attribute that is required before a record can be saved. You can either determine the required fields in advance, or identify missing required mappings during the import. In either case, make sure you have required data in each record. To determine which fields are required, open the form for the record type as if you were creating a new record, and identify fields that are marked with a red asterisk (\*).
+    A record will only be imported if all required fields are mapped, and if data exists in each of the source columns that are mapped to the required fields. A required field is an attribute that is required before a record can be saved. You can either determine the required fields in advance, or identify missing required mappings during the import. In either case, make sure you have required data in each record. To determine which fields are required, open the form for the record type as if you were creating a new record, and identify fields that are marked with a red asterisk (\*).
 
     The following list shows default required fields for commonly imported record types.
 

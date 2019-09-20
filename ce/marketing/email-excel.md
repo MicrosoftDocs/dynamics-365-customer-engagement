@@ -72,7 +72,7 @@ Import the CSV file that you created in Step 2 into Dynamics 365 Marketing as de
 ![Map spreadsheet columns to database fields](media/excel-email-import.png "Map spreadsheet columns to database fields")
 
 > [!NOTE]
-> On import, Dynamics 365 will match the incoming contacts against existing contacts using the duplicate-detection rules established for your instance. If a match is found, then the incoming contact will be dropped and the existing contact will remain unchanged. This means that when a match is found, the matching contact won't be included in the segment that you will create later to email contacts from the imported file.
+> On import, Dynamics 365 Marketing will match the incoming contacts against existing contacts using the duplicate-detection rules established for your instance. If a match is found, then the incoming contact will be dropped and the existing contact will remain unchanged. This means that when a match is found, the matching contact won't be included in the segment that you will create later to email contacts from the imported file.
 
 ## Step 4: Create a segment that finds all contacts included in the spreadsheet
 

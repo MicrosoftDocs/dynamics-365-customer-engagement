@@ -56,7 +56,7 @@ The following rules apply for prefilling subscription-center forms:
 
 ### Forward-to-a-friend forms
 
-Prefilling isn't supported for forward-to-a-friend forms because these forms don't display information from the database. The email addresses that contacts enter here aren't checked against addresses already in the database, and the values entered aren't connected to the submitting contact in any way. These addresses are only stored temporarily&mdash;they aren't used to create new contact records, nor are they visible to Dynamics 365 users.
+Prefilling isn't supported for forward-to-a-friend forms because these forms don't display information from the database. The email addresses that contacts enter here aren't checked against addresses already in the database, and the values entered aren't connected to the submitting contact in any way. These addresses are only stored temporarily&mdash;they aren't used to create new contact records, nor are they visible to Dynamics 365 Marketing users.
 
 ## Create a landing-page form with prefill enabled
 

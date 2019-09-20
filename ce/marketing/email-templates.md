@@ -53,7 +53,7 @@ Here are some common style settings provided by the out-of-the-box templates:
 
 - **Outer background**: The color shown outside of your message content (behind the "paper")
 - **Inner background**: The color shown behind your message content (the "paper color")
-- **Hero image settings**: The hero image, when present, is usually the largest image on the page, generally located at or near the top of the message. These settings control the source URL of the image and the style settings that affect it. Use the browse button for the **Hero image** setting to choose an image from your Dynamics 365 image library.
+- **Hero image settings**: The hero image, when present, is usually the largest image on the page, generally located at or near the top of the message. These settings control the source URL of the image and the style settings that affect it. Use the browse button for the **Hero image** setting to choose an image from your Dynamics 365 Marketing image library.
 - **Font and body text settings**: These set typographical options that apply to most of the text in your message, but usually not headings.
 - **Colors**: A good graphic design shouldn't include too many colors, and the colors should harmonize with each other. Templates typically use two to four colors that you can set individually to match your preferred color palette. These colors typically map to heading text, call-to-action buttons, text-box backgrounds, and borders used in the design. The following naming conventions are used most typically (additional colors are sometimes provided):
   - **Color 1**: Primary buttons
@@ -101,7 +101,7 @@ The following known issues apply to the out-of-the-box email templates and custo
 
 ## Litmus issues for email-design previews
 
-Dynamics 365 provides both a simulated preview and an inbox preview for email messages. Inbox previews are more accurate because they're rendered for specific email clients. Inbox previews are provided by a Microsoft partner called Litmus Software, Inc. Litmus previews are created by rending your message on actual email clients and then returning a screenshot of the result to you. The following known issues can occur with inbox previews.
+Dynamics 365 Marketing provides both a simulated preview and an inbox preview for email messages. Inbox previews are more accurate because they're rendered for specific email clients. Inbox previews are provided by a Microsoft partner called Litmus Software, Inc. Litmus previews are created by rending your message on actual email clients and then returning a screenshot of the result to you. The following known issues can occur with inbox previews.
 
 - **Missing footer**: Litmus screenshots sometimes fail to capture the entire message height.
 - **Unable to scroll**: The returned preview is a static screenshot, which might include scrollbars for messages that are higher than the screen. You can't actually scroll the image using these.

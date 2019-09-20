@@ -54,7 +54,7 @@ For more information about how to download the latest version of the event websi
 
 ## Publish events, sessions, tracks, and related records to the website
 
-Most of the information shown on the website comes directly from your event models and their various related records, so all you need to do get the website online is make sure that all the information is available in Dynamics 365 and that the event itself, plus its relevant sessions and tracks, are set to be published on the website.
+Most of the information shown on the website comes directly from your event models and their various related records, so all you need to do get the website online is make sure that all the information is available in Dynamics 365 Marketing and that the event itself, plus its relevant sessions and tracks, are set to be published on the website.
 
 To publish an event, session, or track, open the relevant record and set its **Publish Status** in the drop-down list (usually shown in the upper-right corner of the form) to **Live**. Set the **Publish Status** to any other value to unpublish an event, session, or track if needed, thus removing it from your event website.
 

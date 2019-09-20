@@ -28,7 +28,7 @@ To get started planning an event with Dynamics 365 Marketing, you start by creat
 
 ## Create the root event record
 
-The first thing you'll do when setting up your event in Dynamics 365 is to set up an event record. Everything that you do related to a given event will either be stored directly in the event record itself, or stored in other records that are linked to that event.
+The first thing you'll do when setting up your event in Dynamics 365 Marketing is to set up an event record. Everything that you do related to a given event will either be stored directly in the event record itself, or stored in other records that are linked to that event.
 
 Though the solution offers many different views into other record types, you'll probably do most of your work directly in the relevant event record because you'll be able to view and create most types of related records from here, and everything that you do will automatically be related to that event.
 

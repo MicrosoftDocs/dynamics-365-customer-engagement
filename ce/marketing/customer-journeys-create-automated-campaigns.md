@@ -26,25 +26,25 @@ search.app:
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
 
-Use Dynamics 365 to visualize and automate the journey that customers will take while interacting with your marketing initiatives on their way to making a purchase. A simple customer journey might include just a short interaction, such as a single email campaign. A complex journey could include the full process from discovery, through nurturing, and on to marketing-qualified leads. Customer journeys can also generate and assign Dynamics 365 tasks (such as a scheduled follow-up phone call), and trigger business workflows.
+Use Dynamics 365 Marketing to visualize and automate the journey that customers will take while interacting with your marketing initiatives on their way to making a purchase. A simple customer journey might include just a short interaction, such as a single email campaign. A complex journey could include the full process from discovery, through nurturing, and on to marketing-qualified leads. Customer journeys can also generate and assign tasks (such as a scheduled follow-up phone call), and trigger business workflows.
 
-Dynamics 365 provides a graphical, drag-and-drop, journey modeler that works something like a simple board game. Each contact starts on the first square (by becoming part of a target segment), and then progresses through one square at a time, with each square representing a marketing initiative, decision point, or internal action item.
+Dynamics 365 Marketing provides a graphical, drag-and-drop, journey modeler that works something like a simple board game. Each contact starts on the first square (by becoming part of a target segment), and then progresses through one square at a time, with each square representing a marketing initiative, decision point, or internal action item.
 
 ![An example of a customer journey](media/customer-journey.png "An example of a customer journey")
 
-The previous figure shows how a simple customer journey might look in Dynamics 365. A somewhat more complex example could work like this:
+The previous figure shows how a simple customer journey might look. A somewhat more complex example could work like this:
 
 1. A new contact from New York wants to subscribe to your newsletter, and fills out a marketing page. This results in a new contact record in your database.
 
 2. You have a dynamic segment that finds all newsletter subscribers from New York, so the new contact automatically joins that list.
 
-3. You've created a customer journey in Dynamics 365 that starts with the New York subscribers' segment as tile one, so the contact starts there and moves directly to the next tile.
+3. You've created a customer journey that starts with the New York subscribers' segment as tile one, so the contact starts there and moves directly to the next tile.
 
 4. The next tile in the journey is an email tile, so the system automatically sends a marketing email to the new contact, and the contact moves on to the next tile. The email message offers a free white paper for download.
 
 5. The next tile is a trigger (set to trigger on the email). It keeps the contact here until either a week goes by, or they click the download link. The trigger branches the path, so if the contact clicks to download the paper, they'll take the "true" path immediately; but if a week goes by without a click, they'll go down the "false" path.
 
-6. The top ("true") path continues with more tiles designed to nurture the lead further. Because the contact clicked the link, Dynamics 365 generated a lead for that contact, which represents their expression of interest in the product promoted in that white paper. Some tiles along this path might initiate or evaluate lead interactions (such as event invitations), while others might generate internal events (like assigning a task or launching a workflow in the CRM system). As the contact interacts with your initiatives, the lead builds up its score until it's ready to forward to sales.
+6. The top ("true") path continues with more tiles designed to nurture the lead further. Because the contact clicked the link, Dynamics 365 Marketing generated a lead for that contact, which represents their expression of interest in the product promoted in that white paper. Some tiles along this path might initiate or evaluate lead interactions (such as event invitations), while others might generate internal events (like assigning a task or launching a workflow in the CRM system). As the contact interacts with your initiatives, the lead builds up its score until it's ready to forward to sales.
 
 7. The bottom ("false") path starts with another email tile, which sends a reminder with a second chance to get the download, after which the contact might continue down the same type of nurturing path if they respond, or get dropped for now if they don't.
 
@@ -106,11 +106,11 @@ More information: [Accessibility and keyboard shortcuts](designer-shortcuts.md)
 
 ### Configure tile settings
 
-Each tile represents a step in the customer journey, and you'll make configuration settings to establish what happens at each of these steps. Most types of tiles interact with some other type of record in Dynamics 365, such as a target segment, marketing email message, landing page, event, or action. Other types of tiles&mdash;like schedulers, triggers, and splitters&mdash;react to things that happen during the journey itself and control the path that each contact takes when these things happen.
+Each tile represents a step in the customer journey, and you'll make configuration settings to establish what happens at each of these steps. Most types of tiles interact with some other type of record in Dynamics 365 Marketing, such as a target segment, marketing email message, landing page, event, or action. Other types of tiles&mdash;like schedulers, triggers, and splitters&mdash;react to things that happen during the journey itself and control the path that each contact takes when these things happen.
 
 To configure a tile, select it in the pipeline, and then go to the **Properties** tab to the right of the canvas, where you'll find all the settings that apply to the type of tile you've selected. When you add a new tile, its **Properties** tab is automatically activated so you can start configuring that tile right away.
 
-For tiles that must refer to some other record in Dynamics 365, like emails or events, you can choose to leave the record unspecified, choose an existing record, or create a new record to use with that tile. All tiles of this type include the **Properties** settings highlighted in the following figure.
+For tiles that must refer to some other record in Dynamics 365 Marketing, like emails or events, you can choose to leave the record unspecified, choose an existing record, or create a new record to use with that tile. All tiles of this type include the **Properties** settings highlighted in the following figure.
 
 ![An example of common tile settings](media/cj-tile-details-ill.png "An example of common tile settings")
 
@@ -150,7 +150,7 @@ To set up a segment tile to target a subscription list:
     ![Set a segment tile to load a subscription list](media/cj-target-subscription-list.png "Set a segment tile to load a subscription list")
 
 > [!IMPORTANT]
-> When a customer journey targets a subscription list, then any contact that unsubscribes from that list using a subscription center will automatically be removed from that journey within about 24 hours, even if they are already partway through it. However, if a Dynamics 365 users removes a contact from the list manually using the Dynamics 365 interface, that contact will continue to be processed by any journeys they already are on, and may continue to receive messages until all active journeys are complete. For this reason, it is usually best to request all contacts to manage their own subscriptions using the subscription center.
+> When a customer journey targets a subscription list, then any contact that unsubscribes from that list using a subscription center will automatically be removed from that journey within about 24 hours, even if they are already partway through it. However, if a user removes a contact from the list manually using the Dynamics 365 Marketing interface, that contact will continue to be processed by any journeys they already are on, and may continue to receive messages until all active journeys are complete. For this reason, it is usually best to request all contacts to manage their own subscriptions using the subscription center.
 
 ### Create an inbound customer journey
 
@@ -236,7 +236,7 @@ When you've finished designing your customer journey, do the following to verify
 
 2. Select **Check for Errors** in the command bar to verify your campaign setup and check it for errors. This step makes sure that all required marketing emails and pages are assigned and published, and also checks for other prerequisites and common errors. If problems are found, you'll see an error message with advice for how to fix it. Continue to check, fix reported errors, and check again until your journey passes the test.
 
-3. Now you're ready to publish, so select **Go Live** in the command bar. Dynamics 365 runs the error check one last time. If your journey passes, it is published to the marketing services, which also host your published marketing email messages and marketing pages.
+3. Now you're ready to publish, so select **Go Live** in the command bar. Dynamics 365 Marketing runs the error check one last time. If your journey passes, it is published to the marketing services, which also host your published marketing email messages and marketing pages.
 
 [!INCLUDE [cc-marketing-email-size](../includes/cc-marketing-email-size.md)]
 

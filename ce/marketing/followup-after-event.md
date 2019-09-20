@@ -47,7 +47,7 @@ During the event, people from your organization might have been busy talking to 
 
 ## Review events and sessions attended by any contact
 
-Event and session attendance records are available for all contacts. This information can be very helpful to salespeople when identifying their hottest leads, or when preparing for a call or meeting. Just open a contact record in any Dynamics 365 app and go to its **Events Attended** tab.
+Event and session attendance records are available for all contacts. This information can be very helpful to salespeople when identifying their hottest leads, or when preparing for a call or meeting. Just open a contact record and go to its **Events Attended** tab.
 
 ## View and analyze event results
 

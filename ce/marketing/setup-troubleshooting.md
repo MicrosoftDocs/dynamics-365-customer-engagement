@@ -72,7 +72,7 @@ When you are setting up your Marketing app, the setup wizard asks you to choose 
 
 ## Why can't I install Marketing in my country/region?
 
-Dynamics 365 Marketing is a relatively new app for the Dynamics 365 platform, so it is not yet supported in all countries/regions where Dynamics 365 is available. If you are located outside of a supported country/region, then the setup wizard will prevent you from setting up the product, even if the Admin center shows that a Marketing app is available on your tenant. The reason you see the unconfigured app on your tenant is probably because you've licensed a Dynamics 365 product or bundle that includes it&mdash;you'll be able to set it up as soon as support for the product is extended to your country/region.
+Dynamics 365 Marketing is a relatively new app for the Common Data Service platform, so it is not yet supported in all countries/regions where Dynamics 365 is available. If you are located outside of a supported country/region, then the setup wizard will prevent you from setting up the product, even if the Admin center shows that a Marketing app is available on your tenant. The reason you see the unconfigured app on your tenant is probably because you've licensed a Dynamics 365 product or bundle that includes it&mdash;you'll be able to set it up as soon as support for the product is extended to your country/region.
 
 These geographical restrictions apply both to trial and production versions of Dynamics 365 Marketing.
 
@@ -184,7 +184,7 @@ Start by adding yourself as a portal user, just as your contacts would do when r
 
 Once you have your account and password set up, you must configure that account as an event-portal administrator. To do this:
 
-1. Sign into Dynamics 365 and use the app selector to go to the Dynamics 365&mdash;custom app.
+1. Sign into Dynamics 365 Marketing and use the app selector to go to the Dynamics 365&mdash;custom app.
 
     ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
 

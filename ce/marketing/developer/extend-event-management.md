@@ -67,7 +67,7 @@ This section provides additional details about what happens when a user selects 
 
 1. On clicking the ***/auth/authorize*** endpoint on the webinar configuration form, your provider implementation should be called.
 
-1. You should return authorization-form HTML from that call. That HTML will be loaded into the pop-up on the Dynamics 365 side. One of the parameters passed to the ***/auth/authorize*** endpoint is ***redirect_uri***. You should either embed it in the form HTML that you return or temporarily store it on your side, depending on your implementation. Another parameter is ***state***, you should keep track of that too.
+1. You should return authorization-form HTML from that call. That HTML will be loaded into the pop-up on the Dynamics 365 Marketing side. One of the parameters passed to the ***/auth/authorize*** endpoint is ***redirect_uri***. You should either embed it in the form HTML that you return or temporarily store it on your side, depending on your implementation. Another parameter is ***state***, you should keep track of that too.
 
 1. After authentication has been done on your side, you should generate one-time code and call the ***redirect_uri*** together with the ***code*** parameter and **state** parameter that you already have. It will look like this:<br>`{redirect_uri}?code={code_you_generated}&state={state_you_got_before}`
 

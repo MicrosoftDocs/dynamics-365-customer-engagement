@@ -34,7 +34,7 @@ Dashboard provide charts, graphs, and statistics that help give you an overview 
 
 Application dashboard give you the widest view, and draw data from throughout your application&mdash;possibly even from several Dynamics 365 applications.
 
-Usually, an application dashboard is the first thing you see when you sign in to Dynamics 365. You can get back to it any time by going to **Marketing** &gt; **My Work** &gt; **Dashboards**. Most Dynamics 365 applications have a similar application dashboard.
+Usually, an application dashboard is the first thing you see when you sign in to Dynamics 365 Marketing. You can get back to it any time by going to **Marketing** &gt; **My Work** &gt; **Dashboards**. Most Dynamics 365 applications have a similar application dashboard.
 
 ### Choose an application dashboard
 
@@ -55,7 +55,7 @@ Each dashboard is interactive, so to learn more about a data point in a graph, t
 
 ### Set a dashboard as default
 
-To see a specific dashboard every time you sign in to [!INCLUDEDynamics 365 Sales, set it as the default. To do this, open the dashboard, and on the command bar, select **Set as Default**.
+To see a specific dashboard every time you sign in to Dynamics 365 Marketing, set it as the default. To do this, open the dashboard, and on the command bar, select **Set as Default**.
 
 ### Entity dashboards
 
@@ -71,7 +71,7 @@ To see a chart pane, go to the list view for the relevant entity, and then on th
 
 ## Use activities to plan and record various tasks
 
-Keep track of all your communications with activities in Dynamics 365. Activities function like to-do items&mdash;they provide relevant details to help you get your task done and record relevant information as you work so you can review what you've done. For example, you can make or schedule a phone call, set up an appointment, and assign yourself tasks. These actions are all considered types of activities.
+Keep track of all your communications with activities in Dynamics 365 Marketing. Activities function like to-do items&mdash;they provide relevant details to help you get your task done and record relevant information as you work so you can review what you've done. For example, you can make or schedule a phone call, set up an appointment, and assign yourself tasks. These actions are all considered types of activities.
 
 The system automatically time-stamps every activity and shows who created it and who is, or was, assigned to it. You and other people on your team can scroll through the activities to see the history as you work.
 
@@ -79,7 +79,7 @@ To get the most out of Dynamics 365, it's important for everyone to track all th
 
 ### See activities on your dashboards
 
-Many dashboards provide a widget that shows your most relevant activities. Usually, these are activities assigned to you that are due sometime soon. The dashboard is usually the first page you'll see on signing in to Dynamics 365, so this can be a good way to set your priorities for the day.
+Many dashboards provide a widget that shows your most relevant activities. Usually, these are activities assigned to you that are due sometime soon. The dashboard is usually the first page you'll see on signing in to Dynamics 365 Marketing, so this can be a good way to set your priorities for the day.
 
 ### Find and create activities by type
 

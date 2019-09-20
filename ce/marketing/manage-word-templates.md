@@ -140,7 +140,7 @@ An administrator can use the **Settings** page to upload the Word template into 
 > [!NOTE]
 > Users in your organization can see the templates available to them by selecting **Word Templates** on the command bar in the list of records.
 
-1. In Dynamics 365, go to **Settings** > **Advanced Settings** > **Organization** > **Excel & Word Templates**.
+1. In Dynamics 365 Marketing, go to **Settings** > **Advanced Settings** > **Organization** > **Excel & Word Templates**.
 
 2. Select **Upload Template**.
 

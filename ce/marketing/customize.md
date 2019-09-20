@@ -31,11 +31,11 @@ Dynamics 365 Marketing is built on the Common Data Service platform, which provi
 > [!WARNING]
 > Do not include sensitive information in your customized schema and display names. Schema and display names for fields, entities, relations, attributes, and other elements are displayed in various interfaces throughout the Marketing application. They may also be referenced by other object definitions and get shared through various other channels. They may also appear in telemetry.
 
-The techniques for customizing the Marketing application are the same as those for customizing other Dynamics 365 apps for the Common Data Service platform. You'll make these customizations using Dynamics 365 advanced-settings area. The Dynamics 365 advanced-settings area provides settings that are common for all Dynamics 365 apps on your tenant, including user, security, and customization settings.
+The techniques for customizing the Marketing application are the same as those for customizing other Dynamics 365 apps for the Common Data Service platform. You'll make these customizations using the advanced-settings area. The advanced-settings area provides settings that are common for all Dynamics 365 Common Data Service platform apps on your tenant, including user, security, and customization settings.
 
-To access the customization settings in the Dynamics 365 advanced-settings area:
+To access the customization settings in the advanced-settings area:
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The Dynamics 365 advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 1. Navigate to **Settings** > **Customizations** > **Customizations**.
 
 For complete details about how to customize Dynamics 365 apps for the Common Data Service platform, see the [Customization Guide for Dynamics 365](../customize/overview.md).

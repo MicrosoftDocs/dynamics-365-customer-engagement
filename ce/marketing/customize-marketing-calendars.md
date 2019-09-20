@@ -40,7 +40,7 @@ Other than the differences noted here, both types of calendars look the same and
 
 To add and/or customize a marketing calendar, you must work in a **PowerApps** customization window. To get there:
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The Dynamics 365 advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 
 1. Navigate to **Settings** > **Customization** > **Customizations** and then choose **Customize the System** from the **Customization** page.
 

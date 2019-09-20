@@ -188,7 +188,7 @@ Key event-management features include:
   - Important details about all published events, including event name, venue, passes, session schedule, and speakers
   - All information drawn directly from your Dynamics 365 event-planning records, with updates automatically reflected on the portal
 
-To create, view, and edit your events and all event-related records, go to the **Events** work area of Dynamics 365, where you can create a new event and, working from this single event record, add most of the other types of records and information that you need to plan, publish, promote, and analyze it. Like many types of records in Dynamics 365, the event record provides a customizable business process workflow that helps guide users through each step of the process.
+To create, view, and edit your events and all event-related records, go to the **Events** work area of Dynamics 365 Marketing, where you can create a new event and, working from this single event record, add most of the other types of records and information that you need to plan, publish, promote, and analyze it. Like many types of records in Dynamics 365, the event record provides a customizable business process workflow that helps guide users through each step of the process.
 
 Use other parts of the **Event** work area to work with specific record types that relate to event planning, such as logistics, sessions, attendees, sponsors, and more. Depending on what you are doing at the time, you might access these records when working in the parent event record, or you might go to a dedicated area to work only with a specific record type, or to work across events.
 

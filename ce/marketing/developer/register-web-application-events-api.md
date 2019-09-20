@@ -23,7 +23,7 @@ search.app:
 
 To use the Events API, you need to provide a web application token in each request. The web application token is used to control API requests that are associated with your organization. Follow the steps given below to register your web application:
 
-1. Open your Dynamics 365 instance and navigate to **Event Management**.
+1. Open your Dynamics 365 Marketing instance and navigate to **Event Management**.
 2. Click on the dropdown and select **Settings**
 
     ![Settings](../media/event-management-settings.png "Settings")

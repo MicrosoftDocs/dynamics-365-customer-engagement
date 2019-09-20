@@ -19,7 +19,7 @@ search.app:
 ---
 # Dynamics 365 Marketing solutions
 
-Dynamics 365 Marketing adds the following solutions to your Dynamics 365 instance:
+Dynamics 365 Marketing adds the following solutions to your instance:
 
 |Name  | Display Name  |Description  |
 |--|--|--|

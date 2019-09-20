@@ -183,7 +183,7 @@ To further enforce content locking, you can limit access to the **HTML** tab, wh
 
 ## Import externally created HTML into the designer
 
-You can use any tool you like to create the initial HTML layout and content for a marketing email, page, or form. When your HTML is ready, just paste it into the relevant designer and then add any Dynamics 365 features that you need as described in the following subsections.
+You can use any tool you like to create the initial HTML layout and content for a marketing email, page, or form. When your HTML is ready, just paste it into the relevant designer and then add any Dynamics 365 Marketing features that you need as described in the following subsections.
 
 ### Import your HTML code
 

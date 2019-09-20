@@ -45,7 +45,7 @@ For email messages, the text toolbar includes an **Assist-edit** button ![The as
 
 ### Image elements
 
-Image elements add an image to a column, outside a text element. Image elements interact with the Dynamics 365 image gallery, which helps you store, categorize, find, and share your image files.
+Image elements add an image to a column, outside a text element. Image elements interact with the Dynamics 365 Marketing image gallery, which helps you store, categorize, find, and share your image files.
 
 When you first add an image element, an image placeholder appears at the location where you dropped the element. Select the image placeholder and open the **Properties** tab, where you can set the following options.
 
@@ -209,7 +209,7 @@ The do-not-bulk-email element is a standard form-field element that is permanent
 
 ### Remember-me elements
 
-Remember-me elements add a remember-me feature to your form. If a visitor submits a form with the remember-me box selected, the form will be prefilled with known values the next time they open one of your Dynamics 365 forms (while using that same computer and browser). Only the fields specifically configured to allow prefilling will be filled the next time. You should always include a design element of this type on marketing pages that are enabled for prefilling. More information: [Field elements](#field-elements)
+Remember-me elements add a remember-me feature to your form. If a visitor submits a form with the remember-me box selected, the form will be prefilled with known values the next time they open one of your Dynamics 365 Marketing forms (while using that same computer and browser). Only the fields specifically configured to allow prefilling will be filled the next time. You should always include a design element of this type on marketing pages that are enabled for prefilling. More information: [Field elements](#field-elements)
 
 The remember-me element is a standard form-field element that is permanently configured to map to the "Allow form prefill" field of the contact entity. Other than this, all its properties are the same as those for standard form fields, as described in [Field elements](#field-elements).
 
@@ -217,7 +217,7 @@ The remember-me element is a standard form-field element that is permanently con
 
 Submit-button elements create a submit button for the form. All forms must include exactly one of these. Its only property is the button text, which establishes the text shown on the button.
 
-Dynamics 365 automatically adds a submit-button element to each new form you create. This type of element is not otherwise available in the **Toolbox**, so you should take care not to delete it from your forms because there is no way to add it again (other than immediate undo).
+Dynamics 365 Marketing automatically adds a submit-button element to each new form you create. This type of element is not otherwise available in the **Toolbox**, so you should take care not to delete it from your forms because there is no way to add it again (other than immediate undo).
 
 ### Reset-button elements
 

@@ -31,7 +31,7 @@ The required cookie is set in a user's browser when they open any Dynamics 365 M
 - **JavaScript is used to fetch values from the relevant contact record to the marketing page**  
 Dynamics 365 Marketing generates the code you must add to your page to connect to the database and fetch the field values, but you must modify this with the specific field names you want to use, and also write your own JavaScript to make use of those values on the page. You might display contact values directly, or use them programmatically to modify page content, layout, and more.
 - **Personalized pages must run either on an authenticated domain or the Dynamics 365 Portal, and use HTTPS**  
-For security purposes, personalized pages are only supported on domains that are authenticated with Dynamics 365 Marketing (including native marketing pages running on the Dynamics 365portal, which are always authenticated). Personalized pages must furthermore be accessed using HTTPS (not HTTP).
+For security purposes, personalized pages are only supported on domains that are authenticated with Dynamics 365 Marketing (including native marketing pages running on a Dynamics 365 Portal, which are always authenticated). Personalized pages must furthermore be accessed using HTTPS (not HTTP).
 - **Data access is restricted to explicitly white-listed fields from the contact entity**  
 For security, the solution will only provide those field values that you specifically configure to make available to personalized landing pages.
 - **Contacts must accept form prefilling to see personalized marketing page content**  

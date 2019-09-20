@@ -38,13 +38,13 @@ Read this topic to get an overview of how to update Dynamics 365 Marketing and i
 
 ## Solutions included with Dynamics 365 Marketing
 
-Dynamics 365 Marketing is implemented using several different Dynamics 365 *solutions*, where a *solution* is a type of software package that adds functionality to your Dynamics 365 platform. Dynamics 365 Marketing includes several solutions that are unique to the Marketing app, plus a few more that are available as separate apps or in other Dynamics 365 app bundles.
+Dynamics 365 Marketing is implemented using several different *solutions*, where a *solution* is a type of software package that adds functionality to your Dynamics 365 platform. Dynamics 365 Marketing includes several solutions that are unique to the Marketing app, plus a few more that are available as separate apps or in other app bundles.
 
 When you install Dynamics 365 Marketing, all its solutions are installed by the setup wizard. However, when it comes to keeping your system up to date, you'll need to monitor and update each of the following types of solutions separately:
 
 - **Core Marketing solutions**: These are the solutions that provide core features that are unique to Marketing (including the Dynamics 365 Connector for LinkedIn Lead Gen Forms). Though there are several of these, you'll be able to maintain and update them all at once using a setup wizard like the one you used to install Marketing for the first time.
-- **Voice of the Customer**: This solution enables Dynamics 365 to host surveys and collect responses. It's also available as an add-on or bundle for other Dynamics 365 apps. You must update this solution separately from the other solutions included with Marketing, using its own update program.
-- **Dynamics 365 Portals**: This solution enables Dynamics 365 to host interactive portals that display and collect Dynamics 365 data, including the events portal and marketing pages. Like Voice of the Customer, you must update this solution using its own update program.
+- **Voice of the Customer**: This solution enables Dynamics 365 apps for the Common Data Service platform to host surveys and collect responses. It's also available as an add-on or bundle for other apps. You must update this solution separately from the other solutions included with Marketing, using its own update program.
+- **Dynamics 365 Portals**: This solution enables Dynamics 365 apps for the Common Data Service platform to host interactive portals that display and collect Dynamics 365 data, including the events portal and marketing pages. Like Voice of the Customer, you must update this solution using its own update program.
 
 ## Find out when new updates are available
 
@@ -61,7 +61,7 @@ Dynamics 365 Marketing includes several solutions and services, each of which ha
 1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and go to the **Instances** tab.  
     ![Open the Instances tab](media/update-instances-tab.png "Open the Instances tab")
 
-2. If you have more than one Dynamics 365 instance, then each of them is listed here. Select the instance where you want to look up your Dynamics 365 Marketing version number.
+2. If you have more than one instance, then each of them is listed here. Select the instance where you want to look up your Dynamics 365 Marketing version number.
 
 3. The column next to the instance list shows information about your selected instance, including a list of solutions installed there. Select the **Manage your solutions** button ![The Manage your solutions button](media/update-manage-button.png "The Manage your solutions button") next to the **Solutions** heading here.  
     ![Select the Manage your solutions button](media/update-open-manage-solutions.png "Select the Manage your solutions button")
@@ -104,7 +104,7 @@ To update shared (non-core Marketing) solutions, including Voice of the Customer
 1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and go to the **Instances** tab.  
     ![Open the Instances tab](media/update-instances-tab.png "Open the Instances tab")
 
-2. If you have more than one Dynamics 365 instance, then each of them is listed here. Select the instance where you have Marketing installed.
+2. If you have more than one instance, then each of them is listed here. Select the instance where you have Marketing installed.
 
 3. The column next to the instance list shows information about your selected instance, including a list of solutions installed there. Select the **Manage your solutions** button ![The Manage your solutions button](media/update-manage-button.png "The Manage your solutions button") next to the **Solutions** heading here.  
     ![Select the Manage your solutions button](media/update-open-manage-solutions.png "Select the Manage your solutions button")
