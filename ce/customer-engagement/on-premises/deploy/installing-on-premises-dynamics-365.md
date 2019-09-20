@@ -1,5 +1,5 @@
 ---
-title: "Installing Dynamics 365 for Customer Engagement for Customer Engagement (on-premises), version 9.x | Microsoft Docs"
+title: "Installing Dynamics 365 Customer Engagement (on-premises) (on-premises), version 9.x | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.prod: crm-2016
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
   - Dynamics CRM 2016
 ms.assetid: 9f201f30-245a-458e-b15f-961a9d049ea7
 caps.latest.revision: 28
@@ -16,11 +16,11 @@ author: Mattp123
 ms.author: matp
 manager: kvivek
 ---
-# Installing Dynamics 365 for Customer Engagement for Customer Engagement (on-premises)
+# Installing Dynamics 365 Customer Engagement (on-premises) (on-premises)
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-IT professionals and Dynamics 365 for Customer Engagement administrators can use the resources and topics in this guide to help them install and configure on-premises deployments of Dynamics 365 for Customer Engagement for Customer Engagement.  
+IT professionals and Dynamics 365 for Customer Engagement administrators can use the resources and topics in this guide to help them install and configure on-premises deployments of Dynamics 365 Customer Engagement (on-premises).  
 
 A Dynamics 365 for Customer Engagement on-premises deployment includes the following applications:
 - At least one instance of Dynamics 365 Server

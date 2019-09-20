@@ -1,5 +1,5 @@
 ---
-title: "SQL Server requirements and recommendations for Dynamics 365 for Customer Engagement (on-premises) | Microsoft Docs"
+title: "SQL Server requirements and recommendations for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: "crm-2016"

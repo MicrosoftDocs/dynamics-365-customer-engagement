@@ -1,5 +1,5 @@
 ---
-title: "Security best practices for Dynamics 365 for Customer Engagement (on-premises) | Microsoft Docs"
+title: "Security best practices for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: "crm-2016"
@@ -15,7 +15,7 @@ ms.author: matp
 author: Mattp123
 manager: kvivek
 ---
-# Security best practices for Dynamics 365 for Customer Engagement (on-premises)
+# Security best practices for Dynamics 365 Customer Engagement (on-premises)
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 

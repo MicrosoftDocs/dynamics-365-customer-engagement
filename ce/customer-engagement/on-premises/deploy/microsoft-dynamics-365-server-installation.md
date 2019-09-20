@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 8a64a413-857f-40bd-b12b-f2c3fd68c591
 caps.latest.revision: 20
 author: Mattp123
@@ -45,7 +45,7 @@ This section covers procedures to install [!INCLUDE [pn-microsoftcrm-server](../
 |**SetupServer.exe** for installing [!INCLUDE [pn-crm-2016-server](../includes/pn-crm-2016-server.md)] |..\Server\amd64|  
 |**SetupSrsDataConnector.exe** for installing [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] |..\Server\amd64\SrsDataConnector|  
 |**SetupBIDSExtensions.exe** for installing the [!INCLUDE[pn_crm_fetch_extension_short](../includes/pn-crm-fetch-extension-short.md)]. This is an optional feature that can be installed on a computer that has [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] for creating and customizing Fetch-based reports|..\BIDSExtensions\i386|  
-|**Setupclient.exe** for installing [!INCLUDE [pn-crm-for-outlook-full](../includes/pn-crm-for-outlook-full.md)]. This is an optional feature that integrates Dynamics 365 for Customer Engagement for Customer Engagement with Office Outlook. | ..\Client\amd64 for 64-bit<br /> ..\Client\i386 for 32-bit|  
+|**Setupclient.exe** for installing [!INCLUDE [pn-crm-for-outlook-full](../includes/pn-crm-for-outlook-full.md)]. This is an optional feature that integrates Dynamics 365 Customer Engagement (on-premises) with Office Outlook. | ..\Client\amd64 for 64-bit<br /> ..\Client\i386 for 32-bit|  
 <!-- |**SetupEmailRouter.exe** for [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)]|-   ..\EmailRouter\amd64 for 64-bit<br />-   ..\EmailRouter\i386 for 32-bit|  -->
  
   

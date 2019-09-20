@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0b3e7c09-10c6-4c63-84e0-7ff6aeca17a3
 caps.latest.revision: 12
 author: Mattp123

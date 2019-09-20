@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Customer Engagement (on-premises) language support | Microsoft Docs"
+title: "Dynamics 365 Customer Engagement (on-premises) language support | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: "crm-2016"
@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 4d5a67ea-55ab-4bdc-b905-3ba75d3889d3
 caps.latest.revision: 20
 ms.author: matp

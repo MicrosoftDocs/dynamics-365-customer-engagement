@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Customer Engagement (on-premises) organization database indexes | Microsoft Docs"
+title: "Dynamics 365 Customer Engagement (on-premises) organization database indexes | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: "crm-2016"
@@ -15,7 +15,7 @@ ms.author: matp
 author: Mattp123
 manager: kvivek
 ---
-# Dynamics 365 for Customer Engagement (on-premises) organization database indexes
+# Dynamics 365 Customer Engagement (on-premises) organization database indexes
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 

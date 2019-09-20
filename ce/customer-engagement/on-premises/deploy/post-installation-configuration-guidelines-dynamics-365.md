@@ -1,5 +1,5 @@
 ---
-title: "Post-installation and configuration guidelines for Dynamics 365 for Customer Engagement (on-premises) | Microsoft Docs"
+title: "Post-installation and configuration guidelines for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/09/2019"
 ms.prod: "crm-2016"
@@ -65,7 +65,7 @@ This section describes several of the tasks that the [!INCLUDE[pn_microsoftcrm](
   
 <a name="install_solution"></a>   
 ## Import apps and solutions   
-  Sales and Field Service apps are available to you. More information: [Available apps for Dynamics 365 for Customer Engagement (on-premises)](available-apps.md)
+  Sales and Field Service apps are available to you. More information: [Available apps for Dynamics 365 Customer Engagement (on-premises)](available-apps.md)
 
   Use solutions to extend functionality and the user interface. Customizers and developers distribute their work as solutions. Organizations use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to import the solution. Find a solution in the [Microsoft AppSource](https://appsource.microsoft.com/).  
   

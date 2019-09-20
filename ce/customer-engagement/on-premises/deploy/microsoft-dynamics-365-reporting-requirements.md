@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Customer Engagement (on-premises) reporting requirements | Microsoft Docs"
+title: "Dynamics 365 Customer Engagement (on-premises) reporting requirements | Microsoft Docs"
 ms.custom: ""
 ms.date: 04/07/2019
 ms.prod: "crm-2016"
@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 6d0d42e2-0ad0-4dfa-aa42-72ab4e92b001
 caps.latest.revision: 54
 ms.author: matp

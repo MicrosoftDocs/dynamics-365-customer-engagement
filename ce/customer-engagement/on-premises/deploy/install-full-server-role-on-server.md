@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: a9325e0d-b020-4f0f-a339-9eaf2d6387d2
 caps.latest.revision: 38
 author: Mattp123
@@ -68,7 +68,7 @@ manager: kvivek
   
     -   **Application Service.** This service runs the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application that is used to connect users to Dynamics 365 for Customer Engagement data.  
   
-    -   **[!INCLUDE[pn_Deployment_Web_Service](../includes/pn-deployment-web-service.md)].** Publishes the web service that provides the deployment interface described in the [Developer Guide for Dynamics 365 for Customer Engagement for Customer Engagement](/dynamics365/customer-engagement/developer/developer-guide), such as create an organization or manage the list of Deployment Administrators for the deployment.  
+    -   **[!INCLUDE[pn_Deployment_Web_Service](../includes/pn-deployment-web-service.md)].** Publishes the web service that provides the deployment interface described in the [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customer-engagement/developer/developer-guide), such as create an organization or manage the list of Deployment Administrators for the deployment.  
   
     -   **[!INCLUDE[pn_Sandbox_Processing_Service](../includes/pn-sandbox-processing-service.md)].** Enables an isolated environment to allow for the execution of custom code, such as plug-ins. This isolated environment reduces the possibility of custom code affecting the operation of the organizations in the deployment.  
   

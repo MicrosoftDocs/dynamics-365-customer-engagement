@@ -1,5 +1,5 @@
 ---
-title: "Update Dynamics 365 for Customer Engagement (on-premises) | Microsoft Docs"
+title: "Update Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.prod: crm-2016
@@ -8,14 +8,14 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 025396f7-bc98-44ba-9df9-677f0524edf3
 caps.latest.revision: 54
 author: Mattp123
 ms.author: matp
 manager: kvivek
 ---
-# Update Dynamics 365 for Customer Engagement (on-premises)
+# Update Dynamics 365 Customer Engagement (on-premises)
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 

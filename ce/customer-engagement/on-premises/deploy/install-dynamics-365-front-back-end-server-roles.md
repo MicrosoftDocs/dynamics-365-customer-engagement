@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: e113ca28-98da-495a-946d-ab7dee21a25b
 caps.latest.revision: 37
 author: Mattp123
@@ -135,7 +135,7 @@ On the computer named *CRMbackend*, complete the following procedure.
   
     -   **Application Service.** This service runs the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application that is used to connect users to Dynamics 365 for Customer Engagement data.  
   
-    -   **[!INCLUDE[pn_Deployment_Web_Service](../includes/pn-deployment-web-service.md)].** Publishes the web service that provides the deployment interface described in the [Developer Guide for Dynamics 365 for Customer Engagement for Customer Engagement](/dynamics365/customer-engagement/developer/developer-guide), such as those used to create an organization or manage the list of Deployment Administrators for the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment.  
+    -   **[!INCLUDE[pn_Deployment_Web_Service](../includes/pn-deployment-web-service.md)].** Publishes the web service that provides the deployment interface described in the [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customer-engagement/developer/developer-guide), such as those used to create an organization or manage the list of Deployment Administrators for the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment.  
   
         > [!IMPORTANT]
         >  For each service, we recommend that you select a low-privilege domain user account that is dedicated to running these services and is not used for any other purpose. Additionally, the user account that is used to run a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] service cannot be a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] user. This domain account must be a member of the Domain Users group.  

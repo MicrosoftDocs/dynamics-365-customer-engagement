@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Customer Engagement (on-premises) deployment properties | Microsoft Docs"
+title: "Dynamics 365 Customer Engagement (on-premises) deployment properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: "crm-2016"
@@ -8,14 +8,14 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 8b73f1ac-51ac-4e18-bb4c-19b427fcb141
 caps.latest.revision: 24
 ms.author: matp
 author: Mattp123
 manager: kvivek
 ---
-# Dynamics 365 for Customer Engagement (on-premises) deployment properties
+# Dynamics 365 Customer Engagement (on-premises) deployment properties
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 

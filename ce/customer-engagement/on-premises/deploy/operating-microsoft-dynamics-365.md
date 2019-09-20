@@ -1,5 +1,5 @@
 ---
-title: "Operating Dynamics 365 for Customer Engagement for Customer Engagement (on-premises), version 9.x | Microsoft Docs"
+title: "Operating Dynamics 365 Customer Engagement (on-premises) (on-premises), version 9.x | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.prod: crm-2016
@@ -15,7 +15,7 @@ author: Mattp123
 ms.author: matp
 manager: kvivek
 ---
-# Operating Dynamics 365 for Customer Engagement for Customer Engagement (on-premises)
+# Operating Dynamics 365 Customer Engagement (on-premises) (on-premises)
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
