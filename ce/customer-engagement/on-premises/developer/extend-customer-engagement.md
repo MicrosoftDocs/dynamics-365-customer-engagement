@@ -22,9 +22,7 @@ search.app:
 ---
 # Extend Dynamics 365 Customer Engagement (on-premises)
 
-The extensibility platform is the heart of Dynamics 365 Customer Engagement (on-premises). When you use the [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)], you are building on top of this system. The Dynamics 365 Customer Engagement (on-premises) platform supports several types of deployments with the power of choice: [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], Dynamics 365 Customer Engagement (on-premises) installed on your own server (on-premises), or a hosted deployment of Dynamics 365 Customer Engagement (on-premises). The security model protects the platform from unauthorized access across the Web.  
-  
-[!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] 
+In addition to various customizations, Dynamics 365 Customer Engagement (on-premises) supports enhancing the functionality of the system through several extensibility points. These include the development of custom plug-ins and workflow activities, responding to form and client side events using JavaScript code, using web resources, and more. These extension points can modify the very behavior and data processing of the system to suit your business needs.
 
 When you develop an application that uses the Dynamics 365 Customer Engagement (on-premises) server, you use Web services to communicate with the underlying xRM platform layer. Dynamics 365 Customer Engagement (on-premises) use a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes and also to make upgrades and enable transportation of solutions easier. This allows for changes in the data structure without requiring any change to code in Dynamics 365 Customer Engagement (on-premises).  
   
