@@ -81,7 +81,7 @@ When you develop an application that uses the Dynamics 365 Customer Engagement (
 [Release history](release-history.md)<br />
 [What's new for developers: Dynamics 365 Customer Engagement (on-premises)](whats-new-developers.md)<br />
 [Start here](get-started-sdk.md)<br />
-[Connect to Dynamics 365 Customer Engagement (on-premises)](connect-customer-engagement.md)<br />
+[Authenticate users in Dynamics 365 Customer Engagement](cauthenticate-users.md)<br />
 [The Security Model of Dynamics 365 Customer Engagement (on-premises)](security-dev/security-model.md)<br />
 [Model your business data](model-business-data.md)<br />
 [Manage Your Data](manage-data.md)<br />

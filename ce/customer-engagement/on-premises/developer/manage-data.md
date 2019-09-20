@@ -56,7 +56,7 @@ search.app:
   
  [Start here](get-started-sdk.md)  
   
- [Connect to Dynamics 365 Customer Engagement (on-premises)](connect-customer-engagement.md)  
+ [Authenticate users in Dynamics 365 Customer Engagement](authenticate-users.md)  
   
  [The Security Model of Dynamics 365 Customer Engagement (on-premises)](security-dev/security-model.md)  
   
