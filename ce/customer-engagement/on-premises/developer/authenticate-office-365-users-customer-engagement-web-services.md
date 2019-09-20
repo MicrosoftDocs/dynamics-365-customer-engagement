@@ -22,11 +22,11 @@ search.app:
 ---
 # Authenticate Office 365 users with Customer Engagement web services
 
-This topic applies to customers who access [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] through the 
+This topic applies to customers who access Dynamics 365 Customer Engagement (on-premises) through the 
 [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]. There are multiple 
-[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] identity providers that must be accounted for when you develop an application that connects to the Organization or 
+Dynamics 365 Customer Engagement (on-premises) identity providers that must be accounted for when you develop an application that connects to the Organization or 
 Discovery web services. These providers can be identified as managed domain, federated, and [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]. 
-This topic focuses on [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web service authentication with managed domain and federated identity providers, 
+This topic focuses on Dynamics 365 Customer Engagement (on-premises) web service authentication with managed domain and federated identity providers, 
 although the same classes and code shown here also work with all supported identity providers and Dynamics 365 Customer Engagement (on-premises) deployment types.  
   
 <a name="bkmk_simplified"></a>
@@ -53,10 +53,10 @@ or call `Dispose` directly. For sample code that uses the `GetOrganizationProxy`
 
 ## Authenticate Microsoft account users with Office 365
 
- Your application needs to support those [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] users whose organization is transitioned from the 
+ Your application needs to support those Dynamics 365 Customer Engagement (on-premises) users whose organization is transitioned from the 
 [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] identity provider to the [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] identity 
 provider. In this scenario, users may provide their [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] sign-in credentials when they authenticate with the 
-[!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] identity provider of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+[!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] identity provider of Dynamics 365 Customer Engagement (on-premises).  
   
  To do this, pass the populated credentials in the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> constructor or the <xref:Microsoft.Xrm.Sdk.Client.AuthenticationCredentials> method of the `IServiceManagement` class. The credential values are populated as follows:  
   
@@ -78,7 +78,7 @@ AuthenticationCredentials.SupportingCredentials.ClientCredentials = <device cred
 To see the complete sample that contains the following examples, see [Sample: Authenticate Office 365 Users](sample-authenticate-users-web-services.md). You will notice that authentication at this level takes a lot more code.  
   
  The following sample code demonstrates the classes and methods that you can use in your application to authenticate an 
-[!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS user using the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web services.  
+[!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS user using the Dynamics 365 Customer Engagement (on-premises) web services.  
   
  [!code-csharp[AuthenticateWithNoHelp#AuthenticateWithNoHelp3](../snippets/csharp/CRMV8/authenticatewithnohelp/cs/authenticatewithnohelp3.cs#authenticatewithnohelp3)]  
 
