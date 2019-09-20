@@ -24,7 +24,7 @@ search.app:
 
 # Design custom business apps by using the app designer
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Custom business apps are comprised of components such as entities, dashboards, forms, views, charts, and business processes.  
 

@@ -23,7 +23,7 @@ search.app:
 <a name="BKMK_SolutionPublisher"></a>   
 # Change the solution publisher prefix for the default publisher  
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
  Every solution has a publisher. The default solution has a publisher named “Default Publisher for \<your organization name>”.  
   

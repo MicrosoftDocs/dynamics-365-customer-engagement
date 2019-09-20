@@ -22,7 +22,7 @@ search.app:
 ---
 # Create a business process flow to standardize processes
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This topic shows how to create a business process flow with Dynamics 365 Customer Engagement (on-premises). To learn more about why you use business process flows, see [Business process flows overview](../customize/business-process-flows-overview.md). For information on creating a mobile task flow, see [Create a mobile task flow](../customize/create-mobile-task-flow.md).  
   

@@ -18,7 +18,7 @@ search.app:
 
 # Accessibility in Dynamics 365 Customer Engagement (on-premises) app designer, site map designer, and My Apps page
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft accessibility](http://www.microsoft.com/enable/default.aspx)  
 

@@ -23,7 +23,7 @@ search.app:
 ---
 # Use segmented solutions and patches to export selected entity assets
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 To gain tighter control over what you distribute in solutions and solution patches, use solution segmentation. With solution segmentation, you can export solutions with selected entity assets, such as entity fields, forms, and views, rather than entire entities with all the assets. To create the segmented solutions and patches, you can use the solutions user interface, without writing code.  
   

@@ -20,7 +20,7 @@ search.app:
 ---
 # Configure workflow steps
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 When configuring workflows you have four major areas to consider:  
   

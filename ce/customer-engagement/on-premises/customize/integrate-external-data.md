@@ -22,7 +22,7 @@ search.app:
 
 # Integrate external data
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The topics in this section explain how you can integrate data from sources outside of [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
 

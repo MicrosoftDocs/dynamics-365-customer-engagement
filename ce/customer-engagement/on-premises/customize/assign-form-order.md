@@ -23,7 +23,7 @@ search.app:
 ---
 # Assign form order
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
  When you have multiple main, quick create, quick view, or card forms for an entity, you can assign a form order. The form order determines which of the available forms will be shown by default. The available main forms can be further controlled by assigning security roles to forms. See [Control access to forms](control-access-forms.md) for more information.  
   

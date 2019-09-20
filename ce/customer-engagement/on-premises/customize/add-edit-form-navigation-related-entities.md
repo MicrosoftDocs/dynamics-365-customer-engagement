@@ -22,7 +22,7 @@ search.app:
 ---
 # Add form navigation for related entities
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 In the form Navigation Pane, you can add links to related entities. When a user clicks one of these links in a record, the associated view for the entity is displayed.  
   

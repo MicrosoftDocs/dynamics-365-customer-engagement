@@ -21,7 +21,7 @@ search.app:
 ---
 # Set up the Notes control to access information about posts
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
  In Dynamics 365 Customer Engagement (on-premises) forms for certain system entities using the [Updated forms](main-form-presentations.md#updated-forms),  the Notes control provides the ability to access information about **Posts**, **Activities**, and **Notes**. For custom entities where you have enabled notes and activities, you will only see **Notes** and **Activities**. To include **Posts** you must enable them for the custom entity.  
   

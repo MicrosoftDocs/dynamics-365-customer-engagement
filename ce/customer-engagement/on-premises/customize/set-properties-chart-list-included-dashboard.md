@@ -19,7 +19,7 @@ manager: "kvivek"
 ---
 # Set properties for a chart or list included in a dashboard
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 To edit a chart from the dashboard layout screen, double-click the chart or list. This opens the **Set Properties** dialog box.  
   

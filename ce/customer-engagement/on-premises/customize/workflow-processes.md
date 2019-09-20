@@ -22,7 +22,7 @@ search.app:
 ---
 # Use Workflow processes to automate processes that don't require user interaction
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
+ 
 
 Workflows automate business processes without a user interface. People usually use workflow processes to initiate automation that doesn’t require any user interaction.  
   

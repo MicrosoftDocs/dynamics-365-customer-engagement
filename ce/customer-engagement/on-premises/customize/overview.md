@@ -22,13 +22,9 @@ search.app:
   - D365CE
 ---
 
-# App making and customization overview for Dynamics 365 for Customer Engagement, version 9 (on-premises)
+# App making and customization overview for Dynamics 365 Customer Engagement (on-premises), version 9.x
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
-
-[!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps gives you powerful customization and app making capabilities that don’t require you to write a single line of code. With a comprehensive set of WSYSIG designer and editor tools, most anyone can fully customize [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps or create their own custom apps. 
-
-[!INCLUDE [cds-platform-note-for-on-premises](../includes/cds-platform-note-for-on-premises.md)]
+Dynamics 365 Customer Engagement (on-premises) gives you powerful customization and app making capabilities that don’t require you to write a single line of code. With a comprehensive set of WSYSIG designer and editor tools, most anyone can fully customize Dynamics 365 Customer Engagement (on-premises) or create their own custom apps.
 
 For documentation of earlier versions (8.x and earlier), visit [https://docs.microsoft.com/previous-versions/dynamics/](https://docs.microsoft.com/en-us/previous-versions/dynamics/).
   

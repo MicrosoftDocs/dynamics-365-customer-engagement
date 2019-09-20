@@ -19,7 +19,7 @@ search.app:
 ---
 # Use the main form and its components
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
  
 Forms in the Unified Interface based apps provide improved user experience for optimum agent productivity and help maintain context while working on related records. You can see the forms enlisted in the solution explorer. The form type of the new forms is **Main**.
 

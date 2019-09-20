@@ -1,4 +1,4 @@
-# [Customize Dynamics 365 Customer Engagement (on-premises) (on-premises)](overview.md)
+# [Customize Dynamics 365 Customer Engagement (on-premises)](overview.md)
 # [Get started with customization](getting-started-customization.md)
 # [Privileges required](privileges-required-customization.md)
 # [Supported and unsupported customization](customizations-supported.md)

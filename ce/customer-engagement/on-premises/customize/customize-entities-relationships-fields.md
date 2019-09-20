@@ -23,11 +23,11 @@ search.app:
 
 # Customize entities, relationships, and fields
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This section describes how to create and customize entities, entity relationships, and fields. 
 
-[!INCLUDE [cds-platform-note-for-on-premises](../includes/cds-platform-note-for-on-premises.md)]
+
 
 ### See also
 [Create or edit entities (record types)](create-edit-entities.md)

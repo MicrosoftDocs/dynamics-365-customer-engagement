@@ -21,7 +21,7 @@ search.app:
 ---
 # Create a mobile task flow
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Design a flow in [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)] or [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] based on common tasks your users perform. For example, if they need to regularly perform a series of follow-up steps after client meetings, create a task flow. When users tap the new task in their mobile app, it will lead them through from start to finish so they don't forget an important step.  
 

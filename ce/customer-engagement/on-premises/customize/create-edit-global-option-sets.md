@@ -21,7 +21,7 @@ search.app:
 ---
 # Create and edit global option sets (picklists)
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 An option set is a type of field that can be included in an entity. It defines a set of options. When an option set is displayed in a form it uses a drop-down list control. When displayed in Advanced Find it uses a picklist control. Sometimes option sets are called picklists by developers.  
   

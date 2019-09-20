@@ -18,7 +18,7 @@ search.app:
 ---
 # Configure event handlers
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
  Form event handlers for Dynamics 365 for Customer Engagement for Customer Engagement forms can be configured for the following areas in a form:  
 

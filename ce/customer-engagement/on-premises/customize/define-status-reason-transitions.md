@@ -24,7 +24,7 @@ search.app:
 
 # Define status reason transitions for the Case or custom entities
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can specify status reason transitions for the Incident (**Case**) entity or a custom entity.  
   

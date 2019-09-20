@@ -21,7 +21,7 @@ search.app:
 ---
 # Customize Dynamics 365 for phones and tablets to work for your business
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 With [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you can design once and deploy everywhere. Customizations you make to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system appear in the Dynamics 365 for phones and tablets apps as well as in the web app. Your changes are optimized in the mobile apps so they display properly. Choose one of the following or scroll down to see the types of changes you can make, and how they might display differently in the mobile apps than the web app.  
 
