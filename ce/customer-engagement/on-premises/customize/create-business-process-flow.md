@@ -199,7 +199,7 @@ This topic shows how to create a business process flow with Dynamics 365 Custome
 To specify privileges on a business process flow, open the business process flow definition for editing, and then select **Edit Security Roles** in the command bar of the business process flow designer. See Step 14 earlier in the topic for more details.  
 
 ## Add an on-demand action to a business process flow
-The [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update introduces a business process flow feature: business process flow automation with Action Steps. You can add a button to a business process flow that will trigger an action or workflow.
+The Dynamics 365 Customer Engagement (on-premises) update introduces a business process flow feature: business process flow automation with Action Steps. You can add a button to a business process flow that will trigger an action or workflow.
 
 ### Add on-demand workflows or actions using an Action Step
 Suppose that, as part of the opportunity qualification process, the Contoso organization requires all opportunities to be reviewed by a designated reviewer. Subsequently, the Contoso organization created an action that: 
