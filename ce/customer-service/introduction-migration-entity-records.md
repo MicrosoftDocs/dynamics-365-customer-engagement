@@ -20,7 +20,7 @@ search.app:
 
 # Introduction to migration of legacy Service scheduling data
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Using the new scheduling experience in Customer Service Hub, you can schedule all your resources optimally and efficiently to plan service activities for your customers. You can now migrate your data to the new scheduling experience using the migration solution in the Customer Service Hub app.
 

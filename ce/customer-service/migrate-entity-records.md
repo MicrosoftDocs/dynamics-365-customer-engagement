@@ -20,7 +20,7 @@ search.app:
 
 # Migrate entity records data from legacy Service scheduling using migration tool
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Follow these steps to migrate entity records from legacy scheduling experience to the new scheduling experience.
 
