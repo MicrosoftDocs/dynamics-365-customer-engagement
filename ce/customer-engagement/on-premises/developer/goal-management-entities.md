@@ -55,5 +55,5 @@ The *goal management* in Dynamics 365 apps lets you set sales, marketing, and ot
  [Metric Entity](entities/metric.md)<br />
  [RollupField Entity](entities/rollupfield.md)<br />
  [GoalRollupQuery Entity](entities/goalrollupquery.md)<br />
- [Model your business data with Dynamics 365 for Customer Engagement apps](model-business-data.md)<br />
+ [Model your business data with Dynamics 365 apps](model-business-data.md)<br />
  [Product Catalog Entities](product-catalog-entities.md)<br />
