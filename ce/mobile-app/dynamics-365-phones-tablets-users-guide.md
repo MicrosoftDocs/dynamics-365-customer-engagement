@@ -73,7 +73,7 @@ You can also sign in using your web address for the Dynamics 365 app and user na
    > [!div class="mx-imgBorder"] 
    > ![Enter user name and password address](media/userandpassword.png "Enter your user name and password"). 
 
-2. Enter the URL for your Dynamics 365 Customer Engagement app, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in"). 
+2. Enter the URL for your web address for the Dynamics 365 app that you use, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in"). 
 3. Enter your user name and password.
 4. From the list of apps that you have access to, select the app that you want to use.
 
