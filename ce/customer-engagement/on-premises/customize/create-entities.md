@@ -59,7 +59,7 @@ To create an activity entity, select **Define as an activity entity** before you
 
 ## Create an entity
 As an app maker or customizer, you can create and edit entities by using solution explorer.
-1. Sign in to your [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps instance. 
+1. Sign in to your Dynamics 365 Customer Engagement (on-premises) instance. 
 2. Start solution explorer. **Settings** > **Customizations** > **Customize the System**.
 3. In the **Component Type** list, select **New**, and then select **Entity**.
 4. Enter the following required information. For more information about the optional properties available, see [Entity options that can only be enabled](edit-entities.md#entity-options-that-can-only-be-enabled) and [Enable or disable entity options](edit-entities.md#enable-or-disable-entity-options).

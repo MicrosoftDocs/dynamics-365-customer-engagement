@@ -28,7 +28,7 @@ manager: "kvivek"
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Whitepaper: Patterns and Principles for Solution Builders](http://go.microsoft.com/fwlink/p/?LinkID=533946)  
   
-[!INCLUDE [cds-platform-note-for-on-premises](../includes/cds-platform-note-for-on-premises.md)]
+
 
 If you’re an ISV creating an app that you will distribute, you’ll need to use solutions. For more information about using solutions, see [Package and distribute extensions using solutions](../developer/package-distribute-extensions-use-solutions.md).  
   

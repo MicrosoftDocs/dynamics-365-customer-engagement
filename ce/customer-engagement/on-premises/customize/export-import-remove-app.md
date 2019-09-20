@@ -27,8 +27,7 @@ search.app:
 # Export, import, or remove an app
 
 
-
- [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps are distributed as solution components. After you have created an app, you can make it available for other organizations to use by packaging the app into a solution and then exporting it into a zip file. After the solution (.zip file) is successfully imported by the organization, the packaged app is available for use.
+App created in Dynamics 365 Customer Engagement (on-premises) are distributed as solution components. After you have created an app, you can make it available for other organizations to use by packaging the app into a solution and then exporting it into a zip file. After the solution (.zip file) is successfully imported by the organization, the packaged app is available for use.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Solutions overview](../customize/solutions-overview.md).
   
