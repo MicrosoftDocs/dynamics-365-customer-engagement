@@ -23,7 +23,7 @@ search.app:
 
 # Use record-based security to control access to records
 
-Record-based security in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] applies to individual records. It is provided by using access rights.  
+Record-based security in Dynamics 365 Customer Engagement (on-premises) applies to individual records. It is provided by using access rights.  
   
  The relationship between an access right and a privilege is that access rights apply only after privileges have taken effect. For example, if a user does not have the privilege to read accounts, that user is unable to read any account, regardless of the access rights another user might grant to a specific account through sharing.  
   
@@ -54,9 +54,9 @@ Record-based security in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyn
   
  For security reasons, develop the practice of sharing only the necessary records with the smallest set of users possible. Only grant the minimum access required for users to do their jobs.  
   
- [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] provides the following sharing capabilities:  
+ Dynamics 365 Customer Engagement (on-premises) provides the following sharing capabilities:  
   
-- **Share**. Any user who has share privileges on a given entity type can share records of that type with any other user or team in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. To share a record, use <xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>.  
+- **Share**. Any user who has share privileges on a given entity type can share records of that type with any other user or team in Dynamics 365 Customer Engagement (on-premises). To share a record, use <xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>.  
   
      When you share a record with another user, indicate what access rights (Read, Write, Delete, Append, Assign, and Share) you want to grant to the other user. Access rights on a shared record can be different for each user with whom the record is shared. However, you cannot give a user any rights that he or she would not have for that type of entity, based on the role assigned to that user. For example, if a user does not have Read privileges on accounts and you share an account with that user, the user will be unable to see that account.  
   
