@@ -23,7 +23,7 @@ search.app:
 ---
 # Administer Dynamics 365 (online)
 
-The content in this guide is for users still using the Dynamics 365 Admin center. 
+The content in this guide is for users still using the Dynamics 365 Admin center (https://port.crm.dynamics.com/G/manage/index.aspx). 
 
 We are transitioning instance (now called environments) management to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). More information: [Administer PowerApps](https://docs.microsoft.com/power-platform/admin/admin-guide).
 

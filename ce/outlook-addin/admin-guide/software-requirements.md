@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
+  - Dynamics 365 apps 
 ms.assetid: bec19b47-d167-4acb-b554-05c45b819c3f
 caps.latest.revision: 66
 author: mduelae
@@ -73,7 +73,7 @@ search.app:
 > 
 >  The [!INCLUDE[pn_Indexing_Service](../../includes/pn-indexing-service.md)] (now known as the Windows Search Service, or WSS) is required by users who will set up and use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] and its Help file in offline mode.  
   
- **Dynamics 365 for Customer Engagement apps**. One of the following editions of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] must be available so that [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] can connect to it:  
+ **Dynamics 365 apps**. One of the following editions of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] must be available so that [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] can connect to it:  
   
 - On-premises editions of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] Server  
   

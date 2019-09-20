@@ -48,6 +48,11 @@ To find your records quickly in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynami
   
 2.  Choose the **Search** button next to the search box.  
   
+> [!TIP]
+>  If the primary field of an entity is included in the quick find view, it is shown as the first field in search results.
+>
+> ![Primary field](media/primary-field.png)
+
 ## Filter search results  
   
 -   To filter results by one record type, on the search screen, choose a record type from the **Filter with:** drop-down box.  

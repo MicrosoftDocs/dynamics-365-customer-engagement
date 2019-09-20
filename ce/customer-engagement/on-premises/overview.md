@@ -2,7 +2,7 @@
 title: "Dynamics 365 Customer Engagement (on-premises) Help | MicrosoftDocs"
 description: "Welcome to the Dynamics 365 Customer Engagement (on-premises) Help, version 9.x."
 ms.custom: on-premises
-ms.date: 9/5/2019
+ms.date: 10/1/2019
 ms.reviewer: "kvivek"
 ms.service: crm
 ms.topic: "article"
@@ -14,7 +14,7 @@ manager: "kvivek"
 
 Welcome to the Dynamics 365 Customer Engagement (on-premises) Help!
 
-Effective October 2019, the Dynamics 365 for Customer Engagement SKU/license plan is no longer available for "online" customers. More information: \<link to blog announcement>
+Effective October 2019, the Dynamics 365 for Customer Engagement SKU/license plan is no longer available for "online" customers. More information: [Dynamics 365 Licensing Update](https://docs.microsoft.com/dynamics365/licensing/update)
 
 With this change for *online* customers, we are no longer using the term "Dynamics 365 for Customer Engagement apps" to refer to the collection of following apps and its related services:
 - Dynamics 365 Sales

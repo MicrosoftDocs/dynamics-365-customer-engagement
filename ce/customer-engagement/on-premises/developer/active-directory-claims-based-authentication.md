@@ -36,7 +36,6 @@ Claims-based authentication provides an industry standard security protocol to a
 
 |                                                 Deployment                                                 |                                                  Authentication model                                                   |
 |------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-|                          [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]                           | Claims-based or [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] (through federation) authentication |
 |           [!INCLUDE[pn-crm-onprem](../includes/pn-crm-onprem.md)]          |           Claims-based or [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] authentication            |
 | [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Internet-facing deployment (IFD) |           Claims-based or [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] authentication            |
 

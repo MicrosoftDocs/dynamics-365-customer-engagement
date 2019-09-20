@@ -40,6 +40,7 @@ Depending on your environment, there are several Dynamics 365 for Customer Engag
 |Dynamics 365 for Customer Engagement on-premises with with SharePoint Online     |  [Configure server-based authentication with Dynamics 365 for Customer Engagement apps (on-premises) and SharePoint Online](../customer-engagement/on-premises/admin/on-prem-server-based-sharepoint-online.md)     |
 |Dynamics 365 for Customer Engagement on-premises with with SharePoint on-premises     |  [Configure server-based authentication with Dynamics 365 for Customer Engagement apps(on-premises) and SharePoint on-premises](../customer-engagement/on-premises/admin/on-prem-server-based-sharepoint-on-prem.md)    |
 
+
 Administrators set up document management, specify permissions for managing tasks, and ensure that the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site URLs are correct.  
   
 ## See also
