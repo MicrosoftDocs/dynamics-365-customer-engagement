@@ -6,41 +6,28 @@ ms.date: 10/01/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
-ms.assetid: 41b89fd8-bfaf-40bb-8428-2013b5271230
 author: jimholtz
 ms.author: jimholtz
 ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 30
-topic-status: Drafting
-search.audienceType: 
-  - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 
 # Onboard your organization and users
 
 New to Dynamics 365 Customer Engagement (on-premises) apps? We've put together step-by-step guidance whether you’re still evaluating Customer Engagement apps, ready to make a purchase, or ready to onboard your organization and users.  
   
-> [!NOTE]
->  This topic is targeted at administrators for Customer Engagement (on-premises). Many of the features covered in this topic are also available for Customer Engagement (on-premises). If a feature is available only for Customer Engagement (on-premises) apps, it’s indicated in the topic. For more information about which features are online only, see [Online-only features in Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/online-only-features)  
-  
 ## Step One: Try out Customer Engagement (on-premises) in a free 90-day trial  
 New customers and partners not already enrolled in a Microsoft Volume Licensing program can access Dynamics 365 Customer Engagement (on-premises) trial software.
 
-Trials for all editions of Dynamics 365 Customer Engagement (on-premises) and Microsoft Dynamics CRM 2016 are available at the [Microsoft Download Center (CRM 2016)](https://www.microsoft.com/download/details.aspx?id=50372). Currently, there is only a Dynamics CRM 2016 trial available, with an option to [upgrade to Customer Engagement (on-premises))](https://go.microsoft.com/fwlink/p/?linkid=834540) via the latest update for Customer Engagement (on-premises).
+Trials for all editions of Dynamics 365 Customer Engagement (on-premises) is available at the [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=2025342).
 
-For more information, see [Microsoft Dynamics 365 (On-Premises) Licensing Guide](https://mbs.microsoft.com/Files/public/365/Dynamics365EnterpriseEditionOnPremisesLicensingGuide.pdf).
+More information:
+- [Microsoft Dynamics 365 Server installation](../deploy/microsoft-dynamics-365-server-installation.md)
+- [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
   
 ## Step Two: Buy and manage Customer Engagement (on-premises)   
- With Customer Engagement apps, you can evolve your business on your terms. Start with just what you need to run your business. For example, you might want to start with the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps for Sales app or the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps for Customer Service app, and then add more apps as your needs change. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for Customer Engagement](https://www.microsoft.com/dynamics365/home)  
+ With Customer Engagement (on-premises)), you can evolve your business on your terms. Start with just what you need to run your business. For example, you might want to start with the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps for Sales app or the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps for Customer Service app, and then add more apps as your needs change. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for Customer Engagement](https://www.microsoft.com/dynamics365/home)  
   
  There are four ways to buy a subscription of Customer Engagement apps:  
   
@@ -51,7 +38,7 @@ For more information, see [Microsoft Dynamics 365 (On-Premises) Licensing Guide]
 
 
 ### Convert from a trial  
-Trials can be converted to a full version by applying a commercial product key in Microsoft Dynamics 365 Deployment Manager. See [Microsoft Dynamics 365 (On-Premises) Licensing Guide](https://mbs.microsoft.com/Files/public/365/Dynamics365EnterpriseEditionOnPremisesLicensingGuide.pdf).
+Trials can be converted to a full version by applying a commercial product key in Microsoft Dynamics 365 Deployment Manager. See [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 ### Buy direct  
  To buy direct, go to the [Dynamics 365 for Customer Engagement apps pricing page](https://www.microsoft.com/dynamics365/pricing). This page includes several different plans to fit your organization’s needs.  
@@ -60,7 +47,7 @@ Trials can be converted to a full version by applying a commercial product key i
  If your organization has 250 or more [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps users, you may be interested in [purchasing a Dynamics 365 for Customer Engagement apps enterprise licensing agreement](https://www.microsoft.com/licensing).  
   
 ### Buy through a cloud solution provider  
- A cloud solution provider can work closely with you to understand the needs of your business or organization. [Learn how to find a Dynamics 365 for Customer Engagement apps partner](https://partnercenter.microsoft.com/partner/home).  
+ A cloud solution provider can work closely with you to understand the needs of your business or organization. [Learn how to find a Dynamics 365 partner](https://docs.microsoft.com/partner-center/).  
   
 ### Choose your support  
  Microsoft provides flexible, industry-leading support, services, and resources that enable users to quickly address technical issues and maximize return on your Customer Engagement (on-premises) investment. Choose a plan that best meets your business requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 support](https://www.microsoft.com/dynamics365/support)  
@@ -97,8 +84,8 @@ Customer Engagement (on-premises) also provides advanced tools for exporting to 
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
-- [Dynamics 365 for Customer Engagement apps for phones and tablets User's Guide](../../../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
+- [Dynamics 365 for phones and tablets User's Guide](../../../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
   
-- [Customize Dynamics 365 for Customer Engagement apps for phones and tablets to work for your business](../customize/customize-phones-tablets.md)
+- [Customize Dynamics 365 for phones and tablets to work for your business](../customize/customize-phones-tablets.md)
 
 
