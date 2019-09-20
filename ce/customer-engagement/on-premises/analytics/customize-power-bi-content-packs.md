@@ -1,6 +1,6 @@
 ---
-title: "Customize Dynamics 365 Customer Engagement (on-premises) Power BI content packs (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
-description: "Learn how to modify the available Power BI content packs to use with Dynamics 365 Customer Engagement (on-premises) data."
+title: "Customize Dynamics 365 Power BI content packs | MicrosoftDocs"
+description: "Learn how to modify the available Power BI content packs to use with Dynamics 365 data."
 keywords: PBI
 ms.date: 09/30/2017
 ms.service: crm-online
@@ -24,15 +24,16 @@ search.app:
   - D365CE
 ---
 
-# Customize Dynamics 365 Customer Engagement (on-premises) Power BI content packs
-*This content also applies to the on-premises version.*
-[!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] is a comprehensive collection of services and  tools that you use to visualize your business data.  Content packs are available that make it easy to visualize and analyze the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps data with [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] based on a standard data model. The content packs are built with a set of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps entities and fields that are useful for most sales, service, or marketing reporting scenarios.  
+# Customize Dynamics 365 apps Power BI content packs
+
+[!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] is a comprehensive collection of services and  tools that you use to visualize your business data.  Content packs are available that make it easy to visualize and analyze the Dynamics 365 Sales, Service, and Marketing apps data with [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] based on a standard data model. The content packs are built with a set of entities and fields that are useful for most sales, service, or marketing reporting scenarios.  
   
- Instances of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps are often extended with custom fields. These custom fields don’t automatically show up in the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] model. This topic describes the different ways that you can edit or extend the reports included in a content pack to include custom fields in the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] model.  
+ Dynamics 365 apps are often extended with custom fields. These custom fields don’t automatically show up in the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] model. This topic describes the different ways that you can edit or extend the reports included in a content pack to include custom fields in the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] model.  
     
 <a name="PBI_edit_first"></a>   
-## Do this before you customize a Dynamics 365 Customer Engagement (on-premises) content pack for Power BI reports  
- Before you customize a content pack, read  the information here and perform each task  as necessary.  
+## Do this before you customize a content pack for Power BI reports  
+ 
+Before you customize a content pack, read  the information here and perform each task  as necessary.  
   
 ### Meet the requirements  
   
@@ -42,18 +43,18 @@ search.app:
   
 - PBIX file for the content pack that you want to customize.  
   
-  -   [Download the Dynamics CRM Online Sales Manager .PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Sales%20Manager.pbix)  
+  -   [Download the Dynamics CRM Online Sales Manager PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Sales%20Manager.pbix)  
   
-  -   [Download the Dynamics CRM Online Service Manager.PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Customer%20Service%20Manager.pbix)  
+  -   [Download the Dynamics CRM Online Service Manager PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Customer%20Service%20Manager.pbix)  
   
-  -   [Download the Dynamics 365 Customer Engagement (on-premises) Process Analyzer .PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Process%20Analyzer%20-1.34b.pbix)  
+  -   [Download the Microsoft Dynamics 365 Process Analyzer PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Process%20Analyzer%20-1.34b.pbix)  
   
-  [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] content packs are currently only supported in the U.S. English language.  
+  Dynamics 365 content packs are currently only supported in the U.S. English language.  
   
 ### Prepare a content pack for customization  
   
 > [!IMPORTANT]
->  To connect the OData feed to your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance you must follow the steps described here before you customize the content pack.  
+>  To connect the OData feed to your instance you must follow the steps described here before you customize the content pack.  
 > 
 > Currently, the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] service isn’t compatible with the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] version 9.0 OData endpoint. When you try to use the version 9.0 OData endpoint with the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] service the error message “The feed's metadata document appears to be invalid” is displayed. To work around this incompatibility, use the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] version 8.2 OData endpoint.For more information about the different endpoint versions, see [Web API URL and versions](../developer/webapi/compose-http-requests-handle-errors.md).
   
@@ -65,7 +66,7 @@ search.app:
   
 2. On the [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] ribbon, click **Edit Queries**.  
   
-3. In the left navigation pane of the Edit Queries window, under **Queries**, click the **CRMServiceUrl** query, and then on the ribbon, click **Advanced Editor**. In the source definition, replace **base.crm.dynamics.com** with your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] apps instance URL. For example, if the organization name is *Contoso*, the URL looks like this:  
+3. In the left navigation pane of the Edit Queries window, under **Queries**, click the **CRMServiceUrl** query, and then on the ribbon, click **Advanced Editor**. In the source definition, replace **base.crm.dynamics.com** with your apps instance URL. For example, if the organization name is *Contoso*, the URL looks like this:  
   
     Source = "https://*contoso*.crm.dynamics.com/api/data/v8.0/"  
   
@@ -75,14 +76,14 @@ search.app:
   
    ![Access an OData Feed dialog](../analytics/media/pbi-odata-signin.PNG "Access an OData Feed dialog")  
   
-6. When the sign-in page appears, enter your credentials to authenticate to your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] apps instance.  
+6. When the sign-in page appears, enter your credentials to authenticate to your instance.  
   
 7. In the Access an Odata feed dialog, click **Connect**.  
   
     The content pack queries are updated. This may take several minutes.  
   
 <a name="PBI_edit_report"></a>   
-## Customize a Dynamics 365 Customer Engagement (on-premises) content pack  
+## Customize aDynamics 365 content pack  
  [Change the date format that is displayed in a report](#PBI_edit_date)  
   
  [Add a custom field to a report for any entity except Account](#PBI_edit_field)  
@@ -95,7 +96,7 @@ search.app:
   
 <a name="PBI_edit_date"></a>   
 ### Convert a DateTime field to a Date field for reporting  
- In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, some dates are saved in a Date/Time/Timezone format, which may not be the preferred format for aggregating data in  a report. You can convert the date displayed in reports for an entity field. For example, the Opportunity Created On field can be converted to a date to report the Opportunities created by day.  
+ In Dynamics 365 apps, some dates are saved in a Date/Time/Timezone format, which may not be the preferred format for aggregating data in  a report. You can convert the date displayed in reports for an entity field. For example, the Opportunity Created On field can be converted to a date to report the Opportunities created by day.  
   
 1. In Power BI Desktop, click **Edit Queries**.  
   
@@ -310,7 +311,7 @@ search.app:
   
 <a name="BPI_increaserows"></a>   
 ## Increase the number of rows queried  
- By default, all [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] entity queries in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps content packs cannot exceed 100,000 rows. To increase the number of rows that can be queried, follow these steps.  
+ By default, all [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] entity queries in the content packs cannot exceed 100,000 rows. To increase the number of rows that can be queried, follow these steps.  
   
 > [!IMPORTANT]
 >  Increasing the row count limit can significantly impact the time it takes for a report to refresh. Additionally, the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] service has a 30-minute limit for running queries. Use caution when increasing the row count limit.  
@@ -339,7 +340,7 @@ search.app:
   
 1. On the [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] main page **Home** tab ribbon, click **Publish**.  
   
-2. If you are prompted to sign in to the Power BI service, click Sign in.  
+2. If you are prompted to sign in to the Power BI service, click **Sign in**.  
   
 3. If multiple destinations are available, select the one you want, and then click **Publish**.  
   

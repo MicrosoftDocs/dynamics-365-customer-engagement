@@ -21,7 +21,7 @@ search.app:
   - D365CE
 ---
 # Report considerations and best practices
-*This content also applies to the on-premises version.*
+
 Make sure that your reports execute reliably and efficiently by understanding the best practices and considerations described here.  
   
 ## In this section  

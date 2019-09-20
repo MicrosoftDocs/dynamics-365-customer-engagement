@@ -22,10 +22,10 @@ search.app:
   - D365CE
 ---
 # Publish reports
-*This content also applies to the on-premises version.*
-To make reports available to users, publish the reports in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
+
+To make reports available to users, publish the reports.  
   
-## Publish a report in Dynamics 365 Customer Engagement (on-premises) by using the web application  
+## Publish a report in Customer Engagement (on-premises) by using the web application  
   
 1. Create a new report or modify a report by using [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create Custom Reports Using Business Intelligence Development Studio](../analytics/create-a-new-report-using-sql-server-data-tools.md)  
   
@@ -35,14 +35,14 @@ To make reports available to users, publish the reports in [!INCLUDE[pn_dynamics
   
 4. In the **Report:New Report** dialog box, in the **Report Type** list, select **Existing File**, click **Browse**, and then specify the location of the .rdl file in the **File Location** box.  
   
-5. Emter appropriate data in the **Details** section of the **Report:New Report** dialog box.  
+5. Enter appropriate data in the **Details** section of the **Report:New Report** dialog box.  
   
 6. Click **Save and Close**.  
   
-    You can test the report by selecting it from the Available Reports list. To add the report to context-sensitive lists and forms in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, follow the steps in [Determine where the report will appear](../analytics/publish-reports.md#BKMK_reportappear).  
+    You can test the report by selecting it from the Available Reports list. To add the report to context-sensitive lists and forms, follow the steps in [Determine where the report will appear](../analytics/publish-reports.md#BKMK_reportappear).  
   
    > [!TIP]
-   >  To update the report or to update the information that is displayed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, such as the description, in the Available Reports list, select the report, and then click **Edit** on the command bar.  
+   >  To update the report or to update the information that is displayed in your app, such as the description, in the **Available Reports** list, select the report, and then click **Edit** on the command bar.  
   
 <a name="BKMK_reportappear"></a>   
 ## Determine where the report will appear  
@@ -51,7 +51,7 @@ To make reports available to users, publish the reports in [!INCLUDE[pn_dynamics
   
 2. In the **Report** dialog box, specify values in the **Categorization** section according to the following descriptions:  
   
-   - **Categories**: Categorizes the report by its intended purpose. For example, a sales report can be included in context-sensitive lists and forms in the Sales area of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
+   - **Categories**: Categorizes the report by its intended purpose. For example, a sales report can be included in context-sensitive lists and forms in the Sales area of Customer Engagement (on-premises).  
   
    - **Related Record Types**: Associates the report to specific entities, such as accounts or contacts.  
   

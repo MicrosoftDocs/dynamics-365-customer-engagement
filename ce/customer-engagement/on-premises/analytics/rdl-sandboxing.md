@@ -23,9 +23,9 @@ search.app:
 ---
 # RDL sandboxing for Dynamics 365 Customer Engagement (on-premises)
 
-In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, the reports run in the sandbox mode. This is done by enabling Report Definition Language (RDL) Sandboxing in [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)]. The RDL Sandboxing lets you detect and restrict the usage of specific types of resources. As a result, certain features in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps may not be available. For more information, see [MSDN: Enabling and Disabling RDL Sandboxing](https://msdn.microsoft.com/library/ee210591.aspx).  
+In Common Data Service, reports run in the sandbox mode. This is done by enabling Report Definition Language (RDL) Sandboxing in [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)]. The RDL Sandboxing lets you detect and restrict the usage of specific types of resources. As a result, certain features in PowerApps model-driven apps may not be available. For more information, see [MSDN: Enabling and Disabling RDL Sandboxing](https://msdn.microsoft.com/library/ee210591.aspx).  
   
- The current RDL Sandboxing configuration settings in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps are described in the following sections in this topic.  
+ The current RDL Sandboxing configuration settings in Common Data Service are described in the following sections in this topic.  
     
 <a name="BKMK_Max"></a>   
 ## Limits of the array result length and string result length  
@@ -37,7 +37,7 @@ In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, the reports run
 ## Allowed types and denied members  
  The RDL Sandboxing feature enables you to create a list of approved types and a list of denied members. The list of approved types is called an allow list. The list of denied members that are not permitted in the RDL expressions is called a block list.  
   
- The following table contains a list of allowed types and denied members available in sandbox mode in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.  
+ The following table contains a list of allowed types and denied members available in sandbox mode in Common Data Service.  
   
 |Allowed Types|Denied Members|  
 |-------------------|--------------------|  
