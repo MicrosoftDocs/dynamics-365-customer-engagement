@@ -2,24 +2,20 @@
 title: "Install, deploy, and upgrade Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to install or upgrade Unified Service Desk ."
 ms.custom: 
-  - dyn365-USD, dyn365-admin
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: get-started-article
 ms.assetid: e0fd70b6-73a4-4426-92d7-bb300457597e
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-tags: 
-  - MigrationHO
-search.audienceType: 
-  - admin
+search.audienceType: admin
 search.app: 
   - D365CE
   - D365USD
+tags: MigrationHO
 ---
 # Install, deploy, and upgrade Unified Service Desk
 Before you can install and deploy [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)], you must identify the Common Data Service platform instance that you want to build and deploy the configuration on. While you can use a new the Common Data Service platform instance, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when the Common Data Service platform customization is mostly complete. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] controls the call center agent’s view of the Common Data Service platform by manipulating windows, injecting [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)], and so on. If major changes occur to the Common Data Service platform environment after [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is deployed, it might cause your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration to no longer work as required. While the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration often comes later in the Common Data Service platform implementation, having [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] in mind when designing your Common Data Service platform environment is beneficial.  

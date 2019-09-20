@@ -3,15 +3,11 @@ title: "Create custom cards in Dynamics 365 Sales | MicrosoftDocs"
 description: "Create custom cards in Dynamics 365 Sales using Assistant"
 ms.date: 10/31/2018
 ms.service: crm-online
-ms.custom: 
 ms.topic: article
 ms.assetid: 1b7a3dda-59c9-4b5d-b4b2-7fbc039a3f22
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
 
 # Create custom cards in Relationship assistant 

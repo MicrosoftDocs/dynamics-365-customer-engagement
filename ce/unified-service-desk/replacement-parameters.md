@@ -1,13 +1,9 @@
 ---
 title: "Replacement parameters in Unified Service Desk | MicrosoftDocs"
 description: "Replacement parameters can be used throughout the application to pull data from data elements (called data parameters) captured during the execution of the application that augment and include the Unified Service Desk context."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: fbef0bd3-e118-4a5b-8568-897538972066
 author: kabala123

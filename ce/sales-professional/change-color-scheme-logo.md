@@ -1,20 +1,14 @@
 ---
 title: "Change the color scheme or logo for your organization in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Use themes in Dynamics 365 Sales Professional to change the color scheme of your app to match your organization's branding guidelines."
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
 ms.assetid: 41aa9b5c-aaa6-4639-825c-d8a600677875
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
 
 # Change the color scheme or logo for your organization

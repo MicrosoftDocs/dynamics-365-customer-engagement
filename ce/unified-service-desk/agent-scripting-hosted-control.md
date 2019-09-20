@@ -1,13 +1,9 @@
 ---
 title: "Agent Scripting (Hosted Control) | MicrosoftDocs"
 description: "Learn about using Agent Scripting type of hosted control to define a call script that provides instructions to the call center agent to guide them during a customer interaction for a given session."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 4d34fda6-6b17-4c94-8881-39962c85e6d0
 author: kabala123

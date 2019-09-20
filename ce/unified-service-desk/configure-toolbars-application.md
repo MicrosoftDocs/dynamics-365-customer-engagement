@@ -1,13 +1,9 @@
 ---
 title: "Configure toolbars in your application | MicrosoftDocs"
 description: "Learn about configuring toolbars in your application."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 04/24/2018
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 61cf4cb9-71ed-40c8-bbfa-c846c45cfb74
 author: kabala123

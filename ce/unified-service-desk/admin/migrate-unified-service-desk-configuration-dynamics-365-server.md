@@ -2,19 +2,16 @@
 title: "Migrate your Unified Service Desk  configuration to another instance | MicrosoftDocs"
 description: "Learn how to move a Unified Service Desk  configuration to another instance."
 ms.custom: 
-  - dyn365-USD, dyn365-admin
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 49ebffe9-a55c-466a-a5ea-779510db2c4f
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: 
-  - admin
+search.audienceType: admin
 search.app: 
   - D365CE
   - D365USD

@@ -1,13 +1,9 @@
 ---
-title: "Walkthrough: Create a UII WPF Hosted Control | MicrosoftDocs"
+title: "Walkthrough  Create a UII WPF Hosted Control | MicrosoftDocs"
 description: "Demonstrates how you can build a WPF-based User Interface Integration (UII) hosted control that interacts with Unified Service Desk and external applications (standalone and web)."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 01/25/2019
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 4a6e9113-3956-448c-9953-ec7ee6f22d9e
 author: kabala123

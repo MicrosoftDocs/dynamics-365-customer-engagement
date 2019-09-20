@@ -3,18 +3,13 @@ title: "Learn the basics of Dynamics 365 Sales | Microsoft Docs"
 description: "Quickly onboard and learn about Dynamics 365 Sales and its user interface."
 keywords: "Get started; understand data; quick create; Sales"
 ms.date: 10/01/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: get-started-article
 ms.assetid: 928b39d6-4b1a-4b7b-b056-f4b7868c3a57
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
 
 # Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]

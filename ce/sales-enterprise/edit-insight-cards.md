@@ -3,16 +3,11 @@ title: "Edit insight cards using Microsoft Flow in Dynamics 365 Sales | Microsof
 description: "Edit insight cards in assistant"
 ms.date: 03/22/2019
 ms.service: crm-online
-ms.custom: 
 ms.topic: article
-applies_to: Dynamics 365 (online)
 ms.assetid: f1565380-2c5b-4140-a657-156fee688cc9
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 1
 ---
 

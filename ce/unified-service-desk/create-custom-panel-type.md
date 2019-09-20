@@ -1,13 +1,9 @@
 ---
 title: "Create a custom panel type | MicrosoftDocs"
 description: "Learn about creating a custom panel type."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 6d49565d-f5d0-4e61-bca7-9fb990dbfdb4
 author: kabala123

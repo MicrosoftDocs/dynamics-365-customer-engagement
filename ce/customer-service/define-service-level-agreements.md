@@ -2,15 +2,13 @@
 title: Define service level agreements (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to define service level agreements in Dynamics 365 Customer Service
 author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ms.assetid: 75c6bab8-54d8-4410-b210-003953aa4b53
 ms.custom: dyn365-customerservice
+ms.assetid: 75c6bab8-54d8-4410-b210-003953aa4b53
 search.audienceType: 
   - admin
   - customizer

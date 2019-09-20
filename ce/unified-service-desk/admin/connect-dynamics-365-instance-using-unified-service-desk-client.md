@@ -2,24 +2,20 @@
 title: "Connect to a model-drive app using the Unified Service Desk  client | MicrosoftDocs"
 description: "Learn how to connect to the Unified Service Desk solution using the Unified Service Desk client."
 ms.custom: 
-  - dyn365-USD, dyn365-admin
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 04/10/2019
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: cc1e6d1d-0ea6-46f7-ae4b-131b7bda2cf7
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-tags: 
-  - MigrationHO
-search.audienceType: 
-  - admin
+search.audienceType: admin
 search.app: 
   - D365CE
   - D365USD
+tags: MigrationHO
 ---
 # Connect to a model-driven app overview
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client is the agent application you can use to connect to the Common Data Service platform instance where you have deployed your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities and configuration data. On signing in through the client application, it reads the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration on the Common Data Service platform instance, and accordingly exposes the controls and functionality in the application.  

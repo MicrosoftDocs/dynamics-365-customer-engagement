@@ -1,18 +1,13 @@
 ---
-title: "Walkthrough 3: Display records in your agent application | MicrosoftDocs"
+title: "Walkthrough 3  Display records in your agent application | MicrosoftDocs"
 description: "Demonstrates how to display Unified Interface apps records in Unified Service Desk."
-keywords: 
 ms.date: 05/07/2018
-ms.service: 
-  - usd
+ms.service: usd
 ms.topic: article
 ms.assetid: FD393D95-FBB9-434B-86B1-23747FBB5B70
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 search.audienceType: 
   - customizer
   - developer

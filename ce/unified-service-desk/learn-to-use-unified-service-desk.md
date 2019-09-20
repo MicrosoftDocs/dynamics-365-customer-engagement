@@ -1,13 +1,9 @@
 ---
 title: "Learn to use Unified Service Desk  Customer Enagagement| MicrosoftDocs"
 description: "The section provides information about the features and capabilities of Unified Service Desk  that you can use to configure your agent desktop application."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: caf681d7-9dd8-4cb7-8b82-24dcef3c0d5e
 author: kabala123

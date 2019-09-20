@@ -1,13 +1,9 @@
 ---
-title: "Walkthrough 3: Display records in your agent application | MicrosoftDocs"
+title: "Walkthrough 3  Display records in your agent application | MicrosoftDocs"
 description: "Demonstrates how to display records in Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 0affe8ba-fddc-4ded-b733-735833209b53
 author: kabala123

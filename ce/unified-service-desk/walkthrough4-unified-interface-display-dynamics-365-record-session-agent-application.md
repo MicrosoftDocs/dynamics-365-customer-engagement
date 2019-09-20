@@ -1,18 +1,13 @@
 ---
-title: "Walkthrough 4: Display a record in a session in your agent application | MicrosoftDocs"
+title: "Walkthrough 4  Display a record in a session in your agent application | MicrosoftDocs"
 description: "Demonstrates how to display Customer Engagement records in a session in your agent application using window navigation rules and session controls in Unified Service Desk."
-keywords: 
 ms.date: 12/18/2018
-ms.service: 
-  - usd
+ms.service: usd
 ms.topic: article
 ms.assetid: 1B1325DF-1C3A-4205-9C01-E51BE0472FAD
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 search.audienceType: 
   - customizer
   - developer

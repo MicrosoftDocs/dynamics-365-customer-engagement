@@ -1,13 +1,9 @@
 ---
 title: "Use window navigation rules in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use window navigation rules to define the interaction between various controls in Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 6b87e3db-e7f8-45c4-8a47-637d554e4b2d
 author: kabala123

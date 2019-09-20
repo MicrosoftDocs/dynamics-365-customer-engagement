@@ -1,13 +1,9 @@
 ---
 title: "Move hosted controls between panels at runtime in Unified Service Desk  Customer Enagagement| MicrosoftDocs"
 description: "Learn about moving hosted controls between panels at runtime Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 77956def-6316-45b2-9fc3-eee2b06bb505
 author: kabala123

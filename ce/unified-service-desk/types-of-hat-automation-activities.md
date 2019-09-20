@@ -1,13 +1,9 @@
 ---
 title: "Types of HAT automation activities in Unified Service Desk | MicrosoftDocs"
 description: "Learn about various automation activities that you can use to automate your hosted applications in Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 3a4fa988-8eaf-4039-9296-905436f6a706
 author: kabala123

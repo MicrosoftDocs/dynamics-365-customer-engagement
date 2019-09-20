@@ -3,18 +3,13 @@ title: "Enable generation of PDF from quotes (Dynamics 365 Sales) | MicrosoftDoc
 description: "Enable your users to create and share a professional-looking quote PDF with the customers."
 keywords: "Quote, proposal, create PDF, email PDF, PDF, enable"
 ms.date: 10/01/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
 ms.assetid: 09e5b4a3-00c1-4577-8e6f-093df2ccdb34
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
 
 # Enable PDF generation from quotes

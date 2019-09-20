@@ -1,24 +1,19 @@
 ---
 title: "Create agent application using Unified Service Desk in Customer Engagement apps | MicrosoftDocs"
-ms.custom: 
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: usd
-ms.suite: 
-ms.tgt-pltfrm: 
 ms.topic: article
 ms.assetid: 5a29a96e-4271-4e25-a42f-e36d7d707882
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-tags: 
-  - NoHandoff
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+tags: NoHandoff
 ---
 # Create agent application using Unified Service Desk
  You can use [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] in the following ways to create an agent application customized for your organization:  

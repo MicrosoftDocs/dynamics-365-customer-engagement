@@ -2,24 +2,20 @@
 title: "Manage access using Unified Service Desk  configuration | MicrosoftDocs"
 description: "Learn to control how agents use Unified Service Desk  by using configuration."
 ms.custom: 
-  - dyn365-USD, dyn365-admin
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 91772c31-da1f-453b-9934-0179bc50c398
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-tags: 
-  - MigrationHO
-search.audienceType: 
-  - admin
+search.audienceType: admin
 search.app: 
   - D365CE
   - D365USD
+tags: MigrationHO
 ---
 # Use Unified Service Desk configuration to manage access
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration is a great way to filter things that you want your agents to see without having to manage their security roles. Agents can see only those [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] components in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application that are added in a configuration assigned to them.

@@ -1,13 +1,9 @@
 ---
 title: "Unified Service Desk Hosted Controls | MicrosoftDocs"
 description: "Learn about the basic concepts related to hosted controls in Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 41ebb3f2-f9e1-40b0-bc5b-4af20b0c066b
 author: kabala123

@@ -1,13 +1,9 @@
 ---
 title: "Create HAT automation | MicrosoftDocs"
 description: "Learn about using the Hosted Application Toolkit (HAT) automation activities to create automations for your hosted application project. You can use User Interface Integration (UII) inspector to make the controls of an application available for use in automation."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 44dac081-8a98-41c9-822c-07d9727ada32
 author: kabala123

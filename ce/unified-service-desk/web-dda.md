@@ -1,13 +1,9 @@
 ---
 title: "WebDDA in Unified Service Desk | MicrosoftDocs"
 description: "Learn about using Web data-driven adapter (WebDDA) in Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 230e530d-921a-4d26-aa92-7947bfbbd83f
 author: kabala123

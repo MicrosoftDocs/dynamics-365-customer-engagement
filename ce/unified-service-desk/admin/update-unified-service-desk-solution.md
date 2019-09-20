@@ -1,22 +1,17 @@
 ---
 title: "Update Unified Service Desk  solution | MicrosoftDocs"
 description: "Learn how to update Unified Service Desk ."
-keywords: 
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.custom: 
-  - dyn365-USD, dyn365-admin
+  - dyn365-USD
+  - dyn365-admin
+ms.date: 08/23/2017
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: d3773029-8b2f-4aa3-9317-abc309b01960
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-search.audienceType: 
-  - admin
+search.audienceType: admin
 search.app: 
   - D365CE
   - D365USD

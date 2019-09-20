@@ -3,15 +3,11 @@ title: "Dynamics 365 Sales Insights features for Dynamics 365 Sales | MicrosoftD
 description: "Overview of the Sales Insights features that are offered with Sales"
 ms.date: 11/01/2018
 ms.service: crm-online
-ms.custom: 
 ms.topic: article
 ms.assetid: 62083240-8c37-4de5-8d83-ade07dd40369
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 1
 ---
 

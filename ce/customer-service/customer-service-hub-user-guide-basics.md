@@ -2,14 +2,13 @@
 title: Learn the basics of the Customer Service Hub app | Microsoft Docs
 description: Learn the basics of the Customer Service Hub for Customer Service
 author: anjgupta
-applies_to: Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
 ms.custom: dyn365-customerservice
+ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
 search.audienceType: 
   - admin
   - customizer

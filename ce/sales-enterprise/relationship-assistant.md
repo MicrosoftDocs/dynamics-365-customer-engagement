@@ -1,17 +1,12 @@
 ---
 title: "Relationship assistant for Dynamics 365 Sales | MicrosoftDocs"
-keywords: 
 ms.date: 10/31/2018
 ms.service: crm-online
-ms.custom: 
 ms.topic: article
 ms.assetid: cf444ca7-3ec1-4939-8710-655190701484
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 22
 ---
 

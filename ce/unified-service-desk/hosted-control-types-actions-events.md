@@ -1,12 +1,8 @@
 ---
 title: "Hosted control types, actions, and events in Unified Service Desk | MicrosoftDocs"
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 04/24/2018
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 17eec4a8-03a4-467b-af3e-de99fcab4e22
 author: kabala123

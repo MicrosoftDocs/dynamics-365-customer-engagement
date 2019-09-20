@@ -1,20 +1,12 @@
 ---
 title: "Embedded intelligence overview for Dynamics 365 Sales | MicrosoftDocs"
-description: ""
-keywords: ""
 ms.date: 09/30/2017
-ms.service:
-  - "crm-online"
-ms.custom:
-  - ""
+ms.service: crm-online
 ms.topic: article
 ms.assetid: e9f3a0d0-99fb-40bf-bd82-54995d05f128
 author: udaykirang
 ms.author: udag
 manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 14
 ---
 

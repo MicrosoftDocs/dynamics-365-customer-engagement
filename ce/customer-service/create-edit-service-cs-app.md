@@ -2,9 +2,6 @@
 title: Create or change a service (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create or change a service in Dynamics 365 Customer Service
 author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamiccs 365 Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 09/15/2017

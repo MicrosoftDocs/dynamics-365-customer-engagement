@@ -1,17 +1,12 @@
 ---
 title: "Email engagement for Dynamics 365 Sales | MicrosoftDocs"
-keywords: 
 ms.date: 10/31/2018
 ms.service: crm-online
-ms.custom: 
 ms.topic: article
 ms.assetid: c44831bb-c4cb-4a2b-863e-eb94c4256921
 author: udaykirang
 ms.author: udag
 manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 25
 ---
 

@@ -1,13 +1,9 @@
 ---
 title: "Toolbars in Unified Service Desk | MicrosoftDocs"
 description: "Learn about configuring toolbars in Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 04/24/2018
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: f3738bca-89b7-48e6-bc97-2fb477d727b3
 author: kabala123

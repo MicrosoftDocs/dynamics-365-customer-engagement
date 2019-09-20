@@ -1,13 +1,9 @@
 ---
 title: "UII Application Integration Framework | MicrosoftDocs"
 description: "Learn information about UII Application Integration Framework that enables the integration and automation of applications."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 11/29/2016
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 647d2d06-ca73-4951-8038-374d0ba65a2d
 author: kabala123

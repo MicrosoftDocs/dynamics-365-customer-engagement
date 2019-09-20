@@ -1,7 +1,6 @@
 ---
 title: "Provide feedback about Unified Service Desk | MicrosoftDocs"
 description: "Learn about providing feedback about Unified Service Desk."
-ms.custom: 
 ms.date: 04/24/2018
 ms.service: usd
 ms.topic: article
@@ -9,8 +8,7 @@ ms.assetid: 23F085E7-C2E2-44C0-80C1-9E65CCA209E9
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: 
-  - admin
+search.audienceType: admin
 search.app: 
   - D365CE
   - D365USD

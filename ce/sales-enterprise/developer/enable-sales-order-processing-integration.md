@@ -10,8 +10,6 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ms.reviewer: susikka
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 5
 ---
 # Enable sales order processing integration
