@@ -35,7 +35,7 @@ Dynamics 365 Customer Engagement (on-premises) support three security models for
 
 [Use OAuth with Common Data Service](/powerapps/developer/common-data-service/authenticate-oauth)  
 [Use OAuth with Cross-Origin Resource Sharing to connect a Single Page Application](/powerapps/developer/common-data-service/oauth-cross-origin-resource-sharing-connect-single-page-application)  
-[Build web applications using Server-to-Server (S2S) authentication](powerapps/developer/common-data-service/build-web-applications-server-server-s2s-authentication)
+[Build web applications using Server-to-Server (S2S) authentication](/powerapps/developer/common-data-service/build-web-applications-server-server-s2s-authentication)
 
 ### See Also
  [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)  

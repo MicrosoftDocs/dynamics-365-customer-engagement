@@ -64,7 +64,7 @@ shutdown and restart.
  [Sample Code for Process and Workflow](sample-code-processes.md)  
   
 ## Related Sections  
- [Software Development Kit for Dynamics 365 Customer Engagement (on-premises)](developer-guide.md)  
+ [Software Development Kit for Dynamics 365 Customer Engagement (on-premises)](overview.md)  
   
  [Write Plug-Ins for Dynamics 365 Customer Engagement (on-premises)](write-plugin-extend-business-processes.md)  
   
