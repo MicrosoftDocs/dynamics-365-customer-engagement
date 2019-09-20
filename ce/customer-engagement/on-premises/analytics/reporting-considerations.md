@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Customer Engagement apps reporting considerations | MicrosoftDocs"
+title: "Dynamics 365 Customer Engagement (on-premises) reporting considerations | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -21,7 +21,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Dynamics 365 for Customer Engagement apps reporting considerations
+# Dynamics 365 Customer Engagement (on-premises) reporting considerations
 
 [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps has a number of capabilities that allow customers to surface business data that helps them drive decisions and interact with their customers more effectively.  Capabilities that are available within [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] apps include views, charts, dashboards, and [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] reports. Also included is [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] integration that allows users to easily build self-service reports using the Power BI features [PowerView](http://www.microsoft.com/powerBI/home/visualize.aspx), PowerPivot, and [PowerQuery](http://blogs.msdn.com/b/powerbi/archive/2013/12/19/dynamics-crm-online-in-power-query.aspx). As the volume of data held in the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] apps database continues to grow it becomes more important than ever to think about your BI strategy and determine the most effective mechanisms for reporting and visualizing large datasets.  
   
@@ -62,7 +62,7 @@ search.app:
  If needed, there are many Microsoft Dynamics partners who can help provide a solution for your specific reporting needs, such as creating an offline copy of the data specifically used for running large reports.  These partners are knowledgeable with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps data integration tools available. More information: [Find the right partner](http://dynamics-crm.pinpoint.microsoft.com/companies/search?q=)  
   
 <a name="BKMK_ThirdPartyAdapt"></a>   
-## Third-party Dynamics 365 for Customer Engagement apps adapters for SSIS  
+## Third-party Dynamics 365 Customer Engagement (on-premises) adapters for SSIS  
   
 -   [CozyRoc SSIS+ component for Microsoft Dynamics CRM](http://www.cozyroc.com/ssis/dynamics-crm-destination)  
   

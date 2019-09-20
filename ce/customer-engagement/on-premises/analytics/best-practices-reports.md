@@ -31,7 +31,7 @@ The following best practices can help you produce reports that are easier to wri
 ### Use an existing report to create custom reports  
  Check whether there is an existing report in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps that is close to the design you are looking for. Download the report definition for that report, and then modify the RDL file instead of creating a new one from scratch. By doing this, you will save development time and reduce report writing errors.  
   
-### Use Dynamics 365 for Customer Engagement apps formats for currency, number, date and time, calendar  
+### Use Dynamics 365 Customer Engagement (on-premises) formats for currency, number, date and time, calendar  
  The `FilteredUserSettings` view contains information about currency format, date and time format, number format, negative number, starting day of the week, calendars, and other formats. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps provides the **fn_GetFormatStrings** database function to get the date, time, number, currency, and calendar formats from the `FilteredUserSettings` view.  
   
  Use these resources to correctly format data values in your reports.  

@@ -1,5 +1,5 @@
 ---
-title: "Get started writing reports with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Get started writing reports with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 07/12/2018
 ms.reviewer: 
@@ -72,7 +72,7 @@ The other reports can be:
 
 ## Get started writing reports
 
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps uses [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] report definition language (RDL) reports to query Dynamics 365 for Customer Engagement apps data and return refined results back to the report user. For more information about RDL, see [Report Definition Language (SSRS)](https://technet.microsoft.com/library/ms155062.aspx).  
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps uses [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] report definition language (RDL) reports to query Dynamics 365 Customer Engagement (on-premises) data and return refined results back to the report user. For more information about RDL, see [Report Definition Language (SSRS)](https://technet.microsoft.com/library/ms155062.aspx).  
   
  To create or modify existing RDL reports that can be used with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, use FetchXML, which is then converted to RDL by using report authoring tools. 
   

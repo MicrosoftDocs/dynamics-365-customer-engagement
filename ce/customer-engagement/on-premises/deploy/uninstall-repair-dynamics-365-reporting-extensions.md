@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Uninstall or repair Dynamics 365 Reporting Extensions
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 To perform [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] maintenance, sign in to the computer where [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] is installed. Then, start **Programs and Features** in [!INCLUDE[pn_Control_Panel](../includes/pn-control-panel.md)] and select from the following options.  
   

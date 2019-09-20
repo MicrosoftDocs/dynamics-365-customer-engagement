@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Upgrade Dynamics 365 Server
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This section shows you how to run the actual in-place upgrade on Dynamics 365 Server with December 2016 Service Pack for Dynamics 365 (on-premises). If you encounter problems during the upgrade, see [Troubleshooting installation and upgrade](troubleshooting-installation-and-upgrade.md) in this guide.  
   
@@ -34,7 +34,7 @@ This section shows you how to run the actual in-place upgrade on Dynamics 365 Se
   
 > [!IMPORTANT]
 >  -   Only Dynamics 365 Server with December 2016 Service Pack for Dynamics 365 (on-premises) or later can be upgraded. For upgrade information from previous versions of Dynamics 365 Server, see [Upgrading from earlier versions of Microsoft Dynamics CRM Server](before-you-upgrade-issues-and-considerations.md#upgrading-from-earlier-versions-of-microsoft-dynamics-crm-server).  
-> -   To upgrade an existing Dynamics 365 Server with December 2016 Service Pack for Dynamics 365 (on-premises) deployment, the user who is running [!INCLUDE [pn-dynamics-365-server-v-90](../includes/pn-dynamics-365-server-v-90.md)] Setup must be a member of the Deployment Administrators group. Additionally, the user must have `db_owner` permission on the existing Dynamics 365 for Customer Engagement databases and have `sysadmin` permission on the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]. For more information about how to add a member to the Deployment Administrators group, see the `the New-CrmDeploymentAdministrator`[!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command. More information: [Set properties using Powershell cmdlets](administer-the-deployment-using-windows-powershell.md). Alternatively, you can use [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)]. For more information about how to grant permission in [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], see the [!INCLUDE[pn_SQL_Server_Management_Studio](../includes/pn-sql-server-management-studio.md)] Help.  
+> -   To upgrade an existing Dynamics 365 Server with December 2016 Service Pack for Dynamics 365 (on-premises) deployment, the user who is running [!INCLUDE [pn-dynamics-365-server-v-90](../includes/pn-dynamics-365-server-v-90.md)] Setup must be a member of the Deployment Administrators group. Additionally, the user must have `db_owner` permission on the existing Dynamics 365 Customer Engagement (on-premises) databases and have `sysadmin` permission on the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]. For more information about how to add a member to the Deployment Administrators group, see the `the New-CrmDeploymentAdministrator`[!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command. More information: [Set properties using Powershell cmdlets](administer-the-deployment-using-windows-powershell.md). Alternatively, you can use [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)]. For more information about how to grant permission in [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], see the [!INCLUDE[pn_SQL_Server_Management_Studio](../includes/pn-sql-server-management-studio.md)] Help.  
   
 ## Tasks to perform before the upgrade  
   
@@ -48,7 +48,7 @@ This section shows you how to run the actual in-place upgrade on Dynamics 365 Se
   
 -   Uninstall Dynamics 365 Reporting Extensions if it’s installed on the same computer where Dynamics 365 Server is installed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Uninstall or repair Microsoft Dynamics 365 Reporting Extensions](uninstall-repair-dynamics-365-reporting-extensions.md)  
   
--   To determine the location of the Dynamics 365 for Customer Engagement installation files, see the [Microsoft Dynamics 365, version 9.0 Readme]https://go.microsoft.com/fwlink/?linkid=2020048).  
+-   To determine the location of the Dynamics 365 Customer Engagement (on-premises) installation files, see the [Microsoft Dynamics 365, version 9.0 Readme]https://go.microsoft.com/fwlink/?linkid=2020048).  
   
 ## Run the upgrade  
   
@@ -88,7 +88,7 @@ This section shows you how to run the actual in-place upgrade on Dynamics 365 Se
   
 8.  If you want to use server-side synchronization and/or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] for the deployment, leave this box blank.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][ntegrate your email system with Microsoft Dynamics 365](../admin/integrate-synchronize-your-email-system.md)  
   
-     Otherwise, on the **Specify E-mail Router Settings** in the, **Email router server name** box, type the name of the computer where the [!INCLUDE[pn_emailrouter](../includes/pn-emailrouter.md)] will be installed. This computer will route Dynamics 365 for Customer Engagement email messages. If you leave the box blank but decide later you want to use the [!INCLUDE[pn_emailrouter](../includes/pn-emailrouter.md)], you must add the computer where the [!INCLUDE[pn_emailrouter](../includes/pn-emailrouter.md)] Service is running (part of the [!INCLUDE[pn_Asynchronous_Service](../includes/pn-asynchronous-service.md)]) when you use Network Service, or if you use a domain user account, the account to the PrivUserGroup security group.  
+     Otherwise, on the **Specify E-mail Router Settings** in the, **Email router server name** box, type the name of the computer where the [!INCLUDE[pn_emailrouter](../includes/pn-emailrouter.md)] will be installed. This computer will route Dynamics 365 Customer Engagement (on-premises) email messages. If you leave the box blank but decide later you want to use the [!INCLUDE[pn_emailrouter](../includes/pn-emailrouter.md)], you must add the computer where the [!INCLUDE[pn_emailrouter](../includes/pn-emailrouter.md)] Service is running (part of the [!INCLUDE[pn_Asynchronous_Service](../includes/pn-asynchronous-service.md)]) when you use Network Service, or if you use a domain user account, the account to the PrivUserGroup security group.  
   
      Select **Next**.  
   

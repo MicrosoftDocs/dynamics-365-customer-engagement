@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Before you upgrade: issues and considerations
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This topic describes how you can upgrade to Dynamics 365 for Customer Enagagement, version 9.0.  
   

@@ -1,5 +1,5 @@
 ---
-title: "Change the color scheme or add a logo  in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Change the color scheme or add a logo  in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to change the color scheme or add a logo to match your organization’s brand"
 s.custom: 
 ms.date: 02/15/2019

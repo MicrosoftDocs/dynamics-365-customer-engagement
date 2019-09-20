@@ -1,5 +1,5 @@
 ---
-title: "Configure a Dynamics 365 for Customer Engagement (on-premises) Internet-facing deployment | Microsoft Docs"
+title: "Configure a Dynamics 365 Customer Engagement (on-premises) Internet-facing deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: "crm-2016"
@@ -15,9 +15,9 @@ ms.author: matp
 author: Mattp123
 manager: kvivek
 ---
-# Configure a Dynamics 365 for Customer Engagement (on-premises) Internet-facing deployment
+# Configure a Dynamics 365 Customer Engagement (on-premises) Internet-facing deployment
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can deploy [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] so that remote users can connect to the application through the Internet. The following [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)] configurations are supported:  
   
@@ -76,7 +76,7 @@ You can deploy [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] so th
  You can configure [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] for Internet access. To do this, run the [!INCLUDE[pn_Configure_Claims-based_Wizard](../includes/pn-configure-claims-based-wizard.md)], and then run the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)] where the [!INCLUDE[pn_Deployment_Administration_Server](../includes/pn-deployment-administration-server.md)] role is installed. For more information, see [Configure claims-based authentication](configure-claims-based-authentication.md) and [Configure an Internet-facing deployment](configure-an-internet-facing-deployment.md).  
 
 ### Step 2: Configure mobile clients to connect to Dynamics 365 Server
- For the tablet and phone apps to be able to to access the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] over the Internet, you must configure OAuth. More information: [Configure Windows Server for Dynamics 365 for Customer Engagement applications that use OAuth](post-installation-configuration-guidelines-dynamics-365.md#configure-windows-server-for-dynamics-365-for-customer-engagement-applications-that-use-oauth)
+ For the tablet and phone apps to be able to to access the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] over the Internet, you must configure OAuth. More information: [Configure Windows Server for Dynamics 365 Customer Engagement (on-premises) applications that use OAuth](post-installation-configuration-guidelines-dynamics-365.md#BKMK_WS2012R2)
   
 ### Step 3 (optional): Configure Microsoft Dynamics 365 for Outlook to connect to Dynamics 365 Server  
  For [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] to be able to access the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] over the Internet, you must specify the external Web address that will be used to access the Internet-facing [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]. To do this, you must install [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and then run the [!INCLUDE[pn_configuration_wizard](../includes/pn-configuration-wizard.md)]. Then, during configuration, type the external Web address in the **External Web** address box. If you install server roles, this Web address must specify where the [!INCLUDE[pn_Discovery_Web_Service](../includes/pn-discovery-web-service.md)] role is installed. For more information about how to configure [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], see [Set up Dynamics 365 for Outlook](../../../outlook-addin/user-guide/set-up.md).  

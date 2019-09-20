@@ -1,5 +1,5 @@
 ---
-title: "SQL Server requirements and recommendations for Dynamics 365 for Customer Engagement (on-premises) | Microsoft Docs"
+title: "SQL Server requirements and recommendations for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: "crm-2016"
@@ -15,9 +15,9 @@ author: Mattp123
 ms.author: matp
 manager: kvivek
 ---
-# SQL Server requirements and recommendations for Microsoft Dynamics 365 for Customer Engagement
+# SQL Server requirements and recommendations for Microsoft Dynamics 365 Customer Engagement (on-premises)
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The following requirements and recommendations apply to new and existing installations of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)].  
   
@@ -30,7 +30,7 @@ The following requirements and recommendations apply to new and existing install
   
 -   When [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] and [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] are installed on different computers, they must be in the same [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain.  
   
--   [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] Setup, Dynamics 365 for Customer Engagement PowerShell cmdlets, and [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] support the default instance or a named instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)].  
+-   [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] Setup, Dynamics 365 Customer Engagement (on-premises) PowerShell cmdlets, and [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] support the default instance or a named instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)].  
   
 -   Although you can install [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] by using either [!INCLUDE[pn_Windows_Authentication](../includes/pn-windows-authentication.md)] or mixed-mode authentication, [!INCLUDE[pn_Windows_Authentication](../includes/pn-windows-authentication.md)] is a prerequisite for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
@@ -44,7 +44,7 @@ The following requirements and recommendations apply to new and existing install
   
 -   [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] Setup requires a network library to authenticate [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]. By default, [!INCLUDE[pn_TCP/IP](../includes/pn_tcp_ip_md.md)] network libraries are enabled when you install [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)]. [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] can use both [!INCLUDE[pn_TCP/IP](../includes/pn_tcp_ip_md.md)] or Named Pipes for authentication. However, the computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] must be configured for at least one of the two network libraries.  
   
--   We recommend that the computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] be located on the same local area network (LAN) as the computer that is running the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] [!INCLUDE[Back_End_Server](../includes/back-end-server.md)] roles. <!-- For a description of the server roles, see [Microsoft Dynamics 365 for Customer Engagement server roles](microsoft-dynamics-365-server-roles.md). --> 
+-   We recommend that the computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] be located on the same local area network (LAN) as the computer that is running the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] [!INCLUDE[Back_End_Server](../includes/back-end-server.md)] roles. <!-- For a description of the server roles, see [Microsoft Dynamics 365 Customer Engagement (on-premises) server roles](microsoft-dynamics-365-server-roles.md). --> 
   
 -   The computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] must be configured to have sufficient disk space, memory, and processing power to support the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] environment. For more information, see [Microsoft Dynamics 365 Server hardware requirements](microsoft-dynamics-365-server-hardware-requirements.md).  
   
@@ -75,7 +75,7 @@ The following requirements and recommendations apply to new and existing install
 -   We recommend that common language runtime (CLR) be enabled on the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that hosts the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization database. CLR can show a significant improvement in performance for some features such as time zone conversions when you run dashboards, charts, advanced finds, and [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] interactive service hub experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CLR Integration - Enabling](https://docs.microsoft.com/sql/relational-databases/clr-integration/clr-integration-enabling?view=sql-server-2017)  
 <!--  
 <a name="sql2016_perf"></a>   
-## Improve performance when you use  Microsoft Dynamics 365 for Customer Engagement with SQL Server 2016  
+## Improve performance when you use  Microsoft Dynamics 365 Customer Engagement (on-premises) with SQL Server 2016  
  The following settings can help improve [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] application performance and should be configured on the SQL Server 2016 instance where the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization databases are serviced.  
   
 -   Make sure you are running SQL Server 2016 with Cumulative Update 2 (CU2). [Server & Tools Blogs: Cumulative Update #2 for SQL Server 2016 RTM](https://blogs.msdn.microsoft.com/sqlreleaseservices/cumulative-update-2-for-sql-server-2016-rtm/)  

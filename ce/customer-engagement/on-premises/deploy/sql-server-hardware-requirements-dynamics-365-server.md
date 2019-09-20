@@ -8,7 +8,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
   - Dynamics CRM 2016
 ms.assetid: aad0533d-0790-4a8b-8201-9bbd82bb026e
 caps.latest.revision: 11
@@ -18,7 +18,7 @@ manager: kvivek
 ---
 # Microsoft SQL Server hardware requirements for Microsoft Dynamics 365 Server
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You need [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] database engine and [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] to install and run on-premises versions of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]. The following table lists the minimum and recommended hardware requirements for [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)]. These requirements assume that additional components such as [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)], [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)], [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], or [!INCLUDE[pn_Exchange_Server_full](../includes/pn-exchange-server-full.md)] aren’t installed or running on the system.  
   
@@ -35,7 +35,7 @@ You need [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] database 
  The minimum and recommended requirements are based on 320-user load simulation tests.  
   
 ## See also  
- [Microsoft Dynamics 365 for Customer Engagement system requirements and required technologies](system-requirements-required-technologies.md)   
+ [Microsoft Dynamics 365 Customer Engagement (on-premises) system requirements and required technologies](system-requirements-required-technologies.md)   
  [Microsoft Dynamics 365 Server hardware requirements](microsoft-dynamics-365-server-hardware-requirements.md)   
  [Software requirements for Microsoft Dynamics 365 Server](software-requirements-for-microsoft-dynamics-365-server.md)
 

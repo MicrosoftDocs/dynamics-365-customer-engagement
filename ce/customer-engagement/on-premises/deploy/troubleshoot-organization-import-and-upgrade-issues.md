@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 9c1397cb-f45d-4a4a-a2e5-abae714e4d5d
 caps.latest.revision: 6
 author: Mattp123
@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Troubleshoot organization import and upgrade issues
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 If you encounter any issues during organization import and upgrade, here are some tips for troubleshooting them:  
   

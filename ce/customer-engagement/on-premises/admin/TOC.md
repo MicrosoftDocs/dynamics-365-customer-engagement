@@ -75,7 +75,8 @@
 ## [Create or edit a site](create-edit-site.md)
 ## [Add resources to a site](add-resources-site.md)
 ## [Enhanced service level agreements](enhanced-service-level-agreements.md)
-## [Configure Relevance Search](configure-relevance-search-organization.md)
+## [Configure Configure Quick Find options](configure-quick-find.md)
+<!--## [Configure Relevance Search](configure-relevance-search-organization.md)-->
 ## [Manage product catalog configuration](manage-product-catalog-configuration.md)
 ## [Enable rich text for appointment activities](enable-rich-text-experience.md)
 <!-- ## Manage documents

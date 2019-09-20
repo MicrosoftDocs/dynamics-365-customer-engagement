@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Install Microsoft Dynamics 365 Server by using a command prompt
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The following command will install Dynamics 365 Server:  
   

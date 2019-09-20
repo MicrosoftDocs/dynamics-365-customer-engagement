@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Install or upgrade Language Packs
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The [!INCLUDE[pn_Microsoft_Dynamics_CRM_Language_Pack](../includes/pn-microsoft-dynamics-crm-language-pack.md)] enables users to change the language of the user interface or Help that is displayed in the application. For example, your multinational organization might have standardized on an English user interface to simplify internal training and troubleshooting, but if you prefer to read Help in your native language, you can specify that [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] display Help in that language.  
   
