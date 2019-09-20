@@ -25,7 +25,7 @@ You can extend the options available within the workflow designer used in [!INCL
 
 The capability to use these custom extensions with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] (online) is provided by the Common Data Service. For information about creating, deploying, and debugging these extensions see the Common Data Service documentation: [Common Data Service](/powerapps/developer/common-data-service/overview) > [Workflow extensions](/powerapps/developer/common-data-service/workflow/workflow-extensions).
 
-The following section includes information specifically for on-premises deployments of Dynamics 365 Customer Engagement (on-premises).
+The following section applies to Dynamics 365 Customer Engagement (on-premises).
   
 ## On-premises options
 

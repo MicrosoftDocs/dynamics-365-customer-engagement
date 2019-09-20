@@ -114,7 +114,7 @@ When you create customizations in Dynamics 365 Customer Engagement (on-premises)
 
 <a name="BKMK_ManagingLanguages"></a>   
 ## Manage languages for your organization  
- [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] enable you to install multiple language packs on a server and allows the user to select a language pack. For more information about how to install language packs, see [Enable Languages](../admin/enable-languages.md). This section contains information about messages used to manage languages installed for your organization.  
+ Dynamics 365 Customer Engagement (on-premises) enable you to install multiple language packs on a server and allows the user to select a language pack. For more information about how to install language packs, see [Enable Languages](../admin/enable-languages.md). This section contains information about messages used to manage languages installed for your organization.  
 
  The following table lists the messages that you use to work with language packs. Use these messages with the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method.  
 

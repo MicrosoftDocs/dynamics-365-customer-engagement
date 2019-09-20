@@ -32,7 +32,7 @@ Mobile offline allows your users to use the Dynamics 365 for phones app in offli
 
 To allows users to use this feature, a Dynamics 365 administrator will need to set up mobile offline for their organization. 
   
-This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize entities with the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for phones and tablets apps so synchronized records are available when users’ mobile devices are disconnected. To enable mobile offline synchronization, follow the steps below.
+This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize entities with the Dynamics 365 for phones and tablets apps so synchronized records are available when users’ mobile devices are disconnected. To enable mobile offline synchronization, follow the steps below.
  
  
 ## Step 1: Enable entities for mobile offline synchronization 

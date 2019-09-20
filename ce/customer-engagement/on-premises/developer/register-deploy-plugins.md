@@ -52,7 +52,7 @@ For on-premises or Internet-facing (IFD) Dynamics 365 Customer Engagement (on-pr
 
 Plug-in registration should be done after the assembly has been copied to the …\bin\assembly folder on the server to prevent the situation where a system user causes an event in Dynamics 365 Customer Engagement (on-premises) to be raised but the registered plug-in assembly does not yet exist on the server. For server database deployment, the plug-in assembly is automatically copied during plug-in registration so that the earlier situation is not an issue.  
 
-Depending on your plug-in’s design, your plug-ins may require other referenced assemblies to run. Regardless of whether you deploy your plug-in to the database or disk, if your plug-in requires other assemblies to run, you must put copies of these assemblies in the global assembly cache on each server where the plug-in is to execute. This does not apply to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] server because you do not have access to the global assembly cache on that server.  
+Depending on your plug-in’s design, your plug-ins may require other referenced assemblies to run. Regardless of whether you deploy your plug-in to the database or disk, if your plug-in requires other assemblies to run, you must put copies of these assemblies in the global assembly cache on each server where the plug-in is to execute. 
 
 **To move a plug-in from a development environment to a staging or production server**
 
