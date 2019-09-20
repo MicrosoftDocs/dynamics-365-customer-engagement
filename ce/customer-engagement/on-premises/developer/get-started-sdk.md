@@ -90,7 +90,7 @@ The Microsoft Dynamics 365 Customer Engagement (on-premises) Web Services provid
 ### See also
 [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](overview.md)<br />
 [Choose your development style for Dynamics 365 Customer Engagement (on-premises)](choose-development-style.md)<br />
-[Connect to Dynamics 365 Customer Engagement (on-premises)](connect-customer-engagement.md)<br />
+[Authenticate users in Dynamics 365 Customer Engagement](authenticate-users.md)<br />
 [Security model of Customer Engagement (on-premises)](security-dev/security-model.md)<br />
 [Extend Dynamics 365 Customer Engagement (on-premises)](extend-customer-engagement.md)<br />
 [Model your business data in Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)<br />
