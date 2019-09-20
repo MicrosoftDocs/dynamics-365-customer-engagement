@@ -29,9 +29,10 @@ Users can create and manage private documents with [!INCLUDE[pn_onedrive_for_bus
  The following are required to use [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] with [!INCLUDE[pn_microsoft_dynamics_crm_2016_server](../includes/pn-microsoft-dynamics-crm-2016-server.md)].  
   
 > [!NOTE]
->  This topic applies to organizations deploying on-premises versions of [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] and [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps or an online/on-premises mix of these products. For information on integrating [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] online with Dynamics 365 for Customer Engagement apps (online), see:  [Enable OneDrive for Business](/power-platform/admin/enable-onedrive-for-business).  
-  
-- [Set up SharePoint integration with Microsoft Dynamics 365 for Customer Engagement](../admin/set-up-sharepoint-integration.md) and have at least one team site.  
+
+> This topic applies to organizations deploying on-premises versions of [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] and [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps or an online/on-premises mix of these products.   
+
+- [Set up SharePoint integration with Microsoft Dynamics 365 for Customer Engagement](../../../admin/set-up-sharepoint-integration.md) and have at least one team site.  
   
 - Set up permission on the root [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] team site for all users who will use [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Plan sites and manage users](https://support.office.com/article/Plan-sites-and-manage-users-95F9EB7A-4AC8-4DD5-A883-17686CBF8FFF)  
   
@@ -47,7 +48,7 @@ Users can create and manage private documents with [!INCLUDE[pn_onedrive_for_bus
    **If you’re running [!INCLUDE[pn_SharePoint_Server_short](../includes/pn-sharepoint-server-short.md)] on-premises**, on the Windows Server where [!INCLUDE[pn_SharePoint_Server_short](../includes/pn-sharepoint-server-short.md)] is running, open the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] Management Shell and run the following commands to set up permissions between [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] and [!INCLUDE[pn_microsoft_dynamics_crm_2016_server](../includes/pn-microsoft-dynamics-crm-2016-server.md)].  
   
 > [!NOTE]
->  You might have already set up permissions and can skip the following if you completed the steps in [Configure server-based authentication with Dynamics 365 for Customer Engagement apps Online and SharePoint on-premises](../admin/configure-server-based-authentication-sharepoint-on-premises.md).  
+>  You might have already set up permissions and can skip the following if you completed the steps in [Configure server-based authentication with Dynamics 365 for Customer Engagement apps Online and SharePoint on-premises](../../../admin/configure-server-based-authentication-sharepoint-on-premises.md).  
   
 ```  
 Add-Pssnapin *  
@@ -76,10 +77,10 @@ $wellKnownApp.Update()
    > [!NOTE]
    >  This privilege is visible in the Security Roles dialog only after [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] is enabled.  
   
-   ![Toggle availability of OneDrive for Business](../admin/media/onedrive-business-privileges.png "Toggle availability of OneDrive for Business")  
+   ![Toggle availability of OneDrive for Business](../../../admin/media/onedrive-business-privileges.png "Toggle availability of OneDrive for Business")  
   
 ### See also  
- [Set up SharePoint integration with Microsoft Dynamics 365 for Customer Engagement](../admin/set-up-sharepoint-integration.md)   
+ [Set up SharePoint integration with Microsoft Dynamics 365 for Customer Engagement](../../../admin/set-up-sharepoint-integration.md)   
  [Use OneDrive for Business to manage your private documents](../basics/use-onedrive-business-manage-private-documents.md)   
  [What is OneDrive for Business?](https://support.office.com/en-US/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)   
  [SharePoint Online and OneDrive for Business: software boundaries and limits](https://support.office.com/article/SharePoint-Online-and-OneDrive-for-Business-software-boundaries-and-limits-8F34FF47-B749-408B-ABC0-B605E1F6D498)   

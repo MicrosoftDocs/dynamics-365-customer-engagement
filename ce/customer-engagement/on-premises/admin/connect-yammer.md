@@ -150,5 +150,4 @@ search.app:
 [!INCLUDE[cc_privacy_crm_gcc_yammer_configuration](../includes/cc-privacy-crm-gcc-yammer-configuration.md)]
   
 ### See also  
- [Collaborate and communicate with Yammer](../basics/collaborate-communicate-with-yammer.md)   
  [Visit the Yammer website](http://go.microsoft.com/fwlink/p/?LinkID=272440)

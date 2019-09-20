@@ -90,14 +90,14 @@ Customer Engagement (on-premises) provides an import tool for importing simple d
   
 -   [Best practices for migrating your data](https://mbs.microsoft.com/customersource/northamerica/CRM/learning/documentation/DataMigrationCRMOnlineOnboardingSuccess)  
   
-Customer Engagement (on-premises) also provides advanced tools for exporting to [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Replicate data to Azure SQL Database using Data Export Service](replicate-data-microsoft-azure-sql-database.md)  
+Customer Engagement (on-premises) also provides advanced tools for exporting to [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)]. 
   
 ### Set up Dynamics 365 for phones and tablets  
  The Dynamics 365 mobile apps make it easy to stay connected with your prospects and customers no matter where you are, or what mobile device you’re using. Having access to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data in the field also improves user adoption and productivity.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
-- [Dynamics 365 for Customer Engagement apps for phones and tablets User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
+- [Dynamics 365 for Customer Engagement apps for phones and tablets User's Guide](../../../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
   
 - [Customize Dynamics 365 for Customer Engagement apps for phones and tablets to work for your business](../customize/customize-phones-tablets.md)
 

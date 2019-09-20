@@ -49,11 +49,11 @@ Use the settings on this page to enable preview features in Dynamics 365 Custome
 |**Action Step Support for Business Process Flows Preview**||
 |Enable Action Step Support for Business Process Flows Preview|More information: [Business process flows overview](../customize/business-process-flows-overview.md)|
 |**Organization Insights Preview**||
-|Enable Organization Insights Preview|More information: [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](use-organization-insights-dashboard-view-instance-metrics.md)|
+|Enable Organization Insights Preview|More information: [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](../../../admin/use-organization-insights-dashboard-view-instance-metrics.md)|
 |**Text Analytics Preview for Case Topic analysis, Suggest Similar Cases and Suggest Knowledge Articles**||
 |Enable the Customer Engagement (on-premises) Text Analytics Preview|More information: [Public Preview: Topic analysis](https://technet.microsoft.com/library/mt752501.aspx)|
 |**Sales Insights**||
 |Install Relationship Analytics to enable it for preview|More information: [Preview feature: Get insights on opportunities, activities, and leads of customers](https://docs.microsoft.com/dynamics365/customer-engagement/sales-enterprise/sales-insights-addon)|
 
 ### See also
-[What are Preview features and how do I enable them?](/en-us/power-platform/admin/what-are-preview-features-how-do-i-enable-them)
+
