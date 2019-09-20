@@ -346,7 +346,7 @@ Here are a few things to keep in mind about mobile offline synchronization:
   
 - Ensure that any view that you want to work in offline doesn’t reference the entities that are not offline-enabled. For example, assuming Account is in the offline profile, then an Account view that references the primary contact when Contact is not in the profile will not be available.
 
-- Changes to a user’s security privileges are updated during the next synchronization cycle. Until that time, users can continue to access data according to their previous security privileges, but any changes they make will be validated during the synchronization to the Customer Engagement server. If they no longer have privileges to make changes for a record, they will receive an error and the record won’t be created, updated, or deleted.
+- Changes to a user’s security privileges are updated during the next synchronization cycle. Until that time, users can continue to access data according to their previous security privileges, but any changes they make will be validated during the synchronization to the Dynamics 365 server. If they no longer have privileges to make changes for a record, they will receive an error and the record won’t be created, updated, or deleted.
 
 - Any changes to a user’s privilege to view a record won’t take effect on the mobile device until the next synchronization cycle.
   
