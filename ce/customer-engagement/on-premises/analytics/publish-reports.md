@@ -73,5 +73,5 @@ To make reports available to users, publish the reports.
 2.  In the **Report Viewer** dialog box, define the default filter criteria that will be used every time the report runs, and then select **Save Default Filter**.  
   
 ### See also  
- [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
- [Report considerations and best practices](../analytics/report-considerations-and-best-practices.md)
+ [Reporting and Analytics Guide](reporting-analytics-with-dynamics-365.md)   <br />
+[Best practices for reports](best-practices-reports.md)
