@@ -50,9 +50,6 @@ search.app:
  [Data Export service in Dynamics 365 Customer Engagement (on-premises)](/powerapps/developer/common-data-service/data-export-service.md)  
   
 ## Related Sections  
- [Release history](release-history.md)  
-  
- [What's new for developers: Dynamics 365 Customer Engagement (on-premises)](whats-new-developers.md)  
   
  [Start here](get-started-sdk.md)  
   
