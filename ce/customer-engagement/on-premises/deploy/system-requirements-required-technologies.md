@@ -27,7 +27,7 @@ This [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] version req
   
 -   An [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] website. More information: [Internet Information Services (IIS)](software-requirements-for-microsoft-dynamics-365-server.md#internet-information-services-iis)
   
--   Claims-based security token service (required for Internet-facing deployments). More infomation: [Accessing Microsoft Dynamics 365 Customer Engagement (on-premises) from the internet - Claims-based authentication and IFD requirements](software-requirements-for-microsoft-dynamics-365-server.md#accessing-microsoft-dynamics-365-for-customer-engagement-from-the-internet---claims-based-authentication-and-ifd-requirements)
+-   Claims-based security token service (required for Internet-facing deployments). More information: [Accessing Microsoft Dynamics 365 Customer Engagement (on-premises) from the internet - Claims-based authentication and IFD requirements](software-requirements-for-microsoft-dynamics-365-server.md)
   
 -   [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)]. More information: [SQL Server editions](software-requirements-for-microsoft-dynamics-365-server.md#sql-server-editions)
   
