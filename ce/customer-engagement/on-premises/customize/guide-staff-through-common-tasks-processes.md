@@ -22,7 +22,7 @@ search.app:
 ---
 # Create custom business logic through processes
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Defining and enforcing consistent business processes is one of the main reasons people use Dynamics 365 Customer Engagement (on-premises). Consistent processes help make sure people using the system can focus on their work and not on remembering to perform a set of manual steps. Processes can be simple or complex and can change over time.  
 

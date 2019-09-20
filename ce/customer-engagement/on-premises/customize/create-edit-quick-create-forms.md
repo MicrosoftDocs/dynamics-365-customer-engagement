@@ -22,7 +22,7 @@ search.app:
 ---
 # Create or edit quick create forms for a streamlined data entry experience
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
+ 
 
  With quick create forms, your app can have a streamlined data entry experience with full support for logic defined by form scripts and business rules. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, quick create forms appear when you select the **Create** button in the navigation bar or when you choose **+ New** when creating a new record from a lookup or sub-grid.
   

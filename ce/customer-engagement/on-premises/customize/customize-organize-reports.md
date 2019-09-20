@@ -21,7 +21,7 @@ search.app:
 ---
 # Customize and organize reports
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Analyze data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps by using reports. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps includes default reports for many common business needs. However, most organizations customize the default reports and add custom reports for specific needs.  
   

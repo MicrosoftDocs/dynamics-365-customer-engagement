@@ -21,7 +21,7 @@ search.app:
 ---
 # Create and edit relationships between entities 
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
+ 
 
 Entity relationships define how records can be related to each other in the database. At the simplest level, adding a lookup field to an entity creates a new 1:N (one-to-many) relationship between the two entities and lets you put that lookup field in a form. With the lookup field, users can associate multiple “child” records of that entity to a single “parent” entity record.  
   

@@ -23,7 +23,7 @@ search.app:
 ---
 # Export a solution 
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Exporting a solution will allow you to transport your configuration changes from one environment to another or to store your configuration into your source control system.  Exporting a solution will export the published unmanaged changes for each component associated to the solution.  You can only export an unmanaged solution.  
 

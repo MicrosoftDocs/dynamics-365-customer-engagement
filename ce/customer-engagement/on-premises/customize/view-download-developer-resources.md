@@ -26,7 +26,7 @@ search.app:
 
 # View or download developer resources
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This page is designed for developers who want to link to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps SDK, developer tools, or want to know the service endpoint URLs.  
   

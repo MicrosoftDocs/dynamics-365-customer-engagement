@@ -25,7 +25,7 @@ search.app:
 
 # Create or edit an app by using the app designer
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Create single-entity or multiple-entity apps quickly by using the tile-based app designer. Create once and run your app on large screen devices. 
 > [!div class="mx-imgBorder"] 

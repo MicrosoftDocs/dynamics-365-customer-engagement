@@ -22,7 +22,7 @@ search.app:
 ---
 # Best practices for workflow processes
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This topic contains best practices for creating and managing workflow processes.  
   

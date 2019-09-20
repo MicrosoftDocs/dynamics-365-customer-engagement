@@ -26,7 +26,7 @@ search.app:
 
 # Export, import, or remove an app
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
  [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps are distributed as solution components. After you have created an app, you can make it available for other organizations to use by packaging the app into a solution and then exporting it into a zip file. After the solution (.zip file) is successfully imported by the organization, the packaged app is available for use.
 

@@ -23,7 +23,7 @@ search.app:
 ---
 # Control access to forms
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
  There are two ways you can control access to main forms:  
   

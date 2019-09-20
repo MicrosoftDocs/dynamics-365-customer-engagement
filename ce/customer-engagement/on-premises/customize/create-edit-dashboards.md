@@ -21,7 +21,7 @@ search.app:
 ---
 # Create or edit system dashboards
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
+ 
 
 There are two types of dashboards, user dashboards and system dashboards. Any user can create a dashboard visible only to them in their work area such as Sales, Service, or Marketing. An admin or customizer creates or customizes system dashboards that, when published, are visible to everyone in the organization. A user can choose to set their user dashboard as their default dashboard and override the system dashboard. 
 

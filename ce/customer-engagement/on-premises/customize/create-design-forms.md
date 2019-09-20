@@ -23,7 +23,7 @@ search.app:
 ---
 # Create and design forms 
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 With Dynamics 365 Customer Engagement (on-premises), forms provide the user interface that people use to interact with the data they need to do their work. It's important that the forms people use are designed to allow them to find or enter the information they need efficiently. 
 

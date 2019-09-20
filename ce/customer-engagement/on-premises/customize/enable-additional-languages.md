@@ -23,7 +23,7 @@ search.app:
 <a name="BKMK_Localization"></a>   
 # Enable additional languages 
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
  
  If your organization has people who use a language other than the base language you chose when you deployed [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you can add more languages.  
   

@@ -23,7 +23,7 @@ search.app:
 ---
 # Invoke custom actions from a workflow
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Workflows have numerous capabilities supporting business scenarios. Calling basic SDK actions for a record, such as create, update, and delete, from within a workflow solves quite a few business scenarios. However, if you couple the capabilities of the workflows with the power of the custom actions invoked directly from within a workflow you add a whole new range of business scenarios to your application without needing to write code.  
   

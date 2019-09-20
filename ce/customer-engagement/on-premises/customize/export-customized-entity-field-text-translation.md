@@ -23,7 +23,7 @@ search.app:
 ---
 # Translate customized entity and field text into other languages
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 After you create customized entity and field text, you may want to translate it into other languages.  
   

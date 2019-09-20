@@ -23,7 +23,7 @@ search.app:
 ---
 # Create N:N (many-to-many) relationships
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 <a name="BKMK_CreateEditNNRelationships"></a>   
 

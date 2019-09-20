@@ -22,7 +22,7 @@ search.app:
 
 # Work with the form editor
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
+ 
 
 This section describes how to use the form editor. The form editor is your interface for customizing all form types, such as main, quick create, and card forms.
 

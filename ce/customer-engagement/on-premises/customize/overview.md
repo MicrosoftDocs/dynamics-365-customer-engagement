@@ -24,7 +24,7 @@ search.app:
 
 # App making and customization overview for Dynamics 365 for Customer Engagement, version 9 (on-premises)
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps gives you powerful customization and app making capabilities that don’t require you to write a single line of code. With a comprehensive set of WSYSIG designer and editor tools, most anyone can fully customize [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps or create their own custom apps. 
 

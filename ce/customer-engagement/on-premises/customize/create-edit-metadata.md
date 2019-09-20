@@ -23,7 +23,7 @@ search.app:
 
 # Entities, metadata, and the metadata browser
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This topic looks at metadata and how you can use it to create Dynamics 365 Customer Engagement (on-premises) or customize an existing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] app.  
 

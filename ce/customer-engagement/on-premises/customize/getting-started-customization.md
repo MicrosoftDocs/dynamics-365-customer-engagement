@@ -23,7 +23,7 @@ search.app:
 ---
 # Get started with app making and customization
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can tailor an app to more closely fit your organization’s industry, nomenclature, and unique business processes. You can implement many customizations without writing any code.  
   

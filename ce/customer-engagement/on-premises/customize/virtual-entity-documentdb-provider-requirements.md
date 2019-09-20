@@ -26,7 +26,7 @@ search.app:
 
 # Preview feature: Azure Cosmos DB SQL API Data Provider requirements
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This topic describes the requirements for the [!INCLUDE [cc-docdb-api-data-provider](../includes/cc-docdb-api-data-provider.md)] as well as how to configure and recommended best practices when you use the [!INCLUDE [cc-docdb-api-data-provider](../includes/cc-docdb-api-data-provider.md)] with virtual entities. 
 
