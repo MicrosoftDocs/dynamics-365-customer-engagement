@@ -22,7 +22,7 @@ manager: kvivek
 In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can remove a person from the [!INCLUDE[pn_Deployment_Administrator](../includes/pn-deployment-administrator.md)] role.  
   
 > [!TIP]
->  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the Remove-CrmDeploymentAdministrator command in the [Microsoft Dynamics 365 for Customer Engagement PowerShell Reference](/powershell/module/microsoft.crm.powershell/remove-crmdeploymentadministrator?view=dynamics365ce-ps).  
+>  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the Remove-CrmDeploymentAdministrator command in the [Microsoft Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/module/microsoft.crm.powershell/remove-crmdeploymentadministrator?view=dynamics365ce-ps).  
   
 ### Remove a Deployment Administrator  
   

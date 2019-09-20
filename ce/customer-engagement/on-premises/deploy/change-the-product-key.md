@@ -38,6 +38,6 @@ The **Change Product Key** dialog box lets you change the product key.
 
 
 ## See also  
- [Microsoft Dynamics 365 for Customer Engagement Deployment Properties](microsoft-dynamics-365-deployment-properties.md)   
+ [Microsoft Dynamics 365 Customer Engagement (on-premises) Deployment Properties](microsoft-dynamics-365-deployment-properties.md)   
  [Using Windows PowerShell to perform Deployment Manager tasks](powershell-deployment-manager-tasks.md) <!--"Using Windows PowerShell to perform Deployment Manager tasks")-->
 

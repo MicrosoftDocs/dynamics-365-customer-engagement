@@ -20,12 +20,12 @@ manager: kvivek
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-IT professionals and Dynamics 365 for Customer Engagement administrators can use the resources and topics in this guide to help them install and configure on-premises deployments of Dynamics 365 Customer Engagement (on-premises).  
+IT professionals and Dynamics 365 Customer Engagement (on-premises) administrators can use the resources and topics in this guide to help them install and configure on-premises deployments of Dynamics 365 Customer Engagement (on-premises).  
 
-A Dynamics 365 for Customer Engagement on-premises deployment includes the following applications:
+A Dynamics 365 Customer Engagement (on-premises) on-premises deployment includes the following applications:
 - At least one instance of Dynamics 365 Server
 - At least one instance of Dynamics 365 Reporting Extensions
-- Dynamics 365 for Customer Engagement Language Packs (required for multiple language support)
+- Dynamics 365 Customer Engagement (on-premises) Language Packs (required for multiple language support)
 - Dynamics 365 Report Authoring Extension (required for authoring Fetch-based reports)
 
 

@@ -15,7 +15,7 @@ author: Mattp123
 ms.author: matp
 manager: kvivek
 ---
-# Microsoft Dynamics 365 for Customer Engagement system requirements and required technologies
+# Microsoft Dynamics 365 Customer Engagement (on-premises) system requirements and required technologies
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -27,11 +27,11 @@ This [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] version req
   
 -   An [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] website. More information: [Internet Information Services (IIS)](software-requirements-for-microsoft-dynamics-365-server.md#internet-information-services-iis)
   
--   Claims-based security token service (required for Internet-facing deployments). More infomation: [Accessing Microsoft Dynamics 365 for Customer Engagement from the internet - Claims-based authentication and IFD requirements](software-requirements-for-microsoft-dynamics-365-server.md#accessing-microsoft-dynamics-365-for-customer-engagement-from-the-internet---claims-based-authentication-and-ifd-requirements)
+-   Claims-based security token service (required for Internet-facing deployments). More infomation: [Accessing Microsoft Dynamics 365 Customer Engagement (on-premises) from the internet - Claims-based authentication and IFD requirements](software-requirements-for-microsoft-dynamics-365-server.md#accessing-microsoft-dynamics-365-for-customer-engagement-from-the-internet---claims-based-authentication-and-ifd-requirements)
   
 -   [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)]. More information: [SQL Server editions](software-requirements-for-microsoft-dynamics-365-server.md#sql-server-editions)
   
--   [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)]. More information: [Microsoft Dynamics 365 for Customer Engagement reporting requirements](microsoft-dynamics-365-reporting-requirements.md)
+-   [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)]. More information: [Microsoft Dynamics 365 Customer Engagement (on-premises) reporting requirements](microsoft-dynamics-365-reporting-requirements.md)
   
 -   [!INCLUDE[pn_Exchange_Server_full](../includes/pn-exchange-server-full.md)] or access to a POP3-compliant email server (required for email tracking)  
   
@@ -61,6 +61,6 @@ This [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] version req
  [Microsoft Dynamics 365 Server hardware requirements](microsoft-dynamics-365-server-hardware-requirements.md) </br>
  [Software requirements for Microsoft Dynamics 365 Server](software-requirements-for-microsoft-dynamics-365-server.md) </br>
  [Supported web browsers and mobile devices](../admin/supported-web-browsers-and-mobile-devices.md)   </br>
- [Planning Your Deployment of Microsoft Dynamics 365 for Customer Engagement](planning-your-deployment-of-microsoft-dynamics-365.md) </br>
+ [Planning Your Deployment of Microsoft Dynamics 365 Customer Engagement (on-premises)](planning-your-deployment-of-microsoft-dynamics-365.md) </br>
  [Dynamics 365 for Outlook Administrator Guide](../../../outlook-addin/admin-guide/dynamics-365-for-outlook.md) 
 

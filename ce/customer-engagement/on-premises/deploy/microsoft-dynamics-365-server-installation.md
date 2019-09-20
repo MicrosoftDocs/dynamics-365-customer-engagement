@@ -23,19 +23,19 @@ This section covers procedures to install [!INCLUDE [pn-microsoftcrm-server](../
   
 ### Install Microsoft Dynamics 365 Server  
   
-1.  Verify that you have completed the necessary planning and that you have the required hardware and software components installed and running. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Planning your deployment of Microsoft Dynamics 365 for Customer Engagement](planning-your-deployment-of-microsoft-dynamics-365.md)  
+1.  Verify that you have completed the necessary planning and that you have the required hardware and software components installed and running. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Planning your deployment of Microsoft Dynamics 365 Customer Engagement (on-premises)](planning-your-deployment-of-microsoft-dynamics-365.md)  
   
-2.  Make sure that you have the appropriate permissions to run [!INCLUDE [pn-microsoftcrm-server](../includes/pn-microsoftcrm-server.md)] [!INCLUDE[pn_Setup](../includes/pn-setup.md)]. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Minimum permissions required for Microsoft Dynamics 365 for Customer Engagement Setup and services](security-considerations-for-microsoft-dynamics-365.md#BKMK_MinimumPermissions) -->
+2.  Make sure that you have the appropriate permissions to run [!INCLUDE [pn-microsoftcrm-server](../includes/pn-microsoftcrm-server.md)] [!INCLUDE[pn_Setup](../includes/pn-setup.md)]. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Minimum permissions required for Microsoft Dynamics 365 Customer Engagement (on-premises) Setup and services](security-considerations-for-microsoft-dynamics-365.md#BKMK_MinimumPermissions) -->
   
 3.  Run [!INCLUDE [pn-microsoftcrm-server](../includes/pn-microsoftcrm-server.md)] [!INCLUDE[pn_Setup](../includes/pn-setup.md)].  
   
 4.  On a server that has [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)], run [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] [!INCLUDE[pn_Setup](../includes/pn-setup.md)].  
   
-5.  If you want to configure [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for internet access, run the Set-CRMSettings ClaimsSettings and Set-CRMSettings IfdSettings [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] commands. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for Customer Engagement PowerShell Reference](/powershell/dynamics365/customer-engagement/overview)  
+5.  If you want to configure [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for internet access, run the Set-CRMSettings ClaimsSettings and Set-CRMSettings IfdSettings [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] commands. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/dynamics365/customer-engagement/overview)  
   
      Alternatively, start [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] and run the [!INCLUDE[pn_Configure_Claims-based_Wizard](../includes/pn-configure-claims-based-wizard.md)] and then the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)].  
   
-6.  If one or more [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users will need email routing, configure server-side synchronization to enable tracking. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate your email system with Microsoft Dynamics 365 for Customer Engagement](../admin/integrate-synchronize-your-email-system.md)  
+6.  If one or more [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users will need email routing, configure server-side synchronization to enable tracking. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate your email system with Microsoft Dynamics 365 Customer Engagement (on-premises)](../admin/integrate-synchronize-your-email-system.md)  
   
 ## Dynamics CRM 365 files  
  The following table lists the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] installation files to use and their location once the download package is extracted.  

@@ -1,5 +1,5 @@
 ---
-title: "Install Dynamics 365 for Customer Engagement Reporting Extensions | Microsoft Docs"
+title: "Install Dynamics 365 Customer Engagement (on-premises) Reporting Extensions | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.prod: crm-2016
@@ -15,7 +15,7 @@ author: Mattp123
 ms.author: matp
 manager: kvivek
 ---
-# Install Microsoft Dynamics 365 for Customer Engagement Reporting Extensions
+# Install Microsoft Dynamics 365 Customer Engagement (on-premises) Reporting Extensions
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -23,19 +23,19 @@ manager: kvivek
   
 -   You must complete [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] Setup before you run [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] Setup.  
   
--   You must run [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] Setup on a computer that has a supported version of [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] installed.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics 365 for Customer Engagement reporting requirements](microsoft-dynamics-365-reporting-requirements.md).  
+-   You must run [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] Setup on a computer that has a supported version of [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] installed.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics 365 Customer Engagement (on-premises) reporting requirements](microsoft-dynamics-365-reporting-requirements.md).  
   
 > [!WARNING]
 >  [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users who use the Report Viewer control included with [!INCLUDE [pn-visual-studio-short](../includes/pn-visual-studio-short.md)] can view information from the reports that they have access to. By using this control, the user can view additional report and session data that is not displayed when running the report in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. To reduce the risk of exposing confidential data, we recommend that you configure the [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] website where the [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] is installed to allow only [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)], also known as Secure HTTP, connections. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure SSL Connections on a Native Mode Report Server](https://msdn.microsoft.com/library/ms345223.aspx)  
 >   
 >  To reduce the risk of certain security vulnerabilities, we strongly recommend that you use different [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] accounts for the application pools used to run the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] websites.  
   
-## Install the Microsoft Dynamics 365 for Customer Engagement Reporting Extensions  
+## Install the Microsoft Dynamics 365 Customer Engagement (on-premises) Reporting Extensions  
  To install the [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)], locate the [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] installation files, and follow these steps:  
 
 1.  In the ..\Server\amd64\SrsDataConnector folder, double-click **SetupSrsDataConnector.exe**.  
   
-2.  On the **Welcome to Microsoft Dynamics 365 for Customer Engagement Reporting Extensions Setup** page, select whether you want to update [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] Setup. We recommend that if updates are available, you let Setup download the latest version. To do this, select **Update installation files**, wait until the update process is complete, and then select **Next**.  
+2.  On the **Welcome to Microsoft Dynamics 365 Customer Engagement (on-premises) Reporting Extensions Setup** page, select whether you want to update [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] Setup. We recommend that if updates are available, you let Setup download the latest version. To do this, select **Update installation files**, wait until the update process is complete, and then select **Next**.  
   
 3.  On the **License Agreement** page, review the information and, if you accept the license agreement, select **I accept this license agreement**, and then select **I Accept**.  
   
@@ -60,9 +60,9 @@ manager: kvivek
   
 10. The **Service Disruption Warning** page appears. Verify the suitability of the services that will be stopped or restarted, and then select **Next**.  
   
-11. Review the **Ready to Install Microsoft Dynamics 365 for Customer Engagement Reporting Extensions** page, and then select **Back** to correct any errors. When you are ready to continue, select **Install**.  
+11. Review the **Ready to Install Microsoft Dynamics 365 Customer Engagement (on-premises) Reporting Extensions** page, and then select **Back** to correct any errors. When you are ready to continue, select **Install**.  
   
-12. When Setup completes successfully, the **Microsoft Dynamics 365 for Customer Engagement Reporting Extensions Setup Completed** page appears. Select **Finish**.  
+12. When Setup completes successfully, the **Microsoft Dynamics 365 Customer Engagement (on-premises) Reporting Extensions Setup Completed** page appears. Select **Finish**.  
   
      During Setup, reports will be published for the default organization.  
   

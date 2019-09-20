@@ -27,6 +27,6 @@ Learn about creating trace files to troubleshoot error messages or other issues 
   
 ## See Also  
  [Known issues for Dynamics 365 for tablets and phones](../../../mobile-app/troubleshooting-things-know-about-phones-tablets.md)   </br>
- [Operating Dynamics 365 for Customer Engagement](operating-microsoft-dynamics-365.md)   </br>
- [Dynamics 365 for Customer Engagement PowerShell Reference](/powershell/dynamics365/customer-engagement/overview)
+ [Operating Dynamics 365 Customer Engagement (on-premises)](operating-microsoft-dynamics-365.md)   </br>
+ [Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/dynamics365/customer-engagement/overview)
 

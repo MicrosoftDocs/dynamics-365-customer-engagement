@@ -21,10 +21,10 @@ manager: kvivek
 
 This section explains the options available and provides instructions for data back up and failure recovery. For more information, see these topics. 
 - [Dynamics 365 VSS writer service](microsoft-dynamics-365-vss-writer-service.md)
-- [Back up the Dynamics 365 for Customer Engagement system](back-up-the-microsoft-dynamics-365-system.md)
+- [Back up the Dynamics 365 Customer Engagement (on-premises) system](back-up-the-microsoft-dynamics-365-system.md)
 - [Dynamics 365 Customer Engagement (on-premises) failure recovery](microsoft-dynamics-365-failure-recovery.md)
   
   
 ## See Also  
- [Operating Microsoft Dynamics 365 for Customer Engagement](operating-microsoft-dynamics-365.md)
+ [Operating Microsoft Dynamics 365 Customer Engagement (on-premises)](operating-microsoft-dynamics-365.md)
 

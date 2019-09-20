@@ -26,4 +26,4 @@ The following Dynamics 365 Customer Engagement (on-premises) apps that are based
  
 ## See also
 [About Unified Interface](../admin/about-unified-interface.md) <br/>
-[Post-installation and configuration guidelines for Dynamics 365 for Customer Engagement](post-installation-configuration-guidelines-dynamics-365.md)
+[Post-installation and configuration guidelines for Dynamics 365 Customer Engagement (on-premises)](post-installation-configuration-guidelines-dynamics-365.md)

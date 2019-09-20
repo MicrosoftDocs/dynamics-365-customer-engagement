@@ -15,7 +15,7 @@ ms.author: matp
 author: Mattp123
 manager: kvivek
 ---
-# Microsoft Dynamics 365 for Customer Engagement editions and licensing
+# Microsoft Dynamics 365 Customer Engagement (on-premises) editions and licensing
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -36,6 +36,6 @@ manager: kvivek
  You can view and modify client access license types for each user in the **Users** area of the **Settings** area in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web client. 
  
 ## See also    
- [Planning Dynamics 365 for Customer Engagement](planning-your-deployment-of-microsoft-dynamics-365.md) </br>  
- [Dynamics 365 for Customer Engagement system requirements and required technologies](system-requirements-required-technologies.md)
+ [Planning Dynamics 365 Customer Engagement (on-premises)](planning-your-deployment-of-microsoft-dynamics-365.md) </br>  
+ [Dynamics 365 Customer Engagement (on-premises) system requirements and required technologies](system-requirements-required-technologies.md)
 

@@ -15,7 +15,7 @@ ms.author: matp
 author: Mattp123
 manager: kvivek
 ---
-# Microsoft Dynamics 365 for Customer Engagement language support
+# Microsoft Dynamics 365 Customer Engagement (on-premises) language support
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -58,6 +58,6 @@ This section describes the supported configurations for different language versi
 -   [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)]  
   
 ## See also     
- [Microsoft Dynamics 365 for Customer Engagement system requirements and required technologies](system-requirements-required-technologies.md)   </br>
+ [Microsoft Dynamics 365 Customer Engagement (on-premises) system requirements and required technologies](system-requirements-required-technologies.md)   </br>
  [User Guide (Dynamics 365 for phones and tablets)](../../../mobile-app/dynamics-365-phones-tablets-users-guide.md)
 

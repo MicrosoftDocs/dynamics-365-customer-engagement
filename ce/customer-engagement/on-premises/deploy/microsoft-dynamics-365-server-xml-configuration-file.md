@@ -46,7 +46,7 @@ The /config [drive:] [[path] configfilename.xml]] command-line parameter provide
 -   **Configure**. Starts Setup in configuration mode.  
   
  **\<Patch update="true"/"false">\\\ServerName\ShareName\Patch_Location\</Patch>**  
- Determines the behavior of the update [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] technology. This feature lets Setup perform a one-time search for, and if applicable, download and apply the latest installation files for Dynamics 365 for Customer Engagement.  
+ Determines the behavior of the update [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] technology. This feature lets Setup perform a one-time search for, and if applicable, download and apply the latest installation files for Dynamics 365 Customer Engagement (on-premises).  
   
  By default, this element doesn’t specify a location, which configures Setup to search for available updates by using [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)]. If you want Setup to install updates from another location, such as a share on your network, add the file paths to the .msp file in the element, as shown in the following topic.  
   
@@ -102,7 +102,7 @@ The /config [drive:] [[path] configfilename.xml]] command-line parameter provide
  \<licenseKey>XXXXX-XXXXX-XXXXX-XXXXX-XXXXX\</licenseKey>  
   
 > [!NOTE]
->  If you purchase [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] through a Microsoft Volume Licensing program, the product key is provided in the license.txt file. The license.txt file is included in the Dynamics 365 for Customer Engagement installation files.  
+>  If you purchase [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] through a Microsoft Volume Licensing program, the product key is provided in the license.txt file. The license.txt file is included in the Dynamics 365 Customer Engagement (on-premises) installation files.  
   
  **\<WebsiteUrl Create="true"/"false" port="TCPportnumber">path\</WebsiteUrl>**  
  Specifies the website to be used for the application. Use **Create="true"** to create a new  website and leave the value between the element tags blank. Use **port**="*TCPportnumber*", where *TCPportnumber* is a valid and available [!INCLUDE[pn_TCP](../includes/pn-tcp.md)] port number, to specify the port for connecting to the  application. If left blank, the port number that will be used is 5555.  
@@ -116,7 +116,7 @@ The /config [drive:] [[path] configfilename.xml]] command-line parameter provide
 -   /LM/W3SVC/*n*, where *n* is the website ID. 1 is the default website.  
   
  **\<Help anonymous="true"/"false">http://host/Help\</Help>**  
- Optional element to specify a different URL where Dynamics 365 for Customer Engagement [!INCLUDE[pn_doc_help_long](../includes/pn-doc-help-long.md)] is located. This setting is typically used in a multiserver deployment or to replace the default URL such as when using a host header. If you select `false` to disable anonymous access, it may produce repeated logon prompts for users who access  [!INCLUDE[pn_doc_help_long](../includes/pn-doc-help-long.md)]. This setting is only available when you use a configuration file.  
+ Optional element to specify a different URL where Dynamics 365 Customer Engagement (on-premises) [!INCLUDE[pn_doc_help_long](../includes/pn-doc-help-long.md)] is located. This setting is typically used in a multiserver deployment or to replace the default URL such as when using a host header. If you select `false` to disable anonymous access, it may produce repeated logon prompts for users who access  [!INCLUDE[pn_doc_help_long](../includes/pn-doc-help-long.md)]. This setting is only available when you use a configuration file.  
   
  **\<InstallDir>c:\program files\Microsoft Dynamics CRM\</InstallDir>**  
  Specifies the folder in which application files will be installed. By default, Setup will use the folder C:\Program Files\Microsoft Dynamics CRM.  
@@ -140,7 +140,7 @@ The /config [drive:] [[path] configfilename.xml]] command-line parameter provide
  You must specify the precision for the base currency that you specified in the **currencycode** attribute. Valid values depend on the type of currency that you specify. For example, USD valid values are 1 – 9 and the default value is 2.  
   
  **\<OrganizationCollation>CollationName\</OrganizationCollation>**  
- This optional element specifies the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] database collation name to use for the organization database. The default collation depends on the language of Dynamics 365 for Customer Engagement that you’re installing, for example, Latin1_General_Cl_Al, which is the default collation for English (US) language deployments. For more information about database collation, see  [Collation and Unicode Support](/sql/relational-databases/collations/collation-and-unicode-support?view=sql-server-2016).  
+ This optional element specifies the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] database collation name to use for the organization database. The default collation depends on the language of Dynamics 365 Customer Engagement (on-premises) that you’re installing, for example, Latin1_General_Cl_Al, which is the default collation for English (US) language deployments. For more information about database collation, see  [Collation and Unicode Support](/sql/relational-databases/collations/collation-and-unicode-support?view=sql-server-2016).  
   
  **\<CrmServiceAccount type="DomainUser"/"NetworkService">**   
  **\<ServiceAccountLogin>Domain\User\</ServiceAccountLogin>**   

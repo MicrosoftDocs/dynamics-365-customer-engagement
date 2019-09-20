@@ -19,9 +19,9 @@
 #### [Security best practices](security-best-practices-for-microsoft-dynamics-365.md)
 #### [Administration best practices for on-premises deployments](best-practices-on-premises-deployments.md)
 #### [Operating system and platform technology security considerations](operating-system-platform-security-considerations.md)
-<!-- #### [Network ports for Dynamics 365 for Customer Engagement](network-ports-for-microsoft-dynamics-365.md)
+<!-- #### [Network ports for Dynamics 365 Customer Engagement (on-premises)](network-ports-for-microsoft-dynamics-365.md)
 #### [Known risks and vulnerabilities](known-risks-and-vulnerabilities.md)
-### [Dynamics 365 for Customer Engagement supported configurations] (microsoft-dynamics-365-supported-configurations.md) -->
+### [Dynamics 365 Customer Engagement (on-premises) supported configurations] (microsoft-dynamics-365-supported-configurations.md) -->
 #### [Multiple-server deployment](microsoft-dynamics-365-multiple-server-deployment.md)
 ##### [Server roles](microsoft-dynamics-365-server-roles.md)
 ##### [Support for multiple-server topologies](dynamics-365-multiple-server-topologies.md)
@@ -29,7 +29,7 @@
 #### [Before you upgrade: issues and considerations](before-you-upgrade-issues-and-considerations.md)
 <!-- #### [Upgrade the Dynamics Deployment](upgrade-the-microsoft-dynamics-deployment.md)
 ### [Advanced deployment options for Dynamics 365 Server](advanced-deployment-options.md) -->
-#### [Configure a Dynamics 365 for Customer Engagement Internet-facing deployment](configure-internet-facing-deployment.md)
+#### [Configure a Dynamics 365 Customer Engagement (on-premises) Internet-facing deployment](configure-internet-facing-deployment.md)
 <!-- #### [Multi-organization deployment](multi-organization-deployment.md) -->
 ### [Accessibility](accessibility-in-microsoft-dynamics-365.md)
 ## [Installing Dynamics 365 Customer Engagement (on-premises)](installing-on-premises-dynamics-365.md)

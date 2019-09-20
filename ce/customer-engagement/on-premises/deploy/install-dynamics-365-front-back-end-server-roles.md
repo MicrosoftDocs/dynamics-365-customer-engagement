@@ -32,7 +32,7 @@ The following procedure installs [!INCLUDE[pn_microsoftcrm](../includes/pn-micro
 ## Install Back End Server role  
 On the computer named *CRMbackend*, complete the following procedure.  
   
-1.  Meet all requirements specified in [Dynamics 365 for Customer Engagement system requirements and required components](system-requirements-required-technologies.md).  
+1.  Meet all requirements specified in [Dynamics 365 Customer Engagement (on-premises) system requirements and required components](system-requirements-required-technologies.md).  
   
 2.  Log on to the domain as a user who has administrator-level privileges where [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] will be installed and who is a member of the Administrators group on the local computer. You cannot install the application as a member from a trusted domain.  
   
@@ -40,7 +40,7 @@ On the computer named *CRMbackend*, complete the following procedure.
   
 4.  In the folder where the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] files are located, move to the Server\amd64 folder, and then double-click **SetupServer.exe**.  
   
-5.  On the **Welcome to Microsoft Dynamics 365 Server Setup** page, we recommend that you select **Get updates for Microsoft Dynamics 365 for Customer Engagement**, to make sure that Setup has the most recent installation files. Select **Next**.  
+5.  On the **Welcome to Microsoft Dynamics 365 Server Setup** page, we recommend that you select **Get updates for Microsoft Dynamics 365 Customer Engagement (on-premises)**, to make sure that Setup has the most recent installation files. Select **Next**.  
   
 6.  On the **Product Key Information** page, type your product key in the **Product key** boxes, and then select **Next**.  
   
@@ -67,7 +67,7 @@ On the computer named *CRMbackend*, complete the following procedure.
   
 13. On the **Specify Service Accounts** page, select the security accounts for the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] services, and then select **Next**.  
   
-     The services are described below. <!-- For more information about the service accounts required to run these services, see [Minimum permissions required for Microsoft Dynamics 365 for Customer Engagement Setup and services](security-considerations-for-microsoft-dynamics-365.md#BKMK_MinimumPermissions). --> 
+     The services are described below. <!-- For more information about the service accounts required to run these services, see [Minimum permissions required for Microsoft Dynamics 365 Customer Engagement (on-premises) Setup and services](security-considerations-for-microsoft-dynamics-365.md#BKMK_MinimumPermissions). --> 
   
     -   **[!INCLUDE[pn_Sandbox_Processing_Service](../includes/pn-sandbox-processing-service.md)].** Enables an isolated environment to allow for the execution of custom code, such as plug-ins. This isolated environment reduces the possibility of custom code affecting the operation of the organizations in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment.  
   
@@ -85,11 +85,11 @@ On the computer named *CRMbackend*, complete the following procedure.
   
 16. The **Service Disruption Warning** page appears. This page lists all services that will be stopped or restarted during Setup.  
   
-17. Review the **Ready to Install Microsoft Dynamics 365 for Customer Engagement** page, and then select **Back** to correct any warnings. When you are ready to continue, select **Install**.  
+17. Review the **Ready to Install Microsoft Dynamics 365 Customer Engagement (on-premises)** page, and then select **Back** to correct any warnings. When you are ready to continue, select **Install**.  
   
 18. When the Setup program is finished, select **Finish**.  
   
-19. Run [!INCLUDE[pn_Microsoft_Dynamics_CRM_Reporting_Extensions_Setup](../includes/pn-microsoft-dynamics-crm-reporting-extensions-setup.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Microsoft Dynamics 365 for Customer Engagement Reporting Extensions](install-microsoft-dynamics-365-reporting-extensions.md)  
+19. Run [!INCLUDE[pn_Microsoft_Dynamics_CRM_Reporting_Extensions_Setup](../includes/pn-microsoft-dynamics-crm-reporting-extensions-setup.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Microsoft Dynamics 365 Customer Engagement (on-premises) Reporting Extensions](install-microsoft-dynamics-365-reporting-extensions.md)  
   
     > [!IMPORTANT]
     >  [!INCLUDE[pn_crm_report_ext_SRS_short](../includes/pn-crm-report-ext-srs-short.md)] are required to complete the [!INCLUDE[Front_End_Server](../includes/front-end-server.md)] and [!INCLUDE[Back_End_Server](../includes/back-end-server.md)] deployment of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
@@ -104,7 +104,7 @@ On the computer named *CRMbackend*, complete the following procedure.
   
 2.  In the folder where the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] files are located, move to the Server\amd64 folder, and then double-click **SetupServer.exe**.  
   
-3.  On the **Welcome to Microsoft Dynamics 365 for Customer Engagement Setup** page, we recommend that you select **Get updates for Microsoft Dynamics 365 for Customer Engagement**, to make sure that Setup has the most recent installation files. Select **Next**.  
+3.  On the **Welcome to Microsoft Dynamics 365 Customer Engagement (on-premises) Setup** page, we recommend that you select **Get updates for Microsoft Dynamics 365 Customer Engagement (on-premises)**, to make sure that Setup has the most recent installation files. Select **Next**.  
   
 4.  On the **Product Key Information** page, type your product key in the **Product key** boxes, and then select **Next**.  
   
@@ -131,9 +131,9 @@ On the computer named *CRMbackend*, complete the following procedure.
   
 11. On the **Specify Service Accounts** page, select the security accounts for the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] services, and then select **Next**.  
   
-     The services are described below. <!-- For more information see [Minimum permissions required for Microsoft Dynamics 365 for Customer Engagement Setup and services](security-considerations-for-microsoft-dynamics-365.md#BKMK_MinimumPermissions). --> 
+     The services are described below. <!-- For more information see [Minimum permissions required for Microsoft Dynamics 365 Customer Engagement (on-premises) Setup and services](security-considerations-for-microsoft-dynamics-365.md#BKMK_MinimumPermissions). --> 
   
-    -   **Application Service.** This service runs the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application that is used to connect users to Dynamics 365 for Customer Engagement data.  
+    -   **Application Service.** This service runs the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application that is used to connect users to Dynamics 365 Customer Engagement (on-premises) data.  
   
     -   **[!INCLUDE[pn_Deployment_Web_Service](../includes/pn-deployment-web-service.md)].** Publishes the web service that provides the deployment interface described in the [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customer-engagement/developer/developer-guide), such as those used to create an organization or manage the list of Deployment Administrators for the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment.  
   
@@ -165,19 +165,19 @@ On the computer named *CRMbackend*, complete the following procedure.
   
 17. The **Service Disruption Warning** page appears. This page lists all services that will be stopped or restarted during Setup. Select **Next**.
   
-18. Review the **Ready to Install Microsoft Dynamics 365 for Customer Engagement** page, and then select **Back** to make changes. When you are ready to continue, select **Install**.  
+18. Review the **Ready to Install Microsoft Dynamics 365 Customer Engagement (on-premises)** page, and then select **Back** to make changes. When you are ready to continue, select **Install**.  
   
 19. When the Setup program is finished, select **Finish**.  
   
 
-## Create the Microsoft Dynamics 365 for Customer Engagement organization  
+## Create the Microsoft Dynamics 365 Customer Engagement (on-premises) organization  
  After [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] program is finished installing the [!INCLUDE[Back_End_Server](../includes/back-end-server.md)], [!INCLUDE[Front_End_Server](../includes/front-end-server.md)], [!INCLUDE[pn_Deployment_Administration_Server](../includes/pn-deployment-administration-server.md)] roles, and [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)], you must create at least one organization to make the deployment available for users.  
   
  To create an organization, on the computer named *CRMfrontend* where the [!INCLUDE[pn_Deployment_Administration_Server](../includes/pn-deployment-administration-server.md)] role is installed, run the [New-CrmOrganization](https://docs.microsoft.com/powershell/module/microsoft.crm.powershell/new-crmorganization?view=dynamics365ce-ps) [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command. Alternatively, you can use [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)].  
   
- If you have a Dynamics 365 for Customer Engagement (8.2) deployment, you can import the organization databases into the new deployment. Imported databases will be upgraded during the operation. To import an organization, on the computer named *CRMfrontend* where the [!INCLUDE[pn_Deployment_Administration_Server](../includes/pn-deployment-administration-server.md)] role is installed, run the [Import-CrmOrganization](https://docs.microsoft.com/powershell/module/microsoft.crm.powershell/import-crmorganization?view=dynamics365ce-ps) [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command. Alternatively, you can use [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)].  
+ If you have a Dynamics 365 Customer Engagement (on-premises) (8.2) deployment, you can import the organization databases into the new deployment. Imported databases will be upgraded during the operation. To import an organization, on the computer named *CRMfrontend* where the [!INCLUDE[pn_Deployment_Administration_Server](../includes/pn-deployment-administration-server.md)] role is installed, run the [Import-CrmOrganization](https://docs.microsoft.com/powershell/module/microsoft.crm.powershell/import-crmorganization?view=dynamics365ce-ps) [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command. Alternatively, you can use [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)].  
   
 ## See also  
  [Microsoft Dynamics 365 Server installation](microsoft-dynamics-365-server-installation.md)   
- [Install Microsoft Dynamics 365 for Customer Engagement Full Server role on a server without Microsoft Dynamics 365 for Customer Engagement installed](install-full-server-role-on-server.md)
+ [Install Microsoft Dynamics 365 Customer Engagement (on-premises) Full Server role on a server without Microsoft Dynamics 365 Customer Engagement (on-premises) installed](install-full-server-role-on-server.md)
 

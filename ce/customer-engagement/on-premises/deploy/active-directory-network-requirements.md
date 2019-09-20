@@ -1,5 +1,5 @@
 ---
-title: "Active Directory and network requirements for Microsoft Dynamics 365 for Customer Engagement | Microsoft Docs"
+title: "Active Directory and network requirements for Microsoft Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.prod: crm-2016
@@ -16,7 +16,7 @@ author: Mattp123
 ms.author: matp
 manager: kvivek
 ---
-# Active Directory and network requirements for Microsoft Dynamics 365 for Customer Engagement
+# Active Directory and network requirements for Microsoft Dynamics 365 Customer Engagement (on-premises)
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 

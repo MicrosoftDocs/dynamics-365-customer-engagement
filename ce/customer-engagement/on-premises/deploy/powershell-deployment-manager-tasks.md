@@ -21,9 +21,9 @@ manager: kvivek
 
 You can use [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets to perform many of the tasks that can be performed by using the [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] user interface.  
   
- For more information about the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets, see [Overview of Dynamics 365 for Customer Engagement PowerShell](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps).  
+ For more information about the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets, see [Overview of Dynamics 365 Customer Engagement (on-premises) PowerShell](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps).  
   
-### Register the Microsoft Dynamics 365 for Customer Engagement  cmdlet  
+### Register the Microsoft Dynamics 365 Customer Engagement (on-premises)  cmdlet  
   
 1.  Sign in to the administrator account on your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server.  
   

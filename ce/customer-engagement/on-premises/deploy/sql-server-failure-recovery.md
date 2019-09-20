@@ -15,7 +15,7 @@ ms.author: matp
 author: Mattp123
 manager: kvivek
 ---
-# SQL Server failure recovery with Dynamics 365 for Customer Engagement
+# SQL Server failure recovery with Dynamics 365 Customer Engagement (on-premises)
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 

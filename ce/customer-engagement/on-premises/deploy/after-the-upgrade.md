@@ -45,7 +45,7 @@ After Setup completes the upgrade, perform the following tasks.
  To ease the upgrade process, [!INCLUDE [pn-crm-for-outlook-short](../includes/pn-crm-for-outlook-short.md)] (8.2) is compatible with [!INCLUDE [pn-dynamics-365-server-v-90](../includes/pn-dynamics-365-server-v-90.md)].  
   
 > [!IMPORTANT]
->  The Dynamics 365 for Outlook **Go offline** functionality is no longer available with this release of Dynamics 365 for Customer Engagement.  
+>  The Dynamics 365 for Outlook **Go offline** functionality is no longer available with this release of Dynamics 365 Customer Engagement (on-premises).  
   
 #### Upgrade clients  
   

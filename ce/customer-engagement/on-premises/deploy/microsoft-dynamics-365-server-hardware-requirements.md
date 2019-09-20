@@ -38,6 +38,6 @@ The following table lists the minimum and recommended hardware requirements for 
 >  The minimum and recommended requirements are based on 320-user load simulation tests.  
   
 ## See also  
- [Dynamics 365 for Customer Engagement system requirements and required technologies](system-requirements-required-technologies.md)   
+ [Dynamics 365 Customer Engagement (on-premises) system requirements and required technologies](system-requirements-required-technologies.md)   
  [Microsoft SQL Server hardware requirements for Dynamics 365 Server](sql-server-hardware-requirements-dynamics-365-server.md)
 

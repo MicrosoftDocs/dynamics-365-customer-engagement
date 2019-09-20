@@ -26,7 +26,7 @@ Before you can edit an organization, you must disable it. After you make the cha
  You cannot change the name of the organization.  
   
 > [!TIP]
->  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the Disable-CrmOrganization and Edit-CrmOrganization commands in the [Microsoft Dynamics 365 for Customer Engagement PowerShell Reference](/powershell/module/microsoft.crm.powershell/?view=dynamics365ce-ps).  
+>  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the Disable-CrmOrganization and Edit-CrmOrganization commands in the [Microsoft Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/module/microsoft.crm.powershell/?view=dynamics365ce-ps).  
   
 ### Edit an organization  
   

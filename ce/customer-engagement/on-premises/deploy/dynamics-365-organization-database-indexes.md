@@ -54,6 +54,6 @@ WHERE i.name is not null
  For more information about [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] indexes, see [SQL Server Index Architecture and Design Guide]/sql/relational-databases/sql-server-index-design-guide?view=sql-server-2016).  
   
 ## See Also  
- [Operating Microsoft Dynamics 365 for Customer Engagement](operating-microsoft-dynamics-365.md) </br>  
- [Microsoft Dynamics 365 for Customer Engagement data protection and recovery](microsoft-dynamics-365-data-protection-and-recovery.md)
+ [Operating Microsoft Dynamics 365 Customer Engagement (on-premises)](operating-microsoft-dynamics-365.md) </br>  
+ [Microsoft Dynamics 365 Customer Engagement (on-premises) data protection and recovery](microsoft-dynamics-365-data-protection-and-recovery.md)
 

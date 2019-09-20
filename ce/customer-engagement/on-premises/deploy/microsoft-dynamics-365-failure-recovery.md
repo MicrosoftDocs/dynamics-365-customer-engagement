@@ -26,6 +26,6 @@ To understand failure recovery, you must examine different scenarios to learn ho
 -   [Microsoft Dynamics 365 Server failure](microsoft-dynamics-365-server-failure-recovery.md)  
   
 ## See Also    
- [Microsoft Dynamics 365 for Customer Engagement data protection and recovery](microsoft-dynamics-365-data-protection-and-recovery.md)   </br>
+ [Microsoft Dynamics 365 Customer Engagement (on-premises) data protection and recovery](microsoft-dynamics-365-data-protection-and-recovery.md)   </br>
  [Exporting and importing customizations and solutions](exporting-and-importing-customizations-and-solutions.md)
 

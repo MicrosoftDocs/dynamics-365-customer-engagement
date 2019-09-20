@@ -35,7 +35,7 @@ You need [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] database 
  The minimum and recommended requirements are based on 320-user load simulation tests.  
   
 ## See also  
- [Microsoft Dynamics 365 for Customer Engagement system requirements and required technologies](system-requirements-required-technologies.md)   
+ [Microsoft Dynamics 365 Customer Engagement (on-premises) system requirements and required technologies](system-requirements-required-technologies.md)   
  [Microsoft Dynamics 365 Server hardware requirements](microsoft-dynamics-365-server-hardware-requirements.md)   
  [Software requirements for Microsoft Dynamics 365 Server](software-requirements-for-microsoft-dynamics-365-server.md)
 
