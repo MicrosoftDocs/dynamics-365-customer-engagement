@@ -24,7 +24,7 @@ search.app:
 
  
 
- With quick create forms, your app can have a streamlined data entry experience with full support for logic defined by form scripts and business rules. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, quick create forms appear when you select the **Create** button in the navigation bar or when you choose **+ New** when creating a new record from a lookup or sub-grid.
+ With quick create forms, your app can have a streamlined data entry experience with full support for logic defined by form scripts and business rules. In Dynamics 365 Customer Engagement (on-premises), quick create forms appear when you select the **Create** button in the navigation bar or when you choose **+ New** when creating a new record from a lookup or sub-grid.
   
  The [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] customer engagement mobile apps use quick create forms for creating new records. If an entity already has a quick create form configured for it, the mobile apps use that form. If an entity doesn't have a configured quick create form, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] generates a quick create form  for creating records in the mobile apps based on the main form definition.  
   

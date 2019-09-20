@@ -28,7 +28,7 @@ search.app:
 
 
 
-This page is designed for developers who want to link to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps SDK, developer tools, or want to know the service endpoint URLs.  
+This page is designed for developers who want to link to the Dynamics 365 Customer Engagement (on-premises) SDK, developer tools, or want to know the service endpoint URLs.  
   
  **Organization Unique Name**  
   
@@ -46,7 +46,7 @@ For more information about using each item on the developer resources page, see 
   
  **Discovery Service**  
   
- This is a Web service that provides information about the organizations that are available on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server using the SOAP protocol. This information includes the URL for each organization.  
+ This is a Web service that provides information about the organizations that are available on the Dynamics 365 Customer Engagement (on-premises) server using the SOAP protocol. This information includes the URL for each organization.  
   
  **Organization Service**  
   

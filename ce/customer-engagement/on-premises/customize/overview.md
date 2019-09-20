@@ -85,7 +85,7 @@ Determines what type of data visualizations and reporting the app will have avai
 More information: [Create or edit a system chart](create-edit-system-chart.md) and [Overview of reports](/dynamics365/customer-engagement/analytics/get-started-writing-reports)
 
 ## Extensibilty
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps provides a set of web services and APIs that allow developers to write code. When code is written using supported methods you can expect that it will continue to work when you upgrade your organization. 
+Dynamics 365 Customer Engagement (on-premises) provides a set of web services and APIs that allow developers to write code. When code is written using supported methods you can expect that it will continue to work when you upgrade your organization. 
 
 More information: [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customer-engagement/developer/developer-guide)
 
@@ -104,7 +104,7 @@ More information: [Solutions overview](solutions-overview.md)
  
 <a name="BKMK_changesinperformance"></a>   
 ## Changes that affect [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps organization performance  
- App makers and customizers should know that importing solutions and applying customizations that change metadata can affect [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps organization performance. Actions that can interfere with normal system operation include:  
+ App makers and customizers should know that importing solutions and applying customizations that change metadata can affect Dynamics 365 Customer Engagement (on-premises) organization performance. Actions that can interfere with normal system operation include:  
   
 -   Add, remove, or change entities, alternate keys, attributes, or relationships.   
   

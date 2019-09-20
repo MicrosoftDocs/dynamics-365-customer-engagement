@@ -77,7 +77,7 @@ Dynamics 365 Customer Engagement (on-premises) includes four types of processes,
 ## Where do I go to create processes?  
  There are two paths to navigate to processes:  
   
-- **Settings>Processes.** in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps this path is easiest to access and allows you to use views defined for the Process entity, including any custom views.  
+- **Settings>Processes.** in Dynamics 365 Customer Engagement (on-premises) this path is easiest to access and allows you to use views defined for the Process entity, including any custom views.  
   
 - In solution explorer. **Components > Processes.** This path provides convenient access when you are doing other customization work in the customization tools.  
   
