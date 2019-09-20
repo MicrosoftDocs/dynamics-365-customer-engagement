@@ -93,4 +93,4 @@ Create a new Web API request to test the connection with your Dynamics 365 Custo
 ## See also
 
 [Use the Dynamics 365 Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)<br>
-[Walkthrough: Register a Dynamics 365 Customer Engagement app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md)
+[Walkthrough: Register a Dynamics 365 Customer Engagement app with Active Directory](../walkthrough-register-app-active-directory.md)

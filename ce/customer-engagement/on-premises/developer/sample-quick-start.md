@@ -27,7 +27,7 @@ The QuickStart sample is a [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn
 > [!CAUTION]
 > The helper classes are deprecated and no longer maintained. The recommendation is to use the new [CrmServiceClient](https://docs.microsoft.com/dotnet/api/microsoft.xrm.tooling.connector.crmserviceclient?view=dynamics-xrmtooling-ce-9) class for connecting to the web service endpoints. For more information see [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md).
 
-If you would like to review a shorter version of the ServerConnection class without all the console I/O, see [Authentication deep dive](authenticate-office-365-users-customer-engagement-web-services#authentication-deep-dive).
+If you would like to review a shorter version of the ServerConnection class without all the console I/O, see [Authentication deep dive](authenticate-office-365-users-customer-engagement-web-services.md#authentication-deep-dive).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
