@@ -22,7 +22,7 @@ search.app:
 ---
 # Form XML schema
 
-The following is the schema definition for form customizations for [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. For more information, see [Customize Entity Forms in Microsoft Dynamics 365 Customer Engagement](customize-entity-forms.md). [!INCLUDE[schema_download](../../includes/schema-download.md)].  
+The following is the schema definition for form customizations for Dynamics 365 Customer Engagement (on-premises). For more information, see [Customize Entity Forms in Microsoft Dynamics 365 Customer Engagement](customize-entity-forms.md). [!INCLUDE[schema_download](../../includes/schema-download.md)].  
   
 > [!NOTE]
 > On solution import, you might see an error related to the form xml structure, for example, "NavBarArea cannot be empty."
