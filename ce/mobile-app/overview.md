@@ -28,5 +28,5 @@ Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!IN
 
 > [!NOTE]
 > - You can use the web browsers on your phone or tablet but for full functionality and optimized experience we strongly recommend that you use the Dynamics 365 for phones and tablets app. For more information, see [Install Dynamics 365 for phones and tablets](install-dynamics-365-for-phones-and-tablets.md).
-> - [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has separate mobile apps for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] and Operations. Learn about [Dynamics 365 apps for Field Service (Resco) mobile app](https://go.microsoft.com/fwlink/?linkid=846157) and [Dynamics 365 apps  for Operations mobile app](https://ax.help.dynamics.com/en/wiki/mobile-development-handbook/).  
+> - There are separate mobile apps for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] and Operations. Learn about [Dynamics 365 apps for Field Service (Resco) mobile app](https://go.microsoft.com/fwlink/?linkid=846157) and [Dynamics 365 apps  for Operations mobile app](https://ax.help.dynamics.com/en/wiki/mobile-development-handbook/).  
     
