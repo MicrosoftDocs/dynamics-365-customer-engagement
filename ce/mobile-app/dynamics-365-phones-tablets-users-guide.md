@@ -37,7 +37,7 @@ Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!IN
 
 ## Sign in and sign out (iOS users)
 
-Sign in to the Dynamics 365 mobile app quickly using your work email address or Customer Engagement app web address. If you need help with your sign-in information, contact your Dynamics 365 administrator. 
+Sign in to the Dynamics 365 mobile app quickly using your work email address or web address for the Dynamics 365 app that you use. If you need help with your sign-in information, contact your Dynamics 365 administrator. 
 
 > [!IMPORTANT]
 > - This feature is supported for version 9.x (Online and on-premises) when signing in using the mobile app on an iOS device.
@@ -66,14 +66,14 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
 
 ### Sign in with your web address (iOS users)
 
-You can also sign in using your Dynamics 365 Customer Engagement app web address and user name and password. 
+You can also sign in using your web address for the Dynamics 365 app and user name and password. 
 
 1. On the sign-in screen, select **Sign in with a web address instead**.
 
    > [!div class="mx-imgBorder"] 
    > ![Enter user name and password address](media/userandpassword.png "Enter your user name and password"). 
 
-2. Enter the URL for your Dynamics 365 Customer Engagement app, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in"). 
+2. Enter the URL for your web address for the Dynamics 365 app that you use, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in"). 
 3. Enter your user name and password.
 4. From the list of apps that you have access to, select the app that you want to use.
 
