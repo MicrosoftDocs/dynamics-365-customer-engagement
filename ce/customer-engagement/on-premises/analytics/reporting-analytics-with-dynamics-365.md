@@ -41,7 +41,7 @@ Common Data Service and Customer Engagement (on-premises) apps includes a Report
   
  There are several ways you can use [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps:  
   
-- Load a content pack and start using the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] service to display Common Data Service and Customer Engagement (on-premises) insights.  
+- Load a content pack and start using the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] service to display Common Data Service and Dynamics 365 apps insights.  
   
 - Use [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] to modify and customize your reports and visualizations.  
   

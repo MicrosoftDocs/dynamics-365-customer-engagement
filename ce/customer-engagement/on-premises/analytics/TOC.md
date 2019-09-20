@@ -14,8 +14,7 @@
 
 # [Publish](publish-reports.md)
 
-# [Report considerations and best practices](report-considerations-and-best-practices.md)
-## [Best practices](best-practices-reports.md)
+# [Report best practices](best-practices-reports.md)
 ## [Improve performance](improve-performance-reports.md)
 ## [Improve performance by using filters](improve-report-performance-by-using-filters.md)
 
