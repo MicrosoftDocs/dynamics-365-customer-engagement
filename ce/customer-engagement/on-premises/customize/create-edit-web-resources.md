@@ -26,10 +26,8 @@ search.app:
 
 Web resources are typically used by developers to extend an app using files that are used in web development. App users may need to manage web resources provided by a developer or designer.  
 
-
-
 > [!TIP]
-> For an in-depth discussion of web resources, see [Web resources for Customer Engagement apps](../developer/web-resources). For information on web resource dependencies added in Dynamics 365 Customer Engagement (on-premises), see [Web resource dependencies](../developer/web-resources).
+> For an in-depth discussion of web resources, see [Web resources for Customer Engagement](../developer/web-resources.md).
 
 
 <a name="BKMK_WhatAreWebResources"></a>   
