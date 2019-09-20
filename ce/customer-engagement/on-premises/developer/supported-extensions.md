@@ -38,7 +38,7 @@ You can customize [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-
   
 - **Customization in the web application**. For more information, see the [Customization Guide (Dynamics 365 Customer Engagement (on-premises))](../customize/overview.md).  
   
-- **Settings in the web application**. For more information, see  [Administer Dynamics 365 Customer Engagement (on-premises)](../admin/admin-guide.md).  
+- **Settings in the web application**. For more information, see  [Administer Dynamics 365 Customer Engagement (on-premises)](../admin/overview.md).  
   
 - **Reporting Services**. For more information, see [Reporting and Analytics Guide (Dynamics 365 Customer Engagement (on-premises))](../analytics/reporting-analytics-with-dynamics-365.md).  
   
