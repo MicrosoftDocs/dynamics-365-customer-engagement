@@ -46,7 +46,7 @@ You can create XAML workflows for on-premises Dynamics 365 Customer Engagement (
 
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 > [!NOTE]
->  You cannot view or update a workflow definition for a workflow that was created or modified outside of Dynamics 365 Customer Engagement (on-premises). You can only change the state (activate or deactivate) of the workflow, and run it. XAML workflows aren’t supported in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+>  You cannot view or update a workflow definition for a workflow that was created or modified outside of Dynamics 365 Customer Engagement (on-premises). You can only change the state (activate or deactivate) of the workflow, and run it.   
 
 <a name="bkmk_differences"></a>
 
