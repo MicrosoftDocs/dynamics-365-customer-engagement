@@ -139,7 +139,7 @@ search.app:
 - [Integrate Dynamics 365 Customer Engagement (on-premises) with OneNote](integration-dev/integrate-onenote.md)  
   
   Cross-platform mobile applications  
-  [User Guide (Dynamics 365 for phones and tablets)](../mobile-app/dynamics-365-phones-tablets-users-guide.md)
+  [User Guide (Dynamics 365 for phones and tablets)](../../mobile-app/dynamics-365-phones-tablets-users-guide.md)
   
   Business intelligence  
   [Use Power BI with Dynamics 365 Customer Engagement (on-premises)](../admin/use-power-bi.md)  
