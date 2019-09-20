@@ -55,6 +55,5 @@ This topic will record significant incremental changes to the SDK content for th
 [Manage your deployment of Customer Engagement (on-premises)](manage-deployment.md)<br />
 [Sample code directory for Customer Engagement (on-premises) SDK](sample-code-directory.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement (on-premises)](programming-reference.md)<br />
-[Connected Field Service Developer Guide](connected-field-service-developer-guide.md)<br />
-[Online Management API for Dynamics 365 Customer Engagement (on-premises)](online-management-api.md)
+
 
