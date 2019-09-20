@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] 
 
-For Dynamics 365 Customer Engagement (on-premises) on-premises (including IFD) deployments, the asynchronous service can be stopped and restarted by using the Services administrative tool. The service should be stopped before a plug-in assembly that contains asynchronous plug-ins is deleted.  
+For Dynamics 365 Customer Engagement (on-premises) (including IFD) deployments, the asynchronous service can be stopped and restarted by using the Services administrative tool. The service should be stopped before a plug-in assembly that contains asynchronous plug-ins is deleted.  
   
 ### Stop and restart the service  
   
