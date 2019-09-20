@@ -23,7 +23,7 @@ search.app:
 
 
 
-With [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you can design once and deploy everywhere. Customizations you make to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system appear in the Dynamics 365 for phones and tablets apps as well as in the web app. Your changes are optimized in the mobile apps so they display properly. Choose one of the following or scroll down to see the types of changes you can make, and how they might display differently in the mobile apps than the web app.  
+With Dynamics 365 Customer Engagement (on-premises), you can design once and deploy everywhere. Customizations you make to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system appear in the Dynamics 365 for phones and tablets apps as well as in the web app. Your changes are optimized in the mobile apps so they display properly. Choose one of the following or scroll down to see the types of changes you can make, and how they might display differently in the mobile apps than the web app.  
 
  The latest version of the phone app, [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)], provides the same full-featured experience as the [!INCLUDE[pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)] app. It has the same intuitive user interface (adapted for phones), as well as offline capabilities. 
 

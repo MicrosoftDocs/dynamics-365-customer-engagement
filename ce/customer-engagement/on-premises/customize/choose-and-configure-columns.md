@@ -131,7 +131,7 @@ search.app:
 
 ## Community tools
 
-**View Layout Replicator** and **View Designer** are tools provided by the XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. See the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
+**View Layout Replicator** and **View Designer** are tools provided by the XrmToolbox community developed for Dynamics 365 Customer Engagement (on-premises). See the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
