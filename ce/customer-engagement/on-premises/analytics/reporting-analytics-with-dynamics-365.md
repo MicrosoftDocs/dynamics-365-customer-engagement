@@ -23,7 +23,7 @@ search.app:
   - D365CE
 ---
 # Reporting and Analytics Guide for Common Data Service and Dynamics 365 Customer Engagement (on-premises)
-Common Data Service and Microsoft Dynamics 365 Customer Engagement (on-premises) includes reports, dashboards, and support for [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-office-365-long.md)] that provides useful business information and visualizations to the user.  
+Common Data Service and Microsoft Dynamics 365 Customer Engagement (on-premises) includes reports, charts, and dashboards that provide useful business information and visualizations to the user.  
   
  ## Paginated reports  
   
@@ -35,10 +35,12 @@ Common Data Service and Customer Engagement (on-premises) apps includes a Report
   
  There are two types of dashboards in Common Data Service and Customer Engagement (on-premises)—user dashboards and system dashboards. Any user can create a dashboard visible only to them in their work area, such as Sales, Service, or Marketing.  An administrator or customizer creates or customizes system dashboards that, when published, are visible to everyone in the organization. A user can choose to set their user dashboard as their default dashboard and override the system dashboard. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customize/create-edit-dashboards.md)  
   
+<!--  
  ## [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)]  
   
  [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] is a self-service business intelligence (BI) platform used to discover, analyze, visualize data, and share or collaborate these insights with colleagues. [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] provides information workers and everyday business users with excellent data analysis and visualization capabilities to get better business insights. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Power BI with Dynamics 365 Customer Engagement (on-premises)](../admin/use-power-bi.md)  
-  
+ 
+
  There are several ways you can use [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps:  
   
 - Load a content pack and start using the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] service to display Common Data Service and Dynamics 365 apps insights.  
@@ -49,4 +51,4 @@ Common Data Service and Customer Engagement (on-premises) apps includes a Report
   
 - Use [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] and [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] together.  
   
-
+-->
