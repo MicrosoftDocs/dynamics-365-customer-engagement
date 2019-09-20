@@ -1,7 +1,7 @@
 ---
 title: "Connect Customer Engagement to Yammer | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/02/2018
+ms.date: 09/18/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -88,38 +88,10 @@ search.app:
 4. Confirm the activation, and then choose **More Commands (…)** > **Publish All Customizations**  
   
 ## What triggers automatic posts to the Yammer newsfeed?  
- The record types and rules in the following list can be enabled to trigger a [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] post automatically. Record types that are enabled by default are marked “Yes.” If you want to enable an entity or rule type, make sure that the entity or rule is activated and that the types of auto-posts you want are enabled.  
-  
-|Post Entity Id|Name|Enabled to Post Automatically|  
-|--------------------|----------|-----------------------------------|  
-|Case|New Case for an Account|Yes|  
-|Case|New Case for a Contact|Yes|  
-|Case|Case Closed for an Account||  
-|Case|Case closed for a Contact||  
-|Case|Case Assigned to User/Team||  
-|Case|Case Routed to Queue||  
-|Lead|New Lead created||  
-|Lead|A Lead has been qualified||  
-|Opportunity|New opportunity for an Account|Yes|  
-|Opportunity|New opportunity for a Contact|Yes|  
-|Opportunity|Probability for an Opportunity Updated for an account||  
-|Opportunity|Probability for an Opportunity Updated for a contact||  
-|Opportunity|Opportunity Won for an Account|Yes|  
-|Opportunity|Opportunity Won for a Contact|Yes|  
-|Opportunity|Opportunity Lost for an Account||  
-|Opportunity|Opportunity Lost for a Contact||  
-|Account|New Account Created|Yes|  
-|Contact|New Contact Created||  
-|Competitor|New Competitor Created|Yes|  
-  
- When you have [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] set up, keep these things in mind:  
-  
-- All user posts (conversations) are stored in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], not in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
-  
-- All system posts are stored in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
-  
-- If the Post to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] Activity Stream rule (or posttoyammer attribute) is set to True in Post Rules Configuration, that activity will post to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)].  
-  
+
+> [!IMPORTANT]
+> As of June 26, 2018, Yammer deprecated the Activity stream and its related APIs so auto-posts can no longer be enabled. For more information, see [Open Graph Actions & Activity stories](https://developer.yammer.com/blog/open-graph-actions-activity-stories).
+
 ## Additional considerations  
   
 ### When connecting Dynamics 365 for Customer Engagement apps with a federated Yammer  

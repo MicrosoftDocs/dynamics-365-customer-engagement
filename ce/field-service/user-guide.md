@@ -2,7 +2,7 @@
 title: "User Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 07/12/2019
+ms.date: 09/12/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -34,7 +34,9 @@ Before we begin, here are the top places for information about Field Service:
 
 - [Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-field-service): Here you will find guided videos and courses.
 
-- [Field Service YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X): This includes concept videos for Field Service.
+- [YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X): This includes concept videos for Field Service.
+
+- [Video tutorials](https://aka.ms/fs-videos): Step by step video tutorials for work orders, scheduling, and more.
 
 - [Ideas](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service): This is the portal where you can contribute product feedback and ideas.
 
@@ -57,17 +59,11 @@ The purpose of this section is to understand what Dynamics 365 for Field Service
 - [![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://youtu.be/A1qpoi0EYWU) [Provide proactive maintenance with Dynamics 365 for Field Service](https://youtu.be/A1qpoi0EYWU)
 
 ### Customer Stories
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol")[Christensen Farms – Industrial Farming](https://www.youtube.com/watch?v=YlI0CdSV4hk&feature=youtu.be)
-	
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Climatec – Facilities Management](https://www.youtube.com/watch?v=KZbvivXBb6Y&feature=youtu.be)
-
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Navco – Safety and Security](https://www.youtube.com/watch?v=ILRl-MvlkhM&feature=youtu.be)
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sodexo – Facilities Management](https://youtu.be/awSwCtgZvXE)
 
 - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [DMS Health Technologies – Health Services](https://www.youtube.com/watch?v=-H4wwuOfdOg&feature=youtu.be)
 
 - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Yougenio Italy – Facilities Management](https://www.youtube.com/watch?v=URZueU-eFvo)
-
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Michelin – Auto Services](https://www.youtube.com/watch?v=_vJS2Knz-cQ)
 
 - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sandvik Coromant](https://www.youtube.com/watch?v=Oq6z3UALoYI)
 
