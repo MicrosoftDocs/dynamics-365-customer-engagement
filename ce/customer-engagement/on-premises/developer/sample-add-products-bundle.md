@@ -8,8 +8,6 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples
-applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 58197c02-43e2-4856-bf81-a37b32953b90
 caps.latest.revision: 9
 author: KumarVivek

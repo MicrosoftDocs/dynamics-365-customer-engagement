@@ -8,8 +8,6 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - sales literature entities, sales literature items and attachments
   - file attachments, see 'sales literature entities'
