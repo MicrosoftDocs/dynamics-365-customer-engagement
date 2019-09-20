@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Sample server XML configuration file for installing with pre-created groups
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 By default, Setup creates four [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] security groups that are used by [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. You can create these groups in advance and then provide the information for the groups in the Setup configuration file.  
   

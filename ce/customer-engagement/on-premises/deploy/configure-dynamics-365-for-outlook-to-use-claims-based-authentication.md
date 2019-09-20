@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Configure Microsoft Dynamics 365 for Outlook to use claims-based authentication
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 In an environment that supports claims-based authentication, a client (such as [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]) can use federated [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] to connect to the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]. The client obtains credentials through federated [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] and uses these credentials to be authenticated on the same or a different [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain to connect to the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
   

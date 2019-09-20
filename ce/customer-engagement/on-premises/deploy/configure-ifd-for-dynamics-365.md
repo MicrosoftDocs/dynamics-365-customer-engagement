@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Configure IFD for Dynamics 365 Customer Engagement (on-premises)
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] uses claims-based authentication to authenticate internal users and to enable Internet access for external users not using VPN.  
   

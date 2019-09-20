@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Upgrade an organization
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can upgrade organizations from earlier versions of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] on-premises by using [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] to import them into the new deployment.  
   

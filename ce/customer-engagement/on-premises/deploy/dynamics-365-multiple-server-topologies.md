@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Support for Dynamics 365 Customer Engagement (on-premises) multiple-server topologies
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This section provides examples of various multiple-server topologies.  
   

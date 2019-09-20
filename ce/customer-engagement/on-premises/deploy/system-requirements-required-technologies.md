@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Microsoft Dynamics 365 Customer Engagement (on-premises) system requirements and required technologies
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] version requires the following software:  
   

@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Uninstall or repair Dynamics 365 Report Authoring Extension
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 To perform Dynamics 365 Report Authoring Extension maintenance, select from the following options. Before you select an option, you must start **Programs and Features** in [!INCLUDE[pn_Control_Panel](../includes/pn-control-panel.md)].  
   

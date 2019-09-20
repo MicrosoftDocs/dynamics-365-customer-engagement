@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Dynamics 365 Customer Engagement (on-premises) data protection and recovery
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This section explains the options available and provides instructions for data back up and failure recovery. For more information, see these topics. 
 - [Dynamics 365 VSS writer service](microsoft-dynamics-365-vss-writer-service.md)

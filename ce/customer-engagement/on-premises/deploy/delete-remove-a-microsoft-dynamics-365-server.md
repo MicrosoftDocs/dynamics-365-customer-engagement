@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Delete (remove) a Microsoft Dynamics 365 Server
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 To delete a [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] from a deployment, use the **Servers** area. However, before you can delete a server, you must disable it.  
   

@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Dynamics 365 Customer Engagement (on-premises) multiple-server deployment
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] deployments can include multiple servers, which provide additional performance and scaling benefits.   
   

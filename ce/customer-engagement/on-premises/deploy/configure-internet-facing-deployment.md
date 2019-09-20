@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Configure a Dynamics 365 Customer Engagement (on-premises) Internet-facing deployment
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can deploy [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] so that remote users can connect to the application through the Internet. The following [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)] configurations are supported:  
   

@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Install Microsoft Dynamics 365 Report Authoring Extension using a command prompt
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 From a command prompt, you can use the following command to install Dynamics 365 Report Authoring Extension:  
   

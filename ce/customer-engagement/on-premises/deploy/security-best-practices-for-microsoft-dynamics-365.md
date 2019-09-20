@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Security best practices for Dynamics 365 Customer Engagement (on-premises)
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] is a mature web service that is included with [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)]. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] depends on an efficient and secure [!INCLUDE[pn_iis](../includes/pn-iis.md)] web service. Consider the following:  
   

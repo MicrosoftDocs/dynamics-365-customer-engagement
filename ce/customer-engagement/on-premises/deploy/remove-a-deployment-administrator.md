@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Remove a Deployment Administrator
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can remove a person from the [!INCLUDE[pn_Deployment_Administrator](../includes/pn-deployment-administrator.md)] role.  
   

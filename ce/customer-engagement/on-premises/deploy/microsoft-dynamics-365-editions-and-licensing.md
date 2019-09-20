@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Microsoft Dynamics 365 Customer Engagement (on-premises) editions and licensing
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] offers a licensing option that scales from small, to mid-level, to very large deployments.  
   

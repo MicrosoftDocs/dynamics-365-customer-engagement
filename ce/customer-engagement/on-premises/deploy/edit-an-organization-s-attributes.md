@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Edit an organization's attributes
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Before you can edit an organization, you must disable it. After you make the changes, re-enable the organization.  
   

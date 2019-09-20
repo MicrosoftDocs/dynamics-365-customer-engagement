@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Microsoft Dynamics 365 Server installation
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This section covers procedures to install [!INCLUDE [pn-microsoftcrm-server](../includes/pn-microsoftcrm-server.md)] on a computer that doesn’t already have [!INCLUDE [pn-microsoftcrm-server](../includes/pn-microsoftcrm-server.md)] installed.  
   

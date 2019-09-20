@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Troubleshoot organization import and upgrade issues
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 If you encounter any issues during organization import and upgrade, here are some tips for troubleshooting them:  
   

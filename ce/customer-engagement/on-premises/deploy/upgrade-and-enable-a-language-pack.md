@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Upgrade and enable a Language Pack
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 After you upgrade [!INCLUDE[pn_crm_2015_server](../includes/pn-crm-2015-server.md)], if you had [!INCLUDE[pn_crm_legacy](../includes/pn-crm-legacy.md)][!INCLUDE[cc_Language_Packs_short](../includes/cc-language-packs-short.md)] installed you should install new [!INCLUDE[cc_Language_Packs_short](../includes/cc-language-packs-short.md)] that correspond to the new version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]. Then, enable the [!INCLUDE[cc_Language_Packs_short](../includes/cc-language-packs-short.md)] so they are available to users after the upgrade.  
   

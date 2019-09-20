@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Manage servers
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can do the following actions in the **Servers** area of [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)]:  
   

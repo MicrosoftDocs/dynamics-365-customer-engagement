@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Sample Dynamics 365 Report Authoring Extension XML configuration file
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The following XML configuration contents will install [!INCLUDE[pn_crm_fetch_extension_short](../includes/pn-crm-fetch-extension-short.md)] that will opt-in to use [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)], search and apply existing updates, and install [!INCLUDE[pn_crm_fetch_extension_short](../includes/pn-crm-fetch-extension-short.md)] in the C:\Program Files (x86)\Not default Report Authoring Extension folder. By default, Setup installs in the `<drive>:\Program Files (x86)\Microsoft Dynamics CRM Report Authoring Extension` folder.  
   

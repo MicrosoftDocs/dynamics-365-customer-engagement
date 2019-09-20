@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Disable an Internet-facing deployment
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
   
 Disable an  [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)] in one of two ways:  

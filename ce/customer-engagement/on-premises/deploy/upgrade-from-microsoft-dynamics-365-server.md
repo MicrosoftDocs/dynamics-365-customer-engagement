@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Upgrade Dynamics 365 Server
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This section shows you how to run the actual in-place upgrade on Dynamics 365 Server with December 2016 Service Pack for Dynamics 365 (on-premises). If you encounter problems during the upgrade, see [Troubleshooting installation and upgrade](troubleshooting-installation-and-upgrade.md) in this guide.  
   

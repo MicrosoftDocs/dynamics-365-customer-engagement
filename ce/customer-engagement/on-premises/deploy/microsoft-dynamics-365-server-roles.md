@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Microsoft Dynamics 365 Server roles
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 With [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)], you can install specific server functionality, components, and services on different computers. These components and services correspond to specific server roles. For example, customers who have larger user bases can install the Front End Server role on two or more servers that run [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] to increase throughput performance for users. Or, a Full Server role can be installed on one computer and [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] on another. If a server role is missing, [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] displays a message in the **Messages** area.  
   

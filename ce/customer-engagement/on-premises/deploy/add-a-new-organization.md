@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Add a new organization
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can add a new organization in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment in the Organizations node of [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)].  
   

@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Manage organizations
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Use the **Organizations** page to view, change, add, enable, disable, and import organizations for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   

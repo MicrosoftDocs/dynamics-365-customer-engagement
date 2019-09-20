@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Sample Dynamics 365 Reporting Extensions XML configuration file
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The following XML configuration sample will search, and if found download and apply, updates to Setup. It will optin to [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)],  then look for the  configuration database on a [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] named `SQLServer` and install the [!INCLUDE[pn_Microsoft_Dynamics_CRM_Reporting_Extensions_legacy](../includes/pn-microsoft-dynamics-crm-reporting-extensions-legacy.md)] on the local [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] instance that is named `SQLReportServerInstance`. Additionally, [!INCLUDE[pn_Setup](../includes/pn-setup.md)] will add or remove any members to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] related security groups in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] directory service as needed and install the monitoring service configured for an existing domain user account named *CRMMonitoringService*.  
   

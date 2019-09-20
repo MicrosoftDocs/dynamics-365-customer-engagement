@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Monitoring and troubleshooting Dynamics 365 Customer Engagement (on-premises)
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Administrators can use the information in this section to monitor and troubleshoot issues with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   

@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Dynamics 365 Customer Engagement (on-premises) database maintenance
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 A [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment consists of the following databases:  
   

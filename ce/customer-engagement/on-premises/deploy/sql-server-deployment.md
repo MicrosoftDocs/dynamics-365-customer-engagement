@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # SQL Server deployment
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 If your organization uses [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] for applications other than [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], performance may degrade as resources are consumed by other applications. If you use a computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that is used for other applications, you must carefully analyze the effect that [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] will have on the existing installation of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]. For information about monitoring [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], see [Performance Monitoring and Tuning Tools](/sql/relational-databases/performance/performance-monitoring-and-tuning-tools?view=sql-server-2017).  
   

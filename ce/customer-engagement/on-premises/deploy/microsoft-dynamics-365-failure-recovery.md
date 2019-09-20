@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Dynamics 365 Customer Engagement (on-premises) failure recovery
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 To understand failure recovery, you must examine different scenarios to learn how restoration occurs in each case. For each scenario in this section, total server failure is assumed. The following scenarios contain information that shows the steps to ensure successful recovery of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]:  
   

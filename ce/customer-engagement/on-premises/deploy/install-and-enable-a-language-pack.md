@@ -18,7 +18,7 @@ manager: kvivek
 ---
 # Install and enable a Language Pack
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Follow the procedures in this topic to install a [!INCLUDE[pn_Microsoft_Dynamics_CRM_Language_Pack](../includes/pn-microsoft-dynamics-crm-language-pack.md)].  
   

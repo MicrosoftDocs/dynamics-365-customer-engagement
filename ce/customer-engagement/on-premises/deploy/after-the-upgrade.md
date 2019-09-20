@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # After the upgrade
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 After Setup completes the upgrade, perform the following tasks.  
   

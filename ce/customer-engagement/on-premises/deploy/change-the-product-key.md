@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Change the product key
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The **Change Product Key** dialog box lets you change the product key.  
   

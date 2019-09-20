@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Add a new Deployment Administrator
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can grant or remove the [!INCLUDE[pn_Deployment_Administrator](../includes/pn-deployment-administrator.md)] role in the **Deployment Administrators** node in [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)].  
   

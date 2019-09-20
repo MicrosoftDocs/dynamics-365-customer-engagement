@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Disable or enable an organization
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Use the **Organizations** page to disable or enable an organization. It is a best practice to disable an organization temporarily when you perform database maintenance.  
   

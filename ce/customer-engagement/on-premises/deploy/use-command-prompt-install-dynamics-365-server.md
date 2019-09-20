@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Use the command prompt to install Dynamics 365 Customer Engagement (on-premises) 
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can install Dynamics 365 Server and Dynamics 365 Reporting Extensions from their respective installation media location by using the command prompt. The required setup information is provided to the Setup program both as command-line parameters and as an XML configuration file that the Setup program references.  
   

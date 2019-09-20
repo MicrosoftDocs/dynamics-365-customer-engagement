@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Microsoft Dynamics 365 Reporting Extensions XML configuration file
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Before you run [!INCLUDE[pn_Microsoft_Dynamics_CRM_Reporting_Extensions_Setup](../includes/pn-microsoft-dynamics-crm-reporting-extensions-setup.md)] at a command prompt, you must modify the XML configuration file to include information, such as the name of the computer where the configuration database is located. A sample Dynamics 365 Reporting Extensions configuration file named **install-config.xml** is located in the SrsDataConnector folder on the installation media or download location of the Dynamics 365 Customer Engagement (on-premises) installation files.  
   

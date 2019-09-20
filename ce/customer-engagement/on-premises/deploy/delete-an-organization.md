@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Delete an organization
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Before you can delete an organization, you must disable it. [Disable or enable an organization](disable-or-enable-an-organization.md) 
   

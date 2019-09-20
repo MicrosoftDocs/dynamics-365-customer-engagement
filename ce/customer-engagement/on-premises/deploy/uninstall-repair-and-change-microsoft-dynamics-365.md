@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Uninstall, repair, and change Dynamics 365 Customer Engagement (on-premises)
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This section describes how to uninstall, repair, or change [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Uninstalling [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], purging the computer system of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data, and making system changes involves a series of automated and manual procedures. These procedures involve working in the following areas:  
   

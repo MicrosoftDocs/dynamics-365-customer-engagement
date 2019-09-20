@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Connect Dynamics 365 Customer Engagement (on-premises) to Exchange Online
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This topic describes how to configure server-based authentication between Dynamics 365 (on-premises) and Exchange Online. The diagram below illustrates the communication between Dynamics 365 (on-premises), Azure Active Directory, and Exchange Online.
 

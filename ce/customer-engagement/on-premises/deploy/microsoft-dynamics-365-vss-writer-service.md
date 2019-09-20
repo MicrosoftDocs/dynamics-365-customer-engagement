@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Dynamics 365 VSS writer service
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Volume Shadow Copy Service (VSS) Writer Service provides added functionality for backing up and restoring [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases through the VSS framework.  
   

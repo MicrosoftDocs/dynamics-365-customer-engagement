@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Plan your upgrade to Microsoft Dynamics 365 Server
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This section provides guidelines for preparing for an upgrade to [!INCLUDE [pn-dynamics-365-server-v-90](../includes/pn-dynamics-365-server-v-90.md)]. Performing these tasks in advance can help minimize system downtime and ensure a successful upgrade. Also, this section describes how [!INCLUDE [pn-dynamics-365-server-v-90](../includes/pn-dynamics-365-server-v-90.md)] upgrades your current system and what happens to items such as existing reports, customizations, and solutions.  
   

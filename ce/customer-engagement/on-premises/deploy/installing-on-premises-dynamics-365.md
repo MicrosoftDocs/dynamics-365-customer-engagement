@@ -18,7 +18,7 @@ manager: kvivek
 ---
 # Installing Dynamics 365 Customer Engagement (on-premises) (on-premises)
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 IT professionals and Dynamics 365 Customer Engagement (on-premises) administrators can use the resources and topics in this guide to help them install and configure on-premises deployments of Dynamics 365 Customer Engagement (on-premises).  
 

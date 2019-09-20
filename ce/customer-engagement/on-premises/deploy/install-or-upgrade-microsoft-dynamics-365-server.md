@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Install or upgrade Microsoft Dynamics 365 Server
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This section explains how to install [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].   
   

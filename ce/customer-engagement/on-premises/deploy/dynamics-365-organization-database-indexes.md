@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Dynamics 365 Customer Engagement (on-premises) organization database indexes
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The indexes that are created in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization database are designed to provide fast retrieval of commonly requested data from tables and views stored on a [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)]. Here are a few characteristics for the indexes that are created in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization database.  
   

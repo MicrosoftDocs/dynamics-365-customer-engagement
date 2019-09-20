@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Configure claims-based authentication
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The claims-based security model extends traditional authentication models to include other directory sources that contain information about users. This identity federation lets users from various sources—such as [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] Domain Services, customers through the internet, or business partners—use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   

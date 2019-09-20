@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Deployment Administrators
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 To run [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)], you must have the [!INCLUDE[pn_Deployment_Administrator](../includes/pn-deployment-administrator.md)] role. Deployment Administrators have unrestricted access to perform [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] tasks on all organizations and servers in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment.  
   

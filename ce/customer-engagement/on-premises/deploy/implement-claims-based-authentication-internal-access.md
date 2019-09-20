@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Implement claims-based authentication: internal access
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Enabling claims-based authentication for internal access to [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] data involves the following steps:  
   

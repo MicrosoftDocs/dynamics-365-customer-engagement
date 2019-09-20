@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Administration best practices for on-premises deployments of Dynamics 365 Customer Engagement (on-premises)
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 By following some simple rules of administration, you can significantly improve the security of your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] on-premises deployment.  
   

@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Operating Dynamics 365 Customer Engagement (on-premises) (on-premises)
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 As you administer [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you’ll want to guarantee availability for your users by monitoring server status and performance, troubleshooting issues, and planning for disaster recovery.  
   

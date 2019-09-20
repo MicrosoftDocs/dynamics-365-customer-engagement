@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Security considerations for Dynamics 365 Customer Engagement (on-premises)
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is designed in a way that helps make your deployment more secure. This section provides information and best practices for the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Overview of security for Microsoft Dynamics 365](../admin/security-concepts.md)  
   

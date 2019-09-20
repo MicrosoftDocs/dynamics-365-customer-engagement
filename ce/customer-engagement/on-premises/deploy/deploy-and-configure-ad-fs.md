@@ -18,7 +18,7 @@ manager: kvivek
 ---
 # Deploy and configure AD FS
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 A variety of identity providers can be used with [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]. This document uses Active Directory Federation Services ([!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)]) for the security token service. For information on configuring identity federation deployment between [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] and other identity providers, see: [AD FS 2.0 Step-by-Step and How To Guides](https://technet.microsoft.com/library/adfs2-step-by-step-guides\(WS.10\).aspx).  
   

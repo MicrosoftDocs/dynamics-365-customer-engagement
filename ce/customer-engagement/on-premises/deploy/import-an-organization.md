@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Import an organization
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can import an existing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization with the Import Organization Wizard. You can use this wizard when you move [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] to another computer. Use the Import Organization Wizard to import an organization from any domain in the [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] directory service forest.  
   

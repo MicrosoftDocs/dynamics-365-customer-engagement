@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Back up the Dynamics 365 Customer Engagement (on-premises) system
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 To recover from any scenario, you must back up all needed information and store a copy off site. A backup plan should be created and rehearsed for all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] components and services to make sure that, if a disk or other failure occurs, the maximum amount of data is recoverable.  
   

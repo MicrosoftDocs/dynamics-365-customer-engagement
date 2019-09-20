@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Update an organization
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 When you update the organizations in your deployment, disabled organizations can’t be updated until they are enabled. In the list of organizations in the details pane for the disabled organization, the **Update** column will show that an update is **Available**.  
   

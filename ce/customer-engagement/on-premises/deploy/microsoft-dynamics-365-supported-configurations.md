@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Dynamics 365 Customer Engagement (on-premises) supported configurations
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The deployment architecture you will use depends on your business needs. Examples are provided here for planning a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment on four representative computer system architectures: a single-computer server deployment, a two-server deployment, a five-server deployment, and a multiple-server deployment involving a minimum of six servers. These deployments are discussed in detail in [Microsoft Dynamics CRM 2011 supported configurations](microsoft-dynamics-365-supported-configurations.md).  
   

@@ -18,7 +18,7 @@ manager: kvivek
 ---
 # Microsoft Dynamics 365 Server hardware requirements
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The following table lists the minimum and recommended hardware requirements for this version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] running in a Full Server configuration. These requirements assume that additional components such as [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)], [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)], [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)], or [!INCLUDE[pn_Exchange_Server_full](../includes/pn-exchange-server-full.md)] aren’t installed or running on the system.  
   

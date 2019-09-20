@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Exporting and importing customizations and solutions
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The Solutions feature can be used to export all unmanaged solution customizations such as modified forms, views, and mappings. Later, the solution customization can be imported to the same organization or a different organization. For example, you can export a solution from an on-premises deployment of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and then import it into a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organization.  
   

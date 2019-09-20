@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Dynamics 365 Customer Engagement (on-premises) deployment properties
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** dialog box displays information about the deployment and lets you specify settings for Web Address, License, and Usage Reporting.  
   

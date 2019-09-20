@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Configure the AD FS server for claims-based authentication
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 After enabling claims-based authentication, the next step is to add and configure the claims provider and relying party trusts in [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)].  
   

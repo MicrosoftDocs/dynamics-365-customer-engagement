@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Hardware requirements
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Depending on how you plan to deploy the system, as a single-server solution, a multiple-server solution, or a clustered solution, the computer hardware that [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and components will run on is important for acceptable application performance.  
   

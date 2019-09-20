@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Install Dynamics 365 Server Front End Server and Back End Server roles
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The following procedure installs [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[Front_End_Server](../includes/front-end-server.md)] and [!INCLUDE[Back_End_Server](../includes/back-end-server.md)] roles on two separate servers that do not already have [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]  installed. We recommend this configuration instead of a single Full Server deployment because it helps improve security and performance by isolating specific [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] services on each computer. As part of this procedure, the [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] are installed on the server where the [!INCLUDE[Back_End_Server](../includes/back-end-server.md)] roles are installed, and the [!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] are installed on the server where the [!INCLUDE[Front_End_Server](../includes/front-end-server.md)] roles are installed. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Server roles](microsoft-dynamics-365-server-roles.md)  -->
   
