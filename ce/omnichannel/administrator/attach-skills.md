@@ -61,7 +61,7 @@ Understand how the exact skill matching works for single or multiple skill scena
 
 ### Closest skill matching
 
-In the exact skill matching, the skill attachment logic identifies the skills and proficiency level that an agent should have to work on the conversation. Next, the work distribution system searches for an agent with the required skills and proficiency level. The skill attachment logic identified proficiency level is set as minimum criteria while searching for the agents, and when the system finds an agent with the necessary skill and proficiency level, it assigns the conversation to that agent.
+In the closest skill matching, the skill attachment logic identifies the skills and proficiency level that an agent should have to work on the conversation. Next, the work distribution system searches for an agent with the required skills and proficiency level. The skill attachment logic identified proficiency level is set as minimum criteria while searching for the agents, and when the system finds an agent with the necessary skill and proficiency level, it assigns the conversation to that agent.
 
 **For single skill scenario:**
 
