@@ -41,7 +41,35 @@ This topic describes how to add action calls, events, window navigation rule, an
 
 3. Select **Unified Service Desk Administrator**.
 
-4. Select **Toolbars** and then select **+ New**.
+4. Select **Toolbars** and then select **Omnichannel ToolbarStrip** from the list.
+
+5. Select **Search Icon** from the **Buttons** section.
+
+6. Select the **Related** tab and then select **Toolbar Buttons**.
+
+7. Select **+ New Toolbar Button**.
+
+8. Specify the following in the **New Toolbar Button** page.
+
+    | Tab | Field | Value |
+    |-----------|--------------------|----------------------|
+    | General | Name | Search |
+    | General | Image | new_omnisearch_icon |
+    | General | Button Text | [[$Resources.AgentSessionSearchPageHCDisplayName]] |
+    | General | Order | 101 |
+    | Condition | Visible Condition | "\[\[$Session.IsGlobal\]\]" == "False" && "\[\[$Context.ISENTITYSESSION\]+\]" != "True" |
+
+9. Select **Save** to save toolbar button. After you the save, the **Actions** section appears.
+
+10. Select **Add Existing Action Call** in the **Actions** section. The **Lookup Records** pane appears.
+
+11. Type the name of the action in the search box and select it from the results. Type the following action calls
+    - Load Agent Session Search Page
+    - Focus on search
+
+    Now, select **Add**.
+
+12. Select **Save** to save the changes.
 
 
 > [!div class="nextstepaction"]
