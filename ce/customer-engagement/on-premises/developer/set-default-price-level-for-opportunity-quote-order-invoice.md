@@ -36,7 +36,7 @@ You can automatically set a default price level (price list) for an opportunity,
   
 - The user has permission on the price level that is associated with the territory by using the **Territory Default Pricelist** connection role.  
   
-  [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] internally uses the <xref:Microsoft.Crm.Sdk.Messages.GetDefaultPriceLevelRequest> message to determine the default price level for an opportunity, quote, order, or invoice based on the current user and the territory relationship with the price level. This is how the price level is set:  
+  Dynamics 365 internally uses the <xref:Microsoft.Crm.Sdk.Messages.GetDefaultPriceLevelRequest> message to determine the default price level for an opportunity, quote, order, or invoice based on the current user and the territory relationship with the price level. This is how the price level is set:  
   
 - If a single price level is returned, the price level is automatically set for the opportunity, quote, order, or invoice record that the user is creating or updating.  
   
@@ -44,7 +44,7 @@ You can automatically set a default price level (price list) for an opportunity,
   
 <a name="Disable"></a>   
 ## Disable automatic selection of default price level  
- You can turn off the automatic selection of a default price level for your opportunity, quote, order, or invoice by setting the value of the `Organization.UseInbuiltRuleForDefaultPriceSelectionRule` attribute to 0 (`false`), or by using the **Sales** tab in the system settings area in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure product catalog information](http://go.microsoft.com/fwlink/p/?LinkId=512492)  
+ You can turn off the automatic selection of a default price level for your opportunity, quote, order, or invoice by setting the value of the `Organization.UseInbuiltRuleForDefaultPriceSelectionRule` attribute to 0 (`false`), or by using the **Sales** tab in the system settings area in Dynamics 365 or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure product catalog information](http://go.microsoft.com/fwlink/p/?LinkId=512492)  
   
 <a name="Extend"></a>   
 ## Extend default price level selection  

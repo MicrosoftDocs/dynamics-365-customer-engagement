@@ -22,7 +22,7 @@ search.app:
 ---
 # Sample: Create and publish products
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Product Catalog samples](https://code.msdn.microsoft.com/Product-Catalog-Samples-5766194b).    
+This sample code is for Dynamics 365 Customer Engagement(on-premises). [Download the Product Catalog samples](https://code.msdn.microsoft.com/Product-Catalog-Samples-5766194b).    
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
