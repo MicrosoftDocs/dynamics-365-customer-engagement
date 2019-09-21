@@ -23,7 +23,7 @@ search.app:
 
 # Entities, metadata, and the metadata browser
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This topic looks at metadata and how you can use it to create Dynamics 365 Customer Engagement (on-premises) or customize an existing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] app.  
 
@@ -127,7 +127,7 @@ You can perform the following actions:
 
 <a name="BKMK_LimitationsOnMetadata"></a>   
 ## Limitations on creating metadata items  
- There is a limit to the number of entities you can create. You can find information about the maximum number in the **Resources In Use** page. If you need more custom entities, contact [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps technical support. This upper limit can be adjusted.  
+ There is a limit to the number of entities you can create. You can find information about the maximum number in the **Resources In Use** page. If you need more custom entities, contact Dynamics 365 Customer Engagement (on-premises) technical support. This upper limit can be adjusted.  
 
  Within each entity there is an upper limit on the number of fields you can create. This limit is based on the technical limitations on the amount of data that can be stored in a row of a database table. It is difficult to provide a specific number because each type of field can use a different amount of space. The upper limit depends on the total space used by all the fields for the entity.  
 

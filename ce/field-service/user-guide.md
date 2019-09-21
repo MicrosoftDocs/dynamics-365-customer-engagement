@@ -59,17 +59,11 @@ The purpose of this section is to understand what Dynamics 365 for Field Service
 - [![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://youtu.be/A1qpoi0EYWU) [Provide proactive maintenance with Dynamics 365 for Field Service](https://youtu.be/A1qpoi0EYWU)
 
 ### Customer Stories
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol")[Christensen Farms – Industrial Farming](https://www.youtube.com/watch?v=YlI0CdSV4hk&feature=youtu.be)
-	
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Climatec – Facilities Management](https://www.youtube.com/watch?v=KZbvivXBb6Y&feature=youtu.be)
-
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Navco – Safety and Security](https://www.youtube.com/watch?v=ILRl-MvlkhM&feature=youtu.be)
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sodexo – Facilities Management](https://youtu.be/awSwCtgZvXE)
 
 - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [DMS Health Technologies – Health Services](https://www.youtube.com/watch?v=-H4wwuOfdOg&feature=youtu.be)
 
 - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Yougenio Italy – Facilities Management](https://www.youtube.com/watch?v=URZueU-eFvo)
-
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Michelin – Auto Services](https://www.youtube.com/watch?v=_vJS2Knz-cQ)
 
 - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sandvik Coromant](https://www.youtube.com/watch?v=Oq6z3UALoYI)
 

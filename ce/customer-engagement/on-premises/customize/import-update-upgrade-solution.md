@@ -23,7 +23,7 @@ search.app:
 ---
 # Import, update, and upgrade a solution  
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This topic describes how to import, update, and upgrade a solution. 
 

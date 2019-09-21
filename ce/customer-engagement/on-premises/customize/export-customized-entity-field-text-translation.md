@@ -23,7 +23,7 @@ search.app:
 ---
 # Translate customized entity and field text into other languages
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 After you create customized entity and field text, you may want to translate it into other languages.  
   
@@ -39,7 +39,7 @@ After you create customized entity and field text, you may want to translate it 
 
 ## Community tools
 
-[Easy Translator](https://www.xrmtoolbox.com/plugins/MsCrmTools.Translator/) is a tool that XrmToolBox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Use Easy Translator to export and import translations with contextual information. 
+[Easy Translator](https://www.xrmtoolbox.com/plugins/MsCrmTools.Translator/) is a tool that XrmToolBox community developed for Dynamics 365 Customer Engagement (on-premises). Use Easy Translator to export and import translations with contextual information. 
 
 > [!NOTE]
 > The community tools are not supported by [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)]. 

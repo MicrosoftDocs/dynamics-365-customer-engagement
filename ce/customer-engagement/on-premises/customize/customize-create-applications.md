@@ -22,11 +22,11 @@ search.app:
 
 # Customize or create apps
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This section describes how to create apps and the components that you include in an app such as forms, views, charts, and dashboards.
 
-[!INCLUDE [cds-platform-note-for-on-premises](../includes/cds-platform-note-for-on-premises.md)]
+
 
 ### See also
 [Design custom business apps by using the app designer](design-custom-business-apps-using-app-designer.md)

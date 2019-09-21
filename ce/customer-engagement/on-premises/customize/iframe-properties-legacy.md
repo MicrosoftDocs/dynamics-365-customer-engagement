@@ -19,7 +19,7 @@ search.app:
 ---
 # iFrame properties
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can add iFrames to a form to integrate content from another website within a form. 
 

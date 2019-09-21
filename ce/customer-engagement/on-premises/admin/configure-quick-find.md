@@ -17,7 +17,7 @@ queries to commonly-searched entities. You can tailor the Quick Find
 functionality by selecting record return limits, an indexing method, and which
 entities are included.
 
-## Choose the method used for Quick Find indexing**
+## Choose the method used for Quick Find indexing
 
 By default, Customer Engagement (on-premises) uses the same search functionality as in
 previous releases, which is based mostly on string matches.
@@ -93,13 +93,13 @@ Index creation is a background process, so for large amounts of data serviced by
 busy SQL Servers, it can take several hours to multiple days for the full-text
 indexes to fully complete.
 
-## Enable or disable full-text indexing for Quick Find**
+## Enable or disable full-text indexing for Quick Find
 
 Before you enable or disable full-text indexing for Quick Find, review the
 preceding **What system administrators should consider before enabling or
 disabling full-text indexing** section.
 
 1.  Go to **Settings** \> **Administration** \> **System Settings**
-    \>**General** tab.
+    \> **General** tab.
 
 2.  Select **Yes** or **No** next to **Enable full-text search for Quick Find**.

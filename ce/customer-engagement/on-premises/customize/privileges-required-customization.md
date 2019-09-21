@@ -22,7 +22,7 @@ search.app:
 ---
 # Privileges required for customization
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
+ 
 
 App users can personalize the system and even share some of their customizations with others, but only users with the correct privileges can apply changes for everyone.  
   

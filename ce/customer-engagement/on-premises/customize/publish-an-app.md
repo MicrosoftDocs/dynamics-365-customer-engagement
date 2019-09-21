@@ -26,7 +26,7 @@ search.app:
 
 # Publish an app using the app designer
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Publish an app to make it available to users.  
   

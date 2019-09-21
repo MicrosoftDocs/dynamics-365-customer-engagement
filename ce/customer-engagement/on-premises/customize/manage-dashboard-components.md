@@ -21,7 +21,7 @@ search.app:
 ---
 # Manage dashboard components
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can create and design dashboards to show the information that you want exactly how you want to see it. While designing the dashboard, you can rearrange or remove the components that you have already added and change the height and width of a component.  
   

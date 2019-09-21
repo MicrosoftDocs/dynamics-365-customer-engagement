@@ -22,11 +22,11 @@ search.app:
 
 # Work with international features
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This section describes the customization features available to you for language and translation.
 
-[!INCLUDE [cds-platform-note-for-on-premises](../includes/cds-platform-note-for-on-premises.md)]
+
 
 ### See also
 [Enable additional languages](enable-additional-languages.md) <br />

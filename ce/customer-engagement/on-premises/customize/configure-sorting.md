@@ -21,7 +21,7 @@ search.app:
 ---
 # Sort records in a view
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 <a name="BKMK_ConfigureSorting"></a>    
   

@@ -24,7 +24,7 @@ search.app:
 ---
 # Publish changes 
 
- [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+ 
  
  Certain customizations that make changes to the user interface require that they be published before people can use them in the application. 
  

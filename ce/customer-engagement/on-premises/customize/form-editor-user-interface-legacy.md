@@ -17,7 +17,7 @@ search.app:
 ---
 # Overview of the form editor user interface
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The form editor displays commands in three tabs: **File**, **Home**, and **Insert**. More information: 
 

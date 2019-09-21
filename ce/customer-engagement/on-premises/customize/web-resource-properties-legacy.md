@@ -19,7 +19,7 @@ search.app:
 ---
 # Web resource properties
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
  You can add or edit web resources on a form to make it more appealing or useful to app users. Form enabled web resources are images, HTML files, or [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] controls.  
 

@@ -21,9 +21,9 @@ search.app:
 ---
 # Customize Dynamics 365 for phones and tablets to work for your business
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-With [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you can design once and deploy everywhere. Customizations you make to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system appear in the Dynamics 365 for phones and tablets apps as well as in the web app. Your changes are optimized in the mobile apps so they display properly. Choose one of the following or scroll down to see the types of changes you can make, and how they might display differently in the mobile apps than the web app.  
+
+With Dynamics 365 Customer Engagement (on-premises), you can design once and deploy everywhere. Customizations you make to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system appear in the Dynamics 365 for phones and tablets apps as well as in the web app. Your changes are optimized in the mobile apps so they display properly. Choose one of the following or scroll down to see the types of changes you can make, and how they might display differently in the mobile apps than the web app.  
 
  The latest version of the phone app, [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)], provides the same full-featured experience as the [!INCLUDE[pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)] app. It has the same intuitive user interface (adapted for phones), as well as offline capabilities. 
 
@@ -102,7 +102,7 @@ That way, if you think phone users need to focus only on the primary information
 |   Social Profile    |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
 |        Task         |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
 
-*For [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], we support basic connections. For earlier versions, we only support connections for Sales Team and Stakeholders on the Opportunity form.
+*For Dynamics 365 Customer Engagement (on-premises), we support basic connections. For earlier versions, we only support connections for Sales Team and Stakeholders on the Opportunity form.
 
  **Entities that are visible and read-only in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**  
 

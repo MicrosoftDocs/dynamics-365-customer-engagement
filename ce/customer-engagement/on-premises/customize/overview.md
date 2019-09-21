@@ -22,13 +22,9 @@ search.app:
   - D365CE
 ---
 
-# App making and customization overview for Dynamics 365 for Customer Engagement, version 9 (on-premises)
+# App making and customization overview for Dynamics 365 Customer Engagement (on-premises), version 9.x
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
-
-[!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps gives you powerful customization and app making capabilities that don’t require you to write a single line of code. With a comprehensive set of WSYSIG designer and editor tools, most anyone can fully customize [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps or create their own custom apps. 
-
-[!INCLUDE [cds-platform-note-for-on-premises](../includes/cds-platform-note-for-on-premises.md)]
+Dynamics 365 Customer Engagement (on-premises) gives you powerful customization and app making capabilities that don’t require you to write a single line of code. With a comprehensive set of WSYSIG designer and editor tools, most anyone can fully customize Dynamics 365 Customer Engagement (on-premises) or create their own custom apps.
 
 For documentation of earlier versions (8.x and earlier), visit [https://docs.microsoft.com/previous-versions/dynamics/](https://docs.microsoft.com/en-us/previous-versions/dynamics/).
   
@@ -89,7 +85,7 @@ Determines what type of data visualizations and reporting the app will have avai
 More information: [Create or edit a system chart](create-edit-system-chart.md) and [Overview of reports](/dynamics365/customer-engagement/analytics/get-started-writing-reports)
 
 ## Extensibilty
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps provides a set of web services and APIs that allow developers to write code. When code is written using supported methods you can expect that it will continue to work when you upgrade your organization. 
+Dynamics 365 Customer Engagement (on-premises) provides a set of web services and APIs that allow developers to write code. When code is written using supported methods you can expect that it will continue to work when you upgrade your organization. 
 
 More information: [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customer-engagement/developer/developer-guide)
 
@@ -108,7 +104,7 @@ More information: [Solutions overview](solutions-overview.md)
  
 <a name="BKMK_changesinperformance"></a>   
 ## Changes that affect [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps organization performance  
- App makers and customizers should know that importing solutions and applying customizations that change metadata can affect [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps organization performance. Actions that can interfere with normal system operation include:  
+ App makers and customizers should know that importing solutions and applying customizations that change metadata can affect Dynamics 365 Customer Engagement (on-premises) organization performance. Actions that can interfere with normal system operation include:  
   
 -   Add, remove, or change entities, alternate keys, attributes, or relationships.   
   

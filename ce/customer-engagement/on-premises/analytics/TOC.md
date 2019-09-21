@@ -1,4 +1,4 @@
-# [Reporting and Analytics](reporting-analytics-with-dynamics-365.md)
+# [Reporting and Analytics for Dynamics 365 Customer Engagement (on-premises)](reporting-analytics-with-dynamics-365.md)
 
 # [Get started](get-started-writing-reports.md)
 ## [Report writing environment using SQL Server Data Tools](report-writing-environment-using-sql-server-data-tools.md)
@@ -14,16 +14,11 @@
 
 # [Publish](publish-reports.md)
 
-# [Report considerations and best practices](report-considerations-and-best-practices.md)
-## [Best practices](best-practices-reports.md)
+# [Report best practices](best-practices-reports.md)
 ## [Improve performance](improve-performance-reports.md)
 ## [Improve performance by using filters](improve-report-performance-by-using-filters.md)
-## [Reporting considerations](reporting-considerations.md)
-## [RDL sandboxing](rdl-sandboxing.md)
 
 # [Example reports](example-reports.md)
 ## [Limit the number of items displayed in a chart](example-limit-number-items-displayed-chart.md)
 ## [Display the top X values](example-display-top-x-values.md)
 ## [Make a report context-sensitive](example-make-report-context-sensitive.md)
-
-# [Customize Power BI content packs](customize-power-bi-content-packs.md)

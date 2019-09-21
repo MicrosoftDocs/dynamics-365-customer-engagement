@@ -19,7 +19,7 @@ search.app:
 ---
 # Sub-Grid properties overview
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 You can configure a sub-grid on a form to display a list of records or a chart. Select **Show Chart Only** on the **Display** tab to show a chart instead of a list.  
 

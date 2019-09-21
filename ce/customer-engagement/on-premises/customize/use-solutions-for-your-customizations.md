@@ -25,7 +25,7 @@ search.app:
 
 # Use the default solution to customize  
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
  When you customize a custom business app, you may work with the default solution. To open the default solution, open solution explorer.  
   

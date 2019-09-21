@@ -24,7 +24,7 @@ search.app:
 
 # Virtual entity walkthrough using the OData v4 Data Provider
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 ## About this virtual entity walkthrough
 
