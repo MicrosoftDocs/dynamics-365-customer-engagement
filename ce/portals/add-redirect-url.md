@@ -1,5 +1,5 @@
 ---
-title: "Redirect to a new URL on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Redirect to a new URL on a portal | MicrosoftDocs"
 description: "Instructions to create a redirect URL to redirect a user to another page in a site."
 ms.custom: 
   - dyn365-portal
@@ -59,7 +59,7 @@ results in the browser requesting the following URL:
 http://customerportal.contoso.com/surveys/customer-service-survey/
 
 ### See also
-[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
+[Configure a Dynamics 365 Portals](configure-portal.md)  
 [Add a webpage to render a list of records](add-webpage-render-list-records.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Gather feedback by using polls on a portal](gather-feedback-poll.md)  

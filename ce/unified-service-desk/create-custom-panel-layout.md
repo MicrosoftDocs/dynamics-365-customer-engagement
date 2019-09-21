@@ -1,22 +1,11 @@
 ---
 title: "Create a custom panel layout | MicrosoftDocs"
 description: "Panel layouts in Unified Service Desk are hosted controls, which provide the ability to load all sorts of different layouts in the system. Unified Service Desk provides some predefined panel layouts for you to use in your agent application."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 01/25/2019
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 6b57c966-00ab-4ebe-9d91-07ae9fa100ba
-caps.latest.revision: 9
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -30,7 +19,7 @@ search.app:
 # Create a custom panel layout
 Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] are hosted controls, which provide the ability to load all sorts of different layouts in the system. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides some predefined panel layouts for you to use in your agent application. For more information, see [Panel layouts](../unified-service-desk/panels-panel-types-panel-layouts.md#PanelLayouts).  
   
- [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] also lets you create user defined or custom panel layouts where you lay out the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] panel types as per your requirement, and enhance the experience with [code-behind XAML](https://msdn.microsoft.com/library/vstudio/aa970568\(v=vs.110\).aspx). [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps provides a Visual Studio project template for creating user-defined panel layouts with code-behind support.  
+ [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] also lets you create user defined or custom panel layouts where you lay out the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] panel types as per your requirement, and enhance the experience with [code-behind XAML](https://msdn.microsoft.com/library/vstudio/aa970568\(v=vs.110\).aspx). the Common Data Service platform provides a Visual Studio project template for creating user-defined panel layouts with code-behind support.  
   
  This topic shows you how to create a panel layout where you’ll rearrange the panels to display the session information, agent scripting, notes manager, and associated cases to appear on the right side of the desktop instead of the left side. Also, the pane that displays all this information will be displayed automatically when a session is started in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and will disappear automatically when the session is closed instead of you having to manually expand and collapse the pane.  
   
@@ -204,9 +193,9 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
 ### Define the custom panel layout hosted control on server  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
-2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement**, and select **Settings**.  
+2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement**, and select **Settings**.  
   
 3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
   
@@ -223,7 +212,7 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
 1. Copy the assembly file (dll) that contains your custom hosted control definition from your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project debug folder to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application directory, which is, by default, c:\Program Files\Microsoft Dynamics CRM USD\USD.  
   
-2. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps server.  
+2. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Common Data Service platform.  
   
 3. On successful sign in, you’ll see the custom panel layout without the expander pane in the left side. The expander pane is now on the right side.  
   

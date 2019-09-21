@@ -1,18 +1,10 @@
 ---
-title: "Use Edge Process hosting method for your controls in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Use Edge Process hosting method for your controls in Unified Service Desk  | MicrosoftDocs"
 description: "Learn about the Edge Process hosting methods for your controls in Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 12/19/2018
 ms.service: dynamics-365-customerservice
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
 ms.assetid: D9E7AED8-1D3A-4E62-BD15-7C5CF153EB4E
 author: kabala123
 ms.author: kabala
@@ -256,7 +248,7 @@ To use the `EdgeSingleProcess`, you must add the UII option and set the value to
 
 ### Add the UII option
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].
+1. Sign in to the Common Data Service platform.
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 
@@ -278,7 +270,7 @@ To use the `EdgeSingleProcess`, you must add the UII option and set the value to
 
 ## Sign out from sessions when using the Edge Process
 
-To sign out from sessions when using the Edge process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL of Dynamics 365 for Customer Engagement apps is `url=/main.aspx?signout=1`.
+To sign out from sessions when using the Edge process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL the model-driven app is `url=/main.aspx?signout=1`.
 
 ## Limitations
 

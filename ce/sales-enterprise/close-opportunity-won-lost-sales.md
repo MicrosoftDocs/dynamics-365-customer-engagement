@@ -1,19 +1,15 @@
 ---
-title: "Close an opportunity as won or lost (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Close an opportunity as won or lost (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Close the opportunity to indicate whether it was won or lost."
 keywords: "Close, Won, Lost, opportunity, proposal"
-ms.date: 04/12/2019
+ms.date: 10/01/2019
 ms.service: dynamics-365-sales
 ms.custom: dyn365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: be3ff5e6-019b-4c07-aebb-e5792af19b4d
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 13
 ---
 
@@ -79,4 +75,4 @@ If you've closed an opportunity as lost, but would like to start discussions abo
 ### See also  
  [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)   
  [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)  
- [Dynamics 365 for Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
+ [Dynamics 365 Sales troubleshooting guide for administrators](troubleshooting-admin.md)  

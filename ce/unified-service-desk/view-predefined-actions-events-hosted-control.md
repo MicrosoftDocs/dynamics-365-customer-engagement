@@ -1,22 +1,11 @@
 ---
-title: "View predefined actions and events for a hosted control in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "View predefined actions and events for a hosted control in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to view predefined actions and events for hosted controls in Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 0fa8c515-9ed0-48a0-bda0-e3ead9743b95
-caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
 manager: shujoshi

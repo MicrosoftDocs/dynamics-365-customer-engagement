@@ -18,7 +18,7 @@ ms.custom:
 
 1. Start the Unified Service Desk client by double-clicking the application shortcut on your desktop.
 
-2. In the Unified Service Desk sign-in dialog box, provide authentication details to connect to your Dynamics 365 for Customer Engagement server, and then select **Login**.
+2. In the Unified Service Desk sign-in dialog box, provide authentication details to connect to your Dynamics 365 Customer Service server, and then select **Login**.
 
      **For online deployments**
 
@@ -27,7 +27,7 @@ ms.custom:
      | Deployment Type  | Office 365 for online deployments |  |
      | Display list of available organizations | Select the checkbox to display organizations on which the Omnichannel for Customer Service is deployed   |   |
      | Show Advanced | Select the checkbox to display the following fields: <br><br> - Online Region <br><br> - Username <br><br> - Password |                       |
-     | Online Region | The datacenter region where your Dynamics 365 (online) instance is hosted | North America |
+     | Online Region | The datacenter region where your Dynamics 365 Customer Service instance is hosted | North America |
      | Username | The username of the user (agent, supervisor, and administrator) signing in to Unified Service Desk | user1@onmicrosoft.com |
      | Password | The password associated with the username |  |
 
@@ -44,5 +44,5 @@ You signed in to Unified Service Desk - Omnichannel for Customer Service applica
 
 ## See also
 
-- [Omni channel engagement hub for agent](omnichannel-agent.md)
+- [Omnichannel for agents](omnichannel-agent.md)
 - [View agent dashboard and agent work items](introduction-agent-dashboard.md)

@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 08/05/2019
+ms.date: 10/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 55DFF759-DD1C-4B71-A232-2015C085E748
@@ -47,7 +47,7 @@ Quickly configure and add a chat widget to your portal to chat with your website
 
 ## Step 3: Embed chat widget in portal
 
-1.	Open the Dynamics 365 for Customer Engagement Portal app.
+1.	Open the Dynamics 365 Portal app.
 2.	Go to **Portal** > **Content Snippets**.
 3.	Find the **Chat Widget Code** content snippet and open it.
     > [!div class=mx-imgBorder]

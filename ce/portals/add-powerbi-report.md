@@ -1,5 +1,5 @@
 ---
-title: "Add a Power BI report or dashboard to a web page in a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Add a Power BI report or dashboard to a web page in a portal | MicrosoftDocs"
 description: "Instructions to add a Power BI report or dashboard to a web page in the portal."
 ms.custom: 
   - dyn365-portal

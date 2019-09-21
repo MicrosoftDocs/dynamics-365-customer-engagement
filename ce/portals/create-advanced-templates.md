@@ -1,5 +1,5 @@
 ---
-title: "Create advanced templates for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Create advanced templates for a portal | MicrosoftDocs"
 description: "Learn how to create advance templates for a portal."
 ms.custom: 
   - dyn365-portal

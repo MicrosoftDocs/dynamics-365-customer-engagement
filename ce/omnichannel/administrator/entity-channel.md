@@ -5,13 +5,13 @@ author: kabala123
 ms.author: kabala	
 manager: shujoshi	
 applies_to: 	
-ms.date: 09/12/2019
+ms.date: 09/18/2019
 ms.service: dynamics-365-customerservice	
 ms.topic: article	
 ms.assetid: 5e6285ee-4b79-473d-b920-d1fab636c82e	
 ms.custom: 	
 ---	
-# Entity records routing
+# Preview: Entity records routing
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -27,7 +27,7 @@ ms.custom:
 In Omnichannel Administration, **Entity Records** channel helps you to automatically route cases and other entity records to agents based on the agent's capacity and availability.
 
 > [!Note]
-> Only case entity record is supported in this release. Other entity records routing will be supported in future releases.
+> Only case entity record is supported in this release. To learn about the support for other entity records routing, see [Unified routing for entity records](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-customer-service/unified-routing-queues).
 
 ### Automatic distribution of cases
 
@@ -46,7 +46,7 @@ This allows organizations to tightly define the work profile that their agents a
 To configure entity records channel for case routing and automatic distribution, ensure:
 
 - You are on the latest version of Omnichannel for Customer Service.
-- You've installed the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/create-rules-automatically-route-cases.md#preview-install-routing-rules---preview-solution).
+- You've installed the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/install-routing-rules-preview-solution.md).
 
 ## Configure entity records channel
 
@@ -75,7 +75,7 @@ Create entity records workstream to enable entity record channel for cases, and 
 After enabling entity record channel for cases by creating workstream, create routing rules to route cases to appropriate queues.
 
 > [!Note]
-> To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/create-rules-automatically-route-cases.md#preview-install-routing-rules---preview-solution).
+> To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/install-routing-rules-preview-solution.md).
 
 1. Sign in to the Omnichannel Administration app.
 

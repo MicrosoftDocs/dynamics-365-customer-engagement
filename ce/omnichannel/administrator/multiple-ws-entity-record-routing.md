@@ -5,14 +5,14 @@ author: kabala123
 ms.author: kabala	
 manager: shujoshi	
 applies_to: 	
-ms.date: 09/12/2019
+ms.date: 09/18/2019
 ms.service: dynamics-365-customerservice	
 ms.topic: article	
 ms.assetid: 3DBB1579-ECD2-43E6-B994-6D83A7C2C8F1
 ms.custom: 	
 ---
 
-# Walkthrough: Create multiple workstreams for entity records routing
+# Preview: Walkthrough - Create multiple workstreams for entity records routing
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -57,7 +57,7 @@ To learn more, see [Entity record workstreams](set-up-entity-workstream.md).
 After enabling entity record channel for cases by creating workstream, create routing rules to route cases to appropriate queues. 
 
 > [!Note]
-> - To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/create-rules-automatically-route-cases.md#preview-install-routing-rules---preview-solution).
+> - To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/install-routing-rules-preview-solution.md).
 >
 > - Only one routing rule set can be active at any point of time. If you try to activate another rule when one rule is already active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.
 >

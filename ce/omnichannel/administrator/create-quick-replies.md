@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 10/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: F263FBCC-2406-4487-8461-E7FC3A99BF53
@@ -46,4 +46,4 @@ Quick replies are pre-defined messages that can be created for agents to quickly
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>
-[Embed chat widget in Dynamics 365 for Customer Engagement Portal](embed-chat-widget-portal.md)
+[Embed chat widget in Dynamics 365 Portal](embed-chat-widget-portal.md)

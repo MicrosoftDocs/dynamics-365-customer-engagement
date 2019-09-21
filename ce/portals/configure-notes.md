@@ -1,5 +1,5 @@
 ---
-title: "Configure notes on entity forms and web forms for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Configure notes on entity forms and web forms for a portal | MicrosoftDocs"
 description: "Instructions to add and configure notes on entity forms and web forms in a portal."
 ms.custom: 
   - dyn365-portal
@@ -23,14 +23,14 @@ search.app:
 ---
 # Configure notes for entity forms and web forms on portals
 
-Just like with subgrids, adding notes to your managed forms on the portal is easy&mdash;just add the notes control to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form through the out-of-the-box [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form designer and you're done. You can configure the behavior of the notes control by using metadata.
+Just like with subgrids, adding notes to your managed forms on the portal is easy&mdash;just add the notes control to the Dynamics 365 form through the out-of-the-box Dynamics 365 form designer and you're done. You can configure the behavior of the notes control by using metadata.
 
 > [!Note]                                                           
 > Explicit [Entity Permissions](assign-entity-permissions.md) are required for any notes to appear on the portal. For read and edit, the Read and Write privileges must be granted. For create, two permissions must exist: a permission with the Create and Append privileges must be granted for the note (annotation) entity, the second permission must be assigned to the entity type the note is being attached to with the Append To privilege granted. The **Enable Entity Permissions** check box must be selected on the corresponding entity form or web form step for the entity permissions to take effect.
 
 ## Notes configuration for entity forms
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 Portals.
 2. Go to **Portals** > **Content** > **Entity Forms**. A list of active entity forms is displayed.
 3. Select the entity form to which you want to add note configuration.
 4. Go to **Entity Form Metadata** either by using the top drop-down list or the subgrid on the main form of the entity form record that you are working with.
@@ -156,7 +156,7 @@ You must create and assign the appropriate entity permission to the records as f
 
     ![Add web roles to an entity permission](media/entity-permission-web-roles.png "Add web roles to an entity permission")
 
-If you created a custom form in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and added the notes section to it, be sure to select **Notes** as the default tab you want to be visible.
+If you created a custom form in Dynamics 365 and added the notes section to it, be sure to select **Notes** as the default tab you want to be visible.
 
 ![Notes in a custom form](media/notes-activities-tab.png "Notes in a custom form")
 
@@ -166,8 +166,8 @@ Web form notes are configured in the same way as [entity form notes](#notes-conf
 
 ### See also
 
-[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 Portals](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 Portals](entity-forms-custom-logic.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  

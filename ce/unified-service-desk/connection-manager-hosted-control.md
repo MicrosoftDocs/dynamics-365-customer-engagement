@@ -1,20 +1,10 @@
 ---
 title: "Connection Manager (Hosted Control) | MicrosoftDocs"
-description: "The Connection Manager hosted control type manages connections to the Dynamics 365 for Customer Engagement server, and makes it available to the rest of the agent application."
-ms.custom: 
-  - dyn365-USD
+description: "The Connection Manager hosted control type manages connections to the Dynamics 365 Customer Engagement server, and makes it available to the rest of the agent application."
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: c1a9b9ef-6243-4d1c-b0fe-726def04b417
 author: kabala123
 ms.author: kabala
@@ -27,7 +17,7 @@ search.app:
   - D365USD
 ---
 # Connection Manager (Hosted Control)
-The **Connection Manager** hosted control type manages connections to the Dynamics 365 for Customer Engagement server, and makes it available to the rest of the agent application. An instance of this hosted control is required by [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and only a single instance of this hosted control type must exist in your agent application.  
+The **Connection Manager** hosted control type manages connections to the Dynamics 365 Customer Engagement server, and makes it available to the rest of the agent application. An instance of this hosted control is required by [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and only a single instance of this hosted control type must exist in your agent application.  
   
 > [!IMPORTANT]
 >  The three sample application packages for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], `New Environment`, `CRM Web Client`, and `Interactive Service Hub`, come preconfigured with an instance each of the **Connection Manager** hosted control type. For information about the sample applications, see [Deploy sample Unified Service Desk applications to CRM server using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  

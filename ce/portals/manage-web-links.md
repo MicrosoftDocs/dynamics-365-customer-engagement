@@ -1,6 +1,6 @@
 ---
-title: "Manage web links in Dynamics 365 for Customer Engagement or on portals in Dynamics 365 for Customer Engagement | MicrosoftDocs"
-description: "Instructions to manage web links in Dynamics 365 for Customer Engagement or on portals."
+title: "Manage web links in Dynamics 365 or on portals in Dynamics 365 | MicrosoftDocs"
+description: "Instructions to manage web links in Dynamics 365 or on portals."
 ms.custom: 
   - dyn365-portal
 ms.date: 12/03/2018
@@ -21,15 +21,15 @@ search.app:
   - D365CE
   - D365Portals
 ---
-# Manage web links in Dynamics 365 for Customer Engagement or on portals
+# Manage web links in Dynamics 365 or on portals
 
 A web link can link to any URL or it can link to another webpage within the same website. When a web link is to a webpage, the security and publishing state of the webpage will apply to the web link as well. Web links are always part of a web link set. A web link set is a group of links such as a primary navigation or a group of footer links. Web link sets allow internal, regardless of placement in the site map, and external links to be grouped together and ordered.
 
-## Manage web links in Dynamics 365 for Customer Engagement
+## Manage web links in Dynamics 365
 
-For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, once the portal customizations have been imported into the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, web links can be managed from a web link set.
+For Dynamics 365 users, once the portal customizations have been imported into the Dynamics 365 organization, web links can be managed from a web link set.
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 Portals.
 
 2. Go to **Portals** > **Web Link Sets**.
 
@@ -104,7 +104,7 @@ The table below explains many of the standard Web Link Set properties used by po
 
 ## Web link attributes and relationships
 
-The table below explains many of the standard Web Link properties used by [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals. It is important to note that the way in which many of the content/display-oriented properties are rendered is controlled by the page template used.
+The table below explains many of the standard Web Link properties used by Dynamics 365 Portals. It is important to note that the way in which many of the content/display-oriented properties are rendered is controlled by the page template used.
 
 
 |           Name           |                                                                                                               Description                                                                                                               |

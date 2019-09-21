@@ -1,17 +1,14 @@
 ---
-title: Create rules to automatically route cases (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Understand how to create rules to automatically route cases in Dynamics 365 for Customer Service
-keywords: Create rules; Route cases; Dynamics 365 for Customer Engagement; Customer Service
+title: Create rules to automatically route cases (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service
 author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ms.assetid: 85a8e762-c063-48a5-bf38-ffc4df6a7c79
 ms.custom: dyn365-customerservice
+ms.assetid: 85a8e762-c063-48a5-bf38-ffc4df6a7c79
 search.audienceType: 
   - admin
   - customizer
@@ -23,36 +20,11 @@ search.app:
 
 # Automatically route cases using routing rule sets
 
-Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues. 
+Use routing rules in Dynamics 365 Customer Service to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues. 
 
 ## Preview: Install Routing Rules - Preview solution
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-1. Go to [Microsoft 365 Admin center](https://admin.microsoft.com/AdminPortal/Home).
-
-2. Select **... Show all** > **Admin centers** > **Dynamics 365**. Dynamics 365 opens in a new tab.
-
-   > [!div class=mx-imgBorder]
-   > ![Go to Dynamics 365 in the Microsoft 365 admin center](media/microsoft-365-admin-center-dynamics-csh.png)
-
-3. In the **Dynamics 365 Administration Center**, under the **Instances** tab, select an instance type from the drop-down. 
-
-4. Select the edit icon next to solutions. Manage your solutions page appears.
-
-   > [!div class=mx-imgBorder]
-   > ![Edit the solutions](media/dynamics-365-admin-instance-edit-csh.png)
-
-5. In the **Manage your solutions** page, select **Routing Rules - Preview**. The status column shows **Not installed**.
-
-6. Select the install icon next on the **Routing Rules - Preview** card. The **Terms of service** page appears.
-
-   > [!div class=mx-imgBorder]
-   > ![Install routing rules preview solution](media/routing-rules-preview-solution.png "Install routing rules preview solution")
-
-7. In the **Terms of service** page, read the terms and conditions and then select **install**. The installation may take few minutes.
-
-    The solution is installed in your organization.
+To install Routing Rules - Preview solution, see [Install Routing Rules - Preview solution](install-routing-rules-preview-solution.md). 
 
 ## Preview: Add routing rule sets sitemap for custom apps 
 
@@ -230,3 +202,5 @@ Perform the following steps before you upgrade a solution:
 ### See also 
 
 [Create and manage queues](set-up-queues-manage-activities-cases.md)
+
+[Install Routing Rules - Preview solution](install-routing-rules-preview-solution.md)

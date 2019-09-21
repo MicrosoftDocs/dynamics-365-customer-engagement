@@ -1,22 +1,11 @@
 ---
-title: "Global Manager (Hosted Control) in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Global Manager (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "The Global Manager hosted control type is the core of Unified Service Desk, and an instance of this hosted control is required by Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 8f45a5fd-2b39-4336-8326-f43dabf4389f
-caps.latest.revision: 14
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -28,7 +17,7 @@ search.app:
   - D365USD
 ---
 # Global Manager (Hosted Control)
-The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and an instance of this hosted control is required by [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. This hosted control loads and reads all the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration data from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps at application startup, interprets the window navigation rules, provides data to the toolbar components and agent scripts, and manages the data for the session. Only a single instance of the **Global Manager** hosted control type can be loaded.  
+The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and an instance of this hosted control is required by [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. This hosted control loads and reads all the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration data from the Common Data Service platform at application startup, interprets the window navigation rules, provides data to the toolbar components and agent scripts, and manages the data for the session. Only a single instance of the **Global Manager** hosted control type can be loaded.  
 
 > [!IMPORTANT]
 >  The three sample application packages for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], `New Environment`, `CRM Web Client`, and `Interactive Service Hub`, come preconfigured with an instance each of the **Global Manager** hosted control type. For information about the sample applications, see [Deploy sample Unified Service Desk applications to CRM server using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
@@ -41,13 +30,13 @@ The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_s
 
  ![Global Manager hosted control](../unified-service-desk/media/crm-itpro-usd-globalmanagerhostedcontrol.PNG "Global Manager hosted control")  
 
- In the **New Hosted Control** screen, under the **Unified Service Desk** area, select **Global Manager** from the **USD Component Type** drop-down list. Also, ensure that you set the **Sort Order** value of this hosted control to **2** to ensure it is loaded by your agent application immediately *after* the connection has been established to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps using the Connection Manager hosted control. For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
+ In the **New Hosted Control** screen, under the **Unified Service Desk** area, select **Global Manager** from the **USD Component Type** drop-down list. Also, ensure that you set the **Sort Order** value of this hosted control to **2** to ensure it is loaded by your agent application immediately *after* the connection has been established to the Common Data Service platform using the Connection Manager hosted control. For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
 
  After you save the record, the **Language Services** area becomes available where you add resources for adding localized strings for your agent application’s UI. For information about how to add language resources, see [Add multilanguage support for your agent applications](../unified-service-desk/add-multilanguage-support-agent-applications.md).  
 
 <a name="predefined"></a>   
 ## Predefined UII actions  
- Global Manager provides a series of predefined actions that allow you to manipulate [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps record data through the web services. These can be used during configuration to perform advanced functions in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps.  
+ Global Manager provides a series of predefined actions that allow you to manipulate the Common Data Service platform record data through the web services. These can be used during configuration to perform advanced functions in the Common Data Service platform.  
 
  The following predefined UII actions are available for the **Global Manager** hosted control type:  
 
@@ -126,7 +115,7 @@ The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_s
 
 <a name="CloseActivity"></a>   
 ### CloseActivity  
- Closes an activity record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps.  
+ Closes an activity record in the model-driven apps.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -151,7 +140,7 @@ statecode=Completed
 
 <a name="CreateEntity"></a>   
 ### CreateEntity  
- Creates a new record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps.  
+ Creates a new record in the model-driven apps.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -200,7 +189,7 @@ Param=value
 
 <a name="DeleteEntity"></a>   
 ### DeleteEntity  
- Deletes a record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps.  
+ Deletes a record in the model-driven apps.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -220,7 +209,7 @@ Param=value
 
 <a name="DoSearch"></a>   
 ### DoSearch  
- Calls the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps web services using the FetchXML defined as an entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] For more information about defining an entity search, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md).  
+ Calls the Common Data Service platform web services using the FetchXML defined as an entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] For more information about defining an entity search, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md).  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -241,7 +230,7 @@ Param=value
 | Parameter |                                                                             Description                                                                             |
 |-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   text    |      This is the text displayed in the message box. If this parameter is not specified, any remaining text (remainder parameter) or empty string will be used.      |
-|  caption  | This is the caption displayed in the message box. If no caption is specified, **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps Message** will be used. |
+|  caption  | This is the caption displayed in the message box. If no caption is specified, **the Common Data Service platform Message** will be used. |
 
 ### ExecuteOnDataAvailable  
  Delays the execution of the sub-actions until a specified set of replacement parameters becomes available. A time-out value may be specified to limit the amount of time to wait for the replacement parameters to become available. If no time-out is specified, it will wait indefinitely or until the session ends. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Blog: How to use the special actions, ExecuteOnTimeout, ExecuteOnDataAvailable, ExecuteOnExpressionTrue](http://blogs.msdn.com/b/usd/archive/2015/09/25/how-to-use-the-special-actions-executeontimeout-executeondataavailable-executeonexpressiontrue.aspx)  
@@ -345,7 +334,7 @@ Param=value
 |panel|Target panel for the hosted control.|  
 
 ### New_CRM_Page  
- Creates a page for creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
+ Creates a page for creating a new record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -400,7 +389,7 @@ Param=value
 
 <a name="RouteToQueue"></a>   
 ### RouteToQueue  
- Routes an entity to a queue in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps.  
+ Routes an entity to a queue in the model-driven apps.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -429,7 +418,7 @@ Param=value
 |Parameter|Description|  
 |---------------|-----------------|  
 |clear|`True` if you want to completely clear the current theme before applying the specified theme. If this parameter is false, or not specified, the new theme information will be merged with the current theme.|  
-||The remainder parameter (what is left after the other parameters are removed), should contain the name of the theme to use. This should be a XAML file (renamed to XML and uploaded as a web resource) web resource name, a URL from an anonymous access server, or the raw XAML representing the theme.|  
+||The remainder parameter (what is left after the other parameters are removed), should contain the name of theme to use. This should be a XAML file (renamed to XML and uploaded as a web resource) web resource name, a URL from an anonymous access server, or the raw XAML representing theme.|  
 
 <a name="SetAppBar"></a>   
 ### SetAppBar  
@@ -476,7 +465,7 @@ Param=value
 
 <a name="ShowAbout"></a>   
 ### ShowAbout  
- Displays the about dialog box for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] that contains information such as the name of the current user, the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps server and organization that the user is connected to, version number of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and the support site URL.  
+ Displays the about dialog box for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] that contains information such as the name of the current user, the Common Data Service platform server and organization that the user is connected to, version number of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and the support site URL.  
 
 <a name="ShowTab"></a>   
 ### ShowTab  
@@ -511,7 +500,7 @@ Param=value
 
 <a name="UpdateEntity"></a>   
 ### UpdateEntity  
- Updates a record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps.  
+ Updates a record in the model-driven apps.
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -566,7 +555,7 @@ Param=value
  Here are the predefined events that are associated with this hosted control.  
 
 ### DesktopReady  
- Occurs on startup when all the desktop initialization has completed and the connections to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps have been established. This event will be fired only once, and it is common to use this event to set themes and do other startup actions.  
+ Occurs on startup when all the desktop initialization has completed and the connections to the Common Data Service platform have been established. This event will be fired only once, and it is common to use this event to set themes and do other startup actions.  
 
 ### SessionActivated  
  Occurs whenever a session is activated.  
