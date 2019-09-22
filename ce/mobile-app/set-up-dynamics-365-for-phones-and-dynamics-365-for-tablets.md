@@ -23,12 +23,12 @@ search.app:
 ---
 # Setup overview for mobile apps
 
-Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data while they're out in the field by using either of the following apps:  
+Your users can access their data stored in Common Data Service or Dynamcis 365 Customer Engagement (on-premises) while they're out in the field by using either of the following apps:  
   
 - **[!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]**: With [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], you can design your information architecture once and the customizations will automatically flow to all form factors. Much is shared with [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
   
   
-- **[!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**: With the same basic features as [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], tablet users will appreciate the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] experience optimized for a larger screen.  
+- **[!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**: With the same basic features as [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], tablet users will appreciate the experience optimized for a larger screen.  
     
 <a name="BKMK_GetStartedTablets"></a>   
 ## Get started with [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
