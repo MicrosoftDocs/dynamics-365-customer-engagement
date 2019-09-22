@@ -1,5 +1,5 @@
 ---
-title: "Create goal hierarchy, goals, and targets (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Create goal hierarchy, goals, and targets | MicrosoftDocs"
 description: "This article discusses how to create a goal hierarchy, set and monitor the targets, specify the time period and who manages and owns a goal"
 ms.custom: 
 ms.date: 10/31/2017
@@ -56,7 +56,7 @@ In preparation for goal management, you should specify a metric for a goal (amou
 ## Who Manages and Owns a Goal  
  A goal manager sets or modifies goal targets, adjusts the goal time period, and assigns a goal owner. A goal manager is the goal record owner (`Goal.OwnerID`) with full access rights to the goal. A goal owner (`Goal.GoalOwnerId`) is someone who has to meet the goal targets. A goal owner has Read and AppendTo access to the goal.  
   
- When a goal is created in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], it is automatically shared with a goal owner and a parent goal’s manager. A parent goal’s manager is the record owner (`Goal.OwnerId`) of the parent goal, and has Read access to the newly created goal. When a parent goal’s manager or a goal owner is replaced, their access to the goal is revoked and the access is granted to the new parent goal’s manager or goal owner. If a goal was explicitly shared with a previous parent goal’s manager and goal owner, who were given specific access rights, these [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users may not lose all access to the goal.  
+ When a goal is created in Dynamics 365, it is automatically shared with a goal owner and a parent goal’s manager. A parent goal’s manager is the record owner (`Goal.OwnerId`) of the parent goal, and has Read access to the newly created goal. When a parent goal’s manager or a goal owner is replaced, their access to the goal is revoked and the access is granted to the new parent goal’s manager or goal owner. If a goal was explicitly shared with a previous parent goal’s manager and goal owner, who were given specific access rights, these Dynamics 365 users may not lose all access to the goal.  
   
 <a name="BKMK_SetTargets"></a>   
 ## Set and Monitor the Targets  

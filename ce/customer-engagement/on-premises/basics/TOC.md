@@ -19,7 +19,6 @@
 ## [Use a screen reader](screen-reader.md)
 ## [Use keyboard shortcuts](keyboard-shortcuts.md)
 ## [Print leads, quotes and more](../basics/print-leads-quotes-other-records.md)
-## [Use Flow to automate processes](../basics/use-flow-automate-processes-across-services.md)
 
 # [Work with accounts and contacts](../basics/accounts-contacts.md)
 ## [Send bulk email](../basics/send-bulk-email-customers.md)

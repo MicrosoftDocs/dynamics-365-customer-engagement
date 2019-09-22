@@ -1,5 +1,5 @@
 ---
-title: "Roll up goal totals (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Roll up goal totals | MicrosoftDocs"
 description: "RecalculateRequest message can be used to roll up data in a goal hierarchy. It recalculates the goal rollup field values, such as Goal.ActualMoney or Goal.ActualInteger, for all goals in the hierarchy"
 ms.custom: 
 ms.date: 10/31/2017

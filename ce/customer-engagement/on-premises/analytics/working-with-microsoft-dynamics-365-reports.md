@@ -20,9 +20,9 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Work with Dynamics 365 Customer Engagement (on-premises) reports
-*This content also applies to the on-premises version.*
-This section describes the different features that are available to determine how reports display in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
+# Work with reports
+
+This section describes the different features that are available to determine how reports display in Common Data Service and Microsoft Dynamics 365 Customer Engagement (on-premises) apps.  
   
 ## In this section  
  [Add Report Navigation](../analytics/add-report-navigation.md)  

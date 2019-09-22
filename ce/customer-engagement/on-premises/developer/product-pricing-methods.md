@@ -31,13 +31,13 @@ search.app:
 ---
 # Product pricing methods
 
-[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses the `ProductPriceLevel.PricingMethodCode` attribute to determine prices. The value of this attribute affects:  
+Dynamics 365 Customer Engagement (on-premises) uses the `ProductPriceLevel.PricingMethodCode` attribute to determine prices. The value of this attribute affects:  
   
 - How the price for the product is determined for each unit of measure that is defined for that product.  
   
 - What attributes are required when you create or update a product price level and its associated product.  
   
-  You can also use custom pricing for products instead of using the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system pricing. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use custom pricing for products](use-custom-pricing-products.md)  
+  You can also use custom pricing for products instead of using the Dynamics 365 system pricing. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use custom pricing for products](use-custom-pricing-products.md)  
   
   The following table lists the formulas that are used for each value and the attributes that are required by each value.  
   

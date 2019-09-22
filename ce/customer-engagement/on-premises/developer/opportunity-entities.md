@@ -1,5 +1,5 @@
 ---
-title: "Opportunity entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Opportunity entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about opportunity entites that help you to create a new opportunity to monitor or convert an lead to an opportunity. The entities that can be associated with an opportunity to provide information about the sales engagement are activities, notes and attachments, competitors, quotes, orders, and sales literature. "
 ms.custom: 
 ms.date: 10/31/2017

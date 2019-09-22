@@ -141,8 +141,8 @@ Dynamics 365 Customer Engagement (on-premises) offers customers, partners, indep
   Cross-platform mobile applications  
   [User Guide (Dynamics 365 for phones and tablets)](../../../mobile-app/dynamics-365-phones-tablets-users-guide.md)
   
-  Business intelligence  
-  [Use Power BI with Dynamics 365 Customer Engagement (on-premises)](../admin/use-power-bi.md)  
+  <!-- Business intelligence  
+  [Use Power BI with Dynamics 365 Customer Engagement (on-premises)](../admin/use-power-bi.md)  -->
   
   Extensible platform  
   -   [Extend Dynamics 365 Customer Engagement (on-premises) on the server](extend-dynamics-365-server.md)  
