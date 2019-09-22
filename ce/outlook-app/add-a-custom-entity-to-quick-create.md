@@ -27,7 +27,7 @@ Follow these steps to enable a custom entity to appear in Quick create. Note, th
 
 ![Custom entity in Quick create](media/custom-entity-quick-create.png) 
 
-1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
+1. In your app, go to **Settings** > **Customizations** > **Customize the System**.
 2. Choose the custom entity. Under **Data Services**, enable **Allow quick create**. Under **Outlook & Mobile**, enable **Enable for mobile**.
 
    ![Enable entity settings for quick create display](media/settings-enabled.png "Enable entity settings for quick create display")
