@@ -35,11 +35,11 @@ The following table lists the minimum recommended hardware requirements when you
 > [!NOTE]
 >  [!INCLUDE [cc-actual-requirements-and-product-functionality-may-vary](../../includes/cc-actual-requirements-and-product-functionality-may-vary.md)]
 > 
->  Running [!INCLUDE[pn-microsoftcrm](../../includes/pn-microsoftcrm.md)] on a computer that has less than the minimum recommended requirements may result in inadequate performance. For the best performance, we recommend running 64-bit versions of [!INCLUDE[pn-ms-Windows-long](../../includes/pn-ms-windows-long.md)], [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)], and [!INCLUDE[pn-crm-for-outlook-short](../../includes/pn-crm-for-outlook-short.md)].  
+>  Running Dynamics 365 apps on a computer that has less than the minimum recommended requirements may result in inadequate performance. For the best performance, we recommend running 64-bit versions of [!INCLUDE[pn-ms-Windows-long](../../includes/pn-ms-windows-long.md)], [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)], and [!INCLUDE[pn-crm-for-outlook-short](../../includes/pn-crm-for-outlook-short.md)].  
 
  **Network requirements**  
   
- [!INCLUDE[pn-microsoftcrm](../../includes/pn-microsoftcrm.md)] is designed to work best over networks that have the following elements:  
+ Dynamics 365 apps are designed to work best over networks that have the following elements:  
   
 - Bandwidth greater than 50 KBps (400 kbps)  
   
