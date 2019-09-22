@@ -242,7 +242,7 @@ else
   
 16. Right-click or tap **1**, and then click **Modify**.  
   
-17. Type your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization’s URL in the **Value Data** box (for example, <https://contoso.com>), and then click **OK**.  
+17. Type your Common Data Service environment's or Dynamics 365 Customer Engagement (on-premises) organization's URL in the **Value Data** box (for example, <https://contoso.com>), and then click **OK**.  
   
 18. Exit Registry Editor.  
   
@@ -538,7 +538,7 @@ else
 ## Considerations and best practices for securing Dynamics 365 apps data on [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
  Consider the following when planning security for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]:  
   
-- **Data transmission**. [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] requires an [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)], so when your organization’s mobile devices synchronize [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data with your online [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the data is encrypted with [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)].  
+- **Data transmission**. [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] requires an [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)], so when your organization’s mobile devices synchronize Dynamics 365 apps data with your Common Data Service environment or Dynamics 365 Customer Engagement (on-premises) organization, the data is encrypted with [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)].  
   
 - **Cached data**. [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] only cache records and lists that you’ve recently accessed in the app. To clear cached data, users can either sign out or reconfigure.
   

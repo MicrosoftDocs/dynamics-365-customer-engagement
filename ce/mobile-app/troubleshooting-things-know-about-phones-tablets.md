@@ -61,11 +61,12 @@ If you receive this error:
   
 |             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Users:**  |                                                                                                                                                                                                                                                                                             Notify your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator that you received this error.                                                                                                                                                                                                                                                                                              |
-| **Admins:** | To enable the [!INCLUDE[pn_microsoft_dynamics_crm_for_windows_81](../includes/pn-microsoft-dynamics-crm-for-windows-81.md)] app for on-premises [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] deployments, you need to make some configuration changes. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up Dynamics 365 for phones and tablets](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md) **Important:** [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] on-premises deployments require Windows 10 and the [Dynamics 365 apps for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). |
+| **Users:**  |                                                                                                                                                                                                                                                                                             Notify your administrator that you received this error.                                                                                                                                                                                                                                                                                              |
+| **Admins:** | To enable the [!INCLUDE[pn_microsoft_dynamics_crm_for_windows_81](../includes/pn-microsoft-dynamics-crm-for-windows-81.md)] app for Dynamics 365 Customer Engagement (on-premises) deployments, you need to make some configuration changes. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up Dynamics 365 for phones and tablets](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md) <br/>
+**Important:** Customer Engagement (on-premises) deployments require Windows 10 and the [Dynamics 365 apps for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). |
   
 ##### If you’re using a Windows phone  
- You received this error because you’re trying to connect to an on-premises deployment of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], which is  not supported for your version on Windows Phones. Windows Phone connection to [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] on-premises requires the [Dynamics 365 apps for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Support for Dynamics 365 for phones and tablets](../mobile-app/support-phones-tablets.md)  
+ You received this error because you’re trying to connect to a Customer Engagement (on-premises) deployment, which is  not supported for your version on Windows Phones. Windows Phone connection to [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] on-premises requires the [Dynamics 365 apps for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Support for Dynamics 365 for phones and tablets](../mobile-app/support-phones-tablets.md)  
   
 
 ## Error message: “This record is unavailable.”  
@@ -110,7 +111,7 @@ If you receive this error:
 16. In the mobile app, follow the previous procedure to select your new dashboard and set it as your home page.  
   
 ## Error message: “Your server is not available or does not support this application.”  
- **Cause 1**: The [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server is down. Verify that the server is on and connected to your network.  
+ **Cause 1**: The Dynamics 365 server is down. Verify that the server is on and connected to your network.  
   
  **Sample Trace Message for Cause 1**:  
   
@@ -280,7 +281,7 @@ If you receive this error:
  
   
 ## Users not getting customizations  
- Users will not get customizations made to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] if there are draft records present. Users should be encouraged to save records as soon as they go online.  
+ Users will not get customizations made to Dynamics 365 apps if there are draft records present. Users should be encouraged to save records as soon as they go online.  
   
 ## Data cached for offline viewing remains after the entity is no longer enabled for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
  In [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], record data is cached as the user visits the record so the user can access the data when going offline.  
@@ -302,7 +303,7 @@ If you receive this error:
   
   
 ## Private Browsing not supported in Safari  
- If you enable Private Browsing on your iPad in your Safari browser, you will see the following error message when you attempt to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization: “[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] has encountered an error.” You will need to disable Private Browsing. Tap the address bar, and then tap **Private**.  
+ If you enable Private Browsing on your iPad in your Safari browser, you will see the following error message when you attempt to connect to your Common Data Service environment or Dynamics 365 Customer Engagement (on-premises) organization: “[Dynamics 365 has encountered an error.” You will need to disable Private Browsing. Tap the address bar, and then tap **Private**.  
   
 ## Web app differences in mobile browsers  
  For differences you can expect to find in the web app when you’re accessing it from a mobile device, see [Support for Dynamics 365 for phones and Dynamics 365 for tablets](../mobile-app/support-phones-tablets.md).  
