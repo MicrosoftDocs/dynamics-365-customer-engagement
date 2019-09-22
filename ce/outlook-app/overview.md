@@ -40,26 +40,26 @@ For more information on how to deploy and customize the app and how to use it, s
 ## What Dynamics 365 App for Outlook offers  
  With [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], you can:  
   
-- View information about [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] contacts and leads while you’re working in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]. You can view this info in the context of an email message, meeting, or appointment. For example, view phone numbers, company name, last and next activities, and recent records from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+- View information about Dynamics 365 contacts and leads while you’re working in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]. You can view this info in the context of an email message, meeting, or appointment. For example, view phone numbers, company name, last and next activities, and recent records from Dynamics 365.  
   
-- Link email messages, meetings, and appointments to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record with a single click. For example, link an email message to a specific account, opportunity, or case. [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] also supports custom entities.  
+- Link email messages, meetings, and appointments to a Dynamics 365 record with a single click. For example, link an email message to a specific account, opportunity, or case. [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] also supports custom entities.  
   
-- Open [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records directly to find or enter more detailed information.  
+- Open Dynamics 365 records directly to find or enter more detailed information.  
   
-- Add a phone call, task, or appointment activity to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+- Add a phone call, task, or appointment activity to Dynamics 365.  
   
-- Create a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record for any entity (record type).  
+- Create a new Dynamics 365 record for any entity (record type).  
   
 - Add email templates, knowledge articles, and sales literature when you create an email message or set up a meeting.  
   
-- Track [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+- Track [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] contacts in Dynamics 365.  
 
 
 ## What's new in Dynamics 365 App for Outlook
 
 The [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] has been significantly redesigned and includes enhancements such as:
 
-- Unified Interface. [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. Much of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] functionality is now included.
+- Unified Interface. [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. Much of Dynamics 365 functionality is now included.
 - Global search or multi-entity search. Use global search to search for a keyword in multiple entities at the same time. Global search uses the quick find view for the various entities to search for records.
 - Forms. View and edit forms the same as what you see in the mobile experience. 
 - Dashboards. View and edit dashboards the same as what you see in the mobile experience.
