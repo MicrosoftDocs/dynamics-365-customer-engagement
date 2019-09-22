@@ -63,7 +63,7 @@ This topic describes how to add action calls, events, window navigation rule, an
 
 10. Select **Add Existing Action Call** in the **Actions** section. The **Lookup Records** pane appears.
 
-11. Type the name of the action in the search box and select it from the results. Type the following action calls
+11. Type the name of the action in the search box and select it from the results. You can search for the following action calls:
     - Load Agent Session Search Page
     - Focus on search
 

@@ -12,7 +12,7 @@ ms.assetid: 052AC268-36B4-470E-A599-803CCB84C77E
 ms.custom: 
 ---
 
-# Step 6:  Add the hosted control, action calls, window navigation rule, and events to configurations
+# Step 7:  Add the hosted control, action calls, window navigation rule, and events to configurations
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
