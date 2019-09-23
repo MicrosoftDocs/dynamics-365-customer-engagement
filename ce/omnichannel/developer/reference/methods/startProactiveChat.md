@@ -12,11 +12,11 @@ ms.topic: article
 ms.assetid: 2BD1ECAD-6E5A-4BD9-BD82-67B335B98D88
 ms.custom: 
 ---
-# startChat
+# startProactiveChat
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[startproactivechat-description](../includes/startChat-description.md)]
+[!INCLUDE[startproactivechat-description](../includes/startProactiveChat-description.md)]
 
 ## Syntax
 
