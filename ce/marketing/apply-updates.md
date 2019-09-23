@@ -25,7 +25,7 @@ search.app:
 
 # Keep Marketing up to date
 
-Microsoft is continuously developing and improving online services. Though we roll out updates as soon as they're ready, we don't apply them automatically to customers' systems because most customers prefer to manage this process themselves--for example, by applying and testing updates on a sandbox instance before applying them to a production system.
+Microsoft is continuously developing and improving online services. Though we roll out updates as soon as they're ready, we don't apply them automatically to customers' systems because most customers prefer to manage this process themselves—for example, by applying and testing updates on a sandbox instance before applying them to a production system.
 
 Read this topic to get an overview of how to update Dynamics 365 Marketing and its related solutions.
 
@@ -56,7 +56,7 @@ You can also find out when an update is available by checking the status of your
 
 ## Find out which version of Dynamics 365 Marketing you are running
 
-Dynamics 365 Marketing includes several solutions and services, each of which has it's own version number. You'll often see versions of Dynamics 365 referred to by the month or season and year they came out, but to find a unique identifier for the version installed on your tenant, check the version number of your **Dynamics 365 Marketing** solution as follows:
+Dynamics 365 Marketing includes several solutions and services, each of which has its own version number. You'll often see versions of Dynamics 365 referred to by the month or season and year they came out, but to find a unique identifier for the version installed on your tenant, check the version number of your **Dynamics 365 Marketing** solution as follows:
 
 1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and go to the **Instances** tab.  
     ![Open the Instances tab](media/update-instances-tab.png "Open the Instances tab")
