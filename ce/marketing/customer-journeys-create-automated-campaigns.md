@@ -154,7 +154,7 @@ To set up a segment tile to target a subscription list:
 
 ### Create an inbound customer journey
 
-An inbound customer journey is one that a contacts join by filling out an online form rather than being part of a target segment. To create an inbound journey, start with a marketing page or marketing form tile instead of a segment (or with a segment configured to find contacts who submitted a particular form). More information: [Create an inbound customer journey](create-inbound-customer-journey.md)
+An inbound customer journey is one that contacts join by filling out an online form rather than being part of a target segment. To create an inbound journey, start with a marketing page or marketing form tile instead of a segment (or with a segment configured to find contacts who submitted a particular form). More information: [Create an inbound customer journey](create-inbound-customer-journey.md)
 
 <a name="general-options"></a>
 
@@ -242,7 +242,7 @@ When you've finished designing your customer journey, do the following to verify
 
 ## Gain insights by monitoring journey progress and results
 
-As soon as your journey starts running, it will be begin to generate and collect information about where your contacts are in their journey and how they've interacted with its various elements such as emails, pages, and events. Dynamics 365 Marketing provides a wealth of information, including analyitics, KPIs, graphs, and more, to help you gain insights from your marketing results. More information: [Analyze results to gain insights from your marketing activities](insights.md)
+As soon as your journey starts running, it will begin to generate and collect information about where your contacts are in their journey and how they've interacted with its various elements such as emails, pages, and events. Dynamics 365 Marketing provides a wealth of information, including analytics, KPIs, graphs, and more, to help you gain insights from your marketing results. More information: [Analyze results to gain insights from your marketing activities](insights.md)
 
 ### See also
 
