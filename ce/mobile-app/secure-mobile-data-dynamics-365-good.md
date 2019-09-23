@@ -31,7 +31,7 @@ search.app:
 As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated and will be removed from the iOS App Store on October 31, 2019. For more information, [Dynamics 365 for Blackberry is deprecated
 ](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).
 
-[!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)], integrated with [!INCLUDE[pn_good_dynamics](../includes/pn-good-dynamics.md)], protects your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data even if you lose or leave your mobile device somewhere. For example, if you leave your device in a taxi cab and can’t get it back right away, your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data is protected by [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] encryption. If you lose your device entirely, just notify your admin, who can remotely wipe your [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] data from your device.  
+[!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)], integrated with [!INCLUDE[pn_good_dynamics](../includes/pn-good-dynamics.md)], protects your Dynamics 365 apps data even if you lose or leave your mobile device somewhere. For example, if you leave your device in a taxi cab and can’t get it back right away, your Dynamics 365 apps data is protected by [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] encryption. If you lose your device entirely, just notify your admin, who can remotely wipe your [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] data from your device.  
   
  This app is intended for use only with [!INCLUDE[pn_good_dynamics](../includes/pn-good-dynamics.md)] server software and services from [!INCLUDE[pn_good_technology](../includes/pn-good-technology.md)]. If you’re not using [!INCLUDE[pn_good_dynamics](../includes/pn-good-dynamics.md)], download [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)] or [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] instead from the [Apple App store](http://go.microsoft.com/fwlink/p/?LinkID=313645).  
   
@@ -46,13 +46,13 @@ As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated 
   
 3. When prompted, select a [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] security password.  
   
-4. On the **Let’s get set up!** screen, enter your company’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web address.  
+4. On the **Let’s get set up!** screen, enter your company’s Dynamics 365 apps web address.  
   
    ![Dynamics 365 for tablets Let's get started screen for iPad](../admin/media/mobile-start-screen-apple.png "Dynamics 365 for tablets Let's get started screen for iPad")  
   
 5. Tap the **Arrow** button in the lower right corner to continue.  
   
-6. When prompted, type in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] credentials.  
+6. When prompted, type in your Dynamics 365 apps credentials.  
   
    Now that you’re signed in to the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] app, check out the [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md) to find out all you can do.  
   

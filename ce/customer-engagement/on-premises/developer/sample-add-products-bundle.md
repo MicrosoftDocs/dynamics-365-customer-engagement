@@ -8,8 +8,6 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples
-applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 58197c02-43e2-4856-bf81-a37b32953b90
 caps.latest.revision: 9
 author: KumarVivek
@@ -22,7 +20,7 @@ search.app:
 ---
 # Sample: Add products to a bundle
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Product Catalog samples](https://code.msdn.microsoft.com/Product-Catalog-Samples-5766194b).  
+This sample code is for Dynamics 365 Customer Engagement (on-premises). [Download the Product Catalog samples](https://code.msdn.microsoft.com/Product-Catalog-Samples-5766194b).  
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

@@ -56,6 +56,4 @@ Download link for Channel Integration Framework solution: [Channel Integration F
 
 ## See also
 
-[Dynamics 365 Channel Integration Framework Guide](index.md)
-
 [Download Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2050102)

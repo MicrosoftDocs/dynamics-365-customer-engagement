@@ -30,7 +30,7 @@ The admin can change what's displayed in the card that appears when you track th
 
 To change the fields that appear, follow these steps:
 
-1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
+1. In your app, go to **Settings** > **Customizations** > **Customize the System**.
 2. Expand **Entities** and choose an entity such as **Contact**.
 3. Expand the entity and select **Forms**, then select the **App for Outlook Contact Card** form.
 

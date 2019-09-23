@@ -1,5 +1,5 @@
 ---
-title: "Define goal metric and rollup fields (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Define goal metric and rollup fields | MicrosoftDocs"
 description: "To specify the goal metric type, participating entities, and whether you track actuals, custom or in-progress data, use the goal metric entity (Metric) and the rollup field (RollupField) entity"
 ms.custom: 
 ms.date: 10/31/2017
@@ -40,6 +40,7 @@ To specify the goal metric type, participating entities, and whether you track a
 >  All goals in the hierarchy must be based on the same goal metric and time period. If you create a child goal that is based on a different goal metric, an exception is thrown. If you specify a different time period for a child goal, the system will ignore the specified time period and use the parent goal time period. You can associate a goal with a new metric, if the goal does not have a parent goal or a child goal. Otherwise, an exception is thrown when you update the goal record.  
 
 <a name="BKMK_CreateGoalMetric"></a>   
+
 ## Create Goal Metric  
  There are two goal metric types: Amount and Count. The Amount metric type is expressed as a money value, an integer, or a decimal number. The Count metric type is an integer. For example, you can use the Amount (money) goal metric to track the revenues from all active opportunities or sales orders. An integer type can be used to track sales calls made by a salesperson. A decimal number can represent a product sold by weight, such as grain or sugar.  
   
