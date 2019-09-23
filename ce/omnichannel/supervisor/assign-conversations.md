@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-As a supervisor, you can assign conversations (work item) that customer initiates to a queue or an agent. By default, the system assigns the new conversations based on the routing rules. When the capacity of agents is full, the work distribution system does not assign the conversations to any agents. However, as a supervisor, you can  assign these conversations to an agent or add to a queue.
+As a supervisor, you can assign conversations (work item) that customer initiates to a queue or an agent. By default, the system assigns new conversations based on the routing rules. When the capacity of agents is full, the work distribution system does not assign the conversations to any agents. However, as a supervisor, you can assign these conversations to an agent or add to a queue.
 
 > [!NOTE]
 > Contact you administrator to enable the option to assign conversation in settings. To learn more, see [Enable supervisors to monitor and assign conversations](administrator/configure-ongoing-conversations-settings.md)
