@@ -134,7 +134,7 @@ Here are some things you need to be aware of to create and make the best use of 
   > [!NOTE]
   > iOS does not support updating pivot data and pivot charts when using the Microsoft Excel app on iOS devices.
 - **Set pivot chart data to automatically refresh**  
-  By default, pivot chart data is not automatically refreshed when you open the workbook. Other types of charts are updated automatically. In Excel, right-click the pivot chart, and then select **PivotChart Options** &gt; **Refresh data** when opening the file.
+  By default, pivot chart data is not automatically refreshed when you open the workbook. Other types of charts are updated automatically. In Excel, right-click the pivot chart, and then select **PivotChart Options** > **Refresh data** when opening the file.
   ![Pivot table options in Excel](media/excel-pivot-options-ill.png "Set pivot chart data to be automatically refreshed")
 - **Placing new data**  
   If you want to add content to the Excel template, place your data above or to the right side of the existing data. A second option is to place your new content on a second sheet.

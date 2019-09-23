@@ -34,7 +34,7 @@ Dashboard provide charts, graphs, and statistics that help give you an overview 
 
 Application dashboard give you the widest view, and draw data from throughout your application&mdash;possibly even from several Dynamics 365 applications.
 
-Usually, an application dashboard is the first thing you see when you sign in to Dynamics 365 Marketing. You can get back to it any time by going to **Marketing** &gt; **My Work** &gt; **Dashboards**. Most Dynamics 365 applications have a similar application dashboard.
+Usually, an application dashboard is the first thing you see when you sign in to Dynamics 365 Marketing. You can get back to it any time by going to **Marketing** > **My Work** > **Dashboards**. Most Dynamics 365 applications have a similar application dashboard.
 
 ### Choose an application dashboard
 
@@ -85,9 +85,9 @@ Many dashboards provide a widget that shows your most relevant activities. Usual
 
 Use the navigator to view lists of all activities of a particular type, and to view specific records of that type. Go to one of the following to see activities of the listed type:
 
-- **Marketing** &gt; **My Work** &gt; **Tasks**
-- **Marketing** &gt; **My Work** &gt; **Appointments**
-- **Marketing** &gt; **My Work** &gt; **Phone Calls**
+- **Marketing** > **My Work** > **Tasks**
+- **Marketing** > **My Work** > **Appointments**
+- **Marketing** > **My Work** > **Phone Calls**
 
 In each case, you'll arrive at a standard list view, which you can use to sort, search, filter, create, and delete activities of the selected type.
 

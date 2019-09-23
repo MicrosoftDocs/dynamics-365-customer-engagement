@@ -28,10 +28,10 @@ As you've seen, each time you create a new email message, customer journey, mark
 
 When you create a template, the process is nearly the same as when you create an actual message, page, journey, or form. Go to one of the following pages to create a template:
 
-- **Marketing** &gt; **Templates** &gt; **Customer Journey Templates**
-- **Marketing** &gt; **Templates** &gt; **Marketing Email Templates**
-- **Marketing** &gt; **Templates** &gt; **Marketing Page Templates**
-- **Marketing** &gt; **Templates** &gt; **Marketing Form Templates**
+- **Marketing** > **Templates** > **Customer Journey Templates**
+- **Marketing** > **Templates** > **Marketing Email Templates**
+- **Marketing** > **Templates** > **Marketing Page Templates**
+- **Marketing** > **Templates** > **Marketing Form Templates**
 
 In each case, you'll start with a list of available templates, which you can open and edit as needed. And you can create a new template by selecting **New** on the command bar.
 

@@ -28,7 +28,7 @@ search.app:
 
 In [Create a simple customer journey with email messaging](create-simple-customer-journey.md), you created the simplest possible customer journey, which simply sends an email message to all contacts in a segment. Now we'll go a bit deeper into customer journeys to see how to add interactive features and decision points by including landing pages and triggers in the design.
 
-1. Go to **Marketing** &gt; **Marketing Execution** &gt; **Marketing Emails** and create a new email message like the one you made in [Create a marketing email and go live](create-marketing-email.md). Be sure to include all the minimum requirements&mdash;name, subject, from-contact, subscription center link, and sender physical address—but don't go live yet.
+1. Go to **Marketing** > **Marketing Execution** > **Marketing Emails** and create a new email message like the one you made in [Create a marketing email and go live](create-marketing-email.md). Be sure to include all the minimum requirements&mdash;name, subject, from-contact, subscription center link, and sender physical address—but don't go live yet.
 
     > [!TIP]
     > Consider choosing a non-blank email template this time. These templates not only have sample content, graphics, and column layouts, but also include all mandatory elements such as the subscription center link and physical address.
@@ -55,7 +55,7 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 
      Remember to include all required elements and to go live with each of them.
 
-7. Go to **Marketing** &gt; **Marketing Execution** &gt; **Customer Journeys** and create a new customer journey like the one you made in [Create a simple customer journey with email messaging](create-simple-customer-journey.md). As before, add the following:
+7. Go to **Marketing** > **Marketing Execution** > **Customer Journeys** and create a new customer journey like the one you made in [Create a simple customer journey with email messaging](create-simple-customer-journey.md). As before, add the following:
    - Place a **Segment Group** tile in the first position, and configure its nested **Segment** tile to reference the segment of test contacts you made in [Create a dynamic segment](create-segment.md).
    - Add an **Email** tile right after the **Segment Group**, and configure it to reference the first email message you made for this exercise (with the landing page button).
 

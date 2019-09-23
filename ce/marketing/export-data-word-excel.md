@@ -57,7 +57,7 @@ The process for using an Excel template looks like this:
 
 In Dynamics 365 Marketing, select a record type (entity) to export to an Excel workbook.
 
-For example, go to **Marketing** &gt; **Lead management** &gt; **Leads**.
+For example, go to **Marketing** > **Lead management** > **Leads**.
 
 ### Step 2: Export Dynamics 365 Marketing data by using an Excel template
 

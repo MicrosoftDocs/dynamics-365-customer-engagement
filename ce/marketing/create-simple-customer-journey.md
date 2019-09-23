@@ -36,7 +36,7 @@ Before you start, you'll need:
 
 To create a customer journey that executes a one-time email blast:
 
-1. Go to **Marketing** &gt; **Marketing Execution** &gt; **Customer Journeys**. This takes you to a list of existing customer journeys.  
+1. Go to **Marketing** > **Marketing Execution** > **Customer Journeys**. This takes you to a list of existing customer journeys.  
     ![Location of the new-journey button](media/new-journey-button-location.png "Location of the New button to create a journey")
 
     On the command bar, select **New**.

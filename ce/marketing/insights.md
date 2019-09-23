@@ -240,7 +240,7 @@ Marketing forms provide the following [categories](#categories) on the **Insight
 
 ## Website insights
 
-To view website insights, go to **Marketing** > **Internet marketing** > **Websites**, select a website record, and then open its **Insights** tab.
+To view website insights, go to **Marketing** > **Internet marketing** > **Marketing websites**, select a website record, and then open its **Insights** tab.
 
 Marketing pages provide the following [categories](#categories) on the **Insights** tab:
 

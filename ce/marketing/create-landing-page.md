@@ -33,7 +33,7 @@ In Dynamics 365 Marketing, a landing page is a type of *marketing page*. Other t
 
 To create a landing page and go live:
 
-1. Most landing pages include an input form that people can use to submit information, so you'll start by creating the form itself. Go to **Marketing** &gt; **Internet Marketing** &gt; **Marketing Forms**.  
+1. Most landing pages include an input form that people can use to submit information, so you'll start by creating the form itself. Go to **Marketing** > **Internet Marketing** > **Marketing Forms**.  
     ![Location of the New button](media/form-new-button-location.png "Location of the New button")
 
     On the command bar, select **New**.

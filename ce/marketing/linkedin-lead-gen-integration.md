@@ -44,7 +44,7 @@ For more information about assigning security roles to users, see [Create users 
 
 To use this feature, you must authorize Dynamics 365 Marketing to connect to LinkedIn using an existing LinkedIn account that has access to [LinkedIn Campaign Manager](https://www.linkedin.com/help/lms/answer/56969). To do this: 
 
-1. Go to **Marketing** &gt; **LinkedIn Lead Gen** &gt; **User Profiles**. A list of existing profiles opens (if any).
+1. Go to **Marketing** > **LinkedIn Lead Gen** > **User Profiles**. A list of existing profiles opens (if any).
 
 1. Select **Authorize** on the command bar.
 
@@ -69,7 +69,7 @@ When a LinkedIn lead matches a lead record in Dynamics 365, the lead record is u
 
 ### See the details of a lead
 
-To see the details of a lead record in Dynamics 365 Marketing, go to **Marketing** &gt; **Lead management** &gt; **Leads**, and then select the lead record from the list. If the lead was created by Dynamics 365 Connector for LinkedIn Lead Gen Forms, the lead source is **LinkedIn Sponsored Content**. If an existing lead record was updated, Dynamics 365 updates the lead field values by using the information submitted by the lead on LinkedIn. More information: [Create or edit a lead (Sales and Sales Hub)](../sales-enterprise/create-edit-lead-sales.md)
+To see the details of a lead record in Dynamics 365 Marketing, go to **Marketing** > **Lead management** > **Leads**, and then select the lead record from the list. If the lead was created by Dynamics 365 Connector for LinkedIn Lead Gen Forms, the lead source is **LinkedIn Sponsored Content**. If an existing lead record was updated, Dynamics 365 updates the lead field values by using the information submitted by the lead on LinkedIn. More information: [Create or edit a lead (Sales and Sales Hub)](../sales-enterprise/create-edit-lead-sales.md)
 
 To see the information collected by LinkedIn Lead Gen for any lead, regardless of how it was created, open the lead and go to its **LinkedIn Lead Info** tab.
 
@@ -81,7 +81,7 @@ When you create your own dashboard, consider adding a chart for the record type 
 
 ### Analyze individual LinkedIn Lead Gen forms and submissions
 
-To see all form submissions in Dynamics 365 Marketing, go to **Marketing** &gt; **LinkedIn Lead Gen** &gt; **Form Submissions**. You can drill down to individual submissions to see the details of the lead and the information provided by the LinkedIn members when they answered the underlying LinkedIn Lead Gen form. LinkedIn Lead Gen forms refer to the ad campaigns on LinkedIn that generate leads. Every campaign creates a new Lead Gen form, and answers to the campaigns are captured as LinkedIn form submissions.
+To see all form submissions in Dynamics 365 Marketing, go to **Marketing** > **LinkedIn Lead Gen** > **Form Submissions**. You can drill down to individual submissions to see the details of the lead and the information provided by the LinkedIn members when they answered the underlying LinkedIn Lead Gen form. LinkedIn Lead Gen forms refer to the ad campaigns on LinkedIn that generate leads. Every campaign creates a new Lead Gen form, and answers to the campaigns are captured as LinkedIn form submissions.
 
 ## See the sync status for LinkedIn data 
 

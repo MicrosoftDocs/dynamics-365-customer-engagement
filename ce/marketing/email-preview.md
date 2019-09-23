@@ -38,8 +38,8 @@ Your marketing email messages will probably be seen by many potential customers,
 
 The content designer provides two types of previews when you're designing a marketing email message:
 
-- **Standard preview**: Go to the **Designer** &gt; **Preview** &gt; **Basic Preview** tab to see the standard designer preview and choose between various form factors, contacts, and content settings.
-- **Inbox preview**: Go to the **Designer** &gt; **Preview** &gt; **Inbox Preview** tab to see real-world inbox previews that show your design exactly as it will appear in a wide variety of target email clients and platforms.
+- **Standard preview**: Go to the **Designer** > **Preview** > **Basic Preview** tab to see the standard designer preview and choose between various form factors, contacts, and content settings.
+- **Inbox preview**: Go to the **Designer** > **Preview** > **Inbox Preview** tab to see real-world inbox previews that show your design exactly as it will appear in a wide variety of target email clients and platforms.
 
 See the next sections for details about each of these types of previews.
 
@@ -48,11 +48,11 @@ See the next sections for details about each of these types of previews.
 
 ## Use the basic preview feature
 
-Go to the **Designer** &gt; **Preview** &gt; **Basic Preview** tab to see an in-browser preview that simulates how your message will typically be rendered on various form factors (desktop, tablet, or phone) and orientations (portrait or landscape).
+Go to the **Designer** > **Preview** > **Basic Preview** tab to see an in-browser preview that simulates how your message will typically be rendered on various form factors (desktop, tablet, or phone) and orientations (portrait or landscape).
 
-Use the form-factor icons on the left side of the **Designer** &gt; **Preview** &gt; **Basic Preview** tab to switch between the available form factors for the preview.
+Use the form-factor icons on the left side of the **Designer** > **Preview** > **Basic Preview** tab to switch between the available form factors for the preview.
 
-Use the following drop-down lists on the right side of the **Designer** &gt; **Preview** &gt; **Basic Preview** tab (under the **Properties** heading) to test the effects of your dynamic content and logic:
+Use the following drop-down lists on the right side of the **Designer** > **Preview** > **Basic Preview** tab (under the **Properties** heading) to test the effects of your dynamic content and logic:
 
 - **Contact**: Choose a representative contact record to supply field values. Field values from your selected contact, and other dynamic content that reacts to these values, will be shown in your preview.
 - **Content Settings**: The content settings establish a marketing context for your message, and values stored here might affect your message content. The content settings also include information about your organization, including its postal address and the ID of a Dynamics 365 Marketing subscription center page. In a basic setup, you might have just one set of content settings for your entire organization. But in a more advanced configuration, you might reuse a single marketing email message in several different contexts (such as for different products or different events); in this case, the content settings can be different for each customer journey where you use the message. More information: [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings).
@@ -61,7 +61,7 @@ Use the following drop-down lists on the right side of the **Designer** &gt; **P
 
 ## Use the advanced inbox preview feature
 
-Go to the **Designer** &gt; **Preview** &gt; **Inbox Preview** tab to see real-world inbox previews that show your design exactly as it will appear in a wide variety of target email clients and platforms. This feature renders your message by using native code from each of the listed target platforms, and then delivers your preview as an image file showing the precise results. As with the simple preview, you can use the **Designer** &gt; **Preview** &gt; **Inbox Preview** &gt; **Properties** tab to choose a **Contact** record and **Resource Set** from which to draw dynamic values (see also the previous section).
+Go to the **Designer** > **Preview** > **Inbox Preview** tab to see real-world inbox previews that show your design exactly as it will appear in a wide variety of target email clients and platforms. This feature renders your message by using native code from each of the listed target platforms, and then delivers your preview as an image file showing the precise results. As with the simple preview, you can use the **Designer** > **Preview** > **Inbox Preview** > **Properties** tab to choose a **Contact** record and **Resource Set** from which to draw dynamic values (see also the previous section).
 
 The inbox preview is provided by a Microsoft partner called Litmus Software, Inc. ([litmus.com](https://litmus.com/)). Your Dynamics 365 Marketing license includes a limited number of inbox previews per month, and this quota is shared by your entire organization. After your organization has used all the available previews for the month, each user must set up their own Litmus account if they want to create additional previews. Personal Litmus quotas apply to individual users, not to the entire organization. When you've used all your free previews, you'll be given the option to sign in to Litmus directly from the **Inbox Preview** tab in Dynamics 365 Marketing. After you're signed in, the integration is seamless.
 

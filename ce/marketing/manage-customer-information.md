@@ -34,7 +34,7 @@ Contacts represent individual people. They are the primary customer entity in Dy
 
 Most of your contacts will represent customers or potential customers, but you might also include partners or suppliers among your contacts, especially for events where you'll also typically include speakers, vendors, and sponsors in your contacts database.
 
-To view, create, or edit a contact, go to **Marketing** &gt; **Customers** &gt; **Contacts**. This brings to you a standard list view, which you can use to search, sort, filter, create, and delete your contacts. Open any contact to view its details.
+To view, create, or edit a contact, go to **Marketing** > **Customers** > **Contacts**. This brings to you a standard list view, which you can use to search, sort, filter, create, and delete your contacts. Open any contact to view its details.
 
 The contacts entity is common for and shared by most Dynamics 365 apps for the Common Data Service platform, but Dynamics 365 Marketing adds several enhancements to it, including:
 
@@ -59,7 +59,7 @@ Accounts are companies that you market and sell to. They can also be partner com
 > [!IMPORTANT]
 > Customer journeys can only target contacts, not accounts or leads, so be sure to create contact records for everyone you want to include in your customer journeys, and then associate each of them with any relevant accounts or leads.
 
-To view, create, or edit an account, go to **Marketing** &gt; **Customers** &gt; **Accounts**. This brings to you a standard list view, which you can use to search, sort, filter, create, and delete your accounts. Open any account to view its details.
+To view, create, or edit an account, go to **Marketing** > **Customers** > **Accounts**. This brings to you a standard list view, which you can use to search, sort, filter, create, and delete your accounts. Open any account to view its details.
 
 <a name="leads-in-marketing"></a>
 
@@ -75,7 +75,7 @@ Dynamics 365 Marketing keeps an eye on your leads and can automatically score ea
 
 Dynamics 365 Marketing collects detailed interaction records for each contact. These records include information such as email opens, email clicks, website visits, and more. Interaction records relate to contacts, not to leads or accounts, so when you are reviewing marketing insights for a lead or account, you're actually viewing interaction records for the contact(s) associated with that lead or account. Leads that don't have a contact associated with them won't show many insights and also can't be scored automatically by Dynamics 365 Marketing.
 
-To view, create, or edit a lead, go to **Marketing** &gt; **Customers** &gt; **Leads**. This brings to you a standard list view, which you can use to search, sort, filter, create, and delete your leads. Open any lead to view its details. Select **New** in the command bar to create a new lead.
+To view, create, or edit a lead, go to **Marketing** > **Customers** > **Leads**. This brings to you a standard list view, which you can use to search, sort, filter, create, and delete your leads. Open any lead to view its details. Select **New** in the command bar to create a new lead.
 
 More information: [The lead lifecycle](lead-lifecycle.md)
 

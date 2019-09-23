@@ -67,7 +67,7 @@ More information: [Go live with publishable entities and track their status](go-
 
 ## View, create, and manage your segments
 
-To work with your segments, go to **Marketing** &gt; **Customers** &gt; **Segments**. This opens a standard list view, which you can use to search, sort, filter, create, and delete your segments. Open any segment to view its details, or select **New** to create a new one.
+To work with your segments, go to **Marketing** > **Customers** > **Segments**. This opens a standard list view, which you can use to search, sort, filter, create, and delete your segments. Open any segment to view its details, or select **New** to create a new one.
 
 ![The General tab for segments](media/segment-general.png "The General tab for segments")
 

@@ -30,7 +30,7 @@ In Dynamics 365 Marketing, you'll set up a collection of segments, which you'll 
 
 In this exercise, you'll create a couple of fictional contacts with email addresses that you can receive mail from, and then set up a test segment that includes those contacts. This test segment will be useful later when you begin to experiment with customer journeys.
 
-1. Go to **Marketing** &gt; **Customers** &gt; **Contacts**. This takes you to a list of existing contacts. On the command bar, select **New**.  
+1. Go to **Marketing** > **Customers** > **Contacts**. This takes you to a list of existing contacts. On the command bar, select **New**.  
     ![Location of the new-contact button](media/new-contact-button-location.png "Location of the New button to create a contact")
 
 2. The **New Contact** page opens.  
@@ -45,7 +45,7 @@ In this exercise, you'll create a couple of fictional contacts with email addres
 
 4. Create a second contact similar to the one you just made. Use the same email address and fictional city, but use a different first and last name.
 
-5. Go to **Marketing** &gt; **Customers** &gt; **Segments**. This takes you to a list of existing segments. On the command bar, select **New**.  
+5. Go to **Marketing** > **Customers** > **Segments**. This takes you to a list of existing segments. On the command bar, select **New**.  
     ![Location of the new-segment button](media/new-segment-button-location.png "Location of the New button to create a segment")
 
 6. The **New Segment** page opens, with the **General** tab shown. Enter information on the **General** tab to name and describe your new segment. Be sure to leave the **Segment type** set to **Dynamic segment**.  

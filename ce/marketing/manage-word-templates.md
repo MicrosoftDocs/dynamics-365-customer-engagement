@@ -72,7 +72,7 @@ Open the Word template file. At this point, the document appears to be blank.
 
 To see and add Dynamics 365 XML data, you need to enable the **Word Developer** tab.
 
-1. Go to **File** &gt; **Options** &gt; **Customize Ribbon**, and then select the **Developer** check box.
+1. Go to **File** > **Options** > **Customize Ribbon**, and then select the **Developer** check box.
 
     ![The Customize Ribbon dialog in Word](media/word-custom-ribbon-ill.png "Add the Developer tab to your ribbon in Word")
 
@@ -86,7 +86,7 @@ The **Developer** tab now appears in the Word ribbon.
 
 Use the **XML Mapping Pane** to define the Word template by using Dynamics 365 entity fields.
 
-1. In your Word template, select **Developer** &gt; **XML Mapping Pane**.
+1. In your Word template, select **Developer** > **XML Mapping Pane**.
 
     ![The XML Mapping Pane button on the Developer tab](media/word-XML-mapping-ribbon-ill.png "The XML Mapping Pane button on the Developer tab")
 
@@ -101,7 +101,7 @@ Use the **XML Mapping Pane** to define the Word template by using Dynamics 365 e
    > [!IMPORTANT]
    > If you have frequent accidental edits that cause Word to freeze or degrade its performance, turn off the AutoCorrect options.
 
-3. Expand the entity to see all available fields, right-click the field you want to add, and then select **Insert Content Control** &gt; **Plain Text**.
+3. Expand the entity to see all available fields, right-click the field you want to add, and then select **Insert Content Control** > **Plain Text**.
 
     ![Insert Content Control menu](media/ill-word-add-field.png "Select a field to add as plain text")
 

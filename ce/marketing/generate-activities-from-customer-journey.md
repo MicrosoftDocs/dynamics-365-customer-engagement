@@ -34,7 +34,7 @@ When you add an **Activity** tile to a customer journey, you'll choose an activi
 
 For this exercise, you'll set up a template to create task activities, and then set up a simple customer journey that generates a task associated with each member of a selected segment.
 
-1. Go to **Marketing** &gt; **Templates** &gt; **Task Activity Marketing Templates**.
+1. Go to **Marketing** > **Templates** > **Task Activity Marketing Templates**.
 
 2. On the command bar, select **+New**. The **New Task Activity Marketing Template** page opens.  
     ![Activity template settings](media/journey-activity-template.png "Activity template settings")  
@@ -45,7 +45,7 @@ For this exercise, you'll set up a template to create task activities, and then 
 
 4. On the command bar, select **Save** to save your template.
 
-5. Go to **Marketing** &gt; **Marketing Execution** &gt; **Customer Journeys**.
+5. Go to **Marketing** > **Marketing Execution** > **Customer Journeys**.
 
 6. On the command bar, select **+New** to create a new journey.
 
@@ -80,7 +80,7 @@ For this exercise, you'll set up a template to create task activities, and then 
 
 14. On the command bar, select **Go Live** to activate the journey.
 
-15. Go to **Marketing** &gt; **My Work** &gt; **Tasks**. From the view menu, select **All Tasks** to make sure you can see all tasks in the system.  
+15. Go to **Marketing** > **My Work** > **Tasks**. From the view menu, select **All Tasks** to make sure you can see all tasks in the system.  
      ![Set the tasks view to show all](media/tasks-view-all.png "Set the tasks view to show all")
 
 16. You should now see a list of tasks. After your journey has had time to run, you'll start to see your generated tasks here, with the **Subject** you specified for the template shown as the **Subject** and the **Regarding** value set to a contact from the segment you targeted with your journey.  

@@ -29,11 +29,11 @@ The activity tile enables a customer journey to generate an activity record (suc
 To view, edit, and create an activity marketing template, go to one of the following areas, depending on which type of activity you are setting up:
 
 - For phone-call activities, go to
- **Templates** &gt; **Phone Call Activity Marketing Templates**.
+ **Templates** > **Phone Call Activity Marketing Templates**.
 - For task activities, go to
- **Templates** &gt; **Task Activity Marketing Templates**.
+ **Templates** > **Task Activity Marketing Templates**.
 - For appointment activities, go to
- **Templates** &gt; **Appointment Activity Marketing Templates**.
+ **Templates** > **Appointment Activity Marketing Templates**.
 
 In each case, you'll go to a list showing templates of your selected type. The list includes the usual controls to search, sort, and filter the list, and to add or remove templates.
 

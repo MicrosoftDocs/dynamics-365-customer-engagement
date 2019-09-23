@@ -49,7 +49,7 @@ When a new LinkedIn form submission arrives, Dynamics 365 Marketing tries to mat
 
 ### Create or edit a LinkedIn lead matching strategy
 
-1. Go to **Settings** > **Advanced settings** > **LinkedIn Lead Gen** &gt; **Lead matching strategy**. A list of exsting strategy opens.
+1. Go to **Settings** > **Advanced settings** > **LinkedIn Lead Gen** > **Lead matching strategy**. A list of exsting strategy opens.
 1. Do one of the following:
     - To create a new matching strategy, select **New** on the command bar. Then enter a **Name** and select **Save** on the command bar to save your record and enable the matching table.
     - To edit an existing matching strategy, select the target strategy from the list.
@@ -69,14 +69,14 @@ When a new LinkedIn form submission arrives, Dynamics 365 Marketing tries to mat
 
 ### Activate a different LinkedIn lead matching strategy
 
-1. Go to **Settings** > **Advanced settings** > **LinkedIn Lead Gen** &gt; **Lead matching strategy**.
+1. Go to **Settings** > **Advanced settings** > **LinkedIn Lead Gen** > **Lead matching strategy**.
 1. In the list, select the matching strategy that you want to activate.
 1. In the **Activate** menu in the matching strategy details, select **Yes**.
 1. If another matching strategy is active, it will become deactivated.
 
 ### Delete a LinkedIn lead matching strategy
 
-1. Go to **Settings** > **Advanced settings** > **LinkedIn Lead Gen** &gt; **Lead matching strategy**.
+1. Go to **Settings** > **Advanced settings** > **LinkedIn Lead Gen** > **Lead matching strategy**.
 1. Select the check box for the lead matching strategy you want to delete.
     You can't delete the activated lead matching strategy.
 1. Select **Delete**, and then confirm your deletion.
@@ -91,7 +91,7 @@ Only mapped fields can be saved with your lead record in Dynamics 365, and when 
 
 ### Create or edit a new field mapping
 
-1. Go to **Settings** > **Advanced settings** > **LinkedIn Lead Gen** &gt; **Lead field mappings**. A list of existing field mappings opens; some of these may have been discovered automatically when you set up the LinkedIn integration but not all may be mapped yet.
+1. Go to **Settings** > **Advanced settings** > **LinkedIn Lead Gen** > **Lead field mappings**. A list of existing field mappings opens; some of these may have been discovered automatically when you set up the LinkedIn integration but not all may be mapped yet.
 1. Do one of the following:
     - To create a new field mapping, select **New** on the command bar.
     - To edit an existing field mapping, select the mapping from the list.
@@ -102,7 +102,7 @@ Only mapped fields can be saved with your lead record in Dynamics 365, and when 
 
 ### Remove an existing field mapping
 
-1. Go to **Settings** > **Advanced settings** > **LinkedIn Lead Gen** &gt; **Lead field mappings**.
+1. Go to **Settings** > **Advanced settings** > **LinkedIn Lead Gen** > **Lead field mappings**.
 2. Select the field mapping that you want to remove.
 3. Select **Delete** on the command bar and confirm the deletion.
 

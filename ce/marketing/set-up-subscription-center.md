@@ -102,7 +102,7 @@ Subscription lists are based on the standard (static) marketing lists feature of
 
 Now that you have a subscription list available, you can add it to a subscription form. The procedure is nearly the same as when you add other types of input fields to a form.
 
-1. Go to **Marketing** &gt; **Internet Marketing** &gt; **Marketing Forms**.
+1. Go to **Marketing** > **Internet Marketing** > **Marketing Forms**.
 
 1. You now see a list of forms. On the command bar, select **New** to create a new one.
 
@@ -143,7 +143,7 @@ Now that you have a subscription list available, you can add it to a subscriptio
 
 ## Create a subscription center marketing page
 
-Go to **Marketing** &gt; **Internet Marketing** &gt; **Marketing Pages** and create a subscription center page by using the same basic procedure that you used to create a landing page, but be sure to do the following:
+Go to **Marketing** > **Internet Marketing** > **Marketing Pages** and create a subscription center page by using the same basic procedure that you used to create a landing page, but be sure to do the following:
 
 1. Make sure the page **Type** is **Subscription Center**, or choose a marketing page template where **Type** is **Subscription Center**.
 
@@ -161,7 +161,7 @@ For a detailed walkthrough of how to create a marketing page, see [Create a land
 
 Content settings hold common values that you can place into an email message as dynamic text by using assist-edit (or by typing the correct code). You can create as many content-settings records as you need, and you must assign one to each customer journey. Because of this architecture, you can use the same email message in several customer journeys, but the subscription center link (and other content settings) included in the message can be different for each journey.
 
-To work with content settings records, go to **Marketing** &gt; **Templates** &gt; **Content Settings**. This brings you to a list of current content settings. As usual, you can edit any listed record or select **New** on the command bar to create a new one.
+To work with content settings records, go to **Marketing** > **Templates** > **Content Settings**. This brings you to a list of current content settings. As usual, you can edit any listed record or select **New** on the command bar to create a new one.
 
 > [!TIP]
 > Like email messages and customer journeys, content settings must be published to the Dynamics 365 Marketing email marketing service (by selecting **Go Live**). If you need to edit a live content-settings record, choose **Edit** on the toolbar after opening the record, make your changes, and then select **Save**; on save, it automatically publishes your changes and returns to the live state.
@@ -211,7 +211,7 @@ For more information about content settings and the assist-edit tool, see [Add d
 
 As mentioned, content settings are defined on the customer journey level, and apply to all email messages sent by that journey. To view and edit the content settings applied to a journey:
 
-1. Go to **Marketing** &gt; **Marketing Execution** &gt; **Customer Journeys**.
+1. Go to **Marketing** > **Marketing Execution** > **Customer Journeys**.
 
 1. Find your journey in the list, or select **New** in the command bar to create a new one.
 

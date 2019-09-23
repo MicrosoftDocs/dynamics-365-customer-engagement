@@ -39,7 +39,7 @@ Email is a vital marketing channel for most modern organizations. It's also a co
 
 To create a marketing email and go live:
 
-1. Go to **Marketing** &gt; **Marketing Execution** &gt; **Marketing Emails**. This takes you to a list of existing marketing emails.  
+1. Go to **Marketing** > **Marketing Execution** > **Marketing Emails**. This takes you to a list of existing marketing emails.  
     ![Location of the new-email button](media/new-email-button-location.png "Location of the new-email button")
 
     On the command bar, select **New**.

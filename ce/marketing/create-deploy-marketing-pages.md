@@ -93,13 +93,13 @@ Select **Save** on the command bar after you've finished making these settings.
 
 After choosing a template, you'll be in the page content designer, which resembles the other digital content designers provided in Dynamics 365 Marketing. Work with it as follows:
 
-- The **Content** &gt; **Designer** tab provides a graphical tool that you use to design your content by using drag-and-drop, point-and-click operations. Add new elements to your design by dragging elements from the **Content** &gt; **Designer** &gt; **Toolbox** tab to the content canvas. Choose a design element that already exists in your design, and then use the **Content** &gt; **Designer** &gt; **Properties** tab to configure and style it.
+- The **Content** > **Designer** tab provides a graphical tool that you use to design your content by using drag-and-drop, point-and-click operations. Add new elements to your design by dragging elements from the **Content** > **Designer** > **Toolbox** tab to the content canvas. Choose a design element that already exists in your design, and then use the **Content** > **Designer** > **Properties** tab to configure and style it.
 
 - When you select a design element on the canvas, you'll usually see a pop-up toolbar just above the element. The tools it offers vary depending on which type of design element you've selected. The toolbar typically provides commands to move, copy, or delete the selected element. For text elements, the toolbar offers commands for applying basic text formatting as you would in Microsoft Word.
 
-- To style the overall page with basic fonts, colors, and background, open the **Content** &gt; **Designer** &gt; **Styles** tab.
+- To style the overall page with basic fonts, colors, and background, open the **Content** > **Designer** > **Styles** tab.
 
-- Use the **Designer** &gt; **HTML** tab to edit the raw HTML directly. You might use this to paste in an existing HTML design, or to fine-tune the code in ways the graphical editor doesn't support (such as custom attributes or logic).
+- Use the **Designer** > **HTML** tab to edit the raw HTML directly. You might use this to paste in an existing HTML design, or to fine-tune the code in ways the graphical editor doesn't support (such as custom attributes or logic).
 
 > [!IMPORTANT]
 > The HTML code for marketing pages published to the portal must be less than 64 KB in size (not including placed images or imported scripts). You'll get an error if you try to publish designs that are larger than this.
@@ -110,7 +110,7 @@ More information: [Design your digital content](design-digital-content.md)
 
 Dynamics 365 Marketing comes with a collection of sample templates to help get you started quickly. You can also save your own templates, which you might do to establish your own visual identity and quickly create new pages that conform to it.
 
-You can view, edit, and create all marketing page templates by going to **Marketing** &gt; **Templates** &gt; **Marketing Page Templates**. The process for creating a new template is similar to creating a new page, but you'll start from a blank slate rather than choose a template at the beginning.
+You can view, edit, and create all marketing page templates by going to **Marketing** > **Templates** > **Marketing Page Templates**. The process for creating a new template is similar to creating a new page, but you'll start from a blank slate rather than choose a template at the beginning.
 
 More information: [Work with email, page, and form templates](email-templates.md)
 
