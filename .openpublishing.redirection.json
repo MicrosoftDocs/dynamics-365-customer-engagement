@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/project-service/new-upcoming.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customize/import-update-export-solutions.md",
       "redirect_url": "export-solution",
       "redirect_document_id": "false"
