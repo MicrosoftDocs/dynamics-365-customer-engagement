@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 Customer Engagement (on-premises) Help | MicrosoftDocs"
+title: "Microsoft Dynamics 365 Customer Engagement (on-premises) Help | MicrosoftDocs"
 description: "Welcome to the Dynamics 365 Customer Engagement (on-premises) Help, version 9.x."
 ms.custom: on-premises
 ms.date: 10/1/2019
@@ -8,9 +8,9 @@ ms.service: crm
 ms.topic: "article"
 author: "kvivek"
 ms.author: "KumarVivek"
-manager: "kvivek"
+manager: "annbe"
 ---
-# Dynamics 365 Customer Engagement (on-premises) Help, version 9.x
+# Microsoft Dynamics 365 Customer Engagement (on-premises) Help, version 9.x
 
 Welcome to the Dynamics 365 Customer Engagement (on-premises) Help!
 
@@ -29,3 +29,6 @@ For *on-premises* customers, "Dynamics 365 Customer Engagement (on-premises)" is
 
 To avoid duplicating the common information between Customer Engagement (on-premises) and PowerApps/Common Data Service documentation, you will find a lot of references and links from this guide pointing to the Common Data Service and PowerApps documentation.  
 
+## Documentation for previous version
+
+Documentation for previous version (8.x and earlier) is available here: <https://docs.microsoft.com/en-us/previous-versions/dynamics/>.
