@@ -26,7 +26,7 @@ search.app:
 You use parameters in reports to control the data retrieved by prompting the user for a value or a set of values when the user runs the report. The dataset query retrieves only the data that is requested by the user. You can also add hidden and special parameters in the reports that do not prompt the user for input, but can be used for operations such as data filtering and dynamic drill-through.  
 
 > [!NOTE]
->  The maximum length of the parameter values that are passed in from Common Data Service and Microsoft Dynamics 365 Customer Engagement (on-premises) is 2,000 characters. For example, if you run a report and create a data filter through the **Advanced Find** user interface, the resulting filter expression that is passed to a filter parameter cannot exceed 2,000 characters. There is no maximum limit on the number of parameters that you can specify. However, you might have to limit the length of the string on the URL line and number of parameters to meet the requirements of a particular browser.  
+>  The maximum length of the parameter values that are passed in from Microsoft Dynamics 365 Customer Engagement (on-premises) is 2,000 characters. For example, if you run a report and create a data filter through the **Advanced Find** user interface, the resulting filter expression that is passed to a filter parameter cannot exceed 2,000 characters. There is no maximum limit on the number of parameters that you can specify. However, you might have to limit the length of the string on the URL line and number of parameters to meet the requirements of a particular browser.  
 
 <a name="BKMK_Adding"></a>   
 ## Adding parameters  
@@ -121,7 +121,7 @@ You use parameters in reports to control the data retrieved by prompting the use
 |      `CRM_URL`       |                              Set to the URL of the app. Use this parameter when drilling through.                              |
 | `CRM_FilteredEntity` |                                                                                         Use in a query expression to enable data pre-filtering (through **Advanced Find**).                                                                                          |
 
- You must create all parameters in a report before you can refer to them. The values of these special parameters are filled in by Common Data Service and Customer Engagement (on-premises)when you run the report.  
+ You must create all parameters in a report before you can refer to them. The values of these special parameters are filled in by Customer Engagement (on-premises) when you run the report.  
 
 ### Additional format parameters  
  The following table contains additional parameters that you can use in the reports. Among them are parameters that provide access to the user Number settings information. You can use these values to format and display the numeric values. These parameters are similar to values specified in the [NumberFormatInfo Class](https://msdn.microsoft.com/library/system.globalization.numberformatinfo.aspx). Use these parameters in custom reports to format the data according to the user settings.  

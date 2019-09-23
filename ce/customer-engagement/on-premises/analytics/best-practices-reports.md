@@ -50,7 +50,7 @@ The following best practices can help you produce reports that are easier to wri
 ### Best practices when you create reports that include date and time fields  
  When you create reports that use date and time fields, be aware of the following:  
   
-- To be consistent with the date and time values in Common Data Service and Customer Engagement (on-premises), when you create reports that use a Coordinated Universal Time (UTC)-based field (Time-Zone Independent or Date Only) don’t convert the value to a regional time-zone based (User Local) value.  
+- To be consistent with the date and time values in Customer Engagement (on-premises), when you create reports that use a Coordinated Universal Time (UTC)-based field (Time-Zone Independent or Date Only) don’t convert the value to a regional time-zone based (User Local) value.  
   
 - If you make a change to the date and time behavior of a field in an entity, you may need to regenerate reports that use that date and time for the report to display the field correctly.  
   
