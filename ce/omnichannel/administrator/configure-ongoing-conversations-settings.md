@@ -32,6 +32,6 @@ As an administrator, you must enable the settings to monitor or assign conversat
 
 ### See Also
 
-[Monitor conversations](supervisor/monitor-conversations.md)
+[Monitor conversations](../supervisor/monitor-conversations.md)
 
-[Assign conversation](supervisor/assign-conversation.md)
+[Assign conversation](../supervisor/assign-conversation.md)

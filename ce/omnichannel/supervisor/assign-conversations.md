@@ -20,7 +20,7 @@ ms.custom:
 As a supervisor, you can assign conversations (work item) that customer initiates to a queue or an agent. By default, the system assigns new conversations based on the routing rules. When the capacity of agents is full, the work distribution system does not assign the conversations to any agents. However, as a supervisor, you can assign these conversations to an agent or add to a queue.
 
 > [!NOTE]
-> Contact you administrator to enable the option to assign conversation in settings. To learn more, see [Enable supervisors to monitor and assign conversations](administrator/configure-ongoing-conversations-settings.md)
+> Contact you administrator to enable the option to assign conversation in settings. To learn more, see [Enable supervisors to monitor and assign conversations](../administrator/configure-ongoing-conversations-settings.md)
 
 ## Assign conversation
 
@@ -57,6 +57,6 @@ You can assign conversation to an agent or add to a queue that are in the **Open
 
 [Configure intraday insights dashboard for Unified Service Desk](../administrator/configure-intraday-dashboard-supervisor.md)
 
-[Enable supervisors to monitor and assign conversations](administrator/configure-ongoing-conversations-settings.md)
+[Enable supervisors to monitor and assign conversations](../administrator/configure-ongoing-conversations-settings.md)
 
 [Enable sentiment analysis](../administrator/enable-sentiment-analysis.md)
