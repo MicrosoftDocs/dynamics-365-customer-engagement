@@ -193,13 +193,13 @@ One typical way to take advantage of this feature is to set the **From name** an
 1. Delete the contents of the **From name** field and then select the **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") next to this field.
 1. On the first page of the assist-edit dialog, select **Contextual** and set it to **Contact**. Then select **Next**.
 1. On the second page of the assist-edit dialog, select **Related entity** and then:
-    - Set the top drop-down list (relationship) to **Owning User systemuser (Contact) -> User**.
+    - Set the top drop-down list (relationship) to **Owning User (Contact) -> User**.
     - Set the bottom drop-down list (field) to **Full name**.
 1. Select **OK** to place the expression, which should be: `{{contact.contact_systemuser_owninguser.fullname}}`.
 1. Delete the contents of the **From address** field and then select the **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") next to this field.
 1. On the first page of the assist-edit dialog, select **Contextual** and set it to **Contact**. Then select **Next**.
 1. On the second page of the assist-edit dialog, select **Related entity** and then:
-    - Set the top drop-down list (relationship) to **Owning User systemuser (Contact) -> User**.
+    - Set the top drop-down list (relationship) to **Owning User (Contact) -> User**.
     - Set the bottom drop-down list (field) to **Primary email**.
 1. Select **OK** to place the expression, which should be: `{{contact.contact_systemuser_owninguser.internalemailaddress}}`.
 
