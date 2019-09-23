@@ -115,7 +115,12 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     > [!div class=mx-imgBorder]
     > ![Power BI workspace configuration settings page](../media/supervisor-admin-powerbi-configuration-settings.png "Power BI workspace configuration settings page")
 
-4.  In the **Power BI workspace** section, select **Create New Workspace** and enter a name for the workspace in **Power BI workspace** (this name must be unique).
+4. Select **Enable Intraday Insights for multi session web** option as **Yes** to make Intraday insights dashboard available on Omnichannel for Customer Service app on web.
+
+    > [!div class=mx-imgBorder]
+    > ![Enable to display Intraday insights dashboard on Omnichannel for Customer Service app](../media/supervisor-admin-intraday-insights-dashboard-oc-on-web.png "Enable to display Intraday insights dashboard on Omnichannel for Customer Service app")
+  
+5.  In the **Power BI workspace** section, select **Create New Workspace** and enter a name for the workspace in **Power BI workspace** (this name must be unique).
 
     > [!div class=mx-imgBorder]
     > ![Power BI workspace settings](../media/supervisor-admin-power-bi-workspace-settings.png "Power BI workspace settings")  
@@ -127,14 +132,14 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     > [!div class=mx-imgBorder]
     > ![Add existing Power BI workspace](../media/supervisor-admin-add-existing-workspace.png "Add existing Power BI workspace")  
         
-5.  Select **Configure**. The workspace creation takes a few seconds and a confirmation message is displayed with the generated workspace ID.
+6.  Select **Configure**. The workspace creation takes a few seconds and a confirmation message is displayed with the generated workspace ID.
 
     > [!div class=mx-imgBorder]
     > ![Power BI workspace ID](../media/supervisor-admin-power-bi-workspace-id.png "Power BI workspace ID")  
 
     In Power BI, a workspace is created.
 
-6.  Save and close the configuration. 
+7.  Save and close the configuration. 
 
     After you save the configuration, it may take up to 15 minutes for the datasets, dashboard, and reports to appear in your created workspace.
 
