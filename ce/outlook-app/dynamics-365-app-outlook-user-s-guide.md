@@ -24,7 +24,7 @@ search.app:
 # Dynamics 365 App for Outlook User Guide  
 
 
-Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of your Dynamics 365 app while you’re using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or phone. When [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is installed, depending on which version of  the app you have installed, you'll see a **Dynamics 365** pane or window next to a selected [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message, or when you're composing an email message or setting up a meeting or appointment.  
+Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of your Dynamics 365 apps while you’re using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or phone. When [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is installed, depending on which version of  the app you have installed, you'll see a **Dynamics 365** pane or window next to a selected [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message, or when you're composing an email message or setting up a meeting or appointment.  
 
 > [!IMPORTANT]
 > - The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with Dynamics 365 apps, version 9.x (such as Dynamics 365 Sales and Dynamics 365 Customer Service apps), [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro), and [Dynamics 365 Customer Engagement (on-premises), version 9.x](../customer-engagement/on-premises/overview.md). 
@@ -109,7 +109,7 @@ If the recipient isn’t known to Dynamics 365, click (+) and then select **Add 
 
 ## A quick tour of the interface
 
-Much has changed in the app for [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. Here's what you see when you first open [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)].
+Much has changed in the app for Dynamics 365 apps. Here's what you see when you first open [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)].
 
 The **Dynamics 365** pane appears under the menu bar and shows information about the recipients.  
 
@@ -122,7 +122,7 @@ The **Dynamics 365** pane appears under the menu bar and shows information about
 |    2    |                                                          Summary information about the recipient.                                                           |
 |    3    |                                                     Summary information about the recipient's account.                                                      |
 |    4    |                                   Shows if the email message or meeting is linked to a record and if it's being tracked.                                    |
-|    5    | Click to set or change linking and tracking. You can also choose to view your email in [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. |
+|    5    | Click to set or change linking and tracking. You can also choose to view your email in Dynamics 365. |
 |    6    |                                                                  Click to add an activity.                                                                  |
 |  7 & 8  |                                               Click and then select **Set Regarding** to link to the record.                                                |
 

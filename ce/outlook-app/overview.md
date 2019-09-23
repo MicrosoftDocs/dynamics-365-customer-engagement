@@ -57,7 +57,7 @@ For more information on how to deploy and customize the app and how to use it, s
 
 ## What's new in Dynamics 365 App for Outlook
 
-The [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] has been significantly redesigned and includes enhancements such as:
+Dynamics 365 apps that work with Dynamics 365 App for Outlook have been significantly redesigned and includes enhancements such as:
 
 - Unified Interface. [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. Much of Dynamics 365 functionality is now included.
 - Global search or multi-entity search. Use global search to search for a keyword in multiple entities at the same time. Global search uses the quick find view for the various entities to search for records.
