@@ -43,7 +43,7 @@ Third-party channel providers can add a Channel Integration Framework (CIF) solu
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../../includes/proc-permissions-system-admin-and-customizer.md)]  
   
-2. Sign in to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
+2. Sign in to Dynamics 365.  
   
 3. Select **Settings** > **Solutions**.  
   

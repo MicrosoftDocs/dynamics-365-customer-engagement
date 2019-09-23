@@ -1,5 +1,5 @@
 ---
-title: "Competitor entity (Developer Guide for Dynamics 365 Customer Engagement) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Competitor entity (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about competitor entity that enables record to have details, such as company profile, SWOT analysis, presentations, materials of the competitor. Using this entity you can do complete analysis of the competitor company."
 ms.custom: 
 ms.date: 10/31/2017
@@ -27,7 +27,8 @@ ms.assetid: ccdd5393-d4f5-4b07-8f24-7da2bac827d4
 caps.latest.revision: 14
 author: JimDaly
 ms.author: jdaly
-manager: amyla
+ms.reviewer: susikka
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 

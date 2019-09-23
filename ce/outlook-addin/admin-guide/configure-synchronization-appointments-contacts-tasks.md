@@ -23,7 +23,7 @@ search.app:
   - D365Outlook
 ---
 # Configure synchronization for appointments, contacts, and tasks
-By default, some synchronization between [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and Outlook for Dynamics 365 apps is disabled so organizations can control what gets synced according to their business requirements. Dynamics 365 apps admins can enable synchronization using **Settings** > **Administration** > **System Settings** > **Synchronization**.  
+By default, some synchronization between Dynamics 365 and Outlook for Dynamics 365 apps is disabled so organizations can control what gets synced according to their business requirements. Dynamics 365 apps admins can enable synchronization using **Settings** > **Administration** > **System Settings** > **Synchronization**.  
   
 > [!NOTE]
 >  Users should have the latest [Dynamics 365 for Outlook](http://go.microsoft.com/fwlink/?LinkID=690396) installed.  

@@ -8,8 +8,6 @@ ms.service:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: e926cfed-f581-4f1f-83bd-75a06292212b
 author: KumarVivek
 ms.author: kvivek
@@ -24,7 +22,7 @@ search.app:
 ---
 # Developer Guide for Dynamics 365 Customer Engagement (on-premises), version 9.x
 
-Welcome to the Dynamics 365 Customer Engagement (on-premise) Developer Guide.
+Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 
 For documentation of earlier versions (8.x and earlier), see <https://docs.microsoft.com/previous-versions/dynamics/>.
 
