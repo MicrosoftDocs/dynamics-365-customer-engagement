@@ -25,45 +25,12 @@ search.app:
 
 [!INCLUDE [cc-marketing-early-access-2019w2](../includes/cc-marketing-early-access-2019w2.md)]
 
-The segmentation designer is a key tool for establishing target markets in Dynamics 365 Marketing. It enables you to query across multiple related entities, including contacts, leads, accounts, events, marketing lists, and more. It also enables you to query the marketing-insights service to find contacts that have shown engagement with your marketing initiatives, or contacts that you may be failing to reach (due to issues such as email bounces).
 
-Many Dynamics 365 Marketing customers have asked us to provide a more streamlined and easier to use tool for designing segments in Dynamics 365 Marketing, so we've been working to redesign the interface to more closely resemble other querying tools found in Dynamics 365 (such as the advanced-find feature). The segment designer still provides more power than you'll find in any other search tool for Dynamics 365, and remains the only tool that lets you query interaction records from the marketing-insights service.
 
-As previously, segments are mostly used to establish target audiences for your customer journeys. (You can also use subscription lists to target a journey, but you can't use other types of static or dynamic marketing lists to do so.)
 
-Read this topic to learn how to work with the new segment designer.
 
 <a name="create-segment"></a>
 
-## Create and go live with a new segment
-
-Read this section to get a basic overview of how to create a segment and start it running so you can see its members and use it to target a customer journey.
-
-1. Go to **Customers** > **Segments** to open a list of current segments.
-
-1. Select **New** to start creating your new segment.
-
-1. To help you get started, the designer asks you to choose which type of segment you want to create. This selection will establish the initial structure of your segment and also affects the user interface you'll see for working with it. Read the names and descriptions shown, and choose one of the following to get started:
-
-    - **Demographic**: Creates a dynamic profile segment prepared to query contact records directly, but you can still add relations as needed to create a query of arbitrary complexity. For details about how to work with this kind of segment, see [Design a demographic or firmographic segment](#segment-profile)
-    - **Firmographic**: Creates a dynamic profile segment prepared with a relation to the accounts entity already in place. Other than this, this is the same as selecting **Demographic**. For details about how to work with this kind of segment, see [Design a demographic or firmographic segment](#segment-profile)
-    - **Behavioral**: Creates a behavioral segment, which queries interaction records from the marketing-insights service to find contacts that have interacted in specific ways with your marketing initiatives, such as by opening an email, clicking a link, or visiting a web page. For details about how to work with this kind of segment, see [Design a behavioral segment](#segment-interaction)
-    - **Static**: Creates a segment where you manually select each member rather than creating a logical query. For details about how to work with this kind of segment, see [Design a static segment](#segment-static)
-    - **Combined audiences**: Creates a compound segment, which combines any number of existing segments union, exclude, and/or intersect operators. For details about how to work with this kind of segment, see [Design a compound segment (combined audiences)](#segment-compound)
-
-    ![Choose a segment type](media/segment-hub.png "Choose a segment type")
-
-1. The segment designer opens, showing settings and tools that are appropriate for your selection. Start by naming your segment. Select the expansion button at the side of the header area to expand a drop-down dialog where you can make a few key settings. Use it to enter a **Name** for your new segment.
-
-    ![Name your segment](media/segment-enter-name.png "Name your segment")
-
-1. Select **Save** on the toolbar to save your segment.
-
-1. Use the tools provided by the designer to establish your segment membership criteria, as described elsewhere in this topic, for your selected segment type.
-
-1. When you're done designing the segment, select **Go live** on the toolbar to start running the segment, find all of its members (as needed), and make it available for use with your customer journeys. Once your segment is live, it will include a **Members** tab, where you can go to see exactly which contacts are part of the segment.
-
-See the remaining sections of this topic for more information about each type of segment available here.
 
 <a name="segment-profile"></a>
 
