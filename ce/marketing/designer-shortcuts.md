@@ -37,7 +37,7 @@ Dynamics 365 Marketing supports most (but not all) of the same keyboard shortcut
 
 ## Accessibility and keyboard shortcuts for content designers
 
-Dynamics 365 Marketing provides advanced digital-content designers for creating, styling, and previewing the various types of digital content that you can produce and manage with the system. This section lists keyboard shortcuts and accessibility features are available for working with the designers for marketing email messages, marketing pages, and marketing forms.
+Dynamics 365 Marketing provides advanced digital-content designers for creating, styling, and previewing the various types of digital content that you can produce and manage with the system. This section lists keyboard shortcuts and accessibility features that are available for working with the designers for marketing email messages, marketing pages, and marketing forms.
 
 ![The designer toolbar and content area](media/designer-tools-ill.png "The designer toolbar and content area")
 
