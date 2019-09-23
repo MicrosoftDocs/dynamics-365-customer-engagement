@@ -1,5 +1,4 @@
 # [Overview](overview.md)
-# [New and upcoming features](new-upcoming.md)
 
 # Plan your implementation (app version 3.x)
 ## [Sample data installation](install-sample-data-3-x.md)
