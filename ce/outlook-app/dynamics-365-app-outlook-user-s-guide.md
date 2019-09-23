@@ -109,7 +109,7 @@ If the recipient isn’t known to Dynamics 365, click (+) and then select **Add 
 
 ## A quick tour of the interface
 
-Much has changed in the app for [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. Here's what you see when you first open [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)].
+Much has changed in the app for Dynamics 365 apps. Here's what you see when you first open [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)].
 
 The **Dynamics 365** pane appears under the menu bar and shows information about the recipients.  
 
@@ -122,7 +122,7 @@ The **Dynamics 365** pane appears under the menu bar and shows information about
 |    2    |                                                          Summary information about the recipient.                                                           |
 |    3    |                                                     Summary information about the recipient's account.                                                      |
 |    4    |                                   Shows if the email message or meeting is linked to a record and if it's being tracked.                                    |
-|    5    | Click to set or change linking and tracking. You can also choose to view your email in [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. |
+|    5    | Click to set or change linking and tracking. You can also choose to view your email in Dynamics 365. |
 |    6    |                                                                  Click to add an activity.                                                                  |
 |  7 & 8  |                                               Click and then select **Set Regarding** to link to the record.                                                |
 
