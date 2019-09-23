@@ -232,6 +232,7 @@
 ##### [getAuthTokenProvider](developer/reference/methods/getAuthTokenProvider.md)
 ##### [removeAuthTokenProvider](developer/reference/methods/removeAuthTokenProvider.md)
 ##### [startChat](developer/reference/methods/startChat.md)
+##### [startProactiveChat](developer/reference/methods/startProactiveChat.md)
 #### [Events]()
 ##### [lcw:ready](developer/reference/events/lcw-ready.md)
 ##### [lcw:error](developer/reference/events/lcw-error.md)
