@@ -118,7 +118,7 @@ To create a marketing email and go live:
 
      Use the buttons in the leftmost column to choose a screen size and orientation to preview. Use the **Contact** and **Content Settings** fields in the **Properties** column to see how your dynamic content will resolve for various recipients and settings.
 
-11. To make sure your message includes all required content and is ready to send, select **Check for Errors** in the command bar. Dynamics 365 Marketing checks your message, and then displays results in the notification bar at the top of the page. If more than one errors are found, then select the expansion button to see all of them.
+11. To make sure your message includes all required content and is ready to send, select **Check for Errors** in the command bar. Dynamics 365 Marketing checks your message, and then displays results in the notification bar at the top of the page. If more than one error is found, then select the expansion button to see all of them.
      ![The check-for-errors button and notifications](media/email-validation-result.png "The Check for Errors button and notifications")
 
      If you followed this procedure, your message should pass the error check. If it doesn't, read the error message, fix the reported issue, and try again until it passes.
