@@ -34,7 +34,7 @@ caps.latest.revision: 37
 >  If your organization uses [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)], the computer on which the Dynamics 365 Report Authoring Extension is installed must have the [!INCLUDE[pn_Online_Services_SignIn_Assistant](../includes/pn-online-services-signin-assistant.md)] installed on it. If [!INCLUDE[pn_Online_Services_SignIn_Assistant](../includes/pn-online-services-signin-assistant.md)] is already installed, check the registry key SOFTWARE\Microsoft\MSOIdentityCRL and make sure that the TargetDir registry key in MSOIdentityCRL contains msoidcli.dll.  
   
 ## Install the plug-in  
- Dynamics 365 Report Authoring Extension is a plug-in that obtains the metadata and data from Common Data Service and Customer Engagement (on-premises). This metadata is required to design and preview Fetch-based reports in [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)]. You  can use Dynamics 365 Report Authoring Extension with either Common Data Service or Customer Engagement (on-premises).  
+ Dynamics 365 Report Authoring Extension is a plug-in that obtains the metadata and data from Customer Engagement (on-premises). This metadata is required to design and preview Fetch-based reports in [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)]. You  can use Dynamics 365 Report Authoring Extension with either Customer Engagement (on-premises).  
   
 1.  In the /BIDSExtensions/ folder, double-click **SetupBIDSExtensions.exe**. [Download from the Microsoft Download Center](http://go.microsoft.com/fwlink/p/?LinkId=624672).  
   

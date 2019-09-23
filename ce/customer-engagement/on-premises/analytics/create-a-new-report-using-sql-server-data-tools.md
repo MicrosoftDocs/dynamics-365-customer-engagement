@@ -58,7 +58,7 @@ search.app:
   
 6. On the **Design the Query** page, type the FetchXML query in the **Query** box. To get this query, you can do one of the following:  
   
-   - Get the FetchXML from an Advanced Find query. To do this, open a Common Data Service or Customer Engagement (on-premises) app, click **Advanced Find**, create the query that you want, and then on the **Advanced Find** tab, click **Download Fetch XML**. Copy the FetchXML into the **Query** box of the Dataset Properties in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)].  
+   - Get the FetchXML from an Advanced Find query. To do this, open a Customer Engagement (on-premises) app, click **Advanced Find**, create the query that you want, and then on the **Advanced Find** tab, click **Download Fetch XML**. Copy the FetchXML into the **Query** box of the Dataset Properties in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)].  
   
    - Manually enter the FetchXML query. The following example shows how to create a report that displays all accounts with 5,000 or more employees.  
   

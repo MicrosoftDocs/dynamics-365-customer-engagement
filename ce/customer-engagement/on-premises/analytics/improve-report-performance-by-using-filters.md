@@ -25,7 +25,7 @@ search.app:
 
 Reports that return large data sets can be difficult to use and can cause performance problems. To limit the data that is presented in a report, use data filters.  
   
- In addition to data filtering supported by Reporting Services, Common Data Service and Microsoft Dynamics 365 Customer Engagement (on-premises) supports data pre–filtering. You can use data pre-filtering to:  
+ In addition to data filtering supported by Reporting Services, Microsoft Dynamics 365 Customer Engagement (on-premises) supports data pre–filtering. You can use data pre-filtering to:  
   
 -   Make reports context-sensitive by narrowing the scope of a report to return more relevant data.  
   
@@ -91,7 +91,7 @@ Reports that return large data sets can be difficult to use and can cause perfor
   
 <a name="PassingFilters"></a>   
 ## Passing filters in the filter summary  
- A filter summary displays the value of the filter that is used when a report is run. In reports, it is displayed as a text box report item in the report header that contains the filter text value. When the user runs the report, the Report Viewer displays an **Edit Filter** button. When the button is clicked, it enables the user to define a data filter. An example of a filter summary can be found in the User Summary report that is included with Common Data Service and Customer Engagement (on-premises) apps.  
+ A filter summary displays the value of the filter that is used when a report is run. In reports, it is displayed as a text box report item in the report header that contains the filter text value. When the user runs the report, the Report Viewer displays an **Edit Filter** button. When the button is clicked, it enables the user to define a data filter. An example of a filter summary can be found in the User Summary report that is included with Customer Engagement (on-premises) apps.  
   
  To add a filter summary to a report, follow these steps:  
   
