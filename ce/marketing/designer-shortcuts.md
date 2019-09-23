@@ -33,7 +33,7 @@ Dynamics 365 Marketing supports most (but not all) of the same keyboard shortcut
 - [Keyboard shortcuts in Dynamics 365 applications](../basics/keyboard-shortcuts.md)
 
 > [!IMPORTANT]
-> If you're working on an iOS device and using an attached keyboard, then use option+tab to move between user-interface elements (such as links, buttons, tabs, etc.). The standard keyboard navigation technique for this is to use tab alone, but because Dynamics 365 Marketing sometimes uses specialized HTML constructs to create its feature (especially for the content and pipeline designers), some buttons and links will be skipped if you use tab alone. But if you use option+tab, you'll be able to navigate to everything.
+> If you're working on an iOS device and using an attached keyboard, then use option+tab to move between user-interface elements (such as links, buttons, and tabs). The standard keyboard navigation technique for this is to use tab alone, but because Dynamics 365 Marketing sometimes uses specialized HTML constructs to create its feature (especially for the content and pipeline designers), some buttons and links will be skipped if you use tab alone. But if you use option+tab, you'll be able to navigate to everything.
 
 ## Accessibility and keyboard shortcuts for content designers
 
