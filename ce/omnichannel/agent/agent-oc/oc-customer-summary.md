@@ -49,7 +49,37 @@ Use the customer form to search for an existing contact or account record in omn
 
 ## Conversation summary
 
-This section provides two tabs with details that help you to understand the information about the conversation with the customer. **Pre-chat** and **Visitor info** are the tabs in the Conversation summary card. The **Pre-chat survey** tab displays the survey answers against the questions that are requested by your organization, which helps your interaction with the customer. The **Visitor details** tab provides some information such as whether the customer is authenticated or not, browser used by the customer for contacting support, operating system used by the customer, location of the customer, interacting language of the customer, and so on.
+The conversation summary section displays tabs with the details that help you understand the information about the conversation with customer. It displays the following tabs:
+
+- Pre-chat
+- Journey
+- Visitor details
+- Additional details (Only if configured and additional context variables available)
+- 
+### Pre-chat
+
+The **Pre-chat survey** tab displays the survey answers against the questions that are requested by your organization, which helps your interaction with the customer.
+
+### Journey
+
+As an agent, without asking too many questions, you want to know the recent operations a customer performed before the customer initiated a conversation. 
+
+The **Journey** tab displays the recent operations a customer performed in the chronological order. The operations are categorized as follows:
+
+- **Page visited:** The pages that a customer visited before initiating the conversation. When you select the page (hyperlink), the system opens a new browser tab and displays the page visited.
+- **Phrase searched:** The keywords or phrases a customer searched for before initiating the conversation.
+- **Knowledge article viewed:** The knowledge articles a customer viewed before initiating the conversation. When you select the  (hyperlink), the system opens a new browser tab and displays the knowledge article viewed.
+- **General action performed:** Any other actions or operations that a customer performed before initiating the conversation.
+
+ [!div class='mx-imgBorder']
+> ![Journey tab](../../media/customer-summary-journey-tab.png "Journey tab")
+
+> [!NOTE]
+> The **Journey** tab displays details that system captures until the customer initiates the conversation. After a customer initiated the conversation, if the customer performs any operations, the system won't show those details for these operations.
+
+### Visitor details
+
+The **Visitor details** tab provides some information such as whether the customer is authenticated or not, browser used by the customer for contacting support, operating system used by the customer, location of the customer, interacting language of the customer, and so on.
 
 > [!div class='mx-imgBorder']
 > ![Conversation summary section in the customer summary form](../../media/customer-summary-conversation-summary.png "Conversation summary section in the customer summary form")
@@ -58,9 +88,13 @@ If the customer signs in to the portal to initiate a chat with the support, then
 
 ![Authenticated chat shows as Yes in the Visitor details tab of Conversation summary](../../media/conversation-summary-authenticated-chat.PNG "Authenticated chat shows as Yes in the Visitor details tab of Conversation summary") ![Unauthenticated chat shows as No in the Visitor details tab of Conversation summary](../../media/conversation-summary-unauthenticated-chat.PNG "Unauthenticated chat shows as Yes in the Visitor details tab of Conversation summary")
 
-If your administrator or developer configures the **Additional details** tab and if there are any additional context variables, it is displayed in the **Additional details** tab. To learn more, see [setContextProvider](../../developer/reference/methods/setContextProvider.md).
+To learn more, see [Create chat authentication settings](../../administrator/create-chat-auth-settings.md).
 
-To learn more, see [Create chat authentication settings](../../administrator/create-chat-auth-settings.md)
+### Additional details
+
+If your administrator or developer configures the **Additional details** tab and if there are any additional context variables, it is displayed in the **Additional details** tab. 
+
+To learn more, see [setContextProvider](../../developer/reference/methods/setContextProvider.md).
 
 ## Case
 
