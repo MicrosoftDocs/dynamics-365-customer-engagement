@@ -127,7 +127,7 @@ The most common cause for the Documents associated grid not loading is the corru
      ```  
 
    > [!IMPORTANT]
-   >  All the attributes configured in the layout xml requires their corresponding respective attributes to be present in the Fetch XML. Grid will result into error when this configuration is incorrect.  
+   >  All the attributes configured in the layout xml requires their corresponding respective attribute to be present in the Fetch XML. Grid will result in error when this configuration is incorrect.  
 
 14. Save the file.
 15. Zip the folder.
