@@ -1,22 +1,22 @@
 ---
 title: "Connect Dynamics 365 for Customer Engagement apps to IMAP servers or SMTP servers | MicrosoftDocs"
-ms.custom: 
+ms.custom:
 ms.date: 06/11/2019
-ms.reviewer: 
+ms.reviewer:
 ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: article
-applies_to: 
+applies_to:
   - Dynamics 365 for Customer Engagement  (online)
 ms.assetid: afb01c24-a2bd-4e00-9804-ce494f2d315b
 caps.latest.revision: 22
 author: jimholtz
 ms.author: jimholtz
 manager: kvivek
-search.audienceType: 
+search.audienceType:
   - admin
-search.app: 
+search.app:
   - D365CE
   - Powerplatform
 ---
@@ -24,28 +24,28 @@ search.app:
 
 *This content also applies to the on-premises version.*
 
-Follow these steps to connect [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] with IMAP email servers such as used for Gmail and Yahoo! Mail.  
+Follow these steps to connect [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] with IMAP email servers such as used for Gmail and Yahoo! Mail.
 
 > [!NOTE]
 > - Only emails in the Inbox folder are synchronized.
 > - Existing POP3 email profiles will not be automatically converted to IMAP. There is no support for migrating from POP3 to IMAP.
-> - For IMAP/SMTP systems supported by Microsoft, check out the following topic: [Supported email service configurations for server-side synchronization](supported-email-service-configurations-server-side-synchronization.md).  
+> - For IMAP/SMTP systems supported by Microsoft, check out the following topic: [Supported email service configurations for server-side synchronization](supported-email-service-configurations-server-side-synchronization.md).
 
-<a name="BKMK_CreateProfile"></a>   
+<a name="BKMK_CreateProfile"></a>
 
-## Create an email server profile  
+## Create an email server profile
 
-1. Go to **Settings** > **Email Configuration** > **Email Server Profiles**.  
+1. Go to **Settings** > **Email Configuration** > **Email Server Profiles**.
 
-2. Choose **New** > **IMAP/SMTP Server**.  
+2. Choose **New** > **IMAP/SMTP Server**.
 
-3. **For an Exchange email server profile, specify the following details:**  
+3. **For an Exchange email server profile, specify the following details:**
 
 
    |  Fields  |     Description      |
-   |-----------|----------|   
-   |   **General**      |     |   
-   | Name     |  Specify a meaningful name for the profile.   |   
+   |-----------|----------|
+   |   **General**      |     |
+   | Name     |  Specify a meaningful name for the profile.   |
    |   Description   |  Type a short description about the objective of the email server profile.       |
    | Incoming Server Location and Outgoing Server Location  |  Enter the **Incoming Server Location** and **Outgoing Server Location**<br /><br /> For example, Incoming: outlook.office365.com and Outgoing: smtp.office365.com  |
    |  **Credentials**  |    |
@@ -64,132 +64,132 @@ Follow these steps to connect [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)
    |  Maximum Concurrent Connections   | Type the maximum number of simultaneous connections that can be made by [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps to the corresponding email server per mailbox. Increase the value to allow more parallel calls to [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] to improve performance or reduce the value if there are errors on [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] due to large number of calls from [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. The default value of this field is 10. The maximum number is considered per mailbox or per email server profile depending on whether the credentials are specified in a mailbox or email server profile.   |
 
 
-4. Choose **Save**.  
+4. Choose **Save**.
 
-<a name="BKMK_ConfigureDefault"></a>   
+<a name="BKMK_ConfigureDefault"></a>
 
-## Configure default email processing and synchronization  
-Set server-side synchronization to be the default configuration method. 
- 
-1. Go to **Settings** > **Email Configuration** > **Email Configuration Settings**.  
+## Configure default email processing and synchronization
+Set server-side synchronization to be the default configuration method.
 
-2. Set the processing and synchronization fields as follows:  
+1. Go to **Settings** > **Email Configuration** > **Email Configuration Settings**.
 
-   - **Server Profile**: The profile you created in the above section.  
+2. Set the processing and synchronization fields as follows:
 
-   - **Incoming Email**: Server-Side Synchronization or Email Router  
+   - **Server Profile**: The profile you created in the above section.
 
-   - **Outgoing Email**: Server-Side Synchronization or Email Router  
+   - **Incoming Email**: Server-Side Synchronization or Email Router
 
-   - **Appointments, Contacts, and Tasks**: Server-Side Synchronization or Email Router  
+   - **Outgoing Email**: Server-Side Synchronization or Email Router
+
+   - **Appointments, Contacts, and Tasks**: Server-Side Synchronization or Email Router
 
        > [!NOTE]
-       >  Server-Side Synchronization or Email Router for Appointments, Contacts, and Tasks is not supported for the IMAP profile.  
+       >  Server-Side Synchronization or Email Router for Appointments, Contacts, and Tasks is not supported for the IMAP profile.
 
-     If you leave the **Email processing form unapproved user and queues** at the default values (checked), you will need to approve emails and queues for user mailboxes as directed below in **Approve Email**.  
+     If you leave the **Email processing form unapproved user and queues** at the default values (checked), you will need to approve emails and queues for user mailboxes as directed below in **Approve Email**.
 
-     ![System Settings for server-side synchronization](../admin/media/imap-profile.png "System Settings for server-side synchronization")  
+     ![System Settings for server-side synchronization](../admin/media/imap-profile.png "System Settings for server-side synchronization")
 
-3.  Click **OK**.  
+3.  Click **OK**.
 
-<a name="BKMK_ConfigureMailboxes"></a>  
- 
-## Configure mailboxes  
- To set mailboxes to use the default profile, you must first set the Server Profile and the delivery method for email, appointments, contacts, and tasks.  
+<a name="BKMK_ConfigureMailboxes"></a>
 
- In addition to administrator permissions, you must have Read and Write privileges on the Mailbox entity to set the delivery method for the mailbox.  
+## Configure mailboxes
+ To set mailboxes to use the default profile, you must first set the Server Profile and the delivery method for email, appointments, contacts, and tasks.
 
- Click **one** of the following methods:  
+ In addition to administrator permissions, you must have Read and Write privileges on the Mailbox entity to set the delivery method for the mailbox.
 
-### Set mailboxes to the default profile  
+ Click **one** of the following methods:
 
-1. Go to **Settings** > **Email Configuration** > **Mailboxes**.  
+### Set mailboxes to the default profile
 
-2. Choose **Active Mailboxes**.  
+1. Go to **Settings** > **Email Configuration** > **Mailboxes**.
 
-3. Select all the mailboxes that you want to associate with the IMAP profile you created, click **Apply Default Email Settings**, verify the settings, and then click **OK**.  
+2. Choose **Active Mailboxes**.
 
-   ![Apply default email settings](../admin/media/apply-default-email-settings.png "Apply default email settings")  
+3. Select all the mailboxes that you want to associate with the IMAP profile you created, click **Apply Default Email Settings**, verify the settings, and then click **OK**.
 
-    By default, the mailbox configuration is tested and the mailboxes are enabled when you click **OK**.  
+   ![Apply default email settings](../admin/media/apply-default-email-settings.png "Apply default email settings")
 
-### Edit mailboxes to set the profile and delivery methods  
+    By default, the mailbox configuration is tested and the mailboxes are enabled when you click **OK**.
 
-1.  Go to **Settings** > **Email Configuration** > **Mailboxes**.  
+### Edit mailboxes to set the profile and delivery methods
 
-2.  Click **Active Mailboxes**.  
+1.  Go to **Settings** > **Email Configuration** > **Mailboxes**.
 
-3.  Select the mailboxes that you want to configure, and then click **Edit**.  
+2.  Click **Active Mailboxes**.
 
-4.  In the **Change Multiple Records** form, under **Synchronization Method**, set **Server Profile** to the IMAP profile you created earlier.  
+3.  Select the mailboxes that you want to configure, and then click **Edit**.
 
-5.  Set **Incoming** and **Outgoing** **Email** to **Server-Side Synchronization or Email Router**.  
+4.  In the **Change Multiple Records** form, under **Synchronization Method**, set **Server Profile** to the IMAP profile you created earlier.
 
-6.  Set **Appointments, Contacts, and Tasks** to **None**.  
+5.  Set **Incoming** and **Outgoing** **Email** to **Server-Side Synchronization or Email Router**.
+
+6.  Set **Appointments, Contacts, and Tasks** to **None**.
 
 
-7.  Click **Change**.  
+7.  Click **Change**.
 
-<a name="BKMK_ApproveEmail"></a> 
-  
-## Approve email  
- You need to approve each user mailbox or queue before that mailbox can process email.  
+<a name="BKMK_ApproveEmail"></a>
 
-1.  Go to **Settings** > **Email Configuration** > **Mailboxes**.  
+## Approve email
+ You need to approve each user mailbox or queue before that mailbox can process email.
 
-2.  Click **Active Mailboxes**.  
+1.  Go to **Settings** > **Email Configuration** > **Mailboxes**.
 
-3.  Select the mailboxes that you want to approve, and then click **More Commands** (**…**) > **Approve Email**.  
+2.  Click **Active Mailboxes**.
 
-4.  Click **OK**.  
+3.  Select the mailboxes that you want to approve, and then click **More Commands** (**…**) > **Approve Email**.
 
-<a name="BKMK_TestConfiguration"></a>   
+4.  Click **OK**.
 
-## Test configuration of mailboxes  
+<a name="BKMK_TestConfiguration"></a>
 
-1. Go to **Settings** > **Email Configuration** > **Mailboxes**.  
+## Test configuration of mailboxes
 
-2. Click **Active Mailboxes**.  
+1. Go to **Settings** > **Email Configuration** > **Mailboxes**.
 
-3. Select the mailboxes you want to test, and then click **Test & Enable Mailboxes**.  
+2. Click **Active Mailboxes**.
 
-    This tests the incoming and outgoing email configuration of the selected mailboxes and enables them for email processing. If an error occurs in a mailbox, an alert is shown on the Alerts wall of the mailbox and the profile owner. Depending on the nature of the error, [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps tries to process the email again after some time or disables the mailbox for email processing.  
+3. Select the mailboxes you want to test, and then click **Test & Enable Mailboxes**.
 
-    The result of the email configuration test is displayed in the **Incoming Email Status**, **Outgoing Email Status**, and **Appointments, Contacts, and Tasks Status** fields of a mailbox record. An alert is also generated when the configuration is successfully completed for a mailbox. This alert is shown to the mailbox owner.  
+    This tests the incoming and outgoing email configuration of the selected mailboxes and enables them for email processing. If an error occurs in a mailbox, an alert is shown on the Alerts wall of the mailbox and the profile owner. Depending on the nature of the error, [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps tries to process the email again after some time or disables the mailbox for email processing.
 
-    You can find information on recurring issues and other troubleshooting information in [Blog: Test and Enable Mailboxes in Microsoft Dynamics CRM 2015](http://blogs.msdn.com/b/crm/archive/2015/08/31/test-and-enable-mailboxes-in-microsoft-dynamics-crm-2015.aspx) and [Troubleshooting and monitoring server-side synchronization](troubleshooting-monitoring-server-side-synchronization.md).  
+    The result of the email configuration test is displayed in the **Incoming Email Status**, **Outgoing Email Status**, and **Appointments, Contacts, and Tasks Status** fields of a mailbox record. An alert is also generated when the configuration is successfully completed for a mailbox. This alert is shown to the mailbox owner.
 
-> [!TIP]
->  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 for Customer Engagement apps org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).  
-
-<a name="BKMK_TestEmailConfig"></a>   
-
-## Test email configuration for all mailboxes associated with an email server profile  
-
-1. Go to **Settings** > **Email Configuration** > **Email Server Profiles**.  
-
-2. Select the profile you created, and then click **Test & Enable Mailboxes**.  
-
-    When you test the email configuration, an asynchronous job runs in the background. It may take a few minutes for the test to be completed. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps tests the email configuration of all the mailboxes associated with the IMAP profile. For the mailboxes configured with server-side synchronization for synchronizing appointments, tasks, and contacts, it also checks to make sure they’re configured properly.  
+    You can find information on recurring issues and other troubleshooting information in [Blog: Test and Enable Mailboxes in Microsoft Dynamics CRM 2015](https://blogs.msdn.com/b/crm/archive/2015/08/31/test-and-enable-mailboxes-in-microsoft-dynamics-crm-2015.aspx) and [Troubleshooting and monitoring server-side synchronization](troubleshooting-monitoring-server-side-synchronization.md).
 
 > [!TIP]
->  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 for Customer Engagement apps org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).  
+>  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 for Customer Engagement apps org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).
 
-<a name="BKMK_NetworkPorts"></a>   
+<a name="BKMK_TestEmailConfig"></a>
 
-## Network ports for Dynamics 365 for Customer Engagement apps (online) Government  
- The following ports are open for outbound connections between Dynamics 365 for Customer Engagement apps (online) Government and internet services.  
+## Test email configuration for all mailboxes associated with an email server profile
 
-- 80 HTTP  
-- 443 HTTPS 
-- 465 Secure SMTP  
-- 587 Secure SMTP  
-- 993 Secure IMAP  
+1. Go to **Settings** > **Email Configuration** > **Email Server Profiles**.
 
-Customizations or email configurations in Dynamics 365 for Customer Engagement apps (online) Government can only use these ports.  
+2. Select the profile you created, and then click **Test & Enable Mailboxes**.
 
-### See also  
+    When you test the email configuration, an asynchronous job runs in the background. It may take a few minutes for the test to be completed. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps tests the email configuration of all the mailboxes associated with the IMAP profile. For the mailboxes configured with server-side synchronization for synchronizing appointments, tasks, and contacts, it also checks to make sure they’re configured properly.
+
+> [!TIP]
+>  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 for Customer Engagement apps org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).
+
+<a name="BKMK_NetworkPorts"></a>
+
+## Network ports for Dynamics 365 for Customer Engagement apps (online) Government
+ The following ports are open for outbound connections between Dynamics 365 for Customer Engagement apps (online) Government and internet services.
+
+- 80 HTTP
+- 443 HTTPS
+- 465 Secure SMTP
+- 587 Secure SMTP
+- 993 Secure IMAP
+
+Customizations or email configurations in Dynamics 365 for Customer Engagement apps (online) Government can only use these ports.
+
+### See also
  [Troubleshooting and monitoring server-side synchronization](troubleshooting-monitoring-server-side-synchronization.md) <br />
- [Test mail flow with the Remote Connectivity Analyzer](https://technet.microsoft.com/library/dn305950\(v=exchg.150\).aspx)   
- [Set up server-side synchronization](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
+ [Test mail flow with the Remote Connectivity Analyzer](https://technet.microsoft.com/library/dn305950\(v=exchg.150\).aspx)
+ [Set up server-side synchronization](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)
  [Microsoft Dynamics 365 for Customer Engagement apps (online) Government](../admin/government/microsoft-dynamics-365-government.md)

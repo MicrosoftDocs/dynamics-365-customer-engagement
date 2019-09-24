@@ -6,10 +6,10 @@ ms.custom:
   - dyn365-marketing
 ms.date: 09/06/2019
 ms.service: dynamics-365-marketing
-ms.technology: 
+ms.technology:
   - "marketing"
 ms.topic: "article"
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
 author: Nkrb
 ms.author: nabuthuk
@@ -22,7 +22,7 @@ The Dynamics 365 Event Management feature helps you to organize, manage, and pro
 
 The event portal consists of two parts:
 
-1. Frontend 
+1. Frontend
 2. REST API backend
 
 You can implement the frontend using any of the available frameworks. The frontend part is a single page application and is fully customizable. The backend and the customization of the backend depends on the hosting type.
@@ -46,11 +46,11 @@ To get started with customizing the demo event website, you need to follow these
 2. Install [Node.js](https://nodejs.org/en/download) version 10.x or higher.
 
 3. Open Command Prompt or Powershell and run the command to check whether the installation is successful or not.
-    
+
    ```CLI
     node -v
     ```
-        
+
     > [!NOTE]
     > If you have a terminal or shell already open, restart it before typing in the command.
 
@@ -64,7 +64,7 @@ To get started with customizing the demo event website, you need to follow these
     ```CLI
     npm install
     ```
-    
+
    > [!NOTE]
    > You need to run the command in the same directory where the `package.json` file is located.
 
@@ -77,16 +77,16 @@ Select the version you would like to download from the table below.
 
 | Name | Release | Changes | Uploaded |
 |--|--|--|--|
-|Sample Event Website| 1.17.0 (September release)|- Improve workflow for paid events. <br/>- Fix compatibility issues for IE11. <br/>- Improve event details page. <br/>- Minor improvements and bug fixes.| [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190901-EventWebsite.zip)
-|Sample Event Website| 1.16.0 (August release)|- Improve loading behavior of event page. <br/>- Improve UI/UX of custom registration field of type boolean. <br/>- Minor improvements and bugfixes.| [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190802-EventWebsite.zip)
-|Sample Event Website| 1.15.0 (July release)| - Add information to the session list view, if the session is full. <br/>- Add validation to custom registration fields. <br/>- Improve translations. <br/>- Fixing missing font-awesome icons after deploying to Portals. <br/>- Minor improvements and bug fixes.| [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190701-EventWebsite.zip)
-| Sample Event Website | 1.14.0 (June release) | Upgrade to Angular 7, improve UI & UX of checkout page, update and improve translations, improve DeployToD365Instance.ps1 script, improve custom registration field validation, other bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190601-EventWebsite.zip) |
-| Sample Event Website | 1.13.0 (April release) | Waitlist functionality on session level, UI polishing, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190401-EventWebsite.zip) |
-| Sample Event Website | 1.12.2 (March release) | UI & UX improvements, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190302-EventWebsite.zip) |
+|Sample Event Website| 1.17.0 (September release)|- Improve workflow for paid events. <br/>- Fix compatibility issues for IE11. <br/>- Improve event details page. <br/>- Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190901-EventWebsite.zip)
+|Sample Event Website| 1.16.0 (August release)|- Improve loading behavior of event page. <br/>- Improve UI/UX of custom registration field of type boolean. <br/>- Minor improvements and bugfixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190802-EventWebsite.zip)
+|Sample Event Website| 1.15.0 (July release)| - Add information to the session list view, if the session is full. <br/>- Add validation to custom registration fields. <br/>- Improve translations. <br/>- Fixing missing font-awesome icons after deploying to Portals. <br/>- Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190701-EventWebsite.zip)
+| Sample Event Website | 1.14.0 (June release) | Upgrade to Angular 7, improve UI & UX of checkout page, update and improve translations, improve DeployToD365Instance.ps1 script, improve custom registration field validation, other bug fixes | [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190601-EventWebsite.zip) |
+| Sample Event Website | 1.13.0 (April release) | Waitlist functionality on session level, UI polishing, bug fixes | [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190401-EventWebsite.zip) |
+| Sample Event Website | 1.12.2 (March release) | UI & UX improvements, bug fixes | [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190302-EventWebsite.zip) |
 
 ## Environment Configuration parameters
 
- The **src\environments** folder contains sample configuration files for different environments (self-hosted, portal hosted, development). The configuration set up for the custom event website is made by creating an `environment.ts` file inside the `\src\environments` folder. You can find instructions on how to change the configuration in the related topics [Environment configuration for self-hosted](self-hosted.md) and [Environment configuration for Portal hosted](portal-hosted.md). 
+ The **src\environments** folder contains sample configuration files for different environments (self-hosted, portal hosted, development). The configuration set up for the custom event website is made by creating an `environment.ts` file inside the `\src\environments` folder. You can find instructions on how to change the configuration in the related topics [Environment configuration for self-hosted](self-hosted.md) and [Environment configuration for Portal hosted](portal-hosted.md).
 
 Some of the parameters that you need to understand before you start configuring your custom event website:
 
@@ -106,7 +106,7 @@ Some of the parameters that you need to understand before you start configuring 
 
 ## Backend customization
 
- System customizer wants to add a new field to the existing event management entity and wants to see that field in the event website. For example if the **custom_new_field** field is added to the **evtmgmt_pass** entity. The passes for the event can be retrieved using the API endpoint `api/v2.0/events/{readableEventId}/passes`, but the result doesn't contain the newly added field. 
+ System customizer wants to add a new field to the existing event management entity and wants to see that field in the event website. For example if the **custom_new_field** field is added to the **evtmgmt_pass** entity. The passes for the event can be retrieved using the API endpoint `api/v2.0/events/{readableEventId}/passes`, but the result doesn't contain the newly added field.
 
 To expose the new field to be visible in the API, follow the steps below:
 

@@ -1,36 +1,36 @@
 ---
 title: "Ribbon core schema (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The following is the schema definition for the ribbon core portion of an import/export customization file. It is included from the Customization Solutions File Schema. "
-ms.custom: 
+ms.custom:
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer:
 ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: article
-applies_to: 
+applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b556e9a4-a161-4eac-9759-f9aaf2f02fb2
 caps.latest.revision: 16
 author: JimDaly
 ms.author: jdaly
 manager: amyla
-search.audienceType: 
+search.audienceType:
   - developer
-search.app: 
+search.app:
   - D365CE
 ---
 # Ribbon core schema
 
 The following is the schema definition for the ribbon core portion of an import/export customization file. It is included from the [Customization Solutions File Schema](customization-solutions-file-schema.md). `RibbonCore.xsd` schema includes `RibbonTypes.xsd` and `RibbonWss.xsd` and you can find schema  in the `Schemas\9.0.0.2090\RibbonCore.xsd` folder when you download the Schemas zip file.
 
-Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
+Download the [Schemas](https://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
 
 For more information, see [Package and Distribute Extensions with Microsoft Dynamics 365 for Customer Engagement Solutions](../package-distribute-extensions-use-solutions.md).
-  
-## Ribbon Core Schema  
-  
-```xml  
+
+## Ribbon Core Schema
+
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="CrmRibbonCore" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<xs:include schemaLocation="RibbonTypes.xsd" />
@@ -45,7 +45,7 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
 
 	<xs:element name="UI" type="CommandUIType">
 	</xs:element>
-	
+
 	<!-- Element Types -->
 	<xs:complexType name="RibbonEntityDiffXmlType">
 		<xs:choice minOccurs="1" maxOccurs="1">
@@ -136,10 +136,10 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
 		<xs:attribute name="Title" type="xs:string" />
 	</xs:complexType>
 </xs:schema>
-```  
-  
-### See also  
- [Customize commands and the ribbon](customize-commands-ribbon.md)   
+```
+
+### See also
+ [Customize commands and the ribbon](customize-commands-ribbon.md)
  [Ribbon core schema](ribbon-core-schema.md)
  [Ribbon types schema](ribbon-types-schema.md)
  [Ribbon WSS schema](ribbon-wss-schema.md)
