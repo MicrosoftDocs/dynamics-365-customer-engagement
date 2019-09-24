@@ -1,14 +1,12 @@
 ---
-title: "View and create time-based items with the marketing calendar (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to see and create time-based items like journeys, events, sessions, and appointments, using marketing calendars in Dynamics 365 for Marketing"
+title: "View and create time-based items with the marketing calendar (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to see and create time-based items like journeys, events, sessions, and appointments, using marketing calendars in Dynamics 365 Marketing"
 keywords: marketing execution;email;landing page;marketing page;customer journey
 ms.date: 12/06/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 580a2b1c-1ac7-4bce-9ccf-3b95e723a8e6
 author: kamaybac
 ms.author: kamaybac
