@@ -55,7 +55,7 @@ The conversation summary section displays tabs with the details that help you un
 - Journey
 - Visitor details
 - Additional details (Only if configured and additional context variables available)
-- 
+
 ### Pre-chat
 
 The **Pre-chat survey** tab displays the survey answers against the questions that are requested by your organization, which helps your interaction with the customer.
@@ -71,8 +71,8 @@ The **Journey** tab displays the recent operations a customer performed in the c
 - **Knowledge article viewed:** The knowledge articles a customer viewed before initiating the conversation. When you select the  (hyperlink), the system opens a new browser tab and displays the knowledge article viewed.
 - **General action performed:** Any other actions or operations that a customer performed before initiating the conversation.
 
- [!div class='mx-imgBorder']
-> ![Journey tab](../../media/customer-summary-journey-tab.png "Journey tab")
+    > [!div class='mx-imgBorder']
+    > ![Journey tab](../../media/customer-summary-journey-tab.png "Journey tab")
 
 > [!NOTE]
 > The **Journey** tab displays details that system captures until the customer initiates the conversation. After a customer initiated the conversation, if the customer performs any operations, the system won't show those details for these operations.
