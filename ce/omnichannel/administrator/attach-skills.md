@@ -48,9 +48,13 @@ The two skill matching types are as follows:
  
 ### Exact skill matching
 
-In the exact skill matching, the skill attachment logic identifies the skills and proficiency level that an agent should have to work on the conversation. Next, the work distribution system searches for an agent with the required skills and proficiency level. The skill attachment logic identified proficiency level is set as minimum criteria while searching for the agents, and when the system finds an agent with the necessary skill and proficiency level, it assigns the conversation to that agent.
- 
-For example,
+In the exact skill matching, the skill attachment logic identifies the skills and proficiency level that an agent should have to work on the conversation. Next, the work distribution system searches for an agent with the required skills and proficiency level. 
+
+The skill attachment logic identified proficiency level is set as minimum criteria while searching for the agents. 
+
+- If the minimum proficiency criteria are not met, then the system searches for a higher proficiency level. 
+
+- If no agent is found with a higher proficiency level, then the conversation remains in the queue.
 
 Understand how the exact skill matching works for single or multiple skill scenario.
 
@@ -61,34 +65,25 @@ Understand how the exact skill matching works for single or multiple skill scena
 
 ### Closest skill matching
 
-In the closest skill matching, the skill attachment logic identifies the skills and proficiency level that an agent should have to work on the conversation. Next, the work distribution system searches for an agent with the required skills and proficiency level. The skill attachment logic identified proficiency level is set as minimum criteria while searching for the agents, and when the system finds an agent with the necessary skill and proficiency level, it assigns the conversation to that agent.
+In the closest skill matching, the skill attachment logic identifies the skills and proficiency level that an agent should have to work on the conversation. Next, the work distribution system searches for an agent with the required skills and proficiency level. 
 
-**For single skill scenario:**
+The skill attachment logic identified proficiency level is set as minimum criteria while searching for the agents, and when the system finds an agent with the necessary skill and proficiency level, it assigns the conversation to that agent.
 
-- If the minimum proficiency criteria are not met, then the system always searches for a higher proficiency level.
+The skill attachment logic identified proficiency level is set as minimum criteria while searching for the agents. 
 
-- If no agent is found with a higher proficiency level, then then the system searches for a lower proficiency level, that is, a value lower than the minimum criteria.
+- If the minimum proficiency criteria are not met, then the system searches for a higher proficiency level. 
 
-When skill proficiency level criteria are not met, then the work distribution system assigns the conversation based on the capacity and availability of the agent.
+- If no agent is found with a higher proficiency level, then the system searches for a lower proficiency level than the minimum criteria. System will assign the conversation to an agent even if one of the skills is matching.
 
-**For multi-skill scenario:**
+- When skill proficiency level criteria are not met, then the work distribution system assigns the conversation based on the capacity and availability of the agent.
 
-- If the minimum proficiency criteria are not met, then the system always searches for a higher proficiency level.
-
-- If no agent is found with a higher proficiency level, then then the system searches for a lower proficiency level, that is, a value lower than the minimum criteria.
-
-- If no agent is found with a lower proficiency level, then then the system searches for an agent with at least one skill that matches the requirement.
-
-When skill proficiency level criteria are not met, then the work distribution system assigns the conversation based on the capacity and availability of the agent.
-
-For example,
 
 Understand how the exact skill matching works for single or multiple skill scenario.
 
 | Skill scenario | Skill & proficiency  | Description |
 |--------|---------------------|-----------------|
-| Single | Xbox = 4 | <ul><li>First, the system searches for an agent with Xbox = 4 as this is the minimum criteria. </li> <li> When the criteria are not met, the system searches for an agent with **Xbox** proficiency greater than **4**. If found, the system assigns the conversation to the agent.</li> <li> When the greater than criteria is not met, the system searches for an agent with **Xbox** proficiency lesser than **4**. If found, the system assigns the conversation to the agent.</li><li> When the criteria are not met, the system assigns the conversation based on the capacity and availability of the agent. </li></ul>|
-| Multiple |Xbox = 4 <br> Spanish = 5 |<ul><li> First, the system searches for an agent with **Xbox** = **4** and **Spanish** = **5** as these are the minimum criteria. </li> <li> When the criteria are not met, the system searches for an agent with **Xbox** proficiency greater than **4**, and **Spanish** proficiency greater than **5**. </li> <li> When the greater than criteria is not met, the system searches for an agent with **Xbox** proficiency lesser than **4**, and **Spanish** proficiency lesser than **5**. If found, the system assigns the conversation to the agent.</li> <li>  When the lesser than criteria is not met, the system searches for an agent either with **Xbox** proficiency lesser than **4**, or **Spanish** proficiency lesser than **5**. If found, the system assigns the conversation to the agent.</li> <li> When the criteria are not met, the system assigns the conversation based on the capacity and availability of the agent. </li> </ul>|
+| Single | Xbox = 4 | <ul><li>First, the system searches for an agent with Xbox = 4 as this is the minimum criteria. </li> <li> When the criteria are not met, the system searches for an agent with **Xbox** proficiency greater than **4**. If found, the system assigns the conversation to the agent.</li> <li> When the greater than criteria are not met, the system searches for an agent with **Xbox** proficiency lesser than **4**. If found, the system assigns the conversation to the agent.</li><li> When the criteria are not met, the system assigns the conversation based on the capacity and availability of the agent. </li></ul>|
+| Multiple |Xbox = 4 <br> Spanish = 5 |<ul><li> First, the system searches for an agent with **Xbox** = **4** and **Spanish** = **5** as these are the minimum criteria. </li> <li> When the criteria are not met, the system searches for an agent with **Xbox** proficiency greater than **4**, and **Spanish** proficiency greater than **5**. </li> <li> When the greater than criteria are not met, the system searches for an agent with **Xbox** proficiency lesser than **4**, and **Spanish** proficiency lesser than **5**. If found, the system assigns the conversation to the agent.</li> <li>  When the lesser than criteria is not met, the system searches for an agent either with **Xbox** proficiency lesser than **4**, or **Spanish** proficiency lesser than **5**. If found, the system assigns the conversation to the agent.</li> <li> When the criteria are not met, the system assigns the conversation based on the capacity and availability of the agent. </li> </ul>|
 
 > [!Note]
 > The Omnichannel system provides a score for the agents against each skill based on the above-mentioned scenarios. The system calculates the average score of the agent considering the skills and then based on the score, assigns the conversation to the agents.

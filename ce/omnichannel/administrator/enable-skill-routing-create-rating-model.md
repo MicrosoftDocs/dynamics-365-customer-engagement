@@ -34,9 +34,9 @@ To enable skill-based routing, follow these steps:
 
 2. Select **Skill Based Routing** under **Settings** in the sitemap.
 
-3. Select **Yes** for the **Enable Skill Based Routing** field.
+3. Set the **Enable Skill Based Routing** toggle to **Yes**.
 
-4. Select a rating model from the list for the **Rating Model** field. <br> By default, **Default Rating Model** appears if your environment has Universal Resource Scheduling. <br> If there is no rating mode, create a new rating model. To learn more, see [Create rating model](enable-skill-routing-create-rating-model.md#create-rating-model).
+4. Select a rating model from the list for the **Rating Model** field. <br> If there is no rating mode, create a new rating model. To learn more, see [Create rating model](enable-skill-routing-create-rating-model.md#create-rating-model).
 
     After you select a rating model, the Rating Model Details section displays the **Name**, **Min Rating Value**, **Max Rating Value** and the **Rating Values (Rating Model)** grid.
 
@@ -62,10 +62,7 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 2. Select **Skill Based Routing** under **Settings** in the sitemap.
 
-3. Select **+ New** in the **Rating Model** lookup option to add a new rating model. The **New Rating Model** page appears. By default, **Default Rating Model** option is displayed out-of-the-box.
- 
-    > [!div class=mx-imgBorder] 
-    > ![Create new rating model](../media/rating-model1.png "Create new rating model")
+3. Select **+ New Rating Model** in the **Rating Model** section. The **New Rating Model** page appears.
 
 4. Specify the following in the **New Rating Model** page.
 
