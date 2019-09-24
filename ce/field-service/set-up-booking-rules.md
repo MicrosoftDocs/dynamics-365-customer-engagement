@@ -1,5 +1,5 @@
 ---
-title: "Set up booking rules (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Set up booking rules (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -42,7 +42,7 @@ Booking rules in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-fiel
 6.  Click **Save**.  
   
 ### See also   
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Set up postal codes](../field-service/set-up-postal-codes.md)   
  [Set up territories](../field-service/set-up-territories.md)   
  [Set up booking statuses](../field-service/set-up-booking-statuses.md)   
