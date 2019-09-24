@@ -19,7 +19,7 @@ As an administrator, you must enable the settings to monitor or assign conversat
 
 1. Sign in to **Omnichannel Administration** app.
 
-2. Go to **Supervisor** > **Ongoing Conversation Dashboards**.
+2. Go to **Supervisor Experience** > **Ongoing Conversation Dashboards**.
  
 3. Under **Supervisor Settings** tab, perform the following:
 
