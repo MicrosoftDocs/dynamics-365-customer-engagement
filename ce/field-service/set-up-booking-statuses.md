@@ -1,5 +1,5 @@
 ---
-title: "Set up booking statuses (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Set up booking statuses (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -40,7 +40,7 @@ Booking statuses allow you to create multiple sub-statuses mapped to each of you
    **Note**: You can also set a default status for scheduled and canceled bookings in the **General** section in the **Field Service Setting**. For more information: [Configure default settings](../field-service/configure-default-settings.md)  
   
 ### See also  
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)<br> 
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)<br> 
  [Create a work order](../field-service/create-work-order.md)   
  [Set up postal codes](../field-service/set-up-postal-codes.md)   
  [Set up booking rules](../field-service/set-up-booking-rules.md)   
