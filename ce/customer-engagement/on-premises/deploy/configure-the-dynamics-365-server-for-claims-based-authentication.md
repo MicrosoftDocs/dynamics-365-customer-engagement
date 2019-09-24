@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Configure the Microsoft Dynamics 365 Server for claims-based authentication
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 After you have installed [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)], you need to set the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] binding type and root domains before you enable claims-based authentication.  
   

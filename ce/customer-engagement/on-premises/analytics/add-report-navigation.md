@@ -22,22 +22,22 @@ search.app:
   - D365CE
 ---
 # Add report navigation
-*This content also applies to the on-premises version.*
-Report navigation enables a dynamic and interactive reporting experience. By using various types of actions, reports let the user navigate to detailed reports, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps records, or other websites.  
+
+Report navigation enables a dynamic and interactive reporting experience. By using various types of actions, reports let the user navigate to detailed reports, records, or other websites.  
   
 > [!NOTE]
 >  For more information about report navigation, see [Drillthrough, Drilldown, Subreports, and Nested Data Regions (Report Builder and SSRS)](https://technet.microsoft.com/library/dd207141.aspx) in the [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] documentation. This topic describes report navigation that is specific to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps reports.  
   
-## Dynamic drill through to Dynamics 365 for Customer Engagement apps 
- You can drill through a report to navigate to a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps web form. A drill-through report is implemented in the following steps:  
+## Dynamic drill through  
+ You can drill through a report to navigate to an apps web form. A drill-through report is implemented in the following steps:  
   
-1. An image or value item (such as a text box) is added to a report. The `Value` property of this item contains code that builds a URL by using the base address of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps plus parameters that refer to a specific record.  
+1. An image or value item (such as a text box) is added to a report. The `Value` property of this item contains code that builds a URL by using the base address of the app plus parameters that refer to a specific record.  
   
 2. When the user selects the report item, a new browser window is opened by using the constructed URL passed as the target web address.  
   
-3. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps loads the information for the specified entity into a web form that is displayed in the browser window.  
+3. Customer Engagement (on-premises) apps load the information for the specified entity into a web form that is displayed in the browser window.  
   
-### To set up a drill-through report in Dynamics 365 for Customer Engagement apps 
+### To set up a drill-through report in Dynamics 365 Customer Engagement (on-premises) 
   
 1. Create a hidden parameter of type string in the report that has the name CRM_URL. For more information about adding parameters, see [Use Parameters in Reports](../analytics/use-parameters-in-reports.md). When the report is run, this parameter is automatically set to the web address of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
   

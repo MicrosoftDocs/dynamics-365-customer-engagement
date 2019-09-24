@@ -1,5 +1,5 @@
 ---
-title: "Enable additional languages (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Enable additional languages (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
@@ -23,14 +23,14 @@ search.app:
 <a name="BKMK_Localization"></a>   
 # Enable additional languages 
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
  
- If your organization has people who use a language other than the base language you chose when you deployed [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you can add more languages.  
+ If your organization has people who use a language other than the base language you chose when you deployed Dynamics 365 Customer Engagement (on-premises), you can add more languages.  
   
  Before you can enable a language, you must first install the language pack. More information: [Install or upgrade Language Packs](../deploy/install-or-upgrade-language-packs.md) 
   
 > [!NOTE]
->  Enabling a language can take several minutes. During this time, people might not be able to use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
+>  Enabling a language can take several minutes. During this time, people might not be able to use Dynamics 365 Customer Engagement (on-premises).  
   
 ## Enable additional languages  
   
@@ -43,7 +43,7 @@ search.app:
    While you can enable additional languages, the localized text is only available for text that’s included in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] before it is customized. You can only customize [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] using the base language. Users of other languages will see the text in the base language unless you export translations and add localized text for any user interface items that you have added or changed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Export customized entity and field text for translation](../customize/export-customized-entity-field-text-translation.md)  
   
 > [!NOTE]
->  Because customization is supported only in the base language, as the System Customizer you may be working with the base language set as your language preference. To verify that the translated text is appearing, you must change your language preference for the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps user interface. To perform additional customization work, you must change back to the base language.  
+>  Because customization is supported only in the base language, as the System Customizer you may be working with the base language set as your language preference. To verify that the translated text is appearing, you must change your language preference for the Dynamics 365 Customer Engagement (on-premises) user interface. To perform additional customization work, you must change back to the base language.  
 
 ### See also
 

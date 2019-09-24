@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Sample server XML configuration file
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The following configuration file installs an update file that is located on an internal share, installs a Full Server with all Dynamics 365 Server features, and creates new databases on the default instance of a [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that is named *SQLServer*.  
   

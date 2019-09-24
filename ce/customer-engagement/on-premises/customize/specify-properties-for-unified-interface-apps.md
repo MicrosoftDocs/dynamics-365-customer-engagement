@@ -27,7 +27,7 @@ search.app:
 
 # Specify properties for Unified Interface apps
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The Unified Interface framework uses responsive design principles to provide an optimal viewing and interaction experience for any screen size or orientation. With custom business apps that use the Unified Interface framework, the grid (view) control is responsive. As the size of the container decreases—for example, on phones and smaller viewports—the grid is transformed into a list. 
 

@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: e610c004-0b85-4662-a903-6d4b1ba16d44
 caps.latest.revision: 13
 author: Mattp123
@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Delete an organization
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Before you can delete an organization, you must disable it. [Disable or enable an organization](disable-or-enable-an-organization.md) 
   

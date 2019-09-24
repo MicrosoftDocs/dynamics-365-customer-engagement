@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Upgrade Microsoft Dynamics 365 Reporting Extensions
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Dynamics 365 Reporting Extensions aren’t supported for in-place upgrade. To upgrade to the new version, you must first uninstall the existing version.  
   

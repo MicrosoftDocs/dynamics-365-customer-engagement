@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Dynamics 365 VSS writer service
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Volume Shadow Copy Service (VSS) Writer Service provides added functionality for backing up and restoring [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases through the VSS framework.  
   
@@ -67,6 +67,6 @@ Set-DPMGlobalproperty -dpmservername DPM_SRVR_NAME -registeredwriters APPS_VSS_W
  APPS_VSS_WRITER_ID is the unique identifier of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] VSS Writer service, which is always `74bf91e0-e0fa-4ba9-9258-48f4fd1d0445`.  
   
 ## See also  
- [Microsoft Dynamics 365 for Customer Engagement data protection and recovery](microsoft-dynamics-365-data-protection-and-recovery.md)   </br>
- [Back up the Microsoft Dynamics 365 for Customer Engagement System](back-up-the-microsoft-dynamics-365-system.md)
+ [Microsoft Dynamics 365 Customer Engagement (on-premises) data protection and recovery](microsoft-dynamics-365-data-protection-and-recovery.md)   </br>
+ [Back up the Microsoft Dynamics 365 Customer Engagement (on-premises) System](back-up-the-microsoft-dynamics-365-system.md)
 

@@ -40,7 +40,7 @@ A plug-in is custom business logic that you can integrate with Customer Engageme
 [Plug-in Development](plugin-development.md)
   
 ## Related Sections  
- [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](developer-guide.md)<br />     
+ [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](overview.md)<br />     
  [Write Workflows to Automate Business Processes in Dynamics 365 Customer Engagement (on-premises)](automate-business-processes-customer-engagement.md)<br />     
  [Package and Distribute Extensions with Dynamics 365 Customer Engagement (on-premises) Solutions](package-distribute-extensions-use-solutions.md)<br /> 
  [Use plug-ins to extend business processes in Common Data Service](/powerapps/developer/common-data-service/plug-ins)

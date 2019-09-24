@@ -1,5 +1,5 @@
 ---
-title: "Example: Make a report context-sensitive (Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Example: Make a report context-sensitive (Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -22,10 +22,10 @@ search.app:
   - D365CE
 ---
 # Example: Make a report context-sensitive
-*This content also applies to the on-premises version.*
-The following steps describe how to set up a context-sensitive report in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
+
+The following steps describe how to set up a context-sensitive report.  
   
- For example, if a report displays all activities for a particular account and you want to show this report on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps **Account** form, you must include **Activities** and **Accounts** in the **Related Record Types** categorization and specify **Forms for related record types** in the **Display** in field of the Report: New form.  
+ For example, if a report displays all activities for a particular account and you want to show this report on the apps **Account** form, you must include **Activities** and **Accounts** in the **Related Record Types** categorization and specify **Forms for related record types** in the **Display** in field of the Report: New form.  
   
 ## Create and configure a context-sensitive report  
   
@@ -46,7 +46,7 @@ The following steps describe how to set up a context-sensitive report in [!INCLU
    </fetch>  
    ```  
   
-3. When you upload the report to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps through the **Report: New** form, select all entities in the **Related Record Types** categorization that filtered views are referred to in the report's SQL code.  
+3. When you upload the report through the **Report: New** form, select all entities in the **Related Record Types** categorization that filtered views are referred to in the report's SQL code.  
   
 4. In the **Display In** field, select **Forms for related record types** or **Lists for related record types**. Selecting Lists for related record types lets you run a report from the entity list grid. Selecting **Forms for related record types** lets you run a report from the entity form.  
   

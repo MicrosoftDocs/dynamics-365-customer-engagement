@@ -75,7 +75,8 @@
 ## [Create or edit a site](create-edit-site.md)
 ## [Add resources to a site](add-resources-site.md)
 ## [Enhanced service level agreements](enhanced-service-level-agreements.md)
-## [Configure Relevance Search](configure-relevance-search-organization.md)
+## [Configure Quick Find options](configure-quick-find.md)
+<!--## [Configure Relevance Search](configure-relevance-search-organization.md)-->
 ## [Manage product catalog configuration](manage-product-catalog-configuration.md)
 ## [Enable rich text for appointment activities](enable-rich-text-experience.md)
 <!-- ## Manage documents
@@ -173,7 +174,7 @@
 <!--### [Enable Flow integration](enable-embedded-flow-in-your-organization.md)-->
 <!--### [Preview Feature: Live Assist powered by Café X](../live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md)-->
 <!-- ### [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](deploy-packages-using-package-deployer-windows-powershell.md)  -->
-### [Use Power BI with Customer Engagement](use-power-bi.md)
+<!-- ### [Use Power BI with Customer Engagement](use-power-bi.md)  -->
 <!--### [Preview feature: Set up Cortana integration](set-up-cortana-integration.md)-->
 <!--### [Install, update, or remove a preferred solution](install-remove-preferred-solution.md)-->
 
@@ -205,6 +206,3 @@
 ## [Sales tab](system-settings-dialog-box-sales-tab.md)
 ## [Service tab](system-settings-dialog-box-service-tab.md)
 ## [Synchronization tab](system-settings-dialog-box-synchronization-tab.md)
-## [Mobile Client tab](system-settings-dialog-box-mobile-client-tab.md)
-## [Previews tab](system-settings-dialog-box-previews-tab.md)
-## [On-off switch for Learning Path (guided help)](on-off-switch-for-learning-path-guided-help.md)

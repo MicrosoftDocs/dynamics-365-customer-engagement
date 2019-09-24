@@ -1,5 +1,5 @@
 ---
-title: "Improve report performance by using filters (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Improve report performance by using filters (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -22,10 +22,10 @@ search.app:
   - D365CE
 ---
 # Improve report performance by using filters
-*This content also applies to the on-premises version.*
+
 Reports that return large data sets can be difficult to use and can cause performance problems. To limit the data that is presented in a report, use data filters.  
   
- In addition to data filtering supported by Reporting Services, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps supports data pre–filtering. You can use data pre-filtering to:  
+ In addition to data filtering supported by Reporting Services, Microsoft Dynamics 365 Customer Engagement (on-premises) supports data pre–filtering. You can use data pre-filtering to:  
   
 -   Make reports context-sensitive by narrowing the scope of a report to return more relevant data.  
   
@@ -57,11 +57,11 @@ Reports that return large data sets can be difficult to use and can cause perfor
   
  Similarly, you can enable pre-filtering for the linked entity. You can also specify a different pre-filtering condition for the linked entity in the FetchXML query by specify a different and unique name for the parameter name in the `prefilterparametername` property.  
   
- If you are manually modifying a Fetch-based report definition without using the Report Wizard in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps web application or [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] to enable pre-filtering for primary and linked entities, make sure that you:  
+ If you are manually modifying a Fetch-based report definition without using the Report Wizard or [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] to enable pre-filtering for primary and linked entities, make sure that you:  
   
 1. Similarly, you can enable pre-filtering for the linked entity. You can also specify a different pre-filtering condition for the linked entity in the FetchXML query by specify a different and unique name for the parameter name in the `prefilterparametername` property.  
   
-    If you are manually modifying a Fetch-based report definition without using the Report Wizard in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps web application or [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] to enable pre-filtering for primary and linked entities, make sure that you:  
+    If you are manually modifying a Fetch-based report definition without using the Report Wizard or [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] to enable pre-filtering for primary and linked entities, make sure that you:  
   
    ```xml  
    <fetch distinct="false" mapping="logical">  
@@ -91,7 +91,7 @@ Reports that return large data sets can be difficult to use and can cause perfor
   
 <a name="PassingFilters"></a>   
 ## Passing filters in the filter summary  
- A filter summary displays the value of the filter that is used when a report is run. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps reports, it is displayed as a text box report item in the report header that contains the filter text value. When the user runs the report, the Report Viewer displays an **Edit Filter** button. When the button is clicked, it enables the user to define a data filter. An example of a filter summary can be found in the User Summary report that is included with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
+ A filter summary displays the value of the filter that is used when a report is run. In reports, it is displayed as a text box report item in the report header that contains the filter text value. When the user runs the report, the Report Viewer displays an **Edit Filter** button. When the button is clicked, it enables the user to define a data filter. An example of a filter summary can be found in the User Summary report that is included with Customer Engagement (on-premises) apps.  
   
  To add a filter summary to a report, follow these steps:  
   

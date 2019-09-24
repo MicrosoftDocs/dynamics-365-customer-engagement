@@ -23,7 +23,7 @@ search.app:
 ---
 # Create N:N (many-to-many) relationships
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 <a name="BKMK_CreateEditNNRelationships"></a>   
 
@@ -84,7 +84,7 @@ search.app:
    - To publish customizations for all unpublished components at one time, click **Publish All Customizations**.  
   
      > [!NOTE]
-     >  Any time you change user-interface elements or implement form scripts for an entity, you must publish changes to apply them. Any customizations that change the data schema of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps such as custom entities, relationships, or fields, are applied immediately.  
+     >  Any time you change user-interface elements or implement form scripts for an entity, you must publish changes to apply them. Any customizations that change the data schema of Dynamics 365 Customer Engagement (on-premises) such as custom entities, relationships, or fields, are applied immediately.  
      > 
      > [!INCLUDE[cc_solution_recommendation](../includes/cc-solution-recommendation.md)]  
 

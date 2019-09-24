@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Customer Engagement (on-premises) organization database indexes | Microsoft Docs"
+title: "Dynamics 365 Customer Engagement (on-premises) organization database indexes | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: "crm-2016"
@@ -15,9 +15,9 @@ ms.author: matp
 author: Mattp123
 manager: kvivek
 ---
-# Dynamics 365 for Customer Engagement (on-premises) organization database indexes
+# Dynamics 365 Customer Engagement (on-premises) organization database indexes
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The indexes that are created in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization database are designed to provide fast retrieval of commonly requested data from tables and views stored on a [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)]. Here are a few characteristics for the indexes that are created in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization database.  
   
@@ -54,6 +54,6 @@ WHERE i.name is not null
  For more information about [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] indexes, see [SQL Server Index Architecture and Design Guide]/sql/relational-databases/sql-server-index-design-guide?view=sql-server-2016).  
   
 ## See Also  
- [Operating Microsoft Dynamics 365 for Customer Engagement](operating-microsoft-dynamics-365.md) </br>  
- [Microsoft Dynamics 365 for Customer Engagement data protection and recovery](microsoft-dynamics-365-data-protection-and-recovery.md)
+ [Operating Microsoft Dynamics 365 Customer Engagement (on-premises)](operating-microsoft-dynamics-365.md) </br>  
+ [Microsoft Dynamics 365 Customer Engagement (on-premises) data protection and recovery](microsoft-dynamics-365-data-protection-and-recovery.md)
 

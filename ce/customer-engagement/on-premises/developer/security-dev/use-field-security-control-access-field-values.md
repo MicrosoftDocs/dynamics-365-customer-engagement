@@ -37,7 +37,7 @@ search.app:
 
 # Use field security to control access to field values
 
-In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)], you use field-level security to restrict access to high business impact fields to specific users and teams. For example, you use this to enable only certain users to read or update the credit score for a customer. For this release, field-level security can be applied to both custom fields and many out-of-box (OOB) fields.  
+In Dynamics 365 Customer Engagement (on-premises), you use field-level security to restrict access to high business impact fields to specific users and teams. For example, you use this to enable only certain users to read or update the credit score for a customer. For this release, field-level security can be applied to both custom fields and many out-of-box (OOB) fields.  
   
  The following steps describe how to restrict access to a field:  
   
@@ -93,11 +93,11 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)],
   
 <a name="BKMK_SecurityRoles"></a>   
 ## Which security roles allow you to see secured fields?  
- The System Administrator field security profile gives full access to all secured fields in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)].  By default, all users who have the System Administrator security role have this profile. This profile is system managed and can’t be updated or deleted.  
+ The System Administrator field security profile gives full access to all secured fields in Dynamics 365 Customer Engagement (on-premises).  By default, all users who have the System Administrator security role have this profile. This profile is system managed and can’t be updated or deleted.  
   
 <a name="BKMK_Retrieve"></a>   
 ## How do secured fields behave for Retrieve and RetrieveMultiple?  
- When you call the `Retrieve` or `RetrieveMultiple` methods or messages, [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] evaluates if the caller and the impersonated user have access to each retrieved record (this is the regular security process) and each secured field. The call does not throw an exception if the criteria contain secured fields for which the caller does not have access. Instead, null values are returned for secured fields if they are part of the output column set.  
+ When you call the `Retrieve` or `RetrieveMultiple` methods or messages, Dynamics 365 Customer Engagement (on-premises) evaluates if the caller and the impersonated user have access to each retrieved record (this is the regular security process) and each secured field. The call does not throw an exception if the criteria contain secured fields for which the caller does not have access. Instead, null values are returned for secured fields if they are part of the output column set.  
   
  The following describes more about the retrieve multiple behaviors for secured fields.  
   

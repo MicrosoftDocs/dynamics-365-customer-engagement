@@ -1,5 +1,5 @@
 ---
-title: "Example reports for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Example reports for Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -22,8 +22,8 @@ search.app:
   - D365CE
 ---
 # Example reports
-*This content also applies to the on-premises version.*
-This section provides example reports that show how to implement common techniques in your reports for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
+
+This section provides example reports that show how to implement common techniques in your reports.  
   
 ## Create a report using an example  
   

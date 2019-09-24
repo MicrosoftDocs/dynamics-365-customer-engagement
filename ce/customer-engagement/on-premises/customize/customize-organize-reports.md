@@ -1,5 +1,5 @@
 ---
-title: "Customize and organize reports (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Customize and organize reports (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
@@ -21,9 +21,9 @@ search.app:
 ---
 # Customize and organize reports
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Analyze data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps by using reports. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps includes default reports for many common business needs. However, most organizations customize the default reports and add custom reports for specific needs.  
+
+Analyze data in Dynamics 365 Customer Engagement (on-premises) by using reports. Dynamics 365 Customer Engagement (on-premises) includes default reports for many common business needs. However, most organizations customize the default reports and add custom reports for specific needs.  
   
 <a name="ownership"></a>   
 ## Report ownership  
@@ -31,13 +31,13 @@ Analyze data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps
   
 <a name="types"></a>   
 ## Report types  
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps supports two types of reports:  
+ Dynamics 365 Customer Engagement (on-premises) supports two types of reports:  
   
-- **[!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] reports.** These reports use SQL queries and filtered views to retrieve report data. Filtered views restrict the data to what is available to the security role of the person running the report. All the default reports included with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps are SQL-based reports.  
+- **[!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] reports.** These reports use SQL queries and filtered views to retrieve report data. Filtered views restrict the data to what is available to the security role of the person running the report. All the default reports included with Dynamics 365 Customer Engagement (on-premises) are SQL-based reports.  
   
      You cannot access filtered views in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps because access to the SQL database is not supported. If you have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps subscription, use Fetch-based reports for custom reporting.  
   
-- **Fetch-based Reporting Services reports.** These reports use FetchXML queries that are proprietary to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps instead of filtered views to retrieve data for reports. Reports that you create by using the Report Wizard in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps are Fetch-based reports.  
+- **Fetch-based Reporting Services reports.** These reports use FetchXML queries that are proprietary to Dynamics 365 Customer Engagement (on-premises) instead of filtered views to retrieve data for reports. Reports that you create by using the Report Wizard in Dynamics 365 Customer Engagement (on-premises) are Fetch-based reports.  
   
 The other reports can be:  
   
@@ -60,7 +60,7 @@ The other reports can be:
   
 <a name="security"></a>   
 ## Security of data in reports  
- All reports read [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps data from filtered views that filter the data based on the user's security role. Reports only display data that the person running the report has permission to view.  
+ All reports read Dynamics 365 Customer Engagement (on-premises) data from filtered views that filter the data based on the user's security role. Reports only display data that the person running the report has permission to view.  
   
 <a name="creating"></a>   
 ## Options for creating new reports  
@@ -82,11 +82,11 @@ The other reports can be:
   
 - Edit a report created with the Report Wizard.  
   
-- Edit a default report. For example, if you customize [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you might need to modify labels or add or remove fields in default reports. More information: [Report writing environment using SQL Server Data Tools](../analytics/report-writing-environment-using-sql-server-data-tools.md)  
+- Edit a default report. For example, if you customize Dynamics 365 Customer Engagement (on-premises), you might need to modify labels or add or remove fields in default reports. More information: [Report writing environment using SQL Server Data Tools](../analytics/report-writing-environment-using-sql-server-data-tools.md)  
   
 - Edit the default filter for a default report, a report created with the Report Wizard, or other Reporting Services reports.  
   
-- Create a one-time snapshot for a Reporting Services report or schedule a Reporting Services report to run at set intervals. Note that the Report Scheduling feature is currently only available with on-premises versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
+- Create a one-time snapshot for a Reporting Services report or schedule a Reporting Services report to run at set intervals. Note that the Report Scheduling feature is currently only available with on-premises versions of Dynamics 365 Customer Engagement (on-premises).  
   
 - Share a personal report with other users, or make it available to everyone in your organization.  
   
@@ -94,13 +94,13 @@ The other reports can be:
   
 <a name="solutions"></a>   
 ## Reports in solutions  
- In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, reports are solution aware. Adding a report as a component to a solution makes it become a single unit of software that extends [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps functionality and the user interface. Only reports that are organization owned or visible to the organization can be added to solutions.  
+ In Dynamics 365 Customer Engagement (on-premises), reports are solution aware. Adding a report as a component to a solution makes it become a single unit of software that extends Dynamics 365 Customer Engagement (on-premises) functionality and the user interface. Only reports that are organization owned or visible to the organization can be added to solutions.  
   
 > [!NOTE]
 >  To find if a report is viewable to the organization: In the list of reports, select a report, and then click or tap **Edit**. On the **Administration** tab, see if **Viewable By** is set to **Organization**.  
   
- You can add, import, or export snapshots of reports as part of a solution. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, reports, sub reports, report category, report display area, and report-related record type are considered as components of a report set. When you import a solution update in non-overwrite mode, any updates by the solution to a report will be ignored if any component of the report set has been customized.  
+ You can add, import, or export snapshots of reports as part of a solution. In Dynamics 365 Customer Engagement (on-premises), reports, sub reports, report category, report display area, and report-related record type are considered as components of a report set. When you import a solution update in non-overwrite mode, any updates by the solution to a report will be ignored if any component of the report set has been customized.  
   
 ### See also  
  [Create or edit a report using the Report Wizard](../basics/create-edit-copy-report-wizard.md)   
- [Introduction to reporting and analytics with Dynamics 365 for Customer Engagement apps](../analytics/reporting-analytics-with-dynamics-365.md)
+ [Introduction to reporting and analytics with Dynamics 365 Customer Engagement (on-premises)](../analytics/reporting-analytics-with-dynamics-365.md)

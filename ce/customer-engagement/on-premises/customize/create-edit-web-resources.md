@@ -22,15 +22,13 @@ search.app:
 ---
 # Create or edit web resources to extend an app
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Web resources are typically used by developers to extend an app using files that are used in web development. App users may need to manage web resources provided by a developer or designer.  
 
-[!INCLUDE [cds-platform-note-for-on-premises](../includes/cds-platform-note-for-on-premises.md)]
-
 > [!TIP]
-> 
-> For an in-depth discussion of web resources, see [Web resources for Customer Engagement apps](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/web-resources). For information on web resource dependencies added in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], see [Web resource dependencies](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/web-resources).
+> For an in-depth discussion of web resources, see [Web resources for Customer Engagement](../developer/web-resources.md).
+
 
 <a name="BKMK_WhatAreWebResources"></a>   
 ## What are web resources?  
@@ -38,7 +36,7 @@ Web resources are typically used by developers to extend an app using files that
 
  For example, if you create an HTML page as a web resource named “new_myWebResource.htm”, you could open that page in a browser using a URL like this:  
 
-<Dynamics 365 for Customer Engagement apps URL>/WebResources/new_myWebResource.htm   
+<Dynamics 365 Customer Engagement (on-premises) URL>/WebResources/new_myWebResource.htm   
 
  where *\<app URL>* is the URL you usually use to open the app. Because the web resource is data in the system, only licensed users for your organization can access them this way. Normally, web resources are included in forms rather than referenced directly. The most common usage is to provide [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries for form scripts.  
 
@@ -66,7 +64,7 @@ Web resources are typically used by developers to extend an app using files that
    |     **Type**     |                                                                                                                                                                                                                                                                                                  **Required**. This is the type of web resource. You can’t change this after you save the web resource.                                                                                                                                                                                                                                                                                                   |
    | **Text Editor**  |                                                                                                                                                                                                                                                                                When the type of web resource represents a kind of text file, select this button to open a page to edit the content using the text editor.                                                                                                                                                                                                                                                                                 |
    |   **Language**   |                                                                                                                                                                                                                                                                       Allows for a selection of a language. This option just tags the record that stores the web resource data. It doesn’t change the behavior of the web resource.                                                                                                                                                                                                                                                                       |
-   | **Upload File**  | Select the **Browse…** button to choose a file to upload as a web resource.<br /><br /> You can upload a file when creating a new web resource or to overwrite an existing web resource.<br /><br /> The file name extension of the file must match allowed extensions.<br /><br /> By default the maximum size file that can be uploaded as a web resource is 5MB. This value can be modified in Dynamics 365 for Customer Engagement apps by using the **System Settings** > **Email** tab > **Set file size limit for attachments** setting. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](../admin/system-settings-dialog-box-email-tab.md) |
+   | **Upload File**  | Select the **Browse…** button to choose a file to upload as a web resource.<br /><br /> You can upload a file when creating a new web resource or to overwrite an existing web resource.<br /><br /> The file name extension of the file must match allowed extensions.<br /><br /> By default the maximum size file that can be uploaded as a web resource is 5MB. This value can be modified in Dynamics 365 Customer Engagement (on-premises) by using the **System Settings** > **Email** tab > **Set file size limit for attachments** setting. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](../admin/system-settings-dialog-box-email-tab.md) |
    |     **URL**      |                                                                                                                                                                                                                                                                              After you save the web resource, the URL to the web resource will be displayed here. Select this link to view the web resource in your browser.                                                                                                                                                                                                                                                                              |
 
 

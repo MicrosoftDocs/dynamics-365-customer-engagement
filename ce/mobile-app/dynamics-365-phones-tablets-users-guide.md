@@ -27,9 +27,9 @@ search.app:
 Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] apps for your sales, customer service, field service, and other tasks when you're on the go. With one download from your app store, you’ll automatically have access to all the apps you need for your role. You will see apps with the new Unified Interface on your mobile device.  
 
 > [!NOTE]
-> - On February 21, 2018, we announced the deprecation of the Windows Phone app for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. On May 22, 2018, the Windows Phone app will no longer be supported for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365 apps, (version 8.2) and earlier supported versions. If you wish to continue to use the Windows Phone app, you should not update to Dynamics 365 apps, version 9.0 as the Windows Phone app will not be supported with version 9.x. 
-> - [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has separate mobile apps for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] and Operations. Learn about [Dynamics 365 apps for Field Service (Resco) mobile app](https://go.microsoft.com/fwlink/?linkid=846157) and [Dynamics 365 apps  for Operations mobile app](https://ax.help.dynamics.com/en/wiki/mobile-development-handbook/).  
-> - Mobile offline feature is now available. It's available only for iOS and Android users.
+> - On February 21, 2018, we announced the deprecation of the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] Windows Phone app. Effective May 22, 2018, the Windows Phone app is no longer supported. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365 apps, (version 8.2) and earlier supported versions. If you want to continue to use the Windows Phone app, you should not update to Dynamics 365 apps, version 9.0 as the Windows Phone app will not be supported with version 9.x. 
+> - There are separate mobile apps for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] and Operations. More information: [Field Service mobile app](https://go.microsoft.com/fwlink/?linkid=846157) and [Finance and Operations mobile app](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page).  
+> - Mobile offline feature is now available for iOS and Android users.
 > - You can use the web browsers on your phone or tablet but for full functionality and optimized experience we strongly recommend that you use the Dynamics 365 for phones and tablets app. For more information, see [Install Dynamics 365 for phones and tablets](install-dynamics-365-for-phones-and-tablets.md).
     
 ## Install the app from your device’s app store  
@@ -37,11 +37,11 @@ Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!IN
 
 ## Sign in and sign out (iOS users)
 
-Sign in to the Dynamics 365 mobile app quickly using your work email address or Customer Engagement app web address. If you need help with your sign-in information, contact your Dynamics 365 administrator. 
+Sign in to the Dynamics 365 mobile app quickly using your work email address or web address for the Dynamics 365 app that you use. If you need help with your sign-in information, contact your Dynamics 365 administrator. 
 
 > [!IMPORTANT]
-> - This feature is supported for version 9.x (Online and on-premises) when signing in using the mobile app on an iOS device.
-> - If you are a [Dynamics 365 US Government](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government) (GCC and GCC High) user, you are required to sign in using the web address option.
+> - This feature is supported for version 9.x (Common Data Service and Dynamics 365 Customer Engagement (on-premises)) when signing in using the mobile app on an iOS device.
+> - If you are a [Dynamics 365 US Government](https://docs.microsoft.com/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government) (GCC and GCC High) user, you are required to sign in using the web address option.
 
 
 ### Sign in with your email address (iOS users)
@@ -66,14 +66,14 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
 
 ### Sign in with your web address (iOS users)
 
-You can also sign in using your Dynamics 365 Customer Engagement app web address and user name and password. 
+You can also sign in using your web address for the Dynamics 365 app and user name and password. 
 
 1. On the sign-in screen, select **Sign in with a web address instead**.
 
    > [!div class="mx-imgBorder"] 
    > ![Enter user name and password address](media/userandpassword.png "Enter your user name and password"). 
 
-2. Enter the URL for your Dynamics 365 Customer Engagement app, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in"). 
+2. Enter the URL for your web address for the Dynamics 365 app that you use, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in"). 
 3. Enter your user name and password.
 4. From the list of apps that you have access to, select the app that you want to use.
 
@@ -140,7 +140,7 @@ Sign in to the Dynamics 365 mobile app for Android using your work email address
 
 ## Sign in and sign out (Android users)
 
-To sign in, you’ll need your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web address, user name, and
+To sign in, you’ll need your Dynamics 365 apps web address, user name, and
 password. If you need help with your sign-in information, contact your Dynamics 365 administrator. 
 
 1. Open the mobile app, enter your Dynamics 365 apps web address, and then select ![Dynamics 365 for phones and tablets continue sign](../mobile-app/media/mobile-signin-arrow.png "Dynamics 365 for phones and tablets continue sign").
@@ -385,4 +385,6 @@ The assistant draws your attention to your most important items and tasks, drawn
 
 ### See Also  
  [What's supported](support-phones-tablets.md) </br>
- [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)   
+ [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)<br/>
+ [Common Data Service Help](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br/>
+ [Dynamics 365 Customer Engagement (on-premises) Help](../customer-engagement/on-premises/overview.md)

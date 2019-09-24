@@ -30,9 +30,7 @@ search.app:
  Tracing can be enabled on the [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)] for debugging. For more information about the event viewer and platform tracing, see [Monitoring and troubleshooting Dynamics 365 Customer Engagement (on-premises)](https://technet.microsoft.com/library/hh699694.aspx).  
   
 ### See also  
- [Extend Dynamics 365 Customer Engagement (on-premises) on the server](../extend-dynamics-365-server.md)   
- [Troubleshooting and error handling](troubleshooting-error-handling.md)   
+ [Extend Dynamics 365 Customer Engagement (on-premises) on the server](extend-dynamics-365-server.md)   
  <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
- [Organization Service Methods](organization-service-methods.md)   
  <xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>   
  <xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>

@@ -22,7 +22,7 @@ search.app:
 ---
 # Additional controls for Dynamics 365 for phones and tablets 
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
  You can use a rich set of additional controls to create a more touch-friendly experience on Dynamics 365 for phones and tablets. These include sliders, switches, multimedia player, input masks, calendar, and other controls.  
 

@@ -22,7 +22,7 @@ search.app:
 ---
 # Create or edit a main form for an entity 
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 When you create a new form for an entity, its form type is Main. When the new form opens, it is identical to the form named Information. You can add or edit fields, sections, tabs, navigation, and properties associated with the form, and then save the form.
 

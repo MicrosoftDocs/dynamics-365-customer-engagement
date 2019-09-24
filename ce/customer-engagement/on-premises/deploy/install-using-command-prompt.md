@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Install Microsoft Dynamics 365 Server roles using the command prompt
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 By default, Setup installs all Dynamics 365 Server roles on the local computer. However, when you are installing Dynamics 365 Server, you can select to install one or more server roles. Additionally, you can install the same server role or roles on two or more computers, which can provide load balancing benefits. To do this, you can either select the roles that you want by running the Dynamics 365 Server Setup or you can configure an XML configuration file and then run Setup at a command prompt on the computer where you want the role installed.  
   

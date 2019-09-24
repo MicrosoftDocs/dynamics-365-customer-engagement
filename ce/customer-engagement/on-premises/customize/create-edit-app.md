@@ -1,5 +1,5 @@
 ---
-title: "Create or edit a custom business app using the app designer in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Create or edit a custom business app using the app designer in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to create or edit apps using the app designer"
 keywords: 
 ms.date: 06/20/2019
@@ -25,7 +25,7 @@ search.app:
 
 # Create or edit an app by using the app designer
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Create single-entity or multiple-entity apps quickly by using the tile-based app designer. Create once and run your app on large screen devices. 
 > [!div class="mx-imgBorder"] 
@@ -43,7 +43,7 @@ As well as mobile devices.
 
 ## Create an app  
 
-1. From Dynamics 365 for Customer Engagement apps go to **Settings** > **My Apps**, and select **Create  new App**. Alternatively, in the **Apps** area of solution explorer select **New**. Enter the following details on the **Create a New App** page:  
+1. From Dynamics 365 Customer Engagement (on-premises) go to **Settings** > **My Apps**, and select **Create  new App**. Alternatively, in the **Apps** area of solution explorer select **New**. Enter the following details on the **Create a New App** page:  
   
    - **Name**: Enter a unique name for the app.  
   
@@ -98,7 +98,7 @@ As well as mobile devices.
 
 ## Edit an app  
   
-1. From Dynamics 365 for Customer Engagement apps go to **Settings** > **My Apps**, select **...** on the app you want, and then select **Open in App Designer**. Alternatively, go to the **Apps** area of solution explorer and select the app that you want to edit.  
+1. From Dynamics 365 Customer Engagement (on-premises) go to **Settings** > **My Apps**, select **...** on the app you want, and then select **Open in App Designer**. Alternatively, go to the **Apps** area of solution explorer and select the app that you want to edit.  
 
    > [!div class="mx-imgBorder"] 
    > ![](media/edit-app.png "Edit app")   
@@ -110,7 +110,7 @@ As well as mobile devices.
 
 ## Run an app
 
-App users can run published apps from Dynamics 365 for Customer Engagement apps by going to **Settings** > **My Apps**, and then select the app they want. 
+App users can run published apps from Dynamics 365 Customer Engagement (on-premises) by going to **Settings** > **My Apps**, and then select the app they want. 
 
 > [!TIP]
 > If there are several apps available, search for the app by typing in the search box.

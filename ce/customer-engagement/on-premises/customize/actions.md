@@ -21,7 +21,7 @@ search.app:
 ---
 # Actions overview
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
+ 
 
 Actions are a type of process. You can invoke actions, including custom actions, directly from a workflow or dialog without writing code! [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Invoke custom action from a workflow or dialog](../customize/invoke-custom-actions-workflow-dialog.md)  
   

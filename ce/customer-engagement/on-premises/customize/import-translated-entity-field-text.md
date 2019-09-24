@@ -23,7 +23,7 @@ search.app:
 ---
 # Import translated entity and field text back into an app
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 If you have customized entity or field text, such as field labels or drop-down list values, you can provide the users in your organization who are not working with the base language version of your environment with this customized text in their own languages. To do so, you export the text strings for all your customizations so that they can be translated into the languages you use in your organization.  
   
@@ -46,7 +46,7 @@ If you have customized entity or field text, such as field labels or drop-down l
 
 ## Community tools
 
-[Easy Translator](https://www.xrmtoolbox.com/plugins/MsCrmTools.Translator/) is a tool that XrmToolBox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Use Easy Translator to export and import translations with contextual information. 
+[Easy Translator](https://www.xrmtoolbox.com/plugins/MsCrmTools.Translator/) is a tool that XrmToolBox community developed for Dynamics 365 Customer Engagement (on-premises). Use Easy Translator to export and import translations with contextual information. 
 
 > [!NOTE]
 > The community tools are not supported by [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)]. 

@@ -1,5 +1,5 @@
 ---
-title: "Post-installation and configuration guidelines for Dynamics 365 for Customer Engagement (on-premises) | Microsoft Docs"
+title: "Post-installation and configuration guidelines for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/09/2019"
 ms.prod: "crm-2016"
@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Post-installation and configuration guidelines for Microsoft Dynamics 365
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 This section describes several of the tasks that the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] administrator should consider after the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] application is installed. This section isn’t meant to be an exhaustive resource used to configure deployments. Instead, use this section as a guideline to determine what best practices to implement and features to configure, based on your organization's needs.  
   
@@ -44,7 +44,7 @@ This section describes several of the tasks that the [!INCLUDE[pn_microsoftcrm](
   
 <a name="BKMK_configure_IFD"></a>   
 ## Configure a Dynamics 365 Internet-facing deployment  
- After all [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] roles are installed, you can configure the deployment so that remote users can connect to the application through the Internet. To do this, start [!INCLUDE[cc_Rule_Deployment_manager_short](../includes/cc-rule-deployment-manager-short.md)] and complete the [!INCLUDE[pn_Configure_Claims-based_Wizard](../includes/pn-configure-claims-based-wizard.md)] followed by the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)]. Alternatively, you can complete these tasks using [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)]. More information: [Overview of Dynamics 365 for Customer Engagement PowerShell](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps)  
+ After all [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] roles are installed, you can configure the deployment so that remote users can connect to the application through the Internet. To do this, start [!INCLUDE[cc_Rule_Deployment_manager_short](../includes/cc-rule-deployment-manager-short.md)] and complete the [!INCLUDE[pn_Configure_Claims-based_Wizard](../includes/pn-configure-claims-based-wizard.md)] followed by the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)]. Alternatively, you can complete these tasks using [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)]. More information: [Overview of Dynamics 365 Customer Engagement (on-premises) PowerShell](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps)  
   
 > [!IMPORTANT]
 >  For [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] to successfully connect to a new deployment of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)], you must run a Repair of the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] application on the server running [!INCLUDE[pn_iis](../includes/pn-iis.md)] where the [!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)] role is installed *after* the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)] is successfully completed. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Uninstall, change, or repair Microsoft Dynamics 365 Server](uninstall-change-repair-dynamics-365-server.md)  -->
@@ -65,7 +65,7 @@ This section describes several of the tasks that the [!INCLUDE[pn_microsoftcrm](
   
 <a name="install_solution"></a>   
 ## Import apps and solutions   
-  Sales and Field Service apps are available to you. More information: [Available apps for Dynamics 365 for Customer Engagement (on-premises)](available-apps.md)
+  Sales and Field Service apps are available to you. More information: [Available apps for Dynamics 365 Customer Engagement (on-premises)](available-apps.md)
 
   Use solutions to extend functionality and the user interface. Customizers and developers distribute their work as solutions. Organizations use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to import the solution. Find a solution in the [Microsoft AppSource](https://appsource.microsoft.com/).  
   
@@ -75,7 +75,7 @@ This section describes several of the tasks that the [!INCLUDE[pn_microsoftcrm](
  For more information about how to import a solution, see [Import, update, and export a solution](/dynamics365/customer-engagement/customize/import-update-export-solutions).  
   
 <a name="BKMK_WS2012R2"></a>   
-## Configure Windows Server for Dynamics 365 for Customer Engagement applications that use OAuth  
+## Configure Windows Server for Dynamics 365 Customer Engagement (on-premises) applications that use OAuth  
  The following information describes how to configure Windows Server with AD FS to support [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] applications such as [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)],  [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], or other [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] applications that need OAuth support.  
 
 <!--   

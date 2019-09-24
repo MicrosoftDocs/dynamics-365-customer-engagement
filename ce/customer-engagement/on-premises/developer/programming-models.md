@@ -74,7 +74,7 @@ The following diagram illustrates the key programmability scenarios for Dynamics
  When you need to access Dynamics 365 Customer Engagement (on-premises) data that isn’t available in the context where your [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code is running, you can make calls to the server to get the data you need. The organization service can be used, but it is much easier to use the Web API with JSON rather than the XML required by the organization service. Because your script runs in the context of the application, you are automatically authenticated. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with the Dynamics 365 Customer Engagement Web API (client-side JavaScript)](webapi/get-started-web-api-client-side-javascript.md)
 
 ### See also
-[Software Development Kit for Dynamics 365 Customer Engagement (on-premises)](developer-guide.md)<br />
+[Developer Guide for Dynamics 365 Customer Engagement (on-premises)](overview.md)<br />
 [Get started](get-started-sdk.md)<br />
 [Tutorials and resources](tutorials-resources-sdk.md)<br />
 [Best practices](best-practices-sdk.md)<br />

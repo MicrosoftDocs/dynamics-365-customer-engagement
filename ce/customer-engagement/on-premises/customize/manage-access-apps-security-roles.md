@@ -27,7 +27,7 @@ search.app:
 
 # Manage access to apps by using security roles
 
- [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+ 
 
 You can choose what users see and access from the **My Apps** page or the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] home page by giving app access to specific security roles. Users will have access to apps based on the security roles they're assigned to.  
   

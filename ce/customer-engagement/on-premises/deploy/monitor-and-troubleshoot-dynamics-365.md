@@ -1,5 +1,5 @@
 ---
-title: "Monitor and troubleshoot Dynamics 365 for Customer Engagement (on-premises) | Microsoft Docs"
+title: "Monitor and troubleshoot Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: "crm-2016"
@@ -15,9 +15,9 @@ ms.author: matp
 author: Mattp123
 manager: kvivek
 ---
-# Monitor and troubleshoot Dynamics 365 for Customer Engagement (on-premises)
+# Monitor and troubleshoot Dynamics 365 Customer Engagement (on-premises)
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can create trace files that monitor the actions that are performed by the server and client applications. Trace files are helpful when you have to troubleshoot error messages or other issues in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   

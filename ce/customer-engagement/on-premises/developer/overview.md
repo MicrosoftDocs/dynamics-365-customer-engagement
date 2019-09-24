@@ -8,8 +8,6 @@ ms.service:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: e926cfed-f581-4f1f-83bd-75a06292212b
 author: KumarVivek
 ms.author: kvivek
@@ -24,7 +22,7 @@ search.app:
 ---
 # Developer Guide for Dynamics 365 Customer Engagement (on-premises), version 9.x
 
-Welcome to the Dynamics 365 Customer Engagement (on-premise) Developer Guide.
+Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 
 For documentation of earlier versions (8.x and earlier), see <https://docs.microsoft.com/previous-versions/dynamics/>.
 
@@ -42,11 +40,11 @@ For documentation of earlier versions (8.x and earlier), see <https://docs.micro
 
 <h2> Connect </h2>
 
-<li><a href="connect-customer-engagement-web-services-using-oauth.md" data-raw-source="[Using OAuth](connect-customer-engagement-web-services-using-oauth.md)">Using OAuth</a></li>
-<li><a href="oauth-cross-origin-resource-sharing-connect-single-page-application.md" data-raw-source="[Using Oauth with CORS](oauth-cross-origin-resource-sharing-connect-single-page-application.md)">Using Oauth with CORS</a></li>
+<li><a href="/powerapps/developer/common-data-service/authenticate-oauth" data-raw-source="[Use OAuth](/powerapps/developer/common-data-service/authenticate-oauth)">Use OAuth</a></li>
+<li><a href="/powerapps/developer/common-data-service/oauth-cross-origin-resource-sharing-connect-single-page-application" data-raw-source="[Use Oauth with CORS](/powerapps/developer/common-data-service/oauth-cross-origin-resource-sharing-connect-single-page-application)">Use Oauth with CORS</a></li>
 <li><a href="active-directory-claims-based-authentication.md" data-raw-source="[Active Directory and claims-based auth](active-directory-claims-based-authentication.md)">Active Directory and claims-based auth</a></li>
 <li><a href="build-windows-client-applications-xrm-tools.md" data-raw-source="[XRM tooling](build-windows-client-applications-xrm-tools.md)">XRM tooling</a></li>
-<li><a href="build-web-applications-server-server-s2s-authentication.md" data-raw-source="[Server-to-Server (S2S) auth](build-web-applications-server-server-s2s-authentication.md)">Server-to-Server (S2S) auth</a></li>
+<li><a href="/powerapps/developer/common-data-service/build-web-applications-server-server-s2s-authentication" data-raw-source="[Server-to-Server (S2S) auth](/powerapps/developer/common-data-service/build-web-applications-server-server-s2s-authentication)">Server-to-Server (S2S) auth</a></li>
 </td>
 </tr>
 
@@ -129,7 +127,7 @@ For documentation of earlier versions (8.x and earlier), see <https://docs.micro
 
 ### See also
 
-[Administrator Guide](../admin/admin-guide.md)
+[Administrator Guide](../admin/overview.md)
 
 [Customization Guide](../customize/overview.md)
 

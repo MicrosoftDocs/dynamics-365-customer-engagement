@@ -1,5 +1,5 @@
 ---
-title: "Use parameters in reports (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Use parameters in reports (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -22,11 +22,11 @@ search.app:
   - D365CE
 ---
 # Use parameters in reports
-*This content also applies to the on-premises version.*
+
 You use parameters in reports to control the data retrieved by prompting the user for a value or a set of values when the user runs the report. The dataset query retrieves only the data that is requested by the user. You can also add hidden and special parameters in the reports that do not prompt the user for input, but can be used for operations such as data filtering and dynamic drill-through.  
 
 > [!NOTE]
->  The maximum length of the parameter values that are passed in from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps is 2,000 characters. For example, if you run a report and create a data filter through the **Advanced Find** user interface, the resulting filter expression that is passed to a filter parameter cannot exceed 2,000 characters. There is no maximum limit on the number of parameters that you can specify. However, you might have to limit the length of the string on the URL line and number of parameters to meet the requirements of a particular browser.  
+>  The maximum length of the parameter values that are passed in from Microsoft Dynamics 365 Customer Engagement (on-premises) is 2,000 characters. For example, if you run a report and create a data filter through the **Advanced Find** user interface, the resulting filter expression that is passed to a filter parameter cannot exceed 2,000 characters. There is no maximum limit on the number of parameters that you can specify. However, you might have to limit the length of the string on the URL line and number of parameters to meet the requirements of a particular browser.  
 
 <a name="BKMK_Adding"></a>   
 ## Adding parameters  
@@ -109,7 +109,7 @@ You use parameters in reports to control the data retrieved by prompting the use
 
 <a name="BKMK_Hidden"></a>   
 ## Hidden parameters  
- The Report Designer in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] has built-in support for hidden parameters. In addition, you can hide parameters by adding a CRM_ prefix to the parameter name in a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps report. By default, the parameters with a CRM_ prefix are hidden when the report is published through [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. When you run the report, you aren’t prompted to enter parameter values for the hidden parameters.  
+ The Report Designer in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] has built-in support for hidden parameters. In addition, you can hide parameters by adding a CRM_ prefix to the parameter name in a report. By default, the parameters with a CRM_ prefix are hidden when the report is published. When you run the report, you aren’t prompted to enter parameter values for the hidden parameters.  
 
 ### Special parameters  
  The following table shows the special hidden parameters that you can use in your reports.  
@@ -118,10 +118,10 @@ You use parameters in reports to control the data retrieved by prompting the use
 |      Parameter       |                                                                                                                             Description                                                                                                                              |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   `CRM_FilterText`   | Contains the value of the filter text that a report user interactively creates in the Report Viewer when the user runs a report. The parameter is in a filter summary text box that is located in the report header. The initial value is set to the default filter. |
-|      `CRM_URL`       |                              Set to the URL of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps web application. Use this parameter when drilling through to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.                              |
+|      `CRM_URL`       |                              Set to the URL of the app. Use this parameter when drilling through.                              |
 | `CRM_FilteredEntity` |                                                                                         Use in a query expression to enable data pre-filtering (through **Advanced Find**).                                                                                          |
 
- You must create all parameters in a report before you can refer to them. The values of these special parameters are filled in by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps when you run the report.  
+ You must create all parameters in a report before you can refer to them. The values of these special parameters are filled in by Customer Engagement (on-premises) when you run the report.  
 
 ### Additional format parameters  
  The following table contains additional parameters that you can use in the reports. Among them are parameters that provide access to the user Number settings information. You can use these values to format and display the numeric values. These parameters are similar to values specified in the [NumberFormatInfo Class](https://msdn.microsoft.com/library/system.globalization.numberformatinfo.aspx). Use these parameters in custom reports to format the data according to the user settings.  

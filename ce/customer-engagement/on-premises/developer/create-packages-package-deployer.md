@@ -511,5 +511,4 @@ Dynamics 365 Customer Engagement (on-premises) provide you with a [!INCLUDE[pn_V
 
 -   Back up the production instance before deploying the package.  
 
-### See also  
- [What's New for Developers](whats-new-developers.md)
+

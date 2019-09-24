@@ -1,5 +1,5 @@
 ---
-title: "Accessibility in Dynamics 365 for Customer Engagement | Microsoft Docs"
+title: "Accessibility in Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: "crm-2016"
@@ -15,7 +15,7 @@ ms.author: matp
 author: Mattp123
 manager: kvivek
 ---
-# Accessibility in Dynamics 365 for Customer Engagement
+# Accessibility in Dynamics 365 Customer Engagement (on-premises)
 Administrators and users who have administrative responsibilities typically use the Settings area of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application to manage [[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. A mouse and keyboard are the typical devices that administrators use to interact with the application.  
   
  Users who don’t use a mouse can use a keyboard to navigate the user interface and complete actions. The ability to use the keyboard in this way is a result of support for keyboard interactions that a browser provides.  

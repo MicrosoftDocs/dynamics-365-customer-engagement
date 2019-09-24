@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Microsoft Dynamics 365 Monitoring Service
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Monitoring Service is an NT-style service that monitors all [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] roles running on the local computer. The monitoring service doesn’t transmit information outside the computer where the service is running. The monitoring service is installed with the installation of any [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] role.  
   

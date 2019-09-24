@@ -24,9 +24,9 @@ search.app:
 
 # Work offline on your mobile device
 
-Work with your data in offline mode even when you don't have internet access. The Dynamics 365 for phones and tablets app provides a rich offline experience that lets you work with commands like create, read, update, and delete along with some special commands—so you always stay productive. Once you're back online, changes you've made are synchronized with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+Work with your data in offline mode even when you don't have internet access. The Dynamics 365 for phones and tablets app provides a rich offline experience that lets you work with commands like create, read, update, and delete along with some special commands—so you always stay productive. Once you're back online, changes you've made are synchronized with your apps in the Common Data Service environment or Dynamics 365 Customer Engagement (on-premises).  
 
-> [!Note]
+> [!NOTE]
 > - The mobile offline feature is only available for iOS and Android devices.
 > - To use the mobile offline feature, download the latest version of the Dynamics 365 for phones and tablet app from the app store. For iOS, version 13.19043.32 or later is supported; for Android, version 4.3.19043.33 or later supported.
 
@@ -159,15 +159,15 @@ These entities and corresponding commands are available in offline mode.
 > [!NOTE]
 > The **Date** field is not available for mobile offline search.
    
-**Security modeling**: Mobile offline honors the Dynamics 365 for Customer Engagement security model. It also supports the hierarchical security model.
+**Security modeling**: Mobile offline honors the Dynamics 365 apps security model. It also supports the hierarchical security model.
 
 
 Field level security and attribute sharing are not supported for offline mode.
 
-If a user was working on a record and lost network connection, any updates made to the record are saved in offline mode and will be synchronized to the Customer Engagement app once the user is back online. When the record is synchronized with the app, it follows the filter rule for availability in offline mode.
+If a user was working on a record and lost network connection, any updates made to the record are saved in offline mode and will be synchronized to Dynamics 365 app once the user is back online. When the record is synchronized with the app, it follows the filter rule for availability in offline mode.
 
 > [!NOTE]
-> - Actions from offline mode are replayed automatically. The changes are played back in the same sequence as they were created, modified, or deleted. This ensures that the data state is maintained and there are no data mismatches on the Dynamics 365 for Customer Engagement app.
+> - Actions from offline mode are replayed automatically. The changes are played back in the same sequence as they were created, modified, or deleted. This ensures that the data state is maintained and there are no data mismatches on the Dynamics 365 apps.
 > - The org can enhance business functionality available in mobile offline using Xrm.Mobile.offline. For more information, see Xrm.Mobile.offline (client-side reference).
 
 ## Known Issues

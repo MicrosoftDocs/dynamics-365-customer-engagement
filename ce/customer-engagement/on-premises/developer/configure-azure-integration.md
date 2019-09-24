@@ -25,7 +25,7 @@ search.app:
 You can post the message request data for the current core operation to cloud hosted applications listening on the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. To enable this capability in Dynamics 365 Customer Engagement (on-premises), perform the tasks detailed in this topic.  
 
 > [!NOTE]
-> These instructions apply to Online deployments only. For on-premises deployments, see documentation for the most recent on-premises release at [Dynamics CRM 2016 SDK: Configure Azure integration with Microsoft Dynamics 365 Customer Engagement aps](https://msdn.microsoft.com/library/gg309340.aspx)
+> These instructions apply to Online deployments only. For on-premises deployments, see documentation for the most recent on-premises release at [Dynamics CRM 2016 SDK: Configure Azure integration with Microsoft Dynamics 365 Customer Engagement apps](https://msdn.microsoft.com/library/gg309340.aspx)
   
 
 <a name="bkmk_configureappfabric"></a>

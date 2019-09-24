@@ -22,7 +22,7 @@ search.app:
 ---
 # Access a view definition in Dynamics 365 for Customer Engagement for Customer Engagement
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 <a name="BKMK_AccessingViewDefinitions"></a>   
 

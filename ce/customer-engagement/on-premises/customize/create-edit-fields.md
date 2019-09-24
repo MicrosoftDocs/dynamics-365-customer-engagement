@@ -21,9 +21,9 @@ search.app:
 ---
 # Create and edit fields (attributes)
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-With Dynamics 365 for Customer Engagement apps, fields define the individual data items that can be used to store data in an entity. Fields are sometimes called attributes by developers. You can use the customization tools in the solution explorer to edit system fields that allow customization, or to create, edit, or delete custom entities.  
+
+With Dynamics 365 Customer Engagement (on-premises), fields define the individual data items that can be used to store data in an entity. Fields are sometimes called attributes by developers. You can use the customization tools in the solution explorer to edit system fields that allow customization, or to create, edit, or delete custom entities.  
   
 <a name="BKMK_CreatingAndEditngFields"></a>   
 ## Create and edit fields  
@@ -112,7 +112,7 @@ With Dynamics 365 for Customer Engagement apps, fields define the individual dat
 
 ## Community tools
 
-**Attribute Manager** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Please see the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
+**Attribute Manager** is a tool that XrmToolbox community developed for Dynamics 365 Customer Engagement (on-premises). Please see the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 

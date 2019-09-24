@@ -23,7 +23,7 @@ search.app:
 ---
 # What's supported
 
-You can access [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data from mobile devices in different ways. You can install and use the apps for Windows, iOS, and [!INCLUDE[tn_android](../includes/tn-android.md)] mobile devices, or you can run the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web app on the device’s preferred browser for those devices described here. 
+You can access Common Data Service or Dynamics 365 Customer Engagement (on-premises) data from mobile devices in different ways. You can install and use the apps for Windows, iOS, and [!INCLUDE[tn_android](../includes/tn-android.md)] mobile devices, or you can run the app on the device’s preferred browser for those devices described here.
    
 <a name="BKMK_CRMforPhones"></a>   
 ## Support for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and tablets 
@@ -37,7 +37,7 @@ You can access [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data 
 | [Windows tablet](https://go.microsoft.com/fwlink/p/?linkid=862402) |      10       |     2 GB      |                   4 GB                    |
  
 > [!NOTE]
-> On February 21, 2018, we announced the deprecation of the Windows Phone app for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. On May 22, 2018, the Windows Phone app will no longer be supported for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. The app is only supported on Windows Phone 10. The app is not supported on Windows Phone 8.1. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365 apps, (version 8.2) and earlier supported versions. If you wish to continue to use the Windows Phone app, you should not update to Dynamics 365 apps, version 9.0 as the Windows Phone app will not be supported with version 9.x.
+> On February 21, 2018, we announced the deprecation of the Windows Phone app for Dynamics 365 apps. Effective May 22, 2018, the Windows Phone app is no longer supported for Dynamics 365 apps. The app is only supported on Windows Phone 10. The app is not supported on Windows Phone 8.1. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365 apps, version 8.2 and earlier supported versions. If you wish to continue to use the Windows Phone app, you should not update to Dynamics 365 apps, version 9.0 as the Windows Phone app won't be supported with version 9.x.
  
 <a name="BKMK_CRMforTablets"></a>   
 ## Support for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
@@ -52,7 +52,7 @@ You can run the Dynamics 365 apps for Windows tablets app on devices that meet t
 |Memory|Minimum RAM (memory) required is 2 GB. 4 GB RAM recommended for optimal performance|  
 |Resolution|1366 x 768 resolution (720p)|  
 
-You can also run the Dynamics 365 apps web app on a supported web browser on these devices. For more information about web browser support, see [Web application requirements for Microsoft Dynamics 365 apps](../admin/web-application-requirements.md).
+You can also run the Dynamics 365 apps on a supported web browser on these devices. For more information about web browser support, see [Web application requirements for Microsoft Dynamics 365 apps](../admin/web-application-requirements.md).
 
 Download the Dynamics 365 apps from the Windows Marketplace for [Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=808734).  
   
@@ -83,9 +83,9 @@ You can run the [!INCLUDE[pn_moca_CRM_Android](../includes/pn-moca-crm-android.m
   
 <a name="BKMK_BrowserSupport"></a>   
 ## Web browser support for tablets  
- You can run [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in the default web browser on any Windows 10 device, including a Windows 10 PC, but the user interface is optimized for touch. For [Apple iPad](../mobile-app/support-phones-tablets.md#BKMK_iPad) tablets,  iOS 10 and above are supported. For [Android](../mobile-app/support-phones-tablets.md#BKMK_Nexus), versions 6.0 and above are supported for the tablets.  
+ You can run your app in the default web browser on any Windows 10 device, including a Windows 10 PC, but the user interface is optimized for touch. For [Apple iPad](../mobile-app/support-phones-tablets.md#BKMK_iPad) tablets,  iOS 10 and later are supported. For [Android](../mobile-app/support-phones-tablets.md#BKMK_Nexus), versions 6.0 and above are supported for the tablets.  
   
- Using [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] on a web browser on an Apple or Android mobile device provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:  
+ Using your app on a web browser on an Apple or Android mobile device provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:  
   
 - Pinch and zoom  
   

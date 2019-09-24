@@ -23,7 +23,7 @@ search.app:
 ---
 # Use custom controls for data visualizations
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Custom controls let you transform fields that traditionally contain text into visualizations. Similarly, you can use custom controls to transform datasets, such as a view, to display in a more visual rendering rather than a list of records. Custom controls can appear as visualizations on forms, dashboards, views, and homepage grids. You can set one type of custom control to appear in the web browser client while having a different custom control appear in your [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] phone or  tablet mobile apps. For example, you could use a number input custom control for a field in web browser clients and a slider custom control for the phone app. After the customization is published, users can fully interact with the control to change the value, such as by sliding the control when using the linear slider custom control. Changes are automatically saved when the form is closed just as they are when the user changes a traditional  field on a form.  
   
@@ -91,4 +91,4 @@ Custom controls let you transform fields that traditionally contain text into vi
 ### See also  
  [Create and edit views](../customize/create-edit-views.md)</br>
  [Customize Dynamics 365 for phones and tablets](../customize/customize-phones-tablets.md)</br>
- [Make grids (lists) editable in Dynamics 365 for Customer Engagement apps using the Editable Grid custom control](../customize/make-grids-lists-editable-custom-control.md)
+ [Make grids (lists) editable in Dynamics 365 Customer Engagement (on-premises) using the Editable Grid custom control](../customize/make-grids-lists-editable-custom-control.md)

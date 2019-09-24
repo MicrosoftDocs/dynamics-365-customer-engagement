@@ -1,5 +1,5 @@
 ---
-title: "Example: Display the top X values (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Example: Display the top X values (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -22,8 +22,8 @@ search.app:
   - D365CE
 ---
 # Example: Display the top X values
-*This content also applies to the on-premises version.*
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps includes several reports that display the top `X` items of an entity, where the user can specify the value of `X`.  
+
+Microsoft Dynamics 365 Customer Engagement (on-premises) includes reports that display the top `X` items of an entity, where the user can specify the value of `X`.  
   
  To query for the top items, use dynamic SQL. Assign the SQL query string that includes the user-specified parameter to a variable. This resolves the user-specified parameter. The query string is then passed to the `SQL EXEC` function together with the user-specified parameter.  
   

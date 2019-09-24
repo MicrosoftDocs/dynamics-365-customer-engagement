@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Implement claims-based authentication: external access
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 To enable claims-based authentication for external access to [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] data, do the following:  
   

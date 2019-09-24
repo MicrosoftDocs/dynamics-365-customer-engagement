@@ -23,7 +23,7 @@ search.app:
 ---
 # Install or uninstall an app
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 An app can be made available as a solution. This allows you to package one or more apps in a solution and import them in other environments.  
   

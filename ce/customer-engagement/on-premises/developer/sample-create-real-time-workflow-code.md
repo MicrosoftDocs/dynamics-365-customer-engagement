@@ -22,7 +22,7 @@ search.app:
 ---
 # Sample: Create a real-time workflow in code
 
-This sample code applies to on–premises [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with workflows](https://code.msdn.microsoft.com/Work-with-workflows-edf8f3bf).
+This sample code applies to Dynamics 365 Customer Engagement (on-premises). Download the sample: [Work with workflows](https://code.msdn.microsoft.com/Work-with-workflows-edf8f3bf).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
@@ -31,7 +31,7 @@ This sample code applies to on–premises [!INCLUDE[pn_dynamics_crm_online](../i
  You must enable support for custom XAML workflows on your on-premises server. [!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]  
   
 ## Demonstrates  
- The following sample shows you how to create a real-time workflow in code instead of using the interactive workflow designer in the web application. This sample works only with an on-premises or an Internet-facing deployment (IFD) of Dynamics 365 Customer Engagement (on-premises) for Customer Engagement because custom XAML workflows aren’t supported in Dynamics 365 Customer Engagement.  
+ The following sample shows you how to create a real-time workflow in code instead of using the interactive workflow designer in the web application. 
   
  [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 

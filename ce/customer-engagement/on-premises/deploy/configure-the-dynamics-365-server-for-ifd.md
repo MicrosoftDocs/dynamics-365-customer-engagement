@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Configure the Microsoft Dynamics 365 server for IFD
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 With internal claims authentication access enabled on [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)], you can now enable external claims access through IFD.  
   

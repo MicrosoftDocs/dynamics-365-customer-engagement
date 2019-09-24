@@ -1,5 +1,5 @@
 ---
-title: "Customize Dynamics 365 for phones and tablets (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Customize Dynamics 365 for phones and tablets (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 06/18/2019
 ms.reviewer: 
@@ -21,15 +21,15 @@ search.app:
 ---
 # Customize Dynamics 365 for phones and tablets to work for your business
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-With [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you can design once and deploy everywhere. Customizations you make to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system appear in the Dynamics 365 for phones and tablets apps as well as in the web app. Your changes are optimized in the mobile apps so they display properly. Choose one of the following or scroll down to see the types of changes you can make, and how they might display differently in the mobile apps than the web app.  
+
+With Dynamics 365 Customer Engagement (on-premises), you can design once and deploy everywhere. Customizations you make to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system appear in the Dynamics 365 for phones and tablets apps as well as in the web app. Your changes are optimized in the mobile apps so they display properly. Choose one of the following or scroll down to see the types of changes you can make, and how they might display differently in the mobile apps than the web app.  
 
  The latest version of the phone app, [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)], provides the same full-featured experience as the [!INCLUDE[pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)] app. It has the same intuitive user interface (adapted for phones), as well as offline capabilities. 
 
  After you’ve made customizations to a form, users will see a prompt to download updates the next time they open their mobile app.  
 
- [Watch a short video (1:51) about customizing the Dynamics 365 for Customer Engagement apps mobile app](https://go.microsoft.com/fwlink/p/?linkid=836829).  
+ [Watch a short video (1:51) about customizing the Dynamics 365 Customer Engagement (on-premises) mobile app](https://go.microsoft.com/fwlink/p/?linkid=836829).  
 
 
 ## Home page for Dynamics 365 for phones and tablets  
@@ -41,15 +41,15 @@ With [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you can d
 
  **Web app**  
 
- ![Dynamics 365 for Customer Engagement form reflow from web app](../customize/media/custon-reflow-web-app.png "Dynamics 365 for Customer Engagement apps form reflow from web app")  
+ ![Dynamics 365 for Customer Engagement form reflow from web app](../customize/media/custon-reflow-web-app.png "Dynamics 365 Customer Engagement (on-premises) form reflow from web app")  
 
  **Tablet app**  
 
- ![Dynamics 365 for Customer Engagement form reflow to tablet app](../customize/media/reflow-tablet-app.png "Dynamics 365 for Customer Engagement apps form reflow to tablet app")  
+ ![Dynamics 365 for Customer Engagement form reflow to tablet app](../customize/media/reflow-tablet-app.png "Dynamics 365 Customer Engagement (on-premises) form reflow to tablet app")  
 
  **Phone app**  
 
- ![Dynamics 365 for Customer Engagement form reflow to phone app](../customize/media/custon-reflow-phone-app.png "Dynamics 365 for Customer Engagement apps form reflow to phone app")  
+ ![Dynamics 365 for Customer Engagement form reflow to phone app](../customize/media/custon-reflow-phone-app.png "Dynamics 365 Customer Engagement (on-premises) form reflow to phone app")  
 
  Dynamics 365 for phones and tablets does not provide the capability to switch between forms. If you have more than one main form for an entity, the one displayed depends on the form order set and which security roles are assigned to the form. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Multiple forms](../customize/main-form-presentations.md#BKMK_MultipleForms)  
 
@@ -102,7 +102,7 @@ That way, if you think phone users need to focus only on the primary information
 |   Social Profile    |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
 |        Task         |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
 
-*For [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], we support basic connections. For earlier versions, we only support connections for Sales Team and Stakeholders on the Opportunity form.
+*For Dynamics 365 Customer Engagement (on-premises), we support basic connections. For earlier versions, we only support connections for Sales Team and Stakeholders on the Opportunity form.
 
  **Entities that are visible and read-only in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**  
 

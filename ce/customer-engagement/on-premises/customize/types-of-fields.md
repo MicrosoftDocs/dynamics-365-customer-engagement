@@ -26,7 +26,7 @@ search.app:
 
 # Types of fields and field data types
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 <a name="BKMK_TypesOfFields"></a>   
 ## Types of fields  
@@ -93,9 +93,9 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 
 ### Customer field  
 
- In previous releases of Dynamics 365 for Customer Engagement apps, several out-of-the-box entities such as the Case, Lead, and Opportunity entities, included a special kind of lookup field that represented a customer. Using this lookup field you could choose between two entities: Account or Contact. With this new capability, you can add the Customer field to any system or custom entity. You can use the Customer field in more entities to  track the customer's information  in the same way you've used the Customer field in the Case, Lead, and Opportunity entities.  
+ In previous releases of Dynamics 365 Customer Engagement (on-premises), several out-of-the-box entities such as the Case, Lead, and Opportunity entities, included a special kind of lookup field that represented a customer. Using this lookup field you could choose between two entities: Account or Contact. With this new capability, you can add the Customer field to any system or custom entity. You can use the Customer field in more entities to  track the customer's information  in the same way you've used the Customer field in the Case, Lead, and Opportunity entities.  
 
- Let's look at the following business scenario. Your company is an insurance provider. You use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps to manage your customer interactions and standardize business processes. It’s important for you to know if a recipient of policies or claims is an individual or a company. To address this business requirement, you can create two custom entities: Policies and Claims.  To get and track the customer information you want, add the Customer lookup field to the Policies entity and the Claims entity, by using the new Customer field capability.  
+ Let's look at the following business scenario. Your company is an insurance provider. You use Dynamics 365 Customer Engagement (on-premises) to manage your customer interactions and standardize business processes. It’s important for you to know if a recipient of policies or claims is an individual or a company. To address this business requirement, you can create two custom entities: Policies and Claims.  To get and track the customer information you want, add the Customer lookup field to the Policies entity and the Claims entity, by using the new Customer field capability.  
 
 <a name="BKMK_SingleLineofTextFormatOptions"></a>   
 ### Single line of text format options  
@@ -186,7 +186,7 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 
  When image display is enabled for an entity, any records that don’t have an image will display a placeholder image. For example, the Lead entity:  
 
- ![Placeholder image for Lead entity form in Dynamics 365 for Customer Engagement](../customize/media/lead-entity-form.PNG "Placeholder image for Lead entity form in Dynamics 365 for Customer Engagement apps")  
+ ![Placeholder image for Lead entity form in Dynamics 365 for Customer Engagement](../customize/media/lead-entity-form.PNG "Placeholder image for Lead entity form in Dynamics 365 Customer Engagement (on-premises)")  
 
  People can choose the default image to upload a picture from their computer. Images must be less than 5120 KB and must one of the following formats:  
 

@@ -17,7 +17,7 @@ manager: kvivek
 ---
 # Add the AD FS website to the Local intranet security zone in Internet Explorer
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+
 
 Because the [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] website is loaded as a FQDN, [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] places it in the **Internet** zone. 
   

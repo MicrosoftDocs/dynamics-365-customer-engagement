@@ -22,7 +22,7 @@ search.app:
 ---
 # Sample: Create a workflow in code
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] for Customer Engagement (on-premises). Download the sample: [Work with workflows](https://code.msdn.microsoft.com/Work-with-workflows-edf8f3bf).
+This sample code is for Dynamics 365 Customer Engagement (on-premises). Download the sample: [Work with workflows](https://code.msdn.microsoft.com/Work-with-workflows-edf8f3bf).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
