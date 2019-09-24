@@ -1,5 +1,5 @@
 ---
-title: "Set up characteristics (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Set up characteristics (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/10/2019
@@ -67,7 +67,7 @@ Characteristics are skills that resources possess. For example, they can be used
 5.  Click **Save & Close**.  
   
 ### See also    
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Set up bookable resources](../field-service/set-up-bookable-resources.md)   
  [Set up bookable resource categories](../field-service/set-up-bookable-resource-categories.md)   
  [Set up resource pay types](../field-service/set-up-resource-pay-types.md)
