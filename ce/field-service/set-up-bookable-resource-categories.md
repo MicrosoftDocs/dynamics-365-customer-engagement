@@ -1,5 +1,5 @@
 ---
-title: "Set up bookable resource categories (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Set up bookable resource categories (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -34,7 +34,7 @@ Bookable resource categories let you group your bookable resources by type. For 
 3.  Use the tooltips to help fill in your information, and then click **Save**.  
   
 ### See also 
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Set up bookable resources](../field-service/set-up-bookable-resources.md)   
  [Set up resource pay types](../field-service/set-up-resource-pay-types.md)   
  [Set up characteristics](../field-service/set-up-characteristics.md)<br>
