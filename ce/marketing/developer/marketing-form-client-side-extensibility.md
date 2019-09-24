@@ -23,7 +23,7 @@ search.app:
 
 A marketing form defines a set of input fields arranged into a form layout. You'll probably build a small library of reusable forms that you can place on all your various marketing pages as needed. To add a marketing form to a specific marketing page, use a form element to position the form, and choose local settings for it, which applies to that page only. More information [Marketing forms](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/marketing-forms)
 
-Marketing forms can be extended using JavaScript to perform custom business actions in [Dynamics 365 Marketing](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/overview) app. Following are the methods that are available to extend marketing forms.
+Marketing forms can be extended using JavaScript to perform custom business actions in the [Dynamics 365 Marketing](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/overview) app. Following are the methods that are available to extend marketing forms.
 
 ## Form load
 
@@ -122,26 +122,26 @@ To add the JavaScript code, you need to follow the steps below:
 
    ![Add code in HTML tab](../media/marketing-page-html-tab.png "Add code in HTML tab")
 
-5. Click on **Save** to save your changes and click on **Go live**.
+5. Select **Save** to save your changes and then select **Go live**.
 
 ## Add your code snippet when you're using your own CMS and form hosting
 
 To add the code snippet, you need to follow the steps below:
 
-1. Navigate to **Marketing** app and go to **Marketing forms**
+1. Navigate to the **Marketing** app and go to **Marketing forms**
 2. Choose **New** to create a new marketing form.
-3. Click on **Go live**.
-4. Select the **Form hosting** tab, under the **Whitelist rules**, click on **...** and **Add New Form whitelist rule**.
+3. Select **Go live**.
+4. Select the **Form hosting** tab and under the **Whitelist rules**, select **...** and **Add New Form whitelist rule**.
     
     ![Form Hosting Tab](../media/form-hosting-whitelist-rule-page.png "Form Hosting Tab")
 
-5. Add your own CMS domain and click on **Save**.
-6. In the **From hosting** tab, under the **Related marketing form pages** tab, click on **...** and **Add New Form Page** to add a marketing form page.
+5. Add your own CMS domain and select **Save**.
+6. In the **From hosting** tab, under the **Related marketing form pages** tab, select **...** and **Add New Form Page** to add a marketing form page.
     
     ![Related Marketing Form Pages](../media/form-hosting-related-marketing-form-pages.png "Related Marketing Form Pages")
 
-7. Click **Save**.
-8. Now click on the form page you have created and copy the script to the clipboard.
+7. Select **Save**.
+8. Now select the form page you have created and copy the script to the clipboard.
    
     ![Add code snippet](../media/new-form-page-adding-code.png "Add code snippet")
 
