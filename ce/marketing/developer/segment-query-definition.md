@@ -31,24 +31,24 @@ This topic showcases different elements that define a segment query.
 
 ## PROFILE
 
-This is the base expresesion for the query which selects all the profiles with a given profile type. The profiles matching the query will be the target profiles for the segment.
+This is the base expression for the query that selects all profiles with a given profile type. The profiles matching the query will be the target profiles for the segment.
 
 **Syntax**
 `PROFILE(profile_type_name)`
 
 > [!NOTE]
-> Queries usig `UNION`, `MINUS`, `INTERSECT` or `SEGMENT` functions should select the same profile type.
+> Queries using `UNION`, `MINUS`, `INTERSECT` or `SEGMENT` functions should select the same profile type.
 
 ## SEGMENT
 
-Expression to access all profiles that belongs to a given segment. 
+Expression to access all profiles that belong to a given segment. 
 
 **Syntax**
 `SEGMENT(segment_name)`
 
 ## TRAVERSE
 
-Function to move in the graph, using the relationship type provided as a parameter. Optionally an expression can be applied for the current edges, to filter the one that are not meeting the condition. 
+Function to move in the graph, using the relationship type provided as a parameter. Optionally, an expression can be applied for the current edges to filter the ones that are not meeting the condition. 
 
 **Syntax**
 `TRAVERSE(relationship_type_name, FILTER(condition))`
@@ -177,7 +177,7 @@ Function to determine if property is NULL.
  
  ## propertyName CONTAINS stringValue
  
- String function determing whether property contains given substring.
+ String function determining whether property contains given substring.
  
  ## propertyName STARTSWITH stringValue
  
