@@ -32,7 +32,7 @@ This guide provides all the steps required for getting up and running with Conne
   
 - [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)  
   
-- Dynamics 365 System Administrator credentials. For users with Office 365 global administrator access, they must be assigned the **System Administrator**’** security role within the Dynamics 365 organization.
+- Dynamics 365 System Administrator credentials. For users with Office 365 global administrator access, they must be assigned the **System Administrator** security role within the Dynamics 365 organization.
   
 - An IoT – Administrator role in the IoT solution (to access IoT entities and IoT functionality), plus another role, like Field Service – Dispatcher (to access Dynamics 365).  
   
