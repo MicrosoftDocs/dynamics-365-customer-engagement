@@ -34,63 +34,7 @@ search.app:
 
 <a name="segment-profile"></a>
 
-## Design a demographic or firmographic segment
 
-_Demographic and firmographic segments_ are dynamic segments that query _profile records_ stored in the marketing insights database. Profile records include the entities you normally work with in the Dynamics 365 Marketing UI, such as contacts, accounts, leads, and any other entities. They are synced between your Dynamics 365 Marketing organizational database (where you can work with them in the UI and other Dynamics 365 apps) and the marketing insights database (where you can query them from a segment).
-
-This type of segment is called _dynamic_ because its membership is defined as a query, which provides a logical description of the contacts the segment should contain, but doesn't list any contacts by name. Member ship in dynamic segments can change from moment to moment in response to new contacts being added or updated in the database.
-
-Both demographic and firmographic segments are examples of dynamic profile segments. The only difference is that new firmographic segments are created with a relation to the accounts entity by default (which you are free to remove).
-
-To create a demographic or firmographic segment, create a segment and then select the **Demographic** or **Firmographic** option, as described in [Create and go live with a new segment](#create-segment). Then design your segment logic as described in the remaining subsections of this section.
-
-### Create an entity group
-
-An *entity group* is a collection of logical clauses and clause groups. An entity group can be quite simple (possibly with just one clause), or very complex (featuring multiple nested clause groups and relations). Your segments can also include multiple entity groups combined with union, exclude, and/or intersect operators, but often you'll have just one entity group. See the next section for more information about combining multiple entity groups. 
-
-The following image shows an example of typical entity group in a dynamic profile segment query. It highlights the key features of the designer that you'll use to create your query.
-
-![Segment designer UI elements for dynamic profile segments](media/segment-dynamic-callouts.png "Segment designer UI elements for dynamic profile segments")
-
-Legend:
-
-1. **Top entity (contacts)**: At the top of each entity group in the designer you'll see a reference to the contact entity. This is because each entity group must ultimately resolve to a list of contacts from the contact entity.
-1. **Related entity**: Related entities link to the next-higher entity in the query structure through a specific field in one of the two entities. Use related entities to find a collection of non-contact records (such as accounts) and then find the contacts related to those found records. In this example, you see a relation to the account entity annotated as **Account (Contact -> Account (Company name)**. That means that we are linking to the **Account** entity, which relates back to the **Contact** entity&mdash;in this case through a lookup field on the contact entity called **Company name**. This relation opens a clause group that will find some accounts based on the criteria nested below this relation, and then relates back to the contact entity by finding all of the contacts that work for the found companies (contacts that link to those companies through the contact **Company name** field). If needed, you can nest related entities within each other as your work farther and farther away from the contact entity.
-1. **Clause group**: Clause groups are collections of logical clauses (rows) that are combined using either AND or OR operators. The AND operator is more exclusive; it only finds records that meet all of the criteria of each clause in the group. The OR operator is more expansive; it finds all records that meet any of the criteria for the group. Use the drop-down list at the top of the clause group to select the operator. You can nest clause groups inside one another. The system resolves the most deeply nested groups first and then works its way up. The example shown here will find _accounts_ (the parent entity) that are either in the _financial_ or _accounting_ industry, but only those that also have a category of _preferred customer_.
-1. **Single clause (row)**: Clauses represent the basic building blocks of the query. Each asks a specific question about a specific field value and finds records that answer that question. Each row starts by naming a field from the parent entity, followed by an operator (such as equals, contains, starts with, or ends with), followed by a value. Use the drop-down lists and fields provided to define the field, operator, and value for each new clause that you add, as needed. The example shown here finds contacts where the _city_ part of their address _equals__New York_.
-1. **New item button**: Use the **New** buttons to add a new row, clause group, or related entity at that location in the query structure. Select the button to open a drop-down list, and then select which type of item you want to add there (**New row**, **New group**, or **New related entity**). Finally, configure the new row, clause group, or relation as needed using the drop-down lists and fields provided for the new item.
-1. **New group button**: Use the **New group** button to add a new contact entity group to the query. Each entity group resolves to a collection of contacts, which you then combine using union, exclude, and/or intersect operators. A Sankey diagram is provided at the bottom of the page to help you visualize how your entity groups combine and flow into each other. The effect is similar to creating a compound segment, but in this case you are combining entity groups within a single segment rather than individual existing segments.
-1. **Explore related entities**: Select this button to open a diagram that illustrates how various entities relate to each other in your database (especially, how they relate back to the contact entity). This can help you decide how to make use of related entities in your query.
-1. **Full-screen editor**: Select this button to open the segment designer in full-screen mode, which provides more screen real estate for viewing and editing your query.
-1. **Expand/collapse entity group**: Select this button to expand or collapse all the rows in this entity group. This lets you switch between getting the big picture and viewing individual query details, which can be handy if your query includes several entity groups.
-1. **Command menu and expand/collapse clause group button**: To delete a clause group, open the command menu ( **...** ) and select **Delete**. To expand or collapse a clause group, select the chevron button next to the command menu. The expand/collapse buttons lets you switch between getting the big picture and viewing individual rows, which can be handy if your query includes several clause groups.
-1. **Delete button**: To remove a clause (row) from your query, select the delete button next to the row you want to remove.
-
-> [!NOTE]
-> For clauses that query fields of type _multi option set_ or _lookup_, you can only specify one value in each clause. To find multiple values in these types of fields, create multiple clauses that query the same field and combine them using the OR operator.
-
-### Combine multiple entity groups
-
-You can design your segment to include multiple entity groups and then set rules for how to combine the groups. Often, you could obtain the same results with a single, complex entity group, but it can be sometimes be easier to design and visualize your segment using multiple entity groups instead.
-
-The following image shows the dynamic-profile segment designer with when several entity groups are present.
-
-![Segment designer UI elements for combining entity groups](media/segment-dynamic-groups-callouts.png "Segment designer UI elements for combining entity groups")
-
-Legend:
-
-1. **Collapsed entity group**: All of the entity groups in this example are shown as collapsed, which means you can't see the detailed logic of each group. However, this view makes it easy to see all the groups and adjust the logic being used to combine them. Use the chevron button at the right side of each entity group to expand or collapse it.
-2. **Entity group operator**: Between each entity group is an operator, which establishes the logic for combining the previous group with the next one. Use this drop-down list to choose one of the following:
-   - **Union**: Combines all members of the two groups.
-   - **Intersect**: Finds only contacts that are members of both groups. Contacts present in just one of the groups will be removed.
-   - **Except**: Removes all contacts from the incoming group from the current result.
-3. **Sankey diagram**: This diagram makes it easy to visualize the way all of the various groups are being combined by your selected logic. It indicates how two incoming groups will be combined, the order of the combination, and the approximate effect that the combination logic will have on the resulting, combined group. Select the **Flow view** tab at the bottom of the page if you don't see the diagram there.
-
-### View and edit the raw query
-
-The segment designer provides a graphical interface for creating the logic for a dynamic segment. As  you work with the settings, you are actually creating a text-based query in the background. This is the query that the system will actually run against your database. Usually you don't need to use the query for anything, but sometimes it can help in troubleshooting. You can also copy/paste queries into the designer, which you might use to create a copy of an existing segment or to share a query design through email.
-
-To find, view, and edit the query, scroll to the bottom of the page and open the **Query view** tab here.
 
 <a name="segment-interaction"></a>
 
@@ -118,6 +62,12 @@ Legend:
 
 > [!NOTE]
 > Behavioral segments can only contain one entity group, and do not offer the ability to estimate the segment size.
+
+### View and edit the raw query
+
+The segment designer provides a graphical interface for creating the logic for a dynamic segment. As  you work with the settings, you are actually creating a text-based query in the background. This is the query that the system will actually run against your database. Usually you don't need to use the query for anything, but sometimes it can help in troubleshooting. You can also copy/paste queries into the designer, which you might use to create a copy of an existing segment or to share a query design through email.
+
+To find, view, and edit the query, scroll to the bottom of the page and open the **Query view** tab here.
 
 <a name="segment-static"></a>
 

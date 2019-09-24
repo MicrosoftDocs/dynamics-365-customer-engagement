@@ -1,6 +1,6 @@
 ---
-title: "Design dynamic profile segments in the standard view (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to use the standard view to construct segments in Dynamics 365 Marketing"
+title: "Design dynamic demographic or firmographic segments (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to design dynamic demographic or firmographic segments in Dynamics 365 Marketing"
 keywords: segment; compound segment
 ms.date: 05/07/2019
 ms.service: dynamics-365-marketing
@@ -22,31 +22,54 @@ search.app:
   - D365Mktg
 ---
 
-# Design profile-based dynamic segments
+# Design dynamic demographic or firmographic segments
 
-The segmentation tool always works in one of two modes, which enable it to create either of the following two types of segments:
+_Demographic and firmographic segments_ are dynamic segments that query _profile records_ stored in the marketing insights database. Profile records include the entities you normally work with in the Dynamics 365 Marketing UI, such as contacts, accounts, leads, and any other entities. They are synced between your Dynamics 365 Marketing organizational database (where you can work with them in the UI and other Dynamics 365 apps) and the marketing insights database (where you can query them from a segment).
 
-- **Profile segments** query the _profile_ records stored in the marketing-insights service. Profile records are synced between your Dynamics 365 organizational database and the marketing-insights service and include the entities you normally work with in the Dynamics 365 UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](mkt-settings-sync.md).
+This type of segment is called _dynamic_ because its membership is defined as a query, which provides a logical description of the contacts the segment should contain, but doesn't list any contacts by name. Member ship in dynamic segments can change from moment to moment in response to new contacts being added or updated in the database.
 
-- **Interaction segments** query the _interaction_ records stored in the marketing-insights service. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insights displays in the Dynamics 365 Marketing UI, but they _aren't_ synced to the Dynamics 365 organizational database. They are generated in response to contact interactions such as opening an email, clicking an email link, submitting a form, or registering for an event.
+Both demographic and firmographic segments are examples of dynamic profile segments. The only difference is that new firmographic segments are created with a relation to the accounts entity by default (which you are free to remove). For mor information about other types of segments, and links to topics about how to work with them, see [Working with segments](segmentation-lists-subscriptions.md)
 
-This topic describes how to work with profile segments. For more about interaction segments, see [Design interaction-based dynamic segments](segments-interaction.md).
+## Create or edit a demographic or firmographic segment
 
-More information: [Working with segments](segmentation-lists-subscriptions.md)
+To manage your segments, go to **Marketing** > **Customers** > **Segments** and then do one of the following
 
-## Set up a new dynamic segment
+- Select any listed segment to open it for editing.
+- To create a new demographic or firmographic segment, select **New** on the command bar and then select the **Demographic** or **Firmographic** option, as described in [Working with segments](segmentation-lists-subscriptions.md).
 
-To create a dynamic segment, go to **Marketing** > **Customers** > **Segments** and then select **New** on the command bar. A new segment is created. Set its **Segment type** to **Dynamic** on the **General** tab. Then use the **Definition** tab to build your dynamic segment by combing _groups_ of *query clauses*, each of which results in a set of contacts. Each group establishes a _path_ through one or more entities that must end at the **Contact** entity (the order matters).
+Now design the logic for your demographic or firmographic segment as described in the remainder of this topic. For mor information about other types of segments, and links to topics about how to work with them, see [Working with segments](segmentation-lists-subscriptions.md)
 
-## Define a query group
 
-Each group in your segment query must result in a list of contacts, which are selected by the logic defined in that group. Each group must therefore establish a path through various entities, each linked through relations, and which ends with the contact entity. A simple query group might query the contact entity alone, but a more complex one could pass through several entities.
+## Elements in a query block
 
-> [!TIP]
-> The segmentation designer now supports fields of all data types supported by Dynamics 365, including: option set, two option set, multiple option set, single line of text, multiple line of text, whole number, floating number, decimal number, currency, look up, date time, and customer.
+A *query block* is a collection of logical clauses and clause groups. A query block can be quite simple (possibly with just one clause), or very complex (featuring multiple nested groups and relations). Your segments can also include multiple query blocks combined with union, exclude, and/or intersect operators, but often you'll have just one query block.
+
+Each query block in your segment must result in a list of contacts, which are selected by the logic defined in that block. Each block must therefore establish a path through various entities, each linked through relations, and which ends with the contact entity. A simple query block might query the contact entity alone, but a more complex one could reference or pass through several entities.
+
+The following image shows an example of typical query block in a dynamic profile segment query. It highlights the key features of the designer that you'll use to create your query.
+
+![Segment designer UI elements for dynamic profile segments](media/segment-dynamic-callouts.png "Segment designer UI elements for dynamic profile segments")
+
+Legend:
+
+1. **Entity**: You can query any entity that's synced to the [marketing-insights service](mkt-settings-sync.md). However each query block must end with the **Contact** entity. You'll usually choose to start with the **Contact** entity and simply remain there (possibly adding clauses that query related entities), but you can also choose to begin with another entity and then link through one or more relations to end with **Contact** entity.
+1. **Related entity**: Related entities link to the current entity through a specific field in one of the two entities. Use related entities to find a collection of non-contact records (such as accounts) and then find the contacts related to those found records. In this example, you see a relation to the account entity annotated as **Account (Contact -> Account (Company name)**. That means that we are linking to the **Account** entity, which relates back to the **Contact** entity&mdash;in this case through a lookup field on the contact entity called **Company name**. This relation opens a clause group that will find some accounts based on the criteria nested below this relation, and then relates back to the contact entity by finding all of the contacts that work for the found companies (contacts that link to those companies through the contact **Company name** field). If needed, you can nest related entities within each other as your work farther and farther away from the contact entity.
+1. **Clause group**: Clause groups are collections of logical clauses (rows) that are combined using either AND or OR operators. The AND operator is more exclusive; it only finds records that meet all of the criteria of each clause in the group. The OR operator is more expansive; it finds all records that meet any of the criteria for the group. Use the drop-down list at the top of the clause group to select the operator. You can nest clause groups inside one another. The system resolves the most deeply nested groups first and then works its way up. The example shown here will find _accounts_ (the parent entity) that are either in the _financial_ or _accounting_ industry, but only those that also have a category of _preferred customer_.
+1. **Single clause (row)**: Clauses represent the basic building blocks of the query. Each asks a specific question about a specific field value and finds records that answer that question. Each row starts by naming a field from the parent entity, followed by an operator (such as equals, contains, starts with, or ends with), followed by a value. Use the drop-down lists and fields provided to define the field, operator, and value for each new clause that you add, as needed. The example shown here finds contacts where the _city_ part of their address _equals__New York_.
+1. **Add item button**: Use the **Add** buttons to add a new row, clause group, or related entity at that location in the query structure. Select the button to open a drop-down list, and then select which type of item you want to add there (**Add row**, **Add group**, or **Add related entity**). Finally, configure the new row, clause group, or relation as needed using the drop-down lists and fields provided for the new item.
+1. **Add query block button**: Use the **Add query block** button to add a new block to the query. Each query block resolves to a collection of contacts, which you then combine using union, exclude, and/or intersect operators. A Sankey diagram is provided at the bottom of the page to help you visualize how your query blocks combine and flow into each other. The effect is similar to creating a compound segment, but in this case you are combining query blocks within a single segment rather than individual existing segments.
+1. **Explore related entities**: Select this button to open a diagram that illustrates how various entities relate to each other in your database (especially, how they relate back to the contact entity). This can help you decide how to make use of related entities in your query.
+1. **Full-screen editor**: Select this button to open the segment designer in full-screen mode, which provides more screen real estate for viewing and editing your query.
+1. **Expand/collapse query block**: Select this button to expand or collapse all the rows in this query block. This lets you switch between getting the big picture and viewing individual query details, which can be handy if your query includes several query blocks.
+1. **Command menu and expand/collapse clause group button**: To delete a clause group, open the command menu ( **...** ) and select **Delete**. To expand or collapse a clause group, select the chevron button next to the command menu. The expand/collapse buttons lets you switch between getting the big picture and viewing individual rows, which can be handy if your query includes several clause groups.
+1. **Delete button**: To remove a clause (row) from your query, select the delete button next to the row you want to remove.
 
 > [!NOTE]
-> While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. Usually the estimate will be exact, but sometimes the final size may vary slightly (you must go live with the segment to view its exact size and membership).
+> For clauses that query fields of type _multi option set_ or _lookup_, you can only specify one value in each clause. To find multiple values in these types of fields, create multiple clauses that query the same field and combine them using the OR operator.
+
+## Build clauses
+
+The segmentation designer supports fields of all data types supported by Dynamics 365, including: option set, two option set, multiple option set, single line of text, multiple line of text, whole number, floating number, decimal number, currency, look up, date time, and customer.
 
 ### Build a clause that finds standard field values
 
@@ -92,11 +115,13 @@ Lookup fields also provide a special operator called **has**. Use this operator 
 
 ![A lookup field in the fields name drop-down list](media/segment-clause-has.png "A lookup field in the fields name drop-down list")
 
-### Example: Define a simple segment based on contacts
+## Combine clauses with logical operators
+
+## Example: Define a simple segment based on contacts
 
 A simple query uses a single group that references the contact entity only. When you create this type of segment definition, set up a query with clauses that test various field values from your contact records and combine the various clauses using the logical operators AND and OR. For an example, see the tutorial [Create a dynamic segment](create-segment.md).
 
-### Move between entities with relationships
+## Move between entities with relationships
 
 When you create a new segment, it automatically starts with a default group based on the contact entity, as we saw in the [previous example](create-segment.md). So long as you only want to query values directly on the contact entity, then it's straightforward to add various clauses and combine them with AND/OR operators until you've defined the set of contacts you're looking for. However, you can also build much more complex queries that start from some other entity (such as accounts), queries that entity according to some criteria (such as number of employees) and then *transverses* to the contact entity to find the contacts associated with those accounts. All segments must end with the contact entity, so any time you start with a non-contact entity you must eventually traverse back to the contact entity using *relationships*.
 
@@ -129,7 +154,7 @@ For example:
 > 
 > ![The segment explorer](media/segment-explorer-example1.png "The segment explorer")
 
-### Example: Define a more complex segment based on opportunities
+## Example: Define a more complex segment based on opportunities
 
 Here's an example of how to define a segment that starts by finding a collection of opportunities and, as usual, ends by finding the contacts that belong to that segment. In this example, we'll find contacts associated with opportunities with an estimated revenue over $10,000 and then build a relation to the contacts entity.
 
@@ -160,21 +185,28 @@ Here's an example of how to define a segment that starts by finding a collection
 
 1. Your segment is now live and will now find contacts associated with opportunities valued over $10,000.
 
-## Combine query groups
+## Combine multiple query blocks
 
-A simple segment might have just one query group, but you can create and combine as many groups as needed. As a result, you can create highly sophisticated queries.
+You can design your segment to include multiple query blocks and then set rules for how to combine the groups. Often, you could obtain the same results with a single, complex query block, but it can be sometimes be easier to design and visualize your segment using multiple query blocks instead.
 
-You combine groups, working first group to last, by using the following operators:
+The following image shows the dynamic-profile segment designer with when several query blocks are present.
 
-- **Union**: combines all members of a group with the results of the previous group.
-- **Exclude**: removes members of a group from the results of the previous group.
-- **Intersect**: removes all members from the previous group that are not also members of the current group.
+![Segment designer UI elements for combining query blocks](media/segment-dynamic-groups-callouts.png "Segment designer UI elements for combining query blocks")
 
-When you're working on the **Designer** tab, use the **+ Add Group** button to add a group and choose its operator.
+Legend:
 
-The **Flow** tab provides another view of how your groups are combined. Here, you get a Sankey diagram of how your groups are combined, and how contacts flow into and out of the segment as a result of the operation from each group.
+1. **Collapsed query block**: All of the query blocks in this example are shown as collapsed, which means you can't see the detailed logic of each group. However, this view makes it easy to see all the groups and adjust the logic being used to combine them. Use the chevron button at the right side of each query block to expand or collapse it.
+2. **Query block operator**: Between each query block is an operator, which establishes the logic for combining the previous group with the next one. Use this drop-down list to choose one of the following:
+   - **Union**: Combines all members of the two groups.
+   - **Intersect**: Finds only contacts that are members of both groups. Contacts present in just one of the groups will be removed.
+   - **Except**: Removes all contacts from the incoming group from the current result.
+3. **Sankey diagram**: This diagram makes it easy to visualize the way all of the various groups are being combined by your selected logic. It indicates how two incoming groups will be combined, the order of the combination, and the approximate effect that the combination logic will have on the resulting, combined group. Select the **Flow view** tab at the bottom of the page if you don't see the diagram there.
 
-![Sankey diagram on the Flow tab](media/segment-sankey-example.png "Sankey diagram on the Flow tab")
+## View and edit the raw query
+
+The segment designer provides a graphical interface for creating the logic for a dynamic segment. As  you work with the settings, you are actually creating a text-based query in the background. This is the query that the system will actually run against your database. Usually you don't need to use the query for anything, but sometimes it can help in troubleshooting. You can also copy/paste queries into the designer, which you might use to create a copy of an existing segment or to share a query design through email.
+
+To find, view, and edit the query, scroll to the bottom of the page and open the **Query view** tab here.
 
 ### See also
 
