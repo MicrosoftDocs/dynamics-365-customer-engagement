@@ -40,7 +40,6 @@ As of Field Service v8.x you can find Field Service among the other Dynamics app
 
 This is different from previous versions (7.x and 6.x) where Field Service was found as in the image below.
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/navigation-fs-sitemap-7.png)
 
