@@ -64,7 +64,7 @@ This document provides important, late-breaking information about known issues a
 
 - Metadata used for building conditions and drop-downs shown on the designer isn't localized for non-English organizations. <!-- 992449 -->
 - When trying to estimate the size of a segment where the query doesn't end in a contact, the system displays a server communication error. To correct this error, make sure your segment definition ends with a clause that links to the contact entity as described in [Design profile-based dynamic segments](segments-profile.md). <!-- 1226384 -->
-- Static segments are limited to a maximum of 1600 members.
+- Static segments are limited to a maximum of 1,000 members.
 
 ### Fixed issues
 
