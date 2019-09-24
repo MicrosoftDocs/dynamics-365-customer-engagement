@@ -96,7 +96,7 @@ The two core components of [!INCLUDE[pn_gamification_shortest](../includes/pn-ga
 
 #### Web portal
 
-- [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] now supports multiple Dynamics 365 organization in the same tenant. Game managers and players can select the organization when they select the game they want to work with. Badges and awards are based on the player's profile and shared across all connected organizations.
+- [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] now supports multiple Dynamics 365 organizations in the same tenant. Game managers and players can select the organization when they select the game they want to work with. Badges and awards are based on the player's profile and shared across all connected organizations.
 
 
 ### Resolved issues
