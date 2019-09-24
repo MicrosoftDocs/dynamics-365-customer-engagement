@@ -32,6 +32,25 @@ This topic describes how to attach the search-related action calls to out-of-the
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
 
+## Create OmnichannelSessionInlineSearchAndLink event
+
+1. Sign in to the Common Data Service platform.
+
+2. Select the Down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Events** and then select **+ New**.
+
+5. Specify the following in the **New Event** page.
+
+    | Tab | Field | Value |
+    |---------------------|-------------------------|-------------------------|
+    | General | Name | OmnichannelSessionInlineSearchAndLink |
+    | Hosted Application | Search result tab |
+
+6. Select **Save** to save the record. 
+
 ## Attach the action calls to events
 
 1. Sign in to the Common Data Service platform.
@@ -40,7 +59,7 @@ This topic describes how to attach the search-related action calls to out-of-the
 
 3. Select **Unified Service Desk Administrator**.
 
-4. Select **Events** and then select the event to which you want to add the action call. Select **PageReady**.
+4. Select **Events** and then select the event to which you want to add the action call. Select the **PageReady** event for the **Search result tab** hosted control.
 
 5. Select **Add an Existing Action Call**. The **Lookup Records** pane appears.
 

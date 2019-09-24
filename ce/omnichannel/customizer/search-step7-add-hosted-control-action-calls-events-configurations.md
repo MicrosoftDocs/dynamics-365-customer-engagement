@@ -34,7 +34,7 @@ This topic describes how to add action calls, events, window navigation rule, an
 
 ## Add the hosted control, action calls, window navigation and events to configurations
 
-1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
+1. Sign in to the Common Data Service platform.
 
 2. Select the Down arrow next to Dynamics 365.
 

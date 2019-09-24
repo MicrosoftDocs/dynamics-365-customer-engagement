@@ -16,8 +16,6 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-ce\includes\cc-use-with-omnichannel.md
-
 ## Prerequisites
 
 - You must have required Dynamics 365 Customer Service permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required Dynamics 365 Customer Service entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
@@ -32,7 +30,7 @@ ce\includes\cc-use-with-omnichannel.md
 
 The steps for configuring search in Unified Service Desk are as follows:
 
-1. Create a search hosted control.
+1. Create the search and search result hosted control.
 
 2. Create search-related action calls.
 
@@ -40,11 +38,11 @@ The steps for configuring search in Unified Service Desk are as follows:
 
 4. Attach the action calls to events.
 
-5. Configure window navigation rule for search
+5. Configure window navigation rule for search.
 
-6. Create toolbar buttons for search
+6. Create toolbar buttons for search.
 
-7. Add the hosted control, actions calls, and events to the agent and supervisor configurations.
+7. Add the hosted control, actions calls, window navigation rule, toolbar buttons, and events to the agent and supervisor configurations.
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 1: Create search hosted control](search-step1-create-hosted-control.md)

@@ -56,6 +56,7 @@ The topic describes how to create window navigation rule for search.
     | Result | Show Tab | Search result tab |
     | Result | Hide Command Bar | No |
     | Result | Hide Navigation Bar | No |
+    | Advanced | Condition | '\[\[$Session.IsGlobal\]\]'=='False' |
 
 6. Save the window navigation rule information.
 
