@@ -1,12 +1,10 @@
 ---
-title: "Run games in Dynamics 365 for Customer Engagement – Gamification | Microsoft Docs"
+title: "Run games in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to set up games in a few steps and how to keep them running smoothly."
 keywords: game, gamification KPI, game setup
 ms.date: 03/05/2019
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: ec71f8e3-5cc9-4941-8067-5bf8e1081da9
 author: m-hartmann
 ms.author: mhart
@@ -29,7 +27,7 @@ Before you start setting up a game in [!INCLUDE[cc_gamification_portal](../inclu
 
 - You are assigned the **Commissioner** or **Game manager** [security role](understand-security-roles.md).  
 
-- [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] is installed and correctly configured in your school or organization's [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Install and configure the Gamification solution in Dynamics 365 for Customer Engagement (online)](manage-gamification-in-dynamics-365-online.md)  
+- [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] is installed and correctly configured in your school or organization. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Install and configure the Gamification solution in Dynamics 365 apps](manage-gamification-in-dynamics-365-online.md)  
 
 ## Set up a game
 
@@ -41,7 +39,7 @@ By setting up a game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamific
 
 #### Create a new game
 
-1. Select the business unit you want to create a game for. The business unit represents a Dynamics 365 for Customer Engagement (online) organization. [!include[](../includes/proc-more-information.md)] [Install and configure the Gamification solution in Dynamics 365 for Customer Engagement (online)](manage-gamification-in-dynamics-365-online.md)
+1. Select the business unit you want to create a game for. The business unit represents a Dynamics 365 organization. [!include[](../includes/proc-more-information.md)] [Install and configure the Gamification solution](manage-gamification-in-dynamics-365-online.md)
 
 2. Provide a **Name** for the game.
 
@@ -62,7 +60,7 @@ By setting up a game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamific
 
 ### KPI types and user roles
 
- KPIs are the key to games. They are metrics based on [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] data that automatically syncs to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] and are the basis for points awarded to players. KPIs need to be set for weekly goals.  
+ KPIs are the key to games. They are metrics based on Dynamics 365 data that automatically syncs to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] and are the basis for points awarded to players. KPIs need to be set for weekly goals.  
 
 > [!TIP]
 > - **Use descriptive names** for KPIs so players can understand how to earn points.
@@ -75,7 +73,7 @@ By setting up a game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamific
 
 1. In step 2 of the game setup process, choose whether you want to use **Actuals** or **Targets** for the KPIs in this game. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Concepts to learn before you get started using Gamification](get-started.md)
 
-2. Choose from the available KPIs in the list. KPIs are created in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] by a user who has the **Game Manager** security role assigned in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]. Those users also get a game manager user role when they sign in to [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Configure KPIs for Gamification in Dynamics 365 for Customer Engagement (online)](configure-kpis.md)
+2. Choose from the available KPIs in the list. KPIs are created by a user who has the **Game Manager** security role assigned. Those users also get a game manager user role when they sign in to [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Configure KPIs for Gamification](configure-kpis.md)
 
 3. Optionally, provide a different (game-specific) name for the KPI.
 
@@ -96,7 +94,7 @@ By setting up a game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamific
 9. In the game setup header, click **2** to proceed to the next step.
 
 > [!IMPORTANT]
-> When you remove a KPI from an active game, a user with the **Game manager** security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] needs to click **Refresh Data** in **Dynamics 365 for Customer Engagement (online)** > **Gamification** > **Gamification Settings** to update the data shown in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]. You can edit and update KPIs in an active game up to 14 days after the start of the game. 
+> When you remove a KPI from an active game, a user with the **Game manager** security role needs to click **Refresh Data** in the Dynamics 365 app (**Gamification** > **Gamification Settings**) to update the data. You can edit and update KPIs in an active game up to 14 days after the start of the game. 
 
 #### Game quotas
 
@@ -138,7 +136,7 @@ After you activate the game, and before the game start date, you can change KPIs
  During an active game, make sure the players and fans stay engaged. If you update certain KPIs manually, you'll use the Excel point scoring feature. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Update game scores by using Excel point scoring capabilities in Gamification](update-scores-using-excel-point-scoring.md)
 
 > [!IMPORTANT]
-> When you edit an active game and remove a KPI or change the active players, a user who has the **Game manager** security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] needs to click **Refresh Data** to update the data shown in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].
+> When you edit an active game and remove a KPI or change the active players, a user who has the **Game manager** security role needs to click **Refresh Data** to update the data.
 > 
 > [!TIP]
 > - Consider setting up a TV for your office to show the leaderboard and announcements on the smack talk board. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Manage Stream TV games in Gamification](configure-view-tvs.md)
@@ -146,7 +144,7 @@ After you activate the game, and before the game start date, you can change KPIs
 
 ## Complete a game
 
- After the game end date, a game manager or commissioner must complete point scoring for the last game period. If you integrated [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] with [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)], the game manager or commissioner also needs to make sure all the data is correct so KPIs reflect the correct values and players are assigned the correct final scores and prizes. Complete a game manually, or let the game be completed automatically 31 days after the game end date.
+ After the game end date, a game manager or commissioner must complete point scoring for the last game period. The game manager or commissioner also needs to make sure all the data is correct so KPIs reflect the correct values and players are assigned the correct final scores and prizes. Complete a game manually, or let the game be completed automatically 31 days after the game end date.
 
 ### Manually complete a game
 
@@ -157,5 +155,5 @@ After you activate the game, and before the game start date, you can change KPIs
 ### See also
 
  [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
- [Install and configure the Gamification solution in Dynamics 365 for Customer Engagement (online)](manage-gamification-in-dynamics-365-online.md)   
- [Import players and fans from Dynamics 365 for Customer Engagement (online) and manage their security roles](manage-players-fans.md)
+ [Install and configure the Gamification solution](manage-gamification-in-dynamics-365-online.md)   
+ [Import players and fans from Dynamics 365 apps and manage their security roles](manage-players-fans.md)

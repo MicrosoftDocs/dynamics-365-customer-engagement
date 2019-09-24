@@ -27,7 +27,7 @@ manager: shujoshi
 > [!Important]
 > - This sample code currently has limited availability.
 > - The sample code for softphone integration with Dynamics 365 using Channel Integration Framework is made available so customers can get early access and provide feedback. The sample code is not meant for production use and may have limited or restricted functionality.
-> - Microsoft doesn't provide support for this sample code for production use and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. This is subject to [supplemental terms of use](http://go.microsoft.com/fwlink/p/?LinkId=511446)
+> - Microsoft doesn't provide support for this sample code for production use and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. This is subject to [supplemental terms of use](https://go.microsoft.com/fwlink/p/?LinkId=511446)
 
 ## Pre-requisites
 
@@ -57,7 +57,7 @@ manager: shujoshi
 
 2. Use the sample code for the **capability-token** function.<br> Refer to function from the readme file packaged with the sample softphone integration in the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linkid=2025867).
 
-> [!Note] 
+> [!Note]
 > Save the URL for the **capability-token** function you obtain from the above sample code. For example, URL is `https://sampleinteg.sample/capability-token`.
 
 <a name="bkmk_Configure"></a>

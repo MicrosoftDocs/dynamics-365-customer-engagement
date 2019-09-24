@@ -1,7 +1,7 @@
 ---
 title: Moving around Unified Interface-enabled apps in Dynamics 365 for Customer Engagement appsusing a screen reader| Microsoft Docs
-description: 
-keywords: 
+description:
+keywords:
 author: ReneeW-CPub
 applies_to: Dynamics 365 for Customer Engagement apps
 ms.author: renwe
@@ -10,25 +10,25 @@ ms.date: 05/30/2018
 ms.topic: article
 ms.service: dynamics-365-cross-app
 ms.assetid: 5424660b-743b-434f-9993-fb64ae4e776a
-ms.custom: 
+ms.custom:
   - dyn365-a11y
-search.audienceType: 
+search.audienceType:
   - enduser
-search.app: 
+search.app:
   - D365CE
 ---
 # Use a screen reader in Unified Interface apps in Dynamics 365 for Customer Engagement apps
 
-Screen readers make Dynamics 365 for Customer Engagement apps accessible to people who have low or no vision or may need some extra support for a temporary scenario, such as eye fatigue. Commonly used screen readers such as Narrator, JAWS, and NVDA are supported. 
+Screen readers make Dynamics 365 for Customer Engagement apps accessible to people who have low or no vision or may need some extra support for a temporary scenario, such as eye fatigue. Commonly used screen readers such as Narrator, JAWS, and NVDA are supported.
 
 - [Learn more about working with Microsoft Narrator](https://support.microsoft.com/help/22798)
 - [Learn more about working with JAWS](http://www.freedomscientific.com/Products/Blindness/JawsDocumentation)
 - [Learn more about working with NVDA](https://www.nvaccess.org/help/)
 
 > [!NOTE]
-> JAWS screen reader is supported on the latest Unified Client. If choosing JAWS, we recommend using it with Internet Explorer. 
-> 
-> Narrator is a screen-reading app built into Windows 10. Apps built using [Unified Interface](../admin/about-unified-interface.md) are optimized for Narrator. This topic assumes that you are using Narrator on Microsoft Edge. 
+> JAWS screen reader is supported on the latest Unified Client. If choosing JAWS, we recommend using it with Internet Explorer.
+>
+> Narrator is a screen-reading app built into Windows 10. Apps built using [Unified Interface](../admin/about-unified-interface.md) are optimized for Narrator. This topic assumes that you are using Narrator on Microsoft Edge.
 
 ## Basic tasks using a screen reader with Dynamics 365 for Customer Engagement apps
 
@@ -45,13 +45,13 @@ Use the [app switcher](../basics/where-find-business-apps.md#apps-you-might-see-
 You can use scan mode to quickly navigate Dynamics 365 for Customer Engagement apps using the arrow keys and common keyboard shortcuts. Quickly jump to headings, links, landmarks, form fields, controls, and tables in this mode. Turn scan mode on and off by pressing **Caps lock+Spacebar**. More information: [Using scan mode](https://support.microsoft.com/en-us/help/22809/windows-10-narrator-using-scan-mode).
 
 ### Find your way around the Unified Interface apps
-We have made Dynamics 365 for Customer Engagement apps that are based on Unified Interface more consistent and reliable with screen readers. This includes working with screen readers on grids, forms, charts, streams, and business process flows. 
+We have made Dynamics 365 for Customer Engagement apps that are based on Unified Interface more consistent and reliable with screen readers. This includes working with screen readers on grids, forms, charts, streams, and business process flows.
 
 #### Navigation bar
 When you open a Unified Interface app, a vertical bar with subarea icons is displayed at the left side of the application. You can either use the **Tab** key to move through these icons until you hear the name of the subarea you want, such as “Opportunities,” or you can use the site map control. For example, press the **Tab** key until you hear “Accounts” and then press **Enter** to open the Accounts view.
 
 #### Grids
-Screen readers navigate grids more reliably and consistently, and announce row and column headings, as well as the position within the grid. When you first open a grid, the default tab stop is the view selector. 
+Screen readers navigate grids more reliably and consistently, and announce row and column headings, as well as the position within the grid. When you first open a grid, the default tab stop is the view selector.
 
 Whenever you enter a cell within the grid from outside of the grid, Narrator announces the name of the table, the row and column counts, and the position of your cursor within the table.
 
@@ -67,13 +67,13 @@ Multiple navigation modes are available for navigating a form using Narrator, wi
 3.  Change the mode by pressing and holding the **Caps lock** key and pressing the **Up arrow** key until you hear “Form Fields.”
 4.  Navigate to the Last Name field by using Caps lock + the Left/Right arrow keys until you hear “Last Name.” Narrator also announces the control type, value, state, and any special instructions for the field.
 
-You can also use the Tab key to quickly navigate to interactive elements on the form. Some form fields have an icon that will perform the default action when you press Ctrl+Enter. For example, an email form field might have an envelope icon that opens an email editor. 
+You can also use the Tab key to quickly navigate to interactive elements on the form. Some form fields have an icon that will perform the default action when you press Ctrl+Enter. For example, an email form field might have an envelope icon that opens an email editor.
 
 #### Dashboards/charts
 You can navigate through the dashboard charts using the Tab key and Caps lock + arrow keys. Press the **Tab** key to quickly go to the interactive elements and use Caps lock + an arrow key for navigation of non-interactive elements, such as headings, landmarks, and items.
 
 > [!NOTE]
-> You must have the latest [Windows 10](http://www.microsoft.com/enable/products/windows10/default.aspx) Update installed to have all of the accessibility features available for charts.
+> You must have the latest [Windows 10](https://www.microsoft.com/enable/products/windows10/default.aspx) Update installed to have all of the accessibility features available for charts.
 
 #### Interactive Dashboard Streams
 You can use the **Tab** key or **Shift+Tab** keys to move between interactive dashboard streams, such as found in the Accounts dashboard, or just change the navigation mode until you hear “Headings” and then use the **Tab** key to quickly move between dashboard streams.

@@ -1,37 +1,37 @@
 ---
 title: "Customize entity metadata (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Entities are defined by metadata. By defining or changing the entity metadata, you can control the capabilities of an entity."
-ms.custom: 
+ms.custom:
 ms.date: 11/03/2017
-ms.reviewer: 
+ms.reviewer:
 ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: article
-applies_to: 
+applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: a55bbb88-a323-4f69-9551-0d2951dd12ec
 author: JimDaly
 ms.author: jdaly
 manager: amyla
-search.audienceType: 
+search.audienceType:
   - developer
-search.app: 
+search.app:
   - D365CE
 ---
 # Customize entity metadata
 
-Entities are defined by metadata. By defining or changing the entity metadata, you can control the capabilities of an entity. To view the metadata for your organization, use the metadata browser. [Download the metadata browser](http://download.microsoft.com/download/8/E/3/8E3279FE-7915-48FE-A68B-ACAFB86DA69C/MetadataBrowser_3_0_0_5_managed.zip).
+Entities are defined by metadata. By defining or changing the entity metadata, you can control the capabilities of an entity. To view the metadata for your organization, use the metadata browser. [Download the metadata browser](https://download.microsoft.com/download/8/E/3/8E3279FE-7915-48FE-A68B-ACAFB86DA69C/MetadataBrowser_3_0_0_5_managed.zip).
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Browse the Metadata for Your Organization](browse-your-metadata.md)  
-  
- This topic is about how to work with entities programmatically. See [Create or edit entities (record types)](../customize/create-edit-entities.md)  for information about working with entities in the application.  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Browse the Metadata for Your Organization](browse-your-metadata.md)
+
+ This topic is about how to work with entities programmatically. See [Create or edit entities (record types)](../customize/create-edit-entities.md)  for information about working with entities in the application.
 
 Entities can be created using either the Organization service or the Web API. The following information can be applied to both.
 
 - With the Organization service you will use the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata> class. More information: [Create a custom entity](org-service/create-custom-entity.md) and [Retrieve, update, and delete entities](org-service/retrieve-update-delete-entities.md)
 - With the Web API you will use the <xref:Microsoft.Dynamics.CRM.EntityMetadata> EntityType. More information : [Create and update entity definitions using the Web API](webapi/create-update-entity-definitions-using-web-api.md).
- 
+
 <a name="BKMK_EntityMetadataMessages"></a>
 
 ## Entity metadata operations
@@ -39,10 +39,10 @@ How you work with entity metadata depends on which service you use.
 
 Since the Web API is a RESTful endpoint, it uses a different way to create, retrieve, update, and delete metadata. Use `POST`, `GET`, `PUT`, and `DELETE` HTTP verbs to work with metadata entitytypes. More information : [Create and update entity definitions using the Web API](webapi/create-update-entity-definitions-using-web-api.md).
 
-One exception to this is the <xref href="Microsoft.Dynamics.CRM.RetrieveMetadataChanges?text=RetrieveMetadataChanges Function" /> provides a way to compose a metadata query and track changes over time. 
+One exception to this is the <xref href="Microsoft.Dynamics.CRM.RetrieveMetadataChanges?text=RetrieveMetadataChanges Function" /> provides a way to compose a metadata query and track changes over time.
 
 If working with Organization Service, use <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesRequest> class. This class contains the data that is needed to retrieve a collection of metadata records that satisfy the specified criteria. The <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse> returns a timestamp value that can be used with this request at a later time to return information about how metadata has changed since the last request.
-   
+
 
 |                                                                                                                                                                          Message                                                                                                                                                                           |                                               Web API                                                |                           SDK Assembly                           |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
@@ -53,35 +53,35 @@ If working with Organization Service, use <xref:Microsoft.Xrm.Sdk.Messages.Retri
 |                                                                                                                                                                        UpdateEntity                                                                                                                                                                        |                                Use a PUT request to update an entity.                                |      <xref:Microsoft.Xrm.Sdk.Messages.UpdateEntityRequest>       |
 | RetrieveMetadataChanges</br>Used together with objects in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace to create a query to efficiently retrieve and detect changes to specific metadata. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Retrieve and Detect Changes to Metadata](retrieve-detect-changes-metadata.md). | <xref href="Microsoft.Dynamics.CRM.RetrieveMetadataChanges?text=RetrieveMetadataChanges Function" /> | <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesRequest> |
 
-<a name="BKMK_CreationOptions"></a>   
-## Options available when you create a custom entity  
- The following table lists the options that are available when you create a custom entity. You can only set these properties when you create a custom entity.  
+<a name="BKMK_CreationOptions"></a>
+## Options available when you create a custom entity
+ The following table lists the options that are available when you create a custom entity. You can only set these properties when you create a custom entity.
 
-|Option|Description|  
-|------------|-----------------|  
-|**Create as custom activity**|You can create an entity that is an activity by setting the `IsActivity` property when using the organization service or Web API respectively. For more information, see [Custom Activities in Dynamics 365 for Customer Engagement apps](custom-activities.md).|  
-|**Entity Names**|There are two types of names, and both must have a customization prefix:<br /><br /> `LogicalName`: Name that is the version of the entity name that is set in all lowercase letters.<br /><br /> `SchemaName`: Name that will be used to create the database tables for the entity. This name can be mixed case. The casing that you use sets the name of the object generated for programming with strong types or when you use the REST endpoint.<br /><br /> **Note**: If the logical name differs from the schema name, the schema name will override the value that you set for the logical name.<br /><br /> When an entity is created in the application in the context of a specific solution, the customization prefix used is the one set for the `Publisher` of the solution. When an entity is created programmatically, you can set the customization prefix to a string that is between two and eight characters in length, all alphanumeric characters and it must start with a letter. It cannot start with “mscrm”. The best practice is to use the customization prefix defined by the publisher that the solution is associated with, but this is not a requirement. An underscore character must be included between the customization prefix and the logical or schema name.|  
-|**Ownership**|Use the `OwnershipType` property to set this. Use the <xref:Microsoft.Xrm.Sdk.Metadata.OwnershipTypes> enumeration or <xref:Microsoft.Dynamics.CRM.OwnershipTypes> EnumType to set the type of entity ownership. The only valid values for custom entities are `OrgOwned` or `UserOwned`. For more information, see [Entity Ownership](introduction-entities.md#EntityOwnership).|  
-|**Primary Attribute**|With the Organization service, use <xref:Microsoft.Xrm.Sdk.Messages.CreateEntityRequest>.<xref:Microsoft.Xrm.Sdk.Messages.CreateEntityRequest.PrimaryAttribute> property to set this.<br /><br />With the Web API the JSON defining the entity must include one <xref:Microsoft.Dynamics.CRM.StringAttributeMetadata> with the `IsPrimaryName` property set to true.<br /><br /> In both cases string attribute must be formatted as `Text`. The value of this attribute is what is shown in a lookup for any related entities. Therefore, the value of the field should represent a name for the entity record.|  
+|Option|Description|
+|------------|-----------------|
+|**Create as custom activity**|You can create an entity that is an activity by setting the `IsActivity` property when using the organization service or Web API respectively. For more information, see [Custom Activities in Dynamics 365 for Customer Engagement apps](custom-activities.md).|
+|**Entity Names**|There are two types of names, and both must have a customization prefix:<br /><br /> `LogicalName`: Name that is the version of the entity name that is set in all lowercase letters.<br /><br /> `SchemaName`: Name that will be used to create the database tables for the entity. This name can be mixed case. The casing that you use sets the name of the object generated for programming with strong types or when you use the REST endpoint.<br /><br /> **Note**: If the logical name differs from the schema name, the schema name will override the value that you set for the logical name.<br /><br /> When an entity is created in the application in the context of a specific solution, the customization prefix used is the one set for the `Publisher` of the solution. When an entity is created programmatically, you can set the customization prefix to a string that is between two and eight characters in length, all alphanumeric characters and it must start with a letter. It cannot start with “mscrm”. The best practice is to use the customization prefix defined by the publisher that the solution is associated with, but this is not a requirement. An underscore character must be included between the customization prefix and the logical or schema name.|
+|**Ownership**|Use the `OwnershipType` property to set this. Use the <xref:Microsoft.Xrm.Sdk.Metadata.OwnershipTypes> enumeration or <xref:Microsoft.Dynamics.CRM.OwnershipTypes> EnumType to set the type of entity ownership. The only valid values for custom entities are `OrgOwned` or `UserOwned`. For more information, see [Entity Ownership](introduction-entities.md#EntityOwnership).|
+|**Primary Attribute**|With the Organization service, use <xref:Microsoft.Xrm.Sdk.Messages.CreateEntityRequest>.<xref:Microsoft.Xrm.Sdk.Messages.CreateEntityRequest.PrimaryAttribute> property to set this.<br /><br />With the Web API the JSON defining the entity must include one <xref:Microsoft.Dynamics.CRM.StringAttributeMetadata> with the `IsPrimaryName` property set to true.<br /><br /> In both cases string attribute must be formatted as `Text`. The value of this attribute is what is shown in a lookup for any related entities. Therefore, the value of the field should represent a name for the entity record.|
 
 <a name="BKMK_OptInOptions"></a>
 
-## Enable entity capabilities  
- The following table lists entity capabilities. You can set these capabilities when you create an entity or you can enable them later. Once enabled, these capabilities cannot be disabled.  
+## Enable entity capabilities
+ The following table lists entity capabilities. You can set these capabilities when you create an entity or you can enable them later. Once enabled, these capabilities cannot be disabled.
 
-|Capability|Description|  
-|----------------|-----------------|  
-|**Business Process flows**|Set `IsBusinessProcessEnabled` to true in order to enable the entity for business process flows.|  
-|**Notes**| To create an entity relationship with the `Annotation` entity and enable the inclusion of a **Notes** area in the entity form. By including **Notes**, you can also add attachments to records. <br /><br />With the Organization service, use the <xref:Microsoft.Xrm.Sdk.Messages.CreateEntityRequest> or <xref:Microsoft.Xrm.Sdk.Messages.UpdateEntityRequest> `HasNotes` property <br /><br />With the Web API set the <xref:Microsoft.Dynamics.CRM.EntityMetadata>.`HasNotes` property.|  
-|**Activities**|To create an entity relationship with the `ActivityPointer` entity so that all the activity type entities can be associated with this entity.<br /><br /> With the Organization service  use the <xref:Microsoft.Xrm.Sdk.Messages.CreateEntityRequest> or <xref:Microsoft.Xrm.Sdk.Messages.UpdateEntityRequest> `HasActivities` property. <br /><br /> With the Web API, set the  <xref:Microsoft.Dynamics.CRM.EntityMetadata>.`HasActivities` property.| 
-|**Connections**|To enable creating connection records to associate this entity with other connection entities set the `IsConnectionsEnabled.Value` property value to true.|  
-|**Queues**|Use the `IsValidForQueue` property to add support for queues. When you enable this option, you can also set the `AutoRouteToOwnerQueue` property to automatically move records to the owner’s default queue when a record of this type is created or assigned.|  
-|**E-mail**|Set the `IsActivityParty` property so that you can send e-mail to an e-mail address in this type of record.|  
+|Capability|Description|
+|----------------|-----------------|
+|**Business Process flows**|Set `IsBusinessProcessEnabled` to true in order to enable the entity for business process flows.|
+|**Notes**| To create an entity relationship with the `Annotation` entity and enable the inclusion of a **Notes** area in the entity form. By including **Notes**, you can also add attachments to records. <br /><br />With the Organization service, use the <xref:Microsoft.Xrm.Sdk.Messages.CreateEntityRequest> or <xref:Microsoft.Xrm.Sdk.Messages.UpdateEntityRequest> `HasNotes` property <br /><br />With the Web API set the <xref:Microsoft.Dynamics.CRM.EntityMetadata>.`HasNotes` property.|
+|**Activities**|To create an entity relationship with the `ActivityPointer` entity so that all the activity type entities can be associated with this entity.<br /><br /> With the Organization service  use the <xref:Microsoft.Xrm.Sdk.Messages.CreateEntityRequest> or <xref:Microsoft.Xrm.Sdk.Messages.UpdateEntityRequest> `HasActivities` property. <br /><br /> With the Web API, set the  <xref:Microsoft.Dynamics.CRM.EntityMetadata>.`HasActivities` property.|
+|**Connections**|To enable creating connection records to associate this entity with other connection entities set the `IsConnectionsEnabled.Value` property value to true.|
+|**Queues**|Use the `IsValidForQueue` property to add support for queues. When you enable this option, you can also set the `AutoRouteToOwnerQueue` property to automatically move records to the owner’s default queue when a record of this type is created or assigned.|
+|**E-mail**|Set the `IsActivityParty` property so that you can send e-mail to an e-mail address in this type of record.|
 
-<a name="BKMK_OpenOptions"></a>   
+<a name="BKMK_OpenOptions"></a>
 
-## Editable entity properties  
- The following table lists entity properties that you can edit. Unless a managed property disallows these options, you can update them at any time.  
+## Editable entity properties
+ The following table lists entity properties that you can edit. Unless a managed property disallows these options, you can update them at any time.
 
 
 |                                        Property                                        |                                                                                                                                                                                                     Description                                                                                                                                                                                                     |
@@ -106,31 +106,31 @@ If working with Organization Service, use <xref:Microsoft.Xrm.Sdk.Messages.Retri
 |                         **Add or Remove Entity Relationships**                         |                                                                                        There are several managed properties that control the types of entity relationships that you can create for an entity. For more information, see [Customize Entity Relationship Metadata](customize-entity-relationship-metadata.md).                                                                                        |
 |                                    **Change Icons**                                    |                                                                                                                                             You can change the icons used for custom entities. For more information, see [Modify Entity Icons](modify-icons-entity.md).                                                                                                                                             |
 |                        **Can Change Hierarchical Relationship**                        |                                                                                        `CanChangeHierarchicalRelationship.Value` controls whether the hierarchical state of entity relationships included in your managed solutions can be changed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]                                                                                         |
-  
+
 <a name="BKMK_MessagesForCustomEntites"></a>
- 
-## Messages supported by custom entities  
- Custom entities support the same base messages as system entities. The set of messages available depends on whether the custom entity is user-owned or organization owned. For more information, see [Actions on Entity Records](introduction-entities.md#ActionsOnEntityRecords).  
-  
-### See also  
- [Extend the Metadata Model for Dynamics 365 for Customer Engagement apps](org-service/use-organization-service-metadata.md)   
- [Introduction to Entities in Dynamics 365 for Customer Engagement apps](introduction-entities.md)   
- [Browse the Metadata for Your Organization](browse-your-metadata.md)   
- [Customize Entity Attribute Metadata](customize-entity-attribute-metadata.md)   
- [Entity Relationship Metadata](customize-entity-relationship-metadata.md)   
- [Detect Duplicate Data in Dynamics 365 for Customer Engagement apps](detect-duplicate-data-for-developers.md)   
- [Enable Document Management for Entities](integration-dev/enable-document-management-entities.md)   
- [Configure Entities and Attributes for Auditing](configure-entities-attributes-auditing.md)  
- [View Data using Charts (Visualizations)](customize-dev/view-data-with-visualizations-charts.md)   
- [Which Entities are Customizable?](which-entities-are-customizable.md)   
- [Create a Custom Entity](org-service/create-custom-entity.md)   
- [Retrieve, Update and Delete Entities](org-service/retrieve-update-delete-entities.md)   
- [Create and Update an Emailable Entity](org-service/create-update-entity-emailed.md)   
- [Create a Custom Activity Entity](org-service/create-custom-activity-entity.md)   
- [Modify Entity Icons](modify-icons-entity.md)   
- [Modify Entity Messages](modify-messages-entity.md)   
- [Sample: Create and Update Entity Metadata](org-service/sample-create-update-entity-metadata.md)   
- [Sample: Create a Custom Activity Entity](org-service/sample-create-custom-activity-entity.md)   
- [Sample: Create and Update an Emailable Entity](org-service/sample-create-update-emailable-entity.md)   
- [Sample: Dump Entity Metadata to a File](org-service/sample-dump-entity-metadata-file.md)   
+
+## Messages supported by custom entities
+ Custom entities support the same base messages as system entities. The set of messages available depends on whether the custom entity is user-owned or organization owned. For more information, see [Actions on Entity Records](introduction-entities.md#ActionsOnEntityRecords).
+
+### See also
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement apps](org-service/use-organization-service-metadata.md)
+ [Introduction to Entities in Dynamics 365 for Customer Engagement apps](introduction-entities.md)
+ [Browse the Metadata for Your Organization](browse-your-metadata.md)
+ [Customize Entity Attribute Metadata](customize-entity-attribute-metadata.md)
+ [Entity Relationship Metadata](customize-entity-relationship-metadata.md)
+ [Detect Duplicate Data in Dynamics 365 for Customer Engagement apps](detect-duplicate-data-for-developers.md)
+ [Enable Document Management for Entities](integration-dev/enable-document-management-entities.md)
+ [Configure Entities and Attributes for Auditing](configure-entities-attributes-auditing.md)
+ [View Data using Charts (Visualizations)](customize-dev/view-data-with-visualizations-charts.md)
+ [Which Entities are Customizable?](which-entities-are-customizable.md)
+ [Create a Custom Entity](org-service/create-custom-entity.md)
+ [Retrieve, Update and Delete Entities](org-service/retrieve-update-delete-entities.md)
+ [Create and Update an Emailable Entity](org-service/create-update-entity-emailed.md)
+ [Create a Custom Activity Entity](org-service/create-custom-activity-entity.md)
+ [Modify Entity Icons](modify-icons-entity.md)
+ [Modify Entity Messages](modify-messages-entity.md)
+ [Sample: Create and Update Entity Metadata](org-service/sample-create-update-entity-metadata.md)
+ [Sample: Create a Custom Activity Entity](org-service/sample-create-custom-activity-entity.md)
+ [Sample: Create and Update an Emailable Entity](org-service/sample-create-update-emailable-entity.md)
+ [Sample: Dump Entity Metadata to a File](org-service/sample-dump-entity-metadata-file.md)
  [Sample: Dump Entity Privlege Information to a File](org-service/sample-dump-entity-privilege-information-file.md)

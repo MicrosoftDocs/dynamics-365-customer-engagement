@@ -1,6 +1,6 @@
 ---
-title: "Add dynamic content to marketing emails (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 for Marketing"
+title: "Add dynamic content to marketing emails (Dynamics 365 Marketing) | Microsoft Docs "
+description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 Marketing"
 keywords: email; marketing email; dynamic content; content settings
 ms.date: 06/07/2019
 ms.service:
@@ -8,8 +8,6 @@ ms.service:
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 5134e656-31ae-4984-8045-fcd76b98719a
 author: kamaybac
 ms.author: kamaybac
@@ -35,14 +33,14 @@ Dynamic content gets resolved just before a message is sent to a specific indivi
 
 Content settings are sets of standard and required values that are available for use in marketing email messages. Each includes a subscription-center link, a forward-to-a-friend link, social-media links, your postal address, and other information that can be placed into the message as dynamic values by using the assist-edit feature.
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is delivered with a single default content-settings record, which is preconfigured to use the default subscription center (also included out of the box). You can customize this record as needed, and you can also create additional records. You'll set up each customer journey to use a specific content-settings record, which means that all messages sent by that journey will use the same record. However, each journey can use a different record, which means that you can use an identical marketing-email design in two or more customer journeys, each specifying a different content-settings record. If you have more than one content-settings record, exactly one of them will be the default and will be applied automatically to each new customer journey that you create.
+Dynamics 365 Marketing is delivered with a single default content-settings record, which is preconfigured to use the default subscription center (also included out of the box). You can customize this record as needed, and you can also create additional records. You'll set up each customer journey to use a specific content-settings record, which means that all messages sent by that journey will use the same record. However, each journey can use a different record, which means that you can use an identical marketing-email design in two or more customer journeys, each specifying a different content-settings record. If you have more than one content-settings record, exactly one of them will be the default and will be applied automatically to each new customer journey that you create.
 
 The values for content settings are first evaluated at send time, which means that you can edit a content-settings record at any time, and all pending and future email messages will automatically use the latest values.
 
 Each content-settings record that you use must be available to the external marketing services, which manage email assembly and delivery. Therefore, you must publish your content-settings records by choosing **Go Live** whenever you create a new one.
 
 > [!NOTE]
-> If you have other types of values that you often use in email messages, and/or that you want to manage at the customer-journey level, then you can add them as custom fields to the content-settings entity just as you can for other types of entities in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. However, in the current release, all custom fields for the content-settings entity must be of type text (string). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customizing Marketing](customize.md)
+> If you have other types of values that you often use in email messages, and/or that you want to manage at the customer-journey level, then you can add them as custom fields to the content-settings entity just as you can for other types of entities in Dynamics 365. However, in the current release, all custom fields for the content-settings entity must be of type text (string). More information: [Customizing Marketing](customize.md)
 
 To view, edit, or create a content-settings record:
 
@@ -57,7 +55,7 @@ To view, edit, or create a content-settings record:
 1. Make the following settings, as needed:
 
     - **Name**: Enter a name for the customer-settings record. This is the name shown when you're assigning content settings to a customer journey or email-message preview.
-    - **Owner**: Shows the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] user who created the record.
+    - **Owner**: Shows the Dynamics 365 Marketing user who created the record.
     - **Address main**: Enter the main part of your organization's postal address. All marketing email messages must include a valid main address taken from a content-settings record. Select the  **&lt;/&gt;**  button to use [assist-edit](#assist-edit) to enter an expression that references a field from an existing record (such as an address field from a specific account record).
     - **Address line 2**: Enter supplemental postal address information (if needed). Select the  **&lt;/&gt;**  button to use [assist-edit](#assist-edit) to enter an expression that references a field from an existing record (such as an address field from a specific account record).
     - **Default**: Set to **Yes** to make the current content-settings record the default for all new customer journeys. There must always be exactly one default; if you change the default, the existing default will automatically be changed to **No**.
@@ -78,7 +76,7 @@ To view, edit, or create a content-settings record:
 The **Assist edit**  button  **&lt;/&gt;**  helps you construct valid dynamic expressions to position field values from recipient contact records, the message content settings, and other database values. This button is provided on the text formatting toolbar whenever you select a text element in the graphical designer. The button is also provided for some settings fields, such as the subject, from-address, and from-name fields.
 
 > [!NOTE]
-> The assist-edit dialog only shows entities and relations that are synced with the marketing insights service. If you need to show information or use relations for one or more entities that aren't listed, then ask your admin to add the relevant entities to the marketing insights service. If you are an admin, then see [Choose entities to sync with the marketing insights service](marketing-settings.md#dci-sync) for instructions.
+> The assist-edit dialog only shows entities and relations that are synced with the marketing-insights service. If you need to show information or use relations for one or more entities that aren't listed, then ask your admin to add the relevant entities to the marketing-insights service. If you are an admin, then see [Choose entities to sync with the marketing-insights service](mkt-settings-sync.md) for instructions.
 
 ### Use assist edit to place a dynamic expression
 
@@ -188,7 +186,7 @@ On the **Summary** tab of the **Marketing Email** form, you can make various non
 
 One typical way to take advantage of this feature is to set the **From name** and **From address** to the owner of the contact record. Then, by assigning the owner of each contact record to the salesperson managing that contact, recipients will receive marketing emails that show a from address of somebody they may know, which can greatly increase open rates. Here's how:
 
-1. If your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance isn't already set up to sync the **User (systemuser)** entity with the marketing insights service, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the marketing insights service](marketing-settings.md#dci-sync) for instructions.
+1. If your Marketing instance isn't already set up to sync the **User (systemuser)** entity with the marketing-insights service, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the marketing-insights service](mkt-settings-sync.md) for instructions.
 1. Open your email message and go to the **Summary** tab.
 1. Delete the contents of the **From name** field and then select the **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") next to this field.
 1. On the first page of the assist-edit dialog, select **Contextual** and set it to **Contact**. Then select **Next**.
@@ -238,7 +236,7 @@ As you've seen in previous examples, dynamic content is surrounded by double bra
 
 ### Conditional statements and comparisons
 
-Conditional (if-then-else) statements display content depending on whether one or more conditional expressions resolve to true or false. You can add the code required to create these statements by placing it within a text element, or by placing custom-code elements in between the other design elements. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [How to enter advanced dynamic content in the designer](#enter-code)
+Conditional (if-then-else) statements display content depending on whether one or more conditional expressions resolve to true or false. You can add the code required to create these statements by placing it within a text element, or by placing custom-code elements in between the other design elements. More information: [How to enter advanced dynamic content in the designer](#enter-code)
 
 Conditional statements take the following form:
 
@@ -267,7 +265,7 @@ Where:
 
 The following table lists all the operators that you can use in your conditional expressions. Other operators are not currently available, nor can you use complex Boolean expressions (such as with AND or OR operators) in your conditional expressions.
 
-| **[!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] syntax (case sensitive)** | **Operator** |
+| **Dynamics 365 Marketing syntax (case sensitive)** | **Operator** |
 | --- | --- |
 | eq | Equal to |
 | ne | Not equal to |
@@ -338,7 +336,7 @@ Here's an example of a conditional statement based on a Boolean (two options) fi
 
 ### For-each loops
 
-For-each loops let you step through a collection of records that are related to a specific current record—for example, to provide a list of all the recent transactions associated with a given contact. You can add the code required to create these statements by placing it within a text element, or by placing custom-code elements in between the other design elements. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [How to enter advanced dynamic content in the designer](#enter-code)
+For-each loops let you step through a collection of records that are related to a specific current record—for example, to provide a list of all the recent transactions associated with a given contact. You can add the code required to create these statements by placing it within a text element, or by placing custom-code elements in between the other design elements. More information: [How to enter advanced dynamic content in the designer](#enter-code)
 
 For-each loops take the following form:
 
@@ -371,7 +369,7 @@ For example, your database could include a list of products that a contact has o
 </ul>
 ``` 
 
-In this example, the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] system has been customized to include a [custom entity](../customize/create-edit-entities.md) called _product_, which is set up with a 1:N [relationship](../customize/create-edit-entity-relationships.md) between the _contact_ and _product_ entities on the _productid_ field. For the product entity to be available to your email messages, it must also be [synced](marketing-settings.md#dci-sync) with the marketing insights service (as usual).
+In this example, the Dynamics 365 Marketing system has been customized to include a [custom entity](../customize/create-edit-entities.md) called _product_, which is set up with a 1:N [relationship](../customize/create-edit-entity-relationships.md) between the _contact_ and _product_ entities on the _productid_ field. For the product entity to be available to your email messages, it must also be [synced](mkt-settings-sync.md) with the marketing-insights service (as usual).
 
 > [!IMPORTANT]
 > Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. Likewise, [for-each loops](#for-each) aren't rendered in previews or test sends. To test your related-field expressions and/or loop functionality, set up a simple customer journey to deliver the message to yourself.
@@ -388,7 +386,7 @@ You must be careful when entering advanced dynamic code in the designer because 
 - When you enter code into a text element, all of your dynamic-content code must either be contained within a set of start and end tags (such as `<p>` and `</p>`) or within an HTML comment (for code that is entirely separate from displayed text). Do not place code outside of comments or valid HTML tag pairs (or custom-code elements), as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs). You must work on the **HTML** tab inspect and correct the HTML within your text elements.
 - Do not place carriage returns between code elements that are part of the same expression (such as in a for-each loop) unless you enclose each line within its own set of HTML tags (as illustrated in the for-each loop example given after this list).
 - The [assist-edit](#assist-edit) feature is often helpful for constructing expressions that fetch values from your database because it helps you find database table, field, and relation names. This tool is available when working within a text element on the **Designer** tab, and when entering values is certain fields that support it (like the email subject). Assist-edit isn't available when working on the **HTML** tab or within a custom code element, so you can instead start by using assist-edit in any text element, and then cut/paste the resulting expression into your custom-code element or HTML.
-- The relationship name that you use when creating loops or placing lookup values must match the one used in the marketing insights service. This relationship name is not necessarily the same as the one used to customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. To find the correct relationship name, use the [assist-edit](#assist-edit) feature.
+- The relationship name that you use when creating loops or placing lookup values must match the one used in the marketing-insights service. This relationship name is not necessarily the same as the one used to customize Dynamics 365. To find the correct relationship name, use the [assist-edit](#assist-edit) feature.
 - Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. Likewise, [for-each loops](#for-each) aren't rendered in previews or test sends. To test related-field expressions and/or loop functionality, set up a simple customer journey to deliver the message to yourself.
 
 For example, you could set up the salutation line of an email message by entering the following onto the **HTML** tab of the designer (either inside or outside of a text element):
