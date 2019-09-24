@@ -10,8 +10,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm:
 ms.topic: get-started-article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
 author: krbjoran
 ms.assetid: 49207db9-d1f0-46e0-ae2c-f4acf4593da9
 caps.latest.revision: 24
@@ -53,120 +51,122 @@ To get the mobile app, search and download **Field Service Mobile** from the Win
 
 <a name="bkmk_signin"></a>
 ## Sign in and sync data
- To sign in, you need your organization's Dynamics 365 for Customer Engagement URL, your user name, and password. Contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator if you don't have this information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement administrator or support person](../basics/find-administrator-support.md).
 
-1. Open the app, and enter your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] credentials. When sign in completes, you'll see the Home screen.
-
-
-   ![Home screen in the Field Service Mobile app](../field-service/media/field-service-mobile-home-screen.PNG "Home screen in the Field Service Mobile app")
-
-2. To sync your device to the server, tap the **Sync** button to download changes made on the server to your phone or tablet, and upload information from your device to the server.
-
-   ![Sync the Field Service Mobile app device](../field-service/media/field-service-sync-mobile-device.PNG "Sync the Field Service Mobile app device")
-
-<a name="bkmk_online"></a>
-## Work online or offline
- [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile) lets you work online or offline. Online mode requires an Internet connection; offline mode does not.
-
- The system administrator configures the app to sync when it launches, when information changes, or every few minutes.
-
-### Online mode
- When you’re working online, information continuously syncs with the server, so you don’t need to manually sync your device.
-
-- To work online, tap the Online/Offline mode button.  The screenshot shows how the button looks when you’re online.
-
-  ![Online mode in the Field Service Mobile app](../field-service/media/field-service-online-mode.PNG "Online mode in the Field Service Mobile app")
-
-### Offline mode
- When you're working offline, the information you need is downloaded to your device. This way you can continue your work even without an Internet connection. When you enter information, it’s saved to your device and sent to the server on the next sync.
-
-- To work offline, tap the Online/Offline Mode button.  The screenshot shows how the button looks when you’re offline.
-
-  ![Offline mode in the Field Service Mobile app](../field-service/media/field-service-offline-mode.PNG "Offline mode in the Field Service Mobile app")
-
-<a name="bkmk_getaround"></a>
-## Get around the app (for all security roles)
- When you first sign in to [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile), you’ll see your home screen, which shows you a list of actionable items. To get more information, tap any of the items.
-
+ To sign in, you need your organization's Dynamics 365 URL, your user name, and password. Contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator if you don't have this information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md).  
+  
+1. Open the app, and enter your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] credentials. When sign in completes, you'll see the Home screen. 
+  
+  
+   ![Home screen in the Field Service Mobile app](../field-service/media/field-service-mobile-home-screen.PNG "Home screen in the Field Service Mobile app")  
+  
+2. To sync your device to the server, tap the **Sync** button to download changes made on the server to your phone or tablet, and upload information from your device to the server.  
+  
+   ![Sync the Field Service Mobile app device](../field-service/media/field-service-sync-mobile-device.PNG "Sync the Field Service Mobile app device")  
+  
+<a name="bkmk_online"></a>   
+## Work online or offline  
+ [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile) lets you work online or offline. Online mode requires an Internet connection; offline mode does not.  
+  
+ The system administrator configures the app to sync when it launches, when information changes, or every few minutes.   
+  
+### Online mode  
+ When you’re working online, information continuously syncs with the server, so you don’t need to manually sync your device.  
+  
+- To work online, tap the Online/Offline mode button.  The screenshot shows how the button looks when you’re online.  
+  
+  ![Online mode in the Field Service Mobile app](../field-service/media/field-service-online-mode.PNG "Online mode in the Field Service Mobile app")  
+  
+### Offline mode  
+ When you're working offline, the information you need is downloaded to your device. This way you can continue your work even without an Internet connection. When you enter information, it’s saved to your device and sent to the server on the next sync.  
+  
+- To work offline, tap the Online/Offline Mode button.  The screenshot shows how the button looks when you’re offline.  
+  
+  ![Offline mode in the Field Service Mobile app](../field-service/media/field-service-offline-mode.PNG "Offline mode in the Field Service Mobile app")  
+  
+<a name="bkmk_getaround"></a>   
+## Get around the app (for all security roles)  
+ When you first sign in to [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile), you’ll see your home screen, which shows you a list of actionable items. To get more information, tap any of the items.  
+  
 > [!NOTE]
->  If you have a [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] admin, dispatcher,  inventory purchase, or resource (field agent) security role, you can use [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile). However, depending on your security role, you may not have permission to access or change certain data in the app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement administrator or support person](../basics/find-administrator-support.md)
-
-### Dashboard
- Your dashboard provides a quick overview of business data. Depending on how things are set up in [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile), you may see a default system dashboard or one that you created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customize/create-edit-dashboards.md)
-
- ![Dashboard screen in the Field Service Mobile app](../field-service/media/field-service-dashboard-sceen.PNG "Dashboard screen in the Field Service Mobile app")
-
-### Accounts
- In Accounts you can see a list of your service accounts.
-
- To see where all of the accounts are located on a map view, tap the **Map View** button.
-
- To add a new account, tap the **+**  button, and then add your information.
-
- ![Account view in the Field Service Mobile app](../field-service/media/field-service-mobile-account-view.PNG "Account view in the Field Service Mobile app")
-
- Tap an account name to see the account information.
-
- Tap the **Edit Account** button to edit the account info, such as name, address, and phone number.
-
- To get more information related to the account, tap any of the buttons at the bottom.
-
- ![Edit account view in the Field Service Mobile app](../field-service/media/field-service-edit-account-view.PNG "Edit account view in the Field Service Mobile app")
-
-### Bookable resources
- In Bookable Resources shows your work order bookings.
-
- By default, work orders are listed in the **Agenda** view. To change views, tap **Day**, **Week**, or **Month**.
-
- ![Bookable Resource Bookings in the agenda view](../field-service/media/field-service-booking-view.PNG "Bookable Resource Bookings in the agenda view")
-
-### Contacts
- Contacts shows a list of all your account contacts.
-
- To see where your contacts are located on a map, tap the **Map** button.
-
- To add a new contact, tap the **+** button, and then add your information
-
- ![Contact view in the Field Service Mobile app](../field-service/media/field-service-contact-view.PNG "Contact view in the Field Service Mobile app")
-
- Tap a contact’s name to see the account information.
-
- Tap the **Edit** button to edit the contact's info, such as name, email address, and phone number.
-
- To get more information about the contact, tap any of the buttons at the bottom.
-
- ![Edit a contact](../field-service/media/field-service-edit-contact.PNG "Edit a contact")
-
-### Customer assets
- In Customer Assets you'll see which products a customer uses.
-
- To add new customer assets, tap the **+**  button, and then add the asset information.
-
- ![Add new customer asset](../field-service/media/field-service-customer-asset.PNG "Add new customer asset")
-
- To see information related to the asset, tap the asset name on the left.
-
- ![Edit customer assets](../field-service/media/field-service-edit-customer-assets.PNG "Edit customer assets")
-
-### Products
- Products shows a list of your products, including the price, type of product, quantity on hand, and more.
-
- To add a new product, tap the **+**  button, and then add the product information.
-
- ![Add new product](../field-service/media/field-service-add-new-product.PNG "Add new product")
-
- To see details about the product, tap **Products**, and then tap a product in the list.
-
- ![View more product info](../field-service/media/field-service-view-more-porduct-info.PNG "View more product info")
-
-### Agreements
- Agreements is where you can see customer contracts.
-
-### Time off requests
-
-1. If you need to take time off or you are not available to take a new work order, tap **Time Off Requests**, and then tap the **+**  button.
-
-2. Fill in your time off information, and then tap the Save button.
+>  If you have a [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] admin, dispatcher,  inventory purchase, or resource (field agent) security role, you can use [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile). However, depending on your security role, you may not have permission to access or change certain data in the app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md)  
+  
+### Dashboard  
+ Your dashboard provides a quick overview of business data. Depending on how things are set up in [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile), you may see a default system dashboard or one that you created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customize/create-edit-dashboards.md)  
+  
+ ![Dashboard screen in the Field Service Mobile app](../field-service/media/field-service-dashboard-sceen.PNG "Dashboard screen in the Field Service Mobile app")  
+  
+### Accounts  
+ In Accounts you can see a list of your service accounts.  
+  
+ To see where all of the accounts are located on a map view, tap the **Map View** button.  
+  
+ To add a new account, tap the **+**  button, and then add your information.  
+  
+ ![Account view in the Field Service Mobile app](../field-service/media/field-service-mobile-account-view.PNG "Account view in the Field Service Mobile app")  
+  
+ Tap an account name to see the account information.  
+  
+ Tap the **Edit Account** button to edit the account info, such as name, address, and phone number.  
+  
+ To get more information related to the account, tap any of the buttons at the bottom.  
+  
+ ![Edit account view in the Field Service Mobile app](../field-service/media/field-service-edit-account-view.PNG "Edit account view in the Field Service Mobile app")  
+  
+### Bookable resources  
+ In Bookable Resources shows your work order bookings.  
+  
+ By default, work orders are listed in the **Agenda** view. To change views, tap **Day**, **Week**, or **Month**.  
+  
+ ![Bookable Resource Bookings in the agenda view](../field-service/media/field-service-booking-view.PNG "Bookable Resource Bookings in the agenda view")  
+  
+### Contacts  
+ Contacts shows a list of all your account contacts.  
+  
+ To see where your contacts are located on a map, tap the **Map** button.  
+  
+ To add a new contact, tap the **+** button, and then add your information  
+  
+ ![Contact view in the Field Service Mobile app](../field-service/media/field-service-contact-view.PNG "Contact view in the Field Service Mobile app")  
+  
+ Tap a contact’s name to see the account information.  
+  
+ Tap the **Edit** button to edit the contact's info, such as name, email address, and phone number.  
+  
+ To get more information about the contact, tap any of the buttons at the bottom.  
+  
+ ![Edit a contact](../field-service/media/field-service-edit-contact.PNG "Edit a contact")  
+  
+### Customer assets  
+ In Customer Assets you'll see which products a customer uses.  
+  
+ To add new customer assets, tap the **+**  button, and then add the asset information.  
+  
+ ![Add new customer asset](../field-service/media/field-service-customer-asset.PNG "Add new customer asset")  
+  
+ To see information related to the asset, tap the asset name on the left.  
+  
+ ![Edit customer assets](../field-service/media/field-service-edit-customer-assets.PNG "Edit customer assets")  
+  
+### Products  
+ Products shows a list of your products, including the price, type of product, quantity on hand, and more.  
+  
+ To add a new product, tap the **+**  button, and then add the product information.  
+  
+ ![Add new product](../field-service/media/field-service-add-new-product.PNG "Add new product")  
+  
+ To see details about the product, tap **Products**, and then tap a product in the list.  
+  
+ ![View more product info](../field-service/media/field-service-view-more-porduct-info.PNG "View more product info")  
+  
+### Agreements  
+ Agreements is where you can see customer contracts.  
+  
+### Time off requests  
+  
+1. If you need to take time off or you are not available to take a new work order, tap **Time Off Requests**, and then tap the **+**  button.  
+  
+2. Fill in your time off information, and then tap the Save button.  
+  
 
    > [!NOTE]
    >  This will gray your name out on the schedule board, which lets the dispatcher and scheduling assistant know that you aren't available.

@@ -10,8 +10,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 author: krbjoran
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
@@ -41,7 +39,7 @@ To see your mobile app's version number, find the About menu item, and select it
 To find your installed Woodford solution version number, open a non-private Internet Explorer window and navigate to **Settings > Woodford > MobileCRM Woodford**.
 
 > [!div class="mx-imgBorder"]
->![Screenshot of the Woodford solution in the Dynamics 365 for Customer Engagement menu](media/Mobile-FAQs-image3.png)
+>![Screenshot of the Woodford solution in the Dynamics 365 menu](media/Mobile-FAQs-image3.png)
 
 > [!div class="mx-imgBorder"]
 >![Screenshot of the installed and available Woodford solution version numbers](media/Mobile-FAQs-image4.png)

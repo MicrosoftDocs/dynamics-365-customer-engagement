@@ -10,8 +10,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 author: krbjoran
 ms.assetid: 2e8df23a-6b4c-442a-8c1d-3b597f193c09
 caps.latest.revision: 14

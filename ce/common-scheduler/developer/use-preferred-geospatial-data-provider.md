@@ -16,8 +16,6 @@ ms.technology:
   - project-service
 ms.tgt_pltfrm: 
 ms.topic: conceptual
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: bbae6f0d-1d53-4d6e-b76f-00dae07443e0
 author: FieldServiceDave
 ms.author: daclar
