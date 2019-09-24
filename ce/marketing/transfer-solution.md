@@ -1,14 +1,12 @@
 ---
-title: "Move customizations between instances (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to move customizations between instances using solution export/import in Dynamics 365 for Marketing"
+title: "Move customizations between instances (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to move customizations between instances using solution export/import in Dynamics 365 Marketing"
 keywords: 
 ms.date: 04/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: e250fadf-55ca-4116-b911-12e7b3005e08
 author: kamaybac
 ms.author: kamaybac
@@ -26,7 +24,7 @@ search.app:
 
 # Transfer customizations between instances using solution export and import
 
-[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] is highly customizable. You can use its online tools to modify or create fields, entities, business processes, and more. Usually, you'll do your customization work on a sandbox instance, test them, and then transfer the final customizations to your production instances when they're ready. Best practices recommend that you proceed as follows:
+Dynamics 365 is highly customizable. You can use its online tools to modify or create fields, entities, business processes, and more. Usually, you'll do your customization work on a sandbox instance, test them, and then transfer the final customizations to your production instances when they're ready. Best practices recommend that you proceed as follows:
 
 1. [Create a copy](manage-marketing-instances.md#copy-to-sandbox) of your current production instance onto a sandbox instance where you can work without affecting your ongoing operations.
 1. [Create a new managed solution](../customize/create-solution.md) on the sandbox and implement your customizations there. This lets you add customizations without affecting the underlying system, and you can revert your customizations at any time by removing the solution.
@@ -43,7 +41,7 @@ To create a custom solution:
 
 1. Sign in to the instance where you will develop your custom solution.
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 
 1. Navigate to **Settings** > **Customization** > **Solutions**. A list of existing solutions opens.    
     ![The solutions list](media/solution-list.png "The solutions list")
@@ -97,7 +95,7 @@ If you'd like to confirm your changes, you can go to the Marketing app, open a m
 
 When you're done customizing your solution and ready to move it to another instance, the next thing you must do is export the custom solution. Here's how:
 
-1. If you're not already there after the last exercise, go to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area by opening the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and then select **Advanced settings**.
+1. If you're not already there after the last exercise, go to the advanced-settings area by opening the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and then select **Advanced settings**.
 1. Navigate to **Settings** > **Customizations** > **Solutions**.    
     ![The solutions list](media/solution-list.png "The solutions list")
 
@@ -122,7 +120,7 @@ To import a solution:
 
 1. Sign in to the instance where you will import your custom solution.
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 
 1. Navigate to **Settings** > **Customization** > **Solutions**. A list of existing solutions opens.    
     ![The solutions list](media/solution-list.png "The solutions list")

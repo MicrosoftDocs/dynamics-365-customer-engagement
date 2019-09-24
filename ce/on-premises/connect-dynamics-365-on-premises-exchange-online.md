@@ -7,7 +7,7 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
+applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 5622050b-a0e8-40ca-9ed5-fc082d5212a8
 caps.latest.revision: 61
@@ -45,7 +45,7 @@ Follow the steps in the order provided to set up Dynamics 365 (on-premises) with
 Before you configure Dynamics 365 (on-premises) and Exchange Online for server-based authentication, the following prerequisites must be met:
 - The Dynamics 365 (on-premises) deployment must already be configured and available through the Internet. More information: [Configure IFD for Microsoft Dynamics 365](configure-ifd-for-dynamics-365.md)
 - Microsoft Dynamics 365 Hybrid Connector. The Microsoft Dynamics 365 Hybrid Connector is a free connector that lets you use server-based authentication with Microsoft Dynamics 365 (on-premises) and Exchange Online. More information: [Microsoft Dynamics 365 Hybrid Connector](https://admin.microsoft.com/Signup/Signup.aspx?OfferId=2d11d538-945d-48c6-b609-a5ce54ce7b18&pc=76ac7a4d-8346-4419-959c-d3896e89b3c9)
-- An x509 digital certificate issued by a trusted certificate authority that will be used to authenticate between Dynamics 365 (on-premises) and Exchange Online. If you are evaluating server-based authentication, you can use a self-signed certificate. 
+- An x509 digital certificate issued by a trusted certificate authority that will be used to authenticate between Dynamics 365 (on-premises) and Exchange Online. If you are evaluating server-based authentication, you can use a self-signed certificate.
 
 The following software features are required to run the Windows PowerShell cmdlets described in this topic:
 - [Microsoft Online Services Sign-In Assistant for IT Professionals Beta](https://www.microsoft.com/download/details.aspx?id=39267)
@@ -98,7 +98,7 @@ $CredentialValue = [System.Convert]::ToBase64String($CERCertificateBin)
 
 ```powershell
 $RootDomain = “*.contoso.com”
-$CRMAppId = "00000007-0000-0000-c000-000000000000" 
+$CRMAppId = "00000007-0000-0000-c000-000000000000"
 New-MsolServicePrincipalCredential -AppPrincipalId $CRMAppId -Type asymmetric -Usage Verify -Value $CredentialValue
 $CRM = Get-MsolServicePrincipal -AppPrincipalId $CRMAppId
 $ServicePrincipalName = $CRM.ServicePrincipalNames
@@ -110,7 +110,7 @@ Set-MsolServicePrincipal -AppPrincipalId $CRMAppId -ServicePrincipalNames $Servi
 7. Configure the Microsoft Dynamics 365 Server for server-based authentication with Exchange.
 
 ```powershell
-Add-PSSnapin Microsoft.Crm.PowerShell 
+Add-PSSnapin Microsoft.Crm.PowerShell
 $setting = New-Object "Microsoft.Xrm.Sdk.Deployment.ConfigurationEntity"
 $setting.LogicalName = "ServerSettings"
 $setting.Attributes = New-Object "Microsoft.Xrm.Sdk.Deployment.AttributeCollection"
@@ -132,13 +132,13 @@ $CRMContextId
 
 2. Copy the GUID that is displayed to the clipboard.
 
-3. Update S2STenantId for the organization by running these commands, where OrganizationName is the unique name of the organization. 
+3. Update S2STenantId for the organization by running these commands, where OrganizationName is the unique name of the organization.
 
 ```powershell
 $organizationName = “OrganizationName”
 $CRMContextId = “ExchangeOnlineTenantId”
 $orgInfo = Get-CrmOrganization -Name $organizationName
-$ID = $orgInfo.id 
+$ID = $orgInfo.id
 
     if($ID)
         {
@@ -176,9 +176,9 @@ Error: Failed Authentication. This error can be returned when the certificate us
 
 ### Troubleshoot the Exchange Online (Hybrid) profile connection
 
-If you’ve run **Test Connection** and have issues with the Exchange Online (Hybrid) profile connection, use the information in the **Test Connection** dialog box to diagnose and fix the connection. 
+If you’ve run **Test Connection** and have issues with the Exchange Online (Hybrid) profile connection, use the information in the **Test Connection** dialog box to diagnose and fix the connection.
 
-You can find information on recurring issues and other troubleshooting information in [Blog: Test and Enable Mailboxes in Microsoft Dynamics CRM 2015](http://blogs.msdn.com/b/crm/archive/2015/08/31/test-and-enable-mailboxes-in-microsoft-dynamics-crm-2015.aspx) and [Troubleshooting and monitoring server-side synchronization](../admin/troubleshooting-monitoring-server-side-synchronization.md).
+You can find information on recurring issues and other troubleshooting information in [Blog: Test and Enable Mailboxes in Microsoft Dynamics CRM 2015](https://blogs.msdn.com/b/crm/archive/2015/08/31/test-and-enable-mailboxes-in-microsoft-dynamics-crm-2015.aspx) and [Troubleshooting and monitoring server-side synchronization](../admin/troubleshooting-monitoring-server-side-synchronization.md).
 
 ## Configure default email processing and synchronization
 Set server-side synchronization to be the default configuration method.
@@ -198,7 +198,7 @@ Set server-side synchronization to be the default configuration method.
   ![Exchange Server profile](media/system-settings-exchange-profile.png)
 
 3. Select **OK**.
- 
+
 ## Configure mailboxes
 To set mailboxes to use the default profile, you must first set the Server Profile and the delivery method for email, appointments, contacts, and tasks.
 
@@ -213,7 +213,7 @@ Select one of the following methods:
 1. Go to **Settings** > **Email Configuration** > **Mailboxes**.
 2. Select **Active Mailboxes**.
 3. Select the mailboxes that you want to configure, and then select **Edit**.
-4. In the **Change Multiple Records** form, under **Synchronization Method**, set **Server Profile** to the Exchange Server profile you created earlier. 
+4. In the **Change Multiple Records** form, under **Synchronization Method**, set **Server Profile** to the Exchange Server profile you created earlier.
 5. Set **Incoming** and **OutgoingEmail** to **Server-Side Synchronization** or **Email Router**.
 6. Set **Appointments**, **Contacts**, and **Tasks** to **Server-Side Synchronization**.
 
@@ -221,20 +221,20 @@ Select one of the following methods:
 > If your users primarily use Dynamics 365 for Outlook on their desktop computers, Microsoft Dynamics 365 for Outlook might be a better choice.
 
 7. Select **Change**.
- 
+
 ## Approve email
-You need to approve each user mailbox or queue before that mailbox can process email. 
+You need to approve each user mailbox or queue before that mailbox can process email.
 1. Go to **Settings** > **Email Configuration** > **Mailboxes**.
 2. Select **Active Mailboxes**.
 3. Select the mailboxes that you want to approve, and then select **More Commands (…)** > **Approve Email**.
-4. Select **OK**. 
+4. Select **OK**.
 
 ## Test configuration of mailboxes
 1. Go to **Settings** > **Email Configuration** > **Mailboxes**.
 2. Select **Active Mailboxes**.
 3. Select the mailboxes you want to test, and then select **Test & Enable Mailboxes**.
 
-This tests the incoming and outgoing email configuration of the selected mailboxes and enables them for email processing. If an error occurs in a mailbox, an alert is shown on the Alerts wall of the mailbox and the profile owner. Depending on the nature of the error, Microsoft Dynamics 365 tries to process the email again after some time or disables the mailbox for email processing. 
+This tests the incoming and outgoing email configuration of the selected mailboxes and enables them for email processing. If an error occurs in a mailbox, an alert is shown on the Alerts wall of the mailbox and the profile owner. Depending on the nature of the error, Microsoft Dynamics 365 tries to process the email again after some time or disables the mailbox for email processing.
 
 The result of the email configuration test is displayed in the **Incoming Email Status**, **Outgoing Email Status**, and **Appointments, Contacts, and Tasks Status** fields of a mailbox record. An alert is also generated when the configuration is successfully completed for a mailbox. This alert is shown to the mailbox owner.
 
@@ -247,7 +247,7 @@ The result of the email configuration test is displayed in the **Incoming Email 
 1. Go to **Settings** > **Email Configuration** > **Email Server Profiles**.
 2. Select the profile you created, and then select **Test & Enable Mailboxes**.
 
-When you test the email configuration, an asynchronous job runs in the background. It may take a few minutes for the test to be completed. Microsoft Dynamics 365 tests the email configuration of all the mailboxes associated with the Exchange Server profile. For the mailboxes configured with server-side synchronization for synchronizing appointments, tasks, and contacts, it also checks to make sure they’re configured properly. 
+When you test the email configuration, an asynchronous job runs in the background. It may take a few minutes for the test to be completed. Microsoft Dynamics 365 tests the email configuration of all the mailboxes associated with the Exchange Server profile. For the mailboxes configured with server-side synchronization for synchronizing appointments, tasks, and contacts, it also checks to make sure they’re configured properly.
 
 > [!TIP]
 > If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](../admin/when-would-want-use-check-box.md).

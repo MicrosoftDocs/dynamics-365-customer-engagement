@@ -1,13 +1,11 @@
 ---
-title: "Create subscription lists (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "Learn how to create a subscription list in Dynamics 365 for Marketing"
+title: "Create subscription lists (Dynamics 365 Marketing) | Microsoft Docs "
+description: "Learn how to create a subscription list in Dynamics 365 Marketing"
 ms.date: 08/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 5684342b-0a9f-47b8-8dda-0ad7774f78e5
 author: kamaybac
 ms.author: kamaybac
@@ -27,7 +25,7 @@ search.app:
 
 [!INCLUDE [cc-marketing-early-access-2019w2](../includes/cc-marketing-early-access-2019w2.md)]
 
-Subscription lists in Dynamics 365 for Marketing are based on the static marketing lists normally used for the in-app marketing feature of Dynamics 365 for Sales. Previously, you needed to take care when setting up a subscription list to ensure that you set it up correctly to make it usable with the Marketing app. But now, we've added a new **Subscription list** entry to the main navigator of the Marketing app, and from here you can get started with a correctly configured subscription list with just one click. Now you'll have many fewer distractions on your way to creating fully functional subscription lists.
+Subscription lists in Dynamics 365 Marketing are based on the static marketing lists normally used for the in-app marketing feature of Dynamics 365 Sales. Previously, you needed to take care when setting up a subscription list to ensure that you set it up correctly to make it usable with the Marketing app. But now, we've added a new **Subscription list** entry to the main navigator of the Marketing app, and from here you can get started with a correctly configured subscription list with just one click. Now you'll have many fewer distractions on your way to creating fully functional subscription lists.
 
 For more information about subscription lists and how they are used, see [Set up subscription lists and subscription centers](set-up-subscription-center.md), but when you're creating new subscription lists, follow the instructions here rather than the ones provided in that topic.
 

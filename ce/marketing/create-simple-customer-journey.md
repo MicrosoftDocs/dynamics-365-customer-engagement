@@ -1,14 +1,12 @@
 ---
-title: "Create a simple customer journey (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "A tutorial for how to set up a customer journey that implements a simple email blast in Dynamics 365 for Marketing"
+title: "Create a simple customer journey (Dynamics 365 Marketing) | Microsoft Docs"
+description: "A tutorial for how to set up a customer journey that implements a simple email blast in Dynamics 365 Marketing"
 keywords: tutorial; customer journey; send email; email blast
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 45c4c442-2662-41a0-83c9-8e3149ed71ec
 author: kamaybac
 ms.author: kamaybac
@@ -38,7 +36,7 @@ Before you start, you'll need:
 
 To create a customer journey that executes a one-time email blast:
 
-1. Go to **Marketing** &gt; **Marketing Execution** &gt; **Customer Journeys**. This takes you to a list of existing customer journeys.  
+1. Go to **Marketing** > **Marketing Execution** > **Customer Journeys**. This takes you to a list of existing customer journeys.  
     ![Location of the new-journey button](media/new-journey-button-location.png "Location of the New button to create a journey")
 
     On the command bar, select **New**.
@@ -96,7 +94,7 @@ To create a customer journey that executes a one-time email blast:
     > 
     > ![Location of the save button in the footer](media/journey-save-button-location-footer.png "Location of the Save button in the footer")
 
-10. To make sure your journey includes all required content and settings, select **Check for Errors** in the command bar. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] checks it and then displays results in the notification bar. Expand the notification bar to read the results.
+10. To make sure your journey includes all required content and settings, select **Check for Errors** in the command bar. Dynamics 365 Marketing checks it and then displays results in the notification bar. Expand the notification bar to read the results.
      ![Check for errors button and  results](media/journey-check-for-errors.png "Check for Errors button and  results")
 
      If you followed this procedure and your email message is live, your journey should pass the error check. If it doesn't, read the error message, fix the reported issue, and try again until it passes.
@@ -104,15 +102,15 @@ To create a customer journey that executes a one-time email blast:
 11. Your journey is now ready to go. To start it running, publish it by selecting **Go Live** on the command bar.
      ![Location of the Go Live button](media/journey-go-live-button-location.png "Location of the Go Live button")
 
-     [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] copies the journey to its email marketing service, which executes the journey by processing contacts, performing actions, and collecting results during the time it is set to run. The journey's **Status Reason** is updated to **Live**.
+     Dynamics 365 Marketing copies the journey to its email marketing service, which executes the journey by processing contacts, performing actions, and collecting results during the time it is set to run. The journey's **Status Reason** is updated to **Live**.
 
-12. It might take a few hours for your messages to get sent, so allow some time for them to arrive in your inbox. After they do, open them and load the images. Then you can go back to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and see how your journey is going. Open your customer journey in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and switch to the **Customer journey: Insights** form view by using the drop-down list above the journey-name headline.
+12. It might take a few hours for your messages to get sent, so allow some time for them to arrive in your inbox. After they do, open them and load the images. Then you can go back to Dynamics 365 Marketing and see how your journey is going. Open your customer journey in Dynamics 365 Marketing and switch to the **Customer journey: Insights** form view by using the drop-down list above the journey-name headline.
      ![Location of the view selector](media/journey-view-selector.png "Location of the view selector")
 
      From here, use the **Designer** tab to see information and results for each tile from your pipeline. Open the **Dashboard** tab to see detailed analytics.
 
     > [!TIP]
-    > Many entities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provide an **Insights** form view for analyzing the results of your marketing initiatives, including marketing emails. For example, try opening the record for the email message you sent with this customer journey and check its **Marketing email: Insights** form view for even more information.
+    > Many entities in Dynamics 365 Marketing provide an **Insights** form view for analyzing the results of your marketing initiatives, including marketing emails. For example, try opening the record for the email message you sent with this customer journey and check its **Marketing email: Insights** form view for even more information.
 
 ### See also
 

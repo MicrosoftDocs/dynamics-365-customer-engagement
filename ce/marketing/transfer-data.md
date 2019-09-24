@@ -1,14 +1,12 @@
 ---
-title: "Move data between instances (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to move data between instances using the Configuration Migration tool in Dynamics 365 for Marketing"
+title: "Move data between instances (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to move data between instances using the Configuration Migration tool in Dynamics 365 Marketing"
 keywords: 
 ms.date: 08/16/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 336aa977-6af9-4fc8-bee3-bc0573954c13
 author: kamaybac
 ms.author: kamaybac
@@ -26,14 +24,14 @@ search.app:
 
 # Transfer data and configurations between instances using the Configuration Migration tool
 
-You can replicate Dynamics 365 for Marketing configurations and data across instances using the standard tools provided for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. Common scenarios where this comes in handy include:
+You can replicate Dynamics 365 Marketing configurations and data across instances using the standard tools provided for Dynamics 365. Common scenarios where this comes in handy include:
 
 - Move validated journeys, emails, and other content from a sandbox to a production environment
 - Set up a demo with sample data on a trial or sandbox
 
 The process works as follows:
 
-1. Download the Configuration Migration tool for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] (if you don't already have it).
+1. Download the Configuration Migration tool for Dynamics 365 (if you don't already have it).
 1. Make sure your source and destination instances are running the same version of Marketing.
 1. Use the Configuration Migration tool to generate a database schema based on your source instance.
 1. Export data from the source instance using the Configuration Migration tool together with the schema.
@@ -41,13 +39,13 @@ The process works as follows:
 
 ## Capabilities and limitations of the export/import process
 
-The following notes apply when you use export/import to move data from one Dynamics 365 for Marketing to another:
+The following notes apply when you use export/import to move data from one Dynamics 365 Marketing to another:
 
 - All records exported with a status of "live" will be imported with a status of "draft" on the destination instance.
 - If you import (or reimport) a record that already exists on the destination instance, that record will end with a status of "draft" on the destination instance. Matching records won't be duplicated.
 - Interaction data can't be exported or transferred to a new instance. It will never be included in the export file.
 - If you export from a language not present on the destination instance, that language will simply be added to the destination instance.
-- Both the source and destination instances must be running the same version of Dynamics 365 for Marketing and use an identical database schema (at least for the data you are transferring).
+- Both the source and destination instances must be running the same version of Dynamics 365 Marketing and use an identical database schema (at least for the data you are transferring).
 
 <a name="install-tools"></a>
 ## Download the Configuration Migration tool
@@ -58,16 +56,16 @@ The Configuration Migration tool helps you extract your data and configuration d
 
 Your source and destination instances must both be running identical versions of Marketing. Use the following procedure to check the version on each instance. If they don't match, then update one or both of them to the most recent version as described in [Keep Marketing up to date](apply-updates.md)
 
-To find your Dynamics 365 for Marketing version number:
+To find your Dynamics 365 Marketing version number:
 
 1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and go to the **Instances** tab.  
 
-2. If you have more than one [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instance, then each of them is listed here. Select the instance where you have [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed and are planning to export data from.
+2. If you have more than one Dynamics 365 instance, then each of them is listed here. Select the instance where you have Marketing installed and are planning to export data from.
 
 3. The side panel shows information about your selected instance, including a list of solutions installed there. Select the **Manage your solutions** button ![The Manage your solutions button](media/update-manage-button.png "The Manage your solutions button") next to the **Solutions** heading here.  
     ![Select the Manage your solutions button](media/update-open-manage-solutions.png "Select the Manage your solutions button")
 
-4. A list of solutions installed on your selected instance is shown. Find the solution called **Dynamics 365 for Marketing** and check the value shown in the **Version** column.  
+4. A list of solutions installed on your selected instance is shown. Find the solution called **Dynamics 365 Marketing** and check the value shown in the **Version** column.  
     ![Find the version number](media/admin-mkt-version.png "Find the version number")
 
 ## Generate a database schema for your source instance
@@ -139,7 +137,7 @@ To import data to your destination instance:
     ![Choose a file to import](media/dmt-import3.png "Choose a file to import")
 
     > [!IMPORTANT]
-    > As mentioned previously, your source and destination instances must use exactly the same schema for the data being transferred, so they must be running identical versions of Dynamics 365 for Marketing, and all relevant schema customizations must be identical on both instances. If the schemas don't match, you will get an error and the import will fail. <!-- but can we use just a partial schema? -->
+    > As mentioned previously, your source and destination instances must use exactly the same schema for the data being transferred, so they must be running identical versions of Dynamics 365 Marketing, and all relevant schema customizations must be identical on both instances. If the schemas don't match, you will get an error and the import will fail. <!-- but can we use just a partial schema? -->
 
 1. Select **Import data** to continue. The tool tracks the progress of your import.  
     ![Import complete](media/dmt-import4.png "Import complete")

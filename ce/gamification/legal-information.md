@@ -10,11 +10,11 @@ ms.assetid: 98461a5f-9c04-4dcd-aaf1-44cc5706e419
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-search.audienceType: 
+search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
+search.app:
   - D365CE
   - D365Gamification
 ---

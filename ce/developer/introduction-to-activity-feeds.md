@@ -1,15 +1,15 @@
 ---
 title: "Introduction to activity feeds (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-ms.custom: 
+ms.custom:
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer:
 ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: article
-applies_to: 
+applies_to:
   - Dynamics 365 for Customer Engagement (online)
-helpviewer_keywords: 
+helpviewer_keywords:
   - retrieving posts and pages of posts, for displaying on personal or record walls
   - activity feed posts, character limits (character limits)
   - activity feeds, related entities and their descriptions
@@ -27,18 +27,18 @@ ms.assetid: 1b9e7311-36a6-4f57-a834-429651110515
 author: JimDaly
 ms.author: jdaly
 manager: amyla
-search.audienceType: 
+search.audienceType:
   - developer
-search.app: 
+search.app:
   - D365CE
 ---
 # Introduction to activity feeds
 
-As a developer implementing collaboration scenarios with  activity feeds, you should become familiar with the activity feeds terminology, definitions and entity model.  
+As a developer implementing collaboration scenarios with  activity feeds, you should become familiar with the activity feeds terminology, definitions and entity model.
 
-<a name="BKMK_ActivityFeedsConcepts"></a>   
-## Activity feeds concepts  
- The following table contains activity feeds definitions.  
+<a name="BKMK_ActivityFeedsConcepts"></a>
+## Activity feeds concepts
+ The following table contains activity feeds definitions.
 
 
 |          Term           |                                                                                                                                                                                                                                                            Description                                                                                                                                                                                                                                                             |
@@ -60,90 +60,90 @@ As a developer implementing collaboration scenarios with  activity feeds, you sh
 |          View           |                                                                                                                                                                                                                                             A view of entity records based on a query.                                                                                                                                                                                                                                             |
 
 > [!NOTE]
->  Manual and auto posts that are created programmatically can have up to 2000 characters. Posts created in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application can have up to 1000 characters. Comments that are created programmatically can have up to 1000 characters, but comments created in the web application are limited to 500 characters.  
+>  Manual and auto posts that are created programmatically can have up to 2000 characters. Posts created in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application can have up to 1000 characters. Comments that are created programmatically can have up to 1000 characters, but comments created in the web application are limited to 500 characters.
 
-<a name="BKMK_ActivityFeedsEntities"></a>   
-## Activity feeds entities  
- The following table contains information about the activity feeds entities.  
+<a name="BKMK_ActivityFeedsEntities"></a>
+## Activity feeds entities
+ The following table contains information about the activity feeds entities.
 
-|Entity|Description|  
-|------------|-----------------|  
-|`Post`|Represents an auto post or a manual (user) post.|  
-|`PostComment`|Represents a comment on an activity feed post.|  
-|`PostFollow`|Represents a post follow that indicates that a user follows a record. Deleting the `PostFollow` record is an action of “unfollow”.|  
-|`PostLike`|Represents that the user liked the post.<br /><br /> Deleting the `PostLike` record is an action of “unlike”.|  
-|`msdyn_PostConfig`|Contains activity feed configuration for an entity and is used to enable or disable an entity for activity feeds.|  
-|`msdyn_PostRuleConfig`|Contains activity feed rule configuration for an entity and is used to enable or disable an auto post rule for an entity.|  
-|`msdyn_PostAlbum`|Contains user profile images that are stored as attachments and displayed in posts.|  
+|Entity|Description|
+|------------|-----------------|
+|`Post`|Represents an auto post or a manual (user) post.|
+|`PostComment`|Represents a comment on an activity feed post.|
+|`PostFollow`|Represents a post follow that indicates that a user follows a record. Deleting the `PostFollow` record is an action of “unfollow”.|
+|`PostLike`|Represents that the user liked the post.<br /><br /> Deleting the `PostLike` record is an action of “unlike”.|
+|`msdyn_PostConfig`|Contains activity feed configuration for an entity and is used to enable or disable an entity for activity feeds.|
+|`msdyn_PostRuleConfig`|Contains activity feed rule configuration for an entity and is used to enable or disable an auto post rule for an entity.|
+|`msdyn_PostAlbum`|Contains user profile images that are stored as attachments and displayed in posts.|
 
-<a name="BKMK_LikeUnlike"></a>   
-## Like/Unlike  
- With Like/Unlike, you can express an immediate opinion about a post. This makes your communication more personable and interactive. Use Like/Unlike to exchange kudos with your co-workers, praise the work of your subordinates and measure the popularity of the posts. An action taken by the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps users showing that they like a particular post is called *Like*. An action taken by a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps user to undo the “Like” on a post is called the *Unlike*. You can add one “Like” to the post; however, a post maybe “liked” by multiple users. To add a “Like” to a post, create the `PostLike` record and associate it with the parent `Post` record. To remove the “Like” from the post, delete the `PostLike` record.  
+<a name="BKMK_LikeUnlike"></a>
+## Like/Unlike
+ With Like/Unlike, you can express an immediate opinion about a post. This makes your communication more personable and interactive. Use Like/Unlike to exchange kudos with your co-workers, praise the work of your subordinates and measure the popularity of the posts. An action taken by the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps users showing that they like a particular post is called *Like*. An action taken by a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps user to undo the “Like” on a post is called the *Unlike*. You can add one “Like” to the post; however, a post maybe “liked” by multiple users. To add a “Like” to a post, create the `PostLike` record and associate it with the parent `Post` record. To remove the “Like” from the post, delete the `PostLike` record.
 
-<a name="BKMK_Mentions"></a>   
-## Mentions  
- During discussions within a group, you often need to reference a specific person (a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps user), or a record, such as an account, and share this information with others. In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps Activity Feeds, this action is called a “mention.” The posts that mention a user can be displayed on the user’s record wall and user’s personal wall (“What’s New” in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]) apps. The posts that mention a record are displayed on the record’s wall.  
+<a name="BKMK_Mentions"></a>
+## Mentions
+ During discussions within a group, you often need to reference a specific person (a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps user), or a record, such as an account, and share this information with others. In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps Activity Feeds, this action is called a “mention.” The posts that mention a user can be displayed on the user’s record wall and user’s personal wall (“What’s New” in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]) apps. The posts that mention a record are displayed on the record’s wall.
 
- To add a mention to a post, use an expression in the following format in the `Post.Text` attribute:  
+ To add a mention to a post, use an expression in the following format in the `Post.Text` attribute:
 
- `@[Entity,ID,"Display String"]`.  
-
-> [!NOTE]
->  There are no spaces following commas in this expression.  
-
- The following table describes the parameters in the expression:  
-
-|Parameter|Description|  
-|---------------|-----------------|  
-|`Entity`|An entity logical name or an entity type code for the record that is mentioned in the post.|  
-|`ID`|The ID of the record that is mentioned in the post.|  
-|`Display String`|The text that you want to be displayed in the mention, such as a record’s name.|  
-
- The entity type codes for all default (non-custom) entities are predefined. For more information, see [IOrganizationService Entities](org-service/organization-service-entities.md). [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
-
- You can specify multiple mentions in this attribute. To retrieve data contained in the mention, parse the string in the `Text` attribute to search for the “@[“ characters that separate mentions from other mentions or text.  
-
- For additional information about post mentions, see [Blog Post: How to do Mentions with Activity Feeds](http://blogs.msdn.com/b/crm/archive/2011/10/31/how-to-do-mentions-with-activity-feeds.aspx).  
-
-<a name="BKMK_DisplayingData"></a>   
-## Displaying data on the record wall or personal wall  
- To retrieve posts for displaying on a record wall or a personal wall, you can use the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> message or <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> message. However, to retrieve pages of posts with associated comments and likes in one single call, you can use special activity feeds messages.  
-
- To retrieve pages of posts with associated comments and likes for a record wall, use the <xref:Microsoft.Crm.Sdk.Messages.RetrieveRecordWallRequest> message. To retrieve pages of posts with associated comments and likes for a personal wall, use the <xref:Microsoft.Crm.Sdk.Messages.RetrievePersonalWallRequest> message.  
-
- The following posts with comments are displayed on the **Record Wall:**  
-
-- Posts that are regarding a record. The record ID is specified in the `Post.RegardingObjectId` attribute.  
-
-- Posts that mention a record. The record ID is specified within the `Post.Text` attribute.  
-
-- For a system user (user) record, the wall also includes the posts that the user created. The `Post.RegardingObjectId` attribute contains the current user ID.  
-
-  The following posts with comments are displayed on the **Your (User) Personal Wall** (**What’s New** in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]) apps:  
-
-- Posts that are regarding you. The `Post.RegardingObjectId` attribute contains your user ID.  
-
-- Posts that mention you. Your user ID is specified within the `Post.Text` attribute.  
-
-- Posts that are regarding a record or that mention a record that you follow.  
+ `@[Entity,ID,"Display String"]`.
 
 > [!NOTE]
->  You can only follow the records on which you have read privileges and access rights. If you lose read permissions, a follow is automatically removed. All [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users automatically follow themselves. You can only see the posts that are regarding the records or mention the records on which you have read privileges and access rights.  
+>  There are no spaces following commas in this expression.
 
- If you create the `PostFollow` record for the account A and set the `OwnerId` on the `PostFollow` to the user B, then the user B follows the account A.  
+ The following table describes the parameters in the expression:
 
- For more information about the role-based and record-based security, see, [The Security Model of Dynamics 365 for Customer Engagement apps](security-dev/security-model.md).  
+|Parameter|Description|
+|---------------|-----------------|
+|`Entity`|An entity logical name or an entity type code for the record that is mentioned in the post.|
+|`ID`|The ID of the record that is mentioned in the post.|
+|`Display String`|The text that you want to be displayed in the mention, such as a record’s name.|
 
-### See also  
- [Activity Feeds Entities](activity-feeds-entities.md)   
- <xref:Microsoft.Crm.Sdk.Messages.RetrieveRecordWallRequest>   
- <xref:Microsoft.Crm.Sdk.Messages.RetrievePersonalWallRequest>   
- [Configure Activity Feeds](configure-activity-feeds.md)   
- [Connect to Yammer](connect-yammer.md)   
- [Sample: Collaborate with Activity Feeds](sample-collaborate-with-activity-feeds.md)   
- [Blog Post: Working with Activity Feed using Microsoft CRM SDK](http://blogs.msdn.com/b/crm/archive/2011/10/31/working-with-activity-feed-using-microsoft-crm-sdk1.aspx)   
- [Blog Post: How to do Mentions with Activity Feeds](http://blogs.msdn.com/b/crm/archive/2011/10/31/how-to-do-mentions-with-activity-feeds.aspx)   
- [Blog Post: Displaying a Contact’s Facebook Picture in Microsoft Dynamics CRM 2011](http://blogs.msdn.com/b/crm/archive/2011/09/28/displaying-a-contact-s-facebook-picture-in-microsoft-dynamics-crm-2011.aspx)   
- [Blog Post: Data management for Activity Feeds entities](http://blogs.msdn.com/b/crm/archive/2011/11/18/data-management-for-activity-feeds-entities.aspx)   
- [Blog Post: How to Add a Record Wall to a Form](http://blogs.msdn.com/b/crm/archive/2011/11/09/how-to-add-a-record-wall-to-a-form.aspx)   
- [Blog Post: Activity Feeds Solution & Development Environment](http://blogs.msdn.com/b/crm/archive/2012/01/26/activity-feeds-solution-amp-development-environment.aspx)
+ The entity type codes for all default (non-custom) entities are predefined. For more information, see [IOrganizationService Entities](org-service/organization-service-entities.md). [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]
+
+ You can specify multiple mentions in this attribute. To retrieve data contained in the mention, parse the string in the `Text` attribute to search for the “@[“ characters that separate mentions from other mentions or text.
+
+ For additional information about post mentions, see [Blog Post: How to do Mentions with Activity Feeds](https://blogs.msdn.com/b/crm/archive/2011/10/31/how-to-do-mentions-with-activity-feeds.aspx).
+
+<a name="BKMK_DisplayingData"></a>
+## Displaying data on the record wall or personal wall
+ To retrieve posts for displaying on a record wall or a personal wall, you can use the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> message or <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> message. However, to retrieve pages of posts with associated comments and likes in one single call, you can use special activity feeds messages.
+
+ To retrieve pages of posts with associated comments and likes for a record wall, use the <xref:Microsoft.Crm.Sdk.Messages.RetrieveRecordWallRequest> message. To retrieve pages of posts with associated comments and likes for a personal wall, use the <xref:Microsoft.Crm.Sdk.Messages.RetrievePersonalWallRequest> message.
+
+ The following posts with comments are displayed on the **Record Wall:**
+
+- Posts that are regarding a record. The record ID is specified in the `Post.RegardingObjectId` attribute.
+
+- Posts that mention a record. The record ID is specified within the `Post.Text` attribute.
+
+- For a system user (user) record, the wall also includes the posts that the user created. The `Post.RegardingObjectId` attribute contains the current user ID.
+
+  The following posts with comments are displayed on the **Your (User) Personal Wall** (**What’s New** in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]) apps:
+
+- Posts that are regarding you. The `Post.RegardingObjectId` attribute contains your user ID.
+
+- Posts that mention you. Your user ID is specified within the `Post.Text` attribute.
+
+- Posts that are regarding a record or that mention a record that you follow.
+
+> [!NOTE]
+>  You can only follow the records on which you have read privileges and access rights. If you lose read permissions, a follow is automatically removed. All [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users automatically follow themselves. You can only see the posts that are regarding the records or mention the records on which you have read privileges and access rights.
+
+ If you create the `PostFollow` record for the account A and set the `OwnerId` on the `PostFollow` to the user B, then the user B follows the account A.
+
+ For more information about the role-based and record-based security, see, [The Security Model of Dynamics 365 for Customer Engagement apps](security-dev/security-model.md).
+
+### See also
+ [Activity Feeds Entities](activity-feeds-entities.md)
+ <xref:Microsoft.Crm.Sdk.Messages.RetrieveRecordWallRequest>
+ <xref:Microsoft.Crm.Sdk.Messages.RetrievePersonalWallRequest>
+ [Configure Activity Feeds](configure-activity-feeds.md)
+ [Connect to Yammer](connect-yammer.md)
+ [Sample: Collaborate with Activity Feeds](sample-collaborate-with-activity-feeds.md)
+ [Blog Post: Working with Activity Feed using Microsoft CRM SDK](https://blogs.msdn.com/b/crm/archive/2011/10/31/working-with-activity-feed-using-microsoft-crm-sdk1.aspx)
+ [Blog Post: How to do Mentions with Activity Feeds](https://blogs.msdn.com/b/crm/archive/2011/10/31/how-to-do-mentions-with-activity-feeds.aspx)
+ [Blog Post: Displaying a Contact’s Facebook Picture in Microsoft Dynamics CRM 2011](https://blogs.msdn.com/b/crm/archive/2011/09/28/displaying-a-contact-s-facebook-picture-in-microsoft-dynamics-crm-2011.aspx)
+ [Blog Post: Data management for Activity Feeds entities](https://blogs.msdn.com/b/crm/archive/2011/11/18/data-management-for-activity-feeds-entities.aspx)
+ [Blog Post: How to Add a Record Wall to a Form](https://blogs.msdn.com/b/crm/archive/2011/11/09/how-to-add-a-record-wall-to-a-form.aspx)
+ [Blog Post: Activity Feeds Solution & Development Environment](https://blogs.msdn.com/b/crm/archive/2012/01/26/activity-feeds-solution-amp-development-environment.aspx)
