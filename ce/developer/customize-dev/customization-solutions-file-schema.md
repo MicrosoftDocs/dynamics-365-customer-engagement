@@ -1,46 +1,46 @@
 ---
 title: "Customization solutions file schema | MicrosoftDocs"
 description: "The following is the schema definition for an import/export customization file from Dynamics 365 for Customer Engagement."
-ms.custom: 
+ms.custom:
 ms.date: 12/24/2018
-ms.reviewer: 
+ms.reviewer:
 ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: article
-applies_to: 
+applies_to:
   - Dynamics 365 for Customer Engagement (online)
-helpviewer_keywords: 
+helpviewer_keywords:
   - schemas
 ms.assetid: 71e3e594-0240-4af1-99b4-135042b7a000
 caps.latest.revision: 19
 author: JimDaly
 ms.author: jdaly
 manager: annbe
-search.audienceType: 
+search.audienceType:
   - developer
-search.app: 
+search.app:
   - D365CE
 ---
 # Customization solutions file schema
 
-The following is the schema definition for an import/export customization file from [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. Note that this file includes the following schemas:  
-  
--   [ISV Configuration File Schema](isv-configuration-file-schema.md)  
-  
--   [SiteMapSchema](sitemap-schema.md)  
-  
+The following is the schema definition for an import/export customization file from [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. Note that this file includes the following schemas:
+
+-   [ISV Configuration File Schema](isv-configuration-file-schema.md)
+
+-   [SiteMapSchema](sitemap-schema.md)
+
 -   [Ribbon Core Schema](ribbon-core-schema.md)
 
 You can find schema  in the `Schemas\9.0.0.2090\CustomizationsSolution.xsd` folder when you download the Schemas zip file.
 
-Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
+Download the [Schemas](https://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
 
   For more information, see [Package and Distribute Extensions with Dynamics 365 for Customer Engagement Solutions](../package-distribute-extensions-use-solutions.md).
-  
-## Schema  
-  
-```xml  
+
+## Schema
+
+```xml
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<xs:include schemaLocation="isv.config.xsd" />
@@ -403,8 +403,8 @@ Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E4
 	</xs:complexType>
 	<xs:complexType name="entitydatasourcetype">
 		<xs:sequence>
-			<xs:element name="Name" type="xs:string" minOccurs="0" maxOccurs="1" />	  
-			<xs:element name="ConnectionDefinition" type="xs:string" minOccurs="0" maxOccurs="1" />			
+			<xs:element name="Name" type="xs:string" minOccurs="0" maxOccurs="1" />
+			<xs:element name="ConnectionDefinition" type="xs:string" minOccurs="0" maxOccurs="1" />
 			<xs:element name="EntityDataProviderId" type="GuidType" minOccurs="1" maxOccurs="1" />
 			<xs:element name="IsCustomizable" type="TrueFalse01Type" minOccurs="0" maxOccurs="1" />
 	</xs:sequence>
@@ -1376,7 +1376,7 @@ Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E4
 									</xs:element>
 								</xs:sequence>
 							</xs:complexType>
-						</xs:element>						
+						</xs:element>
 						<xs:element name="labels" minOccurs="0" maxOccurs="1" type="WorkflowLabelsType" />
 						<xs:element name="ProcessTriggers" type="ProcessTriggersType" minOccurs="0" maxOccurs="1" />
 					</xs:sequence>
@@ -2404,12 +2404,12 @@ Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E4
 						<xs:element name="StatusCode" type="xs:int" minOccurs="1" maxOccurs="1"></xs:element>
 						<xs:element name="StateCode" type="xs:int" minOccurs="1" maxOccurs="1"></xs:element>
 						<xs:element name="AppConfigInstances" type="AppConfigInstancesType" minOccurs="0" maxOccurs="1" />
-						<xs:element name="NavigationSettings" type="NavigationSettingsType" minOccurs="0" maxOccurs="1" />				
+						<xs:element name="NavigationSettings" type="NavigationSettingsType" minOccurs="0" maxOccurs="1" />
 					</xs:all>
 				</xs:complexType>
-			</xs:element>			
+			</xs:element>
 			<xs:element name="LocalizedNames" type="LocalizedNamesType" minOccurs="1" maxOccurs="1" />
-			<xs:element name="Descriptions" type="DescriptionsType" minOccurs="0" maxOccurs="1" />			
+			<xs:element name="Descriptions" type="DescriptionsType" minOccurs="0" maxOccurs="1" />
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="AppModuleComponentType">
@@ -2489,12 +2489,12 @@ Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E4
 				</xs:complexType>
 			</xs:element>
 		</xs:sequence>
-	</xs:complexType>	
+	</xs:complexType>
 </xs:schema>
-```  
-  
-### See also  
- [When to Edit the Customizations File for Dynamics 365 for Customer Engagement](when-edit-customization-file.md)   
- [Create, Install, and Update a Managed Solution](../create-install-update-managed-solution.md)   
- [Create, Export, or Import an Unmanaged Solution](../create-export-import-unmanaged-solution.md)   
+```
+
+### See also
+ [When to Edit the Customizations File for Dynamics 365 for Customer Engagement](when-edit-customization-file.md)
+ [Create, Install, and Update a Managed Solution](../create-install-update-managed-solution.md)
+ [Create, Export, or Import an Unmanaged Solution](../create-export-import-unmanaged-solution.md)
  [Customization XML Reference](../customization-xml-reference.md)

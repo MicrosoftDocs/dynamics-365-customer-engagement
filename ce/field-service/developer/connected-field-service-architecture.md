@@ -1,16 +1,16 @@
 ---
 title: "Connected Field Service with IoTHub Architecture | MicrosoftDocs"
-ms.custom: 
+ms.custom:
  :dyn365-fieldservice
 ms.date: 04/19/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
-ms.technology: 
+ms.technology:
  :"field-service"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
+applies_to:
  :"Dynamics 365 (online)"
  :"Dynamics 365 Version 9.x"
 author: gregdegruy
@@ -18,10 +18,10 @@ ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
+search.audienceType:
  :admin
  :customizer
-search.app: 
+search.app:
  :D365CE
  :D365FS
 ---
@@ -34,7 +34,7 @@ Connected Field Service with IoTHub brings together AzureIoT and Dynamics 365 fo
 
 To understand what's covered in this topic, you need to know that Connected Field Service (CFS) refers to a set of solutions, entities, and processes built on top of the Dynamics 365 for Field Service app. As of Field Service v8.3+, CFS is included as part of Field Service.
 
-For this topic, the words **data** and **telemetry** refer to information sent from an IoT device to the cloud. The words **devices** and **sensors** refer to internet-connected things like thermometers, gyroscopes, magnetometers, pressure readers, and more that take specific measurements. An **asset** is a piece of equipment that can have one or more sensors connected to it.  
+For this topic, the words **data** and **telemetry** refer to information sent from an IoT device to the cloud. The words **devices** and **sensors** refer to internet-connected things like thermometers, gyroscopes, magnetometers, pressure readers, and more that take specific measurements. An **asset** is a piece of equipment that can have one or more sensors connected to it.
 
 ## Architecture
 
@@ -70,8 +70,8 @@ For this topic, the words **data** and **telemetry** refer to information sent f
 - **Logic App Dynamics to Azure**: The reverse of the previously explained Logic App, this adds detail to data and actions that need to be sent to IoTHub from Dynamics. IoTHub will then send the data or action to the connected device.
 
 
-## Component data flow diagram  
- A data flow between the Azure IoT Hub and Connected Field Services components is detailed in this [downloadable diagram](http://download.microsoft.com/download/3/A/7/3A744B76-3E04-49F5-A30B-938400CEB73E/AzureIoTCfsDataFlowDiagram.jpg). It details each information flow, its flow direction and relative order for a standard installation of [!INCLUDE[pn_connected_field_service_msdyn365](../../includes/pn-connected-field-service-msdyn365.md)].  
+## Component data flow diagram
+ A data flow between the Azure IoT Hub and Connected Field Services components is detailed in this [downloadable diagram](https://download.microsoft.com/download/3/A/7/3A744B76-3E04-49F5-A30B-938400CEB73E/AzureIoTCfsDataFlowDiagram.jpg). It details each information flow, its flow direction and relative order for a standard installation of [!INCLUDE[pn_connected_field_service_msdyn365](../../includes/pn-connected-field-service-msdyn365.md)].
 
 ### See also
 

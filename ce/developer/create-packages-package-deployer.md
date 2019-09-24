@@ -1,202 +1,202 @@
 ---
 title: "Create packages for the Dynamics 365 for Customer Engagement Package deployer (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
-ms.custom: 
+ms.custom:
 ms.date: 01/25/2019
 ms.reviewer: "pehecke"
 ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: article
-applies_to: 
+applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 8def31d9-ee2a-4527-a29a-f16b53fc9229
 caps.latest.revision: 59
 author: KumarVivek
 ms.author: kvivek
 manager: amyla
-search.audienceType: 
+search.audienceType:
   - developer
-search.app: 
+search.app:
   - D365CE
 ---
 # Create packages for the Dynamics 365 for Customer Engagement Package deployer
 
-[!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] lets administrators       deploy packages on [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] apps instance. A “package” can consist of any or all of the following:  
+[!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] lets administrators       deploy packages on [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] apps instance. A “package” can consist of any or all of the following:
 
-- One or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps solution files.  
+- One or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps solution files.
 
-- Flat files or exported configuration data file from the Configuration Migration tool. For more information about the tool, see [Manage your configuration data](https://technet.microsoft.com/library/dn647421.aspx).  
+- Flat files or exported configuration data file from the Configuration Migration tool. For more information about the tool, see [Manage your configuration data](https://technet.microsoft.com/library/dn647421.aspx).
 
-- Custom code that can run before, while, or after the package is deployed to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance.  
+- Custom code that can run before, while, or after the package is deployed to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance.
 
-- HTML content specific to the package that can display at the beginning and end of the deployment process. This can be useful to provide a description of the solutions and files that are deployed in the package.  
+- HTML content specific to the package that can display at the beginning and end of the deployment process. This can be useful to provide a description of the solutions and files that are deployed in the package.
 
-[!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] 
+[!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps provide you with a [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] template for creating these packages that can be used with the Package Deployer tool to deploy them to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance.
 
-<a name="Prereq"></a>   
-## Prerequisites  
+<a name="Prereq"></a>
+## Prerequisites
 
-- Ensure that you have all the solutions and files ready that you want to include in the package.  
+- Ensure that you have all the solutions and files ready that you want to include in the package.
 
-- Microsoft .NET Framework 4.6.2  
+- Microsoft .NET Framework 4.6.2
 
-- [!INCLUDE[pn_microsoft_visual_studio_2012](../includes/pn-microsoft-visual-studio-2012.md)], [!INCLUDE[pn_visual_studio_2013](../includes/pn-visual-studio-2013.md)], or [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)]  
+- [!INCLUDE[pn_microsoft_visual_studio_2012](../includes/pn-microsoft-visual-studio-2012.md)], [!INCLUDE[pn_visual_studio_2013](../includes/pn-visual-studio-2013.md)], or [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)]
 
-- [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
+- [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](https://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](https://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)
 
-- Microsoft Dynamics 365 for Customer Engagement apps SDK Templates for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the package template. You can get it by downloading the [Microsoft Dynamics 365 for Customer Engagement apps SDK Templates](http://go.microsoft.com/fwlink/p/?LinkId=400925) and double-click the `CRMSDKTemplates.vsix` file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+- Microsoft Dynamics 365 for Customer Engagement apps SDK Templates for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the package template. You can get it by downloading the [Microsoft Dynamics 365 for Customer Engagement apps SDK Templates](https://go.microsoft.com/fwlink/p/?LinkId=400925) and double-click the `CRMSDKTemplates.vsix` file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].
 
 
 
-<a name="HowTo"></a>   
-## Create a package  
- Perform the following five steps to create a package:  
+<a name="HowTo"></a>
+## Create a package
+ Perform the following five steps to create a package:
 
- [Step 1: Create a project using the template](create-packages-package-deployer.md#Step1)  
+ [Step 1: Create a project using the template](create-packages-package-deployer.md#Step1)
 
- [Step 2: Add your files to the project](create-packages-package-deployer.md#Step2)  
+ [Step 2: Add your files to the project](create-packages-package-deployer.md#Step2)
 
- [Step 3: Update the HTML files](create-packages-package-deployer.md#Step3)  
+ [Step 3: Update the HTML files](create-packages-package-deployer.md#Step3)
 
- [Step 4: Specify the configuration values for the package](create-packages-package-deployer.md#Step4)  
+ [Step 4: Specify the configuration values for the package](create-packages-package-deployer.md#Step4)
 
- [Step 5: Define custom code for your package](create-packages-package-deployer.md#Step5)  
+ [Step 5: Define custom code for your package](create-packages-package-deployer.md#Step5)
 
-<a name="Step1"></a>   
-#### Step 1: Create a project using the template  
+<a name="Step1"></a>
+#### Step 1: Create a project using the template
 
-1. Start [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)], and create a new project.  
+1. Start [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)], and create a new project.
 
-2. In the **New Project** dialog box:  
+2. In the **New Project** dialog box:
 
-   1. From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 for Customer Engagement apps SDK Templates**.  
+   1. From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 for Customer Engagement apps SDK Templates**.
 
-   2. Ensure that **.NET Framework 4.6.2** is selected.  
+   2. Ensure that **.NET Framework 4.6.2** is selected.
 
-   3. Select **Dynamics 365 for Customer Engagement Package**.  
+   3. Select **Dynamics 365 for Customer Engagement Package**.
 
-   4. Specify the name and location of the project, and click **OK**.  
+   4. Specify the name and location of the project, and click **OK**.
 
-   ![New project for creating a custom package](media/crm-sdkv6-packagedeployer-01.png "New project for creating a custom package")  
+   ![New project for creating a custom package](media/crm-sdkv6-packagedeployer-01.png "New project for creating a custom package")
 
-<a name="Step2"></a>   
-#### Step 2: Add your files to the project  
+<a name="Step2"></a>
+#### Step 2: Add your files to the project
 
-1.  In the **Solutions Explorer** pane, add your solutions and files under the **PkgFolder** folder.  
+1.  In the **Solutions Explorer** pane, add your solutions and files under the **PkgFolder** folder.
 
-2.  For each file that you add under the **PkgFolder** folder, in the **Properties** pane, set the **Copy to Output Directory** value to **Copy Always**.                 This ensures that your file is available in the generated package.  
+2.  For each file that you add under the **PkgFolder** folder, in the **Properties** pane, set the **Copy to Output Directory** value to **Copy Always**.                 This ensures that your file is available in the generated package.
 
-<a name="Step3"></a>   
-#### Step 3: Update the HTML files: English and other languages  
+<a name="Step3"></a>
+#### Step 3: Update the HTML files: English and other languages
 
-1.  In the Solution Explorer pane, expand **PkgFolder** > **Content** > **en-us**. You’ll find two folders called EndHTML and WelcomeHTML. These folders contain the                 HTML and associated files that enable you to display information at the end and beginning of the package deployment process. Edit the                 files in the HTML folder of these folders to add information for your package.  
+1.  In the Solution Explorer pane, expand **PkgFolder** > **Content** > **en-us**. You’ll find two folders called EndHTML and WelcomeHTML. These folders contain the                 HTML and associated files that enable you to display information at the end and beginning of the package deployment process. Edit the                 files in the HTML folder of these folders to add information for your package.
 
-2.  You can also add the HTML files in your package in other languages so that the content in the HTML appears in the language based on the locale settings of the user’s computer. To do so:  
+2.  You can also add the HTML files in your package in other languages so that the content in the HTML appears in the language based on the locale settings of the user’s computer. To do so:
 
-    1.  Create a copy of the **en-us** folder under **PkgFolder** > **Content**.  
+    1.  Create a copy of the **en-us** folder under **PkgFolder** > **Content**.
 
-    2.  Rename the copied folder to the appropriate language. For example, for the Spanish language, rename it to **es-ES**.  
+    2.  Rename the copied folder to the appropriate language. For example, for the Spanish language, rename it to **es-ES**.
 
-    3.  Modify the content of the HTML files to add Spanish content.  
+    3.  Modify the content of the HTML files to add Spanish content.
 
-<a name="Step4"></a>   
-#### Step 4: Specify the configuration values for the package  
+<a name="Step4"></a>
+#### Step 4: Specify the configuration values for the package
 
-1. Define the package configuration by adding information about your package in the **ImportConfig.xml** file available in the **PkgFolder**. Double-click the file to open it for editing. The following list provides information about each parameter and node in the config file.  
+1. Define the package configuration by adding information about your package in the **ImportConfig.xml** file available in the **PkgFolder**. Double-click the file to open it for editing. The following list provides information about each parameter and node in the config file.
 
-    installsampledata  
-    `True` or `false`. If `true`, installs sample data to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. This is the same sample data that you can install from **Settings** > **Data Management** area in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+    installsampledata
+    `True` or `false`. If `true`, installs sample data to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. This is the same sample data that you can install from **Settings** > **Data Management** area in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
 
-    waitforsampledatatoinstall  
-   **True** or **false**. If **true**, and if **installsampledata** is also set to **true**, waits for sample data to install before deploying the package.  
+    waitforsampledatatoinstall
+   **True** or **false**. If **true**, and if **installsampledata** is also set to **true**, waits for sample data to install before deploying the package.
 
    > [!NOTE]
-   >  Ensure that you set **installsampledata** to **true** if you are setting `waitforsampledatatoinstall` to **true**.  
+   >  Ensure that you set **installsampledata** to **true** if you are setting `waitforsampledatatoinstall` to **true**.
 
-    agentdesktopzipfile  
-    File name of the zip file to unpack. If you specify a .zip file name here, it adds a screen during the package deployment process that prompts you to                         select a location where you want to unpack the contents of the file.  
+    agentdesktopzipfile
+    File name of the zip file to unpack. If you specify a .zip file name here, it adds a screen during the package deployment process that prompts you to                         select a location where you want to unpack the contents of the file.
 
-    This is commonly used for creating packages for [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)]. For information about [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Unified Service Desk Administration Guide](https://technet.microsoft.com/library/dn499779.aspx).  
+    This is commonly used for creating packages for [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)]. For information about [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Unified Service Desk Administration Guide](https://technet.microsoft.com/library/dn499779.aspx).
 
-    agentdesktopexename  
-    Name of the .exe or .msi file in the zip file or a URL to be invoked at the end of the deployment process.  
+    agentdesktopexename
+    Name of the .exe or .msi file in the zip file or a URL to be invoked at the end of the deployment process.
 
-    This is commonly used for creating packages for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+    This is commonly used for creating packages for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].
 
-    crmmigdataimportfile  
-    File name of the default configuration data file (.zip) exported using the Configuration Migration tool.  
+    crmmigdataimportfile
+    File name of the default configuration data file (.zip) exported using the Configuration Migration tool.
 
-   - You can also import a localized version of the configuration data file based on the locale ID (LCID) specified using new runtime settings while running                             the package deployer. Use the `<cmtdatafile>` node (explained later) to specify the localized versions of the                             configuration data file in a package and then use the  `OverrideConfigurationDataFileLanguage` method (explained later)                             to specify the logic for importing the configuration data file based on the locale ID specified using the runtime settings. You cannot import more than                             one configuration data file using a package at a time.  
+   - You can also import a localized version of the configuration data file based on the locale ID (LCID) specified using new runtime settings while running                             the package deployer. Use the `<cmtdatafile>` node (explained later) to specify the localized versions of the                             configuration data file in a package and then use the  `OverrideConfigurationDataFileLanguage` method (explained later)                             to specify the logic for importing the configuration data file based on the locale ID specified using the runtime settings. You cannot import more than                             one configuration data file using a package at a time.
 
-   - For [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (on-premises) apps, if your configuration data file contains user information, and both the source and target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instances are on the same Active Directory Domain, user information will be imported to the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance. To import user information to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (on-premises) apps instance on a different domain, you must include the user map file (.xml) generated using the Configuration Migration tool in your project, and specify it along with the configuration data file using the `usermapfilename` attribute in the `<cmtdatafile>` node explained later. User information cannot be imported to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] apps instance.  
+   - For [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (on-premises) apps, if your configuration data file contains user information, and both the source and target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instances are on the same Active Directory Domain, user information will be imported to the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance. To import user information to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (on-premises) apps instance on a different domain, you must include the user map file (.xml) generated using the Configuration Migration tool in your project, and specify it along with the configuration data file using the `usermapfilename` attribute in the `<cmtdatafile>` node explained later. User information cannot be imported to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] apps instance.
 
-     `<solutions>` node  
-     Contains an array of `<configsolutionfile>` nodes that describe the solutions to import. The order of the solutions under this                         node indicates the order in which the solutions will be imported on the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance.  
+     `<solutions>` node
+     Contains an array of `<configsolutionfile>` nodes that describe the solutions to import. The order of the solutions under this                         node indicates the order in which the solutions will be imported on the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance.
 
-     `<configsolutionfile>` node  
-     Use this node under the `<solutions>` node to specify the individual solutions and the following information for each solution to be imported:  
+     `<configsolutionfile>` node
+     Use this node under the `<solutions>` node to specify the individual solutions and the following information for each solution to be imported:
 
-   - `solutionpackagefilename`: Specify the .zip file name of your solution. Required.  
+   - `solutionpackagefilename`: Specify the .zip file name of your solution. Required.
 
-   - `overwriteunmanagedcustomizations`: Specify whether to overwrite any unmanaged customizations when importing a solution that already exists in the target Dynamics 365 for Customer Engagement apps instance. This is optional, and if you do not specify this attribute, by default the unmanaged customizations in the existing solution are maintained on the target Dynamics 365 for Customer Engagement apps instance.  
+   - `overwriteunmanagedcustomizations`: Specify whether to overwrite any unmanaged customizations when importing a solution that already exists in the target Dynamics 365 for Customer Engagement apps instance. This is optional, and if you do not specify this attribute, by default the unmanaged customizations in the existing solution are maintained on the target Dynamics 365 for Customer Engagement apps instance.
 
-   - `publishworkflowsandactivateplugins`: Specify whether to publish workflows and activate plug-ins in the target Dynamics 365 for Customer Engagement apps instance after the solution is imported. This is optional, and if you do not specify not specify this attribute, by default the workflows are published and plug-ins are activated after the solution is imported on the target Dynamics 365 for Customer Engagement apps instance.  
+   - `publishworkflowsandactivateplugins`: Specify whether to publish workflows and activate plug-ins in the target Dynamics 365 for Customer Engagement apps instance after the solution is imported. This is optional, and if you do not specify not specify this attribute, by default the workflows are published and plug-ins are activated after the solution is imported on the target Dynamics 365 for Customer Engagement apps instance.
 
-     You can add multiple solution file names in a package by adding as many `<configsolutionfile>` nodes. For example, if you want three solution files to be imported, add them like this:  
+     You can add multiple solution file names in a package by adding as many `<configsolutionfile>` nodes. For example, if you want three solution files to be imported, add them like this:
 
-   ```xml  
+   ```xml
 
-   <solutions>  
-   <configsolutionfile solutionpackagefilename="SampleSolutionOne_1_0_managed.zip"  
-   overwriteunmanagedcustomizations="false"  
-   publishworkflowsandactivateplugins="true"/>  
-   <configsolutionfile solutionpackagefilename="SampleSolutionTwo_1_0_managed.zip"  
-   overwriteunmanagedcustomizations="false"  
-   publishworkflowsandactivateplugins="true"/>  
-   <configsolutionfile solutionpackagefilename="SampleSolutionThree_1_0_managed.zip" />  
-   </solutions>  
+   <solutions>
+   <configsolutionfile solutionpackagefilename="SampleSolutionOne_1_0_managed.zip"
+   overwriteunmanagedcustomizations="false"
+   publishworkflowsandactivateplugins="true"/>
+   <configsolutionfile solutionpackagefilename="SampleSolutionTwo_1_0_managed.zip"
+   overwriteunmanagedcustomizations="false"
+   publishworkflowsandactivateplugins="true"/>
+   <configsolutionfile solutionpackagefilename="SampleSolutionThree_1_0_managed.zip" />
+   </solutions>
 
-   ```  
+   ```
 
-    `<filestoimportnode>` node  
-    Contains an array of `<configimportfile>` and `<zipimportdetails>` nodes that are used to describe                         individual files and zip files respectively to be imported.  
+    `<filestoimportnode>` node
+    Contains an array of `<configimportfile>` and `<zipimportdetails>` nodes that are used to describe                         individual files and zip files respectively to be imported.
 
-    `<configimportfile>` node  
-    Use this node under the `<configimportfile>` node to describe a file to be imported to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You can add multiple                         files in a package by adding as many `<configimportfile>` nodes.  
+    `<configimportfile>` node
+    Use this node under the `<configimportfile>` node to describe a file to be imported to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You can add multiple                         files in a package by adding as many `<configimportfile>` nodes.
 
-   ```xml  
+   ```xml
 
-   <filestoimport>  
-   <configimportfile filename="File.csv"  
-   filetype="CSV"  
-   associatedmap="FileMap"  
-   importtoentity="FileEntity"  
-   datadelimiter=""  
-   fielddelimiter="comma"  
-   enableduplicatedetection="true"  
-   isfirstrowheader="true"  
-   isrecordownerateam="false"  
-   owneruser=""  
-   waitforimporttocomplete="true" />  
-   <configimportfile filename="File.zip"  
-   filetype="ZIP"  
-   associatedmap="FileMapName"  
-   importtoentity="FileEntity"  
-   datadelimiter=""  
-   fielddelimiter="comma"  
-   enableduplicatedetection="true"  
-   isfirstrowheader="true"  
-   isrecordownerateam="false"  
-   owneruser=""  
-   waitforimporttocomplete="true"/>  
+   <filestoimport>
+   <configimportfile filename="File.csv"
+   filetype="CSV"
+   associatedmap="FileMap"
+   importtoentity="FileEntity"
+   datadelimiter=""
+   fielddelimiter="comma"
+   enableduplicatedetection="true"
+   isfirstrowheader="true"
+   isrecordownerateam="false"
+   owneruser=""
+   waitforimporttocomplete="true" />
+   <configimportfile filename="File.zip"
+   filetype="ZIP"
+   associatedmap="FileMapName"
+   importtoentity="FileEntity"
+   datadelimiter=""
+   fielddelimiter="comma"
+   enableduplicatedetection="true"
+   isfirstrowheader="true"
+   isrecordownerateam="false"
+   owneruser=""
+   waitforimporttocomplete="true"/>
 
-   </filestoimport>  
+   </filestoimport>
 
-   ```  
+   ```
 
-    This has the following attributes:  
+    This has the following attributes:
 
 
    |         Attribute          |                                                                                                       Description                                                                                                       |
@@ -213,183 +213,183 @@ search.app:
    |        `owneruser`         |                                                          Indicates the user ID that should own the records. The default value is the currently logged in user.                                                          |
    | `waitforimporttocomplete`  |                                                 If `true`, the system waits for the import to complete before proceeding. If `false`, it queues the jobs and moves on.                                                  |
 
-    `<zipimportdetails>` node  
-    This node contains an array of `<zipimportdetail>` nodes that describe the files included in a zip file that is used to import to Dynamics 365 for Customer Engagement apps.  
+    `<zipimportdetails>` node
+    This node contains an array of `<zipimportdetail>` nodes that describe the files included in a zip file that is used to import to Dynamics 365 for Customer Engagement apps.
 
-    `<zipimportdetail>` node  
-    Use this node under the `<zipimportdetails>` node to provide information about an individual file in a .zip file that is specified in the                         `<configimportfile>` node.  
+    `<zipimportdetail>` node
+    Use this node under the `<zipimportdetails>` node to provide information about an individual file in a .zip file that is specified in the                         `<configimportfile>` node.
 
-   ```xml  
+   ```xml
 
-   <filestoimport>  
-   ...  
-   ...  
-   <zipimportdetails>  
-   <zipimportdetail filename="subfile1.csv" filetype="csv" importtoentity="account" />  
-   <zipimportdetail filename="subfile2.csv" filetype="csv" importtoentity="contact" />  
-   </zipimportdetails>  
-   </filestoimport>  
+   <filestoimport>
+   ...
+   ...
+   <zipimportdetails>
+   <zipimportdetail filename="subfile1.csv" filetype="csv" importtoentity="account" />
+   <zipimportdetail filename="subfile2.csv" filetype="csv" importtoentity="contact" />
+   </zipimportdetails>
+   </filestoimport>
 
-   ```  
+   ```
 
-    This has the following attributes:  
+    This has the following attributes:
 
-   |Attribute|Description|  
-   |---------------|-----------------|  
-   |`filename`|Name of the file that contains the import data.|  
-   |`filetype`|This can be csv or xml.|  
-   |`importtoentity`|Can be the name of the exe in the zip file, a url, or an .msi file to provide a link to invoke at the end of the process.|  
+   |Attribute|Description|
+   |---------------|-----------------|
+   |`filename`|Name of the file that contains the import data.|
+   |`filetype`|This can be csv or xml.|
+   |`importtoentity`|Can be the name of the exe in the zip file, a url, or an .msi file to provide a link to invoke at the end of the process.|
 
-    `<filesmapstoimport>` node  
-    This node contains an array of `<configmapimportfile>` nodes to import. The order of the map files in this node indicates the order in                         which they are imported. For information about data maps, see [Create Data Maps for Import](create-data-maps-for-import.md).  
+    `<filesmapstoimport>` node
+    This node contains an array of `<configmapimportfile>` nodes to import. The order of the map files in this node indicates the order in                         which they are imported. For information about data maps, see [Create Data Maps for Import](create-data-maps-for-import.md).
 
-    `<configimportmapfile>` node  
-    Use this node under the `<filesmapstoimport>` node to provide information about an individual map file to import in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+    `<configimportmapfile>` node
+    Use this node under the `<filesmapstoimport>` node to provide information about an individual map file to import in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
 
-   ```xml  
+   ```xml
 
-   <filesmapstoimport>  
-   <configimportmapfile filename="FileMap.xml" />  
-   </filesmapstoimport>  
+   <filesmapstoimport>
+   <configimportmapfile filename="FileMap.xml" />
+   </filesmapstoimport>
 
-   ```  
+   ```
 
-    `<cmtdatafiles>` node  
-    This node contains an array of `<cmtdatafile>` nodes that containslocalized version of the configuration data file to be imported.  
+    `<cmtdatafiles>` node
+    This node contains an array of `<cmtdatafile>` nodes that containslocalized version of the configuration data file to be imported.
 
-    `<cmtdatafile>` node  
-    Use this node under the `<cmtdatafiles>` node to specify the localized configuration                         data files along with                         locale ID (required) and user information map file (optional). For example:  
+    `<cmtdatafile>` node
+    Use this node under the `<cmtdatafiles>` node to specify the localized configuration                         data files along with                         locale ID (required) and user information map file (optional). For example:
 
-   ```xml  
+   ```xml
 
-   <cmtdatafiles>  
-   <cmtdatafile filename="data_1033.zip" lcid="1033" usermapfilename="UserMap.xml" />  
-   <cmtdatafile filename="data_1041.zip" lcid="1041" usermapfilename="" />  
-   </cmtdatafiles>  
+   <cmtdatafiles>
+   <cmtdatafile filename="data_1033.zip" lcid="1033" usermapfilename="UserMap.xml" />
+   <cmtdatafile filename="data_1041.zip" lcid="1041" usermapfilename="" />
+   </cmtdatafiles>
 
-   ```  
+   ```
 
-    You can define your custom logic in the `OverrideConfigurationDataFileLanguage` method (explained later) to import  a localized                         configuration data file instead of the default one (specified in crmmigdataimportfile) based on the locale ID (LCID) value                         specified using the runtime settings (explained later).  
+    You can define your custom logic in the `OverrideConfigurationDataFileLanguage` method (explained later) to import  a localized                         configuration data file instead of the default one (specified in crmmigdataimportfile) based on the locale ID (LCID) value                         specified using the runtime settings (explained later).
 
-2. Click **Save All**.  
+2. Click **Save All**.
 
-    The following represents the contents of a sample `ImportConfig.xml` file.  
+    The following represents the contents of a sample `ImportConfig.xml` file.
 
-   ```xml  
+   ```xml
 
-   <?xml version="1.0" encoding="utf-16"?>  
-   <configdatastorage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
-   xmlns:xsd="http://www.w3.org/2001/XMLSchema"  
-   installsampledata="true"  
-   waitforsampledatatoinstall="true"  
-   agentdesktopzipfile=""  
-   agentdesktopexename=""  
-   crmmigdataimportfile="data_1033.zip">  
-   <solutions>  
-   <configsolutionfile solutionpackagefilename="SampleSolutionOne_1_0_managed.zip"  
-   overwriteunmanagedcustomizations="false"  
-   publishworkflowsandactivateplugins="true"/>  
-   <configsolutionfile solutionpackagefilename="SampleSolutionTwo_1_0_managed.zip"  
-   overwriteunmanagedcustomizations="false"  
-   publishworkflowsandactivateplugins="true"/>  
-   <configsolutionfile solutionpackagefilename="SampleSolutionThree_1_0_managed.zip" />  
-   </solutions>  
-   <filestoimport>  
-   <configimportfile filename="SampleOption.csv"  
-   filetype="CSV"  
-   associatedmap="SampleOption"  
-   importtoentity="sample_option"  
-   datadelimiter=""  
-   fielddelimiter="comma"  
-   enableduplicatedetection="true"  
-   isfirstrowheader="true"  
-   isrecordownerateam="false"  
-   owneruser=""  
-   waitforimporttocomplete="false"/>  
-   <configimportfile filename="File.zip"  
-   filetype="ZIP"  
-   associatedmap="FileMapName"  
-   importtoentity="FileEntity"  
-   datadelimiter=""  
-   fielddelimiter="comma"  
-   enableduplicatedetection="true"  
-   isfirstrowheader="true"  
-   isrecordownerateam="false"  
-   owneruser=""  
-   waitforimporttocomplete="true"/>  
-   <zipimportdetails>  
-   <zipimportdetail filename="subfile1.csv"  
-   filetype="csv"  
-   importtoentity="account" />  
-   <zipimportdetail filename="subfile2.csv"  
-   filetype="csv"  
-   importtoentity="contact" />  
-   </zipimportdetails>  
-   </filestoimport>  
-   <filesmapstoimport>  
-   <configimportmapfile filename="SampleOption.xml" />  
-   </filesmapstoimport>  
-   <cmtdatafiles>  
-   <cmtdatafile filename="data_1033.zip"  
-   lcid="1033"  
-   usermapfilename="UserMap.xml" />  
-   <cmtdatafile filename="data_1041.zip"  
-   lcid="1041"  
-   usermapfilename="" />  
-   </cmtdatafiles>  
-   </configdatastorage>  
+   <?xml version="1.0" encoding="utf-16"?>
+   <configdatastorage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   installsampledata="true"
+   waitforsampledatatoinstall="true"
+   agentdesktopzipfile=""
+   agentdesktopexename=""
+   crmmigdataimportfile="data_1033.zip">
+   <solutions>
+   <configsolutionfile solutionpackagefilename="SampleSolutionOne_1_0_managed.zip"
+   overwriteunmanagedcustomizations="false"
+   publishworkflowsandactivateplugins="true"/>
+   <configsolutionfile solutionpackagefilename="SampleSolutionTwo_1_0_managed.zip"
+   overwriteunmanagedcustomizations="false"
+   publishworkflowsandactivateplugins="true"/>
+   <configsolutionfile solutionpackagefilename="SampleSolutionThree_1_0_managed.zip" />
+   </solutions>
+   <filestoimport>
+   <configimportfile filename="SampleOption.csv"
+   filetype="CSV"
+   associatedmap="SampleOption"
+   importtoentity="sample_option"
+   datadelimiter=""
+   fielddelimiter="comma"
+   enableduplicatedetection="true"
+   isfirstrowheader="true"
+   isrecordownerateam="false"
+   owneruser=""
+   waitforimporttocomplete="false"/>
+   <configimportfile filename="File.zip"
+   filetype="ZIP"
+   associatedmap="FileMapName"
+   importtoentity="FileEntity"
+   datadelimiter=""
+   fielddelimiter="comma"
+   enableduplicatedetection="true"
+   isfirstrowheader="true"
+   isrecordownerateam="false"
+   owneruser=""
+   waitforimporttocomplete="true"/>
+   <zipimportdetails>
+   <zipimportdetail filename="subfile1.csv"
+   filetype="csv"
+   importtoentity="account" />
+   <zipimportdetail filename="subfile2.csv"
+   filetype="csv"
+   importtoentity="contact" />
+   </zipimportdetails>
+   </filestoimport>
+   <filesmapstoimport>
+   <configimportmapfile filename="SampleOption.xml" />
+   </filesmapstoimport>
+   <cmtdatafiles>
+   <cmtdatafile filename="data_1033.zip"
+   lcid="1033"
+   usermapfilename="UserMap.xml" />
+   <cmtdatafile filename="data_1041.zip"
+   lcid="1041"
+   usermapfilename="" />
+   </cmtdatafiles>
+   </configdatastorage>
 
-   ```  
+   ```
 
-<a name="Step5"></a>   
-#### Step 5: Define custom code for your package  
+<a name="Step5"></a>
+#### Step 5: Define custom code for your package
 
-1. In the Solution Explorer pane, double-click the **PackageTemplate.cs** file at the root to edit it.  
+1. In the Solution Explorer pane, double-click the **PackageTemplate.cs** file at the root to edit it.
 
-2. In the PackageTemplate.cs file, you can:  
+2. In the PackageTemplate.cs file, you can:
 
-   1. Enter custom code to execute when the package is initialized in the override method definition of `InitializeCustomExtension`.  
+   1. Enter custom code to execute when the package is initialized in the override method definition of `InitializeCustomExtension`.
 
-       This method can be used to let users use the runtime parameters while running a package. As a developer, you can add support for                     any runtime parameter to your package by using the                     <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.IImportExtensions2.RuntimeSettings> property as long as you have code                     to process it based on the user input.  
+       This method can be used to let users use the runtime parameters while running a package. As a developer, you can add support for                     any runtime parameter to your package by using the                     <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.IImportExtensions2.RuntimeSettings> property as long as you have code                     to process it based on the user input.
 
-       For example, the following sample code enables a runtime parameter called `SkipChecks` for the package that has two possible values:                     true or false. The sample code checks if the user has specified any runtime parameters while running [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] (either by using the command line or PowerShell), and then accordingly processes the information. If no runtime parameter is specified                     by the user while running the package, the value of the <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.IImportExtensions2.RuntimeSettings> property will be null.  
+       For example, the following sample code enables a runtime parameter called `SkipChecks` for the package that has two possible values:                     true or false. The sample code checks if the user has specified any runtime parameters while running [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] (either by using the command line or PowerShell), and then accordingly processes the information. If no runtime parameter is specified                     by the user while running the package, the value of the <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.IImportExtensions2.RuntimeSettings> property will be null.
 
-      ```csharp  
+      ```csharp
 
-      public override void InitializeCustomExtension()  
-      {  
-      // Do nothing.  
+      public override void InitializeCustomExtension()
+      {
+      // Do nothing.
 
-      // Validate the state of the runtime settings object.  
-      if (RuntimeSettings != null)  
-      {  
-      PackageLog.Log(string.Format("Runtime Settings populated.  Count = {0}", RuntimeSettings.Count));  
-      foreach (var setting in RuntimeSettings)  
-      {  
-      PackageLog.Log(string.Format("Key={0} | Value={1}", setting.Key, setting.Value.ToString()));  
-      }  
+      // Validate the state of the runtime settings object.
+      if (RuntimeSettings != null)
+      {
+      PackageLog.Log(string.Format("Runtime Settings populated.  Count = {0}", RuntimeSettings.Count));
+      foreach (var setting in RuntimeSettings)
+      {
+      PackageLog.Log(string.Format("Key={0} | Value={1}", setting.Key, setting.Value.ToString()));
+      }
 
-      // Check to see if skip checks is present.  
-      if ( RuntimeSettings.ContainsKey("SkipChecks") )  
-      {  
-      bool bSkipChecks = false;  
-      if (bool.TryParse((string)RuntimeSettings["SkipChecks"], out bSkipChecks))  
-      OverrideDataImportSafetyChecks = bSkipChecks;  
-      }  
-      }  
-      else  
-      PackageLog.Log("Runtime Settings not populated");  
-      }  
+      // Check to see if skip checks is present.
+      if ( RuntimeSettings.ContainsKey("SkipChecks") )
+      {
+      bool bSkipChecks = false;
+      if (bool.TryParse((string)RuntimeSettings["SkipChecks"], out bSkipChecks))
+      OverrideDataImportSafetyChecks = bSkipChecks;
+      }
+      }
+      else
+      PackageLog.Log("Runtime Settings not populated");
+      }
 
-      ```  
+      ```
 
-       This lets the administrator use the command line or the [Import-CrmPackage](https://technet.microsoft.com/library/dn756301.aspx) cmdlet to specify whether to skip the safety checks while running the Package Deployer tool to import the package. More information: [Deploy packages using CRM Package Deployer and Windows PowerShell](https://technet.microsoft.com/library/dn647420.aspx)  
+       This lets the administrator use the command line or the [Import-CrmPackage](https://technet.microsoft.com/library/dn756301.aspx) cmdlet to specify whether to skip the safety checks while running the Package Deployer tool to import the package. More information: [Deploy packages using CRM Package Deployer and Windows PowerShell](https://technet.microsoft.com/library/dn647420.aspx)
 
-   2. Enter custom code to execute before the solutions are imported in  the override method definition of `PreSolutionImport` to specify whether to maintain or overwrite customizations while updating the specified solution in a target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance, and whether to automatically activate plug-ins and workflows.  
+   2. Enter custom code to execute before the solutions are imported in  the override method definition of `PreSolutionImport` to specify whether to maintain or overwrite customizations while updating the specified solution in a target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance, and whether to automatically activate plug-ins and workflows.
 
-   3. Use the override method definition of `RunSolutionUpgradeMigrationStep` to perform data transformation or upgrade between two versions of a solution. This method is called only if the solution you are importing is already present in the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
+   3. Use the override method definition of `RunSolutionUpgradeMigrationStep` to perform data transformation or upgrade between two versions of a solution. This method is called only if the solution you are importing is already present in the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.
 
-       This function expects the following parameters:  
+       This function expects the following parameters:
 
 
       |    Parameter    |            Description             |
@@ -401,72 +401,72 @@ search.app:
       | `newSolutionId` |     GUID of the new solution.      |
 
 
-   4. Enter custom code to execute before the solution import completes in the override definition of the `BeforeImportStage` method.                     The sample data and some flat files for solutions specified in the `ImportConfig.xml` file are imported before the solution import completes.  
+   4. Enter custom code to execute before the solution import completes in the override definition of the `BeforeImportStage` method.                     The sample data and some flat files for solutions specified in the `ImportConfig.xml` file are imported before the solution import completes.
 
-   5. Override the currently-selected language for configuration data import using the                     override method definition of `OverrideConfigurationDataFileLanguage`. If the specified locale ID (LCID) of the specified language is                     not found in the list of available languages in the package, the default data file is imported.  
+   5. Override the currently-selected language for configuration data import using the                     override method definition of `OverrideConfigurationDataFileLanguage`. If the specified locale ID (LCID) of the specified language is                     not found in the list of available languages in the package, the default data file is imported.
 
-       You specify the available languages for the configuration data in the `<cmtdatafiles>` node in the                     `ImportConfig.xml` file. The default configuration data import file is specified in the `crmmigdataimportfile` attribute in the                     `ImportConfig.xml` file.  
+       You specify the available languages for the configuration data in the `<cmtdatafiles>` node in the                     `ImportConfig.xml` file. The default configuration data import file is specified in the `crmmigdataimportfile` attribute in the                     `ImportConfig.xml` file.
 
-       Skipping data checks (<xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.IImportExtensions2.OverrideDataImportSafetyChecks> = true)                     can be effective here if you are sure that the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance does not contain any data.  
+       Skipping data checks (<xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.IImportExtensions2.OverrideDataImportSafetyChecks> = true)                     can be effective here if you are sure that the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance does not contain any data.
 
-   6. Enter custom code to execute after the import completes in the override definition of `AfterPrimaryImport`>method.                     The remaining flat files that were not imported earlier, before the solution import started, are imported now.  
+   6. Enter custom code to execute after the import completes in the override definition of `AfterPrimaryImport`>method.                     The remaining flat files that were not imported earlier, before the solution import started, are imported now.
 
-   7. Change the default name of your package folder from PkgFolder to the package name that you want.                     To do so, rename the `PkgFolder`>folder in the **Solution Explorer** pane, and then edit the return value under the                     `GetImportPackageDataFolderName` property.  
+   7. Change the default name of your package folder from PkgFolder to the package name that you want.                     To do so, rename the `PkgFolder`>folder in the **Solution Explorer** pane, and then edit the return value under the                     `GetImportPackageDataFolderName` property.
 
-      ```csharp  
+      ```csharp
 
-      public override string GetImportPackageDataFolderName  
-      {  
-      get  
-      {  
-      // WARNING this value directly correlates to the folder name in the Solution Explorer where the ImportConfig.xml and sub content is located.  
-      // Changing this name requires that you also change the correlating name in the Solution Explorer  
-      return "PkgFolder";  
-      }  
-      }  
+      public override string GetImportPackageDataFolderName
+      {
+      get
+      {
+      // WARNING this value directly correlates to the folder name in the Solution Explorer where the ImportConfig.xml and sub content is located.
+      // Changing this name requires that you also change the correlating name in the Solution Explorer
+      return "PkgFolder";
+      }
+      }
 
-      ```  
+      ```
 
-   8. Change the package name by editing the return value under the `GetNameOfImport` property.  
+   8. Change the package name by editing the return value under the `GetNameOfImport` property.
 
-      ```csharp  
+      ```csharp
 
-      public override string GetNameOfImport(bool plural)  
-      {  
-      return "Package Short Name";  
-      }  
+      public override string GetNameOfImport(bool plural)
+      {
+      return "Package Short Name";
+      }
 
-      ```  
+      ```
 
-       This is the name of your package that will appear on the package selection page in the [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] wizard.  
+       This is the name of your package that will appear on the package selection page in the [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] wizard.
 
-   9. Change the package description by editing the return value under the `GetImportPackageDescriptionText` property.  
+   9. Change the package description by editing the return value under the `GetImportPackageDescriptionText` property.
 
-       ```csharp  
+       ```csharp
 
-       public override string GetImportPackageDescriptionText  
-       {  
-       get { return "Package Description"; }  
-       }  
+       public override string GetImportPackageDescriptionText
+       {
+       get { return "Package Description"; }
+       }
 
-       ```  
+       ```
 
-        This is the package description that will appear alongside the package name on the on the package selection page in the Package Deployer wizard.  
+        This is the package description that will appear alongside the package name on the on the package selection page in the Package Deployer wizard.
 
-   10. Change the package long name by editing the return value under the `GetLongNameOfImport` property.  
+   10. Change the package long name by editing the return value under the `GetLongNameOfImport` property.
 
-       ```csharp  
+       ```csharp
 
-       public override string GetLongNameOfImport  
-       {  
-       get { return "Package Long Name"; }  
-       }  
+       public override string GetLongNameOfImport
+       {
+       get { return "Package Long Name"; }
+       }
 
-       ```  
+       ```
 
-        The package long name appears on the next page after you have selected the package to install.  
+        The package long name appears on the next page after you have selected the package to install.
 
-3. Additionally, the following function and variables are available to the package:  
+3. Additionally, the following function and variables are available to the package:
 
 
    |                                                                                                      Name                                                                                                      |     Type      |                                                                                                                                                                                                        Description                                                                                                                                                                                                        |
@@ -483,33 +483,33 @@ search.app:
    |                                            <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.IImportExtensions2.OverrideDataImportSafetyChecks>                                            |   Property    |      Use this to specify whether [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] will bypass some of its safety checks, which helps in improving the import performance. Specify `true` or `false`. Default is `false`.<br /><br /> You should set this to `true` only if the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance does not contain any data.      |
 
 
-4. Save your project, and then build it (**Build** > **Build Solution**) to create the package. Your package is the following files under the *\<Project>*\Bin\Debug folder  
+4. Save your project, and then build it (**Build** > **Build Solution**) to create the package. Your package is the following files under the *\<Project>*\Bin\Debug folder
 
-   - **\<PackageName> folder**: The folder name is the same as the one you changed for your package folder name in step 2.g of this section (Step 5: Define custom code for your package). This folder contains  all solutions,  configuration data, flat files, and the contents for your package.  
+   - **\<PackageName> folder**: The folder name is the same as the one you changed for your package folder name in step 2.g of this section (Step 5: Define custom code for your package). This folder contains  all solutions,  configuration data, flat files, and the contents for your package.
 
-   - **\<PackageName>.dll**: The assembly contains the custom code for your package. By default, the name of the assembly is the same as your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project name.  
+   - **\<PackageName>.dll**: The assembly contains the custom code for your package. By default, the name of the assembly is the same as your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project name.
 
-     The next step is to deploy your package.  
+     The next step is to deploy your package.
 
-<a name="UsethePackage"></a>   
-## Deploy a package  
- After you create a package, you can deploy it on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance by using either the Package Deployer tool or [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)]. 
+<a name="UsethePackage"></a>
+## Deploy a package
+ After you create a package, you can deploy it on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance by using either the Package Deployer tool or [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)].
 
  The package deployer tool is distributed as part of the [Microsoft.CrmSdk.XrmTooling.PackageDeployment.WPF](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment) NuGet package.To download the package deployer tool, see [Download tools from NuGet](download-tools-nuget.md).
 
- For detailed information, see [Deploy packages using CRM Package Deployer or Windows PowerShell](https://technet.microsoft.com/library/dn647420.aspx).  
+ For detailed information, see [Deploy packages using CRM Package Deployer or Windows PowerShell](https://technet.microsoft.com/library/dn647420.aspx).
 
-<a name="BestPractices"></a>   
-## Best practices for creating and deploying packages  
- While creating packages, developers must ensure that the package assemblies are signed.  
+<a name="BestPractices"></a>
+## Best practices for creating and deploying packages
+ While creating packages, developers must ensure that the package assemblies are signed.
 
- While deploying the packages, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps administrators must:  
+ While deploying the packages, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps administrators must:
 
--   Insist on a signed package assembly so that you can track an assembly back to its source.  
+-   Insist on a signed package assembly so that you can track an assembly back to its source.
 
--   Test the package on a pre-production instance (preferably a mirror image of the production instance) before running it on a production instance.  
+-   Test the package on a pre-production instance (preferably a mirror image of the production instance) before running it on a production instance.
 
--   Back up the production instance before deploying the package.  
+-   Back up the production instance before deploying the package.
 
-### See also  
+### See also
  [What's New for Developers](whats-new-developers.md)

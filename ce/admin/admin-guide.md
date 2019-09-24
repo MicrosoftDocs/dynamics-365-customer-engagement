@@ -1,13 +1,13 @@
 ---
 title: "Administrator Guide (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-ms.custom: 
+ms.custom:
 ms.date: 11/08/2018
-ms.reviewer: 
+ms.reviewer:
 ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: get-started-article
-applies_to: 
+applies_to:
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
@@ -15,17 +15,17 @@ caps.latest.revision: 31
 author: jimholtz
 ms.author: jimholtz
 manager: amyla
-search.audienceType: 
+search.audienceType:
   - admin
-search.app: 
+search.app:
   - D365CE
   - Powerplatform
 ---
-# Administrator Guide for Dynamics 365 for Customer Engagement apps 
+# Administrator Guide for Dynamics 365 for Customer Engagement apps
 
 *This content also applies to the on-premises version.*
 
-[!INCLUDE[cc-customer-engagement-apps-note](../includes/cc-customer-engagement-apps-note.md)] 
+[!INCLUDE[cc-customer-engagement-apps-note](../includes/cc-customer-engagement-apps-note.md)]
 
 [!INCLUDE[cc-see-nonv-subscription-guide](../includes/cc-see-nonv-subscription-guide.md)]
 
@@ -82,7 +82,7 @@ Implementers and administrators for [!INCLUDE[pn_microsoftcrm](../includes/pn-dy
 
 <li><a href="https://www.youtube.com/playlist?list=PLcakwueIHoT90l9YCf0IGddsp0xVMpTVw" data-raw-source="[YouTube playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT90l9YCf0IGddsp0xVMpTVw)">YouTube playlist</a></li>
 <li><a href="https://community.dynamics.com/crm/f/117" data-raw-source="[Community forum](https://community.dynamics.com/crm/f/117)">Community forum</a></li>
-<li><a href="http://go.microsoft.com/fwlink/p/?LinkId=394391" data-raw-source="[Contact support](http://go.microsoft.com/fwlink/p/?LinkId=394391)">Contact support</a></li>
+<li><a href="http://go.microsoft.com/fwlink/p/?LinkId=394391" data-raw-source="[Contact support](https://go.microsoft.com/fwlink/p/?LinkId=394391)">Contact support</a></li>
 
 </td>
 <td>
