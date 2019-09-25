@@ -24,7 +24,7 @@ search.app:
 
 # Add the Azure Storage web resource to a form
 
-Attachments uploaded to [!include[Azure](../includes/pn-azure-shortest.md)] Storage instead of directly to Dynamics 365 can be managed by using notes in Dynamics 365.
+Attachments uploaded to [!include[Azure](../includes/pn-azure-shortest.md)] Storage instead of directly to Dynamics 365 can be managed by using notes in Dynamics 365 Portals.
 
 To enable attachments from a particular form to be uploaded into [!include[Azure](../includes/pn-azure-shortest.md)] Storage, you must add a web resource to that form and you must [configure Azure Storage for your organization](enable-azure-storage.md).
 
