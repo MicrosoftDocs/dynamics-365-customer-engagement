@@ -1,5 +1,5 @@
 ---
-title: "Create or edit web resources in Dynamics 365 for Customer Engagement for Customer Engagement apps | MicrosoftDocs"
+title: "Create or edit web resources in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to create or edit a web resource"
 ms.custom: 
 ms.date: 11/09/2018

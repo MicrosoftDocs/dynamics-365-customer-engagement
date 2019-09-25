@@ -1,5 +1,5 @@
 ---
-title: "Configure workflow steps in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
+title: "Configure workflow steps in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to configure workflow steps"
 ms.custom: 
 ms.date: 11/09/2018

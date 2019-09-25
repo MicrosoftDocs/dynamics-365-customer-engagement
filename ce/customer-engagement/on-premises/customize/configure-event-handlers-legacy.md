@@ -1,6 +1,6 @@
 ---
-title: Configure event handlers for Main forms in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs
-description: Understand how to configure event handlers in Dynamics 365 for Customer Engagement for Customer Engagement
+title: Configure event handlers for Main forms in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
+description: Understand how to configure event handlers in Dynamics 365 Customer Engagement (on-premises)
 Keywords: Main form; Configure event handlers; Dynamics 365 for Customer Engagement
 author: Mattp123
 applies_to: 
@@ -20,7 +20,7 @@ search.app:
 
 
 
- Form event handlers for Dynamics 365 for Customer Engagement for Customer Engagement forms can be configured for the following areas in a form:  
+ Form event handlers for Dynamics 365 Customer Engagement (on-premises) forms can be configured for the following areas in a form:  
 
 |Element|Event|Description|  
 |-------------|-----------|-----------------|  

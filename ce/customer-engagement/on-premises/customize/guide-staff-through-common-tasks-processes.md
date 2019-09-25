@@ -41,7 +41,7 @@ Dynamics 365 Customer Engagement (on-premises) includes four types of processes,
   Similar to processes, you can also create  business rules and recommendations. For more information, see [Create business rules and recommendations to apply logic in a form](../customize/create-business-rules-recommendations-apply-logic-form.md)  
 
 <!-- >> [!NOTE]
->  Using processes can impact the license requirements for Dynamics 365 for Customer Engagement for Customer Engagement and flows. For more information, see [Entity license requirements](/powerapps/maker/common-data-service/data-platform-entity-licenses).  -->
+>  Using processes can impact the license requirements for Dynamics 365 Customer Engagement (on-premises) and flows. For more information, see [Entity license requirements](/powerapps/maker/common-data-service/data-platform-entity-licenses).  -->
 
 
 <a name="BKMK_BP"></a>   

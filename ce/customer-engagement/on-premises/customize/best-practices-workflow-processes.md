@@ -1,5 +1,5 @@
 ---
-title: "Best practices for workflow processes in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
+title: "Best practices for workflow processes in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Understand the recommended ways to use workflows"
 ms.custom: 
 ms.date: 11/08/2018

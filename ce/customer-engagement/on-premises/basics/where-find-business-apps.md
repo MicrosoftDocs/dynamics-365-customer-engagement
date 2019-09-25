@@ -24,11 +24,11 @@ search.app:
 
 Business apps are available to users based on their security roles. If your system administrator has created any new apps, they will be visible to you if your security role has been given access to those apps. 
   
-1. Sign in to Dynamics 365 Customer Engagement (on-premises) apps.  
+1. Sign in to Dynamics 365 Customer Engagement (on-premises).  
   
 2. Go to **Settings** > **My Apps**.  
   
-    The page shows all published Customer Engagement (on-premises) apps based on your organization's licensing options, and your security role.  
+    The page shows all published Customer Engagement (on-premises) based on your organization's licensing options, and your security role.  
   
     You can also directly open the My Apps page by entering the following URL in your browser:  http://\<server name>/\<orgName>/apps.  
   

@@ -27,7 +27,7 @@ search.app:
 
 # Web application requirements
 
-<a name="CRMappandMobileReqs"></a> This section lists the hardware and software requirements for the Dynamics 365 Customer Engagement (on-premises) apps and  Dynamics 365 web and mobile device client applications.  
+<a name="CRMappandMobileReqs"></a> This section lists the hardware and software requirements for the Dynamics 365 Customer Engagement (on-premises) and  Dynamics 365 web and mobile device client applications.  
 
 <a name="webapp_hw_req"></a>   
 ## Customer Engagement (on-premises) web application hardware requirements  
@@ -39,7 +39,7 @@ search.app:
 |Memory|2-GB RAM|4-GB RAM or more|  
 |Display|Super VGA with a resolution of 1024 x 768|Super VGA with a resolution of 1024 x 768|  
 
- Running Customer Engagement (on-premises) apps on a computer that has less than the recommended requirements may result in inadequate performance. Additionally, satisfactory performance may be experienced running systems that use a different hardware configuration than those published here—for example, a system with a modern quad-core processor, lower clock speed, and more RAM.  
+ Running Customer Engagement (on-premises) on a computer that has less than the recommended requirements may result in inadequate performance. Additionally, satisfactory performance may be experienced running systems that use a different hardware configuration than those published here—for example, a system with a modern quad-core processor, lower clock speed, and more RAM.  
 
  **Network requirements**  
 
@@ -101,7 +101,7 @@ To find the latest release for these web browsers, visit the software manufactur
 
 <a name="SupportedMSOffice"></a>   
 ## Supported versions of Office  
- To use Customer Engagement (on-premises) apps with [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] integration features, such as Export to Excel and Mail Merge, you must have one of the following [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] versions on the computer that is running the Customer Engagement (on-premises) web application:  
+ To use Customer Engagement (on-premises) with [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] integration features, such as Export to Excel and Mail Merge, you must have one of the following [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] versions on the computer that is running the Customer Engagement (on-premises) web application:  
 
 - [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]  
 

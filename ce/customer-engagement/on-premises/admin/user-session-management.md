@@ -27,10 +27,10 @@ You can use security enhancements to better secure Dynamics 365 Customer Engagem
 
 ## User session timeout management
 
-The maximum user session timeout of 24 hours is removed.  This means that a user is not forced to login with their credentials to use the Customer Engagement (on-premises) apps and other Microsoft service apps like Outlook that were opened in the same browser session every 24 hours. 
+The maximum user session timeout of 24 hours is removed.  This means that a user is not forced to login with their credentials to use the Customer Engagement (on-premises) and other Microsoft service apps like Outlook that were opened in the same browser session every 24 hours. 
 
 ### Honor Azure AD session policy 
-By default, the Customer Engagement (on-premises) apps leverage the Azure Active Directory (Azure AD) [session policy](https://docs.microsoft.com/azure/active-directory/develop/active-directory-configurable-token-lifetimes) to manage the user session timeout.  Customer Engagement (on-premises) apps use the Azure AD ID Token with a Policy Check Interval (PCI) claims.  Every hour a new Azure AD ID Token is fetched silently in the background and the Azure AD instant policy is enforced (by Azure AD). For example, if an administrator disables or deletes a user account, blocks the user from signing in, and an administrator or user revokes the refresh token, the Azure AD session policy is enforced. 
+By default, the Customer Engagement (on-premises) leverage the Azure Active Directory (Azure AD) [session policy](https://docs.microsoft.com/azure/active-directory/develop/active-directory-configurable-token-lifetimes) to manage the user session timeout.  Customer Engagement (on-premises) use the Azure AD ID Token with a Policy Check Interval (PCI) claims.  Every hour a new Azure AD ID Token is fetched silently in the background and the Azure AD instant policy is enforced (by Azure AD). For example, if an administrator disables or deletes a user account, blocks the user from signing in, and an administrator or user revokes the refresh token, the Azure AD session policy is enforced. 
 
 This Azure AD ID token refresh cycle continues in the background based on the Azure AD token lifetime policy configurations.  Users continue to access Customer Engagement (on-premises)/Common Data Service data without the needs to re-authenticate until the Azure AD token lifetime policy expires. 
 
@@ -53,7 +53,7 @@ For environments that require different session timeout values, administrators c
 
 ### To change this behavior
 
-- To enforce users to re-authenticate after a pre-determined period of time, admins can set a session timeout for Customer Engagement (on-premises).  Users can only remain signed in the application for the duration of session.  The application signs out the user when the session expires.  Users need to sign-in with their credentials to return to Customer Engagement (on-premises) apps.
+- To enforce users to re-authenticate after a pre-determined period of time, admins can set a session timeout for Customer Engagement (on-premises).  Users can only remain signed in the application for the duration of session.  The application signs out the user when the session expires.  Users need to sign-in with their credentials to return to Customer Engagement (on-premises).
 
 > [!NOTE]
 > User session timeout is not enforced in the following:

@@ -23,4 +23,4 @@ search.app:
 ---
 # Support for devices
 
-For information about Customer Engagement (on-premises) apps support for mobile devices, see [What's supported](../../../mobile-app/support-phones-tablets.md) in the Phones and Tablets Administrator Guide.
+For information about Customer Engagement (on-premises) support for mobile devices, see [What's supported](../../../mobile-app/support-phones-tablets.md) in the Phones and Tablets Administrator Guide.

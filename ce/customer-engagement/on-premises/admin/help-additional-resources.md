@@ -23,7 +23,7 @@ search.app:
 ---
 # Help and additional resources
 
-There are several resources available to you covering planning, operating, and using Dynamics 365 Customer Engagement (on-premises) apps.  
+There are several resources available to you covering planning, operating, and using Dynamics 365 Customer Engagement (on-premises).  
 
   
 ## Self-service help resources  

@@ -35,7 +35,7 @@ Report navigation enables a dynamic and interactive reporting experience. By usi
   
 2. When the user selects the report item, a new browser window is opened by using the constructed URL passed as the target web address.  
   
-3. Customer Engagement (on-premises) apps load the information for the specified entity into a web form that is displayed in the browser window.  
+3. Customer Engagement (on-premises) load the information for the specified entity into a web form that is displayed in the browser window.  
   
 ### To set up a drill-through report in Dynamics 365 Customer Engagement (on-premises) 
   

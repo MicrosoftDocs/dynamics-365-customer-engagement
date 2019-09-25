@@ -214,18 +214,18 @@ On the SharePoint on-premises server, in the SharePoint Management Shell, run th
         Register-SPAppPrincipal -site $site.RootWeb -NameIdentifier $Identifier -DisplayName "crm"
     ```
 
-4.  Grant the Customer Engagement (on-premises) application access to the SharePoint site.
+4.  Grant Customer Engagement (on-premises) access to the SharePoint site.
     
 
     > [!NOTE]
-    > <P>In the example below, the Customer Engagement (on-premises) application is granted permission to the specified SharePoint site collection by using the –Scope sitecollection parameter. The Scope parameter accepts the following options. Use the scope that is most appropriate for your SharePoint configuration:</P>
+    > <P>In the example below, Customer Engagement (on-premises) is granted permission to the specified SharePoint site collection by using the –Scope sitecollection parameter. The Scope parameter accepts the following options. Use the scope that is most appropriate for your SharePoint configuration:</P>
     > <UL>
     > <LI>
-    > <P><EM>site</EM>. Grants the Customer Engagement (on-premises) application permission to the specified SharePoint website only. It doesn’t grant permission to any subsites under the named site.</P>
+    > <P><EM>site</EM>. Grants Customer Engagement (on-premises) permission to the specified SharePoint website only. It doesn’t grant permission to any subsites under the named site.</P>
     > <LI>
-    > <P><EM>sitecollection</EM>. Grants the Customer Engagement (on-premises) application permission to all websites and subsites within the specified SharePoint site collection.</P>
+    > <P><EM>sitecollection</EM>. Grants Customer Engagement (on-premises) permission to all websites and subsites within the specified SharePoint site collection.</P>
     > <LI>
-    > <P><EM>sitesubscription</EM>. Grants the Customer Engagement (on-premises) application permission to all websites in the SharePoint farm, including all site collections, websites, and subsites.</P></LI></UL>
+    > <P><EM>sitesubscription</EM>. Grants Customer Engagement (on-premises) permission to all websites in the SharePoint farm, including all site collections, websites, and subsites.</P></LI></UL>
 
     
         $app = Get-SPAppPrincipal -NameIdentifier $Identifier -Site $site.Rootweb

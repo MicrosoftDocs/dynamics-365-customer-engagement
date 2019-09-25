@@ -25,7 +25,7 @@ search.app:
 
 Actions are a type of process. You can invoke actions, including custom actions, directly from a workflow or dialog without writing code! [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Invoke custom action from a workflow or dialog](../customize/invoke-custom-actions-workflow-dialog.md)  
   
- Actions can also be invoked by running custom code that uses the Dynamics 365 for Customer Engagement for Customer Engagement Web services.  
+ Actions can also be invoked by running custom code that uses the Dynamics 365 Customer Engagement (on-premises) Web services.  
   
  You can call actions:  
   
@@ -33,9 +33,9 @@ Actions are a type of process. You can invoke actions, including custom actions,
   
 - From a command that is placed in the application and executes the operation using JavaScript code.  
   
-- From an integration with another system that uses the Dynamics 365 for Customer Engagement for Customer Engagement web services.  
+- From an integration with another system that uses the Dynamics 365 Customer Engagement (on-premises) web services.  
   
-- From a custom client application that uses the Dynamics 365 for Customer Engagement for Customer Engagement web services.  
+- From a custom client application that uses the Dynamics 365 Customer Engagement (on-premises) web services.  
   
 Developers can learn more in this topic: [Create your own actions](../developer/create-own-actions.md). 
   

@@ -1,5 +1,5 @@
 ---
-title: "Configure Bing maps in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
+title: "Configure Bing maps in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 01/31/2019
 ms.reviewer: 

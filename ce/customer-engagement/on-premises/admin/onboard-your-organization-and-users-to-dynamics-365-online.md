@@ -14,7 +14,7 @@ ms.reviewer:
 
 # Onboard your organization and users
 
-New to Dynamics 365 Customer Engagement (on-premises) apps? We've put together step-by-step guidance whether you’re still evaluating Customer Engagement apps, ready to make a purchase, or ready to onboard your organization and users.  
+New to Dynamics 365 Customer Engagement (on-premises)? We've put together step-by-step guidance whether you’re still evaluating Customer Engagement apps, ready to make a purchase, or ready to onboard your organization and users.  
   
 ## Step One: Try out Customer Engagement (on-premises) in a free 90-day trial  
 New customers and partners not already enrolled in a Microsoft Volume Licensing program can access Dynamics 365 Customer Engagement (on-premises) trial software.

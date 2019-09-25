@@ -34,7 +34,7 @@ Microsoft Dynamics 365 Customer Engagement (on-premises) includes reports, chart
   
  ## Paginated reports  
   
-Customer Engagement (on-premises) apps includes a Report Wizard that can be used to easily create reports in just a few steps without using XML or [!INCLUDE[pn_SQL-based](../includes/pn-sql-based.md)] queries. For more information about the Report Wizard, see [Create, edit, or copy a report using the Report Wizard](../basics/create-edit-copy-report-wizard.md).  
+Customer Engagement (on-premises) includes a Report Wizard that can be used to easily create reports in just a few steps without using XML or [!INCLUDE[pn_SQL-based](../includes/pn-sql-based.md)] queries. For more information about the Report Wizard, see [Create, edit, or copy a report using the Report Wizard](../basics/create-edit-copy-report-wizard.md).  
   
  However, to create more complex reports, you can either create your own custom reports from scratch, or use an existing report as a template. The topics in this guide show you how to create new reports or change existing reports using [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] as the report writing tool and [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] as the report engine.  
   

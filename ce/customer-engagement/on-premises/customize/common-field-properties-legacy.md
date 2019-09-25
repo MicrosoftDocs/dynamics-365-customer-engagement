@@ -1,6 +1,6 @@
 ---
-title: Common field properties in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs
-description: Understand the Common field properties for Main form in Dynamics 365 for Customer Engagement for Customer Engagement
+title: Common field properties in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
+description: Understand the Common field properties for Main form in Dynamics 365 Customer Engagement (on-premises)
 Keywords: Main form; Common field properties; Dynamics 365 for Customer Engagement
 author: Mattp123
 applies_to: 

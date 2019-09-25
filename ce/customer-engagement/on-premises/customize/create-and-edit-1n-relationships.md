@@ -1,5 +1,5 @@
 ---
-title: "Create 1:N (one-to-many) or N:1 (many-to-one) relationships in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
+title: "Create 1:N (one-to-many) or N:1 (many-to-one) relationships in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to create one-to-many or many-to-one relationships"
 ms.custom: 
 ms.date: 11/09/2018

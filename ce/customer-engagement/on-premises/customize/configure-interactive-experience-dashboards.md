@@ -155,7 +155,7 @@ The following procedure provides the steps to enable the security roles for the 
   
 ### Configure a multi-stream interactive dashboard using the 4-column layout  
  
-1. Sign in to Dynamics 365 for Customer Engagement for Customer Engagement.
+1. Sign in to Dynamics 365 Customer Engagement (on-premises).
 
 2. Go to **Settings** > **Customizations** > **Customize the System**.  
   

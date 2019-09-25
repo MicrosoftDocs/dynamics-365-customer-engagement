@@ -1,5 +1,5 @@
 ---
-title: "Sort records in a view in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
+title: "Sort records in a view in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 

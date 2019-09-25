@@ -1,5 +1,5 @@
 ---
-title: "Behavior and format of the Date and Time field in Dynamics 365 for Customer Engagement for Customer Engagement apps | MicrosoftDocs"
+title: "Behavior and format of the Date and Time field in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 

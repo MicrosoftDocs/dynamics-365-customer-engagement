@@ -23,7 +23,7 @@ search.app:
 ---
 # Troubleshooting: User needs read-write access
 
-You don’t have sufficient permissions to access Dynamics 365 Customer Engagement (on-premises). A system administrator will need to do the following in the Customer Engagement (on-premises) apps:  
+You don’t have sufficient permissions to access Dynamics 365 Customer Engagement (on-premises). A system administrator will need to do the following in the Customer Engagement (on-premises):  
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   

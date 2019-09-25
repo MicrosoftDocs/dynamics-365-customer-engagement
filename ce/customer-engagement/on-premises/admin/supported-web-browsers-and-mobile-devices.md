@@ -47,7 +47,7 @@ For a mobile device, such as an iPad or smartphone, the following apps are avail
 For more detailed information about supported phones and tablets, see [Mobile and tablet device support](../../../mobile-app/support-phones-tablets.md).  
   
 > [!NOTE]
-> - Users who try to view Customer Engagement (on-premises) apps on an unsupported browser may be redirected to a mobile experience. 
+> - Users who try to view Customer Engagement (on-premises) on an unsupported browser may be redirected to a mobile experience. 
 >   - For Customer Engagement (on-premises) version 9.0 and later, users are redirected to the Unified Interface experience. For more information see [Unified Interface Overview](about-unified-interface.md). 
 >   - For versions earlier than Customer Engagement (on-premises) version 9.0, users are redirected to [!INCLUDE [pn-crm-for-phones-express](../includes/pn-crm-for-phones-express.md)]. This is a basic service that has limited functionality, and isn’t intended to serve as a substitute for the full feature set of Customer Engagement (on-premises) version 9.0 apps. We recommend that users choose a supported browser or a Customer Engagement (on-premises) version 9.0 app specific to the device. 
 > -  If you have added content to forms or dashboards in an iFrame, you might have implemented security restrictions around certain actions in that content, such as external links. Keep in mind that in [!INCLUDE[tn_Firefox](../includes/tn-firefox.md)], this security restriction code will likely be unsupported.  

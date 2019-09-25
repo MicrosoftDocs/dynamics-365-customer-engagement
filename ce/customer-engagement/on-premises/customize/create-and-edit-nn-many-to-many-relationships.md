@@ -1,5 +1,5 @@
 ---
-title: "Create N:N (many-to-many) relationships in Dynamics 365 for Customer Engagement for Customer Engagement apps | MicrosoftDocs"
+title: "Create N:N (many-to-many) relationships in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to create many-to-may relationships"
 ms.custom: 
 ms.date: 11/09/2018

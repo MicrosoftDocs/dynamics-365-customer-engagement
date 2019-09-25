@@ -1,6 +1,6 @@
 ---
 title: Understand accessibility app designer, site map designer, and My Apps page in Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs
-description: Know about accessibility in app designer, site map designer, and My Apps page in Dynamics 365 for Customer Engagement for Customer Engagement
+description: Know about accessibility in app designer, site map designer, and My Apps page in Dynamics 365 Customer Engagement (on-premises)
 keywords: App designer; site map designer; my apps; Dynamics 365 for Customer Engagement
 author: Mattp123
 ms.author: matp
