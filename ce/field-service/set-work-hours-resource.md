@@ -1,10 +1,7 @@
 ---
 title: Set work hours for a resource (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Understand how to set work hours for a resource in Dynamics 365 for Customer Service
-keywords: Set work hours for a resource; Dynamics 365 for Customer Engagement; Customer Service
 author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shellyha
 ms.date: 09/15/2017

@@ -2,7 +2,7 @@
 title: "Manage updates | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 08/02/2019
+ms.date: 09/23/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -26,8 +26,7 @@ search.app:
 
 With [modernizing the way we update Dynamics 365 for Customer Engagement](https://aka.ms/dynamics365updatesblog), the update process has moved to the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 
-
-See [Early Opt in to 2019 release wave 2](https://review.docs.microsoft.com/power-platform/admin/preview-october-2019-updates?branch=jimholtzworkbranch).
+See [Early Opt in to 2019 release wave 2](https://docs.microsoft.com/power-platform/admin/preview-october-2019-updates).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/new-update.png "Updates")

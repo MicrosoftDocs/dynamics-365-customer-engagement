@@ -62,6 +62,6 @@ With the [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], yo
 5. Click **Results**.  
   
 ### See also  
- [Search and Find in Dynamics 365 for Customer EngagEngagement apps](../basics/search-and-find-header.md)
- [Search for records](../basics/search-records.md)
- [Use Relevance Search for faster, comprehensive search results](../basics/relevance-search-results.md)
+ [Search and Find in Dynamics 365 for Customer EngagEngagement apps](../basics/search-and-find-header.md)<br/>
+ [Search for records](../basics/search-records.md)<br/>
+ [Use Relevance Search for faster, comprehensive search results](../basics/relevance-search-results.md)<br/>

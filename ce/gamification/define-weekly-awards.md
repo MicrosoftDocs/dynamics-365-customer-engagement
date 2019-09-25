@@ -1,12 +1,10 @@
 ---
-title: "Create weekly awards in Dynamics 365 for Customer Engagement – Gamification | Microsoft Docs"
-description: "Learn how to keep players and fans engaged in a game by defining weekly awards in Dynamics 365 for Customer Engagement – Gamification."
+title: "Create weekly awards in Dynamics 365 – Gamification | Microsoft Docs"
+description: "Learn how to keep players and fans engaged in a game by defining weekly awards in Gamification."
 keywords: 
 ms.date: 10/18/2017
 ms.service: dynamics-365-sales
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: f34678ce-1037-4788-8394-f83866583c3c
 author: m-hartmann
 ms.author: mhart

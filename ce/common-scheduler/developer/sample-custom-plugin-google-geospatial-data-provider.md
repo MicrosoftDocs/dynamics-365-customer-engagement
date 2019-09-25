@@ -16,8 +16,6 @@ ms.technology:
   - project-service
 ms.tgt_pltfrm: 
 ms.topic: sample
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1773e012-dbad-4320-95fe-40877adfdabb
 author: FieldServiceDave
 ms.author: daclar
@@ -34,7 +32,7 @@ search.app:
 
 You can use a custom plug-in to use geospatial data from a data provider of your choice instead of using the default Bing Maps API in Field Service and Project Service.
 
-Download the sample: [Custom plug-in to use Google Maps API as geospatial data provider (Dynamics 365 for Customer Engagement)](https://code.msdn.microsoft.com/Custom-plug-in-to-use-d244f452)
+Download the sample: [Custom plug-in to use Google Maps API as geospatial data provider (Dynamics 365)](https://code.msdn.microsoft.com/Custom-plug-in-to-use-d244f452)
 
 ## Prerequisites
 
@@ -404,7 +402,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
 ## Privacy notice disclaimer
 
-You may use sample code to interact with third party services whose privacy and security practices may differ from those of Microsoft Dynamics 365 for Customer Engagement. IF YOU SUBMIT DATA TO THIRD PARTY SERVICES, SUCH DATA IS GOVERNED BY THEIR RESPECTIVE PRIVACY STATEMENTS. For the avoidance of doubt, data shared outside of Microsoft Dynamics 365 for Customer Engagement is not covered by your Microsoft Dynamics 365 for Customer Engagement agreement(s) or the Microsoft Dynamics 365 for Customer Engagement Trust Center. We encourage you to review these other privacy statements.
+You may use sample code to interact with third party services whose privacy and security practices may differ from those of Microsoft Dynamics 365. IF YOU SUBMIT DATA TO THIRD PARTY SERVICES, SUCH DATA IS GOVERNED BY THEIR RESPECTIVE PRIVACY STATEMENTS. For the avoidance of doubt, data shared outside of Microsoft Dynamics 365 is not covered by your Microsoft Dynamics 365 agreement(s) or the Microsoft Dynamics 365 Trust Center. We encourage you to review these other privacy statements.
 
 ### See also
 

@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Marketing Developer Guide | MicrosoftDocs"
+title: "Dynamics 365 Marketing Developer Guide | MicrosoftDocs"
 description: "Provides information about how you can extend the customer journeys feature using *custom channels*."
 ms.custom: 
   - dyn365-developer
@@ -9,8 +9,6 @@ ms.service: dynamics-365-marketing
 ms.technology: 
   - marketing
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c2228386-9755-47e2-b8ce-2585053b121f
 author: KumarVivek
 ms.author: kvivek
@@ -27,7 +25,7 @@ search.app:
 
 <tr><td>
 
-<h2>Extend Dynamics 365 for Marketing</h2>
+<h2>Extend Dynamics 365 Marketing</h2>
 <li><a href="extend-customer-journeys-custom-channels.md" data-raw-source="[Extend customer journeys using custom channels](extend-customer-journeys-custom-channels.md)">Extend customer journeys using custom channels</a></li>
 <li><a href="create-custom-channel.md" data-raw-source="[Create a custom channel](create-custom-channel.md)">Create a custom channel</a></li>
 <li><a href="event-management-web-application.md" data-raw-source="[Build and host a custom event portal](event-management-web-application.md)">Build and host a custom event portal</a></li>
@@ -39,17 +37,15 @@ search.app:
 <h2>General extensibility concepts</h2>
 <li><a href="../../developer/introduction-entities.md" data-raw-source="[Introduction to entities](../../developer/introduction-entities.md)">Introduction to entities</a></li>
 <li><a href="../../developer/write-plugin-extend-business-processes.md" data-raw-source="[Write plug-ins to extend business processes](../../developer/write-plugin-extend-business-processes.md)">Write plug-ins to extend business processes</a></li>
-<li><a href="../../developer/automate-business-processes-customer-engagement.md" data-raw-source="[Automate your business processes in Customer Engagement](../../developer/automate-business-processes-customer-engagement.md)">Automate your business processes in Customer Engagement</a></li>
+<li><a href="../../developer/automate-business-processes-customer-engagement.md" data-raw-source="[Automate your business processes in Dynamics 365](../../developer/automate-business-processes-customer-engagement.md)">Automate your business processes in Dynamics 365</a></li>
 <li><a href="../../customize/workflow-processes.md" data-raw-source="[Workflows overview](../../customize/workflow-processes.md)">Workflows overview</a></li>
-<li><a href="../../developer/web-resources.md" data-raw-source="[Web resources for Customer Engagement](../../developer/web-resources.md)">Web resources for Customer Engagement</a></li>
+<li><a href="../../developer/web-resources.md" data-raw-source="[Web resources for Dynamics 365](../../developer/web-resources.md)">Web resources for Dynamics 365</a></li>
 
 </td></tr>
 </table>
 
 ## Related resources
 
-[Administrator Guide (Marketing)](../admin-guide.md)
-   
+[Administrator Guide (Marketing)](../admin-guide.md)  
 [User Guide (Marketing)](../../marketing/user-guide.md)  
-
-[Developer Guide for Dynamics 365 for Customer Engagement](../../developer/developer-guide.md) 
+[Developer Guide for Dynamics 365](../../developer/developer-guide.md) 

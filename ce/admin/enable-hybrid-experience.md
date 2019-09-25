@@ -2,7 +2,7 @@
 title: "Enable the hybrid experience | MicrosoftDocs"
 Description: Some features are not yet present in the Unified Interface but can be enabled for display as legacy dialogs in the Unified Interface through the hybrid experience.
 ms.custom: 
-ms.date: 11/26/2018
+ms.date: 09/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -36,7 +36,7 @@ The following features are not yet present in the Unified Interface but can be e
 - All options under **Set Personal Options** (![Settings gear](media/settings-gear-icon.png "Settings gear"))
 
  > [!NOTE]
-   >  Hybrid experience is not available on mobile.  
+   >  Hybrid experience is not available for on-premises version or on mobile.  
 
 These features are enabled through a setting in System Settings.
 
