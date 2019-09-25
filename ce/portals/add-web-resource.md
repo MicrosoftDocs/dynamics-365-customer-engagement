@@ -24,7 +24,7 @@ search.app:
 
 # Add the Azure Storage web resource to a form
 
-Attachments uploaded to [!include[Azure](../includes/pn-azure-shortest.md)] Storage instead of directly to Dynamics 365 can be managed by using notes in Dynamics 365 Portals.
+Attachments uploaded to [!include[Azure](../includes/pn-azure-shortest.md)] Storage instead of directly to Common Data Service can be managed by using notes in Dynamics 365 Portals.
 
 To enable attachments from a particular form to be uploaded into [!include[Azure](../includes/pn-azure-shortest.md)] Storage, you must add a web resource to that form and you must [configure Azure Storage for your organization](enable-azure-storage.md).
 
@@ -35,7 +35,7 @@ When a file (for example, attachments.zip) is uploaded to [!include[Azure](../in
 
 ![Attachment on a form](media/notes-attachment-lead-form.png "Placeholder for the attachment on a form")
 
-Note that the attachment file is now named attachment.zip.txt. By default, Dynamics 365 has no concept of an [!include[Azure](../includes/pn-azure-shortest.md)] file, so this placeholder .txt file is stored in Common Data Service instead. The [!include[Azure](../includes/pn-azure-shortest.md)] Storage context for the placeholder file shows details about the file.
+Note that the attachment file is now named attachment.zip.txt. By default, Common Data Service has no concept of an [!include[Azure](../includes/pn-azure-shortest.md)] file, so this placeholder .txt file is stored in Common Data Service instead. The [!include[Azure](../includes/pn-azure-shortest.md)] Storage context for the placeholder file shows details about the file.
 ```
 {
  Name: attachment.zip,
