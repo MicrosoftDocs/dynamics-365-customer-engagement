@@ -62,7 +62,7 @@ You can export portal configuration data from a source system by using portal-sp
     > [!div class=mx-imgBorder]
     ![Provide authentication details to connect to your Dynamics 365 instance from where you want to export data](media/export-config-login.png "Provide authentication details to connect to your Dynamics 365 instance from where you want to export data")
 
-5.	If you have multiple organizations, and you had selected the **Display list of available organizations** check box in the previous step, the next screen allows you to choose the organization that you want to connect to. Select a Dynamics 365 organization to connect to. 
+5.	If you have multiple organizations, and you had selected the **Display list of available organizations** check box in the previous step, the next screen allows you to choose the organization that you want to connect to. Select an organization to connect to. 
 
     > [!NOTE]
     > If you do not have multiple organizations, this screen is not displayed.
@@ -93,7 +93,7 @@ You can export portal configuration data from a source system by using portal-sp
 
 2.	On the **Login** screen, provide authentication details to connect to your Dynamics 365 instance from where you want to export data. If you have multiple organizations on the Dynamics 365 instance and want to select the organization from where to export the data, select the **Display list of available organizations** check box, and then select **Login**.
 
-3.	If you have multiple organizations, and you had selected the **Display list of available organizations** check box in the previous step, the next screen allows you to choose the organization that you want to connect to. Select a Dynamics 365 organization to connect to. 
+3.	If you have multiple organizations, and you had selected the **Display list of available organizations** check box in the previous step, the next screen allows you to choose the organization that you want to connect to. Select an organization to connect to. 
 
     > [!NOTE]
     > - If you do not have multiple organizations, this screen is not displayed.

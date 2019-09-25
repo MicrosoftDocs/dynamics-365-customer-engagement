@@ -52,7 +52,7 @@ Web portal customers can easily add case notes, and then select **Update** to in
 
 ## Close or cancel a case 
 
-A web portal customer can close a case directly from the portal. When editing a case, the customer can select the **Close Case** or **Cancel Case** buttons. The system will ask the customer for confirming the action for the selected operation. The customer can then select **Yes** to confirm the case closure or cancellation. This action will automatically close any open activities that are linked to the case record in Dynamics 365.
+A web portal customer can close a case directly from the portal. When editing a case, the customer can select the **Close Case** or **Cancel Case** buttons. The system will ask the customer for confirming the action for the selected operation. The customer can then select **Yes** to confirm the case closure or cancellation. This action will automatically close any open activities that are linked to the case record.
 
 ![Close or cancel a case](media/case-actions.png "Close or cancel a case") 
 

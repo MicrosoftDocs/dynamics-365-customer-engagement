@@ -1,5 +1,5 @@
 ---
-title: "Add geolocation to a managed form in Dynamics 365 | MicrosoftDocs"
+title: "Add geolocation to a managed form in Dynamics 365 Portals | MicrosoftDocs"
 description: "Instructions to add geolocation to a managed form."
 ms.custom: 
   - dyn365-portal
@@ -35,7 +35,7 @@ If the form or Address Line field is editable and this field is blank, when the 
 To add geolocation functionality to a managed form, the following tasks must be completed.
 
 ### Form customization
-Edit the Dynamics 365 entity form by using the form designer and make the following modifications:
+Edit the entity form by using the form designer and make the following modifications:
 
 1. Create a new section and provide an appropriate label, for example **Map**. This section will contain the map.
 2. Set the name of the section to **section\_map** or a name that ends with _section\_map_, for example **contoso\_section\_map**. This name is important because the form engine looks for a section with this name to determine when to render a map. 

@@ -87,6 +87,6 @@ When a portal user flags an idea on the portal by using a reason, the idea is hi
 
 ### See also
 
-[Manage idea forums in Dynamics 365](crowdsource-ideas.md#manage-idea-forums-in-dynamics-365)<br>
-[Manage ideas in Dynamics 365](crowdsource-ideas.md#manage-ideas-in-dynamics-365)
+[Manage idea forums](crowdsource-ideas.md#manage-idea-forums)<br>
+[Manage ideas](crowdsource-ideas.md#manage-ideas)
 
