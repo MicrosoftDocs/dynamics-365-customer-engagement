@@ -1,7 +1,9 @@
-# [Administer Dynamics 365 for Customer Engagement](admin-guide.md)
+
+# [Administer Dynamics 365 (online)](admin-guide.md)
+<!-- 
 # [What's new](release-history.md)
 # Getting started
-## [Getting started with your subscription](getting-started.md)
+## [Getting started with your subscription](getting-started.md) 
 ## [Terminology](online-terminology.md)
 ## [Try Dynamics 365 for Customer Engagement apps](try-dynamics-365-online.md)
 ## [About Unified Interface](about-unified-interface.md)
@@ -10,15 +12,13 @@
 ## [Enable hybrid experience](enable-hybrid-experience.md)
 ## [Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)
 ## [Onboarding cheat sheet for admins](onboarding-cheat-sheet-admins.md)
-## [Enabling preview features](what-are-preview-features-how-do-i-enable-them.md)
+## [Enabling preview features](what-are-preview-features-how-do-i-enable-them.md) 
 ## [Move between apps](quickly-navigate-office-365-app-launcher.md)
 ## [Sign in to apps](sign-in-office-365-apps.md) 
 ## [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)
 ## [What is Office 365?](what-office-365-how-does-relate.md)
-## [Office 365 user ID](whats-an-office-365-user-id-why-need-one.md)
-## [Manage subscription with Office 365 admin center](use-office-365-admin-center-manage-subscription.md)
-## Service health
-### [Check service health](check-online-service-health.md)
+## [Office 365 user ID](whats-an-office-365-user-id-why-need-one.md) 
+
 ### [Using Organization Insights solution](use-organization-insights-solution-view-instance-metrics.md)
 ### [Using Organization Insights dashboard (preview feature)](use-organization-insights-dashboard-view-instance-metrics.md)
 ## [Manage updates](manage-updates.md) 
@@ -52,10 +52,13 @@
 ### [Overview](supported-web-browsers-and-mobile-devices.md)
 ### [Web application requirements](web-application-requirements.md)
 ### [Support for devices](device-support.md)
-
-# Manage subscriptions, licenses, and user accounts
-## [Overview](manage-subscriptions-licenses-user-accounts.md)
+-->
+## [Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)
+<!-- 
 ## [Reset a user's password](reset-users-password.md)
+## [Manage subscription with Office 365 admin center](use-office-365-admin-center-manage-subscription.md)
+## Service health
+### [Check service health](check-online-service-health.md)
 ## [Manage email notifications](manage-email-notifications.md)
 ## [Purchase and assign licenses](purchase-assign-online-licenses.md)
 ## [Manage Microsoft licenses](manage-licenses.md)
@@ -69,7 +72,6 @@
 ## [Add Partner of Record](add-partner-record-subscription.md)
 ## [For partners: get credit when customers subscribe](partners-credit-when-customers-subscribe-dynamics-365.md)
 ## [For partners: Delegated Administrator](for-partners-delegated-administrator.md)
-
 # Manage security, users, and teams
 ## [Overview](manage-security-users-and-teams.md)
 ## Security concepts
@@ -94,27 +96,30 @@
 ## [Add teams or users to field security profile](add-teams-users-field-security-profile.md)
 ## [Synchronize user information between Customer Engagement and Active Directory](synchronize-user-information-active-directory.md)
 ## [Add or remove sales territory members](add-remove-territory-members.md)
-## [Troubleshooting: Read-write access](troubleshooting-user-needs-read-write-access-organization.md)
+## [Troubleshooting: Read-write access](troubleshooting-user-needs-read-write-access-organization.md) 
+-->
 
-# Manage instances
+## Manage instances
+<!-- 
 ## [Overview](manage-online-instances.md)
-## [What's new with instance management](new-instance-management.md)
-## [Sandbox](manage-sandbox-instances.md)
-## [Add instance](add-instance-subscription.md)
-## [Switch instance](switch-instance.md)
-## [Copy instance](copy-instance.md)
-## [Delete instance](delete-instance.md)
-## [Backup and restore instances](backup-restore-instances.md)
-## [Support instances](support-instance.md) 
-## [Move instance](move-instance-tenant.md)
-## [Common Data Service instances](common-data-service-instances.md)
-## [Edit properties of an instance](edit-properties-instance.md)
-## [Multiple online instances or tenants](multiple-online-instances-tenants.md)
-## [Add and edit multiregional instances](add-edit-multiregional-instances.md)
+-->
+### [Manage instances](new-instance-management.md)
+### [Sandbox](manage-sandbox-instances.md)
+### [Add instance](add-instance-subscription.md)
+### [Switch instance](switch-instance.md)
+### [Copy instance](copy-instance.md)
+### [Delete instance](delete-instance.md)
+### [Backup and restore instances](backup-restore-instances.md)
+### [Support instances](support-instance.md) 
+### [Move instance](move-instance-tenant.md)
+### [Common Data Service instances](common-data-service-instances.md)
+### [Edit properties of an instance](edit-properties-instance.md)
+### [Multiple online instances or tenants](multiple-online-instances-tenants.md)
+### [Add and edit multiregional instances](add-edit-multiregional-instances.md)
+<!-- 
 ## [Encryption keys for instance](manage-encryption-keys-instance.md)
 ## [Troubleshooting: Unblock required URLs](troubleshooting-unblock-urls-required.md)
 ## [Troubleshooting: Use the Solution Health Hub](solution-health-hub.md)
-
 # Datacenter regions
 ## [Overview](../admin/datacenter/new-datacenter-regions.md)
 ## [Australia](../admin/datacenter/about-microsoft-cloud-australia.md) 
@@ -240,8 +245,10 @@
 #### [Software requirements](sharepoint-document-management-software-requirements.md)
 #### Set up
 ##### [Overview](set-up-sharepoint-integration.md)
-##### [Set up to use SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
-##### [Set up to use SharePoint on-premises](configure-server-based-authentication-sharepoint-on-premises.md)
+##### [Set up Dynamics 365 (online) and SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
+##### [Set up Dynamics 365 (online) and SharePoint on-premises](configure-server-based-authentication-sharepoint-on-premises.md)
+##### [Set up Dynamics 365 (on-premises) and SharePoint Online](on-prem-server-based-sharepoint-online.md)
+##### [Set up Dynamics 365 (on-premises) and SharePoint on-premises](on-prem-server-based-sharepoint-on-prem.md)
 ##### [Switching from the list component](switching-list-component-changing-deployment.md)
 #### Configure
 ##### [Enable document management for entities](enable-sharepoint-document-management-specific-entities.md)
@@ -298,3 +305,4 @@
 ## [Mobile Client tab](system-settings-dialog-box-mobile-client-tab.md)
 ## [Previews tab](system-settings-dialog-box-previews-tab.md)
 ## [On-off switch for Learning Path (guided help)](on-off-switch-for-learning-path-guided-help.md)
+-->

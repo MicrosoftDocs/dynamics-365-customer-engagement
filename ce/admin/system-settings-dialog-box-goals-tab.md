@@ -37,7 +37,7 @@ Set the duration and frequency of the automatic rollup of goals. These settings 
 
    OR
 
-   If you are using the Sales Hub App, select the Site map icon ![Site map icon](../sales-enterprise/media/site-map-icon.png "Site map icon"), then select ellipsis ![Ellipsis to open more options](../sales-enterprise/media/ellipsis-more-options.png "Ellipsis to open more options") , then select **App Settings**, and then select **Goals Settings**.
+   If you are using the Sales Hub App, select the Site map icon ![Site map icon]../../../sales-enterprise/media/site-map-icon.png "Site map icon"), then select ellipsis ![Ellipsis to open more options](../sales-enterprise/media/ellipsis-more-options.png "Ellipsis to open more options") , then select **App Settings**, and then select **Goals Settings**.
   
   
 |                            Settings                            |                                                                                  Description                                                                                   |

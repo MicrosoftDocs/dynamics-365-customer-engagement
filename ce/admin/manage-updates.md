@@ -24,7 +24,7 @@ search.app:
 ---
 # Manage updates
 
-With [modernizing the way we update Dynamics 365 for Customer Engagement](https://aka.ms/dynamics365updatesblog), the update process has moved to the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+With [modernizing the way we update Dynamics 365 apps](https://aka.ms/dynamics365updatesblog), the update process has moved to the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 
 See [Early Opt in to 2019 release wave 2](https://docs.microsoft.com/power-platform/admin/preview-october-2019-updates).
 
