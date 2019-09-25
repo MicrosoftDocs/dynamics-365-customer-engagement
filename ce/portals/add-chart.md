@@ -1,6 +1,6 @@
 ---
 title: "Add a chart to a webpage in a portal | MicrosoftDocs"
-description: "Instructions to add a model-driven app chart to a webpage in the portal."
+description: "Instructions to add a chart created in a model-driven app to a webpage in the portal."
 ms.custom: 
   - dyn365-portal
 ms.date: 12/03/2018
@@ -22,13 +22,13 @@ search.app:
   - D365Portals
 ---
 
-# Add a model-driven app chart to a webpage in portal
+# Add a chart created in a model-driven app to a webpage in portal
 
 You add a chart to a webpage by using a Liquid tag named [Chart](dynamics-entity-tags.md#chart). You can add the chart Liquid tag in the **Copy** field on a webpage or in the **Source** field on a [Web template](store-content-web-templates.md).
  
 For example, {% chart id:EE3C733D-5693-DE11-97D4-00155DA3B01E %}
 
-![Model-driven app chart example](media/dynamics365-chart-example.png "Model-driven app chart example")
+![Chart example](media/dynamics365-chart-example.png "Chart example")
 
 You can also specify the ID of a view (saved query) to filter the query. For example:
 
@@ -43,12 +43,12 @@ You can also specify the ID of a view (saved query) to filter the query. For exa
 3.	Choose the chart you want.
 4.	Select **More Commands**, and then select **Export Chart**.
 
-    ![Export a model-driven app chart](media/export-dynamics365-chart.png "Export a model-driven app chart")
+    ![Export a chart](media/export-dynamics365-chart.png "Export a chart")
 
 5. Open the XML file of the exported chart in a text editor.
 6. Copy the value of the \<visualizationid\> tag.
 
-    ![Get chartid for a model-driven app chart](media/dynamics365-chart-chartid.png "Get the chart ID for a model-driven app chart")
+    ![Get chartid for a chart](media/dynamics365-chart-chartid.png "Get the chart ID for a chart")
 
 7. Paste the visualizationid value into your Liquid chart tag declaration for the chart ID parameter, for example:
 
@@ -82,11 +82,11 @@ If permission is not granted, the user will see an access denied message.
 
 ## Unsupported charts and chart types
 
-The following model-driven app chart types are currently not supported in Dynamics 365 Portals:
+The following chart types are currently not supported in Dynamics 365 Portals:
 - Doughnut
 - Tag
 
-The following table lists the model-driven app charts that are currently not supported in Dynamics 365 Portals.
+The following table lists the charts that are currently not supported in Dynamics 365 Portals.
 
 | Chart Name                              | Chart ID                             | Entity Type      |
 |-----------------------------------------|--------------------------------------|------------------|
