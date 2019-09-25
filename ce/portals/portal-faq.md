@@ -56,19 +56,19 @@ A Dynamics 365 Portals consists of the following components:
 
 - **Portal website host**: Portal website host is the Portal code that forms the actual website.
 
-- **Portal solutions**: Solutions that are installed in the Dynamics 365 organization and contain the metadata entities for any Dynamics 365 Portals.
+- **Portal solutions**: Solutions that are installed in the Common Data Service organization and contain the metadata entities for any Dynamics 365 Portals.
 
-To delete a portal completely requires deleting the Portal website host as well as uninstalling Portal solutions from your Dynamics 365 organization.
+To delete a portal completely requires deleting the Portal website host as well as uninstalling Portal solutions from your Common Data Service organization.
 
-To reset the portal host, follow the steps in [Reset a portal](reset-portal.md). It is important to note that resetting a portal host doesn't affect the configuration done in your Dynamics 365 organization.
+To reset the portal host, follow the steps in [Reset a portal](reset-portal.md). It is important to note that resetting a portal host doesn't affect the configuration done in your Common Data Service organization.
 
 To delete portal solutions, you will have to delete solutions from the Dynamics 365 solution explorer UI. The order in which Portal solutions should be uninstalled is provided in [Uninstalling Portal Solutions](https://community.dynamics.com/365/b/dynamics365portalssupport/archive/2017/02/27/portal-troubleshooting-part-three-uninstalling-portal-solutions).
 
-## Dynamics 365 organization lifecycle
+## Common Data Service organization lifecycle
 
-### We recently moved our Dynamics 365 organization from one geolocation or tenant to another. How do we handle portals connected to our organization?
+### We recently moved our Common Data Service organization from one geolocation or tenant to another. How do we handle portals connected to our organization?
 
-When you move your Dynamics 365 organization from one geolocation or tenant to another, associated portals to that organization will not move automatically. Also, since your organization has moved, any portal associated with that organization will not work and will throw an error on startup.
+When you move your Common Data Service organization from one geolocation or tenant to another, associated portals to that organization will not move automatically. Also, since your organization has moved, any portal associated with that organization will not work and will throw an error on startup.
 
 To associate your portal again to relevant organizations:
 
@@ -76,9 +76,9 @@ To associate your portal again to relevant organizations:
 
 2. Once your existing portal is reset, go to the new tenant (or to the new geolocation of the existing tenant) and provision a portal available there.
 
-### After restoring a Dynamics 365 organization from an old backup, the portal connected to the organization is not working. How do we fix it?
+### After restoring a Common Data Service organization from an old backup, the portal connected to the organization is not working. How do we fix it?
 
-When a Dynamics 365 organization is restored from a backup, various changes are done in your organization that can break your portal's connection with the organization. To fix this issue:
+When a Common Data Service organization is restored from a backup, various changes are done in your organization that can break your portal's connection with the organization. To fix this issue:
 
 - If the organization ID is the same after the restore operation and portal solutions are also available:
 
@@ -95,9 +95,9 @@ When a Dynamics 365 organization is restored from a backup, various changes are 
 
   - In this case, it is better to reset the portal by following the steps in [Reset a portal](reset-portal.md) and then reprovision it.
 
-### We recently changed the URL of our Dynamics 365 organization and our portal stopped working. How do we fix it?
+### We recently changed the URL of our Common Data Service organization and our portal stopped working. How do we fix it?
 
-When you change the URL of your Dynamics 365 organization, your portal will stop working because it cannot identify the Dynamics 365 URL anymore. To fix this issue:
+When you change the URL of your Common Data Service organization, your portal will stop working because it cannot identify the Dynamics 365 URL anymore. To fix this issue:
 
 1. Go to the Dynamics 365 admin center and select the **Applications** tab.
 2. Select the name of the portal and then select **Manage**.
@@ -138,27 +138,27 @@ You can enable your portal to use a custom domain name in place of the standard 
 
 ### Portal does not load and displays a generic error page (Server Error in "/" application) 
 
-This issue can be caused by a variety of reasons like when a portal is not able to connect to the underlying Dynamics 365 organization, Dynamics 365 organization doesn't exist or its URL has changed, when request to Dynamics 365 organization is timed out, and so on. When you run the portal checker tool, it will try to determine the exact reason and will point you to the correct mitigation. 
+This issue can be caused by a variety of reasons like when a portal is not able to connect to the underlying Common Data Service organization, Common Data Service organization doesn't exist or its URL has changed, when request to Common Data Service organization is timed out, and so on. When you run the portal checker tool, it will try to determine the exact reason and will point you to the correct mitigation. 
 
 Below is a list of most common causes and their correspondng mitigation steps:
 
-#### URL of the connected Dynamics 365 organization has changed 
+#### URL of the connected Common Data Service organization has changed 
 
-This happens when the URL of Dynamics 365 organization is changed by a user after portal is provisioned against the organization. To fix this issue, update the Dynamics 365 URL:
+This happens when the URL of Common Data Service organization is changed by a user after portal is provisioned against the organization. To fix this issue, update the Dynamics 365 URL:
 
 1. Go to the Dynamics 365 Administration Center page and select the **Applications** tab.
 2. Select the name of the portal that you want to reset, and then select **Manage**.
-3. Go to **Portal Actions** > **Update Dynamics 365 URL**. Once this action is successfully executed, your Dynamics 365 organization URL will be updated and portal will start working.
+3. Go to **Portal Actions** > **Update Dynamics 365 URL**. Once this action is successfully executed, your Common Data Service organization URL will be updated and portal will start working.
 
-#### Dynamics 365 organization connected to your portal is in administration mode
+#### Common Data Service organization connected to your portal is in administration mode
 
-This issue occurs when the Dynamics 365 organization is put in administration mode either when changing organization from production to sandbox mode or manually by an organization administrator.
+This issue occurs when the Common Data Service organization is put in administration mode either when changing organization from production to sandbox mode or manually by an organization administrator.
 
 If this is the cause, you can disable administration mode by performing actions listed [here](../admin/manage-sandbox-instances.md#administration-mode). Once administration mode is disabled, portal will work fine.
 
-#### Authentication connection between Dynamics 365 organization and portal is broken
+#### Authentication connection between Common Data Service organization and portal is broken
 
-This issue occurs when the authentication connection between Dynamic 365 organization and portal is broken because either Dynamics 365 organization was restored from a backup or was deleted and recreated from a backup. To fix this issue:
+This issue occurs when the authentication connection between Dynamic 365 organization and portal is broken because either Common Data Service organization was restored from a backup or was deleted and recreated from a backup. To fix this issue:
 
 1. Go to the Dynamics 365 Administration Center page and select the **Applications** tab.
 2. Select the name of the portal that you want to reset, and then select **Manage**.
@@ -169,9 +169,9 @@ This issue occurs when the authentication connection between Dynamic 365 organiz
 
 However, in certain situations especially if the organization ID has changed after the restore operation (or if you reprovisioned the organization), these mitigation steps will not work. In those situations, you can reset and reprovision the portal against the same instance. For information on how to reset a portal, see [Reset a portal](reset-portal.md).
 
-#### Request to Dynamics 365 organization has timed out
+#### Request to Common Data Service organization has timed out
 
-This issue is typically a transient issue which can occur if the API requests to your Dynamics 365 organization has timed out. This issue will automatically mitigate itself once the API requests starts working. To mitigate this issue, you can also try restarting the portal:
+This issue is typically a transient issue which can occur if the API requests to your Common Data Service organization has timed out. This issue will automatically mitigate itself once the API requests starts working. To mitigate this issue, you can also try restarting the portal:
 
 1. Go to the Dynamics 365 Administration Center page and select the **Applications** tab.
 2. Select the name of the portal that you want to reset, and then select **Manage**.
@@ -181,7 +181,7 @@ If restarting the portal doesn't work and this issue is occurring for a long per
 
 #### Website binding not found
 
-This issue occurs when the website binding records for portal are deleted from the underlying Dynamics 365 organization and portal is not able to create binding automatically. To fix this issue:
+This issue occurs when the website binding records for portal are deleted from the underlying Common Data Service organization and portal is not able to create binding automatically. To fix this issue:
 
 1. Sign in to Dynamics 365 Portals.
 2. Go to **Portals** > **Website Bindings**.
@@ -200,15 +200,15 @@ However, there are situations in which portal will not be able to recreate websi
   - Leave all other fields blank.
 3. Once website binding record is recreated, restart your portal from Portal Admin Center.
 
-#### An unexpected error has occurred while trying to connect to your Dynamics 365 organization
+#### An unexpected error has occurred while trying to connect to your Common Data Service organization
 
 This situation can arise due to some unexpected issue. To mitigate in this situation, you can either try resetting or reprovisioning the portal. For information on how to reset a portal, see [Reset a portal](reset-portal.md).
 
 If portal reset and reprovision doesn't solve this issue, please reach out to Microsoft support for help.
 
-### Portal is not displaying updated data from Dynamics 365 organization
+### Portal is not displaying updated data from Common Data Service organization
 
-Any Dynamics 365 data displayed on portal is rendered from the portal cache. This cache gets updated whenever data in Dynamics 365 organization is updated. However, this process is asynchronous and can take upto 15 minutes. If the changes are made in the metadata entity of portal, for example, web pages, web files, content snippet, site setting, and so on, it is advised to clear cache manually or restart the portal from Portal Admin Center. For information on how to clear cache, see [Clear the server-side cache for a portal](clear-server-side-cache.md). 
+Any Dynamics 365 data displayed on portal is rendered from the portal cache. This cache gets updated whenever data in Common Data Service organization is updated. However, this process is asynchronous and can take upto 15 minutes. If the changes are made in the metadata entity of portal, for example, web pages, web files, content snippet, site setting, and so on, it is advised to clear cache manually or restart the portal from Portal Admin Center. For information on how to clear cache, see [Clear the server-side cache for a portal](clear-server-side-cache.md). 
 
 However, if you are seeing stale data for a long time in non-portal metadata entities, it can be because of variety of issues listed below:
 

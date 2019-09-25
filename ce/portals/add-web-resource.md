@@ -1,5 +1,5 @@
 ---
-title: "Add azure storage web resource to a form in Dynamics 365 | MicrosoftDocs"
+title: "Add azure storage web resource to a form in Dynamics 365 Portals | MicrosoftDocs"
 description: "Steps to add azure storage web resource to a form to enable uploading attachments to Azure Storage."
 ms.custom: 
   - dyn365-portal
@@ -35,7 +35,7 @@ When a file (for example, attachments.zip) is uploaded to [!include[Azure](../in
 
 ![Attachment on a form](media/notes-attachment-lead-form.png "Placeholder for the attachment on a form")
 
-Note that the attachment file is now named attachment.zip.txt. By default, Dynamics 365 has no conception of an [!include[Azure](../includes/pn-azure-shortest.md)] file, so this placeholder .txt file is stored in Dynamics 365 instead. The [!include[Azure](../includes/pn-azure-shortest.md)] Storage context for the placeholder file shows details about the file.
+Note that the attachment file is now named attachment.zip.txt. By default, Dynamics 365 has no concept of an [!include[Azure](../includes/pn-azure-shortest.md)] file, so this placeholder .txt file is stored in Common Data Service instead. The [!include[Azure](../includes/pn-azure-shortest.md)] Storage context for the placeholder file shows details about the file.
 ```
 {
  Name: attachment.zip,
@@ -69,11 +69,11 @@ The new control will now be rendered on the page, giving you the ability to mana
 
 ![Azure file attachment on a form](media/azure-file-attachment-lead-form.png "Azure file attachment on a form")
 
-The paper-clip icon has been replaced with a cloud icon to denote that this file is stored in [!include[Azure](../includes/pn-azure-shortest.md)] Storage. You can continue to store attachments in Dynamics 365; those files will be denoted with the paper-clip icon.
+The paper-clip icon has been replaced with a cloud icon to denote that this file is stored in [!include[Azure](../includes/pn-azure-shortest.md)] Storage. You can continue to store attachments in Common Data Service; those files will be denoted with the paper-clip icon.
 
 > [!Note]
 > You must add cross-origin resource sharing (CORS) rule on your [!include[Azure](../includes/pn-azure-shortest.md)] Storage account as follows, otherwise you will see the regular attachment icon rather than the cloud icon.
-> - **Allowed origins**: Specify your Dynamics 365 domain. For example, contoso.crm.dynamics.com.
+> - **Allowed origins**: Specify your domain. For example, contoso.crm.dynamics.com.
 > - **Allowed verbs**: GET, PUT, DELETE, HEAD, POST
 > - **Allowed headers**: Specify the request headers that the origin domain may specify on the CORS request. For example, x-ms-meta-data\*, x-ms-meta-target\*. For this scenario, you must specify *, otherwise the web resource will not render properly.
 > - **Exposed headers**: Specify the response headers that may be sent in the response to the CORS request and exposed by the browser to the request issuer. For example, x-ms-meta-\*.
@@ -81,7 +81,7 @@ The paper-clip icon has been replaced with a cloud icon to denote that this file
 > 
 > [!include[More information](../includes/proc-more-information.md)] [CORS support for the Azure Storage Services](https://docs.microsoft.com/rest/api/storageservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services).
 
-If the attached file is an image, the control will display the image as a thumbnail whether it is stored in Dynamics 365 or [!include[Azure](../includes/pn-azure-shortest.md)] Storage.
+If the attached file is an image, the control will display the image as a thumbnail whether it is stored in Common Data Service or [!include[Azure](../includes/pn-azure-shortest.md)] Storage.
 
 > [!Note]
 > The thumbnail feature is limited to images under 1 MB in size.

@@ -42,19 +42,19 @@ When creating a new Entity Permission record, the first step is to determine the
 
 ### Global scope
 
-If an Entity Permission record with Read permission is granted to a role that has global scope, any contact in that role will have access to all records of the defined entity in Dynamics 365. For example, they will be able to see all leads, all accounts, and so on. This permission will be automatically respected by any entity lists, essentially showing all records according to the Dynamics 365 views that have been defined for that list. Further, if a user attempts to access a record via an entity form that they do not have access to, they will receive a permission error.
+If an Entity Permission record with Read permission is granted to a role that has global scope, any contact in that role will have access to all records of the defined entity. For example, they will be able to see all leads, all accounts, and so on. This permission will be automatically respected by any entity lists, essentially showing all records according to the model-driven app views that have been defined for that list. Further, if a user attempts to access a record via an entity form that they do not have access to, they will receive a permission error.
 
 ### Contact scope
 
-With Contact scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's contact record via a relationship that is defined in Dynamics 365.
+With Contact scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's contact record via a defined relationship.
 
-On an entity list, this means that a filter will be added to whatever Dynamics 365 views are surfaced by that list, which only retrieves records directly linked to the current user. (Depending on the scenario, this relationship can be thought of as ownership or management rights.)
+On an entity list, this means that a filter will be added to whatever model-driven app views are surfaced by that list, which only retrieves records directly linked to the current user. (Depending on the scenario, this relationship can be thought of as ownership or management rights.)
 
 Entity forms will only allow the appropriate permission for Read, Create, Write, and so on if this relationship exists when the record is loaded. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Define entity forms and custom logic within the Dynamics 365 Portals](entity-forms-custom-logic.md).  
 
 ### Account scope
 
-With Account Scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record via a relationship that is defined in Dynamics 365.
+With Account Scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record via a defined relationship.
 
 ### Self scope
 

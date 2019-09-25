@@ -26,7 +26,7 @@ search.app:
 
 A website is the core entity of Dynamics 365 Portals application. A portal application selects a single Website record, and this determines what portal entities – [web pages](web-page.md), [web files](web-files.md), [web roles](create-web-roles.md), [content snippets](customize-content-snippets.md), etc. – are applicable to this application.
 
-With a website providing an application scope, multiple distinct portal applications can be connected to a single Dynamics 365 organization.
+With a website providing an application scope, multiple distinct portal applications can be connected to a single organization.
 
 > [!NOTE]
 > Determination of which website record a given portal application is bound to is usually by the website's name, specified in the configuration of the portal deployment.
@@ -37,7 +37,7 @@ However, it is also possible to control this by URL path prefix (see the descrip
 Websites can be created, edited, and deleted within Dynamics 365. 
 
 > [!WARNING]
-> When deleting a website record, the portal entities related to the website (web pages, web files, etc.) will also be deleted. This is generally the desired behavior, as it means an entire website and all its related data can be removed from a Dynamics 365 organization in a single operation.
+> When deleting a website record, the portal entities related to the website (web pages, web files, etc.) will also be deleted. This is generally the desired behavior, as it means an entire website and all its related data can be removed from a organization in a single operation.
 
 1. Sign in to Dynamics 365 Portals.
 

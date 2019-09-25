@@ -73,7 +73,7 @@ The following table summarizes the features associated with the Common Data Serv
 |||
 
 > [!NOTE]
-> The Common Data Service starter portal cannot be used on a Dynamics 365 organization.
+> The Common Data Service starter portal cannot be used on a Common Data Service organization.
 
 ## Provision a Common Data Service starter portal
 
