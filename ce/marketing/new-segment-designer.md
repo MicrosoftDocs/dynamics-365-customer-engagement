@@ -38,96 +38,15 @@ search.app:
 
 <a name="segment-interaction"></a>
 
-## Design a behavioral segment
 
-_Behavioral segments_ query the _interaction_ records stored in the marketing insights database. Each of these records is generated automatically in response to something a contact did (such as open an email or visit a web page), and is related to the specific contact record associated with that action (if known). Interaction records are used to generate various insights displays in the Dynamics 365 Marketing UI, but they aren't synced to the Dynamics 365 Marketing organizational database.
-
-The result of a behavioral segment query is always a set of contacts who performed the relevant type of interaction according to the conditions established by the query.
-
-This type of segment is _dynamic_ because its membership is defined as a query, whose results can change from moment to moment in response to new interactions being added to the database.
-
-To create a behavioral segment, create a segment and then select the **Behavioral** option, as described in [Create and go live with a new segment](#create-segment).
-
-The following image shows an example of typical behavioral segment query and outlines key features of the designer user interface.
-
-![Segment designer UI elements for interaction segments](media/segment-interaction-callouts2.png "Segment designer UI elements for interaction segments")
-
-Legend:
-
-1. **Interaction name**: Use this drop-down list to select the type of interaction the behavioral segment will look for.
-2. **Full-screen editor**: Select this button to open the segment designer in full-screen mode, which provides more screen real estate for viewing and editing your query.
-3. **Show/hide interaction filters**: Select this button to show or hide filters for setting limits on the total number of interactions and/or a moving-window time period.
-4. **Interaction filters**: Use these to set a minimum or exact number of interactions that a contact must have performed to be included in this segment. You can also set a moving-window filter to only consider interactions that occurred recently, such as in the last two weeks. To enable the moving-window filter, change the third drop-down list from **interactions** to **interactions in the last**. The date of the moving window is always calculated based on the current date, so if you enable this, then some contacts may slip out of the segment with each passing day unless they remain engaged. In this example, the filter will find contacts who clicked on a message at least once in the past 45 days.
-5. **Additional restrictions**: These settings work just like they do for demographic and firmographic segments, but here they enable you to filter results based on values for the selected type of interaction records. For example, you might want to find clicks on email messages sent by a particular customer journey (as shown here). As with [demographic and firmographic segments](#segment-profile), you can add as many clauses and clause groups as you need here.
-
-> [!NOTE]
-> Behavioral segments can only contain one entity group, and do not offer the ability to estimate the segment size.
-
-### View and edit the raw query
-
-The segment designer provides a graphical interface for creating the logic for a dynamic segment. As  you work with the settings, you are actually creating a text-based query in the background. This is the query that the system will actually run against your database. Usually you don't need to use the query for anything, but sometimes it can help in troubleshooting. You can also copy/paste queries into the designer, which you might use to create a copy of an existing segment or to share a query design through email.
-
-To find, view, and edit the query, scroll to the bottom of the page and open the **Query view** tab here.
 
 <a name="segment-static"></a>
 
-## Design a static segment
 
-_Static segments_ let you select individual contacts, one by one, to create custom segments without requiring any logical expressions.
-
-When you are working with a static segment, you'll see a list of all of the contacts from your database, with a check box shown for each. Select the check box for each contact you want to include in the segment and clear the check box for all other contacts.
-
-To create a static segment, create a segment and then select the **Static** option, as described in [Create and go live with a new segment](#create-segment).
-
-Because your database probably includes many contacts, the designer often can't show all of them on one page. It provides paging controls at the bottom and a search filter at the top. Select the filter button at the top of the list to open a form where you can build a query that can help you find the contacts you want to add.
-
-![Segment designer for static segments](media/segment-static.png "Segment designer for static segments")
-
-When you're done picking contacts for your static segment, select Go live on the command bar, as usual. Once the segment is live, it will include a **Members** tab, which lists all contacts in the segment.
-
-> [!IMPORTANT]
-> Static segments can contain a maximum of 5,000 members. If you need to curate a larger list than this, then please create a static marketing list instead. You can bring a static marketing list into a dynamic profile segment using relations if needed. For more information about marketing lists and how they are different from segments, see [Marketing segments vs. marketing lists](segments-vs-lists.md) and [Create a marketing list using in-app marketing (Sales)](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md).
 
 <a name="segment-compound"></a>
 
-## Design a compound segment (combined audiences)
 
-_Compound segments_ combine two or more existing segments using union, exclude, and/or intersect operators to create a new segment based on the original segments. You can combine any or all other types of segments to create a compound segment, as needed.
-
-To create a compound segment:
-
-1. Create a segment and then select the **Combined audiences** option, as described in [Create and go live with a new segment](#create-segment).
-
-1. The compound segment designer opens. Select your first segment at the top of the **Add: Segment** panel.
-
-    ![Design a compound segment, step 1](media/segment-compound2-step1.png "Design a compound segment, step 1")
-
-    > [!TIP]
-    > Only existing, live segments are shown in the list. If you don't see a segment here that you are expecting, check to make sure it's live (not draft).
-
-1. Select the segment that you want to combine with the first one in the field at the bottom of the **Add: Segment** panel.
-1. In the space between your two segments in the **Add: Segment** panel, select an operator for combining your first two segments. The operators work as follows:
-
-   - **Union**: combines all members of the next segment with the results so far.
-   - **Exclude**: removes members of the next segment from the results so far.
-   - **Intersect**: removes all members from the results so far that are not also members of the next segment.
-
-    ![Design a compound segment, step 2](media/segment-compound2-step2.png "Design a compound segment, step 2")
-
-1. Select **Add** at the bottom of the **Add: Segment** panel to add your first two segments. The display updates to show a Sankey diagram. This makes it easy to visualize the how the various groups are being combined by the logic you design. It indicates how two incoming groups will be combined, the order of the combination, and the approximate effect that the combination logic will have on the resulting, combined group.
-
-    ![Design a compound segment, step 3](media/segment-compound2-step3.png "Design a compound segment, step 3")
-
-1. The **Add: Segment** panel now moves one position forward. To add another segment, choose a segment in the field at the bottom of the panel, select an operator, and then select **Add**.
-
-    ![Design a compound segment, step 4](media/segment-compound2-step4.png "Design a compound segment, step 4")
-
-1. Continue to compose your compound segment by adding more segments as needed and choosing an operation for each. As you work, you'll build a Sankey diagram of how your segments are combined, and how contacts flow into and out of the segment as a result of each operation.
-
-    > [!TIP]
-    > To remove a segment, replace a segment, or change operators, use the **Edit** button ![Edit button](media/segment-compound-edit-button.png "Edit button") or **Delete** button ![Delete button](media/segment-compound-delete-button.png "Delete button") provided at the segment intersection where you want to modify in the diagram.
-
-1. When you're done, save your segment and go live.
 
 ## Work with legacy segments
 

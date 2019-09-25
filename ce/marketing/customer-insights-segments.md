@@ -21,9 +21,7 @@ search.app:
   - D365Mktg
 ---
 
-# Early access: Use segments from Dynamics 365 Customer Insights with Dynamics 365 Marketing
-
-[!INCLUDE [cc-marketing-early-access-2019w2](../includes/cc-marketing-early-access-2019w2.md)]
+# Use segments from Dynamics 365 Customer Insights with Dynamics 365 Marketing
 
 Dynamics 365 Customer Insights applies artificial intelligence to analyze rich pools of customer data collected from across other apps like Dynamics 365 Sales, Service, and Marketing. Its standard functionality generates powerful analytical displays for each contact, which makes the information easy to understand and use. The integrated solution can:
 
@@ -35,12 +33,9 @@ For complete details, see the [Customer Insights documentation](https://docs.mic
 
 ## Prerequisites
 
-To use the features described in this topic, you must do the following:
+To use the features described in this topic, you must first set up a trial or production instance of Dynamics 365 Customer Insights.
 
-- **Set up a trial or production instance of Dynamics 365 Customer Insights**
 Dynamics 365 Customer Insights is a separate product from Dynamics 365 Marketing. You must already have a Customer Insights instance available before you can integrate it with Dynamics 365 Marketing. You can use either a trial or a production license of Customer Insights while to try out the integration, but must eventually purchase a full license if you decide to continue using it.
-- **Enable early access**
-This feature is currently in early access, which means that you must opt-in to the early access program to enable the feature. For details about how to enable early access features for Dynamics 365 Marketing, see [Enable the 2019 release wave 2 updates for Dynamics 365 Marketing](https://docs.microsoft.com/power-platform/admin/preview-october-2019-updates#enable-the-2019-release-wave-2-updates-for-dynamics-365-for-marketing).
 
 ## Overview: Working with Customer Insights segments in Marketing
 
@@ -82,9 +77,6 @@ When you export a segment to Dynamics 365 Marketing, the resulting segment will 
 One way to tell whether a segment in Marketing is being managed by Customer Insights is to open the segment and go to its **General** tab. The **Description** field here shows the URL of the Customer Insights instance where the segment came from and also the date and time the segment was last refreshed by being exported or re-exported.
 
 ![A segment from Customer Insights](media/ci-exported-segment-details.png "A segment from Customer Insights")
-
-> [!NOTE]
-> Although the **Description** field is used to hold this information in the current early-access version, we expect to provide a dedicated field for this in the final release.
 
 ### You must go live with your Customer Insights segments to use them in Marketing
 

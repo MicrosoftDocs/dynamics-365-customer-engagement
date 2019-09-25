@@ -122,10 +122,10 @@
 ### Define market segments
 #### [Working with segments](segmentation-lists-subscriptions.md)
 #### [Segments vs. lists](segments-vs-lists.md)
-#### [Design profile-based dynamic segments](segments-profile.md)
-#### [Design interaction-based dynamic segments](segments-interaction.md)
+#### [Design dynamic demographic or firmographic segments](segments-profile.md)
+#### [Design behavioral segments](segments-interaction.md)
 #### [Generate interaction segments from journey results](generate-segment-from-journey.md)
-#### [Define a static segment](segments-static.md)
+#### [Design static segments](segments-static.md)
 #### [Manage segment memberships from a contact record](manage-segments-from-contacts.md)
 #### [Combine segments into a compound segment](segments-compound.md)
 #### [Market to Dynamics 365 segments on LinkedIn ](linkedin-matched-audience.md)

@@ -27,7 +27,6 @@ Use segments to establish groups of related contacts that you can target with yo
 
 The segment designer resemble other querying tools found in Dynamics 365 (such as the advanced-find feature), but is often more flexible and more powerful. It's also the only tool that lets you query interaction records from the marketing-insights service.
 
-
 > [!NOTE]
 > *Marketing segments* are different than *marketing lists*. More information: [Marketing segments vs. marketing lists](segments-vs-lists.md)
 

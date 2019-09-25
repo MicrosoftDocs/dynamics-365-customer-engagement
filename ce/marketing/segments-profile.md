@@ -52,22 +52,29 @@ The following image shows an example of typical query block in a dynamic profile
 
 Legend:
 
-1. **Entity**: You can query any entity that's synced to the [marketing-insights service](mkt-settings-sync.md). However each query block must end with the **Contact** entity. You'll usually choose to start with the **Contact** entity and simply remain there (possibly adding clauses that query related entities), but you can also choose to begin with another entity and then link through one or more relations to end with **Contact** entity.
-1. **Related entity**: Related entities link to the current entity through a specific field in one of the two entities. Use related entities to find a collection of non-contact records (such as accounts) and then find the contacts related to those found records. In this example, you see a relation to the account entity annotated as **Account (Contact -> Account (Company name)**. That means that we are linking to the **Account** entity, which relates back to the **Contact** entity&mdash;in this case through a lookup field on the contact entity called **Company name**. This relation opens a clause group that will find some accounts based on the criteria nested below this relation, and then relates back to the contact entity by finding all of the contacts that work for the found companies (contacts that link to those companies through the contact **Company name** field). If needed, you can nest related entities within each other as your work farther and farther away from the contact entity.
+1. **Entity**: You can query any entity that's synced to the [marketing-insights service](mkt-settings-sync.md). However each query block must end with the **Contact** entity. You'll typically choose to start with the **Contact** entity and simply remain there (possibly adding clauses that query related entities), but you can also choose to begin with another entity and then link through one or more relations to end with **Contact** entity as the last one in your query block.
+1. **Related entity**: Related entities link the current entity to a related entity through a specific field of one of the two entities. In this example, you see a relation from the contact entity to the account entity, annotated as **Account (Contact -> Account (Company name))**. That means that we are linking to the **Account** entity, which relates back to the **Contact** entity&mdash;in this case through a lookup field on the contact entity called **Company name**. This relation opens a clause group that will find some accounts based on the criteria nested below this relation, and then relates back to the base entity (contact) by finding all of the contacts that work for the found companies (contacts that link to those companies through the contact **Company name** field). If needed, you can nest related entities within each other as your work farther and farther away from the base entity.
 1. **Clause group**: Clause groups are collections of logical clauses (rows) that are combined using either AND or OR operators. The AND operator is more exclusive; it only finds records that meet all of the criteria of each clause in the group. The OR operator is more expansive; it finds all records that meet any of the criteria for the group. Use the drop-down list at the top of the clause group to select the operator. You can nest clause groups inside one another. The system resolves the most deeply nested groups first and then works its way up. The example shown here will find _accounts_ (the parent entity) that are either in the _financial_ or _accounting_ industry, but only those that also have a category of _preferred customer_.
-1. **Single clause (row)**: Clauses represent the basic building blocks of the query. Each asks a specific question about a specific field value and finds records that answer that question. Each row starts by naming a field from the parent entity, followed by an operator (such as equals, contains, starts with, or ends with), followed by a value. Use the drop-down lists and fields provided to define the field, operator, and value for each new clause that you add, as needed. The example shown here finds contacts where the _city_ part of their address _equals__New York_.
-1. **Add item button**: Use the **Add** buttons to add a new row, clause group, or related entity at that location in the query structure. Select the button to open a drop-down list, and then select which type of item you want to add there (**Add row**, **Add group**, or **Add related entity**). Finally, configure the new row, clause group, or relation as needed using the drop-down lists and fields provided for the new item.
-1. **Add query block button**: Use the **Add query block** button to add a new block to the query. Each query block resolves to a collection of contacts, which you then combine using union, exclude, and/or intersect operators. A Sankey diagram is provided at the bottom of the page to help you visualize how your query blocks combine and flow into each other. The effect is similar to creating a compound segment, but in this case you are combining query blocks within a single segment rather than individual existing segments.
+1. **Single clause (row)**: Clauses represent the basic building blocks of the query. Each asks a specific question about a specific field value and finds records that answer that question. Each row starts by naming a field from the parent entity, followed by an operator (such as equals, contains, starts with, or ends with), followed by a value. Use the drop-down lists and fields provided to define the field, operator, and value for each new clause that you add, as needed. The example shown here finds contacts where the _city_ part of their address _equals_ _New York_.
+1. **Add item**: Use the **Add** buttons to add a new row, clause group, or related entity at that location in the query structure. Select the button to open a drop-down list, and then select which type of item you want to add there (**Add row**, **Add group**, or **Add related entity**). Finally, configure the new row, clause group, or relation as needed using the drop-down lists and fields provided for the new item.
+1. **Add query block**: Use this button to add a new block to the query. Each query block resolves to a collection of contacts, which you then combine using union, exclude, and/or intersect operators. A Sankey diagram is provided at the bottom of the page to help you visualize how your query blocks combine and flow into each other. The effect is similar to creating a compound segment, but in this case you are combining query blocks within a single segment rather than individual existing segments.
+1. **Segment name**: View and edit the name of your segment here.
 1. **Explore related entities**: Select this button to open a diagram that illustrates how various entities relate to each other in your database (especially, how they relate back to the contact entity). This can help you decide how to make use of related entities in your query.
+1. **View selector**: Use this drop-down list to select your preferred view for the query designer. Choose **Tree view** to show clause groups the way you see them in this diagram, with the operator (OR/AND) that applies to the group shown at the top of the group. Choose **Natural** to show the operator (OR/AND) at the start of each row.
 1. **Full-screen editor**: Select this button to open the segment designer in full-screen mode, which provides more screen real estate for viewing and editing your query.
-1. **Expand/collapse query block**: Select this button to expand or collapse all the rows in this query block. This lets you switch between getting the big picture and viewing individual query details, which can be handy if your query includes several query blocks.
-1. **Command menu and expand/collapse clause group button**: To delete a clause group, open the command menu ( **...** ) and select **Delete**. To expand or collapse a clause group, select the chevron button next to the command menu. The expand/collapse buttons lets you switch between getting the big picture and viewing individual rows, which can be handy if your query includes several clause groups.
+1. **Command menu**: Use the command menu ( **...** ) to operate on the  group where it appears, or selected elements in that group. The following commands can appear here (depending on the context):
+    - **Delete**: Deletes the entire group.
+    - **Delete selected**: Deletes only the selected rows from the group.
+    - **Ungroup all**: Moves all of the rows in the group up one level, which merges them into the group above this one.
+    - **Ungroup selected**: Moves only the selected rows into the group above this one.
+    - **Group selected**: Creates a new group containing the selected rows, nested below the current group.
+1. **Expand/collapse group or block**: Select a chevron button to expand or collapse all the rows in the group or query block below that button. This lets you switch between getting the big picture and viewing individual query details, which can be handy for complex queries.
+1. **Select box**: Use these check boxes to mark rows that you can operate on using the command menu.
 1. **Delete button**: To remove a clause (row) from your query, select the delete button next to the row you want to remove.
 
-> [!NOTE]
-> For clauses that query fields of type _multi option set_ or _lookup_, you can only specify one value in each clause. To find multiple values in these types of fields, create multiple clauses that query the same field and combine them using the OR operator.
-
 ## Build clauses
+
+Each segment query is made up of individual logical clauses that are grouped and combined using logical operators (AND/OR). Each clause looks for records that have a specific value (or range of values) in a specific field for a specific entity.
 
 The segmentation designer supports fields of all data types supported by Dynamics 365, including: option set, two option set, multiple option set, single line of text, multiple line of text, whole number, floating number, decimal number, currency, look up, date time, and customer.
 
@@ -79,8 +86,8 @@ The segmentation designer supports fields of all data types supported by Dynamic
 
 Legend:
 
-1. **Entity name**: This is the entity that the field comes from. This clause will return records of this type.
-1. **Field name**: This is the field that the clause will test. This drop-down list is organized into the following categories: **Fields** (includes standard and option-set fields), **Lookup fields** (described later in this topic), **Type** (a wildcard that lets you find all records of the selected entity) and (for contacts) **Interactions** (see [Design interaction-based dynamic segments](segments-interaction.md) for details about this category). If you know the name of the field you want to specify here, then start typing it's name in this field to filter the drop-down list.
+1. **Entity name**: This is the entity that the field comes from. It appears at the top of a collection of groups and/or rows. All clauses below a given entity will return records of that type.
+1. **Field name**: This is the field that the clause will test. Each field shows an icon that indicates the type of field it is (text, number, date, lookup, option set, and so on). If you know the name of the field you want to specify here, then start typing it's name in this field to filter the drop-down list.
 1. **Operator**: This is how the clause will test the values of the specified field. The choices here depend on the data type of the field. For example, string fields allow operators such as *is*, *is not*, *contains*, *begins with*, *ends with*, and more. Number fields offer comparisons such as *equal to*, *less than*, and *greater than*.
 1. **Value**: This is the value the clause will test for using the specified operator. With standard fields, this is free text, so you can type anything you like. Press return to add the value you've typed. After adding a value you can add more values by typing them and pressing return again. If you enter more than one value here, then the clause will find records that match any of these values (as if they were separate clauses combined with an OR operator). To remove a value from here, select its close icon, which looks like an X.
 
@@ -101,60 +108,53 @@ In the segment designer, multi option-set fields provide operators that appropri
 
 ### Create a clause that finds a lookup value
 
-*Lookup values* are values that come from a related entity. For example, the contact entity has a lookup field called **Company Name (Account)**, which relates to the account entity. In the contact record, this field stores the unique ID of a related account record, but the system displays the name of the company, which is found by looking up the account ID and finding the value of the matching account record's **Name** field.
+*Lookup values* are values that come from a related entity. For example, the contact entity has a lookup field called **Company Name**, which relates to the account entity. In the contact record, this field stores the unique ID of a related account record, but the system displays the name of the company, which is found by looking up the account ID and finding the value of the matching account record's **Name** field.
 
-When you're selecting the field name for a clause, lookup fields are shown under the **Lookup fields** section of the drop-down list. Lookup fields show both the local field name and the name of the related entity (in parenthesis).
-
-![A lookup field in the fields name drop-down list](media/segment-clause-lookup.png "A lookup field in the fields name drop-down list")
-
-In the previous screenshot, you can see that the **Contact** entity has a field called **Company Name**, which comes from a related **Account** record.
+When you're selecting the field name for a clause, lookup fields show a magnifying-glass icon.
 
 Provided the related entity is available to the marketing-insights service, you'll be able to select from among available values when you assign a value for your clause. In the previous example, you'd be able to choose from a list of available company names. If the related entity is not available to the marketing-insights service, then you'll have to look up and enter the [record ID](dynamic-email-content.md#record-ids) instead. Your administrator can add whatever entities you need to the marketing-insights service as required; for instructions, see [Choose entities to sync with the marketing-insights service](mkt-settings-sync.md)
 
-Lookup fields also provide a special operator called **has**. Use this operator to test for the value of any field from the related entity, rather than just the value displayed by the local entity. For example, if you are querying the **Company Name (Account)** field of the **Contact** entity, you can use the **is/is in** operator to test for values of the **Name** field of the related account entity. But if you use the **has** operator, you can test for any field value from the related account record (such as **Address 1: City**). In the following illustration, this clause will find contacts who work for companies with street addresses in New York or Chicago.
+<!-- Lookup fields also provide a special operator called **has**. Use this operator to test for the value of any field from the related entity, rather than just the value displayed by the local entity. For example, if you are querying the **Company Name** (Account) field of the **Contact** entity, you can use the **is/is in** operator to test for values of the **Name** field of the related account entity. But if you use the **has** operator, you can test for any field value from the related account record (such as **Address 1: City**). In the following illustration, this clause will find contacts who work for companies with street addresses in New York or Chicago.
 
-![A lookup field in the fields name drop-down list](media/segment-clause-has.png "A lookup field in the fields name drop-down list")
-
-## Combine clauses with logical operators
-
-## Example: Define a simple segment based on contacts
-
-A simple query uses a single group that references the contact entity only. When you create this type of segment definition, set up a query with clauses that test various field values from your contact records and combine the various clauses using the logical operators AND and OR. For an example, see the tutorial [Create a dynamic segment](create-segment.md).
+![A lookup field in the fields name drop-down list](media/segment-clause-has.png "A lookup field in the fields name drop-down list") -->
 
 ## Move between entities with relationships
 
-When you create a new segment, it automatically starts with a default group based on the contact entity, as we saw in the [previous example](create-segment.md). So long as you only want to query values directly on the contact entity, then it's straightforward to add various clauses and combine them with AND/OR operators until you've defined the set of contacts you're looking for. However, you can also build much more complex queries that start from some other entity (such as accounts), queries that entity according to some criteria (such as number of employees) and then *transverses* to the contact entity to find the contacts associated with those accounts. All segments must end with the contact entity, so any time you start with a non-contact entity you must eventually traverse back to the contact entity using *relationships*.
+When you create a new segment, it automatically starts with a default group based on the contact entity, as we saw in the [previous example](create-segment.md). So long as you only want to query values directly on the contact entity, then it's straightforward to add various clauses and combine them with AND/OR operators until you've defined the set of contacts you're looking for. However, you can also build much more complex queries that reference some other entity (such as accounts), queries that entity according to some criteria (such as number of employees) and then relates back to the contact entity to find the contacts associated with those accounts.
 
-Relationships are listed in the first drop-down list (together with the entities) when you add a new clause. When you select a relationship instead of an entity, then no further settings are available for that clause.
+All segments must end with the contact entity, so any time you start with a non-contact entity you must eventually traverse back to the contact entity. However, you can normally start with the contact entity and remain there by referencing related entities as nested groups. In each case, you hop from entity to entity by using a *relationship*. As with rows and groups, you can add a related entity using the **Add** button.
 
-When you are selecting a relation, the options are displayed using the following naming convention:
+When you are selecting a related entity, the options are displayed using the following naming convention:
 
-_PrimaryEntity_ **->** _SecondaryEntity_ **(**_FieldName_**)**  
+*DestinationEntity* **(**_PrimaryEntity_ **->** _SecondaryEntity_ **(**_FieldName_**))**
 
 Where:
 
+- ***DestinationEntity*** is the entity you are going to. All rows listed below the relationship will query fields from this entity.
 - ***PrimaryEntity*** is an entity at the starting side of the relationship. It is always shown on the left side of the arrow. For example, a *contact* (primary entity) can be related to an *account* (secondary entity) through the account's *primary contact* field (field name).
-- ***FieldName*** is the name of the field through which the relation is established. It is always shown in parenthesis. The named field belongs to the primary entity, and displays a value from the secondary entity (but actually contains the ID of the related record that value is drawn from). In some cases, you might see two or more relationships between the same two entities, each of which flows through a different field.
+- ***FieldName*** is the name of the lookup field through which the relation is established. It is always shown in parenthesis. The named field belongs to the primary entity, and displays a value from the secondary entity (but actually contains the ID of the related record that value is drawn from). In some cases, you might see two or more relationships between the same two entities, each of which flows through a different field.
 - ***SecondaryEntity*** is the destination of the relationship. It is always shown on the right side of the arrow.
-
-When you're choosing relationships, either the primary entity or the secondary entity must be the entity of the previous clause, while the other entity must the be one you are changing to with the next clause after the relation. Relationships work in both directions, so it doesn't matter which is the primary and which is the secondary.
 
 For example:
 
-- **Account -> Contact (Primary Contact)**: This relationship is used by the **Account** entity to display information from the **Contact** entity in a contact record's **Primary Contact** field. In other words, it links to the primary contact for an account.
-- **Contact -> Account (Managing Partner)**: This relationship is used by the **Contact** entity to display information from the **Account** entity in a contact record's **Managing Partner** field. In other words, it links to the company (account) that is the managing partner for a contact.
-- **Event Registration -> Contact (Contact)**: This relationship is used by the **Event Registration** entity to display information from the **Contact** entity in an event-registration record's **Contact** field. In other words, it links to the contact that registered for an event.
-- **Lead -> Contact (Parent Contact for lead)**: This relationship is used by the **Lead** entity to display information from the **Contact** entity in a lead record's **Parent Contact** field. In other words, it links to the contact associated with the lead.
+- **Account (Account -> Contact (Primary Contact))**: This opens a new group where you can query accounts (the destination entity) to return a list of contacts that are shown as the primary contact for each found account (because "Primary Contact" is a lookup field on the "Account" entity).
+- **Account (Contact -> Account (Managing Partner))**: This opens a new group where you can query accounts (the destination entity) to return a list of contacts that show that account as their managing partner  (because "Managing Partner" is a lookup field on the "Contact" entity).
+- **Event Registration (Event Registration -> Contact (Contact))**: This opens a new group where you can query event registrations entity (the destination entity) to return a list of contacts that have registered for the found events (because "Contact" is a lookup field on the "Event Registration" entity).
+- **Lead (Lead -> Contact (Parent Contact for lead))**: This opens a new group where you can query leads (the destination entity) to return a list of contacts associated with (as the *parent of*) each of the found leads (because "Parent Contact for lead" is a lookup field on the "Lead" entity).
 
 > [!IMPORTANT]
 > Your segment must always end on the contact entity. If you start with some other entity, then you must always end with a relation back to the contact entity.
 
 > [!TIP]
-> While you're designing your query, select the **Explore** button to see a graphical map of how the current entity relates to other entities. This tool can help you figure out how to traverse the various entities to create a path that ends at the required **Contact** entity (shown in turquoise). Available paths and entities are shown in blue, while entities and paths that aren't directly available to the current entity appear in light gray. Already used paths and entities are shown in dark gray.
+> While you're designing your query, select the **Explore related entitites** button to see a graphical map of how the current entity relates to other entities. This tool can help you figure out how to traverse the various entities to create a path that ends at the required **Contact** entity. Available paths and entities are shown in blue, while entities and paths that aren't directly available to the current entity appear in light gray. Already used paths and entities are shown in dark gray.
 > 
 > ![The segment explorer](media/segment-explorer-example1.png "The segment explorer")
 
-## Example: Define a more complex segment based on opportunities
+## Example: Define a simple segment based on contacts
+
+A simple query uses a single group that references the contact entity only. When you create this type of segment definition, set up a query with clauses that test various field values from your contact records and combine the various clauses using the logical operators AND and OR. For an example, see the tutorial [Create a dynamic segment](create-segment.md).
+
+<!-- ## Example: Define a more complex segment based on opportunities
 
 Here's an example of how to define a segment that starts by finding a collection of opportunities and, as usual, ends by finding the contacts that belong to that segment. In this example, we'll find contacts associated with opportunities with an estimated revenue over $10,000 and then build a relation to the contacts entity.
 
@@ -183,7 +183,7 @@ Here's an example of how to define a segment that starts by finding a collection
 
 1. Select **Save** and then **Go live** on the command bar.
 
-1. Your segment is now live and will now find contacts associated with opportunities valued over $10,000.
+1. Your segment is now live and will now find contacts associated with opportunities valued over $10,000. -->
 
 ## Combine multiple query blocks
 
@@ -206,7 +206,7 @@ Legend:
 
 The segment designer provides a graphical interface for creating the logic for a dynamic segment. As  you work with the settings, you are actually creating a text-based query in the background. This is the query that the system will actually run against your database. Usually you don't need to use the query for anything, but sometimes it can help in troubleshooting. You can also copy/paste queries into the designer, which you might use to create a copy of an existing segment or to share a query design through email.
 
-To find, view, and edit the query, scroll to the bottom of the page and open the **Query view** tab here.
+To find, view, and edit the query, scroll to the bottom of the page and open the **Query view** tab here. 
 
 ### See also
 
