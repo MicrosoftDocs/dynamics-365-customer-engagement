@@ -1,22 +1,11 @@
 ---
-title: "Integrate with Citrix applications in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Integrate with Citrix applications in Unified Service Desk | MicrosoftDocs"
 description: "The topic explains the integration with Citrix application in Unified service Desk."
-ms.custom:
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer:
 ms.service: dynamics-365-customerservice
-ms.suite:
-ms.tgt_pltfrm:
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 174894bd-eb2e-4b67-95bd-74e6b3540f47
-caps.latest.revision: 18
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -28,92 +17,92 @@ search.app:
   - D365USD
 ---
 # Integrate with Citrix applications in Unified Service Desk
-Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by hosting them in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. This enables customer service agents to interact with the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications from within the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client while working on the customer data in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps. You can configure a Windows application as a virtual application on Citrix XenApp 7.6 that runs as a hosted application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. More information: [Software requirements for Citrix XenApp application virtualization](admin/unified-service-desk-system-requirements.md#software-requirements-for-citrix-xenapp-application-virtualization)
-
- The [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application hosted  in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client uses the Independent Computing Architecture (ICA) protocol to remotely communicate with the application on a [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] server. A Citrix .ica file contains information to connect to the remote server  such as the server address, session properties, and authentication information.
-
- For more information about integrating [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] with [!INCLUDE[pn_citrix](../includes/pn-citrix.md)], see [Blog: Citrix and Unified Service Desk](https://blogs.msdn.microsoft.com/usd/2016/05/13/citrix-and-unified-service-desk/)
-
- This topic provides information about configuring server- and client-side components for integrating [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] with [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications, sample [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] adapters, and some best practices.
-
-<a name="ServerSide"></a>
-## Configure server-side component for Citrix integration
- The server-side component is implemented as an executable (Microsoft.Uii.Csr.CitrixIntegration.exe) that is configured as a startup program to automatically start when a [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application starts. The executable quickly self-terminates if the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application has not been invoked from a [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. The server-side component needs to be configured on each [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] server.
-
-1. [Download](https://go.microsoft.com/fwlink/p/?LinkId=519179) the [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] SDK package.
-
-2. Double-click the package file to extract the contents.
-
-3. Navigate to the `<ExtractedFolder>\UII\Bin\UII\Citrix Server Component` folder, and then copy all the files under this folder to a folder (e.g. ServerSideComponent) on your Citrix server.
-
-4. In the ServerSideComponent folder on your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] server, edit the `RegPatch Install StartupPrograms on Citrix Server.reg` file using Notepad to set the value of the "StartupPrograms" parameter to the full file path of the Microsoft.Uii.Csr.CitrixIntegration.exe executable file.
-
-5. Apply the registry patch on your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] server by running the `RegPatch Install StartupPrograms on Citrix Server.reg` file. This registry patch designates an executable as a startup program that will be launched alongside a [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application.
-
-<a name="ClientSide"></a>
-## Configure client-side component for Citrix integration
- The client-side configuration for [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] integration involves two things:
-
-- Configure a UII hosted application (`Remote Hosted Application`) instance in your Dynamics 365 for Customer Engagement apps instance that can be used directly without any custom code, or can be extended as required. Actions fired on the UII hosted application instances are transmitted to the server-side component using a .ica file, where it is dispatched to the application adapters configured, if any. For more information about UII hosted applications, see [UII hosted applications](../unified-service-desk/uii-hosted-applications.md)
-
-- Copy the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application executable and other required assemblies in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory, apply client-side registry patch, and add [!INCLUDE[pn_citrix](../includes/pn-citrix.md)]-specific settings in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client app config file. This step needs to be performed on each computer where the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application is installed.
-
-<a name="ConfRemoteHosted"></a>
-### Configure a Remote Hosted Application
-
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.
-
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
-
-3. Click **Hosted Controls**, and then click **New**.
-
-4. On the **New Hosted Control** page, under the **General** area, specify a name, sort order and display name for the hosted application. Each hosted application should have a unique name. Sort order specifies the order in which the hosted applications are retrieved and displayed in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
-
-5. Under the `Unified Service Desk` area, select **CCA Hosted Application** from the **USD Component Type** list.
-
-6. Under the **Hosted App Type** area, select **Remote Hosted Application** from the **Hosted Application** list.
-
-7. In the **Adapter Configuration** section, there are three adapter configurations to choose from the **Adapter** drop-down list:
-
-   1. **Use No Adapter**: Specifies that the hosted application does not require any automation.
-
-   2. **Use Automation Adapter (HAT)**: Specifies the default configuration used for the Hosted Application Toolkit (HAT) Software Factory. If the hosted application uses an Automation Adapter (HAT), specify the hosted application’s binding information in the **Automation XML** field under the **Automation** area. For more information about bindings, see [Use UII inspector to create bindings for the hosted application](../unified-service-desk/use-uii-inspector-create-bindings-hosted-application.md).
-
-   3. **Use Adapter**: Specifies that the hosted application uses a custom adapter.
-
-      For information about using adapters for [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] integration, see [Sample Citrix adapters](#SampleAdapters)
-
-8. Under the **Citrix Application Settings** area, specify the following values:
-
-   - **ICA File Name**: Specify the full path to the .ica file required for launching the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application. An .ica file contains information to connect to the remote server  such as the server address, session properties, and authentication information.
-
-   - **Process Acquisition Attempts**: Specify the number of times the server-side executable file should scan the process table to look for the process running the launched Citrix application. The Citrix application process may take a little while to appear in the process table.
-
-   - **Process Acquisition Delay**: Specify the delay in milliseconds between each process table scan.
-
-   - **Process Acquisition FileName**: Specify the complete path to the Citrix application file name. This value is used by the server-side executable file to compare against the file names of the running processes to find a match.
-
-9. Save the hosted control.
-
-### Copy executable, apply registry patch, and add Citrix config settings
- This step must be performed on each computer where the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application is installed.
-
-1. Navigate to the `<ExtractedFolder>\UII\Bin\UII\Citrix Server Component` folder where  \<ExtractedFolder> is the location where you extracted the downloaded the UII SDK package file in the  [Configure server-side component for Citrix integration](#ServerSide) section earlier.
-
-2. Copy the following files from the   `<ExtractedFolder>\UII\Bin\UII\Citrix Server Component` folder to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client folder (typically C:\Program Files\Microsoft Dynamics CRM USD\USD):
-
-   -   Microsoft.Uii.Csr.CitrixIntegration.exe
-
-   -   AxWFICALib.dll
-
-   -   WFICALib.dll
-
-3. Apply the registry patch on your [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client computer to enable the use of custom virtual channels by running the following files available at `<ExtractedFolder>\UII\Bin\UII\Citrix Server Component` folder:
-
-   - **For x86 client**:  RegPatch Allow Custom Virtual Channels in ICAClient.reg
-
-   - **For x64 client**:  RegPatch Allow Custom Virtual Channels in ICAClient x64 Client.reg
-
+Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by hosting them in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. This enables customer service agents to interact with the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications from within the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client while working on the customer data in the Common Data Service platform. You can configure a Windows application as a virtual application on Citrix XenApp 7.6 that runs as a hosted application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. More information: [Software requirements for Citrix XenApp application virtualization](admin/unified-service-desk-system-requirements.md#software-requirements-for-citrix-xenapp-application-virtualization)  
+  
+ The [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application hosted  in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client uses the Independent Computing Architecture (ICA) protocol to remotely communicate with the application on a [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] server. A Citrix .ica file contains information to connect to the remote server  such as the server address, session properties, and authentication information.  
+  
+ For more information about integrating [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] with [!INCLUDE[pn_citrix](../includes/pn-citrix.md)], see [Blog: Citrix and Unified Service Desk](https://blogs.msdn.microsoft.com/usd/2016/05/13/citrix-and-unified-service-desk/)  
+  
+ This topic provides information about configuring server- and client-side components for integrating [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] with [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications, sample [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] adapters, and some best practices.  
+  
+<a name="ServerSide"></a>   
+## Configure server-side component for Citrix integration  
+ The server-side component is implemented as an executable (Microsoft.Uii.Csr.CitrixIntegration.exe) that is configured as a startup program to automatically start when a [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application starts. The executable quickly self-terminates if the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application has not been invoked from a [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. The server-side component needs to be configured on each [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] server.  
+  
+1. [Download](http://go.microsoft.com/fwlink/p/?LinkId=519179) the [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] SDK package.  
+  
+2. Double-click the package file to extract the contents.  
+  
+3. Navigate to the `<ExtractedFolder>\UII\Bin\UII\Citrix Server Component` folder, and then copy all the files under this folder to a folder (e.g. ServerSideComponent) on your Citrix server.  
+  
+4. In the ServerSideComponent folder on your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] server, edit the `RegPatch Install StartupPrograms on Citrix Server.reg` file using Notepad to set the value of the "StartupPrograms" parameter to the full file path of the Microsoft.Uii.Csr.CitrixIntegration.exe executable file.  
+  
+5. Apply the registry patch on your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] server by running the `RegPatch Install StartupPrograms on Citrix Server.reg` file. This registry patch designates an executable as a startup program that will be launched alongside a [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application.  
+  
+<a name="ClientSide"></a>   
+## Configure client-side component for Citrix integration  
+ The client-side configuration for [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] integration involves two things:  
+  
+- Configure a UII hosted application (`Remote Hosted Application`) instance in your Common Data Service platform instance that can be used directly without any custom code, or can be extended as required. Actions fired on the UII hosted application instances are transmitted to the server-side component using a .ica file, where it is dispatched to the application adapters configured, if any. For more information about UII hosted applications, see [UII hosted applications](../unified-service-desk/uii-hosted-applications.md)  
+  
+- Copy the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application executable and other required assemblies in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory, apply client-side registry patch, and add [!INCLUDE[pn_citrix](../includes/pn-citrix.md)]-specific settings in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client app config file. This step needs to be performed on each computer where the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application is installed.  
+  
+<a name="ConfRemoteHosted"></a>   
+### Configure a Remote Hosted Application  
+  
+1. Sign in to the Common Data Service platform.  
+  
+2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+  
+3. Click **Hosted Controls**, and then click **New**.  
+  
+4. On the **New Hosted Control** page, under the **General** area, specify a name, sort order and display name for the hosted application. Each hosted application should have a unique name. Sort order specifies the order in which the hosted applications are retrieved and displayed in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]  
+  
+5. Under the `Unified Service Desk` area, select **CCA Hosted Application** from the **USD Component Type** list.  
+  
+6. Under the **Hosted App Type** area, select **Remote Hosted Application** from the **Hosted Application** list.  
+  
+7. In the **Adapter Configuration** section, there are three adapter configurations to choose from the **Adapter** drop-down list:  
+  
+   1. **Use No Adapter**: Specifies that the hosted application does not require any automation.  
+  
+   2. **Use Automation Adapter (HAT)**: Specifies the default configuration used for the Hosted Application Toolkit (HAT) Software Factory. If the hosted application uses an Automation Adapter (HAT), specify the hosted application’s binding information in the **Automation XML** field under the **Automation** area. For more information about bindings, see [Use UII inspector to create bindings for the hosted application](../unified-service-desk/use-uii-inspector-create-bindings-hosted-application.md).  
+  
+   3. **Use Adapter**: Specifies that the hosted application uses a custom adapter.  
+  
+      For information about using adapters for [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] integration, see [Sample Citrix adapters](#SampleAdapters)  
+  
+8. Under the **Citrix Application Settings** area, specify the following values:  
+  
+   - **ICA File Name**: Specify the full path to the .ica file required for launching the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application. An .ica file contains information to connect to the remote server  such as the server address, session properties, and authentication information.  
+  
+   - **Process Acquisition Attempts**: Specify the number of times the server-side executable file should scan the process table to look for the process running the launched Citrix application. The Citrix application process may take a little while to appear in the process table.  
+  
+   - **Process Acquisition Delay**: Specify the delay in milliseconds between each process table scan.  
+  
+   - **Process Acquisition FileName**: Specify the complete path to the Citrix application file name. This value is used by the server-side executable file to compare against the file names of the running processes to find a match.  
+  
+9. Save the hosted control.  
+  
+### Copy executable, apply registry patch, and add Citrix config settings  
+ This step must be performed on each computer where the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application is installed.  
+  
+1. Navigate to the `<ExtractedFolder>\UII\Bin\UII\Citrix Server Component` folder where  \<ExtractedFolder> is the location where you extracted the downloaded the UII SDK package file in the  [Configure server-side component for Citrix integration](#ServerSide) section earlier.  
+  
+2. Copy the following files from the   `<ExtractedFolder>\UII\Bin\UII\Citrix Server Component` folder to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client folder (typically C:\Program Files\Microsoft Dynamics CRM USD\USD):  
+  
+   -   Microsoft.Uii.Csr.CitrixIntegration.exe  
+  
+   -   AxWFICALib.dll  
+  
+   -   WFICALib.dll  
+  
+3. Apply the registry patch on your [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client computer to enable the use of custom virtual channels by running the following files available at `<ExtractedFolder>\UII\Bin\UII\Citrix Server Component` folder:  
+  
+   - **For x86 client**:  RegPatch Allow Custom Virtual Channels in ICAClient.reg  
+  
+   - **For x64 client**:  RegPatch Allow Custom Virtual Channels in ICAClient x64 Client.reg  
+  
    > [!NOTE]
    >  If this registry patch is not applied, communication between client and server won't be possible.
 

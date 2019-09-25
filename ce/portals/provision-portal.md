@@ -1,5 +1,5 @@
 ---
-title: "Provision a portal for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Provision a portal for Dynamics 365 | MicrosoftDocs"
 description: "Instructions to provision a portal."
 ms.custom: 
   - dyn365-portal
@@ -24,16 +24,16 @@ search.app:
 ---
 
 # Provision a portal
-Portals are websites that you can customize to provide a more personalized experience to your customers, partners, or internal employees. Portals integrate with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to show data from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] on the portal. By using portals, you can create a variety of experiences where portal users can perform several tasks. For example:
+Portals are websites that you can customize to provide a more personalized experience to your customers, partners, or internal employees. Portals integrate with Dynamics 365 to show data from Dynamics 365 on the portal. By using portals, you can create a variety of experiences where portal users can perform several tasks. For example:
 
 -   Customers can submit cases and find knowledge articles.
 -   Partners can see and manage sales opportunities.
 -   Internal employees can create and see best practices.
 
 > [!NOTE]
-> To provision a portal, you must be assigned either System Administrator or System Customizer role of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization selected for the portal. You must also have the [required permissions](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions) to create and register an application in Azure AD. If you don't have the required permissions, contact the Global Administrator to update your permissions or ask the Global Administrator to provision the portal.
+> To provision a portal, you must be assigned either System Administrator or System Customizer role of the Dynamics 365 organization selected for the portal. You must also have the [required permissions](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions) to create and register an application in Azure AD. If you don't have the required permissions, contact the Global Administrator to update your permissions or ask the Global Administrator to provision the portal.
 
-To complete provisioning a portal, after you have purchased a new portal license, return to your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance.
+To complete provisioning a portal, after you have purchased a new portal license, return to your Dynamics 365 instance.
 
 1.  Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page, and then select the **Applications** tab.
 
@@ -60,19 +60,19 @@ To complete provisioning a portal, after you have purchased a new portal license
 
     > [!NOTE]
     > - To change the URL of a portal after it is provisioned, see [change the base URL of a portal](change-base-url.md).
-    > - To link your portal to a custom domain, see [link your Dynamics 365 for Customer Engagement portal to a custom domain](manage-portal.md#link-your-dynamics-365-for-customer-engagement-portal-to-a-custom-domain).
+    > - To link your portal to a custom domain, see [link your Dynamics 365 Portals to a custom domain](manage-portal.md#link-your-dynamics-365-portals-to-a-custom-domain).
 
-6.  In the **Dynamics 365 Instance** drop-down list, select the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you want to link the portal to. This requires System Administrator or System Customizer role in the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you pick to select it.
+6.  In the **Dynamics 365 Instance** drop-down list, select the Dynamics 365 instance you want to link the portal to. This requires System Administrator or System Customizer role in the Dynamics 365 instance you pick to select it.
 
     > [!NOTE]
     > You can also select a Dynamics 365 instance that uses Common Data Service to provision a Common Data Service starter portal. More information: [Common Data Service starter portal](cds-portal.md)
 
-7.  In the **Select Portal Language** drop-down list, select the default language for your portal. The available languages will depend on the languages that are installed in your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance. 
+7.  In the **Select Portal Language** drop-down list, select the default language for your portal. The available languages will depend on the languages that are installed in your Dynamics 365 instance. 
 
     > [!NOTE]
     > Sample data is only provided in one language, so choosing a default language will also decide how the sample data is translated. Arabic and Hebrew are not supported and will not appear in the list.
 
-8. In the **Select Portal Administrator** drop-down list, select the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] user who will configure, customize, and maintain the portal. All [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users who have the System Administrator role in the organization will appear as options. 
+8. In the **Select Portal Administrator** drop-down list, select the Dynamics 365 user who will configure, customize, and maintain the portal. All Dynamics 365 users who have the System Administrator role in the organization will appear as options. 
 
 9. In the **Portal Audience** section, choose the type of audience who will visit the new portal. This will determine what options of portals you will be given. You can choose:
 
@@ -163,7 +163,7 @@ If *Name*-Configuring changes to *Name*-Provisioning Failed, you need to restart
 If the package installation has failed, the portal administrator page will open without any issues, but navigating to the actual portal URL will show a message Getting set up. To confirm this:
 
 1. Go to the Solution Management page of the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and check that the package status is **Install Failed**. 
-2. If the package status is **Install Failed**, try retrying the installation from the solution page. Also, be sure to check that a system administrator in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] is installing the solution with the default language in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] set to the language the portal should be installed in.
+2. If the package status is **Install Failed**, try retrying the installation from the solution page. Also, be sure to check that a system administrator in Dynamics 365 is installing the solution with the default language in Dynamics 365 set to the language the portal should be installed in.
 
 > [!Note]
 > Some solutions have prerequisites for their installation, so an installation will fail if the prerequisites are not met. For example, to install the Partner Field Service for a partner portal, the Partner Portal and Field Service solutions must have already been installed. If you attempt to install the Partner Field Service first, the installation will fail and give you an error message.
@@ -172,10 +172,10 @@ If the package installation has failed, the portal administrator page will open 
 
 The Dynamics 365 Portal app allows you to configure and manage your online platform to communicate and collaborate with customers. 
 
-When you install Dynamics 365 for Customer Engagement Portal version 9.0 and higher, the Dynamics 365 Portal app, built on the Unified Interface framework, is created out-of-the-box.
+When you install Dynamics 365 Portals version 9.0 and higher, the Dynamics 365 Portal app, built on the Unified Interface framework, is created out-of-the-box.
 
 ### Open Dynamics 365 Portal app
 
-1.	Sign in to Dynamics 365 for Customer Engagement.
+1.	Sign in to Dynamics 365 Portals.
 2.	Open the URL `<organization URL>/apps` or go to **Settings** > **My Apps**. 
 3.	Select the Dynamics 365 Portal app.

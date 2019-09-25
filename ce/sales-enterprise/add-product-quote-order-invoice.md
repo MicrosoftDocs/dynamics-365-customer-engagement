@@ -1,19 +1,15 @@
 ---
-title: "Add products to a quote, order, or invoice (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Include details about the products that your customer is interested in purchasing in your quote, order, or invoice in Dynamics 365 for Sales."
+title: "Add products to a quote, order, or invoice (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Include details about the products that your customer is interested in purchasing in your quote, order, or invoice in Dynamics 365 Sales."
 keywords: "product, quote, order, invoice"
-ms.date: 08/01/2019
+ms.date: 10/01/2019
 ms.service: dynamics-365-sales
 ms.custom: dyn365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: c1f6f66e-25fe-4528-a2f3-f2a3a2e3830d
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 58
 ---
 

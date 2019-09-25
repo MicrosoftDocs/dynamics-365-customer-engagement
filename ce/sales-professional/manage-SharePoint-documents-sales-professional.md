@@ -1,24 +1,19 @@
 ---
-title: "Manage your SharePoint documents and document locations in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Store your sales documents on SharePoint and manage them from within Dynamics 365 for Sales Professional."
-keywords: ""
-ms.date: 04/05/2019
+title: "Manage your SharePoint documents and document locations in Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Store your sales documents on SharePoint and manage them from within Dynamics 365 Sales Professional."
+ms.date: 10/01/2019
 ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 98950c0c-8f3d-4cf2-9791-70c7b4ecb790
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
-# Manage your SharePoint documents and document locations in Dynamics 365 for Sales Professional
+# Manage your SharePoint documents and document locations in Dynamics 365 Sales Professional
 
-With Dynamics 365 for Sales Professional, you can store your documents on Microsoft SharePoint and manage them from within your app.
+With Dynamics 365 Sales Professional, you can store your documents on Microsoft SharePoint and manage them from within your app.
 
 The documents that you create in the Sales app are stored on SharePoint and are automatically synced to your desktop and mobile devices.
 
@@ -160,7 +155,7 @@ In the **Documents** list:
 2.  In the **Create a New Folder** dialog box, enter a name for the folder, and select **Save**.
 
   >[!NOTE]
-  >If your folder name contains a slash (/), Dynamics 365 for Sales Professional creates nested folders. For example, if you enter the folder name as Bike/2001, two folders are created: "Bike" and "2001". The 2001 folder is created inside the Bike folder.
+  >If your folder name contains a slash (/), Dynamics 365 Sales Professional creates nested folders. For example, if you enter the folder name as Bike/2001, two folders are created: "Bike" and "2001". The 2001 folder is created inside the Bike folder.
 
 ## Actions on documents
 
@@ -176,6 +171,6 @@ When you select one or more documents in the Documents list, you can take these 
 
 ### See also
 
-[Configure Dynamics 365 for Sales Professional to integrate with SharePoint](connect-with-sharepoint.md)  
+[Configure Dynamics 365 Sales Professional to integrate with SharePoint](connect-with-sharepoint.md)  
 [Manage your customers](manage-accounts-contacts.md)   
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)

@@ -1,20 +1,10 @@
 ---
 title: "CRM Page (Hosted Control) | MicrosoftDocs"
-description: "Learn about the CRM Page hosted control type to load a URL or page from Dynamics 365 for Customer Engagement apps. When a Dynamics 365 for Customer Engagement apps page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
-ms.custom:
-  - dyn365-USD
+description: "Learn about the CRM Page hosted control type to load a URL or page from the model-driven app. When a model-driven apps page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer:
 ms.service: dynamics-365-customerservice
-ms.suite:
-ms.tgt_pltfrm:
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 81102351-b49b-47fe-a28d-f70be86b20fd
 author: kabala123
 ms.author: kabala
@@ -27,15 +17,15 @@ search.app:
   - D365USD
 ---
 # CRM Page (Hosted Control)
-Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. When a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters.
+Use the **CRM Page** hosted control type to load a URL or page from model-driven apps. When a model-driven apps page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters.  
 
- This hosted control type exposes a number of predefined UII actions and events that are unique to handling of Dynamics 365 for Customer Engagement apps windows including list manipulation actions, and a find action for displaying a quick search or advanced search page
+ This hosted control type exposes a number of predefined UII actions and events that are unique to handling of windows including list manipulation actions, and a find action for displaying a quick search or advanced search page  
 
 <a name="Create"></a>
 ## Create a CRM Page hosted control
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **CRM Page** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).
 
- ![Dynamics 365 for Customer Engagement apps page hosted control](../unified-service-desk/media/crm-itpro-usd-crmpagehostedcontrol.PNG "Dynamics 365 for Customer Engagement apps page hosted control")
+ ![CRM page hosted control](../unified-service-desk/media/crm-itpro-usd-crmpagehostedcontrol.PNG "CRM page hosted control")  
 
  In the **New Hosted Control** screen:
 
@@ -46,7 +36,7 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
   application. This could help agents instantly act or kick start discussion with
   customers, and save crucial interaction time.
 
-- From the **Allow Multiple Pages** drop-down list, select **No** (default) to replace the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps page that is currently displayed, and update the browser history when [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] receives a navigate action call or a page is routed to the tab. Select **Yes** to automatically create a drop-down list when a second URL is called or a window navigation rule directs a page to the tab. This will allow the user to quickly search between the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps pages that are attached to this control. Also, when you select **Yes**, an additional field, **Maximum Browsers**, becomes available where you can specify the maximum number of pages to be displayed in the drop-down list.
+- From the **Allow Multiple Pages** drop-down list, select **No** (default) to replace the model-driven apps page that is currently displayed, and update the browser history when [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] receives a navigate action call or a page is routed to the tab. Select **Yes** to automatically create a drop-down list when a second URL is called or a window navigation rule directs a page to the tab. This will allow the user to quickly search between the model-driven apps page that are attached to this control. Also, when you select **Yes**, an additional field, **Maximum Browsers**, becomes available where you can specify the maximum number of pages to be displayed in the drop-down list.  
 
 - The **Hosting Type** drop-down list specifies how you want this control to be hosted. You can choose **IE Process** (default) or **Internal WPF** . For more information, see [Select a hosting method for hosted controls](../unified-service-desk/select-hosting-method-controls.md).
 
@@ -60,15 +50,15 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
 ## Predefined UII actions
  These are the predefined actions for this hosted control type.
 
-### AssociatedView
- This action loads a specific associated view of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps.  These views are typically accessed by clicking down arrow next to an entity record name in the nav bar, and selecting the associated entities.
+### AssociatedView  
+ This action loads a specific associated view of model-driven apps. These views are typically accessed by clicking down arrow next to an entity record name in the nav bar, and selecting the associated entities.  
 
 
 |  Parameter  |                                                 Description                                                  |
 |-------------|--------------------------------------------------------------------------------------------------------------|
 | navItemName |                        The associated entity that you want to display. Example: Cases                        |
 |     Id      |             The ID of the main entity record for which to display the associated entity records.             |
-|   tabset    | The area in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. Examples: areaSales or areaService. |
+|   tabset    | The area in model-driven apps. Examples: areaSales or areaService. |
 
  For more information about using this action, see step 5 in [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md).
 
@@ -140,29 +130,29 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
 ### GoForward
  This action is equivalent to clicking the forward button on the browser instance.
 
-### LoadArea
- This action loads a specific area from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. This is equivalent to selecting an area in the navigation pane (such as Sales, Service, and Marketing). The only parameter is the name of the area to click. For example: **areaService**.
+### LoadArea  
+ This action loads a specific area from model-driven apps. This is equivalent to selecting an area in the navigation pane (such as Sales, Service, and Marketing). The only parameter is the name of the area to click. For example: **areaService**.  
 
 |Parameter|Description|
 |---------------|-----------------|
 |frame|The name of the frame to affect. If no name is specified, it will automatically target the first frame found on the page.|
 
-### LookupInfo
- Displays a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps lookup information dialog box to allow you to select an entity from a list.
+### LookupInfo  
+ Displays the Common Data Service platform lookup information dialog box to allow you to select an entity from a list.  
 
-|Parameter|Description|
-|---------------|-----------------|
-|AllowFilterOff|“0” or “1” to allow the user to turn off the filtering|
-|DefaultType|The Logical Name of the default display. This should be one of the numeric values specified in the objecttypes parameter.|
-|DefaultViewId|“0” or “1” to show the default view|
-|DisableQuickFind|“0” or “1” to show the quick find field|
-|DisableViewPicker|“0” or “1” to show the view selector|
-|LookupStyle|Single or Multiple|
-|ShowNewButton|“0” or “1” to show new button|
-|ShowPropButton|“0” or “1” to show properties button|
-|Browse|“0” or “1” whether to use browsing mode. The following is with this set to “1”.|
-|Currentid|The Guid for the current value|
-|objecttypes|List of object types to display. These are the etc types from Dynamics 365 for Customer Engagement apps. Example: “1,2” to display accounts and contacts.|
+|Parameter|Description|  
+|---------------|-----------------|  
+|AllowFilterOff|“0” or “1” to allow the user to turn off the filtering|  
+|DefaultType|The Logical Name of the default display. This should be one of the numeric values specified in the objecttypes parameter.|  
+|DefaultViewId|“0” or “1” to show the default view|  
+|DisableQuickFind|“0” or “1” to show the quick find field|  
+|DisableViewPicker|“0” or “1” to show the view selector|  
+|LookupStyle|Single or Multiple|  
+|ShowNewButton|“0” or “1” to show new button|  
+|ShowPropButton|“0” or “1” to show properties button|  
+|Browse|“0” or “1” whether to use browsing mode. The following is with this set to “1”.|  
+|Currentid|The Guid for the current value|  
+|objecttypes|List of object types to display. Example: “1,2” to display accounts and contacts.|  
 
 <a name="MoveToPanel"></a>
 ### MoveToPanel
@@ -172,22 +162,22 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
 |---------------|-----------------|
 ||The data parameter should specify the target panel name to move the hosted control to. For example: `FloatingPanel`.|
 
-### Navigate
- This action is used to navigate to a Dynamics 365 for Customer Engagement apps url.
+### Navigate  
+ This action is used to navigate to a model-driven app url.  
 
 
 |     Parameter     |                                                                                                                                                                                                                                       Description                                                                                                                                                                                                                                        |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |        url        |                                                                                                                                                                                                                  The URL to navigate to. This is a mandatory parameter.                                                                                                                                                                                                                  |
 |      Noscan       |                                                                                                                                                                                           If this parameter is supplied and **True**, the data parameters will not be captured from the page.                                                                                                                                                                                            |
-|  HideCommandBar   |                                                                                                                                                        If this parameter is supplied and **True**, the inner frame will be displayed without loading the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps command bar.                                                                                                                                                        |
-| HideNavigationBar |                                                                                                                                                          If this parameter is supplied and **True**, the form will be displayed without loading the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps navigation bar.                                                                                                                                                          |
+|  HideCommandBar   |                                                                                                                                                        If this parameter is supplied and **True**, the inner frame will be displayed without loading the model-driven apps command bar.                                                                                                                                                        |
+| HideNavigationBar |                                                                                                                                                          If this parameter is supplied and **True**, the form will be displayed without loading the model-driven apps navigation bar.                                                                                                                                                          |
 |       Frame       |                                                                                                                                                                          When frames exist on the page, this parameter would specify the name of the frame to navigate, rather than navigating the main window.                                                                                                                                                                          |
 |     postdata      |                Data that is sent to the server as part of an HTTPPOST transaction. A POST transaction is typically used to send data gathered by an HTML page. In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], this data can be received from any event triggered using "<http://event/?>". Example: `[[postdata]+]`<br /><br /> Alternatively, the data can be passed as an encoded string with its header type in the intended format.                 |
 |      header       | A string value that contains additional HTTP headers to send to the server. When the `postdata` parameter is used in the `Navigate` action, you should also specify an appropriate value for the `header` parameter. Example: `Content-Type:application/x-www-form-urlencoded`<br /><br /> If a [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]POST event triggers the `Navigate` action, the default value of this parameter should be `header=[[header]+]` |
 
-### New_CRM_Page
- Creates a page for creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.
+### New_CRM_Page  
+ Creates a page for creating a new record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
 
 |Parameter|Description|
 |---------------|-----------------|
@@ -222,16 +212,16 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
 ### ReRoute
  This action takes the currently displayed URL, and sends it through the window navigation rules from the current hosted control as a popup.
 
-### RunScript
- This action injects JavaScript into the main frame of the application. You should avoid using [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps client SDK calls with this action; instead, use the **RunXrmCommand** action.
+### RunScript  
+ This action injects JavaScript into the main frame of the application. You should avoid using the Common Data Service platform client SDK calls with this action; instead, use the **RunXrmCommand** action.  
 
 |Parameter|Description|
 |---------------|-----------------|
 ||The data parameter is the JavaScript that will be injected into the form. **Note:**  The replacement parameters can be used in the script, and they will be replaced before the script is executed.|
 
-<a name="RunXrmCommand"></a>
-### RunXrmCommand
- This action is used to inject [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps SDK JavaScript into the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps form.
+<a name="RunXrmCommand"></a>   
+### RunXrmCommand  
+ This action is used to inject the Common Data Service platform SDK JavaScript into the model-driven apps form.  
 
 |Parameter|Description|
 |---------------|-----------------|
@@ -246,8 +236,8 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
 |width|The width of the hosted control.|
 |height|The height of the hosted control.|
 
-### SaveAndClose
- This action saves the dirty data on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps form, and closes the hosted control.
+### SaveAndClose  
+ This action saves the dirty data on the model-driven apps form, and closes the hosted control.  
 
 <a name="SaveAll"></a>
 ### SaveAll
@@ -259,8 +249,8 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
 ### ToggleRibbon
  This action collapses or expands the ribbon. If you hide the ribbon in the **Navigate** action, it will not be displayed and this action does not work. This action will work only when the ribbon was initially loaded.
 
-### ToggleNavigation
- This action collapses or expands the navigation pane on the left panel of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps window. The navigation must contain a navigation panel for this action to work.
+### ToggleNavigation  
+ This action collapses or expands the navigation pane on the left panel of the model-driven apps window. The navigation must contain a navigation panel for this action to work.  
 
 <a name="events"></a>
 ## Predefined events
@@ -309,17 +299,17 @@ and the **DataReady** event is fired for inline navigations as well.
 |---------------|-----------------|
 |url|The URL displayed when refresh was requested.|
 
-### Saved
- Occurs after a record in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps page is saved.
+### Saved  
+ Occurs after a record in the model-driven apps page is saved.  
 
 |Parameter|Description|
 |---------------|-----------------|
 |newId|The ID assigned to the newly created record.|
 
-### See also
- [CRM Dialog (Hosted Control)](../unified-service-desk/crm-dialog-hosted-control.md)
- [UII actions](../unified-service-desk/uii-actions.md)
- [Events](../unified-service-desk/events.md)
- [Walkthrough 3: Display Microsoft Dynamics 365 for Customer Engagement apps records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
- [Administration Guide for Unified Service Desk for Microsoft Dynamics 365 for Customer Engagement apps](https://go.microsoft.com/fwlink/p/?LinkID=394402)
+### See also  
+ [CRM Dialog (Hosted Control)](../unified-service-desk/crm-dialog-hosted-control.md)   
+ [UII actions](../unified-service-desk/uii-actions.md)   
+ [Events](../unified-service-desk/events.md)   
+ [Walkthrough 3: Display records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
+ [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
+ [Administration Guide for Unified Service Desk](http://go.microsoft.com/fwlink/p/?LinkID=394402)

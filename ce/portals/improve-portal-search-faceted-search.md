@@ -1,5 +1,5 @@
 ---
-title: "Use faceted search to improve portal search in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Use faceted search to improve portal search in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to enable or disable faceted search."
 ms.custom: 
   - dyn365-portal
@@ -29,12 +29,12 @@ Portal content may be searched by using filters based on characteristics of the 
 
 Out-of-the-box faceted search is enabled in your portals. To control or enable it, follow these steps:
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and go to **Portals** &gt; **Website** &gt; **Site Settings**.
+1. Sign in to Dynamics 365 Portals and go to **Portals** &gt; **Website** &gt; **Site Settings**.
 2. Select the **Search/FacetedView** site setting. 
 3. Change the **Value** to **True** to enable or **False** to disable faceted search.
 
 To disable a single piece of the faceted view:
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and go to **Portals** &gt; **Web Templates**.
+1. Sign in to Dynamics 365 Portals and go to **Portals** &gt; **Web Templates**.
 2. Select the view to disable (that is, Knowledge Management – Top Rated Articles)
 3. Select **Deactivate** at the top of the page.
 
@@ -42,7 +42,7 @@ To disable a single piece of the faceted view:
 
 The site setting **Search/RecordTypeFacetsEntities** allows you to group similar entities together so users have logical ways of filtering search results. For example, instead of having separate options for forums, forum posts, and forum threads, these entities are grouped under the Forums record type.
 
-In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Portals** &gt; **Websites** &gt; **Site Settings** and open the **Search/RecordTypeFacetsEntities** site setting. 
+In Dynamics 365, go to **Portals** &gt; **Websites** &gt; **Site Settings** and open the **Search/RecordTypeFacetsEntities** site setting. 
 
 Notice that the different entities are preceded by the word **Forums:**. This is because the first value is the name with they are grouped as. This word will be translated based on the language that is being used on the portal.
 

@@ -1,22 +1,11 @@
 ---
 title: "Configure and manage agent scripts | MicrosoftDocs"
 description: "Learn about configuring and managing agent scripts."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: c4b63840-4613-46d9-a843-23233c259b60
-caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -35,7 +24,7 @@ Each step in an agent script is represented as an agent script task. An agent sc
 <a name="create"></a>   
 ## Create an agent script task  
 
-1. Sign in to Microsoft Dynamics 365 for Customer Engagement apps.  
+1. Sign in to the Common Data Service platform..  
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 
@@ -51,7 +40,7 @@ Each step in an agent script is represented as an agent script task. An agent sc
    |     **Name**     |                                                                                                                                                                                                                                                                                                                                                              A name that will appear in the current step and history area.                                                                                                                                                                                                                                                                                                                                                              |
    |  **StartTask**   | Select **Yes** or **No**:<br /><br /> - **Yes**: This task will be displayed at the start of a session.  Typically, a user’s security will provide them only one start task.  Start tasks may represent functional areas or skills of the agent.  As agents get more experienced, they may get more start tasks (cross training).  If two or more start tasks are assigned to an agent, a special **[Main Menu]** will be displayed as the first task to the agent.  The buttons will then become the start tasks that the user may access.<br />- **No**: These may be accessed from answers of other tasks or you may call [GoToTask](../unified-service-desk/agent-scripting-hosted-control.md#GoToTask) action on the **Agent Scripting** hosted control to access a specific task. |
    |   **Show Tab**   |                                                                                                                                                                                                                                        Select the hosted control (tab) that should be set to focus when this task is reached by the user.  This may be used to place the user on the control that will help to perform the actions that are needed for this task step.  If this field is left blank, no change will be made to the focused tab.                                                                                                                                                                                                                                        |
-   |   **Category**   |                                                                                                                                                                                                                                                                                     Specify a category name to group, filter, or sort agent script tasks Microsoft Dynamics 365 for Customer Engagement apps while managing agent script tasks.<br /><br /> The category value is not used by agents in the client application.                                                                                                                                                                                                                                                                                      |
+   |   **Category**   |                                                                                                                                                                                                                                                                                     Specify a category name to group, filter, or sort agent script tasks while managing agent script tasks.<br /><br /> The category value is not used by agents in the client application.                                                                                                                                                                                                                                                                                      |
    |  **ScriptText**  |                                                                                                                                                                                                                        This is the script that the agent should read to the caller at this stage.  This field supports replacement parameters.  To insert the context variable, **fullname** into the script, type **[[fullname]]** into the flow of the script.  At runtime, it will replace this text with the value from the context for the current session.                                                                                                                                                                                                                        |
    | **Instructions** |                                                                                                                                                                                                                                                                                                   These are instructions to the user for what they should do to complete their work.  This is displayed in a slightly different font than the **Script Text** to help distinguish it.                                                                                                                                                                                                                                                                                                   |
 

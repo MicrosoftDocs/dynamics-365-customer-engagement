@@ -1,6 +1,6 @@
 ---
 title: "Use OAuth 2.0 implicit grant flow within your portal | MicrosoftDocs"
-description: "Learn how to make client-side calls to external APIs and secure them by using OAuth implicit grant flow in the Dynamics 365 for Customer Engagement Portal."
+description: "Learn how to make client-side calls to external APIs and secure them by using OAuth implicit grant flow in the Dynamics 365 Portals."
 ms.custom: 
   - dyn365-portal
 ms.date: 07/18/2019
@@ -135,11 +135,11 @@ You must register the client ID with the portal for which this flow is allowed. 
 
 ## Sample code
 
-You can use the following sample code to get started with using OAuth 2.0 Implicit Grant with Dynamics 365 for Customer Engagement Portal APIs.
+You can use the following sample code to get started with using OAuth 2.0 Implicit Grant with Dynamics 365 Portals APIs.
 
 ### Use Portal OAuth token with an external Web API
 
-This sample is an ASP.NET based project and is used to validate the ID token issued by Dynamics 365 for Customer Engagement Portal. The complete sample can be found here: [Use Portal OAuth token with an external Web API](https://github.com/microsoft/PowerApps-Samples/tree/master/portals/ExternalWebApiConsumingPortalOAuthTokenSample).
+This sample is an ASP.NET based project and is used to validate the ID token issued by Dynamics 365 Portals. The complete sample can be found here: [Use Portal OAuth token with an external Web API](https://github.com/microsoft/PowerApps-Samples/tree/master/portals/ExternalWebApiConsumingPortalOAuthTokenSample).
 
 ### Authorize Endpoint sample
 
@@ -147,4 +147,4 @@ This sample shows how authorize endpoint returns the ID token as a fragment in t
 
 ### Token Endpoint sample
 
-This sample shows how you can use the getAuthenticationToken function to fetch an ID token using the Token endpoint in Dynamics 365 for Customer Engagement Portal. The sample can be found here: [Token Endpoint sample](https://github.com/microsoft/PowerApps-Samples/blob/master/portals/TokenEndpoint.js).
+This sample shows how you can use the getAuthenticationToken function to fetch an ID token using the Token endpoint in Dynamics 365 Portals. The sample can be found here: [Token Endpoint sample](https://github.com/microsoft/PowerApps-Samples/blob/master/portals/TokenEndpoint.js).

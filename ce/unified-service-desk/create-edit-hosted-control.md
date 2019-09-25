@@ -1,22 +1,11 @@
 ---
 title: "Create or edit a hosted control | MicrosoftDocs"
-description: "Learn about creating or editing an existing hosted control using Dynamics 365 for Customer Engagement apps."
-ms.custom: 
-  - dyn365-USD
+description: "Learn about creating or editing an existing hosted control."
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 738ededa-c01e-42a5-b5ee-56885c764a59
-caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -28,9 +17,9 @@ search.app:
   - D365USD
 ---
 # Create or edit a hosted control
-You create or edit an existing hosted control using [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps. The controls in the new hosted control page differ based on the type of hosted control you create.  
+You create or edit an existing hosted control using the Common Data Service platform. The controls in the new hosted control page differ based on the type of hosted control you create.  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   

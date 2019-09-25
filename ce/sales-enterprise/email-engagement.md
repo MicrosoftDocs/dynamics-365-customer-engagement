@@ -1,18 +1,12 @@
 ---
-title: "Email engagement for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-keywords: 
+title: "Email engagement for Dynamics 365 Sales | MicrosoftDocs"
 ms.date: 10/31/2018
 ms.service: crm-online
-ms.custom: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: c44831bb-c4cb-4a2b-863e-eb94c4256921
 author: udaykirang
 ms.author: udag
 manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 25
 ---
 
@@ -35,7 +29,7 @@ caps.latest.revision: 25
 The administrator must enable email engagement before you can try it out. Email engagement uses the relationship assistant to deliver alerts and other messages, so we strongly recommend that you also enable the assistant if you are using email engagement. For complete details about prerequisites, how to enable the feature, see [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md).
 
 > [!NOTE]
->  Some aspects of the email engagement feature may be visible in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)] even when the feature is turned off. These include:  
+>  Some aspects of the email engagement feature may be visible in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] even when the feature is turned off. These include:  
 > 
 > -   The **Attachments** grid, which is shown when you author an email message or email template, always includes the **Followed** column.  
 > -   The **Followed Email** grid always shows **Opens**, **Last Opened Time**, **Attachment Views**, **Link Clicks**, and **Replies** columns.  
@@ -45,21 +39,21 @@ The administrator must enable email engagement before you can try it out. Email 
 > While the email engagement feature is disabled, these features will still appear but will usually be empty. Read the rest of this topic for details about what these columns mean and how to use them when the feature is enabled.  
   
 ## Get interaction history for email  
- Usually when you send an email, you'll never know if it was opened or read unless the recipient chooses to write back to you. That's because the email system was created to simulate traditional mail, and was  not designed with response tracking in mind. [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] uses special techniques to work around this limitation and provide the following message-following features:  
+ Usually when you send an email, you'll never know if it was opened or read unless the recipient chooses to write back to you. That's because the email system was created to simulate traditional mail, and was  not designed with response tracking in mind. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] uses special techniques to work around this limitation and provide the following message-following features:  
   
-- **Find out when your message was opened**: When you send a followed email message from [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)], the system automatically generates  a uniquely named, transparent, one-pixel GIF and adds it as a linked image to the message. This invisible GIF, and all the other images that you add to the message, are stored on your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server and are first loaded from the server when somebody opens the message (and chooses to download its images). When a unique GIF is requested,[!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] registers that the associated message was opened, and notes the device type. We recommend that you always include other images in your message because that will help motivate recipients to download the images (you won't know they open it if images aren't loaded).  
+- **Find out when your message was opened**: When you send a followed email message from [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], the system automatically generates  a uniquely named, transparent, one-pixel GIF and adds it as a linked image to the message. This invisible GIF, and all the other images that you add to the message, are stored on your [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] server and are first loaded from the server when somebody opens the message (and chooses to download its images). When a unique GIF is requested,[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] registers that the associated message was opened, and notes the device type. We recommend that you always include other images in your message because that will help motivate recipients to download the images (you won't know they open it if images aren't loaded).  
   
-- **Find out when each link was clicked**: When you send a followed email message from [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)], the system automatically replaces each of its hyperlinks with a unique redirect link that points to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server. Each redirect link includes an ID that uniquely identifies both the message that contains it and the URL of the original link target. When the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server receives the link request, it logs the click and then redirects the click to its original address so that the recipient still gets the correct information with little or no delay.  
+- **Find out when each link was clicked**: When you send a followed email message from [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], the system automatically replaces each of its hyperlinks with a unique redirect link that points to the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] server. Each redirect link includes an ID that uniquely identifies both the message that contains it and the URL of the original link target. When the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] server receives the link request, it logs the click and then redirects the click to its original address so that the recipient still gets the correct information with little or no delay.  
   
-- **Find out when each attachment was opened**: When you add a followed attachment, the file isn't attached directly as with a standard email. Instead, it gets stored on the [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] share used by your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server and added as a link to the message. As with followed links, when a recipient clicks to download the attachment, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server notes the click and the time. You can mix both followed and unfollowed attachments in a single email, which can be important if you are sending sensitive files that you don't want to save on [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)]. Many of your recipients may actually prefer to receive attachments as links rather than files because that means that  your messages will take up much less room in their inbox.  
+- **Find out when each attachment was opened**: When you add a followed attachment, the file isn't attached directly as with a standard email. Instead, it gets stored on the [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] share used by your [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] server and added as a link to the message. As with followed links, when a recipient clicks to download the attachment, the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] server notes the click and the time. You can mix both followed and unfollowed attachments in a single email, which can be important if you are sending sensitive files that you don't want to save on [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)]. Many of your recipients may actually prefer to receive attachments as links rather than files because that means that  your messages will take up much less room in their inbox.  
   
-Using this information, [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] shows you the full interaction history for any message, and calculates key performance indicators (KPIs). 
+Using this information, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] shows you the full interaction history for any message, and calculates key performance indicators (KPIs). 
 
 > [!NOTE]
 > The actions that are performed on email are stored in Microsoft Azure Storage. This storage is unique for each organization. If an organization is restored to another organization, the history of the actions that are performed on email of previous organization will not be displayed in the restored organization.
 
 > [!IMPORTANT]
->  You should treat all email interaction data as approximations. The system can only register an email-open event if the recipient also downloads the message's images (including the invisible GIF), so the actual number of opens could be larger than the number recorded in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)]. Similarly, if images are cached (which is typical for web-based email clients), then additional opens may not get reported to [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)].  
+>  You should treat all email interaction data as approximations. The system can only register an email-open event if the recipient also downloads the message's images (including the invisible GIF), so the actual number of opens could be larger than the number recorded in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. Similarly, if images are cached (which is typical for web-based email clients), then additional opens may not get reported to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].  
 > 
 >  It  can therefore be a good idea to include visible images in your followed email messages (such as a company logo or illustration) to encourage recipients to download the images.  
   
@@ -68,10 +62,10 @@ Using this information, [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sal
 ## Create and send followed email message  
   
 > [!NOTE]
->  - This section describes how to work with email engagement features in the [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] web interface. These features are also available for the [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. The features and technologies for sending tracked email messages, links, and attachments, as described in this topic, work similarly in both interfaces, but the controls are slightly different.  If you are using [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], then see also: [Dynamics 365 for Customer Engagement App for Outlook User's Guide](/dynamics365/customer-engagement/outlook-app/dynamics-365-app-outlook-user-s-guide).  
+>  - This section describes how to work with email engagement features in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] web interface. These features are also available for the [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. The features and technologies for sending tracked email messages, links, and attachments, as described in this topic, work similarly in both interfaces, but the controls are slightly different.  If you are using [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], then see also: [Dynamics 365 App for Outlook User Guide](/dynamics365/customer-engagement/outlook-app/dynamics-365-app-outlook-user-s-guide).  
 > - Users can only follow emails through on Email form.
 
-When email engagement is enabled for your site, all of the controls required to create and send an email with some or all of its  features enabled are available on the **New Email** page, as shown in the following figure. This page is shown whenever you create an email in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)].  
+When email engagement is enabled for your site, all of the controls required to create and send an email with some or all of its  features enabled are available on the **New Email** page, as shown in the following figure. This page is shown whenever you create an email in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].  
   
  ![New Email page with email engagement callouts](media/new-email-page-email-engagement-callouts.png "New Email page with email engagement callouts")  
   
@@ -95,7 +89,7 @@ When email engagement is enabled for your site, all of the controls required to 
 <a name="NewMessage"></a>   
 
 ### Create a new message  
- You can activate email engagement features for any email that you send from within [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)]. The main record for the message (typically the record are looking at when you create it), is set as its **Regarding** value, though the various to, from, and copy-to email addresses can also affect the places where you are able to see the message and where its KPIs may apply. <!--[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship analytics](relationship-analytics.md)-->  
+ You can activate email engagement features for any email that you send from within [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. The main record for the message (typically the record are looking at when you create it), is set as its **Regarding** value, though the various to, from, and copy-to email addresses can also affect the places where you are able to see the message and where its KPIs may apply. <!--[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship analytics](relationship-analytics.md)-->  
   
  To add an email activity to a record:  
   
@@ -113,7 +107,7 @@ When email engagement is enabled for your site, all of the controls required to 
 ### Choose and apply the most effective email template  
  Email templates are standard messages that you send often, such as introductions, confirmations, thank-you messages, and reminders. They can include dynamic values (such as sender or recipient data). They give you a quick start when you're writing common messages.  
   
- The email engagement feature automatically analyzes the performance of all messages sent through [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] and identifies your most successful templates. It shows all available templates, but highlights the ones that were found to generate the most opens, replies, or sales.  
+ The email engagement feature automatically analyzes the performance of all messages sent through [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and identifies your most successful templates. It shows all available templates, but highlights the ones that were found to generate the most opens, replies, or sales.  
   
  To use a template:  
   
@@ -144,7 +138,7 @@ When email engagement is enabled for your site, all of the controls required to 
 ### Enable or disable following for individual messages  
  Followed emails can tell you when a recipient opened the message, replied to the message, opened an attachment, or clicked a link.  
   
- When email engagement is enabled on your site, it will also be enabled by default for all messages you create in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)], provided that none of the recipients are set up to block followed messages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set following to Do Not Allow to respect individuals' privacy and preferences](#set-individuals-privacy-and-preferences)  
+ When email engagement is enabled on your site, it will also be enabled by default for all messages you create in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], provided that none of the recipients are set up to block followed messages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set following to Do Not Allow to respect individuals' privacy and preferences](#set-individuals-privacy-and-preferences)  
   
  Use the controls at the top of the **Email Engagement** area to view and edit the follow state for your message, as summarized in the following table.  
   
@@ -162,7 +156,7 @@ When email engagement is enabled for your site, all of the controls required to 
 ### Add followed attachments  
   
 > [!NOTE]
->  To follow attachments, [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] must be available to your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server and Document Management for Email must be enabled. Talk to your administrator if you think these features are missing from your server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md)  
+>  To follow attachments, [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] must be available to your [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] server and Document Management for Email must be enabled. Talk to your administrator if you think these features are missing from your server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md)  
   
  Followed attachments can tell you when a recipient opens an attachment. To add one or more followed attachments:  
   
@@ -204,7 +198,7 @@ When email engagement is enabled for your site, all of the controls required to 
 <a name="DeliveryTime"></a>   
 
 ### Choose the most effective delivery time  
- Your email messages may receive more or less attention depending on when they arrive in recipients' inboxes. For example, many people start their day with a full inbox, so messages that arrive overnight must compete with one another for attention and may get put off or even forgotten, while emails arriving later in the day may get noticed and handled right away. Write your email messages when it's convenient for you, but let [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] deliver them when it's best for your recipients.  
+ Your email messages may receive more or less attention depending on when they arrive in recipients' inboxes. For example, many people start their day with a full inbox, so messages that arrive overnight must compete with one another for attention and may get put off or even forgotten, while emails arriving later in the day may get noticed and handled right away. Write your email messages when it's convenient for you, but let [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] deliver them when it's best for your recipients.  
   
  The system will sometimes suggest a recommended delivery time, which works as follows:  
   
@@ -292,7 +286,7 @@ You can use this feature both with followed and unfollowed messages.
 
 ## View email engagement history  
 
- The current status, interaction statistics, and KPIs for followed email messages are available throughout [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)], where they are gathered and displayed for each record where they are relevant. The following sections highlight the various places where you can see this information in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)].  
+ The current status, interaction statistics, and KPIs for followed email messages are available throughout [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], where they are gathered and displayed for each record where they are relevant. The following sections highlight the various places where you can see this information in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].  
   
 <a name="COLAhistory"></a>   
 
@@ -305,7 +299,7 @@ You can use this feature both with followed and unfollowed messages.
  Followed messages show their current interaction status (such as "scheduled to send", "not yet opened", or "Last opened yesterday") right on their tile in the **Activities** list. Use the buttons in the upper-right corner of an email tile to expand its content and interaction history right in the list, or to open the full message page.  
   
 ### Email KPIs in the emails list  
- You can view a list of all  emails that you (and possibly others) have sent from [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] by doing the following:  
+ You can view a list of all  emails that you (and possibly others) have sent from [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] by doing the following:  
   
 1.  Go to **Sales** > **Activities**.  
   
@@ -354,7 +348,7 @@ You can use this feature both with followed and unfollowed messages.
   
 4.  Select **Save** to save your setting.  
   
-Any time you compose an email that includes one or more recipients that do  not allow following, the controls for enabling the various follow features are shown as disabled on the email authoring page. When following features are turned off, the message won't include a web beacon (clear GIF), all files will be attached directly rather than linked, and no links will redirect through [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)]. But you can still schedule delivery, and may still see template and delivery-time recommendations.  
+Any time you compose an email that includes one or more recipients that do  not allow following, the controls for enabling the various follow features are shown as disabled on the email authoring page. When following features are turned off, the message won't include a web beacon (clear GIF), all files will be attached directly rather than linked, and no links will redirect through [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. But you can still schedule delivery, and may still see template and delivery-time recommendations.  
   
 To view the tracking preferences for all of the recipients of a message, select the **View Recipients' Preferences** link shown above the body text. A pop-up window opens, showing the name and follow preference for each recipient. From here you can open any contact, account, or lead record by selecting their name in the list.  
   

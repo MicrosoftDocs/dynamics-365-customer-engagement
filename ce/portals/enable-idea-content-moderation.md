@@ -1,5 +1,5 @@
 ---
-title: "Enable content moderation for ideas on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Enable content moderation for ideas on a portal | MicrosoftDocs"
 description: "Learn how to enable content moderation for ideas on a portal."
 ms.custom: 
   - dyn365-portal
@@ -87,6 +87,6 @@ When a portal user flags an idea on the portal by using a reason, the idea is hi
 
 ### See also
 
-[Manage idea forums in Dynamics 365 for Customer Engagement](crowdsource-ideas.md#manage-idea-forums-in-dynamics-365-for-customer-engagement)<br>
-[Manage ideas in Dynamics 365 for Customer Engagement](crowdsource-ideas.md#manage-ideas-in-dynamics-365-for-customer-engagement)
+[Manage idea forums in Dynamics 365](crowdsource-ideas.md#manage-idea-forums-in-dynamics-365)<br>
+[Manage ideas in Dynamics 365](crowdsource-ideas.md#manage-ideas-in-dynamics-365)
 

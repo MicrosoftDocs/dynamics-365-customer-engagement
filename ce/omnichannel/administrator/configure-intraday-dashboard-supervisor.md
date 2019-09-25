@@ -1,6 +1,6 @@
 ---
 title: "Configure to view Intraday insights dashboard | MicrosoftDocs"
-description: "Instructions to configure intraday insights dashboard for Unified Service Desk and Omnichannel for Customer Service."
+description: "Instructions to configure intraday insights dashboard for Unified Service Desk and Omnichannel for Dynamics 365 Customer Service."
 keywords: ""
 author: udaykirang
 ms.author: udag
@@ -55,12 +55,12 @@ You must perform these common tasks before you go ahead and configure intraday i
 
 Review the following prerequisites before configuring the supervisor dashboard: 
 
--  You have administrative privileges for Dynamics 365 for Customer Service and Power BI. 
+-  You have administrative privileges for Dynamics 365 Customer Service and Power BI. 
 
 -  You must have **Power BI Pro** or **Power BI Premium** license for all supervisors and administrators. 
 
--  You must enable to embed Power BI reports in Dynamics 365 for **Omnichannel for Customer Service** app on web.
-    1.	Sign in to **Dynamics 365 for Customer Service** and go to **Settings** > **Administration** > **System Settings**.
+-  You must enable to embed Power BI reports in **Omnichannel for Customer Service** app on web.
+    1.	Sign in to **Dynamics 365 Customer Service** and go to **Settings** > **Administration** > **System Settings**.
     2.	Go to **Reporting** tab and configure **Allow Power BI visualization embedding** as **Yes**.
     
       > [!div class=mx-imgBorder]
@@ -93,7 +93,7 @@ Review the following prerequisites before configuring the supervisor dashboard:�
 
 You must configure the Power BI workspace using the **Omnichannel Administration** app to import the datasets and reports for Power BI. Follow these steps to create the supervisor datasets to your workspace.
 
-1.  Sign in to **Dynamics 365 for Customer Service** and open **Omnichannel Administration** app. 
+1.  Sign in to **Dynamics 365 Customer Service** and open **Omnichannel Administration** app. 
 
     > [!div class=mx-imgBorder]
     > ![Select Omnichannel administration](../media/supervisor-admin-select-omnichannel-administration.png "Select Omnichannel administration")
@@ -207,7 +207,7 @@ After you complete the common tasks, you must perform the tasks defined in this 
 
 You must configure the **Unified Service Desk** to display the supervisor intraday insights dashboard when a supervisor signs in to the workspace in Omnichannel. To configure the **Unified Service Desk**, follow these steps:
 
-1.  Sign in to **Dynamics 365 for Customer Service** and go to **Settings** > **Unified Service Desk**.
+1.  Sign in to **Dynamics 365 Customer Service** and go to **Settings** > **Unified Service Desk**.
 
     The Unified Service Desk settings page opens.
 
@@ -227,7 +227,7 @@ The supervisor dashboard is configured and available. Add users to supervisor co
 
 You must add users in the supervisor configuration to access any supervisor dashboard in **Unified Service Desk**. To add users in supervisor configuration, follow these steps:
 
-1.  Sign in to Dynamics 365 for Customer Service.
+1.  Sign in to Dynamics 365 Customer Service.
 
 2.  Go to **Settings** > **Unified Service Desk** and then select **Configuration**.
 
@@ -251,7 +251,7 @@ Update the client cache version number to reduce the amount of bandwidth require
 
 To learn more, see [Client caching overview](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/configure-client-caching-unified-service-desk?view=dynamics-usd-4.1).  
 
-1.  Sign in to **Dynamics 365 for Customer Service**.
+1.  Sign in to **Dynamics 365 Customer Service**.
 
 2.  Go to **Settings** > **Unified Service Desk** and then select **Options**.
 

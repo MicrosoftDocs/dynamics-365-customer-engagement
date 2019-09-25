@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 10/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 5BD770F0-14FD-4CE5-B5A8-AD548B8929E6
@@ -43,7 +43,7 @@ An agent will get a notification in the **Conversation summary** section whether
         > [!div class=mx-imgBorder]
         > ![Create chat authentication setting record](../media/chat-auth-settings.png "Create chat authentication setting record")
 
-    For more information about how to find the public key URL and JavaScript client function, see the [Setup for a Microsoft Dynamics 365 portal](#setup-for-a-dynamics-365-for-customer-engagement-portal) section or the [Setup for portals that don't use Dynamics 365 (custom portal)](#setup-for-portals-that-dont-use-dynamics-365-for-customer-engagement-custom-portal) section later in this topic.
+    For more information about how to find the public key URL and JavaScript client function, see the [Setup for a Microsoft Dynamics 365 Portals](#setup-for-a-dynamics-365-portal) section or the [Setup for portals that don't use Dynamics 365 (custom portal)](#setup-for-portals-that-dont-use-dynamics-365-custom-portal) section later in this topic.
 
 5. Select **Save**.
 
@@ -58,15 +58,15 @@ An agent will get a notification in the **Conversation summary** section whether
 
 When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated by using the public key, and the information is then passed to the chat agent in Omnichannel for Customer Service. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they are defined in the work stream that is associated with the chat widget.
 
-## Setup for a Dynamics 365 for Customer Engagement Portal
+## Setup for Dynamics 365 Portals
 
-If you're adding authentication for a chat widget on a Microsoft Dynamics 365 for Customer Engagement Portal, the public key URL, JavaScript client function, and JWT are available out of the box. Here is how you can get the required values:
+If you're adding authentication for a chat widget on a website developed using Dynamics 365 Portals, the public key URL, JavaScript client function, and JWT are available out of the box. Here is how you can get the required values:
 
 - **Public key URL**: `<portal_base_URL>/_services/auth/publickey`
 - **JavaScript client function**: `auth.getAuthenticationToken`
 - **Token endpoint**: `<portal_base_URL>/_services/auth/token`
 
-## Setup for portals that don't use Dynamics 365 for Customer Engagement (custom portal)
+## Setup for portals that don't use Dynamics 365 (custom portal)
 
 If you're adding authentication for a chat widget on a portal that doesn't use Dynamics 365 (that is, on a custom portal), follow these steps to set up the environment.
 
@@ -157,4 +157,4 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
-[Embed chat widget in Dynamics 365 for Customer Engagement Portal](embed-chat-widget-portal.md)
+[Embed chat widget in Dynamics 365 Portals](embed-chat-widget-portal.md)

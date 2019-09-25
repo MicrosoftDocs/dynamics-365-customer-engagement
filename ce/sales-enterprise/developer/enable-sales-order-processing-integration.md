@@ -1,28 +1,25 @@
 ---
-title: "Enable sales order processing integration (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Enable sales order processing integration (Dynamics 365 Sales) | MicrosoftDocs"
 keywords: sales, developer guide
 ms.date: 05/03/2019
 ms.service: dynamics-365-sales
 ms.custom: dyn365-sales
 ms.topic: get-started-article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 94DFA02D-0793-48AA-B3E4-D5E61F0330CD
 author: susikka
 ms.author: susikka
 manager: shujoshi
 ms.reviewer: susikka
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 5
 ---
 # Enable sales order processing integration
 
-Sales order processing integration makes it convenient to connect Dynamics 365 for Sales with an external back-office order processing application. It allows a sales order created on Dynamics 365 for Sales to be submitted, upon which the order can be synced to an external order processing application where the lifecycle of the order continues. A submitted order is locked for editing on Dynamics 365 for Sales except if submitted by an integration user (to sync changes from the external order processing system to Dynamics 365 for Sales). 
+Sales order processing integration makes it convenient to connect Dynamics 365 Sales with an external back-office order processing application. It allows a sales order created on Dynamics 365 Sales to be submitted, upon which the order can be synced to an external order processing application where the lifecycle of the order continues. A submitted order is locked for editing on Dynamics 365 Sales except if submitted by an integration user (to sync changes from the external order processing system to Dynamics 365 Sales). 
 
-By default, sales order processing is turned off. When sales order processing is turned off, Dynamics 365 for Sales allows invoices to be created from orders. For more information, see [Create an invoice from an order](../create-edit-invoice-sales.md). 
+By default, sales order processing is turned off. When sales order processing is turned off, Dynamics 365 Sales allows invoices to be created from orders. For more information, see [Create an invoice from an order](../create-edit-invoice-sales.md). 
 
 > [!NOTE]
-> Price computation can be triggered by Dynamics 365 for Sales only if the sales entities, like Opportunity, Quote, Sales order, and Invoice, are editable.
+> Price computation can be triggered by Dynamics 365 Sales only if the sales entities, like Opportunity, Quote, Sales order, and Invoice, are editable.
 
 ## Enable sales order processing integration
 
@@ -37,7 +34,7 @@ When sales order processing is turned on:
 
 - Order records will support a Submit order button. Upon submitting an order, the order status is marked as `Submitted`. The order is made read-only except if created by an integration user. For more information about the `IsIntegrationUser` attribute, see [IsIntegrationUser attribute](../../developer/entities/systemuser.md#BKMK_IsIntegrationUser) on the [SystemUser entity](../../developer/entities/systemuser.md).
 
-The following table lists the conditions to be satisfied before Dynamics 365 for Sales executes price computation for various entities.
+The following table lists the conditions to be satisfied before Dynamics 365 Sales executes price computation for various entities.
 
 |Entity name|Create|Update|Delete|Recalculate|
 |------|------|------|------|------|

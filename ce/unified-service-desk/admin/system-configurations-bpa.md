@@ -1,22 +1,14 @@
 ---
-title: "System configurations (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "System configurations | MicrosoftDocs"
 description: "Learn about the system configurations that best practices outlines and against which Best Practices Analyzer performs analysis."
-ms.custom: 
 ms.date: 04/24/2018
 ms.service: usd
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 2ED0C60D-0C69-45C7-828A-8BB7D05A9180
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: 
-  - admin
+search.audienceType: admin
 search.app: 
   - D365CE
   - D365USD
