@@ -42,7 +42,7 @@ To sign up for the preview features, follow these steps:
 3. Select **Join now**. A preview survey is displayed.
 
 
-4. Fill in all the required fields. Provide the **Org ID** where you want to set up Omnichannel for Customer Service. To know how to find your Org ID in Dynamics 365 instance, see [Locate your Org ID](administrator/omnichannel-provision-license.md#locate-your-org-id).
+4. Fill in all the required fields. Provide the **Org ID** where you want to set up Omnichannel for Customer Service. To know how to find your Org ID in your instance, see [Locate your Org ID](administrator/omnichannel-provision-license.md#locate-your-org-id).
 
     > [!div class=mx-imgBorder]
     > ![Omnichannel org id](media/preview-org.png)
