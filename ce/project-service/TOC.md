@@ -75,13 +75,6 @@
 ### [Time entry calendar](time-entry-calendar.md)
 ### [Customize weekly time entry](time-entry-extensibility-v3.md)
 
-# How-to guides (app version 3.x)
-## [Pricing dimensions setup guide](how-to-guides/pricing-dimensions-setup.md)
-## [Project management how-to guide](how-to-guides/project-management-how-to.md)
-## [Resource management how-to guide](how-to-guides/resource-management-how-to.md)
-## [Reconciling assignments and bookings how-to guide](how-to-guides/reconciling-assignments-bookings-how-to.md)
-## [Time, expense, and approvals guide](how-to-guides/time-expense-approval.md)
-
 # FAQ and troubleshooting (app version 3.x)
 ## [How do I "soft book" resources?](FAQ-soft-book.md)
 ## [How do I see chargeable utilization for resources?](FAQ-utilization-view.md)
