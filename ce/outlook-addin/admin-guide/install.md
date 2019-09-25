@@ -7,13 +7,8 @@ ms.service: crm-online
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: article
-<<<<<<< HEAD
-applies_to:
-  - Dynamics 365 for Customer Engagement apps
-=======
 applies_to: 
   - Dynamics 365 apps 
->>>>>>> oct-merge
 ms.assetid: 7e846aff-e472-4a3a-810d-de2aea0817f0
 caps.latest.revision: 63
 author: mduelae
@@ -54,11 +49,7 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
    - To install from the web (version 8.x), go to [Microsoft Dynamics CRM 2016 for Microsoft Office Outlook (Outlook Client)](https://go.microsoft.com/fwlink/p/?LinkId=690396), and then download and run the executable file that matches the installed [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] architecture.
 
-<<<<<<< HEAD
-   - To install from the web (version 9.0), go to [Dynamics 365 for Customer Engagement apps  for Outlook, version 9.0 (Outlook client)](https://support.microsoft.com/en-us/help/4491851/dynamics-365-for-outlook-version-9-0-outlook-client-update-1-0), and then download and run the executable file that matches the installed [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] architecture.
-=======
    - To install from the web (version 9.0), go to [Dynamics 365 apps  for Outlook, version 9.0 (Outlook client)](https://support.microsoft.com/en-us/help/4491851/dynamics-365-for-outlook-version-9-0-outlook-client-update-1-0), and then download and run the executable file that matches the installed [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] architecture. 
->>>>>>> oct-merge
 
      > [!NOTE]
      >  If you have updated your Dynamics 365 apps  organziation to version 9.0 and the Dynamics 365 for Outlook client does not connect then you may need to install TLS 1.2. For more information, [Install TLS](https://support.microsoft.com/en-us/help/4054414/dynamics-365-for-outlook-update-for-version-9-0).
@@ -73,23 +64,13 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
 -   To install from the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] web application:
 
-<<<<<<< HEAD
-    1.  Click the **Settings** button ![Settings button](../media/mp-ua-r16-settings.png "Settings button"), and then click **Apps for Dynamics 365 for Customer Engagement apps**.
-
-    2.  On the **Apps for Dynamics 365 for Customer Engagement apps** page, click **Download from [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] Download Center**.
-=======
     1.  Click the **Settings** button ![Settings button](../media/mp-ua-r16-settings.png "Settings button"), and then click **Apps for Dynamics 365 apps**.  
 
     2.  On the **Apps for Dynamics 365 apps** page, click **Download from [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] Download Center**.  
->>>>>>> oct-merge
 
     3.  If you see any dialog boxes titled **Security Warning**, click **Run** in each.
 
-<<<<<<< HEAD
-     The **Microsoft Dynamics 365 for Customer Engagement apps for Microsoft Office Outlook Setup** wizard starts.
-=======
      The **Microsoft Dynamics 365 apps for Microsoft Office Outlook Setup** wizard starts.  
->>>>>>> oct-merge
 ~~~
 
 5. On the **License Agreement** page, review the information. If you accept the license agreement, select **I accept the license agreement**, and then click **Next**.
@@ -110,38 +91,22 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
     The program features are installed and a progress indicator is displayed. You may be asked to restart your computer to complete the installation.
 
-<<<<<<< HEAD
-8. On the completion page of the **Microsoft Dynamics 365 for Customer Engagement apps for Microsoft Office Outlook Setup** wizard, click **Close**.
-=======
 8. On the completion page of the **Microsoft Dynamics 365 apps for Microsoft Office Outlook Setup** wizard, click **Close**.  
->>>>>>> oct-merge
 
 <a name="BKMK_Task2_ConfigureCRMforOutlook"></a>
 ## Configure Dynamics 365 for Outlook
  After [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed, it must be configured. When you restart [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] after you’ve installed [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], the configuration wizard starts automatically.
 
 > [!NOTE]
-<<<<<<< HEAD
->  If you don’t want to configure [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] immediately after you install it, click **Cancel**. A **Configure Microsoft Dynamics 365 for Outlook** button then appears on the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] toolbar and will remain there until you configure [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].
->
->  If the wizard doesn’t start automatically, you can start it as follows: On the Start screen, click **Configuration Wizard** or on earlier versions of Windows click **Start** > **All Programs** > **Microsoft Dynamics 365 for Customer Engagement apps**, and then click **Configuration Wizard**. Alternatively, click **Configure Microsoft Dynamics 365 for Outlook** on the **Dynamics 365 for Customer Engagement apps** tab in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].
->
->  If you encounter an issue configuring [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization, use the [Microsoft Dynamics CRM for Outlook Configuration Diagnostic](https://aka.ms/crmocpub) to fix the issue. You’ll need to sign in to the diagnostics tool with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] credentials.
-=======
 >  If you don’t want to configure [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] immediately after you install it, click **Cancel**. A **Configure Microsoft Dynamics 365 for Outlook** button then appears on the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] toolbar and will remain there until you configure [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
 > 
 >  If the wizard doesn’t start automatically, you can start it as follows: On the Start screen, click **Configuration Wizard** or on earlier versions of Windows click **Start** > **All Programs** > **Microsoft Dynamics 365 apps**, and then click **Configuration Wizard**. Alternatively, click **Configure Microsoft Dynamics 365 for Outlook** on the **Dynamics 365 apps** tab in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
 > 
 >  If you encounter an issue configuring [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization, use the [Microsoft Dynamics CRM for Outlook Configuration Diagnostic](http://aka.ms/crmocpub) to fix the issue. You’ll need to sign in to the diagnostics tool with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] credentials.  
->>>>>>> oct-merge
 
 1. To add an organization, choose one of the following:
 
-<<<<<<< HEAD
-   - To connect to a [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] organization, choose **Dynamics 365 for Customer Engagement apps ** from the drop-down list.
-=======
    - To connect to a [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] organization, choose **Dynamics 365 apps ** from the drop-down list.  
->>>>>>> oct-merge
 
 2. Click **Connect**.
 
@@ -153,15 +118,9 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
 4. If you’re a member of more than one organization, restart the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] to designate a different organization as your current organization.
 
-<<<<<<< HEAD
-<a name="BKMK_OAuth"></a>
-## Enable multi-factor authentication through OAuth
- In the [!INCLUDE[pn_Outlook_Config_Wiz_long](../../includes/pn-outlook-config-wiz-long.md)], System Administrators can enable multi-factor authentication through the OAuth 2.0 Framework. [OAuth 2.0](http://oauth.net/) is an open framework for authorization that lets users provide access tokens, instead of credentials, to access data hosted by a given service provider (such as Dynamics 365 for Customer Engagement apps). Using MFA can help make client authentication more secure, especially for mobile users. Dynamics 365 for Customer Engagement apps  versions of [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] can take advantage of MFA.. [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] automatically uses OAuth.
-=======
 <a name="BKMK_OAuth"></a>   
 ## Enable multi-factor authentication through OAuth  
  In the [!INCLUDE[pn_Outlook_Config_Wiz_long](../../includes/pn-outlook-config-wiz-long.md)], System Administrators can enable multi-factor authentication through the OAuth 2.0 Framework. [OAuth 2.0](http://oauth.net/) is an open framework for authorization that lets users provide access tokens, instead of credentials, to access data hosted by a given service provider (such as Dynamics 365 apps). Using MFA can help make client authentication more secure, especially for mobile users. Dynamics 365 apps  versions of [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] can take advantage of MFA.. [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] automatically uses OAuth.  
->>>>>>> oct-merge
 
  If you have upgraded your authentication server to use OAuth **prior** to installing Dynamics 365 for Outlook, Dynamics 365 for Outlook will automatically check for and use OAuth for MFA. Users will see the OAuth sign-in form the first time they use Dynamics 365 for Outlook.
 

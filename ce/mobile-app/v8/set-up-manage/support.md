@@ -42,17 +42,6 @@ Dynamics 365 for phones requires and can only connect to Microsoft Dynamics CRM 
 
 Dynamics CRM for phones express is deprecated and will not connect to releases **after** Microsoft Dynamics CRM 2016.
 
-<<<<<<< HEAD
-*Windows Phone requires the [new Dynamics 365 for Customer Engagement apps for Windows app](https://go.microsoft.com/fwlink/p/?LinkID=799909) and Microsoft Dynamics CRM 2016 (on-premises) or later .
-
-### Device support
-
-|Platform|Versions|RAM (minimum)|
-|--------------|--------------|---------------------|
-|[iOS](https://go.microsoft.com/fwlink/p/?LinkID=519213)|8.1 and above|1 GB|
-|[Android](https://go.microsoft.com/fwlink/p/?LinkID=519214)|4.4,5.0, 6.0, 7.0 **|1 GB|
-|[Windows Phone 8.1](https://go.microsoft.com/fwlink/p/?LinkId=519212)<br /><br /> [Windows Phone 10](https://go.microsoft.com/fwlink/p/?LinkID=799909)|8.1 and 10|2 GB*|
-=======
 *Windows Phone requires the [new Dynamics 365 apps for Windows app](http://go.microsoft.com/fwlink/p/?LinkID=799909) and Microsoft Dynamics CRM 2016 (on-premises) or later .
   
 ### Device support  
@@ -62,7 +51,6 @@ Dynamics CRM for phones express is deprecated and will not connect to releases *
 |[iOS](http://go.microsoft.com/fwlink/p/?LinkID=519213)|8.1 and above|1 GB|  
 |[Android](http://go.microsoft.com/fwlink/p/?LinkID=519214)|4.4,5.0, 6.0, 7.0 **|1 GB|  
 |[Windows Phone 8.1](http://go.microsoft.com/fwlink/p/?LinkId=519212)<br /><br /> [Windows Phone 10](http://go.microsoft.com/fwlink/p/?LinkID=799909)|8.1 and 10|2 GB*|  
->>>>>>> oct-merge
 
 *Enhancements to the app require this minimum memory amount.
 
@@ -72,17 +60,6 @@ Dynamics CRM for phones express is deprecated and will not connect to releases *
 
 ### Windows tablets
 
-<<<<<<< HEAD
- You can run the Dynamics 365 for Customer Engagement apps for Windows tablets app on devices that meet the following requirements. You can also run the Dynamics 365 for Customer Engagement apps web app on a supported web browser on these devices. For more information about web browser support, see [Web application requirements for Microsoft Dynamics 365 for Customer Engagement apps](https://technet.microsoft.com/library/hh699710.aspx).
-
- Download the Microsoft Dynamics 365 for Customer Engagement apps from the Windows Marketplace for [Windows 8.1 tablets](https://go.microsoft.com/fwlink/p/?LinkID=392776) and [Windows 10 tablets](https://go.microsoft.com/fwlink/p/?LinkID=808734).
-
-|||
-|-|-|
-|Operating system|Windows 8 or later|
-|Memory|2 GB*|
-|Resolution|1366 x 768 resolution (720p)|
-=======
  You can run the Dynamics 365 apps for Windows tablets app on devices that meet the following requirements. You can also run the Dynamics 365 apps web app on a supported web browser on these devices. For more information about web browser support, see [Web application requirements for Microsoft Dynamics 365 apps](https://technet.microsoft.com/library/hh699710.aspx).  
   
  Download the Microsoft Dynamics 365 apps from the Windows Marketplace for [Windows 8.1 tablets](http://go.microsoft.com/fwlink/p/?LinkID=392776) and [Windows 10 tablets](http://go.microsoft.com/fwlink/p/?LinkID=808734).  
@@ -92,7 +69,6 @@ Dynamics CRM for phones express is deprecated and will not connect to releases *
 |Operating system|Windows 8 or later|  
 |Memory|2 GB*|  
 |Resolution|1366 x 768 resolution (720p)|  
->>>>>>> oct-merge
 
 *Enhancements to the app require this minimum memory amount.
 
@@ -108,11 +84,6 @@ You can run the [!INCLUDE[pn_crm_for_ipad_shortest](../../../includes/pn-crm-for
 
 - Device: [!INCLUDE[tn_ipad](../../../includes/tn-ipad.md)] third generation or later
 
-<<<<<<< HEAD
-- Screen: 9-inch (diagonal) or larger
-
-[Download Microsoft Dynamics 365 for Customer Engagement apps for iPad from the Apple Store](https://go.microsoft.com/fwlink/p/?LinkId=313327)
-=======
 ### Apple iPad  
 You can run the [!INCLUDE[pn_crm_for_ipad_shortest](../../../includes/pn-crm-for-ipad-shortest.md)] app on devices that meet the following requirements:    
   
@@ -121,7 +92,6 @@ You can run the [!INCLUDE[pn_crm_for_ipad_shortest](../../../includes/pn-crm-for
 - Screen: 9-inch (diagonal) or larger  
  
 [Download Microsoft Dynamics 365 apps for iPad from the Apple Store](http://go.microsoft.com/fwlink/p/?LinkId=313327)
->>>>>>> oct-merge
 
 > [!IMPORTANT]
 > - For CRM 2015, this app is supported on iOS 7, 8, 9, and 10.
@@ -143,37 +113,6 @@ You can run the [!INCLUDE[pn_moca_CRM_Android](../../../includes/pn-moca-crm-and
 2. This feature is available only if your organization has updated to Microsoft Dynamics CRM 2015 Update 1.1 or later.
 3. This feature is available only if your organization has updated to Microsoft Dynamics CRM 2015 Update 1.1 or later.
 
-<<<<<<< HEAD
-[Download Microsoft Dynamics 365 for Customer Engagement apps for Android from Google play](https://go.microsoft.com/fwlink/p/?LinkID=392913)
-
-<a name="BKMK_BrowserSupport"></a>
-
-## Web browser support for tablets
-You can run Microsoft Dynamics 365 for Customer Engagement apps in the default web browser on any of the supported [Windows tablets](https://technet.microsoft.com/library/dn531131.aspx#BKMK_Windows8) listed earlier. For [Apple iPad tablets](https://technet.microsoft.com/library/dn531131.aspx#BKMK_iPad), iOS 7, iOS 8, and iOS 9 are supported. For [Android](https://technet.microsoft.com/library/dn531131.aspx#BKMK_Nexus), versions 4.2.2, 4.3, 4.4, 5.0, and 6.0 are supported for the tablets listed earlier.
-
- Using [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] on a web browser on an Apple or Android mobile device provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:
-
--   Pinch and zoom
-
--   Yammer
-
--   Reports
-
--   Customization/Editors
-
--   System Settings
-
--   Advanced Find
-
--   Process dialogs
-
--   Skype for Business presence
-
-- Adding attachments to Notes—for Apple iPad users with Dynamics 365 for Customer Engagement apps (on-premises)
-
--   Entities that use classic forms such as Goal and Order Product see, [Entities using classic forms](https://technet.microsoft.com/library/dn531143.aspx#BKMK_ClassicFormEntities).
-
-=======
 [Download Microsoft Dynamics 365 apps for Android from Google play](http://go.microsoft.com/fwlink/p/?LinkID=392913)
   
 <a name="BKMK_BrowserSupport"></a>   
@@ -203,4 +142,3 @@ You can run Microsoft Dynamics 365 apps in the default web browser on any of the
   
 -   Entities that use classic forms such as Goal and Order Product see, [Entities using classic forms](https://technet.microsoft.com/library/dn531143.aspx#BKMK_ClassicFormEntities).  
   
->>>>>>> oct-merge

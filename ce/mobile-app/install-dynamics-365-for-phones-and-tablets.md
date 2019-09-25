@@ -31,11 +31,7 @@ search.app:
 ### Privileges required to run the app
 
 > [!IMPORTANT]
-<<<<<<< HEAD
->  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 for Customer Engagement apps administrator or support person](../basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).
-=======
 >  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 apps administrator or support person](../basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
->>>>>>> oct-merge
 
 ### Required services and resources
 This list identifies all services to which Dynamics 365 for phones and tablets talks and their usages. Your network must not block these services.
