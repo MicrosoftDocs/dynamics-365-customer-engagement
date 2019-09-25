@@ -19,26 +19,21 @@ ms.custom:
 
 ## Create entity record workstream
 
-This topic describes how to create a workstream that is used to route the case entity record.
-
-> [!NOTE]
-> In the August 2019 update release, by default, entity records workstream routes and distributes only the **Case** entity record. Support for other entity records will be available in the future release, and you can select the entity record you want to route.
+This topic describes how to create a workstream that is used to route the case and other entity records.
 
 1. Sign in to the Omnichannel Administration app.
 
-2. Select **Entity Records** under **Channels** in the sitemap.
+2. Select **Work Streams** under **Channels** in the sitemap.
 
-3. Select **+ New** in the **Entity Records Workstreams** page.
-
-    > [!div class=mx-imgBorder] 
-    > ![Create new Cases workstream](../media/case-ws1.png "Create new workstream")
+3. Select **+ New** in the **Active Work Streams** page.
 
 4. Specify the following in the **New Work Stream** page.
 
     | Tab | Field | Value | Description | 
     |---------------------|-----------------------------|-------------------------------------------|-------------------------------------------------|
-    | Work Distribution | Name | Case Workstream | Provide a name to the workstream. <br> **Note:** <ul><li> If you update the name of the workstream, you must update **Cases Work Distribution flow** by navigating to Microsoft Flow.</li> <li> The value provided is an example. </li></ul>  |
-    | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list. <br> **Note:** <ul> <li> In the August 2019 update release, by default, entity records workstream routes and distributes only the **Case** entity record. Support for other entity records will be available in the future release, and you can select the entity record you want to route. </li> </ul>|
+    | Work Distribution | Name | Case Workstream | Provide a name to the workstream. <br> **Note:** The value provided is an example.  |
+    | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list.|
+    | Work Distribution | Entity | Case | Select an entity from the drop-down menu. <br> If you want to create a entity, select **+ New**. To learn more, see [Create entity records channel](entity-channel.md#step-2-create-entity-records-channel). |
     | Work Distribution | Capacity | 50 |Specify the units of capacity that are required to process a conversation for the workstream in the text box. <br> **Note:** <ul><li> The value provided is an example. </li></ul> |
     | Work Distribution | Auto-close after inactivity | 5 minutes | Set time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity. <br> **Note:** <ul><li> The value provided is an example. </li></ul> |
     | Work Distribution | Work distribution mode | Push | Select **Push** when you want to automatically route the cases to the agents. <br><br> Select **Pick** when you want the agents to explicitly pick a conversation from the **Open work items** in agent dashboard. |
