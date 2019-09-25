@@ -21,9 +21,9 @@ search.app:
 # Set up rules to automatically create or update records
 
 
-Every organization has multiple applications to capture customer interactions. The ability to channel external data into Dynamics 365 app records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into Dynamics 365 app with the help of *record creation and update rules*.  
+Every organization has multiple applications to capture customer interactions. The ability to channel external data into the Common Data Service platform records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into the Common Data Service platform with the help of *record creation and update rules*.  
 
-By using record creation and update rules in Dynamics 365 app, you can automatically create or update system or custom records from incoming Dynamics 365 app activities, such as emails, social activities, or custom activities, without writing any code. Not just that, you can set up the rule to convert the incoming activity into multiple records. For example, you can create a case and a lead from a single social activity.  
+By using record creation and update rules in Dynamics 365 Customer Service, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, or custom activities, without writing any code. Not just that, you can set up the rule to convert the incoming activity into multiple records. For example, you can create a case and a lead from a single social activity.  
 
  A record creation and update rule consists of rule items that define the conditions for creating or updating records, and also defines what actions or steps to take on the newly-created records. The rule also contains channel properties that are used to define conditions for rules, and also for setting properties of the record you’re creating or updating.  
 
