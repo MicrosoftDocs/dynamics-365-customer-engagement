@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot SharePoint integration with Customer Engagement | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/02/2019
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -129,7 +129,7 @@ The most common cause for the Documents associated grid not loading is the corru
      ```  
 
    > [!IMPORTANT]
-   >  All the attributes configured in the layout xml require their corresponding respective attribute to be present in the Fetch XML. The grid will display an error when this configuration is incorrect.  
+   >  All the attributes configured in the layout xml require their respective attribute to be present in the Fetch XML. The grid will display an error when this configuration is incorrect.  
 
 14. Save the file.
 15. Zip the folder.
