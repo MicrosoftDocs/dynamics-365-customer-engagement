@@ -43,7 +43,7 @@ An agent will get a notification in the **Conversation summary** section whether
         > [!div class=mx-imgBorder]
         > ![Create chat authentication setting record](../media/chat-auth-settings.png "Create chat authentication setting record")
 
-    For more information about how to find the public key URL and JavaScript client function, see the [Setup for a Microsoft Dynamics 365 Portals](#setup-for-a-dynamics-365-portal) section or the [Setup for portals that don't use Dynamics 365 (custom portal)](#setup-for-portals-that-dont-use-dynamics-365-custom-portal) section later in this topic.
+    For more information about how to find the public key URL and JavaScript client function, see the [Setup for a Microsoft Dynamics 365 Portals](#setup-for-dynamics-365-portals) section or the [Setup for portals that don't use Dynamics 365 (custom portal)](#setup-for-portals-that-dont-use-dynamics-365-custom-portal) section later in this topic.
 
 5. Select **Save**.
 

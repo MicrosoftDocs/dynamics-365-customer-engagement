@@ -48,7 +48,7 @@ Here are the list of features available with this release:
 
 ## Dynamics 365 Sales, May 2019 release
 
-Users will be able to create a PDF and email it from a quote record. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Generate a PDF document from a quote record](create-quote-pdf.md), [Enable PDF generation from quotes](enable-pdf-generation-quote.md) 
+With the May 2019 release, Dynamics 365 Sales users will be able to create a PDF and email it from a quote record. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Generate a PDF document from a quote record](create-quote-pdf.md), [Enable PDF generation from quotes](enable-pdf-generation-quote.md) 
 
 ## Dynamics 365 Sales, April 2019 release
 
