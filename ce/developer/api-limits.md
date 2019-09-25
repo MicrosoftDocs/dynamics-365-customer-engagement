@@ -19,9 +19,6 @@ search.app:
 ---
 # API Limits
 
-- 
-- 
-
 We limit the number of API requests made by each user, per organization instance, within a five minute sliding window. Additionally, we limit the number of concurrent requests that may come in at one time.  When one of these limits is exceeded, an exception will be thrown by the platform.  
 
 The limit will help ensure that users running applications cannot interfere with each other based on resource constraints. The limits will not affect normal users of the platform. Only applications that perform a large number of API requests may be affected. The limit will help provide a level of protection from random and unexpected surges in request volumes that threaten the availability and performance characteristics of the [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] platform.
