@@ -216,7 +216,7 @@ Since Azure SQL takes continuous backups and no specific way to take additional 
 Both manual backups and system backups are retained for 28 days. We currently do not show all the available system backups. We plan to show the full range of available backups in the future.
 
 ### Can I extend my backup to be retained beyond the standard number of days?
-Unfortunately, you can't extend your system backups or manual/on-demand backups. If you want to keep the data for longer than the standard retention period, we recommend you copy your instance to an additional instance and do not modify that additional instance. 
+You can't extend your system backups or manual/on-demand backups. However, if you want to keep the data for longer than the standard retention period, we recommend you copy your instance to an additional instance and do not modify that additional instance. 
 
 ### Can I move my data from an online instance to an on-premises version of Dynamics 365?
 Obtaining a copy of your database backup isn't available. If you want to move your online data to Customer Engagement (on-premises), this requires data migration. For smaller datasets, consider exporting and [importing data using Excel](../basics/import-export-data.md). For larger datasets, find a third-party data migration solution on [Microsoft AppSource](https://appsource.microsoft.com/).
