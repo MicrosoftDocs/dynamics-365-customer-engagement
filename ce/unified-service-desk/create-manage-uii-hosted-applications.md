@@ -25,11 +25,11 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-inte
   
 1. Sign in to the Common Data Service platform.  
   
-2. On the navigation bar, click or tap **Dynamics 365**, and then select **Settings**.  
+2. On the navigation bar, click **Dynamics 365**.  
   
 3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
   
-4. Choose **New**.  
+4. Choose **New**.
   
 5. On the **New Hosted Control** page, under the **General** area, specify a name, sort order and display name for the hosted application. Each hosted application should have a unique name. Sort order specifies the order in which the hosted applications are retrieved and displayed in **Unified Service Desk**. Select the owner in the **Owner** box.  
   

@@ -1,6 +1,6 @@
 ---
 title: "Search data using entity searches in Unified Service Desk | MicrosoftDocs"
-description: "Entity searches are FetchXML definitions that query the Dynamics 365 Customer Engagement web services to return data. You can also use replacement parameters within the FetchXML queries in an entity search."
+description: "Entity searches are FetchXML definitions that query the Common Data Service platform to return data. You can also use replacement parameters within the FetchXML queries in an entity search."
 ms.custom: dyn365-USD
 ms.date: 08/23/2017
 ms.service: dynamics-365-customerservice

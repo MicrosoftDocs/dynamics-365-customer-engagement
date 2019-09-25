@@ -72,9 +72,9 @@ To see how window navigation rules are used for configuring and agent applicatio
 
 1. Sign in to your Common Data Service platform.  
 
-2. On the nav bar, click or tap **Microsoft Dynamics 365 Customer Engagement**, and then select **Settings**.  
+2. On the nav bar, click **Dynamics 365**.  
 
-3. On the nav bar, click or tap **Settings** > **Unified Service Desk** > **Window Navigation Rules**. The page displays all the existing navigation rules in the system.  
+3. On the nav bar, click **Settings** > **Unified Service Desk** > **Window Navigation Rules**. The page displays all the existing navigation rules in the system.  
 
 4. On the navigation rules page, either click the navigation rule name or select the navigation rule record in the list, and then click **EDIT** on the command bar.  
 

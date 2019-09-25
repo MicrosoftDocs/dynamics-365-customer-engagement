@@ -1,6 +1,6 @@
 ---
 title: "Unified Service Desk configurations | MicrosoftDocs"
-description: "Learn about the Unified Service Desk configurations that you make in Dynamics 365 Customer Engagement on which the Best practices Analyer performs analysis and displays a report."
+description: "Learn about the Unified Service Desk configurations that you make in the Common Data Service Platform on which the Best practices Analyer performs analysis and displays a report."
 ms.date: 04/24/2018
 ms.service: usd
 ms.topic: article
@@ -52,7 +52,7 @@ Replace the **PageLoadComplete** event with a **BrowserDocumentComplete** event 
 
 |Event|Description|
 |-----------|------------|
-|**DesktopReady**|A **DesktopReady** event occurs on startup after all the desktop initialization are complete and the connections to Dynamics 365 Customer Engagement are established.
+|**DesktopReady**|A **DesktopReady** event occurs on startup after all the desktop initialization are complete and the connections to the server are established.
 |**SessionNew**|A **SessionNew** event occurs when a new session is created.|
 |**SessionActivated**|A **SessionActivated** event occurs when a new session is activated.|
 |**SessionDeactivated**|A **SessionDeactivated** event occurs when a new session is deactivated.|

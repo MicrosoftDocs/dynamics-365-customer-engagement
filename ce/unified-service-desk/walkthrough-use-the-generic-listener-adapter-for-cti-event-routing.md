@@ -41,7 +41,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
   
 1. Sign in to the Common Data Service platform.  
   
-2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement** > **Settings** > **Unified Service Desk**.  
+2. On the nav bar, choose **Dynamics 365** > **Settings** > **Unified Service Desk**.  
   
 3. On the **Unified Service Desk** page, choose **Hosted Controls**.  
   
@@ -91,7 +91,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
   
 3. Click **Download Fetch XML** to save the query as `FetchXML`.  
   
-4. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement** > **Settings** > **Unified Service Desk** > **Window Navigation Rules**.  
+4. On the nav bar, choose **Dynamics 365** > **Settings** > **Unified Service Desk** > **Window Navigation Rules**.  
   
 5. Click **New**, and on the **New Window Navigation Rule** window, specify the following values.  
   

@@ -29,7 +29,7 @@ Your organization may have several departments and a each department has a confi
 
 ## Overview of Configuration Cache Version
 
-Your organization has multiple configurations, and you’ve added agents to those configurations. Now, you make certain changes to any one configuration and update the **ClientCacheVersionNumber** in the Dynamics 365 Customer Engagement server.
+Your organization has multiple configurations, and you’ve added agents to those configurations. Now, you make certain changes to any one configuration and update the **ClientCacheVersionNumber** in the server.
 
 The next time the agent signs in to the Unified Service Desk client application, the client caching feature retrieves the configuration data from the Customer Engagement server for all the configurations even though you made the change to only one configuration. Retrieving multiple configurations can cause an increase in startup time, which in turn might degrade the startup performance.
 
@@ -45,7 +45,7 @@ The following scenario example explains how Configuration Cache Version works.
 > [!div class=mx-imgBorder]
 > ![1 update configuration x, 2 agent signs in to Unified Service Desk, 3 client caching verifies the key, and 4. downloads the configuration x from server to agent desktop](../media/ccv-working.GIF "Configuration Cache version working")
 
-Your organization uses **X**, **Y**, and **Z** configurations for chat, message, and voice support, respectively. You make a change to configuration X and update the **Configuration Cache Version** value in the Dynamics 365 Customer Engagement server. When an agent assigned to configuration **X** (chat) signs in to the Unified Service Desk client application, the client caching feature checks for the local cache store and determines the cache version key. Because you updated the cache version key for the **Configuration Cache Version** option, the client caching feature retrieves the updated configuration **X** from the server to the agent’s desktop.
+Your organization uses **X**, **Y**, and **Z** configurations for chat, message, and voice support, respectively. You make a change to configuration X and update the **Configuration Cache Version** value in the server. When an agent assigned to configuration **X** (chat) signs in to the Unified Service Desk client application, the client caching feature checks for the local cache store and determines the cache version key. Because you updated the cache version key for the **Configuration Cache Version** option, the client caching feature retrieves the updated configuration **X** from the server to the agent’s desktop.
 
 ## Enable the Configuration Cache Version option
 

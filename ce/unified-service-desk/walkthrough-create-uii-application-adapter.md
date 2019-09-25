@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough  Create a UII Application Adapter in Unified Service Desk fopr Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Walkthrough  Create a UII Application Adapter in Unified Service Desk | MicrosoftDocs"
 description: "Demonstrates how to host and interact with an external application in Unified Service Desk."
 ms.custom: dyn365-USD
 ms.date: 01/25/2019
@@ -67,9 +67,9 @@ You can create an application adapter if you want to integrate an external appli
  
  In this step, you will create a hosted control of **External Hosted Application** type to display the [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] forms application.  
   
-1. Sign in to **Microsoft Dynamics 365 Customer Engagement**.  
+1. Sign in to the Common Data Service platform.  
   
-2. On the navigation bar, click or tap **Microsoft Dynamics 365 Customer Engagement**, and then select **Settings**.  
+2. On the navigation bar, click **Dynamics 365**.  
   
 3. Click or tap **Settings** > **Unified Service Desk** > **Hosted Controls**.  
   
@@ -199,11 +199,11 @@ You can create an application adapter if you want to integrate an external appli
 7. Save your project, and build it (**Build** > **Build Solution**). After the project builds successfully, an assembly (ExternalApplicationAdapter.dll) is generated in the \bin\debug folder of your project folder. You’ll need this assembly later for testing and using your application adapter.  
   
 <a name="ConfigureAppAdapter"></a>   
-## Step 4: Configure the application adapter in Dynamics 365 Customer Engagement  
+## Step 4: Configure the application adapter  
   
 1. Sign in to the Common Data Service platform.  
   
-2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement**, and then select **Settings**.  
+2. On the nav bar, choose **Dynamics 365**.  
   
 3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
   
@@ -220,7 +220,7 @@ You can create an application adapter if you want to integrate an external appli
    |URI|`ExternalApplicationAdapter`|  
    |Type|`ExternalApplicationAdapter.AppAdapter`|  
   
-   ![External adapter configuration](../unified-service-desk/media/usd-external-adapter-config.PNG "External adapter configuration in Dynamics 365 Customer Engagement")  
+   ![External adapter configuration](../unified-service-desk/media/usd-external-adapter-config.PNG "External adapter configuration")  
   
    > [!NOTE]
    >  URI is the name of your assembly and the Type is the name of your assembly (dll) followed by a dot (.) and then the class name in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project. In this example, the name of the assembly is `ExternalApplicationAdapter` and name of the class is `AppAdapter`, which is the default class name when you create an application adapter.  

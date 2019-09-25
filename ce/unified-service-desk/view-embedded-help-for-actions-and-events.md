@@ -31,7 +31,7 @@ search.app:
   
 1. Sign in to the Common Data Service platform.  
   
-2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement** > **Settings** > **Unified Service Desk** > **Events**.  
+2. On the nav bar, choose **Dynamics 365** > **Settings** > **Unified Service Desk** > **Events**.  
   
 3. On the events page, click an event name under the **Name** column to view the event definition. The help is displayed in the lower part of the event definition page.  
   

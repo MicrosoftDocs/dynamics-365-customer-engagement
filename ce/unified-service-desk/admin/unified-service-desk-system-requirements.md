@@ -61,7 +61,7 @@ Supported Unified Service Desk versions are:
 
 
 > [!Note]
-> If you are using older versions, we recommend upgrading to the latest version of Unified Service Desk and Microsoft Dynamics 365 Customer Engagement.
+> If you are using older versions, we recommend upgrading to the latest version of Unified Service Desk and Dynamics 365 Customer Service.
 
 
 <a name="packdeploy"></a>   

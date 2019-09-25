@@ -82,7 +82,7 @@ You can create a web application adapter if you want to enhance and modify web a
 
 1. Make sure that the sample web application that you built in step 1 is still running.
 
-2. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your **Microsoft Dynamics 365 Customer Engagement** server.  
+2. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Common Data Service platform server.  
 
 3. On successful sign in, you’ll see the **Sample External Web Application** on your desktop.
 
@@ -185,7 +185,7 @@ You can create a web application adapter if you want to enhance and modify web a
 
 1. Sign in to the Common Data Service platform.  
 
-2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement**, and then select **Settings**.  
+2. On the nav bar, choose **Dynamics 365**.  
 
 3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
 

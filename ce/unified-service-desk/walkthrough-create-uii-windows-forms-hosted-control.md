@@ -145,7 +145,7 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
   
 1. Sign in to the Common Data Service platform.  
   
-2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement** > **Settings** > **Unified Service Desk**.  
+2. On the nav bar, choose **Dynamics 365** > **Settings** > **Unified Service Desk**.  
   
 3. On the **Unified Service Desk** page, click **Hosted Controls**.  
   
@@ -183,7 +183,7 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
   
 1. Sign in to the Common Data Service platform.  
   
-2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement** > **Settings** > **Unified Service Desk**.  
+2. On the nav bar, choose **Dynamics 365** > **Settings** > **Unified Service Desk**.  
   
 3. On the **Unified Service Desk** page, choose **Hosted Controls**.  
   
