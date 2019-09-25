@@ -24,7 +24,7 @@ search.app:
 # Crowdsource ideas
 Learn how to manage Forum Ideas, Idea Comments, and Idea Votes.
 
-## Manage idea forums in Dynamics 365
+## Manage idea forums
 
 Dynamics 365 users can manage Idea Forum records under the Community tab, provided the portal customizations have been imported into your Common Data Service organization.
 
