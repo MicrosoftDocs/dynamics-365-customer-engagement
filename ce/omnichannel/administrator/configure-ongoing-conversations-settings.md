@@ -15,6 +15,13 @@ ms.custom:
 
 # Enable supervisors to monitor and assign conversation
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
+> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+
 As an administrator, you must enable the settings to monitor or assign conversation for supervisors to monitor conversations or assign conversations to a queue or agent. Follow these steps:
 
 1. Sign in to **Omnichannel Administration** app.
