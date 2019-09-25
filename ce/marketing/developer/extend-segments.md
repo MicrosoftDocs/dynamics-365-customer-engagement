@@ -2,7 +2,7 @@
 title: "Basic Operations on segments using API| Microsoft Docs" # Intent and product brand in a unique string of 43-59 chars including spaces
 description: The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 Marketing app."" # 115-145 characters including spaces. This abstract displays in the search result.
 ms.custom: ""
-ms.date: 03/20/2019
+ms.date: 08/27/2019
 ms.reviewer: ""
 ms.service: D365CE
 ms.topic: "article"
@@ -18,23 +18,14 @@ search.app:
 
 # Basic operations on segments using the Segmentation API
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+A market segment is the collection of contacts that you target in a marketing campaign. In some cases, you'll simply target all the contacts you have, but in most cases, you'll choose whom you want to target based on demographic or firmographic data and other considerations. More information: [Working with segments](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/segmentation-lists-subscriptions).
 
-A market segment is the collection of contacts that you target in a marketing campaign. In some cases, you'll simply target all the contacts you have, but in most cases, you'll choose who you want to target based on demographic or firmographic data and other considerations. More information: [Working with segments](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/segmentation-lists-subscriptions).
-
-The Segmentation API enables programmatic interaction with segment records. The Segmentation API leverages the standard Dynamics 365 API for manipulating entities or messages. More information: [Dynamics 365 Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api).
-
-> [!IMPORTANT]
-> - The Segmentation API is a preview feature.
-> - [!INCLUDE[cc_preview_features_definition](../../includes/cc-preview-features-definition.md)] 
-> - [!INCLUDE[cc_preview_features_no_MS_support](../../includes/cc-preview-features-no-ms-support.md)]
-
-When you create a segment, the properties of the segment are stored in the **msdyncrm_segment** entity. You can browse the entity metadata information using `@odata.context` in the **GET** response.
+The Segmentation API enables programmatic interaction with segment records. The Segmentation API leverages the standard Dynamics 365 API for manipulating entities or messages. More information: [Dynamics 365 Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api). When you create a segment, the properties of the segment are stored in the **msdyncrm_segment** entity. You can browse the entity metadata information using `@odata.context` in the **GET** response.
 
 > [!NOTE]
 > Before you perform operations, you should install the [Dynamics 365 Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup).
 
-This topic demonstrates how to perform basic operation on the **msdyncrm_segment** entity. You need to pass the following mandatory fields in order to create a segment.
+This topic demonstrates how to perform basic operation on the **msdyncrm_segment** entity. You need to pass the following mandatory fields to create a segment.
 
 |Display name|Schema name|Value|Required|
 |----------|--------------|------|-------|
@@ -61,13 +52,13 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 {
   "msdyncrm_segmentname": "StaticSegmentApi1",
   "msdyncrm_segmenttype": 192350001,
-  "msdyncrm_segmentmemberid": "[\"crm1405f4ba-1ee9-e811-a99d-000d3a35f12f\",\"crm0604cdd1-1ee9-e811-a99d-000d3a35f12f\"]",
+  "msdyncrm_segmentmemberids": "[\"crm1405f4ba-1ee9-e811-a99d-000d3a35f12f\",\"crm0604cdd1-1ee9-e811-a99d-000d3a35f12f\"]",
   "statuscode": 192350000
 }
 ```
 
 > [!IMPORTANT]
-> The purpose of the **crm** prefix is to unambiguously indicate the record identifier type. This is required when you are using a legacy segmentation solution, which, by default, uses a different type of identifier.
+> The purpose of the **crm** prefix is to indicate the record identifier type unambiguously. This is required when you are using a legacy segmentation solution, which, by default, uses a different type of identifier.
 
 **Update request**
 
@@ -85,13 +76,13 @@ PATCH {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 With the retrieve request, you retrieve all the static segments that are in the Live state.  
 
 ```HTTP
-GET {{orgUrl}}/api/data/v9.0/msdyncrm_segments?$filter=statuscode eq 192350001
+GET {{OrgUrl}}/api/data/v9.0/msdyncrm_segments?$filter=statuscode eq 192350001
 ```
 
 You can also retrieve segments with specific properties.
 
 ```HTTP
-GET {{orgUrl}}/api/data/v9.0/msdyncrm_segments?$select=msdyncrm_segmentid,msdyncrm_segmentname,msdyncrm_segmentquery,msdyncrm_description
+GET {{OrgUrl}}/api/data/v9.0/msdyncrm_segments?$select=msdyncrm_segmentid,msdyncrm_segmentname,msdyncrm_segmentquery,msdyncrm_description
 ```
 
 **Delete request**
@@ -99,7 +90,7 @@ GET {{orgUrl}}/api/data/v9.0/msdyncrm_segments?$select=msdyncrm_segmentid,msdync
 With the delete request, you delete the created static segment. 
 
 ```HTTP
-DELETE {{orgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
+DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 ```
 
 ## CRUD operations on dynamic segments
@@ -108,26 +99,26 @@ This section shows how to perform basic CRUD (create, update, retrieve, and dele
 
 **Create request**
 
-This request creates a dynamic segment and sets `statuscode` to Live.
+This request creates a dynamic segment and sets `statuscode` to Going live.
 
 ```HTTP
-POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 {
     "msdyncrm_segmentname": "MySegment2",
     "msdyncrm_segmentquery": "PROFILE(contact)",
     "msdyncrm_segmenttype": 192350000,
-    "statuscode": 192350001
+    "statuscode": 192350006
 }
 ```
 The following request creates a dynamic segment with a conditional segment query to retrieve only contacts that have the `address1_city` field set to `NewYork` or `NewJersey`.
 
 ```HTTP
-POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 {
     "msdyncrm_segmentname": "MySegment2",
     "msdyncrm_segmentquery": "PROFILE(contact).FILTER((address1_city == 'NewYork' || address1_city == 'NewJersey'))",
     "msdyncrm_segmenttype": 192350000,
-    "statuscode": 192350001
+    "statuscode": 192350006
 }
 ```
 
@@ -164,26 +155,26 @@ This section shows how to perform basic CRUD (create, update, retrieve, and dele
 
 **Create request**
 
-This request creates a compound segment and sets `statuscode` to “Live”.
+This request creates a compound segment and sets `statuscode` to Going live.
 
 ```HTTP
-POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 {
     "msdyncrm_segmentname": "my_compound_segment1",
     "msdyncrm_segmenttype": 192350002,
     "msdyncrm_segmentquery":"SEGMENT(segment1) UNION SEGMENT(segment2)",
-    "statuscode": 192350001
+    "statuscode": 192350006
 }
 ```
 
  **Update request**
 
-With the update request, you update the status of the compound segment to “Stop”.
+With the update request, you update the status of the compound segment to Stopping.
 
 ```HTTP
 PATCH {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 {
-    "statuscode": 192350002
+    "statuscode": 192350007
 }
 ```
 
@@ -205,18 +196,18 @@ DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 ## Include/exclude segment members
 
-Members can be added to or removed from segments. Because these operations go beyond a simple add or remove, they are referred to as include/exclude operations.
+Segment members can be added to or removed from the segments. As these operations go beyond a simple add or remove they are referred to as `Include/Exclude` operations.
 
-Include/exclude operations can be performed through the Segmentation API by posting messages of the following types:
+You can perform Include/exclude operations on segments through API by calling t he following methods:
 
 - **msdyncrm_IncludeMemberInSegment**
 - **msdyncrm_IncludeMembersInSegment**
 - **msdyncrm_ExcludeMemberFromSegment**
 - **msdyncrm_ExcludeMembersFromSegment**
 
-Including a record makes it a member of the segment whether it satisfies the segment query (**msdyncrm_segmentquery**) or not. Including a record that is already a member will ensure that it is not removed when it doesn't match the segment query.
+Including a contact record makes it a member of the segment whether it satisfies the segment query definition (**msdyncrm_segmentquery**) or not. Including a contact record that is already a member of the segment ensures that it is not removed when it doesn't match the segment query.
 
-Excluding a record removes it from the segment members and prevents it from being added again, even if the record matches the segment query. A record can be excluded from a segment without previously being a member of the segment to prevent it from becoming a member.
+Excluding a contact record removes it from the segment and prevents it from being added again even if the record matches the segment query. A record can be excluded from a segment without previously being a member of the segment to prevent it from becoming a member.
 
 Once a member is included, the action can be reversed by excluding it, thereby removing and preventing it from becoming a member. Similarly, excluding a member can be reversed by including it, thereby making it a member unconditionally.
 
@@ -288,4 +279,54 @@ GET {{OrgUrl}}/api/data/v9.0/contacts?fetchXml=fetch version="1.0" output-format
         </link-entity>
     </entity>
 </fetch>
+```
+
+## Validating segments
+
+Prior to creating or modifying a segment, you can verify the new definition using a dedicated validation endpoint.
+The endpoint always returns an HTTP status OK message and an object with a property `ValidationResult` holding an array of errors.
+
+In the case of a valid definition, the result array is empty. Otherwise, it contains records for the identified issues.
+Segment definition is validated on the creation of the record, and the status code set to **Going Live**.
+
+Validation is intentionally skipped when a segment is created in **Draft** state. Also failed validation results in HTTP 400 with an error message in the response body.
+
+**Validating a valid segment definition**
+
+```HTTP
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_ValidateSegment
+{
+       "msdyncrm_segmentname":"NewSegment",
+       "msdyncrm_segmentquery":"PROFILE(contact)",
+       "msdyncrm_segmenttype":192350000,
+       "statuscode":192350000
+}
+```
+**Response**
+```HTTP
+{
+…
+    "ValidationResult": "[]"
+}
+```
+
+**Validating a invalid segment definition**
+
+```HTTP
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_ValidateSegment
+{
+       "msdyncrm_segmentname":"NewSegment",
+       "msdyncrm_segmentquery":"PROFILE(UnknownEntity)",
+       "msdyncrm_segmenttype":192350000,
+       "statuscode":192350006
+}
+```
+
+**Response**
+
+```HTTP
+{
+…
+    "ValidationResult": "[{\"ErrorCode\":\"SegmentDciValidator_SegmentInvalid\",\"FieldName\":\"msdyncrm_segmentquery\"}]"
+}
 ```
