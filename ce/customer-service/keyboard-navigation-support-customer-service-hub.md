@@ -1,5 +1,5 @@
 ---
-title: Keyboard shortcuts for the Customer Service Hub in Microsoft Dynamics 365 for Customer Engagement| Microsoft Docs
+title: Keyboard shortcuts for the Customer Service Hub | Microsoft Docs
 description: Use the keyboard shortcuts to perform common tasks in Customer Service Hub.
 author: anjgupta
 ms.author: anjgup

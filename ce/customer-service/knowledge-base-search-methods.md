@@ -73,7 +73,7 @@ With each of the previous search areas, the search results might vary based on t
 
 |Version  |  |Search areas| Search mechanism  |
 |---------|---------|---------|---------|
-| December 2016 Update for Dynamics 365 Customer Service </br> & </br> December 2016 Service Pack for Dynamics 365 for Customer Engagement (on-premises) platform  |      |     - KB search control <br>  - Quick find in Grids   |   Full-text search    |
+| December 2016 Update for Dynamics 365 Customer Service </br> & </br> December 2016 Service Pack for Customer Engagement (on-premises) platform  |      |     - KB search control <br>  - Quick find in Grids   |   Full-text search    |
 |   |     |      - Global search  |   Categorized search     |
 |Dynamics 365 Customer Service apps version 9.0   |     |  - KB search control      |   Relevance search/ Full-text search (based on what you configure)     |
 |  |      |   - Quick find in Grids     |   Full-text search |
