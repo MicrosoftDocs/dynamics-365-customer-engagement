@@ -6,7 +6,6 @@ ms.date: 07/15/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
-applies_to:
 ms.assetid: 43DCA23E-19AE-4D5F-B679-65A82B2B7FCB
 author: susikka
 ms.author: susikka
