@@ -7,7 +7,13 @@ ms.assetid: e9f3a0d0-99fb-40bf-bd82-54995d05f128
 author: udaykirang
 ms.author: udag
 manager: sakudes
-caps.latest.revision: 14
+search.audienceType:
+  - admin
+  - customizer
+  - enduser
+search.app:
+  - D365CE
+  - D365Sales
 ---
 
 # Embedded intelligence overview
@@ -86,22 +92,22 @@ When fully included in the product, Relationship Insights will help salespeople 
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Auto capture](../sales-enterprise/auto-capture.md)  
  
 <!--
-<a name="RelationshipAnalytics"></a>   
+<a name="RelationshipAnalytics"></a>
 
 ## View key performance indicators of your business interactions
 
 What opportunities should have priority? When was the customer last contacted? Who on the team has been interacting with the customer? Use relationship analytics to get relevant data to answer these and other questions about your customer related activities.
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Preview feature: Relationship analytics](relationship-analytics.md)   
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Preview feature: Relationship analytics](relationship-analytics.md)
 -->
- 
-<a name="BKMK_Privacy"></a>   
-## Privacy notices 
- 
+
+<a name="BKMK_Privacy"></a>
+## Privacy notices
+
 [!INCLUDE[cc_privacy_relationship_insights_relationship_assistant](../includes/cc-privacy-relationship-insights-relationship-assistant.md)]
-  
+
 [!INCLUDE[cc_privacy_relationship_insights_email_engagement](../includes/cc-privacy-relationship-insights-email-engagement.md)]
-  
+
 [!INCLUDE[cc_privacy_relationship_insights_auto_capture](../includes/cc-privacy-relationship-insights-auto-capture.md)]
-  
-### See also   
+
+### See also

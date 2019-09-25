@@ -5,19 +5,19 @@ keywords: social engagement, overview, quick start, scenarios
 ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
+applies_to:
   - Social Engagement
 ms.assetid: 0d4e7b30-90fe-46f1-bc0e-f486489141d2
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.custom: 
+ms.custom:
   - dyn365-socialengagement
-search.audienceType: 
+search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
+search.app:
   - D365CE
   - D365SE
 ---
@@ -34,7 +34,7 @@ Social media is no longer relegated to a select few in the marketing department.
 
 ## Success stories
 
-See how some of our customers are using [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] to address their use cases.  
+See how some of our customers are using [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] to address their use cases.
 
 -   [UK banking disrupted: Metro Bank reinvents customer service with Microsoft](https://customers.microsoft.com/story/uk-banking-disrupted-metro-bank-reinvents-customer-ser)&mdash;transforming customer service and social insights.
 
@@ -49,7 +49,7 @@ See how some of our customers are using [!INCLUDE[Social Engagement](../includes
 
 ## Pricing information
 
-[!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] is included with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Plan, Customer Engagement Plan, and Customer Engagement Application (Sales, Customer Service, Field Service, and Project Service Automation) subscriptions. So, everyone across the organization can benefit from its capabilities. For more information about pricing and licensing for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], visit [Dynamics 365 for Customer Engagement pricing](http://go.microsoft.com/fwlink/p/?LinkID=401462).  
+[!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] is included with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Plan, Customer Engagement Plan, and Customer Engagement Application (Sales, Customer Service, Field Service, and Project Service Automation) subscriptions. So, everyone across the organization can benefit from its capabilities. For more information about pricing and licensing for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], visit [Dynamics 365 for Customer Engagement pricing](https://go.microsoft.com/fwlink/p/?LinkID=401462).
 
 Note that [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] pricing is based on a monthly post quota. [Learn more about how to buy post quota add-on subscriptions for your organization](manage-post-quota.md#buy-additional-quota).
 
@@ -85,7 +85,7 @@ We frequently release updates to introduce new capabilities, improve existing fe
 
 - Have a look at [what's new in Social Engagement](what-s-new-in-microsoft-social-engagement.md) to learn about the latest changes.
 
-- Read the latest [Social Engagement readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612) for any late-breaking changes to this release.
+- Read the latest [Social Engagement readme](https://go.Microsoft.com/fwlink/p/?LinkId=393612) for any late-breaking changes to this release.
 
 ## Community contributions
 
@@ -98,4 +98,4 @@ Have a look at these additional assets that are waiting for you.
 ### See also
 
 [What's new in Social Engagement](what-s-new-in-microsoft-social-engagement.md)
-[Social Engagement FAQ](faq.md)   
+[Social Engagement FAQ](faq.md)

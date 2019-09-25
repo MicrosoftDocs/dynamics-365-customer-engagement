@@ -1,1 +1,1 @@
-Dynamics 365 for Marketing
+Dynamics 365 Marketing

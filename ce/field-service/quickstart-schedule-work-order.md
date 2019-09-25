@@ -10,8 +10,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 author: krbjoran
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
@@ -49,7 +47,7 @@ Steps:
 
 ## Prerequisites
 
-You need a Dynamics 365 for Customer Engagement organization with the Field Service application and the mobile solution installed. Using sample data 
+You need a Dynamics 365 organization with the Field Service application and the mobile solution installed. Using sample data 
 imported from the Package Deployer is recommended. You also need a phone or tablet for viewing a scheduled work order.
 
 ### Make sure the Field Service application is installed
@@ -152,7 +150,7 @@ Next you need to set up geo-coding for the field technician user. Field technici
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the user record in Office 365](media/qs-1-img19.png)  
 
-3. Enter an address, and then choose **Save**. To see the updated address in the Dynamics 365 for Customer Engagement organization, go back to the field technician user record and refresh the page.
+1. Enter an address, and then choose **Save**. To see the updated address in the Dynamics 365 organization, go back to the field technician user record and refresh the page.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the address fields for the user in Office 365](media/qs-1-img20.png)  
@@ -252,21 +250,21 @@ If necessary, download the **Field Service Mobile (2017)** mobile app from the a
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing where to find the Setup option on the field service mobile app](media/qs-1-img38.png)
 
-2. Select the Dynamics 365 for Customer Engagement account.
+1. Select the Dynamics 365 account.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing list of accounts on the field service mobile app](media/qs-1-img39.png)
 
 3. Sign in with the username and password for the field technician:
 
-- For the **URL**, enter the URL of your Dynamics 365 for Customer Engagement organization. For example, https://org.crm.dynamics.com.
+- For the **URL**, enter the URL of your Dynamics 365 organization. For example, https://org.crm.dynamics.com.
 - For the **Username**, enter the username of the field technician. For example, username@org.onmicrosoft.com
 - For the **Password**, enter the password you set for the field technician.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing sign-in credentials for a field service user](media/qs-1-img40.png)
 
-4. In the **Booking** tab, verify that the work order (or booking) is scheduled for the field technician.
+1. In the **Booking** tab, verify that the work order (or booking) is scheduled for the field technician.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing a work order in the field service mobile app](media/qs-1-img41.png)

@@ -1,22 +1,22 @@
 ---
 title: "Tenant to tenant migration (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-ms.custom: 
+ms.custom:
 ms.date: 04/25/2019
-ms.reviewer: 
+ms.reviewer:
 ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: article
-applies_to: 
+applies_to:
   - Dynamics 365 for Customer Engagement  (online)
 ms.assetid: ad518fcc-734c-4fd5-b9db-af46159daa2b
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
 manager: kvivek
-search.audienceType: 
+search.audienceType:
   - admin
-search.app: 
+search.app:
   - D365CE
   - Powerplatform
 ---
@@ -33,7 +33,7 @@ There are no user-interface changes or version changes as part of this move. You
 
 > [!IMPORTANT]
 > When moving individual Dynamics 365 for Customer Engagement apps (online) instances from one tenant to another, if that requires a geographical region change, your tenant becomes a multiregional tenant. Regional features are enabled in the Dynamics 365 admin center.
-> 
+>
 > You might need to reconfigure some applications and settings after tenant to tenant migration such as Microsoft Dynamics 365 for Outlook, server-side sync, SharePoint integration, etc.
 >
 
@@ -57,12 +57,12 @@ The destination tenant needs an equal or higher number of active user licenses, 
 
 ## How the move works
 
-You’ll be provided with a list of prerequisites and post-requisites for your migration as part of the support request raised. The following table describes what Microsoft does before, during, and after your move. 
+You’ll be provided with a list of prerequisites and post-requisites for your migration as part of the support request raised. The following table describes what Microsoft does before, during, and after your move.
 
 
 | |Before the move<br/>Notification   |During the move<br/>Cut-over  |After the move<br/>Notification and support |
 |---------|---------|---------|---------|
 |**What Microsoft does**   |Your support representative or Account Manager will work with you to request a move and schedule it.         |Cut-over for the migration takes several hours, depending on the number of users and the amount of data. During this period, the organization is not accessible, so the cut-over should be scheduled during the evening or over a weekend.<br/><br/>There is a step that will require your involvement, which is to provide a Dynamics 365 for Customer Engagement apps User Mapping File. This is requested in advance so that we can validate the users being moved before the migration takes place.         |You will be alerted by email or telephone when your instance is migrated to the new tenant.<br/><br/>After the tenant migration is complete, your support representative or Account Manager will assist you to contact with billing to cancel and/or credit your previous subscription, if needed.         |
 
-We will adhere to the terms of the [Microsoft Online Services Service Level Agreement](http://go.microsoft.com/fwlink/p/?LinkID=523897) for all moves. 
+We will adhere to the terms of the [Microsoft Online Services Service Level Agreement](https://go.microsoft.com/fwlink/p/?LinkID=523897) for all moves.
 

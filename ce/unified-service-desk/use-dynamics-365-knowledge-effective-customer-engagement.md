@@ -12,7 +12,7 @@ manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
-search.app: 
+search.app:
   - D365CE
   - D365USD
 ---

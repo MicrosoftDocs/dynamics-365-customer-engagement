@@ -9,10 +9,10 @@ ms.assetid: d6013727-b00e-4671-97c6-f0c0600da980
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: 
+search.audienceType:
   - customizer
   - developer
-search.app: 
+search.app:
   - D365CE
   - D365USD
 ---

@@ -5,8 +5,6 @@ keywords:
 ms.date: 11/10/2017
 ms.service: dynamics-365-sales
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 7341ed32-5cf7-4bde-ab7a-d92c2b86e2a1
 author: m-hartmann
 ms.author: mhart

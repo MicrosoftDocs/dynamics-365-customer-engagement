@@ -9,10 +9,10 @@ ms.assetid: f280285b-2284-40a8-a01d-ea24a65926c9
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: 
+search.audienceType:
   - customizer
   - developer
-search.app: 
+search.app:
   - D365CE
   - D365USD
 ---
@@ -245,7 +245,7 @@ You can create an application adapter if you want to integrate an external appli
    ![Customer info in external application](../unified-service-desk/media/usd-external-app-customer-info.PNG "Customer info in external application")  
   
 > [!NOTE]
->  This walkthrough demonstrates how to display or read data from [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] in the external application. To understand how to update the data in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] from the external application, see [Walkthrough: Create a UII Windows Forms Hosted Control](../unified-service-desk/walkthrough-create-uii-windows-forms-hosted-control.md)  
-  
-### See also  
+>  This walkthrough demonstrates how to display or read data from [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] in the external application. To understand how to update the data in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] from the external application, see [Walkthrough: Create a UII Windows Forms Hosted Control](../unified-service-desk/walkthrough-create-uii-windows-forms-hosted-control.md)
+
+### See also
  [Use UII adapters to interact with external and web applications](../unified-service-desk/use-uii-adapters-interact-external-web-applications.md)

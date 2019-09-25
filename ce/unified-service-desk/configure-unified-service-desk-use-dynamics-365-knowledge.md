@@ -12,7 +12,7 @@ manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
-search.app: 
+search.app:
   - D365CE
   - D365USD
 ---
@@ -21,7 +21,7 @@ search.app:
 The **KM Control** and **Unified Interface KM Control** type of hosted controls expose a bunch of events and action calls to configure an integrated experience for your agents to easily search for knowledge base articles in the Common Data Service platform from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and then perform various actions on the search result items.  
   
 ::: moniker range="dynamics-usd-3"
- Create an instance of the **KM Control** type of hosted control to begin with your configuration. After you have created an instance of the hosted control, you can configure things mentioned later in this topic.  
+ Create an instance of the **KM Control** type of hosted control to begin with your configuration. After you have created an instance of the hosted control, you can configure things mentioned later in this topic.
 ::: moniker-end
 
 ::: moniker range=">=dynamics-usd-4"
@@ -85,28 +85,28 @@ entitytypename=incident
  ![Action call for configuring the pop&#45;out feature](../unified-service-desk/media/usd-action-call-pop-out.png "Action call for configuring the pop-out feature")  
   
 > [!NOTE]
->  In these examples, the name of the hosted control that displays the article is `KB Article`. You must use the appropriate hosted control name as per your configuration.  
-  
- To configure the pop-in feature, again use the `MoveToPanel` action, but set the data parameter to `MainPanel`. This moves the hosted control that displays the article from `FloatingPanel` to `MainPanel`.  
-  
- ![Action call for the pop&#45;in feature](../unified-service-desk/media/usd-action-call-pop-in.png "Action call for the pop-in feature")  
-  
- You can call this action from a toolbar button on the hosted control. However, you must configure the pop-in toolbar button to be visible only when the hosted control is in `FloatingPanel`. You can do so by specifying the following condition in the **Visible Condition** field of the pop-in toolbar button definition.  
-  
-```  
-"[[$Panel.KB Article]+]"=="FloatingPanel"  
-```  
-  
-<a name="Events"></a>   
-## Use the events to configure various tasks  
- Use the following three events specific to the knowledge hosted control to configure various tasks related to the knowledge base articles.  
-  
-- Use the `SearchComplete` event to add action calls that you want to be executed when the search for knowledge base articles is complete and the results get loaded in the KM Control hosted control (KB search pane).  
-  
-- Use the `ResultOpen` event to add action calls that you want to be executed when the title of a knowledge base article is clicked in the search results in the KM Control hosted control (KB search pane) to open the article.  
-  
-- Use the `SelectionChange` event to add action calls that you want to be executed when a knowledge base article is selected in the search results in the KM Control hosted control (KB search pane).  
-  
+>  In these examples, the name of the hosted control that displays the article is `KB Article`. You must use the appropriate hosted control name as per your configuration.
+
+ To configure the pop-in feature, again use the `MoveToPanel` action, but set the data parameter to `MainPanel`. This moves the hosted control that displays the article from `FloatingPanel` to `MainPanel`.
+
+ ![Action call for the pop&#45;in feature](../unified-service-desk/media/usd-action-call-pop-in.png "Action call for the pop-in feature")
+
+ You can call this action from a toolbar button on the hosted control. However, you must configure the pop-in toolbar button to be visible only when the hosted control is in `FloatingPanel`. You can do so by specifying the following condition in the **Visible Condition** field of the pop-in toolbar button definition.
+
+```
+"[[$Panel.KB Article]+]"=="FloatingPanel"
+```
+
+<a name="Events"></a>
+## Use the events to configure various tasks
+ Use the following three events specific to the knowledge hosted control to configure various tasks related to the knowledge base articles.
+
+- Use the `SearchComplete` event to add action calls that you want to be executed when the search for knowledge base articles is complete and the results get loaded in the KM Control hosted control (KB search pane).
+
+- Use the `ResultOpen` event to add action calls that you want to be executed when the title of a knowledge base article is clicked in the search results in the KM Control hosted control (KB search pane) to open the article.
+
+- Use the `SelectionChange` event to add action calls that you want to be executed when a knowledge base article is selected in the search results in the KM Control hosted control (KB search pane).
+
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Predefined events for KM Control](../unified-service-desk/km-control-hosted-control.md#events)  and [Predefined events for Unified Interface KM Control (Hosted Control)](../unified-service-desk/unified-interface-km-control-hosted-control.md#events)
   
 <a name="Other"></a>   
@@ -117,8 +117,15 @@ entitytypename=incident
 ### See also  
  [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) 
 
- [KM Control (Hosted Control)](../unified-service-desk/km-control-hosted-control.md)  
+<a name="Other"></a>
+## Configure other tasks for knowledge base articles
+ You can configure other tasks for the knowledge base articles such as copy the link of an article or send an email with pre-populated values as the case title in the email subject and knowledge base article link in the email body. These tasks are available when you deploy the **Knowledge Management** sample application, and you can view the configuration for these tasks in your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps instance under **Settings** > **Unified Service Desk** ([How do I get there?](https://go.microsoft.com/fwlink/p/?LinkId=525636)).
 
- [Unified Interface KM Control (Hosted Control)](../unified-service-desk/unified-interface-km-control-hosted-control.md) 
+### See also
+ [Use Dynamics 365 for Customer Engagement apps knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)
+
+ [KM Control (Hosted Control)](../unified-service-desk/km-control-hosted-control.md)
+
+ [Unified Interface KM Control (Hosted Control)](../unified-service-desk/unified-interface-km-control-hosted-control.md)
 
  [Walkthrough 8: Use knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)

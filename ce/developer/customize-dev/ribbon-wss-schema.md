@@ -1,37 +1,37 @@
 ---
 title: "Ribbon WSS schema (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The following is the schema definition for the ribbon types WSS of an import/export customization file. It is included from the Ribbon Core Schema."
-ms.custom: 
+ms.custom:
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer:
 ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: article
-applies_to: 
+applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 7df86d70-d4d0-4cb2-94e1-ac5504307bb8
 caps.latest.revision: 18
 author: JimDaly
 ms.author: jdaly
 manager: amyla
-search.audienceType: 
+search.audienceType:
   - developer
-search.app: 
+search.app:
   - D365CE
 ---
 # Ribbon WSS schema
 
 The following is the schema definition for the ribbon types WSS of an import/export customization file. Ribbon WSS is included from the [Ribbon Core Schema](ribbon-core-schema.md). You can find schema in the `Schemas\9.0.0.2090\RibbonWSS.xsd` folder when you download the Schemas zip file.
 
-Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
+Download the [Schemas](https://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
 
 
 For more information, see [Package and Distribute Extensions with Microsoft Dynamics 365 for Customer Engagement Solutions](../package-distribute-extensions-use-solutions.md).
 
-## Schema  
-  
-```xml  
+## Schema
+
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="CrmRibbonWss" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
@@ -189,8 +189,8 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
 
   <xs:simpleType name="TitleType">
     <xs:restriction base="xs:string" />
-  </xs:simpleType>      
-  
+  </xs:simpleType>
+
   <xs:simpleType name="UnitNameType">
     <xs:restriction base="xs:string" />
   </xs:simpleType>
@@ -784,11 +784,11 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
     <xs:attribute name="ToolTipDisabledCommandImage16by16Class" type="ImageClassType" />
     <xs:attribute name="ToolTipDisabledCommandImage16by16Left" type="ImagePositionType" />
     <xs:attribute name="ToolTipDisabledCommandImage16by16Top" type="ImagePositionType" />
-    <xs:attribute name="ToolTipDisabledCommandDescription" type="xs:string" />    
+    <xs:attribute name="ToolTipDisabledCommandDescription" type="xs:string" />
     <xs:attribute name="ToolTipDisabledCommandTitle" type="xs:string" />
     <xs:attribute name="ToolTipDisabledCommandHelpKey" type="xs:string" />
     <xs:attribute name="ToolTipHelpCommand" type="xs:string" />
-    <xs:attribute name="ToolTipSelectedItemTitlePrefix" type="xs:string" />      
+    <xs:attribute name="ToolTipSelectedItemTitlePrefix" type="xs:string" />
     <xs:attribute name="ShortcutKeyJumpToRibbon_Ctrl" type="xs:string" />
     <xs:attribute name="ShortcutKeyJumpToRibbon_Alt" type="xs:string" />
     <xs:attribute name="ShortcutKeyJumpToRibbon_Shift" type="xs:string" />
@@ -1003,9 +1003,9 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
     <xs:attribute name="Value" type="UnitNameType" />
   </xs:complexType>
 </xs:schema>
-```  
-  
-### See also  
- [Customize commands and the ribbon](customize-commands-ribbon.md)   
- [Ribbon Types Schema](ribbon-types-schema.md)   
+```
+
+### See also
+ [Customize commands and the ribbon](customize-commands-ribbon.md)
+ [Ribbon Types Schema](ribbon-types-schema.md)
  [Customization XML Reference](../customization-xml-reference.md)

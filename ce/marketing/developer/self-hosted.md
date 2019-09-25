@@ -9,8 +9,6 @@ ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
 ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
 author: Nkrb
 ms.author: nabuthuk
 manager: kvivek
@@ -22,7 +20,7 @@ Before you start hosting the self-hosted custom event website, complete the acti
 
 The frontend can be fully customized and hosted by yourself. Additionally, you can choose to use our backend service, or you can develop your backend. To interact with the backend service, see [Public API documentation](https://go.microsoft.com/fwlink/?linkid=2042224).
 
-If you choose to develop your backend service, you need to take care of the Dynamics 365 authentication and the Dynamics 365 web services by yourself. If you want the event registration linked to the appropriate user who created it, make sure that you create the Dynamics 365 contact record for every new website user.  
+If you choose to develop your backend service, you need to take care of the Dynamics 365 Marketing authentication and the web services by yourself. If you want the event registration linked to the appropriate user who created it, make sure that you create the Dynamics 365 Marketing contact record for every new website user.  
 
 ![Self-hosted](../media/self-hosted.png "Self-hosted")
 

@@ -1,26 +1,26 @@
 ---
 title: "Get started (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "This topic contains information about some specific key tasks and how you can accomplish them. You’ll get guidance at a high level with directions to where you can find the details you need."
-ms.custom: 
+ms.custom:
 ms.date: 3/29/2019
 ms.reviewer: pehecke
 ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: article
-applies_to: 
+applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3a50694d-df1e-4da6-92f9-7a84364386d9
 caps.latest.revision: 16
 author: JimDaly
 ms.author: jdaly
 manager: amyla
-tags: 
+tags:
   - aug2017
   - MigrationHO
-search.audienceType: 
+search.audienceType:
   - developer
-search.app: 
+search.app:
   - D365CE
 ---
 # Get started with the SDK for Dynamics 365 for Customer Engagement apps
@@ -31,7 +31,7 @@ The [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.m
 
 ## Try out an environment
 
- If you just want to get an environment to start learning with, the easiest approach is to sign up for a [30-day free trial on Dynamics 365 for Customer Engagement apps](http://go.microsoft.com/fwlink/p/?LinkId=708412).
+ If you just want to get an environment to start learning with, the easiest approach is to sign up for a [30-day free trial on Dynamics 365 for Customer Engagement apps](https://go.microsoft.com/fwlink/p/?LinkId=708412).
 
  If you’re looking for something more long term or specifically want to use the on-premises version, you can download it from [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=2025342). During setup, you have the option to supply a commercial key or you can use one of the product keys listed on the download page for a 90 day free trial. More information about installing the on-premises version: [Microsoft Dynamics 365 Server installation](https://docs.microsoft.com/dynamics365/customer-engagement/on-premises/microsoft-dynamics-365-server-installation).
 
