@@ -28,7 +28,7 @@ The Web Form Metadata contains additional behavior modification logic to augment
 ## Add a new record
 1. On the Web Form Step that has fields that you would like to modify, select the **Metadata** link in the top navigation.
 
-![Select metadata in Dynamics 365](media/select-metadata-dynamics-365.png "Select metadata in Dynamics 365")  
+![Select metadata](media/select-metadata-dynamics-365.png "Select metadata")  
 2. select **Add New Web Form Metadata**.
 
 ## Web form metadata properties
@@ -48,7 +48,7 @@ The following properties are displayed when the Type selected is 'Attribute'.
 |          Name          |                                                                                                                                                    Description                                                                                                                                                     |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Attribute Logical Name |                                                                                                                              The logical name of the attribute field to be modified.                                                                                                                               |
-|         Label          | Replaces the default label assigned to the attribute on the entity with the text specified in this input. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. |
+|         Label          | Replaces the default label assigned to the attribute on the entity with the text specified in this input. For each language pack installed and enabled for the Common Data Service organization a field will be available to enter the message in the associated language. |
 
 ### Control style
 
@@ -93,7 +93,7 @@ The following options specify a value to be set when the form is saved.
 
 The following section contains properties that modify various validation parameters and error messages.
 
-For each language pack installed and enabled for the Dynamics 365 organization, a field will be available to enter the message in the associated language.
+For each language pack installed and enabled for the Common Data Service organization, a field will be available to enter the message in the associated language.
 
 | Name                                        | Description                                                                                                                                                                                                                                                      |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -118,7 +118,7 @@ The following properties specify the location and content of custom description 
 |           Add Description            |                                                                                                                        Yes results in custom text being displayed on the form in the position specified.                                                                                                                        |
 |               Position               |                                                                                                             One of the following:<ul><li>Above the field</li><li>Below the field</li><li>Above the label</li></ul>                                                                                                              |
 | Use Attribute's Description Property |                                                                                       Select 'Yes' to use the description assigned to the attribute metadata on the entity. Select 'No' to provide a custom description. Default is 'No'.                                                                                       |
-|             Description              | Custom text to be displayed on the form. Used in conjunction when Use Attribute's Description Property is set to 'No'. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. |
+|             Description              | Custom text to be displayed on the form. Used in conjunction when Use Attribute's Description Property is set to 'No'. For each language pack installed and enabled for the Common Data Service organization a field will be available to enter the message in the associated language. |
 
 ## Web Form metadata type = Section
 
@@ -127,8 +127,8 @@ The following properties are displayed when the Type selected equals 'Section'.
 
 |     Name     |                                                                                                                                                   Description                                                                                                                                                    |
 |--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Section Name |                                                                                           The name of the section on the entity's form in Dynamics 365 to be modified.                                                                                            |
-|    Label     | Replaces the default label assigned to the section on the entity with the text specified in this input. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. |
+| Section Name |                                                                                           The name of the section on the entity's form to be modified.                                                                                            |
+|    Label     | Replaces the default label assigned to the section on the entity with the text specified in this input. For each language pack installed and enabled for the Common Data Service organization a field will be available to enter the message in the associated language. |
 
 ## Web Form metadata type = Tab
 
@@ -137,8 +137,8 @@ The following properties are displayed when the Type selected equals 'Tab'
 
 |   Name   |                                                                                                                                                 Description                                                                                                                                                  |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tab Name |                                                                                           The name of the tab on the entity's form in Dynamics 365 to be modified.                                                                                            |
-|  Label   | Replaces the default label assigned to the tab on the entity with the text specified in this input. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. |
+| Tab Name |                                                                                           The name of the tab on the entity's form to be modified.                                                                                            |
+|  Label   | Replaces the default label assigned to the tab on the entity with the text specified in this input. For each language pack installed and enabled for the Common Data Service organization a field will be available to enter the message in the associated language. |
 
 ### See also
 

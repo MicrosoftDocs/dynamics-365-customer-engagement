@@ -207,7 +207,7 @@ Rebuild of full search index is required whenever:
 
 - You make a metadata change to search properties like changing certain query-specific site settings or changing the search view of an entity, and so on.
 - Bulk data migration or updates are performed.
-- A website record, associated to your portal, is changed in a Dynamics 365 organization.
+- A website record, associated to your portal, is changed in a Common Data Service organization.
 
 You can also rebuild a full search index from a portal.
 1.	Sign in to the portal as an administrator.
