@@ -33,15 +33,15 @@ search.app:
 
 ## Why is Field Service missing from the sitemap navigation?
 
-As of Field Service v8.x you can find Field Service among the other Dynamics apps by selecting Dynamics 365 in the top left and selecting **Field Service**.
+As of Field Service v8.x, you can find Field Service among the other Dynamics 365 apps by selecting Dynamics 365 in the top left and selecting **Field Service**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/navigation-fs-sitemap.png)
+> ![Screenshot of Field Service in the navigation](./media/navigation-fs-sitemap.png)
 
-This is different from previous versions (7.x and 6.x) where Field Service was found as in the image below.
+This is different from previous versions (7.x and 6.x), where Field Service was found in the menu as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/navigation-fs-sitemap-7.png)
+> ![Screenshot of the former Field Service navigation menu](./media/navigation-fs-sitemap-7.png)
 
 
 ## Can I customize out-of-the-box web resources, option sets, or security roles? 
