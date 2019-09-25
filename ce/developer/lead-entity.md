@@ -1,5 +1,5 @@
 ---
-title: "Lead entity (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Lead entity | MicrosoftDocs"
 description: "Learn about lead entity that represents an individual who is interested in receiving specific information about products or services offered by the company."
 ms.custom: 
 ms.date: 10/31/2017
@@ -48,7 +48,7 @@ A *lead* entity represents an individual that is identified as someone who is in
   
   A link is maintained between the lead and any accounts and contacts. You can create this link by using the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method with the <xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or the <xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> messages. This makes it possible to generate reports that indicate the value of different lead sources.  
   
-  When you enter a lead into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can use the process (workflow) engine to automatically route it to a specific user or team based on rules that are defined by the business unit or channel partner. Upon qualification, the lead is either converted to an opportunity or is inactivated, but retained to allow for accurate business reporting, for example, analysis of the effectiveness of different lead sources. For more information, see[Processes in Dynamics 365 for Customer Engagement 5](automate-business-processes-customer-engagement.md).  
+  When you enter a lead into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can use the process (workflow) engine to automatically route it to a specific user or team based on rules that are defined by the business unit or channel partner. Upon qualification, the lead is either converted to an opportunity or is inactivated, but retained to allow for accurate business reporting, for example, analysis of the effectiveness of different lead sources. For more information, see [Processes in Dynamics 365](automate-business-processes-customer-engagement.md).  
   
 ### See Also  
  [Lead Entity](entities/lead.md)   

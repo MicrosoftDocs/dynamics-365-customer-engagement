@@ -1,12 +1,12 @@
 ---
-title: Accessibility for people with disabilities (Dynamics 365 for Customer Engagement) | MicrosoftDocs
+title: Accessibility for people with disabilities | MicrosoftDocs
 description: Accessibility keyboard shortcuts for people with disabilities
 keywords: Accessibility; keyboard shortcuts; Accessibility in customer enagagement
 applies_to:
   - Dynamics 365 for Customer Engagement apps
   - Dynamics 365 for Customer Engagement appsVersion 8.x
-ms.date: 05/30/2018
-ms.service: dynamics-365-crossapp
+ms.date: 09/5/2019
+ms.service: dynamics-365-crossap
 ms.topic: article
 author: ReneeW-CPub
 ms.author: renwe
@@ -20,9 +20,9 @@ search.app:
   - D365CE
 ---
 # Accessibility for people with disabilities
-Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Accessibility](https://www.microsoft.com/enable/default.aspx)
-
-## Keyboard shortcuts in Dynamics 365 for Customer Engagement apps
+Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Accessibility](http://www.microsoft.com/enable/default.aspx).  
+  
+## Keyboard shortcuts in Dynamics 365 for Customer Engagement apps 
 [!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] offers keyboard shortcuts to address issues faced by people with limited dexterity or motion disabilities. Also, people who don’t use a mouse can use a keyboard to navigate and complete actions.  More information: [Use keyboard shortcuts in Dynamics 365 for Customer Engagement apps](../basics/keyboard-shortcuts.md)
 
 ## Use a screen reader in Unified Interface apps

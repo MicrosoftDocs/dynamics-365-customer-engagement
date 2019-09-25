@@ -7,8 +7,13 @@ ms.service: crm-online
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: article
+<<<<<<< HEAD
 applies_to:
   - Dynamics 365 for Customer Engagement apps
+=======
+applies_to: 
+  - Dynamics 365 apps 
+>>>>>>> oct-merge
 ms.assetid: f6bb55c6-57fd-4f67-9964-31b5ec30dc73
 caps.latest.revision: 8
 author: mduelae

@@ -29,13 +29,8 @@ These guides apply to every instance of [!INCLUDE [pn-dyn-365](includes/pn-dyn-3
 <tr>
 <td>
 <li><a href="admin/index.md" data-raw-source="[Administrator Guide](admin/index.md)">Administrator Guide</a></li>
-<li><a href="customize/index.md" data-raw-source="[Customization Guide ](customize/index.md)">Customization Guide </a></li>
-<li><a href="analytics/index.md" data-raw-source="[Reporting and Analytics Guide](analytics/index.md)">Reporting and Analytics Guide</a></li>
-<li><a href="developer/index.md" data-raw-source="[Developer Guide ](developer/index.md)">Developer Guide </a></li>
-<li><a href="on-premises/deploy-and-operate-dynamics-365-on-premises.md" data-raw-source="[Deploy and operate Dynamics 365 for Customer Engagement (on-premises)](on-premises/deploy-and-operate-dynamics-365-on-premises.md)">Deploy and operate (on-premises) </a></li>
 </td>
 <td>
-<li><a href="basics/index.md" data-raw-source="[Basics Guide ](basics/index.md)">Basics Guide </a></li>
 <li><a href="outlook-app/index.md" data-raw-source="[App for Outlook](outlook-app/index.md)">App for Outlook</a></li>
 <li><a href="outlook-addin/index.md" data-raw-source="[Dynamics 365 for Outlook](outlook-addin/index.md)">Dynamics 365 for Outlook</a></li>
 <li><a href="mobile-app/index.md" data-raw-source="[Mobile app](mobile-app/index.md)">Mobile app</a></li>

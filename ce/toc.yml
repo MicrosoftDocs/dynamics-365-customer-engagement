@@ -5,8 +5,6 @@
     href: admin/admin-guide.md
   - name: App for Outlook
     href: outlook-app/dynamics-365-app-outlook-user-s-guide.md
-  - name: Basics Guide
-    href: basics/basics-guide.md
   - name: Customization Guide
     href: customize/overview.md
   - name: Developer Guide

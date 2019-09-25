@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> When using the link to open the environment, do not select **Postman for Chrome**. If you are using Windows, select **Postman for Windows** to open the native app. If using macOS or Linux choose the corresponding native app for those platforms.
