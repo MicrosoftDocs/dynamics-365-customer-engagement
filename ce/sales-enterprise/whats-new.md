@@ -39,7 +39,7 @@ Here are the list of features available with this release:
 - **Enhancements to lead management experience**: The following enhancements are made to the experience of managing leads in Dynamics 365 Sales:
     - Contact and company-related fields are automatically filled in when a sales rep selects an existing contact or account while creating a new lead.
     - When a lead is qualified to an opportunity, notes and attachments captured by a sales rep are displayed in the opportunity record.
-    - Sales reps get an option to create an opportnity, account, or contact when they qualify leads based on the organization-level settings configured by the admin for the lead creation experience.  
+    - Sales reps get an option to create an opportunity, account, or contact when they qualify leads based on the organization-level settings configured by the admin for the lead creation experience.  
 
     More information: [Define lead qualification experience](define-lead-qualification-experience.md)
 
@@ -48,19 +48,19 @@ Here are the list of features available with this release:
 
 ## Dynamics 365 Sales, May 2019 release
 
-With Dynamics 365 Sales version 9.0.1905.2010 or later, users will be able to create a PDF and email it from a quote record. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Generate a PDF document from a quote record](create-quote-pdf.md), [Enable PDF generation from quotes](enable-pdf-generation-quote.md) 
+Users will be able to create a PDF and email it from a quote record. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Generate a PDF document from a quote record](create-quote-pdf.md), [Enable PDF generation from quotes](enable-pdf-generation-quote.md) 
 
 ## Dynamics 365 Sales, April 2019 release
 
--  Dynamics 365 Sales (build 9.1.0.4023) introduces forecasting, a new capability to help organizations to provide the necessary insights into how they can manage their workforce, cash flow, and resources.
+-  Dynamics 365 Sales introduces forecasting, a new capability to help organizations to provide the necessary insights into how they can manage their workforce, cash flow, and resources.
 Sales managers and sales people can use forecasting to project how much a sales team can sell or to estimate the revenue of the organization. Sales people can use forecasting to prevent deals from slipping away by spotting pipeline risks and tracking how they are performing against their targets.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Project accurate revenue with forecasting](project-accurate-revenue-sales-forecasting.md)
 
     > [!IMPORTANT]
     > This feature is currently in preview. 
 
-- With Dynamics 365 Sales (build 9.0.1903.4006), playbooks can be created for Account and Contact record types in the Sales Hub app (Unified Interface), in addition to the existing record types that are currently supported. Also, sales managers can associate necessary documents with playbook activities to provide additional contextual information to sales representatives working on a playbook.
+- With Dynamics 365 Sales, playbooks can be created for Account and Contact record types in the Sales Hub app (Unified Interface), in addition to the existing record types that are currently supported. Also, sales managers can associate necessary documents with playbook activities to provide additional contextual information to sales representatives working on a playbook.
 
-- Dynamics 365 Sales (build 9.0.1903.4007) allows users to discover the best of third-party Configure, Price and Quote (CPQ) solution providers from within the Sales application. It makes it easier to leverage partner applications to get an immersive and intuitive product configuration experience. For more information, see the blog: [Leverage partner apps for a seamless configure-price-quote (CPQ) experience](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/04/09/leverage-partner-apps-for-a-seamless-configure-price-quote-cpq-experience/)
+- Dynamics 365 Sales allows users to discover the best of third-party Configure, Price and Quote (CPQ) solution providers from within the Sales application. It makes it easier to leverage partner applications to get an immersive and intuitive product configuration experience. For more information, see the blog: [Leverage partner apps for a seamless configure-price-quote (CPQ) experience](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/04/09/leverage-partner-apps-for-a-seamless-configure-price-quote-cpq-experience/)
 
 
 ## Dynamics 365 Sales, Fall 2018
@@ -68,8 +68,7 @@ Sales managers and sales people can use forecasting to project how much a sales 
 -  Dynamics 365 Sales introduces Playbook, a new capability to help organizations automate repeatable sales activities and respond to external events. It provides proactive and predictive event-driven guidance that can suggest the next best actions and surface relevant activities to successfully respond to external events. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enforce best bractices with playbooks](enforce-best-practices-playbooks.md)
 
    > [!NOTE]
-   > The Playbook capability is currently available only in the Sales Hub app For Dynamics 365 Sales. It is being released with [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] application version 9.0.1810.4006 or later and the server version 9.1.0.0263 or later, as part of the weekly release of the product to individual geographies. 
-   > To learn about updating an app solution, see [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md). 
+   > The Playbook capability is currently available only in the Sales Hub app For Dynamics 365 Sales.
 
 
 

@@ -25,7 +25,7 @@ Using the **Categories** entity, you can create hierarchical categorical data to
 Categories are useful for reporting, sorting, segmenting, and categorization of records. 
 
 > [!NOTE]
-> With the Dynamics 365 Customer Service app version 9.1 release, categories in service management are available in the Customer Service Hub. We recommend that you create and manage categories using the new experience.
+> With the latest release of Dynamics 365 Customer Service app, categories in service management are available in the Customer Service Hub. We recommend that you create and manage categories using the new experience.
 
 ## Create a category
 

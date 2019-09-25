@@ -34,7 +34,7 @@ After knowledge management is set up, users will be able to:
 - Give timely and consistent information to customers when working on their cases by using actions like opening the article and sharing the information or emailing the article link to customers.   
 
 > [!NOTE]
-> With the Dynamics 365 Customer Service app version 9.1 release, embedded knowledge search in service management is available in the Customer Service Hub. We recommend that you set up knowledge management using embedded knowledge search in the new experience.
+> With the latest release of Dynamics 365 Customer Service app, embedded knowledge search in service management is available in the Customer Service Hub. We recommend that you set up knowledge management using embedded knowledge search in the new experience.
   
 ## Set up knowledge management (Customer Service Hub)
   

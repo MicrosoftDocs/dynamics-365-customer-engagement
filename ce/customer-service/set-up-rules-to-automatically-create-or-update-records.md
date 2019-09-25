@@ -30,7 +30,7 @@ By using record creation and update rules in Dynamics 365 Customer Service, you 
  To enable the rule to update records, you must add an **Update** step to the rule. Only the entity that you select in the **Update** step is updated based on the properties you set.   
 
 > [!NOTE]
-> With the Dynamics 365 Customer Service app version 9.1 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
+> With the latest release of Dynamics 365 Customer Service app, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
 
 
 ## Activities and entities supported by record creation and update rules  

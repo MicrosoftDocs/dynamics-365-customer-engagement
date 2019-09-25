@@ -26,7 +26,7 @@ Avoid disruptions in service by making sure that your resources are scheduled op
 
 Scheduling, now built atop **Universal Resource Scheduling (URS)**, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling.
 
-With the Dynamics 365 Customer Service app version 9.1 release, the new scheduling experience can be enabled from the Customer Service Hub sitemap.
+With the latest release of Dynamics 365 Customer Service app, the new scheduling experience can be enabled from the Customer Service Hub sitemap.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the new scheduling experience](#set-up-the-new-service-scheduling-experience)
 
@@ -202,7 +202,7 @@ The set up experience is different based on the following scenarios:
 After successful installation, you can access scheduling in the Customer Service Hub sitemap.
 
 ## Access scheduling in the Customer Service Hub
-With the Dynamics 365 for Customer Service app version 9.1 release, Scheduling is powered by Universal Resource Scheduling (URS), and is available from the Customer Service Hub sitemap.
+With the latest release of Dynamics 365 Customer Service app, Scheduling is powered by Universal Resource Scheduling (URS), and is available from the Customer Service Hub sitemap.
 
 - Select ![change area](media/change-area-icon.png) to go to **Scheduling** and access the entity record types.
 
