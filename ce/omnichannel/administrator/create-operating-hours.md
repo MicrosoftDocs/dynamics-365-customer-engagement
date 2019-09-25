@@ -64,4 +64,4 @@ Operating hours define the hours when your organization's customer support team 
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>
-[Embed chat widget in Dynamics 365 Portal](embed-chat-widget-portal.md)
+[Embed chat widget in Dynamics 365 Portals](embed-chat-widget-portal.md)
