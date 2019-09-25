@@ -58,7 +58,7 @@ Omnichannel for Customer Service supports Chat for Dynamics 365 and SMS (in prev
 It is not recommended to open Omnichannel for Customer Service in multiple browser tabs or windows. The app is inherently designed to help agents work in a multisession environment wherein each session has contextual application tabs. The sessions are not synced across browser tabs. 
 
 ### What happens if I accidentally close the browser, refresh the entire page, or the browser crashes ?
-If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost; however, if you have entered some data on the Dynamics 365 forms where autosave has been enabled, they will be saved into Dynamics 365. 
+If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost; however, if you have entered some data on the model-driven forms where autosave has been enabled, they will be saved into model-driven apps. 
 
 Ongoing chat conversations appear on your Omnichannel Agent Dashboard. You can pick the chat from that dashboard and resume the conversation. The chat conversation is preserved, and you will be able to see the previous messages. If you were working on case sessions, you can reopen them using the gestures. For more information on starting a session, see [Manage sessions in Omnichannel for Customer Service](agent/agent-oc/oc-manage-sessions.md#start-a-session).
 
@@ -115,7 +115,7 @@ This is currently not supported. Enabling customizations for the Conversation Su
 Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in Omnichannel Administration app, ensure that you have saved the configurations before you exit the configuration form. When you select Save, the creation of the report and dataset is initiated. If you missed to save the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Power BI workspace](administrator/configure-intraday-dashboard-supervisor.md#configure-power-bi-workspace).
 
 ### What is the application ID field on the application user form?
-The application ID is a mandatory field for creating application users in Dynamics 365. You can copy any application ID for any valid (non-expired) application created in Azure Active Directory for the same tenant into this field. 
+The application ID is a mandatory field for creating application users in the Common Data Service platform. You can copy any application ID for any valid (non-expired) application created in Azure Active Directory for the same tenant into this field. 
 
 ## Supervisor experience
 
@@ -176,12 +176,12 @@ No. Omnichannel routing can be used to route chat or SMS requests (in preview) o
 Please note that the SMS channel is currently in preview and is not a part of the Generally Available product. You can sign up for the Omnichannel for Customer Service - Preview on the [Dynamics Insider Portal](https://experience.dynamics.com/insider/).
 
 ### How can I sign up to use the SMS channel preview?
-You can sign up for the Omnichannel for Customer Service – Preview program on the [Dynamics Insider portal](https://experience.dynamics.com/insider/). The product team will get back to you once preview is enabled for your organization. You will need an account with TeleSign (with two-way SMS). Preview of the SMS channel will work only if you have an active subscription for Chat for Dynamics 365 in your tenant.
+You can sign up for the Omnichannel for Customer Service – Preview program on the [Dynamics Insider portal](https://experience.dynamics.com/insider/). The product team will get back to you once preview is enabled for your organization. You will need an account with TeleSign (with two-way SMS). Preview of the SMS channel will work only if you have an active subscription for Chat for Dynamics 365 Customer Service in your tenant.
 
-### What information from a TeleSign account do I need to enter in Dynamics 365?
-You will need the customer ID, API key, and the phone number from your TeleSign account. This information needs to be provided in Dynamics 365 when you create or set up an SMS workstream.
+### What information from a TeleSign account do I need to enter in the Omnichannel Administrator app?
+You will need the customer ID, API key, and the phone number from your TeleSign account. This information needs to be provided in the Omnichannel Administrator app when you create or set up an SMS workstream.
 
-### I get an error when I try to use the Validate API Key to validate the TeleSign account information entered in Dynamics 365. What should I do?
+### I get an error when I try to use the Validate API Key to validate the TeleSign account information entered in the Omnichannel Administrator app. What should I do?
 The Validate API Key functionality will validate the customer ID and the API key by trying to send a test SMS message to one of the numbers provided in the SMS Numbers tab. Ensure that the customer ID and API key are entered correctly, and the numbers provided in the SMS Numbers tab can receive the text messages that are sent for validation. The phone number should have the country code with no plus sign (+), spaces or special characters; for example, this would be correct: 14251234567
 
 ### How can I know if I can get a phone number from TeleSign in a specific country?
@@ -197,7 +197,7 @@ Support for this scenario by TeleSign can vary based on geography. We recommend 
 You can send messages to a customer only after the customer has initiated the conversation by sending a text message to the support number. If the conversation is not closed, you can send messages to the customer by opening the conversation.
 
 ### Does the SMS channel automatically identify the customer?
-Yes, Dynamics 365 will automatically identify the customer based on the incoming phone number. It will look for phone numbers in the Mobile Phone field of Contact records or the Phone field of Account records. Ensure that the phone number in these field has the country code along with the plus sign (+) without any spaces or special characters; for example: +14251234567
+Yes, Omnichannel system will automatically identify the customer based on the incoming phone number. It will look for phone numbers in the Mobile Phone field of Contact records or the Phone field of Account records. Ensure that the phone number in these field has the country code along with the plus sign (+) without any spaces or special characters; for example: +14251234567
 
 ### Can we send automated SMS responses?
 There are Microsoft Flow connectors from SMS providers that can be used for automated SMS responses. For example, [TeleSign](https://preview.flow.microsoft.com/en-us/connectors/shared_telesignsms/telesign-sms/) has a connector for these scenarios.
