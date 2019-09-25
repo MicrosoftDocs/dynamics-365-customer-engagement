@@ -16,7 +16,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-This topic describes how to create a communication panel entity search in Unified Service Desk for Dynamics 365 Customer Service.
+This topic describes how to create a communication panel entity search in Unified Service Desk for  Customer Service.
 
 ## Prerequisites 
 

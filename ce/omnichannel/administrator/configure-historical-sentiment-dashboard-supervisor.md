@@ -28,7 +28,7 @@ As an administrator, you must configure the Omnichannel Insights to display Omni
 
 [Step 2: Install Omnichannel Insights for Dynamics 365 app](#step-2-install-omnichannel-insights-for-dynamics-365-app)
 
-[Step 3: Connect Dynamics 365 organization to Omnichannel Insights for Dynamics 365 app](#step-3-connect-dynamics-365-organization-to-omnichannel-insights-for-dynamics-365-app)
+[Step 3: Connect to Omnichannel Insights for Dynamics 365 app](#step-3-connect-to-omnichannel-insights-for-dynamics-365-app)
 
 [Step 4: Configure refresh frequency on Power BI Dataset](#step-4-configure-refresh-frequency-on-power-bi-dataset)
 
@@ -68,7 +68,7 @@ Review the following prerequisites before configuring the dashboard:
 
     Now you can proceed to configure the app by connecting your Dynamics 365 organization.
 
-## Step 3: Connect Dynamics 365 organization to Omnichannel Insights for Dynamics 365 app
+## Step 3: Connect to Omnichannel Insights for Dynamics 365 app
 
 1.	On the **Omnichannel Insights for Dynamics 365** app configuration page, select **Connect**.
 
@@ -82,7 +82,7 @@ Review the following prerequisites before configuring the dashboard:
 
 3.	(Optional) To find the Microsoft Dynamics 365 OData URL, follow these steps:
 
-    a.	Sign in to Dynamics 365 Customer Service.
+    a.	Sign in to the Common Data Service platform.
     
     b.	Go to **Settings** > **Customizations** and then select **Developer Resources**. 
     

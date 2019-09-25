@@ -23,7 +23,7 @@ When you upgrade Omnichannel for Customer Service to the latest release, certain
 
 The steps describe how to delete the solution from your organization.
 
-1. Sign in to the Dynamics 365 apps.
+1. Sign in to the Common Data Service platform.
 
     > [!Note]
     > When you sign in to a different app in your organization, then select the default model-driven app and perform the steps 2 and 3.
@@ -43,7 +43,7 @@ You have deleted the **OmnichannelCustomerServiceHub** solution from your organi
 
 The steps describe how to delete the solution from your organization.
 
-1. Sign in to Dynamics 365 apps.
+1. Sign in to the Common Data Service platform.
 
 2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
    
