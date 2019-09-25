@@ -44,14 +44,14 @@ You can assign a conversation to an agent or to another queue that is in the **O
 
 3. Select **Assign**. 
 
-    In this example, we are selecting a live chat workstream that is not assigned to an agent or added to a queue.
+    In this example, we are selecting a live chat workstream that is not assigned to an agent or to a queue.
 
     > [!div class=mx-imgBorder]
     > ![Select a work item to assign](../media/oc-select-conversations-assign.png "Select a work item to assign")
 
 4. In the **Assign** dialog box, you can see the list of agents and their available capacity in **Agents** tab. 
 
-    To add to a queue, select **Queue** tab.
+    To assign to a queue, select **Queue** tab.
 
     In this example, we are assigning the conversation to **Alan Steiner**.
 
