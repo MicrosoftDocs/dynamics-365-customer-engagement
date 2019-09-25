@@ -17,9 +17,9 @@ In this topic, we'll explore creating a new schedule board tab and sharing it wi
 
 ## Instructions
 
-Let's walk through creating a public and private schedule board tab but focus on sharing one with specific people.
+First we will walk through how to create a public and private schedule board tab, but then focus on sharing one with specific people.
 
-First, go to **Field Service > Schedule Board** and select the **+** in the top right to create a new tab.
+Go to **Field Service > Schedule Board** and select the **+** in the top right to create a new tab.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of creating a new schedule board tab](../../field-service/media/schedule-board-create-tab.png)
@@ -37,16 +37,16 @@ Select **Specific People**.
 
 Selecting **Everyone** will expose the schedule board tab to all users who can access the schedule board. Selecting **Just Me** will expose the schedule board to only the user who creates it.
 
-Next, give the users you want to share the schedule board tab with the appropriate security access.
+Next, give appropriate security access to the users you want to share the schedule board tab with.
 
-Go to **Settings > Security** and ensure each user has at least minimum user access to the Schedule Board Settings entity as seen in the image below. This can be achieved by manually editing the users' security role or by assigning the users a copy of the **Field Service - Resource** security role. 
+Go to **Settings** > **Security** and make sure each user has at least minimum user access to the **Schedule Board Settings** entity as seen in the following screenshot. This can be achieved by manually editing the users' security role or by assigning the users a copy of the **Field Service - Resource** security role. 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of security needed on schedule board settings entity to share a schedule board tab with a user](../../field-service/media/schedule-board-share-permissions-entity.png)
 
 > [!Note]
-> We recommend giving relevant users minimum security level privileges for read, write, and create. Then use the **Shared With** option (Everyone, Specific People, Just Me) on the schedule board tab settings to share appropriately. This is better than using the Dynamics security model, as that could lead to oversharing. 
+> We recommend giving relevant users minimum security level privileges for read, write, and create. Then use the **Shared With** option (Everyone, Specific People, Just Me) on the schedule board tab settings to share appropriately. This is better than using the Dynamics 365 security model, as that could lead to oversharing. 
 
 Next you'll need to choose the specific users to share the schedule board tab with. 
 
