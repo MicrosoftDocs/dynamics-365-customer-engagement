@@ -1,17 +1,14 @@
 ---
-title: Automatically create a case from an email (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to automatically create a case from an email in Dynamics 365 for Customer Service
-keywords: Automatically create a case from an email; Dynamics 365 for Customer Engagement; Customer Service; Create cases automatically using rules; Activate or deactivate a case creation rule
+title: Automatically create a case from an email (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Know how to automatically create a case from an email in Dynamics 365 Customer Service
 author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ms.assetid: 6331648f-e0f5-4e67-9a18-08fdb22ba879
 ms.custom: dyn365-customerservice
+ms.assetid: 6331648f-e0f5-4e67-9a18-08fdb22ba879
 search.audienceType: 
   - admin
   - customizer
@@ -23,7 +20,7 @@ search.app:
 
 # Automatically create a case from an email
 
-Reduce the need for manually creating cases from incoming emails and increase the efficiency of customer service agents by creating automatic case creation rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The conditions in these rules automatically convert emails to support cases.  
+Reduce the need for manually creating cases from incoming emails and increase the efficiency of customer service agents by creating automatic case creation rules in Dynamics 365 Customer Service. The conditions in these rules automatically convert emails to support cases.  
 
 
 ## Create cases automatically using rules  
@@ -65,10 +62,10 @@ Reduce the need for manually creating cases from incoming emails and increase th
 
    #### Specify conditions for email to case creation  
 
-   1. **Create cases for email from unknown senders**. If you select this check box, all email messages from unknown senders (a sender whose email address is not present in any Dynamics 365 for Customer Engagement records) are converted to cases. A contact record is also created for this unknown sender.  
+   1. **Create cases for email from unknown senders**. If you select this check box, all email messages from unknown senders (a sender whose email address is not present in Common Data Service platform) are converted to cases. A contact record is also created for this unknown sender.  
 
       > [!NOTE]
-      >  If this option is not selected, cases are created only for email messages that have a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] contact or account as the senders. Email messages from sender that are present as other record types in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] won’t be converted to cases.  
+      >  If this option is not selected, cases are created only for email messages that have a contact or account as the senders. Email messages from sender that are present as other record types won’t be converted to cases.  
 
         This option, in conjunction with the **Automatically create records in Microsoft Dynamics 365 for Customer Engagement** option in the rule owner’s Personal Options, determines whether a case and contact record is created (see [Set personal options](../basics/set-personal-options.md)):  
 
@@ -85,13 +82,13 @@ Reduce the need for manually creating cases from incoming emails and increase th
       |                                                      None                                                       |                            Not selected                             |              None               |
 
 
-   2. Create case if a valid entitlement exists for the customer. If you select this check box, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] creates a case only if an active entitlement exists for the customer.  
+   2. Create case if a valid entitlement exists for the customer. If you select this check box, the application creates a case only if an active entitlement exists for the customer.  
 
-       If the sender of the email is a contact with a parent account, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] creates a case if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).  
+       If the sender of the email is a contact with a parent account, the application creates a case if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).  
 
-   3. **Create cases for activities associated with a resolved case**. If you select this check box, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] creates a case if the email is related to a resolved case. If the email is related to an active case, a new case won’t be created.  
+   3. **Create cases for activities associated with a resolved case**. If you select this check box, the application creates a case if the email is related to a resolved case. If the email is related to an active case, a new case won’t be created.  
 
-   4. **Create case when the case associated with the activity is resolved since**. If you select the **Create cases for activities associated with a resolved case** check box, select the duration here. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] creates a case only if the case is resolved earlier than the duration you specify. If the incoming email is related to a case resolved later than the specified duration, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] only associates the incoming email with the existing resolved case; a new case won’t be created.  
+   4. **Create case when the case associated with the activity is resolved since**. If you select the **Create cases for activities associated with a resolved case** check box, select the duration here. the application creates a case only if the case is resolved earlier than the duration you specify. If the incoming email is related to a case resolved later than the specified duration, the application only associates the incoming email with the existing resolved case; a new case won’t be created.  
 
    5. Under **Specify Autoresponse Settings**, select the **Send automatic email response to customer on case creation** check box if you want to automatically send email responses to the sender of the email after a case for the email is created.  
 

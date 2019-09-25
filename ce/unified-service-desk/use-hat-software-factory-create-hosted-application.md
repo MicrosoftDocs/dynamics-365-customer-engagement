@@ -1,20 +1,10 @@
 ---
-title: "Use HAT Software Factory to create a hosted application in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Use HAT Software Factory to create a hosted application in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to HAT Software Factory to create a hosted application in Unified Service Desk."
-ms.custom:
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer:
 ms.service: dynamics-365-customerservice
-ms.suite:
-ms.tgt_pltfrm:
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 71395c77-168d-4047-9c70-e50b0e974025
 author: kabala123
 ms.author: kabala
@@ -74,7 +64,7 @@ The [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-applicati
    | **Inspect As Different User**  |                                                                                                                                                          Start UII Inspector using different credentials.                                                                                                                                                           |
    | **Application  Configuration** |                                                                             Configure the hosted control application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the HAT application](../unified-service-desk/configure-hosted-application.md)                                                                              |
    |    **Action Configuration**    |                                                                Configure an action for the HAT application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configuring an action for the HAT application](../unified-service-desk/configure-action-hosted-application.md)                                                                 |
-   |           **Deploy**           | Deploy the hosted control application configuration to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy and import an application configuration to or from a Dynamics 365 for Customer Engagement server](../unified-service-desk/deploy-hosted-application-unified-service-desk.md) |
+   |           **Deploy**           | Deploy the hosted control application configuration to the Common Data Service platform server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy and import an application configuration to or from the Common Data Service platform server](../unified-service-desk/deploy-hosted-application-unified-service-desk.md) |
 
    > [!NOTE]
    >  When using **Inspect as a different User** for a Windows-based application with different access rights, the UII Inspector may sometimes not inspect the controls. In such cases, ensure that [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] and the target application run with the same privileges and that you use the **Inspect** option instead of **Inspect as a different User**. This option isn’t available for web applications.

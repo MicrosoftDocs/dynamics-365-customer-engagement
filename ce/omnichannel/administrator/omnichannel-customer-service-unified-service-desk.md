@@ -22,9 +22,9 @@ ms.custom:
 
 ## Overview
 
-Unified Service Desk for Dynamics 365 for Customer Engagement apps is a client application. You need to install the Unified Service Desk client application on every agent desktop to use Omnichannel for Customer Service. 
+Unified Service Desk for Dynamics 365 Customer Service apps is a client application. You need to install the Unified Service Desk client application on every agent desktop to use Omnichannel for Customer Service. 
  
-Omnichannel for Customer Service is packaged as solution that you need to deploy on a Dynamics 365 for Customer Engagement organization. Use the Microsoft Dynamics 365 Package Deployer to deploy the Omnichannel for Customer Service solution on a Customer Engagement organization.
+Omnichannel for Customer Service is packaged as solution that you need to deploy on a Dynamics 365 Customer Service organization. Use the Microsoft Dynamics 365 Package Deployer to deploy the Omnichannel for Customer Service solution on a Dynamics 365 Customer Service organization.
 
 ## Download Unified Service Desk client application
 

@@ -1,22 +1,11 @@
 ---
 title: "Agent Scripting (Hosted Control) | MicrosoftDocs"
 description: "Learn about using Agent Scripting type of hosted control to define a call script that provides instructions to the call center agent to guide them during a customer interaction for a given session."
-ms.custom:
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer:
 ms.service: dynamics-365-customerservice
-ms.suite:
-ms.tgt_pltfrm:
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 4d34fda6-6b17-4c94-8881-39962c85e6d0
-caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -36,59 +25,59 @@ Use **Agent Scripting** type of hosted control to define a call script that prov
 
   <!-- Missing graphic below-->
  <!-- ![Agent scripting hosted control](../unified-service-desk/media/usd-agent-scripthostedcontrol.PNG "Agent scripting hosted control")  -->
-
- In the **New Hosted Control** screen, under the **Unified Service Desk** area, select **Agent Scripting** from the **USD Component Type** drop-down list. The WorkflowPanel is the most common panel for this hosted control type, and the same is displayed in the **Display Group** field. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md). For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).
-
-<a name="actions"></a>
-## Predefined UII actions
- The following actions are supported for this type of hosted control.
-
-### Back
- Return to the previous step in the history.
-
-<a name="Close"></a>
-### Close
- This action is used to close the hosted control.
-
-### FireEvent
- Fires a user-defined event from this hosted control.
-
-|Parameter|Description|
-|---------------|-----------------|
-|name|Name of the user-defined event.|
-
- All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](../unified-service-desk/create-user-defined-event.md).
-
-<a name="GoToTask"></a>
-### GoToTask
- This action displays the specified agent task. The available agent task names can be seen in the **Agent Scripts** section in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps (**Settings** > **Agent Scripts**).
-
-|Parameter|Description|
-|---------------|-----------------|
-||Specify the name of the agent task to display in the **Data** field.|
-
-### GoToTaskByContext
- This action is deprecated. Use the **GoToTask** action.
-
-### GotoTaskByDnis
- This action is deprecated. Use the **GoToTask** action.
-
-<a name="MoveToPanel"></a>
-### MoveToPanel
- This action is used to move hosted controls between panels at runtime.
-
-|Parameter|Description|
-|---------------|-----------------|
-|app|Name of the hosted control to be moved.|
-|panel|Target panel for the hosted control.|
-
-### New_CRM_Page
- Creates a page for creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.
-
-|Parameter|Description|
-|---------------|-----------------|
-|LogicalName|The logical name of the entity for creating a new instance.|
-
+  
+ In the **New Hosted Control** screen, under the **Unified Service Desk** area, select **Agent Scripting** from the **USD Component Type** drop-down list. The WorkflowPanel is the most common panel for this hosted control type, and the same is displayed in the **Display Group** field. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md). For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
+  
+<a name="actions"></a>   
+## Predefined UII actions  
+ The following actions are supported for this type of hosted control.  
+  
+### Back  
+ Return to the previous step in the history.  
+  
+<a name="Close"></a>   
+### Close  
+ This action is used to close the hosted control.  
+  
+### FireEvent  
+ Fires a user-defined event from this hosted control.  
+  
+|Parameter|Description|  
+|---------------|-----------------|  
+|name|Name of the user-defined event.|  
+  
+ All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](../unified-service-desk/create-user-defined-event.md).  
+  
+<a name="GoToTask"></a>   
+### GoToTask  
+ This action displays the specified agent task. The available agent task names can be seen in the **Agent Scripts** section in the Common Data Service platform (**Settings** > **Agent Scripts**).  
+  
+|Parameter|Description|  
+|---------------|-----------------|  
+||Specify the name of the agent task to display in the **Data** field.|  
+  
+### GoToTaskByContext  
+ This action is deprecated. Use the **GoToTask** action.  
+  
+### GotoTaskByDnis  
+ This action is deprecated. Use the **GoToTask** action.  
+  
+<a name="MoveToPanel"></a>   
+### MoveToPanel  
+ This action is used to move hosted controls between panels at runtime.  
+  
+|Parameter|Description|  
+|---------------|-----------------|  
+|app|Name of the hosted control to be moved.|  
+|panel|Target panel for the hosted control.|  
+  
+### New_CRM_Page  
+ Creates a page for creating a new Common Data Service platform record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
+  
+|Parameter|Description|  
+|---------------|-----------------|  
+|LogicalName|The logical name of the entity for creating a new instance.|  
+  
 > [!NOTE]
 >  The rest of the parameters should consist of name=value pairs. These are the additional pre-populated values in the form for creating a new record for the specified entity. For more information about using this action, see step 4 in [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md).
 

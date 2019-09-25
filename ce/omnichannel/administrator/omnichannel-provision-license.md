@@ -8,8 +8,6 @@ ms.service:
 ms.custom:
   - ""
 ms.topic: article
-applies_to:
-  - ""
 ms.assetid: dcb07f11-106d-4368-87e9-015da0999f06
 author: anjgupta
 ms.author: anjgup
@@ -43,7 +41,7 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 ## Provision Omnichannel for Customer Service application
 
 > [!IMPORTANT]
-> Ensure that you are either a **Global Tenant Admin** or **Dynamics 365 Service Admin** of your Dynamics 365 org to be able to provision the Omnichannel for Customer Service application.
+> Ensure that you are either a **Global Tenant Admin** or **Dynamics 365 Service Admin** of your org to be able to provision the Omnichannel for Customer Service application.
 
 ### Set up Omnichannel for Customer Service
 
@@ -58,7 +56,7 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
         The **Manage Omnichannel Instances** page is displayed.
 
         > [!NOTE]
-        > The Omnichannel for Customer Service option will appear only if you have an active subscription of Dynamics 365 for Customer Service Chat. For more information on pricing, click [here](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing). You can also get a free 30-day trial if you have the required perquisites, see [Try Chat for Dynamics 365](../try-chat-for-dynamics365.md) for more information.
+        > The Omnichannel for Customer Service option will appear only if you have an active subscription of Chat for Dynamics 365 Customer Service. For more information on pricing, click [here](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing). You can also get a free 30-day trial if you have the required perquisites, see [Try Chat for Dynamics 365 Customer Service](../try-chat-for-dynamics365.md) for more information.
 
    3. On the **Manage Omnichannel Instances** page, select **Add Org** to add an organization. Omnichannel is set up on the organization instance that you add here.
    
@@ -109,7 +107,7 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 
 ### Enable SMS channel
 
-You can enable SMS channel in your organization after signing up for preview through the Insider Portal. For information on signing up for preview of features in Omnichannel for Customer Service, see [Preview features in Omnichannel for Customer Service](../preview-features.md). You can enable an SMS channel can only if you have an active subscription of Chat for Dynamics 365.
+You can enable SMS channel in your organization after signing up for preview through the Insider Portal. For information on signing up for preview of features in Omnichannel for Customer Service, see [Preview features in Omnichannel for Customer Service](../preview-features.md). You can enable an SMS channel can only if you have an active subscription of Chat for Dynamics 365 Customer Service.
 
 To enable SMS in an organization where Chat isn't enabled, see the steps in the earlier section [Set up Omnichannel for Customer Service](#set-up-omnichannel-for-customer-service).
 
@@ -145,9 +143,9 @@ The setup can take a few mins to complete. Once the setup is complete, the SMS c
 
 ## Locate your Org ID
 
-Follow these steps to locate your Org ID in your Dynamics 365 instance.
+Follow these steps to locate your Org ID in your instance.
 
-1. In Dynamics 365, go to **Settings** > **Customizations**.
+1. In the Common Data Service platform, go to **Settings** > **Customizations**.
     > [!NOTE]
     > Ensure that you have System Administrator or System Customizer security role or equivalent permissions.
 

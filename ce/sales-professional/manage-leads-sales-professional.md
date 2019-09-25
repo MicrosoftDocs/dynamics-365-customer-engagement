@@ -1,24 +1,19 @@
 ---
-title: "Manage leads in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Track your potential buyers as leads in Dynamics 365 for Sales Professional."
-keywords: ""
-ms.date: 04/05/2019
+title: "Manage leads in Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Track your potential buyers as leads in Dynamics 365 Sales Professional."
+ms.date: 10/01/2019
 ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: dcf30d6e-d973-4902-9a6a-df9291119462
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
-# Manage leads in Dynamics 365 for Sales Professional
+# Manage leads in Dynamics 365 Sales Professional
 
-In Dynamics 365 for Sales Professional, leads are potential sales. In other words, a lead is a potential customer who must be qualified or disqualified as a sales opportunity. When a lead is qualified, it can be converted to an opportunity, account, or contact.
+In Dynamics 365 Sales Professional, leads are potential sales. In other words, a lead is a potential customer who must be qualified or disqualified as a sales opportunity. When a lead is qualified, it can be converted to an opportunity, account, or contact.
 
 You can collect leads from many different sources. For example, you can generate sales leads from marketing campaigns, inquiries from your website, or mailing lists.
 
@@ -73,5 +68,5 @@ To disqualify, select the lead, and on the command bar, select  **Disqualify**.
 
 ### See also
 
-[Develop sales from lead to cash in Dynamics 365 for Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
+[Develop sales from lead to cash in Dynamics 365 Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)

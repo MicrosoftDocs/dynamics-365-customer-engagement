@@ -1,22 +1,11 @@
 ---
 title: "Create HAT automation | MicrosoftDocs"
 description: "Learn about using the Hosted Application Toolkit (HAT) automation activities to create automations for your hosted application project. You can use User Interface Integration (UII) inspector to make the controls of an application available for use in automation."
-ms.custom:
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer:
 ms.service: dynamics-365-customerservice
-ms.suite:
-ms.tgt_pltfrm:
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 44dac081-8a98-41c9-822c-07d9727ada32
-caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -78,41 +67,41 @@ You can use the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-host
    ![Type information for the selected workflow](../unified-service-desk/media/usd-add-automation-5.png "Type information for the selected workflow")
 
        > [!NOTE]
-       >  As the absolute path to the workflow assembly is not mentioned in the **Type** field, you must copy the workflow assembly file in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory to test and use the hosted application and the automation.
-
-   2. **Use Workflow XAML** in step 4, the workflow XAML is populated in the XAML field for the selected automation (workflow).
-
-   ![XAML for the selected workflow](../unified-service-desk/media/usd-add-automation-6.png "XAML for the selected workflow")
-
-8. If you want the run automation in an asynchronous mode, select the **Async** check box. Automation can be executed *synchronously* or *asynchronously*.
-
-   - In synchronous mode, the automation runs in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] user interface (UI) thread, and blocks the UI until it is finished. Blocking the UI can be useful as it allows the application UI state to be updated in isolation. To prevent the UI from appearing unresponsive, keep automation run times as short as possible.
-
-   - In asynchronous mode, the automation doesn’t run in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] UI thread until it needs to interact with the UI.
-
-9. Select **Save** to create the action to trigger the automation.
-
-10. Save the project, and build (**Build** > **Build Solution**) it.
-
-<a name="verify"></a>
-## Verify the HAT hosted control with automation
-
-1. Deploy the [!INCLUDE[pn_hat](../includes/pn-hat.md)] application to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] on the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy the hosted application to Unified Service Desk](../unified-service-desk/deploy-hosted-application-unified-service-desk.md)
-
-2. Copy the required files (workflow and [!INCLUDE[pn_hat](../includes/pn-hat.md)] application assemblies) to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application directory (typically C:\Program Files\Microsoft Dynamics CRM USD\USD).
-
-3. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, and use Debugger to test your [!INCLUDE[pn_hat](../includes/pn-hat.md)] hosted application and the action with automation. In the **Debugger** tab, click the down arrow above the **Action Calls** tab to display the area where you can test action calls and [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] actions.
-
-4. Click the **Direct Action** tab:
-
-   1.  Select your hosted control and action that you want to verify.
-
-   2.  Click the run icon to test it.
-
-   ![Use Debugger to test your action with automation](../unified-service-desk/media/usd-add-automation-7.png "Use Debugger to test your action with automation")
-
-    For more information about using the Debugger hosted control, see [Debug issues in Unified Service Desk](https://go.microsoft.com/fwlink/p/?LinkId=518149) in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Administration Guide.
-
+       >  As the absolute path to the workflow assembly is not mentioned in the **Type** field, you must copy the workflow assembly file in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory to test and use the hosted application and the automation.  
+  
+   2. **Use Workflow XAML** in step 4, the workflow XAML is populated in the XAML field for the selected automation (workflow).  
+  
+   ![XAML for the selected workflow](../unified-service-desk/media/usd-add-automation-6.png "XAML for the selected workflow")  
+  
+8. If you want the run automation in an asynchronous mode, select the **Async** check box. Automation can be executed *synchronously* or *asynchronously*.  
+  
+   - In synchronous mode, the automation runs in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] user interface (UI) thread, and blocks the UI until it is finished. Blocking the UI can be useful as it allows the application UI state to be updated in isolation. To prevent the UI from appearing unresponsive, keep automation run times as short as possible.  
+  
+   - In asynchronous mode, the automation doesn’t run in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] UI thread until it needs to interact with the UI.  
+  
+9. Select **Save** to create the action to trigger the automation.  
+  
+10. Save the project, and build (**Build** > **Build Solution**) it.  
+  
+<a name="verify"></a>   
+## Verify the HAT hosted control with automation  
+  
+1. Deploy the [!INCLUDE[pn_hat](../includes/pn-hat.md)] application to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] on the Common Data Service platform server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy the hosted application to Unified Service Desk](../unified-service-desk/deploy-hosted-application-unified-service-desk.md)  
+  
+2. Copy the required files (workflow and [!INCLUDE[pn_hat](../includes/pn-hat.md)] application assemblies) to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application directory (typically C:\Program Files\Microsoft Dynamics CRM USD\USD).  
+  
+3. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, and use Debugger to test your [!INCLUDE[pn_hat](../includes/pn-hat.md)] hosted application and the action with automation. In the **Debugger** tab, click the down arrow above the **Action Calls** tab to display the area where you can test action calls and [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] actions.  
+  
+4. Click the **Direct Action** tab:  
+  
+   1.  Select your hosted control and action that you want to verify.  
+  
+   2.  Click the run icon to test it.  
+  
+   ![Use Debugger to test your action with automation](../unified-service-desk/media/usd-add-automation-7.png "Use Debugger to test your action with automation")  
+  
+    For more information about using the Debugger hosted control, see [Debug issues in Unified Service Desk](http://go.microsoft.com/fwlink/p/?LinkId=518149) in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Administration Guide.  
+  
 > [!TIP]
 >  To debug the automation, start [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] as administrator, open your [!INCLUDE[pn_hat](../includes/pn-hat.md)] application project, and set the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client executable file (UnifiedServiceDesk.exe) as the external startup program in the properties of the project. Also, set the build output path of the project to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory. Every time you debug the project, the assemblies will be copied over to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory, and the client will start.
 

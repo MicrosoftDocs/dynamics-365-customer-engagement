@@ -1,17 +1,12 @@
 ---
-title: Suggest similar cases for a case with Dynamics 365 for Customer Engagement| MicrosoftDocs
-ms.date: 03/08/2019
-ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
-ms.assetid: 91e10e68-8edf-4eee-a69e-9d9b6fac16f9
+title: Suggest similar cases for a case with Dynamics 365 Customer Service | MicrosoftDocs
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
+ms.date: 03/08/2019
+ms.topic: article
+ms.service: crm-online
+ms.assetid: 91e10e68-8edf-4eee-a69e-9d9b6fac16f9
 search.audienceType: 
   - admin
   - customizer
@@ -82,7 +77,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
        |   Item   |                                                                                                                                                                                                                                                                                                                                                                            Description                                                                                                                                                                                                                                                                                                                                                                             |
        |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
        | Criteria |                                                                                                                                      **Exact match**: All fields except single-line and multi-line text fields can be enabled for exact match. </br> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable a field for exact matching of similar records](#enable-a-field-for-exact-matching-of-similar-cases) <br /><br /> **Text match**:   Text in these fields is used for finding key phrases to match. For example, if you select **Case Title** or **Description**, text in these fields will be matched.                                                                                                                                       |
-       |  Entity (required)  |                                                                                                                                               Choose an entity from the drop-down list to be used to create a text search rule to find matching records in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.                                                                                                                                              |
+       |  Entity (required)  |                                                                                                                                               Choose an entity from the drop-down list to be used to create a text search rule to find matching records in Dynamics 365 apps.                                                                                                                                              |
        | Field (required) | Choose the  field to be used to create a text search rule to find matching target records. <br /><br /> Two types of fields are used for similarity analysis:<br /><br /> **Structured fields**:  Used for exact match on a field to field basis. All fields except Multiple Lines of Text are available for exact match. Each field can be used only once.<br /><br /> **Text fields**: Only fields of type Text or Option Set are available. For Option Set, the  corresponding label in the language of the user is used. Text fields are used for fuzzy match in similarity analysis with keywords/key phrase extraction. Each field can be used only once. |
        |||
 

@@ -1,19 +1,13 @@
 ---
-title: "Edit insight cards using Microsoft Flow in Dynamics 365 for Customer Engagement | MicrosoftDocs"
-description: "Edit  insight cards in assistant"
-keywords: "AI for sales, assistant, custom cards, insight cards"
+title: "Edit insight cards using Microsoft Flow in Dynamics 365 Sales | MicrosoftDocs"
+description: "Edit insight cards in assistant"
 ms.date: 03/22/2019
 ms.service: crm-online
-ms.custom: 
 ms.topic: article
-applies_to: Dynamics 365 (online)
 ms.assetid: f1565380-2c5b-4140-a657-156fee688cc9
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 1
 ---
 
@@ -62,7 +56,7 @@ In this example we have filtered the cards with the security role **Sales manage
 When you create a card, you must specify the security roles to whom you want the card to display. By default, all the cards are assigned to the security roles **Salesperson** and **Sales manager**. You can edit the card to assign or remove the security roles to the card. 
 
 >[!NOTE]
->The security roles you see in the cards are defined in Dynamics 365 for Customer Engagement. To learn more on security roles, see [Security roles and privileges](/dynamics365/customer-engagement/admin/security-roles-privileges).
+>The security roles you see in the cards are defined in Dynamics 365 Sales. To learn more on security roles, see [Security roles and privileges](/dynamics365/customer-engagement/admin/security-roles-privileges).
 
 1. Go to the **Assistant** tab and select the card for which you want to add the security roles. In this example, we have selected the **Opportunity Health Score Changed** card.
 

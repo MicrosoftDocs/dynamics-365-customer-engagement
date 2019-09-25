@@ -22,7 +22,7 @@ ms.custom:
 
 Customer service managers or supervisors are responsible for managing the agents who work with customers to resolve queries every day through various service channels.
 
-Omnichannel for Customer Service provides dashboards that help supervisors keep track of the work that their agents do. As a supervisor, you can use these dashboards to perform these tasks:
+Omnichannel for Dynamics 365 Customer Service provides dashboards that help supervisors keep track of the work that their agents do. As a supervisor, you can use these dashboards to perform these tasks:
 
 -	Monitor key performance indicators (KPIs)
 
