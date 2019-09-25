@@ -42,7 +42,7 @@ To set up an approval workflow in Microsoft Flow:
    - Entity Name: Select the customer journey entity.
    - Scope: Set the scope to Organization.
 
-1. In the ** Choose an action** step, Search for **Common Data service** and select **Condition** from the **Actions** tab.
+1. In the **Choose an action** step, Search for **Common Data service** and select **Condition** from the **Actions** tab.
 
    
     ![Actions tab](../media/new-step-select-condition.png "Actions tab")
