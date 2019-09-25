@@ -5,7 +5,6 @@ keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
