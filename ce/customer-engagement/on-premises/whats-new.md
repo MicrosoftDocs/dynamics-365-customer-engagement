@@ -31,12 +31,5 @@ This topic lists features that are available with Dynamics 365 Customer Engageme
 |  [Security enhancements: User session and access management](/dynamics365/customer-engagement/on-premises/admin/user-session-management)   |
 
 > [!NOTE]
-> The offline capability in Dynamics 365 for Outlook version 9.0 won’t be available in Dynamics 365 Customer Engagement (on-premises), version 9.x. However, the offline capability in Dynamics 365 for Outlook version 9.0 will continue to be supported in Common Data Service.
- 
-<!-- ## Features released in the last on-premises release update
+> The offline capability in Dynamics 365 for Outlook, version 9.0 isn't available in Dynamics 365 Customer Engagement (on-premises), version 9.x. However, the offline capability in Dynamics 365 for Outlook, version 9.0 will continue to be supported in [Common Data Service](/powerapps/maker/common-data-service/data-platform-intro).
 
-For a list of features released in the last release of Dynamics 365 for Customer Engagement applications, see [TechNet: Online vs. on-premises features](https://technet.microsoft.com/library/mt812192.aspx).  -->
-
-
-## See also
-[Deploy and operate Dynamics 365 for Customer Engagement (on-premises)](/dynamics365/customer-engagement/on-premises/deploy-and-operate-dynamics-365-on-premises)
