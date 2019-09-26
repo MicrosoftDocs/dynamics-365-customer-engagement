@@ -9,8 +9,6 @@ ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
 ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
 author: tohomanms
 ms.author: tohoman
 manager: kvivek
@@ -24,7 +22,7 @@ The event portal is capable of integrating the **Azure Active Directory B2C**. T
 
 1. If you don't have one already, create a Azure AD B2C tenant.
 1. Add a web application to your Azure AD B2C tenant.
-1. Register the application with your Dynamics 365 instance.
+1. Register the application with your Dynamics 365 Marketing instance.
 1. Configure event management application to work with your Azure AD B2C tenant
 
 ## Creating Azure AD B2C tenant and adding a web application to the tenant
@@ -76,11 +74,11 @@ To reduce the clutter while navigating Azure portal we will use the following na
 * Settings > User Flows (policies): **Policy** (e.g. `B2C_1_default-sign-up`)
 * Application > Published scopes > Full scope value textbox: **Scope** (e.g. https://contosoeventmanagementtest.onmicrosoft.com/events/registration)
 
-## Registering the application with Dynamics 365 instance
+## Registering the application with Dynamics 365 Marketing instance
 
-Follow those steps to register the application with Dynamics 365.
+Follow those steps to register the application with Dynamics 365 Marketing.
 
-1. Open your Dynamics 365 instance
+1. Open your Dynamics 365 Marketing instance
 1. Navigate to **Dynamics 365 > Marketing > Settings > Web applications** and select your **Web application** record. If you haven't created a **Web application** record yet, then please follow the steps to [register your web application](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/developer/self-hosted#register-your-web-application).
 1. Insert your **Application id** in the **AAD Client ID** field.
 1. Insert your metadata endpoint in the **AAD Metadata Endpoint** field.

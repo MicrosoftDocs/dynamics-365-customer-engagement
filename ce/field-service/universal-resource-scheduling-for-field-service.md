@@ -10,8 +10,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 author: krbjoran
 caps.latest.revision: 42
 ms.author: FieldServiceDave
@@ -32,7 +30,7 @@ This article describes how Dynamics 365 for Field Service uses Universal Resourc
 
 ## Overview
 
-[Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md) (URS) is a Dynamics 365 for Customer Engagement solution that allows organizations from different industries with different scenarios to assign resources to jobs and tasks. 
+[Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md) (URS) is a Dynamics 365 solution that allows organizations from different industries with different scenarios to assign resources to jobs and tasks. 
 
 URS assigns the best resources to jobs and tasks based on:
 
@@ -182,9 +180,9 @@ Connecting to a mapping service is critical if you want to geographically displa
 1. To connect a mapping service, navigate to **Resource Scheduling > Administration > Scheduling Parameters**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Resource Scheduling Administration in Dynamics 365 for Customer Engagement dropdown menu](media/Perform-Initial-Configurations-image6.png)  
+> ![Screenshot of Resource Scheduling Administration in Dynamics 365 dropdown menu](media/Perform-Initial-Configurations-image6.png)  
 
-2. Set **Connect to Maps** to **Yes**. Then save and close.
+1. Set **Connect to Maps** to **Yes**. Then save and close.
 
 The API key will populate automatically and use the Bing Maps API.
 

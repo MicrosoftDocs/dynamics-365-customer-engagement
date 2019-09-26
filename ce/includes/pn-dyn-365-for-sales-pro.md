@@ -1,1 +1,1 @@
-Dynamics 365 for Sales Professional
+Dynamics 365 Sales Professional

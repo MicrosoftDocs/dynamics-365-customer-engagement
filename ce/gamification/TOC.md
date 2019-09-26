@@ -25,4 +25,4 @@
 ## [Browser settings](browser-system-requirements.md)
 ## [FAQ](frequently-asked-questions.md)
 ## [Privacy and legal information](legal-information.md)
-## [Dynamics 365 for Customer Engagement Gamification and GDPR](dynamics-365-gamification-gdpr.md) 
+## [Dynamics 365 Gamification and GDPR](dynamics-365-gamification-gdpr.md) 

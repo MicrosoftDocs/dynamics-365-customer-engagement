@@ -1,25 +1,25 @@
 ---
 title: "Browse the metadata for your organization (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "You can use the Entity Metadata Browser to view entities and their properties in Dynamics 365 for Customer Engagement apps. The Entity Metadata Browser is a managed solution you can download and install on your organization."
-keywords: 
+keywords:
 ms.date: 03/29/2019
 ms.service: crm-online
-ms.custom: 
+ms.custom:
 ms.topic: article
-applies_to: 
+applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 46306470-dca2-4d4e-8a98-d7a6eb47ecfe
 author: JimDaly
 ms.author: jdaly
 manager: amyla
 ms.reviewer: pehecke
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 caps.latest.revision: 40
 topic-status: Drafting
-search.audienceType: 
+search.audienceType:
   - developer
-search.app: 
+search.app:
   - D365CE
 ---
 
@@ -30,17 +30,17 @@ You can use the Entity Metadata Browser to view entities and their properties in
 
 |                                                                                               Version                                                                                                |                                                                                     Download                                                                                      |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                              [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)] (v9.0)                                                              | [Microsoft Downloads: MetadataBrowser_3_0_0_5_managed.zip](http://download.microsoft.com/download/8/E/3/8E3279FE-7915-48FE-A68B-ACAFB86DA69C/MetadataBrowser_3_0_0_5_managed.zip) |
-| [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] (v8.2\) [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)] (v8.1) | [Microsoft Downloads: MetadataBrowser_3_0_0_4_managed.zip](http://download.microsoft.com/download/C/5/D/C5DEA99B-5CD1-40BA-BAB8-15CDC956FDAB/MetadataBrowser_3_0_0_4_managed.zip) |
-|                                                                         Dynamics CRM Online 2016 Update and CRM 2016 (v8.0)                                                                          | [Microsoft Downloads: MetadataBrowser_3_0_0_2_managed.zip](http://download.microsoft.com/download/6/D/3/6D341DDC-01B4-44A3-925D-D9188342E3B4/MetadataBrowser_3_0_0_2_managed.zip) |
+|                                                              [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)] (v9.0)                                                              | [Microsoft Downloads: MetadataBrowser_3_0_0_5_managed.zip](https://download.microsoft.com/download/8/E/3/8E3279FE-7915-48FE-A68B-ACAFB86DA69C/MetadataBrowser_3_0_0_5_managed.zip) |
+| [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] (v8.2\) [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)] (v8.1) | [Microsoft Downloads: MetadataBrowser_3_0_0_4_managed.zip](https://download.microsoft.com/download/C/5/D/C5DEA99B-5CD1-40BA-BAB8-15CDC956FDAB/MetadataBrowser_3_0_0_4_managed.zip) |
+|                                                                         Dynamics CRM Online 2016 Update and CRM 2016 (v8.0)                                                                          | [Microsoft Downloads: MetadataBrowser_3_0_0_2_managed.zip](https://download.microsoft.com/download/6/D/3/6D341DDC-01B4-44A3-925D-D9188342E3B4/MetadataBrowser_3_0_0_2_managed.zip) |
 
-After you download the solution, you must install it. For information about how to install a managed solution, see [Import, update, and export solutions](../customize/import-update-upgrade-solution.md)  
+After you download the solution, you must install it. For information about how to install a managed solution, see [Import, update, and export solutions](../customize/import-update-upgrade-solution.md)
 
 ## Open as an app
 The [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)] (v9.0) version is configured as an app. After you install the **Entity Metadata Browser** solution, locate the **Metadata Tools** app and open it. **Entities** is the default view. From the **Tools** navigation area you can select **Entity Metadata** to inspect individual entities.
 
 ## Open from the solution configuration page
-For earlier versions you must use the following steps, but these also work for the latest verison.  
+For earlier versions you must use the following steps, but these also work for the latest verison.
 
 After you install the **Entity Metadata Browser** solution, open the managed solution by double-clicking the row in the solutions list and view the **Configuration** page to view information about the Entity Metadata Browser and buttons to launch two different views.
 - **Metadata Browser** is equivilent to the **Entities** view in the app.
@@ -73,12 +73,12 @@ You can perform the following actions:
 
 - **Keys**: If alternate keys are enabled for an entity you can examine how they are configured.
 
-- **Relationships**: View the three types of entity relationships: One-To-Many, Many-To-One, and Many-To-Many. With these views you can:  
-    - **Edit Relationship**: Open the selected relationship form in the default organization, if the relationship supports this.  
-    - **Text Search**: Perform a text search to filter displayed relationships using values relevant to the type of relationship.  
+- **Relationships**: View the three types of entity relationships: One-To-Many, Many-To-One, and Many-To-Many. With these views you can:
+    - **Edit Relationship**: Open the selected relationship form in the default organization, if the relationship supports this.
+    - **Text Search**: Perform a text search to filter displayed relationships using values relevant to the type of relationship.
     - **Filter Properties**: Filter the relationship by any relationship property value.
 
-- **Privileges**: View entity privileges. With this view you can:  
+- **Privileges**: View entity privileges. With this view you can:
     - Filter the displayed privilege using the `PrivilegeId`.
 
 > [!NOTE]
@@ -92,7 +92,7 @@ You can perform the following actions:
 **Metadata Browser** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Please see the [Developer tools](developer-tools.md) topic for community developed tools.
 
 > [!NOTE]
-> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
+> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools.
 > If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com).
 
 ### See also

@@ -8,8 +8,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: activate-fs-mobile-app-license
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 author: krbjoran
 ms.author: FieldServiceDave
 ms.manager: shellyhaverkamp
@@ -30,17 +28,17 @@ Estimated Duration: 10 minutes
 
 ## Prerequisites
 
-1. A Dynamics 365 for Customer Engagement environment with the Field Service solution and the mobile solution (Resco Woodford) installed. You'll also need to import the mobile project. [Instructions for importing the mobile project can be found here](./install-field-service.md).  
+1. A Dynamics 365 environment with the Field Service solution and the mobile solution (Resco Woodford) installed. You'll also need to import the mobile project. [Instructions for importing the mobile project can be found here](./install-field-service.md).  
 
 2. Sample data installed (recommended). Installing sample data with the [package deployer](./install-sample-data-8-x.md) will complete many recommended initial configurations.  
 
-3. Verify you can log into Dynamics 365 for Customer Engagement with a **system administrator** security role.
+3. Verify you can log into Dynamics 365 with a **system administrator** security role.
 
 See below for common prerequisite troubleshooting questions.
 
 ### How do I know if the Field Service solution is installed?
 
-When logged in to Dynamics 365 for Customer Engagement as an administrator or Field Service role, you'll see the Field Service module, as seen in the screenshot below.
+When logged in to Dynamics 365 as an administrator or Field Service role, you'll see the Field Service module, as seen in the screenshot below.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service in left navigation bar](media/Perform-Initial-Configurations-image1.png)  
@@ -76,7 +74,7 @@ This is all accomplished by **geocoding**, where the solution associates a latit
 Navigate to **Resource Scheduling > Administration > Scheduling Parameters**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Resource Scheduling Administration in Dynamics 365 for Customer Engagement dropdown menu](media/Perform-Initial-Configurations-image6.png)  
+> ![Screenshot of Resource Scheduling Administration in Dynamics 365 dropdown menu](media/Perform-Initial-Configurations-image6.png)  
 
 Set **Connect to Maps** to **Yes**.
 
@@ -110,7 +108,7 @@ Next, verify that work orders are enabled for resource scheduling.
 Navigate to **Field Service > Administration > Field Service Settings**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Administration from Dynamics 365 for Customer Engagement dropdown menu](media/Perform-Initial-Configurations-image9.png)  
+> ![Screenshot of Field Service Administration from Dynamics 365 dropdown menu](media/Perform-Initial-Configurations-image9.png)  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service Settings](media/Perform-Initial-Configurations-image10.png)  
@@ -170,7 +168,7 @@ There are a few mobile application configurations worth considering that field t
 
 The following steps in this section require that you have the mobile configuration tool (Resco Woodford solution) installed, along with the imported mobile project. [Instructions can be found here](./install-field-service.md).  
 
-In a **non-private Internet Explorer browser**, log into your Dynamics 365 for Customer Engagement organization as a system administrator and navigate to **Settings > Woodford > MobileCRM Woodford**.
+In a **non-private Internet Explorer browser**, log into your Dynamics 365 organization as a system administrator and navigate to **Settings > Woodford > MobileCRM Woodford**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of opening Internet Explorer from Edge](media/Perform-Initial-Configurations-image18.png)  

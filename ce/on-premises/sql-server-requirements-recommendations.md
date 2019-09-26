@@ -50,8 +50,6 @@ The following requirements and recommendations apply to new and existing install
   
 -   Although it’s optional, consider accepting the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] default settings for Collation Designator, Sort Order, and SQL Collation. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] supports the following collation orders:  
   
-    -   Case-sensitive  
-  
     -   Case-insensitive  
   
     -   Accent-sensitive  

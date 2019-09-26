@@ -1,36 +1,36 @@
 ---
 title: "Ribbon types schema (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The following is the schema definition for the ribbon types portion of an import/export customization file. It is included from the Ribbon Core Schema."
-ms.custom: 
+ms.custom:
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer:
 ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: article
-applies_to: 
+applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: dc56c384-367b-4f14-83ed-bb527f3c1964
 caps.latest.revision: 19
 author: JimDaly
 ms.author: jdaly
 manager: amyla
-search.audienceType: 
+search.audienceType:
   - developer
-search.app: 
+search.app:
   - D365CE
 ---
 # Ribbon types schema
 
 The following is the schema definition for the ribbon types portion of an import/export customization file. Ribbon types schema is included from the [Ribbon Core Schema](ribbon-core-schema.md). You can find schema  in the `Schemas\9.0.0.2090\RibbonTypes.xsd` folder when you download the Schemas zip file.
 
-Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
+Download the [Schemas](https://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
 
 For more information, see [Package and Distribute Extensions with Microsoft Dynamics 365 for Customer Engagement Solutions](../package-distribute-extensions-use-solutions.md).
-  
-## Schema  
-  
-```xml  
+
+## Schema
+
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="CrmRibbonTypes" xmlns:xs="http://www.w3.org/2001/XMLSchema" >
 
@@ -278,7 +278,7 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
 			<xs:element name="HideIfPowerBITileNotAvailableRule" type ="HideIfPowerBITileNotAvailableRuleType" />
 			<xs:element name="HideIfProcessActiveRule" type="HideIfProcessActiveRuleType" />
 			<xs:element name="HideIfProcessInactiveRule" type="HideIfProcessInactiveRuleType" />
-			<xs:element name="HideIfProcessUnificationIsDisabledRule" type="HideIfProcessUnificationIsDisabledRuleType" /> 
+			<xs:element name="HideIfProcessUnificationIsDisabledRule" type="HideIfProcessUnificationIsDisabledRuleType" />
 			<xs:element name="HideIfO365UserDoesNotHaveExchangeSubscriptionsRule" type ="HideIfO365UserDoesNotHaveExchangeSubscriptionsRuleType" />
 			<xs:element name="HideIfEmailIsApprovedByAdminRule" type ="HideIfEmailIsApprovedByAdminType" />
 			<xs:element name="HideIfUserIsNotTenantAdminRule" type ="HideIfUserIsNotTenantAdminType" />
@@ -359,7 +359,7 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
 		<xs:attribute name="ObjectTypeCode" type="xs:string" use="required"/>
 		<xs:attributeGroup ref="StandardRuleAttributes" />
 	</xs:complexType>
-	
+
 	<xs:complexType name="CustomRuleType">
 		<xs:sequence>
 			<xs:group ref="ParameterType" minOccurs="0" maxOccurs="unbounded" />
@@ -453,7 +453,7 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
 		</xs:attribute>
 		<xs:attributeGroup ref="StandardRuleAttributes" />
 	</xs:complexType>
-	
+
 	<xs:complexType name="FormTypeRuleType">
 		<xs:attribute name="Type" use="required">
 			<xs:simpleType>
@@ -495,7 +495,7 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
 	<xs:complexType name="HideIfExportToExcelNotEnabledRuleType">
 		<xs:attributeGroup ref="StandardRuleAttributes" />
 	</xs:complexType>
-	
+
 	<xs:complexType name="IsExportToExcelOnlineEnabledRuleType">
 		<xs:attributeGroup ref="StandardRuleAttributes" />
 	</xs:complexType>
@@ -503,7 +503,7 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
 	<xs:complexType name="HideIfDelveNotAvailableRuleType">
 		<xs:attributeGroup ref="StandardRuleAttributes" />
 	</xs:complexType>
-	
+
 	<xs:complexType name="HideIfPowerBITileNotAvailableRuleType">
 		<xs:attributeGroup ref="StandardRuleAttributes" />
 	</xs:complexType>
@@ -515,19 +515,19 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
 	<xs:complexType name="HideIfProcessInactiveRuleType">
 		<xs:attributeGroup ref="StandardRuleAttributes" />
 	</xs:complexType>
-	
+
 	<xs:complexType name="HideIfProcessUnificationIsDisabledRuleType">
 		<xs:attributeGroup ref="StandardRuleAttributes" />
 	</xs:complexType>
-	
+
 	<xs:complexType name="HideIfO365UserDoesNotHaveExchangeSubscriptionsRuleType">
 		<xs:attributeGroup ref="StandardRuleAttributes" />
 	</xs:complexType>
-	
+
 	<xs:complexType name="HideIfEmailIsApprovedByAdminBasedOnESPRuleType">
 		<xs:attributeGroup ref="StandardRuleAttributes" />
 	</xs:complexType>
-	
+
 	<xs:complexType name="HideIfSSSTroubleshootingNotEnabledRuleType">
 		<xs:attributeGroup ref="StandardRuleAttributes" />
 	</xs:complexType>
@@ -543,7 +543,7 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
 	<xs:complexType name="HideIfEmailSignatureNotEnabledRuleType">
 		<xs:attributeGroup ref="StandardRuleAttributes" />
 	</xs:complexType>
-	
+
 	<xs:complexType name="HideIfReverseHybridSSSNotEnabledRuleType">
 		<xs:attributeGroup ref="StandardRuleAttributes" />
 	</xs:complexType>
@@ -551,11 +551,11 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
 	<xs:complexType name="HideIfEmailIsApprovedByAdminType">
 		<xs:attributeGroup ref="StandardRuleAttributes" />
 	</xs:complexType>
-	
+
 	<xs:complexType name="HideIfUserIsNotTenantAdminType">
 		<xs:attributeGroup ref="StandardRuleAttributes" />
 	</xs:complexType>
-	
+
 	<xs:complexType name="HideIfProductRecommendationsNotEnabledType">
 		<xs:attributeGroup ref="StandardRuleAttributes" />
 	</xs:complexType>
@@ -675,7 +675,7 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
 		<xs:attribute name="Value" type="xs:string" use="required" />
 		<xs:attributeGroup ref="StandardRuleAttributes" />
 	</xs:complexType>
-	
+
 	<xs:complexType name="FeatureControlRuleType">
 		<xs:attribute name="FeatureControlBit" type="xs:string" use="required" />
 		<xs:attribute name="ExpectedValue" type="xs:boolean" use="required" />
@@ -705,7 +705,7 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
 			<xs:enumeration value="SelectedEntity" />
 		</xs:restriction>
 	</xs:simpleType>
-	
+
 	<xs:simpleType name="PrivilegeDepthType">
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="None" />
@@ -810,7 +810,7 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
 			<xs:enumeration value="CommandProperties" />
 		</xs:restriction>
 	</xs:simpleType>
-	
+
 	<xs:simpleType name="CrmNamedParameterValue">
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="PrimaryEntityTypeCode" />
@@ -859,11 +859,11 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
 	</xs:complexType>
 </xs:schema>
 
-```  
-  
-### See also  
- [Customize commands and the ribbon](customize-commands-ribbon.md)   
- [Ribbon Core Schema](ribbon-core-schema.md)   
- [Ribbon WSS Schema](ribbon-wss-schema.md)   
- [Schemas Used in Microsoft Dynamics 365 for Customer Engagement](../schemas-used-dynamics-365.md)   
+```
+
+### See also
+ [Customize commands and the ribbon](customize-commands-ribbon.md)
+ [Ribbon Core Schema](ribbon-core-schema.md)
+ [Ribbon WSS Schema](ribbon-wss-schema.md)
+ [Schemas Used in Microsoft Dynamics 365 for Customer Engagement](../schemas-used-dynamics-365.md)
  [Customization XML Reference](../customization-xml-reference.md)

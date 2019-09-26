@@ -1,6 +1,6 @@
 ---
-title: "Administer teams of users (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Organize users into teams and apply roles to teams in Dynamics 365 for Marketing"
+title: "Administer teams of users (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Organize users into teams and apply roles to teams in Dynamics 365 Marketing"
 keywords: administration; organization settings; user; team; role; permission; fiscal year
 ms.date: 08/16/2019
 ms.service: dynamics-365-marketing
@@ -8,8 +8,6 @@ ms.custom:
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: edc9a748-f08f-484c-ae86-0c20d20c1f6c
 author: kamaybac
 ms.author: kamaybac
@@ -60,13 +58,13 @@ You can assign any number of security roles to each team. When a team is assigne
 
 To apply security roles to teams, and to customize each role:
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 1. Navigate to **Settings** > **System** > **Security**.
 1. Work with the **Users**, **Security roles**, and **Teams** items here as needed.
 
 For more information about managing teams and working with security roles, see [Manage security, users, and team](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).
 
-For more information about the security roles included with the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], see [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md).
+For more information about the security roles included with the Dynamics 365 Marketing, see [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md).
 
 ### See also
 
