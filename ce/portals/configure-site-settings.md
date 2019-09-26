@@ -25,7 +25,7 @@ search.app:
 
 A site setting is a configurable, named value that is used by website code to modify the behavior or visual style of the portal. Typically when a developer creates the website code, they will reference site settings for various components to enable an end user to modify the setting values to alter the website without having to change the code, recompile, and redeploy the website.
 
-The sample portals that are provided with the installation of Dynamics 365 Portals contain several configurable site settings for various styles used to modify many visual elements within the site such as background style, text color, and layout width.
+The sample portals that are provided with the installation of Dynamics 365 Portals  contain several configurable site settings for various styles used to modify many visual elements within the site such as background style, text color, and layout width.
 You can manage the following types of site settings:
 - **Global Portal settings**: These settings apply to all portals associated with the Common Data Service organization in which they are being added.
 - **Portal site settings**: These settings apply to specific portals (website records) that are associated with the Common Data Service organization in which they are being added.
@@ -33,7 +33,7 @@ You can manage the following types of site settings:
 
 ## Manage portal site settings
 
-1. Sign in to **Dynamics 365 Portals**.
+1. Sign in to **Dynamics 365 Portals **.
 2. Go to **Portals** &gt; **Site Settings**.
 3. To create a new setting, select **New**.
 4. To edit an existing setting, select the **Site Setting** listed in the grid.
@@ -84,7 +84,7 @@ For site settings related to various portal features, see:
 
 ## Manage global portal settings
 
-1. Sign in to **Dynamics 365 Portals**.
+1. Sign in to **Dynamics 365 Portals **.
 2. Go to **Settings** &gt; **Settings**.
 3. To create a new setting, select **New**.
 4. To edit an existing setting, select the **Site Setting** listed in the grid.
@@ -100,7 +100,7 @@ For site settings related to various portal features, see:
 ### See also
 
 [How to provision a portal](provision-portal.md)  
-[Configure a Dynamics 365 Portals](configure-portal.md)  
-[Configure Dynamics 365 Portals authentication](configure-portal-authentication.md)  
-[Define entity forms and custom logic within the Dynamics 365 Portals](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 Portals ](configure-portal.md)  
+[Configure Dynamics 365 Portals  authentication](configure-portal-authentication.md)  
+[Define entity forms and custom logic within the Dynamics 365 Portals ](entity-forms-custom-logic.md)  
 

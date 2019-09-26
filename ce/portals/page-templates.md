@@ -1,6 +1,6 @@
 ---
-title: "Create and manage page templates in Dynamics 365 Portals | MicrosoftDocs"
-description: "Learn how to create and manage page templates in Dynamics 365 Portals."
+title: "Create and manage page templates in Dynamics 365 Portals  | MicrosoftDocs"
+description: "Learn how to create and manage page templates in Dynamics 365 Portals ."
 ms.custom: 
   - dyn365-portal
 ms.date: 12/03/2018
@@ -36,7 +36,7 @@ When you create a new webpage, you must choose a page template from a list of ex
 
 Creating a new Page Template is only necessary when creating a brand new .aspx page to display content on your website, a portal developer’s task. In fact, for the purposing of simply customizing the layout of your site, a portal developer can largely just modify existing .aspx pages.
 
-1. Sign in to Dynamics 365 Portals.
+1. Sign in to Dynamics 365 Portals .
 
 2. Go to **Portals** > **Page Templates**.
 

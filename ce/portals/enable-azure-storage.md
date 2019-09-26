@@ -1,5 +1,5 @@
 ---
-title: "Enable Azure storage for portals in Dynamics 365 | MicrosoftDocs"
+title: "Enable Azure storage for Dynamics 365 Portals | MicrosoftDocs"
 description: "Instructions to enable Azure storage for portals to take advantage of the greater file storage capability of Azure."
 ms.custom: 
   - dyn365-portal
@@ -22,7 +22,7 @@ search.app:
   - D365Portals
 ---
 
-# Enable [!include[Azure](../includes/pn-azure-shortest.md)] Storage
+# Enable Azure Storage
 
 [!include[Azure](../includes/pn-azure-shortest.md)] Storage integration for portals enables you to take advantage of the greater file storage capability of [!include[Azure](../includes/pn-azure-shortest.md)], using the same interface and providing the same user experience as for default file attachments. This feature is supported for web files, entity forms, and web forms.
 
@@ -79,7 +79,7 @@ Add the following site settings from **Portals** > **Site Settings**. [!include[
 |WebFiles/StorageLocation|AzureBlobStorage|
 |||
 
-You can now create a child file in portal and mention fully qualified name (along with container) in Azure Blob address URL. With these settings, your Dynamics 365 Portals is ready to begin uploading and downloading files to and from [!include[Azure](../includes/pn-azure-shortest.md)] Storage. However, you cannot take full advantage of this feature until you [add a web resource to enable uploading attachments to Azure Storage](add-web-resource.md), and configure [entity forms](configure-notes.md#notes-configuration-for-entity-forms) or [web forms](configure-notes.md#notes-configuration-for-web-forms) to use it.
+You can now create a child file in portal and mention fully qualified name (along with container) in Azure Blob address URL. With these settings, your Dynamics 365 Portals  is ready to begin uploading and downloading files to and from [!include[Azure](../includes/pn-azure-shortest.md)] Storage. However, you cannot take full advantage of this feature until you [add a web resource to enable uploading attachments to Azure Storage](add-web-resource.md), and configure [entity forms](configure-notes.md#notes-configuration-for-entity-forms) or [web forms](configure-notes.md#notes-configuration-for-web-forms) to use it.
 
 ### See also
 

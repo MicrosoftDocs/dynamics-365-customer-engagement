@@ -1,6 +1,6 @@
 ---
-title: "Create and manage websites in Dynamics 365 Portals | MicrosoftDocs"
-description: "Learn how to create and manage websites in Dynamics 365 Portals."
+title: "Create and manage websites in Dynamics 365 Portals  | MicrosoftDocs"
+description: "Learn how to create and manage websites in Dynamics 365 Portals ."
 ms.custom: 
   - dyn365-portal
 ms.date: 12/03/2018
@@ -24,7 +24,7 @@ search.app:
 
 # Create and manage websites
 
-A website is the core entity of Dynamics 365 Portals application. A portal application selects a single Website record, and this determines what portal entities – [web pages](web-page.md), [web files](web-files.md), [web roles](create-web-roles.md), [content snippets](customize-content-snippets.md), etc. – are applicable to this application.
+A website is the core entity of Dynamics 365 Portals  application. A portal application selects a single Website record, and this determines what portal entities – [web pages](web-page.md), [web files](web-files.md), [web roles](create-web-roles.md), [content snippets](customize-content-snippets.md), etc. – are applicable to this application.
 
 With a website providing an application scope, multiple distinct portal applications can be connected to a single organization.
 
@@ -34,12 +34,12 @@ However, it is also possible to control this by URL path prefix (see the descrip
 
 ## Manage websites
 
-Websites can be created, edited, and deleted within Dynamics 365. 
+Websites can be created, edited, and deleted within Dynamics 365 Portals. 
 
 > [!WARNING]
 > When deleting a website record, the portal entities related to the website (web pages, web files, etc.) will also be deleted. This is generally the desired behavior, as it means an entire website and all its related data can be removed from a organization in a single operation.
 
-1. Sign in to Dynamics 365 Portals.
+1. Sign in to Dynamics 365 Portals .
 
 2. Go to **Portals** > **Websites**.
 

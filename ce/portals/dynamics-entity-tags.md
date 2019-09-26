@@ -24,7 +24,7 @@ search.app:
 
 # Dynamics 365 entity tags
 
-Dynamics 365 entity tags are used to load and display Dynamics 365 data, or use other Dynamics 365 Portals framework services. These tags are Dynamics 365-specific extensions to the Liquid language.
+Dynamics 365 entity tags are used to load and display Dynamics 365 data, or use other Dynamics 365 Portals  framework services. These tags are Dynamics 365-specific extensions to the Liquid language.
 
 ## chart
 
@@ -75,7 +75,7 @@ Type of authentication required for the Power BI report or dashboard. Valid valu
 
 - **powerbiembedded**: Allows you to share the secure Power BI reports or dashboards to external users who doesn't have Power BI license or Azure Active Directory authentication setup. For information on Power BI Embedded service setup, see [Enable Power BI Embedded service](set-up-power-bi-integration.md#enable-power-bi-embedded-service). 
 
-While adding the secure Power BI report or dashboard, ensure that it is shared with Dynamics 365 Portals Azure Active Directory or Power BI Embedded services. 
+While adding the secure Power BI report or dashboard, ensure that it is shared with Dynamics 365 Portals  Azure Active Directory or Power BI Embedded services. 
 
 > [!NOTE]
 > The values for the `authentication_type` parameter are case insensitive.
@@ -145,7 +145,7 @@ If you've assigned a role to a Power BI report, and didn't specify the **roles**
 
 ## editable
 
-Renders a given Dynamics 365 Portals CMS object as [Use the front-side editing engine to publish content](publish-content-editing-engine.md), for users with content editing permission for that object. Editable objects include [page](liquid-objects.md#page), [snippets](liquid-objects.md#snippets), and [weblinks](liquid-objects.md#weblinks).  
+Renders a given Dynamics 365 Portals  CMS object as [Use the front-side editing engine to publish content](publish-content-editing-engine.md), for users with content editing permission for that object. Editable objects include [page](liquid-objects.md#page), [snippets](liquid-objects.md#snippets), and [weblinks](liquid-objects.md#weblinks).  
 
 ```
 {% editable page 'adx_copy' type: 'html', title: 'Page Copy', escape: false, liquid: true %}

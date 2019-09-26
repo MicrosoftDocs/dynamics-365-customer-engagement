@@ -1,5 +1,5 @@
 ---
-title: "Download public key of Dynamics 365 Portals | MicrosoftDocs"
+title: "Download public key of Dynamics 365 Portals  | MicrosoftDocs"
 description: "Learn how to download public key of a portal."
 ms.date: 12/03/2018
 ms.service: crm-online

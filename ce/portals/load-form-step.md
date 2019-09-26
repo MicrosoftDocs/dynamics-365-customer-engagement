@@ -118,8 +118,8 @@ This provides a way to associate the current record being created or updated by 
 
 ### See also
 
-[Configure a Dynamics 365 Portals](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 Portals](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 Portals ](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 Portals ](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Redirect step type](add-redirect-step.md)  
 [Conditional step type](add-conditional-step.md)  

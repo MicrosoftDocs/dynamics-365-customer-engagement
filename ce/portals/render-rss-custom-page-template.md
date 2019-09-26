@@ -68,7 +68,7 @@ Now, we'll create a new page template, allowing us to assign our RSS feed templa
 
 ## Step 4: Create a web page to host RSS feed
 
-Now all that's left is to create a new web page to host our feed, giving it a title and summary, and assigning it our RSS Feed template. We can do this in Dynamics 365 or by using the portal inline editing features:
+Now all that's left is to create a new web page to host our feed, giving it a title and summary, and assigning it our RSS Feed template. We can do this in Dynamics 365 Portals or by using the portal content editing features:
 
 ![Add a new child page](media/add-new-child-page.png "Add a new child page")  
 

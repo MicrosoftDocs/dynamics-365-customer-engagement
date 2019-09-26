@@ -24,7 +24,7 @@ search.app:
 
 # Manage SharePoint documents
 
-Dynamics 365 supports integration with [!INCLUDE[pn-microsoft-sharepoint-online](../includes/pn-microsoft-sharepoint-online.md)] that enables you to use the document management capabilities of [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] from within Dynamics 365. Dynamics 365 Portals now supports uploading and displaying documents to and from [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] directly on an entity form or web form in a portal. This allows portal users to view, download, add, and delete documents from a portal. Portal users can also create subfolders to organize their documents.
+Dynamics 365 supports integration with [!INCLUDE[pn-microsoft-sharepoint-online](../includes/pn-microsoft-sharepoint-online.md)] that enables you to use the document management capabilities of [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] from within Dynamics 365. Dynamics 365 Portals  now supports uploading and displaying documents to and from [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] directly on an entity form or web form in a portal. This allows portal users to view, download, add, and delete documents from a portal. Portal users can also create subfolders to organize their documents.
 
 > [!NOTE]
 > - Document management works only with [!INCLUDE[pn-microsoft-sharepoint-online](../includes/pn-microsoft-sharepoint-online.md)].
@@ -38,7 +38,7 @@ To work with the document management capabilities of [!INCLUDE[pn-sharepoint-sho
 
 3.	[Enable document management for entities](#step-3-enable-document-management-for-entities)
 
-4.	[Configure the appropriate form in Dynamics 365 to display documents](#step-4-configure-the-appropriate-form-to-display-documents)
+4.	[Configure the appropriate form to display documents](#step-4-configure-the-appropriate-form-to-display-documents)
 
 5.	[Create appropriate entity permission and assign it to the appropriate web role](#step-5-create-appropriate-entity-permission-and-assign-it-to-the-appropriate-web-role)
 
@@ -101,7 +101,7 @@ You can specify name and label as per your requirement. Save and publish the for
 > [!NOTE]
 > Document management must be enabled for the entity for which you edit the form. More information: [Enable document management for entities](#step-3-enable-document-management-for-entities)
 
-### Dynamics 365 Portals configuration
+### Dynamics 365 Portals  configuration
 
 If you do not already have an entity or web form configured, then configure one. For more information on configuring entity forms, see [Add a form to your portal](entity-forms-custom-logic.md#add-a-form-to-your-portal). If you are configuring this on a web form, see [Define web form properties for portals](web-form-properties.md) and [Define web form steps for portals](web-form-steps.md).
 
@@ -182,9 +182,9 @@ This sample provides exact steps and configuration values to enable document man
 
         f. In the form editor, select **Save** and then select **Publish**.
 
-    - Dynamics 365 Portals configuration
+    - Dynamics 365 Portals  configuration
 
-        a. In Dynamics 365, go to **Portals** > **Entity Forms**.
+        a. Go to **Portals** > **Entity Forms**.
     
         b. Find and open **Customer Service - Edit Case** entity form.
     

@@ -23,7 +23,7 @@ search.app:
 ---
 # Invite contacts to your portals
 
-Use the Dynamics 365 Portals invitation feature to invite contacts to your portal through automated email(s) created in your Dynamics 365 system. The people you invite receive an email, fully customizable by you, with a link to your portal and an invitation code. This code can be used to gain special access configured by you. With this feature you have the ability to:
+Use the Dynamics 365 Portals  invitation feature to invite contacts to your portal through automated email(s) created in your Dynamics 365 system. The people you invite receive an email, fully customizable by you, with a link to your portal and an invitation code. This code can be used to gain special access configured by you. With this feature you have the ability to:
 
 - Send Single or Group Invitations
 -   Specify an expiry date if desired
@@ -43,9 +43,9 @@ To edit the **Send Invitation** workflow email template, locate it and deactivat
 
 ## Create and configure invitations in web client
 
-To create an invitation record within Dynamics 365, select the **Create Invitation** button in the command bar. The button is available when a single contact is selected in a Contact view and when viewing a contact record. Selecting the button will open a new invitation form for the contact. Invitations can also be created via the Invitations view by selecting **+New**. After the Invitation record has been created, the **Run Workflow** button will appear enabling you to send the invitation to the contact(s). The invitation will not be sent to the contact(s) until the **Send Invitation** workflow is initiated.
+To create an invitation record, select the **Create Invitation** button in the command bar. The button is available when a single contact is selected in a Contact view and when viewing a contact record. Selecting the button will open a new invitation form for the contact. Invitations can also be created via the Invitations view by selecting **+New**. After the Invitation record has been created, the **Run Workflow** button will appear enabling you to send the invitation to the contact(s). The invitation will not be sent to the contact(s) until the **Send Invitation** workflow is initiated.
 
-## Create invitations in Dynamics 365 Portal app
+## Create invitations in Dynamics 365 Portals app
 
 1.	Go to **Portals** > **Contacts**.
 

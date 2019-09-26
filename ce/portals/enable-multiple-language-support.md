@@ -1,5 +1,5 @@
 ---
-title: "Enable multiple-language portal support in Dynamics 365 | MicrosoftDocs"
+title: "Enable multiple-language portal support | MicrosoftDocs"
 description: "Instructions to enable multiple languages for a portal and create content in multiple languages."
 ms.custom: 
   - dyn365-portal
@@ -43,7 +43,7 @@ To enable multiple languages for a portal, follow these steps after signing in t
 
 ## Supported languages
 
-The table below shows all the languages currently available out of the box. This list can be found in Dynamics 365 by going to **Portals** &gt; **Content** &gt; **Portal Languages**. The Portal Display Name of a language can be changed after selecting the language to change from this page. Note that the list now includes East Asian languages (Japanese, Chinese, and Korean).
+The table below shows all the languages currently available out of the box. This list can be found by going to **Portals** &gt; **Content** &gt; **Portal Languages**. The Portal Display Name of a language can be changed after selecting the language to change from this page. Note that the list now includes East Asian languages (Japanese, Chinese, and Korean).
 
 | **Name**                           | **Language Code** | **LCID** | **Portal Display Name** |
 |------------------------------------|-------------------|----------|-------------------------|
@@ -93,7 +93,7 @@ The table below shows all the languages currently available out of the box. This
 
 ## Create content in multiple languages
 
-1. Sign in to Dynamics 365 Portals.
+1. Sign in to Dynamics 365 Portals .
 2. Go to **Portals** > **Content** > **Web Pages** to see a list of content. For each webpage, there will be a parent version of the page and a child version of the page for each language activated for the portal.
 3. To add a new localization of the page, go to a base page and scroll down to **Localized Content**.
 4. Select the **+** button on the rightmost side to create a lookup for the localized version.
@@ -103,7 +103,7 @@ The table below shows all the languages currently available out of the box. This
 > [!Note]
 > The configuration fields on the home page of a content page is not inherited to the existing content pages. They are used only in creation of new content pages. You must update the content page configurations individually.
 
-Knowledge articles will only be displayed if they have been translated into the language the user sets the portal to be displayed in. However, forums and blogs allow for more control over how they are presented in other languages. Specifying a language for a forum or blog is optional. If a language is not specified, the forum or blog will be displayed in the primary language of the organization. If you want the forum or blog specific to a language, you must create it in Dynamics 365 and assign the language to it.
+Knowledge articles will only be displayed if they have been translated into the language the user sets the portal to be displayed in. However, forums and blogs allow for more control over how they are presented in other languages. Specifying a language for a forum or blog is optional. If a language is not specified, the forum or blog will be displayed in the primary language of the organization. If you want the forum or blog specific to a language, you must create it and assign the language to it.
 
 Web link sets are the navigation links at the top of the portal. By navigating to **Portals** > **Content** > **Web Link Sets** you can control how this content is translated. When a language is active for the portal, a new set of links are created for the newly activated language.
 

@@ -24,7 +24,7 @@ search.app:
 
 # View portal error logs
 
-As a portal administrator or developer, you can use Dynamics 365 Portals to create a website for your customers. One common task for a developer is to debug issues while developing the portal. To help debug, you can access detailed error logs for any issues on your portal. There are multiple ways that you can get error logs for your portals.
+As a portal administrator or developer, you can use Dynamics 365 Portals  to create a website for your customers. One common task for a developer is to debug issues while developing the portal. To help debug, you can access detailed error logs for any issues on your portal. There are multiple ways that you can get error logs for your portals.
 
 ## Custom error
 
@@ -90,7 +90,7 @@ This is a custom error, please file a support ticket with screenshot of error by
 ![Custom error message](media/custom-error-message.png "Custom error message")
 
 > [!NOTE]
-> If the portal cannot retrieve a content snippet because it can't connect to Dynamics 365 or if the snippet is not available in Dynamics 365, an error message appears.
+> If the portal cannot retrieve a content snippet because it can't connect to Common Data Service or if the snippet is not available in Dynamics 365 Portals, an error message appears.
 
 ## Access portal error logs
 

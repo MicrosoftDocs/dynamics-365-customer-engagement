@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 Portals FAQ | MicrosoftDocs"
-description: "Frequently asked questions in Dynamics 365 Portals."
+title: "Dynamics 365 Portals  FAQ | MicrosoftDocs"
+description: "Frequently asked questions in Dynamics 365 Portals ."
 ms.custom: 
   - dyn365-portal
 ms.date: 02/08/2019
@@ -24,7 +24,7 @@ search.app:
 
 # Common portal issues and best practices
 
-Dynamics 365 Portals is an extensible framework which allows customers to build highly customized and tailored experiences. While customizing, extending, or configuring your portal, you can run into a variety of issues.
+Dynamics 365 Portals  is an extensible framework which allows customers to build highly customized and tailored experiences. While customizing, extending, or configuring your portal, you can run into a variety of issues.
 
 In this article you will learn about the common queries and issues we have identified, their impact, and understand the guidance to resolve them. Some of these checks and best practices are also covered under portal checker as well.
 
@@ -52,11 +52,11 @@ You can change the base URL of a portal after it is provisioned by following the
 
 ### How do I delete a portal completely after it is provisioned?
 
-A Dynamics 365 Portals consists of the following components:
+A Dynamics 365 Portals  consists of the following components:
 
 - **Portal website host**: Portal website host is the Portal code that forms the actual website.
 
-- **Portal solutions**: Solutions that are installed in the Common Data Service organization and contain the metadata entities for any Dynamics 365 Portals.
+- **Portal solutions**: Solutions that are installed in the Common Data Service organization and contain the metadata entities for any Dynamics 365 Portals .
 
 To delete a portal completely requires deleting the Portal website host as well as uninstalling Portal solutions from your Common Data Service organization.
 
@@ -124,7 +124,7 @@ When you enable diagnostic logging, you can search for particular errors that us
 
 ### How do I use a custom login provider on my portal?
 
-Dynamics 365 Portals supports any custom login provider that provides support for standard authentication protocols. We support OpenIdConnect, SAML2, and WS-Federation protocols for any custom IDP. OAuth 2 is supported only for a fixed set of known IDPs. For more information on how to set up an IDP configuration, see [Configure Dynamics 365 Portals authentication](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/configure-portal-authentication).
+Dynamics 365 Portals  supports any custom login provider that provides support for standard authentication protocols. We support OpenIdConnect, SAML2, and WS-Federation protocols for any custom IDP. OAuth 2 is supported only for a fixed set of known IDPs. For more information on how to set up an IDP configuration, see [Configure Dynamics 365 Portals  authentication](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/configure-portal-authentication).
 
 ### How do I get new portal releases in my sandbox portal first before it gets applied to production?
 
@@ -132,7 +132,7 @@ Any portal release is done in two phases: early upgrade and general availability
 
 ### How do I use a custom domain name for my portal?
 
-You can enable your portal to use a custom domain name in place of the standard `microsoftcrmportals.com` domain name. More information: [Link your Dynamics 365 Portals to a custom domain](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/manage-portal#link-your-dynamics-365-portal-to-a-custom-domain)
+You can enable your portal to use a custom domain name in place of the standard `microsoftcrmportals.com` domain name. More information: [Link your Dynamics 365 Portals  to a custom domain](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/manage-portal#link-your-dynamics-365-portal-to-a-custom-domain)
 
 ## Portal checker
 
@@ -183,7 +183,7 @@ If restarting the portal doesn't work and this issue is occurring for a long per
 
 This issue occurs when the website binding records for portal are deleted from the underlying Common Data Service organization and portal is not able to create binding automatically. To fix this issue:
 
-1. Sign in to Dynamics 365 Portals.
+1. Sign in to Dynamics 365 Portals .
 2. Go to **Portals** > **Website Bindings**.
 3. Delete all the website binding records which are pointing to your portal. The **Sitename** field helps you to identify website binding records of your portal.
 4. After you delete all website binding records, restart the portal.
@@ -239,11 +239,11 @@ Portal checker (self-service diagnostic) tool will also point out these issues b
 
 #### Web page tracking enabled
 
-Enabling a portal web page for page tracking can lead to performance issues in your portal. This functionality is deprecated since January 2018 release of Dynamics 365 Portal. More information: [Dynamics 365 Portals: Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/)
+Enabling a portal web page for page tracking can lead to performance issues in your portal. This functionality is deprecated since January 2018 release of Dynamics 365 Portal. More information: [Dynamics 365 Portals : Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/)
 
 The portal checker tool will list all the web pages (both root and content page) which are enabled for page tracking. These pages should be disabled by following these steps:
 
-1. Sign in to Dynamics 365 Portals.
+1. Sign in to Dynamics 365 Portals .
 2. Go to Advanced find.
 3. Search for all the web pages where **Enable Tracking (Deprecated)** field is enabled (value is set to Yes).
 4. Bulk edit all the pages and set this field to **No**.
@@ -252,11 +252,11 @@ Alternatively, you can also go to each page listed in portal checker result and 
 
 #### Web file tracking enabled
 
-Enabling a portal web file for page tracking can lead to performance issues in your portal. This functionality is deprecated since January 2018 release of Dynamics 365 Portal. More information: [Dynamics 365 Portals: Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/)
+Enabling a portal web file for page tracking can lead to performance issues in your portal. This functionality is deprecated since January 2018 release of Dynamics 365 Portal. More information: [Dynamics 365 Portals : Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/)
 
 The portal checker tool will list all the web files which are enabled for page tracking. These files should be disabled by following these steps:
 
-1. Sign in to Dynamics 365 Portals.
+1. Sign in to Dynamics 365 Portals .
 2. Go to Advanced find.
 3. Search for all the web files where **Enable Tracking (Deprecated)** field is enabled (value is set to Yes).
 4. Bulk edit all the records and set this field to **No**.
@@ -265,11 +265,11 @@ Alternatively, you can also go to each file listed in portal checker result and 
 
 #### Login tracking enabled
 
-Enabling a portal login tracking can lead to performance issues in your portal. This functionality is deprecated since January 2018 release of Dynamics 365 Portal. More information: [Dynamics 365 Portals: Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/)
+Enabling a portal login tracking can lead to performance issues in your portal. This functionality is deprecated since January 2018 release of Dynamics 365 Portal. More information: [Dynamics 365 Portals : Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/)
 
 The portal checker tool will check if login tracking is enabled for your portal and will show a failed check if it is enabled. Login tracking should be disabled by following these steps:
 
-1.	Sign in to Dynamics 365 Portals.
+1.	Sign in to Dynamics 365 Portals .
 2.	Go to **Portals** > **Site Settings**.
 3.	Search for site setting named `Authentication/LoginTrackingEnabled`.
 4.	Change the value of this site setting to **False** or delete the site setting.
@@ -281,7 +281,7 @@ Disabling header output cache on your portal can lead to performance issues in y
 
 The portal checker tool will check if header output cache is disabled on your portal and will show a failed check if it is disabled. To enable it:
 
-1.	Sign in to Dynamics 365 Portals.
+1.	Sign in to Dynamics 365 Portals .
 2.	Go to **Portals** > **Site Settings**.
 3.	Search for site setting named `Header/OutputCache/Enabled`.
 4.	If the site setting is available, change the value of Site setting to **True**. If the site setting is not available, create a new site setting with this name and set its value to **True**.
@@ -293,7 +293,7 @@ Disabling footer output cache on your portal can lead to performance issues in y
 
 The portal checker tool will check if footer output cache is disabled on your portal and will show a failed check if it is disabled. To enable it:
 
-1.	Sign in to Dynamics 365 Portals.
+1.	Sign in to Dynamics 365 Portals .
 2.	Go to **Portals** > **Site Settings**.
 3.	Search for site setting named `Footer/OutputCache/Enabled`.
 4.	If the site setting is available, change the value of Site setting to **True**. If the site setting is not available, create a new site setting with this name and set its value to **True**.

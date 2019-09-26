@@ -1,4 +1,4 @@
-# [Deliver web engagement experience with Dynamics 365 Portals](administer-manage-portal-dynamics-365.md)
+# [Deliver web engagement experience with Dynamics 365 Portals ](administer-manage-portal-dynamics-365.md)
 # [What's new](monthly-updates-portals.md)
 # [Provision a portal](provision-portal.md)
 
@@ -12,7 +12,7 @@
 ## [Reset a portal](reset-portal.md)
 ## [Change base URL of a portal](change-base-url.md)
 ## [Upgrade a portal](upgrade-portal.md)
-## [Migrate Dynamics 365 Portals configuration](migrate-portal-configuration.md)
+## [Migrate Dynamics 365 Portals  configuration](migrate-portal-configuration.md)
 ## [Set up Power BI integration](set-up-power-bi-integration.md)
 ## [Restrict portal access by IP address](ip-address-restrict.md)
 ## [Use portal checker](portal-checker.md)
@@ -129,7 +129,7 @@
 ## [Integrate Project Service Automation](integrate-project-service-automation.md)
 ## [Integrate Field Service](integrate-field-service.md)
 ## [Implement GDPR in portals](implement-gdpr.md)
-## [View primary domain name in Dynamics 365](view-primary-domain.md)
+## [View primary domain name](view-primary-domain.md)
 ## [View email records in portal timeline](view-email-in-timeline.md)
 ## [Rate a webpage or blog article](rate-webpage-blog-post.md)
 ## [Enable header and footer output caching on a portal](enable-header-footer-output-caching.md)

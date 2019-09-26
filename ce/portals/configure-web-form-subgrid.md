@@ -29,7 +29,7 @@ Adding subgrids to your managed forms on the portal is easy—just add the subgr
 
 ## Add subgrid metadata to your form
 
-To add subgrid metadata to an entity form, go to **Entity Form Metadata** by using either the top drop-down list or the subgrid on the main form of the record that you are working with. [!include[](../includes/proc-more-information.md)] [Define entity forms and custom logic within the Dynamics 365 Portals](entity-forms-custom-logic.md).
+To add subgrid metadata to an entity form, go to **Entity Form Metadata** by using either the top drop-down list or the subgrid on the main form of the record that you are working with. [!include[](../includes/proc-more-information.md)] [Define entity forms and custom logic within the Dynamics 365 Portals ](entity-forms-custom-logic.md).
 
 To add a new record, select **Add New Entity Form Metadata**.
 
@@ -278,8 +278,8 @@ Enabling a **Disassociate action** allows a user to remove the link between the 
 
 ### See also
 
-[Configure a Dynamics 365 Portals](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 Portals](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 Portals ](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 Portals ](entity-forms-custom-logic.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  

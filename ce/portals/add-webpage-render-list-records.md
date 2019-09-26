@@ -511,7 +511,7 @@ You can use Entity Permissions if you want to secure records, but if you want to
 
 ### See also
 
-[Configure a Dynamics 365 Portals](configure-portal.md)  
+[Configure a Dynamics 365 Portals ](configure-portal.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Gather feedback by using polls on a portal](gather-feedback-poll.md)  
 [Rate or vote on a webpage or blog post on a portal](rate-webpage-blog-post.md)  

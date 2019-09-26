@@ -1,5 +1,5 @@
 ---
-title: "Add geolocation to a managed form in Dynamics 365 Portals | MicrosoftDocs"
+title: "Add geolocation to a managed form in Dynamics 365 Portals  | MicrosoftDocs"
 description: "Instructions to add geolocation to a managed form."
 ms.custom: 
   - dyn365-portal

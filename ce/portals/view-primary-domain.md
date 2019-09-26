@@ -1,5 +1,5 @@
 ---
-title: "View the primary domain name in Dynamics 365 | MicrosoftDocs"
+title: "View the primary domain name | MicrosoftDocs"
 description: "Instructions to view the primary domain name for a portal."
 ms.custom: 
   - dyn365-portal
@@ -22,7 +22,7 @@ search.app:
   - D365Portals
 ---
 
-# View the primary domain name in Dynamics 365
+# View the primary domain name 
 
 When you provision a portal, the domain name is stored in the **Primary Domain Name** field on the website record. If any change is made to the domain name through the Portal Administration Center, the latest domain name is stored in the **Primary Domain Name** field. If you have not created a custom domain name, the vanity domain name is stored in the **Primary Domain Name** field.
 
@@ -37,8 +37,8 @@ Let’s take the following scenarios:
 - **Scenario 1**: If a portal user changes the **Primary Domain Name** field value to yourportal.com, the value of the field will be reverted to myportal.com, which is the primary domain name.
 - **Scenario 2**: If a portal user changes the **Primary Domain Name** field value to contoso.microsoftcrmportals.com, the value of the field will be retained because it is one of the valid domain names.
 
-To view the primary domain name in Dynamics 365:
-1. Sign in to Dynamics 365 Portals.
+To view the primary domain name:
+1. Sign in to Dynamics 365 Portals .
 2. Go to **Portals** > **Website** > **Websites**.
 3. Select the website for which you want to see the primary domain name.
 4. View the name stored in the **Primary Domain Name** field under the **General** section.

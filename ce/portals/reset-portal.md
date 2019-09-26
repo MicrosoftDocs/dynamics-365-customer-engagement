@@ -1,5 +1,5 @@
 ---
-title: "Reset a Dynamics 365 Portals | MicrosoftDocs"
+title: "Reset a Dynamics 365 Portals  | MicrosoftDocs"
 description: "Learn how to reset a portal."
 ms.date: 12/03/2018
 ms.service: crm-online

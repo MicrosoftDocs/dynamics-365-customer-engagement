@@ -142,8 +142,8 @@ The following properties are displayed when the Type selected equals 'Tab'
 
 ### See also
 
-[Configure a Dynamics 365 Portals](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 Portals](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 Portals ](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 Portals ](entity-forms-custom-logic.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Form subgrid configuration for portals](configure-web-form-subgrid.md)  

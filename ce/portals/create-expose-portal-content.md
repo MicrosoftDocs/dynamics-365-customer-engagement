@@ -1,6 +1,6 @@
 ---
-title: "Create and expose portal content easily in Dynamics 365 | MicrosoftDocs"
-description: "Instructions to create and expose portal content by using the administrative wizard in Dynamics 365."
+title: "Create and expose portal content easily | MicrosoftDocs"
+description: "Instructions to create and expose portal content by using the administrative wizard."
 ms.custom: 
   - dyn365-portal
 ms.date: 12/03/2018
@@ -28,7 +28,7 @@ The true potential of a portal connected with Dynamics 365 is achieved when you 
 
 **Web client**
 
-1. Sign in to Dynamics 365 Portals.
+1. Sign in to Dynamics 365 Portals .
 
 2. Go to **Portals** > **Administration** > **Portal Management**. The Portal Management page is displayed.
 
@@ -47,9 +47,9 @@ The true potential of a portal connected with Dynamics 365 is achieved when you 
 
    ![Create portal content using administrative wizard](media/create-portal-content.png "Create portal content by using the administrative wizard")  
 
-**Dynamics 365 Portals app**
+**Dynamics 365 Portals  app**
 
-1.	[Open the Dynamics 365 Portals app](provision-portal.md#open-dynamics-365-portal-app).
+1.	[Open the Dynamics 365 Portals  app](provision-portal.md#open-dynamics-365-portal-app).
 
 2.	Go to **Portals** > **Create Portal Content**. The Create Portal Content window appears.
 
