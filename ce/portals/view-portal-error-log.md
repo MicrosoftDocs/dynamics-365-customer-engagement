@@ -24,7 +24,7 @@ search.app:
 
 # View portal error logs
 
-As a portal administrator or developer, you can use Dynamics 365 Portals  to create a website for your customers. One common task for a developer is to debug issues while developing the portal. To help debug, you can access detailed error logs for any issues on your portal. There are multiple ways that you can get error logs for your portals.
+As a portal administrator or developer, you can use Portals to create a website for your customers. One common task for a developer is to debug issues while developing the portal. To help debug, you can access detailed error logs for any issues on your portal. There are multiple ways that you can get error logs for your portals.
 
 ## Custom error
 
@@ -64,8 +64,8 @@ You can enable custom errors on portals to display a professional-looking page i
 4. Select **Enable** in the confirmation message. While custom errors are being enabled, the portal restarts and will be unavailable. A message appears when custom errors are enabled.
 
 > [!NOTE]
-> - If you change the Dynamics 365 instance that your portal is connected to, the custom errors setting is set to enabled. You must disable the custom errors again, if required.
-> - You must not enable or disable custom errors when the Dynamics 365 instance that your portal is connected to is being changed; otherwise an error message appears.
+> - If you change the instance that your portal is connected to, the custom errors setting is set to enabled. You must disable the custom errors again, if required.
+> - You must not enable or disable custom errors when the instance that your portal is connected to is being changed; otherwise an error message appears.
 
 ### Display a custom error message
 
@@ -90,14 +90,14 @@ This is a custom error, please file a support ticket with screenshot of error by
 ![Custom error message](media/custom-error-message.png "Custom error message")
 
 > [!NOTE]
-> If the portal cannot retrieve a content snippet because it can't connect to Common Data Service or if the snippet is not available in Dynamics 365 Portals, an error message appears.
+> If the portal cannot retrieve a content snippet because it can't connect to Common Data Service or if the snippet is not available in QWE Portals, an error message appears.
 
 ## Access portal error logs
 
 After developing and publishing the portal, you still need to be able to access portal logs to debug issues reported by your customers. To access the logs, you can configure your portal to send all application errors to an Azure Blob storage account that you own. By accessing portal error logs, you can respond to customer queries efficiently because you have details of the issue. To get portal error logs into your Azure Blob storage, you must enable diagnostic logging from the Portal Admin center.
 
 > [!NOTE]
-> If you change the Dynamics 365 instance that your portal is connected to, diagnostic logging is disabled. You must enable diagnostic logging again.
+> If you change the instance that your portal is connected to, diagnostic logging is disabled. You must enable diagnostic logging again.
 
 ### Enable diagnostic logging
 

@@ -34,7 +34,7 @@ To enable content moderation on ideas:
 
 ## Create a content moderation policy
 
-1.	Open the Dynamics 365 Portal app.
+1.	Open the Dynamics 365 Dynamics 365 Portals app.
 
 2.	Go to **Portals** > **Content moderation policies**.
 
@@ -73,9 +73,9 @@ After you have created a moderation policy and assigned it to an idea forum, the
 > [!div class=mx-imgBorder]
 > ![Moderate an idea](media/moderate-idea.png "Moderate an idea")
 
-When a portal user flags an idea on the portal by using a reason, the idea is hidden from the portal and moved to the **Flagged Ideas** view in the Dynamics 365 portal. As an administrator, you can open the Dynamics 365 portal app and decide whether to accept or reject the flagged idea. You can further decide whether to deactivate the idea or keep it active.
+When a portal user flags an idea on the portal by using a reason, the idea is hidden from the portal and moved to the **Flagged Ideas** view in the Dynamics 365 Portals. As an administrator, you can open the Dynamics 365 Dynamics 365 Portals app and decide whether to accept or reject the flagged idea. You can further decide whether to deactivate the idea or keep it active.
 
-1.	Open the Dynamics 365 portal app.
+1.	Open the Dynamics 365 Dynamics 365 Portals app.
 
 2.	Go to **Community** > **Ideas**.
 

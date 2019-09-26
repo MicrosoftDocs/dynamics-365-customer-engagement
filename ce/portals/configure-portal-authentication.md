@@ -21,9 +21,9 @@ search.app:
   - D365CE
   - D365Portals
 ---
-# Configure Dynamics 365 Portals  authentication
+# Configure Portals authentication
 
-In a portal application, an authenticated portal user is associated with either a Dynamics 365 contact or system user. The default portals configuration is contact-based. To log in, a contact must have the appropriate web authentication information configured. Portal users must be assigned to a web roles to gain permissions beyond unauthenticated users. To configure permissions for a web role, configure its webpage access and website access control rules.
+In a portal application, an authenticated portal user is associated with either a contact or system user. The default portals configuration is contact-based. To log in, a contact must have the appropriate web authentication information configured. Portal users must be assigned to a web roles to gain permissions beyond unauthenticated users. To configure permissions for a web role, configure its webpage access and website access control rules.
 
 The latest portal authentication experience allows portal users to sign in with their choice of a local contact membership provider based account or an external account based on [ASP.NET Identity](http://www.asp.net/identity).   
 
@@ -45,6 +45,6 @@ With open registration enabled, users are not required to provide an invitation 
 ### See also
 
 [Set authentication identity for a portal](set-authentication-identity.md)  
-[Define entity forms and custom logic within the Dynamics 365 Portals ](entity-forms-custom-logic.md)<br>
+[Define entity forms and custom logic within the Portals](entity-forms-custom-logic.md)<br>
 [Configure a contact for use on a portal](configure-contacts.md)  
 [Invite contacts to your portals](invite-contacts.md)  

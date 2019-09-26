@@ -23,7 +23,7 @@ search.app:
 ---
 # Configure web form metadata for portals
 
-The Web Form Metadata contains additional behavior modification logic to augment or override the functionality of form fields that is otherwise not possible with Dynamics 365's native entity form editing capabilities.
+The Web Form Metadata contains additional behavior modification logic to augment or override the functionality of form fields that is otherwise not possible with native entity form editing capabilities.
 
 ## Add a new record
 1. On the Web Form Step that has fields that you would like to modify, select the **Metadata** link in the top navigation.
@@ -73,7 +73,7 @@ The following options provide a default value for fields on the form.
 
 |         Name         |                                                                                                                                                                                                                                                                Description                                                                                                                                                                                                                                                                 |
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ignore Default Value |                                                                              Ignores the default value of the specified attribute field. Useful for attributes that are Two Option fields that are rendered as Yes and No radio buttons. Because Dynamics 365 automatically assigns a value of yes or no by default, this option makes it possible to display Yes/No questions without a predefined response.                                                                               |
+| Ignore Default Value |                                                                              Ignores the default value of the specified attribute field. Useful for attributes that are Two Option fields that are rendered as Yes and No radio buttons. Because a value of yes or no is automatically assigned by default, this option makes it possible to display Yes/No questions without a predefined response.                                                                               |
 |         Type         | One of the following:<ul><li>Value</li><li>Today's Date</li><li>Current User's Contact</li></ul>Selecting Value requires a value to be specified in the **Value** field that will be assigned to the field when the form is loaded. Selecting Today's Date will assign the current date and time to the attribute field. Selecting Current User's Contact requires a **From Attribute** that is an attribute on the contact entity that will be retrieved from the current user's contact record and set on the attribute field specified. |
 |        Value         |                                                                                                                                                                                                                                        A value to be assigned to the field when the form is loaded.                                                                                                                                                                                                                                        |
 |    From Attribute    |                                                                                                                                                                                             An attribute on the contact entity that will be retrieved from the current portal user's record and assigned to the field when the form is loaded.                                                                                                                                                                                             |
@@ -142,8 +142,8 @@ The following properties are displayed when the Type selected equals 'Tab'
 
 ### See also
 
-[Configure a Dynamics 365 Portals ](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 Portals ](entity-forms-custom-logic.md)  
+[Configure a Portals](configure-portal.md)  
+[Define entity forms and custom logic within the Portals](entity-forms-custom-logic.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Form subgrid configuration for portals](configure-web-form-subgrid.md)  

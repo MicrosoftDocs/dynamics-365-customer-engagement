@@ -1,10 +1,10 @@
-# [Deliver web engagement experience with Dynamics 365 Portals ](administer-manage-portal-dynamics-365.md)
+# [Deliver web engagement experience with Portals](administer-manage-portal-dynamics-365.md)
 # [What's new](monthly-updates-portals.md)
 # [Provision a portal](provision-portal.md)
 
 # [Administer a portal](manage-portal.md)
 ## [Supported browsers](supported-browsers.md)
-## [Connect with Dynamics 365 online organization](connect-with-dynamics.md)
+## [Connect to an organization using a portal](connect-with-dynamics.md)
 ## [View portal error logs](view-portal-error-log.md)
 ## [Change Dynamics 365 instance](change-dynamics-instance.md)
 ## [Clear the server-side cache](clear-server-side-cache.md)
@@ -12,7 +12,7 @@
 ## [Reset a portal](reset-portal.md)
 ## [Change base URL of a portal](change-base-url.md)
 ## [Upgrade a portal](upgrade-portal.md)
-## [Migrate Dynamics 365 Portals  configuration](migrate-portal-configuration.md)
+## [Migrate Portals configuration](migrate-portal-configuration.md)
 ## [Set up Power BI integration](set-up-power-bi-integration.md)
 ## [Restrict portal access by IP address](ip-address-restrict.md)
 ## [Use portal checker](portal-checker.md)
@@ -57,7 +57,7 @@
 ## [Gather feedback by using polls](gather-feedback-poll.md)
 ## [Create and manage publishing states](publishing-states.md)
 
-# Display data from Dynamics 365 on a portal
+# Display data on a portal
 ## [Create and expose portal content easily](create-expose-portal-content.md)
 ## [Behavior and format of the date and time field](behavior-format-date-time-field.md)
 ## [Add chart on a web page in portal](add-chart.md)
@@ -111,9 +111,9 @@
 ### [Available Liquid tags](liquid-tags.md)
 ####  [Control flow tags](control-flow-tags.md)
 ####  [Iteration tags](iteration-tags.md)
-####  [Variable tags](variable-tags.md)
+####  [Variable tags](variable-tags.md) 
 ####  [Template tags](template-tags.md)
-####  [Dynamics 365 entity tags](dynamics-entity-tags.md)
+####  [PowerApps Common Data Service entity tags](dynamics-entity-tags.md)
 ### [Available Liquid filters](liquid-filters.md)
 ### [Create advanced templates](create-advanced-templates.md)
 #### [Create a custom page template](create-custom-template.md)

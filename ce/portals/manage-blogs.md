@@ -23,15 +23,15 @@ search.app:
 ---
 # Manage blogs
 
-Learn how to manage blog comments and blog posts both within Dynamics 365 Portals and from the portal content editor.
+Learn how to manage blog comments and blog posts both within Portalsand from the portal content editor.
 
-## Manage blogs in Dynamics 365 Portals
+## Manage blogs in QWE Portals
 
 Users can manage Blog records under the **Portals** tab after your portal customizations have been imported into your Common Data Service organization.
 
 ## Manage blogs from the portal content editor
 
-Portal users who have blog author permissions can edit or delete blogs by using the portal inline editing interface. If your portal contact has been assigned the necessary permissions, the inline editing interface will appear automatically when you sign in to the portal. Note that although a blog can be edited or deleted through the portal content editing interface, it must be created and initially configured in Dynamics 365 Portals.
+Portal users who have blog author permissions can edit or delete blogs by using the portal inline editing interface. If your portal contact has been assigned the necessary permissions, the inline editing interface will appear automatically when you sign in to the portal. Note that although a blog can be edited or deleted through the portal content editing interface, it must be created and initially configured in QWE Portals.
 
 To edit a blog, go to the blog's home page, and then select **Edit** on the edit toolbar.
 
@@ -73,9 +73,9 @@ It is important to note that the way in which many of the content/display-orient
 |   Author Roles   |                                                                                                                               Relationship specifying the Web Roles that grant authorship permission on the blog. Any portal users associated with any of these roles will be granted the permission to create new posts, edit and delete their own posts, and edit the attributes and settings of the blog itself.                                                                                                                               |
 |                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
-## Manage blog posts in Dynamics 365 Portals
+## Manage blog posts in QWE Portals
 
-For Dynamics 365 users, Blog Posts can be managed by launching the editor for the desired Blog and then navigating to its related Blog Posts.
+For users, Blog Posts can be managed by launching the editor for the desired Blog and then navigating to its related Blog Posts.
 
 ## Manage blogs posts from the portal content editor
 

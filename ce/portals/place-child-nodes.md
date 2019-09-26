@@ -27,9 +27,9 @@ Use shortcuts to place child nodes throughout your portal's sitemap that simply 
 
 ## Manage shortcuts
 
-Creating, editing, and deleting shortcuts can be done within Dynamics 365 Portals.
+Creating, editing, and deleting shortcuts can be done within QWE Portals.
 
-1. Sign in to **Dynamics 365 Portals **. 
+1. Sign in to **Portals**. 
 2. Go to **Portals** &gt; **Shortcuts**. 
 3. To create a shortcut: Select **New**. 
 4. To edit an existing Shortcut: Double-click to select the existing **Shortcut** listed in the grid. 
@@ -67,8 +67,8 @@ After the shortcut entity has been created, it will appear in your website. In t
 
 ### See also
 
-[Configure a Dynamics 365 Portals ](configure-portal.md)  
+[Configure a Portals](configure-portal.md)  
 [Configure site settings for portals](configure-site-settings.md)  
-[Configure Dynamics 365 Portals  authentication](configure-portal-authentication.md)  
-[Define entity forms and custom logic within the Dynamics 365 Portals ](entity-forms-custom-logic.md)  
+[Configure Portals authentication](configure-portal-authentication.md)  
+[Define entity forms and custom logic within the Portals](entity-forms-custom-logic.md)  
 [Manage web links](manage-web-links.md)  

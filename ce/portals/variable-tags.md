@@ -81,4 +81,4 @@ Hello, DAVE BOWMAN.
 [Control flow tags](control-flow-tags.md)<br>
 [Iteration tags](iteration-tags.md)<br>
 [Template tags](template-tags.md)<br>
-[Dynamics 365 entity tags](dynamics-entity-tags.md)
+[PowerApps Common Data Service entity tags entity tags](dynamics-entity-tags.md)

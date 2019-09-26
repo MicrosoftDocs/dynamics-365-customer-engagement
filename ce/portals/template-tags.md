@@ -28,7 +28,7 @@ Template tags control the output of a template in various ways, and allow the co
 
 ## include
 
-Includes the contents of one template in another, by name. In Dynamics 365 Portals , the source of this other template will generally be a [web template](store-content-web-templates.md). This allows for the reuse of common template fragments in multiple places.  
+Includes the contents of one template in another, by name. In Portals, the source of this other template will generally be a [web template](store-content-web-templates.md). This allows for the reuse of common template fragments in multiple places.  
 
 When a template is included in another, the included template will have access to any variables defined in the parent template.
 
@@ -46,7 +46,7 @@ Used in conjunction with extends to provide template inheritance. See extends fo
 
 Used in conjunction with the block tag, provides template inheritance. This allows multiple templates to use a shared layout, while overriding specific areas of the parent layout.
 
-In Dynamics 365 Portals , the parent template name provided to the tag will generally refer to the name of a [web template](store-content-web-templates.md).  
+In Portals, the parent template name provided to the tag will generally refer to the name of a [web template](store-content-web-templates.md).  
 
 When extends is used, it must be the first content in the template, and can only be followed by one or more block tags.
 
@@ -77,4 +77,4 @@ Allows output of Liquid code on a page without having it parsed and executed.
 [Control flow tags](control-flow-tags.md)<br>
 [Iteration tags](iteration-tags.md)<br>
 [Variable tags](variable-tags.md)<br>
-[Dynamics 365 entity tags](dynamics-entity-tags.md)
+[PowerApps Common Data Service entity tags entity tags](dynamics-entity-tags.md)

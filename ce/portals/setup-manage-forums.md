@@ -25,11 +25,11 @@ search.app:
 
 A forum is an online discussion that allows users to hold conversations in the form of posted messages. A discussion forum is hierarchical or tree-like in structure: a forum can contain a number of topics, also known as threads, and can be replied to by many users.
 
-## Manage forums in Dynamics 365 Portals
+## Manage forums in QWE Portals
 
-Forums can be created, edited and deleted within Dynamics 365 Portals.
+Forums can be created, edited and deleted within QWE Portals.
 
-1. Sign in to Dynamics 365 Portals .
+1. Sign in to Portals.
 
 2. Go to **Community** > **Forums**.
 

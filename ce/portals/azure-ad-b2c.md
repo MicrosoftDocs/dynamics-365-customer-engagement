@@ -1,5 +1,5 @@
 ---
-title: "Azure AD B2C provider settings for Dynamics 365 Portals  | MicrosoftDocs"
+title: "Azure AD B2C provider settings for Portals | MicrosoftDocs"
 description: "Instructions to enable Azure AD B2C provider settings for portals."
 ms.custom: 
   - dyn365-portal
@@ -38,7 +38,7 @@ In the process of configuring [!include[Azure](../includes/pn-azure-shortest.md)
 | Federation-Name   |       | A unique name to identify the type of federation provider such as 'B2C'. This will be used in Site Setting names to group configuration settings for this specific provider.                                                                      |
 | | | |
 
-### Use [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider for your portal
+### Use Azure AD B2C as an identity provider for your portal
 
 1. Sign in to your [Azure portal](https://portal.azure.com/).
 2. [Create an Azure AD B2C tenant](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-get-started).
@@ -63,7 +63,7 @@ In the process of configuring [!include[Azure](../includes/pn-azure-shortest.md)
 After creating and configuring the B2C tenant in [!include[Azure](../includes/pn-azure-shortest.md)], you must configure your portal to federate with [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C by using the Open ID Connect protocol. You must create a unique name for your federation to [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C&mdash;for example, B2C&mdash;and store it as the value of the *Federation-Name* variable in the above table.
 
 ### Configure your portal
-1. Sign in to Dynamics 365 Portals .
+1. Sign in to Portals.
 2. Go to **Portals** > **Websites**.
 3. Select the website record for which [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C needs to be enabled.
 4. Go to **Site Settings**.
@@ -135,7 +135,7 @@ If registration is disabled for a user after the user has redeemed an invitation
 [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C supports user interface customization. You can customize the user experience for sign-up and sign-in scenarios.
 
 ### Step 1: Create a web template
-Sign in to Dynamics 365 Portals  and create a web template by using the following values:
+Sign in to Portals and create a web template by using the following values:
 
 **Name**: [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Custom Page
 
@@ -446,7 +446,7 @@ Sign in to Dynamics 365 Portals  and create a web template by using the followin
 ```
 ### Step 2: Create a page template
 
-Sign in to Dynamics 365 Portals  and create the following page template:
+Sign in to Portals and create the following page template:
 - **Name**: [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Custom Page
 - **Type**: Web Template
 - **Web Template**: [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Custom Page
@@ -454,7 +454,7 @@ Sign in to Dynamics 365 Portals  and create the following page template:
 
 ### Step 3: Create a webpage
 
-Sign in to Dynamics 365 Portals  and create the following webpage:
+Sign in to Portals and create the following webpage:
 - **Name**: Sign-in
 - **Parent** Page: Home
 - **Partial Url**: azure-ad-b2c-sign-in
@@ -463,7 +463,7 @@ Sign in to Dynamics 365 Portals  and create the following webpage:
 
 ### Step 4: Create site settings
 
-Site settings are required to configure cross-origin resource sharing (CORS) to allow [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C to request the custom page and inject the sign-in or sign-up user interface. Sign in to Dynamics 365 Portals  and create the following site settings.
+Site settings are required to configure cross-origin resource sharing (CORS) to allow [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C to request the custom page and inject the sign-in or sign-up user interface. Sign in to Portals and create the following site settings.
 
 | Name                              | Value                             |
 |-----------------------------------|-----------------------------------|

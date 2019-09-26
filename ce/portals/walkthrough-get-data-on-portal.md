@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough: Get Dynamics 365 data on the portal | MicrosoftDocs"
-description: "Step-by-step instructions with examples to get your Dynamics 365 data on the portal."
+title: "Walkthrough: Get data from model-driven apps in Dynamics 365 on the portal | MicrosoftDocs"
+description: "Step-by-step instructions with examples to get your data from model-driven apps in Dynamics 365 on the portal."
 ms.custom: 
   - dyn365-portal
 ms.date: 12/03/2018
@@ -21,14 +21,14 @@ search.app:
   - D365CE
   - D365Portals
 ---
-# Get Dynamics 365 data on the portal
+# Get data from model-driven apps in Dynamics 365 on the portal
 
-One of the most distinguishing features surrounding the Dynamics 365 Portals  2016 Update 1 is the ability to render&mdash;and allow the manipulation of&mdash;Dynamics 365 data on an internally facing or externally facing portal website. In this section, we will profile the entities that provide the foundation of this functionality and discuss the steps necessary to achieve it.
+One of the most distinguishing features surrounding the Portals 2016 Update 1 is the ability to render&mdash;and allow the manipulation of&mdash; data on an internally facing or externally facing portal website. In this section, we will profile the entities that provide the foundation of this functionality and discuss the steps necessary to achieve it.
 
 ## Entity forms
-An entity form record allows an administrator to render a Dynamics 365 form on a portal to edit, display, or capture a customizable set of data from its users. This is a relatively easy and straightforward process, and it eliminates the need for any code customizations that would have otherwise been required to achieve such a result before deploying a portal.
+An entity form record allows an administrator to render a PowerApps form on a portal to edit, display, or capture a customizable set of data from its users. This is a relatively easy and straightforward process, and it eliminates the need for any code customizations that would have otherwise been required to achieve such a result before deploying a portal.
 
-This functionality can be taken advantage of for many reasons and use cases, but a common example of how this can be leveraged would be to build a new form under the Lead entity within the Dynamics 365 **Customize the System** interface, then create an entity form record that can be surfaced on the portal to capture lead data through a contact page or some type of information request page. In fact, this specific example is used for the default **Contact Us** page within the portals available in the December 2016 Update for Dynamics 365 (online) release. Other examples include using an entity form for profile management or a single page survey.
+This functionality can be taken advantage of for many reasons and use cases, but a common example of how this can be leveraged would be to build a new form under the Lead entity within the **Customize the System** interface, then create an entity form record that can be surfaced on the portal to capture lead data through a contact page or some type of information request page. In fact, this specific example is used for the default **Contact Us** page within the portals available in the December 2016 Update. Other examples include using an entity form for profile management or a single page survey.
 
 ![Contact Us Web Form on the left, and its rendering in the portal on the right side.](media/contact-us-web-form.png "A Contact Us web form next to its rendering in the portal")
 
@@ -38,7 +38,7 @@ When you create a new entity form, the first step is to decide which entity and 
 
 For this demonstration, let’s consider a scenario in which Contoso, Inc. would like to create a custom entity in PowerApps linked to a form rendered on their Customer Self-Service Portal that will allow users to submit suggestions for improvement that they would like to see the company introduce. The steps that the administrator at Contoso, Inc. would take to achieve this include the following:
 
-1. In Dynamics 365 Portals, create the custom entity through **Settings** > **Customizations** > **Customize the System** > **Entities**.  In this example, we’ll call the entity “Suggestion.” Set the entity to appear in the **Portals** navigation area, then save it.
+1. In QWE Portals, create the custom entity through **Settings** > **Customizations** > **Customize the System** > **Entities**.  In this example, we’ll call the entity “Suggestion.” Set the entity to appear in the **Portals** navigation area, then save it.
 
 2. Create two custom fields underneath the Suggestion entity that pertain to the information that should be captured on the form.  In this example, we’ll create **SuggestionOrigin** (Option Set) and **SuggestionSummary** (Multiple Lines of Text) fields.  Both fields will be set to **Business Required**.
 
@@ -73,14 +73,15 @@ Entity form metadata records contain additional behavior modification logic to a
 
 These records allow for additional configuration and manipulation of specific elements on the form, including fields, subgrids, or entire sections or tabs. Each element of the form that requires some type of modification requires a separate metadata record, which in turn is associated with the entity form record.
 
-To add metadata records to an entity form, you can go to the **Entity Form Metadata Associated View** from the Dynamics 365 navigation menu, or you can create these records directly from the entity form itself by using the Entity Form Metadata subgrid toward the bottom of the record’s form.
+To add metadata records to an entity form, you can go to the **Entity Form Metadata Associated View** from the navigation menu, or you can create these records directly from the entity form itself by using the Entity Form Metadata subgrid toward the bottom of the record’s form.
 
 ![Entity Form Metadata](media/entity-form-metadata.png "Entity Form Metadata")
 
 Entity form metadata records can be used for a variety of scenarios, including controlling the style of a field, prepopulating a field with a specific value, setting values on the form upon save, validating user-entered values, and more.
 
 ## Entity lists
-While an Entity Form record allows a portal administrator to expose a Dynamics 365 form to portal users, entity lists provide administrators with the ability to add a webpage to their portal that will render a list of Dynamics 365 records without the need for a developer to surface the view on the portal by using custom code.
+
+While an Entity form record allows a portal administrator to expose a PowerApps form to portal users, entity lists provide administrators with the ability to add a webpage to their portal that will render a list of records without the need for a developer to surface the view on the portal by using custom code.
 
 Entity lists support sorting and filtering and will be paginated if the number of records is larger than the **Page Size** value specified on the Entity List record. If a **Web Page for Details View** has also been specified, each record will contain a link to the page and the ID of the record will be appended to the query string along with the ID Query String Parameter Name.
 
@@ -88,7 +89,7 @@ Entity lists also support multiple views and actions. If more than one view has 
 
 Building on the previous example of the administrator of Contoso, Inc. creating an entity form to collect user suggestions, we will now cover the steps that the administrator would take to (very simplistically) expose the submitted records on the portal for other users to review and for easy access for submitting new ones:
 
-1. In Dynamics 365 Portals, go to **Settings** > **Customizations** > **Customize the System** > **Entities** > **Suggestions** > **Views** and edit the **Active Suggestions** view.  Add the columns that should be exposed on the portal to this view.
+1. In QWE Portals, go to **Settings** > **Customizations** > **Customize the System** > **Entities** > **Suggestions** > **Views** and edit the **Active Suggestions** view.  Add the columns that should be exposed on the portal to this view.
 
 2. Go to **Portals** > **Entity Lists** and create a new Entity List record.  
    1. Enter a name of **Suggestions List**, set its **Entity Name** to **Suggestion (new_suggestion)**. 
@@ -114,7 +115,7 @@ Beyond the simplistic setup that was discussed earlier, Entity Lists support man
 
 Web Forms allow users to define entity forms and custom logic to render data entry forms on a portal without the need for custom code. Web forms support single-step and multiple-step navigation, in addition to branching logic. Web forms are commonly used to produce surveys, such as the out-of-the-box “Case Satisfaction Survey” web forms, or to facilitate requests, such as the out-of-the-box “Open New Support Request” web form.
 
-Web forms differ from entity forms in that they provide the ability for an administrator to specify one or more forms that are to be loaded to produce a single form or a wizard-style, multiple-step process with conditional branching logic. Web forms also have additional properties that can be specified to override some of the default behaviors and overcome some Dynamics 365 entity metadata and form designer limitations.
+Web forms differ from entity forms in that they provide the ability for an administrator to specify one or more forms that are to be loaded to produce a single form or a wizard-style, multiple-step process with conditional branching logic. Web forms also have additional properties that can be specified to override some of the default behaviors and overcome some entity metadata and form designer limitations.
 
 The best way to fully grasp how a web form is used within a portal is to provide an example of a use case scenario, and then go through the process of constructing the form and all its underlying parts. Earlier in this document, we went through the process of creating a custom entity form for users to submit suggestions and a custom entity list to expose these suggestions within a view on the portal. Let’s now assume that Contoso wants to survey its users on which of the submitted suggestions they would prefer to be implemented, and other information about their user base at the same time. The steps that the administrator would take to set up such a survey on the portal would be as follows:
 
@@ -201,7 +202,7 @@ The best way to fully grasp how a web form is used within a portal is to provide
 
 21. Go to **Portals** > **Web Pages** and create a new Web Page named **Contoso Ltd. Survey**.  Set the **Website** to **Contoso Ltd.”**, the **Parent Page** to **Home**, the **Partial URL** to **contoso-ltd-survey**, the **PageTemplate** to **Full Page**, the **Publishing State** to **Published**, and the Web Form to the “Contoso Ltd. Survey” that was created earlier.  Save the record.
 
-Granted, these steps are very complex and require several Dynamics 365 records to work in tandem with one another to achieve the result. However, after the process is complete, users can navigate to the page that you’ve created on the portal and fill out the survey as intended.
+Granted, these steps are very complex and require several records to work in tandem with one another to achieve the result. However, after the process is complete, users can navigate to the page that you’ve created on the portal and fill out the survey as intended.
 
 ![First step in the survey form rendered on a portal..](media/survey-step-1-form-rendered.png "First step in the survey form rendered on a portal.")
 
@@ -211,14 +212,14 @@ Each completed survey that is submitted will become a record within the **Portal
 
 ## Form elements rendering
 
-Although most Dynamics 365 forms can be successfully rendered in a portal, note that some features aren't supported by the Dynamics 365 EntityFormView control that handles the actual rendering of the entity form.
+Although most forms can be successfully rendered in a portal, note that some features aren't supported by the EntityFormView control that handles the actual rendering of the entity form.
 
 
 |                                 Supported form elements                                 |                                Supported, but with caveats form elements                                 |                         Unsupported form elements                          |
 |-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| All Dynamics 365 field validation rules  |  All Dynamics 365 field types, except Party List fields   |         Form headers and footers won't be displayed in the portal          |
+| All field validation rules  |  All field types, except Party List fields   |         Form headers and footers won't be displayed in the portal          |
 |                          Both single and multi-column layouts                           |                 Only “Webpage (HTML)” and image-related Web Resource types are supported                 |                                  iFrames                                   |
-| Dynamics 365 label language translations |             Record filtering in a lookup field is supported, but only for N:1 relationships              | Dynamics 365 form scripting |
+| Label language translations |             Record filtering in a lookup field is supported, but only for N:1 relationships              | Form scripting |
 |                              Notes (inserted on the form)                               | Lookup fields are supported, but creating a new record through a lookup view on the form isn't supported |                                                                            |
 |                            Sub-Grids (inserted on the form)                             |                                                                                                          |                                                                            |
 

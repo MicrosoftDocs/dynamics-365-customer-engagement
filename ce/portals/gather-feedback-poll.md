@@ -24,7 +24,7 @@ search.app:
 # Gather feedback by using polls on a portal
 Polls give your web audiences a quick and easy way to voice their opinion on specific topics, and then immediately and automatically see feedback from their vote.
 
-Use the polls capability of Dynamics 365 Portals  to ask your audience about topics of interest and let them give single answers or multiple-choice responses. Either way, their responses are instantly stored and associated with the applicable Contact record for immediate review or aggregate reporting. You can use polls as simple market research tools and, if you refresh or rotate the polls dynamically, you'll keep your website looking current and topical.
+Use the polls capability of Portals to ask your audience about topics of interest and let them give single answers or multiple-choice responses. Either way, their responses are instantly stored and associated with the applicable Contact record for immediate review or aggregate reporting. You can use polls as simple market research tools and, if you refresh or rotate the polls dynamically, you'll keep your website looking current and topical.
 
 Polls can be placed on the portal by using the PollPlacement control. This control works similarly to the AdPlacement control. If there are any polls associated with the Poll Placement entity that is being rendered by the PollPlacement control, those polls will be rendered. If there is more than one poll for a given placement, the placement will randomly present one of the specified polls.
 
@@ -127,7 +127,7 @@ The details of the poll voting results are stored in Common Data Service as Poll
 
 ### See also
 
-[Configure a Dynamics 365 Portals ](configure-portal.md)  
+[Configure a Portals](configure-portal.md)  
 [Add a webpage to render a list of records](add-webpage-render-list-records.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Rate or vote on a webpage or blog post on a portal](rate-webpage-blog-post.md)  

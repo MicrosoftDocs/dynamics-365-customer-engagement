@@ -24,11 +24,11 @@ search.app:
 
 # Create and expose portal content easily
 
-The true potential of a portal connected with Dynamics 365 is achieved when you can take data from Dynamics 365 and make it available on your portal to the right audience, based on user access. To create a webpage by using entity forms and entity lists is a complex task. A new administrative wizard helps simplify this process. You can use this wizard to create and expose portal content easily by filling in the minimum required fields.
+The true potential of a portal connected with Common Data Service is achieved when you can take data from Common Data Service and make it available on your portal to the right audience, based on user access. To create a webpage by using entity forms and entity lists is a complex task. A new administrative wizard helps simplify this process. You can use this wizard to create and expose portal content easily by filling in the minimum required fields.
 
 **Web client**
 
-1. Sign in to Dynamics 365 Portals .
+1. Sign in to Portals.
 
 2. Go to **Portals** > **Administration** > **Portal Management**. The Portal Management page is displayed.
 
@@ -47,9 +47,9 @@ The true potential of a portal connected with Dynamics 365 is achieved when you 
 
    ![Create portal content using administrative wizard](media/create-portal-content.png "Create portal content by using the administrative wizard")  
 
-**Dynamics 365 Portals  app**
+**Dynamics 365 Portals app**
 
-1.	[Open the Dynamics 365 Portals  app](provision-portal.md#open-dynamics-365-portal-app).
+1.	[Open the Dynamics 365 Portals app](provision-portal.md#open-dynamics-365-portal-app).
 
 2.	Go to **Portals** > **Create Portal Content**. The Create Portal Content window appears.
 

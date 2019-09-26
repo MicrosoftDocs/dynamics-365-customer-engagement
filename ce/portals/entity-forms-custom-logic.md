@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - D365Portals
 ---
-# Define entity forms and custom logic within the Dynamics 365 Portals 
+# Define entity forms and custom logic within the Portals
 
 A data-driven configuration to allow end users to add a form to collect data in the portal without the need for a developer to surface the form in the portal, entity forms are created in Common Data service and then placed into webpages in the portal or used in conjunction with subgrids and entity lists to build out complete web applications. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add a webpage to render a list of records](add-webpage-render-list-records.md) 
 
@@ -47,7 +47,7 @@ The webpages associated with the entity form can be viewed by selecting the **We
 
 When creating or editing a webpage, an **Entity Form** can be specified in the lookup field provided on the Web Page form.
 
-The various master pages used by the portal found in the Dynamics 365 Portals  installation directory contain declarations of the **EntityForm** server control. When rendering the webpage containing either the Page (~/Pages/Page.aspx) page template or Full Page (~/Pages/FullPage.aspx) page template, the controls will determine whether the entity form lookup contains a value, in which case the form will be rendered.
+The various master pages used by the portal found in the Portals installation directory contain declarations of the **EntityForm** server control. When rendering the webpage containing either the Page (~/Pages/Page.aspx) page template or Full Page (~/Pages/FullPage.aspx) page template, the controls will determine whether the entity form lookup contains a value, in which case the form will be rendered.
 
 ## Secure your forms
 
@@ -79,7 +79,7 @@ To secure your forms, you must create entity permissions that determine access a
 |Auto Generate Steps From Tabs|	Indicates that multiple tabs on an entity form will be displayed with each tab as a sequential step starting with the first tab and continue until all tabs have been navigated to and upon final submission a record is inserted. By default, it is not selected. The default value indicates that only one tab or form is to be rendered for the current step. If the Tab Name is not specified, then the first tab is displayed.|
 |Render Web Resources Inline|	Eliminates the iframe that encompasses a web resource in an entity form.|
 |ToolTips Enabled|	The tooltip is set using the description of the attribute on the target entity.|
-|Show Unsupported Fields|	All fields are currently supported. This is reserved for potential changes Dynamics 365 may make to field types.|
+|Show Unsupported Fields|	All fields are currently supported. This is reserved for potential changes Common Data Service may make to field types.|
 |Set Recommended Fields as Required| 	Makes all attributes required that have the field requirement level set to 'Business Recommended'.|
 |Make All Fields Required| 	Makes all fields required regardless of the field requirement level.|
 |Validation Summary CSS Class|	CSS Class name assigned to the validation summary. Default is 'validation-summary alert alert-error alert-block'|
@@ -196,7 +196,7 @@ The form's map control requires additional configuration to tell it what the IDs
 
 ### See also
 
-[Configure a Dynamics 365 Portals ](configure-portal.md)  
+[Configure a Portals](configure-portal.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  

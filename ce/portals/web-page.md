@@ -1,5 +1,5 @@
 ---
-title: "Create and manage web pages in Dynamics 365 Portals  | MicrosoftDocs"
+title: "Create and manage web pages in Portals | MicrosoftDocs"
 description: "Learn how to create and manage web pages in a portal."
 ms.date: 12/03/2018
 ms.service: crm-online
@@ -27,11 +27,11 @@ A web page represents a particular URL in a portals website, and is one of the c
 
 Web pages also form the basis for including other, specialized entity types in the portal site map – web files, shortcuts, forums, web forms, and blogs are all situated in the portal site map through – and thus derive their URLs from – a relationship to a parent web page.
 
-## Manage web pages in Dynamics 365 Portals
+## Manage web pages in QWE Portals
 
-Web pages can be created, edited, and deleted within Dynamics 365 Portals.
+Web pages can be created, edited, and deleted within QWE Portals.
 
-1. Sign in to Dynamics 365 Portals .
+1. Sign in to Portals.
 
 2. Go to **Portals** > **Web Pages**.
 
@@ -58,7 +58,7 @@ For portal users with content management permissions, pages can be managed using
 5. Select **Save**.
 
 > [!NOTE]
-> When a web page is deleted through the portal front-side editing interface, its record is not deleted permanently from Dynamics 365. Instead, it is moved to the Inactive state. It will cease to be visible on the portal, but can be viewed or reactivated by a Dynamics 365 user.
+> When a web page is deleted through the portal front-side editing interface, its record is not deleted permanently from Common Data Service. Instead, it is moved to the Inactive state. It will cease to be visible on the portal, but can be viewed or reactivated by a user.
 
 ### Web page attributes
 
@@ -77,7 +77,7 @@ The table below explains many of the standard web page attributes used by portal
 |    Release Date     |                                                                                                             Controls a date/time after which the page will be visible on the portal. If the current date/time is prior to this date, this page will not be visible. (The exception to this is that users with content management permissions may be granted the ability to use Preview Mode, which allows these users to see (preview) unreleased content.) This is useful for controlling the release of time-sensitive content, like news or press releases.                                                                                                              |
 |   Expiration Date   |                                                                                                                                                                Controls a date/time prior to which the page will be visible on the portal. If the current date/time is after this date, this page will not be visible. (The exception to this is that users with content management permissions may be granted the ability to use Preview Mode, which allows these users to see (preview) expired content.)                                                                                                                                                                 |
 |      Web Form       |                                                                                                                                                                                                                                                                                                                   The Web Form to be displayed on this page.                                                                                                                                                                                                                                                                                                                    |
-|        Title        |                                                                                                                                                                   An optional title for the page. If this field is provided, this value will be used on the portal, instead of the Name field. This is useful in the case that you want a different title to appear on the portal, while having the Name be useful for content authors and Dynamics 365 users.                                                                                                                                                                   |
+|        Title        |                                                                                                                                                                   An optional title for the page. If this field is provided, this value will be used on the portal, instead of the Name field. This is useful in the case that you want a different title to appear on the portal, while having the Name be useful for content authors and users.                                                                                                                                                                   |
 |       Summary       |                                                                                                                                                                                                                                                      A short description for the page, this value will generally be used to add a description of the page to portal navigational elements that render a link to the page.                                                                                                                                                                                                                                                       |
 |        Copy         |                                                                                                                                                                                                                                                                                                                    The main HTML content field of the page.                                                                                                                                                                                                                                                                                                                     |
 | Hidden from Sitemap |                                                                                                                                                                                                        Controls whether or not the page is visible has part of the portal site map. If this value is checked, the page will still be available on the site at its URL, and can be linked to, but standard navigational elements (menus, etc.) will not include the page.                                                                                                                                                                                                        |
@@ -91,7 +91,7 @@ The table below explains many of the standard web page attributes used by portal
 
 Page comments provides users with the ability to view and post comments on a web page. By default this feature is disabled and can be enabled on a page by page basis.
 
-1. Sign in to Dynamics 365 Portals .
+1. Sign in to Portals.
 
 2. Go to **Portals** > **Web Pages**.
 

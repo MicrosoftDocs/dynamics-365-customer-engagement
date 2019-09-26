@@ -23,7 +23,7 @@ search.app:
 ---
 # Add a webpage to render a list of records
 
-An entity list is a data-driven configuration that you use to add a webpage that will render a list of records without the need for a developer to surface the grid in the portal. By using entity lists, you can expose Dynamics 365 records for display on portals.
+An entity list is a data-driven configuration that you use to add a webpage that will render a list of records without the need for a developer to surface the grid in the portal. By using entity lists, you can expose records for display on portals.
 
 The grid supports sorting and will be paginated if the number of records is larger than the page size specified. If **Web Page for Details View** has been specified, each record will contain a link to the page, and the ID of the record will be appended to the query string along with the ID Query String Parameter Name. The entity list also supports multiple views. If more than one view has been specified, a drop-down list will be rendered to allow the user to switch between the various views.
 
@@ -475,7 +475,7 @@ The Dynamic Lookup Set uses the following options:
 
 **FetchXML filter**
 
-The range filter can create either a simple text box filter like the Text filter or a set of options like the other filter types. It allows you to manually create virtually any type of filter for the entity list by using FetchXML, the query language used by Dynamics 365.
+The range filter can create either a simple text box filter like the Text filter or a set of options like the other filter types. It allows you to manually create virtually any type of filter for the entity list by using FetchXML.
 
 ![FetchXML filter settings](media/set-fetchxml-filter.png "FetchXML filter settings")
 
@@ -511,7 +511,7 @@ You can use Entity Permissions if you want to secure records, but if you want to
 
 ### See also
 
-[Configure a Dynamics 365 Portals ](configure-portal.md)  
+[Configure a Portals](configure-portal.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Gather feedback by using polls on a portal](gather-feedback-poll.md)  
 [Rate or vote on a webpage or blog post on a portal](rate-webpage-blog-post.md)  

@@ -1,6 +1,6 @@
 ---
-title: "Create and manage website bindings in Dynamics 365 Portals  | MicrosoftDocs"
-description: "Learn how to create and manage website bindings in Dynamics 365 Portals ."
+title: "Create and manage website bindings in Portals | MicrosoftDocs"
+description: "Learn how to create and manage website bindings in Portals."
 ms.custom: 
   - dyn365-portal
 ms.date: 12/03/2018
@@ -28,9 +28,9 @@ In a portal, the default method of selecting a website is finding a website by m
 
 ## Manage website bindings
 
-Website bindings can be created, edited, and deleted within Dynamics 365 Portals. 
+Website bindings can be created, edited, and deleted within QWE Portals. 
 
-1. Sign in to Dynamics 365 Portals .
+1. Sign in to Portals.
 
 2. Go to **Portals** > **Website Bindings**.
 

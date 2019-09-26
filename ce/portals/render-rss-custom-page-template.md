@@ -32,7 +32,7 @@ First, we'll create a new model-driven app that we'll use to load the data for o
 
 ## Step 2: Create a web template for RSS feed
 
-In this step, we'll create a web template for our RSS feed. This template will be applied to a particular webpage in our website, so we'll use the title and summary of that page as the title and description of the feed. The we'll use the entityview tag to load our newly-created News Articles view. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Dynamics 365 entity tags](dynamics-entity-tags.md). Note that we also set the **MIME Type** field of the Web Template to application/rss+xml. This indicates what the response content type could be when our template is rendered.  
+In this step, we'll create a web template for our RSS feed. This template will be applied to a particular webpage in our website, so we'll use the title and summary of that page as the title and description of the feed. The we'll use the entityview tag to load our newly-created News Articles view. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [PowerApps Common Data Service entity tags entity tags](dynamics-entity-tags.md). Note that we also set the **MIME Type** field of the Web Template to application/rss+xml. This indicates what the response content type could be when our template is rendered.  
 
 ![Configure a web template for an RSS feed](media/web-template-rss-feed.png "Configure a web template for an RSS feed")  
 
@@ -68,7 +68,7 @@ Now, we'll create a new page template, allowing us to assign our RSS feed templa
 
 ## Step 4: Create a web page to host RSS feed
 
-Now all that's left is to create a new web page to host our feed, giving it a title and summary, and assigning it our RSS Feed template. We can do this in Dynamics 365 Portals or by using the portal content editing features:
+Now all that's left is to create a new web page to host our feed, giving it a title and summary, and assigning it our RSS Feed template. We can do this in Portalsor by using the portal content editing features:
 
 ![Add a new child page](media/add-new-child-page.png "Add a new child page")  
 

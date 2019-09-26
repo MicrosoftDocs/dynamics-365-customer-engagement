@@ -1,12 +1,10 @@
 ---
-title: "Use Dynamics 365 tags for a portal | MicrosoftDocs"
-description: "Learn about Dynamics 365 tags available in portal"
-keywords: "Dynamics 365 tags; liquid tags"
+title: "Use PowerApps Common Data Service entity tags tags for a portal | MicrosoftDocs"
+description: "Learn about PowerApps Common Data Service entity tags tags available in portal"
+keywords: "PowerApps Common Data Service entity tags tags; liquid tags"
 ms.date: 04/26/2019
 ms.service: crm-online
-ms.topic: article
- 
-  
+ms.topic: article  
 ms.assetid: 2D37443F-6DF7-440C-8E7E-5197546B1C92
 author: sbmjais
 ms.author: shjais
@@ -22,13 +20,13 @@ search.app:
   - D365Portals
 ---
 
-# Dynamics 365 entity tags
+# PowerApps Common Data Service entity tags entity tags
 
-Dynamics 365 entity tags are used to load and display Dynamics 365 data, or use other Dynamics 365 Portals  framework services. These tags are Dynamics 365-specific extensions to the Liquid language.
+PowerApps entity tags are used to load and display PowerApps data, or use other PowerApps Portals framework services. These tags are PowerApps-specific extensions to the Liquid language.
 
 ## chart
 
-Adds a Dynamics 365 chart to a web page. The chart tag can be added in the Copy field on a Web Page or in the Source field on a Web Template. For steps to add a Dynamics 365 chart to a web page, see [Add a Dynamics 365 chart to a web page in portal](add-chart.md).
+Adds a chart created in a model-driven app to a webpage in portal. The chart tag can be added in the Copy field on a Web Page or in the Source field on a Web Template. For steps to add a chart to a web page, see [Add a chart created in a model-driven app to a webpage in portal](add-chart.md).
 
 ```
 {% chart id:"EE3C733D-5693-DE11-97D4-00155DA3B01E" viewid:"00000000-0000-0000-00AA-000010001006" %}
@@ -75,7 +73,7 @@ Type of authentication required for the Power BI report or dashboard. Valid valu
 
 - **powerbiembedded**: Allows you to share the secure Power BI reports or dashboards to external users who doesn't have Power BI license or Azure Active Directory authentication setup. For information on Power BI Embedded service setup, see [Enable Power BI Embedded service](set-up-power-bi-integration.md#enable-power-bi-embedded-service). 
 
-While adding the secure Power BI report or dashboard, ensure that it is shared with Dynamics 365 Portals  Azure Active Directory or Power BI Embedded services. 
+While adding the secure Power BI report or dashboard, ensure that it is shared with Portals Azure Active Directory or Power BI Embedded services. 
 
 > [!NOTE]
 > The values for the `authentication_type` parameter are case insensitive.
@@ -145,7 +143,7 @@ If you've assigned a role to a Power BI report, and didn't specify the **roles**
 
 ## editable
 
-Renders a given Dynamics 365 Portals  CMS object as [Use the front-side editing engine to publish content](publish-content-editing-engine.md), for users with content editing permission for that object. Editable objects include [page](liquid-objects.md#page), [snippets](liquid-objects.md#snippets), and [weblinks](liquid-objects.md#weblinks).  
+Renders a given Portals CMS object as [Use the front-side editing engine to publish content](publish-content-editing-engine.md), for users with content editing permission for that object. Editable objects include [page](liquid-objects.md#page), [snippets](liquid-objects.md#snippets), and [weblinks](liquid-objects.md#weblinks).  
 
 ```
 {% editable page 'adx_copy' type: 'html', title: 'Page Copy', escape: false, liquid: true %}
@@ -290,7 +288,7 @@ Loaded entity list {{ entitylist.adx_name }}.
 
 **language\_code**
 
-A Dynamics 365 integer language code to select the entity list localized labels to be loaded. If no language\_code is provided, the default language of the portal application Dynamics 365 connection will be used.
+A PowerApps integer language code to select the entity list localized labels to be loaded. If no language\_code is provided, the default language of the portal application PowerApps connection will be used.
 
 ```
 {% entitylist name:"My Entity List", language_code:1033 %}
@@ -366,7 +364,7 @@ Loaded entity view {{ entityview.name }} using view query string request paramet
 
 **logical\_name**
 
-The Dynamics 365 entity logical name of the view to be loaded. Must be used in combination with name.
+The PowerApps entity logical name of the view to be loaded. Must be used in combination with name.
 
 ```
 {% entityview logical_name:'contact', name:"Active Contacts" %}
@@ -378,7 +376,7 @@ Loaded entity view with {{ entityview.total_records }} total records.
 
 **name**
 
-The Dynamics 365 name of the view to be loaded. Must be used in combination with logical\_name.
+The PowerApps name of the view to be loaded. Must be used in combination with logical\_name.
 
 ```
 {% entityview logical_name:'contact', name:"Active Contacts" %}
@@ -533,7 +531,7 @@ Loaded entity view with {{ entityview.total_records }} total records to which th
 
 **language\_code**
 
-A Dynamics 365 integer language code to select the entity view localized labels (column header labels, etc.) to be loaded. If no language\_code is provided, the default language of the portal application Dynamics 365 connection will be used.
+A PowerApps integer language code to select the entity view localized labels (column header labels, etc.) to be loaded. If no language\_code is provided, the default language of the portal application PowerApps connection will be used.
 
 If entityview is used within an entitylist block, entityview will inherit its language code configuration from entitylist.
 
@@ -642,7 +640,7 @@ This parameter supports [the Lucene Query Parser syntax](http://lucene.apache.or
 
 **logical\_names**
 
-The Dynamics 365 entity logical names to which matching results will be restricted, as a comma-delimited string. If not provided, all matching entities will be returned.
+The PowerApps entity logical names to which matching results will be restricted, as a comma-delimited string. If not provided, all matching entities will be returned.
 
 ```
 {% searchindex query: request.params.query, logical_names: 'kbarticle,incident' %}
@@ -687,7 +685,7 @@ The size of the result page to be returned. If not provided, a default size of 1
 
 ## entityform
 
-Fully renders a Dynamics 365-configured [entity forms](entity-forms-custom-logic.md), by name or ID.  
+Fully renders a PowerApps-configured [entity forms](entity-forms-custom-logic.md), by name or ID.  
 
 > [!Note]
 > The entityform tag is only available for use in content rendered inside a <em>[web template](store-content-web-templates.md)–</em>based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything.                                                                                                                                                                             You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.       
@@ -704,7 +702,7 @@ The name of the Entity Form you wish to load.
 
 ### **webform**
 
-Fully renders a Dynamics 365-configured web form, by name or ID. The webform tag is only available for use in content rendered inside a [web template](store-content-web-templates.md) based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything. You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.                
+Fully renders a PowerApps-configured web form, by name or ID. The webform tag is only available for use in content rendered inside a [web template](store-content-web-templates.md) based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything. You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.                
 `{% webform name: 'My Web Form' %}`
 
 ### Parameters

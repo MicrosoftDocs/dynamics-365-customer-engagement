@@ -49,9 +49,9 @@ Users can indicate that they do not wish to receive notification when new posts 
 
 ## Manage forum alerts
 
-Although the portal is the primary source for creating or removing alerts. Forum alerts can be created, edited or deleted within Dynamics 365 Portals.
+Although the portal is the primary source for creating or removing alerts. Forum alerts can be created, edited or deleted within QWE Portals.
 
-1. Sign in to **Dynamics 365 Portals **.
+1. Sign in to **Portals**.
 2. Navigate to **Community**.
 3. Select **Forum Threads**.
 4. Select an existing **Forum Thread** listed in the grid. 
@@ -74,7 +74,7 @@ The table below explains many of the Forum Alert attributes used by portals.
 
 |      Name       |                                                                                     Description                                                                                      |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   Subscriber    | The Dynamics 365 Contact record of the portal user that is to receive a notification when posts are created in the associated thread. |
+|   Subscriber    | The Contact record of the portal user that is to receive a notification when posts are created in the associated thread. |
 |     Thread      |                                                  The forum thread that is being subscribed to notification of newly created posts.                                                   |
 | Expiration Date |                                                                  The date and time when notifications should stop.                                                                   |
 |                 |                                                                                                                                                                                      |

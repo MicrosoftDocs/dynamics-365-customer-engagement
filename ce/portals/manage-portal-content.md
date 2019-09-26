@@ -35,5 +35,5 @@ Create, edit, and curate your portal content to provide information and illustra
 
 [Engage with communities by using the community portal](engage-with-communities.md)  
 [Create a theme for your portal](create-theme.md)  
-[Configure a Dynamics 365 Portals ](configure-portal.md)  
+[Configure a Portals](configure-portal.md)  
 

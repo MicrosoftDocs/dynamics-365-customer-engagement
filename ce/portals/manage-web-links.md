@@ -25,11 +25,11 @@ search.app:
 
 A web link can link to any URL or it can link to another webpage within the same website. When a web link is to a webpage, the security and publishing state of the webpage will apply to the web link as well. Web links are always part of a web link set. A web link set is a group of links such as a primary navigation or a group of footer links. Web link sets allow internal, regardless of placement in the site map, and external links to be grouped together and ordered.
 
-## Manage web links in Dynamics 365 Portals
+## Manage web links in QWE Portals
 
 Once the portal customizations have been imported into the Common Data Service organization, web links can be managed from a web link set.
 
-1. Sign in to Dynamics 365 Portals .
+1. Sign in to Portals.
 
 2. Go to **Portals** > **Web Link Sets**.
 
@@ -104,7 +104,7 @@ The table below explains many of the standard Web Link Set properties used by po
 
 ## Web link attributes and relationships
 
-The table below explains many of the standard Web Link properties used by Dynamics 365 Portals . It is important to note that the way in which many of the content/display-oriented properties are rendered is controlled by the page template used.
+The table below explains many of the standard Web Link properties used by Portals. It is important to note that the way in which many of the content/display-oriented properties are rendered is controlled by the page template used.
 
 
 |           Name           |                                                                                                               Description                                                                                                               |

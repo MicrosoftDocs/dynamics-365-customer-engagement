@@ -30,7 +30,7 @@ After filling out the basic information for a contact, (or having a user fill ou
 
 Complete the change password workflow, and the necessary fields will be automatically configured. When you have done this, your contact will be configured for your portals.
 
-## Change password for a contact in Dynamics 365 Portals  app
+## Change password for a contact in Dynamics 365 Portals app
 
 1.	Select **Task Flow** on the toolbar at the top.
 

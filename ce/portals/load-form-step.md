@@ -22,7 +22,7 @@ search.app:
   - D365Portals
 ---
 # Define a load form and load tab step type
-This step type allows the web form step to act as an entity form within the overall web form process. It loads a form from Dynamics 365 with a similar set of options available as an Entity Form.
+This step type allows the web form step to act as an entity form within the overall web form process. It loads a form with a similar set of options available as an Entity Form.
 
 ## Settings
 
@@ -45,9 +45,9 @@ This step type allows the web form step to act as an entity form within the over
 
 |                Name                |                                                                                 Description                                                                                 |
 |------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|    Render Web Resources Inline     |                     Eliminates the iFrame that encompasses a web resource in a Dynamics 365 entity form.                     |
+|    Render Web Resources Inline     |                     Eliminates the iFrame that encompasses a web resource in a entity form.                     |
 |          ToolTips Enabled          |                                               The tooltip is set using the description of the attribute on the target entity.                                               |
-|      Show Unsupported Fields       |       All fields are currently supported. This is reserved for potential changes Dynamics 365 may make to field types.       |
+|      Show Unsupported Fields       |       All fields are currently supported. This is reserved for potential changes may make to field types.       |
 | Set Recommended Fields as Required |                                     Makes all attributes required that have the field requirement level set to 'Business Recommended'.                                      |
 |      Make All Fields Required      |                                                    Makes all fields required regardless of the field requirement level.                                                     |
 |    Validation Summary CSS Class    |                               CSS Class name assigned to the validation summary. Default: 'validation-summary alert alert-error alert-block'                                |
@@ -118,8 +118,8 @@ This provides a way to associate the current record being created or updated by 
 
 ### See also
 
-[Configure a Dynamics 365 Portals ](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 Portals ](entity-forms-custom-logic.md)  
+[Configure a Portals](configure-portal.md)  
+[Define entity forms and custom logic within the Portals](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Redirect step type](add-redirect-step.md)  
 [Conditional step type](add-conditional-step.md)  

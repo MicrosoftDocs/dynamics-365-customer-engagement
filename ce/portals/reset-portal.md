@@ -1,5 +1,5 @@
 ---
-title: "Reset a Dynamics 365 Portals  | MicrosoftDocs"
+title: "Reset a Portals | MicrosoftDocs"
 description: "Learn how to reset a portal."
 ms.date: 12/03/2018
 ms.service: crm-online
@@ -27,9 +27,9 @@ Once a portal is provisioned, you might need to delete resources from your porta
 
 To do this, you can reset your portal, which will delete all the hosted resources associated with it. Then you can provision the portal again. Once the reset operation is finished, your portal URL will not be accessible anymore.
 
-It is important to note that resetting your portal doesn’t remove portal configuration or solutions present in your Dynamics 365 instance and they will remain as is.
+It is important to note that resetting your portal doesn’t remove portal configuration or solutions present in your instance and they will remain as is.
 
-You can reset a completely configured portal, or a portal for which provisioning or updating of a Dynamics 365 instance has failed.
+You can reset a completely configured portal, or a portal for which provisioning or updating of a instance has failed.
 
 To reset a configured portal:
 

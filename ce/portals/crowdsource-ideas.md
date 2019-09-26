@@ -26,7 +26,7 @@ Learn how to manage Forum Ideas, Idea Comments, and Idea Votes.
 
 ## Manage idea forums
 
-Dynamics 365 users can manage Idea Forum records under the Community tab, provided the portal customizations have been imported into your Common Data Service organization.
+Users can manage Idea Forum records under the Community tab, provided the portal customizations have been imported into your Common Data Service organization.
 
 > [!NOTE]
 > - The way in which many of the content/display-oriented attributes are rendered is controlled by the views created by the portal developer.
@@ -54,7 +54,7 @@ The table below explains the standard attributes and relationships of the Idea F
 | Moderators             | Relationship specifying the web roles that have permission to moderate the idea forum. There is currently no front-side moderation functionality built into the idea portal application.|
 | | |
 
-## Manage ideas in Dynamics 365 Portals 
+## Manage ideas in Portals
 
 For users, provided the portal customizations have been imported into your organization, Idea records can be managed under the Community tab.
 
@@ -112,7 +112,7 @@ For example, say you want to enable voting for New, Accepted, and Rejected statu
 
 To get the status reason values:
 
-1.	Sign in to Dynamics 365 Portals .
+1.	Sign in to Portals.
 
 2.	Go to **Settings** > **Customization** > **Customize the System**.
 

@@ -1,6 +1,6 @@
 ---
-title: "Search within file attachment content in Dynamics 365 Portals   | MicrosoftDocs"
-description: "Learn how to configure your portal to search within file attachment content in Microsoft Dynamics 365 Portals ."
+title: "Search within file attachment content in Portals  | MicrosoftDocs"
+description: "Learn how to configure your portal to search within file attachment content in Microsoft Portals."
 keywords: "search within attachment,search in file attachment"
 ms.date: 04/17/2019
 ms.service: crm-online
@@ -24,7 +24,7 @@ search.app:
 
 # Search within file attachment content
 
-You can use the Dynamics 365 notes attachment to include downloadable files in knowledge base articles. You can also use web files to create an FAQ page with downloadable content.
+You can use the notes attachment to include downloadable files in knowledge base articles. You can also use web files to create an FAQ page with downloadable content.
 
 You can configure your portal to allow portal users to search within the attachment content (knowledge base articles and web files). This helps users to find the information that they're looking for.
 

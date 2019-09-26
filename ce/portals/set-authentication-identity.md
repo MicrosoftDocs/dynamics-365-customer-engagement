@@ -26,7 +26,7 @@ search.app:
 
 # Set authentication identity for a portal
 
-Dynamics 365 Portals  provides authentication functionality built on the [ASP.NET Identity](http://www.asp.net/identity) API. ASP.NET Identity is in turn built on the [OWIN](http://www.asp.net/aspnet/overview/owin-and-katana) framework, which is also an important component of the authentication system. The services provided include:
+Portals provides authentication functionality built on the [ASP.NET Identity](http://www.asp.net/identity) API. ASP.NET Identity is in turn built on the [OWIN](http://www.asp.net/aspnet/overview/owin-and-katana) framework, which is also an important component of the authentication system. The services provided include:
 
 - Local (username/password) user sign-in
 - External (social provider) user sign-in through third-party identity providers
@@ -40,9 +40,9 @@ Dynamics 365 Portals  provides authentication functionality built on the [ASP.NE
 
 ## Requirements
 
-Dynamics 365 Portals  requires:
+Portals requires:
 
-- Dynamics 365 Portal Base
+- Dynamics 365 Portals Base
 - [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Identity
 - [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Identity Workflows solution packages
 
@@ -160,7 +160,7 @@ Changing an email address (or setting it for the first time) puts it into an unc
 The two-factor authentication feature increases user account security by requiring proof of ownership of a confirmed email in addition to the standard local or external account sign-in. A user trying to sign in to an account that has two-factor authentication enabled is sent a security code to the confirmed email associated with their account. The security code must be submitted to complete the sign-in process. A user can choose to remember the browser that successfully passed the verification, so that the security code will not be required for subsequent sign-ins from the same browser. Each user account enables this feature individually and requires a confirmed email.
 
 > [!WARNING]
-> If you create and enable the **Authentication/Registration/MobilePhoneEnabled** site setting to enable the legacy functionality, an error will occur. This site setting is not provided out of the box and not supported by Dynamics 365 Portals .
+> If you create and enable the **Authentication/Registration/MobilePhoneEnabled** site setting to enable the legacy functionality, an error will occur. This site setting is not provided out of the box and not supported by Portals.
 
 **Related site settings:**
 
@@ -280,7 +280,7 @@ Settings for modifying the default authentication cookie behavior. Defined by th
 
 ### See also
 
-[Configure Dynamics 365 Portals  authentication](configure-portal-authentication.md)  
+[Configure Portals authentication](configure-portal-authentication.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  

@@ -38,8 +38,8 @@ The Redirect Step Type allow for a redirect of the User's browser session to ano
 
 ### See also
 
-[Configure a Dynamics 365 Portals ](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 Portals ](entity-forms-custom-logic.md)  
+[Configure a Portals](configure-portal.md)  
+[Define entity forms and custom logic within the Portals](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Load Form/Load Tab step type](load-form-step.md)  
 [Conditional step type](add-conditional-step.md)  
