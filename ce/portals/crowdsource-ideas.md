@@ -22,6 +22,7 @@ search.app:
   - D365Portals
 ---
 # Crowdsource ideas
+
 Learn how to manage Forum Ideas, Idea Comments, and Idea Votes.
 
 ## Manage idea forums

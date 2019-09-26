@@ -60,7 +60,7 @@ To complete provisioning a portal, after you have purchased a new portal license
 
     > [!NOTE]
     > - To change the URL of a portal after it is provisioned, see [change the base URL of a portal](change-base-url.md).
-    > - To link your portal to a custom domain, see [link your Portals to a custom domain](manage-portal.md#link-your-dynamics-365-portals-to-a-custom-domain).
+    > - To link your portal to a custom domain, see [link your portal to a custom domain](manage-portal.md#link-your-portal-to-a-custom-domain).
 
 6.  In the **Dynamics 365 Instance** drop-down list, select the instance you want to link the portal to. This requires System Administrator or System Customizer role in the instance you pick to select it.
 

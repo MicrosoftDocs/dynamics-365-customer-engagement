@@ -57,7 +57,7 @@ If you are not a global administrator and you try to manage a portal that has al
 
 6. After you've added yourself as an owner, reopen the Portal Admin Center page.
 
-## Link your Portals to a custom domain
+## Link your portal to a custom domain
 
 A custom domain can help your customers find your support resources more easily and enhance your brand. Only one custom domain name can be added to a portal. After you've provisioned your portal and acquired your domain name, you'll need an SSL certificate to set up a custom host name. You can use the purchased SSL certificate for your domain to link your Portals to a custom domain by using a wizard.
 
@@ -94,7 +94,7 @@ A custom domain can help your customers find your support resources more easily 
 8. Select **Finish** to close the wizard.
 
     > [!Note]
-    > If you want to change your existing custom domain name, you must upload a new SSL certificate and follow the steps in the wizard as mentioned [here](#link-your-dynamics-365-portals-to-a-custom-domain).
+    > If you want to change your existing custom domain name, you must upload a new SSL certificate and follow the steps in the wizard as mentioned [here](#link-your-portal-to-a-custom-domain).
     
 ## Import metadata translation
 When you provision a portal, the portal-related solutions are installed on the organization. During the installation of solutions, the solution metadata translations (for example, field name, form name, and view name) are installed only for the languages currently activated in the organization. If you activate a new language in the future, the metadata will not be installed automatically for the newly activated language. To get the metadata translation for the newly activated language, you must import the metadata translation from the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page.
