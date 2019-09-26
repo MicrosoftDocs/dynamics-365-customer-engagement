@@ -135,9 +135,12 @@ To export a new Customer Insights segment to a Marketing instance:
 
 1. Sign in to Customer Insights.
 1. Go to **Segments**.
-1. Find the segment you want to start exporting, select the **Expand all actions** button (which looks like three vertical dots) to open the action menu. Then open the **Add to** menu and select the export destination that you want to add the segment to. Note that the **Add to** menu only shows destinations that the current segment isn't already exporting to.
+1. Find the segment you want to start exporting, select the **Expand all actions** button (which looks like three vertical dots) to open the action menu. Then open the **Add to** menu and select the export destination that you want to add the segment to. 
 
     ![Chose an export destination for a segment](media/ci-export-segment.png "Chose an export destination for a segment")
+
+    > [!NOTE]
+    > The **Add to** menu only shows destinations that the current segment isn't already exporting to.
 
     > [!NOTE]
     > The segment list includes all currently defined segments, including **Draft** and **Inactive** segments. Though you are able to add draft and inactive segments to an export destination, these segments won't be exported to Dynamics 365 Marketing.
@@ -157,7 +160,8 @@ You can edit the list of Customer Insights segments being exported to any destin
 
 1. Select **Save** to save your changes.
 
-**NOTE**: If you remove a segment from the export list, then that segment will no longer be refreshed by Customer Insights, but the last exported versions will still remain available in Dynamics 365 Marketing.
+> [!NOTE]
+> If you remove a segment from the export list, then that segment will no longer be refreshed by Customer Insights, but the last exported versions will still remain available in Dynamics 365 Marketing.
 
 ## Manually refresh integrated segments
 
