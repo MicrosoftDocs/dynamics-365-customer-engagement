@@ -28,7 +28,7 @@ This section contains information about new features and enhancements in Omnicha
     More information: [Entity records routing](administrator/entity-channel.md) and [Cases entity work streams](administrator/set-up-entity-workstream.md)
 
     > [!Note]
-    > Only case entity record is supported in this release. To learn about the support for other entity records routing, see [Unified routing for entity records](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-customer-service/unified-routing-queues).
+    > Only case entity record is supported in this release. To learn about the support for other entity records routing, see [Unified routing for entity records](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-customer-service/unified-routing-queues).
 
 - **Automatic closure of a conversation:** Omnichannel for Customer Service has a default time set for the conversations to close automatically. That is, if a conversation in a certain state remains in the same state more than the default time, then the conversation is automatically moved to the closed state.
 

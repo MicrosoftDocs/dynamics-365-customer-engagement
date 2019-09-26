@@ -32,7 +32,7 @@ In Omnichannel for Customer Service, you can integrate a bot to start the conver
 
 ## Integrate a bot with Omnichannel for Customer Service 
 
-**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0).
+**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0).
 
 To integrate a bot with Omnichannel for Customer Service, you must:
 
@@ -81,7 +81,7 @@ To create a bot user:
     - **Agent type**: Select **Bot application user**.
     - **Bot application ID**: Bot's application ID from Azure AD that you copied in the previous step.
 
-    For more information on creating an application user, see [Create an application user](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-multi-tenant-server-server-authentication#create-an-application-user--associated-with-the-registered-application--in-).
+    For more information on creating an application user, see [Create an application user](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-multi-tenant-server-server-authentication#create-an-application-user--associated-with-the-registered-application--in-).
 
 5.	Save the record.
 
@@ -166,7 +166,7 @@ When a chat is initiated by a customer, the query is routed to the bot through t
 
 ## Privacy notice
 
-You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement).
+You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
 ### See also
 

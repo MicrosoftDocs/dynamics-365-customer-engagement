@@ -33,7 +33,7 @@ search.app:
 
  A few minutes per day is all you need to keep the conversations going and grow your network. Wherever you work, regardless of the device, you’ll always have the relevant information right at your fingertips. Harnessing the power of the machine learning, the Social Selling Assistant provides smart and personalized recommendations for shareable content based on social data gathered with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/5ba0f282-0d81-4144-9673-5f865d4a71df" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/5ba0f282-0d81-4144-9673-5f865d4a71df" frameborder="0" allowfullscreen=""></iframe></div>
 
  Can’t wait to try it out? Make sure have a system administrator or customizer security role in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and take the fast-track to set up and configure the Social Selling Assistant.
   
