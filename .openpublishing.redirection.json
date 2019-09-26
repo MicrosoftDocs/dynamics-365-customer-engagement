@@ -4978,6 +4978,31 @@
       "source_path": "ce/omni-channel-engagement-hub/administrator/users-user-profiles.md",
       "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/users-user-profiles",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/project-service/how-to-guides/pricing-dimensions-setup.md",
+      "redirect_url": "../pricing-costing-dimensions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/project-service/how-to-guides/project-management-how-to.md",
+      "redirect_url": "../project-planning",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/project-service/how-to-guides/resource-management-how-to.md",
+      "redirect_url": "../resource-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/project-service/how-to-guides/reconciling-assignments-bookings-how-to.md",
+      "redirect_url": "../reconcile-booking-assignment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/project-service/how-to-guides/time-expense-approval.md",
+      "redirect_url": "../time-entries",
+      "redirect_document_id": false
     }
   ]
 }
