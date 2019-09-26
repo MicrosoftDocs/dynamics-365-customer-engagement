@@ -1,2 +1,0 @@
-> [!IMPORTANT]
-> For best results, make sure your native Postman application is closed before importing the collection from the link below.<br />Before importing the Postman collection, also make sure that Postman is synced across all devices. Click on the icon in the top panel of your Postman app to sync.<br />More information: [Postman docs: Syncing](https://www.getpostman.com/docs/v6/postman/launching_postman/syncing).
