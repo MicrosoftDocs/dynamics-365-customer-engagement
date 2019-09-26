@@ -1,5 +1,5 @@
 ---
-title: "getEntityMetadata (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | Microsoft Docs"
+title: "getEntityMetadata (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
 description: ""
 keywords: ""
 ms.date: 12/10/2018
