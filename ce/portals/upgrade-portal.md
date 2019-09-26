@@ -1,5 +1,5 @@
 ---
-title: "Upgrade a Portals | MicrosoftDocs"
+title: "Upgrade a portal | MicrosoftDocs"
 description: "Learn how to upgrade a portal."
 ms.date: 01/02/2019
 ms.service: crm-online

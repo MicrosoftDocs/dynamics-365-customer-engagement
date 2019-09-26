@@ -109,7 +109,7 @@ The form's map control requires additional configuration to tell it what the IDs
 
 ### See also
 
-[Configure a Portals](configure-portal.md)  
+[Configure a portal](configure-portal.md)  
 [Define entity forms and custom logic within the Portals](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  

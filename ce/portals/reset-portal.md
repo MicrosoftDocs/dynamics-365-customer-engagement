@@ -1,11 +1,9 @@
 ---
-title: "Reset a Portals | MicrosoftDocs"
+title: "Reset a portal | MicrosoftDocs"
 description: "Learn how to reset a portal."
 ms.date: 12/03/2018
 ms.service: crm-online
-ms.topic: article
- 
-  
+ms.topic: article  
 ms.assetid: 02FA490A-92DB-461C-B1CA-7B93D037F5D6
 author: sbmjais
 ms.author: shjais

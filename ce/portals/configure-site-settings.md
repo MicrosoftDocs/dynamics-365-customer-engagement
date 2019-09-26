@@ -100,7 +100,7 @@ For site settings related to various portal features, see:
 ### See also
 
 [How to provision a portal](provision-portal.md)  
-[Configure a Portals](configure-portal.md)  
+[Configure a portal](configure-portal.md)  
 [Configure Portals authentication](configure-portal-authentication.md)  
 [Define entity forms and custom logic within the Portals](entity-forms-custom-logic.md)  
 

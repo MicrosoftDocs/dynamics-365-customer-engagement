@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - D365Portals
 ---
-# Configure a Portals
+# Configure a portal
 
 Portals offer powerful customization options to:
 

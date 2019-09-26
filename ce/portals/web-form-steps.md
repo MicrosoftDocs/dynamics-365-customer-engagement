@@ -44,7 +44,7 @@ Each Web Form will be presented on the portal has one or more steps. These steps
 
 ### See also
 
-[Configure a Portals](configure-portal.md)  
+[Configure a portal](configure-portal.md)  
 [Define entity forms and custom logic within the Portals](entity-forms-custom-logic.md)  
 [Load Form/Load Tab step type](load-form-step.md)  
 [Redirect step type](add-redirect-step.md)  

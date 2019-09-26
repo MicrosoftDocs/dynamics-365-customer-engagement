@@ -365,7 +365,7 @@ The process of adding a relying party trust in [!include[](../includes/pn-adfs-s
 
 .SYNOPSIS
 
-Adds a SAML 2.0 relying party trust entry for a Portals website.
+Adds a SAML 2.0 relying party trust entry for a website.
 
 .PARAMETER domain
 

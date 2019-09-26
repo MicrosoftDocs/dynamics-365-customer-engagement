@@ -67,7 +67,7 @@ After the shortcut entity has been created, it will appear in your website. In t
 
 ### See also
 
-[Configure a Portals](configure-portal.md)  
+[Configure a portal](configure-portal.md)  
 [Configure site settings for portals](configure-site-settings.md)  
 [Configure Portals authentication](configure-portal-authentication.md)  
 [Define entity forms and custom logic within the Portals](entity-forms-custom-logic.md)  

@@ -278,7 +278,7 @@ Enabling a **Disassociate action** allows a user to remove the link between the 
 
 ### See also
 
-[Configure a Portals](configure-portal.md)  
+[Configure a portal](configure-portal.md)  
 [Define entity forms and custom logic within the Portals](entity-forms-custom-logic.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  

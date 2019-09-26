@@ -48,7 +48,7 @@ While the most common use cases for Web Templates will be to render HTML, render
 
 ## Web templates as website headers and footers
 
-Web templates can also be used to override the global header and footer used by a Portals. To do this, set the **Header Template** or **Footer Template** field of your website to the web template of your choice. Note that if you override **Website Header**, your selected template assumes responsibility for rendering the primary navigation, sign-in/sign-out links, search interface, and so on for your site interface elements that are normally handled by the default header template.
+Web templates can also be used to override the global header and footer used by a portal. To do this, set the **Header Template** or **Footer Template** field of your website to the web template of your choice. Note that if you override **Website Header**, your selected template assumes responsibility for rendering the primary navigation, sign-in/sign-out links, search interface, and so on for your site interface elements that are normally handled by the default header template.
 
 ## Built-in web templates
 

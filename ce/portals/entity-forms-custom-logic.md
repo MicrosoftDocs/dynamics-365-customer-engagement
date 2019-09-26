@@ -196,7 +196,7 @@ The form's map control requires additional configuration to tell it what the IDs
 
 ### See also
 
-[Configure a Portals](configure-portal.md)  
+[Configure a portal](configure-portal.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  

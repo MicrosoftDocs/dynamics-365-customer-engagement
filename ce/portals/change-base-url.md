@@ -1,5 +1,5 @@
 ---
-title: "Change the base URL of a Portals | MicrosoftDocs"
+title: "Change the base URL of a portal | MicrosoftDocs"
 description: "Learn how to change the base URL of a portal."
 ms.date: 12/03/2018
 ms.service: crm-online
