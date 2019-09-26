@@ -16,7 +16,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[startproactivechat-description](../includes/startProactiveChat-description.md)] Organizations can use end-user data, user journey information, time spent on web page, and more to decide when to best engage with them. Organizations can control the proactive chat experience using personalized trigger messages and configurable rules to define the target audience, time frame, and target location.
+[!INCLUDE[startproactivechat-description](../includes/startProactiveChat-description.md)] Organizations can use end-user data, user journey information, time spent on web page, and more to decide when to proactively engage customers through chat. Organizations can control the proactive chat experience using personalized trigger messages and configurable rules to define the target audience, time frame, and target location.
 
 ## Syntax
 
