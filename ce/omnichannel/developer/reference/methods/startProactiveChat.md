@@ -20,14 +20,14 @@ ms.custom:
 
 ## Syntax
 
-`Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat();`
+`Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat(notificationUIConfig, showPrechat);`
 
 ## Parameters
 
-| Parameter | Type | Description |
-| ---- | ---- | ---- |
-| showPrechat | Boolean | Boolean flag to indicate whether prechat is shown if configured for the widget. |
-| notificationUIConfig | Object | Allows you to pass UI configurations for proactive chat notification. This object lets you customize the notification, including the message to be displayed. |
+| Parameter | Type | Required | Description |
+| ---- | ---- | ---- | ---- |
+| notificationUIConfig | Object | Yes | Allows you to pass UI configurations for proactive chat notification. This object lets you customize the notification, including the message to be displayed. |
+| showPrechat | Boolean | No | Boolean flag to indicate whether prechat is shown if configured for the widget. The default value is true. |
 
 ## Return Value
 
@@ -37,7 +37,7 @@ None
 
 ```JavaScript
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-               Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat(false, {message: "Hi! How are you doing today? Do you wish to start a chat?"}) },10000);
+               Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({message: "Hi! How are you doing today? Do you wish to start a chat?"}, false) },10000);
 });
 ```
 ## See also
