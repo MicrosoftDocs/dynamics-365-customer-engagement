@@ -33,9 +33,7 @@ For complete details, see the [Customer Insights documentation](https://docs.mic
 
 ## Prerequisites
 
-To use the features described in this topic, you must first set up a trial or production instance of Dynamics 365 Customer Insights.
-
-Dynamics 365 Customer Insights is a separate product from Dynamics 365 Marketing. You must already have a Customer Insights instance available before you can integrate it with Dynamics 365 Marketing. You can use either a trial or a production license of Customer Insights while to try out the integration, but must eventually purchase a full license if you decide to continue using it.
+Dynamics 365 Customer Insights is a separate product from Dynamics 365 Marketing. To use the features described in this topic, you must already have a Customer Insights instance available before you can integrate it with Dynamics 365 Marketing. You can use either a trial or a production license of Customer Insights while to try out the integration, but must eventually purchase a full license if you decide to continue using it.
 
 ## Overview: Working with Customer Insights segments in Marketing
 
@@ -50,6 +48,8 @@ For complete instructions, see [Ingest data from Dynamics 365](https://docs.micr
 ### Export Customer Insights segments to get them into Marketing
 
 You bring Customer Insights segments into Marketing by exporting them. The systems can communicate directly, so once the connection is set up, you'll be able to export segments with just a few clicks in Customer Insights. You set this up by adding your Marketing instance as an export destination in Customer Insights.
+
+See the later sections of this topic for details about how to set this up.
 
 <a name="refresh"></a>
 
@@ -74,7 +74,7 @@ When you export a segment to Dynamics 365 Marketing, the resulting segment will 
 
 ### Customer Insights segments show details in the Description field in Marketing
 
-One way to tell whether a segment in Marketing is being managed by Customer Insights is to open the segment and go to its **General** tab. The **Description** field here shows the URL of the Customer Insights instance where the segment came from and also the date and time the segment was last refreshed by being exported or re-exported.
+One way to tell whether a segment in Marketing is being managed by Customer Insights is to open the segment and go to its **General** tab. The **External Segment URL** field here shows the URL of the Customer Insights instance where the segment came from. Also, the **Description** shows the date and time the segment was last refreshed by being exported or re-exported.
 
 ![A segment from Customer Insights](media/ci-exported-segment-details.png "A segment from Customer Insights")
 
@@ -122,6 +122,9 @@ To configure your Dynamics 365 Marketing instance as an export destination in a 
 
     ![The Select Segments dialog in Customer Insights](media/ci-select-segments.png "The Select Segments dialog in Customer Insights")
 
+    > [!NOTE]
+    > The segment list includes all currently defined segments, including **Draft** and **Inactive** segments. Though you are able to select draft and inactive segments here, these segments won't be exported to Dynamics 365 Marketing.
+
 1. Select **Save** to save your export destination.
 
 ## Configure a Customer Insights segment to export to Marketing
@@ -135,6 +138,9 @@ To export a new Customer Insights segment to a Marketing instance:
 1. Find the segment you want to start exporting, select the **Expand all actions** button (which looks like three vertical dots) to open the action menu. Then open the **Add to** menu and select the export destination that you want to add the segment to. Note that the **Add to** menu only shows destinations that the current segment isn't already exporting to.
 
     ![Chose an export destination for a segment](media/ci-export-segment.png "Chose an export destination for a segment")
+
+    > [!NOTE]
+    > The segment list includes all currently defined segments, including **Draft** and **Inactive** segments. Though you are able to add draft and inactive segments to an export destination, these segments won't be exported to Dynamics 365 Marketing.
 
 <a name="edit-remove"></a>
 
