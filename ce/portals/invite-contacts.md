@@ -45,7 +45,7 @@ To edit the **Send Invitation** workflow email template, locate it and deactivat
 
 To create an invitation record, select the **Create Invitation** button in the command bar. The button is available when a single contact is selected in a Contact view and when viewing a contact record. Selecting the button will open a new invitation form for the contact. Invitations can also be created via the Invitations view by selecting **+New**. After the Invitation record has been created, the **Run Workflow** button will appear enabling you to send the invitation to the contact(s). The invitation will not be sent to the contact(s) until the **Send Invitation** workflow is initiated.
 
-## Create invitations in Portalsapp
+## Create invitations in Dynamics 365 Portals app
 
 1.	Go to **Portals** > **Contacts**.
 
