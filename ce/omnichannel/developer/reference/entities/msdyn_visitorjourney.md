@@ -1,7 +1,7 @@
 ---
 title: "msdyn_visitorjourney Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_visitorjourney entity."
-ms.date: 09/17/2019
+ms.date: 09/26/2019
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -15,10 +15,9 @@ manager: "susikka"
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-Stores navigation history of a user who is conversing with the agent. For each navigation, a user navigation record is created.
+Stores the recent actions tracked and passed as part of context with visitor journey type, for a conversation that has been successfully closed between the customer and agent. A visitor journey record is created for each journey action.
 
 **Added by**: Omnichannel - Base Patch Solution
-
 
 ## Messages
 
