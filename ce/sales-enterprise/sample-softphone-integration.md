@@ -24,10 +24,9 @@ This topic describes how to install the *sample* app and test the calling capabi
 
 
 > [!IMPORTANT]
-
-> This sample code currently has limited availability.
-> The sample code for softphone integration with Dynamics 365 using Channel Integration Framework is made available so customers can get early access and provide feedback. The sample code is not meant for production use and may have limited or restricted functionality.
-> Microsoft doesn't provide support for this sample code for production use and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. This is subject to supplemental terms of use  
+> -  This sample code currently has limited availability.
+> -  The sample code for softphone integration with Dynamics 365 using Channel Integration Framework is made available so customers can get early access and provide feedback. The sample code is not meant for production use and may have limited or restricted functionality.
+> -  [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 ## Integrate and configure the sample softphone dialer
 
@@ -46,16 +45,20 @@ To configure the sample,
  
 After you're done with the configuration, any contact on an opportunity record, which  has a cell phone number defined will show a phone icon.
 
+[!div class="mx-imgBorder"]
 ![Phone icon besides the contact of an opportunity](media/phone-icon-opportunity-contact.png "Phone icon besides the contact of an opportunity")
 
 When users select this icon, the sample softphone dialer opens and calls the number. 
 
+[!div class="mx-imgBorder"]
 ![Sample softphone dialer calling a contact](media/dialer-calling-cell-number.png "Sample softphone dialer calling a contact")
 
 All details regarding the call such as the duration, phone number, and notes are automatically captured in the call summary and the phone call activity record, and the record is associated with the opportunity record the call was initiated from.
 
+[!div class="mx-imgBorder"]
 ![Call summary](media/call-summary.png "Call summary")
 
+[!div class="mx-imgBorder"]
 ![Call summary added to phone call activity](media/phone-call-activity-details.png "Call summary added to phone call activity")
 
 
