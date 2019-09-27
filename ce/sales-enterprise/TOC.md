@@ -8,12 +8,14 @@
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
 #### [Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)
 #### [Enable PDF generation from quotes](enable-pdf-generation-quote.md)
+#### [Set up the enhanced email experience](set-up-enhanced-email.md)
 #### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
 #### [Customize the Opportunity Close form](customize-opportunity-close-experience.md)
 #### [Define lead qualification experience](define-lead-qualification-experience.md)
 #### [Make price list optional](make-price-list-optional.md)
 #### [Enable or disable saving of business card image](retain-business-card-image-after-scanning.md)
 #### [Customize the business card scanner control](customize-business-card-scan-control.md)
+#### [Integrate Sample softphone dialer](sample-softphone-integration.md)
 
 ### Product management
 #### [Set up product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)
@@ -53,6 +55,7 @@
 ## User Guide
 ### [Help resources for sales people](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)
+### [Send email using the enhanced email experience](enhanced-email.md)
 ### Manage customers
 #### [Manage accounts and contacts](../basics/accounts-contacts.md)
 #### [Scan business cards](scan-business-cards.md)

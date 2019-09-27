@@ -1,5 +1,5 @@
 ---
-title: "Sample softphone integration with Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Integrate sample softphone with Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the sample to learn how to integrate a softphone dialer in Dynamics 365 Sales."
 keywords: "Opportunity, Close, Closing, Customization, dialog box, quick create, custom fields,"
 ms.date: 10/01/2019
@@ -14,7 +14,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Sample softphone integration with Dynamics 365 Sales
+# Integrate a sample softphone with Dynamics 365 Sales
 
 An integrated softphone dialer provides a simple and integrated way to call customers from within Microsoft Dynamics 365 Sales. The communications that take place are captured as phone call activity in Dynamics 365 Sales.  
 
