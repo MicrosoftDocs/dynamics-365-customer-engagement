@@ -24,7 +24,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-By default, the system assigns new conversations based on the routing rules. When the capacity of agents is full, conversations remain in the queue in the open state until an agent capacity is available. As a supervisor, you can manually assign these conversations in open state, to an agent or another queue.  
+The omnichannel system, by default, assigns new incoming conversations based on configured routing rules and agent capacity. When agents don't have enough capacity to work on an incoming conversation, the conversation remains in the queue waiting to be assigned to an agent who has the capacity to handle the conversation. As a supervisor, you can manually assign these conversations to an agent or another queue.  
 
 > [!NOTE]
 > Contact you administrator to enable the option to assign conversation in settings. To learn more, see [Enable supervisors to monitor and assign conversations](../administrator/configure-ongoing-conversations-settings.md)
@@ -44,12 +44,12 @@ You can assign a conversation to an agent or to another queue that is in the **O
 
 3. Select **Assign**. 
 
-    In this example, we are selecting a live chat workstream that is not assigned to an agent or to a queue.
+    In this example, we are selecting a conversation that is not assigned to an agent or to a queue.
 
     > [!div class=mx-imgBorder]
     > ![Select a work item to assign](../media/oc-select-conversations-assign.png "Select a work item to assign")
 
-4. In the **Assign** dialog box, you can see the list of agents and their available capacity in **Agents** tab. 
+4. In the **Assign** dialog box, you can see the list of agents and their available capacity in **Agent** tab. 
 
     To assign to a queue, select **Queue** tab.
 
