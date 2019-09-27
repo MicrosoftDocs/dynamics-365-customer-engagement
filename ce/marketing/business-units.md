@@ -1,4 +1,4 @@
----
+&mdash;-
 title: "Control access to Marketing records with business units (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Learn how business units affect users and record visibility in Dynamics 365 Marketing"
 ms.date: 10/04/2019
@@ -18,7 +18,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365Mktg
----
+&mdash;-
 
 # Use business units to control access to Marketing records
 
@@ -43,9 +43,9 @@ For complete details about how business units work in the platform, see [Create 
 
 In addition to the standard effects described previously, business units affect segments as follows:
 
-- Users with business-unit level access will only be able to see those contacts that belong to their own business unit--even if the segment also includes contacts belonging to other business units. Advanced and privileged users may also be able see members from child business units, or even all business units (depending on their security roles). The member count shown for the segment likewise matches the number of members the individual user can see.
-- When [scoping is enabled](#enable-bu-scopes) for your instance, each segment has a **Business unit scope** setting, which can be set to &quot;organization&quot; or &quot;business unit&quot;. In addition:
-  - Business-unit scoped segments will only contain contacts that belong to the same business unit as the segment owner--even if the selection criteria would otherwise find contacts belonging to all business units.
+- Users with business-unit level access will only be able to see those contacts that belong to their own business unit&mdash;even if the segment also includes contacts belonging to other business units. Advanced and privileged users may also be able see members from child business units, or even all business units (depending on their security roles). The member count shown for the segment likewise matches the number of members the individual user can see.
+- When [scoping is enabled](#enable-bu-scopes) for your instance, each segment has a **Business unit scope** setting, which can be set to "organization" or "business unit". In addition:
+  - Business-unit scoped segments will only contain contacts that belong to the same business unit as the segment owner&mdash;even if the selection criteria would otherwise find contacts belonging to all business units.
   - Organization-scoped segments can contain members belonging to all business units.
   - Standard and advanced users are limited to creating segments scoped at the business-unit level.
   - Only users with organization-level create/update permissions will be able to choose the organization scope setting.
@@ -55,8 +55,8 @@ In addition to the standard effects described previously, business units affect 
 
 In addition to the standard effects described previously, business units affect customer journeys as follows:
 
-- When [scoping is enabled](#enable-bu-scopes) for your instance, each customer journey has a **Business unit scope** setting, which can be set to &quot;organization&quot; or &quot;business unit&quot;. In addition:
-  - Business-unit scoped journeys will only process contacts that belong to the same business unit as the journey owner-- even if the journey targets segments, lists, and/or pages that include contacts belonging to other business units.
+- When [scoping is enabled](#enable-bu-scopes) for your instance, each customer journey has a **Business unit scope** setting, which can be set to "organization" or "business unit". In addition:
+  - Business-unit scoped journeys will only process contacts that belong to the same business unit as the journey owner&mdash; even if the journey targets segments, lists, and/or pages that include contacts belonging to other business units.
   - Organization-scoped journeys will process contacts belonging to all business units.
   - Standard and advanced users are limited to creating journeys scoped at the business-unit level.
   - Only users with organization-level create/update permissions will be able to choose the organization scope setting.
@@ -121,4 +121,3 @@ The assist-edit feature enables users to generate dynamic expressions for use in
 For more information about how to work with these settings, see [Security roles and privileges](../admin/security-roles-privileges.md).
 
 ### See also
-
