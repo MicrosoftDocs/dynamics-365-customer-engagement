@@ -1,5 +1,5 @@
 ---
-title: "Set up postal codes (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Set up postal codes (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -39,7 +39,7 @@ Creating postal code records and relating them to service territories lets an ac
      Use the tooltips to help fill in your information, and then click **Save**.  
   
 ### See also    
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Set up territories](../field-service/set-up-territories.md)   
  [Set up booking rules](../field-service/set-up-booking-rules.md)   
  [Set up booking statuses](../field-service/set-up-booking-statuses.md)<br>

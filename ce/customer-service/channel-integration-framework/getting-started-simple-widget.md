@@ -67,7 +67,7 @@ In this tutorial, we demonstrate how to build a simple *Hello World!* communicat
 
 ## Publish and configure the widget 
 
-1. To publish the sample widget you just created, follow the steps in [Publish sample app to Azure](sample-softphone-integration.md#bkmk_PublishToAzure). You might also want to read this Azure tutorial on how to create and publish an ASP.NET web app in Azure: [Create an ASP.NET Framework web app in Azure](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-dotnet-framework).
+1. To publish the sample widget you just created, follow the steps in [Publish sample app to Azure](sample-softphone-integration.md#bkmk_PublishToAzure). You might also want to read this Azure tutorial on how to create and publish an ASP.NET web app in Azure: [Create an ASP.NET Framework web app in Azure](https://docs.microsoft.com/azure/app-service/app-service-web-get-started-dotnet-framework).
     Once the wizard has published the app on Azure, it provides a site URL that you can use to access your hosted web app.<br />
 
     ![See Site URL of published web app](media/cif-helloworld-site-url.PNG "See Site URL of published web app")<br />
@@ -90,5 +90,5 @@ Now, proceed to the next section of this walkthrough that shows how you can sear
 ### See also
 
 [Sample code for softphone integration](sample-softphone-integration.md)<br />
-[Create an ASP.NET Framework web app in Azure](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-dotnet-framework)<br />
+[Create an ASP.NET Framework web app in Azure](https://docs.microsoft.com/azure/app-service/app-service-web-get-started-dotnet-framework)<br />
 [Frequently asked questions](faq-channel-integration-framework.md)

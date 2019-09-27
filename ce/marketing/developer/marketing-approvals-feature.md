@@ -25,9 +25,9 @@ search.app:
 > [!IMPORTANT]
 > The instructions provided in this topic require you to work on an instance where early access features are enabled. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
 > 
-> For instructions on how to opt in and enable early access, see [Enable the 2019 release wave 2 updates for Dynamics 365 Marketing](https://docs.microsoft.com/en-us/power-platform/admin/preview-october-2019-updates#enable-the-2019-release-wave-2-updates-for-dynamics-365-for-marketing). For more information about the 2019 release wave 2 schedule, and answers to frequently asked questions about the early access program, see [2019 release wave 2 features available for early access](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/features-ready-early-access).
+> For instructions on how to opt in and enable early access, see [Enable the 2019 release wave 2 updates for Dynamics 365 Marketing](https://docs.microsoft.com/power-platform/admin/preview-october-2019-updates#enable-the-2019-release-wave-2-updates-for-dynamics-365-for-marketing). For more information about the 2019 release wave 2 schedule, and answers to frequently asked questions about the early access program, see [2019 release wave 2 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/features-ready-early-access).
 > 
-> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum) and/or through [Microsoft Support](https://docs.microsoft.com/en-us/power-platform/admin/get-help-support).
+> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum) and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
 
 Dynamics 365 Marketing now provides an infrastructure with expanded extendability features that offer new possibilities for developers. One way to take advantage of this new extendability is to create an approvals feature, possibly including integration with Microsoft Flow.
 
@@ -39,8 +39,8 @@ This topic outlines one way that you could develop an approvals feature for Mark
 <!--## Prerequisites-->
 
 <!--1. Download the [code]() for sample web resources and ribbon customizations.
-2. Sign up for or install the [Dynamics 365 Marketing](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup) app. Make sure you are installing the latest version of the app.
-3. Obtain a license for [Microsoft Flow](https://flow.microsoft.com/en-us/) to create a sample approvals feature.-->
+2. Sign up for or install the [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup) app. Make sure you are installing the latest version of the app.
+3. Obtain a license for [Microsoft Flow](https://flow.microsoft.com/) to create a sample approvals feature.-->
 
 ## The approval process
 
@@ -81,7 +81,7 @@ The only limitations that remain to customize the Marketing solution are:
 
 ### Step 1: Create a new solution
 
-1. Create a new [solution](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-solution) and name it **Sample Approval**.
+1. Create a new [solution](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-solution) and name it **Sample Approval**.
 2. Add customer journey entity to the solution.
 3. Navigate to **Solutions** > **Sample Approval** > **Entities** > **Customer Journey** > **Fields**.
 4. Select the **Statuscode** attribute and add the following new states:
@@ -102,7 +102,7 @@ The only limitations that remain to customize the Marketing solution are:
 
 ### Step 2: Create ribbon buttons
 
-To make our solution to work, we need to create three custom ribbon buttons, as explained below. To create custom ribbon buttons, see [Customize commands and the ribbon](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/customize-dev/customize-commands-ribbon) or use any of the tools available in the Microsoft community. 
+To make our solution to work, we need to create three custom ribbon buttons, as explained below. To create custom ribbon buttons, see [Customize commands and the ribbon](https://docs.microsoft.com/dynamics365/customer-engagement/developer/customize-dev/customize-commands-ribbon) or use any of the tools available in the Microsoft community. 
 
 |Ribbon|Enable rules|Action|
 |-----|-------|------|
@@ -125,7 +125,7 @@ For our example, we will need to use two of the extensibility points mentioned a
 
 ### Step 4: Create two system views
 
-To easily identify the entities that are in the **Approval required** and **Approve** states, we suggest creating two system views in the customer journey entity to display all the entities that need approval, and all the entities that are already approved and waiting to **Go live**.  More information: [Create or edit a view](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-and-edit-views)
+To easily identify the entities that are in the **Approval required** and **Approve** states, we suggest creating two system views in the customer journey entity to display all the entities that need approval, and all the entities that are already approved and waiting to **Go live**.  More information: [Create or edit a view](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-and-edit-views)
 
 ## See also
 [Build approvals feature using Microsoft Flow](build-approval-feature-using-flow.md)

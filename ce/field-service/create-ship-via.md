@@ -1,5 +1,5 @@
 ---
-title: "Create ship via (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Create ship via (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -36,7 +36,7 @@ When you create a [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-fie
 3.  Use the tooltips to help you fill in your information, and then click **Save**.  
   
 ### See also    
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Create a price list](../field-service/create-price-list.md)   
  [Set up purchase order sub-statuses](../field-service/set-up-purchase-order-sub-statuses.md)   
  [Create a warehouse](../field-service/create-warehouse.md)   
@@ -44,4 +44,4 @@ When you create a [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-fie
  [Create an RMA sub-status](../field-service/create-rma-sub-status.md)   
  [Set up RTV sub-statuses](../field-service/set-up-rtv-sub-statuses.md)   
  [Process a return](../field-service/process-return.md)<br>
- [Dynamics 365 for Field Service - User's Guide](../field-service/user-guide.md)
+ [Dynamics 365 Field Service - User's Guide](../field-service/user-guide.md)

@@ -55,7 +55,7 @@ No. Modifying, editing, or deleting date fields and statuses can affect business
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the error on the opportunity form](./media/faq-opportunity-read-only.png)
 
-Field Service makes the opportunity, lead, quote, and invoice forms read-only once it detects the record is not a service-maintenance based record. This means Field Service forms or the forms copied from Field Service forms do not support opportunity, lead, quote, and invoice records other than Field Service opportunity, lead, quote, and invoice. If you want to use an opportunity form for non-Field Service related opportunities, use the out-of-the-box opportunity (**Opportunity: Opportunity**) form shipped by Dynamics 365 for Sales or copy this form for further customization. The same is true for lead, quote, and invoice.
+Field Service makes the opportunity, lead, quote, and invoice forms read-only once it detects the record is not a service-maintenance based record. This means Field Service forms or the forms copied from Field Service forms do not support opportunity, lead, quote, and invoice records other than Field Service opportunity, lead, quote, and invoice. If you want to use an opportunity form for non-Field Service related opportunities, use the out-of-the-box opportunity (**Opportunity: Opportunity**) form shipped by Dynamics 365 Sales or copy this form for further customization. The same is true for lead, quote, and invoice.
 
 
 ## See also
