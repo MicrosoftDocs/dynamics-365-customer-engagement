@@ -1,6 +1,31 @@
 {
   "redirections": [
     {
+      "source_path": "ce/analytics/index.md",
+      "redirect_url": "../customer-engagement/on-premises/analytics/reporting-analytics-with-dynamics-365",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/index.md",
+      "redirect_url": "../customer-engagement/on-premises/admin/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customize/index.md",
+      "redirect_url": "../customer-engagement/on-premises/customize/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/basics/index.md",
+      "redirect_url": "../customer-engagement/on-premises/basics/basics-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/index.md",
+      "redirect_url": "on-premises/overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customize/import-update-export-solutions.md",
       "redirect_url": "export-solution",
       "redirect_document_id": "false"
