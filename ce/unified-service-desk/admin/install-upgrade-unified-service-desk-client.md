@@ -19,22 +19,22 @@ tags: MigrationHO
 ---
 # Installing the Unified Service Desk client
 
-Make sure your computer meets all requirements before you install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Service Desk system requirements](../../unified-service-desk/admin/unified-service-desk-system-requirements.md)  
-  
+Make sure your computer meets all requirements before you install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Service Desk system requirements](../../unified-service-desk/admin/unified-service-desk-system-requirements.md)
+
  [Download](../download-unified-service-desk.md) the appropriate [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client setup file (.exe), and save it on your computer:
 
 ::: moniker range=">=dynamics-usd-4"
-  
-- For a 32-bit version of [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)], download the Dynamics365-USD-4.x.x.xxx-i386.exe file.  
-  
+
+- For a 32-bit version of [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)], download the Dynamics365-USD-4.x.x.xxx-i386.exe file.
+
 - For a 64-bit version of [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)], download the Dynamics365-USD-4.x.x.xxx-amd64.exe file.
 
 ::: moniker-end
 
 ::: moniker range="dynamics-usd-3"
 
-- For a 32-bit version of [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)], download the Dynamics365-USD-3.x.x.xxx-i386.exe file.  
-  
+- For a 32-bit version of [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)], download the Dynamics365-USD-3.x.x.xxx-i386.exe file.
+
 - For a 64-bit version of [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)], download the Dynamics365-USD-3.x.x.xxx-amd64.exe file.
 
 ::: moniker-end

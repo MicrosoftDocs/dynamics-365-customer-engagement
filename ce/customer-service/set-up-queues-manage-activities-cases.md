@@ -51,7 +51,11 @@ For example, you could create separate queues for first tier and second tier pro
 > Private queues are a great way to organize cases, but do not restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options given in [Dynamics 365 security model](../developer/security-dev/security-model.md).
 
 > [!NOTE]
+<<<<<<< HEAD
 > With the Dynamics 365 Customer Service app version 9.1 release, queues in service management are available in the Customer Service Hub. We recommend that you create and manage queues using the new experience.
+=======
+> With the latest release of Dynamics 365 Customer Service app, queues in service management are available in the Customer Service Hub. We recommend that you create and manage queues using the new experience.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
   
 ## Create a queue (Customer Service Hub) 
   

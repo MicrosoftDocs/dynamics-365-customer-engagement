@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: "Configure portal authentication in Dynamics 365  | MicrosoftDocs"
+=======
+title: "Configure portal authentication | MicrosoftDocs"
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 description: "Learn about how to configure authentication for a portal."
 ms.custom: 
   - dyn365-portal
@@ -27,7 +31,11 @@ In a portal application, an authenticated portal user is associated with either 
 
 The latest portal authentication experience allows portal users to sign in with their choice of a local contact membership provider based account or an external account based on [ASP.NET Identity](http://www.asp.net/identity).   
 
+<<<<<<< HEAD
 - **Local authentication**: Local authentication is the common forms-based authentication uses the contact records of a Dynamics 365 organization for authentication. To build custom authentication experiences, developers can use the ASP.Net Identity API to create custom login pages and tools.
+=======
+- **Local authentication**: Local authentication is the common forms-based authentication uses the contact records of a Common Data Service organization for authentication. To build custom authentication experiences, developers can use the ASP.Net Identity API to create custom login pages and tools.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 - **External authentication**: External authentication is provided by the ASP.NET Identity API. In this case, account credentials and password management are handled by a third-party identity provider. This includes OpenID based providers such as Yahoo! and Google and OAuth 2.0 based providers such as Twitter, Facebook, and [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)]. Users sign up to the portal by selecting an external identity to register with the portal. After it is registered, an external identity has access to the same features as a local account. 
 
 Both local and external account registration can use invitation codes for sign up, as well as the email confirmation workflow. In addition, portal administrators may choose to enable or disable any combination of authentication options through portal site settings.
@@ -38,7 +46,11 @@ Portal administrators have several options for controlling account sign-up behav
 
 ## Open registration
 
+<<<<<<< HEAD
 During sign-up, the user has the option of creating a local account (providing a username and password) or selecting an external identity from a list of identity providers. If an external identity is selected, the user is required to sign in through the chosen identity provider to prove that they own the external account. In either case, the user is immediately registered and authenticated with the portal. A new contact record is created in the Dynamics 365 organization upon sign-up.
+=======
+During sign-up, the user has the option of creating a local account (providing a username and password) or selecting an external identity from a list of identity providers. If an external identity is selected, the user is required to sign in through the chosen identity provider to prove that they own the external account. In either case, the user is immediately registered and authenticated with the portal. A new contact record is created in the Common Data Service organization upon sign-up.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 With open registration enabled, users are not required to provide an invitation code to complete the sign-up process.
 

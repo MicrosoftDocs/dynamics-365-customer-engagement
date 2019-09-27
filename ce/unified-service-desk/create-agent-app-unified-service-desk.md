@@ -10,7 +10,7 @@ manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
-search.app: 
+search.app:
   - D365CE
   - D365USD
 tags: NoHandoff
@@ -41,8 +41,8 @@ Before you start using [!INCLUDE[pn-unified-service-desk](../includes/pn-unified
 [Components of Unified Service Desk](core-concepts-for-configuring-unified-service-desk.md)  
   
 [Unified Service Desk and the UII framework](unified-service-desk-uii-framework.md)
- 
-  
-## Reference  
- 
- [Unified Service Desk Team Blog](http://blogs.msdn.com/b/usd/)
+
+
+## Reference
+
+ [Unified Service Desk Team Blog](https://blogs.msdn.com/b/usd/)

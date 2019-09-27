@@ -8,7 +8,12 @@
 ## [Customize the app to auto populate data from an Outlook item to a Quick Create form](auto-populate-data-into-quickcreate.md)
 ## [Expand the fields search on in Regarding lookup](search-on-custom-field-regarding-lookup.md)
 ## [Filter entities and views that appear in Dynamics 365 App for Outlook](filter-entities-and-views.md)
+<<<<<<< HEAD
 ## [Limitations when customizing the app](limitations-when-customizing-app-or-outlook.md)
+=======
+## [Limitations when customizing the app](limitations-when-customizing-app-for-outlook.md)   
+
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 # [Using the app](dynamics-365-app-outlook-user-s-guide.md)
 # [FAQs](faq.md)
 

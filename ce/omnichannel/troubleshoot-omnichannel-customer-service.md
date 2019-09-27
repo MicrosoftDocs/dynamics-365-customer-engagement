@@ -192,7 +192,11 @@ After you delete the solutions, import the Unified Service Desk - Omnichannel fo
 
 To delete the solutions, follow these steps:
 
+<<<<<<< HEAD
 1. Sign in to the Dynamics 365 apps.
+=======
+1. Sign in to the Common Data Service platform.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 2. Choose **Settings** > **Solutions** on the nav bar.
 4. Select one of the solutions on the **Solutions** page by selecting the check box, and then choose **Delete**. You are prompted to confirm uninstalling a managed solution. Choose **OK** to proceed. <br>
    - USDISHCustomization or USDWebClientCustomization (one of these solutions would be present depending on the org template)
@@ -295,11 +299,18 @@ As an agent, you aren't receiving chat in the Omnichannel for Customer Service a
 
 You must remove the Customer Service Hub app from the channel provider configuration in the Channel Integration Framework app.
 
+<<<<<<< HEAD
 1. Sign in to the Dynamics 365 apps.
 2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
 3. Select the record that is related to omnichannel.
 4. Remove **Customer Service Hub** from the **Select Unified Interface Apps for the Channel** section.
 5. Select **Save** to save the record.
+=======
+1. Sign in to **Channel Integration Framework**.
+2. Select the record that is related to omnichannel.
+3. Remove **Customer Service Hub** from the **Select Unified Interface Apps for the Channel** section.
+4. Select **Save** to save the record.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 ## User presence isn’t loading or it’s showing Unknown
 

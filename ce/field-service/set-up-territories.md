@@ -10,10 +10,14 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
+<<<<<<< HEAD
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - Dynamics 365 for Customer Engagement Version 9.x
 author: FieldServiceDave
+=======
+author: holly2776
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 ms.assetid: 5b22bdbc-4c52-4889-bf29-df0023d504f6
 caps.latest.revision: 17
 ms.author: Hollycha

@@ -23,7 +23,11 @@ search.app:
 Define what kind of support your customers are eligible for by creating entitlements in Dynamics 365 Customer Service. With entitlements, you specify the support term based on number of hours or number of cases. The customer’s support level can vary based on the product or service that the customer has purchased. Customers who’ve purchased different products can be entitled to different support levels. This information helps the customer support agents verify what the customers are eligible for and create cases for them accordingly.  
 
 > [!NOTE]
+<<<<<<< HEAD
 > With the Dynamics 365 Customer Service app version 9.1 release, entitlements in service management are available in the Customer Service Hub. We recommend that you create and manage entitlements using the new experience.
+=======
+> With the latest release of Dynamics 365 Customer Service app, entitlements in service management are available in the Customer Service Hub. We recommend that you create and manage entitlements using the new experience. 
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
   
 ## Create an entitlement
   

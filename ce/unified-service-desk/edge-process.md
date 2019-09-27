@@ -30,7 +30,7 @@ The advantages of using the Edge process hosting method are as follows:
 
 ![Advantages of Edge Process](media/advantages-edge-process.PNG "Advantages of Edge Process")
 
-- Webpages, including Dynamics 365 pages, render faster in Microsoft Edge.
+- Webpages, including model-driven app pages, render faster in Microsoft Edge.
 - Microsoft Edge is a modern browser with better process and memory management.
 - Microsoft Edge is the default browser for the Windows 10 operating system.
 - It provides easy configurations to host the applications in Unified Service Desk.

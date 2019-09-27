@@ -9,10 +9,10 @@ ms.assetid: 227bba2c-87d2-489c-b91b-5fad0d3c1042
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: 
+search.audienceType:
   - customizer
   - developer
-search.app: 
+search.app:
   - D365CE
   - D365USD
 ---
@@ -65,55 +65,55 @@ Use **Debugger** hosted control type in Unified Service Desk to configure a debu
 |LogicalName|The logical name of the entity for creating a new instance.|  
   
 > [!NOTE]
->  The rest of the parameters should consist of name=value pairs. These are the additional pre-populated values in the form for creating a new record for the specified entity. For more information about using this action, see step 4 in [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md).  
-  
-### Open_CRM_Page  
- Opens an existing instance of the entity specified and identified by the ID, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the popup should be displayed.  
-  
-|Parameter|Description|  
-|---------------|-----------------|  
-|LogicalName|The logical name of the entity to open.|  
-|id|The ID of the entity record to open.|  
-  
-### Popup  
- Pops up a URL from the hosted control and runs the window navigation rules against it for routing the popup to the appropriate location.  
-  
-|Parameter|Description|  
-|---------------|-----------------|  
-|url|Routes a popup from this hosted control using this URL as if it were a popup requested from the displayed control.|  
-|frame|The frame from which this popup originated.|  
-  
-<a name="RealignWindow"></a>   
-### RealignWindow  
+>  The rest of the parameters should consist of name=value pairs. These are the additional pre-populated values in the form for creating a new record for the specified entity. For more information about using this action, see step 4 in [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md).
+
+### Open_CRM_Page
+ Opens an existing instance of the entity specified and identified by the ID, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the popup should be displayed.
+
+|Parameter|Description|
+|---------------|-----------------|
+|LogicalName|The logical name of the entity to open.|
+|id|The ID of the entity record to open.|
+
+### Popup
+ Pops up a URL from the hosted control and runs the window navigation rules against it for routing the popup to the appropriate location.
+
+|Parameter|Description|
+|---------------|-----------------|
+|url|Routes a popup from this hosted control using this URL as if it were a popup requested from the displayed control.|
+|frame|The frame from which this popup originated.|
+
+<a name="RealignWindow"></a>
+### RealignWindow
 [!INCLUDE[cc_RealignWindow_Action](../includes/cc-realignwindow-action.md)]
-  
-<a name="SetSize"></a>   
-### SetSize  
- This action explicitly sets the width and height of the hosted control. This is particularly useful when using "auto" in your panel layouts.  
-  
-|Parameter|Description|  
-|---------------|-----------------|  
-|width|The width of the hosted control.|  
-|height|The height of the hosted control.|  
-  
-### SetReplacementParameter  
- Sets an arbitrary replacement parameter value to a specified value.  
-  
-|Parameter|Description|  
-|---------------|-----------------|  
-|appname|The hosted control name or key field for the replacement parameter.|  
-|param|The replacement parameter sub key name.|  
-|value|The value to set.|  
-|global|Set this to **true** to set the value in the global session.<br /><br /> Set this to **false** to set the value in the active session.|  
-  
-### TestScriptlet  
- Runs the specified JavaScript as if it were a scriptlet. Upon successful execution, the result is displayed in a message box.  
-  
-<a name="events"></a>   
-## Predefined events  
- There aren’t any predefined events available for this hosted control type.  
-  
-### See also  
- [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)   
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
- [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](http://go.microsoft.com/fwlink/p/?LinkID=394402)
+
+<a name="SetSize"></a>
+### SetSize
+ This action explicitly sets the width and height of the hosted control. This is particularly useful when using "auto" in your panel layouts.
+
+|Parameter|Description|
+|---------------|-----------------|
+|width|The width of the hosted control.|
+|height|The height of the hosted control.|
+
+### SetReplacementParameter
+ Sets an arbitrary replacement parameter value to a specified value.
+
+|Parameter|Description|
+|---------------|-----------------|
+|appname|The hosted control name or key field for the replacement parameter.|
+|param|The replacement parameter sub key name.|
+|value|The value to set.|
+|global|Set this to **true** to set the value in the global session.<br /><br /> Set this to **false** to set the value in the active session.|
+
+### TestScriptlet
+ Runs the specified JavaScript as if it were a scriptlet. Upon successful execution, the result is displayed in a message box.
+
+<a name="events"></a>
+## Predefined events
+ There aren’t any predefined events available for this hosted control type.
+
+### See also
+ [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)
+ [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
+ [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](https://go.microsoft.com/fwlink/p/?LinkID=394402)

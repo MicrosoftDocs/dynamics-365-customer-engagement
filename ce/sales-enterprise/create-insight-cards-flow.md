@@ -87,8 +87,8 @@ In this procedure, we will show as an example how to create an insight to act wh
 
     c. The **If yes** section defines the properties of the card and actions you can take. Here we have selected an action to **Create a card for the assistant**. Enter the following information:
 
-      -  **Organization Name**: The name of the organization for which you want to trigger the card.
-      - **Card Name**: Name of the card to refer to in the list of available cards in the **Manage insight cards** tab of **Dynamics 365 AI for Sales**.
+      - **Organization Name**: The name of the organization for which you want to trigger the card.
+      - **Card Name**: Name of the card to refer to in the list of available cards in the **Manage insight cards** tab of **Dynamics 365 Sales Insights**.
       - **Description**: The summary or the basic information of the card that is to be displayed.
       - **Action**: The convenient links that will help you complete whatever type of action the card is recommending. The number (up to two) and types of links provided here vary by card type.
       - **Action Parameter**: The ID of the created action.

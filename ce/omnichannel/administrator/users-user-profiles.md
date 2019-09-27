@@ -1,9 +1,14 @@
 ---
 title: Create and manage users and user profiles | MicrosoftDocs
 description: Know how to create and manage users and user profiles in the Omnichannel for Customer Service
+<<<<<<< HEAD
 keywords: users and user profiles; Omnichannel for Customer Service
 author: kabala123
 ms.author: kabala
+=======
+author: anjgupta
+ms.author: anjgup
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 manager: shujoshi
 applies_to: 
 ms.date: 10/15/2019
@@ -17,7 +22,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-All Dynamics 365 users who are assigned the **Omnichannel administrator**, **Omnichannel supervisor**, or **Omnichannel agent** security role are enabled for Omnichannel and become Omnichannel users.
+All users who are assigned the **Omnichannel administrator**, **Omnichannel supervisor**, or **Omnichannel agent** security role are enabled for Omnichannel and become Omnichannel users.
 
 For more information on how to create users and assign security roles, see [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md).
 

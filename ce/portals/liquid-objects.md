@@ -434,10 +434,17 @@ The entityview object is used within the entityview tag, and provides access to 
 | entity\_permission\_denied  | Returns true if access to view results was denied due to insufficient Entity Permissions for the current user. Returns false if read access to view results was granted. |
 |    entity\_logical\_name    |                   The Dynamics 365 entity logical name of the view result records. For example, contact                   |
 |         first\_page         |                 The page number of the first page of view results. This will be 1 unless there were no results returned, in which case it will be null.                  |
+<<<<<<< HEAD
 |             Id              |                            The GUID ID of the Dynamics 365 view that defines this entityview.                             |
 |       language\_code        |             The Dynamics 365 integer language code being used to load localized labels for the current view.              |
 |         last\_page          |                                 The page number of the last page of view results. If there were no results returned, this will be null.                                  |
 |            name             |              The name of the Dynamics 365 view that defines this entityview., for example, Active Contacts.               |
+=======
+|             Id              |                            The GUID ID of the model-driven app that defines this entityview.                             |
+|       language\_code        |             The Dynamics 365 integer language code being used to load localized labels for the current view.              |
+|         last\_page          |                                 The page number of the last page of view results. If there were no results returned, this will be null.                                  |
+|            name             |              The name of the model-driven app that defines this entityview., for example, Active Contacts.               |
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 |         next\_page          |                                The page number of the next page of view results. If there is no next page of results, this will be null.                                 |
 |            Page             |                                                           The page number of the current page of view results.                                                           |
 |            pages            |                                          Returns an array of page numbers containing all pages of results for the current view.                                          |

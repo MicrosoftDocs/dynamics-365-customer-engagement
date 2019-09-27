@@ -1,6 +1,6 @@
 ---
 title: "Basic Operations on segments using API| Microsoft Docs" # Intent and product brand in a unique string of 43-59 chars including spaces
-description: The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 for Marketing app."" # 115-145 characters including spaces. This abstract displays in the search result.
+description: The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 Marketing app."" # 115-145 characters including spaces. This abstract displays in the search result.
 ms.custom: ""
 ms.date: 08/27/2019
 ms.reviewer: ""
@@ -23,9 +23,9 @@ A market segment is the collection of contacts that you target in a marketing ca
 The Segmentation API enables programmatic interaction with segment records. The Segmentation API leverages the standard Dynamics 365 API for manipulating entities or messages. More information: [Dynamics 365 Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api). When you create a segment, the properties of the segment are stored in the **msdyncrm_segment** entity. You can browse the entity metadata information using `@odata.context` in the **GET** response.
 
 > [!NOTE]
-> Before you perform operations, you should install the [Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup).
+> Before you perform operations, you should install the [Dynamics 365 Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup).
 
-This topic demonstrates how to perform basic operation on the **msdyncrm_segment** entity. You need to pass the following mandatory fields to create a segment.
+This topic demonstrates how to perform a basic operation on the **msdyncrm_segment** entity. You need to pass the following mandatory fields to create a segment.
 
 |Display name|Schema name|Value|Required|
 |----------|--------------|------|-------|
@@ -198,7 +198,7 @@ DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 Segment members can be added to or removed from the segments. As these operations go beyond a simple add or remove they are referred to as `Include/Exclude` operations.
 
-You can perform Include/exclude operations on segments through API by calling t he following methods:
+You can perform Include/exclude operations on segments through API by calling the following methods:
 
 - **msdyncrm_IncludeMemberInSegment**
 - **msdyncrm_IncludeMembersInSegment**
@@ -330,4 +330,3 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_ValidateSegment
     "ValidationResult": "[{\"ErrorCode\":\"SegmentDciValidator_SegmentInvalid\",\"FieldName\":\"msdyncrm_segmentquery\"}]"
 }
 ```
-

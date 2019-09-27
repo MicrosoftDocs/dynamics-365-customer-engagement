@@ -76,7 +76,7 @@ Use the **Debugger** option to gain insight into the process and code runs in th
 
 #### About
 
-Use the **About** option to view information about the user (agent), the agent's email ID, the Microsoft Dynamics 365 server and organization, Shell Version, and much more.
+Use the **About** option to view information about the user (agent), the agent's email ID, the Common Data Service, Shell Version, and much more.
 
 #### Best Practices Analyzer
 

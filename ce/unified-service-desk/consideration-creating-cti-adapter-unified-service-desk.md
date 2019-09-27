@@ -79,7 +79,11 @@ This topic provides information on things to consider while creating a computer 
 
  Let us configure a sample CTI search rule using the window navigation rule in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. For more information about the window navigation rule, see [Use window navigation rules in Unified Service Desk](../unified-service-desk/use-window-navigation-rules-unified-service-desk.md).  
 
+<<<<<<< HEAD
 1. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement**, and then select **Settings**.  
+=======
+1. On the nav bar, choose **Dynamics 365**.  
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 2. On the nav bar, choose **Settings**, and then select **Window Navigation Rules**.  
 

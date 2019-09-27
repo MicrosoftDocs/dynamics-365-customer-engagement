@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement apps
+applies_to: Dynamics 365 apps
 ms.assetid: 7f992770-8c7b-48ba-806a-63a3634d209c
 caps.latest.revision: 7
 ms.author: mkaur
@@ -32,7 +32,7 @@ Mobile offline allows your users to use the Dynamics 365 for phones app in offli
 
 To allows users to use this feature, a Dynamics 365 administrator will need to set up mobile offline for their organization. 
   
-This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize entities with the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for phones and tablets apps so synchronized records are available when users’ mobile devices are disconnected. To enable mobile offline synchronization, follow the steps below.
+This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize entities with the Dynamics 365 for phones and tablets apps so synchronized records are available when users’ mobile devices are disconnected. To enable mobile offline synchronization, follow the steps below.
  
  
 ## Step 1: Enable entities for mobile offline synchronization 
@@ -346,7 +346,7 @@ Here are a few things to keep in mind about mobile offline synchronization:
   
 - Ensure that any view that you want to work in offline doesn’t reference the entities that are not offline-enabled. For example, assuming Account is in the offline profile, then an Account view that references the primary contact when Contact is not in the profile will not be available.
 
-- Changes to a user’s security privileges are updated during the next synchronization cycle. Until that time, users can continue to access data according to their previous security privileges, but any changes they make will be validated during the synchronization to the Customer Engagement server. If they no longer have privileges to make changes for a record, they will receive an error and the record won’t be created, updated, or deleted.
+- Changes to a user’s security privileges are updated during the next synchronization cycle. Until that time, users can continue to access data according to their previous security privileges, but any changes they make will be validated during the synchronization to the Dynamics 365 server. If they no longer have privileges to make changes for a record, they will receive an error and the record won’t be created, updated, or deleted.
 
 - Any changes to a user’s privilege to view a record won’t take effect on the mobile device until the next synchronization cycle.
   

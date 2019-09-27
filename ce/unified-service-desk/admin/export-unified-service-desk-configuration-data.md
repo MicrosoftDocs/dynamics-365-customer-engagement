@@ -44,4 +44,8 @@ You can export your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified
  [Import Unified Service Desk configuration data](../../unified-service-desk/admin/import-unified-service-desk-configuration-data.md)  
   
 ## See also  
+<<<<<<< HEAD
  [Migrate your Unified Service Desk configuration to another Dynamics 365 Customer Engagement server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
+=======
+ [Migrate your Unified Service Desk configuration to another server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869

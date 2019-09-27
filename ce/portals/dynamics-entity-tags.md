@@ -302,7 +302,11 @@ Loaded entity list {{ entitylist.adx_name }}.
 
 ## entityview
 
+<<<<<<< HEAD
 Loads a given Dynamics 365 view, by name or ID. The properties of the view ߝ view column metadata, paginated result records, etc. can then be accessed using an [entityview object](liquid-objects.md#entityview) that will be available within the tag block.  
+=======
+Loads a given model-driven app, by name or ID. The properties of the view ߝ view column metadata, paginated result records, etc. can then be accessed using an [entityview object](liquid-objects.md#entityview) that will be available within the tag block.  
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 If the view is loaded successfully, the content within the block will be rendered. If the view is not found, the block content will not be rendered.
 
@@ -340,7 +344,11 @@ Loaded default view of the entity list associated with the current page, with {{
 
 ### Parameters
 
+<<<<<<< HEAD
 Provide **either** id **or** logical\_name with name to select the Dynamics 365 view to load. If neither is provided, and the entityview tag is nested within an entitylist tag, the default view of the enclosing entitylist will be loaded.
+=======
+Provide **either** id **or** logical\_name with name to select the model-driven app to load. If neither is provided, and the entityview tag is nested within an entitylist tag, the default view of the enclosing entitylist will be loaded.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 **id**
 

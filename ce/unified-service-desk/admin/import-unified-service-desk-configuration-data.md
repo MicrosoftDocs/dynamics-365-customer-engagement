@@ -29,7 +29,11 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
 <a name="ConfigMigration"></a>   
 ## Import configuration data by using the Configuration Migration tool  
   
+<<<<<<< HEAD
 1. Make sure that the Common Data Service platform instance where you are migrating the configuration data has the required [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package deployed. If it doesn’t, deploy a sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications to Dynamics 365 Customer Engagement server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
+=======
+1. Make sure that the Common Data Service platform instance where you are migrating the configuration data has the required [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package deployed. If it doesn’t, deploy a sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
   
 2. Run the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)], and click **Import data** in the main screen. For information about downloading the tool, see step 1 in [Export Unified Service Desk configuration data](../../unified-service-desk/admin/export-unified-service-desk-configuration-data.md).  
   
@@ -51,7 +55,11 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
   
 - [Download the Unified Service Desk package](http://go.microsoft.com/fwlink/?LinkID=854761) (self-extracting executable file), and double-click the file to extract the contents. You will use the files under one of the default packages to create a sample application. In this example, you’ll use the files under the Base package (*\<ExtractedFolder>*\USDPackageDeployer\BasePackage).  
   
+<<<<<<< HEAD
 - Ensure that you know the prerequisites and how to create a custom package by using the Common Data Service platform SDK template for [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)]. For detailed information about using template to create a package, see [Create packages for the Dynamics 365 Customer Engagement Package deployer](https://msdn.microsoft.com/library/dn688182.aspx).  
+=======
+- Ensure that you know the prerequisites and how to create a custom package by using the Common Data Service platform SDK template for [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)]. For detailed information about using template to create a package, see [Create packages for the Package deployer](https://msdn.microsoft.com/library/dn688182.aspx).  
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
   
 - [Download the CRM SDK package](http://go.microsoft.com/fwlink/?LinkID=627298) (.exe file), and extract it to locate the `PackageDeployer` folder under the *\<ExtractedFolder>*\SDK\Tools\ folder. This folder contains assemblies required for creating a custom project by using [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  
   
@@ -99,8 +107,15 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
   
 12. In the package selection screen, select your custom package to deploy, and follow the wizard screens to deploy the package.  
   
+<<<<<<< HEAD
     [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications to Dynamics 365 Customer Engagement server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
   
 ## See also  
  [Migrate your Unified Service Desk configuration to another Dynamics 365 Customer Engagement server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)   
+=======
+    [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
+  
+## See also  
+ [Migrate your Unified Service Desk configuration to another server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)   
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
  [Troubleshoot Unified Service Desk](../../unified-service-desk/admin/troubleshoot-unified-service-desk.md)

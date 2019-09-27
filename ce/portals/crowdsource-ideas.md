@@ -24,9 +24,15 @@ search.app:
 # Crowdsource ideas
 Learn how to manage Forum Ideas, Idea Comments, and Idea Votes.
 
+<<<<<<< HEAD
 ## Manage idea forums in Dynamics 365
 
 Dynamics 365 users can manage Idea Forum records under the Community tab, provided the portal customizations have been imported into your Dynamics 365 organization.
+=======
+## Manage idea forums
+
+Dynamics 365 users can manage Idea Forum records under the Community tab, provided the portal customizations have been imported into your Common Data Service organization.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 > [!NOTE]
 > - The way in which many of the content/display-oriented attributes are rendered is controlled by the views created by the portal developer.
@@ -54,9 +60,15 @@ The table below explains the standard attributes and relationships of the Idea F
 | Moderators             | Relationship specifying the web roles that have permission to moderate the idea forum. There is currently no front-side moderation functionality built into the idea portal application.|
 | | |
 
+<<<<<<< HEAD
 ## Manage ideas in Dynamics 365
 
 For Dynamics 365 users, provided the portal customizations have been imported into your Dynamics 365 organization, Idea records can be managed under the Community tab.
+=======
+## Manage ideas in Dynamics 365 Portals
+
+For users, provided the portal customizations have been imported into your organization, Idea records can be managed under the Community tab.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 > [!NOTE]
 > If you create an idea, the idea will get one vote automatically on your behalf.
@@ -133,7 +145,11 @@ While creating a new idea, there might be a scenario where a similar idea alread
 
 ## Manage idea comments in Dynamics 365
 
+<<<<<<< HEAD
 For Dynamics 365 users, provided the portal customizations have been imported into your Dynamics 365 organization, Idea Comment records can be managed under the Community tab.
+=======
+For users, provided the portal customizations have been imported into your Common Data Service organization, Idea Comment records can be managed under the Community tab.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 ## Idea comment attributes and relationships
 
@@ -154,7 +170,11 @@ The table below explains the standard attributes and relationships of the Idea C
 
 ## Manage idea votes in Dynamics 365
 
+<<<<<<< HEAD
 For Dynamics 365 users, provided the portal customizations have been imported into your Dynamics 365 organization, Idea Vote records can be managed under the Community tab.
+=======
+For users, provided the portal customizations have been imported into your Common Data Service organization, Idea Vote records can be managed under the Community tab.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 ## Idea vote attributes and relationships
 

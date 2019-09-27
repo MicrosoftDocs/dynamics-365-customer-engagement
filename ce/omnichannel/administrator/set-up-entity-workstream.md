@@ -6,14 +6,18 @@ author: kabala123
 ms.author: kabala	
 manager: shujoshi	
 applies_to: 	
+<<<<<<< HEAD
 ms.date: 10/25/2019
+=======
+ms.date: 09/18/2019
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 ms.service: dynamics-365-customerservice	
 ms.topic: article	
 ms.assetid: 62703F93-3484-4D3E-B682-A9601619567F	
 ms.custom: 	
 ---	
 
-# Entity record workstreams
+# Preview - Entity record workstreams
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 

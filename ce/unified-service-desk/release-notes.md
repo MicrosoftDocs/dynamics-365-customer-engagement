@@ -87,7 +87,11 @@ While you use **Chrome Process** to host applications in Unified Service Desk, i
 
 ### Support for CloseAndPrompt action in Chrome Process
 
+<<<<<<< HEAD
 The Chrome Process does not support the **CloseAndPrompt** action for Dynamics 365 Customer Engagement web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
+=======
+The Chrome Process does not support the **CloseAndPrompt** action for web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 ### Support for Microphone and webcam with Channel Integration Framework
 
@@ -97,7 +101,11 @@ When you integrate a channel with Unified Service Desk using the Channel Integra
 
 #### Support for CloseAndPrompt action in Edge Process
 
+<<<<<<< HEAD
 The Edge Process does not support the **CloseAndPrompt** action for Dynamics 365 Customer Engagement web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
+=======
+The Edge Process does not support the **CloseAndPrompt** action for web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 #### Support for alert dialog with WebView control
 
@@ -197,7 +205,7 @@ With the Unified Interface KM Control hosted control, if you login to Unified Se
 
 To fix the issue, you must manually update the data parameter for the Unified Interface KM Control action call.
 
-In the Dynamics 365 Web Client configurations, go to the action call for opening the KM, and in the **Data** field you can see the parameters like **url**, **postdata**, and **header**.
+In the Web Client configurations, go to the action call for opening the KM, and in the **Data** field you can see the parameters like **url**, **postdata**, and **header**.
 
 ![Action call with the postdata and header parameter](media/manual-update-unified-interface-km-control-action-call-data.PNG "Action call with the postdata and header parameter")
 
@@ -354,7 +362,11 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
 ### Best Practices Analyzer
 
+<<<<<<< HEAD
 - **Warning for HelpImproveUSD parameter in Dynamics 365 Customer Engagement (on-premises)**
+=======
+- **Warning for HelpImproveUSD parameter in Customer Engagement (on-premises)**
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
   Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is enabled/disabled only for the Common Data Service platform. If you are using Customer Engagement (On-premises), you can see a warning for the Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] (HelpImproveUSD) parameter in the report.
 

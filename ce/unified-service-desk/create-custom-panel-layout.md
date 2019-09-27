@@ -9,10 +9,10 @@ ms.assetid: 6b57c966-00ab-4ebe-9d91-07ae9fa100ba
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: 
+search.audienceType:
   - customizer
   - developer
-search.app: 
+search.app:
   - D365CE
   - D365USD
 ---
@@ -195,7 +195,11 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
 1. Sign in to the Common Data Service platform.  
   
+<<<<<<< HEAD
 2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement**, and select **Settings**.  
+=======
+2. On the nav bar, choose **Dynamics 365**.  
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
   
 3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
   
@@ -225,8 +229,8 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
 5. Close the session by clicking cross in the session tab at the top, and the right pane will automatically close/collapse.  
   
    > [!NOTE]
-   >  In case of multiple sessions, the right pane will continue to display until you have closed all the session tabs.  
-  
-### See also  
- [Display hosted controls in the custom panel layout](../unified-service-desk/display-hosted-controls-custom-panel-layout.md)   
+   >  In case of multiple sessions, the right pane will continue to display until you have closed all the session tabs.
+
+### See also
+ [Display hosted controls in the custom panel layout](../unified-service-desk/display-hosted-controls-custom-panel-layout.md)
  [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md)

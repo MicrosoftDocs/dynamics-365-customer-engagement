@@ -25,7 +25,11 @@ Avoid having your service level agreements (SLAs) affected when your service org
 For example, if your service organization has an SLA to reply to email cases within two business days, you can create a holiday schedule and add it to your service calendar. Then, if a customer submits an email case on that holiday, your SLA is clear and is not affected by the holiday closure.  
 
 > [!NOTE]
+<<<<<<< HEAD
 > With the Dynamics 365 Customer Service app version 9.1 release, holiday schedule in service management is available in the Customer Service Hub. We recommend that you create and manage holiday schedules using the new experience.
+=======
+> With the latest release of Dynamics 365 Customer Service app, holiday schedule in service management is available in the Customer Service Hub. We recommend that you create and manage holiday schedules using the new experience.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
  
 ## Create a holiday schedule  (Customer Service Hub)
 Follow these steps to create a new holiday schedule:

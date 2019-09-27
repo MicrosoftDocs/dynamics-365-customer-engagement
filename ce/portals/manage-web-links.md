@@ -27,7 +27,11 @@ A web link can link to any URL or it can link to another webpage within the same
 
 ## Manage web links in Dynamics 365
 
+<<<<<<< HEAD
 For Dynamics 365 users, once the portal customizations have been imported into the Dynamics 365 organization, web links can be managed from a web link set.
+=======
+For Dynamics 365 users, once the portal customizations have been imported into the Common Data Service organization, web links can be managed from a web link set.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 1. Sign in to Dynamics 365 Portals.
 

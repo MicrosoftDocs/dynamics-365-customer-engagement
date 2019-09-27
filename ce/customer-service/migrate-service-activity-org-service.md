@@ -39,8 +39,8 @@ namespace Microsoft.Crm.Sdk.Samples
     class ServiceActivity
     {
         ///<summary>
-        /// This program performs Service Activity Entity migration from legacy Dynamics 365 for Customer Engagement
-        /// to Service Scheduling using Dynamics 365 for Customer Engagement Organization Service
+        /// This program performs Service Activity Entity migration 
+        /// to Service Scheduling using Organization Service
         ///</summary>
         /// <remarks>
         /// Before running this application you must modify configurations

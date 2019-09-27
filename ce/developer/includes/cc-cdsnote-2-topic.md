@@ -1,1 +1,0 @@
-This topic contains information that is applicable only for the on-premises users of Customer Engagement apps.

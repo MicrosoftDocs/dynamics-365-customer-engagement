@@ -33,17 +33,29 @@ Both customers and partners can view projects pertaining to them on the partner 
 
 ## View and approve project quotes on the partner portal
 
+<<<<<<< HEAD
 Customers can view and approve project quotes created in Dynamics 365 that are associated with their organization. After signing in to the portal, the customer navigates to **[!include[](../includes/pn-project-service-auto.md)]** &gt; **Quotes**, and then changes the filter to **Last 7 Days**. From here, the customer will be shown pending quotes along with basic information like **Status** and **Total Amount**. The customer can now select a quote for more details, and approve or reject the quote by selecting **Approve Quote** or **Reject Quote** near the bottom of the page.
 
 ## View project invoices on the partner portal
 
 Customers can view final versions of project invoices on the partner portal after the invoice has been approved in Dynamics 365 and the **Visible to customer** check box has been selected. To view an invoice, the customer must sign in to the partner portal and go to **[!include[](../includes/pn-project-service-auto.md)]** &gt; **Invoices.** Here, the customer can view basic information and select an invoice for more details.
+=======
+Customers can view and approve the created project quotes that are associated with their organization. After signing in to the portal, the customer navigates to **[!include[](../includes/pn-project-service-auto.md)]** &gt; **Quotes**, and then changes the filter to **Last 7 Days**. From here, the customer will be shown pending quotes along with basic information like **Status** and **Total Amount**. The customer can now select a quote for more details, and approve or reject the quote by selecting **Approve Quote** or **Reject Quote** near the bottom of the page.
+
+## View project invoices on the partner portal
+
+Customers can view final versions of project invoices on the partner portal after the invoice has been approved and the **Visible to customer** check box has been selected. To view an invoice, the customer must sign in to the partner portal and go to **[!include[](../includes/pn-project-service-auto.md)]** &gt; **Invoices.** Here, the customer can view basic information and select an invoice for more details.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 ![View invoices in a partner portal](media/view-invoices-partner-portal.png "View invoices in a partner portal")
 
 ## View project contracts and order forms on the partner portal
 
+<<<<<<< HEAD
 Customers can view final versions of project contracts or orders on the partner portal after a project contract has been opened in Dynamics 365 with the **Visible to customer** check box selected on the contract. After signing in to the partner portal, the customer navigates to **[!include[](../includes/pn-project-service-auto.md)]** &gt; **Contracts**. Here, customers can see a sorted list of contracts with some basic information or select a contract for more details.
+=======
+Customers can view final versions of project contracts or orders on the partner portal after a project contract has been opened with the **Visible to customer** check box selected on the contract. After signing in to the partner portal, the customer navigates to **[!include[](../includes/pn-project-service-auto.md)]** &gt; **Contracts**. Here, customers can see a sorted list of contracts with some basic information or select a contract for more details.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 ![View contracts in a partner portal](media/view-contracts-partner-portal.png "View contracts in a partner portal")
 
 ![View quotes in a partner portal](media/view-quotes-partner-portal.png "View quotes in a partner portal")  

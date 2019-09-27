@@ -52,7 +52,7 @@ If you're using a mobile device with Dynamics 365 for phones and tablets install
 ![csh-mobile](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
 
 > [!NOTE]
-> Looking forward to upgrade to the Customer Service Hub app? See [Upgrade to the Customer Service Hub in Microsoft Dynamics 365 for Customer Engagement](upgrade-ish-csh.md)
+> Looking forward to upgrade to the Customer Service Hub app? See [Upgrade to Customer Service Hub](upgrade-ish-csh.md)
 
 
 ## Set up Customer Service Hub or Customer Service app

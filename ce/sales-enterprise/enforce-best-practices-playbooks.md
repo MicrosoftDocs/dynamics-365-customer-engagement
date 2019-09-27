@@ -24,7 +24,11 @@ To start, a team member with a **Playbook manager** role or equivalent permissio
  
 
 > [!NOTE]
+<<<<<<< HEAD
 > The playbook capability is currently available only in the Sales Hub app of Dynamics 365 Sales. It is introduced in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] application version 9.0.1810.4006 and the server version 9.1.0.0263. 
+=======
+> The playbook capability is currently available only in the Sales Hub app of Dynamics 365 Sales. 
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 > To learn about updating an app solution, see [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md). 
 
 ### See also

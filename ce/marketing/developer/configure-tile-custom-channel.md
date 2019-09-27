@@ -1,14 +1,12 @@
 ---
-title: "Step 3: Configure the tile for custom channel (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
-description: "Learn about how to configure a Tile for a custom channel in Dynamics 365 for Marketing."
+title: "Step 3: Configure the tile for custom channel (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+description: "Learn about how to configure a Tile for a custom channel in Dynamics 365 Marketing."
 ms.custom: 
 ms.date: 04/01/2018
 ms.service: crm-online
 ms.technology: 
   - marketing
 ms.topic: conceptual
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: db4ef53d-8a48-4b27-899f-8f4c788bc43c
 author: KumarVivek
 ms.author: kvivek
@@ -28,7 +26,7 @@ Custom channel is exposed as a “tile” in the customer journey designer. You 
 
 Define tile properties of the custom Tile in an XML file. The XML file name should be in the following format: **\<SolutionPublisherPrefix>_\<FileNamePrefix>CustomerJourneyDesignerTileConfig.xml**.
 
-For example if you want to use **SpecialTile** as the name for your XML file then the file name will be the following assuming the [solution publisher prefix](../../customize/change-solution-publisher-prefix.md) in your Customer Engagement instance is "sample": **sample_SpecialTileCustomerJourneyDesignerTileConfig.xml** 
+For example if you want to use **SpecialTile** as the name for your XML file then the file name will be the following assuming the [solution publisher prefix](../../customize/change-solution-publisher-prefix.md) in your Dynamics 365 Marketing instance is "sample": **sample_SpecialTileCustomerJourneyDesignerTileConfig.xml** 
 
 ### Sample Tile XML file 
 

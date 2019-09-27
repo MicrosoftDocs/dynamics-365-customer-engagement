@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: "Customize App for Outlook to auto populate data to the Quick Create form  (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+=======
+title: "Customize App for Outlook to auto populate data to the Quick Create form  (Dynamics 365 apps) | MicrosoftDocs"
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 ms.custom: 
 ms.date: 09/16/2019
 ms.reviewer: 
@@ -7,7 +11,11 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
+<<<<<<< HEAD
 applies_to: Dynamics 365 for Customer Engagement apps
+=======
+applies_to: Dynamics 365 apps
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 99
 author: mduelae
@@ -41,7 +49,11 @@ These fields that will be populated automatically:
 
 To turn this feature on, do the following: 
 
+<<<<<<< HEAD
 1.	In Dynamics 365, go to **Settings** > **Customizations** > **Customize the System**.
+=======
+1.	In your Dynamics 365 apps, go to **Settings** > **Customizations** > **Customize the System**.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 2.	Expand **Entities** and then select the **Case** entity.
 3.	Expand the entity and select **Forms**, then select **Form Order** and  **Quick Create Form Set**.
 4.	Ensure that **App for Outlook Case Quick Create form** is at the top of the list, for it to be used for quick create scenario.

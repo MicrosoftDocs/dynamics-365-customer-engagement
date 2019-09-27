@@ -24,9 +24,15 @@ search.app:
 # Create a custom page template to render an RSS feed
 In this example, we'll create a custom page template to render an [RSS feed](http://en.wikipedia.org/wiki/RSS) of news articles, using Liquid and a Web Template Page Template. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Store source content by using web templates](store-content-web-templates.md)  
 
+<<<<<<< HEAD
 ## Step 1: Create a new Dynamics 365 view
 
 First, we'll create a new Dynamics 365 view that we'll use to load the data for our feed. In this example, we'll make it a view on Web Pages, and use this entity to store our articles. We can use this view to configure the sorting and filtering of results, and include as columns the entity attributes that we want available in our Liquid template.
+=======
+## Step 1: Create a new model-driven app
+
+First, we'll create a new model-driven app that we'll use to load the data for our feed. In this example, we'll make it a view on Web Pages, and use this entity to store our articles. We can use this view to configure the sorting and filtering of results, and include as columns the entity attributes that we want available in our Liquid template.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 ![Edit a page template](media/edit-page-template.png "Edit a page template")  
 
@@ -76,7 +82,11 @@ Now, when we request this new webpage, we'll receive our RSS feed XML:
 
 ![Example of an RSS feed](media/rss-feed-example.png "Example of an RSS feed")  
 
+<<<<<<< HEAD
 In this example, we've seen how we can combine Liquid, Web Templates, Dynamics 365 views, and portals content management features to create a custom RSS feed. The combination of these features adds powerful customization capabilities to any portal application.
+=======
+In this example, we've seen how we can combine Liquid, Web Templates, model-driven app views, and portals content management features to create a custom RSS feed. The combination of these features adds powerful customization capabilities to any portal application.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 ### See also
 

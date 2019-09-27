@@ -31,12 +31,20 @@ Customers can view active and expired agreements that are connected to their acc
 
 ### To create or edit an agreement to be visible on the portal
 
+<<<<<<< HEAD
 1. In Dynamics 365, go to **Field Service** &gt; **Service Delivery** &gt; **Agreements**. 
+=======
+1. Go to **Dynamics 365 Field Service** &gt; **Service Delivery** &gt; **Agreements**. 
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 2. Select an agreement, or select **+ New** at the top of the page to create a new one. 
 3. In the **Service Account** field on the **General** tab, enter the account the customer is connected to. 
 4. Select the **Expose to Customer** check box. 
 
+<<<<<<< HEAD
 Now a customer can sign in to the portal, go to **Field Service** &gt; **Agreements**, and change the filter to **All Agreements** to view the agreements created in Dynamics 365. The page will show basic information, and the customer can select an agreement to view further details about it.
+=======
+Now a customer can sign in to the portal, go to **Field Service** &gt; **Agreements**, and change the filter to **All Agreements** to view the created agreements. The page will show basic information, and the customer can select an agreement to view further details about it.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 ![View agreements in a partner portal](media/view-agreements-partner-portal.png "View agreements in a partner portal")  
 
@@ -46,11 +54,19 @@ Customers can view existing assets that are connected to their account on the pa
 
 ### To create or edit an asset to be visible on the portal
 
+<<<<<<< HEAD
 1. In Dynamics 365, go to **Field Service** &gt; **Service Delivery** &gt; **Customer Assets**. 
 2. Select an asset, or select **+ New** at the top of the page to create a new one. 
 3. Set **Account** to the account the customer is connected to, and then select the **Expose to Customer** check box. 
 
 Now the customer can sign in to the portal and go to **Field Service** &gt; **Assets** to see the assets created in Dynamics 365. The customer will be able to see each asset connected to their account, along with the parent or master assets the asset is connected to.
+=======
+1. Go to **Dynamics 365 Field Service** &gt; **Service Delivery** &gt; **Customer Assets**. 
+2. Select an asset, or select **+ New** at the top of the page to create a new one. 
+3. Set **Account** to the account the customer is connected to, and then select the **Expose to Customer** check box. 
+
+Now the customer can sign in to the portal and go to **Field Service** &gt; **Assets** to see the created assets. The customer will be able to see each asset connected to their account, along with the parent or master assets the asset is connected to.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 ![View assets in a partner portal](media/view-assets-partner-portal.png "View assets in a partner portal")
 
@@ -59,11 +75,19 @@ Now the customer can sign in to the portal and go to **Field Service** &gt; **As
 Customers can view active and inactive work orders that are connected to their account on the partner portal if they have the correct web role and the work order was created properly. They must have the FS Customer Approver or FS Customer Review web role. 
 
 > [!Note]
+<<<<<<< HEAD
 > A work order must be defined as viewable in Dynamics 365 before it can be viewed in a portal.
 
 ### To make a work order viewable in a portal
 
 1. In Dynamics 365, go to **Field Service** &gt; **Work Order & Schedule** &gt; **Work Orders**. 
+=======
+> A work order must be defined as viewable before it can be viewed in a portal.
+
+### To make a work order viewable in a portal
+
+1. Go to **Dynamics 365 Field Service** &gt; **Work Order & Schedule** &gt; **Work Orders**. 
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 2. Select the work order you want to edit, or select **+ New** to create a new one. 
 3. In **Service Account**, enter the account the customer is connected to, and then select the **Expose to Customer** check box to allow a customer to view it on the portal. 
 
@@ -76,11 +100,19 @@ After signing in to the portal, the customer can go to **Field Service** &gt; **
 Customers can view active and inactive invoices that are connected to their account on the partner portal if they have the correct web role and the work order was created properly. They must have the FS Customer Approver or FS Customer Review web role. 
 
 > [!Note]
+<<<<<<< HEAD
 > An invoice must be defined as viewable in Dynamics 365 before it can be viewed in a portal.
 
 ### To make an invoice viewable in a portal
 
 1. In Dynamics 365, go to **Field Service** &gt; **Service Delivery** &gt; **Invoices**. 
+=======
+> An invoice must be defined as viewable before it can be viewed in a portal.
+
+### To make an invoice viewable in a portal
+
+1. Go to **Dynamics 365 Field Service** &gt; **Service Delivery** &gt; **Invoices**. 
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 2. Select the invoice to edit it, or select **+ New** to create a new one. Be sure that the invoice is on the **Invoice** section of the drop-down menu on the upper-left side of the page. 
 3. Enter the necessary details for the invoice, and then select the **Expose to Customer** check box. 
 

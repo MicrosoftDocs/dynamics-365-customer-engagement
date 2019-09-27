@@ -25,7 +25,11 @@ search.app:
 
 Web form subgrids are configured in an identical fashion to entity form subgrids: first, create a metadata record for the Web form step that has a subgrid, and then add configuration metadata.
 
+<<<<<<< HEAD
 Adding subgrids to your managed forms on the portal is easy—just add the subgrid to the Dynamics 365 form that you are managing by using the out-of-the-box Dynamics 365 form designer, and you’re done. The grid will use the view that is specified in the Dynamics 365 form designer, show only related records if that option was chosen in Dynamics 365, optionally show a search bar, and even respect [entity permissions for portals](assign-entity-permissions.md). It doesn't get any simpler to display a read-only list of records. To enable actions for the grid— Create, Update, Delete, and so on—you must configure those actions by using metadata configuration.
+=======
+Adding subgrids to your managed forms on the portal is easy—just add the subgrid to the Dynamics 365 form that you are managing by using the out-of-the-box Dynamics 365 form designer, and you’re done. The grid will use the view that is specified in Common Data Service form designer, show only related records if that option was chosen, optionally show a search bar, and even respect [entity permissions for portals](assign-entity-permissions.md). It doesn't get any simpler to display a read-only list of records. To enable actions for the grid— Create, Update, Delete, and so on—you must configure those actions by using metadata configuration.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 ## Add subgrid metadata to your form
 

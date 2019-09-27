@@ -20,7 +20,7 @@ Omnichannel for Customer Service is a customizable application you can effective
 
 ## Access Omnichannel for Customer Service for administrators
 
-1. Provision the Omnichannel for Customer Service app. Follow the steps given in [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to set up and enable the Omnichannel for Customer Service app in your Dynamics 365 instance.
+1. Provision the Omnichannel for Customer Service app. Follow the steps given in [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to set up and enable the Omnichannel for Customer Service app in your instance.
 
 2. Once the app is enabled, go to the apps page, navigate to the app switcher and then select **Omnichannel Administration**.
 
@@ -54,4 +54,8 @@ You can view the entities in the **Omnichannel Administration** site map.
 - [Create quick replies](create-quick-replies.md)<br>
 - [Create and manage operating hours](create-operating-hours.md)<br>
 - [Create chat authentication settings](create-chat-auth-settings.md)<br>
+<<<<<<< HEAD
 - [Embed chat widget in Dynamics 365 Portal](embed-chat-widget-portal.md)
+=======
+- [Embed chat widget in Dynamics 365 Portals](embed-chat-widget-portal.md)
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869

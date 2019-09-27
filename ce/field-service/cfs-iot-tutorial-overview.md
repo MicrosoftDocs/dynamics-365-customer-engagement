@@ -8,8 +8,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: activate-fs-mobile-app-license
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: vihuang
 author: FieldServiceDave
 ms.reviewer: krbjoran

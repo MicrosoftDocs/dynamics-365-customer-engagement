@@ -1,7 +1,6 @@
 ---
-title: Set custom icon for custom Case Origin field (Dynamics 365 for Customer Engagement) | MicrosoftDocs
-description: Know how to set custom icon for custom Case Origin field in Dynamics 365 for Customer Engagement
-keywords: Custom Case Origin field; Dynamics 365 for Customer Engagement; Customer Service
+title: Set custom icon for custom Case Origin field (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Know how to set custom icon for custom Case Origin field in Dynamics 365 Customer Service
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi

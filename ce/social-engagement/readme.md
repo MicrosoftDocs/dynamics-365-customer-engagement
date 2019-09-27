@@ -5,19 +5,19 @@ keywords: readme, known issues, information
 ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
+applies_to:
   - Social Engagement
 ms.assetid: e32849dd-2e8d-4cf0-8561-e3c865120d57
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.custom: 
+ms.custom:
   - dyn365-socialengagement
-search.audienceType: 
+search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
+search.app:
   - D365CE
   - D365SE
 ---
@@ -30,7 +30,7 @@ This document provides important, late-breaking information about [!INCLUDE [pn-
 
 ## Resources
 
-Visit the [Social Engagement Help Center](http://go.microsoft.com/fwlink/?LinkID=394325) on Microsoft Docs to find help content for admins and users.
+Visit the [Social Engagement Help Center](https://go.microsoft.com/fwlink/?LinkID=394325) on Microsoft Docs to find help content for admins and users.
 
 Do you have an idea how to further improve the service or app? Go to the [Ideas forum for Social Engagement](https://experience.dynamics.com/ideas/list/?forum=0a0bebf4-8bef-e511-80ba-00155d03a726) and let us know. For questions and feedback in general, please go to the [Community forum](https://community.dynamics.com/crm/f/752).
 
@@ -152,7 +152,7 @@ authors.](https://docs.microsoft.com/dynamics365/customer-engagement/social-enga
 
 ### Unknown Instagram authors
 
-Instagram authors are currently listed as "Unknown Author" in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. This is a temporary issue and will be fixed with one of the upcoming releases. 
+Instagram authors are currently listed as "Unknown Author" in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. This is a temporary issue and will be fixed with one of the upcoming releases.
 
 ## Search setup - known issues
 
@@ -160,9 +160,9 @@ Instagram authors are currently listed as "Unknown Author" in [!INCLUDE[pn_netbr
 
 When you try to create a stream in Social Center based on a search rule with keywords including the **%** character, its creation will fail. Please avoid creating streams based on keywords rules including the % character. Alternatively, consider removing the % character from the keyword rule before creating the stream.
 
-### Changing search topic category not reflected in the UI   
+### Changing search topic category not reflected in the UI
 
-When the category on an existing search topic is changed, the search topic still shows the previously selected category. Although the changes are saved, you need to refresh the browser to see the change reflected correctly. 
+When the category on an existing search topic is changed, the search topic still shows the previously selected category. Although the changes are saved, you need to refresh the browser to see the change reflected correctly.
 
 ### Retweets not acquired if keyword is after the 140th character
 
@@ -218,7 +218,7 @@ labels for Greek.
 
 ### Error messages for private messages aren't translated
 
-On private message attachments, the error messages for an attachment that couldn't be retrieved or was deleted are not translated. These translations will be available with the next release. 
+On private message attachments, the error messages for an attachment that couldn't be retrieved or was deleted are not translated. These translations will be available with the next release.
 
 ## General known issues
 
@@ -276,13 +276,13 @@ session with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-shor
 
 In Microsoft Edge or Internet Explorer, if you select too many authors and then
 select **Include**, the Authors widget in Full view mode might stop responding.
-The workaround is to refresh your browser, select fewer authors, and select 
+The workaround is to refresh your browser, select fewer authors, and select
 **Include** again.
 
 ### Facebook pages can’t be authenticated in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
-Authenticating and reauthenticating Facebook pages as social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] might fail in some cases due to a Facebook authentication issue. Currently there is no workaround available for this issue. 
+Authenticating and reauthenticating Facebook pages as social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] might fail in some cases due to a Facebook authentication issue. Currently there is no workaround available for this issue.
 
 ### Facebook page access tokens expire daily
 
-Currently the Facebook page access tokens are expiring daily and you need to reauthenticate them. Due to issues with reauthentication of Facebook pages, in some cases a reauthentication will not be possible. 
+Currently the Facebook page access tokens are expiring daily and you need to reauthenticate them. Due to issues with reauthentication of Facebook pages, in some cases a reauthentication will not be possible.

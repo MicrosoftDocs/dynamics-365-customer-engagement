@@ -68,7 +68,11 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 1. Download [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and Package Deployer and save them on your computer. See [Download Unified Service Desk](../download-unified-service-desk.md).
 
+<<<<<<< HEAD
 2. Run the downloaded file to extract the Dynamics 365 Customer Engagement Package deployer into a folder.
+=======
+2. Run the downloaded file to extract the Package deployer into a folder.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 3. After the files are extracted, if the Package Deployer tool starts automatically, close it.
 

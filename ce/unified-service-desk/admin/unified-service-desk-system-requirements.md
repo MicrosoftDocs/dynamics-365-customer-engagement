@@ -61,7 +61,11 @@ Supported Unified Service Desk versions are:
 
 
 > [!Note]
+<<<<<<< HEAD
 > If you are using older versions, we recommend upgrading to the latest version of Unified Service Desk and Microsoft Dynamics 365 Customer Engagement.
+=======
+> If you are using older versions, we recommend upgrading to the latest version of Unified Service Desk and Dynamics 365 Customer Service.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 
 <a name="packdeploy"></a>   
@@ -78,7 +82,7 @@ Supported Unified Service Desk versions are:
 
 ## Impact of Unified Interface Only availability with Unified Service Desk
 
-You have deployed Unified Service Desk in a Customer Engagement Sandbox environment and when you reset the sandbox environment, you will have only the Unified Interface experience. To enable the Web Client experience, set **No** for the **Use the new Unified Interface Only** option in the system settings. More information: [How to enable/disable Unified Interface Only mode](/dynamics365/customer-engagement/admin/enable-unified-interface-only#how-to-enable-unified-interface-only-mode).
+You have deployed Unified Service Desk in a Customer Engagement Sandbox environment and when you reset the sandbox environment, you will have only the Unified Interface experience. To enable the Web Client experience, see [How to enable/disable Unified Interface Only mode](/dynamics365/customer-engagement/admin/enable-unified-interface-only#how-to-enable-unified-interface-only-mode).
 
 After you enable the Web Client experience, go to the Window Navigation Rules and update the navigation URLs for the all the rules.
 

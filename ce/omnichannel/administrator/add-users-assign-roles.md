@@ -23,7 +23,7 @@ All users who are assigned the **Omnichannel administrator**, **Omnichannel supe
 > To configure Omnichannel, you must assign the **Omnichannel administrator** role mandatorily along with system administrator role.
 
 > [!IMPORTANT]
-> To enable users for Omnichannel, your org should have successfully on-boarded to the Omnichannel public preview. Refer [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to provision Omnichannel in your Dynamics 365 org.
+> To enable users for Omnichannel, your org should have successfully on-boarded to the Omnichannel public preview. Refer [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to provision Omnichannel in your Common Data Service org.
 
 Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. For more information, see  [Create users in the Common Data Service platform and assign security roles](../../admin/create-users-assign-online-security-roles.md).
 

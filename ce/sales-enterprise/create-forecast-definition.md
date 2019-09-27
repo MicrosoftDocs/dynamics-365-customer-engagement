@@ -22,7 +22,11 @@ manager: shujoshi
 
 Capture information about parameters such as the period for which the forecast should be generated or the data to use for forecasting.
 
+<<<<<<< HEAD
 Sales forecasting has security roles that are defined specifically to create and publish forecast definitions. The following security roles are defined in Dynamics 365 Sales for sales forecast: 
+=======
+Sales forecasting has security roles that are defined specifically to create and publish forecast definitions. The following security roles are defined in Dynamics 365 Sales for forecast: 
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 | Security role        |	Description                                 |
 |----------------------|----------------------------------------------|  

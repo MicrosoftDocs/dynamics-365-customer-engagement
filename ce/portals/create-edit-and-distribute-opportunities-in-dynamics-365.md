@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: "Create, edit, and distribute opportunities in Dynamics 365 | MicrosoftDocs"
+=======
+title: "Create, edit, and distribute opportunities | MicrosoftDocs"
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 description: "Learn about how you can use opportunities to notify your partners of sales prospects that they can follow up on."
 ms.custom: 
   - dyn365-portal
@@ -21,7 +25,11 @@ search.app:
   - D365CE
   - D365Portals
 ---
+<<<<<<< HEAD
 # Create, edit, and distribute opportunities in Dynamics 365
+=======
+# Create, edit, and distribute opportunities
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 In your partner portal, you can use opportunities to notify your partners of sales prospects that they can follow up on. You may have opportunities for existing customers or from new customers, and by distributing them to your partners, you can create new revenue sources or strengthen relationships with current customers.
 
@@ -71,8 +79,16 @@ After an opportunity has been properly distributed to a partner, information on 
 
 ## Register a deal for a new or existing opportunity
 
+<<<<<<< HEAD
 Partners can register deals for opportunities that they have made on the portal to have exclusivity on the opportunity. Partners first navigate to the opportunity they have created on the portal and find the “Register” button at the bottom of the page. This creates a Deal Registration Request that can be seen on the opportunity in Dynamics 365.
 
 ## Approve opportunities registered by a partner
 
 After an opportunity has been made by a partner through the portal, the opportunity will appear as an open opportunity in Dynamics 365. Navigate to the opportunity through **Sales** &gt; **Opportunities** and it will function like any other opportunity created in Dynamics 365. To approve the opportunity, change its status to **Accepted**.
+=======
+Partners can register deals for opportunities that they have made on the portal to have exclusivity on the opportunity. Partners first navigate to the opportunity they have created on the portal and find the “Register” button at the bottom of the page. This creates a Deal Registration Request that can be seen on the opportunity.
+
+## Approve opportunities registered by a partner
+
+After an opportunity has been made by a partner through the portal, the opportunity will appear as an open opportunity. Navigate to the opportunity through **Sales** &gt; **Opportunities** and it will function like any other opportunity. To approve the opportunity, change its status to **Accepted**.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869

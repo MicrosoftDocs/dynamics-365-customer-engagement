@@ -23,7 +23,11 @@ search.app:
 Dynamics 365 Customer Service includes a subject organizational structure that lets you mark and categorize service cases, knowledge base articles, and products. By using the subject hierarchy, you can classify service cases to quickly provide service to your customer.
 
 > [!NOTE]
+<<<<<<< HEAD
 > With the Dynamics 365 Customer Service app version 9.1 release, subjects in service management is available in the Customer Service Hub. You are recommended to create and manage subjects using the new experience.
+=======
+> With the latest release of Dynamics 365 Customer Service app, subjects in service management is available in the Customer Service Hub. You are recommended to create and manage subjects using the new experience.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
   
 ## Create or edit a subject  
 

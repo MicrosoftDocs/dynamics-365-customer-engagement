@@ -9,13 +9,13 @@ ms.assetid: 2ad0f5dc-24c6-4cad-a8e2-f88361765607
 author: m-hartmann
 ms.author: mhart
 ms.manager: shellyha
-ms.custom: 
+ms.custom:
   - dyn365-socialengagement
-search.audienceType: 
+search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
+search.app:
   - D365CE
   - D365SE
 ---
@@ -75,10 +75,10 @@ If you're gathering posts that mention your main competitor, you can set up a tr
 
 [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] users can add [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] charts and visuals to dashboards or to account, contact, or competitor forms.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for Customer Engagement Help & Training: Add Social Engagement visuals to a dashboard or account](http://go.microsoft.com/fwlink/p/?LinkID=391707)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for Customer Engagement Help & Training: Add Social Engagement visuals to a dashboard or account](https://go.microsoft.com/fwlink/p/?LinkID=391707)
 
 ### See also
 
-[Connect Dynamics 365 for Customer Engagement apps and Social Engagement](connect-dynamics-365-social-engagement.md)   
-[Link posts from Social Engagement to Dynamics 365 for Customer Engagement apps](link-posts-to-dynamics-365.md)   
+[Connect Dynamics 365 for Customer Engagement apps and Social Engagement](connect-dynamics-365-social-engagement.md)
+[Link posts from Social Engagement to Dynamics 365 for Customer Engagement apps](link-posts-to-dynamics-365.md)
 [Work with posts](work-with-posts.md)

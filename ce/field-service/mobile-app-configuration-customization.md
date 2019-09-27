@@ -10,8 +10,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 author: krbjoran
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
@@ -71,7 +69,7 @@ Moving beyond the traditional entity-view-form layout, mobile customizers can re
 Now that we've looked at a few of the common display customizations, let's take a look at how you can configure the app to work in ways that suit your business and security needs. 
 
 ### Security controls
-By default, mobile app users have access to data based on their Dynamics 365 for Customer Engagement security roles; however, mobile administrators can further restrict security at the entity and field level. 
+By default, mobile app users have access to data based on their Dynamics 365 security roles; however, mobile administrators can further restrict security at the entity and field level. 
 
 For example, a specific security role may grant a user access to view *and create* purchase orders in the web browser, but when logged into the mobile app, the user is restricted to only *viewing* purchase orders. Additionally, a user may be allowed to edit the work order sub status field in the browser, but can only view the field in the mobile app.
 

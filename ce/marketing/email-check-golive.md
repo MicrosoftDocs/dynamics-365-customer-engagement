@@ -1,14 +1,11 @@
 ---
-title: "Check your message for errors and prepare it for delivery (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "Learn how to finalize your email message, check it for errors, go live, and schedule it for delivery using a customer journey in Dynamics 365 for Marketing"
+title: "Check your message for errors and prepare it for delivery (Dynamics 365 Marketing) | Microsoft Docs "
+description: "Learn how to finalize your email message, check it for errors, go live, and schedule it for delivery using a customer journey in Dynamics 365 Marketing"
 ms.date: 08/21/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 8ced29cc-48df-4e8b-a4a9-1a850105b2b7
 author: kamaybac
 ms.author: kamaybac
@@ -46,9 +43,9 @@ All messages must include the following:
 The following are also confirmed by the check:
 
 - All dynamic expressions and HTML code must compile and generate valid values.
-- All referenced images must exist in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
+- All referenced images must exist in Dynamics 365 Marketing.
 - The To field must be an expression (not static) that results in a valid email address; this is normally handled automatically by the customer journey that sends the mail, but some advanced scenarios allow for customization here.
-- The from-address should use a domain that is authenticated and registered using DKIM as belonging to your organization. You can go live with a from-address that uses an unauthenticated domain, but you'll get a warning because this isn't recommended. You can't go live with a domain that is authenticated as belonging to another organization (this generates an error). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Authenticate your domains](marketing-settings.md#authenticate)
+- The from-address should use a domain that is authenticated and registered using DKIM as belonging to your organization. You can go live with a from-address that uses an unauthenticated domain, but you'll get a warning because this isn't recommended. You can't go live with a domain that is authenticated as belonging to another organization (this generates an error). More information: [Authenticate your domains](mkt-settings-authenticate-domains.md)
 
 <a name="go-live-journey"></a>
 
@@ -56,17 +53,17 @@ The following are also confirmed by the check:
 
 While you prepare a message, it stays in a draft state, which means that it's inactive and can't be sent. To send it, you must first go live with it (which activates its dynamic content and moves it to the bulk messaging server), and then add it to a customer journey.
 
-To publish a message, open it and select **Go Live** on the command bar. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] will run a final validation check, as described in the previous section, and&mdash;if it passes&mdash;publish the message. If errors are returned, read the error messages, address the issues, and try again until the message is successfully published.
+To publish a message, open it and select **Go Live** on the command bar. Dynamics 365 Marketing will run a final validation check, as described in the previous section, and&mdash;if it passes&mdash;publish the message. If errors are returned, read the error messages, address the issues, and try again until the message is successfully published.
 
 To address, schedule and deliver the message, set up a customer journey that includes a segment tile to define the target audience and an email tile that references your live email design and delivers it to each contact that enters the tile. You can also include any number of other tiles, including triggers and follow-up actions. To run the customer journey and begin sending messages, choose a start date and end date and go live.
 
 [!INCLUDE [cc-marketing-email-size](../includes/cc-marketing-email-size.md)]
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md) and [Go live with publishable entities and track their status](go-live.md)
+More information: [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md) and [Go live with publishable entities and track their status](go-live.md)
 
 ## Gain insights from your email results
 
-Once you start delivering an email message using a customer journey, Dynamics 365 for Marketing will begin to collect information about how recipients interact with that message.  The system provides a wealth of information, including analyitics, KPIs, graphs, and more, to help you gain insights from your marketing results. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Analyze results to gain insights from your marketing activities](insights.md)
+Once you start delivering an email message using a customer journey, Dynamics 365 Marketing will begin to collect information about how recipients interact with that message.  The system provides a wealth of information, including analyitics, KPIs, graphs, and more, to help you gain insights from your marketing results. More information: [Analyze results to gain insights from your marketing activities](insights.md)
 
 ### See also
 

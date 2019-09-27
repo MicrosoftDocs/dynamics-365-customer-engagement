@@ -8,8 +8,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: activate-fs-mobile-app-license
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 author: FieldServiceDave
 ms.author: daclar
 ms.manager: shellyhaverkamp
@@ -30,7 +28,7 @@ The mobile configurator allows your organization to use, administer, and customi
 
 A 30-day trial automatically starts when you install the mobile configuration tool for your Dynamics 365 instance. You need to submit a request to activate the trial before the trial period ends. You must activate the configurator to continue using and customizing the Field Service Mobile app.
 
-Complete the [activation request form for the mobile configurator](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u) for **1 license**. Note that you need the Dynamics 365 for Customer Engagement organization ID to complete the request form.
+Complete the [activation request form for the mobile configurator](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u) for **1 license**. Note that you need the Dynamics 365 organization ID to complete the request form.
 
 
 ## Additional notes

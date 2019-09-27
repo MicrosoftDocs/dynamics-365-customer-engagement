@@ -59,7 +59,11 @@ Review the following prerequisites before configuring the supervisor dashboard:Â
 
 -  You must have **Power BI Pro** or **Power BI Premium** license for all supervisors and administrators.Â 
 
+<<<<<<< HEAD
 -  You must enable to embed Power BI reports in Dynamics 365 for **Omnichannel for Customer Service** app on web.
+=======
+-  You must enable to embed Power BI reports in **Omnichannel for Customer Service** app on web.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
     1.	Sign in to **Dynamics 365 Customer Service** and go to **Settings** > **Administration** > **System Settings**.
     2.	Go to **Reporting** tab and configure **Allow Power BI visualization embedding** as **Yes**.
     

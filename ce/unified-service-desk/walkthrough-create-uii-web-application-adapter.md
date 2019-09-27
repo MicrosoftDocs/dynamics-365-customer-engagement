@@ -9,56 +9,56 @@ ms.assetid: 0b4f5456-deef-41e9-ac58-13a2a0ce5de2
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: 
+search.audienceType:
   - customizer
   - developer
-search.app: 
+search.app:
   - D365CE
   - D365USD
 ---
 # Walkthrough: Create a UII Web Application Adapter
 You can create a web application adapter if you want to enhance and modify web applications for which you don’t have access to the source code or don’t have permissions to change by using managed code. The Common Data Service platform provides a [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] template for creating a web application adapter. The template provides basic code as comments to help you get started with creating the web application adapter.  
 
- In this walkthrough, you’ll build an external web application called `QsWebApplication` and host it in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. You’ll then create and configure a web application adapter called `MyWebApplicationAdapter` for the external web application to interact with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. The web application has four labels, one each for the customer’s first name, last name, address, and ID and four corresponding text boxes to display the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] values.  
+ In this walkthrough, you’ll build an external web application called `QsWebApplication` and host it in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. You’ll then create and configure a web application adapter called `MyWebApplicationAdapter` for the external web application to interact with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. The web application has four labels, one each for the customer’s first name, last name, address, and ID and four corresponding text boxes to display the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] values.
 
-<a name="Prereq"></a>   
-## Prerequisites  
+<a name="Prereq"></a>
+## Prerequisites
 
-- [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] 4.6.2  
+- [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] 4.6.2
 
-- [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application; required for testing the hosted control.  
+- [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application; required for testing the hosted control.
 
-- [!INCLUDE[pn_microsoft_visual_studio_2012](../includes/pn-microsoft-visual-studio-2012.md)], [!INCLUDE[pn_visual_studio_2013](../includes/pn-visual-studio-2013.md)], or [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)]  
+- [!INCLUDE[pn_microsoft_visual_studio_2012](../includes/pn-microsoft-visual-studio-2012.md)], [!INCLUDE[pn_visual_studio_2013](../includes/pn-visual-studio-2013.md)], or [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)]
 
-- [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
+- [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](https://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](https://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)
 
-- **CRM SDK Templates** for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the UII hosted control project template. [Download](http://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+- **CRM SDK Templates** for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the UII hosted control project template. [Download](https://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].
 
-<a name="Build"></a>   
-## Step 1: Build a sample web application  
+<a name="Build"></a>
+## Step 1: Build a sample web application
 
-1. [Download the UII SDK package (.exe)](http://go.microsoft.com/fwlink/p/?LinkId=519179)  
+1. [Download the UII SDK package (.exe)](https://go.microsoft.com/fwlink/p/?LinkId=519179)
 
-2. Double-click the package file to extract the contents.  
+2. Double-click the package file to extract the contents.
 
-3. Navigate to the \<ExtractedFolder>\UII\SampleCode\UII\AIF\QsWebApplication folder, and open the Microsoft.Uii.QuickStarts.QsWebApplication.csproj file in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+3. Navigate to the \<ExtractedFolder>\UII\SampleCode\UII\AIF\QsWebApplication folder, and open the Microsoft.Uii.QuickStarts.QsWebApplication.csproj file in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].
 
-4. Press F5 or choose **Debug** > **Start Debugging** to host the sample web application locally on your computer. The application will be hosted at http://localhost:2627/.  
+4. Press F5 or choose **Debug** > **Start Debugging** to host the sample web application locally on your computer. The application will be hosted at http://localhost:2627/.
 
-   ![Web app in Visual Studio](../unified-service-desk/media/usd-web-app-local-host.png "Web app in Visual Studio")  
+   ![Web app in Visual Studio](../unified-service-desk/media/usd-web-app-local-host.png "Web app in Visual Studio")
 
 <a name="ConfigureExApp"></a>   
 ## Step 2: Configure a web application
 
 1. Sign in to the Common Data Service platform.  
 
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 
-3. Choose **Hosted Controls**.  
+3. Choose **Hosted Controls**.
 
-4. Choose **New**.  
+4. Choose **New**.
 
-5. On the **New Hosted Control** page, specify the following values.  
+5. On the **New Hosted Control** page, specify the following values.
 
 
    |           Field            |                                                 Value                                                 |
@@ -75,20 +75,24 @@ You can create a web application adapter if you want to enhance and modify web a
 
    ![Screenshot of Web App Config](../unified-service-desk/media/usd-web-app-crm-config.png "Screenshot of Web App Config")  
 
-6. Choose **Save**.  
+6. Choose **Save**.
 
-<a name="TestExApp"></a>   
-## Step 3: Test the web application  
+<a name="TestExApp"></a>
+## Step 3: Test the web application
 
-1. Make sure that the sample web application that you built in step 1 is still running.  
+1. Make sure that the sample web application that you built in step 1 is still running.
 
+<<<<<<< HEAD
 2. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your **Microsoft Dynamics 365 Customer Engagement** server.  
+=======
+2. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Common Data Service platform server.  
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
-3. On successful sign in, you’ll see the **Sample External Web Application** on your desktop.  
+3. On successful sign in, you’ll see the **Sample External Web Application** on your desktop.
 
-4. Click the **Sample External Web Application** tab to see your web application hosted within **Unified Service Desk**.  
+4. Click the **Sample External Web Application** tab to see your web application hosted within **Unified Service Desk**.
 
-   ![Hosting web app in Unified Service Desk](../unified-service-desk/media/usd-web-app-hosting.PNG "Hosting web app in Unified Service Desk")  
+   ![Hosting web app in Unified Service Desk](../unified-service-desk/media/usd-web-app-hosting.PNG "Hosting web app in Unified Service Desk")
 
 > [!NOTE]
 >  At this point the fields are empty because you’re only hosting the external web application in **Unified Service Desk**. To populate them with values from **Unified Service Desk**, we have to create a web application adapter as illustrated in the next step.  
@@ -185,7 +189,11 @@ You can create a web application adapter if you want to enhance and modify web a
 
 1. Sign in to the Common Data Service platform.  
 
+<<<<<<< HEAD
 2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement**, and then select **Settings**.  
+=======
+2. On the nav bar, choose **Dynamics 365**.  
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
 
@@ -204,29 +212,33 @@ You can create a web application adapter if you want to enhance and modify web a
    ![Web adapter configuration](../unified-service-desk/media/usd-web-app-adapter-config.PNG "Web adapter configuration")  
 
    > [!NOTE]
-   > **URI** is the name of your assembly and the **Type** is the name of your assembly (dll) followed by a dot (.) and then the class name in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project. In this example, the name of the assembly is MyWebApplicationAdapter and name of the class is WebAdapter, which is the default class name when you create a web application adapter.  
+   > **URI** is the name of your assembly and the **Type** is the name of your assembly (dll) followed by a dot (.) and then the class name in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project. In this example, the name of the assembly is MyWebApplicationAdapter and name of the class is WebAdapter, which is the default class name when you create a web application adapter.
 
-6. Choose **Save** to save the changes.  
+6. Choose **Save** to save the changes.
 
-<a name="TestAppAdapter"></a>   
-## Step 6: Test the web application adapter  
+<a name="TestAppAdapter"></a>
+## Step 6: Test the web application adapter
 
-1. Copy the assembly that contains your web application adapter definition from your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project output folder (\<ProjectFolder>\bin\debug) to the Unified Service Desk application directory. In this case, you’ll copy the MyWebApplicationAdapter.dll file to the c:\Program Files\Microsoft Dynamics CRM USD\USD directory.  
+1. Copy the assembly that contains your web application adapter definition from your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project output folder (\<ProjectFolder>\bin\debug) to the Unified Service Desk application directory. In this case, you’ll copy the MyWebApplicationAdapter.dll file to the c:\Program Files\Microsoft Dynamics CRM USD\USD directory.
 
+<<<<<<< HEAD
 2. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Common Data Service platform server.  
+=======
+2. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps server.
+>>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
-3. On successful sign in, you will see the sample external web application button on your desktop.  
+3. On successful sign in, you will see the sample external web application button on your desktop.
 
-4. Choose **Search** and then choose **Contacts** and select a contact. In this case, select **Patrick Sands**.  
+4. Choose **Search** and then choose **Contacts** and select a contact. In this case, select **Patrick Sands**.
 
-   ![Screenshot of contact list](../unified-service-desk/media/usd-web-app-adapter-contacts-list.PNG "Screenshot of contact list")  
+   ![Screenshot of contact list](../unified-service-desk/media/usd-web-app-adapter-contacts-list.PNG "Screenshot of contact list")
 
-5. Click **Sample External Web Application** and you’ll see the customer’s first name, last name, address, and ID populated.  
+5. Click **Sample External Web Application** and you’ll see the customer’s first name, last name, address, and ID populated.
 
-   ![Testing WebApp Adapter screenshot](../unified-service-desk/media/usd-web-app-adapter-test.PNG "Testing WebApp Adapter screenshot")  
+   ![Testing WebApp Adapter screenshot](../unified-service-desk/media/usd-web-app-adapter-test.PNG "Testing WebApp Adapter screenshot")
 
 > [!NOTE]
->  This walkthrough showed you how to read or display data from [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] in the external web application. To update the data in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] from the external web application, and vice versa, see [Walkthrough: Create a UII Windows Forms Hosted Control](../unified-service-desk/walkthrough-create-uii-windows-forms-hosted-control.md)  
+>  This walkthrough showed you how to read or display data from [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] in the external web application. To update the data in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] from the external web application, and vice versa, see [Walkthrough: Create a UII Windows Forms Hosted Control](../unified-service-desk/walkthrough-create-uii-windows-forms-hosted-control.md)
 
-### See also  
+### See also
  [Use UII adapters to interact with external and web applications](../unified-service-desk/use-uii-adapters-interact-external-web-applications.md)
