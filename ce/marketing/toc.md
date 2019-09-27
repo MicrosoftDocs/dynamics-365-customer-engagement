@@ -100,7 +100,6 @@
 #### [Check your work using previews and test sends](email-preview.md)
 #### [Check for errors, go live, and deliver](email-check-golive.md)
 #### [Preview: Check your spam score](spam-score.md)
-#### [Early access: Design multi-column layouts for email messages](email-layouts.md)
 #### [Design and run A/B tests on your email designs](email-a-b-testing.md)
 
 ### Create marketing pages and forms

@@ -27,6 +27,29 @@ Read this topic to learn how to use each of the design elements that are availab
 
 More information: [Design your digital content](design-digital-content.md)
 
+## Section (layout) elements
+
+Use section elements to establish the basic layout of your emails, marketing pages, and marketing forms. In most cases, all design elements (other than section elements) must be placed into a _section element_. Section elements are provided in the **Toolbox** panel under the **Layout** heading.
+
+To add a section element, open the **Toolbox** panel, choose the section element that provides the column layout you'd like to start with and drag it into position above or below any existing section element in your design.
+
+![Add a section element to your design](media/email-layout-add.png "Add a section element to your design")
+
+> [!NOTE]
+> If you start your design by choosing a template that implement layouts using custom HTML instead of section elements, then section elements aren't available. Instead, you'll be able to drag design elements into any container defined by the template. This may also apply to other custom templates that use custom HTML to create layouts.
+
+When you first add a section element, it will have the number of columns that matches the choice you made when you added it. You can change this and other properties afterwards by selecting the section from the canvas and opening the **Properties** tab, where you can set the following options:
+
+- **Section layout**: Select a button here to change the column layout to the one indicated by the graphic on each button. If you remove a column, all of its content will be moved into one of the remaining columns. If you add a column, the new column will initially be empty.
+- **Section border styles**: Use these settings to set the style (none, solid, dotted, dashed, or double), line width, line color, and corner radius for the border that goes around the entire section (but not between columns).
+- **Section padding**: Specify how much padding (in pixels) you'd like to place between the columns and the colored border. You can enter separate values for top, bottom, left, and right.
+- **Section margin**: Specify how much margin (in pixels) you'd like to place between the colored border and the outside edge of the section element. You can enter separate values for top, bottom, left, and right.
+
+![Add a section element to your design](media/email-layout-edit.png "Add a section element to your design")
+
+> [!NOTE]
+> Microsoft Windows Outlook clients don't support all border-style and border-radius settings.
+
 ## Common design elements
 
 This section provides full details for the design elements that are provided in all (or nearly all) of the contexts where the designer appears (email, marketing pages, and marketing forms).
