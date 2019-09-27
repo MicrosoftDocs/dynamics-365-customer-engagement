@@ -17,7 +17,9 @@
 #### [Keep Marketing up to date](apply-updates.md)
 #### [Uninstall Marketing](uninstall-marketing.md)
 
-### [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)
+### User administration and access permissions
+#### [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)
+#### [Use business units with Marketing](business-units.md)
 
 ### Administration settings
 #### [Open the administration settings](open-advanced-settings.md)
