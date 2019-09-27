@@ -1,6 +1,6 @@
 ---
 title: Business transactions 
-description: This topic provides information about business transactions for Dynamics 365 for Project Service Automation (PSA).  
+description: This topic provides information about business transactions for Dynamics 365 Project Service Automation (PSA).  
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-In Microsoft Dynamics 365 for Project Service Automation (PSA), *business transaction* is an abstract concept that isn't represented by any entity. However, some common fields and processes on entities are designed to use the concept of business transactions. The following entities in PSA use this abstraction:
+In Microsoft Dynamics 365 Project Service Automation (PSA), *business transaction* is an abstract concept that isn't represented by any entity. However, some common fields and processes on entities are designed to use the concept of business transactions. The following entities in PSA use this abstraction:
 
 - Quote line details
 - Contract line details

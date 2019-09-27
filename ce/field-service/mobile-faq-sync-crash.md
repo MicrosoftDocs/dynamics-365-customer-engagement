@@ -1,5 +1,5 @@
 ---
-title: "My mobile app won't sync to the server or it crashes immediately (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "My mobile app won't sync to the server or it crashes immediately (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom:
   - dyn365-fieldservice
 ms.date: 10/24/2018

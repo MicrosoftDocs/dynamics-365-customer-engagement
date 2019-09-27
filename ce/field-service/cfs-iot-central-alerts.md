@@ -42,24 +42,24 @@ Connect Azure IoT Central to Connected Field Service by configuring the "Create 
 
 3. Once on the Refrigerated Vending Machine detail page, navigate to the **Dashboard** tab, seen below in the screenshot.
 
-    a. You should see service and scheduling fields in the Contoso Template. Their values should be empty. If you can't see these fields, please refer to [this documentation](https://docs.microsoft.com/en-us/azure/iot-central/howto-manage-devices#change-a-property) to add the properties.
+    a. You should see service and scheduling fields in the Contoso Template. Their values should be empty. If you can't see these fields, please refer to [this documentation](https://docs.microsoft.com/azure/iot-central/howto-manage-devices#change-a-property) to add the properties.
     
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the service details on and IoT Central device](media/iot-central-alerts-3.png)
 
-4. Next, while still on this detail page, head over to the **Rules** tab, and create the rule "Cash drawer level is high." For more information on creating a rule, learn more in [this IoT Central tutorial](https://docs.microsoft.com/en-us/azure/iot-central/tutorial-configure-rules).
+4. Next, while still on this detail page, head over to the **Rules** tab, and create the rule "Cash drawer level is high." For more information on creating a rule, learn more in [this IoT Central tutorial](https://docs.microsoft.com/azure/iot-central/tutorial-configure-rules).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the rules tab in IoT Central](media/iot-central-alerts-4.png)
 
 5. Then, under **Actions,** select **Microsoft Flow** from the Select Action options. This will take you to another working environment in the Microsoft Flow application. This is where you will set up your integrations.
 
-    a. **Note for Azure IoT Central trial users**: In order to use Microsoft Flow from Azure IoT Central, you must be using the pay-as-you-go form of IoT Central. Trial users can work around this by heading directly to [Microsoft Flow](https://flow.microsoft.com/en-us/templates/) to configure steps 7 and 8 in this tutorial. Then in Azure IoT Central, the Flow will be all ready to go. 
+    a. **Note for Azure IoT Central trial users**: In order to use Microsoft Flow from Azure IoT Central, you must be using the pay-as-you-go form of IoT Central. Trial users can work around this by heading directly to [Microsoft Flow](https://flow.microsoft.com/templates/) to configure steps 7 and 8 in this tutorial. Then in Azure IoT Central, the Flow will be all ready to go. 
     
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Microsoft Flow as an Action option in IoT Central](media/iot-central-alerts-5.png)
 
-6. You'll be taken to the Microsoft Flow template page for "Create CFS alerts from IoT Central." Select "Use this template." (if you have trouble finding these templates, head to the [Microsoft  Flow Templates page](https://flow.microsoft.com/en-us/templates/) and search "CFS")
+6. You'll be taken to the Microsoft Flow template page for "Create CFS alerts from IoT Central." Select "Use this template." (if you have trouble finding these templates, head to the [Microsoft  Flow Templates page](https://flow.microsoft.com/templates/) and search "CFS")
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Microsoft Flow template page](media/iot-central-alerts-6.png)
@@ -101,7 +101,7 @@ From here, the workflow will trigger based on the alert type. While you may have
 
 ## See the results
 
-Once you've saved your Flow, log in to Dynamics 365 for Field Service, and select Connected Field Service. You may see a window that offers a few links to learn more about Connected Field Service and Azure IoT offerings. You can choose to learn more, or just dismiss this window. 
+Once you've saved your Flow, log in to Dynamics 365 Field Service, and select Connected Field Service. You may see a window that offers a few links to learn more about Connected Field Service and Azure IoT offerings. You can choose to learn more, or just dismiss this window. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT alerts in Connected Field Service](media/iot-central-alerts-14.png)

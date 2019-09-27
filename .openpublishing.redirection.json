@@ -7756,11 +7756,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/admin/admin-guide.md",
-      "redirect_url": "https://docs.microsoft.com/power-platform/admin/admin-guide",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/admin/analyze-improve-data-query-performance.md",
       "redirect_url": "https://docs.microsoft.com/power-platform/admin/analyze-improve-data-query-performance",
       "redirect_document_id": "false"

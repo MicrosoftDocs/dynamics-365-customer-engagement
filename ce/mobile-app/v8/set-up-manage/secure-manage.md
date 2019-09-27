@@ -45,7 +45,7 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../../../includes/pn
 ### More information  
  For more information about getting and using [!INCLUDE[pn_intune](../../../includes/pn-intune.md)], see:  
   
--   [Microsoft Intune](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/)  
+-   [Microsoft Intune](http://www.microsoft.com/server-cloud/products/microsoft-intune/)  
   
 -   [Documentation for Microsoft Intune](https://technet.microsoft.com/library/jj676587.aspx)  
   

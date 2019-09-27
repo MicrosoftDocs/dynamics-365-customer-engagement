@@ -124,15 +124,15 @@ When you enable diagnostic logging, you can search for particular errors that us
 
 ### How do I use a custom login provider on my portal?
 
-Dynamics 365 Portals supports any custom login provider that provides support for standard authentication protocols. We support OpenIdConnect, SAML2, and WS-Federation protocols for any custom IDP. OAuth 2 is supported only for a fixed set of known IDPs. For more information on how to set up an IDP configuration, see [Configure Dynamics 365 Portals authentication](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/configure-portal-authentication).
+Dynamics 365 Portals supports any custom login provider that provides support for standard authentication protocols. We support OpenIdConnect, SAML2, and WS-Federation protocols for any custom IDP. OAuth 2 is supported only for a fixed set of known IDPs. For more information on how to set up an IDP configuration, see [Configure Dynamics 365 Portals authentication](https://docs.microsoft.com/dynamics365/customer-engagement/portals/configure-portal-authentication).
 
 ### How do I get new portal releases in my sandbox portal first before it gets applied to production?
 
-Any portal release is done in two phases: early upgrade and general availability (GA). During the early upgrade phase, we only upgrade portals that are marked for early upgrade. To get a new portal release in your sandbox (development or test) environment, you can enable your portal for early upgrade. For information on how to enable a portal for early upgrade, see [Upgrade a portal](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/upgrade-portal).
+Any portal release is done in two phases: early upgrade and general availability (GA). During the early upgrade phase, we only upgrade portals that are marked for early upgrade. To get a new portal release in your sandbox (development or test) environment, you can enable your portal for early upgrade. For information on how to enable a portal for early upgrade, see [Upgrade a portal](https://docs.microsoft.com/dynamics365/customer-engagement/portals/upgrade-portal).
 
 ### How do I use a custom domain name for my portal?
 
-You can enable your portal to use a custom domain name in place of the standard `microsoftcrmportals.com` domain name. More information: [Link your Dynamics 365 Portals to a custom domain](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/manage-portal#link-your-dynamics-365-portal-to-a-custom-domain)
+You can enable your portal to use a custom domain name in place of the standard `microsoftcrmportals.com` domain name. More information: [Link your Dynamics 365 Portals to a custom domain](https://docs.microsoft.com/dynamics365/customer-engagement/portals/manage-portal#link-your-dynamics-365-portal-to-a-custom-domain)
 
 ## Portal checker
 

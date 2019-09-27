@@ -32,13 +32,13 @@ Submit your ideas and feedback on our [Ideas forum](https://experience.dynamics.
 Yes, our [Community Forum](https://community.dynamics.com/365/customerservice/f/763) is the place where you can engage with the community at large.
 
 ### How do I get help with the issues I face?
-Contact [Dynamics support](https://dynamics.microsoft.com/en-us/contact-us/) to get help with your issues.
+Contact [Dynamics support](https://dynamics.microsoft.com/contact-us/) to get help with your issues.
 
 ### What additional channels are supported with Omnichannel for Customer Service in this release?
-This release provides support for Chat for Dynamics 365 and SMS (preview). For upcoming channels and capabilities, see the [2019 release wave 2 plan](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-customer-service/planned-features).
+This release provides support for Chat for Dynamics 365 and SMS (preview). For upcoming channels and capabilities, see the [2019 release wave 2 plan](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-customer-service/planned-features).
 
 ### Are Chat and the associated Omnichannel for Customer Service capabilities available as part of my Dynamics 365 Customer Service license?
-No, Chat and related Omnichannel for Customer Service capabilities require a separate add-in. For additional details on pricing, see [Customer Service overview](https://dynamics.microsoft.com/en-us/customer-service/overview/).
+No, Chat and related Omnichannel for Customer Service capabilities require a separate add-in. For additional details on pricing, see [Customer Service overview](https://dynamics.microsoft.com/customer-service/overview/).
 
 ### How do I get started?
 If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](https://go.microsoft.com/fwlink/p/?linkid=2097211). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#prerequisites) for setting up Omnichannel in your organization.
@@ -52,7 +52,7 @@ No. You can only use Chat in the **Omnichannel for Customer Service** app. The a
 Yes. You can work on cases alongside customer conversations in different sessions. You can open case sessions from the dashboards and grids using gestures. For more information on starting a session, see [Manage sessions in Omnichannel for Customer Service](agent/agent-oc/oc-manage-sessions.md#start-a-session).
 
 ### Can I work on third-party communication widgets built using Dynamics 365 Channel Integration Framework in the Omnichannel for Customer Service app module? 
-Omnichannel for Customer Service supports Chat for Dynamics 365 and SMS (in preview) channels. You should continue to use the third-party communication widgets in the single-session Unified Interface apps like Customer Service Hub. Support for integrating third-party channels will come with [Dynamics 365 Channel Integration Framework v2](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-customer-service/channel-integration-framework-v2).
+Omnichannel for Customer Service supports Chat for Dynamics 365 and SMS (in preview) channels. You should continue to use the third-party communication widgets in the single-session Unified Interface apps like Customer Service Hub. Support for integrating third-party channels will come with [Dynamics 365 Channel Integration Framework v2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-customer-service/channel-integration-framework-v2).
 
 ### Can I open Omnichannel for Customer Service in multiple browser tabs and windows? 
 It is not recommended to open Omnichannel for Customer Service in multiple browser tabs or windows. The app is inherently designed to help agents work in a multisession environment wherein each session has contextual application tabs. The sessions are not synced across browser tabs. 
@@ -200,7 +200,7 @@ You can send messages to a customer only after the customer has initiated the co
 Yes, Omnichannel system will automatically identify the customer based on the incoming phone number. It will look for phone numbers in the Mobile Phone field of Contact records or the Phone field of Account records. Ensure that the phone number in these field has the country code along with the plus sign (+) without any spaces or special characters; for example: +14251234567
 
 ### Can we send automated SMS responses?
-There are Microsoft Flow connectors from SMS providers that can be used for automated SMS responses. For example, [TeleSign](https://preview.flow.microsoft.com/en-us/connectors/shared_telesignsms/telesign-sms/) has a connector for these scenarios.
+There are Microsoft Flow connectors from SMS providers that can be used for automated SMS responses. For example, [TeleSign](https://preview.flow.microsoft.com/connectors/shared_telesignsms/telesign-sms/) has a connector for these scenarios.
 
 ### Is there anything unique about the way SMS messages are routed to agents?
 All channels integrated into Omnichannel have the same routing capabilities, including SMS. You can create Routing rule items with conditions based on Account or Contact entities. Other entities (Case, Context variable, and SMS Engagement Context) are not supported at this time and should not be used for creating conditions in Routing rules items in an SMS workstream.

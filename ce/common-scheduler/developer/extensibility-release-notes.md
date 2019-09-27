@@ -91,7 +91,7 @@ The first line is new. The updated markup to hide the second row of text in the 
     <div class='booked-percentage'>{{BookedPercentage}}%</div>  
 {{/if}}
 ```
-> For more context, see this article - https://docs.microsoft.com/en-us/business-applications-release-notes/april18/dynamics365-field-service/removed-resource-image
+> For more context, see this article - https://docs.microsoft.com/business-applications-release-notes/april18/dynamics365-field-service/removed-resource-image
 
 <a name="april-2018"></a>
 ## April 2018
@@ -106,7 +106,7 @@ The added `IgnoreProposedBookings` property:
 ```xml
 <IgnoreProposedBookings ufx-type="bool">true</IgnoreProposedBookings> 
 ```
-> Here is a link to an article with more context on ignore proposed functionality - https://docs.microsoft.com/en-us/business-applications-release-notes/april18/dynamics365-field-service/ignore-proposed-bookings
+> Here is a link to an article with more context on ignore proposed functionality - https://docs.microsoft.com/business-applications-release-notes/april18/dynamics365-field-service/ignore-proposed-bookings
 
 <a name="february-2018"></a>
 ## February 2018
@@ -121,7 +121,7 @@ The new `IgnoreProposedBookings` control
 ```xml
 <control type="boolean" key="Requirement/IgnoreProposedBookings" label-id="ScheduleAssistant.West.settingsform.IgnoreProposedBookings" />
 ```
-> Here is a link to an article with more context on ignore proposed functionality - https://docs.microsoft.com/en-us/business-applications-release-notes/april18/dynamics365-field-service/ignore-proposed-bookings
+> Here is a link to an article with more context on ignore proposed functionality - https://docs.microsoft.com/business-applications-release-notes/april18/dynamics365-field-service/ignore-proposed-bookings
 
 <a name="december-2017"></a>
 ## December 2017

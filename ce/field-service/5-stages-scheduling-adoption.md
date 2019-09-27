@@ -29,7 +29,7 @@ search.app:
 
 # The 5 stages of scheduling adoption 
 
-Given existing customer implementations, we've discovered that there are typically 5 stages of scheduling adoption with Dynamics 365 for Field Service. In this topic, we'll explore these 5 typical stages. They apply mostly to early Field Service adoption (for instance, with limited-scope projects), but the stages also apply as implementations are rolled out to cover additional scope or locations. 
+Given existing customer implementations, we've discovered that there are typically 5 stages of scheduling adoption with Dynamics 365 Field Service. In this topic, we'll explore these 5 typical stages. They apply mostly to early Field Service adoption (for instance, with limited-scope projects), but the stages also apply as implementations are rolled out to cover additional scope or locations. 
 
 We recommend using Field Service tracking analytics throughout these stages to measure how scheduling is meeting your defined business objectives. For example, Field Service provides data on travel time, time on the job, and jobs per day for use as needed.
 
