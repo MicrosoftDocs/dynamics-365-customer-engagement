@@ -24,7 +24,7 @@ productDirectory:
       links:
         - url: https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/help-hub
           text: Documentation
-        - url: https://docs.microsoft.com/learn/browse/?resource_type=learning%20path&products=dynamics-customer-service
+        - url: https://docs.microsoft.com/learn/browse/?products=dynamics-customer-service
           text: Learn Dynamics 365 Customer Service
     # Card
     - title: Dynamics 365 Customer Service Insights
@@ -37,9 +37,9 @@ productDirectory:
       imageSrc: /dynamics365/images/VirtualAgent_color.svg
       links:
         - url: https://docs.microsoft.com/dynamics365/mixed-reality/layout/index
-          text: Overview
-        - url: https://docs.microsoft.com/dynamics365/mixed-reality/layout/requirements
-          text: Requirements
+          text: Documentation
+        - url: https://docs.microsoft.com/learn/browse/?products=dynamics-customer-service
+          text: Learn Dynamics 365 Virtual Agent for Customer Service
 
 additionalContent:
   # Supports up to 3 sections
