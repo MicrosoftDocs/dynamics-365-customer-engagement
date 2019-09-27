@@ -1,7 +1,7 @@
 ---
 title: "Email A/B testing (Dynamics 365 Marketing) | Microsoft Docs "
 description: "How to test slightly different email designs on small portions of your audience and then deliver the winner to the rest of the audience in Dynamics 365 Marketing"
-ms.date: 08/01/2019
+ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing

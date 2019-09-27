@@ -2,7 +2,7 @@
 title: "Create segments based on interactions (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create segments based on contact interaction records in Dynamics 365 Marketing"
 keywords: segments; behavioral segment
-ms.date: 09/17/2018
+ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
