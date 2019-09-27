@@ -5,11 +5,7 @@ author: kabala123
 ms.author: kabala	
 manager: shujoshi	
 applies_to: 	
-<<<<<<< HEAD
 ms.date: 10/25/2019
-=======
-ms.date: 09/18/2019
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 ms.service: dynamics-365-customerservice	
 ms.topic: article	
 ms.assetid: 5e6285ee-4b79-473d-b920-d1fab636c82e	
@@ -21,14 +17,7 @@ ms.custom:
 
 ## Overview
  
-<<<<<<< HEAD
 In Omnichannel Administration, **Entity Records** channel helps you to automatically route cases and other entity records to agents based on the agent's capacity and availability.
-=======
-In Omnichannel for Administrator, **Entity Records** channel helps you to automatically route cases and other entity records to agents based on the agent's capacity and availability.
-
-> [!Note]
-> Only case entity record is supported in this release. To learn about the support for other entity records routing, see [Unified routing for entity records](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-customer-service/unified-routing-queues).
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 ### Automatic distribution of cases
 
@@ -42,16 +31,6 @@ Cases and other entity records can be routed to omnichannel queues along with wo
 
 This allows organizations to tightly define the work profile that their agents are supposed to handle, and organizations can automate the work flow assignment across channels and assign the work items based on agents capacity and availability.
 
-<<<<<<< HEAD
-=======
-## Prerequisites
-
-To configure entity records channel for case routing and automatic distribution, ensure:
-
-- You are on the latest version of Omnichannel for Customer Service.
-- You've installed the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/install-routing-rules-preview-solution.md).
-
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 ## Configure entity records channel
 
 To setup the **Entity Record** channel for cases, follow the steps:
