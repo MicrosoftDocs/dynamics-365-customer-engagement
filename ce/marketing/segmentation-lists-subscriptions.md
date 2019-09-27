@@ -49,7 +49,7 @@ Segments can be dynamic, static, or compound.
 Segments can also be based either on profiles or interactions.
 
 - *Profile segments* query the _profile_ records stored in the marketing-insights service. Profiles records are synced between your Dynamics 365 organizational database and the marketing-insights service, and include the entities you normally work with in the Dynamics 365 UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](mkt-settings-sync.md).
-- *Interaction segments* query the _interaction_ records stored in the marketing-insights service. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insights displays in the Dynamics 365 Marketing UI, but they _aren't_ synced to the Dynamics 365 organizational database. They are generated in response to contact interactions such as opening an email, clicking an email link, submitting a form, or registering for an event.
+- *Behavioral segments* query the _interaction_ records stored in the marketing-insights service. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insights displays in the Dynamics 365 Marketing UI, but they _aren't_ synced to the Dynamics 365 organizational database. They are generated in response to contact interactions such as opening an email, clicking an email link, submitting a form, or registering for an event.
 
 ### Segments are synced with the marketing-insights service
 
@@ -85,11 +85,11 @@ Read this section to get a basic overview of how to create a segment and start i
 
 1. To help you get started, the designer asks you to choose which type of segment you want to create. This selection will establish the initial structure of your segment and also affects the user interface you'll see for working with it. Read the names and descriptions shown, and choose one of the following to get started:
 
-    - **Demographic**: Creates a dynamic profile segment prepared to query contact records directly, but you can still add relations as needed to create a query of arbitrary complexity. For details about how to work with this kind of segment, see [Design a demographic or firmographic segment](#segment-profile)
-    - **Firmographic**: Creates a dynamic profile segment prepared with a relation to the accounts entity already in place. Other than this, this is the same as selecting **Demographic**. For details about how to work with this kind of segment, see [Design a demographic or firmographic segment](#segment-profile)
-    - **Behavioral**: Creates a behavioral segment, which queries interaction records from the marketing-insights service to find contacts that have interacted in specific ways with your marketing initiatives, such as by opening an email, clicking a link, or visiting a web page. For details about how to work with this kind of segment, see [Design a behavioral segment](#segment-interaction)
-    - **Static**: Creates a segment where you manually select each member rather than creating a logical query. For details about how to work with this kind of segment, see [Design a static segment](#segment-static)
-    - **Combined audiences**: Creates a compound segment, which combines any number of existing segments union, exclude, and/or intersect operators. For details about how to work with this kind of segment, see [Design a compound segment (combined audiences)](#segment-compound)
+    - **Demographic**: Creates a dynamic profile segment prepared to query contact records directly, but you can still add relations as needed to create a query of arbitrary complexity. For details about how to work with this kind of segment, see [Design a demographic or firmographic segment](segments-profile.md)
+    - **Firmographic**: Creates a dynamic profile segment prepared with a relation to the accounts entity already in place. Other than this, this is the same as selecting **Demographic**. For details about how to work with this kind of segment, see [Design a demographic or firmographic segment](segments-profile.md)
+    - **Behavioral**: Creates a behavioral segment, which queries interaction records from the marketing-insights service to find contacts that have interacted in specific ways with your marketing initiatives, such as by opening an email, clicking a link, or visiting a web page. For details about how to work with this kind of segment, see [Design behavioral segments](segments-interaction.md)
+    - **Static**: Creates a segment where you manually select each member rather than creating a logical query. For details about how to work with this kind of segment, see [Design static segments](segments-static.md)
+    - **Combined audiences**: Creates a compound segment, which combines any number of existing segments union, exclude, and/or intersect operators. For details about how to work with this kind of segment, see [Combine segments into a compound segment (combined audiences)](segments-compound.md)
 
     ![Choose a segment type](media/segment-hub.png "Choose a segment type")
 
@@ -111,8 +111,8 @@ After you have created a new segment and selected its initial type (as Described
 
 Use the **Definition** tab to establish membership of the segment. For dynamic segments, you'll get a query builder here. For static segments, you'll select specific contacts one at a time. For compound segments, you'll create logic for combining existing segments here. For more information about how to build your segment definition using this tab, see the following topics:
 
-- [Design profile-based dynamic segments](segments-profile.md)
-- [Design interaction-based dynamic segments](segments-interaction.md)
+- [Design dynamic demographic or firmographic segments](segments-profile.md)
+- [Design behavioral segments](segments-interaction.md)
 - [Define a static segment](segments-static.md)
 - [Combine segments into a compound segment](segments-compound.md)
 

@@ -31,7 +31,7 @@ _Static segments_ let you select individual contacts, one by one, to create cust
 
 When you are working with a static segment, you'll see a list of all of the contacts from your database, with a check box shown for each. Select the check box for each contact you want to include in the segment and clear the check box for all other contacts.
 
-To create a static segment, create a segment and then select the **Static** option, as described in [Create and go live with a new segment](#create-segment).
+To create a static segment, create a segment and then select the **Static** option, as described in [Create and go live with a new segment](segmentation-lists-subscriptions.md#create-segment).
 
 Because your database probably includes many contacts, the designer often can't show all of them on one page. It provides paging controls at the bottom and a search filter at the top. Select the filter button at the top of the list to open a form where you can build a query that can help you find the contacts you want to add.
 

@@ -1,7 +1,7 @@
 ---
 title: "Create segments based on interactions (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create segments based on contact interaction records in Dynamics 365 Marketing"
-keywords: segments; interaction segment
+keywords: segments; behavioral segment
 ms.date: 09/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -30,11 +30,11 @@ The result of a behavioral segment query is always a set of contacts who perform
 
 This type of segment is _dynamic_ because its membership is defined as a query, whose results can change from moment to moment in response to new interactions being added to the database.
 
-To create a behavioral segment, create a segment and then select the **Behavioral** option, as described in [Create and go live with a new segment](#create-segment).
+To create a behavioral segment, create a segment and then select the **Behavioral** option, as described in [Create and go live with a new segment](segmentation-lists-subscriptions.md#create-segment).
 
 The following image shows an example of typical behavioral segment query and outlines key features of the designer user interface.
 
-![Segment designer UI elements for interaction segments](media/segment-interaction-callouts2.png "Segment designer UI elements for interaction segments")
+![Segment designer UI elements for behavioral segments](media/segment-interaction-callouts2.png "Segment designer UI elements for behavioral segments")
 
 Legend:
 
@@ -42,10 +42,10 @@ Legend:
 2. **Full-screen editor**: Select this button to open the segment designer in full-screen mode, which provides more screen real estate for viewing and editing your query.
 3. **Show/hide interaction filters**: Select this button to show or hide filters for setting limits on the total number of interactions and/or a moving-window time period.
 4. **Interaction filters**: Use these to set a minimum or exact number of interactions that a contact must have performed to be included in this segment. You can also set a moving-window filter to only consider interactions that occurred recently, such as in the last two weeks. To enable the moving-window filter, change the third drop-down list from **interactions** to **interactions in the last**. The date of the moving window is always calculated based on the current date, so if you enable this, then some contacts may slip out of the segment with each passing day unless they remain engaged. In this example, the filter will find contacts who clicked on a message at least once in the past 45 days.
-5. **Additional restrictions**: These settings work just like they do for demographic and firmographic segments, but here they enable you to filter results based on values for the selected type of interaction records. For example, you might want to find clicks on email messages sent by a particular customer journey (as shown here). As with [demographic and firmographic segments](#segment-profile), you can add as many clauses and clause groups as you need here.
+5. **Additional restrictions**: These settings work just like they do for demographic and firmographic segments, but here they enable you to filter results based on values for the selected type of interaction records. For example, you might want to find clicks on email messages sent by a particular customer journey (as shown here). As with [demographic and firmographic segments](segments-profile.md), you can add as many clauses and clause groups as you need here.
 
 > [!NOTE]
-> Unlike profile segments, interaction segments allow for only a single query block, which means that the **Flow view** tab isn't available, and your entire query must contain just a single block. However, you can combine interaction segments with other interaction or profile segments by [creating a compound segment](segments-compound.md).
+> Unlike profile segments, behavioral segments allow for only a single query block, which means that the **Flow view** tab isn't available, and your entire query must contain just a single block. However, you can combine behavioral segments with other interaction or profile segments by [creating a compound segment](segments-compound.md).
 
 ## View and edit the raw query
 

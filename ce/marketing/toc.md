@@ -124,13 +124,13 @@
 #### [Segments vs. lists](segments-vs-lists.md)
 #### [Design dynamic demographic or firmographic segments](segments-profile.md)
 #### [Design behavioral segments](segments-interaction.md)
-#### [Generate interaction segments from journey results](generate-segment-from-journey.md)
+#### [Generate behavioral segments from journey results](generate-segment-from-journey.md)
 #### [Design static segments](segments-static.md)
 #### [Manage segment memberships from a contact record](manage-segments-from-contacts.md)
 #### [Combine segments into a compound segment](segments-compound.md)
 #### [Market to Dynamics 365 segments on LinkedIn ](linkedin-matched-audience.md)
 #### [Early access: Create segments with the new segmentation designer](new-segment-designer.md)
-#### [Early access: Use Customer Insights segments in Marketing](customer-insights-segments.md)
+#### [Use Customer Insights segments in Marketing](customer-insights-segments.md)
 
 ### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)

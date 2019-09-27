@@ -59,7 +59,7 @@ When you enable the new segment designer on an existing Marketing instance, all 
 
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Segments vs. lists](segments-vs-lists.md)  
-[Design profile-based dynamic segments](segments-profile.md)  
-[Design interaction-based dynamic segments](segments-interaction.md)  
-[Generate interaction segments from journey results](generate-segment-from-journey.md)  
+[Design dynamic demographic or firmographic segments](segments-profile.md)  
+[Design behavioral segments](segments-interaction.md)  
+[Generate behavioral segments from journey results](generate-segment-from-journey.md)  
 [Manage segment memberships from a contact record](manage-segments-from-contacts.md)  

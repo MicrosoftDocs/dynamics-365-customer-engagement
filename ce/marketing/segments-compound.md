@@ -28,7 +28,7 @@ _Compound segments_ combine two or more existing segments using union, exclude, 
 
 To create a compound segment:
 
-1. Create a segment and then select the **Combined audiences** option, as described in [Create and go live with a new segment](#create-segment).
+1. Create a segment and then select the **Combined audiences** option, as described in [Create and go live with a new segment](segmentation-lists-subscriptions.md#create-segment).
 
 1. The compound segment designer opens. Select your first segment at the top of the **Add: Segment** panel.
 
