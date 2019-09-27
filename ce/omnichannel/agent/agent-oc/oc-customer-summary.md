@@ -62,20 +62,17 @@ The **Pre-chat survey** tab displays the survey answers against the questions th
 
 ### Journey
 
-As an agent, without asking too many questions, you want to know the recent operations a customer performed before the customer initiated a conversation. 
+The **Journey** tab displays information on the path (recent operations) the customer took just before initiating a conversation. The information enables the agents to understand why a customer reached out and also to provide a personalized service with fast resolution and improved customer satisfaction. The **Journey** tab displays the information in the reverse chronological order, and is categorized into the following type of actions:
 
-The **Journey** tab displays the recent operations a customer performed in the chronological order. The operations are categorized as follows:
+| Action type | Description |
+|-------------|-----------------------------------|
+| Page visited | The pages visited on the portal (website) along with the timestamp.|
+| Phrase searched | The keywords or phrases searched for, along with the timestamp. |
+| Knowledge article viewed | The knowledge articles viewed along with the timestamp. |
+| Custom action performed | Any other custom actions that are tracked by your organization as per your business requirements are displayed along with the timestamp. |
 
-- **Page visited:** The pages that a customer visited before initiating the conversation. When you select the page (hyperlink), the system opens a new browser tab and displays the page visited.
-- **Phrase searched:** The keywords or phrases a customer searched for before initiating the conversation.
-- **Knowledge article viewed:** The knowledge articles a customer viewed before initiating the conversation. When you select the  (hyperlink), the system opens a new browser tab and displays the knowledge article viewed.
-- **General action performed:** Any other actions or operations that a customer performed before initiating the conversation.
-
-    > [!div class='mx-imgBorder']
-    > ![Journey tab](../../media/customer-summary-journey-tab.png "Journey tab")
-
-> [!NOTE]
-> The **Journey** tab displays details that system captures until the customer initiates the conversation. After a customer initiated the conversation, if the customer performs any operations, the system won't show those details for these operations.
+   > [!div class='mx-imgBorder']
+   > ![Journey tab](../../media/customer-summary-journey-tab.png "Journey tab")
 
 ### Visitor details
 
