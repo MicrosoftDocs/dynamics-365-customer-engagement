@@ -1,7 +1,6 @@
 ### YamlMime:Hub
 
 title: Microsoft Dynamics 365 Sales documentation # < 60 chars
-summary: Test Learn how to deploy, customize, manage and use Microsoft Dynamics 365 Sales services and applications. Get documentation, tutorials, and more. # < 160 chars
 # brand: aspnet | azure | dotnet | dynamics | m365 | office | sql | windows | visual-studio | xamarin
 brand: dynamics
 
@@ -21,7 +20,7 @@ productDirectory:
     # Card
     - title: Dynamics 365 Sales Enterprise
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: images/Sales_color.svg
+      imageSrc: /dynamics365/images/Sales_color.svg
       links:
         - url: https://docs.microsoft.com/dynamics365/customer-engagement/sales-enterprise/help-hub
           text: Documentation
@@ -29,7 +28,7 @@ productDirectory:
           text: Learn Dynamics 365 Sales
     - title: Dynamics 365 Sales Professional
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: images/Sales_color.svg
+      imageSrc: /dynamics365/images/Sales_color.svg
       links:
         - url: https://docs.microsoft.com/dynamics365/customer-engagement/sales-professional/help-hub
           text: Documentation
@@ -37,7 +36,7 @@ productDirectory:
           text: Learn Dynamics 365 Sales Professional
     # Card
     - title: Dynamics 365 Sales Insights
-      imageSrc: images/SalesInsights_color.svg
+      imageSrc: /dynamics365/images/SalesInsights_color.svg
       links:
         - url: https://docs.microsoft.com/dynamics365/ai/sales/overview
           text: Documentation
