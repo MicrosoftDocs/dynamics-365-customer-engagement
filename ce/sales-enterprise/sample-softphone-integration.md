@@ -16,54 +16,71 @@ manager: annbe
 
 # Integrate a sample softphone with Dynamics 365 Sales
 
+
+<!--from editor: Is there another way to write the first sentence without using "integrated" twice? -->
+
+
 An integrated softphone dialer provides a simple and integrated way to call customers from within Microsoft Dynamics 365 Sales. The communications that take place are captured as phone call activity in Dynamics 365 Sales.  
 
-Organizations can integrate a softphone dialer from their telephony provider in Dynamics 365 Sales using the Channel Integration Framework. Once integrated, sales reps can quickly call their contacts by selecting a phone number right from their app.  
+
+<!--from editor: I checked the MS style guide and found that CIF should always be Dynamics 365 Channel Integration Framework. -->
+
+Organizations can integrate a softphone dialer from their telephony provider in Dynamics 365 Sales using Dynamics 365 Channel Integration Framework. Once integrated, sales reps can quickly call their contacts by selecting a phone number right from their app.  
 
 This topic describes how to install the *sample* app and test the calling capabilities. 
 
 
 > [!IMPORTANT]
 > -  This sample code currently has limited availability.
-> -  The sample code for softphone integration with Dynamics 365 using Channel Integration Framework is made available so customers can get early access and provide feedback. The sample code is not meant for production use and may have limited or restricted functionality.
+> -  The sample code for softphone integration with Dynamics 365 using Dynamics 365 Channel Integration Framework is made available so customers can get early access and provide feedback. The sample code is not meant for production use and might have limited or restricted functionality.
 > -  [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 ## Integrate and configure the sample softphone dialer
 
-To configure the sample,
+To configure the sample:
 
-1. Get the Channel Integration Framework from Microsoft AppSource. For more information on the prerequisites and instructions to get Channel Integration Framework, see [Get Channel Integration Framework](../customer-service/channel-integration-framework/get-channel-integration-framework.md).
+1. Get Dynamics 365 Channel Integration Framework from Microsoft AppSource. For information on prerequisites and how to get Dynamics 365 Channel Integration Framework, see [Get Dynamics 365 Channel Integration Framework](../customer-service/channel-integration-framework/get-channel-integration-framework.md).
 
-2. Import the “msdyn_CIFramework_managed.zip” managed solution from the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104591). More information: [Import, update, and upgrade a solution](../customize/import-update-upgrade-solution.md).
 
-3. Integrate the sample app (available here) available on the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590) using Channel integration framework. More information: [Sample softphone integration using Channel Integration Framework](../customer-service/channel-integration-framework/sample-softphone-integration.md).
+<!--from editor: The download center link, below, doesn't seem to go to the download center, and I don't see where a reader would find that file. -->
+
+2. Import the **msdyn_CIFramework_managed.zip** managed solution from the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104591). More information: [Import, update, and upgrade a solution](../customize/import-update-upgrade-solution.md)
+
+
+<!--from editor: What does "(available here)" mean - is it supposed to be a link? Also, please confirm that the download center link is actually the download center. It isn't clear what the reader should be looking for on that page. --> 
+
+
+3. Integrate the sample app (available here) available on the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590) using Dynamics 365 Channel Integration Framework. More information: [Sample softphone integration using Channel Integration Framework](../customer-service/channel-integration-framework/sample-softphone-integration.md).
+
+
+<!--from editor: Again, please confirm that the download center link is correct. -->
 
     > [!IMPORTANT]
     > You must use the sample app from the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590), and not the one that's mentioned in the [Sample softphone integration using Channel Integration Framework](../customer-service/channel-integration-framework/sample-softphone-integration.md) topic.
 
-4. Configure the channel provider for your Dynamics 365 Sales organization. More information: [How to configure a channel provider for your Dynamics 365 organization](../customer-service/channel-integration-framework/configure-channel-provider-channel-integration-framework.md).
+4. Configure the channel provider for your Dynamics 365 Sales organization. More information: [How to configure a channel provider for your Dynamics 365 organization](../customer-service/channel-integration-framework/configure-channel-provider-channel-integration-framework.md)
  
-After you're done with the configuration, any contact on an opportunity record, which  has a cell phone number defined will show a phone icon.
+After you complete the configuration, you'll see a phone icon next to any contact on an opportunity record who has a defined cell phone number.
 
-[!div class="mx-imgBorder"]
-![Phone icon besides the contact of an opportunity](media/phone-icon-opportunity-contact.png "Phone icon besides the contact of an opportunity")
+> [!div class="mx-imgBorder"]
+> ![Phone icon next to an opportunity contact](media/phone-icon-opportunity-contact.png "Phone icon next to an opportunity contact")
 
 When users select this icon, the sample softphone dialer opens and calls the number. 
 
-[!div class="mx-imgBorder"]
-![Sample softphone dialer calling a contact](media/dialer-calling-cell-number.png "Sample softphone dialer calling a contact")
+> [!div class="mx-imgBorder"]
+> ![Sample softphone dialer calling a contact](media/dialer-calling-cell-number.png "Sample softphone dialer calling a contact")
 
-All details regarding the call such as the duration, phone number, and notes are automatically captured in the call summary and the phone call activity record, and the record is associated with the opportunity record the call was initiated from.
+All details regarding the call such as duration, phone number, and notes are automatically captured in the call summary and the phone call activity record, and the record is associated with the opportunity record the call was initiated from.
 
-[!div class="mx-imgBorder"]
-![Call summary](media/call-summary.png "Call summary")
+> [!div class="mx-imgBorder"]
+> ![Call summary](media/call-summary.png "Call summary")
 
-[!div class="mx-imgBorder"]
-![Call summary added to phone call activity](media/phone-call-activity-details.png "Call summary added to phone call activity")
+> [!div class="mx-imgBorder"]
+> ![Call summary added to phone call activity](media/phone-call-activity-details.png "Call summary added to phone call activity")
 
 
 ### See also
 
-[Get Channel Integration Framework](../customer-service/channel-integration-framework/get-channel-integration-framework.md)  
+[Get Dynamics 365 Channel Integration Framework](../customer-service/channel-integration-framework/get-channel-integration-framework.md)  
 [Sample softphone integration using Channel Integration Framework](../customer-service/channel-integration-framework/sample-softphone-integration.md)  
 [How to configure a channel provider for your Dynamics 365 organization](../customer-service/channel-integration-framework/configure-channel-provider-channel-integration-framework.md)
