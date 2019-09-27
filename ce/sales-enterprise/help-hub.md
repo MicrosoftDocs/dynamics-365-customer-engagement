@@ -1,10 +1,12 @@
 ---
-title: "Documentation resources for Dynamics 365 Sales | Microsoft Docs"
+title: "Help resources for Dynamics 365 Sales | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 Sales."
 keywords: "sales;help"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 ms.assetid: cb9ac6db-6e97-4d65-9622-cf7061db988d
 author: shubhadaj
@@ -12,7 +14,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Dynamics 365 Sales Help & Training
+# Help resources for Dynamics 365 Sales (Enterprise)
 
 <table>
 
@@ -34,8 +36,7 @@ manager: annbe
 <li><a href="../admin/system-settings-dialog-box-goals-tab.md" data-raw-source="[Define Goals settings](../admin/system-settings-dialog-box-goals-tab.md)">Define Goals settings</a></li>
 <li><a href="create-edit-goal-sales.md" data-raw-source="[Create goals to track progress](create-edit-goal-sales.md)">Create goals to track progress</a></li>
 <li><a href="../admin/set-up-sales-territories-organize-business-markets-geographical-area.md" data-raw-source="[Set up sales territories to organize business markets by geographical area](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)">Set up sales territories to organize business markets</a></li>
-<li><a href="../sales-enterprise/configure-enable-embedded-intelligence.md" data-raw-source="[Administer Embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md)">Administer Embedded intelligence</a></li>
-<li><a href="../sales-enterprise/manage-custom-cards-flow.md" data-raw-source="[Preview: Manage insight cards](../sales-enterprise/manage-custom-cards-flow.md)">Preview: Manage insight cards</a></li>
+<li><a href="../sales-enterprise/admin-guide.md" data-raw-source="[More resources for admins](../sales-enterprise/admin-guide.md)">More resources for admins</a></li>
 
 </td></tr>
 
@@ -45,9 +46,7 @@ manager: annbe
 <li><a href="create-edit-lead-sales.md" data-raw-source="[Create or edit a lead](create-edit-lead-sales.md)">Create or edit a lead</a></li>
 <li><a href="qualify-lead-convert-opportunity-sales.md" data-raw-source="[Convert a lead to an opportunity](qualify-lead-convert-opportunity-sales.md)">Convert a lead to an opportunity</a></li>
 <li><a href="create-edit-opportunity-sales.md" data-raw-source="[Create or edit an opportunity](create-edit-opportunity-sales.md)">Create or edit an opportunity</a></li>
-<li><a href="create-edit-quote-sales.md" data-raw-source="[Create or edit a quote](create-edit-quote-sales.md)">Create or edit a quote</a></li>
-<li><a href="create-edit-order-sales.md" data-raw-source="[Create or edit an order ](create-edit-order-sales.md)">Create or edit an order </a></li>
-<li><a href="create-edit-invoice-sales.md" data-raw-source="[Create or edit an invoice](create-edit-invoice-sales.md)">Create or edit an invoice</a></li>
+<li><a href="user-guide.md" data-raw-source="[More resources for sales people](user guide.md)">More resources for sales people</a></li>
 
 
 </td><td>

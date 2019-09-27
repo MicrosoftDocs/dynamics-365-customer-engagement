@@ -1,10 +1,12 @@
 ---
-title: "User Guide (Dynamics 365 Sales Professional) | MicrosoftDocs"
+title: "Help resources for sales people (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Contains topics that describe how to do common sales tasks in Dynamics 365 Sales Professional."
 keywords: "sales, User guide"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: get-started-article
 ms.assetid: 93e9e623-cff9-4678-a414-649fb31b5941
 author: shubhadaj
@@ -13,7 +15,7 @@ manager: sakudes
 caps.latest.revision: 5
 ---
 
-# User Guide (Dynamics 365 Sales Professional)
+# Help resources for sales people (Dynamics 365 Sales Professional)
 
 Focus on the right leads, contacts, and opportunities as you build out your team's sales pipeline with Dynamics 365 Sales Professional. Built-in processes guide you from one stage of the sales process to the next, and  easy-to-use dashboards help you set goals and provide actionable insights to help you close more deals.  
   
