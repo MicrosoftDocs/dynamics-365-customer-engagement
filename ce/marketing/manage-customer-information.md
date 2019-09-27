@@ -46,6 +46,8 @@ The contacts entity is common for and shared by most Dynamics 365 apps for the C
   - **Follow email**: This field is often present, but is *not* added by Dynamics 365 Marketing. It has no effect of the functionality of the Marketing app, including its ability to track email interactions. You can still use it in segmentation criteria, just like any other contact field. (This field is used by the email engagement feature of Dynamics 365 Sales. More information:
  [Use email engagement to view message interactions](../sales-enterprise/email-engagement.md).)
 
+- **Subscription lists**: The contact **Details** tab includes a section called **Subscription lists**, where you can see a list of each email subscription the contact has signed up for in Dynamics 365 Marketing. More information: [Set up subscription lists and subscription centers](set-up-subscription-center.md)
+
 - **Data protection**: The contact **Details** tab includes a section called **Data protection**, where you can see and set the data-privacy consent level granted by this contact, and also see whether the contact is a child and, if so, who their parent or guardian is. For more information about these features, see [Data protection and the GDPR](gdpr.md).
 - **Event information**: Each contact record provides the following information about events the contact has registered for or attended:
     - The contact **Details** tab includes a section called **Event information**, where you can see basic information that was collected from the contact when they registered for an event.

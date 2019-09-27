@@ -21,9 +21,7 @@ search.app:
   - D365Mktg
 ---
 
-# Early access: View and recover from failed form submissions
-
-[!INCLUDE [cc-marketing-early-access-2019w2](../includes/cc-marketing-early-access-2019w2.md)]
+# View and recover from failed form submissions
 
 Marketing forms must be designed to submit values for all mandatory fields and fields used in contact matching, lead matching, and duplicate detection. For option set fields, forms must also provide valid index values that map correctly to available values in the database.
 

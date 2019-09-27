@@ -111,8 +111,7 @@
 #### [Integrate with landing pages on external websites](embed-forms.md)
 #### [Create input fields for forms](marketing-fields.md)
 #### [Set up a subscription center](set-up-subscription-center.md)
-#### [Early access: Easy subscription lists](easy-subscription-lists.md)
-#### [Early access: View and recover from failed form submissions](failed-submissions.md)
+#### [View and recover from failed form submissions](failed-submissions.md)
 
 ### Build a library of marketing content
 #### [Upload and use images and files](upload-images-files.md)
@@ -129,7 +128,6 @@
 #### [Manage segment memberships from a contact record](manage-segments-from-contacts.md)
 #### [Combine segments into a compound segment](segments-compound.md)
 #### [Market to Dynamics 365 segments on LinkedIn ](linkedin-matched-audience.md)
-#### [Early access: Create segments with the new segmentation designer](new-segment-designer.md)
 #### [Use Customer Insights segments in Marketing](customer-insights-segments.md)
 
 ### Work with customer journeys
