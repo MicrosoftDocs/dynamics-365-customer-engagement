@@ -47,7 +47,7 @@ To learn more, see [Entity record workstreams](set-up-entity-workstream.md).
 
 ## Step 3: Create routing rules
 
-After enabling entity record channel for cases by creating workstream, create routing rules to route cases to appropriate queues. 
+Create routing rules to route cases to appropriate queues. 
 
 > [!Note]
 > - To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/install-routing-rules-preview-solution.md).
@@ -58,9 +58,9 @@ After enabling entity record channel for cases by creating workstream, create ro
 
 1. Sign in to the Omnichannel Administration app.
 
-2. Select **Entity Records** under **Channels** in the sitemap.
+2. Select **Workstreams** under **Work Distribution Management** in the sitemap.
 
-3. Select the workstream you created for routing the cases from the **Entity Record Workstreams** view.
+3. Select the record you created for routing the cases from the **Active Work Streams** view.
 
     > [!div class=mx-imgBorder] 
     > ![Select a case workstream](../media/case-entity-channel.png "Case workstream") 
