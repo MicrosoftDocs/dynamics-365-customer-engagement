@@ -1091,11 +1091,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/customer-service/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/customer-service/help-hub",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/customize/add-visual-controls-mobile-app.md",
       "redirect_url": "/dynamics365/customer-engagement/customize/overview",
       "redirect_document_id": "false"
