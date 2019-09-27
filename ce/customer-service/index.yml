@@ -37,9 +37,9 @@ productDirectory:
     - title: Dynamics 365 Virtual Agent for Customer Service
       imageSrc: images/VirtualAgent_color.svg
       links:
-        - url: /dynamics365/mixed-reality/layout/index
+        - url: https://docs.microsoft.com/dynamics365/mixed-reality/layout/index
           text: Overview
-        - url: /dynamics365/mixed-reality/layout/requirements
+        - url: https://docs.microsoft.com/dynamics365/mixed-reality/layout/requirements
           text: Requirements
 
 additionalContent:
