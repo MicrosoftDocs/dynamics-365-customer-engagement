@@ -76,6 +76,7 @@
 #### [Manage session templates](administrator/session-templates.md)
 #### [Manage application tab templates](administrator/application-tab-templates.md)
 #### [Manage notification templates](administrator/notification-templates.md)
+#### [Associate templates with workstreams](administrator/associate-templates.md)
 
 ## Agent guide
 

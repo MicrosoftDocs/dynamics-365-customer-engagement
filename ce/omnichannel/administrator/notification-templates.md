@@ -27,6 +27,34 @@ As an administrator, system integrator, or partner, you can use the templates or
 
 You must associate the notification templates to a session template.
 
+## Slug for notification field header
+
+Slug is the replacement parameter that Omnichannel system populates at the run time based on the context variables.
+
+The notification shows certain fields and values, which are called **Field header** and **Value** respectively.
+
+For example, Ian Madera, a customer, initiated a conversation and when the agent sees the notification, it displays **Customer Name** as **Ian Madera**.
+
+Here, **Field header** is **Customer Name** and the **Value** is **Ian Madera**.
+
+For Omnichannel system to identify the name of the customer as **Ian Madera**, as an administrator, you must configure slugs as the value. The Omnichannel system replaces the slug with the actual value that was extracted based on the context variables.
+
+Omnichannel system supports the following slugs.
+
+| Slug | Description |
+|------------|-----------------------------------|
+| customerName | Name of the customer who initiated the conversation. |
+| caseId | Unique Id of a case. The system displays the case Id only if a cased linked to the conversation. |
+| caseTitle | Title of the case. The system displays the title of the case only if a cased linked to the conversation. |
+| queueId | Unique Id of a queue. |
+| visitorLocale | The language of the customer who initiated the conversation. |
+| visitorDevice | The device of the customer who initiated the conversation. |
+| entityRoutingLogicalName | Name of the entity if the notification is for a entity records. |
+| entityRoutingRecordId | Unique Id of the entity record if the notification is for a entity records. To learn more, see [Entity records routing](entity-channel.md) |
+| customerEntityName | Name of the entity (contact or account entity) if the customer is authenticated. |
+| customerRecordId | Unique Id of t.he entity (contact or account entity) if the customer is authenticated. |
+|\<name of the pre-chat survey questions\> | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
+
 ## Create a notification template
 
 1.	Sign in to the Omnichannel Administrator app.
@@ -51,14 +79,16 @@ You must associate the notification templates to a session template.
 6.	Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
 
 7.	Select the search icon in the **Look for Records** box. If there are no records, you see a message – **No records found. Create a new record**.
+
 8.	Select **+ New** to create a new notification field. A confirm dialog appears stating if you want to leave the page. Select **OK**.
+
 9.	Specify the following in the **New Notification Field** page.
 
     | Tab | Name | Value description | Example |
     |---------|--------------------|-----------------------------------------------|--------------------|    
     | General | Name | Specify the name for the notification. This name wouldn't be visible for the agents at the run-time. | Name of the customer |
     | General | Field header | Provide a name to the field header. This appears in the notification that agents to see at the run-time. | Name |
-    | General | Value | Provide a slug value that appears against **Field header** in the notification. |{customerName} | 
+    | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Slug for notification field header](#slug-for-notification-field-header). |{customerName} | 
     | General | Priority | Provide a number to assign the priority, which is the order of appearance on the notification. If you give the priority as 4, the field appears as 4th from top. <br> A maximum of four Field headers are shown on a notification. | 1 |
 
 10.	Select the back arrow on the browser to go the notification template you created. Alternatively, you select **Notifications** in the sitemap and then select the template you created.
