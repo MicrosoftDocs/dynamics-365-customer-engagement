@@ -29,7 +29,7 @@ search.app:
 Portals brings qualified expertise in web engagement and CMS frameworks with an integrated bundle of web portal solutions that add sophisticated content management, knowledge and case management, opportunity management, membership, profile, and self-service capabilities. Use portals to set up an interactive, web-based sales, services, support, and social engagement application platform to [engage with communities](engage-with-communities.md), [manage portal content](manage-portal-content.md), and [empower your channel partners](configure-web-roles-partner-portal.md).
 
 
-<div class=embeddedvideo><iframe src=https://www.microsoft.com/en-us/videoplayer/embed/74205e30-2d82-4128-ae84-87d2fc7c9167 frameborder=0 allowfullscreen=></iframe></div>
+<div class=embeddedvideo><iframe src=https://www.microsoft.com/videoplayer/embed/74205e30-2d82-4128-ae84-87d2fc7c9167 frameborder=0 allowfullscreen=></iframe></div>
 
 ## Get started
 

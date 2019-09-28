@@ -30,11 +30,11 @@ When using Dynamics 365 for phones and tablets, you encounter the following mess
 
 **We can’t find any apps for your role. To check for recently-added apps, select Refresh.If you can’t find your app, change your search criteria and try again.**
 
- For more information see, [Troubleshoot "We can’t find any apps for your role"  error message](https://support.microsoft.com/en-us/help/4486472/we-can-t-find-any-apps-for-your-role-message-in-dynamics-365-for-phone).
+ For more information see, [Troubleshoot "We can’t find any apps for your role"  error message](https://support.microsoft.com/help/4486472/we-can-t-find-any-apps-for-your-role-message-in-dynamics-365-for-phone).
 
 ## Troubleshoot issues where user does not have the Dynamics 365 for mobile privilege
 
-Make sure you have these [required privileges](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets#required-privileges) before using the mobile app.
+Make sure you have these [required privileges](https://docs.microsoft.com/dynamics365/customer-engagement/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets#required-privileges) before using the mobile app.
 
 ## Troubleshoot error code 800c0019 on Windows Phones
 

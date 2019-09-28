@@ -31,7 +31,7 @@ Portals are websites that you can customize to provide a more personalized exper
 -   Internal employees can create and see best practices.
 
 > [!NOTE]
-> To provision a portal, you must be assigned either System Administrator or System Customizer role of the Common Data Service organization selected for the portal. You must also have the [required permissions](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions) to create and register an application in Azure AD. If you don't have the required permissions, contact the Global Administrator to update your permissions or ask the Global Administrator to provision the portal.
+> To provision a portal, you must be assigned either System Administrator or System Customizer role of the Common Data Service organization selected for the portal. You must also have the [required permissions](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions) to create and register an application in Azure AD. If you don't have the required permissions, contact the Global Administrator to update your permissions or ask the Global Administrator to provision the portal.
 
 To complete provisioning a portal, after you have purchased a new portal license, return to your instance.
 

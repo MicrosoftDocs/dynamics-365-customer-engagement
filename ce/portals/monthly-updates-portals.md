@@ -24,9 +24,9 @@ search.app:
   - D365Portals
 ---
 
-# What's new in Portals
+# What's new in Dynamics 365 Portals
 
-Welcome to Portals. Here's a list of recently added features. For more information updates for Portals to date, see [portal capabilities for Microsoft Dynamics 365 Releases](https://support.microsoft.com/en-us/help/3181191).
+Welcome to Dynamics 365 Portals. Here's a list of recently added features. For more information updates for Dynamics 365 Portals to date, see [portal capabilities for Microsoft Dynamics 365 Releases](https://support.microsoft.com/help/3181191).
 
 ## Portals version 9.1.4 for the model-driven apps in Dynamics 365
 

@@ -4,10 +4,10 @@ ms.custom:
 ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
-ms.suite:
-ms.tgt_pltfrm:
+ms.suite: 
+ms.tgt_pltfrm: 
 ms.topic: get-started-article
-applies_to:
+applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
@@ -17,15 +17,11 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-search.app:
+search.app: 
   - D365CE
   - Powerplatform
 ---
 # Administer Dynamics 365 (online)
 
-The content in this guide is for users still using the Dynamics 365 Admin center (https://port.crm.dynamics.com/G/manage/index.aspx). 
-
-We are transitioning instance (now called environments) management to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). More information: [Administer PowerApps](https://docs.microsoft.com/power-platform/admin/admin-guide).
-
 > [!NOTE]
-> Effective October 2019, the Dynamics 365 for Customer Engagement SKU/license plan is no longer available for "online" customers. More information: [Dynamics 365 Customer Engagement (on-premises) Help](../customer-engagement/on-premises/overview.md) 
+> The content in this guide is for existing subscribers still using the Dynamics 365 Admin center. We are transitioning instance management (now called environments) to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). See [Administer PowerApps](https://docs.microsoft.com/en-us/power-platform/admin/admin-guide).

@@ -1,5 +1,5 @@
 ---
-title: "Process a return (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Process a return (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -160,7 +160,7 @@ You only need to create an RTV if the return is going back to the vendor. Once t
 13. On the command bar at the top, click **Credit to Customer**.  
   
 ### See also    
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Configure and set up customer assets](../field-service/configure-set-up-customer-assets.md)   
  [Create a purchase order](../field-service/create-purchase-order.md)   
  [Create an inventory adjustment](../field-service/create-inventory-adjustment.md)   

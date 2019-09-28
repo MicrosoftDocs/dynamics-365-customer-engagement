@@ -1,6 +1,6 @@
 Field service organizations often perform preventative maintenance, inspections, repairs, and other types of services by sending field technicians to multiple customer sites, and they must actively manage locations and routes. This makes understanding and minimizing travel time critical for a field service organization's success.
 
-Using Bing Maps API by default, Dynamics 365 for Field Service calculates the driving travel time and distance as field technicians travel:
+Using Bing Maps API by default, Dynamics 365 Field Service calculates the driving travel time and distance as field technicians travel:
 
 - From their personal address to a work order location.
 - From a company address to a work order location.
@@ -63,7 +63,7 @@ For example, a work order requirement that is manually scheduled to a resource a
 Organizations that operate in small contained geographic areas can add a generic 30 minutes to the work order durations either manually or by inflating the incident durations to roughly estimate travel but still utilize manual scheduling.
 
 > [!NOTE]
-> As of Dynamics 365 for Field Service version 8.6, travel time and distance calculations can be added to bookings that are **manually scheduled**. 
+> As of Dynamics 365 Field Service version 8.6, travel time and distance calculations can be added to bookings that are **manually scheduled**. 
 
 In addition to completing the tasks mentioned earlier in this topic, you need to go to **Resource Scheduling > Settings > Administration > Scheduling Parameters** and set **Auto Update Booking Travel** to **Enabled**.
 

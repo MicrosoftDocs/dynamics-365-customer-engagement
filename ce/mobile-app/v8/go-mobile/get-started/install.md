@@ -37,7 +37,7 @@ search.app:
 ## Privileges required to run the app
 
 > [!IMPORTANT]
->  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 apps administrator or support person](../../../../basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](https://technet.microsoft.com/en-us/library/dn531128.aspx).  
+>  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 apps administrator or support person](../../../../basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](https://technet.microsoft.com/library/dn531128.aspx).  
 
 <a name="bkmk2"></a>
 ## Install the app from your device’s app store
