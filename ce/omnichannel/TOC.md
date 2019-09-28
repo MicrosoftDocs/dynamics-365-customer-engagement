@@ -71,6 +71,12 @@
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
 
+### Templates
+#### [Overview](administrator/templates-overview.md)
+#### [Manage session templates](administrator/session-templates.md)
+#### [Manage application tab templates](administrator/application-tab-templates.md)
+#### [Manage notification templates](administrator/notification-templates.md)
+
 ## Agent guide
 
 ### [Overview](agent/omnichannel-agent-overview.md)
