@@ -34,4 +34,4 @@ Dynamics 365 Portals offer powerful customization options to:
 - [Gather feedback by using polls on a portal](gather-feedback-poll.md)  
 - [Rate or vote on a webpage or blog post on a portal](rate-webpage-blog-post.md)  
 - [Redirect to a new URL on a portal](add-redirect-url.md)
-- [Get data on the portal](walkthrough-get-data-on-portal.md)
+- [Get data from model-driven apps in Dynamics 365 on the portal](walkthrough-get-data-on-portal.md)
