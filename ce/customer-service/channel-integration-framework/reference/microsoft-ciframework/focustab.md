@@ -21,7 +21,7 @@ Sets the focus on a tab, if the focused session belongs to the channel provider 
 
 ## Syntax
 
-Microsoft.CIFramework.focusTab(tabId, correlationId).then(successCallback, errorCallback);
+`Microsoft.CIFramework.focusTab(tabId, correlationId).then(successCallback, errorCallback);`
 
 ## Parameters
 

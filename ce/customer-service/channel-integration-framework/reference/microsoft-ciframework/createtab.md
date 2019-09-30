@@ -21,41 +21,32 @@ Creates a tab in a focused Session and returns the unique identifier of the crea
 
 ## Syntax
 
-Microsoft.CIFramework.createTab(input, correlationId).then(successCallback, errorCallback);
+`Microsoft.CIFramework.createTab(input, correlationId).then(successCallback, errorCallback);`
 
 ## Parameters
 
-| **Name**                                                                                                                                   | **Type** | **Required** | **Description**                                                                                                       |
-|--------------------------------------------------------------------------------------------------------------------------------------------|----------|--------------|-----------------------------------------------------------------------------------------------------------------------|
-| Input: {                                                                                                                                   
-                                                                                                                                             
-   "templateName":"&lt;name\_of\_tab\_template&gt;",                                                                                         
-                                                                                                                                             
-   "templateTag":"&lt;template\_tag&gt;",                                                                                                    
-                                                                                                                                             
-   "templateParameters":  {  "global\_param\_1": "number\_value OR boolean\_value OR json\_string\_value OR parameterized\_string\_value",   
-                                                                                                                                             
-     "global\_param\_2": "….",                                                                                                               
-                                                                                                                                             
-      "app\_template\_1": {                                                                                                                  
-                                                                                                                                             
-      "param\_1": "number\_value OR boolean\_value OR json\_string\_value OR parameterized\_string\_value",                                  
-                                                                                                                                             
-   "param\_2": "..."                                                                                                                         
-                                                                                                                                             
-      },                                                                                                                                     
-                                                                                                                                             
- "app\_template\_2": { ….},                                                                                                                  
-                                                                                                                                             
-   },                                                                                                                                        
-                                                                                                                                             
- }                                                                                                                                           | String   | Yes          | JSON input                                                                                                            |
-| successCallback                                                                                                                            | Function | No           | A function to call when a record is created. Unique identifier(TabId) of the created tab is returned in the response. |
-| errorCallback                                                                                                                              | Function | No           | A function to call when the operation fails. An object with the following properties will be passed:                  
-                                                                                                                           
-    - **errorCode**: Number. The error code.                                                                             
-                                                                                                                           
-    - **message**: String. An error message describing the issue.                                                        |
+| **Name**         | **Type** | **Required** | **Description**   |
+|------------------|----------|--------------|-----------------------------------------------------------------------------------------------------------------------|
+| Input            | String   | Yes          | JSON input                                                                                                            |
+| successCallback  | Function | No           | A function to call when a record is created. Unique identifier(TabId) of the created tab is returned in the response. |
+| errorCallback    | Function | No           | A function to call when the operation fails. An object with the following properties will be passed:<br />**errorCode**: Number. The error code.<br />**message**: String. An error message describing the issue.   |
+
+The structure of the `Input` parameter JSON is shown below.
+
+```json
+{ 
+   "templateName":"<name of session template>",
+   "templateTag":"<template tag>",
+   "templateParameters":{ 
+      "globalparam":"number value OR boolean value OR json string value OR parameterized string value",
+      "app template 1":{ 
+         "param 1":"number value OR boolean value OR json string value OR parameterized string value",
+         "param 2":"..."
+      },
+      "app template 2":"…."
+   }
+}
+```
 
 ## Returns
 

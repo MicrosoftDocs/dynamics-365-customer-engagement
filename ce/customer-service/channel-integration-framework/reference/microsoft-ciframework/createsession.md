@@ -21,7 +21,7 @@ Creates a session based on the session template defined as part of the template 
 
 ## Syntax
 
-Microsoft.CIFramework.createSession(input, correlationId).then(successCallback, errorCallback);
+`Microsoft.CIFramework.createSession(input, correlationId).then(successCallback, errorCallback);`
 
 ## Parameters
 
