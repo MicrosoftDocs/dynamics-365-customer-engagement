@@ -68,5 +68,3 @@ You can assign a conversation to an agent or to another queue that is in the **O
 [Configure intraday insights dashboard for Unified Service Desk](../administrator/configure-intraday-dashboard-supervisor.md)
 
 [Enable supervisors to monitor and assign conversations](../administrator/configure-ongoing-conversations-settings.md)
-
-[Enable sentiment analysis](../administrator/enable-sentiment-analysis.md)
