@@ -214,7 +214,7 @@ Time entries that are not for a project will be routed for approval to the manag
 The **Bookings and Tasks** functionality has been removed. 
 
 ## Multidimensional pricing
-To maximize flexibility and meet different business requirements, version 3 of Project Service Automation supports discrete application of pricing dimension sets to cost and bill rates. Dimension values can be set as the default and then propagated across the costing and pricing process from resource profiling to time entry to project actuals. Customer-specific configuration and modification or extension leverages standard Dynamics 365 Customer Engagement customizability infrastructure.
+To maximize flexibility and meet different business requirements, version 3 of Project Service Automation supports discrete application of pricing dimension sets to cost and bill rates. Dimension values can be set as the default and then propagated across the costing and pricing process from resource profiling to time entry to project actuals. Customer-specific configuration and modification or extension leverages standard customizability infrastructure.
 
 PSA ships with a default set of pricing dimensions and roles and resource units, and allows for the setup of prices and costs for each Role and Organizational unit combination.
 
