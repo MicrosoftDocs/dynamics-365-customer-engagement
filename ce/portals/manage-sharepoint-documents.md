@@ -38,7 +38,7 @@ To work with the document management capabilities of [!INCLUDE[pn-sharepoint-sho
 
 3.	[Enable document management for entities](#step-3-enable-document-management-for-entities)
 
-4.	[Configure the appropriate form in Dynamics 365 to display documents](#step-4-configure-the-appropriate-form-to-display-documents)
+4.	[Configure the appropriate form to display documents](#step-4-configure-the-appropriate-form-to-display-documents)
 
 5.	[Create appropriate entity permission and assign it to the appropriate web role](#step-5-create-appropriate-entity-permission-and-assign-it-to-the-appropriate-web-role)
 
@@ -184,7 +184,7 @@ This sample provides exact steps and configuration values to enable document man
 
     - Dynamics 365 Portals configuration
 
-        a. In Dynamics 365, go to **Portals** > **Entity Forms**.
+        a. Go to **Portals** > **Entity Forms**.
     
         b. Find and open **Customer Service - Edit Case** entity form.
     
