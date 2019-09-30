@@ -1,5 +1,5 @@
 ---
-title: Create product catalog items (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Create product catalog items 
 description: How to create product catalog items in Project Service
 author: ruhercul
 manager: kfend
