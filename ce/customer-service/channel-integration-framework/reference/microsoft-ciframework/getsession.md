@@ -17,7 +17,7 @@ manager: shujoshi
 
 # getSession
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Returns an object containing the unique identifier of the session, context and the value of isFocused parameter, in case the session belongs to the channel provider.
 

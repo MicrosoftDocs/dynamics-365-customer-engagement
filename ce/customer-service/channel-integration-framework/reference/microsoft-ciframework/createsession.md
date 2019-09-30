@@ -17,7 +17,7 @@ manager: shujoshi
 
 # createSession
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Creates a session based on the session template defined as part of the template and returns the unique identifier of the session (Id) that was created.
 

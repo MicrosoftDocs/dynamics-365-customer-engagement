@@ -17,3 +17,6 @@ ms.author: susikka
 manager: shujoshi
 ---
 
+# Support for multiple providers
+
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]

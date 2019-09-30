@@ -17,7 +17,7 @@ manager: shujoshi
 
 # createTab
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Creates a tab in a focused Session and returns the unique identifier of the created tab.
 

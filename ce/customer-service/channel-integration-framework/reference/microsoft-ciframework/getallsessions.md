@@ -17,7 +17,7 @@ manager: shujoshi
 
 # getAllSessions
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Returns the array of Session Ids for a given provider.
 

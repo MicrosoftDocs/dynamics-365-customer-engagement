@@ -17,7 +17,7 @@ manager: shujoshi
 
 # setSessionTitle
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Sets the session title, if the session belongs to the channel provider.
 
