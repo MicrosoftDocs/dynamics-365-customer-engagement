@@ -35,7 +35,7 @@ Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!IN
 ## Install the app from your device’s app store  
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)    
 
-## Sign in and sign out (iOS users)
+## Sign in and sign out 
 
 Sign in to the Dynamics 365 mobile app quickly using your work email address or web address for the Dynamics 365 app that you use. If you need help with your sign-in information, contact your Dynamics 365 administrator. 
 
