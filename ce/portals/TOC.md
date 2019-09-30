@@ -113,7 +113,7 @@
 ####  [Iteration tags](iteration-tags.md)
 ####  [Variable tags](variable-tags.md) 
 ####  [Template tags](template-tags.md)
-####  [PowerApps Common Data Service entity tags](dynamics-entity-tags.md)
+####  [Common Data Service entity tags](dynamics-entity-tags.md)
 ### [Available Liquid filters](liquid-filters.md)
 ### [Create advanced templates](create-advanced-templates.md)
 #### [Create a custom page template](create-custom-template.md)
