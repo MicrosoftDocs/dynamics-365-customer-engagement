@@ -2,7 +2,7 @@
 title: "Integrate Dynamics 365 appswith Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Integrate Dynamics 365 appswith Microsoft Teams."
-ms.date: 6/20/2019
+ms.date: 9/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -25,6 +25,10 @@ search.app:
 
 ## Overview 
 If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you know it's the place to manage all your conversations, files, and tools in one team workspace. Create and edit documents right in the app and enjoy instant access to SharePoint, OneNote, Power BI, and now, [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)]. 
+
+
+   > [!NOTE]
+   > - Microsoft Teams integration is not supported on Dynamics 365 Customer Engagement (on-premises).
 
 Dynamics 365 for Microsoft Teams integration enables users to easily work with Dynamics 365 customer information and share files directly from Microsoft Teams. This helps them to be more productive and get work done more effectively. 
 
