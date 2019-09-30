@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 09/4/2019
+ms.date: 10/4/2019
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -40,11 +40,11 @@ Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!IN
 Sign in to the Dynamics 365 mobile app quickly using your work email address or web address for the Dynamics 365 app that you use. If you need help with your sign-in information, contact your Dynamics 365 administrator. 
 
 > [!IMPORTANT]
-> - This feature is supported for version 9.x (Common Data Service and Dynamics 365 Customer Engagement (on-premises)) when signing in using the mobile app on an iOS device.
+> - This feature is supported for version 9.x (Common Data Service and Dynamics 365 Customer Engagement (on-premises)) when signing in using the mobile app on an iOS and Android device.
 > - If you are a [Dynamics 365 US Government](https://docs.microsoft.com/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government) (GCC and GCC High) user, you are required to sign in using the web address option.
 
 
-### Sign in with your email address (iOS users)
+### Sign in with your email address
 
 1. Enter your email address, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
 
@@ -56,7 +56,7 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
    > [!div class="mx-imgBorder"] 
    > ![Select an app to use](media/openanapp.png "Select an app to use"). 
         
-#### Sign out (iOS users)
+#### Sign out 
 
 - From the upper-right corner, select ![Sign out](media/gearsignout.png "Sign out") > **Sign out**.
 
@@ -64,7 +64,7 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
    > ![Sign out](media/signout1.png "Sign out")
 
 
-### Sign in with your web address (iOS users)
+### Sign in with your web address 
 
 You can also sign in using your web address for the Dynamics 365 app and user name and password. 
 
@@ -80,85 +80,13 @@ You can also sign in using your web address for the Dynamics 365 app and user na
    > [!div class="mx-imgBorder"] 
    > ![Select an app to use](media/navwebsignin.png "Select an app to use"). 
 
-#### Sign out (iOS users)
+#### Sign out 
 
 - From the navigation bar, select ![Sign out button](media/settingsmorebutton.png "Sign out button") > **User Information** > **Sign out**.
 
   > [!div class="mx-imgBorder"] 
   > ![Sign out](media/previewsignout.png "Sign out")
       
-
-## Sign in using your email address (Preview feature for Android users)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-Sign in to the Dynamics 365 mobile app for Android using your work email address. To sign in using your email address, you will need to install the preview version of the app from App Center.
-
-### Install the preview app
-
-1. Install the app:
-  - [Install Dynamics 365 for Phones (Preview) app](https://install.appcenter.ms/orgs/dynamics365-mobile/apps/dynamics-365-for-phones-preview/distribution_groups/public%20preview).
-  - [Install Dynamics 365 for Tablets (Preview) app](https://install.appcenter.ms/orgs/dynamics365-mobile/apps/dynamics-365-for-tablets-preview/distribution_groups/public%20preview).
-  
-> [!NOTE]
-> - If you have an existing app on your device, it will automatically be replaced by the preview version of the app. 
-> - If you were already signed-in to the non-preview version of the app, you will need to sign-out of the app and sign back in to use the new email sign-in experience.
-
-2. Select the **DOWNLOAD** button.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Select the download button"](media/emailandrod_1.png "Select the download button") 
-   
-3. Select **Open** to load the application APK file for installation.
- 
-   > [!div class="mx-imgBorder"] 
-   > ![Select the open button"](media/emailandrod_2.png "Select the Open button") 
-
-4. Select **Install** to install the app.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Select the install button"](media/emailandrod_3.png "Select the install button") 
-
-5. Once the app has installed, select **Open**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Select the open button"](media/emailandrod_4.png "Select the open button")   
-   
-### Sign in using your email adress
-
-1. Enter your email address, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
-
-   > [!div class="mx-imgBorder"] 
-   > ![Sign in using email address"](media/emailbasedsignin_android.png "Sign in using email addres")  
-
-
-2. From the list of apps that you have access to, select the app that you want to use.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Select an app to use](media/openanapp.png "Select an app to use"). 
-   
-
-## Sign in and sign out (Android users)
-
-To sign in, you’ll need your Dynamics 365 apps web address, user name, and
-password. If you need help with your sign-in information, contact your Dynamics 365 administrator. 
-
-1. Open the mobile app, enter your Dynamics 365 apps web address, and then select ![Dynamics 365 for phones and tablets continue sign](../mobile-app/media/mobile-signin-arrow.png "Dynamics 365 for phones and tablets continue sign").
-
-   > [!div class="mx-imgBorder"] 
-   > ![Dynamics 365 for phones and tablets signing in screen](media/SignIn_1.png "Dynamics 365 for phones and tablets signing in screen") 
-
-2. Enter your user name and password, and select **Sign in**.
-
-3. From the list of apps that you have access to, select the app that you want to use.
-
-#### Sign out
-
-- From nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **User Information** > **Sign out**.
-
-  > [!div class="mx-imgBorder"] 
-  > ![Dynamics 365 for phones and tablets sign out screen](media/SignOut.png "Dynamics 365 for phones and tablets sign out screen")
-
 
 ## Navigation
 
