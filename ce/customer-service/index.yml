@@ -55,5 +55,5 @@ additionalContent:
         # Card
         - title: Dynamics 365 Channel Integration Framework
           summary: "Integrate any third-party channel provider or channel aggregators into Unified Interface Apps."
-          url: ../developer/channel-integration-framework/channel-integration-framework
+          url: channel-integration-framework/channel-integration-framework
     
