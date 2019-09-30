@@ -45,11 +45,11 @@
 #### [Set up entitlements using entitlement templates](set-up-entitlements-templates.md)
 #### [Create email templates](../admin/create-templates-email.md)
 #### [Create article templates](../admin/create-templates-articles.md)
-#### [Create knowledge article template](create-templates-knowledge-article.md)
 
 ### Knowledge Base Management
 #### [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
 #### [Create and manage categories](create-manage-categories.md)
+#### [Create knowledge article template](create-templates-knowledge-article.md)
 
 ### Similar Record Suggestions
 #### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
