@@ -20,6 +20,8 @@ manager: shujoshi
 
 # What's new in Channel Integration Framework (CIF)
 
+This topic provides the list of features that are introduced in the latest version of Channel Integration Framework.
+
 ## What's new in Channel Integration Framework version 2.0
 
 > [!IMPORTANT]
