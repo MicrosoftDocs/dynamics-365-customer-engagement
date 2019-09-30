@@ -9,8 +9,6 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 82d04aae-5557-44da-9658-d1cf1b1c4825
 caps.latest.revision: 4
 author: jimholtz
@@ -24,7 +22,7 @@ search.app:
 ---
 # Backup and restore instances
 
-Protecting your Dynamics 365 apps data and providing continuous availability of service is important for you and for us. You have multiple options for backing up and restoring your Customer Engagement instances.   
+Protecting your data in model-driven apps in Dynamics 365, such as Dynamics 365 Sales and Customer Service, and providing continuous availability of service is important for you and for us. You have multiple options for backing up and restoring your instances.   
 
 > [!NOTE]
 > - Consider using the less privileged service admin role instead of the global admin role. See [Use the service admin role to manage your tenant](use-service-admin-role-manage-tenant.md).
@@ -35,7 +33,7 @@ Protecting your Dynamics 365 apps data and providing continuous availability of 
 ## System backups  
  Good news! Backups take place without you having to do anything.  
   
- About Customer Engagement apps **system backups**:  
+ About **system backups**:  
   
 - All your instances are backed up.  
   
@@ -72,13 +70,13 @@ Protecting your Dynamics 365 apps data and providing continuous availability of 
   
 <a name="BKMK_ODBCRMManaged"></a>   
 
-## On-demand backup: Dynamics 365 apps managed  
- Automated system backups are great, but you will want to be able to make your own backups before making some significant customization change or applying a version update. You can do this with on-demand Dynamics 365 apps managed  backups.  
+## On-demand backup: managed  
+ Automated system backups are great, but you will want to be able to make your own backups before making some significant customization change or applying a version update. You can do this with on-demand managed backups.  
   
 > [!NOTE]
 >  A backup is created for you when we update your instance.  
   
- About [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps managed **on-demand backups**:  
+ About Dynamics 365 apps managed **on-demand backups**:  
   
 - You can back up Production and Sandbox instances.  
   
@@ -96,11 +94,11 @@ Protecting your Dynamics 365 apps data and providing continuous availability of 
 
 - On-demand backups are identified by having a label you created and by the presence of **Edit** | **Delete** | **Restore** in the details section. System backups have only **Restore**.  
   
-  ![Edit, Delete, and Restore buttons for Dynamics 365 for Customer Engagement apps on-demand backups.](../admin/media/managed-backup.png "Edit, Delete, and Restore buttons for Dynamics 365 for Customer Engagement apps on-demand backups.")  
+  ![Edit, Delete, and Restore buttons for on-demand backups.](../admin/media/managed-backup.png "Edit, Delete, and Restore buttons for on-demand backups.")  
   
 <a name="BKMK_CreateCRMBackup"></a>   
 
-### Create an on-demand backup of a Dynamics 365 instance  
+### Create an on-demand backup of an instance  
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with System Administrator or Delegated Admin security roles.  
   
@@ -118,7 +116,7 @@ Protecting your Dynamics 365 apps data and providing continuous availability of 
   
 7. Click **Create**.  
   
-   ![Form for creating a new Dynamics 365 for Customer Engagement apps (online) backup.](../admin/media/online-backup.png "Form for creating a new Dynamics 365 for Customer Engagement apps (online) backup.")  
+   ![Form for creating a new backup.](../admin/media/online-backup.png "Form for creating a new backup.")  
   
    A notification will be displayed to confirm the backup is being created.  The status column in the list provides the status of the backup.  
   
@@ -127,7 +125,7 @@ Protecting your Dynamics 365 apps data and providing continuous availability of 
   
 <a name="BKMK_EditBackups"></a>   
 
-### Edit a Dynamics 365 on-demand backup  
+### Edit an on-demand backup  
  Edit a backup to change its label and your notes about the backup.  
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with System Administrator or Delegated Admin security roles.  
@@ -148,7 +146,7 @@ Protecting your Dynamics 365 apps data and providing continuous availability of 
   
 <a name="BKMK_RestoreBackups"></a>   
 
-### Restore a Dynamics 365 on-demand backup  
+### Restore an on-demand backup  
  You can only restore to Sandbox instances. To restore to a Production instance, first switch it to a Sandbox instance, restore to it, and then switch it back to a Production instance. See [Switch an instance](../admin/switch-instance.md).  
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with System Administrator or Delegated Admin security roles.  
@@ -218,7 +216,7 @@ Both manual backups and system backups are retained for 28 days. We currently do
 ### Can I extend my backup to be retained beyond the standard number of days?
 You can't extend your system backups or manual/on-demand backups. However, if you want to keep the data for longer than the standard retention period, we recommend you copy your instance to an additional instance and do not modify that additional instance. 
 
-### Can I move my data from an online instance to an on-premises version of Dynamics 365?
+### Can I move my data from an online instance to an on-premises version?
 Obtaining a copy of your database backup isn't available. If you want to move your online data to Customer Engagement (on-premises), this requires data migration. For smaller datasets, consider exporting and [importing data using Excel](../basics/import-export-data.md). For larger datasets, find a third-party data migration solution on [Microsoft AppSource](https://appsource.microsoft.com/).
 
 ### Do we have any database size restriction to take a backup or restoring an organization through user interface (UI) or API?

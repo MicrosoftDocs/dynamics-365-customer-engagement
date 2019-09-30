@@ -1,5 +1,5 @@
 ---
-title: "What's new for instance management (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "What's new for instance management | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -8,8 +8,6 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 9fd837d9-3551-4df3-a448-4b9f4161308d
 caps.latest.revision: 4
 author: jimholtz

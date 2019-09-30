@@ -25,7 +25,7 @@ search.app:
 
 *This content also applies to the on-premises version.*
 
-You’re trying to track email using [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder tracking, but server-side synchronization isn’t working for your mailbox. Folder tracking requires that your email be synchronized using server-side synchronization. Contact your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrator for help. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement administrator or support person](../basics/find-administrator-support.md)  
+You’re trying to track email using [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder tracking, but server-side synchronization isn’t working for your mailbox. Folder tracking requires that your email be synchronized using server-side synchronization. Contact your Dynamics 365 administrator for help. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement administrator or support person](../basics/find-administrator-support.md)  
   
  **For Admins**  
   

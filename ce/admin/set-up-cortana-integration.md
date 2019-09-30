@@ -32,7 +32,7 @@ search.app:
 > [!IMPORTANT]
 > We are working to deliver a robust and scalable digital assistant experience across all of our Dynamics 365 for Customer Engagement apps offerings. This includes natural language integration for customers and partners across multiple channels including [!INCLUDE[pn_cortana](../includes/pn-cortana.md)]. To that end, we are discontinuing the current [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration preview feature that was made available for Dynamics 365 for Customer Engagement apps and we are focusing on building a new long term intelligent solution experience, which will include [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] digital assistant integration.
   
-We’re introducing [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration to help salespeople keep track of important [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps activities. [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] embeds sales activities, accounts, and opportunities into [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] to surface what’s most relevant to salespeople at any time.  
+We’re introducing [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration to help salespeople keep track of important Dynamics 365 apps activities. [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] embeds sales activities, accounts, and opportunities into [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] to surface what’s most relevant to salespeople at any time.  
   
  Cortana integration is available as a Preview feature to organizations that use [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)]. [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
   
@@ -44,7 +44,7 @@ We’re introducing [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integratio
  For more information about how to enable Preview features, see [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md).  
   
 > [!NOTE]
-> [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps is a Preview feature. [!INCLUDE[cc_preview_feature](../includes/cc-preview-feature.md)]  
+> [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration with Dynamics 365 apps is a Preview feature. [!INCLUDE[cc_preview_feature](../includes/cc-preview-feature.md)]  
 > 
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 > 

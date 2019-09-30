@@ -8,8 +8,6 @@ ms.suite:
 ms.tgt_pltfrm:
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: cc85ee44-cbbd-4b0d-ae00-84cc0673527b
 caps.latest.revision: 4
 author: jimholtz
@@ -23,10 +21,10 @@ search.app:
 ---
 # Manage Sandbox instances
 
-A Sandbox instance is any non-production instance of Dynamics 365 apps. Isolated from production, a Sandbox instance is the place to safely develop and test application changes with low risk.  
+A Sandbox instance is any non-production instance of Common Data Service apps. Isolated from production, a Sandbox instance is the place to safely develop and test application changes with low risk.  
   
 > [!NOTE]
-> With [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], we no longer require a minimum purchase amount to receive a free Sandbox instance. If you've purchased a subscription and have not received a free Sandbox instance, you will be provided one when you purchase full Dynamics 365 Enterprise licenses. There is a limit of one free Sandbox instance per tenant. You can also purchase additional Sandbox instances. For more information, see [Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=321102).  
+> With [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], we no longer require a minimum purchase amount to receive a free Sandbox instance. If you've purchased a subscription and have not received a free Sandbox instance, you will be provided one when you purchase full Dynamics 365 Enterprise licenses. There is a limit of one free Sandbox instance per tenant. You can also purchase additional Sandbox instances. For more information, see [Pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=321102).  
 >
 > Check out [Switch an instance](switch-instance.md) for information on how to switch an instance to or from Sandbox and for licensing considerations.
 >
@@ -50,7 +48,7 @@ A Sandbox instance is any non-production instance of Dynamics 365 apps. Isolated
 ## Reset a Sandbox instance  
  You can reset a Sandbox instance to delete and re-provision it. Consider a reset when you want to:  
   
-- Change to a different version of Dynamics 365 apps.  
+- Change to a different version of model-driven apps in Dynamics 365.  
   
 - Create a new project  
   
