@@ -20,16 +20,37 @@ manager: shujoshi
 
 # What's new in Channel Integration Framework (CIF)
 
-The topic provides the list of new features introduced for Dynamics 365 Channel Integration Framework (CIF) version 1.0.
+## Channel Integration Framework version 2.0
 
-## JavaScript Channel Integration Framework APIs
+> [!IMPORTANT]
+> All APIs released for Channel Integration Framework version 1.0 can be used with the latest version. The APIs for managing tabs and sessions are not supported on single session apps.
+
+The Channel Integration Framework (CIF) version 2.0, provides multiple enhancements over the version 1.0, particularly in terms of its ability to integrate with the latest multi-session agent experiences for customer service. Following are the key new features in the Channel Integration Framework Version 2.0 over the version 1.0:
+
+### Integration with the multi-session experiences: **
+
+The Channel Integration Framework version 2.0 provides APIs to integrate with the multi-session experiences in the Omnichannel for customer service app. These APIs allow providers to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as and when needed. For more information, see Integration with multi-session experiences.
+
+### New modes and locations for the communication widget:**
+
+Providers can now define experiences for the minimized mode of the communication widgets they build. Agents can manually change the mode of the control from docked to minimized. The same can be achieved programmatically as well. For more information, see New modes and locations for the communication widget.
+
+### Support for Multiple Providers:**
+
+With Channel Integration Framework version 2.0, organizations can configure multiple providers in the Omnichannel for Customer Service app. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels (for example, live chat and telephony), where each of these sessions belong to different providers. For more information, see Support for Multiple Providers.
+
+## Channel Integration Framework version 1.0
+
+This section provides the list of new features introduced for Dynamics 365 Channel Integration Framework (CIF) version 1.0.
+
+### JavaScript Channel Integration Framework APIs
 
 | JavaScript API | Description |
 |-----|-----|
 | [Microsoft.CIFramework.getEntityMetadata](reference/microsoft-ciframework/getEntityMetadata.md) | [!INCLUDE[getEntityMetadata-description](reference/microsoft-ciframework/includes/getEntityMetadata-description.md)] |
 | [Microsoft.CIFramework.renderSearchPage](reference/microsoft-ciframework/renderSearchPage.md) | [!INCLUDE[renderSearchPage-description](reference/microsoft-ciframework/includes/renderSearchPage-description.md)] |
 
-## Ability to pass Dynamics 365 URL to widget library
+### Ability to pass Dynamics 365 URL to widget library
 
 To access the Dynamics 365 Channel Integration Framework (CIF) APIs, you need to load the `msdyn_cilibrary.js` file inside your communication widget. Since the widget is in a different domain, the JavaScript API library needs to identify the Dynamics 365 domain to interact. To enable the communication between the different domains, you must pass your Dynamics 365 instance URL to the widget library.
 
@@ -39,20 +60,15 @@ There are two ways to pass the URL to widget library:
 
 More information: [Pass a Dynamics 365 URL to a widget library](pass-url-widget-library.md)
 
-## Ability to add another trusted domain
+### Ability to add another trusted domain
 
 Channel Integration Framework allows you to add an additional trusted domain if the initial landing URL and the final domain from which the communication widget is hosted are different. More information: [Configure channel provider in Channel Integration Framework](configure-channel-provider-channel-integration-framework.md).
 
-## Custom Parameters field in the Channel provider configuration
+### Custom Parameters field in the Channel provider configuration
 
 Custom Parameters field takes a text blob as input and [Microsoft.CIFramework.getEnvironment](reference/microsoft-ciframework/getEnvironment.md) returns this as a value of key `customParams`. 
 
 More information: [Configure channel provider in Channel Integration Framework](configure-channel-provider-channel-integration-framework.md).
-
-
-## Download Dynamics 365 Channel Integration Framework
-
-Download link for Channel Integration Framework solution: [Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2050102).
 
 ## See also
 
