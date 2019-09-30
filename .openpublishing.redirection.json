@@ -1101,27 +1101,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/admin/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/admin/admin-guide",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/analytics/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/analytics/reporting-analytics-with-dynamics-365",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/basics/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/basics/basics-guide",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/customize/add-visual-controls-mobile-app.md",
-      "redirect_url": "/dynamics365/customer-engagement/customize/overview",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customize/index.md",
       "redirect_url": "/dynamics365/customer-engagement/customize/overview",
       "redirect_document_id": "false"
     },
