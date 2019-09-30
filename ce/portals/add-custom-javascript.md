@@ -103,7 +103,7 @@ if (window.jQuery) {
 ### See also
 
 [Configure a portal](configure-portal.md)  
-[Define entity forms and custom logic within the Portals](entity-forms-custom-logic.md)  
+[Define entity forms and custom logic within a portal](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Load Form/Load Tab step type](load-form-step.md)  
 [Redirect step type](add-redirect-step.md)  

@@ -1,5 +1,5 @@
 ---
-title: "Create and manage publishing states in Portals | MicrosoftDocs"
+title: "Create and manage publishing states in Dynamics 365 Portals | MicrosoftDocs"
 description: "Learn how to create and manage publishing states in a portal."
 ms.date: 12/03/2018
 ms.service: crm-online
@@ -31,9 +31,9 @@ By default, two publishing states are available: Draft and Published. Draft spec
 
 ## Manage publishing states
 
-Publishing states can be created, edited, and deleted within QWE Portals.
+Publishing states can be created, edited, and deleted within Dynamics 365 Portals.
 
-1. Sign in to Portals.
+1. Sign in to Dynamics 365 Portals.
 
 2. Go to **Portals** > **Websites**.
 
@@ -55,7 +55,7 @@ You can also manage publish states under the **Publishing States** section on th
 
 ## Manage publishing states from the portal content editor
 
-While publishing states and their attributes must be managed within QWE Portals, portal users with content management permissions can control the state of certain entities (such as web pages and web files) through the portal content editing interface.
+While publishing states and their attributes must be managed within Dynamics 365 Portals, portal users with content management permissions can control the state of certain entities (such as web pages and web files) through the portal content editing interface.
 
 ![Select publishing state](media/publishing-states-portal.png "Select publishing state")
 
@@ -78,7 +78,7 @@ To be precise, publishing state transition rules govern the transitions between 
 
 If the logged-in user who is attempting the change is in any of the roles you assign to the rule, the transition will be successful. If a user does not have permissions to make a change from one rule to another, then the front-side editing will not allow them to make that change. Alternatively, you can create the rule; then as you create web roles add the rule to the web roles. One rule can be associated with any number of web roles and vice versa.
 
-1. Sign in to Portals.
+1. Sign in to Dynamics 365 Portals.
 
 2. Go to **Portals** > **Publishing State Transition Rules**.
 

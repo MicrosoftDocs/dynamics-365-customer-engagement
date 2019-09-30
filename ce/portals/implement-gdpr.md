@@ -1,6 +1,6 @@
 ---
-title: "Implement General Data Protection Regulations in Portals  | MicrosoftDocs"
-description: "Learn how to implement General Data Protection Regulations in Microsoft Portals."
+title: "Implement General Data Protection Regulations in Dynamics 365 Portals  | MicrosoftDocs"
+description: "Learn how to implement General Data Protection Regulations in Microsoft Dynamics 365 Portals."
 keywords: "portal GDPR, implement GDPR in portal"
 ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
@@ -24,7 +24,7 @@ search.app:
   - D365Portals
 ---
 
-# Implementing General Data Protection Regulations in your Portals
+# Implementing General Data Protection Regulations in your Dynamics 365 Portals
 
 The General Data Protection Regulation (GDPR) is a legal act of the European Union (EU), which protects data for all individuals within the EU. With GDPR, people can control the use of their personal data in Common Data Service.
 

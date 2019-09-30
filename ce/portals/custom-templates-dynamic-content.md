@@ -26,11 +26,11 @@ Liquid is an open-source template language integrated into portals. It can be us
 
 - Add dynamic content directly to the Copy field of a webpage or the content of a [content snippet](customize-content-snippets.md).  
 
-- [Store source content by using web templates](store-content-web-templates.md), entirely through configuration within PowerApps, for use throughout the Portals content management system.  
+- [Store source content by using web templates](store-content-web-templates.md), entirely through configuration within PowerApps, for use throughout the portal's content management system.  
 
 - [Render a website header and primary navigation bar](render-site-header-primary-navigation.md), entirely through configuration within PowerApps.  
 
-In all of these scenarios, you'll have dynamic access to Portals features, such as [entitylist](add-webpage-render-list-records.md), [content snippets](customize-content-snippets.md), [site settings for portals](configure-site-settings.md), and [web links](manage-web-links.md).  
+In all of these scenarios, you'll have dynamic access to Dynamics 365 Portals features, such as [entitylist](add-webpage-render-list-records.md), [content snippets](customize-content-snippets.md), [site settings for portals](configure-site-settings.md), and [web links](manage-web-links.md).  
 
 ### See also
 

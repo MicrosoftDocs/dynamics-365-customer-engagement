@@ -23,13 +23,13 @@ search.app:
 ---
 # Configure a portal
 
-Portals offer powerful customization options to:
+Dynamics 365 Portals offer powerful customization options to:
 
 - [Configure site settings for portals to modify the behavior or visual style of a portal](configure-site-settings.md)  
 - [Add dynamic content to pages and create a wide variety of custom templates](custom-templates-dynamic-content.md)  
 - [Configure a contact for use on a portal](configure-contacts.md)  
 - [Authenticate portal users](set-authentication-identity.md)
-- [Define entity forms and custom logic within the Portals](entity-forms-custom-logic.md).
+- [Define entity forms and custom logic within a portal](entity-forms-custom-logic.md).
 - [Create and run advertisements on a portal](create-run-advertisement.md)  
 - [Gather feedback by using polls on a portal](gather-feedback-poll.md)  
 - [Rate or vote on a webpage or blog post on a portal](rate-webpage-blog-post.md)  

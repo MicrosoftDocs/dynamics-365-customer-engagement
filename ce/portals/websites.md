@@ -1,6 +1,6 @@
 ---
-title: "Create and manage websites in Portals | MicrosoftDocs"
-description: "Learn how to create and manage websites in Portals."
+title: "Create and manage websites in Dynamics 365 Portals | MicrosoftDocs"
+description: "Learn how to create and manage websites in Dynamics 365 Portals."
 ms.custom: 
   - dyn365-portal
 ms.date: 12/03/2018
@@ -34,12 +34,12 @@ However, it is also possible to control this by URL path prefix (see the descrip
 
 ## Manage websites
 
-Websites can be created, edited, and deleted within QWE Portals. 
+Websites can be created, edited, and deleted within Dynamics 365 Portals. 
 
 > [!WARNING]
 > When deleting a website record, the portal entities related to the website (web pages, web files, etc.) will also be deleted. This is generally the desired behavior, as it means an entire website and all its related data can be removed from a organization in a single operation.
 
-1. Sign in to Portals.
+1. Sign in to Dynamics 365 Portals.
 
 2. Go to **Portals** > **Websites**.
 

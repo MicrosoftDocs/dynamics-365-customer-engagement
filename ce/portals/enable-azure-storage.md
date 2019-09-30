@@ -1,5 +1,5 @@
 ---
-title: "Enable Azure storage for Portals| MicrosoftDocs"
+title: "Enable Azure storage for portals| MicrosoftDocs"
 description: "Instructions to enable Azure storage for portals to take advantage of the greater file storage capability of Azure."
 ms.custom: 
   - dyn365-portal
@@ -28,7 +28,7 @@ search.app:
 
 You must create a storage account with **Resource manager** as the deployment model. [!include[More information](../includes/proc-more-information.md)] [Create an Azure storage account](https://docs.microsoft.com/azure/storage/storage-create-storage-account#create-a-storage-account).
 
-After the storage account is running, portals require certain global settings that tell the application how to locate your storage account. In Portals, go to **Settings** > **Settings**, and add a new setting named **FileStorage/CloudStorageAccount**.
+After the storage account is running, portals require certain global settings that tell the application how to locate your storage account. In Dynamics 365 Portals, go to **Settings** > **Settings**, and add a new setting named **FileStorage/CloudStorageAccount**.
 
 > [!NOTE]
 > The maximum file upload size is 125 MB.
@@ -53,7 +53,7 @@ To locate the value for FileStorage/CloudStorageAccount, you must get a connecti
 
 If you do not already have an [!include[Azure](../includes/pn-azure-shortest.md)] Blob container in your storage account, you must add one by using your [!include[Azure portal](../includes/pn-azure-portal.md)].
 
-In Portals, go to **Settings** > **Settings**, and add a new setting named FileStorage/CloudStorageContainerName, using the name of your container as the value.
+In Dynamics 365 Portals, go to **Settings** > **Settings**, and add a new setting named FileStorage/CloudStorageContainerName, using the name of your container as the value.
 
 ![Portal setting for cloud storage container](media/portal-site-setting-cloud-storage-container.png "Portal setting for your cloud storage container")
 
@@ -79,7 +79,7 @@ Add the following site settings from **Portals** > **Site Settings**. [!include[
 |WebFiles/StorageLocation|AzureBlobStorage|
 |||
 
-You can now create a child file in portal and mention fully qualified name (along with container) in Azure Blob address URL. With these settings, your Portals is ready to begin uploading and downloading files to and from [!include[Azure](../includes/pn-azure-shortest.md)] Storage. However, you cannot take full advantage of this feature until you [add a web resource to enable uploading attachments to Azure Storage](add-web-resource.md), and configure [entity forms](configure-notes.md#notes-configuration-for-entity-forms) or [web forms](configure-notes.md#notes-configuration-for-web-forms) to use it.
+You can now create a child file in portal and mention fully qualified name (along with container) in Azure Blob address URL. With these settings, your portal is ready to begin uploading and downloading files to and from [!include[Azure](../includes/pn-azure-shortest.md)] Storage. However, you cannot take full advantage of this feature until you [add a web resource to enable uploading attachments to Azure Storage](add-web-resource.md), and configure [entity forms](configure-notes.md#notes-configuration-for-entity-forms) or [web forms](configure-notes.md#notes-configuration-for-web-forms) to use it.
 
 ### See also
 

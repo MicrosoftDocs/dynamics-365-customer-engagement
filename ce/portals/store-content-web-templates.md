@@ -23,7 +23,7 @@ search.app:
 ---
 # Store source content by using web templates
 
-Web Template is an entity (adx\_webtemplate), included with Portals, that is used to store template source content. A web template will generally contain Liquid for dynamic content rendering and is the central entity used to integrate Liquid templates with the rest of the Portals system.
+Web Template is an entity (adx\_webtemplate), included with Dynamics 365 Portals, that is used to store template source content. A web template will generally contain Liquid for dynamic content rendering and is the central entity used to integrate Liquid templates with the rest of the Dynamics 365 Portals system.
 
 Web Templates can be included in other content or combined with other templates by using template tags, and are referenced in these tags by their **Name** attribute. They can also be used to create entire custom Page Templates, or create custom headers and footers for your portal website.
 
@@ -38,7 +38,7 @@ Web Templates can be included in other content or combined with other templates 
 
 ## Web templates as page templates
 
-Web Templates can be used in conjunction with page templates to create new templates for the Portals content management system. This can be done without the need to write .NET code or redeploy your portal application.
+Web Templates can be used in conjunction with page templates to create new templates for the Dynamics 365 Portals content management system. This can be done without the need to write .NET code or redeploy your portal application.
 
 To create a new page template based on a web template, select a **Type** of Web Template when creating a new Page Template record. Then select a **Web Template**.
 
@@ -52,7 +52,7 @@ Web templates can also be used to override the global header and footer used by 
 
 ## Built-in web templates
 
-There is a set of premade Liquid templates available within Portals. To use them, you must include them by name, using the list below as a reference.
+There is a set of premade Liquid templates available within Dynamics 365 Portals. To use them, you must include them by name, using the list below as a reference.
 
 | Name                        | Description                                                                                                                                                                                                                             | Code                                                                                   |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|

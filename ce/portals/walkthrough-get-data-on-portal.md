@@ -23,7 +23,7 @@ search.app:
 ---
 # Get data from model-driven apps in Dynamics 365 on the portal
 
-One of the most distinguishing features surrounding the Portals 2016 Update 1 is the ability to render&mdash;and allow the manipulation of&mdash; data on an internally facing or externally facing portal website. In this section, we will profile the entities that provide the foundation of this functionality and discuss the steps necessary to achieve it.
+One of the most distinguishing features surrounding the Dynamics 365 Portals 2016 Update 1 is the ability to render&mdash;and allow the manipulation of&mdash; data on an internally facing or externally facing portal website. In this section, we will profile the entities that provide the foundation of this functionality and discuss the steps necessary to achieve it.
 
 ## Entity forms
 An entity form record allows an administrator to render a PowerApps form on a portal to edit, display, or capture a customizable set of data from its users. This is a relatively easy and straightforward process, and it eliminates the need for any code customizations that would have otherwise been required to achieve such a result before deploying a portal.
@@ -38,7 +38,7 @@ When you create a new entity form, the first step is to decide which entity and 
 
 For this demonstration, let’s consider a scenario in which Contoso, Inc. would like to create a custom entity in PowerApps linked to a form rendered on their Customer Self-Service Portal that will allow users to submit suggestions for improvement that they would like to see the company introduce. The steps that the administrator at Contoso, Inc. would take to achieve this include the following:
 
-1. In QWE Portals, create the custom entity through **Settings** > **Customizations** > **Customize the System** > **Entities**.  In this example, we’ll call the entity “Suggestion.” Set the entity to appear in the **Portals** navigation area, then save it.
+1. In Dynamics 365 Portals, create the custom entity through **Settings** > **Customizations** > **Customize the System** > **Entities**.  In this example, we’ll call the entity “Suggestion.” Set the entity to appear in the **Portals** navigation area, then save it.
 
 2. Create two custom fields underneath the Suggestion entity that pertain to the information that should be captured on the form.  In this example, we’ll create **SuggestionOrigin** (Option Set) and **SuggestionSummary** (Multiple Lines of Text) fields.  Both fields will be set to **Business Required**.
 
@@ -89,7 +89,7 @@ Entity lists also support multiple views and actions. If more than one view has 
 
 Building on the previous example of the administrator of Contoso, Inc. creating an entity form to collect user suggestions, we will now cover the steps that the administrator would take to (very simplistically) expose the submitted records on the portal for other users to review and for easy access for submitting new ones:
 
-1. In QWE Portals, go to **Settings** > **Customizations** > **Customize the System** > **Entities** > **Suggestions** > **Views** and edit the **Active Suggestions** view.  Add the columns that should be exposed on the portal to this view.
+1. In Dynamics 365 Portals, go to **Settings** > **Customizations** > **Customize the System** > **Entities** > **Suggestions** > **Views** and edit the **Active Suggestions** view.  Add the columns that should be exposed on the portal to this view.
 
 2. Go to **Portals** > **Entity Lists** and create a new Entity List record.  
    1. Enter a name of **Suggestions List**, set its **Entity Name** to **Suggestion (new_suggestion)**. 

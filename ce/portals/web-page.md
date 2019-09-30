@@ -1,5 +1,5 @@
 ---
-title: "Create and manage web pages in Portals | MicrosoftDocs"
+title: "Create and manage web pages in Dynamics 365 Portals | MicrosoftDocs"
 description: "Learn how to create and manage web pages in a portal."
 ms.date: 12/03/2018
 ms.service: crm-online
@@ -27,11 +27,11 @@ A web page represents a particular URL in a portals website, and is one of the c
 
 Web pages also form the basis for including other, specialized entity types in the portal site map – web files, shortcuts, forums, web forms, and blogs are all situated in the portal site map through – and thus derive their URLs from – a relationship to a parent web page.
 
-## Manage web pages in QWE Portals
+## Manage web pages in Dynamics 365 Portals
 
-Web pages can be created, edited, and deleted within QWE Portals.
+Web pages can be created, edited, and deleted within Dynamics 365 Portals.
 
-1. Sign in to Portals.
+1. Sign in to Dynamics 365 Portals.
 
 2. Go to **Portals** > **Web Pages**.
 
@@ -91,7 +91,7 @@ The table below explains many of the standard web page attributes used by portal
 
 Page comments provides users with the ability to view and post comments on a web page. By default this feature is disabled and can be enabled on a page by page basis.
 
-1. Sign in to Portals.
+1. Sign in to Dynamics 365 Portals.
 
 2. Go to **Portals** > **Web Pages**.
 

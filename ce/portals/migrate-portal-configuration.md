@@ -1,6 +1,6 @@
 ---
-title: "Migrate Portals configuration | MicrosoftDocs"
-description: "Learn how to migrate Portals configuration."
+title: "Migrate portal configuration | MicrosoftDocs"
+description: "Learn how to migrate portal configuration."
 keywords: ""
 ms.date: 02/08/2019
 ms.service:
@@ -17,11 +17,11 @@ ms.suite:
 ms.tgt_pltfrm: 
 ---
 
-# Migrate Portals configuration
+# Migrate portal configuration
 
 Portal development involves several configurations and customizations to achieve a desired experience for portal end users.
 
-After you have completed development or configuration of your Portals instance, you might want to migrate your latest Portals configuration from development to testing or the production environments. Migration involves exporting the existing configuration from the source instance, and then importing it into the target  instance.
+After you have completed development or configuration of your portal instance, you might want to migrate your latest portals configuration from development to testing or the production environments. Migration involves exporting the existing configuration from the source instance, and then importing it into the target  instance.
 
 To export configuration data, you would need to use the Configuration Migration tool and a portal-specific configuration schema file. For more information about this tool, see [Manage configuration data](../admin/manage-configuration-data.md).
 

@@ -28,7 +28,7 @@ Business is not confined to a single region or a language. A single portal can d
 
 To enable multiple languages for a portal, follow these steps:
 
-1. [Enable languages in a Common Data Service organization.](https://technet.microsoft.com/library/dn832148.aspx)  
+1. [Enable languages in a Common Data Service environment.](https://technet.microsoft.com/library/dn832148.aspx)  
 2. Go to **Portals** > **Website** > **Websites**.
 3. Select the website to add language support to.
 4. Find the **Supported Languages** section under the **General** tab, and then select the **+** button.
@@ -93,7 +93,7 @@ The table below shows all the languages currently available out of the box. This
 
 ## Create content in multiple languages
 
-1. Sign in to Portals.
+1. Sign in to Dynamics 365 Portals.
 2. Go to **Portals** > **Content** > **Web Pages** to see a list of content. For each webpage, there will be a parent version of the page and a child version of the page for each language activated for the portal.
 3. To add a new localization of the page, go to a base page and scroll down to **Localized Content**.
 4. Select the **+** button on the rightmost side to create a lookup for the localized version.

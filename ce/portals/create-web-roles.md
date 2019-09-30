@@ -27,7 +27,7 @@ After a contact has been configured to use the portal, it must be given one or m
 
 To create a web role:
 
-1. Sign in to Portals.
+1. Sign in to Dynamics 365 Portals.
 
 2. Go to **Portals** > **Web Roles**.
 
@@ -39,7 +39,7 @@ To create a web role:
 
 ## Attributes and relationships
 
-The table below explains the Web Role attributes used by Portals.
+The table below explains the Web Role attributes used by Dynamics 365 Portals.
 
 | Name                     | Description                                                                                                                                                                                                                                     |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

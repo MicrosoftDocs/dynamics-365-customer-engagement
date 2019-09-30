@@ -1,4 +1,4 @@
-# [Deliver web engagement experience with Portals](administer-manage-portal-dynamics-365.md)
+# [Deliver web engagement experiences with Dynamics 365 Portals](administer-manage-portal-dynamics-365.md)
 # [What's new](monthly-updates-portals.md)
 # [Provision a portal](provision-portal.md)
 
@@ -12,7 +12,7 @@
 ## [Reset a portal](reset-portal.md)
 ## [Change base URL of a portal](change-base-url.md)
 ## [Upgrade a portal](upgrade-portal.md)
-## [Migrate Portals configuration](migrate-portal-configuration.md)
+## [Migrate portal configuration](migrate-portal-configuration.md)
 ## [Set up Power BI integration](set-up-power-bi-integration.md)
 ## [Restrict portal access by IP address](ip-address-restrict.md)
 ## [Use portal checker](portal-checker.md)

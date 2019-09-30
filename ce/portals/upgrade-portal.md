@@ -23,13 +23,13 @@ search.app:
 
 # Upgrade a portal
 
-This section helps you understand the Portals release process to prepare for any new release properly and to reduce any impact on your customers. It also talks about various components which are part of your portal.
+This section helps you understand the Dynamics 365 Portals release process to prepare for any new release properly and to reduce any impact on your customers. It also talks about various components which are part of your portal.
 
-A Portals consists of the following components:
+A portal consists of the following components:
 
 |Component|Description|Update process|
 |---------|-----------|--------------|
-|Portal solutions|Solutions which are installed in Common Data Service organization and contains the metadata entities for any Portals.|Updated by customers themselves from the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page.|
+|Portal solutions|Solutions which are installed in Common Data Service environment and contains the metadata entities for any portal.|Updated by customers themselves from the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page.|
 |Portal website host|Portal website host is the Portal code which forms the actual website.|Portal website host is updated automatically for all portals.<br>**Note**: A new version of Portal website host is backwards compatible with all supported versions of Portal solutions. However, once a solution version becomes unsupported, it is not certified to run with the new version of Portal website host.|
 |||
 

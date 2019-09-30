@@ -26,7 +26,7 @@ search.app:
 
 Forum Access Permission is a security rule that can be assigned to a particular forum and web role that can restrict particular users from viewing the forum or granting particular users the ability to moderate a forum within the webpages. To create, edit, or delete forum access permissions:
 
-1. Sign in to Portals.
+1. Sign in to Dynamics 365 Portals.
 
 2. Go to **Community** > **Forum Access Permissions**.
 

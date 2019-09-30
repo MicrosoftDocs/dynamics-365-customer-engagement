@@ -1,6 +1,6 @@
 ---
-title: "Create and manage page templates in Portals | MicrosoftDocs"
-description: "Learn how to create and manage page templates in Portals."
+title: "Create and manage page templates in Dynamics 365 Portals | MicrosoftDocs"
+description: "Learn how to create and manage page templates in Dynamics 365 Portals."
 ms.custom: 
   - dyn365-portal
 ms.date: 12/03/2018
@@ -26,7 +26,7 @@ search.app:
 
 While web pages are nodes in your portal's sitemap which represent content accessible to portal users, page templates represent the actual .aspx pages which provide a means to maintain a consistent look and feel throughout your entire website. Page templates are built using ASP.NET pages, master pages, cascading style sheets (CSS), user controls, and server controls.
 
-When creating a new web page for the site, whether through front-side publishing or through the Portals interface, you must select a page template which will present the page's content to users of the portal.
+When creating a new web page for the site, whether through front-side publishing or through the portal interface, you must select a page template which will present the page's content to users of the portal.
 
 The difference between web pages and page templates is perhaps best understood as the difference between an exact URL and an actual .aspx page which acts as a blueprint for displaying content. Each webpage represent a specific URL in your site, which users can navigate to. When a user navigates to a URL, the content associated with that URL is displayed. However, a webpage contains no information on how that content is displayed.  This is determined by the page template, which is the actual .aspx page which generates the HTML that the user sees.
 
@@ -36,7 +36,7 @@ When you create a new webpage, you must choose a page template from a list of ex
 
 Creating a new Page Template is only necessary when creating a brand new .aspx page to display content on your website, a portal developer’s task. In fact, for the purposing of simply customizing the layout of your site, a portal developer can largely just modify existing .aspx pages.
 
-1. Sign in to Portals.
+1. Sign in to Dynamics 365 Portals.
 
 2. Go to **Portals** > **Page Templates**.
 

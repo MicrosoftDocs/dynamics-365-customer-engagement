@@ -30,7 +30,7 @@ Just like with subgrids, adding notes to your managed forms on the portal is eas
 
 ## Notes configuration for entity forms
 
-1. Sign in to Portals.
+1. Sign in to Dynamics 365 Portals.
 2. Go to **Portals** > **Content** > **Entity Forms**. A list of active entity forms is displayed.
 3. Select the entity form to which you want to add note configuration.
 4. Go to **Entity Form Metadata** either by using the top drop-down list or the subgrid on the main form of the entity form record that you are working with.
@@ -167,7 +167,7 @@ Web form notes are configured in the same way as [entity form notes](#notes-conf
 ### See also
 
 [Configure a portal](configure-portal.md)  
-[Define entity forms and custom logic within the Portals](entity-forms-custom-logic.md)  
+[Define entity forms and custom logic within a portal](entity-forms-custom-logic.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  

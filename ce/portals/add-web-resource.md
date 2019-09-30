@@ -1,5 +1,5 @@
 ---
-title: "Add azure storage web resource to a form in Portals | MicrosoftDocs"
+title: "Add azure storage web resource to a form in Dynamics 365 Portals | MicrosoftDocs"
 description: "Steps to add azure storage web resource to a form to enable uploading attachments to Azure Storage."
 ms.custom: 
   - dyn365-portal
@@ -24,7 +24,7 @@ search.app:
 
 # Add the Azure Storage web resource to a form
 
-Attachments uploaded to [!include[Azure](../includes/pn-azure-shortest.md)] Storage instead of directly to Common Data Service can be managed by using notes in Portals.
+Attachments uploaded to [!include[Azure](../includes/pn-azure-shortest.md)] Storage instead of directly to Common Data Service can be managed by using notes in portals.
 
 To enable attachments from a particular form to be uploaded into [!include[Azure](../includes/pn-azure-shortest.md)] Storage, you must add a web resource to that form and you must [configure Azure Storage for your organization](enable-azure-storage.md).
 

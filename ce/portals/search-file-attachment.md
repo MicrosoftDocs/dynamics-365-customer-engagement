@@ -1,12 +1,10 @@
 ---
-title: "Search within file attachment content in Portals  | MicrosoftDocs"
-description: "Learn how to configure your portal to search within file attachment content in Microsoft Portals."
+title: "Search within file attachment content in a portal | MicrosoftDocs"
+description: "Learn how to configure your portal to search within file attachment content in a portal."
 keywords: "search within attachment,search in file attachment"
 ms.date: 04/17/2019
 ms.service: crm-online
 ms.topic: article
- 
-  
 ms.assetid: BD65E6A7-5A2E-49DE-A00D-EB5F13F22FCC
 author: sbmjais
 ms.author: shjais

@@ -82,11 +82,11 @@ If permission is not granted, the user will see an access denied message.
 
 ## Unsupported charts and chart types
 
-The following chart types are currently not supported in Portals:
+The following chart types are currently not supported in Dynamics 365 Portals:
 - Doughnut
 - Tag
 
-The following table lists the charts that are currently not supported in Portals.
+The following table lists the charts that are currently not supported in Dynamics 365 Portals.
 
 | Chart Name                              | Chart ID                             | Entity Type      |
 |-----------------------------------------|--------------------------------------|------------------|

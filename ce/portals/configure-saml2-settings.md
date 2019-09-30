@@ -24,7 +24,7 @@ search.app:
 # Configure SAML 2.0 provider settings for portals
 
 > [!Note]
-> This documentation applies to Portals and later versions.
+> This documentation applies to Dynamics 365 Portals and later versions.
 
 To provide external authentication, you can add one or more [SAML 2.0](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html)–compliant identity providers (IdP). This document describes how to set up various identity providers to integrate with a portal that acts as a service provider.  
 
@@ -462,7 +462,7 @@ Add-CrmRelyingPartyTrust $domain
 
 ### See also
 
-[Configure Portals authentication](configure-portal-authentication.md)  
+[Configure portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  

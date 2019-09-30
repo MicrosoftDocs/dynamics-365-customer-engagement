@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - D365Portals
 ---
-# Define entity forms and custom logic within the Portals
+# Define entity forms and custom logic within a portal
 
 A data-driven configuration to allow end users to add a form to collect data in the portal without the need for a developer to surface the form in the portal, entity forms are created in Common Data service and then placed into webpages in the portal or used in conjunction with subgrids and entity lists to build out complete web applications. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add a webpage to render a list of records](add-webpage-render-list-records.md) 
 
@@ -47,7 +47,7 @@ The webpages associated with the entity form can be viewed by selecting the **We
 
 When creating or editing a webpage, an **Entity Form** can be specified in the lookup field provided on the Web Page form.
 
-The various master pages used by the portal found in the Portals installation directory contain declarations of the **EntityForm** server control. When rendering the webpage containing either the Page (~/Pages/Page.aspx) page template or Full Page (~/Pages/FullPage.aspx) page template, the controls will determine whether the entity form lookup contains a value, in which case the form will be rendered.
+The various master pages used by the portal found in the Dynamics 365 Portals installation directory contain declarations of the **EntityForm** server control. When rendering the webpage containing either the Page (~/Pages/Page.aspx) page template or Full Page (~/Pages/FullPage.aspx) page template, the controls will determine whether the entity form lookup contains a value, in which case the form will be rendered.
 
 ## Secure your forms
 

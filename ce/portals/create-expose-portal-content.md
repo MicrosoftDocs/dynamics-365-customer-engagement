@@ -28,7 +28,7 @@ The true potential of a portal connected with Common Data Service is achieved wh
 
 **Web client**
 
-1. Sign in to Portals.
+1. Sign in to Dynamics 365 Portals.
 
 2. Go to **Portals** > **Administration** > **Portal Management**. The Portal Management page is displayed.
 

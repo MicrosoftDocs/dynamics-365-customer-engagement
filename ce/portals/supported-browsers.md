@@ -24,7 +24,7 @@ search.app:
 
 # Supported web browsers
 
-The list of supported web browsers for Portals is described in the following sections.
+The list of supported web browsers for Dynamics 365 Portals is described in the following sections.
 
 ## Desktop browsers
 
@@ -34,7 +34,7 @@ The list of supported web browsers for Portals is described in the following sec
 | Windows               | Supported*                     | Supported*                        | Supported*                          | Supported*     | Not supported |
 ||||||
 
-\* \- Indicates that the latest version of the browser is tested with the out-of-box templates shipped with Portals.
+\* \- Indicates that the latest version of the browser is tested with the out-of-box templates shipped with Dynamics 365 Portals.
 
 > [!Note]
 > - On Windows, Internet Explorer 9 and below are not supported. 

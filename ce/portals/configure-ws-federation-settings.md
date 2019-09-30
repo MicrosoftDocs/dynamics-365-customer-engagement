@@ -142,7 +142,7 @@ The previous section describing AD FS can also be applied to [!INCLUDE[pn-azure-
 
 ### See also
 
-[Configure Portals authentication](configure-portal-authentication.md)  
+[Configure portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  

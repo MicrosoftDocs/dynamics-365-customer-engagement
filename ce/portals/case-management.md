@@ -1,5 +1,5 @@
 ---
-title: "Manage cases in Portals | MicrosoftDocs"
+title: "Manage cases in a portal | MicrosoftDocs"
 description: "Learn how to manage cases in a portal."
 ms.date: 12/03/2018
 ms.service: crm-online

@@ -35,7 +35,7 @@ To enable content access level based filtering of knowledge articles on your por
 
 ## Create content access levels
 
-1. Sign in to Portals and go to **Portals** &gt; **Security** &gt; **Content Access Levels**.
+1. Sign in to Dynamics 365 Portals and go to **Portals** &gt; **Security** &gt; **Content Access Levels**.
 2. In the ribbon, select **New**.
 3. Fill in the **Name** and **Description**.
 4. Change **Default Access Level** from **No** to **Yes** if it should be the default.
@@ -115,7 +115,7 @@ In Dynamics 365 Portals app, you can access a knowledge article and add content 
 
 ## Assign content access levels to portal users
 
-1. Sign in to Portals and go to **Portals** &gt; **Security** &gt; **Contacts**
+1. Sign in to Dynamics 365 Portals and go to **Portals** &gt; **Security** &gt; **Contacts**
 2. Select the Contact you wish to edit.
 3. Under the **Details** tab, find the **Content Access Levels** section.
 4. Press **+** to add a new content access level or the **Trash Can** symbol next to a content access level to remove it.

@@ -24,14 +24,14 @@ search.app:
 ---
 
 # Provision a portal
-Portals are websites that you can customize to provide a more personalized experience to your customers, partners, or internal employees. Portals integrate with Common Data Service to show data from Common Data Service on the portal. By using portals, you can create a variety of experiences where portal users can perform several tasks. For example:
+Portals are websites that you can customize to provide a more personalized experience to your customers, partners, or internal employees. Dynamics 365 Portals integrate with Common Data Service to show data from Common Data Service on the portal. By using portals, you can create a variety of experiences where portal users can perform several tasks. For example:
 
 -   Customers can submit cases and find knowledge articles.
 -   Partners can see and manage sales opportunities.
 -   Internal employees can create and see best practices.
 
 > [!NOTE]
-> To provision a portal, you must be assigned either System Administrator or System Customizer role of the Common Data Service organization selected for the portal. You must also have the [required permissions](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions) to create and register an application in Azure AD. If you don't have the required permissions, contact the Global Administrator to update your permissions or ask the Global Administrator to provision the portal.
+> To provision a portal, you must be assigned either System Administrator or System Customizer role of the Common Data Service environment selected for the portal. You must also have the [required permissions](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions) to create and register an application in Azure AD. If you don't have the required permissions, contact the Global Administrator to update your permissions or ask the Global Administrator to provision the portal.
 
 To complete provisioning a portal, after you have purchased a new portal license, return to your instance.
 
@@ -170,12 +170,12 @@ If the package installation has failed, the portal administrator page will open 
 
 ## Dynamics 365 Portals app
 
-The Portals app allows you to configure and manage your online platform to communicate and collaborate with customers. 
+The Dynamics 365 Portals app allows you to configure and manage your online platform to communicate and collaborate with customers. 
 
-When you install Portals version 9.0 and higher, the Dynamics 365 Portals app, built on the Unified Interface framework, is created out-of-the-box.
+When you install Dynamics 365 Portals version 9.0 and higher, the Dynamics 365 Portals app, built on the Unified Interface framework, is created out-of-the-box.
 
 ### Open Dynamics 365 Portals app
 
-1.	Sign in to Portals.
+1.	Sign in to Dynamics 365 Portals.
 2.	Open the URL `<organization URL>/apps` or go to **Settings** > **My Apps**. 
 3.	Select the Dynamics 365 Portals app.

@@ -1,5 +1,5 @@
 ---
-title: "Enable maintenance mode with the Portals | MicrosoftDocs"
+title: "Enable maintenance mode for a portal | MicrosoftDocs"
 description: "Learn how to enable maintenance mode with your portal."
 ms.date: 04/17/2019
 ms.service: crm-online

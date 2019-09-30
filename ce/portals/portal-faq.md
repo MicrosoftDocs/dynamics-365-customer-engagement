@@ -1,6 +1,6 @@
 ---
-title: "Portals FAQ | MicrosoftDocs"
-description: "Frequently asked questions in Portals."
+title: "Dynamics 365 Portals FAQ | MicrosoftDocs"
+description: "Frequently asked questions in Dynamics 365 Portals."
 ms.custom: 
   - dyn365-portal
 ms.date: 02/08/2019
@@ -24,7 +24,7 @@ search.app:
 
 # Common portal issues and best practices
 
-Portals is an extensible framework which allows customers to build highly customized and tailored experiences. While customizing, extending, or configuring your portal, you can run into a variety of issues.
+Dynamics 365 Portals is an extensible framework which allows customers to build highly customized and tailored experiences. While customizing, extending, or configuring your portal, you can run into a variety of issues.
 
 In this article you will learn about the common queries and issues we have identified, their impact, and understand the guidance to resolve them. Some of these checks and best practices are also covered under portal checker as well.
 
@@ -52,23 +52,23 @@ You can change the base URL of a portal after it is provisioned by following the
 
 ### How do I delete a portal completely after it is provisioned?
 
-A Portals consists of the following components:
+A Dynamics 365 Portals consists of the following components:
 
 - **Portal website host**: Portal website host is the Portal code that forms the actual website.
 
-- **Portal solutions**: Solutions that are installed in the Common Data Service organization and contain the metadata entities for any Portals.
+- **Portal solutions**: Solutions that are installed in the Common Data Service environment and contain the metadata entities for any Dynamics 365 Portals.
 
-To delete a portal completely requires deleting the Portal website host as well as uninstalling Portal solutions from your Common Data Service organization.
+To delete a portal completely requires deleting the Portal website host as well as uninstalling Portal solutions from your Common Data Service environment.
 
-To reset the portal host, follow the steps in [Reset a portal](reset-portal.md). It is important to note that resetting a portal host doesn't affect the configuration done in your Common Data Service organization.
+To reset the portal host, follow the steps in [Reset a portal](reset-portal.md). It is important to note that resetting a portal host doesn't affect the configuration done in your Common Data Service environment.
 
 To delete portal solutions, you will have to delete solutions from the Dynamics 365 solution explorer UI. The order in which Portal solutions should be uninstalled is provided in [Uninstalling Portal Solutions](https://community.dynamics.com/365/b/dynamics365portalssupport/archive/2017/02/27/portal-troubleshooting-part-three-uninstalling-portal-solutions).
 
-## Common Data Service organization lifecycle
+## Common Data Service environment lifecycle
 
-### We recently moved our Common Data Service organization from one geolocation or tenant to another. How do we handle portals connected to our organization?
+### We recently moved our Common Data Service environment from one geolocation or tenant to another. How do we handle portals connected to our organization?
 
-When you move your Common Data Service organization from one geolocation or tenant to another, associated portals to that organization will not move automatically. Also, since your organization has moved, any portal associated with that organization will not work and will throw an error on startup.
+When you move your Common Data Service environment from one geolocation or tenant to another, associated portals to that organization will not move automatically. Also, since your organization has moved, any portal associated with that organization will not work and will throw an error on startup.
 
 To associate your portal again to relevant organizations:
 
@@ -76,9 +76,9 @@ To associate your portal again to relevant organizations:
 
 2. Once your existing portal is reset, go to the new tenant (or to the new geolocation of the existing tenant) and provision a portal available there.
 
-### After restoring a Common Data Service organization from an old backup, the portal connected to the organization is not working. How do we fix it?
+### After restoring a Common Data Service environment from an old backup, the portal connected to the organization is not working. How do we fix it?
 
-When a Common Data Service organization is restored from a backup, various changes are done in your organization that can break your portal's connection with the organization. To fix this issue:
+When a Common Data Service environment is restored from a backup, various changes are done in your organization that can break your portal's connection with the organization. To fix this issue:
 
 - If the organization ID is the same after the restore operation and portal solutions are also available:
 
@@ -95,9 +95,9 @@ When a Common Data Service organization is restored from a backup, various chang
 
   - In this case, it is better to reset the portal by following the steps in [Reset a portal](reset-portal.md) and then reprovision it.
 
-### We recently changed the URL of our Common Data Service organization and our portal stopped working. How do we fix it?
+### We recently changed the URL of our Common Data Service environment and our portal stopped working. How do we fix it?
 
-When you change the URL of your Common Data Service organization, your portal will stop working because it cannot identify the Dynamics 365 URL anymore. To fix this issue:
+When you change the URL of your Common Data Service environment, your portal will stop working because it cannot identify the Dynamics 365 URL anymore. To fix this issue:
 
 1. Go to the Dynamics 365 admin center and select the **Applications** tab.
 2. Select the name of the portal and then select **Manage**.
@@ -138,27 +138,27 @@ You can enable your portal to use a custom domain name in place of the standard 
 
 ### Portal does not load and displays a generic error page (Server Error in "/" application) 
 
-This issue can be caused by a variety of reasons like when a portal is not able to connect to the underlying Common Data Service organization, Common Data Service organization doesn't exist or its URL has changed, when request to Common Data Service organization is timed out, and so on. When you run the portal checker tool, it will try to determine the exact reason and will point you to the correct mitigation. 
+This issue can be caused by a variety of reasons like when a portal is not able to connect to the underlying Common Data Service environment, Common Data Service environment doesn't exist or its URL has changed, when request to Common Data Service environment is timed out, and so on. When you run the portal checker tool, it will try to determine the exact reason and will point you to the correct mitigation. 
 
 Below is a list of most common causes and their correspondng mitigation steps:
 
-#### URL of the connected Common Data Service organization has changed 
+#### URL of the connected Common Data Service environment has changed 
 
-This happens when the URL of Common Data Service organization is changed by a user after portal is provisioned against the organization. To fix this issue, update the Dynamics 365 URL:
+This happens when the URL of Common Data Service environment is changed by a user after portal is provisioned against the organization. To fix this issue, update the Dynamics 365 URL:
 
 1. Go to the Dynamics 365 Administration Center page and select the **Applications** tab.
 2. Select the name of the portal that you want to reset, and then select **Manage**.
-3. Go to **Portal Actions** > **Update Dynamics 365 URL**. Once this action is successfully executed, your Common Data Service organization URL will be updated and portal will start working.
+3. Go to **Portal Actions** > **Update Dynamics 365 URL**. Once this action is successfully executed, your Common Data Service environment URL will be updated and portal will start working.
 
-#### Common Data Service organization connected to your portal is in administration mode
+#### Common Data Service environment connected to your portal is in administration mode
 
-This issue occurs when the Common Data Service organization is put in administration mode either when changing organization from production to sandbox mode or manually by an organization administrator.
+This issue occurs when the Common Data Service environment is put in administration mode either when changing organization from production to sandbox mode or manually by an organization administrator.
 
 If this is the cause, you can disable administration mode by performing actions listed [here](../admin/manage-sandbox-instances.md#administration-mode). Once administration mode is disabled, portal will work fine.
 
-#### Authentication connection between Common Data Service organization and portal is broken
+#### Authentication connection between Common Data Service environment and portal is broken
 
-This issue occurs when the authentication connection between Dynamic 365 organization and portal is broken because either Common Data Service organization was restored from a backup or was deleted and recreated from a backup. To fix this issue:
+This issue occurs when the authentication connection between Dynamic 365 organization and portal is broken because either Common Data Service environment was restored from a backup or was deleted and recreated from a backup. To fix this issue:
 
 1. Go to the Dynamics 365 Administration Center page and select the **Applications** tab.
 2. Select the name of the portal that you want to reset, and then select **Manage**.
@@ -169,9 +169,9 @@ This issue occurs when the authentication connection between Dynamic 365 organiz
 
 However, in certain situations especially if the organization ID has changed after the restore operation (or if you reprovisioned the organization), these mitigation steps will not work. In those situations, you can reset and reprovision the portal against the same instance. For information on how to reset a portal, see [Reset a portal](reset-portal.md).
 
-#### Request to Common Data Service organization has timed out
+#### Request to Common Data Service environment has timed out
 
-This issue is typically a transient issue which can occur if the API requests to your Common Data Service organization has timed out. This issue will automatically mitigate itself once the API requests starts working. To mitigate this issue, you can also try restarting the portal:
+This issue is typically a transient issue which can occur if the API requests to your Common Data Service environment has timed out. This issue will automatically mitigate itself once the API requests starts working. To mitigate this issue, you can also try restarting the portal:
 
 1. Go to the Dynamics 365 Administration Center page and select the **Applications** tab.
 2. Select the name of the portal that you want to reset, and then select **Manage**.
@@ -181,10 +181,10 @@ If restarting the portal doesn't work and this issue is occurring for a long per
 
 #### Website binding not found
 
-This issue occurs when the website binding records for portal are deleted from the underlying Common Data Service organization and portal is not able to create binding automatically. To fix this issue:
+This issue occurs when the website binding records for portal are deleted from the underlying Common Data Service environment and portal is not able to create binding automatically. To fix this issue:
 
-1. Sign in to Portals.
-2. Go to **Portals** > **Website Bindings**.
+1. Sign in to Dynamics 365 Portals.
+2. Go to **Dynamics 365 Portals** > **Website Bindings**.
 3. Delete all the website binding records which are pointing to your portal. The **Sitename** field helps you to identify website binding records of your portal.
 4. After you delete all website binding records, restart the portal.
 
@@ -200,15 +200,15 @@ However, there are situations in which portal will not be able to recreate websi
   - Leave all other fields blank.
 3. Once website binding record is recreated, restart your portal from Portal Admin Center.
 
-#### An unexpected error has occurred while trying to connect to your Common Data Service organization
+#### An unexpected error has occurred while trying to connect to your Common Data Service environment
 
 This situation can arise due to some unexpected issue. To mitigate in this situation, you can either try resetting or reprovisioning the portal. For information on how to reset a portal, see [Reset a portal](reset-portal.md).
 
 If portal reset and reprovision doesn't solve this issue, please reach out to Microsoft support for help.
 
-### Portal is not displaying updated data from Common Data Service organization
+### Portal is not displaying updated data from Common Data Service environment
 
-Any data displayed on portal is rendered from the portal cache. This cache gets updated whenever data in Common Data Service organization is updated. However, this process is asynchronous and can take upto 15 minutes. If the changes are made in the metadata entity of portal, for example, web pages, web files, content snippet, site setting, and so on, it is advised to clear cache manually or restart the portal from Portal Admin Center. For information on how to clear cache, see [Clear the server-side cache for a portal](clear-server-side-cache.md). 
+Any data displayed on portal is rendered from the portal cache. This cache gets updated whenever data in Common Data Service environment is updated. However, this process is asynchronous and can take upto 15 minutes. If the changes are made in the metadata entity of portal, for example, web pages, web files, content snippet, site setting, and so on, it is advised to clear cache manually or restart the portal from Portal Admin Center. For information on how to clear cache, see [Clear the server-side cache for a portal](clear-server-side-cache.md). 
 
 However, if you are seeing stale data for a long time in non-portal metadata entities, it can be because of variety of issues listed below:
 
@@ -239,24 +239,24 @@ Portal checker (self-service diagnostic) tool will also point out these issues b
 
 #### Web page tracking enabled
 
-Enabling a portal web page for page tracking can lead to performance issues in your portal. This functionality is deprecated since January 2018 release of Dynamics 365 Portals. More information: [Portals: Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/)
+Enabling a portal web page for page tracking can lead to performance issues in your portal. This functionality is deprecated since January 2018 release of Dynamics 365 Portals. More information: [Dynamics 365 Portals: Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/)
 
 The portal checker tool will list all the web pages (both root and content page) which are enabled for page tracking. These pages should be disabled by following these steps:
 
-1. Sign in to Portals.
+1. Sign in to Dynamics 365 Portals.
 2. Go to Advanced find.
 3. Search for all the web pages where **Enable Tracking (Deprecated)** field is enabled (value is set to Yes).
 4. Bulk edit all the pages and set this field to **No**.
 
-Alternatively, you can also go to each page listed in portal checker result and set the value of **Enable Tracking (Deprecated)** field to **No**. It is important to understand that if you are on Portals solution version 9.x, this field will not be displayed on the form and you might need to add it to the form first. 
+Alternatively, you can also go to each page listed in portal checker result and set the value of **Enable Tracking (Deprecated)** field to **No**. It is important to understand that if you are on Dynamics 365 Portals solution version 9.x, this field will not be displayed on the form and you might need to add it to the form first. 
 
 #### Web file tracking enabled
 
-Enabling a portal web file for page tracking can lead to performance issues in your portal. This functionality is deprecated since January 2018 release of Dynamics 365 Portals. More information: [Portals: Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/)
+Enabling a portal web file for page tracking can lead to performance issues in your portal. This functionality is deprecated since January 2018 release of Dynamics 365 Portals. More information: [Dynamics 365 Portals: Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/)
 
 The portal checker tool will list all the web files which are enabled for page tracking. These files should be disabled by following these steps:
 
-1. Sign in to Portals.
+1. Sign in to Dynamics 365 Portals.
 2. Go to Advanced find.
 3. Search for all the web files where **Enable Tracking (Deprecated)** field is enabled (value is set to Yes).
 4. Bulk edit all the records and set this field to **No**.
@@ -265,12 +265,12 @@ Alternatively, you can also go to each file listed in portal checker result and 
 
 #### Login tracking enabled
 
-Enabling a portal login tracking can lead to performance issues in your portal. This functionality is deprecated since January 2018 release of Dynamics 365 Portals. More information: [Portals: Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/)
+Enabling a portal login tracking can lead to performance issues in your portal. This functionality is deprecated since January 2018 release of Dynamics 365 Portals. More information: [Dynamics 365 Portals: Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/)
 
 The portal checker tool will check if login tracking is enabled for your portal and will show a failed check if it is enabled. Login tracking should be disabled by following these steps:
 
-1.	Sign in to Portals.
-2.	Go to **Portals** > **Site Settings**.
+1.	Sign in to Dynamics 365 Portals.
+2.	Go to **Dynamics 365 Portals** > **Site Settings**.
 3.	Search for site setting named `Authentication/LoginTrackingEnabled`.
 4.	Change the value of this site setting to **False** or delete the site setting.
 5.	Restart the portal. 
@@ -281,8 +281,8 @@ Disabling header output cache on your portal can lead to performance issues in y
 
 The portal checker tool will check if header output cache is disabled on your portal and will show a failed check if it is disabled. To enable it:
 
-1.	Sign in to Portals.
-2.	Go to **Portals** > **Site Settings**.
+1.	Sign in to Dynamics 365 Portals.
+2.	Go to **Dynamics 365 Portals** > **Site Settings**.
 3.	Search for site setting named `Header/OutputCache/Enabled`.
 4.	If the site setting is available, change the value of Site setting to **True**. If the site setting is not available, create a new site setting with this name and set its value to **True**.
 5.	Restart the portal. 
@@ -293,8 +293,8 @@ Disabling footer output cache on your portal can lead to performance issues in y
 
 The portal checker tool will check if footer output cache is disabled on your portal and will show a failed check if it is disabled. To enable it:
 
-1.	Sign in to Portals.
-2.	Go to **Portals** > **Site Settings**.
+1.	Sign in to Dynamics 365 Portals.
+2.	Go to **Dynamics 365 Portals** > **Site Settings**.
 3.	Search for site setting named `Footer/OutputCache/Enabled`.
 4.	If the site setting is available, change the value of Site setting to **True**. If the site setting is not available, create a new site setting with this name and set its value to **True**.
 5.	Restart the portal. 
@@ -319,7 +319,7 @@ When working on portal implementation, it is important to understand that you co
 
 One of the most common cause of performance issues on webpages is loading a lot of static resources (css/js) synchronously on the load of the page. Synchronous loading of large no of css/js files can lead to long client-side processing time for your webpages. 
 
-In case of Portals, whenever you are associating a web file directly to the home page, it creates a dependency in the generated HTML which means that web file always loaded along with the home page. If this web file is a css/js file, this would be loaded synchronously and can slow down your client-side processing time. 
+In case of Dynamics 365 Portals, whenever you are associating a web file directly to the home page, it creates a dependency in the generated HTML which means that web file always loaded along with the home page. If this web file is a css/js file, this would be loaded synchronously and can slow down your client-side processing time. 
 
 To avoid this, you can perform the following steps: 
 
