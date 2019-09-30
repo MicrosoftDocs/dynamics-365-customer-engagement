@@ -83,12 +83,13 @@ A Sandbox instance is any non-production instance of Common Data Service apps. I
 6. Click **yes** in the confirmation dialog box.  
   
 <a name="BKMK_AdminMode"></a>   
+
 ## Administration mode  
  When you place a Sandbox instance in administration mode only users with System Administrator or System Customizer security roles will be able to sign in to that instance. Administration mode is useful when you want to make operational changes and not have regular users affect your work, and not have your work affect regular users.  
   
 > [!NOTE]
 > - You can only place Sandbox instances in administration mode.
-> - Processes that use code, such as plug-ins or custom workflow assemblies, continue to be processed by the [!INCLUDE [pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] platform when administration mode is enabled and background operations are disabled.
+> - Processes that use code, such as plug-ins or custom workflow assemblies, continue to be processed by the version 8.2 platform when administration mode is enabled and background operations are disabled.
   
  On the **admin settings** page, you can set the following.  
   
