@@ -1,6 +1,6 @@
 ---
-title: "Use Common Data Service entity tags tags for a portal | MicrosoftDocs"
-description: "Learn about Common Data Service entity tags tags available in portals"
+title: "Use Common Data Service entity tags for a portal | MicrosoftDocs"
+description: "Learn about Common Data Service entity tags available in portals"
 keywords: "Common Data Service entity tags; liquid tags"
 ms.date: 10/01/2019
 ms.service: crm-online
