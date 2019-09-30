@@ -33,7 +33,7 @@ If you install it as a service content pack:
 - You can edit the data to comply with your requirements. 
 - The service content pack isn't automatically upgraded—when a newer version of the service content pack is available, you must install it again. The new version will introduce copies of the dashboard, report, and dataset and won’t modify the already installed ones.
 
-After you install Voice of the Customer Analytics for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] as a service content pack, you can also customize it to comply with your requirements and publish it as a service content pack or an app. You can also share the customized service content pack with other people in your organization. More information: [Create and publish apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) and [create and publish content pack](https://docs.microsoft.com/en-us/power-bi/service-organizational-content-pack-create-and-publish).
+After you install Voice of the Customer Analytics for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] as a service content pack, you can also customize it to comply with your requirements and publish it as a service content pack or an app. You can also share the customized service content pack with other people in your organization. More information: [Create and publish apps](https://docs.microsoft.com/power-bi/service-create-distribute-apps) and [create and publish content pack](https://docs.microsoft.com/power-bi/service-organizational-content-pack-create-and-publish).
 
 To install as an app:
 
@@ -101,7 +101,7 @@ Delete a service content pack:
 
 The dashboard is an intuitive user interface that graphically represents the survey insights. It consists of various tiles that provide an overview of the metrics—such as average NPS, average CSAT score, and response ratio—and visibility into the surveys. You can explore and analyze the survey data as needed. When you click a tile on the dashboard, the corresponding report page opens for further analysis.
 
-More information: [Dashboards in Power BI service](https://docs.microsoft.com/en-us/power-bi/service-dashboards)
+More information: [Dashboards in Power BI service](https://docs.microsoft.com/power-bi/service-dashboards)
 
 To open the dashboard:
 
@@ -137,7 +137,7 @@ You can view detailed survey insights graphically in a Power BI report. You can 
 - Question Responses
 - Grid Question Responses
 
-More information: [Reports in Power BI](https://docs.microsoft.com/en-us/power-bi/service-reports)
+More information: [Reports in Power BI](https://docs.microsoft.com/power-bi/service-reports)
 
 ### Survey Responses
 

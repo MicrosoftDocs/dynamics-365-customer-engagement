@@ -7,9 +7,6 @@ ms.assetid: e9f3a0d0-99fb-40bf-bd82-54995d05f128
 author: udaykirang
 ms.author: udag
 manager: sakudes
-<<<<<<< HEAD
-caps.latest.revision: 14
-=======
 search.audienceType:
   - admin
   - customizer
@@ -17,7 +14,6 @@ search.audienceType:
 search.app:
   - D365CE
   - D365Sales
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 ---
 
 # Embedded intelligence overview

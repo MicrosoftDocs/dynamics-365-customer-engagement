@@ -82,11 +82,7 @@ Review the following prerequisites before configuring the dashboard:
 
 3.	(Optional) To find the Microsoft Dynamics 365 OData URL, follow these steps:
 
-<<<<<<< HEAD
-    a.	Sign in to Dynamics 365 Customer Service.
-=======
     a.	Sign in to the Common Data Service platform.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
     
     b.	Go to **Settings** > **Customizations** and then select **Developer Resources**. 
     

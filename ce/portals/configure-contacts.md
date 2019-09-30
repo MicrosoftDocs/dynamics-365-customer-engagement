@@ -23,11 +23,7 @@ search.app:
 ---
 # Configure a contact for use on a portal
 
-<<<<<<< HEAD
-After filling out the basic information for a contact in Dynamics 365, (or having a user fill out the sign-up form in a portal), go to the web authentication tab on the portal contact form to configure a contact by using local authentication. For more information about federated authentication options, see [Set authentication identity for a portal](set-authentication-identity.md). To configure a contact for portals by using local authentication, follow these instructions:  
-=======
 After filling out the basic information for a contact, (or having a user fill out the sign-up form in a portal), go to the web authentication tab on the portal contact form to configure a contact by using local authentication. For more information about federated authentication options, see [Set authentication identity for a portal](set-authentication-identity.md). To configure a contact for portals by using local authentication, follow these instructions:  
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 1.  Enter a **username**.
 2.  On the command ribbon, go to **More Commands** &gt; **Change Password**.

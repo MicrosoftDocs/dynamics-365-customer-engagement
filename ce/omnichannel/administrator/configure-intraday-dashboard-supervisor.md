@@ -59,11 +59,7 @@ Review the following prerequisites before configuring the supervisor dashboard:�
 
 -  You must have **Power BI Pro** or **Power BI Premium** license for all supervisors and administrators. 
 
-<<<<<<< HEAD
--  You must enable to embed Power BI reports in Dynamics 365 for **Omnichannel for Customer Service** app on web.
-=======
 -  You must enable to embed Power BI reports in **Omnichannel for Customer Service** app on web.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
     1.	Sign in to **Dynamics 365 Customer Service** and go to **Settings** > **Administration** > **System Settings**.
     2.	Go to **Reporting** tab and configure **Allow Power BI visualization embedding** as **Yes**.
     
@@ -74,7 +70,7 @@ Review the following prerequisites before configuring the supervisor dashboard:�
 
 -  As a system administrator, you must configure the following in Power BI service:
 
-   1. Create a security group in Azure Active Directory (AAD) and add **Omnichannel for Customer Service** as a member to that security group. To learn more, see [Create a basic group and add members using Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal). 
+   1. Create a security group in Azure Active Directory (AAD) and add **Omnichannel for Customer Service** as a member to that security group. To learn more, see [Create a basic group and add members using Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal). 
 
    2. As a Power BI admin, you need to enable service principal in the **Developer settings** in the Power BI admin portal and the security group that you created in Azure AD.
         a.  Sign in to [Power BI service](http://app.powerbi.com) and go to **Settings** > **Admin portal**.
@@ -180,7 +176,7 @@ Configuring the Power BI workspace provides you only the **Intraday Monitoring**
 
 Follow these steps to configure Power BI dashboards.
 
-1.  In [Power BI Service](https://app.powerbi.com), open the reports that are available in the workspace. To learn more, see [Open a report in Power BI service](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-report-open).
+1.  In [Power BI Service](https://app.powerbi.com), open the reports that are available in the workspace. To learn more, see [Open a report in Power BI service](https://docs.microsoft.com/power-bi/consumer/end-user-report-open).
 
 2.  Pin the required tiles to dashboards. 
     The following screen shows how to pin a visual to the dashboard.
@@ -193,11 +189,11 @@ Follow these steps to configure Power BI dashboards.
    > [!div class=mx-imgBorder]
    > ![Pin a report on dashboard](../media/supervisor-admin-pin-report-dashboard.png "Pin a report on dashboard")  
 
-  To learn more, see [Pin a tile to a Power BI dashboard from a report](https://docs.microsoft.com/en-us/power-bi/service-dashboard-pin-tile-from-report).
+  To learn more, see [Pin a tile to a Power BI dashboard from a report](https://docs.microsoft.com/power-bi/service-dashboard-pin-tile-from-report).
 
 3.  Select **Set as featured** for the created dashboard to display on the top for each time you open the Power BI service.
 
-4.  Share the dashboard with supervisor users. This allows supervisors to access the dashboards. To learn more, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards).  
+4.  Share the dashboard with supervisor users. This allows supervisors to access the dashboards. To learn more, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).  
 
 5.  For Unified Service Desk configuration, copy the URL of the dashboard.  
 
@@ -253,7 +249,7 @@ You must add users in the supervisor configuration to access any supervisor dash
 
 Update the client cache version number to reduce the amount of bandwidth required at the startup of the Unified Service Desk client on the computers of agents, and over the life cycle of the client application.
 
-To learn more, see [Client caching overview](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/configure-client-caching-unified-service-desk?view=dynamics-usd-4.1).  
+To learn more, see [Client caching overview](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/admin/configure-client-caching-unified-service-desk?view=dynamics-usd-4.1).  
 
 1.  Sign in to **Dynamics 365 Customer Service**.
 

@@ -29,13 +29,9 @@ search.app:
 After provisioning a portal, you can perform various actions such as setting up a custom domain and importing metadata translations. This section provides you the information about all the tasks required to manage your portal.
 
 To manage an existing portal, you must be assigned any one of the following roles:
-- Office 365 Global Administrator 
-- Dynamics 365 Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/en-us/library/mt793847.aspx)  
-<<<<<<< HEAD
-- System Administrator of the Dynamics 365 organization selected for the portal
-=======
+- Office 365 Global Administrator
+- Dynamics 365 Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/library/mt793847.aspx)
 - System Administrator of the Common Data Service organization selected for the portal
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 If you haven't been assigned any of the above-mentioned roles, the following message is displayed: You need to be a global administrator, Dynamics 365 service administrator, or system administrator for this organization in order to manage this portal.
 
@@ -50,11 +46,11 @@ If you are not a global administrator and you try to manage a portal that has al
     > [!div class=mx-imgBorder]
     > ![Portal Details tab](media/portal-details-admin.png "Portal Details tab")
 
-3. Go to Azure AD associated with your tenant. [!include[](../includes/proc-more-information.md)] [Take over an unmanaged directory as administrator in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-manage-o365-subscription)
+3. Go to Azure AD associated with your tenant. [!include[](../includes/proc-more-information.md)] [Take over an unmanaged directory as administrator in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-manage-o365-subscription)
 
 4. In Azure AD, search for the app registration by using the application ID you copied. You might need to switch from **My apps** to **All apps**.
 
-5. Add users or groups as owners of this app registration. [!include[](../includes/proc-more-information.md)] [Managing access to apps](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-managing-access-to-apps)
+5. Add users or groups as owners of this app registration. [!include[](../includes/proc-more-information.md)] [Managing access to apps](https://docs.microsoft.com/azure/active-directory/active-directory-managing-access-to-apps)
 
     > [!Note]
     > This task can be performed either by a global administrator of your organization or the existing owner of this application.

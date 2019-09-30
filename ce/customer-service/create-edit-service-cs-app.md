@@ -29,11 +29,7 @@ To make scheduling services quick and easy, it’s helpful to predefine the spec
 A service requires at least one selection rule and one or more resources, resource groups, or teams before the service can be scheduled with a service activity.
 
 > [!IMPORTANT]
-<<<<<<< HEAD
-> With the Dynamics 365 Customer Service app version 9.1 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you create services using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a service](create-edit-service-csh.md)
-=======
 > With the latest release of Dynamics 365 Customer Service app, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you create services using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a service](create-edit-service-csh.md)
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 ## Create or change a service
   

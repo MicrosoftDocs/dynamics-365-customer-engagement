@@ -1,5 +1,5 @@
 ---
-title: "Connected Field Service for IoT Central - Tutorial (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Connected Field Service for IoT Central - Tutorial (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
 ms.date: 09/24/2018
 ms.reviewer: 

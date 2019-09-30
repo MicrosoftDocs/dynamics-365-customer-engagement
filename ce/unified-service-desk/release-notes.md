@@ -87,11 +87,7 @@ While you use **Chrome Process** to host applications in Unified Service Desk, i
 
 ### Support for CloseAndPrompt action in Chrome Process
 
-<<<<<<< HEAD
-The Chrome Process does not support the **CloseAndPrompt** action for Dynamics 365 Customer Engagement web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
-=======
 The Chrome Process does not support the **CloseAndPrompt** action for web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 ### Support for Microphone and webcam with Channel Integration Framework
 
@@ -101,11 +97,7 @@ When you integrate a channel with Unified Service Desk using the Channel Integra
 
 #### Support for CloseAndPrompt action in Edge Process
 
-<<<<<<< HEAD
-The Edge Process does not support the **CloseAndPrompt** action for Dynamics 365 Customer Engagement web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
-=======
 The Edge Process does not support the **CloseAndPrompt** action for web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 #### Support for alert dialog with WebView control
 
@@ -293,7 +285,7 @@ You can add an action call to another call using the Unified Service Desk config
 
 ### Support for Relevance Search (search technique) in Unified Interface KM Control
 
-The Unified Interface KM Control supports [Full-Text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search?view=sql-server-2017) technique and does not support the **Relevance Search**. For more information about the availability of the Relevance Search, see [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management).
+The Unified Interface KM Control supports [Full-Text search](https://docs.microsoft.com/sql/relational-databases/search/full-text-search?view=sql-server-2017) technique and does not support the **Relevance Search**. For more information about the availability of the Relevance Search, see [Relevance search for knowledge management](https://docs.microsoft.com/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management).
 
 ### Quick create in Unified Service Administrator app
 
@@ -362,11 +354,7 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
 ### Best Practices Analyzer
 
-<<<<<<< HEAD
-- **Warning for HelpImproveUSD parameter in Dynamics 365 Customer Engagement (on-premises)**
-=======
 - **Warning for HelpImproveUSD parameter in Customer Engagement (on-premises)**
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
   Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is enabled/disabled only for the Common Data Service platform. If you are using Customer Engagement (On-premises), you can see a warning for the Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] (HelpImproveUSD) parameter in the report.
 

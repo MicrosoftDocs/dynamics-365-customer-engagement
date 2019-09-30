@@ -1,5 +1,5 @@
 ---
-title: "Fulfillment preferences (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Fulfillment preferences (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 12/06/2018
@@ -28,7 +28,7 @@ search.app:
 
 ### See also  
   
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Create a work order](../field-service/create-work-order.md)   
  [Create work order types](../field-service/create-work-order-types.md)   
  [Set up work order sub-statuses](../field-service/set-up-work-order-sub-statuses.md)   

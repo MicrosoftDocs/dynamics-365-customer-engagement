@@ -84,9 +84,9 @@ When you save the email, the snippet changes to the invitation link text you spe
 
 ### Send an invitation using an email template
 
-You can [create an email template](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-templates-email) with the survey snippet and use it to send emails to Dynamics 365 contacts.  
+You can [create an email template](https://docs.microsoft.com/dynamics365/customer-engagement/admin/create-templates-email) with the survey snippet and use it to send emails to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] contacts.  
 
-You can [send direct email](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/send-bulk-email-customers) to a contact in Dynamics 365 by selecting the survey email template from the email template list.  
+You can [send direct email](https://docs.microsoft.com/dynamics365/customer-engagement/basics/send-bulk-email-customers) to a contact in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] by selecting the survey email template from the email template list.  
 
 ![Send direct email to a contact](media/direct-email.png "Send direct email to a contact")  
 

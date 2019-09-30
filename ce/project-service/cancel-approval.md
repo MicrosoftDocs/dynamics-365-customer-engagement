@@ -1,6 +1,6 @@
 ---
 title: Cancel previously approved time and expense entries
-description: This topic provides information about how to cancel an approved project time and expense transaction in Microsoft Dynamics 365 for Project Service Automation (PSA).
+description: This topic provides information about how to cancel an approved project time and expense transaction in Microsoft Dynamics 365 Project Service Automation (PSA).
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-In the latest version of Microsoft Dynamics 365 for Project Service Automation (PSA), approvers can cancel time or expense entries that they previously approved.
+In the latest version of Microsoft Dynamics 365 Project Service Automation (PSA), approvers can cancel time or expense entries that they previously approved.
 
 ## Cancel a previously approved time or expense entry
 

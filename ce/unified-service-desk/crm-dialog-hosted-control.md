@@ -23,11 +23,7 @@ Use the **CRM Dialog** hosted control type to work with dialog. You can call the
 ## Create a CRM Dialog hosted control
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **CRM Dialog** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).
 
-<<<<<<< HEAD
- ![Dynamics 365 Customer Engagement dialog hosted control](../unified-service-desk/media/crm-itpro-usd-crmdialoghostedcontrol.PNG "dialog hosted control")  
-=======
  ![Dialog hosted control](../unified-service-desk/media/crm-itpro-usd-crmdialoghostedcontrol.PNG "dialog hosted control")  
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
  In the **New Hosted Control** screen:
 

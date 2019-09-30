@@ -23,11 +23,7 @@ search.app:
 Use resource groups to group users, facilities, and equipment as part of the selection rules for a service.
 
 > [!NOTE]
-<<<<<<< HEAD
-> With the Dynamics 365 Customer Service app version 9.1 release of Service Scheduling, Resource Groups are referred as Resource Categories. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md)
-=======
 > With the latest release of Service Scheduling, Resource Groups are referred as Resource Categories. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md)
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
   
 1. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)]  
   

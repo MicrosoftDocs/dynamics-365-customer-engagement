@@ -41,7 +41,7 @@ As the table shows, every transaction is recorded in both the transaction curren
 
 ## PSA extensions
 
-Microsoft Dynamics 365 for Project Service Automation (PSA) influences the transaction currency, because business transactions usually have two aspects: cost and sales.
+Microsoft Dynamics 365 Project Service Automation (PSA) influences the transaction currency, because business transactions usually have two aspects: cost and sales.
 
 The following entities are considered business transactions:
 

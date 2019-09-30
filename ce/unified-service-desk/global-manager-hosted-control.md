@@ -38,82 +38,6 @@ The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_s
 ## Predefined UII actions  
  Global Manager provides a series of predefined actions that allow you to manipulate the Common Data Service platform record data through the web services. These can be used during configuration to perform advanced functions in the Common Data Service platform.  
 
-<<<<<<< HEAD
- The following predefined UII actions are available for the **Global Manager** hosted control type:  
-
-<a name="Audit"></a>   
-### Audit  
- Add an audit entry to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] audit logs. For more information, see [Configure auditing in Unified Service Desk](admin/configure-auditing-diagnostics-unified-service-desk.md)  
-
-|Parameter|Description|  
-|---------------|-----------------|  
-|Name|The audit entry name. You must add an option under the **Options** area (**Settings** > **Unified Service Desk** > Options ([How do I get there?](http://go.microsoft.com/fwlink/p/?LinkId=525636))) with the value set to **1**.|  
-|Action|String representing the action that is being audited.|  
-|TargetApplication|String representing the target application for the audit.|  
-|CustomerId|String representing the customer ID.|  
-|ContextId|String representing the context ID.|  
-|ApplicationId|GUID of the hosted control for the auditing.|  
-|AgentState|String representing the agent state|  
-|ActionData|This is the data to write out to the audit entry. If this parameter isn’t explicitly provided, it will use all the remainder lines in the **Data** field of the action call definition.|  
-
-<a name="CallDoAction"></a>   
-### CallDoAction  
- Calls an action on another hosted control.  
-
-|Parameter|Description|  
-|---------------|-----------------|  
-|panel|This is the panel to find the active application, if no application is specified.|  
-|action|This is the action to call on the hosted control.|  
-|data|This is the data parameter to pass to the action.|  
-|application|This is the hosted control name for which you want to execute an action call. If this is specified, the **panel** parameter is ignored.|  
-
-<a name="ClearAppBar"></a>   
-### ClearAppBar  
- Undocks the specified hosted control in the client application.  
-
-|Parameter|Description|  
-|---------------|-----------------|  
-|ApplicationName|Name of the hosted control to undocked. If this parameter is not supplied, the client application main window is undocked.|  
-
-<a name="ClearEntityList"></a>   
-### ClearEntityList  
- Clears the list of accumulated search results, and should always be called before calling the **DoSearch** action  
-
-|Parameter|Description|  
-|---------------|-----------------|  
-|global|`True` if you want the search results tied to the global session to be cleared. You must be careful while storing search results in the global session as these are not automatically cleared by the system. In this case, you must call the **ClearEntityList** action before calling the **DoSearch** action.|  
-
-<a name="Close"></a>   
-### Close  
- Closes the hosted control. Unlike the [CloseActive](#CloseActive) action, if this tab is displaying more than one page, it will close all the pages displayed in the tab in your agent application.  
-
-<a name="CloseActive"></a>   
-### CloseActive  
- Closes the active hosted control on the specified panel.  
-
-|Parameter|Description|  
-|---------------|-----------------|  
-||The first line in the action call should contain the name of the panel to locate the active application. If no parameter is specified, MainPanel is assumed.|  
-
-### CopyToClipboard  
- Copies or appends the article URL to Clipboard.  
-
-|Parameter|Description|  
-|---------------|-----------------|  
-|data|Data that you want to be copied. You can also use replacement parameters. For example:  `data=[[$context.title]]`|  
-|append|Indicates whether or not to append the data to the Clipboard. Set `true` or `false`. For example: `append=false`.|  
-
-<a name="CopyToContext"></a>   
-### CopyToContext  
- Copies a value or series of values to context variables. Context variables can be serialized with the session. This action takes a series of name=value pairs. The name is the name of the context variable.  
-
-### CopyLogicalEntityToContext  
- Copies values from an entire section of the data parameters to the context.  
-
-|Parameter|Description|  
-|---------------|-----------------|  
-|LogicalName|The type or section of data parameters to copy values from.|  
-=======
  The following predefined UII actions are available for the **Global Manager** hosted control type:
 
 <a name="Audit"></a>
@@ -188,7 +112,6 @@ The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_s
 |Parameter|Description|
 |---------------|-----------------|
 |LogicalName|The type or section of data parameters to copy values from.|
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 <a name="CloseActivity"></a>   
 ### CloseActivity  
@@ -634,50 +557,6 @@ Param=value
 ### DesktopReady  
  Occurs on startup when all the desktop initialization has completed and the connections to the Common Data Service platform have been established. This event will be fired only once, and it is common to use this event to set themes and do other startup actions.  
 
-<<<<<<< HEAD
-### SessionActivated  
- Occurs whenever a session is activated.  
-
-|Parameter|Description|  
-|---------------|-----------------|  
-|SessionId|ID of the currently active session.|  
-|IsGlobal|Indicates whether this event applies to the global session. Returns True or False.|  
-|Activate|This is set to True.|  
-
-### SessionClosed  
- Occurs when a session is closed.  
-
-|Parameter|Description|  
-|---------------|-----------------|  
-|SessionId|ID of the session that was closed.|  
-|IsGlobal|Indicates whether this event applies to the global session. Returns True or False.|  
-
-### SessionDeactivated  
- Occurs when a session is deactivated.  
-
-|Parameter|Description|  
-|---------------|-----------------|  
-|SessionId|ID of the inactive session.|  
-|IsGlobal|Indicates whether this event applies to the global session. Returns True or False.|  
-|Activate|This is set to False.|  
-
-<a name="sessionnew"></a>   
-### SessionNew  
- Occurs when a new session is created.  
-
-|Parameter|Description|  
-|---------------|-----------------|  
-|SessionId|ID of the newly created session.|  
-|IsGlobal|Returns True if the new session is a global session. Otherwise, returns False.|  
-
-### See also  
- [UII actions](../unified-service-desk/uii-actions.md)   
- [Events](../unified-service-desk/events.md)   
- [View predefined actions and events for a hosted control](../unified-service-desk/view-predefined-actions-events-hosted-control.md)   
- [View embedded help for actions and events](../unified-service-desk/view-embedded-help-for-actions-and-events.md)   
- [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
-=======
 ### SessionActivated
  Occurs whenever a session is activated.
 
@@ -720,5 +599,4 @@ Param=value
  [View embedded help for actions and events](../unified-service-desk/view-embedded-help-for-actions-and-events.md)
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 

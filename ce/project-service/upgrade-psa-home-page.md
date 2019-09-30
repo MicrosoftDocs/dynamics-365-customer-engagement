@@ -1,6 +1,6 @@
 ---
 title: Upgrade home page
-description: This topic shows where to find important information about the new and changed features in Microsoft Dynamics 365 for Project Service Automation (PSA), and the process for upgrading to the newest version.
+description: This topic shows where to find important information about the new and changed features in Microsoft Dynamics 365 Project Service Automation (PSA), and the process for upgrading to the newest version.
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom:
@@ -42,7 +42,7 @@ As of May 17, 2019, customers who have an instance of PSA version 2.x and need t
 
 Before you begin the upgrade process, we recommend that you complete the following tasks:
 
-- Verify whether both Microsoft Dynamics 365 for Field Service and PSA are installed on the identified instance. If both solutions are installed, you should plan to upgrade both before you resume regular use of the instance.
+- Verify whether both Microsoft Dynamics 365 Field Service and PSA are installed on the identified instance. If both solutions are installed, you should plan to upgrade both before you resume regular use of the instance.
 - Carefully review the following topics. Awareness and understanding of the changes between versions will help you with the upgrade process. These topics provide information about the major changes in PSA, together with considerations and recommendations for planning your upgrade to version 3.x.
 
     - [What's new or changed in Project Service Automation version 3](whats-new-changed-v3.md)

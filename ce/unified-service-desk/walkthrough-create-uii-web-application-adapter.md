@@ -82,11 +82,7 @@ You can create a web application adapter if you want to enhance and modify web a
 
 1. Make sure that the sample web application that you built in step 1 is still running.
 
-<<<<<<< HEAD
-2. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your **Microsoft Dynamics 365 Customer Engagement** server.  
-=======
 2. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Common Data Service platform server.  
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 3. On successful sign in, you’ll see the **Sample External Web Application** on your desktop.
 
@@ -189,11 +185,7 @@ You can create a web application adapter if you want to enhance and modify web a
 
 1. Sign in to the Common Data Service platform.  
 
-<<<<<<< HEAD
-2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement**, and then select **Settings**.  
-=======
 2. On the nav bar, choose **Dynamics 365**.  
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
 
@@ -221,11 +213,7 @@ You can create a web application adapter if you want to enhance and modify web a
 
 1. Copy the assembly that contains your web application adapter definition from your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project output folder (\<ProjectFolder>\bin\debug) to the Unified Service Desk application directory. In this case, you’ll copy the MyWebApplicationAdapter.dll file to the c:\Program Files\Microsoft Dynamics CRM USD\USD directory.
 
-<<<<<<< HEAD
-2. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Common Data Service platform server.  
-=======
 2. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps server.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 3. On successful sign in, you will see the sample external web application button on your desktop.
 

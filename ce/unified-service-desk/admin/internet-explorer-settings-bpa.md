@@ -199,7 +199,7 @@ Use the latest version of [!include[pn-internet-explorer](../../includes/pn-inte
 
 If you're running [!include[pn-windows-7](../../includes/pn-windows-7.md)] or earlier, download [!include[pn-ie-11](../../includes/pn-ie-11.md)].
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Internet Explorer Downloads](https://support.microsoft.com/en-us/help/17621/internet-explorer-downloads)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Internet Explorer Downloads](https://support.microsoft.com/help/17621/internet-explorer-downloads)
 
 ## See also
 

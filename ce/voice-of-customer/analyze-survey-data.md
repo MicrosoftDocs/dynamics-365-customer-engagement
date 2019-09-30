@@ -32,7 +32,7 @@ Voice of the Customer stores all survey responses in Dynamics 365, and you can a
 
 - Survey dashboard
 
-You can also generate custom reports based on the responses to meet your requirements. More information about creating reports: [Create or edit a report using the Report Wizard](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/create-edit-copy-report-wizard)  
+You can also generate custom reports based on the responses to meet your requirements. More information about creating reports: [Create or edit a report using the Report Wizard](https://docs.microsoft.com/dynamics365/customer-engagement/basics/create-edit-copy-report-wizard)  
 
 ## Survey responses
 
@@ -72,9 +72,9 @@ To view survey response for a survey:
 
 5.  Select the survey response you want to view.
 
-Additionally, you can export survey responses to [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] and perform further analysis by using [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] features. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Export data to [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/export-data-excel)  
+Additionally, you can export survey responses to [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] and perform further analysis by using [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] features. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Export data to [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]](https://docs.microsoft.com/dynamics365/customer-engagement/basics/export-data-excel)  
 
-You can also use Advanced Find to create customized queries. For example, you can create a query to fetch all the survey responses where the Net Promoter Score is equal to Detractor. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Advanced Find search](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/save-advanced-find-search)  
+You can also use Advanced Find to create customized queries. For example, you can create a query to fetch all the survey responses where the Net Promoter Score is equal to Detractor. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Advanced Find search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search)  
 
 ![Create custom query by using Advanced find](media/advanced-find.png "Create a custom query by using Advanced Find")  
 
@@ -175,7 +175,7 @@ The survey dashboard allows you to view the summary of survey invitations and re
 
 5. Select a view and chart from the view list and chart list, respectively. The corresponding chart is displayed.
 
-Additionally, you can create your own customized dashboard. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create or edit dashboards](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-dashboards)  
+Additionally, you can create your own customized dashboard. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create or edit dashboards](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-dashboards)  
 
 ### See also
 [Plan a survey](plan-survey.md)   
