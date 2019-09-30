@@ -139,7 +139,7 @@ For each resource, the view takes the difference between a team member's booking
 When you have task assignments for a resource without bookings (a booking shortage), you can select the aggregate booking shortage and click **Extend booking**. From here, you can view the booking that is needed to address the resource’s shortage and their availability. 
  
 ## Time and expense
-This section provides information about the changes in time, expense, and approval in version 3 of PSA. As part of the Dynamics 365 Project Service Automation solution, the **Time entry** feature has been refreshed to leverage the Unified Interface framework. This enables delivery of a consistent, uniform user interface that follows responsive design for optimal viewing on any screen size or device. 
+This section provides information about the changes in time, expense, and approval in version 3 of Project Service Automation. As part of the Dynamics 365 Project Service Automation solution, the **Time entry** feature has been refreshed to leverage the Unified Interface framework. This enables delivery of a consistent, uniform user interface that follows responsive design for optimal viewing on any screen size or device. 
 
 ### Landing page
 The non-extensible custom time entry experience has been deprecated in version 3. Instead, there is now an extensible and accessible native grid experience. You can access time entry functionality by using the sitemap on the left. With this change, you will no longer be able to enter time for one week at a time. Instead, you will need to create a time entry for each day in the grid. After a few time entries have been created, users can bulk create time entries with **Copy** function explained later in this topic. 
@@ -214,7 +214,7 @@ Time entries that are not for a project will be routed for approval to the manag
 The **Bookings and Tasks** functionality has been removed. 
 
 ## Multidimensional pricing
-To maximize flexibility and meet different business requirements, version 3 of PSA supports discrete application of pricing dimension sets to cost and bill rates. Dimension values can be set as the default and then propagated across the costing and pricing process from resource profiling to time entry to project actuals. Customer-specific configuration and modification or extension leverages standard Dynamics 365 for Customer Engagement customizability infrastructure.
+To maximize flexibility and meet different business requirements, version 3 of Project Service Automation supports discrete application of pricing dimension sets to cost and bill rates. Dimension values can be set as the default and then propagated across the costing and pricing process from resource profiling to time entry to project actuals. Customer-specific configuration and modification or extension leverages standard Dynamics 365 Customer Engagement customizability infrastructure.
 
 PSA ships with a default set of pricing dimensions and roles and resource units, and allows for the setup of prices and costs for each Role and Organizational unit combination.
 
