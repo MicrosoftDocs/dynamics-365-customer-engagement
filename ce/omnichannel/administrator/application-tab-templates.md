@@ -86,35 +86,36 @@ The parameters available for the custom control application type are as follows:
 
 The application type is used to display the dashboard as an application. The parameters available for the dashboard application type are as follows:
 
-| parameter | Value | Description |
+| parameter | Example Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| dashboardId | | |
-| entityType  | | |
-| Type | | |
+| dashboardId |  | GUID of the dashboard. |
+| entityType  | incident | Entity type of the record. |
+| Type | String |  |
 
 ### Entity view
 
 The application type is used to display entity view that defines how a list of records for a specific entity is displayed in the Omnichannel application. The parameters available for the entity view application type are as follows: 
 
-| parameter | Value | Description |
+| parameter | Example Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| entityName | | |
-| viewId | | |
-| viewType  | | |
+| entityName | Account | Logical name of the entity. |
+| viewId | `00000000-0000-0000-00AA-000010001003` | GUID of the view. |
+| viewType  | String |  |
 
 ### Entity record
 
 The parameters available for the entity record application type are as follows:
 
-| parameter | Value | Description |
+| parameter | Example Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| createFromEntity | | |
-| data | | |
-| entityId  | | |
-| entityName | | |
-| formId | | |
-| processId | | |
-| relationship | |
+| createFromEntity | | Designates a record that provides default values based on mapped attribute
+values. |
+| data |  | A JSON object defining the attributes and values for the new entity record. |
+| entityId  | | GUID of the entity record. |
+| entityName | | Logical name of the entity. |
+| formId | | GUID of the form instance. |
+| processId |  | GUID of the business process. |
+| relationship | Relationship object of the record. |
 | selectStageId | | |
 
 ### Entity search
