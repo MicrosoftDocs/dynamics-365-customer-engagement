@@ -1,12 +1,31 @@
+---
+title: "renderFocusSession (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
+description: ""
+keywords: 
+ms.date: 09/30/2019
+ms.service:
+  - dynamics-365-cross-app
+ms.custom:
+  - dyn365-a11y
+  - dyn365-developer
+ms.topic: reference
+applies_to:
+  - Dynamics 365 for Customer Engagement (online)
+ms.assetid: C5086080-D84D-4DC8-893E-38945F2B3C26
+author: susikka
+ms.author: susikka
+manager: shujoshi
+---
+
 # requestFocusSession
 
 Sets the focus on the session whose Session Id is passed as a parameter, if the session belongs to the channel provider.
 
-### Syntax
+## Syntax
 
-Microsoft.CIFramework.requestFocusSession(sessionId, correlationId).(successCallback, errorCallback);
+`Microsoft.CIFramework.requestFocusSession(sessionId, correlationId).(successCallback, errorCallback);`
 
-**Parameters**
+## Parameters
 
 | **Name**        | **Type** | **Required** | **Description**                                                        |
 |-----------------|----------|--------------|------------------------------------------------------------------------|
@@ -15,23 +34,18 @@ Microsoft.CIFramework.requestFocusSession(sessionId, correlationId).(successCall
 | successCallback | Function | No           | A function to call when the request is successful                      |
 | errorCallback   | Function | No           | A function to call when the request fails                              |
 
-**Return Value**
+## Return Value
 
 None
 
-**Example**
+## Example
 
+```javascript
 Microsoft.CIFramework.requestFocusSession("session-id-1", correlationId).then(
-
-function (result) {
-
-return Promise.resolve(result);
-
-},
-
-function (error) {
-
-return Promise.reject(error)
-
+    function (result) {
+        return Promise.resolve(result);
+    },
+    function (error) {
+        return Promise.reject(error)
 };
-
+```
