@@ -1,11 +1,9 @@
 ---
-title: "Manage cases in Dynamics 365 for Customer Engagement portals | MicrosoftDocs"
+title: "Manage cases in Dynamics 365 Portals | MicrosoftDocs"
 description: "Learn how to manage cases in a portal."
 ms.date: 12/03/2018
 ms.service: crm-online
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 546B2F5F-3DEA-466D-99B8-4D504D38E487
 author: sbmjais
 ms.author: shjais
@@ -54,7 +52,7 @@ Web portal customers can easily add case notes, and then select **Update** to in
 
 ## Close or cancel a case 
 
-A web portal customer can close a case directly from the portal. When editing a case, the customer can select the **Close Case** or **Cancel Case** buttons. The system will ask the customer for confirming the action for the selected operation. The customer can then select **Yes** to confirm the case closure or cancellation. This action will automatically close any open activities that are linked to the case record in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+A web portal customer can close a case directly from the portal. When editing a case, the customer can select the **Close Case** or **Cancel Case** buttons. The system will ask the customer for confirming the action for the selected operation. The customer can then select **Yes** to confirm the case closure or cancellation. This action will automatically close any open activities that are linked to the case record.
 
 ![Close or cancel a case](media/case-actions.png "Close or cancel a case") 
 

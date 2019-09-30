@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement apps
+applies_to: Dynamics 365 apps
 ms.assetid: 6818238b-1645-4710-a193-0015acb04196
 caps.latest.revision: 97
 ms.author: mkaur
@@ -31,7 +31,7 @@ search.app:
 ### Privileges required to run the app
 
 > [!IMPORTANT]
->  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 for Customer Engagement apps administrator or support person](../basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).
+>  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 apps administrator or support person](../basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
 
 ### Required services and resources
 This list identifies all services to which Dynamics 365 for phones and tablets talks and their usages. Your network must not block these services.

@@ -1,12 +1,12 @@
 ---
-title: "Search within file attachment content in Dynamics 365 for Customer Engagement portals  | MicrosoftDocs"
-description: "Learn how to configure your portal to search within file attachment content in Microsoft Dynamics 365 for Customer Engagement portals."
+title: "Search within file attachment content in Dynamics 365 Portals  | MicrosoftDocs"
+description: "Learn how to configure your portal to search within file attachment content in Microsoft Dynamics 365 Portals."
 keywords: "search within attachment,search in file attachment"
 ms.date: 04/17/2019
 ms.service: crm-online
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+ 
+  
 ms.assetid: BD65E6A7-5A2E-49DE-A00D-EB5F13F22FCC
 author: sbmjais
 ms.author: shjais
@@ -24,7 +24,7 @@ search.app:
 
 # Search within file attachment content
 
-You can use the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] notes attachment to include downloadable files in knowledge base articles. You can also use web files to create an FAQ page with downloadable content.
+You can use the Dynamics 365 notes attachment to include downloadable files in knowledge base articles. You can also use web files to create an FAQ page with downloadable content.
 
 You can configure your portal to allow portal users to search within the attachment content (knowledge base articles and web files). This helps users to find the information that they're looking for.
 
@@ -46,8 +46,8 @@ When you search for a term, the search results also include attachments. If the 
 ![Download attachment](media/search-attachment-content.png "Download attachment") 
 
 > [!NOTE]
-> - To use this functionality, you must [enable relevance search](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/configure-relevance-search-organization) in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. More information: [Relevance search](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/relevance-search-results)
-> - For the search to function within attachments, the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] version must be 9.0.1.x or later.
+> - To use this functionality, you must [enable relevance search](https://docs.microsoft.com/dynamics365/customer-engagement/admin/configure-relevance-search-organization) in Dynamics 365. More information: [Relevance search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/relevance-search-results)
+> - For the search to function within attachments, the Dynamics 365 version must be 9.0.1.x or later.
  
 ## Update portal configurations
 

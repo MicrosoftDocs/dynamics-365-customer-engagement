@@ -25,7 +25,7 @@ search.app:
 
 Scores and achievements in your games are based on KPIs that you define in [!INCLUDE[pn_gamification](../includes/pn-gamification-shortest.md)]. It's a two-step process: first, in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online-shortest.md)], a user with a **Game Manager** security role creates the KPIs. Next, the user chooses and configures the KPIs in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] when setting up a new game.
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/3ed19c05-ce49-4bc8-a11c-be527217c9ae" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/3ed19c05-ce49-4bc8-a11c-be527217c9ae" frameborder="0" allowfullscreen=""></iframe></div>
 
 More information about setting up KPIs in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]: [Set up and run games in Gamification](run-games.md)  
 Basic information about KPIs; [Concepts to learn before you get started using Gamification](get-started.md)

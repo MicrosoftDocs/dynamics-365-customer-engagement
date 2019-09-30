@@ -57,7 +57,7 @@ To see all form submissions, go to **Sales** > **[!include[LinkedIn](../includes
 
 ## Establish and grow relationships with [!include[LinkedIn](../includes/pn-linkedin.md)] Sales Navigator
 
-The [LinkedIn Sales Navigator for Microsoft Dynamics](https://appsource.microsoft.com/en-us/product/dynamics-365/linkedin.acdbc404-e99f-4c3e-927f-52fa28a6a682) is an additional integration with separate requirements which might be a useful addition if your organization is already using [!include[LinkedIn](../includes/pn-linkedin.md)] Sales Navigator.
+The [LinkedIn Sales Navigator for Microsoft Dynamics](https://appsource.microsoft.com/product/dynamics-365/linkedin.acdbc404-e99f-4c3e-927f-52fa28a6a682) is an additional integration with separate requirements which might be a useful addition if your organization is already using [!include[LinkedIn](../includes/pn-linkedin.md)] Sales Navigator.
 
 To find out more about the capabilities or request a demo, head over to [Sales Navigator from LinkedIn Sales Solutions](https://business.linkedin.com/sales-solutions/sales-navigator). 
 

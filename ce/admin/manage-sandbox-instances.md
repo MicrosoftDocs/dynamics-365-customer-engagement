@@ -1,8 +1,8 @@
 ---
-title: "Manage Dynamics 365 for Customer Engagement apps (online) Sandbox instances | MicrosoftDocs"
-ms.custom:
-ms.date: 12/05/2018
-ms.reviewer:
+title: "Manage Sandbox instances | MicrosoftDocs"
+ms.custom: 
+ms.date: 10/01/2019
+ms.reviewer: 
 ms.service: crm-online
 ms.suite:
 ms.tgt_pltfrm:
@@ -23,46 +23,41 @@ search.app:
 ---
 # Manage Sandbox instances
 
-A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps. Isolated from production, a Sandbox instance is the place to safely develop and test application changes with low risk.
-
+A Sandbox instance is any non-production instance of Dynamics 365 apps. Isolated from production, a Sandbox instance is the place to safely develop and test application changes with low risk.  
+  
 > [!NOTE]
-> With [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], we no longer require a minimum purchase amount to receive a free Sandbox instance. If you've purchased a subscription and have not received a free Sandbox instance, you will be provided one when you purchase full Dynamics 365 for Customer Engagement apps Enterprise licenses. There is a limit of one free Sandbox instance per tenant. You can also purchase additional Sandbox instances. For more information, see [Dynamics 365 for Customer Engagement apps pricing and licensing](https://go.microsoft.com/fwlink/p/?LinkID=321102).
+> With [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], we no longer require a minimum purchase amount to receive a free Sandbox instance. If you've purchased a subscription and have not received a free Sandbox instance, you will be provided one when you purchase full Dynamics 365 Enterprise licenses. There is a limit of one free Sandbox instance per tenant. You can also purchase additional Sandbox instances. For more information, see [Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=321102).  
 >
 > Check out [Switch an instance](switch-instance.md) for information on how to switch an instance to or from Sandbox and for licensing considerations.
 >
 > Consider using the less privileged service admin role instead of the global admin role. See [Use the service admin role to manage your tenant](use-service-admin-role-manage-tenant.md).
+  
+<a name="BKMK_View"></a>   
 
-<!--
-> [!TIP]
-> ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Sandbox instances for Dynamics 365 for Customer Engagement apps (3:18)](https://go.microsoft.com/fwlink/p/?linkid=838057).
--->
+## View your Sandbox instances  
+ You manage your Sandbox instances from the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].  
+  
+1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
+  
+2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
+  
+3. Choose the **Instances** tab.  
+  
+   On the **Manage your Dynamics 365 instances** page, you’ll see a list of all your instances.  
+  
+<a name="BKMK_Reset"></a>   
 
-<a name="BKMK_View"></a>
-
-## View your Sandbox instances
- You manage your Sandbox instances from the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].
-
-1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]
-
-2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]
-
-3. Choose the **Instances** tab.
-
-   On the **Manage your Dynamics 365 instances** page, you’ll see a list of all your instances.
-
-<a name="BKMK_Reset"></a>
-
-## Reset a Sandbox instance
- You can reset a Sandbox instance to delete and re-provision it. Consider a reset when you want to:
-
-- Change to a different version of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.
-
-- Create a new project
-
-- Free up storage space
-
-- Remove an instance containing Personally Identifiable Information (PII) data
-
+## Reset a Sandbox instance  
+ You can reset a Sandbox instance to delete and re-provision it. Consider a reset when you want to:  
+  
+- Change to a different version of Dynamics 365 apps.  
+  
+- Create a new project  
+  
+- Free up storage space  
+  
+- Remove an instance containing Personally Identifiable Information (PII) data  
+  
 > [!NOTE]
 > You can only reset Sandbox instances.
 
@@ -85,43 +80,35 @@ A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
 5. On the **reset instance** page, adjust the instance settings as needed and then click **Reset**.
 
    > [!WARNING]
-   >  The Sandbox instance will be deleted and reset to factory settings. You will not be able to recover any deleted data.
-
-6. Click **yes** in the confirmation dialog box.
-
-<a name="BKMK_AdminMode"></a>
-## Administration mode
- When you place a Sandbox instance in administration mode only users with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps System Administrator or System Customizer security roles will be able to sign in to that instance. Administration mode is useful when you want to make operational changes and not have regular users affect your work, and not have your work affect regular users.
-
+   >  The Sandbox instance will be deleted and reset to factory settings. You will not be able to recover any deleted data.  
+  
+6. Click **yes** in the confirmation dialog box.  
+  
+<a name="BKMK_AdminMode"></a>   
+## Administration mode  
+ When you place a Sandbox instance in administration mode only users with System Administrator or System Customizer security roles will be able to sign in to that instance. Administration mode is useful when you want to make operational changes and not have regular users affect your work, and not have your work affect regular users.  
+  
 > [!NOTE]
 > - You can only place Sandbox instances in administration mode.
 > - Processes that use code, such as plug-ins or custom workflow assemblies, continue to be processed by the [!INCLUDE [pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] platform when administration mode is enabled and background operations are disabled.
-> - ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Dynamics CRM 2013 Spring '14 Online New Features -Admin Mode](http://youtu.be/aUgwT-GuKO8).
->
->      This video also applies to [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)] and [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)].
-
- On the **admin settings** page, you can set the following.
-
-|Setting|Description|
-|-------------|-----------------|
-|Enable administration mode|Select to enable administration mode for the selected Sandbox instance. Only System Administrators or System Customizers will be able to sign in to the selected Sandbox instance.|
-|Disable background operations|Select to disable all asynchronous operations (see [Asynchronous service architecture](../developer/asynchronous-service-architecture.md)) such as workflows and synchronization with Exchange. Emails will not be sent and server-side synchronization for appointments, contacts, and tasks are disabled. **Note:**  Administration mode must be enabled to disable background operations.|
-|Custom message for end users|Enter a message that will be displayed to all users when they attempt to sign in.|
-
-### Set administration mode
-
-1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]
-
-2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]
-
-3. Choose the **Instances** tab.
-
-4. Select a Sandbox instance, and then click **Admin**.
-
-5. Select **Enable administration mode** to enable it, and then click **Save**.
-
-### See also
- [Blog: Introducing Sandbox Instances in CRM Online](https://blogs.msdn.com/b/crm/archive/2014/03/20/introducing-sandbox-instances-in-crm-online.aspx)
- [Switch an instance](../admin/switch-instance.md)
- [Delete an instance](../admin/delete-instance.md)
- [Copy an instance](../admin/copy-instance.md)
+  
+ On the **admin settings** page, you can set the following.  
+  
+|Setting|Description|  
+|-------------|-----------------|  
+|Enable administration mode|Select to enable administration mode for the selected Sandbox instance. Only System Administrators or System Customizers will be able to sign in to the selected Sandbox instance.|  
+|Disable background operations|Select to disable all asynchronous operations (see [Asynchronous service architecture](../developer/asynchronous-service-architecture.md)) such as workflows and synchronization with Exchange. Emails will not be sent and server-side synchronization for appointments, contacts, and tasks are disabled. **Note:**  Administration mode must be enabled to disable background operations.|  
+|Custom message for end users|Enter a message that will be displayed to all users when they attempt to sign in.|  
+  
+### Set administration mode  
+  
+1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
+  
+2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
+  
+3. Choose the **Instances** tab.  
+  
+4. Select a Sandbox instance, and then click **Admin**.  
+  
+5. Select **Enable administration mode** to enable it, and then click **Save**.  
+  

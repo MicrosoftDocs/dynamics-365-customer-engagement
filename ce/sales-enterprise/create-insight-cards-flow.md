@@ -1,19 +1,13 @@
 ---
-title: "Create insight cards using Microsoft Flow in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Create insight cards using Microsoft Flow in Dynamics 365 Sales | MicrosoftDocs"
 description: "Create custom insight cards using Microsoft Flow in assistant"
-keywords: "AI for sales, assistant, custom cards, insight cards"
 ms.date: 03/22/2019
 ms.service: crm-online
-ms.custom: 
 ms.topic: article
-applies_to: Dynamics 365 (online)
 ms.assetid: e59e67ad-3646-4929-a6f8-c97ab2c5f6e2
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 1
 ---
 
@@ -93,8 +87,8 @@ In this procedure, we will show as an example how to create an insight to act wh
 
     c. The **If yes** section defines the properties of the card and actions you can take. Here we have selected an action to **Create a card for the assistant**. Enter the following information:
 
-      -  **Organization Name**: The name of the organization for which you want to trigger the card.
-      - **Card Name**: Name of the card to refer to in the list of available cards in the **Manage insight cards** tab of **Dynamics 365 AI for Sales**.
+      - **Organization Name**: The name of the organization for which you want to trigger the card.
+      - **Card Name**: Name of the card to refer to in the list of available cards in the **Manage insight cards** tab of **Dynamics 365 Sales Insights**.
       - **Description**: The summary or the basic information of the card that is to be displayed.
       - **Action**: The convenient links that will help you complete whatever type of action the card is recommending. The number (up to two) and types of links provided here vary by card type.
       - **Action Parameter**: The ID of the created action.

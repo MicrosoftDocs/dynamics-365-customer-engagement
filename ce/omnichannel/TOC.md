@@ -3,7 +3,7 @@
 ## Get started
 ### [Introduction](introduction-omnichannel.md)
 ### [Preview features in Omnichannel for Customer Service](preview-features.md)
-### [Try Chat for Dynamics 365](try-chat-for-dynamics365.md)
+### [Try Chat for Dynamics 365 Customer Service](try-chat-for-dynamics365.md)
 ### [Pre-requisites and system requirements](system-requirements-omnichannel.md)
 ### [Assign roles and enable users](administrator/add-users-assign-roles.md)
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)
@@ -33,7 +33,7 @@
 ##### [Configure agent display name](administrator/agent-display-name.md)
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
-##### [Embed chat widget in Dynamics 365 Portal](administrator/embed-chat-widget-portal.md)
+##### [Embed chat widget in Dynamics 365 Portals](administrator/embed-chat-widget-portal.md)
 #### [Configure an SMS channel](administrator/configure-sms-channel.md)
 #### Entity records
 ##### [Entity records routing](administrator/entity-channel.md)
@@ -87,7 +87,7 @@
 #### [View customer summary](agent/agent-oc/oc-customer-summary.md)
 #### [Search for and share knowledge articles](agent/agent-oc/oc-search-knowledge-articles.md)
 #### [Take notes specific to conversation](agent/agent-oc/oc-take-notes.md)
-#### [View conversation and session activity types in the Customer Engagement apps](agent/agent-oc/oc-view-activity-types.md)
+#### [View conversation and session activity types in the Model-driven apps](agent/agent-oc/oc-view-activity-types.md)
 #### [View customer summary for an incoming conversation request](agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md)
 
 
@@ -104,7 +104,7 @@
 #### [View customer summary](agent/agent-usd/customer-summary.md)
 #### [View communication panel](agent/agent-usd/left-control-panel.md)
 #### [View call scripts, take notes, and search knowledge articles](agent/agent-usd/right-control-panel.md)
-#### [View Omnichannel conversation and Omnichannel session in Dynamics 365 apps](agent/agent-usd/view-omnichannel-conversation-session.md)
+#### [View Omnichannel conversation and Omnichannel session in Model-driven apps](agent/agent-usd/view-omnichannel-conversation-session.md)
 #### [View customer summary for an incoming conversation request](agent/agent-usd/view-customer-summary-incoming-conversation-request.md)
 
 

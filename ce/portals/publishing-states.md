@@ -1,11 +1,11 @@
 ---
-title: "Create and manage publishing states in Dynamics 365 for Customer Engagement portals | MicrosoftDocs"
+title: "Create and manage publishing states in Dynamics 365 Portals | MicrosoftDocs"
 description: "Learn how to create and manage publishing states in a portal."
 ms.date: 12/03/2018
 ms.service: crm-online
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+ 
+  
 ms.assetid: C8B271E8-D79E-42DC-923C-3101F8B23040
 author: sbmjais
 ms.author: shjais
@@ -29,11 +29,11 @@ Publishing states can be used with [web pages](web-page.md), [web files](web-fil
 
 By default, two publishing states are available: Draft and Published. Draft specifies content that should not be visible to non-content-author users, while Published specifies content that should be visible to all portal users (barring other security restrictions). You can modify the default configuration to meet your specific requirements, if desired – by adding new states or renaming states.
 
-## Manage publishing states in Dynamics 365 for Customer Engagement
+## Manage publishing states in Dynamics 365
 
-Publishing states can be created, edited, and deleted within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+Publishing states can be created, edited, and deleted within Dynamics 365.
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 Portals.
 
 2. Go to **Portals** > **Websites**.
 
@@ -55,7 +55,7 @@ You can also manage publish states under the **Publishing States** section on th
 
 ## Manage publishing states on a portal
 
-While publishing states and their attributes must be managed within Dynamics 365 for Customer Engagement, portal users with content management permissions can control the state of certain entities (such as web pages and web files) through the portal front-side editing interface.
+While publishing states and their attributes must be managed within Dynamics 365, portal users with content management permissions can control the state of certain entities (such as web pages and web files) through the portal front-side editing interface.
 
 ![Select publishing state on a portal](media/publishing-states-portal.png "Select publishing state on a portal")
 
@@ -78,7 +78,7 @@ To be precise, publishing state transition rules govern the transitions between 
 
 If the logged-in user who is attempting the change is in any of the roles you assign to the rule, the transition will be successful. If a user does not have permissions to make a change from one rule to another, then the front-side editing will not allow them to make that change. Alternatively, you can create the rule; then as you create web roles add the rule to the web roles. One rule can be associated with any number of web roles and vice versa.
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 Portals.
 
 2. Go to **Portals** > **Publishing State Transition Rules**.
 

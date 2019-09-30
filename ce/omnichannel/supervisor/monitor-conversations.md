@@ -42,7 +42,7 @@ By monitoring the conversations, you will get an overview of how each conversati
   
 By joining the conversation, you provide necessary inputs to both agent and customer based on the selected message mode (public or internal) in the communication panel.
 
-1.	Sign in to Dynamics 365 for Customer Service and go to **Omnichannel for Customer Service** app.
+1.	Sign in to Dynamics 365 Customer Service and go to **Omnichannel for Customer Service** app.
 
 2.  From the dashboard view selector, select **Omnichannel Ongoing Conversations** dashboard.
 

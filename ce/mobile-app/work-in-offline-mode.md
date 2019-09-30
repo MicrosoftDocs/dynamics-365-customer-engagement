@@ -1,5 +1,5 @@
 ---
-title: "Work offline on your mobile device (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
 ms.date: 08/21/2019
 ms.reviewer: kvivek
@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement apps
+applies_to: Dynamics 365 apps
 ms.assetid: 6828238b-1645-4710-a192-0014acb03196
 caps.latest.revision: 97
 ms.author: mkaur
@@ -24,9 +24,9 @@ search.app:
 
 # Work offline on your mobile device
 
-Work with your data in offline mode even when you don't have internet access. The Dynamics 365 for phones and tablets app provides a rich offline experience that lets you work with commands like create, read, update, and delete along with some special commands—so you always stay productive. Once you're back online, changes you've made are synchronized with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+Work with your data in offline mode even when you don't have internet access. The Dynamics 365 for phones and tablets app provides a rich offline experience that lets you work with commands like create, read, update, and delete along with some special commands—so you always stay productive. Once you're back online, changes you've made are synchronized with your apps in the Common Data Service environment or Dynamics 365 Customer Engagement (on-premises).  
 
-> [!Note]
+> [!NOTE]
 > - The mobile offline feature is only available for iOS and Android devices.
 > - To use the mobile offline feature, download the latest version of the Dynamics 365 for phones and tablet app from the app store. For iOS, version 13.19043.32 or later is supported; for Android, version 4.3.19043.33 or later supported.
 
@@ -44,7 +44,7 @@ If you choose **Skip for now**, you will not be able to use the app in offline m
 
 ### Manually download updates
 
-1. From the nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") > **Offline Status**.
+1. From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
 
     > [!div class="mx-imgBorder"] 
     > ![Manually download updates](media/downloadupdates_1.png "Manually download updates")
@@ -63,7 +63,7 @@ If you choose **Skip for now**, you will not be able to use the app in offline m
 
 When updates are downloaded, you can check to see if mobile offline is available.
 
-- From the nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") > **Offline Status**.
+- From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
   
    > [!div class="mx-imgBorder"] 
    > ![Mobile Offline Status](../mobile-app/media/OfflineStatusSettings.png "Mobile Offline Status")   
@@ -109,7 +109,7 @@ If your admin has set the conflict resolution to **Yes**, then the data value on
 
 If you used the mobile app on a phone or tablet temporarily and want to remove all your cached data before giving the device to someone else, you need to reconfigure the app.
 
-- From the nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis")  > **User Information** > **Reconfigure**. 
+- From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis")  > **User Information** > **Reconfigure**. 
 
      > [!div class="mx-imgBorder"] 
      > ![Reconfigure](media/reconfigure.png "Reconfigure mobile app")
@@ -159,15 +159,15 @@ These entities and corresponding commands are available in offline mode.
 > [!NOTE]
 > The **Date** field is not available for mobile offline search.
    
-**Security modeling**: Mobile offline honors the Dynamics 365 for Customer Engagement security model. It also supports the hierarchical security model.
+**Security modeling**: Mobile offline honors the Dynamics 365 apps security model. It also supports the hierarchical security model.
 
 
 Field level security and attribute sharing are not supported for offline mode.
 
-If a user was working on a record and lost network connection, any updates made to the record are saved in offline mode and will be synchronized to the Customer Engagement app once the user is back online. When the record is synchronized with the app, it follows the filter rule for availability in offline mode.
+If a user was working on a record and lost network connection, any updates made to the record are saved in offline mode and will be synchronized to Dynamics 365 app once the user is back online. When the record is synchronized with the app, it follows the filter rule for availability in offline mode.
 
 > [!NOTE]
-> - Actions from offline mode are replayed automatically. The changes are played back in the same sequence as they were created, modified, or deleted. This ensures that the data state is maintained and there are no data mismatches on the Dynamics 365 for Customer Engagement app.
+> - Actions from offline mode are replayed automatically. The changes are played back in the same sequence as they were created, modified, or deleted. This ensures that the data state is maintained and there are no data mismatches on the Dynamics 365 apps.
 > - The org can enhance business functionality available in mobile offline using Xrm.Mobile.offline. For more information, see Xrm.Mobile.offline (client-side reference).
 
 ## Known Issues

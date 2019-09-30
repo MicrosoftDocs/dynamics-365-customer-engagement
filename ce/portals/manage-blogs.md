@@ -1,5 +1,5 @@
 ---
-title: "Manage blogs on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Manage blogs on a portal | MicrosoftDocs"
 description: "Instructions to manage blogs on a portal."
 ms.custom: 
   - dyn365-portal
@@ -23,15 +23,15 @@ search.app:
 ---
 # Manage blogs
 
-Learn how to manage blog comments and blog posts both within [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and in your portal.
+Learn how to manage blog comments and blog posts both within Dynamics 365 and in your portal.
 
-## Manage blogs in Dynamics 365 for Customer Engagement
+## Manage blogs in Dynamics 365
 
-[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users can manage Blog records under the Portals tab after your portal customizations have been imported into your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.
+Dynamics 365 users can manage Blog records under the Portals tab after your portal customizations have been imported into your Common Data Service organization.
 
 ## Manage blogs on a portal
 
-Portal users who have blog author permissions can edit or delete blogs by using the portal inline editing interface. If your portal contact has been assigned the necessary permissions, the inline editing interface will appear automatically when you sign in to the portal. Note that although a blog can be edited or deleted through the portal editing interface, it must be created and initially configured in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+Portal users who have blog author permissions can edit or delete blogs by using the portal inline editing interface. If your portal contact has been assigned the necessary permissions, the inline editing interface will appear automatically when you sign in to the portal. Note that although a blog can be edited or deleted through the portal editing interface, it must be created and initially configured in Dynamics 365.
 
 To edit a blog, go to the blog's home page, and then select **Edit** on the edit toolbar.
 
@@ -73,9 +73,9 @@ It is important to note that the way in which many of the content/display-orient
 |   Author Roles   |                                                                                                                               Relationship specifying the Web Roles that grant authorship permission on the blog. Any portal users associated with any of these roles will be granted the permission to create new posts, edit and delete their own posts, and edit the attributes and settings of the blog itself.                                                                                                                               |
 |                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
-## Manage blog posts in Dynamics 365 for Customer Engagement
+## Manage blog posts in Dynamics 365
 
-For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, Blog Posts can be managed by launching the editor for the desired Blog and then navigating to its related Blog Posts.
+For Dynamics 365 users, Blog Posts can be managed by launching the editor for the desired Blog and then navigating to its related Blog Posts.
 
 ## Manage blogs posts on a portal
 

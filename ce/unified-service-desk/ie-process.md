@@ -1,18 +1,10 @@
 ---
-title: "Use IE Process hosting method for your controls in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Use IE Process hosting method for your controls in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the IE process hosting methods for your controls in Unified Service Desk."
-ms.custom:
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 12/01/2018
 ms.service: dynamics-365-customerservice
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
 ms.assetid: 01145E76-3E47-4D02-A986-EC2F88D5BD6A
 author: kabala123
 ms.author: kabala
@@ -41,7 +33,7 @@ monikerRange: '>= dynamics-usd-3'
 >   -   http://event
 >   -   http://uii
 >
-> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security zones: adding or removing websites](https://windows.microsoft.com/en-us/windows/security-zones-adding-removing-websites#1TC=windows-7)
+> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security zones: adding or removing websites](https://windows.microsoft.com/windows/security-zones-adding-removing-websites#1TC=windows-7)
 >
 >  If you do not enable the protected mode for the **Local Intranet** security zone or add the above URLs to the **Restricted Sites** security zone, blank pages with `http://event?eventname=usdreload` in the address bar will pop up for users when they work in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Blog: IE Process mode gives http://event popup](https://blogs.msdn.microsoft.com/usd/2016/01/26/ie-process-mode-gives-httpevent-popup/)
 

@@ -1,16 +1,14 @@
 ---
-title: Understanding Knowledge Management in Customer Service Hub in Dynamics 365 for Customer Engagement | Microsoft Docs
-description: Understand Knowledge Management in Customer Service Hub for Customer Service in Microsoft Dynamics 365 for Customer Engagement
-keywords: Knowledge management; knowledge articles; Customer Service Hub; Customer Service;  Microsoft Dynamics 365 for Customer Engagement; create a knowledge article, send a knowledge article for review; knowledge manager dashboard; Create and manage knpwledge article versions
+title: Understanding Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
+description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
 author: anjgupta
-applies_to: Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ms.assetid: ae39f0a0-1909-44b0-8625-ccee22f3ccd4
 ms.custom: dyn365-customerservice
+ms.assetid: ae39f0a0-1909-44b0-8625-ccee22f3ccd4
 search.audienceType: 
   - admin
   - customizer
@@ -24,18 +22,18 @@ search.app:
 
 Reduce call handling times with Knowledge articles in the Customer Service Hub application.
   
-With the new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management module, you can create and manage knowledge articles that your users may be looking for. 
+With the new knowledge management module, you can create and manage knowledge articles that your users may be looking for. 
 
 Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of Knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQs), product briefs, and more. Use the rich text editor to create knowledge articles, format your content or embed videos and images.  
   
 > [!IMPORTANT]
-> Knowledge management is available out-of-the-box through the Customer Service Hub app module, and it can work with other customer apps as well. The articles that are created in the Customer Service Hub will be available in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application as read-only records.  
+> Knowledge management is available out-of-the-box through the Customer Service Hub app module, and it can work with other customer apps as well. The articles that are created in the Customer Service Hub will be available in the Dynamics 365 Customer Service app as read-only records.  
 
 
 ## Knowledge management process  
  The following diagram describes the default process for creating and using knowledge articles in the Customer Service Hub. Create an article and mark it for review. The reviewer can approve or reject the article. If the article is rejected, it is sent back for edits or updates. If the article is approved, it is published on the portal. It is also available in search and can also be translated.
   
- ![Knowledge management process in Dynamics 365 for Customer Engagement](../customer-service/media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365 for Customer Engagement")  
+ ![Knowledge management process in Dynamics 365 Customer Service](../customer-service/media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365 Customer Service")  
   
   
 ## Create a knowledge article  
@@ -297,7 +295,7 @@ If the article has information that complements an existing knowledge article, a
      Deleting an article version is permanent and can’t be undone. You won’t be able to go back to that version of the article, so make sure that you don’t need any of the information. It’s a good idea to create a local backup of any versions you delete.  
   
 ## Translate a knowledge article in multiple languages  
- Your knowledge content needs to reach all of your customers, no matter what market or region they are from. The knowledge management capability in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] helps you translate your articles so that you can provide the same self-help content in multiple languages without having to manage multiple copies of the same article. By using the translation feature, you can quickly and efficiently provide 24-hour service to all of your customers.  
+ Your knowledge content needs to reach all of your customers, no matter what market or region they are from. The knowledge management capability in Dynamics 365 Customer Service helps you translate your articles so that you can provide the same self-help content in multiple languages without having to manage multiple copies of the same article. By using the translation feature, you can quickly and efficiently provide 24-hour service to all of your customers.  
   
 1. Open the article you want to translate, and on the command bar, select **Translate**.  
   
@@ -429,7 +427,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
   
         The **Created By** and **Closed By** fields are automatically populated with the user who creates or deactivates the feedback record.  
   
-   - [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] automatically calculates the **Normalized Rating** based on the following formula: **(Rating - Minimum Rating)/ (Maximum Rating - Minimum Rating)**.  
+   - Dynamics 365 Customer Service automatically calculates the **Normalized Rating** based on the following formula: **(Rating - Minimum Rating)/ (Maximum Rating - Minimum Rating)**.  
   
 3. Select **Save**.
 

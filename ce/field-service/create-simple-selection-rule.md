@@ -1,6 +1,6 @@
 ---
-title: Create a simple selection rule (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: See how to create a simple selection rule in Dynamics 365 for Customer Service
+title: Create a simple selection rule (Dynamics 365 Customer Service) | MicrosoftDocs
+description: See how to create a simple selection rule in Dynamics 365 Customer Service
 author: anjgupta
 ms.author: anjgup
 manager: shellyha
@@ -23,7 +23,7 @@ search.app:
 Before you can add a resource to a service, you must define a selection rule to determine how resources are selected for service activities. 
 
 > [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
 You can create a simple rule that selects resources from a list, and nest selection rules and sub-rules to create compound and complex rules. A compound rule selects a combination of resources, and a complex tree of selection rules selects from groups of equivalent resources.  
   

@@ -1,19 +1,15 @@
 ---
-title: "Qualify a lead (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Qualify a lead (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
 keywords: "lead, budget, purchase process, decision maker, opportunity"
-ms.date: 08/01/2019
+ms.date: 10/01/2019
 ms.service: dynamics-365-sales
 ms.custom: dyn365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 476a1284-61e5-4eb2-9bd4-b95d111cf82e
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 29
 ---
 
@@ -104,8 +100,6 @@ When salespeople work on a lead, they use notes to store key information on the 
   
 - Increase your marketing and sales effectiveness.  [Boost sales with Versium Predict](../versium-predict/versium-predict.md)  
 
-- Research leads through social media channels like LinkedIn and Twitter. [Qualify leads faster with Insights, powered by InsideView](https://www.microsoft.com/en-us/dynamics/crm-customer-center/insights-for-microsoft-dynamics-crm-powered-by-insideview.aspx)  
-
 - Nurture your leads through a  marketing campaign. [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)  (applies to the Sales app only)
 
   
@@ -117,6 +111,6 @@ When salespeople work on a lead, they use notes to store key information on the 
 ### See also  
 [Define lead qualification experience](define-lead-qualification-experience.md)  
 [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)          
-[Dynamics 365 for Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
+[Dynamics 365 Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)  
 [Get sales Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)  
