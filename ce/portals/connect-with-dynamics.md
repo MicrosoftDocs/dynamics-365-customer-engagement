@@ -1,6 +1,6 @@
 ---
-title: "Connect a portal to an organization | MicrosoftDocs"
-description: "Learn how to connect a portal to an organization and how to renew the authentication key."
+title: "Connect a portal to Common Data Service environment | MicrosoftDocs"
+description: "Learn how to connect a portal to Common Data Service environment and how to renew the authentication key."
 keywords: "portal authentication key"
 ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
@@ -22,32 +22,32 @@ search.app:
   - D365Portals
 ---
 
-# Connect to an organization using a portal
+# Connect a portal to Common Data Service environment
 
-A portal connects to an organization using an Azure Active Directory application. The application is created in the same tenant where the portal is provisioned. The application is registered with the organization during the portal provisioning process.
+A portal connects to Common Data Service environment using an Azure Active Directory application. The application is created in the same tenant where the portal is provisioned. The application is registered with the Common Data Service environment during the portal provisioning process.
 
-![Connecting a portal with organization](media/connect-with-dynamics.png "Connecting a portal with organization")
+![Connecting a portal with Common Data Service environment](media/connect-with-dynamics.png "Connecting a portal with Common Data Service environment")
 
-Each portal has a separate Azure Active Directory application associated with it, whether it is connected to the same organization or not. The default Azure Active Directory authentication provider created for a portal uses the same Azure Active Directory application to authenticate the portal. Authorization is enforced by web roles assigned to the user accessing the portal.
+Each portal has a separate Azure Active Directory application associated with it, whether it is connected to the same Common Data Service environment or not. The default Azure Active Directory authentication provider created for a portal uses the same Azure Active Directory application to authenticate the portal. Authorization is enforced by web roles assigned to the user accessing the portal.
 
-You can see the associated portal application in Azure Active Directory. The name of this application will be Microsoft CRM Portals, and the portal ID is in the **App ID URI** field in the Azure Active Directory application. The person who provisions the portal owns this application. You should not delete or modify this application, or you might break the portal functionality. You must be the application owner to manage a portal from the Portal Admin Center.
+You can see the associated portal application in Azure Active Directory. The name of this application will be Microsoft CRM Portals, and the portal ID is in the **App ID URI** field in the Azure Active Directory application. The person who provisions the portal owns this application. You should not delete or modify this application, or you might break the portal functionality. You must be the application owner to manage a portal from the PowerApps Portals admin center.
 
 ## Authentication key
 
-For a Portal to connect to an organization using an Azure Active Directory application, it requires an authentication key connected to the Azure Active Directory application. This key is generated when you provision a portal and the public part of this key is automatically uploaded to the Azure Active Directory application.
+For a portal to connect to an Common Data Service environment using an Azure Active Directory application, it requires an authentication key connected to the Azure Active Directory application. This key is generated when you provision a portal and the public part of this key is automatically uploaded to the Azure Active Directory application.
 
 > [!IMPORTANT]
-> The authentication key will expire in two years. It must be renewed every two years to ensure that your portal will continue to connect to the organization. If you do not update the key, the portal will stop working.  
+> The authentication key will expire in two years. It must be renewed every two years to ensure that your portal will continue to connect to the Common Data Service environment. If you do not update the key, the portal will stop working.  
 
-The details of an authentication key is displayed on Portal Admin Center and portal.
+The details of an authentication key is displayed on PowerApps Portals admin center and portal.
 
-**Portal Admin Center**
+**PowerApps Portals admin center**
 
 1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 2. Select the name of the portal key you want to see, and then select **Manage**.
 3. Select **Manage portal authentication key**. The authentication key is displayed along with its expiration date and thumbprint.
 
-   ![Authentication key details in Portal Admin Center](media/manage-auth-key.png "Authentication key details in Portal Admin Center")
+   ![Authentication key details in PowerApps Portals admin center](media/manage-auth-key.png "Authentication key details in PowerApps Portals admin center")
 
 **Portal**
 
@@ -59,11 +59,11 @@ The details of an authentication key is displayed on Portal Admin Center and por
 > [!NOTE]
 > To view authentication key information, you must sign in to the portal in the same browser session and you must have all website access permission.
 
-Before the authentication key expires, you will be notified by emails, Portal Admin Center, and portal.
+Before the authentication key expires, you will be notified by emails, PowerApps Portals admin center, and portal.
 
 **Email**
 
-Email will be sent to people who have signed up for email notification for the organization connected to their portal. More information about signing up for email notification: [Manage email notifications to admins](https://docs.microsoft.com/dynamics365/customer-engagement/admin/manage-email-notifications)
+Email will be sent to people who have signed up for email notification for the Common Data Service environment connected to their portal. More information about signing up for email notification: [Manage email notifications to admins](https://docs.microsoft.com/dynamics365/customer-engagement/admin/manage-email-notifications)
 
 Email notifications are sent at the following intervals: 
 - 90 days 
@@ -87,11 +87,11 @@ You will also be notified after the key expires every day until 1 week after key
 > - Intervals are calculated in UTC from the key expiration date.
 > - Email is not guaranteed to be exactly at the intervals as listed above. Email notification can be delayed or missed. Be sure to check for the key expiration date online as well.
 
-**Portal Admin Center**
+**PowerApps Portals admin center**
 
 A message about key expiration is displayed at the top of the page.
 
-![Authentication key notification in Portal Admin Center](media/portal-admin-center-auth-notif.png "Authentication key notification in Portal Admin Center")
+![Authentication key notification in PowerApps Portals admin center](media/portal-admin-center-auth-notif.png "Authentication key notification in PowerApps Portals admin center")
 
 **Portal**
 
@@ -104,10 +104,10 @@ When you navigate to the URL <portal_path>/_services/about, a notification about
 
 ## Renew portal authentication key
 
-You must renew the key every two years to ensure that your portal can connect to organization.
+You must renew the key every two years to ensure that your portal can connect to Common Data Service environment.
 
 > [!NOTE]
-> To renew the key, you must have permissions to [Manage your Portal](manage-portal.md).
+> To renew the key, you must have permissions to [Manage your portal](manage-portal.md).
 
 1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 2. Select the name of the portal you want to update the key, and then select **Manage**.

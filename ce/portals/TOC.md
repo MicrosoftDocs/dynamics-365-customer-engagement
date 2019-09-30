@@ -4,7 +4,7 @@
 
 # [Administer a portal](manage-portal.md)
 ## [Supported browsers](supported-browsers.md)
-## [Connect to an organization using a portal](connect-with-dynamics.md)
+## [Connect a portal to Common Data Service environment](connect-with-dynamics.md)
 ## [View portal error logs](view-portal-error-log.md)
 ## [Change Dynamics 365 instance](change-dynamics-instance.md)
 ## [Clear the server-side cache](clear-server-side-cache.md)
