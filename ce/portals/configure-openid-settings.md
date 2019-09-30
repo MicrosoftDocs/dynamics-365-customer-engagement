@@ -23,6 +23,8 @@ search.app:
 ---
 # Configure Open ID Connect provider settings for portals
 
+This topic applies to Dynamics 365 Portals and later versions.
+
 [OpenID Connect](http://openid.net/connect/) external identity providers are services that conform to the Open ID Connect [specifications](http://openid.net/developers/specs/). Integrating a provider involves locating the authority (or issuer) URL associated with the provider. A configuration URL can be determined from the authority which supplies metadata required during the authentication workflow. The provider settings are based on the properties of the [OpenIdConnectAuthenticationOptions](https://msdn.microsoft.com/library/microsoft.owin.security.openidconnect.openidconnectauthenticationoptions.aspx) class.
 
 Examples of authority URLs are:
