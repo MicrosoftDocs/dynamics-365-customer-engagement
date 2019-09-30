@@ -1,8 +1,8 @@
 ---
-title: "Client-side (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | Microsoft Docs"
+title: "Client-side Events (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 12/10/2018
+ms.date: 09/30/2018
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -27,8 +27,10 @@ Each event handler specifies a function within a JavaScript library and the para
 
 | Events | Description |
 |---------|-------------|
-| [onclicktoact]() | Invoked when user selects the outbound communication (ClickToAct) field in a form. |
-| [onmodechanged]() | Invoked when the panel mode is manually toggled between **Minimized (0)** and **Docked (1)**. |
-| [onpagenavigate]() | Invoked when the main Unified Interface page navigation occurs. |
-| [onsendkbarticle]() | Invoked when the user selects the **Send** button in the Knowledge Base control. |
-| [onsizechanged]() | Invoked when the side panel width is changed. |
+| [onClickToAct](events/onClickToAct.md) | Invoked when user selects the outbound communication (ClickToAct) field in a form. |
+| [onModeChanged](events/onModeChanged.md) | Invoked when the panel mode is manually toggled between **Minimized (0)** and **Docked (1)**. |
+| [onPageNavigate](events/onPageNavigate.md) | Invoked when the main Unified Interface page navigation occurs. |
+| [onSendKBArticle](events/onSendKBArticle.md) | Invoked when the user selects the **Send** button in the Knowledge Base control. |
+| [onSizeChanged](events/onSizeChanged.md) | Invoked when the side panel width is changed. |
+| [onSessionSwitched](events/onSessionSwitched.md) | Invoked when the session is switched. |
+| [onSessionClosed](events/onSessionClosed.md) | Invoked when the session is closed. |

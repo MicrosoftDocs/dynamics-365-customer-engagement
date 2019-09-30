@@ -74,19 +74,35 @@
         href: reference/microsoft-ciframework/addHandler.md
       - name: "removeHandler"
         href: reference/microsoft-ciframework/removeHandler.md
+      - name: "canCreateSession"
+        href: reference/microsoft-ciframework/cancreatesession.md
+      - name: "createSession"
+        href: reference/microsoft-ciframework/createsession.md
+      - name: "getFocusedSession"
+        href: reference/microsoft-ciframework/getfocusedsession.md
+      - name: "createTab"
+        href: reference/microsoft-ciframework/createtab.md
+      - name: "getTabs"
+        href: reference/microsoft-ciframework/gettabs.md  
+      - name: "focusTab"
+        href: reference/microsoft-ciframework/focustab.md
     - name: "Client-side events"
       href: reference/client-side-events.md
       items:
-      - name: "onclicktoact"
+      - name: "onClickToAct"
         href: reference/events/onclicktoact.md
-      - name: "onmodechanged"
+      - name: "onModeChanged"
         href: reference/events/onmodechanged.md
-      - name: "onpagenavigate"
+      - name: "onPageNavigate"
         href: reference/events/onpagenavigate.md
-      - name: "onsendkbarticle"
+      - name: "onSendKBArticle"
         href: reference/events/onsendkbarticle.md
-      - name: "onsizechanged"
+      - name: "onSizeChanged"
         href: reference/events/onsizechanged.md
+      - name: "onSessionSwitched"
+        href: reference/events/onSessionSwitched.md
+      - name: "onSessionClosed"
+        href: reference/events/onSessionClosed.md
     - name: Entity reference
       items:
       - name: "msdyn_ciprovider"
