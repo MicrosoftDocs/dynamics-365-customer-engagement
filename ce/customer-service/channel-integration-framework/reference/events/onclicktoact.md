@@ -9,8 +9,6 @@ ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"
 ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 6C942CA2-D776-4596-B9C5-D9007DF1AEE9
 author: susikka
 ms.author: susikka
