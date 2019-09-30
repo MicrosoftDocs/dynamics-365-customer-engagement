@@ -25,7 +25,7 @@ search.app:
 
 Dynamics 365 Portals offer powerful customization options to:
 
-- [Configure site settings for portals to modify the behavior or visual style of a portal](configure-site-settings.md)  
+- [Configure site settings for a portal to modify the behavior or visual style of a portal](configure-site-settings.md)  
 - [Add dynamic content to pages and create a wide variety of custom templates](custom-templates-dynamic-content.md)  
 - [Configure a contact for use on a portal](configure-contacts.md)  
 - [Authenticate portal users](set-authentication-identity.md)
@@ -34,4 +34,4 @@ Dynamics 365 Portals offer powerful customization options to:
 - [Gather feedback by using polls on a portal](gather-feedback-poll.md)  
 - [Rate or vote on a webpage or blog post on a portal](rate-webpage-blog-post.md)  
 - [Redirect to a new URL on a portal](add-redirect-url.md)
-- [Get data on the Portal](walkthrough-get-data-on-portal.md)
+- [Get data on the portal](walkthrough-get-data-on-portal.md)
