@@ -55,13 +55,6 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
 
    > [!div class="mx-imgBorder"] 
    > ![Select an app to use](media/openanapp.png "Select an app to use"). 
-        
-#### Sign out 
-
-- From the upper-right corner, select ![Sign out](media/gearsignout.png "Sign out") > **Sign out**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Sign out](media/signout1.png "Sign out")
 
 
 ### Sign in with your web address 
@@ -80,7 +73,7 @@ You can also sign in using your web address for the Dynamics 365 app and user na
    > [!div class="mx-imgBorder"] 
    > ![Select an app to use](media/navwebsignin.png "Select an app to use"). 
 
-#### Sign out 
+### Sign out 
 
 - From the navigation bar, select ![Sign out button](media/settingsmorebutton.png "Sign out button") > **User Information** > **Sign out**.
 
