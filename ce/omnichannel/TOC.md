@@ -42,6 +42,11 @@
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)
 #### [Manage users](administrator/users-user-profiles.md)
+#### Skill based routing
+##### [Overview](administrator/overview-skill-work-distribution.md)
+##### [Skill based routing and rating model](administrator/enable-skill-routing-create-rating-model.md)
+##### [Set up skills and assign agents](administrator/setup-skills-assign-agents.md)
+##### [Attach skills to conversation](administrator/attach-skills.md)
 
 ### Work Distribution Management
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
@@ -65,6 +70,13 @@
 #### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
+
+### Templates
+#### [Overview](administrator/templates-overview.md)
+#### [Manage session templates](administrator/session-templates.md)
+#### [Manage application tab templates](administrator/application-tab-templates.md)
+#### [Manage notification templates](administrator/notification-templates.md)
+#### [Associate templates with workstreams](administrator/associate-templates.md)
 
 ## Agent guide
 
@@ -167,6 +179,16 @@
 ###### [Step 3: Create Omnichannel Toast Notification-related action calls](customizer/toastnotification-step3-create-action-call-display-notification.md)
 ###### [Step 4: Attach Omnichannel Toast Notification-related action calls to events](customizer/toastnotification-step4-add-action-calls-events.md)
 ###### [Step 5: Add the hosted control, events, forms and action calls to configurations](customizer/toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+
+#### Configure search
+##### [Overview](customizer/configure-search.md)
+##### [Step 1: Create search hosted control](customizer/search-step1-create-hosted-control.md)
+##### [Step 2: Create search-related action calls](customizer/search-step2-create-action-calls.md)
+##### [Step 3: Attach sub action calls to action calls](customizer/search-step3-attach-sub-action-calls.md)
+##### [Step 4: Attach search-related action calls to events](customizer/search-step4-attach-action-calls-events.md)
+##### [Step 5: Configure window navigation rule for search](customizer/search-step5-configure-window-navigation-rule.md)
+##### [Step 6: Create toolbar buttons for search](customizer/search-step6-create-toolbar-button.md)
+##### [Step 7: Add hosted control, action calls, window navigation rule, and events to configurations](customizer/search-step7-add-hosted-control-action-calls-events-configurations.md)
 
 #### [Configure session name information](customizer/configure-session-name-information.md)
 

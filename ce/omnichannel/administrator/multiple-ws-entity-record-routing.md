@@ -1,27 +1,20 @@
 ---	
 title: "Create multiple workstreams for entity records routing | MicrosoftDocs"	
-description: "This walkthrough demonstrates how you can route entity record automatically using Entity Records channel in the Omnichannel for Administrator app."	
+description: "This walkthrough demonstrates how you can route entity record automatically using Entity Records channel in the Omnichannel Administration app."	
 author: kabala123	
 ms.author: kabala	
 manager: shujoshi	
 applies_to: 	
-ms.date: 09/18/2019
+ms.date: 10/25/2019
 ms.service: dynamics-365-customerservice	
 ms.topic: article	
 ms.assetid: 3DBB1579-ECD2-43E6-B994-6D83A7C2C8F1
 ms.custom: 	
 ---
 
-# Preview: Walkthrough - Create multiple workstreams for entity records routing
+# Walkthrough - Create multiple workstreams for entity records routing
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md). 
 
 ## Overview
 
@@ -54,7 +47,7 @@ To learn more, see [Entity record workstreams](set-up-entity-workstream.md).
 
 ## Step 3: Create routing rules
 
-After enabling entity record channel for cases by creating workstream, create routing rules to route cases to appropriate queues. 
+Create routing rules to route cases to appropriate queues. 
 
 > [!Note]
 > - To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/install-routing-rules-preview-solution.md).
@@ -63,11 +56,11 @@ After enabling entity record channel for cases by creating workstream, create ro
 >
 > - You can’t edit an active routing rule set. Therefore, if you’re importing a solution that includes an active routing rule set into an organization where the rule already exists with the same ID, the solution import will fail.
 
-1. Sign in to the Omnichannel for Administrator app.
+1. Sign in to the Omnichannel Administration app.
 
-2. Select **Entity Records** under **Channels** in the sitemap.
+2. Select **Workstreams** under **Work Distribution Management** in the sitemap.
 
-3. Select the workstream you created for routing the cases from the **Entity Record Workstreams** view.
+3. Select the record you created for routing the cases from the **Active Work Streams** view.
 
     > [!div class=mx-imgBorder] 
     > ![Select a case workstream](../media/case-entity-channel.png "Case workstream") 

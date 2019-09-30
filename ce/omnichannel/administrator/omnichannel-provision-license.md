@@ -56,7 +56,7 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
         The **Manage Omnichannel Instances** page is displayed.
 
         > [!NOTE]
-        > The Omnichannel for Customer Service option will appear only if you have an active subscription of Chat for Dynamics 365 Customer Service. For more information on pricing, click [here](https://dynamics.microsoft.com/customer-service/overview/#pricing). You can also get a free 30-day trial if you have the required perquisites, see [Try Chat for Dynamics 365 Customer Service](../try-chat-for-dynamics365.md) for more information.
+        > The Omnichannel for Customer Service option will appear only if you have an active subscription of Chat for Dynamics 365 Customer Service. For more information on pricing, click [here](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing). You can also get a free 30-day trial if you have the required perquisites, see [Try Chat for Dynamics 365 Customer Service](../try-chat-for-dynamics365.md) for more information.
 
    3. On the **Manage Omnichannel Instances** page, select **Add Org** to add an organization. Omnichannel is set up on the organization instance that you add here.
    

@@ -29,8 +29,8 @@ search.app:
 After provisioning a portal, you can perform various actions such as setting up a custom domain and importing metadata translations. This section provides you the information about all the tasks required to manage your portal.
 
 To manage an existing portal, you must be assigned any one of the following roles:
-- Office 365 Global Administrator 
-- Dynamics 365 Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/library/mt793847.aspx)  
+- Office 365 Global Administrator
+- Dynamics 365 Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/library/mt793847.aspx)
 - System Administrator of the Common Data Service organization selected for the portal
 
 If you haven't been assigned any of the above-mentioned roles, the following message is displayed: You need to be a global administrator, Dynamics 365 service administrator, or system administrator for this organization in order to manage this portal.

@@ -29,7 +29,7 @@ The Dynamics 365 Portals is public when provisioned and accessible by anyone fro
 When a request to the portal is generated from any user, their IP address is evaluated against the allow list. If the IP address is not on the list, the portal displays a web page with an HTTP 403 status code.
 
 To add or remove IP addresses, you must be assigned any one of the following roles:
-- Office 365 Global Administrator 
+- Office 365 Global Administrator
 - Dynamics 365 Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/library/mt793847.aspx)  
 - System Administrator of the Common Data Service organization selected for the portal
 
