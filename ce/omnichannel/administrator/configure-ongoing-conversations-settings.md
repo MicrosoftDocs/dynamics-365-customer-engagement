@@ -13,7 +13,7 @@ ms.assetid: 339450a8-9dcb-4dc1-bb8d-ebfec235580c
 ms.custom: 
 ---
 
-# Enable supervisors to monitor and assign conversation
+# Enable supervisors to monitor and assign conversations
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -22,22 +22,22 @@ ms.custom:
 > - [!INCLUDE[cc_preview_features_expect_changes](../../includes/cc-preview-features-expect-changes.md)]
 > - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 
-As an administrator, you must enable the settings to monitor or assign conversation for supervisors to monitor conversations or assign conversations to a queue or agent. Follow these steps:
+As an administrator, you must enable the settings for supervisors to monitor conversations or assign them to a queue or an agent. To do so, follow these steps:
 
-1. Sign in to **Omnichannel Administration** app.
+1. Sign in to the **Omnichannel Administration** app.
 
 2. Go to **Supervisor Experience** > **Ongoing Conversation Dashboards**.
  
-3. Under **Supervisor Settings** tab, perform the following:
+3. Select the **Supervisor Settings** tab and perform the following:
 
-    1. **Supervisor Monitor**: Enable this option for supervisors to monitor conversation that are handled by agents. By default, the monitor option is enabled. 
+    1. **Supervisor Monitor**: Enable this option for supervisors to monitor conversations that are handled by agents. By default, the monitor option is enabled. 
 
     2. **Supervisor Assign**: Enable this option for supervisors to assign incoming conversations to queues or agents. 
  
     > [!div class=mx-imgBorder]
     > ![Enable supervisor monitor and assign options](../media/supervisor-admin-enable-ocd-settings.png "Enable supervisor monitor and assign options")
 
-### See Also
+### See also
 
 [Monitor conversations](../supervisor/monitor-conversations.md)
 
