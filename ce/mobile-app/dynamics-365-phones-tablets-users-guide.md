@@ -40,7 +40,7 @@ Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!IN
 Sign in to the Dynamics 365 mobile app quickly using your work email address or web address for the Dynamics 365 app that you use. If you need help with your sign-in information, contact your Dynamics 365 administrator. 
 
 > [!IMPORTANT]
-> - This feature is supported for version 9.x (Common Data Service and Dynamics 365 Customer Engagement (on-premises)) when signing in using the mobile app on an iOS and Android device.
+> - This feature is supported for version 9.x (Common Data Service and Dynamics 365 Customer Engagement (on-premises) when signing in using the mobile app on an iOS and Android device.
 > - If you are a [Dynamics 365 US Government](https://docs.microsoft.com/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government) (GCC and GCC High) user, you are required to sign in using the web address option.
 
 
