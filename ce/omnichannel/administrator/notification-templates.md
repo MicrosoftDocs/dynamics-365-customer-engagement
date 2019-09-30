@@ -120,3 +120,4 @@ As an administrator, you can edit the value of notification field header in the 
 
 - [Manage session templates](session-templates.md)
 - [Manage application tab templates](application-tab-templates.md)
+- [Associate templates with worksteams](associate-templates.md)

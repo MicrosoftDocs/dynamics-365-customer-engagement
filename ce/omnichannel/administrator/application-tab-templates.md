@@ -151,3 +151,4 @@ The application type is used to display a first-party and third-party websites a
 
 - [Manage session templates](session-templates.md)
 - [Manage notification templates](notification-templates.md)
+- [Associate templates with worksteams](associate-templates.md)

@@ -29,7 +29,8 @@ You can use the following templates in the Omnichannel Administrator app.
 - [Session templates](session-templates.md)
 - [Application tab templates](application-tab-templates.md)
 - [Notification templates](notification-templates.md)
-
+ 
 ## See also
 
-[Understand and create workstream](work-streams-introduction.md)
+- [Associate templates with worksteams](associate-templates.md)
+- [Understand and create workstream](work-streams-introduction.md)
