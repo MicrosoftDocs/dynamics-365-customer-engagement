@@ -81,10 +81,8 @@ The application type is used to display the dashboard as an application. The par
 
 | parameter | Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| CanOverride | | |
 | dashboardId | | |
 | entityType  | | |
-| navigationPath | | |
 | Type | | |
 
 ### Entity view
@@ -108,8 +106,6 @@ The parameters available for the entity record application type are as follows:
 | entityId  | | |
 | entityName | | |
 | formId | | |
-| isCrossEntityNavigate | | |
-| isOfflineSyncError | | |
 | processId | | |
 | relationship | |
 | selectStageId | | |
@@ -120,11 +116,8 @@ The parameters available for the entity search application type are as follows:
 
 | parameter | Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| EntityGroupName | | |
-| EntityNames | | |
 | searchText  | | |
 | searchType | | |
-| isCrossEntityNavigate | | |
 
 ### Web resource
 
@@ -134,7 +127,6 @@ The application type is used to display Web resources that represent files, whic
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
 | data | | |
 | webresourceName | | |
-| isOfflineSyncError | | |
 | processId | | |
 | processInstanceId | | |
 
