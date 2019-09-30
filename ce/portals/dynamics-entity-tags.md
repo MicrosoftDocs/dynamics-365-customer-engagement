@@ -1,8 +1,8 @@
 ---
-title: "Use PowerApps Common Data Service entity tags tags for a portal | MicrosoftDocs"
-description: "Learn about PowerApps Common Data Service entity tags tags available in portal"
-keywords: "PowerApps Common Data Service entity tags tags; liquid tags"
-ms.date: 04/26/2019
+title: "Use Common Data Service entity tags tags for a portal | MicrosoftDocs"
+description: "Learn about Common Data Service entity tags tags available in portals"
+keywords: "Common Data Service entity tags; liquid tags"
+ms.date: 10/01/2019
 ms.service: crm-online
 ms.topic: article  
 ms.assetid: 2D37443F-6DF7-440C-8E7E-5197546B1C92
@@ -20,7 +20,7 @@ search.app:
   - D365Portals
 ---
 
-# PowerApps Common Data Service entity tags entity tags
+# Common Data Service entity tags entity tags
 
 PowerApps entity tags are used to load and display PowerApps data, or use other PowerApps Portals framework services. These tags are PowerApps-specific extensions to the Liquid language.
 
@@ -86,14 +86,14 @@ You can also filter the report on one or more values. The syntax to filter a rep
 
 URL?filter=**Table**/**Field** eq '**value**'
 
-For example, say you want to filter the report to see data for a contact named Bert Hair. You must append the URL with the following:
+For example, say you want to filter the report to see data for a contact named Dustin Ochs. You must append the URL with the following:
 
-?filter=Executives/Executive eq 'Bert Hair'
+?filter=Executives/Executive eq 'Dustin Ochs'
 
 The complete code will be:
 
 ```
-{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01?filter=Executives/Executive eq 'Bert Hair'" %}
+{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01?filter=Executives/Executive eq 'Dustin Ochs'" %}
 ```
 
 More information on filtering a report: [Filter a report using query string parameters in the URL](https://docs.microsoft.com/power-bi/service-url-filters)
