@@ -20,7 +20,7 @@ search.app:
   - D365Portals
 ---
 
-# Common Data Service entity tags entity tags
+# Common Data Service entity tags
 
 PowerApps entity tags are used to load and display PowerApps data, or use other PowerApps Portals framework services. These tags are PowerApps-specific extensions to the Liquid language.
 
