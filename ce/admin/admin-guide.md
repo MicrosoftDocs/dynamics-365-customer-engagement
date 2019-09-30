@@ -19,9 +19,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Administer Dynamics 365 apps (model-driven apps)
-
-The content in this guide is for existing subscribers still using the Dynamics 365 Admin center, which was used to manage Dynamics 365 for Customer Engagement instances. We are transitioning instance (now called environment) management to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). For the latest documentation, see [Power Platform admin guide](https://docs.microsoft.com/power-platform/admin/admin-documentation).
+# Administer model-driven apps in Dynamics 365
 
 Effective October 2019, the *Dynamics 365 for Customer Engagement* SKU/license plan is no longer available for "online" customers. More information: [Dynamics 365 Licensing Update](https://docs.microsoft.com/dynamics365/licensing/update)
 
@@ -32,7 +30,11 @@ With this change for "online" customers, we are no longer using the term "Dynami
 - Dynamics 365 Field Service
 - Dynamics 365 Project Service Automation
 
-For "online" customers, these apps are *model-driven apps* running on the [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) platform. You can build model-driven apps using PowerApps. More information: [What are model-driven apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
+For "online" customers, these apps are **model-driven apps** running on the [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) platform. You can build model-driven apps using PowerApps. More information: [What are model-driven apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
+
+> [!IMPORTANT]
+> The content in this guide is for existing subscribers still using the Dynamics 365 Admin center, which was used to manage Dynamics 365 for Customer Engagement instances. We are transitioning instance (now called environment) management to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). For the latest documentation, see [Power Platform admin guide](https://docs.microsoft.com/power-platform/admin/admin-documentation).
+
 
 ### See also
 [PowerApps documentation](https://docs.microsoft.com/powerapps/)<br/>
