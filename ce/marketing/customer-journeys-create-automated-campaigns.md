@@ -184,6 +184,24 @@ It is your organization's responsibility to ensure that it is operating in full 
 
 More information: [Data protection and the GDPR](gdpr.md)
 
+### Set the business-unit scope
+
+Business-unit scopes are an optional feature. When they are enabled for your instance, then the **General** tab includes a **Scope** setting, which controls which contacts will be permitted to join the journey based on business-unit ownership.
+
+When business-unit scopes are enabled:
+
+- The **Scope** setting is available and can have a value of **Organization** or **Business unit**. 
+- **Business unit** scoped journeys will only process contacts that belong to the same business unit as the journey owner&mdash;even if the journey targets segments, lists, and/or pages that include contacts belonging to other business units.
+- **Organization** scoped journeys will process all targeted contacts, regardless of which business unit owns the journey.
+- Only users with organization-level create/update permissions can choose the **Organization** scope setting. Less privileged users are limited to creating journeys scoped at the **Business unit** level.
+
+When business-unit scopes are disabled:
+
+- The **Scope** setting isn't shown.
+- All journeys are scoped at the organization level, which means that they will process all contacts in the targeted segments, lists, and/or pages, regardless of which business unit owns the journey and each contact.
+
+More information: [Use business units to control access to Marketing records](business-units.md)
+
 ### Set the execution schedule
 
 All customer journeys are active for a limited time. During this time, the journey processes all contacts that are part of its target segments, stepping them through each tile according to its settings. The journey starts by processing all contacts that are already in its segments, and it will continue to process new contacts that are added to the segment during the time it is active. At the end of the schedule, it stops processing all contacts, regardless of where they are in the journey. Use the **Start date and time** and **End date and time** settings on the **General** tab to set up the start and end dates, and use the **Time zone** setting to establish the time zone to use when interpreting these values.

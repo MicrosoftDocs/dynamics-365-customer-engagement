@@ -47,6 +47,7 @@
 #### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
 #### [Manage sample data](additional-settings.md)
 #### [Quota limits](quota-management.md)
+#### [Feature switches](admin-feature-switches.md)
 #### [Preview: Configure AI features](admin-machine-learning.md)
 #### [Control access to designer features](designer-feature-protection.md)
 

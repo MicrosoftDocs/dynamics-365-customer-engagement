@@ -1,4 +1,4 @@
-&mdash;-
+---
 title: "Control access to Marketing records with business units (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Learn how business units affect users and record visibility in Dynamics 365 Marketing"
 ms.date: 10/04/2019
@@ -18,7 +18,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365Mktg
-&mdash;-
+---
 
 # Use business units to control access to Marketing records
 
@@ -39,24 +39,28 @@ For complete details about how business units work in the platform, see [Create 
 - Privileged users, such as admins, have security roles that grant them _organization-level access_ to the relevant entities. This allows them to access records belonging to all business units.
 - Teams can also combine with business units to affect record access. A record can be owned by a team rather than a user, in which case the record becomes part of the team's business unit. Teams can likewise combine users from different business units, in which case members of that team will see other team members' records as though they were all in the same business unit. More information: [Manage teams](../admin/manage-teams.md)
 
+<a name="segment-scopes"></a>
+
 ### Segment scopes, membership, and member lists
 
 In addition to the standard effects described previously, business units affect segments as follows:
 
 - Users with business-unit level access will only be able to see those contacts that belong to their own business unit&mdash;even if the segment also includes contacts belonging to other business units. Advanced and privileged users may also be able see members from child business units, or even all business units (depending on their security roles). The member count shown for the segment likewise matches the number of members the individual user can see.
-- When [scoping is enabled](#enable-bu-scopes) for your instance, each segment has a **Business unit scope** setting, which can be set to "organization" or "business unit". In addition:
+- When [scoping is enabled](#enable-bu-scopes) for your instance, each [segment](segmentation-lists-subscriptions.md) has a **Scope** setting, which can be set to "organization" or "business unit". In addition:
   - Business-unit scoped segments will only contain contacts that belong to the same business unit as the segment owner&mdash;even if the selection criteria would otherwise find contacts belonging to all business units.
   - Organization-scoped segments can contain members belonging to all business units.
   - Standard and advanced users are limited to creating segments scoped at the business-unit level.
   - Only users with organization-level create/update permissions will be able to choose the organization scope setting.
 - When [scoping is disabled](#enable-bu-scopes) for your instance, all segments are scoped at the organization level, regardless of who created or owns them, which means that they can include contacts belonging to all business units.
 
+<a name="journey-scopes"></a>
+
 ### Customer journey scopes, design, processing, and content settings
 
 In addition to the standard effects described previously, business units affect customer journeys as follows:
 
-- When [scoping is enabled](#enable-bu-scopes) for your instance, each customer journey has a **Business unit scope** setting, which can be set to "organization" or "business unit". In addition:
-  - Business-unit scoped journeys will only process contacts that belong to the same business unit as the journey owner&mdash; even if the journey targets segments, lists, and/or pages that include contacts belonging to other business units.
+- When [scoping is enabled](#enable-bu-scopes) for your instance, each [customer journey](customer-journeys-create-automated-campaigns.md) has a **Scope** setting, which can be set to "organization" or "business unit". In addition:
+  - Business-unit scoped journeys will only process contacts that belong to the same business unit as the journey owner&mdash;even if the journey targets segments, lists, and/or pages that include contacts belonging to other business units.
   - Organization-scoped journeys will process contacts belonging to all business units.
   - Standard and advanced users are limited to creating journeys scoped at the business-unit level.
   - Only users with organization-level create/update permissions will be able to choose the organization scope setting.
@@ -93,8 +97,10 @@ Form submissions, leads, and contacts generated from LinkedIn Lead Gen Forms hav
 
 ## Enable or disable business-unit scopes
 
+Although most business-unit functionality is always enabled in Dynamics 365 marketing, business-unit *scopes* for [segments](#segment-scopes) and [customer journeys](#journey-scopes) are optional (as described previously in this topic). To enable or disable this feature:
 
-
+1. Go to **Settings** > **Advanced settings** > **Other settings** > **Feature switches**.
+1. Set the **Business unit scoping** slider to **On** to turn the feature on, or to **Off** to turn it off.
 
 ## Important notes and known issues
 
@@ -121,3 +127,7 @@ The assist-edit feature enables users to generate dynamic expressions for use in
 For more information about how to work with these settings, see [Security roles and privileges](../admin/security-roles-privileges.md).
 
 ### See also
+
+[Create or edit business units to improve security and control](../admin/create-edit-business-units.md)  
+[Working with segments](segmentation-lists-subscriptions.md)  
+[Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
