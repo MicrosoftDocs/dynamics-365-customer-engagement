@@ -23,11 +23,7 @@ search.app:
 Prevent scheduling resources on holidays and other nonworking days by defining business closures in Dynamics 365 Customer Service. You can set both the days and times that your organization will be closed. 
 
 > [!IMPORTANT]
-<<<<<<< HEAD
-> With the Dynamics 365 Customer Service app version 9.1 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you set business closures using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set when your business is closed](set-when-business-closed-csh.md)
-=======
 > With the latest release of Dynamics 365 Customer Service app, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you set business closures using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set when your business is closed](set-when-business-closed-csh.md)
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
   
 1.  Make sure you have the Schedule Manager Security role or equivalent permissions to update the business closures.  
   

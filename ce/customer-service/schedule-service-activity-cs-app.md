@@ -23,11 +23,7 @@ search.app:
 Use this form to search for an available time for a service activity. You can either search for an open time using search criteria that, at a minimum, includes selecting a service, or you can define a more complex set of criteria. You can also create a service activity without checking for conflicts in the scheduled service. The service activity appears as a color block on the service calendar  
  
 > [!NOTE]
-<<<<<<< HEAD
-> With the Dynamics 365 Customer Service app version 9.1 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you create service activities using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md)
-=======
 > With the latest release of Dynamics 365 Customer Service app, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you create service activities using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md)
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 You can’t create a recurring service activity and it is recommended to create individual service activities as per requirement. 
 

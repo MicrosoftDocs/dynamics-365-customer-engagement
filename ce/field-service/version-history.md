@@ -73,7 +73,7 @@ search.app:
 
 Mobile projects hold configurations and customizations of the Field Service Mobile app such as view and form layout, mobile workflows called form rules, and offline HTML/JavaScript. These mobile projects are imported through the Field Service Mobile Configuration Tool (Woodford). The Field Service engineering team periodically releases new mobile project templates to reflect new product updates and improve usability and performance.
 
-To learn more about mobile projects, see our topic on [installing the Field Service Mobile Configuration Tool](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool).
+To learn more about mobile projects, see our topic on [installing the Field Service Mobile Configuration Tool](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool).
 
 | Template version  | Template name | Release date | Relates to Field Service Mobile version |  Publish to Woodford Version |
 |---|---|---|---|---|
@@ -84,13 +84,8 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 
 ## Trials and upgrades
 
-<<<<<<< HEAD
- - All new Dynamics 365 Field Service environemnts will install the latest generally available Field Service solution. 
- - For existing environments, when a new upgrade is avaialble, you can upgrade your solution in **Admin Center** > **Dynamics 365**, as seen in the following screenshot. 
-=======
  - All new Dynamics 365 Field Service environemnts will install the latest generally available Field Service solution.
  - For existing environments, when a new upgrade is avaialble, you can upgrade your solution in **Admin Center** > **Dynamics 365**, as seen in the following screenshot.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the admin center upgrade path for Field Service](./media/admin-upgrade-to-latest-admin-center.png)
 

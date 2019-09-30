@@ -31,7 +31,7 @@ See the following section to learn the types of search mechanisms available:
 
 - **Full-text search**: Lets you run full-text queries against character-based data in SQL Server tables. 
  
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Full-text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Full-text search](https://docs.microsoft.com/sql/relational-databases/search/full-text-search)
 
 - **Relevance search**:  Lets you search across multiple pre-defined entities and returns result sorted by relevance.  
 
@@ -73,11 +73,7 @@ With each of the previous search areas, the search results might vary based on t
 
 |Version  |  |Search areas| Search mechanism  |
 |---------|---------|---------|---------|
-<<<<<<< HEAD
-| December 2016 Update for Dynamics 365 Customer Service </br> & </br> December 2016 Service Pack for Dynamics 365 for Customer Engagement (on-premises) platform  |      |     - KB search control <br>  - Quick find in Grids   |   Full-text search    |
-=======
 | December 2016 Update for Dynamics 365 Customer Service </br> & </br> December 2016 Service Pack for Customer Engagement (on-premises) platform  |      |     - KB search control <br>  - Quick find in Grids   |   Full-text search    |
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 |   |     |      - Global search  |   Categorized search     |
 |Dynamics 365 Customer Service apps version 9.0   |     |  - KB search control      |   Relevance search/ Full-text search (based on what you configure)     |
 |  |      |   - Quick find in Grids     |   Full-text search |

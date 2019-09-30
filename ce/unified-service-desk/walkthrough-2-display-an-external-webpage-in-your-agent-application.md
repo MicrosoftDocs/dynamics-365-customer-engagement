@@ -203,11 +203,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
 
 1. Sign in to the Common Data Service platform.  
 
-<<<<<<< HEAD
-2. On the nav bar, click **Microsoft Dynamics 365 Customer Engagement**, and then select **Settings**.  
-=======
 2. On the nav bar, click **Dynamics 365**, and then select **Settings**.  
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 3. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 

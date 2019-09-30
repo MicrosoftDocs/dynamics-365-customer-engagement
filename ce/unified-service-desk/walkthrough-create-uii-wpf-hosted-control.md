@@ -145,11 +145,7 @@ This walkthrough demonstrates how you can build a [Windows Presentation Foundati
   
 1. Sign in to the Common Data Service platform.  
   
-<<<<<<< HEAD
-2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement** > **Settings** > **Unified Service Desk**.  
-=======
 2. On the nav bar, choose **Dynamics 365** > **Settings** > **Unified Service Desk**.  
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
   
 3. On the **Unified Service Desk** page, choose **Hosted Controls**.  
   
@@ -187,11 +183,7 @@ This walkthrough demonstrates how you can build a [Windows Presentation Foundati
   
 1. Sign in to the Common Data Service platform.  
   
-<<<<<<< HEAD
-2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement** > **Settings** > **Unified Service Desk**.  
-=======
 2. On the nav bar, choose **Dynamics 365** > **Settings** > **Unified Service Desk**.  
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
   
 3. On the **Unified Service Desk** page, choose **Hosted Controls**.  
   

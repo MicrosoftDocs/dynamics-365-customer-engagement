@@ -1,5 +1,5 @@
 ---
-title: "Quickstart: Schedule a work order and view it on the mobile app - Dynamics 365 for Field Service | MicrosoftDocs"
+title: "Quickstart: Schedule a work order and view it on the mobile app - Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 11/21/2018
@@ -117,7 +117,7 @@ If you're using sample data, you can skip this step. Otherwise, you need to crea
 2. Select a user other than the dispatcher/administrator, and then assign **only** the **Field Service – Resource** security role. If you don't have a user to assign this role, create a new one in the [Admin center](https://login.microsoftonline.com). 
 
 > [!NOTE]
-> The user needs a Dynamics 365 for Field Service license. After you create the user, verify that you can sign in with the new user record. You may be prompted to set a temporary password.
+> The user needs a Dynamics 365 Field Service license. After you create the user, verify that you can sign in with the new user record. You may be prompted to set a temporary password.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the Field Service - Resource role on the Manage Roles dialog](media/qs-1-img10.png)

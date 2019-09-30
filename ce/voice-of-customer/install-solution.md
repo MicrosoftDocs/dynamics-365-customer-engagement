@@ -47,7 +47,7 @@ This section provides you the steps to install the Voice of the Customer for Dyn
 
 6. Select **Install**.
 
-When you install Voice of the Customer, a VOC Push Service user is created automatically. This user is created to allow Voice of the Customer Azure service to authenticate with Dynamics 365 using Server-to-Server (S2S) authentication, and is primarily used for pushing survey responses. The VOC Push Service user is an application user and does not consume any license. The user is assigned Survey Administrator role. More information on S2S authentication: [Server-to-Server (S2S) authentication](https://msdn.microsoft.com/en-us/library/mt790168.aspx).
+When you install Voice of the Customer, a VOC Push Service user is created automatically. This user is created to allow Voice of the Customer Azure service to authenticate with Dynamics 365 for Customer Engagement using Server-to-Server (S2S) authentication, and is primarily used for pushing survey responses. The VOC Push Service user is an application user and does not consume any license. The user is assigned Survey Administrator role. More information on S2S authentication: [Server-to-Server (S2S) authentication](https://msdn.microsoft.com/library/mt790168.aspx).
 
 > [!NOTE]
 > The VOC Push Service user runs only with minimum required privileges to communicate to Voice of the Customer Azure service, and if your organization deploys a custom plugin that runs on the Survey Response entity, you are advised to do either of following:
@@ -87,7 +87,7 @@ When you install Voice of the Customer version 9.0.1162 and higher, the Voice of
 3. Select the Voice of the Customer app.
 
 > [!NOTE]
-> - To use the Voice of the Customer app, a user must be assigned the **Voice of the Customer app access role** security role. If this role is not assigned, users will see the web client behavior in Voice of the Customer app. More information on how to assign a security role to a user: [Assign a security role to a user](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user)
+> - To use the Voice of the Customer app, a user must be assigned the **Voice of the Customer app access role** security role. If this role is not assigned, users will see the web client behavior in Voice of the Customer app. More information on how to assign a security role to a user: [Assign a security role to a user](https://docs.microsoft.com/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user)
 > - When you assign the **Voice of the Customer app access role** security role to a user, the user will see duplicate forms for a few entities (survey, theme, and image) in web client. These forms are built for the Unified Client interface and must be used from the Voice of the Customer app only.
 
 ### See also

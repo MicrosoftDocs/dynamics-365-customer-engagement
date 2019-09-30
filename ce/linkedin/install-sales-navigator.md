@@ -38,7 +38,7 @@ After June 2019 (build version > 9.1.0.6228), we changed the way the LinkedIn Sa
 
 ### To install the Sales Navigator integration
 
-1. In Dynamics 365 for Sales, go to **Settings** > **Business Management**.
+1. In Dynamics 365 Sales, go to **Settings** > **Business Management**.
 2. Select **LinkedIn Sales Navigator**.
 3. In the new **Installation** tab that opens, select **Continue** to install the required solutions. It takes a few minutes to complete the installation.
 4. When the installation is completed, select **Go to Configuration** and follow the steps below to [Enable the default Sales Navigator controls](#enable-the-default-sales-navigator-controls).
@@ -49,7 +49,7 @@ After a successful installation, the Solutions page in the Admin Center lists th
 
 The following procedure guides administrators to enable default controls for LinkedIn Sales Navigator content. The Sales Navigator controls will appear on Account, Contact, Lead, and Opportunity pages by default. However, you can still customize other forms and entities to show Sales Navigator controls.
 
-1. In Dynamics 365 for Sales, go to **Settings** > **Business Management**.
+1. In Dynamics 365 Sales, go to **Settings** > **Business Management**.
    ![Clickpath for Business Management settings](media/business-management-settings.png)
 2. Select **LinkedIn Sales Navigator**.
 3. Select the **Enable Sales Navigator Integration** checkbox.
@@ -60,7 +60,7 @@ The following procedure guides administrators to enable default controls for Lin
 
 Disabling the integration will stop showing the Sales Navigator controls. 
 
-1. In Dynamics 365 for Sales, go to **Settings** > **Business Management**.
+1. In Dynamics 365 Sales, go to **Settings** > **Business Management**.
 2. Select **LinkedIn Sales Navigator**.
 3. Remove the check mark from the **Enable Sales Navigator Integration** checkbox.
 4. Select **Ok** to disable the integration.

@@ -1,6 +1,6 @@
 ---
 title: Skills and proficiency models 
-description: This topic provides information about how to use the skills and proficiency models in Dynamics 365 for Project Service Automation (PSA).
+description: This topic provides information about how to use the skills and proficiency models in Dynamics 365 Project Service Automation (PSA).
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Skills are resource characteristics that are shared between Microsoft Dynamics 365 for Project Service Automation (PSA) and Microsoft Dynamics 365 for Field Service (if present). 
+Skills are resource characteristics that are shared between Microsoft Dynamics 365 Project Service Automation (PSA) and Microsoft Dynamics 365 Field Service (if present). 
 
 To maintain the repository of skills in PSA, go to **Resources** \> **Resource Skills**. 
 

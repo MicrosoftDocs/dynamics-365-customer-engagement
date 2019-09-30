@@ -23,11 +23,7 @@ search.app:
 Create sites to define the locations where you provide service to your customers. When you’re scheduling resources, you can define which resources will work on which site.
 
 > [!IMPORTANT]
-<<<<<<< HEAD
-> With the Dynamics 365 Customer Service app version 9.1 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you create using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md)
-=======
 > With the latest release of Dynamics 365 Customer Service app, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you create using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md)
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   

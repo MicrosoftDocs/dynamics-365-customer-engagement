@@ -1,6 +1,6 @@
 While managing resources and scheduling, dispatchers must be aware of important updates and status changes to ensure accurate schedules and timely job completion. For example, a dispatcher needs to know if a field technician is running late or that prerequisites for a job have not been met so that they can take appropriate actions. Beyond scheduling, dispatchers may also need to ensure billing and customer satisfaction concerns are handled.
 
-In Dynamics 365 for Field Service and in Universal Resource Scheduling, **Booking Alerts** bring attention to important notifications so that dispatchers can schedule with confidence. Booking alerts display notes and reminders on the schedule board, and can relate to bookings, work orders, users, and other entities. They can be triggered based on timers, set alarms, or workflows.
+In Dynamics 365 Field Service and in Universal Resource Scheduling, **Booking Alerts** bring attention to important notifications so that dispatchers can schedule with confidence. Booking alerts display notes and reminders on the schedule board, and can relate to bookings, work orders, users, and other entities. They can be triggered based on timers, set alarms, or workflows.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of full schedule board showing booking alert](../../field-service/media/scheduling-booking-alert-schedule-board.png)

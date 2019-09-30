@@ -138,7 +138,7 @@ Voice of the Customer provides the following workflows out-of-the-box.
 |            VoC - Unsubscribe respondent            |  Survey Response   |    Unsubscribe the respondent from a channel (for example, email) based on the response.    |
 |                                                    |                    |                                                                                             |
 
-You can also create a workflow that sends a survey to a customer, asking for the feedback as soon as a case is closed. More information about creating a new workflow in Dynamics 365: [Create custom business logic through processes](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/guide-staff-through-common-tasks-processes) 
+You can also create a workflow that sends a survey to a customer, asking for the feedback as soon as a case is closed. More information about creating a new workflow in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]: [Create custom business logic through processes](https://docs.microsoft.com/dynamics365/customer-engagement/customize/guide-staff-through-common-tasks-processes) 
 
 ### See also
 [Design a basic survey](design-basic-survey.md)   

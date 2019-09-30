@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 for Project Service Automation (PSA) extends Microsoft Dynamics 365 for Sales entities and other entities. It also introduces its own entities in the Common Data Service data model. This topic describes some of the entities that you will encounter in typical PSA reporting scenarios.
+Microsoft Dynamics 365 Project Service Automation (PSA) extends Microsoft Dynamics 365 Sales entities and other entities. It also introduces its own entities in the Common Data Service data model. This topic describes some of the entities that you will encounter in typical PSA reporting scenarios.
 
 ## Reporting on opportunities
 
@@ -80,7 +80,7 @@ The **Projects** entity and its related entities are exclusive to PSA. **Project
 
 ## Reporting on resources
 
-Project resources use the **Bookable Resource** entities from Universal Resource Scheduling (URS) that are shared with other apps, such as Microsoft Dynamics 365 for Field Service. Here is a list of the entities that you might have to use when you report on project resources:
+Project resources use the **Bookable Resource** entities from Universal Resource Scheduling (URS) that are shared with other apps, such as Microsoft Dynamics 365 Field Service. Here is a list of the entities that you might have to use when you report on project resources:
 
 - **Bookable Resource** – This entity represents the user, contact, generic resource, account, group, or equipment that is used on the project team.
 - **Bookable Resource Characteristics** – This entity includes the skills, certifications, or education of the resource. The characteristics can have rating values that are defined by the rating model.

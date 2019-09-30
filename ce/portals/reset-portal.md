@@ -23,11 +23,7 @@ search.app:
 
 # Reset a portal
 
-<<<<<<< HEAD
-Once a portal is provisioned, you might need to delete resources from your portal under certain circumstances, such as if you move your Dynamics 365 organization to another tenant or another datacenter or if you want to remove the portal from your organization.
-=======
 Once a portal is provisioned, you might need to delete resources from your portal under certain circumstances, such as if you move your Common Data Service organization to another tenant or another datacenter or if you want to remove the portal from your organization.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 To do this, you can reset your portal, which will delete all the hosted resources associated with it. Then you can provision the portal again. Once the reset operation is finished, your portal URL will not be accessible anymore.
 

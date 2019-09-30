@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
-title: "Migrate Dynamics 365 Customer Engagement Web Client configurations to Unified Interface apps | MicrosoftDocs"
-description: "Learn how to migrate your Unified Service Desk configurations from Dynamics 365 Customer Engagement Web Client to Unified Interface apps"
-=======
 title: "Migrate Web Client configurations to Unified Interface apps | MicrosoftDocs"
 description: "Learn how to migrate your Unified Service Desk configurations from Web Client to Unified Interface apps"
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
@@ -22,11 +17,7 @@ search.app:
   - D365USD
 ---
 
-<<<<<<< HEAD
-# Migration of Unified Service Desk configurations from Dynamics 365 Customer Engagementa Web Client to Dynamics 365 Customer Engagement Unified Interface apps
-=======
 # Migration of Unified Service Desk configurations from Web Client to Unified Interface apps
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 ## Overview
   
@@ -55,11 +46,7 @@ The migration assistant helps with the migration of:
 
 [Download the Web Client - Unified Interface Migration Assistant](download-migration-assistant.md)
 
-<<<<<<< HEAD
-[Migration steps of the configurations from Dynamics 365 Customer Engagement Web Client to Unified Interface apps](migration-steps-web-client-unified-interface-configuration.md)
-=======
 [Migration steps of the configurations from Web Client to Unified Interface apps](migration-steps-web-client-unified-interface-configuration.md)
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 [Download the tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget)
 

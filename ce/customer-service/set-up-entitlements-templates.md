@@ -23,11 +23,7 @@ search.app:
 Quickly create other entitlements prefilled with the basic information like the start and end date, service level agreement (SLA), allocation type, and total term by using an entitlement template in Dynamics 365 Customer Service. For example, create a template for a standard entitlement, and then apply this template for every standard customer in your organization.  
 
 > [!NOTE]
-<<<<<<< HEAD
-> With the Dynamics 365 Customer Service app version 9.1 release, entitlement templates in service management are available in the Customer Service Hub. We recommend that you create and manage entitlement templates using the new experience.
-=======
 > With the latest release of Dynamics 365 Customer Service app, entitlement templates in service management are available in the Customer Service Hub. We recommend that you create and manage entitlement templates using the new experience.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 ## Create an entitlement template  
   

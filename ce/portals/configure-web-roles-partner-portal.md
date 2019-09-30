@@ -67,11 +67,7 @@ Website Access Permissions is a permission set, associated with a web role, that
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   Manage Content Snippets    |                          Allows the editing of Snippet controls. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customize content by using content snippets](customize-content-snippets.md)                           |
 |     Manage Site Markers      |    Allows the editing of hyperlinks that use site markers.                                                                                      |
-<<<<<<< HEAD
-|     Manage Web Link Sets     | Allows the editing of web link sets, including adding and removing web links from a web link set. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage web links in Dynamics 365 or on portals](manage-web-links.md) |
-=======
 |     Manage Web Link Sets     | Allows the editing of web link sets, including adding and removing web links from a web link set. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage web links in portals](manage-web-links.md) |
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 | Preview Unpublished Entities |                                                                            Allows the viewing of portal-exposed entities that have a publishing state of **Draft**.                                                                             |
 |                              |                                                                                                                                                                                                                                                 |
 

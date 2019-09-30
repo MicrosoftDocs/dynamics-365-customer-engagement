@@ -28,7 +28,7 @@ There are two options to sign-up for a free 30-day trial of Chat:
 
 ## Option 1: Chat trial through Microsoft 365 admin center
 
-With this option, you can sign-up for a free 30-day trial of Chat from the Microsoft 365 admin center only if you have a paid subscription of either Dynamics 365 for Customer Service Enterprise that has been purchased directly through the Microsoft 365 admin center (that is, Web Direct channel). If you do not have one of these pre-requisite subscriptions, or if you have purchased these pre-requisite subscriptions through another channel then the option to try Chat will not be available in the Microsoft 365 admin center.
+With this option, you can sign-up for a free 30-day trial of Chat from the Microsoft 365 admin center only if you have a paid subscription of either Dynamics 365 Customer Service Enterprise that has been purchased directly through the Microsoft 365 admin center (that is, Web Direct channel). If you do not have one of these pre-requisite subscriptions, or if you have purchased these pre-requisite subscriptions through another channel then the option to try Chat will not be available in the Microsoft 365 admin center.
 
 > [!NOTE]
 > For more information on the Chat license, pricing and pre-requisites, please refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
@@ -41,12 +41,12 @@ With this option, you can sign-up for a free 30-day trial of Chat from the Micro
 
     ![Add-on subscriptions in Microsoft 365 admin center](media/add-on-subscriptions.png "Add-on subscriptions in Microsoft 365 admin center")
 
-3. You'll see **Dynamics 365 for Customer Service Chat Trial** under **Add-on**. 
+3. You'll see **Dynamics 365 Customer Service Chat Trial** under **Add-on**. 
     
-    ![Dynamics 365 for Customer Service Chat Trial option](media/chat-add-on.png "Dynamics 365 for Customer Service Chat Trial option")
+    ![Dynamics 365 Customer Service Chat Trial option](media/chat-add-on.png "Dynamics 365 Customer Service Chat Trial option")
     
     > [!IMPORTANT]
-    > You must already have a paid license of either Customer Service Enterprise or Customer Engagement Plan in your tenant that was purchased directly through the Microsoft 365 admin center (that is, Web Direct channel), otherwise the **Dynamics 365 for Customer Service Chat Trial** option won't be visible.
+    > You must already have a paid license of either Customer Service Enterprise or Customer Engagement Plan in your tenant that was purchased directly through the Microsoft 365 admin center (that is, Web Direct channel), otherwise the **Dynamics 365 Customer Service Chat Trial** option won't be visible.
 
 4. You can start a 30-day trial of Chat with 25 user licenses.
 
