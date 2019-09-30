@@ -1,6 +1,71 @@
 {
   "redirections": [
     {
+      "source_path": "ce/sales-enterprise/embedded-intelligence.md",
+      "redirect_url": "/dynamics365/ai/sales/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-enable-embedded-intelligence.md",
+      "redirect_url": "/dynamics365/ai/sales/intro-admin-guide-sales-insights",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/relationship-assistant.md",
+      "redirect_url": "/dynamics365/ai/sales/assistant",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/action-cards-reference.md",
+      "redirect_url": "/dynamics365/ai/sales/action-cards-reference",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/email-engagement.md",
+      "redirect_url": "/dynamics365/ai/sales/email-engagement",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/auto-capture.md",
+      "redirect_url": "/dynamics365/ai/sales/auto-capture",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/manage-custom-cards-flow.md",
+      "redirect_url": "/dynamics365/ai/sales/configure-assistant#configure-assistant-full-capabilities-to-manage-insight-cards",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-insight-cards-flow.md",
+      "redirect_url": "/dynamics365/ai/sales/create-insight-cards-flow",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/edit-insight-cards.md",
+      "redirect_url": "/dynamics365/ai/sales/edit-insight-cards",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/optimize-ranking-insight-cards.md",
+      "redirect_url": "/dynamics365/ai/sales/optimize-ranking-insight-cards",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/extend-relationship-assistant-card.md",
+      "redirect_url": "/dynamics365/ai/sales/extend-relationship-assistant-card",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sample-extend-relationship-assistant-card-type.md",
+      "redirect_url": "/dynamics365/ai/sales/sample-extend-relationship-assistant-card-type",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/privacy-notice-ee.md",
+      "redirect_url": "/dynamics365/ai/sales/privacy-notice",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/analytics/index.md",
       "redirect_url": "../customer-engagement/on-premises/analytics/reporting-analytics-with-dynamics-365",
       "redirect_document_id": "false"
