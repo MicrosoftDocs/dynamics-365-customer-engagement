@@ -19,7 +19,7 @@ manager: shujoshi
 
 # Support for multiple providers
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 With Channel Integration Framework version 2.0, organizations can configure multiple providers in the Omnichannel for Customer Service app. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels (for example, live chat and telephony), where each of these sessions belongs to different providers. Agents can switch across these sessions as needed. Omnichannel for Customer Service brings one pre-provisioned channel provider configuration. You can add other channel provider records and configure them as explained above. Below are the salient features of this capability:
 
