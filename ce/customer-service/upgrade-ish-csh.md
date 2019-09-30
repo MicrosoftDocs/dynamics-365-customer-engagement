@@ -55,7 +55,7 @@ Like Dynamics 365 Customer Service web client, the Customer Service Hub app on U
 - The segment of form XML representing form behavior and customization is unaffected. This conversion will not have an adverse impact on functionality
 - **Form Type** would be changed from **Main – Interactive experience** to **Main**
 - If the managed properties of the form are set to be customizable, the **Form State** will be changed to Inactive; otherwise it will be unchanged. Because main forms are supported in Unified Interface as well as in the Common Data Service platform, deactivation is essential to avoid unintended access in the Common Data Service platform. This behavior is limited to customizable forms, so the upgrade does not force any form to an unrecoverable Inactive state
-- After conversion to Main forms, Interactive experience forms will be ranked lower than other Main forms in the system, to avoid disruption to Dynamics 365 Customer Service web client users. System administrators can review the order and change it to suit the business needs. See [Assign form order](../customize/assign-form-order.md) for more information
+- After conversion to Main forms, Interactive experience forms will be ranked lower than other Main forms in the system, to avoid disruption to Dynamics 365 Customer Service web client users. System administrators can review the order and change it to suit the business needs. See [Assign form order](../customer-engagement/on-premises/customize/assign-form-order.md) for more information
 
 ## Support for Interactive experience forms
 
@@ -79,7 +79,7 @@ With the latest release, Unified Interface supports all Interactive Service hub 
 
 - Interactive Dashboards deliver improved discoverability and reflow behavior. Read more about dashboards in the [ Customer Service Hub user guide](customer-service-hub-user-guide-dashboard.md).
 
-- The sitemap in Unified Interface is oriented vertically, to make it easy to use on smaller devices. In addition to layout changes, Customer Service Hub has better support for Sitemap customization because its dedicated sitemap can be configured in any way without affecting other apps. You can read more about editing sitemaps in the [Site map Designer documentation](../customize/create-site-map-app.md). (Note, that this change is not specific to this upgrade.)
+- The sitemap in Unified Interface is oriented vertically, to make it easy to use on smaller devices. In addition to layout changes, Customer Service Hub has better support for Sitemap customization because its dedicated sitemap can be configured in any way without affecting other apps. You can read more about editing sitemaps in the [Site map Designer documentation](../customer-engagement/on-premises/customize/create-site-map-app.md). (Note, that this change is not specific to this upgrade.)
 
   ![sitemap pre and post upgrade](media/upgrade-Sitemap-pre-and-post-update.png) 
 
@@ -102,7 +102,7 @@ Once you’ve upgraded to the latest version, Customer Service Hub will be provi
 
 ## Post-upgrade configurations for system administrators
 
-As described earlier, most of the Main forms would be in *Inactive* state after the upgrade. If Customer Service Hub does not have an Active form for any entity, users will get *Fallback forms* when they access an entity record. A fallback form is the default form that is available to users whose security roles do not have any forms assigned to them (read more in [Control access to forms](../customize/control-access-forms.md)). To ensure that users have a seamless experience after upgrading, system administrators must perform certain manual tasks, as listed in the table below.
+As described earlier, most of the Main forms would be in *Inactive* state after the upgrade. If Customer Service Hub does not have an Active form for any entity, users will get *Fallback forms* when they access an entity record. A fallback form is the default form that is available to users whose security roles do not have any forms assigned to them (read more in [Control access to forms](../customer-engagement/on-premises/customize/control-access-forms.md)). To ensure that users have a seamless experience after upgrading, system administrators must perform certain manual tasks, as listed in the table below.
 
  
 As Main forms are supported in Unified Interface as well as in web client, activation would make them visible in web client too. System administrators are advised to assign appropriate security roles to avoid unintended access. See [Assign security roles to forms](../admin/assign-security-roles-form.md) for more information.
@@ -111,14 +111,14 @@ As Main forms are supported in Unified Interface as well as in web client, activ
 
 ## Work with solutions
 
-- Importing a solution with Interactive Service hub components from the versions Dynamics CRM 2016, [!INCLUDE[](../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 Customer Service, and Customer Engagement (on-premises) platform Update 2.1 into the latest version would not reflect changes to Customer Service Hub, since it is an app module and doesn’t show every component in the system. The import would proceed in the usual manner, and the components added in the system would need to be added to Customer Service Hub. System administrators can edit the hub's app definition in App Designer and include the solution components. This gives System Administrators greater control over the hub's app definition. Read more about editing app definition in [App Designer](../customize/create-edit-app.md) documentation.
+- Importing a solution with Interactive Service hub components from the versions Dynamics CRM 2016, [!INCLUDE[](../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 Customer Service, and Customer Engagement (on-premises) platform Update 2.1 into the latest version would not reflect changes to Customer Service Hub, since it is an app module and doesn’t show every component in the system. The import would proceed in the usual manner, and the components added in the system would need to be added to Customer Service Hub. System administrators can edit the hub's app definition in App Designer and include the solution components. This gives System Administrators greater control over the hub's app definition. Read more about editing app definition in [App Designer](../customer-engagement/on-premises/customize/create-edit-app.md) documentation.
 
 
 - Uninstalling older solutions after upgrading to the latest version might require manual updates to the Customer Service Hub app in some cases. This typically occurs when the solution contains business process flows. While upgrading, all business process flows in the system (and their relevant entities) get added to Customer Service Hub, which creates dependencies on the solution. A solution framework dependency error will appear whenever such solutions are uninstalled.
 
   ![Error message provides a link to the details](media/upgrade-details-link-error.png)
 
-  Opening the error details reveals the solution components that are referenced by other components in the system. Resolving these dependencies by editing the Customer Service Hub and removing the referenced components should let you to uninstall the solution. If this issue persists, it is possible that dependencies remain and repeating this process should help identifying them. Read more about editing app definitions in [App Designer](../customize/create-edit-app.md) documentation.
+  Opening the error details reveals the solution components that are referenced by other components in the system. Resolving these dependencies by editing the Customer Service Hub and removing the referenced components should let you to uninstall the solution. If this issue persists, it is possible that dependencies remain and repeating this process should help identifying them. Read more about editing app definitions in [App Designer](../customer-engagement/on-premises/customize/create-edit-app.md) documentation.
 
 
 ### See also
@@ -127,4 +127,4 @@ As Main forms are supported in Unified Interface as well as in web client, activ
 
 [User Guide (Customer Service Hub)](user-guide-customer-service-hub.md)
 
-[Create or edit a model-driven app by using the app designer](../customize/create-edit-app.md)
+[Create or edit a model-driven app by using the app designer](../customer-engagement/on-premises/customize/create-edit-app.md)
