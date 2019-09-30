@@ -40,7 +40,7 @@ See the following section to learn the types of search mechanisms available:
 
    See [Configure Relevance search](../admin/configure-relevance-search-organization.md) to learn how to configure Relevance search to improve search results and performance.
 
-   To better understand the various searches used in Dynamics 365 Customer Service and how they can be compared, see [Compare Dynamics 365 apps searches](../admin/configure-relevance-search-organization.md#compare-dynamics-365-for-customer-engagement-apps-searches).
+   To better understand the various searches used in Dynamics 365 Customer Service and how they can be compared, see [Compare Dynamics 365 apps searches](https://docs.microsoft.com/en-us/power-platform/admin/configure-relevance-search-organization).
 
 ## Search the knowledge base
 
@@ -84,7 +84,3 @@ With each of the previous search areas, the search results might vary based on t
 [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
 
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
-
-
-
-
