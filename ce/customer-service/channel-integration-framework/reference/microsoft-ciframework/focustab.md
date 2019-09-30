@@ -17,6 +17,8 @@ manager: shujoshi
 
 # focusTab
 
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Sets the focus on a tab, if the focused session belongs to the channel provider and if the tab belongs to the session in focus.
 
 ## Syntax

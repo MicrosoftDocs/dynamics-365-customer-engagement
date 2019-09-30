@@ -17,6 +17,8 @@ manager: shujoshi
 
 # canCreateSession
 
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Allows you to check if a new session can be created.
 
 ### Syntax

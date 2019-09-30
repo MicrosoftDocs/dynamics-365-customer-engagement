@@ -17,11 +17,13 @@ manager: shujoshi
 
 # setTabTitle
 
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Sets the title of the tab, if the focused session belongs to the channel provider and if the tab belongs to the session in focus.
 
 ## Syntax
 
-Microsoft.CIFramework.setTabTitle(tabId, input).then(successCallback, errorCallback);
+`Microsoft.CIFramework.setTabTitle(tabId, input).then(successCallback, errorCallback);`
 
 ## Parameters
 

@@ -19,6 +19,8 @@ manager: shujoshi
 
 # requestFocusSession
 
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Sets the focus on the session whose Session Id is passed as a parameter, if the session belongs to the channel provider.
 
 ## Syntax

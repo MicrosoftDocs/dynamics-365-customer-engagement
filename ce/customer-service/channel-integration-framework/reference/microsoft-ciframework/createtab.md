@@ -15,7 +15,9 @@ ms.author: susikka
 manager: shujoshi
 ---
 
-#  createTab
+# createTab
+
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Creates a tab in a focused Session and returns the unique identifier of the created tab.
 
@@ -57,29 +59,29 @@ Promise with the value as String
 ```javascript
 var entityLogicalName = "contact";
 var data = {
-"firstname": "Sample",
-"lastname": "Contact",
-"fullname": "Sample Contact",
-"emailaddress1": "<contact@contoso.com>",
-"jobtitle": "Sr. Marketing Manager",
-"telephone1": "555-0109",
-"description": "Default values for this record were set programmatically."
+	"firstname": "Sample",
+	"lastname": "Contact",
+	"fullname": "Sample Contact",
+	"emailaddress1": "<contact@contoso.com>",
+	"jobtitle": "Sr. Marketing Manager",
+	"telephone1": "555-0109",
+	"description": "Default values for this record were set programmatically."
 }
 // create contact record
 var jsonData = JSON.stringify(data);
-Microsoft.CIFramework.createRecord(entityLogicalName,jsonData).then((result) =&gt; {
-var recordResult = JSON.parse(result);
-var input = {
-templateName: "entityrecord",
-templateParameters: {
-entityName: entityLogicalName,
-entityId: recordResult.id,
-},
-isFocused: true
-}
-Microsoft.CIFramework.createTab(input).then((result) =&gt; {
-console.log("created tab with id " + result);
-});
-// We created a contact record in the background by calling createRecord API, and then open the same in the new tab by passing the contact’s id that was returned from createRecord API, as template parameter
+Microsoft.CIFramework.createRecord(entityLogicalName, jsonData).then((result) => {
+	var recordResult = JSON.parse(result);
+	var input = {
+		templateName: "entityrecord",
+		templateParameters: {
+			entityName: entityLogicalName,
+			entityId: recordResult.id,
+		},
+		isFocused: true
+	}
+	Microsoft.CIFramework.createTab(input).then((result) => {
+		console.log("created tab with id " + result);
+	});
+	// We created a contact record in the background by calling createRecord API, and then open the same in the new tab by passing the contact’s id that was returned from createRecord API, as template parameter
 });
 ```

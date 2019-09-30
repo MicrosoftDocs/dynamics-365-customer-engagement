@@ -17,6 +17,8 @@ manager: shujoshi
 
 # getFocusedSession
 
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Returns the unique identifier of the session that is in focus, if it belongs to the channel provider else returns null. 
 
 ## Syntax

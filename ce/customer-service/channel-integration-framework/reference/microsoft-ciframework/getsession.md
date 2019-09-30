@@ -1,12 +1,31 @@
+---
+title: "getSession (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
+description: ""
+keywords: ""
+ms.date: 09/30/2019
+ms.service:
+  - dynamics-365-cross-app
+ms.custom:
+  - "dyn365-a11y"
+  - "dyn365-developer"
+ms.topic: reference
+ms.assetid: 21383A35-01E5-461B-92F6-B73C0ACF0983
+author: susikka
+ms.author: susikka
+manager: shujoshi
+---
+
 # getSession
+
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Returns an object containing the unique identifier of the session, context and the value of isFocused parameter, in case the session belongs to the channel provider.
 
-### Syntax
+## Syntax
 
-Microsoft.CIFramework.getSession(sessionId).then(successCallback, errorCallback);
+`Microsoft.CIFramework.getSession(sessionId).then(successCallback, errorCallback);`
 
-**Parameters**
+## Parameters
 
 | **Name**        | **Type** | **Required** | **Description**                                                 |
 |-----------------|----------|--------------|-----------------------------------------------------------------|
@@ -14,29 +33,21 @@ Microsoft.CIFramework.getSession(sessionId).then(successCallback, errorCallback)
 | successCallback | Function | No           | Call when the request for the current width value is successful |
 | errorCallback   | Function | No           | Call when the request for the current width value fails         |
 
-**Return Value**
+## Return Value
 
-## Object containing session Id, context and isFocused parameter
+Object containing session Id, context and isFocused parameter
 
-**Example**
+## Example
 
+```javascript
 Microsoft.CIFramework.getSession("session-id-1").then(
-
-function success(result) {
-
-console.log(result);
-
-// perform operations on session info
-
-},
-
-function (error) {
-
-console.log(error.message);
-
-// handle error conditions
-
-}
-
+    function success(result) {
+        console.log(result);
+        // perform operations on session info
+    },
+    function (error) {
+        console.log(error.message);
+        // handle error conditions
+    }
 );
-
+```

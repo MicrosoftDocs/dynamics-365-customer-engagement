@@ -17,6 +17,8 @@
       href: get-channel-integration-framework.md
     - name: "Sample softphone integration"
       href: sample-softphone-integration.md
+  - name: "Support multiple providers"
+    href: support-multiple-providers.md
   - name: How-to
     items:
     - name: "Configure channel provider for your Dynamics 365 organization"
@@ -78,14 +80,30 @@
         href: reference/microsoft-ciframework/cancreatesession.md
       - name: "createSession"
         href: reference/microsoft-ciframework/createsession.md
+      - name: "getSession"
+        href: reference/microsoft-ciframework/getsession.md
       - name: "getFocusedSession"
         href: reference/microsoft-ciframework/getfocusedsession.md
+      - name: "getAllSessions"
+        href: reference/microsoft-ciframework/getallsessions.md
+      - name: "setSessionTitle"
+        href: reference/microsoft-ciframework/setsessiontitle.md
       - name: "createTab"
         href: reference/microsoft-ciframework/createtab.md
       - name: "getTabs"
         href: reference/microsoft-ciframework/gettabs.md  
       - name: "focusTab"
         href: reference/microsoft-ciframework/focustab.md
+      - name: "getFocusedTab"
+        href: reference/microsoft-ciframework/getfocusedtabs.md
+      - name: "renderFocusSession"
+        href: reference/microsoft-ciframework/renderFocusSession.md
+      - name: "refreshTab"
+        href: reference/microsoft-ciframework/refreshtab.md
+      - name: "setTabTitle"
+        href: reference/microsoft-ciframework/settabtitle.md
+      - name: "notifyEvent"
+        href: reference/microsoft-ciframework/notifyevent.md  
     - name: "Client-side events"
       href: reference/client-side-events.md
       items:
