@@ -1,6 +1,6 @@
 ---
-title: "Configure to Ongoing Conversations dashboard settings | MicrosoftDocs"
-description: "Instructions to configure Ongoing Conversations dashboard settings for Omnichannel for Customer Service app on web."
+title: "Configure Ongoing Conversations dashboard settings | MicrosoftDocs"
+description: "How to configure Ongoing Conversations dashboard settings for the Omnichannel for Customer Service app on the web."
 keywords: ""
 author: udaykirang
 ms.author: udag
