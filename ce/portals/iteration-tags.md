@@ -1,6 +1,6 @@
 ---
 title: "Use iteration tags for a portal | MicrosoftDocs"
-description: "Learn about iteration tags available in portal"
+description: "Learn about iteration tags available in portals"
 keywords: "iteration tags; liquid tags"
 ms.date: 04/08/2019
 ms.service: crm-online
@@ -407,4 +407,4 @@ Defines a range of numbers to loop through.
 [Control flow tags](control-flow-tags.md)
 [Variable tags](variable-tags.md)
 [Template tags](template-tags.md)
-[PowerApps Common Data Service entity tags entity tags](dynamics-entity-tags.md)
+[Common Data Service entity tags entity tags](dynamics-entity-tags.md)
