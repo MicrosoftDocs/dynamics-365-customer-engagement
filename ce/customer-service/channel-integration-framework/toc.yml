@@ -19,6 +19,8 @@
       href: sample-softphone-integration.md
   - name: "Support multiple providers"
     href: support-multiple-providers.md
+  - name: "Modes for communication widget"
+    href: modes-communication-widget.md
   - name: How-to
     items:
     - name: "Configure channel provider for your Dynamics 365 organization"
