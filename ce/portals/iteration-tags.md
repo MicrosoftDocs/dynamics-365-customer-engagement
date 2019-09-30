@@ -407,4 +407,4 @@ Defines a range of numbers to loop through.
 [Control flow tags](control-flow-tags.md)
 [Variable tags](variable-tags.md)
 [Template tags](template-tags.md)
-[Common Data Service entity tags entity tags](dynamics-entity-tags.md)
+[Common Data Service entity tags](dynamics-entity-tags.md)
