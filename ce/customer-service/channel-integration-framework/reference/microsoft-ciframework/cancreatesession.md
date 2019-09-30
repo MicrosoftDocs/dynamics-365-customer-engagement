@@ -21,7 +21,7 @@ Allows you to check if a new session can be created.
 
 ### Syntax
 
-Microsoft.CIFramework.canCreateSession().then(successCallback, errorCallback);
+`Microsoft.CIFramework.canCreateSession().then(successCallback, errorCallback);`
 
 **Parameters**
 
