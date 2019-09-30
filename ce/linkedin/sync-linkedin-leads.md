@@ -38,7 +38,7 @@ search.app:
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the matching strategy to update lead records from LinkedIn leads](configure-matching-strategy.md), [Analyze individual LinkedIn Lead Gen forms and submissions](review-leads.md#analyze-individual-linkedin-lead-gen-forms-and-submissions).
 
 3. A person filling the roles of both a campaign manager on [!include[LinkedIn](../includes/pn-linkedin.md)] and a salesperson in Dynamics 365 Sales authorizes the system to receive data from [!include[LinkedIn](../includes/pn-linkedin.md)].
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Dynamics 365 for Sales and LinkedIn](connect-dynamics-365-linkedin.md)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Dynamics 365 Sales and LinkedIn](connect-dynamics-365-linkedin.md)
 
 4. Optionally, a sales manager can review the lead performance in a dashboard.
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Analyze leads and lead performance](review-leads.md)

@@ -37,11 +37,7 @@ The entity list contains relationships to webpages and various properties to con
 > - An entity list must be associated with a webpage in a given website for the list to be viewable within the site.
 > - Multi-select option set is not supported in entity lists.
 
-<<<<<<< HEAD
-The webpages associated with the entity list can be viewed by selecting the **Web Pages** link listed in the **Related** navigation links in the leftmost menu. When creating your entity list, the first step is to choose the entity for which you want to render a list on the portal. You'll then choose one or more Dynamics 365 views to render.
-=======
 The webpages associated with the entity list can be viewed by selecting the **Web Pages** link listed in the **Related** navigation links in the leftmost menu. When creating your entity list, the first step is to choose the entity for which you want to render a list on the portal. You'll then choose one or more model-driven app views to render.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 When creating or editing a webpage, you can specify an entity list in the lookup field provided on the Web Page form. The page template typically will be the Page template, but can be one of several other templates designed for content because the master templates contain the necessary logic to determine whether an entity list should be rendered.
 
@@ -54,19 +50,11 @@ When creating or editing a webpage, you can specify an entity list in the lookup
 |              View              |                                                                          The Saved Query view(s) of the target entity that is to be rendered. This field is required. If more than one view has been specified, the webpage will contain a drop-down list to allow the user to switch between the various views.                                                                           |
 |           Page Size            |                                                                                                                                            An integer value that specifies the number of records per page. This field is required. Default: 10                                                                                                                                             |
 |   Web Page for Details View    |                                                                                                        An optional webpage that can be linked to for each record. The ID Query String Parameter Name and record ID will be appended to the query string of the URL to this webpage.                                                                                                        |
-<<<<<<< HEAD
-|      Details Button Label      |                     The text displayed for the details view button if **Web Page for Details View** has been specified. Default: View details <br>**Note**: For each language pack installed and enabled for the Dynamics 365 organization, a field will be available to enter the message in the associated language.                      |
-|      Web Page for Create       |                                                                                                                                                             An optional webpage that will be the target of the create button.                                                                                                                                                              |
-|      Create Button Label       |                              The text displayed for the create button if **Web Page for Create** has been specified. Default: Create <br>**Note**: For each language pack installed and enabled for the Dynamics 365 organization, a field will be available to enter the message in the associated language._                              |
-| ID Query String Parameter Name |                                                                                                                                           A parameter name provided in the query string of the URL to the Web Page for Details View. Default: id                                                                                                                                           |
-|        Empty List Text         |  **Deprecated**.  The message displayed when there are no records.<br>**Note**: For each language pack installed and enabled for the Dynamics 365 organization, a field will be available to enter the message in the associated language.                                                           |
-=======
 |      Details Button Label      |                     The text displayed for the details view button if **Web Page for Details View** has been specified. Default: View details <br>**Note**: For each language pack installed and enabled for the Common Data Service organization, a field will be available to enter the message in the associated language.                      |
 |      Web Page for Create       |                                                                                                                                                             An optional webpage that will be the target of the create button.                                                                                                                                                              |
 |      Create Button Label       |                              The text displayed for the create button if **Web Page for Create** has been specified. Default: Create <br>**Note**: For each language pack installed and enabled for the Common Data Service organization, a field will be available to enter the message in the associated language._                              |
 | ID Query String Parameter Name |                                                                                                                                           A parameter name provided in the query string of the URL to the Web Page for Details View. Default: id                                                                                                                                           |
 |        Empty List Text         |  **Deprecated**.  The message displayed when there are no records.<br>**Note**: For each language pack installed and enabled for the Common Data Service organization, a field will be available to enter the message in the associated language.                                                           |
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 |     Portal User Attribute      |                                                                                      An optional lookup attribute on the primary entity that represents the portal user record, either contact or system user, to which the current user's ID can be applied to filter the data rendered in the list.                                                                                      |
 |       Account Attribute        |                                                                                       An optional lookup attribute on the primary entity that represents an account record to which the current user contact's parent Customer account value can be applied to filter the data rendered in the list.                                                                                       |
 |       Website Attribute        |                                                                                                          An optional lookup attribute on the primary entity that represents the website to which the current website's ID can be applied to filter the data rendered in the list.                                                                                                          |
@@ -294,15 +282,9 @@ Enabling a **Workflow action** allows a user to run an on-demand workflow agains
 
 ## Securing entity lists
 
-<<<<<<< HEAD
-To secure an entity list, you must configure Entity Permissions for the entity for which records are being displayed and also set the **Enable Entity Permissions** Boolean value on the entity list record in Dynamics 365 to true.
-
-The act of securing an entity list will ensure that for any user who accesses the page, only records that they have been given permission to are shown. This is achieved by an additional filter being added to the Dynamics 365 views that are being surfaced via the list. This filter will filter only for records that are accessible to the user, via **Read** permission.
-=======
 To secure an entity list, you must configure Entity Permissions for the entity for which records are being displayed and also set the **Enable Entity Permissions** Boolean value on the entity list record to true.
 
 The act of securing an entity list will ensure that for any user who accesses the page, only records that they have been given permission to are shown. This is achieved by an additional filter being added to the model-driven app views that are being surfaced via the list. This filter will filter only for records that are accessible to the user, via **Read** permission.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 In addition, any actions that are defined for the list will respect the corresponding permissions for that action on a per-record basis. That is, if you have Edit permission for a record, the Edit action will be enabled for that record. The same applies for Delete, Create, and so on. Note that if no records are available, a message indicating this will be shown when the list is loaded.
 
@@ -344,11 +326,7 @@ If you assign a webpage to the Create Lookup on the entity list and do not speci
 
 ## Entity list filter configuration
 
-<<<<<<< HEAD
-Adding the ability to filter records on an entity list is easy: simply enable the filtering option and then choose one or more filter types to display to users. It is possible to filter by an attribute that matches text provided by the user, or to select from a series of options. You can even design virtually any type of filter you can imagine by using Advanced Find in Dynamics 365.
-=======
 Adding the ability to filter records on an entity list is easy: simply enable the filtering option and then choose one or more filter types to display to users. It is possible to filter by an attribute that matches text provided by the user, or to select from a series of options. You can even design virtually any type of filter you can imagine by using Advanced Find.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 **Enable the entity list filter**
 
@@ -520,27 +498,16 @@ Use the Entity List Calendar view to render an entity list as a calendar, with e
 
 To display records by using a calendar, those records need to include at a minimum a date field. For events to have exact start and end times, the appropriate fields need to be in place, and so on. Assuming these fields are configured, an Entity List Calendar view will appear on the portal.
 
-<<<<<<< HEAD
-## Enhanced Dynamics 365 view filter for entity lists
-=======
 ## Enhanced view filter for entity lists
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 If enabled, an entity can be published to an OData feed. The OData protocol is an application-level protocol for interacting with data via RESTful web services. Data from this feed can be viewed in a web browser, consumed by a client-side web application, or imported into [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)].
 
 ## Entity list OData feeds
 
-<<<<<<< HEAD
-You can use Entity Permissions if you want to secure records, but if you want to simply provide a filter as part of the set of filter options that is relevant to the current portal user, you can use the Entity List feature. This feature supports filtering of the current user, user's parent account, or website at any depth. Simply build the view filter in Dynamics 365 to match any single contact record and the code will replace its value with the actual value at runtime&mdash;no need to assign values to fields in the Filter Conditions section.
-
-> [!Note]
-> The OData feed that is published is anonymous and does not have any authorization checks; therefore, it is important not to enable oData feeds for Dynamics 365 data that is unsuitable for anonymous portal access.
-=======
 You can use Entity Permissions if you want to secure records, but if you want to simply provide a filter as part of the set of filter options that is relevant to the current portal user, you can use the Entity List feature. This feature supports filtering of the current user, user's parent account, or website at any depth. Simply build the view filter to match any single contact record and the code will replace its value with the actual value at runtime&mdash;no need to assign values to fields in the Filter Conditions section.
 
 > [!Note]
 > The OData feed that is published is anonymous and does not have any authorization checks; therefore, it is important not to enable oData feeds for data that is unsuitable for anonymous portal access.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 ### See also
 

@@ -156,11 +156,7 @@ You must create and assign the appropriate entity permission to the records as f
 
     ![Add web roles to an entity permission](media/entity-permission-web-roles.png "Add web roles to an entity permission")
 
-<<<<<<< HEAD
-If you created a custom form in Dynamics 365 and added the notes section to it, be sure to select **Notes** as the default tab you want to be visible.
-=======
 If you created a custom form and added the notes section to it, be sure to select **Notes** as the default tab you want to be visible.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 ![Notes in a custom form](media/notes-activities-tab.png "Notes in a custom form")
 

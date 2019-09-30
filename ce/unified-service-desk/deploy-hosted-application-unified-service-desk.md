@@ -26,11 +26,7 @@ Once you have created a hosted application as described in [Create a HAT hosted 
   
    ![Use the shortcut menu to configure](../unified-service-desk/media/usd-create-hat-control-11.png "Use the shortcut menu to configure")  
   
-<<<<<<< HEAD
-2. In the **Publish to Dynamics 365 Customer Engagement** dialog box, enter the Dynamics 365 Customer Engagement server name and your credentials.  
-=======
 2. In the next dialog box, enter the Common Data Service platform server name and your credentials.  
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
   
    ![Publish to dialog box](../unified-service-desk/media/usd-deploy.png "Publish to dialog box")  
   
@@ -43,11 +39,7 @@ Once you have created a hosted application as described in [Create a HAT hosted 
   
 1. Sign in to the Common Data Service platform.  
   
-<<<<<<< HEAD
-2. On the nav bar, choose **Dynamics 365**, and then select **Settings**.  
-=======
 2. On the nav bar, choose **Dynamics 365**.  
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
   
 3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
   

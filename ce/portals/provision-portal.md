@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
-title: "Provision a portal for Dynamics 365 | MicrosoftDocs"
-=======
 title: "Provision a portal | MicrosoftDocs"
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 description: "Instructions to provision a portal."
 ms.custom: 
   - dyn365-portal
@@ -35,11 +31,7 @@ Portals are websites that you can customize to provide a more personalized exper
 -   Internal employees can create and see best practices.
 
 > [!NOTE]
-<<<<<<< HEAD
-> To provision a portal, you must be assigned either System Administrator or System Customizer role of the Dynamics 365 organization selected for the portal. You must also have the [required permissions](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions) to create and register an application in Azure AD. If you don't have the required permissions, contact the Global Administrator to update your permissions or ask the Global Administrator to provision the portal.
-=======
-> To provision a portal, you must be assigned either System Administrator or System Customizer role of the Common Data Service organization selected for the portal. You must also have the [required permissions](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions) to create and register an application in Azure AD. If you don't have the required permissions, contact the Global Administrator to update your permissions or ask the Global Administrator to provision the portal.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
+> To provision a portal, you must be assigned either System Administrator or System Customizer role of the Common Data Service organization selected for the portal. You must also have the [required permissions](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions) to create and register an application in Azure AD. If you don't have the required permissions, contact the Global Administrator to update your permissions or ask the Global Administrator to provision the portal.
 
 To complete provisioning a portal, after you have purchased a new portal license, return to your Dynamics 365 instance.
 

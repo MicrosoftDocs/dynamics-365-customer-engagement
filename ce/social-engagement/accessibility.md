@@ -141,7 +141,7 @@ For accessibility information for specific browsers, visit the following website
 
 -   [Google Chrome accessibility features](https://sites.google.com/a/chromium.org/dev/user-experience)
 
-For more information on detailed accessibility features built into Microsoft products, refer to [Section 508 VPATs for Microsoft products](https://enterprise.microsoft.com/en-us/industries/government/section-508-vpats-for-microsoft-products/).
+For more information on detailed accessibility features built into Microsoft products, refer to [Section 508 VPATs for Microsoft products](https://enterprise.microsoft.com/industries/government/section-508-vpats-for-microsoft-products/).
 
 ### See Also
 

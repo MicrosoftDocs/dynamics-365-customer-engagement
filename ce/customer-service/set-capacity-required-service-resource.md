@@ -27,11 +27,7 @@ You must set both the capacity of the service and the resources required for the
 When you set capacity of a resource and service, the service calendar doesn’t allow booking the resources once they reach their capacity.  
 
 > [!IMPORTANT]
-<<<<<<< HEAD
-> With the Dynamics 365 Customer Service app version 9.1 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you set capacity using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service in Service Scheduling](create-edit-service-csh.md)
-=======
 > With the latest release of Dynamics 365 Customer Service app, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you set capacity using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service in Service Scheduling](create-edit-service-csh.md)
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
   
 ## Set the capacity of a service  
   

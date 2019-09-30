@@ -1,5 +1,5 @@
 ---
-title: What is Dynamics 365 for Project Service Automation (PSA)?
+title: What is Dynamics 365 Project Service Automation (PSA)?
 description: Introduction and overview of Project Service
 author: stsporen
 manager: kfend
@@ -20,7 +20,7 @@ search.app:
   - D365CE
   - D365PS
 ---
-# What is Dynamics 365 for Project Service Automation (PSA)?
+# What is Dynamics 365 Project Service Automation (PSA)?
 
 [!INCLUDE[cc-applies-to-psa-apps-all](../includes/cc-applies-to-psa-apps-all.md)]
 

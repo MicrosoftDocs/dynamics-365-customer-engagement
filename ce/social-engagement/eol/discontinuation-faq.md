@@ -33,7 +33,7 @@ Also starting October 1, 2019, Microsoft Social Engagement will no longer suppor
 
 ###	Why is Microsoft Social Engagement being discontinued? 
 
-Based on market trends and strategic direction, we have decided to focus [Dynamics 365 Market Insights Preview](https://dynamics.microsoft.com/en-us/ai/market-insights/) on providing insights about broader market patterns derived from aggregated data to help business professionals make decisions. 
+Based on market trends and strategic direction, we have decided to focus [Dynamics 365 Market Insights Preview](https://dynamics.microsoft.com/ai/market-insights/) on providing insights about broader market patterns derived from aggregated data to help business professionals make decisions. 
 
 ###	How will current Microsoft Social Engagement customers be notified?
 
@@ -41,7 +41,7 @@ The announcement will be communicated through periodic customer emails and exist
 
 ###	What is the recommended path for Microsoft Social Engagement customers and prospects?
 
-If you are seeking a social engagement solution, please look for other [solutions available in Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?search=social) or external marketplaces. If you are looking for aggregated insights based on web activities, you can preview email alerts based on US web data in [Dynamics 365 Market Insights Preview](https://dynamics.microsoft.com/en-us/ai/market-insights/) for free.
+If you are seeking a social engagement solution, please look for other [solutions available in Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?search=social) or external marketplaces. If you are looking for aggregated insights based on web activities, you can preview email alerts based on US web data in [Dynamics 365 Market Insights Preview](https://dynamics.microsoft.com/ai/market-insights/) for free.
 
 ## Subscription and billing information
 
@@ -50,11 +50,11 @@ If you are seeking a social engagement solution, please look for other [solution
 Any customers with the following license entitlements will be impacted.
  
 **Dynamics 365 Licenses**
-- Dynamics 365 for Sales, Enterprise edition	
-- Dynamics 365 for Customer Service, Enterprise	edition
-- Dynamics 365 for Field Service 	
-- Dynamics 365 for Project Service Automation	
-- Dynamics 365 for Marketing	
+- Dynamics 365 Sales, Enterprise edition	
+- Dynamics 365 Customer Service, Enterprise	edition
+- Dynamics 365 Field Service 	
+- Dynamics 365 Project Service Automation	
+- Dynamics 365 Marketing	
 - Dynamics 365 for Customer Engagement Plan	
 - Dynamics 365 Plan	
 
@@ -70,7 +70,7 @@ Monthly quota add-ons for Microsoft Social Engagement will continue to be availa
 
 ###	Will new Dynamics 365 customers be entitled to Dynamics 365 Market Insights? 
 
-New Dynamics 365 customers are encouraged to sign up to try the [Dynamics 365 Market Insights Preview](https://dynamics.microsoft.com/en-us/ai/market-insights/). However, Market Insights isn't intended to be a successor product to Microsoft Social Engagement anymore. More details about pricing and licensing for Dynamics 365 Market Insights will be available closer to the General Availability release. 
+New Dynamics 365 customers are encouraged to sign up to try the [Dynamics 365 Market Insights Preview](https://dynamics.microsoft.com/ai/market-insights/). However, Market Insights isn't intended to be a successor product to Microsoft Social Engagement anymore. More details about pricing and licensing for Dynamics 365 Market Insights will be available closer to the General Availability release. 
 
 ###	Who can customers contact for billing issues and concerns?
 If customers need to locate their Dynamics 365 (online) billing and subscription support team, they can go to [Dynamics 365 (online) Billing FAQ](https://technet.microsoft.com/library/mt826763.aspx) to locate their billing support number or submit a billing support query. They can also email us at [MSEEol@microsoft.com](mailto:MSEEol@microsoft.com) for any escalations.
@@ -86,7 +86,7 @@ Customer data will be retained for at least 90 days after the expiration of your
 
 ###	What is the Microsoft Social Engagement to Dynamics 365 Market Insights transitional experience?
 
-Dynamics 365 Market Insights Preview is no longer intended to be a successor to Microsoft Social Engagement. If you are seeking a social engagement solution, please look for other [solutions available in Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?search=social) or external marketplaces.  
+Dynamics 365 Market Insights Preview is no longer intended to be a successor to Microsoft Social Engagement. If you are seeking a social engagement solution, please look for other [solutions available in Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?search=social) or external marketplaces.  
 
 ###	What are the key capabilities of Dynamics 365 Market Insights?
 
@@ -131,5 +131,5 @@ Not currently. Please refer to the release notes that will soon be updated with 
 ### See also
 
 [Business Applications release notes](https://dynamics.microsoft.com/business-applications/release/)    
-[Dynamics 365 Market Insights product page](https://dynamics.microsoft.com/en-us/ai/market-insights/)    
+[Dynamics 365 Market Insights product page](https://dynamics.microsoft.com/ai/market-insights/)    
 [Dynamics 365 International Availability Guide](https://aka.ms/dynamics_365_international_availability_deck)  

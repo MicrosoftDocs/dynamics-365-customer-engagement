@@ -195,11 +195,7 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
 1. Sign in to the Common Data Service platform.  
   
-<<<<<<< HEAD
-2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement**, and select **Settings**.  
-=======
 2. On the nav bar, choose **Dynamics 365**.  
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
   
 3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
   

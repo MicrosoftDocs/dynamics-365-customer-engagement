@@ -116,8 +116,6 @@ entitytypename=incident
   
 ### See also  
  [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) 
-<<<<<<< HEAD
-=======
 
 <a name="Other"></a>
 ## Configure other tasks for knowledge base articles
@@ -125,7 +123,6 @@ entitytypename=incident
 
 ### See also
  [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
  [KM Control (Hosted Control)](../unified-service-desk/km-control-hosted-control.md)
 

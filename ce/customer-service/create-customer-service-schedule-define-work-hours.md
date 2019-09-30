@@ -25,11 +25,7 @@ To define when your service or support team is available for providing support t
  For SLA time tracking, make sure you add a holiday schedule to the customer service schedule, and associate this customer service schedule to the SLA record.  
 
 > [!NOTE]
-<<<<<<< HEAD
-> With the Dynamics 365 Customer Service app version 9.1 release, customer service schedule in service management is available in the Customer Service Hub. We recommend that you create and manage customer service schedule using the new experience.
-=======
 > With the latest release of Dynamics 365 Customer Service app, customer service schedule in service management is available in the Customer Service Hub. We recommend that you create and manage customer service schedule using the new experience.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
   
 ## Create a customer service schedule  
   

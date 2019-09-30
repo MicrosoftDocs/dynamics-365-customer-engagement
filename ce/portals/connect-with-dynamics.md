@@ -24,15 +24,6 @@ search.app:
   - D365Portals
 ---
 
-<<<<<<< HEAD
-# Connect to a Dynamics 365 online organization using a portal
-
-A portal connects to a Dynamics 365 online organization using an Azure Active Directory application. The application is created in the same tenant where the portal is provisioned. The application is registered with the Dynamics 365 organization during the portal provisioning process.
-
-![Connecting a portal with Dynamics 365 organization](media/connect-with-dynamics.png "Connecting a portal with Dynamics 365 organization")
-
-Each portal has a separate Azure Active Directory application associated with it, whether it is connected to the same Dynamics 365 organization or not. The default Azure Active Directory authentication provider created for a portal uses the same Azure Active Directory application to authenticate the portal. Authorization is enforced by web roles assigned to the user accessing the portal.
-=======
 # Connect to a Common Data Service organization using a portal
 
 A portal connects to a Common Data Service organization using an Azure Active Directory application. The application is created in the same tenant where the portal is provisioned. The application is registered with the Common Data Service organization during the portal provisioning process.
@@ -40,7 +31,6 @@ A portal connects to a Common Data Service organization using an Azure Active Di
 ![Connecting a portal with Common Data Service organization](media/connect-with-dynamics.png "Connecting a portal with Common Data Service organization")
 
 Each portal has a separate Azure Active Directory application associated with it, whether it is connected to the same Common Data Service organization or not. The default Azure Active Directory authentication provider created for a portal uses the same Azure Active Directory application to authenticate the portal. Authorization is enforced by web roles assigned to the user accessing the portal.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 You can see the associated portal application in Azure Active Directory. The name of this application will be Microsoft CRM Portals, and the portal ID is in the **App ID URI** field in the Azure Active Directory application. The person who provisions the portal owns this application. You should not delete or modify this application, or you might break the portal functionality. You must be the application owner to manage a portal from the Portal Admin Center.
 
@@ -49,11 +39,7 @@ You can see the associated portal application in Azure Active Directory. The nam
 For a Portal to connect to Dynamics 365 using an Azure Active Directory application, it requires an authentication key connected to the Azure Active Directory application. This key is generated when you provision a portal and the public part of this key is automatically uploaded to the Azure Active Directory application.
 
 > [!IMPORTANT]
-<<<<<<< HEAD
-> The authentication key will expire in two years. It must be renewed every two years to ensure that your portal will continue to connect to the Dynamics 365 organization. If you do not update the key, the portal will stop working.  
-=======
 > The authentication key will expire in two years. It must be renewed every two years to ensure that your portal will continue to connect to the Common Data Service organization. If you do not update the key, the portal will stop working.  
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 The details of an authentication key is displayed on Portal Admin Center and portal.
 
@@ -79,7 +65,7 @@ Before the authentication key expires, you will be notified by emails, Portal Ad
 
 **Email**
 
-Email will be sent to people who have signed up for email notification for the organization connected to their portal. More information about signing up for email notification: [Manage email notifications to admins](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-email-notifications)
+Email will be sent to people who have signed up for email notification for the organization connected to their portal. More information about signing up for email notification: [Manage email notifications to admins](https://docs.microsoft.com/dynamics365/customer-engagement/admin/manage-email-notifications)
 
 Email notifications are sent at the following intervals: 
 - 90 days 
@@ -120,11 +106,7 @@ When you navigate to the URL <portal_path>/_services/about, a notification about
 
 ## Renew portal authentication key
 
-<<<<<<< HEAD
-You must renew the key every two years to ensure that your portal can connect to Dynamics 365 organization.
-=======
 You must renew the key every two years to ensure that your portal can connect to Common Data Service organization.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 > [!NOTE]
 > To renew the key, you must have permissions to [Manage your Portal](manage-portal.md).

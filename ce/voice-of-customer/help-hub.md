@@ -20,7 +20,7 @@ ms.custom:
 > [!IMPORTANT]
 > Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
- <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/98c28273-0089-42d8-8817-f7349adcb93c" frameborder="0" allowfullscreen=""></iframe></div>
+ <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/98c28273-0089-42d8-8817-f7349adcb93c" frameborder="0" allowfullscreen=""></iframe></div>
 <table>
 <tr>
   <td><h2>Get started</h2>

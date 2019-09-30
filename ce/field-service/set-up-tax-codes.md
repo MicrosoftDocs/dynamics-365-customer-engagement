@@ -1,5 +1,5 @@
 ---
-title: "Set up tax codes (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Set up tax codes (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -25,7 +25,7 @@ search.app:
 ---
 # Set up tax codes (Field Service)
 
-Set up tax codes in Dynamics 365 for Field Service and specify how much tax will be applied to your products, agreements, and services.  
+Set up tax codes in Dynamics 365 Field Service and specify how much tax will be applied to your products, agreements, and services.  
   
 Each tax code may contain multiple child tax codes; in that case, the tax rate will be determined by the total of all children.  
   
@@ -56,7 +56,7 @@ For example, if the state of California has a state and county tax, then you mig
     5.  Save **Save**.  
   
 ### See also    
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Set up customer agreements](../field-service/set-up-customer-agreements.md)   
  [Set up agreement sub-statuses](../field-service/set-up-agreement-sub-statuses.md)   
  [Set up payment terms](../field-service/set-up-payment-terms.md)<br>

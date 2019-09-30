@@ -25,11 +25,7 @@ The Service Manager guide helps the admins to set up everything related to custo
 With the new release, the Service Manager moves under the Customer Service Hub, enabling customer service managers to access the configurations from inside the application. Built on Unified Interface, the new Service Management helps to easily configure service tasks, thus enabling increased productivity.
   
 > [!NOTE]
-<<<<<<< HEAD
-> With the Dynamics 365 Customer Service app version 9.1 release, you can access and manage all admin settings from the Customer Service Hub sitemap except for **Routing Rule Sets**, **Automatic Record Creation,** and **Service Level Agreements**. </br> To access and manage these three admin settings, go to **Settings** > **Service Management** in the Customer Service web application app.
-=======
 > With the latest release of Dynamics 365 Customer Service app, you can access and manage all admin settings from the Customer Service Hub sitemap except for **Routing Rule Sets**, **Automatic Record Creation,** and **Service Level Agreements**. </br> To access and manage these three admin settings, go to **Settings** > **Service Management** in the Customer Service web application app.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 
 ## Access Service Management

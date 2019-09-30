@@ -139,7 +139,7 @@ For each resource, the view takes the difference between a team member's booking
 When you have task assignments for a resource without bookings (a booking shortage), you can select the aggregate booking shortage and click **Extend booking**. From here, you can view the booking that is needed to address the resource’s shortage and their availability. 
  
 ## Time and expense
-This section provides information about the changes in time, expense, and approval in version 3 of PSA. As part of the Dynamics 365 for Project Service Automation solution, the **Time entry** feature has been refreshed to leverage the Unified Interface framework. This enables delivery of a consistent, uniform user interface that follows responsive design for optimal viewing on any screen size or device. 
+This section provides information about the changes in time, expense, and approval in version 3 of PSA. As part of the Dynamics 365 Project Service Automation solution, the **Time entry** feature has been refreshed to leverage the Unified Interface framework. This enables delivery of a consistent, uniform user interface that follows responsive design for optimal viewing on any screen size or device. 
 
 ### Landing page
 The non-extensible custom time entry experience has been deprecated in version 3. Instead, there is now an extensible and accessible native grid experience. You can access time entry functionality by using the sitemap on the left. With this change, you will no longer be able to enter time for one week at a time. Instead, you will need to create a time entry for each day in the grid. After a few time entries have been created, users can bulk create time entries with **Copy** function explained later in this topic. 

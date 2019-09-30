@@ -1,5 +1,5 @@
 ---
-title: "Set up RTV sub-statuses  (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Set up RTV sub-statuses  (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -34,7 +34,7 @@ When a product needs to be retuned to a vendor, a return to vendor (RTV) record 
 3.  Use the tooltips to help fill in your information, and then click **Save**.  
   
 ### See also  
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md) 
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md) 
  [Create a return to vendor](../field-service/create-return-vendor.md)   
  [Process a return](../field-service/process-return.md)
  [Create a price list](../field-service/create-price-list.md)   

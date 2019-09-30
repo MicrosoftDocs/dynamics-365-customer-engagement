@@ -160,11 +160,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
 ## Test the action call for customizing your display  
  You can call this action call by creating a toolbar button, and then attaching the action call to it. For the sake of brevity, we will use the Debugger hosted application to test the action call.  
   
-<<<<<<< HEAD
-1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to your Dynamics 365 Customer Engagement server.  
-=======
 1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to your Common Data Service platform server.  
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
   
 2. In the client application, start Debugger by clicking down arrow next to the settings menu in the top-right corner, and clicking **Debug**.  
   
@@ -186,13 +182,13 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
   
 -   Create two action calls for setting a custom theme: one for the *normal* mode and the other for the *high-contrast* mode. For example, while defining the color property of a XAML brush, use:  
   
-    -   One of the predefined colors as defined in the [Colors](https://msdn.microsoft.com/en-us/library/system.windows.media.colors\(v=vs.110\).aspx) class for the *normal* mode:  
+    -   One of the predefined colors as defined in the [Colors](https://msdn.microsoft.com/library/system.windows.media.colors\(v=vs.110\).aspx) class for the *normal* mode:  
   
         ```  
         <SolidColorBrush x:Key="WindowBackgroundStyle" Color="Yellow"/>  
         ```  
   
-    -   One of the system colors as defined in the [SystemColors](https://msdn.microsoft.com/en-us/library/system.windows.systemcolors.windowcolor\(v=vs.110\).aspx) class for the *high-contrast* mode:  
+    -   One of the system colors as defined in the [SystemColors](https://msdn.microsoft.com/library/system.windows.systemcolors.windowcolor\(v=vs.110\).aspx) class for the *high-contrast* mode:  
   
         ```  
         <SolidColorBrush x:Key="WindowBackgroundStyle" Color="{x:Static SystemColors.WindowColor}"/>  

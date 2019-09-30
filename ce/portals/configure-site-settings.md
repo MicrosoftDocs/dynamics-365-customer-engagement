@@ -27,13 +27,8 @@ A site setting is a configurable, named value that is used by website code to mo
 
 The sample portals that are provided with the installation of Dynamics 365 Portals contain several configurable site settings for various styles used to modify many visual elements within the site such as background style, text color, and layout width.
 You can manage the following types of site settings:
-<<<<<<< HEAD
-- **Global Portal settings**: These settings apply to all portals associated with the Dynamics 365 organization in which they are being added.
-- **Portal site settings**: These settings apply to specific portals (website records) that are associated with the Dynamics 365 organization in which they are being added.
-=======
 - **Global Portal settings**: These settings apply to all portals associated with the Common Data Service organization in which they are being added.
 - **Portal site settings**: These settings apply to specific portals (website records) that are associated with the Common Data Service organization in which they are being added.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 
 ## Manage portal site settings

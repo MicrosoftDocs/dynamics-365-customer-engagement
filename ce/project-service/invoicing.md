@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Invoicing in Microsoft Dynamics 365 for Project Service Automation (PSA) is useful, because it gives project managers a second level of approval before they create invoices for customers. The first level of approval is completed when the time and expense entries that project team members submit are approved.
+Invoicing in Microsoft Dynamics 365 Project Service Automation (PSA) is useful, because it gives project managers a second level of approval before they create invoices for customers. The first level of approval is completed when the time and expense entries that project team members submit are approved.
 
 PSA isn't designed to generate customer-facing invoices, for the following reasons:
 

@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
-title: "Azure AD B2C provider settings for portals in Dynamics 365 | MicrosoftDocs"
-=======
 title: "Azure AD B2C provider settings for Dynamics 365 Portals | MicrosoftDocs"
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 description: "Instructions to enable Azure AD B2C provider settings for portals."
 ms.custom: 
   - dyn365-portal
@@ -486,11 +482,7 @@ For a complete list of other CORS settings, see [CORS protocol support](cors-pro
 5. Select **Edit**.
 6. Select **Edit policy** > **Page UI customization** > **Unified sign-up or sign-in page**
 7. Set **Use custom page** to **Yes**.
-<<<<<<< HEAD
-8. Set **Custom page URI** to the URL of the [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Custom Page webpage created in Dynamics 365 in step 3 of this procedure. For example, `https://mydomain.com/azure-ad-b2c-sign-in`.
-=======
 8. Set **Custom page URI** to the URL of the [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Custom Page webpage created in step 3 of this procedure. For example, `https://mydomain.com/azure-ad-b2c-sign-in`.
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 9. Select **OK**.
 
 ## Claims mapping
@@ -503,11 +495,7 @@ When users sign in, either for the first time or subsequently, the federated ide
 
 ### Claims to support sign-up scenarios
 
-<<<<<<< HEAD
-When a new customer who does not exist in Dynamics 365 is provisioned, the inbound claims can be used to seed the new contact record that the portal will create. Common claims can include first and last name, email address, and phone number, but they are configurable. The following site setting is required:
-=======
 When a new customer who does not exist in Common Data Service is provisioned, the inbound claims can be used to seed the new contact record that the portal will create. Common claims can include first and last name, email address, and phone number, but they are configurable. The following site setting is required:
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 **Name**: Authentication/OpenIdConnect/[Federation-Name]/RegistrationClaimsMapping
 
@@ -522,11 +510,7 @@ For example:  firstname=<http://schemas.xmlsoap.org/ws/2005/05/identity/claims/g
 
 ### Claims to support sign-in scenarios
 
-<<<<<<< HEAD
-The data in Dynamics 365 and in the identity provider are not directly linked, so the data might get out of sync. The portal should have a list of claims that you want to accept from any sign-in event to update in Dynamics 365. These claims can be a subset of, or equal to, the claims coming in from a sign-in scenario. This must be configured separately from sign-in claims mapping, because you might not want to overwrite some key portal attributes. The following site setting is required:
-=======
 The data in Common Data Service and in the identity provider are not directly linked, so the data might get out of sync. The portal should have a list of claims that you want to accept from any sign-in event to update in Common Data Service. These claims can be a subset of, or equal to, the claims coming in from a sign-in scenario. This must be configured separately from sign-in claims mapping, because you might not want to overwrite some key portal attributes. The following site setting is required:
->>>>>>> 4c9cd9f49bfd32b1dacbbac975fffb89f4dfc869
 
 **Name**: Authentication/OpenIdConnect/[Federation-Name]/LoginClaimsMapping
 
