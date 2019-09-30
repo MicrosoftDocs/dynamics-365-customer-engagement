@@ -196,7 +196,7 @@
 #### [Configure and use custom channel](developer/configure-use-custom-channel.md)
 #### [Remove custom channel](developer/remove-custom-channel.md)
 ### [Preview: Extend event management to support more webinar providers](developer/extend-event-management.md)
-### Early access: Build an approval feature
+### Build an approval feature
 #### [Overview](developer/marketing-approvals-feature.md)
 #### [Build using Flow](developer/build-approval-feature-using-flow.md)
 ### Create a custom event website
