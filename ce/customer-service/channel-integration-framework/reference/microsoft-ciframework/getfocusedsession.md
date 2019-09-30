@@ -21,7 +21,7 @@ Returns the unique identifier of the session that is in focus, if it belongs to 
 
 ## Syntax
 
-Microsoft.CIFramework.getFocusedSession().then(successCallback, errorCallback);
+`Microsoft.CIFramework.getFocusedSession().then(successCallback, errorCallback);`
 
 ## Parameters
 

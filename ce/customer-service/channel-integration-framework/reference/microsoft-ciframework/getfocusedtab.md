@@ -21,7 +21,7 @@ Returns the focused tab's tabId in focused session, if the session belongs to th
 
 ## Syntax
 
-Microsoft.CIFramework.getFocusedTab().then(successCallback,errorCallback);
+`Microsoft.CIFramework.getFocusedTab().then(successCallback,errorCallback);`
 
 ## Parameters
 

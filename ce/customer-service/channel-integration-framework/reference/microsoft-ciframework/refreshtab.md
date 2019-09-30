@@ -1,12 +1,29 @@
+---
+title: "refreshTab (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
+description: ""
+keywords: ""
+ms.date: 09/30/2019
+ms.service:
+  - dynamics-365-cross-app
+ms.custom:
+  - "dyn365-a11y"
+  - "dyn365-developer"
+ms.topic: reference
+ms.assetid: D77DB8BB-0C75-4E60-945A-9AAFEC8F223A
+author: susikka
+ms.author: susikka
+manager: shujoshi
+---
+
 # refreshTab
 
 Refreshes the tab.
 
-### Syntax
+## Syntax
 
-Microsoft.CIFramework.refreshTab(tabId, correlationId).then(successCallback, errorCallback);
+`Microsoft.CIFramework.refreshTab(tabId, correlationId).then(successCallback, errorCallback);`
 
-**Parameters**
+## Parameters
 
 | **Name**        | **Type** | **Required** | **Description**                                                       |
 |-----------------|----------|--------------|-----------------------------------------------------------------------|
@@ -15,25 +32,18 @@ Microsoft.CIFramework.refreshTab(tabId, correlationId).then(successCallback, err
 | successCallback | Function | No           | A function to call when a record is retrieved.                        |
 | errorCallback   | Function | No           | A function to call when the operation fails.                          |
 
-**Return Value**
+## Return Value
 
 None
 
-**Example**
+## Example
 
+```javascript
 Microsoft.CIFramework.refreshTab(tabId, correlationId).then(
-
-function(result) {
-
-// perform operations
-
-},
-
-function(error) {
-
-return Promise.reject(error)
-
+    function(result) {
+        // perform operations
+    },
+    function(error) {
+        return Promise.reject(error)
 };
-
-# Notification API reference
-
+```
