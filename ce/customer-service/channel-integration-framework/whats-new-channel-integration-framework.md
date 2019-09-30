@@ -20,26 +20,26 @@ manager: shujoshi
 
 # What's new in Channel Integration Framework (CIF)
 
-## Channel Integration Framework version 2.0
+## What's new in Channel Integration Framework version 2.0
 
 > [!IMPORTANT]
 > All APIs released for Channel Integration Framework version 1.0 can be used with the latest version. The APIs for managing tabs and sessions are not supported on single session apps.
 
 The Channel Integration Framework (CIF) version 2.0, provides multiple enhancements over the version 1.0, particularly in terms of its ability to integrate with the latest multi-session agent experiences for customer service. Following are the key new features in the Channel Integration Framework Version 2.0 over the version 1.0:
 
-### Integration with the multi-session experiences: **
+### Integration with the multi-session experiences
 
 The Channel Integration Framework version 2.0 provides APIs to integrate with the multi-session experiences in the Omnichannel for customer service app. These APIs allow providers to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as and when needed. For more information, see Integration with multi-session experiences.
 
-### New modes and locations for the communication widget:**
+### New modes and locations for the communication widget
 
 Providers can now define experiences for the minimized mode of the communication widgets they build. Agents can manually change the mode of the control from docked to minimized. The same can be achieved programmatically as well. For more information, see New modes and locations for the communication widget.
 
-### Support for Multiple Providers:**
+### Support for Multiple Providers
 
 With Channel Integration Framework version 2.0, organizations can configure multiple providers in the Omnichannel for Customer Service app. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels (for example, live chat and telephony), where each of these sessions belong to different providers. For more information, see Support for Multiple Providers.
 
-## Channel Integration Framework version 1.0
+## What's new in Channel Integration Framework version 1.0
 
 This section provides the list of new features introduced for Dynamics 365 Channel Integration Framework (CIF) version 1.0.
 
