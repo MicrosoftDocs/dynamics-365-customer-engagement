@@ -3,27 +3,27 @@
   topicHref: /dynamics365/
   items:
   - name: "Customer Engagement (on-premises)"
-    tocHref: /dynamics365/customer-engagement/customer-engagement/on-premises/
-    topicHref: /dynamics365/customer-engagement/customer-engagement/on-premises/overview
+    tocHref: /dynamics365/customerengagement/on-premises/
+    topicHref: /dynamics365/customerengagement/on-premises/overview
     items:
     - name: "Basics Guide"
-      tocHref: /dynamics365/customer-engagement/customer-engagement/on-premises/basics/
-      topicHref: /dynamics365/customer-engagement/customer-engagement/on-premises/basics/basics-guide
+      tocHref: /dynamics365/customerengagement/on-premises/basics/
+      topicHref: /dynamics365/customerengagement/on-premises/basics/basics-guide
     - name: "Administrator Guide"
-      tocHref: /dynamics365/customer-engagement/customer-engagement/on-premises/admin/
-      topicHref: /dynamics365/customer-engagement/customer-engagement/on-premises/admin/overview
+      tocHref: /dynamics365/customerengagement/on-premises/admin/
+      topicHref: /dynamics365/customerengagement/on-premises/admin/overview
     - name: "Customization Guide"
-      tocHref: /dynamics365/customer-engagement/customer-engagement/on-premises/customize/
-      topicHref: /dynamics365/customer-engagement/customer-engagement/on-premises/customize/overview
+      tocHref: /dynamics365/customerengagement/on-premises/customize/
+      topicHref: /dynamics365/customerengagement/on-premises/customize/overview
     - name: "Reporting and Analytics Guide"
-      tocHref: /dynamics365/customer-engagement/customer-engagement/on-premises/analytics/
-      topicHref: /dynamics365/customer-engagement/customer-engagement/on-premises/analytics/reporting-analytics-with-dynamics-365
+      tocHref: /dynamics365/customerengagement/on-premises/analytics/
+      topicHref: /dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365
     - name: Developer Guide
-      tocHref: /dynamics365/customer-engagement/customer-engagement/on-premises/developer/
-      topicHref: /dynamics365/customer-engagement/customer-engagement/on-premises/developer/overview
+      tocHref: /dynamics365/customerengagement/on-premises/developer/
+      topicHref: /dynamics365/customerengagement/on-premises/developer/overview
     - name: Deploy and operate
-      tocHref: /dynamics365/customer-engagement/customer-engagement/on-premises/deploy/
-      topicHref: /dynamics365/customer-engagement/customer-engagement/on-premises/deploy/deploy-and-operate-dynamics-365-on-premises
+      tocHref: /dynamics365/customerengagement/on-premises/deploy/
+      topicHref: /dynamics365/customerengagement/on-premises/deploy/deploy-and-operate-dynamics-365-on-premises
   - name: Sales Enterprise
     tocHref: /dynamics365/customer-engagement/sales-enterprise/
     topicHref: /dynamics365/customer-engagement/sales-enterprise/overview
