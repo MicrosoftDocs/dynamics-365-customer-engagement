@@ -1,9 +1,12 @@
 ---
 title: "Overview of Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 Sales Professional."
+keywords: ""
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 ms.assetid: d55f5a5a-2a2f-4740-b1a4-babeff282fc9
 author: shubhadaj
@@ -18,6 +21,9 @@ Welcome to Dynamics 365 Sales Professional. If you don't need a full-fledged ent
 This offering, available online only and built on the new Unified Interface framework, contains a targeted set of sales capabilities to get your organization up and running quickly.
 
 It is designed from the ground up with accessibility in mind, and uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. For example, subgrids morph into lists for smaller screen sizes.
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-app-definition-sales](../includes/cc-app-definition-sales.md)]
 
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE2OJXb" frameborder="0" allowfullscreen=""></iframe></div>

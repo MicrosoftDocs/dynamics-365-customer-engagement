@@ -1,9 +1,9 @@
-# [Dynamics 365 Sales Help and Training](help-hub.md)
+# [Help resources for Dynamics 365 Sales (Enterprise)](help-hub.md)
 ## [Overview](../sales-enterprise/overview.md)
 ## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
 ## [What's new](../sales-enterprise/whats-new.md)
 ## Administrator & Sales Manager Guide
-### [Resources for administrators and sales managers](../sales-enterprise/admin-guide.md)
+### [Help resources for admins and sales managers](../sales-enterprise/admin-guide.md)
 ### Sales management
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
 #### [Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)
