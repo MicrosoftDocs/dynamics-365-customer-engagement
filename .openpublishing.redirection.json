@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/sales-enterprise/configure-forecast-definition.md",
+      "redirect_url": "configure-forcast",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales-enterprise/embedded-intelligence.md",
       "redirect_url": "/dynamics365/ai/sales/overview",
       "redirect_document_id": "false"
