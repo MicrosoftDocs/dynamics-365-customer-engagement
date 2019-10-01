@@ -46,4 +46,4 @@ The data that you track as recent actions are stored in an entity where it is pa
 
 ## See also
 
-[Journey](oc-customer-summary#preview-journey)
+[Journey](../agent/agent-oc/oc-customer-summary.md#preview-journey)
