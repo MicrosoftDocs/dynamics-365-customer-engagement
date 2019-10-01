@@ -1,6 +1,6 @@
 ---
-title: How to use new project management features in Dynamics 365 for Customer Engagement for Project Service (version 3.x)
-description: An English-language guide to new project management capabilities in Project Service Automation for Dynamics 365 for Customer Engagement
+title: How to use new project management features 
+description: An English-language guide to new project management capabilities
 author: kfend
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-This English-language document explains how to use new project management capabilities in Dynamics 365 for Customer Engagement for Project Service (version 3.x). 
+This English-language document explains how to use new project management capabilities in Dynamics 365 Project Service Automation version 3.x. 
 
  
 > [!div class="nextstepaction"]
