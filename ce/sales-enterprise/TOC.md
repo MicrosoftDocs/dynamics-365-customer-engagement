@@ -120,23 +120,4 @@
 ### Action Reference
 #### [RecalculatePrice Action](../sales-enterprise/developer/reference/recalculateprice-action.md)
 
-## Embedded intelligence Help
-### [Overview](../sales-enterprise/embedded-intelligence.md)
-### Administrator guide
-#### [Configure embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md)
-### User guide
-#### [Guide customer communications with relationship assistant](../sales-enterprise/relationship-assistant.md)
-#### [Stay updated with Action cards](../sales-enterprise/action-cards-reference.md)
-#### [View message interactions with email engagement](../sales-enterprise/email-engagement.md)
-#### [Display related emails with auto capture](../sales-enterprise/auto-capture.md)
-
-#### [Preview: Manage insight cards](../sales-enterprise/manage-custom-cards-flow.md)
-##### [Preview: Create insight cards](../sales-enterprise/create-insight-cards-flow.md)
-##### [Preview: Edit insight cards](../sales-enterprise/edit-insight-cards.md)
-##### [Preview: Optimize ranking of insight cards](../sales-enterprise/optimize-ranking-insight-cards.md)
-### [Create custom cards in Relationship assistant](../sales-enterprise/extend-relationship-assistant-card.md)
-#### [Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/sample-extend-relationship-assistant-card-type.md)
-
-### [Privacy notice](../sales-enterprise/privacy-notice-ee.md)
-
-# [Dynamics 365 Sales Insights](../sales-enterprise/dynamics365-ai-sales.md)
+# [Dynamics 365 Sales Insights](/dynamics365/ai/sales/overview)

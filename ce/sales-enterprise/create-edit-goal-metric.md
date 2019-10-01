@@ -171,5 +171,7 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
   
   
 ### See also  
+
  [Create or edit a goal](../sales-enterprise/create-edit-goal-sales.md)   
- [Progress Against Goals report](../basics/sales-insights-reports.md#BKMK_ProgressGoals)
+
+ [Progress Against Goals report](../customer-engagement/on-premises/basics/sales-insights-reports.md#BKMK_ProgressGoals)
