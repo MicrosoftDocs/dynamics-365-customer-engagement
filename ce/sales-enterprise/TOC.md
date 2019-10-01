@@ -15,7 +15,6 @@
 #### [Make price list optional](make-price-list-optional.md)
 #### [Enable or disable saving of business card image](retain-business-card-image-after-scanning.md)
 #### [Customize the business card scanner control](customize-business-card-scan-control.md)
-#### [Integrate Sample softphone dialer](sample-softphone-integration.md)
 
 ### Product management
 #### [Set up product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)
