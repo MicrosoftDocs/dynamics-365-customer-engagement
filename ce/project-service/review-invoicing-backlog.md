@@ -1,7 +1,7 @@
 ---
 
 title: Review the invoicing backlog on projects and project contracts
-description: This topic provides information about how to review time, expense, and product backlogs, and how to mark them as ready for invoicing in Microsoft Dynamics 365 for Project Service Auotmation (PSA).
+description: This topic provides information about how to review time, expense, and product backlogs, and how to mark them as ready for invoicing.
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-When a transaction is ready to have an invoice created and processed, the transaction should be marked **Ready to invoice**. This topic describes the types of transactions that can be created in Microsoft Dynamics 365 for Project Service Automation (PSA).
+When a transaction is ready to have an invoice created and processed, the transaction should be marked **Ready to invoice**. This topic describes the types of transactions that can be created.
 
 ## Review the time and material billing backlog
 

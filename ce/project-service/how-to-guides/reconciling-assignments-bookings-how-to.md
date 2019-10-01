@@ -1,6 +1,6 @@
 ---
-title: How to reconcile assignments and bookings in Dynamics 365 for Customer Engagement for Project Service (version 3.x)
-description: An English-language guide to assignment and booking capabilities in Project Service Automation for Dynamics 365 for Customer Engagement
+title: How to reconcile assignments and bookings 
+description: An English-language guide to assignment and booking capabilities.
 author: kfend
 manager: kfend
 ms.service: dynamics-365-customerservice

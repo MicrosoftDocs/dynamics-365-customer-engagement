@@ -1,28 +1,18 @@
 ---
-title: "Add multilanguage support for your agent applications | MicrosoftDocs"
-description: "Learn about adding multilanguage support for your agent applications. The multi-language support is available for all the components except for those that are surfaced through Customer Care Accelerator, which doesn’t support multi-language scenarios. This includes the hosted control tab names."
-ms.custom: 
-  - dyn365-USD
+title: "Add multi-language support for your agent applications | MicrosoftDocs"
+description: "Learn about adding multi-language support for your agent applications. The multi-language support is available for all the components except for those that are surfaced through Customer Care Accelerator, which doesn’t support multi-language scenarios. This includes the hosted control tab names."
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: f11820ab-d009-4737-ab46-56d4587881e1
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: 
+search.audienceType:
   - customizer
   - developer
-search.app: 
+search.app:
   - D365CE
   - D365USD
 ---
@@ -45,9 +35,9 @@ search.app:
   
 2. Save the file with the language identifier in the file name. For example, if you have Spanish resources, you can save the file with the name “TranslationResource.es.xml.”  
   
-3. Upload the file as a web resource to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps. Name the web resource so that you can identify the language of the string resources in it.  
+3. Upload the file as a web resource to the Common Data Service platform. Name the web resource so that you can identify the language of the string resources in it.  
   
-   1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+   1. Sign in to the Common Data Service platform.  
   
    2. Go to **Settings** > **Customizations** ([How do I get there?](http://go.microsoft.com/fwlink/p/?LinkId=525636))  
   
@@ -65,12 +55,12 @@ search.app:
   
    1. On the nav bar, choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
   
-   2. Click **Dynamics 365 for Customer Engagement apps Global Manager** under the **Name** column, or select the record, and click **Edit** on the command bar.  
+   2. Click **CRM Global Manager** under the **Name** column, or select the record, and click **Edit** on the command bar.  
   
       > [!NOTE]
-      > **Dynamics 365 for Customer Engagement apps Global Manager** is the name of the default **Global Manager** hosted control type in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. If you have a Global Manager hosted control with different name, select it instead.  
+      > **CRM apps Global Manager** is the name of the default **Global Manager** hosted control type in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. If you have a Global Manager hosted control with different name, select it instead.  
   
-   3. On the **Dynamics 365 for Customer Engagement apps Global Manager** page, under the **Language Services** area, click **+** to add a language module record.  
+   3. On the **CRM Global Manager** page, under the **Language Services** area, click **+** to add a language module record.  
   
    ![Add a language module](../unified-service-desk/media/usd-add-language-module.png "Add a language module")  
   
@@ -81,7 +71,7 @@ search.app:
    ![New language module](../unified-service-desk/media/usd-new-language-module.png "New language module")  
   
    > [!IMPORTANT]
-   >  If you use language services, you should always configure language services for your base [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps language. In this example, add an English language service as well. The base language translation file is always used if someone uses a language pack in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps that doesn’t have a translation file in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] language services.  
+   >  If you use language services, you should always configure language services for your base the Common Data Service platform language. In this example, add an English language service as well. The base language translation file is always used if someone uses a language pack in the Common Data Service platform that doesn’t have a translation file in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] language services.  
   
 5. Click **Save**.  
   

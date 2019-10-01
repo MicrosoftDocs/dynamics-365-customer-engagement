@@ -1,11 +1,11 @@
 ---
-title: "Enable maintenance mode with the Dynamics 365 for Customer Engagement portal | MicrosoftDocs"
+title: "Enable maintenance mode for a portal | MicrosoftDocs"
 description: "Learn how to enable maintenance mode with your portal."
 ms.date: 04/17/2019
 ms.service: crm-online
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+ 
+  
 ms.assetid: 1A2BBC0D-17B9-4343-A65D-923737B36E41
 author: sbmjais
 ms.author: shjais

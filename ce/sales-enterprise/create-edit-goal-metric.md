@@ -1,19 +1,14 @@
 ---
-title: "Define a goal metric (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Define how you want to measure your goals by using goal metrics in Dynamics 365 for Sales."
+title: "Define a goal metric (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Define how you want to measure your goals by using goal metrics in Dynamics 365 Sales."
 keywords: "goal, metric"
-ms.date: 04/12/2019
+ms.date: 10/01/2019
 ms.service: dynamics-365-sales
-ms.custom: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 2251e5a0-fb76-48fb-82ec-73fe6263e3bd
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
 
 # Define a goal metric (Sales & Sales Hub)
@@ -176,5 +171,7 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
   
   
 ### See also  
+
  [Create or edit a goal](../sales-enterprise/create-edit-goal-sales.md)   
- [Progress Against Goals report](../basics/sales-insights-reports.md#BKMK_ProgressGoals)
+
+ [Progress Against Goals report](../customer-engagement/on-premises/basics/sales-insights-reports.md#BKMK_ProgressGoals)

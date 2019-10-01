@@ -1,24 +1,19 @@
 ---
-title: "Manage tasks, appointments, email, or phone calls in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Track all your customer communications with activities in Dynamics 365 for Sales Professional."
-keywords: ""
-ms.date: 04/05/2019
+title: "Manage tasks, appointments, email, or phone calls in Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Track all your customer communications with activities in Dynamics 365 Sales Professional."
+ms.date: 10/01/2019
 ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 95388471-8414-4ac9-b990-36f038ca4919
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
-# Manage tasks, appointments, email, or phone calls in Dynamics 365 for Sales Professional
+# Manage tasks, appointments, email, or phone calls in Dynamics 365 Sales Professional
 
-Keep track of all your customer communications with activities in Dynamics 365 for Sales Professional. For example, you can send email, make phone calls, set up appointments, and assign yourself tasks as you work a sale. These actions are all considered types of activities.
+Keep track of all your customer communications with activities in Dynamics 365 Sales Professional. For example, you can send email, make phone calls, set up appointments, and assign yourself tasks as you work a sale. These actions are all considered types of activities.
 
 The system automatically time stamps every activity and shows who created it. You and other people on your team can scroll through the activities to see the history as you work with a customer.
 
@@ -94,5 +89,5 @@ you can mark the activity for that action as completed.
 
 ### See also
 
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)<br/>
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)<br/>
 [Manage your customers](manage-accounts-contacts.md)

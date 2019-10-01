@@ -1,0 +1,44 @@
+---
+title: "Find your administrator or support person (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+ms.custom: 
+ms.date: 09/15/2017
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+applies_to: 
+  - Dynamics 365 Customer Engagement (on-premises)
+ms.assetid: ffa6c917-3ad1-48ee-9d8f-428fa3f97215
+caps.latest.revision: 12
+author: mduelae
+ms.author: mkaur
+manager: kvivek
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
+---
+# Find your Customer Engagement (on-premises) administrator or support person 
+
+You may occasionally run across issues that require consultation with your Dynamics 365 Customer Engagement (on-premises) administrator. If you don’t know who your administrator is, you can use Advanced Find to find your administrator.  
+  
+1. Sign in to your Customer Engagement (on-premises) organization.  
+  
+2. On the command bar select the **Advanced Find** button.
+  
+3. On the Advanced Find page, in the **Look for** list, select **Users**.  
+  
+4. Point to **Select**, and then select **Security Roles** from the list.  
+  
+5. Under **Fields**, select **Names**.  
+  
+6. Enter **System Administrator** in the box that says **Enter Text**. At this point, your screen should look like this:  
+  
+   ![Advanced Find dialog box in Dynamics 365 Customer Engagement (on-premises)](../basics/media/find-admnistrator-advanced-find-complete.png "Advanced Find dialog box in Dynamics 365 Customer Engagement (on-premises)")  
+  
+7. Choose the **Results** button on the ribbon.  
+  
+   You should see a list of one or more system administrators.  
+  
+

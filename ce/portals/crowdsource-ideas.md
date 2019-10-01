@@ -1,5 +1,5 @@
 ---
-title: "Crowdsource ideas on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Crowdsource ideas on a portal | MicrosoftDocs"
 description: "Learn how to manage Forum Ideas, Idea Comments, and Idea Votes on a portal."
 ms.custom: 
   - dyn365-portal
@@ -22,11 +22,12 @@ search.app:
   - D365Portals
 ---
 # Crowdsource ideas
+
 Learn how to manage Forum Ideas, Idea Comments, and Idea Votes.
 
-## Manage idea forums in Dynamics 365 for Customer Engagement
+## Manage idea forums
 
-[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users can manage Idea Forum records under the Community tab, provided the portal customizations have been imported into your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.
+Users can manage Idea Forum records under the Community tab, provided the portal customizations have been imported into your Common Data Service environment.
 
 > [!NOTE]
 > - The way in which many of the content/display-oriented attributes are rendered is controlled by the views created by the portal developer.
@@ -54,9 +55,9 @@ The table below explains the standard attributes and relationships of the Idea F
 | Moderators             | Relationship specifying the web roles that have permission to moderate the idea forum. There is currently no front-side moderation functionality built into the idea portal application.|
 | | |
 
-## Manage ideas in Dynamics 365 for Customer Engagement
+## Manage ideas in a portal
 
-For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, provided the portal customizations have been imported into your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, Idea records can be managed under the Community tab.
+For users, provided the portal customizations have been imported into your organization, Idea records can be managed under the Community tab.
 
 > [!NOTE]
 > If you create an idea, the idea will get one vote automatically on your behalf.
@@ -112,7 +113,7 @@ For example, say you want to enable voting for New, Accepted, and Rejected statu
 
 To get the status reason values:
 
-1.	Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1.	Sign in to Dynamics 365 Portals.
 
 2.	Go to **Settings** > **Customization** > **Customize the System**.
 
@@ -126,14 +127,14 @@ To get the status reason values:
 
 ### Enable autocomplete for ideas
 
-While creating a new idea, there might be a scenario where a similar idea already exists in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. As an administrator, you can configure your portal to display a list of similar ideas when a portal user tries to create a new idea. This avoids creation of duplicate ideas in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. To enable a portal to display a list of similar ideas when a new idea is being created, you must create the `Ideas/EnableAutoComplete` site setting and set its value to **True**.
+While creating a new idea, there might be a scenario where a similar idea already exists. As an administrator, you can configure your portal to display a list of similar ideas when a portal user tries to create a new idea. This avoids creation of duplicate ideas. To enable a portal to display a list of similar ideas when a new idea is being created, you must create the `Ideas/EnableAutoComplete` site setting and set its value to **True**.
 
 > [!div class=mx-imgBorder]
 > ![Autocomplete ideas](media/idea-autocomplete.png "Autocomplete ideas")
 
-## Manage idea comments in Dynamics 365 for Customer Engagement
+## Manage idea comments
 
-For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, provided the portal customizations have been imported into your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, Idea Comment records can be managed under the Community tab.
+For users, provided the portal customizations have been imported into your Common Data Service environment, Idea Comment records can be managed under the Community tab.
 
 ## Idea comment attributes and relationships
 
@@ -152,9 +153,9 @@ The table below explains the standard attributes and relationships of the Idea C
 |    Posted On     |              The date and time that the comment was created.              |
 |                  |                                                                           |
 
-## Manage idea votes in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
+## Manage idea votes
 
-For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, provided the portal customizations have been imported into your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, Idea Vote records can be managed under the Community tab.
+For users, provided the portal customizations have been imported into your Common Data Service environment, Idea Vote records can be managed under the Community tab.
 
 ## Idea vote attributes and relationships
 

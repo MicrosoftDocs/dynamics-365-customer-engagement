@@ -1,5 +1,5 @@
 ---
-title: "Set up customer agreements (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Set up customer agreements (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 08/15/2019
@@ -10,8 +10,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 author: FieldServiceDave
 ms.assetid: 5a02d87a-56f4-47e8-ab2d-5d816e60dc8a
 caps.latest.revision: 21
@@ -68,7 +66,7 @@ Doing so will dictate the **Agreement Number** when a new agreement is created.
 
 ## Scenario 1: Auto generate work orders for asset maintenance
 
-An organization must perform monthly maintenance on a piece of equipment they installed at a customer's location for the next 2 years. They want to use Dynamics 365 for Field Service to automatically generate the maintenance jobs in the middle of each month, with *some* flexibility. They want dispatchers to schedule the monthly maintenance jobs to the best and most appropriate field technicians and bill the customer for completed work at an agreed upon price.   
+An organization must perform monthly maintenance on a piece of equipment they installed at a customer's location for the next 2 years. They want to use Dynamics 365 Field Service to automatically generate the maintenance jobs in the middle of each month, with *some* flexibility. They want dispatchers to schedule the monthly maintenance jobs to the best and most appropriate field technicians and bill the customer for completed work at an agreed upon price.   
 
 We will use agreements - along with customer assets, incident types, and price lists - to configure this scenario. 
 
@@ -349,7 +347,7 @@ For more information, visit our [topic on entitlements](work-order-entitlements.
 - If **Auto Generate Work Order** is set to **No** but **Auto Generate Booking** is set to **Yes**, then the booking will automatically be created when the work order is manually generated from the booking date. 
 - An agreement is intended to be executed at a single location represented by the service account. Work at multiple locations should be configured with multiple agreements.
 - In scenarios where you want to use agreements solely for invoice generation and not for work order generation, consider using the quote entity as part of the Field Service solution, which has similar capabilities. 
-- Agreements work seamlessly with the Dynamics 365 for Sales Lead > Opportunity > Quote > Order process. This is achieved by:  
+- Agreements work seamlessly with the Dynamics 365 Sales Lead > Opportunity > Quote > Order process. This is achieved by:  
   - Categorizing a lead as a service-maintenance lead
   - Adding opportunity lines with service-based lines
   - Creating quote lines as service-based lines and adding a quote booking setup  

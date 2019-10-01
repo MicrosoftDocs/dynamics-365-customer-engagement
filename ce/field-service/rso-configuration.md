@@ -164,7 +164,7 @@ If you configure your timer and filter as shown here, RSO will run every 30 minu
 
 You can define what RSO optimizes, including resources, requirements, or bookings.
 
-Scope is the RSO mechanism for defining the relevant inputs: resource requirements, resources, and existing resource bookings. It also includes the timeframes to be considered for optimization. Extensible scope leverages Dynamics 365 for Customer Engagement entity views, providing an easy and flexible way to define what to optimize (resource requirements, resources, and existing resource bookings).
+Scope is the RSO mechanism for defining the relevant inputs: resource requirements, resources, and existing resource bookings. It also includes the timeframes to be considered for optimization. Extensible scope leverages Dynamics 365 entity views, providing an easy and flexible way to define what to optimize (resource requirements, resources, and existing resource bookings).
 
 > [!IMPORTANT]
 > Scopes should be as small as possible. RSO will be quicker and more effective if optimization requests contain few resources, requirements, bookings, and shorter range durations. Usually companies already have partitions that could be used for RSO; for instance: 
@@ -199,7 +199,7 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
 3. If you select booking view, you can set it to **Now or After**. For example,
     maybe you want to optimize bookings for the next 5 days, from 2 hours on
     (while excluding bookings within the next 2 hours and bookings in the past).
-    The current, out-of-the-box Dynamics 365 for Customer Engagement entity view filter doesn’t support
+    The current, out-of-the-box Dynamics 365 entity view filter doesn’t support
     this Now or After condition; RSO enabled this additional setting on top of
     whatever filter conditions are defined for that booking view.
     

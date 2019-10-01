@@ -1,0 +1,42 @@
+### YamlMime:Hub
+
+title: Microsoft Dynamics 365 Sales documentation # < 60 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | office | sql | windows | visual-studio | xamarin
+brand: dynamics
+
+metadata:
+  title: Microsoft Dynamics 365 Sales documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn how to deploy, customize, manage and use Microsoft Dynamics 365 Sales services and applications. Get documentation, sample code, tutorials, and more. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: dynamics-365-crossapp #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page # Required
+  author: buck1ey #Required; your GitHub user alias, with correct capitalization.
+  ms.author: buckg #Required; microsoft alias of author; optional team alias.
+  ms.date: 10/01/2019 #Required; mm/dd/yyyy format.
+  hide_bc: false
+
+# productDirectory section (optional)
+productDirectory:
+  items:
+    # Card
+    - title: Dynamics 365 Sales Enterprise
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: /dynamics365/images/Sales_color.svg
+      links:
+        - url: https://docs.microsoft.com/dynamics365/customer-engagement/sales-enterprise/help-hub
+          text: Documentation
+        - url: https://docs.microsoft.com/learn/browse/?resource_type=learning%20path&products=dynamics-sales
+          text: Learn Dynamics 365 Sales
+    - title: Dynamics 365 Sales Professional
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: /dynamics365/images/Sales_color.svg
+      links:
+        - url: https://docs.microsoft.com/dynamics365/customer-engagement/sales-professional/help-hub
+          text: Documentation
+        - url: https://docs.microsoft.com/learn/browse/?resource_type=learning%20path&products=dynamics-sales&term=sales%20professional
+          text: Learn Dynamics 365 Sales Professional
+    # Card
+    - title: Dynamics 365 Sales Insights
+      imageSrc: /dynamics365/images/SalesInsights_color.svg
+      links:
+        - url: https://docs.microsoft.com/dynamics365/ai/sales/overview
+          text: Documentation

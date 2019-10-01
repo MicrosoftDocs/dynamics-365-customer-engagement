@@ -1,6 +1,6 @@
 ---
 title: Quotes and quote lines 
-description: This topic provides information about quotes and quote lines in Dynamics 365 for Project Service Automation (PSA).
+description: This topic provides information about quotes and quote lines.
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-In Microsoft Dynamics 365 for Project Service Automation (PSA), there are two types of quotes: project quotes and sales quotes. The two types differ in the following ways:
+In Dynamics 365 Project Service Automation, there are two types of quotes: project quotes and sales quotes. The two types differ in the following ways:
 
 - On a sales quote, there is only one grid for line items. On a project quote, there are two grids for line items: one for project lines and one for product lines.
 - A sales quote supports activation and revisions. A project quote doesn’t support those processes.
@@ -38,7 +38,7 @@ This topic will focus on the details of project quotes.
 
 A project quote in PSA can have multiple line items or quote lines. In fact, a project quote has two grids for line items. One grid is for project-based lines that allow for detailed estimations. The other grid is for product-based lines that use a simple unit price and quantity-based approach.
 
-- **Project-based** – The amount (quoted value) is determined after you estimate how much work is required. You can estimate work at a high level, or you can estimate it directly as line details below each quote line. Finally, you can estimate work based on ground-up estimates, by using a project and project plan. Project-based quote lines are found only in project-based quotes that are created by using PSA. This type of quote line is a customized form of the write-in quote lines that are available in Microsoft Dynamics 365 for Sales.
+- **Project-based** – The amount (quoted value) is determined after you estimate how much work is required. You can estimate work at a high level, or you can estimate it directly as line details below each quote line. Finally, you can estimate work based on ground-up estimates, by using a project and project plan. Project-based quote lines are found only in project-based quotes that are created by using Project Service Automation. This type of quote line is a customized form of the write-in quote lines that are available in Microsoft Dynamics 365 Sales.
 - **Product-based** – The amount (quoted value) is determined based on the quantity of units that is sold and the product's unit sales price. The product on a product-based line can come from a product catalog in Sales, or it can be a product that you define. This type of quote line is also available on project-based quotes that are created by using PSA.
 
 The amount on a quote is the total across the product-based lines and the project-based lines.

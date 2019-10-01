@@ -1,14 +1,14 @@
 ---
 title: "Basic operations on the Customer Journey using the API| Microsoft Docs" 
-description: The Customer Journey API enables programmatic interaction with certain segmentation features of Dynamics 365 for Marketing app.
+description: The Customer Journey API enables programmatic interaction with certain segmentation features of Dynamics 365 Marketing app.
 ms.custom:
 ms.date: 04/03/2019
 ms.reviewer: ""
 ms.service: "D365CE"
 ms.topic: "article"
-author: "nkrb" # GitHub ID
-ms.author: "nabuthuk" # MSFT alias of Microsoft employees only
-manager: "kvivek" # MSFT alias of manager or PM counterpart
+ms.author: nabuthuk
+author: Nkrb
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -17,15 +17,15 @@ search.app:
 ---
 # Basic operations on Customer Journey using the API
 
-As you engage potential customers, they start by discovering your product, evaluating whether it meets their needs, looking for a good offer, and finally making a purchase. We call this process the *customer journey*. Use customer journeys to create a model that helps you guide the members of a selected marketing segment through this process by using automated messaging, activity generation, interactive decision points, and more. More information: [Create Customer Journey](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/customer-journeys-create-automated-campaigns).
+As you engage potential customers, they start by discovering your product, evaluating whether it meets their needs, looking for a good offer, and finally making a purchase. We call this process the *customer journey*. Use customer journeys to create a model that helps you guide the members of a selected marketing segment through this process by using automated messaging, activity generation, interactive decision points, and more. More information: [Create Customer Journey](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/customer-journeys-create-automated-campaigns).
 
 The Customer Journey API enables programmatic interaction with customer journey records including publishing and validation.
-The API leverages the standard Dynamics 365 API for manipulating entities or messages. More information: [Dynamics 365 Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api).
+The API leverages the standard Dynamics 365 API for manipulating entities or messages. More information: [Dynamics 365 Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api).
 
 When you create a customer journey, the properties will be stored in the `msdyncrm_customerjourney` entity. You can browse the entity metadata information using `@odata.context`in the `GET` response.
 
 > [!NOTE]
-> Before you perform operations, you should install the [Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup). 
+> Before you perform operations, you should install the [Dynamics 365 Marketing app](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup). 
 
 This topic demonstrates how to perform operations on the `msdyncrm_customerjourney` entity. The `msdyncrm_name` field is the only required field to create a simple customer journey. The fields that are used in this topic to create a customer journey are shown in the following table.
 
@@ -40,7 +40,7 @@ This topic demonstrates how to perform operations on the `msdyncrm_customerjourn
 |Workflow Definition|msdyncrm_workflowdefinition|The customer journey design definition. More information: [Customer Journey workflow definition](customer-journey-workflow-definition.md).|
 |Customer Journey Designer State|msdyncrm_customerjourneydesignerstate|This is a hidden field, used by the customer journey designer to persist its internal state. The field should be copied if you are creating a copy of the `msdyncrm_workflowdefinition` field from another customer journey or customer journey template record.|
 |Time Zone|msdyncrm_customerjourneytimezone|Effective time zone for the customer journey.|
-|Content Settings|msdyncrm_contentsettingsId|The ID of associated [Content Settings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/dynamic-email-content). Use it to reference a record from the `msdyncrm_contentsettingss` record set.|
+|Content Settings|msdyncrm_contentsettingsId|The ID of associated [Content Settings](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/dynamic-email-content). Use it to reference a record from the `msdyncrm_contentsettingss` record set.|
 |End Date and Time|msdyncrm_enddatetime|Date/time value in `ISO 8601` UTC format.|
 |Start Date and Time|msdyncrm_startdatetime|Date/time value in `ISO 8601` UTC format.|
 |Is Recurring|msdyncrm_isrecurring|A Boolean value.|
@@ -51,7 +51,7 @@ This topic demonstrates how to perform operations on the `msdyncrm_customerjourn
 > [!NOTE]
 > The `statuscode` and `statecode` fields define the state of the customer journey. Changing their values can result in `Publishing` or `Stopping` of customer journey workflow. If you wish to `go live` save the record in `Going Live` state (statuscode = 192350006). To stop a customer journey record, save the Live record in `Stopping` state (statuscode = 192350007).
 
-Use the Postman tool to test the operations. More information: [Use Postman With Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/use-postman-perform-operations).
+Use the Postman tool to test the operations. More information: [Use Postman With Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/webapi/use-postman-perform-operations).
 
 ## Create, retrieve, update and delete operations
 
@@ -186,5 +186,5 @@ The following table shows the schema of objects contained within the `ActivityVa
 
 [Basic operations on Customer Journey using C#](extend-customer-journey-using-code.md)<br/>
 [Customer journey workflow definition](customer-journey-workflow-definition.md)<br/>
-[Use Customer Journey to create automated campaigns](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/customer-journeys-create-automated-campaigns)<br/>
-[Create Custom Journeys](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/create-simple-customer-journey)
+[Use Customer Journey to create automated campaigns](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/customer-journeys-create-automated-campaigns)<br/>
+[Create Custom Journeys](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/create-simple-customer-journey)

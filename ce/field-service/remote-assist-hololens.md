@@ -1,5 +1,5 @@
 ---
-title: "Collaborate in mixed reality with Field Service, Remote Assist, and HoloLens | MicrosoftDocs"
+title: "Collaborate in mixed reality with Field Service, Dynamics 365 Remote Assist, and HoloLens | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
 ms.date: 9/25/2018
 ms.reviewer: 
@@ -19,11 +19,11 @@ search.app:
 ---
 
 
-# Collaborate in mixed reality with Field Service, Remote Assist, and HoloLens
+# Collaborate in mixed reality with Field Service, Dynamics 365 Remote Assist, and HoloLens
 
-Empower field technicians to solve problems faster by pairing the Field Service business application with the Dynamics 365 for Customer Engagement Remote Assist mixed reality app. This allows field technicians to view their field service bookings from Remote Assist. 
+Empower field technicians to solve problems faster by pairing the Field Service business application with the Dynamics 365 Remote Assist mixed reality app. This allows field technicians to view their field service bookings from Dynamics 365 Remote Assist. 
 
-With heads-up, hands-free video calling on Microsoft HoloLens, technicians using Remote Assist are able to collaborate with remote experts on a computer or a mobile device to troubleshoot issues in context. In the photograph, collaboration using Teams is displayed in the technician’s field of view on the HoloLens as the technician performs work on a piece of equipment. Either party in the video call can take advantage of holographic annotations or file sharing.
+With heads-up, hands-free video calling on Microsoft HoloLens, technicians using Dynamics 365 Remote Assist are able to collaborate with remote experts on a computer or a mobile device to troubleshoot issues in context. In the photograph, collaboration using Teams is displayed in the technician’s field of view on the HoloLens as the technician performs work on a piece of equipment. Either party in the video call can take advantage of holographic annotations or file sharing.
 
 ![skype collaboration with hololens](media/remote-assist-skype-collaboration.png) 
 
@@ -31,11 +31,11 @@ Additionally, product documentation with annotations is displayed in the technic
 
 ![product documentation with hololens](media/remote-assist-product-documentation.jpg) 
 
-To learn more about using the Field Service application with Remote Assist, see the [Remote Assist User Guide](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/user-guide#use-dynamics-365-for-field-service-from-remote-assist).
+To learn more about using the Field Service application with Dynamics 365 Remote Assist, see the [Dynamics 365 Remote Assist User Guide](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/user-guide#use-dynamics-365-for-field-service-from-remote-assist).
 
 ### See also
-[Buy and deploy Remote Assist](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/licensing/buy-and-deploy)
+[Buy and deploy Dynamics 365 Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/licensing/buy-and-deploy)
 
-[Remote Assist FAQ](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/remote-assist/faq)
+[Dynamics 365 Remote Assist FAQ](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/faq)
 
-[Remote Assist User Guide](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/remote-assist/user-guide/)
+[Dynamics 365 Remote Assist User Guide](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/user-guide/)

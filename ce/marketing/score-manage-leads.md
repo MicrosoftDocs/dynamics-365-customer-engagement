@@ -1,14 +1,12 @@
 ---
-title: "Create lead scoring models (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "How to set up automatic scoring rules and identify sales-ready leads in Dynamics 365 for Marketing"
+title: "Create lead scoring models (Dynamics 365 Marketing) | Microsoft Docs "
+description: "How to set up automatic scoring rules and identify sales-ready leads in Dynamics 365 Marketing"
 keywords: lead; lead-scoring rule; grade; qualify; sales ready
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d9a600e6-0c1c-48ac-b5dc-8b80c74e9755
 author: kamaybac
 ms.author: kamaybac
@@ -26,19 +24,19 @@ search.app:
 
 # Design lead-scoring models
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/ae6596f2-4df4-420e-9635-df776e4e5398" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/ae6596f2-4df4-420e-9635-df776e4e5398" frameborder="0" allowfullscreen=""></iframe></div>
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can calculate a score for each lead based on demographic details, firmographic details, and actions taken by the associated contact (or for account-based leads, contacts belonging to the associated account). Scorable interactions include, for example: opening an email, submitting a landing page, visiting your website, or attending an event.
+Dynamics 365 Marketing can calculate a score for each lead based on demographic details, firmographic details, and actions taken by the associated contact (or for account-based leads, contacts belonging to the associated account). Scorable interactions include, for example: opening an email, submitting a landing page, visiting your website, or attending an event.
 
-Each scoring model includes a sales-ready threshold. When a lead's score passes this threshold, it gets marked as sales ready, which can trigger other events within [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], including advancing the lead through its business process and alerting tele prospectors or salespeople to pick it up.
+Each scoring model includes a sales-ready threshold. When a lead's score passes this threshold, it gets marked as sales ready, which can trigger other events within Dynamics 365, including advancing the lead through its business process and alerting tele prospectors or salespeople to pick it up.
 
 > [!IMPORTANT]
-> Automatic lead scoring only works for leads that are associated with a contact or account. Scoring fails for leads that don't have a contact or account associated with them. Also, segments in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can only include contacts, not leads or accounts, which means that you can only address marketing emails to contacts.
+> Automatic lead scoring only works for leads that are associated with a contact or account. Scoring fails for leads that don't have a contact or account associated with them. Also, segments in Dynamics 365 Marketing can only include contacts, not leads or accounts, which means that you can only address marketing emails to contacts.
 > 
 > Your landing pages will typically either create a lead/contact pair when they create a new contact, or associate new leads with existing contacts when they're available. But when you create a lead manually, you must also associate it with a contact manually to enable lead scoring.
 
 > [!IMPORTANT]
-> Automatic lead scoring can introduce data-privacy issues that are regulated by laws such as the GDPR. It is your organization's responsibility to ensure that it is operating in full compliance with all relevant data-privacy regulations when you use lead scoring and all other features of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Data protection and the GDPR](gdpr.md)
+> Automatic lead scoring can introduce data-privacy issues that are regulated by laws such as the GDPR. It is your organization's responsibility to ensure that it is operating in full compliance with all relevant data-privacy regulations when you use lead scoring and all other features of Dynamics 365 Marketing. More information: [Data protection and the GDPR](gdpr.md)
 
 ## Create, view, and manage your lead-scoring models
 
@@ -48,7 +46,7 @@ A typical lead-scoring model would increase a lead's score slightly in response 
 
 You can create as many scoring models as you want. If you have more than one model, all leads will be scored according to each model and you'll be able to see the score and grade for each of them.
 
-To view, edit, and create lead-scoring models, go to **Marketing** &gt; **Lead management** &gt; **Lead scoring models**. This opens a standard list view, where you can create, delete, search, sort, or filter items in the list. Select any item in the list to open it, or select **New** to create a new one.
+To view, edit, and create lead-scoring models, go to **Marketing** > **Lead management** > **Lead scoring models**. This opens a standard list view, where you can create, delete, search, sort, or filter items in the list. Select any item in the list to open it, or select **New** to create a new one.
 
 ![The lead-scoring model designer](media/lead-score-designer.png "The lead-scoring model designer")
 
@@ -68,7 +66,7 @@ The first thing you should do when setting up a new lead-scoring model is to giv
     - Leads associated with both a contact and an account are treated as contact-based leads.
 1. Select **Save** to save your settings.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Account-based marketing](account-based-marketing.md)
+More information: [Account-based marketing](account-based-marketing.md)
 
 ### Set up a condition
 
@@ -88,7 +86,7 @@ The logic for the condition is contained in the child tile(s). Choose a child co
 Set up the logic for a condition tile by making the following settings:
 
 - **Display Name**: Shows the name for the tile, as shown on the canvas.
-- **Entity**: Choose a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] entity to monitor or check for the condition. For example, choose **EmailClicked** to look for records where a contact has clicked a link in an email.
+- **Entity**: Choose a Dynamics 365 entity to monitor or check for the condition. For example, choose **EmailClicked** to look for records where a contact has clicked a link in an email.
 - **Frequency**: Choose how often the condition should be triggered. Choose **Each** to score on each occurrence (such as to increase the score on each email click). Choose **At least** to score just once (such as to increase the score on the first email click, but ignore subsequent ones).
 - **Date Range**: Enter a date before which scorable events won't be counted. For example, set this to a year to ignore all email interactions that occurred more than a year ago. This can result in scores going down over time as interactions age.
 - **New Expression**: Select this button to add a new expression to the condition. The additional expression further tests the condition based on stored data. For example, you could add an expression for "City = New York", which would modify the condition so that only email clicks made by contacts in New York City would trigger the condition. You can add as many extra expressions as you like to create complex conditions.

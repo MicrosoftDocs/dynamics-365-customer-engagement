@@ -1,5 +1,5 @@
 ---
-title: "View product inventory (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "View product inventory (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -10,8 +10,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 author: krbjoran
 ms.assetid: 48d6f335-4fb7-4a08-be40-0633f32db23b
 caps.latest.revision: 13
@@ -44,7 +42,7 @@ View product inventory in Dyanmics 365 for Field Service to get a snapshot of th
     - **Quantity On Order** represents how many units of that product are currently in the purchasing process, but have not yet been received.  
   
 ### See also  
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Configure and set up customer assets](../field-service/configure-set-up-customer-assets.md)   
  [Create a purchase order](../field-service/create-purchase-order.md)   
  [Create a warehouse](../field-service/create-warehouse.md)   

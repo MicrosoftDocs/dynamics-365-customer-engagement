@@ -1,22 +1,20 @@
 ---
-title: "Documentation resources for Dynamics 365 for Sales Professional| Microsoft Docs"
-description: "A starting point for browsing help content for Dynamics 365 for Sales Professional."
+title: "Help resources for Dynamics 365 Sales Professional| Microsoft Docs"
+description: "A starting point for browsing help content for Dynamics 365 Sales Professional."
 keywords: "sales;help"
-ms.date: 04/05/2019
-ms.service: dynamics-365-sales
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: a37688b5-914c-49b7-8360-0c4676465079
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
-# Sales Professional Help & Training
+# Help resources for Dynamics 365 Sales Professional
 
 <table>
 
@@ -24,7 +22,7 @@ ms.custom: dyn365-sales
 
 <h2>Get started</h2>
 <ul>
-<li><a href="sales-professional-overview.md" data-raw-source="[Dynamics 365 for Sales Professional Overview](sales-professional-overview.md)">Dynamics 365 for Sales Professional Overview</a></li>
+<li><a href="sales-professional-overview.md" data-raw-source="[Dynamics 365 Sales Professional Overview](sales-professional-overview.md)">Dynamics 365 Sales Professional Overview</a></li>
 <li><a href="whats-new.md" data-raw-source="[What's new](whats-new.md)">What's new</a></li>
 <li><a href="learn-basics-sales-professional.md" data-raw-source="[Learn the basics](learn-basics-sales-professional.md)">Learn the basics</a></li>
 <li><a href="manage-accounts-contacts.md" data-raw-source="[Manager your customers](manage-accounts-contacts.md)">Manager your customers</a></li>
@@ -56,9 +54,9 @@ ms.custom: dyn365-sales
 </td><td>
 <h2>Microsoft Learn resources</h2>
 <ul?>
-<li><a href="https://docs.microsoft.com/en-us/learn/modules/manage-leads-dynamics-365-sales/" data-raw-source="[Manage leads with Dynamics 365 for Sales Professional](https://docs.microsoft.com/en-us/learn/modules/manage-leads-dynamics-365-sales/)">Manage leads with Dynamics 365 for Sales Professional</a></li>
-<li><a href="https://docs.microsoft.com/en-us/learn/modules/manage-opportunities-dynamics-365-sales/" data-raw-source="[Manage opportunities with Dynamics 365 for Sales Professional](https://docs.microsoft.com/en-us/learn/modules/manage-opportunities-dynamics-365-sales/)">Manage opportunities with Dynamics 365 for Sales Professional</a></li>
-<li><a href="https://docs.microsoft.com/en-us/learn/modules/process-sales-orders-dynamics-365-sales/" data-raw-source="[Process sales orders with Dynamics 365 for Sales Professional](https://docs.microsoft.com/en-us/learn/modules/process-sales-orders-dynamics-365-sales/)">Process sales orders with Dynamics 365 for Sales Professional</a></li>
+<li><a href="https://docs.microsoft.com/learn/modules/manage-leads-dynamics-365-sales/" data-raw-source="[Manage leads with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/manage-leads-dynamics-365-sales/)">Manage leads with Dynamics 365 Sales Professional</a></li>
+<li><a href="https://docs.microsoft.com/learn/modules/manage-opportunities-dynamics-365-sales/" data-raw-source="[Manage opportunities with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/manage-opportunities-dynamics-365-sales/)">Manage opportunities with Dynamics 365 Sales Professional</a></li>
+<li><a href="https://docs.microsoft.com/learn/modules/process-sales-orders-dynamics-365-sales/" data-raw-source="[Process sales orders with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/process-sales-orders-dynamics-365-sales/)">Process sales orders with Dynamics 365 Sales Professional</a></li>
 </ul>
 
 </td></tr>
@@ -86,7 +84,7 @@ ms.custom: dyn365-sales
 <li><a href="customize-forms.md" data-raw-source="[Customize forms](customize-forms.md)">Customize forms</a></li>
 <li><a href="customize-views.md" data-raw-source="[Customize views](customize-views.md)">Customize views</a></li>
 <li><a href="customize-business-process-flows.md" data-raw-source="[Customize business process flows](customize-business-process-flows.md)">Customize business process flows</a></li>
-<li><a href="manage-app.md" data-raw-source="[Customize the Dynamics 365 for Sales Professional app](manage.app.md)">Customize the Dynamics 365 for Sales Professional app</a></li>
+<li><a href="manage-app.md" data-raw-source="[Customize the Dynamics 365 Sales Professional app](manage.app.md)">Customize the Dynamics 365 Sales Professional app</a></li>
 </td></tr>
 </ul>
 </table>

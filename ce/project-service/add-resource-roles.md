@@ -1,5 +1,5 @@
 ---
-title: Add resource roles (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Add resource roles
 description: How to assign a role to Project Service resources
 author: rumant
 manager: kfend

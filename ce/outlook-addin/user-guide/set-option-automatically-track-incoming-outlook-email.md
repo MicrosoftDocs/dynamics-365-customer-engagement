@@ -8,8 +8,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps 
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -43,11 +43,11 @@ When you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-
   
 3. To specify whether to track all email messages or only certain types, in the **Select the email messages to track in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]** section, in the **Track** list, select one of the following options:  
   
-   - **All email messages**. Tracks all email messages (sent and received) related to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] email messages. If you select this option, Dynamics 365 for Customer Engagement apps will track junk mail as well as business conversations, so choose this option carefully.  
+   - **All email messages**. Tracks all email messages (sent and received) related to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] email messages. If you select this option, Dynamics 365 apps will track junk mail as well as business conversations, so choose this option carefully.  
   
    - **Email messages in response to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] email**. Only replies to or forwards of email messages that have already been tracked will be saved as email activities. This is the most common option.  
   
-   - **Email messages from Dynamics 365 for Customer Engagement apps Leads, Contacts, and Accounts**. Tracks email messages only if they originate from someone with a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] lead, contact, or account record.  
+   - **Email messages from Dynamics 365 apps Leads, Contacts, and Accounts**. Tracks email messages only if they originate from someone with a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] lead, contact, or account record.  
   
    - **Email messages from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] records that are email enabled**. Tracks email messages from all record types (including custom record types) that contain an email address field.  
   
@@ -57,11 +57,11 @@ When you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-
 4. If you want to automatically create contract or lead records for tracked email messages, in the **Automatically create records in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]** section, choose the **Create** check box, and then choose **Contacts** or **Leads** from the list. When this check box is selected, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] will try to match the email address of recipients to an email address in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. If it can’t find a matching record, it will automatically create a contact or lead record.  
   
    > [!NOTE]
-   >  Contact and lead records won’t be created if you don’t have the appropriate security permissions. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [TechNet: How security affects synchronization between Dynamics 365 for Customer Engagement apps and Outlook](https://technet.microsoft.com/library/dn832097.aspx)  
+   >  Contact and lead records won’t be created if you don’t have the appropriate security permissions. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [TechNet: How security affects synchronization between Dynamics 365 apps and Outlook](https://technet.microsoft.com/library/dn832097.aspx)  
   
 > [!NOTE]
 >  More than one custom record type can contain the same email address. When this happens, [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] links the email messages **received** from this email address to the custom record type created first. For example, let’s say a Patient record type created in January lists the email address someone@example.com. A Doctor record type created in February lists the same email address. [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] links the email messages received from someone@example.com to the Patient record type only. **Sending** an email message to someone@example.com links the email message to the Patient record type and the Doctor record type, however.  
   
 ### See also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
