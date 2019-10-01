@@ -150,6 +150,28 @@ You can check the progress and results of your A/B tests at any time by examinin
 
     ![A/B test detailed results](media/email-abtest-journey-results-detailed.png "A/B test detailed results")
 
+You can also see the results of an A/B test by opening the message itself. From here, open the **A/B test** panel, expand the **Finished** category of tests and select the **Test insights** button for the test you want to see.
+
+![XXXX](media/email-abtest-results-button.png "XXX")
+
+## Replace the A version with the B version after a test is finished
+
+Regardless of the results of an A/B test, version A will remain the standard version of the message. Future test will continue to test against version A, and all journeys that don't run an A/B test will send version A to everyone. Therefore, and especially if version B wins a test, you might consider making that B version the new A version going forward.
+
+> [!CAUTION]
+> When you replace version A with version B, version A is permanently deleted and replaced with version B from the selected test. You can't undo this.
+
+To replace version A with version B from a selected test:
+
+1. Open the message where the A/B test has finished.
+1. Expand the **A/B test** panel to see the list of test.
+1. Expand the **Finished** category of tests in the **A/B test** panel.
+1. Select the test where the B version is the one you want to make the new A version and select the **Replace with version B** button.
+
+    ![XXXX](media/email-abtest-switch-versions.png "XXX")
+
+1. You're prompted to confirm the action. If you're sure you want to continue, then confirm and then save your message.
+
 ### See also
 
 [Design your digital content](design-digital-content.md)  
