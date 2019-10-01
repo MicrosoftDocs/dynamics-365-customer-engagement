@@ -63,12 +63,12 @@ You can add a trial or a purchased subscription of the Field Service application
 
 ### Verify that the installation is complete
 
-1. Verify that the Field Service application is available from the Dynamics 365 main menu.
+1. If the installation of Field Service is complete, the Field Service app will appear in the Dynamics 365 main menu when logged in a system administrator.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service in navigation](media/field-service-navigation.png)
 
 
-1. Verify that the Dynamics 365 custom application includes the Field Service module.
+In previous versions, Field Service will appear in the sitemap of the Dynamics 365 custom application.
  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service in Dynamics 365 dropdown menu](media/field-service-menu.png) 

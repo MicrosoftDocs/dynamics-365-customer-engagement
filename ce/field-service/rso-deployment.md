@@ -19,21 +19,24 @@ search.app:
   - D365FS
 ---
 
-# Deployment of the Resource Scheduling Optimization (RSO) solution
+# Deploy Resource Scheduling Optimization (RSO)
+
+After [getting access to RSO](./rso-get-install.md) either by purchasing a license or through your local Microsoft representative, you must deploy it to your Field Service environment.
 
 ## Deployment steps 
 
-1. Go to the Dynamics 365 admin center and select the **APPLICATIONS** tab.
+1. Verify Field Service is installed in your environment.
+2. Go to the Dynamics 365 admin center and select the **APPLICATIONS** tab.
 
 > [!NOTE]
 > **Do not** install the Resource Scheduling Optimization solution from the solution page. Follow the next steps using the RSO deployment app to deploy.
 
-2. Select the **Resource Scheduling Optimization** application to configure or manage.
+3. Select the **Resource Scheduling Optimization** application to configure or manage.
 
     > [!div class="mx-imgBorder"]
     > ![](media/rso-welcome.png)
 
-3. Select the organization where the RSO solution will be installed, review the
+4. Select the organization where the RSO solution will be installed, review the
     Terms of Service and select the agreement box, and then select **Deploy** to
     start the RSO deployment.
 
@@ -42,13 +45,13 @@ search.app:
     
 The RSO instance is associated with a single Dynamics 365 organization in the tenant. You can change the associated organization through the RSO deployment app’s page. If additional RSO instances are needed for dev/test and you have an Enterprise Agreement with Microsoft, contact your technical account manager. Such instances are not yet available to Cloud Solution Providers or retail purchase.
 
-4. Click **Upgrade to new version** to apply a new update if one is available.
+5. Click **Upgrade to new version** to apply a new update if one is available.
 
-5. Use **Change Organization** to change the RSO deployment from a Dynamics 365 
+6. Use **Change Organization** to change the RSO deployment from a Dynamics 365 
     organization to another. This will not delete anything inside of the
     original Dynamics 365 organization.
 
-6. Use **Delete current deployment** to delete RSO Azure resources. The RSO
+7. Use **Delete current deployment** to delete RSO Azure resources. The RSO
     solution will remain, which will not impact anything inside of the Dynamics
     365 organization.
 
