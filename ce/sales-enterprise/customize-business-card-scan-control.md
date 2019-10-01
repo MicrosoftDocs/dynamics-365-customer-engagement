@@ -22,10 +22,8 @@ Dynamics 365 Sales comes with an out-of-the-box business card control that defin
 
 
 > [!IMPORTANT]
-> - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
 > - This feature is available only in the EMEA and North America regions.
+> - To know about the business card scan limits with your user license, see the licensing guide.
 
 To edit the mappings:
 
@@ -59,7 +57,8 @@ To edit the mappings:
 
 
 > [!NOTE]
-> Mapping of address fields is currently not supported.
+> -  Sales people must have the Common Data Service User role assigned to them to use the business card scan control.
+> -  Mapping of address fields is currently not supported.
 
 
 ### See also

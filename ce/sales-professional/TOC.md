@@ -10,7 +10,7 @@
 ### [Manage tasks, appointments, email, or phone calls](manage-activities.md)
 
 ## User guide
-### [Resources for sales people](user-guide.md)
+### [Help resources for sales people](user-guide.md)
 ### [Develop sales from lead to cash](develop-sales-lead-to-cash-sales-professional.md)
 #### [Manage leads](manage-leads-sales-professional.md)
 #### [Manage opportunities](manage-opportunities-sales-professional.md)
@@ -28,7 +28,7 @@
 #### [Create a quote PDF](create-quote-pdf-sales-professional.md)
 
 ## Administrator and sales manager guide
-### [Resources for administrators and sales managers](admin-guide.md)
+### [Help resources for admins and sales managers](admin-guide.md)
 ### [Provision your Dynamics 365 Sales Professional environment](provision-sales-professional-instance.md)
 ### [Overview of admin settings](admin-settings-overview.md)
 ### Standard settings
