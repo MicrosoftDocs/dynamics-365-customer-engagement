@@ -1,6 +1,6 @@
 ---
-title: Pricing dimensions setup guide for Dynamics 365 for Customer Engagement for Project Service (version 3.x)
-description: An English-language guide to custom pricing dimensions in Project Service Automation for Dynamics 365 for Customer Engagement
+title: Pricing dimensions setup guide 
+description: An English-language guide to custom pricing dimensions
 author: kfend
 manager: kfend
 ms.service: dynamics-365-customerservice

@@ -1,6 +1,6 @@
 ---
-title: How do I customize the Project Stages business process flow? (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
-description: An overview of how to customize the Project Stages business process flow (BPF) in Dynamics 365 for Customer Engagement for Project Service.
+title: How do I customize the Project Stages business process flow?
+description: An overview of how to customize the Project Stages business process flow.
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom:

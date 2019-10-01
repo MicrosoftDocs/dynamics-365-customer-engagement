@@ -1,5 +1,5 @@
 ---
-title: New and upcoming features in Project Service | Dynamics 365 for Customer Engagement
+title: New and upcoming features in Dynamics 365 Project Service Automation
 description: New and planned features for Project Service Automation
 author: JohnPBurrows
 manager: kfend

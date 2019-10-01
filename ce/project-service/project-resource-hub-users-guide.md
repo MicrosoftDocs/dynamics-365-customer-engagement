@@ -1,5 +1,5 @@
 ---
-title: User guide for the Project Resource Hub (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: User guide for the Project Resource Hub 
 description: An end-user's guide for the Project Resource Hub for Project Service
 author: JohnPBurrows
 manager: kfend
@@ -39,12 +39,12 @@ There are two flavors of [!INCLUDE[pn_dyn_365_project_service_auto](../includes/
 
 
 ## Install the mobile app
-Before you can start using the Project Resource Hub app, you need to install the Dynamics 365 for Customer Engagement mobile app on your device. 
+Before you can start using the Project Resource Hub app, you need to install the mobile app on your device. 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
 
 ## Basic Navigation
-1.	When you sign in on the Dynamics 365 for Customer Engagement mobile app, you’ll see the MyApps page with a list of the apps that you access to. 
+1.	When you sign in on the mobile app, you’ll see the MyApps page with a list of the apps that you access to. 
 2.	Select **Project Resource Hub**.
 
 ![Choose an app](media/chooseApp_1.png "Choose an app")
