@@ -1,6 +1,6 @@
 ---
-title: "Manage web links in Dynamics 365 or on portals in Dynamics 365 | MicrosoftDocs"
-description: "Instructions to manage web links in Dynamics 365 or on portals."
+title: "Manage web links | MicrosoftDocs"
+description: "Instructions to manage web links."
 ms.custom: 
   - dyn365-portal
 ms.date: 12/03/2018
@@ -21,13 +21,13 @@ search.app:
   - D365CE
   - D365Portals
 ---
-# Manage web links in Dynamics 365 or on portals
+# Manage web links
 
 A web link can link to any URL or it can link to another webpage within the same website. When a web link is to a webpage, the security and publishing state of the webpage will apply to the web link as well. Web links are always part of a web link set. A web link set is a group of links such as a primary navigation or a group of footer links. Web link sets allow internal, regardless of placement in the site map, and external links to be grouped together and ordered.
 
-## Manage web links in Dynamics 365
+## Manage web links in Dynamics 365 Portals
 
-For Dynamics 365 users, once the portal customizations have been imported into the Common Data Service organization, web links can be managed from a web link set.
+Once the portal customizations have been imported into the Common Data Service environment, web links can be managed from a web link set.
 
 1. Sign in to Dynamics 365 Portals.
 
@@ -55,7 +55,7 @@ For Dynamics 365 users, once the portal customizations have been imported into t
 
 6. Save the changes.
 
-## Manage web links in a portal
+## Manage web links from the portal content editor
 
 To modify a web link set, you need appropriate permissions and the web link set you want to modify must be part of the page template. 
 

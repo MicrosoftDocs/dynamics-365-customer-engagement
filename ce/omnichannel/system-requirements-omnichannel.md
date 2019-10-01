@@ -84,9 +84,9 @@ See [Provision Omnichannel for Customer Service](administrator/omnichannel-provi
 To upgrade Omnichannel, see [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md).
 
 > [!NOTE]
-> - Omnichannel for Customer Service is not supported on Customer Engagement (on-premises) platform.
+> - Omnichannel for Customer Service is not supported with Dynamics 365 Customer Engagement (on-premises).
 >
-> - Omnichannel for Customer Service is supported only on Desktops, and not on mobiles and tablets.
+> - Omnichannel for Customer Service is supported only on desktops, and not on phones and tablets.
 >
 > - Omnichannel for Customer Service for other regions will be available in the future.
 
