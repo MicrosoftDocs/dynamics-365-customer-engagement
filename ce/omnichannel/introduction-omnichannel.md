@@ -16,9 +16,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
- 
-
-Omnichannel for Customer Service is a robust application that extends the power of Dynamics 365 for Customer Service to enable organizations to instantly connect and engage with their customers via channels like Live Chat and SMS.
+Omnichannel for Customer Service is a robust application that extends the power of Dynamics 365 Customer Service to enable organizations to instantly connect and engage with their customers via channels like Live Chat and SMS.
 
 Omnichannel for Customer Service also provides a modern, customizable, high-productivity app that allows agents to engage with customers across different channels. The application offers contextual customer identification, real-time notification, integrated communication, and agent productivity tools like KB integration, search, and case creation to ensure agents are effective.
 
@@ -32,7 +30,7 @@ You can enable the following channels in your organization with Omnichannel for 
 
 ### Chat
 
-Chat is an engagement channel that enables your agents to connect with customers in real-time. The Chat channel is generally available now. For more information about enabling Chat in your organization, see [Try chat for Dynamics 365](try-chat-for-dynamics365.md).
+Chat is an engagement channel that enables your agents to connect with customers in real-time. The Chat channel is generally available now. For more information about enabling Chat in your organization, see [Try chat for Dynamics 365 Customer Service](try-chat-for-dynamics365.md).
 
 ### SMS
 
@@ -42,7 +40,7 @@ SMS is an engagement channel that supports asynchronous mode of communication, a
 
 - [Pre-requisites and system requirements](system-requirements-omnichannel.md)
 - [Assign roles and enable users for Omnichannel for Customer Service](administrator/add-users-assign-roles.md)
-- [Try chat for Dynamics 365](try-chat-for-dynamics365.md)
+- [Try chat for Dynamics 365 Customer Service](try-chat-for-dynamics365.md)
 - [Configure an SMS channel](administrator/configure-sms-channel.md)
 - [Quickly configure a chat widget](administrator/configure-live-chat.md)
 - [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)

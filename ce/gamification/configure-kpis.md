@@ -1,12 +1,10 @@
 ---
-title: "Configure Gamification KPIs in Dynamics 365 for Customer Engagement (online) | Microsoft Docs"
-description: "Learn how to set up and edit KPIs in Dynamics 365 for Customer Engagement (online) to use them in Dynamics 365 for Customer Engagement – Gamification games. "
+title: "Configure Gamification KPIs in Dynamics 365 apps | Microsoft Docs"
+description: "Learn how to set up and edit KPIs in Dynamics 365 apps to use them in Gamification games. "
 keywords: Gamification, KPI, saved view, configuration
 ms.date: 03/27/2018
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b0c9af15-5cdf-4f8b-838c-49bf5dd50b6b
 author: m-hartmann
 ms.author: mhart
@@ -23,11 +21,11 @@ search.app:
   - D365Gamification
 ---
 
-# Configure KPIs for Gamification in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]
+# Configure KPIs for Gamification
 
 Scores and achievements in your games are based on KPIs that you define in [!INCLUDE[pn_gamification](../includes/pn-gamification-shortest.md)]. It's a two-step process: first, in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online-shortest.md)], a user with a **Game Manager** security role creates the KPIs. Next, the user chooses and configures the KPIs in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] when setting up a new game.
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/3ed19c05-ce49-4bc8-a11c-be527217c9ae" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/3ed19c05-ce49-4bc8-a11c-be527217c9ae" frameborder="0" allowfullscreen=""></iframe></div>
 
 More information about setting up KPIs in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]: [Set up and run games in Gamification](run-games.md)  
 Basic information about KPIs; [Concepts to learn before you get started using Gamification](get-started.md)
@@ -36,17 +34,17 @@ Basic information about KPIs; [Concepts to learn before you get started using Ga
 
 When you set up a game, step 2 of the game setup experience requires you to define the KPIs for the game.
 
-The KPIs you define in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] will be available when you set up the game and the data syncs from [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].
+The KPIs you define in Dynamics 365 apps will be available when you set up the game and the data syncs from the connected organization.
 
-## Configure and edit KPIs in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]
+## Configure and edit KPIs
 
-Configure KPI details in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] to select them for a new contest in [!INCLUDE[pn_gamification_](../includes/pn-gamification-shortest.md)]. The system creates a set of default KPIs when you install [!INCLUDE[pn_gamification_](../includes/pn-gamification-shortest.md)]. Only the owner of a KPI can change its values. If the system created a KPI, you need to assign it to an owner before its values can be changed.
+Configure KPI details to select them for a new contest in [!INCLUDE[pn_gamification_](../includes/pn-gamification-shortest.md)]. The system creates a set of default KPIs when you install [!INCLUDE[pn_gamification_](../includes/pn-gamification-shortest.md)]. Only the owner of a KPI can change its values. If the system created a KPI, you need to assign it to an owner before its values can be changed.
 
 There are various ways to create useful KPIs based on the data of a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance. Use our examples for inspiration, and adapt them to your business and game requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Best practices for new and existing KPIs in Gamification](best-practices-kpis.md)  
 
 ### Configure a KPI
 
-1. In [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)], go to **Gamification** > **KPIs**.
+1. In Dynamics 365, go to **Gamification** > **KPIs**.
 
 2. In the **Active KPIs** section, click the KPI you want to configure.
 
@@ -103,13 +101,13 @@ There are various ways to create useful KPIs based on the data of a [!INCLUDE[pn
 
 ### Next steps
 
-When you are done setting up all required KPIs, [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] will sync the data to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] when you start the game.
+When you are done setting up all required KPIs, the system will sync the data to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] when you start the game.
 
 If you want to score a KPI manually, you can use Excel point scoring. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Update game scores by using Excel point scoring capabilities in Gamification](update-scores-using-excel-point-scoring.md)
 
 ## Edit a KPI
 
-1. In [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)], go to **Gamification** > **KPIs**.  
+1. In Dynamics 365, go to **Gamification** > **KPIs**.  
 
 2. Click the KPI you want to edit.
 

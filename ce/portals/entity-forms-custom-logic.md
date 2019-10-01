@@ -1,5 +1,5 @@
 ---
-title: "Define entity forms and custom logic within a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Define entity forms and custom logic within a portal | MicrosoftDocs"
 description: "Instructions to create entity forms in a portal."
 ms.custom: 
   - dyn365-portal
@@ -21,9 +21,9 @@ search.app:
   - D365CE
   - D365Portals
 ---
-# Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal
+# Define entity forms and custom logic within a portal
 
-A data-driven configuration to allow end users to add a form to collect data in the portal without the need for a developer to surface the form in the portal, entity forms are created in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and then placed into webpages in the portal or used in conjunction with subgrids and entity lists to build out complete web applications. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add a webpage to render a list of records](add-webpage-render-list-records.md) 
+A data-driven configuration to allow end users to add a form to collect data in the portal without the need for a developer to surface the form in the portal, entity forms are created in Common Data service and then placed into webpages in the portal or used in conjunction with subgrids and entity lists to build out complete web applications. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add a webpage to render a list of records](add-webpage-render-list-records.md) 
 
 ![Contact us form](media/contact-us-form.png "Contact us form")  
 
@@ -47,11 +47,11 @@ The webpages associated with the entity form can be viewed by selecting the **We
 
 When creating or editing a webpage, an **Entity Form** can be specified in the lookup field provided on the Web Page form.
 
-The various master pages used by the portal found in the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal installation directory contain declarations of the **EntityForm** server control. When rendering the webpage containing either the Page (~/Pages/Page.aspx) page template or Full Page (~/Pages/FullPage.aspx) page template, the controls will determine whether the entity form lookup contains a value, in which case the form will be rendered.
+The various master pages used by the portal found in the Dynamics 365 Portals installation directory contain declarations of the **EntityForm** server control. When rendering the webpage containing either the Page (~/Pages/Page.aspx) page template or Full Page (~/Pages/FullPage.aspx) page template, the controls will determine whether the entity form lookup contains a value, in which case the form will be rendered.
 
 ## Secure your forms
 
-To secure your forms, you must create entity permissions that determine access and ownership of the records in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] according to web roles. If a user lands on an entity form and does not have permissions, they will receive an error message. To enable permissions for an entity form, set **Enable Entity Permissions** to true. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create web roles for portals](create-web-roles.md).  
+To secure your forms, you must create entity permissions that determine access and ownership of the records according to web roles. If a user lands on an entity form and does not have permissions, they will receive an error message. To enable permissions for an entity form, set **Enable Entity Permissions** to true. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create web roles for portals](create-web-roles.md).  
 
 ## Entity form attributes and relationships
 
@@ -79,7 +79,7 @@ To secure your forms, you must create entity permissions that determine access a
 |Auto Generate Steps From Tabs|	Indicates that multiple tabs on an entity form will be displayed with each tab as a sequential step starting with the first tab and continue until all tabs have been navigated to and upon final submission a record is inserted. By default, it is not selected. The default value indicates that only one tab or form is to be rendered for the current step. If the Tab Name is not specified, then the first tab is displayed.|
 |Render Web Resources Inline|	Eliminates the iframe that encompasses a web resource in an entity form.|
 |ToolTips Enabled|	The tooltip is set using the description of the attribute on the target entity.|
-|Show Unsupported Fields|	All fields are currently supported. This is reserved for potential changes Dynamics 365 may make to field types.|
+|Show Unsupported Fields|	All fields are currently supported. This is reserved for potential changes Common Data Service may make to field types.|
 |Set Recommended Fields as Required| 	Makes all attributes required that have the field requirement level set to 'Business Recommended'.|
 |Make All Fields Required| 	Makes all fields required regardless of the field requirement level.|
 |Validation Summary CSS Class|	CSS Class name assigned to the validation summary. Default is 'validation-summary alert alert-error alert-block'|
@@ -179,14 +179,14 @@ Clicking on one of these options displays a configuration area for that action. 
 - Set Opportunity on Hold (opportunity)
 
 > [!NOTE]
-> It is recommend to create a workflow instead of adding an **Activate** or a **Deactivate** button for out of the box entities having defined specific **state** and **status code** values that they require for their business processes. For example, Incident ([status options](../developer/entities/incident.md#statuscode-options)), Opportunity([status options](../developer/entities/opportunity.md#statuscode-options)), Entitlements ([status options](../developer/entities/entitlement.md#statuscode-options)). 
+> It is recommend to create a workflow instead of adding an **Activate** or a **Deactivate** button for out of the box entities having defined specific **state** and **status code** values that they require for their business processes. For example, Incident ([status options](../customer-engagement/on-premises/developer/entities/incident.md#statuscode-options)), Opportunity([status options](../customer-engagement/on-premises/developer/entities/opportunity.md#statuscode-options)), Entitlements ([status options](../customer-engagement/on-premises/developer/entities/entitlement.md#statuscode-options)). 
 
 
 ## Geolocation configuration for entity forms
 
 A managed form can be configured to display a map control to either display an existing location as a pin on a map or to provide the ability for the user to specify a location. See [Add Geolocation](add-geolocation.md).
 
-The form's map control requires additional configuration to tell it what the IDs of the various location fields are, to assign values to them or retrieve values from them. The Entity Form record in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] has a configuration section that defines these field mappings that you must specify. The field names will vary depending on the schema you have created.
+The form's map control requires additional configuration to tell it what the IDs of the various location fields are, to assign values to them or retrieve values from them. The Entity Form record has a configuration section that defines these field mappings that you must specify. The field names will vary depending on the schema you have created.
 
 ![Geolocation data in entity form](media/geolocation-managed-form.png "Geolocation data in entity form") 
 
@@ -196,7 +196,7 @@ The form's map control requires additional configuration to tell it what the IDs
 
 ### See also
 
-[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
+[Configure a portal](configure-portal.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  

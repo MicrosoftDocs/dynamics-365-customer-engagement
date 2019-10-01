@@ -1,28 +1,21 @@
 ---
-title: " Categories and operations in Unified Service Desk performance report | MicrosoftDocs"
+title: "Categories and operations in Unified Service Desk performance report | MicrosoftDocs"
 description: "Learn about the operations and categories based on which the Unified Service Desk performance report is generated using the Unified Service Desk Performance Analyzer."
-ms.date: 10/31/2018
-ms.service: 
-  - dynamics-365-customerservice
 ms.custom: 
-  - dyn365-USD, dyn365-admin
+  - dyn365-USD
+  - dyn365-admin
+ms.date: 10/31/2018
+ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: C0FC6122-B024-4855-BE76-443365242F3F
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: 
-  - admin
+search.audienceType: admin
 search.app: 
   - D365CE
   - D365USD
-monikerRange : '>= dynamics-usd-3'
+monikerRange: '>= dynamics-usd-3'
 ---
 
 # Public Preview: Categories and operations

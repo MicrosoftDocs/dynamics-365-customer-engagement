@@ -10,8 +10,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
@@ -32,10 +30,10 @@ search.app:
 
 By setting security roles for users, you control the types of data and entities a user can access and edit. By setting field security profiles, you control which fields a user sees for an entity. For example, a user may have permission to see accounts but not to see specific fields for an account. 
  > [!div class="mx-imgBorder"]
- > ![Screenshot of security roles in Dynamics 365 for Customer Engagement](media/users-1.png) 
+ > ![Screenshot of security roles in Dynamics 365](media/users-1.png) 
 
 > [!Note]
-> Any users assigned to field service security roles need a Dynamics 365 for Customer Engagement license that includes the Field Service application. After you complete the steps in this article, it's recommended that you sign in to verify that the capabilities appear as expected.
+> Any users assigned to field service security roles need a Dynamics 365 license that includes the Field Service application. After you complete the steps in this article, it's recommended that you sign in to verify that the capabilities appear as expected.
 
 ## Field service roles
 **Field Service—Administrator** is designed for service managers and IT administrators. This role has access to all field service entities including work orders, scheduling, and inventory. Additionally, this role has full Create, Read, Update, Delete (CRUD) abilities. For example, a field service administrator can create new work order types for the organization, which other people can then use on work orders that they create.
@@ -63,7 +61,7 @@ By setting security roles for users, you control the types of data and entities 
 
 ## Set up a user for field service 
   
-Go to **Dynamics 365 for Customer Engagement** > **Settings** > **Security** > **Users**, and then set the fields used in the Field Service application. Refer to the table to learn how the fields are used in the Field service application.  
+Go to **Dynamics 365** > **Settings** > **Security** > **Users**, and then set the fields used in the Field Service application. Refer to the table to learn how the fields are used in the Field service application.  
   
 |                              |                                                                                                                                                                                                                                                                                                                                  |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -97,9 +95,9 @@ Follow these steps to set up a dispatcher who schedules work orders for field te
 4. Open the dispatcher's user record, and then select **Field Security Profiles**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of field security profiles in Dynamics 365 for Customer Engagement dropdown](media/users-4.png) 
+> ![Screenshot of field security profiles in Dynamics 365 dropdown](media/users-4.png) 
 
-5.  Assign the **Field Service – Dispatcher** field security role.
+1.  Assign the **Field Service – Dispatcher** field security role.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Security profile for dispatchers](media/users-5.png) 
@@ -137,22 +135,22 @@ To set up geocoding to enable location awareness for scheduling and routing, def
 2.  Verify that the record includes an address. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Dynamics 365 for Customer Engagement user record address](media/users-14.png) 
+> ![Screenshot of Dynamics 365 user record address](media/users-14.png) 
 
-If there isn't already an address for the user, navigate to the Microsoft 365 admin center and enter one. To display the address in the Dynamics 365 for Customer Engagement organization, refresh the page.
+If there isn't already an address for the user, navigate to the Microsoft 365 admin center and enter one. To display the address in the Dynamics 365 organization, refresh the page.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of office 365 user](media/users-15.png) 
 
-3.  To enable geocoding in the Dynamics 365 for Customer Engagement organization, navigate to **Resource Scheduling** > **Administration** > **Scheduling Parameters**.
+1.  To enable geocoding in the Dynamics 365 organization, go to **Resource Scheduling** > **Administration** > **Scheduling Parameters**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Resource Scheduling Administration in Dynamics 365 for Customer Engagement dropdown menu](media/users-17.png) 
+> ![Screenshot of Resource Scheduling Administration in Dynamics 365 dropdown menu](media/users-17.png) 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of how to access scheduling parameters](media/users-18.png) 
 
-4.  To tag a latitude and longitude for the address on the user record, set **Connect to Maps** to **Yes**. The API key is filled out automatically to use Bing Maps API.
+1.  To tag a latitude and longitude for the address on the user record, set **Connect to Maps** to **Yes**. The API key is filled out automatically to use Bing Maps API.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of connecting to maps and Bing Maps API in Dynamics](media/users-19.png) 

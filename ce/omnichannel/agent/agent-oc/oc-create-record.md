@@ -106,5 +106,5 @@ In the Customer Summary page, when you are trying to search a record in customer
 ## See also
 
 - [View customer summary and know everything about customers](oc-customer-summary.md)
-- [View conversation and session activity types in the Customer Engagement apps](oc-view-activity-types.md)
+- [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
 - [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)

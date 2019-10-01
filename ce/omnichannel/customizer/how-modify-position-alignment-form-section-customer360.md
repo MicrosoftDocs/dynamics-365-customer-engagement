@@ -16,7 +16,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-1. Sign in to Dynamics 365 for Customer Engagement instance.
+1. Sign in to the Common Data Service platform.
 
 2. Go to **Settings** > **Customization** > **Customize the system**.
 

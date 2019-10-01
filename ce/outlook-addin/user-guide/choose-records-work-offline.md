@@ -8,8 +8,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps 
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -33,7 +33,7 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
  You can modify the existing filters or create new filters. You can also delete, deactivate, or activate filters. You can reset the filters every time you go offline.  
   
 > [!TIP]
->  To synchronize data and go online and offline more quickly, you can decrease the interval for automatic synchronization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set personal options that affect tracking and synchronization between Dynamics 365 for Customer Engagement apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
+>  To synchronize data and go online and offline more quickly, you can decrease the interval for automatic synchronization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set personal options that affect tracking and synchronization between Dynamics 365 apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
   
 ## Create or modify offline synchronization filters  
   
@@ -47,7 +47,7 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
   
    -   In Dynamics 365 for Outlook:  
   
-       -   On the **File** menu, choose **Dynamics 365 for Customer Engagement apps**.  
+       -   On the **File** menu, choose **Dynamics 365 apps**.  
   
        -   Choose **Options**, and then in the **Set Personal Options** dialog box, choose the **Synchronize** tab.  
   
@@ -69,7 +69,7 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
 ## Creating or modifying filter criteria  
  You use a criteria row to create or modify criteria in an offline synchronization filter. Each criteria row contains three values: the field to use in the filter (for example, **City**), an operator (for example, **Equals** or **Contains**), and the value to filter on (for example, **WA**).  
   
- ![Sync or offline filters criteria grid in Dynamics 365 for Customer Engagement apps](../media/sync-filters-criteria-row.png "Sync or offline filters criteria grid in Dynamics 365 for Customer Engagement apps")  
+ ![Sync or offline filters criteria grid in Dynamics 365 apps](../media/sync-filters-criteria-row.png "Sync or offline filters criteria grid in Dynamics 365 apps")  
   
 ### Add a criteria row  
   
@@ -94,5 +94,5 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
    ![Sync filters dialog box showing grouped criteria](../media/sync-filters-group-criteria.png "Sync filters dialog box showing grouped criteria")  
   
 ### See also  
- [Choose the records to synchronize between Dynamics 365 for Customer Engagement apps and Outlook or Exchange](choose-records-synchronize-exchange.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
+ [Choose the records to synchronize between Dynamics 365 apps and Outlook or Exchange](choose-records-synchronize-exchange.md)   
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

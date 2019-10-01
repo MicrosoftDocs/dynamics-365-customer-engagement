@@ -1,6 +1,6 @@
 ---
 title: "Sample: Custom plug-in to use Google Maps API as geospatial data provider | MicrosoftDocs"
-description: "A sample that demonstrates how to use a custom plug-in use Google Maps API for geospatial operations in Dynamics 365 for Field Service."
+description: "A sample that demonstrates how to use a custom plug-in use Google Maps API for geospatial operations in Dynamics 365 Field Service."
 ms.custom: 
   - dyn365-developer
   - dyn365-customerservice
@@ -16,8 +16,6 @@ ms.technology:
   - project-service
 ms.tgt_pltfrm: 
 ms.topic: sample
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1773e012-dbad-4320-95fe-40877adfdabb
 author: FieldServiceDave
 ms.author: daclar
@@ -34,7 +32,7 @@ search.app:
 
 You can use a custom plug-in to use geospatial data from a data provider of your choice instead of using the default Bing Maps API in Field Service and Project Service.
 
-Download the sample: [Custom plug-in to use Google Maps API as geospatial data provider (Dynamics 365 for Customer Engagement)](https://code.msdn.microsoft.com/Custom-plug-in-to-use-d244f452)
+Download the sample: [Custom plug-in to use Google Maps API as geospatial data provider (Dynamics 365)](https://code.msdn.microsoft.com/Custom-plug-in-to-use-d244f452)
 
 ## Prerequisites
 
@@ -57,7 +55,7 @@ This sample generates a plug-in assembly file: **CustomPlugin-FS-Geospatial.dll*
 
 1. [Download](https://code.msdn.microsoft.com/Custom-plug-in-to-use-d244f452) the sample, and extract the .zip file.
 2. Navigate to the extracted folder, and double-click the **CustomPlugin-FS-Geospatial.sln** file to open the solution in Visual Studio.
-3. In Visual Studio, select **Build** > **Build Solution**. The NuGet packages used in the solution will download automatically if the option to restore NuGet packages automatically on building a project is enabled in Visual Studio. More information: [Enabling and disabling package restore](https://docs.microsoft.com/en-us/nuget/consume-packages/package-restore#enabling-and-disabling-package-restore) 
+3. In Visual Studio, select **Build** > **Build Solution**. The NuGet packages used in the solution will download automatically if the option to restore NuGet packages automatically on building a project is enabled in Visual Studio. More information: [Enabling and disabling package restore](https://docs.microsoft.com/nuget/consume-packages/package-restore#enabling-and-disabling-package-restore) 
 
 ## After running the sample
 
@@ -404,7 +402,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
 ## Privacy notice disclaimer
 
-You may use sample code to interact with third party services whose privacy and security practices may differ from those of Microsoft Dynamics 365 for Customer Engagement. IF YOU SUBMIT DATA TO THIRD PARTY SERVICES, SUCH DATA IS GOVERNED BY THEIR RESPECTIVE PRIVACY STATEMENTS. For the avoidance of doubt, data shared outside of Microsoft Dynamics 365 for Customer Engagement is not covered by your Microsoft Dynamics 365 for Customer Engagement agreement(s) or the Microsoft Dynamics 365 for Customer Engagement Trust Center. We encourage you to review these other privacy statements.
+You may use sample code to interact with third party services whose privacy and security practices may differ from those of Microsoft Dynamics 365. IF YOU SUBMIT DATA TO THIRD PARTY SERVICES, SUCH DATA IS GOVERNED BY THEIR RESPECTIVE PRIVACY STATEMENTS. For the avoidance of doubt, data shared outside of Microsoft Dynamics 365 is not covered by your Microsoft Dynamics 365 agreement(s) or the Microsoft Dynamics 365 Trust Center. We encourage you to review these other privacy statements.
 
 ### See also
 

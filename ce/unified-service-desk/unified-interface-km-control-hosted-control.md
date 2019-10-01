@@ -1,26 +1,14 @@
 ---
-title: "Unified Interface KM Control (Hosted Control) in Unified Service Desk for Dynamics 365 for Customer Engagement apps Unified Interface App| MicrosoftDocs"
-description: "Learn using the KM Control type of hosted control to display knowledge base articles in Dynamics 365 for Customer Engagement apps in your agent application."
-keywords: 
+title: "Unified Interface KM Control (Hosted Control) in Unified Service Desk for Unified Interface App| MicrosoftDocs"
+description: "Learn using the KM Control type of hosted control to display knowledge base articles in your agent application."
+ms.custom: dyn365-USD
 ms.date: 08/17/2018
-ms.service: 
-  - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: B999CDBB-3E08-4558-ACA6-5651ABE2C973
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 search.audienceType: 
   - customizer
   - developer
@@ -32,10 +20,10 @@ monikerRange: ">=dynamics-usd-4"
 
 # Unified Interface KM Control (Hosted Control)
 
-Use the **Unified Interface KM Control** type of hosted control to display knowledge base articles in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Dynamics 365 for Customer Engagement apps knowledge base for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use Dynamics 365 for Customer Engagement apps knowledge](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)
+Use the **Unified Interface KM Control** type of hosted control to display knowledge base articles in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use knowledge base for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use knowledge](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)
 
 > [!NOTE]
-> The Unified Interface KM Control supports all searche techniques available in Dynamics 365 for Customer Engagement apps except the **Relevance Search**. More informaiton: [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management)
+> The Unified Interface KM Control supports all search techniques available in the model-driven apps except the **Relevance Search**. More informaiton: [Relevance search for knowledge management](https://docs.microsoft.com/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management)
 
 <a name="Create"></a>   
 ## Create a KM Control hosted control  
@@ -63,7 +51,7 @@ Use the **Unified Interface KM Control** type of hosted control to display knowl
 
 <a name="Associate"></a>   
 ### Associate  
- Associates a knowledge base record in Dynamics 365 for Customer Engagement apps with the parent entity record in **Unified Interface KM Control**.  
+ Associates a knowledge base record with the parent entity record in **Unified Interface KM Control**.  
 
 
 |     Parameter     | Description |
@@ -72,7 +60,7 @@ Use the **Unified Interface KM Control** type of hosted control to display knowl
 |     recordid      | The ID of the parent entity record to associate the knowledge base record to.|
 |  articleuniqueid  | The unique ID of the article in that you want to associate. For example: `articleuniqueid=7924/8112/Article/41`|
 |   articletitle    |  A string value representing article's title that you want to associate. For example: `articletitle=Diffused Sunlight and Weather Conditions` |
-| articlepublicurl  | The public URL of the article that you want to associate. If you are using native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps knowledge base, the articles should have already been published to an external portal (select **Use an external portal** in the **Knowledge Base management Settings** dialog box in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps) so that you can use the article URL in this parameter.<br /><br /> For example: `articlepublicurl=http://support.microsoft.com/kb/{kbnum}` |
+| articlepublicurl  | The public URL of the article that you want to associate. If you are using native the Common Data Service platform knowledge base, the articles should have already been published to an external portal (select **Use an external portal** in the **Knowledge Base management Settings** dialog box in the Common Data Service platform) so that you can use the article URL in this parameter.<br /><br /> For example: `articlepublicurl=http://support.microsoft.com/kb/{kbnum}` |
 
 <a name="Close"></a>   
 ### Close  
@@ -125,7 +113,7 @@ Use the **Unified Interface KM Control** type of hosted control to display knowl
 
 | Parameter  | Description |
 |------------|------------------------|
-|   query    | A string value to be searched in the hosted control. For example: `query=contoso`. This will fetch all the knowledge articles from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps that have names starting with the word "contoso". |
+|   query    | A string value to be searched in the hosted control. For example: `query=contoso`. This will fetch all the knowledge articles from the Common Data Service platform that have names starting with the word "contoso". |
 |  results   | An integer value to indicate the number of search results to be displayed in the hosted control. For example, specifying `results=5` will display 5 search results in the hosted control. If no value or a wrong value is provided for this data parameter, then the default value (10) will be used. The maximum value allowed for this data parameter is 20. |
 |   filter   | An integer value to indicate the knowledge base article type to be displayed in the hosted control:<br /><br /> -   `0`: Draft<br />-   `1`: Approved<br />-   `3`: Published<br /><br /> For example, specify `filter=3` to display only published knowledge base articles.<br /><br /> If no value or a wrong value is provided, then the default value (3) will be used. |
 | blockClick | An integer value to indicate whether to block displaying the content inline when a search result is clicked in the hosted control. Set it to `0` to open the content inline when clicked; set it `1` to block opening the content inline. For example: `blocked=1`<br /><br /> If no value or a wrong value is provided, then the default value (0) will be used. If you have the set the value to 1 to block the content, the [ResultOpen](../unified-service-desk/km-control-hosted-control.md#ResultOpen) event will still be fired. |

@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
+  - Dynamics 365 apps 
 ms.assetid: 4c6960a6-ffe7-478a-88c5-14d4f64f6320
 caps.latest.revision: 46
 author: mduelae
@@ -103,5 +103,5 @@ This topic describes how to install [!INCLUDE[pn_crm_for_outlook_short](../../in
 - Cached Exchange Mode turned off in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] is supported if [!INCLUDE[proc_crm_for_outlook](../../includes/proc-crm-for-outlook.md)] syncs with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] using server-side synchronization but not supported if [!INCLUDE[proc_crm_for_outlook](../../includes/proc-crm-for-outlook.md)] syncs with [!INCLUDE[proc_crm_for_outlook](../../includes/proc-crm-for-outlook.md)] synchronization. See: [Turn on Cached Exchange Mode](https://support.office.com/article/Turn-on-Cached-Exchange-Mode-7885af08-9a60-4ec3-850a-e221c1ed0c1c?CorrelationId=90246111-3367-4702-a41b-62ab9b65f3f0).  
   
 ### See Also  
- [Install or upgrade language packs for Microsoft Dynamics 365 for Customer Engagement apps](https://technet.microsoft.com/library/hh699674.aspx)   
- [Planning and installing Dynamics 365 for Outlook for Microsoft Dynamics 365 for Customer Engagement apps and Dynamics 365 for Customer Engagement apps Online](planning-installing.md)
+ [Install or upgrade language packs for Microsoft Dynamics 365 apps](https://technet.microsoft.com/library/hh699674.aspx)   
+ [Planning and installing Dynamics 365 for Outlook for Microsoft Dynamics 365 apps and Dynamics 365 apps Online](planning-installing.md)

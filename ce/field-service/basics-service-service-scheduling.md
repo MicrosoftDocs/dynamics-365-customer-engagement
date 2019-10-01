@@ -1,10 +1,7 @@
 ---
-title: Overview of service and service scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know the basics of service and service scheduling in Dynamics 365 for Customer Service
-keywords: Service scheduling; Dynamics 365 for Customer Engagement; Customer Service
+title: Overview of service and service scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Know the basics of service and service scheduling in Dynamics 365 Customer Service
 author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shellyha
 ms.date: 09/15/2017
@@ -26,7 +23,7 @@ search.app:
 Avoid disruptions in service by making sure that your resources are scheduled optimally and efficiently. Learn the basics of getting started with managing services and service scheduling in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
 
 > [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
 
 ## Understand the service terminology  
   

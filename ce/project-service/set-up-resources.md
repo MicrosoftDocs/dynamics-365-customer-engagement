@@ -1,5 +1,5 @@
 ---
-title: Set up resources (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Set up resources 
 description: How to set up resources in Project Service
 author: JohnPBurrows
 manager: kfend

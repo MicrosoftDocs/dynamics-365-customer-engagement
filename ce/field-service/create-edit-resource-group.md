@@ -1,10 +1,7 @@
 ---
-title: Create or change a resource group (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Create or change a resource group in Dynamics 365 for Customer Service
-keywords: Resource group; Dynamics 365 for Customer Engagement; Customer Service
+title: Create or change a resource group (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Create or change a resource group in Dynamics 365 Customer Service
 author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shellyha
 ms.date: 09/15/2017
@@ -26,7 +23,7 @@ search.app:
 Use resource groups to group users, facilities, and equipment as part of the selection rules for a service.
 
 > [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
 1. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)]  
   

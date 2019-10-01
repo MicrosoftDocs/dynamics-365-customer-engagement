@@ -1,5 +1,5 @@
 ---
-title: Project Manager Guide (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Project Manager Guide
 description: A guide to project management with Project Service
 author: ruhercul
 manager: kfend

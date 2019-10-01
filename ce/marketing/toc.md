@@ -1,4 +1,4 @@
-# [Dynamics 365 for Marketing](help-hub.md)
+# [Dynamics 365 Marketing](help-hub.md)
 
 ## [Overview](overview.md)
 ## [Marketing videos](marketing-videos.md)
@@ -7,8 +7,8 @@
 
 ### Set up and manage Marketing instances
 #### [Sign up for a free trial](trial-signup.md)
-#### [Purchase and set up Dynamics 365 for Marketing](purchase-setup.md)
-#### [Integrate Marketing with a CMS system or Dynamics 365 portal](portal-optional.md)
+#### [Purchase and set up Dynamics 365 Marketing](purchase-setup.md)
+#### [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
 #### [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)
 #### [Re-run the Marketing setup wizard](re-run-setup.md)
 #### [Manage Marketing instances](manage-marketing-instances.md)
@@ -28,7 +28,19 @@
 ##### [Manage Excel templates](manage-excel-templates.md)
 ##### [Manage Word templates](manage-word-templates.md)
 #### [Business Management settings](business-management-settings.md)
-#### [Marketing settings](marketing-settings.md)
+
+#### Marketing settings
+##### [Marketing settings overview](marketing-settings.md)
+##### [Configure lead scoring options](mkt-settings-lead-score-options.md)
+##### [Authenticate your domains](mkt-settings-authenticate-domains.md)
+##### [Marketing analytics configuration](mkt-settings-analytics.md)
+##### [Configure landing pages](mkt-settings-landing-pages.md)
+##### [Sync with the marketing-insights service](mkt-settings-sync.md)
+##### [Set matching strategies](mkt-settings-matching.md)
+##### [Default marketing settings](mkt-settings-default-marketing.md)
+##### [Configure your social media accounts](mkt-settings-social-media.md)
+##### [Data protection tools](mkt-settings-data-protection.md)
+
 #### [Event management settings](events-settings.md)
 #### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
 #### [Manage sample data](additional-settings.md)
@@ -187,7 +199,7 @@
 ### [Preview: Extend event management to support more webinar providers](developer/extend-event-management.md)
 ### Early access: Build an approval feature
 #### [Overview](developer/marketing-approvals-feature.md)
-#### [Build using Flow](developer/build-approval-feature-using-flow.md)
+#### [Build approvals feature using Microsoft Flow](developer/build-approval-feature-using-flow.md)
 ### Create a custom event website
 #### [Overview](developer/event-management-web-application.md)
 #### Self-hosted
@@ -209,5 +221,5 @@
 ### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
 ### [Extend Marketing forms using client side scripting](developer/marketing-form-client-side-extensibility.md)
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
-#### [Dynamics 365 for Marketing solutions](developer/marketing-solutions.md)
-#### [Dynamics 365 for Marketing entity reference](developer/marketing-entity-reference.md)
+#### [Dynamics 365 Marketing solutions](developer/marketing-solutions.md)
+#### [Dynamics 365 Marketing entity reference](developer/marketing-entity-reference.md)
