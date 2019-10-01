@@ -3,7 +3,8 @@ title: "What's new in Dynamics 365 Sales | MicrosoftDocs"
 description: "Learn about what's new in the latest release of Dynamics 365 Sales."
 keywords: "what's new, Dynamics 365 Sales"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
+ms.service:
+  - "dynamics-365-sales"
 ms.topic: article
 ms.assetid: a87d5f37-892f-43a8-97b2-151037132f72
 author: shubhadaj
@@ -14,6 +15,10 @@ manager: annbe
 # What's new in Dynamics 365 Sales
 
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! Visit this page to see what’s added or updated recently. 
+
+## Dynamics 365 Sales, October 2019 release
+
+All the features that were released for public preview or early access in August 2019 will be generally available beginning October 1, 2019. More information: [What's new and planned](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-sales/planned-features)
 
 
 ## Dynamics 365 Sales, August 2019 release
