@@ -2,7 +2,7 @@
 title: "Installation & setup for Connected Field Service for IoT Hub (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom:
   - dyn365-fieldservice
-ms.date: 08/23/2019
+ms.date: 10/01/2019
 ms.reviewer:
 ms.service: dynamics-365-customerservice
 ms.suite:
@@ -29,11 +29,6 @@ search.app:
 
 This guide provides all the steps required for getting up and running with Connected Field Service (CFS) for IoT Hub. If you're looking for information about CFS for IoT Central, be sure to visit our tutorial on getting set up.
 
-## Prerequisites
- Before you install [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)], make sure you have the following:
-
-- [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)
-
 
 ## Prerequisites  
  Before you install [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)], make sure you have the following:  
@@ -49,35 +44,43 @@ This guide provides all the steps required for getting up and running with Conne
 - Microsoft Power BI PRO and the sample report template. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Download the Power BI Template for Connected Field Service](http://download.microsoft.com/download/E/B/5/EB5ED97A-A36A-4CAE-8C04-333A1E463B4F/PowerBI%20Report%20Template%20for%20Connected%20Field%20Service%20for%20Microsoft%20Dynamics%20365.pbix)  
   
 <a name="bkmk_install"></a>   
+
 ## Install Connected Field Service  
- Install the Connected Field Service solution from your Office 365 admin portal. The solution includes a sample thermostat simulator app that you can use to send test alerts to connected devices that are registered in field service.  
+ 
+ The Connected Field Service solution is included with the Field Service solution. Creating a new Field Service environment or upgrading an existing one to v7.5.5 or v8.3+ will automatically include the Connected Field Service entities and related processes:
+
+ - Assets
+ - IoT Alerts
+ - Devices
+ - Commands
+ 
+ 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-navigation.png)
+
+Verify you have the Connected Field Service entities in your environment.
+
+Next, deploy and connect Azure IoTHub to your Field Service environment by going to [https://cfsdeployment.crm.dynamics.com/](https://cfsdeployment.crm.dynamics.com/) and following the instructions.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-deployment-app-screen-1.png)
+
+
+> [!Note]
+> If you are using an older version of Field Service and cannot upgrade, you can add the connected field service solution  you your field service environment from the app store. 
+  1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com) with your Global Administrator or Dynamics 365 system administrator credentials.  
+  2. Click **Admin centers** > **Dynamics 365**  
+  3. Click the **Applications** tab, and then select **Connected Field Service**.  
+  4. Click **Manage**.  
+  5. Read and accept the **Terms of service**.  
+  6. In the **Installing Azure Required Assets** dialog box, enter your Azure account, click **Sign In User**, and then  follow the sign-in process.  
+  7. In the **Selecting Azure Subscription** dialog box, select the Azure subscription that you want to create resources under and then click **Next**.  
+  8. In the **Choose a resource group** dialog box, create a new resource group or use an existing resource group.  
+  9. **Optional Step for Power BI**.  To install the Azure SQL database that is used for Power BI, check the **Enable Power BI Integration** box, and then enter the Azure SQL database user name and password. 
+  10. Click **Deploy**.  
   
- Developers can also use the simulator as a sample template to further customize the app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connected Field Service Developer Guide](https://msdn.microsoft.com/en-us/library/mt790241.aspx)  
-  
-1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com) with your Global Administrator or Dynamics 365 system administrator credentials.  
-  
-2. Click **Admin centers** > **Dynamics 365**  
-  
-3. Click the **Applications** tab, and then select **Connected Field Service**.  
-  
-4. Click **Manage**.  
-  
-5. Read and accept the **Terms of service**.  
-  
-6. In the **Installing Azure Required Assets** dialog box, enter your Azure account, click **Sign In User**, and then  follow the sign-in process.  
-  
-7. In the **Selecting Azure Subscription** dialog box, select the Azure subscription that you want to create resources under and then click **Next**.  
-  
-8. In the **Choose a resource group** dialog box, create a new resource group or use an existing resource group.  
-  
-9. **Optional Step for Power BI**.  To install the Azure SQL database that is used for Power BI, check the **Enable Power BI Integration** box, and then enter the Azure SQL database user name and password.  
-  
-    > [!NOTE]
-    >  To Power BI, you will also need to download a PBIX (PowerBI desktop file) to publish reports.  
-  
-10. Click **Deploy**.  
-  
-    After you’ve installed all required Azure resources, click **Authorize** to configure the Dynamics 365 connector connection API . When you configure the connection API you’ll need to enter your Dynamics 365 subscription account.  
+
+After you’ve installed all required Azure resources, click **Authorize** to configure the Dynamics 365 connector connection API. When you configure the connection API you’ll need to enter your Dynamics 365 subscription account. See more details in the topic on [Authorize API connection between Dynamics 365 and AzureIoT](./cfs-authorize-api-connection.md).
   
 > [!NOTE]
 >  Before you click the **Authorize** button, make sure all required Azure resources are successfully deployed and that the overall deployment status is “Success”.  
