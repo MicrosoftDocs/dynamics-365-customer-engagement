@@ -61,7 +61,7 @@ The **Pre-chat survey** tab displays the survey answers against the questions th
 
 ### Preview: Journey
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 The **Journey** tab displays information on the path (recent operations) the customer took just before initiating a conversation. The information enables the agents to understand why a customer reached out and also to provide a personalized service with fast resolution and improved customer satisfaction. The **Journey** tab displays the information in the reverse chronological order, and is categorized into the following type of actions:
 
