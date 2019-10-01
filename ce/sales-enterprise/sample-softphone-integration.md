@@ -16,19 +16,11 @@ manager: annbe
 
 # Integrate a sample softphone with Dynamics 365 Sales
 
-
-<!--from editor: Is there another way to write the first sentence without using "integrated" twice? -->
-
-
-An integrated softphone dialer provides a simple and integrated way to call customers from within Microsoft Dynamics 365 Sales. The communications that take place are captured as phone call activity in Dynamics 365 Sales.  
-
-
-<!--from editor: I checked the MS style guide and found that CIF should always be Dynamics 365 Channel Integration Framework. -->
+A softphone dialer provides a simple and integrated way to call customers from within Microsoft Dynamics 365 Sales. The communications that take place are captured as phone call activity in Dynamics 365 Sales.  
 
 Organizations can integrate a softphone dialer from their telephony provider in Dynamics 365 Sales using Dynamics 365 Channel Integration Framework. Once integrated, sales reps can quickly call their contacts by selecting a phone number right from their app.  
 
-This topic describes how to install the *sample* app and test the calling capabilities. 
-
+This topic describes how to install a *sample* app and test the calling capabilities. 
 
 > [!IMPORTANT]
 > -  This sample code currently has limited availability.
@@ -41,19 +33,9 @@ To configure the sample:
 
 1. Get Dynamics 365 Channel Integration Framework from Microsoft AppSource. For information on prerequisites and how to get Dynamics 365 Channel Integration Framework, see [Get Dynamics 365 Channel Integration Framework](../customer-service/channel-integration-framework/get-channel-integration-framework.md).
 
-
-<!--from editor: The download center link, below, doesn't seem to go to the download center, and I don't see where a reader would find that file. -->
-
 2. Import the **msdyn_CIFramework_managed.zip** managed solution from the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104591). More information: [Import, update, and upgrade a solution](../customize/import-update-upgrade-solution.md)
 
-
-<!--from editor: What does "(available here)" mean - is it supposed to be a link? Also, please confirm that the download center link is actually the download center. It isn't clear what the reader should be looking for on that page. --> 
-
-
-3. Integrate the sample app (available here) available on the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590) using Dynamics 365 Channel Integration Framework. More information: [Sample softphone integration using Channel Integration Framework](../customer-service/channel-integration-framework/sample-softphone-integration.md).
-
-
-<!--from editor: Again, please confirm that the download center link is correct. -->
+3. Integrate the sample app available on the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590) using Dynamics 365 Channel Integration Framework. More information: [Sample softphone integration using Channel Integration Framework](../customer-service/channel-integration-framework/sample-softphone-integration.md).
 
     > [!IMPORTANT]
     > You must use the sample app from the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590), and not the one that's mentioned in the [Sample softphone integration using Channel Integration Framework](../customer-service/channel-integration-framework/sample-softphone-integration.md) topic.

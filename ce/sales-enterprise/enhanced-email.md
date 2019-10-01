@@ -18,10 +18,6 @@ manager: annbe
 
 The enhanced email experience in Dynamics 365 Sales allows sales reps to compose an email without leaving the record they’re working on. With the enhanced email experience, you can:
 
-
-<!--from editor: pop-up shouldn't be used as a noun. Do these refer to pop-up windows? -->
-
-
 - Navigate to different pages without losing the email content.
 - Minimize the email window to get back to the records you were working on.
 - Expand the email editor pop-up window to see more email options.
@@ -35,19 +31,12 @@ The enhanced email experience in Dynamics 365 Sales allows sales reps to compose
 
 Compose an email using the enhanced experience:
 
-
-<!--from editor: Please check the next sentence, which I restructured. -->
-
-
 1. In the **Timeline** section of the account, contact, lead, or opportunity records, select **+** and then under **Activities**, select **Email**.
 
-
-<!--from editor: Would it be OK and correct to say "A new email message opens."?-->
-
-   An email pop-up opens. 
+   A new email pop-up window opens. 
 
    > [!div class="mx-imgBorder"]
-   > ![Enhanced email pop-up](media/enhanced-email-pop-up.png "Enhanced email pop-up")
+   > ![Enhanced email pop-up window](media/enhanced-email-pop-up.png "Enhanced email pop-up window")
 
    The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
 
@@ -59,12 +48,8 @@ Compose an email using the enhanced experience:
 
 5. When you're done, select **Send**. 
 
-
-<!--from editor: Does the following mean that if lower, you'll be taken to the standard email form instead of enhanced? -->
-
-
 > [!IMPORTANT]
-> The enhanced email pop-up window opens only when the height and width of your screen size is at least 600 x 840 pixels or greater. If lower, you will be taken to the email form from wherever you are in the app, and the context won't be preserved. 
+> The enhanced email pop-up window opens only when the height and width of your screen size is at least 600 x 840 pixels or greater. If lower, you will be taken to the standard form instead of the enhanced email experience. 
 
 ### See also
 
