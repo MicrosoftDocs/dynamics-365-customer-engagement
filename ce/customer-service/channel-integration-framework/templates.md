@@ -243,12 +243,8 @@ You must associate the notification templates to a session template.
 |---------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | General | Name         | Specify the name for the notification. This name wouldn't be visible for the agents at the run-time.                                                             | Name of the customer                |
 | General | Field header | Provide a field header. This appears in the notification that agents to see at the run-time.                                                                     | Name                                |
-| General | Value        | Provide a value that appears against **Field header** in the notification.                                                                                       | {customerName}                      
-                                         
- **Note:** This is an example value.  |
-| General | Priority     | Provide a number to assign the priority, which is the order of appearance on the notification. If you give the priority as 4, the field appears as 4th from top. 
-                                                                                                                                                                     
-   A maximum of four Field headers are shown on a notification.                                                                                                      | 1                                   |
+| General | Value        | Provide a value that appears against **Field header** in the notification.                                                                                       | {customerName}                      |
+| General | Priority     | Provide a number to assign the priority, which is the order of appearance on the notification. If you give the priority as 4, the field appears as 4th from top. A maximum of four Field headers are shown on a notification. | 1 |
 
 1.  Select the back arrow on the browser to go the notification template you created. Alternatively, you select **Notifications** in the sitemap and then select the template you created.
 
