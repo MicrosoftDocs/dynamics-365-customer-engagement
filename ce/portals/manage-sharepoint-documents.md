@@ -34,7 +34,7 @@ To work with the document management capabilities of [!INCLUDE[pn-sharepoint-sho
 
 1.	[Enable document management functionality in Dynamics 365](#step-1-enable-document-management-functionality-in-dynamics-365)
 
-2.	[Set up SharePoint integration from portal admin center](#step-2-set-up-sharepoint-integration-from-portal-admin-center)
+2.	[Set up SharePoint integration from PowerApps Portals admin center](#step-2-set-up-sharepoint-integration-from-portal-admin-center)
 
 3.	[Enable document management for entities](#step-3-enable-document-management-for-entities)
 
@@ -46,9 +46,9 @@ To work with the document management capabilities of [!INCLUDE[pn-sharepoint-sho
 
 You must enable document management functionality in Dynamics 365 by using server-based [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration. Server-based [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration allows Dynamics 365 and [!INCLUDE[pn-microsoft-sharepoint-online](../includes/pn-microsoft-sharepoint-online.md)] to perform a server-to-server connection. The default [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] site record is used by the portal. For information on how to enable document management functionality in Dynamics 365, see [Configure server-based authentication with Dynamics 365 and SharePoint Online](https://docs.microsoft.com/dynamics365/customer-engagement/admin/configure-server-based-authentication-sharepoint-online).
 
-## Step 2: Set up SharePoint integration from Portal Admin Center
+## Step 2: Set up SharePoint integration from PowerApps Portals admin center
 
-To use the document management capabilities of [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] from within Dynamics 365, you must enable [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration from the Portal Admin Center.
+To use the document management capabilities of [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] from within Dynamics 365, you must enable [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration from the PowerApps Portals admin center.
 
 > [!NOTE]
 > You must be a global administrator to perform this action.
