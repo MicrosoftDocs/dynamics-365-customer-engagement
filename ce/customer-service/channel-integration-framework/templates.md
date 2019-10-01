@@ -9,7 +9,7 @@ ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"
 ms.topic: article
-ms.assetid: AE4A0727-FEA6-49A0-8DCC-0F149BE70C8B
+ms.assetid: 7A99074E-9C3E-4DF0-98B4-AB7546C892C1
 author: susikka
 ms.author: susikka
 manager: shujoshi
@@ -25,11 +25,10 @@ For example: When an agent gets an incoming chat conversation notification, and 
 
 To choose the applications you want to open for every session, according to your organization requirements, session templates are introduced.
 
-**Warning:**
+> [!WARNING]
+> It is recommended that you don’t edit the out-of-the-box-sample templates present in the package as it affects the functionality.
 
-It is recommended that you don’t edit the out-of-the-box-sample templates present in the package as it affects the functionality.
-
-# Session templates
+## Session templates
 
 Session template in Channel Integration Framework app is a combination of attributes and application tab information that are reusable.
 
@@ -55,7 +54,7 @@ The out-of-the-box- session templates are as follows:
 
 A session template is the place where, as an administrator, you must define the anchor tab and additional application tabs that must open when a session starts.
 
-## Create a session template
+### Create a session template
 
 To create a session, follow these steps:
 
@@ -93,7 +92,7 @@ To create a session, follow these steps:
 
 4.  Select **Save** to save the changes.
 
-# Application tab templates
+## Application tab templates
 
 Application tab template in the Channel Integration Framework app provides the type of applications you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
 
@@ -107,7 +106,7 @@ For example, you can create the Customer summary application type and associate 
 
 In your environment, as an administrator, you can create multiple application tab templates.
 
-## Create an application tab template
+### Create an application tab template
 
 1.  Sign in to the Channel Integration Framework app.
 
@@ -191,7 +190,7 @@ Update the value against the <strong>webresourceName</strong> parameter</td>
 
 3.  Select **Save** to save the changes.
 
-# Notification templates
+## Notification templates
 
 When agents get a notification, the notification displays certain information like from which customer the conversation request is coming, wait time, some button like accept and reject. Each organization has varied business requirements and want to show relevant information in the notification to agents.
 
@@ -201,7 +200,7 @@ As an administrator, system integrator, or partner, you can use the templates or
 
 You must associate the notification templates to a session template.
 
-## Create a notification template
+### Create a notification template
 
 1.  Sign in to the Channel Integration Framework app.
 

@@ -42,8 +42,9 @@
   - name: JavaScript API Reference
     items:
     - name: "Microsoft.CIFramework"
-      href: reference/microsoft-ciframework.md
       items:
+      - name: "Overview"
+        href: reference/microsoft-ciframework.md
       - name: "setWidth"
         href: reference/microsoft-ciframework/setWidth.md
       - name: "getWidth"
@@ -106,10 +107,14 @@
         href: reference/microsoft-ciframework/settabtitle.md
       - name: "notifyEvent"
         href: reference/microsoft-ciframework/notifyevent.md
-      - name: "initLogAnalytics"
-        href: reference/microsoft-ciframework/initLogAnalytics.md
-      - name: "logAnalyticsEvent"
-        href: reference/microsoft-ciframework/logAnalyticsEvent.md
+      - name: "Analytics APIs"
+        items:
+        - name: "Overview"
+          href: reference/microsoft-ciframework/channel-analytics.md
+        - name: "initLogAnalytics"
+          href: reference/microsoft-ciframework/initLogAnalytics.md
+        - name: "logAnalyticsEvent"
+          href: reference/microsoft-ciframework/logAnalyticsEvent.md
     - name: "Client-side events"
       href: reference/client-side-events.md
       items:
