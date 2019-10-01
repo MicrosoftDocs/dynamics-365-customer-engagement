@@ -24,25 +24,24 @@ search.app:
 
 To deploy Resource Scheduling Optimization, you must first do the following:
 
-- Purchase Plan 1 for Dynamics 365 for Customer Engagement and RSO licenses. RSO does not work on earlier versions of Dynamics 365 for Customer Engagement Online.
+- Purchase Plan 1 for Dynamics 365 and RSO licenses. RSO does not work on earlier versions of Dynamics 365 Online.
 
   > [!NOTE]
   > A paid Plan 1 or Dynamics 365 Field Service subscription is required for purchasing and enabling RSO. 
 
-- Install Dynamics 365 for Field Service.
+- Install Dynamics 365 Field Service.
 
     > [!div class="mx-imgBorder"]
     > ![](media/70dc3d56ea79ba8554b8a6d1e8412453.png)
 
 -  Under Purchase Services, find Resource Scheduling Optimization. After buying
     at least one Plan 1 user subscription, add RSO, which you will find under
-    **Billing** \> **Purchase services**. Scroll down to find Dynamics 365 for Customer Engagement for
-    Field Service, Enterprise Edition – Resource Scheduling Optimization. The price of RSO is based on schedulable resources.
+    **Billing** \> **Purchase services**. Scroll down to find Dynamics 365 Field Service, Enterprise Edition – Resource Scheduling Optimization. The price of RSO is based on schedulable resources.
 
     > [!div class="mx-imgBorder"]
     > ![](media/f2c51af5f406959188248862933fcecd.png)
 
-    The RSO instance is associated with a single Dynamics 365 for Customer Engagement organization in
+    The RSO instance is associated with a single Dynamics 365 organization in
     the tenant. You can change the associated organization through the RSO
     deployment app’s page. If additional RSO instances are needed for dev/test and you have an
     Enterprise Agreement with Microsoft, contact your technical account manager. Such instances are
@@ -53,7 +52,7 @@ To deploy Resource Scheduling Optimization, you must first do the following:
 > [!NOTE]
 > **Do not** install the Resource Scheduling Optimization solution from the solution page. Follow the next steps using the RSO deployment app to deploy.
 
-1. Go to the Dynamics 365 for Customer Engagement admin center and select the **APPLICATIONS** tab.
+1. Go to the Dynamics 365 admin center and select the **APPLICATIONS** tab.
 
 2. Select the **Resource Scheduling Optimization** application to configure or
     manage.
@@ -70,9 +69,9 @@ To deploy Resource Scheduling Optimization, you must first do the following:
 
 4. Click **Upgrade to new version** to apply a new update if one is available.
 
-5. Use **Change Organization** to change the RSO deployment from a Dynamics 365 for Customer Engagement
+5. Use **Change Organization** to change the RSO deployment from a Dynamics 365 
     organization to another. This will not delete anything inside of the
-    original Dynamics 365 for Customer Engagement organization.
+    original Dynamics 365 organization.
 
 6. Use **Delete current deployment** to delete RSO Azure resources. The RSO
     solution will remain, which will not impact anything inside of the Dynamics

@@ -1,27 +1,27 @@
 ---
 title: "Field Service Version History | MicrosoftDocs"
-ms.custom: 
+ms.custom:
   - dyn365-fieldservice
 ms.date: 09/17/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "field-service"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
 author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
+search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
+search.app:
   - D365CE
   - D365FS
 ---
@@ -49,7 +49,7 @@ search.app:
 | 8.3  |  December 2018 | SLA functionality for Work Orders, Connected Field Service solution included with Field Service   | [Release notes for 8.3.0.255](https://blogs.msdn.microsoft.com/crm/2018/12/21/release-notes-for-field-service-version-8-update-release-3/) |
 | 8.0  |  July 2018 |  Multi-resource scheduling (requirement groups) |
 |  7.5 |  February 2019 |  |    [Release notes for 7.5.6.97](https://blogs.msdn.microsoft.com/crm/2019/02/04/release-notes-for-field-service-version-7-5-6-97/), [7.5.7.87](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-7-5-7-87/), [7.5.8.93](https://cloudblogs.microsoft.com/dynamics365/it/2019/04/06/release-notes-for-field-service-version-7-5-8-93/) |
-|  7.0 |  September 2017 |  Schedule board extensibility for custom resource matching |  
+|  7.0 |  September 2017 |  Schedule board extensibility for custom resource matching |
 
 
 ## Field Service Mobile app version history
@@ -71,21 +71,21 @@ search.app:
 
 ## Mobile project file library
 
-Mobile projects hold configurations and customizations of the Field Service Mobile app such as view and form layout, mobile workflows called form rules, and offline HTML/JavaScript. These mobile projects are imported through the Field Service Mobile Configuration Tool (Woodford). The Field Service engineering team periodically releases new mobile project templates to reflect new product updates and improve usability and performance. 
+Mobile projects hold configurations and customizations of the Field Service Mobile app such as view and form layout, mobile workflows called form rules, and offline HTML/JavaScript. These mobile projects are imported through the Field Service Mobile Configuration Tool (Woodford). The Field Service engineering team periodically releases new mobile project templates to reflect new product updates and improve usability and performance.
 
-To learn more about mobile projects, see our topic on [installing the Field Service Mobile Configuration Tool](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool).
+To learn more about mobile projects, see our topic on [installing the Field Service Mobile Configuration Tool](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool).
 
 | Template version  | Template name | Release date | Relates to Field Service Mobile version |  Publish to Woodford Version |
 |---|---|---|---|---|
 | [1.0.2735](https://aka.ms/fsmobile-project)  |  FSDyn365_1.0.2735.woodford | August 2019  |  11.3 | 11.3 |
 | 1.0.1322  |  FSDyn365_1.0.1322.woodford | December 2018  |  11.2 | 11.2 |
 | [Field Service v6.1 v1.0.0.0](https://go.microsoft.com/fwlink/p/?linkid=836310)  |  CentaurusStoreVersion.woodford | December 2018  |  **Field Service Mobile (2017)** 9.0+ | 9.1 |
-| [ Field Service v6.0 v1.0.0.0](http://go.microsoft.com/fwlink/p/?LinkId=808250)  |  Field Service Mobile default project.woodford | December 2018  |  **Field Service Mobile (2016)** 8.0 | 8.0 |
+| [ Field Service v6.0 v1.0.0.0](https://go.microsoft.com/fwlink/p/?LinkId=808250)  |  Field Service Mobile default project.woodford | December 2018  |  **Field Service Mobile (2016)** 8.0 | 8.0 |
 
 ## Trials and upgrades
 
- - All new Dynamics 365 Field Service environemnts will install the latest generally available Field Service solution. 
- - For existing environments, when a new upgrade is avaialble, you can upgrade your solution in **Admin Center** > **Dynamics 365**, as seen in the following screenshot. 
+ - All new Dynamics 365 Field Service environemnts will install the latest generally available Field Service solution.
+ - For existing environments, when a new upgrade is avaialble, you can upgrade your solution in **Admin Center** > **Dynamics 365**, as seen in the following screenshot.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the admin center upgrade path for Field Service](./media/admin-upgrade-to-latest-admin-center.png)
 

@@ -27,7 +27,7 @@ search.app:
 
 # 3D models for Field Service
 
-Dynamics 365 for Field Service allows organizations to upload 3D models for field technicians to reference in the field. Typically a 3d model relates to a specific product or customer asset and helps field technicians with equipment repair and other tasks. As opposed to recording videos or writing long manuals, field service organizations can leverage pre-existing 3D models to generate what are effectively 3D knowledge articles.
+Dynamics 365 Field Service allows organizations to upload 3D models for field technicians to reference in the field. Typically a 3d model relates to a specific product or customer asset and helps field technicians with equipment repair and other tasks. As opposed to recording videos or writing long manuals, field service organizations can leverage pre-existing 3D models to generate what are effectively 3D knowledge articles.
 
 You can configure 3D models by using an N:N relationship between the 3D model and customer asset entities, which enables 3D models to be associated with customer assets.
 
@@ -35,7 +35,7 @@ In this topic, we'll walk through how to associate a 3D model record with a cust
 
 ## Prerequisites
 
-- Dynamics 365 for Customer Engagement v9.0+ 
+- Dynamics 365 v9.0+ 
 - Field Service v8.0+
 - Ensure the **3D Viewer** solution is installed in **Settings** > **Customizations**
 - Increased storage for large 3D file sizes. You can do this by increasing attachment file size limit in Dynamics 365 administration, or by using Azure Blob storage.

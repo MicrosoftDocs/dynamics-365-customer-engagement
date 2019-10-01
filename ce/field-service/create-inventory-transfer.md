@@ -1,5 +1,5 @@
 ---
-title: "Create an inventory transfer (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Create an inventory transfer (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -10,8 +10,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 author: krbjoran
 ms.assetid: dbf20833-9c77-464e-be79-e80150e2121e
 caps.latest.revision: 14
@@ -49,7 +47,7 @@ An inventory transfer is when you change the warehouse location of product inven
 6.  Click **Transfer**.  
   
 ### See also    
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Configure and set up customer assets](../field-service/configure-set-up-customer-assets.md)   
  [Create a purchase order](../field-service/create-purchase-order.md)   
  [Create an inventory adjustment](../field-service/create-inventory-adjustment.md)   

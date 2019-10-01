@@ -1,14 +1,12 @@
 ---
-title: "Publish records with go live and track their status (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Find out which types of records must be published (go live) before you can use them, how to track their go-live status, and how to stop or edit records that are already live in Dynamics 365 for Marketing"
+title: "Publish records with go live and track their status (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Find out which types of records must be published (go live) before you can use them, how to track their go-live status, and how to stop or edit records that are already live in Dynamics 365 Marketing"
 keywords: publish;live;status;status reason;go live
 ms.date: 02/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c618e1c0-53a3-4e8a-950b-ae8bcbf28e5f
 author: kamaybac
 ms.author: kamaybac
@@ -26,15 +24,15 @@ search.app:
 
 # Go live with publishable entities and track their status
 
-Many of the entities that you work with in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] require you to _go live_ with a record before you can it them in your live marketing initiatives. The go-live process takes a record you are working with, checks it for errors, prepares it for use, and marks it as available. In some cases, the go-live process ends by moving the final record to a marketing service, which runs in parallel to your application instance and processes data-intensive features like bulk email sending, collecting and analyzing results, or populating dynamic segments. The go-live process is sometimes also referred to as _publishing_.
+Many of the entities that you work with in Dynamics 365 Marketing require you to _go live_ with a record before you can it them in your live marketing initiatives. The go-live process takes a record you are working with, checks it for errors, prepares it for use, and marks it as available. In some cases, the go-live process ends by moving the final record to a marketing service, which runs in parallel to your application instance and processes data-intensive features like bulk email sending, collecting and analyzing results, or populating dynamic segments. The go-live process is sometimes also referred to as _publishing_.
 
 Some types of entities require a live records to be stopped before you can edit it, while others let you push updates from the app without stopping the live process. In some cases, you won't be able to make certain types of changes (or even any changes at all) once you have gone live with a given record.
 
 ## Monitor go-live status with status and status reason
 
-Nearly all entities in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] have both **Status** and **Status reason** fields. The **Status** is always either _active_ or _inactive_, which indicates whether the record is in use and can affect where it is visible and selectable in the UI. The **Status reason** gives more information about the **Status**, and often functions as a sub-status (which it usually does for publishable entities in [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]).
+Nearly all entities in Dynamics 365 have both **Status** and **Status reason** fields. The **Status** is always either _active_ or _inactive_, which indicates whether the record is in use and can affect where it is visible and selectable in the UI. The **Status reason** gives more information about the **Status**, and often functions as a sub-status (which it usually does for publishable entities in Marketing).
 
-For most types of entities, you can manually assign the active/inactive **Status** for each record using buttons on the command bar. You might use this, for example, to mark a contact as inactive, which hides that contact from most views but keeps it in your database for future or historical reference. For publishable entities in [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], the system usually manages the **Status reason** value (which is therefore read-only) to give you more information about the publish status. For some publishable entities in [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], the **Status** field is also managed by the system and therefore may not be editable directly either. See the remaining sections of this topic for details.
+For most types of entities, you can manually assign the active/inactive **Status** for each record using buttons on the command bar. You might use this, for example, to mark a contact as inactive, which hides that contact from most views but keeps it in your database for future or historical reference. For publishable entities in Marketing, the system usually manages the **Status reason** value (which is therefore read-only) to give you more information about the publish status. For some publishable entities in Marketing, the **Status** field is also managed by the system and therefore may not be editable directly either. See the remaining sections of this topic for details.
 
 All entities provide a view selector for list views, where you can choose a saved query such as "Active journeys", "All live journeys", "Inactive journeys", and so on. In most cases, you can find inactive records by going to the "Inactive …" view, where you can usually reactivate a record if needed.
 
@@ -179,7 +177,7 @@ All marketing-page settings are editable when the page has a status reason of Dr
 
 ## Marketing forms go-live operations and status
 
-Marketing forms are reusable form elements that you can embed in your marketing pages. They get published to the marketing services, where they are made available to marketing pages running on the portal. The forms can also be embedded onto any web page, such as on your own website, rather than on a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] marketing page.
+Marketing forms are reusable form elements that you can embed in your marketing pages. They get published to the marketing services, where they are made available to marketing pages running on the portal. The forms can also be embedded onto any web page, such as on your own website, rather than on a Dynamics 365 Marketing page.
 
 You can manually set the **Status** of a draft or stopped marketing form to _active_ or _inactive_ by using the buttons on the command bar (as with most entities). The **Status reason** indicates the page's go-live state and is read-only.
 
@@ -198,7 +196,7 @@ All marketing-form settings are editable when the page has a status reason of Dr
 
 ## Events, session, and tracks go-live operations and status
 
-When you publish an event, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] makes that event available to the event website. The event website displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the record, and any changes you make to a published event, and its related published records, will immediately be reflected on the website too.
+When you publish an event, Dynamics 365 Marketing makes that event available to the event website. The event website displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the record, and any changes you make to a published event, and its related published records, will immediately be reflected on the website too.
 
 Event sessions work similarly to the event itself, and essentially function as sub-events that, taken together, create the overall event schedule. The event website shows a schedule of sessions that belong to each event. An event can include both published and unpublished sessions, but only published sessions belonging to published events are shown on the website.
 

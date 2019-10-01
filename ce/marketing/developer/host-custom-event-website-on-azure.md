@@ -9,8 +9,6 @@ ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
 ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
 author: Nkrb
 ms.author: nabuthuk
 manager: kvivek
@@ -24,7 +22,7 @@ This topic walks you through the process of hosting your custom event website on
 
 1. Download the [source code](https://go.microsoft.com/fwlink/?linkid=2042224) to customize the provided demo website.
 2. Install [Node.js](https://nodejs.org/en/download/) version 10.x or higher.
-3. Download the [Azure storage explorer](https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows)
+3. Download the [Azure storage explorer](https://docs.microsoft.com/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows)
 
 ## Step 1:  Create an Azure storage account
 
@@ -89,7 +87,7 @@ To use event management public API, you need a web application token. The web ap
    ![Web blob container](../media/web-blob-container.png "Web blob container")
    
 5. Upload all the files that you have generated before located in `dist/ClientApp` folder into the `$web` blob container. 
-6. To see the custom event website in run time, copy the **Origin** field value from the web application record in Dynamics 365 for Marketing and open it in the browser.
+6. To see the custom event website in run time, copy the **Origin** field value from the web application record in Dynamics 365 Marketing and open it in the browser.
 
 ### See also
 

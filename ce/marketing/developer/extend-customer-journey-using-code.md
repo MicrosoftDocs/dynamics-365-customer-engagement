@@ -5,9 +5,9 @@ ms.custom: ""
 ms.date: 04/03/2019
 ms.service: "D365CE"
 ms.topic: "article"
-ms.author: "nabuthuk" # MSFT alias of Microsoft employees only
+ms.author: nabuthuk
 author: Nkrb
-manager: "kvivek" # MSFT alias of manager or PM counterpart
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -34,13 +34,13 @@ When you extract the .zip file, you find three projects in it:
    - Validating and publishing the existing customer journey record.
 
 > [!NOTE]
-> You need to have access to Microsoft Dynamics 365 for Marketing app. More information: [Install Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup).
+> You need to have access to Microsoft Dynamics 365 Marketing app. More information: [Install Dynamics 365 Marketing app](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup).
 
 ## How to run the sample
 
 1. Download and extract the sample. 
 2. Open `Microsoft.Dynamics.Marketing.Samples.sln` in Visual Studio.
-3. Implement the `GetConnectionString` method in `Program.cs`. Look in the source code for instructions. This is required to sign in to a specific Microsoft Dynamics 365 for Customer Engagement apps environment.
+3. Implement the `GetConnectionString` method in `Program.cs`. Look in the source code for instructions. This is required to sign in to a specific Dynamics 365 environment.
 4. Select the sample that you want to run by using command-line parameters; for example, `customerjourneycreate` creates a sample customer journey with a segment and email. 
 If you don’t specify a parameter, the usage screen is printed. 
 5. Press **F5** to run the sample. 

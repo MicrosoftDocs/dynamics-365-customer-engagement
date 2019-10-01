@@ -1,14 +1,12 @@
 ---
-title: "Create segments based on interactions (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to create segments based on contact interaction records in Dynamics 365 for Marketing"
+title: "Create segments based on interactions (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to create segments based on contact interaction records in Dynamics 365 Marketing"
 keywords: segments; interaction segment
 ms.date: 09/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 332e95b3-82fa-4fdd-834c-3fda05caa3bd
 author: kamaybac
 ms.author: kamaybac
@@ -28,15 +26,15 @@ search.app:
 
 The segmentation tool always works in one of two modes, which enable it to create either of the following two types of segments:
 
-- **Profile segments** query the _profile_ records stored in the customer-interaction database. Profile records are synced between your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database and the customer-interaction database and include the entities you normally work with in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](marketing-settings.md#matching-strategy).
+- **Profile segments** query the _profile_ records stored in the marketing-insights service. Profile records are synced between your Dynamics 365 organizational database and the marketing-insights service and include the entities you normally work with in the Dynamics 365 Marketing UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](mkt-settings-sync.md).
 
-- **Interaction segments** query the _interaction_ records stored in the customer-interaction database. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insight displays in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] UI, but they _aren't_ synced to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database. They are generated in response to contact interactions, such as opening an email, clicking an email link, submitting a form, or registering for an event.
+- **Interaction segments** query the _interaction_ records stored in the marketing-insights service. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insight displays in the Dynamics 365 Marketing UI, but they _aren't_ synced to the Dynamics 365 organizational database. They are generated in response to contact interactions, such as opening an email, clicking an email link, submitting a form, or registering for an event.
 
 Unlike profile segments, interaction segments allow for only a single query group, which means that the **Flow** tab isn't available, and your entire query must contain just a single group. However, you can combine interaction segments with other interaction or profile segments by [creating a compound segment](segments-compound.md).
 
 This topic describes how to work with interaction segments. For more about profile segments, see [Profile-based dynamic segments](segments-profile.md).
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Working with segments](segmentation-lists-subscriptions.md)
+More information: [Working with segments](segmentation-lists-subscriptions.md)
 
 ## Create an interaction segment
 

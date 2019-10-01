@@ -1,5 +1,5 @@
 ---
-title: "Use Liquid conditional operators for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Use Liquid conditional operators for a portal | MicrosoftDocs"
 description: "Learn about the available liquid conditional operators in a portal."
 ms.custom: 
   - dyn365-portal

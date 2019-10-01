@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Upgrade to the latest version of Omnichannel for Customer Service to unlock the benefits of new features. You can now upgrade to the latest release of Omnichannel for Customer Service from the **Manage Instances** page in **Dynamics 365 Admin Center**. 
+Upgrade to the latest version of Omnichannel for Customer Service to unlock the benefits of new features. You can now upgrade to the latest release of Omnichannel for Customer Service from the **Manage Instances** page in **Dynamics 365 Admin Center**.
 
 See [What's new in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/?linkid=2083527) to learn about the new features in the latest release.
 
@@ -49,7 +49,7 @@ Follow these steps to upgrade Omnichannel for Customer Service:
 
 ## Upgrade Omnichannel for Customer Service package on Unified Service Desk
 
-If you are using Omnichannel for Customer Service on Unified Service Desk, refer [Deploy package on Dynamics 365 for Customer Engagement instance](omnichannel-customer-service-package.md#deploy-package-on-dynamics-365-for-customer-engagement-instance) to upgrade.
+If you are using Omnichannel for Customer Service on Unified Service Desk, refer [Deploy package on Dynamics 365 Customer Service instance](omnichannel-customer-service-package.md#deploy-package-on-dynamics-365-customer-service-app) to upgrade.
 
 ### See also
 

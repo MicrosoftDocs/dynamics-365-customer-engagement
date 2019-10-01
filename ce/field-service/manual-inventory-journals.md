@@ -26,7 +26,7 @@ search.app:
 
 # Manual inventory journals
 
-In Dynamics 365 for Field Service, organizations can track their product inventory. For any given warehouse and product, an organization can track **Available**, **On Hand**, **On Order**, and **Allocated** inventory.
+In Dynamics 365 Field Service, organizations can track their product inventory. For any given warehouse and product, an organization can track **Available**, **On Hand**, **On Order**, and **Allocated** inventory.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of product inventory levels](./media/inventory-product-inventory-levels.png)
@@ -108,10 +108,10 @@ Navigate to **Field Service > Warehouse > Product Inventory** to view inventory 
 
 - Inventory adjustments can be used to increment/decrement available inventory for a given warehouse. This is a field service-related process and only applies to adjusting available and on hand inventory. In contrast, manual inventory journals can edit any type of inventory levels; they're also more flexible and better suited for integration scenarios.
 - Both manual inventory journals and inventory adjustments products can have negative quantity values to decrement inventory.
-- Manual inventory journals are used to integrate Dynamics 365 for Field Service and Finance & Operations. 
+- Manual inventory journals are used to integrate Dynamics 365 Field Service and Finance & Operations. 
 
 
 
 ### See also
-- [Install Field Service and Finance & Operations integration solution](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.p2cfieldserviceintegration?tab=Overview)
-- [Configure Field Service and Finance & Operations integration](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/field-service)
+- [Install Field Service and Finance & Operations integration solution](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegration?tab=Overview)
+- [Configure Field Service and Finance & Operations integration](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service)

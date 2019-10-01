@@ -1,20 +1,10 @@
 ---
 title: "Create a CTI Control | MicrosoftDocs"
 description: "The topic explains on how to create a CTI control."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: c9e49c30-dc33-454e-b067-c90ecca6d659
 author: kabala123
 ms.author: kabala
@@ -76,9 +66,9 @@ string UserDefinedCommand(string command, string request);
 <a name="Configure"></a>   
 ## Configure the CTI Control hosted control in Unified Service Desk  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
 
-2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement apps** > **Settings** > **Unified Service Desk**.  
+2. On the nav bar, choose **Dynamics 365** > **Settings** > **Unified Service Desk**.  
 
 3. On the **Unified Service Desk** page, click **Hosted Controls**.  
 

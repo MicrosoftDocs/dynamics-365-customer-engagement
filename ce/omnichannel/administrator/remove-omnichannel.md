@@ -1,15 +1,10 @@
 ---
 title: "Remove Omnichannel for Custimer Service| MicrosoftDocs"
 description: "Learn how to remove Omnichannel for Customer Service and disable all channels on an organization."
-keywords: "remove, deprovision, Omnichannel, disable, channels"
 ms.date: 07/01/2019
 ms.service:
   - "dynamics-365-customerservice"
-ms.custom:
-  - ""
 ms.topic: article
-applies_to:
-  - ""
 ms.assetid: 36c885b1-e696-43f3-a198-de167268f91a
 author: kabala123
 ms.author: kabala
@@ -20,7 +15,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-You can remove Omnichannel for Customer Service and disable all channels on a Customer Engagement organization.
+You can remove Omnichannel for Customer Service and disable all channels on a Dynamics 365 Customer Service organization.
 
 
 > [!NOTE]

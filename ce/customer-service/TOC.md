@@ -1,4 +1,4 @@
-# [Dynamics 365 for Customer Service](help-hub.md)
+# [Dynamics 365 Customer Service](help-hub.md)
 ## [Overview](overview.md)
 ## [What's new](whats-new-customer-service.md)
 ## User Guides
@@ -106,3 +106,4 @@
 ## Developer guide
 ### [Create knowledge article using template](create-knowledge-article-using-template.md)
 ### [Extend transformer logic on templates](extend-tranformer-logic-template.md)
+### [Channel Integration Framework Guide](channel-integration-framework/channel-integration-framework.md)

@@ -8,8 +8,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2016
   - Dynamics CRM Online
 ms.assetid: fd821fc0-3654-403b-b7c1-591f9c4ada89
@@ -43,7 +43,7 @@ As a sales professional, you'll frequently work with the following types of reco
   
 ## View or change records  
   
-1.  Tap the menu button ![Dynamics 365 for Customer Engagement apps Menu button](../../../media/word-template-default-xml-mapping-schema.png "Dynamics 365 for Customer Engagement apps Menu button"), and then tap the record type you want from the drop-down list.  
+1.  Tap the menu button ![Dynamics 365 apps Menu button](../../../media/word-template-default-xml-mapping-schema.png "Dynamics 365 apps Menu button"), and then tap the record type you want from the drop-down list.  
   
 2.  Open the record type.  
   
@@ -59,11 +59,11 @@ As a sales professional, you'll frequently work with the following types of reco
   
 2.  Tap the Add button **+** to the right of the header.  
   
-     ![Dynamics 365 for Customer Engagement apps add button on a phone](../../../media/phone-newquoteplussign.png "Dynamics 365 for Customer Engagement apps add button on a phone")  
+     ![Dynamics 365 apps add button on a phone](../../../media/phone-newquoteplussign.png "Dynamics 365 apps add button on a phone")  
   
 3.  Enter the information, and then save the record.  
   
-     ![Save button in Dynamics 365 for Customer Engagement apps on a phone](../../../media/phone-savenewrecord.png "Save button in Dynamics 365 for Customer Engagement apps on a phone")  
+     ![Save button in Dynamics 365 apps on a phone](../../../media/phone-savenewrecord.png "Save button in Dynamics 365 apps on a phone")  
   
 ### Tablet  
   
@@ -71,7 +71,7 @@ As a sales professional, you'll frequently work with the following types of reco
   
 2.  Tap **New Record**.  
   
-     ![Dynamics 365 for Customer Engagement apps New Record button on a tablet](../../../media/tablet-newrecord.png "Dynamics 365 for Customer Engagement apps New Record button on a tablet")  
+     ![Dynamics 365 apps New Record button on a tablet](../../../media/tablet-newrecord.png "Dynamics 365 apps New Record button on a tablet")  
   
 3.  Select **Quote** from the list.  
   
@@ -93,7 +93,7 @@ As a sales professional, you'll frequently work with the following types of reco
   
 6.  On the **Quotes** page,  verify that the quote is listed.  
   
-     ![Verify a quote in Dynamics 365 for Customer Engagement apps on a phone](../../../media/phone-verify-quote-1.png "Verify a quote in Dynamics 365 for Customer Engagement apps on a phone")  
+     ![Verify a quote in Dynamics 365 apps on a phone](../../../media/phone-verify-quote-1.png "Verify a quote in Dynamics 365 apps on a phone")  
   
 ### Tablet  
   
@@ -101,11 +101,11 @@ As a sales professional, you'll frequently work with the following types of reco
   
 2.  Go to **Opportunity Quotes** on the far right, and then tap the Add button **+**.  
   
-     ![Create a quote from an opportunity on a tablet in Dynamics 365 for Customer Engagement apps](../../../media/tablet-createquotefromopportunity.png "Create a quote from an opportunity on a tablet in Dynamics 365 for Customer Engagement apps")  
+     ![Create a quote from an opportunity on a tablet in Dynamics 365 apps](../../../media/tablet-createquotefromopportunity.png "Create a quote from an opportunity on a tablet in Dynamics 365 apps")  
   
 3.  Review the quote.  
   
-     ![Dynamics 365 for Customer Engagement apps Quote review screen on a tablet](../../../media/tablet-reviewquote.png "Dynamics 365 for Customer Engagement apps Quote review screen on a tablet")  
+     ![Dynamics 365 apps Quote review screen on a tablet](../../../media/tablet-reviewquote.png "Dynamics 365 apps Quote review screen on a tablet")  
   
 ## Activate a quote  
   
@@ -115,7 +115,7 @@ As a sales professional, you'll frequently work with the following types of reco
   
 2.  Tap **Activate Quote**.  
   
-     ![Activate a quote in Dynamics 365 for Customer Engagement apps on a phone](../../../media/phone-activate-quote.png "Activate a quote in Dynamics 365 for Customer Engagement apps on a phone")  
+     ![Activate a quote in Dynamics 365 apps on a phone](../../../media/phone-activate-quote.png "Activate a quote in Dynamics 365 apps on a phone")  
   
 ### Tablet  
   
@@ -123,7 +123,7 @@ As a sales professional, you'll frequently work with the following types of reco
   
 2.  Tap **Activate Quote**.  
   
-     ![Activate a quote in Dynamics 365 for Customer Engagement apps on a tablet](../../../media/tablet-activatequote.png "Activate a quote in Dynamics 365 for Customer Engagement apps on a tablet")  
+     ![Activate a quote in Dynamics 365 apps on a tablet](../../../media/tablet-activatequote.png "Activate a quote in Dynamics 365 apps on a tablet")  
   
 ## Create an order from a quote  
   
@@ -133,7 +133,7 @@ As a sales professional, you'll frequently work with the following types of reco
   
 2.  Tap **Create Order**.  
   
-     ![Create an order in Dynamics 365 for Customer Engagement apps on a phone](../../../media/phone-createorder.png "Create an order in Dynamics 365 for Customer Engagement apps on a phone")  
+     ![Create an order in Dynamics 365 apps on a phone](../../../media/phone-createorder.png "Create an order in Dynamics 365 apps on a phone")  
   
 3.  On the **Create Order** page, verify that all information is correct, enter a description (optional), and then tap **OK**.  
   
@@ -143,11 +143,11 @@ As a sales professional, you'll frequently work with the following types of reco
   
 2.  Tap **Create Order**.  
   
-     ![Create an order in Dynamics 365 for Customer Engagement apps on a tablet](../../../media/tablet-createorder-corrected.png "Create an order in Dynamics 365 for Customer Engagement apps on a tablet")  
+     ![Create an order in Dynamics 365 apps on a tablet](../../../media/tablet-createorder-corrected.png "Create an order in Dynamics 365 apps on a tablet")  
   
 3.  Review the order, add a description (optional), and then tap **OK**.  
   
-     ![Confirmation screen for creating an order on a tablet in Dynamics 365 for Customer Engagement apps](../../../media/tablet-createorder-screen2.png "Confirmation screen for creating an order on a tablet in Dynamics 365 for Customer Engagement apps")  
+     ![Confirmation screen for creating an order on a tablet in Dynamics 365 apps](../../../media/tablet-createorder-screen2.png "Confirmation screen for creating an order on a tablet in Dynamics 365 apps")  
   
 4.  Open the orders list, and verify that the new order is  there.  
   
@@ -159,7 +159,7 @@ As a sales professional, you'll frequently work with the following types of reco
   
 2.  Tap **Create Invoice**.  
   
-     ![Create an invoice on a phone in Dynamics 365 for Customer Engagement apps](../../../media/phone-createinvoice.png "Create an invoice on a phone in Dynamics 365 for Customer Engagement apps")  
+     ![Create an invoice on a phone in Dynamics 365 apps](../../../media/phone-createinvoice.png "Create an invoice on a phone in Dynamics 365 apps")  
   
 ### Tablet  
   
@@ -167,7 +167,7 @@ As a sales professional, you'll frequently work with the following types of reco
   
 2.  Tap **Create Invoice**.  
   
-     ![Create an invoice in Dynamics 365 for Customer Engagement apps on a tablet](../../../media/tablet-createinvoice.png "Create an invoice in Dynamics 365 for Customer Engagement apps on a tablet")  
+     ![Create an invoice in Dynamics 365 apps on a tablet](../../../media/tablet-createinvoice.png "Create an invoice in Dynamics 365 apps on a tablet")  
   
 ### See also  
  [Install Dynamics 365 for phones and tablets](install.md)

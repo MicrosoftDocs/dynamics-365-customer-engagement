@@ -1,24 +1,19 @@
 ---
-title: "Create or edit an opportunity in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Track a deal that has more probability of turning into a business as an opportunity in Dynamics 365 for Sales Professional."
-keywords: ""
-ms.date: 04/05/2019
+title: "Create or edit an opportunity in Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Track a deal that has more probability of turning into a business as an opportunity in Dynamics 365 Sales Professional."
+ms.date: 10/01/2019
 ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 821221be-8b4d-47e8-88b6-58a664337717
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
-# Create or edit an opportunity in Dynamics 365 for Sales Professional
+# Create or edit an opportunity in Dynamics 365 Sales Professional
 
-In Dynamics 365 for Sales Professional, an opportunity is a potential sale, like a lead, but with an opportunity you can forecast revenue, set a potential close date, and factor in a probability for the sale. You can also track contact information and information about the salesperson working on the opportunity.
+In Dynamics 365 Sales Professional, an opportunity is a potential sale, like a lead, but with an opportunity you can forecast revenue, set a potential close date, and factor in a probability for the sale. You can also track contact information and information about the salesperson working on the opportunity.
 You must link a new opportunity to an existing account or contact.
 
 If you’re following the sales process from start to finish, you qualify a lead to turn it into an opportunity.
@@ -54,7 +49,7 @@ To create or edit an opportunity:
 
     -   **Est. Close Date**. An estimated date by which the opportunity is expected to close.
 
-    -   **Est. Revenue**. Opportunities with products added to them have their estimated revenue value calculated based on the base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, Dynamics 365 for Sales Professional recalculates the estimated revenue value based on any changes to the products or product quantities associated with the opportunity.
+    -   **Est. Revenue**. Opportunities with products added to them have their estimated revenue value calculated based on the base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, Dynamics 365 Sales Professional recalculates the estimated revenue value based on any changes to the products or product quantities associated with the opportunity.
 
         ![Opportunity form](media/opportunity-form.png "Opportunity form")
 
@@ -146,6 +141,6 @@ Whether you win a sale or close an opportunity, you probably want to close it. Y
 
 ### See also
 
-[Develop sales from lead to cash in Dynamics 365 for Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)  
-[Manage tasks, appointments, email, or phone calls in Dynamics 365 for Sales Professional](manage-activities.md)
+[Develop sales from lead to cash in Dynamics 365 Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
+[Manage tasks, appointments, email, or phone calls in Dynamics 365 Sales Professional](manage-activities.md)

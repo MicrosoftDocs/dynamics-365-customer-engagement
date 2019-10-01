@@ -1,6 +1,6 @@
 ---
-title: "Use segment boost to expand your target audience (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How use segment boost to let the AI expand your target audience to include  additional promising contacts in Dynamics 365 for Marketing"
+title: "Use segment boost to expand your target audience (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How use segment boost to let the AI expand your target audience to include  additional promising contacts in Dynamics 365 Marketing"
 keywords:
 ms.date: 06/12/2019
 ms.service: dynamics-365-marketing
@@ -8,8 +8,6 @@ ms.custom:
   - dyn365-admin
   - dyn365-marketing
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c9090a20-ebe1-42db-a11d-97fbac534627
 author: kamaybac
 ms.author: kamaybac
@@ -34,7 +32,7 @@ search.app:
 Segment boost uses AI to analyze your contact database to identify the best contacts to add to a running customer journey.
 
 > [!NOTE]
-> Before you can use segment boost, your admin must enable and configure it. If you don't see the features described in this topic, then please ask your admin to enable segment boost for your site. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable and configure artificial intelligence features](admin-machine-learning.md)
+> Before you can use segment boost, your admin must enable and configure it. If you don't see the features described in this topic, then please ask your admin to enable segment boost for your site. More information: [Enable and configure artificial intelligence features](admin-machine-learning.md)
 
 To enable segment boost for an existing customer journey:
 
@@ -42,7 +40,7 @@ To enable segment boost for an existing customer journey:
 
 1. When you're done designing the journey, select **Go Live** from the command bar if the journey isn't live already. (You can only enable segment boost for journeys that are already live.)
 
-1. Select **Edit** on the command bar to put your journey in live-edit mode.
+1. Select **Edit** on the command bar to put your journey in the live-edit state.
 
 1. On the **Designer** tab, select the **Segment group** tile that starts the journey, go to the **Properties** panel, and select the **Boost audience** button.
 

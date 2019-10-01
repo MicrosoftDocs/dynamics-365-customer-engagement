@@ -328,7 +328,7 @@ After a lead is created, the **Respondent** field in the survey response is upda
 
 ## Automatically send an email response
 
-You can configure your survey to automatically send an email response to the customer (account, contact, or lead) after the survey is completed. The email is sent by using a Global email template type. More information about how to create a new email template of type Global: [Create templates for email ](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-templates-email)
+You can configure your survey to automatically send an email response to the customer (account, contact, or lead) after the survey is completed. The email is sent by using a Global email template type. More information about how to create a new email template of type Global: [Create templates for email ](https://docs.microsoft.com/dynamics365/customer-engagement/admin/create-templates-email)
 
 > [!NOTE]
 > The email is sent only for a non-anonymous response.

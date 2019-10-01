@@ -7,8 +7,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps
+  - Dynamics 365 apps (on-premises)
 ms.assetid: faa87829-895e-4799-a587-c52551a78415
 caps.latest.revision: 12
 ms.author: mkaur
@@ -25,10 +25,10 @@ ms.prod: crm-2016
 ---
 # Manage work orders, agreements, customer assets, and time off requests in Dynamics 365 for phones and tablets
 
-Field agents can use the mobile app to review work orders and get all the information they need to complete a job. Create a work order, agreement, customer asset, or submit a time off request the same way you create any record in the mobile app.  For more information on field service, see the [Dynamics 365 for Customer Engagement apps for Field Service - User's Guide](../../../../field-service/user-guide.md).  
+Field agents can use the mobile app to review work orders and get all the information they need to complete a job. Create a work order, agreement, customer asset, or submit a time off request the same way you create any record in the mobile app.  For more information on field service, see the [Dynamics 365 apps for Field Service - User's Guide](../../../../field-service/user-guide.md).  
   
 > [!NOTE]
->  To use these features on the mobile app, you'll need the Microsoft Dynamics 365 for Customer Engagement apps for Field Service solution. Note also that Field Service is currently supported in online mode only.  
+>  To use these features on the mobile app, you'll need the Microsoft Dynamics 365 apps for Field Service solution. Note also that Field Service is currently supported in online mode only.  
   
 ## Work orders  
  Work orders have information on what work needs to be done at a customer site. They're used to coordinate and schedule resources and activities, and can be used for installations, repairs, or preventative maintenance.  
@@ -73,4 +73,4 @@ Field agents can use the mobile app to review work orders and get all the inform
 3.  Enter the required information, and  then tap **Save**.  
   
 ### See also  
- [Dynamics 365 for Customer Engagement apps for Field Service - User's Guide](../../../../field-service/user-guide.md)
+ [Dynamics 365 apps for Field Service - User's Guide](../../../../field-service/user-guide.md)
