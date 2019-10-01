@@ -17,7 +17,7 @@ audience: Admin
 
 ---
 
-# Hoft book a resource
+# Soft book a resource
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
