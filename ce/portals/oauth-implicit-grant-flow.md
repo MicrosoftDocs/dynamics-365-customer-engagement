@@ -1,6 +1,6 @@
 ---
 title: "Use OAuth 2.0 implicit grant flow within your portal | MicrosoftDocs"
-description: "Learn how to make client-side calls to external APIs and secure them by using OAuth implicit grant flow in the Dynamics 365 Portals."
+description: "Learn how to make client-side calls to external APIs and secure them by using OAuth implicit grant flow in the portal."
 ms.custom: 
   - dyn365-portal
 ms.date: 07/18/2019

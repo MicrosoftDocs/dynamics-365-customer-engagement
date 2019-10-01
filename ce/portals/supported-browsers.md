@@ -1,5 +1,5 @@
 ---
-title: "Subscribe browsers for portals capabilities for Dynamics 365 | MicrosoftDocs"
+title: "Supported browsers for Dynamics 365 Portals | MicrosoftDocs"
 description: "List of supported browsers for a portal."
 ms.custom: 
   - dyn365-portal

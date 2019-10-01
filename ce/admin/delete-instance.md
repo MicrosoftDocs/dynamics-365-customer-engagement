@@ -8,8 +8,6 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 5903eb35-2625-4c53-8330-a05267055c01
 caps.latest.revision: 4
 author: jimholtz
@@ -23,7 +21,7 @@ search.app:
 ---
 # Delete an instance
 
-You can delete Dynamics 365 apps Sandbox instances to recover the licenses and storage space or to prevent them from being used by mistake. In order to delete a Production instance, you must first switch to a Sandbox instance and then delete the Sandbox instance. You can delete a Support instance directly.
+You can delete Sandbox instances to recover the licenses and storage space or to prevent them from being used by mistake. In order to delete a Production instance, you must first switch to a Sandbox instance and then delete the Sandbox instance. You can delete a Support instance directly.
   
 <a name="BKMK_Delete"></a>   
 ## Delete an instance  
@@ -44,6 +42,6 @@ You can delete Dynamics 365 apps Sandbox instances to recover the licenses and s
   
 5. Click **Confirm** to delete the instance.  
   
-Deleting an instance doesn’t change the number of your licenses purchased. For example, say you have two instances - one Sandbox and one Production - and you decide to delete your Sandbox instance. After the delete has successfully completed, you’ll see one Production instance and one instance to configure in the **Instance** tab of the **Manage your Dynamics 365 for Customer Engagement apps updates** page.  
+Deleting an instance doesn’t change the number of your licenses purchased. For example, say you have two instances - one Sandbox and one Production - and you decide to delete your Sandbox instance. After the delete has successfully completed, you’ll see one Production instance and one instance to configure in the **Instance** tab of the **Manage your Dynamics 365 updates** page.  
   
 
