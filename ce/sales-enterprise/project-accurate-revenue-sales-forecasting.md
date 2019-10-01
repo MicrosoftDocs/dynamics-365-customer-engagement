@@ -22,7 +22,7 @@ ms.tgt_pltfrm:
 > - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-> - To learn how to enable a preview feature, see [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md#how-do-i-enable-a-preview-feature)
+> - To learn how to enable a preview feature, see [What are Preview features and how do I enable them?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature)
 
 
 Forecasting helps organizations create sales projections and estimate revenue–insights which can help them manage their resources and cash flow.
