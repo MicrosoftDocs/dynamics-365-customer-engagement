@@ -71,8 +71,8 @@ Agent scripts provide guidance to agents about what they should to doing when th
     | Action Type | Select an action type from the list. There are three types of action types. <ul> <li> Text instruction </li> <li> Macro </li> <li> Script </li> |
     | Description | Describe the step briefly for your reference. | This step is to greet the customer.|
     | Text instruction | Specify the text instructions that agent needs to follow and execute. This is a text field. <br><br> **Note:** <br> This field appears only if you select **Text instruction** value for the **Action Type** field. | Greet the customer with welcome message from the quick reply repository. |
-    | Target macro | Type the name of the macro in the text box and select a macro from the lookup results. <br><br> **Note:** <br> This field appears only if you select **Macro** value for the **Action Type** field. | Email |
-    | Target script | Type the name of the script in the text box and select a script from the lookup results. <br><br> **Note:** <br> This field appears only if you select **Script** value for the **Action Type** field. | Close session |
+    | Target macro | Type the name of the macro in the text box and select the macro from the lookup results. <br><br> **Note:** <br> This field appears only if you select **Macro** value for the **Action Type** field. | Email |
+    | Target script | Type the name of the script in the text box and select the script from the lookup results. <br><br> **Note:** <br> This field appears only if you select **Script** value for the **Action Type** field. | Close session |
 
 8. Select **Save and Close** to add, save, and close the quick create form.
 
