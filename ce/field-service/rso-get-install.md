@@ -1,5 +1,5 @@
 ---
-title: "Get RSO | MicrosoftDocs"
+title: "Get Resource Scheduling Optimization (RSO) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/01/2019
@@ -26,13 +26,19 @@ search.app:
   - D365FS
 ---
 
-## Get RSO
+## Get Resource Scheduling Optimization (RSO)
+
+There are two ways to get Resource Scheduling Optimization:
+
+- Buy an RSO license
+- Request a trial from your local Microsoft representative
+
 
 ## Option 1: Buy RSO
 
-To deploy Resource Scheduling Optimization, you must first do the following:
+You can get access to RSO by buying an RSO license in addition to purchasing a Field Service or Dynamics 365 Customer Engagement Plan license. 
 
-- Purchase Plan 1 for Dynamics 365 and RSO licenses. RSO does not work on earlier versions of Dynamics 365 Online.
+First, purchase a Dynamics 365 Field Service  Purchase Plan 1 for Dynamics 365 and RSO licenses. RSO does not work on earlier versions of Dynamics 365 Online.
 
   > [!NOTE]
   > A paid Plan 1 or Dynamics 365 Field Service subscription is required for purchasing and enabling RSO. 
@@ -57,7 +63,7 @@ To deploy Resource Scheduling Optimization, you must first do the following:
 
 ## Option 2: Request trial
 
-Request a trial from your local Microsoft representative who will give you access 
+Request a trial environment from your local Microsoft representative. 
 
 ## Next steps
 

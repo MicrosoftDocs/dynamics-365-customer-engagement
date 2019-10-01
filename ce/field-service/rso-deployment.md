@@ -20,39 +20,13 @@ search.app:
 ---
 
 # Deployment of the Resource Scheduling Optimization (RSO) solution
-## Prerequisites 
-
-To deploy Resource Scheduling Optimization, you must first do the following:
-
-- Purchase Plan 1 for Dynamics 365 and RSO licenses. RSO does not work on earlier versions of Dynamics 365 Online.
-
-  > [!NOTE]
-  > A paid Plan 1 or Dynamics 365 Field Service subscription is required for purchasing and enabling RSO. 
-
-- Install Dynamics 365 Field Service.
-
-    > [!div class="mx-imgBorder"]
-    > ![](media/70dc3d56ea79ba8554b8a6d1e8412453.png)
-
--  Under Purchase Services, find Resource Scheduling Optimization. After buying
-    at least one Plan 1 user subscription, add RSO, which you will find under
-    **Billing** \> **Purchase services**. Scroll down to find Dynamics 365 Field Service, Enterprise Edition – Resource Scheduling Optimization. The price of RSO is based on schedulable resources.
-
-    > [!div class="mx-imgBorder"]
-    > ![](media/f2c51af5f406959188248862933fcecd.png)
-
-    The RSO instance is associated with a single Dynamics 365 organization in
-    the tenant. You can change the associated organization through the RSO
-    deployment app’s page. If additional RSO instances are needed for dev/test and you have an
-    Enterprise Agreement with Microsoft, contact your technical account manager. Such instances are
-    not yet available to Cloud Solution Providers or retail purchase.
 
 ## Deployment steps 
 
+1. Go to the Dynamics 365 admin center and select the **APPLICATIONS** tab.
+
 > [!NOTE]
 > **Do not** install the Resource Scheduling Optimization solution from the solution page. Follow the next steps using the RSO deployment app to deploy.
-
-1. Go to the Dynamics 365 admin center and select the **APPLICATIONS** tab.
 
 2. Select the **Resource Scheduling Optimization** application to configure or
     manage.
