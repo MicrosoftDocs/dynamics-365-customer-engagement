@@ -41,10 +41,10 @@ easily enter and track project time and expenses either on mobile or using a web
 ## What's new in PSA
 The team is excited to announce our newest updates! Ranging from improvements to the user interface, all the way to more powerful search queries for resource scheduling, and more. You asked; we listened.
 
-Take a look at the [Spring '18 Release Notes for Business Applications](https://docs.microsoft.com/business-applications-release-notes/April18/dynamics365-project-service/whats-new-project-service) to see our newest enhancements and additions.
+Take a look at the [April '19 Release Notes](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/index) to see our newest enhancements and additions.
 
 ### In development
-To see what we have planned in the near future, head over to the [October '18 Release Notes for Business Applications](https://docs.microsoft.com/business-applications-release-notes/October18/service/project-service/planned-features).
+To see what we have planned in the near future, head over to the [Dynamics 365: 2019 release wave 2 plan](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/index).
 
 ## Get help with PSA version 3.x
 Looking for resources to help plan your implementation? Check out these downloadable guides.
