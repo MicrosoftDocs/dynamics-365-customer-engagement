@@ -66,6 +66,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales-enterprise/dynamics365-ai-sales.md",
+      "redirect_url": "/dynamics365/ai/sales/overview",
+      "redirect_document_id": "false"
+    },    
+    {
       "source_path": "ce/analytics/index.md",
       "redirect_url": "../customer-engagement/on-premises/analytics/reporting-analytics-with-dynamics-365",
       "redirect_document_id": "false"

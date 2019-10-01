@@ -118,4 +118,4 @@
 ### Action Reference
 #### [RecalculatePrice Action](../sales-enterprise/developer/reference/recalculateprice-action.md)
 
-# [Dynamics 365 Sales Insights](../sales-enterprise/dynamics365-ai-sales.md)
+# [Dynamics 365 Sales Insights](/dynamics365/ai/sales/overview)
