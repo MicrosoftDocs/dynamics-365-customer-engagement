@@ -26,38 +26,37 @@ ms.tgt_pltfrm:
 
 Capture information about parameters such as the period for which the forecast should be generated or the data to use for forecasting.
 
-Forecasting helps your organization to predict how much revenue can a sales team generate in a specified timeline. As an administrator or Forecast manager, you can configure forecast in your organization for your or for a sales manager.  
+Forecasting helps your organization predict how much revenue their sales team will generate in a given timeframe. As an administrator or Forecast manager, you can configure a forecast in your organization.  
 
 > [!NOTE]
 > The **Forecast manager** role is created specifically to configure forecasting. Using this role, you can:
-> - Create, assign, and edit forecast configurations in your business unit and other business units that are subordinate to your business unit.
+> - •	Create, assign, and edit forecast configurations in your business unit and other business units that are subordinate to yours.
 > - Delete forecast configuration that are defined only for your business unit.
-> - Share forecast with all users in your organization.
+> - Share forecasts with all users in your organization.
 > - View and edit forecast at your business unit and other business units that are subordinate to your business unit, after the configured forecast is published.
  
 The following changes are made to the forecast configuration from the previous release:
 
 | Feature type | Previous version | Current version |
 |--------------|------------------|-----------------|
-| Security roles | Forecast manager and Forecast user roles are supported.| Removed Forecast user role and support only Forecast manager to configure forecast.|
-| Settings site map | The option to configure the forecast was Forecast definitions. | The option to configure the forecast is Forecast configuration. |
-| Entity support |Supported opportunity entity only with the options set as Forecast category. | Supported opportunity entity with the custom options sets. |
-| Feedback and comments | -- | Send your feedback or comments to [Forecast feedback](mailto:forecastingfeedback@microsoft.com). |
+| Security roles | Forecast manager and Forecast user roles are supported.|Forecast user role has been removed and you must be a Forecast manager to configure a forecast.|
+| Forecast configuration | Forecasts were configured in the **Forecast definition** sub-section. | Forecasts are now configured in **Forecast configuration**. |
+| Entity support | Support for the out-of-the-box Forecast category on the opportunity entity. | Support for out-of-the-box and custom option sets from the opportunity entity. |
+| Feedback and comments | -- | Send feedback and comments to [Forecast feedback](mailto:forecastingfeedback@microsoft.com). |
 
+Explore the following links to get started configuring forecasts with this new release:
 
-Perform the following steps to configure forecast in your organization:
+1. [Review the prerequisites](#prerequisites)
 
-1. [Review the prerequisites.](#prerequisites)
-
-2. [Configure forecasting in your organization.](#configure-forecasting)
+2. [Configure forecasting](#configure-forecasting)
 
 ## Prerequisites
 
-Verify the following prerequisites Before configuring the forecast:
+Verify the following prerequisites before configuring the forecast:
 
 - Administrator or Forecast manager role is assigned to you.
 
-- Preview feature option is enabled. To learn more, see [How do I enable a preview feature](../admin/what-are-preview-features-how-do-i-enable-them.md#how-do-i-enable-a-preview-feature).
+- Preview feature is enabled. To learn more, see [How do I enable a preview feature](../admin/what-are-preview-features-how-do-i-enable-them.md#how-do-i-enable-a-preview-feature).
 
 - Proper hierarchy is defined for the users for whom you are creating the forecast.
 
@@ -75,7 +74,7 @@ Configuration of forecasting includes the following steps:
 
 ### Open forecast configuration wizard
 
-1.	Sign in to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and open **Sales Hub** app.
+1.	Sign in to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and open the **Sales Hub** app.
 
 2.  In the lower left of the site map, select the **Change area** icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select the **App Settings** area.	
 
@@ -86,25 +85,24 @@ Configuration of forecasting includes the following steps:
     > [!div class="mx-imgBorder"]
     > ![Forecast configuration home page](media/forecast-home-page.png "Forecast configuration home page")
 
-4.	Select **Org chart forecast**. A forecast configuration wizard opens.
+4.	Select **Org chart forecast** to configure your forecast using the wizard.
 
     > [!div class="mx-imgBorder"]
     > ![Forecast configuration page with general tab](media/forecast-general-tab.png "Forecast configuration page with general tab")
-    
-    You can proceed creating forecast.
- 
+
+
 ### Enter configuration and scheduling information in the General tab
 
-Use the **General** tab to define the basic information such as name, configurations, and schedule details.
+The **General** tab is for defining basic properties such as forecast name, type, and hierarchy entity–and setting a schedule.
 
-1. In **General** tab, enter a name of the forecast that explains what the forecast is about.
+1. In **General** tab, enter a descriptive name for the forecast. For example, Alberto Gass Org Forecast 2019. 
 
     > [!div class="mx-imgBorder"]
     > ![Enter forecast configuration name](media/forecast-general-tab-forecast-name.png "Enter forecast configuration name")
 
-2. In the **Configuration** section, fill **Top user in hierarchy** field with the user whose team you want to create a hierarchy for. To the right of the selection, you can see a preview of the hierarchy for the selected user.
+2. In the **Configuration** section, assign the **Top user in hierarchy** (the user whose team forms the forecast hierarchy). Once selected, you'll see a preview of these users at right. 
 
-   Based on the user hierarchy (as defined by the **Manager** field of the User object) a forecast is created for all child users. For example, Aaron James (manager) requests his administrator (who has Forecast manager role) to create a forecast for his group. While configuring the forecast, the admin selects Aaron James as the top of the hierarchy so that the forecast is created based on Aaron's hierarchy. 
+   The forecast comprises the full hierarchy as defined by the **Manager** field of the User object. For example, if Caitlyn James, a manager, asks her admin to create a forecast for her sales team, the admin assigns Caitlyn as top of the hierarchy. 
 
     > [!NOTE]
     > The parameters **Rollup entity** and **This hierarchy is made up of** are predefined and cannot be changed. Here, the **Rollup entity** value is **Opportunity** and **This hierarchy is made up of** value is **User**.
@@ -128,7 +126,7 @@ Use the **General** tab to define the basic information such as name, configurat
 
 4. Select **Next** after you enter the required information. 
 
-    You are guided to Layout tab to define what to display in the forecast grid.
+    You are guided to **Layout** tab that helps you define the forecast grid your users will see.
 
 ### Setup column options in the Layout tab
 
@@ -139,7 +137,7 @@ Use the **Layout** tab to set up the columns for the forecast. This defines how 
 2. Choose an option set and select **Choose selected**. The application adds the columns to your forecast configuration.
 
     > [!TIP]
-    > We recommend you to use **Forecast category** option set to configure the columns. When you select, a message appears to auto-populate the configuration parameters, Select **OK**. The values are auto-populated. This helps you to skip the process of configuring each parameter. However, if you want to edit a column, proceed to Step 3. 
+    > We recommend you use the out-of-the-box **Forecast category** option set for column configuration. After choosing this option, in the dialog box asking if you want to auto-populate the configuration parameters, select **Auto-configure**. Column values are then auto-populated according to best practice, saving you the time of configuring each column individually. To edit your columns, proceed to Step 3. 
 
     > [!div class="mx-imgBorder"]
     > ![Choose option set for forecast](media/forecast-layout-column-selection.png "Choose option set for forecast")
@@ -156,59 +154,64 @@ Use the **Layout** tab to set up the columns for the forecast. This defines how 
     | Parameter | Description |
     |-----------|-------------|
     | **Name** | Name of the column|
-    | **Type** | By default, **Rollup** is selected. This value depends on the **Rollup entity** that is selected in **General** tab.|
-    | **Amount field** | Select an amount type for which you want to calculate the forecast revenue. The values displayed are based on the selected **Rollup entity** (**Opportunity**). For example, if **Forecast category** option set is selected, the amount field is configured as **Est. Revenue**.
-    | **Date field** | Select a date type on which you want to calculate the forecast revenue. The values displayed are based on the selected **Rollup entity** (**Opportunity**). For example, if **Forecast category** option set is selected, the date field is configured as **Est. Close Date**. |
-    | **Selector** | Select the column name for which you want to apply this configuration. |
-    | **Allow adjustments** | Select this column for forecast owners to change or edit the forecast revenue in the forecast grid. when enabled, you can see a pencil icon corresponding to the forecast revenue for that column. |
-    | **Show progress compared to quota** | Select this option to compare the actual revenue with forecast revenue. when enabled, you can see a progress bar with the achievement percentage below the forecast revenue for that column. |
-    | **Unique name** | Unique name of the column.|
+    | **Type** | By default, **Rollup** is selected.|
+    | **Amount field** | Select the amount field to be calculate. The available fields are based on the selected **Rollup entity** (**Opportunity**). For example, if **Forecast category** option set is selected, the amount field is configured as **Est. Revenue**.
+    | **Date field** | Select the date field that defines the record’s forecast period. The available fields are based on the selected **Rollup entity** (**Opportunity**). For example, if **Forecast category** option set is selected, the date field is configured as **Est. Close Date**. |
+    | **Selector** | Select the option set value that defines how this column is grouped. For example, if **Best Case** is selected, only opportunities with forecast category set to **Best Case** will be aggregated. |
+    | **Allow adjustments** | Enable this setting to provide users the ability to overwrite a system calculation directly in the forecast grid. When enabled, you can see a pencil icon next to the forecasted value in that column. |
+    | **Show progress compared to quota** | Enable this option to compare the column’s value against the quota. When enabled, a progress bar indicating the attainment percentage is shown below the forecast value in that column. |
+    | **Unique name** | Unique column name.|
 
-    After configuring the column, you can see a preview of the configuration in the **Preview** section. 
+    When configuring columns, you’ll see a preview of the configuration in the **Preview** section. 
+
+    > [!NOTE]
+    > You can drag and drop to rearrange columns. 
 
 5. **Save and Close** the configuration.
 
     > [!div class="mx-imgBorder"]
     > ![Column configuration page with preview](media/forecast-layout-column-configuration-page.png "Column configuration page with preview")
 
-6. Repeat **step 4** and **step 5** for the columns that you want to edit.
+6. Repeat **step 3** to **step 5** for the columns that you want to edit.
 
-7. Select **Next**.
+7. (Optional) To show or hide any column,  toggle the checkbox next to the column name.
+
+8. Select **Next**.
 
     Now, you can publish the configured forecast and set quota for the users to display in the forecast grid.
 
 ### Publish and upload quota for forecast
 
-Use the **Publish & Quota** tab to generate a forecast based on the configurations defined in **General** and **Layout** tabs. Also, upload a template (excel file) with the proposed quota for users based on the selected **Top of hierarchy** in the **General** tab. 
+Use the **Publish & Quota** tab to generate a forecast based on the configurations as defined in **General** and **Layout** tabs. In this section you can also download and re-upload a template (excel file) with quotas for all users defined in the forecast hierarchy. 
 
 > [!NOTE]
 > The option to download and upload the template that specifies quota will not be active until you publish the forecast. So, you must publish the forecast before you upload the quota template to the forecast configuration.   
 
-1. In the **Publish forecast** section, select **Publish forecast**.  The configured forecast starts calculating the values for forecast and is available for users in your organization. The publishing will take few minutes.
+1. In the **Publish forecast** section, select **Publish forecast**. The configured forecast starts calculating the values for forecast and is available for users in your organization. The publishing may take few minutes.
 
     > [!div class="mx-imgBorder"]
     > ![Publishing the forecast](media/forecast-publish-quota-publishing-forecast.png "Publishing the forecast")
 
-    After the forecast is published, a confirmation message is displayed. Also, the option to download template is active.
+    Once a forecast is published, a confirmation message is displayed. The option to download the quota template becomes available.
 
     > [!NOTE]
-    > If the publishing fails, the forecast definition’s status and status reason is set to Published and Failed respectively. To learn more, see [Why am I unable to publish forecast definition? ](../sales-enterprise/troubleshooting.md#why-am-i-unable-to-publish-forecast-definition).
+    > If the publishing fails, the forecast definition’s status and status reason is set to **Published and Failed**. To learn more, see [Why am I unable to publish forecast definition? ](../sales-enterprise/troubleshooting.md#why-am-i-unable-to-publish-forecast-definition).
 
-2. In the **Upload a quota for this forecast** section, select **Download quota template**. A template (Excel file) with users in the hierarchy is downloaded to your local computer. 
+2. In the **Upload a quota for this forecast** section, select **Download quota template**. A template (Excel file) showing users in the hierarchy is downloaded to your local computer. 
 
     > [!div class="mx-imgBorder"]
     > ![Download quota template](media/forecast-publish-quota-download-quota-template.png "Download quota template")
 
-    The name convention of the downloaded file is ***forecastname*_Quota.xlsx**. For example, if you have created a forecast with name **Aaron's forecast 2019**, the name of the downloaded file is **Aaron's forecast 2019_Quota.xlsx**.
+    The name convention of the downloaded file is ***forecastname*_Quota.xlsx**. For example, if you have created a forecast with name **Caitlyn’s forecast 2019**, the name of the downloaded file is **Caitlyn’s forecast 2019_Quota.xlsx**.
     
-3. Open the downloaded file and it contains two spreadsheets, **Individual** and **Manager**.
+3. Open the downloaded Excel file. It contains two sheets, **Individual** and **Manager**.
      
-    - **Individual spreadsheet**: In the individual spreadsheet, you can view all the sales reps including the managers in the hierarchy. In the spreadsheet, enter quota for each individual under the **Quota as Individual** column. When the file is uploaded, the added quota is displayed under the **Quota** column in the forecast grid for each individual, including the managers. The quota you enter for managers in the **Individual** spreadsheet will not affect the quota that you enter in the **Manager** spreadsheet. A manager can also be working on opportunities and will have a quota an individual. In the following example, all the sales reps including the managers (**Wanda Graves** and **Rodger Pearl**) are listed and the quota is entered to all the individuals.
+    - **Individual tab**: This view shows all the sales reps–including managers–in the forecasting hierarchy. Enter a quota for each individual under the ****Quota as Individual** column. When the file is uploaded, each individual’s quota will show under the **Quota** column in the forecast grid, managers included. The quota you enter for managers in the **Individual** tab will not affect the quota that you enter in the **Manager** tab (a manager can also be working on opportunities and will have a quota as an individual). In the following example, all the sales reps including the managers (**Wanda Graves** and **Rodger Pearl**) are listed, and the quota is entered for all individuals.
 
         > [!div class="mx-imgBorder"]
         > ![Enter individual quota in excel sheet](media/forecast-excel-individual-quota.png "Enter individual quota in excel sheet")
 
-    - **Manager spreadsheet**: In the manager spreadsheet, you can view the users who are listed as managers in the selected hierarchy. In the spreadsheet, enter quota for each manager under the **Quota as Manager** column. When the file is uploaded, the added quota is displayed under the **Quota** column in the forecast grid for managers at a level above the individuals. In the following example, the quota is entered for the managers **Wanda Graves** and **Rodger Pearl**.
+    - **Manager tab**: Shows anyone designated manager in the selected hierarchy. A manager has at least one direct report. Enter the quota for each manager under the **Quota as Manager** column. When the file is uploaded, the quota will show under the **Quota** column in the forecast grid for managers (a level above individuals). In the following example, the quota is entered for the managers **Wanda Graves** and **Rodger Pearl**.
 
         > [!div class="mx-imgBorder"]
         > ![Enter manager quota in excel sheet](media/forecast-excel-manager-quota.png "Enter manager quota in excel sheet") 
@@ -218,16 +221,16 @@ Use the **Publish & Quota** tab to generate a forecast based on the configuratio
 
 4. Save and close the file.
 
-5. In the **Upload a quota for this forecast** section, select the option to browse and upload, or drag and drop the file in the upload area. After you upload the file, the application processes the file and you can see the status at the bottom of the upload area.
+5. In the **Upload a quota for this forecast** section, select the option to browse and upload, or drag and drop the file in the upload area. Check status at the bottom of the upload area.
 
     In this example, we are dragging and dropping the file in the upload area.
 
     > [!div class="mx-imgBorder"]
     > ![Drag and drop file in the upload area](media/forecast-publish-quota-drag-drop-file.png "Drag and drop file in the upload area")
 
-6. After the file successfully uploads, select **Finish**.
+6. After the file uploaded, select **Finish**.
  
-    You are directed to the forecast configuration home page, where you have the forecasts defined for your organization are listed.
+    You are directed to the forecast configuration home page, where your organization's forecasts are listed.
 
 ## See also
 
