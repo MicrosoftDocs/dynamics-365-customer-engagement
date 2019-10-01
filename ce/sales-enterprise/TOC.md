@@ -41,7 +41,7 @@
 #### [Create a goal metric](../sales-enterprise/create-edit-goal-metric.md)
 #### [Create a rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)
 #### [Configure a forecast](configure-forecast.md)
-<!--#### [Create a forecast definition](create-forecast-definition.md)-->
+
 ### Playbook management
 #### [Define playbook categories](define-playbook-categories.md)  
 #### [Manage playbook templates](manage-playbook-templates.md) 
