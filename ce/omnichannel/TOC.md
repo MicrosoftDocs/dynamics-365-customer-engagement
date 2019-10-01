@@ -55,7 +55,7 @@
 #### [Create and manage routing rules](administrator/routing-rules.md)
 
 ### Agent Experience
-### Productivity tools
+#### Productivity tools
 ##### [Agent scripts](administrator/agent-scripts.md)
 #### [Create quick replies](administrator/create-quick-replies.md)
 #### [Configure and manage custom presence](administrator/presence-custom-presence.md)
