@@ -33,13 +33,6 @@ As a supervisor, you can manually assign these conversations to an agent or anot
 
 ## Assign a conversation
 
-
-<!--from editor: 
-Is Alan Steiner from an approved fictitious names list?
-In step 5, what is the notification about? 
--->
-
-
 You can assign a conversation to an agent or to another queue that is in the **Open** state. To assign, follow these steps: 
 
 1. Sign in to the **Omnichannel for Customer Service** app. 
@@ -62,14 +55,14 @@ You can assign a conversation to an agent or to another queue that is in the **O
 
     To assign to a queue, select the **Queue** tab.
 
-    In this example, we are assigning the conversation to **Alan Steiner**.
+    In this example, we are assigning the conversation to **Alberto Gass**.
 
     > [!div class=mx-imgBorder]
     > ![Assign work item to an agent](../media/oc-conversations-assign-agent.png "Assign work item to an agent")
 
 5. Select **Assign**.
 
-    This initiates the assignment of the conversation and sends you a notification.
+    This initiates the assignment of the conversation and sends you a notification to confirm the assignment.
 
 
 ### See also
