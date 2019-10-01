@@ -7772,23 +7772,28 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customerengagement/on-premises/deploy/index.md",
+      "redirect_url": "/dynamics365/customerengagement/on-premises/deploy/deploy-and-operate-dynamics-365-on-premises",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/admin/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/admin/admin-guide",
+      "redirect_url": "dynamics365/customerengagement/on-premises/admin/overview",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/customerengagement/on-premises/basics/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/basics/basics-guide",
+      "redirect_url": "/dynamics365/customerengagement/on-premises/basics/basics-guide",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/customerengagement/on-premises/customize/add-visual-controls-mobile-app.md",
-      "redirect_url": "/dynamics365/customer-engagement/customize/overview",
+      "redirect_url": "/dynamics365/customerengagement/on-premises/customize/overview",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/customerengagement/on-premises/customize/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/customize/overview",
+      "redirect_url": "/dynamics365/customerengagement/customize/overview",
       "redirect_document_id": "false"
     },
     {
