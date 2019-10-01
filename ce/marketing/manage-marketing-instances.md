@@ -50,10 +50,13 @@ Because Marketing is more complex than most Dynamics 365 apps, and interacts wit
 <a name="copy-warning"></a>
 
 > [!WARNING]
-> You must not do a simple copy of a Marketing instance like you can with most other Dynamics 365 instances that don't have Marketing installed. If you do a simple copy without following the steps here, the resulting copy won't work and will render the target instance unrecoverable.
+> You must not do a simple copy of a Marketing instance like you can with most other Dynamics 365 instances that don't have Marketing installed. If you do a simple copy without following the steps here, the resulting copy won't work and may render the target instance unrecoverable.
 
 > [!WARNING]
-> This procedure will completely delete and/or overwrite the target instance.
+> This procedure will completely delete the target instance. If Dynamics 365 Marketing is installed on the target instance, then it will be completely uninstalled (which will release the license) and all data (including interaction records) will be deleted. Even if you backup the target instance first, the backup won't include interaction data, so if you need to preserve interaction data from the target instance, be sure to back up the database for your customer-insights service, either to blob storage to some other storage media.
+
+> [!IMPORTANT]
+> Your copied instance requires it's own Dynamics 356 Marketing license. If the target instance already has Marketing installed, then the copy will automatically take over that license (you don't have to do anything). If the target instance doesn't have Marketing installed, then we recommend you make sure you have an unused Marketing license for your tenant before you start the copy, and purchase one if you don't. If you don't have a Marketing license available before copying, then the copy will end in a *disconnected state*, which means that many key features won't work (relevant error messages will be shown); in this case, you can just purchase a new Marketing license and then [re-run the setup wizard](re-run-setup.md) to apply it to your new copy.
 
 > [!NOTE]
 > If you are copying to a support instance, then see [Copy a production instance to a support instance](#support-copy) for instructions instead of reading this section. For all other types of copies, continue reading here.
@@ -105,7 +108,7 @@ Pay special attention when choosing whether to create a [full or minimal copy](#
 After creating your copy, you must do the following:
 
 - Make sure the target instance isn't in administration mode. For more information about this setting and how to disable it, see [Administration mode](../admin/manage-sandbox-instances.md#administration-mode).
-- Run the Marketing setup wizard on the target instance. This is needed because the target instance must be set up with a new collection of marketing services (and, in some cases, supporting apps such as Voice of the Customer and/or Portals). For instructions, see [Run the Marketing setup wizard](purchase-setup.md#run-wizard).
+- Run the Marketing setup wizard on the target instance. This is needed because the target instance must be set up with a new collection of marketing services (and, in some cases, supporting apps such as Voice of the Customer and/or Portals). For instructions, see [Run the Marketing setup wizard](purchase-setup.md#run-wizard). If you don't run the setup wizard, then the copy will end in a *disconnected state*, which means that many key features won't work until you do (relevant error messages will be shown).
 
 > [!NOTE]
 > Because a new set of marketing services is created on the target instance, all marketing insights and interaction data stored by the previous marketing instance won't be available to the new instance. The lost interaction data includes records of email clicks, website visits, form submissions, and other ways that contacts have interacted with your marketing initiatives.
@@ -134,6 +137,12 @@ You can create an on-demand backup at any time, but when Marketing is installed 
 
 You can easily restore any on-demand or automatic system backup to any available sandbox instance (other than the instance you took the backup from). But as with copy operations, you need to prepare the target instance first.
 
+> [!WARNING]
+> This procedure will completely delete the target instance. If Dynamics 365 Marketing is installed on the target instance, then it will be completely uninstalled (which will release the license) and all data (including interaction records) will be deleted. Even if you backup the target instance first, the backup won't include interaction data, so if you need to preserve interaction data from the target instance, be sure to back up the database for your customer-insights service, either to blob storage to some other storage media.
+
+> [!IMPORTANT]
+> Your restored instance requires it's own Dynamics 356 Marketing license. If the target instance already has Marketing installed, then the restored instance will automatically take over that license (you don't have to do anything). If the target instance doesn't have Marketing installed, then we recommend you make sure you have an unused Marketing license on your tenant before you start the restore, and purchase one if you don't. If you don't have a Marketing license available before restoring, then the restored instance will end in a *disconnected state* which means that many key features won't work (relevant error messages will be shown); in this case, you can just purchase a new Marketing license and then [re-run the setup wizard](re-run-setup.md) to apply it to your restored instance.
+
 To restore a backup onto a sandbox instance:
 
 1. If your target instance includes a [Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
@@ -145,7 +154,7 @@ To restore a backup onto a sandbox instance:
 1. Prepare the restored instance for use by doing the following:
 
    - Make sure the restored instance is not in administration mode. For more information about this setting and how to disable it, see [Administration mode](../admin/manage-sandbox-instances.md#administration-mode).
-   - Run the Marketing setup wizard on the target instance. For instructions, see [Run the Marketing setup wizard](purchase-setup.md#run-wizard).
+   - Run the Marketing setup wizard on the target instance. For instructions, see [Run the Marketing setup wizard](purchase-setup.md#run-wizard). If you don't run the setup wizard, then the copy will end in a *disconnected state*, which means that many key features won't work until you do (relevant error messages will be shown).
 
 ### Don't try to restore a backup onto its original instance
 
