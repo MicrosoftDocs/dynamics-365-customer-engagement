@@ -71,6 +71,12 @@
       "redirect_document_id": "false"
     },    
     {
+
+      "source_path": "ce/project-service/new-upcoming.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/analytics/index.md",
       "redirect_url": "../customer-engagement/on-premises/analytics/reporting-analytics-with-dynamics-365",
       "redirect_document_id": "false"
@@ -5038,7 +5044,32 @@
     {
       "source_path": "ce/omni-channel-engagement-hub/administrator/users-user-profiles.md",
       "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/users-user-profiles",
-      "redirect_document_id": "false"
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/project-service/how-to-guides/pricing-dimensions-setup.md",
+      "redirect_url": "../pricing-costing-dimensions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/project-service/how-to-guides/project-management-how-to.md",
+      "redirect_url": "../project-planning",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/project-service/how-to-guides/resource-management-how-to.md",
+      "redirect_url": "../resource-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/project-service/how-to-guides/reconciling-assignments-bookings-how-to.md",
+      "redirect_url": "../reconcile-booking-assignment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/project-service/how-to-guides/time-expense-approval.md",
+      "redirect_url": "../time-entries",
+      "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-engagement/on-premises/developer/workflow/create-custom-workflow-activity.md",
@@ -16589,6 +16620,7 @@
       "source_path": "ce/on-premises/use-deployment-manager-to-manage-the-deployment.md",
       "redirect_url": "../customer-engagement/on-premises/deploy/use-deployment-manager-to-manage-the-deployment",
       "redirect_document_id": "false"
+
     }
   ]
 }
