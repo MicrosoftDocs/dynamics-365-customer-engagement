@@ -1,6 +1,6 @@
 ---
 
-title: How do I "soft book" resources? (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: How do I "soft book" resources?
 description: This article describes how to tentatively schedule or "soft book" project team members with Project Service.
 author: JohnPBurrows 
 manager: kfend
