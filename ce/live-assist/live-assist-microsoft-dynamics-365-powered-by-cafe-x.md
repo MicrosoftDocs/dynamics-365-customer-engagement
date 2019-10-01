@@ -16,7 +16,7 @@ author: shellyhaverkamp
 ms.author: shellyha
 ---
 # Live Assist for Dynamics 365 for Customer Engagement powered by Café X
-<a name="heroArea"></a> [![LiveAssist video graphic](../admin/media/liveassist-video-graphic.png "LiveAssist video graphic")](https://support.liveassistfor365.com/hc/en-us/articles/213670809-Caf%C3%A9X-Live-Assist-for-Microsoft-Dynamics-365)  
+<a name="heroArea"></a> [![LiveAssist video graphic](../admin/media/liveassist-video-graphic.png "LiveAssist video graphic")](https://support.liveassistfor365.com/hc/articles/213670809-Caf%C3%A9X-Live-Assist-for-Microsoft-Dynamics-365)  
   
  [!INCLUDE[live_assist_for_Dynamic_365_powered_by_cafe_x](../includes/pn-live-assist-for-dynamics-365-powered-by-cafex.md)] is a fully integrated omnichannel solution. With [!INCLUDE[live_assist_for_Dynamic_365_powered_by_cafe_x](../includes/pn-live-assist-for-dynamics-365-powered-by-cafex.md)], create more personalized, intelligent experiences within websites and apps using chat and co-browse. Features include:  
   

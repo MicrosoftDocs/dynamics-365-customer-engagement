@@ -104,7 +104,7 @@ Review and move any browser hosted controls in **Internal WPF** mode or hybrid m
 ### Mitigation
 
 Install the [!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)] KB3092627 update on your computer. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)]
-[KB3092627](https://support.microsoft.com/en-us/help/3092627/september-2015-update-to-fix-windows-or-application-freezes-after-you)
+[KB3092627](https://support.microsoft.com/help/3092627/september-2015-update-to-fix-windows-or-application-freezes-after-you)
 
 ## See also
 

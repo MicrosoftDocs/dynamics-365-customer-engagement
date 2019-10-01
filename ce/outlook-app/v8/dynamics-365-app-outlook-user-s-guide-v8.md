@@ -388,7 +388,7 @@ One of the first things you might want to do when you receive a customer email, 
  You can track [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] by using the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] add-in, an [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] solution module.   The add-in is automatically installed when you install [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)]. You can access it as described below.  
   
 > [!NOTE]
->  [Delegated users](https://support.office.com/article/Allow-someone-else-to-manage-your-mail-and-calendar-9684B670-7588-4EEA-8717-9E5799047540) can not use [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] to track emails. We suggest using [folder-level tracking or automatic tracking](https://www.microsoft.com/en-us/dynamics/crm-customer-center/overview-of-tracking-records-in-dynamics-365-for-outlook.aspx) for delegated users.  
+>  [Delegated users](https://support.office.com/article/Allow-someone-else-to-manage-your-mail-and-calendar-9684B670-7588-4EEA-8717-9E5799047540) can not use [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] to track emails. We suggest using [folder-level tracking or automatic tracking](https://www.microsoft.com/dynamics/crm-customer-center/overview-of-tracking-records-in-dynamics-365-for-outlook.aspx) for delegated users.  
   
  Using the add-in, you can:  
   
@@ -710,7 +710,7 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
 > [!NOTE]
 >  Tracking email in compose mode is temporarily unavailable for                      [!INCLUDE[pn_ms_outlook_2013_short](../../includes/pn-ms-outlook-2013-short.md)] or                      [!INCLUDE[pn_outlook_2016](../../includes/pn-outlook-2016.md)].                  For more information, see [Can’t track emails in CRM App for Outlook](https://support.microsoft.com/help/3163174/can-t-track-emails-in-crm-app-for-outlook).  
 > 
->  [Delegated users](https://support.office.com/article/Allow-someone-else-to-manage-your-mail-and-calendar-9684B670-7588-4EEA-8717-9E5799047540) can not use [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] to track emails. We suggest using [folder-level tracking or automatic tracking](https://www.microsoft.com/en-us/dynamics/crm-customer-center/overview-of-tracking-records-in-dynamics-365-for-outlook.aspx) for delegated users.  
+>  [Delegated users](https://support.office.com/article/Allow-someone-else-to-manage-your-mail-and-calendar-9684B670-7588-4EEA-8717-9E5799047540) can not use [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] to track emails. We suggest using [folder-level tracking or automatic tracking](https://www.microsoft.com/dynamics/crm-customer-center/overview-of-tracking-records-in-dynamics-365-for-outlook.aspx) for delegated users.  
   
 ##### Track an email message that you create  
   

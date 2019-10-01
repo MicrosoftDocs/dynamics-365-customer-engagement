@@ -191,5 +191,5 @@ These updates apply to Dynamics 365 (online), version 8.x.
 - Now you can credit or correct an invoice that was sent to a customer. Quantity of billable hours, bill rates, and other charges and can be corrected or entirely reversed.  
   
 ### See also  
- [Dynamics 365 for Field Service - User's Guide](../field-service/user-guide.md)   
- [Dynamics 365 for Project Service Automation - User's Guide](../project-service/admin-guide.md)
+ [Dynamics 365 Field Service - User's Guide](../field-service/user-guide.md)   
+ [Dynamics 365 Project Service Automation - User's Guide](../project-service/admin-guide.md)

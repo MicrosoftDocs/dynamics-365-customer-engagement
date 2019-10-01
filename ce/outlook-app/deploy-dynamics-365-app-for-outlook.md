@@ -30,7 +30,7 @@ search.app:
 >
 > - Multi-factor authentication with [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] and Server Side Synchronization is supported only in an online-only configuration. It is not a supported scenario for Dynamics 365 Customer Engagement (on-premises) or Microsoft Exchange on-premises.
 >
-> - [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is not supported on [Office 365 shared mailbox](https://support.office.com/en-us/article/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd)
+> - [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is not supported on [Office 365 shared mailbox](https://support.office.com/article/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd)
 >
 > - [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is not supported in configurations that have Dynamics 365 apps and Office 365 in different tenants.
 
@@ -57,7 +57,7 @@ For more information on FAQ's, see [Frequently Asked Questions about Dynamics 36
 |**Browser (Outlook Web Access)**     | <li>Micosoft Edge (with Exchange on premise 2016 or higher and Exchange Online)</li><br/> <li>Internet Explorer 11 (with Exchange on premise 2016 or higher and Exchange Online)</li><br/> <li>Google Chrome</li><br/>   <li>Mozilla Firefox</li><br/>      |
 
 > [!NOTE]
-> Support for 2013 versions of Office 365 ProPlus ended on February 28, 2017. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See here.](https://support.microsoft.com/en-us/help/3199744/support-for-the-2013-versions-of-office-365-proplus-ends-february-28-2)    
+> Support for 2013 versions of Office 365 ProPlus ended on February 28, 2017. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See here.](https://support.microsoft.com/help/3199744/support-for-the-2013-versions-of-office-365-proplus-ends-february-28-2)    
 
 - Dynamics 365 apps, version 9.x (such as Dynamics 365 Sales and Dynamics 365 Customer Service apps), [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro), or [Dynamics 365 Customer Engagement (on-premises), version 9.x](../customer-engagement/on-premises/overview.md).
 
@@ -123,10 +123,10 @@ This will ensure that the users have the basic privileges needed to access App f
 
 (2) Tracking contacts is supported only on Exchange Server 2016 CU3 and Outlook 2016 16.0.6741.1000 C2R version or later. 
 Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs installed. For more information, see these KB articles:
-  - [KB3118330](https://support.microsoft.com/en-us/help/3118330/october-4,-2016,-update-for-office-2016-kb3118330)
-  - [KB3118374](https://support.microsoft.com/en-us/help/3118374/october-4,-2016,-update-for-office-2016-kb3118374)
-  - [KB3118375](https://support.microsoft.com/en-us/help/3118375/october-4,-2016,-update-for-outlook-2016-kb3118375)
-  - [KB3115500](https://support.microsoft.com/en-us/help/3115500/october-4,-2016,-update-for-office-2016-kb3115500) <br /> 
+  - [KB3118330](https://support.microsoft.com/help/3118330/october-4,-2016,-update-for-office-2016-kb3118330)
+  - [KB3118374](https://support.microsoft.com/help/3118374/october-4,-2016,-update-for-office-2016-kb3118374)
+  - [KB3118375](https://support.microsoft.com/help/3118375/october-4,-2016,-update-for-outlook-2016-kb3118375)
+  - [KB3115500](https://support.microsoft.com/help/3115500/october-4,-2016,-update-for-office-2016-kb3115500) <br /> 
 
 (3) Supported only on Outlook 2016 16.0.7426.1049 or later.<br />
 

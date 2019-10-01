@@ -58,7 +58,7 @@ manager: annbe
 
 <tr><td>
 <h2>Microsoft Learn resources</h2>
-<li><a href="https://docs.microsoft.com/en-us/learn/paths/working-with-dynamics-365-sales/" data-raw-source="[Working with Dynamics 365 Sales](https://docs.microsoft.com/en-us/learn/paths/working-with-dynamics-365-sales/)">Working with Dynamics 365 Sales</a></li>
+<li><a href="https://docs.microsoft.com/learn/paths/working-with-dynamics-365-sales/" data-raw-source="[Working with Dynamics 365 Sales](https://docs.microsoft.com/learn/paths/working-with-dynamics-365-sales/)">Working with Dynamics 365 Sales</a></li>
 
 
 </td><td>

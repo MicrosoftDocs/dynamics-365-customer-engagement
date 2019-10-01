@@ -21,9 +21,9 @@ search.app:
   - D365FS
 ---
 
-# Overview of Dynamics 365 for Field Service
+# Overview of Dynamics 365 Field Service
 
-The Dynamics 365 for Field Service business application helps organizations deliver onsite service to customer locations. The application combines workflow automation, scheduling algorithms, and mobility to set mobile workers up for success when they're onsite with customers fixing issues.
+The Dynamics 365 Field Service business application helps organizations deliver onsite service to customer locations. The application combines workflow automation, scheduling algorithms, and mobility to set mobile workers up for success when they're onsite with customers fixing issues.
 
 The Field Service application enables you to:
 
@@ -97,5 +97,5 @@ Work orders describe the work that a technician needs to perform at a customer l
 ## Watch an overview video
 In this video, see how the interactive schedule board and other tools help a service team resolve a customer's issue.
 
- <a name="heroArea"></a> [![Video showing how to manage your mobile workforce Dynamics 365 for Field Service](../field-service/media/field-service-manage-mobile-workforce.PNG "Manage your mobile workforce with Dynamics 365 for Field Service")](https://go.microsoft.com/fwlink/p/?LinkId=786689)
+ <a name="heroArea"></a> [![Video showing how to manage your mobile workforce Dynamics 365 Field Service](../field-service/media/field-service-manage-mobile-workforce.PNG "Manage your mobile workforce with Dynamics 365 Field Service")](https://go.microsoft.com/fwlink/p/?LinkId=786689)
 

@@ -1,6 +1,31 @@
 {
   "redirections": [
     {
+      "source_path": "ce/analytics/index.md",
+      "redirect_url": "../customer-engagement/on-premises/analytics/reporting-analytics-with-dynamics-365",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/index.md",
+      "redirect_url": "../customer-engagement/on-premises/admin/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customize/index.md",
+      "redirect_url": "../customer-engagement/on-premises/customize/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/basics/index.md",
+      "redirect_url": "../customer-engagement/on-premises/basics/basics-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/index.md",
+      "redirect_url": "on-premises/overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customize/import-update-export-solutions.md",
       "redirect_url": "export-solution",
       "redirect_document_id": "false"
@@ -1076,32 +1101,7 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/admin/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/admin/admin-guide",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/analytics/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/analytics/reporting-analytics-with-dynamics-365",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/basics/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/basics/basics-guide",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customer-service/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/customer-service/help-hub",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/customize/add-visual-controls-mobile-app.md",
-      "redirect_url": "/dynamics365/customer-engagement/customize/overview",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customize/index.md",
       "redirect_url": "/dynamics365/customer-engagement/customize/overview",
       "redirect_document_id": "false"
     },
@@ -7753,11 +7753,6 @@
     {
       "source_path": "ce/admin/add-teams-users-field-security-profile.md",
       "redirect_url": "https://docs.microsoft.com/power-platform/admin/add-teams-users-field-security-profile",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/admin/admin-guide.md",
-      "redirect_url": "https://docs.microsoft.com/power-platform/admin/admin-guide",
       "redirect_document_id": "false"
     },
     {

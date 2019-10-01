@@ -18,9 +18,9 @@ manager: kvivek
 
 Before you start hosting a custom event website, complete the actions mentioned in the [Prerequisites](event-management-web-application.md) topic. The custom event website comes as a Dynamics 365 Portal hosted web application when you install the Event Management solution.
 
-The frontend part of the application is bundled into two resource files that are stored as Dynamics 365 Portal [web files](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/web-files). The main single page application entry-point is stored as Dynamics 365 Portal [web template](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/store-content-web-templates).
+The frontend part of the application is bundled into two resource files that are stored as Dynamics 365 Portal [web files](https://docs.microsoft.com/dynamics365/customer-engagement/portals/web-files). The main single page application entry-point is stored as Dynamics 365 Portal [web template](https://docs.microsoft.com/dynamics365/customer-engagement/portals/store-content-web-templates).
 
-Although the frontend definition is hosted on Dynamics 365 Portals, you can still fully customize it. The backend part of the web application is not customizable since the **REST API** endpoints are hosted on Dynamics 365 Portal as a set of [web pages](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/web-page). The code containing the business logic behind it resides in Event Management plugins which are not customizable.
+Although the frontend definition is hosted on Dynamics 365 Portals, you can still fully customize it. The backend part of the web application is not customizable since the **REST API** endpoints are hosted on Dynamics 365 Portal as a set of [web pages](https://docs.microsoft.com/dynamics365/customer-engagement/portals/web-page). The code containing the business logic behind it resides in Event Management plugins which are not customizable.
 
 ![Portal Hosted](../media/portal-hosted.png "Portal Hosted")
 
@@ -85,7 +85,7 @@ To deploy the customized Angular application, run the **PowerShell** script `Dep
 After all the files are built, it asks you to sign in to your Dynamics 365 Marketing instance that you want to use to host your application. After you sign in, it pushes the files to the instance. If you don't see your changes, clear the browser cache and restart your **Portals**.
 
 > [!NOTE]
-> If you can't run the Powershell script because of your execution policy, then you need to [disable or bypass the execution policy](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6).
+> If you can't run the Powershell script because of your execution policy, then you need to [disable or bypass the execution policy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6).
 
 
 ### Manual Deployment

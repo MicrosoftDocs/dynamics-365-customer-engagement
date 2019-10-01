@@ -72,7 +72,7 @@ To set up social listening for a record:
 
     Make the following settings:
 
-    - Under **Choose topic or category**, select an existing Social Engagement topic or category that you want to show. Choose the topic or category that best matches the record you are working with in Dynamics 365 Marketing. If an appropriate topic or category isn't yet available, then select the **Create new …** link to go to Social Engagement and set up a new one (a Social Engagement user license is required). More information: [Set up searches to listen to social media conversations](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/social-engagement/set-up-searches)
+    - Under **Choose topic or category**, select an existing Social Engagement topic or category that you want to show. Choose the topic or category that best matches the record you are working with in Dynamics 365 Marketing. If an appropriate topic or category isn't yet available, then select the **Create new …** link to go to Social Engagement and set up a new one (a Social Engagement user license is required). More information: [Set up searches to listen to social media conversations](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/set-up-searches)
     - Under **Visualization**, make a selection from the **Choose visual** drop-down list and then select **Add** to add that visual to the page. Your selected visual is added to the list at the bottom of the dialog.
     - Continue to add each visualization that you want to include. You can rearrange them by selecting an existing visualization in the list and then using the up, down, or delete buttons at the top of the list.
 

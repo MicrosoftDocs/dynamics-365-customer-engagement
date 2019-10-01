@@ -96,7 +96,7 @@ Fires a user-defined event from this hosted control.
 |-----------|---------------------------------|
 | name      | Name of the user-defined event. |
 
-All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/create-user-defined-event).  
+All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/create-user-defined-event).  
 
 ### GetSelectedIds
 
@@ -301,7 +301,7 @@ The following predefined events are associated with this hosted control type.
 
 ### ActiveClosed
 
-Occurs when the active hosted control is closed using the [CloseActive](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/crm-page-hosted-control#CloseActive) action.  
+Occurs when the active hosted control is closed using the [CloseActive](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/crm-page-hosted-control#CloseActive) action.  
 
 | Parameter | Description                                                          |
 |-----------|----------------------------------------------------------------------|

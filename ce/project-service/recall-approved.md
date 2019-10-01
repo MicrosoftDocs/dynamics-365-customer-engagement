@@ -1,7 +1,7 @@
 ---
 
 title: Recall approved time or expense entries
-description: This topic provides information about how to recall a previously approved time or expense transaction in Microsoft Dynamics 365 for Project Service Automation (PSA).
+description: This topic provides information about how to recall a previously approved time or expense transaction in Microsoft Dynamics 365 Project Service Automation (PSA).
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-In Microsoft Dynamics 365 for Project Service Automation (PSA), a project team member or an other person who submits a time or expense entry can recall that time or expense entry after it has been approved. The process for recalling an approved time or expense entry has two steps:
+In Microsoft Dynamics 365 Project Service Automation (PSA), a project team member or an other person who submits a time or expense entry can recall that time or expense entry after it has been approved. The process for recalling an approved time or expense entry has two steps:
 
 1. A submitter requests a recall.
 2. An approver approves the recall.

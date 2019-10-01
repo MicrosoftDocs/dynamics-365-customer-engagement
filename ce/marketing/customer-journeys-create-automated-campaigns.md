@@ -24,7 +24,7 @@ search.app:
 
 # Use customer journeys to create automated campaigns
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
 
 Use Dynamics 365 Marketing to visualize and automate the journey that customers will take while interacting with your marketing initiatives on their way to making a purchase. A simple customer journey might include just a short interaction, such as a single email campaign. A complex journey could include the full process from discovery, through nurturing, and on to marketing-qualified leads. Customer journeys can also generate and assign tasks (such as a scheduled follow-up phone call), and trigger business workflows.
 

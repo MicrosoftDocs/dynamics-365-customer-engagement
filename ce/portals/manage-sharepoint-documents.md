@@ -38,13 +38,13 @@ To work with the document management capabilities of [!INCLUDE[pn-sharepoint-sho
 
 3.	[Enable document management for entities](#step-3-enable-document-management-for-entities)
 
-4.	[Configure the appropriate form in Dynamics 365 to display documents](#step-4-configure-the-appropriate-form-to-display-documents)
+4.	[Configure the appropriate form to display documents](#step-4-configure-the-appropriate-form-to-display-documents)
 
 5.	[Create appropriate entity permission and assign it to the appropriate web role](#step-5-create-appropriate-entity-permission-and-assign-it-to-the-appropriate-web-role)
 
 ## Step 1: Enable document management functionality in Dynamics 365
 
-You must enable document management functionality in Dynamics 365 by using server-based [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration. Server-based [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration allows Dynamics 365 and [!INCLUDE[pn-microsoft-sharepoint-online](../includes/pn-microsoft-sharepoint-online.md)] to perform a server-to-server connection. The default [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] site record is used by the portal. For information on how to enable document management functionality in Dynamics 365, see [Configure server-based authentication with Dynamics 365 and SharePoint Online](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/configure-server-based-authentication-sharepoint-online).
+You must enable document management functionality in Dynamics 365 by using server-based [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration. Server-based [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration allows Dynamics 365 and [!INCLUDE[pn-microsoft-sharepoint-online](../includes/pn-microsoft-sharepoint-online.md)] to perform a server-to-server connection. The default [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] site record is used by the portal. For information on how to enable document management functionality in Dynamics 365, see [Configure server-based authentication with Dynamics 365 and SharePoint Online](https://docs.microsoft.com/dynamics365/customer-engagement/admin/configure-server-based-authentication-sharepoint-online).
 
 ## Step 2: Set up SharePoint integration from Portal Admin Center
 
@@ -84,7 +84,7 @@ If you do not provide your consent:
 
 
 ## Step 3: Enable document management for entities
-You must enable document management for entities to store documents related to Dynamics 365 entity records in [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)]. For information on how to enable document management for entities, see [Enable SharePoint document management for specific entities](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/enable-sharepoint-document-management-specific-entities).
+You must enable document management for entities to store documents related to Dynamics 365 entity records in [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)]. For information on how to enable document management for entities, see [Enable SharePoint document management for specific entities](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-sharepoint-document-management-specific-entities).
 
 ## Step 4: Configure the appropriate form to display documents
 
@@ -184,7 +184,7 @@ This sample provides exact steps and configuration values to enable document man
 
     - Dynamics 365 Portals configuration
 
-        a. In Dynamics 365, go to **Portals** > **Entity Forms**.
+        a. Go to **Portals** > **Entity Forms**.
     
         b. Find and open **Customer Service - Edit Case** entity form.
     
