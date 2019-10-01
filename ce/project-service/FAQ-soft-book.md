@@ -23,7 +23,7 @@ audience: Admin
 
 You can tentatively schedule or "soft book" a resource onto a project team to show that you plan to assign the resource to the project. Soft bookings don’t consume a resource’s available capacity, and you can assign soft-booked team members to project tasks. However, because soft booking doesn’t consume a resource’s capacity, you can still "hard book" the resource for other tasks within the same period. Generic resources can’t be soft-booked, nor can a soft-booking fulfill a request for a generic resource.
 
-Soft-booked project team members are listed on the **Team** tab of the **Project** page, with their soft-booked hours shown in the **Soft Booked Hours** column in the **Named Resources** view. Soft-booked team members are also listed on the schedule board. Because they are soft booked, the schedule board doesn't show any consumption of capacity for these resources. Soft-booked time doesn’t show up on the **Reconciliation** tab, nor is it shown in the **Extend Bookings** field in the **Reconciliation** tab of the schedule board. 
+Soft-booked project team members are listed on the **Team** tab of the **Project** page, with their soft-booked hours shown in the **Soft Booked Hours** column in the **Named Team Members** view. Soft-booked team members are also listed on the schedule board. Because they are soft booked, the schedule board doesn't show any consumption of capacity for these resources. Soft-booked time doesn’t show up on the **Reconciliation** tab, nor is it shown in the **Extend Bookings** field in the **Reconciliation** tab of the schedule board. 
 
 There are two ways to soft book a team member onto a project: directly from the schedule board, or by adding the team member on the **Team** tab. 
 
@@ -44,7 +44,7 @@ Complete the following steps to soft book a resource from the schedule board.
 Add team members directly on the **Team** tab, and then change their booking status from Hard to Soft with **Maintain Bookings**. When you add a team member this way, it will always result in a hard booking unless you select the allocation method as **None**.
 To use this method, complete the following steps.
 
-1. On the **Team** tab, click **New**.
+1. On the **Project** page, on the **Team** tab, click **New**.
 2. Select the bookable resource, the role, and the from and to dates.
 3. Select an allocation method other than **None**.
 4. Select **Save**. You’ll see the resource on the grid and their hours in the **Hard Booked Hours** column.
@@ -58,6 +58,6 @@ To use this method, complete the following steps.
 
 When you’re ready to change a soft-booked team member resource to a hard-booked team member, do the following:
 
-1. On the Schedule board, expand the resource to show their bookings. You’ll see the booking shown as **Soft**.
+1. On the schedule board, expand the resource to show their bookings. You’ll see the booking shown as **Soft**.
 2. Right-click the booking, and under **Change Status**, select **Hard Book** \> **Hard**. The booking status is now **Hard**.
-3. After you close the Schedule board, return to the project, and open the **Team** tab, you’ll see that the hours for the resource have moved from the **Soft Booked Hours** column to the **Hard Booked Hours** column on the **Team** tab when in the **Named Team Members** view. If the resource was assigned to tasks, they’ll no longer show a booking deficit on the **Reconciliation** tab as their bookings are now hard.
+3. After you close the schedule board, return to the project, and open the **Team** tab, you’ll see that the hours for the resource have moved from the **Soft Booked Hours** column to the **Hard Booked Hours** column on the **Team** tab when in the **Named Team Members** view. If the resource was assigned to tasks, they’ll no longer show a booking deficit on the **Reconciliation** tab as their bookings are now hard.
