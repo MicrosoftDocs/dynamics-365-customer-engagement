@@ -28,8 +28,7 @@ search.app:
 > [!NOTE]
 > **Do not** install the Resource Scheduling Optimization solution from the solution page. Follow the next steps using the RSO deployment app to deploy.
 
-2. Select the **Resource Scheduling Optimization** application to configure or
-    manage.
+2. Select the **Resource Scheduling Optimization** application to configure or manage.
 
     > [!div class="mx-imgBorder"]
     > ![](media/rso-welcome.png)
@@ -40,6 +39,8 @@ search.app:
 
     > [!div class="mx-imgBorder"]
     > ![](media/rso-instance.png)
+    
+The RSO instance is associated with a single Dynamics 365 organization in the tenant. You can change the associated organization through the RSO deployment app’s page. If additional RSO instances are needed for dev/test and you have an Enterprise Agreement with Microsoft, contact your technical account manager. Such instances are not yet available to Cloud Solution Providers or retail purchase.
 
 4. Click **Upgrade to new version** to apply a new update if one is available.
 
