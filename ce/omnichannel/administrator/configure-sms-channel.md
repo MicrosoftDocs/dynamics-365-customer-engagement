@@ -50,7 +50,7 @@ SMS channel is in preview. You can enable SMS channel after you have signed up f
 Once you have signed up for preview, you can enable SMS channel by going to the Dynamics 365 Admin Center. For steps on enabling SMS in your organization as a part of Provisioning Omnichannel for Customer Service, see [Provision Omnichannel for Customer Service ](omnichannel-provision-license.md).
 
 > [!NOTE]
-> SMS channel is only available if you have an active subscription of Dynamics 365 for Customer Service Chat.
+> SMS channel is only available if you have an active subscription of Dynamics 365 Customer Service Chat.
 
 
 ## Sign up for TeleSign account

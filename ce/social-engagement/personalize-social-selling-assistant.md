@@ -30,7 +30,7 @@ When using the Social Selling Assistant for the first time, users will get recom
 ## Access the Social Selling Assistant dashboard  
  To access the Social Selling Assistant in [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)], go to **Sales** > **Dashboards** and select the **Social Selling Assistant dashboard**.  
   
- ![Screenshot of Dynamics 365 for Sales with the Social Selling Assistant dashboard selected](media/dashboard-social-selling-assistant.png "Screenshot of Dynamics 365 for Sales with the Social Selling Assistant dashboard selected")  
+ ![Screenshot of Dynamics 365 Sales with the Social Selling Assistant dashboard selected](media/dashboard-social-selling-assistant.png "Screenshot of Dynamics 365 Sales with the Social Selling Assistant dashboard selected")  
   
  If you don't see the Social Selling Assistant dashboard, contact your [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] administrator.  
   

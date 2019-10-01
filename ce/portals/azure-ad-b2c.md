@@ -1,5 +1,5 @@
 ---
-title: "Azure AD B2C provider settings for Dynamics 365 Portals | MicrosoftDocs"
+title: "Azure AD B2C provider settings for portals | MicrosoftDocs"
 description: "Instructions to enable Azure AD B2C provider settings for portals."
 ms.custom: 
   - dyn365-portal
@@ -38,7 +38,7 @@ In the process of configuring [!include[Azure](../includes/pn-azure-shortest.md)
 | Federation-Name   |       | A unique name to identify the type of federation provider such as 'B2C'. This will be used in Site Setting names to group configuration settings for this specific provider.                                                                      |
 | | | |
 
-### Use [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider for your portal
+### Use Azure AD B2C as an identity provider for your portal
 
 1. Sign in to your [Azure portal](https://portal.azure.com/).
 2. [Create an Azure AD B2C tenant](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-get-started).

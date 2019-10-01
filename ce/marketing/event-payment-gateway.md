@@ -140,4 +140,4 @@ After your back-end solution has verified payment, it must invoke the `msevtmgt_
 - `ReadableEventId`: A value that uniquely identifies the event. One way that you can see this is by opening the relevant event record, going to the **General** tab and finding the **Readable event ID** field.
 - `UserId`: Identifies the contact who made the purchase. This is the ID for the contact record in Dynamics 365.
 
-For more information about how to execute custom actions, see [Use Web API actions](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/use-web-api-actions).
+For more information about how to execute custom actions, see [Use Web API actions](https://docs.microsoft.com/dynamics365/customer-engagement/developer/webapi/use-web-api-actions).

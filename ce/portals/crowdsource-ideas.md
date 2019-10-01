@@ -22,11 +22,12 @@ search.app:
   - D365Portals
 ---
 # Crowdsource ideas
+
 Learn how to manage Forum Ideas, Idea Comments, and Idea Votes.
 
 ## Manage idea forums
 
-Dynamics 365 users can manage Idea Forum records under the Community tab, provided the portal customizations have been imported into your Common Data Service organization.
+Users can manage Idea Forum records under the Community tab, provided the portal customizations have been imported into your Common Data Service environment.
 
 > [!NOTE]
 > - The way in which many of the content/display-oriented attributes are rendered is controlled by the views created by the portal developer.
@@ -54,7 +55,7 @@ The table below explains the standard attributes and relationships of the Idea F
 | Moderators             | Relationship specifying the web roles that have permission to moderate the idea forum. There is currently no front-side moderation functionality built into the idea portal application.|
 | | |
 
-## Manage ideas in Dynamics 365 Portals
+## Manage ideas in a portal
 
 For users, provided the portal customizations have been imported into your organization, Idea records can be managed under the Community tab.
 
@@ -126,14 +127,14 @@ To get the status reason values:
 
 ### Enable autocomplete for ideas
 
-While creating a new idea, there might be a scenario where a similar idea already exists in Dynamics 365. As an administrator, you can configure your portal to display a list of similar ideas when a portal user tries to create a new idea. This avoids creation of duplicate ideas in Dynamics 365. To enable a portal to display a list of similar ideas when a new idea is being created, you must create the `Ideas/EnableAutoComplete` site setting and set its value to **True**.
+While creating a new idea, there might be a scenario where a similar idea already exists. As an administrator, you can configure your portal to display a list of similar ideas when a portal user tries to create a new idea. This avoids creation of duplicate ideas. To enable a portal to display a list of similar ideas when a new idea is being created, you must create the `Ideas/EnableAutoComplete` site setting and set its value to **True**.
 
 > [!div class=mx-imgBorder]
 > ![Autocomplete ideas](media/idea-autocomplete.png "Autocomplete ideas")
 
-## Manage idea comments in Dynamics 365
+## Manage idea comments
 
-For users, provided the portal customizations have been imported into your Common Data Service organization, Idea Comment records can be managed under the Community tab.
+For users, provided the portal customizations have been imported into your Common Data Service environment, Idea Comment records can be managed under the Community tab.
 
 ## Idea comment attributes and relationships
 
@@ -152,9 +153,9 @@ The table below explains the standard attributes and relationships of the Idea C
 |    Posted On     |              The date and time that the comment was created.              |
 |                  |                                                                           |
 
-## Manage idea votes in Dynamics 365
+## Manage idea votes
 
-For users, provided the portal customizations have been imported into your Common Data Service organization, Idea Vote records can be managed under the Community tab.
+For users, provided the portal customizations have been imported into your Common Data Service environment, Idea Vote records can be managed under the Community tab.
 
 ## Idea vote attributes and relationships
 
