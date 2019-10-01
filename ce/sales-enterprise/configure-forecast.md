@@ -56,7 +56,7 @@ Verify the following prerequisites before configuring the forecast:
 
 - Administrator or Forecast manager role is assigned to you.
 
-- Preview feature is enabled. To learn more, see [How do I enable a preview feature](/power-platform/admin/what-are-preview-features-how-do-i-enable-them.md#how-do-i-enable-a-preview-feature).
+- Preview feature is enabled. To learn more, see [How do I enable a preview feature](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature).
 
 - Proper hierarchy is defined for the users for whom you are creating the forecast.
 
