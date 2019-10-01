@@ -33,12 +33,12 @@ To configure the sample:
 
 1. Get Dynamics 365 Channel Integration Framework from Microsoft AppSource. For information on prerequisites and how to get Dynamics 365 Channel Integration Framework, see [Get Dynamics 365 Channel Integration Framework](../customer-service/channel-integration-framework/get-channel-integration-framework.md).
 
-2. Import the **msdyn_CIFramework_managed.zip** managed solution from the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104591). More information: [Import, update, and upgrade a solution](../customize/import-update-upgrade-solution.md)
+2. Import the **msdyn_CIFramework_managed.zip** managed solution from the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104591). To learn more about importing a solution, see [Import, update, and upgrade a solution](../customize/import-update-upgrade-solution.md)
 
-3. Integrate the sample app available on the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590) using Dynamics 365 Channel Integration Framework. More information: [Sample softphone integration using Channel Integration Framework](../customer-service/channel-integration-framework/sample-softphone-integration.md).
+3. Integrate the sample app available on the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590) using Dynamics 365 Channel Integration Framework. To learn more about integrating a sample app, see [Sample softphone integration using Channel Integration Framework](../customer-service/channel-integration-framework/sample-softphone-integration.md).
 
     > [!IMPORTANT]
-    > You must use the sample app from the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590), and not the one that's mentioned in the [Sample softphone integration using Channel Integration Framework](../customer-service/channel-integration-framework/sample-softphone-integration.md) topic.
+    > You must use the sample app from the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590) link, and not the one that's mentioned in the [Sample softphone integration using Channel Integration Framework](../customer-service/channel-integration-framework/sample-softphone-integration.md) topic.
 
 4. Configure the channel provider for your Dynamics 365 Sales organization. More information: [How to configure a channel provider for your Dynamics 365 organization](../customer-service/channel-integration-framework/configure-channel-provider-channel-integration-framework.md)
  
