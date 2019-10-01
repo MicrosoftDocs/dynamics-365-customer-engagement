@@ -131,7 +131,7 @@ To recalculate and refresh the data in the forecast manually, follow these steps
     > [!div class="mx-imgBorder"]
     > ![Confirmation message to recalculate](media/forecast-recalculate-data-confirmation-message.png "Confirmation message to recalculate")
 
-    A toast notification appears on the top confirming the recalculation. Recalculation happens in the background and you can continue to work while recalculation is happening.
+    A toast notification appears at the bottom of the screen confirming the recalculation. Recalculation happens in the background and you can continue to work while recalculation is happening.
 
     > [!div class="mx-imgBorder"]
     > ![Toast notification to confirm recalculation](media/forecast-recalculate-data-toast-notification.png "Toast notification to confirm recalculation")
