@@ -79,11 +79,9 @@ Next, deploy and connect Azure IoTHub to your Field Service environment by going
   9. **Optional Step for Power BI**.  To install the Azure SQL database that is used for Power BI, check the **Enable Power BI Integration** box, and then enter the Azure SQL database user name and password. 
   10. Click **Deploy**.  
   
+Before proceeding, make sure all required Azure resources are successfully deployed and that the overall deployment status is **Success**.  
 
 After you’ve installed all required Azure resources, click **Authorize** to configure the Dynamics 365 connector connection API. When you configure the connection API you’ll need to enter your Dynamics 365 subscription account. See more details in the topic on [Authorize API connection between Dynamics 365 and AzureIoT](./cfs-authorize-api-connection.md).
-  
-> [!NOTE]
->  Before you click the **Authorize** button, make sure all required Azure resources are successfully deployed and that the overall deployment status is “Success”.  
   
 ### Set up the sample simulator (optional)  
  To find the simulator URL , sign in to your Azure subscription, and then click the App Service resource type under the newly created resource group. You’ll see the URL is in the top right corner. Copy the URL and complete the following steps:  
