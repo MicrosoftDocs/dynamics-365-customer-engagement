@@ -1,4 +1,4 @@
-# [Help resources for Dynamics 365 Sales (Enterprise)](help-hub.md)
+# [Help resources for Dynamics 365 Sales](help-hub.md)
 ## [Overview](../sales-enterprise/overview.md)
 ## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
 ## [What's new](../sales-enterprise/whats-new.md)
@@ -8,6 +8,7 @@
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
 #### [Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)
 #### [Enable PDF generation from quotes](enable-pdf-generation-quote.md)
+#### [Set up the enhanced email experience](set-up-enhanced-email.md)
 #### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
 #### [Customize the Opportunity Close form](customize-opportunity-close-experience.md)
 #### [Define lead qualification experience](define-lead-qualification-experience.md)
@@ -53,6 +54,7 @@
 ## User Guide
 ### [Help resources for sales people](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)
+### [Send email using the enhanced email experience](enhanced-email.md)
 ### Manage customers
 #### [Manage accounts and contacts](../basics/accounts-contacts.md)
 #### [Scan business cards](scan-business-cards.md)
