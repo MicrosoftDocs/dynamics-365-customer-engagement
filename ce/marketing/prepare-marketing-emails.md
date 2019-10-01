@@ -80,6 +80,6 @@ Below is an overview of the general process for creating and sending a marketing
 [Tutorial: Create a marketing email and go live](create-marketing-email.md)  
 [Create a new email and design its content](email-design.md)  
 [Add dynamic content to email messages](dynamic-email-content.md)  
-[Set the sender, receiver, and legal designation](email-properties.md)  
+[Set the sender, receiver, language, and legal designation](email-properties.md)
 [Check your work using previews and test sends](email-preview.md)  
 [Check for errors, go live, and deliver](email-check-golive.md)
