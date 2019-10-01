@@ -1,6 +1,6 @@
 ---
-title: "Assign conversations for supervisor | MicrosoftDocs"
-description: "Learn about how to assign conversations to queues and agents"
+title: "Supervisors can assign conversations | MicrosoftDocs"
+description: "How to assign conversations to queues and agents"
 keywords: ""
 author: udaykirang
 ms.author: udag
@@ -24,34 +24,43 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The omnichannel system, by default, assigns new incoming conversations based on configured routing rules and agent capacity. When agents don't have enough capacity to work on an incoming conversation, the conversation remains in the queue waiting to be assigned to an agent who has the capacity to handle the conversation. As a supervisor, you can manually assign these conversations to an agent or another queue.  
+The omnichannel system, by default, assigns new incoming conversations based on configured routing rules and agent capacity. When agents don't have enough capacity to work on an incoming conversation, the conversation remains in the queue waiting to be assigned to an agent who has the capacity to handle it. 
+
+As a supervisor, you can manually assign these conversations to an agent or another queue.  
 
 > [!NOTE]
-> Contact you administrator to enable the option to assign conversation in settings. To learn more, see [Enable supervisors to monitor and assign conversations](../administrator/configure-ongoing-conversations-settings.md)
+> Contact your administrator to enable the option in settings to assign conversations. To learn more, see [Enable supervisors to monitor and assign conversations](../administrator/configure-ongoing-conversations-settings.md).
 
-## Assign conversation
+## Assign a conversation
+
+
+<!--from editor: 
+Is Alan Steiner from an approved fictitious names list?
+In step 5, what is the notification about? 
+-->
+
 
 You can assign a conversation to an agent or to another queue that is in the **Open** state. To assign, follow these steps: 
 
-1. Sign in to **Omnichannel for Customer Service** app. 
+1. Sign in to the **Omnichannel for Customer Service** app. 
 
 2. In the **Omnichannel Ongoing Conversations** dashboard, choose the conversation that you want to manually assign.
 
     > [!NOTE]
-    > You can assign conversations that are in **Open** state only.
+    > You can assign conversations that are in the **Open** state only.
 
     The **Assign** action at the top of the grid is active.
 
 3. Select **Assign**. 
 
-    In this example, we are selecting a conversation that is not assigned to an agent or to a queue.
+    In this example, we are selecting a conversation that is not assigned to an agent or a queue.
 
     > [!div class=mx-imgBorder]
     > ![Select a work item to assign](../media/oc-select-conversations-assign.png "Select a work item to assign")
 
-4. In the **Assign** dialog box, you can see the list of agents and their available capacity in **Agent** tab. 
+4. In the **Assign** dialog box, you can see the list of agents and their available capacity in the **Agent** tab. 
 
-    To assign to a queue, select **Queue** tab.
+    To assign to a queue, select the **Queue** tab.
 
     In this example, we are assigning the conversation to **Alan Steiner**.
 
@@ -60,7 +69,7 @@ You can assign a conversation to an agent or to another queue that is in the **O
 
 5. Select **Assign**.
 
-    The assignment of conversation is initiated and you will receive a notification.
+    This initiates the assignment of the conversation and sends you a notification.
 
 
 ### See also
