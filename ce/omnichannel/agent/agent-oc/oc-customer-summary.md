@@ -76,6 +76,8 @@ The **Journey** tab displays information on the path (recent actions) the custom
    > [!div class='mx-imgBorder']
    > ![Journey tab](../../media/customer-summary-journey-tab.png "Journey tab")
 
+To learn more, see [Enable visitor journey](../../administrator/journey.md).
+
 ### Visitor details
 
 The **Visitor details** tab provides some information such as whether the customer is authenticated or not, browser used by the customer for contacting support, operating system used by the customer, location of the customer, interacting language of the customer, and so on.
