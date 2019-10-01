@@ -115,7 +115,7 @@ values. |
 | entityName | | Logical name of the entity. |
 | formId | | GUID of the form instance. |
 | processId |  | GUID of the business process. |
-| relationship | Relationship object of the record. |
+| relationship |  | Relationship object of the record. |
 | selectStageId | | |
 
 ### Entity search
