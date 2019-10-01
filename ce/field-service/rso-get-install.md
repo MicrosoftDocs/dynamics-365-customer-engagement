@@ -39,10 +39,10 @@ There are two ways to get Resource Scheduling Optimization (RSO):
 In order to get access to RSO, you must first have access to Field Service. This is achieved by purchasing a Field Service license or a Dynamics 365 Customer Engagement Plan license which includes Field Service among other apps. 
 
   > [!NOTE]
-  > A paid Plan 1 or Dynamics 365 Field Service subscription is required before purchasing and enabling RSO. 
+  > A paid Customer Engagement (formerly called Plan 1) Field Service subscription is required before purchasing and enabling RSO. 
 
 1. Purchase Field Service. Go to the **Microsoft 365 (Office 365) admin center > Billing > Purchase services**
-2. Find and buy at least one Dynamics 365 Field Service or Dynamics 365 Customer Engagement Plan license (formerly called Plan 1). 
+2. Find and buy at least one Dynamics 365 Field Service OR Dynamics 365 Customer Engagement Plan license (formerly called Plan 1). 
 
     > [!div class="mx-imgBorder"]
     > ![](media/70dc3d56ea79ba8554b8a6d1e8412453.png)
