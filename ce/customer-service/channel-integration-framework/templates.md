@@ -70,19 +70,9 @@ To create a session, follow these steps:
 |---------|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | General | Name                     | Specify the name of the session. This name wouldn't be visible for the agents at the run-time.                                                                          | Chat session                                                               |
 | General | Title                    | Provide the title of the session that you want the agents to see at the run-time.                                                                                       | {customerName}                                                             |
-| General | Communication panel mode | Select the default mode of the panel when a session is started. Choose one of the following:                                                                            
-                                                                                                                                                                            
-   - **Docked:** The panel will be in expanded mode.                                                                                                                      
-                                                                                                                                                                            
-   - **Minimized:** The panel will be in minimized mode.                                                                                                                  
-                                                                                                                                                                            
-   - **Hidden:** The panel will be hidden and will not be shown.                                                                                                          
-                                                                                                                                                                            
- **Note:** For an entity routing session, that is, for a case session, the communication panel mode is hidden.                                                            | Docked                                                                     |
-| General | Description              | Provide a description for your reference.                                                                                                                               | The session template is used for a conversation request from Chat channel. |
-| General | Anchor tab               | Select an application from the list. By default, the application is opened by default when the session is started, and this application is not closable.                
-                                                                                                                                                                            
- **Note:** To select an application tab apart from the out-of-the-box application tabs, you must first create the application tab, and then create the session template.  | Customer summary                                                           |
+| General | Communication panel mode | Select the default mode of the panel when a session is started. Choose one of the following:<br />**Docked:** The panel will be in expanded mode.<br />**Minimized:** The panel will be in minimized mode.<br />**Hidden:** The panel will be hidden and will not be shown.| Docked   |
+| General | Description              | Provide a description for your reference. | The session template is used for a conversation request from Chat channel. |
+| General | Anchor tab               | Select an application from the list. By default, the application is opened by default when the session is started, and this application is not closable.<br />**Note:** To select an application tab apart from the out-of-the-box application tabs, you must first create the application tab, and then create the session template.  | Customer summary   |
 
 1.  Select **Save** to save the session template. After you save, the **Additional tabs** option appears in the page.
 
