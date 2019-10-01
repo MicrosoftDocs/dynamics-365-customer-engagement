@@ -27,6 +27,8 @@ ms.custom:
 
 The visitor journey feature displays information on the path (recent operations) the customer took just before initiating a conversation. The information enables the agents to understand why a customer reached out and also to provide a personalized service with fast resolution and improved customer satisfaction.
 
+The data that you track as recent actions are stored in an entity where it is passed as part of context with visitor journey type, for a conversation that has been successfully closed between the customer and agent. A visitor journey record is created for each journey action. To learn more, see [msdyn_visitorjourney Entity Reference](../developer/reference/entities/msdyn_visitorjourney.md).
+
 ## Prerequisites
 
 - As an administrator, you need to enable the feature for the agents to see the **Journey** tab is displayed to the agents when in a session. To learn more, see [Enable visitor journey](journey.md#enable-visitor-journey)
