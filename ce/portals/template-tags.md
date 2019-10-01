@@ -77,4 +77,4 @@ Allows output of Liquid code on a page without having it parsed and executed.
 [Control flow tags](control-flow-tags.md)<br>
 [Iteration tags](iteration-tags.md)<br>
 [Variable tags](variable-tags.md)<br>
-[Dynamics 365 entity tags](dynamics-entity-tags.md)
+[Common Data Service entity tags](dynamics-entity-tags.md)

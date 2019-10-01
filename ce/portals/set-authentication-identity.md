@@ -42,7 +42,7 @@ Dynamics 365 Portals provides authentication functionality built on the [ASP.NET
 
 Dynamics 365 Portals requires:
 
-- Dynamics 365 Portal Base
+- Dynamics 365 Portals Base
 - [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Identity
 - [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Identity Workflows solution packages
 
@@ -280,7 +280,7 @@ Settings for modifying the default authentication cookie behavior. Defined by th
 
 ### See also
 
-[Configure Dynamics 365 Portals authentication](configure-portal-authentication.md)  
+[Configure portal authentication](configure-portal-authentication.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  

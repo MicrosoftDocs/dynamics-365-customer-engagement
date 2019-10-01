@@ -1,5 +1,5 @@
 ---
-title: "Get started with the new portal content editor in Dynamics 365  | MicrosoftDocs"
+title: "Get started with the new portal content editor | MicrosoftDocs"
 description: "Learn how to use the new content editor for portal."
 ms.custom: 
   - dyn365-portal
@@ -32,7 +32,7 @@ search.app:
 >
 > We'd love your feedback on the new portal content editor! To send us feedback, register your account on the [Microsoft Insider program](https://experience.dynamics.com/insider/), and then [submit your feedback](https://go.microsoft.com/fwlink/p/?linkid=2030693).
 
-Dynamics 365 Portals allows customization by using Dynamics 365 entities and some WYSIWYG support through its front-end editing tools in the portal runtime. A new and simplified portal editor is now available for Dynamics 365 Portals customizers that will help to reduce the learning curve on Dynamics 365 Portals customization and increase a customizer's productivity.
+Dynamics 365 Portals allows customization by using entities and some WYSIWYG support through its front-end editing tools in the portal runtime. A new and simplified portal editor is now available for portal customizers that will help to reduce the learning curve on Dynamics 365 Portals customization and increase a customizer's productivity.
 
 > [!NOTE]
 > - Portal’s out-of-the-box administrator web role and any contact linked to that web role can use the new editor.

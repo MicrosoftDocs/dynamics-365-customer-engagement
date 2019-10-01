@@ -3,9 +3,7 @@ title: "Global search in Dynamics 365 Portals | MicrosoftDocs"
 description: "Learn how global search works in a portal."
 ms.date: 12/03/2018
 ms.service: crm-online
-ms.topic: article
- 
-  
+ms.topic: article  
 ms.assetid: D2C29462-BF04-446B-8EE7-0C6E20023906
 author: sbmjais
 ms.author: shjais
@@ -45,7 +43,7 @@ The following sections detail how global search works in Dynamics 365 Portals an
 
 ## Entities searchable in portal global search
 
-The following entities can be searched within a portal website provided the appropriate solution packages have been installed and search has been added to a portal. The columns that are indexed will consist of the columns found in the Portals Search view, which can be customized.  Each entity in the list has its default set of attributes indexed as listed here:
+The following entities can be searched within a portal website provided the appropriate solution packages have been installed and search has been added to a portal. The columns that are indexed will consist of the columns found in the Search view, which can be customized.  Each entity in the list has its default set of attributes indexed as listed here:
 - Knowledge Article
     - Notes and attachment of a knowledge article are searchable as well. More information: [Search within file attachment content](search-file-attachment.md)
     - Articles are searchable only if they are published and their Internal Only field is set to false.
@@ -199,7 +197,7 @@ Search index updates in Dynamics 365 Portals happen automatically like the cache
 
 - Any change can take up to 30 minutes to be reflected in a portal search. However, 95 percent of the changes will be updated within 15 minutes. If attachments are involved, it can take longer depending on the size of the attachment.
 
-- It is advisable to rebuild the full index manually after performing a bulk data migration or bulk updates to Dynamics 365 records within a short span of time. For details, see [Rebuild full search index](#rebuild-full-search-index).
+- It is advisable to rebuild the full index manually after performing a bulk data migration or bulk updates to records within a short span of time. For details, see [Rebuild full search index](#rebuild-full-search-index).
 
 ## Rebuild full search index
 
@@ -207,7 +205,7 @@ Rebuild of full search index is required whenever:
 
 - You make a metadata change to search properties like changing certain query-specific site settings or changing the search view of an entity, and so on.
 - Bulk data migration or updates are performed.
-- A website record, associated to your portal, is changed in a Common Data Service organization.
+- A website record, associated to your portal, is changed in a Common Data Service environment.
 
 You can also rebuild a full search index from a portal.
 1.	Sign in to the portal as an administrator.

@@ -23,7 +23,7 @@ search.app:
 ---
 # Add a webpage to render a list of records
 
-An entity list is a data-driven configuration that you use to add a webpage that will render a list of records without the need for a developer to surface the grid in the portal. By using entity lists, you can expose Dynamics 365 records for display on portals.
+An entity list is a data-driven configuration that you use to add a webpage that will render a list of records without the need for a developer to surface the grid in the portal. By using entity lists, you can expose records for display on portals.
 
 The grid supports sorting and will be paginated if the number of records is larger than the page size specified. If **Web Page for Details View** has been specified, each record will contain a link to the page, and the ID of the record will be appended to the query string along with the ID Query String Parameter Name. The entity list also supports multiple views. If more than one view has been specified, a drop-down list will be rendered to allow the user to switch between the various views.
 
@@ -50,11 +50,11 @@ When creating or editing a webpage, you can specify an entity list in the lookup
 |              View              |                                                                          The Saved Query view(s) of the target entity that is to be rendered. This field is required. If more than one view has been specified, the webpage will contain a drop-down list to allow the user to switch between the various views.                                                                           |
 |           Page Size            |                                                                                                                                            An integer value that specifies the number of records per page. This field is required. Default: 10                                                                                                                                             |
 |   Web Page for Details View    |                                                                                                        An optional webpage that can be linked to for each record. The ID Query String Parameter Name and record ID will be appended to the query string of the URL to this webpage.                                                                                                        |
-|      Details Button Label      |                     The text displayed for the details view button if **Web Page for Details View** has been specified. Default: View details <br>**Note**: For each language pack installed and enabled for the Common Data Service organization, a field will be available to enter the message in the associated language.                      |
+|      Details Button Label      |                     The text displayed for the details view button if **Web Page for Details View** has been specified. Default: View details <br>**Note**: For each language pack installed and enabled for the Common Data Service environment, a field will be available to enter the message in the associated language.                      |
 |      Web Page for Create       |                                                                                                                                                             An optional webpage that will be the target of the create button.                                                                                                                                                              |
-|      Create Button Label       |                              The text displayed for the create button if **Web Page for Create** has been specified. Default: Create <br>**Note**: For each language pack installed and enabled for the Common Data Service organization, a field will be available to enter the message in the associated language._                              |
+|      Create Button Label       |                              The text displayed for the create button if **Web Page for Create** has been specified. Default: Create <br>**Note**: For each language pack installed and enabled for the Common Data Service environment, a field will be available to enter the message in the associated language._                              |
 | ID Query String Parameter Name |                                                                                                                                           A parameter name provided in the query string of the URL to the Web Page for Details View. Default: id                                                                                                                                           |
-|        Empty List Text         |  **Deprecated**.  The message displayed when there are no records.<br>**Note**: For each language pack installed and enabled for the Common Data Service organization, a field will be available to enter the message in the associated language.                                                           |
+|        Empty List Text         |  **Deprecated**.  The message displayed when there are no records.<br>**Note**: For each language pack installed and enabled for the Common Data Service environment, a field will be available to enter the message in the associated language.                                                           |
 |     Portal User Attribute      |                                                                                      An optional lookup attribute on the primary entity that represents the portal user record, either contact or system user, to which the current user's ID can be applied to filter the data rendered in the list.                                                                                      |
 |       Account Attribute        |                                                                                       An optional lookup attribute on the primary entity that represents an account record to which the current user contact's parent Customer account value can be applied to filter the data rendered in the list.                                                                                       |
 |       Website Attribute        |                                                                                                          An optional lookup attribute on the primary entity that represents the website to which the current website's ID can be applied to filter the data rendered in the list.                                                                                                          |
@@ -475,7 +475,7 @@ The Dynamic Lookup Set uses the following options:
 
 **FetchXML filter**
 
-The range filter can create either a simple text box filter like the Text filter or a set of options like the other filter types. It allows you to manually create virtually any type of filter for the entity list by using FetchXML, the query language used by Dynamics 365.
+The range filter can create either a simple text box filter like the Text filter or a set of options like the other filter types. It allows you to manually create virtually any type of filter for the entity list by using FetchXML.
 
 ![FetchXML filter settings](media/set-fetchxml-filter.png "FetchXML filter settings")
 
@@ -511,7 +511,7 @@ You can use Entity Permissions if you want to secure records, but if you want to
 
 ### See also
 
-[Configure a Dynamics 365 Portals](configure-portal.md)  
+[Configure a portal](configure-portal.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Gather feedback by using polls on a portal](gather-feedback-poll.md)  
 [Rate or vote on a webpage or blog post on a portal](rate-webpage-blog-post.md)  
