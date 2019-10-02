@@ -48,31 +48,48 @@ Overnight scheduling means RSO runs each night at a defined time and schedules j
 Setting up this RSO scenario as well as other scenarios involves creating a scope, goal, and schedule. To learn more about these three components of RSO, see the topic on [RSO configuration](./rso-configuration.md).
 
 ## Scope
+Scopes define the resources, requirements, and booking to optimize.
 
+Go to **Resource Scheduling Optimization app > Optimization Scopes > +New**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-overnight-scope.png)
+
+Assign a **Name** that describes the scope.
+
+**Range Reference**: set to Job Current Time
+
+**Range Offset**: Set to 1 minute or similar time. Because this RSO will run at night when no one is working, this value does not affect a technician's ability to respond to schedule changes quickly.
+
+**Range Duration**: set to 1 day. This indicates jobs will be booked within a 24 hour period from when RSO runs. Later on we will set RSO to run at midnight.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-overnight-scope-resources.png)
 
+Create and select a Bookable Resource system view or personal view that defines the resources jobs can be scheduled to. In this example we're filtering for Active resources in a specific territory, Washington state (WA). Not shown in this example, but it is common to filter for specific resource types if all these jobs should be scheduled to people (resource type = User, Account, Contact) or machines (resource type = equipment).
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-overnight-scope-requirements.png)
 
+Create and select a Resource Requirement view that defines the unscheduled jobs to book. In this example we're filtering for requirements in the same territory as our resource list (Washington state - WA) that are active, and requirements that are related to unscheduled work orders.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-overnight-scope-bookings.png)
 
+In addition to booking unscheduled jobs, RSO can also shuffle and re-optimize **bookings**. In other words, RSO will update, move, and improve existing schedules. When a requirement is scheduled, a Bookable Resource Booking record is created. So create and select a Bookable Resource Booking. In this example, we're filtering for bookings that are active, have booking statuses that indicate it's okay to reschedule them (Scheduling, Hard, Committed), and ones that relate to resource requirements in the same territory as our resources and requirements. In addition, we're filtering for bookings that were previously scheduled by RSO, where Booking Method = Resource Scheduling Optimization. This is because we do not want RSO to move bookings that were created manually or with the schedule assistant indicating they were booked by a dispatcher because our scenario assumes dispatchers are 
+
 ## Goal
 
+Go to **Resource Scheduling Optimization app > Optimization Goals > +New**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-overnight-goal.png)
 
 ## Schedule
 
+Go to **Resource Scheduling Optimization app > Optimization Schedules > +New**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-overnight-schedule.png)
@@ -86,6 +103,7 @@ Setting up this RSO scenario as well as other scenarios involves creating a scop
 
 ## Results
 
+Your scope creates a new schedule board tab or you can simply choose Schedule Board from the top ribbon of your Optimization Schedule.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-overnight-results.png)
@@ -96,4 +114,5 @@ Setting up this RSO scenario as well as other scenarios involves creating a scop
 
 ### See also
 
-
+- Quickstart
+- 
