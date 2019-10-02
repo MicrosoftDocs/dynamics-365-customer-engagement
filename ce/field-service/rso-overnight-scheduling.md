@@ -78,7 +78,13 @@ Create and select a Resource Requirement view that defines the unscheduled jobs 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-overnight-scope-bookings.png)
 
-In addition to booking unscheduled jobs, RSO can also shuffle and re-optimize **bookings**. In other words, RSO will update, move, and improve existing schedules. When a requirement is scheduled, a Bookable Resource Booking record is created. So create and select a Bookable Resource Booking. In this example, we're filtering for bookings that are active, have booking statuses that indicate it's okay to reschedule them (Scheduling, Hard, Committed), and ones that relate to resource requirements in the same territory as our resources and requirements. In addition, we're filtering for bookings that were previously scheduled by RSO, where Booking Method = Resource Scheduling Optimization. This is because we do not want RSO to move bookings that were created manually or with the schedule assistant indicating they were booked by a dispatcher because our scenario assumes dispatchers are 
+In addition to booking unscheduled jobs, RSO can also shuffle and re-optimize **bookings**. In other words, RSO will update, move, and improve existing schedules. When a requirement is scheduled, a Bookable Resource Booking record is created. So create and select a Bookable Resource Booking. 
+
+In this example, we're filtering for bookings that 
+1. are **Active**
+2. were previously scheduled by RSO, where **Booking Method = Resource Scheduling Optimization**. This is because we do not want RSO to move bookings that were created manually or with the schedule assistant indicating they were booked by a dispatcher because our scenario assumes dispatchers have priority
+3. have booking statuses that indicate it's okay to reschedule them (**Scheduling, Hard, Committed**)
+4. relate to resource requirements in the same territory as our resources and requirements (**Washington state - WA**). 
 
 ## Goal
 
