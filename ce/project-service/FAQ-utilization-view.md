@@ -38,9 +38,9 @@ The cells represent the calculated chargeable utilization for the selected perio
 
 The colors in each cell show the chargeable utilization for a resource as compared to their target chargeable utilization. The colors show the following status:
 
-- **Green:** (billable utilization) >= (resource target utilization)
-- **Yellow:** (target utilization – 20) <= (billable utilization) < (target utilization)
-- **Red:** (billable utilization) < (target utilization – 20)
+- **Green:** Chargeable actual hours >= Resource target utilization
+- **Yellow:** Chargeable actual hours = 20 - Target utilization 
+- **Red:** Chargeable hours <= 20
 
 The target utilization can be set on the resource’s default role or on the individual resource itself. The calculation looks at the individual for the target first, and then to the resource’s default role.
 
