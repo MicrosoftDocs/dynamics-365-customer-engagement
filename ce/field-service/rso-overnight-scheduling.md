@@ -88,10 +88,18 @@ In this example, we're filtering for bookings that
 
 ## Goal
 
+Goals define what RSO should consider and prioritize.
+
 Go to **Resource Scheduling Optimization app > Optimization Goals > +New**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-overnight-goal.png)
+
+Because overnight scheduling is intended to run during the night when no one is working and dispatchers and technicians are not waiting for results your goal can reflect more data and more time to run.
+
+Set engine effort level to **Moderate**, **Intense**, or **Very Intense**. This means the optimization will take longer to execute but will find a more optimal solution. Because dispatchers
+
+**Save**
 
 ## Schedule
 
