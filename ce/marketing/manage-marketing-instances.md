@@ -53,7 +53,7 @@ Because Marketing is more complex than most Dynamics 365 apps, and interacts wit
 > You must not do a simple copy of a Marketing instance like you can with most other Dynamics 365 instances that don't have Marketing installed. If you do a simple copy without following the steps here, the resulting copy won't work and may render the target instance unrecoverable.
 
 > [!WARNING]
-> This procedure will completely delete the target instance. If Dynamics 365 Marketing is installed on the target instance, then it will be completely uninstalled (which will release the license) and all data (including interaction records) will be deleted. Even if you backup the target instance first, the backup won't include interaction data, so if you need to preserve interaction data from the target instance, be sure to back up the database for your customer-insights service, either to blob storage to some other storage media.
+> This procedure will completely delete the target instance. If Dynamics 365 Marketing is installed on the target instance, then it will be completely uninstalled (which will release the license) and all data (including interaction records) will be deleted. Even if you backup the target instance first, the backup won't include interaction data, so if you need to preserve interaction data from the target instance, be sure to back up the database for your customer-insights service, either to blob storage to some other storage media. For more information about how to backup interaction data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
 
 > [!IMPORTANT]
 > Your copied instance requires it's own Dynamics 356 Marketing license. If the target instance already has Marketing installed, then the copy will automatically take over that license (you don't have to do anything). If the target instance doesn't have Marketing installed, then we recommend you make sure you have an unused Marketing license for your tenant before you start the copy, and purchase one if you don't. If you don't have a Marketing license available before copying, then the copy will end in a *disconnected state*, which means that many key features won't work (relevant error messages will be shown); in this case, you can just purchase a new Marketing license and then [re-run the setup wizard](re-run-setup.md) to apply it to your new copy.
@@ -122,23 +122,27 @@ As with copy operations, backup and restore operations typically require a few e
 
 ### Automatic system backups
 
-Microsoft automatically takes daily backup copies of all Dynamics 365 instances, including those that have the Marketing app installed. Like other types of copies, automatic system backups include the full organizational database, but not a copy of the marketing-insights service database. System backups are usually kept for just a few days and then deleted again.
+Microsoft automatically takes daily backup copies of all Dynamics 365 instances, including those that have the Marketing app installed. Like other types of copies and backups, automatic system backups include the full organizational database, but not the interaction records stored in the marketing-insights service database. System backups are usually kept for just a few days and then deleted again.
 
 For more information about automatic backups in Dynamics 365, see [System backups](../admin/backup-restore-instances.md#BKMK_DailySystemBackup).
+
+For more information about how to backup interaction data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
 
 ### Create an on-demand backup
 
 You can create an on-demand backup at any time, but when Marketing is installed on your source instance, you must take a few extra precautions by using the following procedure:
 
 1. [Open the Dynamics 365 admin center](/dynamics-365-admin-center.md) and make sure that the Dynamics 365 Marketing application and its related solutions are all completely up to date on your source instance, as described in [Keep Marketing up to date](apply-updates.md).
-3. Create the on-demand backup as usual, as described in [On-demand backup](../admin/backup-restore-instances.md#on-demand-backup-dynamics-365-for-customer-engagement-apps-managed).
+1. Create the on-demand backup as usual, as described in [On-demand backup](../admin/backup-restore-instances.md#on-demand-backup-dynamics-365-for-customer-engagement-apps-managed).
+
+As with automatic backups, on-demand backups include the full organizational database, but not the interaction records stored in the marketing-insights service database. For more information about how to backup interaction data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
 
 ### Restore a backup onto another instance
 
 You can easily restore any on-demand or automatic system backup to any available sandbox instance (other than the instance you took the backup from). But as with copy operations, you need to prepare the target instance first.
 
 > [!WARNING]
-> This procedure will completely delete the target instance. If Dynamics 365 Marketing is installed on the target instance, then it will be completely uninstalled (which will release the license) and all data (including interaction records) will be deleted. Even if you backup the target instance first, the backup won't include interaction data, so if you need to preserve interaction data from the target instance, be sure to back up the database for your customer-insights service, either to blob storage to some other storage media.
+> This procedure will completely delete the target instance. If Dynamics 365 Marketing is installed on the target instance, then it will be completely uninstalled (which will release the license) and all data (including interaction records) will be deleted. Even if you backup the target instance first, the backup won't include interaction data, so if you need to preserve interaction data from the target instance, be sure to back up the database for your customer-insights service, either to blob storage to some other storage media. For more information about how to backup interaction data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
 
 > [!IMPORTANT]
 > Your restored instance requires it's own Dynamics 356 Marketing license. If the target instance already has Marketing installed, then the restored instance will automatically take over that license (you don't have to do anything). If the target instance doesn't have Marketing installed, then we recommend you make sure you have an unused Marketing license on your tenant before you start the restore, and purchase one if you don't. If you don't have a Marketing license available before restoring, then the restored instance will end in a *disconnected state* which means that many key features won't work (relevant error messages will be shown); in this case, you can just purchase a new Marketing license and then [re-run the setup wizard](re-run-setup.md) to apply it to your restored instance.
