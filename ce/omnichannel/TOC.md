@@ -34,6 +34,7 @@
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
 ##### [Embed chat widget in Dynamics 365 Portals](administrator/embed-chat-widget-portal.md)
+##### [Configure proactive chat](administrator/proactive-chat.md)
 #### [Configure an SMS channel](administrator/configure-sms-channel.md)
 #### Entity records
 ##### [Entity records routing](administrator/entity-channel.md)
