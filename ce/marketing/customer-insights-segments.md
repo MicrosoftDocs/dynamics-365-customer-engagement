@@ -175,11 +175,9 @@ Although your segments will automatically refresh a few times a day based on you
 
 1. Go to **Admin** > **Export** destinations.
 
-1. Find the export destination that you set up to export segments to your Dynamics 365 Marketing instance.
+1. Select the **Export** button at the top of the destinations list. This will trigger an export to all available destinations.
 
-1. Select the **Actions** button (which looks like three vertical dots) to open the action menu and then select **Export**.
-
-    ![Manually export to a destination](media/ci-export-destination.png "Manually export to a destination")
+<!--    ![Manually export to a destination](media/ci-export-destination.png "Manually export to a destination") -->
 
 ### See also
 
