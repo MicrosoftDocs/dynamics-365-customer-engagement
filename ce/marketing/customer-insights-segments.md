@@ -72,9 +72,13 @@ Segments exported from Customer Insights to Marketing look like static segments.
 
 When you export a segment to Dynamics 365 Marketing, the resulting segment will only contain contacts already in Marketing that match incoming contact IDs from the Customer Insights segment. Contacts in Customer Insights that have IDs that aren't present in Marketing (possibly because they came from another data source) will be ignored, so new contacts won't be created in Marketing.
 
-### Customer Insights segments show details in the Description field in Marketing
+### Customer Insights segments show details on the General tab in Marketing
 
-One way to tell whether a segment in Marketing is being managed by Customer Insights is to open the segment and go to its **General** tab. The **External Segment URL** field here shows the URL of the Customer Insights instance where the segment came from. Also, the **Description** shows the date and time the segment was last refreshed by being exported or re-exported.
+One way to tell whether a segment in Marketing is being managed by Customer Insights is to open the segment and go to its **General** tab. The following fields here indicate that the segment comes from Customer Insights and provide information about the integration:
+
+- **External source**: Shows a value of "Customer Insights" for segments that came from Customer Insights. This field is blank for segments defined natively in Dynamics 365 Marketing.
+- **External Segment URL**: Shows the URL of the Customer Insights instance where the segment came from. Select the globe button at the edge of this field to open the URL. This field is blank for segments defined natively in Dynamics 365 Marketing.
+- **Description** Shows the date and time the segment was last refreshed by being exported or re-exported from Customer Insights. This field is either blank or holds custom descriptive text for segments defined natively in Dynamics 365 Marketing.
 
 ![A segment from Customer Insights](media/ci-exported-segment-details.png "A segment from Customer Insights")
 
