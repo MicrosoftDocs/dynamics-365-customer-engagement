@@ -45,22 +45,55 @@ In this article let's explore overnight scheduling and understand why an organiz
 
 Overnight scheduling means RSO runs each night at a defined time and schedules jobs (e.g. work orders) for the next day. The next morning, a dispatcher arrives to work to find a fully optimized schedule board for that day where jobs are scheduled to the appropriate resources based on skills, promised time windows, preferred resources, roles, and more. For the rest of the day, RSO will not run and the dispatcher will make changes as needed with manual scheduling or the schedule assistant to deal with delays, cancellations, and special customer requests. Overnight scheduling allows RSO to handle the bulk of scheduling to save time while still relying on the expertise of dispatchers who know the work to be done and the resources. 
 
-Setting up this RSO scenario as well as other scenarios involves creating a scope, goal, and schedule. TO learn more about these three components of RSO, see the topic on [RSO configuration](./rso-configuration.md).
+Setting up this RSO scenario as well as other scenarios involves creating a scope, goal, and schedule. To learn more about these three components of RSO, see the topic on [RSO configuration](./rso-configuration.md).
 
 ## Scope
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-overnight-scope.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-overnight-scope-resources.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-overnight-scope-requirements.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-overnight-scope-bookings.png)
+
 ## Goal
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-overnight-goal.png)
 
 ## Schedule
 
-## Results
-
-## Prerequisites
-> [!Note]
->
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/rso-overnight-schedule.png)
 
-## Configuration considerations
-## Additional Notes
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-overnight-schedule-filter.png)
+
+> [!Note]
+> can test with run now button 
+
+## Results
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-overnight-results.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-overnight-lock.png)
+
+### See also
+
+
