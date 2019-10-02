@@ -35,9 +35,9 @@ The Facebook channel gives you an incredible opportunity to capitalize on the so
 
 After completing the prerequisites, you can add the Facebook channel for your organization. To do this:
 
-1.	Create a Facebook work stream
-2.	Create a Facebook channel
-3.	Create routing rules
+1.	[Create a Facebook work stream](#step-1-create-a-facebook-work-stream)
+2.	[Create a Facebook channel](#step-2-create-a-facebook-channel)
+3.	[Create routing rules](#step-3-create-routing-rules)
 
 ## Step 1: Create a Facebook work stream
 
