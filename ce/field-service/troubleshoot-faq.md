@@ -70,7 +70,7 @@ No. Modifying, editing, or deleting date fields and statuses can affect business
 
 Field Service makes the opportunity, lead, quote, and invoice forms read-only once it detects the record is not a service-maintenance based record. This means Field Service forms or the forms copied from Field Service forms do not support opportunity, lead, quote, and invoice records other than Field Service opportunity, lead, quote, and invoice. If you want to use an opportunity form for non-Field Service related opportunities, use the out-of-the-box opportunity (**Opportunity: Opportunity**) form shipped by Dynamics 365 Sales or copy this form for further customization. The same is true for lead, quote, and invoice.
 
-## AttributeMap unmanaged base instance upgrade error
+## Why do I get an AttributeMap error when upgrading and how do I fix it?  
 
 If you have encountered one of these 2 errors during upgrade: 
 
