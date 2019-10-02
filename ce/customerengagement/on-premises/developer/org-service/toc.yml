@@ -1,7 +1,7 @@
-- name: Use the Dynamics 365 Organization service
+- name: Use Customer Engagement (on-premises) service
   href: ../use-microsoft-dynamics-365-organization-service.md
   items:
-  - name: Getting started with on-premise managed code application development
+  - name: Getting started with on-premises managed code application development
     href: get-started-managed-code-application-development.md
   - name: Discover the URL for your organization
     href: discover-url-organization-organization-service.md
