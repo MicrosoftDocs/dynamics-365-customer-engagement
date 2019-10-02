@@ -117,7 +117,7 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
     > [!div class=mx-imgBorder]
     > ![Facebook channel routing rule](../media/fb-routing-rule.png "Facebook channel routing rule")
 
-# Customer and agent experiences
+## Customer and agent experiences
 
 A customer can initiate a conversation in any of the following ways:
 
