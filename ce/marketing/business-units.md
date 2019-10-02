@@ -97,34 +97,17 @@ Form submissions, leads, and contacts generated from LinkedIn Lead Gen Forms hav
 
 ## Enable or disable business-unit scopes
 
-Although most business-unit functionality is always enabled in Dynamics 365 marketing, business-unit *scopes* for [segments](#segment-scopes) and [customer journeys](#journey-scopes) are optional (as described previously in this topic). To enable or disable this feature:
+Although most business-unit functionality is always enabled in Dynamics 365 marketing, business-unit *scopes* for [segments](#segment-scopes) and [customer journeys](#journey-scopes) are optional (as described previously in this topic). 
+
+> [!NOTE]
+> In the current release, static segments are disabled when business-unit scopes are enabled. If you require both static-segment functionality and business-unit scopes, then create static marketing lists and embed them into a dynamic segments. We expect to remove this limitation in a future release.
+
+To enable or disable this feature:
 
 1. Go to **Settings** > **Advanced settings** > **Other settings** > **Feature switches**.
 1. Set the **Business unit scoping** slider to **On** to turn the feature on, or to **Off** to turn it off.
 
-## Important notes and known issues
 
-Business units have wide-ranging consequences for your site when they are enabled. In most cases, they work in a consistent and predictable manner, as explained previously in this topic. However, there are a few unexpected effects that you should be aware of before you decide to turn on this feature.
-
-### Static segments aren't available when business-unit scopes are enabled
-
-When you enable business-unit scopes, no users will be able to create, view, edit, or use static segments, nor can static segments be used to target customer journeys. Instead, you can use static marketing lists and embed them into a dynamic segment.
-
-### Elevated privileges for the website entity are required to go live with marketing pages
-
-The error checker for marketing pages requires full organization-level access to the **Website** entity, which enables the feature to confirm that the page is configured correctly to be published on your Dynamics 365 Portal. Therefore, all users that need to check and/or go-live with a marketing page published on a portal must have a security role with the privileges shown in the following illustration. This doesn't affect captured forms or forms embedded on an external site or CMS system.
-
-![Privileges required for the Website entity](media/bu-roles-website.png "Privileges required for the Website entity")
-
-For more information about how to work with these settings, see [Security roles and privileges](../admin/security-roles-privileges.md).
-
-### Elevated privileges for marketing email dynamic-content metadata are required to go access assist edit
-
-The assist-edit feature enables users to generate dynamic expressions for use in email messages and content settings. The feature requires that the user has elevated access to application metadata, which enables assist-edit to present details about database entities and records. Therefore, all users that need to use assist edit must have a security role with elevated access to the **Marketing email dynamic-content metadata** entity, as shown in the following illustration. This doesn't affect captured forms or forms embedded on an external site or CMS system.
-
-![Privileges required for the Marketing email dynamic-content metadata entity](media/bu-roles-email-metadata.png "Privileges required for the Marketing email dynamic-content metadata entity")
-
-For more information about how to work with these settings, see [Security roles and privileges](../admin/security-roles-privileges.md).
 
 ### See also
 
