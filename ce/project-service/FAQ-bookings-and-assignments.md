@@ -24,14 +24,15 @@ search.app:
 ---
 # Resource bookings and how they relate to task assignments
 
-Named resources can be booked to a project team and assigned project tasks in two ways:
 
-- The resource can be directly booked onto a project and then assigned to project tasks.
+There are two ways that named resources can be booked to a project team and assigned project tasks:
+
+- The resource can be directly booked onto a project, and then assigned to project tasks.
 - The tasks can be assigned to a generic resource, which is then used to find and replace the generic with a named resource. 
 
 In both cases, the act of booking the resource reserves the resource’s capacity.
 
-The project manager who is planning the project, owns the project plan and the schedule. By using the generic resource for the assignment and then generating a resource request from it, the project manager can book resources onto the project with contours specified in the project plan. They can book resources to a project and then assign them to tasks, however there is no way to align the booking contours with the contours of the tasks. Bookings don't affect the project schedule.
+The project manager who is planning the project owns the project plan and the schedule. By using the generic resource for the assignment and then generating a resource request from it, the project manager can book resources onto the project with contours specified in the project plan. They can book resources to a project and then assign them to tasks, however there is no way to align the booking contours with the contours of the tasks. Bookings don't affect the project schedule.
 
 Consider a complex project with multiple overlapping tasks where multiple resources of the same type need to work concurrently. If a resource is given a contour that differs from that of the aggregate of their assignments, it’s difficult to modify the tasks to fit the contour of the bookings to their discrete tasks and their original contours.
 
