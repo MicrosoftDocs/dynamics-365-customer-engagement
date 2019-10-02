@@ -42,7 +42,7 @@
         href: use-source-control-solution-files.md
       - name: Solution component file reference (SolutionPackager)
         href: solution-component-file-reference-solutionpackager.md
-- name: Connect to Customer Engagement
+- name: Connect to Customer Engagement (on-premises)
   items:
   - name: Authenticate users
     href: authenticate-users.md
@@ -51,23 +51,23 @@
     items:
     - name: 'Walkthrough: Register an app with Active Directory'
       href: walkthrough-register-app-active-directory.md
-    - name: Connect with Microsoft Office 365 and Dynamics 365 Customer Engagement
+    - name: Connect with Microsoft Office 365 and Customer Engagement (on-premises)
       href: connect-microsoft-office-365.md
       items:
       - name: Integration with Office 365
         href: online-integration-office-365.md
-      - name: Authenticate Office 365 users with Customer Engagement web services
+      - name: Authenticate Office 365 users with Customer Engagement (on-premises) web services
         href: authenticate-office-365-users-customer-engagement-web-services.md
     - name: Implement single sign-on from an ASPX webpage or IFRAME
       href: implement-single-sign-aspx-webpage-iframe.md
-    - name: 'Sample: Authenticate users with Dynamics 365 web services'
+    - name: 'Sample: Authenticate users with Customer Engagement (on-premises) web services'
       href: sample-authenticate-users-web-services.md
-- name: Use Dynamics 365 web services
+- name: Use Customer Engagement (on-premises) web services
   href: use-microsoft-dynamics-365-web-services.md
   items:
-  - name: Use Dynamics 365 Customer Engagement Web API
+  - name: Use Customer Engagement (on-premises) Web API
     href: webapi/
-  - name: Use Dynamics 365 Customer Engagement Organization Service
+  - name: Use Customer Engagement (on-premises) Organization Service
     href: org-service/
   - name: Use Discovery services
     href: use-discovery-service.md
@@ -80,7 +80,7 @@
     href: xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect.md
   - name: Reference
     href: https://docs.microsoft.com/dotnet/api/?view=dynamics-xrmtooling-ce-9
-- name: Security model of Customer Engagement
+- name: Security model of Customer Engagement (on-premises)
   href: security-dev/security-model.md
   items:
   - name: How role-based security controls access to entities
@@ -91,7 +91,7 @@
     href: security-dev/use-field-security-control-access-field-values.md
   - name: How hierarchical security controls access to entities
     href: security-dev/hierarchical-security-control-access-entities.md
-- name: Extend Customer Engagement
+- name: Extend Customer Engagement (on-premises)
   href: extend-customer-engagement.md
   items:
   - name: Building extended xRM applications
@@ -140,7 +140,7 @@
       href: customize-labels-support-multiple-languages.md
     - name: Retrieve and detect changes to metadata
       href: retrieve-detect-changes-metadata.md
-  - name: Extend Customer Engagement on the server
+  - name: Extend Customer Engagement (on-premises) on the server
     href: extend-dynamics-365-server.md
     items:
     - name: Write plug-ins to extend business processes
@@ -230,7 +230,7 @@
       items:
       - name: Azure integration
         href: azure-integration.md
-      - name: Configure Azure integration with Customer Engagement
+      - name: Configure Azure integration with Customer Engagement (on-premises)
         href: configure-azure-integration.md
       - name: Work with data in your Azure solution
         href: work-data-azure-solution.md
@@ -240,7 +240,7 @@
         href: write-custom-azure-aware-plugin.md
       - name: Write a listener application for a Microsoft Azure solution
         href: write-listener-application-azure-solution.md
-      - name: 'Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365'
+      - name: 'Walkthrough: Configure Microsoft Azure (SAS) for integration with Customer Engagement (on-premises)'
         href: walkthrough-configure-azure-sas-integration.md
       - name: 'Walkthrough: Register an Azure-aware plug-in using the Plug-in Registration Tool'
         href: walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md
@@ -248,7 +248,7 @@
         href: walkthrough-update-service-endpoint-acs-sas-authorization.md
       - name: 'Walkthrough: Update a service endpoint imported from a solution'
         href: walkthrough-update-service-endpoint-imported-solution.md
-      - name: Sample code for Customer Engagement and Azure integration
+      - name: Sample code for Customer Engagement (on-premises) and Azure integration
         href: sample-code-azure-integration.md
         items:
         - name: 'Sample: Azure aware custom plug-in'
@@ -265,10 +265,10 @@
           href: sample-persistent-queue-listener.md
     - name: Use WebHooks
       href: use-webhooks.md
-  - name: Extend Customer Engagement on the client
+  - name: Extend Customer Engagement (on-premises) on the client
     href: extend-client.md
     items:
-    - name: Use JavaScript with Dynamics 365 Customer Engagement
+    - name: Use JavaScript with Customer Engagement (on-premises)
       href: use-javascript.md
     - name: Work with data using web resources
       href: work-data-using-web-resources.md
@@ -283,7 +283,7 @@
       href: open-forms-views-dashboards-mobile-client-url.md
     - name: Client scripting using JavaScript
       href: clientapi/client-scripting.md
-    - name: Web resources for Dynamics 365 Customer Engagement
+    - name: Web resources for Customer Engagement (on-premises)
       href: web-resources.md
       items:
       - name: Create accessible web resources
@@ -320,7 +320,7 @@
         href: streamline-javascript-development-fiddler-autoresponder.md
     - name: Use IFRAME and web resource controls on a form
       href: use-iframe-and-web-resource-controls-on-a-form.md
-  - name: Customize Customer Engagement applications
+  - name: Customize Customer Engagement (on-premises) applications
     href: customize-dev/customize-applications.md
     items:
     - name: Customize entity forms
@@ -720,7 +720,7 @@
       href: sample-distribute-campaign-activities-dynamic-static-lists.md
     - name: 'Sample: Distribute campaign activities to qualified marketing list'
       href: sample-distribute-campaign-activities-qualified-marketing-list.md
-  - name: Service entities in Dynamics 365 Customer Engagement
+  - name: Service entities in Customer Engagement (on-premises)
     href: service-entities.md
     items:
     - name: Contract entities
@@ -902,7 +902,7 @@
       href: sample-upload-retrieve-download-attachment.md
   - name: UserQuery (saved view) entity
     href: userquery-saved-view-entity.md
-- name: Manage your data in Dynamics 365 Customer Engagement (on-premises)
+- name: Manage your data in Customer Engagement (on-premises)
   href: manage-data.md
   items:
   - name: Audit entity data changes
@@ -919,7 +919,7 @@
     href: synchronize-dynamics-365-data-with-external-systems.md
   - name: Virtual Entities
     href: virtual-entities/
-- name: Manage your deployment of Customer Engagement
+- name: Manage your deployment of Customer Engagement (on-premises)
   href: manage-deployment.md
   items:
   - name: Administer the deployment using the deployment web service

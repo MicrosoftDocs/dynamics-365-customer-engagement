@@ -1,4 +1,4 @@
-- name: Use Dynamics 365 Customer Engagement Web API
+- name: Use Customer Engagement (on-premises) Web API
   items:
   - name: Introduction
     href: ../use-microsoft-dynamics-365-web-api.md
