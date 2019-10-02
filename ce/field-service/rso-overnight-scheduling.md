@@ -39,9 +39,11 @@ Common scenarios include:
 - Condition based workflow
 - Simulation 
 
+When it comes to adopting Resource Scheduling tools there is a recommended progression from manual to fully automatic, see the topic on [The 5 stages of scheduling adoption](./5-stages-scheduling-adoption.md).
+
 In this article let's explore overnight scheduling and understand why an organization may choose to optimize work orders this way and how to configure it.
 
-Configure Resource Scheduling Optimization (RSO) to run each night to schedule and optimize the next day's jobs leaving the dispatcher to make changes and deal with cancellations and exceptions the next day when he or she arrives in the morning.
+Overnight scheduling means RSO runs each night at a defined time and schedules jobs (typically work orders) for the next day. The next morning, a dispatcher arrives to work to find a full optimized schedule board for that day where jobs are scheduled to the appropriate resources based on skills, promised time windows, preferred resources, roles, and more. For the rst of the day, RSO will not run and the dispatcher will make changes as needed with manual scheduling or the schedule assistant to deal with delays, cancellations, and special customer requests.
 
 ## Scope
 
