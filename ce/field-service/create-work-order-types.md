@@ -1,5 +1,5 @@
 ---
-title: "Create work order types (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Create work order types (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -34,7 +34,7 @@ A work order type in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-
 3.  Use the tooltips to help fill in information, and then click **Save & Close**.  
   
 ### See also   
- [Overivew of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overivew of Dynamics 365 Field Service](../field-service/overview.md)   
  [Create a work order](../field-service/create-work-order.md)   
  [Set up work order sub-statuses](../field-service/set-up-work-order-sub-statuses.md)   
  [Set up service task types](../field-service/set-up-service-task-types.md)   

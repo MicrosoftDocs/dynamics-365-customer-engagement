@@ -39,7 +39,7 @@ To enable YSOD, you need to [disable custom errors](#disable-custom-error) on yo
 > [!NOTE]
 > It is advisable to only disable custom errors when you are in the development phase and enable custom errors once you go live.
 
-More information on custom error: [Displaying a Custom Error Page](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/older-versions-getting-started/deploying-web-site-projects/displaying-a-custom-error-page-cs)
+More information on custom error: [Displaying a Custom Error Page](https://docs.microsoft.com/aspnet/web-forms/overview/older-versions-getting-started/deploying-web-site-projects/displaying-a-custom-error-page-cs)
 
 ### Disable custom error
 
@@ -64,8 +64,8 @@ You can enable custom errors on portals to display a professional-looking page i
 4. Select **Enable** in the confirmation message. While custom errors are being enabled, the portal restarts and will be unavailable. A message appears when custom errors are enabled.
 
 > [!NOTE]
-> - If you change the Dynamics 365 instance that your portal is connected to, the custom errors setting is set to enabled. You must disable the custom errors again, if required.
-> - You must not enable or disable custom errors when the Dynamics 365 instance that your portal is connected to is being changed; otherwise an error message appears.
+> - If you change the instance that your portal is connected to, the custom errors setting is set to enabled. You must disable the custom errors again, if required.
+> - You must not enable or disable custom errors when the instance that your portal is connected to is being changed; otherwise an error message appears.
 
 ### Display a custom error message
 
@@ -90,14 +90,14 @@ This is a custom error, please file a support ticket with screenshot of error by
 ![Custom error message](media/custom-error-message.png "Custom error message")
 
 > [!NOTE]
-> If the portal cannot retrieve a content snippet because it can't connect to Dynamics 365 or if the snippet is not available in Dynamics 365, an error message appears.
+> If the portal cannot retrieve a content snippet because it can't connect to Common Data Service or if the snippet is not available in Dynamics 365 Portals, an error message appears.
 
 ## Access portal error logs
 
 After developing and publishing the portal, you still need to be able to access portal logs to debug issues reported by your customers. To access the logs, you can configure your portal to send all application errors to an Azure Blob storage account that you own. By accessing portal error logs, you can respond to customer queries efficiently because you have details of the issue. To get portal error logs into your Azure Blob storage, you must enable diagnostic logging from the Portal Admin center.
 
 > [!NOTE]
-> If you change the Dynamics 365 instance that your portal is connected to, diagnostic logging is disabled. You must enable diagnostic logging again.
+> If you change the instance that your portal is connected to, diagnostic logging is disabled. You must enable diagnostic logging again.
 
 ### Enable diagnostic logging
 
@@ -108,7 +108,7 @@ After developing and publishing the portal, you still need to be able to access 
    ![Enable diagnostic logging](media/enable-diagnostic-logging.png "Enable diagnostic logging")
 
 4. In the Enable diagnostic logging window, enter the following values:
-   - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the portal error logs. The maximum length of the URL is 2048 characters. If the URL is longer than 2048 characters, an error message appears. More information on connection string: [Configure Azure Storage connection strings](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+   - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the portal error logs. The maximum length of the URL is 2048 characters. If the URL is longer than 2048 characters, an error message appears. More information on connection string: [Configure Azure Storage connection strings](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
    - **Select retention period**: Duration to keep the portal error logs in blob storage. The error logs are deleted after the selected duration. You can select one of the following values:
      - 1 day
      - 7 days
@@ -142,7 +142,7 @@ When diagnostic logging is enabled successfully, the following action becomes av
 
 4. In the Update diagnostic logging configuration window, enter the following values:
    - **Do you want to update the Connection string of the Azure Blob Storage service?**: Allows you to specify whether to update the connection string of the Azure Blob Storage service. By default, **No** is selected.
-   - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the portal error logs. The maximum length of the URL can be 2048 characters. If the URL is longer than 2048 characters, an error message appears. This field is displayed only if the **Do you want to update the Connection string of the Azure Blob Storage service?** check box is selected. More information on connection string: [Configure Azure Storage connection strings](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+   - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the portal error logs. The maximum length of the URL can be 2048 characters. If the URL is longer than 2048 characters, an error message appears. This field is displayed only if the **Do you want to update the Connection string of the Azure Blob Storage service?** check box is selected. More information on connection string: [Configure Azure Storage connection strings](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
    - **Select retention period**: Duration to keep the portal error logs in blob storage. The error logs are deleted after the selected duration. You can select one of the following values:
      - 1 day
      - 7 days

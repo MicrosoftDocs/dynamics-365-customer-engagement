@@ -119,7 +119,7 @@ On success, returns a promise object containing string.
 
 ## Remarks
 
-You must use this method to open entity or quick create forms instead of the deprecated [Xrm.Utility.openEntityForm](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/jj602956(v=crm.8)#openentityform) and [Xrm.Utility.openQuickCreate](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/jj602956(v=crm.8)#openquickcreate) methods.
+You must use this method to open entity or quick create forms instead of the deprecated [Xrm.Utility.openEntityForm](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/jj602956(v=crm.8)#openentityform) and [Xrm.Utility.openQuickCreate](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/jj602956(v=crm.8)#openquickcreate) methods.
 
 
 ## Examples

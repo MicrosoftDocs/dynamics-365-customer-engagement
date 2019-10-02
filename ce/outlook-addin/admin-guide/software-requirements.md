@@ -120,6 +120,6 @@ The following operating systems are supported for offline mode.
   
 ### See Also  
  [Dynamics 365 for Outlook support matrixes](support.md)   
- [Compatibility with Microsoft Dynamics CRM 2016](https://support.microsoft.com/en-us/kb/3124955)   
- [Compatibility with Microsoft Dynamics CRM 2015](https://support.microsoft.com/en-us/kb/3018360)   
- [Compatibility with Microsoft Dynamics CRM 2013](https://support.microsoft.com/en-us/kb/3005167)
+ [Compatibility with Microsoft Dynamics CRM 2016](https://support.microsoft.com/kb/3124955)   
+ [Compatibility with Microsoft Dynamics CRM 2015](https://support.microsoft.com/kb/3018360)   
+ [Compatibility with Microsoft Dynamics CRM 2013](https://support.microsoft.com/kb/3005167)

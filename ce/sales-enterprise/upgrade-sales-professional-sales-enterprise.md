@@ -108,3 +108,8 @@ After you complete these steps, your organization will be effectively upgraded t
 > [!IMPORTANT]
 > 
 > As per contractual agreement, you can't mix and match Enterprise and Professional users on the same instance. If you plan to keep Professional licenses, make sure you abide by the contractual requirements. More information: [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544)
+
+
+### See also
+
+[Dynamics 365 Licensing Update](https://docs.microsoft.com/en-us/dynamics365/licensing/update)

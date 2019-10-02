@@ -1,5 +1,5 @@
 ---
-title: "Resource utilization on the schedule board - Dynamics 365 for Field Service | MicrosoftDocs"
+title: "Resource utilization on the schedule board - Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 08/02/2019
@@ -26,7 +26,7 @@ search.app:
   - D365FS
 ---
 
-# Resource utilization on the schedule board in Dynamics 365 for Field Service
+# Resource utilization on the schedule board in Dynamics 365 Field Service
 
 [!INCLUDE[topic-urs-schedule-board-utilization.md](../shared/urs/schedule-board-utilization.md)]
 

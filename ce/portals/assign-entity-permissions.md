@@ -22,9 +22,9 @@ search.app:
   - D365Portals
 ---
 # Add record-based security by using entity permissions for portals
-To apply record-based security in Dynamics 365 Portals to individual records, use entity permissions. You add entity permissions to web roles so you can define roles in your organization that correspond logically to the privileges and concepts of record ownership and access that are introduced by using entity permissions. Remember that a given contact can belong to any number of roles, and a given role can contain any number of entity permissions. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create web roles for portals](create-web-roles.md) 
+To apply record-based security in portals to individual records, use entity permissions. You add entity permissions to web roles so you can define roles in your organization that correspond logically to the privileges and concepts of record ownership and access that are introduced by using entity permissions. Remember that a given contact can belong to any number of roles, and a given role can contain any number of entity permissions. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create web roles for portals](create-web-roles.md) 
 
-Although permissions to change and access URLs in a portal site map is granted via Content Authorization, site managers will also want to secure their custom web applications built with entity forms and entity lists. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Define entity forms and custom logic within the Dynamics 365 Portals](entity-forms-custom-logic.md) and [Add a webpage to render a list of records](add-webpage-render-list-records.md)  
+Although permissions to change and access URLs in a portal site map is granted via Content Authorization, site managers will also want to secure their custom web applications built with entity forms and entity lists. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Define entity forms and custom logic within a portal](entity-forms-custom-logic.md) and [Add a webpage to render a list of records](add-webpage-render-list-records.md)  
 
 To secure these features, entity permissions allow for granular rights to be granted for arbitrary entities and for record-level security to be enabled via relationship definitions.
 
@@ -50,7 +50,7 @@ With Contact scope, a signed-in user in the role for which the permission record
 
 On an entity list, this means that a filter will be added to whatever model-driven app views are surfaced by that list, which only retrieves records directly linked to the current user. (Depending on the scenario, this relationship can be thought of as ownership or management rights.)
 
-Entity forms will only allow the appropriate permission for Read, Create, Write, and so on if this relationship exists when the record is loaded. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Define entity forms and custom logic within the Dynamics 365 Portals](entity-forms-custom-logic.md).  
+Entity forms will only allow the appropriate permission for Read, Create, Write, and so on if this relationship exists when the record is loaded. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Define entity forms and custom logic within a portal](entity-forms-custom-logic.md).  
 
 ### Account scope
 

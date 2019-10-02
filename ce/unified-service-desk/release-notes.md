@@ -285,7 +285,7 @@ You can add an action call to another call using the Unified Service Desk config
 
 ### Support for Relevance Search (search technique) in Unified Interface KM Control
 
-The Unified Interface KM Control supports [Full-Text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search?view=sql-server-2017) technique and does not support the **Relevance Search**. For more information about the availability of the Relevance Search, see [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management).
+The Unified Interface KM Control supports [Full-Text search](https://docs.microsoft.com/sql/relational-databases/search/full-text-search?view=sql-server-2017) technique and does not support the **Relevance Search**. For more information about the availability of the Relevance Search, see [Relevance search for knowledge management](https://docs.microsoft.com/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management).
 
 ### Quick create in Unified Service Administrator app
 

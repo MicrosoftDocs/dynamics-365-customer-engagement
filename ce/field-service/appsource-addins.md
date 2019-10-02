@@ -1,5 +1,5 @@
 ---
-title: "AppSource for Field Service (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "AppSource for Field Service (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
 ms.date: 9/20/2018
 ms.reviewer: 

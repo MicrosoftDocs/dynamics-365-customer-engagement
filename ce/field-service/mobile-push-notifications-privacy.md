@@ -40,7 +40,7 @@ Authorized users may instruct the App to access the online service at the time o
 
 Your use of Bing Maps is governed by the [Bing Maps End User Terms](https://go.microsoft.com/?linkid=9710837) and the [Bing Maps Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839). Your use of third party mapping services is governed by their service specific end user terms and privacy statements. You should carefully review these other end user terms and privacy statements.
 
-**IMPORTANT:**  If you use the supplement to enable Push Notifications on Field Service mobile applications for Microsoft Dynamics 365, you consent to transmission and sharing of your data to external systems. For more information, please refer to technical documentation for Field Service mobile applications for the [Microsoft Dynamics 365 Push Notifications feature](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/mobile-push-notifications).
+**IMPORTANT:**  If you use the supplement to enable Push Notifications on Field Service mobile applications for Microsoft Dynamics 365, you consent to transmission and sharing of your data to external systems. For more information, please refer to technical documentation for Field Service mobile applications for the [Microsoft Dynamics 365 Push Notifications feature](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/mobile-push-notifications).
 
 Also, your use of external, third-party push notification services to enable Push Notifications on Field Service mobile applications is governed by their service specific terms and privacy statements. You should carefully review these other terms and privacy statements.
 

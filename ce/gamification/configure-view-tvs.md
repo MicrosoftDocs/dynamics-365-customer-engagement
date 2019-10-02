@@ -26,7 +26,7 @@ Display a slide show for daily, weekly, and monthly KPIs on TVs and screens arou
 To create a Stream TV from multiple active games, see [Stream results from active games](configure-view-tvs.md#stream-results-from-active-games).
 
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/18883a39-c003-4d2c-b2af-c5e4c2d93ed3" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/18883a39-c003-4d2c-b2af-c5e4c2d93ed3" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## Set up a Stream TV game
 

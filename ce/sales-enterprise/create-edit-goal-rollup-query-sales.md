@@ -68,5 +68,7 @@ Use the rollup query to gather data about a given goal, including all its relate
 >  The maximum number of records that can be counted  in a goal rollup query is 5000.  
   
 ### See also  
+
  [Create or edit a goal](../sales-enterprise/create-edit-goal-sales.md)   
- [Progress Against Goals report](../basics/sales-insights-reports.md#BKMK_ProgressGoals)
+
+ [Progress Against Goals report](../customer-engagement/on-premises/basics/sales-insights-reports.md#BKMK_ProgressGoals)

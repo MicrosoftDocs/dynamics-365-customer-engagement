@@ -28,7 +28,7 @@ You can customize the appearance of [!INCLUDE[pn_unified_service_desk](../includ
  [Customize themes in Unified Service Desk](../unified-service-desk/customize-themes-in-unified-service-desk.md)
 
 ### See also
- [XAML overview](https://msdn.microsoft.com/en-us/library/ms752059.aspx)
+ [XAML overview](https://msdn.microsoft.com/library/ms752059.aspx)
  [Overview of configuring agent application](../unified-service-desk/configure-agent-application-unified-service-desk.md)
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
  [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](https://go.microsoft.com/fwlink/p/?LinkID=394402)

@@ -1,5 +1,5 @@
 ---
-title: "Perform initial configurations (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Perform initial configurations (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
 ms.date: 10/31/2018
 ms.reviewer: 
@@ -22,7 +22,7 @@ search.app:
 
 # Perform initial configurations 
 
-After installing Dynamics 365 for Field Service, there are a few important initial configurations, whether you're using the application for learning, development, testing, demonstrations, or live usage.
+After installing Dynamics 365 Field Service, there are a few important initial configurations, whether you're using the application for learning, development, testing, demonstrations, or live usage.
 
 Estimated Duration: 10 minutes
 
@@ -85,7 +85,7 @@ The API key will populate automatically and use the Bing Maps API.
 
 Save and close.
 
-To enable maps for the work order form, go to the topic on [managing Bing Maps](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-bing-maps-organization) for details.
+To enable maps for the work order form, go to the topic on [managing Bing Maps](https://docs.microsoft.com/dynamics365/customer-engagement/admin/manage-bing-maps-organization) for details.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of work order map](media/work-order-map.png) 

@@ -24,7 +24,7 @@ search.app:
 # Overview of securing and managing Dynamics 365 for phones and tablets
 
 As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated and will be removed from the iOS App Store on October 31, 2019. For more information, [Dynamics 365 for Blackberry is deprecated
-](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).
+](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).
 
 You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)] and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] with the following technologies:
 
@@ -47,12 +47,12 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobil
 ### More information  
  For more information about getting and using [!INCLUDE[pn_intune](../includes/pn-intune.md)], see:  
   
--   [Microsoft Intune](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/)  
+-   [Microsoft Intune](http://www.microsoft.com/server-cloud/products/microsoft-intune/)  
   
 -   [Documentation for Microsoft Intune](https://technet.microsoft.com/library/jj676587.aspx)  
   
 ## Set up  conditional access to Dynamics 365 apps  
- You can use [!INCLUDE[pn_ms_System_Center_Config_Mgr_short](../includes/pn-ms-system-center-config-mgr-short.md)] conditional access to manage access to Dynamics 365 apps from mobile devices based on conditions you specify. For more information about setting up conditional access, see [Conditional Access in Configuration Manager](https://technet.microsoft.com/en-us/library/dn919655.aspx).  
+ You can use [!INCLUDE[pn_ms_System_Center_Config_Mgr_short](../includes/pn-ms-system-center-config-mgr-short.md)] conditional access to manage access to Dynamics 365 apps from mobile devices based on conditions you specify. For more information about setting up conditional access, see [Conditional Access in Configuration Manager](https://technet.microsoft.com/library/dn919655.aspx).  
   
 > [!NOTE]
 >  To use conditional access, you must have an Azure Active Directory premium subscription.

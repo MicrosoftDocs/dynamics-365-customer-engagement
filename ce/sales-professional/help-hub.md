@@ -1,10 +1,12 @@
 ---
-title: "Documentation resources for Dynamics 365 Sales Professional| Microsoft Docs"
+title: "Help resources for Dynamics 365 Sales Professional| Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 Sales Professional."
 keywords: "sales;help"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 ms.assetid: a37688b5-914c-49b7-8360-0c4676465079
 author: shubhadaj
@@ -12,7 +14,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Sales Professional Help & Training
+# Help resources for Dynamics 365 Sales Professional
 
 <table>
 
@@ -52,9 +54,9 @@ manager: annbe
 </td><td>
 <h2>Microsoft Learn resources</h2>
 <ul?>
-<li><a href="https://docs.microsoft.com/en-us/learn/modules/manage-leads-dynamics-365-sales/" data-raw-source="[Manage leads with Dynamics 365 Sales Professional](https://docs.microsoft.com/en-us/learn/modules/manage-leads-dynamics-365-sales/)">Manage leads with Dynamics 365 Sales Professional</a></li>
-<li><a href="https://docs.microsoft.com/en-us/learn/modules/manage-opportunities-dynamics-365-sales/" data-raw-source="[Manage opportunities with Dynamics 365 Sales Professional](https://docs.microsoft.com/en-us/learn/modules/manage-opportunities-dynamics-365-sales/)">Manage opportunities with Dynamics 365 Sales Professional</a></li>
-<li><a href="https://docs.microsoft.com/en-us/learn/modules/process-sales-orders-dynamics-365-sales/" data-raw-source="[Process sales orders with Dynamics 365 Sales Professional](https://docs.microsoft.com/en-us/learn/modules/process-sales-orders-dynamics-365-sales/)">Process sales orders with Dynamics 365 Sales Professional</a></li>
+<li><a href="https://docs.microsoft.com/learn/modules/manage-leads-dynamics-365-sales/" data-raw-source="[Manage leads with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/manage-leads-dynamics-365-sales/)">Manage leads with Dynamics 365 Sales Professional</a></li>
+<li><a href="https://docs.microsoft.com/learn/modules/manage-opportunities-dynamics-365-sales/" data-raw-source="[Manage opportunities with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/manage-opportunities-dynamics-365-sales/)">Manage opportunities with Dynamics 365 Sales Professional</a></li>
+<li><a href="https://docs.microsoft.com/learn/modules/process-sales-orders-dynamics-365-sales/" data-raw-source="[Process sales orders with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/process-sales-orders-dynamics-365-sales/)">Process sales orders with Dynamics 365 Sales Professional</a></li>
 </ul>
 
 </td></tr>

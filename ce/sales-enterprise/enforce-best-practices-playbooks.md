@@ -20,7 +20,7 @@ Use playbooks in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] t
 To start, a team member with a **Playbook manager** role or equivalent permissions creates playbook categories to classify the playbooks. Then, the playbook manager creates playbook templates that define a set of best practices based on past experiences and their organization's standards. A business user such as a sales person or service rep who has been assigned a **Playbook user** role can then open one of these playbook templates while they work on their records. The playbook template helps ensure that best practices are applied consistently at every step.
 
  
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE2OLrb" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE2OLrb" frameborder="0" allowfullscreen=""></iframe></div>
  
 
 > [!NOTE]

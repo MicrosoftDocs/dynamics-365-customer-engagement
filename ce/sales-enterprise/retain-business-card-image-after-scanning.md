@@ -3,8 +3,10 @@ title: "Enable or disable saving of business card image (Dynamics 365 Sales) | M
 description: "Configure whether to retain the business card image in Dynamics 365 Sales after it is scanned."
 keywords: "business card, scan, scanner, lead, contact, populate, data"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 ms.assetid: 43a92dbe-c627-4404-b647-a33c51a8bcdc
 author: shubhadaj
@@ -14,16 +16,7 @@ manager: annbe
 
 # Enable or disable saving of business card image
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 By default, any business card that is scanned is stored as an image and associated with the **Lead** or **Contact** record. A system administrator can configure this option to enable or disable this setting.
-
-> [!IMPORTANT]
-> - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-> - This feature is available only in the EMEA and North America regions.
-> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
-
 
 To enable or disable saving of business card image:
 

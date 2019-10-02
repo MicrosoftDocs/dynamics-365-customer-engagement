@@ -29,7 +29,7 @@ To deploy Resource Scheduling Optimization, you must first do the following:
   > [!NOTE]
   > A paid Plan 1 or Dynamics 365 Field Service subscription is required for purchasing and enabling RSO. 
 
-- Install Dynamics 365 for Field Service.
+- Install Dynamics 365 Field Service.
 
     > [!div class="mx-imgBorder"]
     > ![](media/70dc3d56ea79ba8554b8a6d1e8412453.png)

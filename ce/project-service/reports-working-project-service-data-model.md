@@ -1,6 +1,6 @@
 ---
 title: Working with the Project Service Automation data model
-description: This topic provides information about how to work with the Dynamics 365 for Project Service for Automation data model.
+description: This topic provides information about how to work with the data model.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,11 +25,11 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 for Project Service Automation (PSA) extends Microsoft Dynamics 365 for Sales entities and other entities. It also introduces its own entities in the Common Data Service data model. This topic describes some of the entities that you will encounter in typical PSA reporting scenarios.
+Dynamics 365 Project Service Automation extends other app entities and introduces its own entities in the Common Data Service data model. This topic describes some of the entities that you will encounter in typical PSA reporting scenarios.
 
 ## Reporting on opportunities
 
-PSA extends the Sales **Opportunity** entity by adding fields that enable project-based scenarios. These fields are identified by a schema name that is prefixed with **msdyn\_**. One new field that is important for reporting on PSA opportunities is **Order Type**. A value of **Work Based** for this field indicates that the opportunity is a PSA opportunity. Other fields that have been added to the entity include **Contracting Organization**, which captures the organization that is holding the opportunity, and **Account Manager**, which captures the name of the account manager who is responsible for the opportunity.
+Project Service Automation extends the Dynamics 365 Sales **Opportunity** entity by adding fields that enable project-based scenarios. These fields are identified by a schema name that is prefixed with **msdyn\_**. One new field that is important for reporting on PSA opportunities is **Order Type**. A value of **Work Based** for this field indicates that the opportunity is a PSA opportunity. Other fields that have been added to the entity include **Contracting Organization**, which captures the organization that is holding the opportunity, and **Account Manager**, which captures the name of the account manager who is responsible for the opportunity.
 
 The **Opportunity Line** entity also includes fields that are related to Project Service. **Billing Method** indicates whether the opportunity line should be billed on a time-and-materials basis or a fixed-price basis, and **Project** captures the name of the project that is backing the opportunity. Other fields that you can report on capture costs and customer budget amounts for the line item.
 
@@ -80,7 +80,7 @@ The **Projects** entity and its related entities are exclusive to PSA. **Project
 
 ## Reporting on resources
 
-Project resources use the **Bookable Resource** entities from Universal Resource Scheduling (URS) that are shared with other apps, such as Microsoft Dynamics 365 for Field Service. Here is a list of the entities that you might have to use when you report on project resources:
+Project resources use the **Bookable Resource** entities from Universal Resource Scheduling (URS) that are shared with other apps, such as Microsoft Dynamics 365 Field Service. Here is a list of the entities that you might have to use when you report on project resources:
 
 - **Bookable Resource** – This entity represents the user, contact, generic resource, account, group, or equipment that is used on the project team.
 - **Bookable Resource Characteristics** – This entity includes the skills, certifications, or education of the resource. The characteristics can have rating values that are defined by the rating model.

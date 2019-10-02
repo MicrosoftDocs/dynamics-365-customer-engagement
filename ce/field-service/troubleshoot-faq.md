@@ -31,6 +31,19 @@ search.app:
 > [!Note]
 > If you're looking for help with **errors**, **unexpected behavior**, **crashes**, and **bugs**, create a [Dynamics 365 support ticket](https://dynamics.microsoft.com/contact-us/). 
 
+## Why is Field Service missing from the sitemap navigation?
+
+As of Field Service v8.x, you can find Field Service among the other Dynamics 365 apps by selecting Dynamics 365 in the top left and selecting **Field Service**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service in the navigation](./media/navigation-fs-sitemap.png)
+
+This is different from previous versions (7.x and 6.x), where Field Service was found in the menu as seen in the following screenshot.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the former Field Service navigation menu](./media/navigation-fs-sitemap-7.png)
+
+
 ## Can I customize out-of-the-box web resources, option sets, or security roles? 
 
 No, this is not supported. Organizations that customize these components may not immediately cause the environment to break, but eventually, as Microsoft releases changes to the customized components, the changes will not be applied to the top layer of that component. The specific customized layer will override all future changes. This will almost certainly eventually cause the instances that have customized these components to experience unpredictable errors and behavior.
@@ -55,7 +68,7 @@ No. Modifying, editing, or deleting date fields and statuses can affect business
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the error on the opportunity form](./media/faq-opportunity-read-only.png)
 
-Field Service makes the opportunity, lead, quote, and invoice forms read-only once it detects the record is not a service-maintenance based record. This means Field Service forms or the forms copied from Field Service forms do not support opportunity, lead, quote, and invoice records other than Field Service opportunity, lead, quote, and invoice. If you want to use an opportunity form for non-Field Service related opportunities, use the out-of-the-box opportunity (**Opportunity: Opportunity**) form shipped by Dynamics 365 for Sales or copy this form for further customization. The same is true for lead, quote, and invoice.
+Field Service makes the opportunity, lead, quote, and invoice forms read-only once it detects the record is not a service-maintenance based record. This means Field Service forms or the forms copied from Field Service forms do not support opportunity, lead, quote, and invoice records other than Field Service opportunity, lead, quote, and invoice. If you want to use an opportunity form for non-Field Service related opportunities, use the out-of-the-box opportunity (**Opportunity: Opportunity**) form shipped by Dynamics 365 Sales or copy this form for further customization. The same is true for lead, quote, and invoice.
 
 ## AttributeMap unmanaged base instance upgrade error
 

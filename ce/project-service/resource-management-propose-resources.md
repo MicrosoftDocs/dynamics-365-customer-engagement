@@ -1,6 +1,6 @@
 ---
 title: Propose project resources 
-description: This topic provides information about how to propose project resources in Dynamics 365 for Project Service Automation (PSA).
+description: This topic provides information about how to propose project resources.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -100,7 +100,7 @@ If a right-pointing arrow appears next to an individual bookable resource on the
 
 ![Bookable resource expanded on the Schedule Board](media/Resource-Management-image69.png)
 
-Because Microsoft Dynamics 365 for Project Service Automation (PSA) uses the Universal Resource Scheduling engine, if you also have Microsoft Dynamics 365 for Field Service installed, you can view the details of resource bookings for projects, work orders, and any other entities that you've extended scheduling to.
+Because Dynamics 365 Project Service Automation uses the Universal Resource Scheduling engine, if you also have Dynamics 365 Field Service installed, you can view the details of resource bookings for projects, work orders, and any other entities that you've extended scheduling to.
 
 ![Details of resource bookings for projects and work orders](media/Resource-Management-image70.png)
 

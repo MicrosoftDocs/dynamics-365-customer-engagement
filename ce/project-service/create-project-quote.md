@@ -1,5 +1,5 @@
 ---
-title: Create a project quote (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Create a project quote 
 description: How to create a project quote in Project Service
 author: ruhercul
 manager: kfend
