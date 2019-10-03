@@ -6,9 +6,12 @@ ms.service: dynamics-365-sales
 ms.custom: dyn365-sales
 ms.topic: article
 ms.assetid: 19ebd133-6da7-4617-baeb-a30ff9af7ae1
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
+author: udaykirang
+ms.author: udag
+manager: shujoshi
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 ---
 
 # Capture forecast category for opportunity
@@ -20,32 +23,31 @@ manager: annbe
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-The forecast category is used to determine the different confidence levels of an opportunity as it moves through the different stages before it is converted to a sale. This information is used in forecasting to indicate how many opportunities are committed versus how many are still in the pipeline so appropriate actions can be taken. 
+The forecast category is used to determine confidence level of an opportunity as it moves along the path to conversion. Forecasting shows how many opportunities are in the pipeline and which of those are committed, delivering actionable insights. 
 
-**To capture the forecast category**
+1.	In the site map, select **Opportunities**.
 
-1. Make sure you have the Forecast user role or equivalent permissions.
+2.	In the list of opportunities, open an opportunity for which you want to capture the forecast category.
 
-2.	In the site map, select **Opportunities**.
+3.	In the **Forecast category** drop-down list, select one of the following, and then select **Save**:
 
-3.	In the list of opportunities, open an opportunity for which you want to capture the forecast category.
+    -  **Pipeline.** The confidence of winning this opportunity is low. Any opportunity that a sales rep has just started to work on can be set to this category (this is the default value).
 
-4.	In the **Forecast category** drop-down list, select one of the following, and then select **Save**:
+    -  **Best case.** Sales rep has started talking to customers or has shared quotes, and there are moderate chances of winning the opportunity.
 
-    -  **Pipeline (low confidence).** Any opportunity that a sales rep has just started to work on can be set to this category. The confidence of winning this opportunity is low. This is the default value.
+    -  **Committed.** Customer  has committed to closing the deal.
 
-    -  **Best case (moderate confidence).** When the sales rep has started talking to customers or has shared quotes, and there are moderate chances of winning the opportunity, change the forecast category to **Best case (moderate confidence)**.
-
-    -  **Committed (high confidence).** When the customer is positive and committed about closing the deal, change the category to **Committed (high confidence)**.
-
-    -  **Omitted (exclude from forecast).** If you want an opportunity’s numbers to be excluded from forecasting, use this category. 
+    -  **Omitted.** To exclude an opportunity’s numbers from the forecast. 
+    
+    - **Won.** If an opportunity is closed as won.
+    
+    - **Lost.** If an opportunity fails and is closed as lost.
 
        > [!div class="mx-imgBorder"]
        > ![Capture forecast category on an opportunity](media/capture-forecast-category-opportunity-form.png "Capture forecast category on an opportunity")
 
 > [!TIP]
-> You can create a workflow to change the forecast category based on changes in the business process stage or in the probability of an opportunity.  
-
+> You can create a workflow to change the forecast category based on changes in the business process stage or in the probability of an opportunity. To learn more about creating a workflow, see [Use Workflow processes to automate processes that don't require user interaction](/dynamics365/customer-engagement/customize/workflow-processes) 
 
 ## See also
 

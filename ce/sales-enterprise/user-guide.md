@@ -1,10 +1,12 @@
 ---
-title: "User Guide (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Help resources for sales people (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Contains topics that describe how to do common sales tasks in Dynamics 365 Sales"
 keywords: "sales, User guide"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: get-started-article
 ms.assetid: b16a9d08-e24a-4b60-9dcc-6803cea4882e
 author: shubhadaj
@@ -13,7 +15,7 @@ manager: sakudes
 caps.latest.revision: 5
 ---
 
-# Resources for sales person (Sales and Sales Hub)
+# Help resources for sales people (Sales Enterprise)
 
 [!INCLUDE[pn_dyn_365_sales](../includes/pn-dyn-365-sales.md)] helps you zero in on the right leads, contacts, and opportunities as you build out your team's sales pipeline. Built-in processes guide you from one stage of the sales process to the next, and  easy-to-use dashboards help you set goals and provide actionable insights to help you close more deals.  
   

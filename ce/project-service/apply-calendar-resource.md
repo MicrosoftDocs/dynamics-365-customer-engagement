@@ -1,5 +1,5 @@
 ---
-title: Apply a calendar to a resource (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Apply a calendar to a resource 
 description: How to apply a calendar to a resource in Project Service
 author: rumant
 manager: kfend
