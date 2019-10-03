@@ -132,22 +132,26 @@ Then head to Filter panel and enter the following values to define when you want
 
 **Save & Publish**
 
-At this point we are ready to run overnight scheduling with RSO. One option is to wait 
-> [!Note]
-> can test with run now button 
+At this point we are ready to run overnight scheduling with RSO. One option is to wait for the trigger at midnight. Another option is for testing and development purposes to select the Run Now button in the top ribbon.
+
 
 ## Results
 
-Your scope creates a new schedule board tab or you can simply choose Schedule Board from the top ribbon of your Optimization Schedule.
+Your scope creates a new schedule board tab or you can simply choose Schedule Board from the top ribbon of your Optimization Schedule to see the resources, requirements, and bookings specific to this schedule.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-overnight-results.png)
 
+Here you can see jobs were only scheduled for one working day to our Washington-WA resources.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-overnight-lock.png)
 
+A defining characteristic of overnight scheduling is that dispatchers have priority and changes they make should not be moved by RSO. For this reason, if a dispatcher moves a booking, or schedules a new one from the schedule board or with schedule assistant, it is automatically locked based on the booking method value. A lock icon will appear when viewing the booking on the schedule bard tab related to the optimization scope.
+
 ### See also
 
-- Quickstart
-- 
+- [RSO Quickstart](./rso-quickstart.md)
+- [Booking lock options](./booking-lock-options.md)
+- [RSO configuration](./rso-configuration.md)
+
