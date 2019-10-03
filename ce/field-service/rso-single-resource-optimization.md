@@ -58,11 +58,11 @@ Setting up this RSO scenario as well as other scenarios involves creating a scop
 
 - **Optimize Schedules** is set to **Yes** for the bookable resource you will individually optimize the schedules of.
 
-- Default goal in **Resource Scheduling Optimization** > **Optimization Goals**. A default goal is created automatically when optimization runs.
+
 
 ## Scope
 
-Unlike running RSO for other scenarios, you do not need to create an Optimization Scope to run SRO for a resource. this is because the scope is automatically defined as the bookings for the resource in the defined date range (the rest of the current day by default).
+Unlike running RSO for other scenarios, you do not need to create an Optimization Scope to run SRO for a resource. This is because the scope is automatically defined as the bookings for the resource in the defined date range (the rest of the current day by default).
 
 ## Goal
 
@@ -70,23 +70,43 @@ Goals define what RSO should consider and prioritize.
 
 Go to **Resource Scheduling Optimization app > Optimization Goals > +New**
 
+Create the goal you would like Single Resource Optimization to use by default, though any goal can be selected at the run time.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-sro-goal.png)
+
+
+When creating a goal for SRO, it is important to remember that SRO is typically used to clean up a schedule that was altered throughout the day. Therefore, here are a few recommendations:
+
+1. Engine Effort Level: **Very Light** because dispatchers will want SRO to run very quickly and may even run it while on the phone with a customer.
+2. Removing the **Schedule Within Working Hours** constraint will allow more bookings to fit in the resources schedule, which could be good if the dispatcher adds an additional emergency work order to the schedule. When this constrain is removed, the start time of a booking will have to be within working hours and can spill over into non-working hours. When this constraint is added, RSO ensures there is time to travel back to the resource's ending location.
+3. Removing constraints related to matching territory, roles, and characteristics because the scenario assumes the dispatcher knows best. This could lead to a situation where the dispatcher assigns a work order to a resource, runs SRO, and SRO deletes the booking because it does not match the resource's attributes. 
+4. Adding **Scheduling Lock Options** and **Scheduling Windows** constraints is recommended so SRO upholds time promises or SLAs with the customer.
+
+**Save**
+
+Next, add your SRO goal as the default goal.
+
+Go to **Resource Scheduling app** > **Settings** > **Administration** > **Scheduling Parameters** > **Resource Scheduling Optimization section** and enter your newly created default goal. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-sro-default-goal.png)
+
+> [!Note]
+> A default goal is created automatically when RSO is deployed.
 
 ## Schedule
 
+Unlike running RSO for other scenarios, you do not need to create an Optimization Schedule to run SRO for a resource. This is because SRO is run manually from the schedule board or via a workflow action (CreateResourceOptimizationRequest).
+
 ## Run and view results
 
+There are three ways to run Single Resource Optimization 
 
-
-There are two ways to use the schedule board to optimize the schedule for a single resource:
+### One click with defaults
 
 - **One click with defaults**: From any schedule board view, optimize the schedule with one click by setting a time range to the end of the current day for the default goal. Optimizing with one click requires Field Service application version 8.0 or higher.
-
-- **Advanced with edits**: Optimize the schedule for a single resource by editing the goal and time range, running the optimization as a simulation, and then applying or discarding the results. This capability is only available from the schedule board view associated with the optimization scope.
-
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-1.png)
-
-
 
 ## Optimize with one click
 
@@ -102,7 +122,14 @@ There are two ways to use the schedule board to optimize the schedule for a sing
    > [!div class="mx-imgBorder"]
    > ![Screenshot of single resource optimization with range and goal](media/rso-single-resource-3.png)
 
-## Perform advanced optimization with edits
+### Run after making edits
+
+- **Advanced with edits**: Optimize the schedule for a single resource by editing the goal and time range, running the optimization as a simulation, and then applying or discarding the results. This capability is only available from the schedule board view associated with the optimization scope.
+
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-1.png)
+
+  ## Perform advanced optimization with edits
 
 1. Set the optimization range to the date and time.
 
@@ -113,9 +140,7 @@ There are two ways to use the schedule board to optimize the schedule for a sing
    > [!div class="mx-imgBorder"]
    > ![Screenshot of single resource optimization pane with options](media/rso-single-resource-4.png)
 
-
-<!--from editor: Are these two bullets supposed to be numbers 4 and 5 (to go with the image)?-->
-
+### Run as simulation 
 
 - **Run Simulation** runs the optimization and schedules simulated bookings shown as white. Apply or discard simulation results. Note that simulated bookings don't show on maps with routes.
 
@@ -123,6 +148,7 @@ There are two ways to use the schedule board to optimize the schedule for a sing
 
   > [!div class="mx-imgBorder"]
   > ![Screenshot of running single resource optimization with simulation mode](media/rso-single-resource-5.png)
+
 
 ## Additional notes
 
