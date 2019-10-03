@@ -106,30 +106,28 @@ There are three ways to run Single Resource Optimization
 
 ### One click with defaults
 
-- **One click with defaults**: From any schedule board view, optimize the schedule with one click by setting a time range to the end of the current day for the default goal. Optimizing with one click requires Field Service application version 8.0 or higher.
+Requires Field Service application version 8.0 or higher.
 
-## Optimize with one click
+> [!div class="mx-imgBorder"]
+> ![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-2.png)
 
-1. From the schedule board, right-click the resource's name, and then select **Optimize Schedule**. 
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-2.png)
+1. From any schedule board view, right-click the resource's name, and then select **Optimize Schedule**. 
+
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of single resource optimization with range and goal](media/rso-single-resource-3.png) 
+
 
 2. Yellow line indicates default optimization range, from now to the end of today (12 AM).
 3. Gray mask indicates default optimization range, from now to the end of today (12 AM).
-4. Optimization panel showing resource name, default range, default goal, and optimization request status.
+4. Optimization panel showing resource name, default range, default goal, and optimization request status. **Note:** Optimization side panel is only displayed in schedule board tabs created by RSO scopes.
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of single resource optimization with range and goal](media/rso-single-resource-3.png)
-
+   
 ### Run after making edits
 
-- **Advanced with edits**: Optimize the schedule for a single resource by editing the goal and time range, running the optimization as a simulation, and then applying or discarding the results. This capability is only available from the schedule board view associated with the optimization scope.
+Run single resource optimization but edit the goal and time range first. One benefit of editing the time range and extending it to second day is SRO may take jobs from the next day and fit them in the first day if time is avaialble. 
 
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-1.png)
-
-  ## Perform advanced optimization with edits
+  **Note:** This capability is **only** available from the schedule board view associated with the optimization scope.
 
 1. Set the optimization range to the date and time.
 
@@ -158,3 +156,5 @@ There are three ways to run Single Resource Optimization
 - This capability appears on the schedule board for all resources as long as optimization is deployed in the environment. However, single resource optimization only works if **Optimize Schedules** is set to **Yes** for the bookable resource. The single resource optimization capability can't be disabled or hidden.
 
 
+ > [!div class="mx-imgBorder"]
+  > ![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-1.png)
