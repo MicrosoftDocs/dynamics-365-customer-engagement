@@ -16,8 +16,6 @@ manager: annbe
 
 # Connect and share feedback for the Sales Hub app
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 The **Connect and share** capability in the Sales Hub app lets experts and peers connect with each other, submit ideas, and share any feedback that they have about the Sales Hub app.
 
 ## Connect through community and forum

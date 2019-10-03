@@ -21,11 +21,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-<a name="BKMK_UsingDefaultSolution"></a>   
-
 # Use the default solution to customize  
-
-
 
  When you customize a custom business app, you may work with the default solution. To open the default solution, open solution explorer.  
   
