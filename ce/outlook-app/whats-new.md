@@ -30,7 +30,7 @@ description: "Updates to Dynamics 365 App for Outlook."
 ## Nov 2018 
 1. Search Dynamics 365 contacts from App for Outlook’s contact tracking view. 
 2. Sort and filter Dynamics 365 contacts in App for Outlook’s contact tracking view. 
-3. With HideTrackAllOption OrgDBOrgSetting, the option to track all emails via server-side synchronization can be hidden. For more information, see [OrgDBOrgSettings tool for Microsoft Dynamics CRM](https://support.microsoft.com/en-us/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm). 
+3. With HideTrackAllOption OrgDBOrgSetting, the option to track all emails via server-side synchronization can be hidden. For more information, see [OrgDBOrgSettings tool for Microsoft Dynamics CRM](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm). 
 4. Fixed performance and reliability issues.
 
 ## Oct 2018 
@@ -44,7 +44,7 @@ description: "Updates to Dynamics 365 App for Outlook."
 2. Dynamics 365 App for Outlook immediately tracks emails with attachments on Outlook Desktop for Windows.
 
 ## July 2018
-1. [Filter entities and views that appear in Dynamics 365 App for Outlook.](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/deploy-dynamics-365-app-for-outlook#filter-entities-and-views-that-appear-in-dynamics-365-app-for-outlook) 
+1. [Filter entities and views that appear in Dynamics 365 App for Outlook.](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/deploy-dynamics-365-app-for-outlook#filter-entities-and-views-that-appear-in-dynamics-365-app-for-outlook) 
 2. Fixed issues with App for Outlook not loading in Internet Explorer with Exchange on premise. 
 3. Untrack confirmation dialog will now be displayed when tracking an appointment in Outlook desktop in read mode. 
 4. App for Outlook will honor business rules (like required fields on a contact) when contacts are tracked. 

@@ -20,7 +20,7 @@ Here’s some good news.
 Dynamics 365 Sales Professional comes with a simple and straightforward setup experience, so anybody can put things together and get their team rolling quickly.
 
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE2OJWL" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE2OJWL" frameborder="0" allowfullscreen=""></iframe></div>
 
 
 

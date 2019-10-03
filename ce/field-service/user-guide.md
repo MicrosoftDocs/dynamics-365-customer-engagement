@@ -1,5 +1,5 @@
 ---
-title: "User Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "User Guide (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom:
   - dyn365-fieldservice
 ms.date: 09/12/2019
@@ -25,12 +25,12 @@ search.app:
 ---
 # Field Service user guide
 
-Not sure what you're looking for, where to begin, or how to improve your Field Service knowledge? Use this guide to see a birds-eye view of the Dynamics 365 for Field Service resources.
+Not sure what you're looking for, where to begin, or how to improve your Field Service knowledge? Use this guide to see a birds-eye view of the Dynamics 365 Field Service resources.
 
 ## Resources
 Before we begin, here are the top places for information about Field Service:
 
-- [Docs](overview.md): The primary documentation for Dynamics 365 for Field Service (and it's where you are now).
+- [Docs](overview.md): The primary documentation for Dynamics 365 Field Service (and it's where you are now).
 
 - [Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-field-service): Here you will find guided videos and courses.
 
@@ -46,17 +46,17 @@ Before we begin, here are the top places for information about Field Service:
 
 
 ## Understand Field Service concepts
-The purpose of this section is to understand what Dynamics 365 for Field Service is, and why it's valuable to customers.
+The purpose of this section is to understand what Dynamics 365 Field Service is, and why it's valuable to customers.
 
-- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)
+- [Overview of Dynamics 365 Field Service](../field-service/overview.md)
 
-- [![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://go.microsoft.com/fwlink/p/?LinkID=786689) [Watch a short video (3:51) on the benefits of Dynamics 365 for Field Service](https://go.microsoft.com/fwlink/p/?LinkID=786689)
+- [![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://go.microsoft.com/fwlink/p/?LinkID=786689) [Watch a short video (3:51) on the benefits of Dynamics 365 Field Service](https://go.microsoft.com/fwlink/p/?LinkID=786689)
 
-- [![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://youtu.be/JFonGXOo3ms) [Deliver connected customer service with Dynamics 365 for Field Service](https://youtu.be/JFonGXOo3ms)
+- [![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://youtu.be/JFonGXOo3ms) [Deliver connected customer service with Dynamics 365 Field Service](https://youtu.be/JFonGXOo3ms)
 
 - [![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://youtu.be/JG1JAbwWAwU) [Transform field service with Microsoft Dynamics 365](https://youtu.be/JG1JAbwWAwU)
 
-- [![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://youtu.be/A1qpoi0EYWU) [Provide proactive maintenance with Dynamics 365 for Field Service](https://youtu.be/A1qpoi0EYWU)
+- [![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://youtu.be/A1qpoi0EYWU) [Provide proactive maintenance with Dynamics 365 Field Service](https://youtu.be/A1qpoi0EYWU)
 
 ### Customer Stories
 - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sodexo – Facilities Management](https://youtu.be/awSwCtgZvXE)
@@ -105,9 +105,9 @@ Additionally, configuring the core Field Service scenario involves understanding
 
 - [Configure and customize](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/mobile-app-configuration-customization)
 
-- [Get started with Microsoft Dynamics 365 for Field Service Mobile](https://docs.microsoft.com/learn/modules/implement-get-started-with-microsoft-dynamics-365-for-field-service-mobile/)
+- [Get started with Microsoft Dynamics 365 Field Service Mobile](https://docs.microsoft.com/learn/modules/implement-get-started-with-microsoft-dynamics-365-for-field-service-mobile/)
 
-- [Deliver a customized mobile experience in Microsoft Dynamics 365 for Field Service](https://docs.microsoft.com/learn/modules/implement-deliver-a-customized-mobile-experience/)
+- [Deliver a customized mobile experience in Microsoft Dynamics 365 Field Service](https://docs.microsoft.com/learn/modules/implement-deliver-a-customized-mobile-experience/)
 
 ## Configure more scenarios
 The purpose of this section is to help you explore all the features of Field Service and configure more detailed scenarios and business requirements.

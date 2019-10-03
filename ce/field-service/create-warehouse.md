@@ -1,5 +1,5 @@
 ---
-title: "Create a warehouse (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Create a warehouse (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017

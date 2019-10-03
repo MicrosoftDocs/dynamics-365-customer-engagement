@@ -1,5 +1,5 @@
 ---
-title: "Use faceted search to improve portal search in Dynamics 365 | MicrosoftDocs"
+title: "Use faceted search to improve portal search | MicrosoftDocs"
 description: "Instructions to enable or disable faceted search."
 ms.custom: 
   - dyn365-portal
@@ -42,7 +42,7 @@ To disable a single piece of the faceted view:
 
 The site setting **Search/RecordTypeFacetsEntities** allows you to group similar entities together so users have logical ways of filtering search results. For example, instead of having separate options for forums, forum posts, and forum threads, these entities are grouped under the Forums record type.
 
-In Dynamics 365, go to **Portals** &gt; **Websites** &gt; **Site Settings** and open the **Search/RecordTypeFacetsEntities** site setting. 
+Go to **Portals** &gt; **Websites** &gt; **Site Settings** and open the **Search/RecordTypeFacetsEntities** site setting. 
 
 Notice that the different entities are preceded by the word **Forums:**. This is because the first value is the name with they are grouped as. This word will be translated based on the language that is being used on the portal.
 

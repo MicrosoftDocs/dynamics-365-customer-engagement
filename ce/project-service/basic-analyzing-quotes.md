@@ -1,6 +1,6 @@
 ---
 title: Analysis of project quotes 
-description: This topic provides information about the analysis of project quotes in Dynamics 365 for Project Service Automation.
+description: This topic provides information about the analysis of project quotes.
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,18 +25,18 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 for Project Service Automation (PSA) analyzes project quotes to estimate profitability. It also analyzes how well the quote is aligned with customer expectations about the delivery date or completion date, and about the budget.tions.
+Dynamics 365 Project Service Automation analyzes project quotes to estimate profitability. It also analyzes how well the quote is aligned with customer expectations about the delivery date or completion date, and about the budget.tions.
 
 ## Profitability analysis
 
-PSA analyzes profitability by using the gross margin and the adjusted gross margin.
+Project Service Automation analyzes profitability by using the gross margin and the adjusted gross margin.
 
-- PSA calculates the gross margin by using the following formula:
+- Gross margins are calculated by using the following formula:
 
   `
     (Sum of estimated chargeable sales value – Sum of estimated chargeable costs) x 100
   `
-- PSA calculates the adjusted gross margin by using the following formula:
+- The adjusted gross margin is calculated by using the following formula:
 
   `
     (Sum of estimated chargeable sales value – Sum of all estimated costs) x 100
@@ -46,7 +46,7 @@ If the values for gross margin and adjusted gross margin differ by a wide margin
 
 ## Analysis of customer expectations
 
-In PSA, you can analyze quotes and generate charts for customer expectations about the schedule and budget if you enter values for the following fields:
+You can analyze quotes and generate charts for customer expectations about the schedule and budget if you enter values for the following fields:
 
 - The **Requested delivery date** field on the quote header.
 - The **Customer budget** field for each quote line (for project-based lines and product-based lines).

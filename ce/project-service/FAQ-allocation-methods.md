@@ -1,8 +1,9 @@
 ---
 
+
 title: Booking allocation methods
 description: This topic provides information about the different ways you can book allocations.
-author: Jruhercul                
+author: ruhercul                
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom:

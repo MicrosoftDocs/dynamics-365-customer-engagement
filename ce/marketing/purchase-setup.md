@@ -79,7 +79,7 @@ For more information about licensing, see the [Administration and setup FAQ](set
 
 ## Add a Marketing app to your Microsoft 365 tenant
 
-There are many ways to add one or more Marketing apps to your Microsoft 365 tenant. For example, you can purchase it from the [Dynamics 365 Marketing overview page](https://dynamics.microsoft.com/en-us/marketing/overview/), or by going to **Billing** > **Purchase services** in your Microsoft 365 admin center, or by contacting your Microsoft sales representative or channel partner. On purchasing a license, an unconfigured Dynamics 365 Marketing app will be automatically added to your tenant.
+There are many ways to add one or more Marketing apps to your Microsoft 365 tenant. For example, you can purchase it from the [Dynamics 365 Marketing overview page](https://dynamics.microsoft.com/marketing/overview/), or by going to **Billing** > **Purchase services** in your Microsoft 365 admin center, or by contacting your Microsoft sales representative or channel partner. On purchasing a license, an unconfigured Dynamics 365 Marketing app will be automatically added to your tenant.
 
 You can have any number of Marketing apps available on your tenant. Initially, each of these apps will be unconfigured and unassigned to any Dynamics 365 instance. Later, you'll run the Marketing setup wizard to assign the app to an instance and configure it.
 

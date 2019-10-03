@@ -26,7 +26,7 @@ We have compiled a list of frequently asked questions and provided brief answers
 
 ## How to install Voice of the Customer solution earlier than 9.0?
 
-Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] is a preferred solution that you install from [!INCLUDE[pn-ms-office](../includes/pn-ms-office.md)] 365. More information about how to install preferred solutions: [Install a preferred solution](https://technet.microsoft.com/en-us/library/dn878909)  
+Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] is a preferred solution that you install from [!INCLUDE[pn-ms-office](../includes/pn-ms-office.md)] 365. More information about how to install preferred solutions: [Install a preferred solution](https://technet.microsoft.com/library/dn878909)  
 
 > [!NOTE] 
 > If you're using Voice of the Customer version 9.0.781.3 or earlier, maximum number of survey responses you can pull per day is **2,400**.

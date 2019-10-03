@@ -1,6 +1,6 @@
 ---
 title: Project planning home page
-description: This topic provides information about project planning in Dynamics 365 for Project Service Automation.
+description: This topic provides information about project planning.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 for Project Service Automation offers end-to-end support for service organizations by providing tools for managing the sales and delivery process. It helps these organizations identify opportunities, submit bids, reach contractual agreements, manage resources, deliver projects on time and within budget, record time and expenses, and invoice the customer. Team members can collaborate on projects, and they can maintain current, accurate project status information so that project managers can identify and manage project risks. These advanced tasks are typically performed in larger organizations that have separate divisions that work together.
+Dynamics 365 Project Service Automation offers end-to-end support for service organizations by providing tools for managing the sales and delivery process. It helps these organizations identify opportunities, submit bids, reach contractual agreements, manage resources, deliver projects on time and within budget, record time and expenses, and invoice the customer. Team members can collaborate on projects, and they can maintain current, accurate project status information so that project managers can identify and manage project risks. These advanced tasks are typically performed in larger organizations that have separate divisions that work together.
 
 ## Project management tools
 

@@ -24,7 +24,7 @@ search.app:
 
 # Create a marketing email and go live
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/17c3476e-9383-413b-98ec-0b1ac6659824" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/17c3476e-9383-413b-98ec-0b1ac6659824" frameborder="0" allowfullscreen=""></iframe></div>
 
 Email is a vital marketing channel for most modern organizations. It's also a core feature of Dynamics 365 Marketing, which provides tools for creating graphically rich marketing emails with dynamic, personalized content. Dynamics 365 Marketing can send large volumes of personalized marketing emails, monitor how each recipient interacts with them, drive customer-journey automation based on these interactions, and present results both for individual contacts and with aggregate statistical analytics.
 

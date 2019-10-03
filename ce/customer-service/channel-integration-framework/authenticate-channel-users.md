@@ -35,7 +35,7 @@ To enable SSO for the channel (widget), perform the following:
     e. Assign users and groups to your SAML application.
     f. Test the SAML application.
 
-For more information on how to register and configure the channel (widget), visit [Configure SSO to applications](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications).
+For more information on how to register and configure the channel (widget), visit [Configure SSO to applications](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications).
 
 2. Authorize access to Azure Active Directory web applications using the OAuth 2.0 code grant flow.
     a. Request an authorization code.
@@ -43,7 +43,7 @@ For more information on how to register and configure the channel (widget), visi
     c. Use the access token to access the resource.
     d. Refreshing the access tokens.
 
-For more information on how to authorize access to Azure Active Directory web applications, visit [OAuth 2.0](https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-protocols-oauth-code).
+For more information on how to authorize access to Azure Active Directory web applications, visit [OAuth 2.0](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code).
 
 > [!div class="nextstepaction"]
 > [Pass Dynamics 365 URL to widget library](pass-url-widget-library.md)

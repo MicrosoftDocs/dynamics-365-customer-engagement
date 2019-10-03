@@ -1,5 +1,5 @@
 ---
-title: Configure additional parameter settings (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Configure additional parameter settings
 description: How to configure additional parameter settings in Project Service
 author: JohnPBurrows
 manager: kfend
