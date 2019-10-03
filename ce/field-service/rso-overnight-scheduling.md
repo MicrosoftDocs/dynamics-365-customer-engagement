@@ -86,6 +86,8 @@ In this example, we're filtering for bookings that
 3. have booking statuses that indicate it's okay to reschedule them (**Scheduling, Hard, Committed**)
 4. relate to resource requirements in the same territory as our resources and requirements (**Washington state - WA**). 
 
+**Save**
+
 ## Goal
 
 Goals define what RSO should consider and prioritize.
@@ -95,20 +97,24 @@ Go to **Resource Scheduling Optimization app > Optimization Goals > +New**
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-overnight-goal.png)
 
-Because overnight scheduling is intended to run during the night when no one is working and dispatchers and technicians are not waiting for results your goal can reflect more data and more time to run.
+Set engine effort level to **Moderate**, **Intense**, or **Very Intense**. This means the optimization will take longer to execute but will find a more optimal solution. Because overnight scheduling is intended to run during the night when no one is working and dispatchers and technicians are not waiting for results, you can allow the optimization to take longer. 
 
-Set engine effort level to **Moderate**, **Intense**, or **Very Intense**. This means the optimization will take longer to execute but will find a more optimal solution. Because dispatchers
+Add the constraints RSO should consider based on your business needs. As an example, if your work orders require different characteristics (skills) add the "Meets Required Characteristics" constraint. For more details on constraints, see the topic on [RSO configurations](https://docs.microsoft.com/en-us/dynamics365/field-service/rso-configuration#define-the-optimization-goal).
 
 **Save**
 
 ## Schedule
+
+Schedules combine scopes and goals and tell RSO when to run.
 
 Go to **Resource Scheduling Optimization app > Optimization Schedules > +New**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-overnight-schedule.png)
 
+Timer: Set to 1 hour. This means every hour RSO will check the filter panel to see if it should run.
 
+Timer Mode: Set to Fixed.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-overnight-schedule-filter.png)
 
