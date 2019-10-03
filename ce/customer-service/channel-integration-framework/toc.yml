@@ -47,16 +47,18 @@
       items:
       - name: "Overview"
         href: reference/microsoft-ciframework.md
-      - name: "setWidth"
-        href: reference/microsoft-ciframework/setWidth.md
-      - name: "getWidth"
-        href: reference/microsoft-ciframework/getWidth.md
+      - name: "Panel management APIs"
+        items:
+        - name: "setWidth"
+          href: reference/microsoft-ciframework/setWidth.md
+        - name: "getWidth"
+          href: reference/microsoft-ciframework/getWidth.md
+        - name: "setMode"
+          href: reference/microsoft-ciframework/setMode.md
+        - name: "getMode"
+          href: reference/microsoft-ciframework/getMode.md
       - name: "getEntityMetadata"
         href: reference/microsoft-ciframework/getEntityMetadata.md
-      - name: "setMode"
-        href: reference/microsoft-ciframework/setMode.md
-      - name: "getMode"
-        href: reference/microsoft-ciframework/getMode.md
       - name: "setClickToAct"
         href: reference/microsoft-ciframework/setClickToAct.md
       - name: "getClickToAct"
