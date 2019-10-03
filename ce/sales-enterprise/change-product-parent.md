@@ -16,8 +16,6 @@ manager: annbe
 
 # Change the parent of a product (reparenting)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 To organize your company's product catalog better, you may want to change the parent of an existing product record so the child products inherit the appropriate product properties. You can change the parent of an existing product, bundle, or family to a new parent or delete an existing parent.
 
 To change the parent of a product, bundle, or family, open the respective record, and in the **Parent** field, select the new parent record. To delete the parent, just remove the parent record from the **Parent** field.
