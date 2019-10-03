@@ -2,7 +2,7 @@
 title: "Manage social profiles in Social Engagement | Microsoft Docs"
 description: "Learn how to add, edit, share, or remove a social profile in Social Engagement."
 keywords: social profile, tokens, shared profile
-ms.date: 06/11/2019
+ms.date: 10/03/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -160,7 +160,7 @@ If you know the credentials to a social profile, you can claim ownership for it.
 
 ## Acquisition token status of social profiles
 
-- **Profiles for acquisition**: [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)], [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)], and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] require at least one valid access token to acquire data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](manage-access-tokens.md)
+- **Profiles for acquisition**: [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], [!INCLUDE[tn_instagram](../includes/tn-instagram.md)], and [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)] require at least one valid access token to acquire data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](manage-access-tokens.md)
 
 - **Profiles for private messages acquisition**: You can acquire private messages from your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] accounts if you have at least one valid access token. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](manage-access-tokens.md)
 
