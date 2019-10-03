@@ -239,7 +239,7 @@
 ##### [lcw:error](developer/reference/events/lcw-error.md)
 #### [Error code reference](developer/reference/error-code-reference.md)
 ### Action Reference
-#### [ApplyRoutingRule](developer/reference/actions/msdyn_ApplyRoutingRuleEntityRecord.md)
+#### [msdyn_ApplyRoutingRuleEntityRecord](developer/reference/actions/msdyn_ApplyRoutingRuleEntityRecord.md)
 ## Troubleshooting, readme, and FAQs
 ### [Readme](omnichannel-readme.md)
 ### [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)

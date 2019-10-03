@@ -13,7 +13,7 @@ manager: "shujoshi"
 ---
 # msdyn_ApplyRoutingRuleEntityRecord Action Reference
 
-Applies the active routing rule to an incident.
+Applies the active routing rule to an entity.
 
 **Owning Solution**: Microsoft.Dynamics.CRM.System
 
@@ -35,8 +35,4 @@ This action has no return value.
 
 ## Entities
 
-Use the ApplyRoutingRule action with this entity type.
-
-| Type | Display name | Description |
-|-----|-----|-----|
-| Microsoft.Dynamics.CRM.incident | Case | Service request case associated with a contract. |
+This action will apply to entities which have Routing Rule set to active.
