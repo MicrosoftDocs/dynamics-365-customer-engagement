@@ -1,6 +1,6 @@
 ---
-title: "ApplyRoutingRule Action Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Reference information about the Dynamics 365 for Customer Engagement apps ApplyRoutingRule Action."
+title: "msdyn_ApplyRoutingRuleEntityRecord Action Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "Reference information about the msdyn_ApplyRoutingRuleEntityRecord Action."
 ms.date: 10/03/2019
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -11,7 +11,7 @@ author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
 ---
-# msdyn_analytics Entity Reference
+# msdyn_ApplyRoutingRuleEntityRecord Action Reference
 
 Applies the active routing rule to an incident.
 
