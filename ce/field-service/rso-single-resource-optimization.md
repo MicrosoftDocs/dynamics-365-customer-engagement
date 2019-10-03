@@ -21,6 +21,42 @@ search.app:
 
 # Single resource optimization
 
+How and when Resource Scheduling Optimization (RSO) runs is flexible based on your organization's scheduling needs. RSO can generally be run manually, based on a schedule, or triggered from a workflow; and every run can optimize a specific set of resources, requirements, and bookings that are defined with system views.
+
+Common scenarios include:
+
+- Manual Run  
+- Overnight scheduling
+- **Single resource optimization**
+- Intraday scheduling
+- Condition based workflow action (CreateScheduledOptimizationRequest)
+- Simulation 
+
+When it comes to adopting Resource Scheduling tools there is a recommended progression from manual to fully automatic, see the topic on [The 5 stages of scheduling adoption](./5-stages-scheduling-adoption.md).
+
+In this article let's explore Single resource optimization (SRO) and understand why an organization may choose to optimize work orders this way and how to configure it.
+
+Single resource optimization provides a quick way to re-optimize a resource's schedule and travel route after schedule changes and cancellations have occurred during the day. 
+
+This is helpful for when a resource:
+
+1. has a gap in his or her schedule due to a cancellation
+2. is double booked because an emergency work order was assigned
+3. is running late due to traffic or previous work
+4. has a schedule that was put together manually and wants a travel route with minimal travel
+   
+
+If there is a scenario where an individual resource's schedule needs to be re-optimized, a dispatcher can manuallly run single resource optimization or it can even be triggered via a workflow. Unlike other RSO scenarios, **SRO cannot be run via a schedule**.
+
+ means RSO runs each night at a defined time and schedules jobs (e.g. work orders) for the next day. The next morning, a dispatcher arrives to work to find a fully optimized schedule board for that day where jobs are scheduled to the appropriate resources based on skills, promised time windows, preferred resources, roles, and more. For the rest of the day, RSO will not run and the dispatcher will make changes as needed with manual scheduling or the schedule assistant to deal with delays, cancellations, and special customer requests. Overnight scheduling allows RSO to handle the bulk of scheduling to save time while still relying on the expertise of dispatchers who know the work to be done and the resources. 
+
+Setting up this RSO scenario as well as other scenarios involves creating a scope, goal, and schedule. To learn more about these three components of RSO, see the topic on [RSO configuration](./rso-configuration.md).
+
+
+
+
+
+
 The single resource optimization capability provides a quick way to re-optimize a resource's schedule and travel route after schedule changes and cancellations have occurred during the day. For example, re-optimizing a resource's schedule corrects overlapping bookings when the resource is assigned an emergency work order, or arrives at a customer location late due to traffic.
 
 There are two ways to use the schedule board to optimize the schedule for a single resource:
