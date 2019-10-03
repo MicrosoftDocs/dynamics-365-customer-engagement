@@ -26,11 +26,11 @@ ms.custom:
 
 ## Set up skills
 
-As an administrator, to create skills, you need at least one skill type in the system. For example, To add **Spanish** as a skill, you need a skill type called **Language**. You must first create a skill type and then create skills.
+As an administrator, to create skills, you need at least one skill type in the system. For example, to add **Spanish** as a skill, you need a skill type called **Language**. You must first create a skill type and then create skills.
 
-### Create Skill type
+### Create skill type
 
-1. Sign in to Common Data Service platform as an administrator.
+1. Sign in to the Common Data Service platform as an administrator.
 
 2. Select **Settings** > **Customizations** >  **Customize the System**.
 
@@ -51,21 +51,21 @@ As an administrator, to create skills, you need at least one skill type in the s
 
 ### Create skills
 
-After you create skill type, you can create skills.
+After you create a skill-type, you can create skills.
 
 1. Sign in to the Omnichannel Administration app.
 
-2. Select **Skills** in under **Users & Queues** in the sitemap.
+2. Select **Skills** under **Users & Queues** in the sitemap.
 
 3. Select **+ New**.
 
 4. Specify the following in the **New Skill** page.
 
-    | Field | Description  | Example Value |
+    | Field | Description  | Example value |
     |-----------|---------------------|------------------------------|
     | Name | Specify the name of the skill. | Spanish <br> **Note:** <br> The name must be unique. |    
     | Type | Select a skill type from the drop-down list. | Language |
-    | Description | Provide a description about the skill. | This record is used to define skill level of spanish language. |
+    | Description | Provide a description of the skill. | This record is used to define the skill level of the Spanish language. |
 
 5. Select **Save**. 
 
@@ -75,7 +75,7 @@ After you save, the **Agents** section appears. In this section, you add the age
 
 1. Sign in to the **Omnichannel Administration** app.
 
-2. Select **Skills** in under **Users & Queues** in the sitemap.
+2. Select **Skills** under **Users & Queues** in the sitemap.
 
 3. Select a skill from the list for which you want to assign the agents.
 
@@ -90,7 +90,7 @@ After you save, the **Agents** section appears. In this section, you add the age
     > [!div class=mx-imgBorder] 
     > ![Assign agents to skill](../media/assign-user-skill.png "Assign agents to skill")
 
-8. Repeat the steps 4 through 7 to add more agents to the skill.
+8. Repeat steps 4 through 7 to add more agents to the skill.
 
 9. Select **Save** to save the skill.
 
@@ -98,9 +98,9 @@ Alternatively, you can also add a skill to the user (agent). To learn more, see 
 
 ## See also
 
-[Overview of skill based routing](overview-skill-work-distribution.md)
+[Overview of skill-based routing](overview-skill-work-distribution.md)
 
-[Enable skill based routing and create rating model](enable-skill-routing-create-rating-model.md)
+[Enable skill-based routing and create rating model](enable-skill-routing-create-rating-model.md)
 
 [Attach skills to conversation](attach-skills.md)
 
