@@ -128,7 +128,7 @@ Requires Field Service application version 8.0 or higher.
    
 ### Run after making edits
 
-Run single resource optimization but edit the goal and time range first. One benefit of editing the time range and extending it to second day is SRO may take jobs from the next day and fit them in the first day if time is available. 
+Run SRO but edit the goal and time range first. One benefit of editing the time range and extending it to second day is SRO may take jobs from the next day and fit them in the first day if time is available. 
 
 Click a resource's name to select it, then go to the Optimization side pane.
 
@@ -148,19 +148,22 @@ Click a resource's name to select it, then go to the Optimization side pane.
   
 ### Run as simulation 
 
-- **Run Simulation** runs the optimization and schedules simulated bookings shown as white. Apply or discard simulation results. Note that simulated bookings don't show on maps with routes.
-
-- Optimization panel showing optimization request status.
+Runs SRO and displays simulated bookings shown as white. Users then have the option to Apply or discard simulation results. 
 
   > [!div class="mx-imgBorder"]
   > ![Screenshot of running single resource optimization with simulation mode](media/rso-single-resource-5.png)
 
+  4. Similar to previous example, except select **Run as Simulation**.
+  5. Go to the Optimization Request to Apply or Discard simulation results.
+
+> [!Note]
+> Simulated bookings don't show on maps with routes.
 
 ## Additional notes
 
 - A default goal is required for single resource optimization to work. A default goal is automatically created when deploying the optimization.
 - Single resource optimization only re-optimizes current bookings and does not create new bookings.
-- Single resource optimization can re-optimize bookings that were booked manually, booked via resource availability search, or booked from location agnostic requirements.
+- Single resource optimization can re-optimize bookings that were booked manually, booked via resource availability search, or booked for location agnostic requirements.
 - This capability appears on the schedule board for all resources as long as optimization is deployed in the environment. However, single resource optimization only works if **Optimize Schedules** is set to **Yes** for the bookable resource. The single resource optimization capability can't be disabled or hidden.
 
 
