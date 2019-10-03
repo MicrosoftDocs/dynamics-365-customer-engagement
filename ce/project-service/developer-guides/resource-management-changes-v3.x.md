@@ -1,6 +1,6 @@
 ---
 title: Resource management changes (Project Service Automation 3.x)
-description: This topic provides information about the changes to the Resource management area in Microsoft Dynamics 365 Project Service Automation (PSA) 3.x.
+description: This topic provides information about the changes to the Resource management area.
 author: makk
 manager: kfend
 ms.custom:
@@ -20,7 +20,7 @@ search.app:
 
 # Resource management changes (Project Service Automation 3.x)
 
-The sections of this topic provide information about the changes that have been made to the Resource management area of Microsoft Dynamics 365 Project Service Automation (PSA) version 3.x.
+The sections of this topic provide information about the changes that have been made to the Resource management area of Dynamics 365 Project Service Automation version 3.x.
 
 ## Project estimates
 

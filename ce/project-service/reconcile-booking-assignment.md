@@ -1,6 +1,6 @@
 ---
 title: Reconcile bookings and assignments
-description: This topic provides information about actuals in Dynamics 365 Project Service Automation (PSA). 
+description: This topic provides information about actuals. 
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -27,7 +27,7 @@ search.app:
 
 A project team member's project bookings and project task assignments are loosely coupled. Therefore, a resource can have task assignments that don't correspond to bookings and bookings that don't correspond to task assignments. Ideally, project bookings and assignments are aligned, so that resources have committed capacity to perform their task assignments. However, the reality is that bookings can occur based on availability, and task timings can change as the project continues through its lifecycle. Therefore, the loose coupling allows for flexibility.
 
-Because of the loose coupling of project bookings and task assignments, Microsoft Dynamics 365 Project Service Automation (PSA) includes a **Reconciliation** tab on the Project entity. This tab helps project managers reconcile team members' bookings and their assignments for their project team.
+Because of the loose coupling of project bookings and task assignments, a **Reconciliation** tab is included on the Project entity. This tab helps project managers reconcile team members' bookings and their assignments for their project team.
 
 For each named team member, the **Reconciliation** tab shows bookings and assignments down to the individual task assignment. It shows hours in cells that can represent periods from months down to days.
 

@@ -34,7 +34,7 @@ However, it is also possible to control this by URL path prefix (see the descrip
 
 ## Manage websites
 
-Websites can be created, edited, and deleted within Dynamics 365. 
+Websites can be created, edited, and deleted within Dynamics 365 Portals. 
 
 > [!WARNING]
 > When deleting a website record, the portal entities related to the website (web pages, web files, etc.) will also be deleted. This is generally the desired behavior, as it means an entire website and all its related data can be removed from a organization in a single operation.

@@ -1,5 +1,6 @@
 ---
 
+
 title: Resource bookings and how they relate to task assignments
 description: This topic provides information about how to manage named resources, resource bookings and task assignments and how they relate to each other.
 author: ruhercul   

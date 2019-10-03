@@ -1,5 +1,5 @@
 ---
-title: "View email records in a portal timeline in Dynamics 365 | MicrosoftDocs"
+title: "View email records in a portal timeline | MicrosoftDocs"
 description: "Instructions to view email records in a portal."
 ms.custom: 
   - dyn365-portal
