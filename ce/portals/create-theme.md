@@ -73,4 +73,4 @@ Along with a customized version of [!INCLUDE[tn-bootstrap](../includes/tn-bootst
 ### See also
 
 [Engage with communities by using the community portal](engage-with-communities.md)  
-[Configure a Dynamics 365 Portals](configure-portal.md)  
+[Configure a portal](configure-portal.md)  

@@ -46,4 +46,5 @@ Tracking your competitors and their strengths and weaknesses can help you win sa
 
 
 ### See also  
-[Competitor Win Loss report](../basics/sales-insights-reports.md#BKMK_CompetitorWinLoss)
+
+[Competitor Win Loss report](../customer-engagement/on-premises/basics/sales-insights-reports.md#BKMK_CompetitorWinLoss)

@@ -3,8 +3,10 @@ title: "Qualify a lead (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
 keywords: "lead, budget, purchase process, decision maker, opportunity"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 ms.assetid: 476a1284-61e5-4eb2-9bd4-b95d111cf82e
 author: shubhadaj
@@ -21,11 +23,6 @@ Your system administrator defines what happens to a lead when it is qualified:
 -  If your system administrator has set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to **No**, you’ll be prompted to choose what records to create when the lead is qualified (account, contact, or opportunity). 
 -  If they’ve set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to Yes, an account, contact, and opportunity record is created when the lead is qualified.
 
-
-> [!IMPORTANT]
-> - The capability to choose which records to create when a lead is qualified is a preview feature. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
-> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
-  
 
 ## Qualify a lead (Sales Hub)
 

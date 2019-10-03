@@ -365,7 +365,7 @@ The process of adding a relying party trust in [!include[](../includes/pn-adfs-s
 
 .SYNOPSIS
 
-Adds a SAML 2.0 relying party trust entry for a Dynamics 365 Portals website.
+Adds a SAML 2.0 relying party trust entry for a website.
 
 .PARAMETER domain
 
@@ -462,7 +462,7 @@ Add-CrmRelyingPartyTrust $domain
 
 ### See also
 
-[Configure Dynamics 365 Portals authentication](configure-portal-authentication.md)  
+[Configure portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  

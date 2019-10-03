@@ -8,8 +8,6 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 2e4db92a-515b-4976-875a-d97d88af081f
 caps.latest.revision: 4
 author: jimholtz
@@ -23,7 +21,7 @@ search.app:
 ---
 # Manage Support instances
 
-A Support instance is any non-Production instance of Dynamics 365 apps used by Microsoft Support to reproduce and resolve customer issues. When there is an issue affecting the operation of your online service, Microsoft can create a Support instance in your tenant to troubleshoot and repair the issue.  It is isolated from your Production instance so it does not impact your business operations. System admins have full control of managing and providing organization data by [copying it](copy-instance.md) to a Support instance. 
+A Support instance is any non-Production instance of Common Data Service used by Microsoft Support to reproduce and resolve customer issues. When there is an issue affecting the operation of your online service, Microsoft can create a Support instance in your tenant to troubleshoot and repair the issue.  It is isolated from your Production instance so it does not impact your business operations. System admins have full control of managing and providing organization data by [copying it](copy-instance.md) to a Support instance. 
 
 **What is a Support instance?**
 

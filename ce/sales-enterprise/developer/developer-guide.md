@@ -1,10 +1,12 @@
 ---
 title: "Developer Guide for Dynamics 365 Sales | MicrosoftDocs"
 description: "Contains topics that describe how developers can work with Dynamics 365 Sales"
-keywords: sales, developer guide
+keywords: "sales, developer guide"
 ms.date: 04/08/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: get-started-article
 ms.assetid: b16a9d08-e24a-4b60-9dcc-6803cea4882e
 author: susikka
@@ -12,11 +14,14 @@ ms.author: susikka
 manager: shujoshi
 caps.latest.revision: 5
 ---
+
 # Developer Guide for Dynamics 365 Sales
 
-Welcome to the Dynamics 365 Sales Developer Guide. This documentation is for version 9.x.
+Welcome to the Dynamics 365 Sales Developer Guide. 
 
-<!--note from editor:  The formatting looks off here--bullets should be indented under the headings--but I haven't been able to fix.  -->
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-app-definition-sales-dev](../../includes/cc-app-definition-sales-dev.md)]c
 
 <br />
 <table>

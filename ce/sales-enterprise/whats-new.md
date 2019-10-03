@@ -3,7 +3,8 @@ title: "What's new in Dynamics 365 Sales | MicrosoftDocs"
 description: "Learn about what's new in the latest release of Dynamics 365 Sales."
 keywords: "what's new, Dynamics 365 Sales"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
+ms.service:
+  - "dynamics-365-sales"
 ms.topic: article
 ms.assetid: a87d5f37-892f-43a8-97b2-151037132f72
 author: shubhadaj
@@ -14,6 +15,10 @@ manager: annbe
 # What's new in Dynamics 365 Sales
 
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! Visit this page to see what’s added or updated recently. 
+
+## Dynamics 365 Sales, October 2019 release
+
+All the features that were released for public preview or early access in August 2019 will be generally available beginning October 1, 2019. More information: [What's new and planned](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-sales/planned-features)
 
 
 ## Dynamics 365 Sales, August 2019 release
@@ -79,9 +84,3 @@ Sales managers and sales people can use forecasting to project how much a sales 
 -  **View hierarchical data**: With Dynamics 365 Sales, Spring 2018, you can see how info is related or grouped by viewing accounts, products, or users in hierarchical charts in the Sales Hub app. You can click a tile in the chart to get the full details and then navigate to the info you’re interested in. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [See relationships in a hierarchical view](../basics/hierarchical-relationship.md)
 
 -  **Sales app is built on the Unified Interface framework for consistent user experience**: The new Sales Hub app delivers a consistent, uniform user interface and follows responsive design principles for optimal viewing on any screen size or device. Entities used in the sales process, including products, goals, and sales literature, run on this responsive platform and conform to common data model standards. 
-
-
-## Embedded intelligence
-
-- **Preview: Assistant**: The new redesigned assistant administration helps the administrator or sales manager create custom insight cards, prioritize cards, optimize card ranking, and assign cards to user roles for your Dynamics 365 Sales organization. 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Preview: Manage insight cards](../sales-enterprise/manage-custom-cards-flow.md).
