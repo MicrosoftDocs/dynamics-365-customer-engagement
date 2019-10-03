@@ -2,7 +2,7 @@
 title: "Analytics for conversations in Social Engagement | Microsoft Docs"
 description: "Learn how to focus your analysis on conversations in Social Engagement."
 keywords: analytics, conversation, phrases, fans, critics
-ms.date: 06/11/2019
+ms.date: 10/03/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -36,7 +36,7 @@ In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.
 
 Lists the most popular hashtags in the content of posts in your current data set. 
 
-Dynamic widget. Shows only if hashtags are found in posts. Hashtags are available for Twitter, Instagram, and YouTube.
+Dynamic widget. Shows only if hashtags are found in posts. Hashtags are available for  Instagram and YouTube.
 
 ## Intentions
 
@@ -45,12 +45,6 @@ Lists the number and distribution of intentions (or intention tags) that were as
 ## Languages
 
 Lists the five most-used languages based on the volume of posts and the trend indicator.
-
-## Mentions
-
-Shows mentioned authors on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] that were found most often in posts in your current data set. 
-
-Dynamic widget. Shows only if the current data set contains [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] posts that mention an author in the post contents. 
 
 ## Phrases
 
