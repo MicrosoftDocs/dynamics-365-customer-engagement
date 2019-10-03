@@ -21,7 +21,7 @@ search.app:
 ---
 # Product reports
 
-Dynamics 365 Customer Engagement (on-premises) includes many system reports that you can use to gain insights into how your business is doing. The product reports provides insights into your product catalog. 
+Dynamics 365 Customer Engagement (on-premises) includes many system reports that you can use to gain insights into how your business is doing. The product reports provides information on your product catalog. 
 
 
 ## Products by Account report
