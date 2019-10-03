@@ -36,11 +36,7 @@ The chargeable utilization calculation works as follows:
 
 The cells represent the calculated chargeable utilization for the selected period (days, weeks, or months).
 
-The colors in each cell show the chargeable utilization for a resource as compared to their target chargeable utilization. The colors show the following status:
-
-- **Green:** Chargeable actual hours >= Resource target utilization
-- **Yellow:** Chargeable actual hours = 20 - Target utilization 
-- **Red:** Chargeable hours <= 20
+The colors in each cell show the chargeable utilization for a resource as compared to their target chargeable utilization. 
 
 The target utilization can be set on the resource’s default role or on the individual resource itself. The calculation looks at the individual for the target first, and then to the resource’s default role.
 
