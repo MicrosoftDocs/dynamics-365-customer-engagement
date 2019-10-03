@@ -36,6 +36,9 @@ When it comes to adopting Resource Scheduling tools there is a recommended progr
 
 In this article let's explore Single resource optimization (SRO) and understand why an organization may choose to optimize work orders this way and how to configure it.
 
+ > [!div class="mx-imgBorder"]
+  > ![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-1.png)
+
 Single resource optimization provides a quick way to re-optimize a resource's schedule and travel route after schedule changes have occurred during the day. 
 
 This is helpful for when a resource:
@@ -167,5 +170,3 @@ Runs SRO and displays simulated bookings shown as white. Users then have the opt
 - This capability appears on the schedule board for all resources as long as optimization is deployed in the environment. However, single resource optimization only works if **Optimize Schedules** is set to **Yes** for the bookable resource. The single resource optimization capability can't be disabled or hidden.
 
 
- > [!div class="mx-imgBorder"]
-  > ![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-1.png)
