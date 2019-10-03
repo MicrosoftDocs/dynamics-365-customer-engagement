@@ -182,13 +182,13 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
   
 -   Create two action calls for setting a custom theme: one for the *normal* mode and the other for the *high-contrast* mode. For example, while defining the color property of a XAML brush, use:  
   
-    -   One of the predefined colors as defined in the [Colors](https://msdn.microsoft.com/en-us/library/system.windows.media.colors\(v=vs.110\).aspx) class for the *normal* mode:  
+    -   One of the predefined colors as defined in the [Colors](https://msdn.microsoft.com/library/system.windows.media.colors\(v=vs.110\).aspx) class for the *normal* mode:  
   
         ```  
         <SolidColorBrush x:Key="WindowBackgroundStyle" Color="Yellow"/>  
         ```  
   
-    -   One of the system colors as defined in the [SystemColors](https://msdn.microsoft.com/en-us/library/system.windows.systemcolors.windowcolor\(v=vs.110\).aspx) class for the *high-contrast* mode:  
+    -   One of the system colors as defined in the [SystemColors](https://msdn.microsoft.com/library/system.windows.systemcolors.windowcolor\(v=vs.110\).aspx) class for the *high-contrast* mode:  
   
         ```  
         <SolidColorBrush x:Key="WindowBackgroundStyle" Color="{x:Static SystemColors.WindowColor}"/>  

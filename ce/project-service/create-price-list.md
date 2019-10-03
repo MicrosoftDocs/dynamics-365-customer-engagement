@@ -1,5 +1,5 @@
 ---
-title: Create a price list (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Create a price list 
 description: How to create a price list in Project Service
 author: rumant
 manager: kfend

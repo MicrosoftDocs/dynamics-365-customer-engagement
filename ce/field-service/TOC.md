@@ -82,7 +82,7 @@
 ## [Push notifications](mobile-push-notifications.md)
 ## [Geofencing](geofencing.md)
 ## [Activate mobile configurator](activate-fs-mobile-app-license.md)
-## [Mixed reality integration with Remote Assist and HoloLens](remote-assist-hololens.md)
+## [Mixed reality integration with Dynamics 365 Remote Assist and HoloLens](remote-assist-hololens.md)
 ## FAQs + troubleshooting
 ### [How do I extend my mobile configuration tool trial?](activate-fs-mobile-app-license.md)
 ### [What is the latest version of the mobile app and configuration tool?](mobile-faq-latest-version.md)

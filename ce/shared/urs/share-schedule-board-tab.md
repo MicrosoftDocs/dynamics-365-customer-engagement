@@ -17,7 +17,9 @@ In this topic, we'll explore creating a new schedule board tab and sharing it wi
 
 ## Instructions
 
-First, go to **Field Service > Schedule Board** and select the **+** in the top right to create a new tab.
+First we will walk through how to create a public and private schedule board tab, but then focus on sharing one with specific people.
+
+Go to **Field Service > Schedule Board** and select the **+** in the top right to create a new tab.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of creating a new schedule board tab](../../field-service/media/schedule-board-create-tab.png)
@@ -33,9 +35,22 @@ Select **Specific People**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of assigning a shared with option](../../field-service/media/schedule-board-shared-with.png)
 
-To assign or share the schedule board tab to specific people, you'll need to go to the record. All schedule board tabs are saved as records in the **Schedule Board Settings** entity.
+Selecting **Everyone** will expose the schedule board tab to all users who can access the schedule board. Selecting **Just Me** will expose the schedule board to only the user who creates it.
 
-Go to **Advanced Find** and look for **Schedule Board Settings**, then select Results.
+Next, give appropriate security access to the users you want to share the schedule board tab with.
+
+Go to **Settings** > **Security** and make sure each user has at least minimum user access to the **Schedule Board Settings** entity as seen in the following screenshot. This can be achieved by manually editing the users' security role or by assigning the users a copy of the **Field Service - Resource** security role. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of security needed on schedule board settings entity to share a schedule board tab with a user](../../field-service/media/schedule-board-share-permissions-entity.png)
+
+> [!Note]
+> We recommend giving relevant users minimum security level privileges for read, write, and create. Then use the **Shared With** option (Everyone, Specific People, Just Me) on the schedule board tab settings to share appropriately. This is better than using the Dynamics 365 security model, as that could lead to oversharing. 
+
+Next you'll need to choose the specific users to share the schedule board tab with. 
+
+Go to **Advanced Find** and look for **Schedule Board Settings**, then select Results. All schedule board tabs are saved as records in the **Schedule Board Settings** entity.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of finding schedule board settings in advanced find](../../field-service/media/schedule-board-settings-advanced-find.png)

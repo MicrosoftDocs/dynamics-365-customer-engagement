@@ -1,10 +1,12 @@
 ---
-title: "Preview  Customize the opportunity Close form (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Customize the opportunity close experience in Dynaimcs 365 for Sales to enable sales reps to capture important details about why an opportunity was closed."
+title: "Customize the opportunity Close form (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Customize the opportunity close experience in Dynamics 365 Sales to enable sales reps to capture important details about why an opportunity was closed."
 keywords: "Opportunity, Close, Closing, Customization, dialog box, quick create, custom fields,"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 ms.assetid: 00b7d8fc-fc21-4c95-8e85-3d9ed19e828e
 author: shubhadaj
@@ -12,18 +14,11 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Preview: Customize the Opportunity Close form
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Customize the Opportunity Close form
 
 Enable sales managers to draw key insights based on the information the sales representatives fill in while closing an opportunity.
 
 System administrators or customizers can use the **Opportunity Close** quick create form to add custom fields, so that sales representatives can capture important details about why an opportunity was closed. Sales managers can use this data to know which products are doing well and develop a better strategy.
-
-> [!IMPORTANT]
-> - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
 
 ## What customizations are possible?
 

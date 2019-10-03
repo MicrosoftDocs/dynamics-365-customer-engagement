@@ -1,5 +1,5 @@
 ---
-title: "Download public key of Dynamics 365 Portals | MicrosoftDocs"
+title: "Download public key of a portal | MicrosoftDocs"
 description: "Learn how to download public key of a portal."
 ms.date: 12/03/2018
 ms.service: crm-online
@@ -21,7 +21,7 @@ search.app:
   - D365Portals
 ---
 
-# Download public key of portal
+# Download public key of a portal
 
 The public key of a portal is used to configure Live Assist for Dynamics 365 to work with authenticated visitors for a portal. [Live Assist](https://www.cafex.com/en/products/live-assist-dynamics-365/), by CafeX, provides a chat solution through which users can embed live chat assistance in their portal. More information on how to use the public key to embed a chat on a portal: [Authenticated Visitors in the Dynamics Customer Portal](https://www.liveassistfor365.com/en/support/authenticated-visitors-in-the-dynamics-customer-portal/)
 

@@ -28,7 +28,7 @@ search.app:
 
 # Types of Field Service scheduling capabilities  
 
-Dynamics 365 for Field Service includes a comprehensive set of scheduling capabilities. In this topic, we'll take a look at the different types of scheduling in Field Service, and how they are used.
+Dynamics 365 Field Service includes a comprehensive set of scheduling capabilities. In this topic, we'll take a look at the different types of scheduling in Field Service, and how they are used.
 
 ## Manual scheduling 
 

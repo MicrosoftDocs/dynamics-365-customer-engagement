@@ -35,13 +35,13 @@ Key benefits of Connected Field Service:
 
 There are two offerings you can use to connect IoT-enabled devices into the Field Service solution:
 - Connected Field Service for [**Azure IoT Central**](https://azure.microsoft.com/services/iot-central/)
-- Connected Field Service for [**Azure IoT Hub**](https://azure.microsoft.com/en-us/services/iot-hub/)
+- Connected Field Service for [**Azure IoT Hub**](https://azure.microsoft.com/services/iot-hub/)
 
 See below for the differences between the two offerings.
 
 ## Connected Field Service for Azure IoT Central
 
-Connected Field Service for IoT Central provides a direct integration of Dynamics 365 for Field Service with Microsoft Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. 
+Connected Field Service for IoT Central provides a direct integration of Dynamics 365 Field Service with Microsoft Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. 
 
 Microsoft Azure IoT Central enables builders to configure rules and actions. Based on those actions, IoT alerts will be created in Connected Field Service. Also, based on service activities in Connected Field Service, information can be sent back to IoT Central. This is accomplished by using Microsoft Flow, a SaaS offering for automating workflows across applications and services. 
 
@@ -72,8 +72,8 @@ All Azure IoT services run in your own Azure cloud subscription. Additionally, w
 - [Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
 
 ### See also  
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)    
- [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)    
+ [Install Dynamics 365 Field Service](../field-service/install-field-service.md)   
  [Configure default settings](../field-service/configure-default-settings.md)   
  [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)<br>
  [Field Service User Guide](../field-service/user-guide.md) 

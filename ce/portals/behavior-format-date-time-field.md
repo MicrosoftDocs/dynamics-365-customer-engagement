@@ -24,7 +24,7 @@ search.app:
 
 # Behavior and format of the date and time field
 
-In Microsoft Dynamics 365, the Date and Time data type is used in many system entity fields. For example, you can show when an account was last used in a marketing campaign, or show the date and time when a case was escalated. You can also create custom entities that include the date and time fields. Depending on what the field represents, you can choose one of the following field behaviors for portal forms and grids: 
+In Common Data Service, the Date and Time data type is used in many system entity fields. For example, you can show when an account was last used in a marketing campaign, or show the date and time when a case was escalated. You can also create custom entities that include the date and time fields. Depending on what the field represents, you can choose one of the following field behaviors for portal forms and grids: 
 - **User Local**: The field values are displayed in the user’s local time and formatted as per their current portal language/locale. The values are stored in UTC time zone format in Common Data Service. When a user in Common Data Service (or another portal user) in a different time zone views that value, they see it converted to their own time zone.
 - **Date Only**: The field values only contain the date and are displayed with no time zone conversion. The time portion of the value is always 12:00 AM. The value entered by one user is seen the same by other users in different time zones (for example, birth dates).
   
@@ -42,4 +42,4 @@ You can also override the default date/time format to be used on portals by crea
 - DateTime/DateTimeFormat: The format for full date and time used on the portal.
 
 By default, the portal uses the standard date/time formats specified by the website language settings.
-The accepted date/time formats are specified [here](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings).
+The accepted date/time formats are specified [here](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).

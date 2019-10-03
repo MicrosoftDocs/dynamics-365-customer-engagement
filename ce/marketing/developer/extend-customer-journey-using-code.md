@@ -34,7 +34,7 @@ When you extract the .zip file, you find three projects in it:
    - Validating and publishing the existing customer journey record.
 
 > [!NOTE]
-> You need to have access to Microsoft Dynamics 365 Marketing app. More information: [Install Dynamics 365 Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup).
+> You need to have access to Microsoft Dynamics 365 Marketing app. More information: [Install Dynamics 365 Marketing app](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup).
 
 ## How to run the sample
 

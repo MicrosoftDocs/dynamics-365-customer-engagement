@@ -85,13 +85,6 @@ Posts about knowledge article-related activities will begin appearing in the **T
 
 ## Create knowledge articles using templates
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../legal/dynamics-insider-agreement.md).
-
 Knowledge Authors can use the templates to create knowledge articles quickly and the fields for the knowledge article are pre-populated according to the selected template. To create knowledge articles using templates:
  
 1. Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the Knowledge Manager, Customer Service Manager, or Customer Service Representative role.  
@@ -453,7 +446,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 ### My knowledge Dashboard  
  This dashboard is designed for authors to give them a visual snapshot of the number and status of knowledge articles they’re working on. It helps them quickly know things like article expiring in the month and articles in review.  
   
- ![My Knowledge Dashboard for authors](../customer-service/media/v9-my-knowledge-dashboard.png "My Knowledge Dashboard for authors")  
+ ![My Knowledge Dashboard for authors](../customer-service/media/v9-my-knowledge-dashboard.PNG "My Knowledge Dashboard for authors")  
   
 -   **Streams** show data from views or queues. In the My Knowledge Dashboard, the stream shows the active articles assigned to the author.  
   
@@ -464,7 +457,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 ### Knowledge Manager  
  This dashboard is designed specifically for knowledge managers. As a knowledge manager, you can quickly know the most popular articles, articles that need review, highest-rated articles, or articles that are about to expire, and take necessary actions on the articles from here.  
   
- ![Dashboard for knowledge managers](../customer-service/media/v9-knowledge-manager-dashboard.png "Dashboard for knowledge managers")  
+ ![Dashboard for knowledge managers](../customer-service/media/v9-knowledge-manager-dashboard.PNG "Dashboard for knowledge managers")  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
 

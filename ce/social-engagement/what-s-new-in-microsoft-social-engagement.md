@@ -49,7 +49,7 @@ We've upgraded the Reach prediction to consider *who* is writing, *what* is bein
 
 ### Discontinuation of Microsoft Social Engagement and transition to Dynamics 365 Market Insights
 
-Dynamics 365 will focus on enabling businesses with artificial-intelligence-powered social and web insights rather than just social listening capabilities. Because of this, Microsoft Social Engagement will be discontinued. Combined capabilities and insights through social and web interactions powered by sources such as Bing search will be offered through [Microsoft Dynamics 365 Market Insights](https://dynamics.microsoft.com/en-us/ai/market-insights/). These social and web insights can help marketing, social media, and product teams understand what their customers and competitors are saying, seeking, and feeling.
+Dynamics 365 will focus on enabling businesses with artificial-intelligence-powered social and web insights rather than just social listening capabilities. Because of this, Microsoft Social Engagement will be discontinued. Combined capabilities and insights through social and web interactions powered by sources such as Bing search will be offered through [Microsoft Dynamics 365 Market Insights](https://dynamics.microsoft.com/ai/market-insights/). These social and web insights can help marketing, social media, and product teams understand what their customers and competitors are saying, seeking, and feeling.
 
 More information:
 - FAQ article - [Frequently asked questions about Microsoft Social Engagement service discontinuation](eol/discontinuation-faq.md)
@@ -140,7 +140,7 @@ On June 16, 2018, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement
 
 ### Disabling TLS 1.0 and TLS 1.1 in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
-The [Transport Layer Security (TLS) protocol](https://msdn.microsoft.com/en-us/library/windows/desktop/ms721627(v=vs.85).aspx#_security_transport_layer_security_protocol_gly) is most widely recognized as the protocol that provides secure HTTP (HTTPS) for connections between web browsers and web servers. The TLS 1.0 protocol version was defined in 1999. While no longer the default security protocol in use by modern operating systems, TLS 1.0 is still supported for backward compatibility. The same applies for TLS 1.1.
+The [Transport Layer Security (TLS) protocol](https://msdn.microsoft.com/library/windows/desktop/ms721627(v=vs.85).aspx#_security_transport_layer_security_protocol_gly) is most widely recognized as the protocol that provides secure HTTP (HTTPS) for connections between web browsers and web servers. The TLS 1.0 protocol version was defined in 1999. While no longer the default security protocol in use by modern operating systems, TLS 1.0 is still supported for backward compatibility. The same applies for TLS 1.1.
 
 [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will remove the support of TLS 1.0 and TLS 1.1 in order to align with [!INCLUDE [cc-microsoft](../includes/cc-microsoft.md)] compliance requirements and security best practices.
 
@@ -156,7 +156,7 @@ All major releases of browsers (Microsoft Edge, Internet Explorer, Firefox, Chro
 
 | Browser |  | Version| Remarks |
 |---------|---|--------|---------|
-|Microsoft Edge| equals or higher |12.10240| Compatible by [default](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/tls12/?q=TLS%201.2)|
+|Microsoft Edge| equals or higher |12.10240| Compatible by [default](https://developer.microsoft.com/microsoft-edge/platform/status/tls12/?q=TLS%201.2)|
 |Internet Explorer | | 11 | Enabled by default, Desktop & Mobile |
 |Firefox | equals or higher | 27 | [Release notes](http://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-US/firefox/27.0/releasenotes/?flang=es-MX), all operating systems  |
 |Chrome | equals or higher| 29 | [Details](https://bugs.chromium.org/p/chromium/issues/detail?id=90392#c28), all operating systems |

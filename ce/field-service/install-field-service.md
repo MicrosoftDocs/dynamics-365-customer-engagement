@@ -1,5 +1,5 @@
 ---
-title: "Install Dynamics 365 for Field Service (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Install Dynamics 365 Field Service (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
 ms.date: 2/15/2019
 ms.reviewer: krbjoran
@@ -19,9 +19,9 @@ search.app:
   - D365FS
 ---
 
-# How to install Dynamics 365 for Field Service
+# How to install Dynamics 365 Field Service
 
-This article describes how to install the Dynamics 365 for Field Service application for Dynamics 365 (online). It also includes steps to install the mobile solution, and describes how field technicians download and install the mobile app from their device's app store.
+This article describes how to install the Dynamics 365 Field Service application for Dynamics 365 (online). It also includes steps to install the mobile solution, and describes how field technicians download and install the mobile app from their device's app store.
 
 > [!Note]
 > Installations and upgrades of the Field Service application typically take 30 or more minutes.
@@ -42,7 +42,7 @@ You can add a trial or a purchased subscription of the Field Service application
 
 1. Using system administrator credentials, sign in to the Dynamics 365 organization.
 
-2. Go to **Settings > Microsoft AppSource**. Search for **field service trial**, select **Dynamics 365 for Field Service trial**, and then select **Free Trial**.
+2. Go to **Settings > Microsoft AppSource**. Search for **field service trial**, select **Dynamics 365 Field Service trial**, and then select **Free Trial**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service tile in AppSource](media/field-service-trial-appsource.png)
@@ -56,7 +56,7 @@ You can add a trial or a purchased subscription of the Field Service application
 ### Purchase a subscription of Field Service and add it to a Dynamics 365 organization
 
 1. On the **Office365 Admin Center** go to **Billing > Purchase Services**.
-2. Select **Dynamics 365 for Field Service Enterprise Edition**, and then select **Buy now**.
+2. Select **Dynamics 365 Field Service Enterprise Edition**, and then select **Buy now**.
 3. Follow the on-screen instructions to install the application. Installation may take several minutes.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of purchasing Field Service from Microsoft 365 admin center](media/field-service-purchase.png)
@@ -79,7 +79,7 @@ You can add a trial or a purchased subscription of the Field Service application
 > [!Note]
 > You will not be able to use the Field Service Mobile application with your Dynamics 365 organization until you have followed all of the steps below and set up users and [bookable resources enabled for mobile app access](set-up-bookable-resources.md).
 
-Dynamics 365 for Field Service provides the cross-platform, multi-device Field Service Mobile application that is specifically crafted to the field service worker's needs. The mobile application is entirely customizable and extensible, allowing any organization to brand the application as its own, define what types of data field service workers can access, and much more.
+Dynamics 365 Field Service provides the cross-platform, multi-device Field Service Mobile application that is specifically crafted to the field service worker's needs. The mobile application is entirely customizable and extensible, allowing any organization to brand the application as its own, define what types of data field service workers can access, and much more.
 
 To get the mobile app, download **Field Service Mobile** from the Windows, Apple, or Google Play app stores, or visit the following links. **Field Service Mobile** requires Field Service versions **7.5.5** and **8.2+**.
 
