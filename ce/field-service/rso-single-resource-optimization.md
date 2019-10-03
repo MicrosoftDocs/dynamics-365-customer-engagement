@@ -120,14 +120,18 @@ Requires Field Service application version 8.0 or higher.
 
 2. Yellow line indicates default optimization range, from now to the end of today (12 AM).
 3. Gray mask indicates default optimization range, from now to the end of today (12 AM).
-4. Optimization panel showing resource name, default range, default goal, and optimization request status. **Note:** Optimization side panel is only displayed in schedule board tabs created by RSO scopes.
+4. Optimization panel showing resource name, default range, default goal, and optimization request status. 
+
+> [!Note]
+> Optimization side panel is only displayed in schedule board tabs created by RSO scopes.
 
    
 ### Run after making edits
 
-Run single resource optimization but edit the goal and time range first. One benefit of editing the time range and extending it to second day is SRO may take jobs from the next day and fit them in the first day if time is avaialble. 
+Run single resource optimization but edit the goal and time range first. One benefit of editing the time range and extending it to second day is SRO may take jobs from the next day and fit them in the first day if time is available. 
 
-  **Note:** This capability is **only** available from the schedule board view associated with the optimization scope.
+> [!Note]
+> This capability is **only** available from the schedule board view associated with the optimization scope.
 
 1. Set the optimization range to the date and time.
 
