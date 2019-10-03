@@ -61,8 +61,10 @@ The agent then accepts the chat request and starts conversing with the customer 
 
 If your administrator or developer configures the **Additional details** tab and if there are additional context variables, such as time spent on a page and the page URL from where the chat is initiated, they are displayed on the **Additional details** tab. 
 
-To learn more, see [setContextProvider](../developer/reference/methods/setContextProvider.md).
-
 > [!div class=mx-imgBorder]
 > ![Proactive chat agent notification](../media/proactive-chat-addl-details.png "Proactive chat agent notification")
+
+To learn more, see [setContextProvider](../developer/reference/methods/setContextProvider.md).
+
+
 
