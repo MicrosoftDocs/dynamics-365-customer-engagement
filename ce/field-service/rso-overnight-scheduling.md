@@ -116,6 +116,8 @@ Go to **Resource Scheduling Optimization app > Optimization Schedules > +New**
 
 **Timer Mode**: Set to Fixed.
 
+**Valid From and To**: Enter the date range overnight scheduling is valid for. Outside of this date range, RSO will not be triggered, but can always be triggered manually with the **Run Now** button in the top ribbon.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-overnight-schedule-filter.png)
 
@@ -128,7 +130,7 @@ Then head to Filter panel and enter the following values to define when you want
 
 **Pro Tip:** If no values are entered in the Filter section, RSO will run according to the timer, in this example every 1 hour.
 
-**Save**
+**Save & Publish**
 
 At this point we are ready to run overnight scheduling with RSO. One option is to wait 
 > [!Note]
