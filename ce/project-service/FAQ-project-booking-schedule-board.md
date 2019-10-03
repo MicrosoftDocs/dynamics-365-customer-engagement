@@ -31,7 +31,7 @@ You can also book a resource onto a project directly from the Schedule board. Th
 
 - **Book from a generated resource requirement:** You can generate a resource requirement after you create a generic resource and assign tasks within a project.
 
-- **Book from the Primary Requirement:** The primary requirements show up on the Schedule board on the **Project** tab. 
+- **Book from the primary requirement:** The primary requirements show up on the Schedule board on the **Project** tab. 
 
 - **Book from a new resource requirement:** You can create a resource requirement from scratch and associate it with a project. On the Schedule board, the resource requirement shows up on the **Open Requirements** tab.
 
