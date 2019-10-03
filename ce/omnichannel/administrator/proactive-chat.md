@@ -39,6 +39,10 @@ The conditions to trigger the proactive chat are defined in the web page code in
 
 When proactive chat is enabled, the chat invitation is displayed to customers based on the configured triggers.
 
+
+<!--from editor: If possible, one sentence in the screenshot would read better if it said "Do you have any questions about home loans?"
+
+
 > [!div class=mx-imgBorder]
 > ![Proactive chat notification](../media/proactive-chat-invite.png "Proactive chat notification")
 
