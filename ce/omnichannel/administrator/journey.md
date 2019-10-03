@@ -31,7 +31,7 @@ The data that you track as recent actions are stored in an entity where it is pa
 
 ## Prerequisites
 
-- As an administrator, you need to enable the feature for the agents to see the **Journey** tab is displayed to the agents when in a session. To learn more, see [Enable visitor journey](journey.md#enable-visitor-journey)
+- As an administrator, you need to enable the feature for the agents to see the **Journey** tab is displayed to the agents when in a session. To learn more, see [Enable visitor journey](journey.md#enable-visitor-journey).
 - As a developer, you need to enable the visitor journey using the developer experience. To learn more, see [setContextProvider](../developer/reference/methods/setcontextprovider.md) and [msdyn_visitorjourney](../reference/entities/msdyn_visitorjourney.md#msdyn_type-options). 
 
 ## Enable visitor journey

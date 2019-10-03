@@ -64,19 +64,19 @@ The **Pre-chat survey** tab displays the survey answers against the questions th
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Journey** tab displays information on the path (recent actions) the customer took just before initiating a conversation. The information enables the agents to understand why a customer reached out and also to provide a personalized service with fast resolution and improved customer satisfaction. The **Journey** tab displays the information in the reverse chronological order, and is categorized into the following type of actions:
+The **Journey** tab displays information on the path (recent actions) the customer took just before initiating a conversation. The information enables the agents to understand the custmer intent and provide a personalized service with fast resolution for improved customer satisfaction. The **Journey** tab displays the information in the reverse chronological order, and is categorized into the following type of actions:
 
 | Action type | Description |
 |-------------|-----------------------------------|
 | Page visited | The page visited on the portal (website) along with the timestamp.|
 | Phrase searched | The keyword or phrase searched for, along with the timestamp. |
 | Knowledge article viewed | The knowledge article viewed along with the timestamp. |
-| Custom action performed | Any other custom action that are tracked by your organization as per your business requirements are displayed along with the timestamp. |
+| Custom action performed | Any other custom action that is tracked by your organization as per your business requirements are displayed along with the timestamp. |
 
    > [!div class='mx-imgBorder']
    > ![Journey tab](../../media/customer-summary-journey-tab.png "Journey tab")
 
-To learn more, see [Enable visitor journey](../../administrator/journey.md).
+To configure the journey tab, see [Enable visitor journey](../../administrator/journey.md).
 
 ### Visitor details
 
