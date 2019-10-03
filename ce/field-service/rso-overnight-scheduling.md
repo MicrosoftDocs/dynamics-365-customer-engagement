@@ -112,12 +112,25 @@ Go to **Resource Scheduling Optimization app > Optimization Schedules > +New**
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-overnight-schedule.png)
 
-Timer: Set to 1 hour. This means every hour RSO will check the filter panel to see if it should run.
+**Timer**: Set to 1 hour. This means every hour RSO will check the filter panel to see if it should run.
 
-Timer Mode: Set to Fixed.
+**Timer Mode**: Set to Fixed.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-overnight-schedule-filter.png)
 
+Then head to Filter panel and enter the following values to define when you want RSO to run:
+1. Time Zone: enter the time zone of your resources in the scope
+2. Hours: enter **12AM** or similar time during the night. 
+3. Days of the week: enter days of business operations. Example: Monday - Friday. 
+
+**How Does it work?** Based on the timer, RSO will check the filter panel and run if there is a matching value. In this example, every 1 hour RSO will check to see if the hour of the day is 12am and the day of the week is Monday through Friday. 
+
+**Pro Tip:** If no values are entered in the Filter section, RSO will run according to the timer, in this example every 1 hour.
+
+**Save**
+
+At this point we are ready to run overnight scheduling with RSO. One option is to wait 
 > [!Note]
 > can test with run now button 
 
