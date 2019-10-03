@@ -19,6 +19,8 @@ manager: shujoshi
 
 [!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
+[!include[applies-to-v2](../../includes/applies-to-v2.md)]
+
 Sets the session title, if the session belongs to the channel provider.
 
 ## Syntax
