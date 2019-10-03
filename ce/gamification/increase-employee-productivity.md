@@ -29,7 +29,7 @@ search.app:
 
 Driving results is a key factor for a successful business. [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] helps you to keep your employees engaged and motivated to deliver their best performance.
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/2ab672e9-e374-4c76-b662-003fa68dfa59" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/2ab672e9-e374-4c76-b662-003fa68dfa59" frameborder="0" allowfullscreen=""></iframe></div>
 
 Everyone can participate in contests, regardless of their role in the company. Participants can win awards, prizes, and bragging rights, which are helpful external motivators to drive their impact on business results. When you make teams, you create healthy competition among colleagues and foster team spirit.  
 

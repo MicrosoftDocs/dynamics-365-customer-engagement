@@ -1,6 +1,6 @@
 ---
-title: Use sites to manage your service locations (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to use sites to manage your service locations in Dynamics 365 for Customer Service
+title: Use sites to manage your service locations (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Know how to use sites to manage your service locations in Dynamics 365 Customer Service
 author: anjgupta
 ms.author: anjgup
 manager: shellyha
@@ -23,7 +23,7 @@ search.app:
 Create sites to define the locations where you provide service to your customers. When you’re scheduling resources, you can define which resources will work on which site.
 
 > [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   

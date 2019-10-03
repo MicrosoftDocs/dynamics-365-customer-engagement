@@ -1,5 +1,5 @@
 ---
-title: "Turn on auto geocoding (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Turn on auto geocoding (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -70,7 +70,7 @@ With Dynamics 365 for [!INCLUDE[pn_field_service](../includes/pn-field-service.m
 4. On the map dialog box, make sure you have the correct address, and then click **Change**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with accounts and contacts](../basics/accounts-contacts.md)  
   
 ### See also   
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Install](../field-service/install-field-service.md)   
  [Configure default settings](../field-service/configure-default-settings.md)   
  [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)<br>

@@ -1,5 +1,5 @@
 ---
-title: "Sample data installation (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Sample data installation (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
 ms.date: 09/28/2018
 ms.reviewer: 
@@ -187,7 +187,7 @@ There are a number of other configuration components in this pre-import configur
 
 - **\<RequiredSolutions\>** specifies prerequisite solution installations and their version numbers.
 
-- **\<InstallSampleData\>** controls whether out-of-the-box sample data for the Dynamics 365 for Sales and Service apps is installed.
+- **\<InstallSampleData\>** controls whether out-of-the-box sample data for the Dynamics 365 Sales and Service apps is installed.
 
     - false - skips installation of this built-in data (which is removable).
 

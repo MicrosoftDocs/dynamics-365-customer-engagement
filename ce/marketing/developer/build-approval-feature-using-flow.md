@@ -30,7 +30,7 @@ By integrating your approvals feature with Microsoft Flow, you can implement fea
 
 To set up an approval workflow in Microsoft Flow:
 
-1. Sign in to [Microsoft Flow](https://flow.microsoft.com/en-us/) with your Dynamics 365 Marketing credentials.
+1. Sign in to [Microsoft Flow](https://flow.microsoft.com/) with your Dynamics 365 Marketing credentials.
 1. Select the **Solutions** tab from the left pane and then from the list of available solutions, select **Sample Approval**. 
 1. Select **New** and then select **Flow**.
 1. Enter the **Flow Name** in the upper left corner, select the **Triggers** tab, search for **When a record is updated**, and then select it.

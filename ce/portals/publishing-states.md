@@ -29,9 +29,9 @@ Publishing states can be used with [web pages](web-page.md), [web files](web-fil
 
 By default, two publishing states are available: Draft and Published. Draft specifies content that should not be visible to non-content-author users, while Published specifies content that should be visible to all portal users (barring other security restrictions). You can modify the default configuration to meet your specific requirements, if desired – by adding new states or renaming states.
 
-## Manage publishing states in Dynamics 365
+## Manage publishing states
 
-Publishing states can be created, edited, and deleted within Dynamics 365.
+Publishing states can be created, edited, and deleted within Dynamics 365 Portals.
 
 1. Sign in to Dynamics 365 Portals.
 
@@ -53,11 +53,11 @@ You can also manage publish states under the **Publishing States** section on th
 
 ![Manage publishing states](media/publishing-states.png "Manage publishing states") 
 
-## Manage publishing states on a portal
+## Manage publishing states from the portal content editor
 
-While publishing states and their attributes must be managed within Dynamics 365, portal users with content management permissions can control the state of certain entities (such as web pages and web files) through the portal front-side editing interface.
+While publishing states and their attributes must be managed within Dynamics 365 Portals, portal users with content management permissions can control the state of certain entities (such as web pages and web files) through the portal content editing interface.
 
-![Select publishing state on a portal](media/publishing-states-portal.png "Select publishing state on a portal")
+![Select publishing state](media/publishing-states-portal.png "Select publishing state")
 
 ### Publishing state attributes
 

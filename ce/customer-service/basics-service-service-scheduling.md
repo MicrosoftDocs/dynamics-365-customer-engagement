@@ -150,9 +150,9 @@ Let's see how Contoso accomplishes the task:
 
 The set up experience is different based on the following scenarios:
 
-- For a new Dynamics 365 for Customer Service environment, by default, the **Core Service Scheduling** solutions will be installed. You can access scheduling from Customer service hub app site map. To learn more, see [Access scheduling in the Customer Service Hub](#access-scheduling-in-the-customer-service-hub).
+- For a new Dynamics 365 Customer Service environment, by default, the **Core Service Scheduling** solutions will be installed. You can access scheduling from Customer service hub app site map. To learn more, see [Access scheduling in the Customer Service Hub](#access-scheduling-in-the-customer-service-hub).
 
-- For an existing Dynamics 365 for Customer Service organization, you must install the service scheduling solutions from the Microsoft 365 admin center. To learn more, see [Install the Scheduling solutions](#install-the-scheduling-solutions).
+- For an existing Dynamics 365 Customer Service organization, you must install the service scheduling solutions from the Microsoft 365 admin center. To learn more, see [Install the Scheduling solutions](#install-the-scheduling-solutions).
 
 > [!IMPORTANT]
 > Once you have the new service scheduling available in your org, the legacy scheduling experience in Customer Service app (based on web application) and the new scheduling experience (built atop URS) in Customer Service Hub co-exist. However, the following limitations apply: </br> - Bookings data and configurations in these experiences do not sync with each other. For example, a service created in legacy experience can be scheduled in legacy scheduling experience only while a service created in the new experience can be scheduled in URS based scheduling experience only.  </br> - You can edit bookings data and configurations in the experience it is originally created in. </br> </br> Bookings created in the legacy experience don’t reflect in the new experience and vice versa is also true.

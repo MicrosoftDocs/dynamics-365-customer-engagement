@@ -64,7 +64,7 @@ When generating contacts and leads automatically (such as after a page submissio
 
 You can choose which fields to consider in your matching strategies—the standard settings use just the email address for contacts and both email address and marketing-page ID for leads. You can establish any number of matching strategies and can even use different strategies for different marketing forms. At minimum, you'll have a default set of lead and contact matching strategies (one of each), which is automatically applied to all new marketing forms.
 
-More information: [Configure marketing pages](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/marketing-settings#config-mkt-pages)
+More information: [Configure marketing pages](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/marketing-settings#config-mkt-pages)
 
 ## Lead nurturing and scoring
 
@@ -74,7 +74,7 @@ The lead represents an expressed interest in that specific campaign or initiativ
 
 After a single interaction, a new lead is usually still considered *unqualified*, which means that you don't have enough confidence in it to ask a salesperson to engage. Marketers typically put contacts with leads like these into a *nurturing campaign*, which seeks to build interest by supplying additional information and new offers.
 
-The [automated scoring system](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/score-manage-leads) enables Marketing to calculate a score for each lead based on demographic details, firmographic details, and actions taken by the associated contact (or for account-based leads, contacts belonging to the associated account). Scorable interactions include, for example: opening an email, submitting a landing page, visiting your website, or attending an event. You can design your segments and customer journeys to react to promising patterns in contacts' behavior, so you can engage them further with targeted messaging and enticing offers that nurture their interest.
+The [automated scoring system](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/score-manage-leads) enables Marketing to calculate a score for each lead based on demographic details, firmographic details, and actions taken by the associated contact (or for account-based leads, contacts belonging to the associated account). Scorable interactions include, for example: opening an email, submitting a landing page, visiting your website, or attending an event. You can design your segments and customer journeys to react to promising patterns in contacts' behavior, so you can engage them further with targeted messaging and enticing offers that nurture their interest.
 
 Each scoring model includes a sales-ready threshold. When a lead's score passes this threshold, it gets marked as sales ready, which can trigger other events within Dynamics 365, including advancing the lead through its business process and alerting teleprospectors or salespeople to pick it up.
 

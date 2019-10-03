@@ -1,5 +1,5 @@
 ---
-title: Set up time units (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Set up time units 
 description: How to set up time units in Project Service
 author: revathimuthiah
 manager: kfend

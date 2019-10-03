@@ -39,7 +39,7 @@ The following data is stored with Dynamics 365 apps integration with Microsoft T
 
 You can contact support to request data deletion. Run the following Windows PowerShell commands to gather the information needed by Dynamics 365 apps support.
 
-For more information on how to install Windows PowerShell, see [Azure ActiveDirectory](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0).
+For more information on how to install Windows PowerShell, see [Azure ActiveDirectory](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
 |Command  |Comment  |
 |---------|---------|

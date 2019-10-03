@@ -9,8 +9,6 @@ ms.suite:
 ms.tgt_pltfrm:
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 475d5b1f-4526-4e76-a4fe-b8fbaf394944
 caps.latest.revision: 4
 author: jimholtz
@@ -24,7 +22,7 @@ search.app:
 ---
 # Copy an instance to a Sandbox instance
 
-You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] to copy the Dynamics 365 apps and all data from any instance to a Sandbox instance. You can do either a full or minimal copy.  
+You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] to copy the model-driven apps in Dynamics 365, such as Dynamics 365 Sales and Customer Service, and all data from any instance to a Sandbox instance. You can do either a full or minimal copy.  
   
 > [!NOTE]
 > You can now use the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) to copy an instance (environment). See [Copy an environment](https://docs.microsoft.com/power-platform/admin/copy-environment).
@@ -150,11 +148,11 @@ Once the copy process is complete, the target instance is placed in [Administrat
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set the delivery method for incoming and outgoing email](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
   
-- **SharePoint**. Deactivate or redirect [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] to a sandbox [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] environment to prevent impacting documents in Dynamics 365 apps managed by [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. In Dynamics 365 apps, go to **Settings** > **Documentation Management** > **SharePoint Sites**. Select your site, and then click **Deactivate**.  
+- **SharePoint**. Deactivate or redirect [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] to a sandbox [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] environment to prevent impacting documents in model-driven apps in Dynamics 365 managed by [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. In model-driven apps in Dynamics 365, go to **Settings** > **Documentation Management** > **SharePoint Sites**. Select your site, and then click **Deactivate**.  
   
-- **Yammer**. Disable [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] or redirect to a separate [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] service to prevent posts made in the copy instance conflicting with posts made in the Production instance. In Dynamics 365 apps, go to **Settings** > **Administration** > **Yammer Configuration**.  
+- **Yammer**. Disable [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] or redirect to a separate [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] service to prevent posts made in the copy instance conflicting with posts made in the Production instance. In model-driven apps in Dynamics 365, go to **Settings** > **Administration** > **Yammer Configuration**.  
   
-     After creating a new Sandbox instance, workflows and system jobs might be pending execution. Apart from these jobs, if you have connected [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] to Dynamics 365 apps there will be [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] activity streams posted from Dynamics 365 apps to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] asynchronously. These activity streams are not visible through the system jobs. If there were any pending [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] activity streams before the Disable Background Process is turned on, these activity steams will be posted to the current [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] configuration once the Disable Background Process is turned back off. In the Sandbox instance, if you have your current [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] configuration connected to the same [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] network as your production environment, you might see duplicate activity streams. To avoid duplicate [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] activity streams, redirect your Sandbox instance to another [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] network (possibly a test network) before turning background processes back on.  
+     After creating a new Sandbox instance, workflows and system jobs might be pending execution. Apart from these jobs, if you have connected [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] to model-driven apps in Dynamics 365 there will be [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] activity streams posted from model-driven apps in Dynamics 365 to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] asynchronously. These activity streams are not visible through the system jobs. If there were any pending [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] activity streams before the Disable Background Process is turned on, these activity steams will be posted to the current [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] configuration once the Disable Background Process is turned back off. In the Sandbox instance, if you have your current [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] configuration connected to the same [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] network as your production environment, you might see duplicate activity streams. To avoid duplicate [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] activity streams, redirect your Sandbox instance to another [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] network (possibly a test network) before turning background processes back on.  
   
 - **Platform extensibility**. Consider disabling the following that could be running in the copy instance and impacting external service components.  
   

@@ -1,7 +1,7 @@
 ---
 
-title: Which booking allocation method should I use to avoid overbooking? (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
-description: An overview of the different ways you can book allocations in Dynamics 365 for Customer Engagement Project Service.
+title: Which booking allocation method should I use to avoid overbooking? 
+description: An overview of the different ways you can book allocations.
 author: JohnPBurrows 
 manager: kfend
 ms.service: dynamics-365-customerservice

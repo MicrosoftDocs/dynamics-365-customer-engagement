@@ -26,7 +26,7 @@ search.app:
 
 # Universal Resource Scheduling for Field Service
 
-This article describes how Dynamics 365 for Field Service uses Universal Resource Scheduling (URS). We'll also take a look at how to configure URS for onsite field service scenarios.
+This article describes how Dynamics 365 Field Service uses Universal Resource Scheduling (URS). We'll also take a look at how to configure URS for onsite field service scenarios.
 
 ## Overview
 
@@ -53,7 +53,7 @@ In this topic, we'll take a quick look at:
 For more detailed information on URS, visit the [Universal Resource Scheduling documentation](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
 ## Components 
-When Dynamics 365 for Field Service is installed, URS installs automatically, and appears in the menu as shown in the following screenshot.
+When Dynamics 365 Field Service is installed, URS installs automatically, and appears in the menu as shown in the following screenshot.
  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Screenshot of URS and Field Service apps](media/scheduling-urs-apps.png) 

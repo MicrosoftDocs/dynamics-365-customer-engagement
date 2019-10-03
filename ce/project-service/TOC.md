@@ -1,5 +1,4 @@
 # [Overview](overview.md)
-# [New and upcoming features](new-upcoming.md)
 
 # Plan your implementation (app version 3.x)
 ## [Sample data installation](install-sample-data-3-x.md)
@@ -12,6 +11,11 @@
 # [Project Service upgrade (app version 3.x)](upgrade-psa-home-page.md)
 ## [What's new or changed in Project Service Automation version 3](whats-new-changed-v3.md)
 ## [Upgrade considerations - Project Service Automation version 2.x or 1.x to version 3](upgrade-v3.md)
+## [Development (app version 3.x)](../project-service/developer-guides/overview-dev-notes-v3.x.md)
+### [Entity changes](../project-service/developer-guides/entity-changes-v3.x.md)  
+### [Time and expense](../project-service/developer-guides/time-expense-changes-v3.x.md)  
+### [Resource management](../project-service/developer-guides/resource-management-changes-v3.x.md)  
+### [Deprecated Web resources in Project Service Automation v3.x](../project-service/developer-guides/web-resources-deprecated-v3.x.md)
 
 # Project Service (app version 3.x)
 ## [Project planning](project-planning.md)
@@ -71,14 +75,6 @@
 ### [Time entry calendar](time-entry-calendar.md)
 ### [Customize weekly time entry](time-entry-extensibility-v3.md)
 
-
-# How-to guides (app version 3.x)
-## [Pricing dimensions setup guide](how-to-guides/pricing-dimensions-setup.md)
-## [Project management how-to guide](how-to-guides/project-management-how-to.md)
-## [Resource management how-to guide](how-to-guides/resource-management-how-to.md)
-## [Reconciling assignments and bookings how-to guide](how-to-guides/reconciling-assignments-bookings-how-to.md)
-## [Time, expense, and approvals guide](how-to-guides/time-expense-approval.md)
-
 # FAQ and troubleshooting (app version 3.x)
 ## [How do I "soft book" resources?](FAQ-soft-book.md)
 ## [How do I see chargeable utilization for resources?](FAQ-utilization-view.md)
@@ -91,12 +87,6 @@
 ## [Why is the price defaulting to zero on time cost actuals?](FAQ-zero-price-time-cost-actuals.md)
 ## [Why is the price defaulting to zero on time sales actuals?](FAQ-zero-price-time-sales-actuals.md)
 ## [Why can’t I delete records from the Actuals entity?](FAQ-deleting-actuals.md)
-
-## [Development (app version 3.x)](../project-service/developer-guides/overview-dev-notes-v3.x.md)
-### [Entity changes](../project-service/developer-guides/entity-changes-v3.x.md)  
-### [Time and expense](../project-service/developer-guides/time-expense-changes-v3.x.md)  
-### [Resource management](../project-service/developer-guides/resource-management-changes-v3.x.md)  
-### [Deprecated Web resources in Project Service Automation v3.x](../project-service/developer-guides/web-resources-deprecated-v3.x.md)
 
 # Guidance for earlier versions (app version 2.x and 1.x)
 ## FAQ and troubleshooting 

@@ -21,7 +21,7 @@ search.app:
 # Customer Service Hub Help & Training
 
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/6e415bd9-49b7-4416-b744-70278d9fa077" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/6e415bd9-49b7-4416-b744-70278d9fa077" frameborder="0" allowfullscreen=""></iframe></div>
 
 <table>
 <tr>
@@ -35,7 +35,7 @@ search.app:
 
   <td><h2>Setup</h2>
   <ul>
-  <li><a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets" data-raw-source="[Dynamics 365 for phones and tablets]https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets">Dynamics 365 for phones and tablets</a></li>
+  <li><a href="https://docs.microsoft.com/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets" data-raw-source="[Dynamics 365 for phones and tablets]https://docs.microsoft.com/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets">Dynamics 365 for phones and tablets</a></li>
 <li><a href="use-customer-service-hub-on-dynamics-365-mobile.md" data-raw-source="[Navigate app on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)">Customer Service Hub app on mobile devices</a></li>
 <li><a href="basics-service-service-scheduling.md#set-up-the-new-service-scheduling-experience" data-raw-source="[New scheduling experience based on URS](basics-service-service-scheduling.md#set-up-the-new-service-scheduling-experience)">New scheduling experience based on URS</a></li>
   </li> 
@@ -78,8 +78,8 @@ search.app:
 <td><h2>Accessibility &amp; GDPR</h2>
 <ul>
  <li> <a href="user-guide-customer-service-hub.md#accessibility-and-gdpr" data-raw-source="[Accessibility and GDPR in the Customer Service Hub](user-guide-customer-service-hub.md#accessibility-and-gdpr)">Accessibility and GDPR in the Customer Service Hub</a> </li> 
- <li><a href="https://docs.microsoft.com/en-us/dynamics365/get-started/accessibility/customer-engagement/accessibility" data-raw-source="[Accessibility features for Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/get-started/accessibility/customer-engagement/accessibility)">Accessibility features for Customer Engagement</a></li>
- <li><a href="https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index" data-raw-source="[Microsoft Dynamics 365 Customer Service and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index)">Microsoft Dynamics 365 Customer Service and GDPR</a></li>
+ <li><a href="https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility" data-raw-source="[Accessibility features for Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility)">Accessibility features for Customer Engagement</a></li>
+ <li><a href="https://docs.microsoft.com/dynamics365/get-started/gdpr/index" data-raw-source="[Microsoft Dynamics 365 Customer Service and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index)">Microsoft Dynamics 365 Customer Service and GDPR</a></li>
 </ul>
 </td>
 </tr>

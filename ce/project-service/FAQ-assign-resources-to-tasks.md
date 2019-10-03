@@ -1,6 +1,6 @@
 ---
-title: How do I assign a resource to a task? (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
-description: An overview of how you assign resources to tasks in Dynamics 365 for Customer Engagement Project Service.
+title: How do I assign a resource to a task? 
+description: An overview of how you assign resources to tasks.
 author: JohnPBurrows 
 manager: kfend
 ms.service: dynamics-365-customerservice
