@@ -1,0 +1,50 @@
+### YamlMime:OData
+uid: Microsoft.Dynamics.CRM.ApplyRoutingRule
+name: "ApplyRoutingRule"
+type: action
+metadata: 
+  title: "ApplyRoutingRule Action Reference | MicrosoftDocs"
+  ms.date: "10/03/2019"
+  ms.service: "crm-online"
+  ms.topic: "reference"
+  applies_to: 
+  - "Dynamics 365 (online)"
+  ms.assetid: feb34471-f808-4d82-84a4-1f7f820acacf
+  author: "susikka"
+  ms.author: "susikka"
+  manager: "shujoshi"
+  meta-description: "Reference information about the Dynamics 365 for Customer Engagement apps ApplyRoutingRule Action."
+namespace: Microsoft.Dynamics.CRM
+description: "Applies the active routing rule to an incident.  "
+owningsolution: Microsoft.Dynamics.CRM.System
+# This action has no bound entities.
+isbound: false
+parameters:
+  description: "Parameters allow for data to be passed to the action."
+  parameter_items:
+  - name: Target
+    type: Microsoft.Dynamics.CRM.crmbaseentity
+    nullable: false
+    unicode: true
+    description: "The incident to apply the routing rule to. "
+# This action has no return value.
+hasreturnvalue: false
+entities:
+  description: "Use the ApplyRoutingRule action with this entity type:"
+  entity_items:
+  - type: Microsoft.Dynamics.CRM.incident
+    displayName: Case
+    description: "Service request case associated with a contract."
+# There are no remarks for this action.
+href_see_also:
+- text: "Use the Microsoft Dynamics 365 for Customer Engagement apps Web API"
+  href: "https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api"
+xref_see_also:
+- Microsoft.Dynamics.CRM.EntityTypeIndex
+- Microsoft.Dynamics.CRM.ActionIndex
+- Microsoft.Dynamics.CRM.FunctionIndex
+- Microsoft.Dynamics.CRM.QueryFunctionIndex
+- Microsoft.Dynamics.CRM.ComplexTypeIndex
+- Microsoft.Dynamics.CRM.EnumTypeIndex
+- Microsoft.Dynamics.CRM.MetadataEntityTypeIndex
+- Microsoft.Dynamics.CRM.SolutionIndex
