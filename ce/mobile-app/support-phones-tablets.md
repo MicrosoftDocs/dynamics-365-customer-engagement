@@ -1,7 +1,7 @@
 ---
 title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom:
-ms.date: 03/28/2019
+ms.date: 10/03/2019
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -35,9 +35,6 @@ You can access Common Data Service or Dynamics 365 Customer Engagement (on-premi
 |       [iOS](https://go.microsoft.com/fwlink/p/?LinkID=519213)       | 10 or later  |     1 GB      |                   2 GB                    |
 |     [Android](https://go.microsoft.com/fwlink/p/?LinkID=519214)     | 4.4 or later |     2 GB      |                   3 GB                    |
 | [Windows tablet](https://go.microsoft.com/fwlink/p/?linkid=862402) |      10       |     2 GB      |                   4 GB                    |
-
-> [!NOTE]
-> On February 21, 2018, we announced the deprecation of the Windows Phone app for Dynamics 365 apps. Effective May 22, 2018, the Windows Phone app is no longer supported for Dynamics 365 apps. The app is only supported on Windows Phone 10. The app is not supported on Windows Phone 8.1. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365 apps, version 8.2 and earlier supported versions. If you wish to continue to use the Windows Phone app, you should not update to Dynamics 365 apps, version 9.0 as the Windows Phone app won't be supported with version 9.x.
  
 <a name="BKMK_CRMforTablets"></a>   
 ## Support for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
@@ -106,6 +103,13 @@ You can run the [!INCLUDE[pn_moca_CRM_Android](../includes/pn-moca-crm-android.m
 - [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)] presence  
   
 - Entities that use classic forms such as Goal and Order Product see, [Entities using classic forms](../customize/create-design-forms.md).  
+
+
+## Deprecated and unsupported OS
+
+- On December 1, 2019, the mobile app will no longer ssupport  iOS 10, Android 4.4, and Android 5. The minimum Android version will be 6.0.1 and the minimum iOS version will be 11.4.1.
+
+- On February 21, 2018, we announced the deprecation of the Windows Phone app for Dynamics 365 apps. Effective May 22, 2018, the Windows Phone app is no longer supported for Dynamics 365 apps. The app is only supported on Windows Phone 10. The app is not supported on Windows Phone 8.1. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365 apps, version 8.2 and earlier supported versions. If you wish to continue to use the Windows Phone app, you should not update to Dynamics 365 apps, version 9.0 as the Windows Phone app won't be supported with version 9.x.
   
 ### See also  
  [Set up and manage tablets and phones](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)   
