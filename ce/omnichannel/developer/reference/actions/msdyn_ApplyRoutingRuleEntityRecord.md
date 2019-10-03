@@ -24,7 +24,7 @@ Parameters allow for data to be passed to the action.
 
 | Name | Type | Nullable | Unicode | Description |
 |------|------|------|------|------|
-| Target | Microsoft.Dynamics.CRM.crmbaseentity | False | True | The incident to apply the routing rule to.|
+| Target | Microsoft.Dynamics.CRM.crmbaseentity | False | True | The entity to apply the routing rule to.|
 
 ## Return value
 
