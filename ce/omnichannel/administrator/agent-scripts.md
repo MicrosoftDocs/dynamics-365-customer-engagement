@@ -40,7 +40,7 @@ Agent scripts provide guidance to agents about what they should to doing when th
 
 - Improved customer satisfaction
 
-## Prerequistes
+## Prerequisites
 
 ## Create agent scripts
 
@@ -77,3 +77,13 @@ Agent scripts provide guidance to agents about what they should to doing when th
 8. Select **Save and Close** to add, save, and close the quick create form.
 
 9. Select **Save** to save the changes.
+
+## Add agent script to a form
+
+After you create agent script, you must add the agent script field to the form where you want to show it for the agents.
+
+1. Sign in to the Common Data Service platform.
+
+2. Select **Settings** > **Customizations** > **Customize the System**. **Solution Explorer** opens in a new window.
+
+3. Select 
