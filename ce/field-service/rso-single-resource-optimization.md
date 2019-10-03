@@ -130,8 +130,14 @@ Requires Field Service application version 8.0 or higher.
 
 Run single resource optimization but edit the goal and time range first. One benefit of editing the time range and extending it to second day is SRO may take jobs from the next day and fit them in the first day if time is available. 
 
+Click a resource's name to select it, then go to the Optimization side pane.
+
 > [!Note]
 > This capability is **only** available from the schedule board view associated with the optimization scope.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of single resource optimization pane with options](media/rso-single-resource-4.png)
+
 
 1. Set the optimization range to the date and time.
 
@@ -139,9 +145,7 @@ Run single resource optimization but edit the goal and time range first. One ben
 
 3. Select **Run Now** to run the optimization and schedule bookings.
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of single resource optimization pane with options](media/rso-single-resource-4.png)
-
+  
 ### Run as simulation 
 
 - **Run Simulation** runs the optimization and schedules simulated bookings shown as white. Apply or discard simulation results. Note that simulated bookings don't show on maps with routes.
