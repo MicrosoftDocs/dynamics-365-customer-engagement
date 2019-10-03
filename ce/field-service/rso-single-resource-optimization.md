@@ -73,7 +73,7 @@ Goals define what RSO should consider and prioritize.
 
 Go to **Resource Scheduling Optimization app > Optimization Goals > +New**
 
-Create the goal you would like Single Resource Optimization to use by default, though any goal can be selected at the run time.
+Based on your business needs, create the goal you would like Single Resource Optimization to use by default, though any goal can be selected at run time.
 
 
 > [!div class="mx-imgBorder"]
@@ -83,7 +83,7 @@ Create the goal you would like Single Resource Optimization to use by default, t
 When creating a goal for SRO, it is important to remember that SRO is typically used to clean up a schedule that was altered throughout the day. Therefore, here are a few recommendations:
 
 1. Engine Effort Level: **Very Light** because dispatchers will want SRO to run very quickly and may even run it while on the phone with a customer.
-2. Removing the **Schedule Within Working Hours** constraint will allow more bookings to fit in the resources schedule, which could be good if the dispatcher adds an additional emergency work order to the schedule. When this constrain is removed, the start time of a booking will have to be within working hours and can spill over into non-working hours. When this constraint is added, RSO ensures there is time to travel back to the resource's ending location.
+2. Removing the **Schedule Within Working Hours** constraint will allow more bookings to fit in the resources schedule, which could be good if the dispatcher adds an additional emergency work order to the schedule. When this constraint is removed, the start time of a booking will have to be within working hours and can spill over into non-working hours. When this constraint is added, RSO ensures there is time to travel back to the resource's ending location.
 3. Removing constraints related to matching territory, roles, and characteristics because the scenario assumes the dispatcher knows best. This could lead to a situation where the dispatcher assigns a work order to a resource, runs SRO, and SRO deletes the booking because it does not match the resource's attributes. 
 4. Adding **Scheduling Lock Options** and **Scheduling Windows** constraints is recommended so SRO upholds time promises or SLAs with the customer.
 
