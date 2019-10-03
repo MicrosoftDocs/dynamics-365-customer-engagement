@@ -17,9 +17,6 @@ Applies the active routing rule to an entity.
 
 **Owning Solution**: Microsoft.Dynamics.CRM.System
 
-> [!NOTE]
-> This action has no bound entities.
-
 ## Parameters
 
 Parameters allow for data to be passed to the action.
