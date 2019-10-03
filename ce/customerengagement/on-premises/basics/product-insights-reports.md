@@ -1,5 +1,5 @@
 ---
-title: "Product insights reports (Dynamics 365 Customer Engagement (on-premises)  | MicrosoftDocs"
+title: "Product reports (Dynamics 365 Customer Engagement (on-premises)  | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -11,17 +11,17 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: f6f2787c-c021-406a-9d43-aa62c49f5c86
 caps.latest.revision: 22
-author: Mattp123
-ms.author: matp
+author: mduelae
+ms.author: mkaur
 manager: brycho
 search.audienceType: 
   - enduser
 search.app: 
   - D365CE
 ---
-# Reports for product insights
+# Product reports
 
-Dynamics 365 Customer Engagement (on-premises) includes many system reports that you can use to gain insights into how your business is doing. The product insights reports provides insights into your product catalog. 
+Dynamics 365 Customer Engagement (on-premises) includes many system reports that you can use to gain insights into how your business is doing. The product reports provides insights into your product catalog. 
 
 
 ## Products by Account report
