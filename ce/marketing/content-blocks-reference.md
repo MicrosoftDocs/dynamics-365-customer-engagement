@@ -41,6 +41,7 @@ To add a section element, open the **Toolbox** panel, choose the section element
 When you first add a section element, it will have the number of columns that matches the choice you made when you added it. You can change this and other properties afterwards by selecting the section from the canvas and opening the **Properties** tab, where you can set the following options:
 
 - **Section layout**: Select a button here to change the column layout to the one indicated by the graphic on each button. If you remove a column, all of its content will be moved into one of the remaining columns. If you add a column, the new column will initially be empty.
+- **Section styles**: Choose a background color for the section here. This color appears inside the border (including the padding area, but not the margin area).
 - **Section border styles**: Use these settings to set the style (none, solid, dotted, dashed, or double), line width, line color, and corner radius for the border that goes around the entire section (but not between columns).
 - **Section padding**: Specify how much padding (in pixels) you'd like to place between the columns and the colored border. You can enter separate values for top, bottom, left, and right.
 - **Section margin**: Specify how much margin (in pixels) you'd like to place between the colored border and the outside edge of the section element. You can enter separate values for top, bottom, left, and right.
