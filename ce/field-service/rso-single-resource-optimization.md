@@ -1,7 +1,7 @@
 ---
 title: "Single resource optimization for Resource Scheduling Optimization | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
-ms.date: 10/19/2018
+ms.date: 10/03/2019
 ms.reviewer: 
 ms.suite: 
 ms.technology: 
@@ -36,7 +36,7 @@ When it comes to adopting Resource Scheduling tools there is a recommended progr
 
 In this article let's explore Single resource optimization (SRO) and understand why an organization may choose to optimize work orders this way and how to configure it.
 
-Single resource optimization provides a quick way to re-optimize a resource's schedule and travel route after schedule changes and cancellations have occurred during the day. 
+Single resource optimization provides a quick way to re-optimize a resource's schedule and travel route after schedule changes have occurred during the day. 
 
 This is helpful for when a resource:
 
@@ -46,18 +46,36 @@ This is helpful for when a resource:
 4. has a schedule that was put together manually and wants a travel route with minimal travel
    
 
-If there is a scenario where an individual resource's schedule needs to be re-optimized, a dispatcher can manuallly run single resource optimization or it can even be triggered via a workflow. Unlike other RSO scenarios, **SRO cannot be run via a schedule**.
+If there is a scenario where an individual resource's schedule needs to be re-optimized, a dispatcher can manually run single resource optimization or it can even be triggered via a workflow. Unlike other RSO scenarios, **SRO cannot be run via a schedule**.
 
- means RSO runs each night at a defined time and schedules jobs (e.g. work orders) for the next day. The next morning, a dispatcher arrives to work to find a fully optimized schedule board for that day where jobs are scheduled to the appropriate resources based on skills, promised time windows, preferred resources, roles, and more. For the rest of the day, RSO will not run and the dispatcher will make changes as needed with manual scheduling or the schedule assistant to deal with delays, cancellations, and special customer requests. Overnight scheduling allows RSO to handle the bulk of scheduling to save time while still relying on the expertise of dispatchers who know the work to be done and the resources. 
 
 Setting up this RSO scenario as well as other scenarios involves creating a scope, goal, and schedule. To learn more about these three components of RSO, see the topic on [RSO configuration](./rso-configuration.md).
 
 
+## Prerequisites
+
+- Resource scheduling optimization version 2.8 or higher.
+
+- **Optimize Schedules** is set to **Yes** for the bookable resource you will individually optimize the schedules of.
+
+- Default goal in **Resource Scheduling Optimization** > **Optimization Goals**. A default goal is created automatically when optimization runs.
+
+## Scope
+
+Unlike running RSO for other scenarios, you do not need to create an Optimization Scope to run SRO for a resource. this is because the scope is automatically defined as the bookings for the resource in the defined date range (the rest of the current day by default).
+
+## Goal
+
+Goals define what RSO should consider and prioritize.
+
+Go to **Resource Scheduling Optimization app > Optimization Goals > +New**
 
 
+## Schedule
+
+## Run and view results
 
 
-The single resource optimization capability provides a quick way to re-optimize a resource's schedule and travel route after schedule changes and cancellations have occurred during the day. For example, re-optimizing a resource's schedule corrects overlapping bookings when the resource is assigned an emergency work order, or arrives at a customer location late due to traffic.
 
 There are two ways to use the schedule board to optimize the schedule for a single resource:
 
@@ -68,13 +86,7 @@ There are two ways to use the schedule board to optimize the schedule for a sing
   > [!div class="mx-imgBorder"]
   > ![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-1.png)
 
-## Prerequisites
 
-- Resource scheduling optimization version 2.8 or higher.
-
-- **Optimize Schedules** is set to **Yes** for the bookable resources.
-
-- Default goal in **Resource Scheduling Optimization** > **Optimization Goals**. A default goal is created automatically when optimization runs.
 
 ## Optimize with one click
 
