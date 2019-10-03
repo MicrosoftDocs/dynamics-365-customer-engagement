@@ -126,6 +126,7 @@
 ## [Set up a proof of concept](rso-proof-concept.md)
 ## Running RSO
 ### [Publishing + monitoring](rso-schedule-optimization.md)
+### [Overnight scheduling](rso-overnight-scheduling.md)
 ### [Single resource optimization](single-resource-optimization.md)
 ### [Booking lock options](booking-lock-options.md)
 ### [Resolving booking conflicts](rso-handling-resolving-booking-conflicts.md)
