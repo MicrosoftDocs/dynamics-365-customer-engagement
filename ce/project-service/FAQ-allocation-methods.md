@@ -1,6 +1,6 @@
 ---
 
-title: Use the correct allocation method to avoid overbooking
+title: Booking allocation methods
 description: This topic provides information about the different ways you can book allocations.
 author: Jruhercul                
 manager: kfend
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365PS
 ---
-# Use the correct allocation method to avoid overbooking
+# Booking allocation methods
 
 Whether you add a team member directly to a project on the **Team** tab, or book a resource to a project or requirement from the Schedule board, there are a few different booking allocation methods you can use. This topic explains how each method works, and which methods could lead to overbooking resources.
 
