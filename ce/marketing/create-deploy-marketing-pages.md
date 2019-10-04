@@ -2,7 +2,7 @@
 title: "Design, check, and publish marketing pages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to design and deploy landing, forwarding, and subscription pages in Dynamics 365 Marketing"
 keywords: landing page; subscription center; forward to a friend; form; field; matching
-ms.date: 03/08/2019
+ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -78,14 +78,15 @@ To create a new marketing page, do one of the following:
 
 ### Set the required field values
 
-Every time you create a new marketing page, you must fill out the fields provided in the header of the page.  
-![Required fields for a new page](media/page-required-fields.png "Required fields for a new page")
-
-Make the following settings here:
+Every time you create a new marketing page, you must fill out the required fields shown in the header of the page. Select the **More header fields** button at the side of the header to open a drop-down dialog and make the following settings:
 
 - **Name**: Enter a name for the page that you can easily recognize later. This name is internal-only.
 - **Type**: Choose the [type of page](#page-types) you are making. Each type has different requirements and options.
 - **Partial URL**: When you publish the page, this value becomes part of its URL. The page will be published on your Dynamics 365 Portal, so the final URL for the page will have the form: **https://*&lt;YourOrg&gt;*.microsoftcrmportals.com/*&lt;PartialURL&gt;***. Enter a suitable partial URL (note that contacts might notice this text when they load your page).
+
+(These settings are also available on the **Summary** tab.)
+
+![Required fields for a new page](media/page-required-fields.png "Required fields for a new page")
 
 Select **Save** on the command bar after you've finished making these settings.
 
