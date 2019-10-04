@@ -26,7 +26,7 @@ ms.custom:
 
 ## Overview of agent scripts
 
-In the contact center industry, agents need to deal with continuous updates both in the product and processes. Even after providing rigorous training to the agents, there are recurrent human errors and delays in service delivery due to a lack of guidance in real-time customer scenarios. These issues lead to lower productivity and thus impacts customer satisfaction levels. To avoid the errors and ensure the adherence of processes, agents need guidance.
+In the customer service industry, agents need to deal with continuous updates both in the product and processes. Even after providing rigorous training to the agents, there are recurrent human errors and delays in service delivery due to a lack of guidance in real-time customer scenarios. These issues lead to lower productivity and thus impacts customer satisfaction levels. To avoid the errors and ensure the adherence of processes, agents need guidance.
 
 Agent scripts provide guidance to agents about what they should to doing when they get a customer issue. It ensures that only accurate, company-endorsed information is being shared, while also safeguarding the organization in regard to legal-compliance issues. Agent scripts help organizations to be unified, accurate, and effective while being faster and more-efficient in terms of customer handling.
 
