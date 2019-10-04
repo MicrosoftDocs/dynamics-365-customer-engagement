@@ -36,7 +36,7 @@ In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.
 
 Lists the most popular hashtags in the content of posts in your current data set. 
 
-Dynamic widget. Shows only if hashtags are found in posts. Hashtags are available for  Instagram and YouTube.
+Dynamic widget. Shows only if hashtags are found in posts. Hashtags are available for Instagram and YouTube.
 
 ## Intentions
 
