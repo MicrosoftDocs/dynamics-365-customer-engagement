@@ -2,7 +2,7 @@
 title: "Add LinkedIn Sales Navigator controls to forms | Microsoft Docs"
 description: "Add LinkedIn Sales Navigator controls to forms in Dynamics 365 Sales."
 keywords: custom control, sales navigator, linkedin, integration, customization
-ms.date: 04/30/2019
+ms.date: 10/04/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -26,10 +26,6 @@ search.app:
 
 - You have Customizer or System Administrator security role in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. 
 - To test the controls, you need to be a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator seat holder.
-- When using the Microsoft Edge browser, add your Dynamics 365 domain as a trusted site. This is required to read cookies from the linkedin.com domain.
-    1. Select the lock icon in the address bar.
-    1. Select **Manage for all sites** under **Tracking prevention**.
-    1. Select **Exceptions** and add your Dynamics 365 domain to the list.
 
 ## Add Sales Navigator controls to a form
 
@@ -106,6 +102,12 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
   ![Click path to save and publish customizations on a form](media/save-publish-customizations.png "Click path to save and publish customizations on a form")
 
 13. Select **Publish** to make your customizations available to the organization.
+
+> [!TIP]
+> When using the Microsoft Edge browser, add your Dynamics 365 domain as a trusted site. This is required to read cookies from the linkedin.com domain. To 
+    1. Select the lock icon in the address bar on a Dynamics 365 record with Sales Navigator controls.
+    1. Select **Manage for all sites** under **Tracking prevention**.
+    1. Select **Exceptions** and add your Dynamics 365 domain to the list.
 
 ### See also
 
