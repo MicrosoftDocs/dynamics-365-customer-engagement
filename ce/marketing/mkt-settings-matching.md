@@ -1,7 +1,7 @@
 ---
 title: "Configure matching strategies (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Set up how form submissions are matched to existing contacts or leads when deciding whether to update an existing record or to create a new one in Dynamics 365 Marketing"
-ms.date: 01/10/2019
+ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
