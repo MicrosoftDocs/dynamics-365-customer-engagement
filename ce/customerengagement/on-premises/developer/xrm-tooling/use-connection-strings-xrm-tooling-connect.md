@@ -81,9 +81,9 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
 
 > [!NOTE]
 > <b>When using the `OAuth` AuthType\AuthenticationType</b><br/>
-> For development and prototyping purposes we have provided the following AppId\ClientId and Redirect URI for use in OAuth Flows.<br/>
-> For production use, you should create an AppId\ClientId that is specific to your tenant in the Azure Management portal.<br/>
-> Sample AppId\ClientId = 51f81489-12ee-4a9e-aaae-a2591f45987d<br/>
+> For development and prototyping purposes we have provided the following AppId or ClientId and Redirect URI for use in OAuth Flows.<br/>
+> For production use, you should create an AppId or ClientId that is specific to your tenant in the Azure Management portal.<br/>
+> Sample AppId or ClientId = 51f81489-12ee-4a9e-aaae-a2591f45987d<br/>
 > Sample RedirectUri = app://58145B91-0C36-4500-8554-080854F2AC97<br/>
 
 <a name="Examples"></a>
@@ -116,7 +116,7 @@ Password=passcode" />
 Create a new connection using a UserID or Password via oAuth.
 
 > [!NOTE]
-> OAuth is the preferred auth type for connecting to Dynamics 365 Customer Engagement (on-premises) when using an interactive flow.  This auth type fully supports the features of Azure Active Directory Conditional Access and Multi-Factor Authentication.
+> OAuth is the preferred auth type for connecting to Dynamics 365 Customer Engagement (on-premises) when using an interactive flow.  This auth type fully supports the features of Azure Active Directory Conditional Access and Multi-Factor authentication.
 
 ```xml
 <add name="MyCRMServer"
@@ -198,6 +198,6 @@ Password=passcode" />
 ### See also
 
  [Build Windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md)<br />
- [Use CrmServiceClient constructors to connect to Dynamics 365 Customer Engagement (on-premises)](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect)<br />
- [Use XRM Tooling to execute actions in Dynamics 365 Customer Engagement (on-premises)](/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-execute-actions)<br />
+ [Use CrmServiceClient constructors to connect to Dynamics 365 Customer Engagement (on-premises) and Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect)<br />
+ [Use XRM Tooling to execute actions](/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-execute-actions)<br />
  <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient>
