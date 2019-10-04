@@ -1,7 +1,7 @@
 ---
-title: "Set email options on the Summary tab for sender, receiver, and designation (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Learn how to use the email settings provided on the Summary tab, including to and from options, plus the legal designation in Dynamics 365 Marketing"
-ms.date: 08/21/2019
+title: "Set email options on the Summary tab for sender, receiver, language, and designation (Dynamics 365 Marketing) | Microsoft Docs "
+description: "Learn how to use the email settings provided on the Summary tab, including to and from options, language, and the legal designation in Dynamics 365 Marketing"
+ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -21,34 +21,23 @@ search.app:
   - D365Mktg
 ---
 
-# Set the sender, receiver, and legal designation for a message
+# Set the sender, receiver, language and legal designation for a message
 
 When you're designing an email message, use the **Summary** tab to set a few basic options for it, including to:
 
 - Set values or establish an expression for the sender name and sender address
 - Set an expression for finding the recipient address from each contact record.
 - Set the legal designation of the message, which affects the requirements for what the message must (and must not) contain.
+- Set the language used by the email.
 - View and edit the [text-only version](email-design.md#text-only) of your message.
 
-Read this topic for more information about how to work with the sender, receiver, and legal designation for a message. For details about how to work with the text-only version of your design, see [Inspect and edit the text-only version of your message](email-design.md#text-only).
+![The Summary tab for emails](media/email-summary-tab.png "The Summary tab for emails")
+
+Read this topic for more information about how to work with the sender, receiver, language, and legal designation for a message. For details about how to work with the text-only version of your design, see [Inspect and edit the text-only version of your message](email-design.md#text-only).
 
 <a name="send-receive-options"></a>
 
-## Set sender and receiver options
 
-In addition to the message description and plain-text version, the **Summary** tab also offers **Sender and receiver** settings. Usually you shouldn't edit these, but they can be useful in some scenarios.
-
-> [!IMPORTANT]
-> Domain authentication with DKIM is an increasingly important part of making sure your messages land in recipients' inboxes rather than getting filtered away as junk. DKIM helps prove that messages claiming to come from your organization really did come from it. It requires that the **From address** for each message you send uses a domain that you've authenticated using DKIM (email addresses use the form *account-name*@*domain-name*). By default, all new Dynamics 365 Marketing installations come with a pre-authenticated sending domain ending in "-dyn365mktg.com". You may also have authenticated one or more of your own sending domains (which we highly recommend).
-> 
-> When you create a new email, the **From address** is automatically set to the email address registered for your Dynamics 365 Marketing user account. However, if your email address uses a domain that is not yet authenticated using DKIM, then the initial **From address** will be modified to use an authenticated domain. The resulting **From address** will still show the *account-name* of the user creating the message, but will now show a DKIM-authenticated *domain-name* that's registered for your Marketing instance (for example, "MyName@contoso-dyn365mktg.com"), which will provide the deliverability benefit, but probably isn't a valid return address. You can overrule this by editing the **From address** after creating the message if needed, but this will probably lower your deliverability. If you want to send messages that show your real email address as the from address, then we highly recommend that you ask your admin to authenticate your email-address domain (if it's not already). More information: [Authenticate your domains](mkt-settings-authenticate-domains.md)
-
-The following **Sender and receiver** settings are available:
-
-- **From name**: This is the name shown to recipients as the person who sent the email. By default, this is the name of the user who created the email. You can edit this to use a static value, or choose the [assist-edit](dynamic-email-content.md#dynamic-from) button to define an alternative dynamic value.
-- **From address**: This is the email address shown to recipients as the address of the person who sent the email. By default, this is the email address of user who created the message. You can edit this to use a static value, or choose the [assist-edit](dynamic-email-content.md#dynamic-from) button to define an alternative dynamic value. (See also the **IMPORTANT** box at top of this section.)
-- **To address**: This should almost always be set to **{{ contact.emailaddress1 }}**, which sends the message to each contact included in the customer journey that sends the email. You might change this to use a different email address field (such as emailaddress2), or enter a dynamic expression that chooses the best of several available email fields.
-- **Reply-to address**: This should usually be blank, which means that replies to the message will be sent to the **From address**. If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the [assist-edit](dynamic-email-content.md#dynamic-from) button to define an alternative dynamic value. If you use this setting, we recommend that you use the same domain for the reply-to address as for the from address (email addresses use the form *account-name*@*domain-name*).
 
 <a name="designation"></a>
 
@@ -79,6 +68,28 @@ The following table shows the result of attempting to send a commercial or trans
 | Allow        | Do not allow | Not sent         | Sent              |
 | Do not allow | Allow        | Not sent         | Not sent          |
 | Do not allow | Do not allow | Not sent         | Not sent          |
+
+## Set the email language
+
+Use the **Language** field to specify the language of the current message. This affects the values shown for option-set fields in dynamic content.
+
+Option sets provide a fixed set of values, which are stored as an index (incrementing integer), but displayed as text. For example, a field could be provided for selecting a T-shirt color where 1="red", 2="green", 3="blue", and so on. If you are supporting several languages, then each index value for the option set might have a different display value for each language. The value you choose for the **Language** here will determine which language is used to display option-set values in your email. If you select a language for which no values are defined, then another language will be shown instead (typically English, if it's available).
+
+## Set sender and receiver options
+
+In addition to the message description and plain-text version, the **Summary** tab also offers **Sender and receiver** settings. Usually you shouldn't edit these, but they can be useful in some scenarios.
+
+> [!IMPORTANT]
+> Domain authentication with DKIM is an increasingly important part of making sure your messages land in recipients' inboxes rather than getting filtered away as junk. DKIM helps prove that messages claiming to come from your organization really did come from it. It requires that the **From address** for each message you send uses a domain that you've authenticated using DKIM (email addresses use the form *account-name*@*domain-name*). By default, all new Dynamics 365 Marketing installations come with a pre-authenticated sending domain ending in "-dyn365mktg.com". You may also have authenticated one or more of your own sending domains (which we highly recommend).
+> 
+> When you create a new email, the **From address** is automatically set to the email address registered for your Dynamics 365 Marketing user account. However, if your email address uses a domain that is not yet authenticated using DKIM, then the initial **From address** will be modified to use an authenticated domain. The resulting **From address** will still show the *account-name* of the user creating the message, but will now show a DKIM-authenticated *domain-name* that's registered for your Marketing instance (for example, "MyName@contoso-dyn365mktg.com"), which will provide the deliverability benefit, but probably isn't a valid return address. You can overrule this by editing the **From address** after creating the message if needed, but this will probably lower your deliverability. If you want to send messages that show your real email address as the from address, then we highly recommend that you ask your admin to authenticate your email-address domain (if it's not already). More information: [Authenticate your domains](mkt-settings-authenticate-domains.md)
+
+The following **Sender and receiver** settings are available:
+
+- **From name**: This is the name shown to recipients as the person who sent the email. By default, this is the name of the user who created the email. You can edit this to use a static value, or choose the [assist-edit](dynamic-email-content.md#dynamic-from) button to define an alternative dynamic value.
+- **From address**: This is the email address shown to recipients as the address of the person who sent the email. By default, this is the email address of user who created the message. You can edit this to use a static value, or choose the [assist-edit](dynamic-email-content.md#dynamic-from) button to define an alternative dynamic value. (See also the **IMPORTANT** box at top of this section.)
+- **To address**: This should almost always be set to **{{ contact.emailaddress1 }}**, which sends the message to each contact included in the customer journey that sends the email. You might change this to use a different email address field (such as emailaddress2), or enter a dynamic expression that chooses the best of several available email fields.
+- **Reply-to address**: This should usually be blank, which means that replies to the message will be sent to the **From address**. If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the [assist-edit](dynamic-email-content.md#dynamic-from) button to define an alternative dynamic value. If you use this setting, we recommend that you use the same domain for the reply-to address as for the from address (email addresses use the form *account-name*@*domain-name*).
 
 ### See also
 

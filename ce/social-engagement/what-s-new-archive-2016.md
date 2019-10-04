@@ -147,8 +147,6 @@ search.app:
 
  To quickly find search topics or search rules that contain a specific word or phrase, you can now apply a filter in the Category and Search Topics pane. Start typing the string that you're looking for and see all topics or rules matching what you type. Additionally, you can filter for languages and sources in the search topic configuration and search for custom sources on the custom sources tab.
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add rules to a search topic](add-rules-search-topic.md), [Add a Twitter rule](add-rules-search-topic.md#addTwitterRule), [Add a Facebook pages rule](add-rules-search-topic.md#addFacebookRule)
-
 ### Manage custom tags
  Some tags may become obsolete over time, or you might want to rename them. Maintain your custom tags and let your users work with relevant items. Administrators can now rename custom tags and delete them if they aren’t needed anymore.
 

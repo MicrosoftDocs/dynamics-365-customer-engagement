@@ -2,7 +2,7 @@
 title: "Work with contact, account, and lead records (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to find, create and use contact, account, and lead records in Dynamics 365 Marketing"
 keywords: contact; account; lead
-ms.date: 08/16/2019
+ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -45,6 +45,8 @@ The contacts entity is common for and shared by most Dynamics 365 apps for the C
   - **Prefill marketing form**: Controls whether Dynamics 365 Marketing is permitted to prefill form information (like name and email) on marketing pages for this contact.  When set to **Do not allow**, all marketing pages (other than subscription centers) will present an empty form to this contact, even when the contact is recognized by the system. Contacts can set this option for themselves by setting a "remember me" check box on any marketing page that is set up to include the prefill feature.
   - **Follow email**: This field is often present, but is *not* added by Dynamics 365 Marketing. It has no effect of the functionality of the Marketing app, including its ability to track email interactions. You can still use it in segmentation criteria, just like any other contact field. (This field is used by the email engagement feature of Dynamics 365 Sales. More information:
  [Use email engagement to view message interactions](../sales-enterprise/email-engagement.md).)
+
+- **Subscription lists**: The contact **Details** tab includes a section called **Subscription lists**, where you can see a list of each email subscription the contact has signed up for in Dynamics 365 Marketing. More information: [Set up subscription lists and subscription centers](set-up-subscription-center.md)
 
 - **Data protection**: The contact **Details** tab includes a section called **Data protection**, where you can see and set the data-privacy consent level granted by this contact, and also see whether the contact is a child and, if so, who their parent or guardian is. For more information about these features, see [Data protection and the GDPR](gdpr.md).
 - **Event information**: Each contact record provides the following information about events the contact has registered for or attended:
