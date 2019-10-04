@@ -108,17 +108,17 @@ To fix the issue, do the following:
 2. Select the Dynamics 365 tab with this error.
 3. Select the down arrow next to the tab and then select **Remove**.
 4. In your app, identify the Common Data Service role which is assigned to this user:
-    - Sign in as a admin to your Common Data service app.
-    - Navigate to **Settings** > **Security** > **Users**. 
-    - Find and select the user account that got the error message to open it.
-    - Select **Manage Roles**.
-    - Identify the security role assigned to this user.
-    - Select **Close**.
+     1. Sign in as a admin to your Common Data service app.
+     2. Navigate to **Settings** > **Security** > **Users**. 
+     3. Find and select the user account that got the error message to open it.
+     4. Select **Manage Roles**.
+     5. Identify the security role assigned to this user.
+     6. Select **Close**.
 5. Navigate to **Settings** > **Security** > **Security Roles**.
 6. Open the security role identified above.
 7. Go to the **Core Records** tab.
 8. Give **Create** permissions to **SharePoint Site** and **Document Location**.
-9. Save and Close
+9. Select**Save and Close**.
 
 Now when the user tries to pin the Common Data Service entity to the required Teams channel, it should work.
 
