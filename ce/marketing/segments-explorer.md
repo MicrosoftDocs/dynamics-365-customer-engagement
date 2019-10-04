@@ -1,4 +1,5 @@
 ---
+redirect_url: segments-profile
 title: "View entity relations in the explore view (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to use the explore view to visualize entity relations in Dynamics 365 Marketing"
 keywords: segment;
