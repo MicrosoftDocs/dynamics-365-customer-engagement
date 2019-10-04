@@ -86,11 +86,11 @@ After you create agent script, you must add the agent script field to the form w
 
 2. Select **Settings** > **Customizations** > **Customize the System**. **Solution Explorer** opens in a new window.
 
-3. Expand **Entities** and select the entity to which you want to add the field. In this procedure, let us add to the **Customer Summary** form in the **Conversation** entity.
+3. Expand **Entities** and select the entity for which you want to add the field. In this procedure, let us add to the **Customer Summary** form in the **Conversation** entity.
 
 4. Expand **Conversation** > **Forms** > **Customer Summary**. The **Customer Summary** form opens in a new window.
 
-5. Select **INSERT** tab from the commands bar, and then select **Section** > **One Column** in the command bar. The section added to the form.
+5. Select **INSERT** tab from the command bar, and then select **Section** > **One Column** in the command bar.
 
     > [!div class=mx-imgBorder] 
     > ![Add section](../media/agent-script-control5.png "Add section")
