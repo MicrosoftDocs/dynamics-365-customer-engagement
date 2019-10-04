@@ -36,51 +36,15 @@ You can access Common Data Service or Dynamics 365 Customer Engagement (on-premi
 |     [Android](https://go.microsoft.com/fwlink/p/?LinkID=519214)     | 4.4 or later |     2 GB (3 GB recommended for optimal performance )    |                   Tablets with screens larger than 7 inches (optimized for 9 to 10 inches)                     |
 | [Windows tablet](https://go.microsoft.com/fwlink/p/?linkid=862402) |      10       |     2 GB (4 GB recommended for optimal performance )    |                   1366 x 768 resolution (720p)                    |
  
-<a name="BKMK_CRMforTablets"></a>   
-## Support for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
   
-<a name="BKMK_Windows8"></a>   
-### Windows tablets  
-You can run the Dynamics 365 apps for Windows tablets app on devices that meet the following requirements:  
-  
-|||  
-|-|-|  
-|Operating system| 10 |  
-|Memory|Minimum RAM (memory) required is 2 GB. 4 GB RAM recommended for optimal performance|  
-|Resolution|1366 x 768 resolution (720p)|  
+## Install the app 
 
-You can also run the Dynamics 365 apps on a supported web browser on these devices. For more information about web browser support, see [Web application requirements for Microsoft Dynamics 365 apps](../admin/web-application-requirements.md).
+To install the app see, [Install the app from your device’s app store](https://docs.microsoft.com/en-us/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
 
-Download the Dynamics 365 apps from the Windows Marketplace for [Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=808734).  
-  
-<a name="BKMK_iPad"></a>   
-### Apple iPad  
-You can run the [!INCLUDE[pn_crm_for_ipad_shortest](../includes/pn-crm-for-ipad-shortest.md)] app on devices that meet the following requirements:    
-  
-- Device: [!INCLUDE[tn_ipad](../includes/tn-ipad.md)] third generation or later  
-  
-- Screen: 9-inch (diagonal) or larger  
+   
 
-[Download Microsoft Dynamics 365 apps for iPad from the Apple Store](http://go.microsoft.com/fwlink/p/?LinkId=313327)
- 
-  
-#### How to find the version of your [!INCLUDE[pn_crm_for_ipad](../includes/pn-crm-for-ipad.md)] app  
-  
-- In the [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] app, go to the home screen, and then open the command bar. Tap **Settings**, and then tap **About**.  
-  
-<a name="BKMK_Nexus"></a>   
-### Android  
-You can run the [!INCLUDE[pn_moca_CRM_Android](../includes/pn-moca-crm-android.md)] app on devices that meet the following requirements:
-
-- Android versions 4.4
-
-- Tablets with screens larger than 7 inches (optimized for 9 to 10 inches) using [!INCLUDE[pn_moca_CRM_Android_full](../includes/pn-moca-crm-android-full.md)].  
- 
-[Download Microsoft Dynamics 365 apps for Android from Google play](http://go.microsoft.com/fwlink/p/?LinkID=392913)
-  
-<a name="BKMK_BrowserSupport"></a>   
 ## Web browser support for tablets  
- You can run your app in the default web browser on any Windows 10 device, including a Windows 10 PC, but the user interface is optimized for touch. For [Apple iPad](../mobile-app/support-phones-tablets.md#BKMK_iPad) tablets,  iOS 10 and later are supported. For [Android](../mobile-app/support-phones-tablets.md#BKMK_Nexus), versions 6.0 and above are supported for the tablets.  
+ You can run your app in the default web browser on any Windows 10 device, including a Windows 10 PC, but the user interface is optimized for touch. For Apple iPad  iOS 10 and later are supported. For Android versions 6.0 and above are supported for the tablets.  
   
  Using your app on a web browser on an Apple or Android mobile device provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:  
   
@@ -103,6 +67,8 @@ You can run the [!INCLUDE[pn_moca_CRM_Android](../includes/pn-moca-crm-android.m
 - [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)] presence  
   
 - Entities that use classic forms such as Goal and Order Product see, [Entities using classic forms](../customize/create-design-forms.md).  
+
+For more information about web browser support, see [Web application requirements for Microsoft Dynamics 365 apps](../admin/web-application-requirements.md).
 
 
 ## Deprecated and unsupported OS
