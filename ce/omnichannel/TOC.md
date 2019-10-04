@@ -213,6 +213,7 @@
 #### [msdyn_operatinghour](developer/reference/entities/msdyn_operatinghour.md)
 #### [msdyn_presence](developer/reference/entities/msdyn_presence.md)
 #### [msdyn_questionsequence](developer/reference/entities/msdyn_questionsequence.md)
+#### [msdyn_routingruleinstance](developer/reference/entities/msdyn_routingruleinstance.md)
 #### [msdyn_searchconfiguration](developer/reference/entities/msdyn_searchconfiguration.md)
 #### [msdyn_sentimentanalysis](developer/reference/entities/msdyn_sentimentanalysis.md)
 #### [msdyn_sessionevent](developer/reference/entities/msdyn_sessionevent.md)
