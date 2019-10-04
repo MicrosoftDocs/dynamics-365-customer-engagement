@@ -21,7 +21,7 @@ This topic provides the list of features that are introduced in the latest versi
 
 ## What's new in Channel Integration Framework version 2.0
 
-[!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!IMPORTANT]
 > All APIs released for Channel Integration Framework version 1.0 can be used with the latest version. The APIs for managing tabs and sessions are not supported on single session apps.

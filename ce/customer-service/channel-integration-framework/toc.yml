@@ -106,7 +106,7 @@
         - name: "setSessionTitle"
           href: reference/microsoft-ciframework/setsessiontitle.md
         - name: "renderFocusSession"
-          href: reference/microsoft-ciframework/renderFocusSession.md
+          href: reference/microsoft-ciframework/renderfocussession.md
       - name: "Application Tab management APIs"
         items:
         - name: "createTab"
@@ -116,7 +116,7 @@
         - name: "focusTab"
           href: reference/microsoft-ciframework/focustab.md
         - name: "getFocusedTab"
-          href: reference/microsoft-ciframework/getfocusedtabs.md
+          href: reference/microsoft-ciframework/getfocusedtab.md
         - name: "refreshTab"
           href: reference/microsoft-ciframework/refreshtab.md
         - name: "setTabTitle"
