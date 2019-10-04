@@ -12,15 +12,19 @@ ms.assetid: 66C16030-FECB-4854-B714-A0961CE35195
 ms.custom: 
 ---
 
-# Configure proactive chat
+# Preview: Configure proactive chat
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
+> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
+> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
 
-<!--from editor: Wonder if it should be "A chat channel" in the first sentence below. I see "Configure a chat channel" in the TOC. -->
-
-Chat channel allows your customers to engage with customer service agents using the chat widget on a website. Proactive chat allows customer service agents to engage with customers by automatically inviting them to a chat conversation based on the configured rules. Proactively engaging with a customer at the time when they need help improves customer experience and satisfaction.
+A chat channel allows your customers to engage with customer service agents using the chat widget on a website. Proactive chat allows customer service agents to engage with customers by automatically inviting them to a chat conversation based on the configured rules. Proactively engaging with a customer at the time when they need help improves customer experience and satisfaction.
 
 Information about the user journey, time spent on a web page, and more can be used to decide when to engage with a customer. You can control the proactive chat experience by using personalized trigger messages and configurable rules to define the target audience, time frame, and target location.
 
@@ -43,15 +47,8 @@ The conditions to trigger the proactive chat are defined in the web page code in
 
 When proactive chat is enabled, the chat invitation is displayed to customers based on the configured triggers.
 
-
-<!--from editor: If possible, one sentence in the screenshot would read better if it said "Do you have any questions about home loans?"
-
-
 > [!div class=mx-imgBorder]
 > ![Proactive chat notification](../media/proactive-chat-invite.png "Proactive chat notification")
-
-
-<!--from editor: Or the customer can ignore it, right? -->
 
 A customer can choose to accept the chat invitation or close it. The chat invitation closes automatically after one minute if the customer does not accept it.
 
