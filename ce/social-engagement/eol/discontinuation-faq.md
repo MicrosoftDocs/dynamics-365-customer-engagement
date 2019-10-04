@@ -31,6 +31,8 @@ Effective January 16, 2019, Microsoft Social Engagement will no longer be includ
 
 Also starting October 1, 2019, Microsoft Social Engagement will no longer support Twitter as a data source. However, social engagement capabilities are not expected to function differently without Twitter data.
 
+Additionally starting October 23, 2019, Social Engagement cutomers will not receive any more data from posts and comments from Facebook pages they do not own.
+
 ###	Why is Microsoft Social Engagement being discontinued? 
 
 Based on market trends and strategic direction, we have decided to focus [Dynamics 365 Market Insights Preview](https://dynamics.microsoft.com/ai/market-insights/) on providing insights about broader market patterns derived from aggregated data to help business professionals make decisions. 
