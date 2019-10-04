@@ -52,9 +52,10 @@ Channel Integration Framework provides insights about how the call center is per
 
 The two APIs for tracking event analytics are:
 
-- [initLogAnalytics](reference/microsoft-ciframework/initLogAnalytics.md)
-
-- [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md)
+| Name | Description |
+|-------|-------|
+| [initLogAnalytics](reference/microsoft-ciframework/initLogAnalytics.md) | Invoke this method on an incoming conversation to log analytics. |
+| [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events. |
 
 ### See also
 
