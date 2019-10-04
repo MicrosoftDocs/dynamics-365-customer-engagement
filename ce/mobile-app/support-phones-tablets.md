@@ -71,7 +71,7 @@ To install the app see, [Install the app from your device’s app store](https:/
 For more information about web browser support, see [Web application requirements for Microsoft Dynamics 365 apps](../admin/web-application-requirements.md).
 
 
-## Deprecated and unsupported OS
+## Deprecated and unsupported platforms
 
 - On December 1, 2019, the mobile app will no longer ssupport  iOS 10, Android 4.4, and Android 5. The minimum Android version will be 6.0.1 and the minimum iOS version will be 11.4.1.
 
