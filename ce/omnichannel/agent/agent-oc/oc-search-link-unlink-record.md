@@ -5,7 +5,6 @@ keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -113,6 +112,6 @@ To unlink a record, select the **X** button next to the customer name in the cus
 ## See also
 
 - [View customer summary and know everything about customers](oc-customer-summary.md)
-- [View conversation and session activity types in the Customer Engagement apps](oc-view-activity-types.md)
+- [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
 - [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 - [Create a record](oc-create-record.md)

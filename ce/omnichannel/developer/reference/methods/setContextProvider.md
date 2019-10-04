@@ -5,7 +5,6 @@ keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-applies_to: 
 ms.date: 08/29/2019
 ms.service: 
 ms.topic: article

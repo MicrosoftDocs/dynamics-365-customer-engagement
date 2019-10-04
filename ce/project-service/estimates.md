@@ -1,6 +1,6 @@
 ---
 title: Estimates
-description: This topic provides information about estimates for Dynamics 365 for Project Service Automation (PSA). 
+description: This topic provides information about estimates in Dynamics 365 Project Service Automation. 
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-On a project-based quote, you can use the Quote line detail entity in Microsoft Dynamics 365 for Project Service Automation (PSA) to estimate the work that is required to deliver a project. You can then share that estimate with the customer.
+On a project-based quote, you can use the Quote line detail entity to estimate the work that is required to deliver a project. You can then share that estimate with the customer.
 
 Project-based quote lines don't have to have any quote line details. Alternatively, they can have many quote line details. Quote line details are used to estimate time, expenses, or fees. PSA doesn't allow for material estimates on quote line details. These are called transaction classes. Estimated tax amounts can also be entered on a transaction class.
 

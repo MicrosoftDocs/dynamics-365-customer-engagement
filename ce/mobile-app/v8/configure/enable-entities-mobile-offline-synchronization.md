@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement apps
+applies_to: Dynamics 365 apps
 ms.assetid: da282f05-9188-40ec-b835-d4e991609edc
 caps.latest.revision: 7
 ms.author: mkaur
@@ -23,7 +23,7 @@ search.app:
 ---
 # Enable entities for mobile offline synchronization
 
-You can enable any entity for mobile offline that is enabled for mobile. By default, no entities are enabled for mobile offline , so you need to follow these steps for each entity you want to make available for users when they’re offline. You can find a list of entities available for mobile in [Entities and Dynamics 365 for phones and tablets](https://technet.microsoft.com/en-us/library/dn531159.aspx#BKMK_CustomEntity).  
+You can enable any entity for mobile offline that is enabled for mobile. By default, no entities are enabled for mobile offline , so you need to follow these steps for each entity you want to make available for users when they’re offline. You can find a list of entities available for mobile in [Entities and Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn531159.aspx#BKMK_CustomEntity).  
   
  The following entities are enabled for mobile by default:  
   

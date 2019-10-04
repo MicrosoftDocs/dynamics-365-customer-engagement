@@ -8,8 +8,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps 
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -32,11 +32,11 @@ Looking for help on the **Synchronization Settings for Outlook or Exchange**  di
   
 - **Synchronization Settings for [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] dialog box**. This dialog box has three tabs:  
   
-  - **User Filters**. Use this tab to choose the records that are synchronized between [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] when you’re online. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose the records to synchronize between Dynamics 365 for Customer Engagement apps and Outlook or Exchange](choose-records-synchronize-exchange.md)  
+  - **User Filters**. Use this tab to choose the records that are synchronized between [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] when you’re online. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose the records to synchronize between Dynamics 365 apps and Outlook or Exchange](choose-records-synchronize-exchange.md)  
   
   - **System Filters**. System administrators can programmatically modify online synchronization filters for an entire organization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [MSDN: Offline and Outlook filters and templates](https://msdn.microsoft.com/library/gg328205.aspx)  
   
-  - **Synchronization Fields.** Use this tab to view the fields that are synchronized between [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], and to view the synchronization direction (one-way or two-way synchronization). [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [View the fields that are synchronized between Dynamics 365 for Customer Engagement apps and Dynamics 365 for Outlook](view-fields-synchronized.md)  
+  - **Synchronization Fields.** Use this tab to view the fields that are synchronized between [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], and to view the synchronization direction (one-way or two-way synchronization). [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [View the fields that are synchronized between Dynamics 365 apps and Dynamics 365 for Outlook](view-fields-synchronized.md)  
   
 - **Go Offline Settings dialog box**. This dialog box has two tabs:  
   

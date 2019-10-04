@@ -1,26 +1,14 @@
 ---
 title: "Configure notifications in Unified Service Desk | MicrosoftDocs"
 description: "Learn about configuring notifications in Unified Service Desk."
-keywords: 
+ms.custom: dyn365-USD
 ms.date: 04/10/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: ca7905ed-47a0-47c9-bbfe-5cb1738b0125
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 search.audienceType: 
   - customizer
   - developer
@@ -72,7 +60,7 @@ You can use default keyboard shortcuts to navigate to, shift focus to and from t
   
 <a name="CommandBinding"></a>   
 ### Command binding to execute UII actions, action calls, and events from notification  
- There are custom WPF commands available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] (Microsoft.Crm.UnifiedServiceDesk.Dynamics assembly) that can be associated to WPF controls such as buttons and hyperlinks in the form XAML to be hosted inside the notification control. The commands can be associated to the controls that implement the [ICommandSource](https://msdn.microsoft.com/en-us/library/system.windows.input.icommandsource\(v=vs.110\).aspx) interface. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Commanding Overview](https://msdn.microsoft.com/en-us/library/ms752308\(v=vs.110\).aspx).  
+ There are custom WPF commands available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] (Microsoft.Crm.UnifiedServiceDesk.Dynamics assembly) that can be associated to WPF controls such as buttons and hyperlinks in the form XAML to be hosted inside the notification control. The commands can be associated to the controls that implement the [ICommandSource](https://msdn.microsoft.com/library/system.windows.input.icommandsource\(v=vs.110\).aspx) interface. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Commanding Overview](https://msdn.microsoft.com/library/ms752308\(v=vs.110\).aspx).  
   
  The commands can be used to execute actions on any hosted control or fire events from the notification control that hosts the form XAML.  
   

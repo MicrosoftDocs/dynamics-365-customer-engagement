@@ -25,8 +25,8 @@ Ready to connect Azure IoT Central to Connected Field Service (CFS) using Micros
 
 Before you take these tutorials, you need to complete four tasks:
 - Provision the Azure IoT Central solution using the sample Contoso template.
-- Get a Dynamics 365 for Field Service tenant with system administrator credentials. 
-- Install the Dynamics 365 for Customer Engagement Connected Field Service add-on from the Dynamics 365 for Customer Engagement admin center.
+- Get a Dynamics 365 Field Service tenant with system administrator credentials. 
+- Install the Dynamics 365 Connected Field Service add-on from the Dynamics 365  admin center.
 - Install Connected Field Service sample data.
 
 This topic provides you with links to everything you need, and walks you through the steps to get started.
@@ -47,17 +47,17 @@ After a few seconds, you'll see the Contoso home page.
 > [!div class="mx-imgBorder"]
 > ![Contoso home page for Azure IoT Central](media/Azure-IoT-Central-Contoso-home-dialog.PNG "Contoso home page for Azure IoT Central")
 
-## Get a Dynamics 365 for Field Service tenant with system administrator credentials 
+## Get a Dynamics 365 Field Service tenant with system administrator credentials 
 
-You'll need a Dynamics 365 for Field Service tenant that you can connect your IoT solution to.
+You'll need a Dynamics 365 Field Service tenant that you can connect your IoT solution to.
      
 New to Field Service and need a tenant? No worries. [Sign up for a free trial for development purposes](https://appsource.microsoft.com/product/dynamics-365/mscrm.40fd37ef-dca4-4b0d-9f41-d16703b7d070).
 
-## Install the Dynamics 365 for Customer Engagement Connected Field Service add-on from the Dynamics 365 for Customer Engagement admin center  
+## Install the Dynamics 365 Connected Field Service add-on from the Dynamics 365 admin center  
 
 To install Connected Field Service:
-1. Navigate to the Dynamics 365 for Customer Engagement admin center. 
-2. On the **Instances** page, select the Dynamics 365 for Field Service tenant, and then edit **Solutions**. 
+1. Navigate to the Dynamics 365 admin center. 
+2. On the **Instances** page, select the Dynamics 365 Field Service tenant, and then edit **Solutions**. 
 3. On the **Manage your solutions** page, select **Connected Field Service version 1.0.18266.4**, and then select **Install**. Follow the on-screen instructions to complete the installation.
     
 ## Install Connected Field Service sample data    
@@ -73,7 +73,7 @@ To install the Connected Field Service sample data:
 
 5. Right-click the zip file, select **Extract All**, and then select **Extract**.
 6. Double-click **packagedeployer.exe** to run it and install the sample data. 
-7. When prompted, enter your system administrator credentials to sign in to your Dynamics 365 for Customer Engagement tenant. When you see the Azure IoT Central and Connected Field Service sample data deployment page, follow the on-screen instructions to complete the installation.
+7. When prompted, enter your system administrator credentials to sign in to your Dynamics 365 tenant. When you see the Azure IoT Central and Connected Field Service sample data deployment page, follow the on-screen instructions to complete the installation.
 
 That's it! You're ready to take the tutorials.
    

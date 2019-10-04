@@ -1,14 +1,12 @@
 ---
-title: "Create a marketing segment (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "A tutorial for how to create a marketing segment and define its membership criteria in Dynamics 365 for Marketing"
+title: "Create a marketing segment (Dynamics 365 Marketing) | Microsoft Docs"
+description: "A tutorial for how to create a marketing segment and define its membership criteria in Dynamics 365 Marketing"
 keywords: tutorial; segments; dynamic segments
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c4de5589-b20f-4318-8443-7485c5b1a27b
 author: kamaybac
 ms.author: kamaybac
@@ -28,11 +26,11 @@ search.app:
 
 One of the first and most important decisions you'll make when you design any marketing piece is to choose the right audience. Only after you know this will you be able to tailor your message to best appeal to that group of people.
 
-In [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you'll set up a collection of segments, which you'll define by using terms that resemble those you already use to describe groups of customers, such as "female wine enthusiasts over 40 living in San Francisco" or "craft beer fans from North Carolina who visited our booth at the festival." Then you'll use these segments to target marketing initiatives like email-marketing campaigns and customer journeys. Segments like these, which you define by using a set of rules and conditions, are called *dynamic segments* because membership in these segments changes constantly and automatically based on information in your customer engagement database. (Static segments are populated by adding contacts explicitly, one at a time.)
+In Dynamics 365 Marketing, you'll set up a collection of segments, which you'll define by using terms that resemble those you already use to describe groups of customers, such as "female wine enthusiasts over 40 living in San Francisco" or "craft beer fans from North Carolina who visited our booth at the festival." Then you'll use these segments to target marketing initiatives like email-marketing campaigns and customer journeys. Segments like these, which you define by using a set of rules and conditions, are called *dynamic segments* because membership in these segments changes constantly and automatically based on information in your database. (Static segments are populated by adding contacts explicitly, one at a time.)
 
 In this exercise, you'll create a couple of fictional contacts with email addresses that you can receive mail from, and then set up a test segment that includes those contacts. This test segment will be useful later when you begin to experiment with customer journeys.
 
-1. Go to **Marketing** &gt; **Customers** &gt; **Contacts**. This takes you to a list of existing contacts. On the command bar, select **New**.  
+1. Go to **Marketing** > **Customers** > **Contacts**. This takes you to a list of existing contacts. On the command bar, select **New**.  
     ![Location of the new-contact button](media/new-contact-button-location.png "Location of the New button to create a contact")
 
 2. The **New Contact** page opens.  
@@ -47,7 +45,7 @@ In this exercise, you'll create a couple of fictional contacts with email addres
 
 4. Create a second contact similar to the one you just made. Use the same email address and fictional city, but use a different first and last name.
 
-5. Go to **Marketing** &gt; **Customers** &gt; **Segments**. This takes you to a list of existing segments. On the command bar, select **New**.  
+5. Go to **Marketing** > **Customers** > **Segments**. This takes you to a list of existing segments. On the command bar, select **New**.  
     ![Location of the new-segment button](media/new-segment-button-location.png "Location of the New button to create a segment")
 
 6. The **New Segment** page opens, with the **General** tab shown. Enter information on the **General** tab to name and describe your new segment. Be sure to leave the **Segment type** set to **Dynamic segment**.  
@@ -81,7 +79,7 @@ In this exercise, you'll create a couple of fictional contacts with email addres
 
 10. On the command bar, select **Save** to save the work you've done on the segment so far.
 
-11. On the command bar, select **Go Live** to publish the segment (you won't be able to use it in a customer journey until it goes live, even though you've saved it). [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] checks the segment for errors and reports any problems it finds. If an error is reported, fix it and try again. If no error is found, your segment is copied to the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] email marketing service, which makes it available for use by a customer journey.
+11. On the command bar, select **Go Live** to publish the segment (you won't be able to use it in a customer journey until it goes live, even though you've saved it). Dynamics 365 Marketing checks the segment for errors and reports any problems it finds. If an error is reported, fix it and try again. If no error is found, your segment is copied to the Dynamics 365 Marketing email marketing service, which makes it available for use by a customer journey.
 
 ### See also
 

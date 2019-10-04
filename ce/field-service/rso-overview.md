@@ -24,7 +24,7 @@ Resource Scheduling Optimization (RSO) is an add-on capability for the Dynamics
 work orders for the most appropriate resources, by optimizing bookings for the
 shortest travel time, available work hours, and many other constraints.
 
-RSO is one of three ways to schedule with Dynamics 365 for Field Service:
+RSO is one of three ways to schedule with Dynamics 365 Field Service:
 
 1.  **Manual scheduling**: Drag and drop work order requirements from the bottom
     panel to the resource’s calendar above.
@@ -78,15 +78,15 @@ for urgent situations.
 
 ## More resources 
 
--   [What’s New for Dynamics 365 for Customer Engagement Resource Scheduling Optimization v2.6
+-   [What’s New for Dynamics 365 Resource Scheduling Optimization v2.6
     Release](https://blogs.msdn.microsoft.com/crm/2018/05/09/whats-new-for-dynamics-365-resource-scheduling-optimization-v2-6-release/)
--   [What’s New for Dynamics 365 for Customer Engagement Resource Scheduling Optimization v2.5
+-   [What’s New for Dynamics 365 Resource Scheduling Optimization v2.5
     Release](https://blogs.msdn.microsoft.com/crm/2018/04/02/whats-new-for-dynamics-365-resource-scheduling-optimization-v2-5-release/)
 -   [Release Notes for Resource Scheduling Optimization (v2.0) – Dynamics
     365](https://blogs.msdn.microsoft.com/crm/2017/12/12/release-notes-for-resource-scheduling-optimization-v2-0-17335-1-dynamics-365/)
--   [What’s New for Dynamics 365 for Customer Engagement Resource Scheduling Optimization v1.5
+-   [What’s New for Dynamics 365 Resource Scheduling Optimization v1.5
     Release](https://blogs.msdn.microsoft.com/crm/2017/10/26/whats-new-for-dynamics-365-resource-scheduling-optimization-v1-5-17284-2-release/)
--   [Scheduling anything in Dynamics 365 for Customer Engagement with Universal Resource
+-   [Scheduling anything in Dynamics 365 with Universal Resource
     Scheduling](https://www.microsoft.com/en-US/dynamics/crm-customer-center/scheduling-anything-in-dynamics-365-with-universal-resource-scheduling.aspx)
 
 <a name="bkmk_step3 "></a>   

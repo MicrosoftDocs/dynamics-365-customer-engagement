@@ -1,5 +1,5 @@
 ---
-title: "Configure a load form and load tab step type for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Configure a load form and load tab step type for a portal | MicrosoftDocs"
 description: "Instructions to define a load form and load tab step type in a portal."
 ms.custom: 
   - dyn365-portal
@@ -22,7 +22,7 @@ search.app:
   - D365Portals
 ---
 # Define a load form and load tab step type
-This step type allows the web form step to act as an entity form within the overall web form process. It loads a form from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] with a similar set of options available as an Entity Form.
+This step type allows the web form step to act as an entity form within the overall web form process. It loads a form with a similar set of options available as an Entity Form.
 
 ## Settings
 
@@ -45,9 +45,9 @@ This step type allows the web form step to act as an entity form within the over
 
 |                Name                |                                                                                 Description                                                                                 |
 |------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|    Render Web Resources Inline     |                     Eliminates the iFrame that encompasses a web resource in a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity form.                     |
+|    Render Web Resources Inline     |                     Eliminates the iFrame that encompasses a web resource in a entity form.                     |
 |          ToolTips Enabled          |                                               The tooltip is set using the description of the attribute on the target entity.                                               |
-|      Show Unsupported Fields       |       All fields are currently supported. This is reserved for potential changes [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] may make to field types.       |
+|      Show Unsupported Fields       |       All fields are currently supported. This is reserved for potential changes may make to field types.       |
 | Set Recommended Fields as Required |                                     Makes all attributes required that have the field requirement level set to 'Business Recommended'.                                      |
 |      Make All Fields Required      |                                                    Makes all fields required regardless of the field requirement level.                                                     |
 |    Validation Summary CSS Class    |                               CSS Class name assigned to the validation summary. Default: 'validation-summary alert alert-error alert-block'                                |
@@ -111,15 +111,15 @@ This provides a way to associate the current record being created or updated by 
 |                          Attach File                           |                                                                                                                                                          Check to have the form include a file upload control to the bottom of the form to allow a file to be attached to the record.                                                                                                                                                           |
 |                      Allow Multiple Files                      |                                                                                                                                                                                 A Boolean value that indicates whether the user can upload more than one file.                                                                                                                                                                                  |
 |                             Accept                             |                                                                                                                 The accept attribute specifies the MIME types of files that the server accepts through file upload. To specify more than one value, separate the values with a comma (for example, audio/\*,video/\*,image/\*).                                                                                                                 |
-|                             Label                              |                                                                                          The text displayed next to the file upload control. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language.                                                                                           |
+|                             Label                              |                                                                                          The text displayed next to the file upload control. For each language pack installed and enabled for the Common Data Service environment a field will be available to enter the message in the associated language.                                                                                           |
 |                          Is Required                           |                                                                                                                                                                                           Checked makes the attachment of a file required to proceed.                                                                                                                                                                                           |
-|                     Required Error Message                     |                                                               The message displayed during form validation if Is Required is true and the user has not attached a file. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language.                                                                |
+|                     Required Error Message                     |                                                               The message displayed during form validation if Is Required is true and the user has not attached a file. For each language pack installed and enabled for the Common Data Service environment a field will be available to enter the message in the associated language.                                                                |
 | Custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] | A custom block of [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] that will added to the bottom of the page just before the closing form tag element. The HTML input id of an entity field is set to the logical name of the attribute. This makes selecting a field, setting values, or other client side manipulation easy with jQuery. ``` $(document).ready(function() { $(#address1_stateorprovince).val(Saskatchewan); });``` |
 
 ### See also
 
-[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md)  
+[Configure a portal](configure-portal.md)  
+[Define entity forms and custom logic within a portal](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Redirect step type](add-redirect-step.md)  
 [Conditional step type](add-conditional-step.md)  

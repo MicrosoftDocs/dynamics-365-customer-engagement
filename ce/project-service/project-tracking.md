@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-The need to track progress against a schedule varies by industry. Some industries track at a granular level, whereas other industries track at a higher level. This topic shows how to schedule in Microsoft Dynamics 365 for Project Service Automation to meet your organization's requirements.
+The need to track progress against a schedule varies by industry. Some industries track at a granular level, whereas other industries track at a higher level. This topic shows how to schedule in order to meet your organization's requirements.
 
 ## Effort tracking view
 
