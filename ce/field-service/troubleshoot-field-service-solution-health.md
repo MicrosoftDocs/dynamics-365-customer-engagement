@@ -29,7 +29,9 @@ search.app:
 # Troubleshoot Field Service issues with Solution Health Hub
 
 The Solution Health Hub extends the PowerApps checker to ensure continued healthy operation of an environment. Where the PowerApps checker reviews code present in an environment to validate the health of the environment based on predefined rules, the Solution Health Hub runs rules within an instance to validate the configuration of the environment, which might change over time through natural system operations.
-For Field Service in particular, there is a ruleset preconfigured when Field Service with the version 8.4.0.338 or later for UCI or  7.5.7.87 for the web version are installed in an environment. This ruleset currently contains 15 rules that verify that the environment is in a good state. 
+
+
+
 Currently an Analysis Job is automatically triggered when Field Service is installed from scratch or when it is updated to a recent version. This analysis job verifies that the system is in a good state after upgrading.
 
 
@@ -38,11 +40,10 @@ Solution Health Hub allows you to get a better picture of the state of your envi
 It is advisable to use the solution health hub and run the Field Service ruleset regularly and monitor the health of your environment. The other use case is to trigger an analysis job whenever you encounter problems. This way issues can be resolved early on before they cause issues.
 
 ## Prerequisites
-> [!Note]
->
 
+- Ruleset preconfigured with Field Service v8.4.0.338+ (UCI) or  v7.5.7.87+ (Web)
 
-
+- At the time of this publication, the ruleset contains 15 rules that verify the environment is in a good state. 
 
 
 How to trigger a health check using Solution Health Hub
@@ -55,13 +56,6 @@ To run an Analyis Job for Field Service follow these steps:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/troubleshoot-solution-health-fs-rules.png)
-
-
-You will automatically be directed to the overview page of this Analysis Job and the page will automatically refresh when the run has finished. You can see the overview of a run on the picture below.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/troubleshoot-solution-health-fs-rules-analysis.png)
 
 This is the full list of rules that are currently being shipped as part of Field Service including a quick description what they are checking for:
 
@@ -83,6 +77,15 @@ This is the full list of rules that are currently being shipped as part of Field
 | Incomplete Field Service Upgrade	| Detects whether a Field Service upgrade had started but had not been completed successfully.| 
 | Customizations on 'Connected Field Service' app module	| Checks whether there are customizations to the Connected Field Service appmodule that is being deprecated and shouldn’t be customized.| 
 | Customized Optionsets	| Detects whether any optionset in Field Service that is not supposed to be customized has been customized. Customizing optionsets can lead to unexpected behavior.| 
+
+
+
+You will automatically be directed to the overview page of this Analysis Job and the page will automatically refresh when the run has finished. You can see the overview of a run on the picture below.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/troubleshoot-solution-health-fs-rules-analysis.png)
+
 
 
 
