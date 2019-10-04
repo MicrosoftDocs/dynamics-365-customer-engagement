@@ -21,6 +21,8 @@ manager: shujoshi
 
 [!include[applies-to-v2](../../includes/applies-to-v2.md)]
 
+[!include[session-api-omnichannel](../../includes/session-api-omnichannel.md)]
+
 Sets the session title, if the session belongs to the channel provider.
 
 ## Syntax

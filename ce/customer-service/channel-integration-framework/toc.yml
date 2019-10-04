@@ -23,6 +23,8 @@
     href: modes-communication-widget.md
   - name: "Templates"
     href: templates.md
+  - name: "Channel Analytics"
+    href: channel-analytics.md
   - name: How-to
     items:
     - name: "Configure channel provider for your Dynamics 365 organization"
@@ -121,8 +123,6 @@
           href: reference/microsoft-ciframework/settabtitle.md
       - name: "Analytics APIs"
         items:
-        - name: "Overview"
-          href: reference/microsoft-ciframework/channel-analytics.md
         - name: "initLogAnalytics"
           href: reference/microsoft-ciframework/initLogAnalytics.md
         - name: "logAnalyticsEvent"

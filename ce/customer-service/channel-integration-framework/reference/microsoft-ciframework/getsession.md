@@ -19,6 +19,10 @@ manager: shujoshi
 
 [!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
+[!include[applies-to-v2](../../includes/applies-to-v2.md)]
+
+[!include[session-api-omnichannel](../../includes/session-api-omnichannel.md)]
+
 Returns an object containing the unique identifier of the session, context and the value of isFocused parameter, in case the session belongs to the channel provider.
 
 ## Syntax

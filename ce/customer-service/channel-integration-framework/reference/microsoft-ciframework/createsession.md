@@ -19,6 +19,10 @@ manager: shujoshi
 
 [!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
+[!include[applies-to-v2](../../includes/applies-to-v2.md)]
+
+[!include[session-api-omnichannel](../../includes/session-api-omnichannel.md)]
+
 Creates a session based on the session template defined as part of the template and returns the unique identifier of the session (Id) that was created.
 
 ## Syntax

@@ -19,6 +19,10 @@ manager: shujoshi
 
 [!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
+[!include[applies-to-v2](../../includes/applies-to-v2.md)]
+
+[!include[session-api-omnichannel](../../includes/session-api-omnichannel.md)]
+
 Allows you to check if a new session can be created.
 
 ### Syntax

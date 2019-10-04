@@ -2,7 +2,7 @@
 title: "Channel Analytics | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 10/01/2019
+ms.date: 10/04/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -23,9 +23,9 @@ Channel Integration Framework provides insights about how the call center is per
 
 The two APIs for tracking event analytics are:
 
-- [initLogAnalytics](initLogAnalytics.md)
+- [initLogAnalytics](reference/microsoft-ciframework/initLogAnalytics.md)
 
-- [logAnalyticsEvent](logAnalyticsEvent.md)
+- [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md)
 
 ### See also
 
