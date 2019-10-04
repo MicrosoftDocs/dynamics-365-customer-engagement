@@ -2,7 +2,7 @@
 title: "Discontinuation of Microsoft Social Engagement | Microsoft Docs"
 description: "Information about the discontinuation of the Microsoft Social Engagement service."
 keywords: "discontinuation, MSE, AI for Market Insights"
-ms.date: 05/31/2019
+ms.date: 10/05/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -42,6 +42,10 @@ The announcement will be communicated through periodic customer emails and exist
 ###	What is the recommended path for Microsoft Social Engagement customers and prospects?
 
 If you are seeking a social engagement solution, please look for other [solutions available in Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?search=social) or external marketplaces. If you are looking for aggregated insights based on web activities, you can preview email alerts based on US web data in [Dynamics 365 Market Insights Preview](https://dynamics.microsoft.com/ai/market-insights/) for free.
+
+### What are the recent changes to Facebook based capabilities in Microsoft Social Engagement? 
+
+Starting on October 23, 2019, Microsoft Social Engagement customers will not receive any more data from posts and comments from Facebook pages they do not own. However, posts and comments from Facebook pages owned by the customer and private messages from Facebook pages will continue to be available. As Microsoft previously informed all customers, Social Engagement will sunset for all customers by the end of their current subscription or January 16, 2020, whichever is sooner. Customers are requested to look for other solutions available in [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?search=social) or outside markets. Please email [mseeol@microsoft.com](mailto:mseeol@microsoft.com) for any further assistance. 
 
 ## Subscription and billing information
 
