@@ -164,9 +164,11 @@ To configure a form element, select it in your layout, open the **Properties** t
 
 - **Marketing form**: Choose the marketing form to be placed by the form element. Usually, you'll just use an existing form, but you can also create a new one from here if needed. You can only select or create a marketing form that matches the current page type.
 - **Update contacts/leads:** This is a read-only field that shows whether the selected marketing form is set to update contacts and/or leads in response to form submissions.
-- **Confirmation message**: Enter a message to show to visitors right after they submit the form. Use this to thank the submitter and confirm their submission.
-- **Error message**: Enter a short message that tells the user that a temporary error has prevented the system from accepting the form submission. For example, "We can't accept your form submission right now. Please try again later."
-- **Limit exceeded message**: Enter a short message announcing that the system has stopped processing new submissions temporarily, and inviting the user to try again later. This situation can occur if the server detects a submission pattern consistent with abuse of the system and has therefore entered a defensive stance.
+- **Success notification**: Enter a message to show to visitors right after they submit the form. Use this to thank the submitter and confirm their submission.
+- **Success image URL**: The success-notification message is rendered as an overlay dialog that includes a small graphic. By default, it shows a green circle with a check mark. If you prefer a custom graphic (such as your organization's logo), then upload the graphic somewhere and enter the full URL here.
+- **Error notification**: Enter a short message that tells the user that a temporary error has prevented the system from accepting the form submission. For example, "We can't accept your form submission right now. Please try again later."
+- **Error image URL**: The error-notification message includes a small graphic. By default, it shows a red circle with an X mark. If you prefer a custom graphic, then upload the graphic somewhere and enter the full URL here.
+- **Limit exceeded notification**: Enter a short message announcing that the system has stopped processing new submissions temporarily, and inviting the user to try again later. This situation can occur if the server detects a submission pattern consistent with abuse of the system and has therefore entered a defensive stance.
 - **Redirect URL**: Enter a URL to send the submitter to immediately after they submit the form. This typically would be a page on your own website that thanks the submitter and confirms their submission, or some other message related to the purpose of your marketing page.
 
 <a name="form-content-elements"></a>

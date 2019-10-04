@@ -262,6 +262,12 @@ When you've finished designing your customer journey, do the following to verify
 
 As soon as your journey starts running, it will be begin to generate and collect information about where your contacts are in their journey and how they've interacted with its various elements such as emails, pages, and events. Dynamics 365 Marketing provides a wealth of information, including analyitics, KPIs, graphs, and more, to help you gain insights from your marketing results. More information: [Analyze results to gain insights from your marketing activities](insights.md)
 
+## View milestones in the customer journey life cycle
+
+Customer journeys pass through many states while you create, edit, and run them. You can now view a full history of these milestones for any customer journey. To see them, open any live or previously live journey, go to its Designer tab, make sure no tile is selected, and then view the Data panel.
+ 
+![Journey events list](media/journey-events.png "Journey events list")
+
 ### See also
 
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
