@@ -28,16 +28,13 @@ search.app:
 
 # Troubleshoot Field Service issues with Solution Health Hub
 
-The Solution Health Hub extends the PowerApps checker to ensure continued healthy operation of an environment. Where the PowerApps checker reviews code present in an environment to validate the health of the environment based on predefined rules, the Solution Health Hub runs rules within an instance to validate the configuration of the environment, which might change over time through natural system operations.
+Solution health hub allows you to get a better picture of the state of your environment and detect and sometimes fix issues with your Dynamics 365 environment. It does this by running rules within an instance to validate the configuration of the environment, which might change over time through natural system operations. Some of the rules are specific to Field Service and you can run the rules on demand when you encounter an issue. Some rules automatically trigger when Field Service is installed or updated. It is advisable to use the solution health hub and run the Field Service ruleset regularly and monitor the health of your environment.
 
 
+There are a range of issues that are being detected by the rules. There are issues that will later lead to runtime issues, like customized webresources. Another common thing that can be detected is when there are processes that are assigned to disabled users, the upgrade will fail. These things can be detected before they will cause problems and you can address them right then.
 
-Currently an Analysis Job is automatically triggered when Field Service is installed from scratch or when it is updated to a recent version. This analysis job verifies that the system is in a good state after upgrading.
 
-
-Solution Health Hub allows you to get a better picture of the state of your environment. There are a range of issues that are being detected by the rules. There are issues that will later lead to runtime issues, like customized webresources. Another common thing that can be detected is when there are processes that are assigned to disabled users, the upgrade will fail. These things can be detected before they will cause problems and you can address them right then.
-
-It is advisable to use the solution health hub and run the Field Service ruleset regularly and monitor the health of your environment. The other use case is to trigger an analysis job whenever you encounter problems. This way issues can be resolved early on before they cause issues.
+The Solution Health Hub extends the [PowerApps checker](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/use-powerapps-checker) to ensure continued healthy operation of an environment. 
 
 ## Prerequisites
 
