@@ -118,7 +118,7 @@ To fix the issue, do the following:
 6. Open the security role identified above.
 7. Go to the **Core Records** tab.
 8. Give **Create** permissions to **SharePoint Site** and **Document Location**.
-9. Select**Save and Close**.
+9. Select **Save and Close**.
 
 Now when the user tries to pin the Common Data Service entity to the required Teams channel, it should work.
 
