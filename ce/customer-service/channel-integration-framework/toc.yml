@@ -100,7 +100,7 @@
         - name: "getSession"
           href: reference/microsoft-ciframework/getsession.md
         - name: "getFocusSession"
-          href: reference/microsoft-ciframework/getfocussession.md
+          href: reference/microsoft-ciframework/getfocusedsession.md
         - name: "getAllSessions"
           href: reference/microsoft-ciframework/getallsessions.md
         - name: "setSessionTitle"
