@@ -168,7 +168,7 @@ Create a new connection to Dynamics 365 Customer Engagement (on-premises) using 
 
 Create a new connection to Dynamics 365 Customer Engagement (on-premises) using a Application or Client Id and a Client Secret.
 ```xml
-<add name="MyCDSServer" 
+<add name="MyCRMServer" 
   connectionString="
   AuthType=ClientSecret;
   url=https://contoso:8080/Test;
