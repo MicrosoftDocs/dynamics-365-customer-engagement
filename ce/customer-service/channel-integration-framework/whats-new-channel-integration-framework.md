@@ -2,16 +2,13 @@
 title: "What's new in Channel Integration Framework (CIF)| Microsoft Docs"
 description: "Read about the new features provided in the latest release of Channel Integration Framework (CIF)."
 keywords: ""
-ms.date: 12/10/2018
+ms.date: 10/04/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"
 ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 42BEC0F2-AAA7-44A1-9BD7-EA2A04F5ACDB
 author: susikka
 ms.author: susikka
@@ -23,6 +20,8 @@ manager: shujoshi
 This topic provides the list of features that are introduced in the latest version of Channel Integration Framework.
 
 ## What's new in Channel Integration Framework version 2.0
+
+[!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!IMPORTANT]
 > All APIs released for Channel Integration Framework version 1.0 can be used with the latest version. The APIs for managing tabs and sessions are not supported on single session apps.
@@ -40,6 +39,10 @@ Providers can now define experiences for the minimized mode of the communication
 ### Support for Multiple Providers
 
 With Channel Integration Framework version 2.0, organizations can configure multiple providers in the Omnichannel for Customer Service app. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels (for example, live chat and telephony), where each of these sessions belong to different providers. For more information, see Support for Multiple Providers.
+
+### Channel Analytics
+
+Channel Integration Framework version 2.0 provides insights on how the call center is performing in terms of agent assignments, customer satisfaction, average handling time and agent performance. It uses predictive algorithms to calculate upcoming load, customer satisfaction, relationship scores and upsell probability, and helps you utilize operational and conversational analytics for better future planning. 
 
 ## What's new in Channel Integration Framework version 1.0
 
