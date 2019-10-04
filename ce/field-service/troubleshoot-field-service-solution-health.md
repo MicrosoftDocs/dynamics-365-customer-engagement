@@ -45,7 +45,7 @@ It is advisable to use the solution health hub and run the Field Service ruleset
 
 - At the time of this publication, the ruleset contains 15 rules that verify the environment is in a good state. 
 
-
+## Run a health check
 How to trigger a health check using Solution Health Hub
 To run an Analyis Job for Field Service follow these steps:
 1.	Open the Solution Health Hub app.
@@ -79,14 +79,13 @@ This is the full list of rules that are currently being shipped as part of Field
 | Customized Optionsets	| Detects whether any optionset in Field Service that is not supposed to be customized has been customized. Customizing optionsets can lead to unexpected behavior.| 
 
 
+## View health check results
 
 You will automatically be directed to the overview page of this Analysis Job and the page will automatically refresh when the run has finished. You can see the overview of a run on the picture below.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/troubleshoot-solution-health-fs-rules-analysis.png)
-
-
 
 
 When running an Analysis Job you will see a Return Status for each rule. The possible options are listed below. Rules also return a severity if they are failing which shows how severe a certain problem is.
