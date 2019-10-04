@@ -97,9 +97,9 @@ Select the **First Name** property with the description and select the pencil ic
 
 > [!TIP]
 > When using the Microsoft Edge browser, add your Dynamics 365 domain as a trusted site. This is required to read cookies from the linkedin.com domain. To 
-    1. Select the lock icon in the address bar on a Dynamics 365 record with Sales Navigator controls.
-    1. Select **Manage for all sites** under **Tracking prevention**.
-    1. Select **Exceptions** and add your Dynamics 365 domain to the list.
+> 1. Select the lock icon in the address bar on a Dynamics 365 record with Sales Navigator controls.
+> 2. Select **Manage for all sites** under **Tracking prevention**.
+> 3. Select **Exceptions** and add your Dynamics 365 domain to the list.
 
 ### See also
 
