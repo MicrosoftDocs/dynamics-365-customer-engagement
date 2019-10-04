@@ -133,7 +133,7 @@ For more information about how to backup interaction data to blob storage, see [
 You can create an on-demand backup at any time, but when Marketing is installed on your source instance, you must take a few extra precautions by using the following procedure:
 
 1. [Open the Dynamics 365 admin center](/dynamics-365-admin-center.md) and make sure that the Dynamics 365 Marketing application and its related solutions are all completely up to date on your source instance, as described in [Keep Marketing up to date](apply-updates.md).
-1. Create the on-demand backup as usual, as described in [On-demand backup](../admin/backup-restore-instances.md#on-demand-backup-dynamics-365-for-customer-engagement-apps-managed).
+1. Create the on-demand backup as usual, as described in [Backup and restore instances](../admin/backup-restore-instances.md).
 
 As with automatic backups, on-demand backups include the full organizational database, but not the interaction records stored in the marketing-insights service database. For more information about how to backup interaction data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
 
@@ -153,7 +153,7 @@ To restore a backup onto a sandbox instance:
 
 1. We highly recommend that you reset your target instance as described in [Reset a Sandbox instance](../admin/manage-sandbox-instances.md#reset-a-sandbox-instance).
 
-1. Restore the backup onto the newly prepared sandbox as usual, as described in [Restore a Dynamics 365 on-demand backup](../admin/backup-restore-instances.md#restore-a-dynamics-365-for-customer-engagement-apps-on-demand-backup).
+1. Restore the backup onto the newly prepared sandbox as usual, as described in [Backup and restore instances](../admin/backup-restore-instances.md).
 
 1. Prepare the restored instance for use by doing the following:
 
