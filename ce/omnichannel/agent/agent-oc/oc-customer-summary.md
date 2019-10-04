@@ -35,6 +35,8 @@ Customer summary is a page that gives you complete information about a customer.
 
  - Timeline
 
+- Agent script (If Dynamics 365 Productivity Tools is installed and configured). To learn more see [Guide agents with scripts](../../administrator/agent-scripts.md)
+
 > [!div class='mx-imgBorder']
 > ![View Customer summary](../../media/customer-summary.png "View Customer summary")
 
@@ -123,6 +125,18 @@ The **Linked records** field drop-down shows the record that is linked to conver
 
 > [!div class='mx-imgBorder']
 > ![View only the linked records in the drop-down](../../media/oceh/customer-summary-linked-records.PNG "View only the linked records in the drop-down")
+
+## Agent script
+
+Agent script in Omnichannel for Customer Service provides guidance about what you (agent) should be doing when you get a customer issue. It ensures that you share only the accurate and company-endorsed information. Agent scripts help you to be accurate, and effective while being faster and more-efficient in terms of customer handling.
+
+When you accept an incoming conversation request, a session starts and the **Customer Summary** application tab opens. You can see the Agent script section.
+
+The agent script has the following type of actions:
+
+- Text instructions
+- Macro
+- Sub agent script
 
 > [!div class="nextstepaction"]
 > [Next topic: Search for and share knowledge articles](oc-search-knowledge-articles.md)

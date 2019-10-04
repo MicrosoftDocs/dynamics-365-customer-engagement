@@ -134,3 +134,22 @@ After you create agent script, you must add the agent script field to the form w
 
 17. Select **Publish** to publish the customizations.
 
+## Associate agent script with session template
+
+After you configure agent script and add the field to a form, you need to associate the agent script with a session template so, based on the session type, the agent script loads to the agents.
+
+1. Sign in to the Omnichannel Administrator app.
+
+2. Select **Sessions** under **Templates**.
+
+3. Select a template from the list for which you want to associate the template. For example, select the **Chat - Default Session** template.
+
+4. Select the **Agent scripts** tab.
+
+5. Select **Add Existing Agent script** in the **Agent scripts** section. The **Lookup Records** pane appears.
+
+6. Select the search icon in the **Look for Records** box. Select the agent script from the list and select **Add**.
+
+7. Select **Save**.
+
+The agent script is associated with the session template.
