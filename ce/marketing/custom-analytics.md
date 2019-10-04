@@ -39,11 +39,12 @@ To create custom analytics, you can connect two different data sources, each of 
 
 You'll be able to connect directly to your Dynamics 365 Marketing  database from Power BI to fetch your profile data, but to access interaction data you'll need to set up Azure Blob Storage, configure Dynamics 365 Marketing to save interaction data there, and then connect Power BI to your blob storage.
 
-## Set up Azure Blob Storage and connect it to Marketing
+
+## Set up Azure Blob storage and connect it to Marketing
 
 1. Sign into [portal.azure.com](https://portal.azure.com) using the same account where you are running Dynamics 365 Marketing.
 
-1. If you don't already have one, then create a general-purpose storage account in the Azure Blob Storage as described in [Quickstart: Upload, download, and list blobs using the Azure portal](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-portal).
+1. If you don't already have one, then create a general-purpose storage account in the Azure Blob storage as described in [Quickstart: Upload, download, and list blobs using the Azure portal](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-portal).
 
     > [!NOTE]
     > Your general-purpose storage account can be either V1 or V2. Both will work with the Power BI template supplied by Microsoft, but we recommend using V2 if possible because it will support more advanced Power BI capabilities in the future.
@@ -89,7 +90,7 @@ You'll be able to connect directly to your Dynamics 365 Marketing  database from
 
 ## Get the Power BI template and connect to your Marketing data
 
-Once your Azure Blob Storage is set up and connected to Dynamics 365 Marketing, you're ready to start working in Power BI to connect to your data sources and design your analytics.
+Once your Azure Blob storage is set up and connected to Dynamics 365 Marketing, you're ready to start working in Power BI to connect to your data sources and design your analytics.
 
 1. If you haven't already, then [download the templates from GitHub](https://github.com/Microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/releases). The following templates are provided:
 
@@ -98,12 +99,12 @@ Once your Azure Blob Storage is set up and connected to Dynamics 365 Marketing, 
 
 1. Open your selected template in Power BI Desktop. If you don't already have Power BI Desktop, you can download it for free from [https://powerbi.microsoft.com/desktop/](https://powerbi.microsoft.com/desktop/).
 
-1. The first time you open the Power BI template you'll be asked to specify connection strings and credentials to connect to both Azure Blob Storage and to Dynamics 365 Marketing.
+1. The first time you open the Power BI template you'll be asked to specify connection strings and credentials to connect to both Azure Blob storage and to Dynamics 365 Marketing.
 
     ![The Power BI email marketing analyzer](media/custom-analytics-pbi-connect.png "The Power BI email marketing analyzer")
 
     - To connect to the Dynamics 365 database, use the same user credentials that you use to sign into Marketing.
-    - You can find connection details for your Azure Blob Storage by using the Storage Explorer app.
+    - You can find connection details for your Azure Blob storage by using the Storage Explorer app.
     - Specify how many days of interaction data that you want to load (counting back from today).
 
 1. Select **Load** to load the template or analyzer into Power BI.

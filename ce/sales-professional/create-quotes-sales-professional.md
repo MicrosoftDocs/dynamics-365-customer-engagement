@@ -1,24 +1,19 @@
 ---
-title: "Create and manage quotes in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Use quotes in Dynamics 365 for Sales Professional to make formal offers for products with proposed prices to customers."
-keywords: ""
-ms.date: 04/05/2019
+title: "Create and manage quotes in Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Use quotes in Dynamics 365 Sales Professional to make formal offers for products with proposed prices to customers."
+ms.date: 10/01/2019
 ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 9f0790d3-9141-4e2e-a0fe-f15324d67337
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
-# Create and manage quotes in Dynamics 365 for Sales Professional
+# Create and manage quotes in Dynamics 365 Sales Professional
 
-Most sales begin with a price quote in Dynamics 365 for Sales Professional. A quote is a formal offer for products proposed at specific prices and related payment terms, which you send to an opportunity, account, or contact. 
+Most sales begin with a price quote in Dynamics 365 Sales Professional. A quote is a formal offer for products proposed at specific prices and related payment terms, which you send to an opportunity, account, or contact. 
 
 If you’ve created your quote from an opportunity, you might have already added products that your customer is interested in to the opportunity. When you create a quote from the opportunity, all the products are already added to the quote.
 
@@ -83,6 +78,6 @@ When you’ve added all the details to the quote, you can send it to the custome
 
 ### See also
 
-[Develop sales from lead to cash in Dynamics 365 for Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
-[Sales transactions in Dynamics 365 for Sales Professional](understanding-sales-transactions-sales-professional.md)
+[Develop sales from lead to cash in Dynamics 365 Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
+[Sales transactions in Dynamics 365 Sales Professional](understanding-sales-transactions-sales-professional.md)

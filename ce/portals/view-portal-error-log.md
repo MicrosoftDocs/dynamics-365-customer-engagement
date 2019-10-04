@@ -5,8 +5,6 @@ keywords: "portal error logs, store portal error logs in Azure Blob storage"
 ms.date: 01/02/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 9CE45197-4457-44D2-A7C3-B756BB3E6129
 author: sbmjais
 ms.author: shjais
@@ -26,7 +24,7 @@ search.app:
 
 # View portal error logs
 
-As a portal administrator or developer, you can use portal capabilities for Dynamics 365 for Customer Engagement to create a website for your customers. One common task for a developer is to debug issues while developing the portal. To help debug, you can access detailed error logs for any issues on your portal. There are multiple ways that you can get error logs for your portals.
+As a portal administrator or developer, you can use Dynamics 365 Portals to create a website for your customers. One common task for a developer is to debug issues while developing the portal. To help debug, you can access detailed error logs for any issues on your portal. There are multiple ways that you can get error logs for your portals.
 
 ## Custom error
 
@@ -41,7 +39,7 @@ To enable YSOD, you need to [disable custom errors](#disable-custom-error) on yo
 > [!NOTE]
 > It is advisable to only disable custom errors when you are in the development phase and enable custom errors once you go live.
 
-More information on custom error: [Displaying a Custom Error Page](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/older-versions-getting-started/deploying-web-site-projects/displaying-a-custom-error-page-cs)
+More information on custom error: [Displaying a Custom Error Page](https://docs.microsoft.com/aspnet/web-forms/overview/older-versions-getting-started/deploying-web-site-projects/displaying-a-custom-error-page-cs)
 
 ### Disable custom error
 
@@ -66,8 +64,8 @@ You can enable custom errors on portals to display a professional-looking page i
 4. Select **Enable** in the confirmation message. While custom errors are being enabled, the portal restarts and will be unavailable. A message appears when custom errors are enabled.
 
 > [!NOTE]
-> - If you change the Dynamics 365 for Customer Engagement instance that your portal is connected to, the custom errors setting is set to enabled. You must disable the custom errors again, if required.
-> - You must not enable or disable custom errors when the Dynamics 365 for Customer Engagement instance that your portal is connected to is being changed; otherwise an error message appears.
+> - If you change the instance that your portal is connected to, the custom errors setting is set to enabled. You must disable the custom errors again, if required.
+> - You must not enable or disable custom errors when the instance that your portal is connected to is being changed; otherwise an error message appears.
 
 ### Display a custom error message
 
@@ -92,14 +90,14 @@ This is a custom error, please file a support ticket with screenshot of error by
 ![Custom error message](media/custom-error-message.png "Custom error message")
 
 > [!NOTE]
-> If the portal cannot retrieve a content snippet because it can't connect to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or if the snippet is not available in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], an error message appears.
+> If the portal cannot retrieve a content snippet because it can't connect to Common Data Service or if the snippet is not available in Dynamics 365 Portals, an error message appears.
 
 ## Access portal error logs
 
 After developing and publishing the portal, you still need to be able to access portal logs to debug issues reported by your customers. To access the logs, you can configure your portal to send all application errors to an Azure Blob storage account that you own. By accessing portal error logs, you can respond to customer queries efficiently because you have details of the issue. To get portal error logs into your Azure Blob storage, you must enable diagnostic logging from the Portal Admin center.
 
 > [!NOTE]
-> If you change the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance that your portal is connected to, diagnostic logging is disabled. You must enable diagnostic logging again.
+> If you change the instance that your portal is connected to, diagnostic logging is disabled. You must enable diagnostic logging again.
 
 ### Enable diagnostic logging
 
@@ -110,7 +108,7 @@ After developing and publishing the portal, you still need to be able to access 
    ![Enable diagnostic logging](media/enable-diagnostic-logging.png "Enable diagnostic logging")
 
 4. In the Enable diagnostic logging window, enter the following values:
-   - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the portal error logs. The maximum length of the URL is 2048 characters. If the URL is longer than 2048 characters, an error message appears. More information on connection string: [Configure Azure Storage connection strings](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+   - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the portal error logs. The maximum length of the URL is 2048 characters. If the URL is longer than 2048 characters, an error message appears. More information on connection string: [Configure Azure Storage connection strings](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
    - **Select retention period**: Duration to keep the portal error logs in blob storage. The error logs are deleted after the selected duration. You can select one of the following values:
      - 1 day
      - 7 days
@@ -144,7 +142,7 @@ When diagnostic logging is enabled successfully, the following action becomes av
 
 4. In the Update diagnostic logging configuration window, enter the following values:
    - **Do you want to update the Connection string of the Azure Blob Storage service?**: Allows you to specify whether to update the connection string of the Azure Blob Storage service. By default, **No** is selected.
-   - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the portal error logs. The maximum length of the URL can be 2048 characters. If the URL is longer than 2048 characters, an error message appears. This field is displayed only if the **Do you want to update the Connection string of the Azure Blob Storage service?** check box is selected. More information on connection string: [Configure Azure Storage connection strings](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+   - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the portal error logs. The maximum length of the URL can be 2048 characters. If the URL is longer than 2048 characters, an error message appears. This field is displayed only if the **Do you want to update the Connection string of the Azure Blob Storage service?** check box is selected. More information on connection string: [Configure Azure Storage connection strings](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
    - **Select retention period**: Duration to keep the portal error logs in blob storage. The error logs are deleted after the selected duration. You can select one of the following values:
      - 1 day
      - 7 days
@@ -170,9 +168,9 @@ When diagnostic logging is enabled successfully, the following action becomes av
 
 4. Click **Disable** in the confirmation message.
 
-## Display Dynamics 365 for Customer Engagement plugin error
+## Display plugin error
 
-Another scenario that often occurs while developing a portal is an error generated by custom plug-ins and business logic written in your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization. These errors can generally be accessed by [disabling custom errors](#disable-custom-error) or [enabling diagnostic logging](#enable-diagnostic-logging). However, in some cases, it is faster to display these errors directly on the portal to diagnose the issue faster. To do this, you can configure your portal to display custom plugin errors from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] on your portal screen.
+Another scenario that often occurs while developing a portal is an error generated by custom plug-ins and business logic written in your organization. These errors can generally be accessed by [disabling custom errors](#disable-custom-error) or [enabling diagnostic logging](#enable-diagnostic-logging). However, in some cases, it is faster to display these errors directly on the portal to diagnose the issue faster. To do this, you can configure your portal to display custom plugin errors on your portal screen.
 
 To display custom plugin errors, create the site setting `Site/EnableCustomPluginError` and set its value to True. The custom plugin errors will be displayed on the screen instead of a generic error. The error will display only the message part of the plugin error and not the complete stack trace.
 

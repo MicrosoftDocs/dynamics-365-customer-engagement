@@ -1,6 +1,6 @@
 ---
 title: Organizational units 
-description: This topic provides information about organizational units in Dynamics 365 for Project Service Automation (PSA).
+description: This topic provides information about organizational units in Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-In Microsoft Dynamics 365 for Project Service Automation (PSA), an organizational unit is a distinct group or division in a professional services company that employs billable resources that have cost rates.
+Dynamics 365 Project Service Automation, an organizational unit is a distinct group or division in a professional services company that employs billable resources that have cost rates.
 
 For professional services companies that employ technical resources in various practice areas or business lines, the cost to fill a role in one practice area or business line might differ from the cost to fill a role in another practice area or business line. The concept  organizational units helps in this scenario by providing a way to group a set of billable roles in a division of a company that has a distinct cost structure for these roles.
 

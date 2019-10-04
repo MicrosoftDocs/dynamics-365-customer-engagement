@@ -1,5 +1,5 @@
 ---
-title: "Configure OpenID Connect provider settings for a portal in Dynamics 365 for Customer Engagement  | MicrosoftDocs"
+title: "Configure OpenID Connect provider settings for a portal  | MicrosoftDocs"
 description: "Instructions to add and configure OpenID Connect provider settings for a portal."
 ms.custom: 
   - dyn365-portal
@@ -23,7 +23,7 @@ search.app:
 ---
 # Configure Open ID Connect provider settings for portals
 
-This topic applies to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals** and later versions.
+This topic applies to Dynamics 365 Portals and later versions.
 
 [OpenID Connect](http://openid.net/connect/) external identity providers are services that conform to the Open ID Connect [specifications](http://openid.net/developers/specs/). Integrating a provider involves locating the authority (or issuer) URL associated with the provider. A configuration URL can be determined from the authority which supplies metadata required during the authentication workflow. The provider settings are based on the properties of the [OpenIdConnectAuthenticationOptions](https://msdn.microsoft.com/library/microsoft.owin.security.openidconnect.openidconnectauthenticationoptions.aspx) class.
 
@@ -39,7 +39,7 @@ Each OpenID Connect provider also involves registering an application (similar t
 
 ## OpenID settings for [!INCLUDE[pn-azure-active-directory](../includes/pn-azure-active-directory.md)]
 
-To get started, sign into the [[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Management Portal](https://msdn.microsoft.com/library/azure/hh967611.aspx#bkmk_azureportal) and create or select an existing directory. When a directory is available follow the instructions to [add an application](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications) to the directory.  
+To get started, sign into the [[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Management Portal](https://msdn.microsoft.com/library/azure/hh967611.aspx#bkmk_azureportal) and create or select an existing directory. When a directory is available follow the instructions to [add an application](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications) to the directory.  
 
 1. Under the **Applications** menu of the directory, select **Add**.
 2. Choose **Add an application my organization is developing**.
@@ -131,7 +131,7 @@ Multiple identity providers can be configured by substituting a label for the [p
 |||
 
 ### See also
-[Configure Dynamics 365 for Customer Engagement portal authentication](configure-portal-authentication.md)  
+[Configure portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  

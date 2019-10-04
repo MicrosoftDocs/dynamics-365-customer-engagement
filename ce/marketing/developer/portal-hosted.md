@@ -18,9 +18,9 @@ manager: kvivek
 
 Before you start hosting a custom event website, complete the actions mentioned in the [Prerequisites](event-management-web-application.md) topic. The custom event website comes as a Dynamics 365 Portal hosted web application when you install the Event Management solution.
 
-The frontend part of the application is bundled into two resource files that are stored as Dynamics 365 Portal [web files](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/web-files). The main single page application entry-point is stored as Dynamics 365 Portal [web template](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/store-content-web-templates).
+The frontend part of the application is bundled into two resource files that are stored as Dynamics 365 Portal [web files](https://docs.microsoft.com/dynamics365/customer-engagement/portals/web-files). The main single page application entry-point is stored as Dynamics 365 Portal [web template](https://docs.microsoft.com/dynamics365/customer-engagement/portals/store-content-web-templates).
 
-Although the frontend definition is hosted on Dynamics 365 Portals, you can still fully customize it. The backend part of the web application is not customizable since the **REST API** endpoints are hosted on Dynamics 365 Portal as a set of [web pages](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/web-page). The code containing the business logic behind it resides in Event Management plugins which are not customizable.
+Although the frontend definition is hosted on Dynamics 365 Portals, you can still fully customize it. The backend part of the web application is not customizable since the **REST API** endpoints are hosted on Dynamics 365 Portal as a set of [web pages](https://docs.microsoft.com/dynamics365/customer-engagement/portals/web-page). The code containing the business logic behind it resides in Event Management plugins which are not customizable.
 
 ![Portal Hosted](../media/portal-hosted.png "Portal Hosted")
 
@@ -82,10 +82,10 @@ To make your customizations visible in the event website, update the web files i
 
 To deploy the customized Angular application, run the **PowerShell** script `DeployToDynamics365Instance.ps1` located under the **Scripts** directory. The script builds the application, prepares the output files suitable for hosting under the Dynamics 365 Portal instance. It takes the localization files from the `Localization` folder and prepares them for hosting.
 
-After all the files are built, it asks you to log into your Dynamics 365 Marketing instance that you want to use to host your application. After you log in, it pushes the files to the instance. If you don't see your changes, clear the browser cache and restart your **Portals**.
+After all the files are built, it asks you to sign in to your Dynamics 365 Marketing instance that you want to use to host your application. After you sign in, it pushes the files to the instance. If you don't see your changes, clear the browser cache and restart your **Portals**.
 
 > [!NOTE]
-> If you can't run the Powershell script because of your execution policy, then you need to [disable or bypass the execution policy](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6).
+> If you can't run the Powershell script because of your execution policy, then you need to [disable or bypass the execution policy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6).
 
 
 ### Manual Deployment
@@ -95,7 +95,7 @@ To manually replace the files in Dynamics 365 Marketing, follow the steps below 
 1. Open your Dynamics 365 Marketing instance.
 1. Go to **Dynamics 365&mdash;custom** > **Portals** > **Web Files**.
 1. Open the web file that you want to update (e.g., **styles.css**).
-1. Click on the **Notes** tab and delete the existing attachment.
+1. Select the **Notes** tab and delete the existing attachment.
 1. Upload the corresponding file (e.g. **styles.css**) file located in the **dist/ClientApp** folder as an attachment.
 1. Restart the Portal website and reopen your browser.
 
@@ -108,11 +108,11 @@ You can find a mapping between generated Angular files and Portal web files in t
 
 If you want to serve the custom event website from a **custom domain**, you need to configure CORS to allow that custom domain, to do that:
 
-1. Go to **Dynamics 365&mdash;custom** > **Portals** > **Site Settings** and click on **New** to create a  Site Settings record.
+1. Go to **Dynamics 365&mdash;custom** > **Portals** > **Site Settings** and select **New** to create a  Site Settings record.
 1. Insert `HTTP/Access-Control-Allow-Origin` in the name field.
 1. Select your website.
 1. Add the custom origin that should be allowed. For example, if the custom event website is hosted on `https://contoso.com/` custom domain than the value field must be set to `https://contoso.com/`.
-1. Click on **Save**.
+1. Select **Save**.
 1. Restart Portals to make sure that the settings are applied.
 
     ![A new site setting to allow 'https://contoso.com/' as a custom domain.](../media/cors-settings-portals.png "A new site setting to   allow 'https://contoso.com/' as a custom domain.")

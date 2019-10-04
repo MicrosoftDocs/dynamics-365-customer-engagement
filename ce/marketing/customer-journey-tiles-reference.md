@@ -55,7 +55,7 @@ More information: [Email marketing overview](prepare-marketing-emails.md)
 The marketing-from tile represents an embedded or captured form hosted on an external website.  There two ways to use them:
 
 - **Nest under an email tile to enable triggering**: Marketing-from tiles can be nested under email tiles, where they represent a link to an external page that is included in the email message's content. The external page must include the captured or embedded marketing form represented by the tile. The most important reason to add a nested marketing-form tile is to enable trigger tiles placed later in the pipeline to "know" about the external-page link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact submits the form after clicking it in the email.
-- **Place at the start of a journey to create an inbound campaign**: When placed at the start of a journey (in addition to, or instead of a segment tile), all new or existing contacts who submit the form will be sent on that journey. More information: [Create an inbound customer journey](create-inbound-customer-journey.md)
+- **Place at the start of a journey to create an inbound campaign**: When placed at the start of a journey (in addition to, or instead of, a segment tile), all new or existing contacts who submit the form will be sent on that journey. More information: [Create an inbound customer journey](create-inbound-customer-journey.md)
 
 When you nest a marketing-form tile under an email tile, you must take care to ensure that the marketing email message itself also includes a link to a page that hosts that form (the system doesn't confirm this or modify the message when you add a nested tile).
 
@@ -69,10 +69,10 @@ More information: [Create marketing forms](marketing-forms.md) and [Integrate wi
 
 ### Marketing page
 
-The marketing-page tile represents a native marketing page designed in Dynamics 365 Marketing and running on a Dynamics 365 Portal. There two ways to use them:
+The marketing-page tile represents a native marketing page designed in Dynamics 365 Marketing and running on a Dynamics 365 Portal. There are two ways to use them:
 
 - **Nest under an email tile to enable triggering**: Marketing-page tiles can be nested under email tiles, where they represent a marketing-page link that is included in the email message's content. The most important reason to add a nested marketing-page tile is to enable trigger tiles placed later in the pipeline to "know" about the marketing page link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact submits the form after clicking it in the email.
-- **Place at the start of a journey to create an inbound campaign**: When placed at the start of a journey (in addition to, or instead of a segment tile), all new or existing contacts who submit the page will be sent on that journey. More information: [Create an inbound customer journey](create-inbound-customer-journey.md)
+- **Place at the start of a journey to create an inbound campaign**: When placed at the start of a journey (in addition to, or instead of, a segment tile), all new or existing contacts who submit the page will be sent on that journey. More information: [Create an inbound customer journey](create-inbound-customer-journey.md)
 
 When you nest a marketing-page tile under an email tile, you must take care to ensure that the marketing email message itself also includes a link to the same marketing page (the system doesn't confirm this or modify the message when you add a nested tile).
 
@@ -119,7 +119,7 @@ More information: [Create and run online surveys](surveys.md)
 
 ## Action tiles
 
-Action tiles launch workflows or create new action records within Dynamics 365. You'd typically use these to generate to-do assignments for internal personnel to follow-up on things that happen during a customer journey.
+Action tiles launch workflows or create new action records within Dynamics 365. You'd typically use these to generate to-do assignments for internal personnel to follow up on things that happen during a customer journey.
 
 ### Activity
 
@@ -133,7 +133,7 @@ Activity tiles provide the following settings in the **Properties** pane while s
 
 - **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Activity Type**: The type of activity (such as appointment, task, or phone call) the tile creates.
-- **Activity Template**: The template to use when creating the activity. The templates defines which type activity it is, who it should be assigned to, and other details. You can choose an existing template or create a new one from here, but you can only assign or create templates that have the same **Activity Type** as the tile. More information: [Create activity marketing templates for activity tiles](activity-templates.md)
+- **Activity Template**: The template to use when creating the activity. The template defines which type activity it is, who it should be assigned to, and other details. You can choose an existing template or create a new one from here, but you can only assign or create templates that have the same **Activity Type** as the tile. More information: [Create activity marketing templates for activity tiles](activity-templates.md)
 - **Properties**: After you've selected a template, a summary of its settings is shown here.
 - **Create for each**: If your journey is set to target accounts, then use this setting to choose whether to create and assign an activity for every contact that enters the tile, or for the company (account) they work for. If you create for each account, then you'll only create one activity per account, even if several contacts from that account pass through the tile. This setting only appears when the journey **Target** is set to **Account** (on the **General** tab). More information: [Account-based marketing](account-based-marketing.md)
 - **Assigned To:** Choose which user to assign the activity to (contact owner,contact creator, customer journey owner, or, if you are targeting accounts, the account owner).
@@ -168,7 +168,7 @@ The create-lead tile creates a new lead for each contact or account that enters 
 Create-lead tiles provide the following settings in the **Properties** pane while selected:
 
 - **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
-- **Create for each**: Choose whether to create a new lead for each contact that enters the tile, or for the account each contact belongs to. The tile doesn't try to match any existing leads, so it always creates a new one, however, for account-based leads, the tile will create just one new lead for each account even if multiple contacts from that account pass through the tile while the journey is running. This setting is only provided when the journey is set to target accounts. More information: [Account-based marketing](account-based-marketing.md)
+- **Create for each**: Choose whether to create a new lead for each contact who enters the tile, or for the account each contact belongs to. The tile doesn't try to match any existing leads, so it always creates a new one. However, for account-based leads, the tile will create just one new lead for each account even if multiple contacts from that account pass through the tile while the journey is running. This setting is only provided when the journey is set to target accounts. More information: [Account-based marketing](account-based-marketing.md)
 - **Last name placeholder**: All lead records require a value for their last-name field. When the tile creates a contact-based lead, it uses that contact's last name here. For accounts, no last name is available, so if you are creating account-based leads, enter a placeholder value to use as the last name for each lead the tile creates. This setting is only provided when the journey is set to target accounts. More information: [Account-based marketing](account-based-marketing.md)
 - **Description**: Add a description or other notes here (optional).
 
@@ -199,7 +199,7 @@ When you use this tile, you'll nearly always arrange it in a pipeline that start
 
 You might configure these tiles as follows:
 
-- **Segment tile**: Choose a segment of contacts that you might expect to encounter on LinkedIn. You might typically choose a segment that you have also used to create a [ Matched Audience on LinkedIn](linkedin-matched-audience.md).
+- **Segment tile**: Choose a segment of contacts that you might expect to encounter on LinkedIn. You might typically choose a segment that you have also used to create a [Matched Audience on LinkedIn](linkedin-matched-audience.md).
 - **LinkedIn-campaign tile**: Choose a LinkedIn campaign that includes a Lead Gen Form.
 - **Trigger tile**: Create a trigger rule with the **Source** set to the campaign you picked in the LinkedIn-campaign tile, and the **Condition** set to "Any LinkedIn campaign form submitted". Contacts will wait here until they submit a Lead Gen form that belongs to the specified LinkedIn campaign (which will send them down the upper, "true" path) or until the **Timeout** set for the tile expires (at which time remaining contacts will be sent down the bottom, "false" path).
 
@@ -218,7 +218,7 @@ A segment is a collection of contacts grouped according to some common attribute
 
 Usually, each of your customer journeys starts with a segment tile, which establishes the collection of contacts who you'll be working with for that journey. When your customer journey starts running, it immediately processes all the contacts found in its target segments at that time. As time goes on, any new contacts that join the target segments will also start their journey here for as long as the customer journey is active.
 
-Each segment tile always either contains or is nested below another segment tile, so at minimum you'll have a container segment with a single nested segment. The container tile identifies it self as a *segment group*; it displays a name for the group and shows information about the total number of contacts it includes, and it establishes the logic for combining its various nested tiles (intersection or union). Each nested tile identifies an actual segment configured in Dynamics 365 Marketing.
+Each segment tile always either contains or is nested below another segment tile, so at minimum you'll have a container segment with a single nested segment. The container tile identifies itself as a *segment group*; it displays a name for the group and shows information about the total number of contacts it includes, and it establishes the logic for combining its various nested tiles (intersection or union). Each nested tile identifies an actual segment configured in Dynamics 365 Marketing.
 
 ![A segment tile with two nested segments](media/cj-segment-stack.png "A segment tile with two nested segments")
 

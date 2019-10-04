@@ -1,19 +1,17 @@
 ---
-title: "Create or edit an invoice (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Create or edit an invoice (Dynamics 365 Sales) | MicrosoftDocs"
 description: "An invoice is an order that has been billed to the customer."
 keywords: "Invoice, bill, sale"
-ms.date: 05/03/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: b58780fa-4e39-4925-99ad-e2e1bbfb5fa4
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 34
 ---
 
@@ -37,7 +35,7 @@ Typically, you convert an order into an invoice; however, you can also create an
 3. Select **Create Invoice** at the top of the screen.  
 
     > [!IMPORTANT]
-    > If Dynamics 365 for Sales is integrated with an external order processing application, you may see the **Submit Order** button instead of the **Create Invoice** button on the Order form command bar. This is because the integration allows an order created in Dynamics 365 for Sales to be submitted, and it is synced to the order processing app where the lifecycle of the order continues. A submitted order is locked for editing in Dynamics 365 for Sales except by an integration user. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable sales order processing integration](developer/enable-sales-order-processing-integration.md)
+    > If Dynamics 365 Salesintegrated with an external order processing application, you may see the **Submit Order** button instead of the **Create Invoice** button on the Order form command bar. This is because the integration allows an order created in DynaDynamics 365 Salesubmitted, and it is synced to the order processing app where the lifecycle of the order continues. A submitted order is locked for editing in DynamicsDynamics 365 Salesn integration user. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable sales order processing integration](developer/enable-sales-order-processing-integration.md)
 
 4. Review the contents of the invoice and make any additions or corrections before sending to your customer.  
 
@@ -63,7 +61,7 @@ Typically, you convert an order into an invoice; however, you can also create an
     -	**Price List** and **Currency**: Select the price list and the currency that will be used to calculate the product prices. 
 
         > [!NOTE]
-        > By default, selecting a price list is required to be able to add products to an invoice; however, your administrator can change your organization settings to make the Price List field optional. The capability to make the Price List field optional is in preview.
+        > By default, selecting a price list is required to be able to add products to an invoice; however, your administrator can change your organization settings to make the Price List field optional. 
   
 4. In the **Sales Information** section, in **Potential Customer**, select the customer you're creating this invoice for.
   

@@ -8,8 +8,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: activate-fs-mobile-app-license
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 author: FieldServiceDave
 ms.author: daclar
 ms.manager: shellyhaverkamp
@@ -30,7 +28,7 @@ The mobile configurator allows your organization to use, administer, and customi
 
 A 30-day trial automatically starts when you install the mobile configuration tool for your Dynamics 365 instance. You need to submit a request to activate the trial before the trial period ends. You must activate the configurator to continue using and customizing the Field Service Mobile app.
 
-Complete the [activation request form for the mobile configurator](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u) for **1 license**. Note that you need the Dynamics 365 for Customer Engagement organization ID to complete the request form.
+Complete the [activation request form for the mobile configurator](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u) for **1 license**. Note that you need the Dynamics 365 organization ID to complete the request form.
 
 
 ## Additional notes
@@ -53,7 +51,7 @@ Complete the [activation request form for the mobile configurator](https://forms
 
 For Field Service Mobile (2016) and Field Service Mobile (2017), you need to [fill out a form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u) to request access for your users.
 
-Each Dynamics 365 for Field Service license you purchase from Microsoft allows you to activate mobile access for one user, with the total number of mobile users allocated across all your production, sandbox, and trial organizations not to exceed the total number of licenses you purchased. For example, if you purchase 100 field service licenses and you manage one production organization and one sandbox, you could activate mobile access for 50 users at both organizations for a maximum total of 100 mobile users (not 100 mobile users at each organization for a total of 200).
+Each Dynamics 365 Field Service license you purchase from Microsoft allows you to activate mobile access for one user, with the total number of mobile users allocated across all your production, sandbox, and trial organizations not to exceed the total number of licenses you purchased. For example, if you purchase 100 field service licenses and you manage one production organization and one sandbox, you could activate mobile access for 50 users at both organizations for a maximum total of 100 mobile users (not 100 mobile users at each organization for a total of 200).
 
 ## Field Service on the Dynamics 365 mobile app 
 

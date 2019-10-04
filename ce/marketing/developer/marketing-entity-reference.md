@@ -22,7 +22,7 @@ search.app:
 All the entities that are installed as part of the Dynamics 365 Marketing solutions support the [standard extensibility/programming model](../../developer/programming-models.md) in Dynamics 365 to perform operations on entities using the **Web API** or **Organization Service**. For example, developers can programmatically create, retrieve, update, and delete (CRUD) entity records provided they have the required privileges to do so.
 
 > [!IMPORTANT]
-> While all the entities in Dynamics 365 Marketing support the standard extensibility/programming model, you should be careful while programmatically creating, updating, or deleting these entity records. This is because some entities have dependency on each other and the web application to provide the requisite user experiences and functionalities in the Marketing app. Manipulating these entities programmatically will prevent you to use the functionalities in the intended and supported way. Some examples of the complex functionality that cannot be achieved by programmatically working with the entities are:
+> While all the entities in Dynamics 365 Marketing support the standard extensibility/programming model, you should be careful while programmatically creating, updating, or deleting these entity records. This is because some entities have a dependency on each other and the web application to provide the requisite user experiences and functionalities in the Marketing app. Manipulating these entities programmatically will prevent you from using the functionalities in the intended and supported way. Some examples of the complex functionality that cannot be achieved by programmatically working with the entities are:
 >- Changes of Status and Status Reason fields, especially if the status schema is more complex than binary Active/Inactive case (mostly entities with “Go Live” button on ribbon).
 >- Manipulation of fields, which contain complex pieces of information, usually encoded as JSON. For example, customer journey design/workflow.<br/><br/>Therefore, you should use the user interface in our app to reliably perform your operations unless it’s explicitly called out in this documentation that programmatic access to an entity or feature is supported.
 
@@ -92,7 +92,7 @@ You can perform the following actions:
 
 ## Community tools
 
-**Metadata Browser** is a tool that XrmToolbox community developed for Dynamics 365 apps for the Common Data Service platform. See the [Developer tools](../../developer/developer-tools.md) topic for community developed tools.
+**Metadata Browser** is a tool that the XrmToolBox community developed for Dynamics 365 apps for the Common Data Service platform. See the [Developer tools](../../developer/developer-tools.md) topic for community developed tools.
 
 > [!NOTE]
-> The community tools are not a product of Microsoft and does not extend support to the community tools. If you have questions related to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com).
+> The community tools are not a product of Microsoft. Microsoft does not extend support to the community tools. If you have questions related to the tools, please contact the publisher. More information: [XrmToolBox](https://www.xrmtoolbox.com)

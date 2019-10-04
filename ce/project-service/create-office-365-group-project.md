@@ -1,5 +1,5 @@
 ---
-title: Create an Office 365 Group for a project (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Create an Office 365 Group for a project 
 description: How to Create an Office 365 Group in Project Service
 author: JohnPBurrows
 manager: kfend

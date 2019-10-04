@@ -87,7 +87,7 @@ To prepare your source instance for copying, [Open the Dynamics 365 admin center
 The _target instance_ is the instance you are copying _onto_. As with the source instance, you must prepare the target instance before you copy _if Marketing is installed on the source instance, the target instance, or both_.
 
 > [!NOTE]
-> The target instance will almost always be a sandbox instance because copying to a production instance isn't supported (but you can easily [convert a sandbox into a production instance](#switch-sandbox-prod) after copying if you wish). You must already have the target instance available on your tenant, and should be able to see it on the **Instances** tab of the Dynamics 365 admin center. If you don't have one, please  [contact Microsoft Support](https://docs.microsoft.com/en-us/power-platform/admin/get-help-support) for assistance.
+> The target instance will almost always be a sandbox instance because copying to a production instance isn't supported (but you can easily [convert a sandbox into a production instance](#switch-sandbox-prod) after copying if you wish). You must already have the target instance available on your tenant, and should be able to see it on the **Instances** tab of the Dynamics 365 admin center. If you don't have one, please  [contact Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support) for assistance.
 
 To prepare your target instance to be copied onto, do the following _before_ starting the copy:
 
@@ -162,7 +162,7 @@ To restore a backup onto a sandbox instance:
 
 ### Don't try to restore a backup onto its original instance
 
-When a backup contains Dynamics 365 Marketing, it isn't possible to restore a backup onto its original instance. If you need to do this, please [contact Microsoft Support](https://docs.microsoft.com/en-us/power-platform/admin/get-help-support) for assistance.
+When a backup contains Dynamics 365 Marketing, it isn't possible to restore a backup onto its original instance. If you need to do this, please [contact Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support) for assistance.
 
 <a name="switch-sandbox-prod"></a>
 

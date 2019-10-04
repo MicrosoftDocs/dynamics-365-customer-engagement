@@ -5,13 +5,13 @@ author: kabala123
 ms.author: kabala	
 manager: shujoshi	
 applies_to: 	
-ms.date: 09/12/2019
+ms.date: 09/18/2019
 ms.service: dynamics-365-customerservice	
 ms.topic: article	
 ms.assetid: 5e6285ee-4b79-473d-b920-d1fab636c82e	
 ms.custom: 	
 ---	
-# Entity records routing
+# Preview: Entity records routing
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -27,7 +27,7 @@ ms.custom:
 In Omnichannel for Administrator, **Entity Records** channel helps you to automatically route cases and other entity records to agents based on the agent's capacity and availability.
 
 > [!Note]
-> Only case entity record is supported in this release. Other entity records routing will be supported in future releases.
+> Only case entity record is supported in this release. To learn about the support for other entity records routing, see [Unified routing for entity records](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-customer-service/unified-routing-queues).
 
 ### Automatic distribution of cases
 

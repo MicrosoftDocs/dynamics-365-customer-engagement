@@ -1,6 +1,6 @@
 ---
-title: "View conversation and session form in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-description: "Learn about the omnichannel conversations and session forms that users (agents and supervisors) who are not part of can Omnichannel for Customer Service can under the Activities in Dynamics 365 for Customer Engagement apps."
+title: "View conversation and session form in model-driven apps apps | MicrosoftDocs"
+description: "Learn about the omnichannel conversations and session forms that users (agents and supervisors) who are not part of can Omnichannel for Customer Service can under the Activities in model-driven apps apps."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -12,13 +12,13 @@ ms.topic: article
 ms.assetid: 6fa913f3-f0f4-4917-91d1-f895d5648368
 ms.custom: 
 ---
-# View omnichannel conversations and omnichannel session in Dynamics 365 apps
+# View omnichannel conversations and omnichannel session in model-driven apps
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-In your organization, some agents might work in a contact center that uses Omnichannel for Customer Service, whereas other agents work in a different contact center that uses Microsoft Dynamics 365 apps, such as Omnichannel for Customer Service app. In this case, if you're an agent who works in Dynamics 365 apps, and you must analyze a conversation request from Omnichannel for Customer Service, you can find the information through **activities** in Dynamics 365.
+In your organization, some agents might work in a contact center that uses Omnichannel for Customer Service, whereas other agents work in a different contact center that uses Microsoft model-driven apps, such as Omnichannel for Customer Service app. In this case, if you're an agent who works in the ,model-driven 365 apps, and you must analyze a conversation request from Omnichannel for Customer Service, you can find the information through **activities** in model-driven apps.
 
-You can find the following activity types in Dynamics 365 for Customer Engagement apps:
+You can find the following activity types in model-driven apps apps:
 
  - Conversation form
 

@@ -1,5 +1,5 @@
 ---
-title: "Experiment with demo data (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Experiment with demo data (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/25/2017
 ms.reviewer: krbjoran 
@@ -9,8 +9,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c7dc07tc-4978-41a9-8542-4f0b0a52a990
 caps.latest.revision: 1
 ms.author: mkaur
@@ -18,7 +16,7 @@ author: FieldServiceDave
 ---
 # Experiment with demo data (Field Service)
 
-To become familiar with Dynamics 365 for Field Service, it’s useful to have a pre-configured environment to explore. For this purpose, we’ve created a separate sample data installation package (English-language only at this time) that makes it easier to learn about these solutions. 
+To become familiar with Dynamics 365 Field Service, it’s useful to have a pre-configured environment to explore. For this purpose, we’ve created a separate sample data installation package (English-language only at this time) that makes it easier to learn about these solutions. 
 
 The installation package is available on the [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=859966).  
 

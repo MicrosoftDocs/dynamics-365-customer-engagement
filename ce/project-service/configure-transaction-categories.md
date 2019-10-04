@@ -1,5 +1,5 @@
 ---
-title: Configure transaction categories (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Configure transaction categories 
 description: How to set up transaction categories in Project Service
 author: ruhercul
 manager: kfend

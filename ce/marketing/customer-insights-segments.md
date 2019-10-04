@@ -108,7 +108,7 @@ Once the data source is set up, it will continue to work and refresh automatical
 
 To make the segments you create in Customer Insights available in Dynamics 365 Marketing, you must set up your Marketing instance as an export destination in Customer Insights. You only have to do this once.
 
-To configure your Dynamics 365 Marketing instance as an export destination in a Customer Insights:
+To configure your Dynamics 365 Marketing instance as an export destination in Customer Insights:
 
 1. Sign into Customer Insights.
 1. Go to **Admin** > **Export destinations**.

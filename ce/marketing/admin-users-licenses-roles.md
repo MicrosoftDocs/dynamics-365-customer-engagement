@@ -29,13 +29,13 @@ Read this topic to learn how to work with user accounts, user licenses, and secu
 
 ## Create user accounts and assign licenses
 
-Like most Dynamics 365 apps for the Common Data Service platform, Dynamics 365 Marketing integrates with the user management and licensing features of the Microsoft 365 admin center, so to get started, each user that requires access to Marketing must have a user account on your Microsoft 365 tenant. More information: [Add users individually or in bulk to Office 365](https://docs.microsoft.com/office365/admin/add-users/add-users)
+Like most Dynamics 365 apps for the Common Data Service platform, Dynamics 365 Marketing integrates with the user management and licensing features of the Microsoft 365 admin center, so to get started, each user who requires access to Marketing must have a user account on your Microsoft 365 tenant. More information: [Add users individually or in bulk to Office 365](https://docs.microsoft.com/office365/admin/add-users/add-users)
 
 Unlike most Dynamics 365 apps, Dynamics 365 Marketing is licensed per instance (also based on certain quotas, such as the number of marketing contacts and monthly email messages) but it isn't licensed per seat, which means that you can add as many users to each Marketing instance as you like for no extra charge because Marketing user licenses are free.
 
 ### Grant access to users that already have a Dynamics 365 license
 
-Any user that already has a license for any Dynamics 365 app for the Common Data Service platform also will be able to access Dynamics 365 Marketing without requiring any additional licenses. All you need to do is [assign them the security roles and privileges](#assign-role) required to access the Marketing features they need.  
+Any user who already has a license for any Dynamics 365 app for the Common Data Service platform also will be able to access Dynamics 365 Marketing without requiring any additional licenses. All you need to do is [assign them the security roles and privileges](#assign-role) required to access the Marketing features they need.  
 
 ### Grant access to users without a Dynamics 365 license
 
@@ -94,7 +94,7 @@ To apply security roles to users, and to customize each role, do the following:
 
 ## Inspect and customize security roles
 
-All Dynamics 365 apps for the Common Data Service platform come with a collection of preconfigured security roles to help get you started. Each of these roles provides various levels of access to a collection of entities that are typically used together by specific user roles. Each of these roles is given a name that indicates the type of user that should be assigned the role.
+All Dynamics 365 apps for the Common Data Service platform come with a collection of preconfigured security roles to help get you started. Each of these roles provides various levels of access to a collection of entities that are typically used together by specific user roles. Each of these roles is given a name that indicates the type of user who should be assigned the role.
 
 > [!IMPORTANT]
 > Each time you update Dynamics 365 Marketing, all of the standard, out-of-box roles are likewise updated to the latest versions to ensure that each role will receive permissions to access relevant new features added by the update. This means that you probably shouldn't customize the out-of-box roles because your customizations are likely to get overwritten after each update. If you need custom security roles, you should usually start by creating a copy of an existing role that is close to what you want, and then customize the copy. If you use custom security roles, then you will probably need to update your custom roles after each update to grant access to new entities.

@@ -6,8 +6,6 @@ ms.reviewer:
 ms.suite: 
 ms.technology: 
   - field-service
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: vihuang
 author: FieldServiceDave
 ms.reviewer: krbjoran
@@ -46,20 +44,20 @@ Note: Alternatively, you can navigate directly to [the Microsoft Flow templates 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of CFS templates in Microsoft Flow](media/iot-central-work-orders-2.png)
 
-5. Sign into Flow with your Dynamics 365 for Customer Engagement organization, along with your associated IoT Central account.
+1. Sign into Flow with your Dynamics 365 organization, along with your associated IoT Central account.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the account association page in Microsoft Flow](media/iot-central-work-orders-4.png)
 
 6. The template will be mostly ready to run; you only need to make the following changes (see the screenshots below for reference):
 
-    a. In the field for "When a work order is created or updated," select your Dynamics 365 for Customer Engagement organization name.
+    a. In the field for "When a work order is created or updated," select your Dynamics 365 organization name.
    
-    b. In the field for "Get the alert," and then select your Dynamics 365 for Customer Engagement organization name.
+    b. In the field for "Get the alert," and then select your Dynamics 365 organization name.
     
     c. Expand "Clean up the work order fields in the device," and then select your IoT Central application name and also the device template, "Refrigerated Vending Machine (1.0.0)."
     
-    d. Expand "Get the incident type from work order," and then select  your Dynamics 365 for Customer Engagement organization name.
+    d. Expand "Get the incident type from work order," and then select  your Dynamics 365 organization name.
     
     e. Expand "Update the work order details for the device that raised the alert," and then select your IoT Central application name and also the device template, "Refrigerated Vending Machine (1.0.0)."
     
@@ -71,7 +69,7 @@ Note: Alternatively, you can navigate directly to [the Microsoft Flow templates 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Flow template, with letters as reference points to correspond to the instructions](media/iot-central-work-orders-6.png)
 
-7. Save the Flow to make it run.
+1. Save the Flow to make it run.
 
 
 ## See the results

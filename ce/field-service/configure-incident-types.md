@@ -1,5 +1,5 @@
 ---
-title: "Configure incident types in Dynamics 365 for Field Service | MicrosoftDocs"
+title: "Configure incident types in Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 08/02/2019
@@ -9,8 +9,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 author: FieldServiceDave
 ms.assetid: debef702-a12a-491c-8087-e7e4bdb14b19
 caps.latest.revision: 16
@@ -54,7 +52,7 @@ Other important incident type features include:
 
 ## Prerequisites
 
-- Incident types are available for all versions of Dynamics 365 for Field Service. However, using incident types with requirement group templates for multi-resource scheduling is only available with Field Service v8.0+.
+- Incident types are available for all versions of Dynamics 365 Field Service. However, using incident types with requirement group templates for multi-resource scheduling is only available with Field Service v8.0+.
 
 - Because incident types mostly represent a grouping of service tasks, products, and services, we recommend having these records created in the system before creating an incident type. Each of the following can be created in **Field Service** > **Settings**:
 

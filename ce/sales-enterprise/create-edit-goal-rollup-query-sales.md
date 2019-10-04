@@ -1,19 +1,15 @@
 ---
-title: "Define a goal rollup query (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Collect data about a given goal, including all its related goals, in one view by using rollup query in Dynamics 365 for Sales."
-keywords: goal, rollup query
-ms.date: 04/01/2018
+title: "Define a goal rollup query (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Collect data about a given goal, including all its related goals, in one view by using rollup query in Dynamics 365 Sales."
+keywords: "goal, rollup query"
+ms.date: 10/01/2019
 ms.service: dynamics-365-sales
 ms.custom: dyn365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 2c15d62a-5cfa-4229-afe2-8927d45edadc
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
 
 # Define a goal rollup query (Sales & Sales Hub)
@@ -72,5 +68,7 @@ Use the rollup query to gather data about a given goal, including all its relate
 >  The maximum number of records that can be counted  in a goal rollup query is 5000.  
   
 ### See also  
+
  [Create or edit a goal](../sales-enterprise/create-edit-goal-sales.md)   
- [Progress Against Goals report](../basics/sales-insights-reports.md#BKMK_ProgressGoals)
+
+ [Progress Against Goals report](../customer-engagement/on-premises/basics/sales-insights-reports.md#BKMK_ProgressGoals)

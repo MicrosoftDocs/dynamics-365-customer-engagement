@@ -1,5 +1,5 @@
 ---
-title: "The Outlook email address should be the same as the Dynamics 365 for Customer Engagement apps email address | MicrosoftDocs"
+title: "The Outlook email address should be the same as the Dynamics 365 apps email address | MicrosoftDocs"
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 
@@ -8,8 +8,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps 
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -27,10 +27,10 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# The Outlook email address should be the same as the Dynamics 365 for Customer Engagement apps email address
+# The Outlook email address should be the same as the Dynamics 365 apps email address
 You’re seeing the following error message:  
   
- **“To track emails and perform synchronization, your Outlook email address should be the same as your email address in Microsoft Dynamics 365 for Customer Engagement apps.”**  
+ **“To track emails and perform synchronization, your Outlook email address should be the same as your email address in Microsoft Dynamics 365 apps.”**  
   
  This message is common when you have multiple [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full.md)] email addresses or have access to more than one [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization. For example, your company may use multiple [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organizations for testing or upgrade purposes.  
   
@@ -55,7 +55,7 @@ You’re seeing the following error message:
   
    Then, pick **one** of the following methods.  
   
-## Change the email address in Dynamics 365 for Customer Engagement apps to match the Outlook address  
+## Change the email address in Dynamics 365 apps to match the Outlook address  
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../../includes/proc-permissions-system-admin-and-customizer.md)]  
   
@@ -75,7 +75,7 @@ You’re seeing the following error message:
   
 6. Save the changes.  
   
-## Change the email address in Outlook to match the address in Dynamics 365 for Customer Engagement apps  
+## Change the email address in Outlook to match the address in Dynamics 365 apps  
   
 1. In [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], choose the **File** menu.  
   

@@ -1,5 +1,5 @@
 ---
-title: "Create an inventory adjustment (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Create an inventory adjustment (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -10,8 +10,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 author: krbjoran
 ms.assetid: f819da43-ccc8-4c76-9467-3c4a4d8f4c18
 caps.latest.revision: 16
@@ -60,7 +58,7 @@ Let's say you're getting a new shipment of  Product A that you're going to add t
 4.  Click **Save & Close**.  
   
 ### See also   
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Configure and set up customer assets](../field-service/configure-set-up-customer-assets.md)   
  [Create a purchase order](../field-service/create-purchase-order.md)   
  [Create an inventory transfer](../field-service/create-inventory-transfer.md)   
