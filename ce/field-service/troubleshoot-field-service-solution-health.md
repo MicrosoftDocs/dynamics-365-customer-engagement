@@ -30,25 +30,30 @@ search.app:
 
 Solution health hub allows you to get a better picture of the state of your environment and detect and sometimes fix issues with your Dynamics 365 environment. It does this by running rules within an instance to validate the configuration of the environment, which might change over time through natural system operations. Some of the rules are specific to Field Service and you can run the rules on demand when you encounter an issue. Some rules automatically trigger when Field Service is installed or updated. It is advisable to use the solution health hub and run the Field Service ruleset regularly and monitor the health of your environment.
 
-
-There are a range of issues that are being detected by the rules. There are issues that will later lead to runtime issues, like customized webresources. Another common thing that can be detected is when there are processes that are assigned to disabled users, the upgrade will fail. These things can be detected before they will cause problems and you can address them right then.
-
-
-The Solution Health Hub extends the [PowerApps checker](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/use-powerapps-checker) to ensure continued healthy operation of an environment. 
+Common examples of issues solution health hub can detect are:
+1. If critical Field Service processes are deactivated 
+2. If processes are assigned to disabled users that will cause an upgrade to fail
+3. customized webresources that will later lead to runtime issues
 
 ## Prerequisites
 
-- Ruleset preconfigured with Field Service v8.4.0.338+ (UCI) or  v7.5.7.87+ (Web)
-
+- Field Service v8.4.0.338+ (UCI) or  v7.5.7.87+ (Web)
 - At the time of this publication, the ruleset contains 15 rules that verify the environment is in a good state. 
+- The Solution Health Hub extends the [PowerApps checker](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/use-powerapps-checker) to ensure continued healthy operation of an environment. 
+
 
 ## Run a health check
-How to trigger a health check using Solution Health Hub
+
 To run an Analyis Job for Field Service follow these steps:
 1.	Open the Solution Health Hub app.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/troubleshoot-solution-health-nav.png)
+
 2.	Select Analysis Jobs and create a new analysis job.
 3.	When the dialog box opens, select Field Service.
-4.	Select OK.
+4.	Select OK and the analysis job will begin.
 
 
 > [!div class="mx-imgBorder"]
@@ -78,7 +83,7 @@ This is the full list of rules that are currently being shipped as part of Field
 
 ## View health check results
 
-You will automatically be directed to the overview page of this Analysis Job and the page will automatically refresh when the run has finished. You can see the overview of a run on the picture below.
+You will automatically be directed to the overview page of the Analysis Job and the page will automatically refresh when the run has finished. You can see the overview of a run on the picture below.
 
 
 > [!div class="mx-imgBorder"]
