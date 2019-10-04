@@ -154,4 +154,5 @@
 ## [Security roles for Connected Field Service](cfs-security-roles.md)
 # Integrations
 ## [Dynamics 365 Guides on HoloLens](mixed-reality-guides-integration.md)
+# [Troubleshoot](troubleshoot-field-service-solution-health.md)
 # [General FAQs](troubleshoot-faq.md)
