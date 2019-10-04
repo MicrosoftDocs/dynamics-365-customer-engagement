@@ -1,10 +1,10 @@
 ---
-title: "Use connection strings in XRM tooling to connect to Dynamics 365 (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "XRM tooling enables you to connect to your Dynamics 365 instance by using connection strings"
+title: "Use connection strings in XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "XRM tooling enables you to connect to your Dynamics 365 Customer Engagement (on-premises) instance by using connection strings"
 ms.custom: 
-ms.date: 03/27/2019
+ms.date: 10/04/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.service: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -20,7 +20,7 @@ search.app:
 ---
 # Use connection strings in XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises)
 
-With Dynamics 365 Customer Engagement (on-premises), XRM tooling enables you to connect to your instance by using connection strings. This is similar to the concept of connection strings used with **SQL Server**. Connection strings have native support in configuration files, including the ability to encrypt the configuration sections for maximum security. This enables you to configure  Dynamics 365 Customer Engagement (on-premises) connections at deployment time, and not hard code in your application to connect to your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
+With Dynamics 365 Customer Engagement (on-premises), XRM tooling enables you to connect to your instance by using connection strings. This is similar to the concept of connection strings used with **SQL Server**. Connection strings have native support in configuration files, including the ability to encrypt the configuration sections for maximum security. This enables you to configure  Dynamics 365 Customer Engagement (on-premises) connections at deployment time, and not hard code in your application to connect to your instance.  
 
 
 > [!NOTE]
@@ -69,7 +69,7 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
 | `UserName`, `User Name`, `UserId`, or `User Id` |                                                                                                                                                                                                                                                                                                                                                                                               Specifies the user's identification name associated with the credentials.                                                                                                                                                                                                                                                                                                                                                                                               |
 |                `Password`                 |                                                                                                                                                                                                                                                                                                                                                                                               Specifies the password for the user name associated with the credentials.                                                                                                                                                                                                                                                                                                                                                                                               |
 |     `HomeRealmUri` or `Home Realm Uri`      |                                                                                                                                                                                                                                                                                                                                                                                                                     Specifies the Home Realm Uri.                                                                                                                                                                                                                                                                                                                                                                                                                     |
-|     `AuthenticationType` or `AuthType`      |                                                                                                                                                Specifies the authentication type to connect to Dynamics 365 Customer Engagement (on-premises). Valid values are: `AD`, `IFD` (AD FS enabled), `OAuth`, or `Office365`.<br /><br /> -   `AD` and `IFD` are permitted for Dynamics 365 Customer Engagement (on-premises) instances only.<br />-   `OAuth` is permitted for Dynamics 365 Customer Engagement (on-premises) and Common Data Service instances.<br />-   `Office365` is permitted for Common Data Service instances only.                                                                                                                                                |
+|     `AuthenticationType` or `AuthType`      |                                                                                                                                                Specifies the authentication type to connect to Dynamics 365 Customer Engagement (on-premises). Valid values are: `AD`, `IFD` (AD FS enabled), `OAuth`, or `Office365`.<br /><br /> -   `AD` and `IFD` are permitted for Dynamics 365 Customer Engagement (on-premises) instances only.<br />-   `OAuth`, `Certificate`, and `ClientSecret` are permitted for Dynamics 365 Customer Engagement (on-premises) and Common Data Service instances. For on-premises, ADFS 3.x+ and App\Client Id registration with ADFS is required for `OAuth`, `Certificate` and `ClientSecret` types.<br />-   `Office365` is permitted for Common Data Service instances only.                                                                                                                                                |
 |           `RequireNewInstance`            |                                                                                                                                                                                                                                                                                                         Specifies whether to reuse an existing connection if recalled while the connection is still active. Default value is `false` that indicates the existing connection be reused. If set to `true`, will force the system to create a unique connection.                                                                                                                                                                                                                                                                                                         |
 |    `ClientId`, `AppId` or `ApplicationId`     |                                                                                                                                                                                                                                           Specifies the `ClientID` assigned when you registered your application in [!INCLUDE[pn_microsoft_azure_active_directory](../../includes/pn-microsoft-azure-active-directory.md)] or [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../../includes/pn-active-dir-fed-svcs-ad-fs.md)].<br /><br /> This parameter is applicable only when the authentication type is specified as `OAuth`.                                                                                                                                                                                                                                           |
 |         `RedirectUri` or `ReplyUrl`         |                                                                                                                                                                                                                                                Specifies the redirect URI of the application you registered in [!INCLUDE[pn_microsoft_azure_active_directory](../../includes/pn-microsoft-azure-active-directory.md)] or [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../../includes/pn-active-dir-fed-svcs-ad-fs.md)].<br /><br /> This parameter is applicable only when the authentication type is specified as `OAuth`.                                                                                                                                                                                                                                                |
@@ -78,6 +78,13 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
 |               `SkipDiscovery`               |                                                                                                                                                Specifies whether to call instance discovery to determine the connection uri for a given instance.  As of NuGet release Microsoft.CrmSdk.XrmTooling.CoreAssembly Version 9.0.2.7, default = `true`.  Older versions default to `false`.  <br/>Note: If set to `true`, it is important that the user provide the correct and accurate URI for the target instance.                                                                                                                                                 |
 |               `Thumbprint` or `CertificateThumbprint`               |                                                                                                                                                Specifies the thumbprint of the certificate to be utilized during an S2S connection. When set, AppID is required and UserID and Password values are ignored.                                                                                                         |
 |               `StoreName` or `CertificateStoreName`               |                                                                                                                                                Specifies the store name where the certificate identified by thumbprint can be found. When set, Thumbprint is required.                                                                                                         |
+
+> [!NOTE]
+> <b>When using the `OAuth` AuthType\AuthenticationType</b><br/>
+> For development and prototyping purposes we have provided the following AppId\ClientId and Redirect URI for use in OAuth Flows.<br/>
+> For production use, you should create an AppId\ClientId that is specific to your tenant in the Azure Management portal.<br/>
+> Sample AppId\ClientId = 51f81489-12ee-4a9e-aaae-a2591f45987d<br/>
+> Sample RedirectUri = app://58145B91-0C36-4500-8554-080854F2AC97<br/>
 
 <a name="Examples"></a>
 
@@ -106,15 +113,70 @@ Password=passcode" />
 
 ### OAuth using named account in Dynamics 365 Customer Engagement (on-premises) with UX to prompt for authentication  
 
+Create a new connection using a UserID or Password via oAuth.
+
+> [!NOTE]
+> OAuth is the preferred auth type for connecting to Dynamics 365 Customer Engagement (on-premises) when using an interactive flow.  This auth type fully supports the features of Azure Active Directory Conditional Access and Multi-Factor Authentication.
+
 ```xml
 <add name="MyCRMServer"
-connectionString="AuthType=OAuth;
-Username=jsmith@contoso.onmicrosoft.com;
-Password=passcode;
-Url=https://contoso:8080/Test;AppId=<GUID>;
-RedirectUri=app://<GUID>;
-TokenCacheStorePath =c:\MyTokenCache;LoginPrompt=Auto"/>  
+ connectionString="
+  AuthType=OAuth;
+  Username=jsmith;
+  Password=passcode;
+  Url=https://contoso:8080/Test;
+  AppId=51f81489-12ee-4a9e-aaae-a2591f45987d;
+  RedirectUri=app://58145B91-0C36-4500-8554-080854F2AC97;
+  TokenCacheStorePath=c:\MyTokenCache;
+  LoginPrompt=Auto"/>  
 ```  
+
+### OAuth using current logged in user with fall back UX to prompt for authentication
+
+Create a new connection using the current logged in user via oAuth.
+
+> [!NOTE]
+> OAuth is the preferred auth type for connecting to Dynamics 365 Customer Engagement (on-premises) when using a interactive flow.  This auth type fully supports the features of Azure Active Directory Conditional Access and Multi-Factor authentication.
+
+```xml
+<add name="MyCRMServer"
+ connectionString="
+  AuthType=OAuth;
+  Username=jsmith;
+  Integrated Security=true;
+  Url=https://contoso:8080/Test;
+  AppId=51f81489-12ee-4a9e-aaae-a2591f45987d;
+  RedirectUri=app://58145B91-0C36-4500-8554-080854F2AC97;
+  TokenCacheStorePath=c:\MyTokenCache;
+  LoginPrompt=Auto"/>  
+```  
+
+### Certificate based authentication
+
+Create a new connection to Dynamics 365 Customer Engagement (on-premises) using a Application or Client Id and a Certificate.
+```xml
+<add name="MyCRMServer" 
+  connectionString="
+  AuthType=Certificate;
+  url=https://contoso:8080/Test;
+  thumbprint={CertThumbPrintId};
+  ClientId={AppId};
+  />
+```
+
+### ClientId or Client Secret based authentication
+
+Create a new connection to Dynamics 365 Customer Engagement (on-premises) using a Application or Client Id and a Client Secret.
+```xml
+<add name="MyCDSServer" 
+  connectionString="
+  AuthType=ClientSecret;
+  url=https://contoso:8080/Test;
+  ClientId={AppId};
+  ClientSecret={ClientSecret}
+  />
+```
+
 
 ### IFD using a named account with delegation to a sub realm  
 
