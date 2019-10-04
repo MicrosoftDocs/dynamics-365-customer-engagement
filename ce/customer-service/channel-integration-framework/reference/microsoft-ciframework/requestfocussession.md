@@ -1,5 +1,5 @@
 ---
-title: "renderFocusSession (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
+title: "requestFocusSession (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
 description: ""
 keywords: 
 ms.date: 09/30/2019

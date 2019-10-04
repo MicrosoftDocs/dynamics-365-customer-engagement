@@ -99,14 +99,14 @@
           href: reference/microsoft-ciframework/createsession.md
         - name: "getSession"
           href: reference/microsoft-ciframework/getsession.md
-        - name: "getFocusedSession"
-          href: reference/microsoft-ciframework/getfocusedsession.md
+        - name: "getFocusSession"
+          href: reference/microsoft-ciframework/getfocussession.md
         - name: "getAllSessions"
           href: reference/microsoft-ciframework/getallsessions.md
         - name: "setSessionTitle"
           href: reference/microsoft-ciframework/setsessiontitle.md
-        - name: "renderFocusSession"
-          href: reference/microsoft-ciframework/renderfocussession.md
+        - name: "requestFocusSession"
+          href: reference/microsoft-ciframework/requestfocussession.md
       - name: "Application Tab management APIs"
         items:
         - name: "createTab"
