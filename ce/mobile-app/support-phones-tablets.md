@@ -44,9 +44,12 @@ To install the app see, [Install the app from your device’s app store](https:/
    
 
 ## Web browser support for tablets  
- You can run your app in the default web browser on any Windows 10 device, including a Windows 10 PC, but the user interface is optimized for touch. For Apple iPad  iOS 10 and later are supported. For Android versions 6.0 and above are supported for the tablets.  
+
+For full functionality and optimized experiencewe, we strongly recommend that you use the Dynamics 365 for phones and tablets app. If you don't have the Dynamics 365 for phones and tablets app installed, you can still use the web browsers on your tablet to run your apps. 
+
+You can run your app in the default web browser on any Windows 10 device, including a Windows 10 PC, but the user interface is optimized for touch. For Apple iPad  iOS 10 and later are supported. For Android versions 6.0 and above are supported for the tablets.  
   
- Using your app on a web browser on an Apple or Android mobile device provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:  
+Using your app on a web browser on an Apple or Android mobile device provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:  
   
 - Pinch and zoom  
   
