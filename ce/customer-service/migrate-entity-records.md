@@ -18,7 +18,7 @@ search.app:
   - D365CS
 ---
 
-# Migrate entity records data from legacy Service scheduling using migration tool
+# Migrate data from legacy Service scheduling using migration tool
 
 Follow these steps to migrate entity records from legacy scheduling experience to the new scheduling experience.
 
@@ -77,70 +77,54 @@ Select the **View Errors** in the status column to view the details in a new bro
 
 For example, when you select the View Errors option against the **Service Activity**, a new browser tab opens, and the tool displays **Service Activities - Migration Status** page.
 
-   ![Migration status view](media/migration-step5.png "Migration status view")
-
 To learn more, see [Troubleshoot using migration information](#troubleshoot-to-resolve-migration-errors).
 
 ### Troubleshoot to resolve migration errors
 
-One of the reasons for the failure of entity record migration is a dependency between the entity records. That is, an entity record **C** has a dependency on the record **B**, which in turn has a dependency on the record **A**. If the migration of entity record **A** fails, then migration of entity record **B** and **C** also fails.
+One of the reasons for the failure of entity record migration is a dependency between the entity records. That is, a **Service Activity** entity record has a dependency on the **Service** entity record, which in turn has a dependency on the **Resource Group** entity record. If the migration of **Resource Group** fails, then migration of **Service** and **Service Activity** also fails.
 
    ![Migration record failure](media/migration-record-failure.png "Migration record failure")
 
 For example, 
 
-In the legacy web client service scheduling experience, the Contoso Bike Center organization the following entity data records.
-
-   | Entity record | Record name |
-   |------------------------|---------------------|
-   | Sites |<ul> <li>Contoso Bike Center - Bellevue</li> <li>Contoso Bike Center - Redmond</li> <ul> |
-   | Facilities/Equipment | <ul> <li> Allen key kit </li> <li>Bike workbench</li> <li>Electronic Control Manager</li> <li>Fork Spring Compressor</li> <li>Paint Spray</li> <li>Special spanner</li> <li>Wheel Balancer</li> <li>Wrench spanners</li></ul>
-   | Resource groups | <ul> <li>Bike advisors</li> <li>Bike service managers</li> <li>Bike technicians</li></ul> |
-   | Services | <ul> <li>Bike inspection</li> <li>Bike maintenance</li> <li>Bike overhaul</li> <li>Bike repair</li></ul>
-
-Now, in the **Contoso Bike Center - Bellevue** site, to do a **Bike overhaul** service, the **Bike technicians** resource group and the **Allen key kit** facilities/equipment is required.
+Kenny Smith, a customer, has scheduled a service activity with Contoso Bike Center. To do this service activity, the **Bike technicians** resource group and **Bike overhaul** service  are required. 
 
 See the matrix for the dependency.
 
    | Entity name |Record name|
    |------------------|--------------------|
    | Services | Bike overhaul |
-   | Resource groups | Bike technicians |
-   | Facilities/Equipment | Allen key kit |
-   | Site | Contoso Bike Center - Bellevue |
+   | Resource Groups | Bike technicians |
+   | Service Activity | Kenny Smith (customer) |
 
-   ![Migration record failure](media/migration-record-failure-example.png "Migration record failure")
+In the migration process, there is a failure in the service activity. The **Service** entity record which has a dependency on the **Service Activities** will also fail, and the **Resource Groups** entity record that has a dependency on the  **Service** entity record also fails. That is, the following entity records migration fails:
 
-If the migration of the **Contoso Bike Center - Bellevue** site fails, then the migration of the following entity records also fails:
-
-- **Allen key kit**
 - **Bike technicians**
 - **Bike overhaul**
 
 Let us take the above mentioned example to learn how to resolve the error.
 
-1. Select **View Errors** against the **Service** record in the **Data Migration Wizard** tab. The **Services - Migration Status** page opens in a new browser tab. <br> You can view the migration error message for the **Bike overhaul** record that states **Dependent ResourceGroup not migrated**.
+1. Select **View Errors** against the **Service Activities** record in the **Data Migration Wizard** tab. 
 
-    ![View service errors](media/migration-step8.png "View service errors")
+   The **Service Activities - Migration Status** page opens in a new browser tab. <br> You can view the migration error message for the **Kenny Smith** customer stating service has failed due to the **Dependent ResourceGroup is not migrated**, which has the GUID as `3979D7DB-F5DA-E911-A81F-000D3A6D4947`.
 
-    ![Service entity migration status view](media/migration-step9.png "Service entity migration status view")
+2. Open a new browser window and go to `http://<dynamics org url>api/data/v9.0/services(<Guid>)`. For example, `http://<dynamics org url>api/data/v9.0/services(3979D7DB-F5DA-E911-A81F-000D3A6D4947)`.
 
-2. Select **View Errors** against the **Resource Group** record in the **Data Migration Wizard** tab. The **Resource Groups - Migration Status** page opens in a new browser tab. <br> You can view the migration error message for the **Allen key kit** record that states **Resource(s) in the ResourceGroup not migrated to BookableResource(s)**. <br><br> The resources might be facilities/equipments, sites, users, team or any other entity records. In this example, let us look for facilities/equipments as it has errors.
+   Now, you find the record name. In our case, it is **Bike technicians**, which is a **Resource Categories** entity in the new service scheduling experience.
 
-    ![Resource Group View](media/migration-step10.png "Resource Group View")
+3. Select **View Errors** against the **Resource Categories** record in the **Data Migration Wizard** tab. 
 
-3. Select **View Errors** against the **Facility/Equipment** record in the **Data Migration Wizard** tab. The **Facility/Equipment - Migration Status** page opens in a new browser tab. <br> You can view that the dependent site is not migrated with the GUID - `B83FE603-F3DA-E911-A81F-000D3A6D4947`.
+   The **Resource Categories - Migration Status** page opens in a new browser tab. <br> You can view the error the caused the Site entity record failure.
 
-4. Open a new browser window and go to `http://<dynamics org url>api/data/v9.0/sites(B83FE603-F3DA-E911-A81F-000D3A6D4947)`, and you find the record name. In our case, it is **Contoso Bike Center - Bellevue**, which is a **Site** entity. 
-
-5. Select **View Errors** against the **Site** record in the **Data Migration Wizard** tab. The **Sites - Migration Status** page opens in a new browser tab. <br> You can view the error the caused the Site entity record failure.
-
-6. Resolve the error that caused the migration failure, and then you can go to the migration step, and select **Retry Migration** to start the migration for the failed entity records.
+4. Resolve the error that caused the migration failure, and then you can go to the migration step, and select **Retry Migration** to start the migration for the failed entity records.
 
    > [!Note]
    > In case of retry scenario, the migration tool shows the number of records that need to be migrated in that retry scenario of migration.
 
-7. Review the migration status, if there are any errors, investigate in a similar way as explained in this example.
+5. Review the migration status, if there are any errors, investigate in a similar way as explained in this example.
+
+> [!TIP]
+> Resolve the errors in the order in which the entity records are migrated. To learn about the order of migration, see [Considerations for migration](plan-migration.md#considerations-for-migration).
 
 ## See also
 
