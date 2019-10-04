@@ -78,7 +78,7 @@ Agent scripts provide guidance to agents about what they should to doing when th
 
 9. Select **Save** to save the changes.
 
-## Add agent script to a form
+## Add agent script control to a form
 
 After you create agent script, you must add the agent script field to the form where you want to show it for the agents.
 
@@ -86,4 +86,51 @@ After you create agent script, you must add the agent script field to the form w
 
 2. Select **Settings** > **Customizations** > **Customize the System**. **Solution Explorer** opens in a new window.
 
-3. Select 
+3. Expand **Entities** and select the entity to which you want to add the field. In this procedure, let us add to the **Customer Summary** form in the **Conversation** entity.
+
+4. Expand **Conversation** > **Forms** > **Customer Summary**. The **Customer Summary** form opens in a new window.
+
+5. Select **INSERT** tab from the commands bar, and then select **Section** > **One Column** in the command bar. The section added to the form.
+
+    > [!div class=mx-imgBorder] 
+    > ![Add section](../media/agent-script-control5.png "Add section")
+
+6. Select the section, and then select **Change Properties** from the command bar. The **Section Properties** dialog appears.
+
+7. Specify **Agent script** as the value for both **Name** and **Label** field.
+
+8. Select the **Show the label of this section on the Form**  check box, and then select **OK**.
+
+    > [!div class=mx-imgBorder] 
+    > ![Add name and show label](../media/agent-script-control8.png "Add name and show label")
+
+9. Select a field of type **Text** from **Field Explorer**. For example, the **Title** field is of type **Text**. If you hover the cursor on a field, you can view the type.
+
+    > [!div class=mx-imgBorder] 
+    > ![Add field of type Text](../media/agent-script-control9.png "Add field of type Text")
+
+10. Drag and drop the **Title** field to the section you added in earlier step.
+
+11. Select the **Title** field in the **Agent script** section, and then select **Change Properties** from the command bar. The **Field Properties** dialog appears.
+
+12. Clear the **Display the label on the form** check box in the **Display** tab.
+
+    > [!div class=mx-imgBorder] 
+    > ![Clear display label](../media/agent-script-control12.png "Clear display label")
+
+13. Select the **Controls** tab in the **Field Properties** dialog, and then select **Add Control**.
+
+    > [!div class=mx-imgBorder] 
+    > ![Add agent script control](../media/agent-script-control13.png "Add agent script control")
+
+14. Select **Agent script control** in the **Add Control** dialog, and then select **Add**.
+
+15. Choose the **Web** radio button for the **Agent script control** option, and then select **OK**.
+
+    > [!div class=mx-imgBorder] 
+    > ![Choose web option](../media/agent-script-control15.png "Choose web option")
+
+16. Select **Save** to save the changes.
+
+17. Select **Publish** to publish the customizations.
+
