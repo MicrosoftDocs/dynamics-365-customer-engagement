@@ -26,6 +26,10 @@ search.app:
 
 - You have Customizer or System Administrator security role in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. 
 - To test the controls, you need to be a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator seat holder.
+- When using the Microsoft Edge browser, add your Dynamics 365 domain as a trusted site. This is required to read cookies from the linkedin.com domain.
+    1. Select the lock icon in the address bar.
+    1. Select **Manage for all sites** under **Tracking prevention**.
+    1. Select **Exceptions** and add your Dynamics 365 domain to the list.
 
 ## Add Sales Navigator controls to a form
 
