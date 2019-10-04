@@ -34,6 +34,35 @@ Currently an Analysis Job is automatically triggered when Field Service is insta
 
 
 Solution Health Hub allows you to get a better picture of the state of your environment. There are a range of issues that are being detected by the rules. There are issues that will later lead to runtime issues, like customized webresources. Another common thing that can be detected is when there are processes that are assigned to disabled users, the upgrade will fail. These things can be detected before they will cause problems and you can address them right then.
+
+It is advisable to use the solution health hub and run the Field Service ruleset regularly and monitor the health of your environment. The other use case is to trigger an analysis job whenever you encounter problems. This way issues can be resolved early on before they cause issues.
+
+## Prerequisites
+> [!Note]
+>
+
+
+
+
+
+How to trigger a health check using Solution Health Hub
+To run an Analyis Job for Field Service follow these steps:
+1.	Open the Solution Health Hub app.
+2.	Select Analysis Jobs and create a new analysis job.
+3.	When the dialog box opens, select Field Service.
+4.	Select OK.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/troubleshoot-solution-health-fs-rules.png)
+
+
+You will automatically be directed to the overview page of this Analysis Job and the page will automatically refresh when the run has finished. You can see the overview of a run on the picture below.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/troubleshoot-solution-health-fs-rules-analysis.png)
+
 This is the full list of rules that are currently being shipped as part of Field Service including a quick description what they are checking for:
 
 | Rule Name: | What it checks: |
@@ -56,12 +85,17 @@ This is the full list of rules that are currently being shipped as part of Field
 | Customized Optionsets	| Detects whether any optionset in Field Service that is not supposed to be customized has been customized. Customizing optionsets can lead to unexpected behavior.| 
 
 
-## Prerequisites
-> [!Note]
->
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+When running an Analysis Job you will see a Return Status for each rule. The possible options are listed below. Rules also return a severity if they are failing which shows how severe a certain problem is.
+The rule status indicates whether the rule passed, failed, or there was a configuration error.
+
+
+| Rule Status | 	Recommendation|
+| --- | --- |  
+| Fail	| Highlight specific failures within the system; fix the rule as suggested.| 
+| Warning	| Be aware of the implications mentioned in the rule message.| 
+| Pass	| Indicates that there are no problems with this rule. All rules should be in this state.| 
+
 
 ## Configuration considerations
 ## Additional Notes
