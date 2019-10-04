@@ -89,39 +89,6 @@ One of the requirements for running the [setup wizard](purchase-setup.md) for Dy
     ![Azure user settings](media/faq-azure-user-settings.png "Azure user settings") 
 1. Check the **App registrations** section on this page. If the **Yes** box is highlighted here, then you have permissions to register applications on Azure. If the **No** box is highlighted instead, try to select the **Yes** box and then select **Save**; if you don't have permissions to make this change, then please talk to your global administrator for assistance.
 
-<a name="why-portal"></a>
-
-## When do I need a portal license, and how can I get one?
-
-Dynamics 365 Marketing provides the option of integrating with a dedicated Dynamics 365 Portals solution for hosting marketing pages and the event website. Depending on the Dynamics 365 Marketing licensing plan you have chosen, your license may include a free portal (provided no other free portals are already in use on your tenant), or you may need to purchase a new portal license before you can install the Marketing app with the portals option enabled. You can also choose to install Dynamics 365 Marketing without a portal, in which case you must use your own website or CMS system to host landing pages and the events website.
-
-You can have at most one free portal on your tenant, so even if your Dynamics 365 Marketing license includes a free portal, you may still need to purchase an additional one if want to use a portal with Dynamics 365 Marketing and you already have a free portal configured on your tenant (probably because it was included with another Dynamics 365 app that you are already using).
-
-For complete details about Dynamics 365 Marketing licensing options, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
-
-If you don't have any unconfigured free or paid portals available, you have three options:
-
-- Install Dynamics 365 Marketing without an integrated portal.  
-   The setup wizard provides an option that will let you install Dynamics 365 Marketing without a portal, in which case you must use your own website or CMS system to host landing pages and the events website.
-- Recycle an existing portal.  
-  If you have a portal that you aren't using, you can reset it and then run the Marketing setup wizard to set it up for use with Marketing. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run Marketing setup wizard. For instructions, see [Reset a portal](../portals/reset-portal.md).
-
-- Purchase an additional portal.  
-  If you don't have any unused portals that you can recycle, then you can purchase a new one for Marketing as described in the following procedure.
-
-To get a new, unconfigured portal app and then use it with Marketing:
-
-1. Open your Microsoft 365 admin center and go to **Billing** > **Subscriptions**.
-
-2. Choose **Buy add-ons** in the tile for your Dynamics 365 subscription.
-
-3. Purchase a new portal using the form provided.
-
-   > [!IMPORTANT]
-   > Be sure not to configure your new portal because the Marketing setup wizard requires an *unconfigured* portal to be present on your tenant. The wizard will configure the portal for you as required.
-
-4. Run the [Marketing setup wizard](purchase-setup.md).
-
 ## Why do I get an authorization-failed message when I try to run the setup wizard?
 
 In some cases, when you sign up for a trial of Dynamics 365 or Office 365, you will receive an organization that is in an *unmanaged* state, which means (among other things) that you can't get permission to install third-party solutions&mdash;including Dynamics 365 Marketing. As a result, you'll see the following error message when you run the setup wizard for Marketing.

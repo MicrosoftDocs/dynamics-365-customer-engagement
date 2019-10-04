@@ -70,7 +70,7 @@ Dynamics 365 Marketing includes a bundle of apps and solutions carefully selecte
 - **Dynamics 365 Connector for LinkedIn Lead Gen Forms**  
   Import leads generated with LinkedIn's lead tools into Dynamics 365. This feature is bundled with the Marketing app, but is also available separately as an add-on for other Dynamics 365 products.
 - **Dynamics 365 Portals (optional)**  
-  The Marketing app can use Dynamics 365 Portals to publish its event website, marketing pages, and online surveys. Some Dynamics 365 Marketing licenses include a free portal, but you can have at most one free portal per tenant. If you don't use Dynamics 365 Portals with Marketing, then you can publish your marketing pages and/or event portal on your own website or CMS system instead. More information: [Create interactive features with or without portals](portals.md) and [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
+  The Marketing app can use Dynamics 365 Portals to publish its event website, marketing pages, and online surveys. If you don't use Dynamics 365 Portals with Marketing, then you can publish your marketing pages and/or event portal on your own website or CMS system instead. More information: [Create interactive features with or without portals](portals.md) and [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
 
 All these features are fully integrated and work together to create a comprehensive marketing solution.
 
