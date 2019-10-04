@@ -31,23 +31,17 @@ search.app:
 
 You can use the web app to [add custom controls](https://docs.microsoft.com/dynamics365/customer-engagement/customize/use-custom-controls-data-visualizations) on any form or entity of a Unified Interface app in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] that contains a field for last name, primary contact, or account name. 
 
-There are four different types of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls which are added automatically when using the latest version of the out-of-box integrations: 
+There are different types of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls which are added automatically when using the latest version of the out-of-box integrations: 
  
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead (member profile)**: Shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile using a specific lead or contact name.
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Lookup Control**: Shows member profile information using the name of the primary contact related to the record.
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account (company profile)**: Shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] company profile using a specific account name. 
-- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Account Lookup Control**: Shows company profile information using the account name related to the record.  
+- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Account Lookup Control**: Shows company profile information using the account name related to the record.
+- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] InMail Control**: Shows a form where you can send an InMail message to another LinkedIn member. 
 
 The Sales Navigator controls can be added by modifying field on a form in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. Modify the following fields according to the control type. Optionally, you can add multiple fields to match the control to make the matches more relevant. Keep in mind that this requires all fields to match before a member profile or company profile is suggested. If no match, or in rare cases a wrong match is found, you can use the search interface to find the right profile.
 
-| Sales Navigator Control                            | Field name to modify | Field type |
-|----------------------------------------------------|----------------------|------------|
-| LinkedIn Sales Navigator Lead (member profile)      | Last Name            | Text       |
-| LinkedIn Lead Lookup Control                       | Primary Contact      | Lookup     |
-| LinkedIn Sales Navigator Account (company profile) | Account Name         | Text       |
-| LinkedIn Account Lookup Control                    | Account Name         | Lookup     |
-
-
+## Add a member profile to a Lead form
 
 This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead (member profile) on the **Lead** form by modifying the **Last Name** field. Other controls can be configured in the same way on other entities where the controls aren't placed by default.
 
@@ -84,10 +78,8 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
    > [!TIP]
    > Currently, the controls are available on desktop form factors. On mobile (phone and tablet) scenarios, the controls fall back to the default platform control. To hide the default controls from the forms on mobile scenarios, select the **Hide Default Control** check box.
 
-   
-
 9. In the property area, make sure all required properties (with a red asterisk) have a binding configured. You might need to scroll down in the list to find additional required properties. For this example, we need to configure one additional property. We recommend binding the remaining parameters (first name, email, job title, and company name) to the corresponding fields on the Lead entity. The more parameters are passed to the control, the greater will be the [accuracy to find the right match](https://www.linkedin.com/help/sales-navigator/answer/77041/leads-contacts-and-accounts-matching-between-sales-navigator-and-your-crm).  
- Select the **First Name** property with the description **Use this optional field to specify the LinkedIn member’s first name for the matching query. Specifying this attribute increases the match accuracy** and select the pencil icon. 
+Select the **First Name** property with the description and select the pencil icon. Use this optional field to specify the LinkedIn member’s first name for the matching query. Specifying this attribute increases the match accuracy. 
 
    ![Configure properties of a Sales Navigator control](media/configure-sales-navigator-control.png "Configure properties of a Sales Navigator control")
 
