@@ -53,7 +53,8 @@ The following procedure guides administrators to enable default controls for Lin
    ![Clickpath for Business Management settings](media/business-management-settings.png)
 2. Select **LinkedIn Sales Navigator**.
 3. Select the **Enable Sales Navigator integration** control.
-   ![Enable the Sales Navigator integration](media/sales-navigator-dialog-box.png)
+   > [!div class="mx-imgBorder"]
+   > ![Enable the Sales Navigator integration](media/sales-navigator-dialog-box.png)
 4. Select **Ok** to enable the integration.
 
 ## Disable the default Sales Navigator controls
