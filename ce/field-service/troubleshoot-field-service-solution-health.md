@@ -99,5 +99,6 @@ The rule status indicates whether the rule passed, failed, or there was a config
 | Pass	| Indicates that there are no problems with this rule. All rules should be in this state.| 
 
 
-## Configuration considerations
-## Additional Notes
+### See also
+
+- [Frequently asked questions](./troubleshoot-faq.md)
