@@ -42,6 +42,8 @@ Agent scripts provide guidance to agents about what they should to doing when th
 
 ## Prerequisites
 
+- Install Dynamics 365 Productivity Tools solutions
+
 ## Create agent scripts
 
 1. Sign in to the Omnichannel Administrator app.
