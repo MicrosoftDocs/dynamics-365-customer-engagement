@@ -112,7 +112,7 @@ This section displays the case- and customer-related activities in the form of a
 > [!div class='mx-imgBorder']
 > ![Recent activities section in the customer summary form](../../media/customer-summary-recent-activities.PNG "Recent activities section in the customer summary form")
 
-## Agent script
+## Preview: Agent script
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
