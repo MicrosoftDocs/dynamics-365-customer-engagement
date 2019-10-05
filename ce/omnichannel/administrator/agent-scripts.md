@@ -153,3 +153,7 @@ After you configure agent script and add the field to a form, you need to associ
 7. Select **Save**.
 
 The agent script is associated with the session template.
+
+## See also
+
+[Agent script](../agent/agent-oc/oc-customer-summary.md#agent-script)

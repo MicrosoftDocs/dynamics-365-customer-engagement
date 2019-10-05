@@ -127,9 +127,20 @@ The **Linked records** field drop-down shows the record that is linked to conver
 
 ## Agent script
 
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Agent script in Omnichannel for Customer Service provides guidance about what you (agent) should be doing when you get a customer issue. It ensures that you share only the accurate and company-endorsed information. Agent scripts help you to be accurate, and effective while being faster and more-efficient in terms of customer handling.
 
 When you accept an incoming conversation request, a session starts and the **Customer Summary** application tab opens. You can see the Agent script section, which has a agent script .
+
+> [!div class='mx-imgBorder']
+> ![Agent script](../../media/agent-script-section.PNG "Agent script")
+
+1. Agent script control
+2. Text instructions
+3. Macro
+4. Sub agent script
+
 
 Based on the type of agent script administrator has configured, you may following type of steps:
 
@@ -148,6 +159,9 @@ The text instructions provides guidance on the action you must perform. The **Te
 |----------------|-------------------------------------------------------------------------|
 | Greet customer | Greet the customer with welcome message from the quick reply repository.|
 
+> [!div class='mx-imgBorder']
+> ![Agent script text instruction](../../media/agent-script-text-instruction.PNG "Agent script text instruction")
+
 ## Macro
 
 A macro is a set of instructions that tells the system how to complete a task. When a macro runs, the system performs each instruction. The **Macro** step in the agent script shows a title, instruction that system performs, and the macro icon. When you select run macro icon, the system executes the macro.
@@ -160,9 +174,15 @@ A macro is a set of instructions that tells the system how to complete a task. W
 
 In this is example, when an agent selects the macro icon, the system opens a new **Create case** form in the application tab panel with pre-populated fields based on the customer context.
 
+> [!div class='mx-imgBorder']
+> ![Agent script macro](../../media/agent-script-run-macro.PNG "Agent script macro")
+
 ## Sub agent script
 
 The sub agent script is another agent script which is invoked from the current agent script. When you select the view icon, the system loads the sub agent script.
+
+> [!div class='mx-imgBorder']
+> ![Sub agent script](../../media/agent-script-view.PNG "Sub agent script")
 
 > [!div class="nextstepaction"]
 > [Next topic: Search for and share knowledge articles](oc-search-knowledge-articles.md)
