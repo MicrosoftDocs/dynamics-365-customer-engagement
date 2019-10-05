@@ -130,13 +130,38 @@ The **Linked records** field drop-down shows the record that is linked to conver
 
 Agent script in Omnichannel for Customer Service provides guidance about what you (agent) should be doing when you get a customer issue. It ensures that you share only the accurate and company-endorsed information. Agent scripts help you to be accurate, and effective while being faster and more-efficient in terms of customer handling.
 
-When you accept an incoming conversation request, a session starts and the **Customer Summary** application tab opens. You can see the Agent script section.
+When you accept an incoming conversation request, a session starts and the **Customer Summary** application tab opens. You can see the Agent script section, which has a agent script .
 
-The agent script has the following type of actions:
+Based on the type of agent script administrator has configured, you may following type of steps:
 
 - Text instructions
 - Macro
 - Sub agent script
+
+## Text instructions
+
+The text instructions provides guidance on the action you must perform. The **Text instructions** step in the agent script shows a title, instruction(s), and the text instruction icon. After you perform the the instruction, you can select the icon **Mark as done**.
+
+**Example:**
+| Title | Instruction you need to perform |
+|----------------|-------------------------------------------------------------------------|
+| Greet customer | Greet the customer with welcome message from the quick reply repository.|
+
+## Macro
+
+A macro is a set of instructions that tells the system how to complete a task. When a macro runs, the system performs each instruction. The **Macro** step in the agent script shows a title, instruction that system performs, and the macro icon. When you select run macro icon, the system executes the macro.
+
+**Example:**
+
+| Title | Instruction system performs |
+|----------------|----------------------------------------|
+| Create case | Triggers create case from customer context|
+
+In this is example, when an agent selects the macro icon, the system opens a new **Create case** form in the application tab panel with pre-populated fields based on the customer context.
+
+## Sub agent script
+
+The sub agent script is another agent script which is invoked from the current agent script. When you select the icon, the system loads the sub agent script.
 
 > [!div class="nextstepaction"]
 > [Next topic: Search for and share knowledge articles](oc-search-knowledge-articles.md)
