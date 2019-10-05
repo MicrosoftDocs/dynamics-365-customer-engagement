@@ -122,7 +122,6 @@ This section displays case- and customer-related activities in the form of a tim
 
 The **Linked records** field drop-down shows the record that is linked to conversation. For example, if you link a contact and case to the conversation, the **Linked records** field drop-down shows **Contact** and **Case** respectively.
 
-
 > [!div class='mx-imgBorder']
 > ![View only the linked records in the drop-down](../../media/oceh/customer-summary-linked-records.PNG "View only the linked records in the drop-down")
 
@@ -138,9 +137,11 @@ Based on the type of agent script administrator has configured, you may followin
 - Macro
 - Sub agent script
 
+When you expand the step, the configured instructions appears.
+
 ## Text instructions
 
-The text instructions provides guidance on the action you must perform. The **Text instructions** step in the agent script shows a title, instruction(s), and the text instruction icon. After you perform the the instruction, you can select the icon **Mark as done**.
+The text instructions provides guidance on the action you must perform. The **Text instructions** step in the agent script shows a title, instruction(s), and the text instruction icon. After you perform the the instruction, you can select the icon **Mark as done** to indicate that you've executed the step.
 
 **Example:**
 | Title | Instruction you need to perform |
@@ -161,7 +162,7 @@ In this is example, when an agent selects the macro icon, the system opens a new
 
 ## Sub agent script
 
-The sub agent script is another agent script which is invoked from the current agent script. When you select the icon, the system loads the sub agent script.
+The sub agent script is another agent script which is invoked from the current agent script. When you select the view icon, the system loads the sub agent script.
 
 > [!div class="nextstepaction"]
 > [Next topic: Search for and share knowledge articles](oc-search-knowledge-articles.md)
