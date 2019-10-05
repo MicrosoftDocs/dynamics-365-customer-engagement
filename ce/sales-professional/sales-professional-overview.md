@@ -22,7 +22,7 @@ This offering, available online only and built on the new Unified Interface fram
 
 It is designed from the ground up with accessibility in mind, and uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. For example, subgrids morph into lists for smaller screen sizes.
 
-[!INCLUDE[cc-app-definition-sales](../includes/cc-app-definition-sales.md)]<br\>
+[!INCLUDE[cc-app-definition-sales](../includes/cc-app-definition-sales.md)]
 
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE2OJXb" frameborder="0" allowfullscreen=""></iframe></div>
