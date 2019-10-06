@@ -24,7 +24,15 @@
   - name: "Templates"
     items:
       name: "Overview"
-      href: templates.md
+      href: templates-overview-cif.md
+      name: "Session templates"
+      href: session-templates-cif.md
+      name: "Application tab templates"
+      href: application-tab-templates-cif.md      
+      name: "Notification templates"
+      href: notification-templates-cif.md
+      name: "Associate templates"
+      href: associate-templates-cif.md          
   - name: "Channel Analytics"
     href: channel-analytics.md
   - name: How-to
