@@ -22,7 +22,9 @@
   - name: "Modes for communication widget"
     href: modes-communication-widget.md
   - name: "Templates"
-    href: templates.md
+    items:
+      name: "Overview"
+      href: templates.md
   - name: "Channel Analytics"
     href: channel-analytics.md
   - name: How-to
