@@ -140,7 +140,7 @@
 #### [Customize quick view forms](customizer/customize-quick-view-form.md)
 
 ### [Customize the session forms](customizer/customize-session-form.md)
-
+### [Configure link to conversation button in model-driven app entity form](customizer/configure-link-to-conversation-model-driven-app-form.md)
 ### Unified Service Desk settings
 
 #### [Create agent and supervisor configurations in Unified Service Desk](customizer/create-agent-supervisor-configurations-unified-service-desk.md)
@@ -199,7 +199,7 @@
 
 #### [Configure Scriptlets to define case and channel titles](customizer/configure-Scriptlets-define-case-channel-titles.md)
 
-#### [Configure link to conversation button](customizer/configure-link-to-conversation.md)
+#### [Configure link to conversation button in Unified Service Desk](customizer/configure-link-to-conversation.md)
 
 ## Developer guide
 ### [Overview](developer/omnichannel-developer.md)
