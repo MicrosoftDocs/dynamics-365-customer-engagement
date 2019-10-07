@@ -107,6 +107,9 @@ The **Chat session** script has the following steps
 | Macro | Send details to the customer | Sends linked case to customer via email | Run | When you select the run macro icon, the system sends the linked case to the customer in a mail. |
 | Agent script | Close conversation | Follow these steps to close a conversation | View | When you select the view icon, the system loads another agent script from the current agent script. In this sample, the another agent script is **Close conversation** script. |
 
+
+Similarly, the administrator can create more agent scripts as per your business scenarios. To learn more on how to configure, see [Guide agents with scripts](../../administrator/agent-scripts.md).
+
 ## See also
 
 [Guide agents with scripts](../../administrator/agent-scripts.md)
