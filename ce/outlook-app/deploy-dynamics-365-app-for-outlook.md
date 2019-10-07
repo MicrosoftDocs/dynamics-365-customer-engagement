@@ -59,7 +59,7 @@ For more information on FAQ's, see [Frequently Asked Questions about Dynamics 36
 > [!NOTE]
 > Support for 2013 versions of Office 365 ProPlus ended on February 28, 2017. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See here.](https://support.microsoft.com/help/3199744/support-for-the-2013-versions-of-office-365-proplus-ends-february-28-2)    
 
-- Dynamics 365 apps, version 9.x (such as Dynamics 365 Sales and Dynamics 365 Customer Service apps), [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro), or [Dynamics 365 Customer Engagement (on-premises), version 9.x](../customer-engagement/on-premises/overview.md).
+- Dynamics 365 apps, version 9.x (such as Dynamics 365 Sales and Dynamics 365 Customer Service apps), [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro), or [Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/overview.md).
 
 
 - Synchronization of incoming email through server-side synchronization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
