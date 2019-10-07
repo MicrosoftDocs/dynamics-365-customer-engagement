@@ -158,4 +158,4 @@ The agent script is associated with the session template.
 
 ## See also
 
-[Agent script](../agent/agent-oc/oc-customer-summary.md#preview-agent-script)
+[Agent script](../agent/agent-oc/oc-agent-scripts.md)

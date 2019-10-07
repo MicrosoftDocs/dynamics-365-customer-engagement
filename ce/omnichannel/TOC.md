@@ -92,6 +92,8 @@
 #### [Introduction to the agent interface](agent/agent-oc/oc-introduction-agent-interface.md)
 #### [Manage sessions](agent/agent-oc/oc-manage-sessions.md)
 #### [Manage applications](agent/agent-oc/oc-manage-applications.md)
+#### Productivity tools
+##### [Agent scripts](agent/agent-oc/oc-agent-scripts.md)
 #### [View agent dashboard and conversations (work items)](agent/agent-oc/oc-agent-dashboard.md)
 #### [Create a record](agent/agent-oc/oc-create-record.md)
 #### [Search, link, and unlink a record](agent/agent-oc/oc-search-link-unlink-record.md)
