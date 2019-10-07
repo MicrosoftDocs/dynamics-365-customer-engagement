@@ -22,7 +22,7 @@ search.app:
 Use the **msdyncrm_LoadInteractionsPublic** action to programmatically retrieve interactions for a contact. This action is useful for responding to [get-my-data requests](../gdpr.md#respond-to-get-my-data-requests) in order to fulfill the General Data Protection Regulation (GDPR) compliance.
 
 > [!TIP]
-> You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/custom-actions#generate-early-bound-types-for-an-action)
+> You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](/powerapps/developer/common-data-service/custom-actions#generate-early-bound-types-for-an-action)
 
 ## Action parameters
 
