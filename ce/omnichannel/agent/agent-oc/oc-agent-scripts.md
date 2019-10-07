@@ -49,6 +49,7 @@ Each of the step could be identified with the icon that are actionable. When you
 The text instructions provides guidance on the action you must perform. The **Text instructions** step in the agent script shows a title, instruction(s), and the text instruction icon. After you perform the the instruction, you can select the icon **Mark as done** to indicate that you've executed the step.
 
 **Example:**
+
 | Title | Instruction you need to perform |
 |----------------|-------------------------------------------------------------------------|
 | Greet customer | Greet the customer with welcome message from the quick reply repository.|
