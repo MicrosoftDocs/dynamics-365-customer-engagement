@@ -89,5 +89,5 @@ Select the **Save** button the bottom of the flyout panel to send the message to
 [Email marketing overview](prepare-marketing-emails.md)  
 [Create a new email and design its content](email-design.md)  
 [Add dynamic content to email messages](dynamic-email-content.md)  
-[Set the sender, receiver, and legal designation for a message](email-properties.md)  
+[Set the sender, receiver, language, and legal designation](email-properties.md) 
 [Check for errors, go live, and deliver](email-check-golive.md)

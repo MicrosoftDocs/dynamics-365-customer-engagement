@@ -142,8 +142,7 @@ The Dynamics 365 apps environment that you are trying to connect does not suppor
 ## Error messages in Dynamics 365 apps 
 
 ### Error: You cannot enable Microsoft Teams integration since the environment is integrated with SharePoint on-premises.
-You are currently configured to use SharePoint on-premises for document management. You need to set up document management in Dynamics 365 apps to use SharePoint Online. See [Set up Dynamics 365 apps to use SharePoint Online](../customer-engagement/on-premises/admin/set-up-dynamics-365-online-to-use-sharepoint-online.md
-).
+You are currently configured to use SharePoint on-premises for document management. You need to set up document management for model-driven apps in Dynamics 365 to use SharePoint Online. See [Set up model-driven apps in Dynamics 365 to use SharePoint Online](https://docs.microsoft.com/en-us/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
 ### Error: You don't have permissions to view files in this location. Contact your Microsoft Teams owner or SharePoint administrator for access.
 

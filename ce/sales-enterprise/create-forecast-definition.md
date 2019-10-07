@@ -34,7 +34,7 @@ Sales forecasting has security roles that are defined specifically to create and
 Before creating a forecast definition, review the following requisites:
 
 - Administrator, forecast manager, or forecast user role is assigned to you.
-- Enable preview feature option. To learn more, see [How do I enable a preview feature](../admin/what-are-preview-features-how-do-i-enable-them.md#how-do-i-enable-a-preview-feature).
+- Enable preview feature option. To learn more, see [How do I enable a preview feature](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature).
 - All the users under the selected hierarchy are assigned forecast manager or forecast user role. If not, the publishing of the forecast definition will fail. 
 - No users are disabled under the selected hierarchy when you publish the forecast definition. If not, the publishing of the forecast definition will fail. 
  

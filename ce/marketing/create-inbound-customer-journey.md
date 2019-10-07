@@ -40,9 +40,9 @@ You can create an inbound campaign by placing a **Marketing form** tile at the s
 
 ![Inbound campaign from a hosted form](media/journey-host-form-trigger5.png "Inbound campaign from a hosted form")
 
-## Use an interaction segment to find contacts who submitted a form
+## Use an behavioral segment to find contacts who submitted a form
 
-Another way to create an inbound journey is to start with an [interaction segment](segments-interaction.md) that is based on form-submit or event-registration interactions, and filtered for a specific form or event ID. This technique will work with both native and externally hosted forms, and with event registrations.
+Another way to create an inbound journey is to start with an [behavioral segment](segments-interaction.md) that is based on form-submit or event-registration interactions, and filtered for a specific form or event ID. This technique will work with both native and externally hosted forms, and with event registrations.
 
 ### See also
 
