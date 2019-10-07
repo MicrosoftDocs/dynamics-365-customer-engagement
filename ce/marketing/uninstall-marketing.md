@@ -104,11 +104,14 @@ To remove the solutions:
     > [!NOTE]
     > The [Solution uninstall order](solution-uninstall-order.md) document lists the uninstall order for the latest version of Dynamics 365 Marketing. If you are uninstalling an earlier version, then just skip over any solution listed here that you don't see on your installation.
 
+    > [!NOTE]
+    > The [Solution uninstall order](solution-uninstall-order.md) document is only available in English, but the solution names and uninstall order are the same for all languages. The other text there just summarizes the procedure described here.
+
 1. If you see any other "anchor" solutions that start with "MicrosoftDynamics_", then you can delete these too. They are probably left over from an earlier version that you upgraded.
 
 1. If you're no longer using the [!INCLUDE [cc-linkedin-solution](../includes/cc-linkedin-solution.md)], then also remove the LinkedInLeadGenIntegration solution.
 
-1. If you're no longer using Dynamics 365 Portal or Voice of the Customer functionality, you can also delete their related solutions.
+1. If you're no longer using Dynamics 365 Portals or Voice of the Customer functionality, you can also delete their related solutions.
 
 ### See also
 
