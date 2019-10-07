@@ -3,8 +3,10 @@ title: "Create or edit an invoice (Dynamics 365 Sales) | MicrosoftDocs"
 description: "An invoice is an order that has been billed to the customer."
 keywords: "Invoice, bill, sale"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 ms.assetid: b58780fa-4e39-4925-99ad-e2e1bbfb5fa4
 author: shubhadaj
@@ -59,7 +61,7 @@ Typically, you convert an order into an invoice; however, you can also create an
     -	**Price List** and **Currency**: Select the price list and the currency that will be used to calculate the product prices. 
 
         > [!NOTE]
-        > By default, selecting a price list is required to be able to add products to an invoice; however, your administrator can change your organization settings to make the Price List field optional. The capability to make the Price List field optional is in preview.
+        > By default, selecting a price list is required to be able to add products to an invoice; however, your administrator can change your organization settings to make the Price List field optional. 
   
 4. In the **Sales Information** section, in **Potential Customer**, select the customer you're creating this invoice for.
   

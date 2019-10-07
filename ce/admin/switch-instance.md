@@ -8,8 +8,6 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 8a559829-8656-41f7-baab-8dee87084c8a
 caps.latest.revision: 4
 author: jimholtz
@@ -23,7 +21,7 @@ search.app:
 ---
 # Switch an instance
 
-You may decide that your customization work developed and tested on a Sandbox instance is now ready to go live. If you’ve placed your Sandbox instance in administration mode, only users with System Administrator or System Customizer security roles are able to sign in to that instance. Once you switch the instance type to Production, all your users can access your Dynamics 365 organization. When you configure or edit an instance, you can switch the instance from:  
+You may decide that your customization work developed and tested on a Sandbox instance is now ready to go live. If you’ve placed your Sandbox instance in administration mode, only users with System Administrator or System Customizer security roles are able to sign in to that instance. Once you switch the instance type to Production, all your users can access your organization. When you configure or edit an instance, you can switch the instance from:  
   
 -   Production to Sandbox  
   
@@ -48,7 +46,7 @@ Switching an instance does not change the number of your purchased licenses. Rev
   
 <a name="BKMK_Licenses"></a>   
 ## License considerations  
- Review the following table to see how switching an instance type is impacted by your Dynamics 365 (online) licenses.  
+ Review the following table to see how switching an instance type is impacted by your licenses.  
   
 |Scenario|Result|Notes|  
 |--------------|------------|-----------|  

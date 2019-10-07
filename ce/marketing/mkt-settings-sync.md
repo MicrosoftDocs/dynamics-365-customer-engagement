@@ -1,7 +1,7 @@
 ---
 title: "Marketing data configuration (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Choose which entities to make available for use in dynamic email content, segmentation criteria, and lead scoring in Dynamics 365 Marketing"
-ms.date: 01/10/2019
+ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing

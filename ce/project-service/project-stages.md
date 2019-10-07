@@ -1,6 +1,6 @@
 ---
 title: Project stages 
-description: This topic provides information about the project stages in Dynamics 365 Project Service Automation.
+description: This topic provides information about project stages.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice

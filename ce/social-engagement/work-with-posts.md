@@ -2,7 +2,7 @@
 title: "Work with posts in Social Engagement | Microsoft Docs"
 description: "Learn how to interact with posts and how to perform internal actions."
 keywords: publish, sentiment, tag, assign
-ms.date: 06/11/2019
+ms.date: 10/03/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -118,7 +118,6 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engageme
 > [!NOTE]
 > - You can’t undo this action, and Support can’t restore deleted posts.  
 >   - Deleting a post also deletes associated data like notes, sentiment edits, user assignments, labels, or information about linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records assigned to a post.  
->   - Please be aware that tweets which are deleted on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] will also be deleted in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to meet the expectation and intent of users. The information if a tweet was deleted on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] will not be disclosed.  
   
  You must have at least a Power Analyst Analytics role to perform this task.  
   

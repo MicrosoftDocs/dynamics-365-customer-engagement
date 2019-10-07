@@ -32,7 +32,7 @@ productDirectory:
       links:
         - url: https://docs.microsoft.com/dynamics365/customer-engagement/sales-professional/help-hub
           text: Documentation
-        - url: https://docs.microsoft.com/learn/browse/?resource_type=learning%20path&products=dynamics-sales
+        - url: https://docs.microsoft.com/learn/browse/?resource_type=learning%20path&products=dynamics-sales&term=sales%20professional
           text: Learn Dynamics 365 Sales Professional
     # Card
     - title: Dynamics 365 Sales Insights
@@ -40,5 +40,3 @@ productDirectory:
       links:
         - url: https://docs.microsoft.com/dynamics365/ai/sales/overview
           text: Documentation
-        - url: https://docs.microsoft.com/learn/browse/?resource_type=learning%20path&products=dynamics-sales
-          text: Learn Dynamics 365 Sales Insights

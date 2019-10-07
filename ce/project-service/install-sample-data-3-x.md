@@ -1,5 +1,5 @@
 ---
-title: "Sample data installation (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs"
+title: Sample data installation 
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
 ms.reviewer: 
@@ -22,7 +22,7 @@ search.app:
 
 # Sample data installation for the Project Service application
 
-To help you build your own demo environments, Microsoft provides downloadable sample data packages that showcase the capabilities of Dynamics 365 for Customer Engagement for Project Service and Dynamics 365 Field Service. There are two types of sample data packages:
+To help you build your own demo environments, Microsoft provides downloadable sample data packages that showcase the capabilities of your apps. There are two types of sample data packages:
 - reference/setup data
 - demo data (reference/setup and transactional data such as work orders and projects)
 
@@ -114,7 +114,7 @@ The **FPSDemoData** package requires six users while **FPSMasterData** packages 
 
 ## Create or configure users - setup/reference data packages
 
-The **FPSMasterData** package is designed to install with one user named Spencer Low with the settings described here. To install the package correctly, you need to create (or temporarily rename) users in your Dynamics 365 for Customer Engagement to match the incoming sample data configuration.
+The **FPSMasterData** package is designed to install with one user named Spencer Low with the settings described here. To install the package correctly, you need to create (or temporarily rename) users in your environment to match the incoming sample data configuration.
 
 To create or configure users, go to **Settings** > **Security** > **Users**, and do the following:
 
@@ -170,7 +170,7 @@ The demo data package requires six users. For the package to install correctly, 
       > [!div class="mx-imgBorder"]
       > ![Screenshot of Package Deployer window with "Display list of available organizations" selected](media/sample-data-2.png)
 
-4. Select the Dynamics 365 for Customer Engagement organization where you want to install the sample data.
+4. Select the organization where you want to install the sample data.
 
 5. Select **Next** until you see the **Demo Data Setup** dialog.
 
@@ -229,7 +229,7 @@ There are a number of other configuration components in this pre-import configur
 
 - **\<RequiredSolutions\>** specifies prerequisite solution installations and their version numbers.
 
-- **\<InstallSampleData\>** controls whether out-of-the-box sample data for the Dynamics 365 Sales and Service apps is installed.
+- **\<InstallSampleData\>** controls whether out-of-the-box sample data for the apps is installed.
 
     - false - skips installation of this built-in data (which is removable)
 

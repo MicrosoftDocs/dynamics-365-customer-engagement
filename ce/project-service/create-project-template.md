@@ -1,5 +1,5 @@
 ---
-title: Create a project template (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Create a project template 
 description: How to create a project template in Project Service
 author: ruhercul
 manager: kfend

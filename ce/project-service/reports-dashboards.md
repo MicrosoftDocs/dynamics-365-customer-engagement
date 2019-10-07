@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation (PSA) includes two system dashboards: **Practice Manager** and **Resource Manager**.
+Dynamics 365 Project Service Automation includes two system dashboards: **Practice Manager** and **Resource Manager**.
 
 ## Practice Manager 
 
