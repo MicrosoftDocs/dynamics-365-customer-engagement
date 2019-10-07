@@ -21,7 +21,7 @@ In Omnichannel Administration, **Entity Records** channel helps you to automatic
 
 ### Automatic distribution of cases
 
-Today, case routing in Dynamics 365 Customer Service enables organizations to route cases to the manual queues, and then these cases are either manually assigned by supervisors or manually picked by agents.
+Case routing in Dynamics 365 Customer Service enables organizations to route cases to the manual queues, and then these cases are either manually assigned by supervisors or manually picked by agents.
 
 With unified routing for entity records, organizations can route cases and other entity records to omnichannel queues. The cases and other entity records routed to omnichannel queues are automatically distributed and assigned to best available agents based on their availability and capacity.
 
@@ -38,7 +38,7 @@ To setup the **Entity Record** channel for cases, follow the steps:
 | Step | Description |
 |---------------|----------------------------|--------------------------------------------------------------------------------------------|
 | [Step 1: Create queues](#step-1-create-queues) | Create a new omnichannel queue or continue using an existing omnichannel queue. |
-| [Step 2: Create workstream](#step-2-create-entity-records-channel) | Create a entity records channel and define how these records will be distributed. |
+| [Step 2: Enable entity for routing channel](#step-2-enable-entity-for-routing) | Create entity record configuration to enable an entity for routing. |
 | [Step 3: Create routing rules](#step-3-create-routing-rules) | Create routing rules to route cases to the appropriate queues. |
 
 ## Step 1: Create queues
@@ -48,9 +48,9 @@ Create a new omnichannel queue or use an existing omnichannel queue. To learn mo
 > [!Note]
 > If you enable the option - **Automatically move records to the owner's default queue when a record is created or assigned**, in the case entity customization, then the case entity record won't be automatically distributed to the agents. You must clear the checkbox to automatically distribute the case records. <br><br> ![Automatic record movement to the agent's default queue](../media/route-owner-queue.png "Automatic record movement to the agent's default queue")
 
-## Step 2: Create entity records channel
+## Step 2: Enable entity for routing
 
-Create a entity records channel to route entity records and define how these records will be distributed.
+Create entity record configuration to enable an entity for routing.
 
 1. Sign in to the Omnichannel Administration app.
 
@@ -62,17 +62,19 @@ Create a entity records channel to route entity records and define how these rec
 
     | Tab | Field | Description | Value |
     |--------|---------------------|----------------|----------------------|
-    | Basic Details | Name | Specify a name to the entity record channel. | Lead entity channel  <br> **Note:** This is an example value.|
-    | Basic Details | Entity | Select an entity from the drop-down list. | Lead (lead) |
+    | Basic Details | Name | Specify a name to the entity record channel. | Case entity channel  <br> **Note:** This is an example value.|
+    | Basic Details | Entity | Select an entity from the list. | Case (Incident) |
 
-5. Select **Save** to save the entity record channel. After you save, in the **Work distribution** section, a workstream that was created automatically appears.
+5. Select **Save** to save the entity record channel. After you save, in the **Work distribution** section, a deafult workstream is automatically created automatically to distribute these entity records. 
+
+A default work stream will be created to distribute these entity records. You can edit this workstream or create more workstreams as per your business scenarios. For more information see <link1> and <link2>
 
 > [!Note]
-> If you require more workstreams, create entity records workstream, and define how these records will be distributed. To learn more, see [Entity record workstream](set-up-entity-workstream.md).
+> You can edit the default workstream or create more workstreams as per your business scenarios, and define how these records will be distributed. To learn more, see [Entity record workstream](set-up-entity-workstream.md).
 
 ## Step 3: Create routing rules
 
-After enabling entity record channel, create routing rules to route cases to appropriate queues.
+After creating an entity record configuration, and enabling an entity for routing, you can define routing rules to route these records to appropriate queues.
 
 > [!Note]
 > To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/install-routing-rules-preview-solution.md).
@@ -81,19 +83,19 @@ After enabling entity record channel, create routing rules to route cases to app
 
 2. Select **Entity Records** under **Channels** in the sitemap.
 
-3. Select the record you created for routing the cases from the **Active Entities** view.
+3. Select the record you created for routing the cases from the Routing entity records view.
 
     > [!div class=mx-imgBorder] 
     > ![Select a case workstream](../media/case-entity-channel1.png "Case workstream")
 
-4. Select the **Routing Rules** tab in the entity records channel.
+4. Select the **Routing Rules** tab in the entity records configuration.
 
     > [!div class=mx-imgBorder] 
     > ![Select the routing rule items tab](../media/case-routing-rule1.png "Routing rule items")
 
 5. Select **+ New** in the **All Routing Rule Sets** page.
 
-6. Specify a name in the **New Routing Rule Set** page, and then select **Save** to save the rule. Once you save the record, you can see the **Rule Items** section in the page.
+6. Specify a name in the **New Routing Rule Set** page, and then select **Save** to save the rule set. Once you save the record, you can see the **Rule Items** section in the page.
 
 7. Select **+ Add New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
 
@@ -107,7 +109,7 @@ After enabling entity record channel, create routing rules to route cases to app
     | General | Name | Product - Credit card | Specify a name to the rule item. |
     | General | Description | This rule item is used to for pushing high priority cases to the agents. | Specify a description for you to identify the purpose of the rule item. |
 
-9. Select **+ Add v** in the **Rule Criteria** section, and then select **+ Add row**.
+9. Select **+ Add** in the **Rule Criteria** section, and then select **+ Add row**.
 
     a. Select a rule from the list for the first box. For example, **Subject**.
 
@@ -128,6 +130,8 @@ After enabling entity record channel, create routing rules to route cases to app
     > You must select an omnichannel queue for automatic work distribution in the **Add to Queue** field to automatically assign entity records to agents.
 
 12. Select **Save** to save the rule item.
+
+You've successfully created queues, enabled entity for routing, and created routing rule sets.
 
 ### See also 	
 
