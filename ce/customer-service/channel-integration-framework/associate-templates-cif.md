@@ -24,7 +24,7 @@ ms.custom:
 
 After creating the session, notification, and application tab templates, you must associate these with your scenarios so that the notification template is used for an incoming conversation. After an agent accepts the conversation, a session starts for which the session template is used. In the session, certain application tabs are required such as Knowledge article search and Case page. These application tabs are configured using the application tab templates and are associated with a session.
 
-To associate the templates in your scenarios, you must use the `templateName` parameter in your code. For more information on Notification, Session, and Application Tab management APIs, see [JavaScript API Reference](reference/microsoft-ciframework).
+To associate the templates in your scenarios, you must use the `templateName` parameter in your code. For more information on Notification, Session, and Application Tab management APIs, see [JavaScript API Reference](reference/microsoft-ciframework.md).
 
 
 ## See also

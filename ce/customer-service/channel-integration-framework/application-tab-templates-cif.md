@@ -28,7 +28,7 @@ Application tab template in the Channel Integration Framework app provide the ty
 
 The horizontal bar below the model-driven app navigation bar is called the application tab panel. Every customer session has at least one application tab that is not closable; it is called **Anchor Tab**. That is, when a session is started, by default, the system opens an application in application tab panel. In addition, there may be few other applications that system opens by default based on the configuration. 
 
-![Channel Integration Framework for Dynamics 365 version 2 0   Private Preview  2  image14](media/Channel-Integration-Framework-for-Dynamics-365-version-2.0---Private-Preview-(2)-image14.png)  
+![Application tab panel](media/app-tab.png "Application tab panel")  
 
 With application tab template, you can define the applications that are available for a session, and then associate the applications with a session. 
 
