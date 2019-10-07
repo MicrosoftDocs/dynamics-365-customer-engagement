@@ -107,8 +107,8 @@ When the user tries to pin an entity to a Teams channel, this error will display
 To fix the issue, do the following:
 
 1. In Microsoft Teams, select the channel with this error.
-2. Select the Dynamics 365 tab with this error.
-3. Select the down arrow next to the tab and then select **Remove**.
+2. Select the tab with this error.
+3. Select the down arrow next to the tab, then select **Remove**.
 4. In your app, identify the Common Data Service role which is assigned to this user:
      1. Sign in as a admin to your Common Data service app.
      2. Navigate to **Settings** > **Security** > **Users**. 
