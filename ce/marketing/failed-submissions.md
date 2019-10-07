@@ -1,7 +1,7 @@
 ---
 title: "Recover from failed form submissions (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Learn how to view and recover from failed form submissions in Dynamics 365 Marketing"
-ms.date: 08/01/2019
+ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -21,9 +21,7 @@ search.app:
   - D365Mktg
 ---
 
-# Early access: View and recover from failed form submissions
-
-[!INCLUDE [cc-marketing-early-access-2019w2](../includes/cc-marketing-early-access-2019w2.md)]
+# View and recover from failed form submissions
 
 Marketing forms must be designed to submit values for all mandatory fields and fields used in contact matching, lead matching, and duplicate detection. For option set fields, forms must also provide valid index values that map correctly to available values in the database.
 

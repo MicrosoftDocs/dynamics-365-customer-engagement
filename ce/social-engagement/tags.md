@@ -2,7 +2,7 @@
 title: "Work with tags in Social Engagement | Microsoft Docs"
 description: "Learn how to work with tags on post and the auto-tagging capabilities in Social Engagement."
 keywords: tags, tagging, auto tags, custom tags, Social Engagement
-ms.date: 06/11/2019
+ms.date: 10/03/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -44,7 +44,7 @@ The following intention tags are used by [!INCLUDE[pn_netbreeze_short](../includ
 |Support request|A need for help and support in using a service or product|  
   
 > [!NOTE]
->  Intention analysis is available for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] posts found on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] in the English language.  
+>  Intention analysis is available for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] posts found on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] in the English language.  
   
 Intention tags are predefined in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. The machine learning service makes predictions on whether posts relate to one of the supported intention tags. We recommend that you [remove or add intention tags](work-with-posts.md#add-or-remove-tags) from posts if they aren’t accurate to improve machine learning.
   
