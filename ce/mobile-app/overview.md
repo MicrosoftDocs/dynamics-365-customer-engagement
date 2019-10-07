@@ -35,6 +35,5 @@ Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!IN
 ## Related topics
 
 [Dynamics 365 Documentation](https://docs.microsoft.com/dynamics365/)<br/>
-[Dynamics 365 Customer Engagement (on-premises) Help](../customer-engagement/on-premises/overview.md)<br/>
 [Common Data Service Help](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br/>
  

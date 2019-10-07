@@ -2,7 +2,7 @@
 title: "Set up a subscription center (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create subscription lists and add them to a subscription center in Dynamics 365 Marketing"
 keywords: tutorial; subscription center; static list; subscription list; marketing page; page
-ms.date: 05/24/2019
+ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -78,25 +78,17 @@ You can publish subscription centers as a native marketing page running on a Dyn
 
 ## Create a subscription list
 
-Subscription lists are based on the standard (static) marketing lists feature of Dynamics 365. To create one:
+To create a subscription list using easy subscription lists:
 
-1. Go to **Marketing** > **Customers** > **Marketing lists**.
+1. Go to **Marketing** > **Customers** > **Subscription lists** to open a list of existing subscription lists.
 
-1. You now see a list of existing marketing lists, if any. On the toolbar, select **New** to create a new list.
+1. Select **New subscription list** on the command bar.
 
-1. The **New Marketing List** page opens. Make the following settings (at minimum):
-   - **Name**: Enter a descriptive name
-   - **List type**: Set to **Static**.
-   - **Targeted at**: Set to **Contact**.
-   - **Locked**: Leave set to **No**.
+1. A new list is created, preconfigured to function as a subscription list. Enter **Name** for the list and fill out the other information as needed.
 
-    ![How to configure a list as a subscription list](media/subscription-list-example.png "How to configure a list as a subscription list")
+    ![Create a subscription list](media/subscription-list-create.png "Create a subscription list")
 
-1. On the command bar, select **Save** to save your new list.
-
-1. After saving, the **Subscription** field becomes unlocked (provided you've set the **List type** to **Static** and **Targeted at** to **Contact**). Set **Subscription** to **True**.
-
-1. Select **Save** on the command bar to save your new list as a subscription list.
+1. Select **Save** to create the subscription list. After saving, you can use the **Members** tab to view, edit, or remove members for the list. Usually, however, you should allow your contacts to manage their own subscriptions using your subscription center.
 
 ## Add a subscription list to a subscription form
 
@@ -244,6 +236,14 @@ To test your subscription center, you must send yourself a subscription-center l
 Subscription centers only work when they "know" who they are talking to. This enables the subscription center to display existing contact information in editable fields (like name and email), and also to indicate which of the available subscription lists the viewer already belongs to. The only way most people will be able to open the subscription center is by selecting a link sent to them in a marketing email from a customer journey, and links such as these include an ID that lets the subscription center know which contact has requested the page. (In fact, all links in marketing emails include an ID that's linked to both the contact and the message, which enables the system to report which link each contact has selected in each message.)
 
 If you open a subscription center by opening its URL directly (or by using  a link sent in a test message), the page will load, but the form will be empty, all subscription lists will be cleared, and you won't be able to submit it. To fully test your subscription center, set up a simple customer journey that targets a single contact record with your email address and sends out a simple marketing email that links to your subscription center (similar to the journey presented in the previous section, but be sure to use a very limited segment). When you receive the message, select the subscription center link and test its features.
+
+
+## See which lists each contact subscribes to
+
+To see a contact's subscriptions, open their contact record, go to the **Details** tab and check the **Subscription lists** section.
+
+![Lists a contact subscribes to](media/subscription-list-contact.png "Lists a contact subscribes to")
+
 
 ### See also
 

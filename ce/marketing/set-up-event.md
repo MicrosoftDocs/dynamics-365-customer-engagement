@@ -100,7 +100,7 @@ Use the **Registration and attendance** tab to see who registered for the event,
 - **Event registrations**: This table provides a list of people who  [registered](invite-register-house-event-attendees.md) for your event. You can also [register people manually](invite-register-house-event-attendees.md) here. If you are using [custom registration fields](custom-registration-fields.md), then you can also view the values submitted by each attendee here.
 - **Event check-ins**: Here you can see who attended the event and enter attendance records.
 - **Waitlist**: See who's on the [waitlist](event-waitlist.md) for this event.
-- **Contacts who canceled**: Lists contacts who were registered for the event but who have now cancelled their registration. The list includes cancellations made by contacts using the event website and by users using the Marketing app. If you'd like to communicate with contacts who cancelled from one or more events, you can set up an interaction segment based on `EventRegistrationCancelled` interactions and then use that segment to target a customer journey.
+- **Contacts who canceled**: Lists contacts who were registered for the event but who have now cancelled their registration. The list includes cancellations made by contacts using the event website and by users using the Marketing app. If you'd like to communicate with contacts who cancelled from one or more events, you can set up an behavioral segment based on `EventRegistrationCancelled` interactions and then use that segment to target a customer journey.
 
 ### The Additional information tab
 

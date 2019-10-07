@@ -71,5 +71,5 @@ Once you start delivering an email message using a customer journey, Dynamics 36
 [Email marketing overview](prepare-marketing-emails.md)  
 [Create a new email and design its content](email-design.md)  
 [Add dynamic content to email messages](dynamic-email-content.md)  
-[Set the sender, receiver, and legal designation for a message](email-properties.md)  
+[Set the sender, receiver, language, and legal designation](email-properties.md) 
 [Check your work using previews and test sends](email-preview.md)  

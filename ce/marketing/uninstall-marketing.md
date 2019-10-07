@@ -90,90 +90,28 @@ Customer journeys can introduce data dependencies if they include launch-workflo
 
 ### Step 2: Remove the solutions
 
-> [!NOTE]
-> The following procedure lists the uninstall order for solutions that are included in the latest version of Dynamics 365 Marketing. If you are uninstalling an earlier version, then just skip over any solution listed here that you don't see on your installation.
-
 To remove the solutions:
 
 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 
 1. Navigate to **Settings** > **Customization** > **Solutions** to manage your installed solutions.
 
-1. Find each of the following solutions and remove them, one at a time, in the order listed here. (Some of the items listed may not be present on your instance, so just skip these.) To remove a solution, select its check box, and then select **Delete** on the command bar. More information: [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md)
+1. Find each the solutions listed in the [Solution uninstall order for removing Dynamics 365 Marketing](solution-uninstall-order.md) document and remove them, one at a time, in the order listed there. (Some of the items listed may not be present on your instance, so just skip these.) To remove a solution, select its check box, and then select **Delete** on the command bar. More information: [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md)
 
-    - MicrosoftDynamics_MktCompleteAnchorSolution
-    - MicrosoftDynamics_OrgCleanup_patch
-    - MicrosoftDynamics_OrgCleanup
-    - MicrosoftDynamics_PackageUpgrade
-    - MicrosoftDynamics_PersonalizedPages_patch
-    - MicrosoftDynamics_PersonalizedPages
-    - MicrosoftDynamics_SocialPosting_patch
-    - MicrosoftDynamics_SocialPosting
-    - MicrosoftDynamics_MarketableContactSupport_patch
-    - MicrosoftDynamics_MarketableContactSupport
-    - MicrosoftDynamics_MktVocIntegration_patch
-    - MicrosoftDynamics_MktVocIntegration
-    - MicrosoftDynamics_EvtMgmtVocLink_patch
-    - MicrosoftDynamics_EvtMgmtVocLink
-    - MicrosoftDynamics_MktVocLink_patch
-    - MicrosoftDynamics_MktVocLink
-    - MicrosoftDynamics_MktPortalsLink_patch
-    - MicrosoftDynamics_MktPortalsLink
-    - MicrosoftDynamics_EvtMgmtPortalsLink_patch
-    - MicrosoftDynamics_EvtMgmtPortalsLink
-    - MicrosoftDynamics_ABTesting_patch
-    - MicrosoftDynamics_ABTesting
-    - MicrosoftDynamics_GwennolSegmentBooster_patch
-    - MicrosoftDynamics_GwennolSegmentBooster
-    - MicrosoftDynamics_GwennolFeatureConfiguration_patch
-    - MicrosoftDynamics_GwennolFeatureConfiguration
-    - MicrosoftDynamics_GwennolSpamScore_patch
-    - MicrosoftDynamics_GwennolSpamScore
-    - MicrosoftDynamics_GwennolOESTPrediction_patch
-    - MicrosoftDynamics_GwennolOESTPrediction
-    - MicrosoftDynamics_GwennolOptimalEmailSendingTime_patch
-    - MicrosoftDynamics_GwennolOptimalEmailSendingTime
-    - MicrosoftDynamics_MktIntegration_patch
-    - MicrosoftDynamics_MktIntegration
-    - MicrosoftDynamics_SocialEngagement_patch
-    - MicrosoftDynamics_SocialEngagement
-    - MicrosoftDynamics_LinkedInMatchedAudiences_patch
-    - MicrosoftDynamics_LinkedInMatchedAudiences
-    - MicrosoftDynamics_MktLeadGenLink_patch
-    - MicrosoftDynamics_MktLeadGenLink
-    - MicrosoftDynamics_MktConsentManagement_patch
-    - MicrosoftDynamics_MktConsentManagement
-    - MicrosoftDynamics_FeatureConfiguration_patch
-    - MicrosoftDynamics_FeatureConfiguration
-    - MicrosoftDynamics_MktQuotaInfo_patch
-    - MicrosoftDynamics_MktQuotaInfo
-    - MicrosoftDynamics_MktPageTemplates_patch
-    - MicrosoftDynamics_MktPageTemplates
-    - MicrosoftDynamics_MktEvtMgmtLink_patch
-    - MicrosoftDynamics_MktEvtMgmtLink
-    - LinkedInLeadGenIntegration_patch
-    - LinkedInLeadGenIntegration
-    - MicrosoftDynamics_MktLeadManagement_patch
-    - MicrosoftDynamics_MktLeadManagement
-    - MicrosoftDynamics_MktEmailTemplates_patch
-    - MicrosoftDynamics_MktEmailTemplates
-    - MicrosoftDynamics_Marketing_patch
-    - MicrosoftDynamics_Marketing
-    - MicrosoftDynamics_EventManagement_patch
-    - MicrosoftDynamics_EventManagement
-    - MicrosoftDynamics_ReusableBlocks_patch
-    - MicrosoftDynamics_ReusableBlocks
-    - MicrosoftDynamics_DigitalAssets_patch
-    - MicrosoftDynamics_DigitalAssets
-    - MicrosoftDynamics_Calendar_patch
-    - MicrosoftDynamics_Calendar
-    - MicrosoftDynamics_PreImport
+    > [!IMPORTANT]
+    > You must follow the order exactly as it appears in the [Solution uninstall order](solution-uninstall-order.md) document.
+
+    > [!NOTE]
+    > The [Solution uninstall order](solution-uninstall-order.md) document lists the uninstall order for the latest version of Dynamics 365 Marketing. If you are uninstalling an earlier version, then just skip over any solution listed here that you don't see on your installation.
+
+    > [!NOTE]
+    > The [Solution uninstall order](solution-uninstall-order.md) document is only available in English, but the solution names and uninstall order are the same for all languages. The other text there just summarizes the procedure described here.
 
 1. If you see any other "anchor" solutions that start with "MicrosoftDynamics_", then you can delete these too. They are probably left over from an earlier version that you upgraded.
 
 1. If you're no longer using the [!INCLUDE [cc-linkedin-solution](../includes/cc-linkedin-solution.md)], then also remove the LinkedInLeadGenIntegration solution.
 
-1. If you're no longer using portal or Voice of the Customer functionality, you can also delete their related solutions.
+1. If you're no longer using Dynamics 365 Portals or Voice of the Customer functionality, you can also delete their related solutions.
 
 ### See also
 

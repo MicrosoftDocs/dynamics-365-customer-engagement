@@ -20,16 +20,9 @@ search.app:
   - D365Mktg
 ---
 
-# Early access: Build an approvals feature
+# Build an approvals feature
 
-> [!IMPORTANT]
-> The instructions provided in this topic require you to work on an instance where early access features are enabled. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
-> 
-> For instructions on how to opt in and enable early access, see [Enable the 2019 release wave 2 updates for Dynamics 365 Marketing](https://docs.microsoft.com/power-platform/admin/preview-october-2019-updates#enable-the-2019-release-wave-2-updates-for-dynamics-365-for-marketing). For more information about the 2019 release wave 2 schedule, and answers to frequently asked questions about the early access program, see [2019 release wave 2 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/features-ready-early-access).
-> 
-> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum) and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
-
-Dynamics 365 Marketing now provides an infrastructure with expanded extendability features that offer new possibilities for developers. One way to take advantage of this new extendability is to create an approvals feature, possibly including integration with Microsoft Flow.
+Dynamics 365 Marketing provides an infrastructure with extensibility features that offer new possibilities for developers, and one way to take advantage of this new extensibility is to create an approvals feature, possibly including integration with Microsoft Flow.
 
 This topic outlines one way that you could develop an approvals feature for Marketing. The feature described here would enable organizations to implement an approval workflow in which most users can't make some types of important entities (such as emails, customer journeys, or segments) **Go live** right away. Instead, an approver must inspect each record and decide whether to allow it to **Go live**, or whether more work is needed. The approver is typically an administrator or manager who is specifically identified as an approver in the system.
 
