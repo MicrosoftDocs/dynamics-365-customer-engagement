@@ -32,8 +32,6 @@ Follow these steps to migrate entity records from legacy scheduling experience t
 
 4. Review the details and select **Next** in the **Migrate to Service scheduling on Unified Interface** page. The **Step 1/3: Configuration data** page appears that displays the name of the entity records and the total number of records that will be migrated.
 
-    ![Migrate data](media/migration-step1.png "Migrate data")
-
 5. Specify the following in the **Step 2/3: Service Activities** page and select **Migrate**.
 
     | Field | Description | Value |
@@ -43,8 +41,6 @@ Follow these steps to migrate entity records from legacy scheduling experience t
     | End date | Select a end date from the date picker. | 9/23/2019. <br> **Note:** This is an example value. |
 
     The tool considers all the Service activities that are scheduled to start and be completed within the date range.
-
-    ![Migrate data](media/migration-step2.png "Migrate data")
 
     > [!Note]
     > - The migration tool doesn’t consider the records whose status is marked as Ignore. To learn more, see [Understand migration status](#understand-migration-summary-and-troubleshoot).
@@ -85,6 +81,9 @@ One of the reasons for the failure of entity record migration is a dependency be
 
    ![Migration record failure](media/migration-record-failure.png "Migration record failure")
 
+> [!TIP]
+> Resolve the errors in the order in which the entity records are migrated. To learn about the order of migration, see [Considerations for migration](plan-migration.md#considerations-for-migration).
+
 For example, 
 
 Kenny Smith, a customer, has scheduled a service activity with Contoso Bike Center. To do this service activity, the **Bike technicians** resource group and **Bike overhaul** service  are required. 
@@ -93,14 +92,16 @@ See the matrix for the dependency.
 
    | Entity name |Record name|
    |------------------|--------------------|
-   | Services | Bike overhaul |
-   | Resource Groups | Bike technicians |
+   | Resource Group | Bike technicians |
+   | Service | Bike overhaul |
    | Service Activity | Kenny Smith (customer) |
 
-In the migration process, there is a failure in the service activity. The **Service** entity record which has a dependency on the **Service Activities** will also fail, and the **Resource Groups** entity record that has a dependency on the  **Service** entity record also fails. That is, the following entity records migration fails:
+The **Service Activity** for Kenny Smith has a dependency on the **Service**, Bike overhaul and **Resource Group**, Bike technicians.
 
-- **Bike technicians**
+In the migration process, if there is a failure in the service activity entity record, then **Service** entity record which has a dependency on the **Service Activity** will also fail, and the **Resource Group** entity record that has a dependency on the  **Service** entity record also fails. That is, the following entity records migration fails:
+
 - **Bike overhaul**
+- **Bike technicians**
 
 Let us take the above mentioned example to learn how to resolve the error.
 
@@ -122,9 +123,6 @@ Let us take the above mentioned example to learn how to resolve the error.
    > In case of retry scenario, the migration tool shows the number of records that need to be migrated in that retry scenario of migration.
 
 5. Review the migration status, if there are any errors, investigate in a similar way as explained in this example.
-
-> [!TIP]
-> Resolve the errors in the order in which the entity records are migrated. To learn about the order of migration, see [Considerations for migration](plan-migration.md#considerations-for-migration).
 
 ## See also
 
