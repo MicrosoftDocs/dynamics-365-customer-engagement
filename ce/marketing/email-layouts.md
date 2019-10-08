@@ -1,4 +1,5 @@
 ---
+redirect_url: design-digital-content
 title: "Use section elements to lay out your email design (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Learn how to use section elements to create single and multi-column layouts for marketing email messages in Dynamics 365 Marketing"
 ms.date: 08/01/2019

@@ -2,7 +2,7 @@
 title: "Get to know your Social Engagement filters | Microsoft Docs"
 description: "See the list of filters and what they do."
 keywords: filter, filtering, Social Engagement
-ms.date: 06/11/2019
+ms.date: 10/03/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -48,7 +48,7 @@ You can edit or remove filters from your analysis at any time, and the charts, l
   
 ## Reach  
  [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] takes an author’s network size into account to determine the potential size of an author's influence.
- [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] maps the author's potential influence to reach values that allow segmentation of authors' reaches for [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].  
+ [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] maps the author's potential influence to reach values that allow segmentation of authors' reaches.  
   
  Choose a value from 1 to 5, where 1 is the lowest reach and 5 is the highest reach.
  
@@ -77,9 +77,9 @@ Filter posts by [author tags](author-tags.md). Author tags are a convenient way 
   
  **Post**: Single posts that were published as status updates.  
   
- **Reply**: Posts that reference a parent post (reply on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], comment on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)]).  
+ **Reply**: Posts that reference a parent post (comment on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)]).  
   
- **Share**: All posts in your data set that are shares on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] or retweets on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].  
+ **Share**: All posts in your data set that are shares on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)].  
   
  **Private message**: All posts that are direct messages sent to a social profile. Additionally, the acquisition of private messages must be allowed in the social profile and a [private messages rule](add-rules-search-topic.md#privateMessagesRule) must be set up to capture them.
   

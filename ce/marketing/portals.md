@@ -47,10 +47,7 @@ The portals solution is highly flexible and customizable. You can create portals
 
 If all you need are the standard marketing page and event website features provided by Dynamics 365 Marketing, then, you never actually have to access the portal capabilities directly because Dynamics 365 Marketing creates, configures, and manages these portals automatically. However, you can also use the portals solution to create custom portals and websites that include features that interact directly with Dynamics 365 data.
 
-> [!NOTE]
-> If you want to integrate with a Dynamics 365 Portal (optional), then an unconfigured portal app must be available on your tenant when you install Dynamics 365 Marketing. Depending on the licensing plan you have chosen, your license may include a free portal (provided no other free portals are already in use on your tenant), or you may need to purchase a portal license before you can set up the integration. More information: [When do I need a portal license, and how can I get one?](setup-troubleshooting.md#why-portal)
-
-The portals solution is included with the Marketing app and is available as an add-on for many other Dynamics 365 applications. For complete details about how to work with the portals solution, see [its online help](../portals/administer-manage-portal-dynamics-365.md).
+For complete details about how to work with the portals solution, see [its online help](../portals/administer-manage-portal-dynamics-365.md).
 
 ### Work with marketing pages
 
@@ -68,13 +65,10 @@ For instructions about how to download, customize, and install the event website
 
 ### Create custom portals solutions
 
-To set up your own custom portals solutions, you must work with the full Dynamics 365 Portals settings, which are only available in the custom app. To get to the portal settings:
+To set up your own custom portals solutions, you must work with the full Dynamics 365 Portals settings, which are only available in the Dynamics 365 Portals app. To get to the app, open the app-selector menu and select **Dynamics 365 Portals**.
 
-1. Go to the custom app by selecting **Dynamics 365&mdash;custom** from the app-selector menu.  
-    ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
+![The app-selector menu](media/app-selector-portals.png "The app-selector menu")
 
-2. The custom app provides a horizontal navigator at the top of the page. Use it to open the **Portals** tile and then work with the entries there.  
-    ![Navigate to the portals area in the custom app](media/portals-nav.png "Navigate to the portals area in the custom app")
 
 For complete details about how to work with the portals solution, see [its online help](../portals/administer-manage-portal-dynamics-365.md).
 

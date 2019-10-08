@@ -3,7 +3,7 @@ title: "Work with solutions | MicrosoftDocs"
 description: "Learn how solutions are distributed"
 ms.custom: 
   - dyn365-deflc
-ms.date: 01/08/2019
+ms.date: 10/03/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -19,10 +19,8 @@ ms.author: "matp"
 manager: "kvivek"
 ---
 
-<a name="BKMK_Solutions"></a>   
+
 # Solutions overview  
-
-
 
  Solutions exist so that a Dynamics 365 Customer Engagement (on-premises) can be purchased, shared, or otherwise transported from one organization to another. You can get solutions from [AppSource](https://appsource.microsoft.com/) or from an independent software vendor (ISV). A solution is a file that you can import in to an environment as an app or to apply a set of customizations to an existing app.  
   
@@ -97,9 +95,9 @@ If you’re an ISV creating an app that you will distribute, you’ll need to us
   
 <a name="BKMK_ManagedAndUnmanagedSolutions"></a>   
 ### Managed and unmanaged solutions  
- A **managed** solution can be uninstalled after it is imported. All the components of that solution are removed by uninstalling the solution.  
+ A **managed** solution can be uninstalled after it is imported. All the components of that solution are deleted by uninstalling the solution.  
   
- When you import an **unmanaged** solution, you add all the components of that solution into your default solution. You can’t remove the components by uninstalling the solution.  
+ When you import an **unmanaged** solution, you add all the components of that solution into your default solution. You can’t delete the components by uninstalling the solution.  
   
  When you import an **unmanaged** solution that contains solution components that you have already customized, your customizations will be overwritten by the customizations in the unmanaged solution. You can’t undo this.  
   
@@ -107,8 +105,6 @@ If you’re an ISV creating an app that you will distribute, you’ll need to us
 >  Install an unmanaged solution only if you want to add all the components to your default solution and overwrite any existing customizations.  
   
  Even if you don’t plan on distributing your solution, you might want to create and use an unmanaged solution to have a separate view that only includes those parts of the application that you have customized. Whenever you customize something, just add it to the unmanaged solution that you created.  
-  
- You can only export your Default Solution as an unmanaged solution.  
   
  To create a **managed** solution, you choose the managed solution option when you export the solution. If you create a managed solution, you can’t import it back into the same organization you used to create it. You can only import it into a different organization.  
   

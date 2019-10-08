@@ -57,9 +57,6 @@ After choosing a template, you'll be in the email content designer, which resemb
 
 - Use the **Designer** > **HTML** tab to edit the raw HTML directly. You might use this to paste in an existing HTML design, or to fine-tune the code in ways that aren't supported by the graphical editor (such as custom attributes or logic). The HTML editor has two subtabs: **HTML Source** (for editing the design, including logical expressions and dynamic content) and **HTML Output** (which resolves all dynamic content to provide static HTML that you can use in other applications).
 
-![Add a text element to a new email](media/email-add-text-block.png "Add a text element to a new email")
-
-
 More information: [Design your digital content](design-digital-content.md)
 
 > [!IMPORTANT]
