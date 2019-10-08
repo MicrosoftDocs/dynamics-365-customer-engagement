@@ -73,7 +73,7 @@ In this exercise, you'll create a couple of fictional contacts with email addres
 
 1. Select the field at the top of the query, which contains the ghost test **Enter segment name** and enter a name for your segment (such as "Contacts from Atlantis").
 
-1. Select **Save** on the toolbar to save your segment and then select **Go Live** to publish the segment (you won't be able to use it in a customer journey until it goes live, even though you've saved it). Dynamics 365 Marketing checks the segment for errors and reports any problems it finds. If an error is reported, fix it and try again. If no error is found, your segment is copied to the *marketing services*, which make it available for use by a customer journey.
+1. Select **Save** on the command bar to save your segment and then select **Go Live** to publish the segment (you won't be able to use it in a customer journey until it goes live, even though you've saved it). Dynamics 365 Marketing checks the segment for errors and reports any problems it finds. If an error is reported, fix it and try again. If no error is found, your segment is copied to the *marketing services*, which make it available for use by a customer journey.
 
     ![Select Save and Go live](media/segment-tutorial-save-golive.png "Select Save and Go live")
 
@@ -90,4 +90,4 @@ In this exercise, you'll create a couple of fictional contacts with email addres
 ### See also
 
 [Working with segments](segmentation-lists-subscriptions.md)  
-
+[Design dynamic demographic or firmographic segments](segments-profile.md)
