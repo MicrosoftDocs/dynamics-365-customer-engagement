@@ -31,6 +31,10 @@ Cases and other entity records can be routed to omnichannel queues along with wo
 
 This allows organizations to tightly define the work profile that their agents are supposed to handle, and organizations can automate the work flow assignment across channels and assign the work items based on agents capacity and availability.
 
+## Considerations for entity routing
+
+- If you are upgrading from earlier release to the latest version, then in the Work Stream, the Entity field won't be populated with a entity. You need to create a entity records channel, and then update the work stream with the created entity. When the work stream is updated, automatically, the Microsoft Flow resets.
+
 ## Configure entity records channel
 
 To setup the **Entity Record** channel for cases, follow the steps:
