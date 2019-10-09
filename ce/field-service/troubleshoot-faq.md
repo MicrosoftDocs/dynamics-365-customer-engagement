@@ -90,7 +90,7 @@ You can resolve this issue by following the steps outlined below. These attribut
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing all the troubleshooting pathway outlined in the previous steps in the customization settings](./media/faq-attributemap-upgrade-error-service-account.png)
+> ![Screenshot showing the troubleshooting pathway outlined in the previous steps in the customization settings](./media/faq-attributemap-upgrade-error-service-account.png)
 
 ### Error with customerid and msdyn_billingaccount
 
@@ -103,7 +103,7 @@ You can resolve this issue by following the steps outlined below. These attribut
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing all the troubleshooting pathway outlined in the previous steps in the customization settings](./media/faq-attributemap-upgrade-error-billing-account.png)
+> ![Screenshot showing the troubleshooting pathway outlined in the previous steps in the customization settings](./media/faq-attributemap-upgrade-error-billing-account.png)
 
 ## See also
 
