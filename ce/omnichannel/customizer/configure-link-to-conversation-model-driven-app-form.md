@@ -69,6 +69,14 @@ Edit the XML to provide values for the parameters such as:
 | `FunctionName` | `OmniChannelPackage.OmnichannelLinkCommand.linkRecordToConversation` | |
 | `StringParameter Value` | <ul> <li> `msdyn_account_msdyn_ocliveworkitem_Customer` </li> <li> `msdyn_account_msdyn_ocliveworkitem` </li> <li> `msdyn_account_msdyn_ocliveworkitem_Customer` </li></ul> | <ul> <li>Used for Account entity </li> <li>Used for Case entity </li> <li>Used for Customer entity </li></ul> |
 
+**Sample snippet**
+
+```XML
+<JavaScriptFunction FunctionName="OmniChannelPackage.OmnichannelLinkCommand.linkRecordToConversation" Library="$webresource:msdyn_OmnichannelLinkCommand.js">
+<StringParameter Value="msdyn_account_msdyn_ocliveworkitem_Customer" />
+</JavaScriptFunction>
+```
+
 ### Sample XML for Account entity ribbon customization
 
 ```XML
