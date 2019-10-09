@@ -46,4 +46,21 @@ Macros helps address these challenges aiding users to perform day-to-day operati
 
 - Install Dynamics 365 Productivity Tools solutions
 
+## Create macro
 
+1. Sign in to the Omnichannel Administrator app.
+
+2. Select **Macros** under **Agent Experience**.
+
+3. Select **+ New**.
+
+4. Specify the following in the **Create macros** page.
+
+    | Field | Description | Example value |
+    |-------------|-----------------------------------|------------------------------------|
+    | Name | Provide a name to the macro. | Create case |
+    | Description | Describe the purpose of the macro. | This macro is used to create a case. |
+
+5. Select **Start macro execution**, and then select **+ New step**.
+
+6. Select a 
