@@ -48,7 +48,7 @@ To add the **Link to conversation** button, you need to customize the ribbon (`<
 
 [Step 4: Import the ribbon](#step-4-import-the-ribbon)
 
-## Step 1: Export and prepare to edit
+## Step 1: Export and edit the XML
 
 In this step, you need export the ribbon and edit the `<RibbonDiffXml>`.
 
@@ -291,6 +291,8 @@ The `<CustomRule>` element calls a function in a JavaScript library that returns
       </EnableRule> 
     </EnableRules> 
 ```
+
+To learn more, see [Define ribbon display rules](/powerapps/developer/model-driven-apps/define-ribbon-display-rules)
 
 ## Step 4: Import the ribbon
 
