@@ -2,7 +2,7 @@
 title: "Marketing to accounts (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Create account-based leads, lead scoring, and customer journeys in Dynamics 365 Marketing."
 keywords: account-based marketing; lead scoring; customer journey; email; insights
-ms.date: 12/17/2018
+ms.date: 10/09/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -77,7 +77,7 @@ Firmographic segments are dynamic segments pre-configured to include a query int
 
 1. On the command bar, select **Save** to save your segment and then select **Go live**.
 
-1. After a few minutes, you'll be able to open the **Members** tab to see which contacts are included in your new segment. Note that the list includes a column that shows which account each contact belongs to.
+1. Wait for about a minute and then select **Refresh** on the command bar to refresh the page. You should now see that a **Members** tab has been added (if you don't see it, wait a little longer and try to **Refresh** again until you do). When the **Members** tab appears, open it and note that the list includes a column that shows which company name (account) each contact belongs to.
 
     ![Segment members with accounts](media/abm-segment-5.png "Segment members with accounts")
 
@@ -85,24 +85,19 @@ Firmographic segments are dynamic segments pre-configured to include a query int
 
 When you set up a static segment, you'll mark a check box for each specific contact you want to include in the segment. The segment won't change after that unless you edit it manually. If your database includes many contacts, then you'll probably find it useful to use the filter control to find the contacts you are looking for.
 
-1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar.
+1. Go to **Marketing** > **Customers** > **Segments** and select **New** on the command bar. Then select **Static** on the **Let's create your segment** screen.
 
-1. Fill out the **General** tab with a name and description for your new segment, and set **Segment type** to **Static segment**.
-
-1. Open the **Definition** tab, where you'll find a list of contacts and filter controls that can help you find the contacts you want to include. Select the filter button to expose the filter controls.
+1. The static-segment designer opens which shows a list of all contacts in your database, plus a set of filter controls that can help you find the contacts you want to include. Select the filter button to expose the filter controls.
 
     ![A static segment with filter](media/abm-segment-static.png "A static segment with filter")
 
-1. Use the filter to find the contacts that you want to include in the segment. One query that might be useful when setting up segments for account-based marketing is one that filters the list by account ID. To do that, use the various drop-down lists in the **Filter** area to set up a query clause of the following form:
+1. Use the filter to find the contacts that you want to include in the segment. One query that might be useful when setting up segments for account-based marketing is one that filters the list by company name. To do that, use the various drop-down lists in the **Filter** area to set up a query clause of the following form:
 
-    **Contact | Company Name account | is | _&lt;account-ID&gt;_**
+    **Contact | Company Name (Account) | is / is in | _&lt;company_names&gt;_**
 
-    Where the _&lt;account-ID&gt;_ is the unique ID for the account you want to look for. 
+    Where the _&lt;company_names&gt;_ is a list of one or more company names. If you include more than one company name, then an OR operator is applied, which means the filter will find contacts from all of the accounts you list here.
 
-    > [!NOTE]
-    > You can find the account ID for any account by opening the account record and checking for the value of **id** parameter at the end of the page URL.
-
-1. You can continue to add clauses to your query until you've found the collection of contacts you're looking for.
+1. You can continue to add clauses to your query using the **And** and **Or** buttons until you've found the collection of contacts you're looking for.
 
 1. Mark the check box for each contact you want to include in your static segment and select **Save**.
 

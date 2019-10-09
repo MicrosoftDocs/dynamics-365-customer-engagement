@@ -2,7 +2,7 @@
 title: "Create a marketing segment (Dynamics 365 Marketing) | Microsoft Docs"
 description: "A tutorial for how to create a marketing segment and define its membership criteria in Dynamics 365 Marketing"
 keywords: tutorial; segments; dynamic segments
-ms.date: 04/01/2018
+ms.date: 10/09/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -77,11 +77,9 @@ In this exercise, you'll create a couple of fictional contacts with email addres
 
     ![Select Save and Go live](media/segment-tutorial-save-golive.png "Select Save and Go live")
 
-1. Wait for about a minute and then select **Refresh** on the command bar to refresh the page. You should now see that a Members tab has been added (if you don't see it, wait a little longer and try to **Refresh** again until you do). You should now see that your segment includes the two fictional contacts that you added earlier.
+1. Wait for about a minute and then select **Refresh** on the command bar to refresh the page. You should now see that a **Members** tab has been added (if you don't see it, wait a little longer and try to **Refresh** again until you do). When the **Members** tab appears, open it and note that your segment includes the two fictional contacts that you added earlier.
 
     ![Refresh and go to the Members tab](media/segment-tutorial-members.png "Refresh and go to the Members tab")
-
-
 
 > [!TIP]
 > You can build very complex queries by using the tools here, creating rows and groups combined with AND clauses and OR clauses, and adding more query blocks that you can combine using **Union**, **Exclude**, or **Intersect** operations. You can even query based on properties of other entities, but each query must ultimately end with the contact entity because segments must always result in a group of contacts. Though segments can't contain lead or account records, you can design your segments to find contacts associated with these types of records. For more, see [Working with segments](segmentation-lists-subscriptions.md) 
