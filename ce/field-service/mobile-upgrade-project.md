@@ -45,6 +45,10 @@ Here are the steps you can follow to perform a field service mobile project vers
 - Go into Woodford and highlight the New derived child project that was exported a few steps ago. Click the Import button and upload your NEW child project that contains the diff customizations. When prompted to ‘Overwrite’ the derived child project, click yes.
 - Now publish your new child project and being testing 
 
+1. do a diff and copy in changes
+2. do a diff and make changes in woodford
+3. view changes and make changes
+
 
 ## Prerequisites
 > [!Note]
