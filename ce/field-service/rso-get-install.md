@@ -26,7 +26,7 @@ search.app:
   - D365FS
 ---
 
-## Get Resource Scheduling Optimization (RSO)
+# Get Resource Scheduling Optimization (RSO)
 
 There are two ways to get Resource Scheduling Optimization (RSO):
 
