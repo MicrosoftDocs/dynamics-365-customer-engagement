@@ -124,4 +124,3 @@ To learn more about creating a workflow, see [Use Workflow processes to automate
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
 
 [View forecasts](view-forecasts.md)
-`
