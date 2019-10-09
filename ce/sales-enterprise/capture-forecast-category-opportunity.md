@@ -104,7 +104,7 @@ You must sync opportunity status with forecast category in real-time to ensure t
         > [!div class="mx-imgBorder"]
         > ![Select forecast category as won](media/forecast-create-process-configuration-then-condition-forecastcategory-won.png "Select forecast category as won")
 
-9. Select the previous If condition step (For this step it is **Won**) and select **Conditional Branch**. Repeat steps 7 and 8 for **Lost**.
+9. Select the previous **If** condition step (here it is **Won**) and select **Conditional Branch**. Repeat steps 7 and 8 for **Lost**.
 
     > [!div class="mx-imgBorder"]
     > ![Add conditional branch](media/forecast-create-process-configuration-add-condition-branch.png "Add conditional branch")
