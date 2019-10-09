@@ -29,9 +29,9 @@ You can access Common Data Service or Dynamics 365 Customer Engagement (on-premi
   
 |                              Platform                              |   Versions    | RAM (minimum)  | 
 |--------------------------------------------------------------------|---------------|---------------|
-|       [iOS](https://go.microsoft.com/fwlink/p/?LinkID=519213)       | 10 or later (if you're using an iPad, it needs to be third generation or later) |     1 GB (2 GB recommended for optimal performance )     
-|     [Android](https://go.microsoft.com/fwlink/p/?LinkID=519214)     | 4.4 or later |     2 GB (3 GB recommended for optimal performance )    |                                  |
-| [Windows tablet](https://go.microsoft.com/fwlink/p/?linkid=862402) |      10       |     2 GB (4 GB recommended for optimal performance )                     
+|       [iOS](https://docs.microsoft.com/en-us/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store)       | 10 or later (if you're using an iPad, it needs to be third generation or later) |     1 GB (2 GB recommended for optimal performance )     
+|     [Android](https://docs.microsoft.com/en-us/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store)     | 6.0 or later |     2 GB (3 GB recommended for optimal performance )    |                                  |
+| [Windows tablet](https://docs.microsoft.com/en-us/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store) |      10       |     2 GB (4 GB recommended for optimal performance )                     
  
  
   
