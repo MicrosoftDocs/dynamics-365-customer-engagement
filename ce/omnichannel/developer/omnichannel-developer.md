@@ -1,11 +1,10 @@
 ---
 title: "Omnichannel for Customer Service for developers | MicrosoftDocs"
-description: 
+description: "Developer guide for Omnichannel for Customer Service provides developers the information they need to get started with using the extensibility features"
 keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
