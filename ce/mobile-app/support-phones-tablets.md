@@ -24,11 +24,8 @@ search.app:
 # What's supported
 
 You can access Common Data Service or Dynamics 365 Customer Engagement (on-premises) data from mobile devices in different ways. You can install and use the Dynamics 365 for phones and tablets app on your Windows, iOS, and [!INCLUDE[tn_android](../includes/tn-android.md)] mobile devices, or you can run the model-driven apps web client on the device’s preferred browser for those devices described below.
-   
-<a name="BKMK_CRMforPhones"></a>   
-## Support for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and tablets 
   
-### Device support for the mobile app  
+## Device support for the mobile app  
   
 |                              Platform                              |   Versions    | RAM (minimum)  | 
 |--------------------------------------------------------------------|---------------|---------------|
@@ -49,7 +46,7 @@ To install the app see, [Install the app from your device’s app store](https:/
 For full functionality and optimized experience we strongly recommend that you use the Dynamics 365 for phones and tablets app. If you don't have the Dynamics 365 for phones and tablets app installed, you can still use the web browsers on your tablet to run the model-driven apps web client. Using the web brower on your phone is not supported. 
 
 
-### Table support for using model-driven apps web client
+### Tablet support for using model-driven apps web client
   
 |                              Platform                              |   Versions  | Resolution or Screen Size  | 
 |--------------------------------------------------------------------|---------------|---------------|
