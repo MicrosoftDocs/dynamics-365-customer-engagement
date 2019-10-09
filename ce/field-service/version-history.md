@@ -78,14 +78,22 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 | Template version  | Template name | Release date | Relates to Field Service Mobile version |  Publish to Woodford Version |
 |---|---|---|---|---|
 | [1.0.2735](https://aka.ms/fsmobile-project)  |  FSDyn365_1.0.2735.woodford | August 2019  |  11.3 | 11.3 |
-| 1.0.1322  |  FSDyn365_1.0.1322.woodford | December 2018  |  11.2 | 11.2 |
+| [1.0.1322](https://aka.ms/fsmobile-project-1322)  |  FSDyn365_1.0.1322.woodford | December 2018  |  11.2 | 11.2 |
 | [Field Service v6.1 v1.0.0.0](https://go.microsoft.com/fwlink/p/?linkid=836310)  |  CentaurusStoreVersion.woodford | December 2018  |  **Field Service Mobile (2017)** 9.0+ | 9.1 |
 | [ Field Service v6.0 v1.0.0.0](https://go.microsoft.com/fwlink/p/?LinkId=808250)  |  Field Service Mobile default project.woodford | December 2018  |  **Field Service Mobile (2016)** 8.0 | 8.0 |
 
+## Field Service On-Premise
+
+| Version | Status |
+| --- | --- | 
+| 8.x | No defined release date |
+| 7.x | Available |
+| 6.x | Not supported |
+
 ## Trials and upgrades
 
- - All new Dynamics 365 Field Service environemnts will install the latest generally available Field Service solution.
- - For existing environments, when a new upgrade is avaialble, you can upgrade your solution in **Admin Center** > **Dynamics 365**, as seen in the following screenshot.
+ - All new Dynamics 365 Field Service environments will install the latest generally available Field Service solution.
+ - For existing environments, when a new upgrade is available, you can upgrade your solution in **Admin Center** > **Dynamics 365**, as seen in the following screenshot.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the admin center upgrade path for Field Service](./media/admin-upgrade-to-latest-admin-center.png)
 
