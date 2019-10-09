@@ -23,5 +23,5 @@ You can find the entire code sample here: [Smart Assist for Bots]().
 
 ## See also
 
-[Manage custom context](how-to/manage-custom-context.md)<br />
+[Manage custom context](how-to/send-context-starting-chat.md)<br />
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)
