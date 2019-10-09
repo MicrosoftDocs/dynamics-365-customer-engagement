@@ -25,11 +25,11 @@ search.app:
 
 You can access Common Data Service or Dynamics 365 Customer Engagement (on-premises) data from mobile devices in different ways. You can install and use the Dynamics 365 for phones and tablets app on your Windows, iOS, and [!INCLUDE[tn_android](../includes/tn-android.md)] mobile devices, or you can run the model-driven apps web client on the device’s preferred browser for those devices described below.
   
-## Support devices for the mobile app
+## Support devices to install and run the mobile app
   
 |                              Platform                              |   Versions    | RAM (minimum)  | 
 |--------------------------------------------------------------------|---------------|---------------|
-|       [iOS](https://go.microsoft.com/fwlink/p/?LinkID=519213)       | 10 or later (if using an iPad it needs to be third generation or later) |     1 GB (2 GB recommended for optimal performance )     
+|       [iOS](https://go.microsoft.com/fwlink/p/?LinkID=519213)       | 10 or later (if you're using an iPad, it needs to be third generation or later) |     1 GB (2 GB recommended for optimal performance )     
 |     [Android](https://go.microsoft.com/fwlink/p/?LinkID=519214)     | 4.4 or later |     2 GB (3 GB recommended for optimal performance )    |                                  |
 | [Windows tablet](https://go.microsoft.com/fwlink/p/?linkid=862402) |      10       |     2 GB (4 GB recommended for optimal performance )                     
  
