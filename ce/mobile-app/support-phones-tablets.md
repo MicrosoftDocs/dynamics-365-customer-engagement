@@ -25,7 +25,7 @@ search.app:
 
 You can access Common Data Service or Dynamics 365 Customer Engagement (on-premises) data from mobile devices in different ways. You can install and use the Dynamics 365 for phones and tablets app on your Windows, iOS, and [!INCLUDE[tn_android](../includes/tn-android.md)] mobile devices, or you can run the model-driven apps web client on the device’s preferred browser for those devices described below.
   
-## Device support for the mobile app  
+## Support devices for the mobile app
   
 |                              Platform                              |   Versions    | RAM (minimum)  | 
 |--------------------------------------------------------------------|---------------|---------------|
@@ -41,14 +41,14 @@ To install the app see, [Install the app from your device’s app store](https:/
 
    
 
-## Web browser support for tablets  
+## Web browser support for tablets using the model-driven apps web client on your web brwoser 
 
 For full functionality and optimized experience we strongly recommend that you use the Dynamics 365 for phones and tablets app. If you don't have the Dynamics 365 for phones and tablets app installed, you can still use the web browsers on your tablet to run the model-driven apps web client. Using the web brower on your phone is not supported. 
 
 
-### Tablet support for using model-driven apps web client
+### Supported tablets when using the web browser
   
-|                              Platform                              |   Versions  | Resolution or Screen Size  | 
+|                              Platform                             |   Versions  | Resolution or Screen Size  | 
 |--------------------------------------------------------------------|---------------|---------------|
 |       iOS iPad      | 10 or later  |     9-inch screen (diagonal) or larger      |                                     | 
 |     Android tablet  | 6.0 or later |     Tablets with screens larger than 7 inches (optimized for 9 to 10 inches)    |                                  |
