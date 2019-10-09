@@ -58,7 +58,7 @@ Using the web brower to run the model-driven apps web client on your phone is no
         
 
   
-Using your app on a web browser on an Apple or Android mobile device provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:  
+Using the model-driven apps web client on a web browser on an iOS or Android mobile device provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:  
   
 - Pinch and zoom  
   
