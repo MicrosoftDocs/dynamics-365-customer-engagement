@@ -93,8 +93,8 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 
 ## Trials and upgrades
 
- - All new Dynamics 365 Field Service environemnts will install the latest generally available Field Service solution.
- - For existing environments, when a new upgrade is avaialble, you can upgrade your solution in **Admin Center** > **Dynamics 365**, as seen in the following screenshot.
+ - All new Dynamics 365 Field Service environments will install the latest generally available Field Service solution.
+ - For existing environments, when a new upgrade is available, you can upgrade your solution in **Admin Center** > **Dynamics 365**, as seen in the following screenshot.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the admin center upgrade path for Field Service](./media/admin-upgrade-to-latest-admin-center.png)
 
