@@ -5,18 +5,18 @@ keywords: help hub, help center, link list
 ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
+applies_to:
   - Social Engagement
 ms.assetid: caadfdba-1c29-4032-8fb5-34257913bc09
 author: m-hartmann
 ms.author: mhart
-ms.custom: 
+ms.custom:
   - dyn365-socialengagement
-search.audienceType: 
+search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
+search.app:
   - D365CE
   - D365SE
 ---
@@ -82,8 +82,8 @@ search.app:
 <h2> Product updates </h2>
 
 <li><a href="what-s-new-in-microsoft-social-engagement.md" data-raw-source="[What&#39;s new in Microsoft Social Engagement](what-s-new-in-microsoft-social-engagement.md)">What&#39;s new in Microsoft Social Engagement</a></li>
-<li><a href="http://go.Microsoft.com/fwlink/p/?LinkId=393612" data-raw-source="[Microsoft Social Engagement Readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612)">Microsoft Social Engagement Readme</a></li>
-<li><a href="http://go.Microsoft.com/fwlink/p/?LinkID=391086" data-raw-source="[International availability for Dynamics 365](http://go.Microsoft.com/fwlink/p/?LinkID=391086)">International availability for Dynamics 365</a></li>
+<li><a href="http://go.Microsoft.com/fwlink/p/?LinkId=393612" data-raw-source="[Microsoft Social Engagement Readme](https://go.Microsoft.com/fwlink/p/?LinkId=393612)">Microsoft Social Engagement Readme</a></li>
+<li><a href="http://go.Microsoft.com/fwlink/p/?LinkID=391086" data-raw-source="[International availability for Dynamics 365](https://go.Microsoft.com/fwlink/p/?LinkID=391086)">International availability for Dynamics 365</a></li>
 </td>
 </tr>
 </table>

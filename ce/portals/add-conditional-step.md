@@ -1,5 +1,5 @@
 ---
-title: "Configure a conditional step type for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Configure a conditional step type for a portal | MicrosoftDocs"
 description: "Instructions to add and configure a conditional step type for a portal."
 ms.custom: 
   - dyn365-portal
@@ -72,8 +72,8 @@ new\_categorycode = 750101 & gendercode = 2
 
 ### See also
 
-[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md)  
+[Configure a portal](configure-portal.md)  
+[Define entity forms and custom logic within a portal](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Load Form/Load Tab step type](load-form-step.md)  
 [Redirect step type](add-redirect-step.md)  

@@ -1,5 +1,5 @@
 ---
-title: Configure resource roles (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Configure resource roles 
 description: How to configure resource roles in Project Service
 author: JohnPBurrows
 manager: kfend

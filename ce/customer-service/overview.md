@@ -1,26 +1,24 @@
 ---
-title: "Customer Service Overview (Dynamics 365 for Customer Service) | MicrosoftDocs"
-description: "Overview of Customer Service in Microsoft Dynamics 365 for Customer Engagement"
-keywords: "Customer Service;  Microsoft Dynamics 365 for Customer Engagement"
-ms.date: 07/31/2019
-ms.service:
-  - "dynamics-365-customerservice"
-ms.custom:
-  - "dyn365-customerservice"
-ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: 00f8a65f-f736-4e3d-9aea-e50de8b015b4
+title: "Customer Service Overview (Dynamics 365 Customer Service) | MicrosoftDocs"
+description: "Overview of Dynamics 365 Customer Service"
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
+ms.date: 07/31/2019
+ms.topic: get-started-article
+ms.service: dynamics-365-customerservice
+ms.custom: dyn365-customerservice
+ms.assetid: 00f8a65f-f736-4e3d-9aea-e50de8b015b4
 ---
 
 # Overview of the Customer Service Hub and Customer Service app
 
-Welcome to Dynamics 365 for Customer Service.
+Welcome to Dynamics 365 Customer Service.
 
 Build great customer relationships by focusing on optimum customer satisfaction with the Customer Service apps. Customer Service provides many features and tools that organizations can use to manage the services they provide to customers.   
+
+  > [!IMPORTANT]
+  > Dynamics 365 Customer Service is a model-driven app that is built on the Common Data Service platform. You can create and manage model-driven apps by using PowerApps. More information: [What are model-driven apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
 Use [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
 
@@ -54,7 +52,7 @@ If you're using a mobile device with Dynamics 365 for phones and tablets install
 ![csh-mobile](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
 
 > [!NOTE]
-> Looking forward to upgrade to the Customer Service Hub app? See [Upgrade to the Customer Service Hub in Microsoft Dynamics 365 for Customer Engagement](upgrade-ish-csh.md)
+> Looking forward to upgrade to the Customer Service Hub app? See [Upgrade to Customer Service Hub](upgrade-ish-csh.md)
 
 
 ## Set up Customer Service Hub or Customer Service app
@@ -74,14 +72,14 @@ For more details about the app's accessibility and GDPR compliance, see [Accessi
 
 ## What's more in the Customer Service Hub
 
- - [What's new in Dynamics 365 for Customer Service](whats-new-customer-service.md)
+ - [What's new in Dynamics 365 Customer Service](whats-new-customer-service.md)
  - [Service Management Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md)
  - [Service Scheduling Guide](basics-service-service-scheduling.md)
 
 
 ### See also  
 
-[Dynamics 365 for Customer Service](https://www.microsoft.com/en-in/dynamics365/customer-service)
+[Dynamics 365 Customer Service](https://www.microsoft.com/en-in/dynamics365/customer-service)
 
 
 

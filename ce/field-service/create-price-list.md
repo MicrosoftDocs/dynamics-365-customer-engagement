@@ -1,5 +1,5 @@
 ---
-title: "Create a price list (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Create a price list (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -10,8 +10,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 author: krbjoran
 ms.assetid: e8ecd5c3-002a-4482-b265-72e061d12132
 caps.latest.revision: 16
@@ -121,7 +119,7 @@ Price lists in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-
 4.  In the price list form, click the **Auto Save** button.  
   
 ### See also    
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Create a product or service](../field-service/create-product-or-service.md)   
  [Set up purchase order sub-statuses](../field-service/set-up-purchase-order-sub-statuses.md)   
  [Create a warehouse](../field-service/create-warehouse.md)   

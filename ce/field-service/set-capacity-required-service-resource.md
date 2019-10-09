@@ -1,10 +1,7 @@
 ---
-title: Set the capacity required for a service or resource (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: View how to set the capacity required for a service or resource in Dynamics 365 for Customer Service
-keywords: Set the required capacity; Dynamics 365 for Customer Engagement; Customer Service
+title: Set the capacity required for a service or resource (Dynamics 365 Customer Service) | MicrosoftDocs
+description: View how to set the capacity required for a service or resource in Dynamics 365 Customer Service
 author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shellyha
 ms.date: 09/15/2017
@@ -26,7 +23,7 @@ search.app:
 Define a limit to the number of activities a resource can perform in a stipulated time by setting the capacity of the resource and services in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] for Customer Service. 
 
 > [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
 You must set both the capacity of the service and the resources required for the service.  
   

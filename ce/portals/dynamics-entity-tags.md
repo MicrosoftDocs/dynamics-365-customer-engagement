@@ -1,12 +1,10 @@
 ---
-title: "Use Dynamics 365 for Customer Engagement tags for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
-description: "Learn about Dynamics 365 for Customer Engagement tags available in portal"
-keywords: "Dynamics 365 for Customer Engagement tags; liquid tags"
-ms.date: 04/26/2019
+title: "Use Common Data Service entity tags for a portal | MicrosoftDocs"
+description: "Learn about Common Data Service entity tags available in portals"
+keywords: "Common Data Service entity tags; liquid tags"
+ms.date: 10/01/2019
 ms.service: crm-online
-ms.topic: article
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+ms.topic: article  
 ms.assetid: 2D37443F-6DF7-440C-8E7E-5197546B1C92
 author: sbmjais
 ms.author: shjais
@@ -22,13 +20,13 @@ search.app:
   - D365Portals
 ---
 
-# Dynamics 365 for Customer Engagement entity tags
+# Common Data Service entity tags
 
-[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags are used to load and display [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data, or use other [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals framework services. These tags are [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-specific extensions to the Liquid language.
+PowerApps entity tags are used to load and display PowerApps data, or use other PowerApps Portals framework services. These tags are PowerApps-specific extensions to the Liquid language.
 
 ## chart
 
-Adds a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a web page. The chart tag can be added in the Copy field on a Web Page or in the Source field on a Web Template. For steps to add a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a web page, see [Add a Dynamics 365 for Customer Engagement chart to a web page in portal](add-chart.md).
+Adds a chart created in a model-driven app to a webpage in portal. The chart tag can be added in the Copy field on a Web Page or in the Source field on a Web Template. For steps to add a chart to a web page, see [Add a chart created in a model-driven app to a webpage in portal](add-chart.md).
 
 ```
 {% chart id:"EE3C733D-5693-DE11-97D4-00155DA3B01E" viewid:"00000000-0000-0000-00AA-000010001006" %}
@@ -75,7 +73,7 @@ Type of authentication required for the Power BI report or dashboard. Valid valu
 
 - **powerbiembedded**: Allows you to share the secure Power BI reports or dashboards to external users who doesn't have Power BI license or Azure Active Directory authentication setup. For information on Power BI Embedded service setup, see [Enable Power BI Embedded service](set-up-power-bi-integration.md#enable-power-bi-embedded-service). 
 
-While adding the secure Power BI report or dashboard, ensure that it is shared with Dynamics 365 for Customer Engagement Portal Azure Active Directory or Power BI Embedded services. 
+While adding the secure Power BI report or dashboard, ensure that it is shared with Dynamics 365 Portals Azure Active Directory or Power BI Embedded services. 
 
 > [!NOTE]
 > The values for the `authentication_type` parameter are case insensitive.
@@ -88,17 +86,17 @@ You can also filter the report on one or more values. The syntax to filter a rep
 
 URL?filter=**Table**/**Field** eq '**value**'
 
-For example, say you want to filter the report to see data for a contact named Bert Hair. You must append the URL with the following:
+For example, say you want to filter the report to see data for a contact named Dustin Ochs. You must append the URL with the following:
 
-?filter=Executives/Executive eq 'Bert Hair'
+?filter=Executives/Executive eq 'Dustin Ochs'
 
 The complete code will be:
 
 ```
-{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01?filter=Executives/Executive eq 'Bert Hair'" %}
+{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01?filter=Executives/Executive eq 'Dustin Ochs'" %}
 ```
 
-More information on filtering a report: [Filter a report using query string parameters in the URL](https://docs.microsoft.com/en-us/power-bi/service-url-filters)
+More information on filtering a report: [Filter a report using query string parameters in the URL](https://docs.microsoft.com/power-bi/service-url-filters)
 
 > [!NOTE]
 > Anonymous report doesn't support filtering. 
@@ -124,7 +122,7 @@ Displays the specified tile of the dashboard. You must provide the ID of the til
 
 Roles assigned to the Power BI report. This parameter works only when the **authentication_type** parameter is set to **powerbiembedded**.
 
-If you have defined roles in Power BI and assigned them to reports, you must specify the appropriate roles in the **powerbi** Liquid tag. Roles allow you to filter the data to be displayed in a report. You can specify multiple roles separated by a comma. For more information on defining roles in Power BI, see [Row-level security (RLS) with Power BI](https://docs.microsoft.com/en-us/power-bi/service-admin-rls).
+If you have defined roles in Power BI and assigned them to reports, you must specify the appropriate roles in the **powerbi** Liquid tag. Roles allow you to filter the data to be displayed in a report. You can specify multiple roles separated by a comma. For more information on defining roles in Power BI, see [Row-level security (RLS) with Power BI](https://docs.microsoft.com/power-bi/service-admin-rls).
 
 ```
 {% powerbi authentication_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000000/ReportSection2" roles:"Region_East,Region_West" %}
@@ -145,7 +143,7 @@ If you've assigned a role to a Power BI report, and didn't specify the **roles**
 
 ## editable
 
-Renders a given [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals CMS object as [Use the front-side editing engine to publish content](publish-content-editing-engine.md), for users with content editing permission for that object. Editable objects include [page](liquid-objects.md#page), [snippets](liquid-objects.md#snippets), and [weblinks](liquid-objects.md#weblinks).  
+Renders a given Dynamics 365 Portals CMS object as [Use the front-side editing engine to publish content](publish-content-editing-engine.md), for users with content editing permission for that object. Editable objects include [page](liquid-objects.md#page), [snippets](liquid-objects.md#snippets), and [weblinks](liquid-objects.md#weblinks).  
 
 ```
 {% editable page 'adx_copy' type: 'html', title: 'Page Copy', escape: false, liquid: true %}
@@ -290,7 +288,7 @@ Loaded entity list {{ entitylist.adx_name }}.
 
 **language\_code**
 
-A [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] integer language code to select the entity list localized labels to be loaded. If no language\_code is provided, the default language of the portal application [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] connection will be used.
+A PowerApps integer language code to select the entity list localized labels to be loaded. If no language\_code is provided, the default language of the portal application PowerApps connection will be used.
 
 ```
 {% entitylist name:"My Entity List", language_code:1033 %}
@@ -302,7 +300,7 @@ Loaded entity list {{ entitylist.adx_name }}.
 
 ## entityview
 
-Loads a given [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view, by name or ID. The properties of the view ߝ view column metadata, paginated result records, etc. can then be accessed using an [entityview object](liquid-objects.md#entityview) that will be available within the tag block.  
+Loads a given model-driven app, by name or ID. The properties of the view ߝ view column metadata, paginated result records, etc. can then be accessed using an [entityview object](liquid-objects.md#entityview) that will be available within the tag block.  
 
 If the view is loaded successfully, the content within the block will be rendered. If the view is not found, the block content will not be rendered.
 
@@ -340,7 +338,7 @@ Loaded default view of the entity list associated with the current page, with {{
 
 ### Parameters
 
-Provide **either** id **or** logical\_name with name to select the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view to load. If neither is provided, and the entityview tag is nested within an entitylist tag, the default view of the enclosing entitylist will be loaded.
+Provide **either** id **or** logical\_name with name to select the model-driven app to load. If neither is provided, and the entityview tag is nested within an entitylist tag, the default view of the enclosing entitylist will be loaded.
 
 **id**
 
@@ -366,7 +364,7 @@ Loaded entity view {{ entityview.name }} using view query string request paramet
 
 **logical\_name**
 
-The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name of the view to be loaded. Must be used in combination with name.
+The PowerApps entity logical name of the view to be loaded. Must be used in combination with name.
 
 ```
 {% entityview logical_name:'contact', name:"Active Contacts" %}
@@ -378,7 +376,7 @@ Loaded entity view with {{ entityview.total_records }} total records.
 
 **name**
 
-The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] name of the view to be loaded. Must be used in combination with logical\_name.
+The PowerApps name of the view to be loaded. Must be used in combination with logical\_name.
 
 ```
 {% entityview logical_name:'contact', name:"Active Contacts" %}
@@ -533,7 +531,7 @@ Loaded entity view with {{ entityview.total_records }} total records to which th
 
 **language\_code**
 
-A [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] integer language code to select the entity view localized labels (column header labels, etc.) to be loaded. If no language\_code is provided, the default language of the portal application [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] connection will be used.
+A PowerApps integer language code to select the entity view localized labels (column header labels, etc.) to be loaded. If no language\_code is provided, the default language of the portal application PowerApps connection will be used.
 
 If entityview is used within an entitylist block, entityview will inherit its language code configuration from entitylist.
 
@@ -642,7 +640,7 @@ This parameter supports [the Lucene Query Parser syntax](http://lucene.apache.or
 
 **logical\_names**
 
-The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical names to which matching results will be restricted, as a comma-delimited string. If not provided, all matching entities will be returned.
+The PowerApps entity logical names to which matching results will be restricted, as a comma-delimited string. If not provided, all matching entities will be returned.
 
 ```
 {% searchindex query: request.params.query, logical_names: 'kbarticle,incident' %}
@@ -687,7 +685,7 @@ The size of the result page to be returned. If not provided, a default size of 1
 
 ## entityform
 
-Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured [entity forms](entity-forms-custom-logic.md), by name or ID.  
+Fully renders a PowerApps-configured [entity forms](entity-forms-custom-logic.md), by name or ID.  
 
 > [!Note]
 > The entityform tag is only available for use in content rendered inside a <em>[web template](store-content-web-templates.md)–</em>based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything.                                                                                                                                                                             You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.       
@@ -704,7 +702,7 @@ The name of the Entity Form you wish to load.
 
 ### **webform**
 
-Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured web form, by name or ID. The webform tag is only available for use in content rendered inside a [web template](store-content-web-templates.md) based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything. You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.                
+Fully renders a PowerApps-configured web form, by name or ID. The webform tag is only available for use in content rendered inside a [web template](store-content-web-templates.md) based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything. You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.                
 `{% webform name: 'My Web Form' %}`
 
 ### Parameters

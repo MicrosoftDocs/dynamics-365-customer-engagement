@@ -1,5 +1,5 @@
 ---
-title: View resource utilization (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: View resource utilization
 description: How to view resource utilization in Project Service
 author: JohnPBurrows
 manager: kfend

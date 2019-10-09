@@ -1,5 +1,5 @@
 ---
-title: "User authentication using Events API (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
+title: "User authentication using Events API (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
 description: "Read about the Events API that lets you access data of events, sessions, session tracks, and passes"
 ms.custom: 
   - dyn365-developer
@@ -9,8 +9,6 @@ ms.service: dynamics-365-marketing
 ms.technology: 
   - marketing
 ms.topic: conceptual
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: D1E49395-2FF9-4F5D-BA7A-F9E68EDAFA22
 author: susikka
 ms.author: susikka
@@ -55,7 +53,7 @@ In case no matching contact is found, a new contact will be created automaticall
 
 ### Retrieving information of authenticated user 
 
-The Events API provides an endpoint that returns the information of the authenticated user. Starting with the June 2019 release, it also includes the Dynamics 365 contact ID of the authenticated user. 
+The Events API provides an endpoint that returns the information of the authenticated user. Starting with the June 2019 release, it also includes the Dynamics 365 Marketing contact ID of the authenticated user. 
 
 **Request** 
 

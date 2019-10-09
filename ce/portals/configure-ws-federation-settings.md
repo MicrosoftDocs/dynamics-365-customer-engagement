@@ -1,7 +1,7 @@
 ---
-title: "Configure WS-Federation provider settings for a portal in Dynamics 365 for Customer Engagement  | MicrosoftDocs"
+title: "Configure WS-Federation provider settings for a portal  | MicrosoftDocs"
 description: "Instructions to add and configure WS-Federation provider settings for a portal."
-ms.custom: 
+ms.custom:
   - dyn365-portal
 ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
@@ -13,17 +13,17 @@ ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: shubhadaj
-search.audienceType: 
+search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
+search.app:
   - D365CE
   - D365Portals
 ---
 # Configure WS-Federation provider settings for portals
 
-A single [!INCLUDE[pn-active-directory](../includes/pn-active-directory.md)] Federation Services server can be added (or another [WS-Federation](https://msdn.microsoft.com/library/bb498017.aspx)–compliant security token service) as an identity provider. In addition, a single [[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] ACS](http://azure.microsoft.com/documentation/articles/active-directory-dotnet-how-to-use-access-control/) namespace can be configured as a set of individual identity providers. The settings for both AD FS and ACS are based on the properties of the [WsFederationAuthenticationOptions](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.aspx) class.  
+A single [!INCLUDE[pn-active-directory](../includes/pn-active-directory.md)] Federation Services server can be added (or another [WS-Federation](https://msdn.microsoft.com/library/bb498017.aspx)–compliant security token service) as an identity provider. In addition, a single [[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] ACS](https://azure.microsoft.com/documentation/articles/active-directory-dotnet-how-to-use-access-control/) namespace can be configured as a set of individual identity providers. The settings for both AD FS and ACS are based on the properties of the [WsFederationAuthenticationOptions](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.aspx) class.
 
 ## Create an AD FS relying party trust
 
@@ -42,12 +42,12 @@ Relying party WS-Federation Passive protocol URL: Enter https://portal.contoso.c
 
 -   Note: AD FS requires that the portal run on **HTTPS**.
 
-    > [!Note] 
-    > The resulting endpoint has the following settings:              
-    > Endpoint type: **WS-Federation**                                 
-    > -   Binding: **POST**                                            
-    > -   Index: n/a (0)                                               
-    > -   URL: **https://portal.contoso.com/signin-federation** 
+    > [!Note]
+    > The resulting endpoint has the following settings:
+    > Endpoint type: **WS-Federation**
+    > -   Binding: **POST**
+    > -   Index: n/a (0)
+    > -   URL: **https://portal.contoso.com/signin-federation**
 
 8.  Configure Identities: Specify https://portal.contoso.com/, select **Add**, and then select **Next**.
     If applicable, more identities can be added for each additional relying party portal. Users will be able to authenticate across any or all of the available identities.
@@ -58,22 +58,22 @@ Relying party WS-Federation Passive protocol URL: Enter https://portal.contoso.c
 Add the **Name ID** claim to the relying party trust:
 
 **Transform [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] account name** to **Name ID** claim (Transform an Incoming Claim):
-- Incoming claim type: Windows account name 
-- Outgoing claim type: Name ID 
-- Outgoing name ID format: Unspecified 
-- Pass through all claim values 
+- Incoming claim type: Windows account name
+- Outgoing claim type: Name ID
+- Outgoing name ID format: Unspecified
+- Pass through all claim values
 
 ### Create AD FS site settings
 
 Apply portal site settings referencing the above AD FS Relying Party Trust.
 
 > [!Note]
-> A standard AD FS (STS) configuration only uses the following settings (with example values): 
+> A standard AD FS (STS) configuration only uses the following settings (with example values):
 > - Authentication/WsFederation/ADFS/MetadataAddress - https://adfs.contoso.com/FederationMetadata/2007-06/FederationMetadata.xml
 > - Authentication/WsFederation/ADFS/AuthenticationType - http://adfs.contoso.com/adfs/services/trust
 >   - Use the value of the **entityID** attribute in the root element of the Federation Metadata (open the **MetadataAddress URL** in a browser that is the value of the above site setting)
 > - Authentication/WsFederation/ADFS/Wtrealm - https://portal.contoso.com/
-> - Authentication/WsFederation/ADFS/Wreply - https://portal.contoso.com/signin-federation   
+> - Authentication/WsFederation/ADFS/Wreply - https://portal.contoso.com/signin-federation
 
 The **WS-Federation metadata** can be retrieved in **[!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]** by running the following script on the AD FS server:
 
@@ -87,7 +87,7 @@ Get-ADFSEndpoint -AddressPath /FederationMetadata/2007-06/FederationMetadata.xml
 |-------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |      Authentication/Registration/ExternalLoginEnabled       |                                                                                                                                                                                                                Enables or disables external account sign-in and registration. Default: true                                                                                                                                                                                                                 |
 |      Authentication/WsFederation/ADFS/MetadataAddress       | Required. The [WS-Federation](https://msdn.microsoft.com/library/bb498017.aspx) metadata URL of the AD FS (STS) server. Commonly ending with the path:/FederationMetadata/2007-06/FederationMetadata.xml . Example:<https://adfs.contoso.com/FederationMetadata/2007-06/FederationMetadata.xml>. For more information: [WsFederationAuthenticationOptions.MetadataAddress](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.metadataaddress.aspx). |
-|     Authentication/WsFederation/ADFS/AuthenticationType     |            Required. The OWIN authentication middleware type. Specify the value of the [entityID](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-federation-metadata) attribute at the root of the federation metadata XML. Example: http://adfs.contoso.com/adfs/services/trust. For more information: [AuthenticationOptions.AuthenticationType](https://msdn.microsoft.com/library/microsoft.owin.security.authenticationoptions.authenticationtype.aspx).             |
+|     Authentication/WsFederation/ADFS/AuthenticationType     |            Required. The OWIN authentication middleware type. Specify the value of the [entityID](https://docs.microsoft.com/azure/active-directory/develop/active-directory-federation-metadata) attribute at the root of the federation metadata XML. Example: http://adfs.contoso.com/adfs/services/trust. For more information: [AuthenticationOptions.AuthenticationType](https://msdn.microsoft.com/library/microsoft.owin.security.authenticationoptions.authenticationtype.aspx).             |
 |          Authentication/WsFederation/ADFS/Wtrealm           |                                                                                                              Required. The AD FS relying party identifier. Example: `https://portal.contoso.com/`. For more information: [WsFederationAuthenticationOptions.Wtrealm](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.wtrealm.aspx).                                                                                                               |
 |           Authentication/WsFederation/ADFS/Wreply           |                                                                                                     Required. The AD FS WS-Federation passive endpoint. Example: https://portal.contoso.com/signin-federation. For more information: [WsFederationAuthenticationOptions.Wreply](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.wreply.aspx).                                                                                                     |
 |          Authentication/WsFederation/ADFS/Caption           |                                                                                                           Recommended. The text that the user can display on a sign in user interface. Default: ADFS. For more information: [WsFederationAuthenticationOptions.Caption](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.caption.aspx).                                                                                                            |
@@ -111,11 +111,11 @@ Get-ADFSEndpoint -AddressPath /FederationMetadata/2007-06/FederationMetadata.xml
 |       Authentication/WsFederation/ADFS/ValidateIssuer       |                                                                                                                                                                                                                A Boolean to control if the issuer will be validated during token validation.                                                                                                                                                                                                                |
 |      Authentication/WsFederation/ADFS/ValidateLifetime      |                                                                                                                                                                                                               A Boolean to control if the lifetime will be validated during token validation.                                                                                                                                                                                                               |
 |  Authentication/WsFederation/ADFS/ValidateIssuerSigningKey  |                                                                                                                                                         A Boolean that controls if validation of the System.IdentityModel.Tokens.SecurityKey that signed the securityToken xmlns=<http://ddue.schemas.microsoft.com/authoring/2003/5> is called.                                                                                                                                                          |
-|            Authentication/WsFederation/ADFS/Whr             |                                                                                                                                       Specifies a "whr" parameter in the identity provider redirect URL. For more information: [wsFederation](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/windows-identity-foundation/wsfederation).                                                                                                                                       |
+|            Authentication/WsFederation/ADFS/Whr             |                                                                                                                                       Specifies a "whr" parameter in the identity provider redirect URL. For more information: [wsFederation](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/windows-identity-foundation/wsfederation).                                                                                                                                       |
 
 ## WS-Federation settings for [!INCLUDE[pn-azure-active-directory](../includes/pn-azure-active-directory.md)]
 
-The previous section describing AD FS can also be applied to [!INCLUDE[pn-azure-active-directory](../includes/pn-azure-active-directory.md)] ([[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD](https://msdn.microsoft.com/library/azure/mt168838.aspx)), because [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD behaves like a standard [WS-Federation](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-developers-guide) compliant security token service. To get started sign into the [[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Management Portal](https://msdn.microsoft.com/library/azure/hh967611.aspx#bkmk_azureportal) and create or select an existing directory. When a directory is available follow the instructions to [add an application](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications) to the directory.  
+The previous section describing AD FS can also be applied to [!INCLUDE[pn-azure-active-directory](../includes/pn-azure-active-directory.md)] ([[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD](https://msdn.microsoft.com/library/azure/mt168838.aspx)), because [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD behaves like a standard [WS-Federation](https://docs.microsoft.com/azure/active-directory/develop/active-directory-developers-guide) compliant security token service. To get started sign into the [[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Management Portal](https://msdn.microsoft.com/library/azure/hh967611.aspx#bkmk_azureportal) and create or select an existing directory. When a directory is available follow the instructions to [add an application](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications) to the directory.
 
 1.  Under the **Applications** menu of the directory, select **Add**.
 2.  Choose **Add an application my organization is developing**.
@@ -142,7 +142,7 @@ The previous section describing AD FS can also be applied to [!INCLUDE[pn-azure-
 
 ### See also
 
-[Configure Dynamics 365 for Customer Engagement portal authentication](configure-portal-authentication.md)  
+[Configure portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  

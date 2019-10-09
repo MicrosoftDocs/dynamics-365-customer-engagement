@@ -1,4 +1,4 @@
-# [Dynamics 365 for Sales Professional](help-hub.md)
+# [Dynamics 365 Sales Professional](help-hub.md)
 
 ## [What's new](whats-new.md)
 ## Get started
@@ -10,7 +10,7 @@
 ### [Manage tasks, appointments, email, or phone calls](manage-activities.md)
 
 ## User guide
-### [Resources for sales people](user-guide.md)
+### [Help resources for sales people](user-guide.md)
 ### [Develop sales from lead to cash](develop-sales-lead-to-cash-sales-professional.md)
 #### [Manage leads](manage-leads-sales-professional.md)
 #### [Manage opportunities](manage-opportunities-sales-professional.md)
@@ -28,8 +28,8 @@
 #### [Create a quote PDF](create-quote-pdf-sales-professional.md)
 
 ## Administrator and sales manager guide
-### [Resources for administrators and sales managers](admin-guide.md)
-### [Provision your Dynamics 365 for Sales Professional environment](provision-sales-professional-instance.md)
+### [Help resources for admins and sales managers](admin-guide.md)
+### [Provision your Dynamics 365 Sales Professional environment](provision-sales-professional-instance.md)
 ### [Overview of admin settings](admin-settings-overview.md)
 ### Standard settings
 #### [Connect with SharePoint](connect-with-sharepoint.md)
@@ -51,4 +51,4 @@
 ### [Customize forms](customize-forms.md)
 ### [Customize views](customize-views.md)
 ### [Customize business process flows](customize-business-process-flows.md)
-### [Customize the Dynamics 365 for Sales Professional app](manage-app.md)
+### [Customize the Dynamics 365 Sales Professional app](manage-app.md)

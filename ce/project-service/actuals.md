@@ -1,6 +1,6 @@
 ---
 title: Actuals
-description: This topic provides information about actuals in Dynamics 365 for Project Service Automation (PSA). 
+description: This topic provides information about project actuals. 
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Actuals are the amount of work that has been completed on a project. In Microsoft Dynamics 365 for Project Service Automation (PSA), project actuals can be traced back to their source documents. Those source documents include time, expense, and journal entries, and also invoices.
+Actuals are the amount of work that has been completed on a project. Project actuals can be traced back to their source documents. Those source documents include time, expense, and journal entries, and also invoices.
 
 ![How project actuals are traced to source documents](media/basic-guide-18.png)
 

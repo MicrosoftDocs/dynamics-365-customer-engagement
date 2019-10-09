@@ -1,4 +1,4 @@
-# [Dynamics 365 for Customer Service](help-hub.md)
+# [Dynamics 365 Customer Service](help-hub.md)
 ## [Overview](overview.md)
 ## [What's new](whats-new-customer-service.md)
 ## User Guides
@@ -28,6 +28,7 @@
 ### Case Settings
 #### [Create and manage queues](set-up-queues-manage-activities-cases.md)
 #### [Define parent and child case settings](define-settings-parent-child-cases.md)
+#### [Install Routing Rules - Preview solution](install-routing-rules-preview-solution.md)
 #### [Automatically route cases using routing rule sets](create-rules-automatically-route-cases.md)
 #### [Automatically create and update records](set-up-rules-to-automatically-create-or-update-records.md)
 #### [Automatically create a case from an email](automatically-create-case-from-email.md)
@@ -44,11 +45,11 @@
 #### [Set up entitlements using entitlement templates](set-up-entitlements-templates.md)
 #### [Create email templates](../admin/create-templates-email.md)
 #### [Create article templates](../admin/create-templates-articles.md)
-#### [Create knowledge article template](create-templates-knowledge-article.md)
 
 ### Knowledge Base Management
 #### [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
 #### [Create and manage categories](create-manage-categories.md)
+#### [Create knowledge article template](create-templates-knowledge-article.md)
 
 ### Similar Record Suggestions
 #### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
@@ -105,3 +106,4 @@
 ## Developer guide
 ### [Create knowledge article using template](create-knowledge-article-using-template.md)
 ### [Extend transformer logic on templates](extend-tranformer-logic-template.md)
+### [Channel Integration Framework Guide](channel-integration-framework/channel-integration-framework.md)

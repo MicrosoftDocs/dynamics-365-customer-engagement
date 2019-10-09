@@ -1,5 +1,5 @@
 ---
-title: "Configure SAML 2.0 provider settings for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Configure SAML 2.0 provider settings for a portal | MicrosoftDocs"
 description: "Instructions to add and configure SAML 2.0 provider settings for a portal."
 ms.custom: 
   - dyn365-portal
@@ -24,7 +24,7 @@ search.app:
 # Configure SAML 2.0 provider settings for portals
 
 > [!Note]
-> This documentation applies to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals and later versions.
+> This documentation applies to Dynamics 365 Portals and later versions.
 
 To provide external authentication, you can add one or more [SAML 2.0](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html)–compliant identity providers (IdP). This document describes how to set up various identity providers to integrate with a portal that acts as a service provider.  
 
@@ -112,7 +112,7 @@ Multiple IdP services can be configured by substituting a label for the [provide
 |---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Authentication/Registration/ExternalLoginEnabled              | Enables or disables external account sign-in and registration. Default: true                                                                                                                                                                                                                                                                                                                                                            |
 | Authentication/SAML2/[provider]/MetadataAddress             | Required. The [WS-Federation](https://msdn.microsoft.com/library/bb498017.aspx) metadata URL of the [!include[](../includes/pn-adfs-short.md)] (STS) server. It commonly ends with the path:/FederationMetadata/2007-06/FederationMetadata.xml . Example: `https://adfs.contoso.com/FederationMetadata/2007-06/FederationMetadata.xml`. [!include[](../includes/proc-more-information.md)] [WsFederationAuthenticationOptions.MetadataAddress](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.metadataaddress.aspx) |  
-| Authentication/SAML2/[provider]/AuthenticationType          | Required. The OWIN authentication middleware type. Specify the value of the [entityID](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-federation-metadata) attribute at the root of the federation metadata XML. Example: `http://adfs.contoso.com/adfs/services/trust`. [!include[](../includes/proc-more-information.md)] [AuthenticationOptions.AuthenticationType](https://msdn.microsoft.com/library/microsoft.owin.security.authenticationoptions.authenticationtype.aspx)                                                            |  
+| Authentication/SAML2/[provider]/AuthenticationType          | Required. The OWIN authentication middleware type. Specify the value of the [entityID](https://docs.microsoft.com/azure/active-directory/develop/active-directory-federation-metadata) attribute at the root of the federation metadata XML. Example: `http://adfs.contoso.com/adfs/services/trust`. [!include[](../includes/proc-more-information.md)] [AuthenticationOptions.AuthenticationType](https://msdn.microsoft.com/library/microsoft.owin.security.authenticationoptions.authenticationtype.aspx)                                                            |  
 | Authentication/SAML2/[provider]/ServiceProviderRealm<br>or <br>Authentication/SAML2/[provider]/Wtrealm                      | Required. The [!include[](../includes/pn-adfs-short.md)] relying party identifier. Example: `https://portal.contoso.com/`. [!include[](../includes/proc-more-information.md)] [WsFederationAuthenticationOptions.Wtrealm](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.wtrealm.aspx)                       |  
 | Authentication/SAML2/[provider]/AssertionConsumerServiceUrl<br>or<br>Authentication/SAML2/[provider]/Wreply                       | Required. The [!include[](../includes/pn-adfs-short.md)] SAML Consumer Assertion endpoint. Example: https://portal.contoso.com/signin-saml2. [!include[](../includes/proc-more-information.md)] [WsFederationAuthenticationOptions.Wreply](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.wreply.aspx)                                                                                                                                                                                                  |  
 | Authentication/SAML2/[provider]/Caption                     | Recommended. The text that the user can display on a sign-in user interface. Default: [provider]. [!include[](../includes/proc-more-information.md)] [WsFederationAuthenticationOptions.Caption](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.caption.aspx)                |  
@@ -365,7 +365,7 @@ The process of adding a relying party trust in [!include[](../includes/pn-adfs-s
 
 .SYNOPSIS
 
-Adds a SAML 2.0 relying party trust entry for a Dynamics 365 for Customer Engagement portals website.
+Adds a SAML 2.0 relying party trust entry for a website.
 
 .PARAMETER domain
 
@@ -462,7 +462,7 @@ Add-CrmRelyingPartyTrust $domain
 
 ### See also
 
-[Configure Dynamics 365 for Customer Engagement portal authentication](configure-portal-authentication.md)  
+[Configure portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  

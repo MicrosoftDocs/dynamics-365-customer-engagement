@@ -1,5 +1,5 @@
 ---
-title: Manage resource requests (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Manage resource requests 
 description: How to manage resource requests in Project Service
 author: JohnPBurrows
 manager: kfend

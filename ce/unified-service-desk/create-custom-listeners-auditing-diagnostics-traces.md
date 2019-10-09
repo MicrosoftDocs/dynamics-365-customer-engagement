@@ -1,20 +1,10 @@
 ---
 title: "Create custom listeners for auditing, diagnostics and traces | MicrosoftDocs"
 description: "Learn about creating custom listeners that lets you target the log output to files, the event log, or other sources. Until the previous version of Unified Service Desk, you could only use the standard listeners to write auditing, diagnostics, and trace logs in Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: c4290a42-e760-4eba-a11d-de605e239c2d
 author: kabala123
 ms.author: kabala
@@ -237,7 +227,7 @@ namespace SampleCustomUSDListener
   
 - Create **Auditing & Diagnostic Settings** records, and attach the appropriate listener hosted control record to it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure auditing and diagnostics in Unified Service Desk](admin/configure-auditing-diagnostics-unified-service-desk.md)  
   
-- Use the .zip file to create a **Customization Files** record and then attach it to the appropriate **Configuration** record so that the assembly can be distributed to the client computers when they sign in to the Dynamics 365 for Customer Engagement server using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Distribute custom hosted controls using Customization Files](admin/distribute-custom-hosted-controls-using-customization-files.md)  
+- Use the .zip file to create a **Customization Files** record and then attach it to the appropriate **Configuration** record so that the assembly can be distributed to the client computers when they sign in to the Common Data Service platform using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Distribute custom hosted controls using Customization Files](admin/distribute-custom-hosted-controls-using-customization-files.md)  
   
 ### See also  
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)

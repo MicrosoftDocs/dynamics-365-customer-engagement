@@ -1,5 +1,5 @@
 ---
-title: "Set up booking rules (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Set up booking rules (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/12/2019
@@ -10,8 +10,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 author: krbjoran
 ms.assetid: 87e2cafc-ead7-43b2-b62a-db3a2fc05380
 caps.latest.revision: 13
@@ -308,7 +306,7 @@ On the Booking Rule record the “Method Name” must be: MSFSAENG.ScheduleBoard
     }());
     })(MSFSAENG || (MSFSAENG = {}));
       
-  
+ 
 ### See also    
  [Schedule within time constraints](../field-service/schedule-time-constraints.md)   
  [Set up booking statuses](../field-service/set-up-booking-statuses.md)   

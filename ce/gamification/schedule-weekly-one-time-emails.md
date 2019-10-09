@@ -1,5 +1,5 @@
 ---
-title: "Schedule emails in Dynamics 365 for Customer Engagement – Gamification | Microsoft Docs"
+title: "Schedule emails in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to schedule and send automatic emails to players to keep them engaged in the game competition."
 ms.custom: 
   - dyn365-gamification
@@ -9,7 +9,6 @@ ms.service: dynamics-365-sales
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1e93e7a0-a0f6-4817-a361-a173df8fc74b
 author: m-hartmann
 ms.author: mhart
