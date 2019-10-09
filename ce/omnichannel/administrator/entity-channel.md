@@ -69,7 +69,7 @@ Create entity record configuration to enable an entity for routing.
     | Basic Details | Name | Specify a name to the entity record channel. | Case entity channel  <br> **Note:** This is an example value.|
     | Basic Details | Entity | Select an entity from the list. | Case (Incident) |
 
-5. Select **Save** to save the entity record channel. After you save, in the **Work distribution** section, a deafult workstream is automatically created automatically to distribute these entity records. 
+5. Select **Save** to save the entity record channel. After you save, in the **Work distribution** section, a default workstream is automatically created automatically to distribute these entity records. 
 
 A default work stream will be created to distribute these entity records. You can edit this workstream or create more workstreams as per your business scenarios. For more information see <link1> and <link2>
 
