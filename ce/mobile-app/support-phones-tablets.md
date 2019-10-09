@@ -23,7 +23,7 @@ search.app:
 ---
 # What's supported
 
-You can access Common Data Service or Dynamics 365 Customer Engagement (on-premises) data from mobile devices in different ways. You can install and use the apps for Windows, iOS, and [!INCLUDE[tn_android](../includes/tn-android.md)] mobile devices, or you can run the app on the device’s preferred browser for those devices described here.
+You can access Common Data Service or Dynamics 365 Customer Engagement (on-premises) data from mobile devices in different ways. You can install and use the Dynamics 365 for phones and tablets app on your Windows, iOS, and [!INCLUDE[tn_android](../includes/tn-android.md)] mobile devices, or you can run the model-driven apps web client on the device’s preferred browser for those devices described below.
    
 <a name="BKMK_CRMforPhones"></a>   
 ## Support for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and tablets 
@@ -32,7 +32,7 @@ You can access Common Data Service or Dynamics 365 Customer Engagement (on-premi
   
 |                              Platform                              |   Versions    | RAM (minimum) | Resolution and Screen Size |
 |--------------------------------------------------------------------|---------------|---------------|-------------------------------------------|
-|       [iOS](https://go.microsoft.com/fwlink/p/?LinkID=519213)       | 10 or later (iPad third generation or later) |     1 GB (2 GB recommended for optimal performance )      |                   9-inch screen (diagonal) or larger                    | 
+|       [iOS](https://go.microsoft.com/fwlink/p/?LinkID=519213)       | 10 or later (if using an iPad it needs to be third generation or later) |     1 GB (2 GB recommended for optimal performance )      |                   9-inch screen (diagonal) or larger                    | 
 |     [Android](https://go.microsoft.com/fwlink/p/?LinkID=519214)     | 4.4 or later |     2 GB (3 GB recommended for optimal performance )    |                   Tablets with screens larger than 7 inches (optimized for 9 to 10 inches)                     |
 | [Windows tablet](https://go.microsoft.com/fwlink/p/?linkid=862402) |      10       |     2 GB (4 GB recommended for optimal performance )    |                   1366 x 768 resolution (720p)                    |
  
@@ -45,9 +45,15 @@ To install the app see, [Install the app from your device’s app store](https:/
 
 ## Web browser support for tablets  
 
-For full functionality and optimized experiencewe, we strongly recommend that you use the Dynamics 365 for phones and tablets app. If you don't have the Dynamics 365 for phones and tablets app installed, you can still use the web browsers on your tablet to run your apps. 
+For full functionality and optimized experience we strongly recommend that you use the Dynamics 365 for phones and tablets app. If you don't have the Dynamics 365 for phones and tablets app installed, you can still use the web browsers on your tablet to run your apps. Using the web brower on your phone is not supported. 
 
-You can run your app in the default web browser on any Windows 10 device, including a Windows 10 PC, but the user interface is optimized for touch. For Apple iPad  iOS 10 and later are supported. For Android versions 6.0 and above are supported for the tablets.  
+You can run your app in the default web browser on any Windows 10 device, including a Windows 10 PC. For Apple iPad iOS 10 and later is supported. For Android versions 6.0 and above is supported for the tablets.  
+
+The follwoing resolution and screen is support for tablets:  
+ - **iOS**: 9-inch screen (diagonal) or larger 
+ - **Android**: Tablets with screens larger than 7 inches (optimized for 9 to 10 inches)
+ - **Windows tablets**: 1366 x 768 resolution (720p)
+
   
 Using your app on a web browser on an Apple or Android mobile device provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:  
   
