@@ -78,7 +78,7 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 | Template version  | Template name | Release date | Relates to Field Service Mobile version |  Publish to Woodford Version |
 |---|---|---|---|---|
 | [1.0.2735](https://aka.ms/fsmobile-project)  |  FSDyn365_1.0.2735.woodford | August 2019  |  11.3 | 11.3 |
-| 1.0.1322  |  FSDyn365_1.0.1322.woodford | December 2018  |  11.2 | 11.2 |
+| [1.0.1322](https://download.microsoft.com/download/0/3/5/03574fcb-6d0b-47c4-aefd-6fde3395fc9e/FSDyn365_1.0.1322.woodford)  |  FSDyn365_1.0.1322.woodford | December 2018  |  11.2 | 11.2 |
 | [Field Service v6.1 v1.0.0.0](https://go.microsoft.com/fwlink/p/?linkid=836310)  |  CentaurusStoreVersion.woodford | December 2018  |  **Field Service Mobile (2017)** 9.0+ | 9.1 |
 | [ Field Service v6.0 v1.0.0.0](https://go.microsoft.com/fwlink/p/?LinkId=808250)  |  Field Service Mobile default project.woodford | December 2018  |  **Field Service Mobile (2016)** 8.0 | 8.0 |
 
