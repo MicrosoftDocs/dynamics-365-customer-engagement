@@ -31,10 +31,10 @@ You can access Common Data Service or Dynamics 365 Customer Engagement (on-premi
 ### Device support for the mobile app  
   
 |                              Platform                              |   Versions    | RAM (minimum) | |
-|--------------------------------------------------------------------|---------------|---------------|-------------------------------------------|
-|       [iOS](https://go.microsoft.com/fwlink/p/?LinkID=519213)       | 10 or later (if using an iPad it needs to be third generation or later) |     1 GB (2 GB recommended for optimal performance )      |                                     | 
+--------------------------------------------------------------------|---------------|---------------|-----------------------------------
+|       [iOS](https://go.microsoft.com/fwlink/p/?LinkID=519213)       | 10 or later (if using an iPad it needs to be third generation or later) |     1 GB (2 GB recommended for optimal performance )     
 |     [Android](https://go.microsoft.com/fwlink/p/?LinkID=519214)     | 4.4 or later |     2 GB (3 GB recommended for optimal performance )    |                                  |
-| [Windows tablet](https://go.microsoft.com/fwlink/p/?linkid=862402) |      10       |     2 GB (4 GB recommended for optimal performance )    |                  
+| [Windows tablet](https://go.microsoft.com/fwlink/p/?linkid=862402) |      10       |     2 GB (4 GB recommended for optimal performance )                     
  
   
 ## Install the app 
@@ -50,12 +50,12 @@ For full functionality and optimized experience we strongly recommend that you u
 
 ### Table support for using model-driven apps web client
   
-|                              Platform                              |   Versions  | Resolution or Screen Size  | |
-|--------------------------------------------------------------------|---------------|---------------|-------------------------------------------|
+|                              Platform                              |   Versions  | Resolution or Screen Size  | 
+|--------------------------------------------------------------------|---------------|---------------|
 |       iOS iPad      | 10 or later  |     9-inch screen (diagonal) or larger      |                                     | 
 |     Android tablet  | 6.0 or later |     Tablets with screens larger than 7 inches (optimized for 9 to 10 inches)    |                                  |
 | Windows tablet or Windows 10 PC |      10       |     1366 x 768 resolution (720p)
-   |     
+        
 
   
 Using your app on a web browser on an Apple or Android mobile device provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:  
