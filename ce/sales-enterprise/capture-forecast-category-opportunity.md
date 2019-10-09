@@ -1,4 +1,4 @@
-`---
+---
 title: "Capture forecast category for opportunity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Capture the forecast category in Dynamics 365 Sales to determine whether an opportunity is a low confidence or high confidence to indicate the chances of it getting converted to a sale."
 ms.date: 10/01/2019
