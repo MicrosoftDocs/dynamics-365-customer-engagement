@@ -4,7 +4,7 @@ description: "Learn how to migrate entity records from the legacy Service Schedu
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 10/03/2019
+ms.date: 10/11/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
@@ -97,11 +97,6 @@ See the matrix for the dependency.
    | Service Activity | Kenny Smith (customer) |
 
 The **Service Activity** for Kenny Smith has a dependency on the **Service**, Bike overhaul and **Resource Group**, Bike technicians.
-
-In the migration process, if there is a failure in the service activity entity record, then **Service** entity record which has a dependency on the **Service Activity** will also fail, and the **Resource Group** entity record that has a dependency on the  **Service** entity record also fails. That is, the following entity records migration fails:
-
-- **Bike overhaul**
-- **Bike technicians**
 
 Let us take the above mentioned example to learn how to resolve the error.
 

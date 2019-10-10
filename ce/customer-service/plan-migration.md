@@ -4,7 +4,7 @@ description: "Learn how to migrate entity records from the legacy Service Schedu
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 10/03/2019
+ms.date: 10/11/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
