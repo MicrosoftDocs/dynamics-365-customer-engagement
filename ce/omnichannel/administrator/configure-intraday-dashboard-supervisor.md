@@ -198,11 +198,11 @@ Follow these steps to configure Power BI dashboards.
 
 3.  Select **Set as featured** for the created dashboard to display on the top for each time you open the Power BI service.
 
-4.  Share the dashboard with supervisor users. This allows supervisors to access the dashboards. To learn more, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).  
+4.  Share the dashboard and reports with supervisor users. This allows supervisors to access the dashboards. To learn more, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).  
 
 5.  For Unified Service Desk configuration, copy the URL of the dashboard.  
 
-   The dashboard is ready, and you can configure the **Unified Service Desk** or **Omnichannel for Customer Service** on web to make the dashboard available for supervisors.
+   The dashboard is ready, and you can configure the **Unified Service Desk** to make the dashboard available for supervisors.
 
 ## Configuration tasks for Unified Service Desk 
 
@@ -278,72 +278,7 @@ To learn more, see [Client caching overview](https://docs.microsoft.com/dynamics
 
 ## Configuration tasks for Omnichannel for Customer Service app on web
 
-After you complete the common tasks, you must perform the tasks defined in this section to complete the configuration for Intraday insights dashboard for **Omnichannel for Customer Service** on web.
-
-### Configure supervisor dashboard in Omnichannel for Customer Service app on web
-
-To view the supervisor dashboards in **Omnichannel for Customer Service** on web, you must add the Power BI dashboard to your app.
-
-1.  Sign in to **Omnichannel for Customer Service** app.
-
-2.  On the site map, select add icon (**+**) and then select **Dashboards**.
-
-    > [!div class=mx-imgBorder]
-    > ![Select dashboard to add](../media/supervisor-admin-select-dashboard.png "Select dashboard to add")  
-
-3.  On the dashboard page, select **New** > **Power BI Dashboard**.
-
-    > [!div class=mx-imgBorder]
-    > ![Select Power BI dashboard option](../media/supervisor-admin-select-power-bi-dashboard-option.png "Select Power BI dashboard option")  
-
-4.  On the **Power BI Dashboard Properties** dialog, select **Workspace** in which you have the dashboards and then select **Dashboard**.
-
-    > [!div class=mx-imgBorder]
-    > ![Select the Power BI dashboard](../media/supervisor-admin-select-dashboard-to-add.png "Select the Power BI dashboard")  
-
-5.  Select **Save**.
-
-    The supervisor dashboard is added to **Omnichannel for Customer Service** on web.
-
-To learn more, see [Add or edit Power BI visualizations on your dashboard](/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)
-
-### Share dashboard in Omnichannel for Customer Service app on web
-
-You must share the Intraday insights dashboard with supervisors in your organization to access the dashboard in **Omnichannel for Customer Service**. To share the dashboard, follow these steps:
-
-1.  Sign in to **Omnichannel for Customer Service** app.
-
-2.  From the dashboard view selector, under **My Dashboards**, select the intraday insights dashboard that you want to share with supervisors. In this example, we are selecting **Contoso**.
-
-   > [!div class=mx-imgBorder]
-   > ![Select dashboard to share](../media/supervisor-admin-select-dashboard-to-share.png "Select dashboard to share")  
-
-3.  Select **Share Dashboard**.
-
-   > [!div class=mx-imgBorder]
-   > ![Select share dashboard option](../media/supervisor-admin-select-share-dashboard-option.png "Select share dashboard option")  
-
-4.  On the **Share user dashboard** dialog, select **Add User/Team**.
-
-   > [!div class=mx-imgBorder]
-   > ![Select add user or team option](../media/supervisor-admin-share-user-dashboard.png "Select add user or team option")  
-
-5.  On the **Look Up Records** dialog, search for the team or users you want to add and select **Select**.
-
-   > [!div class=mx-imgBorder]
-   > ![Select users or teams](../media/supervisor-admin-search-select-users-team.png "Select users or teams")  
-
-6.  Select **Add**. 
-
-    The users/teams are added to the share list
-
-7. Select the users and privileges that you want to grant. Select **Share**.
-
-   > [!div class=mx-imgBorder]
-   > ![Select users and teams and share the dashboard](../media/supervisor-admin-add-privileges-and-share.png "Select users and teams and share the dashboard")  
-
-    The Intraday insights dashboard is shared with the users or teams that you have selected.
-
+To enable the intraday insights dashboards for **Omnichannel for Customer Service** on web, perform Step 4 from [Configure Power BI workspace](#configure-power-bi-workspace).
 
 ### See also
 
