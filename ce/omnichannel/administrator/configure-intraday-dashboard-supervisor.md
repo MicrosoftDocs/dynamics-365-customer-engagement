@@ -274,10 +274,12 @@ To learn more, see [Client caching overview](https://docs.microsoft.com/dynamics
 5.  Select **Save**.
 
 
-## Configuration tasks for Omnichannel for Customer Service app on web
+## Configure supervisor dashboard in Omnichannel for Customer Service app on web
 
 To enable the intraday insights dashboards for **Omnichannel for Customer Service** on web, perform Step 4 from [Configure Power BI workspace](#configure-power-bi-workspace).
 
 ### See also
 
 [Introduction to Intraday insights dashboard](../supervisor/intro-intraday-insights-dashboard.md)
+
+[Add custom KPIs to Intraday insights dashboard](add-custom-kpis-intraday-insights-dashboard.md)

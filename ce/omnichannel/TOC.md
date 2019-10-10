@@ -56,6 +56,7 @@
 
 ### Supervisor Experience
 #### [Configure to view intraday insights dashboard](administrator/configure-intraday-dashboard-supervisor.md)
+#### [Add custom KPIs to Intraday insights dashboard](administrator/add-custom-kpis-intraday-insights-dashboard.md)
 #### [Provide access to Ongoing Conversations dashboard](administrator/configure-ongoing-conversations-dashbaord.md)
 #### [Enable supervisors to monitor and assign conversations](administrator/configure-ongoing-conversations-settings.md)
 #### [Enable sentiment analysis](administrator/enable-sentiment-analysis.md)
