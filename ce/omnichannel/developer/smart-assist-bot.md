@@ -17,6 +17,18 @@ ms.custom:
 
 Based on the context passed for an incoming conversation, Omnichannel for Customer Service recommends help resources to assist the agent to successfully resolve customer's queries. The Smart assist card uses [Adaptive cards](https://adaptivecards.io), which is an open source standard that helps apps and services exchange rich snippets of native UI.
 
+## Smart assist using knowledge articles
+
+Based on the context and the information extracted from an ongoing conversation, Omnichannel for Customer Service can populate the smart assist adaptive cards with knowledge article suggestions.
+
+## Smart assist using similar cases
+
+Based on the context and the information extracted from an ongoing conversation, Omnichannel for Customer Service can populate the smart assist adaptive cards with similar case suggestions, which agents can refer to for information on how similar cases were resolved.
+
+## Smart assist using custom suggestions
+
+Smart assist adaptive cards can also contain suggestions for the next case.
+
 ## Sample code
 
 You can find the entire code sample here: [Smart Assist for Bots]().
