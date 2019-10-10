@@ -26,15 +26,25 @@ search.app:
 <a name="bkmk_enable"></a> 
 ## For Dynamics 365 admins: enable Microsoft Teams integration feature 
 
-By default, the basic and enhanced Microsoft Teams integration is disabled. To turn these features on, follow the steps below. To learn more about what the difference, see [Difference between the Basic and Enhanced Collaboration Experience with Teams](teams-basic-vs-enhanced-collaboration.md).
+By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To turn these features on, follow the steps below. To learn more about what the difference, see [Difference between the Basic and Enhanced Collaboration Experience with Teams](teams-basic-vs-enhanced-collaboration.md).
 
-   > [!NOTE]
-   > - If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](teams-troubleshoot.md#troubleshoot-configuration-issues-with-teams-integration).
+If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](teams-troubleshoot.md#troubleshoot-configuration-issues-with-teams-integration).
+
 
 1. Sign in as a System administrator to Dynamics 365 apps.
 2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
 3. For the [basic collaboration experience](teams-collaboration.md), enable **Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in Dynamics 365 apps so you can see the connected team channel. In addition, in the **Documents** tab of Dynamics 365 record page, the connected Teams Channel file library will appear. This lets you set-up a connection in the Teams app.
-4. For the [enhanced collaboration experience](teams-collaboration-enhanced-experience.md), enable **Enable Enhanced Microsoft Teams Integration**. To turn this option on, you need need Office 365 tenant admin permissions. When Enhanced Microsoft Teams Integration is enabled, the **Collaborate** button appears on records and views in  Dynamics 365 apps and you can set up a connection all within Dynamics 365 app.
+   > [!NOTE]
+   > **Basic Microsoft Teams Integration** needs to to enabled for you to turn on the **Enable Enhanced Microsoft Teams Integration**. If you don't enabled **Basic Microsoft Teams Integration** then the option to **Enable Enhanced Microsoft Teams Integration** will be grayed out.
+    > [!div class="mx-imgBorder"] 
+    > ![Enhanced experience disabled](media/teams-enhanced-disabled.png "Enhanced experience disabled")
+   
+4. For the [enhanced collaboration experience](teams-collaboration-enhanced-experience.md), enable **Enable Enhanced Microsoft Teams Integration**. To turn this option on, you need need Office 365 tenant admin permissions. When Enhanced Microsoft Teams Integration is enabled, the **Collaborate** button appears on records and views in Dynamics 365 apps and you can set up a connection with any Teams collaboration channel within Dynamics 365 app.
+  -  When you select **Yes** to **Enable Enhanced Microsoft Teams Integration**, a consent pop-up dialog boxe will display. If you have a pop-up blocker and you don't see the consent dialong box, then you need to disable the pop-up blocker in your browser.
+  
+   > [!div class="mx-imgBorder"] 
+   > ![Disable pop-up blocker](media/teams-system-settings.png "Disable pop-up blocker")
+  
    > [!IMPORTANT]
    > - When you select the option to enable enhanced collaboration experience, there are two request permission dialog boxes that you will need to accept. On the second dialog box, select the checkbox for  **Consent on behalf of organization** and then select **Accept**. If you don't select check this option, then when another user tries to pin an entity record or view to Teams and shares the tab with another user, they will get this error message, **The admin has not consented to use user sync feature, you can add them manually**. If you see this error message, see [Error messages in the Teams app](https://docs.microsoft.com/dynamics365/customer-engagement/basics/teams-troubleshoot#error-messages-in-the-teams-app).
 
