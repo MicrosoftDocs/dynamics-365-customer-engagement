@@ -36,7 +36,21 @@ Periodically, Microsoft releases a new mobile project template when major and mi
 
 ## Starting a new mobile project
 
+If you have a new field service environment and want to set up the mobile app simply,
+
+1. [Download the latest Field Service Mobile Project Template](https://aka.ms/fsmobile-project) and 
+2. Follow the instructions to [import and derive it in the mobile configuration tool (Woodford)](https://docs.microsoft.com/en-us/dynamics365/field-service/install-field-service#import-the-mobile-project-template)
+
 ## Upgrading an existing mobile project
+
+In other scenarios, you may have been using and customizing a field service mobile project template, and Microsoft has released a new template. In this scenario, you want to use the new template while keeping your customizations.
+
+Here is an example:
+
+1. You imported a field service mobile project template from Microsoft and published it
+2. you derived that project and made customizations for your organization
+
+
 
 Here are the steps you can follow to perform a field service mobile project version 9 to version 11+ upgrade. Note, in the first step, it is important to determine which version of our project you started customizing and you need that original file. If you and your team does not have this, please send MS support your project file and they we will attempt to determine and provide you the original project file. This is needed to generate the Git Diff between our original and your customized project. 
 
