@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/24/2019
+ms.date: 10/00/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -13,10 +13,10 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -70,6 +70,40 @@ No. Modifying, editing, or deleting date fields and statuses can affect business
 
 Field Service makes the opportunity, lead, quote, and invoice forms read-only once it detects the record is not a service-maintenance based record. This means Field Service forms or the forms copied from Field Service forms do not support opportunity, lead, quote, and invoice records other than Field Service opportunity, lead, quote, and invoice. If you want to use an opportunity form for non-Field Service related opportunities, use the out-of-the-box opportunity (**Opportunity: Opportunity**) form shipped by Dynamics 365 Sales or copy this form for further customization. The same is true for lead, quote, and invoice.
 
+## Why do I get an AttributeMap error when upgrading and how do I fix it?  
+
+You may have encountered 1 of these 2 errors during upgrade: 
+
+- "An AttributeMap, with Id: GUID, between attribute customerid and msdyn_serviceaccount of entity incident and msdyn_workorder, has an unmanaged base instance and therefore cannot be updated by a managed solution."
+- "An AttributeMap, with Id: GUID, between attribute customerid and msdyn_billingaccount of entity incident and msdyn_workorder, has an unmanaged base instance and therefore cannot be updated by a managed solution."
+
+You can resolve this issue by following the steps outlined below. These attributemaps will be automatically recreated by upgrading to a newer version. Review these two attributemaps and delete them in your environment.
+
+### Error with customerid and msdyn_serviceaccount
+
+1. Go to **Settings** > **Customization** > **Customize the System**.
+2. Go to **Entities** > **Work Orders** > **N:1 Relationships**.
+3. Double-click on the row called **msdyn_account_msdyn_workorder_ServiceAccount**.
+4. Select **Mappings**.
+5. Select the **Service Account** mapping and delete it.
+6. Run upgrade again.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the troubleshooting pathway outlined in the previous steps in the customization settings](./media/faq-attributemap-upgrade-error-service-account.png)
+
+### Error with customerid and msdyn_billingaccount
+
+1. Go to **Settings** > **Customization** > **Customize the System**.
+2. Go to **Entities** > **Work Orders** > **N:1 Relationships**.
+3. Double-click on the row called **msdyn_account_msdyn_workorder_BillingAccount**.
+4. Select **Mappings**.
+5. Select the **Billing Account** mapping and delete it.
+6. Run upgrade again.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the troubleshooting pathway outlined in the previous steps in the customization settings](./media/faq-attributemap-upgrade-error-billing-account.png)
 
 ## See also
 
