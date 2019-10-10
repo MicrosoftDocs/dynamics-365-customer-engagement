@@ -28,7 +28,7 @@ ms.custom:
 
 This topic describes, as a system customizer, how to configure the **Link to conversation** button in the model-driven app entity form for agents using Omnichannel for Customer Service app.
 
-When an agent accepts a conversation request and there is no record in the Omnichannel for Customer Service linked to this conversation. Now, the agent want to search for a contact or account record, and link the record to the conversation. As a system customizer, you need to configure the **Link to conversation** button in the model-driven app entity form so agents could link a record to the current conversation. 
+When an agent accepts a conversation request, and there is no record in the Omnichannel for Customer Service linked to this conversation, the agent wants to search for a contact or account record, and link the record to the conversation. As a system customizer, you need to configure the **Link to conversation** button in the model-driven app entity (contact, account or case) form so agents could link a record to the current conversation. 
 
 To add the **Link to conversation** button in the model-driven app entity form, as a system customizer, you need to customize the ribbon (`<RibbonDiffXml>`) definition. The customization change definitions that you specify are applied at runtime when the ribbon is displayed in the application.
 
@@ -67,7 +67,7 @@ Edit the XML to provide values for the parameters such as:
 |----------------------------|---------------------------------------|------------|
 | `Library` | `$webresource:msdyn_OmnichannelLinkCommand.js` | |
 | `FunctionName` | `OmniChannelPackage.OmnichannelLinkCommand.linkRecordToConversation` | |
-| `StringParameter Value` | <ul> <li> `msdyn_account_msdyn_ocliveworkitem_Customer` </li> <li> `msdyn_account_msdyn_ocliveworkitem` </li> <li> `msdyn_account_msdyn_ocliveworkitem_Customer` </li></ul> | <ul> <li>Used for Account entity </li> <li>Used for Case entity </li> <li>Used for Customer entity </li></ul> |
+| `StringParameter Value` | <ul> <li> `msdyn_account_msdyn_ocliveworkitem_Customer` </li> <li> `msdyn_incident_msdyn_ocliveworkitem` </li> <li> `msdyn_contact_msdyn_ocliveworkitem_Customer` </li></ul> | <ul> <li>Used for the Account entity </li> <li>Used for the Case entity </li> <li>Used for the Contact entity </li></ul> |
 
 **Sample snippet**
 
