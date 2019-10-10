@@ -33,9 +33,9 @@ If you run into any issues during configuration, see [Troubleshoot configuration
 
 1. Sign in as a System administrator to Dynamics 365 apps.
 2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
-3. For the [basic collaboration experience](teams-collaboration.md), enable **Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in Dynamics 365 apps so you can see the connected team channel. In addition, in the **Documents** tab of Dynamics 365 record page, the connected Teams Channel file library will appear. This lets you set-up a connection in the Teams app.
+3. For the [basic collaboration experience](teams-collaboration.md), select **Yes** for **Enable Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in Dynamics 365 apps so you can see the connected team channel. In addition, in the **Documents** tab of Dynamics 365 record page, the connected Teams Channel file library will appear. This lets you set-up a connection in the Teams app.
    > [!NOTE]
-   > **Basic Microsoft Teams Integration** needs to to enabled for you to turn on the **Enable Enhanced Microsoft Teams Integration**. If you don't enabled **Basic Microsoft Teams Integration** then the option to **Enable Enhanced Microsoft Teams Integration** will be grayed out.
+   >  YOu can only **Enable Enhanced Microsoft Teams Integration** if Basic Microsoft Teams Integration is enabled. If you don't  **Enable Basic Microsoft Teams Integration** then the option to **Enable Enhanced Microsoft Teams Integration** will be grayed out.
     > [!div class="mx-imgBorder"] 
     > ![Enhanced experience disabled](media/teams-enhanced-disabled.png "Enhanced experience disabled")
    
