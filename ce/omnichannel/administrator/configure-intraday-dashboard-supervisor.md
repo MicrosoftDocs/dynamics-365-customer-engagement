@@ -44,8 +44,6 @@ To configure the dashboard on **Omnichannel for Customer Service** app on web, f
 
 1. [Perform the common tasks](#common-tasks-to-configure-intraday-insights-dashboard).
 2. [Configure supervisor dashboard in Omnichannel for Customer Service app on web](#configure-supervisor-dashboard-in-omnichannel-for-customer-service-app-on-web)
-3. [Share dashboard in Omnichannel for Customer Service app on web](#share-dashboard-in-omnichannel-for-customer-service-app-on-web)
-
 
 ## Common tasks to configure intraday insights dashboard 
 
