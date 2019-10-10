@@ -112,7 +112,7 @@ To create a segment that finds contacts who _are not_ using automatic registrati
 
     ![Add a related entity](media/segment-add-related-entity.png "Add a related entity")
 
-1. A new row is added to your query. Select the field with **Select related entity** in ghost text to open a large drop-down list of available relations. Type "waitlist" in the field to filter the list and then select **Waitlist Item (Waitlist Item -> Contact (Contact))** from the drop-down list. This relation links the parent **Contact** entity to the **Waitlist Item** entity through the **Contact** field of the **Waitlist** entity. The **Contact** field identifies the contact associated with each found waitlist item. More information: [Move between entities with relationships](segments-profile.md#relationships)
+1. A new related entity is added to your query. Select the field with **Select related entity** in ghost text to open a large drop-down list of available relations. Type "waitlist" in the field to filter the list and then select **Waitlist Item (Waitlist Item -> Contact (Contact))** from the drop-down list. This relation links the parent **Contact** entity to the **Waitlist Item** entity through the **Contact** field of the **Waitlist** entity. The **Contact** field identifies the contact associated with each found waitlist item. More information: [Move between entities with relationships](segments-profile.md#relationships)
 
     ![Link to waitlist items](media/segment-waitlist-relation.png "Link to waitlist items")
 
