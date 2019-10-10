@@ -33,13 +33,14 @@ If you run into any issues during configuration, see [Troubleshoot configuration
 
 1. Sign in as a System administrator to Dynamics 365 apps.
 2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
-3. For the [Basic collaboration experience](teams-collaboration.md), select **Yes** to **Enable Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in Dynamics 365 apps so you can see the connected team channel. In addition, in the **Documents** tab of Dynamics 365 record page, the connected Teams Channel file library will appear. This lets you set-up a connection in the Teams app.
+3. To enable [Basic collaboration experience](teams-collaboration.md), select **Yes** for **Enable Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in Dynamics 365 apps so you can see the connected team channel. In addition, in the **Documents** tab of Dynamics 365 record page, the connected Teams Channel file library will appear. This lets you set-up a connection in the Teams app.
    > [!NOTE]
-   >  You can only **Enable Enhanced Microsoft Teams Integration** if **Enable Basic Microsoft Teams Integration** is set to **Yes**. If you don't **Enable Basic Microsoft Teams Integration** then the option to **Enable Enhanced Microsoft Teams Integration** will be grayed out.
-    > [!div class="mx-imgBorder"] 
-    > ![Enhanced experience disabled](media/teams-enhanced-disabled.png "Enhanced experience disabled")
+   >  You can only **Enable Enhanced Microsoft Teams Integration** if **Enable Basic Microsoft Teams Integration** is set to **Yes**. If you don't **Enable Basic Microsoft Teams Integration** then the option to **Enable Enhanced Microsoft Teams Integration** will be grayed out.  
+   >  > [!div class="mx-imgBorder"] 
+   >  > ![Enhanced experience disabled](media/teams-enhanced-disabled.png "Enhanced experience disabled")
+
    
-4. For the [Enhanced collaboration experience](teams-collaboration-enhanced-experience.md), enable **Enable Enhanced Microsoft Teams Integration**. To turn this option on, you need need Office 365 tenant admin permissions. When Enhanced Microsoft Teams Integration is enabled, the **Collaborate** button appears on records and views in Dynamics 365 apps and you can set up a connection with any Teams collaboration channel within Dynamics 365 app.
+4. To enable [Enhanced collaboration experience](teams-collaboration-enhanced-experience.md), select **Yes** for **Enable Enhanced Microsoft Teams Integration**. To turn this option on, you need Office 365 tenant admin permissions. When Enhanced Microsoft Teams Integration is enabled, the **Collaborate** button appears on records and views in Dynamics 365 apps and you can set up a connection with any Teams collaboration channel within Dynamics 365 app.
   -  When you select **Yes** to **Enable Enhanced Microsoft Teams Integration**, a consent pop-up dialog boxe will display. If you have a pop-up blocker and you don't see the consent dialong box, then you need to disable the pop-up blocker in your browser.
   
    > [!div class="mx-imgBorder"] 
