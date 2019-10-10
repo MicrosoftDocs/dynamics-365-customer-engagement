@@ -115,7 +115,7 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     > [!div class=mx-imgBorder]
     > ![Power BI workspace configuration settings page](../media/supervisor-admin-powerbi-configuration-settings.png "Power BI workspace configuration settings page")
 
-4. Select **Enable Intraday Insights for multi session web** option as **Yes** to make Intraday insights dashboard available on Omnichannel for Customer Service app on web.
+4. Enable the **Enable Intraday Insights for multi session web** option to make Intraday insights dashboard available on **Omnichannel for Customer Service** app on web.
 
     > [!div class=mx-imgBorder]
     > ![Enable to display Intraday insights dashboard on Omnichannel for Customer Service app](../media/supervisor-admin-intraday-insights-dashboard-oc-on-web.png "Enable to display Intraday insights dashboard on Omnichannel for Customer Service app")
