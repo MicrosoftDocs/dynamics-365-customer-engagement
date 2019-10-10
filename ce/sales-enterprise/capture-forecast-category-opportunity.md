@@ -48,7 +48,9 @@ The forecast category is used to determine confidence level of an opportunity as
 
 ## Sync opportunity status with forecast category
 
-You must sync opportunity status with forecast category in real-time to ensure that the forecast is projecting proper values. The forecast categories are not synced automatically when the opportunity status is updated. You must configure workflows to automatically sync the opportunity status with forecast category. To cerate workflow, follow these steps:
+To ensure that the forecast is projecting proper values, we recommend that you create a workflow to sync the opportunity status with the forecast category. Currently, when an opportunity’s state is changed to Won or Lost, the forecast category remains unchanged.
+
+To cerate workflow, follow these steps:
  
 1. Sign in to Dynamics 365 Sales and go to **Sales Hub** app.
 
@@ -109,7 +111,10 @@ You must sync opportunity status with forecast category in real-time to ensure t
     > [!div class="mx-imgBorder"]
     > ![Add conditional branch](media/forecast-create-process-configuration-add-condition-branch.png "Add conditional branch")
 
-10. Similarly, repeat steps 7 to 9 for other opportunity statuses **Pipeline**, **Best case**, **Committed**, and **Omitted**.
+10. Following steps 7 to 9, also create a new step when the opportunity is reverted back to **Open** that changes the forecast category to **Pipeline**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Add if condition for pipeline](media/forecast-create-process-configuration-if-condition-pipeline.png "Add if condition for pipeline")
 
 11. Save and close the workflow process.
 
