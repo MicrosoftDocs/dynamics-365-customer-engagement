@@ -65,7 +65,7 @@ These activities can be converted to any default (system) entity records or cust
 
  When a record creation and update rule is activated, a corresponding workflow is created automatically. You can use channel properties to define a workflow’s conditions and operators in mapping the target entity attribute values. For complex scenarios, you may configure child workflows.  
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure workflow steps](../customize/configure-workflow-steps.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure workflow steps](../customerengagement/on-premises/customize/configure-workflow-steps.md)  
 
 ## How do record creation and update rules work with queues?  
  In a record creation and update rule, when you specify a queue for a source type, any incoming activity from that source is added as a queue item for that specified queue. That is, if a rule for a particular source activity and queue combination is active, the rule processes the incoming activity on that queue to create or update records.  
@@ -221,7 +221,7 @@ In the **Specify Record Creation and Update Details** section, select ![Add a re
 
     d.  To add more actions, under **Specify Other Actions**, select **Add Step** > \<Action>. The available actions are: Create Record, Update Record, Send Email, or Start Child Workflow.  
 
-       Learn more about each of these actions in [Configure workflow steps](../customize/configure-workflow-steps.md).  
+       Learn more about each of these actions in [Configure workflow steps](../customerengagement/on-premises/customize/configure-workflow-steps.md).  
 
 4.  Select **Save and Close**.  
 
