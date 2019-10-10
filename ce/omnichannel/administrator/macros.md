@@ -83,7 +83,17 @@ This data is populated as and when agents perform some activities on the session
 
 An action in a macro generates context data that is consumed by other actions in that macro. 
 
-For example, for a create case and draft email macro, the draft email step consumes contextual data from create case step. The data could case title, case Id, and other attributes (notes and case comments).
+For example, there two action steps in the following order:
+
+1. Open a new form to create a record
+2. Open an email form with predefined template
+
+While creating the **Open an email form with predefined template**, you can get pass the context data parameters from the **Open a new form to create a record** macro step.
+
+The context data parameter from the first macro step are as follows:
+- Entity Logical Name
+- Page Type
+- Tab Id
 
 #### Context data from Common Data Service 
 
@@ -176,6 +186,20 @@ This macro is used to open an email with a predefined template. This macro conta
    | Billable Time |  Specify the time that is billable. <br> This is a mandatory field. | incident |
    | Incidentid| Specify the case id that you want to close. <br>This is a mandatory field.| |
    | Resolution | Specify the reason to resolve the case. <br> This is a mandatory field. | |
+
+## Supported format for context data
+
+As an administrator, you need to pass the context data values for the parameters in the macro steps. The following types are supported formats:
+
+- [Automation context](#automation-context)
+- [OData queries](#odata-queries)
+- [Static values](satitc-values)
+
+### Automation context
+
+### OData queries
+
+### Static values
 
 ## Create macro
 
