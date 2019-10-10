@@ -39,7 +39,6 @@ To manage your segments, go to **Marketing** > **Customers** > **Segments** and 
 
 Now design the logic for your demographic or firmographic segment as described in the remainder of this topic. For mor information about other types of segments, and links to topics about how to work with them, see [Working with segments](segmentation-lists-subscriptions.md)
 
-
 ## Elements in a query block
 
 A *query block* is a collection of logical clauses and clause groups. A query block can be quite simple (possibly with just one clause), or very complex (featuring multiple nested groups and relations). Your segments can also include multiple query blocks combined with union, exclude, and/or intersect operators, but often you'll have just one query block.
@@ -117,6 +116,8 @@ Provided the related entity is available to the marketing-insights service, you'
 <!-- Lookup fields also provide a special operator called **has**. Use this operator to test for the value of any field from the related entity, rather than just the value displayed by the local entity. For example, if you are querying the **Company Name** (Account) field of the **Contact** entity, you can use the **is/is in** operator to test for values of the **Name** field of the related account entity. But if you use the **has** operator, you can test for any field value from the related account record (such as **Address 1: City**). In the following illustration, this clause will find contacts who work for companies with street addresses in New York or Chicago.
 
 ![A lookup field in the fields name drop-down list](media/segment-clause-has.png "A lookup field in the fields name drop-down list") -->
+
+<a name="relationships"></a>
 
 ## Move between entities with relationships
 

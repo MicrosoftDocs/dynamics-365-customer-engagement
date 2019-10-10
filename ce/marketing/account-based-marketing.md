@@ -56,7 +56,7 @@ Firmographic segments are dynamic segments pre-configured to include a query int
 
     ![Choose the tree view](media/segment-firmographic-tree-view.png "Choose the tree view")
 
-1. Note that your firmographic segment already a link to the related account entity, as indicated by the **Account (Contact -> Account (Company Name))** relation. This relation tells you that you are referencing the **Account** entity, and that the relation between that entity and the parent **Contact** entity (shown at the base of the tree) goes through the **Company Name** field of the **Contact** entity. The **Company Name** field holds the name of the company (account) that each contact works for, so this query will find employees of the accounts we are about to define.
+1. Note that your firmographic segment already a link to the related account entity, as indicated by the **Account (Contact -> Account (Company Name))** relationship. This relationship tells you that you are referencing the **Account** entity, and that the relation between that entity and the parent **Contact** entity (shown at the base of the tree) goes through the **Company Name** field of the **Contact** entity. The **Company Name** field holds the name of the company (account) that each contact works for, so this query will find employees of the accounts we are about to define. More information: [Move between entities with relationships](segments-profile.md#relationships)
 
     ![Close the default group](media/segment-firmographic-entities.png "Close the default group")
 
