@@ -207,6 +207,9 @@ Given below is the adaptive card JSON for creating an appointment with the custo
 
 You can find the entire code sample here: [Smart Assist for Bots]().
 
+> [!NOTE]
+> The sample code uses pre-defined context values for displaying suggestions. You can use [Language Understanding (LUIS)](https://luis.ai) service to extract intent from an ongoing conversation. The conversation intent can be used along with the initial conversation context to display suggestions for the agent.
+
 ## See also
 
 [Manage custom context](how-to/send-context-starting-chat.md)<br />
