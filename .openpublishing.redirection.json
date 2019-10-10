@@ -8928,12 +8928,12 @@
     },
     {
       "source_path": "ce/admin/government/government-feature-availability.md",
-      "redirect_url": "https://docs.microsoft.com/power-platform/admin/powerapps-us-government",
+      "redirect_url": "https://docs.microsoft.com/power-platform/admin/government-feature-availability",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/admin/government/microsoft-dynamics-365-government.md",
-      "redirect_url": "https://docs.microsoft.com/power-platform/admin/powerapps-us-government",
+      "redirect_url": "https://docs.microsoft.com/power-platform/admin/microsoft-dynamics-365-government",
       "redirect_document_id": "false"
     },
     {
