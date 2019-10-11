@@ -30,7 +30,7 @@ Here is the chat invitation message that is sent.
 Hi! Just checking in to see if I can help answer any questions you may have. 
 ```
 
-Amy can accept the chat offer and continue a conversation with the bot to sort out her issue 
+Amy can accept the chat offer and have a conversation with the bot to sort out her issue. 
 
 #### Sample code
 
@@ -52,3 +52,9 @@ Amy can accept the chat offer and continue a conversation with the bot to sort o
 });    
 </script>
 ```
+
+If the bot fails to address the issue, it can escalate the conversation to a human agent.
+
+### Scenario 2
+
+Thomas is browsing through the Microsoft Surface community webpage. He is looking for answers of his question on Microsoft Surface device. He has browsed through multiple pages but is not able to find the answers he is looking for.

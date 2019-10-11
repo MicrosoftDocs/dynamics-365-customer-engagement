@@ -182,7 +182,7 @@
 #### [Pass customer journey as context](developer/how-to/pass-customer-journey-context.md)
 #### [Send authentication token](developer/how-to/send-auth-token-starting-chat.md)
 #### [Initiate a chat](developer/how-to/initiate-chat-wait-time.md)
-#### [Start chat proactively](developer/how-to/start-chat-proactively.md)
+#### [Start chat proactively](developer/how-to/start-proactive-chat.md)
 #### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
 #### [Auto-close a conversation](developer/auto-close-conversation.md)
 ### [Smart assist for Bots](developer/smart-assist-bot.md)
