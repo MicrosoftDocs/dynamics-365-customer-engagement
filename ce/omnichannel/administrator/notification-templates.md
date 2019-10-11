@@ -50,16 +50,16 @@ Omnichannel system supports the following slugs.
 
 | Slug | Description |
 |------------|-----------------------------------|
-| customerName | Name of the customer who initiated the conversation. |
-| caseId | Unique Id of a case. The system displays the case Id only if a cased linked to the conversation. |
-| caseTitle | Title of the case. The system displays the title of the case only if a cased linked to the conversation. |
-| queueId | Unique Id of a queue. |
-| visitorLocale | The language of the customer who initiated the conversation. |
-| visitorDevice | The device of the customer who initiated the conversation. |
-| entityRoutingLogicalName | Name of the entity if the notification is for a entity records. |
-| entityRoutingRecordId | Unique Id of the entity record if the notification is for a entity records. To learn more, see [Entity records routing](entity-channel.md). |
-| customerEntityName | Name of the entity (contact or account entity) if the customer is authenticated. |
-| customerRecordId | Unique Id of t.he entity (contact or account entity) if the customer is authenticated. |
+| {customerName} | Name of the customer who initiated the conversation. |
+| {caseId} | Unique Id of a case. The system displays the case Id only if a cased linked to the conversation. |
+| {caseTitle} | Title of the case. The system displays the title of the case only if a cased linked to the conversation. |
+| {queueId} | Unique Id of a queue. |
+| {visitorLocale} | The language of the customer who initiated the conversation. |
+| {visitorDevice} | The device of the customer who initiated the conversation. |
+| {entityRoutingLogicalName} | Name of the entity if the notification is for a entity records. |
+| {entityRoutingRecordId} | Unique Id of the entity record if the notification is for a entity records. To learn more, see [Entity records routing](entity-channel.md). |
+| {customerEntityName} | Name of the entity (contact or account entity) if the customer is authenticated. |
+| {customerRecordId} | Unique Id of t.he entity (contact or account entity) if the customer is authenticated. |
 |\<name of the pre-chat survey questions\> | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
 
 ## Create a notification template
