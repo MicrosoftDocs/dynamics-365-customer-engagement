@@ -23,9 +23,6 @@ search.app:
 ---
 # Install and set up the Dynamics 365 app for Teams 
 
-<a name="bkmk_enable"></a> 
-## For Common Data Service admins: enable Microsoft Teams integration feature 
-
 By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To turn these features on, follow the steps below. To learn more about what the difference, see [Difference between the Basic and Enhanced Collaboration Experience with Teams](teams-basic-vs-enhanced-collaboration.md).
 
    > [!div class="mx-imgBorder"] 
@@ -36,6 +33,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To t
    > - When the feature is enabled, the collaboration feature is [enabled only for a selected set of system entities](teams-work-records-and-view.md#record-types-supporting-collaborate). If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md).
    > - If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](teams-troubleshoot.md#troubleshoot-configuration-issues-with-teams-integration).
 
+## For Common Data Service admins: enable Microsoft Teams integration feature 
 
 1. Sign in as a System administrator to Common Data Service.
 2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
