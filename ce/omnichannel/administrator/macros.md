@@ -65,15 +65,7 @@ The context data parameters are available from the following:
 
 #### Context data from the channel provider 
 
-This context data is with the first-party channel providers, Omnichannel for Customer Service that uses the widget exposed by Channel Integration Framework. The context data from the Omnichannel for Customer Service app are pre-chat survey, visitor portal navigation, and so on. 
-
-The parameter format is `{ChannelProvider.<Attribute>}`, where `ChannelProvider` is a standard construct to get the value from the context of the provider of the current session. 
-
-For example: 
-
-`{ChannelProvider.Product}`
-
-`{Product}` 
+This context data is with the first-party channel providers, Omnichannel for Customer Service that uses the widget exposed by Channel Integration Framework. The context data from the Omnichannel for Customer Service app are pre-chat survey, visitor portal navigation, and so on.
 
 #### Context data from the user actions 
 
@@ -193,11 +185,39 @@ As an administrator, you need to pass the context data values for the parameters
 - [OData queries](#odata-queries)
 - [Static values](satitc-values)
 
-### Automation context
+### Slug for parameter values
 
-### OData queries
+Slug is the replacement parameter that macros populates at the run time based on the context variables.
 
-### Static values
+Supported list of slugs are:
+
+| Slug | Description |
+|------------|-----------------------------------|
+| {customerName} | Name of the customer who initiated the conversation. |
+| {caseId} | Unique Id of a case. The system displays the case Id only if a cased linked to the conversation. |
+| {caseTitle} | Title of the case. The system displays the title of the case only if a cased linked to the conversation. |
+| {queueId} | Unique Id of a queue. |
+| {visitorLocale} | The language of the customer who initiated the conversation. |
+| {visitorDevice} | The device of the customer who initiated the conversation. |
+| {entityRoutingLogicalName} | Name of the entity if the notification is for a entity records. |
+| {entityRoutingRecordId} | Unique Id of the entity record if the notification is for a entity records. To learn more, see [Entity records routing](entity-channel.md). |
+| {customerEntityName} | Name of the entity (contact or account entity) if the customer is authenticated. |
+| {customerRecordId} | Unique Id of the entity (contact or account entity) if the customer is authenticated. |
+|{\<name of the pre-chat survey questions\>} | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
+
+The parameter format is `{ChannelProvider.<Attribute>}`, where `ChannelProvider` is a standard construct to get the value from the context of the provider of the current session. 
+
+For example: 
+
+   `{ChannelProvider.caseId}`
+
+or
+
+   `{caseId}` 
+
+### OData queries for parameter values
+
+### Static values for the parameter values
 
 ## Create macro
 
