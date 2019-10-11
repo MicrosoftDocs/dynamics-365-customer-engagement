@@ -92,12 +92,6 @@ Below are steps for option 2:
 - Now publish your new child project and begin testing 
 
 
-
-## Prerequisites
-> [!Note]
->
-
-
 ## Configuration considerations
 - if you made changes to an entity form, then it will show as 
 
@@ -105,5 +99,8 @@ Below are steps for option 2:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-upgrade-overridden.png)
 
-## Additional Notes
-- Please send us your project if you do not have the original project of ours and I will have our team take a look and try to determine which project of ours you started customizing. 
+### See also
+
+- [Version history](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#mobile-project-file-library)
+- [Set up Field Service Mobile](https://docs.microsoft.com/en-us/dynamics365/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet)
+- [Common Field Service Mobile customizations](./mobile-app-configuration-customization.md)
