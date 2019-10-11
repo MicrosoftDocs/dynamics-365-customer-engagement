@@ -65,7 +65,7 @@ The context data parameters are available from the following:
 
 #### Context data from the channel provider 
 
-This context data is with the channel providers who uses the widget exposed by Channel Integration Framework, such as Omnichannel for Customer Service. The context data from the channel provider are pre-chat survey, visitor journey history, and so on. 
+This context data is with the first-party channel providers, Omnichannel for Customer Service that uses the widget exposed by Channel Integration Framework. The context data from the Omnichannel for Customer Service app are pre-chat survey, visitor portal navigation, and so on. 
 
 The parameter format is `{ChannelProvider.<Attribute>}`, where `ChannelProvider` is a standard construct to get the value from the context of the provider of the current session. 
 
@@ -97,9 +97,7 @@ The context data parameter from the first macro step are as follows:
 
 #### Context data from Common Data Service 
 
-The organizational data is stored in Common Data Service and that can also be fetched as a part of macros.  
-
-The context is fetched with the use of ODATA queries.
+The organizational data is stored in Common Data Service, and you can fetch the data as a part of macros. The context is fetched with the use of OData queries.
 
 ## Built-in macros
 
