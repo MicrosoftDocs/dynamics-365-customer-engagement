@@ -65,6 +65,18 @@ The `isDisplayable` attribute, if set to `true` will display the passed items wi
 
 ![Display context keys](../../../media/context-variable-display.png "Display context keys")
 
+<a name="bkmk_navigationhistory"></a>
+
+### Pass customer's portal navigation history as context
+
+You can pass a customer's portal navigation history as context at the start of a conversation with that customer.
+
+Given below is the sample code that shows how to use `setContextProvider` method for this.
+
+```javascript
+
+```
+
 ## Error codes
 
 The following error codes can occur with this method.
