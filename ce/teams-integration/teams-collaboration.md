@@ -43,7 +43,7 @@ From a team channel, you can connect a model-driven app record or view to collab
 
 3. Select **Entity Selection** or **View Selection**.
 
- - **Entity Selection**
+  - **Entity Selection**
      1. Search for an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type.
 
         > [!div class="mx-imgBorder"] 
