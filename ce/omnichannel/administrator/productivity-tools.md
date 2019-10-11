@@ -63,6 +63,32 @@ Agent scripts provide guidance to agents about what they should to doing when th
 
 Smart assist provides suggestions to agents on what is the next-best course of action they need to take based on the real-time context of the customer interaction. The suggestions are intelligent and helps the  agents to be more productive with knowledge articles, similar cases, and much more. The smart assist is available across all the channels supported by Omnichannel making it a consistent and intelligence experience for agents.
 
+## Set up Dynamics 365 Productivity Tools
+
+To set up the Dynamics 365 Productivity Tools, follow the steps. 
+
+### Prerequisites 
+- Identify the Common Data Service instance to which you want to deploy Dynamics 35 Productivity Tools. Sign in to Common Data Service platform > **Settings** > **Customizations** and then select **Developer resources**. To learn more, see [Developer resources page](https://docs.microsoft.com/powerapps/developer/common-data-service/view-download-developer-resources).
+
+- You need to have the latest version of the Omnichannel for Customer Service app. Get the trail version from [Dynamics 365 Trails](https://trials.dynamics.com/).
+
+- You need global administrator permissions in Office 365 to download and install the Dynamics 365 Productivity Tools (solution).
+
+- Dynamics 365 Productivity Tools works only with the Omnichannel for Customer Service app. Hence, you must deploy Chat for Dynamics 365 Customer Service in your environment. For more information, see [Try Chat for Dynamics 365 Customer Service](../try-chat-for-dynamics365.md). 
+
+
+### Install Dynamics 365 Productivity Tools package 
+
+1. Go to Microsoft AppSource. The Dynamics 365 Productivity Tools page appears. 
+2. Select **GET IT NOW**. 
+3. In the **‘One more thing…’** window, select **Continue**. 
+4. Read and select the checkbox to agree for the following: 
+    - Microsoft’s Legal Terms and Privacy Statement. 
+    - Privacy Statement and Legal Terms for importing the solution into Dynamics 365. 
+5. Select **Agree**. The Dynamics 365 Productivity tools application (solution) import starts in the background. 
+
+After the installation is successful, you can view the Productivity Tools such as Macros, Agent Scripts, and Smart Assist in the sitemap of the Omnichannel Administrator app.
+
 ## See also
 
 [Macros](macros.md)
