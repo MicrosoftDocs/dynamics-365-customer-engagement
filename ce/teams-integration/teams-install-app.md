@@ -32,7 +32,9 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To t
    > ![Settings page](media/teams-system-settings.png "Settings page")
 
    > [!NOTE]
-   > If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](teams-troubleshoot.md#troubleshoot-configuration-issues-with-teams-integration).
+   > - If not enabled, users can still connect Dynamics 365 apps records to Microsoft Teams but the connected Microsoft Teams channel and the file library do not appear in Dynamics 365 apps.
+   > - When the feature is enabled, the collaboration feature is [enabled only for a selected set of system entities](teams-work-records-and-view.md#record-types-supporting-collaborate). If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md).
+   > - If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](teams-troubleshoot.md#troubleshoot-configuration-issues-with-teams-integration).
 
 
 1. Sign in as a System administrator to Dynamics 365 apps.
@@ -57,14 +59,10 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To t
         > ![Select consent checkbox](media/consent.png "Select consent checkbox")
         
         
-5. After the second consent is accepted select, **Finish** and then on the **System Settings** screen select, **OK**.
+5. After the second consent is accepted select, **Finish** and then on the **System Settings** screen select, **OK**. If you don't select **OK** on the **System Settings** screen then your changes are lost. 
 
     > [!div class="mx-imgBorder"] 
     > ![Finish setup](media/finish-setup.png "Finish setup")
-
-   > [!IMPORTANT]
-   > - If not enabled, users can still connect Dynamics 365 apps records to Microsoft Teams but the connected Microsoft Teams channel and the file library do not appear in Dynamics 365 apps.
-   > - > When the feature is enabled, the collaboration feature is [enabled only for a selected set of system entities](teams-work-records-and-view.md#record-types-supporting-collaborate). If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md).
    
 
 ## Install the app and set up the Teams tab
