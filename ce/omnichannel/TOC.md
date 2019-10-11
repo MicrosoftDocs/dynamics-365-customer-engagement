@@ -74,7 +74,7 @@
 #### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
-#### [Enable visitor portal navigation](administrator/portal-navigation.md)
+#### [Enable portal navigation](administrator/portal-navigation.md)
 
 ### Templates
 #### [Overview](administrator/templates-overview.md)
