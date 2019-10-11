@@ -32,12 +32,12 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To t
    > ![Settings page](media/teams-system-settings.png "Settings page")
 
    > [!NOTE]
-   > - If not enabled, users can still connect Dynamics 365 apps records to Microsoft Teams but the connected Microsoft Teams channel and the file library do not appear in Dynamics 365 apps.
+   > - If Microsoft Teams integration is not enabled on the **System Settings** page in Common Data Service, Microsoft Teams users can still connect to model-driven apps in Dynamics 365 record or view to Microsoft Teams collaboration channel, but the connected Microsoft Teams channel and the file library do not appear in model-driven apps in Dynamics 365.
    > - When the feature is enabled, the collaboration feature is [enabled only for a selected set of system entities](teams-work-records-and-view.md#record-types-supporting-collaborate). If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md).
    > - If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](teams-troubleshoot.md#troubleshoot-configuration-issues-with-teams-integration).
 
 
-1. Sign in as a System administrator to Dynamics 365 apps.
+1. Sign in as a System administrator to Common Data Service.
 2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
 3. To enable [basic collaboration experience](teams-collaboration.md), select **Yes** for **Enable Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in Dynamics 365 apps so you can see the connected team channel. In addition, in the **Documents** tab of Dynamics 365 record page, the connected Teams Channel file library will appear. This lets you set-up a connection in the Teams app.
    > [!NOTE]
@@ -65,7 +65,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To t
     > ![Finish setup](media/finish-setup.png "Finish setup")
    
 
-## Install the app and set up the Teams tab
+## Install the app and set up the Teams tab in Microsoft Teams
 
 1. In Microsoft Teams, select **Store**. 
 
