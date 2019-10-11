@@ -36,16 +36,28 @@ This action will apply to entities which have Routing Rule set to active.
 
 ## Example
 
-Given below is the example to use `msdyn_ApplyRoutingRuleEntityRecord` action using the Web API.
+The example given below shows how you can create a Web API request to call `msdyn_ApplyRoutingRuleEntityRecord` action.
 
 **Request**
 
 ```http
+POST [Organization URI]/api/data/v9.1/msdyn_ApplyRoutingRuleEntityRecord
+Accept: application/json
+Content-Type: application/json; charset=utf-8
+OData-MaxVersion: 4.0
+OData-Version: 4.0
 
+{
+    "Target":"incidents(<incidentid>)"
+}
 ```
 
 **Response**
 
 ```http
-
+HTTP 204 No Content
 ```
+
+### See also
+
+[Developer guide for Omnichannel for Customer Service](../,,/omnichannel-developer.md)
