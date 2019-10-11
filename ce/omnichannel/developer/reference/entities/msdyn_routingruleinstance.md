@@ -20,9 +20,9 @@ manager: "shujoshi"
 
 **Added by**: Routing Rule Extension Solution
 
-Entity set path: `[Organization URI]/api/data/v9.1/msdyn_routingruleinstances`
-Display name: Routing Rule Instance
-Primary entity: msdyn_routingruleinstanceid
+**Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_routingruleinstances`<br />
+**Display name**: Routing Rule Instance<br />
+**Primary entity**: msdyn_routingruleinstanceid
 
 ### See also
 
