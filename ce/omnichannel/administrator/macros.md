@@ -48,11 +48,11 @@ Macros helps address these challenges aiding users to perform day-to-day operati
 
 ## Pass macro context data parameters
 
-Macros are a set of configured actions that are executed on-demand by user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to provide certain data parameters. When the agent run the macro, these data parameters are replaced by the contextual values.
+Macros are a set of configured actions that are executed on-demand by user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to provide certain data parameters. When the agent runs the macro, these data parameters are replaced by the contextual values.
 
 For example, to create a case, you need to tell the macro to open an incident entity form and GUID of the form (optional).
 
-To learn more, see [Types context data parameters](#types-context-data-parameters)
+To learn more, see [Types context data parameters](#types-context-data-parameters).
 
 ### Types context data parameters
 
@@ -69,7 +69,7 @@ This context data is with the first-party channel providers, Omnichannel for Cus
 
 #### Context data from the user actions 
 
-This data is populated as and when agents perform some activities on the session. An example is opening a new customer record, case etc. 
+This data is populated as and when agents perform some activities on the session. An example is opening a new customer record, case etc. The marco is executed based on the context for a current session with an Anchor tab or current tab in focus.
 
 #### Context data from other macro actions 
 
