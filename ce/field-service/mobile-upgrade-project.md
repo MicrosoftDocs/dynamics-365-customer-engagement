@@ -61,10 +61,16 @@ You have 2 options:
 1. Import the new project template from Microsoft, derive the template, and manually recreate your customizations in the derived child
 2. Use GitHub to understand the difference between the new project template and your customized project template and copy and paste the changes. 
 
-Here are the steps you can follow to perform a field service mobile project version 9 to version 11+ upgrade. Note, in the first step, it is important to determine which version of our project you started customizing and you need that original file. If you and your team does not have this, please send MS support your project file and they we will attempt to determine and provide you the original project file. This is needed to generate the Git Diff between our original and your customized project. 
+Below are steps for option 2:
 
-- Determine which project you started customizing. 
-- Once you have the project determined, download your project on your desktop along with our original project that you started customizing (we will get you this if you don’t have it).
+- Determine which Microsoft project template you customized. View the [version history](/version-history.md) to find and download if you do not have the template.
+- Once you have the project determined, download your project on your desktop along with our original project that you started customizing. Simply select and highlight your project and choose Export.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-upgrade-project-export.png)
+
+
 - Download Github Desktop. 
 - Open Github Desktop and initialize a repo in a folder of your choosing. 
 - Rename the .Woodford files for your project and ours to .zip. Extract it and drag OUR Woodford project files from the extraction into the folder where you initialized the Git repo. 
@@ -78,7 +84,7 @@ Here are the steps you can follow to perform a field service mobile project vers
 - Go into Woodford and highlight the New derived child project that was exported a few steps ago. Click the Import button and upload your NEW child project that contains the diff customizations. When prompted to ‘Overwrite’ the derived child project, click yes.
 - Now publish your new child project and being testing 
 
-
+Here are the steps you can follow to perform a field service mobile project version 9 to version 11+ upgrade. Note, in the first step, it is important to determine which version of our project you started customizing and you need that original file. If you and your team does not have this, please send MS support your project file and they we will attempt to determine and provide you the original project file. This is needed to generate the Git Diff between our original and your customized project. 
 
 ## Prerequisites
 > [!Note]
