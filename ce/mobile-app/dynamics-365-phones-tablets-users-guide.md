@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 09/4/2019
+ms.date: 10/4/2019
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -158,7 +158,7 @@ password. If you need help with your sign-in information, contact your Dynamics 
 
   > [!div class="mx-imgBorder"] 
   > ![Dynamics 365 for phones and tablets sign out screen](media/SignOut.png "Dynamics 365 for phones and tablets sign out screen")
-
+      
 
 ## Navigation
 
@@ -387,4 +387,4 @@ The assistant draws your attention to your most important items and tasks, drawn
  [What's supported](support-phones-tablets.md) </br>
  [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)<br/>
  [Common Data Service Help](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br/>
- [Dynamics 365 Customer Engagement (on-premises) Help](../customer-engagement/on-premises/overview.md)
+ [Microsoft Dynamics 365 Customer Engagement (on-premises) Help](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/overview)

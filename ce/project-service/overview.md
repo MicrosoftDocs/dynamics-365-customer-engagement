@@ -1,12 +1,12 @@
 ---
-title: What is Dynamics 365 Project Service Automation (PSA)?
+title: What is Dynamics 365 Project Service Automation?
 description: Introduction and overview of Project Service
 author: stsporen
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 7/09/2019
+ms.date: 9/23/2019
 ms.topic: article
 ms.prod:
 ms.technology:
@@ -20,7 +20,7 @@ search.app:
   - D365CE
   - D365PS
 ---
-# What is Dynamics 365 Project Service Automation (PSA)?
+# What is Dynamics 365 Project Service Automation?
 
 [!INCLUDE[cc-applies-to-psa-apps-all](../includes/cc-applies-to-psa-apps-all.md)]
 
@@ -37,6 +37,14 @@ The Project Service Automation (PSA) application helps organizations efficiently
 
 In addition, to help you monitor and control costs for your project-based work, individual consultants
 easily enter and track project time and expenses either on mobile or using a web browser.
+
+## What's new in PSA
+The team is excited to announce our newest updates! Ranging from improvements to the user interface, all the way to more powerful search queries for resource scheduling, and more. You asked; we listened.
+
+Take a look at the [April '19 Release Notes](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/index) to see our newest enhancements and additions.
+
+### In development
+To see what we have planned in the near future, head over to the [Dynamics 365: 2019 release wave 2 plan](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/index).
 
 ## Get help with PSA version 3.x
 Looking for resources to help plan your implementation? Check out these downloadable guides.

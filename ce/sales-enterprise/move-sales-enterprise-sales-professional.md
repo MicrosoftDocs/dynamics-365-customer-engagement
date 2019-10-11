@@ -53,7 +53,7 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 3.	Select **Replace existing product license assignments**, and then select **Next**. 
 
-4.	Turn on the license for your Dynamics 365 plan. 
+4.	Turn on the license for your Dynamics 365 Sales plan. 
 
 5.	Select **Replace**, and then select **Close** twice. 
 
@@ -96,4 +96,6 @@ After you complete these steps, your organization will be effectively moved to [
 > As per contractual agreement, you can't mix and match Enterprise and Professional users on the same instance. If you plan to keep Professional licenses, make sure you abide by the contractual requirements. More information: [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544)
 
 
+### See also
 
+[Dynamics 365 Licensing Update](https://docs.microsoft.com/en-us/dynamics365/licensing/update)

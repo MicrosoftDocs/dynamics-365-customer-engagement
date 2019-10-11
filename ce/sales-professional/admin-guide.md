@@ -1,9 +1,10 @@
 ---
-title: "Administrator & Sales Manager guide (Dynamics 365 Sales Professional) | MicrosoftDocs"
+title: "Help resources for administrator & sales managers (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "A starting point for browsing admin and sales manager content for Dynamics 365 Sales."
 keywords: "Sales Professional, Sales, Index, sales manager, admin, administrator"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
+ms.service:
+  - "dynamics-365-sales"
 ms.topic: get-started-article
 ms.assetid: 6c5a3ad7-487b-4231-b47e-74b884e6bf46
 author: shubhadaj
@@ -11,7 +12,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Administrator and Sales Manager guide (Sales Professional)
+# Help resources for admins and sales managers (Sales Professional)
 
 
 > [!IMPORTANT]
@@ -45,7 +46,7 @@ manager: annbe
 <tr><td>
 <h2>Advanced settings</h2>
 <ul>
-<li><a href="change-color-scheme-logo.md" data-raw-source=" [Set up branding and thmeing](change-color-scheme-logo.md)">Set up branding and thmeing</a></li>
+<li><a href="change-color-scheme-logo.md" data-raw-source=" [Set up branding and theming](change-color-scheme-logo.md)">Set up branding and theming</a></li>
 <li><a href="manage-teams.md" data-raw-source=" [Manage teams](manage-teams.md)">Manage teams</a></li>
 <li><a href="manage-excel-templates.md" data-raw-source=" [Manage Excel templates](manage-excel-templates.md)">Manage Excel templates</a></li>
 <li><a href="manage-word-templates.md" data-raw-source=" [Manage Word templates](manage-word-templates.md)">Manage Word templates</a></li>
