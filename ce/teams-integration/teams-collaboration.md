@@ -53,7 +53,7 @@ From a team channel, you can connect a model-driven app record or view to collab
         > [!NOTE] 
         > The Enhanced Collaboration Experience needs to be enabled to add members to the team. For more information, see [Install and set up the Dynamics 365 app for Teams ](teams-install-app.md).
      
-         Once you complete the above steps, you'll see a notification of a successful connection and the model-driven app record will load in the new added tab. You can interact with the record as if you were using the your app. Those with Write permissions can edit the record. Changes will be synchronized with the model-driven app in Dynamics 365.
+     Once you complete the above steps, you'll see a notification of a successful connection and the model-driven app record will load in the new added tab. You can interact with the record as if you were using the your app. Those with Write permissions can edit the record. Changes will be synchronized with the model-driven app in Dynamics 365.
 
       > [!div class="mx-imgBorder"] 
       > ![Record successfully connected and pinned](media/teams-pinned-record.png "Record successfully connected and pinned")
