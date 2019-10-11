@@ -36,7 +36,7 @@ This action will apply to entities which have Routing Rule set to active.
 
 ## Example
 
-The example given below shows how you can create a Web API request to call `msdyn_ApplyRoutingRuleEntityRecord` action.
+The example given below shows how you can create a Web API request to call `msdyn_ApplyRoutingRuleEntityRecord` action for `Incident` entity.
 
 **Request**
 
