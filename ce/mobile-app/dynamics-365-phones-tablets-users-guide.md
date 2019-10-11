@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 10/4/2019
+ms.date: 10/11/2019
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -79,8 +79,7 @@ You can also sign in using your web address for the Dynamics 365 app and user na
 
   > [!div class="mx-imgBorder"] 
   > ![Sign out](media/previewsignout.png "Sign out")
-      
-
+  
 ## Navigation
 
 For phones, portrait mode is set as the default screen orientation. For tablets, landscape mode is set as the default. Screen orientation for phone and tablet apps cannot be changed. 

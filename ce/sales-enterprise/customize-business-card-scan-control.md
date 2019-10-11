@@ -62,3 +62,4 @@ To edit the mappings:
 ### See also
 
 [Scan business cards](scan-business-cards.md)  
+[Use the business card reader in model-driven apps](/ai-builder/business-card-reader-component-model-driven)
