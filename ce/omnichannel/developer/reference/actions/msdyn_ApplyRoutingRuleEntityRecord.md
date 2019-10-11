@@ -33,3 +33,19 @@ This action has no return value.
 ## Entities
 
 This action will apply to entities which have Routing Rule set to active.
+
+## Example
+
+Given below is the example to use `msdyn_ApplyRoutingRuleEntityRecord` action using the Web API.
+
+**Request**
+
+```http
+
+```
+
+**Response**
+
+```http
+
+```
