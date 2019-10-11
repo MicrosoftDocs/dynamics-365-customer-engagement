@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 09/4/2019
+ms.date: 10/4/2019
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -158,7 +158,7 @@ password. If you need help with your sign-in information, contact your Dynamics 
 
   > [!div class="mx-imgBorder"] 
   > ![Dynamics 365 for phones and tablets sign out screen](media/SignOut.png "Dynamics 365 for phones and tablets sign out screen")
-
+      
 
 ## Navigation
 
