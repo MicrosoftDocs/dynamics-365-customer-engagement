@@ -205,19 +205,53 @@ Supported list of slugs are:
 | {customerRecordId} | Unique Id of the entity (contact or account entity) if the customer is authenticated. |
 |{\<name of the pre-chat survey questions\>} | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
 
-The parameter format is `{ChannelProvider.<Attribute>}`, where `ChannelProvider` is a standard construct to get the value from the context of the provider of the current session. 
 
-For example: 
+#### Format
+
+There are two types of parameter format:
+
+- The `{ChannelProvider.<Slug>}` or `{Slug}` parameter format is used to retrieve the context from the channel provider, where `ChannelProvider` is a standard construct to get the value from the context of the provider of the current session. 
+
+   For example: 
 
    `{ChannelProvider.caseId}`
 
-or
+   or
 
    `{caseId}` 
+
+- The `Session.CurrentTab.<Attribute>` and `Session.AnchorTab.<Attribute>` parameter provides context data based on the current session and the anchor tab or the current tab in focus.
+
+   The following are the supported attribute types:
+
+- EntityName
+- EntityId
+
+   For example: 
+
+   `Session.CurrentTab.<EntityName>`
+
+   `Session.CurrentTab.<EntityId>`
+
+   `Session.AnchorTab.<EntityName>`
+
+   `Session.AnchorTab.<EntityId>` 
 
 ### OData queries for parameter values
 
 ### Static values for the parameter values
+
+These are hardcoded values that you update as your business requirement. For every hardcoded attribute you chose, follow the format type for the particular attribute.
+
+For example:
+
+You want to create a case with the case title being always appended with **Contoso -**. In this case, you use the create **Open a new form to create a record** action with following fields.
+
+   | Parameter | Value |
+   |----------------------|----------------------------|
+   | Entity Logical Name | incident | 
+   | Attribute Name | Case title |
+   | Attribute value | `Contoso - {caseTitle}` |
 
 ## Create macro
 
