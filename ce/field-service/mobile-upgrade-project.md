@@ -63,17 +63,22 @@ You have 2 options:
 
 Below are steps for option 2:
 
-- Determine which Microsoft project template you customized. View the [version history](/version-history.md) to find and download if you do not have the template.
-- Once you have the project determined, download your project on your desktop along with our original project that you started customizing. Simply select and highlight your project and choose Export.
+- Determine which Microsoft project template you customized. View the [version history](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#mobile-project-file-library) to find and download if you do not have the template.
+- Once you have the project determined, download your customized project on your desktop along with the original Microsoft project that you started customizing. Simply select and highlight your project and choose Export.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-upgrade-project-export.png)
 
-
 - Download Github Desktop. 
 - Open Github Desktop and initialize a repo in a folder of your choosing. 
-- Rename the .Woodford files for your project and ours to .zip. Extract it and drag OUR Woodford project files from the extraction into the folder where you initialized the Git repo. 
+- Rename the .Woodford files for your project and ours to .zip. Extract it and drag the Microsoft project files from the extraction into the folder where you initialized the Git repo. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-upgrade-extract.png)
+
+
 - Commit this to the master branch in Github desktop. 
 - Create a new branch in Github Desktop and call it “customizations.” 
 - Now drag the extracted files from YOUR Woodford project files into same folder where you initialized the Git repo and placed the files before. 
