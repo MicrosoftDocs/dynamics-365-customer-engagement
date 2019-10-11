@@ -57,7 +57,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To t
         > ![Select consent checkbox](media/consent.png "Select consent checkbox")
         
         
-5. After the second consent is accepted select, **Finish** and then on the **System Settings** screen select, **OK**. If you don't select **OK** on the **System Settings** screen then your changes are lost. 
+5. After the second consent is accepted select, **Finish** and then select **OK** on the **System Settings** screen. If you don't select **OK** on the **System Settings** screen then you will lose your changes. 
 
     > [!div class="mx-imgBorder"] 
     > ![Finish setup](media/finish-setup.png "Finish setup")
