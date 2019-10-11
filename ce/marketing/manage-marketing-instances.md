@@ -36,10 +36,11 @@ Dynamics 365 Marketing is composed of several components that you must be aware 
 
 - **Dynamics 365 instance**. This provides the basic platform for the Marketing app and includes both a _platform server_ and an _organizational database_. This database is also shared by the Marketing app, which reads and stores much of its data here.
 - **Dynamics 365 Marketing application**. This is a collection of solutions that are installed on the platform server and add marketing features to Dynamics 365. It's installed on the platform server to add marketing features to Dynamics 365. It's also referred to as the _Marketing app_.
-- **Marketing services**. This is a collection of services that the Marketing app interacts with . They run in parallel with your Dynamics 365 instance. Among other things, live customer journeys and marketing email messages run on marketing services.
-- **marketing-insights service**. This provides big-data services such as resolving segment queries, storing interaction data, and providing analytics based on this data. The marketing-insights service is just one of the marketing services already mentioned, but it's worth calling out separately because it comes up often.
+- **Marketing services**. This is a collection of services that the Marketing app interacts with. They run in parallel with your Dynamics 365 instance. Among other things, live customer journeys and marketing email messages run on marketing services.
+- **Marketing-insights service**. This provides big-data services such as resolving segment queries, storing interaction data, and providing analytics based on this data. The marketing-insights service is just one of the marketing services already mentioned, but it's worth calling out separately because it comes up often.
 
-Marketing services run in parallel with your Dynamics 365 Marketing instance, and thus follow their own lifecycle. These services aren't directly accessible to users, so when copying or restoring and organization database, you must consider the impact on these connected services.
+> [!IMPORTANT]
+> Marketing services (including the marketing-insights service) run in parallel with your Dynamics 365 Marketing instance, and thus follow their own lifecycle. These services aren't directly accessible to users, and the data they contain isn't included when copying, backing up, or restoring a Marketing instance.
 
 <a name="copy-to-sandbox"></a>
 
