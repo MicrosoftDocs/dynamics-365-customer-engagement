@@ -15,9 +15,9 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-In a conversation with a customer, it is important that the agent does not point the customer to a page or link that the customer has already visited. Omnichannel for Customer Service provides you the capability to track a customer's navigation across your website and pass that as context in a conversation with that customer.
+In a conversation with a customer, it is important that the agent does not point the customer to a page or link that the customer has already visited. Omnichannel for Customer Service provides you the capability to track a customer's actions across your website and pass that as context in a conversation with that customer.
 
-Use the [setContextProvider](../reference/methods/setContextProvider.md) method to pass user navigation history as context in the conversation.
+Use the [setContextProvider](../reference/methods/setContextProvider.md) method to pass customer's portal navigation history as context in the conversation.
 
 ## Sample code
 
