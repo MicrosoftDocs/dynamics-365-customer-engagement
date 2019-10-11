@@ -45,6 +45,8 @@ If you have a new field service environment and want to set up the mobile app si
 
 In other scenarios, you may have been using and customizing a field service mobile project template, and Microsoft has released a new template. In this scenario, you want to use the new template while keeping your customizations.
 
+This applies to customers who were using the project for Field Service Mobile version 9 and want to upgrade to version 11+ which has a new project template. 
+
 Here is an example:
 
 1. You imported a field service mobile project template from Microsoft and published it
@@ -81,15 +83,15 @@ Below are steps for option 2:
 
 - Commit this to the master branch in Github desktop. 
 - Create a new branch in Github Desktop and call it “customizations.” 
-- Now drag the extracted files from YOUR Woodford project files into same folder where you initialized the Git repo and placed the files before. 
-- Now open Github desktop, click refresh, and ensure you are on the “customizations” branch. You should then see the diff of YOUR project compared to OUR project. 
-- Now in Woodford import the latest Field Service Mobile project(download from https://aka.ms/fsmobile-project). Create a child project off of our project by clicking Derive in Woordford. Export the derived child project, rename the downloaded project extension from .Woodford to .zip and extract it as above. 
+- Drag the extracted files from YOUR customized project files into same folder where you initialized the Git repo and placed the files before. 
+- Open Github desktop, click refresh, and ensure you are on the “customizations” branch. You should then see the diff of YOUR project compared to the Microsoft project. 
+- In the Mobile Configuration Tool (Woodford), [download](https://aka.ms/fsmobile-project) and import the latest Field Service Mobile project. Create a child project off of the Microsoft project by clicking **Derive** in Woordford. Export the derived child project, rename the downloaded project extension from .Woodford to .zip and extract it as above. 
 - For any files that are called out as being a diff from our original, you will need to copy those files/folders into the NEW derived child project.
 - Zip the NEW derived child project and rename the project extension from .zip to .woodford.
-- Go into Woodford and highlight the New derived child project that was exported a few steps ago. Click the Import button and upload your NEW child project that contains the diff customizations. When prompted to ‘Overwrite’ the derived child project, click yes.
-- Now publish your new child project and being testing 
+- Go into the Mobile Configuration Tool (Woodford) and highlight the New derived child project that was exported a few steps ago. Click the Import button and upload your NEW child project that contains the diff customizations. When prompted to ‘Overwrite’ the derived child project, click yes.
+- Now publish your new child project and begin testing 
 
-Here are the steps you can follow to perform a field service mobile project version 9 to version 11+ upgrade. Note, in the first step, it is important to determine which version of our project you started customizing and you need that original file. If you and your team does not have this, please send MS support your project file and they we will attempt to determine and provide you the original project file. This is needed to generate the Git Diff between our original and your customized project. 
+
 
 ## Prerequisites
 > [!Note]
