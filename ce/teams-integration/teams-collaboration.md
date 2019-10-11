@@ -83,11 +83,11 @@ A failed connection means the connection was not successfully saved. When seeing
       > ![My View in Teams](media/teams-select-view4.png "My View in Teams")
      
      
-   > [!NOTE]
-   > - If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Teams before you add the view to the Teams channel. Otherwise, other team members will not hae access to the view content.
+    > [!NOTE]
+    > - If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Teams before you add the view to the Teams channel. Otherwise, other team members will not hae access to the view content.
    
-   > [!div class="mx-imgBorder"] 
-   > ![Select from My View](media/teams-select-view3.png "Select from My View")
+    > [!div class="mx-imgBorder"] 
+    > ![Select from My View](media/teams-select-view3.png "Select from My View")
 
 4. If you have multiple environments or app modules, you can change the environment and app module by selecting **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which environment or app module to use in Microsoft Teams.
  
