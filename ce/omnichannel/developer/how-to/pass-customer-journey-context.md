@@ -1,5 +1,5 @@
 ---
-title: "Pass customer journey as context | Microsoft Docs"
+title: "Pass portal navigation history as context | Microsoft Docs"
 description: ""
 keywords: ""
 ms.date: 10/03/2019
@@ -11,7 +11,7 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
-# Pass customer journey as context
+# Pass portal navigation history as context
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
