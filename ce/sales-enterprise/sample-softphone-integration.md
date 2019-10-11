@@ -60,7 +60,6 @@ All details regarding the call such as duration, phone number, and notes are aut
 > [!div class="mx-imgBorder"]
 > ![Call summary added to phone call activity](media/phone-call-activity-details.png "Call summary added to phone call activity")
 
-
 ### See also
 
 [Get Dynamics 365 Channel Integration Framework](../customer-service/channel-integration-framework/get-channel-integration-framework.md)  
