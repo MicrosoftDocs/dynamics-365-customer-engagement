@@ -93,8 +93,7 @@ Below are steps for option 2:
 
 
 ## Configuration considerations
-- if you made changes to an entity form, then it will show as 
-
+If you make changes to a mobile entity, it will show as **Overridden**. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-upgrade-overridden.png)
