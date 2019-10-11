@@ -48,9 +48,18 @@ In other scenarios, you may have been using and customizing a field service mobi
 Here is an example:
 
 1. You imported a field service mobile project template from Microsoft and published it
-2. you derived that project and made customizations for your organization
+2. You derived that project and made customizations for your organization
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-upgrade-project-customizations.png)
+
+Now Microsoft has released a new mobile project template (Example: FSDyn_1.0.2735).
+
+You have 2 options:
+
+1. Import the new project template from Microsoft, derive the template, and manually recreate your customizations in the derived child
+2. Use GitHub to understand the difference between the new project template and your customized project template and copy and paste the changes. 
 
 Here are the steps you can follow to perform a field service mobile project version 9 to version 11+ upgrade. Note, in the first step, it is important to determine which version of our project you started customizing and you need that original file. If you and your team does not have this, please send MS support your project file and they we will attempt to determine and provide you the original project file. This is needed to generate the Git Diff between our original and your customized project. 
 
@@ -69,19 +78,19 @@ Here are the steps you can follow to perform a field service mobile project vers
 - Go into Woodford and highlight the New derived child project that was exported a few steps ago. Click the Import button and upload your NEW child project that contains the diff customizations. When prompted to ‘Overwrite’ the derived child project, click yes.
 - Now publish your new child project and being testing 
 
-1. do a diff and copy in changes
-2. do a diff and make changes in woodford
-3. view changes and make changes
 
 
 ## Prerequisites
 > [!Note]
 >
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
 
 ## Configuration considerations
 - if you made changes to an entity form, then it will show as 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-upgrade-overridden.png)
+
 ## Additional Notes
 - Please send us your project if you do not have the original project of ours and I will have our team take a look and try to determine which project of ours you started customizing. 
