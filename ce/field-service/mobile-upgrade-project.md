@@ -60,7 +60,7 @@ Now Microsoft has released a new mobile project template (Example: FSDyn_1.0.273
 
 You have 2 options:
 
-1. Import the new project template from Microsoft, derive the template, and manually recreate your customizations in the derived child
+1. Import the new project template from Microsoft, derive the template and create a child project, and manually recreate your customizations in the derived child
 2. Use GitHub to understand the difference between the new project template and your customized project template and copy and paste the changes. 
 
 Below are steps for option 2:
@@ -74,7 +74,7 @@ Below are steps for option 2:
 
 - Download Github Desktop. 
 - Open Github Desktop and initialize a repo in a folder of your choosing. 
-- Rename the .Woodford files for your project and ours to .zip. Extract it and drag the Microsoft project files from the extraction into the folder where you initialized the Git repo. 
+- Rename the .Woodford files of your customized project and Microsoft's tempalte to .zip. Extract it and drag the Microsoft project files from the extraction into the folder where you initialized the Git repo. 
 
 
 > [!div class="mx-imgBorder"]
@@ -85,10 +85,10 @@ Below are steps for option 2:
 - Create a new branch in Github Desktop and call it “customizations.” 
 - Drag the extracted files from YOUR customized project files into same folder where you initialized the Git repo and placed the files before. 
 - Open Github desktop, click refresh, and ensure you are on the “customizations” branch. You should then see the diff of YOUR project compared to the Microsoft project. 
-- In the Mobile Configuration Tool (Woodford), [download](https://aka.ms/fsmobile-project) and import the latest Field Service Mobile project. Create a child project off of the Microsoft project by clicking **Derive** in Woordford. Export the derived child project, rename the downloaded project extension from .Woodford to .zip and extract it as above. 
+- [Download](https://aka.ms/fsmobile-project) and import the latest Field Service Mobile project and then go to the Mobile Configuration Tool (Woodford). Create a child project off of the Microsoft project by clicking **Derive**. Export the derived child project, rename the downloaded project extension from .Woodford to .zip and extract it as above. 
 - For any files that are called out as being a diff from our original, you will need to copy those files/folders into the NEW derived child project.
 - Zip the NEW derived child project and rename the project extension from .zip to .woodford.
-- Go into the Mobile Configuration Tool (Woodford) and highlight the New derived child project that was exported a few steps ago. Click the Import button and upload your NEW child project that contains the diff customizations. When prompted to ‘Overwrite’ the derived child project, click yes.
+- Go into the Mobile Configuration Tool (Woodford) and highlight the New derived child project that was exported a few steps ago. Click the Import button and upload your NEW child project that contains the diff customizations. When prompted to **Overwrite** the derived child project, click **yes**.
 - Now publish your new child project and begin testing 
 
 
