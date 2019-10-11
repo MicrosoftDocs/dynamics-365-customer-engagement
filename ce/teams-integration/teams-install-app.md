@@ -31,7 +31,8 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To t
    > [!div class="mx-imgBorder"] 
    > ![Settings page](media/teams-system-settings.png "Settings page")
 
-If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](teams-troubleshoot.md#troubleshoot-configuration-issues-with-teams-integration).
+   > [!NOTE]
+   > If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](teams-troubleshoot.md#troubleshoot-configuration-issues-with-teams-integration).
 
 
 1. Sign in as a System administrator to Dynamics 365 apps.
@@ -48,12 +49,12 @@ If you run into any issues during configuration, see [Troubleshoot configuration
     1. When you select **Yes** to **Enable Enhanced Microsoft Teams Integration**, a consent pop-up dialog boxe will display. If you have a pop-up blocker and you don't see the consent dialong box, then you need to disable the pop-up blocker in your browser.
   
         > [!div class="mx-imgBorder"] 
-        > ![Disable pop-up blocker](media/teams-system-settings.png "Disable pop-up blocker")
+        > ![Disablie popup blocker ](media/popupblocker.png "Disable popup blocker")
 
     2. When you select the option to enable enhanced collaboration experience, there are two request permission dialog boxes that you will need to accept. On the second dialog box, select the checkbox for  **Consent on behalf of organization** and then select **Accept**. If you don't select check this option, then when another user tries to pin an entity record or view to Teams and shares the tab with another user, they will get this error message, **The admin has not consented to use user sync feature, you can add them manually**. If you see this error message, see [Error messages in the Teams app](https://docs.microsoft.com/dynamics365/customer-engagement/basics/teams-troubleshoot#error-messages-in-the-teams-app).
 
         > [!div class="mx-imgBorder"] 
-        > ![Disablie popup blocker ](media/popupblocker.png "Disable popup blocker")
+        > ![Select consent checkbox](media/consent.png "Select consent checkbox")
 
 
    > [!IMPORTANT]
