@@ -2,7 +2,7 @@
 title: "Install and set up the Dynamics 365 app for Teams| MicrosoftDocs"
 ms.custom: 
 description: "Install and set up the Dynamics 365 app for Teams."
-ms.date: 6/20/2019
+ms.date: 10/11/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,7 +24,7 @@ search.app:
 # Install and set up the Dynamics 365 app for Teams 
 
 <a name="bkmk_enable"></a> 
-## For Dynamics 365 admins: enable Microsoft Teams integration feature 
+## For Common Data Service admins: enable Microsoft Teams integration feature 
 
 By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To turn these features on, follow the steps below. To learn more about what the difference, see [Difference between the Basic and Enhanced Collaboration Experience with Teams](teams-basic-vs-enhanced-collaboration.md).
 
@@ -32,21 +32,21 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To t
    > ![Settings page](media/teams-system-settings.png "Settings page")
 
    > [!NOTE]
-   > - If Microsoft Teams integration is not enabled on the **System Settings** page in Common Data Service, Microsoft Teams users can still connect to model-driven apps in Dynamics 365 record or view to Microsoft Teams collaboration channel, but the connected Microsoft Teams channel and the file library do not appear in model-driven apps in Dynamics 365.
+   > - If Microsoft Teams integration is not enabled on the **System Settings** page in Common Data Service, then Microsoft Teams users can still connect to model-driven apps record or view to Microsoft Teams collaboration channel, but the connected Microsoft Teams channel and the file library do not appear in model-driven apps in Dynamics 365.
    > - When the feature is enabled, the collaboration feature is [enabled only for a selected set of system entities](teams-work-records-and-view.md#record-types-supporting-collaborate). If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md).
    > - If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](teams-troubleshoot.md#troubleshoot-configuration-issues-with-teams-integration).
 
 
 1. Sign in as a System administrator to Common Data Service.
 2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
-3. To enable [basic collaboration experience](teams-collaboration.md), select **Yes** for **Enable Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in Dynamics 365 apps so you can see the connected team channel. In addition, in the **Documents** tab of Dynamics 365 record page, the connected Teams Channel file library will appear. This lets you set-up a connection in the Teams app.
+3. To enable [basic collaboration experience](teams-collaboration.md), select **Yes** for **Enable Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in model-driven apps in Dynamics 365 so you can see the connected team channel. In addition, in the **Documents** tab model-driven app record page, the connected Teams Channel file library will appear. This lets you set-up a connection in the Teams app.
    > [!NOTE]
    >  You can only set **Enable Enhanced Microsoft Teams Integration** to **Yes** if **Enable Basic Microsoft Teams Integration** is set to **Yes**. If you don't enable Basic Microsoft Teams Integration then the option **Enable Enhanced Microsoft Teams Integration** is grayed out.  
    >  > [!div class="mx-imgBorder"] 
    >  > ![Enhanced experience disabled](media/teams-enhanced-disabled.png "Enhanced experience disabled")
 
    
-4. To enable [enhanced collaboration experience](teams-collaboration-enhanced-experience.md), select **Yes** for **Enable Enhanced Microsoft Teams Integration**. To turn this option on, you need Office 365 tenant admin permissions. When Enhanced Microsoft Teams Integration is enabled, the **Collaborate** button appears on records and views in model-drvice apps for Dynamics 365 and you can set up a connection with any Teams collaboration channel within Dynamics 365 app.
+4. To enable [enhanced collaboration experience](teams-collaboration-enhanced-experience.md), select **Yes** for **Enable Enhanced Microsoft Teams Integration**. To turn this option on, you need Office 365 tenant admin permissions. When Enhanced Microsoft Teams Integration is enabled, the **Collaborate** button appears on records and views in model-drvice apps for Dynamics 365 and you can set up a connection with any Teams collaboration channel within a model-drvice app.
 
     1. When you select **Yes** to **Enable Enhanced Microsoft Teams Integration**, there is two consent permission popup boxes that will display. If you have a pop-up blocker and you don't see the second consent dialong box, then you need to disable the pop-up blocker in your browser.
   
@@ -65,7 +65,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To t
     > ![Finish setup](media/finish-setup.png "Finish setup")
    
 
-## Install the app and set up the Teams tab in Microsoft Teams
+## In Microsoft Teams: Install the Dynamics 365 app and set up the Teams collaboration channel tab
 
 1. In Microsoft Teams, select **Store**. 
 
@@ -79,7 +79,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To t
 
 3. Verify that **Add for you** and **Add to a team** are both set to **Yes**.
 
-   You can use Dynamics 365 apps for your own use or use on a Microsoft Teams channel to collaborate with others. If you have an existing Microsoft Teams channel, select both options. Otherwise, you can start installing for your personal use and install the app for your Teams later.
+   You can use Dynamics 365 app for your own use or use on a Microsoft Teams channel to collaborate with others. If you have an existing Microsoft Teams channel, select both options. Otherwise, you can start installing for your personal use and install the app for your Teams later.
 
    > [!div class="mx-imgBorder"] 
    > ![Enable personal and team features](media/teams-store-install-both75.png "Enable personal and team features")
@@ -89,7 +89,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To t
    > [!div class="mx-imgBorder"] 
    > ![Add to team](media/teams-store-install-add-team75.png "Add to team")
 
-5. Pick a channel in Microsoft Teams to connect to a Dynamics record and then select **Set up**.
+5. Pick a channel in Microsoft Teams to connect to a model-drvice app record and then select **Set up**.
 
    > [!div class="mx-imgBorder"] 
    > ![Pick a channel and select Set up](media/teams-install-app-step2.png "Pick a channel and select Set up")
@@ -101,7 +101,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To t
    > ![Select environment and app module](media/teams-fre-org-app.png "Select environment and app module")
 
    > [!NOTE]
-   > - Only Dynamics 365 version 9.x or later environments appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed. 
+   > - Only Common Data Services environments appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed. 
    > - Only Unified Interface apps are listed.
    > - Only app modules licensed for the selected environment are listed. 
 
@@ -118,15 +118,15 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To t
    > ![Select a view](media/teams-select-view.png "Select an view")
    
       > [!NOTE]
-   > If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Teams before you add the view to the Teams channel. Otherwise, other team members will not hae access to the view content.
+   > If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Common Data Service before you add the view to the Teams channel. Otherwise, other team members will not have access to the view tab content.
 
 
-8. After completing the above steps, you will see a new tab for Dynamics 365 apps for the selected Teams channel. 
+8. After completing the above steps, you will see a new Dynamics 365 tab in the selected Teams channel. 
  
  
 See [Collaborate with Teams](teams-collaboration.md) for information on how you can use the tab feature to collaborate with Dynamics 365 apps.
 
-## Set up the Dynamics 365 bot
+## In Microsoft Teams: Set up the Dynamics 365 bot
 
 
 Set up the bot feature to interact with Dynamics 365 apps.
@@ -146,7 +146,7 @@ Set up the bot feature to interact with Dynamics 365 apps.
    > ![Select an environment](media/teams-bot-select-org.png "Select an environment")
 
    > [!NOTE]
-   > Only Dynamics 365 version 9.x or later environments appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed.
+   > Only Common Data Service environments appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed.
 
 4. Enter credentials and sign in.
 
@@ -155,23 +155,23 @@ Set up the bot feature to interact with Dynamics 365 apps.
    > [!div class="mx-imgBorder"] 
    > ![Bot is set up](media/teams-bot-confirmation.png "Bot is set up")
 
-See [Use the bot](teams-bot-search.md) for information on how you can use the bot feature to interact with Dynamics 365 apps.
+See [Use the bot](teams-bot-search.md) for information on how you can use the bot feature to interact with model-driven apps in Dynamics 365.
 
-## Set up the personal dashboard
-Set up the personal dashboard (My Dashboard) to interact with Dynamics 365 apps without involving other team members.
+## In Microsoft Teams: Set up the personal dashboard
+Set up the personal dashboard (My Dashboard) to interact with model-driven apps in Dynamics 365 without involving other team members.
 
 1. Open the Dynamics 365 app.
 
    > [!div class="mx-imgBorder"] 
    > ![Open the Dynamics 365 appsapp](media/teams-pick-app.png "Open the Dynamics 365 appsapp")
 
-2. Select a version 9.x environment and a Unified Interface app to connect with Dynamics 365 apps, and then choose **Save Changes**.
+2. Select a Common Data Service environment and a Unified Interface app to connect with model-driven apps in Dynamics 365, and then choose **Save Changes**.
 
    > [!div class="mx-imgBorder"] 
    > ![Select environment and app module](media/teams-mydashboard-org-app.png "Select environment and app module")
 
    > [!NOTE]
-   > - Only Dynamics 365 version 9.x or later environments appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed. 
+   > - Only Common Data Service environments appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed. 
    > - Only Unified Interface apps are listed.
    > - Only app modules licensed for the selected environments are listed. 
 
