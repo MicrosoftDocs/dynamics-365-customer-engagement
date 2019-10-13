@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 08/01/2019
+ms.date: 10/25/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: E098ABE0-E5FD-4C65-BF3E-56ACC7F9E416
@@ -54,7 +54,7 @@ Omnichannel system supports the following slugs.
 | {caseId} | Unique Id of a case. The system displays the case Id only if a cased linked to the conversation. |
 | {caseTitle} | Title of the case. The system displays the title of the case only if a cased linked to the conversation. |
 | {queueId} | Unique Id of a queue. |
-| {visitorLocale} | The language of the customer who initiated the conversation. |
+| {visitorLanguage} | The language of the customer who initiated the conversation. |
 | {visitorDevice} | The device of the customer who initiated the conversation. |
 | {entityRoutingLogicalName} | Name of the entity if the notification is for a entity records. |
 | {entityRoutingRecordId} | Unique Id of the entity record if the notification is for a entity records. To learn more, see [Entity records routing](entity-channel.md). |
@@ -95,8 +95,7 @@ Omnichannel system supports the following slugs.
     |---------|--------------------|-----------------------------------------------|--------------------|    
     | General | Name | Specify the name for the notification. This name wouldn't be visible for the agents at the run-time. | Name of the customer |
     | General | Field header | Provide a name to the field header. This appears in the notification that agents to see at the run-time. | Name |
-    | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Slug for notification field header](#slug-for-notification-field-header). |{customerName} | 
-    | General | Priority | Provide a number to assign the priority, which is the order of appearance on the notification. If you give the priority as 4, the field appears as 4th from top. <br> A maximum of four Field headers are shown on a notification. | 1 |
+    | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Slug for notification field header](#slug-for-notification-field-header). |{customerName} |
 
 10.	Select the back arrow on the browser to go the notification template you created. Alternatively, you select **Notifications** in the sitemap and then select the template you created.
 
@@ -127,4 +126,4 @@ As an administrator, you can edit the value of notification field header in the 
 
 - [Manage session templates](session-templates.md)
 - [Manage application tab templates](application-tab-templates.md)
-- [Associate templates with worksteams](associate-templates.md)
+- [Associate templates with workstreams](associate-templates.md)

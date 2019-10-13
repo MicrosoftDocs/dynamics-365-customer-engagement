@@ -39,5 +39,5 @@ You can use the following templates in the Omnichannel Administrator app.
  
 ## See also
 
-- [Associate templates with worksteams](associate-templates.md)
+- [Associate templates with workstreams](associate-templates.md)
 - [Understand and create workstream](work-streams-introduction.md)
