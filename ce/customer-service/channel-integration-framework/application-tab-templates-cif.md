@@ -52,9 +52,8 @@ As an administrator, you can create multiple application tab templates.
     | General | Application title | Provide a title to the application that you want the agents to see at the run-time. | Knowledge article search |
     | General | Application type | Select a application type from the list. Choose one of the following: <br><br> <ul><li>Custom control</li> <li>Dashboard</li> <li>Entity view</li> <li>Entity record</li> <li>Entity search</li> <li>Web resource</li> <li>Website Url</li> </ul> <br> To learn more, see [Application types](#application-types).|  Web resource |
     | General | Description | Provide a description for your reference. | The application type is used to display KB Search Page. |
-    | General | Value | Specify a value against the parameter. | msdyn_kbsearchpagehost.html <br><br> Update the value against the **webresourceName** parameter |
 
-5. Select **Save** to save the application tab template. After you save, the parameters for the application type you selected is appears in the **Parameters** section.
+5. Select **Save** to save the application tab template. After you save, the parameters for the application type you selected is appears in the **Parameters** section. <br> Whenever you make changes to the application type, you need to save the changes to reflect the appropriate custom parameters for that application type.
 
 6. Select the **Value** field of a parameter to edit and provide the value. See the [Application types in the application templates](#application-types) for the parameters.
 
@@ -151,4 +150,4 @@ The application type is used to display a first-party and third-party websites a
 
 - [Manage session templates](session-templates-cif.md)
 - [Manage notification templates](notification-templates-cif.md)
-- [Associate templates with worksteams](associate-templates-cif.md)
+- [Associate templates with workstreams](associate-templates-cif.md)
