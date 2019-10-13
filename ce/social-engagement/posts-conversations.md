@@ -2,7 +2,7 @@
 title: "View posts and conversations in Social Engagement | Microsoft Docs"
 description: "Understand how you can work with posts after acquiring them through Social Engagement."
 keywords: post list, post details, stream, post actions, reply, mention, share
-ms.date: 06/11/2019
+ms.date: 10/03/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -48,25 +48,9 @@ The posts in a post list that open a conversation view include:
   
 - Any private message.  
   
-- A [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] reply, if that reply involves one of the social profiles in your tenant.  
-  
-  > [!NOTE]
-  >  This can include all social profiles, not just the ones shared to the current user.  
-  
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the conversations with an author](#conversationView)  
   
-  Any other post in the post list will open the single post pane with post details. For example, if a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] reply involves authors who aren't social profiles in your tenant, they appear in the single post pane. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the publish history of a post in Social Engagement](#publishHistory)  
-  
-<a name="Threads"></a>   
-## See threads of replies and retweets on Twitter  
-
-When you view the details of a post, all [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] replies reference the tweet the post refers to. Every [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] reply has a parent post, which you can interact with depending on whether that tweet was acquired through your search topics.  
-  
-[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] supports two types of threads for a tweet: replies and retweets.  
-  
-- For [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] replies, you see the thread of all replies acquired in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] that reply to the parent post. Replies to replies or entire conversations aren't covered in the threads.  
-  
-- For retweets, you see the thread of all retweets of a parent tweet.  
+  Any other post in the post list will open the single post pane with post details. For example, if a reply involves authors who aren't social profiles in your tenant, they appear in the single post pane. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the publish history of a post in Social Engagement](#publishHistory)  
   
 <a name="publishHistory"></a>   
 ## See the engagement action history of a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]  
@@ -92,7 +76,7 @@ To build custom [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-
 <a name="conversationView"></a>   
 ### See the conversations with an author
 
-When you engage in a private conversation or reply on Twitter by using a social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], these posts allow you to see the full conversation.  
+When you engage in a private conversation on Twitter by using a social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], these posts allow you to see the full conversation.  
   
 ![Conversation view of a post with several replies and direct messages](media/conversation-view-callouts.png "Conversation view of a post with several replies and direct messages")  
   
@@ -128,13 +112,13 @@ You'll find additional metadata and controls for the posts:
   
 - **Copy internal URL (![Copy button](media/copy-url-icon.png "Copy button"))**: Generates an internal link to this post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Copy this URL to your clipboard and share it with other users of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to point them to a specific post.  
   
-- **Reach**: This indicates the potential size of an author's network and connections on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or the influence of a news source. The higher the number of an author's reach, the more likely that this is an influential author. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get relevant data using filters](use-filters.md)  
+- **Reach**: This indicates the potential influence of a news source. The higher the number of an author's reach, the more likely that this is an influential author. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get relevant data using filters](use-filters.md)  
   
 - **Date and time of publication**: The date and time when the post was published by the author. Redirects you to the original URL where the post was found. This lets you see the post in the context of the site or social network it originated from.  
   
 - **Post location**: The geographical location information (latitude/longitude) that a user shared when publishing the post (if available). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the locations for the posts](analytics-location.md)  
   
-- **Author location**: The geographical information that a user shared on a profile (if available). For example, this might be the location of a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] user as it was entered in the user's [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the locations for the posts](analytics-location.md)  
+- **Author location**: The geographical information that a user shared on a profile (if available). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the locations for the posts](analytics-location.md)  
   
 - **Author details**: The details about a user's [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile. The author name, username, profile picture, location, website, and bio are provided if the author has been active in the last 30 days. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get details on specific authors](author-details.md)
 

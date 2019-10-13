@@ -147,7 +147,7 @@ There are a few steps to follow to add a timer to track time against enhanced SL
   
     To add the timer to the interactive experience form so users can use it in the interactive service hub, open the form of type **Main – Interactive experience**  
   
-6. Add a section to insert the quick view control. On  the **Insert** tab, in the **Section** group, click **Section**, and then click **One Column**.   Double-click the section to specify the section properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Section properties](../customer-engagement/on-premises/customize/section-properties-legacy.md).  
+6. Add a section to insert the quick view control. On  the **Insert** tab, in the **Section** group, click **Section**, and then click **One Column**.   Double-click the section to specify the section properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Section properties](../customerengagement/on-premises/customize/section-properties-legacy.md).  
   
    > [!NOTE]
    >  You can't add an SLA timer to the reference panel section of the Main - Interactive experience form.  

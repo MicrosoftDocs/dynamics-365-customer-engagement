@@ -2,7 +2,7 @@
 title: "Manage the post quota for Social Engagement | Microsoft Docs"
 description: "Learn how you can get the most out of your Social Engagement post quota."
 keywords: quota, post quota, contingent
-ms.date: 06/11/2019
+ms.date: 10/03/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -78,8 +78,6 @@ To get a quick overview of the post quota for all your search topics, for single
 When you set up a search topic, you can validate the rules to estimate how their volume affects your post quota. The rule validation provides the number of posts that would match your query within a month, based on the post volume of the past month.
 
 We'll warn you before saving a search topic if we expect more posts than your monthly post quota. You can't save a search topic if the estimations exceed five times the monthly post quota.
-
-Additionally, if you have [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] selected as a source, you'll find a preview of the most recent tweets matching your keywords rule.
 
 > [!CAUTION]
 >  Peaks and trending terms can't be estimated. For example, if you set up a search topic in advance for a conference that you plan to establish a hashtag for, the estimates can be far off. Be aware that the post volume will rise significantly when the conference starts, which will affect your post quota. Deleting a search topic will stop the acquisition of posts for this topic, but will not recover your quota&mdash;meaning you will see no difference in the number of current posts. If you want to recover your quota, you will have to add the keywords of a deleted topic to the list of blocked content.

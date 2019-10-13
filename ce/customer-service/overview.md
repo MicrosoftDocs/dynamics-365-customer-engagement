@@ -62,7 +62,7 @@ Easily set up the Customer Service Hub and the Customer Service app by using the
 The Service Manager Guide helps you set up everything related to customer service, like defining parent-child case hierarchy, creating queues, routing rule sets, rules for automatic case creation, service level agreements (SLAs), entitlements, and customer service schedule.
 
 > [!NOTE]
-> If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customer-engagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
+> If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customerengagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
 
 ## Accessibility and GDPR in the Customer Service Hub 
 

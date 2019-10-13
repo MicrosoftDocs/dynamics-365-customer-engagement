@@ -19,11 +19,11 @@ search.app:
 ---
 # Metadata reference for your organization
 
-Your Dynamics 365 Marketing instance (organization) contains a collection of solutions that provide business functionality for marketing features. A solution provides a framework for packaging, installing, and uninstalling *components* that provide specific business functionality. Some examples of a solution component are entities, apps, business rules, charts, dashboards, and so on. For information about all the solution components, see [Solution components](../../customize/solutions-overview.md#solution-components).
+Your Dynamics 365 Marketing instance (organization) contains a collection of solutions that provide business functionality for marketing features. A solution provides a framework for packaging, installing, and uninstalling *components* that provide specific business functionality. Some examples of a solution component are entities, apps, business rules, charts, dashboards, and so on. For information about all the solution components, see [Solution components](/powerapps/maker/common-data-service/solutions-overview#components).
 
 This section provides information about the solutions and entities in a Dynamics 365 Marketing instance (organization). This information might be helpful as you customize and extend your app.
 
-### In This Section
+## In This Section
 
 [Dynamics 365 Marketing solutions](marketing-solutions.md)
 

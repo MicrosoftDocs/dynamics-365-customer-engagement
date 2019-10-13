@@ -2,7 +2,7 @@
 title: "Sources coverage in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn what's included in the sources available in Social Engagement."
 keywords: sources, blogs, custom sources, Disqus, Facebook, Twitter, LinkedIn, Reddit, YouTube, forums, Instagram, news
-ms.date: 06/11/2019
+ms.date: 10/03/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -75,9 +75,7 @@ Posts and comments published on Reddit are available for [keyword searches](add-
 
 ## Twitter
 
-Gain full coverage of public tweets on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] by creating a search topic with a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile rule or a keyword rule. You can also gather direct messages, including attachments, if you add a social profile and explicitly allow the acquisition of private messages.
-
-To add a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] rule, see [Add a Twitter rule](add-rules-search-topic.md#addTwitterRule).
+You can gather direct messages, including attachments, if you add a social profile and explicitly allow the acquisition of private messages.
 
 To add a private messages rule, see [Add a private messages rule](add-rules-search-topic.md#privateMessagesRule).
 
@@ -97,9 +95,6 @@ Some of the supported sources have restrictions on posts that we can acquire. Th
 - We can't acquire posts and comments for events, groups, or other similar entities on Facebook.
 - We can't search for keywords on Facebook.
 - Dark posts and sponsored posts aren't supported and don't get acquired.
-
-**Twitter**
-- If an author quotes another tweet, this retweet will not be displayed as a quoted tweet in our user interface. However, the quoted tweets are acquired.
 
 **YouTube**
 - Comments on videos aren't acquired if the video was published more than 30 days ago.

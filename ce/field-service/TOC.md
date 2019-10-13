@@ -120,6 +120,7 @@
 
 # Resource Scheduling Optimization (RSO) add-in
 ## [Overview](rso-overview.md)
+## [Get RSO](rso-get-install.md)
 ## [Quickstart](rso-quickstart.md)
 ## [Deployment](rso-deployment.md)
 ## [Configuration](rso-configuration.md)
