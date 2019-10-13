@@ -119,6 +119,29 @@ Here are a few notes for working with the **Security role** settings:
 
 Security roles are a concept shared by all Dynamics 365 apps for the Common Data Service platform. For more information about how to work with them, see [Manage security, users, and teams](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).
 
+## Special permissions for marketing pages and assist edit
+
+Two features of Dynamics 365 Marketing require that users have security roles with unexpected privileges for some entities. These are:
+
+- **To go live with marketing pages, elevated privileges are required for the *website* entity**  
+    The error checker for marketing pages requires full organization-level access to the **Website** entity, which enables the feature to confirm that the page is configured correctly to be published on your Dynamics 365 Portal. Therefore, all users that need to check and/or go-live with a marketing page published on a portal must have a security role with the privileges shown in the table and illustration following this list. This doesn't affect captured forms or forms embedded on an external site or CMS system.
+
+- **To access to access assist edit, elevated privileges are required the for the *marketing email dynamic-content metadata* entity**    
+    The [assist-edit feature](dynamic-email-content.md#assist-edit) enables users to generate dynamic expressions for use in email messages and content settings. The feature requires that the user has elevated access to application metadata, which enables assist-edit to present details about database entities and records. Therefore, all users that need to use assist edit must have a security role with elevated access to the **Marketing email dynamic-content metadata** entity, as shown in the table and illustration following this list.
+
+|  | Minimum "Website" entity privileges | Minimum "Marketing email dynamic-content metadata" entity privileges|
+|-----------|--------------|------------------------------------------|
+| Create | Organization | Business unit |
+| Read | Organization | Organization |
+| Write | Organization | Organization |
+| Delete | Organization | Business unit |
+| Append | Organization | Organization |
+| Append to | Organization | Organization |
+| Assign | Organization | Business unit |
+| Share | Organization | Organization |
+
+![Privileges required for the Website and Marketing email dynamic-content metadata entities](media/bu-roles-website.png "Privileges required for the Website and Marketing email dynamic-content metadata entities")
+
 ## Form and field level security
 
 In addition to the entity-level security set directly on each security role, you can also control access to specific forms and/or fields. These work as follows:

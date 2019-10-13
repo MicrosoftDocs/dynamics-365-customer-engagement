@@ -1,9 +1,12 @@
 ---
 title: "Create or edit an opportunity in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Track a deal that has more probability of turning into a business as an opportunity in Dynamics 365 Sales Professional."
+keywords: ""
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 ms.assetid: 821221be-8b4d-47e8-88b6-58a664337717
 author: shubhadaj
@@ -58,6 +61,9 @@ To create or edit an opportunity:
     In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you've entered the name you want, select **Add**. To create a new contact, select **New**. By default, the contact you add is assigned the Stakeholder role. Select the role corresponding to the contact to choose a different role such as **Decision Maker** or **Technical Buyer**.
 
 5.  In the last pane, select the **Sales team** ![Sales team icon](media/sales-team-icon.png "Sales team icon") icon to open the **Sales team** tab. Select the **More Commands** button ![More Commands button](media/more-commands-button.png "More Commands"), and then select **New Connection** to add a member of the sales team (from your organization).
+
+    > [!NOTE]
+    > The “+ New” button on Connection sub-grids are supported only for the out-of-box “Stakeholders” and "Sales Team" views on the Opportunity entity. For any other Connection sub-grid or “Stakeholders” or "Sales Team" sub-grids that are based on custom views, the “+ New” button doesn't appear on the sub-grid. In such case, navigate to the Connection Associated view for the record and use the **Connect** button to create a new connection. 
 
 6.  To save your changes, on the command bar, select **Save**.
 

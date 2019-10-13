@@ -3,8 +3,10 @@ title: "Define lead qualification experience (Dynamics 365 Sales) | MicrosoftDoc
 description: "Give your salespeople the flexibility to choose which records to create on lead qualification in Dynamics 365 Sales."
 keywords: "lead, qualify, business process, sales process, contact, account, opportunity"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 ms.assetid: 30df1a79-615a-4d6c-98df-30041b7faa68
 author: shubhadaj
@@ -15,15 +17,7 @@ caps.latest.revision: 69
 
 # Define lead qualification experience
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified. 
-
-
-> [!IMPORTANT]
-> - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
 
 To define the experience: 
 

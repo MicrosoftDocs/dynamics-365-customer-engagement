@@ -50,7 +50,7 @@ While creating custom apps, you might not have routing rules sets available in y
 
     The sitemap is created with Routing Rule Set and go to your custom app to locate Routing Rule Sets in the sitemap.
 
-To Learn more, see [Create a site map for an app using the site map designer](../customer-engagement/on-premises/customize/create-site-map-app.md)
+To Learn more, see [Create a site map for an app using the site map designer](../customerengagement/on-premises/customize/create-site-map-app.md)
 
 ## Preview: Create a routing rule set (Customer Service Hub)
 

@@ -1,13 +1,14 @@
-# [Dynamics 365 Sales Help and Training](help-hub.md)
+# [Help resources for Dynamics 365 Sales](help-hub.md)
 ## [Overview](../sales-enterprise/overview.md)
 ## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
 ## [What's new](../sales-enterprise/whats-new.md)
 ## Administrator & Sales Manager Guide
-### [Resources for administrators and sales managers](../sales-enterprise/admin-guide.md)
+### [Help resources for admins and sales managers](../sales-enterprise/admin-guide.md)
 ### Sales management
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
 #### [Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)
 #### [Enable PDF generation from quotes](enable-pdf-generation-quote.md)
+#### [Set up the enhanced email experience](set-up-enhanced-email.md)
 #### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
 #### [Customize the Opportunity Close form](customize-opportunity-close-experience.md)
 #### [Define lead qualification experience](define-lead-qualification-experience.md)
@@ -39,7 +40,8 @@
 #### [Create a goal](../sales-enterprise/create-edit-goal-sales.md)
 #### [Create a goal metric](../sales-enterprise/create-edit-goal-metric.md)
 #### [Create a rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)
-#### [Create a forecast definition](create-forecast-definition.md)
+#### [Configure a forecast](configure-forecast.md)
+
 ### Playbook management
 #### [Define playbook categories](define-playbook-categories.md)  
 #### [Manage playbook templates](manage-playbook-templates.md) 
@@ -53,6 +55,7 @@
 ## User Guide
 ### [Help resources for sales people](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)
+### [Send email using the enhanced email experience](enhanced-email.md)
 ### Manage customers
 #### [Manage accounts and contacts](../basics/accounts-contacts.md)
 #### [Scan business cards](scan-business-cards.md)
@@ -118,23 +121,4 @@
 ### Action Reference
 #### [RecalculatePrice Action](../sales-enterprise/developer/reference/recalculateprice-action.md)
 
-## Embedded intelligence Help
-### [Overview](../sales-enterprise/embedded-intelligence.md)
-### Administrator guide
-#### [Configure embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md)
-### User guide
-#### [Guide customer communications with relationship assistant](../sales-enterprise/relationship-assistant.md)
-#### [Stay updated with Action cards](../sales-enterprise/action-cards-reference.md)
-#### [View message interactions with email engagement](../sales-enterprise/email-engagement.md)
-#### [Display related emails with auto capture](../sales-enterprise/auto-capture.md)
-
-#### [Preview: Manage insight cards](../sales-enterprise/manage-custom-cards-flow.md)
-##### [Preview: Create insight cards](../sales-enterprise/create-insight-cards-flow.md)
-##### [Preview: Edit insight cards](../sales-enterprise/edit-insight-cards.md)
-##### [Preview: Optimize ranking of insight cards](../sales-enterprise/optimize-ranking-insight-cards.md)
-### [Create custom cards in Relationship assistant](../sales-enterprise/extend-relationship-assistant-card.md)
-#### [Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/sample-extend-relationship-assistant-card-type.md)
-
-### [Privacy notice](../sales-enterprise/privacy-notice-ee.md)
-
-# [Dynamics 365 Sales Insights](../sales-enterprise/dynamics365-ai-sales.md)
+# [Dynamics 365 Sales Insights](/dynamics365/ai/sales/overview)

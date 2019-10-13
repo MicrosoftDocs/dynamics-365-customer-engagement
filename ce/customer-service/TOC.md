@@ -45,11 +45,11 @@
 #### [Set up entitlements using entitlement templates](set-up-entitlements-templates.md)
 #### [Create email templates](../admin/create-templates-email.md)
 #### [Create article templates](../admin/create-templates-articles.md)
-#### [Create knowledge article template](create-templates-knowledge-article.md)
 
 ### Knowledge Base Management
 #### [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
 #### [Create and manage categories](create-manage-categories.md)
+#### [Create knowledge article template](create-templates-knowledge-article.md)
 
 ### Similar Record Suggestions
 #### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
@@ -73,8 +73,8 @@
 #### [Schedule business closure](set-when-business-closed-csh.md)
 ### Migration tool
 #### [Introduction](introduction-migration-entity-records.md)
+#### [Plan your migration](plan-migration.md)
 #### [Migrate entity records data using migration tool](migrate-entity-records.md)
-### [Service Scheduling FAQ](service-scheduling-faq.md)
 ### Developer Guide
 #### [Migrate Service Activity entity](migrate-service-activity-entity.md)
 #### [Sample: Migrate Service Activity entity using Organization Service](migrate-service-activity-org-service.md)

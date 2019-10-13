@@ -1,10 +1,12 @@
 ---
-title: "Documentation resources for Dynamics 365 Sales Professional| Microsoft Docs"
+title: "Help resources for Dynamics 365 Sales Professional| Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 Sales Professional."
 keywords: "sales;help"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 ms.assetid: a37688b5-914c-49b7-8360-0c4676465079
 author: shubhadaj
@@ -12,7 +14,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Sales Professional Help & Training
+# Help resources for Dynamics 365 Sales Professional
 
 <table>
 
@@ -67,7 +69,7 @@ manager: annbe
 <li><a href="import-data.md" data-raw-source=" [Import data](import-data.md)">Import data</a></li>
 <li><a href="manage-users.md" data-raw-source=" [Manage users](manage-users.md)">Manage users</a></li>
 <li><a href="configure-email.md" data-raw-source=" [Set up email](configure-email.md)">Configure email</a></li>
-<li><a href="change-color-scheme-logo.md" data-raw-source=" [Set up branding and thmeing](change-color-scheme-logo.md)">Set up branding and thmeing</a></li>
+<li><a href="change-color-scheme-logo.md" data-raw-source=" [Set up branding and theming](change-color-scheme-logo.md)">Set up branding and theming</a></li>
 <li><a href="manage-teams.md" data-raw-source=" [Manage teams](manage-teams.md)">Manage teams</a></li>
 <li><a href="manage-excel-templates.md" data-raw-source=" [Manage Excel templates](manage-excel-templates.md)">Manage Excel templates</a></li>
 <li><a href="manage-word-templates.md" data-raw-source=" [Manage Word templates](manage-word-templates.md)">Manage Word templates</a></li>
