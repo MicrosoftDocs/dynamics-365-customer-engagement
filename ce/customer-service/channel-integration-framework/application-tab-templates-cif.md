@@ -150,4 +150,5 @@ The application type is used to display a first-party and third-party websites a
 
 - [Manage session templates](session-templates-cif.md)
 - [Manage notification templates](notification-templates-cif.md)
+- [Pass parameters values](parameter-values-cif.md)
 - [Associate templates with workstreams](associate-templates-cif.md)

@@ -96,4 +96,5 @@ As an administrator, you can edit the value of notification field header in the 
 
 - [Manage session templates](session-templates-cif.md)
 - [Manage application tab templates](application-tab-templates-cif.md)
+- [Pass parameters values](parameter-values-cif.md)
 - [Associate templates with workstreams](associate-templates-cif.md)

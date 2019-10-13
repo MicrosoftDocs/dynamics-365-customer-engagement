@@ -31,7 +31,7 @@
       href: application-tab-templates-cif.md      
     - name: "Notification templates"
       href: notification-templates-cif.md
-    - name: "Supported formats to pass parameter values"
+    - name: "Pass parameter values"
       href: parameter-values-cif.md
     - name: "Associate templates with scenarios"
       href: associate-templates-cif.md          

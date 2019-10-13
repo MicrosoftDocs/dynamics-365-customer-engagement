@@ -13,7 +13,7 @@ ms.assetid: FB1DB0A5-97D6-40D6-BD5D-30606C44F8EF
 ms.custom: 
 ---
 
-# Preview: Supported formats to pass parameters values
+# Preview: Pass parameters values
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -24,19 +24,27 @@ ms.custom:
 
 ## Overview
 
+While creating templates, you can pass parameter values such as Title of a session, notification, and application tab template.
 
-
-## Slugs
-
-Slug is the replacement parameter that Channel Integration Framework populates at the run time based on the context variables.
+For example:
 
 The notification shows certain fields and values, which are called **Field header** and **Value** respectively.
 
-For example, Kenny Smith, a customer, initiated a conversation and when the agent sees the notification, it displays **Customer Name** as **Kenny Smith**.
+Kenny Smith, a customer, initiated a conversation and when the agent sees the notification, it displays **Customer Name** as **Kenny Smith**.
 
 Here, **Field header** is **Customer Name** and the **Value** is **Kenny Smith**.
 
-For Channel Integration Framework to identify the name of the customer as **Kenny Smith**, as an administrator, you must configure slugs as the value. The Channel Integration Framework replaces the slug with the actual value that was extracted based on the context variables.
+For Channel Integration Framework to identify the name of the customer as **Kenny Smith**, as an administrator, you must configure pass the parameter as values. These list of supported formats are:
+
+- Slugs
+- OData queries
+- Static values
+
+The Channel Integration Framework replaces these parameter values with the actual value based on the context of the session, channel provider, Common Data Service, and user actions.
+
+## Slugs
+
+Slug is a replacement parameter that Channel Integration Framework populates at the run time based on the context.
 
 Channel Integration Framework supports the following slugs.
 
@@ -53,3 +61,22 @@ Channel Integration Framework supports the following slugs.
 | `{customerEntityName}` | Name of the entity (contact or account entity) if the customer is authenticated. |
 | `{customerRecordId}` | Unique Id of t.he entity (contact or account entity) if the customer is authenticated. |
 | `{<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
+
+## OData queries
+
+You can use the OData queries to get the context that are available from the Common Data Service platform.
+
+The OData query format:
+
+`{$Odata.<entityName>.<entityAttributeName>.<?options>} like {$Odata.account.name.?$filter=id eq <GUID>`
+
+Example:
+
+## Static values
+
+## See also
+
+- [Manage session templates](session-templates-cif.md)
+- [Manage application tab templates](application-tab-templates-cif.md)
+- [Manage notification templates](notification-templates-cif.md)
+- [Associate templates with workstreams](associate-templates-cif.md)

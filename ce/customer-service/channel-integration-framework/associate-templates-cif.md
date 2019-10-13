@@ -32,3 +32,4 @@ To associate the templates in your scenarios, you must use the `templateName` pa
 - [Manage session templates](session-templates-cif.md)
 - [Manage application tab templates](application-tab-templates-cif.md)
 - [Manage notification templates](notification-templates-cif.md)
+- [Pass parameters values](parameter-values-cif.md)
