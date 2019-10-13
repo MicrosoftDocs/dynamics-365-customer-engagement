@@ -106,7 +106,7 @@ These list of supported formats are:
 
 The omnichannel system replaces these parameter values with the actual value based on the context of the session, channel provider, Common Data Service, and user actions.
 
-## Slugs
+### Slugs
 
 Slug is a replacement parameter that omnichannel system populates at the run time based on the context.
 
@@ -160,7 +160,7 @@ There are two types of format:
     > [!NOTE]
     > The `Session.CurrentTab.<Attribute>` and `Session.AnchorTab.<Attribute>` parameter is only applicable to macros, and it is not applicable to templates.
 
-## OData queries
+### OData queries
 
 You can use the OData queries to get the context that are available from the Common Data Service platform.
 
@@ -170,7 +170,7 @@ The OData query format:
 
 Example:
 
-## Static values
+### Static values
 
 These are hardcoded values that you update as your business requirement. For every hardcoded attribute you chose, follow the format type for the particular attribute.
 
