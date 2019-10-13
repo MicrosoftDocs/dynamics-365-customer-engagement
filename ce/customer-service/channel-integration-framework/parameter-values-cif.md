@@ -46,6 +46,27 @@ The Channel Integration Framework replaces these parameter values with the actua
 
 To learn more, see [Types context data parameters](#types-context-data-parameters).
 
+
+## Types context data parameters
+
+The context data parameters are available from the following:
+
+- [Context data from the channel provider](#context-data-from-the-channel-provider)
+- [Context data from the user actions](#context-data-from-the-user-actions)
+- [Context data from Common Data Service](#context-data-from-common-data-service)
+
+### Context data from the channel provider 
+
+This context data is with the first-party channel provider such as Omnichannel for Customer Service or third-party channel provider that uses the widget exposed by Channel Integration Framework. The context data from the Omnichannel for Customer Service app are pre-chat survey, visitor portal navigation, and so on.
+
+### Context data from the user actions 
+
+This data is populated as and when agents perform some activities on the session. An example is opening a new customer record, case etc.
+
+### Context data from Common Data Service 
+
+The organizational data is stored in Common Data Service, and you can fetch the data with the use of OData queries.
+
 ## Supported formats for data parameter values
 
 These list of supported formats are:
@@ -54,7 +75,7 @@ These list of supported formats are:
 - [OData queries](#odata-queries)
 - [Static values](#static-values)
 
-## Slugs
+### Slugs
 
 Slug is a replacement parameter that Channel Integration Framework populates at the run time based on the context.
 
@@ -74,7 +95,7 @@ Channel Integration Framework supports the following slugs.
 | `{customerRecordId}` | Unique Id of t.he entity (contact or account entity) if the customer is authenticated. |
 | `{<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
 
-## OData queries
+### OData queries
 
 You can use the OData queries to get the context that are available from the Common Data Service platform.
 
