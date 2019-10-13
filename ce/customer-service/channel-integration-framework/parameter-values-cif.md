@@ -26,7 +26,11 @@ ms.custom:
 
 While creating templates, you can pass parameter values such as Title of a session, notification, and application tab template.
 
-For example:
+While creating templates in the Channel Integration Framework app, you can pass parameter values such as Title of a session, notification, application tab template. These values are replaced based on the contextual details available at the time of execution.
+
+## Pass data parameters in templates
+
+Let us take a scenario for templates with the notifications.
 
 The notification shows certain fields and values, which are called **Field header** and **Value** respectively.
 
@@ -34,13 +38,21 @@ Kenny Smith, a customer, initiated a conversation and when the agent sees the no
 
 Here, **Field header** is **Customer Name** and the **Value** is **Kenny Smith**.
 
-For Channel Integration Framework to identify the name of the customer as **Kenny Smith**, as an administrator, you must configure pass the parameter as values. These list of supported formats are:
+For templates to identify the name of the customer as **Kenny Smith**, as an administrator, you must configure pass the parameter as values.
 
-- Slugs
-- OData queries
-- Static values
+Similarly, for session and notification title, you can pass the data parameters in the support formats. To learn more, see [Supported formats for data parameter values](#supported-formats-for-data-parameter-values).
 
-The Channel Integration Framework replaces these parameter values with the actual value based on the context of the session, channel provider, Common Data Service, and user actions.
+The Channel Integration Framework replaces these parameter values with the actual value based on the context of the session, channel provider, Common Data Service, and user actions
+
+To learn more, see [Types context data parameters](#types-context-data-parameters).
+
+## Supported formats for data parameter values
+
+These list of supported formats are:
+
+- [Slugs](#slugs)
+- [OData queries](#odata-queries)
+- [Static values](#static-values)
 
 ## Slugs
 
@@ -57,7 +69,7 @@ Channel Integration Framework supports the following slugs.
 | `{visitorLanguage}` | The language of the customer who initiated the conversation. |
 | `{visitorDevice}` | The device of the customer who initiated the conversation. |
 | `{entityRoutingLogicalName}` | Name of the entity if the notification is for a entity records. |
-| `{entityRoutingRecordId}` | Unique Id of the entity record if the notification is for a entity records. To learn more, see [Entity records routing](../../omnichannel/administrator/entity-channel.md). |
+| `{entityRoutingRecordId}` | Unique Id of the entity record if the notification is for a entity records. |
 | `{customerEntityName}` | Name of the entity (contact or account entity) if the customer is authenticated. |
 | `{customerRecordId}` | Unique Id of t.he entity (contact or account entity) if the customer is authenticated. |
 | `{<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
@@ -72,7 +84,17 @@ The OData query format:
 
 Example:
 
-## Static values
+### Static values
+
+These are hardcoded values that you update as your business requirement. For every hardcoded attribute you chose, follow the format type for the particular attribute.
+
+**For example:**
+
+For an incoming chat request, you want provide the static title to session and notification that agents see at the run time.
+
+Notification title = `New chat request`
+
+Session title = `Chat conversation`
 
 ## See also
 
