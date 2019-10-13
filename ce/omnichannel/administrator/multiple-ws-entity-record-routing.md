@@ -126,7 +126,7 @@ If you are creating or editing an entity record workstream, you must update **E
 | Work Stream Selection for Routing (/<Entity Record/> ) | Update the condition and workstreams Id. |
 | Invoke Omnichannel | Do not modify. |
 
-### Update work distribution flow
+### Update entity records work distribution flow
 
 1. Sign in to the Omnichannel Administrator app.
 

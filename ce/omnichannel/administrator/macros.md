@@ -181,9 +181,9 @@ This macro is used to open an email with a predefined template. This macro conta
 
 As an administrator, you need to pass the context data values for the parameters in the macro steps. The following types are supported formats:
 
-- [Automation context](#automation-context)
-- [OData queries](#odata-queries)
-- [Static values](satitc-values)
+- [Slug for parameter values](#Slug-for-parameter-values)
+- [OData queries](#odata-queries-for-parameter-values)
+- [Static values](#satitc-values-for-the-parameter-values)
 
 ### Slug for parameter values
 

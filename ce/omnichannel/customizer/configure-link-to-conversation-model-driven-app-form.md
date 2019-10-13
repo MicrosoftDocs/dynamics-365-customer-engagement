@@ -44,7 +44,7 @@ To add the **Link to conversation** button, you need to customize the ribbon (`<
 
 [Step 2: Add command and define ribbon actions](#step-2-add-command-and-define-ribbon-actions)
 
-[Step 3: Enable display rules](step-3-enable-display-rules)
+[Step 3: Enable display rules](#step-3-enable-display-rules)
 
 [Step 4: Import the ribbon](#step-4-import-the-ribbon)
 

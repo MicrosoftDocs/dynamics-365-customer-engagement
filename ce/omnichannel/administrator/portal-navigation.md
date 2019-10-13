@@ -31,8 +31,8 @@ The data that you track as recent actions are stored in an entity where it is pa
 
 ## Prerequisites
 
-- As an administrator, you need to enable the feature for the agents to see the **Portal navigation** tab is displayed to the agents when in a session. To learn more, see [Enable portal navigation](portal-navigation.md#enable-visitor-portal-navigation).
-- As a developer, you need to enable the portal navigation using the developer experience. To learn more, see [setContextProvider](../developer/reference/methods/setcontextprovider.md) and [msdyn_visitorjourney](../reference/entities/msdyn_visitorjourney.md#msdyn_type-options). 
+- As an administrator, you need to enable the feature for the agents to see the **Portal navigation** tab is displayed to the agents when in a session. To learn more, see [Enable portal navigation](portal-navigation.md#enable-portal-navigation).
+- As a developer, you need to enable the portal navigation using the developer experience. To learn more, see [Pass portal navigation history as context](../developer/how-to/pass-customer-journey-context.md) and [msdyn_visitorjourney](../reference/entities/msdyn_visitorjourney.md#msdyn_type-options). 
 
 ## Enable portal navigation
 
