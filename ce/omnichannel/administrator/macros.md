@@ -46,51 +46,6 @@ Macros helps address these challenges aiding users to perform day-to-day operati
 
 - Install Dynamics 365 Productivity Tools solutions
 
-## Pass macro context data parameters
-
-Macros are a set of configured actions that are executed on-demand by user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to provide certain data parameters. When the agent runs the macro, these data parameters are replaced by the contextual values.
-
-For example, to create a case, you need to tell the macro to open an incident entity form and GUID of the form (optional).
-
-To learn more, see [Types context data parameters](#types-context-data-parameters).
-
-### Types context data parameters
-
-The context data parameters are available from the following:
-
-- [Context data from the channel provider](#context-data-from-the-channel-provider)
-- [Context data from the user actions](#context-data-from-the-user-actions)
-- [Context data from other macro actions](#context-data-from-other-macro-actions)
-- [Context data from Common Data Service](#context-data-from-common-data-service)
-
-#### Context data from the channel provider 
-
-This context data is with the first-party channel providers, Omnichannel for Customer Service that uses the widget exposed by Channel Integration Framework. The context data from the Omnichannel for Customer Service app are pre-chat survey, visitor portal navigation, and so on.
-
-#### Context data from the user actions 
-
-This data is populated as and when agents perform some activities on the session. An example is opening a new customer record, case etc. The marco is executed based on the context for a current session with an Anchor tab or current tab in focus.
-
-#### Context data from other macro actions 
-
-An action in a macro generates context data that is consumed by other actions in that macro. 
-
-For example, there two action steps in the following order:
-
-1. Open a new form to create a record
-2. Open an email form with predefined template
-
-While creating the **Open an email form with predefined template**, you can get pass the context data parameters from the **Open a new form to create a record** macro step.
-
-The context data parameter from the first macro step are as follows:
-- Entity Logical Name
-- Page Type
-- Tab Id
-
-#### Context data from Common Data Service 
-
-The organizational data is stored in Common Data Service, and you can fetch the data as a part of macros. The context is fetched with the use of OData queries.
-
 ## Built-in macros
 
 As an administrator, you can use the built-in macros to automate and perform operations.
@@ -177,83 +132,11 @@ This macro is used to open an email with a predefined template. This macro conta
    | Incidentid| Specify the case id that you want to close. <br>This is a mandatory field.| |
    | Resolution | Specify the reason to resolve the case. <br> This is a mandatory field. | |
 
-## Supported format for context data
+## Pass macro context data parameters
 
-As an administrator, you need to pass the context data values for the parameters in the macro steps. The following types are supported formats:
+Macros are a set of configured actions that are executed on-demand by user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to provide certain data parameters. When the agent runs the macro, these data parameters are replaced by the contextual values.
 
-- [Slug for parameter values](#Slug-for-parameter-values)
-- [OData queries](#odata-queries-for-parameter-values)
-- [Static values](#satitc-values-for-the-parameter-values)
-
-### Slug for parameter values
-
-Slug is the replacement parameter that macros populates at the run time based on the context variables.
-
-Supported list of slugs are:
-
-| Slug | Description |
-|------------|-----------------------------------|
-| `{customerName}` | Name of the customer who initiated the conversation. |
-| `{caseId}` | Unique Id of a case. The system displays the case Id only if a cased linked to the conversation. |
-| `{caseTitle`} | Title of the case. The system displays the title of the case only if a cased linked to the conversation. |
-| `{queueId}` | Unique Id of a queue. |
-| `{visitorLocale}` | The language of the customer who initiated the conversation. |
-| `{visitorDevice}` | The device of the customer who initiated the conversation. |
-| `{entityRoutingLogicalName}` | Name of the entity if the notification is for a entity records. |
-| `{entityRoutingRecordId}` | Unique Id of the entity record if the notification is for a entity records. To learn more, see [Entity records routing](entity-channel.md). |
-| `{customerEntityName}` | Name of the entity (contact or account entity) if the customer is authenticated. |
-| `{customerRecordId}` | Unique Id of the entity (contact or account entity) if the customer is authenticated. |
-|`{<name of the pre-chat survey question>}` | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. <br> For example, Subject is on of the pre-chat survey question. Now, the slug will be `{subject}`. |
-
-
-#### Format
-
-There are two types of parameter format:
-
-- The `{ChannelProvider.<Slug>}` or `{Slug}` parameter format is used to retrieve the context from the channel provider, where `ChannelProvider` is a standard construct to get the value from the context of the provider of the current session. 
-
-   For example: 
-
-   `{ChannelProvider.caseId}`
-
-   or
-
-   `{caseId}` 
-
-- The `Session.CurrentTab.<Attribute>` and `Session.AnchorTab.<Attribute>` parameter provides context data based on the current session and the anchor tab or the current tab in focus.
-
-   The following are the supported attribute types:
-
-   - EntityName
-   - EntityId
-
-      For example: 
-
-      `Session.CurrentTab.<EntityName>`
-
-      `Session.CurrentTab.<EntityId>`
-
-      `Session.AnchorTab.<EntityName>`
-
-      `Session.AnchorTab.<EntityId>` 
-
-### OData queries for parameter values
-
-
-
-### Static values for the parameter values
-
-These are hardcoded values that you update as your business requirement. For every hardcoded attribute you chose, follow the format type for the particular attribute.
-
-For example:
-
-You want to create a case with the case title being always appended with **Contoso -**. In this case, you use the create **Open a new form to create a record** action with following fields.
-
-   | Parameter | Value |
-   |----------------------|----------------------------|
-   | Entity Logical Name | incident | 
-   | Attribute Name | Case title |
-   | Attribute value | `Contoso - {caseTitle}` |
+To learn more, see [Pass data parameters in macros](pass-parameter-values.md#pass-data-parameters-in-macros).
 
 ## Create macro
 

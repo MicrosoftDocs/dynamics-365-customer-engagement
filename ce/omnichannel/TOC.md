@@ -58,6 +58,7 @@
 #### Productivity tools
 ##### [Overview](administrator/productivity-tools.md)
 ##### [Macros](administrator/macros.md)
+##### [Pass parameter values](administrator/pass-parameter-values.md)
 ##### [Agent scripts](administrator/agent-scripts.md)
 #### [Create quick replies](administrator/create-quick-replies.md)
 #### [Configure and manage custom presence](administrator/presence-custom-presence.md)
@@ -81,6 +82,7 @@
 #### [Manage session templates](administrator/session-templates.md)
 #### [Manage application tab templates](administrator/application-tab-templates.md)
 #### [Manage notification templates](administrator/notification-templates.md)
+#### [Pass parameter values](administrator/pass-parameter-values.md)
 #### [Associate templates with workstreams](administrator/associate-templates.md)
 
 ## Agent guide
