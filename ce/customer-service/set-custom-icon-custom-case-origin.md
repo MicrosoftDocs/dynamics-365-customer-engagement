@@ -64,10 +64,5 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you can set a cus
     There may be a several minutes delay after you publish your custom web resource. You may need to press F5 to refresh the page in your browser.  
   
 ### See also  
-<<<<<<< HEAD
- [Create and edit global option sets](../customer-engagement/on-premises/customize/create-edit-global-option-sets.md)   
- [Create and edit web resources](../customer-engagement/on-premises/customize/create-edit-web-resources.md)
-=======
  [Create and edit global option sets](../customerengagement/on-premises/customize/create-edit-global-option-sets.md)   
  [Create and edit web resources](../customerengagement/on-premises/customize/create-edit-web-resources.md)
->>>>>>> 9026b3c1b72cd1b47011e95769a8fd9bf307979d
