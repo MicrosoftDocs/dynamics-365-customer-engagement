@@ -32,34 +32,6 @@ As an administrator, system integrator, or partner, you can use the templates or
 
 You must associate the notification templates to a session template.
 
-## Slug for notification field header
-
-Slug is the replacement parameter that Channel Integration Framework populates at the run time based on the context variables.
-
-The notification shows certain fields and values, which are called **Field header** and **Value** respectively.
-
-For example, Kenny Smith, a customer, initiated a conversation and when the agent sees the notification, it displays **Customer Name** as **Kenny Smith**.
-
-Here, **Field header** is **Customer Name** and the **Value** is **Kenny Smith**.
-
-For Channel Integration Framework to identify the name of the customer as **Kenny Smith**, as an administrator, you must configure slugs as the value. The Channel Integration Framework replaces the slug with the actual value that was extracted based on the context variables.
-
-Channel Integration Framework supports the following slugs.
-
-| Slug | Description |
-|------------|-----------------------------------|
-| `{customerName}` | Name of the customer who initiated the conversation. |
-| `{caseId}` | Unique Id of a case. The system displays the case Id only if a cased linked to the conversation. |
-| `{caseTitle}` | Title of the case. The system displays the title of the case only if a cased linked to the conversation. |
-| `{queueId}` | Unique Id of a queue. |
-| `{visitorLanguage}` | The language of the customer who initiated the conversation. |
-| `{visitorDevice}` | The device of the customer who initiated the conversation. |
-| `{entityRoutingLogicalName}` | Name of the entity if the notification is for a entity records. |
-| `{entityRoutingRecordId}` | Unique Id of the entity record if the notification is for a entity records. To learn more, see [Entity records routing](../../omnichannel/administrator/entity-channel.md). |
-| `{customerEntityName}` | Name of the entity (contact or account entity) if the customer is authenticated. |
-| `{customerRecordId}` | Unique Id of t.he entity (contact or account entity) if the customer is authenticated. |
-| `{<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
-
 ## Create a notification template
 
 1.	Sign in to the Channel Integration Framework app.
@@ -93,7 +65,7 @@ Channel Integration Framework supports the following slugs.
     |---------|--------------------|-----------------------------------------------|--------------------|    
     | General | Name | Specify the name for the notification. This name wouldn't be visible for the agents at the run-time. | Name of the customer |
     | General | Field header | Provide a name to the field header. This appears in the notification that agents to see at the run-time. | Name |
-    | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Slug for notification field header](#slug-for-notification-field-header). |{customerName} | 
+    | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Supported formats to pass parameters values](parameter-values-cif.md). |`{customerName}` | 
 
 10.	Select the back arrow on the browser to go the notification template you created. Alternatively, you select **Notifications** in the sitemap and then select the template you created.
 
