@@ -2,7 +2,7 @@
 title: "Integrate Dynamics 365 appswith Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Integrate Dynamics 365 appswith Microsoft Teams."
-ms.date: 9/30/2019
+ms.date: 10/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,26 +24,26 @@ search.app:
 # Microsoft Teams integration with Dynamics 365 apps
 
 ## Overview 
-If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you know it's the place to manage all your conversations, files, and tools in one team workspace. Create and edit documents right in the app and enjoy instant access to SharePoint, OneNote, Power BI, and now, [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)]. 
+If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you know it's the place to manage all your conversations, files, and tools in one team workspace. Create and edit documents right in the app and enjoy instant access to SharePoint, OneNote, Power BI, and now, model-driven apps in Dynamics 365.
 
 
    > [!NOTE]
    > - Microsoft Teams integration is not supported on Dynamics 365 Customer Engagement (on-premises).
 
-Dynamics 365 for Microsoft Teams integration enables users to easily work with Dynamics 365 customer information and share files directly from Microsoft Teams. This helps them to be more productive and get work done more effectively. 
+Dynamics 365 for Microsoft Teams integration enables users to easily work with Common Data Service customer information and share files directly from Microsoft Teams. This helps them to be more productive and get work done more effectively. 
 
 - **Collaboration hub**: Access a shared workspace for Office apps that most of us already use to work sales opportunities.  
 - **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t a Dynamics 365 apps user.
-- **File integration**: Co-author documents using Office 365 and automatically sync to Dynamics 365. 
+- **File integration**: Co-author documents using Office 365 and automatically sync to Common Data Service. 
 - **Teams mobile app**: Search from Microsoft Teams mobile app using the Dynamics 365 bot while on the go. 
 
 > [!div class="mx-imgBorder"] 
 > ![Features of Teams app](media/teams-intro.png "Features of Teams app")
 
-With the Dynamics 365 for Teams integration, add the Dynamics 365 app features that you rely on, to the Teams app you collaborate with. This lets you easily work with Dynamics 365 customer information and share files directly from Microsoft Teams.
+With the Dynamics 365 for Teams integration, add model-driven app features that you rely on, to the Teams app you collaborate with. This lets you easily work with Common Data Service customer information and share files directly from Microsoft Teams.
 
-- Access Dynamics 365 records by adding a Dynamics 365 tab into the Teams channel. Collaborate at a large scale not only on a single Dynamics 365 record (like a sales opportunity), but also on multiple records with a Dynamics 365 view.
-- Use Microsoft Teams integration to seamlessly collaborate on documents between Dynamics 365 and Microsoft Teams. 
+- Access Common Data Service records by adding a Dynamics 365 tab into the Teams channel. Collaborate at a large scale not only on a single app record (like a sales opportunity), but also on multiple records.
+- Use Microsoft Teams integration to seamlessly collaborate on documents between Common Data Service and Microsoft Teams. 
 - Collaborate on a set of records, such as *active opportunity* using Teams conversation and easily access records on the go using the Dynamics 365 bot for Microsoft Teams mobile app. 
 
 > [!VIDEO https://www.youtube.com/embed/u0DaRzZDAPc]
@@ -54,7 +54,7 @@ With the Dynamics 365 for Teams integration, add the Dynamics 365 app features t
 
 ## Privacy notice
 
-While using the Dynamics 365 appsfor Sales bot in Microsoft Teams, the user’s text inputs are analyzed for understanding the underlying query/intent. The user’s input such as “Search account Contoso” is routed to one of Microsoft’s Cognitive Service called Language Understanding Intelligent Service (LUIS). Read more about LUIS [here](https://www.luis.ai/). The LUIS service disambiguates or understands the intent of user input (in this case, the intent is to find information) and the target entity (in this case, the intended entity is an account named Contoso). This information is then passed on to Microsoft’s [Azure bot framework](https://azure.microsoft.com/services/bot-service/) which interacts with Dynamics data and retrieves the desired information for the user query.
+While using the model-driven apps in Dynamics 365 bot in Microsoft Teams, the user’s text inputs are analyzed for understanding the underlying query/intent. The user’s input such as “Search account Contoso” is routed to one of Microsoft’s Cognitive Service called Language Understanding Intelligent Service (LUIS). Read more about LUIS [here](https://www.luis.ai/). The LUIS service disambiguates or understands the intent of user input (in this case, the intent is to find information) and the target entity (in this case, the intended entity is an account named Contoso). This information is then passed on to Microsoft’s [Azure bot framework](https://azure.microsoft.com/services/bot-service/) which interacts with Dynamics data and retrieves the desired information for the user query.
 
 By installing and allowing access to use of the bot, you agree to allow the LUIS service and Azure bot framework to process the intent behind the input – which results in an enhanced conversational user experience. The LUIS service and Azure bot framework  may have varying levels of compliance compared to Dynamics 365 appsfor Sales. While the LUIS service has access to only the user queries and is not designed to be connected to the user’s Dynamics data or account, a user of the Dynamics 365 Sales bot could voluntarily enter a query containing Customer Data, Personal Data or other data and such query content could get sent to the LUIS service and the Azure bot framework. 
 
