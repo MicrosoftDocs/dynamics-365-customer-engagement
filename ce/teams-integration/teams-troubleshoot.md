@@ -97,7 +97,7 @@ Try repinning the Dynamics 365 tab. To repin, remove the tab and then re-add, as
 
 ### Error: User does not have permissions to create SharePointSite or DocumentLocation. This record is not connected to Dynamics 365.
 
-This means the user that is getting this error does not have sufficient permissions that is required for the  user role to pin an entity to a Teams channel. However, changes made to the record in Teams will update in model-driven apps in Dynamics 365, such as Dynamics 365 Sales and Dynamics 365 Customer Service. 
+This means the user that is getting this error does not have sufficient permissions that is required for the user role to pin an entity to a Teams channel. However, changes made to the record in Microsfot Teams will update in model-driven apps in Dynamics 365. 
 
 When the user tries to pin an entity to a Teams channel, this error will display in the notification bar:
 
@@ -122,7 +122,7 @@ To fix the issue, do the following:
 8. Give **Create** permissions to **SharePoint Site** and **Document Location**.
 9. Select **Save and Close**.
 
-Now when the user tries to pin the Common Data Service entity to the required Teams channel, it should work.
+Now when the user tries to pin a Common Data Service entity to the required Teams channel, it should work.
 
 
 ### Error: Sorry, the environment you selected is not up-to-date or is not supported. Please select another environment.
