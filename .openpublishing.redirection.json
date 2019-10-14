@@ -103,7 +103,7 @@
     },
     {
       "source_path": "ce/index.md",
-      "redirect_url": "on-premises/overview",
+      "redirect_url": "../customerengagement/on-premises/overview",
       "redirect_document_id": "false"
     },
     {
