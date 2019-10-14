@@ -36,8 +36,8 @@ Dynamics 365 Marketing is composed of several components that you must be aware 
 
 - **Dynamics 365 instance**. This provides the basic platform for the Marketing app and includes both a _platform server_ and an _organizational database_. This database is also shared by the Marketing app, which reads and stores much of its data here.
 - **Dynamics 365 Marketing application**. This is a collection of solutions that are installed on the platform server and add marketing features to Dynamics 365. It's installed on the platform server to add marketing features to Dynamics 365. It's also referred to as the _Marketing app_.
-- **Marketing services**. This is a collection of services that the Marketing app interacts with. They run in parallel with your Dynamics 365 instance. Among other things, live customer journeys and marketing email messages run on marketing services.
-- **Marketing-insights service**. This provides big-data services such as resolving segment queries, storing interaction data, and providing analytics based on this data. The marketing-insights service is just one of the marketing services already mentioned, but it's worth calling out separately because it comes up often.
+- **Marketing services**. This is a collection of services that the Marketing app interacts with. They run in parallel with your Dynamics 365 instance. Among other things, live customer journeys and marketing email messages run on marketing services. Also, all images uploaded to Dynamics 365 Marketing for use in emails and marketing pages are stored and served from here.
+- **Marketing-insights service**. This provides big-data services such as resolving segment queries, collecting and storing interaction data, and providing analytics based on this data. The marketing-insights service is just one of the marketing services already mentioned, but it's worth calling out separately because it comes up often.
 
 > [!IMPORTANT]
 > Marketing services (including the marketing-insights service) run in parallel with your Dynamics 365 Marketing instance, and thus follow their own lifecycle. These services aren't directly accessible to users, and the data they contain isn't included when copying, backing up, or restoring a Marketing instance. This means that interaction records (such as email clicks and website visits) and files (such as those used in emails and marketing pages) aren't included when you copy, backup, or restore an instance.
@@ -69,21 +69,19 @@ Because Marketing is more complex than most Dynamics 365 apps, and interacts wit
 After the copy, your target instance will be set up as follows:
 
 - All apps, settings, and customizations from your source instance will be present on the target instance.
-- All records that were live on the source instance (such as customer journeys, emails, lead-scoring records, and more) will revert to the draft state on the target instance. You must go live again with any of these records that you want to use on the target instance.
-- A new set of marketing services (including a new marketing-insights service) will be created and linked to the target instance. Data contained in the previous marketing services from the source instance (such as files and interactions) won't be included in the copy.
-- Because a new set of marketing services is created on the target instance, interaction data from your source instance (such as email clicks or website visits) won't be available to the target instance. Most insights data will be initialized. You can freely generate new interaction data on the target instance without affecting your source instance.
-- Because a new set of marketing services is created on the target instance,  files uploaded to your source instance (such as images used in emails and landing pages) won't be available to the target instance. You'll still be able to see the file records on the target instance, but they'll only contain metadata, not the images themselves. You won't see any thumbnails for the copied file records, and if you try to add them to a new email or page design, no image will be available. However, if you go live with an email or page that was previously published on the source instance, the published design will continue to use the previous image URLs from the source instance&mdash;these images will still appear in the republished designs provided they are still available on the source instance.
 - If you chose to do a *full copy*, the entire organizational database of your source instance will be copied to the target instance. This means that copied data from your source instance will be visible on the target instance, but your work in the target instance won't affect your source database from now on.
 - If you chose to do a *minimal copy*, all your apps and customizations will still be present on the target instance, but the organizational database will be nearly empty, so none of your source data (including email messages, portal content, and customer journeys) will be there.
+- All records that were live on the source instance (such as customer journeys, emails, lead-scoring records, and more) will revert to the draft state on the target instance. You must go live again with any of these records that you want to use on the target instance.
+- A new set of marketing services (including a new marketing-insights service) will be created and linked to the target instance.
+- Because a new set of marketing services is created on the target instance, interaction data from your source instance (such as email clicks or website visits) won't be available to the target instance. Most insights data will be initialized. You can freely generate new interaction data on the target instance without affecting your source instance.
+- Because a new set of marketing services is created on the target instance,  files uploaded to your source instance (such as images used in emails and landing pages) won't be available to the target instance. You'll still be able to see the file records on the target instance, but they'll only contain metadata, not the images themselves. You won't see any thumbnails for the copied file records, and if you try to add them to a new email or page design, no image will be available. However, if you go live with an email or page that was previously published on the source instance, the published design will continue to use the previous image URLs from the source instance&mdash;these images will still appear in the republished designs provided they are still available on the source instance.
 - If the Marketing app on your source instance used a Dynamics 365 Portal, then you might choose to also set up a new portal on the target instance to host its marketing pages and event websites (requires an unconfigured Dynamics 365 Portals license to be available on your tenant). [Portals are optional](portal-optional.md), so you can choose not to use a portal with the copied instance if you prefer, even if the source instance was using one.
 
 <a name="prepare-source"></a>
 
 ### Step 1: Prepare your source instance
 
-The _source instance_ is the Marketing instance you are copying _from_. Before you start copying, you must prepare the source instance as described here.
-
-To prepare your source instance for copying, [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and make sure that the Dynamics 365 Marketing application and its related solutions are all up to date on your source instance, as described in [Keep Marketing up to date](apply-updates.md).
+The _source instance_ is the Marketing instance you are copying _from_. To prepare your source instance for copying, [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and make sure that the Dynamics 365 Marketing application and its related solutions are all up to date on your source instance, as described in [Keep Marketing up to date](apply-updates.md).
 
 
 ### Step 2: Prepare your target instance
@@ -119,15 +117,15 @@ After creating your copy, you must do the following:
 As with copy operations, backup and restore operations typically require a few extra steps when Marketing is installed.
 
 > [!IMPORTANT]
-> Backups **do not** include marketing services or the data they contain. When you restore a backup, all organizational data, solutions, apps, and customizations will be present, but no interaction data, insights, or previously uploaded files will be available on the restored system.
+> Backups **do not** include marketing services or the data they contain. When you restore a backup, all organizational data, solutions, apps, and customizations will be present, but no interaction data, insights, or previously uploaded files will be available on the restored system. The situation is similar to that of [copying a Marketing instance](#copy-to-sandbox).
 
 ### Automatic system backups
 
-Microsoft automatically takes daily backup copies of all Dynamics 365 instances, including those that have the Marketing app installed. Like other types of copies and backups, automatic system backups include the full organizational database, but not the interaction records stored in the marketing-insights service database. System backups are usually kept for just a few days and then deleted again.
+Microsoft automatically takes daily backup copies of all Dynamics 365 instances, including those that have the Marketing app installed. Like other types of copies and backups, automatic system backups include the full organizational database, but not the interaction records or image files stored in the marketing services. System backups are usually kept for just a few days and then deleted again.
 
 For more information about automatic backups in Dynamics 365, see [System backups](../admin/backup-restore-instances.md#BKMK_DailySystemBackup).
 
-For more information about how to backup interaction data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
+For more information about how to backup marketing-services data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
 
 ### Create an on-demand backup
 
@@ -136,14 +134,14 @@ You can create an on-demand backup at any time, but when Marketing is installed 
 1. [Open the Dynamics 365 admin center](/dynamics-365-admin-center.md) and make sure that the Dynamics 365 Marketing application and its related solutions are all completely up to date on your source instance, as described in [Keep Marketing up to date](apply-updates.md).
 1. Create the on-demand backup as usual, as described in [Backup and restore instances](../admin/backup-restore-instances.md).
 
-As with automatic backups, on-demand backups include the full organizational database, but not the interaction records stored in the marketing-insights service database. For more information about how to backup interaction data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
+As with automatic backups, on-demand backups include the full organizational database, the interaction records or image files stored in the marketing services. For more information about how to backup marketing-services data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
 
 ### Restore a backup onto another instance
 
 You can easily restore any on-demand or automatic system backup to any available sandbox instance (other than the instance you took the backup from). But as with copy operations, you need to prepare the target instance first.
 
 > [!WARNING]
-> This procedure will completely delete the target instance. If Dynamics 365 Marketing is installed on the target instance, then it will be completely uninstalled (which will release the license) and all data (including interaction records) will be deleted. Even if you backup the target instance first, the backup won't include interaction data, so if you need to preserve interaction data from the target instance, be sure to back up the database for your customer-insights service, either to blob storage to some other storage media. For more information about how to backup interaction data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
+> This procedure will completely delete the target instance. If Dynamics 365 Marketing is installed on the target instance, then it will be completely uninstalled (which will release the license) and all data (including files and interaction records) will be deleted. Even if you backup the target instance first, the backup won't include image files or interaction data, so if you need to preserve these, be sure to back up your marketing-services data, either to blob storage to some other storage media. For more information about how to backup marketing-services data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
 
 > [!IMPORTANT]
 > Your restored instance requires it's own Dynamics 356 Marketing license. If the target instance already has Marketing installed, then the restored instance will automatically take over that license (you don't have to do anything). If the target instance doesn't have Marketing installed, then we recommend you make sure you have an unused Marketing license on your tenant before you start the restore, and purchase one if you don't. If you don't have a Marketing license available before restoring, then the restored instance will end in a *disconnected state* which means that many key features won't work (relevant error messages will be shown); in this case, you can just purchase a new Marketing license and then [re-run the setup wizard](re-run-setup.md) to apply it to your restored instance.
