@@ -238,11 +238,41 @@ Subscription centers only work when they "know" who they are talking to. This en
 If you open a subscription center by opening its URL directly (or by using  a link sent in a test message), the page will load, but the form will be empty, all subscription lists will be cleared, and you won't be able to submit it. To fully test your subscription center, set up a simple customer journey that targets a single contact record with your email address and sends out a simple marketing email that links to your subscription center (similar to the journey presented in the previous section, but be sure to use a very limited segment). When you receive the message, select the subscription center link and test its features.
 
 
-## See which lists each contact subscribes to
+## View and edit which lists each contact subscribes to
 
-To see a contact's subscriptions, open their contact record, go to the **Details** tab and check the **Subscription lists** section.
+### View, add, or remove subscription list memberships for a displayed contact
 
-![Lists a contact subscribes to](media/subscription-list-contact.png "Lists a contact subscribes to")
+To view, add, or remove list memberships for a displayed contact:
+
+1. Go to **Marketing** > **Customers** > **Contacts**.
+1. Open the contact you want to view or edit.
+1. Open the **Details** tab of the contact record and find the **Subscription lists** section.
+
+    - Each subscription list that the contact already belongs to is listed here.
+    - To remove the contact from any of these subscriptions, select the **More options** button (which looks like an ellipsis) next to the target list and then select **Remove**.
+    - To add the contact to any existing subscription list, select the **More commands** button (which looks like an ellipsis) in the **Subscription lists** heading and then select **Add existing marketing list**. A flyout opens. Use it to search for and select each list that you want to add the selected contact(s) to. The select **Add** to add the contacts and close the flyout.
+
+    ![Lists a contact subscribes to](media/subscription-list-contact.png "Lists a contact subscribes to")
+
+### Add contacts to lists from a contact list or form view
+
+To add displayed contacts to a subscription list or static marketing list: 
+
+1. Go to **Marketing** > **Customers** > **Contacts**.
+
+1. Do one of the following:
+
+    - Set filters an view options to find a collection of one or more contacts. Then place a check mark in the left-hand column for each contact you want to add or remove.
+    - Open or create a contact record.
+
+1. On the command bar, open the **Lists and segments** drop-down list and select one of the following:
+    - **Add to subscription list**: To add the currently shown or selected contacts to one or more existing subscription lists.
+    - **Add to marketing list**: To add the currently shown or selected contacts to one or more existing static marketing lists.
+
+    (Note that you can also add or remove the contact(s) to/from static segments using this drop-down list. More information: [Manage segment memberships from a contact record](manage-segments-from-contacts.md))
+
+1. A flyout opens. Use it to search for and select each list that you want to add the selected contact(s) to. The select **Add** to add the contacts and close the flyout.
+
 
 
 ### See also

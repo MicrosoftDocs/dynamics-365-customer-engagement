@@ -170,7 +170,7 @@ Here's an example of how to define a segment that starts by finding a collection
     - Select the close button to remove the default contact-based query group from the **Designer** area. Many of your segments will probably start and end with the contact entity, but for this example we will start with opportunities instead.
 
 1. When default group closes, it's replaced by a **Select a profile or relationship** drop-down list. Select **Opportunity** from here. (If you don't see the **Opportunity** entity listed here, then you probably need to set up syncing for this entity as described in the first step of this procedure; note that it can take up to half an hour for a new entity to appear in this list after the first sync.)  
-    ![Select the waitlist-item entity](media/segment-opportunity-choose-entity.png "Select the waitlist-item entity")
+    ![Select the opportunity entity](media/segment-opportunity-choose-entity.png "Select the opportunity entity")
 
 1. Complete the row to create the clause:  
     **Opportunity | Est. Revenue | &ge; | 10000**.  
