@@ -159,7 +159,7 @@ In the attribute mapping section, you can choose any date and time fields on the
 
 For example, imagine you enable **Leads** for scheduling. You can choose two date fields on the **Lead** entity (either existing or custom fields) that will automatically be the from and to dates when you attempt to schedule the Lead.
 
-## Additional Notes
+## Additional notes
 
 > [!Note]
 > Using **Date Window Start** and **Date Window End** means the work order must be completed during the date range based on the total duration of the requirement. For example, if you expect a work order to take 25 hours, but the date range is 1 day (24 hours), then no resources will return as results because no one can complete the 25 hour work order in 1 day, even if he or she works 24 hours each day as working hours.
