@@ -2,7 +2,7 @@
 title: "Install and set up the Dynamics 365 app for Teams| MicrosoftDocs"
 ms.custom: 
 description: "Install and set up the Dynamics 365 app for Teams."
-ms.date: 10/11/2019
+ms.date: 10/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
