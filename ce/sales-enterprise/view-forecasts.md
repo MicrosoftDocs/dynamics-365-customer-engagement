@@ -39,13 +39,13 @@ Forecasts help organizations, teams, and salespeople project anticipated sales a
     The forecasts view page displays. 
 
     > [!div class="mx-imgBorder"]
-    > ![Forecast view page](media/forecast-view-page.png "Forecast view page")
+    > ![Forecasts view page](media/forecast-view-page.png "Forecasts view page")
     
 4.	On the **Forecasts** home page, select the following:
 
-    - **Forecast configuration**: Select a forecast from the dropdown. Any forecasts where you appear in the forecast hierarchy will show here. 
+    - **Forecast configuration**: Select a forecast from the drop-down list. Any forecasts where you appear in the forecast hierarchy will show here. 
 
-    - **Forecast period**: Set the forecast period. Options in the dropdown reflect the number of forecast periods defined in the forecast configuration.
+    - **Forecast period**: Set the forecast period. Options in the drop-down list reflect the number of forecast periods defined in the forecast configuration.
  
     > [!div class="mx-imgBorder"]
     > ![Drop-down list to select forecast](media/forecast-view-drop-down.png "Drop-down list to select forecast")
@@ -56,7 +56,7 @@ Forecasts help organizations, teams, and salespeople project anticipated sales a
 
     -	**Quota**: A target metric set for a specific owner over a given timeframe. Other calculations, such as revenue generation progress, are measured against quotas. 
 
-    -	**Best case**: Shows the aggregated (rolled-up) value of estimated revenue of all open opportunities This value can be edited inline during forecast configuration (the field becomes editable when selected.)
+    -	**Best case**: Shows the aggregated (rolled-up) value of estimated revenue of all open opportunities. This value can be edited inline during forecast configuration (the field becomes editable when selected.)
 
     -  **Committed**: Shows the aggregated (rolled-up) value of estimated revenue for all open opportunities with forecast category set to **Committed**. This value can be edited inline during forecast configuration (field becomes editable when selected). 
 
@@ -68,7 +68,11 @@ Forecasts help organizations, teams, and salespeople project anticipated sales a
 
 ## Forecasts and sales hierarchy
 
-If using the out-of-the-box *org chart forecast* template, the forecast will be based on the sales team hierarchy as defined by the manager role on the User record. For example, if Wade Roque is a sales manager with five direct reports, and he designated as manager in his direct reports' user records, he will see a forecast for himself and his five direct reports. 
+
+<!-- from editor: Is Wade Roque from a list of approved fictitious names? (I'm guessing from the 2019 list, which I don't have in front of me.) I notice your other names are from the 2020 list, but I don't find this one. -->
+
+
+If using the out-of-the-box *org chart forecast* template, the forecast will be based on the sales team hierarchy as defined by the manager role on the User record. For example, if Wade Roque is a sales manager with five direct reports, and he is designated as manager in his direct reports' user records, he will see a forecast for himself and his five direct reports. 
 
 > [!div class="mx-imgBorder"]
 > ![Forecasts for a manager and direct reports](media/forecast-for-team-hierarchy.png "Forecasts for a manager and direct reports")
@@ -81,12 +85,12 @@ The parent row (for the manager) shows values rolled up from all the child recor
  
 ## See the participating opportunities
 
-To view the underlying opportunities that contributed to a forecasted amount, go to the user row, hover the cursor over a column, click on the vertical ellipses and select **Show opportunities**.
+To view the underlying opportunities that contributed to a forecasted amount, go to the user row, hover the cursor over a column, select the vertical ellipsis, and select **Show opportunities**.
 
 > [!div class="mx-imgBorder"]
 > ![Show opportunities button on the Forecast list](media/forecast-view-show-opportunities.png "Show opportunities button on the Forecast list")
  
-The Forecast opportunities dialog box opens. It shows a list of opportunities that were used to calculate the forecast value.
+The **Forecast opportunities** dialog box opens. It shows a list of opportunities that were used to calculate the forecast value.
 
 > [!div class="mx-imgBorder"]
 > ![Forecast opportunities  dialog box shows opportunities included in the forecast](media/forecast-view-opportunities.png "Forecast opportunities dialog box shows opportunities included in the forecast")
@@ -94,11 +98,11 @@ The Forecast opportunities dialog box opens. It shows a list of opportunities th
 
 ## Adjust forecasted values
 
-Adjustments allow sales managers the ability to use their own assessments when reviewing their team’s forecasts. For example, if the sales manager thinks that one of his direct report's best case opportunities might not result in $60,000, they can change the value in the forecast to a different value. Upon saving the adjustment, the changes are rolled up to the parent record and up the hierarchy. 
+Adjustments allow sales managers the ability to use their own assessments when reviewing their team’s forecasts. For example, if the sales manager thinks that one of their direct report's best case opportunities might not result in $60,000, they can change the value in the forecast to a different value. Upon saving the adjustment, the changes are rolled up to the parent record and up the hierarchy. 
 
 To make adjustments, a forecast column must be marked as editable. To do so, a forecast maker must specifically identify the editable columns during forecast configuration and enable the option **Allow adjustments**. Once completed, the selected columns will be available for adjustments.
 
-Select the field and the field becomes editable. Enter the value to adjust. In this example, the **Best case** column is configured as editable and you can see the value $500 is adjusted to $1000.
+Select the field and the field becomes editable. Enter the value to adjust. In this example, the **Best case** column is configured as editable and you can see the value $500 is adjusted to $1,000.
 
 > [!div class="mx-imgBorder"]
 > ![Adjusted amount in the forecast](media/forecast-view-adjust-opportunity.png "Adjusted amount in the forecast")
@@ -124,25 +128,29 @@ To recalculate and refresh the data in the forecast manually, follow these steps
 1. Select **Recalculate** on the command bar.
 
     > [!div class="mx-imgBorder"]
-    > ![Select recalculation](media/forecast-select-recalculate.png "Select recalculation")
+    > ![Select Recalculate](media/forecast-select-recalculate.png "Select Recalculate")
 
 2. On the confirmation message, select **Ok**.
 
     > [!div class="mx-imgBorder"]
     > ![Confirmation message to recalculate](media/forecast-recalculate-data-confirmation-message.png "Confirmation message to recalculate")
 
-    A toast notification appears at the bottom of the screen confirming the recalculation. Recalculation happens in the background and you can continue to work while recalculation is happening.
+    A notification appears at the bottom of the screen confirming the recalculation. Recalculation happens in the background and you can continue to work while recalculation is happening.
 
     > [!div class="mx-imgBorder"]
-    > ![Toast notification to confirm recalculation](media/forecast-recalculate-data-toast-notification.png "Toast notification to confirm recalculation")
+    > ![Notification to confirm recalculation](media/forecast-recalculate-data-toast-notification.png "Notification to confirm recalculation")
 
-3. After the application recalculates the forecast data a toast notification appears to refresh the data. On the toast notification, select **Refresh data**.
+3. After the application recalculates the forecast data, a notification appears to refresh the data. On the notification, select **Refresh data**.
+
+
+<!--from editor: On the image that I see online, it says "Refresh page" rather than "Refresh data." -->
+
 
     > [!div class="mx-imgBorder"]
-    > ![Toast notification to refresh data](media/forecast-refresh-data-toast-notification.png "Toast notification to refresh data")
+    > ![Notification to refresh data](media/forecast-refresh-data-toast-notification.png "Notification to refresh data")
 
     > [!NOTE]
-    > You can cancel the toast notification and refresh the data later. Select **Refresh** on the command bar.
+    > You can cancel the notification and refresh the data later. Select **Refresh** on the command bar.
 
     The data in the forecast reflects the latest opportunity and hierarchical changes.
 
@@ -150,6 +158,6 @@ To recalculate and refresh the data in the forecast manually, follow these steps
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)
 
-[Configure forecast](configure-forecast.md)
+[Configure a forecast](configure-forecast.md)
 
 [Entity reference for manual forecasting](developer/reference/manual-forecasting-entity-reference.md)
