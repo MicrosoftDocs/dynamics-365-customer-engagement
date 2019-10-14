@@ -18,7 +18,7 @@ Anticipating areas where customers need help and then engaging them through chat
 
 Consider the scenarios given below for initiating chat proactively.
 
-## Scenario 1
+## Scenario 1: Customer wait time
 
 Amy has accidentally damaged her Surface Book and is on the product knowledge base trying to seek answers for about 20 seconds. She is then offered a proactive chat.
 
@@ -55,7 +55,7 @@ Amy can accept the chat offer and have a conversation with the bot to sort out h
 
 If the bot fails to address the issue, it can escalate the conversation to a human agent.
 
-## Scenario 2
+## Scenario 2: Customer browsing multiple webpages
 
 Thomas is browsing through the Microsoft Surface community webpage. He is looking for answers of his question on Microsoft Surface device. He has browsed through multiple pages but is not able to find the answers he is looking for.
 
@@ -103,7 +103,7 @@ else {
 VisitCounter() 
 ```
 
-## Scenario 3
+## Scenario 3: Checking status for support case
 
 Jacob is browsing through the support page for Microsoft Surface devices to find some more information regarding his open support case.
 
