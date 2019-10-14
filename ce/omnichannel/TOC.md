@@ -60,6 +60,7 @@
 ##### [Macros](administrator/macros.md)
 ##### [Pass parameter values](administrator/pass-parameter-values.md)
 ##### [Agent scripts](administrator/agent-scripts.md)
+##### [Smart assist](administrator/smart-assist.md)
 #### [Create quick replies](administrator/create-quick-replies.md)
 #### [Configure and manage custom presence](administrator/presence-custom-presence.md)
 #### [Share knowledge articles](administrator/knowledge-management-oc.md)

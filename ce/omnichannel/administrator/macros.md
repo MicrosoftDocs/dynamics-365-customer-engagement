@@ -44,7 +44,7 @@ Macros helps address these challenges aiding users to perform day-to-day operati
 
 ## Prerequisites
 
-- Install Dynamics 365 Productivity Tools solutions
+- Install Dynamics 365 Productivity Tools solution
 
 ## Built-in macros
 
@@ -175,3 +175,11 @@ To learn more, see [Pass data parameters in macros](pass-parameter-values.md#pas
 8. Select **Show advanced options** to add required attributes and values. If required, you can select **+ Add new item** to add more attributes.
 
 9. Select **Save and close** to save and close the macro changes.
+
+## See also
+
+[Pass parameter values](pass-parameter-values.md)
+
+[Agent scripts](agent-scripts.md)
+
+[Smart Assist](smart-assist.md) 

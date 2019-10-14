@@ -42,7 +42,7 @@ Agent scripts provide guidance to agents about what they should to doing when th
 
 ## Prerequisites
 
-- Install Dynamics 365 Productivity Tools solutions
+- Install Dynamics 365 Productivity Tools solution
 
 ## Create agent scripts
 
@@ -159,3 +159,7 @@ The agent script is associated with the session template.
 ## See also
 
 [Agent script](../agent/agent-oc/oc-agent-scripts.md)
+
+[Macros](macros.md)
+
+[Smart Assist](smart-assist.md)
