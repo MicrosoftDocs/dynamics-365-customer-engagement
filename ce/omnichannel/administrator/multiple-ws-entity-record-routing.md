@@ -120,10 +120,10 @@ If you are creating or editing an entity record workstream, you must update **E
 | When the record is created | Do not modify. |
 | Initialization | Do not modify. |
 | Omnichannel Work Distribution | You can see the list of entity records for which work streams were created in the Omnichannel Administrator app. |
-| /<Entity Record/> | Select to view the components under the Entity record. |
-| Work Stream Initialization - /<Entity Record/> | Do not modify. |
-| Entity record - /<Entity Record/> | Do not modify. |
-| Work Stream Selection for Routing (/<Entity Record/> ) | Update the condition and workstreams Id. |
+| \<Entity Record\> | Select to view the components under the Entity record. |
+| Work Stream Initialization - \<Entity Record\> | Do not modify. |
+| Entity record - \<Entity Record\> | Do not modify. |
+| Work Stream Selection for Routing (\<Entity Record\> ) | Update the condition and workstreams Id. |
 | Invoke Omnichannel | Do not modify. |
 
 ### Update entity records work distribution flow
