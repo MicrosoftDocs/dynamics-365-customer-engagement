@@ -103,7 +103,7 @@ else {
 VisitCounter() 
 ```
 
-## Scenario 3: Checking status for support case
+## Scenario 3: Customer checking status for support case
 
 Jacob is browsing through the support page for Microsoft Surface devices to find some more information regarding his open support case.
 
