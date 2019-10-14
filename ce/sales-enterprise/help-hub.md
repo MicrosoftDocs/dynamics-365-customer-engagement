@@ -35,7 +35,7 @@ manager: annbe
 <li><a href="../admin/system-settings-dialog-box-goals-tab.md" data-raw-source="[Define Goals settings](../admin/system-settings-dialog-box-goals-tab.md)">Define Goals settings</a></li>
 <li><a href="create-edit-goal-sales.md" data-raw-source="[Create goals to track progress](create-edit-goal-sales.md)">Create goals to track progress</a></li>
 <li><a href="../admin/set-up-sales-territories-organize-business-markets-geographical-area.md" data-raw-source="[Set up sales territories to organize business markets by geographical area](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)">Set up sales territories to organize business markets</a></li>
-<li><a href="../sales-enterprise/admin-guide.md" data-raw-source="[More resources for admins](../sales-enterprise/admin-guide.md)">More resources for admins</a></li>
+<li><a href="../sales-enterprise/admin-guide.md" data-raw-source="[More help resources for admins...](../sales-enterprise/admin-guide.md)">More help resources for admins...</a></li>
 </td></tr>
 
 <tr><td>
@@ -44,7 +44,7 @@ manager: annbe
 <li><a href="create-edit-lead-sales.md" data-raw-source="[Create or edit a lead](create-edit-lead-sales.md)">Create or edit a lead</a></li>
 <li><a href="qualify-lead-convert-opportunity-sales.md" data-raw-source="[Convert a lead to an opportunity](qualify-lead-convert-opportunity-sales.md)">Convert a lead to an opportunity</a></li>
 <li><a href="create-edit-opportunity-sales.md" data-raw-source="[Create or edit an opportunity](create-edit-opportunity-sales.md)">Create or edit an opportunity</a></li>
-<li><a href="user-guide.md" data-raw-source="[More resources for sales people](user guide.md)">More resources for sales people</a></li>
+<li><a href="user-guide.md" data-raw-source="[More help resources for sales people...](user guide.md)">More help resources for sales people...</a></li>
 
 
 </td><td>
