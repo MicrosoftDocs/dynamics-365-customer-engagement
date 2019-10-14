@@ -121,13 +121,6 @@ The **General** tab is for defining basic properties–such as forecast name, ty
     | **Valid from** | The start date is read only and helps you to identify the date when the forecast starts. |
     | **Valid to** | The end date is read only and helps you to identify the date when the forecast ends. |
  
-<!--from editor: 
-In the two lines above, I changed it to "read only" from "ready only".  
-Also, the screenshot shows "Start this forecast" rather than "Forecast starts at". These should match. 
--->
-
-
-
     > [!div class="mx-imgBorder"]
     > ![Scheduling section](media/forecast-general-tab-scheduling-section.png "Scheduling section")
 

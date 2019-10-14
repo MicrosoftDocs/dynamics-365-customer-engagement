@@ -31,10 +31,7 @@ Salespeople can use forecasting to spot pipeline risks that jeopardize their dea
 
 A new forecast starts with defining parameters, such as the forecasting time period, and which data will be used. To learn more, see [Configure a forecast](configure-forecast.md).
 
-An option set must be chosen, and columns configured to determine the confidence level of an opportunity as it moves along the path to conversion. For example, when you select the entity as **opportunities** and the option set as **forecast categories**, the forecast grid displays the stages that are defined in the option set. You can also manually configure your columns for a fully customized forecast. To learn more about the different stages **Forecast categories** option set, see [Capture forecast category for opportunity](capture-forecast-category-opportunity.md).  
-
-
-<!--from editor: In the sentence above, should it say "To learn more about the different stages of the Forecast categories option set ...."?  -->
+An option set must be chosen, and columns configured to determine the confidence level of an opportunity as it moves along the path to conversion. For example, when you select the entity as **opportunities** and the option set as **forecast categories**, the forecast grid displays the stages that are defined in the option set. You can also manually configure your columns for a fully customized forecast. To learn more about the different stages of the Forecast categories option set, see [Capture forecast category for opportunity](capture-forecast-category-opportunity.md).  
 
 
 ## See also
@@ -44,4 +41,3 @@ An option set must be chosen, and columns configured to determine the confidence
 [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)  
 
 [View forecasts](view-forecasts.md)
-

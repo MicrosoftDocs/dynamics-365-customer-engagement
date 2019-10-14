@@ -68,10 +68,6 @@ Forecasts help organizations, teams, and salespeople project anticipated sales a
 
 ## Forecasts and sales hierarchy
 
-
-<!-- from editor: Is Wade Roque from a list of approved fictitious names? (I'm guessing from the 2019 list, which I don't have in front of me.) I notice your other names are from the 2020 list, but I don't find this one. -->
-
-
 If using the out-of-the-box *org chart forecast* template, the forecast will be based on the sales team hierarchy as defined by the manager role on the User record. For example, if Wade Roque is a sales manager with five direct reports, and he is designated as manager in his direct reports' user records, he will see a forecast for himself and his five direct reports. 
 
 > [!div class="mx-imgBorder"]
@@ -140,14 +136,11 @@ To recalculate and refresh the data in the forecast manually, follow these steps
     > [!div class="mx-imgBorder"]
     > ![Notification to confirm recalculation](media/forecast-recalculate-data-toast-notification.png "Notification to confirm recalculation")
 
-3. After the application recalculates the forecast data, a notification appears to refresh the data. On the notification, select **Refresh data**.
-
-
-<!--from editor: On the image that I see online, it says "Refresh page" rather than "Refresh data." -->
+3. After the application recalculates the forecast data, a notification appears to refresh the data. On the notification, select **Refresh page**.
 
 
     > [!div class="mx-imgBorder"]
-    > ![Notification to refresh data](media/forecast-refresh-data-toast-notification.png "Notification to refresh data")
+    > ![Notification to refresh page](media/forecast-refresh-data-toast-notification.png "Notification to refresh page")
 
     > [!NOTE]
     > You can cancel the notification and refresh the data later. Select **Refresh** on the command bar.
