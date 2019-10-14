@@ -65,7 +65,7 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
 
      - Or, create a new team:  
      
-        1. select **Create new team**.
+        1. Select **Create new team**.
             > [!div class="mx-imgBorder"]
             > ![Choose a team](media/teams-create-new-team-4.png "Choose a team")
 
