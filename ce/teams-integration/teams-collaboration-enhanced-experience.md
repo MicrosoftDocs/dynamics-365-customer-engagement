@@ -94,8 +94,7 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
         > [!div class="mx-imgBorder"]
         > ![Choose teammates](media/teams-choose-teammates-7.png "Choose teammates")
 
-
-  4. When the connection process is complete, the system will open Microsoft Teams and go to channel that you connected.
+   4. When the connection process is complete, the system will open Microsoft Teams and go to channel that you connected.
   
 
 
