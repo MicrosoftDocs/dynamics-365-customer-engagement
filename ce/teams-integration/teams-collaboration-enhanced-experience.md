@@ -55,7 +55,7 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
    
 4. After you select **Get started** or **Create a new connection**, you will enter into the connection process. 
 
-   1. **Team selection**: Choose an existing team or create a new team.
+    1. **Team selection**: Choose an existing team or create a new team.
    
      - Choose an existing team that you belong to and then select **Next**.
       
