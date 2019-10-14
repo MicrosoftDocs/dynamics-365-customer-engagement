@@ -68,7 +68,7 @@ Configuration of forecasting includes the following steps:
 
 2. [Enter configuration and scheduling information in the General tab.](#enter-configuration-and-scheduling-information-in-the-general-tab)
 
-3. [Set up column options in the Layout tab.](#setup-column-options-in-the-layout-tab)
+3. [Set up column options in the Layout tab.](#set-up-column-options-in-the-layout-tab)
 
 4. [Publish and upload quota for forecast.](#publish-and-upload-quota-for-forecast)
 
