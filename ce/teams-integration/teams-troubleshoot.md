@@ -69,7 +69,7 @@ This happens when the external app for Microsoft Teams service is not enabled by
 6. Restart Microsoft Teams and then try seaching for **Dynamics 365** again in the Teams app store.
 
 ### Error: This record is not connected to Dynamics 365. Repin the tab and try again.
-A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 apps. However, changes made to the record in Teams will update in Dynamics 365 apps.
+A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 apps. However, changes made to the record in Teams will update in the model-driven apps Dynamics 365.
 
 This is how the error will display on the notification bar:
 
@@ -97,7 +97,7 @@ Try repinning the Dynamics 365 tab. To repin, remove the tab and then re-add, as
 
 ### Error: User does not have permissions to create SharePointSite or DocumentLocation. This record is not connected to Dynamics 365.
 
-This means the user that is getting this error does not have sufficient permissions that is required for the  user role to pin an entity to a Teams channel. However, changes made to the record in Teams will update in model-driven apps in Dynamics 365, such as Dynamics 365 Sales and Dynamics 365 Customer Service. 
+This means the user that is getting this error does not have sufficient permissions that is required for the  user role to pin an entity to a Teams channel. However, changes made to the record in Teams will update in model-driven apps in Dynamics 365.
 
 When the user tries to pin an entity to a Teams channel, this error will display in the notification bar:
 
@@ -137,7 +137,7 @@ Or, you may get this error:
 > [!div class="mx-imgBorder"] 
 > ![environment is not up to date](media/teams-error-org-not-latest.png "environment is not up to date")
 
-The Dynamics 365 apps environment that you are trying to connect does not support Microsoft Teams integration. You can wait for the environment to be updated or pick a different environment that has been updated to support Teams integration.
+The Common Data Service environment that you are trying to connect does not support Microsoft Teams integration. You can wait for the environment to be updated or pick a different environment that has been updated to support Teams integration.
 
 ## Error messages in Dynamics 365 apps 
 
@@ -151,7 +151,7 @@ You are currently configured to use SharePoint on-premises for document manageme
 
 You need to be a member of the connected channel team to view files. Contact the connected channel team owner and request to be added as a member. You need to determine the document location for which to request membership.
 
-1. In Dynamics 365 apps, open the record with the permissions error message.
+1. In your app, open the record with the permissions error message.
 2. Select **Related** > **Documents**.  
   
    > [!div class="mx-imgBorder"] 
