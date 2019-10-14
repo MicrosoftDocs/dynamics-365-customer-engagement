@@ -46,7 +46,7 @@ Each of the steps could be identified with the actionable icon. When you expand 
 
 ## Text instructions
 
-The text instruction provides guidance on the action you need to perform. The step in the agent script shows a title, instruction(s), and the text instruction icon that is actionable. After you perform the step based on the instruction, you can select the icon **Mark as done** to indicate that you've executed the step.
+The text instruction provides guidance on the action you need to perform. The step in the agent script shows a title, instruction(s), and the text instruction icon that is actionable. After you perform the step based on the instruction(s), you can select the **Mark as done** icon to indicate that you've executed the step.
 
 **Example:**
 
@@ -81,9 +81,9 @@ The step is used to load another agent script from the current agent script. Whe
 
 ## Sample agent script
 
-When you get an incoming conversation (chat) notification, you accept the conversation request and then a session is started.
+When you get an incoming conversation (chat) notification, you accept the conversation request and then a chat session is started. Now, the agent script is available in a form based on the administrator configuration. 
 
-Now, the agent script is available in any form based on the administrator configuration. For example, if the administrator has configured in the Customer Summary, then you can see view the agent script in the Customer Summary form.
+For example, if the administrator has configured in the Customer Summary form, then you can see view the agent script in the Customer Summary form.
 
 Let us see the sample agent script:
 
