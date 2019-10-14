@@ -23,7 +23,7 @@ search.app:
 ---
 # Work with Teams integration
 
-Once Team integration is set up, you can start working with Dynamics 365 customer information and share files directly from Microsoft Teams.
+Once Team integration is set up, you can start working with your model-driven app information and share files directly from Microsoft Teams.
 
 
 
