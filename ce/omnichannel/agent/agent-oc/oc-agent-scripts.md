@@ -42,11 +42,11 @@ Agent script section consists a set of steps. Based on the type of agent script 
 - Macro
 - Agent script
 
-Each of the step could be identified with the icon that are actionable. When you expand a step, the section displays short instructions of what the step entails and the action you performed using the icons next to the it. The step that are executed successfully are indicated with a green tick icon, and the step that failed are indicated with a red cross icon. You can execute the steps again as needed and the final state of the step green tick or red cross is based on the last run.
+Each of the steps could be identified with the actionable icon. When you expand a step, the section displays a short description of what the step entails and the action you need to perform using the icons next to it. The step that is executed successfully is indicated with a green tick icon, and the step that has an error is indicated with a red cross icon. You can execute the steps again as needed, and the final state of the step, green tick or red cross, is based on the last run.
 
 ## Text instructions
 
-The text instructions provides guidance on the action you must perform. The **Text instructions** step in the agent script shows a title, instruction(s), and the text instruction icon. After you perform the the instruction, you can select the icon **Mark as done** to indicate that you've executed the step.
+The text instruction provides guidance on the action you need to perform. The step in the agent script shows a title, instruction(s), and the text instruction icon that is actionable. After you perform the step based on the instruction, you can select the icon **Mark as done** to indicate that you've executed the step.
 
 **Example:**
 
@@ -74,27 +74,25 @@ In this is example, when an agent selects the macro icon, the system opens a new
 
 ## Agent script
 
-The step is used to navigated to another agent script which is invoked from the current agent script. When you select the view icon, the system loads the agent script.
+The step is used to load another agent script from the current agent script. When you select the view icon, the system loads the agent script. You can see that newly loaded script replaces the current script in the Agent script menu.
 
 > [!div class='mx-imgBorder']
 > ![Sub agent script](../../media/agent-script-view.PNG "Sub agent script")
 
 ## Sample agent script
 
-When you get an incoming conversation (chat)) notification, you accept the conversation request and then a session is started. 
+When you get an incoming conversation (chat) notification, you accept the conversation request and then a session is started.
 
-Now, based on the administrator configuration, you can see view the agent script in the Customer Summary or any other entity forms.
+Now, the agent script is available in any form based on the administrator configuration. For example, if the administrator has configured in the Customer Summary, then you can see view the agent script in the Customer Summary form.
 
-Let us see the sample agent script.
-
-In the agent script menu, you can see the following scripts:
+Let us see the sample agent script:
 
 - Chat session
 - Close session
 
 Below the menu you can see the description for the selected script.
 
-When Chat session script is selected, the instruction you see is:
+When Chat session script is selected, the step you see is:
 
 **Please follow these steps for resolving general chat queries**
 
