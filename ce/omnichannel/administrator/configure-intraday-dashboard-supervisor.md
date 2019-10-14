@@ -130,7 +130,7 @@ Before you configure the Intraday insights for Unified Service Desk, you must [c
 
 You must perform the following tasks to configure the Intraday insights for **Unified Service Desk**:
 
-1. [configure Intraday insights for Omnichannel for Customer Service app on web](#configure-intraday-insights-for-omnichannel-for-customer-service-app-on-web)
+1. [Configure Intraday insights for Omnichannel for Customer Service app on web](#configure-intraday-insights-for-omnichannel-for-customer-service-app-on-web)
 2. [Configure Power BI service](#configure-power-bi-service)
 3. [Configure dashboard in Power BI](#configure-dashboard-in-power-bi)
 4. [Configure Unified Service Desk to display Intraday insights](#configure-unified-service-desk-to-display-intraday-insights)
