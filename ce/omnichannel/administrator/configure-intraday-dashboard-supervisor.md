@@ -160,7 +160,7 @@ As a system administrator, you must configure the following in Power BI service:
     4. Select **Apply**.
 
 
-### Configure dashboards in Power BI
+### Configure dashboard in Power BI
 
 Configuring the Power BI workspace provides you only the **Intraday Monitoring** report. Create the dashboard out of **Intraday Monitoring** Power BI report after it is available.
 
