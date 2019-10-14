@@ -202,7 +202,7 @@ You must configure the **Unified Service Desk** to display the supervisor Intrad
 
 2.  Select **Action Calls** and open **Load Supervisor Dashboard**.
 
-3.  In the **Action** section, enter the **Data** as “*url=* *https://powerbi.com/dashboards/&lt;id&gt;*” that you copied in [Configure dashboards in Power BI](#configure-dashboards-in-power-bi). Also, add the parameters **chromeless=1** and **nosignupcheck=1** at the end of the URL.  
+3.  In the **Action** section, enter the **Data** as “*url=* *https://powerbi.com/dashboards/&lt;id&gt;*” that you copied in [Configure dashboard in Power BI](#configure-dashboard-in-power-bi). Also, add the parameters **chromeless=1** and **nosignupcheck=1** at the end of the URL.  
 
     For example,
 
