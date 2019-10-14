@@ -75,10 +75,10 @@ The types of application available are as follows:
 
 The parameters available for the custom control application type are as follows:
 
-| parameter | Value | Description |
+| parameter | Example Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| controlName | | |
-| data | | |
+| controlName | | Name of the control. <br> Type = String |
+| data | | Defines the attributes and values for the control. <br> Type = JSON Object |
 
 
 ### Dashboard
@@ -87,9 +87,9 @@ The application type is used to display the dashboard as an application. The par
 
 | parameter | Example Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| dashboardId |  | GUID of the dashboard. |
-| entityType  | incident | Entity type of the record. |
-| Type | String |  |
+| dashboardId | `d201a642-6283-4f1d-81b7-da4b1685e698` | GUID of the dashboard. <br> Type = String |
+| entityType  | incident | Entity type of the record. <br> Type = String |
+| type | system | The value is either `system` or `user`. <br> Type = String |
 
 ### Entity view
 
@@ -97,9 +97,9 @@ The application type is used to display entity view that defines how a list of r
 
 | parameter | Example Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| entityName | Account | Logical name of the entity. |
-| viewId | `00000000-0000-0000-00AA-000010001003` | GUID of the view. |
-| viewType  | String |  |
+| entityName | Account | Logical name of the entity. <br> Type = String |
+| viewId | `00000000-0000-0000-00AA-000010001003` | GUID of the view. <br> Type = String|
+| viewType  | savedquery |  Defines the view type. Possible values are as follows:<br /><br /> - **1039**<br />     Use for a system view. The `viewid` represents the Id of a `savedquery` record.<br />- **4230**<br />     Use for a personal view. The `viewid` represents the Id of a `userquery` record.   <br> Type = String |
 
 ### Entity record
 
@@ -107,15 +107,14 @@ The parameters available for the entity record application type are as follows:
 
 | parameter | Example Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| createFromEntity | | Designates a record that provides default values based on mapped attribute
-values. |
-| data |  | A JSON object defining the attributes and values for the new entity record. |
-| entityId  | | GUID of the entity record. |
-| entityName | | Logical name of the entity. |
-| formId | | GUID of the form instance. |
-| processId |  | GUID of the business process. |
-| relationship |  | Relationship object of the record. |
-| selectStageId | | |
+| createFromEntity |  | Designates a record that provides default values based on mapped attribute values. The lookup object has the following String properties: `entityType`, `id`, and `name` (optional). <br> Type = JSON Object | 
+| data |  | Defines the attributes and values for the new entity record. <br> Type = JSON Object |
+| entityId  | `d72e3735-5dca-e911-a826-000d3a1f0599` | GUID of the entity record. <br> Type = String  |
+| entityName | account | Logical name of the entity. <br> Type = String |
+| formId | | GUID of the form instance. <br> Type = String |
+| processId |  | GUID of the business process. <br> Type = String |
+| relationship |  | Relationship object of the record. <br> Type = JSON Object |
+| selectStageId | | GUID of the selected stage in business process instance.  <br> Type = String |
 
 ### Entity search
 
@@ -123,8 +122,8 @@ The parameters available for the entity search application type are as follows:
 
 | parameter | Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| searchText  | | |
-| searchType | | |
+| searchText  | Printer Noise | Define the string you want to search. <br> Type = String |
+| searchType | 0 | Define to use Relevance search or Categorized search. The possible values are: <br> - **0** for RelevanceSearch <br> - **1** for CategorizedSearch  <br> Type = Number|
 
 ### Web resource
 
@@ -132,10 +131,9 @@ The application type is used to display Web resources that represent files, whic
 
 | parameter | Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| data | | |
-| webresourceName | | |
-| processId | | |
-| processInstanceId | | |
+| data | | <br> Type = String|
+| webresourceName |  |Name of the web resource to open. <br> Type = String|
+
 
 ### Website Url
 
@@ -143,8 +141,8 @@ The application type is used to display a first-party and third-party websites a
 
 | parameter | Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| data | | |
-| url | | |
+| data | |Query parameters that you want to search. <br> Type = String|
+| url | https://www.bing.com/ | <br> Type = String|
 
 ## See also
 
