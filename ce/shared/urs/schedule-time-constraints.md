@@ -92,7 +92,7 @@ Furthermore, when manually dragging and dropping a requirement on the schedule b
 > [!Note]
 > **Time From Promised** and **Time To Promised** is a continuous time range that does not consider the service organization's or the customers' working hours. For example, if the time from and to promised is set to 9/10/2019 9:00 AM - 9/15/2019 5:00 PM, then any time during this range is eligible as long as resources are working.
 
-Finally, setting up [service level agreements (SLAs) for work orders](./sla-work-orders.md) will populate the time from and time to promised fields in order to help dispatchers schedule to meet the SLAs.
+Finally, setting up [service level agreements (SLAs) for work orders](../../field-service/sla-work-orders.md) will populate the time from and time to promised fields in order to help dispatchers schedule to meet the SLAs.
 
 ## Scenario 3: Automated scheduling with time parameters (RSO)
 
@@ -110,7 +110,7 @@ Next, set a **Time Window Start** and **Time Window End** that represents a time
 > [!Note]
 > For this scenario, we recommend using **Date Window** along with **Time Window** rather than **Time Promised**, as **Time Promised** will take priority over the other parameters during optimization.
 
-When setting up RSO, make sure **Scheduling Windows** is a constraint in the optimization goal you are running RSO with. For more information, see the [topic on RSO configuration](./rso-configuration.md). If you're new to RSO, see the [RSO quickstart guide](./rso-quickstart.md).
+When setting up RSO, make sure **Scheduling Windows** is a constraint in the optimization goal you are running RSO with. For more information, see the [topic on RSO configuration](../../field-service/rso-configuration.md). If you're new to RSO, see the [RSO quickstart guide](../../field-service/rso-quickstart.md).
 
 
 > [!div class="mx-imgBorder"]
@@ -132,7 +132,7 @@ When you book the requirement, the start times of the schedule results will refl
 
 Dynamics 365 Field Service can perform custom booking rule validations, called **Booking Rules**, when creating a booking with the schedule board or schedule assistant. Booking rules are custom JavaScript functions that run prior to the **Bookable Resource Booking** record being created.  The JavaScript function can accept a parameter that will contain information for the **Bookable Resource Booking** record and must return a JavaScript object with the required properties.
 
-In the context of scheduling within time parameters, you can create a **Booking Rule** that performs custom validation on the date and time fields or even custom date and time fields you create. For example, you could create a rule that checks if a booking starts on a Monday, Wednesday, or Friday, and if it does not, display an error message to the dispatcher on the schedule board. For more information, see the [topic on booking rules](./set-up-booking-rules.md)
+In the context of scheduling within time parameters, you can create a **Booking Rule** that performs custom validation on the date and time fields or even custom date and time fields you create. For example, you could create a rule that checks if a booking starts on a Monday, Wednesday, or Friday, and if it does not, display an error message to the dispatcher on the schedule board. For more information, see the [topic on booking rules](../../field-service/set-up-booking-rules.md)
 
 
 ### Scheduling lock options
@@ -145,7 +145,7 @@ Scheduling lock options prevent RSO from rescheduling a booking to a different t
 
 ### Fulfillment preferences
 
-Fulfillment preferences let you choose how schedule assistant results are displayed, like with neat hourly appointments or morning and afternoon time windows. They can help dispatchers schedule work orders during times that are convenient for the customer. For more information, see the [topic on fulfillment preferences](/set-up-time-groups.md). 
+Fulfillment preferences let you choose how schedule assistant results are displayed, like with neat hourly appointments or morning and afternoon time windows. They can help dispatchers schedule work orders during times that are convenient for the customer. For more information, see the [topic on fulfillment preferences](../../field-service/set-up-time-groups.md). 
 
 ### Booking setup metadata
 
