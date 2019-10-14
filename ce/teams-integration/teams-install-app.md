@@ -105,12 +105,12 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To t
 
 7. Select **Entity Selection** or **View Selection**.
 
-    7.1 **Entity Selection**: Select an entity to connect. You can pick a recently viewed record or use search to find records. You can     use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
+    1.  **Entity Selection**: Select an entity to connect. You can pick a recently viewed record or use search to find records. You can     use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
 
    > [!div class="mx-imgBorder"] 
    > ![Select an entity](media/teams-add-channel-pin-record2.png "Select an entity")
 
-    7.2 **View Selection**: Select an entity to see the list of available views. Once you've picked a view, select **Save**.
+    2.  **View Selection**: Select an entity to see the list of available views. Once you've picked a view, select **Save**.
     
    > [!div class="mx-imgBorder"] 
    > ![Select a view](media/teams-select-view.png "Select an view")
