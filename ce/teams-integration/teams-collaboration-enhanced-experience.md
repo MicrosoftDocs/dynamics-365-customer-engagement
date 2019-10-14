@@ -2,7 +2,7 @@
 title: "Enhanced Collaboration Experience with Teams| MicrosoftDocs"
 ms.custom: 
 description: "Connect with Microsoft Teams and collaborate with team members using the Dynamics 365 app for Teams."
-ms.date: 8/5/2019
+ms.date: 10/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,17 +24,15 @@ search.app:
 # Enhanced Collaboration Experience with Team
 
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Easily pin a Dynamics 365 apps record or view to a Teams channel using the **Collaborate** option in the Dynamics 365 app. The step-by-step process will help you connect the selected record or view to a Teams channel.
+Easily connect model-driven app record or view to a Teams channel using the **Collaborate** button on the record or view page. The step-by-step process will help you connect the selected record or view to a Microsoft Teams channel. 
 
-The [basic collaboration experience](teams-collaboration.md) only lets you pin records to a Teams channel from within Teams. The enhanced collaboration experience lets you pin a record or a view of records to a Teams channel while you are working in Dynamics 365 apps.
+The [basic collaboration experience](teams-collaboration.md) only lets you pin a record or a view to a team channel from within Microsoft Teams. The enhanced collaboration experience includes everything in the [basic collaboration experience](teams-collaboration.md) and also lets you pin connect a record or a view to a team channel while you are working in model-driven apps in Dynamics 365. 
 
-For more information on which entities support the collaborate option, see [Record types supporting collaborate](teams-work-records-and-view.md#record-types-supporting-collaborate)
 
-## Pin a Dynamics 365 apps record or view to a Teams channel
+## Connect a record or a view to a team channel from model-driven apps in Dynamics
 
-1. In Dynamics 365 app, open a record or view.
+1. In your model-driven app, open a record or view.
 2. When the record or view is open, on the command bar, select **Collaborate**.
 
    > [!div class="mx-imgBorder"]
