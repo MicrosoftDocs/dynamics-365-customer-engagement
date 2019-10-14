@@ -2,7 +2,7 @@
 title: "Help resources for Dynamics 365 Sales (Enterprise) | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 Sales."
 keywords: "sales;help"
-ms.date: 10/01/2019
+ms.date: 10/14/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -89,6 +89,12 @@ manager: annbe
 
 <li><a href="../sales-enterprise/dynamics365-ai-sales.md" data-raw-source="[Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)">Dynamics 365 Sales Insights</a></li>
 
-</td></tr>
+</td>
+<td>
+<h2> Dynamics 365 Sales Professional</h2>
+<li> <a href="../sales-professional/help-hub.md" data-raw-source="[Help resources for Dynamics 365 Sales Professional](../sales-professional/help-hub.md)">Help resources for Dynamics 365 Sales Professional</a></li>
+<li> <a href="../sales-professional/sales-professional-overview.md" data-raw-source="[Overview](../sales-professional/sales-professional-overview.md)">Overview</a></li>
+</td>
+</tr>
 
 </table>
