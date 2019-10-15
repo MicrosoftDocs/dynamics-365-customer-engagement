@@ -23,10 +23,9 @@ search.app:
 ---
 # Basic Collaboration Experience with Microsoft Teams integration
 
+## Collaboration experience in Microsoft Teams
 
 Once installed, the Dynamics 365 app for Teams enables collaborating with other team members by adding a model-driven app in Dynamics 365 tab to a channel in Microsoft Teams.
-
-## Collaboration Experience in Microsoft Teams
 
 ### Connect a model-driven app record or view to a team channel
 
