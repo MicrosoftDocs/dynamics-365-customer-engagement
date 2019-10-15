@@ -32,12 +32,20 @@ The following are error messages with possible resolutions.
 
 When you turn on enhanced Microsoft Teams Integration, there is two dialog boxes that you need to accept. On the second dialog box, when you don't check the **Consent on behalf of organization** check box, then users will get this error when they try to pin an entity record or view to Teams and share the tab with another user.
 
+   > [!div class="mx-imgBorder"] 
+  > ![Teams error](media/error1.png "Teams error")
+   
+
 To fix the issue, disable the Enhanced Microsoft Teams integration feature.
 
 1. Go to, [https://portal.azure.com](https://portal.azure.com).
 2. Select **Azure Active Directory** > **Enterprise**.
 3. In the list of apps go to, **Dynamics 365 Microsoft Teams collaboration integration**.
+    > [!div class="mx-imgBorder"] 
+    > ![Teams error](media/error2.png "Teams error")
 4. Delete the app.
+    > [!div class="mx-imgBorder"] 
+    > ![Teams error](media/erro31.png "Teams error")
 5. Wait for about five minutes and then [enable the Enhanced Microsoft teams integration](teams-install-app.md) feature again. This time make sure that you to check the **Consent on behalf of organization** checkbox. 
 
 
