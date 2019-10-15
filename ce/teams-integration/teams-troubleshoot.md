@@ -2,7 +2,7 @@
 title: "Troubleshoot Teams integration| MicrosoftDocs"
 ms.custom: 
 description: "Troubleshoot issues with Teams integration."
-ms.date: 9/17/2019
+ms.date: 10/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -71,7 +71,7 @@ This happens when the external app for Microsoft Teams service is not enabled by
 ### Error: This record is not connected to Dynamics 365. Repin the tab and try again.
 A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 apps. However, changes made to the record in Teams will update in Dynamics 365 apps.
 
-This is the connection error notification bar:
+This is how the error will display on the notification bar:
 
 > [!div class="mx-imgBorder"] 
 > ![Connection to Dynamics 365 appsfailed](media/teams-error-connection-failed.png "Connection to Dynamics 365 apps failed")
@@ -95,12 +95,42 @@ Try repinning the Dynamics 365 tab. To repin, remove the tab and then re-add, as
 
 5. Continue through the steps as in [Collaborate with Teams](teams-collaboration.md).
 
+### Error: This record is not connected to Dynamics 365 because user does not have permissions to create SharePointSite or DocumentLocation in Dynamics 365.
+
+This means the user that is getting this error does not have sufficient permissions that is required for the user role to pin an entity to a Teams channel. However, changes made to the record in Microsfot Teams will update in model-driven apps in Dynamics 365. 
+
+When the user tries to pin an entity to a Teams channel, this error will display in the notification bar:
+
+   > [!div class="mx-imgBorder"] 
+   > ![Teams permission error](media/teams_permission_error.png "Teams permission error")
+   
+To fix the issue, do the following:
+
+1. In Microsoft Teams, select the channel with this error.
+2. Select the tab with this error.
+3. Select the down arrow next to the tab, then select **Remove**.
+4. In your app, identify the Common Data Service role which is assigned to this user:
+     1. Sign in as a admin to your Common Data service app.
+     2. Navigate to **Settings** > **Security** > **Users**. 
+     3. Find and select the user account that got the error message to open it.
+     4. Select **Manage Roles**.
+     5. Identify the security role assigned to this user.
+     6. Select **Close**.
+5. Navigate to **Settings** > **Security** > **Security Roles**.
+6. Open the security role identified above.
+7. Go to the **Core Records** tab.
+8. Give **Create** permissions to **SharePoint Site** and **Document Location**.
+9. Select **Save and Close**.
+
+Now when the user tries to pin a Common Data Service entity to the required Teams channel, it should work.
+
+
 ### Error: Sorry, the environment you selected is not up-to-date or is not supported. Please select another environment.
 
 > [!div class="mx-imgBorder"] 
 > ![environment is not up to date](media/teams-error-org-not-up-to-date.png "environment is not up to date")
 
-and
+Or, you may get this error:
 
 ### Error: Sorry! Your Dynamics 365 environment is not the latest version and is not supported for this feature. Please select a different environment or contact your Dynamics 365 admin to do an update.
 
