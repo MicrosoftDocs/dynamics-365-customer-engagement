@@ -35,8 +35,6 @@ Customer summary is a page that gives you complete information about a customer.
 
  - Timeline
 
-- Agent script (If Dynamics 365 Productivity Tools is installed and configured). To learn more see [Guide agents with scripts](../../administrator/agent-scripts.md)
-
 > [!div class='mx-imgBorder']
 > ![View Customer summary](../../media/customer-summary.png "View Customer summary")
 
@@ -53,14 +51,17 @@ Use the customer form to search for an existing contact or account record in omn
 
 The conversation summary section displays tabs with the details that help you understand the information about the conversation with customer. It displays the following tabs:
 
-- Pre-chat
+- Pre-chat survey
 - Portal navigation
 - Visitor details
 - Additional details (Only if configured and additional context variables available)
 
-### Pre-chat
+### Pre-chat survey
 
 The **Pre-chat survey** tab displays the survey answers against the questions that are requested by your organization, which helps your interaction with the customer.
+
+   > [!div class='mx-imgBorder']
+   > ![Pre-chat survey](../../media/pre-chat-survey.png "Pre-chat survey")
 
 ### Preview: Portal navigation
 

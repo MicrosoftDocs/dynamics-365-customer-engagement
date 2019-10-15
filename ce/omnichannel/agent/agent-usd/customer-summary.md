@@ -50,7 +50,7 @@ The **Customer profile** section provides details about the customer, such as th
 
 The conversation summary section displays tabs with the details that help you understand the information about the conversation with customer. It displays the following tabs:
 
-- Pre-chat
+- Pre-chat survey
 - Portal navigation
 - Visitor details
 - Additional details (Only if configured and additional context variables available)
@@ -58,6 +58,9 @@ The conversation summary section displays tabs with the details that help you un
 ### Pre-chat
 
 The **Pre-chat survey** tab displays the survey answers against the questions that are requested by your organization, which helps your interaction with the customer.
+
+   > [!div class='mx-imgBorder']
+   > ![Portal navigation tab](../../media/customer-summary-portal-navigation-tab.png "Portal navigation tab")
 
 ### Preview: Portal navigation
 
