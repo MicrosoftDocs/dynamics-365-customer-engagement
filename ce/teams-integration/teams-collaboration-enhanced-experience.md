@@ -103,3 +103,4 @@ When the set-up process is complete, the system will open the Teams app and go t
 [Use Teams to open a record or view](teams-work-records-and-view.md)
 
 [Basic Collaboration with Teams](teams-collaboration.md)
+

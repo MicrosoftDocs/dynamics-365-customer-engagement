@@ -59,7 +59,7 @@ From a team channel, you can connect a Dynamics 365 apps record or view to colla
     > [!div class="mx-imgBorder"] 
     > ![Record successfully connected and pinned](media/teams-pinned-record.png "Record successfully connected and pinned")
    
-    
+    <a name="Twoconnect"></a>    
     **Two connection states** 
 
     There are two connection states possible when connecting Dynamics 365 apps and Microsoft Teams: successful and failed. 
