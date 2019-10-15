@@ -2,7 +2,7 @@
 title: "Channel Analytics | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 10/04/2019
+ms.date: 10/15/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -23,6 +23,12 @@ Channel Integration Framework provides insights about how the call center is per
 
 > [!div class="mx-imgBorder"]
 > ![Channel Analytics](media/channel-analytics.PNG "Channel Analytics")
+
+Channel Analytics provides a consistent, seamless and unified experience when it comes to channel related analytics and insights. This means that:
+
+- Channel Analytics enables users to slice and dice KPIs based on different dimensions, including the channel type.
+- Users need not jump across apps to get channel specific information.
+- Both the conversational data from third party providers and transactional data from Dynamics 365 apps is used to provide a comprehensive contact center analytics information.
 
 ### How do analytics help Supervisors?
 

@@ -2,7 +2,7 @@
 title: "Dynamics 365 Channel Integration Framework (CIF) Guide | Microsoft Docs"
 description: "Channel Integration Framework (CIF) for Microsoft Dynamics 365 is a cloud-to-cloud extensible framework to integrate third-party Computer Telephony Integration (CTI) systems with Dynamics 365 Unified Interface Apps using a browser-based JavaScript API library."
 keywords: ""
-ms.date: 05/30/2019
+ms.date: 10/15/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -39,6 +39,28 @@ manager: shujoshi
 <tr>
 <td>
 
+<h2> Templates </h2>
+
+<li><a href="get-channel-integration-framework.md" data-raw-source="[Get Channel Integration Framework (CIF)](get-channel-integration-framework.md)">Get Channel Integration Framework (CIF)</a></li>
+<li><a href="sample-softphone-integration.md" data-raw-source="[Download sample code for softphone integration](sample-softphone-integration.md)">Download sample code for softphone integration</a></li>
+</td>
+<td>
+
+<h2> Channel Analytics </h2>
+
+<li><a href="get-channel-integration-framework.md" data-raw-source="[Get Channel Integration Framework (CIF)](get-channel-integration-framework.md)">Get Channel Integration Framework (CIF)</a></li>
+<li><a href="sample-softphone-integration.md" data-raw-source="[Download sample code for softphone integration](sample-softphone-integration.md)">Download sample code for softphone integration</a></li>
+</td>
+</tr>
+<tr>
+<td>
+
+<h2> Support for multiple providers </h2>
+
+<li><a href="support-multiple-providers.md" data-raw-source="[Support for multiple providers](support-multiple-providers.md)">Support for multiple providers</a></li>
+</td>
+<td>
+
 <h2> How to </h2>
 
 <li><a href="configure-channel-provider-channel-integration-framework.md" data-raw-source="[Configure a channel provider for your organization](configure-channel-provide-channel-integration-framework.md)">Configure a channel provider for your organization</a></li>
@@ -49,6 +71,8 @@ manager: shujoshi
 <li><a href="authenticate-channel-users.md" data-raw-source="[Authenticate channel users to the channel (widget)](authenticate-channel-users.md)">Authenticate channel users to the channel (widget)</a></li>
 <li><a href="pass-url-widget-library.md" data-raw-source="[Pass Dynamics 365 URL to widget library](pass-url-widget-library.md)">Pass Dynamics 365 URL to widget library</a></li>
 </td>
+</tr>
+<tr>
 <td>
 
 <h2> JavaScript API Reference </h2>
@@ -59,8 +83,6 @@ manager: shujoshi
 <li><a href="reference/entities-attributes/msdyn-ciprovider.md" data-raw-source="[Entity reference](reference/entities-attributes/msdyn-ciprovider.md)">Entity reference</a>
 
 </td>
-</tr>
-<tr>
 <td>
 
 <h2> FAQs </h2>
