@@ -38,7 +38,7 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
    > [!div class="mx-imgBorder"]
    > ![Collaborate option](media/teams-collorate-option_1.png "Collaborate option in Dynamics 365 app")
 
-3. On the **Collaborate with Microsoft Teams** window, you will one of the following: 
+3. On the **Collaborate with Microsoft Teams** window, you will see one of the following: 
     - **If there’s no channel that is already connected**: You can connect the current record or view to any team channel by selecting, **Get started**.
 
       > [!div class="mx-imgBorder"]
