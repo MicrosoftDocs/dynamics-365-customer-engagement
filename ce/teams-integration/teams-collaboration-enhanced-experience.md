@@ -89,11 +89,10 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
    > [!NOTE]
    > You will only see this step only if you are the owner of the selected team while connecting to a model-driven app record. If you are connecting a view of model-driven app to a Microsoft Teams channel, you will skip this step. For more information on how to share a record, see [Assign or share records.](https://docs.microsoft.com/powerapps/user/assign-or-share-records).
 
+   > [!div class="mx-imgBorder"]
+   > ![Choose teammates](media/teams-choose-teammates-7.png "Choose teammates")
 
-        > [!div class="mx-imgBorder"]
-        > ![Choose teammates](media/teams-choose-teammates-7.png "Choose teammates")
-
-   5. When the connection process is complete, the system will open Microsoft Teams and go to channel that you connected.
+5. When the connection process is complete, the system will open Microsoft Teams and go to channel that you connected.
   
 
 
