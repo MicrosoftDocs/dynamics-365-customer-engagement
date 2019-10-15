@@ -24,7 +24,7 @@ There are two types of triggers:
 - Manual trigger - Save & Route
 - Automatic trigger - Route trigger Flow
 
-### Manual trigger
+## Manual trigger
 
 When ever you enable a entity for routing, you can view the **Save & Route** button in the ribbon command bar. Use this button to route the entity records manually.
 
@@ -40,7 +40,7 @@ To save a entity record and route it to a queue in a single click, use the **Sav
 
 The entity record will be routed based on the active routing rule set.
 
-### Automatic trigger
+## Automatic trigger
 
 To enable automatic trigger to route the entity records, you need to create a Flow.
 
