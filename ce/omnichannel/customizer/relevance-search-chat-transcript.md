@@ -67,3 +67,6 @@ In Omnichannel for Customer Service, agents need to search for details in the tr
 
 6. Select **Publish** to publish the changes.
 
+## See also
+
+[Search for transcripts](../agent/agent-oc/oc-search-transcipts.md)
