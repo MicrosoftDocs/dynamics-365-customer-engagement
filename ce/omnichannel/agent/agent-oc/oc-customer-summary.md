@@ -65,7 +65,7 @@ Also, below the these tabs, at all times, you can see the Conversation details s
 - Start time
 
   > [!div class='mx-imgBorder']
-  > ![Portal navigation tab](../../media/conversation-details.png "Portal navigation tab")
+  > ![Conversation details](../../media/conversation-details.png "Conversation details")
 
 ### Pre-chat survey
 
