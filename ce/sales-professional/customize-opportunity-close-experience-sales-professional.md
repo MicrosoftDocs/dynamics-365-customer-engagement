@@ -44,13 +44,27 @@ Any custom attribute added to the Opportunity Close form should be added to the 
 
 ## Add Opportunity Close entity to the Sales Professional app module
 
-1.  Open My Apps
-2.	Open Sales Pro app in App designer
-3.	Select Entities
-4.	Enter Opportunity Close in Search Entities and search
-5.	Select Opportunity Close
-6.	Save and Publish
+1.  1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
+    ![Advanced Settings option on the Settings menu](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
+
+2.  On the navigation bar, select **Settings**, and then under **Application**, select **My Apps**.
+
+3.	On the Sales Professional tile, select the **More options** icon ![More options icon](media/more-options-icon.png "More options icon"), and then select **Open in App designer**.
+
+    ![Open app in app designer](media/open-in-app-designer.png "Open app in app designer")
+
+    The app designer opens.
+
+4.	Select Add, and then under **Artifacts**, select **Entities**.
+
+5.	In the **Search Entities** box, type Opportunity Close, select the **Opportunity Close** entity. 
+
+    ![Select Opportunity Close entity](media/select-opportunity-close-entity.png "Select Opportunity Close entity")
+
+6. Select the **See more options for the entity** icon, and then select the **Add all assets** and **Include entity metadata** check boxes.
+
+7. Select **Publish**, and then select **Save and Close**. 
 
 ## Create custom fields for the Opportunity Close entity
 
@@ -60,21 +74,21 @@ To create fields,
 
 1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
-    ![Advanced Settings option on the Settings menu](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
+    ![Advanced Settings option on the Settings menu](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
 
     The **Business Management** page opens.
 
-1.  On the navigation bar, select **Settings**, and then select **Customizations**.
+2.  On the navigation bar, select **Settings**, and then select **Customizations**.
 
-    ![Customization option on the site map](media/customization-in-sitemap.png "Customization option on the site map")
+    ![Customization option on the site map](../sales-enterprise/media/customization-in-sitemap.png "Customization option on the site map")
 
-2.  On the **Customization** page, select **Customize the System**.
+3.  On the **Customization** page, select **Customize the System**.
 
-3.  In the solution explorer, under **Components**, expand **Entities**, and then expand **Opportunity Close**.
+4.  In the solution explorer, under **Components**, expand **Entities**, and then expand **Opportunity Close**.
 
-4.  Under the **Opportunity Close** node, select **Fields**.
+5.  Under the **Opportunity Close** node, select **Fields**.
 
-5.  To add a new field, on the **Actions** toolbar, select **New**, and enter a **Display Name** to generate the **Name**. For more information on the data to enter, see [Create and edit fields (attributes)](../customize/create-edit-fields.md)
+6.  To add a new field, on the **Actions** toolbar, select **New**, and enter a **Display Name** to generate the **Name**. For more information on the data to enter, see [Create and edit fields (attributes)](../customize/create-edit-fields.md)
 
 
 ## Add newly created custom fields to the Opportunity Close form
@@ -85,7 +99,7 @@ After you’ve created the fields that are required by your organization, add th
 
 2.  Under **Opportunity Close** node, select **Forms**.
 
-    ![Forms node in Solution explorer](media/forms-node-solution-explorer.png "Forms node in Solution explorer")
+    ![Forms node in Solution explorer](../sales-enterprise/media/forms-node-solution-explorer.png "Forms node in Solution explorer")
 
 3.  Open the **Opportunity Close** form of type **Quick Create**.
 
@@ -93,8 +107,8 @@ After you’ve created the fields that are required by your organization, add th
 
 5.  Select **Save and Close**.
 
-      > [!IMPORTANT]
-      > The Opportunity entity has the following statuses, which aren’t customizable: Open, Won, Lost. However, you can add multiple status reasons corresponding to the Won and Lost statuses. If you add custom values to a Status Reason field against a state (Won/Lost) in the Opportunity entity, you must add the same custom value to the OpporunityStatusCode field (attribute) on the Opportunity Close entity manually. This displays the correct customized values with right defaults preselected for each opportunity Win and Loss state.
+    > [!IMPORTANT]
+    > The Opportunity entity has the following statuses, which aren’t customizable: Open, Won, Lost. However, you can add multiple status reasons corresponding to the Won and Lost statuses. If you add custom values to a Status Reason field against a state (Won/Lost) in the Opportunity entity, you must add the same custom value to the OpportunityStatusCode field (attribute) on the Opportunity Close entity manually. This displays the correct customized values with right defaults preselected for each opportunity Win and Loss state.
 
 6.  Open the **Information** form of type **Main**, and make the same changes that you did in Step 4.
 
