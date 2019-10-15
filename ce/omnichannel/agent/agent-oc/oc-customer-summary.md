@@ -56,12 +56,20 @@ The conversation summary section displays tabs with the details that help you un
 - Visitor details
 - Additional details (Only if configured and additional context variables available)
 
+Also, below the these tabs, at all times, you can see the Conversation details section that shows the following details:
+
+- Engagement channel
+- Waiting time
+- Skills
+- Queue
+- Start time
+
+  > [!div class='mx-imgBorder']
+  > ![Portal navigation tab](../../media/conversation-details.png "Portal navigation tab")
+
 ### Pre-chat survey
 
 The **Pre-chat survey** tab displays the survey answers against the questions that are requested by your organization, which helps your interaction with the customer.
-
-   > [!div class='mx-imgBorder']
-   > ![Pre-chat survey](../../media/pre-chat-survey.png "Pre-chat survey")
 
 ### Preview: Portal navigation
 
