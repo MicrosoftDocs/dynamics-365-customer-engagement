@@ -216,6 +216,8 @@ If you are creating or editing an entity record workstream, you must update **E
 
 ## See also
 
+[Route trigger for entity records](routing-trigger.md)
+
 [Entity records routing](entity-channel.md)
 
 [Understand and create workstreams](work-streams-introduction.md)

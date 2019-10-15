@@ -137,7 +137,9 @@ After creating an entity record configuration, and enabling an entity for routin
 
 You've successfully created queues, enabled entity for routing, and created routing rule sets.
 
-### See also 	
+### See also
+
+[Route trigger for entity records](routing-trigger.md)
 
 [Understand and create workstreams](work-streams-introduction.md)
 

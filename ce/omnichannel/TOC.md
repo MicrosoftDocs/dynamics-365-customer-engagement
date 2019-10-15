@@ -37,6 +37,7 @@
 #### [Configure an SMS channel](administrator/configure-sms-channel.md)
 #### Entity records
 ##### [Entity records routing](administrator/entity-channel.md)
+##### [Route trigger for entity records](administrator/routing-trigger.md)
 ##### [Walkthrough: Create multiple workstreams for entity records routing](administrator/multiple-ws-entity-record-routing.md)
 
 ### Queues & Users

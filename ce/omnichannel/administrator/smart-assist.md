@@ -72,7 +72,7 @@ For example:
 
 **Macro:**: An agent is displayed with a Create Case card. You can implement a macro with the card to open a new form to create a case when an agent selects the **Create case** button on the card. While developing the Adaptive cards, you need to specify the name of the macro.
 
-To learn more, see [Smart assist bot](../developer/smart-assist-bot.md)
+To learn more, see [Smart assist bot](../developer/smart-assist-bot.md).
 
 ## Step 2: Integrate smart assist bot
 
