@@ -81,7 +81,7 @@ To enable automatic trigger to route the entity records, you need to create a Fl
 
 11. Type the entity collection name and unique identifier of the entity in the specified format against the **Target** field:
 
-    Format: `<entity name>(unique identifier of the entity)`
+    Format: `<entity collection name>(unique identifier of the entity)`
     Example: leads(Lead)
 
     > [!div class=mx-imgBorder] 
