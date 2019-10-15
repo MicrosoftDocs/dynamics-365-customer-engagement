@@ -24,9 +24,8 @@ search.app:
   - D365FS
 ---
 
-# What is the latest version of the mobile app and related Woodford version?
+# What version of Field Service Mobile am I using?
 
-With the Fall 2018 Field Service release, a new mobile app was released called **Field Service Mobile**. The latest version of **Field Service Mobile** generally available is **11.2**. 
 
 To see your mobile app's version number, find the About menu item, and select it. You'll find the version number here.
 
@@ -34,12 +33,16 @@ To see your mobile app's version number, find the About menu item, and select it
 >![Screenshot of the 11.1 app version](media/Mobile-FAQs-image2.png)
 
 >[!Note]
-> You can download the latest version of Woodford and simply publish to a previous version that is compatible. For example, a Woodford version of 11.3 should be published down to version 11.2 if the Field Service Mobile app is version 11.2.
+> To upgrade the Field Service Mobile app, simply upgrade the same way you would any mobile app. This is done from the iOS, Android, or Windows app stores. If you have automatic upgrades turned on for you device, then FIeld Service Mobile will upgrade automatically. 
 
-To find your installed Woodford solution version number, open a non-private Internet Explorer window and navigate to **Settings > Woodford > MobileCRM Woodford**.
+
+To find your installed Mobile Configuration tool (Woodford) solution version number, log into Dynamics 365 Field Service and go to **Settings > Woodford > MobileCRM Woodford**.
 
 > [!div class="mx-imgBorder"]
 >![Screenshot of the Woodford solution in the Dynamics 365 menu](media/Mobile-FAQs-image3.png)
+
+>[!Note]
+> You can download the latest version of Woodford and simply publish to a previous version that is compatible. For example, a Woodford version of 12.0 should be published down to version 11.3 if the Field Service Mobile app is version 11.3.
 
 > [!div class="mx-imgBorder"]
 >![Screenshot of the installed and available Woodford solution version numbers](media/Mobile-FAQs-image4.png)

@@ -33,8 +33,22 @@ search.app:
 > If you're looking for help with **errors**, **unexpected behavior**, **crashes**, and **bugs**, create a [Dynamics 365 support ticket](https://dynamics.microsoft.com/contact-us/). 
 
 
-## [How do I extend my mobile configuration tool trial?](activate-fs-mobile-app-license.md)
-## [What is the latest version of the mobile app and configuration tool?](mobile-faq-latest-version.md)
-## [My mobile app will not sync to the server / crashes immediately](mobile-faq-sync-crash.md)
-## [Why can't I see my bookings when logged into the app?](mobile-faq-bookings-not-showing.md)
-## [Bookings not scheduled to me show up when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
+## How do I extend or activate my mobile configuration tool (Woodford) trial?
+
+[How do I extend my mobile configuration tool trial?](activate-fs-mobile-app-license.md)
+
+## What is the latest version of the mobile app and configuration tool?
+
+[What is the latest version of the mobile app and configuration tool?](version-history.md)
+
+## My mobile app will not sync to the server / crashes immediately
+
+[My mobile app will not sync to the server / crashes immediately](mobile-faq-sync-crash.md)
+
+## Why can't I see my bookings when logged into the app?
+
+[Why can't I see my bookings when logged into the app?](mobile-faq-bookings-not-showing.md)
+
+## Bookings not scheduled to me show up when logged into the mobile app
+
+[Bookings not scheduled to me show up when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
