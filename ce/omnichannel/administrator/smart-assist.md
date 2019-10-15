@@ -58,7 +58,7 @@ The smart assist feature provides uniform suggestion across the channels like Ch
 
 ## Step 1: Develop a custom smart assist bot
 
-Develop a custom bot and integrate with Omnichannel for Customer Service app to use the Smart Assist feature.
+Develop a custom bot and integrate with Omnichannel for Customer Service app to use the Smart Assist feature. 
 
 ### Purpose of smart assist bot
 
@@ -71,6 +71,8 @@ For example:
 **Custom action:** An agent is displayed with a Knowledge article card with a **Send Link** button. You can implement a custom action to copy and paste the link in the communication panel when agent selects the **Send Link** button.
 
 **Macro:**: An agent is displayed with a Create Case card. You can implement a macro with the card to open a new form to create a case when an agent selects the **Create case** button on the card. While developing the Adaptive cards, you need to specify the name of the macro.
+
+To learn more, see [Smart assist bot](../developer/smart-assist-bot.md)
 
 ## Step 2: Integrate smart assist bot
 
