@@ -55,7 +55,7 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
    
 4. After you select **Get started** or **Create a new connection**, you will enter into the connection process. 
 
-   **Step 1**: **Team selection**: Choose an existing team or create a new team.
+   **Step 1**- **Team selection**: Choose an existing team or create a new team.
    - Choose an existing team that you belong to and then select **Next**.
       
      > [!div class="mx-imgBorder"]
@@ -73,7 +73,7 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
             > ![Enter name](media/teams-enter-team-name-5.png "Enter a team name")
 
     
-   **Step 2**: **Channel selection**: Choose an existing channel and then select **Next**, or select **Create new channel** to create a new channel.
+   **Step 2**- **Channel selection**: Choose an existing channel and then select **Next**, or select **Create new channel** to create a new channel.
    
       > [!div class="mx-imgBorder"]
       > ![Choose a channel](media/teams-choose-channel.png "Choose a channel")
@@ -84,7 +84,7 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
       > > ![Enter name](media/teams-add-channel-6.png "Enter a team name")
 
 
-  **Step 3**: **Add recommended team members**: If you are the owner of the selected team then you can add recommended Common Data Service teammates who either own the record or the record has been shared with them to the team member group. From the list, select any or all listed Common Data Service teammates. You can also use the search option to find the teammates in the list. When you are done, select **Finish**.
+  **Step 3**- **Add recommended team members**: If you are the owner of the selected team then you can add recommended Common Data Service teammates who either own the record or the record has been shared with them to the team member group. From the list, select any or all listed Common Data Service teammates. You can also use the search option to find the teammates in the list. When you are done, select **Finish**.
    
    > [!NOTE]
    > You will only see this step only if you are the owner of the selected team while connecting to a model-driven app record. If you are connecting a view of model-driven app to a Microsoft Teams channel, you will skip this step. For more information on how to share a record, see [Assign or share records.](https://docs.microsoft.com/powerapps/user/assign-or-share-records).
