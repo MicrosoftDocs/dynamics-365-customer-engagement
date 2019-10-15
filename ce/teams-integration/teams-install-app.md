@@ -21,9 +21,9 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Install and set up the Dynamics 365 app for Teams 
+# Install and setup Microsoft Teams integration 
 
-By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To turn these features on, follow the steps below. To learn more about what the difference, see [Difference between the Basic and Enhanced Collaboration Experience with Teams](teams-basic-vs-enhanced-collaboration.md).
+By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Common Data Service. To turn these features on, follow the steps below. To learn more about what the difference, see [Difference between the Basic and Enhanced Collaboration Experience with Teams](teams-basic-vs-enhanced-collaboration.md).
 
    > [!div class="mx-imgBorder"] 
    > ![Settings page](media/teams-system-settings.png "Settings page")
@@ -37,25 +37,27 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To t
 
 1. Sign in as a System administrator to Common Data Service.
 2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
-3. To enable [basic collaboration experience](teams-collaboration.md), select **Yes** for **Enable Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in model-driven apps in Dynamics 365 so you can see the connected team channel. In addition, in the **Documents** tab model-driven app record page, the connected Teams Channel file library will appear. This lets you set-up a connection in the Teams app.
+3. To enable [basic collaboration experience](teams-collaboration.md), select **Yes** for **Enable Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in model-driven apps in Dynamics 365 so you can see the connected team channel or set up a new connection in Microsoft Teams. In addition, in the **Documents** tab on model-driven app record page, the connected team channel file library will appear. 
    > [!NOTE]
    >  You can only set **Enable Enhanced Microsoft Teams Integration** to, **Yes** if **Enable Basic Microsoft Teams Integration** is set to, **Yes**. If you don't enable Basic Microsoft Teams Integration then the option **Enable Enhanced Microsoft Teams Integration** is grayed out.  
    >  > [!div class="mx-imgBorder"] 
    >  > ![Enhanced experience disabled](media/teams-enhanced-disabled.png "Enhanced experience disabled")
 
    
-4. To enable [enhanced collaboration experience](teams-collaboration-enhanced-experience.md), select **Yes** for **Enable Enhanced Microsoft Teams Integration**. To turn this option on, you need Office 365 tenant admin permissions. When Enhanced Microsoft Teams Integration is enabled, the **Collaborate** button appears on records and views in model-drvice apps for Dynamics 365 and you can set up a connection with any Teams collaboration channel within a model-drvice app.
+4. To enable [enhanced collaboration experience](teams-collaboration-enhanced-experience.md), select **Yes** for **Enable Enhanced Microsoft Teams Integration**. To turn this option on, you need Office 365 tenant admin permissions. When Enhanced Microsoft Teams Integration is enabled, the **Collaborate** button appears on the record and view page in model-driven apps for Dynamics 365. You can set up a connection with any Microsoft Teams collaboration channel within a model-driven app.
 
     1. When you select **Yes** to **Enable Enhanced Microsoft Teams Integration**, there is two consent permission popup boxes that will display. If you have a pop-up blocker and you don't see the second consent dialong box, then you need to disable the pop-up blocker in your browser.
   
         > [!div class="mx-imgBorder"] 
         > ![Disablie popup blocker ](media/popupblocker.png "Disable popup blocker")
 
-    2. On the second consent dialog box, select the checkbox for **Consent on behalf of organization** and then select **Accept**. If you don't select this option, then when another user tries to pin an entity record or view to Teams and shares the tab with another user, they will get this error message, **The admin has not consented to use user sync feature, you can add them manually**. If you see this error message, see [Error messages in the Teams app](https://docs.microsoft.com/dynamics365/customer-engagement/basics/teams-troubleshoot#error-messages-in-the-teams-app).
-
+    2. On the second consent dialog box, select the checkbox for **Consent on behalf of organization** and then select **Accept**. 
+    
         > [!div class="mx-imgBorder"] 
         > ![Select consent checkbox](media/consent.png "Select consent checkbox")
-        
+    
+    < Review> If you don't select this option, then when another user tries to pin an entity record or view to Teams and shares the tab with another user, they will get this error message, **The admin has not consented to use user sync feature, you can add them manually**. If you see this error message, see [Error messages in the Teams app](https://docs.microsoft.com/dynamics365/customer-engagement/basics/teams-troubleshoot#error-messages-in-the-teams-app).   < Review>
+       
         
 5. After the second consent is accepted select, **Finish** and then select **OK** on the **System Settings** screen. If you don't select **OK** on the **System Settings** screen then you will lose your changes. 
 
@@ -99,7 +101,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To t
    > ![Select environment and app module](media/teams-fre-org-app.png "Select environment and app module")
 
    > [!NOTE]
-   > - Only Common Data Services environments appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed. 
+   > - Only Common Data Services environments that contain model-driven apps appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed. 
    > - Only Unified Interface apps are listed.
    > - Only app modules licensed for the selected environment are listed. 
 
@@ -119,10 +121,10 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled. To t
    > If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Common Data Service before you add the view to the Teams channel. Otherwise, other team members will not have access to the view tab content.
 
 
-8. After completing the above steps, you will see a new Dynamics 365 tab in the selected Teams channel. 
+8. After completing the above steps, you will see a new Dynamics 365 tab in the selected team channel. 
  
  
-See [Collaborate with Teams](teams-collaboration.md) for information on how you can use the tab feature to collaborate with Dynamics 365 apps.
+See [Collaborate with Teams](teams-collaboration.md#have-a-conversation) for information on how you can use the tab feature to collaborate with Dynamics 365 apps.
 
 ## In Microsoft Teams: Set up the Dynamics 365 bot
 
