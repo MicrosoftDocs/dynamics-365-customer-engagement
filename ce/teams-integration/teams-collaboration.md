@@ -21,13 +21,14 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Basic Collaboration Experience with Microsoft Team integration
+# Basic Collaboration Experience with Microsoft Teams integration
 
 
 Once installed, the Dynamics 365 app for Teams enables collaborating with other team members by adding a model-driven app in Dynamics 365 tab to a channel in Microsoft Teams.
 
+## Collaboration Experience in Microsoft Teams
 
-## Connect a model-driven app record or view to a team channel
+### Connect a model-driven app record or view to a team channel
 
 From a team channel, you can connect a model-driven app record or view to collaborate on any entity such as customer accounts, opportunities, and more.
 
@@ -100,14 +101,14 @@ A failed connection means the connection was not successfully saved. When seeing
 
 Once the model-driven app tab is set up in Microsoft Teams collaboration channel, you can start working with your team members on the pinned app customer information and share files directly from Microsoft Teams.
 
-## Have a conversation
+### Have a conversation
 You can chat with your team members side-by-side with the model-driven app tab. From the model-driven app tab pinned in a Microsoft Teams channel, select the **Show tab converation** button to open the conversation tab.
 
 > [!div class="mx-imgBorder"] 
 > ![Start a conversation](media/teams-start-conversation.png "Start a conversation")
 
 
-## Open a model-driven app record or view 
+### Open a model-driven app record or view 
 
 It's easy to navigate to the pinned model-driven app record or view page from Microsoft Teams. From the model-driven app record tab pinned in a Microsoft Teams channel, select the **Go to website** button to open the record or view page in Dynamics 365 apps.
 
@@ -115,7 +116,7 @@ It's easy to navigate to the pinned model-driven app record or view page from Mi
 > ![Open a record in Dynamics 365 apps](media/teams-open-record-d365.png "Open a record in Dynamics 365 apps")
 
 
-## View and associate files
+### View and associate files
 
 Select the **Files** tab in the connectedt team channel to associate files with a model-driven app record. Files added here will appear in model-driven apps in Dynamics 365 under **Documents** for the linked record. Likewise, when you add a document to a model-driven app record, that document will appear in Microsoft Teams under the **Files** tab.
 
@@ -123,7 +124,7 @@ Select the **Files** tab in the connectedt team channel to associate files with 
    > ![Files tab in Teams app](media/teams-files-tab.png "Files tab in Teams app")
    
    
-### If you see this message: Shared files exist in multiple locations. Select "Document Location" to see files in other locations.
+#### If you see this message: Shared files exist in multiple locations. Select "Document Location" to see files in other locations.
 
 > [!div class="mx-imgBorder"] 
 > ![Shared files in multiple locations](media/teams-error-multiple-locations.png "Shared files in multiple locations")
