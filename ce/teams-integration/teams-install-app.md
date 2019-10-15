@@ -53,10 +53,13 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Co
 
     2. On the second consent dialog box, select the checkbox for **Consent on behalf of organization** and then select **Accept**. 
     
+       > [!NOTE]
+        > If you don't select **Consent on behalf of organization** option, then when another user tries to pin an entity record or view to Teams and shares the tab with another user, they will get this error message, **The admin has not consented to use user sync feature, you can add them manually**. If you see this error message, see [Error messages in the Teams app](https://docs.microsoft.com/dynamics365/customer-engagement/basics/teams-troubleshoot#error-messages-in-the-teams-app).  
+    
         > [!div class="mx-imgBorder"] 
         > ![Select consent checkbox](media/consent.png "Select consent checkbox")
     
-    < Review> If you don't select this option, then when another user tries to pin an entity record or view to Teams and shares the tab with another user, they will get this error message, **The admin has not consented to use user sync feature, you can add them manually**. If you see this error message, see [Error messages in the Teams app](https://docs.microsoft.com/dynamics365/customer-engagement/basics/teams-troubleshoot#error-messages-in-the-teams-app).   < Review>
+ 
        
         
 5. After the second consent is accepted select, **Finish** and then select **OK** on the **System Settings** screen. If you don't select **OK** on the **System Settings** screen then you will lose your changes. 
