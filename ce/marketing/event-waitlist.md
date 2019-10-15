@@ -118,7 +118,7 @@ To create a segment that finds contacts who _are not_ using automatic registrati
 
 1. Open the **Add** drop-down list under the new related entity and select **Add row** to begin defining the collection of waitlist items you are looking for.
 
-1. A new row is added to your query. Use it to create *one* of the following the logical expressions:
+1. A new row is added to your query. Use it to create *one* of the following logical expressions:
 
     - For event-level registration:    
     **Event | Equals | _&lt;YourEventName&gt;_**  

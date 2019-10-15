@@ -155,36 +155,39 @@ For example:
 
 A simple query uses a single group that references the contact entity only. When you create this type of segment definition, set up a query with clauses that test various field values from your contact records and combine the various clauses using the logical operators AND and OR. For an example, see the tutorial [Create a dynamic segment](create-segment.md).
 
-<!-- ## Example: Define a more complex segment based on opportunities
+## Example: Define a more complex segment based on opportunities
 
-Here's an example of how to define a segment that starts by finding a collection of opportunities and, as usual, ends by finding the contacts that belong to that segment. In this example, we'll find contacts associated with opportunities with an estimated revenue over $10,000 and then build a relation to the contacts entity.
+Here's an example of how to define a segment that finds contacts associated with opportunities with an estimated revenue of $100,000 or more.
 
 1. If your Marketing instance isn't already set up to sync the **Opportunity (opportunity)** entity with the marketing-insights service, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the marketing-insights service](mkt-settings-sync.md) for instructions.
 
-1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar. A new segment record opens with the **Definition** > **Designer** tab showing.  
-    ![Close the default query group](media/segment-opportunity-close-group.png "Close the default query group")
+1. Go to **Marketing** > **Customers** > **Segments** and select **New** on the command bar. Then select **Demographic** on the **Let's create your segment** screen.
 
-    Do the following:
+1. A new demographic segment opens. Check the view setting near the upper corner of the **Definition** tab and make sure it's set to **Tree view**. (You could use either view, but in this procedure we show and describe the tree view, so it's a good idea to use it for now.)
 
-    - Enter a **Name** for the segment at the top of the page.
-    - Select the close button to remove the default contact-based query group from the **Designer** area. Many of your segments will probably start and end with the contact entity, but for this example we will start with opportunities instead.
+    ![Choose the tree view](media/segment-firmographic-tree-view.png "Choose the tree view")
 
-1. When default group closes, it's replaced by a **Select a profile or relationship** drop-down list. Select **Opportunity** from here. (If you don't see the **Opportunity** entity listed here, then you probably need to set up syncing for this entity as described in the first step of this procedure; note that it can take up to half an hour for a new entity to appear in this list after the first sync.)  
-    ![Select the opportunity entity](media/segment-opportunity-choose-entity.png "Select the opportunity entity")
+1. Open the **Add** drop-down list under the **Contact** entity and select **Add related entity**.
 
-1. Complete the row to create the clause:  
-    **Opportunity | Est. Revenue | &ge; | 10000**.  
-    ![Start with the opportunity entity](media/segment-example-opportunity1.png "Start with the opportunity entity")
+    ![Add a related entity](media/segment-add-related-entity.png "Add a related entity")
 
-1. Select **+And** to add a new clause to the group. Now you must choose the relation between the opportunity entity and the contact entity, which is where we need to end up. Choose **Opportunity -> Contact (Contact)** and leave it set it to match **All&#42;**.
-    ![Set the relation from opportunity to contact](media/segment-example-opportunity2.png "Set the relation from opportunity to contact")
+1. A new related entity is added to your query. Select the field with **Select related entity** in ghost text to open a large drop-down list of available relations. Type "opportunity" in the field to filter the list and then select **Opportunity (Opportunity -> Contact (Contact))** from the drop-down list. This relation links the parent **Contact** entity to the **Opportunity** entity through the **Contact** field of the **Opportunity** entity. The **Contact** field identifies the contact associated with each found opportunity. More information: [Move between entities with relationships](#relationships)
 
-1. Select **+And** to add a final clause to the group, which must end with the contact entity. Set the new clause to use the **Contact** entity and leave it set it to match **All&#42;** to find all contacts associated with the selected opportunities.  
-    ![Finish the path to the contact entity](media/segment-example-opportunity3.png "Finish the path to the contact entity")
+    ![Link to opportunities](media/segment-opportunity-relation.png "Link to opportunities")
 
-1. Select **Save** and then **Go live** on the command bar.
+1. Open the **Add** drop-down list under the new related entity and select **Add row** to begin defining the collection of opportunities you're looking for. 
 
-1. Your segment is now live and will now find contacts associated with opportunities valued over $10,000. -->
+1. A new row is added to your query. Use it to create the following logical expression:
+
+    **Est. Revenue | Is greater than or equal to | 100000**  
+
+    ![Filter opportunities based on revenue](media/segment-opportunity-revenue.png "Filter opportunities based on revenue")
+
+1. The segment currently finds all contacts associated with opportunities with an estimated revenue of $100,000 or more. If needed, you can now add more opportunities-based criteria indented under the **Opportunity (Opportunity -> Contact (Contact))** relation to expand or limit the set of opportunities found. You could likewise add more contact-based criteria directly under the **Contact** entity (at the base of the tree, outside the **Opportunity (Opportunity -> Contact (Contact))** relation) to expand or limit the set of contacts found. 
+
+1. Select the field that shows **Enter segment name** as ghost text. Then type a name for your segment.
+
+1. On the command bar, select **Save** to save your segment and then select **Go live**.
 
 ## Combine multiple query blocks
 

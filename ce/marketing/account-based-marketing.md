@@ -56,9 +56,9 @@ Firmographic segments are dynamic segments pre-configured to include a query int
 
     ![Choose the tree view](media/segment-firmographic-tree-view.png "Choose the tree view")
 
-1. Note that your firmographic segment already a link to the related account entity, as indicated by the **Account (Contact -> Account (Company Name))** relationship. This relationship tells you that you are referencing the **Account** entity, and that the relation between that entity and the parent **Contact** entity (shown at the base of the tree) goes through the **Company Name** field of the **Contact** entity. The **Company Name** field holds the name of the company (account) that each contact works for, so this query will find employees of the accounts we are about to define. More information: [Move between entities with relationships](segments-profile.md#relationships)
+1. Note that your firmographic segment already includes a link to the related account entity, as indicated by the **Account (Contact -> Account (Company Name))** relationship. This relationship tells you that you are referencing the **Account** entity, and that the relation between that entity and the parent **Contact** entity (shown at the base of the tree) goes through the **Company Name** field of the **Contact** entity. The **Company Name** field holds the name of the company (account) that each contact works for, so this query will find employees of the accounts we are about to define. More information: [Move between entities with relationships](segments-profile.md#relationships)
 
-    ![Close the default group](media/segment-firmographic-entities.png "Close the default group")
+    ![The contact entity with a relation to accounts](media/segment-firmographic-entities.png "The contact entity with a relation to accounts")
 
 1. Use the drop-down lists and input fields in the rows indented under the **Account (Contact -> Account (Company Name))** relation to define the set of accounts you'd like to find. All of the criteria you enter here are based on values found in your account records (not contact records). For example, to find all accounts in Chicago with an annual revenue of $100,000 or more, you'd include the following two rows here, and combine them with an AND operator:
 
@@ -67,7 +67,7 @@ Firmographic segments are dynamic segments pre-configured to include a query int
 
     ![Accounts in Chicago with an annual revenue of $100,000 or more](media/segment-firmographic-accounts.png "Accounts in Chicago with an annual revenue of $100,000 or more")
 
-1. The segment will now find all contacts who work for the accounts that have the properties you specified. If needed, you can now add more contact-based criteria to further limit the set of contacts found for the segment (for example, to filter by job title). To add criteria for the contact entity, work directly under the **Contact** entity (at the base of the tree, outside the **Account (Contact -> Account (Company Name))** relation). For example, to find only contacts with a job title of purchaser, open the **Add** drop-down list at the base of the tree, select **Add row** and then specify the row as follows:
+1. The segment currently finds all contacts who work for the accounts that have the properties you specified. If needed, you can now add more contact-based criteria to further limit the set of contacts found for the segment (for example, to filter by job title). To add criteria for the contact entity, work directly under the **Contact** entity (at the base of the tree, outside the **Account (Contact -> Account (Company Name))** relation). For example, to find only contacts with a job title of purchaser, open the **Add** drop-down list at the base of the tree, select **Add row** and then specify the row as follows:
 
     **Job title | Equals | Purchaser**  
 
