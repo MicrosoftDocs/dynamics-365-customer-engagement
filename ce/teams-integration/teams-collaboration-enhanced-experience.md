@@ -55,15 +55,13 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
    
 4. After you select **Get started** or **Create a new connection**, you will enter into the connection process. 
 
-    1. **Team selection**: Choose an existing team or create a new team.
-   
-     - Choose an existing team that you belong to and then select **Next**.
+   **Step 1**: **Team selection**: Choose an existing team or create a new team.
+   - Choose an existing team that you belong to and then select **Next**.
       
-       > [!div class="mx-imgBorder"]
-       > ![Choose a team](media/teams-add-to-existing-team-3.png "Choose a team")
+     > [!div class="mx-imgBorder"]
+     > ![Choose a team](media/teams-add-to-existing-team-3.png "Choose a team")
 
-
-     - Or, create a new team:  
+   - Or, create a new team:  
      
         1. Select **Create new team**.
             > [!div class="mx-imgBorder"]
@@ -74,7 +72,8 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
             > [!div class="mx-imgBorder"]
             > ![Enter name](media/teams-enter-team-name-5.png "Enter a team name")
 
-    2. **Channel selection**: Choose an existing channel and then select **Next**, or select **Create new channel** to create a new channel.
+    
+   **Step 2**: **Channel selection**: Choose an existing channel and then select **Next**, or select **Create new channel** to create a new channel.
         > [!div class="mx-imgBorder"]
         > ![Choose a channel](media/teams-choose-channel.png "Choose a channel")
 
