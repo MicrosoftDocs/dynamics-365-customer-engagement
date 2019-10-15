@@ -24,6 +24,8 @@ Channel Integration Framework provides insights about how the call center is per
 > [!div class="mx-imgBorder"]
 > ![Channel Analytics](media/channel-analytics.PNG "Channel Analytics")
 
+## How does Channel Analytics help?
+
 Channel Analytics provides a consistent, seamless and unified experience when it comes to channel related analytics and insights. This means that:
 
 - Channel Analytics enables users to slice and dice KPIs based on different dimensions, including the channel type.
