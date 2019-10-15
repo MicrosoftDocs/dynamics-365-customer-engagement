@@ -13,7 +13,7 @@ ms.assetid: 184b39be-7ac3-45f1-a63e-d6ad2cb7b547
 ms.custom: 
 ---
 
-# Configure Intraday insights
+# Configure Intraday insights for supervisors
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -34,6 +34,27 @@ Review the following prerequisites before configuring the supervisor insights: 
 
 -  Verify that your administrator has allowed **Omnichannel for Customer Service** app to read and write data on behalf of users in your organization. To learn more, see [Provide data access consent](omnichannel-provision-license.md).
 
+-  Assign the omnichannel supervisor role to supervisor users in your organization to access the report and dashboard. To learn more, see [Enable users for Omnichannel Customer Service](../administrator/add-users-assign-roles.md).
+
+-  As a system administrator, you must create and add security group for Power BI service. Follow these steps to create and add security group:
+
+   1. Create a security group in Azure Active Directory (AAD) and add **Omnichannel for Customer Service** as a member to that security group. To learn more, see [Create a basic group and add members using Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal). 
+
+   2. As a Power BI admin, you need to enable service principal in the **Developer settings** in the Power BI admin portal and the security group that you created in Azure AD.
+        a.  Sign in to [Power BI service](http://app.powerbi.com) and go to **Settings** > **Admin portal**.
+           
+         > [!div class=mx-imgBorder]
+         > ![Select admin portal](../media/supervisor-admin-powerbi-select-admin-portal.png "Select admin portal") 
+
+        b.  In the Admin portal, go to **Tenant settings** > **Developer settings** > **Allow service principals to use Power BI APIs**.
+
+        c.  Enable **Allow service principals to use Power BI APIs** and specify the security group that you want to give access.
+        
+         > [!div class=mx-imgBorder]
+         > ![Enable service principals for security group](../media/supervisor-admin-enable-service-principals.png "Enable service principals for security group")
+
+        d. Select **Apply**.
+
 
 ## Configure Intraday insights for Omnichannel for Customer Service app on web
 
@@ -41,12 +62,12 @@ Follow these steps to configure Intraday insights for Omnichannel for Customer S
 
 1. [Configure Power BI workspace in Omnichannel Administration app](#configure-power-bi-workspace-in-omnichannel-administration-app)
 
-2. [Verify workspace creation in Power BI](#verify-workspace-creation-in-power-bi)
+2. [Verify workspace creation and share reports with supervisors](#verify-workspace-creation-and-share-reports-with-supervisors)
 
 
 ### Configure Power BI workspace in Omnichannel Administration app
 
-You must configure the Power BI workspace using the **Omnichannel Administration** app to import the datasets and reports for Power BI. Follow these steps to create the supervisor datasets to your workspace.
+You must configure the Power BI workspace using the **Omnichannel Administration** app to create datasets and reports in Power BI. When configured, the supervisor users in your organization can see the Intraday insights reports as an app tab. Follow these steps to configure Power BI workspace to display Intraday insights reports as app tab in **Omnichannel for Customer Service** app on web.
 
 1.  Sign in to **Dynamics 365 Customer Service** and open **Omnichannel Administration** app. 
 
@@ -101,16 +122,16 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     > [!NOTE]
     > You can also see the status of different configuration stages such as workspace, dashboard, and datasets. When a workspace is created successfully, all the statuses will be in Green check. If failed, the respective configuration stage check will be in Red, and an error message is displayed. Resolve the error and create the workspace again.
 
+8. In [Power BI Service](https://app.powerbi.com), share the reports with supervisor users to access the report in **Omnichannel for Customer Service** app on web. To learn more, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
+
    > [!IMPORTANT]
    > - You can configure only one record in **Omnichannel Administration** app. 
    > - If you want to create a new configuration, deactivate and delete the existing configuration.
    > - You can edit an existing configuration to update the Power BI workspace details.
 
-### Verify workspace creation in Power BI
+### Verify workspace creation and share reports with supervisors
 
-To verify the creation of workspace in Power BI, follow these steps:
-
-1.  Sign in to **Power BI** service.
+1.  Sign in to [Power BI Service](https://app.powerbi.com).
 
 2.  Go to **Workspaces** and verify that a workspace with the name that you have entered is created.
 
@@ -123,41 +144,20 @@ To verify the creation of workspace in Power BI, follow these steps:
 
     -   The report and datasets **Intraday Monitoring**.
 
+4.  Share the reports with supervisor users to access the report as app tab in **Omnichannel for Customer Service** app on web. To learn more, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
+
 
 ## Configure Intraday insights for Unified Service Desk 
 
-Before you configure the Intraday insights for Unified Service Desk, you must [configure Intraday insights for Omnichannel for Customer Service app on web](#configure-intraday-insights-for-omnichannel-for-customer-service-app-on-web). This configures the Power BI datasets, reports, and dashboards for Omnichannel for Dynamics 365 Customer Service and enable you to configure the insights for Unified Service Desk. 
+Before you configure the Intraday insights for Unified Service Desk, you must [configure Intraday insights for Omnichannel for Customer Service app on web](#configure-intraday-insights-for-omnichannel-for-customer-service-app-on-web). This configures the Power BI datasets, reports, and dashboards for Omnichannel for Customer Service and enable you to configure the insights for Unified Service Desk. 
 
 You must perform the following tasks to configure the Intraday insights for **Unified Service Desk**:
 
 1. [Configure Intraday insights for Omnichannel for Customer Service app on web](#configure-intraday-insights-for-omnichannel-for-customer-service-app-on-web)
-2. [Configure Power BI service](#configure-power-bi-service)
-3. [Configure dashboard in Power BI](#configure-dashboard-in-power-bi)
-4. [Configure Unified Service Desk to display Intraday insights](#configure-unified-service-desk-to-display-intraday-insights)
-5. [Add users to supervisor configuration](#add-users-to-supervisor-configuration)
-6. [Update client cache version](#update-client-cache-version)
-
-
-### Configure Power BI service
-
-As a system administrator, you must configure the following in Power BI service:
-
-1. Create a security group in Azure Active Directory (AAD) and add **Omnichannel for Customer Service** as a member to that security group. To learn more, see [Create a basic group and add members using Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal). 
-
-2. As a Power BI admin, you need to enable service principal in the **Developer settings** in the Power BI admin portal and the security group that you created in Azure AD.
-    1.  Sign in to [Power BI service](http://app.powerbi.com) and go to **Settings** > **Admin portal**.
-           
-        > [!div class=mx-imgBorder]
-        > ![Select admin portal](../media/supervisor-admin-powerbi-select-admin-portal.png "Select admin portal") 
-
-    2.  In the Admin portal, go to **Tenant settings** > **Developer settings** > **Allow service principals to use Power BI APIs**.
-
-    3.  Enable **Allow service principals to use Power BI APIs** and specify the security group that you want to give access.
-        
-        > [!div class=mx-imgBorder]
-        > ![Enable service principals for security group](../media/supervisor-admin-enable-service-principals.png "Enable service principals for security group")
-
-    4. Select **Apply**.
+2. [Configure dashboard in Power BI](#configure-dashboard-in-power-bi)
+3. [Configure Unified Service Desk to display Intraday insights](#configure-unified-service-desk-to-display-intraday-insights)
+4. [Add users to supervisor configuration](#add-users-to-supervisor-configuration)
+5. [Update client cache version](#update-client-cache-version)
 
 
 ### Configure dashboard in Power BI
