@@ -109,9 +109,9 @@ function GetCookie (name) {
   }
   return null;
 }
-/* ####################### end get cookie (name) ####################### */
+/* ####################### End get cookie (name) ####################### */
 
-/* ####################### start delete cookie ####################### */
+/* ####################### Start delete cookie ####################### */
 function DeleteCookie (name,path,domain) {
   if (GetCookie(name)) {
     document.cookie = name + "=" +
@@ -120,9 +120,9 @@ function DeleteCookie (name,path,domain) {
       "; expires=Thu, 01-Jan-70 00:00:01 GMT";
   }
 }
-/* ####################### end of delete cookie ####################### */
+/* ####################### End of delete cookie ####################### */
 
-/* ####################### count number of visits to current webpage ####################### */
+/* ####################### Count number of visits to current webpage ####################### */
 function VisitCounter(){
 var visits = GetCookie("timesPageVisited");
 if (!visits) { visits = 1; 
@@ -132,7 +132,7 @@ else {
 visits = parseInt(visits) + 1;document.write("Select a Conversation Space.");}
 setCookie("timesPageVisited", visits,expdate);
 }
-/* ####################### end of count number of visits to current webpage ####################### */
+/* ####################### End of count number of visits to current webpage ####################### */
 </script>
 
 
@@ -154,13 +154,13 @@ VisitCounter();
         });
 
         setTimeout(function(){
-			var timeToWaitBeforeOfferingProactiveChatInMilliseconds = 5000;//time to wait before Offering proactive chat to web page visitor
+			var timeToWaitBeforeOfferingProactiveChatInMilliseconds = 5000;//Time to wait before offering proactive chat to web page visitor
             var visits = GetCookie("timesPageVisited");
-			//check if webpage has been visited 2 or more times by the user.
+			//Check if webpage has been visited 2 or more times by the user.
             if (visits > 2) {		
-				//show proactive chat invite
+				//Display proactive chat invite
                 Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({message: "Hi! Do you have a question on Surface device? I am here to help."}, false);
-                DeleteCookie("timesPageVisited");//delete the cookie to reset the counter
+                DeleteCookie("timesPageVisited");//Delete the cookie to reset the counter
             }
         },timeToWaitBeforeOfferingProactiveChatInMilliseconds);
     });
@@ -185,8 +185,8 @@ Hi! How are you doing today? The status of the case:<caseid> is in progress. Wou
 <script id="Proactivechattrigger">
 	// Wait for Chat widget to load completely
     window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-		var timeToWaitBeforeOfferingProactiveChatInMilliseconds = 10000;//time to wait before Offering proactive chat to web page visitor
-		var caseId = '< your case id relevant to the user.>';//set case id relevant to the user.
+		var timeToWaitBeforeOfferingProactiveChatInMilliseconds = 10000;//Time to wait before offering proactive chat to web page visitor
+		var caseId = '< your case id relevant to the user.>';//Set case id relevant to the user.
 		// setting Context variables
         Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
             return {
@@ -195,7 +195,7 @@ Hi! How are you doing today? The status of the case:<caseid> is in progress. Wou
             };
         });
 		
-		//show proactive chat invite after 'timeToWaitBeforeOfferingProactiveChatInMilliseconds' milliseconds
+		//Show proactive chat invite after 'timeToWaitBeforeOfferingProactiveChatInMilliseconds' milliseconds
         setTimeout(function(){
             Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({message: "Hi! How are you doing today? The status of the case: " + caseId + " is in progress. Would you like to get more details?"}, false)
         },timeToWaitBeforeOfferingProactiveChatInMilliseconds);
