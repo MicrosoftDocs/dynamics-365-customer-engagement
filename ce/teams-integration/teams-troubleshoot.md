@@ -45,7 +45,7 @@ To fix the issue, disable the Enhanced Microsoft Teams integration feature.
     > ![Teams error](media/error2.png "Teams error")
 4. Delete the app.
     > [!div class="mx-imgBorder"] 
-    > ![Teams error](media/erro3.png "Teams error")
+    > ![Teams error](media/error3.png "Teams error")
 5. Wait for about five minutes and then [enable the Enhanced Microsoft teams integration](teams-install-app.md) feature again. This time make sure that you to check the **Consent on behalf of organization** checkbox. 
 
 
