@@ -26,11 +26,11 @@ search.app:
 
 A marketing form defines a set of input fields arranged into a form layout. You'll probably build a small library of reusable forms that you can place on all your various marketing pages as needed. To add a marketing form to a specific marketing page, use a form element to position the form and choose local settings for it, which apply to that page only.
 
-Each marketing form is made from a collection of marketing form fields, plus form buttons, graphical elements, and a few configuration settings. Each field included in your form must be set up in Dynamics 365 Marketing as a marketing form field, which establishes options for how that field is presented in forms where it appears, and which lead or contact fields it maps to. Some features of a marketing form depend on which type of form it is—for example, a subscription center form can include subscription lists.
+Each marketing form is made from a collection of fields, buttons, graphical elements, and a few configuration settings. Each field included in your form must be set up in Dynamics 365 Marketing as a [marketing form field](marketing-fields.md), which establishes options for how that field is presented in forms where it appears, and which lead or contact fields it maps to in the database. Some features of a marketing form depend on which type of form it is&mdash;for example, a subscription center form can include subscription lists.
 
 <a name="form-types"></a>
 
-## Marketing form types
+## Marketing form types and subscription behavior
 
 As with marketing pages, each marketing form has a type, which maps directly to the page type where you can use that form. Though you can include more than one form on a marketing page, all forms on the page must be of the same type, and that type must match the type of the page itself. The available types are:
 
@@ -46,11 +46,11 @@ You should usually choose your form type before you start designing the form. Fo
 
 To create a new marketing form, do one of the following:
 
-- Go to **Marketing** > **Internet marketing** > **Marketing forms** to go to the list of all forms currently available on your instance, and then select **+New** in the command bar. You'll first be asked to choose a template, which establishes the form type, column layout, and sample content. Then you'll be in the form designer.
+- Go to **Marketing** > **Internet marketing** > **Marketing forms** to go to the list of all forms currently available on your instance, and then select **New** in the command bar. You'll first be asked to choose a template, which establishes the form type, column layout, and sample content. Then you'll be in the form designer.
 
-- While working on an existing marketing page design, add a form element to your design, and then select **+ New** on the **Properties** tab instead of choosing an existing form (be sure to save your page design first if you haven't already done so). You'll then be asked to choose a template, which establishes the form type, column layout, and sample content. Then you'll be in the form designer.
+- While working on an existing [marketing page design](create-deploy-marketing-pages.md), add a form element to your design, and then select **New** on the **Properties** tab instead of choosing an existing form (be sure to save your page design first if you haven't already done so). You'll then be asked to choose a template, which establishes the form type, column layout, and sample content. Then you'll be in the form designer.
 
-The form designer is similar to other types of digital content designers in Dynamics 365 Marketing, but only provides design elements and settings that are appropriate for marketing forms.
+The form designer is similar to other types of [digital content designers](design-digital-content.md) in Dynamics 365 Marketing, but only provides design elements and settings that are appropriate for marketing forms.
 
 To edit an existing form, do one of the following:
 
@@ -71,7 +71,7 @@ The header settings are available at the top of the page no matter which tab is 
 - **Name**: Enter a name for the form. This is the name you'll see in the forms list and when adding the form to a marketing page.
 - **Form type**: Choose whether the form should function as a **Landing page**, **Subscription center**, or **Forward to a friend** form. This setting affects the requirements for what your form must contain and where you can use it. More information: [Marketing form types](#form-types) and [Design and validate your form content](#form-content)
 - **Update contacts/leads**: Choose which types of records can be created or updated in response to a form submission. Usually you should leave this set to **Contacts and leads**, which will update both types of records and link them together as needed to support lead scoring and insights. However, you might instead choose to update **Only contacts** or **Only leads** if you want to prevent one of these types of records from being changed. More information: [How form settings affect lead scoring and interaction records](#form-setting-effects)
-- **Status reason**: Shows the current go-live status of the form. Only live forms can be used on marketing forms or embedded. You can't change this setting here; use buttons on the command bar instead. More information: [Go live to make your marketing form available for use](#form-go-live)
+- **Status reason**: Shows the current go-live status of the form. A form must be live before you can used it in a marketing page or embed it on an external site. You can't change this setting here; use buttons on the command bar instead. More information: [Go live to make your marketing form available for use](#form-go-live)
 
 ![Form settings in the header](media/form-header-settings.png "Form settings in the header")
 
@@ -95,45 +95,55 @@ The following settings and information are provided on the **Summary** tab:
 - **Related marketing pages**: Here you can see a list of marketing pages where this form is used. Select any listed page to open it.
 - **Related fields**: Here you can see a list of fields used in this form. Select any listed field to open its definition.
 
+![Form Summary tab](media/form-summary.png "Form Summary tab")
+
 <a name="form-setting-effects"></a>
 
 ### How form settings affect lead scoring and interaction records
 
-Typically, you'll use marketing forms as part of your lead generation and scoring strategy. If you are doing this, then it's important to understand how some of the settings in the header and on the **Summary** tab can affect lead generation, lead scoring, and interaction records. The most important setting in this regard is the **Update contact/leads** setting in the header, which will affect what happens when a known or prospective contact submits a form as follows:
+Typically, you'll use marketing forms as part of your lead generation and scoring strategy. If you are doing this, then it's important to understand how some of the settings in the header and on the **Summary** tab can affect lead generation, lead scoring, and interaction records. The most important setting in this regard is the **Update contact/leads** setting in the header, which  affects what happens when a contact submits a form as described in the following subsections. For more information about these issues, see also [Design lead-scoring models](score-manage-leads.md).
 
-- When a form is submitted with **Update contact/leads** set to **Contacts and leads** (which is the standard and recommended setting): 
-  - Both leads and contacts will be created or updated as needed.
-  - The system applies the **Contact matching strategy** to find an existing contact that matches the submission. If no contact is found, then the system checks to see if a Dynamics 365 Marketing cookie is set on the contact's computer. (If the cookie is present, that means that this contact used this computer to open a subscription center or submit a form to Dynamics 365 Marketing before, so the system can recognize the contact.)
-    - If no cookie or matched contact is found, then create a new contact. 
-    - If an existing contact is found based on the cookie or matching strategy, update its fields to match the submission.
-  - If **Generate leads without matching** is set to **Yes**, the system always creates a new lead, regardless of the **Lead matching strategy**.
-  - If **Generate leads without matching** is set to **No**, the system applies the **Lead matching strategy** to look for an existing lead that matches the submission.
-    - If no lead is found, create a new one.
-    - If an existing lead is found, update its fields to match the submission.
-  - The systems stores the found/created contact ID in the **Parent Contact for lead** lookup field for the found/created lead.
-  - The system generates a form-submitted interaction record with both the found/created lead ID and the found/created contact ID.
+#### Crate and update both contacts and leads
 
-- When a form is submitted with **Update contact/leads** set to **Only leads**: 
-  - Contacts are never created or updated, so the **Contact matching strategy** setting is ignored and has no effect.
-  - If **Generate leads without matching** is set to **Yes**, the system always creates a new lead, regardless of the **Lead matching strategy**.
-  - If **Generate leads without matching** is set to **No**, the system applies the **Lead matching strategy** to look for an existing lead that matches the submission.
-    - If no lead is found, create a new one.
-    - If an existing lead is found, update its fields to match the submission.
-  - The system checks whether a Dynamics 365 Marketing cookie is present on the contact's computer.
-    - If a cookie was found, then store the contact ID in the **Parent Contact for lead** lookup field for the lead.
-    - If no cookie was found, then newly created leads won’t have any parent contact (but existing leads will keep their parent contact, if present).
-  - The system generates a form-submitted interaction record with the found/created lead ID. If a cookie was found, then the contact ID is also stored, but if no cookie was found, the contact ID is null.
-  > [!IMPORTANT]
-  > Leads with no parent contact can’t be scored by lead-scoring models, and interactions with no contact ID can't contribute to a lead score.
+When a form is submitted with **Update contact/leads** set to **Contacts and leads** (which is the standard and recommended setting):
 
-- When a form is submitted with **Update contact/leads** set to **Only contacts**: 
-  - Leads are never created or updated, so the **Lead matching strategy** setting is ignored and has no effect.
-  - The system applies the **Contact matching strategy** to find a contact that matches the submission. If no contact is found, then it checks to see if a Dynamics 365 Marketing cookie is set on the contact's computer.
-    - If no cookie or contact is found, then create a new contact.
-    - If an existing contact is found based on the cookie or matching strategy, update its fields to match the submission.
-  - The system generates a form-submitted interaction record that includes the found/created contact ID (but the lead ID is null).
+- Both leads and contacts will be created or updated as needed.
+- The system applies the **Contact matching strategy** to find an existing contact that matches the submission. If no contact is found, then the system checks to see if a Dynamics 365 Marketing cookie is set on the contact's computer. (If the cookie is present, that means that this contact used this computer to open a subscription center or submit a form to Dynamics 365 Marketing before, so the system can recognize the contact.)
+  - If no cookie or matched contact is found, then create a new contact. 
+  - If an existing contact is found based on the cookie or matching strategy, update its fields to match the submission.
+- If **Generate leads without matching** is set to **Yes**, the system always creates a new lead, regardless of the **Lead matching strategy**.
+- If **Generate leads without matching** is set to **No**, the system applies the **Lead matching strategy** to look for an existing lead that matches the submission.
+  - If no lead is found, create a new one.
+  - If an existing lead is found, update its fields to match the submission.
+- The systems stores the found/created contact ID in the **Parent Contact for lead** lookup field for the found/created lead.
+- The system generates a form-submitted interaction record with both the found/created lead ID and the found/created contact ID.
 
-For more information about these issues, see also [Design lead-scoring models](score-manage-leads.md).
+#### Crate and update leads only
+
+When a form is submitted with **Update contact/leads** set to **Only leads**:
+
+- Contacts are never created or updated, so the **Contact matching strategy** setting is ignored and has no effect.
+- If **Generate leads without matching** is set to **Yes**, the system always creates a new lead, regardless of the **Lead matching strategy**.
+- If **Generate leads without matching** is set to **No**, the system applies the **Lead matching strategy** to look for an existing lead that matches the submission.
+  - If no lead is found, create a new one.
+  - If an existing lead is found, update its fields to match the submission.
+- The system checks whether a Dynamics 365 Marketing cookie is present on the contact's computer.
+  - If a cookie was found, then store the contact ID in the **Parent Contact for lead** lookup field for the lead.
+  - If no cookie was found, then newly created leads won’t have any parent contact (but existing leads will keep their parent contact, if present).
+- The system generates a form-submitted interaction record with the found/created lead ID. If a cookie was found, then the contact ID is also stored, but if no cookie was found, the contact ID is null.
+
+> [!IMPORTANT]
+> Leads with no parent contact can’t be scored by lead-scoring models, and interactions with no contact ID can't contribute to a lead score.
+
+#### Crate and update contacts only
+
+When a form is submitted with **Update contact/leads** set to **Only contacts**:
+
+- Leads are never created or updated, so the **Lead matching strategy** setting is ignored and has no effect.
+- The system applies the **Contact matching strategy** to find a contact that matches the submission. If no contact is found, then it checks to see if a Dynamics 365 Marketing cookie is set on the contact's computer.
+  - If no cookie or contact is found, then create a new contact.
+  - If an existing contact is found based on the cookie or matching strategy, update its fields to match the submission.
+- The system generates a form-submitted interaction record that includes the found/created contact ID (but the lead ID is null).
 
 <a name="form-content"></a>
 
