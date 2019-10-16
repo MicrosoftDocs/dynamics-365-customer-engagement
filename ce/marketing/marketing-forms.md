@@ -103,7 +103,7 @@ The following settings and information are provided on the **Summary** tab:
 
 Typically, you'll use marketing forms as part of your lead generation and scoring strategy. If you are doing this, then it's important to understand how some of the settings in the header and on the **Summary** tab can affect lead generation, lead scoring, and interaction records. The most important setting in this regard is the **Update contact/leads** setting in the header, which  affects what happens when a contact submits a form as described in the following subsections. For more information about these issues, see also [Design lead-scoring models](score-manage-leads.md).
 
-#### Crate and update both contacts and leads
+#### Create/update both contacts and leads
 
 When a form is submitted with **Update contact/leads** set to **Contacts and leads** (which is the standard and recommended setting):
 
@@ -118,7 +118,7 @@ When a form is submitted with **Update contact/leads** set to **Contacts and lea
 - The systems stores the found/created contact ID in the **Parent Contact for lead** lookup field for the found/created lead.
 - The system generates a form-submitted interaction record with both the found/created lead ID and the found/created contact ID.
 
-#### Crate and update leads only
+#### Create/update leads only
 
 When a form is submitted with **Update contact/leads** set to **Only leads**:
 
@@ -135,7 +135,7 @@ When a form is submitted with **Update contact/leads** set to **Only leads**:
 > [!IMPORTANT]
 > Leads with no parent contact can’t be scored by lead-scoring models, and interactions with no contact ID can't contribute to a lead score.
 
-#### Crate and update contacts only
+#### Create/update contacts only
 
 When a form is submitted with **Update contact/leads** set to **Only contacts**:
 
