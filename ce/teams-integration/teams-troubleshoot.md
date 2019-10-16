@@ -40,6 +40,8 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
 
 - If SharePoint Online admin has enabled Control access from unmanaged devices (conditional access policy) to allow/block SharePoint sites from unmanaged devices, then same restrictions will be applied for Microsoft Teams integration, because Microsoft teams uses SharePoint sites for document management. This might block a user when they try to access a connected team channel file library on a model-driven app page. For more information, see [Control access from unmanaged devices](https://docs.microsoft.com/en-us/sharepoint/control-access-from-unmanaged-devices). 
 
+- If you get this error: **You cannot enable Microsoft Teams integration since the environment is integrated with SharePoint on-premises**. This means are currently configured to use SharePoint on-premises for document management. You need to set up document management for model-driven apps in Dynamics 365 to use SharePoint Online. For more information, see [Set up model-driven apps in Dynamics 365 to use SharePoint Online](https://docs.microsoft.com/en-us/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
+
 ### Error when you pin a record or view of any model-driven app to a team channel if the enhanced experience is not configured correctly by your Common Data Service admin.
 
 Error: **The admin has not consented to use user sync feature, you can add them manually**.
@@ -136,7 +138,7 @@ The Common Data Service environment that you are trying to connect does not supp
 
 ### Error: This record is not connected to Dynamics 365. Repin the tab and try again.
 
-A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 apps. However, changes made to the record in Teams will update in the model-driven apps Dynamics 365.
+A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 apps. However, changes made to the record in Teams will update in the model-driven apps in Dynamics 365.
 
 This is how the error will display on the notification bar:
 
@@ -144,7 +146,7 @@ This is how the error will display on the notification bar:
 > ![Connection to Dynamics 365 appsfailed](media/teams-error-connection-failed.png "Connection to Dynamics 365 apps failed")
 
 > [!IMPORTANT]
-> When you first create a new team and channel in Microsoft Teams, you might see this error because it takes some time to make the SharePoint file library connection. Wait a few minutes and then refresh your browser to retry the connection.
+> When you first create a new team and channel in Microsoft Teams, you might see this error because it takes some time for Microsoft Teams to provision a new SharePoint file library for the channel. Wait a few minutes and then refresh your browser to retry the connection.
 
 Try repinning the Dynamics 365 tab. To repin, remove the tab and then re-add, as follows:
 
@@ -165,8 +167,6 @@ Try repinning the Dynamics 365 tab. To repin, remove the tab and then re-add, as
 
 ## Error messages in model-driven apps in Dynamics 365 
 
-### Error: You cannot enable Microsoft Teams integration since the environment is integrated with SharePoint on-premises.
-You are currently configured to use SharePoint on-premises for document management. You need to set up document management for model-driven apps in Dynamics 365 to use SharePoint Online. See [Set up model-driven apps in Dynamics 365 to use SharePoint Online](https://docs.microsoft.com/en-us/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
 ### Error: File sharing is not set up. Go to [URL] to connect a Microsoft Teams channel to this record.
 
