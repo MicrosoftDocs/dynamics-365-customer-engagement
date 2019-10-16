@@ -13,7 +13,7 @@ ms.assetid: 893b9aeb-67ab-4d20-aa5e-82eb50051bcb
 ms.custom: 
 ---
 
-# Add custom KPIs to Intraday insights dashboard
+# Customize KPIs for Intraday insights
 
 To cater to your organizational needs, the Intraday insights dashboard allows you to add custom KPIs to the dashboard. This allows supervisors to adapt to your organizational parameters that are specifically designed for your organization. As an administrator, you must add theses KPIs to the dashboard through Power BI desktop application. To add custom KPIs to Intraday insights dashboard, follow these steps:
 
