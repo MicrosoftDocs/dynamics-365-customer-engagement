@@ -97,20 +97,20 @@ The following settings and information are provided on the **Summary** tab:
 
 ### How form settings affect lead scoring and interaction records
 
-Typically, you'll use marketing forms as part of your lead generation and scoring strategy. If you are doing this, then it's important to understand how some of the settings in the header and on the **Summary** tab can affect lead generation, lead scoring, and interaction records. The most important setting in this regard is the **Update contact/leads** setting in the header, which  affects what happens when a contact submits a form as described in the following subsections. For more information about these issues, see also [Design lead-scoring models](score-manage-leads.md).
+Typically, you'll use marketing forms as part of your lead generation and scoring strategy. If so, then it's important to understand how some of the settings in the header and on the **Summary** tab can affect lead generation, lead scoring, and interaction records. The most important setting in this regard is the **Update contact/leads** setting in the header, which  affects what happens when a contact submits a form, as described in the following subsections. For more information about these issues, see also [Design lead-scoring models](score-manage-leads.md).
 
 #### Create/update both contacts and leads
 
 When a form is submitted with **Update contact/leads** set to **Contacts and leads** (which is the standard and recommended setting):
 
 - Both leads and contacts will be created or updated as needed.
-- The system applies the **Contact matching strategy** to find an existing contact that matches the submission. If no contact is found, then the system checks to see if a Dynamics 365 Marketing cookie is set on the contact's computer. (If the cookie is present, that means that this contact used this computer to open a subscription center or submit a form to Dynamics 365 Marketing before, so the system can recognize the contact.)
-  - If no cookie or matched contact is found, then create a new contact. 
-  - If an existing contact is found based on the cookie or matching strategy, update its fields to match the submission.
+- The system applies the **Contact matching strategy** to see if an existing contact matches the submission.
+  - If a matching contact is found, update its fields to match the submission.
+  - If no contact is found, then create a new one based on the submission.
 - If **Generate leads without matching** is set to **Yes**, the system always creates a new lead, regardless of the **Lead matching strategy**.
 - If **Generate leads without matching** is set to **No**, the system applies the **Lead matching strategy** to look for an existing lead that matches the submission.
-  - If no lead is found, create a new one.
-  - If an existing lead is found, update its fields to match the submission.
+  - If a matching lead is found, update its fields to match the submission.
+  - If no lead is found, create a new one based on the submission.
 - The systems stores the found/created contact ID in the **Parent Contact for lead** lookup field for the found/created lead.
 - The system generates a form-submitted interaction record with both the found/created lead ID and the found/created contact ID.
 
@@ -121,12 +121,12 @@ When a form is submitted with **Update contact/leads** set to **Only leads**:
 - Contacts are never created or updated, so the **Contact matching strategy** setting is ignored and has no effect.
 - If **Generate leads without matching** is set to **Yes**, the system always creates a new lead, regardless of the **Lead matching strategy**.
 - If **Generate leads without matching** is set to **No**, the system applies the **Lead matching strategy** to look for an existing lead that matches the submission.
-  - If no lead is found, create a new one.
-  - If an existing lead is found, update its fields to match the submission.
-- The system checks whether a Dynamics 365 Marketing cookie is present on the contact's computer.
-  - If a cookie was found, then store the contact ID in the **Parent Contact for lead** lookup field for the lead.
-  - If no cookie was found, then newly created leads won’t have any parent contact (but existing leads will keep their parent contact, if present).
-- The system generates a form-submitted interaction record with the found/created lead ID. If a cookie was found, then the contact ID is also stored, but if no cookie was found, the contact ID is null.
+  - If a matching lead is found, update its fields to match the submission.
+  - If no lead is found, create a new one based on the submission.
+- The system checks whether a Dynamics 365 Marketing cookie is present on the contact's computer. (If the cookie is present, that means that this contact used this computer to open a subscription center or submit a form to Dynamics 365 Marketing before, so the system can recognize the contact.)
+  - If a cookie is found, then store the contact ID in the **Parent Contact for lead** lookup field for the lead.
+  - If no cookie is found, then newly created leads won’t have any parent contact (but existing leads will keep their parent contact, if present).
+- The system generates a form-submitted interaction record with the found/created lead ID. If a cookie was found, then the contact ID is also stored in the interaction record, but if no cookie was found, the contact ID is null.
 
 > [!IMPORTANT]
 > Leads with no parent contact can’t be scored by lead-scoring models, and interactions with no contact ID can't contribute to a lead score.
@@ -136,9 +136,9 @@ When a form is submitted with **Update contact/leads** set to **Only leads**:
 When a form is submitted with **Update contact/leads** set to **Only contacts**:
 
 - Leads are never created or updated, so the **Lead matching strategy** setting is ignored and has no effect.
-- The system applies the **Contact matching strategy** to find a contact that matches the submission. If no contact is found, then it checks to see if a Dynamics 365 Marketing cookie is set on the contact's computer.
-  - If no cookie or contact is found, then create a new contact.
-  - If an existing contact is found based on the cookie or matching strategy, update its fields to match the submission.
+- The system applies the **Contact matching strategy** to see if an existing contact matches the submission.
+  - If a matching contact is found, update its fields to match the submission.
+  - If no contact is found, then create a new one based on the submission.
 - The system generates a form-submitted interaction record that includes the found/created contact ID (but the lead ID is null).
 
 <a name="form-content"></a>
