@@ -205,7 +205,7 @@ Hi! How are you doing today? The status of the case:<caseid> is in progress. Wou
 
 ## See also
 
-[startProactiveChat API](methods/startProactiveChat.md)<br />
+[startProactiveChat API](reference/methods/startProactiveChat.md)<br />
 [Manage custom context](send-context-starting-chat.md)<br />
 [Initiate a chat](initiate-chat-wait-time.md)<br />
 [Display custom context](display-custom-context.md)<br />
