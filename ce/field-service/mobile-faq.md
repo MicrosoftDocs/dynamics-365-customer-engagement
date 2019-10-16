@@ -69,3 +69,63 @@ See the topic on [common reasons no bookings are displayed in Field Service Mobi
 ## Bookings not scheduled to me show up when logged into the mobile app
 
 Ensure your mobile user has only the Field Service resource security role, see the topic on [seeing bookings not scheduled to me](mobile-faq-bookings-not-scheduled-to-me.md) for more details.
+
+
+## Question1: What are the supported encodings for barcodes in Field Service Mobile?
+Answer1: We support the following
+ 
+
+## Question2: Why is offline mode often faster than online mode?
+Answer2: Local data is always faster than remote data. have they checked the amount of data in online vs. offline mode? Could be that online is less restrictive and thus needs to process much more data. As Ben mentioned offline performance often times has better performs as the mobile application is not making calls directly to CRM.  As for best practices, this another one that had an answer that starts with "it depends".  Most of my costumers work in offline mode and sync as needed.
+
+Also there is a possibility to apply the entity Sync filter for the View in Online mode to decrease the amount of the data that will be downloaded. This is done by checking the Use Sync filter in Online Mode checkbox in the properties dialog.
+ 
+
+## Question3: Did someone by chance change our Scan Customer Asset code to query an asset by serial number, not GUID? I assume we implemented this approach because it was a low hanging fruit, but in reality 100% of my customers wanted to search for serial number, not create new QR codes based on GUIDs.
+
+Answer3: this can be modified by using offline html and JSBridge. This is controlled by replaces the JS in Woodford>Offline HTML>CustomerAsset, but OOB offline HTML should never be edited so it can be upgraded.
+
+## Question4: Is there a way to have an entity form be device specific.   If there are 2 forms in the same project is it possible to load a specific form based on the device even using JSBridge is acceptable.  I have a scenario where the same user will be logging in from a laptop and smart phone.  On the phone the customer would like forms to have fewer fields to maximize the screen realestate. 
+
+Answer4: There's definitely Form Rules to change Forms based on Platform:
+If you go into the HTML5 Configurator and into the Forms/Views editor, then you can select Form Rules:
+ 
+ 
+ 
+and in the Rule, you can choose configuration by platform:
+ 
+I believe it's also possible to have a configuration based on width; but I think it's a bit more explicit (specific number of pixels, if wider than X, display form Y), but I haven't gotten that far with configuration.
+
+## Question5: Are the Sales Entities (Leads, Opportunities, etc) still out of scope in our mobile app?
+Answer5: Any entity can be used in our app SO LONG as it is used in the context of Field Service. That is, a field service rep who needs access to opportunities can have access to those. BUT a sales person could not use our app to do purely sales stuff. Sales folks should use a D365 model app, power app, or a 3rd party (e.g. Resco).
+
+
+## Question6: Is the Total Amount on the Work Order Product supposed to automatically calculate when marking the Work Order Product to Used? Right now it does not automatically do that...
+Answer6: assuming you are working in offline mode, after you sync with the server, that value should get populated. In FSM 2016/2017 we were doing subtotal and total calculations in the app C# code for offline, but now with all of our logic in JS in the mobile project, we found that JavaScript does not play nicely with calculations when it comes to all sorts of different currencies. As such, we have moved away from supporting WO product/service total/subtotal calculations due to the limitations of JavaScript when it comes to precise calculations. JavaScript makes use of 64-bit floating point representation, which introduces complications when performing calculations that must be precise.
+Entitlement capability coming, this is no longer be feasible. When a WOP or WOS is eligible for an Entitlement, this won't currently be applied until after they sync, especially as the Entitlement Allocation Types get more complex with Limit-based entitlements. It will likely never make sense to try to enable this offline from the mobile device due to the complexity of the application logic. 
+
+
+
+
+## Question7: what is recommended way for field techs to chat?
+Answer7: Kaizala or Teams https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deep-links
+
+
+## Question8: Error "Your Organization has not configured the Field Service Mobile app with the correct project"
+
+Answer8: This message means that the project the user is getting is not our project for Field Service Mobile.
+
+
+
+## Question9: Bluetooth, Someone may asked this before, But can't find any information. I have 3 on-going projects, they all ask same questions. When service technician doing onsite service, they will perform some device test(network speed, or Bluetooth reading etc). They want device test being triggered by Fields Service mobile and return data to Field service mobile. Testing needs to be done by Bluetooth. is it possible. Does anyone done similar thing before.  Using Resco SDK, Offline HTML?  or JS Bridge
+
+Answer9: What we support in v11.3 of FSM is the ability to use a bluetooth RFID reader in conjunction with FSM. That is, if you have a bluetooth RFID reader, you can connect that to FSM. First connect that reader to your phone/tablet, then in FSM go to Setup > RFID Bluetooth Reader and select the reader you connected. Then whenever you click on the barcode button in the app you will see the scanner at which point you can click the scanner's button. It is only supported on Android.
+
+
+
+
+## Question10: Does anyone know how to add logo to field service mobile, I try to add one but didn't show up. any trick?
+
+Answer10: https://www.resco.net/woodford-user-guide/#__RefHeading__5907_1627906509
+
+
