@@ -2,7 +2,7 @@
 title: "What's new in Channel Integration Framework (CIF)| Microsoft Docs"
 description: "Read about the new features provided in the latest release of Channel Integration Framework (CIF)."
 keywords: ""
-ms.date: 10/04/2019
+ms.date: 10/16/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -32,17 +32,25 @@ The Channel Integration Framework (CIF) version 2.0, provides multiple enhanceme
 
 The Channel Integration Framework version 2.0 provides APIs to integrate with the multi-session experiences in the Omnichannel for customer service app. These APIs allow providers to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as and when needed. For more information, see Integration with multi-session experiences.
 
+More information: [Microsoft.CIFramework methods](reference/microsoft-ciframework.md).
+
 ### New modes and locations for the communication widget
 
 Providers can now define experiences for the minimized mode of the communication widgets they build. Agents can manually change the mode of the control from docked to minimized. The same can be achieved programmatically as well. For more information, see New modes and locations for the communication widget.
+
+More information: [Modes and locations for the communication widget](modes-communication-widget.md) and [setMode API](reference/microsoft-ciframework/setMode.md).
 
 ### Support for Multiple Providers
 
 With Channel Integration Framework version 2.0, organizations can configure multiple providers in the Omnichannel for Customer Service app. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels (for example, live chat and telephony), where each of these sessions belong to different providers. For more information, see Support for Multiple Providers.
 
+More information: [Support for multiple providers](support-multiple-providers.md).
+
 ### Channel Analytics
 
-Channel Integration Framework version 2.0 provides insights on how the call center is performing in terms of agent assignments, customer satisfaction, average handling time and agent performance. It uses predictive algorithms to calculate upcoming load, customer satisfaction, relationship scores and upsell probability, and helps you utilize operational and conversational analytics for better future planning. 
+Channel Integration Framework version 2.0 provides insights on how the call center is performing in terms of agent assignments, customer satisfaction, average handling time and agent performance. It uses predictive algorithms to calculate upcoming load, customer satisfaction, relationship scores and upsell probability, and helps you utilize operational and conversational analytics for better future planning.
+
+More information: [Channel Analytics](channel-analytics.md).
 
 ## What's new in Channel Integration Framework version 1.0
 
