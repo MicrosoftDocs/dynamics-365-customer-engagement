@@ -1,21 +1,21 @@
 ---
-title: "Build a smart assist bot | MicrosoftDocs"
+title: "Build a custom smart assist bot | MicrosoftDocs"
 description: "Read how you can build a smart assist bot to help agents resolve customer queries faster and more effectively"
 keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 10/09/2019
+ms.date: 10/16/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 355B4706-49DF-4E2F-A46D-00F12E0044C6
 ms.custom: 
 ---
-# Smart assist for Bots
+# Build a custom smart assist bot
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-Build a custom bot to push real-time sugegstions to agents for actions displayed within the smart assist control on the agent UI. The smart assist control uses Adaptive cards to push and display suggestions in UI. [Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI.
+Build a custom bot to push real-time suggestions to agents for actions displayed within the smart assist control on the agent UI. The smart assist control uses Adaptive cards to push and display suggestions in UI. [Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI.
 
 You can use the [Adaptive Cards Designer](https://adaptivecards.io/designer/) to create your own adaptive card template.
 
