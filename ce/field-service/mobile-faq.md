@@ -111,20 +111,16 @@ This is dictated by Offline HTML within your mobile project in Woodford > Offlin
 
 ## Can a mobile form appear different based on the operating system (Windows, iOS, Android) of the mobile device?  Example: If there are 2 forms in the same project (perhaps one form with fewer fields), loading a specific form based on the device operating system. 
 
-Yes. This is done with mobile form rules to change forms based on Platform.
-
-In the Forms and Views editor you can select Form Rules and in the Rule, you can choose configuration by platform:
+Yes. In the Forms and Views editor you can select Form Rules and in the Rule, you can choose configuration by platform:
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-form-rule-platform.png)
- 
-I believe it's also possible to have a configuration based on width; but I think it's a bit more explicit (specific number of pixels, if wider than X, display form Y), but I haven't gotten that far with configuration.
 
 
+## Are Sales entities such as Leads, Opportunities, etc and custom entities available for use on Field Service Mobile? 
 
-## Question5: Are the Sales Entities (Leads, Opportunities, etc) still out of scope in our mobile app?
-Answer5: Any entity can be used in our app SO LONG as it is used in the context of Field Service. That is, a field service rep who needs access to opportunities can have access to those. BUT a sales person could not use our app to do purely sales stuff. Sales folks should use a D365 model app, power app, or a 3rd party (e.g. Resco).
+Any entity can be used in Field Service Mobile as long as it is used in the context of Field Service. That is, a field service rep who needs access to opportunities can have access to those, but a sales person could not use Field Service Mobile for sales functions. 
 
 
 ## Question6: Is the Total Amount on the Work Order Product supposed to automatically calculate when marking the Work Order Product to Used? Right now it does not automatically do that...
