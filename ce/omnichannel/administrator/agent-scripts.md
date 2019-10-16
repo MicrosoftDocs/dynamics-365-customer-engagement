@@ -30,6 +30,8 @@ In the customer service industry, agents need to deal with continuous updates bo
 
 Agent scripts provide guidance to agents about what to do when they get a customer issue. The scripts ensure that only accurate, company-endorsed information is being shared, while also safeguarding the organization in regard to legal-compliance issues. Agent scripts help organizations to be unified, accurate, and effective while also being faster and more efficient in terms of customer handling.
 
+The agent scripts reduce the human errors involved in the process as the agents know the next actions they need to perform while interacting with a customer, which enables them to adhere to business process. The option, in turn, leads the agents to provide a quick resolution to the issue (low average handling time) and improve customer satisfaction.
+
 ## Value propositions
 
 - Minimization of human errors.
