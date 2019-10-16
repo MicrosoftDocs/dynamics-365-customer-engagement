@@ -123,12 +123,11 @@ Yes. In the Forms and Views editor you can select Form Rules and in the Rule, yo
 Any entity can be used in Field Service Mobile as long as it is used in the context of Field Service. That is, a field service rep who needs access to opportunities can have access to those, but a sales person could not use Field Service Mobile for sales functions. 
 
 
-## Question6: Is the Total Amount on the Work Order Product supposed to automatically calculate when marking the Work Order Product to Used? Right now it does not automatically do that...
-Answer6: assuming you are working in offline mode, after you sync with the server, that value should get populated. In FSM 2016/2017 we were doing subtotal and total calculations in the app C# code for offline, but now with all of our logic in JS in the mobile project, we found that JavaScript does not play nicely with calculations when it comes to all sorts of different currencies. As such, we have moved away from supporting WO product/service total/subtotal calculations due to the limitations of JavaScript when it comes to precise calculations. JavaScript makes use of 64-bit floating point representation, which introduces complications when performing calculations that must be precise.
-Entitlement capability coming, this is no longer be feasible. When a WOP or WOS is eligible for an Entitlement, this won't currently be applied until after they sync, especially as the Entitlement Allocation Types get more complex with Limit-based entitlements. It will likely never make sense to try to enable this offline from the mobile device due to the complexity of the application logic. 
+## Why isn't the Total Amount on the Work Order Product being automatically calculated when marking the Work Order Product as Used? 
 
+Field Service Mobile v11+: When in offline mode, calculated fields such as Total Amount will not be calculated and populated until the user syncs to the server or goes in online mode because the calculations take place in the server and not the mobile app. This is especially advantageous for [entitlement capabilities](work-order-entitlements.md), which apply dynamic pricing to work order products and services based on different factors.
 
-
+Field Service Mobile 2016 & 2017 v9: Subtotal and total amount are calculated in offline mode and online mode.
 
 ## Question7: what is recommended way for field techs to chat?
 Answer7: Kaizala or Teams https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deep-links
