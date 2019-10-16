@@ -44,4 +44,4 @@ When a conversation is escalated from a bot, the agent needs to accept the reque
 
 ## See also
 
-[Smart assist](../../administrator/smart-assist.md)
+[Smart assist for agents (admin)](../../administrator/smart-assist.md)

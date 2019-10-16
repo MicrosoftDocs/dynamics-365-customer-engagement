@@ -161,6 +161,8 @@ After you add the smart assist bot to a workstream, you must add the smart assis
 17. Select **Publish** to publish the customizations.
 
 ## See also
+
+[Smart assist for agents](../agent/agent-oc/oc-smart-assist.md)
  
 [Macros](macros.md)
 
