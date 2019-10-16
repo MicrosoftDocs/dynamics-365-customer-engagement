@@ -19,9 +19,18 @@ manager: shujoshi
 
 # Microsoft.CIFramework methods (CIF JavaScript API reference)
 
-Provides methods to use JavaScript API to manage the channel (widget), records, and forms in the Dynamics 365.
+Provides methods to use JavaScript API to manage the channel (widget), notifications, application tab, records, and forms in the Dynamics 365.
 
 ## Communication Panel Management APIs
+
+The Communication Panel is where you, as an agent, interact with the customer. Partner widgets built using Channel Integration Framework version 2.0 are loaded in this panel. The communication widget in this experience has following key differences as compared to version 1.0 based widgets.
+
+| Version 2.0 | Version 1.0 |
+|---------|---------|
+| Communication panel is displayed to the left of the session panel. | Communication panel is displayed to the right of the screen. |
+| Communication panel supports Docked, Minimized and Hidden modes | Communication panel supports Docked and Minimized modes |
+
+These APIs enable you to manage the state of the communication panel(widget).
 
 | Methods | Description |
 |---------|-------------|
@@ -31,6 +40,8 @@ Provides methods to use JavaScript API to manage the channel (widget), records, 
 | [getMode](microsoft-ciframework/getMode.md) | [!INCLUDE[getMode-description](microsoft-ciframework/includes/setMode-description.md)] |
 
 ## CRUD Operations APIs
+
+These APIs enable you to perform CRUD operations on entity records.
 
 | Methods | Description |
 |---------|-------------|
@@ -46,6 +57,8 @@ Provides methods to use JavaScript API to manage the channel (widget), records, 
 | [notifyEvent](microsoft-ciframework/notifyEvent.md)| Displays a notification that can be used to inform agent about an incoming conversation. |
 
 ## Application Tab Management APIs
+
+These APIs enable you to create and manage the state of an application tab.
 
 | Methods | Description |
 |---------|-------------|
