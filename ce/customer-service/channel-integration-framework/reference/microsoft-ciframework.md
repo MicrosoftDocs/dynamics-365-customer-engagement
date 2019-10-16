@@ -91,3 +91,8 @@ Channel Analytics APIs enable you to track event analytics.
 | [renderSearchPage](microsoft-ciframework/renderSearchPage.md)| [!INCLUDE[openForm-description](microsoft-ciframework/includes/renderSearchPage-description.md)] |
 | [addHandler](microsoft-ciframework/addHandler.md) | [!INCLUDE[addHandler-description](microsoft-ciframework/includes/addHandler-description.md)] |
 | [removeHandler](microsoft-ciframework/removeHandler.md) | [!INCLUDE[removeHandler-description](microsoft-ciframework/includes/removeHandler-description.md)] |
+
+## See also
+
+[What's new in Channel Integration Framework](../whats-new.md)<br />
+[System requirement for Channel Integration Framework](../system-requirements-channel-integration framework.md)
