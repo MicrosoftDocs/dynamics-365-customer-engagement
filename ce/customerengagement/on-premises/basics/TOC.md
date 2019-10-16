@@ -26,7 +26,6 @@
 
 # [Dashboards and charts](../basics/start-your-day-dashboard-chart.md)
 ## [View trending info with Office Delve](../basics/view-relevant-trending-information-office-delve.md)
-## [Add Power BI visualizations to dashboards](../basics/add-edit-power-bi-visualizations-dashboard.md)
 ## [Create or edit a chart](../basics/create-edit-chart.md)
 ## [Drill down in a chart](../basics/drill-down-chart.md)
 
