@@ -148,8 +148,8 @@
 
 ### [Customize the session forms](customizer/customize-session-form.md)
 ### [Configure link to conversation button in model-driven app entity form](customizer/configure-link-to-conversation-model-driven-app-form.md)
-### Unified Service Desk settings
 ### [Configure relevance search for chat transcript](customizer/relevance-search-chat-transcript.md)
+### Unified Service Desk settings
 #### [Create agent and supervisor configurations in Unified Service Desk](customizer/create-agent-supervisor-configurations-unified-service-desk.md)
 
 #### Configure Omnichannel Agent Dashboard
