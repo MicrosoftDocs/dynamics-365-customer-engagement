@@ -2,7 +2,7 @@
 title: "Delete Teams data | MicrosoftDocs"
 ms.custom: 
 description: "Delete Teams data."
-ms.date: 10/15/2019
+ms.date: 10/16/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

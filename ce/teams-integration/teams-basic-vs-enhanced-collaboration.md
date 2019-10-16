@@ -2,7 +2,7 @@
 title: "Difference between the Basic and Enhanced Collaboration Experience with Teams| MicrosoftDocs"
 ms.custom: 
 description: "Capability of the Basic and Enhanced Collaboration Experience with Teams."
-ms.date: 10/15/2019
+ms.date: 10/16/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

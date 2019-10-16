@@ -2,7 +2,7 @@
 title: "Install and set up the Dynamics 365 app for Teams| MicrosoftDocs"
 ms.custom: 
 description: "Install and set up the Dynamics 365 app for Teams."
-ms.date: 10/15/2019
+ms.date: 10/16/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -46,10 +46,10 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Co
    
 4. To enable [enhanced collaboration experience](teams-collaboration-enhanced-experience.md), select **Yes** for **Enable Enhanced Microsoft Teams Integration**. To turn this option on, you need Office 365 tenant admin permissions. When Enhanced Microsoft Teams Integration is enabled, the **Collaborate** button appears on the record and view page in model-driven apps for Dynamics 365. You can set up a connection with any Microsoft Teams collaboration channel within a model-driven app.
 
-    1. When you select **Yes** to **Enable Enhanced Microsoft Teams Integration**, there is two consent permission popup boxes that will display. If you have a pop-up blocker and you don't see the second consent dialong box, then you need to disable the pop-up blocker in your browser.
+    1. When you select **Yes** to **Enable Enhanced Microsoft Teams Integration**, there is two consent permission popup boxes that will display. If you have a pop-up blocker and you don't see the second consent dialog, then you need to disable the pop-up blocker in your browser.
   
         > [!div class="mx-imgBorder"] 
-        > ![Disablie popup blocker ](media/popupblocker.png "Disable popup blocker")
+        > ![Disable popup blocker ](media/popupblocker.png "Disable popup blocker")
 
     2. On the second consent dialog box, select the checkbox for **Consent on behalf of organization** and then select **Accept**. 
     
@@ -110,12 +110,12 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Co
 
 7. Select **Entity Selection** or **View Selection**.
 
-    1.  **Entity Selection**: Select an entity to connect. You can pick a recently viewed record or use search to find records. You can     use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
+    1. **Entity Selection**: Select an entity to connect. You can pick a recently viewed record or use search to find records. You can     use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
 
    > [!div class="mx-imgBorder"] 
    > ![Select an entity](media/teams-add-channel-pin-record2.png "Select an entity")
 
-    2.  **View Selection**: Select an entity to see the list of available views. Once you've picked a view, select **Save**.
+    2. **View Selection**: Select an entity to see the list of available views. Once you've picked a view, select **Save**.
     
    > [!div class="mx-imgBorder"] 
    > ![Select a view](media/teams-select-view.png "Select an view")
@@ -166,7 +166,7 @@ Set up the personal dashboard (My Dashboard) to interact with model-driven apps 
 1. Open the Dynamics 365 app.
 
    > [!div class="mx-imgBorder"] 
-   > ![Open the Dynamics 365 appsapp](media/teams-pick-app.png "Open the Dynamics 365 appsapp")
+   > ![Open the Dynamics 365 app](media/teams-pick-app.png "Open the Dynamics 365 app")
 
 2. Select a Common Data Service environment and a Unified Interface app to connect with model-driven apps in Dynamics 365, and then choose **Save Changes**.
 

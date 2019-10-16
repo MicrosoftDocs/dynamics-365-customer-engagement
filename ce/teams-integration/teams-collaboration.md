@@ -2,7 +2,7 @@
 title: "Collaborate with Teams| MicrosoftDocs"
 ms.custom: 
 description: "Collaborate with team members using the Dynamics 365 app for Teams."
-ms.date: 10/11/2019
+ms.date: 10/16/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -117,7 +117,7 @@ It's easy to navigate to the pinned model-driven app record or view page from Mi
 
 ### View and associate files
 
-Select the **Files** tab in the connectedt team channel to associate files with a model-driven app record. Files added here will appear in model-driven apps in Dynamics 365 under **Documents** for the linked record. Likewise, when you add a document to a model-driven app record, that document will appear in Microsoft Teams under the **Files** tab.
+Select the **Files** tab in the connected team channel to associate files with a model-driven app record. Files added here will appear in model-driven apps in Dynamics 365 under **Documents** for the linked record. Likewise, when you add a document to a model-driven app record, that document will appear in Microsoft Teams under the **Files** tab.
 
    > [!div class="mx-imgBorder"] 
    > ![Files tab in Teams app](media/teams-files-tab.png "Files tab in Teams app")
@@ -147,7 +147,7 @@ To view a consolidated file list across all document locations including all con
 
 ## Collaboration experience in a model-driven app
 
-In model-driven app in Dynamics 365, you can see the connected Microsoft Teams channel and files from the Microsoft Teams channel.
+In a model-driven app, you can see the connected Microsoft Teams channel and files from the Microsoft Teams channel.
 
 For more information on which entities support the collaborate option, see [Record types supporting collaborate](teams-work-records-and-view.md#record-types-supporting-collaborate)
 
@@ -161,12 +161,12 @@ In addition, document management in model-driven apps in Dynamics 365 is integra
 > [!div class="mx-imgBorder"] 
 > ![Dynamics 365 apps document management in Teams](media/teams-documents-d365.png "Dynamics 365 apps document management in Teams")
 
-## Record types that support Microsoft Teams integration in model-driven apps    
+## Record types that support Microsoft Teams integration in model-driven apps
 
 Currently, the following record types only support Microsoft Teams collaborate capabilities in model-driven app in Dynamics 365. The **Collaborate** button and file share feature will only work with the record types listed below in a model-driven app.
 
 > [!NOTE]
-   >  The list below shows the logical name of an entity (not the display name).
+   > The list below shows the logical name of an entity (not the display name).
  
 - Account
 -	Agreement
