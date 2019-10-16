@@ -25,10 +25,23 @@ search.app:
 
 The following are error messages with possible resolutions.
 
-## Error messages in the Teams app
+
+## Troubleshoot configuration issues with Microsoft Teams Integration
+
+Teams integration uses SharePoint integration at the backend, so if there is a failure with SharePoint integration or OneDrive configuration, it will also fail when you enable Teams integration.
+
+If you get an error while configuring Microsoft Teams Integration from Dynamics 365, it might be because of the following pre-requisites is not met.
+
+- SharePoint Integration is not configured, and OneDrive Integration is enabled. To Fix the issue, disable OneDrive.
+
+- SharePoint Integration is not configured but there is an active SharePoint Site in your organization. To fix the issue, deactivate the SharePoint site.
+
+- SharePoint Integration is not configured but there is SharePoint document locations created with an absolute URL in your organization. To fix the issue, delete locations with an absolute URL.
 
 
-### Error: The admin has not consented to use user sync feature, you can add them manually.
+### Error when you pin a record or view of any model-driven app to a team channel if the enhanced experience is not configured conrrectly by your Common Data Service admin. 
+
+Error: **The admin has not consented to use user sync feature, you can add them manually**.
 
 When you turn on enhanced Microsoft Teams Integration, there is two dialog boxes that you need to accept. On the second dialog box, when you don't check the **Consent on behalf of organization** check box, then users will get this error when they try to pin an entity record or view to Teams and share the tab with another user.
 
@@ -48,7 +61,7 @@ To fix the issue, disable the Enhanced Microsoft Teams integration feature.
     > ![Teams error](media/error3.png "Teams error")
 5. Wait for about five minutes and then enable the [Enhanced Microsoft Teams Integration](teams-install-app.md) feature again. This time make sure that you to check the **Consent on behalf of organization** checkbox. 
 
-
+## Error messages in the Teams app
 
 ### Error: I can't find the Dynamics 365 app in the Teams app store.
 
@@ -177,17 +190,7 @@ You need to be a member of the connected channel team to view files. Contact the
 
 This record has not been connected to a Teams channel. Select the URL to go to the Dynamics 365 Teams app and pin the record to a channel as documented in [Collaborate with Teams](teams-collaboration.md).
 
-## Troubleshoot configuration issues with Teams Integration
 
-Teams integration uses SharePoint integration at the backend, so if there is a failure with SharePoint integration or OneDrive configuration, it will also fail when you enable Teams integration.
-
-If you get an error while configuring Microsoft Teams Integration from Dynamics 365, it might be because of the following pre-requisites is not met.
-
-- SharePoint Integration is not configured, and OneDrive Integration is enabled. To Fix the issue, disable OneDrive.
-
-- SharePoint Integration is not configured but there is an active SharePoint Site in your organization. To fix the issue, deactivate the SharePoint site.
-
-- SharePoint Integration is not configured but there is SharePoint document locations created with an absolute URL in your organization. To fix the issue, delete locations with an absolute URL.
 
 
 
