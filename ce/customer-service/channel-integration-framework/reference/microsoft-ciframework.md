@@ -69,6 +69,20 @@ These APIs enable you to create and manage the state of an application tab.
 | [refreshTab](microsoft-ciframework/refreshtab.md) | Refreshes the tab. |
 | [setTabTitle](microsoft-ciframework/settabtitle.md) | Sets the title of the tab, if the focused session belongs to the channel provider and if the tab belongs to the session in focus.|
 
+## Session Management APIs
+
+These APIs allow you to manage sessions in a multi-session provider environment.
+
+| Methods | Description |
+|---------|-------------|
+| [canCreateSession](microsoft-ciframework/cancreatesession.md) | Allows you to check if a new session can be created. |
+| [createSession](microsoft-ciframework/createsession.md) | Creates a session based on the session template defined as part of the template and returns the unique identifier of the session (Id) that was created. |
+| [getSession](microsoft-ciframework/getsession.md) | Returns an object containing the unique identifier of the session, context and the value of isFocused parameter, in case the session belongs to the channel provider. |
+| [getFocusedSession](microsoft-ciframework/getfocusedsession.md) | Returns the unique identifier of the session that is in focus, if it belongs to the channel provider else returns null. |
+| [getAllSession](microsoft-ciframework/getallsessions.md) | Returns the array of Session Ids for a given provider. |
+| [setSessionTitle](microsoft-ciframework/setsessiontitle.md) | Sets the session title, if the session belongs to the channel provider. |
+| [requestFocusSession](microsoft-ciframework/requestFocusSession.md) | Sets the focus on the session whose Session Id is passed as a parameter, if the session belongs to the channel provider. |
+
 ## Channel Analytics APIs
 
 Channel Analytics APIs enable you to track event analytics.
