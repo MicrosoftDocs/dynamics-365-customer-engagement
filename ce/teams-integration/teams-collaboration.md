@@ -150,7 +150,7 @@ To view a consolidated file list across all document locations including all con
 
 In a model-driven app, you can see the connected Microsoft Teams channel and files from the Microsoft Teams channel.
 
-For more information on which entities support the collaborate option, see [Record types supporting collaborate](teams-work-records-and-view.md#record-types-supporting-collaborate)
+For more information on which entities support the collaborate option, see [Record types that support Microsoft Teams integration](teams-collaboration.md#record-types-that-support-microsoft-teams-integration-in-model-driven-apps).
 
 In a model-driven app record page, select **Collaborate** to display a list of all the connected team channels. Then, select a team channel to go to the relevant channel conversation in Microsoft Teams.
 
@@ -210,10 +210,4 @@ If not enabled, users can still connect model-driven app records to Microsoft Te
 When the feature is enabled, the collaboration feature is enabled only for a selected set of system entities. If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md)
 
 
-### See also  
- [Install the app and set up the Teams tab](teams-install-app.md#install-the-app-and-set-up-the-teams-tab)
- 
-[Enhanced Collaboration with Teams](teams-collaboration-enhanced-experience.md)
-
-[Use Teams to open a record or view](teams-work-records-and-view.md)
 
