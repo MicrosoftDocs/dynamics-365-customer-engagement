@@ -77,8 +77,8 @@ The parameters available for the custom control application type are as follows:
 
 | parameter | Example Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| controlName | | Name of the control. <br> Type = String |
-| data | | Defines the attributes and values for the control. <br> Type = JSON Object |
+| controlName | `MscrmControls.OCSearchRuntime.OCSearchRuntimeControl` | Name of the control. <br> Type = String |
+| data | `{key1:value1}` | Defines the attributes and values for the control. <br> Type = JSON Object |
 
 
 ### Dashboard
@@ -107,11 +107,11 @@ The parameters available for the entity record application type are as follows:
 
 | parameter | Example Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| createFromEntity |  | Designates a record that provides default values based on mapped attribute values. The lookup object has the following String properties: `entityType`, `id`, and `name` (optional). <br> Type = JSON Object | 
-| data |  | Defines the attributes and values for the new entity record. <br> Type = JSON Object |
+| createFromEntity | account | Designates a record that provides default values based on mapped attribute values. The lookup object has the following String properties: `entityType`, `id`, and `name` (optional). <br> Type = JSON Object | 
+| data | `{"firstname":"Rigsby", "lastname":"cho" , "jobtitle":"Sales Manager"}` | Defines the attributes and values for the new entity record. <br> Type = JSON Object |
 | entityId  | `d72e3735-5dca-e911-a826-000d3a1f0599` | GUID of the entity record. <br> Type = String  |
 | entityName | account | Logical name of the entity. <br> Type = String |
-| formId | | GUID of the form instance. <br> Type = String |
+| formId | `8448B78F-8F42-454E-8E2A-F8196B0419AF` | GUID of the form instance. <br> Type = String |
 | processId |  | GUID of the business process. <br> Type = String |
 | relationship |  | Relationship object of the record. <br> Type = JSON Object |
 | selectStageId | | GUID of the selected stage in business process instance.  <br> Type = String |
@@ -127,22 +127,22 @@ The parameters available for the entity search application type are as follows:
 
 ### Web resource
 
-The application type is used to display Web resources that represent files, which are used to extend the model-driven app such as html files, JavaScript, and CSS, and several image formats. The parameters available for the web resources application type are as follows:
+The application type is used to display Web resources that represent files, which are used to extend the Dynamics 365 for Customer Engagement web application such as html files, JavaScript, and CSS, and several image formats. The parameters available for the web resources application type are as follows:
 
 | parameter | Example Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| data | | <br> Type = String|
-| webresourceName |  |Name of the web resource to open. <br> Type = String|
+| data | Printer Noise | Provide string or key value pair. according the requirement of the webresource.  <br> Type = String|
+| webresourceName | `msdyn_kbsearchpagehost.html` |Name of the web resource to open. <br> Type = String|
 
 
 ### Website Url
 
-The application type is used to display a first-party and third-party websites as an application. The parameters available for the website url application type are as follows:
+The application type is used to display first-party and third-party website as an application. The parameters available for the website url application type are as follows:
 
 | parameter | Example Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| data | |Query parameters that you want to search. <br> Type = String|
-| url | https://www.bing.com/ | <br> Type = String|
+| data | `stackoverflow` |Query parameters that you want to search. <br> Type = String|
+| url | https://www.bing.com/search? | <br> Type = String|
 
 ## See also
 
