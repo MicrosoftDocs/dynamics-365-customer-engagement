@@ -71,8 +71,9 @@ See the topic on [common reasons no bookings are displayed in Field Service Mobi
 Ensure your mobile user has only the Field Service resource security role, see the topic on [seeing bookings not scheduled to me](mobile-faq-bookings-not-scheduled-to-me.md) for more details.
 
 
-## What are the supported encodings for barcodes in Field Service Mobile?
-Answer1: We support the following
+## What are the supported encodings for barcode scanning in Field Service Mobile?
+
+Field Service Mobile supports the following barcode encoding:  
  
  | 1D product | 2D product | 3D product |
  | --- | --- | --- |
@@ -85,10 +86,17 @@ Answer1: We support the following
  ||| RSS-Expanded|
 
 
-## Question2: Why is offline mode often faster than online mode?
-Answer2: Local data is always faster than remote data. have they checked the amount of data in online vs. offline mode? Could be that online is less restrictive and thus needs to process much more data. As Ben mentioned offline performance often times has better performs as the mobile application is not making calls directly to CRM.  As for best practices, this another one that had an answer that starts with "it depends".  Most of my costumers work in offline mode and sync as needed.
+## Why is loading data in offline mode often faster than in online mode?
 
-Also there is a possibility to apply the entity Sync filter for the View in Online mode to decrease the amount of the data that will be downloaded. This is done by checking the Use Sync filter in Online Mode checkbox in the properties dialog.
+When in offline mode, the user is looking at data stored locally on the device's storage; and in online mode the mobile app is looking at data on the server. Retrieving local data from the device is always faster than retrieving remote data from the server. Offline performance is often better because the mobile application is not making calls directly to the Dynamics 365 database. 
+
+It is rare for a field technician to need access to the entire field service entity database so it is recommended to use sync filters in offline mode that filters the data that is downloaded to the device.
+
+If you'd like to work in online mode but not call so much data, there is an option to **Use Sync filter in Online Mode**  in the properties dialog of a view.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/use-sync-filter-online-mode.png)
  
 
 ## Question3: Did someone by chance change our Scan Customer Asset code to query an asset by serial number, not GUID? I assume we implemented this approach because it was a low hanging fruit, but in reality 100% of my customers wanted to search for serial number, not create new QR codes based on GUIDs.
