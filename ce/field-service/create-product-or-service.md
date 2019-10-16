@@ -1,8 +1,8 @@
 ---
-title: "Create a product or service (Dynamics 365 Field Service) | MicrosoftDocs"
+title: "Create products or services for Work Orders | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
+ms.date: 10/16/2019
 ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -26,7 +26,17 @@ search.app:
 # Create a product or service (Field Service)
 
 The Product entity in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] contains information about products that may be sold to customers. Typical information stored in this entity are model number, manufacturer, warranty information, price, cost, etc. Products are usually added to work orders when an incident is added. Products added to a work order initially have a status of "estimated" and can be marked as "used," indicating that they were sold and billed to a client.  
-  
+
+
+Create a product or service
+
+Add a product or service to a work order
+
+Configuration considerations
+
+Additional notes
+
+
 1. From the main menu, click **Field Service** > **Administration**, and then choose **Product**.  
   
 2. Click **Add Product**.  
