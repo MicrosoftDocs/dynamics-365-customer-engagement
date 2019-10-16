@@ -35,9 +35,7 @@ Each marketing form is made from a collection of fields, buttons, graphical elem
 As with marketing pages, each marketing form has a type, which maps directly to the page type where you can use that form. Though you can include more than one form on a marketing page, all forms on the page must be of the same type, and that type must match the type of the page itself. The available types are:
 
 - **Landing page form**: This is a general-purpose form for collecting contact information on marketing pages that are neither subscription centers nor forwarding forms. Landing page forms can also offer mailing-list subscriptions for opt-in, but they can't show the visitor their current subscriptions or allow them to opt out of any lists (for this, they must use a subscription form). When the form is submitted, Dynamics 365 Marketing tries to match the incoming data to an existing contact; if a match is found, the matching record is updated, otherwise a new record is created. The new or updated contact will also be subscribed to each mailing list where the check box is selected, but will not change their subscription status for any mailing list where the check box is cleared.
-
 - **Subscription form**: Provides fields where contacts can view and edit their contact details, and shows a collection of mailing lists (with check boxes) where the contact can add or remove subscriptions. When the form is submitted, all contact fields are updated to match the submission, and the contact is removed from all lists where the check box is cleared and added to all lists where the check box is selected. A subscription form only modifies existing contacts, and never creates new ones.
-
 - **Forward to a friend**: Provides a short collection of fields, each of which will accept an email address entered by a contact when forwarding a marketing message to other colleagues.
 
 You should usually choose your form type before you start designing the form. For details about how to set the form type, see [Form summary and configuration](#form-summary). For more information about how the form type affects your form's design and requirements, see [Design and validate your form content](#form-content)
@@ -47,7 +45,6 @@ You should usually choose your form type before you start designing the form. Fo
 To create a new marketing form, do one of the following:
 
 - Go to **Marketing** > **Internet marketing** > **Marketing forms** to go to the list of all forms currently available on your instance, and then select **New** in the command bar. You'll first be asked to choose a template, which establishes the form type, column layout, and sample content. Then you'll be in the form designer.
-
 - While working on an existing [marketing page design](create-deploy-marketing-pages.md), add a form element to your design, and then select **New** on the **Properties** tab instead of choosing an existing form (be sure to save your page design first if you haven't already done so). You'll then be asked to choose a template, which establishes the form type, column layout, and sample content. Then you'll be in the form designer.
 
 The form designer is similar to other types of [digital content designers](design-digital-content.md) in Dynamics 365 Marketing, but only provides design elements and settings that are appropriate for marketing forms.
@@ -55,7 +52,6 @@ The form designer is similar to other types of [digital content designers](desig
 To edit an existing form, do one of the following:
 
 - Go to **Marketing** > **Internet marketing** > **Marketing forms** to go to the form list page. Use the search, sort, and filter controls to find the form you want to edit, and then select its name in the list to go to the form designer.
-
 - Open a marketing page where you use the form, select the form element in the canvas, and then go to the **Properties** tab of the page designer and open it from there.
 
 <a name="form-summary"></a>
