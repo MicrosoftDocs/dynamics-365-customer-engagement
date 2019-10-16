@@ -144,8 +144,8 @@ This message means the mobile application has not been set up with the correct m
 Yes. Support for Android only. In Field Service Mobile (FSM) v11.3+ there is capability to use a bluetooth RFID reader. If you have a bluetooth RFID reader, you can connect it to FSM. First connect the reader to your phone or tablet, then in FSM go to **Setup > RFID Bluetooth Reader** and select the reader you connected. Then whenever you click on the barcode button in the app you will see the scanner at which point you can click the scanner's button.
 
 
-## Question10: Does anyone know how to add logo to field service mobile, I try to add one but didn't show up. any trick?
+## How do you add or edit a logo in Field Service Mobile?
 
-Answer10: https://www.resco.net/woodford-user-guide/#__RefHeading__5907_1627906509
+Yes. See this [blog post](https://www.resco.net/woodford-user-guide/#__RefHeading__5907_1627906509) for more details.
 
 
