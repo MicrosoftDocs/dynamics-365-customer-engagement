@@ -195,8 +195,3 @@ You need to be a member of the connected channel team to view files. Contact the
    > ![Select Document Location](media/teams-select-document-location.png "Select Document Location")
 
 
-
-
-
-
-

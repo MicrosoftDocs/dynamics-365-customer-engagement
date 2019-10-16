@@ -97,3 +97,4 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
 [Use Teams to open a record or view](teams-work-records-and-view.md)
 
 [Basic Collaboration with Teams](teams-collaboration.md)
+

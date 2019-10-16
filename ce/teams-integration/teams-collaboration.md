@@ -58,6 +58,7 @@ From a team channel, you can connect a model-driven app record or view to collab
       > [!div class="mx-imgBorder"] 
       > ![Record successfully connected and pinned](media/teams-pinned-record.png "Record successfully connected and pinned")
    
+
 <a name="Twoconnect"></a>     
 **Two connection states**
 

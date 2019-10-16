@@ -23,25 +23,25 @@ ms.tgt_pltfrm:
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-The forecast category is used to determine confidence level of an opportunity as it moves along the path to conversion. Forecasting shows how many opportunities are in the pipeline and which of those are committed, delivering actionable insights. 
+The forecast category is used to determine the confidence level of an opportunity as it moves along the path to conversion. Forecasting shows how many opportunities are in the pipeline and which of those are committed, delivering actionable insights. 
 
 1.	In the site map, select **Opportunities**.
 
 2.	In the list of opportunities, open an opportunity for which you want to capture the forecast category.
 
-3.	In the **Forecast category** drop-down list, select one of the following, and then select **Save**:
+3.	In the **Forecast Category** drop-down list, select one of the following, and then select **Save**:
 
-    -  **Pipeline.** The confidence of winning this opportunity is low. Any opportunity that a sales rep has just started to work on can be set to this category (this is the default value).
+    -  **Pipeline**. The confidence of winning this opportunity is low. Any opportunity that a sales rep has just started to work on can be set to this category (this is the default value).
 
-    -  **Best case.** Sales rep has started talking to customers or has shared quotes, and there are moderate chances of winning the opportunity.
+    -  **Best case**. The sales rep has started talking to customers or has shared quotes, and there is a moderate chance of winning the opportunity.
 
-    -  **Committed.** Customer has committed to closing the deal.
+    -  **Committed**. The customer has committed to closing the deal.
 
-    -  **Omitted.** To exclude an opportunity’s numbers from the forecast. 
+    -  **Omitted**. To exclude an opportunity’s numbers from the forecast. 
     
-    - **Won.** If an opportunity is closed as won.
+    - **Won**. If an opportunity is closed as won.
     
-    - **Lost.** If an opportunity fails and is closed as lost.
+    - **Lost**. If an opportunity fails and is closed as lost.
 
        > [!div class="mx-imgBorder"]
        > ![Capture forecast category on an opportunity](media/capture-forecast-category-opportunity-form.png "Capture forecast category on an opportunity")
@@ -50,13 +50,13 @@ The forecast category is used to determine confidence level of an opportunity as
 
 To ensure that the forecast is projecting proper values, we recommend that you create a workflow to sync the opportunity status with the forecast category. Currently, when an opportunity’s state is changed to Won or Lost, the forecast category remains unchanged.
 
-To cerate workflow, follow these steps:
+To create a workflow, follow these steps:
  
-1. Sign in to Dynamics 365 Sales and go to **Sales Hub** app.
+1. Sign in to Dynamics 365 Sales and go to the **Sales Hub** app.
 
-2. On the Sales Hub page, **Select Settings** > **Advanced Settings**.
+2. On the Sales Hub page, go to **Select Settings** > **Advanced Settings**.
 
-    A new tab opens with **Business Management** settings page.
+    A new tab opens with the **Business Management** settings page.
 
 3. On the site map, select **Settings** > **Process Center** > **Processes**.
  
@@ -64,18 +64,18 @@ To cerate workflow, follow these steps:
 
 4. Select **+ New**.
 
-    The create processes dialog box opens.
+    The **Create Process** dialog box opens.
 
     > [!div class="mx-imgBorder"]
-    > ![Create process flow dialog box](media/forecast-create-process-dialog.png "Create process flow dialog box")
+    > ![Create Process dialog box](media/forecast-create-process-dialog.png "Create Process dialog box")
 
 5. Enter basic information for the workflow process and select **OK**:
 
-    - **Process name**: Enter a name for the process workflow.
+    - **Process Name**: Name the process workflow.
 
-    - **Category**: Select the category as **Workflow**.
+    - **Entity**: Select **Opportunity**. 
 
-    - **Entity**: Select the entity as **Opportunity**. 
+    - **Category**: Select **Workflow**.
 
     The process configuration page opens.
 
@@ -92,35 +92,35 @@ To cerate workflow, follow these steps:
     > [!div class="mx-imgBorder"]
     > ![Add condition](media/forecast-create-process-configuration-add-condition.png "Add condition")
 
-8. Define the condition as following for the step:
+8. Define the condition as follows for the step:
 
     - **Description:** Enter a description for the step. For example, **Sync opportunity status with forecast category**.
 
-    - **If condition:** Define the If condition as **Opportunity** **Status** is **Equal** to **Won**. After you save the **If** condition, define what should happen when the condition is true through **Then** condition. 
+    - **If condition:** Define the If condition as **Opportunity** **Status** is **Equal** to **Won**. After you save the **If** condition, define what should happen when the condition is true through the **Then** condition. 
 
         > [!div class="mx-imgBorder"]
         > ![Define If condition](media/forecast-create-process-configuration-if-condition-opportunity-status.png "Define If condition")
     
-    - **Then condition:** Select **Add Step** > **Update Record**. Enter the description and then select **Set Properties**. Go to **Additional Fields** section and select **Forecast Category** as **Won**.
+    - **Then condition:** Select **Add Step** > **Update Record**. Enter the description and then select **Set Properties**. Go to the **Additional Fields** section and select **Forecast category** as **Won**.
 
         > [!div class="mx-imgBorder"]
-        > ![Select forecast category as won](media/forecast-create-process-configuration-then-condition-forecastcategory-won.png "Select forecast category as won")
+        > ![Select Forecast category as Won](media/forecast-create-process-configuration-then-condition-forecastcategory-won.png "Select Forecast category as Won")
 
 9. Select the previous **If** condition step (here it is **Won**) and select **Conditional Branch**. Repeat steps 7 and 8 for **Lost**.
 
     > [!div class="mx-imgBorder"]
     > ![Add conditional branch](media/forecast-create-process-configuration-add-condition-branch.png "Add conditional branch")
 
-10. Following steps 7 to 9, also create a new step when the opportunity is reverted back to **Open** that changes the forecast category to **Pipeline**.
+10. Following steps 7 to 9, create a new step when the opportunity is reverted back to **Open** that changes the forecast category to **Pipeline**.
 
     > [!div class="mx-imgBorder"]
-    > ![Add if condition for pipeline](media/forecast-create-process-configuration-if-condition-pipeline.png "Add if condition for pipeline")
+    > ![Add If condition for pipeline](media/forecast-create-process-configuration-if-condition-pipeline.png "Add If condition for pipeline")
 
 11. Save and close the workflow process.
 
     The workflow process to automatically sync opportunity status with forecast category is created.
 
-To learn more about creating a workflow, see [Use Workflow processes to automate processes that don't require user interaction](/dynamics365/customer-engagement/customize/workflow-processes) 
+To learn more about creating a workflow, see [Use Workflow processes to automate processes that don't require user interaction](/dynamics365/customer-engagement/customize/workflow-processes). 
 
 ## See also
 

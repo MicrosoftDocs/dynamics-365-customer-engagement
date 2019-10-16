@@ -103,7 +103,7 @@
     },
     {
       "source_path": "ce/index.md",
-      "redirect_url": "on-premises/overview",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customerengagement/on-premises/overview",
       "redirect_document_id": "false"
     },
     {
@@ -1273,7 +1273,7 @@
     },
     {
       "source_path": "ce/on-premises/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/on-premises/deploy-and-operate-dynamics-365-on-premises",
+      "redirect_url": "/dynamics365/customerengagement/on-premises/deploy-and-operate-dynamics-365-on-premises",
       "redirect_document_id": "false"
     },
     {
