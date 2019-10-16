@@ -170,7 +170,7 @@ Try repinning the Dynamics 365 tab. To repin, remove the tab and then re-add, as
 5. Continue through the steps as in [Collaborate with Teams](teams-collaboration.md).
 
 
-## Error messages in model-driven apps Dynamics 365 
+## Error messages in model-driven apps in Dynamics 365 
 
 ### Error: You cannot enable Microsoft Teams integration since the environment is integrated with SharePoint on-premises.
 You are currently configured to use SharePoint on-premises for document management. You need to set up document management for model-driven apps in Dynamics 365 to use SharePoint Online. See [Set up model-driven apps in Dynamics 365 to use SharePoint Online](https://docs.microsoft.com/en-us/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
