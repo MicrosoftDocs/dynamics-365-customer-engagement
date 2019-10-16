@@ -1,6 +1,6 @@
 ---
-title: "Overview of templates in the Channel Integration Framework app | Microsoft Docs"
-description: "Learn about templates in the Omnichannel Administrator app"
+title: "Overview of templates in the Dynamics 365 Channel Integration Framework app | Microsoft Docs"
+description: "Learn about templates in the Dynamics 365 Channel Integration Framework app"
 keywords: ""
 ms.date: 10/15/2019
 ms.service:
@@ -28,7 +28,7 @@ When you (agents) get an incoming conversation request, the Channel Integration 
 
 Also, the **Omnichannel for Customer Service app** allows you to open third-party web applications in the application tabs. Your organization may have different line-of-business applications, and while starting a session, you want to load the line-of-business applications for a specific conversation type.
 
-For example, when an agent gets an incoming chat conversation notification, and he/she accepts the notification, a session starts. For every chat session, when the omnichannel application identifies the customer, you want to open a contact record, related case page, SharePoint site, and the line-of-business application.
+When you (an agent) get an incoming conversation request, Dynamics 365 Channel Integration Framework version 2.0 allows channel providers to search and open records on an incoming call. However, your organization might have different requirements and want to use different custom entities and correlate to a conversation.
 
 To choose the applications you want to open for every session, according to your organization requirements, session templates are introduced.
 
@@ -37,7 +37,7 @@ To choose the applications you want to open for every session, according to your
 - [Notification templates](notification-templates-cif.md)
 
 > [!WARNING]
-> It is recommended that you don’t edit the out-of-the-box-sample templates present in the package as it affects the functionality.
+> It is recommended that you don’t edit the out-of-the-box-sample templates present in the package because it affects the functionality.
 
 ## See also
 
