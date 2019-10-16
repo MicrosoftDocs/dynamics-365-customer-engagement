@@ -2,7 +2,7 @@
 title: "Start chat proactively | Microsoft Docs"
 description: "Read how you can start chat proactively to see if customers need help and thereby improve customer experience"
 keywords: ""
-ms.date: 10/11/2019
+ms.date: 10/16/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -30,30 +30,32 @@ Here is the chat invitation message that is sent.
 Hi! Just checking in to see if I can help answer any questions you may have. 
 ```
 
-Amy can accept the chat offer and have a conversation with the bot to sort out her issue. 
+Amy can accept the chat offer and start the conversation to sort out her issue. 
 
 ### Sample code
 
 ```html
-<script id="Microsoft_Omnichannel_LCWidget" src="https://oc-cdn-ocint5m.azureedge.net/livechatwidget/scripts/LiveChatBootstrapper.js" data-app-id="67be3444-1901-49de-8ba1-b1a24d34c398" data-org-id="d9631307-003e-4e5d-9ef8-5d49c8f08fbf" data-org-url="https://org77fb4aa4-crm.oc.crmlivetie.com"></script><script id="Proactivechattrigger"> 
-
-   window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){ 
-   
-   Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){ 
-   
-   return { 
-       'Time On Page':{'value':'30sec','isDisplayable':true}, 
-       'Page URL':{'value':'int5.microsoftcrmportals.com/support/','isDisplayable':true}, 
-        }; 
-   }); 
-    
-    setTimeout(function(){ 
-           Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat(true, null) },20000); 
-});    
+<!-- Code to show proactive chat invite after visitor has spend given time on the webpage -->
+<script id="Proactivechattrigger">
+	// Wait for Chat widget to load completely
+    window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
+		var timeToWaitBeforeOfferingProactiveChatInMilliseconds = 20000;//time to wait before Offering proactive chat to web page visitor
+		// setting Context variables
+        Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
+            return {
+                'Proactive Chat':{'value':'True','isDisplayable':true},
+                'Time On Page':{'value': timeToWaitBeforeOfferingProactiveChat ,'isDisplayable':true},
+                'Page URL':{'value': window.location.href,'isDisplayable':true},
+            };
+        });
+		
+		//show proactive chat invite after 'timeToWaitBeforeOfferingProactiveChatInMilliseconds' milliseconds
+        setTimeout(function(){
+            Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({message: "Hi! Just checking in to see if I can help answer any questions you may have."}, false)
+        },timeToWaitBeforeOfferingProactiveChatInMilliseconds);
+    });
 </script>
 ```
-
-If the bot fails to address the issue, it can escalate the conversation to a human agent.
 
 ## Scenario 2: Customer browsing multiple webpages
 
@@ -67,40 +69,103 @@ Hi! Do you have a question on Surface device ? I am here to help.
 ### Sample code
 
 ```html
-<script id="Proactivechattrigger"> 
-window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){ 
-Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){ 
-return { 
-'No. of visits':{'value':'2','isDisplayable':true}, 
-'Current Page URL':{'value':'Surface Laptop','isDisplayable':true}, 
-   }; 
-}); 
-setTimeout(function(){ 
-var visits = GetCookie("counter"); 
+<!-- Code to show proactive chat invite( after given time) after visitor visits the webpage given number of time -->
 
-if (visits == 2) { 
-    Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat(true, {message: "Hi! How are you doing today? Do you have any questions? I am here to help."}); 
-    DeleteCookie("counter"); 
+<!-- Operations on cookies like creating cookies, deleting cookies etc.. -->
+<script>
+var expdate = new Date ();
+expdate.setTime (expdate.getTime() + (24 * 60 * 60 * 1000*365)); // 1 yr from now 
+/* ####################### start set cookie  ####################### */
+function setCookie(name, value, expires, path, domain, secure) {
+  var thisCookie = name + "=" + escape(value) +
+      ((expires) ? "; expires=" + expires.toGMTString() : "") +
+      ((path) ? "; path=" + path : "") +
+      ((domain) ? "; domain=" + domain : "") +
+      ((secure) ? "; secure" : "");
+  document.cookie = thisCookie;
+}
+
+/* ####################### start get cookie value ####################### */
+function getCookieVal (offset) {
+  var endstr = document.cookie.indexOf (";", offset);
+  if (endstr == -1)
+    endstr = document.cookie.length;
+  return unescape(document.cookie.substring(offset, endstr));
+/* ####################### end get cookie value ####################### */
+}
+
+/* ####################### start get cookie (name) ####################### */
+function GetCookie (name) {
+  var arg = name + "=";
+  var alen = arg.length;
+  var clen = document.cookie.length;
+  var i = 0;
+  while (i < clen) {
+    var j = i + alen;
+    if (document.cookie.substring(i, j) == arg)
+      return getCookieVal (j);
+    i = document.cookie.indexOf(" ", i) + 1;
+    if (i == 0) break; 
+  }
+  return null;
+}
+/* ####################### end get cookie (name) ####################### */
+
+/* ####################### start delete cookie ####################### */
+function DeleteCookie (name,path,domain) {
+  if (GetCookie(name)) {
+    document.cookie = name + "=" +
+      ((path) ? "; path=" + path : "") +
+      ((domain) ? "; domain=" + domain : "") +
+      "; expires=Thu, 01-Jan-70 00:00:01 GMT";
+  }
+}
+/* ####################### end of delete cookie ####################### */
+
+/* ####################### count number of visits to current webpage ####################### */
+function VisitCounter(){
+var visits = GetCookie("timesPageVisited");
+if (!visits) { visits = 1; 
+document.write("Select a Conversation Space");
 } 
-},5000); 
-}); 
-</script> 
+else { 
+visits = parseInt(visits) + 1;document.write("Select a Conversation Space.");}
+setCookie("timesPageVisited", visits,expdate);
+}
+/* ####################### end of count number of visits to current webpage ####################### */
+</script>
 
-function VisitCounter(){ 
-    var visits = GetCookie("counter"); 
 
-    if (!visits) { 
-                    visits = 1;  
-                    document.write("."); 
-                 }  
+<!-- Count number of visits to current webpage -->
+<script>
+VisitCounter();
+</script>
 
-else {  
+<script id="Proactivechattrigger">
+	// Wait for Chat widget to load completely
+    window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
+		// setting Context variables
+        Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
+            return {
+                'Proactive Chat':{'value':'True','isDisplayable':true},
+                'No. of visits':{'value':'2','isDisplayable':true},
+                'Forums':{'value':'Surface Devices','isDisplayable':true},
+            };
+        });
 
-    visits = parseInt(visits) + 1; document.write("..");} 
-    setCookie("counter", visits,expdate); 
-     }
+        setTimeout(function(){
+			var timeToWaitBeforeOfferingProactiveChatInMilliseconds = 5000;//time to wait before Offering proactive chat to web page visitor
+            var visits = GetCookie("timesPageVisited");
+			//check if webpage has been visited 2 or more times by the user.
+            if (visits > 2) {		
+				//show proactive chat invite
+                Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({message: "Hi! Do you have a question on Surface device? I am here to help."}, false);
+                DeleteCookie("timesPageVisited");//delete the cookie to reset the counter
+            }
+        },timeToWaitBeforeOfferingProactiveChatInMilliseconds);
+    });
+</script>
 
-VisitCounter() 
 ```
 
 ## Scenario 3: Customer checking status for support case
@@ -110,31 +175,37 @@ Jacob is browsing through the support page for Microsoft Surface devices to find
 On realizing that Jacob has visited the support page seeking more information regarding his open case, he is offered proactive chat with the message given below.
 
 ```
-Hi! How are you doing today? The status of the case: <Case No> is "In Progress". Would you like to get more details? 
+Hi! How are you doing today? The status of the case:<caseid> is in progress. Would you like to get more details?
 ```
 
 ### Sample code
 
 ```html
-<script id="Microsoft_Omnichannel_LCWidget" src="https://oc-cdn-ocint5m.azureedge.net/livechatwidget/scripts/LiveChatBootstrapper.js" data-app-id="67be3444-1901-49de-8ba1-b1a24d34c398" data-org-id="d9631307-003e-4e5d-9ef8-5d49c8f08fbf" data-org-url="https://org77fb4aa4-crm.oc.crmlivetie.com"></script> 
-<script id="Proactivechattrigger"> 
-window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){ 
-    Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){ 
-    return { 
-        'Case Id':{'value':'CAS-01000-C7D0Q6','isDisplayable':true}, 
-        'Case Status':{'value':'InProgress','isDisplayable':true}, 
-           }; 
-}); 
- 
-setTimeout(function(){ 
-    Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat(false, {message: "Hi! How are you doing today? The status of the case:CAS-01000-C7D0Q6 is in progress. Would you like to get more details?"}) 
-        },10000); 
-    }); 
-</script> 
+<!-- Code to show proactive chat invite after visitor has spend given time on the webpage, with relavant details about user. -->
+<script id="Proactivechattrigger">
+	// Wait for Chat widget to load completely
+    window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
+		var timeToWaitBeforeOfferingProactiveChatInMilliseconds = 10000;//time to wait before Offering proactive chat to web page visitor
+		var caseId = '< your case id relevant to the user.>';//set case id relevant to the user.
+		// setting Context variables
+        Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
+            return {
+                'Proactive Chat':{'value':'True','isDisplayable':true},
+                'Case Id':{'value':caseId,'isDisplayable':true}
+            };
+        });
+		
+		//show proactive chat invite after 'timeToWaitBeforeOfferingProactiveChatInMilliseconds' milliseconds
+        setTimeout(function(){
+            Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({message: "Hi! How are you doing today? The status of the case: " + caseId + " is 'In Progress'. Would you like to get more details?"}, false)
+        },timeToWaitBeforeOfferingProactiveChatInMilliseconds);
+    });
+</script>
 ```
 
 ## See also
 
+[startProactiveChat API](methods/startProactiveChat.md)<br />
 [Manage custom context](send-context-starting-chat.md)<br />
 [Initiate a chat](initiate-chat-wait-time.md)<br />
 [Display custom context](display-custom-context.md)<br />
