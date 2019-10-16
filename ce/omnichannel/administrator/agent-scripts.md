@@ -44,7 +44,7 @@ The agent scripts reduce the human errors involved in the process as the agents 
 
 ## Prerequisites
 
-- Install Dynamics 365 Productivity Tools solution
+- Install Dynamics 365 Productivity Tools solution.
 
 ## Create agent scripts
 
