@@ -35,7 +35,11 @@ search.app:
 
 ## How do I extend or activate my mobile configuration tool (Woodford) trial?
 
-[How do I extend my mobile configuration tool trial?](activate-fs-mobile-app-license.md)
+The Mobile Configuration Tool (Woodford) is used to configure and customize the Field Service Mobile app. After [installing and setting up Field Service Mobile](https://docs.microsoft.com/en-us/dynamics365/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet) you will need to activate or extend the Mobile Configuration Tool (Woodford) within 30 days. See the topic on [activating or extending my mobile configuration tool (Woodford) trial](activate-fs-mobile-app-license.md).
+
+## What version of Field Service Mobile am I using?
+
+[](mobile-faq-latest-version)
 
 ## What is the latest version of the mobile app and configuration tool?
 
