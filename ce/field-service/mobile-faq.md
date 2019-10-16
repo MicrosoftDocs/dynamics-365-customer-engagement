@@ -139,11 +139,9 @@ It is recommended to use Microsoft Teams or Microsoft's Kaizala. See the topic o
 This message means the mobile application has not been set up with the correct mobile project or the logged in user is getting access to an incorrect mobile project based on their security role. See the topic on [installing and setting up Field Service Mobile](https://docs.microsoft.com/en-us/dynamics365/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet) to set up the mobile app with Microsoft's mobile project as a base parent and [Field Service mobile project library](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#mobile-project-file-library) to see a list of previous mobile projects. 
 
 
-## Question9: Bluetooth, Someone may asked this before, But can't find any information. I have 3 on-going projects, they all ask same questions. When service technician doing onsite service, they will perform some device test(network speed, or Bluetooth reading etc). They want device test being triggered by Fields Service mobile and return data to Field service mobile. Testing needs to be done by Bluetooth. is it possible. Does anyone done similar thing before.  Using Resco SDK, Offline HTML?  or JS Bridge
+## When field technicians are performing onsite service, can they connect to bluetooth devices?
 
-Answer9: What we support in v11.3 of FSM is the ability to use a bluetooth RFID reader in conjunction with FSM. That is, if you have a bluetooth RFID reader, you can connect that to FSM. First connect that reader to your phone/tablet, then in FSM go to Setup > RFID Bluetooth Reader and select the reader you connected. Then whenever you click on the barcode button in the app you will see the scanner at which point you can click the scanner's button. It is only supported on Android.
-
-
+Yes. Support for Android only. In Field Service Mobile (FSM) v11.3+ there is capability to use a bluetooth RFID reader. If you have a bluetooth RFID reader, you can connect it to FSM. First connect the reader to your phone or tablet, then in FSM go to **Setup > RFID Bluetooth Reader** and select the reader you connected. Then whenever you click on the barcode button in the app you will see the scanner at which point you can click the scanner's button.
 
 
 ## Question10: Does anyone know how to add logo to field service mobile, I try to add one but didn't show up. any trick?
