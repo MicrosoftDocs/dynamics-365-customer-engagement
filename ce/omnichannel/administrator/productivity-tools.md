@@ -26,7 +26,7 @@ ms.custom:
 
 ## Introduction
 
-Dynamics 365 Productivity Tools app provides capabilities that help users to perform day-to-day operations in a faster, efficient, and process compliant manner and deliver value to customers. 
+The Dynamics 365 Productivity Tools app provides capabilities that help users to perform day-to-day operations in a fast, efficient, and process-compliant manner and deliver value to customers. 
 
 ### Challenges
 
@@ -34,47 +34,48 @@ In the customer service industry, agents are expected to handle a large volume o
 
 Whilst there are challenges such as:
  
-- Too many clicks to perform actions (Open a form, fill the form, save the form, and so on). 
-- Repetitive and monotonous tasks (Greet a customer, Verify a customer, Send acknowledgment mail, Take notes, and so on).
+- Too many clicks to perform actions (open a form, fill out the form, save the form, and so on). 
+- Repetitive or monotonous tasks (greet a customer, verify a customer, send acknowledgment mail, take notes, and so on).
 - Human errors introduced during copy paste of data across different pages 
 - Process adherence and compliance that are specific to the contact center business organizations.
-Lack of real-time insights on the customer, knowledge article, and other relevant needs based on the context of the interaction.
+- Lack of real-time insights to the customer, knowledge articles, and other relevant needs based on the context of the interaction.
 
 Agents need to tackle these challenges to achieve what their business and customers require. 
  
-Dynamics 365 Productivity Tools app helps address these challenges aiding users to perform day-to-day operations in a faster, efficient, and process compliant manner.
+Dynamics 365 Productivity Tools app helps address these challenges, aiding users to perform day-to-day operations in a fast, efficient, and process-compliant manner.
  
-Dynamics 365 Productivity Tools app contains the following tools:
+The Dynamics 365 Productivity Tools app contains the following tools:
 
 - [Macros](#macros)
 - [Agent scripts](#agent-scripts)
-- [Smart Assist](#smart-assist)
+- [Smart assist](#smart-assist)
 
 ## Macros
 
-With Macros, agents can perform repetitive, monotonous tasks—Open model-driven app forms, pre-populate fields with the details, send an email to a customer, take notes, and much more—all in a single click.
+With macros, agents can perform repetitive, monotonous tasks—Open model-driven app forms, pre-populate fields with the details, send an email to a customer, take notes, and much more—all in a single click.
 A macro is a set of instructions that tells the system how to complete a task. When an agent runs a macro, the system performs each instruction and this helps save time and accommodate agents to handle more customer issues. Also, Macros provides preciseness, clarity and consistency to the tasks that agents perform.
  
 ## Agent scripts 
 
-Agent scripts provide guidance to agents about what they should to doing when they get a customer issue. It ensures that only accurate, company-endorsed information is being shared, while also safeguarding the organization in regard to legal-compliance issues. Agent scripts help your organization to be unified, accurate, and effective while being faster and more-efficient in terms of customer handling.
+Agent scripts provide guidance to agents about what they should do when they get a customer issue. It ensures that only accurate, company-endorsed information is being shared, while also safeguarding the organization in regard to legal-compliance issues. Agent scripts help your organization to be unified, accurate, and effective while being faster and more-efficient in terms of customer handling.
  
 ## Smart assist
 
-Smart assist provides suggestions to agents on what is the next-best course of action they need to take based on the real-time context of the customer interaction. The suggestions are intelligent and helps the  agents to be more productive with knowledge articles, similar cases, and much more. The smart assist is available across all the channels supported by Omnichannel making it a consistent and intelligence experience for agents.
+Smart assist provides suggestions to agents on what is the next-best course of action they need to take based on the real-time context of the customer interaction. The suggestions are intelligent that are based on the real-time context of the conversation. These suggestions help the  agents to be more productive with knowledge articles, similar cases, and much more. The smart assist is available across all the channels supported by omnichannel making it a consistent and intelligence experience for agents.
 
 ## Set up Dynamics 365 Productivity Tools
 
 To set up the Dynamics 365 Productivity Tools, follow the steps. 
 
 ### Prerequisites 
+
 - Identify the Common Data Service instance to which you want to deploy Dynamics 35 Productivity Tools. Sign in to Common Data Service platform > **Settings** > **Customizations** and then select **Developer resources**. To learn more, see [Developer resources page](https://docs.microsoft.com/powerapps/developer/common-data-service/view-download-developer-resources).
 
-- You need to have the latest version of the Omnichannel for Customer Service app. Get the trail version from [Dynamics 365 Trails](https://trials.dynamics.com/).
+- Get the latest version of Omnichannel for Customer Service.. Get the trail version from [Dynamics 365 Trails](https://trials.dynamics.com/).
 
-- You need global administrator permissions in Office 365 to download and install the Dynamics 365 Productivity Tools (solution).
+- Obtain global administrator permissions in Office 365 to download and install the Dynamics 365 Productivity Tools (solution).
 
-- Dynamics 365 Productivity Tools works only with the Omnichannel for Customer Service app. Hence, you must deploy Chat for Dynamics 365 Customer Service in your environment. For more information, see [Try Chat for Dynamics 365 Customer Service](../try-chat-for-dynamics365.md). 
+- Deploy Chat for Dynamics 365 Customer Service in your environment as Dynamics 365 Productivity Tools works only with the Omnichannel for Customer Service app. To learn more, see [Try Chat for Dynamics 365 Customer Service](../try-chat-for-dynamics365.md).
 
 
 ### Install Dynamics 365 Productivity Tools package 
@@ -82,12 +83,12 @@ To set up the Dynamics 365 Productivity Tools, follow the steps.
 1. Go to Microsoft AppSource. The Dynamics 365 Productivity Tools page appears. 
 2. Select **GET IT NOW**. 
 3. In the **‘One more thing…’** window, select **Continue**. 
-4. Read and select the checkbox to agree for the following: 
+4. Read and select the check box to agree to the following: 
     - Microsoft’s Legal Terms and Privacy Statement. 
     - Privacy Statement and Legal Terms for importing the solution into Dynamics 365. 
 5. Select **Agree**. The Dynamics 365 Productivity tools application (solution) import starts in the background. 
 
-After the installation is successful, you can view the Productivity Tools such as Macros, Agent Scripts, and Smart Assist in the sitemap of the Omnichannel Administrator app.
+After the installation is successful, you can view the Productivity Tools such as macros, agent scripts, and smart assist in the sitemap of the Omnichannel Administrator app.
 
 ## See also
 

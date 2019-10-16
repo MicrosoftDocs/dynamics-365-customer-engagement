@@ -1,6 +1,6 @@
 ---
 title: "Associate templates with workstreams in the Omnichannel Administrator app | MicrosoftDocs"
-description: "Learn about associating templates with workstreams in the Omnichannel Administrator app"
+description: "Learn how to associate templates with workstreams in the Omnichannel Administrator app"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -36,7 +36,7 @@ After an agent accepts the conversation request, a session starts for which the 
 
 3. Select a workstream for which you want to associate the templates.
 
-4. Select the **Templates** in the workstream. <br> You can see - **Sessions** and **Notifications** sections. By default, out-of-the-box templates are associated based on the channel. However, you can replace the default templates with the ones you create.
+4. Select the **Templates** in the workstream. <br> You can see the **Sessions** and **Notifications** sections. By default, out-of-the-box templates are associated based on the channel. However, you can replace the default templates with the ones you create.
 
 5. Remove the default session template from the **Sessions** section.
 

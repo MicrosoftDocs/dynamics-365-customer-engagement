@@ -1,6 +1,6 @@
 ---
-title: "Configure link to conversation button in model-driven app entity form | MicrosoftDocs"
-description: "Learn how to configure link to conversation button in model-driven app form for agents using Omnichannel for Customer Service."
+title: "Configure Link to conversation button in model-driven app entity form | MicrosoftDocs"
+description: "Learn how to configure Link to conversation button in model-driven app form for agents using Omnichannel for Customer Service."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,7 +13,7 @@ ms.assetid: C54F8B67-721F-4C39-BD55-A98A3A4BCBA2
 ms.custom: 
 ---
 
-# Preview: Configure link to conversation button in model-driven app entity form
+# Preview: Configure Link to conversation button in model-driven app entity form
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -26,9 +26,9 @@ ms.custom:
 
 ## Introduction
 
-This topic describes, as a system customizer, how to configure the **Link to conversation** button in the model-driven app entity form for agents using Omnichannel for Customer Service app.
+This topic describes how you, as a system customizer, can configure the **Link to conversation** button in the model-driven app entity form for agents using Omnichannel for Customer Service app.
 
-When an agent accepts a conversation request, and there is no record in the Omnichannel for Customer Service linked to this conversation, the agent wants to search for a contact or account record, and link the record to the conversation. As a system customizer, you need to configure the **Link to conversation** button in the model-driven app entity (contact, account or case) form so agents could link a record to the current conversation. 
+When an agent accepts a conversation request, and there is no record in Omnichannel for Customer Service linked to this conversation, the agent wants to search for a contact or account record and link the record to the conversation. As a system customizer, you need to configure the **Link to conversation** button in the model-driven app entity (contact, account or case) form so agents can link a record to the current conversation. 
 
 To add the **Link to conversation** button in the model-driven app entity form, as a system customizer, you need to customize the ribbon (`<RibbonDiffXml>`) definition. The customization change definitions that you specify are applied at runtime when the ribbon is displayed in the application.
 
@@ -36,7 +36,7 @@ With latest release of Omnichannel for Customer Service base solutions, you get 
 
 ## Customize the entity ribbon to add Link to conversation button
 
-To add the **Link to conversation** button, you need to customize the ribbon (`<RibbonDiffXml>`) of the entity. You need to edit the ribbon in the **Form context** of the entity.
+To add the **Link to conversation** button, you need to customize the ribbon (`<RibbonDiffXml>`) of the entity. To do so, you will edit the ribbon in the **Form context** of the entity.
 
 **Name of the web resource:** `msdyn_OmnichannelLinkCommand.js`
 
@@ -50,7 +50,7 @@ To add the **Link to conversation** button, you need to customize the ribbon (`<
 
 ## Step 1: Export and edit the XML
 
-In this step, you need export the ribbon and edit the `<RibbonDiffXml>`.
+In this step, you need to export the ribbon and edit the `<RibbonDiffXml>`.
 
 To learn more, see [Export, prepare to edit, and import the ribbon](/powerapps/developer/model-driven-apps/export-prepare-edit-import-ribbon).
 
@@ -264,7 +264,7 @@ To learn more, see [Define ribbon actions](/powerapps/developer/model-driven-app
 
 ## Step 3: Enable display rules
 
-Create enable rule for an entity, and add custom rule within the enable rule.
+Enable display rule for an entity, and add custom rule within the enable rule tag.
 
 The `<CustomRule>` element calls a function in a JavaScript library that returns a Promise.
 

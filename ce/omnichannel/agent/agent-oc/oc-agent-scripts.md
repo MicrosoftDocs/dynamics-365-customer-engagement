@@ -1,6 +1,6 @@
 ---
 title: "Agent scripts in the Omnichannel for Customer Service app | MicrosoftDocs"
-description: "Learn about to use agent scripts in the Omnichannel for Customer Service app." 
+description: "Learn how to use agent scripts in the Omnichannel for Customer Service app." 
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -26,7 +26,7 @@ ms.custom:
 
 ## Overview of agent scripts
 
-Agent script in Omnichannel for Customer Service provides guidance about what you (agent) should be doing when you get a customer issue. It ensures that you share only the accurate and company-endorsed information. Agent scripts help you to be accurate, and effective while being faster and more-efficient in terms of customer handling.
+Agent scripts in Omnichannel for Customer Service provide guidance about what you (an agent) should do when you get a customer issue. They ensure that you share only accurate and company-endorsed information. Agent scripts help you to be accurate and effective while also being faster and more efficient in terms of customer handling.
 
 > [!div class='mx-imgBorder']
 > ![Agent script](../../media/agent-script-section.PNG "Agent script")
@@ -36,21 +36,21 @@ Agent script in Omnichannel for Customer Service provides guidance about what yo
 3. Macro
 4. Agent script
 
-Agent script section consists a set of steps. Based on the type of agent script administrator has configured, you may following type of steps:
+The agent script section consists of a set of steps. Based on the type of agent script the administrator has configured, you might follow these types of steps:
 
 - Text instructions
 - Macro
 - Agent script
 
-Each of the steps could be identified with the actionable icon. When you expand a step, the section displays a short description of what the step entails and the action you need to perform using the icons next to it. The step that is executed successfully is indicated with a green tick icon, and the step that has an error is indicated with a red cross icon. You can execute the steps again as needed, and the final state of the step, green tick or red cross, is based on the last run.
+Each of the steps can be identified with the actionable icon. When you expand a step, the section displays a short description of what the step entails and the action you need to perform using the icons next to it. The step that is executed successfully is indicated with a green Tick icon, and the step that has an error is indicated with a red Cross icon. You can execute the steps again as needed, and the final state of the step, green Tick or red Cross, is based on the last run.
 
 ## Text instructions
 
-The text instruction provides guidance on the action you need to perform. The step in the agent script shows a title, instruction(s), and the text instruction icon that is actionable. After you perform the step based on the instruction(s), you can select the **Mark as done** icon to indicate that you've executed the step.
+The text instruction provides guidance on the actions you need to perform. The step in the agent script shows a title, instructions, and the Text instruction icon that is actionable. After you perform the step based on the instructions, you can select the **Mark as done** icon to indicate that you've completed the step.
 
 **Example:**
 
-| Title | Instruction you need to perform |
+| Title | Action you need to perform |
 |----------------|-------------------------------------------------------------------------|
 | Greet customer | Greet the customer with welcome message from the quick reply repository.|
 
@@ -59,7 +59,7 @@ The text instruction provides guidance on the action you need to perform. The st
 
 ## Macro
 
-A macro is a set of instructions that tells the system how to complete a task. When a macro runs, the system performs each instruction. The **Macro** step in the agent script shows a title, instruction that system performs, and the macro icon. When you select run macro icon, the system executes the macro.
+A macro is a set of instructions that tells the system how to complete a task. When a macro runs, the system performs each instruction. The **Macro** step in the agent script shows a title, instruction that system performs, and the macro icon. When you select **Run** icon, the system performs the macro.
 
 **Example:**
 
@@ -67,7 +67,7 @@ A macro is a set of instructions that tells the system how to complete a task. W
 |----------------|----------------------------------------|
 | Create case | Triggers create case from customer context|
 
-In this is example, when an agent selects the macro icon, the system opens a new **Create case** form in the application tab panel with pre-populated fields based on the customer context.
+In this example, when an agent selects the **Macro** icon, the system opens a new **Create case** form in the application tab panel with prepopulated fields based on the customer context.
 
 > [!div class='mx-imgBorder']
 > ![Agent script macro](../../media/agent-script-run-macro.PNG "Agent script macro")
@@ -77,22 +77,22 @@ In this is example, when an agent selects the macro icon, the system opens a new
 The step is used to load another agent script from the current agent script. When you select the view icon, the system loads the agent script. You can see that newly loaded script replaces the current script in the Agent script menu.
 
 > [!div class='mx-imgBorder']
-> ![Sub agent script](../../media/agent-script-view.PNG "Sub agent script")
+> ![Agent script](../../media/agent-script-view.PNG "Agent script")
 
 ## Sample agent script
 
-When you get an incoming conversation (chat) notification, you accept the conversation request and then a chat session is started. Now, the agent script is available in a form based on the administrator configuration. 
+When you get an incoming conversation (chat) notification, you accept the conversation request and then a chat session starts. Now, the agent script is available in a form based on the administrator configuration. 
 
 For example, if the administrator has configured in the Customer Summary form, then you can see view the agent script in the Customer Summary form.
 
-Let us see the sample agent script:
+Let's see the sample agent script:
 
 - Chat session
 - Close session
 
 Below the menu you can see the description for the selected script.
 
-When Chat session script is selected, the step you see is:
+When the Chat session script is selected, the step you see is:
 
 **Please follow these steps for resolving general chat queries**
 
@@ -107,7 +107,7 @@ The **Chat session** script has the following steps
 | Agent script | Close conversation | Follow these steps to close a conversation | View | When you select the view icon, the system loads another agent script from the current agent script. In this sample, the another agent script is **Close conversation** script. |
 
 
-Similarly, the administrator can create more agent scripts as per your business scenarios. To learn more on how to configure, see [Guide agents with scripts](../../administrator/agent-scripts.md).
+Similarly, the administrator can create more agent scripts as per your business scenarios. To learn how to configure, see [Guide agents with scripts](../../administrator/agent-scripts.md).
 
 ## See also
 

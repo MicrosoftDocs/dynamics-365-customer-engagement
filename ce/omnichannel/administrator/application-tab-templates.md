@@ -26,7 +26,7 @@ ms.custom:
 
 ## Overview
 
-Application tab template in Omnichannel for administrator app provide the type of applications you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
+Application tab template in Omnichannel Administrator app provide the type of applications you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
 
 The horizontal bar below the model-driven app navigation bar is called the application tab panel. Every customer session has at least one application tab that is not closable; it is called **Anchor Tab**. That is, when a session is started, by default, the system opens an application in application tab panel. In addition, there may be few other applications that system opens by default based on the configuration. 
 
@@ -36,7 +36,7 @@ For example, you can create the **Customer summary** application type and associ
 
 As an administrator, you can create multiple application tab templates.
 
-## Create a application tab template
+## Create an application tab template
 
 1. Sign in to the Omnichannel Administrator app.
 
@@ -53,15 +53,17 @@ As an administrator, you can create multiple application tab templates.
     | General | Application type | Select a application type from the list. Choose one of the following: <br><br> <ul><li>Custom control</li> <li>Dashboard</li> <li>Entity view</li> <li>Entity record</li> <li>Entity search</li> <li>Web resource</li> <li>Website Url</li> </ul> <br> To learn more, see [Application types](#application-types).|  Web resource |
     | General | Description | Provide a description for your reference. | The application type is used to display KB Search Page. |
 
-5. Select **Save** to save the application tab template. After you save, the parameters for the application type you selected is appears in the **Parameters** section. <br> Whenever you edit the application tab template, save the changes so you see the corresponding fields in the **Parameters** section.
+5. Select **Save** to save the application tab template. After you save, the parameters for the application type you selected is appears in the **Parameters** section. 
+
+    Whenever you edit the application tab template, save the changes so you see the corresponding fields in the **Parameters** section.
 
 6. Select the **Value** field of a parameter to edit and provide the value. See the [Application types in the application templates](#application-types) for the parameters.
 
-7. Select **Save** to save the changes.
+7. Select **Save**.
 
 ## Application types
 
-The types of application available are as follows:
+The types of applications available are as follows:
 
 - [Custom control](#custom-control)
 - [Dashboard](#dashboard)
@@ -93,7 +95,7 @@ The application type is used to display the dashboard as an application. The par
 
 ### Entity view
 
-The application type is used to display entity view that defines how a list of records for a specific entity is displayed in the Omnichannel application. The parameters available for the entity view application type are as follows: 
+The application type is used to display an entity view that defines how a list of records for a specific entity is displayed in the Omnichannel application. The parameters available for the entity view application type are as follows: 
 
 | parameter | Example Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
@@ -120,7 +122,7 @@ The parameters available for the entity record application type are as follows:
 
 The parameters available for the entity search application type are as follows:
 
-| parameter | Value | Description |
+| parameter | Example Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
 | searchText  | Printer Noise | Define the string you want to search. <br> Type = String |
 | searchType | 0 | Define to use Relevance search or Categorized search. The possible values are: <br> - **0** for RelevanceSearch <br> - **1** for CategorizedSearch  <br> Type = Number|
@@ -129,7 +131,7 @@ The parameters available for the entity search application type are as follows:
 
 The application type is used to display Web resources that represent files, which are used to extend the Dynamics 365 for Customer Engagement web application such as html files, JavaScript, and CSS, and several image formats. The parameters available for the web resources application type are as follows:
 
-| parameter | Value | Description |
+| parameter | Example Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
 | data | | <br> Type = String|
 | webresourceName |  |Name of the web resource to open. <br> Type = String|
@@ -139,7 +141,7 @@ The application type is used to display Web resources that represent files, whic
 
 The application type is used to display a first-party and third-party websites as an application. The parameters available for the website url application type are as follows:
 
-| parameter | Value | Description |
+| parameter | Example Value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
 | data | |Query parameters that you want to search. <br> Type = String|
 | url | https://www.bing.com/ | <br> Type = String|

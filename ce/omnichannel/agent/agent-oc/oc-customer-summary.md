@@ -75,7 +75,7 @@ The **Pre-chat survey** tab displays the survey answers against the questions th
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Portal navigation** tab displays information on the path (recent actions) the customer took just before initiating a conversation. The information enables the agents to understand the customer intent and provide a personalized service with fast resolution for improved customer satisfaction. The **Portal navigation** tab displays the information in the reverse chronological order, and is categorized into the following type of actions:
+The **Portal navigation** tab displays information on the path (recent actions) the customer took just before initiating a conversation. The information enables the agents to understand the customer intent and provide a personalized service with fast resolution for improved customer satisfaction. The **Portal navigation** tab displays the information in reverse chronological order, and is categorized into the following types of actions:
 
 | Action type | Description |
 |-------------|-----------------------------------|

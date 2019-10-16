@@ -1,6 +1,6 @@
 ---
 title: "Manage notification templates in Omnichannel Administrator app | MicrosoftDocs"
-description: "Learn about managing notification templates Omnichannel Administrator app"
+description: "Learn about managing notification templates in Omnichannel Administrator app"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -26,9 +26,9 @@ ms.custom:
 
 ## Overview
 
-When agents get a notification, the notification displays certain information like from which customer the conversation request is coming, timeout period after which the notification disappears, some buttons like accept and reject. Each organization has varied business requirements and want to show relevant information to the agents in the notification.
+When an agent gets a notification, it displays certain information such as which customer the conversation request is coming from, the timeout period after which the notification will disappear, and some buttons such as accept and reject. Each organization has varied business requirements and wants the notifications to show relevant information to the agents in the notification.
 
-The notification templates are introduced to show relevant information to agents. A notification template in Omnichannel for administrator app is a combination of notification related information that is reusable. The template is used to configure what information is displayed to the agents and supervisors for an incoming conversation, escalation, transfer, consult, and so on.
+The notification templates are introduced to show relevant information to agents. A notification template in Omnichannel Administrator app is a combination of notification related information that is reusable. The template is used to configure what information is displayed to the agents and supervisors for an incoming conversation, escalation, transfer, consult, and so on.
 
 As an administrator, system integrator, or partner, you can use the templates or create new ones to show information that matter most to your business.
 
@@ -36,30 +36,30 @@ You must associate the notification templates to a session template.
 
 ## Slug for notification field header
 
-Slug is the replacement parameter that Omnichannel system populates at the run time based on the context variables.
+Slug is the replacement parameter that omnichannel system populates at runtime based on the context variables.
 
-The notification shows certain fields and values, which are called **Field header** and **Value** respectively.
+The notification shows certain fields and values, called **Field header** and **Value** respectively.
 
-For example, Ian Madera, a customer, initiated a conversation and when the agent sees the notification, it displays **Customer Name** as **Ian Madera**.
+For example, customer Kenny Smith initiates a conversation. When the agent sees the notification, it displays **Customer Name** as **Kenny Smith**.
 
-Here, **Field header** is **Customer Name** and the **Value** is **Ian Madera**.
+Here, **Field header** is **Customer Name** and the **Value** is **Kenny Smith**.
 
-For Omnichannel system to identify the name of the customer as **Ian Madera**, as an administrator, you must configure slugs as the value. The Omnichannel system replaces the slug with the actual value that was extracted based on the context variables.
+For Omnichannel system to identify the name of the customer as **Kenny Smith**, as an administrator, you must configure slugs as the value. The Omnichannel system replaces the slug with the actual value that was extracted based on the context variables.
 
 Omnichannel system supports the following slugs.
 
 | Slug | Description |
 |------------|-----------------------------------|
 | {customerName} | Name of the customer who initiated the conversation. |
-| {caseId} | Unique Id of a case. The system displays the case Id only if a cased linked to the conversation. |
+| {caseId} | GUID of a case. The system displays the case Id only if a cased is linked to the conversation. |
 | {caseTitle} | Title of the case. The system displays the title of the case only if a cased linked to the conversation. |
-| {queueId} | Unique Id of a queue. |
+| {queueId} | GUID of a queue. |
 | {visitorLanguage} | The language of the customer who initiated the conversation. |
 | {visitorDevice} | The device of the customer who initiated the conversation. |
-| {entityRoutingLogicalName} | Name of the entity if the notification is for a entity records. |
-| {entityRoutingRecordId} | Unique Id of the entity record if the notification is for a entity records. To learn more, see [Entity records routing](entity-channel.md). |
+| {entityRoutingLogicalName} | Name of the entity if the notification is for entity records. |
+| {entityRoutingRecordId} | GUID of the entity record if the notification is for entity records. To learn more, see [Entity records routing](entity-channel.md). |
 | {customerEntityName} | Name of the entity (contact or account entity) if the customer is authenticated. |
-| {customerRecordId} | Unique Id of the entity (contact or account entity) if the customer is authenticated. |
+| {customerRecordId} | GUID of the entity (contact or account entity) if the customer is authenticated. |
 |{\<name of the pre-chat survey questions\>} | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
 
 ## Create a notification template
@@ -70,7 +70,7 @@ Omnichannel system supports the following slugs.
 
 3.	Select **+ New** in the **Active Notifications** page.
 
-4.	Specify the following in the New Application Tabs page.
+4.	Specify the following in the **New Notification** page.
 
     | Tab | Name | Value description | Example |
     |---------|--------------------|-----------------------------------------------|--------------------|
@@ -79,25 +79,25 @@ Omnichannel system supports the following slugs.
     | General | Icon | Select web resource path to add an icon. | /webresources/msdyn_chat_icon_zfp.svg <br><br> **Note:** This is the default value. You can change the icon as your requirement. |
     | General | Timeout (seconds) | Provide a duration in seconds; after this duration, the notification disappears. | 120. <br><br> **Note:** This is the default value. You can change the duration as per your requirement.
     | General | Accept Button | Specify a text for the accept button. This text appears for the agents to accept a conversation request. | Accept <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
-    | General | Reject Button | Set the toggle to yes if you want to show the reject button to agents. <br> After you set the toggle to Yes, the button text box appears. Specify a text for the accept button. This text appears for the agents to accept a conversation request. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
+    | General | Reject Button | Set the toggle to yes if you want to show the reject button to agents. <br> After you set the toggle to Yes, the button text box appears. Specify a text for the accept button. This text appears for the agents to reject a conversation request. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
 
-5.	Select **Save** to save the notification template. After you save, the **Notification Fields** section appears in the page.
+5.	Select **Save** to save the notification template. After you save, the **Notification Fields** section appears on the page.
 
 6.	Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
 
-7.	Select the search icon in the **Look for Records** box. If there are no records, you see a message – **No records found. Create a new record**.
+7.	Select the search icon in the **Look for Records** box. If there are no records, you see a message: **No records found. Create a new record.**.
 
-8.	Select **+ New** to create a new notification field. A confirm dialog appears stating if you want to leave the page. Select **OK**.
+8.	Select **+ New** to create a new notification field. A confirm dialog box appears, asking whether you want to leave the page. Select **OK**.
 
 9.	Specify the following in the **New Notification Field** page.
 
     | Tab | Name | Value description | Example |
     |---------|--------------------|-----------------------------------------------|--------------------|    
-    | General | Name | Specify the name for the notification. This name wouldn't be visible for the agents at the run-time. | Name of the customer |
-    | General | Field header | Provide a name to the field header. This appears in the notification that agents to see at the run-time. | Name |
+    | General | Name | Specify the name for the notification. This name won't be visible to the agents at the runtime. | Name of the customer |
+    | General | Field header | Provide a name to the field header. This appears in the notification that agents see at the runtime. | Name |
     | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Slug for notification field header](#slug-for-notification-field-header). |{customerName} |
 
-10.	Select the back arrow on the browser to go the notification template you created. Alternatively, you select **Notifications** in the sitemap and then select the template you created.
+10.	Select the back arrow on the browser to go to the notification template you created. Alternatively, you can select **Notifications** in the sitemap and then select the template you created.
 
 11.	Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
 
@@ -109,17 +109,17 @@ Omnichannel system supports the following slugs.
 
 ## Edit a notification field
 
-As an administrator, you can edit the value of notification field header in the grid.
+As an administrator, you can edit the value of a notification field header in the grid.
 
 1.	Sign in to the Omnichannel Administrator app.
 
 2.	Select **Notifications** under **Templates** in the sitemap.
 
-3.	Select the notification you want to edit in the **Active Notifications** page.
+3.	Select the notification you want to edit on the **Active Notifications** page.
 
-4.	Select a notification field you want to edit. Select the record to edit it.
+4.	Select a notification field you want to edit and then select the record to edit it.
 
-5.	Select the save icon to save the changes.
+5.	Select the save icon in thr grid.
 
 
 ## See also

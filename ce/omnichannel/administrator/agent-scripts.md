@@ -1,6 +1,6 @@
 ---
 title: "Agent scripts in the Omnichannel Administrator app | MicrosoftDocs"
-description: "Learn about what is agent scripts and how to configure in the Omnichannel Administrator app." 
+description: "Learn about agent scripts and how to configure them in the Omnichannel Administrator app." 
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -26,19 +26,19 @@ ms.custom:
 
 ## Overview of agent scripts
 
-In the customer service industry, agents need to deal with continuous updates both in the product and processes. Even after providing rigorous training to the agents, there are recurrent human errors and delays in service delivery due to a lack of guidance in real-time customer scenarios. These issues lead to lower productivity and thus impacts customer satisfaction levels. To avoid the errors and ensure the adherence of processes, agents need guidance.
+In the customer service industry, agents need to deal with continuous updates both in the product and processes. Even after rigorous training of agents, recurrent human errors and delays in service delivery occur due to a lack of guidance in real-time customer scenarios. These issues lead to lower productivity and thus impact customer satisfaction levels. To avoid errors and ensure adherence to processes, agents need guidance.
 
-Agent scripts provide guidance to agents about what they should to doing when they get a customer issue. It ensures that only accurate, company-endorsed information is being shared, while also safeguarding the organization in regard to legal-compliance issues. Agent scripts help organizations to be unified, accurate, and effective while being faster and more-efficient in terms of customer handling.
+Agent scripts provide guidance to agents about what to do when they get a customer issue. The scripts ensure that only accurate, company-endorsed information is being shared, while also safeguarding the organization in regard to legal-compliance issues. Agent scripts help organizations to be unified, accurate, and effective while also being faster and more efficient in terms of customer handling.
 
 ## Value propositions
 
-- Minimization of human errors
+- Minimization of human errors.
 
-- Adherence to business processes
+- Adherence to business processes.
 
-- Lower Average Handling Time
+- Lower Average Handling Time.
 
-- Improved customer satisfaction
+- Improved customer satisfaction.
 
 ## Prerequisites
 
@@ -57,8 +57,8 @@ Agent scripts provide guidance to agents about what they should to doing when th
     | Field | Description | Value |
     |------------|------------------------------|-------------------|
     | Name | Provide a name to the agent script. | Chat session script |
-    | Language | Select a language from the list. The languages that are enables in the Common Data Service platform appears in the list. | English |
-    | Description | Described the agent script. | This agent script is used for chat sessions. |
+    | Language | Select a language from the list. The languages that are enabled in the Common Data Service platform appear in the list. | English |
+    | Description | Describe the agent script. | This agent script is used for chat sessions. |
 
 5. Select **Save**. After you save, the **Agent script steps** appears.
 
@@ -68,13 +68,13 @@ Agent scripts provide guidance to agents about what they should to doing when th
 
     | Field | Description | Example Value |
     |--------------------|------------------------------|-------------------------------------------|
-    | Name | Provide a name to the agent script step and this appears for the agent at the run-time. | Greet customer. |
-    | Order | Specify the order number based on which the step are displayed to the agent. | 1 |
-    | Action Type | Select an action type from the list. There are three types of action types. <ul> <li> Text instruction </li> <li> Macro </li> <li> Script </li> |
+    | Name | Provide a name to the agent script step; this appears for the agent at runtime. | Greet customer. |
+    | Order | Specify the order number based on which step is displayed to the agent. | 1 |
+    | Action Type | Select an action type from the list: <ul> <li> Text instruction </li> <li> Macro </li> <li> Script </li> |
     | Description | Describe the step briefly for your reference. | This step is to greet the customer.|
-    | Text instruction | Specify the text instructions that agent needs to follow and execute. This is a text field. <br><br> **Note:** <br> This field appears only if you select **Text instruction** value for the **Action Type** field. | Greet the customer with welcome message from the quick reply repository. |
-    | Target macro | Type the name of the macro in the text box and select the macro from the lookup results. <br><br> **Note:** <br> This field appears only if you select **Macro** value for the **Action Type** field. | Email |
-    | Target script | Type the name of the script in the text box and select the script from the lookup results. <br><br> **Note:** <br> This field appears only if you select **Script** value for the **Action Type** field. | Close session |
+    | Text instruction | Specify the text instructions the agent needs to follow and execute. This is a text field. <br><br> **Note:** <br> This field appears only if you select the **Text instruction** value for the **Action Type** field. | Greet the customer with welcome message from the quick reply repository. |
+    | Target macro | Type the name of the macro in the text box and select the macro from the lookup results. <br><br> **Note:** <br> This field appears only if you select the **Macro** value for the **Action Type** field. | Email |
+    | Target script | Type the name of the script in the text box and select the script from the lookup results. <br><br> **Note:** <br> This field appears only if you select the **Script** value for the **Action Type** field. | Close session |
 
 8. Select **Save and Close** to add, save, and close the quick create form.
 
@@ -82,24 +82,24 @@ Agent scripts provide guidance to agents about what they should to doing when th
 
 ## Add agent script control to a form
 
-After you create agent script, you must add the agent script field to the form where you want to show it for the agents.
+After you create an agent script, you must add the agent script field to the form where you want agents to see it.
 
 1. Sign in to the Common Data Service platform.
 
 2. Select **Settings** > **Customizations** > **Customize the System**. **Solution Explorer** opens in a new window.
 
-3. Expand **Entities** and select the entity for which you want to add the field. In this procedure, let us add to the **Customer Summary** form in the **Conversation** entity.
+3. Expand **Entities** and select the entity for which you want to add the field. In this procedure, we will add to the **Customer Summary** form in the **Conversation** entity.
 
 4. Expand **Conversation** > **Forms** > **Customer Summary**. The **Customer Summary** form opens in a new window.
 
-5. Select **INSERT** tab from the command bar, and then select **Section** > **One Column** in the command bar.
+5. Select the **INSERT** tab from the command bar, and then select **Section** > **One Column** in the command bar.
 
     > [!div class=mx-imgBorder] 
     > ![Add section](../media/agent-script-control5.png "Add section")
 
 6. Select the section, and then select **Change Properties** from the command bar. The **Section Properties** dialog appears.
 
-7. Specify **Agent script** as the value for both **Name** and **Label** field.
+7. Specify **Agent script** as the value for both the **Name** and **Label** fields.
 
 8. Select the **Show the label of this section on the Form**  check box, and then select **OK**.
 
@@ -111,7 +111,7 @@ After you create agent script, you must add the agent script field to the form w
     > [!div class=mx-imgBorder] 
     > ![Add field of type Text](../media/agent-script-control9.png "Add field of type Text")
 
-10. Drag and drop the **Title** field to the section you added in earlier step.
+10. Drag and drop the **Title** field to the section you added in the earlier step.
 
 11. Select the **Title** field in the **Agent script** section, and then select **Change Properties** from the command bar. The **Field Properties** dialog appears.
 
@@ -138,7 +138,7 @@ After you create agent script, you must add the agent script field to the form w
 
 ## Associate agent script with session template
 
-After you configure agent script and add the field to a form, you need to associate the agent script with a session template so, based on the session type, the agent script loads to the agents.
+After you configure the agent script and add the field to a form, you need to associate the agent script with a session template so that, based on the session type, the agent script loads to the agents.
 
 1. Sign in to the Omnichannel Administrator app.
 

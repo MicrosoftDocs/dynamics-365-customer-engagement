@@ -1,6 +1,6 @@
 ---	
 title: "Enable portal navigation | MicrosoftDocs"	
-description: "Learn how to enable portal navigation in the Omnichannel Administration app."	
+description: "Enable portal navigation in the Omnichannel Administration app."	
 author: kabala123	
 ms.author: kabala	
 manager: shujoshi	
@@ -27,7 +27,7 @@ ms.custom:
 
 The portal navigation feature displays information on the path (recent operations) the customer took just before initiating a conversation. The information enables the agents to understand why a customer reached out and also to provide a personalized service with fast resolution and improved customer satisfaction.
 
-The data that you track as recent actions are stored in an entity where it is passed as part of context with portal navigation type, for a conversation that has been successfully closed between the customer and agent. A portal navigation record is created for each portal navigation action. To learn more, see [msdyn_visitorjourney Entity Reference](../developer/reference/entities/msdyn_visitorjourney.md).
+The data that you track as recent actions is stored in an entity where it is passed as part of context with portal navigation type, for a conversation that has been successfully closed between the customer and agent. A portal navigation record is created for each portal navigation action. To learn more, see [msdyn_visitorjourney Entity Reference](../developer/reference/entities/msdyn_visitorjourney.md).
 
 ## Prerequisites
 
