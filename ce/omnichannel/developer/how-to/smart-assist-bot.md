@@ -1,6 +1,6 @@
 ---
-title: "Smart assist for Bots | MicrosoftDocs"
-description: "Read how you can use the smart assist feature of Omnichannel for Customer Service to help agents resolve customer queries faster and more effectively"
+title: "Build a smart assist bot | MicrosoftDocs"
+description: "Read how you can build a smart assist bot to help agents resolve customer queries faster and more effectively"
 keywords: ""
 author: susikka
 ms.author: susikka
@@ -15,7 +15,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Based on the context passed for an incoming conversation, Omnichannel for Customer Service recommends help resources to assist the agent to successfully resolve customer's queries. The Smart assist card uses [Adaptive cards](https://adaptivecards.io), which is an open source standard that helps apps and services exchange rich snippets of native UI.
+Build a custom bot to push real-time sugegstions to agents for actions displayed within the smart assist control on the agent UI. The smart assist control uses Adaptive cards to push and display suggestions in UI. [Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI.
 
 You can use the [Adaptive Cards Designer](https://adaptivecards.io/designer/) to create your own adaptive card template.
 
