@@ -65,7 +65,7 @@ From a team channel, you can connect a model-driven app record or view to collab
 
 The successful connection state indicates that the connection was successfully saved in Dynamics 365 apps so that the link to the connected Microsoft Teams channel appears on the Dynamics 365 apps page and the files used on this channel also appear on the **Documents** tab in Dynamics 365 apps.
 
-A failed connection means the connection was not successfully saved. When seeing this message, you should remove and connect the record again See: [Error: This record is not connected to Dynamics 365. Repin the tab and try again.](teams-troubleshoot.md#error-this-record-is-not-connected-to-dynamics-365-repin-the-tab-and-try-again)
+A failed connection means the connection was not successfully send to Common Data Service. Microsoft Teams user can still use the pinned tab but the relationship between the pinned record or view with the team channel is not stored in Common Data Service. For more information, see [Troubleshooting](teams-troubleshoot.md). 
 
 
  - **View Selection**
