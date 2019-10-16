@@ -2,7 +2,7 @@
 title: "Sample code for softphone integration using Channel Integration Framework (CIF) | Microsoft Docs"
 description: "Learn about sample code for softphone integration using Channel Integration Framework (CIF) with Microsoft Dynamics 365 Unified Interface App."
 keywords: ""
-ms.date: 03/14/2019
+ms.date: 10/16/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -19,7 +19,11 @@ manager: shujoshi
 
 # Sample softphone integration using Channel Integration Framework
 
-[Download](https://go.microsoft.com/fwlink/p/?linkid=2025867) the sample to integrate a softphone with Dynamics 365 for Customer Engagement apps using Channel Integration Framework.
+Download the softphone integration sample for your Channel Integration Framework version using the links given below.
+
+| Channel Integration Framework Version 2.0 | Channel Integration Framework Version 1.0 |
+| -----------------------|-----------------------|
+| [Download Softphone integration sample for Version 2.0 ](https://experience.dynamics.com/insider/campaign/program-downloads/?id=86c59063-b2c9-e911-a96f-000d3a4f33c1) | [Download Softphone integration sample for Version 1.0](https://go.microsoft.com/fwlink/p/?linkid=2025867) |
 
 > [!NOTE]
 > The sample code is not supported on Internet Explorer and on browsers that do not have webRTC support. More information [WebRTC](https://webrtc.org/).

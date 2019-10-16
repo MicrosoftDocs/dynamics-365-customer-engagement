@@ -108,5 +108,5 @@ Channel Analytics APIs enable you to track event analytics.
 
 ## See also
 
-[What's new in Channel Integration Framework](../whats-new.md)<br />
-[System requirement for Channel Integration Framework](../system-requirements-channel-integration framework.md)
+[What's new in Channel Integration Framework](../whats-new-channel-integration-framework.md)<br />
+[System requirements for Channel Integration Framework](../system-requirements-channel-integration-framework.md)
