@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Field Service Mobile | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2019
+ms.date: 10/16/2019
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -71,9 +71,19 @@ See the topic on [common reasons no bookings are displayed in Field Service Mobi
 Ensure your mobile user has only the Field Service resource security role, see the topic on [seeing bookings not scheduled to me](mobile-faq-bookings-not-scheduled-to-me.md) for more details.
 
 
-## Question1: What are the supported encodings for barcodes in Field Service Mobile?
+## What are the supported encodings for barcodes in Field Service Mobile?
 Answer1: We support the following
  
+ | 1D product | 2D product | 3D product |
+ | --- | --- | --- |
+ | UPC-A | Code 39 | QR Code |
+ | UPC-E | Code 93 | Data Matrix |
+ | EAN-8 | Code 128 | Aztec (beta) |
+ | EAN-13 | Codabar | PDF 417 (beta) |
+ || ITF | MaxiCode |
+ |||RSS-14 |
+ ||| RSS-Expanded|
+
 
 ## Question2: Why is offline mode often faster than online mode?
 Answer2: Local data is always faster than remote data. have they checked the amount of data in online vs. offline mode? Could be that online is less restrictive and thus needs to process much more data. As Ben mentioned offline performance often times has better performs as the mobile application is not making calls directly to CRM.  As for best practices, this another one that had an answer that starts with "it depends".  Most of my costumers work in offline mode and sync as needed.
