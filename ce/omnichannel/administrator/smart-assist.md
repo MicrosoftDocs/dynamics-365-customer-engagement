@@ -76,11 +76,11 @@ To learn more, see [Smart assist bot](../developer/smart-assist-bot.md).
 
 ## Step 2: Create a bot user
 
-A bot user is created as an application user and assigned with the Omnichannel agent role. Creating an application user is supported in the Web Client only. For information on creating a bot user, see [Create a bot user](configure-bot.md#step-1-create-a-bot-user).
+After you create a bot, you must create a bot user to work as a smart assistant to the agent. A bot user is created as an application user and assigned with the **Omnichannel agent** role. Creating an application user is supported in the Web Client only. For information on creating a bot user, see [Create a bot user](configure-bot.md#step-1-create-a-bot-user).
 
 ## Step 3: Add smart assist bot to a workstream
 
-After you integrate the smart assist bot with the omnichannel system, you need to add the bot to the workstream so that the agents who are part of this workstream can see the suggestions.
+After you create a bot user, you need to add the bot to the workstream so that the agents who are part of this workstream can see the suggestions.
 
 1. Sign in to Omnichannel Administrator app
 
