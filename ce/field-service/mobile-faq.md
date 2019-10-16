@@ -43,16 +43,29 @@ See the topic on [identifying your Field Service Mobile version](mobile-faq-late
 
 ## What is the latest version of the mobile app and configuration tool?
 
-See the topic on [Field Service version history](version-history.md) to understand the latest versions of Field Service, Field Service Mobile, Mobile Configuration tool (Woodford), and the Mobile project template.
+See the topic on [Field Service version history](version-history.md) to understand the latest versions of Field Service, Field Service Mobile, Mobile Configuration tool (Woodford), and the mobile project template.
 
-## My mobile app will not sync to the server / crashes immediately
+## My mobile app will not sync to the server or crashes immediately
 
-[My mobile app will not sync to the server / crashes immediately](mobile-faq-sync-crash.md)
+There are a few reasons why your mobile application may not be syncing (or crashes when launched):
+
+1. Incorrect URL, username, or password. This is the most common reason.
+2. There is no mobile project in Woodford, or the mobile project is unpublished
+3. The mobile project is published to a later version than the mobile app
+4. Your user doesn't have the correct security role to access the mobile application
+
+See the topic on [common reasons Field Service Mobile does not sync to the server or crashes](mobile-faq-sync-crash.md) for more details.
 
 ## Why can't I see my bookings when logged into the app?
 
-[Why can't I see my bookings when logged into the app?](mobile-faq-bookings-not-showing.md)
+There are typically 3 reasons bookings don't show up in the mobile app:
+
+1. The mobile application isn't synced to the server
+2. The application is in offline mode and the booking is outside the sync filters
+3. Drip scheduling is enabled for the related resource and the booking is outside the bookings to drip number parameter
+
+See the topic on [common reasons no bookings are displayed in Field Service Mobile](mobile-faq-bookings-not-showing.md) for more details.
 
 ## Bookings not scheduled to me show up when logged into the mobile app
 
-[Bookings not scheduled to me show up when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
+Ensure your mobile user has only the Field Service resource security role, see the topic on [seeing bookings not scheduled to me](mobile-faq-bookings-not-scheduled-to-me.md) for more details.
