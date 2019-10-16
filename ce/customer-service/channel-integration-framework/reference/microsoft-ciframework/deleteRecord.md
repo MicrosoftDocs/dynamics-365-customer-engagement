@@ -21,6 +21,8 @@ manager: shujoshi
 
 [!INCLUDE[deleteRecord](includes/deleteRecord-description.md)] 
 
+[!include[applies-to-v1-and-v2](../../includes/applies-to-v1-and-v2.md)]
+
 ## Syntax
 
 `Microsoft.CIFramework.deleteRecord(entityLogicalName, id).then(successCallback, errorCallback);`

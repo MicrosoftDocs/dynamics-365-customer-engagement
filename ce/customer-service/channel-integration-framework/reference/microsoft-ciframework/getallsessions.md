@@ -27,7 +27,7 @@ Returns the array of Session Ids for a given provider.
 
 ## Syntax
 
-Microsoft.CIFramework.getAllSessions().then(successCallback, errorCallback);
+`Microsoft.CIFramework.getAllSessions().then(successCallback, errorCallback);`
 
 ## Parameters
 

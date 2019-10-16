@@ -21,6 +21,8 @@ manager: shujoshi
 
 [!INCLUDE[updateRecord](includes/updateRecord-description.md)] 
 
+[!include[applies-to-v1-and-v2](../../includes/applies-to-v1-and-v2.md)]
+
 ## Syntax
 
 `microsoft-ciframework.updateRecord(entityLogicalName, id, data).then(successCallback, errorCallback);`
