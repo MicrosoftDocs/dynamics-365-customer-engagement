@@ -50,7 +50,7 @@ The smart assist feature provides uniform suggestion across the channels like Ch
 
 [Step 1: Develop a smart assist bot](#step-1-develop-a-custom-smart-assist-bot)
 
-[Step 2: Integrate smart assist bot](#step-2-integrate-smart-assist-bot)
+[Step 2: Create a bot user](#step-2-create-a-bot-user)
 
 [Step 3: Add smart assist bot to workstream](#step-3-add-smart-assist-bot-to-a-workstream)
 
@@ -74,7 +74,9 @@ For example:
 
 To learn more, see [Smart assist bot](../developer/smart-assist-bot.md).
 
-## Step 2: Integrate smart assist bot
+## Step 2: Create a bot user
+
+A bot user is created as an application user and assigned with the Omnichannel agent role. Creating an application user is supported in the Web Client only. For information on creating a bot user, see [Create a bot user](configure-bot.md#step-1-create-a-bot-user).
 
 ## Step 3: Add smart assist bot to a workstream
 
