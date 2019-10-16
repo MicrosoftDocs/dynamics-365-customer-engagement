@@ -109,16 +109,19 @@ This is dictated by Offline HTML within your mobile project in Woodford > Offlin
 > Offline HTML and JavaScript that is included with Microsoft's mobile project should never be edited and it is unsupported to do so. You must create your own JavaScript.
 
 
-## Question4: Is there a way to have an entity form be device specific.   If there are 2 forms in the same project is it possible to load a specific form based on the device even using JSBridge is acceptable.  I have a scenario where the same user will be logging in from a laptop and smart phone.  On the phone the customer would like forms to have fewer fields to maximize the screen realestate. 
+## Can a mobile form appear different based on the operating system (Windows, iOS, Android) of the mobile device?  Example: If there are 2 forms in the same project (perhaps one form with fewer fields), loading a specific form based on the device operating system. 
 
-Answer4: There's definitely Form Rules to change Forms based on Platform:
-If you go into the HTML5 Configurator and into the Forms/Views editor, then you can select Form Rules:
- 
- 
- 
-and in the Rule, you can choose configuration by platform:
+Yes. This is done with mobile form rules to change forms based on Platform.
+
+In the Forms and Views editor you can select Form Rules and in the Rule, you can choose configuration by platform:
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-form-rule-platform.png)
  
 I believe it's also possible to have a configuration based on width; but I think it's a bit more explicit (specific number of pixels, if wider than X, display form Y), but I haven't gotten that far with configuration.
+
+
 
 ## Question5: Are the Sales Entities (Leads, Opportunities, etc) still out of scope in our mobile app?
 Answer5: Any entity can be used in our app SO LONG as it is used in the context of Field Service. That is, a field service rep who needs access to opportunities can have access to those. BUT a sales person could not use our app to do purely sales stuff. Sales folks should use a D365 model app, power app, or a 3rd party (e.g. Resco).
