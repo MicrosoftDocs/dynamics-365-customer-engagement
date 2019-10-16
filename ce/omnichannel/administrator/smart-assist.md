@@ -1,5 +1,5 @@
 ---
-title: "Assist agents with next-best steps | MicrosoftDocs"
+title: "Smart assist for agents | MicrosoftDocs"
 description: "Learn about how to smartly assist agents with the next-best steps in the Omnichannel Administrator app." 
 keywords: ""
 author: kabala123
@@ -13,7 +13,7 @@ ms.assetid: 203CB28E-C1AF-4A0E-820B-55563A6AD45C
 ms.custom: 
 ---
 
-# Preview: Assist agents with next-best steps
+# Preview: Smart assist for agents
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -26,17 +26,25 @@ ms.custom:
 
 ## Overview of smart assist
 
-In the customer service industry, often agents lack of real-time insights to understand and take a next-best course of action that caters to the needs of the customer. The lack of real-time insights makes the agent to spend more time to provide an appropriate solution leading to an increase in the Average Handling Time (AHT) and decrease in the customer satisfaction.
+The new-age customer service industry is inching towards the vision of being an intelligent and process-driven workforce while interacting with customers.
 
-Smart assist provides suggestions such as Knowledge articles and similar cases to agents on what is the next-best course of action they need to take based on the real-time context of the customer interaction. The suggestions are intelligent and helps the agents to be more productive with knowledge articles, similar cases, and much more. 
+The customer service industry pivots on intelligent capabilities that help unleash the productivity of agents to perform better on Key Performance Indicators and at the same time, deliver better customer experience.
 
-The smart assist feature provides uniform suggestion across the channels like Chat for Dynamics 365 Customer Service, SMS, and Facebook making it a consistent and an intelligent experience for agents.
+As the agents are more efficient and productive, leading to a reduction in the cost of operation of the call center, the smart assist feature helps organizations realize the vision of being more intelligent.
+
+Smart assist is an intelligent assistant that provides real-time recommendations to the agents, helping them to take actions while interacting with customers. It allows organizations to build a custom bot and plug-in real-time to their environment. Also, organizations can develop relevant recommendations such as knowledge articles, similar cases, and next-best steps using Microsoft Adaptive cards. These recommendation cards are surfaced to the agent's user interface based on the context of the current conversation.
+
+The smart assist feature can be enabled across all channels like Chat for Dynamics 365 Customer Service, SMS, and Facebook except entity records making it a consistent experience for agents.
 
 ## Value proposition
 
-- Contextual suggestions based on the real-time context.
+- Contextual suggestions are generated based on the real-time context.
+
+- Plug-in organization-specific recommendations and display it to agents in real-time.
  
-- Intelligent and action-oriented suggestions for agents to send responses or execute the automated actions.
+- Action-oriented suggestions for agents to send responses or execute the automated actions.
+
+- Intelligence powered using Microsoft Azure or third-party capabilities.
 
 - Improved Average Handling Time (AHT) and First Call Resolution (FCR).
 
