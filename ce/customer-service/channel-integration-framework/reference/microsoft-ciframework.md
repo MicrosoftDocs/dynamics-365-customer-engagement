@@ -30,7 +30,7 @@ The Communication Panel is where you, as an agent, interact with the customer. P
 | Communication panel is displayed to the left of the session panel. | Communication panel is displayed to the right of the screen. |
 | Communication panel supports Docked, Minimized and Hidden modes | Communication panel supports Docked and Minimized modes |
 
-These APIs enable you to manage the state of the communication panel(widget).
+You can use the APIs mentioned below to manage the state of the communication panel(widget).
 
 | Methods | Description |
 |---------|-------------|
@@ -62,12 +62,12 @@ These APIs enable you to create and manage the state of an application tab.
 
 | Methods | Description |
 |---------|-------------|
-| [createTab](microsoft-ciframework/createtab.md) | |
-| [getTabs](microsoft-ciframework/gettabs.md) | |
-| [focusTab](microsoft-ciframework/focustab.md) | |
-| [getFocusedTab](microsoft-ciframework/getfocusedtab.md) | |
-| [refreshTab](microsoft-ciframework/refreshtab.md) | |
-| [setTabTitle](microsoft-ciframework/settabtitle.md) | |
+| [createTab](microsoft-ciframework/createtab.md) | Creates a tab in a focused session and returns the unique identifier of the created tab. |
+| [getTabs](microsoft-ciframework/gettabs.md) | Returns an array of tab Ids associated with template name or template tags for tabs in the session in focus, if the session belongs to the channel provider.|
+| [focusTab](microsoft-ciframework/focustab.md) | Sets the focus on a tab, if the focused session belongs to the channel provider and if the tab belongs to the session in focus.|
+| [getFocusedTab](microsoft-ciframework/getfocusedtab.md) | Returns the focused tab's tabId in focused session, if the session belongs to the provider.|
+| [refreshTab](microsoft-ciframework/refreshtab.md) | Refreshes the tab. |
+| [setTabTitle](microsoft-ciframework/settabtitle.md) | Sets the title of the tab, if the focused session belongs to the channel provider and if the tab belongs to the session in focus.|
 
 ## Channel Analytics APIs
 
