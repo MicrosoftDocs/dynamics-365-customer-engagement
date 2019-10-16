@@ -43,7 +43,7 @@ To set up Channel Integration Framework version 2.0, your organization must use 
 - All the URLs must be secure (https).
 
 > [!div class="nextstepaction"]
-> [Get Channel Integration Framework (CIF)](get-channel-integration-framework.md)
+> [Get Channel Integration Framework](get-channel-integration-framework.md)
 
 
 ## See also
