@@ -129,14 +129,14 @@ Field Service Mobile v11+: When in offline mode, calculated fields such as Total
 
 Field Service Mobile 2016 & 2017 v9: Subtotal and total amount are calculated in offline mode and online mode.
 
-## Question7: what is recommended way for field techs to chat?
-Answer7: Kaizala or Teams https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deep-links
+## How can field technicians chat with each other from their mobile devices? 
+
+It is recommended to use Microsoft Teams or Microsoft's Kaizala. See the topic on [deeplinking to Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deep-links) from Field Service Mobile. 
 
 
-## Question8: Error "Your Organization has not configured the Field Service Mobile app with the correct project"
+## Why do users get the error "Your Organization has not configured the Field Service Mobile app with the correct project"?
 
-Answer8: This message means that the project the user is getting is not our project for Field Service Mobile.
-
+This message means the mobile application has not been set up with the correct mobile project or the logged in user is getting access to an incorrect mobile project based on their security role. See the topic on [installing and setting up Field Service Mobile](https://docs.microsoft.com/en-us/dynamics365/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet) to set up the mobile app with Microsoft's mobile project as a base parent and [Field Service mobile project library](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#mobile-project-file-library) to see a list of previous mobile projects. 
 
 
 ## Question9: Bluetooth, Someone may asked this before, But can't find any information. I have 3 on-going projects, they all ask same questions. When service technician doing onsite service, they will perform some device test(network speed, or Bluetooth reading etc). They want device test being triggered by Fields Service mobile and return data to Field service mobile. Testing needs to be done by Bluetooth. is it possible. Does anyone done similar thing before.  Using Resco SDK, Offline HTML?  or JS Bridge
