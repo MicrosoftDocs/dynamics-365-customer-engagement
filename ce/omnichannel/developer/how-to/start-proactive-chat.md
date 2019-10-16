@@ -197,7 +197,7 @@ Hi! How are you doing today? The status of the case:<caseid> is in progress. Wou
 		
 		//show proactive chat invite after 'timeToWaitBeforeOfferingProactiveChatInMilliseconds' milliseconds
         setTimeout(function(){
-            Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({message: "Hi! How are you doing today? The status of the case: " + caseId + " is 'In Progress'. Would you like to get more details?"}, false)
+            Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({message: "Hi! How are you doing today? The status of the case: " + caseId + " is in progress. Would you like to get more details?"}, false)
         },timeToWaitBeforeOfferingProactiveChatInMilliseconds);
     });
 </script>
