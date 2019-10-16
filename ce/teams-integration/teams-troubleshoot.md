@@ -2,7 +2,7 @@
 title: "Troubleshoot Teams integration| MicrosoftDocs"
 ms.custom: 
 description: "Troubleshoot issues with Teams integration."
-ms.date: 9/17/2019
+ms.date: 10/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -95,7 +95,7 @@ Try repinning the Dynamics 365 tab. To repin, remove the tab and then re-add, as
 
 5. Continue through the steps as in [Collaborate with Teams](teams-collaboration.md).
 
-### Error: User does not have permissions to create SharePointSite or DocumentLocation. This record is not connected to Dynamics 365.
+### Error: This record is not connected to Dynamics 365 because user does not have permissions to create SharePointSite or DocumentLocation in Dynamics 365.
 
 This means the user that is getting this error does not have sufficient permissions that is required for the user role to pin an entity to a Teams channel. However, changes made to the record in Microsfot Teams will update in model-driven apps in Dynamics 365. 
 
