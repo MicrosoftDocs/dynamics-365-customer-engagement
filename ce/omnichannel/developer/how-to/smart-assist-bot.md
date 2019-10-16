@@ -13,7 +13,7 @@ ms.custom:
 ---
 # Smart assist for Bots
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 Build a custom bot to push real-time sugegstions to agents for actions displayed within the smart assist control on the agent UI. The smart assist control uses Adaptive cards to push and display suggestions in UI. [Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI.
 
@@ -212,5 +212,5 @@ You can find the entire code sample here: [Smart Assist for Bots]().
 
 ## See also
 
-[Manage custom context](how-to/send-context-starting-chat.md)<br />
-[Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)
+[Manage custom context](send-context-starting-chat.md)<br />
+[Enable a bot to escalate and end conversation](../bot-escalate-end-conversation.md)
