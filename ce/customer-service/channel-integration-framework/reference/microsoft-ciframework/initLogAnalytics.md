@@ -2,7 +2,7 @@
 title: "initLogAnalytics (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 09/30/2019
+ms.date: 10/16/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -31,8 +31,8 @@ Invoke this method on an incoming conversation to log analytics.
 |-----------------|----------|--------------|-------------|
 | data            | String   | Yes          | JSON input                               |
 | correlationId   | GUID     | No           | Used to group all related API calls together for diagnostic telemetry. |
-| successCallback | Function | No           | A function to call when the request for the current width value is successful. |
-| errorCallback   | Function | No           | A function to call when the request for the current width value fails. |
+| successCallback | Function | No           | A function to call when the promise is successfully returned. |
+| errorCallback   | Function | No           | A function to call when the request to return the promise fails. |
 
 The structure of the `data` parameter JSON is shown below.
 

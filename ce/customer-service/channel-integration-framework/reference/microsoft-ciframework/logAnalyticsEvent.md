@@ -32,8 +32,8 @@ Invoke this method to log analytics for custom events.
 | data            | String   | Yes          | JSON input                               |
 | eventName       | String   | Yes          | Name of the event                               |
 | correlationId   | GUID     | No           | Used to group all related API calls together for diagnostic telemetry. |
-| successCallback | Function | No           | A function to call when the request for the current width value is successful. |
-| errorCallback   | Function | No           | A function to call when the request for the current width value fails. |
+| successCallback | Function | No           | A function to call when the promise is successfully returned. |
+| errorCallback   | Function | No           | A function to call when the request to return the promise fails. |
 
 The structure of the `data` parameter JSON is shown below.
 
