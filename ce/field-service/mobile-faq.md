@@ -92,16 +92,22 @@ When in offline mode, the user is looking at data stored locally on the device's
 
 It is rare for a field technician to need access to the entire field service entity database so it is recommended to use sync filters in offline mode that filters the data that is downloaded to the device.
 
-If you'd like to work in online mode but not call so much data, there is an option to **Use Sync filter in Online Mode**  in the properties dialog of a view.
+A main benefit of online mode is certain logic will run instantly rather than waiting for a sync. If you'd like to work in online mode but not call so much data, there is an option to **Use Sync filter in Online Mode**  in the properties dialog of a view.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/use-sync-filter-online-mode.png)
  
 
-## Question3: Did someone by chance change our Scan Customer Asset code to query an asset by serial number, not GUID? I assume we implemented this approach because it was a low hanging fruit, but in reality 100% of my customers wanted to search for serial number, not create new QR codes based on GUIDs.
+## What attribute does the Scan Customer Asset match for and how do I edit it? 
 
-Answer3: this can be modified by using offline html and JSBridge. This is controlled by replaces the JS in Woodford>Offline HTML>CustomerAsset, but OOB offline HTML should never be edited so it can be upgraded.
+By default, the Scan Customer Asset function from the home screen of the Field Service Mobile app will attempt to match the scanned code with the GUID of a customer asset.
+
+This is dictated by Offline HTML within your mobile project in Woodford > Offline HTML > CustomerAsset > ScanCustomerAsset.JS. To change the function to look for a customer asset attribute other than the GUID, such as a custom serial number field, you can create your own JavaScript using JSBridge. 
+
+> [!Note]
+> Offline HTML and JavaScript that is included with Microsoft's mobile project should never be edited and it is unsupported to do so. You must create your own JavaScript.
+
 
 ## Question4: Is there a way to have an entity form be device specific.   If there are 2 forms in the same project is it possible to load a specific form based on the device even using JSBridge is acceptable.  I have a scenario where the same user will be logging in from a laptop and smart phone.  On the phone the customer would like forms to have fewer fields to maximize the screen realestate. 
 
