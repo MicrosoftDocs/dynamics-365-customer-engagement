@@ -74,14 +74,17 @@ You can pass a customer's portal navigation history as context at the start of a
 Given below is the sample code that shows how to use `setContextProvider` method for this.
 
 ```javascript
+window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
+
 Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
     return {
             'Navigation': { 'value' : 
                 '[ {"msdyn_displaytitle":"PageTitle1", "msdyn_starttime":"yyyy-mm-ddThh:mm:ssZ","msdyn_endtime":"yyyy-mm-ddThh:mm:ssZ","msdyn_type":192350000}, \
                    {"msdyn_displaytitle":"PageTitle2", "msdyn_starttime":"yyyy-mm-ddThh:mm:ssZ","msdyn_endtime":"yyyy-mm-ddThh:mm:ssZ","msdyn_type":192350001} \
                  ]'
-            },
-        };
+             },
+         };
+    });
 });
 ```
 
