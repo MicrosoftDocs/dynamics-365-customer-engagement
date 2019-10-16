@@ -22,7 +22,7 @@ Consider the scenarios given below for initiating chat proactively.
 
 Amy has accidentally damaged her Surface Book and is on the product knowledge base trying to seek answers for about 20 seconds. She is then offered a proactive chat.
 
-A chat pop-up is triggered based on the product page that Amy is browsing and the time spent on the page.
+A proactive chat request is triggered based on the product page that Amy is browsing and the time spent on the page.
 
 Here is the chat invitation message that is sent.
 
@@ -172,7 +172,7 @@ VisitCounter();
 
 Jacob is browsing through the support page for Microsoft Surface devices to find some more information regarding his open support case.
 
-On realizing that Jacob has visited the support page seeking more information regarding his open case, he is offered proactive chat with the message given below.
+On realizing that Jacob has visited the support page seeking more information regarding his open case and that he has been on the page for 10 seconds, he is offered proactive chat with the message given below.
 
 ```
 Hi! How are you doing today? The status of the case:<caseid> is in progress. Would you like to get more details?
