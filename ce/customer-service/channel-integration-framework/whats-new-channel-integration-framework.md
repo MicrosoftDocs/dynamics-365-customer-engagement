@@ -19,7 +19,7 @@ manager: shujoshi
 
 This topic provides the list of features that are introduced in the latest version of Channel Integration Framework.
 
-## What's new in Channel Integration Framework version 2.0
+## Preview: What's new in Channel Integration Framework version 2.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 

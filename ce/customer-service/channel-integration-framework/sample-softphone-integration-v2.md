@@ -14,7 +14,7 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
-# Sample code for softphone integration using Channel Integration Framework version 2.0
+# Preview: Sample code for softphone integration using Channel Integration Framework version 2.0
 
 [Download](https://experience.dynamics.com/insider/campaign/program-downloads/?id=86c59063-b2c9-e911-a96f-000d3a4f33c1) softphone integration sample for Channel Integration Framework version 2.0.
 
@@ -54,7 +54,7 @@ manager: shujoshi
 
 ## Configure sample app in Dynamics 365
 
-1. Note the base URL of the CRM org from where all webresources are served. For an online org, this should be of the form `https://<orgname>.crmXX.dynamics.com`. For example, `https://sampleorg.crm10.dynamics.com`
+1. Note the base URL of the Dynamics 365 organization from where all web resources are stored. For an online org, this should be of the form `https://<orgname>.crmXX.dynamics.com`. For example, `https://sampleorg.crm10.dynamics.com`
 
 1. Get the **Dynamics 365 Channel Integration Framework** solution. For more information, see [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md).
 
@@ -72,12 +72,7 @@ manager: shujoshi
   |Select the Unified Interface Apps for the Channel| The list of Unified Interface Apps where the channel is displayed for the agents. |
   |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface App.|
 
-3. Launch the Unified Interface app to see the communication widget on the right side.<br><br>
-**The communication widget in the minimized mode**<br><br>
-![communication widget in the minimized mode](media/widget-minimized-mode.PNG "communication widget in the minimized mode")
-<br><br>
-**The communication widget in the expanded mode**<br><br>
-![communication widget in the expanded mode](media/widget-expanded-mode.PNG "communication widget in the expanded mode")
+3. Launch the Unified Interface app to see the communication widget on the left side.<br><br>
 
 > [!Important]
 > - All URLs must be https.
@@ -88,7 +83,7 @@ manager: shujoshi
 
 1. Download the [Configuration Migration Tool](/power-platform/admin/manage-configuration-data). The Configuration Migration tool is available as a NuGet package.
 2. Start the Configuration Migration tool. Double-click DataMigrationUtility.exe in the folder: `[your folder]\Tools\ConfigurationMigration\`.
-3. On the main screen, click Import data, and click Continue.
+3. On the main screen, select **Import data**, and then select **Continue**.
 4. On the Login screen, provide authentication details to connect to your Dynamics 365 instance from where you want to import data. If you have multiple organizations on the Dynamics 365 for Customer Engagement server, and want to select the organization where to import the configuration data, select the Always display list of available orgs check box. Click Login.
 5. If you have multiple organizations, and you selected the Always display list of available orgs check box, the next screen lets you choose the organization that you want to connect to. Select a Dynamics 365 apps organization to connect to.
 6. Provide the data file. (data.zip) to be imported. Browse to the data file, and select it. Select **Import Data**.

@@ -64,7 +64,7 @@ manager: shujoshi
 
 ## Configure sample app in Dynamics 365
 
-1. Note the base URL of the CRM org from where all webresources are served. For an online org, this should be of the form `https://<orgname>.crmXX.dynamics.com`. For example, `https://sampleorg.crm10.dynamics.com`
+1. Note the base URL of the Dynamics 365 org from where all web resources are stored. For an online org, this should be of the form `https://<orgname>.crmXX.dynamics.com`. For example, `https://sampleorg.crm10.dynamics.com`
 
 1. Get the **Dynamics 365 Channel Integration Framework** solution. For more information, see [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md).
 

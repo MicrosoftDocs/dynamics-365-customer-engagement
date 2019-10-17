@@ -34,7 +34,8 @@ manager: shujoshi
 
 <li><a href="get-channel-integration-framework.md" data-raw-source="[Get Channel Integration Framework (CIF)](get-channel-integration-framework.md)">Get Channel Integration Framework (CIF)</a></li>
 <li><a href="onboard-org-flight.md" data-raw-source="[Onboard to Version 2.0 flight](onboard-org-flight.md)">Onboard to Version 2.0 flight</a></li>
-<li><a href="sample-softphone-integration.md" data-raw-source="[Download sample code for softphone integration](sample-softphone-integration.md)">Download sample code for softphone integration</a></li>
+<li><a href="sample-softphone-integration-v2.md" data-raw-source="[Download sample code for softphone integration using CIF version 2.0](sample-softphone-integration-v2.md)">Download sample code for softphone integration using CIF version 2.0</a></li>
+<li><a href="sample-softphone-integration.md" data-raw-source="[Download sample code for softphone integration using CIF version 1.0](sample-softphone-integration.md)">Download sample code for softphone integration using CIF version 1.0</a></li>
 </td>
 </tr>
 <tr>

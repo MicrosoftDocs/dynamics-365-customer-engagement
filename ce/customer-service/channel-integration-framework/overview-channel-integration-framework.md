@@ -40,7 +40,27 @@ Organizations expect their call centers to do more with fewer resources, and the
 
 ## Advantages and value propositions of Channel Integration Framework
 
-The value propositions of Channel Integration Framework are:
+The Channel Integration Framework version 2.0, provides multiple enhancements over the version 1.0, particularly in terms of its ability to integrate with the latest multi-session agent experiences for customer service. Following are the key new features in the Channel Integration Framework Version 2.0 over the version 1.0: 
+
+**Integration with the multi-session experiences** 
+
+The Channel Integration Framework version 2.0 provides APIs to integrate with the multi-session experiences in the Omnichannel for customer service app. These APIs allow providers to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as and when needed.
+
+More information: [Integration with multi-session experiences](integration-multi-session-experiences.md).
+
+**New modes and locations for the communication widget**
+
+Providers can now define experiences for the minimized mode of the communication widgets they build. Agents can manually change the mode of the control from docked to minimized. The same can be achieved programmatically as well. 
+
+More information: [New modes and locations for the communication widget](modes-communication-widget.md).
+
+**Support for Multiple Providers**
+
+With Channel Integration Framework version 2.0, organizations can configure multiple providers in the Omnichannel for Customer Service app. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels (for example, live chat and telephony), where each of these sessions belong to different providers.
+
+More information: [Support for Multiple Providers](support-multiple-providers.md).
+
+Here are the capabilities offered by Channel Integration Framework version 1.0 which also apply to version 2.0:
 
 **Bring your own channel providers (Integrate third-party channel providers):**
 
