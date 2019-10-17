@@ -100,6 +100,8 @@ Read how you can automatically close a conversation using Web API.
 </td>
 </tr>
 
+</table>
+
 ### See also
 
 [Introduction to Omnichannel for Customer Service](../introduction-omnichannel.md)<br />
