@@ -37,7 +37,9 @@ If you want to opt out of the public preview flight, execute the following comma
 After your organization is added to the flight, you can proceed to install the Channel Integration Framework Version 2.0 solution from AppSource.
 
 > [!NOTE]
-> The latest version of Channel Integration Framework version 2.0 package is 9.2.0.49. Installation of public preview updates will fail if you have a higher version of CIF package installed. In this case, delete the original CIF solution from your organization, and then re-install the package from AppSource.
+> The base version of Channel Integration Framework version 2.0 solution is 9.2.0.49. Upgrades to the solution take place through a patch solution that is shipped within the package. This means that installation of public preview updates will fail if you have a higher version of CIF package installed. In this case, delete the original CIF solution from your organization, and then re-install the package from AppSource.
+>
+> You will not be able to see available upgrades for CIF solution in Dynamics 365 Admin Center if your solution version is 9.2.0.49. You can get the latest upgrades from AppSource.
 
 ## See also
 
