@@ -2,7 +2,7 @@
 title: "Dynamics 365 Channel Integration Framework (CIF) Guide | Microsoft Docs"
 description: "Channel Integration Framework (CIF) for Microsoft Dynamics 365 is a cloud-to-cloud extensible framework to integrate third-party Computer Telephony Integration (CTI) systems with Dynamics 365 Unified Interface Apps using a browser-based JavaScript API library."
 keywords: ""
-ms.date: 10/15/2019
+ms.date: 10/17/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -33,6 +33,7 @@ manager: shujoshi
 <h2> Download </h2>
 
 <li><a href="get-channel-integration-framework.md" data-raw-source="[Get Channel Integration Framework (CIF)](get-channel-integration-framework.md)">Get Channel Integration Framework (CIF)</a></li>
+<li><a href="onboard-org-flight.md" data-raw-source="[Onboard to Version 2.0 flight](onboard-org-flight.md)">Onboard to Version 2.0 flight</a></li>
 <li><a href="sample-softphone-integration.md" data-raw-source="[Download sample code for softphone integration](sample-softphone-integration.md)">Download sample code for softphone integration</a></li>
 </td>
 </tr>
@@ -41,15 +42,12 @@ manager: shujoshi
 
 <h2> Templates </h2>
 
-<li><a href="get-channel-integration-framework.md" data-raw-source="[Get Channel Integration Framework (CIF)](get-channel-integration-framework.md)">Get Channel Integration Framework (CIF)</a></li>
-<li><a href="sample-softphone-integration.md" data-raw-source="[Download sample code for softphone integration](sample-softphone-integration.md)">Download sample code for softphone integration</a></li>
 </td>
 <td>
 
 <h2> Channel Analytics </h2>
 
-<li><a href="get-channel-integration-framework.md" data-raw-source="[Get Channel Integration Framework (CIF)](get-channel-integration-framework.md)">Get Channel Integration Framework (CIF)</a></li>
-<li><a href="sample-softphone-integration.md" data-raw-source="[Download sample code for softphone integration](sample-softphone-integration.md)">Download sample code for softphone integration</a></li>
+<li><a href="channel-analytics.md" data-raw-source="[Channel Analytics](channel-analytics.md)">Channel Analytics</a></li>
 </td>
 </tr>
 <tr>
