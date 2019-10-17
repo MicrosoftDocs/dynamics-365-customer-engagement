@@ -19,23 +19,7 @@ manager: shujoshi
 
 This topic describes instructions to install sample/demo data for Chat for Dynamics 365 Service capabilities to help you build your own demo environments.
 
-The sample data is available as a downloadable demo package, which you can install in your Omnichannel for Dynamics 365 Customer Service demo environment. 
-
-- [Omnichannel Demo Data](https://go.microsoft.com/fwlink/?linkid=2026536&clcid=0x409)
-
-
-> [!IMPORTANT]
-> Once installed, demo data can't be uninstalled. Also, the Demo data package is only available in English. Only install the package on demonstration, evaluation, training, or test systems.
-
-When installing any of the Demo data packages, the following actions occur during the installation process:
-
-- Default parameters for using Omnichannel are created and/or set.
-- Demo data and configuration for the applications are imported (e.g.: Chat
-            widget, Work Streams, Queues, and other entities) to demonstrate key
-            capabilities.
-
-Wondering what capabilities you can demo with the Demo data? See the Fabrikam scenario below.
-
+The sample data is available as a downloadable demo package, which you can install in your Omnichannel for Dynamics 365 Customer Service demo environment.
 
 ## Requirements
 
@@ -51,8 +35,16 @@ The following are the requirements to install sample data in your target environ
 > If you need to install the Demo data on top of an existing Chat for Dynamics 365 trial or a demo environment that already has data (not recommended), you'll need to suspend the safety prechecks performed by the installer. For more information, see the \<technical notes\> [create jump link].
 
 
+## Download the sample data
 
+You can download the demo data from the Download center.
 
+[Chat for Dynamics 365 Customer Service demo data](https://go.microsoft.com/fwlink/p/?linkid=2026536&clcid=0x409)
+
+> [!IMPORTANT]
+> - Once installed, you can't uninstall the demo data. 
+> - The Chat for Dynamics 365 Customer Service demo data is available only in English. 
+> - Install the demo data on a demonstration, evaluation, training, or test environment. We recommend not to install the demo data in the production environments.
 
 ## Prepare for installation
 
@@ -69,15 +61,21 @@ credentials for the installation may be lost when the screensaver engages
 
 ![](media/omnichannel-sample-data-1.png)
 
+When installing any of the Demo data packages, the following actions occur during the installation process:
+
+- Default parameters for using Omnichannel are created and/or set.
+- Demo data and configuration for the applications are imported (e.g.: Chat
+            widget, Work Streams, Queues, and other entities) to demonstrate key
+            capabilities.
+
+Wondering what capabilities you can demo with the Demo data? See the Fabrikam scenario below.
+
 ## Download and unpack
 
-The Omnichannel Demo data installer is distributed as a self-extracting
-executable. After downloading a package, run the EXE file, then accept terms and
-conditions to unpack the compressed zip file. You then need to extract contents
-of that file to a folder on the computer.
+The Chat for Dynamics 365 Customer Service demo data installer is a self-extracting executable. After you download the demo data, run the **.EXE** file, accept terms and
+conditions to unpack the compressed zip file. You then need to extract contents of that file to a folder on your computer.
 
-Depending on the operating system and security settings, you may need to perform
-the following steps after unpacking the zip file:
+Depending on the operating system and security settings, you may need to perform the following steps after unpacking the zip file:
 
 1. Find and right-click the **OmnichannelDemoDataPackage.dll** file and choose **Properties** in the **OmnichannelDemoDataPackage** folder.
 2. Choose **Unblock**.
