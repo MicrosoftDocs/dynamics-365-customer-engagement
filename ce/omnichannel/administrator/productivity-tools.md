@@ -69,9 +69,9 @@ To set up the Dynamics 365 Productivity Tools, follow the steps.
 
 ### Prerequisites 
 
-- Identify the Common Data Service instance to which you want to deploy Dynamics 35 Productivity Tools. Sign in to Common Data Service platform > **Settings** > **Customizations** and then select **Developer resources**. To learn more, see [Developer resources page](https://docs.microsoft.com/powerapps/developer/common-data-service/view-download-developer-resources).
+- Identify the Common Data Service environment to which you want to deploy Dynamics 35 Productivity Tools. To know the environment details, sign in to Common Data Service platform > **Settings** > **Customizations** and then select **Developer resources**. To learn more, see [Developer resources page](https://docs.microsoft.com/powerapps/developer/common-data-service/view-download-developer-resources).
 
-- Get the latest version of Omnichannel for Customer Service.. Get the trail version from [Dynamics 365 Trails](https://trials.dynamics.com/).
+- Get the latest version of Omnichannel for Customer Service. Get the trail version from [Dynamics 365 Trails](https://trials.dynamics.com/).
 
 - Obtain global administrator permissions in Office 365 to download and install the Dynamics 365 Productivity Tools (solution).
 
