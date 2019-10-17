@@ -54,10 +54,19 @@ manager: shujoshi
 <tr>
 <td>
 
+<h2> Integration with multi-session experiences </h2>
+
+<li><a href="integration-multi-session-experiences.md" data-raw-source="[Integration with multi-session experiences](integration-multi-session-experiences.md)">Integration with multi-session experiences</a></li>
+</td>
+
+<td>
+
 <h2> Support for multiple providers </h2>
 
 <li><a href="support-multiple-providers.md" data-raw-source="[Support for multiple providers](support-multiple-providers.md)">Support for multiple providers</a></li>
 </td>
+</tr>
+<tr>
 <td>
 
 <h2> How to </h2>
@@ -70,8 +79,6 @@ manager: shujoshi
 <li><a href="authenticate-channel-users.md" data-raw-source="[Authenticate channel users to the channel (widget)](authenticate-channel-users.md)">Authenticate channel users to the channel (widget)</a></li>
 <li><a href="pass-url-widget-library.md" data-raw-source="[Pass Dynamics 365 URL to widget library](pass-url-widget-library.md)">Pass Dynamics 365 URL to widget library</a></li>
 </td>
-</tr>
-<tr>
 <td>
 
 <h2> JavaScript API Reference </h2>
@@ -82,6 +89,8 @@ manager: shujoshi
 <li><a href="reference/entities-attributes/msdyn-ciprovider.md" data-raw-source="[Entity reference](reference/entities-attributes/msdyn-ciprovider.md)">Entity reference</a>
 
 </td>
+</tr>
+<tr>
 <td>
 
 <h2> FAQs </h2>
