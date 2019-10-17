@@ -133,7 +133,7 @@ Next you need to update a data mapping file with the email address of the defaul
 > [!TIP]
 > We recommend creating a backup of your environment so you can revert to the initial stage if you encounter issues during the demo data installation. To learn more, see [Back up and restore instances](/admin/backup-restore-instances).
 
-## Run the Package Deployer
+## Run the package deployer
 
 When you install any of the demo data, the following actions occur during the installation process:
 
@@ -235,7 +235,7 @@ file. For technical users, these include:
 
 - **\<DefaultParameterDescription\>**: Specifies the default description for the parameters.
 
-### Fabrikam Scenario
+### Fabrikam scenario
 <!--note from editor: The addition of this scenario is confusing. You don't use it above as part of the email addresses nor do you use it to explain why the users in the table are there. Then in this section, the scenario doesn't really wrap up. It just kind of ends with a list of demo data that it does not appear needs to be associated with any scenario at all. You could just say at the beginning that the demo data includes these things. I suggest you consider removing the scenario altogether. If not, then please make it a complete scenario that is woven throughout the article.-->
 
 The fictional company, Fabrikam, is a manufacturer of electronic device assembly line of robots and is known for their product quality, innovation, and solid customer service, including: installation planning, implementation, and ongoing
@@ -258,7 +258,7 @@ A high-level overview of the Chat for Dynamics 365 Customer Service demo data ar
 
 - One Omnichannel for Customer Service queue
 
-## See Also
+## See also
 
 [Omnichannel For Customer Service
 Guide](https://docs.microsoft.com/dynamics365/customer-engagement/omnichannel/omnichannel-customer-service-guide)
