@@ -27,7 +27,8 @@ The enhanced email experience in Dynamics 365 Sales allows sales reps to compose
 
 
 > [!IMPORTANT]
-> System administrators must enable the enhanced email experience before you can use it.
+> - The enhanced email experience is only available in the Sales Hub app.
+> - System administrators must enable the enhanced email experience before you can use it.
 
 Compose an email using the enhanced experience:
 
