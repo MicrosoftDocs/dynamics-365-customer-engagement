@@ -2,15 +2,13 @@
 title: "What is Dynamics 365 Channel Integration Framework (CIF) | Microsoft Docs"
 description: "Learn what is Channel Integration Framework (CIF) for Microsoft Dynamics 365 and how to get started using it."
 keywords: ""
-ms.date: 12/10/2018
+ms.date: 10/18/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"
 ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: e6d23c5f-e4ec-41f7-aff7-9cb50828357f
 author: susikka
 ms.author: susikka
