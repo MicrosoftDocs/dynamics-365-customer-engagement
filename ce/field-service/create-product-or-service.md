@@ -31,32 +31,6 @@ F&O
 
 ## Create a product or service
 
-- price list
-- price list item
-
-## Add product inventory
-
-## Add a product or service to a work order
-
-- manual
-- incident
-- allocation
-- FSM
-- calculations 
-
-## Configuration considerations
-
-System Settings on the Sales tab related to Product setup. 
-Product in Active Status upon creation.  Best practice is to set this to Yes.
-Minimum # of Products in a Bundle.
-Max # of Properties allowed for a Product or Bundle. 
-
-FS settings
-- allocated by default
-- use invetnroy past 0
-
-## Additional notes
-
 
 1. From the main menu, click **Field Service** > **Administration**, and then choose **Product**.  
   
@@ -102,14 +76,37 @@ FS settings
 10. After you're done adding all the details,  review everything to ensure that it is correct. On the command bar, click **Preview**. The **Properties Preview** dialog box lets you verify how the product properties will appear to sales agents when they're selling the product or bundle.  
   
 After you're done verifying everything, click **Done**.  
+
+
+- price list
+- price list item
+
+## Add product inventory
+
+## Add a product or service to a work order
+
+- manual
+- incident
+- allocation
+- FSM
+- calculations 
+
+## Configuration considerations
+
+System Settings on the Sales tab related to Product setup. 
+Product in Active Status upon creation.  Best practice is to set this to Yes.
+Minimum # of Products in a Bundle.
+Max # of Properties allowed for a Product or Bundle. 
+
+FS settings
+- allocated by default
+- use invetnroy past 0
+
+## Additional notes
+
+
   
-### See also 
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
- [Create a price list](../field-service/create-price-list.md)   
- [Set up purchase order sub-statuses](../field-service/set-up-purchase-order-sub-statuses.md)   
- [Create a warehouse](../field-service/create-warehouse.md)   
- [Create ship via](../field-service/create-ship-via.md)   
- [Create an RMA sub-status](../field-service/create-rma-sub-status.md)   
- [Set up RTV sub-statuses](../field-service/set-up-rtv-sub-statuses.md)   
- [Process a return](../field-service/process-return.md)
- [User's Guide](../field-service/user-guide.md)  
+### See also  
+ - [Create a price list](../field-service/create-price-list.md)    
+ - [Create a warehouse](../field-service/create-warehouse.md)   
+
