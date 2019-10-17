@@ -42,7 +42,7 @@ Microsoft.ProductivityMacros.runMacro(macroName).then(function(success){
 });
 ```
 
-### See also
+## See also
 
 [Overview of Productivity Tools](../../../administrator/productivity-tools.md)<br />
 [Automate tasks with macros](../../../administrator/macros.md)
