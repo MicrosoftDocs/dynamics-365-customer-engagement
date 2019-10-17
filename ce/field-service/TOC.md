@@ -63,6 +63,7 @@
 ### [Resource crew scheduling](resource-crews.md)
 ### [Resource pools](resource-pools.md)
 ### [Facility scheduling](facility-scheduling.md)
+### [Time constraints](schedule-time-constraints.md)
 
 
 ## Schedule board 
@@ -120,6 +121,7 @@
 
 # Resource Scheduling Optimization (RSO) add-in
 ## [Overview](rso-overview.md)
+## [Get RSO](rso-get-install.md)
 ## [Quickstart](rso-quickstart.md)
 ## [Deployment](rso-deployment.md)
 ## [Configuration](rso-configuration.md)

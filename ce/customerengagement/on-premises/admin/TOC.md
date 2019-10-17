@@ -82,7 +82,7 @@
 <!-- ## Manage documents
 ### [Document management with SharePoint](doc-management-sharepoint.md)
 ### [Configure server-based authentication with Dynamics 365 for Customer Engagement apps (on-premises) and SharePoint Online](on-prem-server-based-sharepoint-online.md)
-### [Configure server-based authentication with Dynamics 365 for Customer Engagement apps(on-premises) and SharePoint on-premises](../customer-engagement/on-premises/admin/on-prem-server-based-sharepoint-on-prem.md)
+### [Configure server-based authentication with Dynamics 365 for Customer Engagement apps(on-premises) and SharePoint on-premises](../customerengagement/on-premises/admin/on-prem-server-based-sharepoint-on-prem.md)
 ### [Switching from the list component or changing the SharePoint deployment](switching-list-component-changing-deployment.md) -->
 # Performance tuning and optimization
 ## [Overview](performance-tuning-and-optimization.md)

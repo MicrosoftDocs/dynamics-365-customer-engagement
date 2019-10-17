@@ -2,7 +2,7 @@
 title: "Edit schedule board booking template - Field Service| MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 07/16/2019
+ms.date: 10/01/2019
 ms.reviewer: krbjoran 
 ms.service: dynamics-365-customerservice
 ms.suite: ""
