@@ -2,7 +2,7 @@
 title: "Difference between the Basic and Enhanced Collaboration Experience with Teams| MicrosoftDocs"
 ms.custom: 
 description: "Capability of the Basic and Enhanced Collaboration Experience with Teams."
-ms.date: 8/5/2019
+ms.date: 10/16/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,16 +21,13 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Difference between the Basic and Enhanced Collaboration Experience with Teams
+# Difference between the Basic and Enhanced Collaboration Experience with Teams in model-driven app
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-Before you can start using the colloboration experice experice, it needs to to turned on. For more information, see [Install and set up the Dynamics 365 app for Teams ](teams-install-app.md).
+Before you can start using the collaboration experience, it needs to be turned on in Common Data Service. For more information, see [Install and setup Microsoft Teams integration](teams-install-app.md).
 
  
  |  |  |
 |---------|---------|
-|**Basic Collaboration Experience**     |  <ul><li>You need system admin permissions to enable this feature.</li><br/>  <li>When you choose the **Collaborate** option on a Dynamics 365 Customer Engagement app record, the set-up prcocss happens in the Teams app.</li><br/> <li>You can manually pin Dynamics 365 Customer Engagement app records from within the Teams app. <br/> <br/>**Note:** The option to add recommended members during the manual set-up process from within the Teams app is not supported.</li></ul>       |
-|**Enhanced Collaboration Experience**    | <ul><li>You need Office 365 tenant admin permissons to enable this feature. </li><br/>  <li>When you choose the **Collaborate** option on a record or view, a set-up wizard in Dynamics 365 Customer Engagement app will guide you through the connection process.</li><br/> <li>You can manually pin Dynamics 365 Customer Engagement app records from within the Teams app and have the option to add recommended members.</li><br/>  </ul>  
+|**Basic Collaboration Experience**     |  <ul><li>You need system admin permissions to enable this feature.</li><br/>  <li>When you choose the **Collaborate** option in a model-driven app record page, the connection set-up process between a model-driven app record and Microsoft Teams collaboration channel happens in the Microsoft Teams.</li><br/> <li>You can manually pin a model-driven app record or view from the Microsoft Teams. <br/> <br/>**Note:** The option to add recommended members during the manual set-up process from the Microsoft Teams is not supported.</li></ul>       |
+|**Enhanced Collaboration Experience**    | <ul><li>You need Office 365 tenant admin permissions to enable this feature. </li><br/>  <li>When you choose the **Collaborate** option on a model-driven app record or view page, a set-up wizard in Common Data Service will guide you through the connection set-up process between a model-driven app record or view page and Microsoft Teams collaboration.</li><br/> <li>You can manually pin a model-driven app record or view from the Microsoft Teams app and have the option to add recommended members if you are the team owner.</li><br/>  </ul>  

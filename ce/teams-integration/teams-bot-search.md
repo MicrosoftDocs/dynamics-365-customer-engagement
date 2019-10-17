@@ -2,7 +2,7 @@
 title: "Use the bot| MicrosoftDocs"
 ms.custom: 
 description: "Use the bot to interact with Dynamics 365 apps."
-ms.date: 04/30/2019
+ms.date: 10/16/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,9 +23,9 @@ search.app:
 # Use the bot 
 
 
-The Dynamics 365 app for Teams bot feature allows you search Dynamics 365 apps records within Microsoft Teams conversations.
+The Dynamics 365 app for Microsoft Teams bot feature allows you to search for model-driven app records within a Microsoft Teams conversations.
 
-Find and open the Dynamics 365 bot. Open **Chat** on the left side of the Teams app, and then select **Dynamics 365**.
+Find and open the Dynamics 365 bot. Open **Chat** on the left side of the Microsoft Teams, and then select **Dynamics 365**.
 
 The **Conversation** tab opens with the welcome message sent by the bot. Select **Sign in**.
 
@@ -59,7 +59,7 @@ Edit and update a record.
 > ![Update a record](media/teams-bot-edit-record.png "Update a record")
 
 ## Post
-Create a post in Dynamics 365 apps.
+Create a post in Dynamics 365 app.
 
 > [!div class="mx-imgBorder"] 
 > ![Create a post](media/teams-bot-create-post.png "Create a post")
