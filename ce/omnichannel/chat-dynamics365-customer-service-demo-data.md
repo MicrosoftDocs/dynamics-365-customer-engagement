@@ -31,7 +31,7 @@ The sample data is available as a downloadable demo package, which you can insta
 
 The following are the requirements to install sample data in your target environment:
 
-- Use the latest version of Common Data Service
+- Use the latest version of the Common Data Service environment
 - Your base language is English
 - The environment has no Omnichannel for Customer Service data already, or has only the default data that comes with a new org
 - The correct version of the business application is already installed Chat for Dynamics 365 Customer Service 
@@ -80,7 +80,7 @@ Depending on the operating system and security settings, you may need to perform
 The OmnichannelDemoData package installs with a few users per the settings described below.
 <!--note from editor: There are no settings described below. Do you mean "...includes the sample users listed in the table below."? -->
 
-To install the demo data, you need to create (or temporarily rename) users in Common Data Service to match the incoming demo data configuration.
+To install the demo data, you need to create (or temporarily rename) users in your Common Data Service environment to match the incoming demo data configuration.
 <!--note from editor: The sentence above says you need to create or rename users, but the steps below just swap out the full name for the user alias and then apply roles to the user. This is not consistent. -->
 
 | First Name | Last Name | User Alias   | Email                                    | Role                      |
@@ -95,7 +95,7 @@ To install the demo data, you need to create (or temporarily rename) users in Co
 
 ### Configure users
 
-1. Sign in to Common Data Service.
+1. Sign in to your Common Data Service environment.
 
 2. Select **Settings** > **Security** > **Users**.
 
@@ -231,7 +231,7 @@ file. For technical users, these include:
 
 - **<RequiredSolutions\>**: Specifies prerequisite solution installations and their version numbers.
 
-- **\<InstallSampleData\>**: Installs demo data to Common Data Service. This is the same demo data that you can install from **Settings** > **Data Management**.
+- **\<InstallSampleData\>**: Installs demo data to your Common Data Service environment. This is the same demo data that you can install from **Settings** > **Data Management**.
 
 - **\<DefaultParameterDescription\>**: Specifies the default description for the parameters.
 
