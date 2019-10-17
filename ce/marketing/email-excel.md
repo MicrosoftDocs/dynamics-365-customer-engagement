@@ -101,5 +101,5 @@ Finish designing your journey as needed. When you're done, set the start date an
 [Import data](import-data.md)  
 [Email marketing overview](prepare-marketing-emails.md)  
 [Working with segments](segmentation-lists-subscriptions.md)  
-[Design profile-based dynamic segments](segments-profile.md)  
+[Design dynamic demographic or firmographic segments](segments-profile.md)  
 [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)

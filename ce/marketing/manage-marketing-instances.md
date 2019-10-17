@@ -2,7 +2,7 @@
 title: "Manage marketing instances (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to copy a production Dynamics 365 Marketing instance to a sandbox instance for experiments and testing"
 keywords: administration;admin center;copy;sandbox;instances;backup;recall
-ms.date: 08/14/2019
+ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -36,10 +36,11 @@ Dynamics 365 Marketing is composed of several components that you must be aware 
 
 - **Dynamics 365 instance**. This provides the basic platform for the Marketing app and includes both a _platform server_ and an _organizational database_. This database is also shared by the Marketing app, which reads and stores much of its data here.
 - **Dynamics 365 Marketing application**. This is a collection of solutions that are installed on the platform server and add marketing features to Dynamics 365. It's installed on the platform server to add marketing features to Dynamics 365. It's also referred to as the _Marketing app_.
-- **Marketing services**. This is a collection of services that the Marketing app interacts with . They run in parallel with your Dynamics 365 instance. Among other things, live customer journeys and marketing email messages run on marketing services.
-- **marketing-insights service**. This provides big-data services such as resolving segment queries, storing interaction data, and providing analytics based on this data. The marketing-insights service is just one of the marketing services already mentioned, but it's worth calling out separately because it comes up often.
+- **Marketing services**. This is a collection of services that the Marketing app interacts with. They run in parallel with your Dynamics 365 instance. Among other things, live customer journeys and marketing email messages run on marketing services. Also, all images uploaded to Dynamics 365 Marketing for use in emails and marketing pages are stored and served from here.
+- **Marketing-insights service**. This provides big-data services such as resolving segment queries, collecting and storing interaction data, and providing analytics based on this data. The marketing-insights service is just one of the marketing services already mentioned, but it's worth calling out separately because it comes up often.
 
-Marketing services run in parallel with your Dynamics 365 Marketing instance, and thus follow their own lifecycle. These services aren't directly accessible to users, so when copying or restoring and organization database, you must consider the impact on these connected services.
+> [!IMPORTANT]
+> Marketing services (including the marketing-insights service) run in parallel with your Dynamics 365 Marketing instance, and thus follow their own lifecycle. These services aren't directly accessible to users, and the data they contain isn't included when copying, backing up, or restoring a Marketing instance. This means that interaction records (such as email clicks and website visits) and files (such as those used in emails and marketing pages) aren't included when you copy, backup, or restore an instance.
 
 <a name="copy-to-sandbox"></a>
 
@@ -50,40 +51,38 @@ Because Marketing is more complex than most Dynamics 365 apps, and interacts wit
 <a name="copy-warning"></a>
 
 > [!WARNING]
-> You must not do a simple copy of a Marketing instance like you can with most other Dynamics 365 instances that don't have Marketing installed. If you do a simple copy without following the steps here, the resulting copy won't work and will render the target instance unrecoverable.
+> You must not do a simple copy of a Marketing instance like you can with most other Dynamics 365 instances that don't have Marketing installed. If you do a simple copy without following the steps here, the resulting copy won't work and may render the target instance unrecoverable.
 
 > [!WARNING]
-> This procedure will completely delete and/or overwrite the target instance.
+> This procedure will completely delete the target instance. If Dynamics 365 Marketing is installed on the target instance, then it will be completely uninstalled (which will release the license) and all data (including interaction records) will be deleted. Even if you backup the target instance first, the backup won't include interaction data or image files. If you need to preserve interaction data and/or images from the target instance, be sure to back up the database for your marketing services, either to blob storage to some other storage media. For more information about how to backup  data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
+
+> [!IMPORTANT]
+> Your copied instance requires it's own Dynamics 356 Marketing license. If the target instance already has Marketing installed, then the copy will automatically take over that license (you don't have to do anything). If the target instance doesn't have Marketing installed, then we recommend you make sure you have an unused Marketing license for your tenant before you start the copy, and purchase one if you don't. If you don't have a Marketing license available before copying, then the copy will end in a *disconnected state*, which means that many key features won't work (relevant error messages will be shown); in this case, you can just purchase a new Marketing license and then [re-run the setup wizard](re-run-setup.md) to apply it to your new copy.
 
 > [!NOTE]
 > If you are copying to a support instance, then see [Copy a production instance to a support instance](#support-copy) for instructions instead of reading this section. For all other types of copies, continue reading here.
+
+<a name="target-content"></a>
 
 ### Content of the target instance after copying
 
 After the copy, your target instance will be set up as follows:
 
 - All apps, settings, and customizations from your source instance will be present on the target instance.
-- A new set of marketing services (including a new marketing-insights service) will be created and linked to the target instance. Interaction data from your source instance (such as email clicks or website visits) won't be available to the target instance, so most insights data will be initialized. You can freely generate new interaction data on the target instance without affecting your source instance.
 - If you chose to do a *full copy*, the entire organizational database of your source instance will be copied to the target instance. This means that copied data from your source instance will be visible on the target instance, but your work in the target instance won't affect your source database from now on.
 - If you chose to do a *minimal copy*, all your apps and customizations will still be present on the target instance, but the organizational database will be nearly empty, so none of your source data (including email messages, portal content, and customer journeys) will be there.
+- All records that were live on the source instance (such as customer journeys, emails, lead-scoring records, and more) will revert to the draft state on the target instance. You must go live again with any of these records that you want to use on the target instance.
+- A new set of marketing services (including a new marketing-insights service) will be created and linked to the target instance.
+- Because a new set of marketing services is created on the target instance, interaction data from your source instance (such as email clicks or website visits) won't be available to the target instance. Most insights data will be initialized. You can freely generate new interaction data on the target instance without affecting your source instance.
+- Because a new set of marketing services is created on the target instance,  files uploaded to your source instance (such as images used in emails and landing pages) won't be available to the target instance. You'll still be able to see the file records on the target instance, but they'll only contain metadata, not the images themselves. You won't see any thumbnails for the copied file records, and if you try to add them to a new email or page design, no image will be available. However, if you go live with an email or page that was previously published on the source instance, the published design will continue to use the previous image URLs from the source instance&mdash;these images will still appear in the republished designs provided they are still available on the source instance.
 - If the Marketing app on your source instance used a Dynamics 365 Portal, then you might choose to also set up a new portal on the target instance to host its marketing pages and event websites (requires an unconfigured Dynamics 365 Portals license to be available on your tenant). [Portals are optional](portal-optional.md), so you can choose not to use a portal with the copied instance if you prefer, even if the source instance was using one.
 
 <a name="prepare-source"></a>
 
 ### Step 1: Prepare your source instance
 
-The _source instance_ is the Marketing instance you are copying _from_. Before you start copying, you must prepare the source instance as described here.
+The _source instance_ is the Marketing instance you are copying _from_. To prepare your source instance for copying, [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and make sure that the Dynamics 365 Marketing application and its related solutions are all up to date on your source instance, as described in [Keep Marketing up to date](apply-updates.md).
 
-To prepare your source instance for copying:
-
-1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and make sure that the Dynamics 365 Marketing application and its related solutions are all up to date on your source instance, as described in [Keep Marketing up to date](apply-updates.md).
-1. Do one of the following, depending on whether you are planning to make a full or minimal copy:
-
-    - If you are planning to make a **Full copy** (which will include all of the data from the source instance) then you must move all your running [live records](go-live.md) to a stopped state. This includes all customer journeys, marketing emails, content settings, segments, marketing pages, marketing forms, lead-scoring models, events, event sessions, and event tracks.
-    - If you are planning to make a **Minimal copy** (which will contain all customizations, but a mostly empty database), then you don't need to stop any records.
-
-    > [!NOTE]
-    > If you make a full copy with one or more records still in a live state on the source instance, then those records will become unusable on the target instance.
 
 ### Step 2: Prepare your target instance
 
@@ -94,10 +93,7 @@ The _target instance_ is the instance you are copying _onto_. As with the source
 
 To prepare your target instance to be copied onto, do the following _before_ starting the copy:
 
-1. If your target instance already has Dynamics 365 Marketing installed on it, then do the following:
-
-    - Use the Marketing setup wizard to uninstall Dynamics 365 Marketing from that instance as described in [Uninstall Marketing](uninstall-marketing.md). (Just run the uninstaller—you don't have to remove all of the solutions afterwards.) This both prepares the target instance to receive the copy and also makes sure that your Marketing license is fully released so you can use it elsewhere.
-    - If the Marketing instance was [integrated with a Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
+1. If the Marketing instance was [integrated with a Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
 
 1. We highly recommend that you reset your target instance as described in [Reset a Sandbox instance](../admin/manage-sandbox-instances.md#reset-a-sandbox-instance). This will return the target instance to its factory settings, which may prevent problems later on, and may also release additional app licenses.
 
@@ -105,7 +101,7 @@ To prepare your target instance to be copied onto, do the following _before_ sta
 
 Once your source and target instances are prepared, you're ready to make the copy following the usual procedure described in [Copy an instance to a Sandbox instance](../admin/copy-instance.md).
 
-Pay special attention when choosing whether to create a full or minimal copy, and be sure to choose the option that matches the copy type you prepared for in [Step 1: Prepare your source instance](#prepare-source).
+Pay special attention when choosing whether to create a [full or minimal copy](#target-content).
 
 ![Select the copy type](media/instances-full-minimal-copy.png "Select the copy type")
 
@@ -114,59 +110,56 @@ Pay special attention when choosing whether to create a full or minimal copy, an
 After creating your copy, you must do the following:
 
 - Make sure the target instance isn't in administration mode. For more information about this setting and how to disable it, see [Administration mode](../admin/manage-sandbox-instances.md#administration-mode).
-- Run the Marketing setup wizard on the target instance. This is needed because the target instance must be set up with a new collection of marketing services (and, in some cases, supporting apps such as Voice of the Customer and/or Portals). For instructions, see [Run the Marketing setup wizard](purchase-setup.md#run-wizard).
-
-> [!NOTE]
-> Because a new set of marketing services is created on the target instance, all marketing insights and interaction data stored by the previous marketing instance won't be available to the new instance. The lost interaction data includes records of email clicks, website visits, form submissions, and other ways that contacts have interacted with your marketing initiatives.
+- Run the Marketing setup wizard on the target instance. This is needed because the target instance must be set up with a new collection of marketing services (and, in some cases, supporting apps such as Voice of the Customer and/or Portals). For instructions, see [Run the Marketing setup wizard](purchase-setup.md#run-wizard). If you don't run the setup wizard, then the copy will end in a *disconnected state*, which means that many key features won't work until you do (relevant error messages will be shown).
 
 ## Create and restore backups
 
 As with copy operations, backup and restore operations typically require a few extra steps when Marketing is installed.
 
 > [!IMPORTANT]
-> Backups **do not** include interaction data, so when you restore them, all organizational data, solutions, apps, and customizations will be present, but no Marketing interaction data or insights will be available on the restored system.
+> Backups **do not** include marketing services or the data they contain. When you restore a backup, all organizational data, solutions, apps, and customizations will be present, but no interaction data, insights, or previously uploaded files will be available on the restored system. The situation is similar to that of [copying a Marketing instance](#copy-to-sandbox).
 
 ### Automatic system backups
 
-Microsoft automatically takes daily backup copies of all Dynamics 365 instances, including those that have the Marketing app installed. Like other types of copies, automatic system backups include the full organizational database, but not a copy of the marketing-insights service database. System backups are usually kept for just a few days and then deleted again.
-
-> [!IMPORTANT]
-> The system creates automatic system backups without stopping any of the live records on the source instance. That means that these backups won't interrupt the normal operation of your instance, but it also means that any records that are live on the source instance will be rendered unusable in a restored backup copy.
+Microsoft automatically takes daily backup copies of all Dynamics 365 instances, including those that have the Marketing app installed. Like other types of copies and backups, automatic system backups include the full organizational database, but not the interaction records or image files stored in the marketing services. System backups are usually kept for just a few days and then deleted again.
 
 For more information about automatic backups in Dynamics 365, see [System backups](../admin/backup-restore-instances.md#BKMK_DailySystemBackup).
+
+For more information about how to backup marketing-services data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
 
 ### Create an on-demand backup
 
 You can create an on-demand backup at any time, but when Marketing is installed on your source instance, you must take a few extra precautions by using the following procedure:
 
 1. [Open the Dynamics 365 admin center](/dynamics-365-admin-center.md) and make sure that the Dynamics 365 Marketing application and its related solutions are all completely up to date on your source instance, as described in [Keep Marketing up to date](apply-updates.md).
-2. Move all your running [live records](go-live.md) to a stopped state. This includes all customer journeys, marketing emails, content settings, segments, marketing pages, marketing forms, lead-scoring models, events, event sessions, and event tracks.
-3. Create the on-demand backup as usual, as described in [On-demand backup](../admin/backup-restore-instances.md#on-demand-backup-dynamics-365-for-customer-engagement-apps-managed).
+1. Create the on-demand backup as usual, as described in [Backup and restore instances](../admin/backup-restore-instances.md).
 
-> [!NOTE]
-> If you make an on-demand backup with one or more records still in a live state on the source instance, then those records will become unusable on the target instance.
+As with automatic backups, on-demand backups include the full organizational database, the interaction records or image files stored in the marketing services. For more information about how to backup marketing-services data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
 
 ### Restore a backup onto another instance
 
 You can easily restore any on-demand or automatic system backup to any available sandbox instance (other than the instance you took the backup from). But as with copy operations, you need to prepare the target instance first.
 
+> [!WARNING]
+> This procedure will completely delete the target instance. If Dynamics 365 Marketing is installed on the target instance, then it will be completely uninstalled (which will release the license) and all data (including files and interaction records) will be deleted. Even if you backup the target instance first, the backup won't include image files or interaction data, so if you need to preserve these, be sure to back up your marketing-services data, either to blob storage to some other storage media. For more information about how to backup marketing-services data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
+
+> [!IMPORTANT]
+> Your restored instance requires it's own Dynamics 356 Marketing license. If the target instance already has Marketing installed, then the restored instance will automatically take over that license (you don't have to do anything). If the target instance doesn't have Marketing installed, then we recommend you make sure you have an unused Marketing license on your tenant before you start the restore, and purchase one if you don't. If you don't have a Marketing license available before restoring, then the restored instance will end in a *disconnected state* which means that many key features won't work (relevant error messages will be shown); in this case, you can just purchase a new Marketing license and then [re-run the setup wizard](re-run-setup.md) to apply it to your restored instance.
+
 To restore a backup onto a sandbox instance:
 
-1. If your target instance already has Dynamics 365 Marketing installed on it, then do the following:
-
-    - Use the Marketing setup wizard to uninstall Dynamics 365 Marketing from that instance as described in [Uninstall Marketing](uninstall-marketing.md). (Just run the uninstaller—you don't have to remove all of the solutions afterwards.) This both prepares the target instance to receive the restored backup and also makes sure that your Marketing license is fully released so you can use it elsewhere.
-    - If the Marketing instance was [integrated with a Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
+1. If your target instance includes a [Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
 
 1. We highly recommend that you reset your target instance as described in [Reset a Sandbox instance](../admin/manage-sandbox-instances.md#reset-a-sandbox-instance).
 
-1. Restore the backup onto the newly prepared sandbox as usual, as described in [Restore a Dynamics 365 on-demand backup](../admin/backup-restore-instances.md#restore-a-dynamics-365-for-customer-engagement-apps-on-demand-backup).
+1. Restore the backup onto the newly prepared sandbox as usual, as described in [Backup and restore instances](../admin/backup-restore-instances.md).
 
 1. Prepare the restored instance for use by doing the following:
 
    - Make sure the restored instance is not in administration mode. For more information about this setting and how to disable it, see [Administration mode](../admin/manage-sandbox-instances.md#administration-mode).
-   - Run the Marketing setup wizard on the target instance. For instructions, see [Run the Marketing setup wizard](purchase-setup.md#run-wizard).
+   - Run the Marketing setup wizard on the target instance. For instructions, see [Run the Marketing setup wizard](purchase-setup.md#run-wizard). If you don't run the setup wizard, then the copy will end in a *disconnected state*, which means that many key features won't work until you do (relevant error messages will be shown).
 
-### Restore a backup onto its original instance
+### Don't try to restore a backup onto its original instance
 
 When a backup contains Dynamics 365 Marketing, it isn't possible to restore a backup onto its original instance. If you need to do this, please [contact Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support) for assistance.
 
@@ -182,8 +175,8 @@ Many instance-management tasks only allow you to work on a sandbox instance as t
 
 Microsoft Support offers a service for testing pending changes (usually updates) on a copy of your production instance. If you wish to use this service, please contact Microsoft Support to find out if you are eligible. If so, Microsoft Support will create a support instance on your tenant and then ask you to copy your production instance onto it. More information: [Manage Support instances](../admin/support-instance.md)
 
-> [!IMPORTANT]
-> When you copy to a support instance, you don't need to stop any live entities, re-run the setup wizard, or make any other types of special preparations that may be mentioned in some of the other sections in this topic.
+> [!NOTE]
+> When you copy to a support instance, you don't need to make any special preparations that may be mentioned in some of the other sections in this topic.
 
 > [!NOTE]
 > Support instances remain available for 14 days and are then deleted.
@@ -212,14 +205,13 @@ To copy a production instance to a support instance:
 
 ## Delete or reset a Marketing instance
 
-For standard Dynamics 365 instances (without Marketing installed) you can use the Dynamics 365 admin center to delete or reset an instance. However, if you do have Marketing installed, then you must also do the following:
+For standard Dynamics 365 instances (without Marketing installed) you can use the Dynamics 365 admin center to delete or reset an instance. However, if you do have Marketing installed, then you should also do the following:
 
-1. Use the Marketing setup wizard to uninstall Dynamics 365 Marketing from that instance as described in [Uninstall Marketing](uninstall-marketing.md). (Just run the uninstaller—you don't have to remove all of the solutions afterwards.) This both prepares the target instance to receive the restored backup and also makes sure that your Marketing license is fully released so you can use it elsewhere.
 1. If the Marketing instance was [integrated with a Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
 1. Delete or reset the instance as usual. More information: [Delete an instance](../admin/delete-instance.md)
 
-> [!IMPORTANT]
-> You must always uninstall Marketing and reset the Dynamics 365 Portal before deleting or resetting an instance because this makes sure your Marketing and portal licenses are fully released so you can use them again.
+> [!NOTE]
+> Your Dynamics 365 Marketing license is automatically released when you delete or reset its instance, so you'll be free to install it on another instance.
 
 ## Do not change the URL for an instance with Marketing installed
 

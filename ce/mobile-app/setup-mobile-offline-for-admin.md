@@ -385,43 +385,42 @@ Ensure that you have configured at least one of the Profile rules for each entit
 ### Data volume recommendation 
 
 
-<!--Does 10k mean 10,000? If so, please change.-->
-
-
-The recommended data volume should be <= 10k records per user subscription.
+The recommended data volume should be <=  10,000 records per user subscription.
 
 ## Known issues
 
-**Business Process Flows**: Business process flows are not supported for mobile offline. When you are offline, business process flows grids and views will not be available and business process flows will not be rendered on records that are opened in offline mode. If a record containing a business process flow was loaded prior to going offline, business process flow functions, such as move next or move previous will not work. Business process flows support the ability to branch to a different set of stages, based on conditions defined on fields of the record. In offline mode, these conditions to determine the next set of stages in the business process flows will not be evaluated.
+- When you change the business unit of a user, then the user is removed from the mobile offline profile.
 
-**Qualify a lead**: When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
+- **Business Process Flows**: Business process flows are not supported for mobile offline. When you are offline, business process flows grids and views will not be available and business process flows will not be rendered on records that are opened in offline mode. If a record containing a business process flow was loaded prior to going offline, business process flow functions, such as move next or move previous will not work. Business process flows support the ability to branch to a different set of stages, based on conditions defined on fields of the record. In offline mode, these conditions to determine the next set of stages in the business process flows will not be evaluated.
+
+- **Qualify a lead**: When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
 
 
-**Views** are not supported for the following entities in offline mode: 
+- **Views** are not supported for the following entities in offline mode: 
 
-- Email
+  - Email
 
-- Task
+  - Task
 
-- Appointment
+  - Appointment
 
-- Fax
+  - Fax
 
-- Phonecall
+  - Phonecall
 
-- Letter
+  - Letter
 
-- Serviceappointment
+  - Serviceappointment
 
-- Campaignresponse
+  - Campaignresponse
 
-- Campaignactivity
+  - Campaignactivity
 
-- Recurringappointmentmaster
+  - Recurringappointmentmaster
 
-- Socialactivity
+  - Socialactivity
 
-Any views that have linked entities (related entity) that are not available offline are also not supported. 
+  Any views that have linked entities (related entity) that are not available offline are also not supported. 
 
 
 

@@ -2,7 +2,7 @@
 title: "Set up a subscription center (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create subscription lists and add them to a subscription center in Dynamics 365 Marketing"
 keywords: tutorial; subscription center; static list; subscription list; marketing page; page
-ms.date: 05/24/2019
+ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -78,25 +78,17 @@ You can publish subscription centers as a native marketing page running on a Dyn
 
 ## Create a subscription list
 
-Subscription lists are based on the standard (static) marketing lists feature of Dynamics 365. To create one:
+To create a subscription list using easy subscription lists:
 
-1. Go to **Marketing** > **Customers** > **Marketing lists**.
+1. Go to **Marketing** > **Customers** > **Subscription lists** to open a list of existing subscription lists.
 
-1. You now see a list of existing marketing lists, if any. On the toolbar, select **New** to create a new list.
+1. Select **New subscription list** on the command bar.
 
-1. The **New Marketing List** page opens. Make the following settings (at minimum):
-   - **Name**: Enter a descriptive name
-   - **List type**: Set to **Static**.
-   - **Targeted at**: Set to **Contact**.
-   - **Locked**: Leave set to **No**.
+1. A new list is created, preconfigured to function as a subscription list. Enter **Name** for the list and fill out the other information as needed.
 
-    ![How to configure a list as a subscription list](media/subscription-list-example.png "How to configure a list as a subscription list")
+    ![Create a subscription list](media/subscription-list-create.png "Create a subscription list")
 
-1. On the command bar, select **Save** to save your new list.
-
-1. After saving, the **Subscription** field becomes unlocked (provided you've set the **List type** to **Static** and **Targeted at** to **Contact**). Set **Subscription** to **True**.
-
-1. Select **Save** on the command bar to save your new list as a subscription list.
+1. Select **Save** to create the subscription list. After saving, you can use the **Members** tab to view, edit, or remove members for the list. Usually, however, you should allow your contacts to manage their own subscriptions using your subscription center.
 
 ## Add a subscription list to a subscription form
 
@@ -244,6 +236,44 @@ To test your subscription center, you must send yourself a subscription-center l
 Subscription centers only work when they "know" who they are talking to. This enables the subscription center to display existing contact information in editable fields (like name and email), and also to indicate which of the available subscription lists the viewer already belongs to. The only way most people will be able to open the subscription center is by selecting a link sent to them in a marketing email from a customer journey, and links such as these include an ID that lets the subscription center know which contact has requested the page. (In fact, all links in marketing emails include an ID that's linked to both the contact and the message, which enables the system to report which link each contact has selected in each message.)
 
 If you open a subscription center by opening its URL directly (or by using  a link sent in a test message), the page will load, but the form will be empty, all subscription lists will be cleared, and you won't be able to submit it. To fully test your subscription center, set up a simple customer journey that targets a single contact record with your email address and sends out a simple marketing email that links to your subscription center (similar to the journey presented in the previous section, but be sure to use a very limited segment). When you receive the message, select the subscription center link and test its features.
+
+
+## View and edit which lists each contact subscribes to
+
+### View, add, or remove subscription list memberships for a displayed contact
+
+To view, add, or remove list memberships for a displayed contact:
+
+1. Go to **Marketing** > **Customers** > **Contacts**.
+1. Open the contact you want to view or edit.
+1. Open the **Details** tab of the contact record and find the **Subscription lists** section.
+
+    - Each subscription list that the contact already belongs to is listed here.
+    - To remove the contact from any of these subscriptions, select the **More options** button (which looks like an ellipsis) next to the target list and then select **Remove**.
+    - To add the contact to any existing subscription list, select the **More commands** button (which looks like an ellipsis) in the **Subscription lists** heading and then select **Add existing marketing list**. A flyout opens. Use it to search for and select each list that you want to add the selected contact(s) to. The select **Add** to add the contacts and close the flyout.
+
+    ![Lists a contact subscribes to](media/subscription-list-contact.png "Lists a contact subscribes to")
+
+### Add contacts to lists from a contact list or form view
+
+To add displayed contacts to a subscription list or static marketing list: 
+
+1. Go to **Marketing** > **Customers** > **Contacts**.
+
+1. Do one of the following:
+
+    - Set filters an view options to find a collection of one or more contacts. Then place a check mark in the left-hand column for each contact you want to add or remove.
+    - Open or create a contact record.
+
+1. On the command bar, open the **Lists and segments** drop-down list and select one of the following:
+    - **Add to subscription list**: To add the currently shown or selected contacts to one or more existing subscription lists.
+    - **Add to marketing list**: To add the currently shown or selected contacts to one or more existing static marketing lists.
+
+    (Note that you can also add or remove the contact(s) to/from static segments using this drop-down list. More information: [Manage segment memberships from a contact record](manage-segments-from-contacts.md))
+
+1. A flyout opens. Use it to search for and select each list that you want to add the selected contact(s) to. The select **Add** to add the contacts and close the flyout.
+
+
 
 ### See also
 
