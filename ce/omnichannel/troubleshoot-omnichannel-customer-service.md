@@ -19,6 +19,20 @@ ms.custom:
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
 
+## Entity routing configuration fails
+
+### Issue:
+
+The Entity Records Distribution Flow connection is not authorized. Due to this issue, you can see the following error message.
+
+**Unable to complete the operation due to an error. Try again later. If the issue persists, contact Microsoft support.**
+
+### Resolution:
+
+Go to Entity Records Distribution Flow and authenticate the connection.
+
+To resolve the issue, perform steps 1 through 9 in the [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow) topic.
+
 ## Omnichannel provisioning fails due to expired Teams Service Principal
 
 ### Issue:

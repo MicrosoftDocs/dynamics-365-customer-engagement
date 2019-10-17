@@ -137,6 +137,9 @@ If you are creating or editing an entity record workstream, you must update **E
 | Work Stream Selection for Routing (\<Entity Record\> ) | Update the condition and workstreams Id. |
 | Invoke Omnichannel | Do not modify. |
 
+> [!Important]
+> Ensure that Entity Records Distribution Flow is closed before you update the workstream. Assume, you've made certain updates to the Flow, and while the Flow is still in the open in the browser, you update the workstream. In this case, after you save the workstream, the Flow will be reset to its earlier state causing to loose the changes you made.
+
 ### Update entity records work distribution flow
 
 1. Sign in to the Omnichannel Administrator app.

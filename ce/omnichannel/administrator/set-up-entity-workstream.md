@@ -43,7 +43,6 @@ This topic describes how to create a workstream that is used to route the case a
 
 5. Select **Save** to save the workstream.
 
-
 ## When you upgrade from earlier versions
 
 If you are already using the Entity Records feature and after you upgrade to the Omnichannel for Customer Service October 2019 update, then the **Entity** field in the **Work Stream** page will be empty. 
