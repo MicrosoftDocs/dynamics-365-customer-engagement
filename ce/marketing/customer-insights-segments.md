@@ -156,12 +156,10 @@ To export a new Customer Insights segment to a Marketing instance:
 You can edit the list of Customer Insights segments being exported to any destination, both to add or remove segments being exported and refreshed there. To do so:
 
 1. Sign into Customer Insights.
-2. Go to **Admin** > **Export destinations**.
-3. Find the destination you want to edit, select the **Actions** button (which looks like three vertical dots) to open the actions menu, and then select **Edit** from the actions menu.
-4. The **Edit destination** dialog opens, showing your destination setup.
-
+1. Go to **Admin** > **Export destinations**.
+1. Find the destination you want to edit, select the **Actions** button (which looks like three vertical dots) to open the actions menu, and then select **Edit** from the actions menu.
+1. The **Edit destination** dialog opens, showing your destination setup.
 1. Select **Next** to continue to the **Select segments to export** page. All of the segments currently available in Customer Insights are listed here. Select the check box for each segment you'd like to export and clear the check box for each segment you want stop exporting.
-
 1. Select **Save** to save your changes.
 
 > [!NOTE]
@@ -172,9 +170,7 @@ You can edit the list of Customer Insights segments being exported to any destin
 Although your segments will automatically refresh a few times a day based on your [refresh schedule](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-settings) in Customer Insights, you can manually refresh your segments at any time. To do so:
 
 1. Sign into Customer Insights.
-
 1. Go to **Admin** > **Export** destinations.
-
 1. Select the **Export** button at the top of the destinations list. This will trigger an export to all available destinations.
 
 <!--    ![Manually export to a destination](media/ci-export-destination.png "Manually export to a destination") -->

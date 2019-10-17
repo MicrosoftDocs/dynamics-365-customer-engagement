@@ -102,46 +102,46 @@ Talk to your system administrator to make sure the waitlisted entity is being sy
 
 To create a segment that finds contacts who _are not_ using automatic registration, but who should now be invited to register, do the following:
 
-1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar. A new segment record opens with the **Definition** > **Designer** tab showing.
-    ![Close the default group](media/segment-opportunity-close-group.png "Close the default group")
+1. Go to **Marketing** > **Customers** > **Segments** and select **New** on the command bar. Then select **Demographic** on the **Let's create your segment** screen.
 
-    Do the following:
+1. A new demographic segment opens. Check the view setting near the upper corner of the **Definition** tab and make sure it's set to **Tree view**. (You could use either view, but in this procedure we show and describe the tree view, so it's a good idea to use it for now.)
 
-    - Enter a **Name** for the segment at the top of the page.
-    - Select the close button to remove the default contact group from the **Designer** area. Many of your segments will probably start and end with the contact entity, but for this example we will start with waitlist items instead.
+    ![Choose the tree view](media/segment-firmographic-tree-view.png "Choose the tree view")
 
-1. When default contact group closes, it's replaced by a **Select a profile or relationship** drop-down list. Select **Waitlist item** from here. (If you don't see the **Waitlist item** entity listed here, then you probably need to set up syncing for this entity as described in the previous section; note that it can take up to half an hour for a new entity to appear in this list after the first sync.)    
-    ![Select the waitlist-item entity](media/event-waitlist-invite-segment2.png "Select the waitlist-item entity")
+1. Open the **Add** drop-down list under the **Contact** entity and select **Add related entity**.
 
-1. Complete the row to create the logical expression:  
-**Waitlist Item | Automatically register | is | False**.    
-    ![Complete the waitlist-item clause](media/event-waitlist-invite-segment3.png "Complete the waitlist-item clause")
+    ![Add a related entity](media/segment-add-related-entity.png "Add a related entity")
 
-1. Select **+ And** to add a second clause using an AND operator. Use it to create the logical expression:  
-**Waitlist Item | Invited | is | True**
+1. A new related entity is added to your query. Select the field with **Select related entity** in ghost text to open a large drop-down list of available relations. Type "waitlist" in the field to filter the list and then select **Waitlist Item (Waitlist Item -> Contact (Contact))** from the drop-down list. This relation links the parent **Contact** entity to the **Waitlist Item** entity through the **Contact** field of the **Waitlist** entity. The **Contact** field identifies the contact associated with each found waitlist item. More information: [Move between entities with relationships](segments-profile.md#relationships)
 
-1. Select **+ And** to add a third clause. Use it to create *one* of the following the logical expressions:
+    ![Link to waitlist items](media/segment-waitlist-relation.png "Link to waitlist items")
+
+1. Open the **Add** drop-down list under the new related entity and select **Add row** to begin defining the collection of waitlist items you are looking for.
+
+1. A new row is added to your query. Use it to create *one* of the following logical expressions:
 
     - For event-level registration:    
-    **Waitlist Item | Event (event) | is / is in | _&lt;YourEventName&gt;_**  
+    **Event | Equals | _&lt;YourEventName&gt;_**  
     Where _&lt;YourEventName&gt;_ is the name of the event.
     - For session-level registration:    
-    **Waitlist Item | Session (session) | is / is in | _&lt;YourSessionName&gt;_**  
+    **Session | Equals | _&lt;YourSessionName&gt;_**  
     Where _&lt;YourSessionName&gt;_ is the name of the session.
-1. Select **+ And** to add a fourth clause. Use it to create the logical expression:  
-**Waitlist item -> Contact (contact) | All&ast;**
 
-    This clause links from the waitlist entity to the contact entity. All segments must resolve to a contact record, so this clause links the found waitlist records to their related contacts and returns that list of contacts.
+    ![Identify the event or session you are looking for](media/segment-waitlist-event.png "Identify the event or session you are looking for")
 
-1. Select **+ And** to add a fifth clause. Use it to create the logical expression:  
-**Contact | All&ast;**
+1. Open the **Add** drop-down list under the previous row and select **Add row**. Use the fields and drop-down lists for the new row to set up the following clause:  
+**Automatically register | Equals | No**.
 
-    This clause adds all the matching contacts to the segment. 
+    ![Identify the event or session you are looking for](media/segment-waitlist-register-no.png "Identify the event or session you are looking for")
 
-1. Select **Save** at the bottom-right corner of the window to save your settings. Your final segment should resemble the following screenshot:    
-    ![The final invite segment query](media/event-waitlist-invite-segment4.png "The final invite segment query")
+1. Add a third row here and set up the following clause:  
+**Invited | Equals | Yes**
 
-1. Select **Go Live** from the command bar to activate the segment.
+    ![Identify the event or session you are looking for](media/segment-waitlist-invited-yes.png "Identify the event or session you are looking for")
+
+1. Select the field above the query that shows **Enter segment name** as ghost text. Then type a name for your segment.
+
+1. On the command bar, select **Save** to save your segment and then select **Go live**.
 
 ### Create a customer journey to send messages or invitations to waitlisted contacts
 
