@@ -40,7 +40,7 @@ The Omnichannel for Customer Service provides key capabilities like:
 
 -   Ability to show notifications with apt information and action buttons on incoming conversations.
 
-![Channel Integration Framework for Dynamics 365 version 2 0   Private Preview  2  image1](media/Channel-Integration-Framework-for-Dynamics-365-version-2.0---Private-Preview-(2)-image1.png)  
+![Channel Integration Framework for Dynamics 365 version 2 0   Private Preview  2  image1](media/multisession-01.png)  
 
 ## Components in the agent interface
 
@@ -56,7 +56,7 @@ When you sign in to the Omnichannel for Customer Service app, the agent interfac
 
 5.  Search, quick create, and presence
 
-![ Session](media/Channel-Integration-Framework-for-Dynamics-365-version-2.0---Private-Preview-(2)-image2.png)  
+![ Session](media/multisession-02.png)  
 
 ### 1. Session panel
 
@@ -75,7 +75,7 @@ The Communication Panel is where you, as an agent, interact with your customer. 
 
 The horizontal bar below the Dynamics 365 navigation bar is called the application tab panel. Every customer session has at least one application tab that is not closable; it is called an ***Anchor tab***. The Application tab has a **+** icon. If you select the icon, the menu that has options that are made available by your administrator in the app sitemap. The menu shows the out-of-box and custom entities. Also, you can access any third-party Line-of-Business applications which have been configured in the app sitemap. Select the option from the list to open it in the application tab.
 
-![ Omnichannel](media/Channel-Integration-Framework-for-Dynamics-365-version-2.0---Private-Preview-(2)-image3.png)  
+![ Omnichannel](media/multisession-03.png)  
 
 ### 4. Unified Interface application area
 
@@ -87,7 +87,7 @@ Multiple contextual application tabs can be opened in the sessions. These tabs c
 
 Search, quick create, and presence are the options present in the nav bar.
 
-![ Navigation](media/Channel-Integration-Framework-for-Dynamics-365-version-2.0---Private-Preview-(2)-image4.png)  
+![ Navigation](media/multisession-04.png)  
 
 a. **Search.** Do a simple search for records using the advanced search option and open the record in an application tab. Advanced Search is also called as Categorized Search.
 
@@ -97,7 +97,7 @@ b. **Presence.** Set presence as per your availability. Select the icon to lau
 
 The vertical panel on the left side is the session panel that allows you (the agent) to work on multiple customer sessions simultaneously. As an agent, you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity.
 
-![ Session](media/Channel-Integration-Framework-for-Dynamics-365-version-2.0---Private-Preview-(2)-image5.png)  
+![ Session](media/multisession-05.png)  
 
 ### Start a session
 
@@ -115,9 +115,11 @@ Use a combination of keyboard and mouse-click gesture to start a session. You ca
 
 Channel integration framework version 2.0 allows providers to start sessions programmatically. It provides APIs to pop notifications to the agents with relevant information. Providers can start sessions based on agent responses.
 
-![ Incoming](media/Channel-Integration-Framework-for-Dynamics-365-version-2.0---Private-Preview-(2)-image6.png)  
+![ Incoming](media/multisession-06.png)  
 
-![ Session](media/Channel-Integration-Framework-for-Dynamics-365-version-2.0---Private-Preview-(2)-image7.png)  
+<br />
+
+![ Session](media/multisession-07.png)  
 
 ### Work on multiple customer sessions
 
@@ -129,19 +131,23 @@ For example, you are working on a case by entering the title of the case and not
 
 In addition, when you are working on a session, there is another session which requires the agent’s attention. You (partner/developer) can use the **requestFocusSession** API to provide a visual indicator on the session tab so agent can see and take the next steps. To learn more, see **requestFocusSession**.
 
-![Channel Integration Framework for Dynamics 365 version 2 0   Private Preview  2  image8](media/Channel-Integration-Framework-for-Dynamics-365-version-2.0---Private-Preview-(2)-image8.png)  
+![Channel Integration Framework for Dynamics 365 version 2 0   Private Preview  2  image8](media/multisession-08.png)  
 
 ### Close a session
 
 You can close any session manually by selecting the **X** button next to the session title. When you hover the cursor on a session, you see the **X** button, and if you select the button, a confirmation dialog is shown to you.
 
-![ Close](media/Channel-Integration-Framework-for-Dynamics-365-version-2.0---Private-Preview-(2)-image9.png) ![ Session](media/Channel-Integration-Framework-for-Dynamics-365-version-2.0---Private-Preview-(2)-image10.png)  
+![ Close](media/multisession-09.png)
+
+<br />
+
+![ Session](media/multisession-10.png)  
 
 ### Mode of the session panel
 
 By default, the session panel is in expanded mode. Use the burger icon to toggle between expand or collapse mode. At all times, the **Home** session is anchored, and you can't close it. The Home session shows the default dashboard set for you by your administrator.
 
-![ Expand](media/Channel-Integration-Framework-for-Dynamics-365-version-2.0---Private-Preview-(2)-image11.png)  
+![ Expand](media/multisession-11.png)  
 
 ### Title and icon of the session
 
@@ -151,13 +157,13 @@ By default, the title of session is name of the customer, account, or title of t
 
 For an authenticated chat, name of the contact, account or title of the case is displayed.
 
-![ Session](media/Channel-Integration-Framework-for-Dynamics-365-version-2.0---Private-Preview-(2)-image12.png)
+![Session](media/multisession-12.png)
 
 #### Session icon
 
 By default, the first two letters of the session title are displayed as the session icon.
 
-![Session](media/Channel-Integration-Framework-for-Dynamics-365-version-2.0---Private-Preview-(2)-image13.png)
+![Session](media/multisession-13.png)
 
 ## See also
 
