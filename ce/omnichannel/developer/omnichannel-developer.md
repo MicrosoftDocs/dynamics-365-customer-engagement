@@ -23,10 +23,14 @@ Omnichannel for Customer Service live chat widget SDK provides methods that allo
 ## In this section
 
 [Manage custom context](how-to/send-context-starting-chat.md)<br />
+[Display custom context](how-to/display-custom-context.md)<br />
 [Send authentication token](how-to/send-auth-token-starting-chat.md)<br />
 [Initiate a chat](how-to/initiate-chat-wait-time.md)<br />
+[Start chat proactively](how-to/start-proactive-chat.md)<br />
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)<br />
-[JavaScript API reference for live chat SDK](omnichannel-reference.md)
+[Auto-close a conversation](auto-close-conversation.md)<br />
+[JavaScript API reference for live chat SDK](omnichannel-reference.md)<br />
+[runMacro method](reference/methods/runMacro.md)
 
 ### See also
 
