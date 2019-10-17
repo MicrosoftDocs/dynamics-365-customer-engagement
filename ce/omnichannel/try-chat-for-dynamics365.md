@@ -1,7 +1,7 @@
 ---
 title: "Try Chat for Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how you can try out Chat For Dynamics 365 Customer Service to connect and engage with your customers in real time."
-ms.date: 08/27/2019
+ms.date: 10/25/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
