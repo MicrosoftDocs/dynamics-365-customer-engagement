@@ -78,7 +78,7 @@ search.app:
 <h2> Product updates and links </h2>
 
 <li><a href="../gamification/release-notes.md" data-raw-source="[What&#39;s new in Gamification](../gamification/release-notes.md)">What&#39;s new in Gamification</a></li>
-<li><a href="https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.f6d23ec7-255c-4bd8-8c99-dc041d5cb8b3" data-raw-source="[Get Gamification from AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.f6d23ec7-255c-4bd8-8c99-dc041d5cb8b3)">Get Gamification from AppSource</a></li>
+<li><a href="https://appsource.microsoft.com/product/dynamics-365/mscrm.f6d23ec7-255c-4bd8-8c99-dc041d5cb8b3" data-raw-source="[Get Gamification from AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.f6d23ec7-255c-4bd8-8c99-dc041d5cb8b3)">Get Gamification from AppSource</a></li>
 <li><a href="https://go.microsoft.com/fwlink/p/?linkid=830344" data-raw-source="[Sign in to the Gamification portal](https://go.microsoft.com/fwlink/p/?linkid=830344)">Sign in to the Gamification portal</a></li>
 </td>
 </tr>

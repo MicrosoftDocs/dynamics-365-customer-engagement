@@ -1,5 +1,5 @@
 ---
-title: "Use the front-side editing engine to publish content for a portal in Dynamics 365 for Customer Engagement  | MicrosoftDocs"
+title: "Use the front-side editing engine to publish content for a portal  | MicrosoftDocs"
 description: "Learn how to use the front-side editing engine to publish content for a portal."
 ms.custom: 
   - dyn365-portal
@@ -23,7 +23,7 @@ search.app:
 ---
 # Use the front-side editing engine to publish content
 
-Use the content editor to edit text, create links, and display images on webpage. To use the content editor, you need the appropriate permissions and the content to be modified must be in the page template.
+Use the portal content editor to edit text, create links, and display images on webpage. To use the portal content editor, you need the appropriate permissions and the content to be modified must be in the page template.
 
 To modify the content, point to the content to be modified, and then select the edit button that appears.
 
@@ -73,7 +73,7 @@ The editor toolbar has a number of buttons to help with content editing. Move th
 
 ## Create a link
 
-1. Open the content editor.
+1. Open the portal content editor.
 
 2. Select the text to make a hyperlink for.
 
@@ -83,7 +83,7 @@ The editor toolbar has a number of buttons to help with content editing. Move th
 
     ![Insert link using portal front-side editor](media/front-side-insert-link.png "Insert link using portal front-side editor")
 
-5. Select **Save** in the content editor to save the changes.
+5. Select **Save** in the portal content editor to save the changes.
 
 ### Link properties and commands
 
@@ -100,7 +100,7 @@ The editor toolbar has a number of buttons to help with content editing. Move th
 
 ## Insert an image
 
-1. Open the content editor.
+1. Open the portal content editor.
 
 2. Place the text cursor where you want to insert an image.
 
@@ -110,7 +110,7 @@ The editor toolbar has a number of buttons to help with content editing. Move th
 
     ![Insert image using portal front-side editor](media/front-side-insert-image.png "Insert image using portal front-side editor")
 
-5. Select **Save** in the content editor to save the changes.
+5. Select **Save** in the portal content editor to save the changes.
 
 ### Image properties and commands
 
@@ -126,7 +126,7 @@ The editor toolbar has a number of buttons to help with content editing. Move th
 
 ## Browse pages and files by using the file picker
 
-The file picker provides a way to browse pages and files that belong to the same website. New files can be uploaded using the file picker as well. The file picker is available when adding a link or an image through the content editor. Select **Browse Server** to open the file picker. Browse to a page or file by using the left tree view and double-click the page or file in the rightmost list view to select it.
+The file picker provides a way to browse pages and files that belong to the same website. New files can be uploaded using the file picker as well. The file picker is available when adding a link or an image through the portal content editor. Select **Browse Server** to open the file picker. Browse to a page or file by using the left tree view and double-click the page or file in the rightmost list view to select it.
 
 To upload new files:
 

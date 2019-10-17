@@ -1,19 +1,17 @@
 ---
-title: "Learn the basics of Dynamics 36 for Sales | Microsoft Docs"
-description: "Quickly onboard and learn about Dynamics 365 for Sales and its user interface."
+title: "Learn the basics of Dynamics 365 Sales | Microsoft Docs"
+description: "Quickly onboard and learn about Dynamics 365 Sales and its user interface."
 keywords: "Get started; understand data; quick create; Sales"
-ms.date: 04/01/2018
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.date: 10/14/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: get-started-article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 928b39d6-4b1a-4b7b-b056-f4b7868c3a57
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
 
 # Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]
@@ -30,21 +28,7 @@ Start here to onboard quickly and learn about the different offerings of Sales a
    > 
    > The apps available to you in the app launcher depend on your subscription.
 
-2. In the [!INCLUDE[pn-dyn-365](../includes/pn-dyn-365.md)] Home page, select the tile for **Dynamics 365 — custom**.
-
-   This provides access to the full suite of capabilities, including sales and its settings.
-
-   ![Tile for Dynamics 365 — custom](media/dynamics365-custom-tile.png "Tile for Dynamics 365 — custom")     
-
-   -OR-
-
-   To open the Sales app (web), select the tile for **Sales**.
-
-   ![Tile for Dynamics 365 for Sales web](media/sales_tile_web.png "Tile for Dynamics 365 for Sales web")
-
-   -OR-
-
-   To open Sales hub, select the tile for **Sales Hub** (Unified Interface).
+2. To open Sales hub, select the tile for **Sales Hub** (Unified Interface).
 
    ![Tile for Sales Hub](media/saleshub_tile_unified_interface.png "Tile for Sales Hub")
 

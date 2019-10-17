@@ -6,7 +6,6 @@ ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
-applies_to:
 ms.assetid: 1b4a3d99-9d2c-4277-9dc8-1c5f12a77f95
 author: susikka
 ms.author: susikka
@@ -26,8 +25,8 @@ The topic demonstrates how you can program a bot in Omnichannel for Customer Ser
 You must ensure the following conditions are met to onboard a bot to Omnichannel for Customer Service as an agent.
 
 -	The bot must be developed using [Microsoft Bot Framework](https://dev.botframework.com).
--	The bot must be registered with [Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0).
--	The bot must be configured to [have Microsoft Teams as a supported channel](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0).
+-	The bot must be registered with [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0).
+-	The bot must be configured to [have Microsoft Teams as a supported channel](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0).
 
 <a name="bkmk_EngageBot"></a>
 
@@ -278,10 +277,10 @@ You should consider the following points when modeling the bot agent in Omnichan
 
 ## Privacy notice
 
-You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement).
+You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
 ## See also
 
 [Integrate a bot](../administrator/configure-bot.md)<br />
-[Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0)<br />
-[Connect a bot to channels](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)
+[Azure Bot Service](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0)<br />
+[Connect a bot to channels](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)

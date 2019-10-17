@@ -1,6 +1,6 @@
 ---
-title: "Copy an instance of Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
-ms.custom:
+title: "Copy an instance  | MicrosoftDocs"
+ms.custom: 
   - dyn365-deflc
 ms.date: 05/28/2019
 ms.reviewer:
@@ -9,8 +9,6 @@ ms.suite:
 ms.tgt_pltfrm:
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 475d5b1f-4526-4e76-a4fe-b8fbaf394944
 caps.latest.revision: 4
 author: jimholtz
@@ -24,8 +22,8 @@ search.app:
 ---
 # Copy an instance to a Sandbox instance
 
-You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] to copy the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps and all data from any instance to a Sandbox instance. You can do either a full or minimal copy.
-
+You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] to copy the model-driven apps in Dynamics 365, such as Dynamics 365 Sales and Customer Service, and all data from any instance to a Sandbox instance. You can do either a full or minimal copy.  
+  
 > [!NOTE]
 > You can now use the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) to copy an instance (environment). See [Copy an environment](https://docs.microsoft.com/power-platform/admin/copy-environment).
 
@@ -100,75 +98,71 @@ After modifying and enabling some of the plug-ins, the developer Sandbox instanc
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]
 
    > [!NOTE]
-   >  Global administrators can copy all available instances. [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps System administrators can copy instances for which they have the System administrator role.
-
-2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]
-
-3. Choose the **Instances** tab.
-
-4. Select an instance, and then click **Copy**.
-
-5. On the **copy instance** page, select a target instance, a copy type, adjust the instance settings as needed, and then click **Copy**.
-
-    A target instance can be a Sandbox or Preview instance; not a Production instance.
-
+   >  Global administrators can copy all available instances. System administrators can copy instances for which they have the System administrator role.  
+  
+2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
+  
+3. Choose the **Instances** tab.  
+  
+4. Select an instance, and then click **Copy**.  
+  
+5. On the **copy instance** page, select a target instance, a copy type, adjust the instance settings as needed, and then click **Copy**.  
+  
+    A target instance can be a Sandbox or Preview instance; not a Production instance.  
+  
    > [!WARNING]
-   >  The target instance will be deleted and replaced with a copy of the data and customizations from the source instance. You won’t be able to recover any deleted data.
+   >  The target instance will be deleted and replaced with a copy of the data and customizations from the source instance. You won’t be able to recover any deleted data.  
+  
+6. Click **yes** in the confirmation dialog box.  
+  
+Once the copy process is complete, the target instance is placed in [Administration mode](../admin/manage-sandbox-instances.md#BKMK_AdminMode) and background operations are disabled. The next section describes recommended Administrator actions for the newly created copy (target) instance.  
+  
+<a name="BKMK_NextSteps"></a>   
 
-6. Click **yes** in the confirmation dialog box.
-
-Once the copy process is complete, the target instance is placed in [Administration mode](../admin/manage-sandbox-instances.md#BKMK_AdminMode) and background operations are disabled. The next section describes recommended Administrator actions for the newly created copy (target) instance.
-
-<a name="BKMK_NextSteps"></a>
-
-## Next steps after copying an instance
- To ensure the newly created copy (target) instance does not impact your Production instance, once the copy operation is complete, two things happen:
-
-1. The newly created copy instance is placed in administration mode. Only those with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps System Administrator or System Customizer security roles can sign in and manage the copy instance. Regular [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps users cannot sign in and use the copy instance.
-
-2. Background operations are disabled in the copy instance. Disabled operations include workflows and synchronization with [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)].
-
-**Review components**
-
- You should review the status of application components in the copy instance with external connections such as [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], email, plug-ins, custom workflow activities, etc. Review these and consider what action to take:
-
-1. Disable the component.
-
-2. Redirect the component to another service instance such as one running [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] or [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].
-
-3. Do nothing – leave the component as is in the copy instance. For example, you might decide to allow Yammer posting to both the copy and Production instances.
-
-   Here are some possible application components in the copy instance that could have external connections and therefore could impact services with the same connections in your Production instance.
-
-- **Email**. A mailbox cannot be synced with two different instances. For a full copy instance, the user mailboxes in the copy instance must be disabled so the mailboxes do not attempt to send or receive email, or track appointments, contacts, or tasks. Set synchronization for the following to None.
-
-    -   Incoming Email
-
-    -   Outgoing Email
-
-    -   Appointments, Contacts, Tasks
-
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set the delivery method for incoming and outgoing email](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)
-
-- **SharePoint**. Deactivate or redirect [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] to a sandbox [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] environment to prevent impacting documents in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps managed by [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. In [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, go to **Settings** > **Documentation Management** > **SharePoint Sites**. Select your site, and then click **Deactivate**.
-
-- **Yammer**. Disable [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] or redirect to a separate [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] service to prevent posts made in the copy instance conflicting with posts made in the Production instance. In [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, go to **Settings** > **Administration** > **Yammer Configuration**.
-
-     After creating a new Sandbox instance, workflows and system jobs might be pending execution. Apart from these jobs, if you have connected [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps there will be [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] activity streams posted from [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] asynchronously. These activity streams are not visible through the system jobs. If there were any pending [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] activity streams before the Disable Background Process is turned on, these activity steams will be posted to the current [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] configuration once the Disable Background Process is turned back off. In the Sandbox instance, if you have your current [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] configuration connected to the same [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] network as your production environment, you might see duplicate activity streams. To avoid duplicate [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] activity streams, redirect your Sandbox instance to another [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] network (possibly a test network) before turning background processes back on.
-
-- **Platform extensibility**. Consider disabling the following that could be running in the copy instance and impacting external service components.
-
-    - **Server-side plug-ins**.
-
-    - **Workflow custom activity**.
-
-- **Client extensibility**. Review the following.
-
-    - **Client-side JavaScript**. Take a look at your JavaScript and HTML web resources for read/write operations that could impact external services.
-
-    - **IFRAMES**. Determine if the target of an IFRAME is a Production instance.
-
-### See also
- [Introducing Sandbox Instances in CRM Online](https://blogs.msdn.com/b/crm/archive/2014/03/20/introducing-sandbox-instances-in-crm-online.aspx)
- [Manage Dynamics 365 for Customer Engagement apps (online) Sandbox instances](../admin/manage-sandbox-instances.md)
- [Manage Microsoft Dynamics 365 for Customer Engagement apps (online) instances](../admin/manage-online-instances.md)
+## Next steps after copying an instance  
+ To ensure the newly created copy (target) instance does not impact your Production instance, once the copy operation is complete, two things happen:  
+  
+1. The newly created copy instance is placed in administration mode. Only those with System Administrator or System Customizer security roles can sign in and manage the copy instance. Regular users cannot sign in and use the copy instance.  
+  
+2. Background operations are disabled in the copy instance. Disabled operations include workflows and synchronization with [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)].  
+  
+**Review components**  
+  
+ You should review the status of application components in the copy instance with external connections such as [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], email, plug-ins, custom workflow activities, etc. Review these and consider what action to take:  
+  
+1. Disable the component.  
+  
+2. Redirect the component to another service instance such as one running [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] or [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
+  
+3. Do nothing – leave the component as is in the copy instance. For example, you might decide to allow Yammer posting to both the copy and Production instances.  
+  
+   Here are some possible application components in the copy instance that could have external connections and therefore could impact services with the same connections in your Production instance.  
+  
+- **Email**. A mailbox cannot be synced with two different instances. For a full copy instance, the user mailboxes in the copy instance must be disabled so the mailboxes do not attempt to send or receive email, or track appointments, contacts, or tasks. Set synchronization for the following to None.  
+  
+    -   Incoming Email  
+  
+    -   Outgoing Email  
+  
+    -   Appointments, Contacts, Tasks  
+  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set the delivery method for incoming and outgoing email](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
+  
+- **SharePoint**. Deactivate or redirect [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] to a sandbox [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] environment to prevent impacting documents in model-driven apps in Dynamics 365 managed by [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. In model-driven apps in Dynamics 365, go to **Settings** > **Documentation Management** > **SharePoint Sites**. Select your site, and then click **Deactivate**.  
+  
+- **Yammer**. Disable [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] or redirect to a separate [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] service to prevent posts made in the copy instance conflicting with posts made in the Production instance. In model-driven apps in Dynamics 365, go to **Settings** > **Administration** > **Yammer Configuration**.  
+  
+     After creating a new Sandbox instance, workflows and system jobs might be pending execution. Apart from these jobs, if you have connected [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] to model-driven apps in Dynamics 365 there will be [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] activity streams posted from model-driven apps in Dynamics 365 to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] asynchronously. These activity streams are not visible through the system jobs. If there were any pending [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] activity streams before the Disable Background Process is turned on, these activity steams will be posted to the current [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] configuration once the Disable Background Process is turned back off. In the Sandbox instance, if you have your current [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] configuration connected to the same [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] network as your production environment, you might see duplicate activity streams. To avoid duplicate [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] activity streams, redirect your Sandbox instance to another [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] network (possibly a test network) before turning background processes back on.  
+  
+- **Platform extensibility**. Consider disabling the following that could be running in the copy instance and impacting external service components.  
+  
+    - **Server-side plug-ins**.  
+  
+    - **Workflow custom activity**.  
+  
+- **Client extensibility**. Review the following.  
+  
+    - **Client-side JavaScript**. Take a look at your JavaScript and HTML web resources for read/write operations that could impact external services.  
+  
+    - **IFRAMES**. Determine if the target of an IFRAME is a Production instance.  
+  

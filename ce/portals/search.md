@@ -1,11 +1,9 @@
 ---
-title: "Global search in Dynamics 365 for Customer Engagement portal | MicrosoftDocs"
+title: "Global search in Dynamics 365 Portals | MicrosoftDocs"
 description: "Learn how global search works in a portal."
 ms.date: 12/03/2018
 ms.service: crm-online
-ms.topic: article
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+ms.topic: article  
 ms.assetid: D2C29462-BF04-446B-8EE7-0C6E20023906
 author: sbmjais
 ms.author: shjais
@@ -23,7 +21,7 @@ search.app:
 
 # Search
 
-In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal, you can search for records across multiple entities by using portal’s global search functionality. You can also search within records of entity lists using entity list search functionality. 
+In Dynamics 365 Portals, you can search for records across multiple entities by using portal’s global search functionality. You can also search within records of entity lists using entity list search functionality. 
 
 Entity list search functionality in the portal uses FetchXML in the back end to search the columns defined in the entity list and then display the results. 
 
@@ -31,7 +29,7 @@ Global search uses an external search index that is based on Lucene.Net and is u
 
 ## Global search
 
-Global search of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal allows you to search for records across multiple entities. It also allows you to search across multiple columns and configure what columns of an entity would be searchable.
+Global search of Dynamics 365 Portals allows you to search for records across multiple entities. It also allows you to search across multiple columns and configure what columns of an entity would be searchable.
 
 Among the benefits of global search are its ability to:
 - Find matches to any word in the search term in any field in the entity. Matches can include inflectional words like stream, streaming, or streamed.
@@ -41,11 +39,11 @@ Among the benefits of global search are its ability to:
 
 In global search, the better the match, the higher it appears in the results. A match has a higher relevancy if more words from the search term are found in close proximity to each other. The smaller the amount of text where the search words are found, the higher the relevancy. For example, if you find the search words in a company name and address, it might be a better match than the same words found in a large article, far apart from each other. Because the results are returned in a single list, you can see a mix of records displayed one after another, with matched works highlighted. 
 
-The following sections detail how global search works in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal and describe the various configuration options available.
+The following sections detail how global search works in Dynamics 365 Portals and describe the various configuration options available.
 
 ## Entities searchable in portal global search
 
-The following entities can be searched within a portal website provided the appropriate solution packages have been installed and search has been added to a portal. The columns that are indexed will consist of the columns found in the Portals Search view, which can be customized.  Each entity in the list has its default set of attributes indexed as listed here:
+The following entities can be searched within a portal website provided the appropriate solution packages have been installed and search has been added to a portal. The columns that are indexed will consist of the columns found in the Search view, which can be customized.  Each entity in the list has its default set of attributes indexed as listed here:
 - Knowledge Article
     - Notes and attachment of a knowledge article are searchable as well. More information: [Search within file attachment content](search-file-attachment.md)
     - Articles are searchable only if they are published and their Internal Only field is set to false.
@@ -193,13 +191,13 @@ You can invoke portal global search from liquid templates by using the searchind
 
 ## Update search index
 
-Search index updates in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal happen automatically like the cache invalidation. Keep these important things in mind, though:
+Search index updates in Dynamics 365 Portals happen automatically like the cache invalidation. Keep these important things in mind, though:
 
 - All search-enabled entities must have the Change Notification metadata flag enabled, otherwise the portal will not be notified of the changes and the search index will not be updated.
 
 - Any change can take up to 30 minutes to be reflected in a portal search. However, 95 percent of the changes will be updated within 15 minutes. If attachments are involved, it can take longer depending on the size of the attachment.
 
-- It is advisable to rebuild the full index manually after performing a bulk data migration or bulk updates to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] records within a short span of time. For details, see [Rebuild full search index](#rebuild-full-search-index).
+- It is advisable to rebuild the full index manually after performing a bulk data migration or bulk updates to records within a short span of time. For details, see [Rebuild full search index](#rebuild-full-search-index).
 
 ## Rebuild full search index
 
@@ -207,7 +205,7 @@ Rebuild of full search index is required whenever:
 
 - You make a metadata change to search properties like changing certain query-specific site settings or changing the search view of an entity, and so on.
 - Bulk data migration or updates are performed.
-- A website record, associated to your portal, is changed in a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.
+- A website record, associated to your portal, is changed in a Common Data Service environment.
 
 You can also rebuild a full search index from a portal.
 1.	Sign in to the portal as an administrator.
@@ -227,7 +225,7 @@ In the following example, we will remove the Case entity from portal global sear
 
 To block the Case entity from getting indexed, you must rename the view of the Case entity that defines the record set to be indexed by the portal (defined by the Search/IndexQueryName site setting). By default, the name of that view is Portal Search.
 
-1.	Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1.	Sign in to Dynamics 365 Portals.
 
 2.	Go to **Settings** > **Customization** > **Customize the System**.
 

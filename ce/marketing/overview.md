@@ -24,7 +24,7 @@ search.app:
 
 # Overview (Marketing)
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/c7dd31a4-7816-42f2-95d7-499401db5f9e" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/c7dd31a4-7816-42f2-95d7-499401db5f9e" frameborder="0" allowfullscreen=""></iframe></div>
 
 Dynamics 365 Marketing is a marketing-automation application that helps turn prospects into business relationships. The app is easy to use, works seamlessly with Dynamics 365 Sales, and has built-in business intelligence. Use Dynamics 365 Marketing to:
 
@@ -70,7 +70,7 @@ Dynamics 365 Marketing includes a bundle of apps and solutions carefully selecte
 - **Dynamics 365 Connector for LinkedIn Lead Gen Forms**  
   Import leads generated with LinkedIn's lead tools into Dynamics 365. This feature is bundled with the Marketing app, but is also available separately as an add-on for other Dynamics 365 products.
 - **Dynamics 365 Portals (optional)**  
-  The Marketing app can use Dynamics 365 Portals to publish its event website, marketing pages, and online surveys. Some Dynamics 365 Marketing licenses include a free portal, but you can have at most one free portal per tenant. If you don't use Dynamics 365 Portals with Marketing, then you can publish your marketing pages and/or event portal on your own website or CMS system instead. More information: [Create interactive features with or without portals](portals.md) and [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
+  The Marketing app can use Dynamics 365 Portals to publish its event website, marketing pages, and online surveys. If you don't use Dynamics 365 Portals with Marketing, then you can publish your marketing pages and/or event portal on your own website or CMS system instead. More information: [Create interactive features with or without portals](portals.md) and [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
 
 All these features are fully integrated and work together to create a comprehensive marketing solution.
 

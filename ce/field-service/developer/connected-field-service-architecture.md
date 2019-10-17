@@ -28,11 +28,11 @@ search.app:
 
 # Architecture of Connected Field Service with IoTHub
 
-Connected Field Service with IoTHub brings together AzureIoT and Dynamics 365 for Field Service. In this topic, you will find an explanation of the architecture and how it all works together.
+Connected Field Service with IoTHub brings together AzureIoT and Dynamics 365 Field Service. In this topic, you will find an explanation of the architecture and how it all works together.
 
 ## Prerequisites
 
-To understand what's covered in this topic, you need to know that Connected Field Service (CFS) refers to a set of solutions, entities, and processes built on top of the Dynamics 365 for Field Service app. As of Field Service v8.3+, CFS is included as part of Field Service.
+To understand what's covered in this topic, you need to know that Connected Field Service (CFS) refers to a set of solutions, entities, and processes built on top of the Dynamics 365 Field Service app. As of Field Service v8.3+, CFS is included as part of Field Service.
 
 For this topic, the words **data** and **telemetry** refer to information sent from an IoT device to the cloud. The words **devices** and **sensors** refer to internet-connected things like thermometers, gyroscopes, magnetometers, pressure readers, and more that take specific measurements. An **asset** is a piece of equipment that can have one or more sensors connected to it.
 
@@ -43,7 +43,7 @@ For this topic, the words **data** and **telemetry** refer to information sent f
 
 - **IoT Devices & Edge**: Internet-connected sensors on equipment send data to IoTHub typically via WiFi or cellular connectivity. A single piece of equipment can have multiple sensors each taking different measurements such as temperature and pressure. If a building or area has a collection of equipment each with multiple sensors, then an **Edge device** can be used to organize them and broker telemetry sent to IoTHub.
 
-- **Device Simulator**: Administrators can simulate devices and telemetry for testing and development purposes before the hardware is set up. This lets them see how simulated alerts flow to Dynamics 365 for Field Service and create work orders.
+- **Device Simulator**: Administrators can simulate devices and telemetry for testing and development purposes before the hardware is set up. This lets them see how simulated alerts flow to Dynamics 365 Field Service and create work orders.
 
 - **IoTHub**: The gateway to the cloud, capable of ingesting data on a large scale. IoTHub is a collection of applications and processes tailored to connected device scenarios that are also customizable. Deploying IoTHub will deploy a resource group with this collection of applications and processes.
 
@@ -59,7 +59,7 @@ For this topic, the words **data** and **telemetry** refer to information sent f
 
 - **IoT Alert**: Faults are passed from IoTHub to Dynamics 365 in the form of IoT alerts, which is an entity in Field Service. An IoT alert is the first part of the process inside Dynamics 365. An IoT alert is a subset of all device data that requires attention and potentially an action from the field service or customer service department.
 
-- **Connected Field Service Model Driven App**: A set of entities and processes built on Dynamics 365 for Field Service. Among other things, Connected Field Service allows you to connect IoT devices (sensors) with Field Service customer assets. As of Field Service v8.3+, Connected Field Service is built in and shipped with the Field Service app.
+- **Connected Field Service Model Driven App**: A set of entities and processes built on Dynamics 365 Field Service. Among other things, Connected Field Service allows you to connect IoT devices (sensors) with Field Service customer assets. As of Field Service v8.3+, Connected Field Service is built in and shipped with the Field Service app.
 
 - **Field Service Dispatchers & Technicians**: The end users of Connected Field Service who interact with IoT alerts, cases, and work orders on their phones, tablets, and computers.
 
@@ -75,4 +75,4 @@ For this topic, the words **data** and **telemetry** refer to information sent f
 
 ### See also
 
-[Connected Field Service with Azure IotHub Overview](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/developer/connected-field-service-developer-guide)
+[Connected Field Service with Azure IotHub Overview](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/developer/connected-field-service-developer-guide)

@@ -24,13 +24,14 @@ search.app:
 
 # Create a simple customer journey with email messaging
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
 
 As you engage potential customers, they start by discovering your product, evaluate whether it meets their needs, look for a good offer, and finally make a purchase. We call this process the *customer journey*. Use customer journeys to create a model that helps you guide the members of a selected marketing segment through this process by using automated messaging, activity generation, interactive decision points, and more.
 
 A simple customer journey can include just two steps: identifying the target segment and creating an activity that addresses the members of that segment. In the following procedure, you'll set up a simple customer journey that sends an email message to all the members of a target segment.
 
 Before you start, you'll need:
+
 - A segment containing the contacts you will send your email to. Your segment should include just one or two fictional contacts with valid email addresses that you can receive mail from, like the one you set up in [Create a dynamic segment](create-segment.md).
 - A marketing email that is both valid and live. You should be able to use the message you designed and published in [Create a marketing email and go live](create-marketing-email.md).
 
@@ -46,7 +47,7 @@ To create a customer journey that executes a one-time email blast:
 
     Select **Blank template**, and then choose **Select**. The dialog box closes, and your selected template is copied to your new journey.
 
-3. Now you are looking at the customer journey designer, where you will assemble a pipeline that defines each step of the journey.
+3. Now you are looking at the customer journey designer, where you will assemble a pipeline that defines each step of the journey.  
     ![Add a segment to the customer journey](media/journey-add-segment.png "Add a segment to the customer journey")
 
     Like all journeys, this one starts with the participants, who in this case are the people you specify as part of a market segment. Drag a **Segment Group** tile from the **Toolbox** tab onto the first position of the pipeline.

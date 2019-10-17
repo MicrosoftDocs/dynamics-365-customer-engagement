@@ -1,7 +1,7 @@
 ---
 
 title: Project pricing 
-description: This topic provides information about how pricing works in Dynamics 365 for Project Service Automation (PSA).
+description: This topic provides information about how pricing works in Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 for Project Service Automation (PSA) extends the Price list entity in Microsoft Dynamics 365 for Sales. 
+Dynamics 365 Project Service Automation extends the Price list entity in Dynamics 365 Sales. 
 
 ## Key entities
 

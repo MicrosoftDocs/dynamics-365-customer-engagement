@@ -7,8 +7,8 @@ manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ms.assetid: 2844c4d9-49eb-46be-bd37-d986a0ff9e01
 ms.custom: dyn365-customerservice
+ms.assetid: 2844c4d9-49eb-46be-bd37-d986a0ff9e01
 ---
 
 # Preview: Install Routing Rules - Preview solution

@@ -1,26 +1,22 @@
 ---
-title: "Create a product in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Create an inventory of all the products that your company sells by creating product records in Dynamics 365 for Sales."
-keywords: ""
-ms.date: 04/05/2019
+title: "Create a product in Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Create an inventory of all the products that your company sells by creating product records in Dynamics 365 Sales."
+keywords: "inventory, catalog, product"
+ms.date: 10/01/2019
 ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 3f1aa557-fcae-4b95-a4d9-0cd9e45855bf
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
-# Create a product in Dynamics 365 for Sales Professional
+# Create a product in Dynamics 365 Sales Professional
 
-Products are the backbone of your business. The product catalog in Dynamics 365 for Sales Professional is a collection of products and pricing information. Make it easier for your sales reps to increase their sales by creating a product catalog quickly.
+Products are the backbone of your business. The product catalog in Dynamics 365 Sales Professional is a collection of products and pricing information. Make it easier for your sales reps to increase their sales by creating a product catalog quickly.
 
-1.  Make sure you have the Sales Manager Professional or a System Administrator role so you can add products in Dynamics 365 for Sales Professional.
+1.  Make sure you have the Sales Manager Professional or a System Administrator role so you can add products in Dynamics 365 Sales Professional.
 
 2.  In the site map, under **Setup**, select **Products**.
 
@@ -69,7 +65,7 @@ Products are the backbone of your business. The product catalog in Dynamics 365 
 
 ## Import products
 
-You can also use import templates to bring bulk product data into Dynamics 365 for Sales. More information: [Import data into Dynamics 365 for Sales Professional](import-data.md).
+You can also use import templates to bring bulk product data into Dynamics 365 Sales. More information: [Import data into Dynamics 365 Sales Professional](import-data.md).
 
 ## Revise a product
 
@@ -155,5 +151,5 @@ To stop selling a product, delete it.
 
 ### See also
 
-[Develop sales from lead to cash in Dynamics 365 for Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
+[Develop sales from lead to cash in Dynamics 365 Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
 [Admin settings overview](admin-settings-overview.md)

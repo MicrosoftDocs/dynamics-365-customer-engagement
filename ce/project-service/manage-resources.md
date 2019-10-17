@@ -1,6 +1,6 @@
 ---
 title: Manage resources
-description: This topic provides information about how you can manage resources by using Microsoft Dynamics 365 for Project Service Automation (PSA).
+description: This topic provides information about how you can manage resources.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 for Project Service Automation (PSA) includes a resource manager dashboard that provides a visual overview of resource demand and utilization throughout the organization. You can use the charts on this dashboard to visualize the following information:
+Dynamics 365 Project Service Automation includes a resource manager dashboard that provides a visual overview of resource demand and utilization throughout the organization. You can use the charts on this dashboard to visualize the following information:
 
 - **Resource demand** – The **Active Resource Request** chart shows resources that have been submitted. The resources are aggregated by either role or project.
 - **Unsubmitted resource demand** – The **Unassigned Resource Demand** chart shows all the resource requirements that haven't been submitted. It helps resource managers view demand that isn't firm and might be submitted through a resource request.

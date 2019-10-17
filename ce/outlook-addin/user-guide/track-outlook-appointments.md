@@ -7,9 +7,9 @@ ms.service: crm-online
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+applies_to: 
+  - Dynamics 365 apps 
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -46,28 +46,28 @@ You can track an appointment in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook]
     [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] doesn’t support inline attachments (attachments included in the body of the message).
 
    > [!NOTE]
-   >  The maximum size for an attachment is 5MB, although this can be increased to 32 MB by a system administrator.
-
-3. To track the appointment, do one of the following:
-
-   - To track the appointment without linking it to a particular record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], on the **Appointment** tab, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **Track**.
-
-      -Or-
-
-   - To track the task and link it to a particular [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record (for example, a specific account), click **Set Regarding**, click **More**, and then search for the record in the **Look Up Record** dialog box. After you find the record you want, select **Add**.
-
-     When you click the **Track** button or the **Set Regarding** button, you’ll see a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) at the bottom of the appointment record. This pane shows that the record is tracked and provides links to related records. If you set a Regarding value, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] also provides a link to the Regarding record. [Tell me more about how tracking works.](https://go.microsoft.com/fwlink/p/?LinkID=510100)
-
-   **Notes**
-
-- To stop tracking an appointment, open the appointment record, and then click the **Untrack** button.
-
-- After an appointment attachment is synchronized, if different users update the attachment in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]**and**[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], the latest update will be saved.
-
-- After an appointment is synchronized, if you or another user changes the subject of the appointment in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], the appointment will be untracked (no longer synchronized).
-
-- You can’t synchronize attachments in recurring appointments or service appointments in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].
-
-### See also
- [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
+   >  The maximum size for an attachment is 5MB, although this can be increased to 32 MB by a system administrator.  
+  
+3. To track the appointment, do one of the following:  
+  
+   - To track the appointment without linking it to a particular record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], on the **Appointment** tab, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **Track**.  
+  
+      -Or-  
+  
+   - To track the task and link it to a particular [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record (for example, a specific account), click **Set Regarding**, click **More**, and then search for the record in the **Look Up Record** dialog box. After you find the record you want, select **Add**.  
+  
+     When you click the **Track** button or the **Set Regarding** button, you’ll see a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) at the bottom of the appointment record. This pane shows that the record is tracked and provides links to related records. If you set a Regarding value, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] also provides a link to the Regarding record. [Tell me more about how tracking works.](http://go.microsoft.com/fwlink/p/?LinkID=510100)  
+  
+   **Notes**  
+  
+- To stop tracking an appointment, open the appointment record, and then click the **Untrack** button.  
+  
+- After an appointment attachment is synchronized, if different users update the attachment in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]**and**[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], the latest update will be saved.  
+  
+- After an appointment is synchronized, if you or another user changes the subject of the appointment in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], the appointment will be untracked (no longer synchronized).  
+  
+- You can’t synchronize attachments in recurring appointments or service appointments in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
+  
+### See also  
+ [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

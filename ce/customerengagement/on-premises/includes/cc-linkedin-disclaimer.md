@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> To use this feature, you must obtain an account from LinkedIn and enable the [LinkedIn Campaign Manager](https://www.linkedin.com/help/lms/answer/56969) for that account. Additional LinkedIn charges may apply if you decide to run an ad campaign or other sponsored content on LinkedIn, as established in the LinkedIn terms of use.

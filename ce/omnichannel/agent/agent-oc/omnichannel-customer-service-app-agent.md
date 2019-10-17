@@ -5,7 +5,6 @@ keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -41,7 +40,7 @@ Use the resources in the following sections to learn how to use Omnichannel for 
 - [View notifications](oc-notifications.md)
 - [View customer summary](oc-customer-summary.md)
 - [Search for and share knowledge articles](oc-search-knowledge-articles.md)
-- [View conversation and session activity types in the Customer Engagement apps](oc-view-activity-types.md)
+- [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
 
 
 ## How-tos

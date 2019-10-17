@@ -1,21 +1,19 @@
 ---
-title: "Installation & setup for Connected Field Service for IoT Hub (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Installation & setup for Connected Field Service for IoT Hub (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom:
   - dyn365-fieldservice
-ms.date: 08/23/2019
-ms.reviewer:
+ms.date: 10/09/2019
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite:
 ms.technology:
   - field-service
 ms.tgt_pltfrm:
 ms.topic: article
-
-
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 2142d996-008b-4ada-bf2e-e9dc316715c4
 caps.latest.revision: 14
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType:
   - admin
@@ -25,22 +23,16 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Installation & setup - Connected Field Service for IoT Hub
+# Installation and setup - Connected Field Service for IoT Hub
 
 This guide provides all the steps required for getting up and running with Connected Field Service (CFS) for IoT Hub. If you're looking for information about CFS for IoT Central, be sure to visit our tutorial on getting set up.
 
-## Prerequisites
- Before you install [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)], make sure you have the following:
-
-- [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)
-
-
 ## Prerequisites  
- Before you install [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)], make sure you have the following:  
+ Before you install Connected Field Service, make sure you have the following:  
   
-- [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)  
+- Dynamics 365 Field Service. For more information, visit the [topic on installing Dynamics 365 Field Service](../field-service/install-field-service.md).
   
-- Dynamics 365 System Administrator credentials. For users with Office 365 global administrator access, they must be assigned the **System Administrator** security role within the Dynamics 365 organization.
+- Dynamics 365 system administrator credentials. For users with Office 365 global administrator access, they must be assigned the **System Administrator** security role within the Dynamics 365 organization.
   
 - An IoT – Administrator role in the IoT solution (to access IoT entities and IoT functionality), plus another role, like Field Service – Dispatcher (to access Dynamics 365).  
   
@@ -49,38 +41,44 @@ This guide provides all the steps required for getting up and running with Conne
 - Microsoft Power BI PRO and the sample report template. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Download the Power BI Template for Connected Field Service](http://download.microsoft.com/download/E/B/5/EB5ED97A-A36A-4CAE-8C04-333A1E463B4F/PowerBI%20Report%20Template%20for%20Connected%20Field%20Service%20for%20Microsoft%20Dynamics%20365.pbix)  
   
 <a name="bkmk_install"></a>   
+
 ## Install Connected Field Service  
- Install the Connected Field Service solution from your Office 365 admin portal. The solution includes a sample thermostat simulator app that you can use to send test alerts to connected devices that are registered in field service.  
+ 
+Connected Field Service is included with Dynamics 365 Field Service. Creating a new Field Service environment or upgrading an existing one to v7.5.5 or v8.3+ will automatically include the following Connected Field Service entities and related processes:
+
+ - Assets
+ - IoT alerts
+ - Devices
+ - Commands
+ 
+ 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of IoT alerts in the asset menu in the sidebar](./media/cfs-navigation.png)
+
+Verify you have the Connected Field Service entities in your environment.
+
+Next, deploy and connect Azure IoTHub to your Field Service environment by going to [https://cfsdeployment.crm.dynamics.com/](https://cfsdeployment.crm.dynamics.com/) and following the instructions.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the IoT deployment app](./media/cfs-deployment-app-screen-1.png)
+
+
+> [!Note]
+> If you are using an older version of Field Service and cannot upgrade, you can add the connected field service solution  you your field service environment from the app store. 
+  1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com) with your Global Administrator or Dynamics 365 system administrator credentials.  
+  2. Select **Admin centers** > **Dynamics 365**  
+  3. Select the **Applications** tab, and then select **Connected Field Service**.  
+  4. Select **Manage**.  
+  5. Read and accept the **Terms of service**.  
+  6. In the **Installing Azure Required Assets** dialog box, enter your Azure account, click **Sign In User**, and then  follow the sign-in process.  
+  7. In the **Selecting Azure Subscription** dialog box, select the Azure subscription that you want to create resources under and then click **Next**.  
+  8. In the **Choose a resource group** dialog box, create a new resource group or use an existing resource group.  
+  9. **Optional Step for Power BI**.  To install the Azure SQL database that is used for Power BI, check the **Enable Power BI Integration** box, and then enter the Azure SQL database user name and password. 
+  10. Select **Deploy**.  
   
- Developers can also use the simulator as a sample template to further customize the app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connected Field Service Developer Guide](https://msdn.microsoft.com/en-us/library/mt790241.aspx)  
-  
-1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com) with your Global Administrator or Dynamics 365 system administrator credentials.  
-  
-2. Click **Admin centers** > **Dynamics 365**  
-  
-3. Click the **Applications** tab, and then select **Connected Field Service**.  
-  
-4. Click **Manage**.  
-  
-5. Read and accept the **Terms of service**.  
-  
-6. In the **Installing Azure Required Assets** dialog box, enter your Azure account, click **Sign In User**, and then  follow the sign-in process.  
-  
-7. In the **Selecting Azure Subscription** dialog box, select the Azure subscription that you want to create resources under and then click **Next**.  
-  
-8. In the **Choose a resource group** dialog box, create a new resource group or use an existing resource group.  
-  
-9. **Optional Step for Power BI**.  To install the Azure SQL database that is used for Power BI, check the **Enable Power BI Integration** box, and then enter the Azure SQL database user name and password.  
-  
-    > [!NOTE]
-    >  To Power BI, you will also need to download a PBIX (PowerBI desktop file) to publish reports.  
-  
-10. Click **Deploy**.  
-  
-    After you’ve installed all required Azure resources, click **Authorize** to configure the Dynamics 365 connector connection API . When you configure the connection API you’ll need to enter your Dynamics 365 subscription account.  
-  
-> [!NOTE]
->  Before you click the **Authorize** button, make sure all required Azure resources are successfully deployed and that the overall deployment status is “Success”.  
+Before proceeding, make sure all required Azure resources are successfully deployed and that the overall deployment status is **Success**.  
+
+After you’ve installed all required Azure resources, click **Authorize** to configure the Dynamics 365 connector connection API. When you configure the connection API you’ll need to enter your Dynamics 365 subscription account. See more details in the topic on [Authorize API connection between Dynamics 365 and AzureIoT](./cfs-authorize-api-connection.md).
   
 ### Set up the sample simulator (optional)  
  To find the simulator URL , sign in to your Azure subscription, and then click the App Service resource type under the newly created resource group. You’ll see the URL is in the top right corner. Copy the URL and complete the following steps:  
@@ -125,7 +123,7 @@ To monitor a device, you need to create and register an asset.
   
 1. Go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com) and create a free Power BI account .  
   
-2. [Install Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  
+2. [Install Power BI Desktop](https://powerbi.microsoft.com/desktop/).  
   
 3. Sign in to Power BI Desktop with the Power BI user credentials (we recommend that this user is the same as the Dynamics 365 user).  
   
@@ -375,8 +373,8 @@ To monitor a device, you need to create and register an asset.
 [Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses Azure Time Series Insight to store, process, and query IoT devices measurements from IoT Hub.
 
 ### See also
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)
- [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)
+ [Install Dynamics 365 Field Service](../field-service/install-field-service.md)
  [Configure default settings](../field-service/configure-default-settings.md)
  [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)<br>
  [Field Service User Guide](../field-service/user-guide.md)

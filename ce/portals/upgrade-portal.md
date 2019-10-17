@@ -1,11 +1,11 @@
 ---
-title: "Upgrade a Dynamics 365 for Customer Engagement portals | MicrosoftDocs"
+title: "Upgrade a portal | MicrosoftDocs"
 description: "Learn how to upgrade a portal."
 ms.date: 01/02/2019
 ms.service: crm-online
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+ 
+  
 ms.assetid: 68A7E45F-8583-495B-AC29-F944DBE9D388
 author: sbmjais
 ms.author: shjais
@@ -23,13 +23,13 @@ search.app:
 
 # Upgrade a portal
 
-This section helps you understand the Portals release process to prepare for any new release properly and to reduce any impact on your customers. It also talks about various components which are part of your portal.
+This section helps you understand the Dynamics 365 Portals release process to prepare for any new release properly and to reduce any impact on your customers. It also talks about various components which are part of your portal.
 
-A Dynamics 365 for Customer Engagement Portal consists of the following components:
+A portal consists of the following components:
 
 |Component|Description|Update process|
 |---------|-----------|--------------|
-|Portal solutions|Solutions which are Installed in Dynamics 365 for Customer Engagement organization and contains the metadata entities for any Dynamics 365 for Customer Engagement Portal.|Updated by customers themselves from the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page.|
+|Portal solutions|Solutions which are installed in Common Data Service environment and contains the metadata entities for any portal.|Updated by customers themselves from the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page.|
 |Portal website host|Portal website host is the Portal code which forms the actual website.|Portal website host is updated automatically for all portals.<br>**Note**: A new version of Portal website host is backwards compatible with all supported versions of Portal solutions. However, once a solution version becomes unsupported, it is not certified to run with the new version of Portal website host.|
 |||
 
@@ -43,11 +43,11 @@ If you are running a production version of Portal (you can see it on Portal Admi
 
 ### Portal solution update
 
-While installing or updating any solution in your Dynamics 365 for Customer Engagement instance, you can see some instability in your Dynamics 365 for Customer Engagement instance. Portal solution update process updates solutions available in your Dynamics 365 for Customer Engagement instance and will impact your Dynamics 365 for Customer Engagement instance which will in turn have an impact of your Portal as well. Hence, it is always advised to do solution updates in your Dynamics 365 for Customer Engagement instance during dark hours.
+While installing or updating any solution in your instance, you can see some instability in your instance. Portal solution update process updates solutions available in your instance and will impact your instance which will in turn have an impact of your Portal as well. Hence, it is always advised to do solution updates in your instance during dark hours.
 
 ## Get notified about new releases
 
-Every customer is notified about new Portal release through Office 365 message center (in Microsoft 365 admin center). Ensure that you either have access to Office 365 message center (Global administrator and Dynamics 365 for Customer Engagement service administrator have access) or have discussed with your global administrator or Dynamics 365 for Customer Engagement service administrator to inform you about any new Portal release.
+Every customer is notified about new Portal release through Office 365 message center (in Microsoft 365 admin center). Ensure that you either have access to Office 365 message center (Global administrator and service administrator have access) or have discussed with your global administrator or service administrator to inform you about any new Portal release.
 
 Notifications are sent around 2-5 business days ahead of the release. Notifications are sent to only those customers whose portals are planned to be updated. Each notification provides details of the type of update and the date/time it will be rolled out along with the link to release notes.
 

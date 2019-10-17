@@ -1,5 +1,5 @@
 ---
-title: "Control webpage access for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Control webpage access for a portal | MicrosoftDocs"
 description: "Instructions to create web page access control rules for a portal."
 ms.custom: 
   - dyn365-portal

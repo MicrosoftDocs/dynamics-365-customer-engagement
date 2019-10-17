@@ -1,5 +1,5 @@
 ---
-title: "Customizing App for Outlook  (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Customizing App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 ms.date: 06/19/2019
 ms.reviewer: 
@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement apps
+applies_to: Dynamics 365 apps
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 99
 author: mduelae
@@ -35,7 +35,7 @@ Customize the Dynamics 365 App for Outlook to best suit your organization needs.
  
  
 > [!IMPORTANT]
-> The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later and [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro). 
+> The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with [Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/overview.md) and [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro), which implies that it also works with model-driven apps such as Dynamics 365 Sales and Dynamics 365 Customer Service. 
  
  ## FAQs
  

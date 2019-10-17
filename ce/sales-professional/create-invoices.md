@@ -1,24 +1,19 @@
 ---
-title: "Create and manage invoices in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Bill your customers for upcoming sales by using invoices in Dynamics 365 for Sales Professional."
-keywords: ""
-ms.date: 04/05/2019
+title: "Create and manage invoices in Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Bill your customers for upcoming sales by using invoices in Dynamics 365 Sales Professional."
+ms.date: 10/01/2019
 ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 723857a0-42bd-406c-a64c-7e911ce6c625
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
-# Create and manage invoices in Dynamics 365 for Sales Professional
+# Create and manage invoices in Dynamics 365 Sales Professional
 
-Once your customer accepts a quote, you can create an invoice in Dynamics 365 for Sales Professional to bill them for the upcoming sale.
+Once your customer accepts a quote, you can create an invoice in Dynamics 365 Sales Professional to bill them for the upcoming sale.
 
 You can also create an invoice that doesn’t generate from a quote.
 
@@ -84,7 +79,7 @@ You can also create an invoice that doesn’t generate from a quote.
             **Manual Discount**.
 
         5.  If required, enter the appropriate tax amount. You need to enter the tax amount when you add a product to a quote,
-            order, or invoice. Dynamics 365 for Sales Professional doesn’t automatically calculate tax for individual products. However, the
+            order, or invoice. Dynamics 365 Sales Professional doesn’t automatically calculate tax for individual products. However, the
             total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or
             invoice.
 
@@ -117,6 +112,6 @@ To directly send an email to a customer with an invoice attached, open the invoi
 
 ### See also
 
-[Develop sales from lead to cash in Dynamics 365 for Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
-[Sales transactions in Dynamics 365 for Sales Professional](understanding-sales-transactions-sales-professional.md)
+[Develop sales from lead to cash in Dynamics 365 Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
+[Sales transactions in Dynamics 365 Sales Professional](understanding-sales-transactions-sales-professional.md)

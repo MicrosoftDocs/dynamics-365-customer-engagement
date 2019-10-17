@@ -1,19 +1,14 @@
 ---
-title: "Admin settings overview (Dynamics 365 for Sales Professional) | MicrosoftDocs"
-description: "Learn about the standard and advanced settings in Dynamics 365 for Sales Professional."
-keywords: ""
-ms.date: 04/05/2019
+title: "Admin settings overview (Dynamics 365 Sales Professional) | MicrosoftDocs"
+description: "Learn about the standard and advanced settings in Dynamics 365 Sales Professional."
+ms.date: 10/01/2019
 ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 451290a2-89ec-4fdb-b044-3e68a52dfd3a
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
 # Overview of admin settings (Sales Professional)
@@ -22,15 +17,15 @@ Are you the person responsible for getting your sales team onboard?
 
 Here’s some good news.
 
-Dynamics 365 for Sales Professional comes with a simple and straightforward setup experience, so anybody can put things together and get their team rolling quickly.
+Dynamics 365 Sales Professional comes with a simple and straightforward setup experience, so anybody can put things together and get their team rolling quickly.
 
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE2OJWL" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE2OJWL" frameborder="0" allowfullscreen=""></iframe></div>
 
 
 
 > [!IMPORTANT]
-> The Welcome page, Standard settings, Advanced settings, and Customization capabilities are introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+> The Welcome page, Standard settings, Advanced settings, and Customization capabilities are introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.
 
 ## Welcome page
 
@@ -57,5 +52,5 @@ specific information that your company needs. For example, change the pipeline p
 
 ### See also
 
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)  
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
 [Learn the basics](learn-basics-sales-professional.md)

@@ -1,5 +1,5 @@
 ---
-title: "Use hybrid navigation to render page hierarchy for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Use hybrid navigation to render page hierarchy for a portal | MicrosoftDocs"
 description: "Instructions to use hybrid navigation to render page hierarchy for a portal."
 ms.custom: 
   - dyn365-portal

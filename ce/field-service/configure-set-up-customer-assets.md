@@ -1,5 +1,5 @@
 ---
-title: "Configure and set up customer assets (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Configure and set up customer assets (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -68,7 +68,7 @@ Customer asset records can be configured in a hierarchy in order to maintain ser
 4.  Now, when a work order is completed, by changing the work order system status to **Closed - Posted**, if the work order includes a work order product that was set to **Convert to Customer Asset**, the system will automatically generate the customer asset record, and associate it with the service account listed on the work order.  
   
 ### See also  
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Create a purchase order](../field-service/create-purchase-order.md)   
  [Create an inventory adjustment](../field-service/create-inventory-adjustment.md)   
  [Create an inventory transfer](../field-service/create-inventory-transfer.md)   

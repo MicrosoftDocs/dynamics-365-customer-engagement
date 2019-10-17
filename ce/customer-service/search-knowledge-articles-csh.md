@@ -1,16 +1,14 @@
 ---
-title: Search knowledge articles in the Customer Service Hub in Dynamics 365 for Customer Engagement | Microsoft Docs
-description: See how you can effectively search knowledge articles in the Customer Service Hub for Customer Service in Microsoft Dynamics 365 for Customer Engagement
-keywords: Knowledge articles; Customer Service Hub; Customer Service; Microsoft Dynamics 365 for Customer Engagement
+title: Search knowledge articles in the Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
+description: See how you can effectively search knowledge articles in the Customer Service Hub.
 author: anjgupta
-applies_to: Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 08/01/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ms.assetid: 1268c4ce-9ffa-4da9-aa92-998a327734c2
 ms.custom: dyn365-customerservice
+ms.assetid: 1268c4ce-9ffa-4da9-aa92-998a327734c2
 search.audienceType: 
   - admin
   - customizer
@@ -31,15 +29,15 @@ For more information, see [Knowledge Base Search control](#knowledge-base-search
 
 Knowledge base search in the Customer Service Hub now comes with an improved search functionality. The knowledge base search is now enabled to use Relevance search mechanism in the knowledge base search control area, in addition to the global search area where the Relevance search mechanism was already enabled.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How Relevance Search works](../admin/configure-relevance-search-organization.md#how-relevance-search-works)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How Relevance Search works](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
 
 Relevance search mechanism uses Azure search service to index and search records.  Relevance search provides improved search functionality like better relevance, highlighted search keyword text, and search within attachments and notes. With Relevance search, you can also configure searchable fields in the knowledge article entity. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](../admin/configure-relevance-search-organization.md#configure-searchable-fields-for-relevance-search)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
 
 
 > [!NOTE]
-> To enable Relevance search for knowledge article entity, see [Enable Relevance Search](../admin/configure-relevance-search-organization.md#enable-relevance-search) and [Select entities for Relevance Search](../admin/configure-relevance-search-organization.md#select-entities-for-relevance-search).</br>
+> To enable Relevance search for knowledge article entity, see [Enable Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) and [Select entities for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization).</br>
 If Relevance search is not enabled for the entity, standard Full-text search is used. 
 
 For more information, see [Understand knowledge base search mechanisms](knowledge-base-search-methods.md).
@@ -102,7 +100,7 @@ Type a keyword in the search box to search for knowledge articles.
 
 - If Relevance search is not enabled, the keywords that you enter will initiate  a search (using Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 
-- If Relevance search is enabled, you can configure the fields based that you want to be searched upon. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](../admin/configure-relevance-search-organization.md#configure-searchable-fields-for-relevance-search)
+- If Relevance search is enabled, you can configure the fields based that you want to be searched upon. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms)
 
@@ -150,7 +148,7 @@ Select a article title to see its full content rendered in the same control. The
   ![Knowledge article inline view](media/km-inline-article-view.png "Knowledge article inline view")
 
 > [!Note]
-> - Select the **Copy Link** button ![Copy knowledge article link button Dynamics 365 for Customer Engagement](../customer-service/media/copy-link-button.png "Copy knowledge article link button Dynamics 365 for Customer Engagement") to copy the external URL of the article so you can share it with your customers over channels like chat or email.  If you use a browser other than [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], this option isn’t available. 
+> - Select the **Copy Link** button ![Copy knowledge article link button Dynamics 365 Customer Service](../customer-service/media/copy-link-button.png "Copy knowledge article link button Dynamics 365 Customer Service") to copy the external URL of the article so you can share it with your customers over channels like chat or email.  If you use a browser other than [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], this option isn’t available. 
 >
 > - Copy Link and Email Link options are available only if your organization is using an external portal to publish the knowledge articles and your administrator has selected the **Use an external portal** check box in the **Embedded Knowledge search** setup.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use embedded knowledge search to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md).
 >

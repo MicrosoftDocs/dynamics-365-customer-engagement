@@ -1,5 +1,5 @@
 ---
-title: "Create a Common Data Service starter portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Create a Common Data Service starter portal | MicrosoftDocs"
 description: "Learn how to create a Common Data Service starter portal."
 ms.custom: 
   - dyn365-portal
@@ -30,7 +30,7 @@ search.app:
 > - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
 
-You can configure your portal to connect to the Common Data Service environment and allow your users to interact with it. This feature brings in the ability to connect a portal to a Common Data Service environment that does not have any [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps (Sales, Service, or Marketing) preinstalled.
+You can configure your portal to connect to the Common Data Service environment and allow your users to interact with it. This feature brings in the ability to connect a portal to a Common Data Service environment that does not have any model-driven apps in Dynamics 365 (Dynamics 365 Sales,Dynamics 365 Service, or Dynamics 365 Marketing) preinstalled.
 
 The Common Data Service starter portal comes with the sample data for you to quickly get started. It also has the following built-in page templates:
 
@@ -73,11 +73,11 @@ The following table summarizes the features associated with the Common Data Serv
 |||
 
 > [!NOTE]
-> The Common Data Service starter portal cannot be used on a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.
+> The Common Data Service starter portal cannot be used on a Common Data Service environment.
 
 ## Provision a Common Data Service starter portal
 
-A Common Data Service starter portal is provisioned in the same way as any other portal. The only difference is that you select a Dynamics 365 instance that uses Common Data Service. After selecting the instance, the only portal type you see is **Common Data Service Starter Portal**. This portal type is the same for all portal audiences. For more information on provisioning a portal, see [Provision a portal](provision-portal.md).
+A Common Data Service starter portal is provisioned in the same way as any other portal. The only difference is that you select an environment that uses Common Data Service. After selecting the instance, the only portal type you see is **Common Data Service Starter Portal**. This portal type is the same for all portal audiences. For more information on provisioning a portal, see [Provision a portal](provision-portal.md).
 
 After specifying all the required values, the **Configure your portal** page looks as follows:
 
@@ -86,18 +86,18 @@ After specifying all the required values, the **Configure your portal** page loo
 
 Once the portal is provisioned, a website with the sample pages is available. You can then use them to quickly get started.
 
-## Change the Dynamics 365 for Customer Engagement instance, audience, or type of portal
+## Change the instance, audience, or type of portal
 
-After your portal is created and provisioned, you can change the Dynamics 365 instance associated with your portal to the one that uses Common Data Service. After selecting the instance, the only portal type you see is **Common Data Service Starter Portal**. This portal type is the same for all portal audiences. For more information on changing the Dynamics 365 instance, see [Change the Dynamics 365 for Customer Engagement instance, audience, or type of portal](change-dynamics-instance.md).
+After your portal is created and provisioned, you can change the instance associated with your portal to the one that uses Common Data Service. After selecting the instance, the only portal type you see is **Common Data Service Starter Portal**. This portal type is the same for all portal audiences. For more information on changing the instance, see [Change the instance, audience, or type of portal](change-dynamics-instance.md).
 
 After specifying all the required values, the **Select Dynamics 365 Instance** window looks as follows:
 
 > [!div class="mx-imgBorder"]
-> ![Change Dynamics 365 for Customer Engagement instance](media/change-instance.png "Change Dynamics 365 for Customer Engagement instance")
+> ![Change instance](media/change-instance.png "Change instance")
 
 ### See also
 
 [Provision a portal](provision-portal.md)<br>
-[Change the Dynamics 365 for Customer Engagement instance, audience, or type of portal](change-dynamics-instance.md)
+[Change the instance, audience, or type of portal](change-dynamics-instance.md)
 
 

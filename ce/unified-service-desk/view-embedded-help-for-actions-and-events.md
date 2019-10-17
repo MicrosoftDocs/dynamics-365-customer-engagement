@@ -1,20 +1,10 @@
 ---
-title: "View embedded help for actions and events in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "View embedded help for actions and events in Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to view embedded help for actions and events for hosted controls in Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: d43751e3-5e52-4233-a70d-a483538912d7
 author: kabala123
 ms.author: kabala
@@ -27,7 +17,7 @@ search.app:
   - D365USD
 ---
 # View embedded help for actions and events in Unified Service Desk
-[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides an embedded help on actions and events within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides an embedded help on actions and events within the Common Data Service platform.  
   
 <a name="Actions"></a>   
 ## Embedded help for actions  
@@ -39,9 +29,9 @@ search.app:
 ## Embedded help for events  
  Open an event definition to view the help for the event. To do so:  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
-2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement** > **Settings** > **Unified Service Desk** > **Events**.  
+2. On the nav bar, choose **Dynamics 365** > **Settings** > **Unified Service Desk** > **Events**.  
   
 3. On the events page, click an event name under the **Name** column to view the event definition. The help is displayed in the lower part of the event definition page.  
   

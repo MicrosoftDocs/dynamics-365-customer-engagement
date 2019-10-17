@@ -23,7 +23,7 @@ search.app:
 
 # Email marketing overview
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/17c3476e-9383-413b-98ec-0b1ac6659824" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/17c3476e-9383-413b-98ec-0b1ac6659824" frameborder="0" allowfullscreen=""></iframe></div>
 
 The process for creating marketing emails in Dynamics 365 Marketing begins with understanding what makes them such a powerful tool for your marketing campaigns. After you create a good design aimed at a specific segment of your audience, you preview it and check for errors before going live. You can fine-tune the reach and effectiveness of your message through advanced operations like merging database values, adding dynamic content, and introduce programming logic.
 
@@ -80,6 +80,6 @@ Below is an overview of the general process for creating and sending a marketing
 [Tutorial: Create a marketing email and go live](create-marketing-email.md)  
 [Create a new email and design its content](email-design.md)  
 [Add dynamic content to email messages](dynamic-email-content.md)  
-[Set the sender, receiver, and legal designation](email-properties.md)  
+[Set the sender, receiver, language, and legal designation](email-properties.md)
 [Check your work using previews and test sends](email-preview.md)  
 [Check for errors, go live, and deliver](email-check-golive.md)

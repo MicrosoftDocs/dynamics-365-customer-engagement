@@ -1,22 +1,11 @@
 ---
-title: "Panels, panel types, and panel layouts in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Panels, panel types, and panel layouts in Unified Service Desk | MicrosoftDocs"
 description: "Learn about using panels to display hosted controls of various types. Various predefined panel types are available in Unified Service Desk to support a variety of layout options such as tabbed layout, deck layout, and stacked layout."
-ms.custom:
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer:
 ms.service: dynamics-365-customerservice
-ms.suite:
-ms.tgt_pltfrm:
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: cc93dff6-3d0e-4a73-918d-16dd883d7fec
-caps.latest.revision: 9
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -340,7 +329,7 @@ search.app:
 |        Action        |                                                                                                                                                                                                                                                                                              Description                                                                                                                                                                                                                                                                                              |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  SetTopPanelHeight   | This action can be used to set the top panel height. It supports two parameters, height and type.<br /><br /> Type can be any of the following values:<br /><br /> - **Auto**: sized to fix components inside<br />- **Pixel**: the number of pixels<br />- **Star**: takes the remaining space<br /><br /> The interpretation of the height parameter depends on this type value. For more information, see the [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)][documentation](https://msdn.microsoft.com/library/ms754130\(v=vs.100\).aspx). |
-| SetBottomPanelHeight |                                              This action can be used to set the bottom panel height. It supports two parameters, height and type.<br /><br /> Type can be any of the following values:<br /><br /> - **Auto**: sized to fix components inside<br />- **Pixel**: the number of pixels<br />- **Star**: takes the remaining space<br /><br /> The interpretation of the height parameter depends on this type value. For more information, see the WPF [documentation](https://msdn.microsoft.com/en-us/library/ms754130\(v=vs.100\).aspx).                                              |
+| SetBottomPanelHeight |                                              This action can be used to set the bottom panel height. It supports two parameters, height and type.<br /><br /> Type can be any of the following values:<br /><br /> - **Auto**: sized to fix components inside<br />- **Pixel**: the number of pixels<br />- **Star**: takes the remaining space<br /><br /> The interpretation of the height parameter depends on this type value. For more information, see the WPF [documentation](https://msdn.microsoft.com/library/ms754130\(v=vs.100\).aspx).                                              |
 
  **Vertical Split**
  This is a special layout that contains a vertical splitter with a left panel and a right panel.

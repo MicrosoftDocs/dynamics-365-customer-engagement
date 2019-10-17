@@ -22,7 +22,7 @@ This topic walks you through the process of hosting your custom event website on
 
 1. Download the [source code](https://go.microsoft.com/fwlink/?linkid=2042224) to customize the provided demo website.
 2. Install [Node.js](https://nodejs.org/en/download/) version 10.x or higher.
-3. Download the [Azure storage explorer](https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows)
+3. Download the [Azure storage explorer](https://docs.microsoft.com/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows)
 
 ## Step 1:  Create an Azure storage account
 
@@ -51,7 +51,7 @@ To create an Azure storage account, follow the steps below:
 
 1. Select the newly created **Storage account** and click on **Static website**
 
-2. Enable the **Static website** by flipping the switch and name the **Index document name** and **Error document path** as **Index.html**
+2. Enable the **Static website** by flipping the switch and name the **Index document name** and **Error document path** as `index.html` (must be lowercase)
 
     ![Static website](../media/enabling-static-website.png "Static website")
 3. Click on **Save**. A new field **Primary endpoint** is shown. Copy the URL from the **Primary endpoint** field. This is the URL from which you reach your custom event website.
@@ -66,7 +66,7 @@ To use event management public API, you need a web application token. The web ap
 
 1. Open the [source code](https://go.microsoft.com/fwlink/?linkid=2042224) with your favorite IDE (we recommend Visual Studio Code).  
 2. Navigate to `src/environments/` directory. 
-3. Create an empty `environment.ts` file.
+3. Create an empty `environment.ts` file (if it doesn't exist).
 4. Open the file `environment.selfhosted.ts`. This file contains all the configuration settings for your event website. 
 5. Enter the **Endpoint** field value from the web application record that you have created in the `apiEndpoint` field. Append `EvtMgmt/api/v2.0/` to the `apiEndpoint` value. It should look like this `https://yourorg.crm.dynamics.com/EvtMgmt/api/v2.0/`
 6. Make sure to set the `useAadB2C` value to false.

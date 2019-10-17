@@ -1,6 +1,6 @@
 ---
 title:  Project templates 
-description: This topic provides information about how to use project templates for quick project setup in Dynamics 365 for Project Service Automation.
+description: This topic provides information about how to use project templates for quick project setup.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-A project template is a predefined framework that helps you quickly and easily start a project. In Microsoft Dynamics 365 for Project Service Automation, you can use a predefined template to create a new project with a single click. As for projects, you must define the prerequisites for project templates. You must define a project calendar for each project template, and roles and price lists must be predefined in the organization, so that the components of the template have useful data.
+A project template is a predefined framework that helps you quickly and easily start a project. You can use a predefined template to create a new project with a single click. As for projects, you must define the prerequisites for project templates. You must define a project calendar for each project template, and roles and price lists must be predefined in the organization, so that the components of the template have useful data.
 
 A project template consists of three components: a schedule, project estimates, and project team members.
 

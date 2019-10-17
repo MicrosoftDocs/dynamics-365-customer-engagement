@@ -8,8 +8,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -35,12 +35,12 @@ search.app:
   
  Search results include only records that begin with the letters you type. For example, if you want to search for “Alpine Ski House,” type **alp** in the search box. If you type **ski**, the record won’t show up.  
   
- ![Dynamics 365 for Customer Engagement apps for mobile enter search term](../../../media/mobile-search-enter-term.png "Dynamics 365 for Customer Engagement apps for mobile enter search term")  
+ ![Dynamics 365 apps for mobile enter search term](../../../media/mobile-search-enter-term.png "Dynamics 365 apps for mobile enter search term")  
   
 #### Filter search results  
  To filter results by record type, choose a record type from the **Filter with:** drop-down box.  
   
- ![Dynamics 365 for Customer Engagement apps for mobile search filter](../../../media/mobile-search-filter.png "Dynamics 365 for Customer Engagement apps for mobile search filter")  
+ ![Dynamics 365 apps for mobile search filter](../../../media/mobile-search-filter.png "Dynamics 365 apps for mobile search filter")  
   
 #### Resize columns  
  You can resize columns in a grid in the [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] app, and the app will remember your settings the next time you view that grid.  
