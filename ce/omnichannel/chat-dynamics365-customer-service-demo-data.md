@@ -31,12 +31,12 @@ The sample data is available as a downloadable demo package, which you can insta
 
 The following are the requirements to install sample data in your target environment:
 
-- Use the latest version of the Common Data Service environment
+- A Common Data Service environment
 - Your base language is English
-- The environment has no Omnichannel for Customer Service data already, or has only the default data that comes with a new org
+- The environment has no Omnichannel for Customer Service data already, or has only the default data that comes with a new environment
 - The correct version of the business application is already installed Chat for Dynamics 365 Customer Service 
 <!--note from editor: The sentence above is not clear. What business application? And do you mean "...is already installed FOR Chat for Dynamics 365 Customer Service"? Also, how would they know what the correct version is? -->
-- The org has Omnichannel for Customer Service provisioned and the Chat channel is enabled.
+- The environment has Omnichannel for Customer Service provisioned and the Chat channel is enabled.
 
 > [!NOTE]
 > If you need to install the demo data on top of an existing Chat trial or a demo environment that already has data (not recommended), you'll need to suspend the safety prechecks performed by the installer. For more information, see the [Technical notes](#technical-notes).
@@ -153,17 +153,16 @@ Wondering what capabilities you can demo with the demo data? See the Fabrikam sc
 4. Specify the following in the connect screen and select **Login**. In this step, you need to connect to the Common Data Service environment where you want to deploy the demo data:
 <!--note from editor: If the UI says Login, then you must use it. However, we stopped using that term years ago. Can you please share that information with the PM? Here is the MSWG guideline: https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=33573 -->
 
+| Field | Value |
+|-------------------------|------------------------|
+| Deployment Type | Office 365 | To connect to a Common Data Service environment. |
+| Display list of available organizations | Select the check box. |
+ Show Advanced | Select the check box. |
+|  Online Region | Select the organization that you want to connect to. |
+| User Name | Specify the user name of the system administrator user that you configured in the [Configure users](#configure-users) section. <br> For example: <br> `lilymichael@sampleorg.onmicrosoft.com` |
+| Password | Specify the password of the system administrator user that you configured in the [Configure users](#configure-users) section. |
 
-    | Field | Value |
-    |-------------------------|------------------------|
-    | Deployment Type | Office 365 | To connect to a Common Data Service environment. |
-    | Display list of available organizations | Select the check box. |
-    | Show Advanced | Select the check box. |
-    |  Online Region | Select the organization that you want to connect to. |
-    | User Name | Specify the user name of the system administrator user that you configured in the [Configure users](#configure-users) section. <br> For example: <br> `lilymichael@sampleorg.onmicrosoft.com` |
-    | Password | Specify the password of the system administrator user that you configured in the [Configure users](#configure-users) section. |
-
-    ![Dialog box for connecting to an environment](media/omnichannel-sample-data-3.png "Dialog box for connecting to an environment")
+![Dialog box for connecting to an environment](media/omnichannel-sample-data-3.png "Dialog box for connecting to an environment")
 
 
 5. Select **Next** in the subsequent screens until you see the **Demo Data Setup** dialog box.
