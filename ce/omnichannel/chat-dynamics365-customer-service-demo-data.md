@@ -2,7 +2,7 @@
 title: "Demo data installation for Chat for Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Demo data installation for Chat for Dynamics 365 Customer Service"
 keywords: ""
-ms.date: 10/14/2019
+ms.date: 10/18/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -17,9 +17,10 @@ manager: shujoshi
 
 # Demo data installation for Chat for Dynamics 365 Customer Service
 
-This topic describes instructions to install sample/demo data for Chat for Dynamics 365 Service capabilities to help you build your own demo environments.
+This topic describes instructions to install sample/demo data for Chat for Dynamics 365 Customer Service capabilities to help you build your own demo environments.
 
 The sample data is available as a downloadable demo package, which you can install in your Omnichannel for Dynamics 365 Customer Service demo environment.
+<!--note from editor: Is the reference in the above sentence to Omnichannel correct? Or should it also be Chat for Dynamics 365 Customer Service? -->
 
 ## Requirements
 
@@ -27,33 +28,36 @@ The following are the requirements to install sample data in your target environ
 
 - Latest version of Common Data Service platform
 - Base language is English
-- The environment has no Omnichannel for Customer Service data already, or only has default data that comes with any new org
+- The environment has no Omnichannel for Customer Service data already, or has only the default data that comes with a new org
 - The correct version of the business application is already installed Chat for Dynamics 365 Customer Service 
+<!--note from editor: The sentence above is not clear. What business application? And do you mean "...is already installed FOR Chat for Dynamics 365 Customer Service"?-->
 - The org has Omnichannel for Customer Service provisioned and the Chat channel is enabled.
 
 > [!NOTE]
-> If you need to install the Demo data on top of an existing Chat for Dynamics 365 trial or a demo environment that already has data (not recommended), you'll need to suspend the safety prechecks performed by the installer. For more information, see the [Technical notes](#technical-notes).
+> If you need to install the demo data on top of an existing Chat trial or a demo environment that already has data (not recommended), you'll need to suspend the safety prechecks performed by the installer. For more information, see the [Technical notes](#technical-notes).
 
 ## Download the sample data
 
-Download the demo data from the Download center and save it on your computer.
+Download the demo data from the Download Center and save it on your computer.
 
-[Chat for Dynamics 365 Customer Service demo data](https://go.microsoft.com/fwlink/p/?linkid=2026536&clcid=0x409)
+[Chat for Dynamics 365 Customer Service demo data](https://go.microsoft.com/fwlink/p/?linkid=2026536)
+<!--note from editor: When you use a fwlink URL, do not include anything after the linkid. That locks it into using one language only, the same as if you used en-us.-->
 
 
 ## Extract files
 
-The Chat for Dynamics 365 Customer Service demo data installer is a self-extracting executable file. After you download the demo data, perform the following steps:
+The Chat demo data installer is a self-extracting executable file. After you download the demo data, perform the following steps:
 
-1. Run the downloaded **.EXE** file.
+1. Run the **.exe** file that you downloaded.
 
 2. Accept terms and conditions to unpack the compressed zip file. 
 
-3. Extract contents of that file to a folder on your computer.
+3. Extract the contents of that file to a folder on your computer.
 
 Depending on the operating system and security settings, you may need to perform the following steps after unpacking the zip file:
 
 1. Open the **OmnichannelDemoDataPackage** folder.
+<!--note from editor: Are the file names used in this step and the next one still accurate, given that the name of this demo data has changed to be about the Chat add-in? This is a global question. If you change it here, please change it everywhere needed. -->
 
 2. Right-click the **OmnichannelDemoDataPackage.dll** file and choose **Properties**.
 
@@ -68,9 +72,11 @@ Depending on the operating system and security settings, you may need to perform
 
 ## Set up users
 
-The **OmnichannelDemoData** package is installs with a few users per the settings described below:
+The OmnichannelDemoData package installs with a few users per the settings described below.
+<!--note from editor: There are no settings described below. Do you mean "...includes the sample users listed in the table below."? -->
 
 To install the demo data, you need to create (or temporarily rename) users in your Common Data Service platform to match the incoming demo data configuration.
+<!--note from editor: The sentence above says you need to create or rename users, but the steps below just swap out the full name for the user alias and then apply roles to the user. This is not consistent. -->
 
 | First Name | Last Name | User Alias   | Email                                    | Role                      |
 |------------|-----------|--------------|------------------------------------------|---------------------------|
@@ -78,87 +84,96 @@ To install the demo data, you need to create (or temporarily rename) users in yo
 | Lilly      | Michael   | lillymichael | <lillymichael@sampleorg.onmicrosoft.com> | Omnichannel Administrator |
 | Penelope   | Mayo      | penelopemayo | <penelopemayo@sampleorg.onmicrosoft.com> | Omnichannel Agent         |
 
+<!--note from editor: I was told that the names used in this article are approved fictitious names. However, the email addresses are not approved sample email addresses from the CELA website. They also use firsta and last names, but the CELA guidelines say to use just first names. Was the email address domain "sampleorg.onmicrosoft.com" used above approved as part of the Chat sample data? If not, they need to be changed to use approved sample data. -->
+
 ### Configure users
 
 1. Sign in to the Common Data Service platform.
 
 2. Select **Settings** > **Security** > **Users**.
 
-3. Replace `"Lilly Michael"`with `"lillymichael"` in the `UserFullname="Lilly Michael"` tag. Ensure the username is in lowercase.
+3. Replace `"Lilly Michael"`with `"lillymichael"` in the `UserFullname="Lilly Michael"` tag. Ensure the username is all lowercase.
+<!--note from editor: This step is confusing. Why would you replace the full name and then in the next step tell people to select the Lilly Michael user? It also doesn't apply the change in any way that's noted, like clicking Save or Apply, so it's not clear why this is necesseary. Is this step out of order? -->
 
 4. Select the **Lilly Michael** user. The user page appears.
 
-5. Select the **Manage Roles** in the command bar at the top. The **Manage User Roles** dialog appears.
+5. Select **Manage Roles** in the command bar at the top. The **Manage User Roles** dialog box appears.
 
-6. Select the check box for the following role names. 
+6. Select the check box for the following role names: 
 
     - **System Administrator**
-    - **Omnichannel Administrator** role.
+    - **Omnichannel Administrator**
 
-7. Select **OK** to grant full admin rights to Lilly Michael.
+7. To grant full admin rights to Lilly Michael, select **OK**.
 
     This ensures that demo data records are created with the correct user ownership and therefore populate views correctly.
+    <!--note from editor: Are there more users to do this to? There are more users listed in the table above. Are people supposed to repeat steps 1-7 for all the other users in the table? -->
 
 ### Update data mapping file
 
-Now, you need to update a data mapping file with email addresses of the default user context in the downloaded package.
+Next you need to update a data mapping file with the email address of the default user context in the downloaded package.
 
 1. Open **PkgFolder**.
 
-2. Open **usermap.xml** file in Notepad (or Visual Studio or another XML editor).
+2. Open the **usermap.xml** file in Notepad (or Visual Studio or another XML editor).
 
-3. Set `DefaultUserToMapTo=` field to the email address of the Lilly Michael user. 
+3. Set the **DefaultUserToMapTo=** field to the email address of the Lilly Michael user. 
 
-    For example: `<MappingConfiguration DefaultUserToMapTo="lilymichael@sampleorg.onmicrosoft.com">`
+    For example: <MappingConfiguration DefaultUserToMapTo="lilymichael@sampleorg.onmicrosoft.com">
 
 4. Select **Save**.
 
 > [!TIP]
-> We recommend creating a backup of your environment so you can revert to the initial stage  if face issues during the demo data installation. To learn more, see [Backup and restore instances](/admin/backup-restore-instances).
+> We recommend creating a backup of your environment so you can revert to the initial stage if you encounter issues during the demo data installation. To learn more, see [Back up and restore instances](/admin/backup-restore-instances).
 
 ## Run the Package Deployer
 
-When installing any of the demo data, the following actions occur during the installation process:
+When you install any of the demo data, the following actions occur during the installation process:
 
-- Default parameters for using Omnichannel are created and/or set.
-- Demo data and configuration for the applications are imported (e.g.: Chat widget, Work Streams, Queues, and other entities) to demonstrate key capabilities.
+- Default parameters for using Omnichannel for Customer Service are created and/or set.
+- Demo data and configuration for the applications are imported (Chat widget, Work Streams, Queues, and other entities) to demonstrate key capabilities.
 
-Wondering what capabilities you can demo with the Demo data? See the Fabrikam scenario below.
+Wondering what capabilities you can demo with the demo data? See the Fabrikam scenario below.
 
 > [!IMPORTANT]
 > - Once installed, you can't uninstall the demo data. 
 > - The Chat for Dynamics 365 Customer Service demo data is available only in English. 
-> - Install the demo data on a demonstration, evaluation, training, or test environment. We recommend not to install the demo data in the production environments.
+> - Install the demo data on a demonstration, evaluation, training, or test environment. We do not recommend installing the demo data in production environments.
 
-1. Open the **OmnichannelDemoData** folder
+1. Open the **OmnichannelDemoData** folder.
 
 2. Run **PackageDeployer.exe**.
 
 3. Accept the terms and conditions.
 
 4. Specify the following in the connect screen and select **Login**. In this step, you need to connect to the Common Data Service environment where you want to deploy the demo data:
+<!--note from editor: If the UI says Login, then you must use it. However, we stopped using that term years ago. Can you please share that information with the PM? Here is the MSWG guideline: https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=33573 -->
+
 
     | Field | Value |
     |-------------------------|------------------------|
     | Deployment Type | Office 365 | To connect to a Common Data Service environment. |
-    | Display list of available organizations | Select the check box |
-    | Show Advanced | Select the check box |
+    | Display list of available organizations | Select the check box. |
+    | Show Advanced | Select the check box. |
     |  Online Region | Select the organization that you want to connect to. |
     | User Name | Specify the user name of the system administrator user that you configured in the [Configure users](#configure-users) section. <br> For example: <br> `lilymichael@sampleorg.onmicrosoft.com` |
     | Password | Specify the password of the system administrator user that you configured in the [Configure users](#configure-users) section. |
 
-    ![Connect to environment](media/omnichannel-sample-data-3.png "Connect to environment")
+    ![Dialog box for connecting to an environment](media/omnichannel-sample-data-3.png "Dialog box for connecting to an environment")
 
 
-5. Select **Next** in the subsequent screens until you see the **Demo Data Setup** dialog.
+5. Select **Next** in the subsequent screens until you see the **Demo Data Setup** dialog box.
 
     ![Reading demo data](media/omnichannel-sample-data-4.png "Reading demo data")
-
-6. Select **Next** to start the demo data installation.
     
-7. Select **Finish** after the demo data is installed successfully.
+<!--note from editor: The name of the dialog box that is in the image does not at all match the name "Demo Data Setup" in this step. Please fix this to match once you get the new images.-->
+
+6. To start the demo data installation, select **Next**.
+    
+7. After the demo data is installed successfully, select **Finish**.
 
     ![Demo data is installed successfully](media/omnichannel-sample-data-5.png "Demo data is installed successfully")
+    <!--note from editor: Given that the product name is misspelled in this image and the Finish button is easy to find on the page, I suggest deleting this image and not using it at all. -->
 
 ## Verify demo data installation
 
