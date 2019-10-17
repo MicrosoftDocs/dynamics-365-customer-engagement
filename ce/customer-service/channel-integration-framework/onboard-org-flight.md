@@ -36,6 +36,9 @@ If you want to opt out of the public preview flight, execute the following comma
 
 After your organization is added to the flight, you can proceed to install the Channel Integration Framework Version 2.0 solution from AppSource.
 
+> [!NOTE]
+> The latest version of Channel Integration Framework version 2.0 package is 9.2.0.49. Installation of public preview updates will fail if you have a higher version of CIF package installed. In this case, delete the original CIF solution from your organization, and then re-install the package from AppSource.
+
 ## See also
 
 [Get Channel Integration Framework](get-channel-integration-framework.md)
