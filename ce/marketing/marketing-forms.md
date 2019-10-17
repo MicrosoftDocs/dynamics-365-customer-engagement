@@ -97,7 +97,7 @@ The following settings and information are provided on the **Summary** tab:
 
 ### How form settings affect lead scoring and interaction records
 
-Typically, you'll use marketing forms as part of your lead generation and scoring strategy. If so, then it's important to understand how some of the settings in the header and on the **Summary** tab can affect lead generation, lead scoring, and interaction records. The most important setting in this regard is the **Update contact/leads** setting in the header, which  affects what happens when a contact submits a form, as described in the following subsections. For more information about these issues, see also [Design lead-scoring models](score-manage-leads.md).
+Typically, you'll use marketing forms as part of your lead generation and scoring strategy. If so, then it's important to understand how some of the settings in the header and on the **Summary** tab can affect contact generation, lead generation, record updates, lead scoring, and interaction records. The most important setting in this regard is the **Update contact/leads** setting in the header, which  affects what happens when a contact submits a form, as described in the following subsections. For more information about these issues, see also [Design lead-scoring models](score-manage-leads.md).
 
 #### Create/update both contacts and leads
 
