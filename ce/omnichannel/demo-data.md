@@ -37,7 +37,7 @@ The following are the requirements to install sample data in your target environ
 
 ## Download the sample data
 
-You can download the demo data from the Download center.
+Download the demo data from the Download center and save it on your computer.
 
 [Chat for Dynamics 365 Customer Service demo data](https://go.microsoft.com/fwlink/p/?linkid=2026536&clcid=0x409)
 
@@ -70,28 +70,36 @@ When installing any of the Demo data packages, the following actions occur durin
 
 Wondering what capabilities you can demo with the Demo data? See the Fabrikam scenario below.
 
-## Download and unpack
+## Extract files
 
-The Chat for Dynamics 365 Customer Service demo data installer is a self-extracting executable. After you download the demo data, run the **.EXE** file, accept terms and
-conditions to unpack the compressed zip file. You then need to extract contents of that file to a folder on your computer.
+The Chat for Dynamics 365 Customer Service demo data installer is a self-extracting executable file. After you download the demo data, perform the following steps:
+
+1. Run the downloaded **.EXE** file.
+
+2. Accept terms and conditions to unpack the compressed zip file. 
+
+3. Extract contents of that file to a folder on your computer.
 
 Depending on the operating system and security settings, you may need to perform the following steps after unpacking the zip file:
 
-1. Find and right-click the **OmnichannelDemoDataPackage.dll** file and choose **Properties** in the **OmnichannelDemoDataPackage** folder.
-2. Choose **Unblock**.
+1. Open the **OmnichannelDemoDataPackage** folder.
 
-![](media/omnichannel-sample-data-2.png)
+2. Right-click the **OmnichannelDemoDataPackage.dll** file and choose **Properties**.
 
-1. Select **Apply**.
-2. Select **OK**.
+3. Choose **Unblock**.
 
-## Create or configure users
+    > [!div class=mx-imgBorder] 
+    > ![Select unblock](media/omnichannel-sample-data-2.png "Select unblock")
 
-The **OmnichannelDemoData** package is designed to install with a few users per the settings described below:
+4. Select **Apply**.
 
-To install the package correctly, you need to create (or temporarily rename)
-users in your Dynamics 365 for Customer Engagement to match the incoming Demo
-data configuration.
+5. Select **OK**.
+
+## Set up users
+
+The **OmnichannelDemoData** package is installs with a few users per the settings described below:
+
+To install the demo data, you need to create (or temporarily rename) users in your Common Data Service platform to match the incoming demo data configuration.
 
 | First Name | Last Name | User Alias   | Email                                    | Role                      |
 |------------|-----------|--------------|------------------------------------------|---------------------------|
@@ -99,26 +107,43 @@ data configuration.
 | Lilly      | Michael   | lillymichael | <lillymichael@sampleorg.onmicrosoft.com> | Omnichannel Administrator |
 | Penelope   | Mayo      | penelopemayo | <penelopemayo@sampleorg.onmicrosoft.com> | Omnichannel Agent         |
 
-To create or configure users, go to **Settings** \> **Security** \> **Users**, and do the following:
+### Configure users
 
-1. Set UserFullname="Lilly Michael" with username "lillymichael" (**lowercase**).
-2. Select the **Lilly Michael** user, and then select **Manage Roles**.
-   - Find and select the, **System Administrator** and **Omnichannel Administrator** role.
-   - Select **OK** to grant full admin rights to Lilly Michael.
+1. Sign in to the Common Data Service platform.
 
->   This step is necessary to ensure that demo records are created with the
->   correct user ownership and therefore populate views correctly.
+2. Select **Settings** > **Security** > **Users**.
 
-1. From the downloaded package, you need to update a data mapping file with email addresses of the default user context. To do this:
-   - Open **PkgFolder**
-   - Open **usermap.xml** file in Notepad (or Visual Studio or another XML editor).
-   - Set **DefaultUserToMapTo=** field to the email address of the Lilly Michael user. Example: \<MappingConfiguration DefaultUserToMapTo=" "\>
+3. Replace `"Lilly Michael"`with `"lillymichael"` in the `UserFullname="Lilly Michael"` tag. Ensure the username is in lowercase.
 
->   **Recommendation:**  Consider creating a backup of your org now, in case you
->   need to revert to your starting point if something goes wrong during the
->   Demo data installation. See [Backup and restore
->   instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances)
->   for more information.
+4. Select the **Lilly Michael** user. The user page appears.
+
+5. Select the **Manage Roles** in the command bar at the top. The **Manage User Roles** dialog appears.
+
+6. Select the check box for the following role names. 
+
+    - **System Administrator**
+    - **Omnichannel Administrator** role.
+
+7. Select **OK** to grant full admin rights to Lilly Michael.
+
+    This ensures that demo data records are created with the correct user ownership and therefore populate views correctly.
+
+### Update data mapping file
+
+Now, you need to update a data mapping file with email addresses of the default user context in the downloaded package.
+
+1. Open **PkgFolder**.
+
+2. Open **usermap.xml** file in Notepad (or Visual Studio or another XML editor).
+
+3. Set `DefaultUserToMapTo=` field to the email address of the Lilly Michael user. 
+
+    For example: `<MappingConfiguration DefaultUserToMapTo="lily.michael@contoso.com">`
+
+4. Select **Save**.
+
+> [!TIP]
+> We recommend creating a backup of your environment so you can revert to the initial stage  if face issues during the demo data installation. To learn more, see [Backup and restore instances](/admin/backup-restore-instances).
 
 ## Run the Package Deployer
 
