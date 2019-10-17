@@ -181,84 +181,78 @@ Now, you need to update a data mapping file with email addresses of the default 
 
 Verify the number of records and types of entities listed in **Fabrikam** fictitious scenario appear as expected as a sanity check.
 
-After the Demo data completely loads, sign in as the Lilly Michael user and
-confirm the following:
+After the demo data completely loads, do the following:
 
-- Go to **Omnichannel Administration** > **Queues & Users** > **Users** to
-    confirm the three Omnichannel users are created.
+1. Sign in to the Omnichannel for Administrator as Lilly Michael user.
 
-- Go to **Omnichannel Administration** > **Queues & Users** > **Queues** to
-    confirm Queue 1 (sample) and Queue 2 (sample) are created.
+2. Verify the following:
 
-- Go to **Omnichannel Administration** > **Channels > Chat** to confirm
-    Portal Chat (sample) is created.
-
-- Go to **Omnichannel Administration** \> **Work Distribution Management \>
-    Work Streams** to confirm Chat Push (sample) is created.
+    - Go to **Omnichannel Administration** > **Queues & Users** > **Users** to
+        confirm the three Omnichannel users are created.
+    
+    - Go to **Omnichannel Administration** > **Queues & Users** > **Queues** to
+        confirm Queue 1 (sample) and Queue 2 (sample) are created.
+    
+    - Go to **Omnichannel Administration** > **Channels > Chat** to confirm
+        Portal Chat (sample) is created.
+    
+    - Go to **Omnichannel Administration** \> **Work Distribution Management \>
+        Work Streams** to confirm Chat Push (sample) is created.
 
 ## Technical notes
 
-See below for more technical details on the installation of this data.
+See below for more technical details on the installation of this demo data.
 
-**Installing Demo data on top of existing data (not recommended)**
+> [!Warning]
+> We recommend not to install demo data on top of existing data
 
-If you need to install Demo data on top of an existing Omnichannel trial or demo
-environment that already has data, you'll need to suspend the safety prechecks
-performed by the installer, to do this:
+If you need to install demo data on top of an existing Omnichannel for Customer Service trial or demo environment that already has data, you'll need to suspend the safety prechecks performed by the installer. 
+
+To suspend the safety prechecks, follow these steps:
 
 1. Go to **PkgFolder** folder
 
 2. Open **DemoDataPreImportConfig.xml** file with Notepad (or another XML
     editor).
 
-3. Find the following value, and change setting from true to false:
+3. Set the value of `TerminateOnPreCheckFailure` from true to false.
 
->   \<TerminateOnPreCheckFailure\>true\</TerminateOnPreCheckFailure\>
+    `<TerminateOnPreCheckFailure>false</TerminateOnPreCheckFailure>`
 
->   This change causes the installer to bypass some important safety checks,
->   which includes confirming there is no more than one active **Organizational
->   Unit** record, and then renaming it to **Fabrikam**.
+This change causes the installer to skip the certain safety prechecks, which includes confirming that there is one active **Organizational Unit** record, and then renaming it to **Fabrikam**.
 
 ## Configuration components
 
 There are several configuration components in this pre-import configuration
 file. For technical users, these include:
 
-- **\<RequiredSolutions\>** specifies prerequisite solution installations and
-    their version numbers.
+- **<RequiredSolutions\>**: Specifies prerequisite solution installations and their version numbers.
 
-- **\<InstallSampleData\>** installs Demo data to Dynamics 365 instance. This
-    is the same Demo data that you can install from **Settings** \> **Data
-    Management** area in Dynamics 365.
+- **\<InstallSampleData\>**: Installs Demo data to Common Data Service platform. This is the same demo data that you can install from **Settings** > **Data Management**.
 
-- **\<DefaultParameterDescription\>** specifies the default description for
-    the parameters.
+- **\<DefaultParameterDescription\>**: Specifies the default description for the parameters.
 
-**Fabrikam Scenario**
+## Fabrikam Scenario
 
-The fictional company, Fabrikam, is a manufacturer of electronic device assembly
-line of robots and is known for their product quality, innovation, and solid
-customer service, including: installation planning, implementation, and ongoing
+The fictional company, Fabrikam, is a manufacturer of electronic device assembly line of robots and is known for their product quality, innovation, and solid customer service, including: installation planning, implementation, and ongoing
 maintenance services. Fabrikam is headquartered in the United States (Fabrikam,
-U.S.), and has Customer Service Support operations centered in the United
-States, primarily in the greater Seattle area. The CSS contact center is focused
-on providing excellent support experience to their customers.
+U.S.), and has Customer Service Support operations centered in the United States, primarily in the greater Seattle area. The CSS contact center is focused on providing excellent support experience to their customers.
 
-A high-level overview of the Omnichannel Demo data is as follows:
+A high-level overview of the Chat for Dynamics 365 Customer Service demo data are as follows:
 
-- 3 Omnichannel users
+- Three Omnichannel users
 
-- 1 Web customer
+- One web customer
 
-- 1 Case
+- One Case
 
-- 4 sessions
+- Four sessions
 
-- 1 Omnichannel Chat workstream
+- One Omnichannel Chat workstream
 
-- 1 Chat widget
+- One Chat widget
 
-- 2 Omnichannel queues
+- One Omnichannel queues
 
 ## See Also
 
