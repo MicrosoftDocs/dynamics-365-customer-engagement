@@ -138,7 +138,7 @@ Now, you need to update a data mapping file with email addresses of the default 
 
 3. Set `DefaultUserToMapTo=` field to the email address of the Lilly Michael user. 
 
-    For example: `<MappingConfiguration DefaultUserToMapTo="lily.michael@contoso.com">`
+    For example: `<MappingConfiguration DefaultUserToMapTo="lilymichael@sampleorg.onmicrosoft.com">`
 
 4. Select **Save**.
 
@@ -147,63 +147,50 @@ Now, you need to update a data mapping file with email addresses of the default 
 
 ## Run the Package Deployer
 
-1. Find and run the **PackageDeployer.exe** in the **OmnichannelDemoData** folder.
-2. Accept the terms and conditions.
-3. On the next window:
+1. Open the **OmnichannelDemoData** folder
 
-    1. Select deployment type **Office 365**.
-    2. Enter the user and password of the system administrator user configured
-        in "Create or configure users" (e.g.: "Spencer Low" with "spencerl"
-        username).
-    3.  Ensure **Display list of available organizations** is selected.
+2. Run **PackageDeployer.exe**.
 
-![](media/omnichannel-sample-data-3.png)
+3. Accept the terms and conditions.
 
-1. Select the Dynamics 365 for Customer Engagement organization where you want
-    to install the Demo data.
+4. Specify the following in the connect screen and select **Login**. In this step, you need to connect to the Common Data Service environment where you want to deploy the demo data:
 
-2. Select **Next** until you see the **Demo Data Setup** dialog.
+    | Field | Value |
+    |-------------------------|------------------------|
+    | Deployment Type | Office 365 | To connect to a Common Data Service environment. |
+    | Display list of available organizations | Select the check box |
+    | Show Advanced | Select the check box |
+    |  Online Region | Select the organization that you want to connect to. |
+    | User Name | Specify the user name of the system administrator user that you configured in the [Configure users](#configure-users) section. <br> For example: <br> `lilymichael@sampleorg.onmicrosoft.com` |
+    | Password | Specify the password of the system administrator user that you configured in the [Configure users](#configure-users) section. |
 
-![](media/omnichannel-sample-data-4.png)
+    ![Connect to environment](media/omnichannel-sample-data-3.png "Connect to environment")
 
->   Machine generated alternative text: Ommchannle Demo Data Package Setup for
->   Microsoft Dynamics CRM Reading Omnichannle Demo Data Package Installer
->   Configuration Status: Ready Organization : orggl 19007d View log file Import
->   configuration loaded. Found I solutions. Found the solution:
->   OmnichanneIDemoData, version: 1.4.0.589 (Managed) Found the detailed data to
->   import. Initializing 5 connection threads for detailed data import. Previous
 
-1. Before proceeding, note that installing Demo data could take up to one hour
-    (normally \~10 minutes). You'll need to make sure the computer remains on
-    and connected to a network throughout the installation process, and your
-    session remains active.
+5. Select **Next** in the subsequent screens until you see the **Demo Data Setup** dialog.
 
-2. When ready, click **Next** to start the Demo data installation process.
-    After the Demo data is loaded, click **Finish**.
+    ![Reading demo data](media/omnichannel-sample-data-4.png "Reading demo data")
 
-![](media/omnichannel-sample-data-5.png)
+6. Select **Next** to start the demo data installation.
+    
+7. Select **Finish** after the demo data is installed successfully.
 
->   Machine generated alternative text: Omnichannle Demo Data Package Setup for
->   Microsoft Dynamics CRM Installation Complete Microsoft Dynamics 365
->   Omnichannle Sample Data - Import Completed Omnichannle Data Package Data
->   package for Omnichannel for Customer Service and Chat for Dynamics 365 have
->   been imported successfully. Finish
+    ![Demo data is installed successfully](media/omnichannel-sample-data-5.png "Demo data is installed successfully")
 
-## Verify the Demo data installation
+## Verify demo data installation
 
-Verify the number of records and types of entities listed in Fabrikam fictitious
-scenario appear as expected as a sanity check.
+Verify the number of records and types of entities listed in **Fabrikam** fictitious scenario appear as expected as a sanity check.
 
 After the Demo data completely loads, sign in as the Lilly Michael user and
 confirm the following:
 
-- Go to **Omnichannel Administration** \> **Queues & Users** \> **Users** to
+- Go to **Omnichannel Administration** > **Queues & Users** > **Users** to
     confirm the three Omnichannel users are created.
 
-- Go to **Omnichannel Administration** \> **Queues & Users** \> **Queues** to
+- Go to **Omnichannel Administration** > **Queues & Users** > **Queues** to
     confirm Queue 1 (sample) and Queue 2 (sample) are created.
 
-- Go to **Omnichannel Administration** \> **Channels \> Chat** to confirm
+- Go to **Omnichannel Administration** > **Channels > Chat** to confirm
     Portal Chat (sample) is created.
 
 - Go to **Omnichannel Administration** \> **Work Distribution Management \>
