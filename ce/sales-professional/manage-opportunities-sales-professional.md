@@ -143,7 +143,20 @@ Whether you win a sale or close an opportunity, you probably want to close it. Y
 
     ![Close Opportunity dialog box](media/close-opportunity-dialog-box.png "Close Opportunity dialog box")
 
-3.  Enter the details in the dialog box, and select **OK**.
+    1. When you close the opportunity as **Won**, in the **Close Opportunity** pane, do the following, and select **OK**:
+
+            - In **Actual Revenue**, Verify the amount, and make changes, if necessary.
+
+            - In **Description**, enter details about what contributed to winning this opportunity. 
+
+    2. When you close the opportunity as **Lost**, in the **Close Opportunity** pane, do the following, and select **OK**:
+
+            -  In **Competitor**, select a competitor you lost this opportunity to.
+
+            -  In **Description**, add more details around why the opportunity was lost.
+
+    > [!IMPORTANT]
+    > If your system administrator has enabled custom fields on the **Opportunity Close** form, you may be required to fill in data in other fields as defined by your organization. 
 
 ### See also
 
