@@ -18,8 +18,7 @@ ms.custom:
 <table>
 <tr>
 <td>
-
-### Live chat widget SDK
+<h3> Live chat widget SDK </h3>
 
 Omnichannel for Customer Service live chat widget SDK provides methods that allow you to:
 - Set, retrieve and remove custom context provider for a live chat session.
@@ -32,7 +31,7 @@ Omnichannel for Customer Service live chat widget SDK provides methods that allo
 </td>
 <td>
 
-### Start proactive chat
+<h3> Start proactive chat </h3>
 
 Anticipating areas where customers need help and then engaging them through chat when they have been browsing your website for some time helps improve customer experience. Omnichannel for Customer Service allows you to offer proactive chat request to your customers when you feel they can use some help.
 
@@ -43,7 +42,7 @@ Anticipating areas where customers need help and then engaging them through chat
 <tr>
 <td>
 
-### Manage custom context
+<h3> Manage custom context </h3>
 
 When a customer initiate a chat, you can pass custom context to Omnichannel for Customer Service.
 
@@ -52,7 +51,7 @@ When a customer initiate a chat, you can pass custom context to Omnichannel for 
 </td>
 <td>
 
-### Display custom context
+<h3> Display custom context </h3>
 
 Read how you can display the context variables in the Conversation Summary Control for a conversation on the UI.
 
@@ -63,7 +62,7 @@ Read how you can display the context variables in the Conversation Summary Contr
 <tr>
 <td>
 
-### Send authentication token
+<h3> Send authentication token </h3>
 
 Read how you can pass an authentication token to Omnichannel for Customer Service to authenticate a customer when they initiate a chat.
 
@@ -72,7 +71,7 @@ Read how you can pass an authentication token to Omnichannel for Customer Servic
 </td>
 <td>
 
-### Enable a bot to escalate and end conversation
+<h3> Enable a bot to escalate and end conversation </h3>
 
 Omnichannel for Customer Service allows you to route a conversation to a human agent when you feel that human intervention is required to successfully help the customer.
 
@@ -83,7 +82,7 @@ Omnichannel for Customer Service allows you to route a conversation to a human a
 <tr>
 <td>
 
-### Auto-close a conversation
+<h3> Auto-close a conversation </h3>
 
 Read how you can automatically close a conversation using Web API.
 
@@ -92,7 +91,7 @@ Read how you can automatically close a conversation using Web API.
 </td>
 <td>
 
-### runMacro API
+<h3> runMacro API </h3>
 
 `runMacro` API allows you to execute a macro whose name was passed as a parameter in the API call.
 
