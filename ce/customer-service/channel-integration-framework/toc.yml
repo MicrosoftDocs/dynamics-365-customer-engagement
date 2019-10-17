@@ -18,7 +18,11 @@
     - name: "Onboard to version 2.0 flight"
       href: onboard-org-flight.md
     - name: "Sample softphone integration"
-      href: sample-softphone-integration.md
+      items:
+      - name: Sample for CIF Version 2.0
+        href: sample-softphone-integration-v2.md
+      - name: Sample for CIF Version 1.0  
+        href: sample-softphone-integration.md
   - name: "Support multiple providers"
     href: support-multiple-providers.md
   - name: "Modes for communication widget"

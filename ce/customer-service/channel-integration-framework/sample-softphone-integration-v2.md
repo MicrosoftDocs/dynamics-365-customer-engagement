@@ -1,36 +1,26 @@
 ---
-title: "Sample code for softphone integration using Channel Integration Framework version 1.0 | Microsoft Docs"
-description: "Learn about sample code for softphone integration using Channel Integration Framework version 1.0 with Microsoft Dynamics 365 Unified Interface App."
+title: "Sample code for softphone integration using Channel Integration Framework version 2.0 | Microsoft Docs"
+description: "Learn about sample code for softphone integration using Channel Integration Framework version 2.0 with Microsoft Dynamics 365 Unified Interface App."
 keywords: ""
-ms.date: 10/16/2019
+ms.date: 10/17/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: 30E520EC-1791-48DD-BD70-1D29D78E89AB
+ms.assetid: D0453F7C-8361-4BBD-B3BF-4462CEC00A31
 author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
+# Sample code for softphone integration using Channel Integration Framework version 2.0
 
-# Sample softphone integration using Channel Integration Framework
-
-[Download](https://go.microsoft.com/fwlink/p/?linkid=2025867) the softphone integration sample for Channel Integration Framework version 1.0.
-
-> [!NOTE]
-> The sample code is not supported on Internet Explorer and on browsers that do not have webRTC support. More information [WebRTC](https://webrtc.org/).
-
-> [!Important]
-> - This sample code currently has limited availability.
-> - The sample code for softphone integration with Dynamics 365 using Channel Integration Framework is made available so customers can get early access and provide feedback. The sample code is not meant for production use and may have limited or restricted functionality.
-> - Microsoft doesn't provide support for this sample code for production use and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. This is subject to [supplemental terms of use](https://go.microsoft.com/fwlink/p/?LinkId=511446)
+[Download](https://experience.dynamics.com/insider/campaign/program-downloads/?id=86c59063-b2c9-e911-a96f-000d3a4f33c1) softphone integration sample for Channel Integration Framework version 2.0.
 
 ## Pre-requisites
 
+- Omnichannel for Customer Service
 - A valid Azure subscription is required to publish the sample app to Azure.
 > [!Note]
 > If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/).
@@ -94,14 +84,18 @@ manager: shujoshi
 > - If you use a self-signed certificate for the Azure app or the Dynamics 365 org, certain browsers may reject the connection and fail to load the sample phone. As a workaround, open the Azure app in a separate tab and accept the certificate once.
 > - Ensure microphone and speaker access is not blocked by browser policy.
 
-## Related topics
+## Import configuration data
 
-- [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)
+1. Download the [Configuration Migration Tool](/power-platform/admin/manage-configuration-data). The Configuration Migration tool is available as a NuGet package.
+2. Start the Configuration Migration tool. Double-click DataMigrationUtility.exe in the folder: `[your folder]\Tools\ConfigurationMigration\`.
+3. On the main screen, click Import data, and click Continue.
+4. On the Login screen, provide authentication details to connect to your Dynamics 365 instance from where you want to import data. If you have multiple organizations on the Dynamics 365 for Customer Engagement server, and want to select the organization where to import the configuration data, select the Always display list of available orgs check box. Click Login.
+5. If you have multiple organizations, and you selected the Always display list of available orgs check box, the next screen lets you choose the organization that you want to connect to. Select a Dynamics 365 apps organization to connect to.
+6. Provide the data file. (data.zip) to be imported. Browse to the data file, and select it. Select **Import Data**.
+7. This step is applicable only if the data that you are importing contains the user information of the source system. Enter mapping user information on the target system. You can either map all of them to the user who is running the import process or map to individual users by using a user map file (.xml). If you choose the latter, you will have to either specify an existing user map file or the tool can generate it for you. If you generate a new file, fill in the mapping user name in the New parameter for every user on the source server. Select the user map file in the tool when you are done, and select **OK**.
+8. The next screen displays the import status of your records. The data import is done in multiple passes to first import the foundation data while queuing up the dependent data, and then import the dependent data in the subsequent passes to handle any data dependencies or linkages. This ensures clean and consistent data import.
+9. Select **Finish** to close the tool.
 
-- [Configure the channel provider](configure-channel-provider-channel-integration-framework.md)
+## See also
 
-- [Microsoft.CIFramework](reference/microsoft-ciframework.md)
-
-- [Client-side events](reference/client-side-events.md)
-
-- [Entity reference](reference/entities-attributes/msdyn-ciprovider.md)
+[Get Channel Integration Framework](get-channel-integration-framework.md)
