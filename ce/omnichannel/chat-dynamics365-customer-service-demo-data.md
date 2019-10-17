@@ -1,6 +1,6 @@
 ---
-title: "Demo data installation for Omnichannel for Customer Service | MicrosoftDocs"
-description: "Demo data installation for Omnichannel for Customer Service"
+title: "Demo data installation for Chat for Dynamics 365 Customer Service | MicrosoftDocs"
+description: "Demo data installation for Chat for Dynamics 365 Customer Service"
 keywords: ""
 ms.date: 10/14/2019
 ms.service:
@@ -15,7 +15,7 @@ manager: shujoshi
 ---
 
 
-# Demo data installation for Omnichannel for Dynamics 365 Customer Service
+# Demo data installation for Chat for Dynamics 365 Customer Service
 
 This topic describes instructions to install sample/demo data for Chat for Dynamics 365 Service capabilities to help you build your own demo environments.
 
