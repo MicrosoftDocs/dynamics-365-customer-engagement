@@ -174,6 +174,18 @@ Here are a few more examples of how to use hops to create useful conditions:
 * **Lead.lead&#95;contact&#95;parentcontactid**: Lets you score leads associated with contacts who have particular properties (such as contacts who have a Microsoft email address&#8212;where <em>Email | contains | @microsoft.com</em>).
 * **Lead.lead&#95;contact&#95;parentcontactid.contact&#95;account&#95;parentcustomerid**: Lets you score leads associated with contacts who belong to accounts with particular properties (such as accounts where _Number of employees | > | 500_).
 
+## Find leads that were scored by a selected model
+
+To find all the leads that a selected model has scored:
+
+1. Go to **Marketing** > **Lead management** > **Lead scoring models** to open a list of models and then open the one you want to inspect.
+
+1. Select the **Related** tab to open a drop-down list of related entities and then select **Lead scores** from the list.
+
+    ![Open related lead scores](media/lead-score-related.png "Open related lead scores")
+
+1. A new **Lead scores** tab is added and opened. Here you can see each lead that your selected model has scored, plus the score and grade for each of them. You can select any listed lead to open it, or select **Export lead scores** to download the list as an Excel file.
+
 ### See also
 
 [Set up lead scoring](set-up-lead-scoring.md)  
