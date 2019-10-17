@@ -27,14 +27,35 @@ search.app:
 
 The Product entity in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] contains information about products that may be sold to customers. Typical information stored in this entity are model number, manufacturer, warranty information, price, cost, etc. Products are usually added to work orders when an incident is added. Products added to a work order initially have a status of "estimated" and can be marked as "used," indicating that they were sold and billed to a client.  
 
+F&O
 
-Create a product or service
+## Create a product or service
 
-Add a product or service to a work order
+- price list
+- price list item
 
-Configuration considerations
+## Add product inventory
 
-Additional notes
+## Add a product or service to a work order
+
+- manual
+- incident
+- allocation
+- FSM
+- calculations 
+
+## Configuration considerations
+
+System Settings on the Sales tab related to Product setup. 
+Product in Active Status upon creation.  Best practice is to set this to Yes.
+Minimum # of Products in a Bundle.
+Max # of Properties allowed for a Product or Bundle. 
+
+FS settings
+- allocated by default
+- use invetnroy past 0
+
+## Additional notes
 
 
 1. From the main menu, click **Field Service** > **Administration**, and then choose **Product**.  
