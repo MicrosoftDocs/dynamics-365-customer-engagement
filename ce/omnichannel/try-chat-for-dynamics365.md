@@ -23,8 +23,8 @@ Chat for Dynamics 365 Customer Service is an engagement channel that enables you
 
 There are two options to sign-up for a free 30-day trial of Chat:
 
-1. [Channels trial through trials.dynamics.com](#option-1-chat-trial-through-trialsdynamicscom)
-2. [Channels trial through Microsoft 365 admin center](#option-2-chat-trial-through-microsoft-365-admin-center)
+1. [Channels trial through trials.dynamics.com](#option-1-channels-trial-through-trialsdynamicscom)
+2. [Channels trial through Microsoft 365 admin center](#option-2-channels-trial-through-microsoft-365-admin-center)
 
 ## Option 1: Channels trial through trials.dynamics.com
 
