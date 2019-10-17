@@ -1,56 +1,58 @@
 ---
 title: "Demo data installation for Omnichannel for Customer Service | MicrosoftDocs"
 description: "Demo data installation for Omnichannel for Customer Service"
+keywords: ""
 ms.date: 10/14/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
   - ""
 ms.topic: article
+ms.assetid: 3ab5c130-aae8-6717-22cf-cf7fe0cf4168
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 ---
 
 
-# Demo data installation for Omnichannel for Customer Service
+# Demo data installation for Omnichannel for Dynamics 365 Customer Service
 
-Microsoft provides downloadable Demo data packages that showcase Chat for
-Dynamics 365 Customer Service capabilities to help you build your own demo
-environments.
+This topic describes instructions to install sample/demo data for Chat for Dynamics 365 Service capabilities to help you build your own demo environments.
 
-Omnichannel Demo Data is already set-up in the package, so you can install and
-configure data for Chat for Dynamics 365 Customer Service only.
+The sample data is available as a downloadable demo package, which you can install in your Omnichannel for Dynamics 365 Customer Service demo environment. 
 
 - [Omnichannel Demo Data](https://go.microsoft.com/fwlink/?linkid=2026536&clcid=0x409)
 
-> [!IMPORTANT]
-> Once installed, Demo data cannot be uninstalled. Also, the Demo data package is only available in English. Only install the package on demonstration, evaluation, training, or test systems.
 
-When installing any of the Demo data packages, the following actions occur
-during the installation process:
+> [!IMPORTANT]
+> Once installed, demo data can't be uninstalled. Also, the Demo data package is only available in English. Only install the package on demonstration, evaluation, training, or test systems.
+
+When installing any of the Demo data packages, the following actions occur during the installation process:
 
 - Default parameters for using Omnichannel are created and/or set.
 - Demo data and configuration for the applications are imported (e.g.: Chat
-    widget, Work Streams, Queues, and other entities) to demonstrate key
-    capabilities.
+            widget, Work Streams, Queues, and other entities) to demonstrate key
+            capabilities.
 
-Wondering what capabilities you can demo with the Demo data? See Fabrikam
-scenario below.
+Wondering what capabilities you can demo with the Demo data? See the Fabrikam scenario below.
+
 
 ## Requirements
 
-The installation protocol assumes the following about your target instance (org):
+The following are the requirements to install sample data in your target environment:
 
-- Dynamics 365 for Customer Engagement 9.0.x or later
+- Latest version of Common Data Service platform
 - Base language is English
-- The org has no Omnichannel for Customer Service data already, or only has barebones default data that comes with any new org
+- The environment has no Omnichannel for Customer Service data already, or only has default data that comes with any new org
 - The correct version of the business application is already installed Chat for Dynamics 365 Customer Service 
-
-- The org has Omnichannel for Customer Service provisioned and Chat channel is enabled.
+- The org has Omnichannel for Customer Service provisioned and the Chat channel is enabled.
 
 > [!NOTE]
 > If you need to install the Demo data on top of an existing Chat for Dynamics 365 trial or a demo environment that already has data (not recommended), you'll need to suspend the safety prechecks performed by the installer. For more information, see the \<technical notes\> [create jump link].
+
+
+
+
 
 ## Prepare for installation
 
