@@ -5,7 +5,7 @@ keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 10/17/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: B5E47D77-A36D-4CA5-A817-C8BD848D93B8
@@ -15,22 +15,91 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
+<table>
+<tr>
+<td>
+
+### Live chat widget SDK
+
 Omnichannel for Customer Service live chat widget SDK provides methods that allow you to:
 - Set, retrieve and remove custom context provider for a live chat session.
 - Open an existing chat or initiate a new one.
 - Set, retrieve, and remove authentication-token providers for a live chat session.
 
-## In this section
-
-[Manage custom context](how-to/send-context-starting-chat.md)<br />
-[Display custom context](how-to/display-custom-context.md)<br />
-[Send authentication token](how-to/send-auth-token-starting-chat.md)<br />
 [Initiate a chat](how-to/initiate-chat-wait-time.md)<br />
-[Start chat proactively](how-to/start-proactive-chat.md)<br />
+[JavaScript API reference for live chat SDK](omnichannel-reference.md)
+
+</td>
+<td>
+
+### Start proactive chat
+
+Anticipating areas where customers need help and then engaging them through chat when they have been browsing your website for some time helps improve customer experience. Omnichannel for Customer Service allows you to offer proactive chat request to your customers when you feel they can use some help.
+
+[Start chat proactively](how-to/start-proactive-chat.md)
+
+</td>
+</tr>
+<tr>
+<td>
+
+### Manage custom context
+
+When a customer initiate a chat, you can pass custom context to Omnichannel for Customer Service.
+
+[Manage custom context](how-to/send-context-starting-chat.md)
+
+</td>
+<td>
+
+### Display custom context
+
+Read how you can display the context variables in the Conversation Summary Control for a conversation on the UI.
+
+[Display custom context](how-to/display-custom-context.md)
+
+</td>
+</tr>
+<tr>
+<td>
+
+### Send authentication token
+
+Read how you can pass an authentication token to Omnichannel for Customer Service to authenticate a customer when they initiate a chat.
+
+[Send authentication token](how-to/send-auth-token-starting-chat.md)
+
+</td>
+<td>
+
+### Enable a bot to escalate and end conversation
+
+Omnichannel for Customer Service allows you to route a conversation to a human agent when you feel that human intervention is required to successfully help the customer.
+
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)<br />
-[Auto-close a conversation](auto-close-conversation.md)<br />
-[JavaScript API reference for live chat SDK](omnichannel-reference.md)<br />
+
+</td>
+</tr>
+<tr>
+<td>
+
+### Auto-close a conversation
+
+Read how you can automatically close a conversation using Web API.
+
+[Auto-close a conversation](auto-close-conversation.md)
+
+</td>
+<td>
+
+### runMacro API
+
+`runMacro` API allows you to execute a macro whose name was passed as a parameter in the API call.
+
 [runMacro method](reference/methods/runMacro.md)
+
+</td>
+</tr>
 
 ### See also
 
