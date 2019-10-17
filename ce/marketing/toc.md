@@ -161,6 +161,7 @@
 #### [Manage attendee logistics and accommodation](manage-event-logistic.md)
 #### [Set up the event website](set-up-event-portal.md)
 #### [Set up online payment for events](event-payment-gateway.md)
+#### [Change the URL for events hosted on Portals](events-change-url.md)
 #### [Add custom fields to your event registration form](custom-registration-fields.md)
 #### [Invite, register, and house event attendees](invite-register-house-event-attendees.md)
 #### [Follow up after the event](followup-after-event.md)
