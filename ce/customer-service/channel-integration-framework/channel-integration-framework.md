@@ -59,7 +59,7 @@ manager: shujoshi
 <tr>
 <td>
 
-<h2> Integration with multi-session experiences </h2>
+<h2> Integrate</h2>
 
 <li><a href="integration-multi-session-experiences.md" data-raw-source="[Integration with multi-session experiences](integration-multi-session-experiences.md)">Integration with multi-session experiences</a></li>
 </td>
