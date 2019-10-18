@@ -19,9 +19,7 @@ To cater to your organizational needs, the Intraday insights allows you to custo
 
 - [Add custom KPIs](#add-custom-kpis)
 
-- [Edit measures of existing KPIs](#edit-measures-of-existing-kpis)
-
-- [Edit visuals of existing KPIs](#edit-visuals-of-existing-kpis)
+- [Edit measures and visuals of existing KPIs](#edit-measures-and-visuals-of-existing-kpis)
 
 ## Review prerequisites
 
@@ -38,63 +36,113 @@ Verify the following prerequisites before you add the custom KPIs:
 
 You can add the custom KPIs that are specific to your organization to Intraday insights. This allows Intraday insights to be more specific and help supervisors to adhere your organizational requirements. To add custom KPIs, follow these steps:
 
-1. Open the Power BI desktop application and sign in with your administrator credentials.
+1. [Review the prerequisites](#review-prerequisites).
 
-2. From the **Home** menu, select **Get Data** > **Power BI datasets**.
+2. Open the Power BI desktop application and sign in with your administrator credentials.
 
-    > [!div class=mx-imgBorder]
-    > ![Select Power BI datasets](../media/supervisor-admin-custom-kpis-select-pbidatasets.png "Select Power BI datasets")
+3. From the **Home** menu, select **Get Data** > **Power BI datasets**.
 
-    The dataset selection dialog box opens.
+   > [!div class=mx-imgBorder]
+   > ![Select Power BI datasets](../media/supervisor-admin-custom-kpis-select-pbidatasets.png "Select Power BI datasets")
 
-3. Select **Intraday insights** and the fields related to Intraday insights dashboards are loaded.
+   The dataset selection dialog box opens.
 
-4. Select a field and create a measure for the field. To learn more about creating you own measure, see [Create a measures](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-create-measures#create-a-measure).
+4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-power-bi-workspace-in-omnichannel-administration-app)), and then select **Load**.
 
-5. Save and publish the measure.
- 
-6. Add the measure to your report. To learn more, see [Use your measure in the report](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-create-measures#use-your-measure-in-the-report)
+   > [!div class=mx-imgBorder]
+   > ![Select Intraday insights datasets](../media/supervisor-admin-custom-kpis-select-pbidatasets-intraday.png "Select Intraday insights datasets")
+
+   The fields related to Intraday insights are loaded.
+
+5. From the field category list, select a category to create a measure and then select **More options** (**...**) > **New measure**.
+
+    In this example, we are creating a measure for the field category **AgentAvailability**.
+
+   > [!div class=mx-imgBorder]
+   > ![Select Agent Availability field](../media/supervisor-admin-custom-kpis-select-fields.png "Select Agent Availability field")
+
+    A new measure is created for the field.
+
+6. The formula bar appears along the top of the Report canvas, where you can rename your measure and enter a DAX formula.
+
+    In this example, we are adding a measure for calculating the total number hours that an agent is working on a workitem.
+
+    ```
+    Total agent work hours = Agent[Average Session Handling Time] + Agent[Average Conversations Per Online Agents]
+    ```
+
+    The measure is added.  
+
+7. Select the measure and verify that the measure is working as defined.
+
+   > [!div class=mx-imgBorder]
+   > ![Verify created measure](../media/supervisor-admin-custom-kpis-select-verify-measure-formula.png "Verify created measure")
+
+    To learn more about creating measure, see [Create a measures](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-create-measures#create-a-measure).
+
+8. Add the measure to your report. To learn more, see [Use your measure in the report](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-create-measures#use-your-measure-in-the-report).
+
+9. Publish the report.
 
     The custom KPI measure is added to Intraday insights dashboard.
 
 To learn more about how to create custom measures, see [Tutorial: Create your own measures in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-create-measures).
 
+## Edit measures and visuals of existing KPIs
 
-## Edit measures of existing KPIs
+You can edit the measures and visuals of existing custom and out-of-the-box KPIs to match your organizational requirements. This helps in reducing the effort of adding a new KPI to the Intraday insights. To edit measures of existing KPIs, follow these steps:
 
-You can edit the existing custom and out-of-the-box KPIs to match your organizational requirements. This helps in reducing the effort of adding a new KPI to the Intraday insights. To edit measures of existing KPIs, follow these steps:
+1. [Review the prerequisites](#review-prerequisites).
 
-1. Open the Power BI desktop application and sign in with your administrator credentials.
+2. Open the Power BI desktop application and sign in with your administrator credentials.
 
-2. From the **Home** menu, select **Get Data** > **Power BI datasets**.
+3. From the **Home** menu, select **Get Data** > **Power BI datasets**.
 
-    > [!div class=mx-imgBorder]
-    > ![Select Power BI datasets](../media/supervisor-admin-custom-kpis-select-pbidatasets.png "Select Power BI datasets")
+   > [!div class=mx-imgBorder]
+   > ![Select Power BI datasets](../media/supervisor-admin-custom-kpis-select-pbidatasets.png "Select Power BI datasets")
 
-    The dataset selection dialog box opens.
+   The dataset selection dialog box opens.
 
-3. 
+4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-power-bi-workspace-in-omnichannel-administration-app)), and then select **Load**.
 
+   > [!div class=mx-imgBorder]
+   > ![Select Intraday insights datasets](../media/supervisor-admin-custom-kpis-select-pbidatasets-intraday.png "Select Intraday insights datasets")
 
+   The fields related to Intraday insights are loaded.
 
+5. To edit a measure:
 
+    1. From the field category list, select a category and then select the field for which you want to change the measure.  
 
-## Edit visuals of existing KPIs 
+       > [!NOTE]
+       > Fields with measures are preceded with a calculator icon. 
 
-You might have some visuals such as graphs and colors on the KPIs that may not suite your organizational requirements. You can update these visuals for custom and out-of-the-box KPIs to match your organizational requirements. To edit visuals of existing KPIs, follow these steps:      
+       In this example we are selecting **Total agent work hours** field from **AgentAvailability** category. The details of for the field is displayed including its formula bar.
 
-1. Open the Power BI desktop application and sign in with your administrator credentials.
+       > [!div class=mx-imgBorder]
+       > ![Select a field to edit the measure](../media/supervisor-admin-custom-kpis-select-field-edit-measure.png "Select a field to edit the measure")
 
-2. From the **Home** menu, select **Get Data** > **Power BI datasets**.
+    2. From the formula bar, edit the formula as required.
 
-    > [!div class=mx-imgBorder]
-    > ![Select Power BI datasets](../media/supervisor-admin-custom-kpis-select-pbidatasets.png "Select Power BI datasets")
+        To learn more about change visualizations, see [Create and use your own measures](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-create-measures#create-and-use-your-own-measures).
+    
+6. To edit a visual:
 
-    The dataset selection dialog box opens.
+    1. From the field category list, select a category and then select the field for which you want to change the visual.  
 
-3. 
+       In this example we are selecting **Agent Handling Time** field from **Session** category. The visual for the field is displayed.
 
+       > [!div class=mx-imgBorder]
+       > ![Select a field to change visualization](../media/supervisor-admin-custom-kpis-visual-field-selection.png "Select a field to change visualization")
 
+    2. From the **VISUALIZATIONS** tab, edit the visualizations of the field as required. In this example, we are changing the chart to a pie chart.
+
+       > [!div class=mx-imgBorder]
+       > ![Change visualization from bar chart to pie chart](../media/supervisor-admin-custom-kpis-change-bar-to-pie.png "Change visualization from bar chart to pie chart")
+
+        To learn more about change visualizations, see [Add visualizations to a Power BI report](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-report-add-visualizations-i).
+
+7. Publish the report.
 
 ### See also
 
