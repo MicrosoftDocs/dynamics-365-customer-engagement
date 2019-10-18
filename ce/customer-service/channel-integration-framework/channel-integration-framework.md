@@ -43,6 +43,11 @@ manager: shujoshi
 
 <h2> Templates </h2>
 
+<li><a href="session-templates-cif.md" data-raw-source="[Manage session templates](session-templates-cif.md)">Manage session templates</a></li>
+<li><a href="application-tab-templates-cif.md" data-raw-source="[Manage application tab templates](application-tab-templates-cif.md)">Manage application tab templates</a></li>
+<li><a href="notification-templates-cif.md" data-raw-source="[Manage notification templates](notification-templates-cif.md)">Manage notification templates</a></li>
+<li><a href="parameter-values-cif.md" data-raw-source="[Pass parameters values](parameter-values-cif.md)">Pass parameters values</a></li>
+<li><a href="associate-templates-cif.md" data-raw-source="[Associate templates with scenarios](associate-templates-cif.md)">Associate templates with scenarios</a></li>
 </td>
 <td>
 
@@ -54,7 +59,7 @@ manager: shujoshi
 <tr>
 <td>
 
-<h2> Integration with multi-session experiences </h2>
+<h2> Integrate</h2>
 
 <li><a href="integration-multi-session-experiences.md" data-raw-source="[Integration with multi-session experiences](integration-multi-session-experiences.md)">Integration with multi-session experiences</a></li>
 </td>
