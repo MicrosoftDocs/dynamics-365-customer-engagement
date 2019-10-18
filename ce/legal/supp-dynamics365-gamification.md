@@ -2,6 +2,7 @@
 title: Supplemental Terms
 author: brycho
 ---
+# Supplemental Terms of Use for Dynamics 365 - Gamification
 
 **PLEASE NOTE:** Microsoft Corporation (or based on where you live, one of its
 affiliates) licenses this supplement to you. You may use it with each validly
