@@ -28,7 +28,7 @@ There are two options to sign-up for a free 30-day trial of Chat:
 
 ## Option 1: Chat trial through Microsoft 365 admin center
 
-With this option, you can sign-up for a free 30-day trial of Chat from the Microsoft 365 admin center only if you have a paid subscription of Dynamics 365 Customer Service Enterprise that has been purchased directly through the Microsoft 365 admin center (that is, Web Direct channel). If you do not have one of these pre-requisite subscriptions, or if you have purchased these pre-requisite subscriptions through another channel then the option to try Chat will not be available in the Microsoft 365 admin center.
+With this option, you can sign-up for a free 30-day trial of Chat from the Microsoft 365 admin center only if you have a paid subscription of Dynamics 365 Customer Service Enterprise that has been purchased directly through the Microsoft 365 admin center (that is, Web Direct channel). If you do not have the pre-requisite subscription, or if you have purchased the pre-requisite subscription through another channel, then the option to try Chat will not be available in the Microsoft 365 admin center.
 
 > [!NOTE]
 > For more information on the Chat license, pricing and pre-requisites, please refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
