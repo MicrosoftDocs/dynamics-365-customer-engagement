@@ -87,9 +87,14 @@ You can seamlessly integrate several providers by using the Channel Integration 
 
 The Channel Integration Framework is Dynamics 365 Unified Interface App agnostic. You can build the channel integration one-time and enable it on the Unified Interface Apps of your choice based on the business requirements.
 
+> [!NOTE]
+> Multi-session capabilities are only available for version 2.0.
+
 **Independent of operating systems and web browsers:**
 
 The Channel Integration Framework is web browser and operating system agnostic, and lets you integrate the cloud-based channels of your choice that is best for your organization's requirement.
+
+See the list of supported web browsers here: [Supported browsers](system-requirements-channel-integration-framework.md#supported-browsers).
 
 **Support for Screen pop:**
 

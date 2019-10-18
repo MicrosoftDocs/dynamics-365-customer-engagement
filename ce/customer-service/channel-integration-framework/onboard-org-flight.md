@@ -14,6 +14,8 @@ ms.custom:
 ---
 # Preview: Onboard your organization to Channel Integration Framework Version 2.0 flight
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Before you go to AppSource to install Channel Integration Framework version 2.0, you will need to onboard your organization to the version 2.0 flight. Follow the steps given below to onboard your organization to Channel Integration Framework Version 2.0 flight.
 
 1. Launch Windows Powershell Prompt and enter the list of commands given below.

@@ -27,7 +27,7 @@ This topic describes the system requirements of the Dynamics 365 Channel Integra
 
 ## Omnichannel for Customer Service
 
-To set up Channel Integration Framework version 2.0, your organization must use Omnichannel for Customer Service app.
+To avail multi-session capabilities, your organization must use Omnichannel for Customer Service app.
 
 ## Supported browsers
 

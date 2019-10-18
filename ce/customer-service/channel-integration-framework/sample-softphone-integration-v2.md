@@ -16,7 +16,17 @@ manager: shujoshi
 ---
 # Preview: Sample code for softphone integration using Channel Integration Framework version 2.0
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 [Download](https://experience.dynamics.com/insider/campaign/program-downloads/?id=86c59063-b2c9-e911-a96f-000d3a4f33c1) softphone integration sample for Channel Integration Framework version 2.0.
+
+> [!NOTE]
+> The sample code is not supported on Internet Explorer and on browsers that do not have webRTC support. More information [WebRTC](https://webrtc.org/).
+
+> [!Important]
+> - This sample code currently has limited availability.
+> - The sample code for softphone integration with Dynamics 365 using Channel Integration Framework is made available so customers can get early access and provide feedback. The sample code is not meant for production use and may have limited or restricted functionality.
+> - Microsoft doesn't provide support for this sample code for production use and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. This is subject to [supplemental terms of use](https://go.microsoft.com/fwlink/p/?LinkId=511446)
 
 ## Pre-requisites
 
@@ -67,7 +77,7 @@ manager: shujoshi
   |Channel URL| The channel URL is in the format: `<azure_app_service_url>?base=<crm_base_url>`<br /><br />**Note:** For this sample, the URL is `https://sampleinteg.azurewebsites.net?base=https://sampleorg.crm10.dynamics.com`. |
   |Enable Outbound Communication| Yes |
   |Channel Order| 0 |
-  |API Version| 1.0 |
+  |API Version| 2.0 |
   |Trusted Domains|The domain (URL) that can access the Channel Integration Framework APIs.|
   |Select the Unified Interface Apps for the Channel| The list of Unified Interface Apps where the channel is displayed for the agents. |
   |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface App.|
