@@ -12,7 +12,7 @@ ms.assetid: 3DBB1579-ECD2-43E6-B994-6D83A7C2C8F1
 ms.custom: 	
 ---
 
-# Walkthrough - Create multiple workstreams for entity records routing
+# Create multiple workstreams for entity records routing
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -27,100 +27,23 @@ This walkthrough demonstrates how to set up two workstreams, one each for high p
 
 ### In this section
 
-[Step 1: Create queues](#step-1-create-queues)
+[Step 1: Create workstream](#step-1-create-workstream)
 
-[Step 2: Create workstream](#step-2-create-workstream)
+[Step 2: Create routing rules](#step-3-create-routing-rules)
 
-[Step 3: Create routing rules](#step-3-create-routing-rules)
+[Step 3: Update Entity Record Distribution Flow](#step-3-update-entity-records-distribution-flow)
 
-[Step 4: Update Entity Record Distribution Flow](#step-4-update-entity-record-distribution-flow)
-
-## Step 1: Create queues
-
-Create a new omnichannel queue or use an existing omnichannel queue. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
-
-## Step 2: Create workstream
+## Step 1: Create workstream
 
 Create entity records workstream to define how records will be distributed. In this walkthrough, let us create two workstreams - **High Priority Cases** and **Low Priority Cases**.
 
 To learn more, see [Entity record workstreams](set-up-entity-workstream.md).
 
-## Step 3: Create routing rules
+## Step 2: Create routing rules
 
-After creating an entity record configuration, and enabling an entity for routing, you can define routing rules to route these records to appropriate queues.
+To learn more, see [Create routing rules](entity-channel.md#step-4-create-routing-rules).
 
-> [!Note]
-> - To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/install-routing-rules-preview-solution.md).
->
-> - Only one routing rule set can be active at any point of time. If you try to activate another rule when one rule is already active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.
->
-> - You can’t edit an active routing rule set. Therefore, if you’re importing a solution that includes an active routing rule set into an organization where the rule already exists with the same ID, the solution import will fail.
-
-1. Sign in to the Omnichannel Administration app.
-
-2. Select **Workstreams** under **Work Distribution Management** in the sitemap.
-
-3. Select the record you created for routing the cases from the **Active Work Streams** view.
-
-    > [!div class=mx-imgBorder] 
-    > ![Select a case workstream](../media/case-entity-channel.png "Case workstream") 
-
-
-4. Select the **Routing Rules** tab in the workstream.
-
-    > [!div class=mx-imgBorder] 
-    > ![Select the routing rule items tab](../media/case-routing-rule.png "Routing rule items")
-
-5. Select **+ New** in the **All Routing Rule Sets** page.
-
-6. Specify the following in the **New Routing Rule Set** page
-
-    | Tab | Field | Value | Description | 
-    |------------------|----------------------------|----------------------------------|--------------------------------------------|
-    | General | Name | Case routing rules | Specify a name to the routing rule set. |
-    | General | Entity | Case | Select the entity for which you are creating the rule set. |
-    | General | Description | This routing rule set is used for routing high priority cases to agents. | Specify a description for you to identify the purpose of the routing rule set. |
-
-    > [!div class=mx-imgBorder] 
-    > ![Add New Rule Item](../media/case-ws-rr-entity.png "Add New Rule Item")
-
-7. select **Save** to save the rule set. Once you save the record, you can see the **Rule Items** section in the page.
-
-8. Select **+ Add New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
-
-    > [!div class=mx-imgBorder] 
-    > ![Add New Rule Item](../media/case-ws-rr2.png "Add New Rule Item")
-
-9. Specify the following on the **New Rule Item** page.
-
-    | Tab | Field | value | Description |
-    |------------------|----------------------------|----------------------------------|--------------------------------------------|
-    | General | Name | Product - Credit card | Specify a name to the rule item. |
-    | General | Description | This rule item is used to for pushing high priority cases to the agents. | Specify a description for you to identify the purpose of the rule item. |
-
-10. Select **+ Add** in the **Rule Criteria** section, and then select **+ Add row**.
-
-    a. Select a rule from the list for the first box. For example, **Subject**.
-
-    b. Select a condition from the list. For example, **Contains**.
-
-    c. Select a value for the rule from the list. For example, **Credit card**.
-
-11. Select **Queue** for the **Route to** field. 
-
-12. Select an omnichannel queue for the **Add to Queue** field.
-
-    The steps 9 to 11 indicate if the **Subject** of a case is **Credit card**, then route the case to the selected omnichannel queue.
-
-    > [!div class=mx-imgBorder] 
-    > ![New Rule Item values](../media/case-ws-rr-rule-item2.png "New Rule Item values")
-
-    > [!Note]
-    > You must select an omnichannel queue for automatic work distribution in the **Add to Queue** field to automatically assign entity records to agents.
-
-13. Select **Save** to save the rule item.
-
-## Step 4: Update entity record distribution flow
+## Step 3: Update entity records distribution flow
 
 If you are creating or editing an entity record workstream, you must update **Entity records Distribution Flow**. The Omnichannel application automatically creates this flow out-of-the-box for distributing entity records. 
 

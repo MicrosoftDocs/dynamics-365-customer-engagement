@@ -38,7 +38,6 @@
 #### Entity records
 ##### [Entity records routing](administrator/entity-channel.md)
 ##### [Route trigger for entity records](administrator/routing-trigger.md)
-##### [Walkthrough: Create multiple workstreams for entity records routing](administrator/multiple-ws-entity-record-routing.md)
 
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)
@@ -51,7 +50,8 @@
 
 ### Work Distribution Management
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
-#### [Entity record workstreams](administrator/set-up-entity-workstream.md)
+#### [Create workstream for entity record routing](administrator/set-up-entity-workstream.md)
+##### [Create multiple workstreams for entity records routing](administrator/multiple-ws-entity-record-routing.md)
 #### [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
 

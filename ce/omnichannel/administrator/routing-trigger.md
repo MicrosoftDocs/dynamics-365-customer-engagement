@@ -17,20 +17,14 @@ ms.custom:
 
 ## Overview
 
-If your organization doesn't want to route all the entity records upon creation of entity records, as an administrator, you can define a trigger on when and which entity records can be routed automatically.
+After you set up and enable an entity for routing, you can manually trigger the routing for these records using the save and route button on the entity record forms. As an administrator, you can also setup automatic triggers to route these entity records using Microsoft Flow. There are two types of triggers:
 
-There are two types of triggers:
-
-- Manual trigger - Save & Route
-- Automatic trigger - Route trigger Flow
+- Manual trigger using **Save & Route** and **Apply Routing Rules**
+- Automatic trigger using custom Flow
 
 ## Manual trigger
 
-When ever you enable a entity for routing, you can view the **Save & Route** button in the ribbon command bar. Use this button to route the entity records manually.
-
-To save a entity record and route it to a queue in a single click, use the **Save & Route** button.
-
-If you don't have permissions to do Save & Route, then contact your administrator. To learn more, see [Required Privileges](../../customer-service/create-rules-automatically-route-cases#create-a-routing-rule-set-customer-service-app).
+After you enable an entity for routing, you see the **Save & Route** in the entity form ribbon command bar and **Apply Routing rules**  in the entity view ribbon command bar. You can use these commands to route the record.
 
 1. Sign in to Omnichannel for Customer Service app.
 
@@ -41,6 +35,8 @@ If you don't have permissions to do Save & Route, then contact your administrato
 4. Select **Route**.  
 
 The entity record will be routed based on the active routing rule set.
+
+If you don't have permissions to save  and route, then contact your administrator. To learn more, see [Required Privileges](../../customer-service/create-rules-automatically-route-cases#create-a-routing-rule-set-customer-service-app).
 
 ## Automatic trigger
 
@@ -97,4 +93,4 @@ Whenever a first entity record, say lead, is created, the Flow applies the **App
 
 [Entity records routing](entity-channel.md)
 
-[Walkthrough: Create multiple workstreams for entity records routing](multiple-ws-entity-record-routing.md)
+[Create multiple workstreams for entity records routing](multiple-ws-entity-record-routing.md)

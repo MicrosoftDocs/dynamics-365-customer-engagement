@@ -1,7 +1,6 @@
 ---	
 title: "Set up entity work stream | MicrosoftDocs "	
-description: "Learn how to set up entity work stream in the Omnichannel for Customer Service"	
-keywords: Create entity channel; Omnichannel for Customer Service; Omnichannel Administration
+description: "Learn how to set up entity work stream in the Omnichannel for Customer Service."
 author: kabala123	
 ms.author: kabala	
 manager: shujoshi	
@@ -13,7 +12,7 @@ ms.assetid: 62703F93-3484-4D3E-B682-A9601619567F
 ms.custom: 	
 ---	
 
-# Entity record workstreams
+# Create workstream for entity record routing
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -66,4 +65,4 @@ Follow the steps to update the **Entity** field.
 
 [Understand and create workstreams](work-streams-introduction.md)
 
-[Walkthrough: Create multiple workstreams for entity records routing](multiple-ws-entity-record-routing.md)
+[Create multiple workstreams for entity records routing](multiple-ws-entity-record-routing.md)

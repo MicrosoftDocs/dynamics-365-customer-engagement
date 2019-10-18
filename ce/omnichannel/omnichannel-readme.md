@@ -153,7 +153,7 @@ The updates you do to the out-of-the-box **Cases Work Distribution Flow** for un
 ### Workaround
 Authorize Common Data Service native connector in the flow before you save it.
 
-More information: [Update cases work distribution flow](administrator/multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow)
+More information: [Update cases work distribution flow](administrator/multiple-ws-entity-record-routing.md#step-3update-entity-records-work-distribution-flow)
 
 ## Entity records aren't distributed to agents
 
