@@ -51,7 +51,7 @@
 ### Work Distribution Management
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
 #### [Create workstream for entity record routing](administrator/set-up-entity-workstream.md)
-##### [Create multiple workstreams for entity records routing](administrator/multiple-ws-entity-record-routing.md)
+#### [Create multiple workstreams for entity records routing](administrator/multiple-ws-entity-record-routing.md)
 #### [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
 
