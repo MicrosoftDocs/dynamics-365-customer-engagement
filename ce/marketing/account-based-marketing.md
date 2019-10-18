@@ -2,7 +2,7 @@
 title: "Marketing to accounts (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Create account-based leads, lead scoring, and customer journeys in Dynamics 365 Marketing."
 keywords: account-based marketing; lead scoring; customer journey; email; insights
-ms.date: 12/17/2018
+ms.date: 10/09/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -46,38 +46,38 @@ With account-based marketing, business-to-business (B2B) marketers can use Dynam
 
 As with all types of segments, the segments that you create for use with account-based customer journeys must resolve to a collection of contacts. However, when an account-based journey processes the segment, it will often look up the account each contact belongs to, and may sometimes group contacts by their account.
 
-### Create a dynamic segment starting with accounts
+### Create a firmographic segment
 
-When you're creating dynamic segments for account-based marketing, you'll probably often want to start by finding the relevant accounts and then finding the attached contacts. Here's how to set up a segment like this:
+Firmographic segments are dynamic segments pre-configured to include a query into the account entity, but which resolve to the contact entity. Here's how to set up a segment like this:
 
-1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar. A new segment record opens with the **Definition** > **Designer** tab showing.  
-    ![Close the default group](media/segment-opportunity-close-group.png "Close the default group")
+1. Go to **Marketing** > **Customers** > **Segments** and select **New** on the command bar. Then select **Firmographic** on the **Let's create your segment** screen.
 
-    Do the following:
+1. A new firmographic segment opens. Check the view setting near the upper corner of the **Definition** tab and make sure it's set to **Tree view**. (You could use either view, but in this procedure we show and describe the tree view, so it's a good idea to use it for now.)
 
-    - Enter a **Name** for the segment at the top of the page.
-    - Select the close button to remove the default contact group from the **Designer** area. Many of your segments will probably start and end with the contact entity, but for this example we will start with accounts instead.
+    ![Choose the tree view](media/segment-firmographic-tree-view.png "Choose the tree view")
 
-1. When default contact group closes, it's replaced by a **Select a profile or relationship** drop-down list. Select **Accounts** from here.
+1. Note that your firmographic segment already includes a link to the related account entity, as indicated by the **Account (Contact -> Account (Company Name))** relationship. This relationship tells you that you are referencing the **Account** entity, and that the relation between that entity and the parent **Contact** entity (shown at the base of the tree) goes through the **Company Name** field of the **Contact** entity. The **Company Name** field holds the name of the company (account) that each contact works for, so this query will find employees of the accounts we are about to define. More information: [Move between entities with relationships](segments-profile.md#relationships)
 
-1. Finish setting up the selection criteria to find the accounts you are looking for. For example, to find all accounts in Chicago with an annual revenue over $100,000, you would set up the following two clauses:
+    ![The contact entity with a relation to accounts](media/segment-firmographic-entities.png "The contact entity with a relation to accounts")
 
-    **Account | Address 1: City | is | Chicago**  
-    **And | Account | Annual Revenue | ≥ | 100000**
+1. Use the drop-down lists and input fields in the rows indented under the **Account (Contact -> Account (Company Name))** relation to define the set of accounts you'd like to find. All of the criteria you enter here are based on values found in your account records (not contact records). For example, to find all accounts in Chicago with an annual revenue of $100,000 or more, you'd include the following two rows here, and combine them with an AND operator:
 
-    ![Example account query](media/abm-segment-2.png "Example account query")
+    **Address 1: City | Equals | Chicago**  
+    **Annual Revenue | Is greater than or equal to | 100000**
 
-1. When you're done setting up your account query, you must create a relation to the contact entity. To do that, select the **+ And** button to add a new **Select a profile or relationship** drop-down list, and choose **Contact -> Account (Company name)** from that list. This value describes a relationship between the **contact** entity and the **account** entity, where the **Company name** field of the contact entity contains the ID (but displays the name) of the account record that contact belongs to (in other words, it finds the contacts that belong to the accounts we've found so far).
+    ![Accounts in Chicago with an annual revenue of $100,000 or more](media/segment-firmographic-accounts.png "Accounts in Chicago with an annual revenue of $100,000 or more")
 
-    ![Add the relationship between account and contact](media/abm-segment-3.png "Add the relationship between account and contact")
+1. The segment currently finds all contacts who work for the accounts that have the properties you specified. If needed, you can now add more contact-based criteria to further limit the set of contacts found for the segment (for example, to filter by job title). To add criteria for the contact entity, work directly under the **Contact** entity (at the base of the tree, outside the **Account (Contact -> Account (Company Name))** relation). For example, to find only contacts with a job title of purchaser, open the **Add** drop-down list at the base of the tree, select **Add row** and then specify the row as follows:
 
-1. If needed, you can now add more contact-based criteria to further limit the set of contacts found for the segment (for example, to filter by job title).
+    **Job title | Equals | Purchaser**  
 
-    ![Add contact filters as needed](media/abm-segment-4.png "Add contact filters as needed")
+    ![Add contact filters as needed](media/segment-firmographic-contact.png "Add contact filters as needed")
 
-1. When you're done, **Save** your segment and **Go live**.
+1. Select the field that shows **Enter segment name** as ghost text. Then type a name for your segment.
 
-1. After a few minutes, you'll be able to open the **Members** tab to see which contacts are included in your new segment. Note that the list includes a column that shows which account each contact belongs to.
+1. On the command bar, select **Save** to save your segment and then select **Go live**.
+
+1. Wait for about a minute and then select **Refresh** on the command bar to refresh the page. You should now see that a **Members** tab has been added (if you don't see it, wait a little longer and try to **Refresh** again until you do). When the **Members** tab appears, open it and note that the list includes a column that shows which company name (account) each contact belongs to.
 
     ![Segment members with accounts](media/abm-segment-5.png "Segment members with accounts")
 
@@ -85,24 +85,19 @@ When you're creating dynamic segments for account-based marketing, you'll probab
 
 When you set up a static segment, you'll mark a check box for each specific contact you want to include in the segment. The segment won't change after that unless you edit it manually. If your database includes many contacts, then you'll probably find it useful to use the filter control to find the contacts you are looking for.
 
-1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar.
+1. Go to **Marketing** > **Customers** > **Segments** and select **New** on the command bar. Then select **Static** on the **Let's create your segment** screen.
 
-1. Fill out the **General** tab with a name and description for your new segment, and set **Segment type** to **Static segment**.
-
-1. Open the **Definition** tab, where you'll find a list of contacts and filter controls that can help you find the contacts you want to include. Select the filter button to expose the filter controls.
+1. The static-segment designer opens which shows a list of all contacts in your database, plus a set of filter controls that can help you find the contacts you want to include. Select the filter button to expose the filter controls.
 
     ![A static segment with filter](media/abm-segment-static.png "A static segment with filter")
 
-1. Use the filter to find the contacts that you want to include in the segment. One query that might be useful when setting up segments for account-based marketing is one that filters the list by account ID. To do that, use the various drop-down lists in the **Filter** area to set up a query clause of the following form:
+1. Use the filter to find the contacts that you want to include in the segment. One query that might be useful when setting up segments for account-based marketing is one that filters the list by company name. To do that, use the various drop-down lists in the **Filter** area to set up a query clause of the following form:
 
-    **Contact | Company Name account | is | _&lt;account-ID&gt;_**
+    **Contact | Company Name (Account) | is / is in | _&lt;company_names&gt;_**
 
-    Where the _&lt;account-ID&gt;_ is the unique ID for the account you want to look for. 
+    Where the _&lt;company_names&gt;_ is a list of one or more company names. If you include more than one company name, then an OR operator is applied, which means the filter will find contacts from all of the accounts you list here.
 
-    > [!NOTE]
-    > You can find the account ID for any account by opening the account record and checking for the value of **id** parameter at the end of the page URL.
-
-1. You can continue to add clauses to your query until you've found the collection of contacts you're looking for.
+1. You can continue to add clauses to your query using the **And** and **Or** buttons until you've found the collection of contacts you're looking for.
 
 1. Mark the check box for each contact you want to include in your static segment and select **Save**.
 
