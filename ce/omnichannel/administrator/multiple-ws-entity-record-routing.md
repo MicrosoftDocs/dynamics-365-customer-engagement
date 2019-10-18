@@ -35,7 +35,7 @@ This walkthrough demonstrates how to set up two workstreams, one each for high p
 
 ## Step 1: Create workstream
 
-Create entity records workstream to define how records will be distributed. In this walkthrough, let us create two workstreams - **High Priority Cases** and **Low Priority Cases**.
+Create entity records workstream to define how the records will be distributed. In this walkthrough, let us create two workstreams - **High Priority Cases** and **Low Priority Cases**.
 
 To learn more, see [Entity record workstreams](set-up-entity-workstream.md).
 
@@ -45,7 +45,7 @@ To learn more, see [Create routing rules](entity-channel.md#step-4-create-routin
 
 ## Step 3: Update entity records distribution flow
 
-If you are creating or editing an entity record workstream, you must update **Entity records Distribution Flow**. The Omnichannel application automatically creates this flow out-of-the-box for distributing entity records. 
+If you are creating or editing an entity record workstream, you must update **Entity records Distribution Flow**. The Omnichannel Administrator app automatically creates this flow out-of-the-box for distributing entity records. 
 
 **Entity records Distribution Flow** contains the following components.
 
@@ -135,7 +135,7 @@ If you are creating or editing an entity record workstream, you must update **E
     > [!div class=mx-imgBorder] 
     > ![Set the If yes variable value](../media/case-work-distribution-flow9.png "Set variable value")
 
-20. Select **Add an action** button under the **If yes** section. The **Choose an action** component appears. Now, type **Set Variable** in the **Search connectors and actions** box and the action appears in the list. Select it and the **Set Variable** action appears.
+20. Select **Add an action** button under the **If no** section. The **Choose an action** component appears. Now, type **Set Variable** in the **Search connectors and actions** box and the action appears in the list. Select it and the **Set Variable** action appears.
 
 21. Select the **LiveWorkStreamId** from the Name drop-down list.
 
@@ -153,6 +153,10 @@ If you are creating or editing an entity record workstream, you must update **E
 
     > [!div class=mx-imgBorder] 
     > ![Workstream selection](../media/case-work-distribution-flow11.png "Workstream selection")
+
+High priority cases workstream is used to distribute the cases for automatic push, and the capacity required in 60 units.
+
+Low priority cases workstream is used to distribute the cases for manual pick up, and capacity required is 30 units.
 
 ## Troubleshoot
 

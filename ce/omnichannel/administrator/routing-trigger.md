@@ -26,21 +26,45 @@ After you set up and enable an entity for routing, you can manually trigger the 
 
 After you enable an entity for routing, you see the **Save & Route** in the entity form ribbon command bar and **Apply Routing rules**  in the entity view ribbon command bar. You can use these commands to route the record.
 
-1. Sign in to Omnichannel for Customer Service app.
+1. Sign in to your model-driven app.
 
-2. Select a entity record from the entity views. <br> For example, select **Leads** in the sitemap, and then select a lead record from the **My Open Leads** view.
+2. Select an entity record for your administrator has enabled routing. <br> For example, in this procedure, **Leads** entity is enabled for routing, and hence, you can see the button in the Leads form command bar. 
 
-3. Make the changes as required, and on the command bar, select **Save & Route**. The **Route Case** dialog box appears. 
+3. Select **Leads** in the sitemap, and you can view the **Apply Routing rules**  in the entity view ribbon command bar. Selecting the **Apply Routing rules** button also routes the record.
 
-4. Select **Route**.  
+4. Select a lead record from the **My Open Leads** view.
+
+5. Select **Save & Route** the command bar. The **Route Case** dialog box appears. 
+
+6. Select **Route**. 
+
+    > [!div class=mx-imgBorder] 
+    > ![Manual trigger](../media/manual-trigger.png "Manual trigger")
 
 The entity record will be routed based on the active routing rule set.
 
 If you don't have permissions to save  and route, then contact your administrator. To learn more, see [Required Privileges](../../customer-service/create-rules-automatically-route-cases#create-a-routing-rule-set-customer-service-app).
 
+### Verify your permissions
+
+1. Verify that you have the Customer Service Manager, System Administrator, System Customizer security role, or equivalent permissions.
+
+   **Check your security role**  
+
+    - Follow the steps in [View your user profile](https://docs.microsoft.com/powerapps/user/view-your-user-profile).  
+
+    - Don’t have the correct permissions? Contact your system administrator.  
+
+2. In addition to the specified security role for creating a routing rule set, verify that you have below permissions for Routing Rule Instance entity before applying routing rules:
+
+    > [!div class="mx-imgBorder"]
+    > ![Provide privileges](../media/rr-privileges-csrm.png "Provide privileges")
+
 ## Automatic trigger
 
-To enable automatic trigger to route the entity records, you need to create a Flow.
+You can setup a custom flow, to trigger routing for records based on conditions such as when a record is created, updated, and so on. Let's see how to setup a custom flow for create condition. 
+
+To enable automatic trigger to route the entity records, create a custom Flow.
 
 1. Sign in to Microsoft Flow.
 
@@ -88,6 +112,18 @@ To enable automatic trigger to route the entity records, you need to create a Fl
 12. Select **Save** to save the Flow.
 
 Whenever a first entity record, say lead, is created, the Flow applies the **ApplyRoutingRuleRecord** action on the entity record.
+
+### Discover entity collection name
+
+1. Open your browser and go to `https://<org_name>/api/data/v9.0/EntityDefinitions(LogicalName='<entityname>')`
+
+    For example: `https://contoso.dynamics.com/api/data/v9.0/EntityDefinitions(LogicalName='lead')`.
+
+2. Search for `LogicalCollectionName`, and you can view the entity collection name for a particular entity.
+
+    For example: `"LogicalCollectionName":"leads"`
+
+Here, `leads` is the entity collection name.
 
 ## See also
 
