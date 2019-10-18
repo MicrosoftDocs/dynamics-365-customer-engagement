@@ -30,6 +30,8 @@ When ever you enable a entity for routing, you can view the **Save & Route** but
 
 To save a entity record and route it to a queue in a single click, use the **Save & Route** button.
 
+If you don't have permissions to do Save & Route, then contact your administrator. To learn more, see [Required Privileges](../../customer-service/create-rules-automatically-route-cases#create-a-routing-rule-set-customer-service-app).
+
 1. Sign in to Omnichannel for Customer Service app.
 
 2. Select a entity record from the entity views. <br> For example, select **Leads** in the sitemap, and then select a lead record from the **My Open Leads** view.

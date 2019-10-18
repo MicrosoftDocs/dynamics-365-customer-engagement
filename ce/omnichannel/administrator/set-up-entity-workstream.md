@@ -43,6 +43,23 @@ This topic describes how to create a workstream that is used to route the case a
 
 5. Select **Save** to save the workstream.
 
+## When you upgrade from earlier versions
+
+If you are already using the Entity Records feature and after you upgrade to the Omnichannel for Customer Service October 2019 update, then the **Entity** field in the **Work Stream** page will be empty. 
+
+First, you need to create a new Entity Record and remove the automatically created default work stream in the Entity Record. Go to the already existing workstream and update the **Entity** field.
+
+Follow the steps to update the **Entity** field.
+
+1. Create Entity Record. To create a entity record, see [Entity records routing](entity-channel.md).
+ 
+2. Remove the default workstream in Entity Record that you created.
+
+3. Go to already existing workstream where you want to update the field.
+
+4. Update the Entity field from the dro-down menu and select **Save**.
+
+
 ## See also
 
 [Entity records routing](entity-channel.md)

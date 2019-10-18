@@ -74,13 +74,33 @@ The agent scripts reduce the human errors involved in the process as the agents 
     | Order | Specify the order number based on which step is displayed to the agent. | 1 |
     | Action Type | Select an action type from the list: <ul> <li> Text instruction </li> <li> Macro </li> <li> Script </li> |
     | Description | Describe the step briefly for your reference. | This step is to greet the customer.|
-    | Text instruction | Specify the text instructions the agent needs to follow and execute. This is a text field. <br><br> **Note:** <br> This field appears only if you select the **Text instruction** value for the **Action Type** field. | Greet the customer with welcome message from the quick reply repository. |
-    | Target macro | Type the name of the macro in the text box and select the macro from the lookup results. <br><br> **Note:** <br> This field appears only if you select the **Macro** value for the **Action Type** field. | Email |
-    | Target script | Type the name of the script in the text box and select the script from the lookup results. <br><br> **Note:** <br> This field appears only if you select the **Script** value for the **Action Type** field. | Close session |
+    | Text instruction | Specify the text instructions the agent needs to follow and execute. This is a text field. Additonally, you can pass parameter values using the Slugs and OData queries. To learn more see, [Pass parameter values](pass-parameter-values.md)<br><br> **Note:** <br> This field appears only if you select the **Text instruction** value for the **Action Type** field. | Greet the customer with welcome message from the quick reply repository. |
+    | Target macro | Type the name of the configured macro in the text box and select the macro from the lookup results. <br><br> **Note:** <br> This field appears only if you select the **Macro** value for the **Action Type** field. | Email |
+    | Target script | Type the name of the configured script in the text box and select the script from the lookup results. <br><br> **Note:** <br> This field appears only if you select the **Script** value for the **Action Type** field. | Close session |
 
 8. Select **Save and Close** to add, save, and close the quick create form.
 
 9. Select **Save** to save the changes.
+
+## Associate agent script with session template
+
+After you configure the agent script and add the field to a form, you need to associate the agent script with a session template so that, based on the session type, the agent script loads to the agents.
+
+1. Sign in to the Omnichannel Administrator app.
+
+2. Select **Sessions** under **Templates**.
+
+3. Select a template from the list for which you want to associate the template. For example, select the **Chat - Default Session** template.
+
+4. Select the **Agent scripts** tab.
+
+5. Select **Add Existing Agent script** in the **Agent scripts** section. The **Lookup Records** pane appears.
+
+6. Select the search icon in the **Look for Records** box. Select the agent script from the list and select **Add**.
+
+7. Select **Save**.
+
+The agent script is associated with the session template.
 
 ## Add agent script control to a form
 
@@ -137,26 +157,6 @@ After you create an agent script, you must add the agent script field to the for
 16. Select **Save** to save the changes.
 
 17. Select **Publish** to publish the customizations.
-
-## Associate agent script with session template
-
-After you configure the agent script and add the field to a form, you need to associate the agent script with a session template so that, based on the session type, the agent script loads to the agents.
-
-1. Sign in to the Omnichannel Administrator app.
-
-2. Select **Sessions** under **Templates**.
-
-3. Select a template from the list for which you want to associate the template. For example, select the **Chat - Default Session** template.
-
-4. Select the **Agent scripts** tab.
-
-5. Select **Add Existing Agent script** in the **Agent scripts** section. The **Lookup Records** pane appears.
-
-6. Select the search icon in the **Look for Records** box. Select the agent script from the list and select **Add**.
-
-7. Select **Save**.
-
-The agent script is associated with the session template.
 
 ## See also
 

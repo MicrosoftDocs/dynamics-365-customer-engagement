@@ -71,17 +71,33 @@ After you create a skill-type, you can create skills.
 
 After you save, the **Agents** section appears. In this section, you add the agents and rating value. To learn more, see [Assign agents to the skill](#assign-agents-to-skill).
 
+### Add agents as bookable resource
+
+To assign agents to a skill, you need to add the agents as bookable resource. 
+
+1. Sign in to the Omnichannel Administration app.
+
+2. Select **Users** under **Queues & Users**.
+
+3. Select a user from the list and select **Omnichannel** tab.
+
+4. Select **+ New Bookable Resource** in the **Skills Configurations** section. The **New Bookable Resource** page appears.
+
+5. Specify the name of the user in the **Name** field.
+
+6. Select **Save**.
+
 ### Assign agents to skill
 
-1. Sign in to the **Omnichannel Administration** app.
+1. Sign in to the Omnichannel Administration app.
 
 2. Select **Skills** under **Users & Queues** in the sitemap.
 
 3. Select a skill from the list for which you want to assign the agents.
 
-4. Select **+ Add** in the **Users (Agents)** section. The **Quick Create: Bookable Resource Characteristic** pane appears.
+4. Select **+ New Bookable Resource Characteristic** in the **Users (Agents)** section. The **Quick Create: Bookable Resource Characteristic** pane appears.
 
-5. Select an agent name for the **User (Agent)** field.
+5. Select an agent name for the **User (Agent)** field. Only the name of the agents who are added as Bookable Resources appears in drop-down.
 
 6. Select a rating value from the list. The values that appear are based on the rating model and rating values that you created. To learn more, see [Rating value of skills](enable-skill-routing-create-rating-model.md#rating-value-of-skills).
 

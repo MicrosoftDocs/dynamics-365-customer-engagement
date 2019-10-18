@@ -73,21 +73,32 @@ After creating an entity record configuration, and enabling an entity for routin
 
 5. Select **+ New** in the **All Routing Rule Sets** page.
 
-6. Specify a name in the **New Routing Rule Set** page, and then select **Save** to save the rule sets. Once you save the record, you can see the **Rule Items** section in the page.
+6. Specify the following in the **New Routing Rule Set** page
 
-7. Select **+ Add New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
+    | Tab | Field | Value | Description | 
+    |------------------|----------------------------|----------------------------------|--------------------------------------------|
+    | General | Name | Case routing rules | Specify a name to the routing rule set. |
+    | General | Entity | Case | Select the entity for which you are creating the rule set. |
+    | General | Description | This routing rule set is used for routing high priority cases to agents. | Specify a description for you to identify the purpose of the routing rule set. |
+
+    > [!div class=mx-imgBorder] 
+    > ![Add New Rule Item](../media/case-ws-rr-entity.png "Add New Rule Item")
+
+7. select **Save** to save the rule set. Once you save the record, you can see the **Rule Items** section in the page.
+
+8. Select **+ Add New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
 
     > [!div class=mx-imgBorder] 
     > ![Add New Rule Item](../media/case-ws-rr2.png "Add New Rule Item")
 
-8. Specify the following on the **New Rule Item** page.
+9. Specify the following on the **New Rule Item** page.
 
     | Tab | Field | value | Description |
     |------------------|----------------------------|----------------------------------|--------------------------------------------|
     | General | Name | Product - Credit card | Specify a name to the rule item. |
     | General | Description | This rule item is used to for pushing high priority cases to the agents. | Specify a description for you to identify the purpose of the rule item. |
 
-9. Select **+ Add** in the **Rule Criteria** section, and then select **+ Add row**.
+10. Select **+ Add** in the **Rule Criteria** section, and then select **+ Add row**.
 
     a. Select a rule from the list for the first box. For example, **Subject**.
 
@@ -95,9 +106,9 @@ After creating an entity record configuration, and enabling an entity for routin
 
     c. Select a value for the rule from the list. For example, **Credit card**.
 
-10. Select **Queue** for the **Route to** field. 
+11. Select **Queue** for the **Route to** field. 
 
-11. Select an omnichannel queue for the **Add to Queue** field.
+12. Select an omnichannel queue for the **Add to Queue** field.
 
     The steps 9 to 11 indicate if the **Subject** of a case is **Credit card**, then route the case to the selected omnichannel queue.
 
@@ -107,7 +118,7 @@ After creating an entity record configuration, and enabling an entity for routin
     > [!Note]
     > You must select an omnichannel queue for automatic work distribution in the **Add to Queue** field to automatically assign entity records to agents.
 
-12. Select **Save** to save the rule item.
+13. Select **Save** to save the rule item.
 
 ## Step 4: Update entity record distribution flow
 
@@ -125,6 +136,12 @@ If you are creating or editing an entity record workstream, you must update **E
 | Entity record - \<Entity Record\> | Do not modify. |
 | Work Stream Selection for Routing (\<Entity Record\> ) | Update the condition and workstreams Id. |
 | Invoke Omnichannel | Do not modify. |
+
+> [!Important]
+> Ensure that **Entity Records Distribution Flow** is closed before you update the workstream. Assume, you've made certain updates to the Flow, and while the Flow is still in the open in the browser, you update the workstream. In this case, after you save the workstream, the Flow will be reset to its earlier state causing to loose the changes you made.
+
+> [!Warning]
+> We recommend you update only the **Work Stream Selection for Routing** component in **Entity Records Distribution Flow**. If you update any other component step in the flow, the entity routing might fail. 
 
 ### Update entity records work distribution flow
 
@@ -213,6 +230,12 @@ If you are creating or editing an entity record workstream, you must update **E
 
     > [!div class=mx-imgBorder] 
     > ![Workstream selection](../media/case-work-distribution-flow11.png "Workstream selection")
+
+## Troubleshoot
+
+- [Entity routing configuration fails](../troubleshoot-omnichannel-customer-service.md#entity-routing-configuration-fails)
+
+- [Entity routing does not route records](../troubleshoot-omnichannel-customer-service.md#entity-routing-does-not-route-records)
 
 ## See also
 
