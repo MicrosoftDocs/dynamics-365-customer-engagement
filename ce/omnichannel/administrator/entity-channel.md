@@ -17,23 +17,20 @@ ms.custom:
 
 ## Overview
  
-In Omnichannel Administration, **Entity Records** channel helps you to automatically route cases and other entity records to agents based on the agent's capacity and availability.
+In Omnichannel Administration, **Entity Records** channel helps you to automatically route cases and other entity records to agents based on the agent's skill (preview), capacity, and availability.
 
-### Automatic distribution of cases
+> [!Note]
+> Skill base-routing is currently in preview. To learn more, see [Skill based routing overview](overview-skill-work-distribution.md)
 
-Case routing in Dynamics 365 Customer Service enables organizations to route cases to the manual queues, and then these cases are either manually assigned by supervisors or manually picked by agents.
+### Automatic distribution of cases and other entity records
 
-With unified routing for entity records, organizations can route cases and other entity records to omnichannel queues. The cases and other entity records routed to omnichannel queues are automatically distributed and assigned to best available agents based on their availability and capacity.
+With unified routing for entity records, organizations can route cases and other entity records to omnichannel queues. The cases and other entity records routed to omnichannel queues are automatically distributed and assigned to best available agents based on their  skill (preview), capacity, and availability.
 
 ### Unified Routing and Queues
 
 Cases and other entity records can be routed to omnichannel queues along with work items that originate from other channels such as Chat and SMS. 
 
-This allows organizations to tightly define the work profile that their agents are supposed to handle, and organizations can automate the work flow assignment across channels and assign the work items based on agents capacity and availability.
-
-## Considerations for entity routing
-
-- If you are upgrading from earlier release to the latest version, then in the Work Stream, the Entity field won't be populated with a entity. You need to create a entity records channel, and then update the work stream with the created entity. When the work stream is updated, automatically, the Microsoft Flow resets.
+This allows organizations to tightly define the work profile that their agents are supposed to handle, and organizations can automate the work flow assignment across channels and assign the work items based on agents skill (preview), capacity, and availability.
 
 ## Configure entity records channel
 
@@ -41,13 +38,13 @@ To setup the **Entity Record** channel for cases, follow the steps:
 
 | Step | Description |
 |---------------|----------------------------|--------------------------------------------------------------------------------------------|
-| [Step 1: Create queues](#step-1-create-queues) | Create a new omnichannel queue or continue using an existing omnichannel queue. |
+| [Step 1: Create queues and add agents](#step-1-create-queues-and-add-agents) | Define queues for your organization and add agents (users) to the queues. |
 | [Step 2: Enable entity for routing channel](#step-2-enable-entity-for-routing) | Create entity record configuration to enable an entity for routing. |
 | [Step 3: Create routing rules](#step-3-create-routing-rules) | Create routing rules to route cases to the appropriate queues. |
 
-## Step 1: Create queues
+## Step 1: Create queues and add agents
 
-Create a new omnichannel queue or use an existing omnichannel queue. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
+Create a new omnichannel queue or use an existing omnichannel queue, and then add agents to these queues. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
 
 > [!Note]
 > If you enable the option - **Automatically move records to the owner's default queue when a record is created or assigned**, in the case entity customization, then the case entity record won't be automatically distributed to the agents. You must clear the checkbox to automatically distribute the case records. <br><br> ![Automatic record movement to the agent's default queue](../media/route-owner-queue.png "Automatic record movement to the agent's default queue")
@@ -69,30 +66,32 @@ Create entity record configuration to enable an entity for routing.
     | Basic Details | Name | Specify a name to the entity record channel. | Case entity channel  <br> **Note:** This is an example value.|
     | Basic Details | Entity | Select an entity from the list. | Case (Incident) |
 
-5. Select **Save** to save the entity record channel. After you save, in the **Work distribution** section, a default workstream is automatically created automatically to distribute these entity records. 
-
-A default work stream will be created to distribute these entity records. You can edit this workstream or create more workstreams as per your business scenarios. For more information see <link1> and <link2>
+5. Select **Save** to save the entity record channel. After you save, in the **Work distribution** section, a default workstream is automatically created to distribute these entity records.
 
 > [!Note]
-> You can edit the default workstream or create more workstreams as per your business scenarios, and define how these records will be distributed. To learn more, see [Entity record workstream](set-up-entity-workstream.md).
+> When you create an entity record channel configuration, a default work stream will be created to distribute these entity records. You can edit the default workstream or create more workstreams as per your business scenarios. To learn more, see [Entity record workstream](set-up-entity-workstream.md).
 
 ## Step 3: Create routing rules
 
-After creating an entity record configuration, and enabling an entity for routing, you can define routing rules to route these records to appropriate queues.
+After creating an entity record configuration, and enabling an entity for routing, you can define routing rules to route these records to appropriate queues. 
+
+Routing rules for entity records consists of routing rule sets, which contains rule items in them. You can have multiple routing rule sets defined. Only one routing rule set can be active at any point of time. If you try to activate another rule set when one rule set is already active, it will deactivate the currently active rule set. You can activate or deactivate only the rule sets that you own.
 
 > [!Note]
-> To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/install-routing-rules-preview-solution.md).
+> You can’t edit an active routing rule set. Therefore, if you’re importing a solution that includes an active routing rule set into an organization where the rule set already exists with the same ID, the solution import will fail.
+
+Let's see how to create routing rule set and rule items for entity records. In this procedure, we are adding it for case entity record as example.
 
 1. Sign in to the Omnichannel Administration app.
 
 2. Select **Entity Records** under **Channels** in the sitemap.
 
-3. Select the record you created for routing the cases from the Routing entity records view.
+3. Select an entity records channel that you created for routing the records from the **Active Entities** view.
 
     > [!div class=mx-imgBorder] 
     > ![Select a case workstream](../media/case-entity-channel1.png "Case workstream")
 
-4. Select the **Routing Rules** tab in the entity records configuration.
+4. Select the **Routing Rules** tab in the entity records channel.
 
     > [!div class=mx-imgBorder] 
     > ![Select the routing rule items tab](../media/case-routing-rule1.png "Routing rule items")
@@ -136,6 +135,19 @@ After creating an entity record configuration, and enabling an entity for routin
 12. Select **Save** to save the rule item.
 
 You've successfully created queues, enabled entity for routing, and created routing rule sets.
+
+## Upgrade path for preview users
+
+If you are upgrading from preview release to the latest version, then in the Work Stream, the Entity field won't be populated with a entity. 
+
+To update the Entity field, follow these steps:
+
+1. Create an entity records channel for the entity you want to route and distribute.
+
+2. Update the work stream with the created entity record channel configuration.
+
+> [!Note]
+> After you update the workstream, you don't need to update the Flow as the Flow is automatically updated as you save the workstream. 
 
 ### See also
 
