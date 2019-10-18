@@ -76,7 +76,7 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
       
     Select the continue arrow ![Continue terms](../media/continue-arrow.png) to proceed.
 
-4. On the **Enable Chat with Omnichannel** page, select the check box to enable the Chat channel for your organization. To proceed with the setup, select the Continue arrow.
+4. On the **Enable chat with Omnichannel** page, select the check box to enable the Chat channel for your organization. To proceed with the setup, select the continue arrow.
 
     > [!div class=mx-imgBorder]
     > ![Enable chat](../media/enable-chat.png)

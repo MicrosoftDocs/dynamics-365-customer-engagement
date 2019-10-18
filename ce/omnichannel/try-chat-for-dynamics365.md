@@ -19,19 +19,20 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Chat for Dynamics 365 Customer Service is an engagement channel that enables your agents to connect with customers in real-time. Chat can only be used if you have an active subscription of Dynamics 365 Customer Service Enterprise in your tenant.
+Channels, for example Chat for Dynamics 365 Customer Service, are the engagement channels that enable your agents to connect with customers in real-time. Channels can only be used if you have an active subscription of Dynamics 365 Customer Service Enterprise in your tenant.
 
-There are two options to sign-up for a free 30-day trial of Chat:
+There are two options to sign-up for a free 30-day trial of channels:
 
 1. [Channels trial through trials.dynamics.com](#option-1-channels-trial-through-trialsdynamicscom)
 2. [Channels trial through Microsoft 365 admin center](#option-2-channels-trial-through-microsoft-365-admin-center)
 
 ## Option 1: Channels trial through trials.dynamics.com
 
-With this option, you can get a free 30-day trial of Chat, SMS, and Facebook (preview) channels through [https://trials.dynamics.com](https://trials.dynamics.com). You must have an existing organizational account and must be a global administrator to enable the trial. 
+With this option, you can get a free 30-day trial of Chat, SMS, and Facebook Messenger (preview) channels through [https://trials.dynamics.com](https://trials.dynamics.com). You must have an existing organizational account and must be a global administrator to enable the trial.
 
 > [!NOTE]
-> This option is currently available only in North America, Europe, Canada, and United Kingdom. Your tenant must be located in one of these regions. 
+> - This option is currently available only in North America, Europe, Canada, and United Kingdom. Your tenant must be located in one of these regions. 
+> - The 30-day trial period does not apply to the Facebook Messenger channel as it is in preview.
 
 ### Step 1: Get a Dynamics 365 trial instance
 
@@ -83,11 +84,14 @@ Once a channel is enabled in your organization, you can sign in to Dynamics 365 
 
 ## Option 2: Channels trial through Microsoft 365 admin center
 
-With this option, you can sign-up for a free 30-day trial of Chat, SMS, and Facebook (preview) channels from the Microsoft 365 admin center only if you have a paid subscription of Dynamics 365 Customer Service Enterprise that has been purchased directly through the Microsoft 365 admin center (that is, Web Direct). If you do not have the pre-requisite subscription, or if you have purchased the pre-requisite subscription other than Web Direct, then the option to try channels will not be available in the Microsoft 365 admin center.
+With this option, you can sign-up for a free 30-day trial of Chat, SMS, and Facebook Messenger (preview) channels from the Microsoft 365 admin center only if you have a paid subscription of Dynamics 365 Customer Service Enterprise that has been purchased directly through the Microsoft 365 admin center (that is, Web Direct). If you do not have the pre-requisite subscription, or if you have purchased the pre-requisite subscription other than Web Direct, then the option to try channels will not be available in the Microsoft 365 admin center.
+
+> [!NOTE]
+> The 30-day trial period does not apply to the Facebook Messenger channel as it is in preview.
 
 The channel you can try depends on the add-on you purchase from the Microsoft 365 admin center. The following add-ons are available for purchase:
 
-- **Dynamics 365 Customer Service Chat Trial** add-on: Allows you to try Chat and Facebook (preview) channels.
+- **Dynamics 365 Customer Service Chat Trial**: Allows you to try Chat and Facebook (preview) channels.
 
 - **Dynamics 365 for Customer Service Digital Messaging add-on** and **Dynamics 365 for Customer Service Digital Messaging add-on for Government**: Allows you to try Chat, SMS, and Facebook (preview) channels.
 
