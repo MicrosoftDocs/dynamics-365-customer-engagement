@@ -138,7 +138,10 @@ If you are creating or editing an entity record workstream, you must update **E
 | Invoke Omnichannel | Do not modify. |
 
 > [!Important]
-> Ensure that Entity Records Distribution Flow is closed before you update the workstream. Assume, you've made certain updates to the Flow, and while the Flow is still in the open in the browser, you update the workstream. In this case, after you save the workstream, the Flow will be reset to its earlier state causing to loose the changes you made.
+> Ensure that **Entity Records Distribution Flow** is closed before you update the workstream. Assume, you've made certain updates to the Flow, and while the Flow is still in the open in the browser, you update the workstream. In this case, after you save the workstream, the Flow will be reset to its earlier state causing to loose the changes you made.
+
+> [!Warning]
+> We recommend you update only the **Work Stream Selection for Routing** component in **Entity Records Distribution Flow**. If you update any other component step in the flow, the entity routing might fail. 
 
 ### Update entity records work distribution flow
 
@@ -227,6 +230,10 @@ If you are creating or editing an entity record workstream, you must update **E
 
     > [!div class=mx-imgBorder] 
     > ![Workstream selection](../media/case-work-distribution-flow11.png "Workstream selection")
+
+## Troubleshoot
+
+- [Entity routing configuration fails](../troubleshoot-omnichannel-customer-service.md)
 
 ## See also
 

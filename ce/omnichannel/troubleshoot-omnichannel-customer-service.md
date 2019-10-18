@@ -23,7 +23,7 @@ Use the following list of troubleshooting topics to quickly find information to 
 
 ### Issue:
 
-The Entity Records Distribution Flow connection is not authorized. Due to this issue, you can see the following error message.
+One of issues is that **Entity Records Distribution Flow** connection is not authorized. Due to this issue, you can see the following error message.
 
 **Unable to complete the operation due to an error. Try again later. If the issue persists, contact Microsoft support.**
 
