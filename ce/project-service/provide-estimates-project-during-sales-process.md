@@ -1,5 +1,5 @@
 ---
-title: Provide work estimates for a project during the sales process (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Provide work estimates for a project during the sales process 
 description: How to provide work estimates for a project during the sales process in Project Service
 author: ruhercul
 manager: kfend

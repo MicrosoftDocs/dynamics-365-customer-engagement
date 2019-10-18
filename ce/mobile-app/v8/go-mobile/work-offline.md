@@ -179,8 +179,6 @@ You can seamlessly work in offline mode with all available entities. In offline 
 - Search 
 - Lookup for offline records 
 
-> [!NOTE]
-> See [Dynamics 365 apps Readme / Known Issues](../../../admin/readme-9.md#mobile-offline) to understand limitations in offline mode.
 
 Watch a short [video](https://go.microsoft.com/fwlink/p/?linkid=837630) (3:06) about working offline with Dynamics 365 apps. 
 
