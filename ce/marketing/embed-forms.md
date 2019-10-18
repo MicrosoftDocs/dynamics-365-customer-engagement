@@ -131,9 +131,6 @@ Form capture makes it possible for forms created on an external website to submi
 
 To enable form capture, you must generate a form-capture JavaScript in Dynamics 365 Marketing and add that script to your external form page. Then you'll be able to load that page into Dynamics 365 Marketing to map its fields to marketing fields. At run time, the form-capture JavaScript captures each form submission and submits the values to Dynamics 365 Marketing for processing and storage.
 
-> [!NOTE]
-> The form capture feature currently ignores hidden input fields (`<input type="hidden">`) in the target form. One way to work around this is to change the hidden field to use a type other than hidden, and then add a style attribute to hide it, such as:<br>`<input type="text" style="visibility:hidden" name="field name" id="fieldID" />`
-
 ### Capture a new external form
 
 To set up a form capture:
