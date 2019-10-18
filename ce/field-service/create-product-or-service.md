@@ -83,13 +83,24 @@ After you're done verifying everything, click **Done**.
 
 ## Add product inventory
 
+- warehouse
+- inventory adjustment
+- inventory adjustment product
+
 ## Add a product or service to a work order
 
 - manual
+  - inventory
+  - non inventory
+  - service
 - incident
 - allocation
+
+## Use and consume products and services
+
 - FSM
-- calculations 
+- calculations
+- invoice  
 
 ## Configuration considerations
 
