@@ -3,7 +3,7 @@ title: "Use Liquid operators for a portal | MicrosoftDocs"
 description: "Learn about the available liquid operators in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 26/03/2019
+ms.date: 10/01/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
