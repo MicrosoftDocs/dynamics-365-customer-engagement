@@ -109,3 +109,7 @@ The structure of the `data` parameter JSON is shown below.
 ## Return value
 
 Promise with value as string
+
+## See also
+
+[logAnalyticsEvent method](logAnalyticsEvent.md)

@@ -28,6 +28,8 @@ You can get the solution from within the Dynamics 365 or directy from Microsoft 
 
 - You need global administrator permissions in Office 365 to download and install the Channel Integration Framework application (solution).
 
+- Onboard your organization to Channel Integration Framework version 2.0 flight. More information: [Onboard your organization to Channel Integration Framework version 2.0](onboard-org-flight.md).
+
 ## Get Channel Integration Framework from Microsoft AppSource
 
 There are two ways to get Channel Integration Framework from Microsoft AppSource.
