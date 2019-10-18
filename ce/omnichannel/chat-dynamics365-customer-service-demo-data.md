@@ -34,9 +34,7 @@ The following are the requirements to install sample data in your target environ
 - A Common Data Service environment
 - Your base language is English
 - The environment has no Omnichannel for Customer Service data already, or has only the default data that comes with a new environment
-- The correct version of the business application is already installed Chat for Dynamics 365 Customer Service 
-<!--note from editor: The sentence above is not clear. What business application? And do you mean "...is already installed FOR Chat for Dynamics 365 Customer Service"? Also, how would they know what the correct version is? -->
-- The environment has Omnichannel for Customer Service provisioned and the Chat channel is enabled.
+- The environment has Omnichannel for Customer Service provisioned and the Chat channel is enabled
 
 > [!NOTE]
 > If you need to install the demo data on top of an existing Chat trial or a demo environment that already has data (not recommended), you'll need to suspend the safety prechecks performed by the installer. For more information, see the [Technical notes](#technical-notes).
@@ -83,11 +81,11 @@ The OmnichannelDemoData package installs with a few users per the settings des
 To install the demo data, you need to create (or temporarily rename) users in your Common Data Service environment to match the incoming demo data configuration.
 <!--note from editor: The sentence above says you need to create or rename users, but the steps below just swap out the full name for the user alias and then apply roles to the user. This is not consistent. -->
 
-| First Name | Last Name | User Alias   | Email                                    | Role                      |
-|------------|-----------|--------------|------------------------------------------|---------------------------|
-| Alex       | Allman    | alexallman   | <alexallman@sampleorg.onmicrosoft.com>   | Omnichannel Supervisor    |
-| Lilly      | Michael   | lillymichael | <lillymichael@sampleorg.onmicrosoft.com> | Omnichannel Administrator |
-| Penelope   | Mayo      | penelopemayo | <penelopemayo@sampleorg.onmicrosoft.com> | Omnichannel Agent         |
+| First Name | Last Name | User Alias   | Email                                    | Role                                            |
+|------------|-----------|--------------|------------------------------------------|-------------------------------------------------|
+| Alex       | Allman    | alexallman   | <alexallman@sampleorg.onmicrosoft.com>   | Omnichannel Supervisor                          |
+| Lilly      | Michael   | lillymichael | <lillymichael@sampleorg.onmicrosoft.com> | System Administrator, Omnichannel Administrator |
+| Penelope   | Mayo      | penelopemayo | <penelopemayo@sampleorg.onmicrosoft.com> | Omnichannel Agent                               |
 
 <!--note from editor: In this table, Lilly has just one role listed. But in the procedure below, you add 2 roles to her user page. Which is correct? -->
 
