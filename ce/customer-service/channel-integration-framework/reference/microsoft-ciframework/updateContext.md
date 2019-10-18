@@ -28,7 +28,7 @@ This method allows you to set automation dictionary. It enables providers to add
 | ------- |-------|-------|-------|
 |input| JSON Object | Yes | JSON string |
 |sessionId| String| No | Unique identifier of the current session. |
-|isDelete| Boolean | No | |
+|isDelete| Boolean | No | Set `isDelete` to `true` if the list of parameters in `input` JSON are to be deleted.<br />If `isDelete` is set to `true`, the slug values will be deleted and will no longer be available for subsequent macro invocations.|
 |correlationId| GUID| No |Used to group all related API calls together for diagnostic telemetry|
 
 ## Returns
