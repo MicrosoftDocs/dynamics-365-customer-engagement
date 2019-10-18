@@ -37,7 +37,11 @@ This walkthrough demonstrates how to set up two workstreams, one each for high p
 
 Create entity records workstream to define how the records will be distributed. In this walkthrough, let us create two workstreams - **High Priority Cases** and **Low Priority Cases**.
 
-To learn more, see [Entity record workstreams](set-up-entity-workstream.md).
+High priority cases workstream is used to distribute the cases for automatic push, and the capacity required in 60 units.
+
+Low priority cases workstream is used to distribute the cases for manual pick up, and capacity required is 30 units.
+
+To learn more, see [Create workstream for entity record routing](set-up-entity-workstream.md).
 
 ## Step 2: Create routing rules
 
@@ -45,7 +49,7 @@ To learn more, see [Create routing rules](entity-channel.md#step-4-create-routin
 
 ## Step 3: Update entity records distribution flow
 
-If you are creating or editing an entity record workstream, you must update **Entity records Distribution Flow**. The Omnichannel Administrator app automatically creates this flow out-of-the-box for distributing entity records. 
+If you are creating or editing an entity record workstream, you must update **Entity records Distribution Flow**. The Omnichannel Administrator app automatically creates this flow out-of-the-box for distributing entity records.
 
 **Entity records Distribution Flow** contains the following components.
 
@@ -67,6 +71,8 @@ If you are creating or editing an entity record workstream, you must update **E
 > We recommend you update only the **Work Stream Selection for Routing** component in **Entity Records Distribution Flow**. If you update any other component step in the flow, the entity routing might fail. 
 
 ### Update entity records work distribution flow
+
+#### Navigate to the flow
 
 1. Sign in to the Omnichannel Administrator app.
 
@@ -93,70 +99,80 @@ If you are creating or editing an entity record workstream, you must update **E
 
 8. Select the **Edit** button from the command bar at the top. The flow appears in a new tab.
 
+#### Authenticate
+
 9. Select the flow component that shows the warning icon. Select an existing connection to resolve the warning. The flow component uses the current user credentials and resolves the warning.
 
     ![Resolve flow warning](../media/flow-error1.png "Resolve flow warning")
 
-10. Select the **Omnichannel Work Distribution** section, and then select **< Entity Record > Distribution flow** > **Work Stream Selection for Routing** section.
+#### Update the workstream Id
+
+10. Select the **Omnichannel Work Distribution** section. 
+
+11. Select **\<Entity Record\> Distribution**. For example, **Case Work Distribution**.
+
+12. Select the **Work Stream Selection for Routing** section.
 
     > [!div class=mx-imgBorder] 
     > ![Select workstream](../media/case-work-distribution-flow5.png "Select workstream")
 
-11. Remove the **Select Default Work Stream - < Entity Record >** section by selecting the ellipses, and then by selecting **Delete**.
+13. Remove the **Select Default Work Stream - \<Entity Record\>** section by selecting the ellipses, and then by selecting **Delete**.
 
-12. Select **Add an action** in the  **Work Stream Selection for routing entity- < Entity Record >** section.
+    For example, **Select Default Work Stream - Case** 
 
-13. Select **Conditions** under the **Actions** tab.  
+    Remove the default workstream so you can update the workstream with the one you created earlier.
 
-14. Select the **Choose a value** box to add a rule. A flyout control appears. Type in the search box to look up the attributes of the Case record that is being routed. For example, **Priority**. The rule appears in the list, and when you select the rule, it is added to the field. 
+14. Select **Add an action** in the  **Work Stream Selection for routing entity- (\<Entity Record\>)** section.
+
+15. Select **Conditions** under the **Actions** tab.  
+
+16. Select the **Choose a value** box to add a rule. A flyout control appears. Type in the search box to look up the attributes of the Case record that is being routed. For example, **Priority**. The rule appears in the list, and when you select the rule, it is added to the field. 
 
     > [!div class=mx-imgBorder] 
     > ![Add rule](../media/case-work-distribution-flow7.png "Add rule")
 
-15. Select a condition from the list. For example, **is equal to**.
+17. Select a condition from the list. For example, **is equal to**.
 
-16. Type the rule value in the field. For example, **1**.
+18. Type the rule value in the field. For example, **1**.
 
     > [!div class=mx-imgBorder] 
     > ![Set condition and value](../media/case-work-distribution-flow8.png "Set condition and value")
 
-17. Select **Add an action** button under the **If yes** section. The **Choose an action** component appears. Now, type **Set Variable** in the **Search connectors and actions** box and the action appears in the list. Select it and the **Set Variable** action appears.
+19. Select **Add an action** button under the **If yes** section. The **Choose an action** component appears. Now, type **Set Variable** in the **Search connectors and actions** box and the action appears in the list. Select it and the **Set Variable** action appears.
 
     > [!div class=mx-imgBorder] 
     > ![Add Set Variable Action](../media/flow-select-variable.png "Add Set Variable Action")
 
-18. Select the **LiveWorkStreamId** from the Name drop-down list.
+20. Select the **LiveWorkStreamId** from the Name drop-down list.
 
-19. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **High Priority Cases** is one of the case workstream that you created to route high priority cases. The value appears in the list, and when you select the value, it is added to the field. 
+21. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **High Priority Cases** is one of the case workstream that you created to route high priority cases. The value appears in the list, and when you select the value, it is added to the field. 
 
     > [!Note]
-    > If you update the name of the workstream in Omnichannel Administration app, then you must perform step 19. Otherwise, the cases won't be automatically distributed to the agents.
+    > If you update the name of the workstream in Omnichannel Administration app, then you must perform step 21. Otherwise, the cases won't be automatically distributed to the agents.
 
     > [!div class=mx-imgBorder] 
     > ![Set the If yes variable value](../media/case-work-distribution-flow9.png "Set variable value")
 
-20. Select **Add an action** button under the **If no** section. The **Choose an action** component appears. Now, type **Set Variable** in the **Search connectors and actions** box and the action appears in the list. Select it and the **Set Variable** action appears.
+22. Select **Add an action** button under the **If no** section. The **Choose an action** component appears. Now, type **Set Variable** in the **Search connectors and actions** box and the action appears in the list. Select it and the **Set Variable** action appears.
 
-21. Select the **LiveWorkStreamId** from the Name drop-down list.
+23. Select the **LiveWorkStreamId** from the Name drop-down list.
 
-22. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **Low Priority Cases** is one of the case workstream that you created to route low priority cases. The value appears in the list, and when you select the value, it is added to the field.
+24. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **Low Priority Cases** is one of the case workstream that you created to route low priority cases. The value appears in the list, and when you select the value, it is added to the field.
 
     > [!Note]
-    > - If you update the name of the workstream in Omnichannel Administration app, then you must perform step 22. Otherwise, the cases won't be automatically distributed to the agents.
+    > - If you update the name of the workstream in Omnichannel Administration app, then you must perform step 24. Otherwise, the cases won't be automatically distributed to the agents.
     >
     > - Adding multiple workstreams in the conditions are optional. If your business process requires multiple workstream conditions, you can create it.
 
     > [!div class=mx-imgBorder] 
     > ![Set the If no variable value](../media/case-work-distribution-flow10.png "Set variable value")
 
-23. Select **Save** to save **Entity Record Distribution Flow**.
+25. Select **Save** to save **Entity Record Distribution Flow**.
 
     > [!div class=mx-imgBorder] 
     > ![Workstream selection](../media/case-work-distribution-flow11.png "Workstream selection")
 
-High priority cases workstream is used to distribute the cases for automatic push, and the capacity required in 60 units.
-
-Low priority cases workstream is used to distribute the cases for manual pick up, and capacity required is 30 units.
+Now, you've defined **Entity Record Distribution Flow** such that any case whose priority is 1 (high) is distributed using high priority workstream, and other cases will be distributed using low priority workstream. Similarly, you can extend the conditions such that the Flow supports your business scenario requirements.
 
 ## Troubleshoot
 

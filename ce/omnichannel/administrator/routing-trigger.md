@@ -22,6 +22,12 @@ After you set up and enable an entity for routing, you can manually trigger the 
 - Manual trigger using **Save & Route** and **Apply Routing Rules**
 - Automatic trigger using custom Flow
 
+> [!Note]
+> - For case entity record, an out-of-the-box trigger is shipped to route the cases automatically. The routing is based on the **Route Case** field value in the case entity record. 
+> - If **Route Case** is set to **Yes**, the record will be routed upon creation. 
+> - If **Route Case** is set to No, the record will not be routed upon creation. 
+> - By default, for all the cases created from user interface, the **Route Case** field is set to **No**. Hence, the routing for these is not triggered.
+
 ## Manual trigger
 
 After you enable an entity for routing, you see the **Save & Route** in the entity form ribbon command bar and **Apply Routing rules**  in the entity view ribbon command bar. You can use these commands to route the record.

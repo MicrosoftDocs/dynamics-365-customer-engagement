@@ -42,9 +42,12 @@ This topic describes how to create a workstream that is used to route the case a
 
 5. Select **Save** to save the workstream.
 
-## When you upgrade from earlier versions
+> [!Note]
+> When you enable an entity for routing, the Omnichannel Administrator app creates a default workstream for each entity. If you are create a new workstream or update the default workstream according to your business scenario, you need to update these workstream in **Entity Records distribution Flow**.
 
-If you are already using the Entity Records feature and after you upgrade to the Omnichannel for Customer Service October 2019 update, then the **Entity** field in the **Work Stream** page will be empty. 
+## Upgrade path for preview users
+
+If you are already using the Entity Records feature and after upgrade from preview release to the latest version, the **Entity** field in the **Work Stream** page will be empty. 
 
 First, you need to create a new Entity Record and remove the automatically created default work stream in the Entity Record. Go to the already existing workstream and update the **Entity** field.
 
@@ -56,7 +59,10 @@ Follow the steps to update the **Entity** field.
 
 3. Go to already existing workstream where you want to update the field.
 
-4. Update the Entity field from the dro-down menu and select **Save**.
+4. Update the workstream with the creted entity record channel configuration, then and select **Save**.
+
+> [!Note]
+> After you update the workstream, you don't need to update the Flow as the Flow is automatically updated as you save the workstream.
 
 
 ## See also
