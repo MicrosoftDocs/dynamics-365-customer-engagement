@@ -6,13 +6,13 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 applies_to: 
-ms.date: 10/17/2019
+ms.date: 10/18/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 8E27477D-460D-4559-9379-FEC04129CF5E
 ms.custom: 
 ---
-# Onboard your organization to Channel Integration Framework Version 2.0 flight
+# Preview: Onboard your organization to Channel Integration Framework Version 2.0 flight
 
 Before you go to AppSource to install Channel Integration Framework version 2.0, you will need to onboard your organization to the version 2.0 flight. Follow the steps given below to onboard your organization to Channel Integration Framework Version 2.0 flight.
 
