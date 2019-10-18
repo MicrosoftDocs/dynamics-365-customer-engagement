@@ -19,6 +19,18 @@ ms.custom:
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
 
+## Entity routing does not route records
+
+### Issue:
+
+There may not be any issue in the Entity Routing configuration, but in **Entity Records Distribution Flow**.
+
+### Resolution:
+
+Go to **Entity Records Distribution Flow** and review your customization made to the flow.
+
+To resolve the issue, perform steps 1 through 8 in the [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow) topic. Review and resolve the error that is due to your customizations.
+
 ## Entity routing configuration fails
 
 ### Issue:

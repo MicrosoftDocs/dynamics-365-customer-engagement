@@ -233,7 +233,9 @@ If you are creating or editing an entity record workstream, you must update **E
 
 ## Troubleshoot
 
-- [Entity routing configuration fails](../troubleshoot-omnichannel-customer-service.md)
+- [Entity routing configuration fails](../troubleshoot-omnichannel-customer-service.md#entity-routing-configuration-fails)
+
+- [Entity routing does not route records](../troubleshoot-omnichannel-customer-service.md#entity-routing-does-not-route-records)
 
 ## See also
 
