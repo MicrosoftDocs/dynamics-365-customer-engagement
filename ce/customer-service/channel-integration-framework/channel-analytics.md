@@ -29,7 +29,7 @@ Channel Integration Framework provides insights about how the call center is per
 > [!div class="mx-imgBorder"]
 > ![Channel Analytics](media/channel-analytics.PNG "Channel Analytics")
 
-Given below are some common problems that Channel Analytics solves:
+Here are some common problems that customer service industry faces:
 
 - Disjoint and distributed communication data that is generated and maintained by the channel providers.
 - Agent behavior is not logged and instrumented.
@@ -37,7 +37,7 @@ Given below are some common problems that Channel Analytics solves:
 
 ## How does Channel Analytics help?
 
-Channel Analytics provides a consistent, seamless and unified experience when it comes to channel related analytics and insights. This means that:
+Channel Analytics provides a consistent, seamless, and unified experience when it comes to channel related analytics and insights. This means that:
 
 - Channel Analytics enables users to slice and dice KPIs based on different dimensions, including the channel type.
 - Users need not jump across apps to get channel specific information.
