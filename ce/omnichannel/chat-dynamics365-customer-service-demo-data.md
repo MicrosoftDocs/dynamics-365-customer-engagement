@@ -28,7 +28,6 @@ The following are the requirements to install sample data in your target environ
 - Latest version of Common Data Service platform
 - Base language is English
 - The environment has no Omnichannel for Customer Service data already, or only has default data that comes with any new org
-- The correct version of the business application is already installed Chat for Dynamics 365 Customer Service 
 - The org has Omnichannel for Customer Service provisioned and the Chat channel is enabled.
 
 > [!NOTE]
@@ -72,11 +71,11 @@ The **OmnichannelDemoData** package is installs with a few users per the setti
 
 To install the demo data, you need to create (or temporarily rename) users in your Common Data Service platform to match the incoming demo data configuration.
 
-| First Name | Last Name | User Alias   | Email                                    | Role                      |
-|------------|-----------|--------------|------------------------------------------|---------------------------|
-| Alex       | Allman    | alexallman   | <alexallman@sampleorg.onmicrosoft.com>   | Omnichannel Supervisor    |
-| Lilly      | Michael   | lillymichael | <lillymichael@sampleorg.onmicrosoft.com> | Omnichannel Administrator |
-| Penelope   | Mayo      | penelopemayo | <penelopemayo@sampleorg.onmicrosoft.com> | Omnichannel Agent         |
+| First Name | Last Name | User Alias   | Email                                    | Role                                            |
+|------------|-----------|--------------|------------------------------------------|-------------------------------------------------|
+| Alex       | Allman    | alexallman   | <alexallman@sampleorg.onmicrosoft.com>   | Omnichannel Supervisor                          |
+| Lilly      | Michael   | lillymichael | <lillymichael@sampleorg.onmicrosoft.com> | System Administrator, Omnichannel Administrator |
+| Penelope   | Mayo      | penelopemayo | <penelopemayo@sampleorg.onmicrosoft.com> | Omnichannel Agent                               |
 
 ### Configure users
 
