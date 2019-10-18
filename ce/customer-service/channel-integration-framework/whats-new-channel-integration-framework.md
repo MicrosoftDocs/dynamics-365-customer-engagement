@@ -52,7 +52,8 @@ Channel Integration Framework version 2.0 provides insights on how the call cent
 
 More information: [Channel Analytics](channel-analytics.md).
 
-For the complete list of features introduced in Channel Integration Framework 2.0, see the 2019 release wave 2 plan here: [Dynamics 365 Channel Integration Framework](/dynamics365-release-plan/2019wave2/dynamics365-customer-service/channel-integration-framework-v2).
+> [!IMPORTANT]
+> For the complete list of features introduced in Channel Integration Framework 2.0, see the 2019 release wave 2 plan here: [Dynamics 365 Channel Integration Framework](/dynamics365-release-plan/2019wave2/dynamics365-customer-service/channel-integration-framework-v2).
 
 ## What's new in Channel Integration Framework version 1.0
 

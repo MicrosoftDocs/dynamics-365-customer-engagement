@@ -88,3 +88,8 @@ To get the Channel Integration Framework solution from within Dynamics 365:
 
 > [!div class="nextstepaction"]
 > [Configure channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)
+
+## See also
+
+[Onboard your organization to Channel Integration Framework version 2.0](onboard-org-flight.md)<br />
+[Softphone integration sample code for Channel Integration Framework version 2.0](sample-softphone-integration-v2.md)

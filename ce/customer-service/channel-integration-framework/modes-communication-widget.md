@@ -28,15 +28,15 @@ manager: shujoshi
 
 Channel Integration Framework version 2.0 supports following modes:
 
-- **Docked**
+### Docked
 
 The docked mode is the default mode of the communication widget, where it is placed between the session panel and the application tab panel.
 
-- **Minimized**
+### Minimized
 
 The minimized mode is an overlay mode where the communication widget is reduced to a smaller size to allow agents have more screen space to view the applications. This is generally useful for agents who have started talking to the customer and need only minimal actions (e.g. hold, mute etc.) on the communication widget and thus can use the space to view more info on the application tab panel.
 
-- **Hidden**
+### Hidden
 
 The communication panel is not visible, but the communication widget code is running in the background.
 
