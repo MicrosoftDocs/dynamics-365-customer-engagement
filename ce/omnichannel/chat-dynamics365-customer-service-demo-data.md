@@ -102,7 +102,7 @@ The OmnichannelDemoData package installs a few users per the mentioned in the 
 
     This ensures that demo data records are created with the correct user ownership and therefore populate views correctly.
 
-8. Repeat steps 1 through 7 for the other users mentioned in the [table](set-up-users).
+8. Repeat steps 1 through 7 for the other users mentioned in the [table](#set-up-users).
 
 ### Update data mapping file
 
