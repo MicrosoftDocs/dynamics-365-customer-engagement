@@ -42,7 +42,7 @@ The following are the requirements to install sample data in your target environ
 
 Download the demo data from the Download Center and save it on your computer.
 
-[Chat for Dynamics 365 Customer Service demo data](https://go.microsoft.com/fwlink/p/?linkid=2026536)
+[Chat for Dynamics 365 Customer Service demo data](https://go.microsoft.com/fwlink/p/?linkid=2109052)
 
 
 ## Extract files
