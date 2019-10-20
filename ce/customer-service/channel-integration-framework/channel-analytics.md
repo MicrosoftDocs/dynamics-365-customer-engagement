@@ -44,7 +44,7 @@ Channel Analytics provides a consistent, seamless, and unified experience when i
 - Both the conversational data from third party providers and transactional data from Dynamics 365 apps is used to provide a comprehensive contact center analytics information.
 - It generates instrumentation for client-sdie events.
 - Standardize schema for the analytical data.
-= Define privacy and compliance boundaries for the data stored.
+- Define privacy and compliance boundaries for the data stored.
 - Define mechanism to correlate the communication data from multiple providers, CRM transactional data and agent behavior data.
 - Provide sample dashboards with Out-of-the-box KPIs.
 
@@ -75,12 +75,37 @@ Channel Analytics provides a consistent, seamless, and unified experience when i
 ## Channel Analytics APIs
 
 The two APIs for tracking event analytics are:
+1. `initLogAnalytics` API needs to be called only once for every conversation before any event is being logged. The ideal place would be to call it before the incoming notification is displayed.
+2. `logAnalyticsEvent` can be called as many times as needed after the initLogAnalytics call succeeds.
+-
+In order to log events from the server side, the following required entity records need to be created before the event logging can take place.
+- Conversation Data
+- Session Data
+- Session Participant Data
+
+After the above records are created, the event logging can be done by creating `KPI Event Data` entity attribute.
 
 | Name | Description |
 |-------|-------|
 | [initLogAnalytics](reference/microsoft-ciframework/initLogAnalytics.md) | Invoke this method on an incoming conversation to log analytics. |
 | [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events. |
 
-### See also
+### How to enable analytics for your organization?
+
+Channel Analytics can be enabled at a Channel Integration Framework provider level. 
+1. Query for the provider record Id by querying - `GET [Organization URI]/api/data/v9.1/msdyn_ciproviders.` Copy the value of value of `msdyn_ciproviderid` from the output.
+2. Execute the following script to enable analytics flag to `True`.
+
+```javascript
+var data = {
+              "msdyn_enableanalytics": true,
+           }
+// Update enable analytics flag to True
+Xrm.WebApi.updateRecord("msdyn_ciprovider", <msdyn_ciproviderid fetched from previous step>, data)
+```
+
+3. Reload the page.
+
+## See also
 
 [What's new in Channel Integration Framework](whats-new-channel-integration-framework.md)
