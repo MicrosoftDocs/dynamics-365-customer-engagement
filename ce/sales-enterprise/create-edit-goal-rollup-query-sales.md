@@ -71,6 +71,4 @@ Use the rollup query to gather data about a given goal, including all its relate
   
 ### See also  
 
- [Create or edit a goal](../sales-enterprise/create-edit-goal-sales.md)   
-
- [Progress Against Goals report](../customer-engagement/on-premises/basics/sales-insights-reports.md#BKMK_ProgressGoals)
+[Create or edit goals](../sales-enterprise/create-edit-goal-sales.md)   

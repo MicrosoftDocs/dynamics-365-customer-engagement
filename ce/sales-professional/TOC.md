@@ -20,7 +20,7 @@
 #### [Create and manage quotes](create-quotes-sales-professional.md)
 #### [Create or edit orders]
 #### [Create and manage invoices](create-invoices.md)
-#### [Add products to a quote, order, or invoice](add-product-quote-order-invoice.md)
+#### [Add products to a quote, order, or invoice](add-product-quote-order-invoice-sp.md)
 ### Set up a product catalog
 #### [Create products](create-products.md)
 #### [Create price lists](create-price-list.md)
