@@ -1,19 +1,19 @@
 ---
-title: "Supported formats to pass parameters values in the Channel Integration Framework app | MicrosoftDocs"
-description: "Learn about the supported formats to pass parameters values in the Channel Integration Framework app"
+title: "Use automation dictionary to pass parameters keys in the Channel Integration Framework app | MicrosoftDocs"
+description: "Learn how to use automation dictionart to pass parameters keys in the Channel Integration Framework app"
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 10/15/2019
+ms.date: 10/25/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: FB1DB0A5-97D6-40D6-BD5D-30606C44F8EF
 ms.custom: 
 ---
 
-# Preview: Pass parameters values
+# Preview: Use automation dictionary to pass data parameter keys
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -24,9 +24,9 @@ ms.custom:
 
 ## Overview
 
-While creating templates, you can pass parameter values such as Title of a session, notification, and application tab template.
+Automation Dictionary maintains the contextual data for the sessions. You can use the keys from the automation dictionary to pass the parameter keys in the templates.
 
-While creating templates in the Channel Integration Framework app, you can pass parameter values such as Title of a session, notification, application tab template. These values are replaced based on the contextual details available at the time of execution.
+While creating templates in the Channel Integration Framework app, you can pass parameter keys such as title of a session, title of notification, title of an application tab template, and custom parameter values for application tab types. These keys are replaced based on the contextual information available at the time of execution.
 
 ## Pass data parameters in templates
 
@@ -38,9 +38,9 @@ Kenny Smith, a customer, initiated a conversation and when the agent sees the no
 
 Here, **Field header** is **Customer Name** and the **Value** is **Kenny Smith**.
 
-For templates to identify the name of the customer as **Kenny Smith**, as an administrator, you must configure pass the parameter as values.
+For templates to identify the name of the customer as **Kenny Smith**, as an administrator, you must pass the parameter as keys.
 
-Similarly, for session and notification title, you can pass the data parameters in the support formats. To learn more, see [Supported formats for data parameter values](#supported-formats-for-data-parameter-values).
+Similarly, for session and notification title, you can pass the data parameters. To learn more, see [Automation dictionary formats to data parameter keys](#automation-dictionary-formats-to-data-parameter-keys).
 
 The Channel Integration Framework replaces these parameter values with the actual value based on the context of the session, channel provider, Common Data Service, and user actions
 
@@ -49,26 +49,30 @@ To learn more, see [Types context data parameters](#types-context-data-parameter
 
 ## Types context data parameters
 
-The context data parameters are available from the following:
+The automation dictionary uses the context data parameters that are available from the following sources:
 
 - [Context data from the channel provider](#context-data-from-the-channel-provider)
 - [Context data from the user actions](#context-data-from-the-user-actions)
 - [Context data from Common Data Service](#context-data-from-common-data-service)
 
+> [!div class=mx-imgBorder] 
+> ![Automation dictionary](media/automation-dictionary-cif.png "Automation dictionary")
+
 ### Context data from the channel provider 
 
-This context data is with the first-party channel provider such as Omnichannel for Customer Service or third-party channel provider that uses the widget exposed by Channel Integration Framework. The context data from the Omnichannel for Customer Service app are pre-chat survey, visitor portal navigation, and so on.
+This context data is from the first-party channel provider such as Omnichannel for Customer Service or third-party channel provider that uses the widget exposed by Channel Integration Framework. The context data from Omnichannel for Customer Service are pre-chat survey, visitor portal navigation, and so on.
 
 ### Context data from the user actions 
 
-This data is populated as and when agents perform some activities on the session. An example is opening a new customer record, case etc.
+This data is populated as and when agents perform some activities in the session. An example is opening a new customer record, case, and so on.
 
 ### Context data from Common Data Service 
 
-The organizational data is stored in Common Data Service, and you can fetch the data with the use of OData queries.
+The organizational data is stored in Common Data Service, and you can fetch the data with the use of OData queries. To learn more, see [OData queries](#odata-queries)
 
-## Supported formats for data parameter values
+## Automation dictionary formats to data parameter keys
 
+Automation Dictionary maintains the contextual data for the sessions. The keys in the automation dictionary can be passed as parameters to the action in macros. The system replaces these parameter keys with the actual value based on the context of the session, channel provider, Common Data Service, and user actions.
 These list of supported formats are:
 
 - [Slugs](#slugs)
@@ -77,9 +81,7 @@ These list of supported formats are:
 
 ### Slugs
 
-Slug is a replacement parameter that Channel Integration Framework populates at the run time based on the context.
-
-Channel Integration Framework supports the following slugs.
+Slug is a replacement parameter that Channel Integration Framework populates at the runtime based on the context. Channel Integration Framework supports the following slugs.
 
 | Slug | Description |
 |------------|-----------------------------------|
@@ -95,6 +97,18 @@ Channel Integration Framework supports the following slugs.
 | `{customerRecordId}` | Unique Id of t.he entity (contact or account entity) if the customer is authenticated. |
 | `{<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
 
+#### Format
+
+The `{ChannelProvider.<Slug>}` or `{Slug}` parameter format is used to retrieve the context from the channel provider, where `ChannelProvider` is a standard construct to get the value from the provider context of the current session. 
+
+   For example: 
+
+   `{ChannelProvider.caseId}`
+
+   or
+
+   `{caseId}`
+
 ### OData queries
 
 You can use the OData queries to get the context that are available from the Common Data Service platform.
@@ -105,13 +119,17 @@ The OData query format:
 
 Example:
 
+- `{$odata.incident.prioritycode.?$filter=incidentid eq '{caseId}'&$select=prioritycode}`
+
+- `{$odata.incident.title.?$filter=incidentid eq '{caseId}'&$select=title}`
+
 ### Static values
 
 These are hardcoded values that you update as your business requirement. For every hardcoded attribute you chose, follow the format type for the particular attribute.
 
 **For example:**
 
-For an incoming chat request, you want provide the static title to session and notification that agents see at the run time.
+For an incoming chat request, you want provide the static title to the session and notification template that agents see at the runtime.
 
 Notification title = `New chat request`
 
