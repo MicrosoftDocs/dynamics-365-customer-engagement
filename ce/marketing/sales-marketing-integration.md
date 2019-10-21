@@ -23,7 +23,14 @@ search.app:
 
 # Sales and marketing collaboration with Dynamics 365
 
-Read this topic to learn how marketers and salespeople can collaborate through dedicated, optimized sales and marketing apps running on top of a unified Dynamics 365 platform.
+Read this topic to learn how marketers and salespeople can collaborate through dedicated, optimized sales and marketing apps running on top of a unified Dynamics 365 platform. This topic shows you:
+
+- How marketers and salespeople can benefit by working on a common platform
+- How salespeople can influence marketing campaigns
+- How salespeople can access marketing results and entities
+- How marketers and salespeople can collaborate on events
+- How marketers and salespeople can collaborate on LinedIn campaigns
+- An example scenario of end-to-end sales/marketing collaboration from inquiry to close
 
 ## The power of a unified platform for business apps
 
