@@ -115,9 +115,11 @@ You can use the OData queries to get the context that are available from the Com
 
 The OData query format:
 
-`{$Odata.<entityName>.<entityAttributeName>.<?options>} like {$Odata.account.name.?$filter=id eq <GUID>`
+`{$Odata.<entityName>.<entityAttributeName>.<?options>}`
 
 Example:
+
+- `{$Odata.account.name.?$filter=id eq '{8DA6E5B9-88DF-E311-B8E5-6C3BE5A8B200}'}`
 
 - `{$odata.incident.prioritycode.?$filter=incidentid eq '{caseId}'&$select=prioritycode}`
 
