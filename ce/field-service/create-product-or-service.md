@@ -162,7 +162,7 @@ After you're done verifying everything, click **Done**.
 - calculations
 
 > [!Note]
-> calculations happen in Online mode or on sync
+> calculations happen in online mode or on sync
 
 
 
@@ -179,6 +179,10 @@ After you're done verifying everything, click **Done**.
 
 - invoice  
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-invoice.png)
+
 ## Add and consume product inventory (Optional)
 
 - warehouse
@@ -186,6 +190,10 @@ After you're done verifying everything, click **Done**.
 - inventory adjustment product
 - allocation
 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-add-mobile-warehouse.png)
 
 ## Configuration considerations
 
