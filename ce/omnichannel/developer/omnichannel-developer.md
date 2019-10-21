@@ -21,7 +21,7 @@ ms.custom:
 <h3> Live chat widget SDK </h3>
 
 Omnichannel for Customer Service live chat widget SDK provides methods that allow you to:
-- Set, retrieve and remove custom context provider for a live chat session.
+- Set, retrieve, and remove custom context provider for a live chat session.
 - Open an existing chat or initiate a new one.
 - Set, retrieve, and remove authentication-token providers for a live chat session.
 
@@ -33,7 +33,7 @@ Omnichannel for Customer Service live chat widget SDK provides methods that allo
 
 <h3> Start proactive chat </h3>
 
-Anticipating areas where customers need help and then engaging them through chat when they have been browsing your website for some time helps improve customer experience. Omnichannel for Customer Service allows you to offer proactive chat request to your customers when you feel they can use some help.
+Anticipating areas where customers need help and then engaging them through chat when they have been browsing your website for some time helps improve customer experience. Omnichannel for Customer Service allows you to offer proactive chat request to your customers when you think they can use some help.
 
 [Start chat proactively](how-to/start-proactive-chat.md)
 
@@ -44,7 +44,7 @@ Anticipating areas where customers need help and then engaging them through chat
 
 <h3> Manage custom context </h3>
 
-When a customer initiate a chat, you can pass custom context to Omnichannel for Customer Service.
+When a customer initiates a chat, you can pass custom context to Omnichannel for Customer Service.
 
 [Manage custom context](how-to/send-context-starting-chat.md)
 
@@ -53,7 +53,7 @@ When a customer initiate a chat, you can pass custom context to Omnichannel for 
 
 <h3> Display custom context </h3>
 
-Read how you can display the context variables in the Conversation Summary Control for a conversation on the UI.
+Learn how you can display the context variables in the Conversation Summary Control for a conversation on the UI.
 
 [Display custom context](how-to/display-custom-context.md)
 
@@ -64,7 +64,7 @@ Read how you can display the context variables in the Conversation Summary Contr
 
 <h3> Send authentication token </h3>
 
-Read how you can pass an authentication token to Omnichannel for Customer Service to authenticate a customer when they initiate a chat.
+Learn how you can pass an authentication token to Omnichannel for Customer Service to authenticate a customer when they initiate a chat.
 
 [Send authentication token](how-to/send-auth-token-starting-chat.md)
 
@@ -73,7 +73,7 @@ Read how you can pass an authentication token to Omnichannel for Customer Servic
 
 <h3> Enable a bot to escalate and end conversation </h3>
 
-Omnichannel for Customer Service allows you to route a conversation to a human agent when you feel that human intervention is required to successfully help the customer.
+Omnichannel for Customer Service allows you to route a conversation to a human agent when you think human intervention is required to successfully help the customer.
 
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)<br />
 
@@ -84,7 +84,7 @@ Omnichannel for Customer Service allows you to route a conversation to a human a
 
 <h3> Auto-close a conversation </h3>
 
-Read how you can automatically close a conversation using Web API.
+Learn how you can automatically close a conversation using Web API.
 
 [Auto-close a conversation](auto-close-conversation.md)
 
@@ -107,4 +107,4 @@ Read how you can automatically close a conversation using Web API.
 [Introduction to Omnichannel for Customer Service](../introduction-omnichannel.md)<br />
 [Omnichannel for Customer Service for administrators](../administrator/omnichannel-administrator.md)<br />
 [Omnichannel for Customer Service for system customizers](../customizer/omnichannel-customizer.md)<br />
-[Omnichannel for Customer Service for agent](../agent/omnichannel-agent-overview.md)
+[Omnichannel for Customer Service for agents](../agent/omnichannel-agent-overview.md)
