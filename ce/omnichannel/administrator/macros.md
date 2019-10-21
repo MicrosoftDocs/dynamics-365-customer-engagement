@@ -13,7 +13,7 @@ ms.assetid: 5CC1D385-5E05-4366-BFE9-4772F1E044A5
 ms.custom: 
 ---
 
-# Preview: Automate tasks with macros
+# Preview: Automate tasks with macros 
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 

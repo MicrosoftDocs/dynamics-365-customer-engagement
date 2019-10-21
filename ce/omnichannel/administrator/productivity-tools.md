@@ -50,18 +50,23 @@ The Dynamics 365 Productivity Tools app contains the following tools:
 - [Agent scripts](#agent-scripts)
 - [Smart assist](#smart-assist)
 
+    > [!div class=mx-imgBorder] 
+    > ![Productivity Tools](../media/productivity-tools.png "Productivity Tools")
+
 ## Macros
 
 With macros, agents can perform repetitive, monotonous tasks—Open model-driven app forms, pre-populate fields with the details, send an email to a customer, take notes, and much more—all in a single click.
-A macro is a set of instructions that tells the system how to complete a task. When an agent runs a macro, the system performs each instruction and this helps save time and accommodate agents to handle more customer issues. Also, Macros provides preciseness, clarity and consistency to the tasks that agents perform.
+A macro is a set of sequential actions that tells the system how to complete a task. When an agent executes a macro, the system performs each action and this helps save time and accommodate agents to handle more customer issues. Also, macro provides preciseness, clarity and consistency to the tasks that agents perform.
  
 ## Agent scripts 
 
-Agent scripts provide guidance to agents about what they should do when they get a customer issue. It ensures that only accurate, company-endorsed information is being shared, while also safeguarding the organization in regard to legal-compliance issues. Agent scripts help your organization to be unified, accurate, and effective while being faster and more-efficient in terms of customer handling.
+Agent scripts provide guidance to agents about what to do when they get a customer issue. The scripts ensure that only accurate, company-endorsed information is being shared, while also safeguarding the organization in regard to legal-compliance issues. Agent scripts help organizations to be unified, accurate, and effective while also being faster and more efficient in terms of customer handling.
  
 ## Smart assist
 
-Smart assist provides suggestions to agents on what is the next-best course of action they need to take based on the real-time context of the customer interaction. The suggestions are intelligent that are based on the real-time context of the conversation. These suggestions help the  agents to be more productive with knowledge articles, similar cases, and much more. The smart assist is available across all the channels supported by omnichannel making it a consistent and intelligence experience for agents.
+Smart assist is an intelligent assistant that provides real-time recommendations to the agents, helping them to take actions while interacting with customers. It allows organizations to build a custom bot and plug-in real-time to their environment. Also, organizations can develop relevant recommendations such as knowledge articles, similar cases, and next-best steps using Microsoft Adaptive cards. These recommendation cards are surfaced to the agent's user interface based on the context of the current conversation.
+
+The smart assist feature can be enabled across all channels like Chat for Dynamics 365 Customer Service, SMS, and Facebook except entity records making it a consistent experience for agents.
 
 ## Set up Dynamics 365 Productivity Tools
 
@@ -95,7 +100,10 @@ To set up the Dynamics 365 Productivity Tools, follow the steps.
     > [!div class=mx-imgBorder] 
     > ![Dynamics 365 Productivity Tools](../media/d365-pt-appsource.png "Dynamics 365 Productivity Tools")
 
-After the installation is successful, you can view the Productivity Tools such as macros, agent scripts, and smart assist in the sitemap of the Omnichannel Administrator app.
+After the installation is successful, you can view the Productivity Tools such as macros and agent scripts in the sitemap of the Omnichannel Administrator app.
+
+    > [!div class=mx-imgBorder] 
+    > ![Productivity Tools](../media/pt-sitemap.png "Productivity Tools")
 
 ## See also
 
