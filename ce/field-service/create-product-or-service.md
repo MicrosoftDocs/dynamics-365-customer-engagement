@@ -45,9 +45,27 @@ F&O
 ## Create a product or service
 
 
-work-order-product-create
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-product-create.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-create-field-service.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-create-service.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-create-non-inventory.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-products-price-list-items.png)
+
 
 1. From the main menu, click **Field Service** > **Administration**, and then choose **Product**.  
   
