@@ -29,8 +29,25 @@ The Product entity in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365
 
 F&O
 
+## Prerequisites
+
+- all versions of FS
+- Knowledge
+  - creating and managing product catalog: https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/set-up-product-catalog-walkthrough
+  - Price lists: https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products
+
+> [!Note]
+>
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
 ## Create a product or service
 
+
+work-order-product-create
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 1. From the main menu, click **Field Service** > **Administration**, and then choose **Product**.  
   
@@ -111,7 +128,7 @@ Max # of Properties allowed for a Product or Bundle.
 
 FS settings
 - allocated by default
-- use invetnroy past 0
+- use inventory past 0
 
 ## Additional notes
 
