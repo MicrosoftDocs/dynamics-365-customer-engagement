@@ -86,8 +86,7 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 
 | Version | Status |
 | --- | --- | 
-| 8.x | No defined release date |
-| 7.x | Available |
+| 7.x | Latest available |
 | 6.x | Not supported |
 
 
