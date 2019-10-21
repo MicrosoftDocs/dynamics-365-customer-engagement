@@ -67,6 +67,9 @@ The automation dictionary uses the context data parameters that are available fr
 - [Context data from Common Data Service](#context-data-from-common-data-service)
 - [Context data from other macro actions](#context-data-from-other-macro-actions)
 
+> [!div class=mx-imgBorder] 
+> ![Automation dictionary](../media/automation-dictionary.png "Automation dictionary")
+
 #### Context data from the channel provider 
 
 This context data is with the first-party channel provider such as Omnichannel for Customer Service or third-party channel provider that uses the widget exposed by Channel Integration Framework. The context data from the Omnichannel for Customer Service app are pre-chat survey, visitor portal navigation, and so on.
@@ -88,7 +91,7 @@ For example, there two action steps in the following order:
 1. Open a new form to create a record
 2. Open an email form with predefined template
 
-While creating the **Open an email form with predefined template**, you can get pass the context data parameter keys from the **Open a new form to create a record** macro step.
+While creating the **Open an email form with predefined template** action, you can get the context data parameter keys from the **Open a new form to create a record** macro action step.
 
 The context data parameter from the first macro step are as follows:
 - Entity Logical Name

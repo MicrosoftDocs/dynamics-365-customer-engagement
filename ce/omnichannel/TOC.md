@@ -60,7 +60,7 @@
 #### Productivity tools
 ##### [Overview](administrator/productivity-tools.md)
 ##### [Macros](administrator/macros.md)
-##### [Use automation dictionary to pass data parameters keys](administrator/pass-parameter-values.md)
+##### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
 ##### [Agent scripts](administrator/agent-scripts.md)
 ##### [Smart assist](administrator/smart-assist.md)
 #### [Create quick replies](administrator/create-quick-replies.md)
@@ -85,7 +85,7 @@
 #### [Manage session templates](administrator/session-templates.md)
 #### [Manage application tab templates](administrator/application-tab-templates.md)
 #### [Manage notification templates](administrator/notification-templates.md)
-#### [Use automation dictionary to pass data parameters keys](administrator/pass-parameter-values.md)
+#### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
 #### [Associate templates with workstreams](administrator/associate-templates.md)
 
 ## Agent guide
