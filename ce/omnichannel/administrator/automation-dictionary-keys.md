@@ -1,5 +1,5 @@
 ---
-title: "Pass parameters values in the Omnichannel Administrator app | MicrosoftDocs"
+title: "Use automation dictionary  to pass parameters keys in the Omnichannel Administrator app | MicrosoftDocs"
 description: "Learn about the supported formats to pass parameters values in the Omnichannel Administrator app for Templates and Macros."
 keywords: ""
 author: kabala123
