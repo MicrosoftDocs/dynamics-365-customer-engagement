@@ -39,7 +39,7 @@
       href: application-tab-templates-cif.md      
     - name: "Notification templates"
       href: notification-templates-cif.md
-    - name: "Pass parameter values"
+    - name: "Use automation dictionary to pass data parameter keys"
       href: automation-dictionary-keys-cif.md
     - name: "Associate templates with scenarios"
       href: associate-templates-cif.md          
