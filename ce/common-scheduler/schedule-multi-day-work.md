@@ -1,5 +1,5 @@
 ---
-title: "Schedule work for multiple days in Dynamics 365 Field Service| MicrosoftDocs"
+title: "Schedule work for multiple days in Universal Resource Scheduling | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/21/2019
