@@ -75,20 +75,18 @@ Channel Analytics provides a consistent, seamless, and unified experience when i
 ## Channel Analytics APIs
 
 The two APIs for tracking event analytics are:
-1. `initLogAnalytics` API needs to be called only once for every conversation before any event is being logged. The ideal place would be to call it before the incoming notification is displayed.
-2. `logAnalyticsEvent` can be called as many times as needed after the initLogAnalytics call succeeds.
--
+
+| Name | Description |
+|-------|-------|
+| [initLogAnalytics](reference/microsoft-ciframework/initLogAnalytics.md) | Invoke this method on an incoming conversation to log analytics. This method needs to be called only once for every conversation before any event is being logged. The ideal place would be to call it before the incoming notification is displayed.|
+| [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events. This method can be called as many times as needed after the `initLogAnalytics` call succeeds.|
+
 In order to log events from the server side, the following required entity records need to be created before the event logging can take place.
 - Conversation Data
 - Session Data
 - Session Participant Data
 
 After the above records are created, the event logging can be done by creating `KPI Event Data` entity attribute.
-
-| Name | Description |
-|-------|-------|
-| [initLogAnalytics](reference/microsoft-ciframework/initLogAnalytics.md) | Invoke this method on an incoming conversation to log analytics. |
-| [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events. |
 
 ### How to enable analytics for your organization?
 
