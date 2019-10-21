@@ -24,11 +24,11 @@ ms.custom:
 
 ## Overview
 
-Automation Dictionary maintains the contextual data for the sessions. You can use the keys in the automation dictionary to pass the parameters to the action in macros.​
+Automation Dictionary maintains the contextual data for the sessions. You can use the keys from the automation dictionary to pass the parameter in a action.​
 
-While creating templates and macros in the Omnichannel Administrator app, you can pass parameter keys such as Title of a session, notification, application tab template, custom parameter values for application tab types. These keys are replaced based on the contextual details available at the time of execution.
+While creating templates and macros in the Omnichannel Administrator app, you can pass parameter keys such as title of a session, title of notification, title of an application tab template, and custom parameter values for application tab types. These keys are replaced based on the contextual information available at the time of execution.
 
-## Pass data parameters in templates
+### Pass data parameters in templates
 
 Let us take a scenario for templates with the notifications.
 
@@ -38,23 +38,23 @@ Kenny Smith, a customer, initiated a conversation and when the agent sees the no
 
 Here, **Field header** is **Customer Name** and the **Value** is **Kenny Smith**.
 
-For templates to identify the name of the customer as **Kenny Smith**, as an administrator, you must configure pass the parameter as keys.
+For templates to identify the name of the customer as **Kenny Smith**, as an administrator, you must pass the parameter as keys.
 
-Similarly, for session and notification title, you can pass the data parameters in the support formats. To learn more, see [Automation dictionary formats to data parameter keys](#automation-dictionary-formats-to-data-parameter-keys).
+Similarly, for session and notification title, you can pass the data parameters. To learn more, see [Automation dictionary formats to data parameter keys](#automation-dictionary-formats-to-data-parameter-keys).
 
-The omnichannel system replaces these parameter values with the actual values based on the context of the session, channel provider, Common Data Service, and user actions.
+The system replaces these parameter keys with the actual values based on the context of the session, channel provider, Common Data Service, and user actions.
 
 To learn more, see [Types context data parameters](#types-context-data-parameters).
 
-## Pass data parameters in macros
+### Pass data parameters in macros
 
-Macros are a set of configured actions that are executed on-demand by user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to pass the data parameters in the support formats. To learn more, see [Automation dictionary formats to data parameter keys](#automation-dictionary-formats-to-data-parameter-keys).
+Macros are a set of configured sequential actions that are executed on-demand by user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to pass the data parameters. To learn more, see [Automation dictionary formats to data parameter keys](#automation-dictionary-formats-to-data-parameter-keys).
 
 When the agent runs the macro, the system replaces these parameter keys with the actual values based on the context of the session, channel provider, Common Data Service, and user actions. 
 
-When the context is a session, the marco is executed based on the context for a current session with an Anchor tab or current tab in focus.
+When the context is from a session, the marco action is executed based on the information for a current session, where the information is obtained from an Anchor tab or current tab that is in focus.
 
-For example, to create a case, you need to define the actions to open an incident entity form and GUID of the form (optional).
+For example, to create a case, you need to define the actions that contains incident entity form and the GUID of the form (optional).
 
 To learn more, see [Types context data parameters](#types-context-data-parameters).
 
@@ -72,15 +72,15 @@ The automation dictionary uses the context data parameters that are available fr
 
 #### Context data from the channel provider 
 
-This context data is with the first-party channel provider such as Omnichannel for Customer Service or third-party channel provider that uses the widget exposed by Channel Integration Framework. The context data from the Omnichannel for Customer Service app are pre-chat survey, visitor portal navigation, and so on.
+This context data is from the first-party channel provider such as Omnichannel for Customer Service or third-party channel provider that uses the widget exposed by Channel Integration Framework. The context data from Omnichannel for Customer Service are pre-chat survey, visitor portal navigation, and so on.
 
 #### Context data from the user actions 
 
-This data is populated as and when agents perform some activities on the session. An example is opening a new customer record, case etc.
+This data is populated as and when agents perform some activities in the session. An example is opening a new customer record, case, and so on.
 
 #### Context data from Common Data Service 
 
-The organizational data is stored in Common Data Service, and you can fetch the data with the use of OData queries.
+The organizational data is stored in Common Data Service, and you can fetch the data with the use of OData queries. To learn more, see [OData queries](#odata-queries)
 
 #### Context data from other macro actions 
 
@@ -93,7 +93,7 @@ For example, there two action steps in the following order:
 
 While creating the **Open an email form with predefined template** action, you can get the context data parameter keys from the **Open a new form to create a record** macro action step.
 
-The context data parameter from the first macro step are as follows:
+The context data parameter from the first macro action are as follows:
 - Entity Logical Name
 - Page Type
 - Tab Id
@@ -103,19 +103,17 @@ The context data parameter from the first macro step are as follows:
 
 ## Automation dictionary formats to data parameter keys
 
-These list of supported formats are:
+Automation Dictionary maintains the contextual data for the sessions. The keys in the automation dictionary can be passed as parameters to the action in macros. The system replaces these parameter keys with the actual value based on the context of the session, channel provider, Common Data Service, and user actions.
+
+The automation dictionary supports the following formats:
 
 - [Slugs](#slugs)
 - [OData queries](#odata-queries)
 - [Static values](#static-values)
 
-The system replaces these parameter keys with the actual value based on the context of the session, channel provider, Common Data Service, and user actions.
-
 ### Slugs
 
-Slug is a replacement parameter that system populates at the runtime based on the context.
-
-The list of supported slugs are:
+Slug is a replacement parameter that system populates at the runtime based on the context. The list of supported slugs are:
 
 | Slug | Description |
 |------------|-----------------------------------|
@@ -175,6 +173,10 @@ The OData query format:
 
 Example:
 
+- `{$odata.incident.prioritycode.?$filter=incidentid eq '{caseId}'&$select=prioritycode}`
+
+- `{$odata.incident.title.?$filter=incidentid eq '{caseId}'&$select=title}`
+
 ### Static values
 
 These are hardcoded values that you update as your business requirement. For every hardcoded attribute you chose, follow the format type for the particular attribute.
@@ -189,9 +191,11 @@ You want to create a case with the case title being always appended with **Conto
    | Attribute Name | Case title |
    | Attribute value | `Contoso - {caseTitle}` |
 
+   Here **Contoso -** is the hardcoded static value.
+
 **For example (Templates):**
 
-For an incoming chat request, you want provide the static title to session and notification that agents see at the run time.
+For an incoming chat request, you want provide the static title to the session and notification template that agents see at the runtime.
 
 Notification title = `New chat request`
 
