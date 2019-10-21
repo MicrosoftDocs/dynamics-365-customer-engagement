@@ -91,6 +91,44 @@ As an administrator, you can edit the value of a notification field header in th
 
 5.	Select the save icon to save the grid.
 
+## Customize notification
+
+In the Contoso Pvt Ltd customer service center, every case notification that is shown to an agent needs to have the following:
+
+**Title of the notification:** 
+
+**Notification fields:**
+
+- **Case priority**: Priority of the case such high or low.
+- **Case title**: Title of the case.
+- **Device**: Device from which the case was created by the customer.
+- **Language**: Language of the customer.
+
+As an administrator, you need to customize the notification template to show the title and notification fields.
+
+### Step 1: Create a notification template with the following values
+
+| Tab | Name | Value |
+|---------|--------------------|-----------------------------------------------|
+| General | Name | Customized case notification template |
+| General | Title | `{headerText}` |
+| General | Icon |/webresources/msdyn_chat_icon_zfp.svg <br><br> **Note:** This is the default value. |
+| General | Timeout (seconds) | 120. <br><br> **Note:** This is the default value. |
+| General | Accept Button | Accept <br><br> **Note:** This is the default value.|
+| General | Reject Button | Reject <br><br> Set the toggle to yes to show the reject button to agents. <br> After you set the toggle to **Yes**, the button text box appears. <br><br> **Note:** This is the default value.|
+
+### Step 2: Create the Notification Fields with the following values
+
+| Name | Field header | Value |
+|---------|--------------------|-----------------------------------------------|--------------------|    
+| Case priority | Case priority | `{$odata.incident.prioritycode.?$filter=incidentid eq '{caseId}'&$select=prioritycode}` |
+| Case title | Case title | `{$odata.incident.title.?$filter=incidentid eq '{caseId}'&$select=title}` |
+| Device | Device | `{visitorDevice}` |
+| Language | Language | `{visitorLanguage}` |
+
+> [!div class=mx-imgBorder] 
+> ![Customize notification template](media/customize-notification-template.png "Customize notification template")
+
 
 ## See also
 
