@@ -74,4 +74,4 @@ To create a session, follow these steps:
 
 - [Manage application tab templates](application-tab-templates-cif.md)
 - [Manage notification templates](notification-templates-cif.md)
-- [Pass parameters values](parameter-values-cif.md)
+- [Pass parameters values](automation-dictionary-keys-cif.md)

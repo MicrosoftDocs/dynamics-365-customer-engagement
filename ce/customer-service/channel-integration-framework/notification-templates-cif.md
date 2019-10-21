@@ -65,7 +65,7 @@ You must associate the notification templates with a session template.
     |---------|--------------------|-----------------------------------------------|--------------------|    
     | General | Name | Specify the name for the notification. This name wouldn't be visible for the agents at the run-time. | Name of the customer |
     | General | Field header | Provide a name to the field header. This appears in the notification that agents to see at the run-time. | Name |
-    | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Supported formats to pass parameters values](parameter-values-cif.md). |`{customerName}` | 
+    | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Supported formats to pass parameters values](automation-dictionary-keys-cif.md). |`{customerName}` | 
 
 10.	Select the back arrow on the browser to go to the notification template you created. Alternatively, you can select **Notifications** in the sitemap and then select the template you created.
 
@@ -96,5 +96,5 @@ As an administrator, you can edit the value of a notification field header in th
 
 - [Manage session templates](session-templates-cif.md)
 - [Manage application tab templates](application-tab-templates-cif.md)
-- [Pass parameters values](parameter-values-cif.md)
+- [Pass parameters values](automation-dictionary-keys-cif.md)
 - [Associate templates with workstreams](associate-templates-cif.md)
