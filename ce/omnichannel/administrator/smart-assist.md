@@ -26,13 +26,11 @@ ms.custom:
 
 ## Overview of smart assist
 
-The new-age customer service industry is moving towards the vision of being an intelligent versus process-driven while interacting with customers.
+The new-age customer service industry is moving towards the vision of being an intelligent versus process-driven while interacting with customers. Pivoting on intelligence capabilities, helps unleash the productivity of agents to perform better on Key Performance Indicators and at the same time, deliver better customer experience.
 
-The customer service industry pivots on intelligent capabilities that help unleash the productivity of agents to perform better on Key Performance Indicators and at the same time, deliver better customer experience.
+As the agents are more efficient and productive, there is a reduction in the cost of operation of the call center. Now, the smart assist feature helps organizations realize the vision of being more intelligent.
 
-As the agents are more efficient and productive, leading to a reduction in the cost of operation of the call center, the smart assist feature helps organizations realize the vision of being more intelligent.
-
-Smart assist is an intelligent assistant that provides real-time recommendations to the agents, helping them to take actions while interacting with customers. It allows organizations to build a custom bot and plug-in to their environment. Also, organizations can develop relevant recommendations such as knowledge articles, similar cases, and next-best steps using Microsoft Adaptive cards. These recommendation cards are surfaced to the agent's user interface based on the context of the current conversation.
+Smart assist is an intelligent assistant that provides real-time recommendations to the agents, helping them to take actions while interacting with the customers. It allows organizations to build a custom bot and plug-in to their environment. These custom bot interprets the conversations in real-time and provides relevant recommendations such as knowledge articles, similar cases, and next-best steps to the agent's user interface. The recommendations are shown to the agents using Microsoft Adaptive cards.
 
 The smart assist feature can be enabled across all channels like Chat for Dynamics 365 Customer Service, SMS, and Facebook except entity records making it a consistent experience for agents.
 
