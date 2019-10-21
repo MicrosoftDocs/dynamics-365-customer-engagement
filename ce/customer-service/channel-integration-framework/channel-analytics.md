@@ -106,4 +106,5 @@ Xrm.WebApi.updateRecord("msdyn_ciprovider", <msdyn_ciproviderid fetched from pre
 
 ## See also
 
-[What's new in Channel Integration Framework](whats-new-channel-integration-framework.md)
+[What's new in Channel Integration Framework](whats-new-channel-integration-framework.md)<br />
+[updateContext method](reference/microsoft-ciframework/updateContext.md)
