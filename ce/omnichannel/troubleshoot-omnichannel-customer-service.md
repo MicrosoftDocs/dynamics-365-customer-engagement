@@ -29,7 +29,7 @@ There may not be any issue in the Entity Routing configuration, but in **Entity 
 
 Go to **Entity Records Distribution Flow** and review your customization made to the flow.
 
-To resolve the issue, perform steps 1 through 8 in the [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#step-3-update-entity-records-distribution-flow) topic. Review and resolve the error that is due to your customizations.
+To resolve the issue, perform steps 1 through 8 in the [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow) topic. Review and resolve the error that is due to your customizations.
 
 ## Entity routing configuration fails
 
@@ -43,7 +43,7 @@ One of issues is that **Entity Records Distribution Flow** connection is not aut
 
 Go to Entity Records Distribution Flow and authenticate the connection.
 
-To resolve the issue, perform steps 1 through 9 in the [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#step-3-update-entity-records-distribution-flow) topic.
+To resolve the issue, perform steps 1 through 9 in the [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow) topic.
 
 ## Omnichannel provisioning fails due to expired Teams Service Principal
 

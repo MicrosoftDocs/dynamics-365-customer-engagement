@@ -49,6 +49,8 @@ Create a new omnichannel queue or use an existing omnichannel queue, and then ad
 
 ## Step 2: Enable entity for activities and queues
 
+Any entity you want to enable for routing needs to be enabled for activities and queues.
+
 1. Sign in to the Common Data Service platform.
 
 2. Select **Settings** > **Customizations** > **Customize the System**.
@@ -67,7 +69,7 @@ Create a new omnichannel queue or use an existing omnichannel queue, and then ad
 7. Select **Publish**.
 
 > [!Note]
-> If you enable the option - **Automatically move records to the owner's default queue when a record is created or assigned**, in the case entity customization, then the case entity record won't be automatically distributed to the agents. You must clear the checkbox to automatically distribute the case records. <br><br> ![Automatic record movement to the agent's default queue](../media/route-owner-queue.png "Automatic record movement to the agent's default queue")
+> If you enable the option - **Automatically move records to the owner's default queue when a record is created or assigned**, in the entity customization, then the entity record won't be automatically distributed to the agents. You must clear the checkbox to automatically distribute the entity records. <br><br> ![Automatic record movement to the agent's default queue](../media/route-owner-queue.png "Automatic record movement to the agent's default queue")
 
 ## Step 3: Enable entity for routing
 
@@ -95,10 +97,7 @@ Create entity record configuration to enable an entity for routing.
 
 After creating an entity record configuration, and enabling an entity for routing, you can define routing rules to route these records to appropriate queues. 
 
-Routing rules for entity records consists of routing rule sets, which in turn contains rule items. You can define multiple routing rule sets defined. Only one routing rule set can be active at any point of time. If you try to activate another rule set when one rule set is already active, it will deactivate the currently active rule set. You can activate or deactivate only the rule sets that you own.
-
-> [!Note]
-> You can’t edit an active routing rule set. Therefore, if you’re importing a solution that includes an active routing rule set into an organization where the rule set already exists with the same ID, the solution import will fail.
+Routing rules for entity records consists of routing rule sets, which in turn contains rule items.
 
 Let's see how to create routing rule set and rule items for entity records. In this procedure, we are adding it for case entity record as example.
 
@@ -118,6 +117,11 @@ Let's see how to create routing rule set and rule items for entity records. In t
 
 ### Create routing rule set
 
+    You can define multiple routing rule sets. Only one routing rule set can be active at any point of time. If you try to activate another rule set when one rule set is already active, it will deactivate the currently active rule set. You can activate or deactivate only the rule sets that you own.
+
+   > [!Note]
+   > You can’t edit an active routing rule set. Therefore, if you’re importing a solution that includes an active routing rule set into an organization where the rule set already exists with the same ID, the solution import will fail.
+
 5. Select **+ New Routing Rule Set**.
 
 6. Specify the following in the **New Routing Rule Set** page
@@ -134,6 +138,8 @@ Let's see how to create routing rule set and rule items for entity records. In t
 7. Select **Save** to save the rule set. Once you save the record, you can see the **Rule Items** section in the page.
 
 ### Create rule item
+    
+    You can define multiple routing rule items in a routing rule sets. A rule item consists of a condition and destination to route the entity records. Let's how to define the rule item.
 
 8. Select **+ New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
 
@@ -179,7 +185,11 @@ To update the Entity field, follow these steps:
 
 1. Create an entity records channel for the entity you want to route and distribute.
 
-2. Update the work stream with the created entity record channel configuration.
+2. Remove the default workstream in Entity Record that you created.
+
+3. Go to already existing workstream where you want to update the field.
+
+4. Update the workstream with the created entity record channel configuration, then and select **Save**.
 
 > [!Note]
 > After you update the workstream, you don't need to update the Flow as the Flow is automatically updated as you save the workstream.

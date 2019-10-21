@@ -32,7 +32,7 @@ The smart assist feature can be enabled across all channels like Chat for Dynami
 
 ## Smart assist control
 
-The smart assist control appears in any of the entity forms as configured by your administrator. The control displays. 
+The smart assist control can appear in any of the entity forms as configured by your administrator. 
 
 The smart assist bot interprets the conversation in the communication panel and provides real-time recommendations.
 

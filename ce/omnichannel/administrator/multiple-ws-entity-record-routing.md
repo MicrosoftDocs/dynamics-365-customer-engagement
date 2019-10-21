@@ -29,9 +29,7 @@ This walkthrough demonstrates how to set up two workstreams, one each for high p
 
 [Step 1: Create workstream](#step-1-create-workstream)
 
-[Step 2: Create routing rules](#step-3-create-routing-rules)
-
-[Step 3: Update Entity Record Distribution Flow](#step-3-update-entity-records-distribution-flow)
+[Step 2: Update Entity Record Distribution Flow](#step-2-update-entity-records-distribution-flow)
 
 ## Step 1: Create workstream
 
@@ -43,11 +41,7 @@ Low priority cases workstream is used to distribute the cases for manual pick up
 
 To learn more, see [Create workstream for entity record routing](set-up-entity-workstream.md).
 
-## Step 2: Create routing rules
-
-To learn more, see [Create routing rules](entity-channel.md#step-4-create-routing-rules).
-
-## Step 3: Update entity records distribution flow
+## Step 2: Update entity records distribution flow
 
 If you are creating or editing an entity record workstream, you must update **Entity records Distribution Flow**. The Omnichannel Administrator app automatically creates this flow out-of-the-box for distributing entity records.
 
@@ -63,9 +57,6 @@ If you are creating or editing an entity record workstream, you must update **E
 | Entity record - \<Entity Record\> | Do not modify. |
 | Work Stream Selection for Routing (\<Entity Record\> ) | Update the condition and workstreams Id. |
 | Invoke Omnichannel | Do not modify. |
-
-> [!Important]
-> Ensure that **Entity Records Distribution Flow** is closed before you update the workstream. Assume, you've made certain updates to the Flow, and while the Flow is still in the open in the browser, you update the workstream. In this case, after you save the workstream, the Flow will be reset to its earlier state causing to loose the changes you made.
 
 > [!Warning]
 > We recommend you update only the **Work Stream Selection for Routing** component in **Entity Records Distribution Flow**. If you update any other component step in the flow, the entity routing might fail. 
@@ -174,6 +165,10 @@ If you are creating or editing an entity record workstream, you must update **E
 
 Now, you've defined **Entity Record Distribution Flow** such that any case whose priority is 1 (high) is distributed using high priority workstream, and other cases will be distributed using low priority workstream. Similarly, you can extend the conditions such that the Flow supports your business scenario requirements.
 
+> [!Important]
+> Whenever you want to update the workstream ensure that **Entity Records Distribution Flow** is closed. 
+> Assume, you've made certain updates to the Flow. Now, while the Flow is still in the open in the browser, you go to Omnichannel Administration app and update the workstream. In this case, after you save the workstream, the Flow will be reset to its earlier state and you will loose the changes you did to the Flow.
+
 ## Troubleshoot
 
 - [Entity routing configuration fails](../troubleshoot-omnichannel-customer-service.md#entity-routing-configuration-fails)
@@ -188,6 +183,6 @@ Now, you've defined **Entity Record Distribution Flow** such that any case whose
 
 [Understand and create workstreams](work-streams-introduction.md)
 
-[Entity record workstreams](set-up-entity-workstream.md)
+[Create workstreams for entity record routing](set-up-entity-workstream.md)
 
 [Work with queues](queues-omnichannel.md)

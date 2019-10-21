@@ -17,16 +17,10 @@ ms.custom:
 
 ## Overview
 
-After you set up and enable an entity for routing, you can manually trigger the routing for these records using the save and route button on the entity record forms. As an administrator, you can also setup automatic triggers to route these entity records using Microsoft Flow. There are two types of triggers:
+After you set up and enable an entity for routing, you can manually trigger the routing for these records using the save and route button on the entity record forms. As an administrator, you can also setup automatic triggers to route these entity records using Microsoft Flow. Let us look at the triggers in detail in the following sections:
 
 - Manual trigger using **Save & Route** and **Apply Routing Rules**
 - Automatic trigger using custom Flow
-
-> [!Note]
-> - For case entity record, an out-of-the-box trigger is shipped to route the cases automatically. The routing is based on the **Route Case** field value in the case entity record. 
-> - If **Route Case** is set to **Yes**, the record will be routed upon creation. 
-> - If **Route Case** is set to No, the record will not be routed upon creation. 
-> - By default, for all the cases created from user interface, the **Route Case** field is set to **No**. Hence, the routing for these is not triggered.
 
 ## Manual trigger
 
@@ -112,24 +106,26 @@ To enable automatic trigger to route the entity records, create a custom Flow.
     Format: `<entity collection name>(unique identifier of the entity)`
     Example: leads(Lead)
 
+    > [!Note]
+    > 1. Open your browser and go to `https://<org_name>/api/data/v9.0/EntityDefinitions(LogicalName='<entityname>')`
+    > For example: `https://contoso.dynamics.com/api/data/v9.0/EntityDefinitions(LogicalName='lead')`.
+    > 2. Search for `LogicalCollectionName`, and you can view the entity collection name for a particular entity.
+    > For example: `"LogicalCollectionName":"leads"`
+    > Here, `leads` is the entity collection name.
+    
     > [!div class=mx-imgBorder] 
     > ![Select Perform an unbound action](../media/route-trigger4.png "Select Perform an unbound action")
 
+
 12. Select **Save** to save the Flow.
 
-Whenever a first entity record, say lead, is created, the Flow applies the **ApplyRoutingRuleRecord** action on the entity record.
+Now, based the Flow that is defined, whenever an entity record, say lead, is created, the Flow applies the **ApplyRoutingRuleRecord** action on the entity record. Similarly, you can create a custom Flow based on your business scenarios.
 
-### Discover entity collection name
-
-1. Open your browser and go to `https://<org_name>/api/data/v9.0/EntityDefinitions(LogicalName='<entityname>')`
-
-    For example: `https://contoso.dynamics.com/api/data/v9.0/EntityDefinitions(LogicalName='lead')`.
-
-2. Search for `LogicalCollectionName`, and you can view the entity collection name for a particular entity.
-
-    For example: `"LogicalCollectionName":"leads"`
-
-Here, `leads` is the entity collection name.
+> [!Note]
+> - For case entity record, an out-of-the-box trigger is shipped to route the cases automatically. The routing is based on the **Route Case** field value in the case entity record. 
+> - If **Route Case** is set to **Yes**, the record will be routed upon creation. 
+> - If **Route Case** is set to No, the record will not be routed upon creation. 
+> - By default, for all the cases created from user interface, the **Route Case** field is set to **No**. Hence, the routing for these is not triggered.
 
 ## See also
 

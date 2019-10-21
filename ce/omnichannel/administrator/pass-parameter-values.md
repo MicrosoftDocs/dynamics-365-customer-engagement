@@ -13,7 +13,7 @@ ms.assetid: B769EF6D-A837-4BCF-B827-FD5F319AD9BC
 ms.custom: 
 ---
 
-# Preview: Pass data parameters values
+# Preview: Use automation dictionary to pass data parameters keys
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -24,7 +24,9 @@ ms.custom:
 
 ## Overview
 
-While creating templates and macros in the Omnichannel Administrator app, you can pass parameter values such as Title of a session, notification, application tab template, custom parameter values for application tab types. These values are replaced based on the contextual details available at the time of execution.
+Automation Dictionary maintains the contextual data for the sessions. You can use the keys in the automation dictionary to pass the parameters to the action in macros.​
+
+While creating templates and macros in the Omnichannel Administrator app, you can pass parameter keys such as Title of a session, notification, application tab template, custom parameter values for application tab types. These keys are replaced based on the contextual details available at the time of execution.
 
 ## Pass data parameters in templates
 
@@ -36,9 +38,9 @@ Kenny Smith, a customer, initiated a conversation and when the agent sees the no
 
 Here, **Field header** is **Customer Name** and the **Value** is **Kenny Smith**.
 
-For templates to identify the name of the customer as **Kenny Smith**, as an administrator, you must configure pass the parameter as values.
+For templates to identify the name of the customer as **Kenny Smith**, as an administrator, you must configure pass the parameter as keys.
 
-Similarly, for session and notification title, you can pass the data parameters in the support formats. To learn more, see [Supported formats for data parameter values](#supported-formats-for-data-parameter-values).
+Similarly, for session and notification title, you can pass the data parameters in the support formats. To learn more, see [Automation dictionary formats to data parameter keys](#automation-dictionary-formats-to-data-parameter-keys).
 
 The omnichannel system replaces these parameter values with the actual values based on the context of the session, channel provider, Common Data Service, and user actions.
 
@@ -48,17 +50,17 @@ To learn more, see [Types context data parameters](#types-context-data-parameter
 
 Macros are a set of configured actions that are executed on-demand by user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to pass the data parameters in the support formats. To learn more, see [Supported formats for data parameter values](#supported-formats-for-data-parameter-values).
 
-When the agent runs the macro, the omnichannel system replaces these parameter values with the actual values based on the context of the session, channel provider, Common Data Service, and user actions. 
+When the agent runs the macro, the system replaces these parameter keys with the actual values based on the context of the session, channel provider, Common Data Service, and user actions. 
 
 When the context is a session, the marco is executed based on the context for a current session with an Anchor tab or current tab in focus.
 
-For example, to create a case, you need to define the macro to open an incident entity form and GUID of the form (optional).
+For example, to create a case, you need to define the actions to open an incident entity form and GUID of the form (optional).
 
 To learn more, see [Types context data parameters](#types-context-data-parameters).
 
 ## Types context data parameters
 
-The context data parameters are available from the following:
+The automation dictionary uses the context data parameters that are available from the following sources:
 
 - [Context data from the channel provider](#context-data-from-the-channel-provider)
 - [Context data from the user actions](#context-data-from-the-user-actions)
@@ -96,7 +98,7 @@ The context data parameter from the first macro step are as follows:
     > [!NOTE]
     > The context data form other macro actions are specific to Macros, and it is not applicable to templates.
 
-## Supported formats for data parameter values
+## Automation dictionary formats to data parameter keys
 
 These list of supported formats are:
 
@@ -104,11 +106,11 @@ These list of supported formats are:
 - [OData queries](#odata-queries)
 - [Static values](#static-values)
 
-The omnichannel system replaces these parameter values with the actual value based on the context of the session, channel provider, Common Data Service, and user actions.
+The system replaces these parameter keys with the actual value based on the context of the session, channel provider, Common Data Service, and user actions.
 
 ### Slugs
 
-Slug is a replacement parameter that omnichannel system populates at the run time based on the context.
+Slug is a replacement parameter that system populates at the runtime based on the context.
 
 The list of supported slugs are:
 
@@ -130,7 +132,7 @@ The list of supported slugs are:
 
 There are two types of format:
 
-- The `{ChannelProvider.<Slug>}` or `{Slug}` parameter format is used to retrieve the context from the channel provider, where `ChannelProvider` is a standard construct to get the value from the context of the provider of the current session. 
+- The `{ChannelProvider.<Slug>}` or `{Slug}` parameter format is used to retrieve the context from the channel provider, where `ChannelProvider` is a standard construct to get the value from the provider context of the current session. 
 
    For example: 
 

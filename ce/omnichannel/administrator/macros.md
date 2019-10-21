@@ -26,9 +26,15 @@ ms.custom:
 
 ## Overview of macros
 
-In the customer service industry, agents do too many clicks to perform actions (Open a form, fill the form, save the form, and so on), lot of repetitive and monotonous tasks (Greet a customer, Verify a customer, Send acknowledgment mail, Take notes, and so on). These clicks and repetitive tasks could lead to human errors while agents copy and paste the data across different operations.
+In the customer service industry, agents do too many clicks to perform actions (Open a form, fill the form, save the form, and so on), lot of repetitive and monotonous actions (Greet a customer, Verify a customer, Send acknowledgment mail, Take notes, and so on). These clicks and repetitive tasks could lead to human errors while agents copy and paste the data across different operations.
 
 Macros helps address these challenges aiding users to perform day-to-day operations in a faster, efficient, and process compliant manner.
+
+Macros are a set of sequential actions that are executed by a user. You can use the macros to automate repetitive and monotonous actions that in turn reduces the human errors (copy and paste of data) and improve the agent productivity. Ultimately, an improved agent productivity leads to lower average handling time and hence improved customer satisfaction.
+
+The macros are like reusable component where you can use the same macro with different sessions based on your organizational requirements. These session are executed based on the context parameters that are specific to a session.
+
+
 
 ## Value propositions
 
@@ -42,19 +48,21 @@ Macros helps address these challenges aiding users to perform day-to-day operati
 
 - Improved customer satisfaction
 
+- Contextual and reusable macro
+
 ## Prerequisites
 
 - Install Dynamics 365 Productivity Tools solution
 
-## Built-in macros
+## Built-in actions
 
-As an administrator, you can use the built-in macros to automate and perform operations.
+As an administrator, you can use the built-in actions any number of times across differnt macros to automate and perform operations.
 
-The following are the built in macros.
+The following are the built-in actions.
 
 ### Open a new form to create a record
 
-This macro is used to open a new form to create a record. This macro contains the following fields.
+This action is used to open a new form to create a record. This action contains the following fields.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
@@ -66,7 +74,7 @@ This macro is used to open a new form to create a record. This macro contains th
 
 ### Open an existing form
 
-This macro is used to open an existing record form. This macro contains the following fields.
+This action is used to open an existing record form. This action contains the following fields.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
@@ -76,7 +84,7 @@ This macro is used to open an existing record form. This macro contains the foll
 
 ### Open a record grid
 
-This macro is used to open an record grid. This macro contains the following fields.
+This action is used to open an record grid. This action contains the following fields.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
@@ -86,7 +94,7 @@ This macro is used to open an record grid. This macro contains the following fie
 
 ### Search knowledge base for the populated phrase
 
-This macro is used for searching knowledge articles based on the populated phrase. This macro contains the following field.
+This action is used for searching knowledge articles based on the populated phrase. This action contains the following field.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
@@ -94,7 +102,7 @@ This macro is used for searching knowledge articles based on the populated phras
 
 ### Search for a phrase
 
-This macro is used for searching knowledge articles based on the populated phrase. This macro contains the following field.
+This action is used for searching knowledge articles based on the populated phrase. This action contains the following field.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
@@ -102,7 +110,7 @@ This macro is used for searching knowledge articles based on the populated phras
 
 ### Update an existing record
 
-This macro is used to update an existing record. This macro contains the following fields.
+This action is used to update an existing record. This action contains the following fields.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
@@ -113,7 +121,7 @@ This macro is used to update an existing record. This macro contains the followi
 
 ### Open an email form with predefined template
 
-This macro is used to open an email with a predefined template. This macro contains the following fields.
+This action is used to open an email with a predefined template. This action contains the following fields.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
@@ -124,7 +132,7 @@ This macro is used to open an email with a predefined template. This macro conta
 
 ### Resolve a case
 
-This macro is used to open an email with a predefined template. This macro contains the following fields.
+This action is used to open an email with a predefined template. This action contains the following fields.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
@@ -132,7 +140,7 @@ This macro is used to open an email with a predefined template. This macro conta
    | Incidentid| Specify the case id that you want to close. <br>This is a mandatory field.| |
    | Resolution | Specify the reason to resolve the case. <br> This is a mandatory field. | |
 
-## Pass macro context data parameters
+## Use automation dictionary to pass macro context data parameters
 
 Macros are a set of configured actions that are executed on-demand by user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to provide certain data parameters. When the agent runs the macro, these data parameters are replaced by the contextual values.
 
