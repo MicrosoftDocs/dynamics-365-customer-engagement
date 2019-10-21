@@ -131,7 +131,7 @@ Slug is a replacement parameter that system populates at the runtime based on th
 
 #### Format
 
-There are two types of format:
+You can pass the slug in the following formats:
 
 - The `{ChannelProvider.<Slug>}` or `{Slug}` parameter format is used to retrieve the context from the channel provider, where `ChannelProvider` is a standard construct to get the value from the provider context of the current session. 
 
@@ -150,7 +150,7 @@ There are two types of format:
    - EntityName
    - EntityId
 
-      For example: 
+      For example:
 
       `Session.CurrentTab.<EntityName>`
 
@@ -158,7 +158,7 @@ There are two types of format:
 
       `Session.AnchorTab.<EntityName>`
 
-      `Session.AnchorTab.<EntityId>` 
+      `Session.AnchorTab.<EntityId>`
 
     > [!NOTE]
     > The `Session.CurrentTab.<Attribute>` and `Session.AnchorTab.<Attribute>` parameter is only applicable to macros, and it is not applicable to templates.
@@ -169,9 +169,11 @@ You can use the OData queries to get the context that are available from the Com
 
 The OData query format:
 
-`{$Odata.<entityName>.<entityAttributeName>.<?options>} like {$Odata.account.name.?$filter=id eq <GUID>`
+`{$Odata.<entityName>.<entityAttributeName>.<?options>}`
 
 Example:
+
+- `{$Odata.account.name.?$filter=id eq '{accountid}'}`
 
 - `{$odata.incident.prioritycode.?$filter=incidentid eq '{caseId}'&$select=prioritycode}`
 
