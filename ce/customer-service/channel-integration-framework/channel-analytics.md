@@ -50,48 +50,38 @@ Channel Analytics provides a consistent, seamless, and unified experience when i
 
 ### How do analytics help Supervisors?
 
-- Identify the root cause for anomalies in a session. For example, low handle time, low customer satisfaction scores, missed SLAs, etc.
-- Prepare audit reports for dissatisfactory conversations and prepare coaching plan for under performing agents.
-- Track KPIs that impact customer sentiment. For example, hold time, wait time in queues, first contact resolution, etc.
-- In the real-time, analytics can help supervisors identify the on-going service requests that need their intervention. 
-- Supervisors can monitor conversations for customer sentiment and language.
-- They can also monitor service requests for any KPI breach. For example, SLA expiry and handle time.
+Channel Analytics can help Supervisors identify the root cause for anomalies in a session, prepare audit reports for dissatisfactory conversations, track KPIs that impact customer sentiment and monitor service requests for any KPI breach.
 
 ### How do analytics help Customer Service Managers?
 
-- Allows them to review anomalies in the contact center. For example, long handling time, low customer satisfaction scores, missed SLAs, etc. They can use this information to identify process improvement opportunities like misrouting, failing automations, etc.
-- Track KPIs that indicate the infrastructural health. For example, call abandonment rate, call disconnections, etc.
-- Get predictive insights about volume of requests and resource requirements.
-- Monitor the health of contact center in terms of load, customer wait time, etc.
-- Track KPIs that impact high priority customer sentiment in the contact center.
+Channel Analytics can help Customer Service Managers track KPIs that indicate infrastructural health, get predictive insights about volume of requests and resource requirements, and track KPIs that impact high priority customer sentiment in the contact center
 
 ### How do analytics help Customer Service Agents?
 
-- They can see their performance metrics on different dimensions like customer satisfaction, average handling time, etc.
-- They can see burndown trend for their daily work items.
-- They can see customer sentiment for ongoing conversations.
-- Allows them to track approaching KPI breaches.
+Channel Analytics can help Customer Service agents see their performance metrics on different dimensions like customer satisfaction and average handling time, see burndown trend for their daily work items and see customer sentiment for ongoing conversations.
+
+<a name="bkmk_analyticsapi"></a>
 
 ## Channel Analytics APIs
 
 The two APIs for tracking event analytics are:
+1. `initLogAnalytics` API needs to be called only once for every conversation before any event is being logged. The ideal place would be to call it before the incoming notification is displayed.
+2. `logAnalyticsEvent` can be called as many times as needed after the initLogAnalytics call succeeds.
+- If there is a need to log events from the server side, the following required entity records need to be created before the event logging can take place.
+              - Conversation Data
+              - Session Data
+              - Session Participant Data
+  After the above records are created, the event logging can be done by creating `KPI Event Data` entity record.
 
 | Name | Description |
 |-------|-------|
-| [initLogAnalytics](reference/microsoft-ciframework/initLogAnalytics.md) | Invoke this method on an incoming conversation to log analytics. This method needs to be called only once for every conversation before any event is being logged. The ideal place would be to call it before the incoming notification is displayed.|
-| [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events. This method can be called as many times as needed after the `initLogAnalytics` call succeeds.|
-
-In order to log events from the server side, the following required entity records need to be created before the event logging can take place.
-- `Conversation Data`
-- `Session Data`
-- `Session Participant Data`
-
-After the above records are created, the event logging can be done by creating a record of `KPI Event Data` entity.
+| [initLogAnalytics](reference/microsoft-ciframework/initLogAnalytics.md) | Invoke this method on an incoming conversation to log analytics. |
+| [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events. |
 
 ### How to enable analytics for your organization?
 
 Channel Analytics can be enabled at a Channel Integration Framework provider level. 
-1. Query for the provider record Id by querying - `GET [Organization URI]/api/data/v9.1/msdyn_ciproviders.` Copy the value of value of `msdyn_ciproviderid` from the output.
+1. Query for the provider record Id by using the following Web API request - `GET [Organization URI]/api/data/v9.1/msdyn_ciproviders.` Copy the value of value of `msdyn_ciproviderid` from the output.
 2. Execute the following script to enable analytics flag to `True`.
 
 ```javascript
@@ -104,7 +94,14 @@ Xrm.WebApi.updateRecord("msdyn_ciprovider", <msdyn_ciproviderid fetched from pre
 
 3. Reload the page.
 
+## Typical flow for Channel Analytics
+
+For every incident conversation, the provider will call the [initLogAnalytics API](reference/microsoft-ciframework/initLogAnalytics.md). The data payload of the API will contain the information to create a conversation record (with session and participant information).
+
+For that session, all first party instrumentation events like notification displayed, notification response, session started and session switched will be fired with the correlation Id.
+
+If tha partner wants to fire some custom event for their KPIs they can do it with the same correlation Id as well using the [logAnalytics API](reference/microsoft-ciframework/logAnalytics.md).
+
 ## See also
 
-[What's new in Channel Integration Framework](whats-new-channel-integration-framework.md)<br />
-[updateContext method](reference/microsoft-ciframework/updateContext.md)
+[What's new in Channel Integration Framework](whats-new-channel-integration-framework.md)
