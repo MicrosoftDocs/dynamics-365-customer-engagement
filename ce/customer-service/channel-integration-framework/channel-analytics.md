@@ -82,11 +82,11 @@ The two APIs for tracking event analytics are:
 | [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events. This method can be called as many times as needed after the `initLogAnalytics` call succeeds.|
 
 In order to log events from the server side, the following required entity records need to be created before the event logging can take place.
-- Conversation Data
-- Session Data
-- Session Participant Data
+- `Conversation Data`
+- `Session Data`
+- `Session Participant Data`
 
-After the above records are created, the event logging can be done by creating `KPI Event Data` entity attribute.
+After the above records are created, the event logging can be done by creating a record of `KPI Event Data` entity.
 
 ### How to enable analytics for your organization?
 
