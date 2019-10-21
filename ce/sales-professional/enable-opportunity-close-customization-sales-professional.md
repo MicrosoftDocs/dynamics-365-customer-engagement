@@ -37,5 +37,5 @@ To enable customization:
 
 ### See also
 
-[Customize the Opportunity Close form](customize-opportunity-close-experience.md)  
-[Create or edit an opportunity](manage-opportunities-sales-professional.md)
+[Customize the Opportunity Close form](customize-opportunity-close-experience-sales-professional.md)  
+[Create or edit opportunities](manage-opportunities-sales-professional.md)

@@ -116,5 +116,5 @@ After you’ve created the fields that are required by your organization, add th
 
 
 ### See also
-[Close opportunity as won or lost](close-opportunity-won-lost-sales.md)  
-[Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
+[Create or edit opportunities](close-opportunity-won-lost-sales.md#close-an-opportunity)  
+[Enable customization of the Opportunity Close form](enable-opportunity-close-customization-sales-professional.md)

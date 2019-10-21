@@ -1,9 +1,12 @@
 ---
 title: "Create a forecast definition (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define the data and period to use for the purpose of forecasting in Dynamics 365 Sales."
+keywords: ""
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 ms.assetid: 1517b3d4-639b-4fec-bbbc-8474320d1867
 author: udaykirang
@@ -34,7 +37,7 @@ Sales forecasting has security roles that are defined specifically to create and
 Before creating a forecast definition, review the following requisites:
 
 - Administrator, forecast manager, or forecast user role is assigned to you.
-- Enable preview feature option. To learn more, see [How do I enable a preview feature](../admin/what-are-preview-features-how-do-i-enable-them.md#how-do-i-enable-a-preview-feature).
+- Enable preview feature option. To learn more, see [What are preview features and how do I enable a preview feature](/power-platform/admin/what-are-preview-features-how-do-i-enable-them).
 - All the users under the selected hierarchy are assigned forecast manager or forecast user role. If not, the publishing of the forecast definition will fail. 
 - No users are disabled under the selected hierarchy when you publish the forecast definition. If not, the publishing of the forecast definition will fail. 
  
