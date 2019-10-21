@@ -187,13 +187,31 @@ After you're done verifying everything, click **Done**.
 
 - warehouse
 - inventory adjustment
-- inventory adjustment product
-- allocation
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-inv-adj.png)
+
+- inventory adjustment product
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-inv-adj-product.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-inventory.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-allocated.png)
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-add-mobile-warehouse.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-inv-journals.png)
 
 ## Configuration considerations
 
@@ -204,7 +222,16 @@ Max # of Properties allowed for a Product or Bundle.
 
 FS settings
 - allocated by default
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-allocate-auto.png)
+
 - use inventory past 0
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-use-product-out-stock.png)
 
 ## Additional notes
 
