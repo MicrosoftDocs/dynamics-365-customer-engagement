@@ -3,6 +3,8 @@ title: Supplemental Terms
 author: brycho
 ---
 
+# Supplemental Terms of Use for Microsoft Dynamics 365 Server
+
 PLEASE NOTE: Your use of the subscription service and software is subject to the
 terms and conditions of the agreement you agreed to when you signed up for the
 subscription and by which you acquired a license for the software. For instance,
