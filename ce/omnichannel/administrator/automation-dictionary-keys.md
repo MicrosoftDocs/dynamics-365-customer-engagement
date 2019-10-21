@@ -13,7 +13,7 @@ ms.assetid: B769EF6D-A837-4BCF-B827-FD5F319AD9BC
 ms.custom: 
 ---
 
-# Preview: Use automation dictionary to pass data parameters keys
+# Preview: Use automation dictionary to pass data parameter keys
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
