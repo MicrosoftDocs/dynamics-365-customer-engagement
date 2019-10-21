@@ -5,7 +5,7 @@ keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 10/16/2019
+ms.date: 10/21/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 355B4706-49DF-4E2F-A46D-00F12E0044C6
@@ -18,6 +18,7 @@ ms.custom:
 Build a custom bot to push real-time suggestions to agents for actions displayed within the smart assist control on the agent UI. The smart assist control uses Adaptive cards to push and display suggestions in UI. [Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI.
 
 You can use the [Adaptive Cards Designer](https://adaptivecards.io/designer/) to create your own adaptive card template.
+
 
 ## Smart assist using knowledge articles
 
@@ -109,6 +110,9 @@ Given below is the adaptive card JSON for displaying knowledge article suggestio
 
 ## Smart assist using similar cases
 
+> [!NOTE]
+> This is a standalone adaptive card JSON that can be used to build business logic for displaying similar cases in adaptive cards. The [Build a custom smart assist bot]() code sample does not cover this scenario.
+
 Based on the context and the information extracted from an ongoing conversation, Omnichannel for Customer Service can populate the smart assist adaptive cards with similar case suggestions, which agents can refer to for information on how similar cases were resolved.
 
 Given below is the adaptive card JSON for displaying similar case suggestions.
@@ -118,6 +122,9 @@ Given below is the adaptive card JSON for displaying similar case suggestions.
 ```
 
 ## Smart assist using cross sell suggestions
+
+> [!NOTE]
+> This is a standalone adaptive card JSON that can be used to build business logic for cross sell suggestions in adaptive cards. The [Build a custom smart assist bot]() code sample does not cover this scenario.
 
 Smart assist adaptive cards can also contain suggestions for the next case.
 
