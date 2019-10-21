@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 10/15/2019
+ms.date: 10/25/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: F2B26C6A-07B5-43BE-964C-BAB55D8D7782
@@ -148,5 +148,5 @@ The application type is used to display first-party and third-party website as a
 
 - [Manage session templates](session-templates-cif.md)
 - [Manage notification templates](notification-templates-cif.md)
-- [Pass parameters values](automation-dictionary-keys-cif.md)
+- [Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)
 - [Associate templates with workstreams](associate-templates-cif.md)

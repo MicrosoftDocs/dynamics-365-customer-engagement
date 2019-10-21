@@ -46,7 +46,7 @@ manager: shujoshi
 <li><a href="session-templates-cif.md" data-raw-source="[Manage session templates](session-templates-cif.md)">Manage session templates</a></li>
 <li><a href="application-tab-templates-cif.md" data-raw-source="[Manage application tab templates](application-tab-templates-cif.md)">Manage application tab templates</a></li>
 <li><a href="notification-templates-cif.md" data-raw-source="[Manage notification templates](notification-templates-cif.md)">Manage notification templates</a></li>
-<li><a href="automation-dictionary-keys-cif.md" data-raw-source="[Pass parameters values](automation-dictionary-keys-cif.md)">Pass parameters values</a></li>
+<li><a href="automation-dictionary-keys-cif.md" data-raw-source="[Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)">Use automation dictionary to pass data parameter keys</a></li>
 <li><a href="associate-templates-cif.md" data-raw-source="[Associate templates with scenarios](associate-templates-cif.md)">Associate templates with scenarios</a></li>
 </td>
 <td>

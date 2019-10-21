@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 10/15/2019
+ms.date: 10/25/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: DA4F0AF9-EAF1-43C2-BAEF-A13D44774C9D
@@ -74,4 +74,4 @@ To create a session, follow these steps:
 
 - [Manage application tab templates](application-tab-templates-cif.md)
 - [Manage notification templates](notification-templates-cif.md)
-- [Pass parameters values](automation-dictionary-keys-cif.md)
+- [Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)

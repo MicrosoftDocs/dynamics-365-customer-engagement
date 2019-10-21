@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 10/15/2019
+ms.date: 10/25/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 29FDEE50-8CED-4E2C-899A-5E8512251FC7
@@ -32,4 +32,4 @@ To associate the templates in your scenarios, you must use the `templateName` pa
 - [Manage session templates](session-templates-cif.md)
 - [Manage application tab templates](application-tab-templates-cif.md)
 - [Manage notification templates](notification-templates-cif.md)
-- [Pass parameters values](automation-dictionary-keys-cif.md)
+- [Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)
