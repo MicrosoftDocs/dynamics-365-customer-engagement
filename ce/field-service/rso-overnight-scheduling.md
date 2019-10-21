@@ -26,7 +26,7 @@ search.app:
   - D365FS
 ---
 
-# Automated Overnight Scheduling
+# Automated overnight scheduling
 
 How and when Resource Scheduling Optimization (RSO) runs is flexible based on your organization's scheduling needs. RSO can be run manually, based on a schedule, or triggered from a workflow; and every run can optimize a specific set of resources, requirements, and bookings that are defined with system views.
 
