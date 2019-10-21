@@ -44,7 +44,7 @@ Any custom attribute added to the Opportunity Close form should be added to the 
 
 ## Add Opportunity Close entity to the Sales Professional app module
 
-1.  1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
+1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
     ![Advanced Settings option on the Settings menu](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
 
