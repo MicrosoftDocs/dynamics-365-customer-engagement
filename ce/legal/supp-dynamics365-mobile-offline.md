@@ -1,6 +1,6 @@
 ---
 title: Supplemental Terms
-author: brycho
+author: mduelae
 ---
 
 **PLEASE NOTE:** Microsoft Corporation (or based on where you live, one of its
