@@ -220,6 +220,12 @@ Product in Active Status upon creation.  Best practice is to set this to Yes.
 Minimum # of Products in a Bundle.
 Max # of Properties allowed for a Product or Bundle. 
 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-system-settings.png)
+
+
 FS settings
 - allocated by default
 
