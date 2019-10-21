@@ -36,8 +36,6 @@ F&O
   - creating and managing product catalog: https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/set-up-product-catalog-walkthrough
   - Price lists: https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products
 
-> [!Note]
->
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
@@ -63,8 +61,7 @@ F&O
 
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-products-price-list-items.png)
+
 
 
 1. From the main menu, click **Field Service** > **Administration**, and then choose **Product**.  
@@ -112,15 +109,14 @@ F&O
   
 After you're done verifying everything, click **Done**.  
 
-
 - price list
 - price list item
 
-## Add product inventory
 
-- warehouse
-- inventory adjustment
-- inventory adjustment product
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-products-price-list-items.png)
+
+
 
 ## Add a product or service to a work order
 
@@ -129,13 +125,67 @@ After you're done verifying everything, click **Done**.
   - non inventory
   - service
 - incident
-- allocation
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-add.png)
+- add or edit quanity
+- add or edit price list
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-relates-to.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-service-add.png)
+
+- add or edit duration
+- add or edit price list
+
+## Estimate vs Used
+
+
 
 ## Use and consume products and services
 
 - FSM
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-services-mobile.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-service-add-mobile.png)
+
+
 - calculations
+
+> [!Note]
+> calculations happen in Online mode or on sync
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-add-mobile.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-mobile-subtotal.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-add-mobile-non-inventory.png)
+
 - invoice  
+
+## Add and consume product inventory (Optional)
+
+- warehouse
+- inventory adjustment
+- inventory adjustment product
+- allocation
+
 
 ## Configuration considerations
 
