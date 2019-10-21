@@ -26,9 +26,7 @@ ms.custom:
 
 ## Overview of smart assist
 
-Smart assist is an intelligent assistant that provides real-time recommendations to the agents, helping them to take actions while interacting with customers. It allows organizations to build a custom bot and plug-in real-time to their environment. Also, organizations can develop relevant recommendations such as knowledge articles, similar cases, and next-best steps using Microsoft Adaptive cards. These recommendation cards are surfaced to the agent's user interface based on the context of the current conversation.
-
-The smart assist feature can be enabled across all channels like Chat for Dynamics 365 Customer Service, SMS, and Facebook except entity records making it a consistent experience for agents.
+Smart assist is an intelligent assistant that provides real-time recommendations to you (an agent), helping you to take actions while interacting with customers. It shows relevant recommendations such as knowledge articles, similar cases, and next-best steps.
 
 ## Smart assist control
 
