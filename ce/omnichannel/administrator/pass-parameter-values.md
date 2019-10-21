@@ -48,7 +48,7 @@ To learn more, see [Types context data parameters](#types-context-data-parameter
 
 ## Pass data parameters in macros
 
-Macros are a set of configured actions that are executed on-demand by user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to pass the data parameters in the support formats. To learn more, see [Supported formats for data parameter values](#supported-formats-for-data-parameter-values).
+Macros are a set of configured actions that are executed on-demand by user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to pass the data parameters in the support formats. To learn more, see [Automation dictionary formats to data parameter keys](#automation-dictionary-formats-to-data-parameter-keys).
 
 When the agent runs the macro, the system replaces these parameter keys with the actual values based on the context of the session, channel provider, Common Data Service, and user actions. 
 
@@ -81,14 +81,14 @@ The organizational data is stored in Common Data Service, and you can fetch the 
 
 #### Context data from other macro actions 
 
-An action in a macro generates context data that is consumed by other actions in that macro. 
+An action in a macro generates context data that is consumed by other actions in that macro.
 
 For example, there two action steps in the following order:
 
 1. Open a new form to create a record
 2. Open an email form with predefined template
 
-While creating the **Open an email form with predefined template**, you can get pass the context data parameters from the **Open a new form to create a record** macro step.
+While creating the **Open an email form with predefined template**, you can get pass the context data parameter keys from the **Open a new form to create a record** macro step.
 
 The context data parameter from the first macro step are as follows:
 - Entity Logical Name
@@ -96,7 +96,7 @@ The context data parameter from the first macro step are as follows:
 - Tab Id
 
     > [!NOTE]
-    > The context data form other macro actions are specific to Macros, and it is not applicable to templates.
+    > The context data parameter form other macro actions are specific to Macros, and it is not applicable to templates.
 
 ## Automation dictionary formats to data parameter keys
 

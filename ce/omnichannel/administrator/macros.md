@@ -142,7 +142,7 @@ This action is used to open an email with a predefined template. This action con
 
 ## Use automation dictionary to pass macro context data parameters
 
-Macros are a set of configured actions that are executed on-demand by user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to provide certain data parameters. When the agent runs the macro, these data parameters are replaced by the contextual values.
+Macros are a set of configured actions that are executed on-demand by users. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to provide certain data parameters keys. When the agent runs the macro, these data parameters keys are replaced by the contextual values.
 
 To learn more, see [Pass data parameters in macros](pass-parameter-values.md#pass-data-parameters-in-macros).
 
@@ -163,9 +163,9 @@ To learn more, see [Pass data parameters in macros](pass-parameter-values.md#pas
 
 5. Select **Start macro execution**, and then select **+ New step**.
 
-6. Select an action from a list of built in macro actions. You can add as many as actions as per your business requirements.
+6. Select an action from a list of built in actions. You can add as many as actions as per your business requirements.
 
-    | Purpose | Macro name |
+    | Purpose | Action name |
     |-----------------------------|---------------------------------------------|
     | Open a new form to create a record | Create new |
     | Open an existing form | Open form |
@@ -186,7 +186,7 @@ To learn more, see [Pass data parameters in macros](pass-parameter-values.md#pas
 
 ## See also
 
-[Pass parameter values](pass-parameter-values.md)
+[Use automation dictionary to pass data parameters keys](pass-parameter-values.md)
 
 [Agent scripts](agent-scripts.md)
 
