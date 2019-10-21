@@ -2,7 +2,7 @@
 title: "logAnalyticsEvent (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 09/30/2019
+ms.date: 10/21/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -35,28 +35,20 @@ Invoke this method to log analytics for custom events.
 | successCallback | Function | No           | A function to call when the promise is successfully returned. |
 | errorCallback   | Function | No           | A function to call when the request to return the promise fails. |
 
-The structure of the `data` parameter JSON is shown below.
+The structure of the `data` parameter JSON is shown below. It is mandatory to include these two fields: `conversationId` and `providerSessionId`.
 
 ```json
 {
 	"conversationId": "",
-	"sessionId": "",
+	"providerSessionId": "",
 	"clientSessionId":"",
-	"eventParticipantId":"",
+	"participantId":"",
 	"events": [
 		{
 			"kpiEventName": "",
 			"kpiEventReason": "",
 			"eventTimestamp": "",
-			"entityName": "",
-			"entityRecordId": "",
 			"additionalData": "",
-			"knowledgeArticleId": "",
-			"knowledgeArticleName": "",
-			"oldPresence": "",
-			"newPresence": "",
-			"tabId": "",
-			"tabName": "",
 			"notificationResponseAction":"",
 			"externalCorrelationId": "",
 			"customData": [
@@ -72,3 +64,8 @@ The structure of the `data` parameter JSON is shown below.
 ## Return value
 
 Promise with value as string
+
+## See also
+
+[initLogAnalytics method](initLogAnalytics.md)<br />
+[Channel Analytics](../../channel-analytics.md)
