@@ -123,7 +123,7 @@ As an administrator, you can edit the value of a notification field header in th
 
 ## Customize notification
 
-In the Contoso Pvt Ltd customer service center, every case notification that is shown to an agent needs to have the following 
+In the Contoso Pvt Ltd customer service center, every case notification that is shown to an agent needs to have the following:
 
 **Title of the notification:** 
 
