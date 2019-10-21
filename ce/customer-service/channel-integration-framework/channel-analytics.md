@@ -102,6 +102,22 @@ For that session, all first party instrumentation events like notification displ
 
 If tha partner wants to fire some custom event for their KPIs they can do it with the same correlation Id as well using the [logAnalytics API](reference/microsoft-ciframework/logAnalytics.md).
 
+## Calculating KPIs using Channel Analytics
+
+You can calculate several KPIs that can help you understand the health of the customer service center.
+
+### Calculate Offered Conversations
+
+Offered conversations are the total number of conversations for a provider. This is the sum of all abandoned calls, accepted calls and rejected calls.
+
+You can calculate it by monitoring and predicting the load on different regions, channels, queues and incident drivers.
+
+### Calculate Average Wait Time
+
+Average Wait Time is the length of time, in minutes, that a customer is waiting in queue.
+
+You can calculate it by monitoring and predicting the load on different regions, channels, queues and incident drivers.
+
 ## See also
 
 [What's new in Channel Integration Framework](whats-new-channel-integration-framework.md)
