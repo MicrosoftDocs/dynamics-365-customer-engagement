@@ -4,6 +4,7 @@
 ### [Introduction](introduction-omnichannel.md)
 ### [Preview features in Omnichannel for Customer Service](preview-features.md)
 ### [Try Chat for Dynamics 365 Customer Service](try-chat-for-dynamics365.md)
+### [Chat for Dynamics 365 Customer Service demo data](chat-dynamics365-customer-service-demo-data.md)
 ### [Pre-requisites and system requirements](system-requirements-omnichannel.md)
 ### [Assign roles and enable users](administrator/add-users-assign-roles.md)
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)
