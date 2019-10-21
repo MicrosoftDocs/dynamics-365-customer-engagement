@@ -71,6 +71,7 @@
 #### [Accessibility and keyboard shortcuts](designer-shortcuts.md)
 #### [Organize your work](organize-daily-work.md)
 #### [Manage customer information](manage-customer-information.md)
+#### [Sales and marketing collaboration with Dynamics 365](sales-marketing-integration.md)
 #### [Import data](import-data.md)
 #### [Export data](export-data-word-excel.md)
 
