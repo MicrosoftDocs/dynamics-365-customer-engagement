@@ -170,5 +170,7 @@
       items:
       - name: "msdyn_ciprovider"
         href: reference/entities-attributes/msdyn-ciprovider.md        
+  - name: "Common issues"
+    href: known-issues.md
   - name: "FAQs"
     href: faq-channel-integration-framework.md    
