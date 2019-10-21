@@ -1,6 +1,6 @@
 ---
 title: Supplemental Terms
-author: brycho
+author: m-hartmann
 ---
 # Supplemental Terms of Use for Dynamics 365 - Gamification
 
