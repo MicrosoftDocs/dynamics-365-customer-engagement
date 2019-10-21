@@ -32,12 +32,12 @@ manager: annbe
 
 <h2>Increase sales</h2>
 <ul>
-<li><a href="manage-leads-sales-professional.md" data-raw-source="[Manage leads](manage-leads-sales-professional.md)">Manage leads</a></li>
-<li><a href="manage-opportunities-sales-professional.md" data-raw-source="[Manage opportunities](manage-opportunities-sales-professional.md)">Manage opportunities</a></li>
-<li><a href="create-quotes-sales-professional.md" data-raw-source="[Create quotes](create-quotes-sales-professional.md)">Create quotes</a></li>
-<li><a href="create-invoices.md" data-raw-source="[Create invoices](create-invoices.md)">Create invoices</a></li>
+<li><a href="manage-leads-sales-professional.md" data-raw-source="[Create and manage leads](manage-leads-sales-professional.md)">Create and manage leads</a></li>
+<li><a href="manage-opportunities-sales-professional.md" data-raw-source="[Create or edit opportunities](manage-opportunities-sales-professional.md)">Create or edit opportunities</a></li>
+<li><a href="create-quotes-sales-professional.md" data-raw-source="[Create and manage quotes](create-quotes-sales-professional.md)">Create and manage quotes</a></li>
+<li><a href="create-invoices.md" data-raw-source="[Create and manage invoices](create-invoices.md)">Create and manage invoices</a></li>
 <li><a href="create-products.md" data-raw-source="[Create products](create-products.md)">Create products</a></li>
-<li><a href="create-price-list.md" data-raw-source="[Create a price list](create-price-list.md)">Create a price list</a></li>
+<li><a href="create-price-list.md" data-raw-source="[Create price lists](create-price-list.md)">Create price lists</a></li>
 <li><a href="create-unit-group-add-units.md" data-raw-source="[Create a unit group and add units](create-unit-group-add-units.md)">Create a unit group and add units</a></li>
 </ul>
 </td></tr>
@@ -46,9 +46,9 @@ manager: annbe
 <h2>Improve productivity</h2>
 <ul>
 <li><a href="gain-insights-dashboards-sales-professional.md" data-raw-source="[Gain insights with dashboards](gain-insights-dashboards-sales-professional.md)">Gain insights with dashboards</a></li>
-<li><a href="assign-records-sales-professional.md" data-raw-source="[Assign records](assign-records-sales-professional.md)">Assign records</a></li>
-<li><a href="use-document-templates-sales-professional.md" data-raw-source="[Use document templates](use-document-templates-sales-professional.md)">Use document templates</a></li>
-<li><a href="use-lookup-fields-forms.md" data-raw-source="[Manage your SharePoint documents](manage-sharepoint-documents-sales-professional.md)">Manage your SharePoint documents</a></li>
+<li><a href="assign-records-sales-professional.md" data-raw-source="[Assign records to a user or team](assign-records-sales-professional.md)">Assign records to a user or team</a></li>
+<li><a href="use-document-templates-sales-professional.md" data-raw-source="[Use document templates to create standardized documents](use-document-templates-sales-professional.md)">Use document templates to create standardized documents</a></li>
+<li><a href="manage-SharePoint-documents-sales-professional.md" data-raw-source="[Manage your SharePoint documents and document locations](manage-sharepoint-documents-sales-professional.md)">Manage your SharePoint documents and document locations</a></li>
 </ul>
 
 </td><td>
@@ -69,12 +69,7 @@ manager: annbe
 <li><a href="import-data.md" data-raw-source=" [Import data](import-data.md)">Import data</a></li>
 <li><a href="manage-users.md" data-raw-source=" [Manage users](manage-users.md)">Manage users</a></li>
 <li><a href="configure-email.md" data-raw-source=" [Set up email](configure-email.md)">Configure email</a></li>
-<li><a href="change-color-scheme-logo.md" data-raw-source=" [Set up branding and thmeing](change-color-scheme-logo.md)">Set up branding and thmeing</a></li>
-<li><a href="manage-teams.md" data-raw-source=" [Manage teams](manage-teams.md)">Manage teams</a></li>
-<li><a href="manage-excel-templates.md" data-raw-source=" [Manage Excel templates](manage-excel-templates.md)">Manage Excel templates</a></li>
-<li><a href="manage-word-templates.md" data-raw-source=" [Manage Word templates](manage-word-templates.md)">Manage Word templates</a></li>
-<li><a href="enable-automatic-generation-quotes-invoices.md" data-raw-source=" [Automatic generation of quotes or invoice](enable-automatic-generation-quotes-invoices.md)">Automatic generation of quotes or invoices</a></li>
-<li><a href="export-data.md" data-raw-source=" Export data (export-data.md)">Export data</a></li>
+<li><a href="admin-guide.md" data-raw-source=" [More resources for admins and sales manager...](admin-guide.md)">More resources for admins and sales manager...</a></li>
 </ul>
 
 </td><td>

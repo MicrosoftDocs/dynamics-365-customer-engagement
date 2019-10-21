@@ -8,7 +8,7 @@ ms.service:
 ms.custom:
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 00b7d8fc-fc21-4c95-8e85-3d9ed19e828e
+ms.assetid: 43c3a946-b31d-4c3c-91a3-a279861eb42e
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

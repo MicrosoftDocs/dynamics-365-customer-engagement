@@ -1,10 +1,12 @@
 ---
-title: "Create or edit a competitor record (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Create or edit competitor records (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Track your competitors and their strengths to win sales against them."
 keywords: "competitor, sales, opportunity"
 ms.date: 04/12/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 ms.assetid: fb1a7bdd-0a49-4177-bc95-5837b8c79b60
 author: shubhadaj
@@ -13,7 +15,7 @@ manager: annbe
 caps.latest.revision: 11
 ---
 
-# Create or edit a competitor record (Sales and Sales Hub)
+# Create or edit competitor records (Sales and Sales Hub)
 
 Tracking your competitors and their strengths and weaknesses can help you win sales. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to store details about competitors that you and your colleagues can share, and stay current with the latest details.  
 

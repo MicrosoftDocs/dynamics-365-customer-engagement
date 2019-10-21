@@ -30,10 +30,10 @@ manager: annbe
 
 <h2>Administer the system</h2>
 
-<li><a href="set-up-product-catalog-walkthrough.md" data-raw-source="[Set up the product catalog](set-up-product-catalog-walkthrough.md)">Set up the product catalog</a></li>
-<li><a href="../admin/system-settings-dialog-box-sales-tab.md" data-raw-source="[Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)">Define Sales settings</a></li>
+<li><a href="set-up-product-catalog-walkthrough.md" data-raw-source="[Set up a product catalog](set-up-product-catalog-walkthrough.md)">Set up a product catalog</a></li>
+<li><a href="../admin/system-settings-dialog-box-sales-tab.md" data-raw-source="[Define sales settings](../admin/system-settings-dialog-box-sales-tab.md)">Define sales settings</a></li>
 <li><a href="../admin/system-settings-dialog-box-goals-tab.md" data-raw-source="[Define Goals settings](../admin/system-settings-dialog-box-goals-tab.md)">Define Goals settings</a></li>
-<li><a href="create-edit-goal-sales.md" data-raw-source="[Create goals to track progress](create-edit-goal-sales.md)">Create goals to track progress</a></li>
+<li><a href="create-edit-goal-sales.md" data-raw-source="[Create or edit goals](create-edit-goal-sales.md)">Create or edit goals</a></li>
 <li><a href="../admin/set-up-sales-territories-organize-business-markets-geographical-area.md" data-raw-source="[Set up sales territories to organize business markets by geographical area](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)">Set up sales territories to organize business markets</a></li>
 <li><a href="../sales-enterprise/admin-guide.md" data-raw-source="[More resources for admins](../sales-enterprise/admin-guide.md)">More resources for admins</a></li>
 </td></tr>
@@ -41,9 +41,9 @@ manager: annbe
 <tr><td>
 <h2>Increase sales</h2>
 <li><a href="nurture-sales-from-lead-order-sales.md" data-raw-source="[Nurture sales from lead to cash](nurture-sales-from-lead-order-sales.md)">Nurture sales from lead to cash</a></li>
-<li><a href="create-edit-lead-sales.md" data-raw-source="[Create or edit a lead](create-edit-lead-sales.md)">Create or edit a lead</a></li>
-<li><a href="qualify-lead-convert-opportunity-sales.md" data-raw-source="[Convert a lead to an opportunity](qualify-lead-convert-opportunity-sales.md)">Convert a lead to an opportunity</a></li>
-<li><a href="create-edit-opportunity-sales.md" data-raw-source="[Create or edit an opportunity](create-edit-opportunity-sales.md)">Create or edit an opportunity</a></li>
+<li><a href="create-edit-lead-sales.md" data-raw-source="[Create or edit leads](create-edit-lead-sales.md)">Create or edit leads</a></li>
+<li><a href="qualify-lead-convert-opportunity-sales.md" data-raw-source="[Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)">Qualify or convert leads</a></li>
+<li><a href="create-edit-opportunity-sales.md" data-raw-source="[Create or edit opportunities](create-edit-opportunity-sales.md)">Create or edit opportunities</a></li>
 <li><a href="user-guide.md" data-raw-source="[More resources for sales people](user guide.md)">More resources for sales people</a></li>
 
 

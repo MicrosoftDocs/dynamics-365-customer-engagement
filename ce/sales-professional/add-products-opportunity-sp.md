@@ -8,7 +8,7 @@ ms.service:
 ms.custom:
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 
+ms.assetid: c0dac21b-f4df-4283-a7cc-20f2f1296d29
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -76,7 +76,6 @@ Here are the actions you can take on the products added to the **Product Line It
 
 ### See also  
 
-[Create or edit an opportunity](../sales-enterprise/create-edit-opportunity-sales.md)  
-[Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)   
-[Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)  
-[Dynamics 365 Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
+[Create or edit opportunities](manage-opportunities-sales-professional.md)  
+[Develop sales from lead-to-cash process](develop-sales-lead-to-cash-sales-professional.md)   
+[Dynamics 365 Sales troubleshooting guide for administrators](../sales-enterprise/troubleshooting-admin.md)  

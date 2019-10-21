@@ -8,7 +8,7 @@ ms.service:
 ms.custom:
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: c1f6f66e-25fe-4528-a2f3-f2a3a2e3830d
+ms.assetid: 0d002dc0-464b-4778-a3a2-1de46d7cc8d6
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -69,7 +69,6 @@ Here are the actions you can take on the products in the Products grid:
 
 
 ### See also  
- [Create or edit a quote](../sales-enterprise/create-edit-quote-sales.md)  
- [Create or edit an order](../sales-enterprise/create-edit-order-sales.md)  
- [Create or edit an invoice](../sales-enterprise/create-edit-invoice-sales.md)  
+ [Create and manage quotes in Dynamics 365 Sales Professional](create-quotes-sales-professional.md)  
+ [Create and manage invoices in Dynamics 365 Sales Professional](create-invoices.md)  
 
