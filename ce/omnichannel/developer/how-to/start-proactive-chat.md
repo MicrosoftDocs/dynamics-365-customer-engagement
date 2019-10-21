@@ -14,7 +14,7 @@ manager: shujoshi
 ---
 # Start chat proactively
 
-Anticipating areas where customers need help and then engaging them through chat when they have been browsing your website for some time helps improve customer satisfaction.
+Anticipating areas where customers need help and then engaging them through chat when they have been browsing your website for some time can help improve customer satisfaction.
 
 Consider the scenarios given below for initiating chat proactively.
 
@@ -59,9 +59,13 @@ Amy can accept the chat offer and start the conversation to sort out her issue.
 
 ## Scenario 2: Customer browsing multiple webpages
 
-Thomas is browsing through the Microsoft Surface community webpage. He is looking for answers of his question on Microsoft Surface device. He has browsed through multiple pages but is not able to find the answers he is looking for.
+Thomas is browsing through the Microsoft Surface community webpage. He is looking for answers to his questions about a Microsoft Surface device. He has browsed through multiple pages but is not able to find the answers he is looking for.
 
 Realizing this scenario, the organization offers a chat request to the customer with the message given below.
+
+
+<!--from editor: The chat dialog is a little awkward. Can the second sentence change to "Do you have a question about a Surface device?" -->
+
 
 ```
 Hi! Do you have a question on Surface device ? I am here to help.
@@ -170,9 +174,9 @@ VisitCounter();
 
 ## Scenario 3: Customer checking status for support case
 
-Jacob is browsing through the support page for Microsoft Surface devices to find some more information regarding his open support case.
+Jacob is browsing through the support page for Microsoft Surface devices to find more information regarding his open support case.
 
-On realizing that Jacob has visited the support page seeking more information regarding his open case and that he has been on the page for 10 seconds, he is offered proactive chat with the message given below.
+On realizing that Jacob has visited the support page seeking more information regarding his open case and that he has been on the page for 10 seconds, he is offered a proactive chat with the message given below.
 
 ```
 Hi! How are you doing today? The status of the case:<caseid> is in progress. Would you like to get more details?
