@@ -119,7 +119,7 @@ The OData query format:
 
 Example:
 
-- `{$Odata.account.name.?$filter=id eq '{8DA6E5B9-88DF-E311-B8E5-6C3BE5A8B200}'}`
+- `{$Odata.account.name.?$filter=id eq '{accountid}'}`
 
 - `{$odata.incident.prioritycode.?$filter=incidentid eq '{caseId}'&$select=prioritycode}`
 
