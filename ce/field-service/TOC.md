@@ -81,6 +81,8 @@
 ## [Overview](field-service-mobile-overview.md)
 ## [Setup](field-service-mobile-app-user-guide.md)
 ## [Customizations and configurations](mobile-app-configuration-customization.md)
+## [Activate mobile configurator](activate-fs-mobile-app-license.md)
+## [Upgrade the mobile project template](mobile-upgrade-project.md)
 ## [Push notifications](mobile-push-notifications.md)
 ## [Geofencing](geofencing.md)
 ## [Activate mobile configurator](activate-fs-mobile-app-license.md)
