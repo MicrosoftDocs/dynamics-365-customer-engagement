@@ -2,7 +2,7 @@
 title: "Add dynamic content to marketing emails (Dynamics 365 Marketing) | Microsoft Docs "
 description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 Marketing"
 keywords: email; marketing email; dynamic content; content settings
-ms.date: 06/07/2019
+ms.date: 10/22/2019
 ms.service:
   - dynamics-365-marketing
 ms.custom: 
@@ -259,7 +259,7 @@ Where:
 - Conditional expressions must be contained in parentheses.
 - Conditional expressions start with an **&lt;operator&gt;**, which must be one of the values listed in the following table. It establishes how the first value is to be compared to the second value.
 - *&lt;value1&gt;* and *&lt;value2&gt;* are values to be compared by the conditional expression, and each can be either dynamic or constant values. If either *&lt;value1&gt;* or *&lt;value2&gt;* is a constant string value (not a number or expression), then it must be surrounded with single quotes ('); for real numbers, use a period (.) as a decimal delineator. 
-- If *&lt;value1&gt;* is a Boolean field (also known as a *two options* field in Dynamics 365), then don't include an *&lt;operator&gt;* or *&lt;value2&gt;*. Boolean fields always have a value of either true or false, so you should just use them directly to establish the condition.
+- If *&lt;value1&gt;* is a Boolean field (also known as a *two options* field in Dynamics 365), then don't include an *&lt;operator&gt;*, *&lt;value2&gt;*, or the parentheses. Boolean fields always have a value of either true or false, so you should just use them directly to establish the condition, such as: `{{#if contact.is_vip}}`.
 - `{{else}}` and `{{else if … }}` clauses are optional.
 - The conditional block must always close with `{{/if}}`.
 
@@ -284,10 +284,10 @@ For example, this conditional statement could be used to establish the language 
 {{/if}} {{contact.firstname}}!</p>
 ```
 
-Here's an example of a conditional statement based on a Boolean (two options) field called `is_vip`; note that because Boolean fields always return a value of true or false, no operator or comparison value is included in the condition:
+Here's an example of a conditional statement based on a Boolean (two options) field called `is_vip`; note that because Boolean fields always return a value of true or false, no operator, comparison value, or parentheses are included in the condition:
 
  ```Handlebars
-<!-- {{#if (contact.is_vip)}} -->
+<!-- {{#if contact.is_vip}} -->
      <h3>Be sure to show your VIP card to receive a 20% discount!</h3>
 <!-- {{/if}} -->
 ```
@@ -380,7 +380,7 @@ In this example, the Dynamics 365 Marketing system has been customized to includ
 
 You must be careful when entering advanced dynamic code in the designer because there are many, sometimes unexpected, ways to get it wrong, which will break your code. Here are some tips for how to enter and test your code:
 
-- Use custom-code elements place code snippets between design elements on the **Designer** tab. This is much more visible and reliable than placing the code directly into the HTML using the **HTML** tab. However, you might also use dynamic code *within* a text element, in which case you'll probably need to clean up that code on the **HTML** tab, as mentioned later in this list. (When working in the [full-page editor](custom-template-attributes.md#show-toolbox), double click on a custom-code element to edit its content.)
+- Use custom-code elements place code snippets between design elements on the **Designer** tab. This is much more visible and reliable than placing the code directly into the HTML using the **HTML** tab. However, you might also use dynamic code *within* a text element, in which case you'll probably need to clean up that code on the **HTML** tab, as mentioned later in this list. (When working in the [full-page editor](custom-template-attributes.md#show-toolbox), double click on a custom-code element to edit its content.)    
     ![The custom-code element](media/custom-code-element.png "The custom-code element")
 - When you enter code into a text element on the **Designer** tab, any extra spaces and carriage returns that you add will create `&nbsp;`and `<p>` tags in your code, which can break it. Always go to the **HTML** tab afterwards, where you'll see all of these extra tags, and be sure to remove them.
 - When you enter code into a text element, all of your dynamic-content code must either be contained within a set of start and end tags (such as `<p>` and `</p>`) or within an HTML comment (for code that is entirely separate from displayed text). Do not place code outside of comments or valid HTML tag pairs (or custom-code elements), as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs). You must work on the **HTML** tab inspect and correct the HTML within your text elements.
