@@ -38,18 +38,14 @@ In this article, let's explore creating products and services, adding and using 
 
 ## Prerequisites
 
-- all versions of FS
-- Knowledge
-  - creating and managing product catalog: https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/set-up-product-catalog-walkthrough
-  - Price lists: https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products
+Using the product catalog for Field Service is available for all version of Dynamics 365 Field Service
 
+Basic knowledge of Dynamics 365 [product catalog](https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/set-up-product-catalog-walkthrough) and [price lists](https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products) is encouraged. 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
 
 ## Create a product or service
 
-
+Go to Field Service > Products 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-create.png)
