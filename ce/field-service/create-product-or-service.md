@@ -32,8 +32,9 @@ By using the Product entity you can create products and services to add to work 
 - **Products** represent physical items a field technician may use while completing a work order and may bill the client for, measured in quantity of units.
 - **Services** represent labor a field technician may perform and may bill the client for, measured in time duration. 
 
-After products and services are added to work orders, field technicians may use the product or perform the services during the on site service and will mark so in the Field Service Mobile app. Used products and services can be invoiced to customers based on the applicable price list or entitlement. In the case of physical products, used products can be deducted from inventory levels either in the Field Service inventory module, Dynamics 365 Finance & Operations, or an external ERP system.
+After products and services are added to work orders, field technicians may use the products or perform the services during the on site service and will mark so in the Field Service Mobile app. Used products and services can be invoiced to customers based on the applicable price list or entitlement. Used products can be deducted from inventory levels either in the Field Service inventory module, Dynamics 365 Finance & Operations, or an external ERP system.
 
+In this article, let's explore creating products and services, adding and using them on work orders, and invoicing and inventory considerations.
 
 ## Prerequisites
 
