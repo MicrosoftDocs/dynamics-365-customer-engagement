@@ -8,7 +8,7 @@ applies_to:
 ms.date: 10/25/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid: aaf6cd6d-5d49-4da4-a380-143c01963564
+ms.assetid: 71A87EAA-98EA-4DB5-8BAF-3500F552FDDE
 ms.custom: 
 ---
 
