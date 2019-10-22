@@ -54,7 +54,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Co
     2. On the second consent dialog box, select the checkbox for **Consent on behalf of organization** and then select **Accept**. 
     
        > [!NOTE]
-        > If you don't select **Consent on behalf of organization** option, then when another user tries to pin an entity record or view to Teams and shares the tab with another user, they will get this error message, **The admin has not consented to use user sync feature, you can add them manually**. If you see this error message, see [Error when you pin a record or view to teams channel](teams-troubleshoot.md#error-when-you-pin-a-record-or-view-of-any-model-driven-app-to-a-team-channel-if-the-enhanced-experience-is-not-configured-conrrectly-by-your-common-data-service-admin).  
+        > If you don't select **Consent on behalf of organization** option, then when another user tries to pin an entity record or view to Microsoft Teams and shares the tab with another user, they will get this error message, **The admin has not consented to use user sync feature, you can add them manually**. If you see this error message, see [Error when you pin a record or view to teams channel](teams-troubleshoot.md#error-when-you-pin-a-record-or-view-of-any-model-driven-app-to-a-team-channel-if-the-enhanced-experience-is-not-configured-conrrectly-by-your-common-data-service-admin).  
     
         > [!div class="mx-imgBorder"] 
         > ![Select consent checkbox](media/consent.png "Select consent checkbox")
