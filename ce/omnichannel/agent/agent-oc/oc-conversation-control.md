@@ -119,7 +119,7 @@ Use the keyboard command to see the list of queues to transfer the conversation 
 
 **/t** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation. The **/t** command keeps the focus on the Agent tab whereas the **/tq** command keeps the focus on the Queue tab.
 
-When skill-based routing is enabled, then during transfer, the **Transfer** flyout shows agents with skills required to work on the conversation.
+When skill-based routing is enabled, then during transfer, the **Transfer** flyout shows users sorted in order of matching skills.
 
 ![Transfer agent list](../../media/oceh-cc-transfer-agent-list.png "transfer agent list") ![Transfer queue list](../../media/oceh-cc-transfer-queue-list.png "Transfer queue list")
 
