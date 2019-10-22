@@ -25,19 +25,19 @@ ms.tgt_pltfrm:
 > - To learn how to enable a preview feature, see [What are Preview features and how do I enable them?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature)
 
 
-Forecasting helps organizations create sales projections and estimate revenue–insights which can help them manage their resources and cash flow.
+Forecasting helps organizations create sales projections and estimate revenue–insights, which can help them manage their resources and cash flow.
 
 Salespeople can use forecasting to spot pipeline risks that jeopardize their deals, or to track performance against their targets.
 
 A new forecast starts with defining parameters, such as the forecasting time period, and which data will be used. To learn more, see [Configure a forecast](configure-forecast.md).
 
-An option set must be chosen, and columns configured to determine the confidence level of an opportunity as it moves along the path to conversion. For example, when you select the entity as **opportunities** and the option set as **forecast categories**, the forecast grid displays the stages that are defined in the option set. You can also manually configure your columns for a fully customized forecast. To learn more about the different stages **Forecast categories** option set, see [Capture forecast category for opportunity](capture-forecast-category-opportunity.md).  
+An option set must be chosen, and columns configured to determine the confidence level of an opportunity as it moves along the path to conversion. For example, when you select the entity as **opportunities** and the option set as **forecast categories**, the forecast grid displays the stages that are defined in the option set. You can also manually configure your columns for a fully customized forecast. To learn more about the different stages of the Forecast categories option set, see [Capture forecast category for opportunity](capture-forecast-category-opportunity.md).  
+
 
 ## See also
 
-[Configure forecast](configure-forecast.md) 
+[Configure a forecast](configure-forecast.md) 
 
 [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)  
 
 [View forecasts](view-forecasts.md)
-

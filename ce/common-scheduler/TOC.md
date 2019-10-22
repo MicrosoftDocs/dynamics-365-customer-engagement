@@ -4,10 +4,12 @@
 ## [Quick scheduling](quick-scheduling.md)
 ## [Travel time and distance](schedule-travel-time.md)
 ## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
+## [Multi-day scheduling](schedule-multi-day-work.md)
 ## [Fulfillment preferences](fulfillment-preferences.md)
 ## [Resource crew scheduling](resource-crews.md)
 ## [Facility scheduling](facility-scheduling.md)
 ## [Resource pools](resource-pools.md)
+## [Time constraints](schedule-time-constraints.md)
 
 # Schedule board configuration
 ## [Enable an entity for scheduling](schedule-new-entity.md)
