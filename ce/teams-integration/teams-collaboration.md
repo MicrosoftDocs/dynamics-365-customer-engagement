@@ -51,7 +51,7 @@ From a team channel, you can connect a model-driven app record or view to collab
 
      2. If you are the owner of the team, you will see an option to add other members to the team who either owns the record, or it has been shared with them. When you are done, select **Save**. 
         > [!NOTE] 
-        > The Enhanced Collaboration Experience needs to be enabled to add members to the team. For more information, see [Install and set up the Dynamics 365 app for Teams](teams-install-app.md).
+        > The Enhanced Collaboration Experience needs to be enabled to add members to the team. For more information, see [Install and set up the Dynamics 365 app for Microsoft Teams](teams-install-app.md).
      
      Once you complete the above steps, you'll see a notification of a successful connection and the model-driven app record will load in the new added tab. You can interact with the record as if you were using the your app. Those with **Write** permissions can edit the record. Changes will be synchronized with the model-driven app in Dynamics 365.
 
