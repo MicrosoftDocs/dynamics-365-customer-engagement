@@ -61,7 +61,7 @@ To run an analysis job for Field Service:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Solution Health Hub with attention to the "new" option under analysis jobs](./media/troubleshoot-solution-health-fs-rules.png)
 
-This is the full list of rules that are currently included for Field Service:
+These are the rules currently included for Field Service:
 
 | Rule name: | What it checks: |
 | --- | --- | 
@@ -85,7 +85,7 @@ This is the full list of rules that are currently included for Field Service:
 
 ## View health check results
 
-Once you run the analysis job, you will be automatically directed to the overview page, which will automatically refresh when the run has finished. See the following screenshot for an example overview of a run.
+Once you run the analysis job, you will be directed to the overview page, which will automatically refresh when the run has finished. See the following screenshot for an example overview of a run.
 
 
 > [!div class="mx-imgBorder"]
