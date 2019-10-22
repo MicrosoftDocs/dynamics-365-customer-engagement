@@ -82,6 +82,11 @@ The agent scripts reduce the human errors involved in the process as the agents 
 
 9. Select **Save** to save the changes.
 
+    > [!div class=mx-imgBorder] 
+    > ![Agent script](../media/create-agent-script1.png "Agent script")
+
+Now, the agent script is configured.
+
 ## Associate agent script with session template
 
 After you configure the agent script and add the field to a form, you need to associate the agent script with a session template so that, based on the session type, the agent script loads to the agents.
