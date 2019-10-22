@@ -81,26 +81,32 @@ In the **Field Service** section, enter a **Field Service Product Type**:
 
 - **Convert to Customer Asset**: If set to **Yes**, a customer asset record will automatically be created when this product is used on a work order product. Allows for tracking service history.
 
+- **List Price**: Enter a default price of this product or service. This price will be used if the product is not added to a price list. For services, this price represents an hourly rate.
 - **Default vendor**: Enter a vendor where this product was purchased from. This is the default vendor for RTVs.
   
 - **Taxable**: Choose whether the product or service is taxable.  
   
-  
- 
-**Save**.  
+**Save**. 
 
-  
+After saving, enter a **Default Price list** in the product details section, then **Save** again.
 
-- price list
-- price list item
+For this exercise, we created two more products; a service and a non-inventory one.
 
-1. In the **Additional Details** section, click **+Add Price List Item record**, and then create a price list item for each unit the product is available in. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a price list (Project Service Automation)](../project-service/create-price-list.md) 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-create-service.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-create-non-inventory.png)
+
+### Price list
+
+Next, add the products and services as price list items to the price lists of your choice.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-products-price-list-items.png)
 
-
+For more information see the topic on [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [creating a price list (Project Service Automation)](../project-service/create-price-list.md). 
 
 ## Add a product or service to a work order
 
