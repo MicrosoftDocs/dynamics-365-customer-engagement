@@ -128,7 +128,71 @@ Based on the context and the information extracted from an ongoing conversation,
 Given below is the adaptive card JSON for displaying similar case suggestions.
 
 ```json
-
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "altText": "",
+                                    "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE6SURBVHgBpZLRbcJADIbtKKBAH8oGZARGSEdggpINIlXw0DzQqgp9SB/SCaATdAQ6QjYgI/AEEUnOtUNSFaGEE/jl7Lv7/rPPRrhg3mA+6By6HhI+EpCNAAkhfGXdQxRtX7eGBrwGBcOClBPufSQW4KOhwHJutgnIywzHYeq7Es/6ixVnkYQ73xVfpWrTKlCmXdD4H0w1TET3iDhpLUFqDjM/Fl9Ve39Ce1+E7UaBaScY8VLWKfHH7nlCgFhnMb0rzxNsgtHEb8ppXGdwdqcfLElRYujCdSaeNbf59YjdUW5ln6gDl+WYsGZXRBL+wJXA0kpTB672H07KSY8LasKNf4G3wGKGXFKovGvg4+VeQCcxw7PeYlPNwUWTNv5wT18keLLeHO2XK0PPerdNKJY81w4Pbww5urqw2C9t1ONm4m8XzgAAAABJRU5ErkJggg==",
+                                    "width": "16px",
+                                    "height": "16px"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Similar case"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Noise from product",
+                    "weight": "Bolder"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Grinding sound from the printer. This started happening after a new carriage stall is installed",
+            "wrap": true
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Open",
+            "data": {
+                "value": "OpenCaseEntity"
+            },
+            "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE8SURBVHgBnVLBUQJBEOxd1z8BALWgAWAEagSQAfLw5CdEIBkIP+UeEoIZyGUAAchtnVT55cXDu5txDrkqQKHUeexu7Uz3dO8OrBc18I/QWul6xYtC682bfwGq6nV0xazqSqkFg63sE9LxwD1U3MGOdJSOoVCY+cUWx6YFpqmm45fqTfRk26Hd2zFbqt48pI/4zI0qizyxUqJVU1NWxYPXYfl5q+MaPoYxtc3EzC+PwsfSZWrQY/7+Dipnl+M9xOc+aWAuZJYYmDCha7766nMibrhhMditt52woJemI6RNqekjSQaZJbNmqyFOppuA0/bbhTDf0lJyjD7F229gbPvdcpogv1wBGHdpKnxAz/nl4Cfl6kQmhxXqIDUROR35jjFBjZxfCnAgDMvkQPwRw2FHzkEgiAKK0+5vAXl8ArWLn19rFeLfAAAAAElFTkSuQmCC"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}
 ```
 
 ## Smart assist using cross sell suggestions
