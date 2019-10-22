@@ -35,14 +35,14 @@ Dynamics 365 for Microsoft Teams integration enables users to easily work with C
 - **Collaboration hub**: Access a shared workspace for Office apps that most of us already use to work sales opportunities.  
 - **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t a Dynamics 365 apps user.
 - **File integration**: Co-author documents using Office 365 and automatically sync to Common Data Service. 
-- **Teams mobile app**: Search from Microsoft Teams mobile app using the Dynamics 365 bot while on the go. 
+- **Microsoft Teams mobile app**: Search from Microsoft Teams mobile app using the Dynamics 365 bot while on the go. 
 
 > [!div class="mx-imgBorder"] 
 > ![Features of Microsoft Teams app](media/teams-intro.png "Features of Microsoft Teams app")
 
-With the Dynamics 365 for Microsoft Teams integration, add model-driven app features that you rely on, to the Teams app you collaborate with. This lets you easily work with Common Data Service customer information and share files directly from Microsoft Teams.
+With the Dynamics 365 for Microsoft Teams integration, add model-driven app features that you rely on, to the Microsoft Teams app you collaborate with. This lets you easily work with Common Data Service customer information and share files directly from Microsoft Teams.
 
-- Access Common Data Service records by adding a Dynamics 365 tab into the Teams channel. Collaborate at a large scale not only on a single app record (like a sales opportunity) but also on multiple records.
+- Access Common Data Service records by adding a Dynamics 365 tab into the Microsoft Teams channel. Collaborate at a large scale not only on a single app record (like a sales opportunity) but also on multiple records.
 - Use Microsoft Teams integration to seamlessly collaborate on documents between Common Data Service and Microsoft Teams. 
 - Collaborate on a set of records, such as *active opportunity* using Microsoft Teams conversation and easily access records on the go using the Dynamics 365 bot for Microsoft Teams mobile app. 
 
