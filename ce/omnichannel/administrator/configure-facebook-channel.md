@@ -47,7 +47,7 @@ After completing the prerequisites, you can add the Facebook channel for your or
 
 3.	Select **New** to create a Facebook work stream.
 
-4.	On the **Summary** tab, in the **Channel** field, select **Facebook**.
+4.	On the **Work Distribution** tab, in the **Channel** field, select **Facebook**.
 
     > [!div class=mx-imgBorder]
     > ![Create a Facebook work stream](../media/fb-workstream.png "Create a Facebook work stream")

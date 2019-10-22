@@ -68,9 +68,11 @@ To sign up for TeleSign:
 
 3.	Select **New** to create a work stream.
 
-4.	On the **Summary** tab, in the **Channel** field, select **SMS**.
-
-5.	In the **Auto-close after inactivity** field, select a duration of at least 8 hours.
+4.	On the **Work Distribution** tab, enter the following information:
+  - **Name**: Name of the work stream.
+  - **Channel**: Select **SMS**.
+  - **Auto-close after inactivity**: Select a duration of at least 8 hours
+  - **Allow automated messages**: This field is for future use. It is recommended to keep its value to **No**.
 
     > [!div class=mx-imgBorder]
     > ![SMS work stream](../media/sms-workstream.png "SMS work stream")
@@ -81,20 +83,21 @@ To sign up for TeleSign:
 
 7. Copy the value from the **TeleSign inbound URL** field and send it to TeleSign at [support@telesign.com](mailto:support@telesign.com). This value is the callback URL that is used to process incoming SMS messages.
 
+8.	Select **Save**.
+
     > [!div class=mx-imgBorder]
     > ![SMS Settings tab](../media/sms-settings.png "SMS Settings tab")
 
-8.	Select **Save**.
-
-9.	On the **SMS Numbers** tab, select **Add new SMS number**.
+9.	On the **SMS Numbers** tab, select **New SMS number**.
 
 10.	On the **New SMS Number** page, enter the following information:
     - **Number**: Phone number purchased from TeleSign.
-    - **Type**: Select **Long code**. Other options like Short code or Toll free are not supported in this preview.
+    - **Type**: Select **Long code**. Other options like Short code or Toll free are not supported in this release.
     - **Description**: Optional description for the number.
+    - **Operating Hours**: Allows you to specify the business hours when the customer support team is active and available to serve customers. It works only when the **Allow automated messages** field's value is set to **Yes**.
     
     > [!NOTE]
-    > - For this preview, only one phone number is supported per work stream.
+    > - For this release, only one phone number is supported per work stream.
     > - Ensure that the phone number is entered in the following format without spaces and special characters: &lt;country code&gt;&lt;phone number&gt;. For information on availability of international numbers, see [TeleSign coverage map](https://www.telesign.com/coverage-map/).
 
     > [!div class=mx-imgBorder]
