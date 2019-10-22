@@ -2,7 +2,7 @@
 title: "Integrate sample softphone with Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the sample to learn how to integrate a softphone dialer in Dynamics 365 Sales."
 keywords: "Opportunity, Close, Closing, Customization, dialog box, quick create, custom fields,"
-ms.date: 10/23/2019
+ms.date: 10/22/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
