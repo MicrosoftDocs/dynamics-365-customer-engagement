@@ -1,7 +1,7 @@
 ---
-title: "Collaborate with Teams| MicrosoftDocs"
+title: "Collaborate with Microsoft Teams| MicrosoftDocs"
 ms.custom: 
-description: "Collaborate with team members using the Dynamics 365 app for Teams."
+description: "Collaborate with team members using the Dynamics 365 app for Microsoft Teams."
 ms.date: 10/16/2019
 ms.reviewer: 
 ms.service: crm-online
@@ -25,13 +25,13 @@ search.app:
 
 ## Collaboration experience in Microsoft Teams
 
-Once installed, the Dynamics 365 app for Teams enables collaborating with other team members by adding a model-driven app in Dynamics 365 tab to a channel in Microsoft Teams.
+Once installed, the Dynamics 365 app for Microsoft Teams enables collaborating with other team members by adding a model-driven app in Dynamics 365 tab to a channel in Microsoft Teams.
 
 ### Connect a model-driven app record or view to a team channel
 
-From a team channel, you can connect a model-driven app record or view to collaborate on any entity such as customer accounts, opportunities, and more.
+From a team channel, you can connect a model-driven app record or view to collaborate on any entity, such as customer accounts, opportunities, and more.
 
-1. Open a team channel and select the **Add** button (![Add button](media/plus-2.png "Add button")).
+1. Open a team channel, and select the **Add** button (![Add button](media/plus-2.png "Add button")).
 
    > [!div class="mx-imgBorder"]
    > ![Select Add button](media/teams-add-tab.png "Select Add button")
@@ -41,7 +41,7 @@ From a team channel, you can connect a model-driven app record or view to collab
    > [!div class="mx-imgBorder"]
    > ![Add Dynamics 365 appsTeam channel](media/teams-add-channel.png "Add Dynamics 365 appsTeam channel")
 
-3. Select **Entity Selection** or **View Selection**.
+3. Select **Entity Selection**, or **View Selection**.
 
   - **Entity Selection**
      1. Search for an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type.
@@ -49,11 +49,11 @@ From a team channel, you can connect a model-driven app record or view to collab
         > [!div class="mx-imgBorder"] 
         > ![Search for entity](media/teams-add-channel-pin-record2.png "Search for entity")
 
-     2. If you are the owner of the team, you will see an option to add other members to the team who either own the record or it has been shared with them. When you are done select **Save**. 
+     2. If you are the owner of the team, you will see an option to add other members to the team who either owns the record, or it has been shared with them. When you are done, select **Save**. 
         > [!NOTE] 
-        > The Enhanced Collaboration Experience needs to be enabled to add members to the team. For more information, see [Install and set up the Dynamics 365 app for Teams ](teams-install-app.md).
+        > The Enhanced Collaboration Experience needs to be enabled to add members to the team. For more information, see [Install and set up the Dynamics 365 app for Teams](teams-install-app.md).
      
-     Once you complete the above steps, you'll see a notification of a successful connection and the model-driven app record will load in the new added tab. You can interact with the record as if you were using the your app. Those with Write permissions can edit the record. Changes will be synchronized with the model-driven app in Dynamics 365.
+     Once you complete the above steps, you'll see a notification of a successful connection and the model-driven app record will load in the new added tab. You can interact with the record as if you were using the your app. Those with **Write** permissions can edit the record. Changes will be synchronized with the model-driven app in Dynamics 365.
 
       > [!div class="mx-imgBorder"] 
       > ![Record successfully connected and pinned](media/teams-pinned-record.png "Record successfully connected and pinned")
@@ -66,26 +66,26 @@ From a team channel, you can connect a model-driven app record or view to collab
 
 The successful connection state indicates that the connection was successfully saved in Dynamics 365 apps so that the link to the connected Microsoft Teams channel appears on the Dynamics 365 apps page and the files used on this channel also appear on the **Documents** tab in Dynamics 365 apps.
 
-A failed connection state indicates that the connection was not successfully sent to Common Data Service. Microsoft Teams user can still use the pinned tab in the channel but the relationship between the pinned record or view with the team channel is not stored in Common Data Service. For more information, see [Troubleshooting](teams-troubleshoot.md). 
+A failed connection state indicates that the connection was not successfully sent to Common Data Service. Microsoft Teams users can still use the pinned tab in the channel, but the relationship between the pinned record or view with the team channel is not stored in Common Data Service. For more information, see [Troubleshooting](teams-troubleshoot.md). 
 
 
  - **View Selection**
      1. Select an entity to see the list of available views in the model-driven app. Once you've picked a view, select  **Save**.
   
         > [!div class="mx-imgBorder"] 
-        > ![Select a view](media/teams-select-view.png "Select an view")
+        > ![Select a view](media/teams-select-view.png "Select a view")
    
         > [!div class="mx-imgBorder"] 
-        > ![Select a view](media/teams-select-view2.png "Select an view")
+        > ![Select a view](media/teams-select-view2.png "Select a view")
    
       Once you complete the above steps, you'll see the model-driven app entity view in the new added tab.
 
       > [!div class="mx-imgBorder"] 
-      > ![My View in Teams](media/teams-select-view4.png "My View in Teams")
+      > ![My View in Microsoft Teams](media/teams-select-view4.png "My View in Microsoft Teams")
      
      
     > [!NOTE]
-    > - If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Teams before you add the view to the Teams channel. Otherwise, other team members will not hae access to the view content.
+    > - If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Microsoft Teams before you add the view to the Microsoft Teams channel. Otherwise, other team members will not hae access to the view content.
    
     > [!div class="mx-imgBorder"] 
     > ![Select from My View](media/teams-select-view3.png "Select from My View")
@@ -121,7 +121,7 @@ It's easy to navigate to the pinned model-driven app record or view page from Mi
 Select the **Files** tab in the connected team channel to associate files with a model-driven app record. Files added here will appear in model-driven apps in Dynamics 365 under **Documents** for the linked record. Likewise, when you add a document to a model-driven app record, that document will appear in Microsoft Teams under the **Files** tab.
 
    > [!div class="mx-imgBorder"] 
-   > ![Files tab in Teams app](media/teams-files-tab.png "Files tab in Teams app")
+   > ![Files tab in Microsoft Teams app](media/teams-files-tab.png "Files tab in Microsoft Teams app")
    
    
 #### If you see this message: Shared files exist in multiple locations. Select "Document Location" to see files in other locations.
@@ -155,7 +155,7 @@ For more information on which entities support the collaborate option, see [Reco
 In a model-driven app record page, select **Collaborate** to display a list of all the connected team channels. Then, select a team channel to go to the relevant channel conversation in Microsoft Teams.
 
 > [!div class="mx-imgBorder"] 
-> ![From Dynamics 365 apps, open a conversation in Teams](media/teams-select-collaborate.png "From Dynamics 365 apps, open a conversation in Teams")
+> ![From Dynamics 365 apps, open a conversation in Microsoft Teams](media/teams-select-collaborate.png "From Dynamics 365 apps, open a conversation in Microsoft Teams")
 
 In addition, document management in model-driven apps in Dynamics 365 is integrated with Microsoft Teams. You can see the connected channel file library in the model-driven app and directly upload files; uploaded files will appear in the connected team channel file library under the **Files** tab in Microsoft Teams. Files uploaded in the Microsoft Teams connected channel will appear in the **Documents** tab in you app.
 
@@ -205,7 +205,7 @@ Currently, the following record types only support Microsoft Teams collaborate c
 -	Team
 -	Work Order
 
-If not enabled, users can still connect model-driven app records to Microsoft Teams but the connected Microsoft Teams channel and the file library do not appear in model-driven apps.
+If not enabled, users can still connect model-driven app records to Microsoft Teams, but the connected Microsoft Teams channel and the file library do not appear in model-driven apps.
 
 When the feature is enabled, the collaboration feature is enabled only for a selected set of system entities. If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md)
 
