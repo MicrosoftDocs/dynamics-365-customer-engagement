@@ -1,7 +1,7 @@
 ---
-title: "Install and set up the Dynamics 365 app for Teams| MicrosoftDocs"
+title: "Install and set up the Dynamics 365 app for Microsoft Teams| MicrosoftDocs"
 ms.custom: 
-description: "Install and set up the Dynamics 365 app for Teams."
+description: "Install and set up the Dynamics 365 app for Microsoft Teams."
 ms.date: 10/16/2019
 ms.reviewer: 
 ms.service: crm-online
@@ -23,7 +23,7 @@ search.app:
 ---
 # Install and setup Microsoft Teams integration 
 
-By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Common Data Service. To turn these features on, follow the steps below. To learn more about what the difference, see [Difference between the Basic and Enhanced Collaboration Experience with Teams](teams-basic-vs-enhanced-collaboration.md).
+By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Common Data Service. To turn these features on, follow the steps below. To learn more about what the difference, see [Difference between the Basic and Enhanced Collaboration Experience with Microsoft Teams](teams-basic-vs-enhanced-collaboration.md).
 
    > [!div class="mx-imgBorder"] 
    > ![Settings page](media/teams-system-settings.png "Settings page")
@@ -31,7 +31,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Co
    > [!NOTE]
    > - If Microsoft Teams integration is not enabled on the **System Settings** page in Common Data Service, then Microsoft Teams users can still connect to model-driven apps record or view to Microsoft Teams collaboration channel, but the connected Microsoft Teams channel and the file library do not appear in model-driven apps in Dynamics 365.
    > - When the feature is enabled, the collaboration feature is [enabled only for a selected set of system entities](teams-work-records-and-view.md#record-types-supporting-collaborate). If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md).
-   > - If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](teams-troubleshoot.md#troubleshoot-configuration-issues-with-teams-integration).
+   > - If you run into any issues during configuration, see [Troubleshoot configuration issues with Microsoft Teams Integration](teams-troubleshoot.md#troubleshoot-configuration-issues-with-teams-integration).
 
 ## For Common Data Service admins: enable Microsoft Teams integration feature 
 
@@ -68,7 +68,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Co
     > ![Finish setup](media/finish-setup.png "Finish setup")
    
 
-## In Microsoft Teams: Install the Dynamics 365 app and set up the Teams collaboration channel tab
+## In Microsoft Teams: Install the Dynamics 365 app and set up the Microsoft Teams collaboration channel tab
 
 1. In Microsoft Teams, select **Store**. 
 
@@ -82,7 +82,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Co
 
 3. Verify that **Add for you** and **Add to a team** are both set to **Yes**.
 
-   You can use Dynamics 365 app for your own use or use on a Microsoft Teams channel to collaborate with others. If you have an existing Microsoft Teams channel, select both options. Otherwise, you can start installing for your personal use and install the app for your Teams later.
+   You can use Dynamics 365 app for your own use or use on a Microsoft Teams channel to collaborate with others. If you have an existing Microsoft Teams channel, select both options. Otherwise, you can start installing for your personal use and install the app for your Microsoft Teams later.
 
    > [!div class="mx-imgBorder"] 
    > ![Enable personal and team features](media/teams-store-install-both75.png "Enable personal and team features")
@@ -127,7 +127,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Co
 8. After completing the above steps, you will see a new Dynamics 365 tab in the selected team channel. 
  
  
-See [Collaborate with Teams](teams-collaboration.md#have-a-conversation) for information on how you can use the tab feature to collaborate with Dynamics 365 apps.
+See [Collaborate with Microsoft Teams](teams-collaboration.md#have-a-conversation) for information on how you can use the tab feature to collaborate with Dynamics 365 apps.
 
 ## In Microsoft Teams: Set up the Dynamics 365 bot
 
@@ -184,5 +184,5 @@ See [Use the personal dashboard](teams-personal-use.md) for information on how y
 
 
 ### See also  
- [Troubleshoot Teams integration](teams-troubleshoot.md)
+ [Troubleshoot Microsoft Teams integration](teams-troubleshoot.md)
 
