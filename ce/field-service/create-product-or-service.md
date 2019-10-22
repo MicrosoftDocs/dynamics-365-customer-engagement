@@ -108,9 +108,46 @@ Next, add the products and services as price list items to the price lists of yo
 
 For more information see the topic on [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [creating a price list (Project Service Automation)](../project-service/create-price-list.md). 
 
+**Pro Tip:** From the Price List go to **Related > Field Service Price List Items** to add additional pricing options for Field Service products and services.
+
 ## Add a product or service to a work order
 
-When a product or service is added to a work order, a new Work Order Product or Work Order Service record is created. It is given a status of **Estimated** by default, which means it has not been utilized yet. When a field technician actually uses the product or performs the service, he or she will change the work order product or service status to **Used** from the mobile device. Even after the product or service is used, field technicians and back office workers still have the option to bill the client or not.
+Next let's utilize the products and services on work orders. 
+
+First create a work order.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-add.png)
+
+### General
+
+In the Products section of the Work Order, create a new Work Order Product and choose the product you just created.
+
+- **Line Status**: When a product or service is added to a work order, a new Work Order Product or Work Order Service record is created. It is given a status of **Estimated** by default, which means it has not been utilized yet. When a field technician actually uses the product or performs the service, he or she will change the work order product or service status to **Used** from the mobile device. Even after the product or service is used, field technicians and back office workers still have the option to bill the client or not.
+
+- **Taxable**: Set to Yes if you want to Sales Tax of the work order added on top of the price.
+
+- **Allocated**: Set to **Yes** if you want to set aside units of this product from a warehouse before actually using and decrementing them from inventory.
+  
+- **Warehouse**: If the product is allocated or used, you need to enter the warehouse it came from. The field technician can enter this as well after using the product when on site.
+
+### Estimate Information
+
+Add an **Estimate Quantity**. This represents how many units you think may be needed to complete the job.
+
+Price information is taken from the price list first, then the product record and calculated based on the quantity.
+
+### Product Relates To
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-relates-to.png)
+
+### Other
+
+
+- add or edit quanity
+- add or edit price list
+
 
 - manual
   - inventory
@@ -118,16 +155,7 @@ When a product or service is added to a work order, a new Work Order Product or 
   - service
 - incident
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-product-add.png)
-- add or edit quanity
-- add or edit price list
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-product-relates-to.png)
-
+Adding a work order service is very similar to a work order product
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-service-add.png)
 
