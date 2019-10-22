@@ -30,7 +30,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Co
 
    > [!NOTE]
    > - If Microsoft Teams integration is not enabled on the **System Settings** page in Common Data Service, then Microsoft Teams users can still connect to model-driven apps record or view to Microsoft Teams collaboration channel, but the connected Microsoft Teams channel and the file library do not appear in model-driven apps in Dynamics 365.
-   > - When the feature is enabled, the collaboration feature is [enabled only for a selected set of system entities](teams-work-records-and-view.md#record-types-supporting-collaborate). If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md).
+   > - When the feature is enabled, the collaboration feature is [enabled only for a selected set of system entities](https://docs.microsoft.com/en-us/dynamics365/teams-integration/teams-collaboration#record-types-that-support-microsoft-teams-integration-in-model-driven-apps). If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md).
    > - If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](https://docs.microsoft.com/en-us/dynamics365/teams-integration/teams-troubleshoot#troubleshoot-configuration-issues-with-microsoft-teams-integration).
 
 ## For Common Data Service admins: enable Microsoft Teams integration feature 
@@ -43,7 +43,8 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Co
    >  > [!div class="mx-imgBorder"] 
    >  > ![Enhanced experience disabled](media/teams-enhanced-disabled.png "Enhanced experience disabled")
 
-   
+<a name="enhanced"></a>   
+
 4. To enable [enhanced collaboration experience](teams-collaboration-enhanced-experience.md), select **Yes** for **Enable Enhanced Microsoft Teams Integration**. To turn this option on, you need Office 365 tenant admin permissions. When Enhanced Microsoft Teams Integration is enabled, the **Collaborate** button appears on the record and view page in model-driven apps for Dynamics 365. You can set up a connection with any Microsoft Teams collaboration channel within a model-driven app.
 
     1. When you select **Yes** to **Enable Enhanced Microsoft Teams Integration**, there is two consent permission popup boxes that will display. If you have a pop-up blocker and you don't see the second consent dialog, then you need to disable the pop-up blocker in your browser.
@@ -59,9 +60,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Co
         > [!div class="mx-imgBorder"] 
         > ![Select consent checkbox](media/consent.png "Select consent checkbox")
     
- 
-       
-        
+          
 5. After the second consent is accepted select, **Finish** and then select **OK** on the **System Settings** screen. If you don't select **OK** on the **System Settings** screen then you will lose your changes. 
 
     > [!div class="mx-imgBorder"] 
