@@ -5,7 +5,7 @@ keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 10/21/2019
+ms.date: 10/22/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 355B4706-49DF-4E2F-A46D-00F12E0044C6
@@ -15,10 +15,13 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-Build a custom bot to push real-time suggestions to agents for actions displayed within the smart assist control on the agent UI. The smart assist control uses Adaptive cards to push and display suggestions in UI. [Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI.
+Build a custom bot to push real-time suggestions to agents for actions displayed within the smart assist control on the agent UI. The smart assist control uses Adaptive cards to push and display suggestions in UI. [Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI. The smart assist bot interprets the conversation context in real-time and provides suggestions to the agents.
 
-You can use the [Adaptive Cards Designer](https://adaptivecards.io/designer/) to create your own adaptive card template.
+You can use the [Adaptive Cards Designer](https://adaptivecards.io/designer/) to create your own adaptive card template. Also, you can embed macros and custom actions within a suggestion using web resources.
 
+More information: [Automate tasks with macros](../../administrator/macros.md).
+
+Also, see the Administrator topic on how to enable smart assist: [Smart assist for agents](../../administrator/smart-assist.md).
 
 ## Smart assist using knowledge articles
 
@@ -277,5 +280,6 @@ You can find the entire code sample here: [Smart Assist for Bots]().
 
 ## See also
 
+[Smart assist for agents](../../administrator/smart-assist.md)<br />
 [Manage custom context](send-context-starting-chat.md)<br />
 [Enable a bot to escalate and end conversation](../bot-escalate-end-conversation.md)
