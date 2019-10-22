@@ -1,8 +1,8 @@
 ---
 title: Service Scheduling Frequently Asked Questions (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See some common questions about service scheduling and setting it up in Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
+author: kabala123
+ms.author: kabala
 manager: shujoshi
 ms.date: 11/20/2018
 ms.topic: article
@@ -24,7 +24,7 @@ Read this topic to find answers to some common questions regarding Service Sched
 
 ## What licenses do I need to enable service scheduling for my org?
  
-The new scheduling experience is available to you if you have Dynamics 365 Customer Service Enterprise, Customer Engagement Plan, or Dynamics 365 Plan licenses.
+The new scheduling experience is available to you if you have Dynamics 365 Customer Service Enterprise.
 
 ## Is the new scheduling experience automatically available with the next Dynamics 365 Customer Service upgrade?
 

@@ -76,11 +76,11 @@ As well as mobile devices.
      > [!NOTE]
      >  You can't change the unique name and app URL suffix on the **Properties** tab.  
   
-   - **Enable Mobile Offline**: Mobile offline allows users to run you app in offline mode to interact with there data while they're not connected to the internet. To use this feature, a Dynamics 365 administrator will need to set up mobile offline for the organization. More information:  [Set up mobile offline synchronization to allow users to work in offline mode on their mobile device](../../../mobile-app/setup-mobile-offline-for-admin.md)
+   - **Enable Mobile Offline**: Mobile offline allows users to run you app in offline mode to interact with their data while they're not connected to the internet. To use this feature, a Dynamics 365 administrator will need to set up mobile offline for the organization. More information:  [Set up mobile offline synchronization to allow users to work in offline mode on their mobile device](../../../mobile-app/setup-mobile-offline-for-admin.md)
 
-2. Select **Done** or&mdash;if you selected **Use an existing solution to create the App**&mdash;select **Next** to select from the available solutions that were imported in the organization.  
+2. Select **Done** or&mdash;if you selected **Use an existing solution to create the App**&mdash;select **Next** to choose from the available solutions that were imported in the organization.  
   
-    A new app is created and is shown in Draft status. You'll see the app designer canvas for the new app.  
+    A new app is created and is shown in **Draft** status. You'll see the app designer canvas for the new app.  
   
 3. Define the sitemap. The sitemap determines how users will navigate your app. Select ![Open site map](media/site-map-designer.png) to open the site map designer. More information: [Create a site map for an app using the site map designer](create-site-map-app.md)
 

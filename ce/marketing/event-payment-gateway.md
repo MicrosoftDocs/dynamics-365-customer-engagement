@@ -141,3 +141,7 @@ After your back-end solution has verified payment, it must invoke the `msevtmgt_
 - `UserId`: Identifies the contact who made the purchase. This is the ID for the contact record in Dynamics 365.
 
 For more information about how to execute custom actions, see [Use Web API actions](https://docs.microsoft.com/dynamics365/customer-engagement/developer/webapi/use-web-api-actions).
+
+### See also
+
+[Set up the event website](set-up-event-portal.md)
