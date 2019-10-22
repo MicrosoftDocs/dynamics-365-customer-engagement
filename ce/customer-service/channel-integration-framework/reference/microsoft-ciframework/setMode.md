@@ -1,5 +1,5 @@
 ---
-title: "setMode (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | Microsoft Docs"
+title: "setMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework | Microsoft Docs"
 description: ""
 keywords: ""
 ms.date: 10/15/2019

@@ -1,5 +1,5 @@
 ---
-title: "refreshTab (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
+title: "refreshTab (JavaScript API Reference) for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 09/30/2019

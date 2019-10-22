@@ -1,5 +1,5 @@
 ---
-title: "setSessionTitle (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
+title: "setSessionTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework | Microsoft Docs"
 description: ""
 keywords: ""
 ms.date: 09/30/2019

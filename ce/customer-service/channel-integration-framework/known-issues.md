@@ -1,5 +1,5 @@
 ---
-title: "Common issues and resolutions for Channel Integration Framework | Microsoft Docs"
+title: "Common issues and resolutions for Dynamics 365 Channel Integration Framework | Microsoft Docs"
 description: ""
 keywords: ""
 ms.date: 10/22/2019
@@ -15,9 +15,9 @@ ms.author: susikka
 manager: shujoshi
 ---
 
-# Common issues and resolutions for Channel Integration Framework
+# Common issues and resolutions for Dynamics 365 Channel Integration Framework
 
-This article lists some common issues that you might encounter while using Channel Integration Framework.
+This article lists some common issues that you might encounter while using Dynamics 365 Channel Integration Framework.
 
 ### Switching sessions
 
