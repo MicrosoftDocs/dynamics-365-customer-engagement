@@ -81,7 +81,7 @@ These list of supported formats are:
 
 ### Slugs
 
-Slug is a replacement parameter that Channel Integration Framework populates at the runtime based on the context. Channel Integration Framework supports the following slugs.
+Slug is a replacement parameter that Channel Integration Framework populates at the runtime based on the context. Some examples are:
 
 | Slug | Description |
 |------------|-----------------------------------|
