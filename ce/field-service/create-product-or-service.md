@@ -25,7 +25,7 @@ search.app:
 ---
 # Create a product or service (Field Service)
 
-The Product entity in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] contains information about products that may be sold to customers. Typical information stored in this entity are model number, manufacturer, warranty information, price, cost, etc. Products are usually added to work orders when an incident is added. Products added to a work order initially have a status of "estimated" and can be marked as "used," indicating that they were sold and billed to a client.  
+Field Service uses the Dynamics 365 product catalog The Product entity in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] contains information about products that may be sold to customers. Typical information stored in this entity are model number, manufacturer, warranty information, price, cost, etc. Products are usually added to work orders when an incident is added. Products added to a work order initially have a status of "estimated" and can be marked as "used," indicating that they were sold and billed to a client.  
 
 F&O
 
@@ -205,7 +205,7 @@ After you're done verifying everything, click **Done**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-allocated.png)
-
+- add quantity
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-add-mobile-warehouse.png)
