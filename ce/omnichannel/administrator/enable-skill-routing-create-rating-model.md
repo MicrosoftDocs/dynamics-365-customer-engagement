@@ -36,7 +36,9 @@ To enable skill-based routing, follow these steps:
 
 3. Set the **Enable Skill Based Routing** toggle to **Yes**.
 
-4. Select a rating model from the list for the **Rating Model** field. <br> If there is no rating mode, create a new rating model. To learn more, see [Create rating model](enable-skill-routing-create-rating-model.md#create-rating-model).
+4. Select a rating model from the list for the **Rating Model** field. 
+ 
+    If there is no rating mode, create a new rating model. To learn more, see [Create rating model](enable-skill-routing-create-rating-model.md#create-rating-model).
 
     After you select a rating model, the Rating Model Details section displays the **Name**, **Min Rating Value**, **Max Rating Value** and the **Rating Values (Rating Model)** grid.
 
@@ -52,7 +54,7 @@ To enable skill-based routing, follow these steps:
 
 ## Rating value of skills
 
-For each skill you add to an agent, you need a way to rate the proficiency of the skill. This enables the system to do an exact or closest match against the requirement of a conversation and distribute the conversation accordingly. You can use the default rating model, edit it, or create a new one to match the needs of your organization.
+When you add a skill to an agent, you also need to rate the proficiency of the skill. This enables the system to do an exact or closest match against the requirement of a conversation and distribute the conversation accordingly. You can use the default rating model, edit it, or create a new one to match the needs of your organization.
 
 You must provide the minimum and maximum rating value. Also, in the **Rating Values** section, you must create rating value text against each score between the minimum and maximum rating value. This text appears while updating an agent's skill and proficiency.
 
@@ -69,7 +71,7 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
     | Tab | Field | Description | Example value  |
     |------------|-----------------|----------------|--------------------------------------------|
     | General | Name | Specify a name for the rating model. | Language rating model |
-    | General | Min Rating Value | Provide the minimum rating value. | 1 |
+    | General | Min Rating Value | Provide a minimum rating value. | 1 |
     | General | Max Rating Value | Provide a maximum rating value. | 10 |
 
 5. Select **Save** to save the rating model. After you save, the **Rating Values** section appears.
@@ -78,7 +80,7 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 7. Specify the following in the **Rating Value** page.
 
-    | Field | Description | value  |
+    | Field | Description | Value  |
     |-----------------|----------------|--------------------------------------------|
     | Name | Specify a name for the rating value. | ★★★★★★★★★★ <br> **Note:** <br>This is an example value.|
     | Value | Provide a value. | 10 <br> **Note:** <br>This is an example value.|
@@ -91,11 +93,11 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 ### Recommended proficiency level
 
-It is recommended to use a rating model with minimum value as 1 and maximum value as 10, and define the rating values accordingly.
+We recommend that you use a rating model with minimum value as 1 and maximum value as 10, and define the rating values accordingly.
 
 For example:
 
-| Rating Value Name | Value |
+| Rating value name | Value |
 |-------------------|-------|
 | ★★★★★★★★★★| 10 star|
 | ★★★★★★★★★ | 9 star|

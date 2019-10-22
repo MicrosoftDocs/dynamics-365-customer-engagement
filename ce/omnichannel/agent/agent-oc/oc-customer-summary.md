@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 10/25/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: D25BB656-E29F-4233-B5BB-ADF678CCD7D2
@@ -51,28 +51,43 @@ Use the customer form to search for an existing contact or account record in omn
 
 The conversation summary section displays tabs with the details that help you understand the information about the conversation with customer. It displays the following tabs:
 
-- Pre-chat
-- Journey
+- Pre-chat survey
+- Portal navigation
 - Visitor details
 - Additional details (Only if configured and additional context variables available)
 
-### Pre-chat
+Also, below the these tabs, at all times, you can see the Conversation details section that shows the following details:
+
+- Engagement channel
+- Waiting time
+- Skills
+- Queue
+- Start time
+
+  > [!div class='mx-imgBorder']
+  > ![Conversation details](../../media/conversation-details.png "Conversation details")
+
+### Pre-chat survey
 
 The **Pre-chat survey** tab displays the survey answers against the questions that are requested by your organization, which helps your interaction with the customer.
 
-### Journey
+### Preview: Portal navigation
 
-The **Journey** tab displays information on the path (recent operations) the customer took just before initiating a conversation. The information enables the agents to understand why a customer reached out and also to provide a personalized service with fast resolution and improved customer satisfaction. The **Journey** tab displays the information in the reverse chronological order, and is categorized into the following type of actions:
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+
+The **Portal navigation** tab displays information on the path (recent actions) the customer took just before initiating a conversation. The information enables the agents to understand the customer intent and provide a personalized service with fast resolution for improved customer satisfaction. The **Portal navigation** tab displays the information in reverse chronological order, and is categorized into the following types of actions:
 
 | Action type | Description |
 |-------------|-----------------------------------|
-| Page visited | The pages visited on the portal (website) along with the timestamp.|
-| Phrase searched | The keywords or phrases searched for, along with the timestamp. |
-| Knowledge article viewed | The knowledge articles viewed along with the timestamp. |
-| Custom action performed | Any other custom actions that are tracked by your organization as per your business requirements are displayed along with the timestamp. |
+| Page visited | The page visited on the portal (website) along with the timestamp.|
+| Phrase searched | The keyword or phrase searched for, along with the timestamp. |
+| Knowledge article viewed | The knowledge article viewed along with the timestamp. |
+| Custom action performed | Any other custom action that is tracked by your organization as per your business requirements are displayed along with the timestamp. |
 
    > [!div class='mx-imgBorder']
-   > ![Journey tab](../../media/customer-summary-journey-tab.png "Journey tab")
+   > ![Portal navigation tab](../../media/customer-summary-portal-navigation-tab.png "Portal navigation tab")
+
+To configure the portal navigation tab, see [Enable visitor portal navigation](../../administrator/portal-navigation.md).
 
 ### Visitor details
 
@@ -115,7 +130,6 @@ This section displays case- and customer-related activities in the form of a tim
 > ![Recent activities section in the customer summary form](../../media/customer-summary-recent-activities.PNG "Recent activities section in the customer summary form")
 
 The **Linked records** field drop-down shows the record that is linked to conversation. For example, if you link a contact and case to the conversation, the **Linked records** field drop-down shows **Contact** and **Case** respectively.
-
 
 > [!div class='mx-imgBorder']
 > ![View only the linked records in the drop-down](../../media/oceh/customer-summary-linked-records.PNG "View only the linked records in the drop-down")
