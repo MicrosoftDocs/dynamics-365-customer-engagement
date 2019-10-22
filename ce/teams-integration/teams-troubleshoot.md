@@ -46,7 +46,7 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
 
 Error: **The admin has not consented to use user sync feature, you can add them manually**.
 
-When you turn on enhanced Microsoft Teams Integration, there are two dialog boxes that you need to accept. On the second dialog box, when you don't check the **Consent on behalf of organization** check box, then users will get this error when they try to pin an entity record or view to Teams and share the tab with another user.
+When you turn on enhanced Microsoft Teams Integration, there are two dialog boxes that you need to accept. On the second dialog box, when you don't check the **Consent on behalf of organization** check box, then users will get this error when they try to pin an entity record or view to Microsoft Teams and share the tab with another user.
 
    > [!div class="mx-imgBorder"] 
   > ![Microsoft Teams error](media/error1.png "Microsoft Teams error")
