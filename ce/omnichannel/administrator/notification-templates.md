@@ -50,17 +50,17 @@ Omnichannel system supports the following slugs.
 
 | Slug | Description |
 |------------|-----------------------------------|
-| {customerName} | Name of the customer who initiated the conversation. |
-| {caseId} | GUID of a case. The system displays the case Id only if a cased is linked to the conversation. |
-| {caseTitle} | Title of the case. The system displays the title of the case only if a cased linked to the conversation. |
-| {queueId} | GUID of a queue. |
-| {visitorLanguage} | The language of the customer who initiated the conversation. |
-| {visitorDevice} | The device of the customer who initiated the conversation. |
-| {entityRoutingLogicalName} | Name of the entity if the notification is for entity records. |
-| {entityRoutingRecordId} | GUID of the entity record if the notification is for entity records. To learn more, see [Entity records routing](entity-channel.md). |
-| {customerEntityName} | Name of the entity (contact or account entity) if the customer is authenticated. |
-| {customerRecordId} | GUID of the entity (contact or account entity) if the customer is authenticated. |
-|{\<name of the pre-chat survey questions\>} | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
+| `{customerName}` | Name of the customer who initiated the conversation. |
+| `{caseId}` | GUID of a case. The system displays the case Id only if a cased is linked to the conversation. |
+| `{caseTitle}` | Title of the case. The system displays the title of the case only if a cased linked to the conversation. |
+| `{queueId}` | GUID of a queue. |
+| `{visitorLanguage}` | The language of the customer who initiated the conversation. |
+| `{visitorDevice}` | The device of the customer who initiated the conversation. |
+| `{entityRoutingLogicalName}` | Name of the entity if the notification is for entity records. |
+| `{entityRoutingRecordId}` | GUID of the entity record if the notification is for entity records. To learn more, see [Entity records routing](entity-channel.md). |
+| `{customerEntityName}` | Name of the entity (contact or account entity) if the customer is authenticated. |
+| `{customerRecordId}` | GUID of the entity (contact or account entity) if the customer is authenticated. |
+|`{<name of the pre-chat survey question>}` | All the pre-chat survey questions that are configured for a workstream can be used as the slug The format is same as the question. |
 
 ## Create a notification template
 
@@ -125,9 +125,9 @@ As an administrator, you can edit the value of a notification field header in th
 
 In the Contoso Pvt Ltd customer service center, every case notification that is shown to an agent needs to have the following:
 
-**Title of the notification:**
+**Title of the notification**: A new case is assigned
 
-**Notification fields:**
+**Notification fields**:
 
 - **Case priority**: Priority of the case such high or low.
 - **Case title**: Title of the case.
@@ -141,7 +141,7 @@ As an administrator, you need to customize the notification template to show the
 | Tab | Name | Value |
 |---------|--------------------|-----------------------------------------------|
 | General | Name | Customized case notification template |
-| General | Title | `{headerText}` |
+| General | Title | A new case is assigned |
 | General | Icon |/webresources/msdyn_chat_icon_zfp.svg <br><br> **Note:** This is the default value. |
 | General | Timeout (seconds) | 120. <br><br> **Note:** This is the default value. |
 | General | Accept Button | Accept <br><br> **Note:** This is the default value.|

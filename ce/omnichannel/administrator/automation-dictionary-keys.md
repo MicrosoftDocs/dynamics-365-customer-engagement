@@ -131,17 +131,9 @@ Slug is a replacement parameter that system populates at the runtime based on th
 
 #### Format
 
-You can pass the slug in the following formats:
+The `{Slug}` parameter format that retrieves the context from the channel provider, current user session, output of other macro actions, and/or the Common Data Service platform.
 
-- The `{ChannelProvider.<Slug>}` or `{Slug}` parameter format is used to retrieve the context from the channel provider, where `ChannelProvider` is a standard construct to get the value from the provider context of the current session. 
-
-   For example: 
-
-   `{ChannelProvider.caseId}`
-
-   or
-
-   `{caseId}` 
+   For example: `{caseId}` 
 
 - The `Session.CurrentTab.<Attribute>` and `Session.AnchorTab.<Attribute>` parameter provides context data based on the current session and the anchor tab or the current tab in focus.
 
