@@ -26,7 +26,7 @@ In Omnichannel Administration, **Entity Records** channel helps you to automatic
 
 With unified routing for entity records, organizations can route cases and other entity records to omnichannel queues. The cases and other entity records routed to omnichannel queues are automatically distributed and assigned to best available agents based on their  skill (preview), capacity, and availability.
 
-### Unified Routing and Queues
+### Unified routing and queues
 
 Cases and other entity records can be routed to omnichannel queues along with work items that originate from other channels such as Chat and SMS. 
 
@@ -59,7 +59,7 @@ Any entity you want to enable for routing needs to be enabled for activities and
 
 4. Select an entity from the solution pane.
 
-5. Select the check box the following under **Communication & Collaboration** section:
+5. Select the check box for the following options under **Communication & Collaboration** section:
 
     - Activities
     - Queues
@@ -117,7 +117,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
 
 ### Create routing rule set
 
-    You can define multiple routing rule sets. Only one routing rule set can be active at any point of time. If you try to activate another rule set when one rule set is already active, it will deactivate the currently active rule set. You can activate or deactivate only the rule sets that you own.
+   Routing rule set is a collection of rule items, and you can have multiple routing rule sets defined for an entity. However, only one routing rule set can be active at any point in time. The rules items in active routing rule set are used to route the records. To create a new routing rule set, follow steps 5-7.
 
    > [!Note]
    > You can’t edit an active routing rule set. Therefore, if you’re importing a solution that includes an active routing rule set into an organization where the rule set already exists with the same ID, the solution import will fail.
@@ -139,7 +139,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
 
 ### Create rule item
     
-    You can define multiple routing rule items in a routing rule sets. A rule item consists of a condition and destination to route the entity records. Let's how to define the rule item.
+   You can define multiple routing rule items in a routing rule set. A rule item consists of a condition and destination to route the entity records. Let's see how to define the rule items. To create a new rule item, follow steps 8-13.
 
 8. Select **+ New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
 
@@ -151,7 +151,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
     | Tab | Field | Value | Description |
     |------------------|----------------------------|----------------------------------|--------------------------------------------|
     | General | Name | Product - Credit card | Specify a name to the rule item. |
-    | General | Description | This rule item is used to for pushing high priority cases to the agents. | Specify a description for you to identify the purpose of the rule item. |
+    | General | Description | This rule item is used for routing credit card cases. | Specify a description for you to identify the purpose of the rule item. |
 
 10. Select **+ Add** in the **Rule Criteria** section, and then select **+ Add row**.
 
@@ -160,6 +160,9 @@ Let's see how to create routing rule set and rule items for entity records. In t
     b. Select a condition from the list. For example, **Contains**.
 
     c. Select a value for the rule from the list. For example, **Credit card**.
+
+    > [!Note]
+    > You can define conditions for both primary entity attributes and related entity attributes.
 
 11. Select **Queue** for the **Route to** field. 
 
@@ -179,29 +182,13 @@ You've successfully created queues, enabled entity for routing, and created rout
 
 ## Upgrade path for preview users
 
-If you are upgrading from preview release to the latest version, then in the Work Stream, the Entity field won't be populated with a entity. 
+If you are upgrading from preview release to the latest version, then earlier configured workstreams will be obsolete. You need to create a new entity records channel and then redefine the workstreams. To learn more, see [Create workstream for entity record routing](set-up-entity-workstream.md).
 
-To update the Entity field, follow these steps:
 
-1. Create an entity records channel for the entity you want to route and distribute.
-
-2. Remove the default workstream in Entity Record that you created.
-
-3. Go to already existing workstream where you want to update the field.
-
-4. Update the workstream with the created entity record channel configuration, then and select **Save**.
-
-> [!Note]
-> After you update the workstream, you don't need to update the Flow as the Flow is automatically updated as you save the workstream.
-
-### See also
+## See also
 
 [Route trigger for entity records](routing-trigger.md)
 
-[Understand and create workstreams](work-streams-introduction.md)
-
 [Create workstream for entity record routing](set-up-entity-workstream.md)
-
-[Work with queues](queues-omnichannel.md)
 
 [Create multiple workstreams for entity records routing](multiple-ws-entity-record-routing.md)

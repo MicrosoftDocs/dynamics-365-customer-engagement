@@ -18,7 +18,7 @@ ms.custom:
 
 ## Overview
 
-You can setup multiple workstreams for same entity records if you want to distribute the entity records to different workstreams based on certain conditions. 
+You can setup multiple workstreams for same entity records if you want to distribute the entity records using different workstreams based on certain conditions. 
 
 For example, you want high priority cases to be pushed to agents and demand more capacity than low priority cases, which can be picked by agents. You can achieve it by configuring multiple workstreams.
 
@@ -35,9 +35,9 @@ This walkthrough demonstrates how to set up two workstreams, one each for high p
 
 Create entity records workstream to define how the records will be distributed. In this walkthrough, let us create two workstreams - **High Priority Cases** and **Low Priority Cases**.
 
-High priority cases workstream is used to distribute the cases for automatic push, and the capacity required in 60 units.
+High priority cases workstream is set up to distribute the cases using automatic push, and the capacity required in 60 units.
 
-Low priority cases workstream is used to distribute the cases for manual pick up, and capacity required is 30 units.
+Low priority cases workstream is set up to distribute the cases for manual pick up, and capacity required is 30 units.
 
 To learn more, see [Create workstream for entity record routing](set-up-entity-workstream.md).
 
@@ -166,7 +166,7 @@ If you are creating or editing an entity record workstream, you must update **E
 Now, you've defined **Entity Record Distribution Flow** such that any case whose priority is 1 (high) is distributed using high priority workstream, and other cases will be distributed using low priority workstream. Similarly, you can extend the conditions such that the Flow supports your business scenario requirements.
 
 > [!Important]
-> Whenever you want to update the workstream ensure that **Entity Records Distribution Flow** is closed. 
+> Whenever you want to update the entity record workstream ensure that **Entity Records Distribution Flow** is closed. 
 > Assume, you've made certain updates to the Flow. Now, while the Flow is still in the open in the browser, you go to Omnichannel Administration app and update the workstream. In this case, after you save the workstream, the Flow will be reset to its earlier state and you will loose the changes you did to the Flow.
 
 ## Troubleshoot
@@ -177,12 +177,8 @@ Now, you've defined **Entity Record Distribution Flow** such that any case whose
 
 ## See also
 
-[Route trigger for entity records](routing-trigger.md)
-
 [Entity records routing](entity-channel.md)
 
 [Understand and create workstreams](work-streams-introduction.md)
 
 [Create workstreams for entity record routing](set-up-entity-workstream.md)
-
-[Work with queues](queues-omnichannel.md)

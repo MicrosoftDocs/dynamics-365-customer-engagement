@@ -43,19 +43,9 @@ After you enable an entity for routing, you see the **Save & Route** in the enti
 
 The entity record will be routed based on the active routing rule set.
 
-If you don't have permissions to save  and route, then contact your administrator. To learn more, see [Required Privileges](../../customer-service/create-rules-automatically-route-cases#create-a-routing-rule-set-customer-service-app).
+### Verify your permissions  
 
-### Verify your permissions
-
-1. Verify that you have the Customer Service Manager, System Administrator, System Customizer security role, or equivalent permissions.
-
-   **Check your security role**  
-
-    - Follow the steps in [View your user profile](https://docs.microsoft.com/powerapps/user/view-your-user-profile).  
-
-    - Don’t have the correct permissions? Contact your system administrator.  
-
-2. In addition to the specified security role for creating a routing rule set, verify that you have below permissions for Routing Rule Instance entity before applying routing rules:
+Ensure that your users have the below-mentioned permissions for Routing Rule Instance entity, to trigger routing of entity records using the **Save & Route** or **Apply Routing Rules** buttons.
 
     > [!div class="mx-imgBorder"]
     > ![Provide privileges](../media/rr-privileges-csrm.png "Provide privileges")
@@ -126,9 +116,8 @@ Now, based the Flow that is defined, whenever an entity record, say lead, is cre
 > - If **Route Case** is set to **Yes**, the record will be routed upon creation. 
 > - If **Route Case** is set to No, the record will not be routed upon creation. 
 > - By default, for all the cases created from user interface, the **Route Case** field is set to **No**. Hence, the routing for these is not triggered.
+> - You can also build a custom flow to automatically trigger routing for cases using any other field per your business scenario, as explained in the above-mentioned section.
 
 ## See also
 
 [Entity records routing](entity-channel.md)
-
-[Create multiple workstreams for entity records routing](multiple-ws-entity-record-routing.md)
