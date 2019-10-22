@@ -21,9 +21,9 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Enhanced Collaboration Experience with Team
+# Enhanced Collaboration Experience with Microsoft Teams
 
-Easily connect a model-driven app record or view to a Teams channel using the **Collaborate** button on the record or view page. The step-by-step process will help you connect the selected record or view to a Microsoft Teams channel.
+Easily connect a model-driven app record or view to a Microsoft Teams channel using the **Collaborate** button on the record or view page. The step-by-step process will help you connect the selected record or view to a Microsoft Teams channel.
 
 The [basic collaboration experience](teams-collaboration.md) only lets you pin a record or a view to a team channel from within Microsoft Teams. The enhanced collaboration experience includes everything in the [basic collaboration experience](teams-collaboration.md) and also lets you pin connect a record or a view to a team channel while you are working in model-driven apps in Dynamics 365. 
 
