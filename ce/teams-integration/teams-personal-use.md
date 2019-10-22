@@ -24,19 +24,19 @@ search.app:
 # Use the personal dashboard 
 
 
-You can use the Dynamics 365 app for Teams for your own use. If you want to work with other team members, consider the [team app](teams-collaboration.md).
+You can use the Dynamics 365 app for Microsoft Teams for your own use. If you want to work with other team members, consider the [team app](teams-collaboration.md).
 
 ## Navigate to your personal dashboard
 
 1. From the Teams app > **More added apps** > **Dynamics 365** app.
 
    > [!div class="mx-imgBorder"] 
-   > ![Open the Dynamics 365 app](media/teams-pick-app.png "Open the Dynamics 365 appsapp")
+   > ![Open the Dynamics 365 app](media/teams-pick-app.png "Open the Dynamics 365 app")
 
 2. Select the **My Dashboard** tab.
 
  > [!div class="mx-imgBorder"] 
- > ![Open the Dynamics 365 app Dashboard](media/teams-mydashboard.png "Open the Dynamics 365 apps dashboard")
+ > ![Open the Dynamics 365 app Dashboard](media/teams-mydashboard.png "Open the Dynamics 365 app dashboard")
 
 
 ## My Dashboard tab
