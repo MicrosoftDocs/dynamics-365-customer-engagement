@@ -19,7 +19,7 @@ manager: shujoshi
 
 # Sample softphone integration using Channel Integration Framework
 
-[Download](https://go.microsoft.com/fwlink/p/?linkid=2025867) the softphone integration sample for Channel Integration Framework version 1.0.
+[Download](https://go.microsoft.com/fwlink/p/?linkid=2025867) the softphone integration sample for Microsoft Dynamics 365 Channel Integration Framework version 1.0.
 
 > [!NOTE]
 > The sample code is not supported on Internet Explorer and on browsers that do not have webRTC support. More information [WebRTC](https://webrtc.org/).
