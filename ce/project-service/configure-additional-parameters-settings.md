@@ -55,6 +55,8 @@ To set project parameters:
 4. In the **Price List** area, click **+** to add a price list, select a price list in the **Project Parameter Price List** drop-down list, and then click **Save**.  
   
 5. Click the **Save** button in the bottom right corner of the screen.  
-  
+
+Note: The project parameter record must be maintained for Project Service to function correctly, this record should not be deleted.
+
 ### See Also  
  [Set up resources](../project-service/set-up-resources.md)
