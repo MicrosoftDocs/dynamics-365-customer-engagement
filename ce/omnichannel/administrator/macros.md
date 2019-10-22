@@ -26,7 +26,7 @@ ms.custom:
 
 ## Overview of macros
 
-In the customer service industry, agents do too many clicks to perform actions (Open a form, fill the form, save the form, and so on), lot of repetitive and monotonous actions (Greet a customer, Verify a customer, Send acknowledgment mail, Take notes, and so on). These clicks and repetitive tasks could lead to human errors while agents copy and paste the data across different operations.
+In the customer service industry, agents do too many clicks to perform actions (open a form, fill the form, save the form, and so on), lot of repetitive and monotonous actions (Greet a customer, Verify a customer, Send acknowledgment mail, Take notes, and so on). These clicks and repetitive tasks could lead to human errors while agents copy and paste the data across different operations.
 
 Macros helps address these challenges aiding users to perform day-to-day operations in a faster, efficient, and process compliant manner.
 
@@ -159,9 +159,12 @@ To learn more, see [Pass data parameters in macros](automation-dictionary-keys.m
     | Field | Description | Example value |
     |-------------|-----------------------------------|------------------------------------|
     | Name | Provide a name to the macro. The name is displayed to the agent at the run time. | Create case |
-    | Description | Describe the purpose of the macro. The description is displayed to the agent at the run time. | This macro is used to create a case. |
+    | Description | Describe the purpose of the macro. The description is displayed to the agent at the run time. | This macro action is used to create a case. |
 
 5. Select **Start macro execution**, and then select **+ New step**.
+
+   > [!div class=mx-imgBorder] 
+   > ![Create macro](../media/create-macro1.png "Create macro")
 
 6. Select an action from a list of built in actions. You can add as many as actions as per your business requirements.
 
@@ -178,11 +181,19 @@ To learn more, see [Pass data parameters in macros](automation-dictionary-keys.m
 
     For example, select **Open a new form to create a record**, and the step appears.
 
+   > [!div class=mx-imgBorder] 
+   > ![Macro actions](../media/macro-actions.png "Macro actions")    
+
 7. Specify the values in the fields.
 
 8. Select **Show advanced options** to add required attributes and values. If required, you can select **+ Add new item** to add more attributes.
 
+   > [!div class=mx-imgBorder] 
+   > ![Macro actions](../media/macro-fields.png "Macro actions") 
+
 9. Select **Save and close** to save and close the macro changes.
+
+Now, when the agent executes the macro, the actions will be executed by fetching the data parameter keys according the context available from the sources.
 
 ## See also
 
