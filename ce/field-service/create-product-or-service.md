@@ -23,15 +23,17 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Create a product or service (Field Service)
+# Create products or services for Work Orders
 
 Field Service utilizes the Dynamics 365 product catalog for on site service. This means the same list of products sales persons use for Opportunities, Quotes, and Orders; field technicians can use on work orders.
 
 By using the Product entity you can create products and services to add to work orders.
 
-Products represent physical items a field technician may use while completing a work order and may bill the client for.
+- **Products** represent physical items a field technician may use while completing a work order and may bill the client for, measured in quantity of units.
+- **Services** represent labor a field technician may perform and may bill the client for, measured in time duration. 
 
-Services represent labor a field technician may perform and may bill the client for.
+When a product or service is added to a work order, a new Work Order Product or Work Order Service is created.
+
 
 The Product entity in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] contains information about products that may be sold to customers. Typical information stored in this entity are model number, manufacturer, warranty information, price, cost, etc. Products are usually added to work orders when an incident is added. Products added to a work order initially have a status of "estimated" and can be marked as "used," indicating that they were sold and billed to a client.  
 
