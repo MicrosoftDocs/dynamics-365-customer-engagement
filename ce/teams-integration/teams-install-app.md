@@ -134,7 +134,7 @@ See [Collaborate with Microsoft Teams](teams-collaboration.md#have-a-conversatio
 
 Set up the bot feature to interact with Dynamics 365 apps.
 
-1. Find and open the Dynamics 365 bot. Open **Chat** on the left side of the Teams app, and then select **Dynamics 365 apps**.
+1. Find and open the Dynamics 365 bot. Open **Chat** on the left side of the Microsoft Teams app, and then select **Dynamics 365 apps**.
 
 2. The **Conversation** tab opens with the welcome message sent by the bot that provides an overview of the bot’s abilities. Select **Sign in**.
 
