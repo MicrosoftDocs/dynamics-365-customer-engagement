@@ -69,10 +69,10 @@ To sign up for TeleSign:
 3.	Select **New** to create a work stream.
 
 4.	On the **Work Distribution** tab, enter the following information:
-  - **Name**: Name of the work stream.
-  - **Channel**: Select **SMS**.
-  - **Auto-close after inactivity**: Select a duration of at least 8 hours
-  - **Allow automated messages**: This field is for future use. It is recommended to keep its value to **No**.
+    - **Name**: Name of the work stream.
+    - **Channel**: Select **SMS**.
+    - **Auto-close after inactivity**: Select a duration of at least 8 hours
+    - **Allow automated messages**: This field is for future use. It is recommended to keep its value to **No**.
 
     > [!div class=mx-imgBorder]
     > ![SMS work stream](../media/sms-workstream.png "SMS work stream")
