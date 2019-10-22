@@ -2,13 +2,13 @@
 title: "Integrate sample softphone with Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the sample to learn how to integrate a softphone dialer in Dynamics 365 Sales."
 keywords: "Opportunity, Close, Closing, Customization, dialog box, quick create, custom fields,"
-ms.date: 10/01/2019
+ms.date: 10/23/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 
+ms.assetid: c5738e1f-7c23-458a-a95c-b9c34fef56ed
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -33,7 +33,7 @@ To configure the sample:
 
 1. Get Dynamics 365 Channel Integration Framework from Microsoft AppSource. For information on prerequisites and how to get Dynamics 365 Channel Integration Framework, see [Get Dynamics 365 Channel Integration Framework](../customer-service/channel-integration-framework/get-channel-integration-framework.md).
 
-2. Import the **msdyn_CIFramework_managed.zip** managed solution from the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104591). To learn more about importing a solution, see [Import, update, and upgrade a solution](../customize/import-update-upgrade-solution.md)
+2. Import the **msdyn_CIFramework_managed.zip** managed solution from the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590). To learn more about importing a solution, see [Import, update, and upgrade a solution](../customize/import-update-upgrade-solution.md)
 
 3. Integrate the sample app available on the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590) using Dynamics 365 Channel Integration Framework. To learn more about integrating a sample app, see [Sample softphone integration using Channel Integration Framework](../customer-service/channel-integration-framework/sample-softphone-integration.md).
 
