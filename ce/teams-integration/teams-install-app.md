@@ -121,7 +121,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Co
    > ![Select a view](media/teams-select-view.png "Select an view")
    
       > [!NOTE]
-   > If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Common Data Service before you add the view to the Teams channel. Otherwise, other team members will not have access to the view tab content.
+   > If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Common Data Service before you add the view to the Microsoft Teams channel. Otherwise, other team members will not have access to the view tab content.
 
 
 8. After completing the above steps, you will see a new Dynamics 365 tab in the selected team channel. 
