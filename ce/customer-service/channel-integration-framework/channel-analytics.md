@@ -100,7 +100,7 @@ For every incident conversation, the provider will call the [initLogAnalytics AP
 
 For that session, all first party instrumentation events like notification displayed, notification response, session started and session switched will be fired with the correlation Id.
 
-If tha partner wants to fire some custom event for their KPIs they can do it with the same correlation Id as well using the [logAnalytics API](reference/microsoft-ciframework/logAnalytics.md).
+If tha partner wants to fire some custom event for their KPIs they can do it with the same correlation Id as well using the [logAnalyticsEvent API](reference/microsoft-ciframework/logAnalyticsEvent.md).
 
 ## Calculating KPIs using Channel Analytics
 
