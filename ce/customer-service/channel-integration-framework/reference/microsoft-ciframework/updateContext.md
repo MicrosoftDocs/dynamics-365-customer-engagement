@@ -1,5 +1,5 @@
 ---
-title: "updateContext (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
+title: "updateContext (JavaScript API Reference) for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 10/16/2019
