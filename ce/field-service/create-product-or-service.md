@@ -32,12 +32,8 @@ By using the Product entity you can create products and services to add to work 
 - **Products** represent physical items a field technician may use while completing a work order and may bill the client for, measured in quantity of units.
 - **Services** represent labor a field technician may perform and may bill the client for, measured in time duration. 
 
-When a product or service is added to a work order, a new Work Order Product or Work Order Service is created.
+After products and services are added to work orders, field technicians may use the product or perform the services during the on site service and will mark so in the Field Service Mobile app. Used products and services can be invoiced to customers based on the applicable price list or entitlement. In the case of physical products, used products can be deducted from inventory levels either in the Field Service inventory module, Dynamics 365 Finance & Operations, or an external ERP system.
 
-
-The Product entity in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] contains information about products that may be sold to customers. Typical information stored in this entity are model number, manufacturer, warranty information, price, cost, etc. Products are usually added to work orders when an incident is added. Products added to a work order initially have a status of "estimated" and can be marked as "used," indicating that they were sold and billed to a client.  
-
-F&O
 
 ## Prerequisites
 
@@ -130,6 +126,8 @@ After you're done verifying everything, click **Done**.
 
 ## Add a product or service to a work order
 
+When a product or service is added to a work order, a new Work Order Product or Work Order Service record is created. It is given a status of **Estimated** by default, which means it has not been utilized yet. When a field technician actually uses the product or performs the service, he or she will change the work order product or service status to **Used** from the mobile device. Even after the product or service is used, field technicians and back office workers still have the option to bill the client or not.
+
 - manual
   - inventory
   - non inventory
@@ -188,7 +186,7 @@ After you're done verifying everything, click **Done**.
 > ![Screenshot of ](./media/work-order-product-add-mobile-non-inventory.png)
 
 - invoice  
-
+Used products and services will appear on the invoice generated from the closed-posted work order and the price of each
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-invoice.png)
