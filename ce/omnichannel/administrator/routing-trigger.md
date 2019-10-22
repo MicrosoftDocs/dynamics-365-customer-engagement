@@ -47,8 +47,8 @@ The entity record will be routed based on the active routing rule set.
 
 Ensure that your users have the below-mentioned permissions for Routing Rule Instance entity, to trigger routing of entity records using the **Save & Route** or **Apply Routing Rules** buttons.
 
-    > [!div class="mx-imgBorder"]
-    > ![Provide privileges](../media/rr-privileges-csrm.png "Provide privileges")
+   > [!div class="mx-imgBorder"]
+   > ![Provide privileges](../media/rr-privileges-csrm.png "Provide privileges")
 
 ## Automatic trigger
 
