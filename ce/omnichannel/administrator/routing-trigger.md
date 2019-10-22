@@ -52,7 +52,7 @@ Ensure that your users have the below-mentioned permissions for Routing Rule Ins
 
 ## Automatic trigger
 
-You can setup a custom flow, to trigger routing for records based on conditions such as when a record is created, updated, and so on. Let's see how to setup a custom flow for create condition. 
+You can setup a custom flow, to trigger routing for records based on conditions such as when a record is created, updated, and so on. Let's see how to setup a custom flow for create condition.
 
 To enable automatic trigger to route the entity records, create a custom Flow.
 
