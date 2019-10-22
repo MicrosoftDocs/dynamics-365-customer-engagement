@@ -88,24 +88,12 @@ Slug is a replacement parameter that Channel Integration Framework populates at 
 | `{customerName}` | Name of the customer who initiated the conversation. |
 | `{caseId}` | Unique Id of a case. The system displays the case Id only if a cased linked to the conversation. |
 | `{caseTitle}` | Title of the case. The system displays the title of the case only if a cased linked to the conversation. |
-| `{queueId}` | Unique Id of a queue. |
-| `{visitorLanguage}` | The language of the customer who initiated the conversation. |
-| `{visitorDevice}` | The device of the customer who initiated the conversation. |
-| `{entityRoutingLogicalName}` | Name of the entity if the notification is for a entity records. |
-| `{entityRoutingRecordId}` | Unique Id of the entity record if the notification is for a entity records. |
-| `{customerEntityName}` | Name of the entity (contact or account entity) if the customer is authenticated. |
-| `{customerRecordId}` | Unique Id of t.he entity (contact or account entity) if the customer is authenticated. |
-| `{<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
 
 #### Format
 
-The `{ChannelProvider.<Slug>}` or `{Slug}` parameter format is used to retrieve the context from the channel provider, where `ChannelProvider` is a standard construct to get the value from the provider context of the current session. 
+The `{Slug}` parameter format that retrieves the context from the channel provider, current user session, and/or the Common Data Service platform. 
 
-   For example: 
-
-   `{ChannelProvider.caseId}`
-
-   or
+   For example:
 
    `{caseId}`
 
