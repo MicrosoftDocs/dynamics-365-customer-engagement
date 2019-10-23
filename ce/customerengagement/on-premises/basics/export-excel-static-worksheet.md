@@ -30,7 +30,7 @@ When you want to present Customer Engagement (on-premises) information to an ind
   
 1. Open a list of records.
 
-2. On the commmand bar select, **Export to Excel** > **Static worksheet (Page only)**.  
+2. On the command bar select, **Export to Excel** > **Static worksheet (Page only)**.  
 
   By default, an exported worksheet includes the fields that are displayed in the list, using the same field order, sorting, and field widths. To make changes to the columns in an Advanced Find View, select **Edit Columns**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md)  
   
