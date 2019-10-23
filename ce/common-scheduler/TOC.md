@@ -4,6 +4,7 @@
 ## [Quick scheduling](quick-scheduling.md)
 ## [Travel time and distance](schedule-travel-time.md)
 ## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
+## [Multi-day scheduling](schedule-multi-day-work.md)
 ## [Fulfillment preferences](fulfillment-preferences.md)
 ## [Resource crew scheduling](resource-crews.md)
 ## [Facility scheduling](facility-scheduling.md)

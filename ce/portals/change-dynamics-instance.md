@@ -19,7 +19,7 @@ search.app:
   - D365Portals
 ---
 
-## Change the Dynamics 365 instance, audience, or type of portal
+# Change the Dynamics 365 instance, audience, or type of portal
 
 After your portal is created and provisioned, you can change the details of your Dynamics 365 instance and portal.
 

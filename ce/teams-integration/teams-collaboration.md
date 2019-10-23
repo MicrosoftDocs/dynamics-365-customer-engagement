@@ -95,9 +95,9 @@ A failed connection state indicates that the connection was not successfully sen
    > [!div class="mx-imgBorder"] 
    > ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
 
-   You can enable **Remember this preference** to set the environment and app selections to be the default personal dashboard that appears when you select **My Dashboard**.
+You can enable **Remember this preference** to set the environment and app selections to be the default personal dashboard that appears when you select **My Dashboard**.
 
-   You can return to these settings any time by selecting the **Settings** tab.
+You can return to these settings any time by selecting the **Settings** tab.
 
 Once the model-driven app tab is set up in Microsoft Teams collaboration channel, you can start working with your team members on the pinned app customer information and share files directly from Microsoft Teams.
 
