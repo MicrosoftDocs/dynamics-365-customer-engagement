@@ -73,25 +73,27 @@ A valid Azure subscription is required to publish the sample app to Azure.
 
 2. Configure the channel provider by providing the details as shown in the matrix. For more information, see [Configure the channel provider](configure-channel-provider-channel-integration-framework.md).
 
-  | Field | Description |
-  |-------|-------|
-  |Name|Name of the channel provider.<br><br> Example: Contoso|
-  |Label|The label is displayed as the title on the widget.<br><br> Example: Contoso|
-  |Channel URL| The channel URL is in the format: `<azure_app_service_url>?base=<crm_base_url>`<br /><br />**Note:** For this sample, the URL is `https://sampleinteg.azurewebsites.net?base=https://sampleorg.crm10.dynamics.com`. |
-  |Enable Outbound Communication| Yes |
-  |Channel Order| 0 |
-  |API Version| 1.0 |
-  |Trusted Domains|The domain (URL) that can access the Channel Integration Framework APIs.|
-  |Select the Unified Interface Apps for the Channel| The list of Unified Interface apps where the channel is displayed for the agents. |
-  |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface app.|
+   | Field | Description |
+   |-------|-------|
+   |Name|Name of the channel provider.<br><br> Example: Contoso|
+   |Label|The label is displayed as the title on the widget.<br><br> Example: Contoso|
+   |Channel URL| The channel URL is in the format: `<azure_app_service_url>?base=<crm_base_url>`<br /><br />**Note:** For this sample, the URL is `https://sampleinteg.azurewebsites.net?base=https://sampleorg.crm10.dynamics.com`. |
+   |Enable Outbound Communication| Yes |
+   |Channel Order| 0 |
+   |API Version| 1.0 |
+   |Trusted Domains|The domain (URL) that can access the Channel Integration Framework APIs.|
+   |Select the Unified Interface Apps for the Channel| The list of Unified Interface apps where the channel is displayed for the agents. |
+   |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface app.|
 
-3. Launch the Unified Interface app to see the communication widget on the right side.<br><br>
-**The communication widget in the minimized mode**<br><br>
+3. Launch the Unified Interface app to see the communication widget on the right side.
 
-![Communication widget in the minimized mode](media/widget-minimized-mode.PNG "Communication widget in the minimized mode")
-<br><br>
-**The communication widget in the expanded mode**<br><br>
-![Communication widget in the expanded mode](media/widget-expanded-mode.PNG "Communication widget in the expanded mode")
+   **The communication widget in the minimized mode**
+
+   ![Communication widget in the minimized mode](media/widget-minimized-mode.png "Communication widget in the minimized mode")
+   
+   **The communication widget in the expanded mode**
+   
+   ![Communication widget in the expanded mode](media/widget-expanded-mode.png "Communication widget in the expanded mode")
 
 > [!Important]
 > - All URLs must be HTTPS.
