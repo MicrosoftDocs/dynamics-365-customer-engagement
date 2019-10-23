@@ -22,17 +22,27 @@ ms.custom:
 > - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../../../legal/dynamics-insider-agreement.md).
 
-Build a custom bot to push real-time recommendations to agents for actions displayed within the smart assist control on the agent UI. The smart assist control uses Adaptive cards to push and display recommendations in UI. [Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI. The smart assist bot interprets the conversation context in real-time and provides recommendations to the agents.
+Build a custom bot to push real-time recommendations to agents for actions displayed within the smart assist control on the agent UI.
 
-You can use the [Adaptive Cards Designer](https://adaptivecards.io/designer/) to create your own adaptive card template. Also, you can embed macros and custom actions within a suggestion using web resources.
+See this topic on how to enable smart assist: [Smart assist for agents](../../administrator/smart-assist.md).
 
-More information: [Automate tasks with macros](../../administrator/macros.md).
+## Interpret the conversation
 
-Also, see the Administrator topic on how to enable smart assist: [Smart assist for agents](../../administrator/smart-assist.md).
+The [sample code]() implements two functionalities, one that is Common Data Service specific and other is generic functionality.
+
+In the Common Data Service functionality, the bot finds the intent in the conversation and tries to query Common Data Service for a relevant Knowledge Base article. The connection to Dynamics 365 has to be specified in the `appsettings.json` file in the sample. The `DynamicsDataAccessLayer.cs` class in the sample uses the connection strings mentioned in the app settings file to query the knowledge base articles in your Dynamics 365 instance.
+
+In the generic functionality, if the bot encounters an intent for appointment, it suggests the appointment activity in the adaptive cards. You can use [Language Understanding (LUIS)](https://luis.ai) service to extract intent from an ongoing conversation. The conversation intent can be used along with the initial conversation context to display recommendations for the agent. 
+
+Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
+
+## Send adaptive card suggestions
+
+The smart assist control uses Adaptive cards to push and display recommendations in UI. [Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI. The smart assist bot interprets the conversation context in real-time and provides recommendations to the agents.
 
 ## Samples for adaptive cards
 
-Based on the intent extracted from an ongoing conversation, you can provide appropriate recommendations to the agent. This section covers some examples for adaptive cards that can be used for various scenarios.
+Based on the intent extracted from an ongoing conversation, you can provide appropriate recommendations to the agent. This section covers some examples for adaptive cards that can be used for various scenarios. You can use the [Adaptive Cards Designer](https://adaptivecards.io/designer/) to create your own adaptive card template.
 
 ### Smart assist using knowledge articles
 
@@ -369,15 +379,11 @@ The type is always `Action.Submit` and title can be anything the user wants to n
 
 If you want to use a custom action, create a web resource using the custom action and then replace `MacroName` and `MacroParameters` with `CustomAction` and `CustomParameters` respectively. The value provided for `CustomAction` key should be the same as the name of the method that is to be called.
 
+See also: [Automate tasks with macros](../../administrator/macros.md).
+
 ## Sample code
 
 You can find the entire code sample here: [Smart Assist for Bots]().
-
-The sample code implements two functionalities, one that is Common Data Service specific and other is generic functionality.
-
-In the Common Data Service functionality, the bot finds the intent in the conversation and tries to query Common Data Service for a relevant Knowledge Base article. The connection to Dynamics 365 has to be specified in the `appsettings.json` file in the sample. The `DynamicsDataAccessLayer.cs` class in the sample uses the connection strings mentioned in the app settings file to query the knowledge base articles in your Dynamics 365 instance.
-
-In the generic functionality, if the bot encounters an intent for appointment, it suggests the appointment activity in the adaptive cards. You can use [Language Understanding (LUIS)](https://luis.ai) service to extract intent from an ongoing conversation. The conversation intent can be used along with the initial conversation context to display recommendations for the agent. Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
 
 ## See also
 
