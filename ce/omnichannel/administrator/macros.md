@@ -1,6 +1,6 @@
 ---
-title: "Agent scripts in the Omnichannel Administrator app | MicrosoftDocs"
-description: "Learn about what is agent scripts and how to configure in the Omnichannel Administrator app." 
+title: "Agent scripts in the Omnichannel Administration app | MicrosoftDocs"
+description: "Learn about what is agent scripts and how to configure in the Omnichannel Administration app." 
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -26,7 +26,7 @@ ms.custom:
 
 ## Overview of macros
 
-In the customer service industry, agents do too many clicks to perform actions (Open a form, fill the form, save the form, and so on), lot of repetitive and monotonous actions (Greet a customer, Verify a customer, Send acknowledgment mail, Take notes, and so on). These clicks and repetitive tasks could lead to human errors while agents copy and paste the data across different operations.
+In the customer service industry, agents do too many clicks to perform actions (open a form, fill the form, save the form, and so on), lot of repetitive and monotonous actions (Greet a customer, Verify a customer, Send acknowledgment mail, Take notes, and so on). These clicks and repetitive tasks could lead to human errors while agents copy and paste the data across different operations.
 
 Macros helps address these challenges aiding users to perform day-to-day operations in a faster, efficient, and process compliant manner.
 
@@ -59,6 +59,9 @@ The macros are like reusable component where you can use the same macro with dif
 As an administrator, you can use the built-in actions any number of times across differnt macros to automate and perform operations.
 
 The following are the built-in actions.
+
+   > [!div class=mx-imgBorder] 
+   > ![Macro actions](../media/macro-actions.png "Macro actions")    
 
 ### Open a new form to create a record
 
@@ -148,7 +151,7 @@ To learn more, see [Pass data parameters in macros](automation-dictionary-keys.m
 
 ## Create macro
 
-1. Sign in to the Omnichannel Administrator app.
+1. Sign in to the Omnichannel Administration app.
 
 2. Select **Macros** under **Agent Experience**.
 
@@ -159,9 +162,12 @@ To learn more, see [Pass data parameters in macros](automation-dictionary-keys.m
     | Field | Description | Example value |
     |-------------|-----------------------------------|------------------------------------|
     | Name | Provide a name to the macro. The name is displayed to the agent at the run time. | Create case |
-    | Description | Describe the purpose of the macro. The description is displayed to the agent at the run time. | This macro is used to create a case. |
+    | Description | Describe the purpose of the macro. The description is displayed to the agent at the run time. | This macro action is used to create a case. |
 
 5. Select **Start macro execution**, and then select **+ New step**.
+
+   > [!div class=mx-imgBorder] 
+   > ![Create macro](../media/create-macro1.png "Create macro")
 
 6. Select an action from a list of built in actions. You can add as many as actions as per your business requirements.
 
@@ -182,7 +188,12 @@ To learn more, see [Pass data parameters in macros](automation-dictionary-keys.m
 
 8. Select **Show advanced options** to add required attributes and values. If required, you can select **+ Add new item** to add more attributes.
 
+   > [!div class=mx-imgBorder] 
+   > ![Macro actions](../media/macro-fields.png "Macro actions") 
+
 9. Select **Save and close** to save and close the macro changes.
+
+Now, when the agent executes the macro, the actions will be executed by fetching the data parameter keys according the context available from the sources.
 
 ## See also
 

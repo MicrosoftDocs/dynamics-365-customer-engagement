@@ -36,7 +36,7 @@ The data that you track as recent actions is stored in an entity where it is pas
 
 ## Enable portal navigation
 
-1. Sign in to the Omnichannel Administrator app.
+1. Sign in to the Omnichannel Administration app.
 
 2. Select **Portal Navigation** under **Settings**.
 

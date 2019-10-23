@@ -43,7 +43,7 @@ To learn more, see [Create workstream for entity record routing](set-up-entity-w
 
 ## Step 2: Update entity records distribution flow
 
-If you are creating or editing an entity record workstream, you must update **Entity records Distribution Flow**. The Omnichannel Administrator app automatically creates this flow out-of-the-box for distributing entity records.
+If you are creating or editing an entity record workstream, you must update **Entity records Distribution Flow**. The Omnichannel Administration app automatically creates this flow out-of-the-box for distributing entity records.
 
 **Entity records Distribution Flow** contains the following components.
 
@@ -51,7 +51,7 @@ If you are creating or editing an entity record workstream, you must update **E
 |-----------------------------------|-----------------------------------|
 | When the record is created | Do not modify. |
 | Initialization | Do not modify. |
-| Omnichannel Work Distribution | You can see the list of entity records for which work streams were created in the Omnichannel Administrator app. |
+| Omnichannel Work Distribution | You can see the list of entity records for which work streams were created in the Omnichannel Administration app. |
 | \<Entity Record\> | Select to view the components under the Entity record. |
 | Work Stream Initialization - \<Entity Record\> | Do not modify. |
 | Entity record - \<Entity Record\> | Do not modify. |
@@ -65,7 +65,7 @@ If you are creating or editing an entity record workstream, you must update **E
 
 #### Navigate to the flow
 
-1. Sign in to the Omnichannel Administrator app.
+1. Sign in to the Omnichannel Administration app.
 
 2. Select **Work Streams** under **Work Distribution Management**.
 

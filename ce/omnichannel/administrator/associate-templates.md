@@ -1,6 +1,6 @@
 ---
-title: "Associate templates with workstreams in the Omnichannel Administrator app | MicrosoftDocs"
-description: "Learn how to associate templates with workstreams in the Omnichannel Administrator app"
+title: "Associate templates with workstreams in the Omnichannel Administration app | MicrosoftDocs"
+description: "Learn how to associate templates with workstreams in the Omnichannel Administration app"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -30,7 +30,7 @@ After an agent accepts the conversation request, a session starts for which the 
 
 ## Attach templates in workstreams
 
-1. Sign in to the Omnichannel Administrator app.
+1. Sign in to the Omnichannel Administration app.
 
 2. Select **Work Streams** under **Work Distribution Management**.
 

@@ -1,6 +1,6 @@
 ---
-title: "Manage notification templates in Omnichannel Administrator app | MicrosoftDocs"
-description: "Learn about managing notification templates in Omnichannel Administrator app"
+title: "Manage notification templates in Omnichannel Administration app | MicrosoftDocs"
+description: "Learn about managing notification templates in Omnichannel Administration app"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -28,7 +28,7 @@ ms.custom:
 
 When an agent gets a notification, it displays certain information such as which customer the conversation request is coming from, the timeout period after which the notification will disappear, and some buttons such as accept and reject. Each organization has varied business requirements and wants the notifications to show relevant information to the agents in the notification.
 
-The notification templates are introduced to show relevant information to agents. A notification template in Omnichannel Administrator app is a combination of notification related information that is reusable. The template is used to configure what information is displayed to the agents and supervisors for an incoming conversation, escalation, transfer, consult, and so on.
+The notification templates are introduced to show relevant information to agents. A notification template in Omnichannel Administration app is a combination of notification related information that is reusable. The template is used to configure what information is displayed to the agents and supervisors for an incoming conversation, escalation, transfer, consult, and so on.
 
 As an administrator, system integrator, or partner, you can use the templates or create new ones to show information that matter most to your business.
 
@@ -64,7 +64,7 @@ Omnichannel system supports the following slugs.
 
 ## Create a notification template
 
-1.	Sign in to the Omnichannel Administrator app.
+1.	Sign in to the Omnichannel Administration app.
 
 2.	Select **Notifications** under **Templates** in the sitemap.
 
@@ -80,6 +80,9 @@ Omnichannel system supports the following slugs.
     | General | Timeout (seconds) | Provide a duration in seconds; after this duration, the notification disappears. | 120. <br><br> **Note:** This is the default value. You can change the duration as per your requirement.
     | General | Accept Button | Specify a text for the accept button. This text appears for the agents to accept a conversation request. | Accept <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
     | General | Reject Button | Set the toggle to yes if you want to show the reject button to agents. <br> After you set the toggle to Yes, the button text box appears. Specify a text for the accept button. This text appears for the agents to reject a conversation request. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
+
+     > [!div class=mx-imgBorder] 
+     > ![Create notification template](../media/notification-template1.png "Create notification template")
 
 5.	Select **Save** to save the notification template. After you save, the **Notification Fields** section appears on the page.
 
@@ -97,6 +100,9 @@ Omnichannel system supports the following slugs.
     | General | Field header | Provide a name to the field header. This appears in the notification that agents see at the runtime. | Name |
     | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Slug for notification field header](#slug-for-notification-field-header). |{customerName} |
 
+    > [!div class=mx-imgBorder]
+    > ![Create notification field](../media/notification-field.png "Create notification field")
+
 10.	Select the back arrow on the browser to go to the notification template you created. Alternatively, you can select **Notifications** in the sitemap and then select the template you created.
 
 11.	Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
@@ -111,7 +117,7 @@ Omnichannel system supports the following slugs.
 
 As an administrator, you can edit the value of a notification field header in the grid.
 
-1.	Sign in to the Omnichannel Administrator app.
+1.	Sign in to the Omnichannel Administration app.
 
 2.	Select **Notifications** under **Templates** in the sitemap.
 
@@ -123,7 +129,7 @@ As an administrator, you can edit the value of a notification field header in th
 
 ## Customize notification
 
-In the Contoso Pvt Ltd customer service center, every case notification that is shown to an agent needs to have the following:
+Let's see a scenario: In the Contoso Pvt Ltd customer service center, every case notification that is shown to an agent needs to have the following:
 
 **Title of the notification**: A new case is assigned
 

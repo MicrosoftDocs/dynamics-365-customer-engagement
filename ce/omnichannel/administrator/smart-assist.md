@@ -1,6 +1,6 @@
 ---
 title: "Smart assist for agents | MicrosoftDocs"
-description: "Learn about how to smartly assist agents with the next-best steps in the Omnichannel Administrator app." 
+description: "Learn about how to smartly assist agents with the next-best steps in the Omnichannel Administration app." 
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -88,7 +88,7 @@ After you create a bot, you must create a bot user to work as a smart assistant 
 
 After you create a bot user, you need to add the bot to the workstream so that the agents who are part of this workstream can see the suggestions.
 
-1. Sign in to Omnichannel Administrator app
+1. Sign in to Omnichannel Administration app
 
 2. Select **Work Streams** under **Work Distribution Management**.
 

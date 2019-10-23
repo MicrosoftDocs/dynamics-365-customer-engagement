@@ -1,6 +1,6 @@
 ---
-title: "Manage application tab templates in Omnichannel Administrator app | MicrosoftDocs"
-description: "Learn about managing application tab templates in Omnichannel Administrator app"
+title: "Manage application tab templates in Omnichannel Administration app | MicrosoftDocs"
+description: "Learn about managing application tab templates in Omnichannel Administration app"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -26,7 +26,7 @@ ms.custom:
 
 ## Overview
 
-Application tab template in Omnichannel Administrator app provide the type of applications you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
+Application tab template in Omnichannel Administration app provide the type of applications you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
 
 The horizontal bar below the model-driven app navigation bar is called the application tab panel. Every customer session has at least one application tab that is not closable; it is called **Anchor Tab**. That is, when a session is started, by default, the system opens an application in application tab panel. In addition, there may be few other applications that system opens by default based on the configuration. 
 
@@ -38,7 +38,7 @@ As an administrator, you can create multiple application tab templates.
 
 ## Create an application tab template
 
-1. Sign in to the Omnichannel Administrator app.
+1. Sign in to the Omnichannel Administration app.
 
 2. Select **Application Tabs** under **Templates** in the sitemap.
 
