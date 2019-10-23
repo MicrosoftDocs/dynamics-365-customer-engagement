@@ -264,7 +264,7 @@ Klarissa logs in to your website from Germany where your company is running a sp
 Klarissa is prompted to chat with the message given below.
 
 ```
-
+Hi! Just checking in to see if I can help answer any questions you may have.
 ```
 
 ### Sample code
@@ -276,7 +276,7 @@ Klarissa is prompted to chat with the message given below.
     window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 		var countryNameWhereProactiveChatInviteShouldBeOffered = 'Ruritania';//Country name where proactive chat invite should be offered, if user is visiting webpage from this country
 		
-		// get Country name using Bing Geolocation API and offer proctiveChat if visitor's country matches with given Country name
+		// Get Country name using Bing Geolocation API and offer proctiveChat if visitor's country matches with given Country name
 		function GetCountryUsingBingGeoLocationAPIAndOfferProactiveChatIfVisitorCountryMatchesWithGivenCountry( latitude, longitude, bingMapApiKey, countryToMatch) {
 			var xhttp = new XMLHttpRequest();
 			xhttp.onreadystatechange = function() {
@@ -284,7 +284,7 @@ Klarissa is prompted to chat with the message given below.
 				if(this.status == 200) {
 					console.log(this.responseText);
 					var currentCountryName = JSON.parse(this.responseText).resourceSets[0].resources[0].address.countryRegion;
-					//check if visitor's country matches with given Country name
+					//Check if visitor's country matches with given Country name
 					if( currentCountryName == countryToMatch){
 						alert(currentCountryName);
 						// setting Context variables
@@ -295,7 +295,7 @@ Klarissa is prompted to chat with the message given below.
 						        'Page URL':{'value': window.location.href,'isDisplayable':true},
 						    };
 						});
-						//show proactive chat invite
+						//Show proactive chat invite
 						Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({message: "Hi! Just checking in to see if I can help answer any questions you may have."}, false);
 					}
 				}
@@ -328,6 +328,46 @@ Klarissa is prompted to chat with the message given below.
 			navigator.geolocation.getCurrentPosition(successGetlatLong, errorGetlatLong);
 		} else {
 			console.log('It seems like Geolocation, which is required for this page, is not enabled in your browser. Please use a browser which supports it.');
+		}
+    });
+</script>
+```
+
+## Scenario 6: Proactively offer chat to customers between a certain time frame
+
+Suppose your organization is running a festive season sale between certain dates, and you wish to proactively offer chat requests to customers to see if they have any questions.
+
+### Sample code
+
+The sample code given below shows how you can proactively offer chat invite to a customer if he/she visits your website between a given time period.
+
+```javascript
+<!-- Code to show proactive chat invite if visitor visits webpage between given time period -->
+<script id="Proactivechattrigger">
+	// Wait for Chat widget to load completely
+    window.addEventListener("load", function handleLivechatReadyEvent(){//lcw:ready
+		var startTimeOfTimePeriod = new Date('01 Jan 2019 00:00:00 GMT');//start time of time period in which proactive chat will be shown to web page visitor
+		var endTimeOfTimePeriod = new Date('01 Jan 2100 00:00:00 GMT');//end time of time period in which proactive chat will be shown to web page visitor
+		var currentDateTime = new Date();//curent date and time
+		
+		//make sure that endTimeOfTimePeriod is always greater and equal to endTimeOfTimePeriod
+		if( endTimeOfTimePeriod < startTimeOfTimePeriod)
+		{
+			console.log("The time period given for proactive chat has start time: " + startTimeOfTimePeriod.toGMTString() + " more that the end time: " + endTimeOfTimePeriod.toGMTString() + " of time period. So, proactive chat will not be offered.");
+			return;
+		}
+		
+		//check if current date time is between given time period
+		if( startTimeOfTimePeriod < currentDateTime && endTimeOfTimePeriod > currentDateTime){
+			// setting Context variables
+			Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
+				return {
+					'Proactive Chat':{'value':'True','isDisplayable':true},
+					'Page URL':{'value': window.location.href,'isDisplayable':true},
+				};
+			});
+			//show proactive chat invite 
+			Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({message: "Hi! Just checking in to see if I can help answer any questions you may have."}, false);
 		}
     });
 </script>
