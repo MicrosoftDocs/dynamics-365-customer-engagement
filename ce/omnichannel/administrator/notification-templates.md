@@ -81,6 +81,9 @@ Omnichannel system supports the following slugs.
     | General | Accept Button | Specify a text for the accept button. This text appears for the agents to accept a conversation request. | Accept <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
     | General | Reject Button | Set the toggle to yes if you want to show the reject button to agents. <br> After you set the toggle to Yes, the button text box appears. Specify a text for the accept button. This text appears for the agents to reject a conversation request. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
 
+     > [!div class=mx-imgBorder] 
+     > ![Create notification template](../media/notification-template1.png "Create notification template")
+
 5.	Select **Save** to save the notification template. After you save, the **Notification Fields** section appears on the page.
 
 6.	Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
