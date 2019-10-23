@@ -264,4 +264,4 @@ To learn more, see [Client caching overview](https://docs.microsoft.com/dynamics
 
 [Introduction to Intraday insights](../supervisor/intro-intraday-insights-dashboard.md)
 
-[Add custom KPIs to Intraday insights dashboard](add-custom-kpis-intraday-insights-dashboard.md)
+[Customize KPIs for Intraday insights](customize-kpis-intraday-insights.md)
