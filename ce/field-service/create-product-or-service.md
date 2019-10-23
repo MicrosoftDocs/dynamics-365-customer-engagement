@@ -251,13 +251,15 @@ From the mobile work order product form, simply enter a warehouse after marking 
 
 All inventory transactions are recorded as Inventory Journals which can be accessed via an Advanced Find. 
 
-In the image above you'll see
+In the image above you'll see:
 
 1. The Inventory adjustment that incremented inventory levels by 100 units
 2. 1 unit allocated to a work order product before use
 3. 1 unit decrementing inventory when it was finally used during a work order
 
 ## Configuration considerations
+
+When creating products, consider the settings in **Settings > Administration > System Settings > Sales tab**.
 
 System Settings on the Sales tab related to Product setup. 
 Product in Active Status upon creation.  Best practice is to set this to Yes.
