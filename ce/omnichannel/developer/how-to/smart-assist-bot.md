@@ -5,7 +5,7 @@ keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 10/22/2019
+ms.date: 10/23/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 355B4706-49DF-4E2F-A46D-00F12E0044C6
@@ -349,8 +349,12 @@ You can find the entire code sample here: [Smart Assist for Bots]().
 > [!NOTE]
 > The sample code uses pre-defined context values for displaying suggestions. You can use [Language Understanding (LUIS)](https://luis.ai) service to extract intent from an ongoing conversation. The conversation intent can be used along with the initial conversation context to display suggestions for the agent.
 
+The sample code implements two functionalities - one that is Common Data Service specific and other is generic functionality. In the Common Data Service functionality, the bot finds the intent in the conversation and tries to query Common Data Service for a relevant Knowledge Base article. In the generic functionality, if the bot encounters an intent for appointment, it suggests the appointment activity in the adaptive cards.
+
+
 ## See also
 
 [Smart assist for agents](../../administrator/smart-assist.md)<br />
+[Create a bot with Azure bot service](/azure/bot-service/abs-quickstart)
 [Manage custom context](send-context-starting-chat.md)<br />
 [Enable a bot to escalate and end conversation](../bot-escalate-end-conversation.md)
