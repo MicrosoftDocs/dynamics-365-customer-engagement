@@ -355,6 +355,6 @@ The sample code implements two functionalities - one that is Common Data Service
 ## See also
 
 [Smart assist for agents](../../administrator/smart-assist.md)<br />
-[Create a bot with Azure bot service](/azure/bot-service/abs-quickstart)
+[Create a bot with Azure bot service](../../../../azure/bot-service/abs-quickstart)
 [Manage custom context](send-context-starting-chat.md)<br />
 [Enable a bot to escalate and end conversation](../bot-escalate-end-conversation.md)
