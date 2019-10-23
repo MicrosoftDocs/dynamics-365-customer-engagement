@@ -1,7 +1,7 @@
 ---
-title: "Difference between the Basic and Enhanced Collaboration Experience with Teams| MicrosoftDocs"
+title: "Difference between the Basic and Enhanced Collaboration Experience with Microsoft Teams| MicrosoftDocs"
 ms.custom: 
-description: "Capability of the Basic and Enhanced Collaboration Experience with Teams."
+description: "Capability of the Basic and Enhanced Collaboration Experience with Microsoft Teams."
 ms.date: 10/16/2019
 ms.reviewer: 
 ms.service: crm-online
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Difference between the Basic and Enhanced Collaboration Experience with Teams in model-driven app
+# Difference between the Basic and Enhanced Collaboration Experience with Microsoft Teams in model-driven app
 
 
 Before you can start using the collaboration experience, it needs to be turned on in Common Data Service. For more information, see [Install and setup Microsoft Teams integration](teams-install-app.md).
@@ -29,5 +29,5 @@ Before you can start using the collaboration experience, it needs to be turned o
  
  |  |  |
 |---------|---------|
-|**Basic Collaboration Experience**     |  <ul><li>You need system admin permissions to enable this feature.</li><br/>  <li>When you choose the **Collaborate** option in a model-driven app record page, the connection set-up process between a model-driven app record and Microsoft Teams collaboration channel happens in the Microsoft Teams.</li><br/> <li>You can manually pin a model-driven app record or view from the Microsoft Teams. <br/> <br/>**Note:** The option to add recommended members during the manual set-up process from the Microsoft Teams is not supported.</li></ul>       |
-|**Enhanced Collaboration Experience**    | <ul><li>You need Office 365 tenant admin permissions to enable this feature. </li><br/>  <li>When you choose the **Collaborate** option on a model-driven app record or view page, a set-up wizard in Common Data Service will guide you through the connection set-up process between a model-driven app record or view page and Microsoft Teams collaboration.</li><br/> <li>You can manually pin a model-driven app record or view from the Microsoft Teams app and have the option to add recommended members if you are the team owner.</li><br/>  </ul>  
+|**Basic Collaboration Experience**     |  <ul><li>You need system admin permissions to enable this feature.</li><br/>  <li>When you choose the **Collaborate** option in a model-driven app record page, the connection set-up process between a model-driven app record and Microsoft Teams collaboration channel happens in Microsoft Teams.</li><br/> <li>You can manually pin a model-driven app record or view from Microsoft Teams. <br/> <br/>**Note:** The option to add recommended members during the manual set-up process from Microsoft Teams is not supported.</li></ul>       |
+|**Enhanced Collaboration Experience**    | <ul><li>You need Office 365 tenant admin permissions to enable this feature. </li><br/>  <li>When you choose the **Collaborate** option on a model-driven app record or view page, a set-up wizard in Common Data Service will guide you through the connection set-up process between a model-driven app record or view page and Microsoft Teams collaboration.</li><br/> <li>You can manually pin a model-driven app record or view from the Microsoft Teams app and have the option to add recommended members if you are the team channel owner.</li><br/>  </ul>  
