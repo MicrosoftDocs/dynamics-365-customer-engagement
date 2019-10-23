@@ -7,7 +7,7 @@
 ### Sales management
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
 #### [Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)
-#### [Enable PDF generation from quotes](enable-pdf-generation-quote.md)
+#### [Enable PDF generation from sales records](enable-pdf-generation-quote.md)
 #### [Set up the enhanced email experience](set-up-enhanced-email.md)
 #### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
 #### [Customize the Opportunity Close form](customize-opportunity-close-experience.md)
@@ -77,7 +77,7 @@
 #### [Generate orders](../sales-enterprise/create-edit-order-sales.md)
 #### [Generate invoices](../sales-enterprise/create-edit-invoice-sales.md)
 #### [Add products to quote, order, or invoice](../sales-enterprise/add-product-quote-order-invoice.md)
-#### [Create a quote PDF](create-quote-pdf.md)
+#### [Create a PDF document](create-quote-pdf.md)
 ### Sales forecasting
 #### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
 #### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)
