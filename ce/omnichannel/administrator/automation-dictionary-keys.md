@@ -80,7 +80,7 @@ This data is populated as and when agents perform some activities in the session
 
 #### Context data from Common Data Service 
 
-The organizational data is stored in Common Data Service, and you can fetch the data with the use of OData queries. To learn more, see [OData queries](#odata-queries)
+The organizational data is stored in Common Data Service, and you can fetch the data with the use of OData queries. To learn more, see [OData queries](#odata-queries).
 
 #### Context data from other macro actions 
 
