@@ -48,7 +48,7 @@ A session template is the place where, as an administrator, you need to define t
 
 ## Create a session template
 
-To create a session tempalte, follow these steps:
+To create a session template, follow these steps:
 
 1. Sign in to the Omnichannel Administration app.
 
