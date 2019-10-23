@@ -16,7 +16,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-All users who are assigned the **Omnichannel administrator**, **Omnichannel supervisor**, or **Omnichannel agent** security role are enabled for Omnichannel and become Omnichannel users.
+All users who are assigned the **Omnichannel Administration**, **Omnichannel supervisor**, or **Omnichannel agent** security role are enabled for Omnichannel and become Omnichannel users.
 
 For more information on how to create users and assign security roles, see [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md).
 

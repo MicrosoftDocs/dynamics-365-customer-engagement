@@ -1,6 +1,6 @@
 ---
-title: "Agent scripts in the Omnichannel Administrator app | MicrosoftDocs"
-description: "Learn about what is agent scripts and how to configure in the Omnichannel Administrator app." 
+title: "Agent scripts in the Omnichannel Administration app | MicrosoftDocs"
+description: "Learn about what is agent scripts and how to configure in the Omnichannel Administration app." 
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -148,7 +148,7 @@ To learn more, see [Pass data parameters in macros](automation-dictionary-keys.m
 
 ## Create macro
 
-1. Sign in to the Omnichannel Administrator app.
+1. Sign in to the Omnichannel Administration app.
 
 2. Select **Macros** under **Agent Experience**.
 

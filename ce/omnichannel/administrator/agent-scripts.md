@@ -1,6 +1,6 @@
 ---
-title: "Agent scripts in the Omnichannel Administrator app | MicrosoftDocs"
-description: "Learn about agent scripts and how to configure them in the Omnichannel Administrator app." 
+title: "Agent scripts in the Omnichannel Administration app | MicrosoftDocs"
+description: "Learn about agent scripts and how to configure them in the Omnichannel Administration app." 
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -48,7 +48,7 @@ The agent scripts reduce the human errors involved in the process as the agents 
 
 ## Create agent scripts
 
-1. Sign in to the Omnichannel Administrator app.
+1. Sign in to the Omnichannel Administration app.
 
 2. Select **Agent Scripts** under **Agent Experience**.
 
@@ -100,7 +100,7 @@ Now, the agent script is configured.
 
 After you configure the agent script and add the field to a form, you need to associate the agent script with a session template so that, based on the session type, the agent script loads to the agents.
 
-1. Sign in to the Omnichannel Administrator app.
+1. Sign in to the Omnichannel Administration app.
 
 2. Select **Sessions** under **Templates**.
 

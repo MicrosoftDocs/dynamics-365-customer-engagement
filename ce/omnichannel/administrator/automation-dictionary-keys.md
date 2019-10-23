@@ -1,6 +1,6 @@
 ---
-title: "Use automation dictionary  to pass parameters keys in the Omnichannel Administrator app | MicrosoftDocs"
-description: "Learn about the supported formats to pass parameters values in the Omnichannel Administrator app for Templates and Macros."
+title: "Use automation dictionary  to pass parameters keys in the Omnichannel Administration app | MicrosoftDocs"
+description: "Learn about the supported formats to pass parameters values in the Omnichannel Administration app for Templates and Macros."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -26,7 +26,7 @@ ms.custom:
 
 Automation Dictionary maintains the contextual data for the sessions. You can use the keys from the automation dictionary to pass the parameter in a action.​
 
-While creating templates and macros in the Omnichannel Administrator app, you can pass parameter keys such as title of a session, title of notification, title of an application tab template, and custom parameter values for application tab types. These keys are replaced based on the contextual information available at the time of execution.
+While creating templates and macros in the Omnichannel Administration app, you can pass parameter keys such as title of a session, title of notification, title of an application tab template, and custom parameter values for application tab types. These keys are replaced based on the contextual information available at the time of execution.
 
 ### Pass data parameters in templates
 

@@ -178,10 +178,10 @@ Please note that the SMS channel is currently in preview and is not a part of th
 ### How can I sign up to use the SMS channel preview?
 You can sign up for the Omnichannel for Customer Service – Preview program on the [Dynamics Insider portal](https://experience.dynamics.com/insider/). The product team will get back to you once preview is enabled for your organization. You will need an account with TeleSign (with two-way SMS). Preview of the SMS channel will work only if you have an active subscription for Chat for Dynamics 365 Customer Service in your tenant.
 
-### What information from a TeleSign account do I need to enter in the Omnichannel Administrator app?
-You will need the customer ID, API key, and the phone number from your TeleSign account. This information needs to be provided in the Omnichannel Administrator app when you create or set up an SMS workstream.
+### What information from a TeleSign account do I need to enter in the Omnichannel Administration app?
+You will need the customer ID, API key, and the phone number from your TeleSign account. This information needs to be provided in the Omnichannel Administration app when you create or set up an SMS workstream.
 
-### I get an error when I try to use the Validate API Key to validate the TeleSign account information entered in the Omnichannel Administrator app. What should I do?
+### I get an error when I try to use the Validate API Key to validate the TeleSign account information entered in the Omnichannel Administration app. What should I do?
 The Validate API Key functionality will validate the customer ID and the API key by trying to send a test SMS message to one of the numbers provided in the SMS Numbers tab. Ensure that the customer ID and API key are entered correctly, and the numbers provided in the SMS Numbers tab can receive the text messages that are sent for validation. The phone number should have the country code with no plus sign (+), spaces or special characters; for example, this would be correct: 14251234567
 
 ### How can I know if I can get a phone number from TeleSign in a specific country?
