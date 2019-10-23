@@ -1,6 +1,6 @@
 ---
-title: "Agent scripts in the Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about what is agent scripts and how to configure in the Omnichannel Administration app." 
+title: "Macros in the Omnichannel Administration app | MicrosoftDocs"
+description: "Learn about macros and how to configure in the Omnichannel Administration app." 
 keywords: ""
 author: kabala123
 ms.author: kabala
