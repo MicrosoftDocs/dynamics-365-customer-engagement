@@ -25,10 +25,43 @@ search.app:
 ---
 # Using and extending Price lists for Field Service
 
-Field Service uses and extends D365 price lists
+Field Service uses and extends D365 price lists and product catalog
 
 ## Prerequisites 
 Using Price Lists with Field Service
+
+Using Dynamics price lists product catalog for Field Service is available for all version of Dynamics 365 Field Service
+
+Basic knowledge of Dynamics 365 [product catalog](https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/set-up-product-catalog-walkthrough) and [price lists](https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products) is encouraged. 
+
+
+After saving, enter a **Default Price list** in the product details section, then **Save** again.
+
+For this exercise, we created two more products; a service and a non-inventory one.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-create.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-create-field-service.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-create-service.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-create-non-inventory.png)
+
+Next, add the products and services as price list items to the price lists of your choice.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-products-price-list-items.png)
+
+For more information see the topic on [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [creating a price list (Project Service Automation)](../project-service/create-price-list.md). 
+
+**Pro Tip:** From the Price List go to **Related > Field Service Price List Items** to add additional pricing options for Field Service products and services.
+
 
 ## Extending price lists for Field Service
 
