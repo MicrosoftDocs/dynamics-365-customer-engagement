@@ -235,21 +235,21 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 		
 		//Enable showing proactive chat invite on leaving page after browsing page for 'timeToWaitBeforeEnablingOfferingProactiveChatInMillisecondsOnLeaving' milliseconds
         setTimeout(function(){
-			//show proactive chat invite on leaving page
+			//Show proactive chat invite on leaving page
 			window.document.body.onmouseleave = function(){
-				//offer proactive chat if it has not been offered earlier during this visit
+				//Offer proactive chat if it has not been offered earlier during this visit
 				if( hasProactiveChatBeenOffered == false )
 				{
-					// set this to true as proactive chat has been almost offered.
+					// Set this to true as proactive chat has been almost offered.
 					hasProactiveChatBeenOffered = true;
-					// setting Context variables
+					//Setting Context variables
 					Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
 						return {
 							'Proactive Chat':{'value':'True','isDisplayable':true},
 							'Page URL':{'value': window.location.href,'isDisplayable':true},
 						};
 					});
-					//offer proactive chat
+					//Offer proactive chat
 					Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({message: "Hi! Just checking in to see if I can help answer any questions you may have."}, false);
 				}
 			};
@@ -276,13 +276,13 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 	var lastVisitedPage = "www.contoso.com/FAQ";// last visited page. A visitor coming form this page will be shown proactive chat invite after given time on current page
 	// Wait for Chat widget to load completely
     window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-		var timeToWaitBeforeOfferingProactiveChat = 15000;//time to wait before Offering proactive chat to web page visitor
-		//check if referrer page( read: https://www.w3schools.com/jsref/prop_doc_referrer.asp ) is same as last Visited page 
+		var timeToWaitBeforeOfferingProactiveChat = 15000;//Time to wait before Offering proactive chat to web page visitor
+		//Check if referrer page( read: https://www.w3schools.com/jsref/prop_doc_referrer.asp ) is same as last Visited page 
 		if( window.document.referrer == lastVisitedPage) )
 		{
-			//show proactive chat invite after browsing page for 'timeToWaitBeforeOfferingProactiveChat' milliseconds
+			//Show proactive chat invite after browsing page for 'timeToWaitBeforeOfferingProactiveChat' milliseconds
 			setTimeout(function(){
-				// setting Context variables
+				//Setting Context variables
 				Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
 				return {
 							'Proactive Chat':{'value':'True','isDisplayable':true},
@@ -290,7 +290,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 							'Last Page URL':{'value': window.document.referrer,'isDisplayable':true}
 						};
 				});
-				//offer proactive chat
+				//Offer proactive chat
 				Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({message: "Hi! Just checking in to see if I can help answer any questions you may have."}, false);
 			},timeToWaitBeforeOfferingProactiveChat);
 		}
@@ -300,7 +300,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 
 ## Scenario 6: Customer logs in from a specific geographic region
 
-Klarissa logs in to your website from Germany where your company is running a special discount on products. You can set up a trigger for customers coming from a particular location that proactively initiates chat.
+Klarissa logs in to your website from Ruritania where your company is running a special discount on products. You can set up a trigger for customers coming from a particular location that proactively initiates chat.
 
 Klarissa is prompted to chat with the message given below.
 
@@ -310,6 +310,8 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 
 ### Sample code
 
+This sample code shows how you can use Bing's Geolocation APIs to know the geographic region of the customer and offer chat request based on that. More information about Bing's location APIs: [Bing Maps Locations API](https://docs.microsoft.com/en-us/bingmaps/rest-services/locations/).
+
 ```javascript
 <!-- Code to show proactive chat invite if visitor is visiting the page in a particular country or region -->
 <script id="Proactivechattrigger">
@@ -317,7 +319,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
     window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 		var countryNameWhereProactiveChatInviteShouldBeOffered = 'Ruritania';//Country name where proactive chat invite should be offered, if user is visiting webpage from this country
 		
-		// Get Country name using Bing Geolocation API and offer proctiveChat if visitor's country matches with given Country name
+		// Get Country name using Bing Geolocation API and proactively offer chat if visitor's country matches with given country name
 		function GetCountryUsingBingGeoLocationAPIAndOfferProactiveChatIfVisitorCountryMatchesWithGivenCountry( latitude, longitude, bingMapApiKey, countryToMatch) {
 			var xhttp = new XMLHttpRequest();
 			xhttp.onreadystatechange = function() {
