@@ -81,12 +81,6 @@ The agent scripts reduce the human errors involved in the process as the agents 
     > [!div class=mx-imgBorder] 
     > ![Quick create: Agent script - Text](../media/create-agent-script2.png "Quick create: Agent script text step")
 
-    > [!div class=mx-imgBorder] 
-    > ![Quick create: Agent script - Macro](../media/create-agent-script3.png "Quick create: Agent script macro step")
-
-    > [!div class=mx-imgBorder] 
-    > ![Quick create: Agent script](../media/create-agent-script4.png "Quick create: Agent script")
-
 8. Select **Save and Close** to add, save, and close the quick create form.
 
 9. Select **Save** to save the changes.
