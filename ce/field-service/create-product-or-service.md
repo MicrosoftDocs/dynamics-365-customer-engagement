@@ -47,13 +47,13 @@ Basic knowledge of Dynamics 365 [product catalog](https://docs.microsoft.com/en-
 
 Go to **Field Service > Settings > Products > +New**.
 
-In previous versions click **Field Service** > **Administration**, and then choose **Product**. 
+In previous versions click **Field Service** > **Administration**, and then choose **Products**. 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-create.png)
 
-Enter relevant information
+Enter relevant information such as Name and ProductID.
 
   - **Unit Group**: Select a unit group. A unit group is a collection of various units a product is sold in, and defines how individual items are grouped into larger quantities. For example, if you're adding seeds as a product, you may have created a unit group called "Seeds", and defined its primary unit as "packet".  
   
@@ -119,10 +119,11 @@ First create a work order.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-add.png)
 
+In the Products section, select **+ New Work Order Product**.
+
 ### General
 
-In the Products section of the Work Order, create a new Work Order Product and choose the product you just created.
-
+- **Product:** Choose the product you just created from the lookup.
 - **Line Status**: When a product or service is added to a work order, a new Work Order Product or Work Order Service record is created. It is given a status of **Estimated** by default, which means it has not been utilized yet. When a field technician actually uses the product or performs the service, he or she will change the work order product or service status to **Used** from the mobile device. Even after the product or service is used, field technicians and back office workers still have the option to bill the client or not.
 
 - **Taxable**: Set to Yes if you want to Sales Tax of the work order added on top of the price.
@@ -261,25 +262,19 @@ In the image above you'll see:
 
 When creating products, consider the settings in **Settings > Administration > System Settings > Sales tab**.
 
-System Settings on the Sales tab related to Product setup. 
-Product in Active Status upon creation.  Best practice is to set this to Yes.
-Minimum # of Products in a Bundle.
-Max # of Properties allowed for a Product or Bundle. 
-
-
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-system-settings.png)
 
+- Product in Active Status upon creation. Best practice is to set this to *Yes*.
+- Minimum # of Products in a Bundle.
+- Max # of Properties allowed for a Product or Bundle. 
 
-FS settings
-- allocated by default
-
+By default Work Order Products are not allocated from inventory. This is dictated by a Field Service Setting.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-allocate-auto.png)
 
-- use inventory past 0
+Another Field Service Setting for inventory is **Use Of Products out of Stock**. Set to *Restrict* to prevent using a work order product when inventory in the specified warehouse is 0. Set to *Confirm* to display a warning message (in web interface) when there is an attempt to use a work order product and inventory is 0. This is helpful for situations where inventory levels are inaccurate or managed in an outside system.
 
 
 > [!div class="mx-imgBorder"]
@@ -287,11 +282,8 @@ FS settings
 
 ## Additional notes
 
-integrate with ERP - work order products, inventory journals, invoice
-inventory adjustments can be negative
-
-
-
+- Inventory adjustments products can have a positive or negative quantity to increment or decrement inventory as needed.
+- Integrating work order product inventory with ERP systems is typically executed with work order product, inventory journals, or invoice records.
   
 ### See also  
  - [Create a price list](../field-service/create-price-list.md)    
