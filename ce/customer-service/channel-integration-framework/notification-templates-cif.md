@@ -19,7 +19,7 @@ ms.custom:
 
 > [!IMPORTANT]
 > - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
+> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
 ## Overview
@@ -34,28 +34,28 @@ You must associate the notification templates with a session template.
 
 ## Create a notification template
 
-1.	Sign in to the Channel Integration Framework app.
+1.	Sign in to the Dynamics 365 Channel Integration Framework app.
 
 2.	Select **Notifications** under **Templates** in the sitemap.
 
 3.	Select **+ New** on the **Active Notifications** page.
 
-4.	Specify the following on the New Application Tabs page.
+4.	Specify the following on the **New Application Tabs** page.
 
     | Tab | Name | Value description | Example |
     |---------|--------------------|-----------------------------------------------|--------------------|
     | General | Name | Specify the name for the notification. This name won't be visible to agents at runtime. | Authenticated chat notification |
     | General | Title | Provide a title to the notification that you want agents to see at runtime. | Incoming chat conversation |
-    | General | Icon | Select a web resource path to add an icon. | /webresources/msdyn_chat_icon_zfp.svg <br><br> **Note:** This is the default value. You can change the icon as your requirement. |
+    | General | Icon | Select a web resource path to add an icon. | /webresources/msdyn_chat_icon_zfp.svg <br><br> **Note:** This is the default value. You can change the icon as per your requirement. |
     | General | Timeout (seconds) | Provide a duration in seconds; after this duration, the notification disappears. | 120 <br><br> **Note:** This is the default value. You can change the duration as per your requirement.
     | General | Accept Button | Specify a text for the Accept button. This text appears for the agents to accept a conversation request. | Accept <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
-    | General | Reject Button | Set the toggle to Yes if you want to show the Reject button to agents. <br> After you set the toggle to Yes, the button text box appears. Specify a text for the Reject button. This text appears for the agents to reject a conversation request. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
+    | General | Reject Button | Set the toggle to **Yes** if you want to show the Reject button to agents. <br> After you set the toggle to Yes, the button text box appears. Specify a text for the Reject button. This text appears for the agents to reject a conversation request. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
 
 5.	Select **Save** to save the notification template. After you save, the **Notification Fields** section appears in the page.
 
 6.	Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
 
-7.	Select the search icon in the **Look for Records** box. If there are no records, you see a message: **No records found. Create a new record.**.
+7.	Select the **Search** icon in the **Look for Records** box. If there are no records, you see a message: **No records found. Create a new record.**
 
 8.	Select **+ New** to create a new notification field. A confirm dialog box appears, asking whether you want to leave the page. Select **OK**.
 
@@ -63,9 +63,9 @@ You must associate the notification templates with a session template.
 
     | Tab | Name | Value description | Example |
     |---------|--------------------|-----------------------------------------------|--------------------|    
-    | General | Name | Specify the name for the notification. This name wouldn't be visible for the agents at the run-time. | Name of the customer |
-    | General | Field header | Provide a name to the field header. This appears in the notification that agents to see at the run-time. | Name |
-    | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Supported formats to Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md). |`{customerName}` | 
+    | General | Name | Specify the name for the notification. This name won't be visible for agents at runtime. | Name of the customer |
+    | General | Field header | Provide a name for the field header. This appears in the notification that agents to see at runtime. | Name |
+    | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Supported formats to use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md). |`{customerName}` | 
 
 10.	Select the back arrow on the browser to go to the notification template you created. Alternatively, you can select **Notifications** in the sitemap and then select the template you created.
 
@@ -81,7 +81,7 @@ You must associate the notification templates with a session template.
 
 As an administrator, you can edit the value of a notification field header in the grid.
 
-1.	Sign in to the Channel Integration Framework app.
+1.	Sign in to the Dynamics 365 Channel Integration Framework app.
 
 2.	Select **Notifications** under **Templates** in the sitemap.
 
@@ -89,7 +89,7 @@ As an administrator, you can edit the value of a notification field header in th
 
 4.	Select a notification field you want to edit. Select the record to edit it.
 
-5.	Select the save icon to save the grid.
+5.	Select the **Save** icon to save the grid.
 
 ## See also
 
