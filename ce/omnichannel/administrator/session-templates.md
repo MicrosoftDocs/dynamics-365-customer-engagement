@@ -74,7 +74,13 @@ To create a session template, follow these steps:
 
 8. Select **Save** to save the changes.
 
+   > [!div class=mx-imgBorder] 
+   > ![Session template](../media/session-template1.png "Session template")
+
+The session template is configured. Now, you must associate the session template with a workstream. To learn more, see [Associate templates with workstreams](associate-templates.md).
+
 ## See also
 
 - [Manage application tab templates](application-tab-templates.md)
 - [Manage notification templates](notification-templates.md)
+- [Associate templates with workstreams](associate-templates.md)
