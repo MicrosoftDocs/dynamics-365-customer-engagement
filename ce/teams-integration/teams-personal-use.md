@@ -58,6 +58,5 @@ If you have more than one environment or model-driven app, you can use the **Set
 > - Only Unified Interface apps are listed.
 > - Only app modules licensed for the selected environment are listed. 
 
-### See also  
- [Set up the personal dashboard](teams-install-app.md#set-up-the-personal-dashboard)
+
 
