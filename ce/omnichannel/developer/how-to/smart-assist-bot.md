@@ -351,6 +351,10 @@ Given below is the adaptive card JSON for creating an appointment with the custo
 ``` 
 ## Calling macros and custom actions using adaptive cards
 
+### Macros
+
+For information on how to build a macro, see [Create macro](../../administrator/macros.md#create-macro).
+
 You can use the `actions` key in adaptive cards JSON and mention the macro or custom action that you want to call, as shown in the example below.
 
 The type is always `Action.Submit` and title can be anything the user wants to name the action.
@@ -371,11 +375,13 @@ The type is always `Action.Submit` and title can be anything the user wants to n
 	]
 ```
 
-You will have to create a web resource if you want to use embed a macro or custom action within a suggestion.
+See also: [Automate tasks with macros](../../administrator/macros.md).
+
+### Custom actions
+
+You will have to create a web resource if you want to use embed a custom action within a suggestion.
 
 To use a custom action, replace `MacroName` and `MacroParameters` with `CustomAction` and `CustomParameters` respectively in the adaptive card JSON. The value provided for `CustomAction` key should be the same as the name of the method that is to be called.
-
-See also: [Automate tasks with macros](../../administrator/macros.md).
 
 ## Sample code
 
@@ -390,6 +396,6 @@ In the generic functionality, if the bot encounters an intent for appointment, i
 ## See also
 
 [Smart assist for agents](../../administrator/smart-assist.md)<br />
-[Create a bot with Azure bot service](../../../../azure/bot-service/abs-quickstart)<br />
-[Manage custom context](send-context-starting-chat.md)<br />
-[Enable a bot to escalate and end conversation](../bot-escalate-end-conversation.md)
+[Create a bot with Azure bot service](/azure/bot-service/abs-quickstart)<br />
+[Automate tasks with macros](../../administrator/macros.md)<br />
+[Integrate an Azure bot](../../administrator/configure-bot.md)
