@@ -100,6 +100,9 @@ Omnichannel system supports the following slugs.
     | General | Field header | Provide a name to the field header. This appears in the notification that agents see at the runtime. | Name |
     | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Slug for notification field header](#slug-for-notification-field-header). |{customerName} |
 
+    > [!div class=mx-imgBorder]
+    > ![Create notification field](../media/notification-field.png "Create notification field")
+
 10.	Select the back arrow on the browser to go to the notification template you created. Alternatively, you can select **Notifications** in the sitemap and then select the template you created.
 
 11.	Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
@@ -126,7 +129,7 @@ As an administrator, you can edit the value of a notification field header in th
 
 ## Customize notification
 
-In the Contoso Pvt Ltd customer service center, every case notification that is shown to an agent needs to have the following:
+Let's see a scenario: In the Contoso Pvt Ltd customer service center, every case notification that is shown to an agent needs to have the following:
 
 **Title of the notification**: A new case is assigned
 
