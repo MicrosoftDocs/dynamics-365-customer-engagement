@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 10/25/2019
+ms.date: 10/22/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: B8D892A6-C186-406F-AA68-A10903943EF1
@@ -19,9 +19,72 @@ ms.custom:
 
 ##  What's new in October 2019 update
 
-For information about new features releasing in October 2019, see:
+This section contains information about new features and enhancements in Omnichannel for Customer Service October 2019 update.
 
-[2019 release wave 2 plan - Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-customer-service/omnichannel)
+### Agent experience
+
+- **Agent scripts:** This feature provides organizations a means to configure scripts that provide step-by-step guidance to agents. These steps can be configured and automated based on session types (such as chat or phone calls) to ensure adherence to the appropriate processes.
+
+- **Bot-assisted agent guidance:** Bot-driven conversation context-based recommendations can help agents resolve issues faster. Several use cases:
+    - Quick replies based on the conversation context
+    - Knowledge article suggestions for the agent to share with customers
+    - Suggestions on the next best action the agent can take
+    - Similar-case suggestion for current conversation
+
+- **Enhanced Search Experience:** The following enhancements make the search experience suitable for enterprises with more complex requirements:
+    - Search customization: Enterprises need agents to search based on attributes that are not included in the out-of-the-box list of attributes. The enhancements in search experience allow easy customization of the search fields.
+    - Faster and more intuitive experience for agents: The agents benefit from an improved search and link experience with increased usability, thus enabling them to meet their productivity KPIs. 
+
+- **Facebook messaging:** Social media gives companies an opportunity to capitalize on this trend and engage with their customers right where they are, providing them with a seamless and personalized experience that can help them become fans and brand advocates. Agents can use the same unified, contextual, and productive interface used by Chat to engage with customers and resolve their issues
+
+- **Macros:** Macros enable agents to stay efficient and productive by automating a series of repetitive tasks with a single click. For example, agents will be able to automate tasks like resolving a case after updating a field, assigning it to a different user after capturing notes, or sending an acknowledgement email with contextual data from the session using macros.
+
+- **Multi-provider support:** This capability provides a consistent user interface for the agent while third-party channels are routed by respective channel providers. This allows channel providers to bring their existing routing infrastructure to coexist with Chat for Dynamics 365 Customer Service at the agent experience level.
+
+- **Notification customization:** Notifications alert the agents when a record is assigned to them or when there are incoming requests from users who need assistance. These notifications include additional context about important customer attributes like name and location of the user.
+
+- **Sentiment analysis enhancement:** The ability to identify negative sentiment events in ongoing messaging sessions is key as it provides an opportunity for agents and supervisors to act on that data and ensure a positive customer outcome. Agent sentiment visibility improvements include updates to icons, accessibility, and visual impairment friendly. Agents can better identify when a support session doesn't go well, and they can proactively request supervisor or peer help in addressing the issue.
+
+- **User navigation history:** Agents can provide a more personalized service if they have visibility into the user's activity on the website that led the user to request support. In addition to the activities recorded as part of the Account/Contact/Case record in Dynamics 365 Customer Service, agents can view information about the user's activity on the website, such as web pages visited, knowledge base articles viewed, and more.
+
+### Administrator experience
+
+- **Unified routing for entity records:** With unified routing, administrators can route entity records to omnichannel-enabled queues along with work items that originate from other channels such as Chat and SMS based on the agents' capacity and availability.
+
+    This allows organizations to tightly define the work profile that their agents are supposed to handle, and organizations can automate the work flow assignment across channels and assign the work items based on agents capacity and availability.
+
+    More information: [Entity records routing](administrator/entity-channel.md) and [Cases entity work streams](administrator/set-up-entity-workstream.md)
+
+- **Integrate a bot created in Virtual Agent:** Administrators can use Virtual Agent to create a bot that provides automated responses in a conversational manner to a customer. If required, the bot can also escalate the customer query to a customer service agent and provide the information collected from the customer to the agent. Using a bot will ease the load on your customer service agents by handling basic queries so they can work on more complex issues.
+    
+    More information: [Deploy a Virtual Agent](https://docs.microsoft.com/en-us/dynamics365/ai/customer-service-virtual-agent/getting-started-create-bot)
+
+- **Dynamics 365 Channel Integration Framework version 2:** Here are the new features introduced in Channel Integration Framework version 2.0:
+    - Integration with the multi-session experiences in Omnichannel for Customer Service. The Channel Integration Framework version 2.0 provides APIs to integrate with the multi-session experiences in the Omnichannel for Customer Service app. These APIs allow providers to show notifications on incoming conversations with relevant information, start new sessions for conversations from predefined templates, and open application tabs when needed. For more information about the new agent experience, see [Agents using Omnichannel for Customer Service app](../agent/agent-oc/omnichannel-customer-service-app-agent.md).
+    - New modes and locations for the conversation control. Providers can define experiences for the minimized mode of the conversation controls they build. Agents can manually change the mode of the control from docked to minimized and vice versa. They can also change them programmatically.
+    - Support for multiple providers. Using Channel Integration Framework version 2.0, organizations can configure multiple providers in the Omnichannel for Customer Service app. This enables agents to simultaneously work on multiple sessions that cater to different customers on different channels (for example, live chat and telephony), where each of these sessions belongs to different providers.
+
+    Note
+    All conversation controls built using the APIs of Channel Integration Framework version 1.0 will continue to work with version 2.0 in the single-session Unified Interface apps, such as Customer Service Hub.
+    The new capabilities of Channel Integration Framework are available only with the Omnichannel for Customer Service app, which supports the multi-session paradigm.
+
+- **Facebook messaging:** Social media gives companies an opportunity to capitalize on this trend and engage with their customers right where they are, providing them with a seamless and personalized experience that can help them become fans and brand advocates. Administrators can configure social channels like Facebook Messenger to engage with their customers.
+
+- **Macros:** Macros enable agents to stay efficient and productive by automating a series of repetitive tasks with a single click. Administrators will be able to configure macros to suit their specific business or process needs.
+
+- **Notification customization:** Notification customization allows administrators to customize the notification pop-ups to include relevant information based on their business needs, like user entitlements and relationship type. This helps the agent get a quick glimpse of the user information prior to accepting an incoming request.
+
+- **Proactive chat:** Chat channel allows customers to effortlessly engage with organizations via a chat widget on the website. Proactive chat enables organizations to engage with users by automatically inviting them to a chat conversation based on the configured rules. Organizations can use end-user data, user journey information, time spent on web page, and more to decide when to best engage with them. Organizations can control the proactive chat experience using personalized trigger messages and configurable rules to define the target audience, time frame, and target location.
+
+### Supervisor experience
+
+- **Analytics for third-party channels:** Omnichannel for Customer Service already provides several out-of-the-box channel-specific metrics for first-party channels—for example, average handling time and conversation volume. As part of this feature, third-party channel providers using Dynamics 365 Channel Integration Framework can provide relevant measures for their channels. This enables organizations to get a holistic view of KPIs and insights across different channels and providers.
+
+- **Facebook messaging:** Social media gives companies an opportunity to capitalize on this trend and engage with their customers right where they are, providing them with a seamless and personalized experience that can help them become fans and brand advocates. Supervisors and managers have access to rich reports to help them run the support center efficiently and effectively.
+
+- **Sentiment analysis enhancement:** The ability to identify negative sentiment events in ongoing messaging sessions is key as it provides an opportunity for agents and supervisors to act on that data and ensure a positive customer outcome. Sentiment analysis support of additional languages makes the text analytics feature available to additional markets.
+
+- **Skill-based routing:** Conversations can be routed to agents based on their skills and proficiencies. This improves the efficiency of automatic work distribution by looking for an agent with the right skills who can handle a conversation and resolve a customer issue most effectively. Administrators and supervisors can optimize the work distribution by assigning the right skills to the agents based on their proficiency. They can directly route the conversations to agents without managing the queues.
 
 ##  What's new in August 2019 update
 

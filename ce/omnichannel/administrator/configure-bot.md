@@ -1,6 +1,6 @@
 ---
-title: "Configure a bot | MicrosoftDocs"
-description: "Instructions to configure a bot in Omnichannel for Customer Service."
+title: "Configure an Azure bot | MicrosoftDocs"
+description: "Instructions to configure an Azure bot in Omnichannel for Customer Service."
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -122,7 +122,7 @@ Escalation rules allow you to create rules for the bot to escalate the queries t
 If the bot escalates the customer query, it is routed to the appropriate queue as per the defined routing rule. If the customer query in redirected to the same queue, another agent in the queue will pick the conversation as per the capacity. For information on working with queues, see [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md).
 
 > [!NOTE]
-> If you've only one queue with bot and agents, and you didn't create a routing rule, the customer query is redirected to the same queue in case of escalation and picked up by an agent.
+> If you have only one queue with bot and agents, and you didn't create a routing rule, the customer query is redirected to the same queue in case of escalation and picked up by an agent.
 
 #### Create a context variable
 
