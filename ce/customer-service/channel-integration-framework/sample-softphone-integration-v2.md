@@ -73,17 +73,17 @@ manager: shujoshi
 
 2. Configure the channel provider by providing the detail as shown in the matrix. For more information, see [Configure the channel provider](configure-channel-provider-channel-integration-framework.md).
 
-  | Field | Description |
-  |-------|-------|
-  |Name|Name of the channel provider.<br><br> Example: Contoso|
-  |Label|The label is displayed as the title on the widget.<br><br> Example: Contoso|
-  |Channel URL| The channel URL is in the format: `<azure_app_service_url>?base=<crm_base_url>`<br /><br />**Note:** For this sample, the URL is `https://sampleinteg.azurewebsites.net?base=https://sampleorg.crm10.dynamics.com`. |
-  |Enable Outbound Communication| Yes |
-  |Channel Order| 0 |
-  |API Version| 2.0 |
-  |Trusted Domains|The domain (URL) that can access the Channel Integration Framework APIs.|
-  |Select the Unified Interface Apps for the Channel| The list of Unified Interface apps where the channel is displayed for the agents. |
-  |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface app.|
+   | Field | Description |
+   |-------|-------|
+   |Name|Name of the channel provider.<br><br> Example: Contoso|
+   |Label|The label is displayed as the title on the widget.<br><br> Example: Contoso|
+   |Channel URL| The channel URL is in the format: `<azure_app_service_url>?base=<crm_base_url>`<br /><br />**Note:** For this sample, the URL is `https://sampleinteg.azurewebsites.net?base=https://sampleorg.crm10.dynamics.com`. |
+   |Enable Outbound Communication| Yes |
+   |Channel Order| 0 |
+   |API Version| 2.0 |
+   |Trusted Domains|The domain (URL) that can access the Channel Integration Framework APIs.|
+   |Select the Unified Interface Apps for the Channel| The list of Unified Interface apps where the channel is displayed for the agents. |
+   |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface app.|
 
 3. Launch the Unified Interface app to see the communication widget on the left side.<br><br>
 
@@ -99,13 +99,21 @@ manager: shujoshi
 
 
 1. Download the [Configuration Migration tool](/power-platform/admin/manage-configuration-data). The Configuration Migration tool is available as a NuGet package.
+
 2. Start the Configuration Migration tool. Double-click DataMigrationUtility.exe in the folder: `[your folder]\Tools\ConfigurationMigration\`.
+
 3. On the main screen, select **Import data**, and then select **Continue**.
+
 4. On the sign-in screen, provide authentication details to connect to your Dynamics 365 instance from where you want to import data. If you have multiple organizations on the Dynamics 365 for Customer Engagement server, and want to select the organization to which to import the configuration data, select the **Always display list of available orgs** check box. Select **Login**.
+
 5. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select a Dynamics 365 apps organization to connect to.
+
 6. Provide the data file (data.zip) to be imported. Browse to the data file and select it. Select **Import Data**.
+
 7. This step is applicable only if the data that you are importing contains the user information of the source system. Enter mapping user information on the target system. You can either map all of them to the user who is running the import process or map to individual users by using a user map file (.xml). If you choose the latter, you will have to either specify an existing user map file or the tool can generate it for you. If you generate a new file, fill in the mapping user name in the New parameter for every user on the source server. Select the user map file in the tool when you are done, and select **OK**.
+
 8. The next screen displays the import status of your records. The data import is done in multiple passes to first import the foundation data while queuing up the dependent data, and then import the dependent data in the subsequent passes to handle any data dependencies or linkages. This ensures clean and consistent data import.
+
 9. Select **Finish** to close the tool.
 
 ## See also
