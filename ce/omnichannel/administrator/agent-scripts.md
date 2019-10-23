@@ -74,9 +74,18 @@ The agent scripts reduce the human errors involved in the process as the agents 
     | Order | Specify the order number based on which step is displayed to the agent. | 1 |
     | Action Type | Select an action type from the list: <ul> <li> Text instruction </li> <li> Macro </li> <li> Script </li> |
     | Description | Describe the step briefly for your reference. | This step opens a draft email to send knowledge article links to customer. <br><br> **Note:** <br> This field appears only when you select the **Action Type** value as **Target Macro** or **Target script**. |
-    | Text instruction | Specify the text instructions the agent needs to follow and execute. This is a text field. Additonally, you can pass parameter values using the Slugs and OData queries. To learn more see, [Pass parameter values](automation-dictionary-keys.md)<br><br> **Note:** <br> This field appears only if you select the **Text instruction** value for the **Action Type** field. | Greet the customer with welcome message from the quick reply repository. |
+    | Text instruction | Specify the text instructions the agent needs to follow and execute. This is a text field. Additonally, you can pass parameter values using the Slugs and OData queries. To learn more see, [Pass parameter values](automation-dictionary-keys.md)<br><br> **Note:** <br> This field appears only if you select the **Text** value for the **Action Type** field. | Greet the customer with welcome message from the quick reply repository. |
     | Target macro | Type the name of the configured macro in the text box and select the macro from the lookup results. <br><br> **Note:** <br> This field appears only if you select the **Macro** value for the **Action Type** field. | Email |
     | Target script | Type the name of the configured script in the text box and select the script from the lookup results. <br><br> **Note:** <br> This field appears only if you select the **Script** value for the **Action Type** field. | Close session |
+
+    > [!div class=mx-imgBorder] 
+    > ![Quick create: Agent script - Text](../media/create-agent-script2.png "Quick create: Agent script text step")
+
+    > [!div class=mx-imgBorder] 
+    > ![Quick create: Agent script - Macro](../media/create-agent-script3.png "Quick create: Agent script macro step")
+
+    > [!div class=mx-imgBorder] 
+    > ![Quick create: Agent script](../media/create-agent-script4.png "Quick create: Agent script")
 
 8. Select **Save and Close** to add, save, and close the quick create form.
 
