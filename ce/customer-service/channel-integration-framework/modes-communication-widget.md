@@ -34,7 +34,9 @@ The docked mode is the default mode of the communication widget, where it is pla
 
 ## Minimized
 
-The minimized mode is an overlay mode where the communication widget is reduced to a smaller size to give agents more screen space to view the applications. This is generally useful for agents who have started talking to the customer and need only minimal actions (for example, hold and mute) on the communication widget and thus can use the space to view more info on the application tab panel.
+The minimized mode is an overlay mode where the communication widget is reduced to a smaller size to give agents more screen space to view the applications. 
+
+This is generally useful for agents who have started talking to the customer and need only minimal actions (for example, hold and mute) on the communication widget and thus can use the space to view more info on the application tab panel.
 
 ## Hidden
 
