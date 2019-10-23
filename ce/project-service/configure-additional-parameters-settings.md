@@ -56,7 +56,8 @@ To set project parameters:
   
 5. Click the **Save** button in the bottom right corner of the screen.  
 
-Note: The project parameter record must be maintained for Project Service to function correctly, this record should not be deleted.
+> [!NOTE]
+> The project parameter record must be maintained for Project Service to function correctly, this record should not be deleted.
 
 ### See Also  
  [Set up resources](../project-service/set-up-resources.md)
