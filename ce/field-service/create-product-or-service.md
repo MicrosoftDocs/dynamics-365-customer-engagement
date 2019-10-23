@@ -139,30 +139,34 @@ Price information is taken from the price list first, then the product record an
 
 ### Product Relates To
 
+Work Order Products can be related to different aspects of the work order either automatically or manually.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-relates-to.png)
 
+As an example, if the product or service is added from a work order incident type, the related work order incident type will be populated. If the work order incident type was for a specific customer asset, that asset will be populated here. 
+
+> [!Note]
+> Work Order Products and Service are typically added to work orders via work order incident types. For more information see the topic on [creating work order templates with incident types](https://docs.microsoft.com/en-us/dynamics365/field-service/configure-incident-types).
+
 ### Other
 
+In the Other section, you have the ability to change the price list of a specific product or service from the work order price list which it will have by default. 
+
+You also have the ability to apply or disable an entitlement, which are generally automatically applied based on factors like service account and incident type. See the topic on [entitlements](./work-order-entitlements.md) for more details.
 
 - add or edit quanity
 - add or edit price list
 
+In addition to inventory products, non-inventory products are added as work order products as well.
 
-- manual
-  - inventory
-  - non inventory
-  - service
-- incident
+Service type products (labor) should be added as work order services.
 
-Adding a work order service is very similar to a work order product
+
+Adding a work order service is very similar to a work order product, however there is no inventory allocation or warehouse, and there is an estimate duration rather than estimate quantity.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-service-add.png)
-
-- add or edit duration
-- add or edit price list
-
-## Estimate vs Used
 
 
 
