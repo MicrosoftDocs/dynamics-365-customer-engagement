@@ -127,7 +127,7 @@ Given below is the adaptive card JSON for displaying knowledge article recommend
 ### Smart assist using similar cases
 
 > [!NOTE]
-> This is not an Out-of-the-box feature.
+> This is not an Out-of-the-box feature.<br />
 > This is a standalone adaptive card JSON that can be used to build business logic for displaying similar cases in adaptive cards. The [Build a custom smart assist bot]() code sample does not cover this scenario.
 
 Based on the context and the information extracted from an ongoing conversation, Omnichannel for Customer Service can populate the smart assist adaptive cards with similar case recommendations, which agents can refer to for information on how similar cases were resolved.
@@ -205,7 +205,7 @@ Given below is the adaptive card JSON for displaying similar case recommendation
 ### Smart assist using cross sell recommendations
 
 > [!NOTE]
-> This is not an Out-of-the-box feature.
+> This is not an Out-of-the-box feature.<br />
 > This is a standalone adaptive card JSON that can be used to build business logic for displaying cross sell recommendations in adaptive cards. The [Build a custom smart assist bot]() code sample does not cover this scenario.
 
 Smart assist adaptive cards can also contain recommendations for the next case.
