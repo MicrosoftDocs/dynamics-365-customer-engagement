@@ -2,7 +2,7 @@
 title: "Start chat proactively | Microsoft Docs"
 description: "Read how you can start chat proactively to see if customers need help and thereby improve customer experience"
 keywords: ""
-ms.date: 10/16/2019
+ms.date: 10/24/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -208,6 +208,127 @@ Hi! How are you doing today? The status of the case:<caseid> is in progress. Wou
         setTimeout(function(){
             Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({message: "Hi! How are you doing today? The status of the case: " + caseId + " is in progress. Would you like to get more details?"}, false)
         },timeToWaitBeforeOfferingProactiveChatInMilliseconds);
+    });
+</script>
+```
+## Scenario 4: Customer coming from a specific webpage spends some time on the current webpage
+
+Amy has browsed the FAQs document of the product and is currently on the Knowledge Base page for more than 15 seconds.
+
+She is proactively offered chat with the message given below.
+
+```
+Hi! Just checking in to see if I can help answer any questions you may have.
+```
+
+### Sample code
+
+```javascript
+<!-- Code to show proactive chat invite when visitor tries to leave page after spending given time on the webpage. This invite is offered once and only for the first time. All subsequent tries to leave page are ignored and proactive chat is not offered in them. -->
+<script id="Proactivechattrigger">
+	// track if proactive chat has been already offered to the visitor
+	var hasProactiveChatBeenOffered = false;	
+	// Wait for Chat widget to load completely
+    window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
+		var timeToWaitBeforeEnablingOfferingProactiveChatInMillisecondsOnLeaving = 15000;//time to wait before Offering proactive chat to web page visitor
+		
+		//enable showing proactive chat invite on leaving page after browsing page for 'timeToWaitBeforeEnablingOfferingProactiveChatInMillisecondsOnLeaving' milliseconds
+        setTimeout(function(){
+			//show proactive chat invite on leaving page
+			window.document.body.onmouseleave = function(){
+				//offer proactive chat if it has not been offered earlier during this visit
+				if( hasProactiveChatBeenOffered == false )
+				{
+					// set this to true as proactive chat has been almost offered.
+					hasProactiveChatBeenOffered = true;
+					// setting Context variables
+					Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
+						return {
+							'Proactive Chat':{'value':'True','isDisplayable':true},
+							'Page URL':{'value': window.location.href,'isDisplayable':true},
+						};
+					});
+					//offer proactive chat
+					Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({message: "Hi! Just checking in to see if I can help answer any questions you may have."}, false);
+				}
+			};
+        },timeToWaitBeforeEnablingOfferingProactiveChatInMillisecondsOnLeaving);
+    });
+</script>
+```
+
+## Scenario 5: Customer logs in from a specific geographic region
+
+Klarissa logs in to your website from Germany where your company is running a special discount on products. You can set up a trigger for customers coming from a particular location that proactively initiates chat.
+
+Klarissa is prompted to chat with the message given below.
+
+```
+
+```
+
+### Sample code
+
+```javascript
+<!-- Code to show proactive chat invite if visitor is visiting the page in a particular country or region -->
+<script id="Proactivechattrigger">
+	// Wait for Chat widget to load completely
+    window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
+		var countryNameWhereProactiveChatInviteShouldBeOffered = 'Ruritania';//Country name where proactive chat invite should be offered, if user is visiting webpage from this country
+		
+		// get Country name using Bing Geolocation API and offer proctiveChat if visitor's country matches with given Country name
+		function GetCountryUsingBingGeoLocationAPIAndOfferProactiveChatIfVisitorCountryMatchesWithGivenCountry( latitude, longitude, bingMapApiKey, countryToMatch) {
+			var xhttp = new XMLHttpRequest();
+			xhttp.onreadystatechange = function() {
+			if (this.readyState == 4)
+				if(this.status == 200) {
+					console.log(this.responseText);
+					var currentCountryName = JSON.parse(this.responseText).resourceSets[0].resources[0].address.countryRegion;
+					//check if visitor's country matches with given Country name
+					if( currentCountryName == countryToMatch){
+						alert(currentCountryName);
+						// setting Context variables
+						Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
+						    return {
+						        'Proactive Chat':{'value':'True','isDisplayable':true},
+						        'Country':{'value': currentCountryName ,'isDisplayable':true},
+						        'Page URL':{'value': window.location.href,'isDisplayable':true},
+						    };
+						});
+						//show proactive chat invite
+						Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({message: "Hi! Just checking in to see if I can help answer any questions you may have."}, false);
+					}
+				}
+				else{
+					console.log("Bing Geolocation API call has failed and returned error: " + this.statusText);
+				}
+			};
+			xhttp.open("GET", 'http://dev.virtualearth.net/REST/v1/Locations/'+ latitude +','+ longitude +'?key='+ bingMapApiKey, true);
+			xhttp.setRequestHeader("Content-type", "application/json");
+			xhttp.send();
+		}
+		
+		//fetching latitude and longitude is success
+		function successGetlatLong(position) {
+			var latitude = position.coords.latitude;
+			var longitude = position.coords.longitude;
+			console.log('Your latitude is :'+latitude+' and longitude is '+longitude);
+			//convert current loaction to a country/ region via Bing Geolocation APIs
+			var bingMapApiKey = 'Enter your Bing Map API key';// Get Bing Map API key here : https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key
+			GetCountryUsingBingGeoLocationAPIAndOfferProactiveChatIfVisitorCountryMatchesWithGivenCountry( latitude, longitude, bingMapApiKey, countryNameWhereProactiveChatInviteShouldBeOffered);// get Country name using Bing Geolocation API and offer proctiveChat if visitor's country matches with Country name where proactive chat invite should be offered
+		}
+		
+		//fetching latitude and longitude has failed
+		function errorGetlatLong() {
+			console.log('It seems browser was not allowed to access location. Please allow browser to access loaction.');
+		}
+		
+		//fetch latitude and longitude via browser
+		if (navigator.geolocation) {
+			navigator.geolocation.getCurrentPosition(successGetlatLong, errorGetlatLong);
+		} else {
+			console.log('It seems like Geolocation, which is required for this page, is not enabled in your browser. Please use a browser which supports it.');
+		}
     });
 </script>
 ```
