@@ -181,67 +181,81 @@ Work Order products and services are simply recommended items the field technici
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-add-mobile.png)
 
-Within a work order product record, field technicians will set the Line Status to Used and enter a quantity, which represents how many units were actually consumed, and a quantity to bill, which can be different.
+Within a work order product record, field technicians will set the **Line Status** to *Used* and enter a **Quantity**, which represents how many units were actually consumed, and a **Quantity to Bill**, which can be different.
 
 When using an inventory item, you need to enter a warehouse it comes from. This will default to the warehouse value on the Bookable Resource.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-add-mobile-non-inventory.png)
 
-When using a non-inventory item, you may mark it as used along with a quantity for reporting, but no warehouse since it is not tracked. Another option is to enter 0 for Quantity to Bill since 
+When using a non-inventory item, you may mark it as used along with a quantity for reporting, but no warehouse since it is not tracked. Another option is to enter 0 for Quantity to Bill since you may not charge a customer for lower value items.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-service-add-mobile.png)
 
 
-
+When using a work order service, set the **Line Status** to *Used* and enter a **Duration** and **Duration to Bill**.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-mobile-subtotal.png)
 
-- calculations
+As products and services are Used, the subtotal based on price and quantity to bill is calculated on the work order.
 
 > [!Note]
-> calculations happen in online mode or on sync
+> Amount calculations will populate after syncing or in online mode, not in offline mode.
 
-- invoice  
-Used products and services will appear on the invoice generated from the closed-posted work order and the price of each
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-invoice.png)
 
+Lastly, after the Work Order is finished and the **System Status** is *Closed-Posted*, an invoice will be generated with used work order products and services.
+
 ## Add and consume product inventory (Optional)
 
-- warehouse
-- inventory adjustment
+For instances where inventory is managed within Field Service, let's explore how to increment and decrement inventory.
+
+Go to **Field Service > Inventory > Inventory Adjustments**
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-inv-adj.png)
 
-- inventory adjustment product
+Create a new Inventory Adjustment and choose the warehouse the inventory will go to. If a warehouse does not exist, simply create one.
 
+From the Inventory Adjustment, go to the Product section and create an Inventory Adjustment Product.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-inv-adj-product.png)
+
+Add one or more products and the quantity to increment inventory by for that product at the earlier chosen warehouse. 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-inventory.png)
 
+In Product Inventory, you'll see the Quantity Available and Quantity On Hand increased based on your inventory adjustment for the chosen products and warehouse.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-allocated.png)
-- add quantity
+
+When adding the product to a work order, you have the option to allocate it from inventory, which designates it aside before it is actually used and decremented from inventory.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-add-mobile-warehouse.png)
 
+From the mobile work order product form, simply enter a warehouse after marking it as used. 
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-inv-journals.png)
 
-no inv journals for service or non inventory products
+All inventory transactions are recorded as Inventory Journals which can be accessed via an Advanced Find. 
+
+In the image above you'll see
+
+1. The Inventory adjustment that incremented inventory levels by 100 units
+2. 1 unit allocated to a work order product before use
+3. 1 unit decrementing inventory when it was finally used during a work order
 
 ## Configuration considerations
 
@@ -270,6 +284,10 @@ FS settings
 > ![Screenshot of ](./media/work-order-product-use-product-out-stock.png)
 
 ## Additional notes
+
+integrate with ERP - work order products, inventory journals, invoice
+inventory adjustments can be negative
+
 
 
   
