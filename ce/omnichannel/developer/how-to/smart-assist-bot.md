@@ -22,7 +22,7 @@ ms.custom:
 > - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../../../legal/dynamics-insider-agreement.md).
 
-Build a custom bot to push real-time suggestions to agents for actions displayed within the smart assist control on the agent UI. The smart assist control uses Adaptive cards to push and display suggestions in UI. [Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI. The smart assist bot interprets the conversation context in real-time and provides suggestions to the agents.
+Build a custom bot to push real-time recommendations to agents for actions displayed within the smart assist control on the agent UI. The smart assist control uses Adaptive cards to push and display recommendations in UI. [Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI. The smart assist bot interprets the conversation context in real-time and provides recommendations to the agents.
 
 You can use the [Adaptive Cards Designer](https://adaptivecards.io/designer/) to create your own adaptive card template. Also, you can embed macros and custom actions within a suggestion using web resources.
 
@@ -30,11 +30,13 @@ More information: [Automate tasks with macros](../../administrator/macros.md).
 
 Also, see the Administrator topic on how to enable smart assist: [Smart assist for agents](../../administrator/smart-assist.md).
 
-## Smart assist using knowledge articles
+## Samples for adaptive cards
 
-Based on the context and the information extracted from an ongoing conversation, Omnichannel for Customer Service can populate the smart assist adaptive cards with knowledge article suggestions.
+Based on the intent extracted from an ongoing conversation, you can provide appropriate recommendations to the agent. This section covers some examples for adaptive cards that can be used for various scenarios.
 
-Given below is the adaptive card JSON for displaying knowledge article suggestions.
+### Smart assist using knowledge articles
+
+Given below is the adaptive card JSON for displaying knowledge article recommendations.
 
 ```json
 {
@@ -118,14 +120,15 @@ Given below is the adaptive card JSON for displaying knowledge article suggestio
 }
 ```
 
-## Smart assist using similar cases
+### Smart assist using similar cases
 
 > [!NOTE]
+> This is not an Out-of-the-box feature.
 > This is a standalone adaptive card JSON that can be used to build business logic for displaying similar cases in adaptive cards. The [Build a custom smart assist bot]() code sample does not cover this scenario.
 
-Based on the context and the information extracted from an ongoing conversation, Omnichannel for Customer Service can populate the smart assist adaptive cards with similar case suggestions, which agents can refer to for information on how similar cases were resolved.
+Based on the context and the information extracted from an ongoing conversation, Omnichannel for Customer Service can populate the smart assist adaptive cards with similar case recommendations, which agents can refer to for information on how similar cases were resolved.
 
-Given below is the adaptive card JSON for displaying similar case suggestions.
+Given below is the adaptive card JSON for displaying similar case recommendations.
 
 ```json
 {
@@ -195,14 +198,15 @@ Given below is the adaptive card JSON for displaying similar case suggestions.
 }
 ```
 
-## Smart assist using cross sell suggestions
+### Smart assist using cross sell recommendations
 
 > [!NOTE]
-> This is a standalone adaptive card JSON that can be used to build business logic for cross sell suggestions in adaptive cards. The [Build a custom smart assist bot]() code sample does not cover this scenario.
+> This is not an Out-of-the-box feature.
+> This is a standalone adaptive card JSON that can be used to build business logic for displaying cross sell recommendations in adaptive cards. The [Build a custom smart assist bot]() code sample does not cover this scenario.
 
-Smart assist adaptive cards can also contain suggestions for the next case.
+Smart assist adaptive cards can also contain recommendations for the next case.
 
-Given below is the adaptive card JSON for cross sell suggestion.
+Given below is the adaptive card JSON for cross sell recommendation.
 
 ```json
 {
@@ -266,7 +270,7 @@ Given below is the adaptive card JSON for cross sell suggestion.
 }
 ```
 
-## Create appointment
+### Create appointment
 
 Omnichannel for Customer Service allows you to schedule an appointment with a customer by pro-populating appointment fields in the adaptive card based on the context passed in the conversation.
 
@@ -341,17 +345,6 @@ Given below is the adaptive card JSON for creating an appointment with the custo
 }
 
 ``` 
-
-## Sample code
-
-You can find the entire code sample here: [Smart Assist for Bots]().
-
-The sample code implements two functionalities, one that is Common Data Service specific and other is generic functionality.
-
-In the Common Data Service functionality, the bot finds the intent in the conversation and tries to query Common Data Service for a relevant Knowledge Base article. The connection to Dynamics 365 has to be specified in the `appsettings.json` file in the sample. The `DynamicsDataAccessLayer.cs` class in the sample uses the connection strings mentioned in the app settings file to query the knowledge base articles in your Dynamics 365 instance.
-
-In the generic functionality, if the bot encounters an intent for appointment, it suggests the appointment activity in the adaptive cards. You can use [Language Understanding (LUIS)](https://luis.ai) service to extract intent from an ongoing conversation. The conversation intent can be used along with the initial conversation context to display suggestions for the agent. Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
-
 ## Calling macros and custom actions using adaptive cards
 
 You can use the `actions` key in adaptive cards JSON and mention the macro that you want to call as shown in the example below.
@@ -375,6 +368,16 @@ The type is always `Action.Submit` and title can be anything the user wants to n
 ```
 
 If you want to use a custom action, create a web resource using the custom action and then replace `MacroName` and `MacroParameters` with `CustomAction` and `CustomParameters` respectively. The value provided for `CustomAction` key should be the same as the name of the method that is to be called.
+
+## Sample code
+
+You can find the entire code sample here: [Smart Assist for Bots]().
+
+The sample code implements two functionalities, one that is Common Data Service specific and other is generic functionality.
+
+In the Common Data Service functionality, the bot finds the intent in the conversation and tries to query Common Data Service for a relevant Knowledge Base article. The connection to Dynamics 365 has to be specified in the `appsettings.json` file in the sample. The `DynamicsDataAccessLayer.cs` class in the sample uses the connection strings mentioned in the app settings file to query the knowledge base articles in your Dynamics 365 instance.
+
+In the generic functionality, if the bot encounters an intent for appointment, it suggests the appointment activity in the adaptive cards. You can use [Language Understanding (LUIS)](https://luis.ai) service to extract intent from an ongoing conversation. The conversation intent can be used along with the initial conversation context to display recommendations for the agent. Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
 
 ## See also
 
