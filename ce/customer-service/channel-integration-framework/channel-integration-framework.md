@@ -2,15 +2,13 @@
 title: "Dynamics 365 Channel Integration Framework (CIF) Guide | Microsoft Docs"
 description: "Channel Integration Framework (CIF) for Microsoft Dynamics 365 is a cloud-to-cloud extensible framework to integrate third-party Computer Telephony Integration (CTI) systems with Dynamics 365 Unified Interface Apps using a browser-based JavaScript API library."
 keywords: ""
-ms.date: 05/30/2019
+ms.date: 10/17/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 7923e36d-3640-49f7-9f2f-c97358a632db
 author: susikka
 ms.author: susikka
@@ -33,7 +31,42 @@ manager: shujoshi
 <h2> Download </h2>
 
 <li><a href="get-channel-integration-framework.md" data-raw-source="[Get Channel Integration Framework (CIF)](get-channel-integration-framework.md)">Get Channel Integration Framework (CIF)</a></li>
-<li><a href="sample-softphone-integration.md" data-raw-source="[Download sample code for softphone integration](sample-softphone-integration.md)">Download sample code for softphone integration</a></li>
+<li><a href="onboard-org-flight.md" data-raw-source="[Onboard to Version 2.0 flight](onboard-org-flight.md)">Onboard to Version 2.0 flight</a></li>
+<li><a href="sample-softphone-integration-v2.md" data-raw-source="[Download sample code for softphone integration using CIF version 2.0](sample-softphone-integration-v2.md)">Download sample code for softphone integration using CIF version 2.0</a></li>
+<li><a href="sample-softphone-integration.md" data-raw-source="[Download sample code for softphone integration using CIF version 1.0](sample-softphone-integration.md)">Download sample code for softphone integration using CIF version 1.0</a></li>
+</td>
+</tr>
+<tr>
+<td>
+
+<h2> Templates </h2>
+
+<li><a href="session-templates-cif.md" data-raw-source="[Manage session templates](session-templates-cif.md)">Manage session templates</a></li>
+<li><a href="application-tab-templates-cif.md" data-raw-source="[Manage application tab templates](application-tab-templates-cif.md)">Manage application tab templates</a></li>
+<li><a href="notification-templates-cif.md" data-raw-source="[Manage notification templates](notification-templates-cif.md)">Manage notification templates</a></li>
+<li><a href="automation-dictionary-keys-cif.md" data-raw-source="[Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)">Use automation dictionary to pass data parameter keys</a></li>
+<li><a href="associate-templates-cif.md" data-raw-source="[Associate templates with scenarios](associate-templates-cif.md)">Associate templates with scenarios</a></li>
+</td>
+<td>
+
+<h2> Channel Analytics </h2>
+
+<li><a href="channel-analytics.md" data-raw-source="[Channel Analytics](channel-analytics.md)">Channel Analytics</a></li>
+</td>
+</tr>
+<tr>
+<td>
+
+<h2> Integrate</h2>
+
+<li><a href="integration-multi-session-experiences.md" data-raw-source="[Integration with multi-session experiences](integration-multi-session-experiences.md)">Integration with multi-session experiences</a></li>
+</td>
+
+<td>
+
+<h2> Support for multiple providers </h2>
+
+<li><a href="support-multiple-providers.md" data-raw-source="[Support for multiple providers](support-multiple-providers.md)">Support for multiple providers</a></li>
 </td>
 </tr>
 <tr>

@@ -1,6 +1,6 @@
 ---
-title: "Authenticate channel users in Channel Integration Framework (CIF) | Microsoft Docs"
-description: "Learn how to authenticate channel users in the Channel Integration Framework (CIF) for Microsoft Dynamics 365 for Customer Engagement apps. The Channel Integration Framework supports the SAML based Single Sign-On (SSO) for your agents or users to log in to the widget (channel)."
+title: "Authenticate channel users in Dynamics 365 Channel Integration Framework | Microsoft Docs"
+description: "Learn how to authenticate channel users in the Dynamics 365 Channel Integration Framework. The Dynamics 365 Channel Integration Framework supports the SAML based Single Sign-On (SSO) for your agents or users to log in to the widget (channel)."
 keywords: ""
 ms.date: 12/10/2018
 ms.service:
@@ -9,8 +9,6 @@ ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 47B90869-152B-48A6-A249-F37059FF9C12
 author: susikka
 ms.author: susikka
@@ -19,7 +17,7 @@ manager: shujoshi
 
 # Authenticate channel users to the log in to the channel
 
-The Dynamics 365 Channel Integration Framework supports the SAML based Single Sign-On (SSO) for your users (agents) to log in to the channel (widget). The SAML based SSO is available for Dynamics 365 online where the communication widget hosts the channel. To enable SAML based SSO for the channel (widget), you must (administrator) register the channel (widget) in the Azure Active Directory portal as a multi-tenant application, where you have registered the Dynamics 365 Unified Interface App.
+The Microsoft Dynamics 365 Channel Integration Framework supports the SAML based Single Sign-On (SSO) for your users (agents) to log in to the channel (widget). The SAML based SSO is available for Dynamics 365 online where the communication widget hosts the channel. To enable SAML based SSO for the channel (widget), you must (administrator) register the channel (widget) in the Azure Active Directory portal as a multi-tenant application, where you have registered the Dynamics 365 Unified Interface App.
 
 After you register, the Azure Active Directory administrator must grant access to the channel (widget) to the users (agents).
 

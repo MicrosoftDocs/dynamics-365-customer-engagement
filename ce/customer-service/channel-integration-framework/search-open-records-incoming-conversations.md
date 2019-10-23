@@ -19,7 +19,7 @@ manager: shujoshi
 ---
 # Walkthrough: Search and open records on an incoming conversation
 
-In this tutorial, we demonstrate how you can search and open records in Dynamics 365 on an incoming call using the Channel Integration Framework(CIF) APIs.
+In this tutorial, we demonstrate how you can search and open records in Dynamics 365 on an incoming call using the Microsoft Dynamics 365 Channel Integration Framework(CIF) APIs.
 
 The sample given below covers four scenarios:
 

@@ -2,15 +2,13 @@
 title: "What is Dynamics 365 Channel Integration Framework (CIF) | Microsoft Docs"
 description: "Learn what is Channel Integration Framework (CIF) for Microsoft Dynamics 365 and how to get started using it."
 keywords: ""
-ms.date: 12/10/2018
+ms.date: 10/18/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"
 ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: e6d23c5f-e4ec-41f7-aff7-9cb50828357f
 author: susikka
 ms.author: susikka
@@ -40,7 +38,27 @@ Organizations expect their call centers to do more with fewer resources, and the
 
 ## Advantages and value propositions of Channel Integration Framework
 
-The value propositions of Channel Integration Framework are:
+The Channel Integration Framework version 2.0, provides multiple enhancements over the version 1.0, particularly in terms of its ability to integrate with the latest multi-session agent experiences for customer service. Following are the key new features in the Channel Integration Framework Version 2.0 over the version 1.0: 
+
+**Integration with the multi-session experiences** 
+
+The Channel Integration Framework version 2.0 provides APIs to integrate with the multi-session experiences in the Omnichannel for customer service app. These APIs allow providers to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as and when needed.
+
+More information: [Integration with multi-session experiences](integration-multi-session-experiences.md).
+
+**New modes and locations for the communication widget**
+
+Providers can now define experiences for the minimized mode of the communication widgets they build. Agents can manually change the mode of the control from docked to minimized. The same can be achieved programmatically as well. 
+
+More information: [New modes and locations for the communication widget](modes-communication-widget.md).
+
+**Support for Multiple Providers**
+
+With Channel Integration Framework version 2.0, organizations can configure multiple providers in the Omnichannel for Customer Service app. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels (for example, live chat and telephony), where each of these sessions belong to different providers.
+
+More information: [Support for Multiple Providers](support-multiple-providers.md).
+
+Here are the capabilities offered by Channel Integration Framework version 1.0 which also apply to version 2.0:
 
 **Bring your own channel providers (Integrate third-party channel providers):**
 
@@ -69,9 +87,14 @@ You can seamlessly integrate several providers by using the Channel Integration 
 
 The Channel Integration Framework is Dynamics 365 Unified Interface App agnostic. You can build the channel integration one-time and enable it on the Unified Interface Apps of your choice based on the business requirements.
 
+> [!NOTE]
+> Multi-session capabilities are only available for version 2.0.
+
 **Independent of operating systems and web browsers:**
 
 The Channel Integration Framework is web browser and operating system agnostic, and lets you integrate the cloud-based channels of your choice that is best for your organization's requirement.
+
+See the list of supported web browsers here: [Supported browsers](system-requirements-channel-integration-framework.md#supported-browsers).
 
 **Support for Screen pop:**
 

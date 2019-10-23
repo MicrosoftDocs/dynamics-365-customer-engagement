@@ -1,16 +1,14 @@
 ---
-title: "Client-side (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | Microsoft Docs"
-description: ""
+title: "Client-side Events (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
+description: "Read about the client side events that you can use to trigger the client-side code."
 keywords: ""
-ms.date: 12/10/2018
+ms.date: 10/21/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"
 ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 419901A4-0D14-429A-84D6-C351163B8941
 author: susikka
 ms.author: susikka
@@ -27,8 +25,10 @@ Each event handler specifies a function within a JavaScript library and the para
 
 | Events | Description |
 |---------|-------------|
-| [onclicktoact]() | Invoked when user selects the outbound communication (ClickToAct) field in a form. |
-| [onmodechanged]() | Invoked when the panel mode is manually toggled between **Minimized (0)** and **Docked (1)**. |
-| [onpagenavigate]() | Invoked when the main Unified Interface page navigation occurs. |
-| [onsendkbarticle]() | Invoked when the user selects the **Send** button in the Knowledge Base control. |
-| [onsizechanged]() | Invoked when the side panel width is changed. |
+| [onClickToAct](events/onClickToAct.md) | Invoked when user selects the outbound communication (ClickToAct) field in a form. |
+| [onModeChanged](events/onModeChanged.md) | Invoked when the panel mode is manually toggled between **Minimized (0)**, **Docked (1)** and **Hidden (2)**. |
+| [onPageNavigate](events/onPageNavigate.md) | Invoked when the main Unified Interface page navigation occurs. |
+| [onSendKBArticle](events/onSendKBArticle.md) | Invoked when the user selects the **Send** button in the Knowledge Base control. |
+| [onSizeChanged](events/onSizeChanged.md) | Invoked when the side panel width is changed. |
+| [onSessionSwitched](events/onSessionSwitched.md) | Invoked when the session is switched. |
+| [onSessionClosed](events/onSessionClosed.md) | Invoked when the session is closed. |

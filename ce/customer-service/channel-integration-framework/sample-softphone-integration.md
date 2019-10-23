@@ -1,8 +1,8 @@
 ---
-title: "Sample code for softphone integration using Channel Integration Framework (CIF) | Microsoft Docs"
-description: "Learn about sample code for softphone integration using Channel Integration Framework (CIF) with Microsoft Dynamics 365 Unified Interface App."
+title: "Sample code for softphone integration using Channel Integration Framework version 1.0 | Microsoft Docs"
+description: "Learn about sample code for softphone integration using Channel Integration Framework version 1.0 with Microsoft Dynamics 365 Unified Interface App."
 keywords: ""
-ms.date: 03/14/2019
+ms.date: 10/16/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -19,7 +19,7 @@ manager: shujoshi
 
 # Sample softphone integration using Channel Integration Framework
 
-[Download](https://go.microsoft.com/fwlink/p/?linkid=2025867) the sample to integrate a softphone with Dynamics 365 for Customer Engagement apps using Channel Integration Framework.
+[Download](https://go.microsoft.com/fwlink/p/?linkid=2025867) the softphone integration sample for Microsoft Dynamics 365 Channel Integration Framework version 1.0.
 
 > [!NOTE]
 > The sample code is not supported on Internet Explorer and on browsers that do not have webRTC support. More information [WebRTC](https://webrtc.org/).
@@ -64,7 +64,7 @@ manager: shujoshi
 
 ## Configure sample app in Dynamics 365
 
-1. Note the base URL of the CRM org from where all webresources are served. For an online org, this should be of the form `https://<orgname>.crmXX.dynamics.com`. For example, `https://sampleorg.crm10.dynamics.com`
+1. Note the base URL of the Dynamics 365 org from where all web resources are stored. For an online org, this should be of the form `https://<orgname>.crmXX.dynamics.com`. For example, `https://sampleorg.crm10.dynamics.com`
 
 1. Get the **Dynamics 365 Channel Integration Framework** solution. For more information, see [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md).
 
