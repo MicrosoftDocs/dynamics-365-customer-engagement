@@ -154,7 +154,7 @@ As an example, if the product or service is added from a work order incident typ
 
 In the Other section, you have the ability to change the price list of a specific product or service from the work order price list which it will have by default. 
 
-You also have the ability to apply or disable an entitlement, which are generally automatically applied based on factors like service account and incident type. See the topic on [entitlements](./work-order-entitlements.md) for more details.
+You also have the ability to apply or disable an entitlement, which are automatically applied based on factors like service account and incident type. See the topic on [entitlements](./work-order-entitlements.md) for more details.
 
 Non-inventory products are added as work order products as well.
 
@@ -164,7 +164,7 @@ Service type products (labor) should be added as work order services.
 > ![Screenshot of ](./media/work-order-service-add.png)
 
 
-Adding a work order service is very similar to adding a work order product, however there is no inventory allocation or warehouse, and there is an **estimate duration** rather than estimate quantity.
+Adding a work order service is very similar to adding a work order product, however there is no inventory allocation or warehouse, and there is an **Estimate Duration** rather than estimate quantity.
 
 
 ## Use and consume products and services
