@@ -1,7 +1,7 @@
 ---
 title: "Disable auto-save (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/29/2019
+ms.date: 10/23/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -32,7 +32,9 @@ Auto-save helps people focus on their work without having to manage saving data 
   
  With auto-save enabled, the save button only appears for the initial save of the record. After the record is created, the save button in the command bar isn’t shown, but you can see a ![Auto save button](../customize/media/auto-save-icon.png "Auto save button") button in the lower right corner that will show if there are any unsaved changes. This control is also displayed if auto-save is disabled.  
   
- You can click this button to save the record and refresh data in the form immediately. When  auto-save is enabled the record will be saved whenever you navigate away from a record or close a separate window displaying a record. There is no need for the **Save & Close** button that appears in forms for entities that aren’t updated.  
+ You can click this button to save the record and refresh data in the form immediately. When  auto-save is enabled the record will be saved whenever you navigate away from a record or close a separate window displaying a record. There is no need for the **Save & Close** button that appears in forms for entities that aren’t updated.
+   > [!IMPORTANT]
+   >  In the Unified Interface, the auto-save interval for a page will increase if there is an error during auto-save. Also, if an attribute value is changed or there is a successful save, the interval will reset to 30 seconds.
   
 <a name="BKMK_AutoSave"></a>   
 ## Should you disable auto-save?  
