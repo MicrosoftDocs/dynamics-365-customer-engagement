@@ -106,6 +106,9 @@ After you configure the agent script and add the field to a form, you need to as
 
 6. Select the search icon in the **Look for Records** box. Select the agent script from the list and select **Add**.
 
+    > [!div class=mx-imgBorder] 
+    > ![Associate agent script](../media/associate-agent-script.png "Associate agent script")
+
 7. Select **Save**.
 
 The agent script is associated with the session template.
