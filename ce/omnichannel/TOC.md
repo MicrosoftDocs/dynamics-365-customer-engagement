@@ -4,6 +4,7 @@
 ### [Introduction](introduction-omnichannel.md)
 ### [Preview features in Omnichannel for Customer Service](preview-features.md)
 ### [Try Chat for Dynamics 365 Customer Service](try-chat-for-dynamics365.md)
+### [Chat for Dynamics 365 Customer Service demo data](chat-dynamics365-customer-service-demo-data.md)
 ### [Pre-requisites and system requirements](system-requirements-omnichannel.md)
 ### [Assign roles and enable users](administrator/add-users-assign-roles.md)
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)
@@ -37,19 +38,31 @@
 #### [Configure an SMS channel](administrator/configure-sms-channel.md)
 #### Entity records
 ##### [Entity records routing](administrator/entity-channel.md)
-##### [Walkthrough: Create multiple workstreams for entity records routing](administrator/multiple-ws-entity-record-routing.md)
+##### [Route trigger for entity records](administrator/routing-trigger.md)
 
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)
 #### [Manage users](administrator/users-user-profiles.md)
+#### Skill based routing
+##### [Overview](administrator/overview-skill-work-distribution.md)
+##### [Skill based routing and rating model](administrator/enable-skill-routing-create-rating-model.md)
+##### [Set up skills and assign agents](administrator/setup-skills-assign-agents.md)
+##### [Attach skills to conversation](administrator/attach-skills.md)
 
 ### Work Distribution Management
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
-#### [Entity record workstreams](administrator/set-up-entity-workstream.md)
+#### [Create workstream for entity record routing](administrator/set-up-entity-workstream.md)
+#### [Create multiple workstreams for entity records routing](administrator/multiple-ws-entity-record-routing.md)
 #### [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
 
 ### Agent Experience
+#### Productivity tools
+##### [Overview](administrator/productivity-tools.md)
+##### [Macros](administrator/macros.md)
+##### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
+##### [Agent scripts](administrator/agent-scripts.md)
+##### [Smart assist](administrator/smart-assist.md)
 #### [Create quick replies](administrator/create-quick-replies.md)
 #### [Configure and manage custom presence](administrator/presence-custom-presence.md)
 #### [Share knowledge articles](administrator/knowledge-management-oc.md)
@@ -67,6 +80,15 @@
 #### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
+#### [Enable portal navigation](administrator/portal-navigation.md)
+
+### Templates
+#### [Overview](administrator/templates-overview.md)
+#### [Manage session templates](administrator/session-templates.md)
+#### [Manage application tab templates](administrator/application-tab-templates.md)
+#### [Manage notification templates](administrator/notification-templates.md)
+#### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
+#### [Associate templates with workstreams](administrator/associate-templates.md)
 
 ## Agent guide
 
@@ -77,6 +99,9 @@
 #### [Introduction to the agent interface](agent/agent-oc/oc-introduction-agent-interface.md)
 #### [Manage sessions](agent/agent-oc/oc-manage-sessions.md)
 #### [Manage applications](agent/agent-oc/oc-manage-applications.md)
+#### Productivity tools
+##### [Agent scripts](agent/agent-oc/oc-agent-scripts.md)
+##### [Smart assist](agent/agent-oc/oc-smart-assist.md)
 #### [View agent dashboard and conversations (work items)](agent/agent-oc/oc-agent-dashboard.md)
 #### [Create a record](agent/agent-oc/oc-create-record.md)
 #### [Search, link, and unlink a record](agent/agent-oc/oc-search-link-unlink-record.md)
@@ -88,6 +113,7 @@
 #### [View customer summary](agent/agent-oc/oc-customer-summary.md)
 #### [Search for and share knowledge articles](agent/agent-oc/oc-search-knowledge-articles.md)
 #### [Take notes specific to conversation](agent/agent-oc/oc-take-notes.md)
+#### [Search for transcripts](agent/agent-oc/oc-search-transcipts.md)
 #### [View conversation and session activity types in the Model-driven apps](agent/agent-oc/oc-view-activity-types.md)
 #### [View customer summary for an incoming conversation request](agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md)
 
@@ -126,9 +152,9 @@
 #### [Customize quick view forms](customizer/customize-quick-view-form.md)
 
 ### [Customize the session forms](customizer/customize-session-form.md)
-
+### [Configure link to conversation button in model-driven app entity form](customizer/configure-link-to-conversation-model-driven-app-form.md)
+### [Configure relevance search for chat transcript](customizer/relevance-search-chat-transcript.md)
 ### Unified Service Desk settings
-
 #### [Create agent and supervisor configurations in Unified Service Desk](customizer/create-agent-supervisor-configurations-unified-service-desk.md)
 
 #### Configure Omnichannel Agent Dashboard
@@ -171,11 +197,21 @@
 ###### [Step 4: Attach Omnichannel Toast Notification-related action calls to events](customizer/toastnotification-step4-add-action-calls-events.md)
 ###### [Step 5: Add the hosted control, events, forms and action calls to configurations](customizer/toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 
+#### Configure search
+##### [Overview](customizer/configure-search.md)
+##### [Step 1: Create search hosted control](customizer/search-step1-create-hosted-control.md)
+##### [Step 2: Create search-related action calls](customizer/search-step2-create-action-calls.md)
+##### [Step 3: Attach sub action calls to action calls](customizer/search-step3-attach-sub-action-calls.md)
+##### [Step 4: Attach search-related action calls to events](customizer/search-step4-attach-action-calls-events.md)
+##### [Step 5: Configure window navigation rule for search](customizer/search-step5-configure-window-navigation-rule.md)
+##### [Step 6: Create toolbar buttons for search](customizer/search-step6-create-toolbar-button.md)
+##### [Step 7: Add hosted control, action calls, window navigation rule, and events to configurations](customizer/search-step7-add-hosted-control-action-calls-events-configurations.md)
+
 #### [Configure session name information](customizer/configure-session-name-information.md)
 
 #### [Configure Scriptlets to define case and channel titles](customizer/configure-Scriptlets-define-case-channel-titles.md)
 
-#### [Configure link to conversation button](customizer/configure-link-to-conversation.md)
+#### [Configure link to conversation button in Unified Service Desk](customizer/configure-link-to-conversation.md)
 
 ## Developer guide
 ### [Overview](developer/omnichannel-developer.md)

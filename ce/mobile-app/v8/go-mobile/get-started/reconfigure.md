@@ -1,7 +1,7 @@
 ---
 title: "Reconfigure Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 2016-11-01
+ms.date: 10/07/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

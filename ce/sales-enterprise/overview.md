@@ -2,9 +2,11 @@
 title: "Sales Overview (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Get an overview of the sales offerings from Dynamics 365 Sales."
 keywords: "Sales Hub, Sales, overview, lead, opportunity, mobile, mobile-optimized, desktop, deal, device, sales person, sales manager"
-ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.date: 10/14/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: get-started-article
 ms.assetid: 0abe6dc4-c8bc-4d09-a29f-e41218e08927
 author: shubhadaj
@@ -19,8 +21,7 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]!
 
 [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, and create sales collateral. It also lets you create marketing lists and campaigns, and even follow service cases associated with specific accounts or opportunities.
 
-    > [!IMPORTANT]
-    > Dynamics 365 Sales is a model-driven app that is built on the Common Data Service platform. You can create and manage model-driven apps by using PowerApps. More information: [What are model-driven apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
+[!INCLUDE[cc-app-definition-sales](../includes/cc-app-definition-sales.md)]
 
 ## Available anywhere, on any device
 
@@ -47,6 +48,11 @@ Here are the flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md
 The following image shows the menu of the Sales Hub app, which is the Unified Interface app for Dynamics 365 Sales.
 
 ![Menu of the Sales Hub app](../sales-enterprise/media/menu-sales-hub-app.png "Menu of the Sales Hub app")
+
+![Menu item 1](media/number-1.png "Menu item 1")  **Open or collapse the site map**.  
+![Menu item 2](media/number-2.png "Menu item 2")   Access the recent items you've worked on or the customers you've pinned.  
+![Menu item 3](media/number-3.png "Menu item 3")  Access everything that you need to communicate with customers, manage your sales-related records, and so on.  
+![Menu item 4](media/number-4.png "Menu item 4") Switch between **Sales**, **Settings**, and **Training** area. 
 
 ## What Dynamics 365 Sales offers
 

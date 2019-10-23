@@ -5,8 +5,6 @@ keywords: send survey; distribute survey; distribute voice of the customer surve
 ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 7057bf74-3083-4e9e-9381-646ac89d95e2
 author: sbmjais
 ms.author: shjais
@@ -24,15 +22,15 @@ ms.custom:
 
 After your survey is ready, you can distribute the survey and invite respondents to take part in it. You can distribute surveys in one of two ways:
 
-- **Anonymous**: For these surveys, [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] doesn't know who the respondents are. You can distribute a link to the survey using email, the social sites [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn-facebook](../includes/tn-facebook.md)], or other webpages. These types of surveys are best suited for lead creation or information-gathering where the identity of the respondent is not important.
+- **Anonymous**: For these surveys, Dynamics 365 doesn't know who the respondents are. You can distribute a link to the survey using email, the social sites [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn-facebook](../includes/tn-facebook.md)], or other webpages. These types of surveys are best suited for lead creation or information-gathering where the identity of the respondent is not important.
 
-- **Non-anonymous**: You send survey invitation links to specific contacts, accounts, or leads in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. You can personalize the invitation links using the customer name, product name, agent name, and so on.
+- **Non-anonymous**: You send survey invitation links to specific contacts, accounts, or leads in Dynamics 365. You can personalize the invitation links using the customer name, product name, agent name, and so on.
 
 ## Distribute a survey to anonymous respondents
 
 If you configure your survey to allow anonymous respondents, you can copy the survey URL and paste it from the survey to the medium you want to use to send it. You can send it in email, post it on social media sites like [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn-facebook](../includes/tn-facebook.md)], or publish it on your website.
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. Sign in to the Voice of the Customer legacy web client or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -51,19 +49,19 @@ If you configure your survey to allow anonymous respondents, you can copy the su
 
 8. Save the changes.
 
-[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] doesn't associate responses with a customer record in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. If you want to create a lead from an anonymous response, set **Create Lead For Anonymous Responses** to **Yes**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a lead from a survey response](design-advanced-survey.md#create-a-lead-from-a-survey-response)  
+Dynamics 365 doesn't associate responses with a customer record in Dynamics 365. If you want to create a lead from an anonymous response, set **Create Lead For Anonymous Responses** to **Yes**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a lead from a survey response](design-advanced-survey.md#create-a-lead-from-a-survey-response)  
 
 ## Distribute a survey to non-anonymous respondents
 
-For non-anonymous surveys, the link you send to respondents is specific and unique for each customer. [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] generates the URLs for you to use when you create a survey invitation or embed the survey snippet in an email.
+For non-anonymous surveys, the link you send to respondents is specific and unique for each customer. Dynamics 365 generates the URLs for you to use when you create a survey invitation or embed the survey snippet in an email.
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. Sign in to the Voice of the Customer legacy web client or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
 3. Select the name of the survey for which you want to receive non-anonymous responses.
 
-4. Under **Invitations and Actions**, copy the value from the **Email Snippet** field and send it to your respondents through [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] email.
+4. Under **Invitations and Actions**, copy the value from the **Email Snippet** field and send it to your respondents through Dynamics 365 email.
 
    > [!NOTE]
    > You can also select **Copy Snippet** on the toolbar to copy the email snippet.
@@ -95,7 +93,7 @@ You can [send direct email](https://docs.microsoft.com/dynamics365/customer-enga
 > [!NOTE]
 > You can add multiple survey snippets to an email and send them your respondents.
 
-You can also select an email template when you create an email in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]:
+You can also select an email template when you create an email in Dynamics 365:
 
 1.  Select **Insert Template** from the toolbar.
 
@@ -105,7 +103,7 @@ You can also select an email template when you create an email in [!INCLUDE[pn-d
 
 ### Create a survey invitation or survey activity
 
-You can create a survey activity or survey invitation to create personalized invitation links that are distributed by using a non&ndash;[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] email program. These personalized invitation links have the following advantages:
+You can create a survey activity or survey invitation to create personalized invitation links that are distributed by using a non&ndash;Dynamics 365 email program. These personalized invitation links have the following advantages:
 
 -   You can add piped data to the survey.
 
@@ -123,7 +121,7 @@ To create a survey invitation or survey activity:
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -166,11 +164,11 @@ To create a survey invitation or survey activity:
 8. Copy the link and share it by using a third-party email provider.
 
 > [!NOTE]
-> If you send email by using [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], a survey activity is created automatically for the respondent.
+> If you send email by using Dynamics 365, a survey activity is created automatically for the respondent.
 
 ## Personalize survey invitations
 
-If you want to personalize your survey invitation in a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] email, make sure your survey snippet contains piped data, and then add a vertical bar (|) (also called a pipe), plus the parameters after the GUID, in your email invitation. The syntax to insert piped data in a survey snippet is:
+If you want to personalize your survey invitation in a Dynamics 365 email, make sure your survey snippet contains piped data, and then add a vertical bar (|) (also called a pipe), plus the parameters after the GUID, in your email invitation. The syntax to insert piped data in a survey snippet is:
 
 > \[Survey-Snippet-Start\]\[ID\]|\[PIPE\_NAME\]=\[PIPE\_VALUE\]\[Survey-Snippet-End\]
 
@@ -226,7 +224,7 @@ You can create a workflow to send email, as shown in the following image. You ca
 
 You can use the survey dashboard to track surveys you have sent to your respondents. Use the dashboard to select a combination of views and charts to see the results you're interested in. You can also create your personal, customized view to see the results.
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 

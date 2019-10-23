@@ -1,9 +1,12 @@
 ---
 title: "Connect and share feedback (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Connect with partners and other users of Dynamics 365 Sales, submit ideas, and share any feedback that you have for the Sales Hub app."
+keywords: ""
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 ms.assetid: 7d390f43-a961-41e1-bfb8-c0ff7ee25b1b
 author: shubhadaj
@@ -13,14 +16,7 @@ manager: annbe
 
 # Connect and share feedback for the Sales Hub app
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 The **Connect and share** capability in the Sales Hub app lets experts and peers connect with each other, submit ideas, and share any feedback that they have about the Sales Hub app.
-
-> [!IMPORTANT]
-> - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
 
 ## Connect through community and forum
 

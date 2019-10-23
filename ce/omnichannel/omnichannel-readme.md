@@ -153,7 +153,7 @@ The updates you do to the out-of-the-box **Cases Work Distribution Flow** for un
 ### Workaround
 Authorize Common Data Service native connector in the flow before you save it.
 
-More information: [Update cases work distribution flow](administrator/entity-channel.md#step-4-update-cases-work-distribution-flow)
+More information: [Update cases work distribution flow](administrator/multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow)
 
 ## Entity records aren't distributed to agents
 
@@ -175,4 +175,4 @@ Queue is in read-only state or **+ New** button is missing on queue form and gri
 
 Please reach out to Microsoft support team to have read-only flag removed from queue entity.
 
-More information: [Create queues](administrator/entity-channel.md#step-1-create-queues)
+More information: [Create queues](administrator/entity-channel.md#step-1-create-queues-and-add-agents)

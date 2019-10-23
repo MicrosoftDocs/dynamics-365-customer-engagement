@@ -57,8 +57,7 @@ The following table compares how each of the public-facing interactive features 
 
 Each time you install Dynamics 365 Marketing, you must choose whether or not to integrate it with a portal. 
 
-To use a portal, you must have a separate Dynamics 365 Portals license for each Dynamics 365 Marketing instance that uses portal features, and an unconfigured portal must be available on your tenant when you set up Dynamics 365 Marketing. A free portals license is sometimes included with Dynamics 365 Marketing (depending on which license you have chosen), but you are still limited to, at most, one free portal per tenant. More information: [When do I need a portal license, and how can I get one?](setup-troubleshooting.md#why-portal).
-
+To use a portal, you must have a separate Dynamics 365 Portals license for each Dynamics 365 Marketing instance that uses portal features, and an unconfigured portal must be available on your tenant when you set up Dynamics 365 Marketing. A free portals license is sometimes included with Dynamics 365 Marketing (depending on which license you have chosen), but you are still limited to, at most, one free portal per tenant.
 If you choose the non-portals option, then you'll be able to complete the Marketing setup even without an unconfigured portal available.
 
 You can use portal features in parallel with website/CMS features provided you have a portal. You could, for example, start by using a portal for all interactive features and then slowly transition to an external website until you're ready to remove the portal entirely.
@@ -126,7 +125,6 @@ To add a portal to an existing Marketing installation that doesn't have one:
 
 [Purchase and set up Dynamics 365 Marketing](purchase-setup.md)  
 [Create interactive features with or without portals](portals.md)  
-[When do I need a portal license, and how can I get one?](setup-troubleshooting.md#why-portal)  
 [Integrate with landing pages published on an external website](embed-forms.md)  
 [Set up subscription lists and subscription centers](set-up-subscription-center.md)  
 [Set up the event website](set-up-event-portal.md)  

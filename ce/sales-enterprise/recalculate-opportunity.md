@@ -13,7 +13,7 @@ manager: annbe
 caps.latest.revision: 58
 ---
 
-## Recalculate an opportunity (Sales Hub)
+# Recalculate an opportunity (Sales Hub)
 
 To change the estimated revenue of an opportunity based on any changes you've made to the associated products or product quantities, recalculate the opportunity.
 

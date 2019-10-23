@@ -143,7 +143,7 @@ Substitute the `[provider]` tag in the site setting name with a specific identit
 
 ### See also
 
-[Configure Dynamics 365 Portals authentication](configure-portal-authentication.md)  
+[Configure portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)   
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  

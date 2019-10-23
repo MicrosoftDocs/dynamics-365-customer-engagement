@@ -3,8 +3,10 @@ title: "Add products to a quote, order, or invoice (Dynamics 365 Sales) | Micros
 description: "Include details about the products that your customer is interested in purchasing in your quote, order, or invoice in Dynamics 365 Sales."
 keywords: "product, quote, order, invoice"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 ms.assetid: c1f6f66e-25fe-4528-a2f3-f2a3a2e3830d
 author: shubhadaj
@@ -36,11 +38,6 @@ The process for adding a product to a quote record is the same as adding a produ
           > - When a price list isn't selected, the **Existing product** field shows all active products (not filtered by the price list). You can change the view to look for other products by selecting the **Change View** icon. 
           > - By default, the product lookup will show the most recently used products. The most recently used products are not filtered based on the selected price list. 
           > - If a price list is selected, and you select a product that isn’t associated with the price list, you'll see an error. Select a product that's associated with the selected price list.
-
-
-            > [!IMPORTANT]
-            > - The capability to make the selection of a price list optional is a preview feature. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
-            > - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
 
         - To create a product, select **Write-In**, and then enter the name of the product.
 
