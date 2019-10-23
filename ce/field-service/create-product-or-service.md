@@ -155,51 +155,51 @@ In the Other section, you have the ability to change the price list of a specifi
 
 You also have the ability to apply or disable an entitlement, which are generally automatically applied based on factors like service account and incident type. See the topic on [entitlements](./work-order-entitlements.md) for more details.
 
-- add or edit quanity
-- add or edit price list
-
-In addition to inventory products, non-inventory products are added as work order products as well.
+Non-inventory products are added as work order products as well.
 
 Service type products (labor) should be added as work order services.
-
-
-Adding a work order service is very similar to a work order product, however there is no inventory allocation or warehouse, and there is an estimate duration rather than estimate quantity.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-service-add.png)
 
 
+Adding a work order service is very similar to adding a work order product, however there is no inventory allocation or warehouse, and there is an **estimate duration** rather than estimate quantity.
+
 
 ## Use and consume products and services
 
-- FSM
+Whether work order products and services are created individually or in bulk as part of a work order incident type template, they will appear on Field Service Mobile for the field technician to view.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-services-mobile.png)
 
+Work Order products and services are simply recommended items the field technician can use or not. Field technicians have the ability to edit the quantity or add new products and services from the product catalog, and what they can edit, create, and delete can be modified based on your business needs with security roles and field security profiles. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-add-mobile.png)
+
+Within a work order product record, field technicians will set the Line Status to Used and enter a quantity, which represents how many units were actually consumed, and a quantity to bill, which can be different.
+
+When using an inventory item, you need to enter a warehouse it comes from. This will default to the warehouse value on the Bookable Resource.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-add-mobile-non-inventory.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-service-add-mobile.png)
 
 
-- calculations
 
-> [!Note]
-> calculations happen in online mode or on sync
-
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-product-add-mobile.png)
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-mobile-subtotal.png)
 
+- calculations
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-product-add-mobile-non-inventory.png)
+> [!Note]
+> calculations happen in online mode or on sync
 
 - invoice  
 Used products and services will appear on the invoice generated from the closed-posted work order and the price of each
