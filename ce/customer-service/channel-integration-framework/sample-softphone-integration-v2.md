@@ -1,6 +1,6 @@
 ---
-title: "Sample code for softphone integration using Channel Integration Framework version 2.0 | Microsoft Docs"
-description: "Learn about sample code for softphone integration using Channel Integration Framework version 2.0 with Microsoft Dynamics 365 Unified Interface App."
+title: "Sample code for softphone integration using Dynamics 365 Channel Integration Framework version 2.0 | Microsoft Docs"
+description: "Learn about sample code for softphone integration using Dynamics 365 Channel Integration Framework version 2.0 with Unified Interface apps."
 keywords: ""
 ms.date: 10/17/2019
 ms.service:
@@ -21,35 +21,36 @@ manager: shujoshi
 [Download](https://experience.dynamics.com/insider/campaign/program-downloads/?id=86c59063-b2c9-e911-a96f-000d3a4f33c1) softphone integration sample for Microsoft Dynamics 365 Channel Integration Framework version 2.0.
 
 > [!NOTE]
-> The sample code is not supported on Internet Explorer and on browsers that do not have webRTC support. More information [WebRTC](https://webrtc.org/).
+> The sample code is not supported on Internet Explorer and on browsers that do not have webRTC support. More information: [WebRTC](https://webrtc.org/)
 
 > [!Important]
 > - This sample code currently has limited availability.
-> - The sample code for softphone integration with Dynamics 365 using Channel Integration Framework is made available so customers can get early access and provide feedback. The sample code is not meant for production use and may have limited or restricted functionality.
-> - Microsoft doesn't provide support for this sample code for production use and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. This is subject to [supplemental terms of use](https://go.microsoft.com/fwlink/p/?LinkId=511446)
+> - The sample code for softphone integration with Dynamics 365 using Dynamics 365 Channel Integration Framework is made available so customers can get early access and provide feedback. The sample code is not meant for production use and may have limited or restricted functionality.
+> - Microsoft doesn't provide support for this sample code for production use and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. This is subject to [supplemental terms of use](https://go.microsoft.com/fwlink/p/?LinkId=511446).
 
-## Pre-requisites
+## Prerequisites
 
-- Omnichannel for Customer Service
+- Omnichannel for Dynamics 365 Customer Service
 - A valid Azure subscription is required to publish the sample app to Azure.
-> [!Note]
-> If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/).
+
+  > [!Note]
+  > If you don't have an Azure subscription, you can create a [free account](https://azure.microsoft.com/free/).
 
 <a name="bkmk_PublishToAzure"></a>
 
-## Publish sample app to Azure
+## Publish a sample app to Azure
 
 1. Open the solution **SampleInteg.sln** using Visual Studio 2017.
 2. In **Solution Explorer**, right-click on the solution and build the complete solution.
 3. In **Solution Explorer**, right-click on the project **SampleInteg**  and select **Publish**.
 4. Select **Start** to launch the **Publish** wizard.
 5. Choose **App Service** as the publish target.
-6. Select **Create New**. Then, click on **Publish**.
+6. Select **Create New** and then select **Publish**.
 7. Provide an app name. For example, **SampleInteg**.
 8. Provide valid subscription, resource group, and hosting plan details.
-9. Select **Create** to create the azure app service, and save the app service URL for future use.<br>For example, `https://sampleinteg.azurewebsites.net`.
+9. Select **Create** to create the Azure app service, and save the app service URL for future use.<br>For example, `https://sampleinteg.azurewebsites.net`.
 <br />
-![Select Create to publish app on Azure](media/publish-app-azure.PNG "Select Create to publish app on Azure")<br />
+![Select Create to publish app on Azure](media/publish-app-azure.png "Select Create to publish app on Azure")<br />
 
 ## Create function to use with the app service
 
