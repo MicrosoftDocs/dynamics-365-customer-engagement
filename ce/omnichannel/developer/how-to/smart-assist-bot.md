@@ -36,7 +36,7 @@ It is essential to analyze the conversation and understand its context before yo
 
 ## Samples for adaptive cards
 
-Based on the intent extracted from an ongoing conversation, you can provide appropriate recommendations to the agent. This section covers some examples for adaptive cards that can be used for various scenarios. You can use the [Adaptive Cards Designer](https://adaptivecards.io/designer/) to create your own adaptive card template.
+Based on the intent extracted from an ongoing conversation, you can provide appropriate recommendations to the agent using adaptive cards. This section covers some examples for adaptive cards that can be used for various scenarios. You can use the [Adaptive Cards Designer](https://adaptivecards.io/designer/) to create your own adaptive card template.
 
 ### Smart assist using knowledge articles
 
@@ -351,7 +351,7 @@ Given below is the adaptive card JSON for creating an appointment with the custo
 ``` 
 ## Calling macros and custom actions using adaptive cards
 
-You can use the `actions` key in adaptive cards JSON and mention the macro that you want to call as shown in the example below.
+You can use the `actions` key in adaptive cards JSON and mention the macro or custom action that you want to call, as shown in the example below.
 
 The type is always `Action.Submit` and title can be anything the user wants to name the action.
 
@@ -371,7 +371,9 @@ The type is always `Action.Submit` and title can be anything the user wants to n
 	]
 ```
 
-If you want to use a custom action, create a web resource using the custom action and then replace `MacroName` and `MacroParameters` with `CustomAction` and `CustomParameters` respectively. The value provided for `CustomAction` key should be the same as the name of the method that is to be called.
+You will have to create a web resource if you want to use embed a macro or custom action within a suggestion.
+
+To use a custom action, replace `MacroName` and `MacroParameters` with `CustomAction` and `CustomParameters` respectively in the adaptive card JSON. The value provided for `CustomAction` key should be the same as the name of the method that is to be called.
 
 See also: [Automate tasks with macros](../../administrator/macros.md).
 
