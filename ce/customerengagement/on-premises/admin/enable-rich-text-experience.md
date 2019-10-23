@@ -27,7 +27,7 @@ With rich text enabled you get the following benefits:
 
 - Create and synchronize appointments with rich text content in the description for an improved experience in both web and the Unified Interface. 
 - Include content from an HTML web page right into the description field or create your own custom markup using the appointment editor. Appointments tracked from Outlook will also render rich text content in Dynamics 365 Customer Engagement (on-premises). 
-- Server-side synchronization synchronizes the rich-text HMTL content of appointment descriptions into Dynamics 365 Customer Engagement (on-premises).
+- Server-side synchronization synchronizes the rich-text HTML content of appointment descriptions into Dynamics 365 Customer Engagement (on-premises).
 
 
 > [!IMPORTANT]

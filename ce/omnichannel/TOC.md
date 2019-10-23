@@ -38,7 +38,7 @@
 #### [Configure an SMS channel](administrator/configure-sms-channel.md)
 #### Entity records
 ##### [Entity records routing](administrator/entity-channel.md)
-##### [Walkthrough: Create multiple workstreams for entity records routing](administrator/multiple-ws-entity-record-routing.md)
+##### [Route trigger for entity records](administrator/routing-trigger.md)
 
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)
@@ -52,18 +52,27 @@
 
 ### Work Distribution Management
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
-#### [Entity record workstreams](administrator/set-up-entity-workstream.md)
+#### [Create workstream for entity record routing](administrator/set-up-entity-workstream.md)
+#### [Create multiple workstreams for entity records routing](administrator/multiple-ws-entity-record-routing.md)
 #### [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
 
 ### Agent Experience
+#### Productivity tools
+##### [Overview](administrator/productivity-tools.md)
+##### [Macros](administrator/macros.md)
+##### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
+##### [Agent scripts](administrator/agent-scripts.md)
+##### [Smart assist](administrator/smart-assist.md)
 #### [Create quick replies](administrator/create-quick-replies.md)
 #### [Configure and manage custom presence](administrator/presence-custom-presence.md)
 #### [Share knowledge articles](administrator/knowledge-management-oc.md)
 
 ### Supervisor Experience
-#### [Configure to view intraday insights dashboard](administrator/configure-intraday-dashboard-supervisor.md)
+#### [Configure to view Intraday insights](administrator/configure-intraday-dashboard-supervisor.md)
+#### [Customize KPIs for Intraday insights](administrator/customize-kpis-intraday-insights.md)
 #### [Provide access to Ongoing Conversations dashboard](administrator/configure-ongoing-conversations-dashbaord.md)
+<!--#### [Enable supervisors to monitor and assign conversations](administrator/configure-ongoing-conversations-settings.md)-->
 #### [Enable sentiment analysis](administrator/enable-sentiment-analysis.md)
 #### [Configure Omnichannel Insights dashboards](administrator/configure-historical-sentiment-dashboard-supervisor.md)
 
@@ -72,12 +81,14 @@
 #### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
+#### [Enable portal navigation](administrator/portal-navigation.md)
 
 ### Templates
 #### [Overview](administrator/templates-overview.md)
 #### [Manage session templates](administrator/session-templates.md)
 #### [Manage application tab templates](administrator/application-tab-templates.md)
 #### [Manage notification templates](administrator/notification-templates.md)
+#### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
 #### [Associate templates with workstreams](administrator/associate-templates.md)
 
 ## Agent guide
@@ -89,6 +100,9 @@
 #### [Introduction to the agent interface](agent/agent-oc/oc-introduction-agent-interface.md)
 #### [Manage sessions](agent/agent-oc/oc-manage-sessions.md)
 #### [Manage applications](agent/agent-oc/oc-manage-applications.md)
+#### Productivity tools
+##### [Agent scripts](agent/agent-oc/oc-agent-scripts.md)
+##### [Smart assist](agent/agent-oc/oc-smart-assist.md)
 #### [View agent dashboard and conversations (work items)](agent/agent-oc/oc-agent-dashboard.md)
 #### [Create a record](agent/agent-oc/oc-create-record.md)
 #### [Search, link, and unlink a record](agent/agent-oc/oc-search-link-unlink-record.md)
@@ -100,6 +114,7 @@
 #### [View customer summary](agent/agent-oc/oc-customer-summary.md)
 #### [Search for and share knowledge articles](agent/agent-oc/oc-search-knowledge-articles.md)
 #### [Take notes specific to conversation](agent/agent-oc/oc-take-notes.md)
+#### [Search for transcripts](agent/agent-oc/oc-search-transcipts.md)
 #### [View conversation and session activity types in the Model-driven apps](agent/agent-oc/oc-view-activity-types.md)
 #### [View customer summary for an incoming conversation request](agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md)
 
@@ -123,9 +138,10 @@
 
 ## Supervisor guide
 ### [Introduction to intraday supervisor experiences](supervisor/intro-intraday-insights-dashboard.md)
-#### [View and understand Omnichannel intraday insights dashboard](supervisor/intraday-insights-dashboard.md) 
+#### [View and understand Omnichannel intraday insights](supervisor/intraday-insights-dashboard.md) 
 #### [View and understand Omnichannel Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
 #### [Monitor conversations](supervisor/monitor-conversations.md)
+<!--#### [Assign conversations](supervisor/assign-conversations.md)-->
 ### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
 #### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)
 
@@ -137,9 +153,9 @@
 #### [Customize quick view forms](customizer/customize-quick-view-form.md)
 
 ### [Customize the session forms](customizer/customize-session-form.md)
-
+### [Configure link to conversation button in model-driven app entity form](customizer/configure-link-to-conversation-model-driven-app-form.md)
+### [Configure relevance search for chat transcript](customizer/relevance-search-chat-transcript.md)
 ### Unified Service Desk settings
-
 #### [Create agent and supervisor configurations in Unified Service Desk](customizer/create-agent-supervisor-configurations-unified-service-desk.md)
 
 #### Configure Omnichannel Agent Dashboard
@@ -196,7 +212,7 @@
 
 #### [Configure Scriptlets to define case and channel titles](customizer/configure-Scriptlets-define-case-channel-titles.md)
 
-#### [Configure link to conversation button](customizer/configure-link-to-conversation.md)
+#### [Configure link to conversation button in Unified Service Desk](customizer/configure-link-to-conversation.md)
 
 ## Developer guide
 ### [Overview](developer/omnichannel-developer.md)
