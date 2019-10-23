@@ -1,6 +1,6 @@
 ---
-title: "Manage session templates in Omnichannel Administrator app | MicrosoftDocs"
-description: "Learn about managing session templates in Omnichannel Administrator app"
+title: "Manage session templates in Omnichannel Administration app | MicrosoftDocs"
+description: "Learn about managing session templates in Omnichannel Administration app"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -26,7 +26,7 @@ ms.custom:
 
 ## Overview
 
-Session template in Omnichannel Administrator app is a combination of attributes and application tab information that are reusable.
+Session template in Omnichannel Administration app is a combination of attributes and application tab information that are reusable.
 
 When an agent accepts an incoming conversation request, a session is started. The system opens the **Customer Summary** application that you (an administrator) defined as an **Anchor Tab** in the application tab panel. The **Anchor Tab** is not closable. Simultaneously, the system expands the communication panel for you to exchange messages with the customer.  
 
@@ -36,7 +36,7 @@ Session templates are used to define the aforementioned session experience such 
 - what are the additional application tabs that must be opened when a session is started;
 - what must be the default mode of the communication panel when a session is started.
 
-The Omnichannel Administrator app provides out-of-the-box session templates that you can use or create new session templates. In your environment, as an administrator, you can create multiple session templates.
+The Omnichannel Administration app provides out-of-the-box session templates that you can use or create new session templates. In your environment, as an administrator, you can create multiple session templates.
 
 The out-of-box templates are:
 
@@ -48,9 +48,9 @@ A session template is the place where, as an administrator, you need to define t
 
 ## Create a session template
 
-To create a session tempalte, follow these steps:
+To create a session template, follow these steps:
 
-1. Sign in to the Omnichannel Administrator app.
+1. Sign in to the Omnichannel Administration app.
 
 2. Select **Sessions** under **Templates** in the sitemap.
 
@@ -74,7 +74,13 @@ To create a session tempalte, follow these steps:
 
 8. Select **Save** to save the changes.
 
+   > [!div class=mx-imgBorder] 
+   > ![Session template](../media/session-template1.png "Session template")
+
+The session template is configured. Now, you must associate the session template with a workstream. To learn more, see [Associate templates with workstreams](associate-templates.md).
+
 ## See also
 
 - [Manage application tab templates](application-tab-templates.md)
 - [Manage notification templates](notification-templates.md)
+- [Associate templates with workstreams](associate-templates.md)

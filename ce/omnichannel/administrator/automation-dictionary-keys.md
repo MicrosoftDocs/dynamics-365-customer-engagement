@@ -1,6 +1,6 @@
 ---
-title: "Use automation dictionary  to pass parameters keys in the Omnichannel Administrator app | MicrosoftDocs"
-description: "Learn about the supported formats to pass parameters values in the Omnichannel Administrator app for Templates and Macros."
+title: "Use automation dictionary  to pass parameters keys in the Omnichannel Administration app | MicrosoftDocs"
+description: "Learn about the supported formats to pass parameters values in the Omnichannel Administration app for Templates and Macros."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -26,7 +26,7 @@ ms.custom:
 
 Automation Dictionary maintains the contextual data for the sessions. You can use the keys from the automation dictionary to pass the parameter in a action.​
 
-While creating templates and macros in the Omnichannel Administrator app, you can pass parameter keys such as title of a session, title of notification, title of an application tab template, and custom parameter values for application tab types. These keys are replaced based on the contextual information available at the time of execution.
+While creating templates and macros in the Omnichannel Administration app, you can pass parameter keys such as title of a session, title of notification, title of an application tab template, and custom parameter values for application tab types. These keys are replaced based on the contextual information available at the time of execution.
 
 ### Pass data parameters in templates
 
@@ -40,7 +40,7 @@ Here, **Field header** is **Customer Name** and the **Value** is **Kenny Smith**
 
 For templates to identify the name of the customer as **Kenny Smith**, as an administrator, you must pass the parameter as keys.
 
-Similarly, for session and notification title, you can pass the data parameters. To learn more, see [Automation dictionary formats to data parameter keys](#automation-dictionary-formats-to-data-parameter-keys).
+Similarly, for session and notification title, you can pass the data parameters. To learn more, see [Automation dictionary formats to data parameter keys](#automation-dictionary-formats-to-pass-data-parameter-keys).
 
 The system replaces these parameter keys with the actual values based on the context of the session, channel provider, Common Data Service, and user actions.
 
@@ -48,7 +48,7 @@ To learn more, see [Types context data parameters](#types-context-data-parameter
 
 ### Pass data parameters in macros
 
-Macros are a set of configured sequential actions that are executed on-demand by user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to pass the data parameters. To learn more, see [Automation dictionary formats to data parameter keys](#automation-dictionary-formats-to-data-parameter-keys).
+Macros are a set of configured sequential actions that are executed on-demand by user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to pass the data parameters. To learn more, see [Automation dictionary formats to pass data parameter keys](#automation-dictionary-formats-to-pass-data-parameter-keys).
 
 When the agent runs the macro, the system replaces these parameter keys with the actual values based on the context of the session, channel provider, Common Data Service, and user actions. 
 
@@ -80,7 +80,7 @@ This data is populated as and when agents perform some activities in the session
 
 #### Context data from Common Data Service 
 
-The organizational data is stored in Common Data Service, and you can fetch the data with the use of OData queries. To learn more, see [OData queries](#odata-queries)
+The organizational data is stored in Common Data Service, and you can fetch the data with the use of OData queries. To learn more, see [OData queries](#odata-queries).
 
 #### Context data from other macro actions 
 
@@ -101,7 +101,7 @@ The context data parameter from the first macro action are as follows:
     > [!NOTE]
     > The context data parameter form other macro actions are specific to Macros, and it is not applicable to templates.
 
-## Automation dictionary formats to data parameter keys
+## Automation dictionary formats to pass data parameter keys
 
 Automation Dictionary maintains the contextual data for the sessions. The keys in the automation dictionary can be passed as parameters to the action in macros. The system replaces these parameter keys with the actual value based on the context of the session, channel provider, Common Data Service, and user actions.
 

@@ -1,6 +1,6 @@
 ---
 title: "Overview of Dynamics 365 Productivity Tools | MicrosoftDocs"
-description: "Learn about Dynamics 365 Productivity Tools in the Omnichannel Administrator app." 
+description: "Learn about Dynamics 365 Productivity Tools in the Omnichannel Administration app." 
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -100,7 +100,7 @@ To set up the Dynamics 365 Productivity Tools, follow the steps.
     > [!div class=mx-imgBorder] 
     > ![Dynamics 365 Productivity Tools](../media/d365-pt-appsource.png "Dynamics 365 Productivity Tools")
 
-After the installation is successful, you can view the Productivity Tools such as macros and agent scripts in the sitemap of the Omnichannel Administrator app.
+After the installation is successful, you can view the Productivity Tools such as macros and agent scripts in the sitemap of the Omnichannel Administration app.
 
 > [!div class=mx-imgBorder] 
 > ![Productivity Tools](../media/pt-sitemap.png "Productivity Tools")

@@ -1,6 +1,6 @@
 ---
-title: "Agent scripts in the Omnichannel Administrator app | MicrosoftDocs"
-description: "Learn about agent scripts and how to configure them in the Omnichannel Administrator app." 
+title: "Agent scripts in the Omnichannel Administration app | MicrosoftDocs"
+description: "Learn about agent scripts and how to configure them in the Omnichannel Administration app." 
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -48,7 +48,7 @@ The agent scripts reduce the human errors involved in the process as the agents 
 
 ## Create agent scripts
 
-1. Sign in to the Omnichannel Administrator app.
+1. Sign in to the Omnichannel Administration app.
 
 2. Select **Agent Scripts** under **Agent Experience**.
 
@@ -74,19 +74,27 @@ The agent scripts reduce the human errors involved in the process as the agents 
     | Order | Specify the order number based on which step is displayed to the agent. | 1 |
     | Action Type | Select an action type from the list: <ul> <li> Text instruction </li> <li> Macro </li> <li> Script </li> |
     | Description | Describe the step briefly for your reference. | This step opens a draft email to send knowledge article links to customer. <br><br> **Note:** <br> This field appears only when you select the **Action Type** value as **Target Macro** or **Target script**. |
-    | Text instruction | Specify the text instructions the agent needs to follow and execute. This is a text field. Additonally, you can pass parameter values using the Slugs and OData queries. To learn more see, [Pass parameter values](automation-dictionary-keys.md)<br><br> **Note:** <br> This field appears only if you select the **Text instruction** value for the **Action Type** field. | Greet the customer with welcome message from the quick reply repository. |
+    | Text instruction | Specify the text instructions the agent needs to follow and execute. This is a text field. Additonally, you can pass parameter values using the Slugs and OData queries. To learn more see, [Pass parameter values](automation-dictionary-keys.md)<br><br> **Note:** <br> This field appears only if you select the **Text** value for the **Action Type** field. | Greet the customer with welcome message from the quick reply repository. |
     | Target macro | Type the name of the configured macro in the text box and select the macro from the lookup results. <br><br> **Note:** <br> This field appears only if you select the **Macro** value for the **Action Type** field. | Email |
     | Target script | Type the name of the configured script in the text box and select the script from the lookup results. <br><br> **Note:** <br> This field appears only if you select the **Script** value for the **Action Type** field. | Close session |
+
+    > [!div class=mx-imgBorder] 
+    > ![Quick create: Agent script - Text](../media/create-agent-script2.png "Quick create: Agent script text step")
 
 8. Select **Save and Close** to add, save, and close the quick create form.
 
 9. Select **Save** to save the changes.
 
+    > [!div class=mx-imgBorder] 
+    > ![Agent script](../media/create-agent-script1.png "Agent script")
+
+Now, the agent script is configured.
+
 ## Associate agent script with session template
 
 After you configure the agent script and add the field to a form, you need to associate the agent script with a session template so that, based on the session type, the agent script loads to the agents.
 
-1. Sign in to the Omnichannel Administrator app.
+1. Sign in to the Omnichannel Administration app.
 
 2. Select **Sessions** under **Templates**.
 
@@ -97,6 +105,9 @@ After you configure the agent script and add the field to a form, you need to as
 5. Select **Add Existing Agent script** in the **Agent scripts** section. The **Lookup Records** pane appears.
 
 6. Select the search icon in the **Look for Records** box. Select the agent script from the list and select **Add**.
+
+    > [!div class=mx-imgBorder] 
+    > ![Associate agent script](../media/associate-agent-script.png "Associate agent script")
 
 7. Select **Save**.
 

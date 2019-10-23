@@ -45,7 +45,7 @@ This topic describes how to create a workstream for an entity that has been enab
 5. Select **Save** to save the workstream.
 
 > [!Note]
-> When you enable an entity for routing, the Omnichannel Administrator app creates a default workstream for each entity. If you create a new workstream or update the default workstream according to your business scenario, you need to update these workstream information in **Entity Records distribution Flow**. To learn more, see [Update entity records work distribution flow](multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
+> When you enable an entity for routing, the Omnichannel Administration app creates a default workstream for each entity. If you create a new workstream or update the default workstream according to your business scenario, you need to update these workstream information in **Entity Records distribution Flow**. To learn more, see [Update entity records work distribution flow](multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
 
 ## Upgrade path for preview users
 

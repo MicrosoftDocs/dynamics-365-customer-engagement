@@ -60,7 +60,7 @@ When a customer initiates a conversation, the following happens:
 ## Prerequisites
 
 - You must use the latest Omnichannel for Customer Service (October 2019 update).
-- If your environment has scheduling solutions, then it must have a version not lower than \<version\> and not higher than \<version\>.
+- If your environment has scheduling solutions, then it must be of version 9.0.0.0 or a  higher version.
 
 ## Skill-based routing overview steps
 
