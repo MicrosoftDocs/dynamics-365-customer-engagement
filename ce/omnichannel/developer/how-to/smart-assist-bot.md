@@ -28,13 +28,7 @@ See this topic on how to enable smart assist: [Smart assist for agents](../../ad
 
 ## Interpret the conversation
 
-The [sample code]() implements two functionalities, one that is Common Data Service specific and other is generic functionality.
-
-In the Common Data Service functionality, the bot finds the intent in the conversation and tries to query Common Data Service for a relevant Knowledge Base article. The connection to Dynamics 365 has to be specified in the `appsettings.json` file in the sample. The `DynamicsDataAccessLayer.cs` class in the sample uses the connection strings mentioned in the app settings file to query the knowledge base articles in your Dynamics 365 instance.
-
-In the generic functionality, if the bot encounters an intent for appointment, it suggests the appointment activity in the adaptive cards. You can use [Language Understanding (LUIS)](https://luis.ai) service to extract intent from an ongoing conversation. The conversation intent can be used along with the initial conversation context to display recommendations for the agent. 
-
-Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
+Use [Language Understanding (LUIS)](https://luis.ai) to find the intent of the ongoing conversation. You can use the extracted intent to perform actions such as suggesting a knowledge base article, scheduling an appointment or suggesting similar cases. Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
 
 ## Send adaptive card suggestions
 
@@ -384,6 +378,12 @@ See also: [Automate tasks with macros](../../administrator/macros.md).
 ## Sample code
 
 You can find the entire code sample here: [Smart Assist for Bots]().
+
+The sample code implements two functionalities, one that is Common Data Service specific and other is generic functionality.
+
+In the Common Data Service functionality, the bot finds the intent in the conversation and tries to query Common Data Service for a relevant Knowledge Base article. The connection to Dynamics 365 has to be specified in the `appsettings.json` file in the sample. The `DynamicsDataAccessLayer.cs` class in the sample uses the connection strings mentioned in the app settings file to query the knowledge base articles in your Dynamics 365 instance.
+
+In the generic functionality, if the bot encounters an intent for appointment, it suggests the appointment activity in the adaptive cards. You can use [Language Understanding (LUIS)](https://luis.ai) service to extract intent from an ongoing conversation. The conversation intent can be used along with the initial conversation context to display recommendations for the agent. 
 
 ## See also
 
