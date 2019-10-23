@@ -353,7 +353,7 @@ Given below is the adaptive card JSON for creating an appointment with the custo
 
 ### Macros
 
-For information on how to build a macro, see [Create macro](../../administrator/macros.md#create-macro).
+Macros are a compilations of sequential actions that are reusable for different sessions. These can be used to automate repetitive and monotonous actions that in turn reduce human errors and improve agent productivity. For information on how to build a macro, see [Create macro](../../administrator/macros.md#create-macro).
 
 You can use the `actions` key in adaptive cards JSON and mention the macro or custom action that you want to call, as shown in the example below.
 
@@ -379,7 +379,7 @@ See also: [Automate tasks with macros](../../administrator/macros.md).
 
 ### Custom actions
 
-You will have to create a web resource if you want to use embed a custom action within a suggestion.
+You will have to create a web resource if you want to use embed a custom action within a suggestion. See the PowerApps topic on [Create your own actions](/powerapps/developer/common-data-service/custom-actions) for information on how to build a custom action.
 
 To use a custom action, replace `MacroName` and `MacroParameters` with `CustomAction` and `CustomParameters` respectively in the adaptive card JSON. The value provided for `CustomAction` key should be the same as the name of the method that is to be called.
 
