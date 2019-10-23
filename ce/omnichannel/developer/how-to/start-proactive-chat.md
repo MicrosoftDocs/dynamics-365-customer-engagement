@@ -211,11 +211,12 @@ Hi! How are you doing today? The status of the case:<caseid> is in progress. Wou
     });
 </script>
 ```
-## Scenario 4: Customer coming from a specific webpage spends some time on the current webpage
 
-Amy has browsed the FAQs document of the product and is currently on the Knowledge Base page for more than 15 seconds.
+## Scenario 4: Customer tries to leave a webpage after spending some time on it
 
-She is proactively offered chat with the message given below.
+Amy has been browsing a webpage for 15 seconds and is not satisfied with the information provided on it. She is about to switch tabs on her web browser when she gets a chat request that asks her if she needs any help with her questions.
+
+The proactive chat message is given below.
 
 ```
 Hi! Just checking in to see if I can help answer any questions you may have.
@@ -224,15 +225,15 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 ### Sample code
 
 ```javascript
-<!-- Code to show proactive chat invite when visitor tries to leave page after spending given time on the webpage. This invite is offered once and only for the first time. All subsequent tries to leave page are ignored and proactive chat is not offered in them. -->
+<!-- Code to show proactive chat invite when visitor tries to leave page after spending given time(15 seconds in this case) on the webpage. This invite is offered once and only for the first time. All subsequent tries to leave page are ignored and proactive chat is not offered in them. -->
 <script id="Proactivechattrigger">
-	// track if proactive chat has been already offered to the visitor
+	//Track if proactive chat has been already offered to the visitor
 	var hasProactiveChatBeenOffered = false;	
-	// Wait for Chat widget to load completely
+	//Wait for Chat widget to load completely
     window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-		var timeToWaitBeforeEnablingOfferingProactiveChatInMillisecondsOnLeaving = 15000;//time to wait before Offering proactive chat to web page visitor
+		var timeToWaitBeforeEnablingOfferingProactiveChatInMillisecondsOnLeaving = 15000; //Time to wait before Offering proactive chat to web page visitor
 		
-		//enable showing proactive chat invite on leaving page after browsing page for 'timeToWaitBeforeEnablingOfferingProactiveChatInMillisecondsOnLeaving' milliseconds
+		//Enable showing proactive chat invite on leaving page after browsing page for 'timeToWaitBeforeEnablingOfferingProactiveChatInMillisecondsOnLeaving' milliseconds
         setTimeout(function(){
 			//show proactive chat invite on leaving page
 			window.document.body.onmouseleave = function(){
@@ -257,7 +258,47 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 </script>
 ```
 
-## Scenario 5: Customer logs in from a specific geographic region
+## Scenario 5: Customer coming from a specific webpage spends some time on the current webpage
+
+Amy has browsed the FAQs document of the product and is currently on the Knowledge Base page for more than 15 seconds.
+
+She is proactively offered chat with the message given below.
+
+```
+Hi! Just checking in to see if I can help answer any questions you may have.
+```
+
+### Sample code
+
+```javascript
+<!-- Code to show proactive chat invite when visitor spends given time on current page, after coming from given last visited page -->
+<script id="Proactivechattrigger">
+	var lastVisitedPage = "www.contoso.com/FAQ";// last visited page. A visitor coming form this page will be shown proactive chat invite after given time on current page
+	// Wait for Chat widget to load completely
+    window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
+		var timeToWaitBeforeOfferingProactiveChat = 15000;//time to wait before Offering proactive chat to web page visitor
+		//check if referrer page( read: https://www.w3schools.com/jsref/prop_doc_referrer.asp ) is same as last Visited page 
+		if( window.document.referrer == lastVisitedPage) )
+		{
+			//show proactive chat invite after browsing page for 'timeToWaitBeforeOfferingProactiveChat' milliseconds
+			setTimeout(function(){
+				// setting Context variables
+				Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
+				return {
+							'Proactive Chat':{'value':'True','isDisplayable':true},
+							'Page URL':{'value': window.location.href,'isDisplayable':true},
+							'Last Page URL':{'value': window.document.referrer,'isDisplayable':true}
+						};
+				});
+				//offer proactive chat
+				Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({message: "Hi! Just checking in to see if I can help answer any questions you may have."}, false);
+			},timeToWaitBeforeOfferingProactiveChat);
+		}
+    });
+</script>
+```
+
+## Scenario 6: Customer logs in from a specific geographic region
 
 Klarissa logs in to your website from Germany where your company is running a special discount on products. You can set up a trigger for customers coming from a particular location that proactively initiates chat.
 
@@ -333,7 +374,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 </script>
 ```
 
-## Scenario 6: Proactively offer chat to customers between a certain time frame
+## Scenario 7: Proactively offer chat to customers between a certain time frame
 
 Suppose your organization is running a festive season sale between certain dates, and you wish to proactively offer chat requests to customers to see if they have any questions.
 
