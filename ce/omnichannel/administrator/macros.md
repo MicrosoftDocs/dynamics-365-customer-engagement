@@ -60,6 +60,9 @@ As an administrator, you can use the built-in actions any number of times across
 
 The following are the built-in actions.
 
+   > [!div class=mx-imgBorder] 
+   > ![Macro actions](../media/macro-actions.png "Macro actions")    
+
 ### Open a new form to create a record
 
 This action is used to open a new form to create a record. This action contains the following fields.
@@ -180,9 +183,6 @@ To learn more, see [Pass data parameters in macros](automation-dictionary-keys.m
     | Resolve a case | Resolve case |
 
     For example, select **Open a new form to create a record**, and the step appears.
-
-   > [!div class=mx-imgBorder] 
-   > ![Macro actions](../media/macro-actions.png "Macro actions")    
 
 7. Specify the values in the fields.
 
