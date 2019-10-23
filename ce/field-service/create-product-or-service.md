@@ -174,6 +174,8 @@ Whether work order products and services are created individually or in bulk as 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-services-mobile.png)
 
+In the image above, the inventory product (Universal Network Card), the non-inventory product (Zip ties), and the service (Replace Trunk or Base Unit) are visible on the mobile work order form.
+
 Work Order products and services are simply recommended items the field technician can use or not. Field technicians have the ability to edit the quantity or add new products and services from the product catalog, and what they can edit, create, and delete can be modified based on your business needs with security roles and field security profiles. 
 
 > [!div class="mx-imgBorder"]
@@ -185,6 +187,8 @@ When using an inventory item, you need to enter a warehouse it comes from. This 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-add-mobile-non-inventory.png)
+
+When using a non-inventory item, you may mark it as used along with a quantity for reporting, but no warehouse since it is not tracked. Another option is to enter 0 for Quantity to Bill since 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-service-add-mobile.png)
