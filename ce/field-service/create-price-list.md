@@ -1,8 +1,8 @@
 ---
-title: "Create a price list (Dynamics 365 Field Service) | MicrosoftDocs"
+title: "Using and extending Price lists for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
+ms.date: 10/23/2019
 ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -23,7 +23,16 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Create a price list (Field Service)
+# Using and extending Price lists for Field Service
+
+Field Service uses and extends D365 price lists
+
+## Prerequisites 
+Using Price Lists with Field Service
+
+## Extending price lists for Field Service
+
+## Add price lists to work orders
 
 Price lists in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] define pricing levels. When you use a price list, you can specify how much a customer is charged for your product and services. The price list is noted on the account, work order, agreement, or the individual product or service. 
   
