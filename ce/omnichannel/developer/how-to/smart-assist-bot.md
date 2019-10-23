@@ -346,15 +346,39 @@ Given below is the adaptive card JSON for creating an appointment with the custo
 
 You can find the entire code sample here: [Smart Assist for Bots]().
 
-> [!NOTE]
-> The sample code uses pre-defined context values for displaying suggestions. You can use [Language Understanding (LUIS)](https://luis.ai) service to extract intent from an ongoing conversation. The conversation intent can be used along with the initial conversation context to display suggestions for the agent.
+The sample code implements two functionalities, one that is Common Data Service specific and other is generic functionality.
 
-The sample code implements two functionalities - one that is Common Data Service specific and other is generic functionality. In the Common Data Service functionality, the bot finds the intent in the conversation and tries to query Common Data Service for a relevant Knowledge Base article. In the generic functionality, if the bot encounters an intent for appointment, it suggests the appointment activity in the adaptive cards.
+In the Common Data Service functionality, the bot finds the intent in the conversation and tries to query Common Data Service for a relevant Knowledge Base article. The connection to Dynamics 365 has to be specified in the `appsettings.json` file in the sample. The `DynamicsDataAccessLayer.cs` class in the sample uses the connection strings mentioned in the app settings file to query the knowledge base articles in your Dynamics 365 instance.
 
+In the generic functionality, if the bot encounters an intent for appointment, it suggests the appointment activity in the adaptive cards. You can use [Language Understanding (LUIS)](https://luis.ai) service to extract intent from an ongoing conversation. The conversation intent can be used along with the initial conversation context to display suggestions for the agent. Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
+
+## Calling macros and custom actions using adaptive cards
+
+You can use the `actions` key in adaptive cards JSON and mention the macro that you want to call as shown in the example below.
+
+The type is always `Action.Submit` and title can be anything the user wants to name the action.
+
+```json
+"actions": [
+		{
+			"type": "Action.Submit",
+			"title": "Accepted",
+			"data": {
+				"MacroName": "SendEmail",
+				"MacroParameters": {
+					"subject": "Upgrade offer"
+				}
+			},
+			"iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE8SURBVHgBnVLBUQJBEOxd1z8BALWgAWAEagSQAfLw5CdEIBkIP+UeEoIZyGUAAchtnVT55cXDu5txDrkqQKHUeexu7Uz3dO8OrBc18I/QWul6xYtC682bfwGq6nV0xazqSqkFg63sE9LxwD1U3MGOdJSOoVCY+cUWx6YFpqmm45fqTfRk26Hd2zFbqt48pI/4zI0qizyxUqJVU1NWxYPXYfl5q+MaPoYxtc3EzC+PwsfSZWrQY/7+Dipnl+M9xOc+aWAuZJYYmDCha7766nMibrhhMditt52woJemI6RNqekjSQaZJbNmqyFOppuA0/bbhTDf0lJyjD7F229gbPvdcpogv1wBGHdpKnxAz/nl4Cfl6kQmhxXqIDUROR35jjFBjZxfCnAgDMvkQPwRw2FHzkEgiAKK0+5vAXl8ArWLn19rFeLfAAAAAElFTkSuQmCC"
+		}
+	]
+```
+
+If you want to use a custom action, create a web resource using the custom action and then replace `MacroName` and `MacroParameters` with `CustomAction` and `CustomParameters` respectively. The value provided for `CustomAction` key should be the same as the name of the method that is to be called.
 
 ## See also
 
 [Smart assist for agents](../../administrator/smart-assist.md)<br />
-[Create a bot with Azure bot service](../../../../azure/bot-service/abs-quickstart)
+[Create a bot with Azure bot service](../../../../azure/bot-service/abs-quickstart)<br />
 [Manage custom context](send-context-starting-chat.md)<br />
 [Enable a bot to escalate and end conversation](../bot-escalate-end-conversation.md)
