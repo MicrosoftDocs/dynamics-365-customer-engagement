@@ -1,6 +1,6 @@
 ---
-title: "Create a quote PDF document (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Create and share a professional-looking quote PDF document with your customers."
+title: "Create a PDF document (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Create and share a professional-looking PDF documents with your customers."
 keywords: "Quote, proposal, create PDF, email PDF, PDF"
 ms.date: 10/01/2019
 ms.service:
@@ -15,18 +15,25 @@ manager: annbe
 caps.latest.revision: 58
 ---
 
-# Generate a PDF document from a quote record
+# Create a PDF document from a record
 
-Create and share a professional-looking quote by generating a PDF document from a quote record using a standard template from your organization.
+Create and share a professional-looking PDF documents for sales records by generating a PDF document using a standard template from your organization. 
+
+The capability to create PDF document is available on the following entities: Accounts, Contacts, Leads, Opportunities, Orders, and Invoices.
+Your system administrator can choose the entities on which PDF generation is enabled. 
+
 
 > [!IMPORTANT]
-> The **Create PDF**, and **Email as PDF** options are available only if your system administrator has enabled the PDF-generation capability for your organization. If you do not see these options, please talk to your system administrator.
+> If you do not see the **Create PDF** and **Email as PDF** options on one of the supported entity records, it might be because your system administrator hasn't enabled the PDF-generation capability for that entity. Please talk to your system administrator.
 
-1.	Open a quote record.
+1.	Open the entity record for which you want to create a PDF document. For example, open a quote record.
 
-2.	On the command bar, select **Create PDF**, and then select the quote template. 
+2.	On the command bar, select **Create PDF**, and then select a template based on which you want to create the PDF. 
 
     ![A quote form showing the Create PDF button on the command bar](media/create-pdf.png "A quote form showing the Create PDF button on the command bar")
+
+    > [!IMPORTANT]
+    > Templates are available out-of-the-box for the Account, Opportunity, Order, and Invoice entities. For entities that do not have the out-of-the-box templates, you can create new templates. You can't create a PDF document for an entity record if there's no template available for that entity. 
 
     A PDF document using the selected template is downloaded to your computer. You can add this document to a note or send it as an attachment in email.
 
@@ -37,9 +44,9 @@ Create and share a professional-looking quote by generating a PDF document from 
 
 You can also generate a PDF document and directly email it to a customer.
 
-1.	Open the quote record.
+1.	Open an entity record. For example, open a quote record.
 
-2.	On the command bar, select **Email as PDF**, and then select the quote template.
+2.	On the command bar, select **Email as PDF**, and then select a document template.
 
     ![A quote form showing the Email as PDF button on the command bar](media/email-as-PDF.png "A quote form showing the Email as PDF button on the command bar")
 
@@ -52,8 +59,8 @@ You can also generate a PDF document and directly email it to a customer.
     |**To**                |	Potential customer of the quote                |
     |**From**	             |  Current user                                   |
     |**Attachments**       |	The generated PDF, added as an attachment         |
-    |**Regarding**	       |  Quote record from which the email was triggered| 
-    |**Subject**	         |  Quote title                                    |
+    |**Regarding**	       |  Record from which the email was triggered| 
+    |**Subject**	         |  Title of the record                                    |
 
 3.	Verify and change any details in the email form, and select **Send**.
 
@@ -62,5 +69,4 @@ You can also generate a PDF document and directly email it to a customer.
 
 ### See also
 
-[Enable PDF generation from quotes](enable-pdf-generation-quote.md)  
-[Create or edit a quote](create-edit-quote-sales.md)
+[Enable PDF generation from sales records](enable-pdf-generation-quote.md)  
