@@ -32,7 +32,7 @@ Supervisors can use Omnichannel Insights to perform the following tasks:
 > Contact your system administrator, for configuration errors or if you are unable to view the dashboards. To learn more, see [Configuring Omnichannel Insights dashboard](../administrator/configure-historical-sentiment-dashboard-supervisor.md)
 
 
-# Omnichannel insights for Dynamics 365
+## Omnichannel Insights for Dynamics 365
 
 Omnichannel Insights reports provide comprehensive information on how overall support is performing across channels. The reports provide administrators and supervisors with a rich visualization and ability to filter across channels, queues, agents, and date ranges to better understand performance and troubleshoot problem areas. 
 
