@@ -29,7 +29,7 @@ Microsoft Dynamics 365 Virtual Agent for Customer Service allows organizations t
 Once you have created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the Omnichannel configuration in order to add your bot to queues and configure context variables to route chat sessions to queues. 
 
 **Prerequisites**: 
-* Product license - You need a product license for Virtual Agent ([click here to start a trial](https://go.microsoft.com/fwlink/?LinkId=2092080&clcid=0x409)) and Omnichannel for Customer service ([click here to learn more](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/omnichannel/try-chat-for-dynamics365))
+* Product license - You need a product license for Virtual Agent ([click here to start a trial](https://go.microsoft.com/fwlink/p/?LinkId=2092080&clcid=0x409)) and Omnichannel for Customer service ([click here to learn more](https://docs.microsoft.com/dynamics365/customer-engagement/omnichannel/try-chat-for-dynamics365))
 * Role - In order to successfully complete these steps, signed in user must be a "Omnichannel Administrator" in Omnichannel. [Click here to learn more about managing and assigning user roles in Omnichannel](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/omnichannel/administrator/add-users-assign-roles).
 * Azure Application ID - You will need an application registered in Azure prior to connecting to Omnichannel. [Click here to learn more](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application)
 * Bot - You must have a bot that is built using Microsoft Bot Framework. For more information on how to build a bot, see [Virtual Agent Bot Service Documentation](https://docs.microsoft.com/en-us/azure/ai/virtual-agent). 
@@ -38,21 +38,18 @@ Once you have created your bot and connected it to an Omnichannel for Customer S
 Once the Virtual Agent bot is created and configured to work with Omnichannel, you can configure it to hand off conversations to queues in Omnichannel. To receive incoming messages, the bot must be added to at least one queue. The bot will use the routing rules that were created at setup.  You can change them in the Work Streams section of Omnichannel.
 
 To set up your Virtual Agent bot:
-<<<<<<< Updated upstream
-1. Connect virtual agent to Omnichannel (link ai-docs/customer-service-virtual-agent/how-to-setup-omnichannel-handoff.md
-) and go to the Omnichannel configuration.
-=======
 1. Connect virtual agent to Omnichannel and go to the Omnichannel configuration. For more information, see [Omnichannel setup & configure](https://github.com/MicrosoftDocs/dynamics-365-ai-pr/blob/pawant-ms-handoff/ai-docs/customer-service-virtual-agent/how-to-setup-omnichannel-handoff.md).
-    <br>
->>>>>>> Stashed changes
+
     ![Virtual Agent bot settings](../media/virtual-agent-bot-settings.png)
     
     The bot will be auto-created in Omnichannel, and you just need to finish setting it up.
+
 2. Assign the bot to an existing queue.
-    <br>
+    
     ![Virtual Agent bot select queue](../media/virtual-agent-bot-select-queues.png)
+
 3. Click Done. Now you're on the bot profile page and you can see that your bot is connected. 
-    <br>
+    
     ![Virtual Agent bot profile page](../media/virtual-agent-bot-profile.png)
     
     Your Virtual Agent bot is ready to accept and respond to customer-initiated conversations.
@@ -74,8 +71,13 @@ A work stream is a collection of routing and work distribution settings. In orde
 
 1. Select or create a work stream.
 
-    <br>
-    > ![Virtual Agent work stream](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/kat-omni-oct-2019/ce/omnichannel/media/virtual-agent-work-streams.png)
+<<<<<<< HEAD
+    > [!div class=mx-imgBorder]
+    > ![Virtual Agent work stream context variable](../media/virtual-agent-work-stream-context-variables.png "Virtual Agent work stream context variable")
+
+=======
+    > ![Virtual Agent work stream](../media/virtual-agent-work-streams.png)
+>>>>>>> 2d8f4fca24259c1b1033c8b7d329c0cec145ca45
 
 2. Add a context variable to the work stream. 
 
@@ -92,7 +94,7 @@ A work stream is a collection of routing and work distribution settings. In orde
     > [!div class=mx-imgBorder]
     > ![Virtual Agent work stream bot routing rules](../media/virtual-agent-work-stream-routing-rule-bot.png "Virtual Agent work stream bot routing rules")
 
-For more information about work streams, see [Understand and create work streams](work-streams-introduction.md)
+For more information about work streams, see [Understand and create work streams](work-streams-introduction.md).
 
 #### Create a context variable
 
