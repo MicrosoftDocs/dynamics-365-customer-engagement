@@ -18,6 +18,13 @@ search.app:
   - D365CS
 ---
 
-# Use Customer Service Hub on mobile devices
+# Customer Service Analytics for Dynamics 365
 
-Access your Customer Service Hub data while you’re on the go using Dynamics 365 for phones or Dynamics 365 for tablets on your mobile device.
+The Customer Service Analytics dashboard provides information about the historical operational metrics and key performance indicators (KPIs) to effectively manage contact centers. 
+
+The following is an example of the Customer Service Analytics overview dashboard:  
+
+    > [!div class=mx-imgBorder]
+    > ![Customer Service Analytics overview dashboard](../media/cs-analytics-overview-dashboard.png "Customer Service Analytics overview dashboard")
+    
+ 
