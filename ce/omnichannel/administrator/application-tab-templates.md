@@ -28,11 +28,11 @@ ms.custom:
 
 Application tab template in Omnichannel Administration app provide the type of applications you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
 
-The horizontal bar below the model-driven app navigation bar is called the application tab panel. Every customer session has at least one application tab that is not closable; it is called **Anchor Tab**. That is, when a session is started, by default, the system opens an application in application tab panel. In addition, there may be few other applications that system opens by default based on the configuration. 
+The horizontal bar below the model-driven app navigation bar is called the application tab panel. Every customer session has at least one application tab that is not closable; it is called **Anchor Tab**. That is, when a session is started, by default the system opens an application in application tab panel. In addition, there may be few other applications that system opens by default based on the configuration. 
 
 With application tab template, you can define the applications that are available for a session, and then associate the applications with a session. 
 
-For example, you can create the **Customer summary** application type and associate it with Chat and SMS session. Now, when an agent accepts the notification from  the Chat or SMS channel, a session is started and by default the **Customer summary** page loads.
+For example, you can create the **Customer summary** application type and associate it with Chat and SMS session. Now, when an agent accepts the notification from  the chat or SMS channels, a session starts and by default the **Customer summary** page loads.
 
 As an administrator, you can create multiple application tab templates.
 
@@ -49,11 +49,11 @@ As an administrator, you can create multiple application tab templates.
     | Tab | Name | Value description | Example |
     |-----------|-------------------|-----------------------------------|-------------------------------------|
     | General | Name | Specify the name of the application tab. This name wouldn't be visible for the agents at the run-time. | Knowledge article search |
-    | General | Application title | Provide a title to the application that you want the agents to see at the run-time. | Knowledge article search |
+    | General | Application title | Provide a title for the application that you want the agents to see at the run-time. | Knowledge article search |
     | General | Application type | Select a application type from the list. Choose one of the following: <br><br> <ul><li>Custom control</li> <li>Dashboard</li> <li>Entity view</li> <li>Entity record</li> <li>Entity search</li> <li>Web resource</li> <li>Website Url</li> </ul> <br> To learn more, see [Application types](#application-types).|  Web resource |
     | General | Description | Provide a description for your reference. | The application type is used to display KB Search Page. |
 
-5. Select **Save** to save the application tab template. After you save, the parameters for the application type you selected is appears in the **Parameters** section. 
+5. Select **Save** to save the application tab template. After you save, the parameters for the application type you selected appear in the **Parameters** section. 
 
     Whenever you edit the application tab template, save the changes so you see the corresponding fields in the **Parameters** section.
 
@@ -77,7 +77,7 @@ The types of applications available are as follows:
 
 The parameters available for the custom control application type are as follows:
 
-| parameter | Example Value | Description |
+| parameter | Example value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
 | controlName | `MscrmControls.OCSearchRuntime.OCSearchRuntimeControl` | Name of the control. <br> Type = String |
 | data | `{key1:value1}` | Defines the attributes and values for the control. <br> Type = JSON Object |
@@ -87,7 +87,7 @@ The parameters available for the custom control application type are as follows:
 
 The application type is used to display the dashboard as an application. The parameters available for the dashboard application type are as follows:
 
-| parameter | Example Value | Description |
+| parameter | Example value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
 | dashboardId | `d201a642-6283-4f1d-81b7-da4b1685e698` | GUID of the dashboard. <br> Type = String |
 | entityType  | incident | Entity type of the record. <br> Type = String |
@@ -97,7 +97,7 @@ The application type is used to display the dashboard as an application. The par
 
 The application type is used to display an entity view that defines how a list of records for a specific entity is displayed in the Omnichannel application. The parameters available for the entity view application type are as follows: 
 
-| parameter | Example Value | Description |
+| parameter | Example value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
 | entityName | Account | Logical name of the entity. <br> Type = String |
 | viewId | `00000000-0000-0000-00AA-000010001003` | GUID of the view. <br> Type = String|
@@ -107,7 +107,7 @@ The application type is used to display an entity view that defines how a list o
 
 The parameters available for the entity record application type are as follows:
 
-| parameter | Example Value | Description |
+| parameter | Example value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
 | createFromEntity | account | Designates a record that provides default values based on mapped attribute values. The lookup object has the following String properties: `entityType`, `id`, and `name` (optional). <br> Type = JSON Object | 
 | data | `{"firstname":"Rigsby", "lastname":"cho" , "jobtitle":"Sales Manager"}` | Defines the attributes and values for the new entity record. <br> Type = JSON Object |
@@ -122,26 +122,26 @@ The parameters available for the entity record application type are as follows:
 
 The parameters available for the entity search application type are as follows:
 
-| parameter | Example Value | Description |
+| parameter | Example value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
 | searchText  | Printer Noise | Define the string you want to search. <br> Type = String |
 | searchType | 0 | Define to use Relevance search or Categorized search. The possible values are: <br> - **0** for RelevanceSearch <br> - **1** for CategorizedSearch  <br> Type = Number|
 
 ### Web resource
 
-The application type is used to display Web resources that represent files, which are used to extend the Dynamics 365 for Customer Engagement web application such as html files, JavaScript, and CSS, and several image formats. The parameters available for the web resources application type are as follows:
+The application type is used to display Web resources that represent files, which are used to extend the web application such as html files, JavaScript, and CSS, and several image formats. The parameters available for the web resources application type are as follows:
 
-| parameter | Example Value | Description |
+| parameter | Example value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| data | Printer Noise | Provide string or key value pair. according the requirement of the webresource.  <br> Type = String|
+| data | Printer Noise | Provide string or key value pair, according to the requirement of the web resource.  <br> Type = String|
 | webresourceName | `msdyn_kbsearchpagehost.html` |Name of the web resource to open. <br> Type = String|
 
 
 ### Website Url
 
-The application type is used to display first-party and third-party website as an application. The parameters available for the website url application type are as follows:
+The application type is used to display first-party and third-party websites as an application. The parameters available for the website URL application type are as follows:
 
-| parameter | Example Value | Description |
+| parameter | Example value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
 | data | `stackoverflow` |Query parameters that you want to search. <br> Type = String|
 | url | https://www.bing.com/search? | <br> Type = String|
