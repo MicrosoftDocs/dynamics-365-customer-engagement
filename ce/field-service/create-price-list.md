@@ -82,62 +82,28 @@ After saving, enter a **Default Price list** in the product details section, the
 
 ## Create price list  
   
-1.  From the top menu, click **Field Service** > **Administration**, and then choose **Price Lists**.  
+Go to **Field Service** > **Settings** > **Price Lists** > **+New**.  
   
-2.  On the **Active Price Lists** screen, click **+New** in the upper left corner.  
-  
-3.  Use the tooltips to help fill in your information, and then click **Save**.  
+Use the tooltips to help fill in your information, and then click **Save**.  
+
+For more information see the topic on [creating a price list (Project Service Automation)](../project-service/create-price-list.md). 
+
+
+## Add price list items  
 
 Next, add the products and services as price list items to the price lists of your choice.
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-products-price-list-items.png)
 
-For more information see the topic on [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [creating a price list (Project Service Automation)](../project-service/create-price-list.md). 
+At its simplest enter the following information:
 
+**Pricing Amount** enter *Currency Amount*
 
-## Add price list items  
- Create a price list item for each unit in which the product is available. For example, if the product is available as a single item (each), in a dozen, and in a gross, create three price list items. This lets you order the product in any quantity you want, using the same price list. You can add price list items from the product form also.  
-  
-1. In the price list record, in the **Price List Items** section, click the **Add Price List Item record**.  
-  
-2. Use the tooltips to help fill in your information:  
-  
-   - In the **Product** and **Unit** field, select the product and unit for which you're creating this price list item.  
-  
-   - To offer a discount on the combination of the product and unit, select a **Discount List**.  
-  
-   - In the **Quantity Selling Option** drop-down list, select whether the product or service can be ordered in whole, partial, or both types of quantities. This information is used in the Quantity field of **Quote Product**, **Order Product**, and **Invoice Product** records.  
-  
-     - **No Control**. [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] doesn't enforce a quantity selling option.  
-  
-     - **Whole**. Selling a partial product isn't allowed. For example, digital cameras cannot be sold in fractions.  
-  
-     - **Whole and Fractional**. The product can be sold in both whole and fractional units. For example, wood chips can be sold in cubic yards, or in fractions of a cubic yard.  
-  
-   - In the **Pricing Method** drop-down list, select an option that determines how the pricing will be calculated. It could be a certain amount, or a percentage of the current or standard cost.  
-  
-   - If you selected **Currency Amount** as the pricing method, in the Amount field, type the amount at which the product will be sold.  
-  
-   - -OR-  
-  
-      If you selected any value other than **Currency Amount**, you can set up a rounding policy. For example, if you want per-unit prices to be in the form of $0.99, you can select a rounding policy where all prices per unit automatically have a price that ends in 99 cents. To do this, select the rounding policy to round the price up, and then set the price to end in a certain amount, like 99 cents.  
-  
-     - **None**. Prices are not rounded.  
-  
-     - **Up**. Prices are roundedup to the nearest rounding amount.  
-  
-     - **Down**. Prices are roundeddown to the nearest rounding amount.  
-  
-     - **To Nearest**. Prices are rounded to the nearest rounding amount.  
-  
-   - In the **Rounding Options** drop-down list, select **Ends In** or **Multiple of** if you want the price to end in a certain amount or multiples of a certain amount.  
-  
-   - In the **Rounding Amount**field, enter the amount.  
-  
-3. Click **Save**.  
-  
+**Amount** enter the price of the product or service. Note that the price in the price list item for services represents an hourly rate.
+
+To understand the other standard pricing options with Dynamics 365 price lists see the topic on [adding price list items](https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products#add-items-to-the-price-list-sales)
+
 
 ## Add Field Service Price list items
 
@@ -145,18 +111,19 @@ You can add additional pricing options for services by creating Field Service Pr
 
 From the Price List go to **Related > Field Service Price List Items**
 
-  
 Click **Add New Field Service Price List Item**.  
-  
-Use the tooltips to help fill in your information:  
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/price-list-field-service-price-list-item.png)
+  
 ### Flat Fee
 
-Makes a service a fixed price regardless of duration
+Makes a service a fixed price regardless of duration. The fixed price will be derived first from the price list item amount and then the list price on the product record.
 
 ### Minimum Charge Duration
 
-First X amount of time free
+First X amount of time free. 
 
 ### Minimum Charge Amount
 
