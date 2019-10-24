@@ -19,6 +19,31 @@ ms.custom:
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
 
+## Unable to create new entity record channel
+
+### Issue:
+
+The Flow doesn't update automatically. Due to this issue, you can't create an entity records channel and the system shows a business process error. In Microsoft Flow, you might see either **Cases Work Distribution Flow** or **Entity Records Distribution Flow**.
+
+### Resolution:
+
+To workaround the issue, create a new Flow.
+
+1. Sign in to the Omnichannel Administration app.
+
+2. Select **Work Streams** under **Work Distribution Management**.
+
+3. Select the workstream for which you want to update the flow.
+
+4. Select **Flow** menu in the command bar, and then select **See your flows**. Microsoft Flow opens in a new browser window.
+
+5. Select **Solutions** in the sitemap, and then select **Default Solution** from the list.
+
+6. Select the **+ New**
+
+7. 
+
+
 ## Entity routing does not route records
 
 ### Issue:
