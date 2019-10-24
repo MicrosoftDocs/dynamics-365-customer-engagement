@@ -75,7 +75,7 @@ A work stream is a collection of routing and work distribution settings. In orde
 1. Select or create a work stream.
 
     <br>
-    > ![Virtual Agent work stream](../media/virtual-agent-work-streams.png)
+    > ![Virtual Agent work stream](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/kat-omni-oct-2019/ce/omnichannel/media/virtual-agent-work-streams.png)
 
 2. Add a context variable to the work stream. 
 
