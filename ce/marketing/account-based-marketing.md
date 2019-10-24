@@ -25,9 +25,7 @@ search.app:
 
 # Account-based marketing
 
-Account-based marketing is an approach where you organize your marketing initiatives around account records instead of, or in addition to, contacts. That means, for example, that your leads reference accounts, and are scored based on interactions made by any or all of the contacts that belong to those accounts.
-
-Account-based marketing will make it easier for marketers who work in organizations that focus on business-to-business sales to support their salespeople's strategies and sales processes. Feature include:
+Account-based marketing helps marketers working in organizations that focus on business-to-business sales to support their salespeople's strategies and sales processes. Feature include:
 
 - **Account-based journeys**, which can generate account leads, trigger decisions at the account level, assign activities related to accounts, provide account-based insights, and more.
 - **Account-based personalization of email content**, which enables you to design content that displays information from, and reacts to, the account record associated with each recipient.
@@ -41,6 +39,9 @@ With account-based marketing, business-to-business (B2B) marketers can use Dynam
 - **Personalize**: Tailor email content for specific accounts.
 - **Nurture**: Generate and nurture account-based leads via account-based lead scoring models.
 - **Report**: Analyze account engagement and optimize your programs.
+
+> [!IMPORTANT]
+> Keep in mind that even when you are using account-based marketing, Dynamics 365 Marketing still focuses on contacts as its fundamental entity. Segments still contain contacts (not accounts or leads), journeys still process contacts, and leads can only be scored provided they have a parent contact or parent account (with associated contacts) assigned. Account-based marketing features help provide an account-based perspective, by segmenting contacts based on properties of the account they belong to, scoring account-based leads based on interactions made by the contacts that belong to those accounts, and so on, as described in this topic.
 
 ## Create segments for account-based journeys
 
