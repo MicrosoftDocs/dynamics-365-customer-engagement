@@ -1,7 +1,7 @@
 ---
 title: "Configure Quick Find options (Dynamics 365 Customer Engagement (on-premises))  | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 10/17/2019
 ms.reviewer: 
 ms.service: 
 ms.topic: article
@@ -99,7 +99,6 @@ Before you enable or disable full-text indexing for Quick Find, review the
 preceding **What system administrators should consider before enabling or
 disabling full-text indexing** section.
 
-1.  Go to **Settings** \> **Administration** \> **System Settings**
-    \> **General** tab.
+1.  Go to **Settings** \> **Administration** \> **System Settings** \> **General** tab.
 
-2.  Select **Yes** or **No** next to **Enable full-text search for Quick Find**.
+2.  Select **Yes** or **No** next to **Enable Relevance Search**.

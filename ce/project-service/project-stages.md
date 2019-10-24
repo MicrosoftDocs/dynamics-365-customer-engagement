@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-AProject stages are updated to reflect the state of the project as it progresses. The default business process flow automatically updates some stages the stages of project while others are manually updated by the project manager. 
+AProject stages are updated to reflect the state of the project as it progresses. The default business process flow automatically updates some stages of the project while others are manually updated by the project manager. 
 
 The following stages are defined in the default BPF:
 
