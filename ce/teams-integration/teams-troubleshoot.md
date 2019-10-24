@@ -198,7 +198,7 @@ You need to be a member of the connected team channel to view files. Contact the
 
 ### Error while creating a team or channel. The property is missing a required prefix/suffix per your organization's Group naming requirements. 
 
-A user may get this eror when they try to connect a record or a view to a team channel using the **Collaborate** button in model-driven apps in Dynamics 365. This happens if your tenant admin has configured group level naming policy from Azure Portal with a prefix and suffix condition. 
+A user may get this error when they try to connect a record or a view to a team channel using the **Collaborate** button in model-driven apps in Dynamics 365. This happens if your tenant admin has configured group level naming policy from Azure Portal with a prefix and suffix condition 
 
    > [!div class="mx-imgBorder"] 
    > ![Prefix error](media/azure_portal_error.png "Prefix error")
@@ -207,9 +207,9 @@ To work around this issue, your telnet admin will need to remove this policy fro
 
 ### Error while creating a team or channel. The displayName cannot contain the blocked word 'blocked' as per company policy.
 
-A user may get this eror when they try to connect a record or a view to a team channel using the **Collaborate** button in model-driven apps in Dynamics 365. This happens when your tenant admin creates a custom blocked word list on Azure Portal. 
+A user may get this error when they try to connect a record or a view to a team channel using the **Collaborate** button in model-driven apps in Dynamics 365. This happens when your tenant admin creates a custom blocked word list on Azure Portal.
 
-To work around this issue, the telnet admin needs to remove this policy from Azure Portal.
+To work around this issue, your telnet admin will need to remove this policy from Azure Portal.
 
 
 
