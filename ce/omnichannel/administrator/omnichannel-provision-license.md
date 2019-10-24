@@ -108,14 +108,14 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
     > [!div class=mx-imgBorder]
     > ![Set up complete](../media/install-complete.png)
 
-## Locate your Org ID
+## Locate your Org ID
 
 Follow these steps to locate your Org ID in your instance.
 
 1. In the Common Data Service platform, go to **Settings** > **Customizations**.
 
-    > [!NOTE]
-    > Ensure that you have System Administrator or System Customizer security role or equivalent permissions.
+   > [!NOTE]
+   > Ensure that you have System Administrator or System Customizer security role or equivalent permissions.
 
 2. Select **Developer Resources**. You can find your Org ID in the **Instant Reference Information** section.
 
