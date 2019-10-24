@@ -41,7 +41,7 @@ With account-based marketing, business-to-business (B2B) marketers can use Dynam
 - **Report**: Analyze account engagement and optimize your programs.
 
 > [!IMPORTANT]
-> Keep in mind that even when you are using account-based marketing, Dynamics 365 Marketing still focuses on contacts as its fundamental entity. Segments still contain contacts (not accounts or leads), journeys still process contacts, and leads can only be scored provided they have a parent contact or parent account (with associated contacts) assigned. Account-based marketing features help provide an account-based perspective, by segmenting contacts based on properties of the account they belong to, scoring account-based leads based on interactions made by the contacts that belong to those accounts, and so on, as described in this topic.
+> Keep in mind that even when you are using account-based marketing, Dynamics 365 Marketing still focuses on contacts as its fundamental entity. Segments still contain contacts (not accounts or leads), journeys still process contacts, and leads can only be scored provided they have a parent contact or parent account (with associated contacts) assigned. Account-based marketing features help provide an account-based perspective by segmenting contacts based on properties of the account they belong to, scoring account-based leads based on interactions made by the contacts that belong to those accounts, and so on, as described in this topic.
 
 ## Create segments for account-based journeys
 
