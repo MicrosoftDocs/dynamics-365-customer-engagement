@@ -25,10 +25,11 @@ search.app:
 ---
 # Using and extending Price lists for Field Service
 
-Field Service uses and extends D365 price lists and product catalog
+Field Service uses and extends Dynamics 365 price lists and product catalog. This means products and services are added to work orders with appropriate pricing.  
+
+In this article let's explore creating products, services, and price lists to use on work orders.
 
 ## Prerequisites 
-Using Price Lists with Field Service
 
 Using Dynamics price lists product catalog for Field Service is available for all version of Dynamics 365 Field Service
 
@@ -36,17 +37,23 @@ Basic knowledge of Dynamics 365 [product catalog](https://docs.microsoft.com/en-
 
 ## Create products and services
 
-Go to **Field Service app > Settings > Products > +New**.
-
 First create Field Service products and services that can be added to work orders. This is done by creating products and entering a Field Service Product Type.
 
 
-After saving, enter a **Default Price list** in the product details section, then **Save** again.
+For more explicit instructions, see the topic on [creating Field Service products and services](./create-product-or-service.md). 
 
 
+In summary, go to **Field Service app > Settings > Products > +New** and use the tooltips to add basic details about the product or service.
+
+For this exercise in using Field Service Price List Items to extend price lists, start by creating a service.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-product-create.png)
+> ![Screenshot of ](./media/price-list-service-create.png)
+
+In the Field Service section, enter a **Field Service Product Type** = service.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-create-service.png)
 
 - **Inventory**: This option is used for products of high value, or products that are inventoried and have quantities tracked in a warehouse.  
   
@@ -54,21 +61,19 @@ After saving, enter a **Default Price list** in the product details section, the
   
 - **Service**: The service option is used to create service products, which is the labor that you sell to your customers. The quantity of service products is measured with a duration of time. Only service products can be associated with a work order as a service. 
 
-
+Here are examples of inventory and non-inventory products.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-create-field-service.png)
 
-For this exercise, we created two more products; a service and a non-inventory one.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-product-create-service.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-create-non-inventory.png)
 
 > [!Note]
 > It's important to add a List Price to the product that will be used as a back up for when this product may be used on a work order but does not belong to the work order's price list as a price list item or field service price list item, as described later in this article.
+
+After saving, enter a **Default Price list** in the product details section, then **Save** again.
 
 
 ## Create price list  
@@ -189,3 +194,8 @@ Price lists in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-
  [Create a product or service](../field-service/create-product-or-service.md)   
  [Getting started with Field Service](../field-service/user-guide.md)
  [Create work order templates with incident types](../field-service/configure-incident-types.md)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-product-create.png)
