@@ -77,7 +77,8 @@ If previous version of Omnichannel Insights app was installed, it is strongly re
 1. During Omnichannel Insights app install, the following will appear:
 
     > [!div class=mx-imgBorder]
-    > ![Configure existing app](../oc-config1.png "Omnichannel insights configuration page")
+    > ![Enter CRM OData feed URL](../media/oc-config1.png "Enter CRM OData feed URL")
+
 
 2. Choose **Install to a new workspace** option
 3. Click **Install**
@@ -271,8 +272,8 @@ You must perform the following steps to configure the Omnichannel Insights Demo 
 
 ## Customize Omnichannel insights
 
-> [!NOTE]
-Microsoft does not support customizations made to the Power BI template app and will not provide updates once modifications are made. 
+> [!IMPORTANT]
+> Microsoft does not support customizations made to the Power BI template app and will not provide updates once modifications are made. 
 
 Power BI is a comprehensive collection of services and tools that can be used to visualize business data. The Power BI Template apps make it easy to visualize and analyze the Omnichannel Insights data with Power BI based on a standard data model. 
 
