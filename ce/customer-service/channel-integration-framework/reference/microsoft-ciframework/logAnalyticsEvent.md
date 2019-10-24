@@ -2,7 +2,7 @@
 title: "logAnalyticsEvent (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 10/21/2019
+ms.date: 10/25/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -39,22 +39,22 @@ The structure of the `data` parameter JSON is shown below. It is mandatory to in
 
 ```json
 {
-	"conversationId": "",
-	"providerSessionId": "",
-	"clientSessionId":"",
-	"participantId":"",
+	"conversationId": "<Conversation identifier>",
+	"providerSessionId": "<Channel Integration Framework Provider Id>",
+	"clientSessionId":"<Client session identifier>",
+	"participantId":"<Participant identifier>",
 	"events": [
 		{
-			"kpiEventName": "",
-			"kpiEventReason": "",
-			"eventTimestamp": "",
-			"additionalData": "",
-			"notificationResponseAction":"",
-			"externalCorrelationId": "",
+			"kpiEventName": "<Name of the associated KPI event>",
+			"kpiEventReason": "<Reason due to which the KPI event was created>",
+			"eventTimestamp": "<Timestamp at which the event occurred>",
+			"additionalData": "<Additional data related to the session>",
+			"notificationResponseAction":"<Agent notification response action value>",
+			"externalCorrelationId": "<External system correlation Id>",
 			"customData": [
 				{
-					"attribute": "name",
-					"value": "value"
+					"attribute": "<name>",
+					"value": "<value>"
 				}
 			]
 		}

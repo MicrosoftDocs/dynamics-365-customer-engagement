@@ -2,7 +2,7 @@
 title: "Support multiple providers with Dynamics 365 Channel Integration Framework | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 09/30/2018
+ms.date: 10/25/2018
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -36,11 +36,8 @@ With Dynamics 365 Channel Integration Framework version 2.0, organizations can c
 
 -   If a provider session is not in focus, and there is a new event in that session (for example, a new unread message from a customer), you can use the ***requestFocusSession*** API to show the agent that the session not in focus requires attention.
 
-
-<!--from editor: I suggest removing the bullet from the following sentence and not including it in the list because it doesn't seem to fit in a list of features.  -->
-
-
--   As a best practice, it is recommended that sessions are started after taking agent consent using a toast notification.
+> [!NOTE]
+> As a best practice, it is recommended that sessions are started after taking agent consent using a toast notification.
 
 ### See also
 

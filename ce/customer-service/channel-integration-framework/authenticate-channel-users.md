@@ -2,7 +2,7 @@
 title: "Authenticate channel users in Dynamics 365 Channel Integration Framework | Microsoft Docs"
 description: "Learn how to authenticate channel users in the Dynamics 365 Channel Integration Framework. The Dynamics 365 Channel Integration Framework supports the SAML-based single sign-on (SSO) for your agents or users to log in to the widget (channel)."
 keywords: ""
-ms.date: 12/10/2018
+ms.date: 10/25/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -15,17 +15,13 @@ ms.author: susikka
 manager: shujoshi
 ---
 
-
-<!--from editor: This topic mentions Dynamics 365 Unified Interface App, in title caps. Is this the name of a single app? Or is it any Unified Interface app, in which case you shouldn't capitalize "app." I also don't think Unified Interface needs Dynamics 365 in front of it, unless this is the full name of a specific app. -->
-
-
 # Authenticate channel users to log in to the channel
 
-Microsoft Dynamics 365 Channel Integration Framework supports the SAML-based single sign-on (SSO) for your users (agents) to sign in to the channel (widget). The SAML-based SSO is available for Dynamics 365 online where the communication widget hosts the channel. To enable SAML-based SSO for the channel (widget), you (an administrator) must register the channel (widget) in the Azure Active Directory portal as a multitenant application, where you have registered the Dynamics 365 Unified Interface App.
+Microsoft Dynamics 365 Channel Integration Framework supports the SAML-based single sign-on (SSO) for your users (agents) to sign in to the channel (widget). The SAML-based SSO is available for Dynamics 365 online where the communication widget hosts the channel. To enable SAML-based SSO for the channel (widget), you (an administrator) must register the channel (widget) in the Azure Active Directory portal as a multitenant application, where you have registered the model-driven app.
 
 After you register, the Azure Active Directory administrator must grant access to the channel (widget) to the users (agents).
 
-If you enable SAML-based SSO, the channel (widget) aligns with the Dynamics 365 Unified Interface App inactivity timeout period and signs out the users (agents) from both the channel (widget) and Dynamics 365 Unified Interface App.
+If you enable SAML-based SSO, the channel (widget) aligns with the model-driven app inactivity timeout period and signs out the users (agents) from both the channel (widget) and Dynamics 365 app such as Dynamics 365 Customer Service and Dynamics 365 Sales.
 
 To enable SSO for the channel (widget), perform the following:
 

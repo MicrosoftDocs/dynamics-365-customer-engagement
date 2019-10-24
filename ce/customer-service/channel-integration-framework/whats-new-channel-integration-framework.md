@@ -30,11 +30,7 @@ Dynamics 365 Channel Integration Framework version 2.0 provides multiple enhance
 
 ### Integration with the multisession experiences
 
-
-<!--from editor: Should there be a link in the last sentence of this paragraph? -->
-
-
-Dynamics 365 Channel Integration Framework version 2.0 provides APIs to integrate with the multisession experiences in the Omnichannel for Dynamics 365 Customer Service app. These APIs allow providers to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as needed. For more information, see Integration with multisession experiences.
+Dynamics 365 Channel Integration Framework version 2.0 provides APIs to integrate with the multisession experiences in the Omnichannel for Dynamics 365 Customer Service app. These APIs allow providers to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as needed. For more information, see [Integration with multisession experiences](integration-multi-session-experiences.md).
 
 More information: [Microsoft.CIFramework methods](reference/microsoft-ciframework.md)
 

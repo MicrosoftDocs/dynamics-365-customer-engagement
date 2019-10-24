@@ -20,8 +20,7 @@ manager: shujoshi
 # Frequently asked questions (FAQs) for Dynamics 365 Channel Integration Framework
 
 
-<!--from editor: Don't skip a heading level. You need to add a level 2 subhed for this first set of questions. -->
-
+## General FAQs
 
 ### What is Dynamics 365 Channel Integration Framework?
 Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party channel providers with Dynamics 365 Unified Interface apps using a browser-based JavaScript API library.
@@ -53,12 +52,9 @@ No, Dynamics 365 Channel Integration Framework does not manage call or chat sess
 ### Is Dynamics 365 Channel Integration Framework dependent on operating systems and browsers?
 No, Dynamics 365 Channel Integration Framework is operating system- and web browser-agnostic and lets you integrate the cloud-based channels of your choice that are best for your organization's requirements.
 
-
-<!--from editor: The question and answer below seem reversed. It asks what browsers are supported by CIF, but answers with browsers that support CIF. -->
-
-
 ### Which web browsers does Dynamics 365 Channel Integration Framework support?
-Dynamics 365 Channel Integration Framework is supported on Microsoft Edge and Google Chrome. 
+
+Microsoft Edge and Google Chrome support Dynamics 365 Channel Integration Framework.
 
 > [!NOTE]
 > The widget domain needs to be accorded permission to use appropriate media like pop-ups and microphone as required. For Microsoft Edge to permanently accord the required permissions, the required domain needs to be accessed via a regular window; permanent exception cannot be granted when the domain is accessed in private mode.

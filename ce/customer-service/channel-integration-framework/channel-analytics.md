@@ -116,8 +116,8 @@ If the partner wants to fire some custom event for their KPIs, they can do it wi
 
 Primary entity for defining a KPI event.
 
-**Display name**: KPI Event Definition
-**Primary field**: name
+**Display name**: KPI Event Definition<br />
+**Primary field**: name<br />
 **Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_kpieventdefinitions`
 
 ### msdyn_conversationdata

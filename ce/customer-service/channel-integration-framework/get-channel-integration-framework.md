@@ -37,10 +37,6 @@ There are two ways to get Dynamics 365 Channel Integration Framework from Micros
 
 ### Directly from Microsoft AppSource
 
-
-<!--from editor: Is the following sentence correct? The heading says it's from the AppSource. -->
-
-
 To get the Dynamics 365 Channel Integration Framework solution from within Dynamics 365:
 
 1. Go to [Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=2050102). The Dynamics 365 Channel Integration Framework application page appears.

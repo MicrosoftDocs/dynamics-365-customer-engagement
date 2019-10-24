@@ -2,7 +2,7 @@
 title: "Modes and locations for the communication widget | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 09/30/2019
+ms.date: 10/25/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -44,11 +44,7 @@ The communication panel is not visible, but the communication widget code is run
 
 An agent can manually switch the mode from docked to minimized and vice versa.
 
-
-<!--from editor: Should the following sentence include a link? -->
-
-
-Providers can switch the mode using APIs. For more information, see Modes and location APIs.
+Providers can switch the mode using APIs. For more information, see [setMode](reference/microsoft-ciframework/setMode.md) and [getMode](reference/microsoft-ciframework/getMode.md) APIs.
 
 Providers can also decide on the mode of the communication widget when they are starting a session.
 

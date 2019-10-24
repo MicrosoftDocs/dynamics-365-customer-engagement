@@ -63,36 +63,36 @@ The structure of the `data` parameter JSON is shown below. It is mandatory to in
 		],
 		"session": {
 			"providerSessionId": "<Provider identifier of the session>",
-			"clientSessionId": "",
-			"clientSessionName": "",
-			"channel": "",
-			"creationReason": "",
-			"additionalData": "",
-			"externalCorrelationId": "",
-			"createdTimestamp": "",
-			"agentAssignedTimestamp": "",
-			"queueAssignedTimestamp": "",
-			"queueId":"",
-			"queueName":"",
+			"clientSessionId": "<Identifier of the client session>",
+			"clientSessionName": "<Name of the client session>",
+			"channel": "<Channel for the session>",
+			"creationReason": "<Reason for the session creation>",
+			"additionalData": "<Additional data related to the session>",
+			"externalCorrelationId": "<External system correlation Id>",
+			"createdTimestamp": "<Timestamp at which the session was created>",
+			"agentAssignedTimestamp": "<Timestamp at which the agent was assigned to the session>",
+			"queueAssignedTimestamp": "<Timestamp at which the queue was assigned to the session>",
+			"queueId":"<Identifier of the queue to which this session belongs to>",
+			"queueName":"<Name of the queue to which this session belongs to>",
 			"customData": [
 				{
-					"attribute": "name",
-					"value": "value"
+					"attribute": "<name>",
+					"value": "<value>"
 				}
 			],
 			"participants": [
 				{
-					"participantId": "",
-					"externalId": "",
-					"name": "",
-					"mode": "",
-					"type": "",
-					"addedTimestamp": "",
-					"assignReason":"",
+					"participantId": "<Identifier of the session participant>",
+					"externalId": "<External system correlation Id>",
+					"name": "<Primary field of the entity>",
+					"mode": "<Session participant mode>",
+					"type": "<Type of the session participant>",
+					"addedTimestamp": "<Timestamp at which the participant was added to the session>",
+					"assignReason":"<Reason for which the participant was added to the session>",
 					"customData": [
 						{
-							"attribute": "name",
-							"value": "value"
+							"attribute": "<name>",
+							"value": "<value>"
 						}
 					]
 				}

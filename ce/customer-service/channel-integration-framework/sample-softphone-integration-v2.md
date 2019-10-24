@@ -2,7 +2,7 @@
 title: "Sample code for softphone integration using Dynamics 365 Channel Integration Framework version 2.0 | Microsoft Docs"
 description: "Learn about sample code for softphone integration using Dynamics 365 Channel Integration Framework version 2.0 with Unified Interface apps."
 keywords: ""
-ms.date: 10/17/2019
+ms.date: 10/25/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -94,17 +94,13 @@ manager: shujoshi
 
 ## Import configuration data
 
-
-<!--from editor: Step 4 below mentions Dynamics 365 for Customer Engagement. We no longer use that, so you need to decide what is appropriate to use instead. -->
-
-
 1. Download the [Configuration Migration tool](/power-platform/admin/manage-configuration-data). The Configuration Migration tool is available as a NuGet package.
 
 2. Start the Configuration Migration tool. Double-click DataMigrationUtility.exe in the folder: `[your folder]\Tools\ConfigurationMigration\`.
 
 3. On the main screen, select **Import data**, and then select **Continue**.
 
-4. On the sign-in screen, provide authentication details to connect to your Dynamics 365 instance from where you want to import data. If you have multiple organizations on the Dynamics 365 for Customer Engagement server, and want to select the organization to which to import the configuration data, select the **Always display list of available orgs** check box. Select **Login**.
+4. On the sign-in screen, provide authentication details to connect to your Dynamics 365 instance from where you want to import data. If you have multiple organizations on the Dynamics 365 server, and want to select the organization to which to import the configuration data, select the **Always display list of available orgs** check box. Select **Login**.
 
 5. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select a Dynamics 365 apps organization to connect to.
 

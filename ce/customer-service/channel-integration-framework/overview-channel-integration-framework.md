@@ -23,10 +23,6 @@ With this framework, you can integrate any third-party channel provider or chann
 
 Technically, Dynamics 365 Channel Integration Framework is a set of APIs (methods, events, and protocols) that enable developers and partners to build immersive communication experiences such that third-party communication widgets running on a channel provider cloud can interact with Dynamics 365. 
 
-
-<!--from editor: Unclear what the agents can access. -->
-
-
 With the Dynamics 365 Channel Integration Framework application (solution), you can configure the channel in the Unified Interface app so that your agents can access to serve your customers.
 
 ## Challenges of channel provider integration systems
