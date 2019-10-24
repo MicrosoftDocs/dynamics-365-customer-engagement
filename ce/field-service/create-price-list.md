@@ -159,6 +159,9 @@ Price lists in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-
   
 ## Additional notes
 
+- you can add a Field Service Price List Item even if the product or service is not a price list item. In this case the list price on the product record will be used for calculations.
+
+
 ### Add territory relationships  
  Add default price lists for territories or customer segments. This makes it easier for your [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] team to see the default price list for the area they are working in. You can have one price list as the default for multiple territories.  
   
