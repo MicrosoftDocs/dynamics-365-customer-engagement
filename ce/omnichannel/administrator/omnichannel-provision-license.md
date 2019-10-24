@@ -101,7 +101,8 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 
     The setup can take few mins. You may close the window and check after some time, or refresh to check if it's complete. Once the setup is complete, the selected channels are enabled in your environment.
 
-    ![Summary tab on Manage Omnichannel instances page](../media/manage-omnichannel-summary.png "Summary tab on Manage Omnichannel instances page")
+    > [!div class=mx-imgBorder]
+    > ![Summary tab on Manage Omnichannel instances page](../media/manage-omnichannel-summary.png "Summary tab on Manage Omnichannel instances page")
     
     The organization and the enabled channels are also available in the **Manage Instances** view.
 
@@ -110,22 +111,20 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 
 ## Locate your Org ID
 
-Follow these steps to locate your Org ID in your instance.
+Follow these steps to locate your Org ID in your instance:
 
-1. In the Common Data Service platform, go to **Settings** > **Customizations**.
+1. In the Common Data Service platform, go to **Settings** > **Customization**.
 
     > [!NOTE]
-    > Ensure that you have System Administrator or System Customizer security role or equivalent permissions.
+    > Ensure that you have System Administrator or System Customizer security role or equivalent permissions.
 
-2. Select **Developer Resources**. You can find your Org ID in the **Instant Reference Information** section.
+2. Select Developer Resources. You can find your Ord ID in the **Instant Reference Information** section.
 
-    > [!div class=mx-imgBorder]
-    > ![Locate org id](../media/locate-org-id.png)
+    > [!div class=mx-imgBorder]
+    > ![Locate Org ID](../media/locate-org-id.png)
 
 ### See also
 
-[Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)
-
-[Understand and create work streams](work-streams-introduction.md)
-
+[Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)<br>
+[Understand and create work streams](work-streams-introduction.md)<br>
 [Manage users](users-user-profiles.md)
