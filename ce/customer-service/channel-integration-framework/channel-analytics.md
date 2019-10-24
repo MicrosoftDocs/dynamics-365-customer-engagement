@@ -110,23 +110,15 @@ For that session, all first-party instrumentation events like notification displ
 
 If the partner wants to fire some custom event for their KPIs, they can do it with the same correlation ID as well using the [logAnalyticsEvent API](reference/microsoft-ciframework/logAnalyticsEvent.md).
 
-## Calculating KPIs using Channel Analytics
-
-You can calculate several KPIs that can help you understand the health of the customer service center.
-
-### Calculate offered conversations
-
-Offered conversations are the total number of conversations for a provider. This is the sum of all abandoned calls, accepted calls, and rejected calls.
-
-You can calculate it by monitoring and predicting the load on different regions, channels, queues, and incident drivers.
-
-### Calculate average wait time
-
-Average wait time is the length of time, in minutes, that a customer is waiting in the queue.
-
-You can calculate it by monitoring and predicting the load on different regions, channels, queues, and incident drivers.
-
 ## Channel Analytics Entities
+
+### msdyn_kpieventdefinition
+
+Primary entity for defining a KPI event.
+
+**Display name**: KPI Event Definition
+**Primary field**: name
+**Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_kpieventdefinitions`
 
 ### msdyn_conversationdata
 
@@ -159,14 +151,6 @@ Primary entity for a KPI event.
 **Display name**: KPI Event Data
 **Primary field**: name
 **Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_kpieventsdata`
-
-### msdyn_kpieventdefinition
-
-Primary entity for defining a KPI event.
-
-**Display name**: KPI Event Definition
-**Primary field**: name
-**Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_kpieventdefinitions`
 
 ## See also
 

@@ -39,22 +39,22 @@ The structure of the `data` parameter JSON is shown below. It is mandatory to in
 ```json
 {
 	"conversation": {
-		"conversationId": "",
-		"channel": "",
+		"conversationId": "<Conversation identifier>",
+		"channel": "<Conversation channel>",
 		"regionData": {
-		"addressLine1":"",
+		"addressLine1":"<Conversation origin region information>",
 		"city":"",
 		"state":"",
 		"country":"",
 		"zip":""
 		},
-		"providerId": "",
-		"providerName": "",
-		"accountId": "",
-		"contactId": "",
-		"additionalData": "",
-		"externalCorrelationId": "",
-		"createdTimestamp": "",
+		"providerId": "<Channel Integration Framework provider Id>",
+		"providerName": "<Channel Integration Framework provider name>",
+		"accountId": "<Account unique identifier>",
+		"contactId": "<Contact unique identifier>",
+		"additionalData": "<Additional data related to the conversation>",
+		"externalCorrelationId": "<External system correlation Id>",
+		"createdTimestamp": "Creation time",
 		"customData": [
 			{
 				"attribute": "name",
@@ -62,7 +62,7 @@ The structure of the `data` parameter JSON is shown below. It is mandatory to in
 			}
 		],
 		"session": {
-			"providerSessionId": "",
+			"providerSessionId": "<Provider identifier of the session>",
 			"clientSessionId": "",
 			"clientSessionName": "",
 			"channel": "",
