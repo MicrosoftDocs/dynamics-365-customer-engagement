@@ -1,10 +1,10 @@
 ---
 title: Customer Service Analytics for Dynamics 365 | Microsoft Docs
 description: Dashboard provides historical operational metrics and KPIs to manage contact centers.  
-author: anjgupta
-ms.author: anjgup
-manager: shujoshi
-ms.date: 06/01/2018
+author: lerobbin
+ms.author: lerobbin
+manager: autumna
+ms.date: 10/24/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
