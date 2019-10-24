@@ -43,7 +43,7 @@ First create Field Service products and services that can be added to work order
 
 After saving, enter a **Default Price list** in the product details section, then **Save** again.
 
-For this exercise, we created two more products; a service and a non-inventory one.
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-create.png)
@@ -59,11 +59,16 @@ For this exercise, we created two more products; a service and a non-inventory o
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-create-field-service.png)
 
+For this exercise, we created two more products; a service and a non-inventory one.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-create-service.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-create-non-inventory.png)
+
+> [!Note]
+> It's important to add a List Price to the product that will be used as a back up for when this product may be used on a work order but does not belong to the work order's price list as a price list item or field service price list item, as described later in this article.
 
 
 ## Create price list  
