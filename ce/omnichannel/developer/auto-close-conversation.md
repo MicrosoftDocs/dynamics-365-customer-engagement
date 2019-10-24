@@ -2,7 +2,7 @@
 title: "Automatic closure of a conversation| Microsoft Docs"
 description: "Read how you can auto-close a conversation using the Web API"
 keywords: ""
-ms.date: 10/23/2019
+ms.date: 10/25/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -15,7 +15,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-This topic demonstrates how you can auto-close a conversation using Web API. 
+This topic demonstrates how you can configure auto-close duration for a conversation using the Web API. 
 
 Use the `GET` request given below to fetch all the configuration records that have been defined out of the box.
 
@@ -86,9 +86,9 @@ If-None-Match: null
 }
 ```
 
-The `msdyn_name` attribute in the `msdyn_occhannelstateconfiguration` entity mentions the state of the conversation. For more information about conversation states, see [Understand conversation states in Omnichannel for Customer Service](../agent/agent-oc/oc-conversation-state.md).
+The `msdyn_name` attribute in the `msdyn_occhannelstateconfiguration` entity mentions the channel and state of the conversation. For more information about conversation states, see [Understand conversation states in Omnichannel for Customer Service](../agent/agent-oc/oc-conversation-state.md).
 
-You can query `msdyn_occhannelconfiguration` entity to see all the existing channels. For each of these channels, you can see its state when you query the `msdyn_occhannelstateconfiguration` entity.
+You can make a `GET` request to `msdyn_occhannelconfiguration` entity to fetch all the existing channel records. For each of these channels, you can see its state when you query the `msdyn_occhannelstateconfiguration` entity.
 
 Make a `PATCH` request to the `msdyn_occhannelstateconfiguration` entity record and update the value of the `msdyn_autocloseliveworkitemafter` attribute.
 
