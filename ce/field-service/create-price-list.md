@@ -54,7 +54,7 @@ For this exercise, we created two more products; a service and a non-inventory o
 > ![Screenshot of ](./media/work-order-product-create-non-inventory.png)
 
 
-## Create a new price list  
+## Create price list  
   
 1.  From the top menu, click **Field Service** > **Administration**, and then choose **Price Lists**.  
   
@@ -71,9 +71,7 @@ Next, add the products and services as price list items to the price lists of yo
 For more information see the topic on [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [creating a price list (Project Service Automation)](../project-service/create-price-list.md). 
 
 
-## Add products and services to price list
-
-### Add price list items  
+## Add price list items  
  Create a price list item for each unit in which the product is available. For example, if the product is available as a single item (each), in a dozen, and in a gross, create three price list items. This lets you order the product in any quantity you want, using the same price list. You can add price list items from the product form also.  
   
 1. In the price list record, in the **Price List Items** section, click the **Add Price List Item record**.  
@@ -115,12 +113,11 @@ For more information see the topic on [!INCLUDE[proc_more_information](../includ
 3. Click **Save**.  
   
 
-## Extending price lists for Field Service
+## Add Field Service Price list items
 
 **Pro Tip:** From the Price List go to **Related > Field Service Price List Items** to add additional pricing options for Field Service products and services.
 
-### Add Field Service price list items  
- [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] price list items let you associate service (or labor) type productsfrom the product catalogwith a price list, with properties that are relevant to labor products.  
+especially for services
   
 1.  From the top menu, click the drop-down arrow next to the price list name that you created, and then click **Field Service Price List Item**.  
   
@@ -128,6 +125,17 @@ For more information see the topic on [!INCLUDE[proc_more_information](../includ
   
 3.  Use the tooltips to help fill in your information:  
   
+Flat Fee
+
+Minimum Charge Duration
+
+Minimum Charge Amount
+
+Duration Rounding Policy
+
+Duration Rounding To
+
+
     -   Name the price list  
   
     -   Select the Product/Service this applies to from the drop-down list.  
