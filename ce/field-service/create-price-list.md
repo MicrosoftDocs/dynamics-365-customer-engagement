@@ -34,6 +34,7 @@ Using Dynamics price lists product catalog for Field Service is available for al
 
 Basic knowledge of Dynamics 365 [product catalog](https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/set-up-product-catalog-walkthrough) and [price lists](https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products) is encouraged. 
 
+## Create products and services
 
 After saving, enter a **Default Price list** in the product details section, then **Save** again.
 
@@ -52,6 +53,15 @@ For this exercise, we created two more products; a service and a non-inventory o
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-create-non-inventory.png)
 
+
+## Create a new price list  
+  
+1.  From the top menu, click **Field Service** > **Administration**, and then choose **Price Lists**.  
+  
+2.  On the **Active Price Lists** screen, click **+New** in the upper left corner.  
+  
+3.  Use the tooltips to help fill in your information, and then click **Save**.  
+
 Next, add the products and services as price list items to the price lists of your choice.
 
 
@@ -60,54 +70,10 @@ Next, add the products and services as price list items to the price lists of yo
 
 For more information see the topic on [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [creating a price list (Project Service Automation)](../project-service/create-price-list.md). 
 
-**Pro Tip:** From the Price List go to **Related > Field Service Price List Items** to add additional pricing options for Field Service products and services.
 
+## Add products and services to price list
 
-## Extending price lists for Field Service
-
-## Add price lists to work orders
-
-Price lists in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] define pricing levels. When you use a price list, you can specify how much a customer is charged for your product and services. The price list is noted on the account, work order, agreement, or the individual product or service. 
-  
-<a name="BKMK_CreateNewPriceList"></a>   
-## Create a new price list  
-  
-1.  From the top menu, click **Field Service** > **Administration**, and then choose **Price Lists**.  
-  
-2.  On the **Active Price Lists** screen, click **+New** in the upper left corner.  
-  
-3.  Use the tooltips to help fill in your information, and then click **Save**.  
-  
-<a name="BKMK_AddFieldSvcPriceListItems"></a>   
-## Add [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] price list items  
- [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] price list items let you associate service (or labor) type productsfrom the product catalogwith a price list, with properties that are relevant to labor products.  
-  
-1.  From the top menu, click the drop-down arrow next to the price list name that you created, and then click **Field Service Price List Item**.  
-  
-2.  Click **Add New Field Service Price List Item**.  
-  
-3.  Use the tooltips to help fill in your information:  
-  
-    -   Name the price list  
-  
-    -   Select the Product/Service this applies to from the drop-down list.  
-  
-         If this price list item is a service you can:  
-  
-        -   Select **Duration Round To**  
-  
-        -   Select **Duration Rounding Policy**  
-  
-        -   Choose **Yes** or **No** for **Flat Fee**  
-  
-        -   Choose **Minimum Charge Amount**  
-  
-        -   Choose **Minimum Charge Duration**  
-  
-4.  Click **Save & Close**.  
-  
-<a name="BKMK_AddPriceListItems"></a>   
-## Add price list items  
+### Add price list items  
  Create a price list item for each unit in which the product is available. For example, if the product is available as a single item (each), in a dozen, and in a gross, create three price list items. This lets you order the product in any quantity you want, using the same price list. You can add price list items from the product form also.  
   
 1. In the price list record, in the **Price List Items** section, click the **Add Price List Item record**.  
@@ -148,25 +114,57 @@ Price lists in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-
   
 3. Click **Save**.  
   
-<a name="BKMK_AddTerritoryRelationships"></a>   
-## Add territory relationships  
+
+## Extending price lists for Field Service
+
+**Pro Tip:** From the Price List go to **Related > Field Service Price List Items** to add additional pricing options for Field Service products and services.
+
+### Add Field Service price list items  
+ [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] price list items let you associate service (or labor) type productsfrom the product catalogwith a price list, with properties that are relevant to labor products.  
+  
+1.  From the top menu, click the drop-down arrow next to the price list name that you created, and then click **Field Service Price List Item**.  
+  
+2.  Click **Add New Field Service Price List Item**.  
+  
+3.  Use the tooltips to help fill in your information:  
+  
+    -   Name the price list  
+  
+    -   Select the Product/Service this applies to from the drop-down list.  
+  
+         If this price list item is a service you can:  
+  
+        -   Select **Duration Round To**  
+  
+        -   Select **Duration Rounding Policy**  
+  
+        -   Choose **Yes** or **No** for **Flat Fee**  
+  
+        -   Choose **Minimum Charge Amount**  
+  
+        -   Choose **Minimum Charge Duration**  
+  
+4.  Click **Save & Close**.  
+
+## Add price lists to work orders
+
+Price lists in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] define pricing levels. When you use a price list, you can specify how much a customer is charged for your product and services. The price list is noted on the account, work order, agreement, or the individual product or service. 
+  
+## Additional notes
+
+### Add territory relationships  
  Add default price lists for territories or customer segments. This makes it easier for your [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] team to see the default price list for the area they are working in. You can have one price list as the default for multiple territories.  
   
-1.  In the price list record, in the **Territory Relationships** section, click **+Add Connection record**.  
+1. In the price list record, in the **Territory Relationships** section, click **+Add Connection record**.  
   
-2.  In the **Connections** form, in **Name**, click the **Lookup** button, and then select a territory.  
+2. In the **Connections** form, in **Name**, click the **Lookup** button, and then select a territory.  
   
 3.  Click **Save & Close**.  
   
 4.  In the price list form, click the **Auto Save** button.  
   
 ### See also    
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
+  
  [Create a product or service](../field-service/create-product-or-service.md)   
- [Set up purchase order sub-statuses](../field-service/set-up-purchase-order-sub-statuses.md)   
- [Create a warehouse](../field-service/create-warehouse.md)   
- [Create ship via](../field-service/create-ship-via.md)   
- [Create an RMA sub-status](../field-service/create-rma-sub-status.md)   
- [Set up RTV sub-statuses](../field-service/set-up-rtv-sub-statuses.md)   
- [Process a return](../field-service/process-return.md)<br>
- [User's Guide](../field-service/user-guide.md)
+ [Getting started with Field Service](../field-service/user-guide.md)
+ [Create work order templates with incident types](../field-service/configure-incident-types.md)
