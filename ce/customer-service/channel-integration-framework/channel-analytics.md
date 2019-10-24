@@ -124,32 +124,32 @@ Primary entity for defining a KPI event.
 
 Primary entity for a conversation.
 
-**Logical name**: Conversation Data
-**Primary field**: name
+**Logical name**: Conversation Data<br />
+**Primary field**: name<br />
 **Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_conversationsdata`
 
 ### msdyn_sessiondata
 
 Primary entity for session data.
 
-**Display name**: Session data
-**Primary field**: name
+**Display name**: Session data<br />
+**Primary field**: name<br />
 **Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_sessionsdata`
 
 ### msdyn_sessionparticipantdata
 
 Primary entity for representing session participants.
 
-**Display name**: Session Participant Data
-**Primary field**: name
+**Display name**: Session Participant Data<br />
+**Primary field**: name<br />
 **Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_sessionparticipantsdata`
 
 ### msdyn_kpieventdata
 
 Primary entity for a KPI event.
 
-**Display name**: KPI Event Data
-**Primary field**: name
+**Display name**: KPI Event Data<br />
+**Primary field**: name<br />
 **Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_kpieventsdata`
 
 ## See also
