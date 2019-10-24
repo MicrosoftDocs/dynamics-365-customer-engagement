@@ -40,7 +40,8 @@ Reporting structure consists of six sections:
 
 1. **Conversation**: This section provides historical visibility into the overall support operations across various channels: 
 
-< waiting on updated screen shots > 
+    > [!div class=mx-imgBorder]
+    > ![Conversation](../media/conversation-report.png "Conversation")
 
 This section consists of the following conversation KPIs: 
 
@@ -55,7 +56,8 @@ This section consists of the following conversation KPIs:
 
 2. **Channel**: This section provides historical visibility on support operations by each channel that helps supervisors easily understand how each support channel (e.g.: SMS, chat, etc.) are performing and take appropriate actions to improve the overall support experience for customers.  
 
-< waiting on updated screen shot > 
+    > [!div class=mx-imgBorder]
+    > ![Channel Report](../media/channel.png "Channel Report")
 
 This section consists of the visuals: 
 |Visual                              |Description  |
@@ -71,7 +73,8 @@ This section consists of the visuals:
 
 3. **Queue**: This section provides historical visibility on how each of queue is performing so supervisors can and take appropriate steps to improve the overall support experience for the customer.  
 
-< confirm screen shots are most current > 
+    > [!div class=mx-imgBorder]
+    > ![Queue Report](../media/queue-report.png "Queue Report")
 
 
 This section consists of the following KPIs: 
@@ -86,7 +89,8 @@ This section consists of the following KPIs:
 
 4. **Agent**: This section provides historical visibility on how each agent is performing across different channels/queues so supervisors can take appropriate action to improve the overall support experience for customers.  
 
-< waiting on updated screen shot > 
+    > [!div class=mx-imgBorder]
+    > ![Agent Report](../media/agent.png "Agent Report")
 
 Metrics in this section are computed at the session granularity.  Each customer contact is defined as a conversation.  Each conversation is defined as a session and can be handled by one or more agents.    
 
