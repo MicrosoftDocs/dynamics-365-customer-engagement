@@ -1,6 +1,6 @@
 ---
 title: "Attach search-related action calls to events | MicrosoftDocs"
-description: "Learn how to attach the search-related action calls to events for agents ans supervisors using Omnichannel for Customer Service."
+description: "Learn how to attach the search-related action calls to events for agents and supervisors using Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -20,7 +20,7 @@ This topic describes how to attach the search-related action calls to out-of-the
 
 ## Prerequisites 
 
-- You must have required Dynamics 365 Customer Service permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required Dynamics 365 Customer Service entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
+- You must have the required Dynamics 365 Customer Service permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required Dynamics 365 Customer Service entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
 - You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md), [Step 1: Create search hosted control](search-step1-create-hosted-control.md), [Step 2: Create search-related action calls](search-step2-create-action-calls.md), and [Step 3: Attach sub action calls to action calls](search-step3-attach-sub-action-calls.md). The configurations that you completed are required for this topic.
 
@@ -42,7 +42,7 @@ This topic describes how to attach the search-related action calls to out-of-the
 
 4. Select **Events** and then select **+ New**.
 
-5. Specify the following in the **New Event** page.
+5. Specify the following in the **New Event** page:
 
     | Tab | Field | Value |
     |---------------------|-------------------------|-------------------------|
@@ -63,7 +63,7 @@ This topic describes how to attach the search-related action calls to out-of-the
 
 5. Select **Add an Existing Action Call**. The **Lookup Records** pane appears.
 
-6. In the **Lookup Records** pane, enter the name of the action call you want to add. Enter **Initialize Omnichannel Context - Window Variable - Search result tab** in the search box and select the action from the list, and then select **Add**. The action call is added to the **PageReady** event.
+6. In the **Lookup Records** pane, enter the name of the action call you want to add. Enter **Initialize Omnichannel Context - Window Variable - Search result tab** in the search box, select the action from the list, and then select **Add**. The action call is added to the **PageReady** event.
 
 7. Select **Save**.
 
@@ -71,8 +71,8 @@ This topic describes how to attach the search-related action calls to out-of-the
 
     | Event                              | Action Call                                    |
     |------------------------------------|------------------------------------------------|
-    | PageReady | <ul> Get Entity Primary Attribute Value </ul> |
-    | OmnichannelSessionInlineSearchAndLink | <ul> Update Conversation Context Entities </ul> |
+    | PageReady | Get Entity Primary Attribute Value  |
+    | OmnichannelSessionInlineSearchAndLink | Update Conversation Context Entities |
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 5: Configure window navigation rule for search](search-step5-configure-window-navigation-rule.md) 

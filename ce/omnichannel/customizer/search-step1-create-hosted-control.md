@@ -16,7 +16,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-This topic demonstrates how to create a search hosted control in Unified Service Desk for a Dynamics 365 Customer Service instance.
+This topic describes how to create a search hosted control in Unified Service Desk for a Dynamics 365 Customer Service instance.
 
 ## Prerequisites 
 
@@ -41,7 +41,7 @@ This topic demonstrates how to create a search hosted control in Unified Service
 
 4. Select **Hosted Controls** and then select **+ New**.
 
-5. On the page for new hosted control, specify the following.
+5. On the page for new hosted control, specify the following:
 
     | Field                                         | Value                           |
     |-----------------------------------------------|---------------------------------|
@@ -59,7 +59,7 @@ This topic demonstrates how to create a search hosted control in Unified Service
 
 6.  Save the hosted control.
 
-7. Repeat the steps 4 through 6 to create the following hosted control.
+7. Repeat steps 4 through 6 to create the following hosted control:
 
     | Field                                         | Value                           |
     |-----------------------------------------------|---------------------------------|

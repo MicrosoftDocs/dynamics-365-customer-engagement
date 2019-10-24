@@ -112,7 +112,7 @@ This is currently not supported. Enabling customizations for the Conversation Su
 
 ### Why am I not able to see the IntradayMonitoring report and datasets in Power BI service while configuring intraday insights dashboard for supervisors.
 
-Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in Omnichannel Administration app, ensure that you have saved the configurations before you exit the configuration form. When you select Save, the creation of the report and dataset is initiated. If you missed to save the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Power BI workspace](administrator/configure-intraday-dashboard-supervisor.md#configure-power-bi-workspace).
+Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in Omnichannel Administration app, ensure that you have saved the configurations before you exit the configuration form. When you select Save, the creation of the report and dataset is initiated. If you missed to save the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Intraday insights for Omnichannel for Customer Service app on web](administrator/configure-intraday-dashboard-supervisor.md#configure-intraday-insights-for-omnichannel-for-customer-service-app-on-web).
 
 ### What is the application ID field on the application user form?
 The application ID is a mandatory field for creating application users in the Common Data Service platform. You can copy any application ID for any valid (non-expired) application created in Azure Active Directory for the same tenant into this field. 
@@ -176,7 +176,7 @@ No. Omnichannel routing can be used to route chat or SMS requests (in preview) o
 ### What information from a TeleSign account do I need to enter in the Omnichannel Administrator app?
 You will need the customer ID, API key, and the phone number from your TeleSign account. This information needs to be provided in the Omnichannel Administrator app when you create or set up an SMS workstream.
 
-### I get an error when I try to use the Validate API Key to validate the TeleSign account information entered in the Omnichannel Administrator app. What should I do?
+### I get an error when I try to use the Validate API Key to validate the TeleSign account information entered in the Omnichannel Administration app. What should I do?
 The Validate API Key functionality will validate the customer ID and the API key by trying to send a test SMS message to one of the numbers provided in the SMS Numbers tab. Ensure that the customer ID and API key are entered correctly, and the numbers provided in the SMS Numbers tab can receive the text messages that are sent for validation. The phone number should have the country code with no plus sign (+), spaces or special characters; for example, this would be correct: 14251234567
 
 ### How can I know if I can get a phone number from TeleSign in a specific country?

@@ -123,6 +123,8 @@ Use a keyboard command to see the list of agents and/or the supervisor who is av
 
 Use a keyboard command to see the list of queues to transfer the conversation request. Press the Slash (/) key and the letters T and Q (**/tq**).
 
+When skill-based routing is enabled, then during transfer, the **Transfer** flyout shows users sorted in order of matching skills.
+
 ### Search for agents or queues
 
 After you type **/t** or **/tq** in the communication panel messaging area, you can continue typing the name of the participant and if it is present, the agent or queues names are filtered and displayed to you.

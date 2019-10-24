@@ -153,11 +153,11 @@ To set up a form capture:
 
 1. If you're working with a new website record, then select **Save** on the command bar to generate the website-tracking and form-capture codes. After you've saved the record at least once, you'll see the following:
    - **JavaScript code**: This is the website-tracking code, which you must copy onto each webpage (or CMS template) for which you want to track page visits and clicks. More information: [Monitor how visitors use your website](register-engagement.md#monitor-visitors)
-   - **Form capture code**: This is the form-capture code, which you must copy onto each webpage (or CMS template) that includes a form that you want to capture for use with Dynamics 365 Marketing.
+   - **Form capture code**: This is the form-capture code, which you must copy onto each webpage (or CMS template) that includes a form that you want to capture for use with Dynamics 365 Marketing. (It also includes code that enables the website-tracking feature provided by the **JavaScript code**, so there is no need to include both on one page.)
 
-    Take a copy of each of these codes, or keep this page open as you continue with this procedure.
+    Take a copy of the **Form capture code**, or keep this page open as you continue with this procedure.
 
-1. Return to your externally designed form page and paste the form-capture code you found anywhere in the `<body>` of the page. The page should usually also include a website-tracking code because this will enable Dynamics 365 Marketing to collect visitor insights and customer journey triggers to react to page visits or submissions. If your CMS page templates are already set up to place a website-tracking code, then don't add a new one, but if they aren't consider adding the website-tracking code too. <!-- [kamaybac] confirm details about tracking code -->
+1. Return to your externally designed form page and paste the **Form capture code** you copied anywhere in the `<body>` of the page. 
 
 1. Publish your form page to make it available over the internet. Note its URL.
 

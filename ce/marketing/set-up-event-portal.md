@@ -169,6 +169,7 @@ Where:
 ### See also
 
 [Set up online payment for events](event-payment-gateway.md)  
+[Change the URL for event websites hosted on Dynamics 365 Portals](events-change-url.md)  
 [Create interactive features with or without portals](portals.md)  
 [Set up an event](set-up-event.md)  
 [Go live with publishable entities and track their status](go-live.md)

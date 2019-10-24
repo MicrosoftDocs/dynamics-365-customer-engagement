@@ -8,5 +8,11 @@ These files have been redirected, but the actual .md topic files can't been remo
 
 ce\customize\import-update-export-solutions.md
 ce\field-service\field-resource-hub-users-guide.md
+ce\marketing\new-segment-designer.md
+ce\marketing\easy-subscription-lists.md
+ce\marketing\email-layouts.md
+ce\marketing\segments-explorer.md
+ce\teams-integration\teams-work-records-and-view.md
+ce\customerengagement\on-premises\basics\add-edit-power-bi-visualizations-dashboard.md
 
 These files have been deleted, but the list hasn't been communicated to loc yet.

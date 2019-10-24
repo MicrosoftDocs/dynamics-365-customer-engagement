@@ -103,7 +103,7 @@ Watch this video to learn more about case management in the Customer Service Hub
     ![completed-case](media/completed-case.png "Completed case form")
 
 > [!NOTE]
-> If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customer-engagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
+> If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customerengagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
 
 ## Track SLA details with Timer Control  
 You or the CSR working on the case can see the SLA details right on the case form. See the below section to know what happens when an  SLA is applied to a case form. 
@@ -405,4 +405,4 @@ To know more about how to create SLAs, see [Define Service Level Agreements (SLA
 
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
 
-[Use the Main form and its components](../customer-engagement/on-premises/customize/use-main-form-and-components.md)
+[Use the Main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)

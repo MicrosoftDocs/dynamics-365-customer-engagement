@@ -116,7 +116,7 @@ Define the level of service or support that your organization agrees to offer to
     SLA KPIs are performance indicators that you’d like to track, for example First Response or Resolve By. SLA items refer to SLA KPIs based on specific conditions. You can add multiple SLA items and arrange them in the order that works for you. For any given KPI, only the first SLA item that matches the conditions in the **Applicable When** section is applied.  
 
    > [!NOTE]
-   >  In Dynamics 365 Customer Service, SLA and SLA KPIs (SLA details) use the process (workflow) functionality. Although SLA KPIs use workflows, not all of the actions available in workflows are available for defining the failure and warning actions. The available actions are currently limited to **Send Email**, **Create Record**, **Update Record**, **Assign Record**, and **Change Status**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit workflow processes](../customer-engagement/on-premises/customize/workflow-processes.md)  
+   >  In Dynamics 365 Customer Service, SLA and SLA KPIs (SLA details) use the process (workflow) functionality. Although SLA KPIs use workflows, not all of the actions available in workflows are available for defining the failure and warning actions. The available actions are currently limited to **Send Email**, **Create Record**, **Update Record**, **Assign Record**, and **Change Status**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit workflow processes](../customerengagement/on-premises/customize/workflow-processes.md)  
 
 9. Fill in the information in the New SLA Item form:  
 
@@ -295,7 +295,7 @@ Define the level of service or support that your organization agrees to offer to
 
  For example, if your customers are spread across geographies, you can have multiple SLAs with different business hours and holiday schedules for different geographies. You can set up business logic to apply SLAs on case records based on the customer's region to make sure that the SLA time calculation happens based on the correct geography.  
 
- To create workflows so SLAs are automatically applied, talk to your customer service managers, administrator, or customizer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit workflow processes](../customer-engagement/on-premises/customize/workflow-processes.md)
+ To create workflows so SLAs are automatically applied, talk to your customer service managers, administrator, or customizer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit workflow processes](../customerengagement/on-premises/customize/workflow-processes.md)
 
  To apply SLAs on-demand manually, choose the SLA in the SLA field. This field is not available by default on entity forms. Ask your system administrator to add the field on the entity form.  
 
