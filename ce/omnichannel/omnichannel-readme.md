@@ -167,9 +167,9 @@ You must clear the checkbox to automatically distribute the case records.
 > [!div class=mx-imgBorder]
 > ![Automatic record movement to the agent's default queue](media/route-owner-queue.png "Automatic record movement to the agent's default queue")
 
-## Sitemap entry for "Entity Records" node is not localised for non-English languages
+## Sitemap entry for Entity Records is not localized for other languages
 
-In the Omnichannel Administration app, in the sitemap, **Entity Records** under the **Channels** area is not localized for non-English languages. The string appears only in English language for all language environments.
+In the Omnichannel Administration app, in the sitemap, **Entity Records** under the **Channels** area is not localized for other languages. The string appears only in English language for all language environments.
 
 ## Routing rules sub grid in entity records shows an error
 
