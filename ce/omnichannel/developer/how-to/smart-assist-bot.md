@@ -5,7 +5,7 @@ keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 10/24/2019
+ms.date: 10/25/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 355B4706-49DF-4E2F-A46D-00F12E0044C6
@@ -21,6 +21,8 @@ ms.custom:
 > - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.
 > - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../../../legal/dynamics-insider-agreement.md).
+
+## Smart assist using knowledge articles
 
 Smart assist is an intelligent assistant that provides real-time recommendations to the agents, enabling them to take actions while interacting with the customers. It allows organizations to build a custom bot to push real-time recommendations to agents within the smart assist control on the agent UI. The smart assist bot interprets the ongoing conversation and provides recommendations to the agent using [Microsoft Adaptive Cards](https://adaptivecards.io).
 
@@ -276,6 +278,9 @@ Given below is the adaptive card JSON for cross sell recommendation.
 ```
 
 ### Create appointment
+
+<!--from editor: Just checking, do you mean pro-populating or pre-populating below? -->
+
 
 Omnichannel for Customer Service allows you to schedule an appointment with a customer by pro-populating appointment fields in the adaptive card based on the context passed in the conversation.
 
