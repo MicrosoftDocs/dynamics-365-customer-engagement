@@ -2,15 +2,15 @@
 title: "Provision Omnichannel for Customer Service | MicrosoftDocs"
 description: "See how you can provision Omnichannel for Customer Service"
 keywords: "Provision Omnichannel for Customer Service"
-ms.date: 07/22/2019
+ms.date: 10/25/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
   - ""
 ms.topic: article
 ms.assetid: dcb07f11-106d-4368-87e9-015da0999f06
-author: anjgupta
-ms.author: anjgup
+author: sbmjais
+ms.author: shjais
 manager: shujoshi
 ---
 
@@ -107,6 +107,20 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 
     > [!div class=mx-imgBorder]
     > ![Set up complete](../media/install-complete.png)
+
+## Locate your Org ID
+
+Follow these steps to locate your Org ID in your instance.
+
+1. In the Common Data Service platform, go to **Settings** > **Customizations**.
+
+    > [!NOTE]
+    > Ensure that you have System Administrator or System Customizer security role or equivalent permissions.
+
+2. Select **Developer Resources**. You can find your Org ID in the **Instant Reference Information** section.
+
+    > [!div class=mx-imgBorder]
+    > ![Locate org id](../media/locate-org-id.png)
 
 ### See also
 
