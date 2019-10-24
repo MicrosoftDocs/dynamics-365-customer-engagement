@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions (FAQs) about Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) for Omnichannel for Customer Service."
-ms.date: 07/01/2019
+ms.date: 10/25/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -173,11 +173,6 @@ No. Omnichannel routing can be used to route chat or SMS requests (in preview) o
 
 ## SMS
 
-Please note that the SMS channel is currently in preview and is not a part of the Generally Available product. You can sign up for the Omnichannel for Customer Service - Preview on the [Dynamics Insider Portal](https://experience.dynamics.com/insider/).
-
-### How can I sign up to use the SMS channel preview?
-You can sign up for the Omnichannel for Customer Service – Preview program on the [Dynamics Insider portal](https://experience.dynamics.com/insider/). The product team will get back to you once preview is enabled for your organization. You will need an account with TeleSign (with two-way SMS). Preview of the SMS channel will work only if you have an active subscription for Chat for Dynamics 365 Customer Service in your tenant.
-
 ### What information from a TeleSign account do I need to enter in the Omnichannel Administrator app?
 You will need the customer ID, API key, and the phone number from your TeleSign account. This information needs to be provided in the Omnichannel Administrator app when you create or set up an SMS workstream.
 
@@ -206,9 +201,6 @@ There are Microsoft Flow connectors from SMS providers that can be used for auto
 All channels integrated into Omnichannel have the same routing capabilities, including SMS. You can create Routing rule items with conditions based on Account or Contact entities. Other entities (Case, Context variable, and SMS Engagement Context) are not supported at this time and should not be used for creating conditions in Routing rules items in an SMS workstream.
 
 ## Bot
-
-### Integrating a bot
-Bot integration is currently in preview and not a part of the Generally Available product. You can sign up for the Omnichannel preview on the [Dynamics Insider Portal](https://experience.dynamics.com/insider/).
 
 ### Can a third-party bot be integrated with Omnichannel through this feature?
 Only bots created through [Microsoft Bot Framework](https://dev.botframework.com/) can be integrated at this time.
