@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: ktaylor
 manager: shujoshi
 applies_to: 
-ms.date: 10/04/2019
+ms.date: 10/24/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: e5c82c7b-bd48-4eca-a157-e4b349e3baf8
@@ -67,7 +67,7 @@ For information on working with queues, see [Work with queues in Omnichannel for
 
 ### Create a bot queue and a human agent queue
 
-1. Select or create a work stream.
+1. Select or create a work stream. For more information about work streams, see [Understand and create work streams](work-streams-introduction.md).
 
     > [!div class=mx-imgBorder]
     > ![Virtual Agent work streams](../media/virtual-agent-work-streams.png "Virtual Agent work streams")
@@ -76,8 +76,8 @@ For information on working with queues, see [Work with queues in Omnichannel for
 
 You must use the context variables that were created during setup for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information about context variables, see [Contextual variables available upon hand-off](https://github.com/MicrosoftDocs/dynamics-365-ai-pr/blob/pawant-ms-handoff/ai-docs/customer-service-virtual-agent/how-to-trigger-contextual-handoff.md#contextual-variables-available-upon-hand-off).
 
-    > [!div class=mx-imgBorder]
-    > ![Virtual Agent work stream context variable](../media/virtual-agent-work-stream-context-variables.png "Virtual Agent work stream context variable")
+   > [!div class=mx-imgBorder]
+   > ![Virtual Agent work stream context variable](../media/virtual-agent-work-stream-context-variables.png "Virtual Agent work stream context variable")
 
 3. Create a routing rule for the human agent and add it to the work stream.
 
@@ -95,42 +95,13 @@ Bots are developed to receive customer queries first, gain information of the qu
 
 Ensure to map the routing rules to the correct queues so that the queries are routed appropriately. For information about routing rules, see [Create and manage routing rules](routing-rules.md).
 
-#### Create a work stream
-
-A work stream is a collection of routing and work distribution settings. In order to route messages correctly, you must create at least two routing rules within a workstream to account for the virtual agent bot and the human agent.
-
-1. Select or create a work stream.
-
-    > [!div class=mx-imgBorder]
-    > ![Virtual Agent work stream context variable](../media/virtual-agent-work-stream-context-variables.png "Virtual Agent work stream context variable")
-
-    > ![Virtual Agent work stream](../media/virtual-agent-work-streams.png)
-
-    > ![Virtual Agent work stream](../media/virtual-agent-work-streams.png)
-
-2. Add a context variable to the work stream. 
-
-    > [!div class=mx-imgBorder]
-    > ![Virtual Agent work stream context variable](../media/virtual-agent-work-stream-context-variables.png "Virtual Agent work stream context variable")
-
-3. Create a routing rule for the human agent and add it to the work stream.
-
-    > [!div class=mx-imgBorder]
-    > ![Virtual Agent work stream routing rules](../media/virtual-agent-work-stream-routing-rule.png "Virtual Agent work stream routing rules")
-
-4.  Create a routing rule for the virtual agent and add it to the work stream.
-
-    > [!div class=mx-imgBorder]
-    > ![Virtual Agent work stream bot routing rules](../media/virtual-agent-work-stream-routing-rule-bot.png "Virtual Agent work stream bot routing rules")
-
-For more information about work streams, see [Understand and create work streams](work-streams-introduction.md).
-
-
-
 ## Known limitations
 - Adaptive cards (for CSAT card only)
-- Suggested actions
 - Typing
+- Suggested actions: When configuring the topics for your bot, we recommend not using suggested actions. In the **Identify** field, do not use Multiple choice options and instead select **User's entire response**.
+
+    > [!div class=mx-imgBorder]
+    > ![Virtual Agent configuration Identify field](../media/virtual_agent_actions_identify.png "Virtual Agent configuration Identify field")
 
 ## Privacy notice
 
