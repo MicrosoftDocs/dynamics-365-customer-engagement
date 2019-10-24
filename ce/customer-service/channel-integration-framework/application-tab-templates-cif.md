@@ -95,7 +95,7 @@ The application type is used to display the dashboard as an application. The par
 
 ### Entity view
 
-The application type is used to display an entity view that defines how a list of records for a specific entity is displayed in the Omnichannel for Customer Service app. The parameters available for the entity view application type are as follows: 
+The application type is used to display an entity view that defines how a list of records for a specific entity is displayed in the model-driven app. The parameters available for the entity view application type are as follows: 
 
 | parameter | Example value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
