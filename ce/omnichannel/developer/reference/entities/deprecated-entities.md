@@ -18,6 +18,7 @@ The following entities have been deprecated. These entities will still be visibl
 - msdyn_ocliveworkitemparticipant
 - msdyn_omnichannelqueue
 - msdyn_localizedsurveyquestion
+- msdyn_routingruleinstance
 
 ### See also
 

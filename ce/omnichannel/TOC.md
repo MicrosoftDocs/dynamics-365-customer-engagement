@@ -216,12 +216,15 @@
 
 ## Developer guide
 ### [Overview](developer/omnichannel-developer.md)
-### [Manage custom context](developer/how-to/send-context-starting-chat.md)
-### [Display custom context](developer/how-to/display-custom-context.md)
-### [Send authentication token](developer/how-to/send-auth-token-starting-chat.md)
-### [Initiate a chat](developer/how-to/initiate-chat-wait-time.md)
-### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
-### [Automatic closure of a conversation](developer/auto-close-conversation.md)
+### How to
+#### [Manage custom context](developer/how-to/send-context-starting-chat.md)
+#### [Display custom context](developer/how-to/display-custom-context.md)
+#### [Send authentication token](developer/how-to/send-auth-token-starting-chat.md)
+#### [Initiate a chat](developer/how-to/initiate-chat-wait-time.md)
+#### [Start chat proactively](developer/how-to/start-proactive-chat.md)
+#### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
+#### [Auto-close a conversation](developer/auto-close-conversation.md)
+#### [Build a custom smart assist bot](developer/how-to/smart-assist-bot.md)
 ### Entity reference
 #### [Deprecated entities](developer/reference/entities/deprecated-entities.md)
 #### [msdyn_analytics](developer/reference/entities/msdyn_analytics.md)
@@ -252,6 +255,7 @@
 #### [msdyn_operatinghour](developer/reference/entities/msdyn_operatinghour.md)
 #### [msdyn_presence](developer/reference/entities/msdyn_presence.md)
 #### [msdyn_questionsequence](developer/reference/entities/msdyn_questionsequence.md)
+#### [msdyn_routingruleinstance](developer/reference/entities/msdyn_routingruleinstance.md)
 #### [msdyn_searchconfiguration](developer/reference/entities/msdyn_searchconfiguration.md)
 #### [msdyn_sentimentanalysis](developer/reference/entities/msdyn_sentimentanalysis.md)
 #### [msdyn_sessionevent](developer/reference/entities/msdyn_sessionevent.md)
@@ -261,6 +265,7 @@
 #### [msdyn_surveyquestion](developer/reference/entities/msdyn_surveyquestion.md)
 #### [msdyn_systemuser_msdyn_omnichannelqueue](developer/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md)
 #### [msdyn_transcript](developer/reference/entities/msdyn_transcript.md)
+#### [msdyn_visitorjourney](developer/reference/entities/msdyn_visitorjourney.md)
 ### Live chat JavaScript API Reference
 #### [Overview](developer/omnichannel-reference.md)
 #### [Methods]()
@@ -271,11 +276,14 @@
 ##### [getAuthTokenProvider](developer/reference/methods/getAuthTokenProvider.md)
 ##### [removeAuthTokenProvider](developer/reference/methods/removeAuthTokenProvider.md)
 ##### [startChat](developer/reference/methods/startChat.md)
+##### [startProactiveChat](developer/reference/methods/startProactiveChat.md)
 #### [Events]()
 ##### [lcw:ready](developer/reference/events/lcw-ready.md)
 ##### [lcw:error](developer/reference/events/lcw-error.md)
 #### [Error code reference](developer/reference/error-code-reference.md)
-
+### [runMacro](developer/reference/methods/runMacro.md)
+### Action Reference
+#### [msdyn_ApplyRoutingRuleEntityRecord](developer/reference/actions/msdyn_ApplyRoutingRuleEntityRecord.md)
 ## Troubleshooting, readme, and FAQs
 ### [Readme](omnichannel-readme.md)
 ### [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
