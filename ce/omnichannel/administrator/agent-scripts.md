@@ -46,7 +46,15 @@ The agent scripts reduce the human errors involved in the process as the agents 
 
 - Install Dynamics 365 Productivity Tools solution.
 
-## Create agent scripts
+## Walkthrough to enable agent script
+
+[Step 1: Create agent scripts](#step-1-create-agent-scripts)
+
+[Step 2: Associate agent script with session template](#step-2-associate-agent-script-with-session-template)
+
+[Step 3: Add agent script control to a form](#step-3-add-agent-script-control-to-a-form)
+
+## Step 1: Create agent scripts
 
 1. Sign in to the Omnichannel Administration app.
 
@@ -90,7 +98,7 @@ The agent scripts reduce the human errors involved in the process as the agents 
 
 Now, the agent script is configured.
 
-## Associate agent script with session template
+## Step 2: Associate agent script with session template
 
 After you configure the agent script and add the field to a form, you need to associate the agent script with a session template so that, based on the session type, the agent script loads to the agents.
 
@@ -113,7 +121,7 @@ After you configure the agent script and add the field to a form, you need to as
 
 The agent script is associated with the session template.
 
-## Add agent script control to a form
+## Step 3: Add agent script control to a form
 
 After you create an agent script, you must add the agent script field to the form where you want agents to see it.
 
