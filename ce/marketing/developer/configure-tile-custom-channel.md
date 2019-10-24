@@ -162,7 +162,7 @@ The XML file has the following elements:
     </tr>
     <tr>
     <td>InsightsMainFormId</td>
-    <td>The marketing-analytics engine form ID for the custom entity. Optional.</td>
+    <td>The marketing-insights service form ID for the custom entity. Optional.</td>
     </tr>
     <tr>
     <td>QuickViewFormId</td>
