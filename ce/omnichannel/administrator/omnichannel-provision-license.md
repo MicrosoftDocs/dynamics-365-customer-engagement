@@ -115,7 +115,7 @@ Follow these steps to locate your Org ID in your instance.
 1. In the Common Data Service platform, go to **Settings** > **Customizations**.
 
     > [!NOTE]
-    > Ensure that you have System Administrator or System Customizer security role or equivalent permissions.
+    > Ensure that you have System Administrator or System Customizer security role or equivalent permissions.
 
 2. Select **Developer Resources**. You can find your Org ID in the **Instant Reference Information** section.
 
