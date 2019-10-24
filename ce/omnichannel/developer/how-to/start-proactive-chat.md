@@ -66,7 +66,7 @@ Amy can accept the chat offer and start the conversation to sort out her issue.
 </script>
 ```
 
-## Scenario 2: Customer browsing multiple webpages
+## Scenario 2: Customer visits a webpage multiple times
 
 Thomas is browsing through the Microsoft Surface community webpage. He is looking for answers of his questions on Microsoft Surface device. He has visited a webpage mutliple times but he is not able to find the answers he is looking for.
 
