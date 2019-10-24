@@ -36,12 +36,24 @@ Basic knowledge of Dynamics 365 [product catalog](https://docs.microsoft.com/en-
 
 ## Create products and services
 
+Go to **Field Service app > Settings > Products > +New**.
+
+First create Field Service products and services that can be added to work orders. This is done by creating products and entering a Field Service Product Type.
+
+
 After saving, enter a **Default Price list** in the product details section, then **Save** again.
 
 For this exercise, we created two more products; a service and a non-inventory one.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-create.png)
+
+- **Inventory**: This option is used for products of high value, or products that are inventoried and have quantities tracked in a warehouse.  
+  
+- **Non-inventory**: This option is used for low-value items that are typically not inventoried. Examples of this are consumables like stickers or zip ties.  
+  
+- **Service**: The service option is used to create service products, which is the labor that you sell to your customers. The quantity of service products is measured with a duration of time. Only service products can be associated with a work order as a service. 
+
 
 
 > [!div class="mx-imgBorder"]
