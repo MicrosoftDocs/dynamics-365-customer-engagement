@@ -72,10 +72,6 @@ Thomas is browsing through the Microsoft Surface community webpage. He is lookin
 
 Realizing this scenario, the organization offers a chat request to the customer after he has been waiting for some time on the current webpage, with the message given below.
 
-
-<!--from editor: The chat dialog is a little awkward. Can the second sentence change to "Do you have a question about a Surface device?" -->
-
-
 ```
 Hi! Do you have a question on Surface device ? I am here to help.
 ```

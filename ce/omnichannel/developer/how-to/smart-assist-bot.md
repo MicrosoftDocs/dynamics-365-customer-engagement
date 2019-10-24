@@ -22,8 +22,6 @@ ms.custom:
 > - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../../../legal/dynamics-insider-agreement.md).
 
-## Smart assist using knowledge articles
-
 Smart assist is an intelligent assistant that provides real-time recommendations to the agents, enabling them to take actions while interacting with the customers. It allows organizations to build a custom bot to push real-time recommendations to agents within the smart assist control on the agent UI. The smart assist bot interprets the ongoing conversation and provides recommendations to the agent using [Microsoft Adaptive Cards](https://adaptivecards.io).
 
 See this topic on how to enable smart assist: [Smart assist for agents](../../administrator/smart-assist.md).
@@ -279,10 +277,7 @@ Given below is the adaptive card JSON for cross sell recommendation.
 
 ### Create appointment
 
-<!--from editor: Just checking, do you mean pro-populating or pre-populating below? -->
-
-
-Omnichannel for Customer Service allows you to schedule an appointment with a customer by pro-populating appointment fields in the adaptive card based on the context passed in the conversation.
+Omnichannel for Customer Service allows you to schedule an appointment with a customer by pre-populating appointment fields in the adaptive card based on the context passed in the conversation.
 
 Given below is the adaptive card JSON for creating an appointment with the customer.
 

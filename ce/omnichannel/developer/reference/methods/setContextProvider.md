@@ -66,9 +66,9 @@ The `isDisplayable` attribute, if set to `true`, will display the passed items w
 
 <a name="bkmk_navigationhistory"></a>
 
-### Pass customer's portal navigation history as context
+### Pass customer's portal navigation as context
 
-You can pass a customer's portal navigation history as context at the start of a conversation with that customer.
+You can pass a customer's portal navigation as context at the start of a conversation with that customer.
 
 Given below is the sample code that shows how to use the `setContextProvider` method for this.
 
