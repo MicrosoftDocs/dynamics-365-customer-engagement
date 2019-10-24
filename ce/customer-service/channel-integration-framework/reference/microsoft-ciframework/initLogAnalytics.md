@@ -2,7 +2,7 @@
 title: "initLogAnalytics (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 10/21/2019
+ms.date: 10/25/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:

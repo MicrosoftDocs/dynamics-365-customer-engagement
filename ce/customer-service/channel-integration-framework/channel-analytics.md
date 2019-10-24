@@ -24,12 +24,15 @@ manager: shujoshi
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
-Dynamics 365 Channel Integration Framework provides insights about how the call center is performing in terms of agent assignments, customer satisfaction, average handling time, and agent performance. It uses predictive algorithms to calculate upcoming load, customer satisfaction, relationship scores, and upsell probability, and helps you use operational and conversational analytics for better future planning. 
+The contact center analytics need operational and conversational data to provide historical and real-time insights into the performance of the contact center. To get precise insights into the call center performance, the analysts need data from the following sources 
 
-> [!div class="mx-imgBorder"]
-> ![Channel Analytics](media/channel-analytics.PNG "Channel Analytics")
+- **CRM transactional data**: The data about the customers, their cases, their journey and all round relationship with the organizations. This is stored in Common Data Services 
+- **Communication Data**: The data about the interactions (intended, ongoing and completed) with known and unknown customers 
+- **Agent Behaviour Data**: The data about the behaviour of agents before, during and after the interactions. 
 
-Here are some common problems facing the customer service industry:
+Channel Analytics in the Dynamics 365 Channel Integration Framework, provides a model to build a consistent, seamless, and unified experience when it comes to channel related analytics and insights. 
+
+Without the channel analytics model, if you want to build a contact center analytics solution you will face following problems: 
 
 - Disjointed and distributed communication data that is generated and maintained by the channel providers.
 - Agent behavior is not logged and instrumented.
@@ -37,20 +40,13 @@ Here are some common problems facing the customer service industry:
 
 ## How does Channel Analytics help?
 
-Channel Analytics provides a consistent, seamless, and unified experience when it comes to channel-related analytics and insights. This means that:
+- It generates instrumentation for agent behaviour on the Dynamics 365. 
+- It provides APIs to ingest the conversational data into the common data services. 
+- It standardizes schema for how the aforementioned analytical data will be stored  
+- It defines mechanism to correlate the communication data from multiple providers, CRM transactional data and agent behavior data. 
+- It is extensible, in the sense that it allows you to bring your own KPIs, define your own data payload so that organizations can build analytical solutions as per their need. 
 
-
-<!--from editor: Could you instead say something like "examine" instead of "slice and dice," which might be unclear for translators or English-as-second-language readers. -->
-
-
-- Channel Analytics enables users to slice and dice KPIs based on different dimensions, including the channel type.
-- Users need not jump across apps to get channel-specific information.
-- Both the conversational data from third-party providers and transactional data from Dynamics 365 apps is used to provide comprehensive contact center analytics information.
-- It generates instrumentation for client-side events.
-- It standardizes schema for the analytical data.
-- It defines privacy and compliance boundaries for the data stored.
-- It defines mechanisms to correlate the communication data from multiple providers, CRM transactional data, and agent behavior data.
-- It provides sample dashboards with out-of-the-box KPIs.
+Once the aforementioned data is available in CDS, the business analysts can build analytical solutions that can help users to get historical and real time insights into the contact center performance.
 
 ### How do analytics help supervisors?
 
@@ -69,24 +65,20 @@ Channel Analytics can help customer service agents see their performance metrics
 ## Channel Analytics APIs
 
 The two APIs for tracking event analytics are:
-1. `initLogAnalytics` 
-
-    API needs to be called only once for every conversation before any event is logged. The ideal time would be to call it before the incoming notification is displayed.
-2. `logAnalyticsEvent` 
-
-    This can be called as many times as needed after the initLogAnalytics call succeeds.
-    
-    If there is a need to log events from the server side, the following required entity records need to be created before the event logging can take place:
-    - Conversation Data
-    - Session Data
-    - Session Participant Data
-    
-    After the above records are created, the event logging can be done by creating a `KPI Event Data` entity record.
 
 | Name | Description |
 |-------|-------|
 | [initLogAnalytics](reference/microsoft-ciframework/initLogAnalytics.md) | Invoke this method on an incoming conversation to log analytics. |
 | [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events. |
+
+Ideally `initLogAnalytics` API should be called before the incoming notification is displayed. `logAnalyticsEvent` API can be called as many times as needed after the `initLogAnalytics` call succeeds. 
+
+If there is a need to log events from the server side, the following required entity records need to be created before the event logging can take place.
+- Conversation Data
+- Session Data 
+- Session Participant Data
+
+After the above records are created, the event logging can be done by creating `KPI Event Data` entity record. 
 
 ### How to enable analytics for your organization
 
@@ -133,6 +125,9 @@ You can calculate it by monitoring and predicting the load on different regions,
 Average wait time is the length of time, in minutes, that a customer is waiting in the queue.
 
 You can calculate it by monitoring and predicting the load on different regions, channels, queues, and incident drivers.
+
+## Channel Analytics Entities
+
 
 ## See also
 
