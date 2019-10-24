@@ -108,7 +108,8 @@ Metrics in this section are computed at the session granularity.  Each customer 
 
 5. **Bot insights (BYOB)**: This section provides historical visibility on how bots are performing to help resolve customer support issues. 
 
-< waiting on updated screen shot >   
+    > [!div class=mx-imgBorder]
+    > ![Bot insights (BYOB)](../media/bot-insights.png "Bot instights (BYOB)")  
 
 This section consists of the following KPIs: 
 
@@ -123,13 +124,14 @@ This section consists of the following KPIs:
 6. **Sentiment Insights**: This illustration of the Omnichannel Sentiment Analysis dashboard provides an **overview** of important KPIs and trends relative to the sentiment analysis of chats offered.  
 
 Omnichannel Sentiment Analysis dashboard (Overview) 
-
-< waiting on updated screen shot >
+    > [!div class=mx-imgBorder]
+    > ![Sentiment Analysis Overview](../media/oc-overview.png "Sentiment Analysis Overview")  
 
 This illustration of the Omnichannel Sentiment Analysis report provides a **detailed view** of more comprehensive information.  
 
 Omnichannel Insights - Sentiment Analysis Report (Detail View)  
-<waiting on updated screen shot > 
+    > [!div class=mx-imgBorder]
+    > ![Sentiment Analysis Detailed Report](../media/oc-detailed.png "Sentiment Analysis Detailed Report")
 
 Explanation of Sentiment Analysis KPI’s  
 |KPI                                  |Description                                 |
