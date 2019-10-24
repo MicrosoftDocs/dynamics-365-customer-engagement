@@ -70,7 +70,7 @@ Amy can accept the chat offer and start the conversation to sort out her issue.
 
 Thomas is browsing through the Microsoft Surface community webpage. He is looking for answers of his questions on Microsoft Surface device. He has visited a webpage mutliple times but he is not able to find the answers he is looking for.
 
-Realizing this scenario, the organization offers a chat request to the customer with the message given below.
+Realizing this scenario, the organization offers a chat request to the customer after he has been waiting for some time on the current webpage, with the message given below.
 
 ```
 Hi! Do you have a question on Surface device ? I am here to help.
@@ -78,7 +78,7 @@ Hi! Do you have a question on Surface device ? I am here to help.
 ### Sample code
 
 ```html
-<!-- Code to show proactive chat invite( after given time) after visitor visits the webpage given number of time -->
+<!-- Code to show proactive chat invite(after given time) after visitor visits the webpage given number of time -->
 
 <!-- Operations on cookies like creating cookies, deleting cookies etc.. -->
 <script>
