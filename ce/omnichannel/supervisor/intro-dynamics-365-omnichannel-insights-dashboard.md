@@ -43,6 +43,7 @@ Reporting structure consists of six sections:
     > [!div class=mx-imgBorder]
     > ![Conversation](../media/conversation-report.png "Conversation")
 
+
 This section consists of the following conversation KPIs: 
 
 |     KPI Visuals                               |   Description                                        |
