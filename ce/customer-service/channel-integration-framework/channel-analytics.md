@@ -130,13 +130,43 @@ You can calculate it by monitoring and predicting the load on different regions,
 
 ### msdyn_conversationdata
 
-### msdyn_SessionData
+Primary entity for a conversation.
 
-### msdyn_SessionParticipantData
+**Logical name**: Conversation Data
+**Primary field**: name
+**Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_conversationsdata`
 
-### msdyn_KPIEventData
+### msdyn_sessiondata
 
-### msdyn_KPIEventDefinition
+Primary entity for session data.
+
+**Display name**: Session data
+**Primary field**: name
+**Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_sessionsdata`
+
+### msdyn_sessionparticipantdata
+
+Primary entity for representing session participants.
+
+**Display name**: Session Participant Data
+**Primary field**: name
+**Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_sessionparticipantsdata`
+
+### msdyn_kpieventdata
+
+Primary entity for a KPI event.
+
+**Display name**: KPI Event Data
+**Primary field**: name
+**Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_kpieventsdata`
+
+### msdyn_kpieventdefinition
+
+Primary entity for defining a KPI event.
+
+**Display name**: KPI Event Definition
+**Primary field**: name
+**Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_sessionsdata`
 
 ## See also
 
