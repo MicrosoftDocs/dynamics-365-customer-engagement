@@ -68,7 +68,7 @@ Amy can accept the chat offer and start the conversation to sort out her issue.
 
 ## Scenario 2: Customer browsing multiple webpages
 
-Thomas is browsing through the Microsoft Surface community webpage. He is looking for answers of his question on Microsoft Surface device. He has browsed through multiple pages but is not able to find the answers he is looking for.
+Thomas is browsing through the Microsoft Surface community webpage. He is looking for answers of his questions on Microsoft Surface device. He has visited a webpage mutliple times but he is not able to find the answers he is looking for.
 
 Realizing this scenario, the organization offers a chat request to the customer with the message given below.
 
