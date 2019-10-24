@@ -74,8 +74,8 @@ A work stream is a collection of routing and work distribution settings. In orde
 
 1. Select or create a work stream.
 
-    > [!div class=mx-imgBorder]
-    > ![Virtual Agent work stream](../media/virtual-agent-work-streams.png "Virtual Agent work stream")
+    <br>
+    > ![Virtual Agent work stream](../media/virtual-agent-work-streams.png)
 
 2. Add a context variable to the work stream. 
 
