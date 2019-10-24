@@ -60,6 +60,7 @@ This section consists of the following conversation KPIs:
     > ![Channel Report](../media/channel.png "Channel Report")
 
 This section consists of the visuals: 
+
 |Visual                              |Description  |
 |------------------------------------|-------------|
 |Incoming conversations by channel   |This visual provides the volume of incoming conversations by the channels supported in each organization.      |
@@ -78,6 +79,7 @@ This section consists of the visuals:
 
 
 This section consists of the following KPIs: 
+
 |Visual                       | Description                                        |
 |-----------------------------|----------------------------------------------------|
 |Highest session volumes      |This visual provides the top queues where the sessions most sessions handled  |
@@ -109,6 +111,7 @@ Metrics in this section are computed at the session granularity.  Each customer 
 < waiting on updated screen shot >   
 
 This section consists of the following KPIs: 
+
 |KPI                        |Description                                                   |
 |---------------------------|--------------------------------------------------------------|
 |Bot conversation           |The number of conversations initiated by the customer and handled by bot.  |
