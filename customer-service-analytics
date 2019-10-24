@@ -1,0 +1,23 @@
+---
+title: Customer Service Analytics for Dynamics 365 | Microsoft Docs
+description: Dashboard provides historical operational metrics and KPIs to manage contact centers.  
+author: anjgupta
+ms.author: anjgup
+manager: shujoshi
+ms.date: 06/01/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.custom: dyn365-customerservice
+ms.assetid: f5c8e858-c58a-4d7a-88f2-e59fc8eb541b
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
+---
+
+# Use Customer Service Hub on mobile devices
+
+Access your Customer Service Hub data while you’re on the go using Dynamics 365 for phones or Dynamics 365 for tablets on your mobile device.
