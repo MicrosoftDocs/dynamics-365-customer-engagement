@@ -34,17 +34,9 @@ Let's consider a scenario for templates with the notifications.
 
 The notification shows certain fields and values, which are called **Field header** and **Value** respectively.
 
-
-<!--from editor: Where is the name Kenny Smith from? I don't see it in the team's fictitious names list. -->
-
-
 Kenny Smith, a customer, initiated a conversation. When the agent sees the notification, it displays **Customer Name** as **Kenny Smith**.
 
 Here, **Field header** is **Customer Name** and the **Value** is **Kenny Smith**.
-
-
-
-<!--from editor: Please review the small rewording in the following sentence to check accuracy. -->
 
 For templates to identify the name of the customer as **Kenny Smith**, you as an administrator must set the configuration to pass the parameter as values.
 
