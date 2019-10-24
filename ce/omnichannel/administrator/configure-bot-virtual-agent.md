@@ -38,8 +38,13 @@ Once you have created your bot and connected it to an Omnichannel for Customer S
 Once the Virtual Agent bot is created and configured to work with Omnichannel, you can configure it to hand off conversations to queues in Omnichannel. To receive incoming messages, the bot must be added to at least one queue. The bot will use the routing rules that were created at setup.  You can change them in the Work Streams section of Omnichannel.
 
 To set up your Virtual Agent bot:
+<<<<<<< Updated upstream
 1. Connect virtual agent to Omnichannel (link ai-docs/customer-service-virtual-agent/how-to-setup-omnichannel-handoff.md
 ) and go to the Omnichannel configuration.
+=======
+1. Connect virtual agent to Omnichannel and go to the Omnichannel configuration. For more information, see [Omnichannel setup & configure](https://github.com/MicrosoftDocs/dynamics-365-ai-pr/blob/pawant-ms-handoff/ai-docs/customer-service-virtual-agent/how-to-setup-omnichannel-handoff.md).
+    <br>
+>>>>>>> Stashed changes
     ![Virtual Agent bot settings](../media/virtual-agent-bot-settings.png)
     
     The bot will be auto-created in Omnichannel, and you just need to finish setting it up.
@@ -47,24 +52,51 @@ To set up your Virtual Agent bot:
     <br>
     ![Virtual Agent bot select queue](../media/virtual-agent-bot-select-queues.png)
 3. Click Done. Now you're on the bot profile page and you can see that your bot is connected. 
+    <br>
     ![Virtual Agent bot profile page](../media/virtual-agent-bot-profile.png)
     
     Your Virtual Agent bot is ready to accept and respond to customer-initiated conversations.
 
-Existing routing rules will send incoming messages to the Virtual Agent. When handoff is triggered customers will be transferred from the Virtual Agent to the human agent. You can also set escalation routing rules.
+Existing routing rules will send incoming messages to the Virtual Agent. When a handoff is triggered, customers will be transferred from the Virtual Agent to the human agent according to the escalation routing rules.
 
 ### Set escalation rules
 
-Escalation rules allow you to create rules for the bot to escalate the queries to the appropriate agent. For escalation rules, you must create a context variable and appropriate routing rules to route the customer queries.
+Escalation rules allow you to create rules for the bot to escalate the queries to the appropriate agent. For escalation rules, you must create work streams containing context variables and appropriate routing rules to route the customer queries.
 
 If the bot escalates the customer query, it is routed to the appropriate queue as per the defined routing rule. If the customer query in redirected to the same queue, another agent in the queue will pick the conversation as per the capacity. For information on working with queues, see [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md).
 
 > [!NOTE]
 > If you have only one queue with bot and agents, and you didn't create a routing rule, the customer query is redirected to the same queue in case of escalation and picked up by an agent.
 
+#### Create a work stream
+
+A work stream is a collection of routing and work distribution settings. In order to route messages correctly, you must create at least two routing rules within a workstream to account for the virtual agent bot and the human agent.
+
+1. Select or create a work stream.
+
+    > [!div class=mx-imgBorder]
+    > ![Virtual Agent work stream](../media/virtual-agent-work-streams.png "Virtual Agent work stream")
+
+2. Add a context variable to the work stream. 
+
+    > [!div class=mx-imgBorder]
+    > ![Virtual Agent work stream context variable](../media/virtual-agent-work-stream-context-variable.png "Virtual Agent work stream context variable")
+
+3. Create a routing rule for the human agent and add it to the work stream.
+
+    > [!div class=mx-imgBorder]
+    > ![Virtual Agent work stream routing rules](../media/virtual-agent-work-stream-routing-rule.png "Virtual Agent work stream routing rules")
+
+4.  Create a routing rule for the virtual agent and add it to the work stream.
+
+    > [!div class=mx-imgBorder]
+    > ![Virtual Agent work stream bot routing rules](../media/virtual-agent-work-stream-routing-rule-bot.png "Virtual Agent work stream bot routing rules")
+
+For more information about work streams, see [Understand and create work streams](work-streams-introduction.md)
+
 #### Create a context variable
 
-You must use the context variables that were created during setup for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information about context variables, see [Contextual variables available upon hand-off](Link to /ai-docs/customer-service-virtual-agent/how-to-trigger-contextual-handoff.md#contextual-variables-available-upon-hand-off).
+You must use the context variables that were created during setup for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information about context variables, see [Contextual variables available upon hand-off](https://github.com/MicrosoftDocs/dynamics-365-ai-pr/blob/pawant-ms-handoff/ai-docs/customer-service-virtual-agent/how-to-trigger-contextual-handoff.md#contextual-variables-available-upon-hand-off).
 
 #### Create routing rules
 
@@ -72,8 +104,12 @@ Routing rules route the incoming customer queries to their respective queues. Ea
 
 Bots are developed to receive customer queries first, gain information of the query,  and then pass the query to a human agent, if required. To achieve this behavior, you must add a bot user to the queue and configure routing rules in a way that the incoming customer queries are routed to the queue with bot user.
 
-Ensure to map the routing rules to the correct queues so that the queries are routed appropriately. For information on creating a routing rule, see [Create and manage routing rules](routing-rules.md).
+Ensure to map the routing rules to the correct queues so that the queries are routed appropriately. For information about routing rules, see [Create and manage routing rules](routing-rules.md).
 
+## Known limitations
+- Adaptive cards (for CSAT card only)
+- Suggested actions
+- Typing
 
 ## Privacy notice
 
