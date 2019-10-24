@@ -3,7 +3,7 @@
 ## Get started
 ### [Introduction](introduction-omnichannel.md)
 ### [Preview features in Omnichannel for Customer Service](preview-features.md)
-### [Try Chat for Dynamics 365 Customer Service](try-chat-for-dynamics365.md)
+### [Try channels in Omnichannel for Customer Service](try-chat-for-dynamics365.md)
 ### [Chat for Dynamics 365 Customer Service demo data](chat-dynamics365-customer-service-demo-data.md)
 ### [Pre-requisites and system requirements](system-requirements-omnichannel.md)
 ### [Assign roles and enable users](administrator/add-users-assign-roles.md)
@@ -35,7 +35,9 @@
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
 ##### [Embed chat widget in Dynamics 365 Portals](administrator/embed-chat-widget-portal.md)
+##### [Configure proactive chat](administrator/proactive-chat.md)
 #### [Configure an SMS channel](administrator/configure-sms-channel.md)
+#### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
 #### Entity records
 ##### [Entity records routing](administrator/entity-channel.md)
 ##### [Route trigger for entity records](administrator/routing-trigger.md)
