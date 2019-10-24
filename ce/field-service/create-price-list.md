@@ -115,19 +115,18 @@ For more information see the topic on [!INCLUDE[proc_more_information](../includ
 
 ## Add Field Service Price list items
 
-**Pro Tip:** From the Price List go to **Related > Field Service Price List Items** to add additional pricing options for Field Service products and services.
+You can add additional pricing options for services by creating Field Service Price List Items. A service is defined as a product record where Field Service Product Type = Service.
 
-especially for services
-  
-1.  From the top menu, click the drop-down arrow next to the price list name that you created, and then click **Field Service Price List Item**.  
-  
-2.  Click **Add New Field Service Price List Item**.  
-  
-3.  Use the tooltips to help fill in your information:  
+From the Price List go to **Related > Field Service Price List Items**
 
-If this price list item is a service you can: 
+  
+Click **Add New Field Service Price List Item**.  
+  
+Use the tooltips to help fill in your information:  
 
 ### Flat Fee
+
+Makes a service a fixed price regardless of duration
 
 ### Minimum Charge Duration
 
@@ -137,21 +136,16 @@ First X amount of time free
 
 Sets minimum amount for a visit. Value will be added on to final price regardless of amount charged.
 
-### Duration Rounding Policy
+### Duration Rounding Policy & Duration Rounding To
 
-### Duration Rounding To
+Allows you to round service duration and choose the granularity. As an example, if a service duration is 94 minutes, you can automatically round it to 90 minutes, 95 minutes, remain as 94 minutes or other options.
 
-    -   Name the price list  
-  
-    -   Select the Product/Service this applies to from the drop-down list.  
-  
           
 > [!Note]
 > By leaving the Product / Service lookup blank, the above options will apply to all services added to the work order with the chosen price list. THis is helpful if for example, you want to add a minimum charge amount to all services in the price list, you do not need to add all services as Field Service Price List Items, saving time.
  
-      
-  
-1.  Click **Save & Close**.  
+
+**Save & Close**.  
 
 ## Add price lists to work orders
 
@@ -159,7 +153,7 @@ Price lists in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-
   
 ## Additional notes
 
-- you can add a Field Service Price List Item even if the product or service is not a price list item. In this case the list price on the product record will be used for calculations.
+- You can add a Field Service Price List Item even if the product or service is not a price list item. In this case the list price on the product record will be used for calculations.
 
 
 ### Add territory relationships  
