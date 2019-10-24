@@ -167,12 +167,16 @@ You must clear the checkbox to automatically distribute the case records.
 > [!div class=mx-imgBorder]
 > ![Automatic record movement to the agent's default queue](media/route-owner-queue.png "Automatic record movement to the agent's default queue")
 
-## Create new button doesn't appear in queue configuration page
+## Sitemap entry for "Entity Records" node is not localised for non-English languages
 
-Queue is in read-only state or **+ New** button is missing on queue form and grid sometimes, and there is no way to create an Omni-channel queue and the queue entity is in read-only state
+In Omnichannel Administration application, the sitemap entry under the channels area for "Entity Records" node is not localised for non-English languages. The string appears in English language only for all language organiations
+
+## Routing rules subgrid in entity records errors out intermittently 
+
+You might see the routing rules subgrid under an entity records channel error out intermittenly with this error "You do not have permission to access these records. Contact your administrator for help." The issue is seen very rarely. 
 
 ### Workaround
+Refresh the page to load the routing rules subgrid without an error, and continue with routing rules configuration
 
-Please reach out to Microsoft support team to have read-only flag removed from queue entity.
 
-More information: [Create queues](administrator/entity-channel.md#step-1-create-queues)
+
