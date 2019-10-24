@@ -2,7 +2,7 @@
 title: "Channel Analytics | MicrosoftDocs"
 description: "Read about the APIs that enable you to log analytics in Dynamics 365 Channel Integration Framework."
 keywords: ""
-ms.date: 10/18/2019
+ms.date: 10/25/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -128,6 +128,15 @@ You can calculate it by monitoring and predicting the load on different regions,
 
 ## Channel Analytics Entities
 
+### msdyn_conversationdata
+
+### msdyn_SessionData
+
+### msdyn_SessionParticipantData
+
+### msdyn_KPIEventData
+
+### msdyn_KPIEventDefinition
 
 ## See also
 
