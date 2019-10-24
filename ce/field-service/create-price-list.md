@@ -124,35 +124,34 @@ especially for services
 2.  Click **Add New Field Service Price List Item**.  
   
 3.  Use the tooltips to help fill in your information:  
-  
-Flat Fee
 
-Minimum Charge Duration
+If this price list item is a service you can: 
 
-Minimum Charge Amount
+### Flat Fee
 
-Duration Rounding Policy
+### Minimum Charge Duration
 
-Duration Rounding To
+First X amount of time free
 
+### Minimum Charge Amount
+
+Sets minimum amount for a visit. Value will be added on to final price regardless of amount charged.
+
+### Duration Rounding Policy
+
+### Duration Rounding To
 
     -   Name the price list  
   
     -   Select the Product/Service this applies to from the drop-down list.  
   
-         If this price list item is a service you can:  
+          
+> [!Note]
+> By leaving the Product / Service lookup blank, the above options will apply to all services added to the work order with the chosen price list. THis is helpful if for example, you want to add a minimum charge amount to all services in the price list, you do not need to add all services as Field Service Price List Items, saving time.
+ 
+      
   
-        -   Select **Duration Round To**  
-  
-        -   Select **Duration Rounding Policy**  
-  
-        -   Choose **Yes** or **No** for **Flat Fee**  
-  
-        -   Choose **Minimum Charge Amount**  
-  
-        -   Choose **Minimum Charge Duration**  
-  
-4.  Click **Save & Close**.  
+1.  Click **Save & Close**.  
 
 ## Add price lists to work orders
 
