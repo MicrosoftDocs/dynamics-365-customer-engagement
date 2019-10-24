@@ -147,7 +147,7 @@ This action is used to open an email with a predefined template. This action con
 
 Macros are a set of configured actions that are executed on-demand by users. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to provide certain data parameters keys. When the agent runs the macro, these data parameters keys are replaced by the contextual values.
 
-To learn more, see [Use automation dictionary to pass data parameter keys](automation-dictionary-keys.md#pass-data-parameters-in-macros).
+To learn more, see [Use automation dictionary to pass data parameter keys](automation-dictionary-keys.md#pass-data-parameter-in-macros).
 
 ## Create macro
 
