@@ -5,25 +5,44 @@ keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 10/16/2019
+ms.date: 10/25/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 355B4706-49DF-4E2F-A46D-00F12E0044C6
 ms.custom: 
 ---
-# Build a custom smart assist bot
+# Preview: Build a custom smart assist bot
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-Build a custom bot to push real-time suggestions to agents for actions displayed within the smart assist control on the agent UI. The smart assist control uses Adaptive cards to push and display suggestions in UI. [Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI.
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can use the [Adaptive Cards Designer](https://adaptivecards.io/designer/) to create your own adaptive card template.
+> [!IMPORTANT]
+> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.
+> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
+> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../../../legal/dynamics-insider-agreement.md).
 
 ## Smart assist using knowledge articles
 
-Based on the context and the information extracted from an ongoing conversation, Omnichannel for Customer Service can populate the smart assist adaptive cards with knowledge article suggestions.
+Smart assist is an intelligent assistant that provides real-time recommendations to the agents, enabling them to take actions while interacting with the customers. It allows organizations to build a custom bot to push real-time recommendations to agents within the smart assist control on the agent UI. The smart assist bot interprets the ongoing conversation and provides recommendations to the agent using [Microsoft Adaptive Cards](https://adaptivecards.io).
 
-Given below is the adaptive card JSON for displaying knowledge article suggestions.
+See this topic on how to enable smart assist: [Smart assist for agents](../../administrator/smart-assist.md).
+
+## Interpret the conversation
+
+It is essential to analyze the conversation and understand its context before you can suggest an action to the agent. Use [Language Understanding (LUIS)](https://luis.ai) to find the intent of the ongoing conversation. You can use the extracted intent to perform actions such as suggesting a knowledge base article, scheduling an appointment or suggesting similar cases. Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
+
+## Send adaptive card suggestions
+
+[Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI. The smart assist bot interprets the conversation context in real-time and provides recommendations to the agents.
+
+## Samples for adaptive cards
+
+Based on the intent extracted from an ongoing conversation, you can provide appropriate recommendations to the agent using adaptive cards. This section covers some examples for adaptive cards that can be used for various scenarios. You can use the [Adaptive Cards Designer](https://adaptivecards.io/designer/) to create your own adaptive card template.
+
+### Smart assist using knowledge articles
+
+Given below is the adaptive card JSON for displaying knowledge article recommendations.
 
 ```json
 {
@@ -106,26 +125,95 @@ Given below is the adaptive card JSON for displaying knowledge article suggestio
     "version": "1.0"
 }
 ```
+The [code sample]() uses a Web API query to search <xref href="Microsoft.Dynamics.CRM.kbarticle?text=Knowledge Base Article entity" /> in your Dynamics 365 instance. You can modify this query to use <xref href="Microsoft.Dynamics.CRM.incident?text=Incident(case) entity" /> if you wish to search incidents.
 
-## Smart assist using similar cases
+### Smart assist using similar cases
 
+> [!NOTE]
+> This is not an Out-of-the-box feature.<br />
+> This is a standalone adaptive card JSON that can be used to build business logic for displaying similar cases in adaptive cards. The [Build a custom smart assist bot]() code sample does not cover this scenario.
 
-<!--from editor: Is the code missing for this section? -->
+Based on the context and the information extracted from an ongoing conversation, Omnichannel for Customer Service can populate the smart assist adaptive cards with similar case recommendations, which agents can refer to for information on how similar cases were resolved.
 
-
-Based on the context and the information extracted from an ongoing conversation, Omnichannel for Customer Service can populate the smart assist adaptive cards with similar case suggestions, which agents can refer to for information on how similar cases were resolved.
-
-Given below is the adaptive card JSON for displaying similar case suggestions.
+Given below is the adaptive card JSON for displaying similar case recommendations.
 
 ```json
-
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "altText": "",
+                                    "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE6SURBVHgBpZLRbcJADIbtKKBAH8oGZARGSEdggpINIlXw0DzQqgp9SB/SCaATdAQ6QjYgI/AEEUnOtUNSFaGEE/jl7Lv7/rPPRrhg3mA+6By6HhI+EpCNAAkhfGXdQxRtX7eGBrwGBcOClBPufSQW4KOhwHJutgnIywzHYeq7Es/6ixVnkYQ73xVfpWrTKlCmXdD4H0w1TET3iDhpLUFqDjM/Fl9Ve39Ce1+E7UaBaScY8VLWKfHH7nlCgFhnMb0rzxNsgtHEb8ppXGdwdqcfLElRYujCdSaeNbf59YjdUW5ln6gDl+WYsGZXRBL+wJXA0kpTB672H07KSY8LasKNf4G3wGKGXFKovGvg4+VeQCcxw7PeYlPNwUWTNv5wT18keLLeHO2XK0PPerdNKJY81w4Pbww5urqw2C9t1ONm4m8XzgAAAABJRU5ErkJggg==",
+                                    "width": "16px",
+                                    "height": "16px"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Similar case"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Noise from product",
+                    "weight": "Bolder"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Grinding sound from the printer. This started happening after a new carriage stall is installed",
+            "wrap": true
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Open",
+            "data": {
+                "value": "OpenCaseEntity"
+            },
+            "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE8SURBVHgBnVLBUQJBEOxd1z8BALWgAWAEagSQAfLw5CdEIBkIP+UeEoIZyGUAAchtnVT55cXDu5txDrkqQKHUeexu7Uz3dO8OrBc18I/QWul6xYtC682bfwGq6nV0xazqSqkFg63sE9LxwD1U3MGOdJSOoVCY+cUWx6YFpqmm45fqTfRk26Hd2zFbqt48pI/4zI0qizyxUqJVU1NWxYPXYfl5q+MaPoYxtc3EzC+PwsfSZWrQY/7+Dipnl+M9xOc+aWAuZJYYmDCha7766nMibrhhMditt52woJemI6RNqekjSQaZJbNmqyFOppuA0/bbhTDf0lJyjD7F229gbPvdcpogv1wBGHdpKnxAz/nl4Cfl6kQmhxXqIDUROR35jjFBjZxfCnAgDMvkQPwRw2FHzkEgiAKK0+5vAXl8ArWLn19rFeLfAAAAAElFTkSuQmCC"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}
 ```
 
-## Smart assist using cross sell suggestions
+### Smart assist using cross sell recommendations
 
-Smart assist adaptive cards can also contain suggestions for the next case.
+> [!NOTE]
+> This is not an Out-of-the-box feature.<br />
+> This is a standalone adaptive card JSON that can be used to build business logic for displaying cross sell recommendations in adaptive cards. The [Build a custom smart assist bot]() code sample does not cover this scenario.
 
-Given below is the adaptive card JSON for cross sell suggestion.
+Smart assist adaptive cards can also contain recommendations for the next case.
+
+Given below is the adaptive card JSON for cross sell recommendation.
 
 ```json
 {
@@ -189,7 +277,7 @@ Given below is the adaptive card JSON for cross sell suggestion.
 }
 ```
 
-## Create appointment
+### Create appointment
 
 <!--from editor: Just checking, do you mean pro-populating or pre-populating below? -->
 
@@ -267,19 +355,53 @@ Given below is the adaptive card JSON for creating an appointment with the custo
 }
 
 ``` 
+## Calling macros and custom actions using adaptive cards
+
+### Macros
+
+Macros are a compilations of sequential actions that are reusable for different sessions. These can be used to automate repetitive and monotonous actions that in turn reduce human errors and improve agent productivity. For information on how to build a macro, see [Create macro](../../administrator/macros.md#create-macro).
+
+You can use the `actions` key in adaptive cards JSON and mention the macro or custom action that you want to call, as shown in the example below.
+
+The type is always `Action.Submit` and title can be anything the user wants to name the action.
+
+```json
+"actions": [
+		{
+			"type": "Action.Submit",
+			"title": "Accepted",
+			"data": {
+				"MacroName": "SendEmail",
+				"MacroParameters": {
+					"subject": "Upgrade offer"
+				}
+			},
+			"iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE8SURBVHgBnVLBUQJBEOxd1z8BALWgAWAEagSQAfLw5CdEIBkIP+UeEoIZyGUAAchtnVT55cXDu5txDrkqQKHUeexu7Uz3dO8OrBc18I/QWul6xYtC682bfwGq6nV0xazqSqkFg63sE9LxwD1U3MGOdJSOoVCY+cUWx6YFpqmm45fqTfRk26Hd2zFbqt48pI/4zI0qizyxUqJVU1NWxYPXYfl5q+MaPoYxtc3EzC+PwsfSZWrQY/7+Dipnl+M9xOc+aWAuZJYYmDCha7766nMibrhhMditt52woJemI6RNqekjSQaZJbNmqyFOppuA0/bbhTDf0lJyjD7F229gbPvdcpogv1wBGHdpKnxAz/nl4Cfl6kQmhxXqIDUROR35jjFBjZxfCnAgDMvkQPwRw2FHzkEgiAKK0+5vAXl8ArWLn19rFeLfAAAAAElFTkSuQmCC"
+		}
+	]
+```
+
+See also: [Automate tasks with macros](../../administrator/macros.md).
+
+### Custom actions
+
+You will have to create a web resource if you want to use embed a custom action within a suggestion. See the PowerApps topic on [Create your own actions](/powerapps/developer/common-data-service/custom-actions) for information on how to build a custom action.
+
+To use a custom action, replace `MacroName` and `MacroParameters` with `CustomAction` and `CustomParameters` respectively in the adaptive card JSON. The value provided for `CustomAction` key should be the same as the name of the method that is to be called.
 
 ## Sample code
 
+You can find the entire code sample here: [Smart Assist for Bots](). You will find information on how to setup and run the sample in the sample [README]() file.
 
-<!--from editor: The link below isn't complete. -->
+The sample code implements two functionalities, one that is Common Data Service specific and other is generic functionality.
 
+In the Common Data Service functionality, the bot finds the intent in the conversation and tries to query Common Data Service for a relevant Knowledge Base article. The connection to Dynamics 365 has to be specified in the `appsettings.json` file in the sample. The `DynamicsDataAccessLayer.cs` class in the sample uses the connection strings mentioned in the app settings file to query the knowledge base articles in your Dynamics 365 instance. For more information on how to S2S authentication to enable communication between Common Data Service and your bot, see the PowerApps topic: [Build web applications using Server-to-Server(S2S) authentication](/powerapps/developer/common-data-service/build-web-applications-server-server-s2s-authentication).
 
-You can find the entire code sample here: [Smart Assist for Bots]().
-
-> [!NOTE]
-> The sample code uses predefined context values for displaying suggestions. You can use [Language Understanding (LUIS)](https://luis.ai) service to extract intent from an ongoing conversation. The conversation intent can be used along with the initial conversation context to display suggestions for the agent.
+In the generic functionality, if the bot encounters an intent for appointment, it suggests the appointment activity in the adaptive cards. You can use [Language Understanding (LUIS)](https://luis.ai) service to extract intent from an ongoing conversation. The conversation intent can be used along with the initial conversation context to display recommendations for the agent. 
 
 ## See also
 
-[Manage custom context](send-context-starting-chat.md)<br />
-[Enable a bot to escalate and end conversation](../bot-escalate-end-conversation.md)
+[Smart assist for agents](../../administrator/smart-assist.md)<br />
+[Create a bot with Azure bot service](/azure/bot-service/abs-quickstart)<br />
+[Automate tasks with macros](../../administrator/macros.md)<br />
+[Integrate an Azure bot](../../administrator/configure-bot.md)
