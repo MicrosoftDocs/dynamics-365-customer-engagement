@@ -135,22 +135,23 @@ Allows you to round service duration and choose the granularity. As an example, 
 
           
 > [!Note]
-> By leaving the Product / Service lookup blank, the above options will apply to all services added to the work order with the chosen price list. THis is helpful if for example, you want to add a minimum charge amount to all services in the price list, you do not need to add all services as Field Service Price List Items, saving time.
+> By leaving the Product / Service lookup blank, the above options will apply to all services added to the work order with the chosen price list. This is helpful if for example, you want to add a minimum charge amount to all services in the price list, you do not need to add all services as Field Service Price List Items, saving time.
  
 
 **Save & Close**.  
 
 ## Add price lists to work orders
 
-Price lists in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] define pricing levels. When you use a price list, you can specify how much a customer is charged for your product and services. The price list is noted on the account, work order, agreement, or the individual product or service. 
+When creating a work order, you must enter a price list. The price list can be entered manually, or automatically populated based on the price list of the billing account or work order type when chosen.
+
+When a price list is added to a work order, it is automatically propagated to all work order products and services; however the price list of an individual work order product or service can be manually overridden as needed.
   
 ## Additional notes
 
 - You can add a Field Service Price List Item even if the product or service is not a price list item. In this case the list price on the product record will be used for calculations.
 
 
-### Add territory relationships  
- Add default price lists for territories or customer segments. This makes it easier for your [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] team to see the default price list for the area they are working in. You can have one price list as the default for multiple territories.  
+**Add territory relationships** - Add default price lists for territories or customer segments. This makes it easier for your [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] team to see the default price list for the area they are working in. You can have one price list as the default for multiple territories.  
   
 1. In the price list record, in the **Territory Relationships** section, click **+Add Connection record**.  
   
