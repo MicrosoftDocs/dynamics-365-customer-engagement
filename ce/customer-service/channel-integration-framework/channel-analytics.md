@@ -166,7 +166,7 @@ Primary entity for defining a KPI event.
 
 **Display name**: KPI Event Definition
 **Primary field**: name
-**Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_sessionsdata`
+**Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_kpieventdefinitions`
 
 ## See also
 
