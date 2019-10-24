@@ -27,6 +27,10 @@ search.app:
 
 Field Service uses and extends Dynamics 365 price lists and product catalog. This means products and services are added to work orders with appropriate pricing.  
 
+For work order products that represents parts used during on site service, simply use price lists and price list items as you would for Dynamics 365 for Sales.
+
+For work order services that represent labor performed during on site service, you can use price lists with price list items to define an hourly rate, or you can use price lists with **Field Service Price List Items** for additional pricing options.
+
 In this article let's explore creating products, services, and price lists to use on work orders.
 
 ## Prerequisites 
@@ -50,7 +54,7 @@ For this exercise in using Field Service Price List Items to extend price lists,
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/price-list-service-create.png)
 
-In the Field Service section, enter a **Field Service Product Type** = service.
+In the Field Service section, enter a **Field Service Product Type** = Service.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-create-service.png)
