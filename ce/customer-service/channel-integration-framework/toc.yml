@@ -37,7 +37,7 @@
       href: session-templates-cif.md
     - name: "Manage application tab templates"
       href: application-tab-templates-cif.md      
-    - name: "Notification templates"
+    - name: "Manage notification templates"
       href: notification-templates-cif.md
     - name: "Use automation dictionary to pass data parameter keys"
       href: automation-dictionary-keys-cif.md

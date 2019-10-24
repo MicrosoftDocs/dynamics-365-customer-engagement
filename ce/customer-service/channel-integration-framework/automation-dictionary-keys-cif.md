@@ -34,17 +34,9 @@ Let's consider a scenario for templates with the notifications.
 
 The notification shows certain fields and values, which are called **Field header** and **Value** respectively.
 
-
-<!--from editor: Where is the name Kenny Smith from? I don't see it in the team's fictitious names list. -->
-
-
 Kenny Smith, a customer, initiated a conversation. When the agent sees the notification, it displays **Customer Name** as **Kenny Smith**.
 
 Here, **Field header** is **Customer Name** and the **Value** is **Kenny Smith**.
-
-
-
-<!--from editor: Please review the small rewording in the following sentence to check accuracy. -->
 
 For templates to identify the name of the customer as **Kenny Smith**, you as an administrator must set the configuration to pass the parameter as values.
 
@@ -52,26 +44,15 @@ Similarly, for session and notification titles, you can pass the data parameters
 
 Dynamics 365 Channel Integration Framework replaces these parameter values with the actual value based on the context of the session, channel provider, Common Data Service, and user actions.
 
-To learn more, see [Types context data parameters](#types-context-data-parameters).
+To learn more, see [Types of context data parameters](#types-of-context-data-parameters).
 
-
-
-<!--from editor: Should the following be Types "of" context data parameters ? -->
-
-
-## Types context data parameters
+## Types of context data parameters
 
 The automation dictionary uses the context data parameters that are available from the following sources:
 
 - [Context data from the channel provider](#context-data-from-the-channel-provider)
 - [Context data from the user actions](#context-data-from-the-user-actions)
 - [Context data from Common Data Service](#context-data-from-common-data-service)
-
-
-
-
-<!--from editor: There's a typo in this image. It says "Commo" instead of "Common". -->
-
 
 > [!div class=mx-imgBorder] 
 > ![Automation dictionary](media/automation-dictionary-cif.PNG "Automation dictionary")

@@ -95,11 +95,7 @@ The application type is used to display the dashboard as an application. The par
 
 ### Entity view
 
-
-<!--from editor: Does Omnichannel here refer to Omnichannel for Customer Service? If so, we need to use the full name. If it just refers to omnichannel in general, it should not be capitalized. -->
-
-
-The application type is used to display an entity view that defines how a list of records for a specific entity is displayed in the Omnichannel application. The parameters available for the entity view application type are as follows: 
+The application type is used to display an entity view that defines how a list of records for a specific entity is displayed in the Omnichannel for Customer Service app. The parameters available for the entity view application type are as follows: 
 
 | parameter | Example value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
@@ -133,11 +129,7 @@ The parameters available for the entity search application type are as follows:
 
 ### Web resource
 
-
-<!--from editor: We no longer use the "for Customer Engagement" name, unless it's with "(on-premises)". You need to determine what's appropriate to use here instead. -->
-
-
-The application type is used to display web resources that represent files, which are used to extend the Dynamics 365 for Customer Engagement web application such as HTML files, JavaScript, CSS, and several image formats. The parameters available for the web resources application type are as follows:
+The application type is used to display web resources that represent files, which are used to extend the web application such as HTML files, JavaScript, CSS, and several image formats. The parameters available for the web resources application type are as follows:
 
 | parameter | Example value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
