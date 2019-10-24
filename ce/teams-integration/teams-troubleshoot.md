@@ -194,4 +194,23 @@ You need to be a member of the connected team channel to view files. Contact the
    > [!div class="mx-imgBorder"] 
    > ![Select document location](media/teams-select-document-location.png "Select document location")
 
+## Known issues
+
+### Error while creating a team or channel. The property is missing a required prefix/suffix per your organization's Group naming requirements. 
+
+This error occurs when the tenant admin has configured group level naming policy from Azure Portal with a prefix and suffix conditions. 
+
+   > [!div class="mx-imgBorder"] 
+   > ![Prefix error](media/azure_portal_error.png "Prefix error")
+
+To work around this issue, the telnet admin needs to remove this policy from Azure Portal.
+
+### Error while creating a team or channel. The displayName cannot contain the blocked word 'blocked' as per company policy.
+
+This issue occur when tenant admin created a custom blocked word list on Azure Portal. To work around this issue, the telnet admin needs to remove this policy from Azure Portal.
+
+
+
+
+
 
