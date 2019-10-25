@@ -132,10 +132,10 @@ Review the following prerequisites before configuring the supervisor dashboard:
 
 ### Step 2: Install Dynamics 365 Customer Service Analytics app 
 
-1.	Sign in to [Power BI](https://app.powerbi.com/) app as an administrator. 
-2.	As a Power BI admin, browse to this link: [http://aka.ms/cs-insights](http://aka.ms/cs-insights) 
-3.	Install **Dynamics 365 Customer Service Analytics** app. 
-4.	After **Dynamics 365 Customer Service Analytics** app is installed, the app configuration options page displays. 
+1. Sign in to [Power BI](https://app.powerbi.com/) app as an administrator. 
+2. As a Power BI admin, browse to this link: [http://aka.ms/cs-insights](http://aka.ms/cs-insights)
+3. Install **Dynamics 365 Customer Service Analytics** app. 
+4. After **Dynamics 365 Customer Service Analytics** app is installed, the app configuration options page displays. 
     
     > [!div class=mx-imgBorder]
     > ![Customer Service app install](media/cs-service-app-install.png "Customer Service app install view") 
@@ -144,17 +144,17 @@ Review the following prerequisites before configuring the supervisor dashboard:
 
 ### Step 3: Connect Dynamics 365 organization to Customer Service Analytics app
  
-1.	On the **Dynamics 365 Customer Service Analytics** app configuration options page, select **Connect data**. 
+ 1. On the **Dynamics 365 Customer Service Analytics** app configuration options page, select **Connect data**. 
     
     > [!div class=mx-imgBorder]
     > ![Customer Service app install - connect data](media/cs-app-get-started.png "Customer Service app install connect data") 
     
-2.	On the connect data page, enter your organization's Dynamics 365 Service Root URL and select **Next**. 
+2. On the connect data page, enter your organization's Dynamics 365 Service Root URL and select **Next**. 
     
     > [!div class=mx-imgBorder]
     > ![Customer Service app install - root url](media/cs-analytics-root-url.png "Customer Service app install - root url") 
 
-3.	(Optional) To find the Microsoft Dynamics 365 OData URL, follow these steps: 
+3. (Optional) To find the Microsoft Dynamics 365 OData URL, follow these steps: 
 
     a. Sign into Dynamics 365 for Customer Engagement.
 
@@ -165,31 +165,32 @@ Review the following prerequisites before configuring the supervisor dashboard:
     > [!div class=mx-imgBorder]
     > ![Customer Service app install - odata url](media/cs-analytics-odata-url.png "Customer Service app install - odata url") 
 
-4.	Select **Authentication method** as **OAuth2** and **Privacy level** as **Organizational**. Select **Sign in**. 
+4. Select **Authentication method** as **OAuth2** and **Privacy level** as **Organizational**. Select **Sign in**. 
     
     > [!div class=mx-imgBorder]
     > ![Customer Service app install](media/cs-analytics-install.png "Customer Service app install") 
     
-5.	Enter your Dynamics 365 organization credentials and press **Enter**. 
+5. Enter your Dynamics 365 organization credentials and press **Enter**. 
 
     When you are successfully signed in, the existing report will be updated with the data from your organization. 
     Now configure the refresh frequency for the reports and dashboards. 
 
 ### Step 4: Configure refresh frequency on Power BI Dataset 
-After you connect Dynamics 365 Customer Service Analytics app with Dynamics 365 organization, you need to configure the refresh frequency on the Power BI dataset to refresh the report and dashboards properly. 
 
-1.	Sign into Power BI app as administrator
-2.	Go to the **Dynamics 365 Customer Service Analytics** app **workspace**
+After you connect Dynamics 365 Customer Service Analytics app with Dynamics 365 organization, you need to configure the refresh frequency on the Power BI dataset to update reports and dashboards properly.
+
+1. Sign into Power BI app as administrator
+2. Go to the **Dynamics 365 Customer Service Analytics** app **workspace**
     
     > [!div class=mx-imgBorder]
     > ![Customer Service app install - refresh frequency](media/cs-analytics-refresh-frequency.png "Customer Service app install - refresh frequency")
     
-3.	Go to **Datasets** tab and select **Settings**
+3. Go to **Datasets** tab and select **Settings**
      
     > [!div class=mx-imgBorder]
     > ![Customer Service app install - data settings](media/cs-analytics-data-settings.png "Customer Service app install - data settings")
  
-4.	Turn **on** the **Scheduled refresh**
+4. Turn **on** the **Scheduled refresh**
      
     > [!div class=mx-imgBorder]
     > ![Customer Service app install - Scheduled refresh](media/cs-analytics-schedule-refresh.png "Customer Service app install - Scheduled refresh")
@@ -200,15 +201,15 @@ After you connect Dynamics 365 Customer Service Analytics app with Dynamics 365 
  > We recommend you configure the refresh frequency to **Daily**. 
 
 ### Step 5: Publish application within your organization 
-You must share the configured application with your entire organization so supervisors can view **Customer Service Analytics** dashboards and reports with their own **Power BI Pro** accounts. 
+You must share the configured application with your entire organization so supervisors can view **Customer Service Analytics** dashboards and reports with their own **Power BI Pro** accounts.
 
-1.	On the App workspace, select **Update app**
-     
+1. On the App workspace, select **Update app**
+  
     > [!div class=mx-imgBorder]
     > ![Customer Service app install - Publish application](media/cs-analytics-publish-application.png "Customer Service app install - Publish application")
     
-2.	In the Update app wizard, go to the **Access** tab 
-3.	Choose **Entire organization** and select **Update app**
+2. In the Update app wizard, go to the **Access** tab 
+3. Choose **Entire organization** and select **Update app**
      
     > [!div class=mx-imgBorder]
     > ![Customer Service app install - application](media/cs-analytics-update-app.png "Customer Service app install - application")
@@ -221,9 +222,9 @@ You must share the configured application with your entire organization so super
 ### Step 6: Enable Power BI reporting in Dynamics 365 for Customer Engagement 
 As an administrator, you must enable Power BI reporting in the Dynamics 365 for Customer Engagement organization for supervisors to view the dashboards in the Omni-channel Administration app. 
 
-1.	**Sign In** to Dynamics 365 for Customer Engagement and go to **Settings** 
-2.	Select **Administration, System Settings**
-3.	Go to the **Reporting** tab and enable **Allow Power BI visualization embedding**
+1. **Sign In** to Dynamics 365 for Customer Engagement and go to **Settings** 
+2. Select **Administration, System Settings**
+3. Go to the **Reporting** tab and enable **Allow Power BI visualization embedding**
      
     > [!div class=mx-imgBorder]
     > ![Customer Service app install - enable pbi](media/cs-analytics-enable-pbi.png "Customer Service app install - enable pbi")
@@ -233,39 +234,36 @@ As an administrator, you must enable Power BI reporting in the Dynamics 365 for 
 ### Step 7: Add Power BI Dashboards to Customer Service Hub 
 Each supervisor must configure their Dynamics 365 for Customer Engagement environment to integrate the Customer Service Analytics dashboard. 
 
-1.	Sign in to Dynamics 365 for Customer Engagement and open the **Customer Service Hub** app 
+1. Sign in to Dynamics 365 for Customer Engagement and open the **Customer Service Hub** app 
      
     > [!div class=mx-imgBorder]
     > ![Customer Service app install](media/cs-analytics-cs-hub.png "Customer Service app install")
-
-2.	Open **Supervisor Dashboards**
+2. Open **Supervisor Dashboards**
      
     > [!div class=mx-imgBorder]
     > ![Customer Service app install](media/cs-analytics-supervisor-dashboard.png "Customer Service app install")
-
-3.	Select **New, Power BI Dashboard**
- 
-4.	Choose **Workspace** as **Dynamics 365 Customer Service Analytics** and **Dashboard** as **Customer Service Analytics Dashboard**. 
-5.	Save and close. 
-6.	Repeat Step 3 to step 5 to add Omni-channel Sentiment Insights app. 
-
+3. Select **New, Power BI Dashboard**
+4. Choose **Workspace** as **Dynamics 365 Customer Service Analytics** and **Dashboard** as **Customer Service Analytics Dashboard**. 
+5. Save and close. 
+6. Repeat Step 3 to step 5 to add Omni-channel Sentiment Insights app. 
+    
     Customer Service Analytics dashboard is now available in Dynamics 365.
 
 ## Add users to supervisor configuration  
 You must add users in the supervisor configuration to access any supervisor dashboard in Unified Service Desk. To add users in supervisor configuration, follow these steps: 
  
-1.	Log in to Dynamics 365.  
-2.	Go to **Settings, Unified Service Desk** and then select **Configuration**.  
-3.	On the configuration page, select **Supervisor Configuration**.   
-4.	On the **Users** section, select **+ Add User record** and enter the user name to add the user.  
-5.	Save and close the configuration.   
+ 1. Log in to Dynamics 365.
+ 2. Go to **Settings, Unified Service Desk** and then select **Configuration**.
+ 3. On the configuration page, select **Supervisor Configuration**.   
+ 4. On the **Users** section, select **+ Add User record** and enter the user name to add the user.
+ 5. Save and close the configuration.   
 
     Users are now added to the supervisor dashboard and when they log in to Omnichannel Engagement Hub on Unified Service Desk, the supervisor dashboard tabs are now available. 
  
 ## Customize Customer Service Analytics 
 You must perform the below steps if you would like to enhance/customize the PowerBI template app for your organization needs.  
  
->![Important]
+> [!Important]
 > Microsoft does not support customizations made to the Power BI template app and will not provide updates once modifications are made.
 
 ## See Also 
