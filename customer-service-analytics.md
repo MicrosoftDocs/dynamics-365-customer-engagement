@@ -40,8 +40,9 @@ This section consists of the following KPIs.
 |Case age                    |Average time the case was in open state.                           |
 |Total Activities            |Total activities which are created by agents                       |
 
+<p>
 
-|Filters/Dimensions          |Description                                                        |
+|Filters / Dimensions          |Description                                                        |
 |----------------------------|-------------------------------------------------------------------|
 |Duration                    |Filters the date range users would like to see the reporting for.  |
 |Queue                       |Provides an ability for the user to filter the queue which they would like to drill deeper and see all metrics related to those queue(s). |
@@ -59,13 +60,12 @@ The Customer Service Analytics report detail view has three views:
     This view provides key KPIs and metrics across customer service with an ability for supervisors to filter the view based on filters:
 
     > [!div class=mx-imgBorder]
-    > ![Customer Service Analytics Summary View](media/cs-analytics-summary-view.png media/cs-analytics-summary-view.png
-        ![Customer Service Analytics Summary View](media/cs-analytics-summary-view.png media/cs-analytics-summary-view.png
+    > ![Customer Service Analytics Summary View](media/cs-analytics-summary-view.png "Customer Service Analytics Summary View")
     
 This section contains the following visuals/KPIs:
 
-|Visuals/KPI                         |Description                                                                   |
-|------------------------------------|------------------------------------------------------------------------------|
+|Visuals / KPI    |Description                   |
+|-----------------|------------------------------|
 |Incoming cases by channel           |This visual shows the volume of cases created in each of the support channel. |
 |Incoming cases by priority          |This visual shows the volume of active and resolved cases by priority.        |
 |Incoming cases by subject           |This visual shows active and resolved cases by each subject. This considers the last node in the subject hierarchy. |
@@ -80,11 +80,11 @@ This section contains the following visuals/KPIs:
     This view provides key KPIs and metrics across customer service with an ability for supervisors to filter the view based on filters:
 
     > [!div class=mx-imgBorder]
-    > ![Customer Service Analytics Agent/Queue view](../../media/cs-analytics-agent-queue-view.png "Customer Service analytics Agent/Queue  view")
+    > ![Customer Service Analytics Agent/Queue view](media/cs-analytics-agent-queue-view.png "Customer Service analytics Agent/Queue  view")
     
  This section contains the following visuals/KPIs:
  
- |Visuals/KPI                               |Description                                                            |
+ |Visuals / KPI                               |Description                                                            |
  |------------------------------------------|-----------------------------------------------------------------------|
  |Agents with most cases                    |This visual shows the top agents who has handled most cases along with the states of those cases.|
  |Agents with most open activities          |This visual shows the agents with most open activities. This helps supervisor to help agents clear the backlog.|
@@ -98,24 +98,30 @@ This section contains the following visuals/KPIs:
      This view provides key KPIs and metrics across customer service with an ability for supervisors to filter the view based on filters:
     
     > [!div class=mx-imgBorder]
-    > ![Customer Service Analytics Case/Activity list view](../media/cs-analytics-case-activity-list-view.png "Customer Service analytics Case/Activity list view") 
+    > ![Customer Service Analytics Case/Activity list view](media/cs-analytics-case-activity-list-view.png "Customer Service analytics Case/Activity list view") 
     
 ## View and filter report  
 You can filter information by viewing the reports and selecting: Duration, Queue, Agent, Priority, Subject and case status. 
     
-    > [!div class=mx-imgBorder]
-    > ![Customer Service Analytics View and Filter Report](../media/cs-analytics-view-filer report.png "Customer Service analytics view and filter report") 
+   > [!div class=mx-imgBorder]
+   > ![Customer Service Analytics View and Filter Report](media/cs-analytics-view-filer-report.png "Customer Service analytics view and filter report")
     
 Select: Queue, Agent, Priority, Subject or Date as required, and information is filtered according to selection. This helps to quickly analyze KPIs and take necessary steps to improve outcomes. 
 
 ## Configure Customer Service Analytics dashboard
-You must perform the following steps to configure the historical customer service analytics dashboards to display in customer service Hub app:  
-Step 1: Review the prerequisites 
-Step 2: Install Dynamics 365 Customer Service Analytics app 
-Step 3: Connect Dynamics 365 organization to Customer Service Analytics app 
-Step 4: Configure refresh frequency on Power BI Dataset 
-Step 5: Publish application within your organization 
+You must perform the following steps to configure the historical customer service analytics dashboards to display in customer service Hub app: 
+Step 1: Review the prerequisites
+
+Step 2: Install Dynamics 365 Customer Service Analytics app
+
+Step 3: Connect Dynamics 365 organization to Customer Service Analytics app
+
+Step 4: Configure refresh frequency on Power BI Dataset
+
+Step 5: Publish application within your organization
+
 Step 6: Enable Power BI reporting in Dynamics 365 for Customer Engagement 
+
 Step 7: Add Power BI Dashboard to Customer Service Hub 
 
 ## Step 1: Prerequisites 
@@ -132,7 +138,7 @@ Review the following prerequisites before configuring the supervisor dashboard:
 4.	After **Dynamics 365 Customer Service Analytics** app is installed, the app configuration options page displays. 
     
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install](../media/cs-service-app-install.png "Customer Service app install view") 
+    > ![Customer Service app install](media/cs-service-app-install.png "Customer Service app install view") 
     
 Now you can proceed to configure the app by connecting your Dynamics 365 organization. 
 
@@ -141,12 +147,12 @@ Now you can proceed to configure the app by connecting your Dynamics 365 organiz
 1.	On the **Dynamics 365 Customer Service Analytics** app configuration options page, select **Connect data**. 
     
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install - connect data](../media/cs-app-get-started.png "Customer Service app install connect data") 
+    > ![Customer Service app install - connect data](media/cs-app-get-started.png "Customer Service app install connect data") 
     
 2.	On the connect data page, enter your organization's Dynamics 365 Service Root URL and select **Next**. 
     
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install - root url](../media/cs-analytics-root-url.png "Customer Service app install - root url") 
+    > ![Customer Service app install - root url](media/cs-analytics-root-url.png "Customer Service app install - root url") 
 
 3.	(Optional) To find the Microsoft Dynamics 365 OData URL, follow these steps: 
     a.	Sign into Dynamics 365 for Customer Engagement. 
@@ -187,8 +193,8 @@ After you connect Dynamics 365 Customer Service Analytics app with Dynamics 365 
 
 Now, publish the application in your organization. 
 
-> [!NOTE]
-> We recommend you configure the refresh frequency to **Daily**. 
+ > [!NOTE]
+ > We recommend you configure the refresh frequency to **Daily**. 
 
 ## Step 5: Publish application within your organization 
 You must share the configured application with your entire organization so supervisors can view **Customer Service Analytics** dashboards and reports with their own **Power BI Pro** accounts. 
@@ -259,8 +265,11 @@ You must perform the below steps if you would like to enhance/customize the Powe
 Please be aware that you will not be able to get future updates to the PowerBI template app if you customize it and customized solution will not be supported by Microsoft.  
 
 ## See Also 
-[Introduction to Omnichannel Insights dashboard](https://docs.microsoft.com/en-us/dynamics365/omnichannel/supervisor/intro-dynamics-365-omnichannel-insights-dashboard) <p>
-[Configure Omnichannel Insights dashboards](https://docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/configure-historical-sentiment-dashboard-supervisor) <p>
+
+[Introduction to Omnichannel Insights dashboard](https://docs.microsoft.com/en-us/dynamics365/omnichannel/supervisor/intro-dynamics-365-omnichannel-insights-dashboard) 
+
+[Configure Omnichannel Insights dashboards](https://docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/configure-historical-sentiment-dashboard-supervisor)
+
 [View and understand Omnichannel Insights dashboards](https://docs.microsoft.com/en-us/dynamics365/omnichannel/supervisor/omnichannel-insights-dashboard)
      
 
