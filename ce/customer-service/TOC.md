@@ -23,6 +23,8 @@
 #### [Create and manage parent and child cases](user-guide-customer-service.md#create-and-manage-parent-and-child-cases)
 #### [Find knowledge articles from within a record](find-knowledge-articles-within-record-dynamics-365.md)
 
+### [Customer Service Analytics](customer-service-analytics.md)
+
 ## Service Manager Guide
 ### [Understand Service Management](service-manager-guide.md)
 ### Case Settings
