@@ -24,8 +24,8 @@ The Customer Service Analytics dashboard provides information about the historic
 
 The following is an example of the Customer Service Analytics overview dashboard:  
 
-    > [!div class=mx-imgBorder]
-    > ![Customer Service Analytics overview dashboard](../media/cs-analytics-overview-dashboard.png "Customer Service Analytics overview dashboard")
+   > [!div class=mx-imgBorder]
+   >![customer service analytics overview dashboard](media/cs-analytics-overview-dashboard.png "customer service analytics overview dashboard")
   
 This section consists of the following KPIs.  
 
@@ -59,7 +59,8 @@ The Customer Service Analytics report detail view has three views:
     This view provides key KPIs and metrics across customer service with an ability for supervisors to filter the view based on filters:
 
     > [!div class=mx-imgBorder]
-    > ![Customer Service Analytics Summary View](../media/cs-analytics-summary-view.png "Customer Service analytics summary view")
+    > ![Customer Service Analytics Summary View](media/cs-analytics-summary-view.png media/cs-analytics-summary-view.png
+        ![Customer Service Analytics Summary View](media/cs-analytics-summary-view.png media/cs-analytics-summary-view.png
     
 This section contains the following visuals/KPIs:
 
