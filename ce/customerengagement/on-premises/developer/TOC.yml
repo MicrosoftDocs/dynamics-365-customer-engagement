@@ -913,8 +913,6 @@
     href: delete-data-bulk.md
   - name: Import data
     href: import-data.md
-  - name: Data Export Service
-    href: data-export-service.md
   - name: Synchronize Dynamics 365 data with external systems
     href: synchronize-dynamics-365-data-with-external-systems.md
   - name: Virtual Entities
