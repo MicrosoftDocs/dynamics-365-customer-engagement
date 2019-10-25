@@ -386,7 +386,7 @@ To use a custom action, replace `MacroName` and `MacroParameters` with `CustomAc
 
 ## Sample code
 
-You can find the entire code sample here: [Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot). You will find information on how to setup and run the sample in the sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/sushant-oc/customer-service/omnichannel/smart-assist-bot/README.md) file.
+You can find the entire code sample here: [Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot). You will find information on how to setup and run the sample in the sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file.
 
 The sample code implements two functionalities, one that is Common Data Service specific and other is generic functionality.
 
