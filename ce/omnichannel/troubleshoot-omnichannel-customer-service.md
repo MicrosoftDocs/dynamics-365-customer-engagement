@@ -27,7 +27,7 @@ The Flow doesn't update automatically. Due to this issue, you can't create an en
 
 ### Resolution:
 
-To workaround the issue, create a new Flow.
+To workaround the issue, you need to reset Flow. To reset the Flow, follow these steps.
 
 1. Sign in to the Omnichannel Administration app.
 
