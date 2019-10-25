@@ -258,9 +258,9 @@ You must perform the below steps if you would like to enhance/customize the Powe
 Please be aware that you will not be able to get future updates to the PowerBI template app if you customize it and customized solution will not be supported by Microsoft.  
 
 ## See Also 
-[Introduction to Omnichannel Insights dashboard](https://docs.microsoft.com/en-us/dynamics365/omnichannel/supervisor/intro-dynamics-365-omnichannel-insights-dashboard) 
-[Configure Omnichannel Insights dashboards](https://docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/configure-historical-sentiment-dashboard-supervisor) 
-[View and understand Omnichannel Insights dashboards](https://docs.microsoft.com/en-us/dynamics365/omnichannel/supervisor/omnichannel-insights-dashboard) 
+[Introduction to Omnichannel Insights dashboard](https://docs.microsoft.com/en-us/dynamics365/omnichannel/supervisor/intro-dynamics-365-omnichannel-insights-dashboard) <p>
+[Configure Omnichannel Insights dashboards](https://docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/configure-historical-sentiment-dashboard-supervisor) <p>
+[View and understand Omnichannel Insights dashboards](https://docs.microsoft.com/en-us/dynamics365/omnichannel/supervisor/omnichannel-insights-dashboard)
      
 
     
