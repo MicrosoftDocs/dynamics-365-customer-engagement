@@ -43,7 +43,12 @@ Enable sentiment analysis for supervisors so they can view the real-time sentime
     > [!div class=mx-imgBorder]
     > ![Enable multilanguage sentiment](../media/oc-sentiment-enable-multilanguage.png "Enable multilanguage sentiment") 
 
-    This enables scoring of conversations in 40+ additional languages:
+    Once multilanguage sentiment is enabled, you should see scores in the Omnichannel Insights Dashboards.  
+    
+    > [!Note]
+    > If you turn off multilanguage sentiment, you will no longer see non-english conversations being scored in real-time. However, the Omnichannel Insights Dashboard will still contain the scores for conversations that were previously scored. 
+
+    Enabling multilanguage sentiment also provides  scoring of conversations in 40+ additional languages:
 
     > [!div class=mx-imgBorder]
     > ![Enable multilanguage sentiment](../media/oc-sentiment-langauge-list.png "Enable multilanguage sentiment") 
