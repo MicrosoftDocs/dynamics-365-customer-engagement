@@ -21,7 +21,7 @@ search.app:
 
 
 
-A quick view control on a custom business app form displays data from a record that is selected in a lookup on the form. The data displayed in the control is defined using a quick view form. The data displayed is not editable, but when the primary field is included in the quick view form, it becomes a link to open the related record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit quick view forms](create-edit-quick-view-forms.md)  
+A quick view control on a custom business app form displays data from a record that is selected in a lookup on the form. The data displayed in the control is defined using a quick view form. The data displayed is not editable, but when the primary field is included in the quick view form, it becomes a link in the legacy Web Client to open the related record.  It is not a clickable link in the Unified Interface. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit quick view forms](create-edit-quick-view-forms.md)  
 
 ![Contact quick view form on the account form](../customize/media/quick-view-form-contact.png "Contact quick view form on the account form")  
 
