@@ -203,13 +203,13 @@ A user may get this error when they try to connect a record or a view to a team 
    > [!div class="mx-imgBorder"] 
    > ![Prefix error](media/azure_portal_error.png "Prefix error")
 
-To work around this issue, your telnet admin will need to remove this policy from Azure Portal.
+To work around this issue, your tenant admin will need to remove this policy from Azure Portal.
 
 ### Error while creating a team or channel. The displayName cannot contain the blocked word 'blocked' as per company policy.
 
 A user may get this error when they try to connect a record or a view to a team channel using the **Collaborate** button in model-driven apps in Dynamics 365. This happens when your tenant admin creates a custom blocked word list on Azure Portal.
 
-To work around this issue, your telnet admin will need to remove this policy from Azure Portal.
+To work around this issue, your tenant admin will need to remove this policy from Azure Portal.
 
 
 
