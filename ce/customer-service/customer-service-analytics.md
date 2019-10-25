@@ -29,21 +29,19 @@ The following is an example of the Customer Service Analytics overview dashb
   
 This section consists of the following KPIs.  
 
-    | KPI                        | Description                                                       |
-    |----------------------------|-------------------------------------------------------------------|
-    |Total cases                 |Number of cases created to support customers.                      |
-    |Active Cases                |Number of cases which are current open.                            |
-    |Resolved cases              |Number of cases which have been closed by agent.                   |
-    |Escalated Cases %           |Percentages of cases which have been escalated.                    |
-    |Average Handle Time (mins)  |Average length of time taken by an agent to resolve the case.      |
-    |Avg. CSAT                   |Average customer satisfaction score based on the survey submitted by the customer. |
-    |Case age                    |Average time the case was in open state.                           |
-    |Total Activities            |Total activities which are created by agents                       |
+| KPI                    | Description         |
+|------------------------|-------------------------|
+|Total cases                 |Number of cases created to support customers.                      |
+|Active Cases                |Number of cases which are current open.                            |
+|Resolved cases              |Number of cases which have been closed by agent.                   |
+|Escalated Cases %           |Percentages of cases which have been escalated.                    |
+|Average Handle Time (mins)  |Average length of time taken by an agent to resolve the case.      |
+|Avg. CSAT                   |Average customer satisfaction score based on the survey submitted by the customer. |
+|Case age                    |Average time the case was in open state.                           |
+|Total Activities            |Total activities which are created by agents                       |
 
-<p>
-
-|Filters / Dimensions          |Description                                                        |
-|----------------------------|-------------------------------------------------------------------|
+|Filters / Dimensions        |Description        |
+|----------------------------|-------------------|
 |Duration                    |Filters the date range users would like to see the reporting for.  |
 |Queue                       |Provides an ability for the user to filter the queue which they would like to drill deeper and see all metrics related to those queue(s). |
 |Agent                       |Provides an ability for the supervisor to filter all their reporting agents to understand how each one of them are performing and can plan to coach/train agents.  |
@@ -142,7 +140,7 @@ Review the following prerequisites before configuring the supervisor dashboard:
     > [!div class=mx-imgBorder]
     > ![Customer Service app install](media/cs-service-app-install.png "Customer Service app install view") 
     
-Now you can proceed to configure the app by connecting your Dynamics 365 organization. 
+    Now you can proceed to configure the app by connecting your Dynamics 365 organization. 
 
 ### Step 3: Connect Dynamics 365 organization to Customer Service Analytics app
  
@@ -157,9 +155,12 @@ Now you can proceed to configure the app by connecting your Dynamics 365 organiz
     > ![Customer Service app install - root url](media/cs-analytics-root-url.png "Customer Service app install - root url") 
 
 3.	(Optional) To find the Microsoft Dynamics 365 OData URL, follow these steps: 
-    a.	Sign into Dynamics 365 for Customer Engagement. 
-    b.	Go to **Settings** and then select **Developer Resources**.  
-    c.	Find the OData URL under **Service Root URL**. 
+
+    a. Sign into Dynamics 365 for Customer Engagement.
+
+    b. Go to **Settings** and then select **Developer Resources**.  
+
+    c. Find the OData URL under **Service Root URL**. 
     
     > [!div class=mx-imgBorder]
     > ![Customer Service app install - odata url](media/cs-analytics-odata-url.png "Customer Service app install - odata url") 
@@ -171,8 +172,8 @@ Now you can proceed to configure the app by connecting your Dynamics 365 organiz
     
 5.	Enter your Dynamics 365 organization credentials and press **Enter**. 
 
-When you are successfully signed in, the existing report will be updated with the data from your organization. 
-Now configure the refresh frequency for the reports and dashboards. 
+    When you are successfully signed in, the existing report will be updated with the data from your organization. 
+    Now configure the refresh frequency for the reports and dashboards. 
 
 ### Step 4: Configure refresh frequency on Power BI Dataset 
 After you connect Dynamics 365 Customer Service Analytics app with Dynamics 365 organization, you need to configure the refresh frequency on the Power BI dataset to refresh the report and dashboards properly. 
@@ -183,7 +184,7 @@ After you connect Dynamics 365 Customer Service Analytics app with Dynamics 365 
     > [!div class=mx-imgBorder]
     > ![Customer Service app install - refresh frequency](media/cs-analytics-refresh-frequency.png "Customer Service app install - refresh frequency")
     
- 3.	Go to **Datasets** tab and select **Settings**
+3.	Go to **Datasets** tab and select **Settings**
      
     > [!div class=mx-imgBorder]
     > ![Customer Service app install - data settings](media/cs-analytics-data-settings.png "Customer Service app install - data settings")
@@ -193,7 +194,7 @@ After you connect Dynamics 365 Customer Service Analytics app with Dynamics 365 
     > [!div class=mx-imgBorder]
     > ![Customer Service app install - Scheduled refresh](media/cs-analytics-schedule-refresh.png "Customer Service app install - Scheduled refresh")
 
-Now, publish the application in your organization. 
+    Now, publish the application in your organization. 
 
  > [!NOTE]
  > We recommend you configure the refresh frequency to **Daily**. 
@@ -212,7 +213,7 @@ You must share the configured application with your entire organization so super
     > [!div class=mx-imgBorder]
     > ![Customer Service app install - application](media/cs-analytics-update-app.png "Customer Service app install - application")
 
-The app is now available to install for all individuals in your organization. 
+    The app is now available to install for all individuals in your organization. 
  
 > [!NOTE]
 > Verify your administrator has allowed users in your organization to have read/write data permissions in Omnichannel Engagement Hub. T To learn more, see [Provide data access consent](https://review.docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/omnichannel-provision-license#provide-data-access-consent) 
@@ -227,7 +228,7 @@ As an administrator, you must enable Power BI reporting in the Dynamics 365 for 
     > [!div class=mx-imgBorder]
     > ![Customer Service app install - enable pbi](media/cs-analytics-enable-pbi.png "Customer Service app install - enable pbi")
 
-Now, supervisors can configure the dashboards in Dynamics 365. 
+    Supervisors can now configure dashboards. 
  
 ### Step 7: Add Power BI Dashboards to Customer Service Hub 
 Each supervisor must configure their Dynamics 365 for Customer Engagement environment to integrate the Customer Service Analytics dashboard. 
@@ -248,7 +249,7 @@ Each supervisor must configure their Dynamics 365 for Customer Engagement enviro
 5.	Save and close. 
 6.	Repeat Step 3 to step 5 to add Omni-channel Sentiment Insights app. 
 
-Customer Service Analytics dashboard is now available in Dynamics 365.  
+    Customer Service Analytics dashboard is now available in Dynamics 365.
 
 ## Add users to supervisor configuration  
 You must add users in the supervisor configuration to access any supervisor dashboard in Unified Service Desk. To add users in supervisor configuration, follow these steps: 
@@ -259,12 +260,13 @@ You must add users in the supervisor configuration to access any supervisor dash
 4.	On the **Users** section, select **+ Add User record** and enter the user name to add the user.  
 5.	Save and close the configuration.   
 
-Users are added to the supervisor dashboard and when they log in to Omni-channel Engagement Hub on Unified Service Desk, the supervisor dashboard tabs are available. 
+    Users are now added to the supervisor dashboard and when they log in to Omnichannel Engagement Hub on Unified Service Desk, the supervisor dashboard tabs are now available. 
  
 ## Customize Customer Service Analytics 
 You must perform the below steps if you would like to enhance/customize the PowerBI template app for your organization needs.  
  
-Please be aware that you will not be able to get future updates to the PowerBI template app if you customize it and customized solution will not be supported by Microsoft.  
+>![Important]
+> Microsoft does not support customizations made to the Power BI template app and will not provide updates once modifications are made.
 
 ## See Also 
 
