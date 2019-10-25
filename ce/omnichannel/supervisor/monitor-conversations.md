@@ -6,7 +6,7 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 applies_to: 
-ms.date: 06/22/2019
+ms.date: 10/25/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 7390f4e0-2c28-4797-b2c7-62253318000e
@@ -71,29 +71,32 @@ As a supervisor to ensure positive customer outcome, you must identify negative 
 > [!NOTE]
 > If you are unable to see the **Customer Sentiment** column, contact your administrator to enable the sentiment analysis. To learn more, see [Enable sentiment analysis](../administrator/enable-sentiment-analysis.md) 
 
-Real-time sentiment tracking enables you to identify chat and SMS sessions that are going well or that may need monitoring. The sentiments are scored in seven intensities ¬ Three positive, three negative, and one neutral gradients. These sentiment intensities are displayed based on the previous six customer messages. The following table explains the gradients in detail:
+Real-time sentiment tracking enables you to identify chat and SMS sessions that are going well or that may need monitoring. The sentiments are scored in seven intensities ¬ Three positive, three negative, and one neutral gradients. Sentiment intensities are displayed based on the previous six customer messages. 
 
-| Gradient | Description |
-|----------|-------------|
-| ![Sentiment is very negative](../media/supervisor-very-negative.png "Sentiment is very negative")| Customer sentiment is very negative. |
-| ![Sentiment is negative](../media/supervisor-negative.png "Sentiment is negative") | Customer sentiment is negative. |
-| ![Sentiment is slightly negative](../media/supervisor-slightly-negative.png "Sentiment is slightly negative") | Customer sentiment is slightly negative. |
-| ![Sentiment is neutral](../media/supervisor-neutral.png "Sentiment is neutral") | Customer sentiment is neutral. |
-| ![Sentiment is slightly positive](../media/supervisor-slightly-positive.png "Sentiment is slightly positive") | Customer sentiment is slightly positive. |
-| ![Sentiment is positive](../media/supervisor-positive.png "Sentiment is positive") | Customer sentiment is positive. |
-| ![Sentiment is very positive](../media/supervisor-very-positive.png "Sentiment is very positive") | Customer sentiment is very positive. |
-| ![Insufficient chat messages](../media/supervisor-insufficient-chat.png "Insufficient chat messages") | Session has less than six customer messages. | 
+The following explains the gradients in detail:
+
+> [!div class=mx-imgBorder]
+> ![Customer sentiment column](../media/oc-sentiment-chart.png "Customer sentiment column")
 
 The following screen shows an example of sentiment column in Omnichannel Ongoing Conversation dashboard.
 
 > [!div class=mx-imgBorder]
 > ![Customer sentiment column](../media/supervisor-customer-sentiment-column.png "Customer sentiment column")
 
+## Multilanguage Sentiment
 
-### See also
+Multilanguage sentiment is in preview as of October 2019. This will not affect your current real-time experience except you will start to see sentiment scores on some non-english chat sessions.
+
+> [!Note]:
+> Multilanguage sentiment is only available if the admin turns it on
+
+Learn more about [multilanguage sentiment](https://docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/enable-sentiment-analysis).
+
+## See also
 
 [Configure intraday insights dashboard for Unified Service Desk](../administrator/configure-intraday-dashboard-supervisor.md)
 
+[Enable sentiment analysis](../administrator/enable-sentiment-analysis.md)
+
 [Enable supervisors to monitor and assign conversations](../administrator/configure-ongoing-conversations-settings.md)
 
-[Enable sentiment analysis](../administrator/enable-sentiment-analysis.md)
