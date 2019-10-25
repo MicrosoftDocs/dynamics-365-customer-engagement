@@ -87,9 +87,6 @@ The following screen shows an example of sentiment column in Omnichannel Ongoing
 
 Multilanguage sentiment is in preview as of October 2019. This will not affect your current real-time experience except you will start to see sentiment scores on some non-english chat sessions.
 
-> [!Note]:
-> Multilanguage sentiment is only available if the admin turns it on
-
 Learn more about [multilanguage sentiment](https://docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/enable-sentiment-analysis).
 
 ## See also
