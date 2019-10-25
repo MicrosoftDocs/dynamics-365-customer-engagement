@@ -37,7 +37,7 @@ You can access **Quick view control properties** in solution explorer. Under **C
 |**Lookup Field**|Choose one of the lookup fields included in the form.|  
 |**Related entity**|This value depends on the **Lookup Field** you choose. It is usually the primary entity for the 1:N entity relationship for the lookup.<br /><br /> If the entity includes a **Potential Customer** lookup that can accept either an account or contact, in the **Quick View Form** field you can choose a quick view form for both account and contact by changing this value and then choosing another quick view form.|  
 |**Quick View Form**|If the **Related entity** has any quick view forms you can select them here. Otherwise, select **New** to create one.<br /><br /> Select **Edit** to change the selected quick view form.|  
-|**Additional Properties**|You can specify the default rendering style by selecting the check box.|
+|**Additional Properties**|You can specify the default rendering style by selecting the check box.  You can set this to display the quick view form as a card.|
 
 ## See also
 
