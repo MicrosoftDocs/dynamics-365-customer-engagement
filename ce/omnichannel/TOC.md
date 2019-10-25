@@ -140,12 +140,14 @@
 
 ## Supervisor guide
 ### [Introduction to intraday supervisor experiences](supervisor/intro-intraday-insights-dashboard.md)
-#### [View and understand Omnichannel intraday insights](supervisor/intraday-insights-dashboard.md) 
+#### [View and understand Omnichannel intraday insights](supervisor/intraday-insights-dashboard.md)
+#### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)
 #### [View and understand Omnichannel Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
-#### [Monitor conversations](supervisor/monitor-conversations.md)
+
 <!--#### [Assign conversations](supervisor/assign-conversations.md)-->
 ### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
-#### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)
+### [Supervisor Sentiment Monitoring](supervisor/monitor-conversations.md)
+
 
 
 ## System customizer guide
