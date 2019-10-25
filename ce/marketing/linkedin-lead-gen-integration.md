@@ -58,9 +58,6 @@ To use this feature, you must authorize Dynamics 365 Marketing to connect to Lin
 
 Usually it's not required, but you can trigger an optional, on-demand sync of LinkedIn form submissions after authorizing a profile by selecting **Reset synchronization**.
 
-> [!NOTE]
-> LinkedIn campaigns automatically create a **Customer Journey** record. To stop these records from being automatically generated, a system admin must edit the **LinkedIn LeadGen Integration Configurations** entity and change the value for the **Create Journeys for LinkedIn Campaigns** attribute from **Yes** to **No**.
-
 ## Analyze leads and lead performance
 
 When a new lead is synced from LinkedIn, Dynamics 365 can either update an existing lead record if the person is already known, or create a new lead if it's the first contact with this person. New LinkedIn leads appear as **LinkedIn Form Submissions** in Dynamics 365. The information in LinkedIn form submissions consists of the answers given by LinkedIn members when they submitted the forms.
