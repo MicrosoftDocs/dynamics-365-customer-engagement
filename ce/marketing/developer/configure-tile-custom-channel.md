@@ -158,15 +158,15 @@ The XML file has the following elements:
     </tr>
     <tr>
     <td>LookupViewId</td>
-    <td>Lookup view Id for the custom entity. Optional.</td>
+    <td>Lookup view ID for the custom entity. Optional.</td>
     </tr>
     <tr>
     <td>InsightsMainFormId</td>
-    <td>Customer Insights form Id for the custom entity. Optional.</td>
+    <td>The marketing-insights service form ID for the custom entity. Optional.</td>
     </tr>
     <tr>
     <td>QuickViewFormId</td>
-    <td>Quick view form Id for the custom entity. Optional.</td>
+    <td>Quick view form ID for the custom entity. Optional.</td>
     </tr>
     </table>
 

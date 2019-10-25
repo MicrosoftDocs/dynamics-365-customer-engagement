@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/data-export-service
 title: "Data Export Service (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Capabilities, prerequisites, API, and programming of the Data Export Service."
 ms.custom: 

@@ -25,10 +25,11 @@ search.app:
 
 # Sign up for a free trial of Dynamics 365 Marketing
 
-You can sign up for, install, and use a trial version of Dynamics 365 Marketing for free.
+You can sign up for, install, and use a trial version of Dynamics 365 Marketing for free. Trials last for 30 days.
 
 > [!IMPORTANT]
 > - You will receive a trial Dynamics 365 instance together with your Marketing trial. You must run the Marketing trial on a trial instance, and can't install it on a production instance.
+> - You can't convert a trial instance into a production instance.
 > - You can install, at most, one Dynamics 365 Marketing trial per Microsoft 365 tenant.
 > - You can only install the trial if you are located in a country/region where the product is supported. To read the latest list of countries/regions where you can use Dynamics 365 Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
 
