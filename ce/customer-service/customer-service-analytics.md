@@ -62,18 +62,18 @@ The Customer Service Analytics report detail view has three views:
     > [!div class=mx-imgBorder]
     > ![Customer Service Analytics Summary View](media/cs-analytics-summary-view.png "Customer Service Analytics Summary View")
     
-This section contains the following visuals/KPIs:
+    This section contains the following visuals/KPIs:
 
- |Visuals / KPI    |Description                   |
- |-----------------|------------------------------|
- |Incoming cases by channel           |This visual shows the volume of cases created in each of the support channel. |
- |Incoming cases by priority          |This visual shows the volume of active and resolved cases by priority.        |
- |Incoming cases by subject           |This visual shows active and resolved cases by each subject. This considers the last node in the subject hierarchy. |
- |Incoming cases by SLA status        |This visual shows the volume of active and resolved cases by SLA status.      |
- |Case volume trend                   |This visual shows the trend of active and resolved cases based on the time the case was created. |
- |Case by age                         |This visual groups the cases which are currently open and grouped on the number of days/weeks/months they are currently open. |
- |Escalated case trend                |This visual shows the trend of cases escalated over the period selected. |
- |CSAT trend                          |This visual shows the CSAT trend over the period selected.               |
+    |Visuals / KPI    |Description                   |
+    |-----------------|------------------------------|
+    |Incoming cases by channel           |This visual shows the volume of cases created in each of the support channel. |
+    |Incoming cases by priority          |This visual shows the volume of active and resolved cases by priority.        |
+    |Incoming cases by subject           |This visual shows active and resolved cases by each subject. This considers the last node in the subject hierarchy. |
+    |Incoming cases by SLA status        |This visual shows the volume of active and resolved cases by SLA status.      |
+    |Case volume trend                   |This visual shows the trend of active and resolved cases based on the time the case was created. |
+    |Case by age                         |This visual groups the cases which are currently open and grouped on the number of days/weeks/months they are currently open. |
+    |Escalated case trend                |This visual shows the trend of cases escalated over the period selected. |
+    |CSAT trend                          |This visual shows the CSAT trend over the period selected.               |
 
 
 2.	**Agent/Queue view**
@@ -82,17 +82,17 @@ This section contains the following visuals/KPIs:
     > [!div class=mx-imgBorder]
     > ![Customer Service Analytics Agent/Queue view](media/cs-analytics-agent-queue-view.png "Customer Service analytics Agent/Queue  view")
     
- This section contains the following visuals/KPIs:
+    This section contains the following visuals/KPIs:
  
- |Visuals / KPI                               |Description                                                            |
- |------------------------------------------|-----------------------------------------------------------------------|
- |Agents with most cases                    |This visual shows the top agents who has handled most cases along with the states of those cases.|
- |Agents with most open activities          |This visual shows the agents with most open activities. This helps supervisor to help agents clear the backlog.|
- |Agents with highest avg. handle time      |This visual shows the agents with most average handle time.|
- |Agents with highest CSAT                  |This visual shows the top agents with high CSAT. |
- |Agents with lowest CSAT                   |This visual shows the agents with low CSAT. Supervisors can use this information to train agents and improve overall customer satisfaction.|
- |Key influences for CSAT                   |The key influencers visual helps you understand the factors that drive CSAT metric. It analyzes your data, ranks the factors that matter, and displays them as key influencers. |
- |Open activities by agent                  |This visual shows the number of open activities by agent and type of activity.|
+    |Visuals / KPI                               |Description                                                            |
+    |------------------------------------------|-----------------------------------------------------------------------|
+    |Agents with most cases                    |This visual shows the top agents who has handled most cases along with the states of those cases.|
+    |Agents with most open activities          |This visual shows the agents with most open activities. This helps supervisor to help agents clear the backlog.|
+    |Agents with highest avg. handle time      |This visual shows the agents with most average handle time.|
+    |Agents with highest CSAT                  |This visual shows the top agents with high CSAT. |
+    |Agents with lowest CSAT                   |This visual shows the agents with low CSAT. Supervisors can use this information to train agents and improve overall customer satisfaction.|
+    |Key influences for CSAT                   |The key influencers visual helps you understand the factors that drive CSAT metric. It analyzes your data, ranks the factors that matter, and displays them as key influencers. |
+    |Open activities by agent                  |This visual shows the number of open activities by agent and type of activity.|
  
  3.	**Case/Activity list view** 
      This view provides key KPIs and metrics across customer service with an ability for supervisors to filter the view based on filters:
@@ -113,17 +113,17 @@ You must perform the following steps to configure the historical customer servic
 
 [Step 1: Review the prerequisites](#step-1-prerequisites )
 
-Step 2: Install Dynamics 365 Customer Service Analytics app
+[Step 2: Install Dynamics 365 Customer Service Analytics app](#step-2-install-dynamics-365-customer-service-analytics-app )
 
-Step 3: Connect Dynamics 365 organization to Customer Service Analytics app
+[Step 3: Connect Dynamics 365 organization to Customer Service Analytics app](#step-3-connect-dynamics-365-organization-to-customer-service-analytics-app)
 
-Step 4: Configure refresh frequency on Power BI Dataset
+[Step 4: Configure refresh frequency on Power BI Dataset](#step-4-configure-refresh-frequency-on-power-bi-dataset)
 
-Step 5: Publish application within your organization
+[Step 5: Publish application within your organization](#step-5-publish-application-within-your-organization )
 
-Step 6: Enable Power BI reporting in Dynamics 365 for Customer Engagement 
+[Step 6: Enable Power BI reporting in Dynamics 365 for Customer Engagement](#step-6-enable-power-bi-reporting-in-dynamics-365-for-customer-engagement ) 
 
-Step 7: Add Power BI Dashboard to Customer Service Hub 
+[Step 7: Add Power BI Dashboard to Customer Service Hub](#step-7-add-power-bi-dashboards-to-customer-service-hub ) 
 
 ### Step 1: Prerequisites 
 
@@ -144,7 +144,7 @@ Review the following prerequisites before configuring the supervisor dashboard:
     
 Now you can proceed to configure the app by connecting your Dynamics 365 organization. 
 
-## Step 3: Connect Dynamics 365 organization to Customer Service Analytics app
+### Step 3: Connect Dynamics 365 organization to Customer Service Analytics app
  
 1.	On the **Dynamics 365 Customer Service Analytics** app configuration options page, select **Connect data**. 
     
@@ -162,62 +162,62 @@ Now you can proceed to configure the app by connecting your Dynamics 365 organiz
     c.	Find the OData URL under **Service Root URL**. 
     
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install - odata url](../media/cs-analytics-odata-url.png "Customer Service app install - odata url") 
+    > ![Customer Service app install - odata url](media/cs-analytics-odata-url.png "Customer Service app install - odata url") 
 
 4.	Select **Authentication method** as **OAuth2** and **Privacy level** as **Organizational**. Select **Sign in**. 
     
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install](../media/cs-analytics-install.png "Customer Service app install") 
+    > ![Customer Service app install](media/cs-analytics-install.png "Customer Service app install") 
     
 5.	Enter your Dynamics 365 organization credentials and press **Enter**. 
 
 When you are successfully signed in, the existing report will be updated with the data from your organization. 
 Now configure the refresh frequency for the reports and dashboards. 
 
-## Step 4: Configure refresh frequency on Power BI Dataset 
+### Step 4: Configure refresh frequency on Power BI Dataset 
 After you connect Dynamics 365 Customer Service Analytics app with Dynamics 365 organization, you need to configure the refresh frequency on the Power BI dataset to refresh the report and dashboards properly. 
 
 1.	Sign into Power BI app as administrator
 2.	Go to the **Dynamics 365 Customer Service Analytics** app **workspace**
     
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install - refresh frequency](../media/cs-analytics-refresh-frequency.png "Customer Service app install - refresh frequency")
+    > ![Customer Service app install - refresh frequency](media/cs-analytics-refresh-frequency.png "Customer Service app install - refresh frequency")
     
  3.	Go to **Datasets** tab and select **Settings**
      
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install - data settings](../media/cs-analytics-data-settings.png "Customer Service app install - data settings")
+    > ![Customer Service app install - data settings](media/cs-analytics-data-settings.png "Customer Service app install - data settings")
  
 4.	Turn **on** the **Scheduled refresh**
      
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install - Scheduled refresh](../media/cs-analytics-schedule-refresh.png "Customer Service app install - Scheduled refresh")
+    > ![Customer Service app install - Scheduled refresh](media/cs-analytics-schedule-refresh.png "Customer Service app install - Scheduled refresh")
 
 Now, publish the application in your organization. 
 
  > [!NOTE]
  > We recommend you configure the refresh frequency to **Daily**. 
 
-## Step 5: Publish application within your organization 
+### Step 5: Publish application within your organization 
 You must share the configured application with your entire organization so supervisors can view **Customer Service Analytics** dashboards and reports with their own **Power BI Pro** accounts. 
 
 1.	On the App workspace, select **Update app**
      
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install - Publish application](../media/cs-analytics-publish-application.png "Customer Service app install - Publish application")
+    > ![Customer Service app install - Publish application](media/cs-analytics-publish-application.png "Customer Service app install - Publish application")
     
 2.	In the Update app wizard, go to the **Access** tab 
 3.	Choose **Entire organization** and select **Update app**
      
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install - application](../media/cs-analytics-update-app.png "Customer Service app install - application")
+    > ![Customer Service app install - application](media/cs-analytics-update-app.png "Customer Service app install - application")
 
 The app is now available to install for all individuals in your organization. 
  
 > [!NOTE]
 > Verify your administrator has allowed users in your organization to have read/write data permissions in Omnichannel Engagement Hub. T To learn more, see [Provide data access consent](https://review.docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/omnichannel-provision-license#provide-data-access-consent) 
 
-## Step 6: Enable Power BI reporting in Dynamics 365 for Customer Engagement 
+### Step 6: Enable Power BI reporting in Dynamics 365 for Customer Engagement 
 As an administrator, you must enable Power BI reporting in the Dynamics 365 for Customer Engagement organization for supervisors to view the dashboards in the Omni-channel Administration app. 
 
 1.	**Sign In** to Dynamics 365 for Customer Engagement and go to **Settings** 
@@ -225,22 +225,22 @@ As an administrator, you must enable Power BI reporting in the Dynamics 365 for 
 3.	Go to the **Reporting** tab and enable **Allow Power BI visualization embedding**
      
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install - enable pbi](../media/cs-analytics-enable-pbi.png "Customer Service app install - enable pbi")
+    > ![Customer Service app install - enable pbi](media/cs-analytics-enable-pbi.png "Customer Service app install - enable pbi")
 
 Now, supervisors can configure the dashboards in Dynamics 365. 
  
-## Step 7: Add Power BI Dashboards to Customer Service Hub 
+### Step 7: Add Power BI Dashboards to Customer Service Hub 
 Each supervisor must configure their Dynamics 365 for Customer Engagement environment to integrate the Customer Service Analytics dashboard. 
 
 1.	Sign in to Dynamics 365 for Customer Engagement and open the **Customer Service Hub** app 
      
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install](../media/cs-analytics-cs-hub.png "Customer Service app install")
+    > ![Customer Service app install](media/cs-analytics-cs-hub.png "Customer Service app install")
 
 2.	Open **Supervisor Dashboards**
      
     > [!div class=mx-imgBorder]
-    > ![Customer Service app install](../media/cs-analytics-supervisor-dashboard.png "Customer Service app install")
+    > ![Customer Service app install](media/cs-analytics-supervisor-dashboard.png "Customer Service app install")
 
 3.	Select **New, Power BI Dashboard**
  
