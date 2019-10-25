@@ -123,13 +123,13 @@ Given below is the adaptive card JSON for displaying knowledge article recommend
     "version": "1.0"
 }
 ```
-The [code sample]() uses a Web API query to search <xref href="Microsoft.Dynamics.CRM.kbarticle?text=Knowledge Base Article entity" /> in your Dynamics 365 instance. You can modify this query to use <xref href="Microsoft.Dynamics.CRM.incident?text=Incident(case) entity" /> if you wish to search incidents.
+The [code sample](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot) uses a Web API query to search <xref href="Microsoft.Dynamics.CRM.kbarticle?text=Knowledge Base Article entity" /> in your Dynamics 365 instance. You can modify this query to use <xref href="Microsoft.Dynamics.CRM.incident?text=Incident(case) entity" /> if you wish to search incidents.
 
 ### Smart assist using similar cases
 
 > [!NOTE]
 > This is not an Out-of-the-box feature.<br />
-> This is a standalone adaptive card JSON that can be used to build business logic for displaying similar cases in adaptive cards. The [Build a custom smart assist bot]() code sample does not cover this scenario.
+> This is a standalone adaptive card JSON that can be used to build business logic for displaying similar cases in adaptive cards. The [Build a custom smart assist bot](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot) code sample does not cover this scenario.
 
 Based on the context and the information extracted from an ongoing conversation, Omnichannel for Customer Service can populate the smart assist adaptive cards with similar case recommendations, which agents can refer to for information on how similar cases were resolved.
 
@@ -207,7 +207,7 @@ Given below is the adaptive card JSON for displaying similar case recommendation
 
 > [!NOTE]
 > This is not an Out-of-the-box feature.<br />
-> This is a standalone adaptive card JSON that can be used to build business logic for displaying cross sell recommendations in adaptive cards. The [Build a custom smart assist bot]() code sample does not cover this scenario.
+> This is a standalone adaptive card JSON that can be used to build business logic for displaying cross sell recommendations in adaptive cards. The [Build a custom smart assist bot](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot) code sample does not cover this scenario.
 
 Smart assist adaptive cards can also contain recommendations for the next case.
 
@@ -386,7 +386,7 @@ To use a custom action, replace `MacroName` and `MacroParameters` with `CustomAc
 
 ## Sample code
 
-You can find the entire code sample here: [Smart Assist for Bots](). You will find information on how to setup and run the sample in the sample [README]() file.
+You can find the entire code sample here: [Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot). You will find information on how to setup and run the sample in the sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/sushant-oc/customer-service/omnichannel/smart-assist-bot/README.md) file.
 
 The sample code implements two functionalities, one that is Common Data Service specific and other is generic functionality.
 
