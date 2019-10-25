@@ -27,13 +27,13 @@ The Flow doesn't update automatically. Due to this issue, you can't create an en
 
 ### Resolution:
 
-To workaround the issue, you need to reset Flow. To reset the Flow, follow these steps.
+To workaround the issue, you need to reset the Flow. To reset the Flow, follow these steps.
 
 1. Sign in to the Omnichannel Administration app.
 
-2. Select **Work Streams** under **Work Distribution Management**.
+2. Select **Entity Records** under **Channels**.
 
-3. Select the workstream for which you want to update the flow.
+3. Select the **+ New** to create a new entity record channel.
 
 4. Select **Flow** menu in the command bar, and then select **See your flows**. Microsoft Flow opens in a new browser window.
 
@@ -51,9 +51,12 @@ To workaround the issue, you need to reset Flow. To reset the Flow, follow these
 
 11. Type **msdyn_ResetWorkDistributionFlow** in the **Action Name** field.
 
+    > [!Note]
+    > Don't change the **ShouldMaintainCustomizations** value from **No**.
+
 12. Select **Save**.
 
-13. Select back arrow button in the Flow page. 
+13. Select back arrow button in the Flow page.
 
     > [!Note]
     > Do not select browser window back button.
@@ -64,7 +67,7 @@ To workaround the issue, you need to reset Flow. To reset the Flow, follow these
 
 After you reset the flow, go to Omnichannel Administration, where you saw the error message. Select **OK**, and then save the record. The entity record channel is saved.
 
-Even though the Flow is reset, it doesn't update the name if it is **Case Work Distribution Flow**. 
+Even though the Flow is reset, it doesn't update the name if it is **Case Work Distribution Flow**.
 
 To rename the Flow, select **Edit**, type the name of the flow as **Entity Record Distribution Flow** in the **Flow name** field, and select **Save**.
 
