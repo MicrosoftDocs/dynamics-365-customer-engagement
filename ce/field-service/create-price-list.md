@@ -144,7 +144,19 @@ Allows you to round service duration and choose the granularity. As an example, 
 
 When creating a work order, you must enter a price list. The price list can be entered manually, or automatically populated based on the price list of the billing account or work order type when chosen.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/price-list-work-order.png)
+
 When a price list is added to a work order, it is automatically propagated to all work order products and services; however the price list of an individual work order product or service can be manually overridden as needed.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/price-list-service-used.png)
+
+In this example, the field technician set the Work Order Service **Line Status** to *Used* from his or her mobile app, and the dispatcher can see the pricing in the Duration & Sale Amount section.
+
+With a **Duration to Bill** of 1 hour, the subtotal is $460, because of a $580 hourly rate as derived from the price list item **Amount**, and factoring 15 free minutes from the **Minimum Charge Duration** and a $25 surcharge from the **Minimum Charge Amount**.
+
+indicating the service had a price of $580 per hour based on the price list item. We set the Line Status 
   
 ## Additional notes
 
