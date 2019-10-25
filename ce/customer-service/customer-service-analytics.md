@@ -262,9 +262,9 @@ You must add users in the supervisor configuration to access any supervisor dash
  
 ## Customize Customer Service Analytics 
 You must perform the below steps if you would like to enhance/customize the PowerBI template app for your organization needs.  
-
+  
 > [!IMPORTANT]
-> Microsoft does not support customizations made to the Power BI template app and will not provide updates once modifications are made.
+>  Microsoft does not support customizations made to the Power BI template app and will not provide updates once modifications are made. 
 
 ## See Also 
 
