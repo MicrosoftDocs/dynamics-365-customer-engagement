@@ -43,7 +43,7 @@ Customer can elect to download and/or email a copy of their chat transcript conv
     > [!div class=mx-imgBorder]
     > ![Chat Transcript Prompt](../media/oc-chat-transcript-prompt-screen.png "Chat Transcript Prompt")
 
-## Prerequisite
+## Prerequisites
 
 Admins will want to confirm they have setup a mailbox to send emails from before enabling email notifications.  
 
