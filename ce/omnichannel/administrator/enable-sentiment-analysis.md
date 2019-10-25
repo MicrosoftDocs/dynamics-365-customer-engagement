@@ -41,12 +41,12 @@ Enable sentiment analysis for supervisors so they can view the real-time sentime
     b. Enable **Yes**
 
     > [!div class=mx-imgBorder]
-    > ![Enable multilanguage sentiment](../media/oc-sentiment-enable-multilanguage.png "Enable multilanguage sentiment") 
+    > ![Enable multilanguage sentiment](media/oc-sentiment-enable-multilanguage.png "Enable multilanguage sentiment") 
 
     This enables scoring of conversations in 40+ additional languages:
 
     > [!div class=mx-imgBorder]
-    > ![Enable multilanguage sentiment](../media/oc-sentiment-languages.png "Enable multilanguage sentiment") 
+    > ![Enable multilanguage sentiment](media/oc-sentiment-languages.png "Enable multilanguage sentiment") 
 
 5. Save and close
     
