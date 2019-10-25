@@ -29,16 +29,16 @@ The following is an example of the Customer Service Analytics overview dashb
   
 This section consists of the following KPIs.  
 
-| KPI                        | Description                                                       |
-|----------------------------|-------------------------------------------------------------------|
-|Total cases                 |Number of cases created to support customers.                      |
-|Active Cases                |Number of cases which are current open.                            |
-|Resolved cases              |Number of cases which have been closed by agent.                   |
-|Escalated Cases %           |Percentages of cases which have been escalated.                    |
-|Average Handle Time (mins)  |Average length of time taken by an agent to resolve the case.      |
-|Avg. CSAT                   |Average customer satisfaction score based on the survey submitted by the customer. |
-|Case age                    |Average time the case was in open state.                           |
-|Total Activities            |Total activities which are created by agents                       |
+    | KPI                        | Description                                                       |
+    |----------------------------|-------------------------------------------------------------------|
+    |Total cases                 |Number of cases created to support customers.                      |
+    |Active Cases                |Number of cases which are current open.                            |
+    |Resolved cases              |Number of cases which have been closed by agent.                   |
+    |Escalated Cases %           |Percentages of cases which have been escalated.                    |
+    |Average Handle Time (mins)  |Average length of time taken by an agent to resolve the case.      |
+    |Avg. CSAT                   |Average customer satisfaction score based on the survey submitted by the customer. |
+    |Case age                    |Average time the case was in open state.                           |
+    |Total Activities            |Total activities which are created by agents                       |
 
 <p>
 
@@ -64,16 +64,16 @@ The Customer Service Analytics report detail view has three views:
     
 This section contains the following visuals/KPIs:
 
-|Visuals / KPI    |Description                   |
-|-----------------|------------------------------|
-|Incoming cases by channel           |This visual shows the volume of cases created in each of the support channel. |
-|Incoming cases by priority          |This visual shows the volume of active and resolved cases by priority.        |
-|Incoming cases by subject           |This visual shows active and resolved cases by each subject. This considers the last node in the subject hierarchy. |
-|Incoming cases by SLA status        |This visual shows the volume of active and resolved cases by SLA status.      |
-|Case volume trend                   |This visual shows the trend of active and resolved cases based on the time the case was created. |
-|Case by age                         |This visual groups the cases which are currently open and grouped on the number of days/weeks/months they are currently open. |
-|Escalated case trend                |This visual shows the trend of cases escalated over the period selected. |
-|CSAT trend                          |This visual shows the CSAT trend over the period selected.               |
+ |Visuals / KPI    |Description                   |
+ |-----------------|------------------------------|
+ |Incoming cases by channel           |This visual shows the volume of cases created in each of the support channel. |
+ |Incoming cases by priority          |This visual shows the volume of active and resolved cases by priority.        |
+ |Incoming cases by subject           |This visual shows active and resolved cases by each subject. This considers the last node in the subject hierarchy. |
+ |Incoming cases by SLA status        |This visual shows the volume of active and resolved cases by SLA status.      |
+ |Case volume trend                   |This visual shows the trend of active and resolved cases based on the time the case was created. |
+ |Case by age                         |This visual groups the cases which are currently open and grouped on the number of days/weeks/months they are currently open. |
+ |Escalated case trend                |This visual shows the trend of cases escalated over the period selected. |
+ |CSAT trend                          |This visual shows the CSAT trend over the period selected.               |
 
 
 2.	**Agent/Queue view**
@@ -110,7 +110,8 @@ Select: Queue, Agent, Priority, Subject or Date as required, and information is 
 
 ## Configure Customer Service Analytics dashboard
 You must perform the following steps to configure the historical customer service analytics dashboards to display in customer service Hub app: 
-Step 1: Review the prerequisites
+
+[Step 1: Review the prerequisites](#step-1-prerequisites )
 
 Step 2: Install Dynamics 365 Customer Service Analytics app
 
@@ -124,13 +125,14 @@ Step 6: Enable Power BI reporting in Dynamics 365 for Customer Engagement
 
 Step 7: Add Power BI Dashboard to Customer Service Hub 
 
-## Step 1: Prerequisites 
+### Step 1: Prerequisites 
 
 Review the following prerequisites before configuring the supervisor dashboard: 
-•	You have administrative privileges for Dynamics 365 and Power BI. 
-•	You have a Power BI Pro license for all supervisors. 
 
-## Step 2: Install Dynamics 365 Customer Service Analytics app 
+- You have administrative privileges for Dynamics 365 and Power BI. 
+- You have a Power BI Pro license for all supervisors. 
+
+### Step 2: Install Dynamics 365 Customer Service Analytics app 
 
 1.	Sign in to [Power BI](https://app.powerbi.com/) app as an administrator. 
 2.	As a Power BI admin, browse to this link: [http://aka.ms/cs-insights](http://aka.ms/cs-insights) 
