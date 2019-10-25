@@ -150,7 +150,7 @@ Once booked, you'll see the resource's availability decrease and the fulfilled d
 
 
 > [!Note]
-> This scenario scheduled a requirement without a related work order. To schedule a multi-day work order with the schedule assistant, you'll need to either 1) manually add a related requirement to a work order and delete or disregard the automatically created one or 2) manually create requirement detail records for the auto-created requirement. This is because you need to set an allocation method before saving and the requirements that are automatically created by work orders have an allocation method of **None** by default. 
+> This scenario scheduled a requirement without a related work order. To schedule a multi-day work order with the schedule assistant, you'll need to either 1) manually add a related requirement with an allocation method to a work order and delete or disregard the automatically created one or 2) manually create requirement detail records via Specify Pattern for the auto-created requirement. This is because you need to set an allocation method before saving and the requirements that are automatically created by work orders have an allocation method of **None** by default. 
 
 
 ## Scenario 3: Schedule a multi-day requirement to multiple resources
