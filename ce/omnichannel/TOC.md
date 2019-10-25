@@ -31,6 +31,7 @@
 ### Channels
 #### [Configure a chat channel](administrator/set-up-chat-widget.md)
 ##### [Add a chat widget](administrator/add-chat-widget.md)
+##### [Download/email chat transcript](administrator/download-email-chat-transcripts.md)
 ##### [Configure agent display name](administrator/agent-display-name.md)
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
