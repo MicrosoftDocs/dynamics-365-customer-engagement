@@ -59,7 +59,7 @@ The Customer Service Analytics report detail view has three views:
     This view provides key KPIs and metrics across customer service with an ability for supervisors to filter the view based on filters:
 
     > [!div class=mx-imgBorder]
-    > ![Customer Service Analytics Summary View](../media/cs-analytics-summary-view.png "Customer Service analytics summary view")
+    > ![Customer Service Analytics Summary View](../../../media/cs-analytics-summary-view.png "Customer Service analytics summary view")
     
 This section contains the following visuals/KPIs:
 
