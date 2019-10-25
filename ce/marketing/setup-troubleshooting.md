@@ -57,7 +57,7 @@ Dynamics 365 Marketing is licensed per instance, with each instance priced accor
 - **How can I learn more about Dynamics 365 Marketing licensing?**
   - For an overview, see [Purchase and set up Dynamics 365 Marketing](purchase-setup.md) 
   - For complete terms that apply to subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
-  - For trial and previews, see [Dynamics 365 Marketing limits for trials and previews](trial-preview-limits.md).
+  - For trials, see [Dynamics 365 Marketing limits for trials](trial-preview-limits.md).
   - Check the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
 <a name="incompatible-platform"></a>
