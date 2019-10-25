@@ -79,7 +79,7 @@ This section contains the following visuals/KPIs:
     This view provides key KPIs and metrics across customer service with an ability for supervisors to filter the view based on filters:
 
     > [!div class=mx-imgBorder]
-    > ![Customer Service Analytics Agent/Queue view](../media/cs-analytics-agent-queue-view.png "Customer Service analytics Agent/Queue  view")
+    > ![Customer Service Analytics Agent/Queue view](../../media/cs-analytics-agent-queue-view.png "Customer Service analytics Agent/Queue  view")
     
  This section contains the following visuals/KPIs:
  
