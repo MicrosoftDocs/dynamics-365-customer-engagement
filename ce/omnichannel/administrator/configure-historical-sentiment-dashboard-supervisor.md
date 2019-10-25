@@ -24,7 +24,7 @@ Customer service managers or supervisors are responsible for managing agents who
 
 As an administrator, you must configure the Omnichannel Insights to display Omnichannel Chat and Sentiment Analysis dashboards in Omnichannel for Customer Service app. You must perform the following steps to configure:
 
-[Step 1: Review the prerequisites](#step-1-review-the-prerequisites)
+[Step 1: Review prerequisites](#step-1-review-prerequisites)
 
 [Step 2: Install Omnichannel Insights for Dynamics 365 app](#step-2-install-omnichannel-insights-for-dynamics-365-app)
 
