@@ -259,7 +259,7 @@ Where:
 - Conditional expressions must be contained in parentheses.
 - Conditional expressions start with an **&lt;operator&gt;**, which must be one of the values listed in the following table. It establishes how the first value is to be compared to the second value.
 - *&lt;value1&gt;* and *&lt;value2&gt;* are values to be compared by the conditional expression, and each can be either dynamic or constant values. If either *&lt;value1&gt;* or *&lt;value2&gt;* is a constant string value (not a number or expression), then it must be surrounded with single quotes ('); for real numbers, use a period (.) as a decimal delineator. 
-- If *&lt;value1&gt;* is a Boolean field (also known as a *two options* field in Dynamics 365), then don't include an *&lt;operator&gt;*, *&lt;value2&gt;*, or parentheses. Boolean fields always have a value of either true or false, so you should just use them directly to establish the condition, such as `{{#if contact.is_vip}}`.
+- If *&lt;value1&gt;* is a Boolean field (also known as a *two options* field in Dynamics 365), then don't include an *&lt;operator&gt;*, *&lt;value2&gt;*, or the parentheses. Boolean fields always have a value of either true or false, so you should just use them directly to establish the condition, such as: `{{#if contact.is_vip}}`.
 - `{{else}}` and `{{else if … }}` clauses are optional.
 - The conditional block must always close with `{{/if}}`.
 
@@ -284,7 +284,7 @@ For example, this conditional statement could be used to establish the language 
 {{/if}} {{contact.firstname}}!</p>
 ```
 
-Here's an example of a conditional statement based on a Boolean (two options) field called `is_vip`; note that because Boolean fields always return a value of true or false, so no operator, comparison value, or parentheses are included in the condition:
+Here's an example of a conditional statement based on a Boolean (two options) field called `is_vip`; note that because Boolean fields always return a value of true or false, no operator, comparison value, or parentheses are included in the condition:
 
  ```Handlebars
 <!-- {{#if contact.is_vip}} -->
