@@ -55,7 +55,7 @@ Use Vector Format (SVG) web resources for any icon presented in the application.
   
 <a name="BKMK_ReferenceFromWebPageWebResource"></a>   
 ## Reference an image web resource from a webpage web resource  
- All web resources can use relative URLs to reference each other. In the following example, for the webpage (HTML) web resource new_/content/contentpage.htm to reference the image web resource new_/Images/image1.png, add the following HTML code to new_/content/contentpage.htm:  
+ All web resources can use relative URLs to reference each other. In the following example, for the webpage (HTML) web resource named "new_/content/contentpage.htm" to reference the image web resource named "new_/Images/image1.png", add the following HTML image tag to the webpage (HTML) web resource named "new_/content/contentpage.htm":  
   
 ```html  
 <img src="../Images/image1.png" />  
