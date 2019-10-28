@@ -1,4 +1,5 @@
 ---
+redirect_url: teams-collaboration
 title: "Work with Teams integration| MicrosoftDocs"
 ms.custom: 
 description: "Work with Teams integration"

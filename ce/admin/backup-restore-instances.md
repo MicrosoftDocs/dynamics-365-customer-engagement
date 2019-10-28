@@ -1,8 +1,8 @@
 ---
-title: "Backup and restore instances  | MicrosoftDocs"
+title: "Back up and restore instances  | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 10/01/2019
+ms.date: 10/17/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -20,7 +20,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Backup and restore instances
+# Back up and restore instances
 
 Protecting your data in model-driven apps in Dynamics 365, such as Dynamics 365 Sales and Customer Service, and providing continuous availability of service is important for you and for us. You have multiple options for backing up and restoring your instances.   
 
@@ -52,7 +52,7 @@ Protecting your data in model-driven apps in Dynamics 365, such as Dynamics 365 
   
 - System backups are identified as created by **System** on the **Manage backups** page.  
   
-  ![Backup & Restore tab in the Dynamics 365 Administration Center](../admin/media/backup-and-restore-tab.png "Backup & Restore tab in the Dynamics 365 Administration Center")  
+  ![Back up & Restore tab in the Dynamics 365 Administration Center](../admin/media/backup-and-restore-tab.png "Back up & Restore tab in the Dynamics 365 Administration Center")  
   
 ### See your system backups  
   

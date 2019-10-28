@@ -8,7 +8,7 @@
 ### [Switch instance](switch-instance.md)
 ### [Copy instance](copy-instance.md)
 ### [Delete instance](delete-instance.md)
-### [Backup and restore instances](backup-restore-instances.md)
+### [Back up and restore instances](backup-restore-instances.md)
 ### [Support instances](support-instance.md) 
 ### [Move instance](move-instance-tenant.md)
 ### [Edit properties of an instance](edit-properties-instance.md)
