@@ -78,6 +78,7 @@
 <!--#### [Enable supervisors to monitor and assign conversations](administrator/configure-ongoing-conversations-settings.md)-->
 #### [Enable sentiment analysis](administrator/enable-sentiment-analysis.md)
 #### [Configure Omnichannel Insights dashboards](administrator/configure-historical-sentiment-dashboard-supervisor.md)
+#### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)
 
 ### Settings
 #### [Create and manage operating hours](administrator/create-operating-hours.md)
@@ -142,7 +143,6 @@
 ## Supervisor guide
 ### [Introduction to intraday supervisor experiences](supervisor/intro-intraday-insights-dashboard.md)
 #### [View and understand Omnichannel intraday insights](supervisor/intraday-insights-dashboard.md)
-#### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)
 #### [View and understand Omnichannel Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
 
 <!--#### [Assign conversations](supervisor/assign-conversations.md)-->
