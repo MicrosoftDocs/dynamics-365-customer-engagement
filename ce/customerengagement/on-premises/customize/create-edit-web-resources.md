@@ -83,7 +83,7 @@ Web resources are typically used by developers to extend an app using files that
 
 <a name="BKMK_CreateAndEditFormWebResources"></a>   
 ## Create and edit a web resource on a form
-You can add or edit web resources on a form to make it more appealing or useful to users. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]
+You can add or edit web resources on a form to make it more appealing or useful to users. Make sure that you have the System Adminsitrator role or equivalent permissions.
 
 > [!NOTE]
 >  You can’t include a web resource in a form header or footer.  
