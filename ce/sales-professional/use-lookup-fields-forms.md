@@ -42,6 +42,14 @@ Lookups are classified into the following:
 
 [More information on fields and field data types](../customize/types-of-fields.md)
 
+### Browsing lookup
+
+To browse a lookup, select the **magnifying glass icon**. The full list of items will be presented within in the dropdown.
+
+### Searching a lookup
+
+To search a lookup, select the **textbox** and type your search criteria. If recent records are enabled for your lookup, they will be displayed before typing.
+
 ### Create a new record if you don’t find an existing record
 
 If you do not find a record, select **New** in the lookup area to create a new record.
