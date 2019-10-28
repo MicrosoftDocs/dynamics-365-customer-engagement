@@ -74,7 +74,7 @@ A typical lead-scoring model would increase a lead's score slightly in response 
 
 You can create as many scoring models as you want. If you have more than one model, all leads will be scored according to each model and you'll be able to see the score and grade for each of them.
 
-To view, edit, and create lead-scoring models, go to **Marketing** > **Lead management** > **Lead scoring models**. This opens a standard list view, where you can create, delete, search, sort, or filter items in the list. Select any item in the list to open it, or select **New** to create a new one.
+To view, edit, and create lead-scoring models, go to **Marketing** > **Lead management** > **Scoring models**. This opens a standard list view, where you can create, delete, search, sort, or filter items in the list. Select any item in the list to open it, or select **New** to create a new one.
 
 ![The lead-scoring model designer](media/lead-score-designer.png "The lead-scoring model designer")
 
@@ -178,7 +178,7 @@ Here are a few more examples of how to use hops to create useful conditions:
 
 To find all the leads that a selected model has scored:
 
-1. Go to **Marketing** > **Lead management** > **Lead scoring models** to open a list of models and then open the one you want to inspect.
+1. Go to **Marketing** > **Lead management** > **Scoring models** to open a list of models and then open the one you want to inspect.
 
 1. Select the **Related** tab to open a drop-down list of related entities and then select **Lead scores** from the list.
 

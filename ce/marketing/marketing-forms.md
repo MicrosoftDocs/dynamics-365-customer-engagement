@@ -198,7 +198,7 @@ As with marketing pages themselves, marketing forms are also based on templates,
 
 Dynamics 365 Marketing comes with a collection of sample form templates, and you can also save your own templates, which you might do to establish your own visual identity and quickly create new forms that conform to it.
 
-You can view, edit, and create form templates by going to **Marketing** > **Templates** > **Marketing Form Templates**. The process for creating a new template is nearly the same as creating a new form.
+You can view, edit, and create form templates by going to **Marketing** > **Marketing templates** > **Form templates**. The process for creating a new template is nearly the same as creating a new form.
 
 ## Add a form to a marketing page
 
