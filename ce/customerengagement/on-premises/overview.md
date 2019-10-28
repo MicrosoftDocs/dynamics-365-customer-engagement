@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Dynamics 365 Customer Engagement (on-premises) Help | MicrosoftDocs"
-description: "Welcome to the Dynamics 365 Customer Engagement (on-premises) Help, version 9.x."
+description: "Welcome to the Dynamics 365 Customer Engagement (on-premises) Help, version 9."
 ms.custom: on-premises
 ms.date: 10/1/2019
 ms.reviewer: "kvivek"
@@ -10,7 +10,7 @@ author: "kvivek"
 ms.author: "KumarVivek"
 manager: "annbe"
 ---
-# Microsoft Dynamics 365 Customer Engagement (on-premises) Help, version 9.x
+# Microsoft Dynamics 365 Customer Engagement (on-premises) Help, version 9
 
 Welcome to the Dynamics 365 Customer Engagement (on-premises) Help!
 
