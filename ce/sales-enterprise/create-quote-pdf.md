@@ -30,7 +30,7 @@ Your system administrator can choose the entities on which PDF generation is ena
 1.	Open the entity record for which you want to create a PDF document. For example, open a quote record.
 
 
-<!--from editor: In the following sentence, where it says "based on which you want," the "which" is unclear. Do you mean "which entity"? -->
+<!--from editor: In the following sentence, where it says "a template based on which you want," the "which" is unclear. Do you mean "which entity"? Or do you mean "a template on which you want to create the PDF"? -->
 
 
 2.	On the command bar, select **Create PDF** and then select a template based on which you want to create the PDF. 
@@ -38,7 +38,7 @@ Your system administrator can choose the entities on which PDF generation is ena
     ![A quote form showing the Create PDF button on the command bar](media/create-pdf.png "A quote form showing the Create PDF button on the command bar")
 
 
-    <!--from editor: There aren't as many entities listed here as on line 22. Is that correct? And the entity names here are singular, but in line 22 they are plural. (For example, Opportunities, Opportunity.) Should they be the same? -->
+    <!--from editor: There aren't as many entities listed below as on line 22. Is that correct? And the entity names here are singular, but in line 22 they are plural. (For example, Opportunities, Opportunity.) Should they be the same? -->
 
 
     > [!IMPORTANT]
