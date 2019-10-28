@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Enable sentiment analysis for supervisors so they can view the real-time sentiment of conversations on **Omnichannel Ongoing Conversation** dashboard in **Omnichannel for Customer Service**. You can enable or disable real-time sentiment through **Sentiment Analysis Settings** in **Omnichannel Administration**.
+Enable sentiment analysis for supervisors so they can view the real-time sentiment of conversations in the **Omnichannel Ongoing Conversation** dashboard in **Omnichannel for Customer Service**. You can enable or disable real-time sentiment analysis through **Sentiment Analysis Settings** in **Omnichannel Administration**.
 
 > [!NOTE]
 > Sentiment analysis is enabled by default.
@@ -29,16 +29,16 @@ Enable sentiment analysis for supervisors so they can view the real-time sentime
     > [!div class=mx-imgBorder]
     > ![Select sentiment analysis](../media/supervisor-admin-activat-sentiment-analysis.png "Select sentiment analysis")
 
-3. On the **General** tab, select **Enable** as **Yes**
+3. On the **General** tab, select **Enabled** as **Yes**
 
     > [!div class=mx-imgBorder]
     > ![Enable sentiment analysis](../media/supervisor-admin-enable-sentiment-analysis.png "Enable sentiment analysis")
 
-4.  Enable multilanguage sentiment: 
+4.  To enable multilanguage sentiment: 
 
-    a. Go to **General** tab
+    a. Go to the **General** tab
 
-    b. Enable **Yes**
+    b. Select enabled as **Yes**
 
     > [!div class=mx-imgBorder]
     > ![Enable multilanguage sentiment](../media/oc-sentiment-enable-multilanguage.png "Enable multilanguage sentiment") 
@@ -46,7 +46,7 @@ Enable sentiment analysis for supervisors so they can view the real-time sentime
     Once multilanguage sentiment is enabled, you should see scores in the Omnichannel Insights Dashboards.  
     
     > [!Note]
-    > If you turn off multilanguage sentiment, you will no longer see non-english conversations being scored in real-time. However, the Omnichannel Insights Dashboard will still contain the scores for conversations that were previously scored. 
+    > If you turn off multilanguage sentiment, you will no longer see non-English conversations being scored in real-time. However, the Omnichannel Insights Dashboard will still contain the scores for conversations that were previously scored. 
 
     Enabling multilanguage sentiment also provides  scoring of conversations in 40+ additional languages:
 

@@ -66,7 +66,7 @@ By joining the conversation, you provide necessary inputs to both agent and cust
 
 ## Analyze chat and SMS sentiment
 
-As a supervisor to ensure positive customer outcome, you must identify negative sentiment events in the conversation between the agents and customers. After identifying, you can provide timely inputs to agent to resolve the issue by monitoring and joining the conversation. To learn more, see [Monitor and join a conversation](#monitor-and-join-a-conversation)
+As a supervisor, to ensure positive customer outcomes, you can identify negative sentiment events in the conversation between the agents and customers. After identifying, you can provide timely inputs to an agent by monitoring and joining the conversation. To learn more, see [Monitor and join a conversation](#monitor-and-join-a-conversation)
 
 > [!NOTE]
 > If you are unable to see the **Customer Sentiment** column, contact your administrator to enable the sentiment analysis. To learn more, see [Enable sentiment analysis](../administrator/enable-sentiment-analysis.md) 
@@ -85,7 +85,7 @@ The following screen shows an example of sentiment column in Omnichannel Ongoing
 
 ## Multilanguage Sentiment
 
-Multilanguage sentiment is in preview as of October 2019. This will not affect your current real-time experience except you will start to see sentiment scores on some non-english chat sessions.
+Multilanguage sentiment is in preview as of October 2019. This will not affect your current real-time experience, except you will start to see sentiment scores on some non-English chat sessions.
 
 Learn more about [multilanguage sentiment](https://docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/enable-sentiment-analysis).
 

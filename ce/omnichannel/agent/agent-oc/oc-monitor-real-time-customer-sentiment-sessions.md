@@ -54,10 +54,10 @@ The sentiment icons displayed on the communication panel are as follows.
 
 ##  Multilanguage sentiment 
 
-Multilanguage sentiment will not affect your current experience except you will start to see  sentiment scores on some non-english chat sessions.
+Multilanguage sentiment will not affect your current experience, except you will start to see  sentiment scores on some non-English chat sessions.
 
 >[!Note]
-> Multilanguage sentiment is only available if the admin turns it on.
+> Multilanguage sentiment is only available if the administrator turns it on.
 
 Learn more about [multilanguage sentiment](https://docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/enable-sentiment-analysis).
 

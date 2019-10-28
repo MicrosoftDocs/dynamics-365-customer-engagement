@@ -38,16 +38,16 @@ Customer can elect to download and/or email a copy of their chat transcript conv
     > [!div class=mx-imgBorder]
     > ![Email Chat Transcript](../media/oc-chat-transcript-email.png "Email Chat Transcript")
 
-    If customer does not proactively request a copy of their chat transcript prior to the end of the chat conversation, the following window will appear reminding the customer they can either download and/or email a copy of their chat transcript to themselves. 
+    At the end of the chat conversation, the following window will appear reminding the customer they can either download and/or email a copy of their chat transcript to themselves.
 
     > [!div class=mx-imgBorder]
     > ![Chat Transcript Prompt](../media/oc-chat-transcript-prompt-screen.png "Chat Transcript Prompt")
 
 ## Prerequisites
 
-Admins will want to confirm they have setup a mailbox to send emails from before enabling email notifications.  
+- Admins will want to confirm they have set up mailboxes before enabling emailed transcripts. 
 
-See [Dynamics 365 email setup](https://support.microsoft.com/en-us/help/4020807/dynamics-365-e-mail-setup-configuration-and-dynamics-365-for-mobile-ho) for more information.
+    See [Dynamics 365 email setup](https://support.microsoft.com/en-us/help/4020807/dynamics-365-e-mail-setup-configuration-and-dynamics-365-for-mobile-ho) for more information.
 
 ## Configuration
 
@@ -55,9 +55,9 @@ Admins can enable customers to download and/or email chat transcripts by going t
 
 **Step 1:** Under Chat transcripts section header, at a chat widget level:
 
-a. Enable download transcript 
+        a. Enable download transcript 
 
-b. Enable email transcript
+        b. Enable email transcript
 
 > [!div class=mx-imgBorder]
 > ![Enable Chat Transcript](../media/oc-chat-transcript-enable.png "Enable Chat Transcript Transcript")
@@ -67,17 +67,18 @@ b. Enable email transcript
 
 **Step 2:** When email transcripts are enabled, admin have a choice to either:
 
-a. Use email transcript provided for Chat for Dynamics 365 Customer Service
+        a. Use an email template provided by Chat for Dynamics 365 Customer Service
 
-b. Modify email transcript provided for Chat for Dynamics 365 Customer Service
+        b. Modify the email template provided by Chat for Dynamics 365 Customer Service
 
-c. Create their own email template.
+        c. Create their own email template.
+
 
 > [!div class=mx-imgBorder]
 > ![Enable Email Chat Transcript](../media/oc-chat-transcript-enable-email.png "Enable Email Chat Transcript Transcript")
 
 > [!NOTE] 
-> Whether admin chooses to use the email template provided, or create their own, where the curly brackets “{ }” are placed in the email and what is captured between dictates where the transcript is injected into email.
+> Whether admin chooses to use the email template provided or create their own, the "{conversation.transcript}" text determines where the transcript is injected into email.
 
 > [!div class=mx-imgBorder]
 > ![Customize Email Chat Transcript](../media/oc-chat-transcript-customize-email-transcript.png "Customize Email Chat Transcript Transcript")
