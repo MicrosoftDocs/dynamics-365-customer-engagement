@@ -150,6 +150,8 @@ These entities and corresponding commands are available in offline mode.
 |Team |Read only	|
 |User |Read only	|
 
+**Business rules**: Business rules are suppored in mobile offline. More more information, see [Create business rules and recommendations to apply logic in a model-driven app form](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-business-rules-recommendations-apply-logic-form).
+
 **Lookup support**: Lookups are supported for the entities that are mobile offline-enabled. All the entities participating in the lookup should also be offline-enabled.
 
 **Offline views**: Only system views are supported in mobile offline. 
