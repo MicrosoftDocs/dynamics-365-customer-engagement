@@ -96,9 +96,13 @@ Bots are developed to receive customer queries first, gain information of the qu
 Ensure to map the routing rules to the correct queues so that the queries are routed appropriately. For information about routing rules, see [Create and manage routing rules](routing-rules.md).
 
 ## Known limitations
-- Adaptive cards (for CSAT card only)
-- Typing
-- Suggested actions: When configuring the topics for your bot, we recommend not using suggested actions. In the **Identify** field, do not use Multiple choice options and instead select **User's entire response**.
+- **Adaptive cards:** An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields. Power Virtual Agent supports adaptive cards for CSAT surveys.
+- **Typing:** A bot receives a typing activity to indicate that the user is typing a response. A bot may send a typing activity to indicate to the user that it is working to fulfill a request or compile a response.
+- **Suggested actions:** Suggested actions enable your bot to present buttons that the user can tap to provide input. Suggested actions appear close to the composer and enhance user experience. They enable the user to answer a question or make a selection with a simple tap of a button, rather than having to type a response with a keyboard.
+
+Unlike buttons that appear within rich cards (which remain visible and accessible to the user even after being tapped), buttons that appear within the suggested actions pane will disappear after the user makes a selection. This prevents the user from tapping stale buttons within a conversation and simplifies bot development (since you will not need to account for that scenario).
+
+When configuring the topics for your bot, we recommend not using suggested actions. In the **Identify** field, do not use Multiple choice options and instead select **User's entire response**.
 
     > [!div class=mx-imgBorder]
     > ![Virtual Agent configuration Identify field](../media/virtual_agent_actions_identify.png "Virtual Agent configuration Identify field")
