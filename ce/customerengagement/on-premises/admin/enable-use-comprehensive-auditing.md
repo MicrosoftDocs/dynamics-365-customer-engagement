@@ -2,7 +2,7 @@
 title: "Enable and use Activity Logging  | MicrosoftDocs"
 ms.custom: 
 description: Learn how to enable auditing to be used for reports in the Office 365 Security Compliance Center.
-ms.date: 10/01/2019
+ms.date: 10/28/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -150,7 +150,7 @@ The Customer Engagement (on-premises) schema contains fields specific to Custome
 
 ## Enable auditing in Dynamics 365 for Customer Engagement
 
-1. In Customer Engagement (on-premises) (online), choose **Settings** > **Administration** > **System Settings** > **Auditing tab**.
+1. In Customer Engagement, choose **Settings** > **Administration** > **System Settings** > **Auditing tab**.
 2. Under **Audit Settings**, enable the following check boxes:
    - **Start Auditing**
    - **Audit user access**
