@@ -103,8 +103,7 @@ Unlike buttons that appear within rich cards (which remain visible and accessibl
 
 When configuring the topics for your bot, we recommend not using suggested actions. In the **Identify** field, do not use Multiple choice options and instead select **User's entire response**.
 
-    > [!div class=mx-imgBorder]
-    > ![Virtual Agent configuration Identify field](../media/virtual_agent_actions_identify.png "Virtual Agent configuration Identify field")
+![Virtual Agent configuration Identify field](../media/virtual_agent_actions_identify.png "Virtual Agent configuration Identify field")
 
 ## Privacy notice
 
