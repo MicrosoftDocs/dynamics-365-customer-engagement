@@ -70,7 +70,7 @@ For information on working with queues, see [Work with queues in Omnichannel for
 1. Select or create a work stream. For more information about work streams, see [Understand and create work streams](work-streams-introduction.md).
 
     > [!div class=mx-imgBorder]
-    > ![Virtual Agent work streams](../media/virtual-agent-work-streams.png "Virtual Agent work streams")
+    > ![Virtual Agent work streams](../media/virtual-agent-work-streams.png)
     
 2. Create context variables.
 
