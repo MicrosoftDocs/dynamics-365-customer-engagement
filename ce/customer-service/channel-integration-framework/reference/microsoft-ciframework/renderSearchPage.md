@@ -17,10 +17,6 @@ ms.author: susikka
 manager: shujoshi
 ---
 
-
-<!--Update the date if this hasn't yet been published-->
-
-
 # renderSearchPage (CIF JavaScript API Reference)
 
 [!INCLUDE[renderSearchPage-description](includes/renderSearchPage-description.md)] 
