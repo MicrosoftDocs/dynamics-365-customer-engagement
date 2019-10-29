@@ -21,7 +21,7 @@ Customer service managers or supervisors are responsible for managing agents who
 
 - [Configure Omnichannel Insights](#configure-omnichannel-insights)
 
-- [Customize Omnichannel insights](#customize-omnichannel-insights)
+- [Customize Omnichannel Insights](#customize-omnichannel-insights)
 
 > [!IMPORTANT]
 > The supervisor dashboards that are based on Power BI such as Omnichannel Insights and Sentiment Analysis are not available on Government Community Cloud (GCC).
