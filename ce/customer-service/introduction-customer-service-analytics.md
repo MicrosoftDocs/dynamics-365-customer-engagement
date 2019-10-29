@@ -29,6 +29,6 @@ As a supervisor, you can use this dashboard to perform below tasks:
 
 ## See also
 
-[View and understand Customer Service Analytics](customer-service/customer-service-analytics.md) 
+[View and understand Customer Service Analytics](customer-service-analytics.md) 
 
 [Configure Customer Service Analytics Dashboards](configure-customer-service-analytics-dashboard.md)
