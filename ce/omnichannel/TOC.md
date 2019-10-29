@@ -139,7 +139,6 @@
 #### [View Omnichannel conversation and Omnichannel session in Model-driven apps](agent/agent-usd/view-omnichannel-conversation-session.md)
 #### [View customer summary for an incoming conversation request](agent/agent-usd/view-customer-summary-incoming-conversation-request.md)
 
-
 ## Supervisor guide
 ### [Introduction to intraday supervisor experiences](supervisor/intro-intraday-insights-dashboard.md)
 #### [View and understand Omnichannel intraday insights](supervisor/intraday-insights-dashboard.md)
@@ -149,7 +148,7 @@
 ### Introduction to Omnichannel Insights
 #### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard)
 #### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)
-#### [Supervisor Sentiment Monitoring](supervisor/supervisor-sentiment-monitoring.md)
+### [Supervisor Sentiment Monitoring](supervisor/supervisor-sentiment-monitoring.md)
 
 
 
