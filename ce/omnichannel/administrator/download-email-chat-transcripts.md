@@ -54,10 +54,10 @@ Customers can elect to download and/or email a copy of their chat transcript con
 
 Admins can enable customers to download and/or email chat transcripts by going to the Omnichannel Administration Chat Widget and following these steps:
 
-**Step 1:** Under Chat transcripts section header, at a chat widget level:
-
+### **Step 1:** 
+    
+    Under Chat transcripts section header, at a chat widget level:
     a. Enable download transcript 
-
     b. Enable email transcript
 
 > [!div class=mx-imgBorder]
@@ -66,12 +66,11 @@ Admins can enable customers to download and/or email chat transcripts by going t
 > [!NOTE]  
 > Both download and email transcript settings are disabled by default.
 
-**Step 2:** When email transcripts are enabled, admin have a choice to either:
+### **Step 2:** 
 
+    When email transcripts are enabled, admin have a choice to either:
     a. Use an email template provided by Chat for Dynamics 365 Customer Service
-
     b. Modify the email template provided by Chat for Dynamics 365 Customer Service
-
     c. Create their own email template.
 
 
