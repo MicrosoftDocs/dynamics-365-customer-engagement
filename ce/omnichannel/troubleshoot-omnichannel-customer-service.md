@@ -41,7 +41,7 @@ To workaround the issue, you need to reset the Flow. To reset the Flow, follow t
 
 6. Select **+ New**. and then select **Flow**. A new **Flow** is displayed.
 
-7. Type **Manual trigger a flow** in the search box, and then select the option. The flow component is added.
+7. Type **Manually trigger a flow** in the search box, and then select the option. The flow component is added.
 
 8. Select **+ New step**. The **Choose an action** flow component is added.
 
