@@ -78,7 +78,7 @@
 <!--#### [Enable supervisors to monitor and assign conversations](administrator/configure-ongoing-conversations-settings.md)-->
 #### [Enable sentiment analysis](administrator/enable-sentiment-analysis.md)
 #### [Configure Omnichannel Insights dashboards](administrator/configure-historical-sentiment-dashboard-supervisor.md)
-#### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)
+
 
 ### Settings
 #### [Create and manage operating hours](administrator/create-operating-hours.md)
@@ -146,7 +146,8 @@
 #### [View and understand Omnichannel Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
 
 <!--#### [Assign conversations](supervisor/assign-conversations.md)-->
-### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
+### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.
+#### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)md)
 ### [Supervisor Sentiment Monitoring](supervisor/supervisor-sentiment-monitoring.md)
 
 
