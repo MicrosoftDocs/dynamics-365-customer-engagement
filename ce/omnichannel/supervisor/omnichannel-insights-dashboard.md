@@ -25,7 +25,7 @@ Typically, the overview dashboard is divided into two sections:
 
 [Omnichannel Insights Dashboard](#omnichannel-insights-dashboard)
 
-[Omnichannel Sentiment Analysis Dashboard](#omnichannel-sentiment-analysis-dashboard))
+[Omnichannel Sentiment Analysis Dashboard](#omnichannel-sentiment-analysis-dashboard)
 
 ## Omnichannel Insights Dashboard
 
