@@ -23,7 +23,7 @@ search.app:
 # Manage projects and bookings in your calendar (Project Service)
 
 > [!Note]
-> DEPRECATED: This feature has been deprecated and is no longer available.
+> DEPRECATED: This feature has been deprecated and is no longer available. In order to preserve this functionality, you may leverage the Server Side Synchonization feature together with [!INCLUDE[pn_flow](../includes/pn-flow.md)]. The former is capable of synchonizing Outlook appointment records between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_outlook](../includes/pn-outlook.md)]. Once it is enabled, you may design one or more [!INCLUDE[pn_flow](../includes/pn-flow.md)] processes to link a bookable resource booking with an appointment as you see fit. Keep in mind that you may need to handle the create, update and delete scenarios. For more information on Server Side Sync, visit [Use Outlook category to track appointments and emails](../admin/use-outlook-category-track-appointments-emails.md) and [Use Outlook category to track appointments and emails](../admin/choose-records-synchronize-dynamics-365-outlook-exchange.md)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
