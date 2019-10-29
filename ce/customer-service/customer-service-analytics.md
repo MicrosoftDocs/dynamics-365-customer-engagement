@@ -4,7 +4,7 @@ description: Dashboard provides historical operational metrics and KPIs to manag
 author: lerobbin
 ms.author: lerobbin
 manager: autumna
-ms.date: 10/24/2019
+ms.date: 10/29/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
@@ -52,11 +52,13 @@ This section also consists of the following filters:
 |Channel                     |Filters the reporting to the selected omnichannel channels. (Example – Chat, SMS, Facebook etc)  |
 
 ## Analytics Reports
+
 The following is an example a of the **Customer Service Analytics** report detail view. 
 
 The Customer Service Analytics report detail view has three views:  
 
 1.	**Summary view**  
+    
     This view provides key KPIs and metrics across customer service with an ability for supervisors to filter the view based on filters:
 
     > [!div class=mx-imgBorder]
@@ -77,6 +79,7 @@ The Customer Service Analytics report detail view has three views:
 
 
 2.	**Agent/Queue view**
+    
     This view provides key KPIs and metrics across customer service with an ability for supervisors to filter the view based on filters:
 
     > [!div class=mx-imgBorder]
@@ -95,12 +98,14 @@ The Customer Service Analytics report detail view has three views:
     |Open activities by agent                  |This visual shows the number of open activities by agent and type of activity.|
  
  3.	**Case/Activity list view** 
+     
      This view provides key KPIs and metrics across customer service with an ability for supervisors to filter the view based on filters:
     
     > [!div class=mx-imgBorder]
     > ![Customer Service Analytics Case/Activity list view](media/cs-analytics-case-activity-list-view.png "Customer Service analytics Case/Activity list view") 
     
 ## View and filter report  
+
 Filter information by viewing the reports and selecting: Duration, Queue, Agent, Priority, Subject and case status. 
     
    > [!div class=mx-imgBorder]
