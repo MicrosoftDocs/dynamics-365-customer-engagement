@@ -80,11 +80,17 @@
 ## [Overview](field-service-mobile-overview.md)
 ## [Setup](field-service-mobile-app-user-guide.md)
 ## [Customizations and configurations](mobile-app-configuration-customization.md)
+## [Activate mobile configurator](activate-fs-mobile-app-license.md)
+## [Upgrade the mobile project template](mobile-upgrade-project.md)
 ## [Push notifications](mobile-push-notifications.md)
 ## [Geofencing](geofencing.md)
-## [Activate mobile configuration tool](activate-fs-mobile-app-license.md)
-## [Mixed reality integration with Dynamics 365 Remote Assist and HoloLens](remote-assist-hololens.md)
-## [Mobile FAQs](mobile-faq.md)
+## FAQs + troubleshooting
+### [Frequently asked questions](mobile-faq.md)
+### Troubleshooting topics
+#### [What is the latest version of the mobile app and configuration tool?](mobile-faq-latest-version.md)
+#### [My mobile app will not sync to the server / crashes immediately](mobile-faq-sync-crash.md)
+#### [Why can't I see my bookings when logged into the app?](mobile-faq-bookings-not-showing.md)
+#### [Bookings not scheduled to me show up when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
 ## [Get help](mobile-get-help.md) 
 
 
