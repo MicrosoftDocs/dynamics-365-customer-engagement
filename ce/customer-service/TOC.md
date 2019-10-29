@@ -106,4 +106,7 @@
 ## Developer guide
 ### [Create knowledge article using template](create-knowledge-article-using-template.md)
 ### [Extend transformer logic on templates](extend-tranformer-logic-template.md)
-### [Channel Integration Framework Guide](channel-integration-framework/channel-integration-framework.md)
+
+# [Omnichannel for Customer Service Guide](../omnichannel/omnichannel-customer-service-guide.md)
+# [Unified Service Desk](../unified-service-desk/unified-service-desk.md)
+# [Channel Integration Framework Guide](channel-integration-framework/channel-integration-framework.md)
