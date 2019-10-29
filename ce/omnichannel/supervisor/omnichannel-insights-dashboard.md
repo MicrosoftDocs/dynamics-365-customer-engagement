@@ -25,7 +25,7 @@ Typically, the overview dashboard is divided into two sections:
 
 - [Omnichannel Insights Dashboard](#omnichannel-insights-dashboard)
 
-- [Omnichannel Sentiment Analysis Dashboard](#omnichannel-sentiment-analysis-dashboard)
+- [Omnichannel Sentiment Analysis Dashboard](#0mnichannel-sentiment-analysis-dashboard)
 
 
 ## Omnichannel Insights Dashboard
@@ -151,7 +151,9 @@ Reporting structure consists of five sections:
    |Bot escalation rate        |The percentage of conversations that are escalated by bot to a human agent.  |
    |Bot escalation time (mins) |Average length of time that bot took to complete the conversation with customer before escalating to a human agent.   |
 
+
 ## Omnichannel Sentiment Analysis Dashboard
+
 
    This illustration of the Omnichannel Sentiment Analysis dashboard provides an **overview** of important KPIs and trends relative to the sentiment analysis of conversation offered.  
 

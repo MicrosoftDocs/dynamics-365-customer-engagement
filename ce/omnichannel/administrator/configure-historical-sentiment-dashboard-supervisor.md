@@ -2,11 +2,11 @@
 title: "Configure to view Intraday insights dashboard | MicrosoftDocs"
 description: "Instructions to configure intraday insights dashboard for Unified Service Desk and Omnichannel for Dynamics 365 Customer Service."
 keywords: ""
-author: udaykirang
-ms.author: udag
-manager: shujoshi
+author: lerobbin
+ms.author: lerobbin
+manager: autumna
 applies_to:
-ms.date: 6/20/2019
+ms.date: 10/29/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: e8d3d8ae-3e5a-46a7-aed9-b7ad6f42a98f
@@ -26,7 +26,7 @@ As an administrator, you must configure the Omnichannel Insights to display Omni
 
 [Step 1: Review prerequisites](#step-1-review-prerequisites)
 
-[Step 2: Install Omnichannel Insights for Dynamics 365 app](#step-2-install-omnichannel-insights-for-dynamics-365-app)
+[Step 2: Install Omnichannel Insights for Dynamics 365 app](#step-2a-install-omnichannel-insights-for-dynamics-365-app)
 
 [Step 3: Connect to Omnichannel Insights for Dynamics 365 app](#step-3-connect-to-omnichannel-insights-for-dynamics-365-app)
 
