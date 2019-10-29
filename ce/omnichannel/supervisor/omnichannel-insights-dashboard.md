@@ -194,10 +194,7 @@ Negative sentiment is expressed by the customer when they are disappointed with 
 
 **Neutral Sentiment**
 
-Neutral sentiment is represented when a customer’s sentiment was neither positive nor negative. A customer’s problem statement isn’t to be scored negative, rather it should be scored neutral, unless it contains words that denote emotion.  This is regardless of how severe the user’s problem is. 
-
->[!Note]:
-> Messages with non-specific pleasantries and/or politeness are scored as neutral and not as positive.
+Neutral sentiment is represented when a customer’s sentiment was neither positive nor negative. A customer’s problem statement isn’t to be scored negative, rather it should be scored neutral, unless it contains words that denote emotion.  This is regardless of how severe the user’s problem is. Messages with non-specific pleasantries and/or politeness are scored as neutral and not as positive.
 
 ### View and filter reports 
 
