@@ -40,9 +40,8 @@ This section consists of the following conversation KPIs.
 |----------------------|--------------------------|
 |Incoming conversation | The number of conversations initiated by the customer.|
 |Conversations engaged | Offered Conversations that are engaged by an agent.  Customer-to-agent communication can begin at this point.  |
-|Average Wait Time (mins) | The length of time, in minutes, a customer is waiting in queue. 
-Average wait time = Total length of time (in minutes) / Offered
-|
+|Average Wait Time (mins) | The length of time, in minutes, a customer is waiting in queue. |
+|Average wait time | Total length of time (in minutes) / Offered |
 |Abandon Rate | The percentage of conversations that are not engaged by agents|
 |Average Handle Time (mins) |Average length of time that an agent(s) takes to complete the conversation with customer. This time considers the time spent by one or more agents to help the customer.|
 |Transfer rate |The percentage of conversations that are transferred to another agent/queue.|
@@ -55,12 +54,12 @@ Omnichannel Insights reports provide comprehensive information on how overall su
 
 Reporting structure consists of six sections: 
 
-1. [Conversation](#conversation)
-2. [Channel](#channel)
-3. [Queue](#queue)
-4. [Agent](#agent)
-5. [Bot insights (BYOB)](#bot-insights-(byob))
-6. [Sentiment Insights](#sentiment-insights)
+1. [Conversation](#1-conversation)
+2. [Channel](#2-channel)
+3. [Queue](#3-queue)
+4. [Agent](#4-agent)
+5. [Bot insights (BYOB)](#5-bot-insights-(byob))
+6. [Sentiment Insights](#6-sentiment-insights)
 
 ### **1. Conversation**: 
 
