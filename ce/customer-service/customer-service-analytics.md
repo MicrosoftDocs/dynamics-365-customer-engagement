@@ -27,7 +27,7 @@ The following is an example of the Customer Service Analytics overview dashb
    > [!div class=mx-imgBorder]
    >![customer service analytics overview dashboard](media/cs-analytics-overview-dashboard.png "customer service analytics overview dashboard")
   
-This section consists of the following KPIs.  
+This section consists of the following KPIs:  
 
 | KPI                    | Description         |
 |------------------------|-------------------------|
@@ -40,11 +40,13 @@ This section consists of the following KPIs.
 |Case age                    |Average time the case was in open state.                           |
 |Total Activities            |Total activities which are created by agents                       |
 
+This section also consists of the following filters:
+
 |Filters / Dimensions        |Description        |
 |----------------------------|-------------------|
 |Duration                    |Filters the date range users would like to see the reporting for.  |
 |Queue                       |Provides an ability for the user to filter the queue which they would like to drill deeper and see all metrics related to those queue(s). |
-|Agent                       |Provides an ability for the supervisor to filter all their reporting agents to understand how each one of them are performing and can plan to coach/train agents.  |
+|Agent                       |Provides an ability for the supervisor to filter all their reporting agents to understand how each one of them are performing and plan to coach/train agents.  |
 |Priority                    |Filters the reporting to selected priority of the case. (High, Normal, Low) |
 |Subject                     |Filters the reporting to selected subject of the case.  |
 |Channel                     |Filters the reporting to the selected omnichannel channels. (Example – Chat, SMS, Facebook etc)  |
@@ -88,7 +90,7 @@ The Customer Service Analytics report detail view has three views:
     |Agents with most open activities          |This visual shows the agents with most open activities. This helps supervisor to help agents clear the backlog.|
     |Agents with highest avg. handle time      |This visual shows the agents with most average handle time.|
     |Agents with highest CSAT                  |This visual shows the top agents with high CSAT. |
-    |Agents with lowest CSAT                   |This visual shows the agents with low CSAT. Supervisors can use this information to train agents and improve overall customer satisfaction.|
+    |Agents with lowest CSAT                   |This visual shows the agents with low CSAT. Supervisors use this information to train agents and improve overall customer satisfaction.|
     |Key influences for CSAT                   |The key influencers visual helps you understand the factors that drive CSAT metric. It analyzes your data, ranks the factors that matter, and displays them as key influencers. |
     |Open activities by agent                  |This visual shows the number of open activities by agent and type of activity.|
  
@@ -99,7 +101,7 @@ The Customer Service Analytics report detail view has three views:
     > ![Customer Service Analytics Case/Activity list view](media/cs-analytics-case-activity-list-view.png "Customer Service analytics Case/Activity list view") 
     
 ## View and filter report  
-You can filter information by viewing the reports and selecting: Duration, Queue, Agent, Priority, Subject and case status. 
+Filter information by viewing the reports and selecting: Duration, Queue, Agent, Priority, Subject and case status. 
     
    > [!div class=mx-imgBorder]
    > ![Customer Service Analytics View and Filter Report](media/cs-analytics-view-filer-report.png "Customer Service analytics view and filter report")

@@ -19,7 +19,7 @@ ms.custom:
 
 ## Omnichannel Insights  
 
-The Omnichannel Insights dashboard provides KPIs and trends for supervisors to understand the overall state of omnichannel support experience at a glance. It also provides insights on the customer sentiments derived using support specific machine learning algorithm with an ability to slice through different levels in the organization hierarchy which supervisors can rely on to improve the overall customer support experience.  
+The Omnichannel Insights dashboard provides KPIs and trends for supervisors to understand the overall state of omnichannel support experience at a glance. It also provides insights on the customer sentiments derived using support specific machine learning algorithms with an ability to slice through different levels in the organizational hierarchy which supervisors can rely on to improve the overall customer support experience.  
 
 Typically, the overview dashboard is divided into two sections: 
 
@@ -30,12 +30,12 @@ Typically, the overview dashboard is divided into two sections:
 
 ## Omnichannel Insights Dashboard
 
-The following illustration shows an example of the Omnichannel insights dashboard: 
+The following illustration is an example of the Omnichannel Insights for Dynamics 365 dashboard: 
 
    > [!div class=mx-imgBorder]
    > ![Omnichannel Dashboard](../media/oc-full-dashboard.png "Omnichannel Dashboard")
 
-This section consists of the following conversation KPIs.
+This section consists of the following conversation KPIs:
 
 | KPI                  | Description              |
 |----------------------|--------------------------|
@@ -74,12 +74,13 @@ Reporting structure consists of five sections:
    |----------------|----------------------------|
    |Incoming conversation vs Conversations engaged  |This visual compares the volume of conversations initiated by the customers and engaged by an agent.             |
    |Avg wait time vs Abandon rate                  |This visual gives supervisor a correlation between the time customer waited on the queue and abandon rate.                        |
-   |Transfer Rate                                  |This visual compares the transfer rate over a period selected by a user with the transfer rate for each day. This will help supervisors to know if there are any specific days contributing to the over all spike in the transfer rate.|
+   |Transfer Rate                                  |This visual compares the transfer rate over a period selected by a user with the transfer rate for each day. This helps supervisors know if there are any specific days contributing to the over all spike in the transfer rate.|
    |Average handle time                            |This visual shows the trend of average handle time over a period selected by a user with the average handle time for each day. |
    |Average customer effort time                   |This visual shows the trend of average customer effort time over a period selected by a user with the average handle time for each day.|
    |Average Customer Sentiment Pulse (CSP)         |The predicted customer sentiment in the timeframe for a set queue/agent,which indicates the degree of positive sentiment expressed by customers at the end of their interactions  |
 
 ### **2. Channel**: 
+
    This section provides historical visibility on support operations by each channel that helps supervisors easily understand how each support channel (e.g.: SMS, chat, etc.) are performing and take appropriate actions to improve the overall support experience for customers.  
 
    > [!div class=mx-imgBorder]
@@ -99,6 +100,7 @@ Reporting structure consists of five sections:
    |Conversation metrics by date     | This grid provides the trend of each metric across channels.  |
 
 ### **3. Queue**: 
+
    This section provides historical visibility on how each of queue is performing so supervisors can and take appropriate steps to improve the overall support experience for the customer.  
 
    > [!div class=mx-imgBorder]
@@ -155,14 +157,15 @@ Reporting structure consists of five sections:
 ## Omnichannel Sentiment Analysis Dashboard
 
 
-   This illustration of the Omnichannel Sentiment Analysis dashboard provides an **overview** of important KPIs and trends relative to the sentiment analysis of conversation offered.  
+This illustration of the Omnichannel Sentiment Analysis dashboard provides an **overview** of important KPIs and trends relative to the sentiment analysis of conversation offered.  
 
    > [!div class=mx-imgBorder]
    > ![Sentiment Analysis Overview](../media/oc-overview.png "Sentiment Analysis Overview")  
 
-   This illustration of the Omnichannel Sentiment Analysis report provides a **detailed view** of more comprehensive information.  
 
-   Omnichannel Insights - Sentiment Analysis Report (Detail View)  
+## Omnichannel Insights - Sentiment Analysis Report
+
+This illustration of the Omnichannel Sentiment Analysis report provides a **detailed view** of more comprehensive information. 
 
    > [!div class=mx-imgBorder]
    > ![Sentiment Analysis Detailed Report](../media/oc-detailed.png "Sentiment Analysis Detailed Report")
@@ -177,11 +180,13 @@ Reporting structure consists of five sections:
    |% Negative Sentiment                 |Count of negative sentiment zone conversations divided by total sessions.  |
    |Conversations with Sentiment predication  |Count of conversations to predict the customer sentiment metrics.|
 
-### Sentiment Zones
+## Sentiment Zones
 
 **Positive Sentiment**
 
-Positive sentiment is expressed by the customer writing messages that they are happy, pleased, or positive with the result of the support interaction. Positive sentiment requires the positive words need to **convey positive feeling beyond just simple pleasantries or politeness**. For example, when a customer writes “thank you”, that is just being polite, it doesn’t necessarily mean they are pleased or happy. However, if a customer writes “I can’t thank you enough” or “thank you very much” that is portraying clear positive feeling. Some other examples of simple pleasantries/politeness that shouldn’t be mischaracterized as positive are “Please help” and “Yes". 
+Positive sentiment is expressed by the customer writing messages that they are happy, pleased, or positive as a result of the support interaction. Positive sentiment requires the positive words to **convey positive feeling beyond just simple pleasantries or politeness**. 
+
+For example, when a customer writes “thank you”, that is just being polite, it doesn’t necessarily mean they are pleased or happy. However, if a customer writes “I can’t thank you enough”, or “thank you very much”, that is portraying clear positive feeling. Other examples of simple pleasantries/politeness that shouldn’t be mischaracterized as positive are “Please help” and “Yes". 
 
 **Negative Sentiment**
 
@@ -189,14 +194,17 @@ Negative sentiment is expressed by the customer when they are disappointed with 
 
 **Neutral Sentiment**
 
-Neutral sentiment is represented when a customer’s sentiment was neither positive nor negative. A customer’s problem statement isn’t to be scored Negative, rather it should be scored Neutral, unless it contains words that denote emotion.  This is regardless of how severe the user’s problem is. Additionally, messages with non-specific pleasantries and/or politeness are also be scored Neutral and not as Positive.
+Neutral sentiment is represented when a customer’s sentiment was neither positive nor negative. A customer’s problem statement isn’t to be scored negative, rather it should be scored neutral, unless it contains words that denote emotion.  This is regardless of how severe the user’s problem is. 
+
+>[!Note]:
+> Messages with non-specific pleasantries and/or politeness are scored as neutral and not as positive.
 
 ### View and filter reports 
 
 You can filter the information presented in the reports by selecting **Duration, Channel, Queue Name,** and **Agent Name**.
 
    > [!div class=mx-imgBorder]
-   > ![Sentiment Analysis Filtered Report](../media/oc-sentiment-filtered-report.png "Sentiment Analysis Filtered Report")
+   > ![Sentiment Analysis Filtered Report](../media/supervisor-historical-filter-reports.png "Sentiment Analysis Filtered Report")
 
 ### See also
 

@@ -48,7 +48,7 @@ Review the following prerequisites before configuring the supervisor dashboard:
     > [!div class=mx-imgBorder]
     > ![Customer Service app install](media/cs-service-app-install.png "Customer Service app install view") 
     
-    Now you can proceed to configure the app by connecting your Dynamics 365 organization. 
+    Now proceed to configure the app by connecting your Dynamics 365 organization. 
 
 ### Step 3: Connect Dynamics 365 organization to Customer Service Analytics app
  
@@ -80,7 +80,7 @@ Review the following prerequisites before configuring the supervisor dashboard:
     
 5. Enter your Dynamics 365 organization credentials and press **Enter**. 
 
-    When you are successfully signed in, the existing report will be updated with the data from your organization. 
+    When you are successfully signed in, the existing report is updated with the data from your organization. 
     Now configure the refresh frequency for the reports and dashboards. 
 
 ### Step 4: Configure refresh frequency on Power BI Dataset 
@@ -109,7 +109,7 @@ After you connect Dynamics 365 Customer Service Analytics app with Dynamics 365 
  > We recommend you configure the refresh frequency to **Daily**. 
 
 ### Step 5: Publish application within your organization 
-You must share the configured application with your entire organization so supervisors can view **Customer Service Analytics** dashboards and reports with their own **Power BI Pro** accounts.
+You must share the configured application with your entire organization for supervisors to view **Customer Service Analytics** dashboards and reports with their own **Power BI Pro** accounts.
 
 1. On the App workspace, select **Update app**
   
@@ -172,7 +172,7 @@ You must add users in the supervisor configuration to access any supervisor dash
 You must perform the below steps if you would like to enhance/customize the PowerBI template app for your organization needs.  
   
 > [!IMPORTANT]
-> Microsoft does not support customizations made to the Power BI template app and will not provide updates once modifications are made. 
+> Microsoft does not support customizations made to the Power BI template app and do not provide updates once modifications are made. 
 
 ## See Also 
 
