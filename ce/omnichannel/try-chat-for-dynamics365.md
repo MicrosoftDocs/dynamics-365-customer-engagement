@@ -19,7 +19,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Channels, for example Chat for Dynamics 365 Customer Service, are the engagement channels that enable your agents to connect with customers in real-time. Channels can only be used if you have an active subscription of Dynamics 365 Customer Service Enterprise in your tenant.
+Channels, for example Chat and SMS, are the engagement channels that enable your agents to connect with customers in real-time and provide quick personalized help. Channels can only be subscribed and used if you have an active subscription of Dynamics 365 Customer Service Enterprise in your tenant.
 
 There are two options to sign-up for a free 30-day trial of channels:
 
@@ -28,7 +28,11 @@ There are two options to sign-up for a free 30-day trial of channels:
 
 ## Option 1: Channels trial through trials.dynamics.com
 
-With this option, you can get a free 30-day trial of Chat, SMS, and Facebook Messenger (preview) channels through [https://trials.dynamics.com](https://trials.dynamics.com). You must have an existing organizational account and must be a global administrator to enable the trial.
+With this option, you can get a free 30-day trial of Chat, SMS, and Facebook Messenger (preview) channels through [https://trials.dynamics.com](https://trials.dynamics.com). 
+
+**Pre-requisites**:
+- You must have an existing tenant.
+- You must have an existing organizational account with the global administrator role to enable the trial.
 
 > [!NOTE]
 > - This option is currently available only in North America, Europe, Canada, and United Kingdom. Your tenant must be located in one of these regions. 
@@ -41,7 +45,8 @@ With this option, you can get a free 30-day trial of Chat, SMS, and Facebook Mes
 2. Select **Customer Service**. 
 
     > [!IMPORTANT]
-    > Ensure that you select **Customer Service**. If you select any other option, Chat trial will not get enabled in your tenant.
+    > - Ensure that you select **Customer Service**. If you select any other option, Omnichannel for Customer Service application will not get enabled in your tenant.
+    > - Omnichannel for Customer Service application will not get enabled if you sign up for a new trial tenant.
 
 3. Enter your work email and phone number, and then select **Get started**.
 
@@ -91,12 +96,12 @@ With this option, you can sign-up for a free 30-day trial of Chat, SMS, and Face
 
 The channel you can try depends on the add-on you purchase from the Microsoft 365 admin center. The following add-ons are available for purchase:
 
-- **Dynamics 365 Customer Service Chat Trial**: Allows you to try Chat and Facebook (preview) channels.
+- **Dynamics 365 for Customer Service Chat Trial**: Allows you to try Chat.
 
 - **Dynamics 365 for Customer Service Digital Messaging add-on** and **Dynamics 365 for Customer Service Digital Messaging add-on for Government**: Allows you to try Chat, SMS, and Facebook (preview) channels.
 
 > [!NOTE]
-> For more information on the Chat license, pricing and pre-requisites, please refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+> For more information on the Chat and Digital Messaging licenses, pricing, and pre-requisites, please refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ### Step 1: Get a trial subscription of channels
 
@@ -113,11 +118,13 @@ The channel you can try depends on the add-on you purchase from the Microsoft 36
     > [!IMPORTANT]
     > You must already have a paid license of Dynamics 365 Customer Service Enterprise in your tenant that was purchased directly through the Microsoft 365 admin center (that is, Web Direct), otherwise the Chat and Digital Messaging options won't be visible.
 
-4. You can start a 30-day trial of Chat with 25 user licenses.
+4. You can start a 30-day trial of Chat or Digital Messaging with 25 user licenses.
 
-5. After signing up for a trial, you must assign licenses of Chat to the users who need to engage with customers and provide support via Chat. This can be done by selecting one or more active users and editing their product licenses. After you're done, select **Save**.
+5. After signing up for a trial, you must assign licenses of Chat or Digital Messaging to the users who need to engage with customers and provide support via Omnichannel for Customer Service. This can be done by selecting one or more active users and editing their product licenses. After you're done, select **Save**.
 
-    ![Product licenses dialog box](media/product-licenses-dialog-box.png "Product licenses dialog box")
+    ![Chat product licenses dialog box](media/product-licenses-dialog-box.png "Chat product licenses dialog box")
+
+    ![Digital Messaging product licenses dialog box](media/digital-messaging-prod-license.png "Digital Messaging product licenses dialog box")
 
 ### Step 2: Enable channels in your organization
 
