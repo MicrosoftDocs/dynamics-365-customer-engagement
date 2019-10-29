@@ -131,27 +131,27 @@ To add the code snippet, you need to follow the steps below:
 2. Filling the incoming query string parameters to hidden fields.
 
     ```JS
-    MsCrmMkt.MsCrmFormLoader.on('afterFormLoad,function(event) {
-      var self = window.location.toString();
-      var queryString = self.split("?");
-      var hiddenFields = document.querySelectorAll("input[type=hidden]");
-      if (queryString.length > 1) {
-        var pairs = queryString[1].split("&");
-        for (var pairIndex in pairs) {
-          var pair = pairs[pairIndex].split("=");
-          if (pair.length !== 2) {
+     MsCrmMkt.MsCrmFormLoader.on('afterFormLoad,function(event) {
+     var self = window.location.toString();
+     var queryString = self.split("?");
+     var hiddenFields = document.querySelectorAll("input[type=hidden]");
+     if (queryString.length > 1) {
+       var pairs = queryString[1].split("&");
+       for (var pairIndex in pairs) {
+       var pair = pairs[pairIndex].split("=");
+       if (pair.length !== 2) {
             continue;
-          }
-          var key = pair[0];
-          var value = pair[1];
-          if (key && value) {
-            for (var i = 0; i < hiddenFields.length; i++) {
-              if (hiddenFields[i].id === key) {
-                hiddenFields[i].value = value;
-              }
-            }
-          }
         }
+       var key = pair[0];
+       var value = pair[1];
+       if (key && value) {
+         for (var i = 0; i < hiddenFields.length; i++) {
+         if (hiddenFields[i].id === key) {
+         hiddenFields[i].value = value;
+           }
+         }
+       }
+     }
       }
     });
-   ```
+    ```
