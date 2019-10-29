@@ -35,10 +35,15 @@ Customer asset functionality lets you maintain a list of serviceable items relat
   
 Customer asset records can be configured in a hierarchy in order to maintain service history at the sub-component level.  
   
-> [!NOTE]
-> To associate customer assets with work order records, you must specify the customer asset within the work order incident or agreement incident records.  
+
+In this article let's explore creating customer assets and noting them on work orders, agreements, and IoT devices to build service history.
+
   
- 
+## Prerequisites
+
+- Customer assets can be created and noted on work orders to build service history in all versions of Field Service
+- Associating customer assets with IoT devices in Connected Field Service is available with Field Service 7.5.5+ and 8.2+ 
+
 ## Create customer assets
 
 ### Manually 
@@ -73,6 +78,9 @@ Customer asset records can be configured in a hierarchy in order to maintain ser
 
 - notes + timeline
 
+> [!NOTE]
+> To associate customer assets with work order records, you must specify the customer asset within the work order incident or agreement incident records.  
+
 ### With work orders
 - Incidents
 
@@ -84,9 +92,12 @@ Agreement incident types
 
 ## Connected Field Service
 
+![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
+
 ## Configuration considerations
 - serial number
 - customer asset with quantity 2 will not create 2 customer asset records, but there will be a lookup reference to the work order product that will show a quantity of 2
+- [Adding 3D models to customer assets](../field-service/3D-viewer.md)
 
 ## Additional notes
 - can relate to booking alerts
