@@ -1,13 +1,13 @@
 ---
-title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 09/4/2019
+ms.date: 10/11/2019
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement apps
+applies_to: Dynamics 365 apps
 ms.assetid: 6828238b-1645-4710-a192-0014acb03196
 caps.latest.revision: 97
 ms.author: mkaur
@@ -27,24 +27,24 @@ search.app:
 Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] apps for your sales, customer service, field service, and other tasks when you're on the go. With one download from your app store, you’ll automatically have access to all the apps you need for your role. You will see apps with the new Unified Interface on your mobile device.  
 
 > [!NOTE]
-> - On February 21, 2018, we announced the deprecation of the Windows Phone app for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. On May 22, 2018, the Windows Phone app will no longer be supported for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365 for Customer Engagement apps, (version 8.2) and earlier supported versions. If you wish to continue to use the Windows Phone app, you should not update to Dynamics 365 for Customer Engagement apps, version 9.0 as the Windows Phone app will not be supported with version 9.x. 
-> - [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has separate mobile apps for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] and Operations. Learn about [Dynamics 365 for Customer Engagement apps for Field Service (Resco) mobile app](https://go.microsoft.com/fwlink/?linkid=846157) and [Dynamics 365 for Customer Engagement apps  for Operations mobile app](https://ax.help.dynamics.com/en/wiki/mobile-development-handbook/).  
-> - Mobile offline feature is now available. It's available only for iOS and Android users.
+> - On February 21, 2018, we announced the deprecation of the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] Windows Phone app. Effective May 22, 2018, the Windows Phone app is no longer supported. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365 apps, (version 8.2) and earlier supported versions. If you want to continue to use the Windows Phone app, you should not update to Dynamics 365 apps, version 9.0 as the Windows Phone app will not be supported with version 9.x. 
+> - There are separate mobile apps for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] and Operations. More information: [Field Service mobile app](https://go.microsoft.com/fwlink/?linkid=846157) and [Finance and Operations mobile app](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page).  
+> - Mobile offline feature is now available for iOS and Android users.
 > - You can use the web browsers on your phone or tablet but for full functionality and optimized experience we strongly recommend that you use the Dynamics 365 for phones and tablets app. For more information, see [Install Dynamics 365 for phones and tablets](install-dynamics-365-for-phones-and-tablets.md).
     
 ## Install the app from your device’s app store  
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)    
 
-## Sign in and sign out (iOS users)
+## Sign in and sign out 
 
-Sign in to the Dynamics 365 mobile app quickly using your work email address or Customer Engagement app web address. If you need help with your sign-in information, contact your Dynamics 365 administrator. 
+Sign in to the Dynamics 365 mobile app quickly using your work email address or web address for the Dynamics 365 app that you use. If you need help with your sign-in information, contact your Dynamics 365 administrator. 
 
 > [!IMPORTANT]
-> - This feature is supported for version 9.x (Online and on-premises) when signing in using the mobile app on an iOS device.
-> - If you are a [Dynamics 365 US Government](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government) (GCC and GCC High) user, you are required to sign in using the web address option.
+> - This feature is supported for version 9.x (Common Data Service and Dynamics 365 Customer Engagement (on-premises) when signing in using the mobile app on an iOS and Android device.
+> - If you are a [Dynamics 365 US Government](https://docs.microsoft.com/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government) (GCC and GCC High) user, you are required to sign in using the web address option.
 
 
-### Sign in with your email address (iOS users)
+### Sign in with your email address
 
 1. Enter your email address, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
 
@@ -55,111 +55,31 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
 
    > [!div class="mx-imgBorder"] 
    > ![Select an app to use](media/openanapp.png "Select an app to use"). 
-        
-#### Sign out (iOS users)
-
-- From the upper-right corner, select ![Sign out](media/gearsignout.png "Sign out") > **Sign out**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Sign out](media/signout1.png "Sign out")
 
 
-### Sign in with your web address (iOS users)
+### Sign in with your web address 
 
-You can also sign in using your Dynamics 365 Customer Engagement app web address and user name and password. 
+You can also sign in using your web address for the Dynamics 365 app and user name and password. 
 
 1. On the sign-in screen, select **Sign in with a web address instead**.
 
    > [!div class="mx-imgBorder"] 
    > ![Enter user name and password address](media/userandpassword.png "Enter your user name and password"). 
 
-2. Enter the URL for your Dynamics 365 Customer Engagement app, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in"). 
+2. Enter the URL for your web address for the Dynamics 365 app that you use, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in"). 
 3. Enter your user name and password.
 4. From the list of apps that you have access to, select the app that you want to use.
 
    > [!div class="mx-imgBorder"] 
    > ![Select an app to use](media/navwebsignin.png "Select an app to use"). 
 
-#### Sign out (iOS users)
+### Sign out 
 
 - From the navigation bar, select ![Sign out button](media/settingsmorebutton.png "Sign out button") > **User Information** > **Sign out**.
 
   > [!div class="mx-imgBorder"] 
   > ![Sign out](media/previewsignout.png "Sign out")
-      
-
-## Sign in using your email address (Preview feature for Android users)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-Sign in to the Dynamics 365 mobile app for Android using your work email address. To sign in using your email address, you will need to install the preview version of the app from App Center.
-
-### Install the preview app
-
-1. Install the app:
-  - [Install Dynamics 365 for Phones (Preview) app](https://install.appcenter.ms/orgs/dynamics365-mobile/apps/dynamics-365-for-phones-preview/distribution_groups/public%20preview).
-  - [Install Dynamics 365 for Tablets (Preview) app](https://install.appcenter.ms/orgs/dynamics365-mobile/apps/dynamics-365-for-tablets-preview/distribution_groups/public%20preview).
   
-> [!NOTE]
-> - If you have an existing app on your device, it will automatically be replaced by the preview version of the app. 
-> - If you were already signed-in to the non-preview version of the app, you will need to sign-out of the app and sign back in to use the new email sign-in experience.
-
-2. Select the **DOWNLOAD** button.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Select the download button"](media/emailandrod_1.png "Select the download button") 
-   
-3. Select **Open** to load the application APK file for installation.
- 
-   > [!div class="mx-imgBorder"] 
-   > ![Select the open button"](media/emailandrod_2.png "Select the Open button") 
-
-4. Select **Install** to install the app.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Select the install button"](media/emailandrod_3.png "Select the install button") 
-
-5. Once the app has installed, select **Open**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Select the open button"](media/emailandrod_4.png "Select the open button")   
-   
-### Sign in using your email adress
-
-1. Enter your email address, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
-
-   > [!div class="mx-imgBorder"] 
-   > ![Sign in using email address"](media/emailbasedsignin_android.png "Sign in using email addres")  
-
-
-2. From the list of apps that you have access to, select the app that you want to use.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Select an app to use](media/openanapp.png "Select an app to use"). 
-   
-
-## Sign in and sign out (Android users)
-
-To sign in, you’ll need your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web address, user name, and
-password. If you need help with your sign-in information, contact your Dynamics 365 administrator. 
-
-1. Open the mobile app, enter your Dynamics 365 for Customer Engagement apps web address, and then select ![Dynamics 365 for phones and tablets continue sign](../mobile-app/media/mobile-signin-arrow.png "Dynamics 365 for phones and tablets continue sign").
-
-   > [!div class="mx-imgBorder"] 
-   > ![Dynamics 365 for phones and tablets signing in screen](media/SignIn_1.png "Dynamics 365 for phones and tablets signing in screen") 
-
-2. Enter your user name and password, and select **Sign in**.
-
-3. From the list of apps that you have access to, select the app that you want to use.
-
-#### Sign out
-
-- From nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") > **User Information** > **Sign out**.
-
-  > [!div class="mx-imgBorder"] 
-  > ![Dynamics 365 for phones and tablets sign out screen](media/SignOut.png "Dynamics 365 for phones and tablets sign out screen")
-
-
 ## Navigation
 
 For phones, portrait mode is set as the default screen orientation. For tablets, landscape mode is set as the default. Screen orientation for phone and tablet apps cannot be changed. 
@@ -189,14 +109,14 @@ Dashboards give you an overview of valuable information. Select on the Home butt
 - To view a different dashboard, select the down arrow next to the name of the dashboard, and then select the dashbaord that you want to view. 
 
   > [!div class="mx-imgBorder"] 
-  > ![Dynamics 365 for Customer Engagement apps phones and tablets dashboards](media/DashboardsOnHomePage_4.png "Dynamics 365 for Customer Engagement apps phones and tables dashboards")
+  > ![Dynamics 365 apps phones and tablets dashboards](media/DashboardsOnHomePage_4.png "Dynamics 365 apps phones and tables dashboards")
   
 - To view a chart in the dashboard in full screen mode, select the Expand button ![Full screen button](media/expandviewbutton.png "Full screen button").
 
    > [!div class="mx-imgBorder"] 
    > ![Chart in full screen view](media/expandchart.png "Chart in full screen view")
    
-- To view records in chart or refresh the chart view, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then choose an  action: **Refresh** or **View Records**. 
+- To view records in chart or refresh the chart view, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") and then choose an  action: **Refresh** or **View Records**. 
 
    > [!div class="mx-imgBorder"] 
    > ![Refresh or view charts](media/charts_01.png "Refresh or view a chart")
@@ -222,7 +142,7 @@ Charts give you a quick view of how you’re tracking to your goals. They’re i
 
 The **Quick create Menu** makes it fast and easy to add data into the system. 
     
-1.  To create a new record, on the navigation bar select, the More button ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").
+1.  To create a new record, on the navigation bar select, the More button ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis").
 
 2.  Select **Quick Create Menu**.
 
@@ -245,7 +165,7 @@ Take action on a record without opening the record.
     > [!div class="mx-imgBorder"] 
     > ![Choose record](media/actionmenu1.png "Choose record").
 
-2. From the list of records, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") on the record you want to update and then select an action such as **Assign**, **Deactivate** or **Delete**. 
+2. From the list of records, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") on the record you want to update and then select an action such as **Assign**, **Deactivate** or **Delete**. 
 
     > [!div class="mx-imgBorder"] 
     > ![Action menu](media/actionmenu.png "Take action on a record").
@@ -262,7 +182,7 @@ Activities are details that you add to a record which include things like notes,
     > [!div class="mx-imgBorder"] 
     > ![Choose record](media/actionmenu1.png "Choose record").
 
-2. On the open record, next to **Summary** selct ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png) > **Timeline**.
+2. On the open record, next to **Summary** selct ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png) > **Timeline**.
 
     > [!div class="mx-imgBorder"] 
     > ![Choose the timeline](media/timeline3.png "Choose the timeline").
@@ -281,7 +201,7 @@ Activities are details that you add to a record which include things like notes,
 
 ### Sort and filter the Timeline view
 
-- Select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and select **Open Filter Pane** to filter the records in the timeline by record type or to refresh the Timeline.
+- Select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") and select **Open Filter Pane** to filter the records in the timeline by record type or to refresh the Timeline.
 
 - Select ![Sort timeline view](../mobile-app/media/sortbutton.png "Sort timeline view") to change the sort order for the records from ascending to descending and vice versa.
 
@@ -369,7 +289,7 @@ The assistant reminds you of upcoming activities; it evaluates your communicatio
 
 The assistant draws your attention to your most important items and tasks, drawn from all areas of the app.
 
-- To access the assistant, on the nav bar, slect the More button  ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") > **Relationship Assistant**.
+- To access the assistant, on the nav bar, slect the More button  ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Relationship Assistant**.
 
     > [!div class="mx-imgBorder"] 
     > ![Dynamics 365 for phones and tablets Relationship Assistant](media/RelationshipAssistant.png "Dynamics 365 for phones and tablets Relationship Assistant")
@@ -385,4 +305,6 @@ The assistant draws your attention to your most important items and tasks, drawn
 
 ### See Also  
  [What's supported](support-phones-tablets.md) </br>
- [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)   
+ [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)<br/>
+ [Common Data Service Help](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br/>
+ [Microsoft Dynamics 365 Customer Engagement (on-premises) Help](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/overview)

@@ -1,17 +1,14 @@
 ---
-title: Create rules to automatically route cases (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Understand how to create rules to automatically route cases in Dynamics 365 for Customer Service
-keywords: Create rules; Route cases; Dynamics 365 for Customer Engagement; Customer Service
+title: Create rules to automatically route cases (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service
 author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ms.assetid: 85a8e762-c063-48a5-bf38-ffc4df6a7c79
 ms.custom: dyn365-customerservice
+ms.assetid: 85a8e762-c063-48a5-bf38-ffc4df6a7c79
 search.audienceType: 
   - admin
   - customizer
@@ -23,7 +20,7 @@ search.app:
 
 # Automatically route cases using routing rule sets
 
-Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues. 
+Use routing rules in Dynamics 365 Customer Service to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues. 
 
 ## Preview: Install Routing Rules - Preview solution
 
@@ -53,7 +50,7 @@ While creating custom apps, you might not have routing rules sets available in y
 
     The sitemap is created with Routing Rule Set and go to your custom app to locate Routing Rule Sets in the sitemap.
 
-To Learn more, see [Create a site map for an app using the site map designer](../customize/create-site-map-app.md)
+To Learn more, see [Create a site map for an app using the site map designer](../customerengagement/on-premises/customize/create-site-map-app.md)
 
 ## Preview: Create a routing rule set (Customer Service Hub)
 

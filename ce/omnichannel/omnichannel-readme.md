@@ -1,5 +1,5 @@
 ---
-title: "Known issues and limitations   | MicrosoftDocs"
+title: "Known issues and limitations | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Omnichannel for Customer Service."
 keywords: ""
 author: kabala123
@@ -33,7 +33,7 @@ As an administrator, you must activate the **SDK Message Processing Steps** asso
 
 To workaround the issue, follow these steps:
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to the Common Data Service platform.
 
 2. Go to **Settings** > **Customizations**.
 
@@ -56,17 +56,16 @@ When you open the quick replies menu in the communication panel (Chat and SMS), 
 
 To workaround the issue, follow these steps:
 
-1. Sign in to Omnichannel for Customer Engagement apps.
-2. Select the **Omnichannel Administration** app.
-3. Select **Quick Replies** in the site map.
-4. Select the messages that are repeated several times from the **Active Quick Replies** view.
-5. Select **Delete**. A confirmation dialog appears asking you to confirm.
-6. Select **Delete** to delete the records.
+1. Sign in to Omnichannel Administration app.
+2. Select **Quick Replies** in the site map.
+3. Select the messages that are repeated several times from the **Active Quick Replies** view.
+4. Select **Delete**. A confirmation dialog appears asking you to confirm.
+5. Select **Delete** to delete the records.
 
     > [!div class=mx-imgBorder]
     > ![Delete repeated messages](media/oceh/delete-quick-replies.png "Delete repeated messages")
 
-7. Select **Save** to save the changes.
+6. Select **Save** to save the changes.
 
 > [!Note]
 > The changes you make might take up to 15 mins to reflect in the system. 
@@ -75,7 +74,7 @@ Now, sign in to Omnichannel for Customer Service app and verify if the messages 
 
 ## Customer Summary page shows default icons
 
-If your organization is using earlier releases of chat for Dynamics 365, and after you upgrade to the latest version, the Customer summary page shows the default icon instead of the conversation icon instead of the conversation icon.
+If your organization is using earlier releases of chat for Dynamics 365 Customer Service, and after you upgrade to the latest version, the Customer summary page shows the default icon instead of the conversation icon instead of the conversation icon.
 
 ## Send Link button in the KB Search Page is not localized 
 
@@ -137,7 +136,7 @@ You can continue to use the third-party channel provider in the unified interfac
 While working on a session, after an agent creates a customer (contact/account) or case record using the quick create (+) option in the nav bar, it is not auto-linked to the conversation. As a workaround, the agent can perform an inline search for the newly created record and link it to the conversation.
 
 ## Authentication error for different agent credentials
-If an agent is signed in to Office 365 or Dynamics 365 through a different username in the browser (Internet Explorer or Edge) than the one used for USD sign-in, an authentication error is shown and the user is not allowed to sign in. As a workaround, the user should sign out from all other accounts on the browser and try signing back in.
+If an agent is signed in to Office 365 or Common Data Service through a different username in the browser (Internet Explorer or Edge) than the one used for USD sign-in, an authentication error is shown and the user is not allowed to sign in. As a workaround, the user should sign out from all other accounts on the browser and try signing back in.
 
 ## Transfer to queue does not show a message for the initiating agent 
 When an agent initiates a transfer, the initiating agent becomes a consulting agent without any user interface message. However, the session tab name shows the **Consult** tag because the initiating agent is added to the same conversation as a consulting agent to enable smooth transition.
@@ -154,7 +153,7 @@ The updates you do to the out-of-the-box **Cases Work Distribution Flow** for un
 ### Workaround
 Authorize Common Data Service native connector in the flow before you save it.
 
-More information: [Update cases work distribution flow](administrator/entity-channel.md#step-4-update-cases-work-distribution-flow)
+More information: [Update cases work distribution flow](administrator/multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow)
 
 ## Entity records aren't distributed to agents
 
@@ -168,12 +167,14 @@ You must clear the checkbox to automatically distribute the case records.
 > [!div class=mx-imgBorder]
 > ![Automatic record movement to the agent's default queue](media/route-owner-queue.png "Automatic record movement to the agent's default queue")
 
-## Create new button doesn't appear in queue configuration page
+## Sitemap entry for Entity Records is not localized for other languages
 
-Queue is in read-only state or **+ New** button is missing on queue form and grid sometimes, and there is no way to create an Omni-channel queue and the queue entity is in read-only state
+In the Omnichannel Administration app, in the sitemap, **Entity Records** under the **Channels** area is not localized for other languages. The string appears only in English language for all language environments.
+
+## Routing rules sub grid in entity records shows an error
+
+You might see the routing rules sub grid under an entity records channel displays error intermittently. The error is **You do not have permission to access these records. Contact your administrator for help.**
 
 ### Workaround
 
-Please reach out to Microsoft support team to have read-only flag removed from queue entity.
-
-More information: [Create queues](administrator/entity-channel.md#step-1-create-queues)
+To load the page without the error, refresh the page to load the routing rules sub grid, and proceed with routing rules configuration.

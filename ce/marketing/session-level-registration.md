@@ -1,14 +1,12 @@
 ---
-title: "Enable session-level registration and waitlisting for events (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "Describes how to set up session-level registration and how it differs from event-level registration in Dynamics 365 for Marketing"
+title: "Enable session-level registration and waitlisting for events (Dynamics 365 Marketing) | Microsoft Docs "
+description: "Describes how to set up session-level registration and how it differs from event-level registration in Dynamics 365 Marketing"
 keywords:
 ms.date: 04/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 57c15ccc-6ebf-48d1-aa6b-0b006f195a93
 author: kamaybac
 ms.author: kamaybac
@@ -44,7 +42,7 @@ To enable session-based registration, start by [setting up the event](set-up-eve
 
 With session-based registration, the system tracks registrations for each session rather than for the event as a whole. When session-based registration is enabled, the session capacity is a required field and is also requested by the quick-create form for sessions. However, if you enable session-based registration after creating the session, you may need to go back and set the capacity for each session.
 
-When the system has received enough registrations to fill the capacity of the session, it will mark that session as sold out. If you enabled the waitlist, then registrants can choose to join the waitlist, but if you haven't then they won't be able to self-register for any sold out sessions using the event website. (Users of Dynamics 365 for Marketing, however, can overrule the capacity limit by [adding new registrations directly](invite-register-house-event-attendees.md) into the system.)
+When the system has received enough registrations to fill the capacity of the session, it will mark that session as sold out. If you enabled the waitlist, then registrants can choose to join the waitlist, but if you haven't then they won't be able to self-register for any sold out sessions using the event website. (Users of Dynamics 365 Marketing, however, can overrule the capacity limit by [adding new registrations directly](invite-register-house-event-attendees.md) into the system.)
 
 To set or change the maximum capacity of a session:
 

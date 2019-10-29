@@ -1,10 +1,7 @@
 ---
-title: Set up resource categories for Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to create and set up resource categories for service scheduling in Dynamics 365 for Customer Service
-keywords: Resource categories; Service Scheduling; Dynamics 365 for Customer Engagement; Customer Service; Universal Resource Scheduling (URS)
+title: Set up resource categories for Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Know how to create and set up resource categories for service scheduling in Dynamics 365 Customer Service
 author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 11/20/2018
@@ -25,7 +22,7 @@ search.app:
 
 With bookable resource categories, you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [Multi-resource scheduling with requirement groups](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/multi-resource-scheduling-requirement-groups)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [Multi-resource scheduling with requirement groups](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/multi-resource-scheduling-requirement-groups)
 
 ## Create a new resource category
 

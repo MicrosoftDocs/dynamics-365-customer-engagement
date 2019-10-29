@@ -42,7 +42,7 @@ By monitoring the conversations, you will get an overview of how each conversati
   
 By joining the conversation, you provide necessary inputs to both agent and customer based on the selected message mode (public or internal) in the communication panel.
 
-1.	Sign in to Dynamics 365 for Customer Service and go to **Omnichannel for Customer Service** app.
+1.	Sign in to Dynamics 365 Customer Service and go to **Omnichannel for Customer Service** app.
 
 2.  From the dashboard view selector, select **Omnichannel Ongoing Conversations** dashboard.
 
@@ -92,6 +92,8 @@ The following screen shows an example of sentiment column in Omnichannel Ongoing
 
 ### See also
 
--  [Configure intraday insights dashboard for Unified Service Desk](../administrator/configure-intraday-dashboard-supervisor.md)
+[Configure intraday insights dashboard for Unified Service Desk](../administrator/configure-intraday-dashboard-supervisor.md)
 
--  [Enable sentiment analysis](../administrator/enable-sentiment-analysis.md)
+[Enable supervisors to monitor and assign conversations](../administrator/configure-ongoing-conversations-settings.md)
+
+[Enable sentiment analysis](../administrator/enable-sentiment-analysis.md)

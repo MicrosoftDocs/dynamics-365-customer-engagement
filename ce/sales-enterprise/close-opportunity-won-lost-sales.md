@@ -1,19 +1,17 @@
 ---
-title: "Close an opportunity as won or lost (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Close an opportunity as won or lost (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Close the opportunity to indicate whether it was won or lost."
 keywords: "Close, Won, Lost, opportunity, proposal"
-ms.date: 04/12/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: be3ff5e6-019b-4c07-aebb-e5792af19b4d
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 13
 ---
 
@@ -54,8 +52,7 @@ If your customer has accepted your proposal, congratulations! However, whether y
         ![Close Opportunity dialog box when the opportunity is lost](media/close-as-lost.png "Close Opportunity dialog box when the opportunity is lost")
 
     > [!IMPORTANT]
-    > - If your system administrator has enabled custom fields on the Opportunity Close form, you may be required to fill in data in other fields as defined by your organization. The capability to enable custom fields on the Opportunity Close form is in preview.  [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md). 
-    > - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
+    > If your system administrator has enabled custom fields on the Opportunity Close form, you may be required to fill in data in other fields as defined by your organization. 
 
 
 For information on how to resolve the common errors that you may see while closing an opportunity, see the [troubleshooting guide](troubleshooting.md).
@@ -79,4 +76,4 @@ If you've closed an opportunity as lost, but would like to start discussions abo
 ### See also  
  [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)   
  [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)  
- [Dynamics 365 for Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
+ [Dynamics 365 Sales troubleshooting guide for administrators](troubleshooting-admin.md)  

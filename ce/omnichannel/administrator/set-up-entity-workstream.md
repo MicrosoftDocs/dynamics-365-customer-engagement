@@ -1,53 +1,41 @@
 ---	
 title: "Set up entity work stream | MicrosoftDocs "	
-description: "Learn how to set up entity work stream in the Omnichannel for Customer Service"	
-keywords: Create entity channel; Omnichannel for Customer Service; Omnichannel for Administrator
+description: "Learn how to set up entity work stream in the Omnichannel for Customer Service."
 author: kabala123	
 ms.author: kabala	
 manager: shujoshi	
 applies_to: 	
-ms.date: 09/18/2019
+ms.date: 10/25/2019
 ms.service: dynamics-365-customerservice	
 ms.topic: article	
 ms.assetid: 62703F93-3484-4D3E-B682-A9601619567F	
 ms.custom: 	
 ---	
 
-# Preview - Entity record workstreams
+# Create workstream for entity record routing
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
-
 ## Create entity record workstream
 
-This topic describes how to create a workstream that is used to route the case entity record.
+To route entity records, as a first step, you need to enable entity for routing using entity records channel configuration. To learn more [Entity records routing](entity-channel.md).
 
-> [!NOTE]
-> In the August 2019 update release, by default, entity records workstream routes and distributes only the **Case** entity record. Support for other entity records will be available in the future release, and you can select the entity record you want to route.
+This topic describes how to create a workstream for an entity that has been enabled for routing.
 
-1. Sign in to the Omnichannel for Administrator app.
+1. Sign in to the Omnichannel Administration app.
 
-2. Select **Entity Records** under **Channels** in the sitemap.
+2. Select **Work Streams** under **Channels** in the sitemap.
 
-3. Select **+ New** in the **Entity Records Workstreams** page.
-
-    > [!div class=mx-imgBorder] 
-    > ![Create new Cases workstream](../media/case-ws1.png "Create new workstream")
+3. Select **+ New** in the **Active Work Streams** page.
 
 4. Specify the following in the **New Work Stream** page.
 
     | Tab | Field | Value | Description | 
     |---------------------|-----------------------------|-------------------------------------------|-------------------------------------------------|
-    | Work Distribution | Name | Case Workstream | Provide a name to the workstream. <br> **Note:** <ul><li> If you update the name of the workstream, you must update **Cases Work Distribution flow** by navigating to Microsoft Flow.</li> <li> The value provided is an example. </li></ul>  |
-    | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list. <br> **Note:** <ul> <li> In the August 2019 update release, by default, entity records workstream routes and distributes only the **Case** entity record. Support for other entity records will be available in the future release, and you can select the entity record you want to route. </li> </ul>|
+    | Work Distribution | Name | Case Workstream | Provide a name to the workstream. <br> **Note:** The value provided is an example.  |
+    | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list.|
+    | Work Distribution | Entity | Case | Select an entity from the drop-down menu. <br> If you want to create a entity, select **+ New**. To learn more, see [Enable entity for routing](entity-channel.md#step-3-enable-entity-for-routing). |
     | Work Distribution | Capacity | 50 |Specify the units of capacity that are required to process a conversation for the workstream in the text box. <br> **Note:** <ul><li> The value provided is an example. </li></ul> |
-    | Work Distribution | Auto-close after inactivity | 5 minutes | Set time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity. <br> **Note:** <ul><li> The value provided is an example. </li></ul> |
     | Work Distribution | Work distribution mode | Push | Select **Push** when you want to automatically route the cases to the agents. <br><br> Select **Pick** when you want the agents to explicitly pick a conversation from the **Open work items** in agent dashboard. |
     | Work Distribution | Allowed presences | Allowed, Busy | Set the allowed presence status <br><br> Select the option and type a presence status in the search box. Select a status from the list. <br> **Note:** <ul><li> The value provided is an example. </li></ul>|
 
@@ -56,10 +44,17 @@ This topic describes how to create a workstream that is used to route the case e
 
 5. Select **Save** to save the workstream.
 
+> [!Note]
+> When you enable an entity for routing, the Omnichannel Administration app creates a default workstream for each entity. If you create a new workstream or update the default workstream according to your business scenario, you need to update these workstream information in **Entity Records distribution Flow**. To learn more, see [Update entity records work distribution flow](multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
+
+## Upgrade path for preview users
+
+If you are upgrading from preview release to the latest version, then earlier configured workstreams will be obsolete. You need to create a new entity records channel and then redefine the workstreams. To learn more, see [Entity records routing](entity-channel.md).
+
 ## See also
 
 [Entity records routing](entity-channel.md)
 
 [Understand and create workstreams](work-streams-introduction.md)
 
-[Walkthrough: Create multiple workstreams for entity records routing](multiple-ws-entity-record-routing.md)
+[Create multiple workstreams for entity records routing](multiple-ws-entity-record-routing.md)

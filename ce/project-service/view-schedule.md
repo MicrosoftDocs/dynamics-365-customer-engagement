@@ -1,5 +1,5 @@
 ---
-title: View your schedule (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: View your schedule 
 description: How to view your schedule in Project Service
 author: ruhercul
 manager: kfend

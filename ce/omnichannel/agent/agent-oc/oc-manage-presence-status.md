@@ -24,7 +24,7 @@ Presence is the indication of your availability or status.
 
 ## View your presence status
 
-As an agent, you can view your presence status that is shown in the Dynamics 365 nav bar. Select the icon to launch the presence dialog. Each presence status indicates an icon:
+As an agent, you can view your presence status that is shown in the nav bar. Select the icon to launch the presence dialog. Each presence status indicates an icon:
 
   - ![Offline presence status](../../media/oceh/oceh-offline-icon.png "Offline presence status") - Offline
 

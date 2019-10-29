@@ -22,7 +22,7 @@ ms.custom:
 
 Customer service managers or supervisors are responsible for managing the agents who work with customers to resolve queries every day through various service channels.
 
-Omnichannel for Customer Service provides dashboards that help supervisors keep track of the work that their agents do. As a supervisor, you can use these dashboards to perform these tasks:
+Omnichannel for Dynamics 365 Customer Service provides dashboards that help supervisors keep track of the work that their agents do. As a supervisor, you can use these dashboards to perform these tasks:
 
 -	Monitor key performance indicators (KPIs)
 
@@ -50,11 +50,6 @@ Verify the following prerequisites before you use the supervisor dashboards:
 -  Omnichannel supervisor role is assigned. To learn more, see [Enable users for Omnichannel Customer Service](../administrator/add-users-assign-roles.md).
 
 -  **Power BI Pro** or **Power BI Premium** license is assigned to you.  
-
--  User is added in supervisor configuration when using intraday insights dashboard for USD. To learn more, see [Add users to supervisor configuration](../administrator/configure-intraday-dashboard-supervisor.md#add-users-to-supervisor-configuration).
-
-- While using the **Omnichannel for Customer Service** app on web, intraday insights dashboard must be shared with supervisors. To learn more, see [Add users to supervisor configuration](../administrator/configure-intraday-dashboard-supervisor.md#share-dashboard-in-omnichannel-for-customer-service-app-on-web).
-
 
 ### See also
 

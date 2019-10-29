@@ -1,16 +1,14 @@
 ---
-title: Understanding Cases and SLA in Customer Service Hub in Dynamics 365 for Customer Engagement | Microsoft Docs
-description: Understand Cases and SLA in Customer Service Hub for Customer Service in Microsoft Dynamics 365 for Customer Engagement
-keywords: Cases; SLA; Customer Service Hub; Customer Service;  Microsoft Dynamics 365 for Customer Engagement; Create a case; Manage a case;  Merge cases; Resolve a case; Track SLA details with Timer Control; Manage activities from the Timeline; Convert a case to a Knowledge article; Create and manage parent and child cases
+title: Understanding Cases and SLA in Customer Service Hub | Microsoft Docs
+description: Understand Cases and SLA in Customer Service Hub for Dynamics 365 Customer Service.
 author: anjgupta
-applies_to: Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
 ms.custom: dyn365-customerservice
+ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
 search.audienceType: 
   - admin
   - customizer
@@ -30,7 +28,7 @@ You can capture important information about customers, interactions you’ve had
 
 Watch this video to learn more about case management in the Customer Service Hub:
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/cde80c83-f592-4b15-b1a1-4fae13be93f9" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/cde80c83-f592-4b15-b1a1-4fae13be93f9" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## Create a case
 1. Make sure that you have the Customer Service Manager or Customer Service Representative role, or equivalent permissions.<br/>
@@ -105,7 +103,7 @@ Watch this video to learn more about case management in the Customer Service Hub
     ![completed-case](media/completed-case.png "Completed case form")
 
 > [!NOTE]
-> If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customize/edit-entities.md#enable-or-disable-entity-options).
+> If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customerengagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
 
 ## Track SLA details with Timer Control  
 You or the CSR working on the case can see the SLA details right on the case form. See the below section to know what happens when an  SLA is applied to a case form. 
@@ -115,7 +113,7 @@ You or the CSR working on the case can see the SLA details right on the case for
 Only the failure time is tracked and saved on the case record. You can ask your system administrator or customizer to add a timer to the case form. The timer shows the time remaining to meet the SLA or the time elapsed since the SLA failed. 
 
 > [!NOTE]
-> It is recommended to use only Enhanced SLA as Standard SLA is deprecated. For more information, see [Important changes coming in Dynamics 365 for Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> It is recommended to use only Enhanced SLA as Standard SLA is deprecated. For more information, see [Important changes coming in Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
 
 ### Case form with Enhanced SLA applied 
 When an enhanced SLA is applied to a case, a related **SLA KPI Instance** record is created for each SLA KPI that is tracked for that case. On the **Summary** tab of the case record, you’ll see a timer that shows the time remaining to meet each SLA KPI.<br /><br /> ![Timer showing time left to achieve SLA KPI](../customer-service/media/v9-1-enhancedslatimer-case-form.png "Timer showing time left to achieve SLA KPI")<br /><br />When a service rep puts a case on hold, the status of the SLA KPI Instance is set to **Paused**. You can see the time for which a case was on hold and the last time the case was put on hold. These details are not available on the case form by default, but your system customizer can add these fields on the case form for you. 
@@ -399,7 +397,7 @@ Your system administrator can enable entities other than case for SLA. For the C
   With this enhancement, you can define metrics or key performance indicators (KPIs) to meet the service level for these entity records.  
 
 > [!NOTE]
->  SLAs can only be created in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application. However, you can ask your system administrator or customizer to add a timer to your interactive experience forms to track the SLA KPI details in the Customer Service Hub.  
+>  SLAs can only be created in the Dynamics 365 Customer Service. However, you can ask your system administrator or customizer to add a timer to your interactive experience forms to track the SLA KPI details in the Customer Service Hub.  
 
 To know more about how to create SLAs, see [Define Service Level Agreements (SLAs)](define-service-level-agreements.md).
 
@@ -407,4 +405,4 @@ To know more about how to create SLAs, see [Define Service Level Agreements (SLA
 
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
 
-[Use the Main form and its components](../customize/use-main-form-and-components.md)
+[Use the Main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)

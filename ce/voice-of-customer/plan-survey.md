@@ -5,8 +5,6 @@ keywords: plan a survey; survey best practices; survey question types
 ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: ad3388d5-4c50-4005-a067-8498069ead93
 author: sbmjais
 ms.author: shjais
@@ -63,7 +61,7 @@ A few best practices will enable you to create a meaningful survey and gather go
 
 ## Decide the question type
 
-Deciding the question types while planning a survey helps you to create an organized survey and maintain a flow between the questions. The following table describes the Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] question types.
+Deciding the question types while planning a survey helps you to create an organized survey and maintain a flow between the questions. The following table describes the Voice of the Customer for Dynamics 365 question types.
 
 **Web client**
 
@@ -140,7 +138,7 @@ Voice of the Customer provides the following workflows out-of-the-box.
 |            VoC - Unsubscribe respondent            |  Survey Response   |    Unsubscribe the respondent from a channel (for example, email) based on the response.    |
 |                                                    |                    |                                                                                             |
 
-You can also create a workflow that sends a survey to a customer, asking for the feedback as soon as a case is closed. More information about creating a new workflow in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]: [Create custom business logic through processes](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/guide-staff-through-common-tasks-processes) 
+You can also create a workflow that sends a survey to a customer, asking for the feedback as soon as a case is closed. More information about creating a new workflow in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]: [Create custom business logic through processes](https://docs.microsoft.com/dynamics365/customer-engagement/customize/guide-staff-through-common-tasks-processes) 
 
 ### See also
 [Design a basic survey](design-basic-survey.md)   

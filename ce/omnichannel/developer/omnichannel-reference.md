@@ -6,7 +6,6 @@ ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
-applies_to:
 ms.assetid: 73F79CBC-E15B-46AB-B779-F2F663D21773
 author: susikka
 ms.author: susikka
@@ -29,6 +28,7 @@ The following JavaScript methods can be used to perform various operations with 
 | [getAuthTokenProvider](reference/methods/getAuthTokenProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/getAuthTokenProvider-description.md)] |
 | [removeAuthTokenProvider](reference/methods/removeAuthTokenProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/removeAuthTokenProvider-description.md)] |
 | [startChat](reference/methods/startChat.md) | [!INCLUDE[startchat-description](reference/includes/startChat-description.md)] |
+| [startProactiveChat](reference/methods/startProactiveChat.md) | [!INCLUDE[startproactivechat-description](reference/includes/startProactiveChat-description.md)] |
 
 ## Events
 

@@ -1,6 +1,6 @@
 ---
-title: "Manage content for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
-description: "Learn how to manage portal content in Dynamics 365 for Customer Engagement."
+title: "Manage content for a portal | MicrosoftDocs"
+description: "Learn how to manage portal content."
 ms.custom: 
   - dyn365-portal
 ms.date: 12/03/2018
@@ -28,12 +28,12 @@ Create, edit, and curate your portal content to provide information and illustra
 - Edit a portal in real time and see your changes live. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use the front-side editing engine to publish content](publish-content-editing-engine.md)  
 - Manage webpage data and attributes to organize the content on your portal. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create and manage web pages](web-page.md)
 - Provide download files to add functionality and usability, or to supplement products, features, and services. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create and manage web files](web-files.md)
-- Create links to internal or external pages to help users find the right information. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage web links in Dynamics 365 for Customer Engagement or on portals](manage-web-links.md)  
+- Create links to internal or external pages to help users find the right information. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage web links](manage-web-links.md)  
 - Use content snippets to create reusable content and update all relevant content at once. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customize content by using content snippets](customize-content-snippets.md)  
 
 ### See also
 
 [Engage with communities by using the community portal](engage-with-communities.md)  
 [Create a theme for your portal](create-theme.md)  
-[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
+[Configure a portal](configure-portal.md)  
 

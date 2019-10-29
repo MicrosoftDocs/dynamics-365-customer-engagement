@@ -1,5 +1,5 @@
 ---
-title: Configure additional parameter settings (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Configure additional parameter settings
 description: How to configure additional parameter settings in Project Service
 author: JohnPBurrows
 manager: kfend
@@ -55,6 +55,9 @@ To set project parameters:
 4. In the **Price List** area, click **+** to add a price list, select a price list in the **Project Parameter Price List** drop-down list, and then click **Save**.  
   
 5. Click the **Save** button in the bottom right corner of the screen.  
-  
+
+> [!NOTE]
+> The project parameter record must be maintained for Project Service to function correcly. This record should not be deleted.
+
 ### See Also  
  [Set up resources](../project-service/set-up-resources.md)

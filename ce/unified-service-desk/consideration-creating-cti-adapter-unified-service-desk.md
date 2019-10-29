@@ -1,22 +1,11 @@
 ---
 title: "Considerations for creating a CTI adapter for Unified Service Desk | MicrosoftDocs"
-description: "The topic provides information on things to consider while creating a computer telephony integration (CTI) adapter to make it work with Unified Service Desk. "
-ms.custom: 
-  - dyn365-USD
+description: "The topic provides information on things to consider while creating a computer telephony integration (CTI) adapter to make it work with Unified Service Desk."
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 6b59cb93-8e3b-4224-b6fe-c9964fcefbfb
-caps.latest.revision: 8
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -69,7 +58,7 @@ This topic provides information on things to consider while creating a computer 
   | Calltype  |                                                                    Specify “phonecall” for voicecalls and “chat” for chat sessions..                                                                    |
 
 
-- [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] adapters should not automatically create activities in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps because this is not always the desired behavior. Therefore, this should be left for the system administrators to configure.  
+- [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] adapters should not automatically create activities in the Common Data Service platform because this is not always the desired behavior. Therefore, this should be left for the system administrators to configure.  
 
     ```csharp  
     try  
@@ -86,11 +75,11 @@ This topic provides information on things to consider while creating a computer 
 
 <a name="CTISearch"></a>   
 ## CTI search  
- [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] searches are done using FetchXML in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. You can search using any data passed in any parameter from [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] against any field in your entity of choice in Dynamics 365 for Customer Engagement apps. Searches are performed one rule at a time until a match is found. Once a match to a window navigation rule in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is found, it will follow the guidance configured in the navigation rule for the next step. Typically, a rule is set up to open a session around the activity, and optionally display the activity in a tab. For more information about how to configure a window navigation rule to perform a [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)]search, see [Walkthrough: Use generic listener adapter for CTI events](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md).  
+ [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] searches are done using FetchXML in the Common Data Service platform. You can search using any data passed in any parameter from [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] against any field in your entity of choice in the Common Data Service platform. Searches are performed one rule at a time until a match is found. Once a match to a window navigation rule in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is found, it will follow the guidance configured in the navigation rule for the next step. Typically, a rule is set up to open a session around the activity, and optionally display the activity in a tab. For more information about how to configure a window navigation rule to perform a [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)]search, see [Walkthrough: Use generic listener adapter for CTI events](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md).  
 
  Let us configure a sample CTI search rule using the window navigation rule in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. For more information about the window navigation rule, see [Use window navigation rules in Unified Service Desk](../unified-service-desk/use-window-navigation-rules-unified-service-desk.md).  
 
-1. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement**, and then select **Settings**.  
+1. On the nav bar, choose **Dynamics 365**.  
 
 2. On the nav bar, choose **Settings**, and then select **Window Navigation Rules**.  
 
@@ -108,7 +97,7 @@ This topic provides information on things to consider while creating a computer 
 
 8. In the **New CTI Search** screen, specify a name and order for the CTI search query. The direction field is Inbound or Outbound and is used to search against only a specific direction of CTI event. This direction is passed from the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] adapter.  
 
-    Enter the required FetchXML query for the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] search. Use the advanced find feature in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps to create your initial search, and then download the FetchXML. The key field is often not available in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps Advanced Find search, so you may find that you need to add that condition manually to the XML after you have exported it. You should also select the attributes that you’re interested to show up in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context. These show up immediately rather than be populated after pages load in the display like the other types of data parameters. Once you have the FetchXML you want, paste the text into the **FetchXML** box, and save the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] search rule.  
+    Enter the required FetchXML query for the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] search. Use the advanced find feature in the Common Data Service platform to create your initial search, and then download the FetchXML. The key field is often not available in the Common Data Service platform Advanced Find search, so you may find that you need to add that condition manually to the XML after you have exported it. You should also select the attributes that you’re interested to show up in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context. These show up immediately rather than be populated after pages load in the display like the other types of data parameters. Once you have the FetchXML you want, paste the text into the **FetchXML** box, and save the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] search rule.  
 
    ![New CTI search in Unified Service Desk](../unified-service-desk/media/usd-cti-search-rule-2.PNG "New CTI search in Unified Service Desk")  
 
@@ -128,7 +117,7 @@ This topic provides information on things to consider while creating a computer 
    |                 Decision                  |                                                                                                                                                                           Description                                                                                                                                                                            |
    |-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    |       Create Session then Do Action       |                                                                                                                    Creates a new session before firing a configured action. This action will be fired within the context of this new session.                                                                                                                    |
-   | Create Session, Load Match then Do Action |                                                 Creates a session, then loads the match into a tab or Entity Search based upon the selection in the Result Tab of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps form. Finally, it calls an action. This option is only valid for single match.                                                 |
+   | Create Session, Load Match then Do Action |                                                 Creates a session, then loads the match into a tab or Entity Search based upon the selection in the Result Tab of the model-driven apps form. Finally, it calls an action. This option is only valid for single match.                                                 |
    |                 Do Action                 | Tells the system to do nothing with the result, but optionally call a configured action specific to this condition. You can call the `FireEvent` action on Global Manager hosted control, if you want to call multiple actions in sequence as a result of this. This action will be fired in the context of the current session. No new session will be created. |
    |                 Next Rule                 |                                                                                              Tells the system to ignore the rest of the processing of this rule and to look for other rules that may match. New searches will be performed against subsequent rule.                                                                                              |
 

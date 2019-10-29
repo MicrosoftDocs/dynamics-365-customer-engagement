@@ -1,5 +1,5 @@
 ---
-title: "Use Liquid filters for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Use Liquid filters for a portal | MicrosoftDocs"
 description: "Learn about the available liquid filters in a portal."
 ms.custom: 
   - dyn365-portal
@@ -447,9 +447,9 @@ Date filters can be used for date arithmetic or to convert DateTime values into 
 
 Formats a DateTime value using a .NET format string.
 
-[Standard Date and Time Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings)  
+[Standard Date and Time Format Strings](https://docs.microsoft.com/dotnet/standard/base-types/standard-date-and-time-format-strings)  
 
-[Custom Date and Time Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings)  
+[Custom Date and Time Format Strings](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings)  
 
 **Code**
 

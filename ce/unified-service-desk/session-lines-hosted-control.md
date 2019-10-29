@@ -1,22 +1,11 @@
 ---
-title: "Session Lines (Hosted Control) in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Session Lines (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn about Session Lines type of hosted control in Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 7dfc327f-4a42-44e6-be16-333fd9c4c277
-caps.latest.revision: 8
 author: kabala123
 ms.author: kabala
 manager: shujoshi

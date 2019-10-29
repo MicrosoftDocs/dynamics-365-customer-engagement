@@ -1,6 +1,6 @@
 ---
 title: Project costs and revenue
-description: This topic provides information about estimating project costs and revenue in Dynamics 365 for Project Service Automation.
+description: This topic provides information about estimating project costs and revenue.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
