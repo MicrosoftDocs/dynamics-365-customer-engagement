@@ -89,8 +89,8 @@
 ### [Frequently asked questions](mobile-faq.md)
 ### Troubleshooting topics
 #### [What is the latest version of the mobile app and configuration tool?](mobile-faq-latest-version.md)
-#### [My mobile app will not sync to the server / crashes immediately](mobile-faq-sync-crash.md)
-#### [Why can't I see my bookings when logged into the app?](mobile-faq-bookings-not-showing.md)
+#### [Mobile app won't sync to server or crashes immediately](mobile-faq-sync-crash.md)
+#### [Bookings don't appear when logged into the app?](mobile-faq-bookings-not-showing.md)
 #### [Bookings not scheduled to me show up when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
 ## [Get help](mobile-get-help.md) 
 
