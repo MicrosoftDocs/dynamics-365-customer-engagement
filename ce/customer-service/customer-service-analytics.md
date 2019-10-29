@@ -18,7 +18,7 @@ search.app:
   - D365CS
 ---
 
-# Customer Service Analytics for Dynamics 365
+# View and Understand Customer Service Analytics for Dynamics 365
 
 The Customer Service Analytics dashboard provides information about the historical operational metrics and key performance indicators (KPIs) to effectively manage contact centers. 
 
