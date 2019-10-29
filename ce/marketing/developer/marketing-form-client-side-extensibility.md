@@ -28,16 +28,16 @@ Marketing forms can be extended using JavaScript to perform custom business acti
 
 ## Javascript API
 
-We're assuming the latest version of javascript API. Make sure that your references to `form-loader.js` or `loader.js` script look like `https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=...` or `https://mktdplp102cdn.azureedge.net/public/latest/js/loader.js?v=...` respectively. 
+We're consuming the latest version of Javascript API. Make sure that your references to `form-loader.js` or `loader.js` script look like `https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=...` or `https://mktdplp102cdn.azureedge.net/public/latest/js/loader.js?v=...` respectively. 
 
 ### MsCrmMkt.MsCrmFormLoader methods
 
 |Function Name|Description|Parameter name| Parameter type|Parameter Description|Returns|
 |------|-------|--------------|------|-------|----------|
 |`.on(eventType,callback)`|Registers a callback to a type of form lifecycle event|`eventType`|`string`, one of `"afterFormLoad"`, `"afterFormRender"`, `"afterFormSubmit"`, `"formLoad"`, `"formRender"`, `"formSubmit"` | Event type to hook to | `undefined`
-|||`callback`|`Function` | Callback function | 
+|`callback`|Callback function | |`Function`||
 |`.off(eventType)`|Unregister a callback(s) of given form  lifecycle event|`eventType` optional|`string`, one of `"afterFormLoad"`, `"afterFormRender"`, `"afterFormSubmit"`, `"formLoad"`, `"formRender"`, `"formSubmit"` |Event type to hook to|`undefined`
-| `.sendFormCaptureToCrm(form)`| Send a form submission to Dynamics 365, supported only for form capturing scenario|`form`|Dom element representing the form or jQuery selector representing the form|Form dom element|`Promise<string>`
+| `.sendFormCaptureToCrm(form)`| Send a form submission to Dynamics 365, supported only for form capturing scenario|`form`|DOM element representing the form or JQuery selector representing the form|Form DOM element|`Promise<string>`
 
 ### Form events
 
@@ -55,20 +55,20 @@ For each event callback following methods are available:
 
 |Method Name|Description|Return type|
 |----|----|----|
-|`.getType()`|Gets event type|`string`, one of `"afterFormLoad"`, `"afterFormRender"`, `"afterFormSubmit"`, `"formLoad"`, `"formRender"`, `"formSubmit"` 
-|`.getFormPageId()`|Gets form page id - this relates to `msdyncrm_formpage` entity unique identifier|`string`
-|`.getFormPlaceholder()`|Gets DOM element representing the form| DOM element
-|`.preventDefault()`|Cancel form submission, valid only for event of `formSubmit` type|`undefined`
-|`.preventFormLoadingProgressBar()`|Hides spinner while form is loading,valid only for event of `formLoad` type|`undefined`
+|`.getType()`|Gets the event type|`string`, one of `"afterFormLoad"`, `"afterFormRender"`, `"afterFormSubmit"`, `"formLoad"`, `"formRender"`, `"formSubmit"` 
+|`.getFormPageId()`|Gets the form page id - this relates to `msdyncrm_formpage` entity unique identifier|`string`
+|`.getFormPlaceholder()`|Gets the DOM element representing the form| DOM element
+|`.preventDefault()`|Cancels the form submission, valid only for event of `formSubmit` type|`undefined`
+|`.preventFormLoadingProgressBar()`|Hides the spinner while the form is loading, valid only for event `formLoad` type|`undefined`
 
 ### Form capturing behavior customization
 
-The form capturing is directed by the configuration element that looks like `<div class="d365-mkt-config" style="display:none" data-website-id="..." data-hostname="...">`. You can change behavior of form capturing by adding following attributes:
+The form capturing is directed by the configuration element that looks like `<div class="d365-mkt-config" style="display:none" data-website-id="..." data-hostname="...">`. You can change the behavior of the form capturing by adding the following attributes:
 
 |Attribute name|Description|
 |------|-------|
-|`data-ignore-prevent-default="true"`|When specified form will be submitted regardless of the fact that `.preventDefault()` was invoked on the event.|
-|`data-no-submit="true"`|When specified the form capturing script won't hijack the form submit event, you should trigger then `MsCrmMkt.MsCrmFormLoader.sendFormCaptureToCrm(form)` explicitly. This is useful for cases when you want to do your form submission first and sync to Dynamics 365 later.
+|`data-ignore-prevent-default="true"`|When specified, form will be submitted regardless of the fact that `.preventDefault()` was invoked on the event.|
+|`data-no-submit="true"`|When specified, the form capturing script won't capture the form submit event, you should trigger the `MsCrmMkt.MsCrmFormLoader.sendFormCaptureToCrm(form)` explicitly. This is useful for cases when you want to do your form submission first and sync to Dynamics 365 later.
 
 
 ## Add your code snippet while using Portals
@@ -131,7 +131,7 @@ To add the code snippet, you need to follow the steps below:
 2. Filling the incoming query string parameters to hidden fields.
 
     ```JS
-     MsCrmMkt.MsCrmFormLoader.on('afterFormLoad,function(event) {
+     MsCrmMkt.MsCrmFormLoader.on('afterFormLoad', function(event) {
      var self = window.location.toString();
      var queryString = self.split("?");
      var hiddenFields = document.querySelectorAll("input[type=hidden]");
