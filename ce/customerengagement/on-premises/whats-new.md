@@ -1,5 +1,5 @@
 ---
-title: "New features in Dynamics 365 Customer Engagement (on-premises), version 9.x"
+title: "New features in Dynamics 365 Customer Engagement (on-premises), version 9"
 ms.date: "09/26/2019"
 ms.topic: "topic"
 ms.assetid: 676b68d9-2a7b-4924-a5cf-299163e8b5ea
@@ -8,9 +8,9 @@ ms.author: matp
 manager: kvivek
 ---
 
-# New features in Dynamics 365 Customer Engagement (on-premises), version 9.x
+# New features in Dynamics 365 Customer Engagement (on-premises), version 9
 
-This topic lists new features that are available with Dynamics 365 Customer Engagement (on-premises), version 9.x.
+This topic lists new features that are available with Dynamics 365 Customer Engagement (on-premises), version 9.
 
 > [!NOTE]
 > The model-driven apps in Dynamics 365 such as Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Field Service, and Dynamics 365 Project Service Automation apps already have these features. More information: [Dynamics 365 Documentation](https://docs.microsoft.com/dynamics365). 

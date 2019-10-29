@@ -1,5 +1,5 @@
 ---
-title: "getEnvironment (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | Microsoft Docs"
+title: "getEnvironment (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
 description: ""
 keywords: ""
 ms.date: 10/12/2018

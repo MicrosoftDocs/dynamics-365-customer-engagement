@@ -51,11 +51,6 @@ Verify the following prerequisites before you use the supervisor dashboards:
 
 -  **Power BI Pro** or **Power BI Premium** license is assigned to you.  
 
--  User is added in supervisor configuration when using intraday insights dashboard for USD. To learn more, see [Add users to supervisor configuration](../administrator/configure-intraday-dashboard-supervisor.md#add-users-to-supervisor-configuration).
-
-- While using the **Omnichannel for Customer Service** app on web, intraday insights dashboard must be shared with supervisors. To learn more, see [Add users to supervisor configuration](../administrator/configure-intraday-dashboard-supervisor.md#share-dashboard-in-omnichannel-for-customer-service-app-on-web).
-
-
 ### See also
 
 -  [Configure to view intraday insights dashboard](../administrator/configure-intraday-dashboard-supervisor.md)
