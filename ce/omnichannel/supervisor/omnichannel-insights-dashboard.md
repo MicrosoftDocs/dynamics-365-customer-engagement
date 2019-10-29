@@ -152,7 +152,7 @@ Reporting structure consists of five sections:
 
 ## Omnichannel Sentiment Analysis Dashboard
 
-   This illustration of the Omnichannel Sentiment Analysis dashboard provides an **overview** of important KPIs and trends relative to the sentiment analysis of chats offered.  
+   This illustration of the Omnichannel Sentiment Analysis dashboard provides an **overview** of important KPIs and trends relative to the sentiment analysis of conversation offered.  
 
    > [!div class=mx-imgBorder]
    > ![Sentiment Analysis Overview](../media/oc-overview.png "Sentiment Analysis Overview")  
@@ -169,9 +169,9 @@ Reporting structure consists of five sections:
    |KPI             |Description                |
    |-----------------|---------------------------|
    |Average Sentiment Pulse              |The predicted customer sentiment in a given timeframe for a set queue/agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions.  |
-   |% Positive Sentiment                 |Count of positive sentiment zone conversations divided by total chat sessions.  |
-   |% Neutral Sentiment                  |Count of neutral sentiment zone conversations divided by total chat sessions.  |
-   |% Negative Sentiment                 |Count of negative sentiment zone conversations divided by total chat sessions.  |
+   |% Positive Sentiment                 |Count of positive sentiment zone conversations divided by total sessions.  |
+   |% Neutral Sentiment                  |Count of neutral sentiment zone conversations divided by total sessions.  |
+   |% Negative Sentiment                 |Count of negative sentiment zone conversations divided by total sessions.  |
    |Conversations with Sentiment predication  |Count of conversations to predict the customer sentiment metrics.|
 
 ### Sentiment Zones
