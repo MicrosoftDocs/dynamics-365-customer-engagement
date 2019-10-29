@@ -174,6 +174,27 @@ Reporting structure consists of five sections:
    |% Negative Sentiment                 |Count of negative sentiment zone conversations divided by total chat sessions.  |
    |Conversations with Sentiment predication  |Count of conversations to predict the customer sentiment metrics.|
 
+### Sentiment Zones
+
+**Positive Sentiment**
+
+Positive sentiment is expressed by the customer writing messages that they are happy, pleased, or positive with the result of the support interaction. Positive sentiment requires the positive words need to **convey positive feeling beyond just simple pleasantries or politeness**. For example, when a customer writes “thank you”, that is just being polite, it doesn’t necessarily mean they are pleased or happy. However, if a customer writes “I can’t thank you enough” or “thank you very much” that is portraying clear positive feeling. Some other examples of simple pleasantries/politeness that shouldn’t be mischaracterized as positive are “Please help” and “Yes". 
+
+**Negative Sentiment**
+
+Negative sentiment is expressed by the customer when they are disappointed with the support interaction. These can be cases where the customer is describing their problem and are frustrated or unhappy because of how it is currently impacting them. For something to be scored with negative sentiment the words need to **clearly convey that the user is unhappy, disappointed, frustrated,** etc.
+
+**Neutral Sentiment**
+
+Neutral sentiment is represented when a customer’s sentiment was neither positive nor negative. A customer’s problem statement isn’t to be scored Negative, rather it should be scored Neutral, unless it contains words that denote emotion.  This is regardless of how severe the user’s problem is. Additionally, messages with non-specific pleasantries and/or politeness are also be scored Neutral and not as Positive.
+
+### View and filter reports 
+
+You can filter the information presented in the reports by selecting **Duration, Channel, Queue Name,** and **Agent Name**.
+
+   > [!div class=mx-imgBorder]
+   > ![Sentiment Analysis Filtered Report](../media/oc-sentiment-filtered-report.png "Sentiment Analysis Filtered Report")
+
 ### See also
 
 [Introduction to Omnichannel Insights dashboard](../supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
