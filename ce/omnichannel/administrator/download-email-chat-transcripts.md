@@ -84,7 +84,7 @@ Admins can enable customers to download and/or email chat transcripts by going t
    > [!div class=mx-imgBorder]
    > ![Customize Email Chat Transcript](../media/oc-chat-transcript-customize-email-transcript.png "Customize Email Chat Transcript Transcript")
 
-## See Also
+## See also
 
 [Add a chat widget](https://docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/add-chat-widget)
 
