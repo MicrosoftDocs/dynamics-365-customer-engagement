@@ -184,7 +184,7 @@
         ],
         "marketing/**.*": [
           "Dynamics 365",
-          "PowerApps"
+          "PowerApps",
           "Marketing"
         ],
         "mobile-app/**.*": [
@@ -201,17 +201,17 @@
         ],
         "project-service/**.*": [
           "Dynamics 365",
-          "PowerApps"
+          "PowerApps",
           "Project Service"
         ],
         "sales-enterprise/**.*": [
           "Dynamics 365",
-          "PowerApps"
+          "PowerApps",
           "Sales"
         ],
         "sales-professional/**.*": [
           "Dynamics 365",
-          "PowerApps"
+          "PowerApps",
           "Sales"
         ],
         "social-engagement/**.*": [
