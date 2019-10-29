@@ -2,7 +2,7 @@
 title: "Provision Omnichannel for Customer Service | MicrosoftDocs"
 description: "See how you can provision Omnichannel for Customer Service"
 keywords: "Provision Omnichannel for Customer Service"
-ms.date: 10/25/2019
+ms.date: 10/30/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -21,7 +21,8 @@ manager: shujoshi
 Omnichannel for Customer Service provides a modern, customizable, high-productivity app that lets agents help customers across different channels via a unified interface. It lets organizations choose the channel that suits their business needs. It also ensures that a high level of responsive, quality service is received across channels.
 
 > [!NOTE]
-> Before you can provision Omnichannel for Customer Service in your organization, a **Global Tenant Admin** must [Provide data access consent](#provide-data-access-consent). </br> </br> Ensure that all the prerequisites are set up before the app is provisioned. More information, see [Prerequisites](../system-requirements-omnichannel.md#prerequisites). 
+> - Before you can provision Omnichannel for Customer Service in your organization, a **Global Tenant Admin** must [Provide data access consent](#provide-data-access-consent).
+> - Ensure that all the prerequisites are set up before the app is provisioned. More information, see [Prerequisites](../system-requirements-omnichannel.md#prerequisites). 
 
 Looking for an upgrade? See [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md) for more information.
 
