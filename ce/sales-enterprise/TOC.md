@@ -123,5 +123,5 @@
 #### [RecalculatePrice Action](../sales-enterprise/developer/reference/recalculateprice-action.md)
 
 # Dynamics 365 Sales (Professional)
-## [Help resources for Dynamics 365 Sales (Professional)](../sales-professional/help-hub)
+## [Help resources for Dynamics 365 Sales (Professional)](../sales-professional/help-hub.md)
 # [Dynamics 365 Sales Insights](/dynamics365/ai/sales/overview)

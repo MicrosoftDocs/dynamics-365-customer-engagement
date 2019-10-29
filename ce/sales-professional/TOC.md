@@ -54,4 +54,4 @@
 ### [Customize the Dynamics 365 Sales Professional app](manage-app.md)
 
 # Dynamics 365 Sales (Enterprise)
-## [Help resources for Dynamics 365 Sales (Enterprise)](../sales-enterprise/help-hub)
+## [Help resources for Dynamics 365 Sales (Enterprise)](../sales-enterprise/help-hub.md)
