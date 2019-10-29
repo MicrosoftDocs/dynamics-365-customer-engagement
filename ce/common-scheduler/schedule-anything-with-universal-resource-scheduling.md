@@ -35,11 +35,11 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
   
 For organizations that use:
 
-- [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)], you can use scheduling tools to assign work orders to the closest field technicians in the area. More information: [Dynamics 365 Field Service Help](../field-service/universal-resource-scheduling-for-field-service.md) 
+- Dynamics 365 Field Service, you can use scheduling tools to assign work orders to the closest field technicians in the area. More information: [Dynamics 365 Field Service Help](../field-service/universal-resource-scheduling-for-field-service.md) 
 
 - Dynamics 365 Customer Service, you can use scheduling tools to book cases to customer service reps in the right department and time zone. More information: [Dynamics 365 Customer Service - Service Scheduling](../customer-service/basics-service-service-scheduling.md)
 
-- [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)], you can use scheduling tools to staff projects with consultants who have availability and the appropriate skillset. More information: [Dynamics 365 Project Service Automation Help](../project-service/overview.md) 
+- Dynamics 365 Project Service Automation, you can use scheduling tools to staff projects with consultants who have availability and the appropriate skillset. More information: [Dynamics 365 Project Service Automation Help](../project-service/overview.md) 
     
 ## Prerequisites  
  Before you can use Universal Resource Scheduling, make sure you have:  
