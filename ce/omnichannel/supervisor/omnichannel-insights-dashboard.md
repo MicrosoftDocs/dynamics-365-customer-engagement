@@ -17,19 +17,50 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
+## Omnichannel Insights  
+
+The Omnichannel Insights dashboard provides KPIs and trends for supervisors to understand the overall state of omnichannel support experience at a glance. It also provides insights on the customer sentiments derived using support specific machine learning algorithm with an ability to slice through different levels in the organization hierarchy which supervisors can rely on to improve the overall customer support experience.  
+
+Typically, the overview dashboard is divided into two sections: 
+
+Omnichannel Insights - Channels 
+
+Omnichannel Insights – Sentiment Analysis 
+
+## Omnichannel Insights - Channels (Overview)  
+
+The following illustration shows an example of the Omnichannel insights dashboard: 
+
+   > [!div class=mx-imgBorder]
+   > ![Omnichannel Dashboard](../media/oc-full-dashboard.png "Omnichannel Dashboard")
+
+This section consists of the following conversation KPIs.
+
+| KPI                  | Description              |
+|----------------------|--------------------------|
+|Incoming conversation | The number of conversations initiated by the customer.|
+|Conversations engaged | Offered Conversations that are engaged by an agent.  Customer-to-agent communication can begin at this point.  |
+|Average Wait Time (mins) | The length of time, in minutes, a customer is waiting in queue. 
+Average wait time = Total length of time (in minutes) / Offered
+|
+|Abandon Rate | The percentage of conversations that are not engaged by agents|
+|Average Handle Time (mins) |Average length of time that an agent(s) takes to complete the conversation with customer. This time considers the time spent by one or more agents to help the customer.|
+|Transfer rate |The percentage of conversations that are transferred to another agent/queue.|
+|Average Customer Sentiment Pulse (CSP) | The predicted customer sentiment in a given timeframe for a set queue/agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions.|
+|Average customer effort time |Average length of time that a customer takes to contact support and complete the conversation an agent. Only the conversations engaged by an agent is considered for this metric.|
+
 ## Omnichannel Insights for Dynamics 365
 
 Omnichannel Insights reports provide comprehensive information on how overall support is performing across channels. The reports provide administrators and supervisors with a rich visualization and ability to filter across channels, queues, agents, and date ranges to better understand performance and troubleshoot problem areas. 
 
 Reporting structure consists of six sections: 
 
-1. [Conversation](#1.-conversation)
-2. [Channel](#2.-channel)
-3. [Queue](#3.-queue)
-4. [Agent](#4.-agent)
-5. [Bot insights (BYOB)](#5.-bot-insights-(byob))
-6. [Sentiment Insights](#6.-sentiment-insights)
-
+1. [Conversation](#conversation)
+2. [Channel](#channel)
+3. [Queue](#queue)
+4. [Agent](#agent)
+5. [Bot insights (BYOB)](#bot-insights-(byob))
+6. [Sentiment Insights](#sentiment-insights)
 
 ### **1. Conversation**: 
 
