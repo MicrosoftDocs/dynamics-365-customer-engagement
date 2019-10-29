@@ -243,32 +243,6 @@ You must add users in the supervisor configuration to access any supervisor dash
 
     Users are added to the supervisor dashboard and when they sign in to Omnichannel on Unified Service Desk, the supervisor dashboard tabs are available.
 
-## Configuring Omnichannel Insights Demo app
-
-There is an accompanying demo application which uses a predefined dataset to help demonstrate the features and capabilities of Omnichannel Insights. Follow the stepsto configure the Omnichannel Insights Demo application:
-
-You must perform the following steps to configure the Omnichannel Insights Demo app:
-
-1.	[Step 1: Review the prerequisites](#step-1-review-the-prerequisites)
-2.	Install Omnichannel Historical Chat Analytics app
-
-    a.	Sign in to the [Power BI](https://app.powerbi.com/) app as an administrator.
-
-    b.	Open [Omnichannel Insights for Dynamics 365 - Demo](https://aka.ms/d365-oc-insights-demo) app page.
-
-    c.  Select **GET IT NOW** to install the app.
-
-       > [!div class=mx-imgBorder]
-       > ![Omnichannel Insights for Dynamics 365 demo app installation](../media/supervisor-admin-historical-install-demo-app-pbi.png "Omnichannel Insights for Dynamics 365 demo app installation")
-
-    d.	After the **Omnichannel Insights - Demo** app is installed, select the app and configuration options page displays.
-
-       > [!div class=mx-imgBorder]
-       > ![Omnichannel Insights demo app configuration page](../media/supervisor-admin-historical-configuration-page-doi-demo.png "Omnichannel Insights demo app configuration page")
-
-4.	[Step 5: Publish application within your organization](#step-5-publish-application-within-your-organization)
-5.	[Step 6: Add Power BI Dashboard to Omnichannel for Customer Service](#step-6-add-power-bi-dashboard-to-omnichannel-for-customer-service)
-
 
 ## Customize Omnichannel insights
 
