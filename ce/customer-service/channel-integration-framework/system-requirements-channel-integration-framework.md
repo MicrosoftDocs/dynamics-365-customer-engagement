@@ -1,8 +1,8 @@
 ---
-title: "System requirements of Dynamics 365 Channel Integration Framework (CIF) | Microsoft Docs"
-description: "Learn about the system requirements of Channel Integration Framework (CIF) for Microsoft Dynamics 365 and how to get started using it."
+title: "System requirements of Dynamics 365 Channel Integration Framework | Microsoft Docs"
+description: "Learn about the system requirements of Dynamics 365 Channel Integration Framework and how to get started using it."
 keywords: ""
-ms.date: 12/10/2018
+ms.date: 10/16/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -19,11 +19,15 @@ manager: shujoshi
 
 # System requirements of Dynamics 365 Channel Integration Framework
 
-This topic describes the system requirements of the Dynamics 365 Channel Integration Framework.
+This topic describes the system requirements of Dynamics 365 Channel Integration Framework.
 
 ## Dynamics 365
 
-- Dynamics 365 (online) version 9.1 and higher versions
+Dynamics 365 (online) version 9.1 and higher versions.
+
+## Omnichannel for Dynamics 365 Customer Service
+
+To have multisession capabilities, your organization must use Omnichannel for Customer Service.
 
 ## Supported browsers
 
@@ -36,14 +40,13 @@ This topic describes the system requirements of the Dynamics 365 Channel Integra
 
 ## Domains
 
-- All the URLs must be secure (https).
+All the URLs must be secure (HTTPS).
 
 > [!div class="nextstepaction"]
-> [Get Channel Integration Framework (CIF)](get-channel-integration-framework.md)
+> [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)
 
 
 ## See also
 
-[Overview of Channel Integration Framework](overview-channel-integration-framework.md)
-
+[Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)<br />
 [FAQs](faq-channel-integration-framework.md)
