@@ -39,7 +39,7 @@ The Mobile Configuration Tool (Woodford) is used to configure and customize the 
 
 ## What version of Field Service Mobile am I using?
 
-See the topic on [identifying your Field Service Mobile version](mobile-faq-latest-version).
+See the topic on [identifying your Field Service Mobile version](mobile-faq-latest-version.md).
 
 ## What is the latest version of the mobile app and configuration tool?
 
