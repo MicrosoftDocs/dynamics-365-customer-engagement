@@ -6,7 +6,7 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 applies_to: 
-ms.date: 6/22/2019
+ms.date: 10/25/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 0faf3fc1-e559-4795-ac93-058bf2874fa5
