@@ -37,7 +37,7 @@ To sign up for the preview features, follow these steps:
 2. Search for and open **Omnichannel for Customer Service - preview** in the **Upcoming and Active Public Preview Programs** list.
 
     > [!div class=mx-imgBorder]
-    > ![Sign up omnichannel](media/preview-signup.png "Sign up omnichannel")
+    > ![Sign up Omnichannel](media/preview-signup.png "Sign up Omnichannel")
 
 3. Select **Join now**. A preview survey is displayed.
 
