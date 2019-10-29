@@ -5,8 +5,6 @@ keywords: plan a survey; survey best practices; survey question types
 ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: ad3388d5-4c50-4005-a067-8498069ead93
 author: sbmjais
 ms.author: shjais
@@ -63,7 +61,7 @@ A few best practices will enable you to create a meaningful survey and gather go
 
 ## Decide the question type
 
-Deciding the question types while planning a survey helps you to create an organized survey and maintain a flow between the questions. The following table describes the Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] question types.
+Deciding the question types while planning a survey helps you to create an organized survey and maintain a flow between the questions. The following table describes the Voice of the Customer for Dynamics 365 question types.
 
 **Web client**
 
