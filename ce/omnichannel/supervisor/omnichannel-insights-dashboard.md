@@ -23,11 +23,11 @@ The Omnichannel Insights dashboard provides KPIs and trends for supervisors to u
 
 Typically, the overview dashboard is divided into two sections: 
 
-Omnichannel Insights - Channels 
+[Omnichannel Insights Dashboard](#omnichannel-insights-dashboard)
 
-Omnichannel Insights – Sentiment Analysis 
+[Omnichannel Sentiment Analysis Dashboard](#omnichannel-sentiment-analysis-dashboard))
 
-## Omnichannel Insights - Channels (Overview)  
+## Omnichannel Insights Dashboard
 
 The following illustration shows an example of the Omnichannel insights dashboard: 
 
@@ -52,14 +52,13 @@ This section consists of the following conversation KPIs.
 
 Omnichannel Insights reports provide comprehensive information on how overall support is performing across channels. The reports provide administrators and supervisors with a rich visualization and ability to filter across channels, queues, agents, and date ranges to better understand performance and troubleshoot problem areas. 
 
-Reporting structure consists of six sections: 
+Reporting structure consists of five sections: 
 
 1. [Conversation](#1-conversation)
 2. [Channel](#2-channel)
 3. [Queue](#3-queue)
 4. [Agent](#4-agent)
 5. [Bot insights (BYOB)](#5-bot-insights-(byob))
-6. [Sentiment Insights](#6-sentiment-insights)
 
 ### **1. Conversation**: 
 
@@ -151,11 +150,9 @@ Reporting structure consists of six sections:
    |Bot escalation rate        |The percentage of conversations that are escalated by bot to a human agent.  |
    |Bot escalation time (mins) |Average length of time that bot took to complete the conversation with customer before escalating to a human agent.   |
 
-### **6. Sentiment Insights**: 
+## Omnichannel Sentiment Analysis Dashboard
 
    This illustration of the Omnichannel Sentiment Analysis dashboard provides an **overview** of important KPIs and trends relative to the sentiment analysis of chats offered.  
-
-   Omnichannel Sentiment Analysis dashboard (Overview) 
 
    > [!div class=mx-imgBorder]
    > ![Sentiment Analysis Overview](../media/oc-overview.png "Sentiment Analysis Overview")  

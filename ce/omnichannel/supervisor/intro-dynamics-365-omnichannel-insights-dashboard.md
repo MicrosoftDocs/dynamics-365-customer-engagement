@@ -24,9 +24,10 @@ Customer service managers or supervisors are responsible for managing the agents
 
 Supervisors can use Omnichannel Insights to perform the following tasks: 
 
--	Monitor Chat operational metrics across Queues and Agents
+- Monitor operational metrics across Channels, Queues and Agents
 
--	Monitor support quality of chats via sentiment analysis across Queues and Agents.
+- Monitor support quality via sentiment analysis across Channels, Queues and Agents.
+
 
 > [!NOTE]
 > Contact your system administrator, for configuration errors or if you are unable to view the dashboards. To learn more, see [Configuring Omnichannel Insights dashboard](../administrator/configure-historical-sentiment-dashboard-supervisor.md)
