@@ -92,6 +92,8 @@ The following screen shows an example of sentiment column in Omnichannel Ongoing
 
 ### See also
 
--  [Configure intraday insights dashboard for Unified Service Desk](../administrator/configure-intraday-dashboard-supervisor.md)
+[Configure intraday insights dashboard for Unified Service Desk](../administrator/configure-intraday-dashboard-supervisor.md)
 
--  [Enable sentiment analysis](../administrator/enable-sentiment-analysis.md)
+[Enable supervisors to monitor and assign conversations](../administrator/configure-ongoing-conversations-settings.md)
+
+[Enable sentiment analysis](../administrator/enable-sentiment-analysis.md)

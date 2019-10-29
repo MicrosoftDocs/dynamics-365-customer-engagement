@@ -1,5 +1,5 @@
 ---
-title: "renderSearchPage (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | MicrosoftDocs"
+title: "renderSearchPage (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
 description: ""
 keywords: 
 ms.date: 12/10/2018
@@ -16,10 +16,6 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
-
-
-<!--Update the date if this hasn't yet been published-->
-
 
 # renderSearchPage (CIF JavaScript API Reference)
 
