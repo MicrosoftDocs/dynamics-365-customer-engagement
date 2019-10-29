@@ -17,12 +17,18 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Customer service managers or supervisors are responsible for managing agents who work to resolve customer queries every day through various service channels, including chat. They need to know key operational metrics to ensure that their agents are providing quality support. The Omnichannel Insights consists of Omnichannel Chat and Sentiment Analysis dashboards.
+Customer service managers or supervisors are responsible for managing agents who work to resolve customer queries every day through various service channels. They need to know key operational metrics to ensure that their agents are providing quality support. The Omnichannel Insights consists of channels and sentiment analysis dashboards.
+
+- [Configure Omnichannel Insights](#configure-omnichannel-insights)
+
+- [Customize Omnichannel insights](#customize-omnichannel-insights)
 
 > [!IMPORTANT]
-> The supervisor dashboards that are based on Power BI such as Chat and Sentiment Analysis are not available on Government Community Cloud (GCC).
+> The supervisor dashboards that are based on Power BI such as Omnichannel Insights and Sentiment Analysis are not available on Government Community Cloud (GCC).
 
-As an administrator, you must configure the Omnichannel Insights to display Omnichannel Chat and Sentiment Analysis dashboards in Omnichannel for Customer Service app. You must perform the following steps to configure:
+## Configure Omnichannel Insights
+
+As an administrator, you must configure the Omnichannel Insights to display channels and sentiment analysis dashboards in the Omnichannel for Customer Service app. You must perform the following steps to configure:
 
 [Step 1: Review prerequisites](#step-1-review-prerequisites)
 
@@ -121,7 +127,7 @@ If previous version of Omnichannel Insights app was installed, it is strongly re
 
 ### Step 4: Configure refresh frequency on Power BI dataset
 
-After you successfully connect Dynamics 365 Omnichannel Chat Insights app with Dynamics 365 organization, you need to configure the refresh frequency on the Power BI dataset so reports and dashboards refresh properly.
+After you successfully connect Dynamics 365 Omnichannel Insights app with Dynamics 365 organization, you need to configure the refresh frequency on the Power BI dataset so reports and dashboards refresh properly.
 
 1.	Sign in to [Power BI](https://app.powerbi.com/) app as administrator.
 
@@ -189,7 +195,7 @@ Administrators must enable Power BI reporting in the Dynamics 365 for Customer E
 
 ### Step 7: Add Power BI Dashboards to Omnichannel for Customer Service
 
-Each supervisor must configure their Dynamics 365 Customer Service environment to integrate the Omnichannel Chat Insights and Omnichannel Sentiment Analysis Insights dashboards.
+Each supervisor must configure their Dynamics 365 Customer Service environment to integrate the Omnichannel Insights and Omnichannel Sentiment Analysis ashboards.
 
 1. Sign-in to Dynamics 365 for Customer Engagement and open the **Omnichannel Administration** app.
 
@@ -207,7 +213,7 @@ Each supervisor must configure their Dynamics 365 Customer Service environment t
     > ![Select Power BI dashboard option](../media/oc-config13.png "Select Power BI dashboard option")
 
 4. a. In Workspace field select **Omnichannel Insights for Dynamics 365**.  
-   b. In Dashboard field select **Omnichannel Insights - Chat**.
+   b. In Dashboard field select **Omnichannel Insights**.
 
     > [!div class=mx-imgBorder]
     > ![Select Power BI dashboard option](../media/oc-config14.png "Select Power BI dashboard option")
@@ -219,7 +225,7 @@ Each supervisor must configure their Dynamics 365 Customer Service environment t
     > [!div class=mx-imgBorder]
     > ![Select Power BI dashboard option](../media/oc-config15.png "Select Power BI dashboard option")
 
-    The Omnichannel Chat Insights and Omnichannel Sentiment Analysis Insights dashboards are now available in Dynamics 365. 
+    The Omnichannel Insights and Omnichannel Sentiment Analysis  dashboards are now available in Dynamics 365. 
 
 ## Add users to supervisor configuration
 
