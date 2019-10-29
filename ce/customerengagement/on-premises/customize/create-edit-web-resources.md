@@ -77,7 +77,7 @@ Because web resources are data in the system and are solution aware, you can mov
 
  The text editor uses a control that modifies the HTML source in a way that allows it to be edited. These changes can make the page behave differently in the browser and cause more sophisticated code to stop working. Opening an HTML web resource with the text editor and saving it without making any changes can break some HTML web resources.  
 
- We recommend that you use an external editor to edit text files and then save them locally before uploading them with the **Upload File** button. This way you can preserve a copy of the web resource if you need to return to an earlier version. You can use a simple editor like [!INCLUDE[pn_Notepad](../includes/pn-notepad.md)], but a text editor with more advanced capabilities is highly recommended. [Visual Studio Express editions](http://www.visualstudio.com/products/visual-studio-express-vs.aspx) are free and provide powerful capabilities for editing the files used by text-based web resources.  
+ We recommend that you use an external editor to edit text files and then save them locally before uploading them with the **Upload File** button. This way you can preserve a copy of the web resource if you need to return to an earlier version. You can use a simple editor like [!INCLUDE[pn_Notepad](../includes/pn-notepad.md)], but a text editor with more advanced capabilities is highly recommended. [Visual Studio Express](https://visualstudio.microsoft.com/vs/express/) is free and provides powerful capabilities for editing the files used by text-based web resources.  
 
 <a name="BKMK_CreateAndEditFormWebResources"></a>   
 ## Create and edit a web resource on a form
