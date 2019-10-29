@@ -132,7 +132,7 @@
 ### [Single resource optimization](single-resource-optimization.md)
 ### [Booking lock options](booking-lock-options.md)
 ### [Resolving booking conflicts](rso-handling-resolving-booking-conflicts.md)
-## [FAQ and troubleshooting tips](rso-faq.md)
+## [FAQs + troubleshooting](rso-faq.md)
 
 # Connected Field Service (IoT) add-in
 ## [Overview](connected-field-service.md)
@@ -157,4 +157,4 @@
 ## [Security roles for Connected Field Service](cfs-security-roles.md)
 # Integrations
 ## [Dynamics 365 Guides on HoloLens](mixed-reality-guides-integration.md)
-# [General FAQs](troubleshoot-faq.md)
+# [General FAQs + troubleshooting](troubleshoot-faq.md)
