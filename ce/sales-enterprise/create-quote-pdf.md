@@ -1,5 +1,5 @@
 ---
-title: "Create a PDF document (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Create a PDF document from sales records (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Create and share professional-looking PDF documents with your customers."
 keywords: "Quote, proposal, create PDF, email PDF, PDF"
 ms.date: 10/01/2019
@@ -15,11 +15,11 @@ manager: annbe
 caps.latest.revision: 58
 ---
 
-# Create a PDF document from a record
+# Create a PDF document from sales records
 
 Create and share professional-looking PDF documents for sales records by generating a PDF document using a standard template from your organization. 
 
-The capability to create PDF documents is available on the following entities: Accounts, Contacts, Leads, Opportunities, Orders, and Invoices.
+The capability to create PDF documents is available on the following entities: Account, Contact, Lead, Opportunity, Order, Quote, and Invoice.
 
 Your system administrator can choose the entities on which PDF generation is enabled. 
 
@@ -30,19 +30,12 @@ Your system administrator can choose the entities on which PDF generation is ena
 1.	Open the entity record for which you want to create a PDF document. For example, open a quote record.
 
 
-<!--from editor: In the following sentence, where it says "a template based on which you want," the "which" is unclear. Do you mean "which entity"? Or do you mean "a template on which you want to create the PDF"? -->
-
-
-2.	On the command bar, select **Create PDF** and then select a template based on which you want to create the PDF. 
+2.	On the command bar, select **Create PDF** and then select a template on which you want to create the PDF. 
 
     ![A quote form showing the Create PDF button on the command bar](media/create-pdf.png "A quote form showing the Create PDF button on the command bar")
 
-
-    <!--from editor: There aren't as many entities listed below as on line 22. Is that correct? And the entity names here are singular, but in line 22 they are plural. (For example, Opportunities, Opportunity.) Should they be the same? -->
-
-
     > [!IMPORTANT]
-    > Templates are available out of the box for the Account, Opportunity, Order, and Invoice entities. For entities that do not have the out-of-the-box templates, you can create new templates. You can't create a PDF document for an entity record if there's no template available for that entity. 
+    > Templates are available out of the box for the Account, Opportunity, Order, Quote, and Invoice entities. For entities that do not have the out-of-the-box templates, you can create new templates. You can't create a PDF document for an entity record if there's no template available for that entity. 
 
     A PDF document using the selected template is downloaded to your computer. You can add this document to a note or send it as an attachment in email.
 

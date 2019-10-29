@@ -52,3 +52,6 @@
 ### [Customize views](customize-views.md)
 ### [Customize business process flows](customize-business-process-flows.md)
 ### [Customize the Dynamics 365 Sales Professional app](manage-app.md)
+
+# Dynamics 365 Sales (Enterprise)
+## [Help resources for Dynamics 365 Sales (Enterprise)](../sales-enterprise/help-hub)
