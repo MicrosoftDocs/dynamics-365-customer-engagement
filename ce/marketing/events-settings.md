@@ -49,6 +49,14 @@ You can view your webinar providers by going to **Settings** > **Advanced settin
 - **Privacy policy**: Shows the URL for your webinar provider's privacy policy. Select the globe button to open this URL in a new browser tab. This link is provided to Dynamics 365 Marketing users when they are in the process of enabling webinar functionality, which requires them to agree to this policy. A link to the standard On24 privacy policy is provided by default. You might edit this if you prefer to use an alternative URL.
 - **Update credentials**: Unless your system has been customized to use a provider other than On24, don't use these settings (and even then, contact your development team for advice). Instead, see [Webinar configurations](#webinar-config), later in this topic, for details about how to connect to your On24 account.
 
+## Web applications
+
+The **Settings** > **Advanced settings** > **Event management** > **Web applications** settings enable you to register web applications, which is required if you develop custom features that use the events API to interact programmatically with event features. This is mostly of interest to developers rather than administrators. 
+
+For more information about how to use the events API, including how to use the **Web applications** settings, see [Using the Events API](developer/using-events-api.md) and [Register your web application to use Events API](developer/register-web-application-events-api.md).
+
+You also need to register a web application if you decide to host your event website on Azure. More information: [Host your custom event website on Azure](developer/host-custom-event-website-on-azure.md)
+
 <a name="webinar-config"></a>
 
 ## Webinar configurations
@@ -119,6 +127,12 @@ To set your event-administration options:
 
     > [!NOTE]
     > The email templates provided for sending confirmations to the event purchaser and/or attendee are hard coded, so you can't customize or translate their content. If you require custom messaging, then set up a [customer journey](customer-journeys-create-automated-campaigns.md) with event, trigger, and email tiles.
+
+## Website entity configurations
+
+The **Settings** > **Advanced settings** > **Event management** > **Website entity configurations** settings enable you to expose custom fields through the events API. This can be useful if you develop custom features that use the events API to interact programmatically with event features. This is mostly of interest to developers rather than administrators. 
+
+For more information about how to use the events API, including how to use the **Website entity configurations** settings, see [Using the Events API](developer/using-events-api.md) and [Customize the response from Events API](developer/customize-events-api-response.md).
 
 ## Privacy notice
 

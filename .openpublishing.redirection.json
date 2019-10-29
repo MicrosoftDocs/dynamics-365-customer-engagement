@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/admin/set-up-business-management-options.md",
+      "redirect_url": "https://docs.microsoft.com/power-platform/admin/set-up-business-management-options",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales-enterprise/configure-forecast-definition.md",
       "redirect_url": "configure-forcast",
       "redirect_document_id": "false"

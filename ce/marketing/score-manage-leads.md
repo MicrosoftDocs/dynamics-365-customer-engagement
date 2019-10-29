@@ -31,12 +31,40 @@ Dynamics 365 Marketing can calculate a score for each lead based on demographic 
 Each scoring model includes a sales-ready threshold. When a lead's score passes this threshold, it gets marked as sales ready, which can trigger other events within Dynamics 365, including advancing the lead through its business process and alerting tele prospectors or salespeople to pick it up.
 
 > [!IMPORTANT]
-> Automatic lead scoring only works for leads that are associated with a contact or account. Scoring fails for leads that don't have a contact or account associated with them. Also, segments in Dynamics 365 Marketing can only include contacts, not leads or accounts, which means that you can only address marketing emails to contacts.
-> 
-> Your landing pages will typically either create a lead/contact pair when they create a new contact, or associate new leads with existing contacts when they're available. But when you create a lead manually, you must also associate it with a contact manually to enable lead scoring.
-
-> [!IMPORTANT]
 > Automatic lead scoring can introduce data-privacy issues that are regulated by laws such as the GDPR. It is your organization's responsibility to ensure that it is operating in full compliance with all relevant data-privacy regulations when you use lead scoring and all other features of Dynamics 365 Marketing. More information: [Data protection and the GDPR](gdpr.md)
+
+## Lead-scoring prerequisites and requirements
+
+The lead-scoring feature brings together many aspects of Dynamics 365 Marketing, including contacts, leads, customer journeys, marketing forms, interactions, insights, and more. Therefore, it's important that you understand a few things about the way the feature works and how you must configure and use your system to make it function as expected.
+
+### Only leads associated with contacts or accounts can be scored
+
+Automatic lead scoring only works for leads that are associated with a contact or an account. Scores won't appear for leads that don't have a contact or account associated with them.
+
+For leads generated or updated by marketing forms configured to update both leads and contacts, the marketing form always finds or creates the records required to establish the lead/contact pair (but not all form configurations do this, as explained in the following section). Also, any user can manually associated a lead with a contact or account by opening the lead record and using the **Inquiry** stage of the **Lead to opportunity marketing sales process** business process. Here, the relevant fields are labeled **Existing contact?** and **Existing account?**, respectively.
+
+![Manually link a lead to a contact record](media/leads-related-contact.png "Manually link a lead to a contact record")
+
+In the database itself, the **Parent Contact for lead** lookup field of the lead entity identifies the associated contact, and the **Parent Account for lead** lookup field identifies the associated account. These are the same fields set by **Existing contact?** and **Existing account?** input fields of the **Lead to opportunity marketing sales process** business process. 
+
+Also, segments in Dynamics 365 Marketing can only include contacts, not leads or accounts, which is another good reason to make sure all leads that you use for marketing have a contact or an account (with related contacts) associated with them.
+
+### Form configuration can affect which leads and interactions are available for use with lead scoring
+
+One major way that Dynamics 365 Marketing helps you generate new leads and contacts is through its marketing form and marketing page features. In a typical case, the solution works like this:
+
+1. A Dynamics 365 user creates a marketing form, which defines a collection of fields and options to be presented to a known or prospective contact.
+1. The Dynamics 365 user adds the marketing form to a marketing page design or embeds it on an external web page.
+1. A known or prospective contact opens the page and submits the form.
+1. Depending on how the form is configured, Dynamics 365 Marketing may update or create a lead and/or contact record based on the submission.
+1. Dynamics 365 generates an interaction record for the form submission and associates it with the lead and/or contact based on how the form is configured. This interaction might be referenced by a lead-scoring model and therefore increase the related lead's score.
+
+A standard form configuration allows the form to create and update both **Contacts and leads**. With this configuration, you'll always get new leads and interactions that have a contact correctly associated with them. However, you might also configure your marketing form so that it only creates/updates leads or only creates/updates contacts. Though these options can help prevent your lead or contact records from being updated unexpectedly, they can also interfere with automated lead scoring as follows:
+
+- Forms set to update **Only leads** won't match, create, or update contact records. That means that leads created by these forms won't have any contact assigned and therefore won't be scored until one is assigned. Also, the interaction record generated for the form submission probably won't have a contact ID, which means that that interaction won't be available for scoring the lead even if you later associate the lead with a contact. (However, if a Dynamics 365 Marketing cookie is available on the contact's machine, this may be used to register the form-submission interaction with the contact identified by the cookie.)
+- Forms set to **Only contacts** won't match, create, or update lead records. The form-submission interaction will still be correctly associated with the contact in all cases. Existing leads associated with the submitting contact can therefore be scored based on the submission, but if no lead exists, then the new or existing contact still won't have a lead and won't be scored because scores only apply to leads.
+
+For more information about these settings and how they affect lead scoring, interaction records, and other aspects of Dynamics 365 Marketing, see [Create, view, and manage marketing forms](marketing-forms.md).
 
 ## Create, view, and manage your lead-scoring models
 
@@ -145,6 +173,18 @@ Here are a few more examples of how to use hops to create useful conditions:
 
 * **Lead.lead&#95;contact&#95;parentcontactid**: Lets you score leads associated with contacts who have particular properties (such as contacts who have a Microsoft email address&#8212;where <em>Email | contains | @microsoft.com</em>).
 * **Lead.lead&#95;contact&#95;parentcontactid.contact&#95;account&#95;parentcustomerid**: Lets you score leads associated with contacts who belong to accounts with particular properties (such as accounts where _Number of employees | > | 500_).
+
+## Find leads that were scored by a selected model
+
+To find all the leads that a selected model has scored:
+
+1. Go to **Marketing** > **Lead management** > **Lead scoring models** to open a list of models and then open the one you want to inspect.
+
+1. Select the **Related** tab to open a drop-down list of related entities and then select **Lead scores** from the list.
+
+    ![Open related lead scores](media/lead-score-related.png "Open related lead scores")
+
+1. A new **Lead scores** tab is added and opened. Here you can see each lead that your selected model has scored, plus the score and grade for each of them. You can select any listed lead to open it, or select **Export lead scores** to download the list as an Excel file.
 
 ### See also
 

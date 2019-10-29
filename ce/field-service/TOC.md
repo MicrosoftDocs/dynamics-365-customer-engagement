@@ -60,6 +60,7 @@
 ### [Travel time and distance](schedule-with-travel-time.md)
 ### [Quick scheduling](quick-scheduling.md)
 ### [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
+### [Multi-day scheduling](schedule-multi-day-work.md)
 ### [Resource crew scheduling](resource-crews.md)
 ### [Resource pools](resource-pools.md)
 ### [Facility scheduling](facility-scheduling.md)
@@ -156,5 +157,8 @@
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 ## [Security roles for Connected Field Service](cfs-security-roles.md)
 # Integrations
+## [Dynamics 365 Remote Assist and HoloLens](remote-assist-hololens.md)
 ## [Dynamics 365 Guides on HoloLens](mixed-reality-guides-integration.md)
-# [General FAQs + troubleshooting](troubleshoot-faq.md)
+# [Troubleshoot with Solution Health Hub](troubleshoot-field-service-solution-health.md)
+# [General FAQs](troubleshoot-faq.md)
+

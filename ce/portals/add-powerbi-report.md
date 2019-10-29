@@ -3,7 +3,7 @@ title: "Add a Power BI report or dashboard to a web page in a portal | Microsoft
 description: "Instructions to add a Power BI report or dashboard to a web page in the portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 26/03/2019
+ms.date: 10/01/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

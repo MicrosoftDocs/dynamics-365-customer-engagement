@@ -1,8 +1,8 @@
 ---
 title: "Customer Service Overview (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Overview of Dynamics 365 Customer Service"
-author: anjgupta
-ms.author: anjgup
+author: kabala123
+ms.author: kabala
 manager: shujoshi
 ms.date: 07/31/2019
 ms.topic: get-started-article
@@ -17,8 +17,7 @@ Welcome to Dynamics 365 Customer Service.
 
 Build great customer relationships by focusing on optimum customer satisfaction with the Customer Service apps. Customer Service provides many features and tools that organizations can use to manage the services they provide to customers.   
 
-  > [!IMPORTANT]
-  > Dynamics 365 Customer Service is a model-driven app that is built on the Common Data Service platform. You can create and manage model-driven apps by using PowerApps. More information: [What are model-driven apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
+[!INCLUDE[cc-app-definition-customer-service](../includes/cc-app-definition-customer-service.md)]
 
 Use [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
 

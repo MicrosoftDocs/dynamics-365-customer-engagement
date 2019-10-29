@@ -14,11 +14,11 @@ author: Mattp123
 ms.author: matp
 manager: kvivek
 ---
-# Deploy and operate Dynamics 365 Customer Engagement (on-premises), version 9.x
+# Deploy and operate Dynamics 365 Customer Engagement (on-premises), version 9
 
 
   
- This guide provides a set of comprehensive deployment and operation topics that can help you plan, deploy, and maintain Dynamics 365 Customer Engagement (on-premises), version 9.x. For the deployment and administration information of the previous version (8.x), see [Deploy and operate Dynamics 365 Customer Engagement (on-premises), version 8.x](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699811(v=crm.8)).  
+ This guide provides a set of comprehensive deployment and operation topics that can help you plan, deploy, and maintain Dynamics 365 Customer Engagement (on-premises), version 9. For the deployment and administration information of the previous version (8.x), see [Deploy and operate Dynamics 365 Customer Engagement (on-premises), version 8.x](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699811(v=crm.8)).  
   
  **Upgrade information:** If you’re an existing customer interested in upgrading your deployment, start with the [Plan your upgrade to Dynamics 365 Server](plan-your-upgrade-to-microsoft-dynamics-365-server.md) topic.  
   
