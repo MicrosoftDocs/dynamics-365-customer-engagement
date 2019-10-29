@@ -178,4 +178,4 @@ You must perform the below steps if you would like to enhance/customize the Powe
 
 [Introduction to Customer Service Analytics](introduction-customer-service-analytics.md) 
 
-[View and understand Customer Service Analytics](customer-service/customer-service-analytics.md) 
+[View and understand Customer Service Analytics](customer-service-analytics.md) 
