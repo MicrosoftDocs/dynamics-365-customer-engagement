@@ -67,10 +67,35 @@ Customer asset records can be configured in a hierarchy in order to maintain ser
   
 3.  Save the changes to the product record.  
   
-4.  Now, when a work order is completed, by changing the work order system status to **Closed - Posted**, if the work order includes a work order product that was set to **Convert to Customer Asset**, the system will automatically generate the customer asset record, and associate it with the service account listed on the work order.  
+4.  Now, when a work order is completed, by changing the work order system status to **Closed - Posted**, if the work order includes a work order product that was set to **Convert to Customer Asset**, the system will automatically generate the customer asset record, and associate it with the service account listed on the work order.
+
+## Build service history 
+
+- notes + timeline
+
+### With work orders
+- Incidents
+
+- WOP, WOS, WOST
+
+### With agreements
+
+Agreement incident types
+
+## Connected Field Service
+
+## Configuration considerations
+- serial number
+- customer asset with quantity 2 will not create 2 customer asset records, but there will be a lookup reference to the work order product that will show a quantity of 2
+
+## Additional notes
+- can relate to booking alerts
+
   
-### See also  
- [Adding 3D models to customer assets](../field-service/3D-viewer.md)   
- [Create work order templates with incident types](../field-service/configure-incident-types.md)   
- [Set up agreements to automatically generate work orders and invoices](../field-service/set-up-customer-agreements.md)   
+### See also    
+[Create work order templates with incident types](../field-service/configure-incident-types.md) 
+
+[Set up agreements to automatically generate work orders and invoices](../field-service/set-up-customer-agreements.md)
+
+[Adding 3D models to customer assets](../field-service/3D-viewer.md)    
  
