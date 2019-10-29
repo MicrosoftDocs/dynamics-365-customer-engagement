@@ -2,7 +2,7 @@
 title: "Create or edit web resources in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to create or edit a web resource"
 ms.custom: 
-ms.date: 11/09/2018
+ms.date: 10/29/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,8 +22,6 @@ search.app:
 ---
 # Create or edit web resources to extend an app
 
-
-
 Web resources are typically used by developers to extend an app using files that are used in web development. App users may need to manage web resources provided by a developer or designer.  
 
 > [!TIP]
@@ -34,13 +32,13 @@ Web resources are typically used by developers to extend an app using files that
 ## What are web resources?  
  Web resources are virtual files stored in the system. Each web resource has a unique name that can be used in a URL to retrieve the file. Think of them this way: If you had access to the actual web server running the web app, you could copy files over to that website. But with most online services, you can’t do this.  Instead, you can use web resources to upload files to the system and then reference them by name just as though you had copied them as files to the web server.  
 
- For example, if you create an HTML page as a web resource named “new_myWebResource.htm”, you could open that page in a browser using a URL like this:  
+For example, if you create an HTML page as a web resource named “new_myWebResource.htm”, you could open that page in a browser using a URL like this:  
 
 <Dynamics 365 Customer Engagement (on-premises) URL>/WebResources/new_myWebResource.htm   
 
  where *\<app URL>* is the URL you usually use to open the app. Because the web resource is data in the system, only licensed users for your organization can access them this way. Normally, web resources are included in forms rather than referenced directly. The most common usage is to provide [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries for form scripts.  
 
- Because web resources are data in the system and are solution aware, you can move them to different organizations by exporting them as part of a solution and importing the solution into a different organization.  
+Because web resources are data in the system and are solution aware, you can move them to different organizations by exporting them as part of a solution and importing the solution into a different organization.  
 
 <a name="BKMK_CreateAndEditWebResources"></a>   
 ## Create and edit web resources  
@@ -83,7 +81,7 @@ Web resources are typically used by developers to extend an app using files that
 
 <a name="BKMK_CreateAndEditFormWebResources"></a>   
 ## Create and edit a web resource on a form
-You can add or edit web resources on a form to make it more appealing or useful to users. Make sure that you have the System Adminsitrator role or equivalent permissions.
+You can add or edit web resources on a form to make it more appealing or useful to users. Make sure that you have the System Administrator security role or equivalent privileges.
 
 > [!NOTE]
 >  You can’t include a web resource in a form header or footer.  
