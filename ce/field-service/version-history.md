@@ -52,6 +52,14 @@ search.app:
 |  7.0 |  September 2017 |  Schedule board extensibility for custom resource matching |
 
 
+## Field Service On-Premise
+
+| Version | Status |
+| --- | --- | 
+| 7.x | Latest available |
+| 6.x | Not supported |
+
+
 ## Field Service Mobile app version history
 
 **Field Service Mobile** applies to Field Service 7.5.5+ and 8.2+
@@ -83,7 +91,6 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 | [ Field Service v6.0 v1.0.0.0](https://go.microsoft.com/fwlink/p/?LinkId=808250)  |  Field Service Mobile default project.woodford | December 2018  |  **Field Service Mobile (2016)** 8.0 | 8.0 |
 
 
-
 ## Trials and upgrades
 
  - All new Dynamics 365 Field Service environments will install the latest generally available Field Service solution.
@@ -99,3 +106,4 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 
 - [New and upcoming features](new-upcoming.md)
 - [Self-enabling install of the Unified Interface versions of Field and Project Service](https://cloudblogs.microsoft.com/dynamics365/it/2019/08/01/how-to-enable-unified-interface-apps-of-field-service-and-project-service-automation/)
+

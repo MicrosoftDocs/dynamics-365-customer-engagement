@@ -1,5 +1,5 @@
 ---
-title: "setClickToAct (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | Microsoft Docs"
+title: "setClickToAct (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
 description: ""
 keywords: ""
 ms.date: 05/14/2019

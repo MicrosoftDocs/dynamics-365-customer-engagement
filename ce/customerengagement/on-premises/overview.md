@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Dynamics 365 Customer Engagement (on-premises) Help | MicrosoftDocs"
-description: "Welcome to the Dynamics 365 Customer Engagement (on-premises) Help, version 9.x."
+description: "Welcome to the Dynamics 365 Customer Engagement (on-premises) Help, version 9."
 ms.custom: on-premises
 ms.date: 10/1/2019
 ms.reviewer: "kvivek"
@@ -10,7 +10,7 @@ author: "kvivek"
 ms.author: "KumarVivek"
 manager: "annbe"
 ---
-# Microsoft Dynamics 365 Customer Engagement (on-premises) Help, version 9.x
+# Microsoft Dynamics 365 Customer Engagement (on-premises) Help, version 9
 
 Welcome to the Dynamics 365 Customer Engagement (on-premises) Help!
 
@@ -23,9 +23,9 @@ With this change for *online* customers, we are no longer using the term "Dynami
 - Dynamics 365 Field Service
 - Dynamics 365 Project Service Automation
 
-For *online* customers, these apps are model-driven apps running on the [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) platform. You can build model-driven apps using PowerApps. More information: [What are model-driven apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
+For *online* customers, these apps are model-driven apps running on [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro). You can build model-driven apps using PowerApps. More information: [What are model-driven apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
-For *on-premises* customers, "Dynamics 365 Customer Engagement (on-premises)" is the official name of the product that provides sales, service, and marketing features. Customer Engagement (on-premises) shares many features in common with the Common Data Service platform and PowerApps. 
+For *on-premises* customers, "Dynamics 365 Customer Engagement (on-premises)" is the official name of the product that provides sales, service, and marketing features. Customer Engagement (on-premises) shares many features in common with Common Data Service and PowerApps. 
 
 To avoid duplicating the common information between Customer Engagement (on-premises) and PowerApps/Common Data Service documentation, you will find a lot of references and links from this guide pointing to the Common Data Service and PowerApps documentation.  
 
