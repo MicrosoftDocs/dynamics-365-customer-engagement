@@ -137,8 +137,9 @@ Reporting structure consists of six sections:
    > [!div class=mx-imgBorder]
    > ![Sentiment Analysis Detailed Report](../media/oc-detailed.png "Sentiment Analysis Detailed Report")
 
-   Explanation of Sentiment Analysis KPI’s  
-   |KPI              |Description                |
+   Explanation of Sentiment Analysis KPI’s 
+    
+   |KPI             |Description                |
    |-----------------|---------------------------|
    |Average Sentiment Pulse              |The predicted customer sentiment in a given timeframe for a set queue/agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions.  |
    |% Positive Sentiment                 |Count of positive sentiment zone conversations divided by total chat sessions.  |

@@ -146,7 +146,7 @@
 #### [View and understand Omnichannel Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
 
 <!--#### [Assign conversations](supervisor/assign-conversations.md)-->
-### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.
+### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard)
 ### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)md)
 ### [Supervisor Sentiment Monitoring](supervisor/supervisor-sentiment-monitoring.md)
 
