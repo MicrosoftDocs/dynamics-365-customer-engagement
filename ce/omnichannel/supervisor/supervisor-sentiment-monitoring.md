@@ -67,21 +67,21 @@ Omnichannel Sentiment Analysis sentiment intensity indicators are an automatic a
 
 - Agents
 
-    Sentiment intensity indicators on the top of the communication panel help the agent understand the customer’s sentiment.
+    Sentiment intensity indicators on the top of the communication panel help you understand the customer’s sentiment.
 
     > [!div class=mx-imgBorder]
     > ![Sentiment Display](../media/oc-sentiment-sentiment-display.png "Sentiment Display")
 
 - Supervisors
 
-    - Sentiment intensity indicators identify ongoing chat sessions that need the supervisor's attention, so that supervisor can better assess and apply their time where it is the most valuable. 
+    - Sentiment intensity indicators identify ongoing chat sessions that need the supervisor's attention, so that you can better assess and apply their time where it is the most valuable. 
 
-    - Using sentiment intensity indicators on the Omnichannel Ongoing Conversations dashboard allows supervisors to easily identify ongoing customer support chat sessions that are not going well.
+    - Using sentiment intensity indicators on the Omnichannel Ongoing Conversations dashboard allows you to easily identify ongoing customer support chat sessions that are not going well.
 
     > [!div class=mx-imgBorder]
     > ![Sentiment Conversation Display](../media/oc-sentiment-conversation-dashboard.png "Sentiment Conversation Display")
 
-## Multilanguage Sentiment Limitations
+## Multilanguage sentiment limitations
 
 Multilanguage Sentiment relies on the initial customer messages in any conversation to detect the language of the conversation.  
 
