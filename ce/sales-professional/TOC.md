@@ -1,5 +1,5 @@
 # Dynamics 365 Sales Professional
-## Help resources for Dynamics 365 Sales Professional (help-hub.md)
+## [Help resources for Dynamics 365 Sales Professional](help-hub.md)
 
 ## [What's new](whats-new.md)
 ## Get started
