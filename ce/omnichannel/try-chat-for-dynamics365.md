@@ -40,13 +40,13 @@ With this option, you can get a free 30-day trial of Chat, SMS, and Facebook Mes
 
 ### Step 1: Get a Dynamics 365 trial instance
 
-1. Go to <https://trials.dynamics.com>.
+1. Go to <https://trials.dynamics.com/Dynamics365/Signup/service>.
 
 2. Select **Customer Service**. 
 
     > [!IMPORTANT]
     > - Ensure that you select **Customer Service**. If you select any other option, Omnichannel for Customer Service application will not get enabled in your tenant.
-    > - Omnichannel for Customer Service application will not get enabled if you sign up for a new trial tenant.
+    > - Omnichannel for Customer Service application will not get enabled if you sign up for creating a new trial tenant.
 
 3. Enter your work email and phone number, and then select **Get started**.
 
@@ -103,7 +103,7 @@ The channel you can try depends on the add-on you purchase from the Microsoft 36
 
 - **Dynamics 365 for Customer Service Chat Trial**: Allows you to try Chat.
 
-- **Dynamics 365 for Customer Service Digital Messaging add-on** and **Dynamics 365 for Customer Service Digital Messaging add-on for Government**: Allows you to try Chat, SMS, and Facebook (preview) channels.
+- **Dynamics 365 for Customer Service Digital Messaging add-on Trial**: Allows you to try Chat, SMS, and Facebook (preview) channels.
 
 > [!NOTE]
 > For more information on the Chat and Digital Messaging licenses, pricing, and prerequisites, please refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
