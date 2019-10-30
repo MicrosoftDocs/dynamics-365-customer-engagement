@@ -26,7 +26,7 @@ As a supervisor, use this dashboard to perform the following tasks:
 
 - Monitor support quality across queues and agents. 
 
->[!Note] 
+> [!NOTE] 
 > Contact your system administrator for configuration errors or if you are unable to view the dashboards.  
 
 ## See also

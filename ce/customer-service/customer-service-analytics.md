@@ -25,7 +25,7 @@ The Customer Service Analytics dashboard provides information about the historic
 The following is an example of the Customer Service Analytics overview dashboard:  
 
    > [!div class=mx-imgBorder]
-   >![customer service analytics overview dashboard](media/cs-analytics-overview-dashboard.png "customer service analytics overview dashboard")
+   > ![customer service analytics overview dashboard](media/cs-analytics-overview-dashboard.png "customer service analytics overview dashboard")
   
 This section consists of the following KPIs:  
 
@@ -108,7 +108,7 @@ The Customer Service Analytics report detail view has three views:
      
     This section provides a detailed view of case and activities which a supervisor can use to drill into each case or activity to help resolve customer issues. The link in this report directs the user to customer service or the customer service hub application in Dynamics 365.  
 
-   >[!Note]:
+   > [!NOTE]
    > Prerequisite for the link to work – you must have either a customer service hub application or customer service app installed from the Appsource. 
          
    > [!div class=mx-imgBorder]
