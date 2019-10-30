@@ -52,14 +52,14 @@ The sentiment icons displayed on the communication panel are as follows.
 > [!div class="nextstepaction"]
 > [Next topic: Manage presence status](oc-manage-presence-status.md)
 
-##  Multilanguage sentiment 
+##  Multi-language sentiment 
 
-Multilanguage sentiment displays sentiment scores on some non-English conversations.
+Multi-language sentiment displays sentiment scores on some non-English conversations.
 
 >[!Note]
-> Multilanguage sentiment is only available if the administrator enables it for you.
+> Multi-language sentiment is only available if the administrator enables it for you.
 
-To learn more, see [multilanguage sentiment](../../administrator/enable-sentiment-analysis.md).
+To learn more, see [multi-language sentiment](../../administrator/enable-sentiment-analysis.md).
 
 ## See also
 

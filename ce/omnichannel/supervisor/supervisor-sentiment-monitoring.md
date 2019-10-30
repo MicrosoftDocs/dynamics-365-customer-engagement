@@ -25,10 +25,10 @@ Omnichannel Sentiment Analysis enables agents and supervisors to understand real
     > [!div class=mx-imgBorder]
     > ![Sentiment Analysis Chart](../media/oc-sentiment-chart.png "Sentiment Analysis Chart")
 
-- Multilanguage Sentiment is an enhancement to Omnichannel Sentiment Analysis, which leverages Microsoft Azure Text Translator API to score support conversations in 40+ languages.  You can view the sentiment scores for conversations in 40+ languages (as of October 2019 Public Preview). 
+- Multi-language Sentiment is an enhancement to Omnichannel Sentiment Analysis, which leverages Microsoft Azure Text Translator API to score support conversations in 40+ languages.  You can view the sentiment scores for conversations in 40+ languages (as of October 2019 Public Preview). 
 
 > [!NOTE]
-> Multilanguage sentiment scores non-english conversations by: 
+> Multi-language sentiment scores non-english conversations by: 
 > - Leveraging Microsoft Azure Text Translator API to translate the conversations into English.
 > - Scoring the English output.
 
@@ -36,13 +36,13 @@ To learn more, see [Explore Dynamics 365 Customer Service](https://dynamics.micr
 
 ## Personas
 
-The Multilanguage Sentiment feature caters to the following personas:
+The Multi-language Sentiment feature caters to the following personas:
 
 1. Administrator
     - As an administrator, you can choose whether to enable Sentiment. 
         > [!NOTE]
         > Sentiment is enabled in Omnichannel for Customer Service by default.
-    - As an administrator, you can choose whether to enable Multilanguage Sentiment.
+    - As an administrator, you can choose whether to enable Multi-language Sentiment.
 
 2. Supervisor (Team Lead)
     - As a supervisor, you can track agents' performance and engage in real-time to continuously improve the support quality. 
@@ -81,9 +81,9 @@ Omnichannel Sentiment Analysis sentiment intensity indicators are an automatic a
     > [!div class=mx-imgBorder]
     > ![Sentiment Conversation Display](../media/oc-sentiment-conversation-dashboard.png "Sentiment Conversation Display")
 
-## Multilanguage sentiment limitations
+## Multi-language sentiment limitations
 
-Multilanguage Sentiment relies on the initial customer messages in any conversation to detect the language of the conversation.  
+Multi-language Sentiment relies on the initial customer messages in any conversation to detect the language of the conversation.  
 
 Expect the following system behavior: 
 
@@ -97,7 +97,7 @@ The minimum app version is required. To upgrade, use the follow the instructions
 
 ## Install and configure
 
-Once you have signed up, see Step 4 on the [Enable sentiment analysis](../administrator/enable-sentiment-analysis.md) to configure multilanguage sentiment analysis. 
+Once you have signed up, see Step 4 on the [Enable sentiment analysis](../administrator/enable-sentiment-analysis.md) to configure Multi-language sentiment analysis. 
 
 ## Policy notice 
 
