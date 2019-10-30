@@ -17,7 +17,9 @@
 #### [Keep Marketing up to date](apply-updates.md)
 #### [Uninstall Marketing](uninstall-marketing.md)
 
-### [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)
+### User administration and access permissions
+#### [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)
+#### [Use business units with Marketing](business-units.md)
 
 ### Administration settings
 #### [Open the administration settings](open-advanced-settings.md)
@@ -45,6 +47,7 @@
 #### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
 #### [Manage sample data](additional-settings.md)
 #### [Quota limits](quota-management.md)
+#### [Feature switches](admin-feature-switches.md)
 #### [Preview: Configure AI features](admin-machine-learning.md)
 #### [Control access to designer features](designer-feature-protection.md)
 
@@ -68,6 +71,7 @@
 #### [Accessibility and keyboard shortcuts](designer-shortcuts.md)
 #### [Organize your work](organize-daily-work.md)
 #### [Manage customer information](manage-customer-information.md)
+#### [Sales and marketing collaboration with Dynamics 365](sales-marketing-integration.md)
 #### [Import data](import-data.md)
 #### [Export data](export-data-word-excel.md)
 
@@ -96,12 +100,11 @@
 #### [Email marketing overview](prepare-marketing-emails.md)
 #### [Create a new email and design its content](email-design.md)
 #### [Add dynamic content to email messages](dynamic-email-content.md)
-#### [Set the sender, receiver, and legal designation](email-properties.md)
+#### [Set the sender, receiver, language, and legal designation](email-properties.md)
 #### [Check your work using previews and test sends](email-preview.md)
 #### [Check for errors, go live, and deliver](email-check-golive.md)
 #### [Preview: Check your spam score](spam-score.md)
-#### [Early access: Design multi-column layouts for email messages](email-layouts.md)
-#### [Early access: Design and run A/B tests on your email designs](email-a-b-testing.md)
+#### [Design and run A/B tests on your email designs](email-a-b-testing.md)
 
 ### Create marketing pages and forms
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
@@ -111,8 +114,7 @@
 #### [Integrate with landing pages on external websites](embed-forms.md)
 #### [Create input fields for forms](marketing-fields.md)
 #### [Set up a subscription center](set-up-subscription-center.md)
-#### [Early access: Easy subscription lists](easy-subscription-lists.md)
-#### [Early access: View and recover from failed form submissions](failed-submissions.md)
+#### [View and recover from failed form submissions](failed-submissions.md)
 
 ### Build a library of marketing content
 #### [Upload and use images and files](upload-images-files.md)
@@ -122,15 +124,14 @@
 ### Define market segments
 #### [Working with segments](segmentation-lists-subscriptions.md)
 #### [Segments vs. lists](segments-vs-lists.md)
-#### [Design profile-based dynamic segments](segments-profile.md)
-#### [Design interaction-based dynamic segments](segments-interaction.md)
-#### [Generate interaction segments from journey results](generate-segment-from-journey.md)
-#### [Define a static segment](segments-static.md)
+#### [Design dynamic demographic or firmographic segments](segments-profile.md)
+#### [Design behavioral segments](segments-interaction.md)
+#### [Generate behavioral segments from journey results](generate-segment-from-journey.md)
+#### [Design static segments](segments-static.md)
 #### [Manage segment memberships from a contact record](manage-segments-from-contacts.md)
 #### [Combine segments into a compound segment](segments-compound.md)
 #### [Market to Dynamics 365 segments on LinkedIn ](linkedin-matched-audience.md)
-#### [Early access: Create segments with the new segmentation designer](new-segment-designer.md)
-#### [Early access: Use Customer Insights segments in Marketing](customer-insights-segments.md)
+#### [Use Customer Insights segments in Marketing](customer-insights-segments.md)
 
 ### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
@@ -161,6 +162,7 @@
 #### [Manage attendee logistics and accommodation](manage-event-logistic.md)
 #### [Set up the event website](set-up-event-portal.md)
 #### [Set up online payment for events](event-payment-gateway.md)
+#### [Change the URL for events hosted on Portals](events-change-url.md)
 #### [Add custom fields to your event registration form](custom-registration-fields.md)
 #### [Invite, register, and house event attendees](invite-register-house-event-attendees.md)
 #### [Follow up after the event](followup-after-event.md)
@@ -197,7 +199,7 @@
 #### [Configure and use custom channel](developer/configure-use-custom-channel.md)
 #### [Remove custom channel](developer/remove-custom-channel.md)
 ### [Preview: Extend event management to support more webinar providers](developer/extend-event-management.md)
-### Early access: Build an approval feature
+### Build an approval feature
 #### [Overview](developer/marketing-approvals-feature.md)
 #### [Build approvals feature using Microsoft Flow](developer/build-approval-feature-using-flow.md)
 ### Create a custom event website

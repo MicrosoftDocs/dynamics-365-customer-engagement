@@ -53,6 +53,7 @@ The following rules apply for prefilling subscription-center forms:
 - Subscription forms always allow prefilling, and all fields in the form will allow prefilling regardless of their **Prefill** setting.
 - All marketing email messages must include a link to a subscription center. The link always includes an ID that Dynamics 365 Marketing uses to identify both the recipient and the message. When a contact selects this link, Dynamics 365 Marketing uses the submitted ID to find the contact record and return a form prefilled with contact values and the current state of each included subscription list. Dynamics 365 Marketing also sets a cookie just like the one it sets for landing pages.
 - If a contact opens a subscription center page directly, rather than selecting a link from an email, then the ID won't be present in the URL. Instead, Dynamics 365 Marketing requests the cookie as backup to identify the contact. If the cookie isn't found, then the subscription center won't work because it won't know who it's talking to.
+- Links in email test sends also don't include a recipient ID, which means that when you open a subscription center link in a test-send email, the subscription center probably won't work. To test a subscription center, create and run a simple customer journey with a segment that only targets your own email address and a test message that includes the subscription-center link.
 
 ### Forward-to-a-friend forms
 

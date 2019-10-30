@@ -5,7 +5,7 @@ manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 09/09/2019
+ms.date: 10/18/2019
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
@@ -40,7 +40,7 @@ To define a resource loaded work breakdown structure, you must complete the foll
 
 1. Create a new project. For more information about how to create a new project, see [msdyn_project](../developer/entities/msdyn_project.md).
 2. Create one or more tasks. For more information about how to create a task, see [msdyn_projecttask](../developer/entities/msdyn_projecttask.md).
-3. Define the task dependencies.
+3. Define the task dependencies. For more information, see [Project Task Dependency](../developer/entities/msdyn_projecttaskdependency.md).
 4. Assign project team members to the project. For more information, see [msdyn_projectteam](../developer/entities/msdyn_projectteam.md).
 5. Assign project team members to the tasks. For more information, see [msdyn_resourceassignment](../developer/entities/msdyn_resourceassignment.md).
 
@@ -57,7 +57,7 @@ To ensure a successful upgrade, the following relationships must be correctly ma
 - Every line task must have a parent task.
 - Every task must have a parent project.
 
-#### Valid conditions
+### Valid conditions
 
 - All task durations must be greater than or equal to (>=) one hour and less than 1,800,000 minutes (1,250 days).*
 - All tasks must have a start date no earlier than 2000/01/01.*
@@ -66,14 +66,25 @@ To ensure a successful upgrade, the following relationships must be correctly ma
 - All transaction types on classifications (Expense, Material, Tax, and Time) must have values for **Default Unit** and **Unit Group**.
 - Date formats with letters should be avoided.
 
+### Potential mitigation steps
+- Use Advanced Find to identify Project tasks that do not contain a Project ID.
+- Use Advanced Find to identify Project tasks where the scheduled duration is greater than > 1,800,000.
+- Prior to making any data changes, you should investigate any customizations associated with the entity which may have lead to getting the data into bad state. These customizations should be addressed before proceeding with any data related updates.
+- For the identified tasks that have been orphaned, consider deleting these tasks if they are not needed or if they should be associated with the correct parent project.
+- For any tasks where the duration is greater than 1,250 days, consider adding multiple tasks to represent the total duration, if feasible.
+
 >[!NOTE]
 > Items noted with an asterisk (*) have limits that are due to the fact that customer relationship management (CRM) supports only 7,320 recurrence expansions. You must stay below this limit.
 
-## Resource assignment relationships
+## Resource Assignment relationships
 To ensure a successful upgrade, the following relationships must be correctly maintained:
 
-- All resource assignments in a work breakdown structure must be related to the same project.
-- All resource assignments in a work breakdown structure must be associated to project team members in the same project.
+- All Resource Assignments in a work breakdown structure must be related to the same project.
+- All Resource Assignments in a work breakdown structure must be associated to project team members in the same project.
+
+### Potential mitigation steps
+- Identify all tasks that fall outside the conditions described above.  
+- Any Resource Assignments that are no longer valid should be deleted.
 
 ## Project task dependency relationships
 To ensure a successful upgrade, the following relationships must be correctly maintained:

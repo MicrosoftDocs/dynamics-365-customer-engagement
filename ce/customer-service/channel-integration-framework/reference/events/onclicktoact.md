@@ -1,5 +1,5 @@
 ---
-title: "onclicktoact event (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | Microsoft Docs"
+title: "onclicktoact event (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
 description: ""
 keywords: ""
 ms.date: 12/10/2018
@@ -9,8 +9,6 @@ ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"
 ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: 6C942CA2-D776-4596-B9C5-D9007DF1AEE9
 author: susikka
 ms.author: susikka
@@ -31,7 +29,7 @@ The `onclicktoact` event takes following eventData:
 |-----------|---------|
 | ```{"value": <field_value>, "name": <field_name>, "format": <field_type>, "entityLogicalName": <entity_logical_name>}``` | ```{"value": "123456789", "name": "mobilephone", "format": "phone", "entityLogicalName": "contact"}``` |
 
-## Related topics
+## See also
 
 - [setClickToAct](../microsoft-ciframework/setClickToAct.md)
 

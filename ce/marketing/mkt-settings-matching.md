@@ -1,7 +1,7 @@
 ---
 title: "Configure matching strategies (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Set up how form submissions are matched to existing contacts or leads when deciding whether to update an existing record or to create a new one in Dynamics 365 Marketing"
-ms.date: 01/10/2019
+ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -43,9 +43,10 @@ Describe your strategy by entering a **Name** and **Description**. Set the **Tar
 
 The list under the **Attributes** heading specifies which contact or lead attributes (fields) to consider when looking for a match. The matching record must have identical values for *all* the attributes shown here, so the more attributes you use, the narrower your search will be. Often the email address alone is enough to use as a unique identifier for contacts, but you might use additional attributes (such as first and last name) if you think some of your contacts might share an email address, or if you want tighter control (at the risk of creating extra contact records for the same person).
 
-For lead matching, you might consider adding both **emailaddress1** and a lead-origin attribute such as **msdyncrm_marketingpageid** (this is the out-of-box configuration). This enables the system to identify leads based on the combination of email address and the specific marketing page that created the lead. By including the page ID as part of your lead-matching strategy, you'll be able to have multiple leads for a single contact, with each lead tracking interest in a different campaign (provided each campaign is using its own marketing page). For [forms embedded on an external site](embed-forms.md), the  marketing-page ID will be the form-page ID configured for the form.
-
 Use the buttons in the toolbar for the **Attributes** section to add, edit, and remove attribute in the list.
+
+> [!NOTE]
+> For lead matching, you might consider adding both **emailaddress1** and a lead-origin attribute such as **msdyncrm_marketingpageid** (this is the default configuration). This enables the system to identify leads based on the combination of email address and the specific marketing page that created the lead. By including the page ID as part of your lead-matching strategy, you'll be able to have multiple leads for a single contact, with each lead tracking interest in a different campaign (provided each campaign is using its own marketing page). However, the page ID is only provided by marketing pages hosted on a [Dynamics 365 Portal](portal-optional.md); for captured forms and forms embedded on an [external site](embed-forms.md), no page ID is saved, so all external forms will look like the same form when it comes to lead matching.
 
 ### See also
 

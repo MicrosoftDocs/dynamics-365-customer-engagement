@@ -1,5 +1,5 @@
 ---
-title: "New features in Dynamics 365 Customer Engagement (on-premises), version 9.x"
+title: "New features in Dynamics 365 Customer Engagement (on-premises), version 9"
 ms.date: "09/26/2019"
 ms.topic: "topic"
 ms.assetid: 676b68d9-2a7b-4924-a5cf-299163e8b5ea
@@ -8,9 +8,9 @@ ms.author: matp
 manager: kvivek
 ---
 
-# New features in Dynamics 365 Customer Engagement (on-premises), version 9.x
+# New features in Dynamics 365 Customer Engagement (on-premises), version 9
 
-This topic lists new features that are available with Dynamics 365 Customer Engagement (on-premises), version 9.x.
+This topic lists new features that are available with Dynamics 365 Customer Engagement (on-premises), version 9.
 
 > [!NOTE]
 > The model-driven apps in Dynamics 365 such as Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Field Service, and Dynamics 365 Project Service Automation apps already have these features. More information: [Dynamics 365 Documentation](https://docs.microsoft.com/dynamics365). 
@@ -24,11 +24,11 @@ This topic lists new features that are available with Dynamics 365 Customer Enga
 |[Enterprise Service with the Unified Interface framework](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/user-guide-customer-service-hub)      | 
 | [Enterprise Service classic web app user interface refresh](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/help-hub)       | 
 | Run on-demand workflows from apps based on the Unified Interface framework  |
-| [App design enhancements](https://docs.microsoft.com/dynamics365/customer-engagement/on-premises/customize/create-edit-app)   |
+| [App design enhancements](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-app)   |
 |  Relationship Assistant [(base cards only)](/dynamics365/customer-engagement/sales-enterprise/action-cards-reference#base-cards)   |  
 | [Sales Insights](/dynamics365/customer-engagement/sales-enterprise/sales-insights-addon)     |
 |  [Virtual entities](/dynamics365/customer-engagement//on-premises/customize/create-edit-virtual-entities)  |
-|  [Security enhancements: User session and access management](/dynamics365/customer-engagement/on-premises/admin/user-session-management)   |
+|  [Security enhancements: User session and access management](/dynamics365/customerengagement/on-premises/admin/user-session-management)   |
 
 > [!NOTE]
 > The offline capability in Dynamics 365 for Outlook, version 9.0 isn't available in Dynamics 365 Customer Engagement (on-premises), version 9.x. However, the offline capability in Dynamics 365 for Outlook, version 9.0 will continue to be supported in [Common Data Service](/powerapps/maker/common-data-service/data-platform-intro).

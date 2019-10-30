@@ -72,3 +72,4 @@ Use the rollup query to gather data about a given goal, including all its relate
 ### See also  
 
 [Create or edit goals](../sales-enterprise/create-edit-goal-sales.md)   
+[Define a goal metric](create-edit-goal-metric.md)

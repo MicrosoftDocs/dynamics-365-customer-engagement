@@ -1,8 +1,8 @@
 ---
-title: "onmodechanged (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | Microsoft Docs"
+title: "onmodechanged (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 12/10/2018
+ms.date: 10/21/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -19,7 +19,7 @@ manager: shujoshi
 
 # onmodechanged event (CIF JavaScript API reference)
 
-The `onmodechanged` event is invoked when the panel mode is manually toggled between **Minimized (0)** and **Docked (1)**.
+The `onmodechanged` event is invoked when the panel mode is manually toggled between **Minimized (0)**, **Docked (1)** and **Hidden (2)**.
 
 ## eventData
 

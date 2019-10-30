@@ -2,7 +2,7 @@
 title: "Discontinuation of Microsoft Social Engagement | Microsoft Docs"
 description: "Information about the discontinuation of the Microsoft Social Engagement service."
 keywords: "discontinuation, MSE, AI for Market Insights"
-ms.date: 05/31/2019
+ms.date: 10/29/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 

@@ -84,7 +84,7 @@ When a Common Data Service environment is restored from a backup, various change
 
   1. Go to the Dynamics 365 admin center and select the **Applications** tab.
   2. Select the name of the portal and then select **Manage**.
-  3. In Portal Admin Center, go to the **Portal Details** tab.
+  3. In PowerApps Portals admin center, go to the **Portal Details** tab.
   4. In the **Portal State** drop-down list, choose **Off**.
   5. Select **Update**. 
   6. Once the update operation is complete, set the **Portal State** drop-down list to **On** and then select **Update**.
@@ -198,7 +198,7 @@ However, there are situations in which portal will not be able to recreate websi
   - **Website**: Select the website record which you want to be rendered on portal
   - **Sitename**: Type in the hostname of your portal i.e Portal URL without https:// in the beginning. If your Portal is using custom domain name, then use custom domain name here.
   - Leave all other fields blank.
-3. Once website binding record is recreated, restart your portal from Portal Admin Center.
+3. Once website binding record is recreated, restart your portal from PowerApps Portals admin center.
 
 #### An unexpected error has occurred while trying to connect to your Common Data Service environment
 
@@ -208,7 +208,7 @@ If portal reset and reprovision doesn't solve this issue, please reach out to Mi
 
 ### Portal is not displaying updated data from Common Data Service environment
 
-Any data displayed on portal is rendered from the portal cache. This cache gets updated whenever data in Common Data Service environment is updated. However, this process is asynchronous and can take upto 15 minutes. If the changes are made in the metadata entity of portal, for example, web pages, web files, content snippet, site setting, and so on, it is advised to clear cache manually or restart the portal from Portal Admin Center. For information on how to clear cache, see [Clear the server-side cache for a portal](clear-server-side-cache.md). 
+Any data displayed on portal is rendered from the portal cache. This cache gets updated whenever data in Common Data Service environment is updated. However, this process is asynchronous and can take upto 15 minutes. If the changes are made in the metadata entity of portal, for example, web pages, web files, content snippet, site setting, and so on, it is advised to clear cache manually or restart the portal from PowerApps Portals admin center. For information on how to clear cache, see [Clear the server-side cache for a portal](clear-server-side-cache.md). 
 
 However, if you are seeing stale data for a long time in non-portal metadata entities, it can be because of variety of issues listed below:
 
@@ -216,9 +216,9 @@ However, if you are seeing stale data for a long time in non-portal metadata ent
 
 If you are seeing stale data only for certain entities and not for everything, this can be because the Change Tracking metadata is not enabled on that specific entity.
 
-If you run the Portal checker (self-service diagnostic) tool, it will list down Object Type code of all the entities which are referenced on portal in entity list or entity forms and web forms and are not enabled for change tracking. Browse your metadata by using the steps mentioned at [Browse the metadata for your organization](../customer-engagement/on-premises/developer/browse-your-metadata.md)
+If you run the Portal checker (self-service diagnostic) tool, it will list down Object Type code of all the entities which are referenced on portal in entity list or entity forms and web forms and are not enabled for change tracking. Browse your metadata by using the steps mentioned at [Browse the metadata for your organization](../customerengagement/on-premises/developer/browse-your-metadata.md)
 
-If you are experiencing stale data issue in any of these entities, you can enable change tracking by using Dynamics 365 admin UI or Dynamics 365 API. More information:  [Enable change tracking for an entity](../customer-engagement/on-premises/developer/use-change-tracking-synchronize-data-external-systems.md#enable-change-tracking-for-an-entity)
+If you are experiencing stale data issue in any of these entities, you can enable change tracking by using Dynamics 365 admin UI or Dynamics 365 API. More information:  [Enable change tracking for an entity](../customerengagement/on-premises/developer/use-change-tracking-synchronize-data-external-systems.md#enable-change-tracking-for-an-entity)
 
 #### Organization not enabled for change tracking
 

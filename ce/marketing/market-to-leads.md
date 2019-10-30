@@ -46,29 +46,38 @@ Dynamics 365 Marketing lets you create segments based on queries against your cu
 
 For example, to set up a segment that finds all the leads collected at a recent conference, you could do the following:
 
-1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar. A new segment record opens with the **Definition** > **Designer** tab showing.  
-    ![Close the default group](media/segment-opportunity-close-group.png "Close the default group")
+1. Go to **Marketing** > **Customers** > **Segments** and select **New** on the command bar. Then select **Demographic** on the **Let's create your segment** screen.
 
-    Do the following:
+1. A new demographic segment opens. Check the view setting near the upper corner of the **Definition** tab and make sure it's set to **Tree view**. (You could use either view, but in this procedure we show and describe the tree view, so it's a good idea to use it for now.)
 
-    - Enter a **Name** for the segment at the top of the page.
-    - Select the close button to remove the default contact group from the **Designer** area. Many of your segments will probably start and end with the contact entity, but for this example we will start with lead instead.
+    ![Choose the tree view](media/segment-firmographic-tree-view.png "Choose the tree view")
 
-1. When default contact group closes, it's replaced by a **Select a profile or relationship** drop-down list. Select **Lead** from here.)    
-    ![Create a lead query group](media/leads-segment-lead-group.png "Create a lead query group")
+1. Open the **Add** drop-down list under the **Contact** entity and select **Add related entity**.
 
-1. Set up a query to find the leads you need. In this example, we'll look for leads collected at a recent conference; all were assigned a **Topic** of "Contoso Ltd Conference".    
-    ![An example lead query](media/leads-segment-lead-clause.png "An example lead query")
+    ![Add a related entity](media/segment-add-related-entity.png "Add a related entity")
 
-1. All segments must end by making a connection to the contact entity, so choose **+ And** to add a new clause to your expression and set it to **Lead -> Contact (Parent Contact for lead)**, which links from the lead record to the related contact record based on the lead's parent contact ID.  Leave it set it to match **All&#42;**.    
-    ![Link to the related contact records](media/leads-segment-lead-relation.png "Link to the related contact records")
+1. A new related entity is added to your query. Select the field with **Select related entity** in ghost text to open a large drop-down list of available relations. Type "lead" in the field to filter the list and then select **Lead (Lead -> Contact (Parent Contact for lead))** from the drop-down list. This relation links the parent **Contact** entity to the **Lead** entity through the **Parent Contact for lead** field of the **Lead** entity. The **Parent Contact for lead** field identifies the contact that Dynamics 365 Marketing associates with each lead. More information: [Move between entities with relationships](segments-profile.md#relationships)
 
-1. Select **+And** to add a final clause to the group, which must end with the contact entity. Set the new clause to use the **Contact** entity and leave it set it to match **All&#42;** to find all contacts associated with the selected leads.  
-    ![Finish the path to the contact entity](media/leads-segment-contacts.png "Finish the path to the contact entity")
+    ![Link to leads](media/segment-leads-relation.png "Link to leads")
 
-1. Select **Save** and then **Go live** on the command bar.
+1. Open the **Add** drop-down list indented under the new related entity and select **Add row** to begin defining the collection of waitlist items you are looking for.
 
-1. Your segment is now live and will now find contacts associated with leads that have the specified topic.
+1. In the group below the lead relationship, set up a query to find the leads you need. In the following example, we'll look for leads collected at a recent conference; each of these were assigned a **Topic** of "Contoso Ltd Conference".
+
+    ![An example lead query](media/segment-leads-clause.png "An example lead query")
+
+1. Continue to add rows and groups as needed to define the collection of leads and contacts you are looking for.
+
+    - To find leads, work in the space indented below the **Lead (Lead -> Contact (Parent Contact for lead))** related entity. The criteria that you add here will all refer to various fields of the lead entity.
+    - To further filter the collection of contacts that are related to the found leads, work in the area directly under the **Contact** entity (outside of the **Lead (Lead -> Contact (Parent Contact for lead))** related entity).  The criteria that you add here will all refer to various fields of the contact entity.
+
+    For example, the following query finds all the leads from the Contoso Ltd Conference, but then reduces the audience to only include contacts that have the role of decision maker.
+
+    ![An example query that finds decision makers associated with particular leads](media/segment-leads-contacts.png "An example query that finds decision makers associated with particular leads")
+
+1. Select the field above the query that shows **Enter segment name** as ghost text. Then type a name for your segment.
+
+1. On the command bar, select **Save** to save your segment and then select **Go live**.
 
 ## Automatically generate contacts for orphaned leads
 

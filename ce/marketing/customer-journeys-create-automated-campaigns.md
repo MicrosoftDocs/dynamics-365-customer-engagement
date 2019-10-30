@@ -2,7 +2,7 @@
 title: "Guide your prospects through an interactive customer journey (Dynamics 365 Marketing) | Microsoft Docs "
 description: "How to create a customer journey by assembling a pipeline of automated communications, activities, and conditional pathways in Dynamics 365 Marketing"
 keywords: customer journey; campaign; email; segment; go live; pipeline
-ms.date: 04/01/2018
+ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -50,9 +50,11 @@ The previous figure shows how a simple customer journey might look. A somewhat m
 
 ## Set up a customer journey
 
-To view and create your customer journeys, go to **Marketing** > **Marketing Execution** > **Customer Journeys**. This brings you to a standard list view, where you can search, sort, and filter the list to find an existing journey—or create a new one by using the commands in the command bar.
+To view and create your customer journeys, go to **Marketing** > **Marketing Execution** > **Customer Journeys**. This brings you to a standard list view, where you can search, sort, and filter the list to find an existing journey.
 
-When you create a new customer journey, you'll first be presented with a list of customer-journey templates, which can help you get started quickly. The **Select a Journey Template** dialog box provides a categorized overview of templates and a search form to help you find the one you're looking for. Each template represents a particular type of campaign, and includes a preconfigured pipeline and a few related settings that will help you create a customer journey of the selected type.
+To create a new journey, select **New** on the command bar.
+
+When you create a new customer journey, you'll first be presented with a list of customer-journey templates, which can help you get started quickly. The **Customer journey templates** dialog box provides a categorized overview of templates and a search form to help you find the one you're looking for. Each template represents a particular type of campaign, and includes a preconfigured pipeline and a few related settings that will help you create a customer journey of the selected type.
 
 ![Select a Journey Template dialog](media/customer-journey-template.png "Select a journey template")
 
@@ -184,6 +186,24 @@ It is your organization's responsibility to ensure that it is operating in full 
 
 More information: [Data protection and the GDPR](gdpr.md)
 
+### Set the business-unit scope
+
+Business-unit scopes are an optional feature. When they are enabled for your instance, then the **General** tab includes a **Scope** setting, which controls which contacts will be permitted to join the journey based on business-unit ownership.
+
+When business-unit scopes are enabled:
+
+- The **Scope** setting is available and can have a value of **Organization** or **Business unit**. 
+- **Business unit** scoped journeys will only process contacts that belong to the same business unit as the journey owner&mdash;even if the journey targets segments, lists, and/or pages that include contacts belonging to other business units.
+- **Organization** scoped journeys will process all targeted contacts, regardless of which business unit owns the journey.
+- Only users with organization-level create/update permissions can choose the **Organization** scope setting. Less privileged users are limited to creating journeys scoped at the **Business unit** level.
+
+When business-unit scopes are disabled:
+
+- The **Scope** setting isn't shown.
+- All journeys are scoped at the organization level, which means that they will process all contacts in the targeted segments, lists, and/or pages, regardless of which business unit owns the journey and each contact.
+
+More information: [Use business units to control access to Marketing records](business-units.md)
+
 ### Set the execution schedule
 
 All customer journeys are active for a limited time. During this time, the journey processes all contacts that are part of its target segments, stepping them through each tile according to its settings. The journey starts by processing all contacts that are already in its segments, and it will continue to process new contacts that are added to the segment during the time it is active. At the end of the schedule, it stops processing all contacts, regardless of where they are in the journey. Use the **Start date and time** and **End date and time** settings on the **General** tab to set up the start and end dates, and use the **Time zone** setting to establish the time zone to use when interpreting these values.
@@ -243,6 +263,12 @@ When you've finished designing your customer journey, do the following to verify
 ## Gain insights by monitoring journey progress and results
 
 As soon as your journey starts running, it will begin to generate and collect information about where your contacts are in their journey and how they've interacted with its various elements such as emails, pages, and events. Dynamics 365 Marketing provides a wealth of information, including analytics, KPIs, graphs, and more, to help you gain insights from your marketing results. More information: [Analyze results to gain insights from your marketing activities](insights.md)
+
+## View milestones in the customer journey life cycle
+
+Customer journeys pass through many states while you create, edit, and run them. You can now view a full history of these milestones for any customer journey. To see them, open any live or previously live journey, go to its Designer tab, make sure no tile is selected, and then view the Data panel.
+ 
+![Journey events list](media/journey-events.png "Journey events list")
 
 ### See also
 

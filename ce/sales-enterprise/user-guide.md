@@ -93,7 +93,6 @@ caps.latest.revision: 5
 <h2>Reports, calendar, and printing</h2>
 
 <li><a href="../basics/run-report.md" data-raw-source="[Run a report](../basics/run-report.md)">Run a report</a></li>
-<li><a href="../basics/add-edit-power-bi-visualizations-dashboard.md" data-raw-source="[Add or edit Power BI visualizations on your dashboard](../basics/add-edit-power-bi-visualizations-dashboard.md)">Add or edit Power BI visualizations on your dashboard</a></li>
 <li><a href="../basics/workplace-calendar.md" data-raw-source="[Use the workplace calendar](../basics/workplace-calendar.md)">Use the workplace calendar</a></li>
 <li><a href="../basics/print-leads-quotes-other-records.md" data-raw-source="[Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)">Print leads, quotes, and other records</a></li>
 

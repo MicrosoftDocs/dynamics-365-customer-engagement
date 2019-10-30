@@ -3,7 +3,8 @@
 ## Get started
 ### [Introduction](introduction-omnichannel.md)
 ### [Preview features in Omnichannel for Customer Service](preview-features.md)
-### [Try Chat for Dynamics 365 Customer Service](try-chat-for-dynamics365.md)
+### [Try channels in Omnichannel for Customer Service](try-chat-for-dynamics365.md)
+### [Chat for Dynamics 365 Customer Service demo data](chat-dynamics365-customer-service-demo-data.md)
 ### [Pre-requisites and system requirements](system-requirements-omnichannel.md)
 ### [Assign roles and enable users](administrator/add-users-assign-roles.md)
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)
@@ -25,7 +26,7 @@
 #### [Configure settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md)
 ### [Delete Omnichannel solutions](administrator/delete-solution.md)
 
-### [Integrate a bot](administrator/configure-bot.md)
+### [Integrate an Azure bot](administrator/configure-bot.md)
 
 ### Channels
 #### [Configure a chat channel](administrator/set-up-chat-widget.md)
@@ -34,29 +35,46 @@
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
 ##### [Embed chat widget in Dynamics 365 Portals](administrator/embed-chat-widget-portal.md)
+##### [Configure proactive chat](administrator/proactive-chat.md)
 #### [Configure an SMS channel](administrator/configure-sms-channel.md)
+#### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
 #### Entity records
 ##### [Entity records routing](administrator/entity-channel.md)
-##### [Walkthrough: Create multiple workstreams for entity records routing](administrator/multiple-ws-entity-record-routing.md)
+##### [Route trigger for entity records](administrator/routing-trigger.md)
 
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)
 #### [Manage users](administrator/users-user-profiles.md)
+#### [Show customers their position in queue](administrator/show-queue.md)
+#### Skill based routing
+##### [Overview](administrator/overview-skill-work-distribution.md)
+##### [Skill based routing and rating model](administrator/enable-skill-routing-create-rating-model.md)
+##### [Set up skills and assign agents](administrator/setup-skills-assign-agents.md)
+##### [Attach skills to conversation](administrator/attach-skills.md)
 
 ### Work Distribution Management
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
-#### [Entity record workstreams](administrator/set-up-entity-workstream.md)
+#### [Create workstream for entity record routing](administrator/set-up-entity-workstream.md)
+#### [Create multiple workstreams for entity records routing](administrator/multiple-ws-entity-record-routing.md)
 #### [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
 
 ### Agent Experience
+#### Productivity tools
+##### [Overview](administrator/productivity-tools.md)
+##### [Macros](administrator/macros.md)
+##### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
+##### [Agent scripts](administrator/agent-scripts.md)
+##### [Smart assist](administrator/smart-assist.md)
 #### [Create quick replies](administrator/create-quick-replies.md)
 #### [Configure and manage custom presence](administrator/presence-custom-presence.md)
 #### [Share knowledge articles](administrator/knowledge-management-oc.md)
 
 ### Supervisor Experience
-#### [Configure to view intraday insights dashboard](administrator/configure-intraday-dashboard-supervisor.md)
+#### [Configure to view Intraday insights](administrator/configure-intraday-dashboard-supervisor.md)
+#### [Customize KPIs for Intraday insights](administrator/customize-kpis-intraday-insights.md)
 #### [Provide access to Ongoing Conversations dashboard](administrator/configure-ongoing-conversations-dashbaord.md)
+<!--#### [Enable supervisors to monitor and assign conversations](administrator/configure-ongoing-conversations-settings.md)-->
 #### [Enable sentiment analysis](administrator/enable-sentiment-analysis.md)
 #### [Configure Omnichannel Insights dashboards](administrator/configure-historical-sentiment-dashboard-supervisor.md)
 
@@ -65,6 +83,15 @@
 #### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
+#### [Enable portal navigation](administrator/portal-navigation.md)
+
+### Templates
+#### [Overview](administrator/templates-overview.md)
+#### [Manage session templates](administrator/session-templates.md)
+#### [Manage application tab templates](administrator/application-tab-templates.md)
+#### [Manage notification templates](administrator/notification-templates.md)
+#### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
+#### [Associate templates with workstreams](administrator/associate-templates.md)
 
 ## Agent guide
 
@@ -75,6 +102,9 @@
 #### [Introduction to the agent interface](agent/agent-oc/oc-introduction-agent-interface.md)
 #### [Manage sessions](agent/agent-oc/oc-manage-sessions.md)
 #### [Manage applications](agent/agent-oc/oc-manage-applications.md)
+#### Productivity tools
+##### [Agent scripts](agent/agent-oc/oc-agent-scripts.md)
+##### [Smart assist](agent/agent-oc/oc-smart-assist.md)
 #### [View agent dashboard and conversations (work items)](agent/agent-oc/oc-agent-dashboard.md)
 #### [Create a record](agent/agent-oc/oc-create-record.md)
 #### [Search, link, and unlink a record](agent/agent-oc/oc-search-link-unlink-record.md)
@@ -86,6 +116,7 @@
 #### [View customer summary](agent/agent-oc/oc-customer-summary.md)
 #### [Search for and share knowledge articles](agent/agent-oc/oc-search-knowledge-articles.md)
 #### [Take notes specific to conversation](agent/agent-oc/oc-take-notes.md)
+#### [Search for transcripts](agent/agent-oc/oc-search-transcipts.md)
 #### [View conversation and session activity types in the Model-driven apps](agent/agent-oc/oc-view-activity-types.md)
 #### [View customer summary for an incoming conversation request](agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md)
 
@@ -109,9 +140,10 @@
 
 ## Supervisor guide
 ### [Introduction to intraday supervisor experiences](supervisor/intro-intraday-insights-dashboard.md)
-#### [View and understand Omnichannel intraday insights dashboard](supervisor/intraday-insights-dashboard.md) 
+#### [View and understand Omnichannel intraday insights](supervisor/intraday-insights-dashboard.md) 
 #### [View and understand Omnichannel Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
 #### [Monitor conversations](supervisor/monitor-conversations.md)
+<!--#### [Assign conversations](supervisor/assign-conversations.md)-->
 ### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
 #### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)
 
@@ -123,9 +155,9 @@
 #### [Customize quick view forms](customizer/customize-quick-view-form.md)
 
 ### [Customize the session forms](customizer/customize-session-form.md)
-
+### [Configure link to conversation button in model-driven app entity form](customizer/configure-link-to-conversation-model-driven-app-form.md)
+### [Configure relevance search for transcripts](customizer/relevance-search-chat-transcript.md)
 ### Unified Service Desk settings
-
 #### [Create agent and supervisor configurations in Unified Service Desk](customizer/create-agent-supervisor-configurations-unified-service-desk.md)
 
 #### Configure Omnichannel Agent Dashboard
@@ -168,20 +200,33 @@
 ###### [Step 4: Attach Omnichannel Toast Notification-related action calls to events](customizer/toastnotification-step4-add-action-calls-events.md)
 ###### [Step 5: Add the hosted control, events, forms and action calls to configurations](customizer/toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 
+#### Configure search
+##### [Overview](customizer/configure-search.md)
+##### [Step 1: Create search hosted control](customizer/search-step1-create-hosted-control.md)
+##### [Step 2: Create search-related action calls](customizer/search-step2-create-action-calls.md)
+##### [Step 3: Attach sub action calls to action calls](customizer/search-step3-attach-sub-action-calls.md)
+##### [Step 4: Attach search-related action calls to events](customizer/search-step4-attach-action-calls-events.md)
+##### [Step 5: Configure window navigation rule for search](customizer/search-step5-configure-window-navigation-rule.md)
+##### [Step 6: Create toolbar buttons for search](customizer/search-step6-create-toolbar-button.md)
+##### [Step 7: Add hosted control, action calls, window navigation rule, and events to configurations](customizer/search-step7-add-hosted-control-action-calls-events-configurations.md)
+
 #### [Configure session name information](customizer/configure-session-name-information.md)
 
 #### [Configure Scriptlets to define case and channel titles](customizer/configure-Scriptlets-define-case-channel-titles.md)
 
-#### [Configure link to conversation button](customizer/configure-link-to-conversation.md)
+#### [Configure link to conversation button in Unified Service Desk](customizer/configure-link-to-conversation.md)
 
 ## Developer guide
 ### [Overview](developer/omnichannel-developer.md)
-### [Manage custom context](developer/how-to/send-context-starting-chat.md)
-### [Display custom context](developer/how-to/display-custom-context.md)
-### [Send authentication token](developer/how-to/send-auth-token-starting-chat.md)
-### [Initiate a chat](developer/how-to/initiate-chat-wait-time.md)
-### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
-### [Automatic closure of a conversation](developer/auto-close-conversation.md)
+### How to
+#### [Manage custom context](developer/how-to/send-context-starting-chat.md)
+#### [Display custom context](developer/how-to/display-custom-context.md)
+#### [Send authentication token](developer/how-to/send-auth-token-starting-chat.md)
+#### [Initiate a chat](developer/how-to/initiate-chat-wait-time.md)
+#### [Start chat proactively](developer/how-to/start-proactive-chat.md)
+#### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
+#### [Auto-close a conversation](developer/auto-close-conversation.md)
+#### [Build a custom smart assist bot](developer/how-to/smart-assist-bot.md)
 ### Entity reference
 #### [Deprecated entities](developer/reference/entities/deprecated-entities.md)
 #### [msdyn_analytics](developer/reference/entities/msdyn_analytics.md)
@@ -212,6 +257,7 @@
 #### [msdyn_operatinghour](developer/reference/entities/msdyn_operatinghour.md)
 #### [msdyn_presence](developer/reference/entities/msdyn_presence.md)
 #### [msdyn_questionsequence](developer/reference/entities/msdyn_questionsequence.md)
+#### [msdyn_routingruleinstance](developer/reference/entities/msdyn_routingruleinstance.md)
 #### [msdyn_searchconfiguration](developer/reference/entities/msdyn_searchconfiguration.md)
 #### [msdyn_sentimentanalysis](developer/reference/entities/msdyn_sentimentanalysis.md)
 #### [msdyn_sessionevent](developer/reference/entities/msdyn_sessionevent.md)
@@ -221,6 +267,7 @@
 #### [msdyn_surveyquestion](developer/reference/entities/msdyn_surveyquestion.md)
 #### [msdyn_systemuser_msdyn_omnichannelqueue](developer/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md)
 #### [msdyn_transcript](developer/reference/entities/msdyn_transcript.md)
+#### [msdyn_visitorjourney](developer/reference/entities/msdyn_visitorjourney.md)
 ### Live chat JavaScript API Reference
 #### [Overview](developer/omnichannel-reference.md)
 #### [Methods]()
@@ -231,11 +278,14 @@
 ##### [getAuthTokenProvider](developer/reference/methods/getAuthTokenProvider.md)
 ##### [removeAuthTokenProvider](developer/reference/methods/removeAuthTokenProvider.md)
 ##### [startChat](developer/reference/methods/startChat.md)
+##### [startProactiveChat](developer/reference/methods/startProactiveChat.md)
 #### [Events]()
 ##### [lcw:ready](developer/reference/events/lcw-ready.md)
 ##### [lcw:error](developer/reference/events/lcw-error.md)
 #### [Error code reference](developer/reference/error-code-reference.md)
-
+### [runMacro](developer/reference/methods/runMacro.md)
+### Action Reference
+#### [msdyn_ApplyRoutingRuleEntityRecord](developer/reference/actions/msdyn_ApplyRoutingRuleEntityRecord.md)
 ## Troubleshooting, readme, and FAQs
 ### [Readme](omnichannel-readme.md)
 ### [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)

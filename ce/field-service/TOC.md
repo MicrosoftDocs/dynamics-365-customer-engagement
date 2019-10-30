@@ -60,9 +60,11 @@
 ### [Travel time and distance](schedule-with-travel-time.md)
 ### [Quick scheduling](quick-scheduling.md)
 ### [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
+### [Multi-day scheduling](schedule-multi-day-work.md)
 ### [Resource crew scheduling](resource-crews.md)
 ### [Resource pools](resource-pools.md)
 ### [Facility scheduling](facility-scheduling.md)
+### [Time constraints](schedule-time-constraints.md)
 
 
 ## Schedule board 
@@ -79,16 +81,17 @@
 ## [Overview](field-service-mobile-overview.md)
 ## [Setup](field-service-mobile-app-user-guide.md)
 ## [Customizations and configurations](mobile-app-configuration-customization.md)
+## [Activate mobile configurator](activate-fs-mobile-app-license.md)
+## [Upgrade the mobile project template](mobile-upgrade-project.md)
 ## [Push notifications](mobile-push-notifications.md)
 ## [Geofencing](geofencing.md)
-## [Activate mobile configurator](activate-fs-mobile-app-license.md)
-## [Mixed reality integration with Dynamics 365 Remote Assist and HoloLens](remote-assist-hololens.md)
 ## FAQs + troubleshooting
-### [How do I extend my mobile configuration tool trial?](activate-fs-mobile-app-license.md)
-### [What is the latest version of the mobile app and configuration tool?](mobile-faq-latest-version.md)
-### [My mobile app will not sync to the server / crashes immediately](mobile-faq-sync-crash.md)
-### [Why can't I see my bookings when logged into the app?](mobile-faq-bookings-not-showing.md)
-### [Bookings not scheduled to me show up when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
+### [Frequently asked questions](mobile-faq.md)
+### Troubleshooting topics
+#### [What is the latest version of the mobile app and configuration tool?](mobile-faq-latest-version.md)
+#### [Mobile app won't sync to server or crashes immediately](mobile-faq-sync-crash.md)
+#### [Bookings don't appear when logged into the app?](mobile-faq-bookings-not-showing.md)
+#### [Bookings not scheduled to me show up when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
 ## [Get help](mobile-get-help.md) 
 
 
@@ -120,6 +123,7 @@
 
 # Resource Scheduling Optimization (RSO) add-in
 ## [Overview](rso-overview.md)
+## [Get RSO](rso-get-install.md)
 ## [Quickstart](rso-quickstart.md)
 ## [Deployment](rso-deployment.md)
 ## [Configuration](rso-configuration.md)
@@ -129,7 +133,7 @@
 ### [Single resource optimization](single-resource-optimization.md)
 ### [Booking lock options](booking-lock-options.md)
 ### [Resolving booking conflicts](rso-handling-resolving-booking-conflicts.md)
-## [FAQ and troubleshooting tips](rso-faq.md)
+## [FAQs + troubleshooting](rso-faq.md)
 
 # Connected Field Service (IoT) add-in
 ## [Overview](connected-field-service.md)
@@ -153,5 +157,8 @@
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 ## [Security roles for Connected Field Service](cfs-security-roles.md)
 # Integrations
+## [Dynamics 365 Remote Assist and HoloLens](remote-assist-hololens.md)
 ## [Dynamics 365 Guides on HoloLens](mixed-reality-guides-integration.md)
+# [Troubleshoot with Solution Health Hub](troubleshoot-field-service-solution-health.md)
 # [General FAQs](troubleshoot-faq.md)
+

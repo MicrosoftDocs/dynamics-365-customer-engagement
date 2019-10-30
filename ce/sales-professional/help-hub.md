@@ -2,7 +2,7 @@
 title: "Help resources for Dynamics 365 Sales Professional| Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 Sales Professional."
 keywords: "sales;help"
-ms.date: 10/01/2019
+ms.date: 10/14/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -38,7 +38,7 @@ manager: annbe
 <li><a href="create-invoices.md" data-raw-source="[Create and manage invoices](create-invoices.md)">Create and manage invoices</a></li>
 <li><a href="create-products.md" data-raw-source="[Create products](create-products.md)">Create products</a></li>
 <li><a href="create-price-list.md" data-raw-source="[Create price lists](create-price-list.md)">Create price lists</a></li>
-<li><a href="create-unit-group-add-units.md" data-raw-source="[Create a unit group and add units](create-unit-group-add-units.md)">Create a unit group and add units</a></li>
+<li><a href="user-guide.md" data-raw-source="[More resources for sales people](user-guide.md)">More help resources for sales people...</a></li>
 </ul>
 </td></tr>
 
@@ -69,9 +69,7 @@ manager: annbe
 <li><a href="import-data.md" data-raw-source=" [Import data](import-data.md)">Import data</a></li>
 <li><a href="manage-users.md" data-raw-source=" [Manage users](manage-users.md)">Manage users</a></li>
 <li><a href="configure-email.md" data-raw-source=" [Set up email](configure-email.md)">Configure email</a></li>
-<li><a href="admin-guide.md" data-raw-source=" [More resources for admins and sales manager...](admin-guide.md)">More resources for admins and sales manager...</a></li>
-</ul>
-
+<li><a href="admin-guide.md" data-raw-source="[More resources for admins and sales managers](admin-guide.md)">More help resources for admins and sales managers...</a></li>
 </td><td>
 
 <h2>Customize the app</h2>
@@ -79,7 +77,13 @@ manager: annbe
 <li><a href="customize-forms.md" data-raw-source="[Customize forms](customize-forms.md)">Customize forms</a></li>
 <li><a href="customize-views.md" data-raw-source="[Customize views](customize-views.md)">Customize views</a></li>
 <li><a href="customize-business-process-flows.md" data-raw-source="[Customize business process flows](customize-business-process-flows.md)">Customize business process flows</a></li>
-<li><a href="manage-app.md" data-raw-source="[Customize the Dynamics 365 Sales Professional app](manage.app.md)">Customize the Dynamics 365 Sales Professional app</a></li>
+<li><a href="manage-app.md" data-raw-source="[Customize the Dynamics 365 Sales Professional app](manage.app.md)">Customize the Dynamics 365 Sales Professional app</a></li></ul>
 </td></tr>
-</ul>
+<tr>
+<td>
+<h2>Dynamics 365 Sales (Enterprise)</h2>
+<ul>
+<li><a href="../sales-enterprise/help-hub.md" data-raw-source="[Help resources for Dynamics 365 Sales (Enterprise)](../sales-enterprise/help-hub.md)">Help resources for Dynamics 365 Sales (Enterprise)</a></li></ul>
+</td>
+<td></td></tr>
 </table>

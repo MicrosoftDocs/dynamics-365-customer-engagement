@@ -1,7 +1,7 @@
 ---
 title: "Use the designer tool (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Basics of how to use the designer tool to create emails, landing pages, and forms in Dynamics 365 Marketing"
-ms.date: 10/16/2018
+ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -48,11 +48,58 @@ The template picker provides many controls for searching, sorting, and filtering
 
 The template you choose will initiate your design by establishing the following:
 
-- **Column layout**: Sets the basic layout, such as one-column, two-column, and so on. To change this later, you'll need to use the HTML code editor; the graphical editor doesn't provide tools to change the column layout.
+- **Column layout and initial content**: Sets the basic layout (such as one-column or two-column) and includes initial content (such as images, required links, boilerplate text, and more).
 - **Page or form type**: If you're creating a marketing page or form, this tells whether the page is a subscription center, forward-to-a-friend, or landing page and establishes the basic capabilities of the page or form.
 - **Sample design and content**: Some templates already include basic design elements, such as logos, typography, color palette, sample content, and more. Other templates provide a blank page that includes only the page type and column layout. You can freely change the sample design and content as you edit and design the page.
 
 After you've chosen a template, the designer shows your selected template content and you can start editing it. Your new email, page, or form is created as a simple copy of the template, so any local changes you make won't affect the template, and any future changes to a template won't affect anything you created based on it.
+
+## Establish your basic layout
+
+Use section elements to establish the basic layout of your emails, marketing pages, and marketing forms. Each section element creates a row of columns into which you can drag various other design elements, like text boxes, images, buttons, dividers, and more. There are five different section elements, each of which creates a row with one of five different layout options (one column, two columns (1:1), two columns (1:2), two columns (2:1), or three columns). You can stack several section elements as needed to create complex designs with various column layouts in each row.
+
+### Add section elements to layout your design
+
+When you're designing an email, page, or form starting with the blank template (or a custom template based on the blank template), all design elements (other than section elements) must be placed into a _section element_. Section elements are provided in the **Toolbox** panel under the **Layout** heading.
+
+The blank templates provide a one-column section by default, but you can edit its column layout and/or add more section elements as needed.
+
+To add a section element, open the **Toolbox** panel, choose the section element that provides the column layout you'd like to start with and drag it into position above or below any existing section element in your design.
+
+![Add a section element to your design](media/email-layout-add.png "Add a section element to your design")
+
+> [!NOTE]
+> If you choose a template that implement layouts using custom HTML instead of section elements, then section elements aren't available. Instead, you'll be able to drag design elements into any container defined by the template. This may also apply to other custom templates that use custom HTML to create layouts. This will usually only apply to templates created using an older version of Dynamics 365 Marketing.
+
+### Edit and configure a section element
+
+When you add a new section element, you'll choose one of five initial column layouts. But once your element is placed, you can change the column layout and/or design options.
+
+To edit and configure a section element:
+
+1. Select the section element on the canvas. It now displays a blue border and tabs showing the element type and buttons for deleting or moving the element.
+1. The **Properties** panel opens to show the settings for your selected section.
+
+    ![Add a section element to your design](media/email-layout-edit.png "Add a section element to your design")
+
+1. Make settings in the following sections as needed:
+
+    - **Section layout**: Select a button here to change the column layout to the one indicated by the graphic on each button. If you remove a column, all of its content will be moved into one of the remaining columns. If you add a column, the new column will initially be empty.
+    - **Section border styles**: Use these settings to set the style (none, solid, dotted, dashed, or double), line width, line color, and corner radius for the border that goes around the entire section (but not between columns).
+    - **Section padding**: Specify how much padding (in pixels) you'd like to place between the columns and the colored border. You can enter separate values for top, bottom, left, and right.
+    - **Section margin**: Specify how much margin (in pixels) you'd like to place between the colored border and the outside edge of the section element. You can enter separate values for top, bottom, left, and right.
+
+> [!NOTE]
+> Microsoft Windows Outlook clients don't support all border-style and border-radius settings.
+
+## Add, configure, and edit design elements to create content for your layout
+
+Section elements create a structure onto which you can drag other types of design elements to create your content. If you are using section elements, then all of your design elements must be placed into a section-element column.
+
+- To add a design element, drag the required element from the **Toolbox** onto the appropriate section-element column. When you drop most types of elements, the **Properties** panel will open or, for text  elements, the formatting toolbar will open and you'll be able to start entering text.
+- To configure an existing element's properties, or start entering text into a text element, first select the containing section-element to activate it, then select the target element to begin editing it. For non-text elements, this will open the **Properties** panel for the selected element. For text elements, this will open the floating text-formatting toolbar.
+- To remove a design element, select it and then select the delete button ![Delete button](media/email-element-delete-button.png "Delete button") provided at the upper-right corner of the element.
+- To move a design element, select it, then click on the move button ![Move button](media/email-element-move-button.png "Move button")  provided at the upper-right corner of the element and drag the element to its new location.
 
 ## Work with the designer
 
@@ -72,7 +119,7 @@ The graphical designer provides an editable preview (canvas), where you can sele
 
 - **Toolbox**: To add a new design element to your design, drag an element from here to an appropriate place in the canvas; or select an element here (without dragging) to highlight each position on the canvas where  you could place that element, and then select the highlighted position where you'd like to place it. Each design element represents a specific type of content, such as a text element, image, or input form. The settings and features of each design element vary by type.
 - **Properties**: Most design elements need to be configured to work. For example, an image needs to point to an image file, a form needs to point to a marketing-form record, and a button needs some text and a destination. When you add a new design element, that element is automatically selected and its **Properties** tab opens so you can set it up. To configure (or reconfigure) any design element already in your design, select it first, and then open the **Properties** tab.
-- **Style**: Use these settings to apply color, spacing, and other graphical options for the overall design.
+- **Styles**: Use these settings to apply color, spacing, and other graphical options for the overall design.
 
 More information: [Design elements reference](content-blocks-reference.md)
 

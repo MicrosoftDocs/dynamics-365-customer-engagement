@@ -1,5 +1,5 @@
 ---
-title: "Documentation resources for Dynamics 365 Marketing | Microsoft Docs"
+title: "Help resources for Dynamics 365 Marketing | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 Marketing."
 keywords: marketing;help
 ms.date: 04/01/2018
@@ -21,7 +21,7 @@ search.app:
   - D365Mktg
 ---
 
-# Marketing help and training
+# Help resources for Dynamics 365 Marketing
 
 <table>
 

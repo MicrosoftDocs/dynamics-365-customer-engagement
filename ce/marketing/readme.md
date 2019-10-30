@@ -60,7 +60,9 @@ This document provides important, late-breaking information about known issues a
 ### Known issues
 
 - Metadata used for building conditions and drop-downs shown on the designer isn't localized for non-English organizations. <!-- 992449 -->
-- When trying to estimate the size of a segment where the query doesn't end in a contact, the system displays a server communication error. To correct this error, make sure your segment definition ends with a clause that links to the contact entity as described in [Design profile-based dynamic segments](segments-profile.md). <!-- 1226384 -->
+
+- When trying to estimate the size of a segment where the query doesn't end in a contact, the system displays a server communication error. To correct this error, make sure your segment definition ends with a clause that links to the contact entity as described in [Design dynamic demographic or firmographic segments](segments-profile.md). <!-- 1226384 -->
+
 - Static segments are limited to a maximum of 1,000 members.
 
 ### Fixed issues
@@ -73,7 +75,7 @@ This document provides important, late-breaking information about known issues a
 
 ### Known issues
 
-- When you have an A/B test up, you can only switch between the A and B variants while the test is still in the draft state. Once a test has started running, or finished running, you can only view or preview the A variant.
+- On some instances, emails that include date fields may fail the error check (with an "unsupported property type" error) and therefore can't go live. If you are affected by this issue, please contact Microsoft Support and ask them to update your instance with the known fix. We expect this fix to be rolled out to all instances with the next update.
 - The default content-settings record must be live before you can send any marketing emails or view heatmaps on **Insights** pages. Usually, the default content-settings record goes live automatically when your setup is complete, but sometimes this isn't the case. To solve this, set up and publish your default content-settings record manually as described in [Use content settings to set up repositories of standard and required values](dynamic-email-content.md#content-settings).
 - Selecting **Stop** on a live email will prevent it from being used in future journeys, but it will continue to function in existing live journeys, which will continue to deliver it.
 - If you reuse the same email multiple times (within the same journey or in different journeys) you will see incorrect performance results on its **Insights** pages.
@@ -83,6 +85,7 @@ This document provides important, late-breaking information about known issues a
 
 ### Fixed issues
 
+- When you have an A/B test set up, you can freely switch between A and B variants in all test states.<br><del>When you have an A/B test up, you can only switch between the A and B variants while the test is still in the draft state. Once a test has started running, or finished running, you can only view or preview the A variant.</del>
 - Support for advanced dynamic email content is now available in all regions. <br><del>Support for dynamic email content is being expanded to include look-up values, relations, and logical functions like conditionals and for-each loops. We are rolling this capability out gradually, so it may not yet be available on your tenant. For more information about this feature, see [Advanced dynamic content](dynamic-email-content.md#advanced-dynamic-content).</del>
 - Assist-edit correctly creates expressions that display the owning user or team of a contact record.<br><del>When you use assist edit to place dynamic content with information about the owner of a contact record, the relationship rendered is incorrect.</del><!-- 1380000 -->
 - Test send works for all organizations. <br><del>For certain organizations that upgraded recently, test send may not work. If you encounter this issue, please [contact Microsoft Support](setup-troubleshooting.md#contact-support). </del><!-- 1267485 -->

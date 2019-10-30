@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Enable sentimental analysis for supervisor to view the real-time sentiment of conversations on **Omnichannel Ongoing Conversation** dashboard in **Omnichannel for Customer Service**. You can enable or disable real-time sentiment through **Sentiment Analysis Settings** in **Omnichannel Administration**.
+Enable sentiment analysis for supervisors to view the real-time sentiments of conversations on the **Omnichannel Ongoing Conversation** dashboard in **Omnichannel for Customer Service**. You can enable or disable real-time sentiment through **Sentiment Analysis Settings** in **Omnichannel Administration**.
 
 > [!NOTE]
 > Sentiment analysis is enabled by default.

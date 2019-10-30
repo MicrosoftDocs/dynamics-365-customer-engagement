@@ -2,7 +2,7 @@
 title: "Help resources for Dynamics 365 Sales (Enterprise) | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 Sales."
 keywords: "sales;help"
-ms.date: 10/01/2019
+ms.date: 10/14/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -35,7 +35,7 @@ manager: annbe
 <li><a href="../admin/system-settings-dialog-box-goals-tab.md" data-raw-source="[Define Goals settings](../admin/system-settings-dialog-box-goals-tab.md)">Define Goals settings</a></li>
 <li><a href="create-edit-goal-sales.md" data-raw-source="[Create or edit goals](create-edit-goal-sales.md)">Create or edit goals</a></li>
 <li><a href="../admin/set-up-sales-territories-organize-business-markets-geographical-area.md" data-raw-source="[Set up sales territories to organize business markets by geographical area](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)">Set up sales territories to organize business markets</a></li>
-<li><a href="../sales-enterprise/admin-guide.md" data-raw-source="[More resources for admins](../sales-enterprise/admin-guide.md)">More resources for admins</a></li>
+<li><a href="../sales-enterprise/admin-guide.md" data-raw-source="[More help resources for admins...](../sales-enterprise/admin-guide.md)">More help resources for admins...</a></li>
 </td></tr>
 
 <tr><td>
@@ -44,8 +44,7 @@ manager: annbe
 <li><a href="create-edit-lead-sales.md" data-raw-source="[Create or edit leads](create-edit-lead-sales.md)">Create or edit leads</a></li>
 <li><a href="qualify-lead-convert-opportunity-sales.md" data-raw-source="[Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)">Qualify or convert leads</a></li>
 <li><a href="create-edit-opportunity-sales.md" data-raw-source="[Create or edit opportunities](create-edit-opportunity-sales.md)">Create or edit opportunities</a></li>
-<li><a href="user-guide.md" data-raw-source="[More resources for sales people](user guide.md)">More resources for sales people</a></li>
-
+<li><a href="user-guide.md" data-raw-source="[More help resources for sales people...](user guide.md)">More help resources for sales people...</a></li>
 
 </td><td>
 <h2>Microsoft Learn resources</h2>
@@ -87,8 +86,14 @@ manager: annbe
 
 <h2>Dynamics 365 Sales Insights</h2>
 
-<li><a href="../sales-enterprise/dynamics365-ai-sales.md" data-raw-source="[Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)">Dynamics 365 Sales Insights</a></li>
+<li><a href="../sales-enterprise/dynamics365-ai-sales.md" data-raw-source="[Dynamics 365 Sales Insights](../sales-enterprise/dynamics365-ai-sales.md)">Dynamics 365 Sales Insights</a></li>
 
-</td></tr>
+</td>
+<td>
+<h2> Dynamics 365 Sales Professional</h2>
+<li> <a href="../sales-professional/help-hub.md" data-raw-source="[Help resources for Dynamics 365 Sales Professional](../sales-professional/help-hub.md)">Help resources for Dynamics 365 Sales Professional</a></li>
+<li> <a href="../sales-professional/sales-professional-overview.md" data-raw-source="[Overview](../sales-professional/sales-professional-overview.md)">Overview</a></li>
+</td>
+</tr>
 
 </table>

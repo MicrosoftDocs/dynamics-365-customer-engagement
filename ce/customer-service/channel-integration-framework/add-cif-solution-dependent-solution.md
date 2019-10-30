@@ -1,6 +1,6 @@
 ---
-title: "Add a Dynamics 365 Channel Integration Framework (CIF) solution as a dependent solution| Microsoft Docs"
-description: "Read how you can add a CIF solution as a dependent solution and use CIF solution's capabilities in your own solution."
+title: "Add a Dynamics 365 Channel Integration Framework solution as a dependent solution| Microsoft Docs"
+description: "Read how you can add a Dynamics 365 Channel Integration Framework solution as a dependent solution and use the solution's capabilities in your own solution."
 keywords: ""
 ms.date: 12/10/2018
 ms.service:
@@ -17,13 +17,13 @@ ms.author: susikka
 manager: shujoshi
 ---
 
-# Add a Dynamics 365 Channel Integration Framework (CIF) solution as a dependent solution
+# Add a Dynamics 365 Channel Integration Framework solution as a dependent solution
 
-Third-party channel providers can add a Channel Integration Framework (CIF) solution as a dependent solution to use CIF's capabilites in the solutions they develop for Dynamics 365. This topic describes how users can install, update, and delete a CIF solution as a dependent solution.
+Third-party channel providers can add a Dynamics 365 Channel Integration Framework solution as a dependent solution to use its capabilites in the solutions they develop for Dynamics 365. This topic describes how users can install, update, and delete a Dynamics 365 Channel Integration Framework solution as a dependent solution.
 
-## Add a Channel Integration Framework solution as a dependent solution  
+## Add a Dynamics 365 Channel Integration Framework solution as a dependent solution  
 
-1. Add the Channel Integration Framework application to your Dynamics 365 instance that has an unmanaged dependent solution installed (for example, solution "X"). More information: [Get Channel Integration Framework](get-channel-integration-framework.md)
+1. Add the Dynamics 365 Channel Integration Framework application to your Dynamics 365 instance that has an unmanaged dependent solution installed (for example, solution "X"). More information: [Get Channel Integration Framework](get-channel-integration-framework.md)
 
 2. Sign in to your Dynamics 365 instance and go to **Settings** > **Solutions**.
 
@@ -39,7 +39,7 @@ Third-party channel providers can add a Channel Integration Framework (CIF) solu
 
 8. Export the solution.
 
-## Remove a Channel Integration Framework solution as a dependent solution
+## Remove a Dynamics 365 Channel Integration Framework solution as a dependent solution
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../../includes/proc-permissions-system-admin-and-customizer.md)]  
   
@@ -51,14 +51,14 @@ Third-party channel providers can add a Channel Integration Framework (CIF) solu
 
 5. In the window that opens, select the **Channel Integration Framework** solution.
 
-6. Select **Delete** and then select the **Delete** button in the dialog box that opens to confirm that you want to remove CIF as a dependent solution.
+6. Select **Delete** and then select the **Delete** button in the dialog box that opens to confirm that you want to remove Dynamics 365 Channel Integration Framework as a dependent solution.
 
 > [!div class="nextstepaction"]
 > [Authenticate channel users to the channel (widget)](authenticate-channel-users.md)
 
 ## See also
 
-[Get Channel Integration Framework](get-channel-integration-framework.md)<br />
+[Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)<br />
 [Configure a channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)<br />
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
 [Authenticate channel users to the channel (widget)](authenticate-channel-users.md)<br />

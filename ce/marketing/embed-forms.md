@@ -131,9 +131,6 @@ Form capture makes it possible for forms created on an external website to submi
 
 To enable form capture, you must generate a form-capture JavaScript in Dynamics 365 Marketing and add that script to your external form page. Then you'll be able to load that page into Dynamics 365 Marketing to map its fields to marketing fields. At run time, the form-capture JavaScript captures each form submission and submits the values to Dynamics 365 Marketing for processing and storage.
 
-> [!NOTE]
-> The form capture feature currently ignores hidden input fields (`<input type="hidden">`) in the target form. One way to work around this is to change the hidden field to use a type other than hidden, and then add a style attribute to hide it, such as:<br>`<input type="text" style="visibility:hidden" name="field name" id="fieldID" />`
-
 ### Capture a new external form
 
 To set up a form capture:
@@ -153,11 +150,11 @@ To set up a form capture:
 
 1. If you're working with a new website record, then select **Save** on the command bar to generate the website-tracking and form-capture codes. After you've saved the record at least once, you'll see the following:
    - **JavaScript code**: This is the website-tracking code, which you must copy onto each webpage (or CMS template) for which you want to track page visits and clicks. More information: [Monitor how visitors use your website](register-engagement.md#monitor-visitors)
-   - **Form capture code**: This is the form-capture code, which you must copy onto each webpage (or CMS template) that includes a form that you want to capture for use with Dynamics 365 Marketing.
+   - **Form capture code**: This is the form-capture code, which you must copy onto each webpage (or CMS template) that includes a form that you want to capture for use with Dynamics 365 Marketing. (It also includes code that enables the website-tracking feature provided by the **JavaScript code**, so there is no need to include both on one page.)
 
-    Take a copy of each of these codes, or keep this page open as you continue with this procedure.
+    Take a copy of the **Form capture code**, or keep this page open as you continue with this procedure.
 
-1. Return to your externally designed form page and paste the form-capture code you found anywhere in the `<body>` of the page. The page should usually also include a website-tracking code because this will enable Dynamics 365 Marketing to collect visitor insights and customer journey triggers to react to page visits or submissions. If your CMS page templates are already set up to place a website-tracking code, then don't add a new one, but if they aren't consider adding the website-tracking code too. <!-- [kamaybac] confirm details about tracking code -->
+1. Return to your externally designed form page and paste the **Form capture code** you copied anywhere in the `<body>` of the page. 
 
 1. Publish your form page to make it available over the internet. Note its URL.
 
