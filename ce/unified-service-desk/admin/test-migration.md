@@ -23,11 +23,15 @@ This topic describes the steps you need to perform after you migrate the configu
 
 ## Post-requisites
 
-- Re-configure window navigation rules
-- Re-configure events
+- [Reconfigure window navigation rules](#reconfigure-window-navigation-rules)
+- Reconfigure events
 - Update associated views
 - Update Unified Service Desk Component type to Chrome (optional)
 - Update to Unified Interface theme (optional)
+
+### Reconfigure window navigation rules
+
+The page navigation in web client and unified interface are different. In web client, if you've set up the **Route-type** as **Pop-up**, then migration tool replaces all the **Pop-up** to **Inplace**. Based on your earlier configuration, if required, you might want to update the window navigation rules.
 
 ## Test the configurations on the target Unified Interface app.
 
