@@ -56,12 +56,12 @@ The Multilanguage Sentiment feature caters to the following personas:
     - Real-time sentiment tracking enables the you (supervisor) to identify chat and SMS sessions that are going well or that require monitoring. 
 
 3. Agent
-    - Agents want to know their customers' sentiments in real-time and see customers’ satisfaction levels instantly when communicating. 
-    - They can be responsible for handling multiple customer engagements at any given time. 
-    - They engage directly with the customer to solve the customer's issue. 
-    - Analysis of customer's sentiment helps agents understand problem severity and act. 
+    - As an agent, you want to know customers' sentiments in real-time and see customers’ satisfaction levels instantly when communicating. 
+    - You can be responsible for handling multiple customer engagements at any given time. 
+    - You can engage directly with the customer to solve the customer's issue. 
+    - Analysis of customer's sentiment helps you to understand problem severity and act. 
 
-## Sentiment Intensity Indicators
+## Sentiment intensity indicators
 
 Omnichannel Sentiment Analysis sentiment intensity indicators are an automatic and unbiased measurement of satisfaction levels of the customer in real time. These indicators provide agents and supervisors with the ability to see how a conversation is trending and a real-time gauge which supervisors can use to decide when they need to step in and assist. 
 
