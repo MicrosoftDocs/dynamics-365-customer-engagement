@@ -13,7 +13,7 @@ ms.assetid: c7a7358b-1704-4096-8e69-7cad6697b705
 ms.custom: 
 ---
 
-# Sentiment Monitoring
+# Sentiment monitoring
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -25,33 +25,35 @@ Omnichannel Sentiment Analysis enables agents and supervisors to understand real
     > [!div class=mx-imgBorder]
     > ![Sentiment Analysis Chart](../media/oc-sentiment-chart.png "Sentiment Analysis Chart")
 
-- Multilanguage Sentiment is an enhancement to Omnichannel Sentiment Analysis which leverages the power of Microsoft Azure Text Translator API to score support conversations in 40+ languages.  Customers should now be able to see sentiment scores for conversations in 40+ languages (As of October 2019 Public Preview). 
+- Multilanguage Sentiment is an enhancement to Omnichannel Sentiment Analysis, which leverages Microsoft Azure Text Translator API to score support conversations in 40+ languages.  You can view the sentiment scores for conversations in 40+ languages (as of October 2019 Public Preview). 
 
 > [!NOTE]
-> Multilanguage sentiment scores non-english conversations by (1) Leveraging Microsoft Azure Text Translator API to translate the conversations into English. (2) Scoring the English output.
+> Multilanguage sentiment scores non-english conversations by: 
+> - Leveraging Microsoft Azure Text Translator API to translate the conversations into English.
+> - Scoring the English output.
 
-See [Explore Dynamics 365 Customer Service](https://dynamics.microsoft.com/en-us/customer-service/capabilities/) capabilities for more details.
+To learn more, see [Explore Dynamics 365 Customer Service](https://dynamics.microsoft.com/en-us/customer-service/capabilities/).
 
-## Omnichannel Personas
+## Personas
 
-Omnichannel for Customer Service Multilanguage Sentiment is broken out into three (3) personas whose job/tasks are as follows:
+The Multilanguage Sentiment feature caters to the following personas:
 
 1. Administrator
-    - Administrators choose whether to enable Sentiment. 
-    > [!NOTE]
-    > Sentiment is enabled in Omnichannel by default).
-    - Administrators choose whether to enable Multilanguage Sentiment.
+    - As an administrator, you can choose whether to enable Sentiment. 
+        > [!NOTE]
+        > Sentiment is enabled in Omnichannel for Customer Service by default.
+    - As an administrator, you can choose whether to enable Multilanguage Sentiment.
 
 2. Supervisor (Team Lead)
-    - Supervisors are responsible for tracking agent performance and engaging in real-time to continuously improve support quality. 
+    - As a supervisor, you can track agents' performance and engage in real-time to continuously improve the support quality. 
     
         Example: Identifying negative sentiment events in conversations between agents and customers.
 
-    - When a supervisor identifies negative sentiments, they can provide timely inputs to help an agent resolve an issue 
+    - As a supervisor, when you identify negative sentiment, provide timely inputs to help an agent resolve an issue. 
 
         Example: Monitor and join the conversation. 
 
-    - Real-time sentiment tracking enables the supervisor to identify chat and SMS sessions that are going well or that require monitoring. 
+    - Real-time sentiment tracking enables the you (supervisor) to identify chat and SMS sessions that are going well or that require monitoring. 
 
 3. Agent
     - Agents want to know their customers' sentiments in real-time and see customers’ satisfaction levels instantly when communicating. 
