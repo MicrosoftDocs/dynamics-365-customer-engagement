@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Omnichannel Sentiment Analysis enables agents and supervisors to understand real-time and historical customer sentiment across channels to improve customer service via the following:
+Omnichannel sentiment analysis enables agents and supervisors to understand real-time and historical customer sentiment across channels to improve customer service via the following:
 
 - Natural Language Processing (NLP) and Machine Learning (ML) algorithms to understand customer sentiments. 
 - Sentiment intensities and indicators are displayed based on the previous six customer messages. Sentiments are scored in seven intensities: three positive, three negative, and one neutral gradient. 
@@ -25,24 +25,23 @@ Omnichannel Sentiment Analysis enables agents and supervisors to understand real
     > [!div class=mx-imgBorder]
     > ![Sentiment Analysis Chart](../media/oc-sentiment-chart.png "Sentiment Analysis Chart")
 
-- Multi-language Sentiment is an enhancement to Omnichannel Sentiment Analysis, which leverages Microsoft Azure Text Translator API to score support conversations in 40+ languages.  You can view the sentiment scores for conversations in 40+ languages (as of October 2019 Public Preview). 
+- Omnichannel sentiment analysis supports multiple lanaguages. Using Microsoft Azure Text Translator API, conversations in more than 40 languages now receive sentiment scores.   
 
 > [!NOTE]
-> Multi-language sentiment scores non-english conversations by: 
-> - Leveraging Microsoft Azure Text Translator API to translate the conversations into English.
-> - Scoring the English output.
+> - Non-English conversations are translated to English and then scored. 
+> - Unsupported languages do not receive a sentiment score. 
 
-To learn more, see [Explore Dynamics 365 Customer Service](https://dynamics.microsoft.com/en-us/customer-service/capabilities/).
+
+To learn more, see [Explore Text Translator API](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/translator-info-overview).
 
 ## Personas
 
-The Multi-language Sentiment feature caters to the following personas:
+The multi-language sentiment feature caters to the following personas:
 
 1. Administrator
-    - As an administrator, you can choose whether to enable Sentiment. 
+    - As an administrator, you can configure sentiment for English only and non-English languages. 
         > [!NOTE]
         > Sentiment is enabled in Omnichannel for Customer Service by default.
-    - As an administrator, you can choose whether to enable Multi-language Sentiment.
 
 2. Supervisor (Team Lead)
     - As a supervisor, you can track agents' performance and engage in real-time to continuously improve the support quality. 
@@ -63,7 +62,7 @@ The Multi-language Sentiment feature caters to the following personas:
 
 ## Sentiment intensity indicators
 
-Omnichannel Sentiment Analysis sentiment intensity indicators are an automatic and unbiased measurement of satisfaction levels of the customer in real time. These indicators provide agents and supervisors with the ability to see how a conversation is trending and a real-time gauge which supervisors can use to decide when they need to step in and assist. 
+Omnichannel sentiment analysis sentiment intensity indicators are an automatic and unbiased measurement of satisfaction levels of the customer in real time. These indicators provide agents and supervisors with the ability to see how a conversation is trending and a real-time gauge which supervisors can use to decide when they need to step in and assist. 
 
 - Agents
 
@@ -83,7 +82,7 @@ Omnichannel Sentiment Analysis sentiment intensity indicators are an automatic a
 
 ## Multi-language sentiment limitations
 
-Multi-language Sentiment relies on the initial customer messages in any conversation to detect the language of the conversation.  
+Sentiment relies on the initial customer messages in any conversation to detect the language of the conversation.  
 
 Expect the following system behavior: 
 
@@ -97,13 +96,13 @@ The minimum app version is required. To upgrade, use the follow the instructions
 
 ## Install and configure
 
-Once you have signed up, see Step 4 on the [Enable sentiment analysis](../administrator/enable-sentiment-analysis.md) to configure Multi-language sentiment analysis. 
+Once you have signed up, see step 4 on the [Enable sentiment analysis](../administrator/enable-sentiment-analysis.md) to configure sentiment analysis. 
 
 ## Policy notice 
 
 This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
-## See Also
+## See also
 
 [Enable Sentiment Analysis](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/omnichannel/administrator/enable-sentiment-analysis)
 
