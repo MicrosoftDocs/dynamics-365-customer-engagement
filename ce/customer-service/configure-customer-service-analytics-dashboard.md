@@ -125,7 +125,7 @@ You must share the configured application with your entire organization for supe
     The app is now available to install for all individuals in your organization. 
  
 > [!NOTE]
-> Verify your administrator has allowed users in your organization to have read/write data permissions in Omnichannel Engagement Hub. T To learn more, see [Provide data access consent](https://review.docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/omnichannel-provision-license#provide-data-access-consent) 
+> Verify your administrator has allowed users in your organization to have read/write data permissions in Omnichannel Engagement Hub. T To learn more, see [Provide data access consent](https://review.docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/omnichannel-provision-license#provide-data-access-consent)  
 
 ### Step 6: Enable Power BI reporting in Dynamics 365 for Customer Engagement 
 As an administrator, you must enable Power BI reporting in the Dynamics 365 for Customer Engagement organization for supervisors to view the dashboards in the Omni-channel Administration app. 
@@ -146,6 +146,7 @@ Each supervisor must configure their Dynamics 365 for Customer Engagement enviro
      
     > [!div class=mx-imgBorder]
     > ![Customer Service app install](media/cs-analytics-cs-hub.png "Customer Service app install")
+
 2. Open **Supervisor Dashboards**
      
     > [!div class=mx-imgBorder]
@@ -169,10 +170,57 @@ You must add users in the supervisor configuration to access any supervisor dash
     Users are now added to the supervisor dashboard and when they log in to Omnichannel Engagement Hub on Unified Service Desk, the supervisor dashboard tabs are now available. 
  
 ## Customize Customer Service Analytics 
-You must perform the below steps if you would like to enhance/customize the PowerBI template app for your organization needs.  
   
 > [!IMPORTANT]
-> Microsoft does not support customizations made to the Power BI template app and do not provide updates once modifications are made. 
+> Microsoft does not support customizations made to the Power BI template app and does not provide updates once modifications are made. 
+
+Power BI is a comprehensive collection of services and tools that you use to visualize your business data. Power BI Template apps make it easy to visualize and analyze the Customer Service Analytics data with Power BI based on a standard data model. Customer Service Analytics template app is built with a set of entities and fields that useful for most reporting scenarios. 
+
+Dynamics 365 apps are often extended with custom fields. These custom fields don’t automatically show up in Power BI model. This topic describes how you can edit and extend the report included in the template app to include custom fields in the Power BI model. 
+
+Before you customize the template app, read the information here and perform each task, as necessary. 
+
+### Prerequisites
+
+- [Power BI service registration](http://powerbi.com "Power BI service registration").
+
+- [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/ "Power BI Desktop") application for editing Power BI reports. 
+
+- PBIX file for customer service template app that you want to customize.
+
+    [Download the Customer Service Analytics for Dynamics 365 PBIX](https://download.microsoft.com/download/f/4/a/f4ae41e2-b175-4536-bb52-4f0bdb5a2ae2/Customer%20Service%20Analytics%20for%20Dynamics%20365.pbix "Download the Customer Service Analytics for Dynamics 365 PBIX") application for editing Power BI reports. 
+
+### Prepare a PBIX for customization 
+
+1. Start Power BI Desktop. 
+ 
+    Select **File** > Open, open Customer Service Analytics for Dynamics 365.pbix, and then select **Open**. 
+ 
+    Several pages of reports are loaded and displayed in Power BI Desktop. 
+ 
+2. On the Power BI Desktop ribbon, select **Edit Queries**. 
+ 
+3. In the left navigation pane of the Edit Queries window, under **Queries**, select the **Dynamics 365 Service Root URL** query, and then on the ribbon, select **Advanced Editor**. 
+
+    In the source definition, replace **contosuites.crm10.dynamics.com** with your apps instance URL. For example, if the organization name is <i>Contoso</i>, the URL looks like this: Source = https://contoso.crm.dynamics.com/api/data/v9.1/ 
+ 
+4. Select **Done**, and then select **Close & Apply** in the Query Editor. 
+ 
+5. When the Access an OData feed dialog appears, select **Organizational account**, and then select **Sign-in**.
+
+    > [!div class=mx-imgBorder]
+    > ![Access to OData feed](media/cs-odata-feed.png "Access to OData feed")
+
+6. When the sign-in appears, enter your credentials to authenticate to your instance. 
+
+7. In the Access an OData feed dialog, select **Connect**. 
+ 
+    The queries are updated. This may take several minutes. 
+
+## Customer Service Analytics for Dynamics 365 Template App Data Model Diagram 
+
+   > [!div class=mx-imgBorder]
+   > ![Customer Service Analytics for Dynamics 365 Template App Data Model Diagram](media/cs-template-app-data-model-diagram.png "Customer Service Analytics for Dynamics 365 Template App Data Model Diagram")
 
 ## See Also 
 
