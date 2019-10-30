@@ -87,9 +87,9 @@ Multilanguage Sentiment relies on the initial customer messages in any conversat
 
 Expect the following system behavior: 
 
-A. If the customer’s initial messages are detected as English, the system assumes that subsequent messages are in English as well. If your customer switches away from English after these initial messages, the system does not perform language re-detection. In this situation, you would most often see a “Neutral” sentiment throughout the rest of the non-English conversation.
+- If the customer’s initial messages are detected as English, the system assumes that subsequent messages are in English as well. If your customer switches away from English after these initial messages, the system does not perform language re-detection. In this situation, you would most often see a neutral sentiment throughout the rest of the non-English conversation.
 
-B. If the customer’s initial messages are detected as non-English, the system will perform re-detection and scoring for subsequent messages. If any following message is detected as non-English, its subsequent message will be re-detected and scored according to its detected language.
+- If the customer’s initial messages are detected as non-English, the system performs re-detection and scoring for subsequent messages. If any following message is detected as non-English, its subsequent message will be re-detected and scored according to its detected language.
 
 ## Requirements 
 
