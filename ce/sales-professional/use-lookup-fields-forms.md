@@ -44,11 +44,11 @@ Lookups are classified into the following:
 
 ### Browsing lookup
 
-To browse a lookup, select the **magnifying glass icon**. The full list of items will be presented within in the dropdown.
+To browse a lookup, select the **Lookup icon** ![Lookup icon](media/lookup-icon.png "Lookup icon"). The full list of items will be presented within the drop-down list.
 
 ### Searching a lookup
 
-To search a lookup, select the **textbox** and type your search criteria. If recent records are enabled for your lookup, they will be displayed before typing.
+To search a lookup, select the lookup textbox and type your search criteria. If recent records are enabled for your lookup, they will be displayed before typing.
 
 ### Create a new record if you don’t find an existing record
 
