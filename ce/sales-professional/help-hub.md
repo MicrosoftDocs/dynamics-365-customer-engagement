@@ -81,9 +81,14 @@ manager: annbe
 </td></tr>
 <tr>
 <td>
+<h2>Integrate</h2>
+<ul>
+<li><a href="../linkedin/integrate-sales-navigator.md" data-raw-source="[Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md)">Integrate LinkedIn Sales Navigator solutions</a></li>
+<li><a href="../teams-integration/teams-integration.md" data-raw-source="[Microsoft Teams integration](../teams-integration/teams-integration.md)">Microsoft Teams integration</a></li></ul>
+</td>
+<td>
 <h2>Dynamics 365 Sales (Enterprise)</h2>
 <ul>
 <li><a href="../sales-enterprise/help-hub.md" data-raw-source="[Help resources for Dynamics 365 Sales (Enterprise)](../sales-enterprise/help-hub.md)">Help resources for Dynamics 365 Sales (Enterprise)</a></li></ul>
-</td>
-<td></td></tr>
+</td></tr>
 </table>

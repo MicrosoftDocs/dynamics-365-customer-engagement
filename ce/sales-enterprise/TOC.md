@@ -5,6 +5,7 @@
 ## Administrator & Sales Manager Guide
 ### [Help resources for admins and sales managers](../sales-enterprise/admin-guide.md)
 ### Sales management
+#### [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
 #### [Define sales settings](../admin/system-settings-dialog-box-sales-tab.md)
 #### [Enable or disable PDF generation from sales records](enable-pdf-generation-quote.md)

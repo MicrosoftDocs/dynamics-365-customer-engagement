@@ -30,6 +30,7 @@ manager: annbe
 
 <h2>Administer the system</h2>
 
+<li><a href="/power-platform/admin/create-users-assign-online-security-roles" data-raw-source="[Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)">Create users and assign security roles</a></li>
 <li><a href="set-up-product-catalog-walkthrough.md" data-raw-source="[Set up a product catalog](set-up-product-catalog-walkthrough.md)">Set up a product catalog</a></li>
 <li><a href="../admin/system-settings-dialog-box-sales-tab.md" data-raw-source="[Define sales settings](../admin/system-settings-dialog-box-sales-tab.md)">Define sales settings</a></li>
 <li><a href="../admin/system-settings-dialog-box-goals-tab.md" data-raw-source="[Define Goals settings](../admin/system-settings-dialog-box-goals-tab.md)">Define Goals settings</a></li>
@@ -47,8 +48,9 @@ manager: annbe
 <li><a href="user-guide.md" data-raw-source="[More help resources for sales people...](user guide.md)">More help resources for sales people...</a></li>
 
 </td><td>
-<h2>Microsoft Learn resources</h2>
-<li><a href="https://docs.microsoft.com/learn/paths/working-with-dynamics-365-sales/" data-raw-source="[Working with Dynamics 365 Sales](https://docs.microsoft.com/learn/paths/working-with-dynamics-365-sales/)">Working with Dynamics 365 Sales</a></li>
+<h2>Integrate</h2>
+<li><a href="../linkedin/integrate-sales-navigator.md" data-raw-source="[Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md)">Integrate LinkedIn Sales Navigator solutions</a></li>
+<li><a href="../teams-integration/teams-integration.md" data-raw-source="[Microsoft Teams integration](../teams-integration/teams-integration.md)">Microsoft Teams integration</a></li>
 </td></tr>
 
 <tr><td>
@@ -93,6 +95,15 @@ manager: annbe
 <h2> Dynamics 365 Sales Professional</h2>
 <li> <a href="../sales-professional/help-hub.md" data-raw-source="[Help resources for Dynamics 365 Sales Professional](../sales-professional/help-hub.md)">Help resources for Dynamics 365 Sales Professional</a></li>
 <li> <a href="../sales-professional/sales-professional-overview.md" data-raw-source="[Overview](../sales-professional/sales-professional-overview.md)">Overview</a></li>
+</td>
+</tr>
+
+<tr><td>
+
+<h2>Microsoft Learn resources</h2>
+<li><a href="https://docs.microsoft.com/learn/paths/working-with-dynamics-365-sales/" data-raw-source="[Working with Dynamics 365 Sales](https://docs.microsoft.com/learn/paths/working-with-dynamics-365-sales/)">Working with Dynamics 365 Sales</a></li>
+</td>
+<td>
 </td>
 </tr>
 
