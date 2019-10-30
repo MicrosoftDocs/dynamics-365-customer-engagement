@@ -53,7 +53,7 @@ manager: annbe
 
 </td><td>
 <h2>Microsoft Learn resources</h2>
-<ul?>
+<ul>
 <li><a href="https://docs.microsoft.com/learn/modules/manage-leads-dynamics-365-sales/" data-raw-source="[Manage leads with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/manage-leads-dynamics-365-sales/)">Manage leads with Dynamics 365 Sales Professional</a></li>
 <li><a href="https://docs.microsoft.com/learn/modules/manage-opportunities-dynamics-365-sales/" data-raw-source="[Manage opportunities with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/manage-opportunities-dynamics-365-sales/)">Manage opportunities with Dynamics 365 Sales Professional</a></li>
 <li><a href="https://docs.microsoft.com/learn/modules/process-sales-orders-dynamics-365-sales/" data-raw-source="[Process sales orders with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/process-sales-orders-dynamics-365-sales/)">Process sales orders with Dynamics 365 Sales Professional</a></li>
