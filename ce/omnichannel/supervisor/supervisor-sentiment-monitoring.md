@@ -95,11 +95,11 @@ Expect the following system behavior:
 
 The minimum app version is required. To upgrade, use the follow the instructions [here](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/omnichannel/administrator/upgrade-omnichannel). 
 
-## Install and Configurations
+## Install and configure
 
 Once you have signed up, see Step 4 on the [Enable sentiment analysis](https://docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/enable-sentiment-analysis) to configure multilanguage sentiment analysis. 
 
-## Policy Notice 
+## Policy notice 
 
 This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
@@ -110,11 +110,3 @@ This feature is intended to help customer service managers or supervisors enhanc
 [Monitor real-time customer sentiment](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-monitor-real-time-customer-sentiment-sessions)
 
 [Monitor conversations](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/omnichannel/supervisor/monitor-conversations)
-
-
-
-
-
-
-
-
