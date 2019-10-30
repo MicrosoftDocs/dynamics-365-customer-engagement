@@ -30,10 +30,11 @@ manager: annbe
 
 <h2>Administer the system</h2>
 
-<li><a href="set-up-product-catalog-walkthrough.md" data-raw-source="[Set up the product catalog](set-up-product-catalog-walkthrough.md)">Set up the product catalog</a></li>
-<li><a href="../admin/system-settings-dialog-box-sales-tab.md" data-raw-source="[Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)">Define Sales settings</a></li>
+<li><a href="/power-platform/admin/create-users-assign-online-security-roles" data-raw-source="[Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)">Create users and assign security roles</a></li>
+<li><a href="set-up-product-catalog-walkthrough.md" data-raw-source="[Set up a product catalog](set-up-product-catalog-walkthrough.md)">Set up a product catalog</a></li>
+<li><a href="../admin/system-settings-dialog-box-sales-tab.md" data-raw-source="[Define sales settings](../admin/system-settings-dialog-box-sales-tab.md)">Define sales settings</a></li>
 <li><a href="../admin/system-settings-dialog-box-goals-tab.md" data-raw-source="[Define Goals settings](../admin/system-settings-dialog-box-goals-tab.md)">Define Goals settings</a></li>
-<li><a href="create-edit-goal-sales.md" data-raw-source="[Create goals to track progress](create-edit-goal-sales.md)">Create goals to track progress</a></li>
+<li><a href="create-edit-goal-sales.md" data-raw-source="[Create or edit goals](create-edit-goal-sales.md)">Create or edit goals</a></li>
 <li><a href="../admin/set-up-sales-territories-organize-business-markets-geographical-area.md" data-raw-source="[Set up sales territories to organize business markets by geographical area](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)">Set up sales territories to organize business markets</a></li>
 <li><a href="../sales-enterprise/admin-guide.md" data-raw-source="[More help resources for admins...](../sales-enterprise/admin-guide.md)">More help resources for admins...</a></li>
 </td></tr>
@@ -41,15 +42,15 @@ manager: annbe
 <tr><td>
 <h2>Increase sales</h2>
 <li><a href="nurture-sales-from-lead-order-sales.md" data-raw-source="[Nurture sales from lead to cash](nurture-sales-from-lead-order-sales.md)">Nurture sales from lead to cash</a></li>
-<li><a href="create-edit-lead-sales.md" data-raw-source="[Create or edit a lead](create-edit-lead-sales.md)">Create or edit a lead</a></li>
-<li><a href="qualify-lead-convert-opportunity-sales.md" data-raw-source="[Convert a lead to an opportunity](qualify-lead-convert-opportunity-sales.md)">Convert a lead to an opportunity</a></li>
-<li><a href="create-edit-opportunity-sales.md" data-raw-source="[Create or edit an opportunity](create-edit-opportunity-sales.md)">Create or edit an opportunity</a></li>
+<li><a href="create-edit-lead-sales.md" data-raw-source="[Create or edit leads](create-edit-lead-sales.md)">Create or edit leads</a></li>
+<li><a href="qualify-lead-convert-opportunity-sales.md" data-raw-source="[Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)">Qualify or convert leads</a></li>
+<li><a href="create-edit-opportunity-sales.md" data-raw-source="[Create or edit opportunities](create-edit-opportunity-sales.md)">Create or edit opportunities</a></li>
 <li><a href="user-guide.md" data-raw-source="[More help resources for sales people...](user guide.md)">More help resources for sales people...</a></li>
 
-
 </td><td>
-<h2>Microsoft Learn resources</h2>
-<li><a href="https://docs.microsoft.com/learn/paths/working-with-dynamics-365-sales/" data-raw-source="[Working with Dynamics 365 Sales](https://docs.microsoft.com/learn/paths/working-with-dynamics-365-sales/)">Working with Dynamics 365 Sales</a></li>
+<h2>Integrate</h2>
+<li><a href="../linkedin/integrate-sales-navigator.md" data-raw-source="[Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md)">Integrate LinkedIn Sales Navigator solutions</a></li>
+<li><a href="../teams-integration/teams-integration.md" data-raw-source="[Microsoft Teams integration](../teams-integration/teams-integration.md)">Microsoft Teams integration</a></li>
 </td></tr>
 
 <tr><td>
@@ -87,13 +88,22 @@ manager: annbe
 
 <h2>Dynamics 365 Sales Insights</h2>
 
-<li><a href="../sales-enterprise/dynamics365-ai-sales.md" data-raw-source="[Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)">Dynamics 365 Sales Insights</a></li>
+<li><a href="../sales-enterprise/dynamics365-ai-sales.md" data-raw-source="[Dynamics 365 Sales Insights](../sales-enterprise/dynamics365-ai-sales.md)">Dynamics 365 Sales Insights</a></li>
 
 </td>
 <td>
 <h2> Dynamics 365 Sales Professional</h2>
 <li> <a href="../sales-professional/help-hub.md" data-raw-source="[Help resources for Dynamics 365 Sales Professional](../sales-professional/help-hub.md)">Help resources for Dynamics 365 Sales Professional</a></li>
 <li> <a href="../sales-professional/sales-professional-overview.md" data-raw-source="[Overview](../sales-professional/sales-professional-overview.md)">Overview</a></li>
+</td>
+</tr>
+
+<tr><td>
+
+<h2>Microsoft Learn resources</h2>
+<li><a href="https://docs.microsoft.com/learn/paths/working-with-dynamics-365-sales/" data-raw-source="[Working with Dynamics 365 Sales](https://docs.microsoft.com/learn/paths/working-with-dynamics-365-sales/)">Working with Dynamics 365 Sales</a></li>
+</td>
+<td>
 </td>
 </tr>
 

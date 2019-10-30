@@ -1,5 +1,5 @@
 ---
-title: "Define a goal rollup query (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Define goal rollup queries (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Collect data about a given goal, including all its related goals, in one view by using rollup query in Dynamics 365 Sales."
 keywords: "goal, rollup query"
 ms.date: 10/01/2019
@@ -14,7 +14,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Define a goal rollup query (Sales & Sales Hub)
+# Define goal rollup queries (Sales & Sales Hub)
 
 
 Use the rollup query to gather data about a given goal, including all its related goals, in one view.  
@@ -71,5 +71,5 @@ Use the rollup query to gather data about a given goal, including all its relate
   
 ### See also  
 
-[Create or edit a goal](../sales-enterprise/create-edit-goal-sales.md)   
+[Create or edit goals](../sales-enterprise/create-edit-goal-sales.md)   
 [Define a goal metric](create-edit-goal-metric.md)

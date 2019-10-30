@@ -1,5 +1,5 @@
 ---
-title: "Add products to quotes, orders, or invoices (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Add products to a quote, order, or invoice (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Include details about the products that your customer is interested in purchasing in your quote, order, or invoice in Dynamics 365 Sales."
 keywords: "product, quote, order, invoice"
 ms.date: 10/01/2019
@@ -8,14 +8,14 @@ ms.service:
 ms.custom:
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: c1f6f66e-25fe-4528-a2f3-f2a3a2e3830d
+ms.assetid: 0d002dc0-464b-4778-a3a2-1de46d7cc8d6
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
 caps.latest.revision: 58
 ---
 
-# Add products to quotes, orders, or invoices (Sales Hub)
+# Add products to a quote, order, or invoice (Sales Hub)
 
 You can add products or product bundles to a quote, order, or invoice record. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog or an ad hoc product that you add as a write-in product. 
 
@@ -25,7 +25,7 @@ The process for adding a product to a quote record is the same as adding a produ
 
 1. From the list of quotes, open the quote record you want to add the product to. 
 
-2. On the **Summary** tab, in the **Products** section, select the **More Commands** button ![More Commands button](media/more-commands-button.png "More Commands button"), and then select **Add New Quote Product**.
+2. On the **Summary** tab, in the **Products** section, select the **More Commands** button ![More Commands button](media/more-commands-button.png "More Commands button"), and then select **Add Product**.
 
 3. In the **Quick Create: Quote Product form**, do the following: 
 
@@ -53,7 +53,7 @@ The process for adding a product to a quote record is the same as adding a produ
 
         - **Tax**. If required, enter the appropriate tax amount. 
 
-4. To save this product, and add more products, select **Save and New**.
+4. To save this product, and add more products, select the drop-down arrow besides **Save and Close**, and then select **Save & Create New**.
 
 The **Products** grid shows all the products that are associated with the quote. After you add a product, you can change the unit, price, quantity, and discount of the product inline in the **Products** grid. For a write-in product, you can also change the price of the product in addition to the quantity and discount. 
 
@@ -63,13 +63,12 @@ Here are the actions you can take on the products in the Products grid:
 |--------------------------------------|------------------------------------------------------------------|
 |Edit properties of a product  |Select a product, and on the command bar, select **Edit Properties**. You can change details such as the price, quantity, or discount of the added products. <br/> You can also open the quote product, order product, or invoice product record, and view or change the properties of the product inline on the **Product Properties** tab. |
 |Delete a product associated with the quote |Select the product, and on the command bar, select **Delete Quote Product**. |
-|View products within a bundle | Select the **Chevron** icon ![Chevron icon](media/chevron-icon.png "Chevron icon") for the product bundle. You’ll see all the products that are included in the bundle. |
+|View products within a bundle | Select the **Chevron** icon ![Chevron icon](../sales-enterprise/media/chevron-icon.png "Chevron icon") for the product bundle. You’ll see all the products that are included in the bundle. |
 |See and add related products for cross-selling or upselling or to select an accessory or substitute product | Select a product, and on the command bar, select **Suggestions**. The **Suggestions** pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
 |See specific records together by moving a record up or down in the grid | Select a record, and on the command bar, use the **Up** or **Down** button. |
 
 
 ### See also  
- [Create or edit a quote](../sales-enterprise/create-edit-quote-sales.md)  
- [Create or edit an order](../sales-enterprise/create-edit-order-sales.md)  
- [Create or edit an invoice](../sales-enterprise/create-edit-invoice-sales.md)  
+ [Create and manage quotes in Dynamics 365 Sales Professional](create-quotes-sales-professional.md)  
+ [Create and manage invoices in Dynamics 365 Sales Professional](create-invoices.md)  
 
