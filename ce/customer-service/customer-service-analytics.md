@@ -25,7 +25,7 @@ The Customer Service Analytics dashboard provides information about the historic
 The following is an example of the Customer Service Analytics overview dashboard:  
 
    > [!div class=mx-imgBorder]
-   >![customer service analytics overview dashboard](media/cs-analytics-overview-dashboard.png "customer service analytics overview dashboard")
+   > ![customer service analytics overview dashboard](media/cs-analytics-overview-dashboard.png "customer service analytics overview dashboard")
   
 This section consists of the following KPIs:  
 
@@ -57,14 +57,14 @@ The following is an example a of the **Customer Service Analytics** report detai
 
 The Customer Service Analytics report detail view has three views: 
 
-   - [Summary](#1-summary)
+   - [Summary](#1summary)
 
-   - [Agent/Queue](#2-agent-/-queue)
+   - [Agent/Queue](#2-agent--queue)
 
-   - [Case/Activity List](#3-case-/-activity-list)
+   - [Case/Activity List](#3case--activity-list)
 
 
-### 1.	Summary
+### 1. Summary
     
    This view provides KPIs and metrics across customer service with an ability for supervisors to filter the view:
 
@@ -85,7 +85,7 @@ The Customer Service Analytics report detail view has three views:
    |CSAT trend                  |This visual shows the CSAT trend over the period selected.  |
 
 
-### 2. Agent / Queue 
+### 2. Agent/Queue 
     
    This view provides KPIs and metrics across customer service with an ability for supervisors to filter the view:
 
@@ -104,11 +104,11 @@ The Customer Service Analytics report detail view has three views:
    |Key influencers for CSAT                   |This visual shows the factors that drive the CSAT metric. It analyzes data, ranks the factors that matter, and displays them as key influencers. |
    |Open activities by agent                  |This visual shows the number of open activities by agent and type of activity.|
  
- ### 3.	Case / Activity List
+ ### 3. Case/Activity List
      
     This section provides a detailed view of case and activities which a supervisor can use to drill into each case or activity to help resolve customer issues. The link in this report directs the user to customer service or the customer service hub application in Dynamics 365.  
 
-   >[!Note]:
+   > [!NOTE]
    > Prerequisite for the link to work – you must have either a customer service hub application or customer service app installed from the Appsource. 
          
    > [!div class=mx-imgBorder]
