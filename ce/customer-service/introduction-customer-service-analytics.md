@@ -16,16 +16,18 @@ ms.custom:
 
 # Introduction to Customer Service Analytics
 
-Customer service managers or supervisors are responsible for managing the agents who work with customers to resolve queries every day. Customer support supervisors need to be able to know the key operational and customer experience metrics to provide quality support. They need to view these metric trends over a period, how each agent and queue is trending on these metrics. This enables the supervisor to take corrective measures against agents and queues to provide best customer support experience. 
+Customer service managers or supervisors are responsible for managing the agents who work with customers to resolve queries every day. Customer support supervisors need to be able to know the key operational and customer experience metrics to provide quality support. 
+
+Supervisors can see trends in these metrics over a period of time understand how agents and queues are performing, so that they can take corrective measures, provide appropriate guidance to agents, and improve the customer support experience. 
 
 As a supervisor, use this dashboard to perform the following tasks:  
 
-- Monitor case volume across priority, queues, agents. 
+- Monitor case volume across channels, queues, and agents. 
 
 - Monitor support quality across queues and agents. 
 
 >[!Note] 
-> Contact your system administrator, for configuration errors or if you are unable to view the dashboards.  
+> Contact your system administrator for configuration errors or if you are unable to view the dashboards.  
 
 ## See also
 

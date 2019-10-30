@@ -140,6 +140,7 @@ As an administrator, you must enable Power BI reporting in the Dynamics 365 for 
     Supervisors can now configure dashboards. 
  
 ### Step 7: Add Power BI Dashboards to Customer Service Hub 
+
 Each supervisor must configure their Dynamics 365 for Customer Engagement environment to integrate the Customer Service Analytics dashboard. 
 
 1. Sign in to Dynamics 365 for Customer Engagement and open the **Customer Service Hub** app 
@@ -151,20 +152,38 @@ Each supervisor must configure their Dynamics 365 for Customer Engagement enviro
      
     > [!div class=mx-imgBorder]
     > ![Customer Service app install](media/cs-analytics-supervisor-dashboard.png "Customer Service app install")
+
 3. Select **New, Power BI Dashboard**
+
+    > [!div class=mx-imgBorder]
+    > ![Power BI Dashboard](media/cs-pbi-dashboard-menu.png "Power BI Dashboard")
+
 4. Choose **Workspace** as **Dynamics 365 Customer Service Analytics** and **Dashboard** as **Customer Service Analytics Dashboard**. 
+
+    > [!div class=mx-imgBorder]
+    > ![Power BI Dashboard Properties](media/cs-pbi-dashboard-properties.png "Power BI Dashboard Properties")
+
 5. Save and close. 
-6. Repeat Step 3 to step 5 to add Omni-channel Sentiment Insights app. 
-    
-    Customer Service Analytics dashboard is now available in Dynamics 365.
+
 
 ## Add users to supervisor configuration  
+
 You must add users in the supervisor configuration to access any supervisor dashboard in Unified Service Desk. To add users in supervisor configuration, follow these steps: 
  
  1. Log in to Dynamics 365.
+
  2. Go to **Settings, Unified Service Desk** and then select **Configuration**.
- 3. On the configuration page, select **Supervisor Configuration**.   
+
+ 3. On the configuration page, select **Supervisor Configuration**. 
+
+    > [!div class=mx-imgBorder]
+    > ![Supervisor Configuration](media/cs-supervisor-configurations.png "Supervisor Configuration")
+
  4. On the **Users** section, select **+ Add User record** and enter the user name to add the user.
+
+     > [!div class=mx-imgBorder]
+    > ![Add User Record](media/cs-add-user-record.png "Add User Record")
+
  5. Save and close the configuration.   
 
     Users are now added to the supervisor dashboard and when they log in to Omnichannel Engagement Hub on Unified Service Desk, the supervisor dashboard tabs are now available. 
