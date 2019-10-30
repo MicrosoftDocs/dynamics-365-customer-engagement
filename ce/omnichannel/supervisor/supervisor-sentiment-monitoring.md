@@ -97,7 +97,7 @@ The minimum app version is required. To upgrade, use the follow the instructions
 
 ## Install and configure
 
-Once you have signed up, see Step 4 on the [Enable sentiment analysis](https://docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/enable-sentiment-analysis) to configure multilanguage sentiment analysis. 
+Once you have signed up, see Step 4 on the [Enable sentiment analysis](../administrator/enable-sentiment-analysis.md) to configure multilanguage sentiment analysis. 
 
 ## Policy notice 
 
