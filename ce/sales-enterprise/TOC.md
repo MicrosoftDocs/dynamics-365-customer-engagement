@@ -101,6 +101,9 @@
 ### [Troubleshooting guide for administrators](troubleshooting-admin.md)
 ### [FAQs](faqs-sales.md)
 
+## [Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md)
+## [Microsoft Teams integration](../teams-integration/teams-integration.md)
+
 ## Developer Guide
 ### [Get started](../sales-enterprise/developer/developer-guide.md)
 ### [Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)

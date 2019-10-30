@@ -60,3 +60,6 @@
 ### [Customize business process flows](customize-business-process-flows.md)
 ### [Customize the Opportunity Close form](customize-opportunity-close-experience-sales-professional.md)
 ### [Customize the Dynamics 365 Sales Professional app](manage-app.md)
+
+## [Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md)
+## [Microsoft Teams integration](../teams-integration/teams-integration.md)
