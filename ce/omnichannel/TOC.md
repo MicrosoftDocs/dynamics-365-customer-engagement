@@ -149,6 +149,7 @@
 #### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard)
 #### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)
 ### [Supervisor Sentiment Monitoring](supervisor/supervisor-sentiment-monitoring.md)
+#### [Monitor conversations](supervisor/monitor-conversations.md)
 
 
 
