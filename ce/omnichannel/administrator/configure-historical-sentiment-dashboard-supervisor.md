@@ -44,7 +44,7 @@ As an administrator, you must configure the Omnichannel Insights to display chan
 
 [Step 7: Add Power BI Dashboards to Omnichannel for Customer Service](#step-7-add-power-bi-dashboards-to-omnichannel-for-customer-service)
 
-### Step 1: Review Prerequisites
+### Step 1: Review prerequisites
 
 Review the following prerequisites before configuring the dashboard:
 -  You have administrative privileges for Dynamics 365 Customer Service and Power BI.
@@ -62,14 +62,14 @@ Review the following prerequisites before configuring the dashboard:
 
 1.	Sign in to the [Power BI](https://app.powerbi.com/) app as an administrator.
 
-2.	As a Power BI admin, open [Omnichannel Insights for Dynamics 365](http://aka.ms/d365-oc-insights) app page.
+2.	As a Power BI administrator, open [Omnichannel Insights for Dynamics 365](http://aka.ms/d365-oc-insights) app page.
 
 3.  Select **GET IT NOW** to install the app.
 
     > [!div class=mx-imgBorder]
     > ![Omnichannel Insights for Dynamics 365 app installation](../media/supervisor-admin-historical-install-app-pbi.png "Omnichannel Insights for Dynamics 365 app installation")
 
-4.	After the **Omnichannel Insights** app is installed, select the app and configuration options page displays.
+4.	After the **Omnichannel Insights** app is installed, select the app and configuration options page is displayed.
 
     > [!div class=mx-imgBorder]
     > ![Omnichannel insights configuration page](../media/supervisor-admin-historical-configuration-page-doi.png "Omnichannel insights configuration page")
@@ -86,9 +86,9 @@ If previous version of Omnichannel Insights app was installed, it is strongly re
     > ![Enter CRM OData feed URL](../media/oc-config1.png "Enter CRM OData feed URL")
 
 
-2. Choose **Install to a new workspace** option
-3. Click **Install**
-4. **Re-implement** customizations into new workspace.
+2. Choose **Install to a new workspace** option.
+3. Select **Install**.
+4. Re-implement customizations into new workspace.
 
 
 ### Step 3: Connect to Omnichannel Insights for Dynamics 365 app
@@ -105,7 +105,7 @@ If previous version of Omnichannel Insights app was installed, it is strongly re
 
 3.	(Optional) To find the Microsoft Dynamics 365 OData URL, follow these steps:
 
-    a.	Sign in to the Common Data Service platform.
+    a.	Sign in to Dynamics 365 Customer Service.
     
     b.	Go to **Settings** > **Customizations** and then select **Developer Resources**. 
     
@@ -180,7 +180,7 @@ Administrators must enable Power BI reporting in the Dynamics 365 for Customer E
 
 1.  Sign in to Dynamics 365 Customer Service and go to **Settings**.
  
-2.	Select **Administration** under System settings.
+2.	Under **System**, select **Administration**.
 
 
     > [!div class=mx-imgBorder]
@@ -197,12 +197,12 @@ Administrators must enable Power BI reporting in the Dynamics 365 for Customer E
 
 Each supervisor must configure their Dynamics 365 Customer Service environment to integrate the Omnichannel Insights and Omnichannel Sentiment Analysis ashboards.
 
-1. Sign-in to Dynamics 365 for Customer Engagement and open the **Omnichannel Administration** app.
+1. Sign-in to Dynamics 365 Customer Service and open the **Omnichannel Administration** app.
 
     > [!div class=mx-imgBorder]
     > ![Select Power BI dashboard option](../media/oc-config11.png "Select Power BI dashboard option")
 
-2. Open **Supervisor Dashboards**.
+2. Open **Overview Dashboard**.
 
     > [!div class=mx-imgBorder]
     > ![Select Power BI dashboard option](../media/oc-config12.png "Select Power BI dashboard option")
@@ -271,30 +271,37 @@ Before customizing the template app, read the following information first and pe
 
 ## Prepare PBIX for customization
 
-1.	a. Start Power BI Desktop. <p> 
-b. Select **File** > **Open**, open Omnichannel Insights for Dynamics 365.pbix, and then select **Open**. <p>
-c. Several pages of reports are loaded and displayed in Power BI Desktop.
+1. Start Power BI Desktop.
 
-2.	On the Power BI Desktop ribbon, select **Edit Queries**.
+2. Select **File** > **Open**, open Omnichannel Insights for Dynamics 365.pbix, and then select **Open**.
 
-3.	a. In the left navigation pane of the Edit Queries window, under **Queries**, select the **Dynamics 365 Service Root URL** query, <p>
-b. In the ribbon, select **Advanced Editor**.<p> 
-c. In the source definition, replace **contosuites.crm10.dynamics.com** with your apps instance URL.<p> 
-Example: if the organization name is Contoso, the URL looks like this:
-Source = https://contoso.crm.dynamics.com/api/data/v9.1/
+3. Several pages of reports are loaded and displayed in Power BI Desktop.
 
-4.	a. Select **Done**, <p>
-    b. Select **Close & Apply** in Query Editor.
+4.	On the Power BI Desktop ribbon, select **Edit Queries**.
 
-5.	a. When the 'Access an OData feed' appears, select **Organizational account** <p>
-b. Select **Sign-in**.
+5. In the left navigation pane of the Edit Queries window, under **Queries**, select the **Dynamics 365 Service Root URL** query.
 
-    > [!div class=mx-imgBorder]
-    > ![Add user to supervisor configuration](../media/oc-config17.png "Add user to supervisor configuration")
+6. In the ribbon, select **Advanced Editor**.
 
-6.	When the sign-in appears, enter your credentials to authenticate to your instance.
+7. In the source definition, replace **contosuites.crm10.dynamics.com** with your apps instance URL.
 
-7.	In the Access an OData feed dialog, select **Connect**.
+    Example: if the organization name is Contoso, the URL looks like this:
+    Source = https://contoso.crm.dynamics.com/api/data/v9.1/
+
+8. Select **Done**.
+
+9. Select **Close & Apply** in Query Editor.
+
+10.	When the 'Access an OData feed' appears, select **Organizational account**.
+
+11.  Select **Sign-in**.
+
+     > [!div class=mx-imgBorder]
+     > ![Add user to supervisor configuration](../media/oc-config17.png "Add user to supervisor configuration")
+
+12.	When the sign-in appears, enter your credentials to authenticate to your instance.
+
+13.	In the Access an OData feed dialog, select **Connect**.
 
     Queries are updated. This may take several minutes.
 
