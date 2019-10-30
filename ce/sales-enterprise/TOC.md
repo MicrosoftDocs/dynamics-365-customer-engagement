@@ -41,13 +41,12 @@
 #### [Create or edit goals](../sales-enterprise/create-edit-goal-sales.md)
 #### [Define a goal metric](../sales-enterprise/create-edit-goal-metric.md)
 #### [Define a goal rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)
-#### [Configure forecasts for your organization](configure-forecast.md)
+#### [Configure a forecast in your organization](configure-forecast.md)
 
 ### Playbook management
 #### [Define playbook categories](define-playbook-categories.md)  
 #### [Manage playbook templates](manage-playbook-templates.md) 
 #### [Associate documents with playbook activities](associate-documents-playbook-activities.md)
-### [Integrate a sample softphone with Dynamics 365 Sales](sample-softphone-integration.md)
 
 ### General Data Protection Regulation (GDPR)
 #### [Dynamics 365 Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
@@ -103,8 +102,10 @@
 ### [Troubleshooting guide for administrators](troubleshooting-admin.md)
 ### [FAQs](faqs-sales.md)
 
-## [Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md)
-## [Microsoft Teams integration](../teams-integration/teams-integration.md)
+## Integrations
+### [Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md)
+### [Microsoft Teams integration](../teams-integration/teams-integration.md)
+### [Integrate a sample softphone with Dynamics 365 Sales](sample-softphone-integration.md)
 
 ## Developer Guide
 ### [Get started](../sales-enterprise/developer/developer-guide.md)
