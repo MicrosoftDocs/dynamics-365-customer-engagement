@@ -25,7 +25,7 @@ This topic describes how to install a *sample* app and test the calling capabili
 > [!IMPORTANT]
 > -  This sample code currently has limited availability.
 > -  The sample code for softphone integration with Dynamics 365 using Dynamics 365 Channel Integration Framework is made available so customers can get early access and provide feedback. The sample code is not meant for production use and might have limited or restricted functionality.
-> -  [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+> -  Microsoft doesn't provide support for this sample code. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. This is subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?LinkId=511446).
 
 ## Integrate and configure the sample softphone dialer
 

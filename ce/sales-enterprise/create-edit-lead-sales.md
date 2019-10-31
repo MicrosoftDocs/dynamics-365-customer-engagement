@@ -1,5 +1,5 @@
 ---
-title: "Create or edit a lead (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Create or edit leads (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use leads to track business prospects that you haven't yet qualified."
 keywords: "lead, qualify, sales process, activities"
 ms.date: 10/01/2019
@@ -15,7 +15,7 @@ manager: annbe
 caps.latest.revision: 69
 ---
 
-# Create or edit a lead (Sales and Sales Hub)
+# Create or edit leads (Sales and Sales Hub)
 
 In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads to keep track of business prospects that you haven't yet qualified through your sales process. A lead can be an existing client or someone you've never done business with before. You might get leads from different sources, such as advertising, networking, or email campaigns.  
   
