@@ -124,7 +124,7 @@ After you connect Omnichannel Chat Insights app with your organization, you need
     > ![Turn on schedule refresh](../media/supervisor-admin-historical-schedule-refresh.png "Turn on schedule refresh")
 
     > [!NOTE]
-    > We recommendation you to configure the refresh frequency as **Daily**.
+    > We recommend that you set the refresh frequency to **Daily**.
 
 5. Select **Apply**.
 

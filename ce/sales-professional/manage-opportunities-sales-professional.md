@@ -1,5 +1,5 @@
 ---
-title: "Create or edit an opportunity in Dynamics 365 Sales Professional | MicrosoftDocs"
+title: "Create or edit opportunities in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Track a deal that has more probability of turning into a business as an opportunity in Dynamics 365 Sales Professional."
 keywords: ""
 ms.date: 10/01/2019
@@ -14,7 +14,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Create or edit an opportunity in Dynamics 365 Sales Professional
+# Create or edit opportunities in Dynamics 365 Sales Professional
 
 In Dynamics 365 Sales Professional, an opportunity is a potential sale, like a lead, but with an opportunity you can forecast revenue, set a potential close date, and factor in a probability for the sale. You can also track contact information and information about the salesperson working on the opportunity.
 You must link a new opportunity to an existing account or contact.
@@ -67,7 +67,7 @@ To create or edit an opportunity:
 
 6.  To save your changes, on the command bar, select **Save**.
 
-7.  Add products to your opportunity. For more information, see [Add products to your opportunity](#add-products-to-your-opportunity).
+7.  Add products to your opportunity. For more information, see [Add products to an opportunity](add-products-opportunity-sp.md).
 
 8.  Follow the process bar to move the opportunity to the next stage. In the **Develop Opportunity** stage, enter data for these fields:
 
@@ -84,35 +84,6 @@ To create or edit an opportunity:
 9.  In the **Develop Opportunity** stage, select **Next**.
 
     The next step is to create and send a quote to your customer. 
-
-## Add products to your opportunity
-
-1.  In the list of opportunities, open the opportunity for which you want to add products.
-
-2.  Go to the **Product Line Items** tab.
-
-3.  In the Product Line Items grid, on the command bar, select **Add New**.
-
-4.  In the **Quick Create** form, do the following, and select **Save**:
-
-    -  **Select product**. This field is a toggle that indicates whether you want to add an existing product or create a new one.
-
-        To use an existing product, select the **Lookup** button![Icon for lookup](media/lookup-icon.png) to search for and add a product.
-
-        To create a write-in product, select **Write-In**, and then type the name of the product.
-
-    -  **Select pricing.** Select the pricing option. By default, this uses the price that is listed in the product catalog. To override the price, select **Override Price**. When you override the price, you can specify a price that you want to charge for each unit of the product.
-
-    -  **Enter quantity.** Enter the quantity of the product or service that will be included.
-
-    -  **Enter manual discount.** If you want, you can enter a discount to the
-        product.
-
-    -  **Enter tax.** If required, enter the appropriate tax amount.
-
-    The right side of the page shows the total amount and discount based on the number of products added to the opportunity.
-
-5.  If you want the pricing to be automatically calculated based on the products and quantities added, switch the **Revenue** field to **System Calculated**. If not, switch it to **User Provided**.
 
 ## Recalculate an opportunity
 
@@ -143,7 +114,20 @@ Whether you win a sale or close an opportunity, you probably want to close it. Y
 
     ![Close Opportunity dialog box](media/close-opportunity-dialog-box.png "Close Opportunity dialog box")
 
-3.  Enter the details in the dialog box, and select **OK**.
+    1. When you close the opportunity as **Won**, in the **Close Opportunity** pane, do the following, and select **OK**:
+
+            - In **Actual Revenue**, Verify the amount, and make changes, if necessary.
+
+            - In **Description**, enter details about what contributed to winning this opportunity. 
+
+    2. When you close the opportunity as **Lost**, in the **Close Opportunity** pane, do the following, and select **OK**:
+
+            -  In **Competitor**, select a competitor you lost this opportunity to.
+
+            -  In **Description**, add more details around why the opportunity was lost.
+
+    > [!IMPORTANT]
+    > If your system administrator has enabled custom fields on the **Opportunity Close** form, you may be required to fill in data in other fields as defined by your organization. 
 
 ### See also
 
