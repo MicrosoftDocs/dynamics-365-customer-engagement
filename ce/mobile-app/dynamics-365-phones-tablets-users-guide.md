@@ -310,4 +310,4 @@ The assistant draws your attention to your most important items and tasks, drawn
  [What's supported](support-phones-tablets.md) </br>
  [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)<br/>
  [Common Data Service Help](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br/>
- [Microsoft Dynamics 365 Customer Engagement (on-premises) Help](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/overview)
+ [Microsoft Dynamics 365 Customer Engagement (on-premises) Help](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/overview)
