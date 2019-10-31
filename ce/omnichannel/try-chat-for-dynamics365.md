@@ -53,7 +53,7 @@ With this option, you can get a free 30-day trial of Chat, SMS, and Facebook Mes
     > [!div class=mx-imgBorder]
     > ![Create a Customer Service trial](media/cs-trial.png "Create a Customer Service trial")
 
-4. Sign-in with your global administrator credentials and accept the terms and privacy policy. The instance setup takes some time.
+4. Sign in with your global administrator credentials and accept the terms and privacy policy. The instance setup takes some time.
 
 5. If you already have trial instances (Dynamics 365 instances with Instance Type set to Trial), you'll be asked to either join an existing organization or create your own trial. Select **Create your own trial** and then select **Create New Trial**. After that, select **Customer service** and then select **Complete Setup**.
 
