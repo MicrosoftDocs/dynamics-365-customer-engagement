@@ -1,3 +1,17 @@
+---
+title: "Sign up for free trial of Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Learn how to sign up for free trial of Dynamics 365 Sales Professional."
+keywords: "try, trial, free, Dynamics 365 Sales, admin"
+ms.date: 10/30/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.topic: article
+ms.assetid: d0b1cfa2-9963-f436-dbe0-d2fbe2cd4a1a
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+---
+
 # Sign up for free trial of Dynamics 365 Sales Professional
 
 With Microsoft Dynamics 365 Sales Professional, you can streamline your sales processes, shorten sales cycles and integrate seamlessly with Microsoft Office 365 and LinkedIn, so you can - close deals and achieve your quota faster.
@@ -9,7 +23,7 @@ AD) is available), an unmanaged tenant, or no tenant at all.
 
 -   *If you already have a managed tenant or don’t have a Microsoft 365 tenant*, you can sign up for the Dynamics Sales Professional trial by following the instructions in the section Install Dynamics 365 Sales Professional on your tenant.
 
--   *If you already have an unmanaged tenant and prefer to continue using it*, then you must first convert it to a managed. For more information, see [Take over an unmanaged directory as administrator in Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=866761). Then continue with the steps in the section [Install Dynamics 365 Sales Professional trial on your tenant](https://docs.microsoft.com/en-us/dynamics365/marketing/trial-signup#install-on-existing-tenant).
+-   *If you already have an unmanaged tenant and prefer to continue using it*, then you must first convert it to a managed. For more information, see [Take over an unmanaged directory as administrator in Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=866761). Then continue with the steps in the section [Install Dynamics 365 Sales Professional trial on your tenant](#install-dynamics-365-sales-professional-trial-on-your-tenant).
 
 ## Install Dynamics 365 Sales Professional trial on your tenant
 
@@ -28,7 +42,7 @@ AD) is available), an unmanaged tenant, or no tenant at all.
     ![Agree to terms and conditions and select Start](media/accept-terms-and-start.png "Agree to terms and conditions and select Start")
 
     > [!IMPORTANT]
-    > If you don't belong to an existing Microsoft 365 tenant, follow the steps outlined in [Installation steps when you don't belong to an existing tenant](try-dynamics365-sales-professional.md#installation-steps-when-you-don-t-belong-to-an-existing-microsoft-365-tenant).
+    > If you don't belong to an existing Microsoft 365 tenant, follow the steps outlined in [Installation steps when you don't belong to an existing tenant](#installation-steps-when-you-dont-belong-to-an-existing-microsoft-365-tenant).
 
 5.  Select **Start**.
 
