@@ -118,15 +118,56 @@ In this article let's explore creating customer assets and noting them on work o
 ### With work orders
 - Incidents
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-primary-incident.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-product-asset-relation.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-related-work-orders.png)
+
+
 - WOP, WOS, WOST
 
 ### With agreements
 
 Agreement incident types
 
+[Set up agreements to automatically generate work orders and invoices](../field-service/set-up-customer-agreements.md)  
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-agreement-incident.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-agreement-setup.png)
+
+
 ## Connected Field Service
 
 ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
+
+relate one or more devices to a customer asset
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-iot-device.png)
+
+See associated records > Connect 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-iot-device-connect.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-iot-alert.png)
 
 ## Configuration considerations
 - serial number
