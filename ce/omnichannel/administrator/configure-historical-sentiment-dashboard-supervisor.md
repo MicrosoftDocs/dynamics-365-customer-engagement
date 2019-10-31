@@ -197,7 +197,7 @@ Administrators must enable Power BI reporting in the Dynamics 365 for Customer E
 
 Each supervisor must configure their Dynamics 365 Customer Service environment to integrate the Omnichannel Insights and Omnichannel Sentiment Analysis ashboards.
 
-1. Sign-in to Dynamics 365 Customer Service and open the **Omnichannel Administration** app.
+1. Sign in to **Dynamics 365 Customer Service** and open the **Omnichannel Administration** app.
 
     > [!div class=mx-imgBorder]
     > ![Select Power BI dashboard option](../media/oc-config11.png "Select Power BI dashboard option")
@@ -294,12 +294,12 @@ Before customizing the template app, read the following information first and pe
 
 10.	When the 'Access an OData feed' appears, select **Organizational account**.
 
-11.  Select **Sign-in**.
+11.  Select **Sign in**.
 
      > [!div class=mx-imgBorder]
      > ![Add user to supervisor configuration](../media/oc-config17.png "Add user to supervisor configuration")
 
-12.	When the sign-in appears, enter your credentials to authenticate to your instance.
+12.	When the sign in appears, enter your credentials to authenticate to your instance.
 
 13.	In the Access an OData feed dialog, select **Connect**.
 
