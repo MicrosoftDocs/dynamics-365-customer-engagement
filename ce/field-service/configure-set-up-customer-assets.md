@@ -170,6 +170,7 @@ See associated records > Connect
 > ![Screenshot of ](./media/customer-asset-iot-alert.png)
 
 ## Configuration considerations
+
 - serial number
 - customer asset with quantity 2 will not create 2 customer asset records, but there will be a lookup reference to the work order product that will show a quantity of 2
 - [Adding 3D models to customer assets](../field-service/3D-viewer.md)
