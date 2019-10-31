@@ -92,7 +92,7 @@ Expect the following system behavior:
 
 ## Requirements 
 
-The minimum app version is required. To upgrade, use the follow the instructions [here](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/omnichannel/administrator/upgrade-omnichannel). 
+You environment must have the latest version of Omnichannel for Customer Service. To learn more, see [Upgrade Omnichannel for Customer Service](../administrator/upgrade-omnichannel.md). 
 
 ## Install and configure
 
