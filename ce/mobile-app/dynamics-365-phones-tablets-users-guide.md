@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 10/11/2019
+ms.date: 10/31/2019
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -174,6 +174,9 @@ Take action on a record without opening the record.
 ## Add activities in the Timeline 
 
 Activities are details that you add to a record which include things like notes, posts, task, send email, add phone call details, or set up appointments. These activities are added in the Timeline wall of a record and it keeps track of all your communications for the record in the Timeline section. The system automatically timestamps every activity and shows who created it. 
+
+> [!NOTE]
+> Recurring appointments are not supported when you are using the Dynamics 365 for phones app or on your mobile phone web browser.
 
 **Add an activity**
 
