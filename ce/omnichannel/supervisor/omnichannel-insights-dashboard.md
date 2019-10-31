@@ -59,7 +59,7 @@ Reporting structure consists of five sections:
 - [Channel](#channel)
 - [Queue](#queue)
 - [Agent](#agent)
-- [Bot insights (BYOB)](#bot-insights-(byob))
+- [Bot insights (BYOB)](#bot-insights-byob)
 
 ### **Conversation**: 
 

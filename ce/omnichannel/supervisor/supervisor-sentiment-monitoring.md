@@ -32,7 +32,7 @@ Omnichannel sentiment analysis enables agents and supervisors to understand real
 > - Unsupported languages do not receive a sentiment score. 
 
 
-To learn more, see [Explore Text Translator API](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/translator-info-overview).
+To learn more, see [Explore Text Translator API](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).
 
 ## Personas
 
