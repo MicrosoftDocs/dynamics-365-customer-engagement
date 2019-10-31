@@ -55,13 +55,13 @@ Omnichannel Insights reports provide comprehensive information on how overall su
 
 Reporting structure consists of five sections: 
 
-1. [Conversation](#1-conversation)
-2. [Channel](#2-channel)
-3. [Queue](#3-queue)
-4. [Agent](#4-agent)
-5. [Bot insights (BYOB)](#5-bot-insights-(byob))
+- [Conversation](#conversation)
+- [Channel](#channel)
+- [Queue](#queue)
+- [Agent](#agent)
+- [Bot insights (BYOB)](#bot-insights-(byob))
 
-### **1. Conversation**: 
+### **Conversation**: 
 
    This section provides historical visibility into the overall support operations across various channels: 
 
@@ -79,7 +79,7 @@ Reporting structure consists of five sections:
    |Average customer effort time                   |This visual shows the trend of average customer effort time over a period selected by a user with the average handle time for each day.|
    |Average Customer Sentiment Pulse (CSP)         |The predicted customer sentiment in the timeframe for a set queue/agent,which indicates the degree of positive sentiment expressed by customers at the end of their interactions  |
 
-### **2. Channel**: 
+### **Channel**: 
 
    This section provides historical visibility on support operations by each channel that helps supervisors easily understand how each support channel (e.g.: SMS, chat, etc.) are performing and take appropriate actions to improve the overall support experience for customers.  
 
@@ -99,7 +99,7 @@ Reporting structure consists of five sections:
    |Conversation metrics by channel  | The grid provides the list of metrics across each channel.   |
    |Conversation metrics by date     | This grid provides the trend of each metric across channels.  |
 
-### **3. Queue**: 
+### **Queue**: 
 
    This section provides historical visibility on how each of queue is performing so supervisors can and take appropriate steps to improve the overall support experience for the customer.  
 
@@ -117,7 +117,7 @@ Reporting structure consists of five sections:
    |Session metrics by queue     |Grid provides the top metrics across all queues. This helps to compare metrics across each queue.  |
    |Session metrics by date      |Grid provides list of metrics by dates.   |
 
-### **4. Agent**: 
+### **Agent**: 
 
    This section provides historical visibility on how each agent is performing across different channels/queues so supervisors can take appropriate action to improve the overall support experience for customers.  
 
@@ -136,7 +136,7 @@ Reporting structure consists of five sections:
    |Session metrics by agent     |Grid provides the top metrics across all agents. This helps to compare agents across each metrics.|
    |Session metrics by date      |Grid provides list of metrics by dates. |
 
-### **5. Bot insights (BYOB)**: 
+### **Bot insights (BYOB)**: 
 
    This section provides historical visibility on how bots are performing to help resolve customer support issues. 
 
@@ -180,7 +180,7 @@ This illustration of the Omnichannel Sentiment Analysis report provides 
    |% Negative Sentiment                 |Count of negative sentiment zone conversations divided by total sessions.  |
    |Conversations with Sentiment predication  |Count of conversations to predict the customer sentiment metrics.|
 
-## Sentiment Zones
+## Sentiment zones
 
 **Positive Sentiment**
 
@@ -190,7 +190,7 @@ For example, when a customer writes “thank you”, that is just being polite, 
 
 **Negative Sentiment**
 
-Negative sentiment is expressed by the customer when they are disappointed with the support interaction. These can be cases where the customer is describing their problem and are frustrated or unhappy because of how it is currently impacting them. For something to be scored with negative sentiment the words need to **clearly convey that the user is unhappy, disappointed, frustrated,** etc.
+Negative sentiment is expressed by the customer when they are disappointed with the support interaction. These can be cases where the customer is describing their problem and are frustrated or unhappy because of how it is currently impacting them. For something to be scored with negative sentiment the words need to clearly convey that the user is unhappy, disappointed, and frustrated.
 
 **Neutral Sentiment**
 
@@ -208,8 +208,3 @@ You can filter the information presented in the reports by selecting **Duration,
 [Introduction to Omnichannel Insights dashboard](../supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
 
 [Configuring Omnichannel Insights dashboard](../administrator/configure-historical-sentiment-dashboard-supervisor.md)
-
-
-
-
-
