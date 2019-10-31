@@ -2,7 +2,7 @@
 title: "Customize themes in Unified Service Desk | MicrosoftDocs"
 description: "Themes in Unified Service Desk define the look and feel of the agent application. A theme in Unified Service Desk consists of a XAML resource library, and can be placed on any web server and referenced via URL or can be compile into .NET assemblies (dll), and distributed with the agent applications."
 ms.custom: dyn365-USD
-ms.date: 08/17/2018
+ms.date: 11/04/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 27b60bcc-787e-451d-b795-be9b0efbc57d
@@ -44,17 +44,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
 ### Air Theme  
  This is the Air theme. This theme supports high-contrast mode.  
   
- ![Air theme in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-themeair.png "Air theme in Unified Service Desk")  
-  
-### Blue Theme  
- This is the Blue theme. This theme doesn't support high-contrast setting, and is deprecated in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] 2.2 release. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Blog: Deprecating some predefined Unified Service Desk themes](https://blogs.msdn.microsoft.com/usd/2016/08/24/deprecating-some-predefined-unified-service-desk-themes/)  
-  
- ![Blue theme in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-themeblue.png "Blue theme in Unified Service Desk")  
-  
-### Style Theme  
- This is the Style theme. This theme doesn't support high-contrast setting, and is deprecated in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] 2.2 release. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Blog: Deprecating some predefined Unified Service Desk themes](https://blogs.msdn.microsoft.com/usd/2016/08/24/deprecating-some-predefined-unified-service-desk-themes/)  
-  
- ![Style theme in Unified Service Desk](../unified-service-desk/media/crmusd-theme-style.png "Style theme in Unified Service Desk")  
+ ![Air theme in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-themeair.png "Air theme in Unified Service Desk") 
   
 <a name="SetPredefinedTheme"></a>   
 ## Set a predefined theme  
