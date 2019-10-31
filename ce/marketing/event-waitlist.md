@@ -74,7 +74,7 @@ To see who is currently on the waitlist for any event or session:
 
 1. [Open the Events work area](open-events.md), go to the events list (**Events** > **Event** > **Events**), and then open the event.
 
-1. If you are using [session-level registration](session-level-registration.md), then go the the **Agenda** tab for the event and open the session you want to view.
+1. If you are using [session-level registration](session-level-registration.md), then go to the the **Agenda** tab for the event and open the session you want to view.
 
 1. Open the **Registration and attendance** tab for your selected event or session and scroll down to the **Waitlist** section. (Note that the **Waitlist** section is only shown when the waitlist is enabled.)  
 
