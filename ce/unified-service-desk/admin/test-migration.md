@@ -27,7 +27,7 @@ This topic describes the steps you need to perform after you migrate the configu
 - [Reconfigure events](#reconfigure-events)
 - [Reconfigure associated view action call](#reconfigure-associated-view-action-call)
 - [Reconfigure RunXrmCommands](#reconfigure-runxrmcommands) 
-- Update Unified Service Desk Component type to Chrome (optional)
+- [Update Hosting Type to Chrome](#update-hosting-type-to-chrome) (optional)
 - Update to Unified Interface theme (optional)
 
 ### Reconfigure window navigation rules
@@ -75,7 +75,18 @@ You need to update parameters of the **AssociatedView** action call in the Unifi
 
 ### Reconfigure RunXrmCommands
 
+In web client, you can pass a script as data in an action call. In unified interface, you need write the function in the web resource and pass the Unified Service Desk data parameters as parameters to that function.
 
+The migration tool converts all your action calls and replaces the data parameters with the variables in the function.
+
+All the data parameters are passed as strings in quotes. For example, `‘[[incident.Id]+]’`.
+
+> [!Note]
+> If data parameters is a JSON object and not a string, you've to remove the quotes from the data parameter.
+
+### Update Hosting Type to Chrome
+
+It is recommended to update your Hosting Type to Chomre. To learn more, see [Update Unified Service Desk Component type to Chrome](../chrome-process.md).
 
 ## Test the configurations on the target Unified Interface app.
 
