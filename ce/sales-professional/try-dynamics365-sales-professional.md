@@ -21,11 +21,13 @@ Sales Professional trials are fully functional, but limited to 30 days. Each Sal
 Dynamics 365 Sales Professional is a cloud-based application that runs on a Microsoft 365 tenant*. Your tenant hosts your cloud applications (including Office 365 and Dynamics 365), provides user and license management, and much more. The procedure for setting up your trial depends on whether you already have a *managed* tenant (which is a tenant where Azure Active Directory (Azure
 AD) is available), an unmanaged tenant, or no tenant at all.
 
--   *If you already have a managed tenant or don’t have a Microsoft 365 tenant*, you can sign up for the Dynamics Sales Professional trial by following the instructions in the section Install Dynamics 365 Sales Professional on your tenant.
+-   *If you already have a managed tenant, you can sign up for the Dynamics Sales Professional trial by following the instructions in the section [Installation steps when you belong to an existing Microsoft 365 tenant](#installation-steps-when-you-belong-to-an-existing-microsoft-365-tenant).
 
--   *If you already have an unmanaged tenant and prefer to continue using it*, then you must first convert it to a managed. For more information, see [Take over an unmanaged directory as administrator in Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=866761). Then continue with the steps in the section [Install Dynamics 365 Sales Professional trial on your tenant](#install-dynamics-365-sales-professional-trial-on-your-tenant).
+- If you don’t have a Microsoft 365 tenant, you can sign up for the Dynamics Sales Professional trial by following the instructions in the section [Installation steps when you don't belong to an existing tenant](#installation-steps-when-you-dont-belong-to-an-existing-microsoft-365-tenant).
 
-## Install Dynamics 365 Sales Professional trial on your tenant
+-   *If you already have an unmanaged tenant and prefer to continue using it*, then you must first convert it to a managed. For more information, see [Take over an unmanaged directory as administrator in Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=866761). Then continue with the steps in the section [Installation steps when you belong to an existing Microsoft 365 tenant](#installation-steps-when-you-belong-to-an-existing-microsoft-365-tenant).
+
+## Installation steps when you belong to an existing Microsoft 365 tenant
 
 1.  Go to the [Dynamics 365 Sales Professional](https://dynamics.microsoft.com/sales/professional/) marketing page.
 
@@ -58,7 +60,9 @@ AD) is available), an unmanaged tenant, or no tenant at all.
 
     ![Screen showing that the trial is ready](media/trial-ready.png "Screen showing that the trial is ready")
 
-    If you don’t select **Let’s go**, you’re redirected to the app in a few seconds, where you can see a dashboard populated with sample data.
+    If you don’t select **Let’s go**, you’re redirected to the Dynamics 365 apps page in a few seconds, from where you can launch the Sales Professional app.
+
+    ![Launch Sales Professional from the Apps page](media/apps-page-launch-sales-professional.png "Launch Sales Professional from the Apps page")
 
     On launching the app, you'll see an interactive dashboard which provides a view of the Sales pipeline, Leads, Opportunities, Activities, Sales Leaderboard based on pre-loaded sample data. To see the visual filters as illustrated below, click “Show Visual Filter” in the dashboard command ribbon.
 
