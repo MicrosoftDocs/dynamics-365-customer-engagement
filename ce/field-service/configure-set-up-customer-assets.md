@@ -47,6 +47,10 @@ In this article let's explore creating customer assets and noting them on work o
 ## Create customer assets
 
 ### Manually 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-create-manually.png)
   
 1.  From the main menu, click **Field Service** > **Customer Assets**.  
   
@@ -65,6 +69,28 @@ In this article let's explore creating customer assets and noting them on work o
 8.  In the **Sub Assets** section, click **Add Customer Asset record** to add any related assets.  
    
 ### Automatically add customer assets to a service location  
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-product-convert-to-customer-asset.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-product-used.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-work-order-complete.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-auto-new-list.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-auto-new-form.png)
   
 1.  In the product catalog, find a product that you would like the system to automatically add as a customer asset when sold to a customer.  
   
@@ -76,7 +102,15 @@ In this article let's explore creating customer assets and noting them on work o
 
 ## Build service history 
 
-- notes + timeline
+### Notes on timeline
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-note-mobile-install.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-note-web-install.png)
 
 > [!NOTE]
 > To associate customer assets with work order records, you must specify the customer asset within the work order incident or agreement incident records.  
