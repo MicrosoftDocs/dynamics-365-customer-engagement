@@ -1,19 +1,24 @@
 ---
-title: "Sentiment Monitoring | MicrosoftDocs"
+title: "Preview: Sentiment Monitoring | MicrosoftDocs"
 description: "Enable sentiment monitoring to understand customer sentiment across channels"
 keywords: ""
+ms.date: 10/25/2019
+ms.service:
+  - "dynamics-365-customerservice"
+ms.custom:
+  - ""
+ms.topic: article
+applies_to:
+  - ""
+ms.assetid: c7a7358b-1704-4096-8e69-7cad6697b705
 author: lerobbin
 ms.author: lerobbin
 manager: autumna
-applies_to: 
-ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
-ms.topic: article
-ms.assetid: c7a7358b-1704-4096-8e69-7cad6697b705
-ms.custom: 
 ---
 
-# Sentiment monitoring
+# Preview: Sentiment monitoring
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -38,12 +43,14 @@ To learn more, see [Explore Text Translator API](https://docs.microsoft.com/azur
 
 The multi-language sentiment feature (preview) caters to the following personas:
 
-1. Administrator
+- Administrator: 
+
     - As an administrator, you can configure sentiment for English only and non-English languages. 
         > [!NOTE]
         > Sentiment is enabled in Omnichannel for Customer Service by default.
 
-2. Supervisor (Team Lead)
+- Supervisor (Team Lead)
+
     - As a supervisor, you can track agents' performance and engage in real-time to continuously improve the support quality. 
     
         Example: Identifying negative sentiment events in conversations between agents and customers.
@@ -52,12 +59,16 @@ The multi-language sentiment feature (preview) caters to the following personas:
 
         Example: Monitor and join the conversation. 
 
-    - Real-time sentiment tracking enables the you (supervisor) to identify chat and SMS sessions that are going well or that require monitoring. 
+    - Real-time sentiment tracking enables supervisors to identify chat and SMS sessions that are going well or that require monitoring. 
 
-3. Agent
+- Agent: 
+
     - As an agent, you want to know customers' sentiments in real-time and see customers’ satisfaction levels instantly when communicating. 
+
     - You can be responsible for handling multiple customer engagements at any given time. 
+
     - You can engage directly with the customer to solve the customer's issue. 
+
     - Analysis of customer's sentiment helps you to understand problem severity and act. 
 
 ## Sentiment intensity indicators
