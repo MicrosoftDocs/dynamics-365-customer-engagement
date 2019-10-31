@@ -2,15 +2,18 @@
 title: "Configure Customer Service Analytics dashboard for Dynamics 365 | MicrosoftDocs"
 description: "Learn about Customer Service Analytics"
 keywords: ""
+ms.date: 10/29/2019
+ms.service:
+  - "dynamics-365-customerservice"
+ms.custom:
+  - ""
+ms.topic: article
+applies_to:
+  - ""
+ms.assetid: f7b39a03-6e47-43bd-9c9b-f33170124a78
 author: lerobbin
 ms.author: lerobbin
 manager: autumna
-applies_to: 
-ms.date: 10/29/2019
-ms.service: dynamics-365-customerservice
-ms.topic: article
-ms.assetid: f7b39a03-6e47-43bd-9c9b-f33170124a78
-ms.custom: 
 ---
 
 # Configure Customer Service Analytics dashboard
@@ -210,9 +213,9 @@ Before you customize the template app, read the information here and perform eac
 
 - [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/ "Power BI Desktop") application for editing Power BI reports. 
 
-- PBIX file for customer service template app that you want to customize.
+- Power BI report for the customer service template app that you want to customize.
 
-    [Download the Customer Service Analytics for Dynamics 365 PBIX](https://download.microsoft.com/download/f/4/a/f4ae41e2-b175-4536-bb52-4f0bdb5a2ae2/Customer%20Service%20Analytics%20for%20Dynamics%20365.pbix "Download the Customer Service Analytics for Dynamics 365 PBIX") application for editing Power BI reports. 
+    [Download the Power BI report for Customer Service Analytics for Dynamics 365](https://aka.ms/CS-Analytics-pbix 
 
 ### Prepare a PBIX for customization 
 
