@@ -147,7 +147,7 @@ After you successfully connect Dynamics 365 Omnichannel Insights app with Dynami
     > ![Turn on schedule refresh](../media/oc-config6.png "Turn on schedule refresh")
 
     > [!NOTE]
-    > We recommend you configure the refresh frequency to **Daily**.
+    > We recommend that you set the refresh frequency to **Daily**.
 
 5. Select **Apply**.
 

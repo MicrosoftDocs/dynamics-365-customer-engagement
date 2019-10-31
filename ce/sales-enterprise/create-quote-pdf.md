@@ -1,5 +1,5 @@
 ---
-title: "Create a quote PDF document (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Create PDF documents (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Create and share a professional-looking quote PDF document with your customers."
 keywords: "Quote, proposal, create PDF, email PDF, PDF"
 ms.date: 10/01/2019
@@ -15,7 +15,7 @@ manager: annbe
 caps.latest.revision: 58
 ---
 
-# Generate a PDF document from a quote record
+# Generate PDF documents
 
 Create and share a professional-looking quote by generating a PDF document from a quote record using a standard template from your organization.
 
