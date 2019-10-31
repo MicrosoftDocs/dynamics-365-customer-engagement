@@ -24,14 +24,58 @@ This topic describes the steps you need to perform after you migrate the configu
 ## Post-requisites
 
 - [Reconfigure window navigation rules](#reconfigure-window-navigation-rules)
-- Reconfigure events
-- Update associated views
+- [Reconfigure events](#reconfigure-events)
+- [Reconfigure associated view action call](#reconfigure-associated-view-action-call)
+- [Reconfigure RunXrmCommands](#reconfigure-runxrmcommands) 
 - Update Unified Service Desk Component type to Chrome (optional)
 - Update to Unified Interface theme (optional)
 
 ### Reconfigure window navigation rules
 
 The page navigation in web client and unified interface are different. In web client, if you've set up the **Route-type** as **Pop-up**, then migration tool replaces all the **Pop-up** to **Inplace**. Based on your earlier configuration, if required, you might want to update the window navigation rules.
+
+**Verify page navigation behavior:**
+
+You view an account page in a browser or in Unified Service Desk client application and want to open a related case from the sub-grid. Now, if the case is opened in a same browser, then route type is Inplace. If it opens in new browser window, then route type is Pop-up.
+
+ > [!Note]
+ > For certain URLs if you've defined window.open method, those URLs are opened in a new browser tab (pop-up route type). For these URLs, you don't need to change the behavior for these window navigation rules.
+
+### Reconfigure events
+
+The **BrowserDocumentComplete** event in web client is converted to the **PageReady** event in unified interface.
+
+The **PageLoadComplete** event maps to **DataReady** event in web client. After conversion of the **BrowserDocumentComplete** to the **PageReady** event, the **DataReady** event is fired in unified interface. In this case, your page might not be ready for DOM interactions, so if you have any Runscript action calls on the **DataReady** event, we recommend moving the Runscript action calls to the **PageReady** event.
+
+### Reconfigure associated view action call
+
+The **AssociatedView** action call is used to open entity view. In web client, to open associated view of an entity, you might've defined the navigate action call with the URL for the corresponding associated view.
+
+The parameters for **AssociatedView** action call in the [Unified Interface Page](unified-interface-page-hosted-control?#associatedview) is different from [CRM Page](crm-page-hosted-control?#associatedview) hosted control.
+
+You need to update parameters of the **AssociatedView** action call in the Unified Interface Page hosted control. To learn more, see [Unified Interface Page](unified-interface-page-hosted-control?#associatedview).
+
+**For example:**
+
+- Action call to view associated cases for an account. The data parameters will be:
+
+  ```
+  ent=account
+  id=[[account.id]]
+  navitemid=navService
+  ```
+
+- Action call to show associated contacts for an account. The data parameters will be:
+
+  ```
+  ent=account
+  id=[[account.id]]
+  navitemid=navContacts
+  ```
+
+### Reconfigure RunXrmCommands
+
+
 
 ## Test the configurations on the target Unified Interface app.
 
