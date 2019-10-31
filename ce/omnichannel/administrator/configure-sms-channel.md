@@ -2,7 +2,7 @@
 title: "Configure an SMS channel | MicrosoftDocs"
 description: "Instructions for configuring an SMS channel in Omnichannel for Customer Service."
 keywords: ""
-ms.date: 10/25/2019
+ms.date: 10/30/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -38,9 +38,7 @@ To add SMS support for your organization,
 
 ## Enable SMS channel in your Dynamics 365 organization
 
-SMS channel is in preview. You can enable SMS channel after you have signed up for the preview through the Insider Portal. For more information on steps to sign up for preview, see [Preview features in Omnichannel for Customer Service](../preview-features.md).
-
-Once you have signed up for preview, you can enable SMS channel by going to the Dynamics 365 Admin Center. For steps on enabling SMS in your organization as a part of Provisioning Omnichannel for Customer Service, see [Provision Omnichannel for Customer Service ](omnichannel-provision-license.md).
+You can enable SMS channel from the Dynamics 365 Administration Center. For steps on enabling SMS in your organization as a part of provisioning Omnichannel for Customer Service, see [Provision Omnichannel for Customer Service ](omnichannel-provision-license.md).
 
 > [!NOTE]
 > SMS channel is only available if you have an active subscription of Dynamics 365 Customer Service Chat.
