@@ -34,7 +34,7 @@ Enable sentiment analysis for supervisors to view the real-time sentiment of con
     > [!div class=mx-imgBorder]
     > ![Enable sentiment analysis](../media/supervisor-admin-enable-sentiment-analysis.png "Enable sentiment analysis")
 
-4.  To enable multi-language sentiment: 
+4.  To enable multi-language sentiment (preview): 
 
     a. Go to the **General** tab
 

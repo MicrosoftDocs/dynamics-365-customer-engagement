@@ -52,7 +52,7 @@ The sentiment icons displayed on the communication panel are as follows.
 > [!div class="nextstepaction"]
 > [Next topic: Manage presence status](oc-manage-presence-status.md)
 
-##  Multi-language sentiment 
+##  Preview: Multi-language sentiment 
 
 Multi-language sentiment displays sentiment scores on some non-English conversations.
 
@@ -64,7 +64,7 @@ To learn more, see [multi-language sentiment](../../administrator/enable-sentime
 ## See also
 
 - [Introduction to the agent interface](oc-introduction-agent-interface.md)
-- [Enable Sentiment Analysis](https://docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/enable-sentiment-analysis)
+- [Enable Sentiment Analysis](../../administrator/enable-sentiment-analysis.md)
 - [Manage sessions](oc-manage-sessions.md)
 - [Manage applications](oc-manage-applications.md)
 - [View customer summary and know everything about customers](oc-customer-summary.md)

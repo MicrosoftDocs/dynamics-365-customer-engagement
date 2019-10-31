@@ -36,7 +36,7 @@ To learn more, see [Explore Text Translator API](https://docs.microsoft.com/en-u
 
 ## Personas
 
-The multi-language sentiment feature caters to the following personas:
+The multi-language sentiment feature (preview) caters to the following personas:
 
 1. Administrator
     - As an administrator, you can configure sentiment for English only and non-English languages. 
@@ -104,8 +104,8 @@ This feature is intended to help customer service managers or supervisors enhanc
 
 ## See also
 
-[Enable Sentiment Analysis](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/omnichannel/administrator/enable-sentiment-analysis)
+[Enable Sentiment Analysis](../administrator/enable-sentiment-analysis.md)
 
-[Monitor real-time customer sentiment](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-monitor-real-time-customer-sentiment-sessions)
+[Monitor real-time customer sentiment](../agent/agent-oc/oc-monitor-real-time-customer-sentiment-sessions.md)
 
-[Monitor conversations](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/omnichannel/supervisor/monitor-conversations)
+[Monitor conversations](monitor-conversations.md)
