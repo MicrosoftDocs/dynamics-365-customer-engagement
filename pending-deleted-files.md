@@ -1,4 +1,4 @@
-# Pending deleted files tracking
+# Pending deleted files tracking 
 
 This file tracks files marked for deletion. Localization requirements mean that topic file deletions need to be coordinated. See [Deleting or renaming topic files](https://review.docs.microsoft.com/en-us/bacx/delete-rename?branch=master) for more information.
 
