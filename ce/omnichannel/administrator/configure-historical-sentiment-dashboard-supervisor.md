@@ -43,7 +43,7 @@ As an administrator, you must configure the Omnichannel Insights to display chan
 
 [Step 5: Publish application within your organization](#step-5-publish-application-within-your-organization)
 
-[Step 6: Enable Power BI reporting in Dynamics 365 for Customer Engagement](#step-6-enable-power-bi-reporting-in-dynamics-365-for-customer-engagement)
+[Step 6: Enable Power BI reporting in the Common Data Service platform](#step-6-enable-power-bi-reporting-in-the-common-data-service-platform)
 
 [Step 7: Add Power BI Dashboards to Omnichannel for Customer Service](#step-7-add-power-bi-dashboards-to-omnichannel-for-customer-service)
 
@@ -177,11 +177,11 @@ You must share the configured application with your entire organization for supe
 > [!NOTE]
 > Verify your administrator has allowed users in your organization to have read/write data permissions in Omnichannel Engagement Hub. To learn more, see  [Provide data access consent](omnichannel-provision-license.md#provide-data-access-consent).
 
-### Step 6: Enable Power BI reporting in Dynamics 365 for Customer Engagement
+### Step 6: Enable Power BI reporting in the Common Data Service platform
 
-Administrators must enable Power BI reporting in the Dynamics 365 for Customer Engagement organization for supervisors to view dashboards in the Omnichannel Administration app.
+Administrators must enable Power BI reporting in the Common Data Service platform environment for supervisors to view dashboards in the Omnichannel Administration app.
 
-1.  Sign in to Dynamics 365 Customer Service and go to **Settings**.
+1.  Sign in to the Common Data Service platform and go to **Settings**.
  
 2.	Under **System**, select **Administration**.
 
@@ -198,17 +198,11 @@ Administrators must enable Power BI reporting in the Dynamics 365 for Customer E
 
 ### Step 7: Add Power BI Dashboards to Omnichannel for Customer Service
 
-Each supervisor must configure their Dynamics 365 Customer Service environment to integrate the Omnichannel Insights and Omnichannel Sentiment Analysis ashboards.
+Each supervisor must configure their Dynamics 365 Customer Service environment to integrate the Omnichannel Insights and Omnichannel Sentiment Analysis dashboards.
 
-1. Sign in to **Dynamics 365 Customer Service** and open the **Omnichannel Administration** app.
+1. Sign in to the Omnichannel Administration app.
 
-    > [!div class=mx-imgBorder]
-    > ![Select Power BI dashboard option](../media/oc-config11.png "Select Power BI dashboard option")
-
-2. Open **Overview Dashboard**.
-
-    > [!div class=mx-imgBorder]
-    > ![Select Power BI dashboard option](../media/oc-config12.png "Select Power BI dashboard option")
+2. Select **Overview Dashboard** under **Supervisor Experience**.
 
 3.	Select **New**, then **Power BI Dashboard**.
 
