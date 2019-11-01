@@ -173,4 +173,11 @@
   - name: "Common issues"
     href: known-issues.md
   - name: "FAQs"
-    href: faq-channel-integration-framework.md    
+    href: faq-channel-integration-framework.md
+
+- name: Dynamics 365 Customer Service
+  href: customer-service/help-hub.md
+- name: Omnichannel for Customer Service Guide
+  href: omnichannel/omnichannel-customer-service-guide.md
+- name: Unified Service Desk Guide
+  href: unified-service-desk/unified-service-desk.md

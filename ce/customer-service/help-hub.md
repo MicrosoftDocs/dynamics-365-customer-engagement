@@ -13,7 +13,7 @@ ms.author: anjgup
 manager: shujoshi
 ---
 
-# Customer Service Hub Help & Training
+# Customer Service Hub Guide
 
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/6e415bd9-49b7-4416-b744-70278d9fa077" frameborder="0" allowfullscreen=""></iframe></div>

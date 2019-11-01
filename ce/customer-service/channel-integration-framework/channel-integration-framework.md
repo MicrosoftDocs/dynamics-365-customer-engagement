@@ -101,5 +101,13 @@ manager: shujoshi
 <li><a href="faq-channel-integration-framework.md" data-raw-source="[Frequently asked questions](faq-channel-integration-framework.md)">Frequently asked questions</a></li>
 
 </td>
+<td>
+<h2>Related apps & framework</h2>
+<ul>
+<li><a href="../customer-service/help-hub.md" data-raw-source="[Customer Service Hub Help](../help-hub.md)">Customer Service Hub Help</a></li>
+<li><a href="../omnichannel/omnichannel-customer-service-guide.md" data-raw-source="[Omnichannel for Customer Service Guide](../../omnichannel/omnichannel-customer-service-guide.md)">Omnichannel for Customer Service Guide</a></li>
+<li><a href="../unified-service-desk/unified-service-desk.md" data-raw-source="[Unified Service Desk Guide](../../unified-service-desk/unified-service-desk.md)">Unified Service Desk Guide</a></li>
+</ul>
+</td>
 </tr>
 </table>
