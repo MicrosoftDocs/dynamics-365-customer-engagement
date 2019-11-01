@@ -33,12 +33,14 @@ Once you have created your bot and connected it to an Omnichannel for Customer S
 * Role - In order to successfully complete these steps, the signed-in user must be a Omnichannel Administrator in Omnichannel. [Learn more about managing and assigning user roles in Omnichannel](https://docs.microsoft.com/dynamics365/customer-engagement/omnichannel/administrator/add-users-assign-roles).
 * Azure Application ID - You will need an application registered in Azure prior to connecting to Omnichannel. [Learn more](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application)
 * Bot - You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. For more information, see [Omnichannel setup & configure](https://github.com/MicrosoftDocs/dynamics-365-ai-pr/blob/pawant-ms-handoff/ai-docs/customer-service-virtual-agent/how-to-setup-omnichannel-handoff.md).
+<!--note from editor: This link is broken. It looks like an internal link per the "pawant-ms-handoff" section. Please replace with valid external or referential link. -->
 
 ## Configure your Power Virtual Agents bot in Omnichannel
 Once the Power Virtual Agents bot is created and configured to work with Omnichannel, you can configure it to hand off conversations to queues in Omnichannel. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup. You can change them in the **Work Streams** section of Omnichannel.
 
 **Set up your Power Virtual Agents bot**
 1. Connect the virtual agents to Omnichannel and go to the Omnichannel configuration. For more information, see [Omnichannel setup & configure](https://github.com/MicrosoftDocs/dynamics-365-ai-pr/blob/pawant-ms-handoff/ai-docs/customer-service-virtual-agent/how-to-setup-omnichannel-handoff.md).
+<!--note from editor: This link is broken. It looks like an internal link per the "pawant-ms-handoff" section. Please replace with valid external or referential link. -->
 
     ![Virtual Agent bot settings](../media/virtual-agent-bot-settings.png)
     
@@ -99,7 +101,7 @@ Bots are developed to receive customer queries first, gain information of the qu
 Ensure to map the routing rules to the correct queues so that the queries are routed appropriately. For information about routing rules, see [Create and manage routing rules](routing-rules.md).
 
 [!INCLUDE [handoff-known-limitations](/power-virtual-agents/includes/handoff-known-limitations.md?branch=iawilt-ho-updates)]
-<!--note from editor: That URL is not going to the media folder. It's going to Iaan's branch, which will break when this is published. Please fix. -->
+<!--note from editor: That URL is not going to the media folder. It's going to Iaan's branch, which is breaking the build. Please fix. -->
 
 
 ## Privacy notice
