@@ -79,9 +79,10 @@ search.app:
 <li><a href="use-debugger-control-unified-service-desk.md" data-raw-source="[Use the Debugger control](use-debugger-control-unified-service-desk.md)">Use the Debugger control</a></li>
 <li><a href="debug-custom-code-unified-service-desk.md" data-raw-source="[Debug your custom code](debug-custom-code-unified-service-desk.md)">Debug your custom code</a></li>
 </td>
-<td>
 </tr>
+
 <tr>
+<td>
 <h2>Related apps & framework</h2>
 <ul>
 <li><a href="https://docs.microsoft.com/dynamics365/customer-service/help-hub" data-raw-source="[Customer Service Hub Help](https://docs.microsoft.com/dynamics365/customer-service/help-hub)">Customer Service Hub Help</a></li>
