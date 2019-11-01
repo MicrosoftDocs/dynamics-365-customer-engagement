@@ -80,11 +80,13 @@ search.app:
 <li><a href="debug-custom-code-unified-service-desk.md" data-raw-source="[Debug your custom code](debug-custom-code-unified-service-desk.md)">Debug your custom code</a></li>
 </td>
 <td>
+</tr>
+<tr>
 <h2>Related apps & framework</h2>
 <ul>
-<li><a href="../customer-service/help-hub.md" data-raw-source="[Customer Service Hub Help](../customer-service/help-hub.md)">Customer Service Hub Help</a></li>
-<li><a href="../omnichannel/omnichannel-customer-service-guide.md" data-raw-source="[Omnichannel for Customer Service Guide](../omnichannel/omnichannel-customer-service-guide.md)">Omnichannel for Customer Service Guide</a></li>
-<li><a href="channel-integration-framework/channel-integration-framework.md" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](../customer-service/channel-integration-framework/channel-integration-framework.md)">Dynamics 365 Channel Integration Framework Guide</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/customer-service/help-hub" data-raw-source="[Customer Service Hub Help](https://docs.microsoft.com/dynamics365/customer-service/help-hub)">Customer Service Hub Help</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide)">Omnichannel for Customer Service Guide</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)">Dynamics 365 Channel Integration Framework Guide</a></li>
 </ul>
 </td>
 </tr>

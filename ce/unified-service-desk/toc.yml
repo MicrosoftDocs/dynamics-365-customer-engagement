@@ -581,8 +581,8 @@
   href: release-notes.md
 
 - name: Dynamics 365 Customer Service
-  href: customer-service/help-hub.md
+  href: https://docs.microsoft.com/dynamics365/customer-service/help-hub
 - name: Omnichannel for Customer Service Guide
-  href: omnichannel/omnichannel-customer-service-guide.md
+  href: https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide
 - name: Dynamics 365 Channel Integration Framework Guide
-  href: customer-service/channel-integration-framework/channel-integration-framework.md
+  href: https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework
