@@ -112,6 +112,6 @@
 ### [Create knowledge article using template](create-knowledge-article-using-template.md)
 ### [Extend transformer logic on templates](extend-tranformer-logic-template.md)
 
-## [Omnichannel for Customer Service Guide](../omnichannel/omnichannel-customer-service-guide.md)
-## [Unified Service Desk Guide](../unified-service-desk/unified-service-desk.md)
-## [Dynamics 365 Channel Integration Framework Guide](channel-integration-framework/channel-integration-framework.md)
+## [Omnichannel for Customer Service Guide](https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide)
+## [Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)
+## [Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)
