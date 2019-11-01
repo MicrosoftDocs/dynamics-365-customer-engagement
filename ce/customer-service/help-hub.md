@@ -1,21 +1,17 @@
 ---
-title: Quick help for Customer Service Hub for Dynamics 365 Customer Service | MicrosoftDocs
-description: Your starting point for help of Customer Service Hub for Dynamics 365 Customer Service
+title: "Quick help for Customer Service Hub for Dynamics 365 Customer Service | MicrosoftDocs"
+description: "Your starting point for help of Customer Service Hub for Dynamics 365 Customer Service"
+keywords: ""
+ms.date: 11/20/2018
+ms.service:
+  - "dynamics-365-customerservice"
+ms.custom:
+  - "dyn365-customerservice"
+ms.topic: get-started-article
+ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
-ms.date: 11/20/2018
-ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ---
 
 # Customer Service Hub Help & Training
@@ -127,7 +123,14 @@ search.app:
 </ul>
 </td>
 
-<td>&#160;</td>
+<td>
+<h2>Related apps & framework</h2>
+<ul>
+<li><a href="../omnichannel/omnichannel-customer-service-guide.md" data-raw-source="[Omnichannel for Customer Service Guide](../omnichannel/omnichannel-customer-service-guide.md)">Omnichannel for Customer Service Guide</a></li>
+<li><a href="../unified-service-desk/unified-service-desk.md" data-raw-source="[Unified Service Desk Guide](../unified-service-desk/unified-service-desk.md)">Unified Service Desk Guide</a></li>
+<li><a href="channel-integration-framework/channel-integration-framework.md" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](channel-integration-framework/channel-integration-framework.md)">Dynamics 365 Channel Integration Framework Guide</a></li>
+</ul>
+</td>
 
 </tr>
 
