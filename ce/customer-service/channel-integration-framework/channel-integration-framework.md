@@ -104,9 +104,9 @@ manager: shujoshi
 <td>
 <h2>Related apps & framework</h2>
 <ul>
-<li><a href="../customer-service/help-hub.md" data-raw-source="[Customer Service Hub Help](../help-hub.md)">Customer Service Hub Help</a></li>
-<li><a href="../omnichannel/omnichannel-customer-service-guide.md" data-raw-source="[Omnichannel for Customer Service Guide](../../omnichannel/omnichannel-customer-service-guide.md)">Omnichannel for Customer Service Guide</a></li>
-<li><a href="../unified-service-desk/unified-service-desk.md" data-raw-source="[Unified Service Desk Guide](../../unified-service-desk/unified-service-desk.md)">Unified Service Desk Guide</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/customer-service/help-hub" data-raw-source="[Customer Service Hub Help](https://docs.microsoft.com/dynamics365/customer-service/help-hub)">Customer Service Hub Help</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide)">Omnichannel for Customer Service Guide</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk" data-raw-source="[Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)">Unified Service Desk Guide</a></li>
 </ul>
 </td>
 </tr>
