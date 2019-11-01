@@ -37,7 +37,7 @@ You can sign up for, install, and use a trial version of Dynamics 365 Marketing 
 > Your system is constrained by certain limits and quotas that apply to the number of contacts you can market to, monthly email messages you can send, Litmus previews you can view, and more. Please familiarize yourself with the terms and limits of the product before you begin to use it. The limits are different based on whether you are running a trial, preview, or subscribed version of the product.
 > 
 > - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
-> - For trial and previews, see [Dynamics 365 Marketing limits for trials and previews](trial-preview-limits.md).
+> - For trials, see [Dynamics 365 Marketing limits for trials](trial-preview-limits.md).
 > 
 > You can keep an eye on your usage levels by going to  **Settings**  >  **Advanced settings**  >  **Other settings**  >  **Quota limits**  in Dynamics 365 Marketing. More information: [Quota limits](quota-management.md)
 > 

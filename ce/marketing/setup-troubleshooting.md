@@ -57,7 +57,7 @@ Dynamics 365 Marketing is licensed per instance, with each instance priced accor
 - **How can I learn more about Dynamics 365 Marketing licensing?**
   - For an overview, see [Purchase and set up Dynamics 365 Marketing](purchase-setup.md) 
   - For complete terms that apply to subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
-  - For trial and previews, see [Dynamics 365 Marketing limits for trials and previews](trial-preview-limits.md).
+  - For trials, see [Dynamics 365 Marketing limits for trials](trial-preview-limits.md).
   - Check the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
 <a name="incompatible-platform"></a>
@@ -141,7 +141,7 @@ Start by adding yourself as a portal user, just as your contacts would do when r
 
 1. On the event website, select the **Sign In** button at the top of the page.
 
-1. On the sign-in page, go the **Register** tab and fill out the fields to create a new account. Note that you must use an email address that doesn&#39;t already belong to a contact in your database. Be sure to make a note of your user name and password.
+1. On the sign-in page, go to the **Register** tab and fill out the fields to create a new account. Note that you must use an email address that doesn&#39;t already belong to a contact in your database. Be sure to make a note of your user name and password.
 
 1. The **Profile** page opens. Enter your first and last names in the fields provided and select **Update**.
 

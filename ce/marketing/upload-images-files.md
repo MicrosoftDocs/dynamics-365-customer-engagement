@@ -24,7 +24,7 @@ search.app:
 
 # Upload and use images and files in online content
 
-Images are an important part of most marketing-page and marketing-email designs. To use images in your designs, you must upload them to Dynamics 365 Marketing, which also hosts the images and delivers them when contacts open an email or marketing page.
+Images are an important part of most marketing-page and marketing-email designs. The images you use must be available publicly on the internet so your emails and pages can access and display them. Though you could host your images anywhere, one convenient place to keep them is in the Dynamics 365 Marketing image library, which stores the images, hosts them publicly, and provides an image browser that helps you find and place them while working in Dynamics 365 Marketing.
 
 > [!NOTE]
 > For security purposes, this feature only allows you to upload image files. The following image formats are supported:

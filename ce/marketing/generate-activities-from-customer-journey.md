@@ -34,7 +34,7 @@ When you add an **Activity** tile to a customer journey, you'll choose an activi
 
 For this exercise, you'll set up a template to create task activities, and then set up a simple customer journey that generates a task associated with each member of a selected segment.
 
-1. Go to **Marketing** > **Templates** > **Task Activity Marketing Templates**.
+1. Go to **Marketing** > **Marketing templates** > **Task templates**.
 
 2. On the command bar, select **+New**. The **New Task Activity Marketing Template** page opens.  
     ![Activity template settings](media/journey-activity-template.png "Activity template settings")  

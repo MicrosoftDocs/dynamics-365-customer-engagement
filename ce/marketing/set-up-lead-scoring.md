@@ -33,7 +33,7 @@ A big part of marketing has to do with finding new leads, qualifying them, and t
 
 To create a lead scoring model:
 
-1. Go to **Marketing** > **Lead management** > **Lead scoring models**. This takes you to a list of existing models. On the command bar, select **New**.
+1. Go to **Marketing** > **Lead management** > **Scoring models**. This takes you to a list of existing models. On the command bar, select **New**.
 
 2. The **New Lead Scoring Model** page opens, with the **Design** tab shown. This designer is similar to other designers in Dynamics 365 Marketing. You use it to build scoring models by creating a collection of condition/action tile pairs, where the **Condition** tile establishes a condition (such as **email opened**) and the **Action** tile establishes how the score should change when the condition is met (such as, **add 50 points**).  
     ![Add a condition tile to the model](media/scoring-add-condition.png "Add a condition tile to the model")

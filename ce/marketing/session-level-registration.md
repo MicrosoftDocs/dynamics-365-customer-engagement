@@ -38,6 +38,9 @@ Session-level registration enables event organizers to give attendees the abilit
 
 To enable session-based registration, start by [setting up the event](set-up-event.md) as usual, including basic settings and session schedule, but then go to the **Agenda** tab for the event and set **Allow registrants to create their own agenda** to **Yes**.
 
+> [!NOTE]
+> As mentioned in the introduction to this topic, session-based registration isn't supported for events that have passes defined. If you don't see the **Allow registrants to create their own agenda** setting, then it might be because you have one or more passes defined (you can see these on the **Registration and attendance** tab). If you define a pass after enabling session-based registration, then session-based registration will be disabled automatically.
+
 ## Set the maximum capacity for each session
 
 With session-based registration, the system tracks registrations for each session rather than for the event as a whole. When session-based registration is enabled, the session capacity is a required field and is also requested by the quick-create form for sessions. However, if you enable session-based registration after creating the session, you may need to go back and set the capacity for each session.
