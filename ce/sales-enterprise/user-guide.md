@@ -42,6 +42,7 @@ caps.latest.revision: 5
 
 <li><a href="../basics/accounts-contacts.md" data-raw-source="[Work with accounts and contacts](../basics/accounts-contacts.md)">Work with accounts and contacts</a></li>
 <li><a href="../basics/deactivate-activate-account-contact.md" data-raw-source="[Deactivate or activate an account or contact](../basics/deactivate-activate-account-contact.md)">Deactivate or activate an account or contact</a></li>
+<li><a href="live-org-chart.md" data-raw-source="[Organize contacts in live org charts for accounts](live-org-chart.md)">Organize contacts in live org charts for accounts</a></li>
 
 </td></tr>
 
@@ -49,20 +50,20 @@ caps.latest.revision: 5
 <h2>Increase sales</h2>
 
 <li><a href="nurture-sales-from-lead-order-sales.md" data-raw-source="[Nurture sales from lead to cash](nurture-sales-from-lead-order-sales.md)">Nurture sales from lead to cash</a></li>
-<li><a href="create-edit-lead-sales.md" data-raw-source="[Create or edit a lead](create-edit-lead-sales.md)">Create or edit a lead</a></li>
-<li><a href="qualify-lead-convert-opportunity-sales.md" data-raw-source="[Convert a lead to an opportunity](qualify-lead-convert-opportunity-sales.md)">Convert a lead to an opportunity</a></li>
-<li><a href="../sales-enterprise/re-open-lead-sales.md" data-raw-source="[Reopen a lead](../sales-enterprise/re-open-lead-sales.md)">Reopen a lead</a></li>
-<li><a href="create-edit-opportunity-sales.md" data-raw-source="[Create or edit an opportunity](create-edit-opportunity-sales.md)">Create or edit an opportunity</a></li>
-<li><a href="../sales-enterprise/close-opportunity-won-lost-sales.md" data-raw-source="[Close an opportunity as won or lost](../sales-enterprise/close-opportunity-won-lost-sales.md)">Close an opportunity as won or lost</a></li>
+<li><a href="create-edit-lead-sales.md" data-raw-source="[Create or edit leads](create-edit-lead-sales.md)">Create or edit leads</a></li>
+<li><a href="qualify-lead-convert-opportunity-sales.md" data-raw-source="[Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)">Qualify or convert leads</a></li>
+<li><a href="../sales-enterprise/re-open-lead-sales.md" data-raw-source="[Reopen leads](../sales-enterprise/re-open-lead-sales.md)">Reopen leads</a></li>
+<li><a href="create-edit-opportunity-sales.md" data-raw-source="[Create or edit opportunities](create-edit-opportunity-sales.md)">Create or edit opportunities</a></li>
+<li><a href="../sales-enterprise/close-opportunity-won-lost-sales.md" data-raw-source="[Close opportunities as won or lost](../sales-enterprise/close-opportunity-won-lost-sales.md)">Close opportunities as won or lost</a></li>
 
 
 </td><td>
 
 <h2>Create and work with collateral</h2>
 
-<li><a href="create-edit-quote-sales.md" data-raw-source="[Create or edit a quote](create-edit-quote-sales.md)">Create or edit a quote</a></li>
-<li><a href="create-edit-order-sales.md" data-raw-source="[Create or edit an order ](create-edit-order-sales.md)">Create or edit an order </a></li>
-<li><a href="create-edit-invoice-sales.md" data-raw-source="[Create or edit an invoice](create-edit-invoice-sales.md)">Create or edit an invoice</a></li>
+<li><a href="create-edit-quote-sales.md" data-raw-source="[Create or edit quotes](create-edit-quote-sales.md)">Create or edit quotes</a></li>
+<li><a href="create-edit-order-sales.md" data-raw-source="[Create or edit orders ](create-edit-order-sales.md)">Create or edit orders </a></li>
+<li><a href="create-edit-invoice-sales.md" data-raw-source="[Create or edit invoices](create-edit-invoice-sales.md)">Create or edit invoices</a></li>
 
 
 </td></tr>

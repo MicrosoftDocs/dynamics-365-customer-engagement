@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing
 title: "Enable and use Activity Logging  | MicrosoftDocs"
 ms.custom: 
 description: Learn how to enable auditing to be used for reports in the Office 365 Security Compliance Center.

@@ -3,7 +3,7 @@ title: "Schedule anything with Universal Resource Scheduling (Dynamics 365) | Mi
 ms.custom: 
   - dyn365-projectservice
   - dyn365-fieldservice
-ms.date: 09/30/2017
+ms.date: 10/09/2019
 searchScope: 
   - Customer Service
   - Field Service
@@ -33,14 +33,14 @@ search.app:
 
 Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can enable scheduling for any entity including custom entities.   
   
- For example, you can enable scheduling for the opportunity form and schedule marketing visits for your opportunities. You can also do this for the case form and schedule time to work on cases.  
-  
- For organizations that use:
+For organizations that use:
 
-- [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)], you’ll see a new integrated scheduling experience. More information: [Dynamics 365 Field Service Help](../field-service/overview.md) 
-  
-- [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)], you’ll have a new improved scheduling experience. More information: [Dynamics 365 Project Service Automation Help](../project-service/overview.md) 
-  
+- Dynamics 365 Field Service, you can use scheduling tools to assign work orders to the closest field technicians in the area. More information: [Dynamics 365 Field Service Help](../field-service/universal-resource-scheduling-for-field-service.md) 
+
+- Dynamics 365 Customer Service, you can use scheduling tools to book cases to customer service reps in the right department and time zone. More information: [Dynamics 365 Customer Service - Service Scheduling](../customer-service/basics-service-service-scheduling.md)
+
+- Dynamics 365 Project Service Automation, you can use scheduling tools to staff projects with consultants who have availability and the appropriate skillset. More information: [Dynamics 365 Project Service Automation Help](../project-service/overview.md) 
+    
 ## Prerequisites  
  Before you can use Universal Resource Scheduling, make sure you have:  
   
