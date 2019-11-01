@@ -30,7 +30,7 @@ You must perform the following steps to configure the historical customer servic
 
 [Step 5: Publish application within your organization](#step-5-publish-application-within-your-organization)
 
-[Step 6: Enable Power BI reporting in Dynamics 365 for Customer Engagement](#step-6-enable-power-bi-reporting-in-dynamics-365-for-customer-engagement) 
+[Step 6: Enable Power BI reporting in the Common Data Service platform](#step-6-enable-power-bi-reporting-in-the-common-data-service-platform) 
 
 [Step 7: Add Power BI Dashboard to Customer Service Hub](#step-7-add-power-bi-dashboards-to-customer-service-hub) 
 
@@ -132,10 +132,10 @@ You must share the configured application with your entire organization for supe
 > [!NOTE]
 > Verify your administrator has allowed users in your organization to have read/write data permissions in Omnichannel Engagement Hub. T To learn more, see [Provide data access consent](https://review.docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/omnichannel-provision-license#provide-data-access-consent)  
 
-### Step 6: Enable Power BI reporting in Dynamics 365 for Customer Engagement 
-As an administrator, you must enable Power BI reporting in the Dynamics 365 for Customer Engagement organization for supervisors to view the dashboards in the Omnichannel Administration app. 
+### Step 6: Enable Power BI reporting in the Common Data Service platform 
+As an administrator, you must enable Power BI reporting in the Common Data Service platform environment for supervisors to view the dashboards in the Omnichannel Administration app.
 
-1. Sign in to Dynamics 365 Customer Service and go to **Settings**.
+1. Sign in to the Common Data Service platform and go to **Settings**.
 
 2. Select **Administration** > **System Settings**.
 
@@ -151,14 +151,8 @@ As an administrator, you must enable Power BI reporting in the Dynamics 365 for 
 Each supervisor must configure their Dynamics 365 for Customer Engagement environment to integrate the Customer Service Analytics dashboard. 
 
 1. Sign in to Dynamics 365 Customer Service and open the **Customer Service Hub** app.
-     
-    > [!div class=mx-imgBorder]
-    > ![Customer Service app install](media/cs-analytics-cs-hub.png "Customer Service app install")
 
-2. Open **Dashboards**.
-     
-    > [!div class=mx-imgBorder]
-    > ![Customer Service app install](media/cs-analytics-supervisor-dashboard.png "Customer Service app install")
+2. Select **Dashboards** under **My Work**.
 
 3. Select **New** > **Power BI Dashboard**.
 
