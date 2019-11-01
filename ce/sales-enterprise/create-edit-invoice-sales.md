@@ -1,5 +1,5 @@
 ---
-title: "Create or edit an invoice (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Create or edit invoices (Dynamics 365 Sales) | MicrosoftDocs"
 description: "An invoice is an order that has been billed to the customer."
 keywords: "Invoice, bill, sale"
 ms.date: 10/01/2019
@@ -15,7 +15,7 @@ manager: annbe
 caps.latest.revision: 34
 ---
 
-# Create or edit an invoice (Sales and Sales Hub)
+# Create or edit invoices (Sales and Sales Hub)
 
 When a customer places an order, you can create an invoice to bill them for the upcoming sale.  
   
