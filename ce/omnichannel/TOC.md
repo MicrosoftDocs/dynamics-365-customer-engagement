@@ -299,6 +299,6 @@
 ### [FAQs](faqs.md)
 
 
-# [Dynamics 365 Customer Service](../customer-service/help-hub.md)
-# [Unified Service Desk Guide](../unified-service-desk/unified-service-desk.md)
-# [Dynamics 365 Channel Integration Framework Guide](../customer-service/channel-integration-framework/channel-integration-framework.md)
+# [Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/customer-service/help-hub)
+# [Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)
+# [Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)

@@ -101,9 +101,9 @@ ms.custom:
 <td>
 <h2>Related apps & framework</h2>
 <ul>
-<li><a href="../customer-service/help-hub.md" data-raw-source="[Customer Service Hub Help](../customer-service/help-hub.md)">Customer Service Hub Help</a></li>
-<li><a href="../unified-service-desk/unified-service-desk.md" data-raw-source="[Unified Service Desk Guide](../unified-service-desk/unified-service-desk.md)">Unified Service Desk Guide</a></li>
-<li><a href="channel-integration-framework/channel-integration-framework.md" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](../customer-service/channel-integration-framework/channel-integration-framework.md)">Dynamics 365 Channel Integration Framework Guide</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/customer-service/help-hub" data-raw-source="[Customer Service Hub Help](https://docs.microsoft.com/dynamics365/customer-service/help-hub)">Customer Service Hub Help</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk" data-raw-source="[Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)">Unified Service Desk Guide</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)">Dynamics 365 Channel Integration Framework Guide</a></li>
 </ul>
 </td>
 </tr>
