@@ -210,7 +210,7 @@ For more information about the carious types of email results and KPIs listed on
 
 ## Lead scoring model insights
 
-To view lead scoring model insights, go to **Marketing** > **Lead management** > **Lead scoring models**, select a model, and then open its **Insights** tab. Insights are only available for models that are (or have been) live.
+To view lead scoring model insights, go to **Marketing** > **Lead management** > **Scoring models**, select a model, and then open its **Insights** tab. Insights are only available for models that are (or have been) live.
 
 Here you can find a timeline showing the number of leads processed by the model over time.
 

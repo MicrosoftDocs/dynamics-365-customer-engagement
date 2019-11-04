@@ -44,7 +44,7 @@ Each content-settings record that you use must be available to the external mark
 
 To view, edit, or create a content-settings record:
 
-1. Go to **Marketing** > **Templates**  >  **Content Settings**.
+1. Go to **Marketing** > **Marketing templates**  >  **Content Settings**.
 
 1. A standard list page opens where you can view, sort, search, and filter the list to find a specific record and use buttons on the command bar to add or remove a record. Select a record to open it for editing or select **New** on the command bar to create a new one.
 

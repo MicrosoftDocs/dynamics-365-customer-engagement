@@ -1,8 +1,7 @@
 ---
 title: "Maximize email deliverability (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to design and send marketing email messages that avoid spam filters and get opened by customers in Dynamics 365 Marketing"
-keywords: administration; spam; deliverability; SPF; best practice
-ms.date: 03/08/2019
+ms.date: 10/31/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -44,11 +43,9 @@ So what can you do to maximize your deliverability and remain within the law, an
 
 Both spam filters and sender-reputation systems analyze the content of the messages you are trying to send. They look for signs that you are working together with your recipients and are identifying yourself honestly. Common requirements here are the presence of unsubscribe links and your organization's physical street address in the message body. Messages in HTML format should also include a plain-text version that has the same information. Dynamics 365 Marketing provides features to make it easy to include these essential items in your messages, and helps prevent you from leaving them out by mistake.
 
-### Authenticate your messages, sending IP, and domain
+### Authenticate your sending domain
 
-Several standards are in place to help ensure that sending IP addresses really do represent the organizations they claim to, and that messages coming from those IPs are authentic and untampered with. These include _Sender Policy Framework_ ([SPF](http://www.openspf.org/FAQ)) and _DomainKeys Identified Mail_ ([DKIM](http://dkim.org/info/dkim-faq.html)). 
-
-In a standard setup, Microsoft implements SPF for you and does what it can to maintain a good sender reputation for all Microsoft sender IPs. In addition, Dynamics 365 Marketing provides a feature that enables you to set up DKIM to link your Dynamics 365 Marketing sending domain with your own email domain. For complete details on why this is important and how to do it, see [Set up DKIM for your sending domain](#dkim).
+Dynamics 365 Marketing provides a feature that enables you to set up _DomainKeys Identified Mail_ ([DKIM](http://dkim.org/info/dkim-faq.html)) to link your Dynamics 365 Marketing sending domain with your own email domain. For complete details on why this is important and how to do it, see [Set up DKIM for your sending domain](#dkim).
 
 ### Avoid sending to invalid and inactive email addresses
 
@@ -113,7 +110,7 @@ If the problem persists for more than a few days and the customer still has not 
 
 When this occurs, we will send email notification to alert the customer that we have moved them to a higher risk sending pool and to urge them to contact Microsoft Support for assistance. It may still be possible for the customer to return to the low-risk email sending pool, but not before contacting Microsoft Support and learning how to address the issue going forward.
 
-## Using a custom, dedicated sender IP
+## Using a dedicated sender IP
 
 In a standard Dynamics 365 Marketing setup, all sender IPs are managed by Microsoft and shared among customers that have similar reputation scores. This lets us manage reputation, balance the send load, and warm up new IPs as needed. However, some organizations prefer to use one or more of their own, dedicated sender IPs, especially if they will be sending very high volumes.
 
@@ -131,8 +128,8 @@ Though there can be a few advantages to arranging for a dedicated sender IP, the
     When your new sender IP comes online, you must start by sending just a few messages at a time and then slowly ramp up over several weeks until you reach your intended send volume, which you must then continue to maintain. A sudden spike of email coming from a new IP will severely damage your send reputation and might land you on a block list right away. During the warm-up period, it is also important that you only send to valid and engaged recipients. Later, when you have established a reputation, you can begin to add less-engaged recipients.
 - **Maintain a regular and consistent send volume**  
     You must spread out your email sends to ensure that you send roughly the same volume every week or so. Don't try to send all your messages at once at the start of each month, for example.
-- **You should set up sender authentication for your domain**  
-    As mentioned previously, Microsoft sets up the [SPF](http://www.openspf.org/FAQ) and [DKIM](http://dkim.org/info/dkim-faq.html) sender-authentication standards for all of the sender IPs that we use in a standard solution, but when you use your own sender IP, you must do this yourself. You should also [use DKIM to link your sending and email domains](#dkim). These technologies help ensure that spam filters and reputation watchdogs will be able to see that each IP address sending your messages is a legitimate sender and that it matches your envelope sender domain. Doing this is likely to greatly improve your message deliverability.
+- **You should still set up DKIM**  
+    The DKIM sender-authentication standard is essential for optimizing your marketing email deliverability. It's just as important when you're using a dedicated IP as when using a shared IP, and you set it up in exactly the same way. For complete details on why this is important and how to do it, see [Set up DKIM for your sending domain](#dkim).
 - **You concentrate risk on yourself and can pay a high price for any mistakes**  
     When you are the only one using your sending IP, any mistakes you make will affect your sender reputation directly, without being diluted by the large volume of compliant messages being sent by a large pool of other users.
 
