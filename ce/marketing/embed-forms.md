@@ -137,7 +137,7 @@ To set up a form capture:
 
 1. Use your CMS system and other coding tools to design a page with an input form that has the required fields and features.
 
-1. Sign in to Dynamics 365 Marketing and go to **Marketing** > **Internet Marketing** > **Marketing form fields**. Each of the records listed here establishes a mapping between a field available for use in a marketing form and an actual field from the contact and/or lead entity in the underlying database. Check to make sure that each of the fields required by your external form is correctly mapped here, and add any missing fields if necessary. More information: [Create and manage input fields for use in forms](marketing-fields.md)
+1. Sign in to Dynamics 365 Marketing and go to **Marketing** > **Internet Marketing** > **Form fields**. Each of the records listed here establishes a mapping between a field available for use in a marketing form and an actual field from the contact and/or lead entity in the underlying database. Check to make sure that each of the fields required by your external form is correctly mapped here, and add any missing fields if necessary. More information: [Create and manage input fields for use in forms](marketing-fields.md)
 
 1. Go to **Marketing** > **Internet Marketing** > **Marketing websites**. Each of the website records listed here (if any) provides both a website-tracking and form-capture code for a specific website or sub-site.
 
