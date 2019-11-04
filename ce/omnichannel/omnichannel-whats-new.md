@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 10/25/2019
+ms.date: 10/22/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: B8D892A6-C186-406F-AA68-A10903943EF1
