@@ -44,7 +44,7 @@ Enable sentiment analysis for supervisors to view the real-time sentiment of con
     b. Select **Enabled** as **Yes**.
 
     > [!div class=mx-imgBorder]
-    > ![Enable multi-language sentiment](../media/oc-sentiment-enable-multilanguage.png "Enable multi-language sentiment") 
+    > ![Enable multi-language sentiment](../media/oc-sentiment-enable-multilanguage.PNG "Enable multi-language sentiment") 
 
     After you enable multi-language sentiment, you can view scores in the Omnichannel Insights Dashboard.  
     
