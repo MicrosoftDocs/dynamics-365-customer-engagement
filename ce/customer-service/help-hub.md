@@ -1,7 +1,7 @@
 ---
-title: "Quick help for Customer Service Hub for Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Your starting point for help of Customer Service Hub for Dynamics 365 Customer Service"
-ms.date: 11/01/2019
+title: "Help resources for Dynamics 365 Customer Service | MicrosoftDocs"
+description: "A starting point for help of Customer Service Hub for Dynamics 365 Customer Service."
+ms.date: 11/04/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -13,7 +13,7 @@ ms.author: anjgup
 manager: shujoshi
 ---
 
-# Customer Service Hub Guide
+# Help resources for Customer Service Hub
 
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/6e415bd9-49b7-4416-b744-70278d9fa077" frameborder="0" allowfullscreen=""></iframe></div>
