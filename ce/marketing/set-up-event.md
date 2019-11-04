@@ -83,10 +83,11 @@ Here you can see and edit your basic event information, including
 
 The **Agenda** tab includes details about the schedule of sessions happening during your event. Here you can find, create, and edit each of the following for the current event:
 
-- **Allow registrants to create their own agenda**: This setting affects the way checkout works on the [event website](set-up-event-portal.md) as follows:
-    - When this is set to **Yes**, the website offers [session-level registration](session-level-registration.md). When a registrant selects **Register now**, the event website shows a list of all of the available sessions, and the registrant can add one, some, or all of them as needed. This option only works for events where registration is free (without online payment). With this option, [passes](#event-passes) won't be presented for selection during checkout.
-    - When this is set to **No**, the website offers event-level registration. When a registrant selects **Register now**, the event website shows a list of [passes](#event-passes) available, each of which provides access to one or more specific sessions and can also show a different price. Registrants can choose the pass that best matches their needs, but can't make custom session selections. This option works for both free and paid passes and events.
-- **Sessions**: Each [session](#sessions) is typically a single presentation, class, discussion, or webinar.
+- **Allow registrants to create their own agenda**: This setting is only available for events that don't have any [passes](#event-passes) set up; it's shown above the calendar when no passes are defined, but is hidden when passes are defined. It affects the way checkout works on the [event website](set-up-event-portal.md) as follows:
+    - When this is set to **Yes**, the website offers [session-level registration](session-level-registration.md). When a registrant selects **Register now**, the event website shows a list of all of the available sessions, and the registrant can add one, some, or all of them as needed.
+    - When this is set to **No** (or if the setting is hidden), the website offers event-level registration. When a registrant selects **Register now**, the event website shows a list of [passes](#event-passes) available, each of which provides access to one or more specific sessions and can also show a different price. Registrants can choose the pass that best matches their needs, but can't make custom session selections.
+- **Sessions calendar**: Shows a calendar of sessions defined for your event. You can both create and edit sessions using the calendar. More information: [Work with marketing calendars](marketing-calendar.md).
+- **Sessions list**: Each [session](#sessions) is typically a single presentation, class, discussion, or webinar. This table repeats the information also shown in the calender. You can also create or edit sessions here.
 - **Tracks**: Each (external) [track](#sessions) is a collection of related, non-conflicting sessions that likely would be of interest to the same audience. Attendees might sign up for a specific track, which you can manage by using [passes](#event-passes). You can also set up internal tracks, which are not exposed to attendees but can help you with your planning.
 - **Speaker engagements**: Each [speaker engagement](#speakers) maps a speaker to a session occurring at your event.
 - **Sponsors**: Companies who are [sponsoring the event](manage-event-sponsorships.md).
@@ -109,6 +110,10 @@ Use the **Additional information** tab to set up your event team and record gene
 - **Additional information**: Enter a basic description and outline your goals.
 - **Financials**: [View and record financial details](event-financials.md) for your event. These values appear in dashboard charts and analytics, but are intended for information only, not for formal accounting or bookkeeping.
 - **Event team members**: [Set up your event team](#set-up-your-event-team) by adding links to coworkers and external contacts who are helping you organize the event. The table here shows each team member's name and role, so you can easily see who to call and find their contact info when needed.
+
+### The room reservations tab
+
+The **Room reservations** tab provides a calendar that shows the rooms assigned to the currently displayed event and its sessions. Unreserved rooms aren't shown, nor are events or sessions without assigned rooms. This calendar is read-only, so you can't create any sessions or reservations here. More information: [Work with marketing calendars](marketing-calendar.md)
 
 ### The Post event tab
 
@@ -148,7 +153,7 @@ There are two types of tracks: _internal_ and _external_. Use internal tracks du
 
 Use the **Agenda** tab of an event record to view and set up sessions and sessions tracks for that event.
 
-- Each session is associated with a specific event and speaker, and includes scheduling details.
+- Each session is associated with a specific event and speaker, and includes scheduling details. You can view, create, and edit sessions using either the [calendar display](marketing-calendar.md) or the table.
 - Only [live sessions and tracks](go-live.md#event-entities) are shown on the [event website](set-up-event-portal.md). When you're ready to go live with a session or track, open the relevant record and set its **Publish status** to **live**.
 - For each track, you can assign an audience and a few other descriptive details and then add member sessions, one at a time. All sessions in a track must be from the same event.
 
