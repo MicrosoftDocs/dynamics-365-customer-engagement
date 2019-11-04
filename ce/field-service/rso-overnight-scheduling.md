@@ -46,7 +46,7 @@ Overnight scheduling saves time by letting RSO handle the bulk of scheduling dur
 
 ## Step 1: Set up a scope
 
-Scopes define the resources, requirements, and booking that RSO will optimize.
+Scopes define the resources, requirements, and bookings that RSO will optimize.
 
 Go to **Resource Scheduling Optimization app** > **Optimization Scopes** > **+New**.
 
@@ -76,6 +76,8 @@ Create and select a resource requirement view that defines the unscheduled jobs 
 
 In addition to booking unscheduled jobs, RSO can also update, move, and improve existing schedules. When a requirement is scheduled, a **Bookable Resource Booking** record is created. Create and select a Bookable Resource Booking. 
 
+>[!Note]
+> Any bookings not in the booking view will be locked and not moved.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the booking view advanced find window](./media/rso-overnight-scope-bookings.png)
