@@ -70,7 +70,7 @@ To learn more, see [multi-language sentiment](../../administrator/enable-sentime
 - [Enable sentiment analysis](../../administrator/enable-sentiment-analysis.md)
 - [Manage sessions](oc-manage-sessions.md)
 - [Manage applications](oc-manage-applications.md)
-- [View customer summary and know everything about customers](oc-customer-summary.md)
+- [View customer summary](oc-customer-summary.md)
 - [Search for and share knowledge articles](oc-search-knowledge-articles.md)
 - [Take notes specific to conversation](oc-take-notes.md)
 - [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
