@@ -68,7 +68,7 @@ By joining the conversation, you provide necessary inputs to both agent and cust
 
 ## See also
 
-[Configure intraday insights dashboard for Unified Service Desk](../administrator/configure-intraday-dashboard-supervisor.md)
+[Configure Intraday insights dashboard for Unified Service Desk](../administrator/configure-intraday-dashboard-supervisor.md)
 
 [Enable sentiment analysis](../administrator/enable-sentiment-analysis.md)
 
