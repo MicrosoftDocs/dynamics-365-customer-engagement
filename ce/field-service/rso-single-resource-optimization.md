@@ -81,10 +81,6 @@ Go to **Resource Scheduling** > **Settings** > **Administration** > **Scheduling
 > [!Note]
 > A default goal is created automatically when RSO is deployed.
 
-## Step 2: Set up a schedule
-
-Unlike running RSO for other scenarios, you do not need to create an Optimization Schedule to run SRO for a resource. This is because SRO is run manually from the schedule board or via a workflow action (CreateResourceOptimizationRequest).
-
 ## Step 2: Run and view results
 
 >[!Note]
