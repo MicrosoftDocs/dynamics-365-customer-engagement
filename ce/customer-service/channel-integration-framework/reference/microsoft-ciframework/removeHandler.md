@@ -1,5 +1,5 @@
 ---
-title: "removeHandler (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | MicrosoftDocs"
+title: "removeHandler (JavaScript API Reference) for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 12/10/2018

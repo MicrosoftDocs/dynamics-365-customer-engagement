@@ -40,6 +40,9 @@ For a macro recommendation card, if the execution is successful, a success messa
 
 When a conversation is escalated from a bot, the agent needs to accept the request and start the conversation with the customer. Now, from this instance, the smart assist bot interprets the conversation in real-time and provides recommendations.
 
+> [!div class=mx-imgBorder]
+> ![Smart assist](../../media/oceh/smart-assist.png "Smart assist")
+
 ## See also
 
 [Smart assist for agents (admin)](../../administrator/smart-assist.md)

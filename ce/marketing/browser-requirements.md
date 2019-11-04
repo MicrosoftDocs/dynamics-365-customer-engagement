@@ -30,7 +30,7 @@ In most cases, Dynamics 365 Marketing supports the same browsers and mobile devi
 
 ## Supported desktop browsers
 
-The [desktop browser requirements](https://docs.microsoft.com/en-us/power-platform/admin/web-application-requirements) for Dynamics 365 Marketing are the same as those for other Dynamics 365 model-driven apps for the Common Data Services platform.
+The [desktop browser requirements](https://docs.microsoft.com/power-platform/admin/web-application-requirements) for Dynamics 365 Marketing are the same as those for other Dynamics 365 model-driven apps for the Common Data Services platform.
 
 ## Supported tablet browsers
 

@@ -1,5 +1,5 @@
 ---
-title: "deleteRecord (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | MicrosoftDocs"
+title: "deleteRecord (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 12/10/2018
@@ -20,6 +20,8 @@ manager: shujoshi
 # deleteRecord (CIF JavaScript API Reference)
 
 [!INCLUDE[deleteRecord](includes/deleteRecord-description.md)] 
+
+[!include[applies-to-v1-and-v2](../../includes/applies-to-v1-and-v2.md)]
 
 ## Syntax
 

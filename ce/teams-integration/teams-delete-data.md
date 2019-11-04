@@ -1,7 +1,7 @@
 ---
-title: "Delete Teams data | MicrosoftDocs"
+title: "Delete Microsoft Teams data | MicrosoftDocs"
 ms.custom: 
-description: "Delete Teams data."
+description: "Delete Microsoft Teams data."
 ms.date: 10/16/2019
 ms.reviewer: 
 ms.service: crm-online
@@ -21,9 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Delete Teams data 
-
-
+# Delete Microsoft Teams data 
 
 ## Delete user data
 Your privacy is important to us. You can remove the model-driven app personal data from Microsoft Teams.

@@ -70,20 +70,20 @@ The smart assist feature can be enabled across all channels like Chat for Dynami
 
 ## Set up Dynamics 365 Productivity Tools
 
-To set up the Dynamics 365 Productivity Tools, follow the steps. 
-
 ### Prerequisites 
 
 - Identify the Common Data Service environment to which you want to deploy Dynamics 35 Productivity Tools. To know the environment details, sign in to Common Data Service platform > **Settings** > **Customizations** and then select **Developer resources**. To learn more, see [Developer resources page](https://docs.microsoft.com/powerapps/developer/common-data-service/view-download-developer-resources).
 
-- Get the latest version of Omnichannel for Customer Service (Omnichannel Prime Chat package version 1.5.3.259). Get the trail version from [Dynamics 365 Trials](https://trials.dynamics.com/).
+- Get the latest version of Omnichannel for Customer Service (Omnichannel Prime Chat package version 1.5.3.259). Get the trial version from [Dynamics 365 Trials](https://trials.dynamics.com/).
 
 - Obtain global administrator permissions in Office 365 to download and install the Dynamics 365 Productivity Tools (solution).
 
 - Deploy Chat for Dynamics 365 Customer Service in your environment as Dynamics 365 Productivity Tools works only with the Omnichannel for Customer Service app. To learn more, see [Try Chat for Dynamics 365 Customer Service](../try-chat-for-dynamics365.md).
 
 
-### Install Dynamics 365 Productivity Tools package 
+### Install Dynamics 365 Productivity Tools package
+
+To set up the Dynamics 365 Productivity Tools, follow the steps. 
 
 1. Go to [Microsoft AppSource](https://appsource.microsoft.com/en-us/product/dynamics-crm/mscrm.d365_productivity_tools-preview?flightCodes=d365productivitytoolspreview). The Dynamics 365 Productivity Tools page appears.
 

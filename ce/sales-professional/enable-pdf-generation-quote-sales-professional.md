@@ -1,5 +1,5 @@
 ---
-title: "Enable or disable PDF generation from quotes (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Enable or disable PDF generation (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Enable your users to create and share a professional-looking quote PDF document with customers."
 keywords: "Quote, proposal, create PDF, email PDF, PDF, enable"
 ms.date: 10/01/2019
@@ -14,7 +14,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Enable or disable PDF generation from quotes
+# Enable or disable PDF generation
 
 To allow your users to generate PDF documents directly from a quote, you must enable PDF generation.
 

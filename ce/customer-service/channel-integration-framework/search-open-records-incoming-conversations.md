@@ -1,6 +1,6 @@
 ---
 title: "Search and open records on an incoming conversation | MicrosoftDocs"
-description: "Read how you can use the Channel Integration Framework APIs to search and open records on an incoming conversation."
+description: "Read how you can use the Dynamics 365 Channel Integration Framework APIs to search and open records on an incoming conversation."
 keywords: ""
 ms.date: 09/03/2019
 ms.service:
@@ -19,14 +19,17 @@ manager: shujoshi
 ---
 # Walkthrough: Search and open records on an incoming conversation
 
-In this tutorial, we demonstrate how you can search and open records in Dynamics 365 on an incoming call using the Channel Integration Framework(CIF) APIs.
+In this tutorial, we demonstrate how you can search and open records in Dynamics 365 on an incoming call using the Microsoft Dynamics 365 Channel Integration Framework APIs.
 
 The sample given below covers four scenarios:
 
 1. Customer's contact number matches one record in Dynamics 365. The record is retrieved using the [searchAndOpenRecords](reference/microsoft-ciframework/searchAndOpenRecords.md) API.
+
 2. Customer's contact number matches multiple records of same entity type in Dynamics 365. The records are retrieved using the [searchAndOpenRecords](reference/microsoft-ciframework/searchAndOpenRecords.md) API.
-3. Customer's contact number matches multiple records of multiple entity types in Dynamics 365. The Account entity and Contact entity records are searched for the contact number of the incoming call and then, the search results are displayed on the console.
-4. Customer's contact number does not match any record in Dynamics 365, so we search and open empty results and then, create a new record for the customer using the [createRecord](reference/microsoft-ciframework/createRecord.md) API.
+
+3. Customer's contact number matches multiple records of multiple entity types in Dynamics 365. The Account entity and Contact entity records are searched for the contact number of the incoming call and then the search results are displayed on the console.
+
+4. Customer's contact number does not match any record in Dynamics 365, so we search and open empty results and then create a new record for the customer using the [createRecord](reference/microsoft-ciframework/createRecord.md) API.
 
 ## Prerequisites
 
@@ -34,13 +37,15 @@ The sample given below covers four scenarios:
 - A valid Microsoft Azure subscription is required to publish the sample app to Azure.
 
 > [!IMPORTANT]
-> This tutorial is in continuation of [Getting started with building a simple communication widget](getting-started-simple-widget.md). So, if you have not created a simple *Hello World!* widget yet that can be hosted on Channel Integration Framework, we suggest you read that first.
+> This tutorial is a continuation of [Getting started with building a simple communication widget](getting-started-simple-widget.md). If you have not created a simple *Hello World!* widget yet that can be hosted on Dynamics 365 Channel Integration Framework, we suggest you read that first.
 
 ## Build the widget
 
 1. Open the basic widget that you created using the steps mentioned in [Get started with building a simple communication widget](getting-started-simple-widget.md) in Visual Studio 2017.
-2. Open the `Index.cshtml` file and replace the code in the file with the code given below. <br />
-![Open Index.cshtml file from solution explorer](media/cif-helloworld-solution-explorer.PNG "Open Index.cshtml file from solution explorer")<br />
+
+2. Open the `Index.cshtml` file and replace the code in the file with the code given below. 
+
+   ![Open Index.cshtml file from solution explorer](media/cif-helloworld-solution-explorer.PNG "Open Index.cshtml file from solution explorer")<br />
 
 ```html
 <!DOCTYPE html>
@@ -203,7 +208,7 @@ The sample given below covers four scenarios:
 
 ## Publish and configure the widget
 
-Follow the steps mentioned in [Publish and configure the widget](getting-started-simple-widget.md#BKMK_publish) to publish the widget. The published widget should look like this.<br />
+Follow the steps mentioned in [Publish and configure the widget](getting-started-simple-widget.md#BKMK_publish) to publish the widget. The published widget should look like this:
 
   ![Published sample widget in Unified Interface apps](media/cif-search-records-publish-app.PNG "Published sample widget in Unified Interface apps")<br />
 

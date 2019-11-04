@@ -1,6 +1,6 @@
 ---
-title: "Use automation dictionary  to pass parameters keys in the Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about the supported formats to pass parameters values in the Omnichannel Administration app for Templates and Macros."
+title: "Use automation dictionary  to pass parameter keys in the Omnichannel Administration app | MicrosoftDocs"
+description: "Learn about the supported formats to pass parameter values in the Omnichannel Administration app for Templates and Macros."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -28,7 +28,7 @@ Automation Dictionary maintains the contextual data for the sessions. You can us
 
 While creating templates and macros in the Omnichannel Administration app, you can pass parameter keys such as title of a session, title of notification, title of an application tab template, and custom parameter values for application tab types. These keys are replaced based on the contextual information available at the time of execution.
 
-### Pass data parameters in templates
+### Pass data parameter in templates
 
 Let us take a scenario for templates with the notifications.
 
@@ -44,9 +44,9 @@ Similarly, for session and notification title, you can pass the data parameters.
 
 The system replaces these parameter keys with the actual values based on the context of the session, channel provider, Common Data Service, and user actions.
 
-To learn more, see [Types context data parameters](#types-context-data-parameters).
+To learn more, see [Types of context data parameters](#types-of-context-data-parameters).
 
-### Pass data parameters in macros
+### Pass data parameter in macros
 
 Macros are a set of configured sequential actions that are executed on-demand by user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to pass the data parameters. To learn more, see [Automation dictionary formats to pass data parameter keys](#automation-dictionary-formats-to-pass-data-parameter-keys).
 
@@ -56,9 +56,9 @@ When the context is from a session, the marco action is executed based on the in
 
 For example, to create a case, you need to define the actions that contains incident entity form and the GUID of the form (optional).
 
-To learn more, see [Types context data parameters](#types-context-data-parameters).
+To learn more, see [Types of context data parameter](#types-of-context-data-parameters).
 
-## Types context data parameters
+## Types of context data parameters
 
 The automation dictionary uses the context data parameters that are available from the following sources:
 

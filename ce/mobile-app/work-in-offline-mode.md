@@ -1,7 +1,7 @@
 ---
 title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 08/21/2019
+ms.date: 10/28/2019
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -149,6 +149,8 @@ These entities and corresponding commands are available in offline mode.
 |Task |Create, Read, Update, Delete|
 |Team |Read only	|
 |User |Read only	|
+
+**Business rules**: Business rules are supported in mobile offline. For more information, see [Create business rules and recommendations to apply logic in a model-driven app form](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-business-rules-recommendations-apply-logic-form).
 
 **Lookup support**: Lookups are supported for the entities that are mobile offline-enabled. All the entities participating in the lookup should also be offline-enabled.
 

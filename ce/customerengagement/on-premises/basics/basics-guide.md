@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Basics Guide for Dynamics 365 Customer Engagement (on-premises), version 9.x
+# Basics Guide for Dynamics 365 Customer Engagement (on-premises), version 9
 
 The Dynamics 365 Customer Engagement (on-premises) basics guide contains the essentials you need to know to navigate the system, enter data, use dashboards, charts and reports effectively and more.
 

@@ -45,9 +45,8 @@ search.app:
   
  [Delete Data in Bulk in Dynamics 365 Customer Engagement (on-premises)](delete-data-bulk.md)  
   
- [Import Data in Dynamics 365 Customer Engagement (on-premises)](import-data.md)  
-  
- [Data Export service in Dynamics 365 Customer Engagement (on-premises)](/powerapps/developer/common-data-service/data-export-service.md)  
+ [Import Data in Dynamics 365 Customer Engagement (on-premises)](import-data.md) 
+   
   
 ## Related Sections  
   
