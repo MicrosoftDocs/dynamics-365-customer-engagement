@@ -211,6 +211,10 @@ You must configure **Unified Service Desk** to display the supervisor Intraday i
 
 2.  Select **Action Calls** and open **Load Supervisor Dashboard**.
 
+
+<!--from editor: Please check the following step to ensure that the asterisks are placed correctly and not making unintentional italics. -->
+
+
 3.  In the **Action** section, enter the **Data** as “*url=* *https://powerbi.com/dashboards/&lt;id&gt;*” that you copied in [Configure dashboard in Power BI](#configure-dashboard-in-power-bi). Also, add the parameters **chromeless=1** and **nosignupcheck=1** at the end of the URL.  
 
     For example:
@@ -219,7 +223,7 @@ You must configure **Unified Service Desk** to display the supervisor Intraday i
 
 4.  Save and close the settings page.
 
-The supervisor insights is configured and available. Add users to supervisor configuration to view the dashboards when signing on to the Omnichannel in **Unified Service Desk**. 
+The supervisor insights is configured and available. Add users to the supervisor configuration to view the dashboards when signing on to Omnichannel in **Unified Service Desk**. 
 
 ### Add users to supervisor configuration
 
@@ -232,7 +236,7 @@ You must add users in the supervisor configuration to access any supervisor insi
 3.  On the configuration page, select **Supervisor Configuration**.
 
     > [!div class=mx-imgBorder]
-    > ![Select supervisor configuration](../media/supervisor-admin-select-supervisor-configuration-add-user.png "Select supervisor configuration")  
+    > ![Select Supervisor Configuration](../media/supervisor-admin-select-supervisor-configuration-add-user.png "Select Supervisor Configuration")  
 
 4.  On the **Users** section, select **+ Add User record** and enter the user name to add the user.
 
@@ -245,7 +249,7 @@ You must add users in the supervisor configuration to access any supervisor insi
 
 ### Update client cache version
 
-Update the client cache version number to reduce the amount of bandwidth required at the startup of the Unified Service Desk client on the computers of agents, and over the life cycle of the client application.
+Update the client cache version number to reduce the amount of bandwidth required at the startup of the Unified Service Desk client on the computers of agents, and over the lifecycle of the client application.
 
 To learn more, see [Client caching overview](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/admin/configure-client-caching-unified-service-desk?view=dynamics-usd-4.1).  
 
@@ -254,14 +258,14 @@ To learn more, see [Client caching overview](https://docs.microsoft.com/dynamics
 2.  Go to **Settings** > **Unified Service Desk** and then select **Options**.
 
     > [!div class=mx-imgBorder]
-    > ![Select options in settings](../media/supervisor-admin-select-options-usd-settings.png "Select options in settings")  
+    > ![Select Options in settings](../media/supervisor-admin-select-options-usd-settings.png "Select Options in settings")  
  
 3.  Select **ClientCacheVersionNumber**.
 
     > [!div class=mx-imgBorder]
-    > ![Select client cache version number](../media/supervisor-admin-select-client-cache-version-number.png "Select client cache version number")  
+    > ![Select ClientCacheVersionNumber](../media/supervisor-admin-select-client-cache-version-number.png "Select ClientCacheVersionNumber")  
 
-4.  In the **Value** box, updated the existing alphanumeric number. For example, the existing alphanumeric number is OC2019\_04\_010 and updated this number as OC2019\_04\_011.
+4.  In the **Value** box, update the existing alphanumeric number. For example, if the existing alphanumeric number is OC2019\_04\_010, update it to OC2019\_04\_011.
 
     > [!div class=mx-imgBorder]
     > ![Update value](../media/supervisor-admin-update-value-client-cache-number.png "Update value")  
