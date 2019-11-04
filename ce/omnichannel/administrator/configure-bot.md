@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
-title: "Configure an Azure bot | MicrosoftDocs"
-description: "Instructions to configure an Azure bot in Omnichannel for Customer Service."
-=======
 title: "Integrate an Azure bot | MicrosoftDocs"
 description: "Instructions to integrate an Azure bot in Omnichannel for Customer Service."
->>>>>>> 8d889d299dfb525fe86bddb7ea6d9738c55abd68
 keywords: ""
 author: sbmjais
 ms.author: shjais
