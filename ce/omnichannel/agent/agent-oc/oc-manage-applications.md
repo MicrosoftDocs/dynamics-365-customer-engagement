@@ -56,7 +56,7 @@ You can switch between applications by selecting the application tab title.
 
 ### Title of the application tab
 
-The title of the application tab will the name of the entity. For example, dashboard names, Case, Contact, Account names and so on. Third-party applications, the name appears as configured by your administrator.
+The title of the application tab will be the name of the entity. For example, dashboard names, Case, Contact, Account names and so on. Third-party applications, the name appears as configured by your administrator.
 
 > [!div class=mx-imgBorder]
 > ![App tab title](../../media/oceh/oceh-app-tab-title.png "App tab title")

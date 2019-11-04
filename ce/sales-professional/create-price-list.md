@@ -1,9 +1,12 @@
 ---
-title: "Create a price list in Dynamics 365 Sales Professional | MicrosoftDocs"
+title: "Create price lists in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Define what to charge for your products or services by creating a price list and price list items in Dynamics 365 Sales Professional."
+keywords: ""
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 ms.assetid: 7a65d93b-4794-4a9b-b57a-9ef82cefc326
 author: shubhadaj
@@ -11,7 +14,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Create a price list
+# Create price lists
 
 Price lists tell your sales agents what to charge for your products or services. You can create multiple price lists so that you can maintain separate price
 structures for different regions you sell your products in or for different sales channels.

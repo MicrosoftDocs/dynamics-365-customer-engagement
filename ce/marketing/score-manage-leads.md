@@ -37,11 +37,11 @@ Each scoring model includes a sales-ready threshold. When a lead's score passes 
 
 The lead-scoring feature brings together many aspects of Dynamics 365 Marketing, including contacts, leads, customer journeys, marketing forms, interactions, insights, and more. Therefore, it's important that you understand a few things about the way the feature works and how you must configure and use your system to make it function as expected.
 
-### Only leads associated with contacts or accounts can be scored
+### Only leads associated with parent contacts or accounts can be scored
 
-Automatic lead scoring only works for leads that are associated with a contact or an account. Scores won't appear for leads that don't have a contact or account associated with them.
+Automatic lead scoring only works for leads that are associated with a parent contact or an account. Scores won't appear for leads that don't have a parent contact or account associated with them.
 
-For leads generated or updated by marketing forms configured to update both leads and contacts, the marketing form always finds or creates the records required to establish the lead/contact pair (but not all form configurations do this, as explained in the following section). Also, any user can manually associated a lead with a contact or account by opening the lead record and using the **Inquiry** stage of the **Lead to opportunity marketing sales process** business process. Here, the relevant fields are labeled **Existing contact?** and **Existing account?**, respectively.
+For leads generated or updated by marketing forms configured to update both leads and contacts, the marketing form always finds or creates the records required to establish the lead/contact pair (but not all form configurations do this, as explained in the following section). Also, any user can manually associated a lead with a parent contact or parent account by opening the lead record and using the **Inquiry** stage of the **Lead to opportunity marketing sales process** business process. Here, the relevant fields are labeled **Existing contact?** and **Existing account?**, respectively.
 
 ![Manually link a lead to a contact record](media/leads-related-contact.png "Manually link a lead to a contact record")
 
@@ -74,7 +74,7 @@ A typical lead-scoring model would increase a lead's score slightly in response 
 
 You can create as many scoring models as you want. If you have more than one model, all leads will be scored according to each model and you'll be able to see the score and grade for each of them.
 
-To view, edit, and create lead-scoring models, go to **Marketing** > **Lead management** > **Lead scoring models**. This opens a standard list view, where you can create, delete, search, sort, or filter items in the list. Select any item in the list to open it, or select **New** to create a new one.
+To view, edit, and create lead-scoring models, go to **Marketing** > **Lead management** > **Scoring models**. This opens a standard list view, where you can create, delete, search, sort, or filter items in the list. Select any item in the list to open it, or select **New** to create a new one.
 
 ![The lead-scoring model designer](media/lead-score-designer.png "The lead-scoring model designer")
 
@@ -178,7 +178,7 @@ Here are a few more examples of how to use hops to create useful conditions:
 
 To find all the leads that a selected model has scored:
 
-1. Go to **Marketing** > **Lead management** > **Lead scoring models** to open a list of models and then open the one you want to inspect.
+1. Go to **Marketing** > **Lead management** > **Scoring models** to open a list of models and then open the one you want to inspect.
 
 1. Select the **Related** tab to open a drop-down list of related entities and then select **Lead scores** from the list.
 
