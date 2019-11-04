@@ -34,6 +34,10 @@ Enable sentiment analysis for supervisors to view the real-time sentiment of con
 
 3. On the **General** tab, select **Enabled** as **Yes**.
 
+
+    <!--from editor: Note that the image shows Enabled as No. Is that OK? -->
+    
+
     > [!div class=mx-imgBorder]
     > ![Enable sentiment analysis](../media/supervisor-admin-enable-sentiment-analysis.png "Enable sentiment analysis")
 
@@ -41,7 +45,7 @@ Enable sentiment analysis for supervisors to view the real-time sentiment of con
 
     a. Go to the **General** tab.
 
-    b. Select **Enabled** as **Yes**.
+    b. Select **Multi-language support enabled** as **Yes**.
 
     > [!div class=mx-imgBorder]
     > ![Enable multi-language sentiment](../media/oc-sentiment-enable-multilanguage.PNG "Enable multi-language sentiment") 
