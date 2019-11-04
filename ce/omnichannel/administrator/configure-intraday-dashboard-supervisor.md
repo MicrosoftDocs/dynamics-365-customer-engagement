@@ -41,7 +41,7 @@ Review the following prerequisites before configuring the supervisor insights: 
 
 -  Your administrator has allowed the **Omnichannel for Customer Service** app to read and write data on behalf of users in your organization. To learn more, see [Provide data access consent](omnichannel-provision-license.md).
 
--  The Omnichannel supervisor role has been assigned to supervisor users in your organization to access the report and dashboard. To learn more, see [Enable users for Omnichannel Customer Service](../administrator/add-users-assign-roles.md).
+-  The Omnichannel supervisor role has been assigned to supervisor users in your organization to access the report and dashboard. To learn more, see [Enable users for Omnichannel for Customer Service](../administrator/add-users-assign-roles.md).
 
 -  As a system administrator, you must create and add a security group for Power BI service. Follow these steps to create and add a security group:
 
