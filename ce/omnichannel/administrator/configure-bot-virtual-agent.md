@@ -32,21 +32,17 @@ Once you have created your bot and connected it to an Omnichannel for Customer S
 * Product license - You need a product license for both Power Virtual Agents ([start a trial](https://go.microsoft.com/fwlink/p/?LinkId=2092080&clcid=0x409)) and Omnichannel for Customer service ([learn more](https://docs.microsoft.com/dynamics365/customer-engagement/omnichannel/try-chat-for-dynamics365))
 * Role - In order to successfully complete these steps, the signed-in user must be a Omnichannel Administrator in Omnichannel. [Learn more about managing and assigning user roles in Omnichannel](https://docs.microsoft.com/dynamics365/customer-engagement/omnichannel/administrator/add-users-assign-roles).
 * Azure Application ID - You will need an application registered in Azure prior to connecting to Omnichannel. [Learn more](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application)
-* Bot - You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. For more information, see [Omnichannel setup & configure](/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
-<!--note from editor: This link is broken. It looks like an internal link per the "pawant-ms-handoff" section. Please replace with valid external or referential link. -->
+* Bot - You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. For more information, see [Configure seamless and contextual hand-off to Omnichannel for Customer Service](https://docs.microsoft.com/en-us/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
 
 ## Configure your Power Virtual Agents bot in Omnichannel
 Once the Power Virtual Agents bot is created and configured to work with Omnichannel, you can configure it to hand off conversations to queues in Omnichannel. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup. You can change them in the **Work Streams** section of Omnichannel.
 
 **Set up your Power Virtual Agents bot**
-1. Connect the bot to Omnichannel and go to the Omnichannel configuration. For more information, see [Omnichannel setup & configure](/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
-<!--note from editor: This link is broken. It looks like an internal link per the "pawant-ms-handoff" section. Please replace with valid external or referential link. -->
+1. Connect the bot to Omnichannel and go to the Omnichannel configuration. For more information, see [Configure seamless and contextual hand-off to Omnichannel for Customer Service](https://docs.microsoft.com/en-us/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
 
     ![Virtual Agent bot settings](../media/virtual-agent-bot-settings.png)
     
-    The bot will be auto-created in Omnichannel, and you just need to finish setting it up.
-    <!--note from editor: Does Omnichannel auto-create the bot? If so, or if you know what does the auto-creation, revise the sentence to remove the passive voice. -->
-
+    The bot will appear in Omnichannel, and you just need to finish setting it up.
 
 2. Assign the bot to an existing queue.
     
@@ -68,7 +64,6 @@ For information about working with queues, see [Work with queues in Omnichannel 
 
 > [!NOTE]
 > If you have only one queue with a bot and agents, and you didn't create a routing rule, the customer query is redirected to the same queue in case of escalation and picked up by an agent.
-<!--note from editor: Does Omnichannel do the redirection? If possible, revise the sentence to remove the passive voice. -->
 
 ### Create a bot queue and a human agent queue
 
@@ -78,8 +73,7 @@ For information about working with queues, see [Work with queues in Omnichannel 
     
 2. Create context variables.
 
-You must use the context variables that were created during setup for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information about context variables, see [Contextual variables available upon hand-off](/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel#contextual-variables-available-upon-hand-off).
-<!--note from editor: This link is broken. It looks like an internal link per the "pawant-ms-handoff" section. Please replace with valid external or referential link. -->
+You must use the context variables that were created during setup for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information about context variables, see [Contextual variables available upon hand-off](https://docs.microsoft.com/en-us/dynamics365/ai/customer-service-virtual-agent/how-to-handoff#contextual-variables-available-upon-hand-off).
 
    > [!div class=mx-imgBorder]
    > ![Virtual Agent work stream context variable](../media/virtual-agent-work-stream-context-variables.png "Virtual Agent work stream context variable")
@@ -100,13 +94,9 @@ Bots are developed to receive customer queries first, gain information of the qu
 
 Ensure to map the routing rules to the correct queues so that the queries are routed appropriately. For information about routing rules, see [Create and manage routing rules](routing-rules.md).
 
-[!INCLUDE [handoff-known-limitations](/dynamics365/ai/customer-service-virtual-agent/includes/handoff-known-limitations)]
-<!--note from editor: That URL is not going to the media folder. It's going to Iaan's branch, which is breaking the build. Please fix. -->
-
+For more information about known limitations of this feature, see [Known limitations](https://docs.microsoft.com/en-us/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel#known-limitations).
 
 ## Privacy notice
-
-If you use Power Virtual Agents, your data may flow outside your organization’s compliance and geo boundaries. This includes Government Cloud environments. Learn more [here](https://<link needed>) and in the [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement).
 
 You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement).
 
