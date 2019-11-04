@@ -1,5 +1,5 @@
 ---
-title: "addHandler (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | MicrosoftDocs"
+title: "addHandler (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 10/12/2018

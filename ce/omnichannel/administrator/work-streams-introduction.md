@@ -6,7 +6,7 @@ author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 07/31/2019
+ms.date: 10/25/2019
 ms.service: 
 ms.topic: article
 ms.assetid: 0cc05811-6631-4a5c-85b1-c145be7d7a6f
@@ -40,13 +40,14 @@ Follow these steps to create a new work stream in Omnichannel for Customer Servi
 
 2. On the command bar, select **New** to create a work stream.
 
-3. In the **Summary** tab of the new work stream, follow these steps:
+3. In the **Work Distribution** tab of the new work stream, follow these steps:
 
    - In the **General information** section, provide the following information: </br>
       1. **Name**: Enter a name for the work stream.
       2. **Channel**: Channel is defined as a medium through which a customer reaches out for support. For example, a customer can contact an agent through chat. </br> </br> Select a channel from the drop-down list. </br>
             - **Live Chat** </br>
             - **SMS** </br>
+            - **Facebook**
 
            > [!IMPORTANT]
            > Entity channel is not supported in this release, please select other channel type. See [Readme](../omnichannel-readme.md) for more information

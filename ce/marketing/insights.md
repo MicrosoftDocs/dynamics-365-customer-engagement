@@ -89,6 +89,7 @@ Contacts provide the following [insights categories](#categories):
 - **Event interactions**: See a timeline of event interactions, and event registration, check-in and cancellation records for the current contact.
 - **Marketing form interactions**: See which marketing forms the contact has submitted and the content of each submission.
 - **Subscription list interactions**: See which subscription lists the contact joined or left, and when.
+- **Email open times**: See the days and times when the contact usually opens your emails and how long they usually wait before opening them. This information also informs the [smart scheduling feature](smart-scheduler.md), which adds a **Predicted best send times** chart here when enabled.
 
 ## Lead insights
 
@@ -209,7 +210,7 @@ For more information about the carious types of email results and KPIs listed on
 
 ## Lead scoring model insights
 
-To view lead scoring model insights, go to **Marketing** > **Lead management** > **Lead scoring models**, select a model, and then open its **Insights** tab. Insights are only available for models that are (or have been) live.
+To view lead scoring model insights, go to **Marketing** > **Lead management** > **Scoring models**, select a model, and then open its **Insights** tab. Insights are only available for models that are (or have been) live.
 
 Here you can find a timeline showing the number of leads processed by the model over time.
 

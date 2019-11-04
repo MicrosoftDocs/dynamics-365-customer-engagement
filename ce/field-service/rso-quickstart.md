@@ -264,5 +264,6 @@ Congratulations! You have successfully run RSO!
 
 ### See also
 
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [QuickStart: Auto schedule a list of work orders](https://youtu.be/oJ-3HTJWRMo)
 - [RSO frequently asked questions](rso-faq.md)
 - [RSO configurations](rso-configuration.md)

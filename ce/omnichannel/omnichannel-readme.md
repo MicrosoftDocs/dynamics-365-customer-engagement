@@ -136,7 +136,7 @@ You can continue to use the third-party channel provider in the unified interfac
 While working on a session, after an agent creates a customer (contact/account) or case record using the quick create (+) option in the nav bar, it is not auto-linked to the conversation. As a workaround, the agent can perform an inline search for the newly created record and link it to the conversation.
 
 ## Authentication error for different agent credentials
-If an agent is signed in to Office 365 or Common Data Service through a different username in the browser (Internet Explorer or Edge) than the one used for USD sign-in, an authentication error is shown and the user is not allowed to sign in. As a workaround, the user should sign out from all other accounts on the browser and try signing back in.
+If an agent is signed in to Office 365 or Common Data Service through a different username in the browser (Internet Explorer or Edge) than the one used for USD sign in, an authentication error is shown and the user is not allowed to sign in. As a workaround, the user should sign out from all other accounts on the browser and try signing back in.
 
 ## Transfer to queue does not show a message for the initiating agent 
 When an agent initiates a transfer, the initiating agent becomes a consulting agent without any user interface message. However, the session tab name shows the **Consult** tag because the initiating agent is added to the same conversation as a consulting agent to enable smooth transition.
@@ -167,12 +167,14 @@ You must clear the checkbox to automatically distribute the case records.
 > [!div class=mx-imgBorder]
 > ![Automatic record movement to the agent's default queue](media/route-owner-queue.png "Automatic record movement to the agent's default queue")
 
-## Create new button doesn't appear in queue configuration page
+## Sitemap entry for Entity Records is not localized for other languages
 
-Queue is in read-only state or **+ New** button is missing on queue form and grid sometimes, and there is no way to create an Omni-channel queue and the queue entity is in read-only state
+In the Omnichannel Administration app, in the sitemap, **Entity Records** under the **Channels** area is not localized for other languages. The string appears only in English language for all language environments.
+
+## Routing rules sub grid in entity records shows an error
+
+You might see the routing rules sub grid under an entity records channel displays error intermittently. The error is **You do not have permission to access these records. Contact your administrator for help.**
 
 ### Workaround
 
-Please reach out to Microsoft support team to have read-only flag removed from queue entity.
-
-More information: [Create queues](administrator/entity-channel.md#step-1-create-queues-and-add-agents)
+To load the page without the error, refresh the page to load the routing rules sub grid, and proceed with routing rules configuration.

@@ -2,7 +2,7 @@
 title: "Automatic closure of a conversation| Microsoft Docs"
 description: "Read how you can auto-close a conversation using the Web API"
 keywords: ""
-ms.date: 07/29/2019
+ms.date: 10/25/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -15,9 +15,11 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-This topic demonstrates how you can auto-close a conversation using Web API. 
+This topic demonstrates how you can configure auto-close duration for a conversation using the Web API. 
 
 Use the `GET` request given below to fetch all the configuration records that have been defined out of the box.
+
+**Request**
 
 ```http
 GET [Organization URI]/api/data/v9.1/msdyn_occhannelstateconfigurations
@@ -26,6 +28,67 @@ OData-MaxVersion: 4.0
 OData-Version: 4.0
 If-None-Match: null
 ```
+
+**Response**
+
+```http
+{ 
+   "@odata.context":"[Organization URI]/api/data/v9.1/$metadata#msdyn_occhannelstateconfigurations",
+   "value":[ 
+      { 
+         "@odata.etag":"W/\"1379367\"",
+         "_organizationid_value":"758f70a9-7aba-4764-bdda-fcc0023a702f",
+         "msdyn_name":"Live Chat - Open",
+         "statecode":0,
+         "statuscode":1,
+         "_msdyn_occhannelconfigurationid_value":"836717fd-5578-e911-8196-000d3af7d71e",
+         "msdyn_autocloseliveworkitemafter":20,
+         "modifiedon":"2019-10-01T13:41:51Z",
+         "_modifiedby_value":"d6e088ce-8866-4b3d-8ea2-150ad72e2b79",
+         "msdyn_ocliveworkitemstate":0,
+         "msdyn_showconfirmationonsessionclose":false,
+         "versionnumber":1379367,
+         "msdyn_occhannelstateconfigurationid":"6283ab63-5778-e911-8196-000d3af7d71e",
+         "createdon":"2019-10-01T13:41:51Z",
+         "_createdby_value":"d6e088ce-8866-4b3d-8ea2-150ad72e2b79",
+         "_modifiedonbehalfby_value":null,
+         "importsequencenumber":null,
+         "overriddencreatedon":null,
+         "_createdonbehalfby_value":null,
+         "utcconversiontimezonecode":null,
+         "timezoneruleversionnumber":null
+      },
+      { 
+         "@odata.etag":"W/\"1379368\"",
+         "_organizationid_value":"758f70a9-7aba-4764-bdda-fcc0023a702f",
+         "msdyn_name":"Live Chat - Active",
+         "statecode":0,
+         "statuscode":1,
+         "_msdyn_occhannelconfigurationid_value":"836717fd-5578-e911-8196-000d3af7d71e",
+         "msdyn_autocloseliveworkitemafter":null,
+         "modifiedon":"2019-10-01T13:41:51Z",
+         "_modifiedby_value":"d6e088ce-8866-4b3d-8ea2-150ad72e2b79",
+         "msdyn_ocliveworkitemstate":1,
+         "msdyn_showconfirmationonsessionclose":true,
+         "versionnumber":1379368,
+         "msdyn_occhannelstateconfigurationid":"e2737c9a-5778-e911-8196-000d3af7d71e",
+         "createdon":"2019-10-01T13:41:51Z",
+         "_createdby_value":"d6e088ce-8866-4b3d-8ea2-150ad72e2b79",
+         "_modifiedonbehalfby_value":null,
+         "importsequencenumber":null,
+         "overriddencreatedon":null,
+         "_createdonbehalfby_value":null,
+         "utcconversiontimezonecode":null,
+         "timezoneruleversionnumber":null
+      },
+
+   ]
+}
+```
+
+The `msdyn_name` attribute in the `msdyn_occhannelstateconfiguration` entity mentions the channel and state of the conversation. For more information about conversation states, see [Understand conversation states in Omnichannel for Customer Service](../agent/agent-oc/oc-conversation-state.md).
+
+You can make a `GET` request to `msdyn_occhannelconfiguration` entity to fetch all the existing channel records. For each of these channels, you can see its state when you query the `msdyn_occhannelstateconfiguration` entity.
 
 Make a `PATCH` request to the `msdyn_occhannelstateconfiguration` entity record and update the value of the `msdyn_autocloseliveworkitemafter` attribute.
 

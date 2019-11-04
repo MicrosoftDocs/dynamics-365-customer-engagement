@@ -131,16 +131,13 @@ Form capture makes it possible for forms created on an external website to submi
 
 To enable form capture, you must generate a form-capture JavaScript in Dynamics 365 Marketing and add that script to your external form page. Then you'll be able to load that page into Dynamics 365 Marketing to map its fields to marketing fields. At run time, the form-capture JavaScript captures each form submission and submits the values to Dynamics 365 Marketing for processing and storage.
 
-> [!NOTE]
-> The form capture feature currently ignores hidden input fields (`<input type="hidden">`) in the target form. One way to work around this is to change the hidden field to use a type other than hidden, and then add a style attribute to hide it, such as:<br>`<input type="text" style="visibility:hidden" name="field name" id="fieldID" />`
-
 ### Capture a new external form
 
 To set up a form capture:
 
 1. Use your CMS system and other coding tools to design a page with an input form that has the required fields and features.
 
-1. Sign in to Dynamics 365 Marketing and go to **Marketing** > **Internet Marketing** > **Marketing form fields**. Each of the records listed here establishes a mapping between a field available for use in a marketing form and an actual field from the contact and/or lead entity in the underlying database. Check to make sure that each of the fields required by your external form is correctly mapped here, and add any missing fields if necessary. More information: [Create and manage input fields for use in forms](marketing-fields.md)
+1. Sign in to Dynamics 365 Marketing and go to **Marketing** > **Internet Marketing** > **Form fields**. Each of the records listed here establishes a mapping between a field available for use in a marketing form and an actual field from the contact and/or lead entity in the underlying database. Check to make sure that each of the fields required by your external form is correctly mapped here, and add any missing fields if necessary. More information: [Create and manage input fields for use in forms](marketing-fields.md)
 
 1. Go to **Marketing** > **Internet Marketing** > **Marketing websites**. Each of the website records listed here (if any) provides both a website-tracking and form-capture code for a specific website or sub-site.
 

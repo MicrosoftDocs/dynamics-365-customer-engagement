@@ -2,8 +2,7 @@
 
 ## Get started
 ### [Introduction](introduction-omnichannel.md)
-### [Preview features in Omnichannel for Customer Service](preview-features.md)
-### [Try Chat for Dynamics 365 Customer Service](try-chat-for-dynamics365.md)
+### [Try channels in Omnichannel for Customer Service](try-chat-for-dynamics365.md)
 ### [Chat for Dynamics 365 Customer Service demo data](chat-dynamics365-customer-service-demo-data.md)
 ### [Pre-requisites and system requirements](system-requirements-omnichannel.md)
 ### [Assign roles and enable users](administrator/add-users-assign-roles.md)
@@ -26,16 +25,19 @@
 #### [Configure settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md)
 ### [Delete Omnichannel solutions](administrator/delete-solution.md)
 
-### [Integrate a bot](administrator/configure-bot.md)
+### [Integrate an Azure bot](administrator/configure-bot.md)
 
 ### Channels
 #### [Configure a chat channel](administrator/set-up-chat-widget.md)
 ##### [Add a chat widget](administrator/add-chat-widget.md)
+##### [Configure download and email of chat transcripts](administrator/download-email-chat-transcripts.md)
 ##### [Configure agent display name](administrator/agent-display-name.md)
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
 ##### [Embed chat widget in Dynamics 365 Portals](administrator/embed-chat-widget-portal.md)
+##### [Configure proactive chat](administrator/proactive-chat.md)
 #### [Configure an SMS channel](administrator/configure-sms-channel.md)
+#### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
 #### Entity records
 ##### [Entity records routing](administrator/entity-channel.md)
 ##### [Route trigger for entity records](administrator/routing-trigger.md)
@@ -75,6 +77,7 @@
 <!--#### [Enable supervisors to monitor and assign conversations](administrator/configure-ongoing-conversations-settings.md)-->
 #### [Enable sentiment analysis](administrator/enable-sentiment-analysis.md)
 #### [Configure Omnichannel Insights dashboards](administrator/configure-historical-sentiment-dashboard-supervisor.md)
+
 
 ### Settings
 #### [Create and manage operating hours](administrator/create-operating-hours.md)
@@ -135,15 +138,21 @@
 #### [View Omnichannel conversation and Omnichannel session in Model-driven apps](agent/agent-usd/view-omnichannel-conversation-session.md)
 #### [View customer summary for an incoming conversation request](agent/agent-usd/view-customer-summary-incoming-conversation-request.md)
 
-
 ## Supervisor guide
 ### [Introduction to intraday supervisor experiences](supervisor/intro-intraday-insights-dashboard.md)
-#### [View and understand Omnichannel intraday insights](supervisor/intraday-insights-dashboard.md) 
+#### [View and understand Omnichannel intraday insights](supervisor/intraday-insights-dashboard.md)
 #### [View and understand Omnichannel Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
-#### [Monitor conversations](supervisor/monitor-conversations.md)
+
 <!--#### [Assign conversations](supervisor/assign-conversations.md)-->
-### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
+### Introduction to Omnichannel Insights
+#### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
 #### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)
+
+### Monitor Conversations
+#### [Monitor conversations](supervisor/monitor-conversations.md)
+#### [Sentiment Monitoring](supervisor/supervisor-sentiment-monitoring.md)
+
+
 
 
 ## System customizer guide
@@ -154,7 +163,7 @@
 
 ### [Customize the session forms](customizer/customize-session-form.md)
 ### [Configure link to conversation button in model-driven app entity form](customizer/configure-link-to-conversation-model-driven-app-form.md)
-### [Configure relevance search for chat transcript](customizer/relevance-search-chat-transcript.md)
+### [Configure relevance search for transcripts](customizer/relevance-search-chat-transcript.md)
 ### Unified Service Desk settings
 #### [Create agent and supervisor configurations in Unified Service Desk](customizer/create-agent-supervisor-configurations-unified-service-desk.md)
 
@@ -216,12 +225,15 @@
 
 ## Developer guide
 ### [Overview](developer/omnichannel-developer.md)
-### [Manage custom context](developer/how-to/send-context-starting-chat.md)
-### [Display custom context](developer/how-to/display-custom-context.md)
-### [Send authentication token](developer/how-to/send-auth-token-starting-chat.md)
-### [Initiate a chat](developer/how-to/initiate-chat-wait-time.md)
-### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
-### [Automatic closure of a conversation](developer/auto-close-conversation.md)
+### How to
+#### [Manage custom context](developer/how-to/send-context-starting-chat.md)
+#### [Display custom context](developer/how-to/display-custom-context.md)
+#### [Send authentication token](developer/how-to/send-auth-token-starting-chat.md)
+#### [Initiate a chat](developer/how-to/initiate-chat-wait-time.md)
+#### [Start chat proactively](developer/how-to/start-proactive-chat.md)
+#### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
+#### [Auto-close a conversation](developer/auto-close-conversation.md)
+#### [Build a custom smart assist bot](developer/how-to/smart-assist-bot.md)
 ### Entity reference
 #### [Deprecated entities](developer/reference/entities/deprecated-entities.md)
 #### [msdyn_analytics](developer/reference/entities/msdyn_analytics.md)
@@ -252,6 +264,7 @@
 #### [msdyn_operatinghour](developer/reference/entities/msdyn_operatinghour.md)
 #### [msdyn_presence](developer/reference/entities/msdyn_presence.md)
 #### [msdyn_questionsequence](developer/reference/entities/msdyn_questionsequence.md)
+#### [msdyn_routingruleinstance](developer/reference/entities/msdyn_routingruleinstance.md)
 #### [msdyn_searchconfiguration](developer/reference/entities/msdyn_searchconfiguration.md)
 #### [msdyn_sentimentanalysis](developer/reference/entities/msdyn_sentimentanalysis.md)
 #### [msdyn_sessionevent](developer/reference/entities/msdyn_sessionevent.md)
@@ -261,6 +274,7 @@
 #### [msdyn_surveyquestion](developer/reference/entities/msdyn_surveyquestion.md)
 #### [msdyn_systemuser_msdyn_omnichannelqueue](developer/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md)
 #### [msdyn_transcript](developer/reference/entities/msdyn_transcript.md)
+#### [msdyn_visitorjourney](developer/reference/entities/msdyn_visitorjourney.md)
 ### Live chat JavaScript API Reference
 #### [Overview](developer/omnichannel-reference.md)
 #### [Methods]()
@@ -271,12 +285,20 @@
 ##### [getAuthTokenProvider](developer/reference/methods/getAuthTokenProvider.md)
 ##### [removeAuthTokenProvider](developer/reference/methods/removeAuthTokenProvider.md)
 ##### [startChat](developer/reference/methods/startChat.md)
+##### [startProactiveChat](developer/reference/methods/startProactiveChat.md)
 #### [Events]()
 ##### [lcw:ready](developer/reference/events/lcw-ready.md)
 ##### [lcw:error](developer/reference/events/lcw-error.md)
 #### [Error code reference](developer/reference/error-code-reference.md)
-
+### [runMacro](developer/reference/methods/runMacro.md)
+### Action Reference
+#### [msdyn_ApplyRoutingRuleEntityRecord](developer/reference/actions/msdyn_ApplyRoutingRuleEntityRecord.md)
 ## Troubleshooting, readme, and FAQs
 ### [Readme](omnichannel-readme.md)
 ### [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
 ### [FAQs](faqs.md)
+
+
+# [Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/customer-service/help-hub)
+# [Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)
+# [Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)

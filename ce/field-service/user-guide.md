@@ -125,6 +125,9 @@ After that, look into using [agreements](https://docs.microsoft.com/dynamics365/
 ### Resource Scheduling Optimization
 The pinnacle of field service scheduling is Resource Scheduling Optimization (RSO), which automatically schedules work orders (and other requirements) to the best resources in order to minimize total travel time and maximize working hours.
 
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [What is RSO?](https://youtu.be/3W7hI-6dZhg)
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [QuickStart: Auto schedule a list of work orders](https://youtu.be/oJ-3HTJWRMo)
+
 Learn how to [deploy, configure, and run RSO](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/rso-overview).
 
 

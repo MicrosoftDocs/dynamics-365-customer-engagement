@@ -1,9 +1,12 @@
 ---
-title: "Develop sales from lead-to-cash process in Dynamics 365 Sales Professional | MicrosoftDocs"
+title: "Develop sales from lead to cash in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Use the sales process in Dynamics 365 Sales Professional to close more deals and improve customer satisfaction."
+keywords: ""
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 ms.assetid: b63a4880-f1ef-4908-b5f7-98065da556ae
 author: shubhadaj
@@ -11,7 +14,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Develop sales from lead-to-cash process in Dynamics 365 Sales Professional
+# Develop sales from lead to cash in Dynamics 365 Sales Professional
 
 The sales process in Dynamics 365 Sales Professional helps you close more deals and achieve higher customer satisfaction. You can achieve more consistent sales interactions by following the sales process as it takes you through each stage, from creating a lead to closing the opportunity and recording the sale.
 You also end up with a more complete history that you can refer to later, if you plan to work with your customer again in the future or if your customer needs support.

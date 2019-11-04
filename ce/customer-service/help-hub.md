@@ -1,24 +1,19 @@
 ---
-title: Quick help for Customer Service Hub for Dynamics 365 Customer Service | MicrosoftDocs
-description: Your starting point for help of Customer Service Hub for Dynamics 365 Customer Service
+title: "Help resources for Dynamics 365 Customer Service | MicrosoftDocs"
+description: "A starting point for help of Customer Service Hub for Dynamics 365 Customer Service."
+ms.date: 11/04/2019
+ms.service:
+  - "dynamics-365-customerservice"
+ms.custom:
+  - "dyn365-customerservice"
+ms.topic: get-started-article
+ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
-ms.date: 11/20/2018
-ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ---
 
-# Customer Service Hub Help & Training
+# Help resources for Customer Service Hub
 
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/6e415bd9-49b7-4416-b744-70278d9fa077" frameborder="0" allowfullscreen=""></iframe></div>
@@ -127,14 +122,13 @@ search.app:
 </ul>
 </td>
 
-<td>&#160;</td>
+<td>
+<h2>Related apps & framework</h2>
+
+<li><a href="https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide)">Omnichannel for Customer Service Guide</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk" data-raw-source="[Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)">Unified Service Desk Guide</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)">Dynamics 365 Channel Integration Framework Guide</a></li>
+
+</td>
 
 </tr>
-
-
-
-
-
-
-
-

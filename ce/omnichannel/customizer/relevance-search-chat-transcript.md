@@ -1,5 +1,5 @@
 ---
-title: "Configure relevance search for chat transcript  | MicrosoftDocs"
+title: "Configure relevance search for transcripts  | MicrosoftDocs"
 description: "Learn how to configure relevance search for chat transcript so agents can search in Omnichannel for Customer Service app."
 author: kabala123
 ms.author: kabala
@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: C85FD1F9-A022-4215-9D48-685A32C8262F
 ---
-# Configure relevance search for chat transcript 
+# Configure relevance search for transcripts 
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 

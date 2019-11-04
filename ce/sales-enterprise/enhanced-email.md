@@ -14,7 +14,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Compose and send email using the enhanced email experience
+# Send email using the enhanced email experience
 
 The enhanced email experience in Dynamics 365 Sales allows sales reps to compose an email without leaving the record they’re working on. With the enhanced email experience, you can:
 

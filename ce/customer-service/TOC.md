@@ -23,6 +23,11 @@
 #### [Create and manage parent and child cases](user-guide-customer-service.md#create-and-manage-parent-and-child-cases)
 #### [Find knowledge articles from within a record](find-knowledge-articles-within-record-dynamics-365.md)
 
+### Customer Service Analytics for Dynamics 365
+#### [Introduction to Customer Service Analytics](introduction-customer-service-analytics.md)
+#### [View and understand Customer Service Analytics](customer-service-analytics.md)
+#### [Configure Customer Service Analytics](configure-customer-service-analytics-dashboard.md)
+
 ## Service Manager Guide
 ### [Understand Service Management](service-manager-guide.md)
 ### Case Settings
@@ -106,4 +111,7 @@
 ## Developer guide
 ### [Create knowledge article using template](create-knowledge-article-using-template.md)
 ### [Extend transformer logic on templates](extend-tranformer-logic-template.md)
-### [Channel Integration Framework Guide](channel-integration-framework/channel-integration-framework.md)
+
+## [Omnichannel for Customer Service Guide](https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide)
+## [Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)
+## [Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)

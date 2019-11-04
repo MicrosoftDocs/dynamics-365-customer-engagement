@@ -25,10 +25,11 @@ search.app:
 
 # Sign up for a free trial of Dynamics 365 Marketing
 
-You can sign up for, install, and use a trial version of Dynamics 365 Marketing for free.
+You can sign up for, install, and use a trial version of Dynamics 365 Marketing for free. Trials last for 30 days.
 
 > [!IMPORTANT]
 > - You will receive a trial Dynamics 365 instance together with your Marketing trial. You must run the Marketing trial on a trial instance, and can't install it on a production instance.
+> - You can't convert a trial instance into a production instance.
 > - You can install, at most, one Dynamics 365 Marketing trial per Microsoft 365 tenant.
 > - You can only install the trial if you are located in a country/region where the product is supported. To read the latest list of countries/regions where you can use Dynamics 365 Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
 
@@ -36,7 +37,7 @@ You can sign up for, install, and use a trial version of Dynamics 365 Marketing 
 > Your system is constrained by certain limits and quotas that apply to the number of contacts you can market to, monthly email messages you can send, Litmus previews you can view, and more. Please familiarize yourself with the terms and limits of the product before you begin to use it. The limits are different based on whether you are running a trial, preview, or subscribed version of the product.
 > 
 > - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
-> - For trial and previews, see [Dynamics 365 Marketing limits for trials and previews](trial-preview-limits.md).
+> - For trials, see [Dynamics 365 Marketing limits for trials](trial-preview-limits.md).
 > 
 > You can keep an eye on your usage levels by going to  **Settings**  >  **Advanced settings**  >  **Other settings**  >  **Quota limits**  in Dynamics 365 Marketing. More information: [Quota limits](quota-management.md)
 > 

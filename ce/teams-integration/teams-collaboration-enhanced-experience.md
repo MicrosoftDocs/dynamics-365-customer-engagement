@@ -1,7 +1,7 @@
 ---
-title: "Enhanced Collaboration Experience with Teams| MicrosoftDocs"
+title: "Enhanced Collaboration Experience with Microsoft Teams| MicrosoftDocs"
 ms.custom: 
-description: "Connect with Microsoft Teams and collaborate with team members using the Dynamics 365 app for Teams."
+description: "Connect with Microsoft Teams and collaborate with team members using the Dynamics 365 app for Microsoft Teams."
 ms.date: 10/16/2019
 ms.reviewer: 
 ms.service: crm-online
@@ -21,13 +21,13 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Enhanced Collaboration Experience with Team
+# Enhanced Collaboration Experience with Microsoft Teams
 
-Easily connect a model-driven app record or view to a Teams channel using the **Collaborate** button on the record or view page. The step-by-step process will help you connect the selected record or view to a Microsoft Teams channel.
+Easily connect a model-driven app record or view to a Microsoft Teams channel using the **Collaborate** button on the record or view page. The step-by-step process will help you connect the selected record or view to a Microsoft Teams channel.
 
 The [basic collaboration experience](teams-collaboration.md) only lets you pin a record or a view to a team channel from within Microsoft Teams. The enhanced collaboration experience includes everything in the [basic collaboration experience](teams-collaboration.md) and also lets you pin connect a record or a view to a team channel while you are working in model-driven apps in Dynamics 365. 
 
-## Connect a record or a view to a team channel from model-driven apps in Dynamics
+## Connect a record or a view to a team channel from model-driven apps in Dynamics 365
 
 1. In your model-driven app, open a record or view.
 2. When the record or view is open, on the command bar, select **Collaborate**.
@@ -41,7 +41,7 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
       > [!div class="mx-imgBorder"]
       > ![Get started button](media/teams-get-started-2.png "Selected Get Started")
 
-    - **If there is channel that is already connected**: You can use the existing connected channel by selecting the channel and then select **Start collaboration**. This will open Microsoft Teams and navigate to the connected channel that you selected. Or, you can connect the current record or view to another team channel by selecting, **Create a new connection**.
+    - **If there is channel that is already connected**: You can use the existing connected channel by selecting the channel and then select **Start collaboration**. This will open Microsoft Teams and navigate to the connected channel that you selected, or you can connect the current record or view to another team channel by selecting, **Create a new connection**.
 
       > [!div class="mx-imgBorder"]
       > ![Select existing channel](media/teams-existing-channel-screen-note.png "Selected existing channel")
