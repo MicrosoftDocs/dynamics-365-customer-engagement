@@ -37,7 +37,7 @@ RSO will not automatically run again for the rest of the work day. The dispatche
 
 Overnight scheduling saves time by letting RSO handle the bulk of scheduling during non-work hours while still relying on the expertise of dispatchers. 
 
-# Prerequisites
+## Prerequisites
 
 - Field Service version 7.x+.
 - Resource Scheduling Optimization version 1.5+.
