@@ -73,10 +73,10 @@ When creating a goal for SRO, keep in mind that SRO is typically used to clean u
 
 Next, add your SRO goal as the default goal.
 
-Go to **Resource Scheduling app** > **Settings** > **Administration** > **Scheduling Parameters** > **Resource Scheduling Optimization section** and enter your newly created default goal. 
+Go to **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameters** > **Resource Scheduling Optimization section** and enter your newly created default goal. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the default goal on a scheduling paramter set to SRO](./media/rso-sro-default-goal.png)
+> ![Screenshot of the default goal on a scheduling parameter set to SRO](./media/rso-sro-default-goal.png)
 
 > [!Note]
 > A default goal is created automatically when RSO is deployed.
@@ -120,7 +120,7 @@ You will now see:
    
 ### Run after making changes to defaults
 
-You can also change the defaul goal and time range before running the optimization. For instance, extending the time range to a second day means that SRO may take jobs from the next day and fit them in the first day if the resource has availability. 
+You can also change the default goal and time range before running the optimization. For instance, extending the time range to a second day means that SRO may take jobs from the next day and fit them in the first day if the resource has availability. 
 
 Click a resource's name to select it, then go to the **Optimizations** panel.
 
