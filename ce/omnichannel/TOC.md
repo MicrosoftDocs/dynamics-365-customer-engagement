@@ -2,7 +2,6 @@
 
 ## Get started
 ### [Introduction](introduction-omnichannel.md)
-### [Preview features in Omnichannel for Customer Service](preview-features.md)
 ### [Try channels in Omnichannel for Customer Service](try-chat-for-dynamics365.md)
 ### [Chat for Dynamics 365 Customer Service demo data](chat-dynamics365-customer-service-demo-data.md)
 ### [Pre-requisites and system requirements](system-requirements-omnichannel.md)
@@ -31,6 +30,7 @@
 ### Channels
 #### [Configure a chat channel](administrator/set-up-chat-widget.md)
 ##### [Add a chat widget](administrator/add-chat-widget.md)
+##### [Configure download and email of chat transcripts](administrator/download-email-chat-transcripts.md)
 ##### [Configure agent display name](administrator/agent-display-name.md)
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
@@ -77,6 +77,7 @@
 <!--#### [Enable supervisors to monitor and assign conversations](administrator/configure-ongoing-conversations-settings.md)-->
 #### [Enable sentiment analysis](administrator/enable-sentiment-analysis.md)
 #### [Configure Omnichannel Insights dashboards](administrator/configure-historical-sentiment-dashboard-supervisor.md)
+
 
 ### Settings
 #### [Create and manage operating hours](administrator/create-operating-hours.md)
@@ -137,15 +138,21 @@
 #### [View Omnichannel conversation and Omnichannel session in Model-driven apps](agent/agent-usd/view-omnichannel-conversation-session.md)
 #### [View customer summary for an incoming conversation request](agent/agent-usd/view-customer-summary-incoming-conversation-request.md)
 
-
 ## Supervisor guide
 ### [Introduction to intraday supervisor experiences](supervisor/intro-intraday-insights-dashboard.md)
-#### [View and understand Omnichannel intraday insights](supervisor/intraday-insights-dashboard.md) 
+#### [View and understand Omnichannel intraday insights](supervisor/intraday-insights-dashboard.md)
 #### [View and understand Omnichannel Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
-#### [Monitor conversations](supervisor/monitor-conversations.md)
+
 <!--#### [Assign conversations](supervisor/assign-conversations.md)-->
-### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
+### Introduction to Omnichannel Insights
+#### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
 #### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)
+
+### Monitor Conversations
+#### [Monitor conversations](supervisor/monitor-conversations.md)
+#### [Sentiment Monitoring](supervisor/supervisor-sentiment-monitoring.md)
+
+
 
 
 ## System customizer guide
