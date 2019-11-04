@@ -34,7 +34,7 @@ Once you have created your bot and connected it to an Omnichannel for Customer S
 * Azure Application ID - You will need an application registered in Azure prior to connecting to Omnichannel for Customer Service. [Learn more](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application)
 * Bot - You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. For more information, see [Configure seamless and contextual hand-off to Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
 
-## Configure your Power Virtual Agents bot in Omnichannel
+## Configure your Power Virtual Agents bot
 Once the Power Virtual Agents bot is created and configured to work with Omnichannel for Customer Service, you can configure it to hand off conversations to queues in the Omnichannel Administration app. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup. You can change them in the **Work Streams** section of Omnichannel.
 
 **Set up your Power Virtual Agents bot**
