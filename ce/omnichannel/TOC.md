@@ -297,3 +297,8 @@
 ### [Readme](omnichannel-readme.md)
 ### [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
 ### [FAQs](faqs.md)
+
+
+# [Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/customer-service/help-hub)
+# [Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)
+# [Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)
