@@ -6,14 +6,14 @@ author: sbmjais
 ms.author: ktaylor
 manager: shujoshi
 applies_to: 
-ms.date: 10/30/2019
+ms.date: 11/04/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: e5c82c7b-bd48-4eca-a157-e4b349e3baf8
 ms.custom: 
 ---
 
-# Preview: Integrate a Power Virtual Agent bot
+# Preview: Integrate a Power Virtual Agents bot
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -21,49 +21,49 @@ ms.custom:
 
 > [!IMPORTANT]
 > - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
+> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
+> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
-Microsoft Dynamics 365 Power Virtual Agent for Customer Service allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, agents can see the full transcript of bot conversations and have complete context while engaging with customers.
+Microsoft Power Virtual Agents allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, agents can see the full transcript of bot conversations and have complete context while engaging with customers.
 
 Once you have created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the Omnichannel configuration in order to add your bot to queues and configure context variables to route chat sessions to queues. 
 
 ## Prerequisites
-* Product license - You need a product license for both Power Virtual Agents ([click here to start a trial](https://go.microsoft.com/fwlink/p/?LinkId=2092080&clcid=0x409)) and Omnichannel for Customer service ([click here to learn more](https://docs.microsoft.com/dynamics365/customer-engagement/omnichannel/try-chat-for-dynamics365))
-* Role - In order to successfully complete these steps, signed in user must be a "Omnichannel Administrator" in Omnichannel. [Click here to learn more about managing and assigning user roles in Omnichannel](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/omnichannel/administrator/add-users-assign-roles).
-* Azure Application ID - You will need an application registered in Azure prior to connecting to Omnichannel. [Click here to learn more](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application)
-* Bot - You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. For more information, see [Omnichannel setup & configure](https://github.com/MicrosoftDocs/dynamics-365-ai-pr/blob/pawant-ms-handoff/ai-docs/customer-service-virtual-agent/how-to-setup-omnichannel-handoff.md).
+* Product license - You need a product license for both Power Virtual Agents ([start a trial](https://go.microsoft.com/fwlink/p/?LinkId=2092080&clcid=0x409)) and Omnichannel for Customer service ([learn more](https://docs.microsoft.com/dynamics365/customer-engagement/omnichannel/try-chat-for-dynamics365))
+* Role - In order to successfully complete these steps, the signed-in user must be a Omnichannel Administrator in Omnichannel. [Learn more about managing and assigning user roles in Omnichannel](https://docs.microsoft.com/dynamics365/customer-engagement/omnichannel/administrator/add-users-assign-roles).
+* Azure Application ID - You will need an application registered in Azure prior to connecting to Omnichannel. [Learn more](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application)
+* Bot - You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. For more information, see [Configure seamless and contextual hand-off to Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
 
-## Configure your Power Virtual Agent bot in Omnichannel
-Once the Power Virtual Agent bot is created and configured to work with Omnichannel, you can configure it to hand off conversations to queues in Omnichannel. To receive incoming messages, the bot must be added to at least one queue. The bot will use the routing rules that were created at setup.  You can change them in the Work Streams section of Omnichannel.
+## Configure your Power Virtual Agents bot in Omnichannel
+Once the Power Virtual Agents bot is created and configured to work with Omnichannel, you can configure it to hand off conversations to queues in Omnichannel. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup. You can change them in the **Work Streams** section of Omnichannel.
 
-To set up your Virtual Agent bot:
-1. Connect virtual agent to Omnichannel and go to the Omnichannel configuration. For more information, see [Omnichannel setup & configure](https://github.com/MicrosoftDocs/dynamics-365-ai-pr/blob/pawant-ms-handoff/ai-docs/customer-service-virtual-agent/how-to-setup-omnichannel-handoff.md).
+**Set up your Power Virtual Agents bot**
+1. Connect the bot to Omnichannel and go to the Omnichannel configuration. For more information, see [Configure seamless and contextual hand-off to Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
 
     ![Virtual Agent bot settings](../media/virtual-agent-bot-settings.png)
     
-    The bot will be auto-created in Omnichannel, and you just need to finish setting it up.
+    The bot will appear in Omnichannel, and you just need to finish setting it up.
 
 2. Assign the bot to an existing queue.
     
     ![Virtual Agent bot select queue](../media/virtual-agent-bot-select-queues.png)
 
-3. Click Done. Now you're on the bot profile page and you can see that your bot is connected. 
+3. Click **Done**. Now you're on the bot profile page and you can see that your bot is connected. 
     
     ![Virtual Agent bot profile page](../media/virtual-agent-bot-profile.png)
     
-    Your Virtual Agent bot is ready to accept and respond to customer-initiated conversations.
+    Your bot is ready to accept and respond to customer-initiated conversations.
     
  4. Set escalation rules so the bot can route the queries to the appropriate agent. You can set up escalation rules in one of two ways:
  
-    - **Add the bot to an existing human agent queue:**	If you add bot to existing human agent queue, you don’t need to change your existing routing rule. Existing routing rules will send incoming messages to the Power Virtual Agent. When a handoff is triggered, customers will be transferred from the Virtual Agent to the human agent according to the escalation routing rules.
+    - **Add the bot to an existing human agent queue:**	If you add the bot to an existing human agent queue, you don’t need to change your existing routing rule. Existing routing rules will send incoming messages to the Power Virtual Agents. When a handoff is triggered, customers will be transferred from the Power Virtual Agents to the human agent according to the escalation routing rules.
     
-    - **Create a bot queue and a human agent queue:** If you create two queues, you must create work streams containing context variables and appropriate routing rules to route the customer queries.
+    - **Create a bot queue and a human agent queue:** If you create two queues, you must create work streams that contain context variables and appropriate routing rules to route the customer queries.
 
-For information on working with queues, see [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md).
+For information about working with queues, see [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md).
 
 > [!NOTE]
-> If you have only one queue with bot and agents, and you didn't create a routing rule, the customer query is redirected to the same queue in case of escalation and picked up by an agent.
+> If you have only one queue with a bot and agents, and you didn't create a routing rule, the customer query is redirected to the same queue in case of escalation and picked up by an agent.
 
 ### Create a bot queue and a human agent queue
 
@@ -73,7 +73,7 @@ For information on working with queues, see [Work with queues in Omnichannel for
     
 2. Create context variables.
 
-You must use the context variables that were created during setup for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information about context variables, see [Contextual variables available upon hand-off](https://github.com/MicrosoftDocs/dynamics-365-ai-pr/blob/pawant-ms-handoff/ai-docs/customer-service-virtual-agent/how-to-trigger-contextual-handoff.md#contextual-variables-available-upon-hand-off).
+You must use the context variables that were created during setup for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information about context variables, see [Contextual variables available upon hand-off](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/how-to-handoff#contextual-variables-available-upon-hand-off).
 
    > [!div class=mx-imgBorder]
    > ![Virtual Agent work stream context variable](../media/virtual-agent-work-stream-context-variables.png "Virtual Agent work stream context variable")
@@ -90,12 +90,11 @@ You must use the context variables that were created during setup for the bot to
 
 Routing rules route the incoming customer queries to their respective queues. Each routing rule has a condition and a destination queue. If the condition is evaluated as true, the customer query is routed to the destination queue. For bots, the condition is built by using the context variable.
 
-Bots are developed to receive customer queries first, gain information of the query,  and then pass the query to a human agent, if required. To achieve this behavior, you must add a bot user to the queue and configure routing rules in a way that the incoming customer queries are routed to the queue with bot user.
+Bots are developed to receive customer queries first, gain information of the query, and then pass the query to a human agent, if required. To achieve this behavior, you must add a bot user to the queue and configure routing rules in a way that the incoming customer queries are routed to the queue with bot user.
 
 Ensure to map the routing rules to the correct queues so that the queries are routed appropriately. For information about routing rules, see [Create and manage routing rules](routing-rules.md).
 
-[!INCLUDE [handoff-known-limitations](/power-virtual-agents/includes/handoff-known-limitations.md?branch=iawilt-ho-updates)]
-
+For more information about known limitations of this feature, see [Known limitations](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel#known-limitations).
 
 ## Privacy notice
 
