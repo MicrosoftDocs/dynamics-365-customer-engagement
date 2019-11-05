@@ -579,8 +579,8 @@ After you update, when you sign in to the Unified Service Desk client applicatio
 
 [Update Unified Service Desk Component type to Chrome](../chrome-process.md)
 
-[Create custom panel layout](create-custom-panel-layout.md)
+[Create custom panel layout](../create-custom-panel-layout.md)
 
-[Customize themes in Unified Service Desk](customize-themes-in-unified-service-desk.md)
+[Customize themes in Unified Service Desk](../customize-themes-in-unified-service-desk.md)
 
-[Configure toolbars in your application](configure-toolbars-application.md)
+[Configure toolbars in your application](../configure-toolbars-application.md)
