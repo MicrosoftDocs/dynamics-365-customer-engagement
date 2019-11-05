@@ -28,7 +28,7 @@ search.app:
 
 # Bug fixes
 
-In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field Service, Connected Field Service (CFS), and Resource Scheduling Optimization (CFS). For information about other updates to Field Service, visit the [Dynamics 365 Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). 
+In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field Service, Field Service Mobile, Connected Field Service (CFS), and Resource Scheduling Optimization (CFS). For information about other updates to Field Service, visit the [Dynamics 365 Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). 
 
 ## Month, Year
 
