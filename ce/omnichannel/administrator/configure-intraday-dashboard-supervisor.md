@@ -111,12 +111,16 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     
     -OR-
 
+
+    <!--from editor: In the following image, I don't see where you select Add existing work space. -->
+
+
     If you want to add an existing Power BI workspace, select **Add existing work space** and the existing workspaces are listed. Select the workspace that you want to add.
 
     > [!div class=mx-imgBorder]
     > ![Add existing Power BI workspace](../media/supervisor-admin-add-existing-workspace.png "Add existing Power BI workspace")  
         
-6.  Select **Configure**. The workspace creation takes a few seconds and a confirmation message is displayed with the generated workspace ID.
+6.  Select **Configure**. The workspace creation takes a few seconds and then a confirmation message is displayed with the generated workspace ID.
 
     > [!div class=mx-imgBorder]
     > ![Power BI workspace ID](../media/supervisor-admin-power-bi-workspace-id.png "Power BI workspace ID")  
