@@ -21,7 +21,7 @@ search.app:
 
 # Data validation
 
-This article describes the data validation capabilities of the LinkedIn Sales Navigator solution for Dynamics 365 Sales that helps you keep the organizational structure of your matched leads up-to-date. It uses information from LinkedIn to validate the infromation on records in Dynamics 365 Sales and enables you to check back on pending opportunities or have a useful icebreaker when getting in touch with a lead.
+This article describes the data validation capabilities of the LinkedIn Sales Navigator solution for Dynamics 365 Sales that helps you keep the organizational structure of your matched leads up-to-date. It uses information from LinkedIn to validate the information on records in Dynamics 365 Sales and enables you to check back on pending opportunities or have a useful icebreaker when getting in touch with a lead.
 
 <!-- find places to link to from other topics -->
 
@@ -31,16 +31,30 @@ To ensure timely updates if a matched lead changes the role or the company, the 
 
 - The CRM sync capability in LinkedIn Sales Navigator is activated by an administrator
 
-- The data validation capabilities in Sales Insights settings is turned on
+- The data validation settings are turned on in **Settings** > **Business Management** > **Sales Navigator Integration Settings**
 
 ## Access the data validation capabilities Dynamics 365 Sales
 
-There are several ways to find out if a lead's organization or role has changed. 
+There are several ways to find out if a person's organization or role has changed.
 
-- From the org chart on a company record: A red dot next to a person's name in the org chart indicates their role or organization has changed since you built the org chart. 
+- From the org chart on an Account record: A red dot next to a person's name in the org chart indicates their role or organization has changed since you built the org chart.
 
-- From the contact card of a lead or opportunity that was matched with a LinkedIn Sales Navigator lead: You can change the values for the new company or hierarchy right in the side bar of the contact.
+- From the **Relationship Assistant** card in the on the **Sales Activity Social Dashboard**. To turn on the Relationship Assistant card, go to **Settings** > **Sales Insights** > **Insight cards**
 
-- From the Relationship Assistant card in the on the dashboard of Sales Insights. 
+- From the **Opportunities** > **All Opportunities at Risk - Contact left** view in Dynamics 365 Sales.
 
-- From the **Opportunities** > **All Opportunities at Risk** view in Dynamics 365 Sales
+- From the **Contacts** > **All Contacts Not at Company** view in Dynamics 365 Sales.
+
+## Update the contact details
+
+To update the org chart for a specific person, perform the following steps in the **Verify Contact Deatils** pane.
+
+1. In Dynamics 365 Sales, open the **Verify Contact Details** pane as described in the section above.
+
+2. Under the LinkedIn Sales Navigator widget, search for the new account of this person using the **Change Account** field.
+
+3. Select **Update contact** to change the company information of the person.
+
+## Ignore the contact details
+
+To ignore a proposed update of an org chart, select **Ignore Update**  in the **Verify Contact Deatils** pane.
