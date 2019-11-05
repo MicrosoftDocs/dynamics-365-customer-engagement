@@ -61,7 +61,7 @@ In Dynamics 365 Portals, go to **Settings** > **Settings**, and add a new settin
 
 You must add cross-origin resource sharing (CORS) rule on your [!include[Azure](../includes/pn-azure-shortest.md)] Storage account as follows, otherwise you will see the regular attachment icon rather than the cloud icon:
 
-- **Allowed origins**: Specify your domain. For example, contoso.crm.dynamics.com.
+- **Allowed origins**: Specify your domain. For example, http://contoso.crm.dynamics.com.
 - **Allowed verbs**: GET, PUT, DELETE, HEAD, POST
 - **Allowed headers**: Specify the request headers that the origin domain may specify on the CORS request. For example, x-ms-meta-data\*, x-ms-meta-target\*. 
 - **Exposed headers**: Specify the response headers that may be sent in the response to the CORS request and exposed by the browser to the request issuer. For example, x-ms-meta-\*.
