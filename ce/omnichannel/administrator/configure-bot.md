@@ -186,9 +186,6 @@ You can purchase additional bot conversations from Microsoft 365 admin center.
 
 3.	Under **Add-ons**, select **Dynamics 365 for Customer Service Chatbot session add-on**.
 
-    > [!NOTE]
-    > For the Government Cloud region, select **Dynamics 365 for Customer Service Chatbot session add-on for Government**.
-
 4.	Select the number of add-ons required and complete the purchase.
 
 ## Privacy notice
