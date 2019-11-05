@@ -77,12 +77,15 @@ Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with
    | Top Level Window Mode | None |
    | Assembly URI | `Microsoft.Uii.Csr.CitrixIntegration` |
    | Assembly Type | `Microsoft.Uii.Csr.CitrixIntegration.CitrixApplicationHostedControl` |
-   | ICA File Name |`C:\Q29udHJvbGxlci5DYWxjdWxhdG9y.ica` <br> Specify the full path to the .ica file required for launching the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application. An .ica file contains information to connect to the remote server  such as the server address, session properties, and authentication information. <br> **Note:** Citrix generates the ICA file on-the-go using the Citrix application portal. However, the out-of-the-box implementation in Unified Service Desk does not support on-the-go generated ICA file. |
+   | ICA File Name |`C:\Q29udHJvbGxlci5DYWxjdWxhdG9y.ica` <br> Specify the full path to the .ica file required for launching the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application. An .ica file contains information to connect to the remote server  such as the server address, session properties, and authentication information. |
    | Process Acquisition Attempts | 5 <br> Specify the number of times the server-side executable file should scan the process table to look for the process running the launched Citrix application. The Citrix application process may take a little while to appear in the process table. |
    | Process Acquisition Delay | 5000 <br> Specify the delay in milliseconds between each process table scan. |
    | Process Acquisition FileName | Specify the complete path to the Citrix application file name. This value is used by the server-side executable file to compare against the file names of the running processes to find a match. |
   
-6. Save the hosted control.  
+6. Save the hosted control.
+
+> [!Note]
+> Citrix generates the ICA file on-the-go using the Citrix application portal. However, the out-of-the-box implementation in Unified Service Desk does not support on-the-go generated ICA file.
   
 ### Copy executable, apply registry patch, and add Citrix config settings  
  This step must be performed on each computer where the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application is installed.  
