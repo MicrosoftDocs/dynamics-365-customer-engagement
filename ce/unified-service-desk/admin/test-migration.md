@@ -78,9 +78,9 @@ The **PageLoadComplete** event maps to **DataReady** event in web client. After 
 
 The **AssociatedView** action call is used to open entity view. In web client, to open associated view of an entity, you might've defined the navigate action call with the URL for the corresponding associated view.
 
-The parameters for **AssociatedView** action call in the [Unified Interface Page](unified-interface-page-hosted-control?#associatedview) is different from [CRM Page](crm-page-hosted-control?#associatedview) hosted control.
+The parameters for **AssociatedView** action call in the [Unified Interface Page](../unified-interface-page-hosted-control.md#associatedview) is different from [CRM Page](../crm-page-hosted-control.md#associatedview) hosted control.
 
-You need to update parameters of the **AssociatedView** action call in the Unified Interface Page hosted control. To learn more, see [Unified Interface Page](unified-interface-page-hosted-control?#associatedview).
+You need to update parameters of the **AssociatedView** action call in the Unified Interface Page hosted control. To learn more, see [Unified Interface Page](../unified-interface-page-hosted-control.md#associatedview).
 
 **For example:**
 
@@ -130,7 +130,7 @@ After you create the record, update the following:
 - [**Custom Styles** field in the About toolbar](#update-custom-styles-field-in-the-about-toolbar)
 - [Session overview lines XML in Session Lines](#update-session-overview-lines-xml-in-session-lines)
 
-To learn more, see [Customize themes in Unified Service Desk](customize-themes-in-unified-service-desk.md)
+To learn more, see [Customize themes in Unified Service Desk](../customize-themes-in-unified-service-desk.md)
 
 #### Update custom panel layout XML
 
@@ -360,7 +360,7 @@ To learn more, see [Customize themes in Unified Service Desk](customize-themes-i
 </Grid> 
 ```
 
-To learn more, see [Create custom panel layout](create-custom-panel-layout.md)
+To learn more, see [Create custom panel layout](../create-custom-panel-layout.md)
 
 #### Update Custom Styles field in the Main toolbar
 
