@@ -37,7 +37,12 @@ Before we begin, here are the top places for information about Field Service:
 - [YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X): This includes concept videos for Field Service.
 
 - [Video tutorials](https://aka.ms/fs-videos): Step by step video tutorials for work orders, scheduling, and more.
-
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Using Field Service work orders, scheduling, mobile app, reporting, and more](https://youtu.be/uJPAfYGMhLo)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service installation and setup](https://youtu.be/hvcqAbe4g4E)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Bookable Resources](https://youtu.be/g118F_LnxyE)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Automated scheduling scenarios with Field Service](https://youtu.be/fcQwIXgmnqk)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up automatic scheduling for work orders](https://youtu.be/oJ-3HTJWRMo)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
 - [Ideas](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service): This is the portal where you can contribute product feedback and ideas.
 
 - [Forum](https://community.dynamics.com/365/fieldservice): Go here to ask questions, find answers, and see upcoming events.
@@ -73,6 +78,8 @@ The purpose of this section is to help you set up a Field Service environment an
 ### Set up an environment
 This includes deploying an environment, setting up users, and performing initial administrative actions.
 
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service installation and setup](https://youtu.be/hvcqAbe4g4E)
+
 - [Install Field Service (web + mobile)](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service)
 
 - [Setup Users and Security roles](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/view-user-accounts-security-roles)
@@ -86,8 +93,9 @@ This includes creating a work order, scheduling it to a resource, and viewing it
 
 Additionally, configuring the core Field Service scenario involves understanding resources, work orders, scheduling, and the mobile app.
 
-#### Resources
+#### Bookable Resources
 
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Bookable Resources](https://youtu.be/g118F_LnxyE)
 - [Set up Bookable Resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources)
 
 #### Work orders
@@ -152,7 +160,7 @@ The purpose of this section is to provide implementation guidance and best pract
 
 When working through implementation scenarios, it is important to know org level details that can be found in [Field Service Settings](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/configure-default-settings).
 
-- [General Field Service implementation best practices (YouTube)](https://youtu.be/LQXpjMMrJIo)
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [General Field Service implementation best practices](https://youtu.be/LQXpjMMrJIo)
 
 ### Scheduling best practices
 - [Types of Scheduling](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/scheduling-capabilities)
