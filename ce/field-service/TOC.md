@@ -5,7 +5,6 @@
 
 # Installation
 ## [Field Service installation (web + mobile)](install-field-service.md)
-## [Version history (web + mobile)](version-history.md)
 ## [AppSource add-ins for Field Service](appsource-addins.md)
 
 # Administration
@@ -160,6 +159,9 @@
 # Integrations
 ## [Dynamics 365 Remote Assist and HoloLens](remote-assist-hololens.md)
 ## [Dynamics 365 Guides on HoloLens](mixed-reality-guides-integration.md)
+# Resources
+## [Version history (web + mobile)](version-history.md)
+## [Bug fixes](bug-fixes.md)
 # [Troubleshoot with Solution Health Hub](troubleshoot-field-service-solution-health.md)
 # [General FAQs](troubleshoot-faq.md)
 
