@@ -1,6 +1,6 @@
 ---
-title: "Sign up for free trial of Dynamics 365 Sales Professional | MicrosoftDocs"
-description: "Learn how to sign up for free trial of Dynamics 365 Sales Professional."
+title: "Sign up for a free trial of Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Learn how to sign up for a free trial of Dynamics 365 Sales Professional."
 keywords: "try, trial, free, Dynamics 365 Sales, admin"
 ms.date: 10/30/2019
 ms.service:
@@ -12,20 +12,19 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Sign up for free trial of Dynamics 365 Sales Professional
+# Sign up for a free trial of Dynamics 365 Sales Professional
 
-With Microsoft Dynamics 365 Sales Professional, you can streamline your sales processes, shorten sales cycles and integrate seamlessly with Microsoft Office 365 and LinkedIn, so you can - close deals and achieve your quota faster.
+With Microsoft Dynamics 365 Sales Professional, you can streamline your sales processes, shorten sales cycles, and integrate seamlessly with Microsoft Office 365 and LinkedIn, helping you to close deals and achieve your quota faster.
 
-Sales Professional trials are fully functional, but limited to 30 days. Each Sales Professional trial comes pre-installed on a dedicated trial instance. You can't install a Sales Professional trial on an existing instance.
+Sales Professional trials are fully functional, but limited to 30 days. Each Sales Professional trial comes preinstalled on a dedicated trial instance. You can't install a Sales Professional trial on an existing instance.
 
-Dynamics 365 Sales Professional is a cloud-based application that runs on a Microsoft 365 tenant*. Your tenant hosts your cloud applications (including Office 365 and Dynamics 365), provides user and license management, and much more. The procedure for setting up your trial depends on whether you already have a *managed* tenant (which is a tenant where Azure Active Directory (Azure
-AD) is available), an unmanaged tenant, or no tenant at all.
+Dynamics 365 Sales Professional is a cloud-based application that runs on a Microsoft 365 tenant*. Your tenant hosts your cloud applications (including Office 365 and Dynamics 365), provides user and license management, and more. The procedure for setting up your trial depends on whether you already have a *managed* tenant (a tenant where Azure Active Directory is available), an unmanaged tenant, or no tenant at all.
 
--   *If you already have a managed tenant, you can sign up for the Dynamics Sales Professional trial by following the instructions in the section [Installation steps when you belong to an existing Microsoft 365 tenant](#installation-steps-when-you-belong-to-an-existing-microsoft-365-tenant).
+- \*If you already have a managed tenant, you can sign up for the Dynamics Sales Professional trial by following the instructions in the section [Installation steps when you belong to an existing Microsoft 365 tenant](#installation-steps-when-you-belong-to-an-existing-microsoft-365-tenant).
 
 - If you don’t have a Microsoft 365 tenant, you can sign up for the Dynamics Sales Professional trial by following the instructions in the section [Installation steps when you don't belong to an existing tenant](#installation-steps-when-you-dont-belong-to-an-existing-microsoft-365-tenant).
 
--   *If you already have an unmanaged tenant and prefer to continue using it*, then you must first convert it to a managed. For more information, see [Take over an unmanaged directory as administrator in Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=866761). Then continue with the steps in the section [Installation steps when you belong to an existing Microsoft 365 tenant](#installation-steps-when-you-belong-to-an-existing-microsoft-365-tenant).
+-  *If you already have an unmanaged tenant and prefer to continue using it*, then you must first convert it to a managed tenant. For more information, see [Take over an unmanaged directory as administrator in Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=866761). Then continue with the steps in the section [Installation steps when you belong to an existing Microsoft 365 tenant](#installation-steps-when-you-belong-to-an-existing-microsoft-365-tenant).
 
 ## Installation steps when you belong to an existing Microsoft 365 tenant
 
@@ -36,12 +35,12 @@ AD) is available), an unmanaged tenant, or no tenant at all.
     > [!div class="mx-imgBorder"]
     > ![Choose Free trial option on the Pricing page](media/free-trial.png "Choose Free trial option on the Pricing page")
 
-3.  In the **Step up to Sales Professional** page, enter your work email address, and select **Sign up**.
+3.  In the **Step up to Sales Professional** page, enter your work email address and then select **Sign up**.
 
     > [!div class="mx-imgBorder"]
-    > ![Sign up using your work email](media/sign-up.png "Sign up using your work email")
+    > ![Sign up using your work email address](media/sign-up.png "Sign up using your work email address")
 
-4.  Based on the email address, if you are found to belong to an existing Microsoft 365 tenant, you’re asked to read and agree to the terms and conditions and privacy policy.
+4.  Based on the email address, if you are found to belong to an existing Microsoft 365 tenant, you’ll be asked to read and agree to the terms and conditions and privacy policy.
 
     > [!div class="mx-imgBorder"]
     > ![Agree to terms and conditions and select Start](media/accept-terms-and-start.png "Agree to terms and conditions and select Start")
@@ -51,7 +50,7 @@ AD) is available), an unmanaged tenant, or no tenant at all.
 
 5.  Select **Start**.
 
-6.  In the **Permissions requested** page, give consent to allow the app to the permissions it requires on your tenant. Select **Accept**.
+6.  On the **Permissions requested** page, give consent to allow the app the permissions it requires on your tenant. Select **Accept**.
 
     > [!div class="mx-imgBorder"]
     > ![Give app the required permissions](media/permissions-requested-page.png "Give app the required permissions")
@@ -66,12 +65,12 @@ AD) is available), an unmanaged tenant, or no tenant at all.
     > [!div class="mx-imgBorder"]
     > ![Screen showing that the trial is ready](media/trial-ready.png "Screen showing that the trial is ready")
 
-    If you don’t select **Let’s go**, you’re redirected to the Dynamics 365 apps page in a few seconds, from where you can launch the Sales Professional app.
+    If you don’t select **Let’s go**, you’ll be redirected to the Dynamics 365 apps page after a few seconds, from where you can launch the Sales Professional app.
 
     > [!div class="mx-imgBorder"]
-    > ![Launch Sales Professional from the Apps page](media/apps-page-launch-sales-professional.png "Launch Sales Professional from the Apps page")
+    > ![Launch Sales Professional from the apps page](media/apps-page-launch-sales-professional.png "Launch Sales Professional from the apps page")
 
-    On launching the app, you'll see an interactive dashboard which provides a view of the Sales pipeline, Leads, Opportunities, Activities, Sales Leaderboard based on pre-loaded sample data. To see the visual filters as illustrated below, click “Show Visual Filter” in the dashboard command ribbon.
+    On launching the app, you'll see an interactive dashboard that provides a view of the Sales pipeline, Leads, Opportunities, Activities, and Sales Leaderboard based on preloaded sample data. To see the visual filters as illustrated below, select **Show Visual Filter** in the dashboard command ribbon.
 
     > [!div class="mx-imgBorder"]
     > ![Sales dashboard showing important sales data](media/sales-dashboard.png "Sales dashboard showing important sales data")
@@ -85,19 +84,19 @@ AD) is available), an unmanaged tenant, or no tenant at all.
     > [!div class="mx-imgBorder"]
     > ![Choose Free trial option on the Pricing page](media/free-trial.png "Choose Free trial option on the Pricing page")
 
-3.  In the **Step up to Sales Professional** page, enter your work email address, and select **Sign up**.
+3.  In the **Step up to Sales Professional** page, enter your work email address and then select **Sign up**.
 
     > [!div class="mx-imgBorder"]
-    > ![Sign up using your work email](media/sign-up.png "Sign up using your work email")
+    > ![Sign up using your work email address](media/sign-up.png "Sign up using your work email address")
 
-    Because your email address doesn't belong to an existing Microsoft 365 tenant, you can sign up for Sales Professional trial by creating a new managed tenant for your organization and becoming an Administrator of the tenant.  
+    Because your email address doesn't belong to an existing Microsoft 365 tenant, you can sign up for a Sales Professional trial by creating a new managed tenant for your organization and becoming an administrator of the tenant.  
 
     > [!div class="mx-imgBorder"]
     > ![Sign up for the Dynamics 365 Sales Professional admin trial](media/sign-up-admin-trial.png "Sign up for the Dynamics 365 Sales Professional admin trial")
  
 4. To get started, select **Dynamics 365 Sales Professional 30-day admin trial**. 
 
-5. On the trial sign up page, select your Country or region, enter your first name, last name, work email address, business phone number, organization name, organization size, and select **Next**. 
+5. On the trial sign-up page, select your country or region, enter your first name, last name, work email address, business phone number, organization name, and organization size, and then select **Next**. 
 
     > [!div class="mx-imgBorder"]
     > ![Sign-up page to enter your details](media/admin-trial-setup-welcome-screen.png "Sign-up page to enter your details")
@@ -112,22 +111,22 @@ AD) is available), an unmanaged tenant, or no tenant at all.
     > [!div class="mx-imgBorder"]
     > ![Phone verification setup](media/admin-trial-setup-phone-verification.png "Phone verification setup")
 
-8. Enter the verification code that you received on your phone and select **Next**. 
+8. Enter the verification code that you receive on your phone and select **Next**. 
 
     > [!div class="mx-imgBorder"]
     > ![Enter phone verification code](media/admin-trial-setup-verification-code.png "Enter phone verification code")
 
-9. While your tenant and user account is being created, you'll see the sign-in page URL and your user ID. Make a note of these as you will need these later to sign in to your trial.  
+9. While your tenant and user account are being created, you'll see the sign-in page URL and your user ID. Make a note of these because you will need them later to sign in to your trial.  
 
     > [!div class="mx-imgBorder"]
     > ![Save your sign-in information](media/admin-trial-setup-save-details.png "Save your sign-in information")
 
-10. After your account is set up, select **You’re ready to go…**.  
+10. After your account is set up, select **You’re ready to go**.  
 
     > [!div class="mx-imgBorder"]
-    > ![Select You're ready to go...](media/admin-trial-setup-account-setup-complete.png "Select You're ready to go...")
+    > ![Select You're ready to go](media/admin-trial-setup-account-setup-complete.png "Select You're ready to go")
 
-11. You’ll be redirected to Microsoft 365 admin center. Select **Get started**. 
+11. You’ll be redirected to the Microsoft 365 admin center. Select **Get started**. 
 
     > [!div class="mx-imgBorder"]
     > ![Microsoft 365 admin center](media/microsoft-365-admin-center.png "Microsoft 365 admin center")
@@ -137,12 +136,12 @@ AD) is available), an unmanaged tenant, or no tenant at all.
     > [!div class="mx-imgBorder"]
     > ![Select Dynamics 365 from All admin centers page](media/all-admin-centers.png "Select Dynamics 365 from All admin centers")
 
-13. Select the **None of these. Don’t customize my organization** check box and select **Complete Setup**. 
+13. Select the **None of these. Don’t customize my organization** check box and then select **Complete Setup**. 
 
     > [!div class="mx-imgBorder"]
     > ![Select apps](media/admin-trial-setup-select-apps.png "Select apps")
 
-14. After the setup is complete, go to Dynamics 365 Admin Center, and on the **Instances** tab, select the **Dynamics 365 Sales Professional** solution, and select **Install**. Accept the Terms of Service to start the installation.  
+14. After the setup is complete, go to the Dynamics 365 admin center, and on the **Instances** tab, select the **Dynamics 365 Sales Professional** solution, and select **Install**. Accept the Terms of Service to start the installation.  
 
     > [!div class="mx-imgBorder"]
     > ![Install Dynamics 365 Sales Professional solution](media/dynamics365-admin-center-sales-pro-install.png "Install Dynamics 365 Sales Professional solution")
@@ -154,7 +153,7 @@ AD) is available), an unmanaged tenant, or no tenant at all.
 
 
 > [!IMPORTANT]
-> You won’t get any email notification on signing up for the trial or when the trial is about to end. When the trial ends, trial instance and the data in the trial instance will be deleted.
+> You won’t get any email notification on signing up for the trial or when the trial is about to end. When the trial ends, the trial instance and the data in the trial instance will be deleted.
 
 ### See also
 
