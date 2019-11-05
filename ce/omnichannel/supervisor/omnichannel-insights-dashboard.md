@@ -74,10 +74,10 @@ Reporting structure consists of five sections:
    |----------------|----------------------------|
    |Incoming conversation vs Conversations engaged  |This visual compares the volume of conversations initiated by the customers and engaged by an agent.             |
    |Avg wait time vs Abandon rate                  |This visual gives supervisor a correlation between the time customer waited on the queue and abandon rate.                        |
-   |Transfer Rate                                  |This visual compares the transfer rate over a period selected by a user with the transfer rate for each day. This helps supervisors know if there are any specific days contributing to the over all spike in the transfer rate.|
+   |Transfer Rate                                  |This visual compares the transfer rate over a period selected by a user with the transfer rate for each day. This helps supervisors know if there are any specific days contributing to the overall spike in the transfer rate.|
    |Average handle time                            |This visual shows the trend of average handle time over a period selected by a user with the average handle time for each day. |
    |Average customer effort time                   |This visual shows the trend of average customer effort time over a period selected by a user with the average handle time for each day.|
-   |Average Customer Sentiment Pulse (CSP)         |The predicted customer sentiment in the timeframe for a set queue/agent,which indicates the degree of positive sentiment expressed by customers at the end of their interactions  |
+   |Average Customer Sentiment Pulse (CSP)         |The predicted customer sentiment in the timeframe for a set queue/agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions  |
 
 ### **Channel**: 
 
@@ -141,7 +141,7 @@ Reporting structure consists of five sections:
    This section provides historical visibility on how bots are performing to help resolve customer support issues. 
 
    > [!div class=mx-imgBorder]
-   > ![Bot insights (BYOB)](../media/bot-insights.png "Bot instights (BYOB)")  
+   > ![Bot insights (BYOB)](../media/bot-insights.png "Bot insights (BYOB)")  
 
    This section consists of the following KPIs: 
 
