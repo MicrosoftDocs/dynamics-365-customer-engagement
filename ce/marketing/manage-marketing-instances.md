@@ -25,7 +25,7 @@ search.app:
 
 # Manage your Dynamics 365 Marketing instances
 
-Instance-management operations are a standard feature of Dynamics 365 apps for the Common Data Service platform. However, Dynamics 365 Marketing adds significant complexity to the system, so there are several extra considerations to keep in mind when you have Marketing installed.
+Instance-management operations are a standard feature of model-driven apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation). However, Dynamics 365 Marketing adds significant complexity to the system, so there are several extra considerations to keep in mind when you have Marketing installed.
 
 > [!IMPORTANT]
 > This topic provides details about the exceptions that apply when working with instances where the Marketing app is installed—for all other management tasks, see [Manage instances](../admin/manage-online-instances.md), but read this topic first.

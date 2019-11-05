@@ -22,13 +22,13 @@ search.app:
 
 # Use business units to control access to Marketing records
 
-Business units are a standard feature of Dynamics 365 apps for the Common Data Service platform. Admins can use business units to control access to records based on who is using the app and who owns each record. Business units are mapped to an organization's departments or divisions, so if your organization is structured around departments or divisions that have separate products, customers, and segments, you might want to create business units.
+Business units are a standard feature of model-driven apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation). Admins can use business units to control access to records based on who is using the app and who owns each record. Business units are mapped to an organization's departments or divisions, so if your organization is structured around departments or divisions that have separate products, customers, and segments, you might want to create business units.
 
 ## How business units affect Dynamics 365 for Marketing
 
 ### General effects of business units
 
-For complete details about how business units work in the platform, see [Create or edit business units to improve security and control](../admin/create-edit-business-units.md). Here is a quick summary of concepts that are relevant to the features discussed in this topic:
+For complete details about how business units work in model-driven apps in Dynamics 365, see [Create or edit business units to improve security and control](../admin/create-edit-business-units.md). Here is a quick summary of concepts that are relevant to the features discussed in this topic:
 
 - Every user belongs to exactly one business unit.
 - Each record belongs to the same business unit as the record owner. The record owner can be a user or team. By default, the record owner is the user that created it, but records can be reassigned by users with sufficient permissions.

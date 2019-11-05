@@ -68,16 +68,6 @@ Your tenant might have several different types of instances (also called *organi
 
 When you are setting up your Marketing app, the setup wizard asks you to choose an organization on which to install the app, and the organization selector might show both full Dynamics 365 instances and the lighter Power Apps instances if they are present. You must choose an instance that includes a full Dynamics 365 installation. If you see an error telling you that *this application isn't compatible with the platform of your selected Dynamics 365 organization*, then make sure you have a full Dynamics 365 organization available (where you want to install Marketing) and choose that one instead.
 
-<a name="geo-support"></a>
-
-## Why can't I install Marketing in my country/region?
-
-Dynamics 365 Marketing is a relatively new app for the Common Data Service platform, so it is not yet supported in all countries/regions where Dynamics 365 is available. If you are located outside of a supported country/region, then the setup wizard will prevent you from setting up the product, even if the Admin center shows that a Marketing app is available on your tenant. The reason you see the unconfigured app on your tenant is probably because you've licensed a Dynamics 365 product or bundle that includes it&mdash;you'll be able to set it up as soon as support for the product is extended to your country/region.
-
-These geographical restrictions apply both to trial and production versions of Dynamics 365 Marketing.
-
-To read the latest list of countries/regions where you can use Dynamics 365 Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
-
 <a name="register-apps-azure"></a>
 
 ## Do I have permissions to register applications on Azure?
