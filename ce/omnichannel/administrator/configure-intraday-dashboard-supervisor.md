@@ -134,6 +134,10 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     > [!NOTE]
     > You can also see the status of different configuration stages such as workspace, dashboard, and datasets. When a workspace is created successfully, all the statuses will have a green check. If failed, the respective configuration stage check will be red, and an error message is displayed. Resolve the error and create the workspace again.
 
+
+<!--from editor: I'm unsure about the following sentence, where it says to share the reports with users to access the report. Are you changing a "share" setting so they can access a report on the web? Does sharing the reports "give" access to a report on the web? --> 
+
+
 8. In [Power BI Service](https://app.powerbi.com), share the reports with supervisor users to access the report in the **Omnichannel for Customer Service** app on the web. To learn more, see [Share Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
 
    > [!IMPORTANT]
@@ -155,6 +159,10 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     - An empty dashboard with the name of the workspace.
 
     - The report and datasets **Intraday Monitoring**.
+
+
+<!--from editor: Same question here as in line 138. Are you giving access? The sentence is confusing. -->
+
 
 4.  Select the report and share with supervisor users to access the report as an app tab in the **Omnichannel for Customer Service** app on the web. To learn more, see [Share Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
 
