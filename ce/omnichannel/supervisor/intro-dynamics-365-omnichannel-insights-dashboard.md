@@ -42,6 +42,6 @@ Verify the following prerequisites before you use the Omnichannel Chat and Senti
 
 ## See also
 
-[Configuring Omnichannel Insights dashboard](../administrator/configure-historical-sentiment-dashboard-supervisor.md)
+[Configure Omnichannel Insights dashboards](../administrator/configure-historical-sentiment-dashboard-supervisor.md)
 
 [View and understand Omnichannel Insights dashboards](omnichannel-insights-dashboard.md) 
