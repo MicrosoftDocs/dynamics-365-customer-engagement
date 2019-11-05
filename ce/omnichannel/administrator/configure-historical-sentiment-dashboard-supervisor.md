@@ -265,10 +265,6 @@ Before customizing the template app, read the following information and perform 
 2. [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) application for editing Power BI reports.
 3. Power BI report for Omnichannel Insights template app that you want to customize. [Download the Omnichannel Insights report.](https://aka.ms/OC-Insights-pbix)
 
-
-<!--from editor: The style guide says .pbix is OK, but I don't see PBIX as approved. Would .pbix be OK here? -->
-
-
 ## Prepare PBIX for customization
 
 1. Start Power BI Desktop.
