@@ -50,16 +50,16 @@ For example, the selected configuration elements are as follows:
 
 ## Post-requisites
 
-- [Reconfigure window navigation rules](#reconfigure-window-navigation-rules)
+- [Verify window navigation rules](#verify-window-navigation-rules)
 - [Reconfigure events](#reconfigure-events)
 - [Reconfigure associated view action call](#reconfigure-associated-view-action-call)
 - [Reconfigure RunXrmCommands](#reconfigure-runxrmcommands) 
 - [Update Hosting Type to Chrome](#update-hosting-type-to-chrome) (optional)
 - [Set Unified Interface theme](#set-unified-interface-theme) (optional)
 
-### Reconfigure window navigation rules
+### Verify window navigation rules
 
-The page navigation in web client and unified interface are different. In web client, if you've set up the **Route-type** as **Pop-up**, then migration tool replaces all the **Pop-up** to **Inplace**. Based on your earlier configuration, if required, you might want to update the window navigation rules.
+The page navigation in web client and unified interface are different. In web client, for window navigation rules, you might've set up the **Route-type** as **Pop-up** for the originating hosted control, and when you convert the hosted control, the migration tool replaces the **Pop-up** to **Inplace** route type. Based on your earlier configuration, if required, you might want to update the window navigation rules.
 
 **Verify page navigation behavior:**
 
@@ -104,7 +104,7 @@ You need to update parameters of the **AssociatedView** action call in the Unifi
 
 In web client, you can pass a script as data in an action call. In unified interface, you need write the function in the web resource and pass the Unified Service Desk data parameters as parameters to that function.
 
-The migration tool converts all your action calls and replaces the data parameters with the variables in the function.
+The migration tool converts all your action calls and replaces the data parameters with the variables in the function. Ensure to test and validate each action call in the Unified Interface app.
 
 All the data parameters are passed as strings in quotes. For example, `‘[[incident.Id]+]’`.
 
@@ -394,7 +394,7 @@ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   </ResourceDictionary> 
 ```
 
-To learn more, see [Configure toolbars in your application](configure-toolbars-application.md).
+To learn more, see [Configure toolbars in your application](../configure-toolbars-application.md#styles-in-toolbar).
 
 #### Update Custom Styles field in the About toolbar
 
@@ -428,7 +428,7 @@ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   </ResourceDictionary> 
 ```
 
-To learn more, see [Configure toolbars in your application](configure-toolbars-application.md).
+To learn more, see [Configure toolbars in your application](../configure-toolbars-application.md#styles-in-toolbar).
 
 #### Update session overview lines XML in Session Lines
 

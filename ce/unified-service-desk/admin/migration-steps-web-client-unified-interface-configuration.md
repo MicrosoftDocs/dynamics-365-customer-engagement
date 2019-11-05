@@ -115,6 +115,9 @@ For more information, see [Import, update, and export solutions](/dynamics365/cu
 6. After the import is complete, select **Exit**.</br>
 ![Importing is completed. Select Exit](../media/usd-configuration-migration-tool-import-complete.PNG "Importing is completed. Select Exit")
 
+> [!div class="nextstepaction"]
+> [Test your migration](test-migration.md)
+
 ## See also
 
 [Migration of Unified Service Desk configurations from Web Client to Unified Interface apps](overview-migration-assistant.md)

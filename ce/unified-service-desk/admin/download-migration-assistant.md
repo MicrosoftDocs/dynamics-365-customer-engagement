@@ -23,7 +23,7 @@ This topic describes the prerequisites and tools you require to migrate the conf
 
 ## Prerequisites
 
-- Upgrade to the latest version of Unified Service Desk client application and solutions. To learn more, see [Download Unified Service Desk](../download-unified-service-desk.md).
+- Upgrade to Unified Service Desk 4.1. To learn more, see [Download Unified Service Desk](../download-unified-service-desk.md).
 
 - Ensure your environment has an model-driven app such the Customer Service Hub app built of the Common Data Service platform. To learn more, see [What are model-driven apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
