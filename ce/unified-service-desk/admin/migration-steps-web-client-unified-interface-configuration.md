@@ -116,7 +116,7 @@ For more information, see [Import, update, and export solutions](/dynamics365/cu
 ![Importing is completed. Select Exit](../media/usd-configuration-migration-tool-import-complete.PNG "Importing is completed. Select Exit")
 
 > [!div class="nextstepaction"]
-> [Test your migration](test-migration.md)
+> [Post-requisites steps](test-migration.md)
 
 ## See also
 
