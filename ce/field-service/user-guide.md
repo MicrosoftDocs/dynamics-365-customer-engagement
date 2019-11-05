@@ -37,12 +37,12 @@ Before we begin, here are the top places for information about Field Service:
 - [YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X): This includes concept videos for Field Service.
 
 - [Video tutorials](https://aka.ms/fs-videos): Step by step video tutorials for work orders, scheduling, and more.
-  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Using Field Service work orders, scheduling, mobile app, reporting, and more](https://youtu.be/uJPAfYGMhLo)
-  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service installation and setup](https://youtu.be/hvcqAbe4g4E)
-  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Bookable Resources](https://youtu.be/g118F_LnxyE)
-  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Automated scheduling scenarios with Field Service](https://youtu.be/fcQwIXgmnqk)
-  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up automatic scheduling for work orders](https://youtu.be/oJ-3HTJWRMo)
-  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 1: Using Field Service work orders, scheduling, mobile app, reporting, and more](https://youtu.be/uJPAfYGMhLo)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 2: Field Service installation and setup](https://youtu.be/hvcqAbe4g4E)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 3: Set up Bookable Resources](https://youtu.be/g118F_LnxyE)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 4a: Automated scheduling scenarios with Field Service](https://youtu.be/fcQwIXgmnqk)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 4b: Set up automatic scheduling for work orders](https://youtu.be/oJ-3HTJWRMo)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 5: Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
 - [Ideas](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service): This is the portal where you can contribute product feedback and ideas.
 
 - [Forum](https://community.dynamics.com/365/fieldservice): Go here to ask questions, find answers, and see upcoming events.
@@ -62,6 +62,8 @@ The purpose of this section is to understand what Dynamics 365 Field Service is,
 - [![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://youtu.be/JG1JAbwWAwU) [Transform field service with Microsoft Dynamics 365](https://youtu.be/JG1JAbwWAwU)
 
 - [![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://youtu.be/A1qpoi0EYWU) [Provide proactive maintenance with Dynamics 365 Field Service](https://youtu.be/A1qpoi0EYWU)
+
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Using Field Service work orders, scheduling, mobile app, reporting, and more](https://youtu.be/uJPAfYGMhLo)
 
 ### Customer Stories
 - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sodexo – Facilities Management](https://youtu.be/awSwCtgZvXE)
