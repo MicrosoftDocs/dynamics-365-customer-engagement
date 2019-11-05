@@ -30,7 +30,7 @@ Supervisors can use Omnichannel Insights to perform the following tasks:
 
 
 > [!NOTE]
-> Contact your system administrator for configuration errors or if you are unable to view the dashboards. To learn more, see [Configuring Omnichannel Insights dashboard](../administrator/configure-historical-sentiment-dashboard-supervisor.md).
+> Contact your system administrator for configuration errors or if you are unable to view the dashboards. To learn more, see [Configure Omnichannel Insights dashboards](../administrator/configure-historical-sentiment-dashboard-supervisor.md).
 
 ## Prerequisites  
 
