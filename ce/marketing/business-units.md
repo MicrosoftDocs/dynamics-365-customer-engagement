@@ -97,10 +97,7 @@ Form submissions, leads, and contacts generated from LinkedIn Lead Gen Forms hav
 
 ## Enable or disable business-unit scopes
 
-Although most business-unit functionality is always enabled in Dynamics 365 marketing, business-unit *scopes* for [segments](#segment-scopes) and [customer journeys](#journey-scopes) are optional (as described previously in this topic). 
-
-> [!NOTE]
-> In the current release, static segments are disabled when business-unit scopes are enabled. If you require both static-segment functionality and business-unit scopes, then create static marketing lists and embed them into a dynamic segments. We expect to remove this limitation in a future release.
+Although most business-unit functionality is always enabled in Dynamics 365 marketing, business-unit *scopes* for [segments](#segment-scopes) and [customer journeys](#journey-scopes) are optional (as described previously in this topic).
 
 To enable or disable this feature:
 
