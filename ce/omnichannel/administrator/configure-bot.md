@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/04/2019
+ms.date: 11/06/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: B76E910B-0018-4499-B21F-6FEBDFBB2A22
@@ -157,16 +157,16 @@ This sample provides exact steps and configuration values to integrate a bot and
 
 When a chat is initiated by a customer, the query is routed to the bot through the **BotRule** routing rule. If the bot escalates the query, it is sent to the appropriate agent as per the configured routing rules. The bot needs to send the correct context variable and its value in the escalation request to route the query appropriately. For more information on setting up of context variable and escalation request, see [Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md).
 
-## Bot usage and pricing
+## Bot sessions usage
 
 Each Chat and Digital Messaging license receives an entitlement of 50 chatbot sessions for use with Azure Bot Framework bots. These sessions are pooled at the tenant level and expire at the end of each month. Additional chatbot sessions will require purchase of Chatbot Sessions Add-on.
 
 > [!NOTE]
 > For more information on the Chatbot licenses and pricing, please refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
-### What is a bot conversation?
+### What is a bot session?
 
-A bot conversation can be defined as a conversation in which a bot is invoked. The bot can be invoked either in the beginning, during, or at the end of a conversation. 
+A bot session can be defined as a conversation in which a bot is invoked. The bot can be invoked either in the beginning, during, or at the end of a conversation.
 
 - If two different bots are invoked in the same conversation, it is counted as one.
 - A conversation with bot getting escalated to a human agent is counted as a bot conversation.
