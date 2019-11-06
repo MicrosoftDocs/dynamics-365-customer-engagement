@@ -23,7 +23,7 @@ search.app:
 
 This article describes how to install the Dynamics 365 Field Service application for Dynamics 365 (online). It also includes steps to install the mobile solution, and describes how field technicians download and install the mobile app from their device's app store.
 
-Along with this article, see the video: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 2: Field Service installation and setup](https://youtu.be/hvcqAbe4g4E)
+Along with this article, see the video: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service installation and setup](https://youtu.be/hvcqAbe4g4E)
 
 
 > [!Note]
