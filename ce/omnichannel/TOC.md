@@ -24,8 +24,8 @@
 #### [Deploy Unified Service Desk - Omnichannel for Customer Service package](administrator/omnichannel-customer-service-package.md)
 #### [Configure settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md)
 ### [Delete Omnichannel solutions](administrator/delete-solution.md)
-
 ### [Integrate an Azure bot](administrator/configure-bot.md)
+### [Integrate a Power Virtual Agents bot](administrator/configure-bot-virtual-agent.md)
 
 ### Channels
 #### [Configure a chat channel](administrator/set-up-chat-widget.md)
@@ -297,3 +297,8 @@
 ### [Readme](omnichannel-readme.md)
 ### [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
 ### [FAQs](faqs.md)
+
+
+# [Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/customer-service/help-hub)
+# [Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)
+# [Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)
