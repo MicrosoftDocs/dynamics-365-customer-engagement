@@ -129,7 +129,7 @@ You must share the configured application with your entire organization for supe
     The app is now available to install for all individuals in your organization. 
  
 > [!NOTE]
-> Verify your administrator has allowed users in your organization to have read/write data permissions in Omnichannel Engagement Hub. To learn more, see [Provide data access consent](https://review.docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/omnichannel-provision-license#provide-data-access-consent).  
+> Verify your administrator has allowed users in your organization to have read/write data permissions in Omnichannel Engagement Hub. To learn more, see [Provide data access consent](https://docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/omnichannel-provision-license#provide-data-access-consent).  
 
 ### Step 6: Enable Power BI reporting in the Common Data Service platform 
 As an administrator, you must enable Power BI reporting in the Common Data Service platform environment for supervisors to view the dashboards in the Omnichannel Administration app.
