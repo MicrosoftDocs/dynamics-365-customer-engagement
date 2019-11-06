@@ -25,7 +25,7 @@ In Omnichannel for Customer Service, you can integrate a bot to start the conver
 
 ## Integrate a bot with Omnichannel for Customer Service 
 
-**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0).
+**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework registered with Azure Bot Service. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0).
 
 To integrate a bot with Omnichannel for Customer Service, you must:
 
@@ -159,7 +159,7 @@ When a chat is initiated by a customer, the query is routed to the bot through t
 
 ## Bot sessions usage
 
-Each Chat and Digital Messaging license receives an entitlement of 50 chatbot sessions for use with Azure Bot Framework bots. These sessions are pooled at the tenant level and expire at the end of each month. Additional chatbot sessions will require purchase of Chatbot Sessions Add-on.
+Each Chat and Digital Messaging license receives an entitlement of 50 chatbot sessions for use with Microsoft Bot Framework bots. These sessions are pooled at the tenant level and expire at the end of each month. Additional chatbot sessions will require purchase of Chatbot Sessions Add-on.
 
 > [!NOTE]
 > For more information on the Chatbot licenses and pricing, please refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
@@ -176,7 +176,7 @@ A bot session can be defined as a conversation in which a bot is invoked. The bo
 
 ### Purchase additional chatbot sessions
 
-Chatbot Session add-ons entitle customers with Chat or Digital Messaging to an additional 100 chatbot sessions for use with Azure Bot Framework bots, pooled at the tenant level. Additional chatbot session expire at the end of each month.
+Chatbot Session add-ons entitle customers with Chat or Digital Messaging to an additional 100 chatbot sessions for use with Microsoft Bot Framework bots, pooled at the tenant level. Additional chatbot session expire at the end of each month.
 
 You can purchase additional bot conversations from Microsoft 365 admin center.
 
