@@ -115,32 +115,8 @@ For more information, see [Import, update, and export solutions](/dynamics365/cu
 6. After the import is complete, select **Exit**.</br>
 ![Importing is completed. Select Exit](../media/usd-configuration-migration-tool-import-complete.PNG "Importing is completed. Select Exit")
 
-## Test the deployment of the configurations on the target Unified Interface App.
-
-1. Sign in to the Common Data Service platform.
-
-2. Select the down arrow next to Dynamics 365.
-
-3. Select **Unified Service Desk Administrator**.
-
-4. Select configurations that you migrated from the Web Client.</br>
-For example, the selected configuration elements are as follows:
-
-  |Configuration Name|Description|
-  |-------|-------|
-  |KB Article| CRM Page|
-  |KB Search| KM Control|
-
-  ![Select configurations](../media/usd-migration-assistant-selected-configurations.PNG "Selected configurations")</br>
- You must select **Hosted Controls** to verify.</br></br>
- You can see configurations are migrated to Unified Interface specific elements.
-
-  |Configuration Name|Description|
-  |-------|-------|
-  |KB Article| Unified Interface Page|
-  |KB Search| Unified Interface KM Control|
-  
-  ![Verifying the configuration migration](../media/usd-configuration-migration-verification.PNG "Verifying the configuration migration")
+> [!div class="nextstepaction"]
+> [Post-requisites steps](test-migration.md)
 
 ## See also
 
