@@ -163,7 +163,7 @@ Each supervisor must configure their Dynamics 365 environment to integrate the C
     > [!div class=mx-imgBorder]
     > ![Power BI dashboard](media/cs-pbi-dashboard-menu.png "Power BI dashboard")
 
-4. Choose **Workspace** as **Dynamics 365 Customer Service Analytics** and **Dashboard** as **Customer Service Analytics Dashboard**. 
+4. For **Workspace**, select **Customer Service Analytics for Dynamics 365**. For **Dashboard**, select **Customer Service Analytics for Dynamics 365**. 
 
     > [!div class=mx-imgBorder]
     > ![Power BI dashboard properties](media/cs-pbi-dashboard-properties.png "Power BI dashboard properties")
