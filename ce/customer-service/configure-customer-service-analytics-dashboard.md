@@ -235,7 +235,7 @@ Before you customize the template app, read the information here and perform eac
  
 6. Select **Done** and then select **Close & Apply** in the Query Editor. 
  
-7. When the Access an OData feed dialog appears, select **Organizational account** and then select **Sign-in**.
+7. When the Access an OData feed dialog appears, select **Organizational account** and then select **Sign in**.
 
     > [!div class=mx-imgBorder]
     > ![Access to OData feed](media/cs-odata-feed.png "Access to OData feed")
