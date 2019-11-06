@@ -1,7 +1,7 @@
 ---
 title: "Try channels in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how you can try channels in Omnichannel for Customer Service to connect and engage with your customers in real time."
-ms.date: 11/04/2019
+ms.date: 11/06/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -35,7 +35,7 @@ With this option, you can get a free 30-day trial of Chat, SMS, and Facebook Mes
 - You must have an existing organizational account with the global administrator role to enable the trial.
 
 > [!NOTE]
-> - This option is currently available only in North America, Europe, Canada, and United Kingdom. Your tenant must be located in one of these regions. 
+> - This option is currently available only in North America, Europe, Canada, United Kingdom, Australia, Asia Pacific, and South America. Your tenant must be located in one of these regions. 
 > - The 30-day trial period does not apply to the Facebook Messenger channel as it is in preview.
 
 ### Step 1: Get a Dynamics 365 trial instance
