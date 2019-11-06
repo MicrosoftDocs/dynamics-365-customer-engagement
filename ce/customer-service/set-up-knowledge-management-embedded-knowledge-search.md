@@ -97,7 +97,7 @@ To learn on how users use this option, see [Submit ratings and feedback for know
 
 ## Enable inline images
 
-This option allows users drag and drop or copy and paste images inline on knowledge articles opened from knowledge search control. 
+This option allows users drag and drop or copy and paste images inline in knowledge articles.
 
 1. In the Customer Service Hub sitemap, go to **Service Management** and select **Knowledge Base Management** > **Embedded Knowledge Search**. 
 
