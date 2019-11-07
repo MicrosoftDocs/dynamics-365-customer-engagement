@@ -88,7 +88,7 @@ To apply security roles to users, and to customize each role, do the following:
 
 1. The advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
 
-1. Work with the **Users** settings here to assign security roles to users. For details, see [Manage security, users, and team](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).
+1. Work with the **Users** settings here to assign security roles to users. For details, see [Create users and assign security roles](https://docs.microsoft.com/en-us/power-platform/admin/create-users-assign-online-security-roles) and [Security roles and privileges](https://docs.microsoft.com/en-us/power-platform/admin/security-roles-privileges).
 
 <a name="inspect-roles"></a>
 
@@ -117,7 +117,7 @@ Here are a few notes for working with the **Security role** settings:
 - There is a tab called **Marketing**, but it doesn't contain entities related to Dynamics 365 Marketing. Its settings apply to the *enterprise marketing* feature included with several model-driven apps in Dynamics 365 (though Dynamics 365 Marketing does make use of the marketing lists feature that is provided here).
 - Some of the security roles provided with Dynamics 365 Marketing include permissions from all available tabs. This is to provide access to  common features also required by users in marketing roles.
 
-Security roles are a concept shared by all model-driven apps in Dynamics 365. For more information about how to work with them, see [Manage security, users, and teams](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).
+Security roles are a concept shared by all model-driven apps in Dynamics 365. For more information about how to work with them, see [Create users and assign security roles](https://docs.microsoft.com/en-us/power-platform/admin/create-users-assign-online-security-roles) and [Security roles and privileges](https://docs.microsoft.com/en-us/power-platform/admin/security-roles-privileges).
 
 ## Special permissions for marketing pages and assist edit
 
@@ -208,7 +208,8 @@ The system uses this account when performing important internal tasks, and Marke
 
 ### See also
 
-[Manage security, users, and teams](../admin/manage-security-users-and-teams.md)  
+[Create users and assign security roles](https://docs.microsoft.com/en-us/power-platform/admin/create-users-assign-online-security-roles)  
+[Security roles and privileges](https://docs.microsoft.com/en-us/power-platform/admin/security-roles-privileges)  
 [Manage teams](manage-teams.md)  
 [Add users individually or in bulk to Office 365](https://docs.microsoft.com/office365/admin/add-users/add-users)  
 [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)
