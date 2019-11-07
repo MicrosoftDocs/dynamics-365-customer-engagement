@@ -38,7 +38,7 @@ To access the customization settings in the advanced-settings area:
 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 1. Navigate to **Settings** > **Customizations** > **Customizations**.
 
-For complete details about how to customize model-driven apps in Dynamics 365, see the [Customization Guide for Dynamics 365](../customize/overview.md).
+For complete details about how to customize model-driven apps in Dynamics 365, see the [PowerApps documentation](https://docs.microsoft.com/en-us/powerapps/#pivot=home&panel=getstarted).
 
 For details about customizations that apply only to the Marketing app (but not other Dynamics 365 apps), see the following topic:
 
@@ -49,7 +49,7 @@ For details about customizations that apply only to the Marketing app (but not o
 Customizers and developers can create custom app modules that include any number of existing solutions, plus other custom elements, as needed. You can include 
 Dynamics 365 Marketing solutions in custom apps such as these, but the *Marketing email test send* entity won't be included automatically when you add the Marketing solution. As a result, your custom app won't support test sends of marketing emails by default. If you'd like to include this feature in your custom app, then you must add the *Marketing email test send* entity manually to your app after you add the Marketing solution.
 
-More information: [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)
+More information: [Design model-driven apps by using the app designer](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/design-custom-business-apps-using-app-designer)
 
 ## Advanced customization through coding
 
