@@ -17,12 +17,12 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-The horizontal bar below the navigation bar is called the application tab panel. Every customer session has at least one application that is not closable; it is called a **Anchor** tab. In the image shown, **Omnichannel Agent Dashboard** is the anchor tab.
+The horizontal bar below the navigation bar is called the application tab panel. Every customer session has at least one application that is not closable; it is called an **anchor** tab. In the following image, **Omnichannel Agent Dashboard** is the anchor tab.
 
-The Application tab has a **+** icon. If you select the icon, a menu  appears that lists the out-of-box and custom entities. Also, you can access any third-party Line-of-Business applications that is extended within Omnichannel for Customer Service app. Select the option from the list to open it in the application tab.
+The application tab has a **+** icon. If you select the icon, a menu  appears that lists the out-of-box and custom entities. Also, you can access any third-party line-of-business applications that are extended within the Omnichannel for Customer Service app. Select the option from the list to open it in the application tab.
 
 > [!div class=mx-imgBorder]
-> ![Omnichannel for Customer Service sitemap appears when you select + icon in the application tab](../../media/oceh/oceh-agent-interface-sitemap.png "Omnichannel for Customer Service sitemap in the application tab")
+> ![Omnichannel for Customer Service sitemap appears when you select the **+** icon in the application tab](../../media/oceh/oceh-agent-interface-sitemap.png "Omnichannel for Customer Service sitemap in the application tab")
 
 ## Open an application
 
@@ -44,7 +44,7 @@ Use a combination of keyboard and mouse-click gesture to start an application. Y
 
 ## Work with applications
 
-Every session has an application tab which is called **Anchor** tab. A session can have a maximum of one **Anchor** tab and there will be no close option on the application tab. When you are working on a Omnichannel conversation request, then customer summary page is the default anchor tab.
+Every session has an application tab which is called **Anchor** tab. A session can have a maximum of one **Anchor** tab and there will be no close option on the application tab. When you are working on an Omnichannel conversation request, then customer summary page is the default anchor tab.
 
 When you switch sessions or between applications in the current session, unsaved changes are not lost and you can continue to work on them.
 
