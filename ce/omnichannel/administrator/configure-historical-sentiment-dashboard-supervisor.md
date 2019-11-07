@@ -2,15 +2,18 @@
 title: "Configure to view Intraday insights dashboard | MicrosoftDocs"
 description: "Instructions to configure intraday insights dashboard for Unified Service Desk and Omnichannel for Dynamics 365 Customer Service."
 keywords: ""
+ms.date: 10/29/2019
+ms.service:
+  - "dynamics-365-customerservice"
+ms.custom:
+  - ""
+ms.topic: article
+applies_to:
+  - ""
+ms.assetid: e8d3d8ae-3e5a-46a7-aed9-b7ad6f42a98f
 author: lerobbin
 ms.author: lerobbin
 manager: autumna
-applies_to:
-ms.date: 10/29/2019
-ms.service: dynamics-365-customerservice
-ms.topic: article
-ms.assetid: e8d3d8ae-3e5a-46a7-aed9-b7ad6f42a98f
-ms.custom:
 ---
 
 # Configure Omnichannel Insights dashboards
@@ -145,7 +148,7 @@ After you successfully connect Dynamics 365 Omnichannel Insights app with Dynami
     > ![Turn on schedule refresh](../media/oc-config6.png "Turn on schedule refresh")
 
     > [!NOTE]
-    > We recommend you configure the refresh frequency to **Daily**.
+    > We recommend that you set the refresh frequency to **Daily**.
 
 5. Select **Apply**.
 
@@ -177,7 +180,7 @@ You must share the configured application with your entire organization for supe
 
 Each supervisor must configure their Dynamics 365 Customer Service environment to integrate the Omnichannel Insights and Omnichannel Sentiment Analysis ashboards.
 
-1. Sign-in to Dynamics 365 Customer Service and open the **Omnichannel Administration** app.
+1. Sign in to **Dynamics 365 Customer Service** and open the **Omnichannel Administration** app.
 
     > [!div class=mx-imgBorder]
     > ![Select Power BI dashboard option](../media/oc-config11.png "Select Power BI dashboard option")
@@ -247,7 +250,7 @@ Before customizing the template app, read the following information first and pe
 
 1. [Power BI service registration](https://app.powerbi.com/)
 2. [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) application for editing Power BI reports.
-3. PBIX file for Omnichannel Insights template app that you want to customize.[Download the Omnichannel Insights PBIX] (NEED LINK)
+3. Power BI report for Omnichannel Insights template app that you want to customize. [Download the Omnichannel Insights report](https://aka.ms/OC-Insights-pbix)
 
 ## Prepare PBIX for customization
 
@@ -274,12 +277,12 @@ Before customizing the template app, read the following information first and pe
 
 10.	When the 'Access an OData feed' appears, select **Organizational account**.
 
-11.  Select **Sign-in**.
+11.  Select **Sign in**.
 
      > [!div class=mx-imgBorder]
      > ![Add user to supervisor configuration](../media/oc-config17.png "Add user to supervisor configuration")
 
-12.	When the sign-in appears, enter your credentials to authenticate to your instance.
+12.	When the sign in appears, enter your credentials to authenticate to your instance.
 
 13.	In the Access an OData feed dialog, select **Connect**.
 

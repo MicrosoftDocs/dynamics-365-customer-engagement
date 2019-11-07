@@ -2,15 +2,18 @@
 title: "Monitor real-time customer sentiment | MicrosoftDocs"
 description: "Learn how to Monitor real-time customer sentiment while interacting with customers."
 keywords: ""
+ms.date: 10/31/2019
+ms.service:
+  - "dynamics-365-customerservice"
+ms.custom:
+  - ""
+ms.topic: article
+applies_to:
+  - ""
+ms.assetid: 0D1925AF-3124-404B-A7B6-FCC0C3430CC4
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
-ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
-ms.topic: article
-ms.assetid: 0D1925AF-3124-404B-A7B6-FCC0C3430CC4
-ms.custom: 
 ---
 
 # Monitor real-time customer sentiment
@@ -52,7 +55,7 @@ The sentiment icons displayed on the communication panel are as follows.
 > [!div class="nextstepaction"]
 > [Next topic: Manage presence status](oc-manage-presence-status.md)
 
-##  Multi-language sentiment 
+##  Preview: Multi-language sentiment 
 
 Multi-language sentiment displays sentiment scores on some non-English conversations.
 
@@ -64,7 +67,7 @@ To learn more, see [multi-language sentiment](../../administrator/enable-sentime
 ## See also
 
 - [Introduction to the agent interface](oc-introduction-agent-interface.md)
-- [Enable Sentiment Analysis](https://docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/enable-sentiment-analysis)
+- [Enable Sentiment Analysis](../../administrator/enable-sentiment-analysis.md)
 - [Manage sessions](oc-manage-sessions.md)
 - [Manage applications](oc-manage-applications.md)
 - [View customer summary and know everything about customers](oc-customer-summary.md)

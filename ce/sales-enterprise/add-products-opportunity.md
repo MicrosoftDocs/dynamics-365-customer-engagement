@@ -60,8 +60,6 @@ A way that might help you increase your sales is to add all products that your c
 
 The **Product Line Items** grid shows all the products that are associated with the opportunity. If you added an existing product from the product catalog, you can change the quantity and discount of the product inline in the **Product Line Items** grid. If you added a write-in product, you can also change the price of the product in addition to the quantity and discount.
 
-The icon for each product line item shows whether it is a product, product bundle, or a product family. 
-
 Here are the actions you can take on the products added to the **Product Line Items** grid:
 
 |To                                    |Do This                                                       |

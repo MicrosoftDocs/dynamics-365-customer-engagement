@@ -50,9 +50,11 @@ The previous figure shows how a simple customer journey might look. A somewhat m
 
 ## Set up a customer journey
 
-To view and create your customer journeys, go to **Marketing** > **Marketing Execution** > **Customer Journeys**. This brings you to a standard list view, where you can search, sort, and filter the list to find an existing journey—or create a new one by using the commands in the command bar.
+To view and create your customer journeys, go to **Marketing** > **Marketing Execution** > **Customer Journeys**. This brings you to a standard list view, where you can search, sort, and filter the list to find an existing journey.
 
-When you create a new customer journey, you'll first be presented with a list of customer-journey templates, which can help you get started quickly. The **Select a Journey Template** dialog box provides a categorized overview of templates and a search form to help you find the one you're looking for. Each template represents a particular type of campaign, and includes a preconfigured pipeline and a few related settings that will help you create a customer journey of the selected type.
+To create a new journey, select **New** on the command bar.
+
+When you create a new customer journey, you'll first be presented with a list of customer-journey templates, which can help you get started quickly. The **Customer journey templates** dialog box provides a categorized overview of templates and a search form to help you find the one you're looking for. Each template represents a particular type of campaign, and includes a preconfigured pipeline and a few related settings that will help you create a customer journey of the selected type.
 
 ![Select a Journey Template dialog](media/customer-journey-template.png "Select a journey template")
 

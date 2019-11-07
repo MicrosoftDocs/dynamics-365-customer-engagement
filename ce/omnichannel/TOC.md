@@ -2,7 +2,6 @@
 
 ## Get started
 ### [Introduction](introduction-omnichannel.md)
-### [Preview features in Omnichannel for Customer Service](preview-features.md)
 ### [Try channels in Omnichannel for Customer Service](try-chat-for-dynamics365.md)
 ### [Chat for Dynamics 365 Customer Service demo data](chat-dynamics365-customer-service-demo-data.md)
 ### [Pre-requisites and system requirements](system-requirements-omnichannel.md)
@@ -31,7 +30,7 @@
 ### Channels
 #### [Configure a chat channel](administrator/set-up-chat-widget.md)
 ##### [Add a chat widget](administrator/add-chat-widget.md)
-##### [Download/email chat transcript](administrator/download-email-chat-transcripts.md)
+##### [Configure download and email of chat transcripts](administrator/download-email-chat-transcripts.md)
 ##### [Configure agent display name](administrator/agent-display-name.md)
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
@@ -146,7 +145,7 @@
 
 <!--#### [Assign conversations](supervisor/assign-conversations.md)-->
 ### Introduction to Omnichannel Insights
-#### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard)
+#### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
 #### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)
 
 ### Monitor Conversations

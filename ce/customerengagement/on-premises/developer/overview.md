@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Developer Guide for Dynamics 365 Customer Engagement (on-premises), version 9.x
+# Developer Guide for Dynamics 365 Customer Engagement (on-premises), version 9
 
 Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 

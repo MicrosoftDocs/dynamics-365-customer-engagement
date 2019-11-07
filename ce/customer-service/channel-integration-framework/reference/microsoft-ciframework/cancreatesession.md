@@ -1,5 +1,5 @@
 ---
-title: "canCreateSession (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
+title: "canCreateSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework| MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 09/26/2019
@@ -17,11 +17,17 @@ manager: shujoshi
 
 # canCreateSession
 
+[!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
+
+[!include[applies-to-v2](../../includes/applies-to-v2.md)]
+
+[!include[session-api-omnichannel](../../includes/session-api-omnichannel.md)]
+
 Allows you to check if a new session can be created.
 
 ### Syntax
 
-Microsoft.CIFramework.canCreateSession().then(successCallback, errorCallback);
+`Microsoft.CIFramework.canCreateSession().then(successCallback, errorCallback);`
 
 **Parameters**
 

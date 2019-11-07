@@ -16,7 +16,7 @@ manager: annbe
 
 # Learn the basics of Dynamics 365 Sales Professional
 
-Start here to onboard quickly and learn about the Sales app and its user interface.
+Start here to onboard quickly and learn about the Sales Professional app and its user interface.
 
 ## Go to the Sales Professional app
 

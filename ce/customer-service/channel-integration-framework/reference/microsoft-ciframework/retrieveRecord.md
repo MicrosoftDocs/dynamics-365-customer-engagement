@@ -21,6 +21,8 @@ manager: shujoshi
 
 [!INCLUDE[retrieveRecord](includes/retrieveRecord-description.md)] 
 
+[!include[applies-to-v1-and-v2](../../includes/applies-to-v1-and-v2.md)]
+
 ## Syntax
 
 `Microsoft.CIFramework.retrieveRecord(entityLogicalName, id, options).then(successCallback, errorCallback);`

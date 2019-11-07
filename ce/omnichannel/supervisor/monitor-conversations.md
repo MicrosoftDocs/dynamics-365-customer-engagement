@@ -6,7 +6,7 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 applies_to: 
-ms.date: 10/25/2019
+ms.date: 10/31/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 7390f4e0-2c28-4797-b2c7-62253318000e
@@ -42,20 +42,20 @@ By monitoring the conversations, you will get an overview of how each conversati
   
 By joining the conversation, you provide necessary inputs to both agent and customer based on the selected message mode (public or internal) in the communication panel.
 
-1.	Sign in to Dynamics 365 Customer Service and go to **Omnichannel for Customer Service** app.
+1.	Sign in to **Omnichannel for Customer Service** app.
 
 2.  From the dashboard view selector, select **Omnichannel Ongoing Conversations** dashboard.
 
     The list of conversations that currently handled by your agents are displayed. 
 
-2.	Choose a conversation to monitor and select **Monitor**.
+3.	Choose a conversation to monitor and select **Monitor**.
 
     > [!div class=mx-imgBorder]
     > ![Select monitor option](../media/supervisor-select-monitor-conversation.png "Select monitor option")
 
     The conversation page opens.
 
-3.	You can choose to join a conversation as required. Select **Join chat** in the conversation panel.
+4.	You can choose to join a conversation as required. Select **Join chat** in the communication panel.
 
     > [!div class=mx-imgBorder]
     > ![Select join chat](../media/supervisor-select-join-chat.png "Select join chat")
@@ -73,4 +73,3 @@ By joining the conversation, you provide necessary inputs to both agent and cust
 [Enable sentiment analysis](../administrator/enable-sentiment-analysis.md)
 
 [Enable supervisors to monitor and assign conversations](../administrator/configure-ongoing-conversations-settings.md)
-

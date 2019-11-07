@@ -31,7 +31,7 @@ If you would like another person in your organization to handle an account or co
   
     In the command bar, select the **More Commands** button ![More commands button](media/MoreButton.png "More commands button"), and then select **Assign**.  
   
-3. If using the Dynamics 365 Customer Engagement (on-premises):    In the command bar, the select **More Commands** button ![More commands button](media/MoreButton.png "More commands button", and then select **Assign**.  
+3. If using the Dynamics 365 Customer Engagement (on-premises):    In the command bar, the select **More Commands** button ![More commands button](media/MoreButton.png "More commands button"), and then select **Assign**.  
 
   
 4. In the **Assign** dialog box, select:  

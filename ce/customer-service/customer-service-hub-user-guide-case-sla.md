@@ -70,7 +70,8 @@ Watch this video to learn more about case management in the Customer Service Hub
     > If an SLA is associated with an entitlement and the same entitlement is applied to a case, then the associated SLA becomes applicable for the case. 
 
    > [!NOTE]
-   > When a case is created and an entitlement is applied to it (or when the case gets resolved), the entitlement terms from the associated entitlement are decremented. However, if you don’t want the entitlement terms to be decremented for a case, on the command bar select **Do not decrement entitlement terms**.  
+   > - When a case is created and an entitlement is applied to it (or when the case gets resolved), the entitlement terms from the associated entitlement are decremented. However, if you don’t want the entitlement terms to be decremented for a case, on the command bar select **Do not decrement entitlement terms**.  
+   > - When you update the **Customer** field, the value of the **Entitlements** field will be cleared.
 
 10. Select in the **Description** field to enter to add a detailed description about the case.
 

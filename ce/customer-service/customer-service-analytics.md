@@ -57,11 +57,11 @@ The following is an example a of the **Customer Service Analytics** report detai
 
 The Customer Service Analytics report detail view has three views: 
 
-   - [Summary](#1summary)
+   - [Summary](#1-summary)
 
-   - [Agent/Queue](#2-agent--queue)
+   - [Agent/Queue](#2-agent-and-queue)
 
-   - [Case/Activity List](#3case--activity-list)
+   - [Case/Activity List](#3-case-and-activity-list)
 
 
 ### 1. Summary
@@ -85,7 +85,7 @@ The Customer Service Analytics report detail view has three views:
    |CSAT trend                  |This visual shows the CSAT trend over the period selected.  |
 
 
-### 2. Agent/Queue 
+### 2. Agent and Queue 
     
    This view provides KPIs and metrics across customer service with an ability for supervisors to filter the view:
 
@@ -104,7 +104,7 @@ The Customer Service Analytics report detail view has three views:
    |Key influencers for CSAT                   |This visual shows the factors that drive the CSAT metric. It analyzes data, ranks the factors that matter, and displays them as key influencers. |
    |Open activities by agent                  |This visual shows the number of open activities by agent and type of activity.|
  
- ### 3. Case/Activity List
+ ### 3. Case and Activity List
      
     This section provides a detailed view of case and activities which a supervisor can use to drill into each case or activity to help resolve customer issues. The link in this report directs the user to customer service or the customer service hub application in Dynamics 365.  
 
