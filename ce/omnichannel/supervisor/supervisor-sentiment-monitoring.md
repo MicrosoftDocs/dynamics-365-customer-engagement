@@ -87,10 +87,6 @@ Omnichannel sentiment analysis sentiment intensity indicators are an automatic a
     - Sentiment intensity indicators identify ongoing chat sessions that need the supervisor's attention, so that you can better assess and apply their time where it is the most valuable. 
 
     - Using sentiment intensity indicators on the Omnichannel Ongoing Conversations dashboard allows you to easily identify ongoing customer support chat sessions that are not going well.
-    
-    
-    <!--from editor: Please make sure that the names used in the following image are from approved fictitious names lists. -->
-    
 
     > [!div class=mx-imgBorder]
     > ![Sentiment conversation display](../media/oc-sentiment-conversation-dashboard.png "Sentiment conversation display")

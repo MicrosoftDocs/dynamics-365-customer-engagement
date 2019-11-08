@@ -33,13 +33,9 @@ Review the following prerequisites before configuring the supervisor insights: 
 
 -  You have administrative privileges for Dynamics 365 Customer Service and Power BI. 
 
--  You have a **Power BI Pro** or **Power BI Premium** license for all supervisors and administrators. 
+-  You have a **Power BI Pro** or **Power BI Premium** license for all supervisors and administrators.
 
-
-<!--from editor: Is this topic aimed at admins? If so, is it correct to say "Your administrator" below? Because wouldn't the reader be the administrator? -->
-
-
--  Your administrator has allowed the **Omnichannel for Customer Service** app to read and write data on behalf of users in your organization. To learn more, see [Provide data access consent](omnichannel-provision-license.md).
+-  As a system administrator, allow the **Omnichannel for Customer Service** app to read and write data on behalf of users in your organization. To learn more, see [Provide data access consent](omnichannel-provision-license.md).
 
 -  The Omnichannel supervisor role has been assigned to supervisor users in your organization to access the report and dashboard. To learn more, see [Enable users for Omnichannel for Customer Service](../administrator/add-users-assign-roles.md).
 
@@ -111,10 +107,6 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     
     -OR-
 
-
-    <!--from editor: In the following image, I don't see where you select Add existing work space. -->
-
-
     If you want to add an existing Power BI workspace, select **Add existing work space** and the existing workspaces are listed. Select the workspace that you want to add.
 
     > [!div class=mx-imgBorder]
@@ -133,10 +125,6 @@ You must configure the Power BI workspace using the **Omnichannel Administration
 
     > [!NOTE]
     > You can also see the status of different configuration stages such as workspace, dashboard, and datasets. When a workspace is created successfully, all the statuses will have a green check. If failed, the respective configuration stage check will be red, and an error message is displayed. Resolve the error and create the workspace again.
-
-
-<!--from editor: I'm unsure about the following sentence, where it says to share the reports with users to access the report. Are you changing a "share" setting so they can access a report on the web? Does sharing the reports "give" access to a report on the web? --> 
-
 
 8. In [Power BI Service](https://app.powerbi.com), share the reports with supervisor users to access the report in the **Omnichannel for Customer Service** app on the web. To learn more, see [Share Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
 
@@ -159,10 +147,6 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     - An empty dashboard with the name of the workspace.
 
     - The report and datasets **Intraday Monitoring**.
-
-
-<!--from editor: Same question here as in line 138. Are you giving access? The sentence is confusing. -->
-
 
 4.  Select the report and share with supervisor users to access the report as an app tab in the **Omnichannel for Customer Service** app on the web. To learn more, see [Share Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
 
@@ -223,15 +207,11 @@ You must configure **Unified Service Desk** to display the supervisor Intraday i
 
 2.  Select **Action Calls** and open **Load Supervisor Dashboard**.
 
-
-<!--from editor: Please check the following step to ensure that the asterisks are placed correctly and not making unintentional italics. -->
-
-
-3.  In the **Action** section, enter the **Data** as “*url=* *https://powerbi.com/dashboards/&lt;id&gt;*” that you copied in [Configure dashboard in Power BI](#configure-dashboard-in-power-bi). Also, add the parameters **chromeless=1** and **nosignupcheck=1** at the end of the URL.  
+3.  In the **Action** section, enter the **Data** as `url= https://powerbi.com/dashboards/<id>;` that you copied in [Configure dashboard in Power BI](#configure-dashboard-in-power-bi). Also, add the parameters **chromeless=1** and **nosignupcheck=1** at the end of the URL.  
 
     For example:
 
-    url=*https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx?chromeless=1&nosignupcheck=1*
+    url=`https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx?chromeless=1&nosignupcheck=1`
 
 4.  Save and close the settings page.
 

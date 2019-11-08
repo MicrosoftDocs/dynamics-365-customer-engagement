@@ -28,9 +28,6 @@ The following is an example of the Customer Service Analytics overview dashb
    > ![Customer Service Analytics overview dashboard](media/cs-analytics-overview-dashboard.png "Customer Service Analytics overview dashboard")
 
 
-<!--from editor: Note that the image shows "Average handle time (hrs)" rather than minutes. Should the table match the image? -->
-
-
 This section consists of the following KPIs:  
 
 | KPI                       | Description         |
@@ -39,7 +36,7 @@ This section consists of the following KPIs:
 |Active cases               |Number of cases that are currently open.          |
 |Resolved cases             |Number of cases that have been closed by an agent.   |
 |Escalated cases %          |Percentages of cases that have been escalated.    |
-|Average handle time (mins) |Average length of time taken by an agent to resolve the case. |
+|Average handle time (hrs) |Average length of time taken by an agent to resolve the case. |
 |Avg. CSAT                  |Average customer satisfaction score based on the survey submitted by the customer. |
 |Case age                    |Average time the case was in an open state.                 |
 |Total activities            |Total activities that are created by agents                |

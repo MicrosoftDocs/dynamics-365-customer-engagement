@@ -32,11 +32,6 @@ Typically, the overview dashboard is divided into two sections:
 
 The following illustration is an example of the Omnichannel Insights for Dynamics 365 dashboard: 
 
-
-<!--from editor: Maybe it's just my screen, but the text in the following image isn't readable. -->
-
-
-
    > [!div class=mx-imgBorder]
    > ![Omnichannel dashboard](../media/oc-full-dashboard.png "Omnichannel dashboard")
 
@@ -93,7 +88,7 @@ Reporting structure consists of five sections:
 
    This section consists of these visuals: 
 
-   |  Visual            |Description      | 
+   |  KPI visual            | Description      | 
    |------------------|-----------------|
    |Incoming conversations by channel   |This visual provides the volume of incoming conversations by the channels supported in each organization.      |
    |Conversations engaged by channel    |This visual provides the trend of conversations engaged in each channel. |
@@ -111,12 +106,9 @@ Reporting structure consists of five sections:
    > [!div class=mx-imgBorder]
    > ![Queue report](../media/queue-report.png "Queue report")
 
-   This section consists of the following KPIs: 
-   
-  <!--from editor: Is it correct to say "Visual" in the column heading instead of KPI? --> 
-   
+   This section consists of the following KPIs:
 
-   |Visual        | Description                   |
+   | KPI visual        | Description                   |
    |--------------|-------------------------------|
    |Highest session volumes      |This visual provides the top queues where the most sessions are handled.  |
    |Longest average handle time  |This visual provides a list of queues that have high average handle times per session. This helps supervisors focus on queues and staff agents appropriately.  |
