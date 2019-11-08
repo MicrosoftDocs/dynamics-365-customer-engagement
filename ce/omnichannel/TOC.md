@@ -2,7 +2,7 @@
 
 ## Get started
 ### [Introduction](introduction-omnichannel.md)
-### [Try channels in Omnichannel for Customer Service](try-chat-for-dynamics365.md)
+### [Try channels in Omnichannel for Customer Service](try-channels.md)
 ### [Chat for Dynamics 365 Customer Service demo data](chat-dynamics365-customer-service-demo-data.md)
 ### [Pre-requisites and system requirements](system-requirements-omnichannel.md)
 ### [Assign roles and enable users](administrator/add-users-assign-roles.md)
@@ -24,8 +24,8 @@
 #### [Deploy Unified Service Desk - Omnichannel for Customer Service package](administrator/omnichannel-customer-service-package.md)
 #### [Configure settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md)
 ### [Delete Omnichannel solutions](administrator/delete-solution.md)
-
 ### [Integrate an Azure bot](administrator/configure-bot.md)
+### [Integrate a Power Virtual Agents bot](administrator/configure-bot-virtual-agent.md)
 
 ### Channels
 #### [Configure a chat channel](administrator/set-up-chat-widget.md)

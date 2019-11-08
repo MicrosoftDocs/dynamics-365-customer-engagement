@@ -78,7 +78,7 @@ The smart assist feature can be enabled across all channels like Chat for Dynami
 
 - Obtain global administrator permissions in Office 365 to download and install the Dynamics 365 Productivity Tools (solution).
 
-- Deploy Chat for Dynamics 365 Customer Service in your environment as Dynamics 365 Productivity Tools works only with the Omnichannel for Customer Service app. To learn more, see [Try Chat for Dynamics 365 Customer Service](../try-chat-for-dynamics365.md).
+- Deploy Chat for Dynamics 365 Customer Service in your environment as Dynamics 365 Productivity Tools works only with the Omnichannel for Customer Service app. To learn more, see [Try channels for Dynamics 365 Customer Service](../try-channels.md) and [Configure a chat channel](set-up-chat-widget.md).
 
 
 ### Install Dynamics 365 Productivity Tools package

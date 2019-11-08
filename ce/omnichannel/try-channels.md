@@ -1,7 +1,7 @@
 ---
 title: "Try channels in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how you can try channels in Omnichannel for Customer Service to connect and engage with your customers in real time."
-ms.date: 10/30/2019
+ms.date: 11/06/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -35,7 +35,7 @@ With this option, you can get a free 30-day trial of Chat, SMS, and Facebook Mes
 - You must have an existing organizational account with the global administrator role to enable the trial.
 
 > [!NOTE]
-> - This option is currently available only in North America, Europe, Canada, and United Kingdom. Your tenant must be located in one of these regions. 
+> - This option is currently available only in North America, Europe, Canada, United Kingdom, Australia, Asia Pacific, and South America. Your tenant must be located in one of these regions. 
 > - The 30-day trial period does not apply to the Facebook Messenger channel as it is in preview.
 
 ### Step 1: Get a Dynamics 365 trial instance
@@ -74,7 +74,7 @@ With this option, you can get a free 30-day trial of Chat, SMS, and Facebook Mes
 
 If you already have a subscription of Dynamics 365 Customer Service Enterprise or a subscription of Power BI in your tenant, you can skip this step. Otherwise, you must get a Power BI (free) subscription.
 
-1. Go to <https://portal.office.com> and sign in with the global administrator credentials.
+1. Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) with the global administrator credentials.
  
 2. Go to **Billing** > **Purchase services**.
  
@@ -110,7 +110,7 @@ The channel you can try depends on the add-on you purchase from the Microsoft 36
 
 ### Step 1: Get a trial subscription of channels
 
-1. Go to <https://portal.office.com> and sign in with the global administrator credentials. 
+1. Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) with the global administrator credentials. 
 
 2. Go to **Billing** > **Purchase Services**, and select **Add-ons**. 
 

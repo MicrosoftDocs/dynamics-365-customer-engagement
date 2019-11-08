@@ -2,7 +2,7 @@
 title: "Configure an SMS channel | MicrosoftDocs"
 description: "Instructions for configuring an SMS channel in Omnichannel for Customer Service."
 keywords: ""
-ms.date: 10/30/2019
+ms.date: 11/07/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -52,7 +52,7 @@ To sign up for TeleSign:
 
 1.	Go to [TeleSign](https://www.telesign.com/) to sign up for an account if you don't have one already.
 
-2.	Purchase support phone numbers through your TeleSign account. For preview, only long code type US phone numbers are supported.
+2.	Purchase support phone numbers through your TeleSign account. In this release, only long code type US phone numbers are supported.
 
 3.	Get the customer ID and API key from your TeleSign account. You will need to provide these while setting up the SMS channel in Omnichannel for Customer Service.
 

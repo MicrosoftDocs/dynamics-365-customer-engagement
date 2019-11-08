@@ -130,6 +130,8 @@
       href: admin/download-migration-assistant.md      
     - name: Migration steps
       href: admin/migration-steps-web-client-unified-interface-configuration.md
+    - name: Post-requisites steps
+      href: admin/test-migration.md
   - name: Migrate Unified Service Desk configuration to another Customer Engagement instance 
     items:    
     - name: Migration of a Unified Service Desk configuration
