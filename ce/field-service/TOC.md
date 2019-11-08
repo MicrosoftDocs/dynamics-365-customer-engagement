@@ -4,6 +4,7 @@
 # [Getting started with Field Service](user-guide.md)
 
 # Installation
+## [Set up a trial](field-service-trial.md)
 ## [Field Service installation (web + mobile)](install-field-service.md)
 ## [Version history (web + mobile)](version-history.md)
 ## [AppSource add-ins for Field Service](appsource-addins.md)
