@@ -214,7 +214,7 @@ Part of the GDPR regulations is a requirement that your organization take steps 
 - **Marketing insights:** Marketing insights can include details such as website browsing records, form submissions, event attendance, and more.  Some, but not necessarily all, users that have access to contact records may be granted access to view this information. You can control this access by assigning security groups at the form level.
 - **Fields with especially sensitive information:** Your contact records may include data fields with especially sensitive information, such as financial, medical, or political affiliation details. Some, but not necessarily all, users that have access to contact records may be granted access to view this information. You can control this access by assigning security groups at the field level.
 
-For more information about how to work with the security groups and other security features in Dynamics 365, see [Security in Common Data Service](https://docs.microsoft.com/en-us/power-platform/admin/wp-security).
+For more information about how to work with the security groups and other security features in Dynamics 365, see [Security in Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
 
 ## Demonstrate GDPR compliance
 
@@ -245,7 +245,7 @@ To access the auditing features:
 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 1. Navigate to **Settings** > **System** > **Auditing** to open the **Audit** page. From there, you can access the auditing settings and review the audit record.
 
-This feature is part of the standard functionality of Dynamics 365. For information about how auditing works, how to set it up, and how to review the log, see [Audit data and user activity for security and compliance](https://docs.microsoft.com/en-us/power-platform/admin/audit-data-user-activity).
+This feature is part of the standard functionality of Dynamics 365. For information about how auditing works, how to set it up, and how to review the log, see [Audit data and user activity for security and compliance](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity).
 
 ### View the audit history to find consent-level changes for a contact
 

@@ -278,7 +278,7 @@ Marketing typically shares data with other Dynamics 365 applications running on 
 
 Also, some administration and customization features, and some integrated user features, may require you to switch to a web-client app from time to time, but soon all features are expected to be available on the Unified Interface.
 
-More information: [About Unified Interface](../admin/about-unified-interface.md) and [Find your way around Marketing](navigation.md)
+More information: [About Unified Interface for model-driven apps in PowerApps](https://docs.microsoft.com/power-platform/admin/about-unified-interface) and [Find your way around Marketing](navigation.md)
 
 <a name="contact-support"></a>
 
@@ -288,7 +288,6 @@ For additional support and help resources you can:
 
 - [Contact technical support](https://docs.microsoft.com/power-platform/admin/get-help-support) directly.
 - Get in touch with the community on the [Dynamics 365 Marketing forum](https://community.dynamics.com/365/marketing/f/768).
-- Find additional [online help resources for Dynamics 365](../admin/help-additional-resources.md).
+- Find additional [online help resources for Dynamics 365](https://docs.microsoft.com/power-platform/admin/get-help-support).
 
 If you’ve already tried to set up the application several times and are still having trouble, please open a support case through your applicable Microsoft Premier channel or MPN partner channel.
-

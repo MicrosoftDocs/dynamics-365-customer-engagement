@@ -88,13 +88,13 @@ To apply security roles to users, and to customize each role, do the following:
 
 1. The advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
 
-1. Work with the **Users** settings here to assign security roles to users. For details, see [Create users and assign security roles](https://docs.microsoft.com/en-us/power-platform/admin/create-users-assign-online-security-roles) and [Security roles and privileges](https://docs.microsoft.com/en-us/power-platform/admin/security-roles-privileges).
+1. Work with the **Users** settings here to assign security roles to users. For details, see [Create users and assign security roles](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles) and [Security roles and privileges](https://docs.microsoft.com/power-platform/admin/security-roles-privileges).
 
 <a name="inspect-roles"></a>
 
 ## Inspect and customize security roles
 
-All model-driven apps in Dynamics 365 come with a collection of preconfigured security roles to help get you started. Each of these roles provides various levels of access to a collection of entities that are typically used together by specific user roles. Each of these roles is given a name that indicates the type of user who should be assigned the role.
+All model-driven apps in Dynamics 365 come with a collection of preconfigured security roles to help get you started. Each of these roles provides various levels of access to a collection of entities that are typically used together by specific security roles. Each of these roles is given a name that indicates the type of user who should be assigned the role.
 
 > [!IMPORTANT]
 > Each time you update Dynamics 365 Marketing, all of the standard, out-of-box roles are likewise updated to the latest versions to ensure that each role will receive permissions to access relevant new features added by the update. This means that you probably shouldn't customize the out-of-box roles because your customizations are likely to get overwritten after each update. If you need custom security roles, you should usually start by creating a copy of an existing role that is close to what you want, and then customize the copy. If you use custom security roles, then you will probably need to update your custom roles after each update to grant access to new entities.
@@ -117,7 +117,7 @@ Here are a few notes for working with the **Security role** settings:
 - There is a tab called **Marketing**, but it doesn't contain entities related to Dynamics 365 Marketing. Its settings apply to the *enterprise marketing* feature included with several model-driven apps in Dynamics 365 (though Dynamics 365 Marketing does make use of the marketing lists feature that is provided here).
 - Some of the security roles provided with Dynamics 365 Marketing include permissions from all available tabs. This is to provide access to  common features also required by users in marketing roles.
 
-Security roles are a concept shared by all model-driven apps in Dynamics 365. For more information about how to work with them, see [Create users and assign security roles](https://docs.microsoft.com/en-us/power-platform/admin/create-users-assign-online-security-roles) and [Security roles and privileges](https://docs.microsoft.com/en-us/power-platform/admin/security-roles-privileges).
+Security roles are a concept shared by all model-driven apps in Dynamics 365. For more information about how to work with them, see [Create users and assign security roles](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles) and [Security roles and privileges](https://docs.microsoft.com/power-platform/admin/security-roles-privileges).
 
 ## Special permissions for marketing pages and assist edit
 
@@ -151,7 +151,7 @@ In addition to the entity-level security set directly on each security role, you
 
 You don't see form or field settings when you edit the security role, so you must manage these separately.
 
-Form and field level security are concepts shared by all model-driven apps in Dynamics 365. For more information about how to work with them, see [Field-level security](https://docs.microsoft.com/en-us/power-platform/admin/field-level-security) and [Assign security roles to a form](https://docs.microsoft.com/en-us/power-platform/admin/assign-security-roles-form).
+Form and field level security are concepts shared by all model-driven apps in Dynamics 365. For more information about how to work with them, see [Field-level security](https://docs.microsoft.com/power-platform/admin/field-level-security) and [Assign security roles to a form](https://docs.microsoft.com/power-platform/admin/assign-security-roles-form).
 
 ## Security roles added by Dynamics 365 Marketing
 
@@ -208,8 +208,8 @@ The system uses this account when performing important internal tasks, and Marke
 
 ### See also
 
-[Create users and assign security roles](https://docs.microsoft.com/en-us/power-platform/admin/create-users-assign-online-security-roles)  
-[Security roles and privileges](https://docs.microsoft.com/en-us/power-platform/admin/security-roles-privileges)  
+[Create users and assign security roles](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles)  
+[Security roles and privileges](https://docs.microsoft.com/power-platform/admin/security-roles-privileges)  
 [Manage teams](manage-teams.md)  
 [Add users individually or in bulk to Office 365](https://docs.microsoft.com/office365/admin/add-users/add-users)  
 [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)
