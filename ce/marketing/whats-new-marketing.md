@@ -23,13 +23,13 @@ search.app:
 
 # What's new in Dynamics 365 Marketing
 
-Dynamics 365 Marketing is usually updated monthly, with major updates occurring twice a year. For news about major updates, including a recent history and announcements of upcoming features, see the [Dynamics 365 and Power Platform Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). This topic summarizes the smaller feature improvements and bug fixes being introduced with each monthly update and provides links for more information.
+Dynamics 365 Marketing is usually updated monthly, with major updates occurring twice a year. For news about major updates, including a recent history and announcements of upcoming features, see the [Dynamics 365 and Power Platform Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). This topic summarizes the smaller feature improvements and bug fixes introduced with each monthly update and provides links for more information.
 
 Microsoft rolls out each monthly and biannual update on a region-by-region basis, with the update typically becoming available to all regions by the end of the month (but often earlier). You must manually check for and apply each update to each of your Marketing instances. As soon as the update is available in your region, you'll be able to see and apply it as described in [Keep Marketing up to date](apply-updates.md). We recommend updating all Marketing instances right away.
 
 ## November 2019 update
 
-The November 2019 update provides several improvements for existing features, plus performance improvements and bug fixes.
+The Dynamics 365 Marketing November 2019 update provides several improvements for existing features, plus performance improvements and bug fixes.
 
 ### A/B testing improvements
 
