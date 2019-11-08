@@ -35,7 +35,7 @@ To follow the steps in this topic, you will need:
 - A Dynamics 365 Field Service license (or the ability to purchase one).
 
 >[!Note]
-> If you don't have a Field Service license and instead want to try it out first, follow the instructions in [the trial set up topic](https://trials.dynamics.com/). If you're looking for information on purchasing a license, visit the licensing site. 
+> If you don't have a Field Service license and instead want to try it out first, follow the instructions in [the trial set up topic](https://trials.dynamics.com/). If you're looking for information on purchasing a license, visit the [purchasing page for Field Service](https://dynamics.microsoft.com/pricing/#FieldService). 
 
 
 ## Install the application
