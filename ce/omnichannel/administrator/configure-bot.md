@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/06/2019
+ms.date: 11/08/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: B76E910B-0018-4499-B21F-6FEBDFBB2A22
@@ -25,7 +25,7 @@ In Omnichannel for Customer Service, you can integrate a bot to start the conver
 
 ## Integrate a bot with Omnichannel for Customer Service 
 
-**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework registered with Azure Bot Service. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0).
+**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0).
 
 To integrate a bot with Omnichannel for Customer Service, you must:
 
