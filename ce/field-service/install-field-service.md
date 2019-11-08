@@ -38,13 +38,16 @@ In this topic, we will walk through each of these steps.
 To follow the steps in this topic, you will need: 
 
 - Time. Field Service installations and upgrades can take up to 30 minutes or more. 
+- A desktop browser and a mobile device (phone or tablet).
 
 ## Step 1: Install Dynamics 365 Field Service
 
 There are a few ways you can get access to Dynamics 365 Field Service: 
 
 - Sign up for an entirely new trial environment. Head to [the Dynamics 365 trials site](https://trials.dynamics.com), select **Field Service**, and follow the instructions.
+
 - Purchase Field Service by going to your **Office365 Admin Center** > **Billing** > **Purchase Services** and select **Dynamics 365 Field Serivce** and **Buy Now**. You can also get Field Service from this [Dynamics 365 purchasing page](https://dynamics.microsoft.com/pricing/#FieldService).
+
 - Add a Field Service trial to an existing Dynamics 365 organization by going to **Settings** > **Microsoft AppSource**. Search for **Field Service trial**, select **Dynamics 365 Field Service trial**, and then select **Free Trial**.
 
 ### Verify the installation is complete
@@ -60,7 +63,7 @@ In previous versions, Field Service appears in the Dynamics 365 custom applicati
 > ![Screenshot of Field Service in Dynamics 365 dropdown menu](media/field-service-menu.png) 
 
 
-## Download the Field Service Mobile app on a phone or tablet
+## Step 2: Download the Field Service Mobile app on a phone or tablet
 
 > [!Note]
 > You will not be able to use the Field Service Mobile application with your Dynamics 365 organization until you have followed all of the steps below and set up users and [bookable resources enabled for mobile app access](set-up-bookable-resources.md).
@@ -77,7 +80,7 @@ To get the mobile app, download **Field Service Mobile** from the Windows, Apple
 > ![Screenshot of Field Service mobile app download example](media/mobile-field-service-mobile-windows-app-store.png)
 
 
-## Install the Field Service Mobile configuration tool
+## Step 3: Install the Field Service Mobile configuration tool
 
 The configuration tool allows app access for field technician users, and allows administrators to customize the mobile experience.
 
@@ -103,7 +106,7 @@ The configuration tool allows app access for field technician users, and allows 
 > ![Screenshot of Woodford under Settings menu in Dynamics 365 drop-down menu](media/field-service-mobile-solution-import-dropdown.png)  
 
 
-## Import the mobile project template
+## Step 4: Import the mobile project template
 
 After you install the Field Service Mobile configuration tool, you need to download and import a mobile project that allows you to configure the mobile app for your organization.
 
