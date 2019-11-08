@@ -90,8 +90,6 @@ The configuration tool allows app access for field technician users, and allows 
 
 1. [Download the mobile configuration tool](https://www.resco.net/woodford/download) and save to your computer.
 
-
-
 2. In the Dynamics 365 organization, go to **Settings > Solutions**. Select **Import**. 
 
 > [!div class="mx-imgBorder"]
@@ -139,10 +137,16 @@ The mobile project template contains all customizations for the Field Service Mo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of importing mobile project template](media/field-service-mobile-project-template.png)
 
+=========
+SHOULD WE UPDATE THE SCREENSHOTS TO BE THE MOST RECENT UI FOR WOODFORD
+
+NEED MORE INFO ABOUT PRIORITY LEVELS TO ENTER
+=========
+
 6. In the **Add Mobile Project** dialog,
 
- - enter the name of the mobile project file
- - enter a priority value
+ - enter the name of the mobile project file **(GUIDANCE FOR NAMING?)**
+ - enter a priority value **(SEE NOTE ABOUT PRIORITIES - I GOT HUNG UP ON SETTING AN APPROPRIATE PRIORITY)**
  - assign the template to all field service security roles
  - Select **OK**
 

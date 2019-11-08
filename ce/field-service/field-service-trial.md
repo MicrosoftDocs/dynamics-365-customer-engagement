@@ -30,7 +30,7 @@ ALSO NEED TO UPDATE THIS TOPIC WITH CURRENT INFO WITH A WAY TO REPLICATE A NEW P
 
 1. Using system administrator credentials, sign in to the Dynamics 365 organization.
 
-2. Go to **Settings > Microsoft AppSource**. Search for **field service trial**, select **Dynamics 365 Field Service trial**, and then select **Free Trial**.
+2. Go to **Settings** > **Microsoft AppSource**. Search for **field service trial**, select **Dynamics 365 Field Service trial**, and then select **Free Trial**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service tile in AppSource](media/field-service-trial-appsource.png)
