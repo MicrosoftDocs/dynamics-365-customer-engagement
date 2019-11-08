@@ -188,7 +188,7 @@ You must add users in the supervisor configuration to access any supervisor dash
  
  5. Search for the user and select **Add**.
 
- 5. Select **Save**.
+ 6. Select **Save**.
 
     Users are now added to the supervisor dashboard. When they sign in to Omnichannel Engagement Hub on Unified Service Desk, the supervisor dashboard tabs will be available. 
  
