@@ -87,7 +87,7 @@ Entity views are special saved queries that retrieve data by using a specific fi
  [!code-csharp[WorkWithViews#WorkWithViews3](../../snippets/csharp/CRMV8/workwithviews/cs/workwithviews3.cs#workwithviews3)]  
 
 > [!NOTE]
->  The view state, Active or Inactive, is not included with the view when it is added to a solution.  Therefore, when the solution is imported into a target organisation the status will be set to active by default.
+>  The view state, active or inactive, is not included with the view when it is added to a solution. Therefore, when the solution is imported into a target organization, the status will be set to active by default.
 
 <a name="BKMK_EditFilterOrSorting"></a>   
 ### Edit filter criteria or configure sorting  
