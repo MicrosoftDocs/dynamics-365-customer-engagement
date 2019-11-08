@@ -135,6 +135,7 @@ Where:
 - ***PrimaryEntity*** is an entity at the starting side of the relationship. It is always shown on the left side of the arrow. For example, a *contact* (primary entity) can be related to an *account* (secondary entity) through the account's *primary contact* field (field name).
 - ***FieldName*** is the name of the lookup field through which the relation is established. It is always shown in parenthesis. The named field belongs to the primary entity, and displays a value from the secondary entity (but actually contains the ID of the related record that value is drawn from). In some cases, you might see two or more relationships between the same two entities, each of which flows through a different field.
 - ***SecondaryEntity*** is the destination of the relationship. It is always shown on the right side of the arrow.
+- The arrow indicates whether it is an a 1:N relationship (**->**) or an N:N relationship (**<->**). (N:1 relationships are arranged to be shown as 1:N relationships.)
 
 For example:
 
