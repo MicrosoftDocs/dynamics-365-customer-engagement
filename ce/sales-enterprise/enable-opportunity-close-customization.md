@@ -18,6 +18,9 @@ manager: annbe
 
 To allow users in your organization to capture more relevant details about an opportunity closing, a system administrator can enable the customization of the Opportunity Close form.
 
+> [!NOTE]
+> The capability to customize the **Opportunity Close** form is supported only in the sales app built on the Unified Interface.
+
 To enable customization:
 
 1.  In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar](media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.

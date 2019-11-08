@@ -2,7 +2,7 @@
 title: "Pre-requisites and system requirements of Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the system requirements of Omnichannel for Customer Service."
 keywords: ""
-ms.date: 07/22/2019
+ms.date: 11/06/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -74,6 +74,9 @@ The Chat for Dynamics 365 Customer Service is available in the following regions
 - Canada
 - United Kingdom
 - Government Cloud Computing (GCC)
+- Australia
+- Asia pacific
+- South America
 
 For the service to work, your tenant and organization have to be co-located in one of these regions.
 

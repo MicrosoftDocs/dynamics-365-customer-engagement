@@ -17,7 +17,15 @@ search.app:
   - D365USD
 ---
 
-# Download Migration Assistant to migrate Unified Service Desk configurations from Web Client to Unified Interface App
+# Download Migration Assistant to migrate Unified Service Desk configurations from web client to unified interface
+
+This topic describes the prerequisites and tools you require to migrate the configurations from web client to unified interface.
+
+## Prerequisites
+
+- Upgrade to Unified Service Desk 4.1. To learn more, see [Download Unified Service Desk](../download-unified-service-desk.md).
+
+- Ensure your environment has an model-driven app such the Customer Service Hub app built of the Common Data Service platform. To learn more, see [What are model-driven apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
 ## Download Web Client - Unified Interface Migration Assistant
 
