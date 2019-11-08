@@ -21,42 +21,35 @@ search.app:
 
 # How to install Dynamics 365 Field Service
 
-This article describes how to install the Dynamics 365 Field Service application for Dynamics 365 (online). It also includes steps to install the mobile solution, and describes how field technicians download and install the mobile app from their device's app store.
+This article describes how to install the Dynamics 365 Field Service application for Dynamics 365 (online). 
 
-> [!Note]
-> Installations and upgrades of the Field Service application typically take 30 or more minutes.
+In order to get fully up and running with Field Service, you will need to:
+
+1. Install the core Field Service application
+2. Install the Field Service Mobile app
+3. Install the Woodford mobile configurator
+4. Install and configure the mobile project template
+
+In this topic, we will walk through each of these steps. 
 
 
 ## Prerequisites
 
 To follow the steps in this topic, you will need: 
 
-- System administrator access to a Dynamics 365 organization.
-- A Dynamics 365 Field Service license (or the ability to purchase one).
+- Time. Field Service installations and upgrades can take up to 30 minutes or more. 
 
->[!Note]
-> If you don't have a Field Service license and instead want to try it out first, follow the instructions in [the trial set up topic](https://trials.dynamics.com/). If you're looking for information on purchasing a license, visit the [purchasing page for Field Service](https://dynamics.microsoft.com/pricing/#FieldService). 
+## Step 1: Install Dynamics 365 Field Service
 
+There are a few ways you can get access to Dynamics 365 Field Service: 
 
-## Install the application
-You can add a trial or a purchased subscription of the Field Service application to a Dynamics 365 organization.
+- Sign up for an entirely new trial environment. Head to [the Dynamics 365 trials site](https://trials.dynamics.com), select **Field Service**, and follow the instructions.
+- Purchase Field Service by going to your **Office365 Admin Center** > **Billing** > **Purchase Services** and select **Dynamics 365 Field Serivce** and **Buy Now**. You can also get Field Service from this [Dynamics 365 purchasing page](https://dynamics.microsoft.com/pricing/#FieldService).
+- Add a Field Service trial to an existing Dynamics 365 organization by going to **Settings** > **Microsoft AppSource**. Search for **Field Service trial**, select **Dynamics 365 Field Service trial**, and then select **Free Trial**.
 
-=============
-NOTE TO DAVE - I NEED A WAY TO REPLICATE THIS PROCESS IN AN ENVIRONMENT THAT HAS SYSADMIN ACCESS BUT NO FIELD SERVICE INSTALLED ALREADY. ALSO DO WE NEED TO MAYBE DOCUMENT THE PROCESS OF PURCHASING? IS THE SCREENSHOT ENOUGH? IS IT POSSIBLE TO HAVE PURCHASED FS ALREADY AND THEN LAND ON THIS TOPIC? 
-=============
+### Verify the installation is complete
 
-### Step 1: Purchase and add Field Service to a Dynamics 365 organization
-
-1. On the **Office365 Admin Center** go to **Billing > Purchase Services**.
-2. Select **Dynamics 365 Field Service Enterprise Edition**, and then select **Buy now**.
-3. Follow the on-screen instructions to install the application. Installation may take several minutes.
-   
-> [!div class="mx-imgBorder"]
-> ![Screenshot of purchasing Field Service from Microsoft 365 admin center](media/field-service-purchase.png)
-
-### Step 2: Verify that the installation is complete
-
-1. If the installation is complete, the Field Service app will appear in the Dynamics 365 main menu when logged in as a system administrator.
+If the installation is complete, the Field Service app will appear in the Dynamics 365 main menu when logged in as a system administrator.
    
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service in navigation](media/field-service-navigation.png)
@@ -90,11 +83,13 @@ The configuration tool allows app access for field technician users, and allows 
 
 1. [Download the mobile configuration tool](https://www.resco.net/woodford/download) and save to your computer.
 
-2. In the Dynamics 365 organization, go to **Settings > Solutions**. Select **Import**. 
+2. In the Dynamics 365 organization, go to **Settings** > **Solutions**. Select **Import**. 
 
+>[!Note]
+> You may have to select the gear icon and go to **Advanced Settings** in order to access the **Solutions** option from the settings dropdown.
+ 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of solution import view](media/field-service-mobile-solution-import.png)
-
 
 3. On the **Select Solution Package** screen, select the Woodford\_\#\_\#\_\#\_\#\_managed.zip file, and then select **Next**.
 
@@ -114,7 +109,7 @@ After you install the Field Service Mobile configuration tool, you need to downl
 
 The mobile project template contains all customizations for the Field Service Mobile app. A mobile project allows you to customize the mobile experience across devices. For example, you use a mobile project to add, remove, and change fields, entities, views, and forms on the mobile app.
 
-1. Open the Mobile Configuration Tool (Woodford) by going to **Settings > Woodford** and selecting **MobileCRM Woodford HTML5**. If you experience trouble opening or performing functions in the HTML5 version, you can use the MobileCRM Woodford Legacy in a non-private Internet Explorer browser window.
+1. Open the Mobile Configuration Tool (Woodford) by going to **Settings** > **Woodford** and selecting **MobileCRM Woodford HTML5**. If you experience trouble opening or performing functions in the HTML5 version, you can use the MobileCRM Woodford Legacy in a non-private Internet Explorer browser window.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Woodford admin interface](media/mobile-install-mobilecrm-woodford.png)
@@ -123,9 +118,9 @@ The mobile project template contains all customizations for the Field Service Mo
 
 3. Register yourself as a user.
 
-4. [Download mobile project for **Field Service Mobile** (latest) Field Service v7.5.5 and v8.2+](https://aka.ms/fsmobile-project) and save in a location other than the Downloads folder. NOTE: If you have an existing mobile project from a previous app version, you will need to manually move the customizations for that project into a derivative of this project.
+4. [Download mobile project for **Field Service Mobile** (latest) Field Service v7.5.5 and v8.2+](https://aka.ms/fsmobile-project) and save in a location other than the Downloads folder. If you have an existing mobile project from a previous app version, you will need to manually move the customizations for that project into a derivative of this project.
 
-- The mobile project is updated periodically; [bookmark this website](https://aka.ms/fsmobile-project) for regular access the latest mobile project.
+  The mobile project is updated periodically; [bookmark this website](https://aka.ms/fsmobile-project) for regular access the latest mobile project.
 
 **For previous mobile apps** for D365 for Field Service, use the following mobile projects:
 
@@ -137,41 +132,46 @@ The mobile project template contains all customizations for the Field Service Mo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of importing mobile project template](media/field-service-mobile-project-template.png)
 
-=========
-SHOULD WE UPDATE THE SCREENSHOTS TO BE THE MOST RECENT UI FOR WOODFORD
+6. In the **Add Mobile Project** dialog:
 
-NEED MORE INFO ABOUT PRIORITY LEVELS TO ENTER
-=========
+- Keep **Type** set to **Standard User**.
+ - Enter the filename of the mobile project file you downloaded. In our example, it was FSDyn365_1.0.2735 (yours may be different depending on which version you downloaded).
+ - Enter a priority value. In our example, we set it to 10. 
+ - Assign the template to all field service security roles.
+ - Select **Save**.
 
-6. In the **Add Mobile Project** dialog,
-
- - enter the name of the mobile project file **(GUIDANCE FOR NAMING?)**
- - enter a priority value **(SEE NOTE ABOUT PRIORITIES - I GOT HUNG UP ON SETTING AN APPROPRIATE PRIORITY)**
- - assign the template to all field service security roles
- - Select **OK**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting details for mobile project](media/field-service-mobile-project-details.png)
 
-7. Select and highlight the mobile project template and select **Derive**.
+7. Double-click on your newly imported mobile project file. You'll be taken to the project detail page. Select **Publish**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the publish option](media/mobile-install-project-publish.png)
+
+8. Head back to the main Woodford page by selecting the back button in the navigation, as seen in the following screenshot. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Woodford back button](media/mobile-install-project-back-woodford.png)
+
+9.  Select to highlight the mobile project template and select **Derive**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting details for mobile project](media/mobile-install-project-derive.png)
 
-- Enter a name, a higher priority, and assign to relevant field service security roles.
+- Keep **Type** set to **Standard User**.
+- Enter a name (in our example, FSDyn365_1.0.2735-derivative), a higher priority (in our example, 20), and assign to relevant Field Service security roles.
+- Select **Save**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting details for mobile project](media/mobile-install-project-derive-details.png)
 
-8. Double-click the mobile project template parent, and then select **Publish All**.
+10. Double-click the mobile project template *parent* (not your new derivative), and then select **Publish All**.
 
 > [!Note]
 > For Field Service Mobile v11.2, publish to 11.2.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of publishing mobile project](media/mobile-install-project-publish-all.png)
-
-9. Verify the mobile configurations are published by checking for an arrow next to the projects.
+11.  Verify the mobile configurations are published by checking for an arrow next to the projects.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of published mobile project with arrow showing status](media/mobile-install-project-verify-publish.png)
 
@@ -182,7 +182,7 @@ NEED MORE INFO ABOUT PRIORITY LEVELS TO ENTER
 
 ## Next steps
 - [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
-- [Enable Bookable Resources for mobile app access](set-up-bookable-resources.md)
+- [Enable bookable resources for mobile app access](set-up-bookable-resources.md)
 - [Add sample data](../field-service/install-sample-data-8-x.md)
 
 ### See also
