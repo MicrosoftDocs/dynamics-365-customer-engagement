@@ -147,12 +147,7 @@ As an administrator, you must enable Power BI reporting in the Common Data Servi
  
 ### Step 7: Add Power BI dashboards to Customer Service Hub 
 
-
-
-<!--from editor: We can't say "for Customer Engagement". Can it just be "Dynamics 365"? -->
-
-
-Each supervisor must configure their Dynamics 365 environment to integrate the Customer Service Analytics dashboard. 
+Each supervisor must configure their environment to integrate the Customer Service Analytics dashboard. 
 
 1. Sign in to Dynamics 365 Customer Service and open the **Customer Service Hub** app.
 
@@ -180,9 +175,9 @@ Each supervisor must configure their Dynamics 365 environment to integrate the C
 
 You must add users in the supervisor configuration to access any supervisor dashboard in Unified Service Desk. To add users in supervisor configuration, follow these steps: 
  
- 1. Sign in to Dynamics 365 Customer Service.
+ 1. Sign in to the Unified Service Desk Administrator app.
 
- 2. Go to **Settings** > **Unified Service Desk** and then select **Configuration**.
+ 2. Select **Configuration**.
 
  3. On the configuration page, select **Supervisor Configuration**. 
 
@@ -194,7 +189,7 @@ You must add users in the supervisor configuration to access any supervisor dash
     > [!div class=mx-imgBorder]
     > ![Add User Record](media/cs-add-user-record.PNG "Add User Record")
 
- 5. Save and close the configuration.   
+ 5. Save and close the configuration.
 
     Users are now added to the supervisor dashboard. When they sign in to Omnichannel Engagement Hub on Unified Service Desk, the supervisor dashboard tabs will be available. 
  
