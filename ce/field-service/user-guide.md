@@ -67,6 +67,9 @@ The purpose of this section is to understand what Dynamics 365 Field Service is,
 
 - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sandvik Coromant](https://www.youtube.com/watch?v=Oq6z3UALoYI)
 
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Nurse Maude](https://www.youtube.com/watch?v=q0aZsdokOv8)
+	 
+
 ## Set up Field Service
 The purpose of this section is to help you set up a Field Service environment and configure the core Field Service scenario.
 
