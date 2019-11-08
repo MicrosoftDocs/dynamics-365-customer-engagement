@@ -1,6 +1,6 @@
 ---
-title: "Enable sentimental analysis to view in Omnichannel Ongoing Conversation dashboard | MicrosoftDocs"
-description: "Instructions to enable sentimental analysis for Omnichannel Ongoing Conversation dashboard in Omnichannel for Customer Service."
+title: "Enable sentiment analysis to view in Omnichannel Ongoing Conversation dashboard | MicrosoftDocs"
+description: "How to enable sentiment analysis for Omnichannel Ongoing Conversation dashboard in Omnichannel for Customer Service."
 keywords: ""
 ms.date: 10/31/2019
 ms.service:
@@ -27,12 +27,16 @@ Enable sentiment analysis for supervisors to view the real-time sentiment of con
 
 1. Go to *https://yourorganization.dynamics.com/apps* and select the **Omnichannel Administration** app.
 
-2. Go to **Settings** > **Sentimental Analysis** and select **Real-Time Sentiment Analysis**.
+2. Go to **Settings** > **Sentiment Analysis** and select **Real-Time Sentiment Analysis**.
 
     > [!div class=mx-imgBorder]
-    > ![Select sentiment analysis](../media/supervisor-admin-activat-sentiment-analysis.png "Select sentiment analysis")
+    > ![Select Sentiment analysis](../media/supervisor-admin-activat-sentiment-analysis.png "Select Sentiment analysis")
 
 3. On the **General** tab, select **Enabled** as **Yes**.
+
+
+    <!--from editor: Note that the image shows Enabled as No. Is that OK? -->
+    
 
     > [!div class=mx-imgBorder]
     > ![Enable sentiment analysis](../media/supervisor-admin-enable-sentiment-analysis.png "Enable sentiment analysis")
@@ -41,12 +45,12 @@ Enable sentiment analysis for supervisors to view the real-time sentiment of con
 
     a. Go to the **General** tab.
 
-    b. Select enabled as **Yes**.
+    b. Select **Multi-language support enabled** as **Yes**.
 
     > [!div class=mx-imgBorder]
-    > ![Enable multi-language sentiment](../media/oc-sentiment-enable-multilanguage.png "Enable multi-language sentiment") 
+    > ![Enable multi-language sentiment](../media/oc-sentiment-enable-multilanguage.PNG "Enable multi-language sentiment") 
 
-    After you enable multi-language sentiment, you can view scores in the Omnichannel Insights Dashboards.  
+    After you enable multi-language sentiment, you can view scores in the Omnichannel Insights Dashboard.  
     
     > [!Note]
     > If you turn off multi-language sentiment, you can't view the real-time score of non-English conversations. However, the Omnichannel Insights Dashboard displays the scores for conversations that were previously scored. 
@@ -54,11 +58,11 @@ Enable sentiment analysis for supervisors to view the real-time sentiment of con
     Enabling multi-language sentiment also provides scoring of conversations in more than 40 languages:
 
     > [!div class=mx-imgBorder]
-    > ![Enable multi-language sentiment](../media/oc-sentiment-langauge-list.png "Enable multi-language sentiment") 
+    > ![Language list](../media/oc-sentiment-langauge-list.png "Language list") 
 
 5. Select **Save**.
     
-    Sentiment analysis is now enabled and available.
+   Sentiment analysis is now enabled and available.
 
 
 ## See also
