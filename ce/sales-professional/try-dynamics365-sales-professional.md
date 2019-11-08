@@ -40,20 +40,20 @@ Dynamics 365 Sales Professional is a cloud-based application that runs on a Micr
     > [!div class="mx-imgBorder"]
     > ![Sign up using your work email address](media/sign-up.png "Sign up using your work email address")
 
-4.  Based on the email address, if you are found to belong to an existing Microsoft 365 tenant, you’ll be asked to read and agree to the terms and conditions and privacy policy.
+4.  Based on the email address, if you are found to belong to an existing Microsoft 365 tenant, you’ll be asked to sign in using your email address.
 
     > [!div class="mx-imgBorder"]
-    > ![Agree to terms and conditions and select Start](media/accept-terms-and-start.png "Agree to terms and conditions and select Start")
+    > ![Sign in using your email address](media/trial-sign-in.png "Sign in using your email address")
 
     > [!IMPORTANT]
     > If you don't belong to an existing Microsoft 365 tenant, follow the steps outlined in [Installation steps when you don't belong to an existing tenant](#installation-steps-when-you-dont-belong-to-an-existing-microsoft-365-tenant).
 
-5.  Select **Start**.
-
-6.  On the **Permissions requested** page, give consent to allow the app the permissions it requires on your tenant. Select **Accept**.
+5.  To sign in, enter your password.
 
     > [!div class="mx-imgBorder"]
-    > ![Give app the required permissions](media/permissions-requested-page.png "Give app the required permissions")
+    > ![Enter your password](media/trial-password.png "Enter your password")
+
+6.  Review the terms and conditions and the privacy policy, and then select **Start**.
 
 7.  While the app is being set up for you, you’ll see the features and capabilities that the app offers:
 
