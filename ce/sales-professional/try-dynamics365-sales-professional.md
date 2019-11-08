@@ -40,7 +40,7 @@ Dynamics 365 Sales Professional is a cloud-based application that runs on a Micr
     > [!div class="mx-imgBorder"]
     > ![Sign up using your work email address](media/sign-up.png "Sign up using your work email address")
 
-4.  Based on the email address, if you are found to belong to an existing Microsoft 365 tenant, you’ll be asked to sign in using your email address.
+4.  Based on the email address, if you are found to belong to an existing Microsoft 365 tenant, you’ll be asked to sign in using your email address. Select **Sign in**.
 
     > [!div class="mx-imgBorder"]
     > ![Sign in using your email address](media/trial-sign-in.png "Sign in using your email address")
@@ -48,7 +48,7 @@ Dynamics 365 Sales Professional is a cloud-based application that runs on a Micr
     > [!IMPORTANT]
     > If you don't belong to an existing Microsoft 365 tenant, follow the steps outlined in [Installation steps when you don't belong to an existing tenant](#installation-steps-when-you-dont-belong-to-an-existing-microsoft-365-tenant).
 
-5.  To sign in, enter your password.
+5.  To sign in, enter your password, and select **Sign in**.
 
     > [!div class="mx-imgBorder"]
     > ![Enter your password](media/trial-password.png "Enter your password")
