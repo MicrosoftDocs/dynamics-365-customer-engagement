@@ -32,7 +32,7 @@ This article describes how to install the Dynamics 365 Field Service application
 To follow the steps in this topic, you will need: 
 
 - System administrator access to a Dynamics 365 organization.
-- A Dynamics 365 Field Service license.
+- A Dynamics 365 Field Service license (or the ability to purchase one).
 
 >[!Note]
 > If you don't have a Field Service license and instead want to try it out first, follow the instructions in [the trial set up topic](https://trials.dynamics.com/). If you're looking for information on purchasing a license, visit the licensing site. 
