@@ -92,7 +92,7 @@ After you’ve installed all required Azure resources, click **Authorize** to co
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT deployment app](./media/cfs-iothub-thermostadt-simulator.png)
 
- The key can be accessed by clicking on the IoT Hub resource and navigating to the shared access policies and copying the primary key for iothubowner as the image below demonstrates.
+ The key can be accessed by clicking on the IoT Hub resource and going to the shared access policies, then copying the primary key for **iothubowner** as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT deployment app](./media/cfs-iothub-resource-azure-portal.png)
