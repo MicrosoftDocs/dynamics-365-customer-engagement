@@ -42,7 +42,7 @@ For more information about this feature, see:
 
 ### Segmentation improvements
 
-Segments now support many-to-many (N:N) relationships, which means you can define segmentation criteria on entities that relate back to contacts through these types of relationships in addition to 1:N and N:1 relationships.
+Segments now support many-to-many (N:N) relationships for custom entities, which means you can define segmentation criteria on entities that relate back to contacts through these types of relationships in addition to 1:N and N:1 relationships. Previously, a few specific N:N relationships were supported (such as between contacts and marketing lists), but these were hard-coded for specific scenarios. Now you can use N:N relationships in custom scenarios too.
 
 For more information about this feature, see:
 
