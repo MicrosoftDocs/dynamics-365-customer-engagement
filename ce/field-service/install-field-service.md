@@ -41,7 +41,9 @@ To follow the steps in this topic, you will need:
 ## Install the application
 You can add a trial or a purchased subscription of the Field Service application to a Dynamics 365 organization.
 
+=============
 NOTE TO DAVE - I NEED A WAY TO REPLICATE THIS PROCESS IN AN ENVIRONMENT THAT HAS SYSADMIN ACCESS BUT NO FIELD SERVICE INSTALLED ALREADY. ALSO DO WE NEED TO MAYBE DOCUMENT THE PROCESS OF PURCHASING? IS THE SCREENSHOT ENOUGH? IS IT POSSIBLE TO HAVE PURCHASED FS ALREADY AND THEN LAND ON THIS TOPIC? 
+=============
 
 ### Step 1: Purchase and add Field Service to a Dynamics 365 organization
 

@@ -21,9 +21,12 @@ search.app:
 
 # Set up a Dynamics 365 Field Service trial
 
+=============
 MORE INFO HERE ABOUT TRIALS.DYNAMICS.COM 
 
 ALSO NEED TO UPDATE THIS TOPIC WITH CURRENT INFO WITH A WAY TO REPLICATE A NEW PERSON SIGNING UP FOR FIELD SERVICE TRIAL ENVIRONMENT. THIS ASSUMES AN EXISTING D365 ORG ALREADY, SO WE CAN JUST JUMP IN. THESE STEPS NEED UPDATING.
+=============
+
 
 1. Using system administrator credentials, sign in to the Dynamics 365 organization.
 
