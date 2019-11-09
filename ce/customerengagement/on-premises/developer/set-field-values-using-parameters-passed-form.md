@@ -161,7 +161,7 @@ function OpenNewContact() {
 ## Example: Use window.open to open a new window  
  The following sample sets default values on several different fields and shows how to use [encodeURIComponent](https://msdn.microsoft.com/library/aeh9cef7\(VS.85\).aspx) to encode the value of the `extraqs` parameter. If you use the [window.open](https://msdn.microsoft.com/library/ms536651\(VS.85\).aspx) method, you can control the features of the window that is opened.  
   
-```jscript  
+```javascript  
 function OpenNewContact() {  
     //Set the Parent Customer field value to “Contoso”.  
     var extraqs = "parentcustomerid={F01F3F6D-896E-DF11-B414-00155DB1891A}";  

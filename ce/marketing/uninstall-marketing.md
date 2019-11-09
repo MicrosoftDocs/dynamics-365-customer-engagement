@@ -96,7 +96,7 @@ To remove the solutions:
 
 1. Navigate to **Settings** > **Customization** > **Solutions** to manage your installed solutions.
 
-1. Find each the solutions listed in the [Solution uninstall order for removing Dynamics 365 Marketing](solution-uninstall-order.md) document and remove them, one at a time, in the order listed there. (Some of the items listed may not be present on your instance, so just skip these.) To remove a solution, select its check box, and then select **Delete** on the command bar. More information: [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md)
+1. Find each the solutions listed in the [Solution uninstall order for removing Dynamics 365 Marketing](solution-uninstall-order.md) document and remove them, one at a time, in the order listed there. (Some of the items listed may not be present on your instance, so just skip these.) To remove a solution, select its check box, and then select **Delete** on the command bar. More information: [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)
 
     > [!IMPORTANT]
     > You must follow the order exactly as it appears in the [Solution uninstall order](solution-uninstall-order.md) document.

@@ -24,7 +24,7 @@ search.app:
 
 # Manage information about your current and prospective customers
 
-Three of the most important and common types of database records are contacts, accounts, and leads. These fundamental business entities are shared by most Dynamics 365 apps for the Common Data Service platform, including Marketing. Read this topic to learn how these basic entities are used an affected by the Marketing app.
+Three of the most important and common types of database records are contacts, accounts, and leads. These fundamental business entities are shared by most model-driven apps in Dynamics 365, including Dynamics 365 Marketing. Read this topic to learn how these basic entities are used an affected by the Marketing app.
 
 <a name="contacts"></a>
 
@@ -36,7 +36,7 @@ Most of your contacts will represent customers or potential customers, but you m
 
 To view, create, or edit a contact, go to **Marketing** > **Customers** > **Contacts**. This brings to you a standard list view, which you can use to search, sort, filter, create, and delete your contacts. Open any contact to view its details.
 
-The contacts entity is common for and shared by most Dynamics 365 apps for the Common Data Service platform, but Dynamics 365 Marketing adds several enhancements to it, including:
+The contacts entity is common for and shared by most model-driven apps in Dynamics 365, but Dynamics 365 Marketing adds several enhancements to it, including:
 
 - **Marketing source information**: The contact **Details** tab includes a section called **Marketing**, where you can see which marketing initiatives were responsible for generating that contact.
 - **Contact preferences**: The contact **Details** tab includes a section called **Contact preferences**, where you can see information about how that contact prefers to be contacted (or not contacted) by your organization. Important settings for Marketing here include:
