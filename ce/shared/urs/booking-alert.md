@@ -68,7 +68,7 @@ The icon indicates the number of active alerts for that booking; clicking it exp
 
 - By creating the booking alert, the system automatically creates one **Booking Alert Status** record for every assignee. This allows the affected users to individually snooze (there is a field called **Next Time To Show**) or dismiss alerts. When a user dismisses the alert, the **Booking Alert Status** records are deactivated. When every assignee dismisses the alert, its **Activity Status** field is set to **Completed**.
 
-- In most situations, the user will not create the alert manually. Instead, Microsoft Flow or a workflow can be used to automate the record creation upon certain events.
+- In most situations, the user will not create the alert manually. Instead, Power Automate or a workflow can be used to automate the record creation upon certain events.
 
 - When deleting records, keep the relationship **Booking – Booking Alert – Booking Alert Status** in mind. By default, you can't remove a booking that has booking alerts associated to it.
 

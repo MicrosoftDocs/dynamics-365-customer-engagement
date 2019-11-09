@@ -43,10 +43,10 @@ See below for the differences between the two offerings.
 
 Connected Field Service for IoT Central provides a direct integration of Dynamics 365 Field Service with Microsoft Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. 
 
-Microsoft Azure IoT Central enables builders to configure rules and actions. Based on those actions, IoT alerts will be created in Connected Field Service. Also, based on service activities in Connected Field Service, information can be sent back to IoT Central. This is accomplished by using Microsoft Flow, a SaaS offering for automating workflows across applications and services. 
+Microsoft Azure IoT Central enables builders to configure rules and actions. Based on those actions, IoT alerts will be created in Connected Field Service. Also, based on service activities in Connected Field Service, information can be sent back to IoT Central. This is accomplished by using Power Automate, a SaaS offering for automating workflows across applications and services. 
 
 > [!div class="mx-imgBorder"]
-> ![Diagram showing the relationships between Azure IoT Central, Microsoft Flow, and Field Service](media/cfs-overview.png)
+> ![Diagram showing the relationships between Azure IoT Central, Power Automate, and Field Service](media/cfs-overview.png)
  
 The below end-to-end integration processes can be easily implemented based on a pure configuration experience:
 
@@ -57,7 +57,7 @@ The below end-to-end integration processes can be easily implemented based on a 
 
 Azure IoT Central requires no extensive cloud development or coding skills to get an IoT solution up and running.  
 
-With [Microsoft Flow templates](https://preview.flow.microsoft.com/templates/), users can connect their accounts, take advantage of our pre-built templates, and customize their own flows in an easy visual designer without the need for coding experience.
+With [Power Automate templates](https://preview.flow.microsoft.com/templates/), users can connect their accounts, take advantage of our pre-built templates, and customize their own flows in an easy visual designer without the need for coding experience.
 
 Check out our [Connected Field Service for IoT Central tutorial](cfs-iot-tutorial-overview.md) to get started.
 

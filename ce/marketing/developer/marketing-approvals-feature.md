@@ -22,7 +22,7 @@ search.app:
 
 # Build an approvals feature
 
-Dynamics 365 Marketing provides an infrastructure with extensibility features that offer new possibilities for developers, and one way to take advantage of this new extensibility is to create an approvals feature, possibly including integration with Microsoft Flow.
+Dynamics 365 Marketing provides an infrastructure with extensibility features that offer new possibilities for developers, and one way to take advantage of this new extensibility is to create an approvals feature, possibly including integration with Power Automate.
 
 This topic outlines one way that you could develop an approvals feature for Marketing. The feature described here would enable organizations to implement an approval workflow in which most users can't make some types of important entities (such as emails, customer journeys, or segments) **Go live** right away. Instead, an approver must inspect each record and decide whether to allow it to **Go live**, or whether more work is needed. The approver is typically an administrator or manager who is specifically identified as an approver in the system.
 
@@ -33,7 +33,7 @@ This topic outlines one way that you could develop an approvals feature for Mark
 
 <!--1. Download the [code]() for sample web resources and ribbon customizations.
 2. Sign up for or install the [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup) app. Make sure you are installing the latest version of the app.
-3. Obtain a license for [Microsoft Flow](https://flow.microsoft.com/) to create a sample approvals feature.-->
+3. Obtain a license for [Power Automate](https://flow.microsoft.com/) to create a sample approvals feature.-->
 
 ## The approval process
 
@@ -107,7 +107,7 @@ We must remove the possibility for the marketer to enter the **live editable** s
 
 To prevent this problem, we should revert the changes proposed by the marketer. If the entity isn't strongly customized, we suggest achieving this by introducing an extra field inside the entity and use this field to serialize the entity when a record enters the live-editable state. 
 
-For this scope, we introduce a new extensibility point **MsDynCrmMkt.ExtensibilityCallback.liveEditablePreAction**. If we create an event on load of the form, named as above, this code will be called when the record enters a live-editable state. The deserialization can be done both inside the action of the Reject ribbon or inside a plug-in. We strongly suggest the second approach because it gives better control of the typing and is compatible with Microsoft Flow integration.
+For this scope, we introduce a new extensibility point **MsDynCrmMkt.ExtensibilityCallback.liveEditablePreAction**. If we create an event on load of the form, named as above, this code will be called when the record enters a live-editable state. The deserialization can be done both inside the action of the Reject ribbon or inside a plug-in. We strongly suggest the second approach because it gives better control of the typing and is compatible with Power Automate integration.
 
 ### Step 3: Leverage extensibility points
 
@@ -121,4 +121,4 @@ For our example, we will need to use two of the extensibility points mentioned a
 To easily identify the entities that are in the **Approval required** and **Approve** states, we suggest creating two system views in the customer journey entity to display all the entities that need approval, and all the entities that are already approved and waiting to **Go live**.  More information: [Create or edit a view](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-and-edit-views)
 
 ## See also
-[Build approvals feature using Microsoft Flow](build-approval-feature-using-flow.md)
+[Build approvals feature using Power Automate](build-approval-feature-using-flow.md)
