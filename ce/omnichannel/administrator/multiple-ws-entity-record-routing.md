@@ -71,7 +71,7 @@ If you are creating or editing an entity record workstream, you must update **E
 
 3. Select the workstream for which you want to update the flow.
 
-4. Select **Flow** menu in the command bar, and then select **See your flows**. Microsoft Flow opens in a new browser window.
+4. Select **Flow** menu in the command bar, and then select **See your flows**. Power Automate opens in a new browser window.
 
 5. Select **Solutions** in the sitemap, and then select **Default Solution** from the list.
 

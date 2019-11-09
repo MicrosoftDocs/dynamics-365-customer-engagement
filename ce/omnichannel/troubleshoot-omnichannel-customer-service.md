@@ -23,7 +23,7 @@ Use the following list of troubleshooting topics to quickly find information to 
 
 ### Issue:
 
-The Flow doesn't update automatically. Due to this issue, you can't create an entity records channel and the system shows a business process error. In Microsoft Flow, you might see either **Cases Work Distribution Flow** or **Entity Records Distribution Flow**.
+The Flow doesn't update automatically. Due to this issue, you can't create an entity records channel and the system shows a business process error. In Power Automate, you might see either **Cases Work Distribution Flow** or **Entity Records Distribution Flow**.
 
 ### Resolution:
 
@@ -35,7 +35,7 @@ To workaround the issue, you need to reset the Flow. To reset the Flow, follow t
 
 3. Select the **+ New** to create a new entity record channel.
 
-4. Select **Flow** menu in the command bar, and then select **See your flows**. Microsoft Flow opens in a new browser window.
+4. Select **Flow** menu in the command bar, and then select **See your flows**. Power Automate opens in a new browser window.
 
 5. Select **Solutions** in the sitemap, and then select **Default Solution** from the list.
 
