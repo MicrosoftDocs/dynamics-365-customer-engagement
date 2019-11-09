@@ -1,5 +1,5 @@
 ---
-title: "Build an approvals feature using Microsoft Flow (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+title: "Build an approvals feature using Power Automate (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
 description: "Build an approvals feature"
 ms.custom: 
   - dyn365-developer
@@ -20,17 +20,17 @@ search.app:
   - D365Mktg
 ---
 
-# Build approvals feature using Microsoft Flow
+# Build approvals feature using Power Automate
 
-By integrating your approvals feature with Microsoft Flow, you can implement features such as these:
+By integrating your approvals feature with Power Automate, you can implement features such as these:
 
 - Automatically generate and send request-for-approval emails to approvers.
 - Include active approve and reject buttons in request-for-approval emails.
 - Easy customization of the approval steps, using a framework that most administrators will be able to understand and adjust for themselves.
 
-To set up an approval workflow in Microsoft Flow:
+To set up an approval workflow in Power Automate:
 
-1. Sign in to [Microsoft Flow](https://flow.microsoft.com/) with your Dynamics 365 Marketing credentials.
+1. Sign in to [Power Automate](https://flow.microsoft.com/) with your Dynamics 365 Marketing credentials.
 1. Select the **Solutions** tab from the left pane and then from the list of available solutions, select **Sample Approval**. 
 1. Select **New** and then select **Flow**.
 1. Enter the **Flow Name** in the upper left corner, select the **Triggers** tab, search for **When a record is updated**, and then select it.
