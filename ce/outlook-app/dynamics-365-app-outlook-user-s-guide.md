@@ -35,9 +35,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
 
  <!--[Watch a short video (1:35) about Dynamics 365 App for Outlook.](https://go.microsoft.com/fwlink/p/?linkid=829982)  -->
 
-## Known issues and FAQs
-
-For known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 apps Readme](../admin/readme-9.md).
+## FAQs
 
 For more information on FAQ's, see [Frequently Asked Questions about Dynamics 365 App for Outlook](faq.md).
 
@@ -319,7 +317,7 @@ The template text appears in your email.
 
 ![Template text in email](media/account-reconnect-sample-text.png)  
 
-For information on creating email templates, see [Create templates for email](https://docs.microsoft.com/en-us/power-platform/admin/create-templates-email).  
+For information on creating email templates, see [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email).  
 
 ## Add sales literature or a knowledge base article when you create an email message  
 
