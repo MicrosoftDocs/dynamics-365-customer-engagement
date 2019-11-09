@@ -22,13 +22,13 @@ search.app:
 
 # Use business units to control access to Marketing records
 
-Business units are a standard feature of Dynamics 365 apps for the Common Data Service platform. Admins can use business units to control access to records based on who is using the app and who owns each record. Business units are mapped to an organization's departments or divisions, so if your organization is structured around departments or divisions that have separate products, customers, and segments, you might want to create business units.
+Business units are a standard feature of model-driven apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation). Admins can use business units to control access to records based on who is using the app and who owns each record. Business units are mapped to an organization's departments or divisions, so if your organization is structured around departments or divisions that have separate products, customers, and segments, you might want to create business units.
 
 ## How business units affect Dynamics 365 for Marketing
 
 ### General effects of business units
 
-For complete details about how business units work in the platform, see [Create or edit business units to improve security and control](../admin/create-edit-business-units.md). Here is a quick summary of concepts that are relevant to the features discussed in this topic:
+For complete details about how business units work in model-driven apps in Dynamics 365, see [Create or edit business units](https://docs.microsoft.com/power-platform/admin/create-edit-business-units). Here is a quick summary of concepts that are relevant to the features discussed in this topic:
 
 - Every user belongs to exactly one business unit.
 - Each record belongs to the same business unit as the record owner. The record owner can be a user or team. By default, the record owner is the user that created it, but records can be reassigned by users with sufficient permissions.
@@ -37,7 +37,7 @@ For complete details about how business units work in the platform, see [Create 
 - Standard users have security roles that grant them _business-unit level access_ to the relevant entities. This allows them to access records belonging to other users from their own business unit (business-unit access).
 - Advanced users, such as managers, have security roles that grant them _parent-level access_ to the relevant entities. This allows them to access records belonging to users in their own business unit plus all child (lower-tier) business units.
 - Privileged users, such as admins, have security roles that grant them _organization-level access_ to the relevant entities. This allows them to access records belonging to all business units.
-- Teams can also combine with business units to affect record access. A record can be owned by a team rather than a user, in which case the record becomes part of the team's business unit. Teams can likewise combine users from different business units, in which case members of that team will see other team members' records as though they were all in the same business unit. More information: [Manage teams](../admin/manage-teams.md)
+- Teams can also combine with business units to affect record access. A record can be owned by a team rather than a user, in which case the record becomes part of the team's business unit. Teams can likewise combine users from different business units, in which case members of that team will see other team members' records as though they were all in the same business unit. More information: [Manage teams](https://docs.microsoft.com/power-platform/admin/manage-teams)
 
 <a name="segment-scopes"></a>
 
@@ -97,20 +97,15 @@ Form submissions, leads, and contacts generated from LinkedIn Lead Gen Forms hav
 
 ## Enable or disable business-unit scopes
 
-Although most business-unit functionality is always enabled in Dynamics 365 marketing, business-unit *scopes* for [segments](#segment-scopes) and [customer journeys](#journey-scopes) are optional (as described previously in this topic). 
-
-> [!NOTE]
-> In the current release, static segments are disabled when business-unit scopes are enabled. If you require both static-segment functionality and business-unit scopes, then create static marketing lists and embed them into a dynamic segments. We expect to remove this limitation in a future release.
+Although most business-unit functionality is always enabled in Dynamics 365 marketing, business-unit *scopes* for [segments](#segment-scopes) and [customer journeys](#journey-scopes) are optional (as described previously in this topic).
 
 To enable or disable this feature:
 
 1. Go to **Settings** > **Advanced settings** > **Other settings** > **Feature switches**.
 1. Set the **Business unit scoping** slider to **On** to turn the feature on, or to **Off** to turn it off.
 
-
-
 ### See also
 
-[Create or edit business units to improve security and control](../admin/create-edit-business-units.md)  
+[Create or edit business units](https://docs.microsoft.com/power-platform/admin/create-edit-business-units)  
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
