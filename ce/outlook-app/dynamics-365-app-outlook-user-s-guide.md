@@ -317,7 +317,7 @@ The template text appears in your email.
 
 ![Template text in email](media/account-reconnect-sample-text.png)  
 
-For information on creating email templates, see [Create templates for email](https://docs.microsoft.com/en-us/power-platform/admin/create-templates-email).  
+For information on creating email templates, see [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email).  
 
 ## Add sales literature or a knowledge base article when you create an email message  
 
