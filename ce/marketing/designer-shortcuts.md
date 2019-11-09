@@ -27,7 +27,7 @@ search.app:
 
 ## General accessibility for Dynamics 365 applications
 
-Dynamics 365 Marketing supports most (but not all) of the same keyboard shortcuts and accessibility features provided for other Dynamics 365 apps for the Common Data Service platform. For details, see the following help topics:
+Dynamics 365 Marketing supports most (but not all) of the same keyboard shortcuts and accessibility features provided for other model-driven apps in Dynamics 365. For details, see the following help topics:
 
 - [Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)
 - [Keyboard shortcuts in Dynamics 365 applications](../basics/keyboard-shortcuts.md)

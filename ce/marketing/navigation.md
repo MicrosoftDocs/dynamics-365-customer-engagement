@@ -35,7 +35,7 @@ Many Dynamics 365 applications support both the new Unified Interface and the ol
 > [!NOTE]
 > Marketing typically shares data with other Dynamics 365 applications running on the same instance, and operates on many of the same database entities, including contacts, leads, accounts, and more. Some Marketing-specific features, such as displays of analytics and insights from marketing initiatives, require the Unified Interface and therefore won't show any data when you view those entities in web-client apps.
 
-More information: [About Unified Interface](../admin/about-unified-interface.md)
+More information: [About Unified Interface for model-driven apps in PowerApps](https://docs.microsoft.com/power-platform/admin/about-unified-interface)
 
 ## Navigating among apps, areas, and entities
 
@@ -59,7 +59,7 @@ The apps you see listed in your app-selector menu will depend on which apps you 
 
 - **Marketing**: Go here to access all core marketing features, including the **Marketing**, **Events**, **Settings**, and **Training** work areas.
 - **Surveys**: Go here to set up surveys that you can use together with your marketing emails, customer journeys, and events. Surveys are provided by Voice of the Customer, which is also available for use with other Dynamics 365 products. To maintain wide compatibility, it uses a slightly different user interface than the Marketing app, which is why it is broken out into its own app here. More information: [Create and run online surveys](surveys.md)
-- **Dynamics 365&mdash;custom**: This app combines features from many of the various Dynamics 365 apps on your instance into a single navigation structure (but most Dynamics 365 Marketing end-user features *aren't* included here). It uses an interface similar to the Surveys app. Administrators, and especially customizers, may prefer to work here rather than in Dynamics 365 Marketing because more settings are available, and the user interface is the one described in the customizer and portals documentation. More information: [Engage with customers online with portals](portals.md), [Customize Dynamics 365 Marketing](customize.md), and [Administrator Guide for Dynamics 365](../admin/admin-guide.md)
+- **Dynamics 365&mdash;custom**: This app combines features from many of the various Dynamics 365 apps on your instance into a single navigation structure (but most Dynamics 365 Marketing end-user features *aren't* included here).
 
 All of the apps listed in the app-selector menu operate on the same database as one another, so settings made in the one app (including for customization, user administration, events, LinkedIn Lead Gen, Voice of the Customer, and more) will affect all the other apps.
 
@@ -135,4 +135,5 @@ Business processes help everyone follow best practices, even for situations that
 
 ### See also
 
-[Open the advanced settings](open-advanced-settings.md)
+[Open the advanced settings](open-advanced-settings.md)  
+[About Unified Interface for model-driven apps in PowerApps](https://docs.microsoft.com/power-platform/admin/about-unified-interface)
