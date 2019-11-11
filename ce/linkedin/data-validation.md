@@ -23,8 +23,6 @@ search.app:
 
 This article describes the data validation capabilities of the LinkedIn Sales Navigator solution for Dynamics 365 Sales that helps you keep the organizational structure of your matched leads up-to-date. It uses information from LinkedIn to validate the information on records in Dynamics 365 Sales and enables you to check back on pending opportunities or have a useful icebreaker when getting in touch with a lead.
 
-<!-- find places to link to from other topics -->
-
 ## Prerequisites
 
 To ensure timely updates if a matched lead changes the role or the company, the following prerequisites must be met:
@@ -47,7 +45,9 @@ There are several ways to find out if a person's organization or role has change
 
 ## Update the contact details
 
-To update the org chart for a specific person, perform the following steps in the **Verify Contact Deatils** pane.
+To update the org chart for a specific person, perform the following steps in the **Verify Contact Details** pane.
+
+![Side pane to verify contact details](media/sales-navigator-side-pane.png)
 
 1. In Dynamics 365 Sales, open the **Verify Contact Details** pane as described in the section above.
 
@@ -57,4 +57,4 @@ To update the org chart for a specific person, perform the following steps in th
 
 ## Ignore the contact details
 
-To ignore a proposed update of an org chart, select **Ignore Update**  in the **Verify Contact Deatils** pane.
+To ignore a proposed update of an org chart, select **Ignore Update**  in the **Verify Contact Details** pane.
