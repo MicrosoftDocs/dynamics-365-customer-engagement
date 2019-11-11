@@ -33,19 +33,19 @@ Before you can go-live with or test-send your message, it must pass an error che
 
 All messages must include the following:
 
-- Subscription center link, taken from the content settings as ContentSettings.SubscriptionCenter (commercial messages only).
-- Sender's physical address, taken from the content settings as ContentSettings.SenderAddress.
-- A valid subject or a dynamic expression that resolves to valid text.
-- A valid From name and address, or a dynamic expression that resolves to a valid name and address.
+- Subscription center link, using a URL taken from the [content settings](dynamic-email-content.md#content-settings) as `{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}` (required for commercial messages only). More information: [Add standard, required, and specialized links to your message](email-design.md#required-links) and [Use assist-edit to place dynamic field values](dynamic-email-content.md#assist-edit)
+- Sender's physical address, taken from the [content settings](dynamic-email-content.md#content-settings) as `{{msdyncrm_contentsettings.msdyncrm_addressmain}}`. More information: [Use assist-edit to place dynamic field values](dynamic-email-content.md#assist-edit)
+- A **Subject** entered as static text or a [dynamic expression](dynamic-email-content.md) that resolves to valid text.
+- A **From name** and valid **From address** entered as static text or [dynamic expressions](dynamic-email-content.md) that resolve to a valid name and address.
 - An HTML body (your message content).
-- A plain-text version of the message. This version must exist and must also include a subscription center link and the sender's physical address (this usually gets generated automatically, but you should review it).
+- A [plain-text version](email-design.md#text-only) of the message. This version must exist and must also include a subscription center link and the sender's physical address (this usually gets generated automatically, but you should review it).
 
 The following are also confirmed by the check:
 
-- All dynamic expressions and HTML code must compile and generate valid values.
-- All referenced images must exist in Dynamics 365 Marketing.
-- The To field must be an expression (not static) that results in a valid email address; this is normally handled automatically by the customer journey that sends the mail, but some advanced scenarios allow for customization here.
-- The from-address should use a domain that is authenticated and registered using DKIM as belonging to your organization. You can go live with a from-address that uses an unauthenticated domain, but you'll get a warning because this isn't recommended. You can't go live with a domain that is authenticated as belonging to another organization (this generates an error). More information: [Authenticate your domains](mkt-settings-authenticate-domains.md)
+- All [dynamic expressions](dynamic-email-content.md) and HTML code must compile and generate valid values.
+- All videos and images referenced from the Dynamics 365 Marketing content libraries must exist.
+- The **To** field must be an expression (not a static value) that results in a valid email address. The customer journey that sends the message will use this expression to find the address to use for each recipient (contact) processed by the journey. The default value provided for this (`{{contact.emailaddress1}}`) is usually best, but you might customize this to support custom scenarios (such as email addresses stored in another field).
+- The **From address** should use a domain that is authenticated and registered using DKIM as belonging to your organization. You can go live with a **From address** that uses an unauthenticated domain, but you'll get a warning because this isn't recommended. You can't go live with a domain that is authenticated as belonging to another organization (this generates an error). More information: [Authenticate your domains](mkt-settings-authenticate-domains.md)
 
 <a name="go-live-journey"></a>
 
