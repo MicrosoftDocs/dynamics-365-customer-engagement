@@ -19,7 +19,7 @@ ms.custom:
 
 As a Customer Service Hub administrator, if you want to use Omnichannel for Customer Service to enable support on other channels, with unified queues and unified routing (entity routing), you can adopt to Omnichannel for Customer Service at a minimal cost.
 
-To learn more, see [Unified routing](#unified-routing) and [Unified routing for cases](#unified-routing-for-cases).
+To learn more, see [Unified routing](#unified-queues) and [Unified routing for cases](#unified-routing-for-cases).
 
 ## Unified queues
 
