@@ -16660,7 +16660,11 @@
       "source_path": "ce/on-premises/use-deployment-manager-to-manage-the-deployment.md",
       "redirect_url": "../customerengagement/on-premises/deploy/use-deployment-manager-to-manage-the-deployment",
       "redirect_document_id": "false"
-
+    },
+    {
+      "source_path": "ce/omnichannel/try-chat-for-dynamics365.md",
+      "redirect_url": "try-channels",
+      "redirect_document_id": "false"
     }
   ]
 }
