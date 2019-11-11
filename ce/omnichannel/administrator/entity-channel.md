@@ -5,7 +5,7 @@ author: kabala123
 ms.author: kabala	
 manager: shujoshi	
 applies_to: 	
-ms.date: 10/25/2019
+ms.date: 11/11/2019
 ms.service: dynamics-365-customerservice	
 ms.topic: article	
 ms.assetid: 5e6285ee-4b79-473d-b920-d1fab636c82e	
@@ -17,20 +17,20 @@ ms.custom:
 
 ## Overview
  
-In Omnichannel Administration, **Entity Records** channel helps you to automatically route cases and other entity records to agents based on the agent's skill (preview), capacity, and availability.
+In Omnichannel Administration, **Entity Records** channel helps you to automatically route cases and other entity records to agents based on the agent's skill (preview), capacity, and presence.
 
 > [!Note]
 > Skill base-routing is currently in preview. To learn more, see [Skill based routing overview](overview-skill-work-distribution.md)
 
 ### Automatic distribution of cases and other entity records
 
-With unified routing for entity records, organizations can route cases and other entity records to omnichannel queues. The cases and other entity records routed to omnichannel queues are automatically distributed and assigned to best available agents based on their  skill (preview), capacity, and availability.
+With unified routing for entity records, organizations can route cases and other entity records to omnichannel queues. The cases and other entity records routed to omnichannel queues are automatically distributed and assigned to best available agents based on their  skill (preview), capacity, and presence.
 
 ### Unified routing and queues
 
 Cases and other entity records can be routed to omnichannel queues along with work items that originate from other channels such as Chat and SMS. 
 
-This allows organizations to tightly define the work profile that their agents are supposed to handle, and organizations can automate the work flow assignment across channels and assign the work items based on agents skill (preview), capacity, and availability.
+This allows organizations to tightly define the work profile that their agents are supposed to handle, and organizations can automate the work flow assignment across channels and assign the work items based on agents skill (preview), capacity, and presence.
 
 ## Configure entity records channel
 
@@ -178,7 +178,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
 
 13. Select **Save** to save the rule item.
 
-You've successfully created queues, enabled entity for routing, and created routing rule sets.
+You've successfully created queues, enabled entity for routing, and created routing rule sets. Now, activate the routing rule set.
 
 ## Upgrade path for preview users
 
