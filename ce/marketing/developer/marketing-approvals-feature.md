@@ -74,7 +74,7 @@ The only limitations that remain to customize the Marketing solution are:
 
 ### Step 1: Create a new solution
 
-1. Create a new [solution](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-solution) and name it **Sample Approval**.
+1. Create a new [solution](/powerapps/maker/common-data-service/create-solution) and name it **Sample Approval**.
 2. Add customer journey entity to the solution.
 3. Navigate to **Solutions** > **Sample Approval** > **Entities** > **Customer Journey** > **Fields**.
 4. Select the **Statuscode** attribute and add the following new states:
