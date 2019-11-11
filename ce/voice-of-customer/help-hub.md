@@ -5,8 +5,6 @@ keywords: voice of the customer help
 ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: C0082EFE-68A4-4D6F-8EFE-1EE3E5F2BB9E
 author: sbmjais
 ms.author: shjais

@@ -150,7 +150,7 @@ Once booked, you'll see the resource's availability decrease and the fulfilled d
 
 
 > [!Note]
-> This scenario scheduled a requirement without a related work order. To schedule a multi-day work order with the schedule assistant, you'll need to manually add a related requirement to a work order and delete or disregard the automatically created one. This is because you need to set an allocation method before saving and the requirements that are automatically created by work orders have an allocation method of **None** by default. 
+> This scenario scheduled a requirement without a related work order. To schedule a multi-day work order with the schedule assistant, you'll need to manually add a related requirement with an allocation method to a work order and delete or disregard the automatically created one. Alternatively, you can manually create requirement detail records with **Specify Pattern** for the auto-created requirement. This is because you need to set an allocation method before saving and the requirements that are automatically created by work orders have an allocation method of **None** by default. 
 
 
 ## Scenario 3: Schedule a multi-day requirement to multiple resources
@@ -185,13 +185,15 @@ Bookings are created for each resource on the days selected. Availability for ea
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule assistant showing decreased resource capacity after booking](../../field-service/media/scheduling-multi-2-person-requirement-book-final.png)
 
+
 ## Configuration considerations
 
-- Each requirement has its own calendar that you can view and edit from the **Modify Calendar** option in the top ribbon menu. The calendar is important because it allows you to edit the time zone of the requirement and how the schedule assistant results should be displayed. In the case of multi-day scheduling with allocation methods, the calendar will dictate the hours and pattern of the resulting bookings. For example, if the calendar is 9:00 AM - 5:00 PM, Monday - Friday, and you select **Full Capacity** as the allocation method, it will assume **Full Capacity** means the total time of the calendar. The **Percent Capacity** allocation method also uses the calendar. 
+- Each requirement has its own calendar that you can view and edit from the **Modify Calendar** option in the top ribbon menu. The calendar is important because it allows you to edit the time zone of the requirement and how the schedule assistant results should be displayed. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the modify calendar window](../../field-service/media/scheduling-multi-day-requirement-30-modify-calendar.png)
 
+- The Booking Methods **Full Capacity**, **Percent Capacity**, and **Remaining Capacity** reflect the Bookable Resource's working hours calendar. For example, if the Bookable Resource's working hours calendar is 9:00 AM - 5:00 PM, Monday - Friday, and you select **Full Capacity** as the allocation method, it will assume **Full Capacity** means the total time of the resource's calendar (which can be less than the requirement duration).
 - Availability does not need to be continuous. For example, if a dispatcher needs to schedule a resource for 4 hours one day, that resource will show as available as long as there is 4 total hours of availability, not necessarily in a single block. 
 - You can manually create requirement details as needed to schedule multi-day work according to a custom pattern. 
 - You cannot schedule more hours than are available in a defined week. For example, if the calendar is 9:00 AM - 5:00 PM, Monday - Friday, which equates to 40 hours per week, you cannot schedule more than 40 hours in one week. This would have to be done manually.

@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 10/25/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: D25BB656-E29F-4233-B5BB-ADF678CCD7D2
@@ -49,7 +49,49 @@ Use the customer form to search for an existing contact or account record in omn
 
 ## Conversation summary
 
-This section provides two tabs with details that help you to understand the information about the conversation with the customer. **Pre-chat** and **Visitor info** are the tabs in the Conversation summary card. The **Pre-chat survey** tab displays the survey answers against the questions that are requested by your organization, which helps your interaction with the customer. The **Visitor details** tab provides some information such as whether the customer is authenticated or not, browser used by the customer for contacting support, operating system used by the customer, location of the customer, interacting language of the customer, and so on.
+The conversation summary section displays tabs with the details that help you understand the information about the conversation with customer. It displays the following tabs:
+
+- Pre-chat survey
+- Portal navigation
+- Visitor details
+- Additional details (Only if configured and additional context variables available)
+
+Also, below the these tabs, at all times, you can see the Conversation details section that shows the following details:
+
+- Engagement channel
+- Waiting time
+- Skills
+- Queue
+- Start time
+
+  > [!div class='mx-imgBorder']
+  > ![Conversation details](../../media/conversation-details.png "Conversation details")
+
+### Pre-chat survey
+
+The **Pre-chat survey** tab displays the survey answers against the questions that are requested by your organization, which helps your interaction with the customer.
+
+### Preview: Portal navigation
+
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+
+The **Portal navigation** tab displays information on the path (recent actions) the customer took just before initiating a conversation. The information enables the agents to understand the customer intent and provide a personalized service with fast resolution for improved customer satisfaction. The **Portal navigation** tab displays the information in reverse chronological order, and is categorized into the following types of actions:
+
+| Action type | Description |
+|-------------|-----------------------------------|
+| Page visited | The page visited on the portal (website) along with the timestamp.|
+| Phrase searched | The keyword or phrase searched for, along with the timestamp. |
+| Knowledge article viewed | The knowledge article viewed along with the timestamp. |
+| Custom action performed | Any other custom action that is tracked by your organization as per your business requirements are displayed along with the timestamp. |
+
+   > [!div class='mx-imgBorder']
+   > ![Portal navigation tab](../../media/customer-summary-portal-navigation-tab.png "Portal navigation tab")
+
+To configure the portal navigation tab, see [Enable visitor portal navigation](../../administrator/portal-navigation.md).
+
+### Visitor details
+
+The **Visitor details** tab provides some information such as whether the customer is authenticated or not, browser used by the customer for contacting support, operating system used by the customer, location of the customer, interacting language of the customer, and so on.
 
 > [!div class='mx-imgBorder']
 > ![Conversation summary section in the customer summary form](../../media/customer-summary-conversation-summary.png "Conversation summary section in the customer summary form")
@@ -58,9 +100,13 @@ If the customer signs in to the portal to initiate a chat with the support, then
 
 ![Authenticated chat shows as Yes in the Visitor details tab of Conversation summary](../../media/conversation-summary-authenticated-chat.PNG "Authenticated chat shows as Yes in the Visitor details tab of Conversation summary") ![Unauthenticated chat shows as No in the Visitor details tab of Conversation summary](../../media/conversation-summary-unauthenticated-chat.PNG "Unauthenticated chat shows as Yes in the Visitor details tab of Conversation summary")
 
-If your administrator or developer configures the **Additional details** tab and if there are any additional context variables, it is displayed in the **Additional details** tab. To learn more, see [setContextProvider](../../developer/reference/methods/setContextProvider.md).
+To learn more, see [Create chat authentication settings](../../administrator/create-chat-auth-settings.md).
 
-To learn more, see [Create chat authentication settings](../../administrator/create-chat-auth-settings.md)
+### Additional details
+
+If your administrator or developer configures the **Additional details** tab and if there are any additional context variables, it is displayed in the **Additional details** tab. 
+
+To learn more, see [setContextProvider](../../developer/reference/methods/setContextProvider.md).
 
 ## Case
 
@@ -84,7 +130,6 @@ This section displays case- and customer-related activities in the form of a tim
 > ![Recent activities section in the customer summary form](../../media/customer-summary-recent-activities.PNG "Recent activities section in the customer summary form")
 
 The **Linked records** field drop-down shows the record that is linked to conversation. For example, if you link a contact and case to the conversation, the **Linked records** field drop-down shows **Contact** and **Case** respectively.
-
 
 > [!div class='mx-imgBorder']
 > ![View only the linked records in the drop-down](../../media/oceh/customer-summary-linked-records.PNG "View only the linked records in the drop-down")

@@ -18,6 +18,9 @@ ms.custom:
 
 Routing rules define how conversations are routed to different queues. Each routing rule has a condition and a destination queue. If the rule condition is evaluated as **True**, then the conversation is routed to the destination queue.
 
+ > [!Important]
+ > Routing rules for entity records are defined at the entity record channel level. To learn more, see [Entity records routing](entity-channel.md).
+
 A single work stream can have multiple routing rules, and these are evaluated in the order of definition. For example, if a work stream called **Chat** contains 5 routing rules, an incoming chat conversation will be evaluated against all the 5 routing rules in the defined order. 
 
 > [!div class=mx-imgBorder] 

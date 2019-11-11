@@ -18,7 +18,7 @@ ms.custom:
 
 1. Start the Unified Service Desk client by double-clicking the application shortcut on your desktop.
 
-2. In the Unified Service Desk sign-in dialog box, provide authentication details to connect to the Common Data Service platform, and then select **Login**.
+2. In the Unified Service Desk sign in dialog box, provide authentication details to connect to the Common Data Service platform, and then select **Login**.
 
      **For online deployments**
 
@@ -35,7 +35,7 @@ ms.custom:
 
 3. If you have multiple organizations, select the organization you want to connect to.
 
-4. In the app selection dialog, select the **Omnichannel Administrator** app from the list.
+4. In the app selection dialog, select the **Omnichannel Administration** app from the list.
 
 You signed in to Unified Service Desk - Omnichannel for Customer Service application.
 

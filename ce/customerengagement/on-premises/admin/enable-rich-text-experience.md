@@ -1,8 +1,8 @@
 ---
 title: "Rich text experience for appointment activities | MicrosoftDocs"
-description: "Enable the rich text experience for appointment activities with Microsoft Dynamics 365 Customer Engagement (on-premises) (online) to Microsoft Dynamics 365 Customer Engagement (on-premises) (on-premises)."
+description: "Enable the rich text experience for appointment activities."
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 10/28/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

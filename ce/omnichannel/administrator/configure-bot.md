@@ -1,28 +1,21 @@
 ---
-title: "Configure a bot | MicrosoftDocs"
-description: "Instructions to configure a bot in Omnichannel for Customer Service."
+title: "Integrate an Azure bot | MicrosoftDocs"
+description: "Instructions to integrate an Azure bot in Omnichannel for Customer Service."
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 11/08/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: B76E910B-0018-4499-B21F-6FEBDFBB2A22
 ms.custom: 
 ---
 
-# Preview: Integrate an Azure bot
+# Integrate an Azure bot
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
 A bot is a program that provides automated responses in a conversational manner to a customer. It can also help in resolving customer queries by using case deflection. A bot can also collect basic information from a customer and then provided it to a customer service agent to work further on the issue raised by the customer.  
 
@@ -32,7 +25,7 @@ In Omnichannel for Customer Service, you can integrate a bot to start the conver
 
 ## Integrate a bot with Omnichannel for Customer Service 
 
-**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0).
+**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0).
 
 To integrate a bot with Omnichannel for Customer Service, you must:
 
@@ -122,7 +115,7 @@ Escalation rules allow you to create rules for the bot to escalate the queries t
 If the bot escalates the customer query, it is routed to the appropriate queue as per the defined routing rule. If the customer query in redirected to the same queue, another agent in the queue will pick the conversation as per the capacity. For information on working with queues, see [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md).
 
 > [!NOTE]
-> If you've only one queue with bot and agents, and you didn't create a routing rule, the customer query is redirected to the same queue in case of escalation and picked up by an agent.
+> If you have only one queue with bot and agents, and you didn't create a routing rule, the customer query is redirected to the same queue in case of escalation and picked up by an agent.
 
 #### Create a context variable
 
@@ -163,6 +156,37 @@ This sample provides exact steps and configuration values to integrate a bot and
         > ![Create a rule to send customer query from bot to an agent](../media/home-loan-rule.png "Create a rule to send customer query from bot to an agent")
 
 When a chat is initiated by a customer, the query is routed to the bot through the **BotRule** routing rule. If the bot escalates the query, it is sent to the appropriate agent as per the configured routing rules. The bot needs to send the correct context variable and its value in the escalation request to route the query appropriately. For more information on setting up of context variable and escalation request, see [Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md).
+
+## Bot sessions usage
+
+Each Chat and Digital Messaging license receives an entitlement of 50 chatbot sessions for use with Microsoft Bot Framework bots. These sessions are pooled at the tenant level and expire at the end of each month. Additional chatbot sessions will require purchase of Chatbot Sessions Add-on.
+
+> [!NOTE]
+> For more information on the Chatbot licenses and pricing, please refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+
+### What is a bot session?
+
+A bot session can be defined as a conversation in which a bot is invoked. The bot can be invoked either in the beginning, during, or at the end of a conversation.
+
+- If two different bots are invoked in the same conversation, it is counted as one.
+- A conversation with bot getting escalated to a human agent is counted as a bot conversation.
+
+> [!NOTE]
+> If smart assist is enabled, the bot conversations do not include smart assist conversations.
+
+### Purchase additional chatbot sessions
+
+Chatbot Session add-ons entitle customers with Chat or Digital Messaging to an additional 100 chatbot sessions for use with Microsoft Bot Framework bots, pooled at the tenant level. Additional chatbot session expire at the end of each month.
+
+You can purchase additional bot conversations from Microsoft 365 admin center.
+
+1.	Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) with the global administrator credentials.
+
+2.	Go to **Billing** > **Purchase Services**, and select **Add-ons**.
+
+3.	Under **Add-ons**, select **Dynamics 365 for Customer Service Chatbot session add-on**.
+
+4.	Select the number of add-ons required and complete the purchase.
 
 ## Privacy notice
 

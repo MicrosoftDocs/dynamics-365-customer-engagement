@@ -13,7 +13,7 @@ ms.assetid: 6A50C0CB-4ABA-4A3A-91D4-8447AB52A4E7
 ms.custom: 
 ---
 
-# Configure link to conversation button
+# Configure link to conversation button in Unified Service Desk
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 

@@ -1,10 +1,10 @@
 ---
 title: Understanding Cases and SLA in Customer Service Hub | Microsoft Docs
 description: Understand Cases and SLA in Customer Service Hub for Dynamics 365 Customer Service.
-author: anjgupta
-ms.author: anjgup
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 10/01/2018
+ms.date: 11/04/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
@@ -22,7 +22,7 @@ search.app:
 
 Track your cases efficiently and act on them quickly in the Customer Service Hub application.
 
-Creating and managing a case can’t be any simpler. With the intuitive case form in the Customer Service Hub,you can do all your important tasks and actions without navigating to different parts of the application.  
+Creating and managing a case can’t be any simpler. With the intuitive case form in the Customer Service Hub, you can do all your important tasks and actions without navigating to different parts of the application.  
 
 You can capture important information about customers, interactions you’ve had with them, and all related records of the current case in once single place.  
 
@@ -70,7 +70,8 @@ Watch this video to learn more about case management in the Customer Service Hub
     > If an SLA is associated with an entitlement and the same entitlement is applied to a case, then the associated SLA becomes applicable for the case. 
 
    > [!NOTE]
-   > When a case is created and an entitlement is applied to it (or when the case gets resolved), the entitlement terms from the associated entitlement are decremented. However, if you don’t want the entitlement terms to be decremented for a case, on the command bar select **Do not decrement entitlement terms**.  
+   > - When a case is created and an entitlement is applied to it (or when the case gets resolved), the entitlement terms from the associated entitlement are decremented. However, if you don’t want the entitlement terms to be decremented for a case, on the command bar select **Do not decrement entitlement terms**.  
+   > - When you update the **Customer** field, the value of the **Entitlements** field will be cleared.
 
 10. Select in the **Description** field to enter to add a detailed description about the case.
 

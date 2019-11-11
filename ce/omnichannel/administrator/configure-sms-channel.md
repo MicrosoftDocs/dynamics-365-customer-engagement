@@ -2,7 +2,7 @@
 title: "Configure an SMS channel | MicrosoftDocs"
 description: "Instructions for configuring an SMS channel in Omnichannel for Customer Service."
 keywords: ""
-ms.date: 07/31/2019
+ms.date: 11/07/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -16,16 +16,9 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Preview: Configure an SMS channel
+# Configure an SMS channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
 An SMS channel allows your organization to connect to customers by using text messages. When you configure an SMS channel, your customers can send text messages and connect with an appropriate customer service agent. This provides your customers the flexibility to connect with their mobile devices even if there is no internet connection for connecting to a chat channel.
 
@@ -45,9 +38,7 @@ To add SMS support for your organization,
 
 ## Enable SMS channel in your Dynamics 365 organization
 
-SMS channel is in preview. You can enable SMS channel after you have signed up for the preview through the Insider Portal. For more information on steps to sign up for preview, see [Preview features in Omnichannel for Customer Service](../preview-features.md).
-
-Once you have signed up for preview, you can enable SMS channel by going to the Dynamics 365 Admin Center. For steps on enabling SMS in your organization as a part of Provisioning Omnichannel for Customer Service, see [Provision Omnichannel for Customer Service ](omnichannel-provision-license.md).
+You can enable SMS channel from the Dynamics 365 Administration Center. For steps on enabling SMS in your organization as a part of provisioning Omnichannel for Customer Service, see [Provision Omnichannel for Customer Service ](omnichannel-provision-license.md).
 
 > [!NOTE]
 > SMS channel is only available if you have an active subscription of Dynamics 365 Customer Service Chat.
@@ -61,7 +52,7 @@ To sign up for TeleSign:
 
 1.	Go to [TeleSign](https://www.telesign.com/) to sign up for an account if you don't have one already.
 
-2.	Purchase support phone numbers through your TeleSign account. For preview, only long code type US phone numbers are supported.
+2.	Purchase support phone numbers through your TeleSign account. In this release, only long code type US phone numbers are supported.
 
 3.	Get the customer ID and API key from your TeleSign account. You will need to provide these while setting up the SMS channel in Omnichannel for Customer Service.
 
@@ -75,9 +66,11 @@ To sign up for TeleSign:
 
 3.	Select **New** to create a work stream.
 
-4.	On the **Summary** tab, in the **Channel** field, select **SMS**.
-
-5.	In the **Auto-close after inactivity** field, select a duration of at least 8 hours.
+4.	On the **Work Distribution** tab, enter the following information:
+    - **Name**: Name of the work stream.
+    - **Channel**: Select **SMS**.
+    - **Auto-close after inactivity**: Select a duration of at least 8 hours
+    - **Allow automated messages**: This field is for future use. It is recommended to keep its value to **No**.
 
     > [!div class=mx-imgBorder]
     > ![SMS work stream](../media/sms-workstream.png "SMS work stream")
@@ -88,20 +81,21 @@ To sign up for TeleSign:
 
 7. Copy the value from the **TeleSign inbound URL** field and send it to TeleSign at [support@telesign.com](mailto:support@telesign.com). This value is the callback URL that is used to process incoming SMS messages.
 
+8.	Select **Save**.
+
     > [!div class=mx-imgBorder]
     > ![SMS Settings tab](../media/sms-settings.png "SMS Settings tab")
 
-8.	Select **Save**.
-
-9.	On the **SMS Numbers** tab, select **Add new SMS number**.
+9.	On the **SMS Numbers** tab, select **New SMS number**.
 
 10.	On the **New SMS Number** page, enter the following information:
     - **Number**: Phone number purchased from TeleSign.
-    - **Type**: Select **Long code**. Other options like Short code or Toll free are not supported in this preview.
+    - **Type**: Select **Long code**. Other options like Short code or Toll free are not supported in this release.
     - **Description**: Optional description for the number.
+    - **Operating Hours**: Allows you to specify the business hours when the customer support team is active and available to serve customers. It works only when the **Allow automated messages** field's value is set to **Yes**.
     
     > [!NOTE]
-    > - For this preview, only one phone number is supported per work stream.
+    > - For this release, only one phone number is supported per work stream.
     > - Ensure that the phone number is entered in the following format without spaces and special characters: &lt;country code&gt;&lt;phone number&gt;. For information on availability of international numbers, see [TeleSign coverage map](https://www.telesign.com/coverage-map/).
 
     > [!div class=mx-imgBorder]
@@ -135,4 +129,5 @@ When you validate the API key while setting up the SMS channel, a call is made t
 ### See also
 
 [Understand and create work streams](work-streams-introduction.md)<br>
-[Create and manage routing rules](routing-rules.md)
+[Create and manage routing rules](routing-rules.md)<br>
+[SMS FAQ](../faqs.md#sms)

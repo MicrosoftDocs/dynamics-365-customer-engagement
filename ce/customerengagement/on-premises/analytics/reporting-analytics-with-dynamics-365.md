@@ -22,7 +22,8 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Report writing guide for Dynamics 365 Customer Engagement (on-premises), version 9.x
+# Report writing guide for Dynamics 365 Customer Engagement (on-premises), version 9
+
 Microsoft Dynamics 365 Customer Engagement (on-premises) includes reports, charts, and dashboards that provide useful business information and visualizations to the user.  
 
 > [!NOTE]

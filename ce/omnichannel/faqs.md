@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions (FAQs) about Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) for Omnichannel for Customer Service."
-ms.date: 07/01/2019
+ms.date: 10/25/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -112,7 +112,7 @@ This is currently not supported. Enabling customizations for the Conversation Su
 
 ### Why am I not able to see the IntradayMonitoring report and datasets in Power BI service while configuring intraday insights dashboard for supervisors.
 
-Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in Omnichannel Administration app, ensure that you have saved the configurations before you exit the configuration form. When you select Save, the creation of the report and dataset is initiated. If you missed to save the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Power BI workspace](administrator/configure-intraday-dashboard-supervisor.md#configure-power-bi-workspace).
+Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in Omnichannel Administration app, ensure that you have saved the configurations before you exit the configuration form. When you select Save, the creation of the report and dataset is initiated. If you missed to save the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Intraday insights for Omnichannel for Customer Service app on web](administrator/configure-intraday-dashboard-supervisor.md#configure-intraday-insights-for-omnichannel-for-customer-service-app-on-web).
 
 ### What is the application ID field on the application user form?
 The application ID is a mandatory field for creating application users in the Common Data Service platform. You can copy any application ID for any valid (non-expired) application created in Azure Active Directory for the same tenant into this field. 
@@ -173,15 +173,10 @@ No. Omnichannel routing can be used to route chat or SMS requests (in preview) o
 
 ## SMS
 
-Please note that the SMS channel is currently in preview and is not a part of the Generally Available product. You can sign up for the Omnichannel for Customer Service - Preview on the [Dynamics Insider Portal](https://experience.dynamics.com/insider/).
-
-### How can I sign up to use the SMS channel preview?
-You can sign up for the Omnichannel for Customer Service – Preview program on the [Dynamics Insider portal](https://experience.dynamics.com/insider/). The product team will get back to you once preview is enabled for your organization. You will need an account with TeleSign (with two-way SMS). Preview of the SMS channel will work only if you have an active subscription for Chat for Dynamics 365 Customer Service in your tenant.
-
 ### What information from a TeleSign account do I need to enter in the Omnichannel Administrator app?
 You will need the customer ID, API key, and the phone number from your TeleSign account. This information needs to be provided in the Omnichannel Administrator app when you create or set up an SMS workstream.
 
-### I get an error when I try to use the Validate API Key to validate the TeleSign account information entered in the Omnichannel Administrator app. What should I do?
+### I get an error when I try to use the Validate API Key to validate the TeleSign account information entered in the Omnichannel Administration app. What should I do?
 The Validate API Key functionality will validate the customer ID and the API key by trying to send a test SMS message to one of the numbers provided in the SMS Numbers tab. Ensure that the customer ID and API key are entered correctly, and the numbers provided in the SMS Numbers tab can receive the text messages that are sent for validation. The phone number should have the country code with no plus sign (+), spaces or special characters; for example, this would be correct: 14251234567
 
 ### How can I know if I can get a phone number from TeleSign in a specific country?
@@ -200,15 +195,12 @@ You can send messages to a customer only after the customer has initiated the co
 Yes, Omnichannel system will automatically identify the customer based on the incoming phone number. It will look for phone numbers in the Mobile Phone field of Contact records or the Phone field of Account records. Ensure that the phone number in these field has the country code along with the plus sign (+) without any spaces or special characters; for example: +14251234567
 
 ### Can we send automated SMS responses?
-There are Microsoft Flow connectors from SMS providers that can be used for automated SMS responses. For example, [TeleSign](https://preview.flow.microsoft.com/connectors/shared_telesignsms/telesign-sms/) has a connector for these scenarios.
+There are Power Automate connectors from SMS providers that can be used for automated SMS responses. For example, [TeleSign](https://preview.flow.microsoft.com/connectors/shared_telesignsms/telesign-sms/) has a connector for these scenarios.
 
 ### Is there anything unique about the way SMS messages are routed to agents?
 All channels integrated into Omnichannel have the same routing capabilities, including SMS. You can create Routing rule items with conditions based on Account or Contact entities. Other entities (Case, Context variable, and SMS Engagement Context) are not supported at this time and should not be used for creating conditions in Routing rules items in an SMS workstream.
 
 ## Bot
-
-### Integrating a bot
-Bot integration is currently in preview and not a part of the Generally Available product. You can sign up for the Omnichannel preview on the [Dynamics Insider Portal](https://experience.dynamics.com/insider/).
 
 ### Can a third-party bot be integrated with Omnichannel through this feature?
 Only bots created through [Microsoft Bot Framework](https://dev.botframework.com/) can be integrated at this time.

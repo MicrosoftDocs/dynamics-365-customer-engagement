@@ -5,7 +5,7 @@ author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 10/15/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 3a61efc9-84b5-4499-8cce-578aae138d1e
@@ -16,7 +16,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-All users who are assigned the **Omnichannel administrator**, **Omnichannel supervisor**, or **Omnichannel agent** security role are enabled for Omnichannel and become Omnichannel users.
+All users who are assigned the **Omnichannel Administration**, **Omnichannel supervisor**, or **Omnichannel agent** security role are enabled for Omnichannel and become Omnichannel users.
 
 For more information on how to create users and assign security roles, see [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md).
 
@@ -27,22 +27,29 @@ Navigate to **Queues & Users > Users** to view the list of Omnichannel users in 
 
 ## Manage a user in Omnichannel
 
-1. In the Omnichannel site map, go to **Queues & Users \> Users**.
+1. Sign in to the Omnichannel Administration app.
 
-    The **Omnichannel Users** view is shown. 
+2. Select **Users** under **Queues & Users**.
 
-2. Select a user and in the **Omnichannel** tab, provide the following information:
+3. Double-click on a user from the list. For example, **Kenny Smith**is the user (agent).
 
-    - In the **Agent Details** section: </br>
+4. Select the **Omnichannel** tab.
 
-        - **Capacity** - Allocate capacity to agent.</br>
+5. Specify the following in the user page.
 
-        - **Default Presence** - Assign a default presence status for agent. This is the status that the agent is logged in with, in the Omnichannel app.
-     
-3. Select **Save** to the save the user record.
+    | Section | Field | Description | Example value |
+    |---------------|---------------------|---------------------|-------------------------------------------------|
+    | User Details | Capacity | Allocate capacity to agent. | 100 |
+    | User Details | Default Presence | Assign a default presence status for agent. This is the status that the agent is logged in with, in the Omnichannel app. | 
+
+6. Select **+ New Bookable Resource** under the **Skills Configuration** section. The **New Bookable Resource** page appears.
+
+7. Specify the name of agent in the **Name** field.
+
+8. Select **Save**.
 
 > [!div class=mx-imgBorder]
-> ![Default presnce](../media/oc-user-omni-tab.png)
+> ![Default presence](../media/oc-user-omni-tab.png)
 
 ### See also
 

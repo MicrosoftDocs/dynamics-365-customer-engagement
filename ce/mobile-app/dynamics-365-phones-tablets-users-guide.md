@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 10/11/2019
+ms.date: 10/31/2019
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -175,6 +175,9 @@ Take action on a record without opening the record.
 
 Activities are details that you add to a record which include things like notes, posts, task, send email, add phone call details, or set up appointments. These activities are added in the Timeline wall of a record and it keeps track of all your communications for the record in the Timeline section. The system automatically timestamps every activity and shows who created it. 
 
+> [!NOTE]
+> Recurring appointment activity is not supported on Dynamics 365 for phones app or when you run the model-driven apps web client on your mobile phone web browser. 
+
 **Add an activity**
 
 1. Select the site map button ![Menu button](media/MenuButton.png "Menu button"), then select the record type that you want to update, such as, **Accounts**. Then choose a record to open it.
@@ -307,4 +310,4 @@ The assistant draws your attention to your most important items and tasks, drawn
  [What's supported](support-phones-tablets.md) </br>
  [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)<br/>
  [Common Data Service Help](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br/>
- [Microsoft Dynamics 365 Customer Engagement (on-premises) Help](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/overview)
+ [Microsoft Dynamics 365 Customer Engagement (on-premises) Help](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/overview)

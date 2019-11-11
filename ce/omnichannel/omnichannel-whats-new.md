@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 09/18/2019
+ms.date: 10/22/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: B8D892A6-C186-406F-AA68-A10903943EF1
@@ -16,6 +16,12 @@ ms.custom:
 # What's new in Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+##  What's new in October 2019 update
+
+For information about new features releasing in October 2019, see:
+
+[2019 release wave 2 plan - Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-customer-service/omnichannel)
 
 ##  What's new in August 2019 update
 

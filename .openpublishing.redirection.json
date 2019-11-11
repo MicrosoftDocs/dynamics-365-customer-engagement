@@ -1,6 +1,26 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/new-segment-designer.md",
+      "redirect_url": "segmentation-lists-subscriptions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/easy-subscription-lists.md",
+      "redirect_url": "set-up-subscription-center",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/email-layouts.md",
+      "redirect_url": "design-digital-content",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/segments-explorer.md",
+      "redirect_url": "segments-profile",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/admin/set-up-business-management-options.md",
       "redirect_url": "https://docs.microsoft.com/power-platform/admin/set-up-business-management-options",
       "redirect_document_id": "false"
@@ -8198,7 +8218,7 @@
     },
     {
       "source_path": "ce/admin/enable-use-comprehensive-auditing.md",
-      "redirect_url": "../customerengagement/on-premises/admin/enable-use-comprehensive-auditing",
+      "redirect_url": "https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing",
       "redirect_document_id": "false"
     },
     {
@@ -16640,7 +16660,11 @@
       "source_path": "ce/on-premises/use-deployment-manager-to-manage-the-deployment.md",
       "redirect_url": "../customerengagement/on-premises/deploy/use-deployment-manager-to-manage-the-deployment",
       "redirect_document_id": "false"
-
+    },
+    {
+      "source_path": "ce/omnichannel/try-chat-for-dynamics365.md",
+      "redirect_url": "try-channels",
+      "redirect_document_id": "false"
     }
   ]
 }

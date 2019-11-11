@@ -1,6 +1,6 @@
 ---
 title: "Enable a bot to escalate and end conversation| Microsoft Docs"
-description: "Read how a bot in Omnichannel for Customer Service can be used to escalate a conversation to a human agent."
+description: "How a bot in Omnichannel for Customer Service can be used to escalate a conversation to a human agent."
 keywords: ""
 ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
@@ -11,18 +11,11 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
-# Preview: Enable a bot to escalate and end conversation
+# Enable a bot to escalate and end conversation
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
-
-The topic demonstrates how you can program a bot in Omnichannel for Customer Service to route a conversation to a human agent. Also, you can program the bot to end a conversation, too.
+This topic describes how to program a bot in Omnichannel for Customer Service to route a conversation to a human agent. It also describes how to program the bot to end a conversation.
 
 > [!NOTE]
 > Bot agents are not supported in consult mode in the current release.     
@@ -195,7 +188,7 @@ namespace EchoBot.OmniChannel
 
 3. In the Bot ActivityHandler class, call the appropriate client method. The sample code is given below.
 
-Change the `escalate` and `endconversation` command criteria to something that suits your requirements. Add code `OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);` in your bot code to send messages to Omnichannel for Customer Service. More information: [Engage a bot](#bkmk_EngageBot).
+Change the `escalate` and `endconversation` command criteria to something that suits your requirements. Add code `OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);` in your bot code to send messages to Omnichannel for Customer Service. More information: [Engage a bot](#bkmk_EngageBot)
 
 ```csharp
 using System;
@@ -265,7 +258,7 @@ namespace Microsoft.Bot.Builder.EchoBot
     }
 }
 ```
-The dictionary `contextVars` contains all the Omnichannel for Customer Service context variable name value pairs that you want to update as part of the escalation request. Here `BotHandoffTopic` is the context variable name and the “CreditCard” is the context variable value. If there is an agent queue with the rule “BotHandoffTopic equals to “CreditCard”, then this escalated chat will be routed to that queue. The bot can also send an escalation summary which will be visible to the agent once he/she accepts the escalated chat request. To send the summary, set the activity text appropriately in the escalation Activity message. This will only be visible to the human agent and not to the customer.
+The dictionary `contextVars` contains all the Omnichannel for Customer Service context variable name value pairs that you want to update as part of the escalation request. Here `BotHandoffTopic` is the context variable name and the “CreditCard” is the context variable value. If there is an agent queue with the rule “BotHandoffTopic equals to “CreditCard”, then this escalated chat will be routed to that queue. The bot can also send an escalation summary that will be visible to the agent once they accept the escalated chat request. To send the summary, set the activity text appropriately in the escalation Activity message. This will only be visible to the human agent and not to the customer.
 
 > [!NOTE]
 > Note the method call to `OmnichannelBotClient.BridgeBotMessage` in the sample code above. This needs to be called for every Activity message that is sent to the customer.
