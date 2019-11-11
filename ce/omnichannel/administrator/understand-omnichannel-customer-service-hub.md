@@ -24,6 +24,10 @@ To learn more, see [Unified routing](#unified-queues) and [Unified routing for c
 ## Unified queues
 
 Similar to the Customer Service Hub app, Omnichannel for Customer Service uses the existing Common Data Service queues for routing and distributing the conversations (work item). You can use the existing queues for Customer Service Hub and enable them for Omnichannel for Customer Service, to perform an automatic work-distribution, thus reducing the effort you require to configure new queues for your support organization.
+
+### Enable queues for automatic work distribution
+
+< Need a env to update this information >
  
 ## Unified routing for cases
 
@@ -39,15 +43,11 @@ As an administrator, perform the steps:
 
 1. Identify the cases that you want to distribute automatically to the Omnichannel for Customer Service agents.
 
-2. Define routing rules to send the cases to Omnichannel for Customer Service automatic distribution enabled queues. To learn more, see [Create routing rules](entity-channel.md#step-4-create-routing-rules)
+2. Define routing rules to send the cases to Omnichannel for Customer Service automatic distribution enabled queues. To learn more, see [Create routing rules](entity-channel.md#step-4-create-routing-rules).
 
 3. Add Omnichannel for Customer Service agents to the automatic distribution enabled queues. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
 
 If you've set up case routing in Customer Service Hub, then identify the queues for which you want to enable automatic distribution of cases based on the existing routing rules and turn on the **Enable automatic distribution** option, and then add assign the agents Omnichannel for Customer Service privileges. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
-
-### Enable queues for automatic work distribution
-
-< Need a env to update this information >
 
 ## Routing for Omnichannel for Customer Service conversations
 
