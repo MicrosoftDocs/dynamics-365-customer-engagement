@@ -41,7 +41,7 @@ The customizations outlined in this topic will help you design and implement an 
 
 1. Standard users (non-approvers who we will call Marketers) no longer see a **Go live** button on entity forms where approvals are enabled. Instead, this is replaced by a **Request approval** button on the command bar. These entities use a custom collection of Status reason values, which are used to track the approval status of each record. Records requiring approval begin with a Status reason of **Approval required**.
 
-1. When the marketer has finished creating a new record (such as an email design), they select **Send for approval**, which triggers the following changes:
+1. When the marketer has finished creating a new record (such as an email design), they select **Send for approval**, which checks that the entity is valid and triggers the following changes:
    - The Status reason for this record changes to **Approval requested**.
    - The record is locked to further changes.
    - An email message gets automatically sent to the approver configured in the system, telling them their approval is required. The message includes buttons to approve or reject. It has a link to view the relevant record in the Dynamics 365 Marketing app (where the approve and reject buttons are present).
@@ -99,9 +99,9 @@ To make our solution to work, we need to create three custom ribbon buttons, as 
 
 |Ribbon|Enable rules|Action|
 |-----|-------|------|
-|Approve|- Be an Approver <br/> - Be in Approval-required state| Move the entity to **Approved** state|
-|Reject| - Be an Approver <br/> - Be in Approval-required state| Move the entity back to the previous state (use the `msdyncrm_rstorestatuscode` field to retrieve)|
-|Ask approval| - Be a Marketer <br/> - Be in draft, error or stop state| Store the actual state of the entity in the `msdyncrm_restorestatuscode` field and move the entity to Approval-requested state|
+|Approve|- Be an Approver <br/> - Be in Approval-required state| Move the entity to the **Approved** state.|
+|Reject| - Be an Approver <br/> - Be in Approval-required state| Move the entity back to the previous state (use the `msdyncrm_rstorestatuscode` field to retrieve).|
+|Ask approval| - Be a Marketer <br/> - Be in draft, error or stopped state| Store the actual state of the entity in the `msdyncrm_restorestatuscode` field, run a validation check on the entity, and if the entity is valid move the entity to the **Approval requested** state.|
 
 We must remove the possibility for the marketer to enter the **live editable** state. This is important because when a request for approval comes from a draft, error, or stopped state, and the approver decides to reject the changes, the changes are kept and it's up to the marketer to make new ones. This logic can't be applied to the live-editable state because if the approver rejects a live-editable record, it will revert back to live. If we were to keep the changes, the user could be confused because what they see in the form will be different from what is saved in our services. 
 
