@@ -26,7 +26,7 @@ Custom channel is exposed as a “tile” in the customer journey designer. You 
 
 Define tile properties of the custom Tile in an XML file. The XML file name should be in the following format: **\<SolutionPublisherPrefix>_\<FileNamePrefix>CustomerJourneyDesignerTileConfig.xml**.
 
-For example if you want to use **SpecialTile** as the name for your XML file then the file name will be the following assuming the [solution publisher prefix](../../customize/change-solution-publisher-prefix.md) in your Dynamics 365 Marketing instance is "sample": **sample_SpecialTileCustomerJourneyDesignerTileConfig.xml** 
+For example if you want to use **SpecialTile** as the name for your XML file then the file name will be the following assuming the [solution publisher prefix](https://docs.microsoft.com/powerapps/maker/common-data-service/change-solution-publisher-prefix) in your Dynamics 365 Marketing instance is "sample": **sample_SpecialTileCustomerJourneyDesignerTileConfig.xml** 
 
 ### Sample Tile XML file 
 
