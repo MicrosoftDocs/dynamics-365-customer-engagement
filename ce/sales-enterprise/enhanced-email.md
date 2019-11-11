@@ -1,5 +1,5 @@
 ---
-title: "Send email using the enhanced email experience in Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Preview: Send email using the enhanced email experience in Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the enhanced email experience to compose an email without leaving the context of what you are working on."
 keywords: "email, popup, context, enhanced"
 ms.date: 10/17/2019
@@ -14,7 +14,9 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Send email using the enhanced email experience
+# Preview: Send email using the enhanced email experience
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The enhanced email experience in Dynamics 365 Sales allows sales reps to compose an email without leaving the record they’re working on. With the enhanced email experience, you can:
 
@@ -29,6 +31,9 @@ The enhanced email experience in Dynamics 365 Sales allows sales reps to compose
 > [!IMPORTANT]
 > - The enhanced email experience is only available in the Sales Hub app.
 > - System administrators must enable the enhanced email experience before you can use it.
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 Compose an email using the enhanced experience:
 
