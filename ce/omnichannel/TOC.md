@@ -41,6 +41,7 @@
 #### Entity records
 ##### [Entity records routing](administrator/entity-channel.md)
 ##### [Route trigger for entity records](administrator/routing-trigger.md)
+##### [Understand Omnichannel for Customer Service with Customer Service Hub](administrator/understand-omnichannel-customer-service-hub.md)
 
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)
