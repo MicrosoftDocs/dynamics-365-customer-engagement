@@ -33,7 +33,7 @@ This topic demonstrates how to perform operations on the `msdyncrm_customerjourn
 |----------|--------------|------|
 |Name|msdyncrm_name|Name of the Customer Journey|
 |Status Reason|statuscode|Current status of the customer journey. Following are the available statuscodes: <br />- Draft `192350000`<br />- Live `192350001`<br />- Stopped `192350002`<br />- Live, Editable `192350003`<br />- Error `192350005`<br />- Going Live `192350006`<br />- Stopping `192350007`<br />
-|Suppression Segment|msdyncrm_SuppressionSegmentId|The ID of the associated [Suppression Segment](https://docs.microsoft.com/en-au/dynamics365/customer-engagement/marketing/suppression-segments). Use it to set reference to a record from `msdyncrm_segments` record set.|
+|Suppression Segment|msdyncrm_SuppressionSegmentId|The ID of the associated [Suppression Segment](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/suppression-segments). Use it to set reference to a record from `msdyncrm_segments` record set.|
 |Recurrence Interval (Days)|msdyncrm_recurrenceintervaldays|The duration of the iteration (in days). Non-negative integer.|
 |Minimum Consent|msgdpr_requiredconsent|- (1) Consent `587030001` <br /> - (2) Transactional `587030002`<br /> - (3) Subscriptions `587030003`<br /> - (4) Marketing `587030004` <br/> - (5) Profiling `587030005`|
 |Recurrence Count|msdyncrm_recurrencecount|The number of iterations. Non-negative integer.|

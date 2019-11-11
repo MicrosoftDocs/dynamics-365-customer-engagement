@@ -2,7 +2,7 @@
 title: "Basic Operations on segments using API| Microsoft Docs" # Intent and product brand in a unique string of 43-59 chars including spaces
 description: The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 Marketing app."" # 115-145 characters including spaces. This abstract displays in the search result.
 ms.custom: ""
-ms.date: 08/27/2019
+ms.date: 11/11/2019
 ms.reviewer: ""
 ms.service: D365CE
 ms.topic: "article"
@@ -194,76 +194,99 @@ With the delete request, you delete the compound segment that is created.
 DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 ```
 
-## Include/exclude segment members
+## Add/Remove segment members
 
-Segment members can be added to or removed from the segments. As these operations go beyond a simple add or remove they are referred to as `Include/Exclude` operations.
+Segment members can be added to or removed from the segments. Adding a contact record makes it a member of the segment whether it satisfies the segment query definition (**msdyncrm_segmentquery**) or not. Adding a contact record that is already a member of the segment ensures that it doesn't get removed when it doesn't match the segment query.
 
-You can perform Include/exclude operations on segments through API by calling the following methods:
+Removing a contact record removes it from the segment and prevents it from being added again even if the record matches the segment query. A record can be removed from a segment without previously being a member of the segment to prevent it from becoming a member.
 
-- **msdyncrm_IncludeMemberInSegment**
-- **msdyncrm_IncludeMembersInSegment**
-- **msdyncrm_ExcludeMemberFromSegment**
-- **msdyncrm_ExcludeMembersFromSegment**
+Once a member is added to a segment, the action can be reversed by removing it from the segment, thereby preventing it from becoming a member. Similarly, removing a member can be reversed by adding it, thereby making it a member unconditionally.
 
-Including a contact record makes it a member of the segment whether it satisfies the segment query definition (**msdyncrm_segmentquery**) or not. Including a contact record that is already a member of the segment ensures that it is not removed when it doesn't match the segment query.
-
-Excluding a contact record removes it from the segment and prevents it from being added again even if the record matches the segment query. A record can be excluded from a segment without previously being a member of the segment to prevent it from becoming a member.
-
-Once a member is included, the action can be reversed by excluding it, thereby removing and preventing it from becoming a member. Similarly, excluding a member can be reversed by including it, thereby making it a member unconditionally.
-
-Following are some of the important aspects that need to be considered while performing include/exclude operations on segment members:
+Following are some of the important aspects that need to be considered while performing add/remove operations on segment members:
 
 > [!NOTE]
-> For this release, include/exclude operations are not supported for dynamic segments.
+> For this release, add/remove operations are not supported for dynamic segments.
 
 - Compound segments must be in Live or Stopped state (not Draft state).
-- Only instances of entity type **Contact** can be included/excluded as members.
-- All included/excluded records should exist; otherwise, the request gets rejected.
-- The include/exclude feature is supported only by new segmentation.
-- Include/exclude member requests are processed asynchronously, independent of any recurring segment evaluations.
-- Any include/exclude operation resulting in an actual update to segment members is recorded in **Segment Insights**.
-- When including or excluding multiple records, use the plural endpoints for faster processing.
+- Only instances of entity type **Contact** can be added/removed as members.
+- All add/remove records should exist. Otherwise, the request gets rejected.
+- The add/remove feature is supported only by new segmentation.
+- Adding/Removing member requests are processed asynchronously, independent of any recurring segment evaluations.
+- Any add/remove operation resulting in an actual update to segment members is recorded in **Segment Insights**.
+- When adding or removing multiple records, use the plural endpoints for faster processing.
 - You can add up to 10,000 contacts to the **msdyncrm_segmentmemberid** field.
 
 **Add a segment member**
 
 ```HTTP
-POST {{OrgUrl}}/api/data/v9.0/msdyncrm_IncludeMemberInSegment
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
 {
-  msdyncrm_segmentid: "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
-  msdyncrm_segmentmemberid: "B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3"
+  "msdyncrm_segmentid": "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
+  "msdyncrm_operation": "addByIds",
+  "msdyncrm_memberids": "B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3",
+  "msdyncrm_query": null
 }
 ```
 
 **Add multiple segment members**
 
 ```HTTP
-POST {{OrgUrl}}/api/data/v9.0/msdyncrm_IncludeMembersInSegment
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
 {
-   msdyncrm_segmentid: "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
-   msdyncrm_segmentmemberids: "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\", \"694E1C8E-F704-4B23-9B07-E65DB1620E47\", \"A4A31E3D-DFCA-4765-8018-3BA7D5E376C7\"]"
+   "msdyncrm_segmentid": "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
+   "msdyncrm_operation": "addByIds",
+   "msdyncrm_memberids": "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\", \"694E1C8E-F704-4B23-9B07-E65DB1620E47\", \"A4A31E3D-DFCA-4765-8018-3BA7D5E376C7\"]",
+   "msdyncrm_query": null
 }
 ```
 
 **Remove a segment member**
 
 ```HTTP
-POST {{OrgUrl}}/api/data/v9.0/msdyncrm_ExcludeMemberFromSegment
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
 {
-    msdyncrm_segmentid: "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
-    msdyncrm_segmentmemberid: "B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3"
+    "msdyncrm_segmentid": "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
+    "msdyncrm_operation": "removeByIds",
+    "msdyncrm_memberids": "B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3",
+    "msdyncrm_query": null
 ```
 
 **Remove multiple segment members**
 
 ```HTTP
-Remove multiple segment members
-POST {{OrgUrl}}/api/data/v9.0/msdyncrm_ExcludeMembersFromSegment
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
 {
-   msdyncrm_segmentid: "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
-   msdyncrm_segmentmemberids: "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\", \"694E1C8E-F704-4B23-9B07-E65DB1620E47\", \"A4A31E3D-DFCA-4765-8018-3BA7D5E376C7\"]" 
+   "msdyncrm_segmentid": "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
+   "msdyncrm_operation": "removeByIds",
+   "msdyncrm_memberids": "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\", \"694E1C8E-F704-4B23-9B07-E65DB1620E47\", \"A4A31E3D-DFCA-4765-8018-3BA7D5E376C7\"]",
+   "msdyncrm_query": null
 }
 ```
+
+**Add segment members by query**
+
+```HTTP
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
+{
+    "msdyncrm_segmentid": "b5466fbb-2cef-e911-a81d-000d3a6d200c",
+    "msdyncrm_operation": "addByQuery",
+    "msdyncrm_memberids": null,
+    "msdyncrm_query": "PROFILE(account, account_1).FILTER(account_1.accountid == '1cc00a15-37ef-e911-a81d-000d3a6d200c').TRAVERSE(contact_account_parentcustomerid, contact_1).FILTER(ISNOTNULL(contact_1.emailaddress1))"
+}
+```
+
+**Remove segment members by query**
+
+```HTTP
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
+{
+    "msdyncrm_segmentid": "b5466fbb-2cef-e911-a81d-000d3a6d200c",
+    "msdyncrm_operation": "removeByQuery",
+    "msdyncrm_memberids": null,
+    "msdyncrm_query": "PROFILE(account, account_1).FILTER(account_1.accountid == '1cc00a15-37ef-e911-a81d-000d3a6d200c').TRAVERSE(contact_account_parentcustomerid, contact_1).FILTER(ISNOTNULL(contact_1.emailaddress1))"
+}
+```
+
 **Retrieve segment members**
 
 ```HTTP
@@ -279,6 +302,16 @@ GET {{OrgUrl}}/api/data/v9.0/contacts?fetchXml=fetch version="1.0" output-format
         </link-entity>
     </entity>
 </fetch>
+```
+
+**Get status of pending operations**
+
+```HTTP
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
+{
+    "msdyncrm_segmentid":"b5466fbb-2cef-e911-a81d-000d3a6d200c",
+    "msdyncrm_operation":"getState",
+}
 ```
 
 ## Validating segments
