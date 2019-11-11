@@ -178,7 +178,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
 
 13. Select **Save** to save the rule item.
 
-You've successfully created queues, enabled entity for routing, and created routing rule sets.
+You've successfully created queues, enabled entity for routing, and created routing rule sets. Now, activate the routing rule set.
 
 ## Upgrade path for preview users
 
