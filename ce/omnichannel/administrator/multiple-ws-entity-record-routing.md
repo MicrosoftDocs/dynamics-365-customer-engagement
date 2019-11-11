@@ -43,7 +43,7 @@ To learn more, see [Create workstream for entity record routing](set-up-entity-w
 
 ## Step 2: Update entity records distribution flow
 
-If you are creating or editing an entity record workstream, you must update **Entity records Distribution Flow**. The Omnichannel Administration app automatically creates this flow out-of-the-box for distributing entity records.
+If you create or edit an entity record workstream, you must update **Entity records Distribution Flow**. The Omnichannel Administration app automatically creates this flow out-of-the-box for distributing entity records.
 
 **Entity records Distribution Flow** contains the following components.
 
@@ -172,8 +172,6 @@ Now, you've defined **Entity Record Distribution Flow** such that any case whose
 ## Troubleshoot
 
 - [Entity routing configuration fails](../troubleshoot-omnichannel-customer-service.md#entity-routing-configuration-fails)
-
-- [Entity routing does not route records](../troubleshoot-omnichannel-customer-service.md#entity-routing-does-not-route-records)
 
 ## See also
 
