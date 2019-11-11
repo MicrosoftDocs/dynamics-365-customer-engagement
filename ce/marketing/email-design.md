@@ -45,9 +45,35 @@ You can also create your own custom templates, which can help both you and other
 
 More information: [Work with email, page, and form templates](email-templates.md)
 
+## Make basic and required settings
+
+After choosing a template, a new email message opens showing the initial content from your selected template. We recommend that you start by making a few basic and required settings for the message. Though you can wait until later to make these if you prefer, you won't be able to save your work until you've entered the required settings at least. You can change any of these settings later if needed, even after saving your message.
+
+### Enter a name for the message
+
+Each email message must have a name, which identifies the message when you're looking at the list view or when selecting messages to include in a customer journey. To enter a name, select the **More header fields** button at the side of the header to open a drop-down dialog and then enter a **Name** for your new message.
+
+![Enter a name for your new email](media/email-edit-header-fields.png "Enter a name for your new email")
+
+### Enter a subject for the message
+
+Enter a **Subject** for your message in the field provided at the top of the page. This is a very important setting because this is one of the first things recipients will see when they receive the email, and they may use this to decide whether or not to read the message.
+
+![Enter a subject for your new email](media/email-edit-subject.png "Enter a subject for your new email")
+
+### Other important settings
+
+Once you have a name and subject, you'll be able to start saving your message. Other important settings are also provided above the design, together with the **Subject**, but these should already show default values that should work fine in most situations, including:
+
+- **To**: This must contain an expression for finding each address the message will be sent to. This should almost always be the dynamic expression provided by default, which is `{{contact.emailaddress1}}`.
+- **From name**: This is the name that recipients will see as the sender when they receive the message. By default, this is the name of the user who created the message. Recipients are more likely to open your message if they see a name they recognize here.
+- **From address**: This is the email address for the person who sent the message. By default, this is the email address of the user who created the message. The domain shown here should be authenticated as belonging to your organization, which can have a dramatic impact on deliverability.
+
+Each of these settings is repeated on the **Summary** tab. For complete details about how to use these settings, see [Set the sender, receiver, language and legal designation for a message](email-properties.md). We recommend that you don't change any of these settings until you've read that topic.
+
 ## Design your content
 
-After choosing a template, you'll be in the email content designer, which resembles the other [digital content designers](design-digital-content.md) provided in Dynamics 365 Marketing. Work with it as follows:
+The email content designer resembles the other [digital content designers](design-digital-content.md) provided in Dynamics 365 Marketing. Work with it as follows:
 
 - Use the **Design** > **Designer** tab graphical tool to design your content by using drag-and-drop, point-and-click operations. Add new elements to your design by dragging design elements from the **Design** > **Designer** > **Toolbox** tab to the canvas. Choose a design elements that already exists in your design, and then open the **Design** > **Designer** > **Properties** tab to configure it and style it. To style the overall message with basic fonts, colors, and background, open the **Style** tab.
 
@@ -91,19 +117,6 @@ For more information about assist edit, content settings, and the message object
 Dynamic content is content that gets resolved just before a message is sent to a specific individual. You'll typically use dynamic content to merge information from the recipient's contact record (such as first and last name), to place special links, and to place information and links from the content settings. If you're comfortable working in code, you can also create custom logic that includes conditional statements, while loops, and more. You can use dynamic content in your message body and in the message header fields (subject, from address, and from name).
 
 For complete details about these and other dynamic-content features, see [Add dynamic content to email messages](dynamic-email-content.md)
-
-<a name="text-only"></a>
-
-## Inspect and edit the text-only version of your message
-
-The HTML mail standard allows for messages to include both an HTML version and a plain-text version of your content. The purpose of the plain-text version is to allow your message to be legible when shown by email clients that don't support HTML (or which have HTML turned off). Mail clients will only show one version to users, and unless you're dealing with a very special market, it will almost always be the HTML version. It's a bit like the system of providing alt-text for images.
-
-So why bother with the plain-text version? To improve deliverability. One of the red flags that anti-spam systems look for is an email message that includes HTML content but no plain-text content (or plain-text content that doesn't match the HTML content). To help ensure that your marketing email messages don't get flagged as spam, Dynamics 365 Marketing generates a plain-text version of your HTML design and includes it when it sends the message. Usually you won't have to worry about the plain-text version, but you can still inspect and optimize it if you like.
-
-Start by designing the HTML version of your message. When you're almost done, go to the **Summary** tab of your message, where you'll see various settings and metadata for the message. Scroll down to the **Plain Text** section to see the text that was auto-generated based on your HTML content.
-
-- To fine-tune the text version, clear the **Automatically generate** check box to unlock the text field, and then edit the text as needed. From now on, though, your text version will no longer be linked to the HTML version and won't be updated to match any changes you make to the HTML.
-- To go back to tracking the HTML version, reselect the **Automatically generate** check box. This will remove any customizations that you've made to the plain text and update it to match the current HTML design on an ongoing basis.
 
 ### See also
 

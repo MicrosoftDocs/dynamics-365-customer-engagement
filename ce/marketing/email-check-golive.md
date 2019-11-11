@@ -38,7 +38,7 @@ All messages must include the following:
 - A **Subject** entered as static text or a [dynamic expression](dynamic-email-content.md) that resolves to valid text.
 - A **From name** and valid **From address** entered as static text or [dynamic expressions](dynamic-email-content.md) that resolve to a valid name and address.
 - An HTML body (your message content).
-- A [plain-text version](email-design.md#text-only) of the message. This version must exist and must also include a subscription center link and the sender's physical address (this usually gets generated automatically, but you should review it).
+- A [plain-text version](email-properties.md#text-only) of the message. This version must exist and must also include a subscription center link and the sender's physical address (this usually gets generated automatically, but you should review it).
 
 The following are also confirmed by the check:
 
