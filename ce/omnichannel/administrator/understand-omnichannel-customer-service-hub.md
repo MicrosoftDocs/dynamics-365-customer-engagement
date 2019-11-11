@@ -24,10 +24,6 @@ To learn more, see [Unified routing](#unified-queues) and [Unified routing for c
 ## Unified queues
 
 Similar to the Customer Service Hub app, Omnichannel for Customer Service uses the existing Common Data Service queues for routing and distributing the conversations (work item). You can use the existing queues for Customer Service Hub and enable them for Omnichannel for Customer Service, to perform an automatic work-distribution, thus reducing the effort you require to configure new queues for your support organization.
-
-### Enable queues for automatic work distribution
-
-< Need a env to update this information >
  
 ## Unified routing for cases
 
