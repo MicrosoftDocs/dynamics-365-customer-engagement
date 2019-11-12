@@ -30,7 +30,7 @@ To get fully up and running with Field Service, you'll need to:
 3. Install the Woodford mobile configurator
 4. Install and configure the mobile project template
 
-In this article, we will walk through each of these steps. 
+In this article, we'll walk through each of these steps. 
 
 
 ## Prerequisites
@@ -108,11 +108,11 @@ The configuration tool allows app access for field technician users, and allows 
 
 ## Step 4: Import the mobile project template
 
-After you install the Field Service Mobile configuration tool, you need to download and import a mobile project that allows you to configure the mobile app for your organization.
+Next, download and import a mobile project that allows you to configure the mobile app for your organization.
 
 The mobile project template contains all customizations for the Field Service Mobile app. A mobile project allows you to customize the mobile experience across devices. For example, you use a mobile project to add, remove, and change fields, entities, views, and forms on the mobile app.
 
-1. Open the Mobile Configuration Tool (Woodford) by going to **Settings** > **Woodford** and selecting **MobileCRM Woodford HTML5**. If you experience trouble opening or performing functions in the HTML5 version, you can use the MobileCRM Woodford Legacy in a non-private Internet Explorer browser window.
+1. Open the Mobile Configuration Tool (Woodford) by going to **Settings** > **Woodford** and selecting **MobileCRM Woodford HTML5**. If you experience trouble opening or working in the HTML5 version, you can use the MobileCRM Woodford Legacy in a non-private Internet Explorer browser window.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Woodford admin interface](media/mobile-install-mobilecrm-woodford.png)
@@ -121,7 +121,7 @@ The mobile project template contains all customizations for the Field Service Mo
 
 3. Register yourself as a user.
 
-4. [Download mobile project for **Field Service Mobile** (latest) Field Service v7.5.5 and v8.2+](https://aka.ms/fsmobile-project) and save in a location other than the Downloads folder. If you have an existing mobile project from a previous app version, you will need to manually move the customizations for that project into a derivative of this project.
+4. [Download mobile project for **Field Service Mobile** (latest) Field Service v7.5.5 and v8.2+](https://aka.ms/fsmobile-project) and save in a location other than the Downloads folder. If you have an existing mobile project from a previous app version, you'll need to manually move the customizations for that project into a derivative of this project.
 
   The mobile project is updated periodically; [bookmark this website](https://aka.ms/fsmobile-project) for regular access the latest mobile project.
 
