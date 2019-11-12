@@ -25,16 +25,8 @@ search.app:
 ---
 # Asset Management in Field Service 
 
-Customer asset functionality lets you maintain a list of serviceable items related to a service location.  
-  
- When you create and maintain a list of serviceable items, you can:  
-  
--   Record specific information about the item.  
-  
--   Create a historic log of all of the work orders that are related to the item, which gives you a complete service history for the item.  
-  
-Customer asset records can be configured in a hierarchy in order to maintain service history at the sub-component level.  
-  
+Customer assets allow you to keep track of the equipment at your customers' locations that you are responsible for inspecting, maintaining, and repairing. At its simplest, customer assets note which products are located at each customer location. A more developed use of customer assets is to track service history of all past and present work orders for each asset. A further developed solution is to connect customer assets to Connected Field Service sensors that monitor the health of the asset and trigger IoT alerts and work orders as needed. 
+
 
 In this article let's explore creating customer assets and noting them on work orders, agreements, and IoT devices to build service history.
 
@@ -51,7 +43,7 @@ Customer Assets can be created:
 1. manually or via import
 2. automatically when work order products are used
 
-### Manually 
+### Manually create customer assets
 
 You can create customer assets manually or via import. 
 
@@ -72,7 +64,7 @@ From the main menu, click **Field Service** > **Customer Assets** > **+New**.
 
  **Save**.  
    
-### Automatically add customer assets to a service location  
+### Automatically create customer assets from work order products  
 
 Customer assets can also be created automatically when a work order product is used during a work order.
 
@@ -180,7 +172,7 @@ When work orders are generated from the agreement and agreement booking setup, t
 
 Just like work order incidents, you can add multiple agreement incidents that will all be added to the generated work orders.
 
-## Connected Field Service
+## Customer assets with Connected Field Service
 
 Lastly, Connected Field Service (CFS) utilizes assets to make better use of IoT telemetry.
 
@@ -193,13 +185,11 @@ CFS has an entity called Devices which represent Internet-connected sensors. An 
 
 From a customer asset, you can relate devices in the **Connected Devices** section.
 
-See associated records > Connect 
+Simply create a new connection and choose the device and the **Connected IoT Device** role. 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-iot-device-connect.png)
-
-Simply create a new connection and choose the device and the **Connected IoT Device** role. 
 
 
 In practice, this means IoT alerts for a specific sensor will also tag the related customer asset, and if a work order is created from the IoT alert it will note the alert and the asset.
