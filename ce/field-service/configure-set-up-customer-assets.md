@@ -144,7 +144,7 @@ The first and most important work order incident type can be added directly from
 Keep in mind you can add multiple work order incidents to a work order by going to **Related >  Incidents > +New Work Order Incidents** and each incident can be related to the same or different customer assets as long as they all belong to the same service account.
 
 > [!Note]
-> WOP, WOS, WOST
+> When noting a customer asset on a work order incident, the customer asset will also be noted on all work order products, services, and service tasks that result from that work order incident.
 
 
 > [!div class="mx-imgBorder"]
@@ -159,7 +159,10 @@ This allows managers to easily see a list of all work orders the customer asset 
 
 ### With agreements
 
-Agreement incident types
+Similar to using work order incidents, you can also use Agreement Incident types to 
+
+1. note which customer asset recurring maintenance is intended for 
+2. ensure recurring maintenance is added to the customer asset service history
 
 [Set up agreements to automatically generate work orders and invoices](../field-service/set-up-customer-agreements.md)  
 
