@@ -57,10 +57,11 @@
 ### [Help resources for sales people](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)
 ### [Send email using the enhanced email experience](enhanced-email.md)
+### [Create a PDF document](create-quote-pdf.md)
+
 ### Manage customers
 #### [Manage accounts and contacts](../basics/accounts-contacts.md)
 #### [Scan business cards](scan-business-cards.md)
-#### [Create a PDF document](create-quote-pdf.md)
 
 ### Lead and opportunity management
 #### [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)
