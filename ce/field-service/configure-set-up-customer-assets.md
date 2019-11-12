@@ -48,25 +48,26 @@ In this article let's explore creating customer assets and noting them on work o
 
 ### Manually 
 
+You can create customer assets manually or via import. 
+
+From the main menu, click **Field Service** > **Customer Assets** > **+New**.  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-create-manually.png)
   
-1.  From the main menu, click **Field Service** > **Customer Assets**.  
+**Name:** enter a reference name or title for the customer asset that stakeholders can refer to. This can be the make and model of the customer asset, the name of the product in the product catalog, a general name like "HVAC Unit," and can even hold descriptive information like "HVAC Unit 2nd Floor".
   
-2.  On the **Active Customer Assets** screen, click **New**.  Use the tooltips to help you fill in information.  
-  
-3.  Enter the **Name** of the customer asset record.  
-  
-4.  Enter the **Service Account** to indicate the service location of the customer asset.  
-  
-5.  Optionally, enter the direct **Parent** of the current asset if you are creating a sub-component customer asset. For example, a refrigerator asset record can be the parent asset to a compressor asset record.  
-  
-6.  Optionally, enter the **Product** from the product catalog that identifies this asset.  
-  
-7.  When you're done, click **Save**.  
-  
-8.  In the **Sub Assets** section, click **Add Customer Asset record** to add any related assets.  
+**Service Account:** choose an account from the lookup to represent the location and customer of the customer asset. As a simple rule, if you were going to create a work order to repair the customer asset, the service account of the work order and the service account of the customer asset should be the same. 
+
+**Product:** if the customer asset correlates with a product in your product catalog, choose it from the lookup. This is optional. 
+
+**Parent Asset:** Field Service supports hierarchical customer asset structures. As an example, a part can be the child of a widget, which is the child of a machine and you can have as many parent-child relationships as needed. Use this field to identify the direct parent of this customer asset. The **Master Asset** shows the top level parent in the relationship automatically. In addition, you can use the Sub Asset grid on the form to add child customer assets. 
+
+ **Save**.  
+
+> [!Note]
+> If needed, you can even create a customer asset without a look up to the product record by simply 
+
    
 ### Automatically add customer assets to a service location  
 
