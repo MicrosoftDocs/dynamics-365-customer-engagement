@@ -2,7 +2,7 @@
 title: "Create a PDF document from sales records (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Create and share professional-looking PDF documents with your customers."
 keywords: "Quote, proposal, create PDF, email PDF, PDF"
-ms.date: 10/01/2019
+ms.date: 11/15/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -58,7 +58,7 @@ You can also generate a PDF document and directly email it to a customer.
 
     |Field             |	Populated with                                 |
     |------------------|-------------------------------------------------|  
-    |**To**                |	Potential customer of the quote                |
+    |**To**                |	Potential customer, if applicable                |
     |**From**	             |  Current user                                   |
     |**Attachments**       |	The generated PDF, added as an attachment         |
     |**Regarding**	       |  Record from which the email was triggered| 
