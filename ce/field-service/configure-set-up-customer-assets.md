@@ -46,6 +46,11 @@ In this article let's explore creating customer assets and noting them on work o
 
 ## Create customer assets
 
+Customer Assets can be created:
+
+1. manually or via import
+2. automatically when work order products are used
+
 ### Manually 
 
 You can create customer assets manually or via import. 
@@ -96,22 +101,30 @@ Now, when a work order is completed, by changing the work order system status to
 > ![Screenshot of ](./media/customer-asset-auto-new-list.png)
 
 Unlike manually created customer assets, ones created from work order products will have a link to the work order product. 
- 
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-auto-new-form.png)
 
   
 ## Build service history 
 
+After customer assets are created you can track repairs, inspections, tests, IoT telemetry, and issues to build service history. Understanding service history is important for making better repair decisions, maintaining asset lifespan and uptime, and ultimately keeping the customer happy.
+
 ### Notes on timeline
 
+THe simplest and crudest way to build service history is to use notes and the timeline feature available on Dynamics 365 forms.
+
+As an example, from Field Service Mobile, the field technician can navigate to the customer asset record and add a note.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-note-mobile-install.png)
 
+Beyond typing text, Field Service Mobile allows you to add pictures, videos, and voice recordings with notes.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-note-web-install.png)
+
+Notes will appear in the customer asset form timeline and things like pictures will show as attachments.
 
 > [!NOTE]
 > To associate customer assets with work order records, you must specify the customer asset within the work order incident or agreement incident records.  
