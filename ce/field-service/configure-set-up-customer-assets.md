@@ -164,18 +164,21 @@ Similar to using work order incidents, you can also use Agreement Incident types
 1. note which customer asset recurring maintenance is intended for 
 2. ensure recurring maintenance is added to the customer asset service history
 
-[Set up agreements to automatically generate work orders and invoices](../field-service/set-up-customer-agreements.md)  
+For more information on agreements, see the topic on [setting up agreements to automatically generate work orders and invoices](../field-service/set-up-customer-agreements.md).  
 
-
+After creating an Agreement, and then adding a related Agreement Booking Setup, you can add an Agreement Booking Incident. 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-agreement-incident.png)
+
+You can then note a customer asset on the Agreement Boooking Incident.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-agreement-setup.png)
 
-> [!NOTE]
-> To associate customer assets with work order records, you must specify the customer asset within the work order incident or agreement incident records.  
+When work orders are generated from the agreement and agreement booking setup, the incidents with their respective customer asset relationships will be added to the work orders as well.
+
+Just like work order incidents, you can add multiple agreement incidents that will all be added to the generated work orders.
 
 ## Connected Field Service
 
