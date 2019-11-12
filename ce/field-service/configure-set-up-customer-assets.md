@@ -79,9 +79,12 @@ In the Field Service section of the product record, set **Convert to Customer As
 > [!Note]
 > Services cannot become customer assets, only products where Field Service Product Type = Inventory or Non-inventory.
 
-Next add the 
+Next add the product to a work order, thus creating a work order product. this can be done manually or automatically when a work order incident type is added.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-product-used.png)
+
+Add a **Quantity** and set **Line Status** to **Used** on the work order product indicating it was consumed during the work order. This is most commonly done on Field Service Mobile by a field technician. 
 
 
 > [!div class="mx-imgBorder"]
@@ -92,19 +95,12 @@ Now, when a work order is completed, by changing the work order system status to
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-auto-new-list.png)
 
-
-
+Unlike manually created customer assets, ones created from work order products will have a link to the work order product. 
+ 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-auto-new-form.png)
-  
-1.  In the product catalog, find a product that you would like the system to automatically add as a customer asset when .  
-  
-2.  In the **Field Service** section of the product record form, set the **Convert to Customer Asset** field to **Yes**.  
-  
-3.  Save the changes to the product record.  
-  
 
-
+  
 ## Build service history 
 
 ### Notes on timeline
