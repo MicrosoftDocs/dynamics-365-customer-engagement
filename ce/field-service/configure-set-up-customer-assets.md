@@ -182,15 +182,16 @@ Just like work order incidents, you can add multiple agreement incidents that wi
 
 ## Connected Field Service
 
-Lastly, connected field service utilizes assets to make better use of IoT telemetry.
+Lastly, Connected Field Service (CFS) utilizes assets to make better use of IoT telemetry.
 
 See the video on ![Video symbol](../field-service/media/video-icon.png "Video symbol") [setting up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk) for basic configuration. 
 
-relate one or more devices to a customer asset
-
+CFS has an entity called Devices which represent Internet-connected sensors. An example is a thermometer that measures temperature or a hygrometer that measures humidity. CFS allows you to relate the devices to customer assets in a 1:many relationship meaning one customer asset can have many related devices. For a example, a single HVAC unit (customer asset) can have multiple device sensors (thermometer and hygrometer) that send readings to Azure IoT and CFS. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-iot-device.png)
+
+From a customer asset, you can relate devices in the **Connected Devices** section.
 
 See associated records > Connect 
 
@@ -198,21 +199,23 @@ See associated records > Connect
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-iot-device-connect.png)
 
+Simply create a new connection and choose the device and the **Connected IoT Device** role. 
 
+
+In practice, this means IoT alerts for a specific sensor will also tag the related customer asset, and if a work order is created from the IoT alert it will note the alert and the asset.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-iot-alert.png)
 
 ## Configuration considerations
+- A used work order product with quantity of 2 will not create 2 customer asset records, but there will be a lookup reference to the work order product that will show the exact quantity.
+- It is common to add custom serial number, barcode, and QR code fields to customer assets for more specific tracking. The Field Service Mobile app supports barcode scanning to populate fields and locate records in the system.
+- Only products where Field Service Product Type = Inventory or Non-inventory can be added to work orders so only those products can be automatically converted to customer assets. However, when manually creating a customer asset you can add all products. 
 
-- serial number
-- customer asset with quantity 2 will not create 2 customer asset records, but there will be a lookup reference to the work order product that will show a quantity of 2
-- does product need to have field service product type to convert to asset? inventory and non inventory?
-- [Adding 3D models to customer assets](../field-service/3D-viewer.md)
 
 ## Additional notes
-- can relate to booking alerts
-
+- [Booking alerts](./booking-alert.md) , which can display helpful reminders on the schedule board, can be related to customer assets, among many other records.
+- Field Service Mobile supports [adding 3D models to customer assets](../field-service/3D-viewer.md) that serve as three-dimensional knowledge articles and give technicians a better idea of the asset they are servicing.
   
 ### See also    
 [Create work order templates with incident types](../field-service/configure-incident-types.md) 
