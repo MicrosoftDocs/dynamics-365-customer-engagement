@@ -182,7 +182,9 @@ Just like work order incidents, you can add multiple agreement incidents that wi
 
 ## Connected Field Service
 
-![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
+Lastly, connected field service utilizes assets to make better use of IoT telemetry.
+
+See the video on ![Video symbol](../field-service/media/video-icon.png "Video symbol") [setting up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk) for basic configuration. 
 
 relate one or more devices to a customer asset
 
