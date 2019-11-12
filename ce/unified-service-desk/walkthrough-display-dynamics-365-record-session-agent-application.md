@@ -128,7 +128,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
   
 <a name="Step4"></a>   
 ## Step 4: Create a window navigation rule to display the account record in a session  
- In this step, you’ll create a window navigation rule that displays the record in a session when the user selects on any of the accounts in the search results window.  
+ In this step, you’ll create a window navigation rule that displays the record in a session when the user selects any of the accounts in the search results window.  
   
 1. Sign in to the Common Data Service platform.  
   

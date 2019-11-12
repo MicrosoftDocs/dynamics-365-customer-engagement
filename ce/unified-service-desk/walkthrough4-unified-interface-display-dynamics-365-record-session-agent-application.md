@@ -18,7 +18,7 @@ search.app:
 
 # Walkthrough 4: Display aUnified Interface apps record in a session in your agent application
 
-This walkthrough demonstrates how to display records in a session in your agent application using window navigation rules and session controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. It also demonstrates the use of replacement parameters to dynamically display the name of the hosted control based on the currently displayed account record. This walkthrough is built on top of the previous walkthrough, [Walkthrough 3: DisplayUnified Interface apps records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md), to display an account record in a session when you select on one of the accounts in the **Account** search result window.  
+This walkthrough demonstrates how to display records in a session in your agent application using window navigation rules and session controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. It also demonstrates the use of replacement parameters to dynamically display the name of the hosted control based on the currently displayed account record. This walkthrough is built on top of the previous walkthrough, [Walkthrough 3: DisplayUnified Interface apps records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md), to display an account record in a session when you select one of the accounts in the **Account** search result window.  
   
 ## Prerequisites  
   
@@ -128,7 +128,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
   
 <a name="Step4"></a>   
 ## Step 4: Create a window navigation rule to display the account record in a session  
- In this step, you’ll create a window navigation rule that displays the record in a session when the user selects on any of the accounts in the search results window.  
+ In this step, you’ll create a window navigation rule that displays the record in a session when the user selects any of the accounts in the search results window.
   
 1. Sign in to the Common Data Service platform.  
   
