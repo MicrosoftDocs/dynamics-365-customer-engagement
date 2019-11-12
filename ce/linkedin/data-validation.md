@@ -29,7 +29,7 @@ To ensure timely updates if a matched lead changes the role or the company, the 
 
 - The CRM sync capability in LinkedIn Sales Navigator is activated by an administrator
 
-- The data validation settings are turned on in **Settings** > **Business Management** > **Sales Navigator Integration Settings**
+- The data validation settings are turned on in **Settings** > **Business Management** > **Sales Navigator Integration Settings**. When the data validation feature is turned on for the first time, you'll get updates about the company change status for the past two years. Afterwards, the updates come are sent to the system on daily basis, every 24 hours.
 
 ## Access the data validation capabilities Dynamics 365 Sales
 
