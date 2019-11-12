@@ -61,7 +61,9 @@ From the main menu, click **Field Service** > **Customer Assets** > **+New**.
 > ![Screenshot of ](./media/customer-asset-create-manually.png)
   
 **Name:** enter a reference name or title for the customer asset that stakeholders can refer to. This can be the make and model of the customer asset, the name of the product in the product catalog, a general name like "HVAC Unit," and can even hold descriptive information like "HVAC Unit 2nd Floor".
-  
+
+**Category:** - Add or create a customer asset category that serves as a label to organize assets into useful groups by function, model, etc based on your business needs.
+
 **Service Account:** choose an account from the lookup to represent the location and customer of the customer asset. As a simple rule, if you were going to create a work order to repair the customer asset, the service account of the work order and the service account of the customer asset should be the same. 
 
 **Product:** if the customer asset correlates with a product in your product catalog, choose it from the lookup. This is optional and allows for flexibility to manage more of the customer's assets even if the asset did not originate from your product catalog. One example is if the field service organization takes over managing existing assets from a different manufacturer or supplier. 
@@ -112,7 +114,7 @@ After customer assets are created you can track repairs, inspections, tests, IoT
 
 ### Notes on timeline
 
-THe simplest and crudest way to build service history is to use notes and the timeline feature available on Dynamics 365 forms.
+The simplest and crudest way to build service history is to use notes and the timeline feature available on Dynamics 365 forms.
 
 As an example, from Field Service Mobile, the field technician can navigate to the customer asset record and add a note.
 
@@ -126,26 +128,34 @@ Beyond typing text, Field Service Mobile allows you to add pictures, videos, and
 
 Notes will appear in the customer asset form timeline and things like pictures will show as attachments.
 
-> [!NOTE]
-> To associate customer assets with work order records, you must specify the customer asset within the work order incident or agreement incident records.  
+One drawback of using notes and the timeline is it is less organized and hard to report on or create metrics for. As an example, imagine as a field service organization you want to report on the number of times a specific asset or asset class has needed repairs; the timeline would be too unorganized for this. Using the timeline is better for anecdotal notes that give field technicians tips and context.
 
 ### With work orders
-- Incidents
 
+A standard and more organized way to build service history is to note the customer asset on work order incidents.
+
+As a reminder, incident types are common and distinct issues that serve as work order templates and automatically add details like work order type, work order products, services, and tasks. See the topic on [Creating work order templates with incident types](./configure-incident-types.md).
+
+The first and most important work order incident type can be added directly from the main work order form in the Primary Incident Type field. If the incident type is for example an inspection, and the purpose is to inspect a specific asset at the work order location (service account) then add a **Primary Incident Customer Asset**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-primary-incident.png)
+
+Keep in mind you can add multiple work order incidents to a work order by going to **Related >  Incidents > +New Work Order Incidents** and each incident can be related to the same or different customer assets as long as they all belong to the same service account.
+
+> [!Note]
+> WOP, WOS, WOST
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-product-asset-relation.png)
 
+Any time a customer asset appears on a work order incident, the work order will appear in the **Related Work Orders** section of the customer asset. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-related-work-orders.png)
 
-
-- WOP, WOS, WOST
+This allows managers to easily see a list of all work orders the customer asset is or was the subject of and helps with reporting because you can concretely relate asset details (name, category, product) with work order details (service account, work order type, incident type).
 
 ### With agreements
 
@@ -161,6 +171,8 @@ Agreement incident types
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-agreement-setup.png)
 
+> [!NOTE]
+> To associate customer assets with work order records, you must specify the customer asset within the work order incident or agreement incident records.  
 
 ## Connected Field Service
 
