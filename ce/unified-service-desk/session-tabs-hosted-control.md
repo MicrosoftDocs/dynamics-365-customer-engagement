@@ -21,7 +21,7 @@ search.app:
 Use **Session Tabs** type of hosted control to display customer information in a session tab in your agent application. The hosted control can read the session lines configuration for the session name configuration, and can evaluate which session line should be used to create the session name. An instance of this hosted control type must be available in your agent application for the session tabs to be displayed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Session management in Unified Service Desk](../unified-service-desk/session-management-unified-service-desk.md)  
   
 <a name="Create"></a>   
-## Create a Session Tab hosted control
+## Create a session tab hosted control
 
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. Select **Session Tabs** from the **USD Component Type** drop-down list in the **New Hosted Control** screen. 
 
