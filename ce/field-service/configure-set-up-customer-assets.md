@@ -59,23 +59,27 @@ From the main menu, click **Field Service** > **Customer Assets** > **+New**.
   
 **Service Account:** choose an account from the lookup to represent the location and customer of the customer asset. As a simple rule, if you were going to create a work order to repair the customer asset, the service account of the work order and the service account of the customer asset should be the same. 
 
-**Product:** if the customer asset correlates with a product in your product catalog, choose it from the lookup. This is optional. 
+**Product:** if the customer asset correlates with a product in your product catalog, choose it from the lookup. This is optional and allows for flexibility to manage more of the customer's assets even if the asset did not originate from your product catalog. One example is if the field service organization takes over managing existing assets from a different manufacturer or supplier. 
 
-**Parent Asset:** Field Service supports hierarchical customer asset structures. As an example, a part can be the child of a widget, which is the child of a machine and you can have as many parent-child relationships as needed. Use this field to identify the direct parent of this customer asset. The **Master Asset** shows the top level parent in the relationship automatically. In addition, you can use the Sub Asset grid on the form to add child customer assets. 
+**Parent Asset:** Field Service supports hierarchical customer asset structures. As an example, a part can be the child of a widget, which is the child of a machine and you can have as many parent-child relationships as needed. Use this field to identify the direct parent of this customer asset. The **Master Asset** shows the top level parent in the relationship automatically. In addition, you can use the **Sub Asset** grid on the form to add child customer assets. 
 
  **Save**.  
-
-> [!Note]
-> If needed, you can even create a customer asset without a look up to the product record by simply 
-
    
 ### Automatically add customer assets to a service location  
 
+Customer assets can also be created automatically when a work order product is used during a work order.
+
+First go to the Product in the product catalog you would like to become a customer asset when it is sold to a customer (i.e. added to a work order and used).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-product-convert-to-customer-asset.png)
 
+In the Field Service section of the product record, set **Convert to Customer Asset** to **Yes**. 
 
+> [!Note]
+> Services cannot become customer assets, only products where Field Service Product Type = Inventory or Non-inventory.
+
+Next add the 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-product-used.png)
 
@@ -83,7 +87,7 @@ From the main menu, click **Field Service** > **Customer Assets** > **+New**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-work-order-complete.png)
 
-
+Now, when a work order is completed, by changing the work order system status to **Open-Completed**, if the work order includes a work order product that was set to **Convert to Customer Asset**, the system will automatically generate the customer asset record, and associate it with the service account listed on the work order.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-auto-new-list.png)
@@ -93,13 +97,13 @@ From the main menu, click **Field Service** > **Customer Assets** > **+New**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customer-asset-auto-new-form.png)
   
-1.  In the product catalog, find a product that you would like the system to automatically add as a customer asset when sold to a customer.  
+1.  In the product catalog, find a product that you would like the system to automatically add as a customer asset when .  
   
 2.  In the **Field Service** section of the product record form, set the **Convert to Customer Asset** field to **Yes**.  
   
 3.  Save the changes to the product record.  
   
-4.  Now, when a work order is completed, by changing the work order system status to **Closed - Posted**, if the work order includes a work order product that was set to **Convert to Customer Asset**, the system will automatically generate the customer asset record, and associate it with the service account listed on the work order.
+
 
 ## Build service history 
 
@@ -174,6 +178,7 @@ See associated records > Connect
 
 - serial number
 - customer asset with quantity 2 will not create 2 customer asset records, but there will be a lookup reference to the work order product that will show a quantity of 2
+- does product need to have field service product type to convert to asset? inventory and non inventory?
 - [Adding 3D models to customer assets](../field-service/3D-viewer.md)
 
 ## Additional notes
