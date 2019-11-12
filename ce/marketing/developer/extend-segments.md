@@ -20,10 +20,10 @@ search.app:
 
 A market segment is the collection of contacts that you target in a marketing campaign. In some cases, you'll simply target all the contacts you have, but in most cases, you'll choose whom you want to target based on demographic or firmographic data and other considerations. More information: [Working with segments](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/segmentation-lists-subscriptions).
 
-The Segmentation API enables programmatic interaction with segment records. The Segmentation API leverages the standard Dynamics 365 API for manipulating entities or messages. More information: [Dynamics 365 Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api). When you create a segment, the properties of the segment are stored in the **msdyncrm_segment** entity. You can browse the entity metadata information using `@odata.context` in the **GET** response.
+The Segmentation API enables programmatic interaction with segment records. The Segmentation API leverages the standard Common Data Service Web API for manipulating entities or messages. More information: [Common Data Service Web API](/powerapps/developer/common-data-service/webapi/overview). When you create a segment, the properties of the segment are stored in the **msdyncrm_segment** entity. You can browse the entity metadata information using `@odata.context` in the **GET** response.
 
 > [!NOTE]
-> Before you perform operations, you should install the [Dynamics 365 Marketing app](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup).
+> Before you perform operations, you should install the [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup).
 
 This topic demonstrates how to perform a basic operation on the **msdyncrm_segment** entity. You need to pass the following mandatory fields to create a segment.
 
@@ -32,9 +32,9 @@ This topic demonstrates how to perform a basic operation on the **msdyncrm_segme
 |Name|msdyncrm_segmentname|Name of the segment.|Yes.|
 |Segment Type|msdyncrm_segmenttype|Type of segment. There are 3 types of segments:<br /> - Static `192350001`<br />- Dynamic `192350000`<br >- Compound `192350002`|Yes.|
 |Status Reason|statuscode|Current status of the segment. These are the available status codes: <br /> - Draft `192350000`<br /> - Live `192350001`<br /> - Stopped `192350002`<br /> - GoingLive `192350006`<br /> - Stopping `192350007`|Yes.|
-|Segment Query|msdyncrm_segmentquery|Query in the segmentation query.|Yes (only for dynamic and compound segments).|
+|Segment Query|msdyncrm_query|Query in the segmentation query.|Yes (only for dynamic and compound segments).|
 
-To test the operations, you can use the Postman tool. More information: [Use Postman with Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/webapi/use-postman-perform-operations).
+To test the operations, you can use the Postman tool. More information: [Use Postman with Web API](/powerapps/developer/common-data-service/webapi/use-postman-web-api).
 
 ## CRUD operations on static segments
 
@@ -52,7 +52,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 {
   "msdyncrm_segmentname": "StaticSegmentApi1",
   "msdyncrm_segmenttype": 192350001,
-  "msdyncrm_segmentmemberids": "[\"crm1405f4ba-1ee9-e811-a99d-000d3a35f12f\",\"crm0604cdd1-1ee9-e811-a99d-000d3a35f12f\"]",
+  "msdyncrm_memberids": "[\"crm1405f4ba-1ee9-e811-a99d-000d3a35f12f\",\"crm0604cdd1-1ee9-e811-a99d-000d3a35f12f\"]",
   "statuscode": 192350000
 }
 ```
@@ -82,7 +82,7 @@ GET {{OrgUrl}}/api/data/v9.0/msdyncrm_segments?$filter=statuscode eq 192350001
 You can also retrieve segments with specific properties.
 
 ```HTTP
-GET {{OrgUrl}}/api/data/v9.0/msdyncrm_segments?$select=msdyncrm_segmentid,msdyncrm_segmentname,msdyncrm_segmentquery,msdyncrm_description
+GET {{OrgUrl}}/api/data/v9.0/msdyncrm_segments?$select=msdyncrm_segmentid,msdyncrm_segmentname,msdyncrm_query,msdyncrm_description
 ```
 
 **Delete request**
@@ -95,7 +95,7 @@ DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 ## CRUD operations on dynamic segments
 
-This section shows how to perform basic CRUD (create, update, retrieve, and delete) operations on dynamic segments. Dynamic segments are based on the segment query (**msdyncrm_segmentquery**). More information: [Segment query definition](segment-query-definition.md).
+This section shows how to perform basic CRUD (create, update, retrieve, and delete) operations on dynamic segments. Dynamic segments are based on the segment query (**msdyncrm_query**). More information: [Segment query definition](segment-query-definition.md).
 
 **Create request**
 
@@ -105,7 +105,7 @@ This request creates a dynamic segment and sets `statuscode` to Going live.
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 {
     "msdyncrm_segmentname": "MySegment2",
-    "msdyncrm_segmentquery": "PROFILE(contact)",
+    "msdyncrm_query": "PROFILE(contact)",
     "msdyncrm_segmenttype": 192350000,
     "statuscode": 192350006
 }
@@ -116,7 +116,7 @@ The following request creates a dynamic segment with a conditional segment query
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 {
     "msdyncrm_segmentname": "MySegment2",
-    "msdyncrm_segmentquery": "PROFILE(contact).FILTER((address1_city == 'NewYork' || address1_city == 'NewJersey'))",
+    "msdyncrm_query": "PROFILE(contact).FILTER((address1_city == 'NewYork' || address1_city == 'NewJersey'))",
     "msdyncrm_segmenttype": 192350000,
     "statuscode": 192350006
 }
@@ -124,7 +124,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 
 **Update request**
 
-With the update request, you update the status of the dynamic segment to “Stop”.
+With the update request, you update the status of the dynamic segment to Stop.
 
 ```HTTP
 PATCH {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
@@ -162,7 +162,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 {
     "msdyncrm_segmentname": "my_compound_segment1",
     "msdyncrm_segmenttype": 192350002,
-    "msdyncrm_segmentquery":"SEGMENT(segment1) UNION SEGMENT(segment2)",
+    "msdyncrm_query":"SEGMENT(segment1) UNION SEGMENT(segment2)",
     "statuscode": 192350006
 }
 ```
@@ -196,7 +196,7 @@ DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 ## Add/Remove segment members
 
-Segment members can be added to or removed from the segments. Adding a contact record makes it a member of the segment whether it satisfies the segment query definition (**msdyncrm_segmentquery**) or not. Adding a contact record that is already a member of the segment ensures that it doesn't get removed when it doesn't match the segment query.
+Segment members can be added to or removed from the segments. Adding a contact record makes it a member of the segment whether it satisfies the segment query definition (**msdyncrm_query**) or not. Adding a contact record that is already a member of the segment ensures that it doesn't get removed when it doesn't match the segment query.
 
 Removing a contact record removes it from the segment and prevents it from being added again even if the record matches the segment query. A record can be removed from a segment without previously being a member of the segment to prevent it from becoming a member.
 
@@ -223,7 +223,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
 {
   "msdyncrm_segmentid": "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
   "msdyncrm_operation": "addByIds",
-  "msdyncrm_memberids": "B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3",
+  "msdyncrm_memberids": "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\"]",
   "msdyncrm_query": null
 }
 ```
@@ -247,7 +247,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
 {
     "msdyncrm_segmentid": "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
     "msdyncrm_operation": "removeByIds",
-    "msdyncrm_memberids": "B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3",
+    "msdyncrm_memberids": "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\"]",
     "msdyncrm_query": null
 ```
 
@@ -330,7 +330,7 @@ Validation is intentionally skipped when a segment is created in **Draft** state
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_ValidateSegment
 {
        "msdyncrm_segmentname":"NewSegment",
-       "msdyncrm_segmentquery":"PROFILE(contact)",
+       "msdyncrm_query":"PROFILE(contact)",
        "msdyncrm_segmenttype":192350000,
        "statuscode":192350000
 }
@@ -349,7 +349,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_ValidateSegment
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_ValidateSegment
 {
        "msdyncrm_segmentname":"NewSegment",
-       "msdyncrm_segmentquery":"PROFILE(UnknownEntity)",
+       "msdyncrm_query":"PROFILE(UnknownEntity)",
        "msdyncrm_segmenttype":192350000,
        "statuscode":192350006
 }
@@ -360,6 +360,6 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_ValidateSegment
 ```HTTP
 {
 …
-    "ValidationResult": "[{\"ErrorCode\":\"SegmentDciValidator_SegmentInvalid\",\"FieldName\":\"msdyncrm_segmentquery\"}]"
+    "ValidationResult": "[{\"ErrorCode\":\"SegmentDciValidator_SegmentInvalid\",\"FieldName\":\"msdyncrm_query\"}]"
 }
 ```

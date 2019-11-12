@@ -35,4 +35,4 @@ The following illustration provides a high-level overview of the operation flow 
 
 [Workflows overview](../../customize/workflow-processes.md)  
 [Write plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins)  
-[Web resources for Dynamics 365](/powerapps/developer/model-driven-apps/web-resources)  
+[Web resources for Common Data Service](/powerapps/developer/model-driven-apps/web-resources)  

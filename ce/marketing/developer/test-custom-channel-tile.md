@@ -39,4 +39,4 @@ To make the custom channel tile available in the customer journey designer:
 
 ## See also
 
-[Web resources for Dynamics 365](/powerapps/developer/model-driven-apps/web-resources)
+[Web resources for Common Data Service](/powerapps/developer/model-driven-apps/web-resources)

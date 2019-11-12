@@ -24,7 +24,7 @@ search.app:
 
 A marketing form defines a set of input fields arranged into a form layout. You'll probably build a small library of reusable forms that you can place on all your various marketing pages as needed. To add a marketing form to a specific marketing page, use a form element to position the form, and choose local settings for it, which applies to that page only. More information [Marketing forms](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/marketing-forms)
 
-Marketing forms can be extended using JavaScript to perform custom business actions in the [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/overview) app. Following are the methods that are available to extend marketing forms.
+Marketing forms can be extended using JavaScript to perform custom business actions in the [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/overview). Following are the methods that are available to extend marketing forms.
 
 ## Javascript API
 
@@ -37,7 +37,7 @@ We're consuming the latest version of Javascript API. Make sure that your refere
 |`.on(eventType,callback)`|Registers a callback to a type of form lifecycle event|`eventType`|`string`, one of `"afterFormLoad"`, `"afterFormRender"`, `"afterFormSubmit"`, `"formLoad"`, `"formRender"`, `"formSubmit"` | Event type to hook to | `undefined`
 |`callback`|Callback function | |`Function`||
 |`.off(eventType)`|Unregister a callback(s) of given form  lifecycle event|`eventType` optional|`string`, one of `"afterFormLoad"`, `"afterFormRender"`, `"afterFormSubmit"`, `"formLoad"`, `"formRender"`, `"formSubmit"` |Event type to hook to|`undefined`
-| `.sendFormCaptureToCrm(form)`| Send a form submission to Dynamics 365, supported only for form capturing scenario|`form`|DOM element representing the form or JQuery selector representing the form|Form DOM element|`Promise<string>`
+| `.sendFormCaptureToCrm(form)`| Send a form submission to Dynamics 365 Marketing, supported only for form capturing scenario|`form`|DOM element representing the form or JQuery selector representing the form|Form DOM element|`Promise<string>`
 
 ### Form events
 
@@ -68,7 +68,7 @@ The form capturing is directed by the configuration element that looks like `<di
 |Attribute name|Description|
 |------|-------|
 |`data-ignore-prevent-default="true"`|When specified, form will be submitted regardless of the fact that `.preventDefault()` was invoked on the event.|
-|`data-no-submit="true"`|When specified, the form capturing script won't capture the form submit event, you should trigger the `MsCrmMkt.MsCrmFormLoader.sendFormCaptureToCrm(form)` explicitly. This is useful for cases when you want to do your form submission first and sync to Dynamics 365 later.
+|`data-no-submit="true"`|When specified, the form capturing script won't capture the form submit event, you should trigger the `MsCrmMkt.MsCrmFormLoader.sendFormCaptureToCrm(form)` explicitly. This is useful for cases when you want to do your form submission first and sync to Dynamics 365 Marketing later.
 
 
 ## Add your code snippet while using Portals

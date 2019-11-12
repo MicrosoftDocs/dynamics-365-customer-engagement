@@ -20,12 +20,12 @@ search.app:
 As you engage potential customers, they start by discovering your product, evaluating whether it meets their needs, looking for a good offer, and finally making a purchase. We call this process the *customer journey*. Use customer journeys to create a model that helps you guide the members of a selected marketing segment through this process by using automated messaging, activity generation, interactive decision points, and more. More information: [Create Customer Journey](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/customer-journeys-create-automated-campaigns).
 
 The Customer Journey API enables programmatic interaction with customer journey records including publishing and validation.
-The API leverages the standard Dynamics 365 API for manipulating entities or messages. More information: [Dynamics 365 Web API](/powerapps/developer/common-data-service/webapi/overview).
+The API leverages the standard Common Data Service Web API for manipulating entities or messages. More information: [Common Data Service Web API](/powerapps/developer/common-data-service/webapi/overview).
 
 When you create a customer journey, the properties will be stored in the `msdyncrm_customerjourney` entity. You can browse the entity metadata information using `@odata.context`in the `GET` response.
 
 > [!NOTE]
-> Before you perform operations, you should install the [Dynamics 365 Marketing app](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup). 
+> Before you perform operations, you should install the [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup). 
 
 This topic demonstrates how to perform operations on the `msdyncrm_customerjourney` entity. The `msdyncrm_name` field is the only required field to create a simple customer journey. The fields that are used in this topic to create a customer journey are shown in the following table.
 
