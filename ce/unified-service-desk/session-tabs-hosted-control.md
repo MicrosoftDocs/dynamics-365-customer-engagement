@@ -21,9 +21,63 @@ search.app:
 Use **Session Tabs** type of hosted control to display customer information in a session tab in your agent application. The hosted control can read the session lines configuration for the session name configuration, and can evaluate which session line should be used to create the session name. An instance of this hosted control type must be available in your agent application for the session tabs to be displayed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Session management in Unified Service Desk](../unified-service-desk/session-management-unified-service-desk.md)  
   
 <a name="Create"></a>   
-## Create a Session Tab hosted control  
- While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. When you select **Session Tabs** from the **USD Component Type** drop-down list in the **New Hosted Control** screen, you don’t have to select any other fields. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
-  
+## Create a Session Tab hosted control
+
+ While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. Select **Session Tabs** from the **USD Component Type** drop-down list in the **New Hosted Control** screen. 
+
+ To create the session tabs hosted control, follow these steps:
+ 
+ 1. Sign in to the Unified Service Desk Administrator app.
+
+ 2. Select **Hosted Controls** under **Basic Settings**.
+
+ 3. Select **+ New**.
+
+ 4. Specify a name for the Hosted Control.
+
+ 5. Select **Extensions** tab.
+
+ 6. Update the XML in the **Extensions XML**. To learn more, see [Chat indicator XML](#chat-indicator-xml).
+
+ 7. Select **Save**.
+
+ For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).
+
+### Chat indicator XML 
+
+When you want to indicate that there is a new message on the session tab, you can use the chat indicator XML to show visual cues to the agents.
+
+The `ChatAgentIndicator` and `ChatCustomerIndicator` actions depend on chat indicator content in extension XML defined in session tabs type of hosted control.
+
+- List of time spans for which indicator needs be shown with given color code.
+- Whether indicator need to blink once all the time spans are over. If blink node is available, the indicator will blink for 25secs. 
+
+In the XML, you can define the start time and end time with the hexadecimal color code. During this time span, the system displays the indicator to the agent with the specified color. Also, you can define multiple time spans to show different status. If you want the indicator to blink after the end time of all the time spans, then you can define the blink node, which blinks for 25 seconds.
+
+**Chat indicator XML syntax**
+
+```XML
+<chatIndicator>
+<timespan start="startTime_Sec" end="endTime_sec" color="ColorCode"/>
+<timespan start="startTime_Sec" end="endTime_sec" color="ColorCode"/>
+<blink/>
+</chatIndicator>
+```
+
+**For example:**
+
+```XML
+<chatIndicator> 
+<timespan start="0" end="15" color="#F2C624"/>
+<timespan start="16" end="30" color="#FF0000"/>
+<blink/>
+</chatIndicator>
+```
+
+- From zeroth to 15th second, the indicator shows yellow color. 
+- From 16th to 30th second, the indicator shows red color. 
+- From 31st second, the indicator blinks until 56th second.
+
 <a name="Actions"></a>   
 ## Predefined UII actions  
  These are the predefined actions for this hosted control type.  
