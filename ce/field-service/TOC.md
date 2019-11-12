@@ -126,14 +126,17 @@
 ## [Get RSO](rso-get-install.md)
 ## [Quickstart](rso-quickstart.md)
 ## [Deployment](rso-deployment.md)
-## [Configuration](rso-configuration.md)
+## [Configuration and setup](rso-configuration.md)
+## [Optimization scopes](rso-optimization-scope.md)
+## [Optimization goals](rso-optimization-goal.md)
+## [Optimization schedules](rso-optimization-schedule.md)
+## [Publishing + monitoring](rso-schedule-optimization.md)
+## [Booking lock options](booking-lock-options.md)
+## [Resolving booking conflicts](rso-handling-resolving-booking-conflicts.md)
 ## [Set up a proof of concept](rso-proof-concept.md)
-## Running RSO
-### [Publishing + monitoring](rso-schedule-optimization.md)
+## Scenarios
 ### [Overnight scheduling](rso-overnight-scheduling.md)
 ### [Single resource optimization](single-resource-optimization.md)
-### [Booking lock options](booking-lock-options.md)
-### [Resolving booking conflicts](rso-handling-resolving-booking-conflicts.md)
 ## [FAQs + troubleshooting](rso-faq.md)
 
 # Connected Field Service (IoT) add-in
