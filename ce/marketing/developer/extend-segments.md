@@ -214,7 +214,7 @@ Following are some of the important aspects that need to be considered while per
 - Adding/Removing member requests are processed asynchronously, independent of any recurring segment evaluations.
 - Any add/remove operation resulting in an actual update to segment members is recorded in **Segment Insights**.
 - When adding or removing multiple records, use the plural endpoints for faster processing.
-- You can add up to 10,000 contacts to the **msdyncrm_segmentmemberid** field.
+- You can add up to 10,000 contacts as segment members.
 
 **Add a segment member**
 
@@ -310,7 +310,7 @@ GET {{OrgUrl}}/api/data/v9.0/contacts?fetchXml=fetch version="1.0" output-format
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
 {
     "msdyncrm_segmentid":"b5466fbb-2cef-e911-a81d-000d3a6d200c",
-    "msdyncrm_operation":"getState",
+    "msdyncrm_operation":"getState"
 }
 ```
 
