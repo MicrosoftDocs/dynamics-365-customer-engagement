@@ -23,19 +23,19 @@ search.app:
 
 This article describes how to install the Dynamics 365 Field Service application for Dynamics 365 (online). 
 
-In order to get fully up and running with Field Service, you will need to:
+To get fully up and running with Field Service, you'll need to:
 
 1. Install the core Field Service application
 2. Install the Field Service Mobile app
 3. Install the Woodford mobile configurator
 4. Install and configure the mobile project template
 
-In this topic, we will walk through each of these steps. 
+In this article, we will walk through each of these steps. 
 
 
 ## Prerequisites
 
-To follow the steps in this topic, you will need: 
+To follow the steps in this article, you will need: 
 
 - Time. Field Service installations and upgrades can take up to 30 minutes or more. 
 - A desktop browser and a mobile device (phone or tablet).
@@ -46,7 +46,7 @@ There are a few ways you can get access to Dynamics 365 Field Service:
 
 - Sign up for an entirely new trial environment. Head to [the Dynamics 365 trials site](https://trials.dynamics.com), select **Field Service**, and follow the instructions.
 
-- Purchase Field Service by going to your **Office365 Admin Center** > **Billing** > **Purchase Services** and select **Dynamics 365 Field Serivce** and **Buy Now**. You can also get Field Service from this [Dynamics 365 purchasing page](https://dynamics.microsoft.com/pricing/#FieldService).
+- Purchase Field Service by going to your **Office 365 admin center** > **Billing** > **Purchase Services** and select **Dynamics 365 Field Service** and **Buy Now**. You can also get Field Service from this [Dynamics 365 purchasing page](https://dynamics.microsoft.com/pricing/#FieldService).
 
 - Add a Field Service trial to an existing Dynamics 365 organization by going to **Settings** > **Microsoft AppSource**. Search for **Field Service trial**, select **Dynamics 365 Field Service trial**, and then select **Free Trial**.
 
@@ -68,7 +68,7 @@ In previous versions, Field Service appears in the Dynamics 365 custom applicati
 > [!Note]
 > You will not be able to use the Field Service Mobile application with your Dynamics 365 organization until you have followed all of the steps below and set up users and [bookable resources enabled for mobile app access](set-up-bookable-resources.md).
 
-Dynamics 365 Field Service provides the cross-platform, multi-device Field Service Mobile application that is specifically crafted to the field service worker's needs. The mobile application is entirely customizable and extensible, allowing any organization to brand the application as its own, define what types of data field service workers can access, and much more.
+Dynamics 365 Field Service provides the cross-platform, multi-device Field Service Mobile application that is crafted to the field service worker's needs. The mobile application is entirely customizable and extensible, allowing any organization to brand the application as its own, define what types of data field service workers can access, and much more.
 
 To get the mobile app, download **Field Service Mobile** from the Windows, Apple, or Google Play app stores, or visit the following links. **Field Service Mobile** requires Field Service versions **7.5.5** and **8.2+**.
 
@@ -117,7 +117,7 @@ The mobile project template contains all customizations for the Field Service Mo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Woodford admin interface](media/mobile-install-mobilecrm-woodford.png)
 
-2. You may be asked to set a storage quota. Set to **500MB**, and then select **OK**.
+2. You may be asked to set a storage quota. Set to **500 MB**, and then select **OK**.
 
 3. Register yourself as a user.
 
@@ -185,7 +185,7 @@ The mobile project template contains all customizations for the Field Service Mo
 
 ## Next steps
 - [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
-- [Enable bookable resources for mobile app access](set-up-bookable-resources.md)
+- [Enable hookable resources for mobile app access](set-up-bookable-resources.md)
 - [Add sample data](../field-service/install-sample-data-8-x.md)
 
 ### See also
