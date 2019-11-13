@@ -1,13 +1,11 @@
 ---
-title: "User Power BI to create custom analytics (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Prepare for analytic reporting with Power BI (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to set up data sources in Dynamics 365 Marketing to make them available to Power BI, and how to download and connect a Power BI template to them"
-keywords: tutorial; templates; email; customer journey; marketing page; page
-ms.date: 06/07/2019
+ms.date: 11/13/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started-article
-ms.assetid: 4479aca4-9f7f-40fa-9b78-515f98e47d26
+ms.topic: article
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
@@ -22,7 +20,7 @@ search.app:
   - D365Mktg
 ---
 
-# Preview: Create custom analytics with Power BI
+# Prepare for analytic reporting with Power BI
 
 Dynamics 365 Marketing provides a wide selection of built-in analytics throughout the application. But you can also create your own custom analytics and reports from your Dynamics 365 Marketing data by using Power BI. We provide endpoints that you can use to connect Power BI to Dynamics 365 Marketing, plus a downloadable Power BI template that you can open in Power BI Desktop, connect to your Dynamics 365 data sources and then customize as needed. When you're done setting it up, you can publish and share your Power BI report using the standard Power BI online tools.
 

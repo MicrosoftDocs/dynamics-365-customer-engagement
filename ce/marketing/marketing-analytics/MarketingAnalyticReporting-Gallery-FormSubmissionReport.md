@@ -1,24 +1,20 @@
 ---
 title: "Marketing form submission report for Dynamics 365 Marketing | Microsoft Docs"
 description: "See all the details of your marketing form submissions in one report, and slice and dice over timeline, related marketing messaging and automation."
-keywords: Marketing form submission report
-ms.date: 11/12/2019
+ms.date: 11/11/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement (online)
-ms.assetid: 
 author: cabeln
 ms.author: cabeln
 manager: 
-ms.reviewer:
+ms.reviewer: kamaybac
 topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
-  - end-user
+  - enduser
 search.app: 
   - D365CE
   - D365Mktg

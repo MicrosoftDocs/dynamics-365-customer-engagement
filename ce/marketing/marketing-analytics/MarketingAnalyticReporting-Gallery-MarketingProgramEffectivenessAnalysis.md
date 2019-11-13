@@ -1,24 +1,20 @@
 ---
 title: "Marketing program effectiveness analysis for Dynamics 365 Marketing | Microsoft Docs"
 description: "Get the end to end marketing program effectiveness analysis, including automation, journeys, channels, lead generation, conversion and revenue generation."
-keywords: Marketing program effectiveness analysis
-ms.date: 11/12/2019
+ms.date: 11/11/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement (online)
-ms.assetid: 
 author: cabeln
 ms.author: cabeln
 manager: 
-ms.reviewer:
+ms.reviewer: kamaybac
 topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
-  - end-user
+  - enduser
 search.app: 
   - D365CE
   - D365Mktg

@@ -1,29 +1,24 @@
 ---
 title: "Report gallery & downloads for Dynamics 365 Marketing | Microsoft Docs"
 description: "Find in this report gallery all marketing analytics reports for Dynamics 365 Marketing you can download here and use with Power BI."
-keywords: Report gallery
 ms.date: 11/11/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement (online)
-ms.assetid: 
 author: cabeln
 ms.author: cabeln
 manager: 
-ms.reviewer:
+ms.reviewer: kamaybac
 topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
-  - end-user
+  - enduser
 search.app: 
   - D365CE
   - D365Mktg
 ---
-
 # Report gallery & downloads for Dynamics 365 Marketing
 
 >[!TIP]**Download your marketing analytical reports from our marketing report gallery! Ready to use with Dynamics 365 Marketing!**

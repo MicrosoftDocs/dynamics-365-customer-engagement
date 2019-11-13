@@ -1,24 +1,20 @@
 ---
 title: "Analytical reporting for Dynamics 365 Marketing with Power BI | Microsoft Docs"
 description: "How to to activate and use marketing analytical reporting with Power BI for your Dynamics 365 Marketing organization."
-keywords: marketing analytic reporting
 ms.date: 11/11/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement (online)
-ms.assetid: 
 author: cabeln
 ms.author: cabeln
 manager: 
-ms.reviewer:
+ms.reviewer: kamaybac
 topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
-  - end-user
+  - enduser
 search.app: 
   - D365CE
   - D365Mktg

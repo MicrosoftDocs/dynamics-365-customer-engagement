@@ -7,18 +7,15 @@ ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement (online)
-ms.assetid: 
 author: cabeln
 ms.author: cabeln
 manager: 
-ms.reviewer:
+ms.reviewer: kamaybac
 topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
-  - end-user
+  - enduser
 search.app: 
   - D365CE
   - D365Mktg
@@ -26,8 +23,8 @@ search.app:
 
 # Marketing analytic reporting framework
 
->[!TIP]
->**Designed for the data analysts who is fluent in Power BI report building, the marketing analytic reporting framework is an important foundation.**
+> [!TIP]
+> Designed for the data analyst who is fluent in Power BI report building, the marketing analytic reporting framework provides an important foundation.
 
 Perhaps the most important foundation for our marketing reporting capabilities is the marketing analytic reporting framework of M-Code, queries, functions, data connectors and parameter processing that is the core of every marketing analytics report example.
 
@@ -37,7 +34,7 @@ Perhaps the most important foundation for our marketing reporting capabilities i
 |---------|---------|
 [![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbix)|
 
-Find more downloads [here](MarketingAnalyticReporting-Gallery.md)
+Find more downloads in the [marketing analytics reporting gallery](MarketingAnalyticReporting-Gallery.md)
 
 ## Building custom Marketing Analytics with Power BI
 
@@ -45,7 +42,8 @@ The file repository provides a set of Power BI files (pbx) and respective templa
 
 ## Out of the box connection dialog
 
->[!TIP]**Connect to your data with ease!**
+> [!TIP]
+> Connect to your data with ease!
 
 The framework provides ready build report parameters which present the data entry dialog to the data analyst who opens a marketing report template file in order to configure and publish marketing analytics in his organization.
 
@@ -61,7 +59,8 @@ Each report comes with a set of hidden report pages. Those can help you to brows
 
 ## Your marketing interaction data stream
 
->[!TIP]**Study the available interaction data and data generation over time**
+> [!TIP]
+> Study the available interaction data and data generation over time.
 
 Another valuable tool helps to validate the interaction data inflow in your marketing instance as it is reflected in the data arriving in your Azure storage. You can see quickly whether the data are arriving as expected and study which types of interaction data in what volume are being captured over time. This helps to select the use cases for marketing analytics, but also to troubleshoot the marketing analytic configuration and the processes in your marketing application in general.
 
@@ -69,11 +68,13 @@ Another valuable tool helps to validate the interaction data inflow in your mark
 
 ## Working with queries in Power BI
 
-**Use pre-build query code to load, filter and analyze your data!**
-The framework comes with a rich set of pre-built queries, functions, parameters and tables that make it really easy to access the data from your marketing instance. The typical steps for a custom marketing report include to select interaction types that may be loaded and add queries for the profile and interaction data that should be loaded. Those tasks are well supported and require often just one line of query code per interaction and few desired formatting instructions.
+When working with queries in Power BI we recommend that you:
 
-**Configure which interaction data should be considered by the report**
-Over time a marketing organization will collect large amounts of data, especially interactions that reflect how your audience interacts with your marketing experience, but also a set of signals emitted by the marketing automation engine.
+- **Use pre-build query code to load, filter and analyze your data**  
+    The framework comes with a rich set of pre-built queries, functions, parameters and tables that make it really easy to access the data from your marketing instance. The typical steps for a custom marketing report include to select interaction types that may be loaded and add queries for the profile and interaction data that should be loaded. Those tasks are well supported and require often just one line of query code per interaction and few desired formatting instructions.
+
+- **Configure which interaction data should be considered by the report**  
+    Over time a marketing organization will collect large amounts of data, especially interactions that reflect how your audience interacts with your marketing experience, but also a set of signals emitted by the marketing automation engine.
 
 A good practice is to limit the data to load to only the data that are really necessary for the purpose of the specific marketing analytic report. While the marketer will set the recency for the interactions to consider when he configured the analytics report, it is the duty of the data analyst who creates a marketing analytics report to specify which interactions types should be considered for loading. Limiting the amount of interactions types will greatly improve the refresh performance, because the Power BI code will filter interaction data as early as possible.
 
@@ -82,16 +83,19 @@ A good practice is to limit the data to load to only the data that are really ne
 >[!TIP]**Add queries for profiles and interactions**
 
 To load data for select profiles and interactions and then add the relations that connect the data is an easy task with the help of template code.
-The best way to learn how this can be achieved is to look at the sample queries for profiles and interaction in the query editor. In order to load the data for a specific profile all you have to do is to add a new query and fill in one line of code with the respective profile/entity name - in below example "msdyncrm_marketingpage". 
 
->[!TIP]
->  let 
-   Source = GetCDST_CustomProfileTable("msdyncrm_marketingpage")
-  in
-    Source
+The best way to learn how to achieve this is to look at the sample queries for profiles and interaction in the query editor. To load the data for a specific profile, add a new query and fill in one line of code with the respective profile/entity name, such as `msdyncrm_marketingpage` in the following example: 
+
+```console
+let 
+  Source = GetCDST_CustomProfileTable("msdyncrm_marketingpage")
+in
+  Source
+```
+<!-- kfm: The above looks like a code sample, so I formatted it as such rather than as a tip.  Please confirm this use of syntax and line breaks. -->
 
 Often you would add more operations to include only selected attributes and perform some formatting if needed.
-In a similar way you can add queries to load interactions into your analytics report - also with one line of M-code.
+In a similar way you can add queries to load interactions into your analytics report&mdash;also with one line of M-code.
 
 ![New interaction queries](media/Framework/Framework-AddInteractionQueries.png)
 
@@ -106,10 +110,12 @@ Each template and of course sample report contains the following common pages wh
 - The **Help page** is an empty page where you can enter the documentation you want your audience to know when accessing the report. Each report page contains a help button at the top and will navigate to your help page in the report.</li>
 
 - The **"[Interaction data flow]" page** is hidden by default and provides insights into the data interaction data volume that is generated by your marketing organization over time.
-![Interaction data flow report](media/Framework/InteractionDataFlow.png)
+
+    ![Interaction data flow report](media/Framework/InteractionDataFlow.png)
 
 - The **"[Interaction files]" leaderboard** shows you the largest data generated by all the interaction types and data emitted by your marketing organization compared to the subs set of data you actually consume in your analytic report.
-![Interaction data file generation leaderboard](media/Framework/InteractionFilesLeaderboard.png)
+
+    ![Interaction data file generation leaderboard](media/Framework/InteractionFilesLeaderboard.png)
 
 - Two further pages, the **"[CDS-T entities]"** and the **"[Interaction types]"** provide a detailed lookup for any profile type and the full interaction data model available at your disposal for analytics reporting. You find also information which interactions are enable for data loading in your report configuration.
 Please note that not all interaction types are supported by the data data publishing mechanic. Find more details here *(TBD)*.
