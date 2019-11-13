@@ -18,7 +18,7 @@ search.app:
   - D365FS
 ---
 
-# Define the optimization goal 
+# Optimization goals 
 
 A goal is what the RSO solution aspires to optimize. An example of a goal is to maximize working hours or minimize travel time. You define how bookings should be optimized (constraints and objectives). The Resource Scheduling Optimization engine processes a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route or list of bookings for the resources. Bookings are considered optimally scheduled if they:
 

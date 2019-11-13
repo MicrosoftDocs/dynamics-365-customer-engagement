@@ -18,7 +18,7 @@ search.app:
   - D365FS
 ---
 
-## Define the optimization scope
+## Optimization scopes
 
 You can define what RSO optimizes, including resources, requirements, or bookings.
 
