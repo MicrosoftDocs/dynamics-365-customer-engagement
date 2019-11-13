@@ -55,9 +55,14 @@ This verifies the resource has all the required characteristics and should have 
 
 ### Meets Required Roles
 
+ENTER INFORMATION HERE
+
 ### Scheduling Lock Option
 If marked, this will respect lock options configured on a Bookable Resource Booking record.
-- 
+- Time Range
+- Resource
+- Time
+- Resource + Time
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a booked resource](media/rso-scheduling-lock-options.png)
@@ -101,7 +106,21 @@ If marked, RSO will schedule work to comply within the time window start and end
         -	Time From Promised/ Time To Promised 
         -	From Date/ To Date 
     
-### Matches resource type
+
+    
+
+
+### Meets Resource Preferences
+
+Formerly called "Restricted Resources" constraint, the constraint was expanded to include all Resource Preferences on requirements as of **RSO v3.0.19263.1**.
+
+If marked, RSO will respect the three different types of resource preferences on a requirement:
+
+- **Preferred** - RSO will give scheduling preference to the resource if he or she is available but will not guarantee as RSO may need to balance overall objectives such as minimizing travel time. 
+- **Restricted** - RSO will not schedule to resources who are added to requirements with this resource preference
+- **Must choose from** - RSO will schedule to this resource given he or she is available during the time range of RSO. You can add multiple resources with a "Must choose from" preference and RSO will schedule to one of them; the first that is available. 
+
+### Matches Resource Type
 RSO will match the resource type between requirements and resources to decide which type of resource can fulfill a requirement. **Available with RSO v2.8+**
 
 Bookable resources include these types:
@@ -123,11 +142,6 @@ Additionally, requirements allow multi-select so you can specify which resource 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of multi-select resource type attribute on requirement](media/rso-requirement-resource-type-field.png)
-    
-
-
-### Restricted Resources
-If marked, RSO will not schedule a restricted resource to the booking.
 
 ## Define objectives
 
