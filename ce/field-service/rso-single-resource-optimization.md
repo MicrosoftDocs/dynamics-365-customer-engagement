@@ -31,15 +31,20 @@ Single resource optimization (SRO) provides a quick way to re-optimize a resourc
 
 This is helpful for when a resource:
 
-1. Has a gap in their schedule due to a cancellation.
-2. Is double-booked because an emergency work order was assigned.
-3. Is running late due to traffic or previous work.
-4. Has a schedule that was put together manually and wants a travel route with minimal travel.
+- Has a gap in their schedule due to a cancellation.
+- Is double-booked because an emergency work order was assigned.
+- Is running late due to traffic or previous work.
+- Has a schedule that was put together manually and wants a travel route with minimal travel.
 
 If an individual resource's schedule needs to be re-optimized, a dispatcher can manually run single resource optimization. It can also be triggered by a workflow. 
 
 > [!Note]
 > Unlike other RSO scenarios, SRO runs can't be scheduled.
+
+
+
+<!--from editor: As in the other file, can you confirm that the names in the screenshot are from an approved list? -->
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-1.png)
