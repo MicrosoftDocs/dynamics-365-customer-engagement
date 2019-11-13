@@ -191,6 +191,13 @@
 ##### [Data for your analytical reporting](marketing-analytics/MarketingAnalyticReporting-Data.md)
 ##### [Study the marketing analytic reporting framework](marketing-analytics/MarketingAnalyticReporting-Framework.md)
 ##### [Download templates and sample reports from the report gallery](marketing-analytics/MarketingAnalyticReporting-Gallery.md)
+###### [Generic template for marketing analytic reporting](marketing-analytics/MarketingAnalyticReporting-Framework.md)
+###### [Leaderboard report for customer journey automation and email marketing](marketing-analytics/MarketingAnalyticReporting-Gallery-LeaderboardReport.md)
+###### [Email marketing analytical report](marketing-analytics/MarketingAnalyticReporting-Gallery-EmailMarketingReport.md)
+###### [Marketing program effectiveness analysis](marketing-analytics/MarketingAnalyticReporting-Gallery-MarketingProgramEffectivenessAnalysis.md)
+###### [Marketing reach analysis](marketing-analytics/MarketingAnalyticReporting-Gallery-MarketingReachReport.md)
+###### [Segmentation usage report](marketing-analytics/MarketingAnalyticReporting-Gallery-SegmentationReport.md)
+###### [Marketing form submission report](marketing-analytics/MarketingAnalyticReporting-Gallery-FormSubmissionReport.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)
 ### [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)
