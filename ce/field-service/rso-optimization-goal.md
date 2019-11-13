@@ -55,10 +55,10 @@ This verifies the resource has all the required characteristics and should have 
 
 ### Meets Required Roles
 
-ENTER INFORMATION HERE
+As of **RSO v3.0.19263.1+** RSO will respect the resource roles added to a requirement. If for example, the requirement calls for a resource with the role "Robotics Engineer", RSO will schedule to a resource who has that role. If the requirement calls for two resource roles, RSO will schedule the requirement to resources that have either of those roles, following "OR" logic.
 
 ### Scheduling Lock Option
-If marked, this will respect lock options configured on a Bookable Resource Booking record.
+If marked, RSO will respect lock options configured on a Bookable Resource Booking record.
 - Time Range
 - Resource
 - Time
@@ -120,8 +120,11 @@ If marked, RSO will respect the three different types of resource preferences on
 - **Restricted** - RSO will not schedule to resources who are added to requirements with this resource preference
 - **Must choose from** - RSO will schedule to this resource given he or she is available during the time range of RSO. You can add multiple resources with a "Must choose from" preference and RSO will schedule to one of them; the first that is available. 
 
+### Matches Territories
+If marked, RSO will respect the Territory field value on the requirement. As a reminder, a requirement can only belong to one territory, but resources can belong to multiple.
+
 ### Matches Resource Type
-RSO will match the resource type between requirements and resources to decide which type of resource can fulfill a requirement. **Available with RSO v2.8+**
+As of **RSO v2.8+**, RSO will match the resource type between requirements and resources to decide which type of resource can fulfill a requirement.
 
 Bookable resources include these types:
 
