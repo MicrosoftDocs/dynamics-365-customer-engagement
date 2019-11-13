@@ -154,18 +154,18 @@ Add and rank the objectives of RSO scheduling by using the **Move Up** and **Mov
 > [!div class="mx-imgBorder"]
 > ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-order-objectives.png)
 
-- **Maximize total working hours**: The combination of the engine results
+### Maximize total working hours: The combination of the engine results
     (iteration) with the total highest aggregate work time will best meet this
     objective.
 
-- **Minimize total travel time**: The version of the engine results
+### Minimize total travel time: The version of the engine results
     (iteration) with the total lowest aggregate travel time will best meet this
     objective.
 
     > [!NOTE]
     > This cannot be the first objective in the list. RSO might not schedule anything with the travel time as 0 minutes in order to meet the first objective.
 
-- **Locked bookings**: Once a booking is created, a lock can be set on the
+### Locked bookings: Once a booking is created, a lock can be set on the
     scheduling lock options field in the RSO section of the booking. The options
     are Time Range, Resource, Time, and Resource and Time. When the locked
     bookings objective is selected, RSO will try to include locked bookings into
@@ -196,7 +196,7 @@ Add and rank the objectives of RSO scheduling by using the **Move Up** and **Mov
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the schedule board optimization](media/rso-edgar-dominquez.png)
 
-- **High priority requirements**: RSO will evaluate this objective and give
+### High priority requirements: RSO will evaluate this objective and give
     priority to the resource/booking combination with the highest score for
     priority. The priority is set on the resource requirement record and is an
     option set with weighted values. RSO checks **Level of Importance** on
@@ -205,7 +205,9 @@ Add and rank the objectives of RSO scheduling by using the **Move Up** and **Mov
     Importance**=1 for low priority and RSO will score 1 urgent requirement the
     same as 10 low-priority requirements because both scores are 10.
 
-- **Maximize Preferred Resources (v3.0+)**:  RSO will consider the list of preferred resources noted on related requirements. The optimizer will try to assign bookings to preferred resources first while meeting other constraints and objectives.
+### Maximize Preferred Resources (v3.0+):  
+
+RSO will consider the list of preferred resources noted on related requirements. The optimizer will try to assign bookings to preferred resources first while meeting other constraints and objectives.
 
 This is achieved by adding the "Maximize Preferred Resources" objective to your RSO goal and adding a preferred resource(s) on the requirement that will be optimized.
 
@@ -226,7 +228,9 @@ After running an optimization schedule, the requirement is scheduled to the pref
 > [!Note]
 > The Maximize Preferred Resources objective only applies to **preferred** resources. 
 
-- **Best Matching Skill Level (v3.0+)**: RSO will consider the proficiency rating when matching characteristics required by requirements and the resources who possess those characteristics. This is dependent on the **Meets Required Characteristic** constraint within the optimization goal.
+### Best Matching Skill Level (v3.0+)
+
+RSO will consider the proficiency rating when matching characteristics required by requirements and the resources who possess those characteristics. This is dependent on the **Meets Required Characteristic** constraint within the optimization goal.
 
     If the "Meets Required Characteristics" constraint **is checked**: 
     - Resources without the characteristic (skill) or lower-than-required proficiency ratings are not eligible at all
