@@ -66,7 +66,7 @@ You can switch between applications by selecting the application tab title.
 ### Title of the application tab
 
 
-<!--from editor: In the second sentence below, should it be "For third-party applications, ...." ? -->
+<!--from editor: In the third sentence below, should it be "For third-party applications, the name is configured by your administrator." ? -->
 
 
 The title of the application tab is the name of the entity. For example, dashboard names, case, contact, account names, and so on. Third-party applications, the name appears as configured by your administrator.
