@@ -18,14 +18,14 @@ search.app:
   - D365FS
 ---
 
-## Define the optimization goal 
+# Define the optimization goal 
 
 A goal is what the RSO solution aspires to optimize. An example of a goal is to maximize working hours or minimize travel time. You define how bookings should be optimized (constraints and objectives). The Resource Scheduling Optimization engine processes a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route or list of bookings for the resources. Bookings are considered optimally scheduled if they:
 
 - Meet all company constraints.
 - Have the highest possible score for the company’s objectives.
 
-### Default optimization goal
+## Default optimization goal
 
 When Resource Scheduling Optimization is deployed for the first time, the system automatically creates a default goal with some constraints and objectives enabled. Users can modify as needed or create a new optimization goal and associate it as a default goal.
 
@@ -43,43 +43,26 @@ The default goal is used when single resource optimization is selected from the 
 > ![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-single-resource-1.png)
  
 
-### Define constraints
+## Define constraints
 
-#### Schedule Within Working Hours
+### Schedule Within Working Hours
 This creates the booking if it can be completed within the resource’s working hours. Verifies the booking is not scheduled out of the resource’s working hours. This includes travel time from the last booking to the resource’s end location, although it’s not visually displayed on the schedule board.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a booked resource](media/c56516997db07c1f0ef64bdcc507350f.png)
 
-#### Meets Required Characteristics
+### Meets Required Characteristics
 This verifies the resource has all the required characteristics and should have minimum required skill level.
 
-#### Scheduling Lock Option
-If marked, this will respect lock options configured on a booking record.
-    
-#### Matches resource type
-RSO will match the resource type between requirements and resources to decide which type of resource can fulfill a requirement. **Available with RSO v2.8+**
+### Meets Required Roles
 
-Bookable resources include these types:
-
-- Generic *
-- Users *
-- Contacts *
-- Accounts *
-- Equipment *
-- Facility *
-- Crew
-- Pool
-
-\* Indicates resource types the optimization will consider
-
-In general, resource types define how the resource relates to the organization. For example, resources with the resource type **Users** are typically employees, whereas the resource type **Contacts** or **Accounts** are typically contractors.
-
-Additionally, requirements allow multi-select so you can specify which resource types you need for a given requirement.
+### Scheduling Lock Option
+If marked, this will respect lock options configured on a Bookable Resource Booking record.
+- 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of multi-select resource type attribute on requirement](media/rso-requirement-resource-type-field.png)
-    
-#### Scheduling Windows 
+> ![Screenshot of a booked resource](media/rso-scheduling-lock-options.png)
+
+### Scheduling Windows 
 If marked, RSO will schedule work to comply within the time window start and end fields on the resource requirement or booking record.
 
 - If **From Date** and **To Date** on resource requirement or **Date Window Start** and **Date Window End** on resource booking are set as shown in the following example, it indicates you want RSO to schedule the booking on 5/24/2018 and time of day doesn’t matter.
@@ -117,11 +100,36 @@ If marked, RSO will schedule work to comply within the time window start and end
         -	Time Window Start/End 
         -	Time From Promised/ Time To Promised 
         -	From Date/ To Date 
+    
+### Matches resource type
+RSO will match the resource type between requirements and resources to decide which type of resource can fulfill a requirement. **Available with RSO v2.8+**
 
-#### Restricted Resources
+Bookable resources include these types:
+
+- Generic *
+- Users *
+- Contacts *
+- Accounts *
+- Equipment *
+- Facility *
+- Crew
+- Pool
+
+\* Indicates resource types the optimization will consider
+
+In general, resource types define how the resource relates to the organization. For example, resources with the resource type **Users** are typically employees, whereas the resource type **Contacts** or **Accounts** are typically contractors.
+
+Additionally, requirements allow multi-select so you can specify which resource types you need for a given requirement.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of multi-select resource type attribute on requirement](media/rso-requirement-resource-type-field.png)
+    
+
+
+### Restricted Resources
 If marked, RSO will not schedule a restricted resource to the booking.
 
-### Define objectives
+## Define objectives
 
 Add and rank the objectives of RSO scheduling by using the **Move Up** and **Move Down** buttons, as seen in the following screenshot.
 
