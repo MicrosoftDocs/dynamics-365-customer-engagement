@@ -186,7 +186,11 @@
 ### Analyze marketing results
 #### [Analyze results to gain insights](insights.md)
 #### [Insights glossary](insights-glossary.md)
-#### [Preview: Create custom analytics with Power BI](custom-analytics.md)
+#### [Prepare using analytic reporting with Power BI](custom-analytics.md)
+#### [Learn about the marketing analytics report templates](marketing-analytics/MarketingAnalyticReporting-Start.md)
+##### [Data for your analytical reporting](marketing-analytics/MarketingAnalyticReporting-Data.md)
+##### [Study the marketing analytic reporting framework](marketing-analytics/MarketingAnalyticReporting-Framework.md)
+##### [Download templates and sample reports from the report gallery](marketing-analytics/MarketingAnalyticReporting-Gallery.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)
 ### [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)
