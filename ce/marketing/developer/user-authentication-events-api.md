@@ -36,17 +36,13 @@ curl -X GET \
   -H 'Origin: http://localhost:4200' 
 ``` 
 
+## Contact matching strategy
 
-<!--from editor: You have no Level 2 heading, so I suggest changing the following heading to ##. Probably the same for the heading that comes after that, too. -->
-
-
-### Contact matching strategy
-
-The Events API will automatically try to link contacts from Azure Active Directory B2C to the contacts in Dynamics 365.  
+The Events API will automatically try to link contacts from Azure Active Directory B2C to the contacts in Dynamics 365 Marketing.  
 
 To do so, it uses a contact matching strategy that can be configured in the event administration settings. By default, first name, last name, and email are used as the contact matching strategy. More information: [Event administration](../events-settings.md#event-administration)
 
-In case no matching contact is found, a new contact will be created automatically in Dynamics 365. 
+In case no matching contact is found, a new contact will be created automatically. 
 
 > [!NOTE]
 > Linked contact entities contain an attribute called `msevtmgt_aadobjectid` that stores the object ID of the user in Azure Active Directory B2C.
