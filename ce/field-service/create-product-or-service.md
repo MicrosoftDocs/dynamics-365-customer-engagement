@@ -30,7 +30,7 @@ Dynamics 365 Field Service uses the Dynamics 365 product catalog for on-site ser
 With the product entity, you can create products and services to add to work orders.
 
 - **Products** represent physical items a field technician uses while completing a work order and may bill the client for. Products are measured in quantity of units.
-- **Services** represents labor a field technician performs and may bill the client for. Services are measured in time duration. 
+- **Services** represent labor a field technician performs and may bill the client for. Services are measured in time duration. 
 
 If a field technician uses a product or performs a service while on the job, they can then enter the work into the Field Service Mobile app. Used products and performed services can be invoiced to customers based on the applicable price list or entitlement. Used products can be deducted from inventory levels either in the Field Service inventory module, Dynamics 365 Finance & Operations, or an external ERP system.
 
