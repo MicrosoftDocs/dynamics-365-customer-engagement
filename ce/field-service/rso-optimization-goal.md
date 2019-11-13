@@ -239,7 +239,7 @@ For example, if a characteristic (skill) rating model ranges from 1 to 10, and t
 
 Occasionally, there may be more resource capacity than there is demand for resources (for example, total time of work orders is less than total available time of resources). In these circumstances, there is a business decision about whether to fully book some resources or leave resources with some capacity as a contingency for emergency or unplanned work.
 
-In order to effectively front load optimized bookings, add the new ‘Schedule As Soon As Possible’ objective into your Optimization Goal in the corresponding order:
+In order to effectively front load optimized bookings, add the **Schedule As Soon As Possible** objective into your Optimization Goal in the corresponding order:
 
 
 > [!div class="mx-imgBorder"]
