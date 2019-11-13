@@ -34,7 +34,7 @@ Dynamics 365 Marketing offers to types of data: *profiles* and *interactions*.
 - **Interactions** are all the signals that Dynamics 365 Marketing captures as it runs a customer journey, reaches out to your audience, and listens and responds to their activities. Dynamics 365 Marketing allows you to continuously extract those interactions into your own Azure Blob Storage. You can then configure Power BI reports to use this data.
 
 Watch [the following video](https://www.youtube.com/watch?v=pBrB1BohUrE)
-for all the details on the data for your marketing analytic reporting.
+for all the details on the data for your marketing analytic reporting.  
 
 <div class="embeddedvideo"><iframe width="560" height="315" src="https://www.youtube.com/embed/pBrB1BohUrE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
