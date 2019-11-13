@@ -1,5 +1,5 @@
 ---
-title: "Overnight scheduling with Resource Scheduling Optimization (RSO) | MicrosoftDocs"
+title: "Overnight scheduling with resource scheduling optimization (RSO) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 11/04/2019
@@ -27,7 +27,12 @@ search.app:
 
 # Automated overnight scheduling
 
-Resource Scheduling Optimization (RSO) is flexible and can be configured to run optimizations based on your organization's scheduling needs. Sometimes it's best for these optimizations to run when the humans who do the work are asleep.
+
+
+<!--from editor: the style guide says RSO isn't really a term for external use, but is vague on what to use instead. For now, I'll change it to lowercase but otherwise leave it. Here is a link to the style guide entry: https://styleguides.azurewebsites.net/Styleguide/Read?id=2858&topicid=44495 -->
+
+
+Resource scheduling optimization (RSO) is flexible and can be configured to run optimizations based on your organization's scheduling needs. Sometimes it's best for these optimizations to run when the humans who do the work are asleep.
 
 In this topic, we will dive into overnight scheduling. 
 
@@ -40,8 +45,8 @@ Overnight scheduling saves time by letting RSO handle the bulk of scheduling dur
 ## Prerequisites
 
 - Field Service version 7.x+.
-- Resource Scheduling Optimization version 1.5+.
-- This RSO scenario involves creating a scope, goal, and a schedule. To learn more about these 3 key components of RSO, see the topic on [RSO configuration](./rso-configuration.md).
+- Resource scheduling optimization version 1.5+.
+- This RSO scenario involves creating a scope, goal, and a schedule. To learn more about these three key components of RSO, see the topic on [RSO configuration](./rso-configuration.md).
 
 
 ## Step 1: Set up a scope
@@ -63,7 +68,7 @@ On your new optimization scope:
 
 - Set **Range Duration** to **1 day**. This means that jobs will be booked within a 24-hour period from when RSO runs. Later, we will set RSO to run at midnight.
 
-Create and select a bookable resource view that defines the resources jobs can be scheduled to. In the following example, we're filtering for active resources in a specific territory, Washington state (WA). While not shown in this example, it's common to filter for specific resource types if all these jobs should be scheduled to people (where resource type is user, account, contact) or machines (where resource type is equipment).
+Create and select a bookable resource view that defines the resources that jobs can be scheduled to. In the following example, we're filtering for active resources in a specific territory, Washington state (WA). While not shown in this example, it's common to filter for specific resource types if all these jobs should be scheduled to people (where resource type is user, account, contact) or machines (where resource type is equipment).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the resource view set to Washington resources](./media/rso-overnight-scope-resources.png)
@@ -86,10 +91,10 @@ In this example, we're filtering for bookings that:
 
 1. Are **Active**.
 2. Were previously scheduled by RSO, where **Booking Method = Resource Scheduling Optimization**. This is because we do not want RSO to move bookings that were created manually or with the schedule assistant indicating they were booked by a dispatcher; our scenario assumes dispatchers have priority.
-3. Have booking statuses that indicate it's okay to reschedule them (**Scheduling, Hard, Committed**).
+3. Have booking statuses that indicate it's OK to reschedule them (**Scheduling, Hard, Committed**).
 4. Relate to resource requirements in the same territory as our resources and requirements (**Washington state - WA**). 
 
-**Save**.
+Select **Save**.
 
 ## Step 2: Set up a goal
 
@@ -100,11 +105,11 @@ Go to **Resource Scheduling Optimization app** > **Optimization Goals** > **+New
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a scheduling optimization goal](./media/rso-overnight-goal.png)
 
-Set engine effort level to **Moderate**, **Intense**, or **Very Intense**. As effort level intensity increases, the optimization will take longer to run, but will return better optimizations. Because overnight scheduling is intended to run during the night when no one is working, the optimization can typically afford more time to run. 
+Set **Engine Effort Level** to **Moderate**, **Intense**, or **Very Intense**. As effort level intensity increases, the optimization will take longer to run, but will return better optimizations. Because overnight scheduling is intended to run during the night when no one is working, the optimization can typically afford more time to run. 
 
 Add the constraints RSO should consider based on your business needs. For example, if your work orders require different characteristics (skills), add the **Meets Required Characteristics** constraint. For more details on constraints, see the topic on [RSO configurations](https://docs.microsoft.com/dynamics365/field-service/rso-configuration#define-the-optimization-goal).
 
-**Save**
+Select **Save**.
 
 ## Step 3: Set up a schedule
 
@@ -121,25 +126,30 @@ Configure the following:
 
 - Set **Timer Mode** to **Fixed**.
 
-- For **Valid From and To**, enter the date range for which overnight scheduling is valid. RSO will not run automatically outside of this date range, but it can always be triggered manually with the **Run Now** option in the top ribbon.
+- For **Valid From** and **Valid To**, enter the date range for which overnight scheduling is valid. RSO will not run automatically outside of this date range, but it can always be triggered manually with the **Run Now** option in the top ribbon.
 
 Next, go to the **Filter** tab and enter the following values to define when you want RSO to run:
 
-1. **Time Zone**: Enter your resources' time zone.
+1. **Filter Time Zone**: Enter your resources' time zone.
 2. **Hours**: Enter **12:00 AM** or similar time during the night. 
-3. **Days of the week**: Enter days of business operations. In the following example, we entered **Monday, Tuesday, Wednesday, Thursday, Friday**.
+3. **Days Of Week**: Enter days of business operations. In the following example, we entered **Monday, Tuesday, Wednesday, Thursday, Friday**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the filter tab on the optimization schedule](./media/rso-overnight-schedule-filter.png)
 
 Based on the timer, RSO will check the filter panel and run if there is a matching value. In our example, every hour, RSO will check if the hour of the day is 12:00 AM and the day of the week is Monday through Friday. 
 
-> [Note!]
-> If no values are entered in the **Filter** section, RSO will run according to the timer, in this example every 1 hour.
+> [!NOTE]
+> If no values are entered in the **Filter** section, RSO will run according to the timer—in this example, every 1 hour.
 
-**Save & Publish**.
 
-At this point, we are ready to run overnight scheduling with RSO. One option is to wait for the trigger at midnight. Another option is for testing and development purposes to select the Run Now button in the top ribbon.
+
+<!--from editor: Is there a single "Save & Publish" button, or are these two separate buttons? -->
+
+
+Select **Save & Publish**.
+
+At this point, we are ready to run overnight scheduling with RSO. One option is to wait for the trigger at midnight. Another option is for testing and development purposes to select the **Run Now** button in the top ribbon.
 
 
 ## Results
@@ -148,10 +158,14 @@ To see the optimization results for overnight scheduling, either wait until midn
 
 Here you can see jobs were only scheduled for 1 working day to our Washington-WA resources.
 
+
+<!--from editor: Are the names in the following two screenshots from a Microsoft-approved fictitious names list? -->
+
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board](./media/rso-overnight-results.png)
 
-A defining characteristic of overnight scheduling is that dispatchers have priority and changes they make should not be moved by RSO. For this reason, if a dispatcher moves a booking, or schedules a new one from the schedule board or with schedule assistant, it is automatically locked based on the booking method value. A lock icon will appear when viewing the booking on the schedule bard tab related to the optimization scope.
+A defining characteristic of overnight scheduling is that dispatchers have priority and changes they make should not be moved by RSO. For this reason, if a dispatcher moves a booking, or schedules a new one from the schedule board or with schedule assistant, it is automatically locked based on the booking method value. A lock icon will appear when viewing the booking on the schedule board tab related to the optimization scope.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a locked booking on the schedule board, pointing to the booking method "Schedule Board"](./media/rso-overnight-lock.png)
