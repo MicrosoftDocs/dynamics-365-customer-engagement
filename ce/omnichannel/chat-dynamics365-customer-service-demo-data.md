@@ -17,9 +17,9 @@ manager: shujoshi
 
 # Demo data installation for Chat for Dynamics 365 Customer Service
 
-This topic describes instructions to install sample/demo data for Chat for Dynamics 365 Customer Service capabilities to help you build your own demo environments.
+This topic offers instructions on how to install sample or demo data for Chat for Dynamics 365 Customer Service capabilities to help you build your own demo environments.
 
-The sample data is available as a downloadable demo package, which you can install in your Omnichannel for Dynamics 365 Customer Service demo environment that has Chat for Dynamics 365 Customer Service add-on.
+The sample data is available as a downloadable demo package, which you can install in your Omnichannel for Dynamics 365 Customer Service demo environment that has the Chat for Dynamics 365 Customer Service add-on.
 
 > [!IMPORTANT]
 > - Once installed, you can't uninstall the demo data. 
@@ -28,12 +28,12 @@ The sample data is available as a downloadable demo package, which you can insta
 
 ## Requirements
 
-The following are the requirements to install sample data in your target environment:
+The following are required for installing sample data in your target environment:
 
-- A Common Data Service environment
-- Your base language is English
-- The environment has no Omnichannel for Customer Service data already, or has only the default data that comes with a new environment
-- The environment has Omnichannel for Customer Service provisioned and the Chat channel is enabled
+- A Common Data Service environment.
+- Your base language is English.
+- The environment has no Omnichannel for Customer Service data already, or has only the default data that comes with a new environment.
+- The environment has Omnichannel for Customer Service provisioned and the Chat channel is enabled.
 
 > [!NOTE]
 > If you need to install the demo data on top of an existing Chat trial or a demo environment that already has data (not recommended), you'll need to suspend the safety prechecks performed by the installer. For more information, see the [Technical notes](#technical-notes).
@@ -55,7 +55,7 @@ The Chat demo data installer is a self-extracting executable file. After you dow
 
 3. Extract the contents of that file to a folder on your computer.
 
-Depending on the operating system and security settings, you may need to perform the following steps after unpacking the zip file:
+Depending on the operating system and security settings, you might need to perform the following steps after unpacking the zip file:
 
 1. Open the **OmnichannelDemoDataPackage** folder.
 
@@ -72,9 +72,14 @@ Depending on the operating system and security settings, you may need to perform
 
 ## Set up users
 
+
+
+<!--from editor: Would it be correct to change the next sentence to "... installs a few users such as those listed in the table below." Are those the actual names that will be installed? If not, are the names from an approved list of fictitious names? -->
+
+
 The OmnichannelDemoData package installs a few users per the mentioned in the table below. To install the demo data, you need to create (or temporarily rename) users in your Common Data Service environment to match the incoming demo data configuration.
 
-| First Name | Last Name | User Alias   | Email                                    | Role                                            |
+| First name | Last name | User alias   | Email                                    | Role                                            |
 |------------|-----------|--------------|------------------------------------------|-------------------------------------------------|
 | Alex       | Allman    | alexallman   | <alexallman@sampleorg.onmicrosoft.com>   | Omnichannel Supervisor                          |
 | Lilly      | Michael   | lillymichael | <lillymichael@sampleorg.onmicrosoft.com> | System Administrator, Omnichannel Administrator |
@@ -87,7 +92,7 @@ The OmnichannelDemoData package installs a few users per the mentioned in the 
 
 2. Select **Settings** > **Security** > **Users**.
 
-3. Replace `"Lilly Michael"`with `"lillymichael"` in the `UserFullname="Lilly Michael"` tag. Ensure the username is all lowercase.
+3. Replace `"Lilly Michael"` with `"lillymichael"` in the `UserFullname="Lilly Michael"` tag. Ensure the username is all lowercase.
 
 4. Select the **Lilly Michael** user. The user page appears.
 
@@ -100,7 +105,7 @@ The OmnichannelDemoData package installs a few users per the mentioned in the 
 
 7. To grant full admin rights to Lilly Michael, select **OK**.
 
-    This ensures that demo data records are created with the correct user ownership and therefore populate views correctly.
+    This ensures that demo data records are created with the correct user ownership and therefore views are populated correctly.
 
 8. Repeat steps 1 through 7 for the other users mentioned in the [table](#set-up-users).
 
@@ -112,11 +117,16 @@ Next you need to update a data mapping file with the email address of the defaul
 
 2. Open the **usermap.xml** file in Notepad (or another XML editor).
 
-3. Set the `DefaultUserToMapTo=` field to the Lilly Michael user's email address. 
+3. Set the `DefaultUserToMapTo=` field to the email address of user Lilly Michael. 
 
     For example: `<MappingConfiguration DefaultUserToMapTo="lilymichael@sampleorg.onmicrosoft.com">`
 
 4. Select **Save**.
+
+
+
+<!--from editor: Please check the link in the following Tip. It didn't open a page when I checked it. -->
+
 
 > [!TIP]
 > We recommend creating a backup of your environment so you can revert to the initial stage if you encounter issues during the demo data installation. To learn more, see [Back up and restore instances](/admin/backup-restore-instances).
@@ -137,6 +147,12 @@ Wondering what capabilities you can demo with the demo data? See the Fabrikam sc
 3. Accept the terms and conditions.
 
 4. Specify the following in the connect screen and select **Login**. In this step, you need to connect to the Common Data Service environment where you want to deploy the demo data:
+
+
+<!--from editor: In the table, the entry "To connect to a Common Data Service environment" is off on its own. It's a two-column table, but that one is in a third column, so it isn't clear what means. -->
+
+
+
 
     | Field | Value |
     |-------------------------|------------------------|
@@ -161,7 +177,7 @@ Wondering what capabilities you can demo with the demo data? See the Fabrikam sc
 
 ## Verify demo data installation
 
-Verify the number of records and types of entities listed in **Fabrikam** fictitious scenario appear as expected as a sanity check.
+Verify that the number of records and types of entities listed in the **Fabrikam** fictitious scenario appear as expected.
 
 After the demo data completely loads, do the following:
 
@@ -175,10 +191,10 @@ After the demo data completely loads, do the following:
     - Go to **Omnichannel Administration** > **Queues & Users** > **Queues** to
         confirm the Queue 1 (sample) and Queue 2 (sample) are created.
     
-    - Go to **Omnichannel Administration** > **Channels > Chat** to confirm
+    - Go to **Omnichannel Administration** > **Channels** > **Chat** to confirm
         the Portal Chat (sample) is created.
     
-    - Go to **Omnichannel Administration** > **Work Distribution Management > Work Streams** to confirm  the Chat Push (sample) is created.
+    - Go to **Omnichannel Administration** > **Work Distribution Management** > **Work Streams** to confirm  the Chat Push (sample) is created.
 
 ## Technical notes
 
@@ -217,27 +233,21 @@ file. For technical users, these include:
 
 ### Fabrikam scenario
 
-The fictional company, Fabrikam, is a manufacturer of electronic device assembly line of robots and is known for their product quality, innovation, and solid customer service, including: installation planning, implementation, and ongoing
-maintenance services. Fabrikam is headquartered in the United States (Fabrikam,
-U.S.), and has Customer Service Support operations centered in the United States, primarily in the greater Seattle area. The CSS contact center is focused on providing excellent support experiences to their customers.
+The fictional company Fabrikam is a manufacturer of an electronic device assembly line of robots and is known for its product quality, innovation, and solid customer service, including: installation planning, implementation, and ongoing maintenance services. Fabrikam is headquartered in the United States (Fabrikam, U.S.), and has Customer Service Support (CSS) operations centered in the United States, primarily in the greater Seattle area. The CSS contact center is focused on providing excellent support experiences to their customers.
 
-A high-level overview of the Chat for Dynamics 365 Customer Service demo data are as follows:
+A high-level overview of the Chat for Dynamics 365 Customer Service demo data is as follows:
 
 - Three Omnichannel users
-
 - One web customer
-
 - One case
-
 - Four sessions
-
-- One Chat for Dynamics 365 Customer Service workstream
-
+- One Chat for Dynamics 365 Customer Service work stream
 - One Chat widget
-
 - One Omnichannel for Customer Service queue
 
 ## See also
 
-[Omnichannel For Customer Service
-Guide](https://docs.microsoft.com/dynamics365/customer-engagement/omnichannel/omnichannel-customer-service-guide)
+<!--from editor: Is there another link you could use here? This one is just for the user guide that this topic is part of. -->
+
+
+[Omnichannel For Customer Service guide](https://docs.microsoft.com/dynamics365/customer-engagement/omnichannel/omnichannel-customer-service-guide)
