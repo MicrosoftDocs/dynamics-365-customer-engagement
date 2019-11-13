@@ -165,45 +165,26 @@ Add and rank the objectives of RSO scheduling by using the **Move Up** and **Mov
     > [!NOTE]
     > This cannot be the first objective in the list. RSO might not schedule anything with the travel time as 0 minutes in order to meet the first objective.
 
-### Locked bookings: Once a booking is created, a lock can be set on the
-    scheduling lock options field in the RSO section of the booking. The options
-    are Time Range, Resource, Time, and Resource and Time. When the locked
-    bookings objective is selected, RSO will try to include locked bookings into
-    the optimal route. For example, the following screenshot shows that Norbert
-    has a booking that starts at 2:30 AM, and this booking is locked to
-    **Time**. When RSO runs, the system detects a 30-minute idle time for
-    Norbert in the morning, but none of the other requirement durations fit into
-    that slot with the locked booking next to it, even though RSO tries to move
-    it to other resources’ time.
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the schedule board](media/8c6c7de10ed96ca76c884ee41086507b.png)
+### Locked bookings
 
-    If locked booking is a high-ranking objective, RSO will keep the locked
-        booking there with 30 minutes of idle time before it by sacrificing the
-        other objectives. The following screenshot shows the result.
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the schedule board](media/49561093ec91a28a5961b0be4f892cbf.png)
+Once a booking is created, a lock can be set on the scheduling lock options field in the RSO section of the booking. The options are Time Range, Resource, Time, and Resource and Time. When the locked bookings objective is selected, RSO will try to include locked bookings into the optimal route. For example, the following screenshot shows that Norbert has a booking that starts at 2:30 AM, and this booking is locked to**Time**. When RSO runs, the system detects a 30-minute idle time for Norbert in the morning, but none of the other requirement durations fit into that slot with the locked booking next to it, even though RSO tries to move it to other resources’ time.
+    
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the schedule board](media/8c6c7de10ed96ca76c884ee41086507b.png)
 
-    If locked booking is not a selected objective or is ranked lower in the
-    order of importance for objectives, RSO might ignore this locked booking
-    (exclude this locked booking from the optimal route) and schedule other
-    bookings for Matthew at 2:30 AM in order to achieve the highest score for
-    top-ranking objectives, with the result shown in the following screenshot.
-    It looks as if a booking overlaps, but actually the locked booking was
-    ignored in this case. RSO would not delete the locked booking because it
-    would lose the lock information defined on the booking record, which can’t
-    be retrieved from the backing requirement.
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the schedule board optimization](media/rso-edgar-dominquez.png)
+If locked booking is a high-ranking objective, RSO will keep the locked booking there with 30 minutes of idle time before it by sacrificing the other objectives. The following screenshot shows the result.
 
-### High priority requirements: RSO will evaluate this objective and give
-    priority to the resource/booking combination with the highest score for
-    priority. The priority is set on the resource requirement record and is an
-    option set with weighted values. RSO checks **Level of Importance** on
-    priority to determine how important that priority is—for example, set
-    **Level of Importance**=10 for urgent priority and set **Level of
-    Importance**=1 for low priority and RSO will score 1 urgent requirement the
-    same as 10 low-priority requirements because both scores are 10.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the schedule board](media/49561093ec91a28a5961b0be4f892cbf.png)
+
+If locked booking is not a selected objective or is ranked lower in the order of importance for objectives, RSO might ignore this locked booking (exclude this locked booking from the optimal route) and schedule other bookings for Matthew at 2:30 AM in order to achieve the highest score for top-ranking objectives, with the result shown in the following screenshot. It looks as if a booking overlaps, but actually the locked booking was ignored in this case. RSO would not delete the locked booking because it would lose the lock information defined on the booking record, which can’t be retrieved from the backing requirement.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the schedule board optimization](media/rso-edgar-dominquez.png)
+
+### High priority requirements 
+
+RSO will evaluate this objective and give priority to the resource/booking combination with the highest score for priority. The priority is set on the resource requirement record and is an option set with weighted values. RSO checks **Level of Importance** on priority to determine how important that priority is—for example, set **Level of Importance** = 10 for urgent priority and set **Level of Importance** = 1 for low priority and RSO will score 1 urgent requirement the same as 10 low-priority requirements because both scores are 10.
 
 ### Maximize Preferred Resources (v3.0+):  
 
@@ -232,17 +213,17 @@ After running an optimization schedule, the requirement is scheduled to the pref
 
 RSO will consider the proficiency rating when matching characteristics required by requirements and the resources who possess those characteristics. This is dependent on the **Meets Required Characteristic** constraint within the optimization goal.
 
-    If the "Meets Required Characteristics" constraint **is checked**: 
-    - Resources without the characteristic (skill) or lower-than-required proficiency ratings are not eligible at all
-    - Resources with the exact skill level (best matching) get the highest score
-    - The more overqualified a resource is, the lower score their score will be  
+If the "Meets Required Characteristics" constraint **is checked**: 
+- Resources without the characteristic (skill) or lower-than-required proficiency ratings are not eligible at all
+- Resources with the exact skill level (best matching) get the highest score
+- The more overqualified a resource is, the lower score their score will be  
 
-    If the "Meets Required Characteristics" constraint **is unchecked**: 
-    - Less qualified resources and resources without the skill can still be booked
-    - Overqualified resources get a higher score than less qualified resources
-    - The more overqualified a resource is, the lower their score will be 
-    - The less qualified a resource is, the lower their score will be 
-    - Resources without the skill get the lowest score
+If the "Meets Required Characteristics" constraint **is unchecked**: 
+- Less qualified resources and resources without the skill can still be booked
+- Overqualified resources get a higher score than less qualified resources
+- The more overqualified a resource is, the lower their score will be 
+- The less qualified a resource is, the lower their score will be 
+- Resources without the skill get the lowest score
 
 For example, if a characteristic (skill) rating model ranges from 1 to 10, and the requirement asks for a skill level of 4, the following example shows the score distribution based on skill level of the resource.
 
@@ -253,3 +234,13 @@ For example, if a characteristic (skill) rating model ranges from 1 to 10, and t
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-characteristic-proficiency-objective.png)
+
+### Schedule as soon as possible
+
+Occasionally, there may be more resource capacity than there is demand for resources (for example, total time of work orders is less than total available time of resources). In these circumstances, there is a business decision about whether to fully book some resources or leave resources with some capacity as a contingency for emergency or unplanned work.
+
+In order to effectively front load optimized bookings, add the new ‘Schedule As Soon As Possible’ objective into your Optimization Goal in the corresponding order:
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of schedule as soon as possible contraint in correct order](./media/rso-schedule-as-soon-as-possible-objective-order.png)
