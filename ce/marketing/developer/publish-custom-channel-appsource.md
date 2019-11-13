@@ -8,9 +8,9 @@ ms.technology:
   - marketing
 ms.topic: conceptual
 ms.assetid: db4ef53d-8a48-4b27-899f-8f4c788bc43c
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+author: Nkrb
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -21,10 +21,9 @@ search.app:
 
 Once you have your custom code (plug-in or workflow), tile, and custom entities/forms tested and ready for the custom channel, you can publish it on [Microsoft AppSource](https://appsource.microsoft.com) from where users can download and install it in their Dynamics 365 Marketing instance. 
 
-To do so, add all the components for the custom channel in a solution, and then publish it on Microsoft AppSource. For detailed information about publishing apps on AppSource, see [Publish your app on AppSource](../../developer/publish-app-appsource.md).
+To do so, add all the components for the custom channel in a solution, and then publish it on Microsoft AppSource. For detailed information about publishing apps on AppSource, see [Publish your app on AppSource](/powerapps/developer/common-data-service/publish-app-appsource).
 
-### See also
+## See also
 
 [Video: Microsoft AppSource: find the right app for your business](https://youtu.be/hpq_Y9LuIB8)
 
-  

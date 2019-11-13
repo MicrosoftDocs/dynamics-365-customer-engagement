@@ -44,7 +44,7 @@ The customizations outlined in this topic will help you design and implement an 
 1. When the marketer has finished creating a new record (such as an email design), they select **Send for approval**, which checks that the entity is valid and triggers the following changes:
    - The Status reason for this record changes to **Approval requested**.
    - The record is locked to further changes.
-   - An email message gets automatically sent to the approver configured in the system, telling them their approval is required. The message includes buttons to approve or reject. It has a link to view the relevant record in the Dynamics 365 Marketing app (where the approve and reject buttons are present).
+   - An email message gets automatically sent to the approver configured in the system, telling them their approval is required. The message includes buttons to approve or reject. It has a link to view the relevant record in the Dynamics 365 Marketing (where the approve and reject buttons are present).
    - For the approver, **Approve** and **Reject** buttons are now provided on the command bar. 
 1. The approver responds by doing one of the following:
    - Approve: The record changes its Status reason to Approved. The **Go live** button is also made available to all users for this record. Any user can now go live with the record, provided no edits are made. If a user edits an approved record, the **Go live** button is again replaced with a **Request approval** button, and the Status reason is changed to **Approval required**.
@@ -74,7 +74,7 @@ The only limitations that remain to customize the Marketing solution are:
 
 ### Step 1: Create a new solution
 
-1. Create a new [solution](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-solution) and name it **Sample Approval**.
+1. Create a new [solution](/powerapps/maker/common-data-service/create-solution) and name it **Sample Approval**.
 2. Add customer journey entity to the solution.
 3. Navigate to **Solutions** > **Sample Approval** > **Entities** > **Customer Journey** > **Fields**.
 4. Select the **Statuscode** attribute and add the following new states:
