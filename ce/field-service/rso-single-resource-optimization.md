@@ -82,7 +82,7 @@ Select **Save**.
 
 Next, add your SRO goal as the default goal.
 
-Go to **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameters** > **Resource Scheduling Optimization section** and enter your newly created default goal. 
+Go to **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameter** > **Resource Scheduling Optimization** and enter your newly created default goal. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the default goal on a scheduling parameter set to SRO](./media/rso-sro-default-goal.png)
