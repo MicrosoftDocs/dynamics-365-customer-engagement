@@ -98,7 +98,7 @@ Additionally, configuring the core Field Service scenario involves understanding
 #### Bookable Resources
 
 - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Bookable Resources](https://youtu.be/g118F_LnxyE)
-- [Set up Bookable Resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources)
+- [Set up bookable resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources)
 
 #### Work orders
 - [Create a Work Order](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/create-work-order)
