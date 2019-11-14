@@ -35,7 +35,7 @@ Perhaps the most important foundation for our marketing reporting capabilities i
 
 |Download report template  |Download sample report  |
 |---------|---------|
-[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbix)|
+|[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbix)|
 
 Find more downloads [here](MarketingAnalyticReporting-Gallery.md)
 
@@ -104,7 +104,7 @@ In a similar way you can add queries to load interactions into your analytics re
 
 The *Common-Pages* in the marketing analytic reporting framework.
 >[!TIP]
->Out of the box reports help you to quickly get going with the marketing data in your organization.
+>**Out of the box reports help you to quickly get going with the marketing data in your organization.**
 
 Each template and of course sample report contains the following common pages which help you to explain your report to your audience and a number of hidden data management pages that you will need when you want to customize your report or develop your own reports.
 
