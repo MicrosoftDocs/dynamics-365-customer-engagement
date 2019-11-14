@@ -39,7 +39,7 @@ Before we begin, here are the top places for information about Field Service:
 - [Video tutorials](https://aka.ms/fs-videos): Step by step video tutorials for work orders, scheduling, and more.
   - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 1: Using Field Service work orders, scheduling, mobile app, reporting, and more](https://youtu.be/uJPAfYGMhLo)
   - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 2: Field Service installation and setup](https://youtu.be/hvcqAbe4g4E)
-  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 3: Set up Bookable Resources](https://youtu.be/g118F_LnxyE)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 3: Set up bookable resources](https://youtu.be/g118F_LnxyE)
   - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 4a: Automated scheduling scenarios with Field Service](https://youtu.be/fcQwIXgmnqk)
   - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 4b: Set up automatic scheduling for work orders](https://youtu.be/oJ-3HTJWRMo)
   - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 5: Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
