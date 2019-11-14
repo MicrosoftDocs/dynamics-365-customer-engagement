@@ -4,7 +4,7 @@ description: Visit this page to see what's recently updated or added in Dynamics
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 08/01/2019
+ms.date: 11/14/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
@@ -37,7 +37,7 @@ The Customer Service Hub comes with an enhanced Knowledge search that shows you 
 
 To learn more, see [Knowledge Base Search control](search-knowledge-articles-csh.md#knowledge-base-search-control).
 
-## Dynamics 365 Customer Serivce app
+## Dynamics 365 Customer Service app
 
 Customer Service introduces some new features for enhanced customer satisfaction by facilitating improved operational efficiency and organizational productivity. 
 
