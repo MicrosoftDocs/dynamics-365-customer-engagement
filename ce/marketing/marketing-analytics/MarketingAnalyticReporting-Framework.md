@@ -45,7 +45,8 @@ The file repository provides a set of Power BI files (pbx) and respective templa
 
 ## Out of the box connection dialog
 
->[!TIP]**Connect to your data with ease!**
+>[!TIP]
+>**Connect to your data with ease!**
 
 The framework provides ready build report parameters which present the data entry dialog to the data analyst who opens a marketing report template file in order to configure and publish marketing analytics in his organization.
 
@@ -53,7 +54,8 @@ The framework provides ready build report parameters which present the data entr
 
 ## The meta-model browser
 
->[!TIP]**Browse the meta-model for profile and interactions types**
+>[!TIP]
+>**Browse the meta-model for profile and interactions types**
 
 Each report comes with a set of hidden report pages. Those can help you to browse the available types of profiles in your organization in CDS and all the interaction types that are referenced in the marketing model. You can select interaction types and study the attributes that you will be able to use for analytics reporting.
 
@@ -61,7 +63,8 @@ Each report comes with a set of hidden report pages. Those can help you to brows
 
 ## Your marketing interaction data stream
 
->[!TIP]**Study the available interaction data and data generation over time**
+>[!TIP]
+>**Study the available interaction data and data generation over time**
 
 Another valuable tool helps to validate the interaction data inflow in your marketing instance as it is reflected in the data arriving in your Azure storage. You can see quickly whether the data are arriving as expected and study which types of interaction data in what volume are being captured over time. This helps to select the use cases for marketing analytics, but also to troubleshoot the marketing analytic configuration and the processes in your marketing application in general.
 
@@ -79,16 +82,17 @@ A good practice is to limit the data to load to only the data that are really ne
 
 ![Configure which interaction data to load](media/Framework/Framework-InteractionConfiguration.png)
 
->[!TIP]**Add queries for profiles and interactions**
+>[!TIP]
+>**Add queries for profiles and interactions**
 
 To load data for select profiles and interactions and then add the relations that connect the data is an easy task with the help of template code.
 The best way to learn how this can be achieved is to look at the sample queries for profiles and interaction in the query editor. In order to load the data for a specific profile all you have to do is to add a new query and fill in one line of code with the respective profile/entity name - in below example "msdyncrm_marketingpage". 
 
 >[!TIP]
->  let 
-   Source = GetCDST_CustomProfileTable("msdyncrm_marketingpage")
-  in
-    Source
+>**let\
+&ensp;&ensp;Source = GetCDST_CustomProfileTable("msdyncrm_marketingpage")\
+  in\
+&ensp;&ensp;Source**
 
 Often you would add more operations to include only selected attributes and perform some formatting if needed.
 In a similar way you can add queries to load interactions into your analytics report - also with one line of M-code.
@@ -99,7 +103,8 @@ In a similar way you can add queries to load interactions into your analytics re
 ## Common report pages
 
 The *Common-Pages* in the marketing analytic reporting framework.
->[!TIP]Out of the box reports help you to quickly get going with the marketing data in your organization.
+>[!TIP]
+>Out of the box reports help you to quickly get going with the marketing data in your organization.
 
 Each template and of course sample report contains the following common pages which help you to explain your report to your audience and a number of hidden data management pages that you will need when you want to customize your report or develop your own reports.
 

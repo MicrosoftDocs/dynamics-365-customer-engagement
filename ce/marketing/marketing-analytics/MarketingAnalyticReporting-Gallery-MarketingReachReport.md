@@ -26,7 +26,8 @@ search.app:
 
 # Marketing reach analysis for Dynamics 365 Marketing
 
->[!TIP]**Identify contacts and how you are reaching out to them. See all audience reached in select journeys with the respective interactions generated.**
+>[!TIP]
+>**Identify contacts and how you are reaching out to them. See all audience reached in select journeys with the respective interactions generated.**
 
 |Download report template  |Download sample report  |
 |---------|---------|

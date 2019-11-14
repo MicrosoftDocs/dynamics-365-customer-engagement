@@ -26,7 +26,8 @@ search.app:
 
 # Segmentation usage report
 
->[!TIP]**With the Marketing segmentation usage report you analyze how segments are used across your marketing activities.**
+>[!TIP]
+>**With the Marketing segmentation usage report you analyze how segments are used across your marketing activities.**
 
 The marketing segment usage report shows you which segments are used in which marketing activities and helps you to identify orphaned segments.
 
