@@ -30,6 +30,8 @@ Perhaps the most important foundation for our marketing reporting capabilities i
 
 ![Hero Image for the Framework](media/Framework-Hero1.png)
 
+Use the following links to download a template for running the report on your own organization and/or a sample report filled with sample data.
+
 |Download report template  |Download sample report  |
 |---------|---------|
 [![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbix)|
@@ -125,4 +127,4 @@ Each template and sample report contains the following common pages (which help 
 - Two additional pages, **"[CDS-T entities]"** and **"[Interaction types]"**, provide a detailed lookup for any profile type and the full interaction data model available at your disposal for analytics reporting. You'll also find information about which interactions are enable for loading in your report configuration.
 Please note that not all interaction types are supported by the data-publishing mechanic. <!-- kfm: this is unfinished, so I hid it for now. Did you want to add a link here?  "Find more details here *(TBD)*." -->
 
-***Happy marketing analytic reporting with Dynamics 365 Marketing!***
+***Happy analytic reporting with Dynamics 365 Marketing!***

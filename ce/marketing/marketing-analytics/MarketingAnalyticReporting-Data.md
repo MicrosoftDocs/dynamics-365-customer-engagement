@@ -40,4 +40,4 @@ for all the details on the data for your marketing analytic reporting.
 
 Next: Read about the [Marketing analytics reporting framework](MarketingAnalyticReporting-Framework.md).
 
-***Happy marketing analytic reporting with Dynamics 365 Marketing!***
+***Happy analytic reporting with Dynamics 365 Marketing!***

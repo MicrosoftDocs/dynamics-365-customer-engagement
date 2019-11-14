@@ -21,15 +21,19 @@ search.app:
 ---
 # Marketing reach analysis for Dynamics 365 Marketing
 
->[!TIP]**Identify contacts and how you are reaching out to them. See all audience reached in select journeys with the respective interactions generated.**
+> [!TIP]
+> Identify contacts and how you are reaching out to them. See all audiences reached in selected journeys together with their related interactions.
+
+Use the following links to download a template for running the report on your own organization and/or a sample report filled with sample data.
 
 |Download report template  |Download sample report  |
 |---------|---------|
 [![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Customers%20Included%20In%20Journeys.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Customers%20Included%20In%20Journeys.pbix)|
-Find more downloads [here](MarketingAnalyticReporting-Gallery.md)
+
+You can find more downloads in the [marketing analytics reporting gallery](MarketingAnalyticReporting-Gallery.md).
 
 ![Marketing reach analysis](media/MarketingReach/MarketingReach-ReachPerJourneyWithActivities.png)
 
 ![Marketing reach analysis](media/MarketingReach/MarketingReach-ContactsInMarketingAutomation.png)
 
-***Happy marketing analytic reporting with Dynamics 365 Marketing!***
+***Happy analytic reporting with Dynamics 365 Marketing!***
