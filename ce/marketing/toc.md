@@ -188,17 +188,17 @@
 #### [Insights glossary](insights-glossary.md)
 #### [Prepare for analytic reporting with Power BI](custom-analytics.md)
 
-##### Power BI sample reports and templates gallery
+#### Power BI sample reports and templates gallery
 ##### [Learn about the marketing analytics report templates](marketing-analytics/MarketingAnalyticReporting-Start.md)
 ##### [Data for your analytical reporting](marketing-analytics/MarketingAnalyticReporting-Data.md)
-##### [Download templates and sample reports from the report gallery](marketing-analytics/MarketingAnalyticReporting-Gallery.md)
-##### [Marketing analytic reporting framework](marketing-analytics/MarketingAnalyticReporting-Framework.md)
-##### [Leaderboard report for customer journey automation and email marketing](marketing-analytics/MarketingAnalyticReporting-Gallery-LeaderboardReport.md)
-##### [Email marketing analytical report for Dynamics 365 Marketing](marketing-analytics/MarketingAnalyticReporting-Gallery-EmailMarketingReport.md)
-##### [Segmentation usage report](marketing-analytics/MarketingAnalyticReporting-Gallery-SegmentationReport.md)
-##### [Marketing program effectiveness analysis for Dynamics 365 Marketing](marketing-analytics/MarketingAnalyticReporting-Gallery-MarketingProgramEffectivenessAnalysis.md)
-##### [Marketing reach analysis for Dynamics 365 Marketing](marketing-analytics/MarketingAnalyticReporting-Gallery-MarketingReachReport.md)
-##### [Marketing form submission report](marketing-analytics/MarketingAnalyticReporting-Gallery-FormSubmissionReport.md)
+##### [Download from the report gallery](marketing-analytics/MarketingAnalyticReporting-Gallery.md)
+##### [Gallery: Analytic reporting framework](marketing-analytics/MarketingAnalyticReporting-Framework.md)
+##### [Gallery: Leaderboard report for journeys and email](marketing-analytics/MarketingAnalyticReporting-Gallery-LeaderboardReport.md)
+##### [Gallery: Email marketing analytical report](marketing-analytics/MarketingAnalyticReporting-Gallery-EmailMarketingReport.md)
+##### [Gallery: Segmentation usage report](marketing-analytics/MarketingAnalyticReporting-Gallery-SegmentationReport.md)
+##### [Gallery: Marketing program effectiveness analysis](marketing-analytics/MarketingAnalyticReporting-Gallery-MarketingProgramEffectivenessAnalysis.md)
+##### [Gallery: Marketing reach analysis](marketing-analytics/MarketingAnalyticReporting-Gallery-MarketingReachReport.md)
+##### [Gallery: Marketing form-submission report](marketing-analytics/MarketingAnalyticReporting-Gallery-FormSubmissionReport.md)
 
 
 ## [Developer Guide](developer/marketing-developer-guide.md)
