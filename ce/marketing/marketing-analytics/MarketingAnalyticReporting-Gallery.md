@@ -26,7 +26,8 @@ search.app:
 
 # Report gallery & downloads for Dynamics 365 Marketing
 
->[!TIP]**Download your marketing analytical reports from our marketing report gallery! Ready to use with Dynamics 365 Marketing!**
+>[!TIP]
+>**Download your marketing analytical reports from our marketing report gallery! Ready to use with Dynamics 365 Marketing!**
 
 ![Collage of different report screens](media/Overview-Hero1.png)
 
