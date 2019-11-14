@@ -19,6 +19,7 @@ search.app:
   - D365CE
   - D365Mktg
 ---
+
 # Report gallery & downloads for Dynamics 365 Marketing
 
 > [!TIP]

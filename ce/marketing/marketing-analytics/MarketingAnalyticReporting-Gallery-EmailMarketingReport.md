@@ -142,6 +142,6 @@ This detailed link-click report breaks down how many times each link was clicked
 
 This important report shows all the sending failures and blocked emails that occurred over time, and lists the reasons for each of them. A per-message view identifies the most relevant messages and reports on failures so you can plan any required mitigations.
 
-![Email marketing block & failure analysis](media/EmailMarketing/EmailMarketing-(8)EmailBlock&FailureAnalysis.png)
+![Email marketing block & failure analysis](media/EmailMarketing/EmailMarketing-(8)EmailBlock-FailureAnalysis.png)
 
 ***Happy analytic reporting with Dynamics 365 Marketing!***
