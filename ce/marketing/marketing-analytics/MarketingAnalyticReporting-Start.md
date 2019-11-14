@@ -20,6 +20,8 @@ search.app:
   - D365Mktg
 ---
 
+<!-- kfm: I recommend combining this with marketinganalyticreporting-gallery.md -->
+
 # Analytical reporting for Dynamics 365 Marketing
 
 > [!TIP]

@@ -20,6 +20,8 @@ search.app:
   - D365Mktg
 ---
 
+<!-- kfm: I recommend combining this with marketinganalyticreporting-start.md -->
+
 # Report gallery & downloads for Dynamics 365 Marketing
 
 > [!TIP]
@@ -31,7 +33,7 @@ We provide a growing set of marketing reports for easy download, and you can fin
 
 |Name  |Description  |Template  |Report  |
 |---------|---------|---------|---------|
-|[Generic template (framework & tools)](MarketingAnalyticReporting-Framework.md)|This reports provides generic parameters, data sources, and query code that allows you to query for any marketing data from CDS and the interaction store.|[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbix)|
+|[Generic template (framework & tools)](MarketingAnalyticReporting-Framework.md)|This report provides generic parameters, data sources, and query code that allows you to query for any marketing data from CDS and the interaction store.|[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbix)|
 |[Basic leader board report (journeys & email marketing)](MarketingAnalyticReporting-Gallery-LeaderboardReport.md)|Identify your most effective journeys and marketing messages.|[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Journey%26Email%20Leaderboard.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Journey%26Email%20Leaderboard.pbix)|
 |[Email Marketing Report](MarketingAnalyticReporting-Gallery-EmailMarketingReport.md)|Deep dive into your email marketing plans, activities and interactions.|[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Email%20Marketing.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Email%20Marketing.pbix)|
 |[Segmentation Report](MarketingAnalyticReporting-Gallery-Segmentationreport.md)|Analyze how segments are used in your marketing activities.|[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Segmentation.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Segmentation.pbix)|

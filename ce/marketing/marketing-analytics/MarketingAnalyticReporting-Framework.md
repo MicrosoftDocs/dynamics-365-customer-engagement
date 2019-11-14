@@ -42,12 +42,12 @@ You can find more downloads in the [marketing analytics reporting gallery](Marke
 
 The file repository provides a set of Power BI files (.pbx) and respective template files (.pbit) that you can use to build your own marketing analytic reports. The focus of the Power BI code framework is to provide ready-built and easy-to-use data sources that connect to data from Dynamic 365 Marketing including date filters and on liner query building in M-code to access specific profile and interaction tables.
 
-## Out of the box connection dialog
+## Out-of-the-box connection dialog
 
 > [!TIP]
 > Connect to your data with ease!
 
-The framework provides ready build report parameters which present the data entry dialog to the data analyst who opens a marketing report template file in order to configure and publish marketing analytics in his organization.
+When a template file is opened, the framework presents a connection dialog for configuring and publishing marketing analytics.
 
 ![Parameter Dialog](media/Framework/Framework-ParameterDialog.png)
 
@@ -56,7 +56,7 @@ The framework provides ready build report parameters which present the data entr
 > [!TIP]
 > Browse the meta-model for profile and interactions types.
 
-Each report comes with a set of hidden report pages. Those can help you to browse the available types of profiles in your organization in CDS and all the interaction types that are referenced in the marketing model. You can select interaction types and study the attributes that you will be able to use for analytics reporting.
+Each report comes with a set of hidden report pages, which can help you to browse the available types of profiles in your organization in CDS and all the interaction types that are referenced in the marketing model. You can select interaction types and study the attributes that you will be able to use for analytics reporting.
 
 ![Meta model browser](media/Framework/Framework-MetaBrowser.png)
 
@@ -73,7 +73,7 @@ Another valuable tool helps to validate the interaction data inflow in your mark
 
 When working with queries in Power BI we recommend that you:
 
-- **Use pre-build query code to load, filter and analyze your data**  
+- **Use pre-built query code to load, filter and analyze your data**  
     The framework comes with a rich set of pre-built queries, functions, parameters and tables that make it easy to access the data from your Marketing instance. You'll typically select the interaction types to load and then add queries for the profile and interaction data that you are looking for. Those tasks are well supported and often require  just one line of query code per interaction, plus a few desired formatting instructions.
 
 - **Configure which interaction data should be considered by the report**  

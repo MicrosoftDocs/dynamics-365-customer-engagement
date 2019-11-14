@@ -188,7 +188,7 @@
 #### [Insights glossary](insights-glossary.md)
 #### [Prepare for analytic reporting with Power BI](custom-analytics.md)
 
-#### Power BI sample reports and templates gallery
+#### Power BI templates and sample reports gallery
 ##### [Learn about the marketing analytics report templates](marketing-analytics/MarketingAnalyticReporting-Start.md)
 ##### [Data for your analytical reporting](marketing-analytics/MarketingAnalyticReporting-Data.md)
 ##### [Download from the report gallery](marketing-analytics/MarketingAnalyticReporting-Gallery.md)

@@ -86,6 +86,8 @@ You'll be able to connect directly to your Dynamics 365 Marketing  database from
 
 1. After a short time, Dynamics 365 Marketing will begin to export interaction data as individual files to your blob storage container, where you'll be able to pick it up using Power BI. You'll also be able to see these files and an associated JSON file in the Azure Storage Explorer.
 
+<!-- kfm: the following section needs to be combined with the new template gallery info. Either move this there, or remove the duplicate information from there. Fix these links to match those too. -->
+
 ## Get the Power BI template and connect to your Marketing data
 
 Once your Azure Blob storage is set up and connected to Dynamics 365 Marketing, you're ready to start working in Power BI to connect to your data sources and design your analytics.

@@ -20,6 +20,8 @@ search.app:
   - D365Mktg
 ---
 
+<!-- kfm: this topic repeats info already available in the existing topic, plus a video also hosted elsewhere. I recommend deleting this topic -->
+
 # Data available for your analytical reporting with Dynamics 365 Marketing
 
 > [!TIP]

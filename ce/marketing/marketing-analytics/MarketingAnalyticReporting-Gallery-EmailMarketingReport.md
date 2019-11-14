@@ -124,7 +124,7 @@ The timeline view shows the trend of responses and other email-related interacti
 <!--Interaction geo mapping from your email marketing activities-->
 ## Geo mapping&mdash;see where your audience is located
 
-This reports shows a map of roughly where recipients were when they opened or clicked a marketing email. It uses the IP addresses recorded for each interaction to approximate the location.
+This report shows a map of roughly where recipients were when they opened or clicked a marketing email. It uses the IP addresses recorded for each interaction to approximate the location.
 
 ![Interaction geo mapping](media/EmailMarketing/EmailMarketing-(6)InteractionGeoMapping.png)
 
