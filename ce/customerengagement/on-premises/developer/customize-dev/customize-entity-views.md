@@ -71,7 +71,7 @@ Entity views are special saved queries that retrieve data by using a specific fi
 <a name="BKMK_DeleteViews"></a>   
 ### Delete views  
  You should only delete saved queries that you have created. A solution component or part of the application may depend on a specific saved query. If there are queries you do not want to appear in the application, you should deactivate them.  
-  
+
 <a name="BKMK_RetrieveViews"></a>   
 ### Retrieve views  
  Use a <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*> to retrieve saved query records.  
@@ -85,7 +85,10 @@ Entity views are special saved queries that retrieve data by using a specific fi
  If you do not want a public view to appear in the application, you can deactivate it. You cannot deactivate a public view that is set as the default view. The following sample deactivates the **Closed Opportunities in Current Fiscal Year** view for the Opportunity entity:  
   
  [!code-csharp[WorkWithViews#WorkWithViews3](../../snippets/csharp/CRMV8/workwithviews/cs/workwithviews3.cs#workwithviews3)]  
-  
+
+> [!NOTE]
+>  The view state, active or inactive, is not included with the view when it is added to a solution. Therefore, when the solution is imported into a target organization, the status will be set to active by default.
+
 <a name="BKMK_EditFilterOrSorting"></a>   
 ### Edit filter criteria or configure sorting  
  To edit the filter or edit how the data is sorted, you must set the `SavedQuery.FetchXml` attribute. For more information, see [Building Queries with FetchXML](../org-service/build-queries-fetchxml.md).  
