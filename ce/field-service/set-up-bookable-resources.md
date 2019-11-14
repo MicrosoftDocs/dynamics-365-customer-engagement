@@ -39,6 +39,8 @@ Each resource can have different attributes that distinguish it from others, inc
 
 In this topic, we will walk through how to create a bookable resource and add details to distinguish it from other resources. We will also explore some common details for setting up field technician resources for Field Service organizations.
 
+Along with this article, see the video: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up bookable resources](https://youtu.be/g118F_LnxyE)
+
 ## Prerequisites
 
 - Any version of Field Service

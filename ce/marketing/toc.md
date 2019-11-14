@@ -1,6 +1,7 @@
 # [Dynamics 365 Marketing](help-hub.md)
 
 ## [Overview](overview.md)
+## [What's new](whats-new-marketing.md)
 ## [Marketing videos](marketing-videos.md)
 
 ## [Administrator Guide](admin-guide.md)
@@ -201,7 +202,7 @@
 ### [Preview: Extend event management to support more webinar providers](developer/extend-event-management.md)
 ### Build an approval feature
 #### [Overview](developer/marketing-approvals-feature.md)
-#### [Build approvals feature using Microsoft Flow](developer/build-approval-feature-using-flow.md)
+#### [Build approvals feature using Power Automate](developer/build-approval-feature-using-flow.md)
 ### Create a custom event website
 #### [Overview](developer/event-management-web-application.md)
 #### Self-hosted

@@ -29,15 +29,9 @@ When you're designing an email message, use the **Summary** tab to set a few bas
 - Set an expression for finding the recipient address from each contact record.
 - Set the legal designation of the message, which affects the requirements for what the message must (and must not) contain.
 - Set the language used by the email.
-- View and edit the [text-only version](email-design.md#text-only) of your message.
+- View and edit the text-only version of your message.
 
 ![The Summary tab for emails](media/email-summary-tab.png "The Summary tab for emails")
-
-Read this topic for more information about how to work with the sender, receiver, language, and legal designation for a message. For details about how to work with the text-only version of your design, see [Inspect and edit the text-only version of your message](email-design.md#text-only).
-
-<a name="send-receive-options"></a>
-
-
 
 <a name="designation"></a>
 
@@ -75,6 +69,8 @@ Use the **Language** field to specify the language of the current message. This 
 
 Option sets provide a fixed set of values, which are stored as an index (incrementing integer), but displayed as text. For example, a field could be provided for selecting a T-shirt color where 1="red", 2="green", 3="blue", and so on. If you are supporting several languages, then each index value for the option set might have a different display value for each language. The value you choose for the **Language** here will determine which language is used to display option-set values in your email. If you select a language for which no values are defined, then another language will be shown instead (typically English, if it's available).
 
+<a name="send-receive-options"></a>
+
 ## Set sender and receiver options
 
 In addition to the message description and plain-text version, the **Summary** tab also offers **Sender and receiver** settings. Usually you shouldn't edit these, but they can be useful in some scenarios.
@@ -90,6 +86,19 @@ The following **Sender and receiver** settings are available:
 - **From address**: This is the email address shown to recipients as the address of the person who sent the email. By default, this is the email address of user who created the message. You can edit this to use a static value, or choose the [assist-edit](dynamic-email-content.md#dynamic-from) button to define an alternative dynamic value. (See also the **IMPORTANT** box at top of this section.)
 - **To address**: This should almost always be set to **{{ contact.emailaddress1 }}**, which sends the message to each contact included in the customer journey that sends the email. You might change this to use a different email address field (such as emailaddress2), or enter a dynamic expression that chooses the best of several available email fields. Don't enter a static email address here because that will cause customer journeys to send the message just once to that static address rather than to each contact processed by the journey (insights will show that all other contacts were blocked).
 - **Reply-to address**: This should usually be blank, which means that replies to the message will be sent to the **From address**. If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the [assist-edit](dynamic-email-content.md#dynamic-from) button to define an alternative dynamic value. If you use this setting, we recommend that you use the same domain for the reply-to address as for the from address (email addresses use the form *account-name*@*domain-name*).
+
+<a name="text-only"></a>
+
+## Inspect and edit the text-only version of your message
+
+The HTML mail standard allows for messages to include both an HTML version and a plain-text version of your content. The purpose of the plain-text version is to allow your message to be legible when shown by email clients that don't support HTML (or which have HTML turned off). Mail clients will only show one version to users, and unless you're dealing with a very special market, it will almost always be the HTML version. It's a bit like the system of providing alt-text for images.
+
+So why bother with the plain-text version? To improve deliverability. One of the red flags that anti-spam systems look for is an email message that includes HTML content but no plain-text content (or plain-text content that doesn't match the HTML content). To help ensure that your marketing email messages don't get flagged as spam, Dynamics 365 Marketing generates a plain-text version of your HTML design and includes it when it sends the message. Usually you won't have to worry about the plain-text version, but you can still inspect and optimize it if you like.
+
+Start by designing the HTML version of your message. When you're almost done, go to the **Summary** tab of your message, where you'll see various settings and metadata for the message. Scroll down to the **Plain Text** section to see the text that was auto-generated based on your HTML content.
+
+- To fine-tune the text version, clear the **Automatically generate** check box to unlock the text field, and then edit the text as needed. From now on, though, your text version will no longer be linked to the HTML version and won't be updated to match any changes you make to the HTML.
+- To go back to tracking the HTML version, reselect the **Automatically generate** check box. This will remove any customizations that you've made to the plain text and update it to match the current HTML design on an ongoing basis.
 
 ### See also
 

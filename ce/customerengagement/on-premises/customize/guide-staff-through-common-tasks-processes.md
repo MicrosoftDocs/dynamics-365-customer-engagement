@@ -70,8 +70,8 @@ Dynamics 365 Customer Engagement (on-premises) includes four types of processes,
  Use Actions when you want to automate a series of commands in the system. Actions expand the vocabulary available for developers to express business processes. With core verbs like Create, Update, Delete, and Assign provided by the system, a Action uses those core verbs to create more expressive verbs like Approve, Escalate, Route, or Schedule. If the definition of a business process changes, someone who isn’t a developer can edit the Action so the code doesn’t need to be changed.  For more information on Actions, see  [Actions](../customize/actions.md)  
   
 <a name="useMSFlow"></a>   
-## When to use Microsoft Flow  
- Use Microsoft Flow when you need to create automated workflows that perform actions between your environment and favorite app or service, such as [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], Dropbox, Google services, [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. You can trigger a flow based on a specific action, or invoke from within your app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Microsoft Flow to automate processes across services](/powerapps/user/use-flows)  
+## When to use Power Automate  
+ Use Power Automate when you need to create automated workflows that perform actions between your environment and favorite app or service, such as [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], Dropbox, Google services, [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. You can trigger a flow based on a specific action, or invoke from within your app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Power Automate to automate processes across services](/powerapps/user/use-flows)  
   
 <a name="BKMK_Where"></a>   
 ## Where do I go to create processes?  

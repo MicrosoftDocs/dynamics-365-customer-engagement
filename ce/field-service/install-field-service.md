@@ -32,6 +32,8 @@ To get fully up and running with Field Service, you'll need to:
 
 In this article, we'll walk through each of these steps. 
 
+> [!Note]
+> Along with this article, see the video: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service installation and setup](https://youtu.be/hvcqAbe4g4E)
 
 ## Prerequisites
 
