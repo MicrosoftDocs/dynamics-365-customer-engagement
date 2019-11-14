@@ -22,9 +22,6 @@ search.app:
 # Single resource optimization
 
 
-<!--from editor: Please see my comment about resource scheduling optimization in the file "rso-overnight-scheduling.md". -->
-
-
 Resource scheduling optimization (RSO) is flexible and can be configured to run optimizations based on your organization's scheduling needs. Sometimes you might need to optimize only a single resource's schedule, rather than a set of available resources.
 
 Single resource optimization (SRO) provides a quick way to re-optimize a resource's schedule and travel route after schedule changes have occurred during the day. 
@@ -40,10 +37,6 @@ If an individual resource's schedule needs to be re-optimized, a dispatcher can 
 
 > [!Note]
 > Unlike other RSO scenarios, SRO runs can't be scheduled.
-
-
-
-<!--from editor: As in the other file, can you confirm that the names in the screenshot are from an approved list? -->
 
 
 > [!div class="mx-imgBorder"]

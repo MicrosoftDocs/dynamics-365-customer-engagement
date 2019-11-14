@@ -28,10 +28,6 @@ search.app:
 # Automated overnight scheduling
 
 
-
-<!--from editor: the style guide says RSO isn't really a term for external use, but is vague on what to use instead. For now, I'll change it to lowercase but otherwise leave it. Here is a link to the style guide entry: https://styleguides.azurewebsites.net/Styleguide/Read?id=2858&topicid=44495 -->
-
-
 Resource scheduling optimization (RSO) is flexible and can be configured to run optimizations based on your organization's scheduling needs. Sometimes it's best for these optimizations to run when the humans who do the work are asleep.
 
 In this topic, we will dive into overnight scheduling. 
@@ -143,11 +139,7 @@ Based on the timer, RSO will check the filter panel and run if there is a matchi
 > If no values are entered in the **Filter** section, RSO will run according to the timer—in this example, every 1 hour.
 
 
-
-<!--from editor: Is there a single "Save & Publish" button, or are these two separate buttons? -->
-
-
-Select **Save & Publish**.
+Select **Save**, and then **Save & Publish**.
 
 At this point, we are ready to run overnight scheduling with RSO. One option is to wait for the trigger at midnight. Another option is for testing and development purposes to select the **Run Now** button in the top ribbon.
 
@@ -157,9 +149,6 @@ At this point, we are ready to run overnight scheduling with RSO. One option is 
 To see the optimization results for overnight scheduling, either wait until midnight for RSO to run, or select **Run Now**. You can then select **Schedule Board** from your **Optimization Schedule** to see the resulting optimization. 
 
 Here you can see jobs were only scheduled for 1 working day to our Washington-WA resources.
-
-
-<!--from editor: Are the names in the following two screenshots from a Microsoft-approved fictitious names list? -->
 
 
 > [!div class="mx-imgBorder"]
