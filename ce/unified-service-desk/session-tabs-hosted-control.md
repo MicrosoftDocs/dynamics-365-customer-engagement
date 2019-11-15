@@ -1,6 +1,6 @@
 ---
 title: "Session Tabs (Hosted Control) in Unified Service Desk | MicrosoftDocs"
-description: "Learn about Session Tabs type of hosted control in Unified Service Desk."
+description: "Learn about the session tabs type of hosted control in Unified Service Desk."
 ms.custom: dyn365-USD
 ms.date: 11/12/2019
 ms.service: dynamics-365-customerservice
@@ -18,41 +18,38 @@ search.app:
 ---
 
 # Session Tabs (Hosted Control)
-Use **Session Tabs** type of hosted control to display customer information in a session tab in your agent application. The hosted control can read the session lines configuration for the session name configuration, and can evaluate which session line should be used to create the session name. An instance of this hosted control type must be available in your agent application for the session tabs to be displayed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Session management in Unified Service Desk](../unified-service-desk/session-management-unified-service-desk.md)  
+Use the **Session Tabs** type of hosted control to display customer information in a session tab in your agent application. The hosted control can read the session lines configuration for the session name configuration, and can evaluate which session line should be used to create the session name. An instance of this hosted control type must be available in your agent application for the session tabs to be displayed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Session management in Unified Service Desk](../unified-service-desk/session-management-unified-service-desk.md)  
   
 <a name="Create"></a>   
-## Create a session tab hosted control
+## Create a session tabs hosted control
 
- While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. Select **Session Tabs** from the **USD Component Type** drop-down list in the **New Hosted Control** screen. 
+When you create a new hosted control, the fields on the **New Hosted Control** screen vary based on the type of hosted control you want to create. Select **Session Tabs** from the **USD Component Type** drop-down list on the **New Hosted Control** screen. 
 
- To create the session tabs hosted control, follow these steps:
+To create the session tabs hosted control, follow these steps:
  
- 1. Sign in to the Unified Service Desk Administrator app.
+1. Sign in to the Unified Service Desk Administrator app.
 
- 2. Select **Hosted Controls** under **Basic Settings**.
+2. Select **Hosted Controls** under **Basic Settings**.
 
- 3. Select **+ New**.
+3. Select **+ New**.
 
- 4. Specify a name for the Hosted Control.
+4. Specify a name for the hosted control.
 
- 5. Select **Extensions** tab.
+5. Select the **Extensions** tab.
 
- 6. Update the XML in the **Extensions XML**. To learn more, see [Chat indicator XML](#chat-indicator-xml).
+6. Update the XML in the **Extensions XML** field. To learn more, see [Chat indicator XML](#chat-indicator-xml).
 
- 7. Select **Save**.
+7. Select **Save**.
 
- For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).
+For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).
 
 ### Chat indicator XML 
 
-When you want to indicate that there is a new message on the session tab, you can use the chat indicator XML to show visual cues to the agents.
+When you want to indicate that a new message is on the session tab, you can use the chat indicator XML to give visual cues to agents.
 
-The `ChatAgentIndicator` and `ChatCustomerIndicator` actions depend on chat indicator content in extension XML defined in session tabs type of hosted control.
+The `ChatAgentIndicator` and `ChatCustomerIndicator` actions depend on chat indicator content in extension XML defined in a session tabs type of hosted control.
 
-- List of time spans for which indicator needs be shown with given color code.
-- Whether indicator need to blink once all the time spans are over. If blink node is available, the indicator will blink for 25secs. 
-
-In the XML, you can define the start time and end time with the hexadecimal color code. During this time span, the system displays the indicator to the agent with the specified color. Also, you can define multiple time spans to show different status. If you want the indicator to blink after the end time of all the time spans, then you can define the blink node, which blinks for 25 seconds.
+In the XML, you can define the start time and end time with the hexadecimal color code. During this timespan, the system displays the indicator to the agent with the specified color. Also, you can define multiple timespans to show different types of status. If you want the indicator to blink after the end time of all timespans, you can define the blink node, which blinks for 25 seconds.
 
 **Chat indicator XML syntax**
 
@@ -73,10 +70,9 @@ In the XML, you can define the start time and end time with the hexadecimal colo
 <blink/>
 </chatIndicator>
 ```
-
-- From zeroth to 15th second, the indicator shows yellow color. 
-- From 16th to 30th second, the indicator shows red color. 
-- From 31st second, the indicator blinks until 56th second.
+- From zero to 15 seconds, the indicator shows yellow. 
+- From 16 to 30 seconds, the indicator shows red. 
+- From 31 seconds, the indicator blinks until 56 seconds.
 
 <a name="Actions"></a>   
 ## Predefined UII actions  
@@ -154,10 +150,10 @@ In the XML, you can define the start time and end time with the hexadecimal colo
 |Parameter|Description|  
 |---------------|-----------------|  
 |SessionId|This is the ID of the session that was closed.|  
-|IsGlobal|In the **Global Manager** version of this event, the IsGlobal flag is also passed. If the global session is closed, the flag would be **True**, Otherwise, **False**.|  
+|IsGlobal|In the **Global Manager** version of this event, the IsGlobal flag is also passed. If the global session is closed, the flag would be **True**; otherwise, **False**.|  
   
 ### SessionCloseRequested  
- Occurs when the "X" is clicked on a session tab in the agent application. If this event is not handled, the system will automatically close the session. If the event is handled, the system will not automatically close the session, and you must attach an action call to this event that calls the **CloseSession** action on your **Session Tabs** hosted control to explicitly close the session.  
+ Occurs when the **X** is clicked on a session tab in the agent application. If this event is not handled, the system will automatically close the session. If the event is handled, the system will not automatically close the session, and you must attach an action call to this event that calls the **CloseSession** action on your **Session Tabs** hosted control to explicitly close the session.  
   
 ### SessionClosing  
  Occurs  before a session is closed.  
