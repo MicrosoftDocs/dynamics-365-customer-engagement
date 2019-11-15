@@ -1,7 +1,7 @@
 ---
 title: "Install Dynamics 365 Field Service (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
-ms.date: 2/15/2019
+ms.date: 11/15/2019
 ms.reviewer: krbjoran
 ms.suite:
 ms.technology:
@@ -40,7 +40,7 @@ In this article, we'll walk through each of these steps.
 To follow the steps in this article, you will need: 
 
 - Time. Field Service installations and upgrades can take up to 30 minutes or more. 
-- A desktop browser and a mobile device (phone or tablet).
+- A desktop browser and a mobile device (phone, tablet, or Windows 10 device).
 
 ## Step 1: Install Dynamics 365 Field Service
 
