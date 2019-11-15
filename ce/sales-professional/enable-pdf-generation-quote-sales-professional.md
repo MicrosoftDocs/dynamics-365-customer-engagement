@@ -30,4 +30,4 @@ The PDF generation capability allows your users to generate PDF documents direct
 
 ### See also
 
-[Create a PDF document from sales records](create-quote-pdf-sales-professional.md)
+[Create PDF documents from sales records](create-quote-pdf-sales-professional.md)
