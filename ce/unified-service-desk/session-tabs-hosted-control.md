@@ -17,10 +17,6 @@ search.app:
   - D365USD
 ---
 
-
-<!--from editor: I suggest using sentence caps for the heading: Session tabs (hosted control). I don't see a reason to capitalize it all. -->
-
-
 # Session Tabs (Hosted Control)
 Use the **Session Tabs** type of hosted control to display customer information in a session tab in your agent application. The hosted control can read the session lines configuration for the session name configuration, and can evaluate which session line should be used to create the session name. An instance of this hosted control type must be available in your agent application for the session tabs to be displayed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Session management in Unified Service Desk](../unified-service-desk/session-management-unified-service-desk.md)  
   
@@ -41,7 +37,7 @@ To create the session tabs hosted control, follow these steps:
 
 5. Select the **Extensions** tab.
 
-6. Update the XML in **Extensions XML**. To learn more, see [Chat indicator XML](#chat-indicator-xml).
+6. Update the XML in the **Extensions XML** field. To learn more, see [Chat indicator XML](#chat-indicator-xml).
 
 7. Select **Save**.
 
@@ -52,13 +48,6 @@ For detailed information about creating a hosted control, see [Create or edit a 
 When you want to indicate that a new message is on the session tab, you can use the chat indicator XML to give visual cues to agents.
 
 The `ChatAgentIndicator` and `ChatCustomerIndicator` actions depend on chat indicator content in extension XML defined in a session tabs type of hosted control.
-
-
-<!--from editor: It's not clear what the following short list is about. It could use an introductory sentence. Are these things the user can define? things the user can do? feature examples? -->
-
-
-- List of timespans for which the indicator needs to be shown with a given color code.
-- Whether the indicator needs to blink when all of the timespans are over. If a blink node is available, the indicator will blink for 25 seconds. 
 
 In the XML, you can define the start time and end time with the hexadecimal color code. During this timespan, the system displays the indicator to the agent with the specified color. Also, you can define multiple timespans to show different types of status. If you want the indicator to blink after the end time of all timespans, you can define the blink node, which blinks for 25 seconds.
 
@@ -81,11 +70,6 @@ In the XML, you can define the start time and end time with the hexadecimal colo
 <blink/>
 </chatIndicator>
 ```
-
-
-<!--from editor: Please review the revised text below: -->
-
-
 - From zero to 15 seconds, the indicator shows yellow. 
 - From 16 to 30 seconds, the indicator shows red. 
 - From 31 seconds, the indicator blinks until 56 seconds.
