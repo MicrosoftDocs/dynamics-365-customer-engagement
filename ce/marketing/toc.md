@@ -200,7 +200,6 @@
 ##### [Gallery: Marketing reach analysis](marketing-analytics/MarketingAnalyticReporting-Gallery-MarketingReachReport.md)
 ##### [Gallery: Marketing form-submission report](marketing-analytics/MarketingAnalyticReporting-Gallery-FormSubmissionReport.md)
 
-
 ## [Developer Guide](developer/marketing-developer-guide.md)
 ### [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)
 #### [Overview of custom channel](developer/overview-custom-channel.md)

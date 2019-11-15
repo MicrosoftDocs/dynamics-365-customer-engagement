@@ -33,6 +33,7 @@ Use the following links to download a template for running the report on your ow
 
 |Download report template  |Download sample report  |
 |---------|---------|
+
 [![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Form%20Submissions.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Form%20Submissions.pbix)|
 
 You can find more downloads in the [marketing analytics reporting gallery](MarketingAnalyticReporting-Gallery.md).

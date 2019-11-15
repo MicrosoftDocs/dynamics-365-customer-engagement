@@ -29,7 +29,9 @@ Use the following links to download a template for running the report on your ow
 
 |Download report template  |Download sample report  |
 |---------|---------|
-[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Marketing%20Automation.pbit)|[![Download template](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Marketing%20Automation.pbix)|
+|[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Marketing%20Automation.pbit)|[![Download template](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Marketing%20Automation.pbix)|
+
+Find more downloads [here](MarketingAnalyticReporting-Gallery.md)
 
 You can find more downloads in the [marketing analytics reporting gallery](MarketingAnalyticReporting-Gallery.md).
 
@@ -130,6 +132,7 @@ The return on investment (ROI) report splits your opportunities into three group
 
 The group association is done through the originating leads based on whether those originated from customer journeys, marketing pages, or sales campaigns.
 The first block contains the opportunities that originated from sales campaigns. The second block aggregates all opportunities that originated from inbound marketing&mdash;these have been created based on an inbound visit to a marketing page that can't be attributed to an outbound customer journey. The third are all the opportunities that have been attributed to a customer journey.
+
 
 This report assumes all customer journeys to be outbound. But you can extend your journey model to include an inbound vs. outbound classification, and associate respective opportunities accordingly, if this is relevant for your marketing automation configuration.
 
