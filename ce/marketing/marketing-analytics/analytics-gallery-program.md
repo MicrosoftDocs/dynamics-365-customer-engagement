@@ -22,8 +22,7 @@ search.app:
 
 # Marketing program effectiveness analysis for Dynamics 365 Marketing
 
-> [!TIP]
-> Analyze the end-to-end effectiveness of your marketing programs, including automation, journeys, channels, lead generation, conversion, and revenue generation.
+This report enables you to analyze the end-to-end effectiveness of your marketing programs, including automation, journeys, channels, lead generation, conversion, and revenue generation. 
 
 Use the following links to download a template for running the report on your own organization and/or a sample report filled with sample data.
 
@@ -31,9 +30,7 @@ Use the following links to download a template for running the report on your ow
 |---------|---------|
 |[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Marketing%20Automation.pbit)|[![Download template](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Marketing%20Automation.pbix)|
 
-Find more downloads [here](MarketingAnalyticReporting-Gallery.md)
-
-You can find more downloads in the [marketing analytics reporting gallery](MarketingAnalyticReporting-Gallery.md).
+You can find more downloads in the [marketing analytics reporting gallery](analytics-gallery-start.md#gallery).
 
 
 This report walks you through and end-to-end analytical exploration that starts from your marketing plan and continues all the way to return on investment and attribution to sales vs. marketing. Start your exploration on the [home page](#home-page), which provides a high-level overview of your marketing activities. Then go to the [marketing plan](#plan-overview) to see a Gantt chart that shows when your customer journeys are running and which messaging is being used. At the next station you can find out [who exactly is included in your audience](#journey-reach), and what feedback and interactions have been detected. Go to the [leader board](#leaderboard) to compare which of your automated marketing activities performs best. 
@@ -52,10 +49,7 @@ This analytics report includes the following report pages:
 <!--Common pages-->
 ## Common Pages
 
-> [!TIP]
-> Each template and sample report contains a set of common pages that help you explain your report to your audience.
-
-To learn more about the common pages, see [Common report pages](MarketingAnalyticReporting-Framework.md#common-report-pages).
+Each template and sample report contains a set of common pages that help you explain your report to your audience. To learn more about the common pages, see [Common report pages](analytics-gallery-framework.md#common-report-pages).
 
 <a name="home-page"></a>
 

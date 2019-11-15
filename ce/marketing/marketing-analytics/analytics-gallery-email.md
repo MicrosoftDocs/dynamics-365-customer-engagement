@@ -23,12 +23,7 @@ search.app:
 
 # Email marketing analytical report for Dynamics 365 Marketing
 
-> [!TIP]
-> This marketing analytical report provides insights into your email marketing and related activities. You can download both a template for running the report on your organization and an example report filled with sample data.
-
-<!-- kfm: consider removing this image. It's repeated later on the page and crowds the table of download links that comes right after. Maybe do this for all the similar topics that are using this format.  -->
-
-![Email Interaction Timeline](media/EmailMarketing/EmailMarketing-(5)InteractionTimeline.png)
+This marketing analytical report provides insights into your email marketing and related activities. You can download both a template for running the report on your organization and an example report filled with sample data.
 
 Use the following links to download a template for running the report on your own organization and/or a sample report filled with sample data.
 
@@ -36,7 +31,7 @@ Use the following links to download a template for running the report on your ow
 |---------|---------|
 [![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Email%20Marketing.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Email%20Marketing.pbix)|
 
-You can find more downloads in the [marketing analytics reporting gallery](MarketingAnalyticReporting-Gallery.md).
+You can find more downloads in the [marketing analytics reporting gallery](analytics-gallery-start.md#gallery).
 
 This analytics report includes the following report pages:
 
@@ -47,16 +42,15 @@ This analytics report includes the following report pages:
 - [The timeline of interactions](#interaction-timeline) of your audience that result from your email marketing activities
 - [A detailed link-click analysis](#email-clicks)
 - [An analysis of blocked email message and other failures](#send-blocks-fails)
-- We plan to add more capabilities, including: key influence analytics, forward to a friend, and more. <!-- kfm: this point was a bit garbled. I removed "and special topic lie " I actually recommend removing this point (better not to speculate in documentation about unreleased features). -->
+
+
+![Email Interaction Timeline](media/EmailMarketing/EmailMarketing-(5)InteractionTimeline.png)
 
 <a name="common-pages"></a>
 
 ## Common Pages
 
-> [!TIP]
-> Each template and sample report contains a set of common pages that help you explain your report to your audience.
-
-To learn more about the common pages, see [Common report pages](MarketingAnalyticReporting-Framework.md#common-report-pages).
+Each template and sample report contains a set of common pages that help you explain your report to your audience. To learn more about the common pages, see [Common report pages](analytics-gallery-framework.md#common-report-pages).
 
 <a name="report-home-page"></a>
 
@@ -111,7 +105,7 @@ Find your best performing customer journeys with their respective email marketin
 
 ![Email marketing leaderboard](media/EmailMarketing/EmailMarketing-(4)EmailMarketingLeaderBoard.png)
 
-Please note that a [more detailed leaderboard report](MarketingAnalyticReporting-Gallery-LeaderboardReport.md) is also available. It supports a more fine-grained leader analysis based on more interactions for both your customer journeys and email marketing activities.
+Please note that a [more detailed leaderboard report](analytics-gallery-leaders.md) is also available. It supports a more fine-grained leader analysis based on more interactions for both your customer journeys and email marketing activities.
 
 <a name="interaction-timeline"></a>
 
