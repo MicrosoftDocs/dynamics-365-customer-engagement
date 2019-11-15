@@ -2,18 +2,18 @@
 title: "Using and extending Price lists for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/23/2019
-ms.reviewer: 
+ms.date: 11/15/2019
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: e8ecd5c3-002a-4482-b265-72e061d12132
 caps.latest.revision: 16
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -23,38 +23,35 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Using and extending Price lists for Field Service
+# Using price lists in Dynamics 365 Field Service
 
 Field Service uses and extends Dynamics 365 price lists and product catalog. This means products and services are added to work orders with appropriate pricing.  
 
-For work order products that represents parts used during on site service, simply use price lists and price list items as you would for Dynamics 365 for Sales.
+For work order products that represent parts used during on-site service, use price lists and price list items, just like you would for Dynamics 365 Sales.
 
-For work order services that represent labor performed during on site service, you can use price lists with price list items to define an hourly rate, or you can use price lists with **Field Service Price List Items** for additional pricing options.
+For work order services that represent labor performed during on-site service, you can use price lists with price list items to define an hourly rate. You can also use price lists with **Field Service Price List Items** for additional pricing options.
 
-In this article let's explore creating products, services, and price lists to use on work orders.
+In this article, we'll explore creating products, services, and price lists to use on work orders.
 
 ## Prerequisites 
 
-Using Dynamics price lists and product catalog for Field Service is available for all version of Dynamics 365 Field Service
-
-Basic knowledge of Dynamics 365 [product catalog](https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/set-up-product-catalog-walkthrough) and [price lists](https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products) is encouraged. 
+- Any version of Dynamics 365 Field Service
+- Basic knowledge of Dynamics 365 [product catalogs](https://docs.microsoft.com/dynamics365/sales-enterprise/set-up-product-catalog-walkthrough) and [price lists](https://docs.microsoft.com/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products). 
 
 ## Create products and services
 
-First create Field Service products and services that can be added to work orders. This is done by creating products and entering a Field Service Product Type.
+First, we'll need to create the Field Service products and services. We can do this by associating a **Field Service Product Type** on the product entity.
 
+For more detailed instructions, see the article on [creating Field Service products and services](./create-product-or-service.md); 
 
-For more explicit instructions, see the topic on [creating Field Service products and services](./create-product-or-service.md). 
+Go to **Field Service app** > **Settings** > **Products** > **+New** and use the tooltips to add basic details about the product or service.
 
-
-In summary, go to **Field Service app > Settings > Products > +New** and use the tooltips to add basic details about the product or service.
-
-For this exercise in using Field Service Price List Items to extend price lists, start by creating a service.
+Since we are using **Field Service Price List** items to extend price lists, we'll start by creating a service.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/price-list-service-create.png)
 
-In the Field Service section, enter a **Field Service Product Type** of *Service*.
+In the **Field Service** section, enter a **Field Service Product Type** of **Service**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-product-create-service.png)
