@@ -151,7 +151,7 @@ Yes, on Android only. Field Service Mobile v11.3+ can use a bluetooth RFID reade
 See this [blog post](https://www.resco.net/woodford-user-guide/#__RefHeading__5907_1627906509) for more details.
 
 
-## Why am I getting the error "UNSUPPORTED CUSTOMIZATION VERSION: App:23 Srv:25" in the mobile configurator? 
+## Why am I getting the error "UNSUPPORTED CUSTOMIZATION VERSION: App:23 Srv:25" in the Field Service Mobile app? 
 
 If you're receiving this error, it means that you published the mobile project to a version that is higher than your app supports.
 Try publishing the mobile project again to match the version of the app. For instance, for Field Service Mobile v11.2, publish to 11.2.
