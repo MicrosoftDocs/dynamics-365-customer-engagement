@@ -5,7 +5,6 @@
 
 # Installation
 ## [Field Service installation (web + mobile)](install-field-service.md)
-## [AppSource add-ins for Field Service](appsource-addins.md)
 
 # Administration
 ## [Work order process architecture](field-service-architecture.md)
@@ -162,6 +161,7 @@
 # Resources
 ## [Version history (web + mobile)](version-history.md)
 ## [Bug fixes](bug-fixes.md)
+## [AppSource add-ins for Field Service](appsource-addins.md)
 # [Troubleshoot with Solution Health Hub](troubleshoot-field-service-solution-health.md)
 # [General FAQs](troubleshoot-faq.md)
 

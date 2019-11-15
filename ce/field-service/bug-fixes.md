@@ -30,26 +30,103 @@ search.app:
 
 In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field Service, Field Service Mobile, Connected Field Service (CFS), and Resource Scheduling Optimization (CFS). For information about other updates to Field Service, visit the [Dynamics 365 Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). 
 
-## Month, Year
+## Dynamics 365 Field Service
 
-| Fixed                       | App           | Version # |   |   |
-|-----------------------------|---------------|-----------|---|---|
-| This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix. | Field Service | 7.5.13.73 |   |   |
-| This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.  | RSO           | x.x.xx.xx |   |   |
-| This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.            | CFS           | x.x.xx.xx |   |   |
+### Date, Version #
 
-## Month, Year
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
 
-| Fixed                       | App           | Version # |   |   |
-|-----------------------------|---------------|-----------|---|---|
-| This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix. | Field Service | 7.5.13.73 |   |   |
-| This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.  | RSO           | x.x.xx.xx |   |   |
-| This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.            | CFS           | x.x.xx.xx |   |   |
+### Date, Version #
 
-## Month, Year
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
 
-| Fixed                       | App           | Version # |   |   |
-|-----------------------------|---------------|-----------|---|---|
-| This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix. | Field Service | 7.5.13.73 |   |   |
-| This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.  | RSO           | x.x.xx.xx |   |   |
-| This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.            | CFS           | x.x.xx.xx |   |   |
+## Field Service Mobile
+
+### Date, Version #
+
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+
+### Date, Version #
+
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+
+## Universal Resource Scheduling (URS)
+
+### Date, Version #
+
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+
+### Date, Version #
+
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+
+## Resource Scheduling Optimization (RSO)
+
+### Date, Version #
+
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+
+### Date, Version #
+
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+
+## Connected Field Service (CFS)
+
+### Date, Version #
+
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+
+### Date, Version #
+
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+
