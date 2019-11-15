@@ -29,7 +29,7 @@
 #### [Gain insights with dashboards](gain-insights-dashboards-sales-professional.md)
 #### [Assign records to a user or team](assign-records-sales-professional.md)
 #### [Use document templates to create standardized documents](use-document-templates-sales-professional.md)
-#### [Create a PDF document](create-quote-pdf-sales-professional.md)
+#### [Create PDF documents from sales records](create-quote-pdf-sales-professional.md)
 
 ## Administrator and sales manager guide
 ### [Help resources for admins and sales managers](admin-guide.md)
