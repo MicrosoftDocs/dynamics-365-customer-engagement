@@ -156,6 +156,9 @@ See this [blog post](https://www.resco.net/woodford-user-guide/#__RefHeading__59
 If you're receiving this error, it means that you published the mobile project to a version that is higher than your app supports.
 Try publishing the mobile project again to match the version of the app. For instance, for Field Service Mobile v11.2, publish to 11.2.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the mobile configurator, showing the publish version](./media/mobile-faq-configurator-version.png)
+
 ## Can I use the Dynamics 365 mobile application to access Field Service? 
 
 We strongly recommend using the Field Service Mobile app to access Field Service, rather than the Dynamics 365 mobile app with the Unified Interface. While the native Dyanmics 365 app does work in offline mode, it doesn't fully support offline mode for Field Service-specific scenarios. For more information, visit our topic on Field Service Mobile.
