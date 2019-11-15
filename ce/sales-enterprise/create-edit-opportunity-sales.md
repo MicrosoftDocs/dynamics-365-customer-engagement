@@ -1,5 +1,5 @@
 ---
-title: "Create or edit an opportunity (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Create or edit opportunities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
 keywords: "opportunity, deal, develop, propose, nurture sales"
 ms.date: 10/01/2019
@@ -15,7 +15,7 @@ manager: annbe
 caps.latest.revision: 58
 ---
 
-# Create or edit an opportunity (Sales and Sales Hub)
+# Create or edit opportunities (Sales and Sales Hub)
 
 An opportunity is a lead who is now almost ready to buy&mdash;in other words, a deal that you're ready to win.  
   

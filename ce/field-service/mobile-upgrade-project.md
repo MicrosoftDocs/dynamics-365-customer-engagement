@@ -85,6 +85,10 @@ The following are steps for option 2:
 9. Open Github desktop, select refresh, and ensure you are on the "customizations" branch. You should then see the diff of your project compared to the Microsoft project. 
 10. [Download](https://aka.ms/fsmobile-project) and import the latest Field Service Mobile project and then go to the Mobile Configuration Tool (Woodford). Create a child project off of the Microsoft project by selecting **Derive**. Export the derived child project, rename the downloaded project extension from .Woodford to .zip, and extract it as above. 
 11. For any files that are called out as being a diff from our original, you will need to copy those files or folders into the *new* derived child project.
+
+> [!Note]
+> In many cases, simply understanding which files are different is not enough; you may actually want to understand and copy over the specific XML lines within the file instead of the entire file. For example, say the Microsoft project had a booking form with no form rules, and your customized project changed fields on the booking form. You'll see your booking form file as a diff in GitHub. Then say Microsoft's new project adds a form rule to the booking form. If you copy over your entire booking file in your customized project rather than the specific XML lines of the field changes, you will not get Microsoft's new form rule.
+
 12. Zip the *new* derived child project and rename the project extension from .zip to .woodford.
 13. Go into the Mobile Configuration Tool (Woodford) and highlight the *new* derived child project that was exported a few steps ago. Select the **Import** button and upload your *new* child project that contains the diff customizations. When prompted to **Overwrite** the derived child project, choose **Yes**.
 14. Now publish your new child project and begin testing.

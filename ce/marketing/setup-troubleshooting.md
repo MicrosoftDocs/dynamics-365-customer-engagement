@@ -57,7 +57,7 @@ Dynamics 365 Marketing is licensed per instance, with each instance priced accor
 - **How can I learn more about Dynamics 365 Marketing licensing?**
   - For an overview, see [Purchase and set up Dynamics 365 Marketing](purchase-setup.md) 
   - For complete terms that apply to subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
-  - For trial and previews, see [Dynamics 365 Marketing limits for trials and previews](trial-preview-limits.md).
+  - For trials, see [Dynamics 365 Marketing limits for trials](trial-preview-limits.md).
   - Check the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
 <a name="incompatible-platform"></a>
@@ -67,16 +67,6 @@ Dynamics 365 Marketing is licensed per instance, with each instance priced accor
 Your tenant might have several different types of instances (also called *organizations*) installed on it, including some that are full Dynamics 365 instances and others that are, for example, Power Apps instances (also called *environments*) that include many components of Dynamics 365, but not all of the components required by Marketing.
 
 When you are setting up your Marketing app, the setup wizard asks you to choose an organization on which to install the app, and the organization selector might show both full Dynamics 365 instances and the lighter Power Apps instances if they are present. You must choose an instance that includes a full Dynamics 365 installation. If you see an error telling you that *this application isn't compatible with the platform of your selected Dynamics 365 organization*, then make sure you have a full Dynamics 365 organization available (where you want to install Marketing) and choose that one instead.
-
-<a name="geo-support"></a>
-
-## Why can't I install Marketing in my country/region?
-
-Dynamics 365 Marketing is a relatively new app for the Common Data Service platform, so it is not yet supported in all countries/regions where Dynamics 365 is available. If you are located outside of a supported country/region, then the setup wizard will prevent you from setting up the product, even if the Admin center shows that a Marketing app is available on your tenant. The reason you see the unconfigured app on your tenant is probably because you've licensed a Dynamics 365 product or bundle that includes it&mdash;you'll be able to set it up as soon as support for the product is extended to your country/region.
-
-These geographical restrictions apply both to trial and production versions of Dynamics 365 Marketing.
-
-To read the latest list of countries/regions where you can use Dynamics 365 Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
 
 <a name="register-apps-azure"></a>
 
@@ -141,7 +131,7 @@ Start by adding yourself as a portal user, just as your contacts would do when r
 
 1. On the event website, select the **Sign In** button at the top of the page.
 
-1. On the sign-in page, go the **Register** tab and fill out the fields to create a new account. Note that you must use an email address that doesn&#39;t already belong to a contact in your database. Be sure to make a note of your user name and password.
+1. On the sign-in page, go to the **Register** tab and fill out the fields to create a new account. Note that you must use an email address that doesn&#39;t already belong to a contact in your database. Be sure to make a note of your user name and password.
 
 1. The **Profile** page opens. Enter your first and last names in the fields provided and select **Update**.
 
@@ -288,7 +278,7 @@ Marketing typically shares data with other Dynamics 365 applications running on 
 
 Also, some administration and customization features, and some integrated user features, may require you to switch to a web-client app from time to time, but soon all features are expected to be available on the Unified Interface.
 
-More information: [About Unified Interface](../admin/about-unified-interface.md) and [Find your way around Marketing](navigation.md)
+More information: [About Unified Interface for model-driven apps in PowerApps](https://docs.microsoft.com/power-platform/admin/about-unified-interface) and [Find your way around Marketing](navigation.md)
 
 <a name="contact-support"></a>
 
@@ -298,7 +288,6 @@ For additional support and help resources you can:
 
 - [Contact technical support](https://docs.microsoft.com/power-platform/admin/get-help-support) directly.
 - Get in touch with the community on the [Dynamics 365 Marketing forum](https://community.dynamics.com/365/marketing/f/768).
-- Find additional [online help resources for Dynamics 365](../admin/help-additional-resources.md).
+- Find additional [online help resources for Dynamics 365](https://docs.microsoft.com/power-platform/admin/get-help-support).
 
 If you’ve already tried to set up the application several times and are still having trouble, please open a support case through your applicable Microsoft Premier channel or MPN partner channel.
-

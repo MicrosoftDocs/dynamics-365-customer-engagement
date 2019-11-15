@@ -49,7 +49,7 @@ The true potential of a portal connected with Common Data Service is achieved wh
 
 **Dynamics 365 Portals app**
 
-1.	[Open the Dynamics 365 Portals app](provision-portal.md#open-dynamics-365-portals-app).
+1.	Open the Dynamics 365 Portals app.
 
 2.	Go to **Portals** > **Create Portal Content**. The Create Portal Content window appears.
 

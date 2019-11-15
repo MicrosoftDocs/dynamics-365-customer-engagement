@@ -22,6 +22,13 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 > [!Important]
 > We recommend updating Omnichannel for Customer Service to the latest versions for the best experience. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
 
+## Install routing rules solution to use entity records routing
+
+In your entity records channel, if you see an error that states: **You must install routing rule solution to use entity records routing. To learn more see aka.ms/routingrules.**, then perform the following:
+
+- If you use Omnichannel for Customer Service in a production environment, go to your Omnichannel for Customer Service provisioning page and install the latest version. If there are no upgrade available, contact Microsoft support.
+
+- If you use Omnichannel for Customer Service preview or trial version, contact Microsoft support.
 
 ## Closed conversations don't appear in the Closed work items stream and Closed conversations view
 
@@ -136,7 +143,7 @@ You can continue to use the third-party channel provider in the unified interfac
 While working on a session, after an agent creates a customer (contact/account) or case record using the quick create (+) option in the nav bar, it is not auto-linked to the conversation. As a workaround, the agent can perform an inline search for the newly created record and link it to the conversation.
 
 ## Authentication error for different agent credentials
-If an agent is signed in to Office 365 or Common Data Service through a different username in the browser (Internet Explorer or Edge) than the one used for USD sign-in, an authentication error is shown and the user is not allowed to sign in. As a workaround, the user should sign out from all other accounts on the browser and try signing back in.
+If an agent is signed in to Office 365 or Common Data Service through a different username in the browser (Internet Explorer or Edge) than the one used for USD sign in, an authentication error is shown and the user is not allowed to sign in. As a workaround, the user should sign out from all other accounts on the browser and try signing back in.
 
 ## Transfer to queue does not show a message for the initiating agent 
 When an agent initiates a transfer, the initiating agent becomes a consulting agent without any user interface message. However, the session tab name shows the **Consult** tag because the initiating agent is added to the same conversation as a consulting agent to enable smooth transition.

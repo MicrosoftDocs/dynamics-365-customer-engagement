@@ -1,5 +1,5 @@
 ---
-title: "Unified Service Desk Guide  Customer Enagagement | MicrosoftDocs"
+title: "Unified Service Desk Guide | MicrosoftDocs"
 description: "Unified Service Desk helps you configure call center agent applications that provide customer service agents with immediate and unified access to business critical customer information stored in your instance."
 ms.custom: dyn365-USD
 ms.date: 08/06/2018
@@ -78,6 +78,17 @@ search.app:
 <li><a href="admin/configure-client-diagnostic-logging-unified-service-desk.md" data-raw-source="[Configure client diagnostic logging](admin/configure-client-diagnostic-logging-unified-service-desk.md)">Configure client diagnostic logging</a></li>
 <li><a href="use-debugger-control-unified-service-desk.md" data-raw-source="[Use the Debugger control](use-debugger-control-unified-service-desk.md)">Use the Debugger control</a></li>
 <li><a href="debug-custom-code-unified-service-desk.md" data-raw-source="[Debug your custom code](debug-custom-code-unified-service-desk.md)">Debug your custom code</a></li>
+</td>
+</tr>
+
+<tr>
+<td>
+<h2>Related apps & framework</h2>
+
+<li><a href="https://docs.microsoft.com/dynamics365/customer-service/help-hub" data-raw-source="[Customer Service Hub Help](https://docs.microsoft.com/dynamics365/customer-service/help-hub)">Customer Service Hub Help</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide)">Omnichannel for Customer Service Guide</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)">Dynamics 365 Channel Integration Framework Guide</a></li>
+
 </td>
 </tr>
 </table>

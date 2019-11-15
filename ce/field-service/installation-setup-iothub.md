@@ -87,7 +87,15 @@ After you’ve installed all required Azure resources, click **Authorize** to co
   
 2. When the simulator page opens, click **Configuration**.  
   
-3. Enter the IoT hub host name and key. This information is in your Azure portal.  
+3. Enter the IoT hub host name and key. The host is simply the name of the IoT Hub resource in Azure portal. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the IoT deployment app](./media/cfs-iothub-thermostadt-simulator.png)
+
+ The key can be accessed by clicking on the IoT Hub resource and going to the shared access policies, then copying the primary key for **iothubowner** as seen in the following screenshot.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the IoT deployment app](./media/cfs-iothub-resource-azure-portal.png)
   
 4. Select the IoT hub in the **Resource Group**.  
   

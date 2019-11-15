@@ -1,6 +1,26 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/new-segment-designer.md",
+      "redirect_url": "segmentation-lists-subscriptions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/easy-subscription-lists.md",
+      "redirect_url": "set-up-subscription-center",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/email-layouts.md",
+      "redirect_url": "design-digital-content",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/segments-explorer.md",
+      "redirect_url": "segments-profile",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/admin/set-up-business-management-options.md",
       "redirect_url": "https://docs.microsoft.com/power-platform/admin/set-up-business-management-options",
       "redirect_document_id": "false"
@@ -8198,7 +8218,7 @@
     },
     {
       "source_path": "ce/admin/enable-use-comprehensive-auditing.md",
-      "redirect_url": "../customerengagement/on-premises/admin/enable-use-comprehensive-auditing",
+      "redirect_url": "https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing",
       "redirect_document_id": "false"
     },
     {
@@ -16640,7 +16660,381 @@
       "source_path": "ce/on-premises/use-deployment-manager-to-manage-the-deployment.md",
       "redirect_url": "../customerengagement/on-premises/deploy/use-deployment-manager-to-manage-the-deployment",
       "redirect_document_id": "false"
-
+    },
+    {
+      "source_path": "ce/omnichannel/try-chat-for-dynamics365.md",
+      "redirect_url": "try-channels",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/portals/provision-portal.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/create-portal",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/supported-browsers.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/supported-browser",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/connect-with-dynamics.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/admin/manage-auth-key",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/view-portal-error-log.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/clear-server-side-cache.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/admin/clear-server-side-cache",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/get-public-key.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/admin/get-public-key",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/reset-portal.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/admin/reset-portal",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/change-base-url.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/admin/change-base-url",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/migrate-portal-configuration.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/set-up-power-bi-integration.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/admin/set-up-power-bi-integration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/ip-address-restrict.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/admin/ip-address-restrict",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/portal-checker.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/admin/portal-checker",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/update-portal-domain.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/admin/update-portal-domain",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/enable-maintenance-mode.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/admin/enable-maintenance-mode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/enable-multiple-language-support.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/enable-multiple-language-support",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/configure-portal-authentication.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal-authentication",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/set-authentication-identity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/set-authentication-identity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/azure-ad-b2c.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/azure-ad-b2c",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/configure-oauth2-settings.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/configure-oauth2-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/configure-openid-settings.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/configure-openid-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/configure-ws-federation-settings.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/configure-ws-federation-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/configure-saml2-settings.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/configure-saml2-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/migrate-identity-providers.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/migrate-identity-providers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/search.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/search",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/improve-portal-search-faceted-search.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/improve-portal-search-faceted-search",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/search-file-attachment.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/search-file-attachment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/web-files.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/web-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/manage-web-links.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/manage-web-links",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/page-templates.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/page-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/customize-content-snippets.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/customize-content-snippets",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/add-redirect-url.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/add-redirect-url",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/place-child-nodes.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/place-child-nodes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/configure-site-settings.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/configure-site-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/behavior-format-date-time-field.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/behavior-format-date-time-field",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/add-chart.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/add-chart",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/entity-forms-custom-logic.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/entity-forms",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/add-geolocation.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/add-geolocation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/add-webpage-render-list-records.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/entity-lists",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/web-form-properties.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/web-form-properties",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/web-form-steps.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/web-form-steps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/load-form-step.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/load-form-step",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/add-redirect-step.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/add-redirect-step",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/add-conditional-step.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/add-conditional-step",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/add-custom-javascript.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/add-custom-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/configure-web-form-metadata.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/configure-web-form-subgrid.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-subgrid",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/configure-contacts.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/invite-contacts.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/create-web-roles.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/configure-notes.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/enable-azure-storage.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/enable-azure-storage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/add-web-resource.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/add-web-resource",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/manage-sharepoint-documents.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/manage-sharepoint-documents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/custom-templates-dynamic-content.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/store-content-web-templates.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/store-content-web-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/liquid-operators.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-operators",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/liquid-types.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/liquid-conditional-operators.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-conditional-operators",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/liquid-objects.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-objects",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/liquid-tags.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-tags",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/control-flow-tags.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/control-flow-tags",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/iteration-tags.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/iteration-tags",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/variable-tags.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/variable-tags",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/template-tags.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/template-tags",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/dynamics-entity-tags.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/portals-entity-tags",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/liquid-filters.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-filters",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/create-advanced-templates.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/create-custom-template.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/create-custom-template",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/hybrid-navigation-render-page-hierachy.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/hybrid-navigation-render-page-hierachy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/render-entity-list-current-page.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/render-entity-list-current-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/render-rss-custom-page-template.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/render-rss-custom-page-template",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/render-site-header-primary-navigation.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/render-site-header-primary-navigation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/oauth-implicit-grant-flow.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/oauth-implicit-grant-flow",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/add-powerbi-report.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/admin/add-powerbi-report",
+      "redirect_document_id": false
     }
   ]
 }

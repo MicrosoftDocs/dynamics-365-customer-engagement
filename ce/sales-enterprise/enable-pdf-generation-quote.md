@@ -1,5 +1,5 @@
 ---
-title: "Enable generation of PDF from sales records (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Enable or disable generation of PDF from sales records (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Enable your users to create and share professional-looking PDF documents with customers."
 keywords: "Quote, proposal, create PDF, email PDF, PDF, enable"
 ms.date: 11/15/2019

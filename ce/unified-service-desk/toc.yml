@@ -130,6 +130,8 @@
       href: admin/download-migration-assistant.md      
     - name: Migration steps
       href: admin/migration-steps-web-client-unified-interface-configuration.md
+    - name: Post-requisites steps
+      href: admin/test-migration.md
   - name: Migrate Unified Service Desk configuration to another Customer Engagement instance 
     items:    
     - name: Migration of a Unified Service Desk configuration
@@ -579,3 +581,10 @@
   href: admin/accessibility-unified-service-desk-microsoft-dynamics-365.md
 - name: Known issues and limitations of Unified Service Desk
   href: release-notes.md
+
+- name: Dynamics 365 Customer Service
+  href: https://docs.microsoft.com/dynamics365/customer-service/help-hub
+- name: Omnichannel for Customer Service Guide
+  href: https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide
+- name: Dynamics 365 Channel Integration Framework Guide
+  href: https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework

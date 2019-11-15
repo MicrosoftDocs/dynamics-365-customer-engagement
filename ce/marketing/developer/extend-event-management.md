@@ -10,7 +10,7 @@ ms.technology:
   - marketing
 ms.topic: get-started-article
 ms.assetid: 2b1cdbc5-0815-47b1-8a4e-0291cde6f40c
-author: NavaKiran 
+author: Nkrb
 ms.author: nabuthuk
 manager: kvivek
 ---

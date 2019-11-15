@@ -28,7 +28,7 @@ The contact center analytics need operational and conversational data to provide
 
 - **CRM transactional data**: The data about the customers, their cases, their journey and all round relationship with the organizations. This is stored in Common Data Services 
 - **Communication Data**: The data about the interactions (intended, ongoing and completed) with known and unknown customers 
-- **Agent Behaviour Data**: The data about the behaviour of agents before, during and after the interactions. 
+- **Agent Behavior Data**: The data about the behavior of agents before, during and after the interactions. 
 
 Channel Analytics in the Dynamics 365 Channel Integration Framework, provides a model to build a consistent, seamless, and unified experience when it comes to channel related analytics and insights. 
 
@@ -40,7 +40,7 @@ Without the channel analytics model, if you want to build a contact center analy
 
 ## How does Channel Analytics help?
 
-- It generates instrumentation for agent behaviour on the Dynamics 365. 
+- It generates instrumentation for agent behavior on the Dynamics 365. 
 - It provides APIs to ingest the conversational data into the common data services. 
 - It standardizes schema for how the aforementioned analytical data will be stored  
 - It defines mechanism to correlate the communication data from multiple providers, CRM transactional data and agent behavior data. 

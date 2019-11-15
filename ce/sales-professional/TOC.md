@@ -1,30 +1,34 @@
-# [Dynamics 365 Sales Professional](help-hub.md)
+# Dynamics 365 Sales Professional
+## [Help resources for Dynamics 365 Sales Professional](help-hub.md)
 
 ## [What's new](whats-new.md)
 ## Get started
 ### [Overview](sales-professional-overview.md)
 ### [Learn the basics](learn-basics-sales-professional.md)
-### [Use lookup fields](use-lookup-fields-forms.md)
-### [Work with views](work-with-views.md)
+### [Use lookup fields on forms](use-lookup-fields-forms.md)
+### [Work with views (lists)](work-with-views.md)
 ### [Manager your customers](manage-accounts-contacts.md)
 ### [Manage tasks, appointments, email, or phone calls](manage-activities.md)
 
 ## User guide
 ### [Help resources for sales people](user-guide.md)
 ### [Develop sales from lead to cash](develop-sales-lead-to-cash-sales-professional.md)
-#### [Manage leads](manage-leads-sales-professional.md)
+#### [Create and manage leads](manage-leads-sales-professional.md)
 #### [Manage opportunities](manage-opportunities-sales-professional.md)
+#### [Add products to an opportunity](add-products-opportunity-sp.md)
 ### [Understand sales transactions](understanding-sales-transactions-sales-professional.md)
-#### [Create quotes](create-quotes-sales-professional.md)
-#### [Create invoices](create-invoices.md)
+#### [Create and manage quotes](create-quotes-sales-professional.md)
+#### [Create or edit orders]
+#### [Create and manage invoices](create-invoices.md)
+#### [Add products to a quote, order, or invoice](add-product-quote-order-invoice-sp.md)
 ### Set up a product catalog
 #### [Create products](create-products.md)
-#### [Create a price list](create-price-list.md)
+#### [Create price lists](create-price-list.md)
 #### [Create a unit group and add units](create-unit-group-add-units.md)
 ### Improve productivity
 #### [Gain insights with dashboards](gain-insights-dashboards-sales-professional.md)
-#### [Assign records](assign-records-sales-professional.md)
-#### [Use document templates](use-document-templates-sales-professional.md)
+#### [Assign records to a user or team](assign-records-sales-professional.md)
+#### [Use document templates to create standardized documents](use-document-templates-sales-professional.md)
 #### [Create a PDF document](create-quote-pdf-sales-professional.md)
 
 ## Administrator and sales manager guide
@@ -32,26 +36,35 @@
 ### [Provision your Dynamics 365 Sales Professional environment](provision-sales-professional-instance.md)
 ### [Overview of admin settings](admin-settings-overview.md)
 ### Standard settings
-#### [Connect with SharePoint](connect-with-sharepoint.md)
+#### [Integrate with SharePoint](connect-with-sharepoint.md)
 #### [Import data](import-data.md)
-#### [Install sample data](install-sample-data.md)
-#### [Manage users](manage-users.md)
-#### [Set up email](configure-email.md)
+#### [Add or remove sample data](install-sample-data.md)
+#### [Add or manage users](manage-users.md)
+#### [Set up email by integrating with Exchange](configure-email.md)
 
 ### Advanced settings
-#### [Set up branding and themeing](change-color-scheme-logo.md)
-#### [Manage teams](manage-teams.md)
-#### [Manage Excel templates](manage-excel-templates.md)
-#### [Manage Word templates](manage-word-templates.md)
-#### [Automatic generation of quotes or invoices](enable-automatic-generation-quotes-invoices.md)
-#### [Export data](export-data.md)
-#### [Enable PDF generation from sales records](enable-pdf-generation-quote-sales-professional.md)
+#### [Set up branding and theming](change-color-scheme-logo.md)
+#### [Add or manage teams](manage-teams.md)
+#### [Create and manage Excel templates](manage-excel-templates.md)
+#### [Create and manage Word templates](manage-word-templates.md)
+#### [Enable automatic generation of quotes and invoices](enable-automatic-generation-quotes-invoices.md)
+#### [Export data or template](export-data.md)
+#### [Enable or disable PDF generation from sales records](enable-pdf-generation-quote-sales-professional.md)
+### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization-sales-professional.md)
+### [Make price list optional](make-price-list-optional-sp.md)
+### [Define lead qualification experience](define-lead-qualification-experience-sp.md)
 
 ## Customizer guide
 ### [Customize forms](customize-forms.md)
 ### [Customize views](customize-views.md)
 ### [Customize business process flows](customize-business-process-flows.md)
+### [Customize the Opportunity Close form](customize-opportunity-close-experience-sales-professional.md)
 ### [Customize the Dynamics 365 Sales Professional app](manage-app.md)
+
+## Integrations
+### [Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md)
+### [Microsoft Teams integration](../teams-integration/teams-integration.md)
+### [Integrate sample softphone with Dynamics 365 Sales](sample-softphone-integration-sp.md)
 
 # Dynamics 365 Sales (Enterprise)
 ## [Help resources for Dynamics 365 Sales (Enterprise)](../sales-enterprise/help-hub.md)

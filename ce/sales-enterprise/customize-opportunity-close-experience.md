@@ -20,6 +20,9 @@ Enable sales managers to draw key insights based on the information the sales re
 
 System administrators or customizers can use the **Opportunity Close** quick create form to add custom fields, so that sales representatives can capture important details about why an opportunity was closed. Sales managers can use this data to know which products are doing well and develop a better strategy.
 
+> [!NOTE]
+> The capability to customize the **Opportunity Close** form is supported only in the sales app built on the Unified Interface.
+
 ## What customizations are possible?
 
 -   Customization of Opportunity Close entity to add custom fields.   
@@ -83,8 +86,8 @@ After you’ve created the fields that are required by your organization, add th
 
 5.  Select **Save and Close**.
 
-      > [!IMPORTANT]
-      > The Opportunity entity has the following statuses, which aren’t customizable: Open, Won, Lost. However, you can add multiple status reasons corresponding to the Won and Lost statuses. If you add custom values to a Status Reason field against a state (Won/Lost) in the Opportunity entity, you must add the same custom value to the OpporunityStatusCode field (attribute) on the Opportunity Close entity manually. This displays the correct customized values with right defaults preselected for each opportunity Win and Loss state.
+    > [!IMPORTANT]
+    > The Opportunity entity has the following statuses, which aren’t customizable: Open, Won, Lost. However, you can add multiple status reasons corresponding to the Won and Lost statuses. If you add custom values to a Status Reason field against a state (Won/Lost) in the Opportunity entity, you must add the same custom value to the OpportunityStatusCode field (attribute) on the Opportunity Close entity manually. This displays the correct customized values with right defaults preselected for each opportunity Win and Loss state.
 
 6.  Open the **Information** form of type **Main**, and make the same changes that you did in Step 4.
 

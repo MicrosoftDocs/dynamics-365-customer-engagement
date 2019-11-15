@@ -23,7 +23,6 @@ The capability to create PDF documents is available on the following entities: A
 
 Your system administrator can choose the entities on which PDF generation is enabled. 
 
-
 > [!IMPORTANT]
 > If you do not see the **Create PDF** and **Email as PDF** options on one of the supported entity records, it might be because your system administrator hasn't enabled the PDF-generation capability for that entity. In this case, check with your system administrator.
 
