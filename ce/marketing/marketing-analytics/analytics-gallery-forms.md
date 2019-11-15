@@ -1,6 +1,6 @@
 ---
-title: "marketing-form submission report for Dynamics 365 Marketing | Microsoft Docs"
-description: "See all the details of your marketing-form submissions in one report, and slice and dice over timeline, related marketing messaging and automation."
+title: "marketing form submission report for Dynamics 365 Marketing | Microsoft Docs"
+description: "See all the details of your marketing form submissions in one report, and slice and dice over timeline, related marketing messaging and automation."
 ms.date: 11/11/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -20,7 +20,7 @@ search.app:
   - D365Mktg
 ---
 
-# Marketing-form submission report
+# Marketing form submission report
 
 This marketing analytical report provides insights into the submission stream of your marketing forms. You'll be able to see all the details of your marketing-form submissions in one report, and then slice and dice over the timeline, related marketing messaging, and automation. 
 

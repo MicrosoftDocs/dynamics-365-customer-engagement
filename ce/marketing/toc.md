@@ -186,9 +186,9 @@
 ### Analyze marketing results
 #### [Analyze results to gain insights](insights.md)
 #### [Insights glossary](insights-glossary.md)
-#### [Prepare for analytic reporting with Power BI](custom-analytics.md)
+#### [Preview: Prepare for analytic reporting with Power BI](custom-analytics.md)
 
-#### Power BI templates and sample reports gallery
+#### Power BI report and template gallery
 ##### [Download and use templates for Power BI](marketing-analytics/analytics-gallery-start.md)
 ##### [Gallery: Analytic reporting framework](marketing-analytics/analytics-gallery-framework.md)
 ##### [Gallery: Leaderboard report for journeys and email](marketing-analytics/analytics-gallery-leaders.md)
@@ -196,7 +196,7 @@
 ##### [Gallery: Segmentation usage report](marketing-analytics/analytics-gallery-segments.md)
 ##### [Gallery: Marketing program effectiveness analysis](marketing-analytics/analytics-gallery-program.md)
 ##### [Gallery: Marketing reach analysis](marketing-analytics/analytics-gallery-reach.md)
-##### [Gallery: Marketing form-submission report](marketing-analytics/analytics-gallery-forms.md)
+##### [Gallery: Marketing form submission report](marketing-analytics/analytics-gallery-forms.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)
 ### [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)
