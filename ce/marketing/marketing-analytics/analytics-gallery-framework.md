@@ -91,8 +91,6 @@ let
 in
   Source
 ```
-<!-- kfm: The above looks like a code sample, so I formatted it as such rather than as a tip.  Please confirm this use of syntax and line breaks. -->
-
 Often you would add more operations to include only selected attributes and perform some formatting if needed.
 
 Similarly, you can add queries to load interactions into your analytics report&mdash;also with one line of M-code.
@@ -120,6 +118,6 @@ Each template and sample report contains the following common pages (which help 
     ![Interaction data file generation leaderboard](media/Framework/InteractionFilesLeaderboard.png)
 
 - Two additional pages, **"[CDS-T entities]"** and **"[Interaction types]"**, provide a detailed lookup for any profile type and the full interaction data model available at your disposal for analytics reporting. You'll also find information about which interactions are enable for loading in your report configuration.
-Please note that not all interaction types are supported by the data-publishing mechanic. <!-- kfm: this is unfinished, so I hid it for now. Did you want to add a link here?  "Find more details here *(TBD)*." -->
+Please note that not all interaction types are supported by the data-publishing mechanic.
 
 ***Happy analytic reporting with Dynamics 365 Marketing!***
