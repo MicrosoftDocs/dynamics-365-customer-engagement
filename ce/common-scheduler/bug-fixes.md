@@ -33,19 +33,19 @@ In this article, you'll find an ongoing list of bug fixes for Universal Resource
 
 ## Date, Version #
 
-- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
-- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
-- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
-- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
-- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
-- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix. 
+- This is an example bug fix.
+- This is an example bug fix.
+- This is an example bug fix.
+- This is an example bug fix.
+- This is an example bug fix.
 
 ## Date, Version #
 
-- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
-- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
-- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
-- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
-- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
-- This is an example bug fix. This is an example bug fix. This is an example bug fix. This is an example bug fix.
+- This is an example bug fix.
+- This is an example bug fix.
+- This is an example bug fix.
+- This is an example bug fix.
+- This is an example bug fix.
+- This is an example bug fix.
 
