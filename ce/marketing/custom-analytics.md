@@ -1,13 +1,11 @@
 ---
-title: "User Power BI to create custom analytics (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Prepare for analytic reporting with Power BI (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to set up data sources in Dynamics 365 Marketing to make them available to Power BI, and how to download and connect a Power BI template to them"
-keywords: tutorial; templates; email; customer journey; marketing page; page
-ms.date: 06/07/2019
+ms.date: 11/13/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started-article
-ms.assetid: 4479aca4-9f7f-40fa-9b78-515f98e47d26
+ms.topic: article
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
@@ -22,7 +20,7 @@ search.app:
   - D365Mktg
 ---
 
-# Preview: Create custom analytics with Power BI
+# Prepare for analytic reporting with Power BI
 
 Dynamics 365 Marketing provides a wide selection of built-in analytics throughout the application. But you can also create your own custom analytics and reports from your Dynamics 365 Marketing data by using Power BI. We provide endpoints that you can use to connect Power BI to Dynamics 365 Marketing, plus a downloadable Power BI template that you can open in Power BI Desktop, connect to your Dynamics 365 data sources and then customize as needed. When you're done setting it up, you can publish and share your Power BI report using the standard Power BI online tools.
 
@@ -87,6 +85,8 @@ You'll be able to connect directly to your Dynamics 365 Marketing  database from
 1. Save your settings.
 
 1. After a short time, Dynamics 365 Marketing will begin to export interaction data as individual files to your blob storage container, where you'll be able to pick it up using Power BI. You'll also be able to see these files and an associated JSON file in the Azure Storage Explorer.
+
+<!-- kfm: the following section needs to be combined with the new template gallery info. Either move this there, or remove the duplicate information from there. Fix these links to match those too. -->
 
 ## Get the Power BI template and connect to your Marketing data
 
