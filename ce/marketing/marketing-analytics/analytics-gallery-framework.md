@@ -21,14 +21,9 @@ search.app:
   - D365Mktg
 ---
 
-# Marketing analytic reporting framework
+# The marketing analytic reporting framework (generic template)
 
-> [!TIP]
-> Designed for the data analyst who is fluent in Power BI report building, the marketing analytic reporting framework provides an important foundation.
-
-Perhaps the most important foundation for our marketing reporting capabilities is the marketing analytic reporting framework of M-Code, queries, functions, data connectors, and parameter processing that is the core of every marketing analytics report example.
-
-![Hero Image for the Framework](media/Framework-Hero1.png)
+Designed for the data analyst who is fluent in Power BI report building, the marketing analytic reporting framework provides an important foundation that includes the M-Code, queries, functions, data connectors, and parameter processing that is the core of every marketing analytics report example.
 
 Use the following links to download a template for running the report on your own organization and/or a sample report filled with sample data.
 
@@ -36,7 +31,7 @@ Use the following links to download a template for running the report on your ow
 |---------|---------|
 |[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbix)|
 
-You can find more downloads in the [marketing analytics reporting gallery](MarketingAnalyticReporting-Gallery.md).
+You can find more downloads in the [marketing analytics reporting gallery](analytics-gallery-start.md#gallery).
 
 ## Building custom Marketing Analytics with Power BI
 
@@ -47,7 +42,7 @@ The file repository provides a set of Power BI files (.pbx) and respective templ
 > [!TIP]
 > Connect to your data with ease!
 
-When a template file is opened, the framework presents a connection dialog for configuring and publishing marketing analytics.
+When a template file is opened, the framework presents a [connection dialog](analytics-gallery-start.md#connect-dialog) for configuring and publishing marketing analytics.
 
 ![Parameter Dialog](media/Framework/Framework-ParameterDialog.png)
 

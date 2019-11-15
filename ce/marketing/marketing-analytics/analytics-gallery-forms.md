@@ -1,6 +1,6 @@
 ---
-title: "marketing-form submission report for Dynamics 365 Marketing | Microsoft Docs"
-description: "See all the details of your marketing-form submissions in one report, and slice and dice over timeline, related marketing messaging and automation."
+title: "marketing form submission report for Dynamics 365 Marketing | Microsoft Docs"
+description: "See all the details of your marketing form submissions in one report, and slice and dice over timeline, related marketing messaging and automation."
 ms.date: 11/11/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -20,23 +20,17 @@ search.app:
   - D365Mktg
 ---
 
-# Marketing-form submission report
+# Marketing form submission report
 
-> [!TIP]
-> See all the details of your marketing-form submissions in one report. Then slice and dice over timeline, related marketing messaging, and automation.
-
-![Form Submission Timeline](media/MarketingForm/SubmissionTimeline.png)
-
-This marketing analytical report provides insights into the submission stream of your marketing forms.
+This marketing analytical report provides insights into the submission stream of your marketing forms. You'll be able to see all the details of your marketing-form submissions in one report, and then slice and dice over the timeline, related marketing messaging, and automation. 
 
 Use the following links to download a template for running the report on your own organization and/or a sample report filled with sample data.
 
 |Download report template  |Download sample report  |
 |---------|---------|
-
 [![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Form%20Submissions.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Form%20Submissions.pbix)|
 
-You can find more downloads in the [marketing analytics reporting gallery](MarketingAnalyticReporting-Gallery.md).
+You can find more downloads in the [marketing analytics reporting gallery](analytics-gallery-start.md#gallery).
 
 This analytics report includes the following report pages:
 
@@ -47,14 +41,14 @@ This analytics report includes the following report pages:
 - [A report that covers all submitted values](#submission-values) across all forms
 - [A leaderboard report](#leaderboard) for various types of conversions based on your marketing forms
 
+![Form Submission Timeline](media/MarketingForm/SubmissionTimeline.png)
+
 <a name="common-pages"></a>
 
 ## Common Pages
 
-> [!TIP]
-> Each template and sample report contains a set of common pages that help you explain your report to your audience.
-
-To learn more about the common pages, see [Common report pages](MarketingAnalyticReporting-Framework.md#common-report-pages).
+Each template and sample report contains a set of common pages that help you explain your report to your audience. 
+To learn more about the common pages, see [Common report pages](analytics-gallery-framework.md#common-report-pages).
 
 <a name="home-page"></a>
 

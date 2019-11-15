@@ -20,13 +20,15 @@ search.app:
   - D365Mktg
 ---
 
-# Prepare for analytic reporting with Power BI
+# Preview: Prepare for analytic reporting with Power BI
 
 Dynamics 365 Marketing provides a wide selection of built-in analytics throughout the application. But you can also create your own custom analytics and reports from your Dynamics 365 Marketing data by using Power BI. We provide endpoints that you can use to connect Power BI to Dynamics 365 Marketing, plus a downloadable Power BI template that you can open in Power BI Desktop, connect to your Dynamics 365 data sources and then customize as needed. When you're done setting it up, you can publish and share your Power BI report using the standard Power BI online tools.
 
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
 > [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
+
+<a name="data-sources"></a>
 
 ## Data sources for custom analytics
 
@@ -37,6 +39,12 @@ To create custom analytics, you can connect two different data sources, each of 
 
 You'll be able to connect directly to your Dynamics 365 Marketing  database from Power BI to fetch your profile data, but to access interaction data you'll need to set up Azure Blob Storage, configure Dynamics 365 Marketing to save interaction data there, and then connect Power BI to your blob storage.
 
+Watch [the following video](https://www.youtube.com/watch?v=pBrB1BohUrE)
+for a quick overview of all the data that is available for your marketing analytical reports.<br/><br/>
+
+<div class="embeddedvideo"><iframe width="560" height="315" src="https://www.youtube.com/embed/pBrB1BohUrE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<a name="connect-blob"></a>
 
 ## Set up Azure Blob storage and connect it to Marketing
 
@@ -88,30 +96,10 @@ You'll be able to connect directly to your Dynamics 365 Marketing  database from
 
 <!-- kfm: the following section needs to be combined with the new template gallery info. Either move this there, or remove the duplicate information from there. Fix these links to match those too. -->
 
-## Get the Power BI template and connect to your Marketing data
+## Get Power BI templates and connect them your Marketing data
 
-Once your Azure Blob storage is set up and connected to Dynamics 365 Marketing, you're ready to start working in Power BI to connect to your data sources and design your analytics.
+Once your Azure Blob storage is set up and connected to Dynamics 365 Marketing, you're ready to start working in Power BI to connect to your data sources and design your analytics. Do help get you started, we provide a [gallery of pre-built templates and sample reports](marketing-analytics/analytics-gallery-start.md) that you can download, explore, customize, and connect to your Dynamics 365 Marketing instance.
 
-1. If you haven't already, then [download the templates from GitHub](https://github.com/Microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/releases). The following templates are provided:
+More information: [Download and use marketing analytics templates and sample reports for Power BI](marketing-analytics/analytics-gallery-start.md)
 
-    - **Dynamics 365 Marketing template for Power BI**: This template is prepared to connect to your Dynamics 365 Marketing data sources, but doesn't include any pre-built analyzers. This is a good place to start when developing custom solutions from scratch.
-    - **Email marketing analyzer for Power BI**: This template includes a feature-rich email marketing analyzer that is ready to connect to your Dynamics 365 Marketing data sources. It provides a comprehensive report of your email marketing results, including detailed analytics, charts, and views spread across multiple report pages. You can use this template as-is, or as inspiration for designing your own reports.
-
-1. Open your selected template in Power BI Desktop. If you don't already have Power BI Desktop, you can download it for free from [https://powerbi.microsoft.com/desktop/](https://powerbi.microsoft.com/desktop/).
-
-1. The first time you open the Power BI template you'll be asked to specify connection strings and credentials to connect to both Azure Blob storage and to Dynamics 365 Marketing.
-
-    ![The Power BI email marketing analyzer](media/custom-analytics-pbi-connect.png "The Power BI email marketing analyzer")
-
-    - To connect to the Dynamics 365 database, use the same user credentials that you use to sign into Marketing.
-    - You can find connection details for your Azure Blob storage by using the Storage Explorer app.
-    - Specify how many days of interaction data that you want to load (counting back from today).
-
-1. Select **Load** to load the template or analyzer into Power BI.
-
-    > [!NOTE]
-    > If you see loading errors the first time you open a template or analyzer, then open the query editor, select a query that is highlighted with a warning icon and then select **Retry** on the notification message bar. Repeat for each query that shows a warning. After all queries have loaded, select **Close & Apply** and the refresh should work from now on.
-
-The email marketing analyzer provides many views, charts, and analytics that marketers should find useful. Use the standard features of the Power BI Desktop to explore the data sources and analytical displays, and to customize them as required.
-
-![The Power BI email marketing analyzer](media/custom-analytics-pbi-template.png "The Power BI email marketing analyzer")
+![A collage of various Power BI reports](media/pbi-gallery-overview.png)

@@ -22,10 +22,7 @@ search.app:
 
 # Segmentation usage report
 
-> [!TIP]
-> With the marketing segmentation usage report, you can analyze how segments are used across your marketing activities.
-
-The marketing segment usage report shows which segments are used in which marketing activities and helps you to identify orphaned segments.
+With the marketing segmentation usage report, you can analyze how segments are used across your marketing activities. The marketing segment usage report shows which segments are used in which marketing activities and helps you to identify orphaned segments.
 
 Use the following links to download a template for running the report on your own organization and/or a sample report filled with sample data.
 
@@ -33,7 +30,7 @@ Use the following links to download a template for running the report on your ow
 |---------|---------|
 [![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Segmentation.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Segmentation.pbix)|
 
-You can find more downloads in the [marketing analytics reporting gallery](MarketingAnalyticReporting-Gallery.md).
+You can find more downloads in the [marketing analytics reporting gallery](analytics-gallery-start.md#gallery).
 
 ## Leaderboard and segmentation usage report
 
