@@ -31,13 +31,7 @@ productDirectory:
       imageSrc: /dynamics365/images/CustomerServiceInsights_color.svg
       links:
         - url: https://docs.microsoft.com/dynamics365/ai/customer-service-insights/overview
-          text: Documentation
-    # Card
-    - title: Dynamics 365 Virtual Agent for Customer Service
-      imageSrc: /dynamics365/images/VirtualAgent_color.svg
-      links:
-        - url: https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/overview
-          text: Documentation
+          text: Documentation    
 
 additionalContent:
   # Supports up to 3 sections
