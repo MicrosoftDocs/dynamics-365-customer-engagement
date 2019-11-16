@@ -268,7 +268,7 @@ If your organization has turned on both search options (Relevance and Categorize
 2. At the top select the drop-down to switch between **Relevance Search** or **Categorized Search**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Switch beteen search type](media/switchsearch.png "Switch beteen search type")
+    > ![Switch between search type](media/switchsearch.png "Switch between search type")
 
 ### Start a search  
   
