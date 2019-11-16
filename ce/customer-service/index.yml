@@ -22,7 +22,7 @@ productDirectory:
       # imageSrc should be square in ratio with no whitespace
       imageSrc: /dynamics365/images/Customer_Service_color.svg
       links:
-        - url: help-hub
+        - url: /dynamics365/customer-service/help-hub
           text: Documentation
         - url: https://docs.microsoft.com/learn/browse/?products=dynamics-customer-service
           text: Learn Dynamics 365 Customer Service
