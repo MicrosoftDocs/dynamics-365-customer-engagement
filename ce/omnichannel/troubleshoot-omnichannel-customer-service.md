@@ -131,7 +131,7 @@ There is an error and due to which Entity Records Distribution Flow was not trig
 
 Check if the flow has triggered or if there was any error in the trigger of the Flow. You can get this information from the Power Automate home page or Entity Records Distribution Flow's run history.
 
-To work around the issue, reset the flow. To learn more, see [Unable to create new entity record channel](#unable-to-create-new-entity-record-channel).
+To work around the issue, reset the flow. To learn more, see [Reset the flow](#resolution-2).
 
 If resetting the flow doesn't resolve the issue, contact Microsoft support.
 
