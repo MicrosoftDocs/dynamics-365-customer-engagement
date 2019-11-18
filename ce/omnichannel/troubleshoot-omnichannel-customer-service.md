@@ -28,7 +28,7 @@ One of issues is that **Entity Records Distribution Flow** connection is not aut
 **Unable to complete the operation due to an error. Try again later. If the issue persists, contact Microsoft support.**
 
    > [!div class=mx-imgBorder]
-   > ![Business Process Error](../media/business-process-error1.PNG "Business Process Error")
+   > ![Business Process Error](media/business-process-error1.PNG "Business Process Error")
 
 ### Resolution:
 
@@ -43,7 +43,7 @@ To resolve the issue, perform steps 1 through 9 in the [Update entity records wo
 **The operation failed due to an incorrect configuration in Entity Records Distribution Flow. Ensure the Entity Records Distribution Flow isn't deleted or renamed.**.
 
    > [!div class=mx-imgBorder]
-   > ![Business Process Error](../media/business-process-error2.PNG "Business Process Error")
+   > ![Business Process Error](media/business-process-error2.PNG "Business Process Error")
 
 In Power Automate, you might see either **Cases Work Distribution Flow** or **Entity Records Distribution Flow**.
 
