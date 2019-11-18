@@ -7,10 +7,9 @@ ms.date: 07/08/2019
 ms.author: loreleishannonmsft
 ---
 
-<div id="main" class="v2">
-<div class="container">
-<h1>Marketing Learning Catalog</h1>
-<p> Find the right online training, in person workshops, and events for your role in Customer Service for Dynamics 365.</p>
+
+# Marketing Learning Catalog
+Find the right online training, in person workshops, and events for your role in Customer Service for Dynamics 365.
 
 
 
