@@ -67,7 +67,7 @@ To get started with customizing the demo event website, you need to follow these
    > You need to run the command in the same directory where the `package.json` file is located.
 
 6. See [public API documentation](https://go.microsoft.com/fwlink/?linkid=2042224) to interact with the backend services.
-7. Dynamics 365 Marketing instance with Event Management solution and Portals solution installed. To install, see [Dynamics 365 Marketing app](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup)
+7. Dynamics 365 Marketing instance with Event Management solution and Portals solution installed. To install, see [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup)
 
 ## Download sample event website
 

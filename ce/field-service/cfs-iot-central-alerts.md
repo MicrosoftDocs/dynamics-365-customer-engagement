@@ -26,7 +26,7 @@ At the end of this step in the tutorial, you'll be able to receive and see alert
 
 ## Goal
 
-Connect Azure IoT Central to Connected Field Service by configuring the "Create CFS alerts from IoT Central" template in Microsoft Flow.
+Connect Azure IoT Central to Connected Field Service by configuring the "Create CFS alerts from IoT Central" template in Power Automate.
 
 ## Steps
 
@@ -52,17 +52,17 @@ Connect Azure IoT Central to Connected Field Service by configuring the "Create 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the rules tab in IoT Central](media/iot-central-alerts-4.png)
 
-5. Then, under **Actions,** select **Microsoft Flow** from the Select Action options. This will take you to another working environment in the Microsoft Flow application. This is where you will set up your integrations.
+5. Then, under **Actions,** select **Microsoft Flow** from the Select Action options. This will take you to another working environment in the Power Automate application. This is where you will set up your integrations.
 
-    a. **Note for Azure IoT Central trial users**: In order to use Microsoft Flow from Azure IoT Central, you must be using the pay-as-you-go form of IoT Central. Trial users can work around this by heading directly to [Microsoft Flow](https://flow.microsoft.com/templates/) to configure steps 7 and 8 in this tutorial. Then in Azure IoT Central, the Flow will be all ready to go. 
+    a. **Note for Azure IoT Central trial users**: In order to use Power Automate from Azure IoT Central, you must be using the pay-as-you-go form of IoT Central. Trial users can work around this by heading directly to [Power Automate](https://flow.microsoft.com/templates/) to configure steps 7 and 8 in this tutorial. Then in Azure IoT Central, the Flow will be all ready to go. 
     
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Microsoft Flow as an Action option in IoT Central](media/iot-central-alerts-5.png)
+> ![Screenshot of Power Automate as an Action option in IoT Central](media/iot-central-alerts-5.png)
 
-6. You'll be taken to the Microsoft Flow template page for "Create CFS alerts from IoT Central." Select "Use this template." (if you have trouble finding these templates, head to the [Microsoft  Flow Templates page](https://flow.microsoft.com/templates/) and search "CFS")
+6. You'll be taken to the Power Automate template page for "Create CFS alerts from IoT Central." Select "Use this template." (if you have trouble finding these templates, head to the [Power Automate Templates page](https://flow.microsoft.com/templates/) and search "CFS")
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Microsoft Flow template page](media/iot-central-alerts-6.png)
+> ![Screenshot of the Power Automate template page](media/iot-central-alerts-6.png)
 
 7. You'll be prompted now to sign in to both IoT Central and Dynamics accounts. Select your accounts from each and then **Continue** to progress.
 

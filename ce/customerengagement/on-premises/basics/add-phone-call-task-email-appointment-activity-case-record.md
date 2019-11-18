@@ -1,7 +1,7 @@
 ---
 title: "Add a phone call, task, email, or appointment activity to a record (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/29/2018
+ms.date: 10/31/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -82,6 +82,9 @@ All activities that you add from within a record appear in the **Activities** ar
   
 ## Add an appointment  
  To add an appointment activity to a record, you must first save the record you are adding the activity to.  
+ 
+> [!NOTE]
+> Recurring appointments are not supported on the Dynamics 365 App for Outlook, Dynamics 365 for phones app, and when you run the model-driven apps web client on your mobile phone web browser. 
   
 1. Open the record you want to add the activity to.  
   

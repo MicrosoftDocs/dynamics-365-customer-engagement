@@ -86,11 +86,12 @@
 ## [Push notifications](mobile-push-notifications.md)
 ## [Geofencing](geofencing.md)
 ## FAQs + troubleshooting
-### [How do I extend my mobile configuration tool trial?](activate-fs-mobile-app-license.md)
-### [What is the latest version of the mobile app and configuration tool?](mobile-faq-latest-version.md)
-### [My mobile app will not sync to the server / crashes immediately](mobile-faq-sync-crash.md)
-### [Why can't I see my bookings when logged into the app?](mobile-faq-bookings-not-showing.md)
-### [Bookings not scheduled to me show up when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
+### [Frequently asked questions](mobile-faq.md)
+### Troubleshooting topics
+#### [What is the latest version of the mobile app and configuration tool?](mobile-faq-latest-version.md)
+#### [Mobile app won't sync to server or crashes immediately](mobile-faq-sync-crash.md)
+#### [Bookings don't appear when logged into the app?](mobile-faq-bookings-not-showing.md)
+#### [Bookings not scheduled to me show up when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
 ## [Get help](mobile-get-help.md) 
 
 
@@ -129,10 +130,11 @@
 ## [Set up a proof of concept](rso-proof-concept.md)
 ## Running RSO
 ### [Publishing + monitoring](rso-schedule-optimization.md)
+### [Overnight scheduling](rso-overnight-scheduling.md)
 ### [Single resource optimization](single-resource-optimization.md)
 ### [Booking lock options](booking-lock-options.md)
 ### [Resolving booking conflicts](rso-handling-resolving-booking-conflicts.md)
-## [FAQ and troubleshooting tips](rso-faq.md)
+## [FAQs + troubleshooting](rso-faq.md)
 
 # Connected Field Service (IoT) add-in
 ## [Overview](connected-field-service.md)
@@ -158,5 +160,6 @@
 # Integrations
 ## [Dynamics 365 Remote Assist and HoloLens](remote-assist-hololens.md)
 ## [Dynamics 365 Guides on HoloLens](mixed-reality-guides-integration.md)
-# [Troubleshoot](troubleshoot-field-service-solution-health.md)
+# [Troubleshoot with Solution Health Hub](troubleshoot-field-service-solution-health.md)
 # [General FAQs](troubleshoot-faq.md)
+

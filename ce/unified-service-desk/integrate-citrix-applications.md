@@ -54,35 +54,38 @@ Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
-3. Click **Hosted Controls**, and then click **New**.  
+3. Select **Hosted Controls**, and then select **New**. The **New Hosted Control** page is displayed.
   
-4. On the **New Hosted Control** page, under the **General** area, specify a name, sort order and display name for the hosted application. Each hosted application should have a unique name. Sort order specifies the order in which the hosted applications are retrieved and displayed in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]  
+4. Specify the following in the **General** tab of the **New Hosted Control** page.
+
+   | Field | Value |
+   |-------------------------|--------------------------------------------------------------|
+   | Name | Citrix Application <br><br> Specify a name for the hosted control. Each hosted application should have a unique name. |
+   | Sort |  5 <br> **Note:** This is an example value. <br><br> Sort order specifies the order in which the hosted applications are retrieved and displayed in Unified Service Desk. |
+   | Unified Service Desk Component Type | CCA Hosted Application |
+   | Hosted Application Type | Remote Hosted Application |
+   | Application Global | Select the check box |
+   | Display Group | MainPanel |
+   | Adapter | Use No Adapter <br> <ul> <li>**Use No Adapter**: Specifies that the hosted application does not require any automation. </li><li> **Use Automation Adapter (HAT)**: Specifies the default configuration used for the Hosted Application Toolkit (HAT) Software Factory. If the hosted application uses an Automation Adapter (HAT), specify the hosted application’s binding information in the **Automation XML** field under the **Automation** area. For more information about bindings, see [Use UII inspector to create bindings for the hosted application](../unified-service-desk/use-uii-inspector-create-bindings-hosted-application.md). </li><li> **Use Adapter**: Specifies that the hosted application uses a custom adapter.</li> </ul> For information about using adapters for Citrix integration, see [Sample Citrix adapters](#sample-citrix-adapters)|
+   | Application is Dynamics | Yes |
+   | User Can Close | Select the check box |
+
+5. Select the **Hosting** tab and specify the following.
+
+   | Field | Value |
+   |-------------------------|--------------------------------------------------------------|
+   | Top Level Window Mode | None |
+   | Assembly URI | `Microsoft.Uii.Csr.CitrixIntegration` |
+   | Assembly Type | `Microsoft.Uii.Csr.CitrixIntegration.CitrixApplicationHostedControl` |
+   | ICA File Name |`C:\Q29udHJvbGxlci5DYWxjdWxhdG9y.ica` <br> Specify the full path to the .ica file required for launching the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application. An .ica file contains information to connect to the remote server  such as the server address, session properties, and authentication information. |
+   | Process Acquisition Attempts | 5 <br> Specify the number of times the server-side executable file should scan the process table to look for the process running the launched Citrix application. The Citrix application process may take a little while to appear in the process table. |
+   | Process Acquisition Delay | 5000 <br> Specify the delay in milliseconds between each process table scan. |
+   | Process Acquisition FileName | Specify the complete path to the Citrix application file name. This value is used by the server-side executable file to compare against the file names of the running processes to find a match. |
   
-5. Under the `Unified Service Desk` area, select **CCA Hosted Application** from the **USD Component Type** list.  
-  
-6. Under the **Hosted App Type** area, select **Remote Hosted Application** from the **Hosted Application** list.  
-  
-7. In the **Adapter Configuration** section, there are three adapter configurations to choose from the **Adapter** drop-down list:  
-  
-   1. **Use No Adapter**: Specifies that the hosted application does not require any automation.  
-  
-   2. **Use Automation Adapter (HAT)**: Specifies the default configuration used for the Hosted Application Toolkit (HAT) Software Factory. If the hosted application uses an Automation Adapter (HAT), specify the hosted application’s binding information in the **Automation XML** field under the **Automation** area. For more information about bindings, see [Use UII inspector to create bindings for the hosted application](../unified-service-desk/use-uii-inspector-create-bindings-hosted-application.md).  
-  
-   3. **Use Adapter**: Specifies that the hosted application uses a custom adapter.  
-  
-      For information about using adapters for [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] integration, see [Sample Citrix adapters](#SampleAdapters)  
-  
-8. Under the **Citrix Application Settings** area, specify the following values:  
-  
-   - **ICA File Name**: Specify the full path to the .ica file required for launching the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application. An .ica file contains information to connect to the remote server  such as the server address, session properties, and authentication information.  
-  
-   - **Process Acquisition Attempts**: Specify the number of times the server-side executable file should scan the process table to look for the process running the launched Citrix application. The Citrix application process may take a little while to appear in the process table.  
-  
-   - **Process Acquisition Delay**: Specify the delay in milliseconds between each process table scan.  
-  
-   - **Process Acquisition FileName**: Specify the complete path to the Citrix application file name. This value is used by the server-side executable file to compare against the file names of the running processes to find a match.  
-  
-9. Save the hosted control.  
+6. Save the hosted control.
+
+> [!Note]
+> Citrix generates the ICA file on-the-go using the Citrix application portal. However, the out-of-the-box implementation in Unified Service Desk does not support on-the-go generated ICA file.
   
 ### Copy executable, apply registry patch, and add Citrix config settings  
  This step must be performed on each computer where the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application is installed.  

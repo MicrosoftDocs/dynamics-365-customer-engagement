@@ -44,7 +44,7 @@ Each content-settings record that you use must be available to the external mark
 
 To view, edit, or create a content-settings record:
 
-1. Go to **Marketing** > **Templates**  >  **Content Settings**.
+1. Go to **Marketing** > **Marketing templates**  >  **Content Settings**.
 
 1. A standard list page opens where you can view, sort, search, and filter the list to find a specific record and use buttons on the command bar to add or remove a record. Select a record to open it for editing or select **New** on the command bar to create a new one.
 
@@ -369,7 +369,7 @@ For example, your database could include a list of products that a contact has o
 </ul>
 ``` 
 
-In this example, the Dynamics 365 Marketing system has been customized to include a [custom entity](../customize/create-edit-entities.md) called _product_, which is set up with a 1:N [relationship](../customize/create-edit-entity-relationships.md) between the _contact_ and _product_ entities on the _productid_ field. For the product entity to be available to your email messages, it must also be [synced](mkt-settings-sync.md) with the marketing-insights service (as usual).
+In this example, the Dynamics 365 Marketing system has been customized to include a [custom entity](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity) called _product_, which is set up with a 1:N [relationship](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-entity-relationships) between the _contact_ and _product_ entities on the _productid_ field. For the product entity to be available to your email messages, it must also be [synced](mkt-settings-sync.md) with the marketing-insights service (as usual).
 
 > [!IMPORTANT]
 > Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. Likewise, [for-each loops](#for-each) aren't rendered in previews or test sends. To test your related-field expressions and/or loop functionality, set up a simple customer journey to deliver the message to yourself.

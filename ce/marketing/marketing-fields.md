@@ -33,11 +33,11 @@ Each field that appears in a marketing form must map unambiguously to a contact 
 
 To create a new marketing-form field, do one of the following:
 
-- Go to **Templates** > **Marketing Form Fields** to see the full list of all fields currently available to your organization, and then select **+New** in the command bar. This creates a new, blank field mapping and opens it for editing.
+- Go to **Marketing templates** > **Form fields** to see the full list of all fields currently available to your organization, and then select **+New** in the command bar. This creates a new, blank field mapping and opens it for editing.
 
 - While working on an existing marketing form, look at the **Toolbox** tab to the right side of the canvas. Under the **Fields** heading here, you'll see a design element for each field that is already set up on your instance. If you don't see the one you want, select **+New** next to the **Fields** heading. A quick-create flyout slides in from the side of the screen, where you can make all the most important settings, and then select **Save**. The new **Field** element is then added to the **Toolbox** tab.
 
-To edit an existing field, go to **Templates** > **Marketing Form Fields** to see the full list of all fields currently available on your instance. Browse, search, sort, and filter the list to find the field you want to edit, and then select it to open it.
+To edit an existing field, go to **Marketing templates** > **Form fields** to see the full list of all fields currently available on your instance. Browse, search, sort, and filter the list to find the field you want to edit, and then select it to open it.
 
 ## Marketing-form field configuration
 

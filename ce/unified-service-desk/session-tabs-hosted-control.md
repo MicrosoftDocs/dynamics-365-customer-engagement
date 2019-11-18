@@ -1,8 +1,8 @@
 ---
 title: "Session Tabs (Hosted Control) in Unified Service Desk | MicrosoftDocs"
-description: "Learn about Session Tabs type of hosted control in Unified Service Desk."
+description: "Learn about the session tabs type of hosted control in Unified Service Desk."
 ms.custom: dyn365-USD
-ms.date: 04/10/2019
+ms.date: 11/12/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 590fe7cf-9281-41ee-ba7e-c0914ef9e44a
@@ -18,12 +18,60 @@ search.app:
 ---
 
 # Session Tabs (Hosted Control)
-Use **Session Tabs** type of hosted control to display customer information in a session tab in your agent application. The hosted control can read the session lines configuration for the session name configuration, and can evaluate which session line should be used to create the session name. An instance of this hosted control type must be available in your agent application for the session tabs to be displayed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Session management in Unified Service Desk](../unified-service-desk/session-management-unified-service-desk.md)  
+Use the **Session Tabs** type of hosted control to display customer information in a session tab in your agent application. The hosted control can read the session lines configuration for the session name configuration, and can evaluate which session line should be used to create the session name. An instance of this hosted control type must be available in your agent application for the session tabs to be displayed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Session management in Unified Service Desk](../unified-service-desk/session-management-unified-service-desk.md)  
   
 <a name="Create"></a>   
-## Create a Session Tab hosted control  
- While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. When you select **Session Tabs** from the **USD Component Type** drop-down list in the **New Hosted Control** screen, you don’t have to select any other fields. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
-  
+## Create a session tabs hosted control
+
+When you create a new hosted control, the fields on the **New Hosted Control** screen vary based on the type of hosted control you want to create. Select **Session Tabs** from the **USD Component Type** drop-down list on the **New Hosted Control** screen. 
+
+To create the session tabs hosted control, follow these steps:
+ 
+1. Sign in to the Unified Service Desk Administrator app.
+
+2. Select **Hosted Controls** under **Basic Settings**.
+
+3. Select **+ New**.
+
+4. Specify a name for the hosted control.
+
+5. Select the **Extensions** tab and update the XML in the **Extensions XML** field. To learn more, see [Chat indicator XML](#chat-indicator-xml). This is an optional step.  You need to update the XML only if you require chat indicator for your session. 
+
+6. Select **Save**.
+
+For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).
+
+### Chat indicator XML 
+
+When you want to indicate that a new message is on the session tab, you can use the chat indicator XML to give visual cues to agents.
+
+The `ChatAgentIndicator` and `ChatCustomerIndicator` actions depend on chat indicator content in extension XML defined in a session tabs type of hosted control.
+
+In the XML, you can define the start time and end time with the hexadecimal color code. During this timespan, the system displays the indicator to the agent with the specified color. Also, you can define multiple timespans to show different types of status. If you want the indicator to blink after the end time of all timespans, you can define the blink node, which blinks for 25 seconds.
+
+**Chat indicator XML syntax**
+
+```XML
+<chatIndicator>
+<timespan start="startTime_Sec" end="endTime_sec" color="ColorCode"/>
+<timespan start="startTime_Sec" end="endTime_sec" color="ColorCode"/>
+<blink/>
+</chatIndicator>
+```
+
+**For example:**
+
+```XML
+<chatIndicator> 
+<timespan start="0" end="15" color="#F2C624"/>
+<timespan start="16" end="30" color="#FF0000"/>
+<blink/>
+</chatIndicator>
+```
+- From zero to 15 seconds, the indicator shows yellow. 
+- From 16 to 30 seconds, the indicator shows red. 
+- From 31 seconds, the indicator blinks until 56 seconds.
+
 <a name="Actions"></a>   
 ## Predefined UII actions  
  These are the predefined actions for this hosted control type.  
@@ -100,10 +148,10 @@ Use **Session Tabs** type of hosted control to display customer information in a
 |Parameter|Description|  
 |---------------|-----------------|  
 |SessionId|This is the ID of the session that was closed.|  
-|IsGlobal|In the **Global Manager** version of this event, the IsGlobal flag is also passed. If the global session is closed, the flag would be **True**, Otherwise, **False**.|  
+|IsGlobal|In the **Global Manager** version of this event, the IsGlobal flag is also passed. If the global session is closed, the flag would be **True**; otherwise, **False**.|  
   
 ### SessionCloseRequested  
- Occurs when the "X" is clicked on a session tab in the agent application. If this event is not handled, the system will automatically close the session. If the event is handled, the system will not automatically close the session, and you must attach an action call to this event that calls the **CloseSession** action on your **Session Tabs** hosted control to explicitly close the session.  
+ Occurs when the **X** is clicked on a session tab in the agent application. If this event is not handled, the system will automatically close the session. If the event is handled, the system will not automatically close the session, and you must attach an action call to this event that calls the **CloseSession** action on your **Session Tabs** hosted control to explicitly close the session.  
   
 ### SessionClosing  
  Occurs  before a session is closed.  
