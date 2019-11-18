@@ -7,10 +7,8 @@ ms.date: 11/01/2019
 ms.author: loreleishannonmsft
 ---
 
-<div id="main" class="v2">
-<div class="container">
-<h1>Customer Service Learning Catalog</h1>
-<p> Find the right online training, in person workshops, and events for your role in Customer Service for Dynamics 365.</p>
+# Customer Service Learning Catalog
+Find the right online training, in person workshops, and events for your role in Customer Service for Dynamics 365.
 
 
 
@@ -24,13 +22,13 @@ ms.author: loreleishannonmsft
     
     Are you an implementation expert for a business domain?
 
-    [Functional Consultants Learning Catalog](learning-catalog-functional-consultants.md)
+    [Functional Consultants Learning Catalog](learning-functional-consultant.md)
 
-    [Get started](readiness-learning-catalog-functional-consultants.md#get-started)
+    [Get started](learning-functional-consultant.md#get-started)
 
-    [Core Platform Knowlege](learning-catalog-functional-consultants.md#core-platform)
+    [Core Platform Knowlege](learning-functional-consultant.md#core-platform)
 
-    [Exams](learning-catalog-functional-consultants.md#exam)
+    [Exams](learning-functional-consultant.md#exam)
 
 :::column-end:::
     :::column:::
@@ -39,11 +37,11 @@ ms.author: loreleishannonmsft
 
     Are you in charge of making sure your company’s implementation goes smoothly?
 
-    [Project Managers Learning Catalog](learning-project-manager.md)
+    [Project Managers Learning Catalog](learning-project_manager.md)
 
-    [Get started](learning-project-manager.md#get-started)
+    [Get started](learning-project_manager.md#get-started)
 
-    [Core Platform Knowlege](learning-project-manager.md#core-platform)
+    [Core Platform Knowlege](learning-project_manager.md#core-platform)
 
 :::column-end:::
 :::row-end:::
@@ -63,11 +61,11 @@ ms.author: loreleishannonmsft
 
     Did you just get a new application to use?
 
-    [Business Users Learning Catalog](learning-bus-users.md)
+    [Business Users Learning Catalog](learning-bus-user.md)
 
-    [Get started](learning-bus-users.md#get-started)
+    [Get started](learning-bus-user.md#get-started)
 
-    [Core platform knowlege](learning-bus-users.md#core-platform)
+    [Core platform knowlege](learning-bus-user.md#core-platform)
 
 :::column-end:::
 :::row-end:::
@@ -78,7 +76,7 @@ ms.author: loreleishannonmsft
 
     Do you decide whether to invest in new technologies?
 
-    [Business and Technical Decision Makers Learning Catalog](learning-bus-decision-makers.md)
+    [Business and Technical Decision Makers Learning Catalog](learning-bus-decision_makers.md)
 
 :::column-end:::
     :::column:::
@@ -88,11 +86,11 @@ ms.author: loreleishannonmsft
     Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?
 
 
-    [Developers Learning Catalog](learning-developers.md)
+    [Developers Learning Catalog](learning-developer.md)
 
-    [Build](learning-developers.md#build)
+    [Build](learning-developer.md#build)
 
-    [Extend](learning-developers.md#extend)
+    [Extend](learning-developer.md#extend)
 
      :::column-end:::
 :::row-end:::
