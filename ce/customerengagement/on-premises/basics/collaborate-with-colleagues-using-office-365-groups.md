@@ -57,6 +57,7 @@ search.app:
 4. In the **Welcome to Office 365 Groups for Dynamics 365 Customer Engagement (on-premises)!** section, select **Create Office 365 Group** or search for an existing group to join.  
   
 > [!NOTE]
+> - As of November 2019, Office Groups with MIP (Microsoft Information Protection) sensitivity labels can’t be created from Dynamics 365 (on-premises). You have to create outside of Dynamics 365 (on-premises). For more information, see [Learn more about creating new group with Sensitivity Label](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#apply-a-sensitivity-label-to-a-new-group), and then add the link from Dynamics 365 (on-premises) by following above steps to Join a group.
 > - You can only connect to groups returned in search for which you are a member. Hover over the search results to see your status.  
 >   - When you add team members to a project, they will be automatically added to the associated group.  
 >   - You can associate existing groups to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records. You don't need to create a new group to create an association.  
