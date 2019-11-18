@@ -24,13 +24,13 @@ ms.author: loreleishannonmsft
     
     Are you an implementation expert for a business domain?
 
-    [Functional Consultants Learning Catalog](learning-catalog-functional-consultant.md)
+    [Functional Consultants Learning Catalog](learning-functional-consultant.md)
 
-    [Get started](learning-catalog-functional-consultant.md#get-started)
+    [Get started](learning-functional-consultant.md#get-started)
 
-    [Marketing](learning-catalog-functional-consultant.md#marketing)
+    [Marketing](learning-functional-consultant.md#marketing)
 
-    [Exams](learning-catalog-functional-consultant.md#exam)
+    [Exams](learning-functional-consultant.md#exam)
 
 :::column-end:::
     :::column:::
