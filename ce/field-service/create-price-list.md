@@ -1,5 +1,5 @@
 ---
-title: "Using and extending price lists in Dynamics 365 Field Service | MicrosoftDocs"
+title: "Using price lists in Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 11/18/2019
