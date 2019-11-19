@@ -10,8 +10,6 @@ ms.date: 10/31/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
-ms.custom: 
-  - ""
 ---
 
 # Monitor real-time customer sentiment
