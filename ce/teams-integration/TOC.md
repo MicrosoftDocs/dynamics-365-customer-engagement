@@ -7,7 +7,7 @@
 ### [Use the bot](teams-bot-search.md)
 ### [Use the personal dashboard](teams-personal-use.md)
 ## [Troubleshoot](teams-troubleshoot.md)
-## [Install and use Dynamics 365 assistant application for Teams ](https://docs.microsoft.com/dynamics365/ai/sales/overview-dynamics-365-assistant-app-teams)
+## [Install and use the Dynamics 365 assistant app](https://docs.microsoft.com/dynamics365/ai/sales/overview-dynamics-365-assistant-app-teams)
 ## [Delete personal data](teams-delete-data.md)
 
 
