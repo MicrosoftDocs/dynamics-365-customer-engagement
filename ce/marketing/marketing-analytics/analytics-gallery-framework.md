@@ -105,8 +105,6 @@ Similarly, you can add queries to load interactions into your analytics report&m
 
 Each template and sample report contains the following common pages (which help you explain your report to your audience) and a number of hidden data-management pages that you will need when you want to customize your report or develop your own reports.
 
-<!-- kfm: I don't understand your use of bold and square brackets in the below list. It might be fine, or it may need cleaning up. -->
-
 - The **Help** page is an empty page where you can document anything that you want your audience to know about when accessing the report. Each report page provides a help button at the top that opens this page.</li>
 
 - The **Interaction data flow** page is hidden by default and provides insights into the volume of interaction data that your marketing organization generates over time.
