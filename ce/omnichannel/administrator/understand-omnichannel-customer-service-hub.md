@@ -6,7 +6,7 @@ ms.author: kabala
 manager: shujoshi
 ms.date: 11/11/2019
 ms.service: 
-  - dynamics-365-customerservice
+  - "dynamics-365-customerservice"
 ms.topic: article
 ---
 # Understand Omnichannel for Customer Service with Customer Service Hub

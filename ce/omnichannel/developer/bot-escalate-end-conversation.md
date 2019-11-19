@@ -6,7 +6,7 @@ ms.author: susikka
 manager: shujoshi
 ms.date: 07/01/2019
 ms.service: 
-  - dynamics-365-customerservice
+  - "dynamics-365-customerservice"
 ms.topic: reference
 ---
 # Enable a bot to escalate and end conversation
