@@ -144,6 +144,186 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
 
 7. Publish the report.
 
+## Reference
+
+The following are the list of tables with entity attributes that are supported in Intraday insights:
+
+- [Agent](#agent)
+- [AgentAvailability](#agentAvailability)
+- [AgentQueueAssociation](#agentQueueAssociation)
+- [AgentRoleAssociation](#agentRoleAssociation)
+- [Presence](#presence)
+- [Queue](#queue)
+- [RoleBase](#roleBase)
+- [Session](#session)
+- [SessionParticipants](#sessionParticipants)
+- [WorkItem](#workItem)
+
+### Agent
+
+The Agent consists of the following entity attributes:
+- `FirstName`
+- `FullName`
+- `LastName`
+- `MiddleName`
+- `msdyn_Capacity`
+- `SystemUserId`
+
+To learn more, see [msdyn_systemuser_msdyn_omnichannelqueue Entity Reference](../developer/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md).
+
+### AgentAvailability
+
+The AgentAvailability consists of the following entity attributes:
+
+- `AvailableCapacity`
+- `BaseStatus`
+- `CapacityModifiedOn`
+- `Id`
+- `ModifiedOn`
+- `PresenceId`
+- `PresenceModifiedOn`
+
+To learn more about `Id`, see [systemuserid](../developer/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md#BKMK_systemuserid).
+To learn more about `presenceId`, see [msdyn_presenceId](../developer/reference/entities/msdyn_presence.md#BKMK_msdyn_presenceId).
+
+### AgentQueueAssociation
+
+The AgentQueueAssociation consists of the following entity attributes:
+
+- `msdyn_omnichannelqueueid`
+- `msdyn_systemuser_msdyn_omnichannelqueueid`
+- `systemuserid`
+
+To learn more, see [msdyn_systemuser_msdyn_omnichannelqueue Entity Reference - Read-only attributes](../developer/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md#read-only-attributes).
+
+### AgentRoleAssociation
+
+The AgentRoleAssociation consists of the following entity attributes:
+
+- `RoleId`
+- `SystemUserId`
+- `SystemUserRoleId`
+
+To learn more about `SystemUserId`, see [systemuserid](../developer/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md#BKMK_systemuserid).
+
+### Presence
+
+The Presence table consists of the following entity attributes:
+
+- `msdyn_basepresencestatus`
+- `msdyn_name`
+- `msdyn_presenceId`
+- `msdyn_presencestatustext`
+
+To learn more, see [msdyn_presence Entity Reference - Writable attributes](../developer/reference/entities/msdyn_presence.md#writable-attributes).
+
+### Queue
+
+The Presence table consists of the following entity attributes:
+
+- `msdyn_Isdefaultqueue`
+- `msdyn_name`
+- `msdyn_omnichannelqueueId`
+- `msdyn_Priority`
+
+To learn more, see [msdyn_systemuser_msdyn_omnichannelqueue Entity Reference - Read-only attributes](../developer/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md#read-only-attributes).
+
+### RoleBase
+
+The RoleBase table consists of the following entity attributes:
+
+- `Name`
+- `RoleId`
+
+To learn more, see [msdyn_systemuser_msdyn_omnichannelqueue Entity Reference](../developer/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md).
+
+### Session
+
+The Session table consists of the following entity attributes:
+
+- `Agent Handling Time`
+- `Agent Handling Time Seconds`
+- `Agent Response Time`
+- `Agent Response Time Seconds`
+- `Hourly Sessions Created`
+- `msdyn_agentacceptedon`
+- `msdyn_agentassignedon`
+- `msdyn_botengagementmode`
+- `msdyn_closurereason`
+- `msdyn_liveworkitemid`
+- `msdyn_queueassignedon`
+- `msdyn_queueid`
+- `msdyn_sessionclosedon`
+- `msdyn_sessioncreatedon`
+- `msdyn_sessionid`
+- `msdyn_sessionmodifiedon`
+- `msdyn_state`
+- `RoundSessionCreatedTime`
+- `Session Handling Time`
+- `Session Handling Time HHMMSS`
+- `Session Handling Time Seconds`
+- `Session Wait Time`
+- `Session Wait Time Seconds`
+
+To learn more, see [msdyn_ocsession Entity Reference](../developer/reference/entities/msdyn_ocsession.md).
+
+### SessionParticipants
+
+- `Agent Handling Time`
+- `AgentName`
+- `msdyn_agentid`
+- `msdyn_joinedon`
+- `msdyn_lefton`
+- `msdyn_mode`
+- `msdyn_sessionid`
+- `msdyn_type`
+- `Participation Time`
+- `Participation Time HHMMSS`
+- `Participation Time Seconds`
+- `sessionparticipantid`
+
+To learn more, see [msdyn_sessionparticipant Entity Reference](../developer/reference/entities/msdyn_sessionparticipant.md).
+
+### WorkItem
+
+The WorkItem table consists of the following entity attributes:
+
+- `Hourly conversations created`
+- `link`
+- `msdyn_activeagentassignedon`
+- `msdyn_activeagentid`
+- `msdyn_closedon`
+- `msdyn_createdon`
+- `msdyn_escalationcount`
+- `msdyn_initiatedon`
+- `msdyn_lastsessionid`
+- `msdyn_liveworkstreamid`
+- `msdyn_modifiedon`
+- `msdyn_ocliveworkitemid`
+- `msdyn_queueid`
+- `msdyn_startedon`
+- `msdyn_statusupdatedon`
+- `msdyn_title`
+- `msdyn_transfercount`
+- `StateCode`
+- `StatusCode`
+- `oca_botengagementmode`
+
+To learn more, see [msdyn_ocliveworkitem Entity Reference](../developer/reference/entities/msdyn_ocliveworkitem.md).
+
+### WorkStream
+
+The WorkStream table consists of the following entity attributes:
+
+- `msdyn_CapacityRequired`
+- `msdyn_liveworkstreamId`
+- `msdyn_MaxConcurrentConnection`
+- `msdyn_name`
+- `msdyn_streamsource`
+- `msdyn_workdistributionmode`
+
+To learn more, see [msdyn_liveworkstream Entity Reference](../developer/reference/entities/msdyn_liveworkstream.md).
+
 ### See also
 
 [Configure to view intraday insights dashboard](configure-intraday-dashboard-supervisor.md)
