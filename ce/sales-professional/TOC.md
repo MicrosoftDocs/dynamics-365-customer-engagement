@@ -4,11 +4,12 @@
 ## [What's new](whats-new.md)
 ## Get started
 ### [Overview](sales-professional-overview.md)
-### [Learn the basics](learn-basics-sales-professional.md)
+### [Get started with the basics](learn-basics-sales-professional.md)
 ### [Use lookup fields on forms](use-lookup-fields-forms.md)
 ### [Work with views (lists)](work-with-views.md)
 ### [Manager your customers](manage-accounts-contacts.md)
 ### [Manage tasks, appointments, email, or phone calls](manage-activities.md)
+### [Learning Catalog for Sales Professional and Sales Enterprise](learning-catalog.md)
 
 ## User guide
 ### [Help resources for sales people](user-guide.md)
