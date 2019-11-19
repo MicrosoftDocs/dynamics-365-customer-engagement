@@ -1,16 +1,11 @@
 ---
-layout: HubPage
-hide_bc: true
-experimental: true
-experiment_id: "81ba5f65-59fb-4d"
 title: Customer Service Learning Catalog
-description:
-ms.topic: hub-page
+description: Find training for Customer Service 
+ms.topic: article
 ms.date: 10/31/2019
 ms.service: "dynamics365-customer-service"
 ms.author: loreleishannonmsft
 ---
-
 
 # Customer Service Learning Catalog
 Find the right online training, in person workshops, and events for your role in Customer Service for Dynamics 365.
