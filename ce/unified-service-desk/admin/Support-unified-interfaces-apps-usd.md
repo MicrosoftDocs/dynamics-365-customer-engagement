@@ -2,9 +2,9 @@
 title: "Support for Unified Interface apps in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the Unified Interface apps supportability in Unified Service Desk."
 ms.date: 05/07/2018
-ms.service: usd
+ms.service: 
+  - usd
 ms.topic: article
-ms.assetid: 7ECEC924-5089-4D9C-88B3-50D1BD7B03A9
 author: kabala123
 ms.author: kabala
 manager: shujoshi

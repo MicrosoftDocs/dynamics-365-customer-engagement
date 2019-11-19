@@ -1,11 +1,12 @@
 ---
 title: "Session Tabs (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the session tabs type of hosted control in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 11/12/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 590fe7cf-9281-41ee-ba7e-c0914ef9e44a
 author: kabala123
 ms.author: kabala
 manager: shujoshi

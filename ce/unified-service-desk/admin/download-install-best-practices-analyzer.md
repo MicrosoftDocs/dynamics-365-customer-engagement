@@ -2,13 +2,14 @@
 title: "Download and Install Best Practices Analyzer | MicrosoftDocs"
 description: "Learn about downloading and installing the Best Practices Analyzer."
 ms.date: 04/05/2019
-ms.service: usd
+ms.service: 
+  - usd
 ms.topic: article
-ms.assetid: B96D2870-9475-475B-B37B-221C3EC55D45
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: admin
+search.audienceType: 
+  - admin
 search.app: 
   - D365CE
   - D365USD

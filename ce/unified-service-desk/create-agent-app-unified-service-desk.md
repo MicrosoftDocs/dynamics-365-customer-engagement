@@ -1,16 +1,17 @@
 ---
 title: "Create agent application using Unified Service Desk in Customer Engagement apps | MicrosoftDocs"
+description: 
 ms.date: 08/23/2017
-ms.service: usd
+ms.service: 
+  - usd
 ms.topic: article
-ms.assetid: 5a29a96e-4271-4e25-a42f-e36d7d707882
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 tags: NoHandoff

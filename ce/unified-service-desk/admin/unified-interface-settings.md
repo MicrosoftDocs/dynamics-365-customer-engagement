@@ -2,13 +2,14 @@
 title: "Unified Interface Settings | MicrosoftDocs"
 description: "Learn about the Unified Interface Settings page in the Unified Service Desk Administrator app."
 ms.date: 06/01/2019
-ms.service: usd
+ms.service: 
+  - usd
 ms.topic: article
-ms.assetid: 88B92EC9-81ED-4EB0-8269-2DC0624B6DBA
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: admin
+search.audienceType: 
+  - admin
 search.app: 
   - D365CE
   - D365USD

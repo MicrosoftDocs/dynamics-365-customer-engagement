@@ -1,9 +1,10 @@
 ---
 title: "UII adapters in Unified Service Desk | MicrosoftDocs"
+description: 
 ms.date: 08/23/2017
-ms.service: usd
+ms.service: 
+  - usd
 ms.topic: article
-ms.assetid: 59d89ca1-469d-42e3-98cf-e444c0438ec3
 author: KumarVivek
 ms.author: kvivek
 manager: jdaly

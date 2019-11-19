@@ -1,11 +1,12 @@
 ---
 title: "UI Shell Framework in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the UI shell framework that enables developers to build a desktop for hosting integrated applications."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: f48c6efd-a067-406a-b271-24dc6462081a
 author: kabala123
 ms.author: kabala
 manager: shujoshi

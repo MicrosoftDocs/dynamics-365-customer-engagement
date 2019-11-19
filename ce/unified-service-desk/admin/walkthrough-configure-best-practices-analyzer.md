@@ -2,13 +2,14 @@
 title: "Walkthrough  Configure Best Practices Analyzer in Unified Service Desk | MicrosoftDocs"
 description: Learn about downloading and installing the Best Practices Analyzer.
 ms.date: 05/15/2018
-ms.service: usd
+ms.service: 
+  - usd
 ms.topic: article
-ms.assetid: C1F329C3-2E00-40A5-8BA3-1B6BC16444EA
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: admin
+search.audienceType: 
+  - admin
 search.app: 
   - D365CE
   - D365USD
