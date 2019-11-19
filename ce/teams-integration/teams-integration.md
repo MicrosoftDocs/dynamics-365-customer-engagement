@@ -2,7 +2,7 @@
 title: "Integrate model-driven apps in Dynamics 365 with Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Integrate model-driven apps in Dynamics 365 with Microsoft Teams."
-ms.date: 10/16/2019
+ms.date: 11/19/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
