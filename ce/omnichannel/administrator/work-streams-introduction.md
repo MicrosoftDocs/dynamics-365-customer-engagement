@@ -6,6 +6,8 @@ ms.author: anjgup
 manager: shujoshi
 ms.date: 10/25/2019
 ms.topic: article
+ms.service: 
+  - dynamics-365-customerservice
 ---
 
 # Understand and create work streams 
