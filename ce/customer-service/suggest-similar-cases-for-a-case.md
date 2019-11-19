@@ -7,7 +7,8 @@ manager: shujoshi
 ms.date: 03/08/2019
 ms.topic: article
 ms.service: 
-  - crm-online
+ms.service: 
+  - dynamics-365-customerservice
 search.audienceType: 
   - admin
   - customizer
