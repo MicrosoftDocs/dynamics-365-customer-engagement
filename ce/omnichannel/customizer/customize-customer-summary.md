@@ -1,16 +1,13 @@
 ---
 title: "Customize the Customer summary form | MicrosoftDocs"
 description: "Learn on how to customize the Customer summary form in Omnichannel for Customer Service as a system customizer."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: b8ce1f5a-54b5-46f3-99a4-d4829fe42e67
-ms.custom: 
 ---
 # Customize the Customer summary form overview
 

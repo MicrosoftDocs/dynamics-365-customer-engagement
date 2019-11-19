@@ -1,16 +1,13 @@
 ---
 title: "Omnichannel Insights dashboards for supervisors | MicrosoftDocs"
 description: "Learn about Omnichannel Insights dashboards for supervisors"
-keywords: ""
 author: lerobbin
 ms.author: lerobbin
 manager: autumna
-applies_to: 
 ms.date: 10/29/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: f7b39a03-6e47-43bd-9c9b-f33170124a78
-ms.custom: 
 ---
 
 # View and understand Omnichannel Insights dashboards

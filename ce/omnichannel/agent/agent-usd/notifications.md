@@ -1,16 +1,13 @@
 ---
 title: "Notification ans screen pops for agents working in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the notifications and its types. Agents will see the nofications and screen pop in Omnichannel for Customer Service."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 04017981-2d10-496b-a6b8-5ad0ea99fa4f
-ms.custom: 
 ---
 # View alert and toast notifications
 

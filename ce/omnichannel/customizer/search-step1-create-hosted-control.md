@@ -4,12 +4,10 @@ description: "Learn how to create the search hosted control for agents and super
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: F81C9F93-E814-4EDD-ADE9-0BF461956BF8
-ms.custom: 
 ---
 
 # Step 1: Create search hosted control

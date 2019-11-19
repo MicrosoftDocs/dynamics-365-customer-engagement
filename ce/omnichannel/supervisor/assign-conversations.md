@@ -1,16 +1,13 @@
 ---
 title: "Supervisors can assign conversations | MicrosoftDocs"
 description: "How to assign conversations to queues and agents"
-keywords: ""
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-applies_to: 
 ms.date: 06/22/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 8cd6045e-7df0-419b-b8a9-12f753b81fff
-ms.custom: 
 ---
 
 # Assign conversations

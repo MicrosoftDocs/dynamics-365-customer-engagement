@@ -1,16 +1,13 @@
 ---
 title: "Download and email chat transcripts | MicrosoftDocs"
 description: "Learn how to download or email chat transcripts"
-keywords: ""
 author: lerobbin
 ms.author: lerobbin
 manager: autumna
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: f19a0d99-8d53-492d-9157-9c2e7aa2d638
-ms.custom: 
 ---
 
 # Configure download and email of chat transcripts

@@ -1,15 +1,13 @@
 ---
 title: "Agents using Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Learn about the Omnichannel for Customer Service app"
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 264E80DF-CC3D-46F7-8739-D21DDB045953
-ms.custom: 
 ---
 
 # Agents using Omnichannel for Customer Service app

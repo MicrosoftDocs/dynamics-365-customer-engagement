@@ -1,16 +1,13 @@
 ---
 title: "Skill-based routing in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about the skill-based routing in Omnichannel for Customer Service app." 
-keywords: ""
+description: "Learn about the skill-based routing in Omnichannel for Customer Service app."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/15/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 81343ED1-4115-4D6A-874D-2282F0BFA3A9
-ms.custom: 
 ---
 # Preview: Overview of skill-based routing
 

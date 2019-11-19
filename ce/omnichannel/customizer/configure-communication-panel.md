@@ -1,16 +1,13 @@
 ---
 title: "Configure communication panel for agents | MicrosoftDocs"
 description: "Learn how to configure communication panel for agents using Omnichannel for Customer Service."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 68C78C8A-A4A3-4213-A0A4-F641B11A8541
-ms.custom: 
 ---
 
 # Configure communication panel for agents overview

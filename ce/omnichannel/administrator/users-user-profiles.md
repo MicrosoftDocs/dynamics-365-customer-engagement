@@ -4,12 +4,10 @@ description: Know how to create and manage users and user profiles in the Omnich
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
-applies_to: 
 ms.date: 10/15/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 3a61efc9-84b5-4499-8cce-578aae138d1e
-ms.custom: 
 ---
 
 # Manage users in Omnichannel for Customer Service

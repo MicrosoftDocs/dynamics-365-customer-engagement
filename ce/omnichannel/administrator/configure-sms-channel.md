@@ -1,19 +1,17 @@
 ---
 title: "Configure an SMS channel | MicrosoftDocs"
 description: "Instructions for configuring an SMS channel in Omnichannel for Customer Service."
-keywords: ""
-ms.date: 11/18/2019
-ms.service:
-  - "dynamics-365-customerservice"
-ms.custom:
-  - ""
-ms.topic: article
-applies_to:
-  - ""
-ms.assetid: 4392FF3A-51B1-42DC-A576-C3001D879469
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
+applies_to: 
+  - ""
+ms.date: 11/18/2019
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
+ms.custom: 
+  - ""
 ---
 
 # Configure an SMS channel

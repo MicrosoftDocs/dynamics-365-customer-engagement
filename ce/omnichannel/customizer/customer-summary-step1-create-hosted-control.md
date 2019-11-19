@@ -4,12 +4,10 @@ description: "Learn how to create the customer summary hosted control for agents
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 2EBF6673-A36B-49C1-AD8A-38E87D5E4538
-ms.custom: 
 ---
 
 # Step 1: Create customer summary hosted control

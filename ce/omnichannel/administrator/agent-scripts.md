@@ -1,16 +1,13 @@
 ---
 title: "Agent scripts in the Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about agent scripts and how to configure them in the Omnichannel Administration app." 
-keywords: ""
+description: "Learn about agent scripts and how to configure them in the Omnichannel Administration app."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 223AAEFE-1228-4CE2-94C0-1118925D1B8C
-ms.custom: 
 ---
 
 # Preview: Guide agents with scripts

@@ -4,12 +4,10 @@ description: "Learn how to create the Omnichannel Agent Dashboard-related action
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: C4D4CD30-059F-4BA5-A80A-DE06E1B10A72
-ms.custom: 
 ---
 
 # Step 2: Create Omnichannel Agent Dashboard-related action calls

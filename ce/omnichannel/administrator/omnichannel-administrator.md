@@ -1,16 +1,13 @@
 ---
 title: "Omnichannel for Customer Service for administrators | MicrosoftDocs"
 description: 
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 84d1cbc7-cbed-4d51-991d-d07245cfee7a
-ms.custom: 
 ---
 # Omnichannel for Customer Service for administrators
 

@@ -4,11 +4,10 @@ description: "Learn how to search for transcripts in Omnichannel for Customer Se
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 79FCBC72-1AA8-4181-B89F-947EF50286BE
 ---
 
 # Search for transcripts

@@ -1,16 +1,13 @@
 ---
 title: "View customer summary | MicrosoftDocs"
 description: "Customer summary is a form where you can know complete information about the customer with whom you are going to interact."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: d53f1b1f-0361-4334-827c-d299137a9075
-ms.custom: 
 ---
 # View customer summary and know everything about customers
 

@@ -1,19 +1,17 @@
 ---
 title: "Configure Intraday insights for supervisors | MicrosoftDocs"
 description: "How to configure Intraday insights for Unified Service Desk and Omnichannel for Dynamics 365 Customer Service."
-keywords: ""
-ms.date: 6/20/2019
-ms.service:
-  - "dynamics-365-customerservice"
-ms.custom:
-  - ""
-ms.topic: article
-applies_to:
-  - ""
-ms.assetid: 184b39be-7ac3-45f1-a63e-d6ad2cb7b547
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+applies_to: 
+  - ""
+ms.date: 6/20/2019
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
+ms.custom: 
+  - ""
 ---
 
 # Configure Intraday insights for supervisors

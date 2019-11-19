@@ -1,16 +1,13 @@
 ---
 title: "Attach skill to an incoming conversation | MicrosoftDocs"
-description: "Learn about how to attach skills to an incoming conversation in Omnichannel for Customer Service app." 
-keywords: ""
+description: "Learn about how to attach skills to an incoming conversation in Omnichannel for Customer Service app."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/15/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 44298261-18A8-438C-923A-4BB4D18406F9
-ms.custom: 
 ---
 
 # Preview: Attach skills to conversation

@@ -1,16 +1,13 @@
 ---
 title: "Introduction to Intraday insights dashboard for supervisor | MicrosoftDocs"
 description: "Introduction to Intraday insights dashboard for supervisor"
-keywords: ""
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-applies_to: 
 ms.date: 06/22/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: b7ddb6d7-fc46-4541-aaa8-2411198ed856
-ms.custom: 
 ---
 
 # Introduction to intraday supervisor experiences

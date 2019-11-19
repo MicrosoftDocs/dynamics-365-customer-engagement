@@ -1,16 +1,13 @@
 ---
 title: "Configure notifications (screen pops) for agents | MicrosoftDocs"
 description: "Learn how to configure notification for using Omnichannel for Customer Service based on routing and work distribution."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 227c2e0e-4d42-463b-87a1-d538a8e4b8a1
-ms.custom: 
 ---
 # Configure notifications (Screen pops) for agents overview
 

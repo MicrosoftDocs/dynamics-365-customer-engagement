@@ -1,16 +1,13 @@
 ---
 title: "Associate templates with workstreams in the Omnichannel Administration app | MicrosoftDocs"
 description: "Learn how to associate templates with workstreams in the Omnichannel Administration app"
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 93EE7031-3274-4614-AD12-3DFEBD59604A
-ms.custom: 
 ---
 
 # Preview: Associate templates with workstreams

@@ -1,16 +1,13 @@
 ---
 title: "View omnichannel conversation and session activity types in the Model-driven apps | MicrosoftDocs"
 description: "Learn about the omnichannel conversation and session activity types that users (agents and supervisors) can see under the Activities in the Model-driven apps."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: BAC4B607-59A4-4FD2-B121-9799081D5EB1
-ms.custom: 
 ---
 
 # View conversation and session activity types in the model-driven apps

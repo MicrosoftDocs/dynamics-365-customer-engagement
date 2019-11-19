@@ -1,19 +1,17 @@
 ---
 title: "Monitor real-time customer sentiment | MicrosoftDocs"
 description: "Learn how to monitor real-time customer sentiment while interacting with customers."
-keywords: ""
-ms.date: 10/31/2019
-ms.service:
-  - "dynamics-365-customerservice"
-ms.custom:
-  - ""
-ms.topic: article
-applies_to:
-  - ""
-ms.assetid: 0D1925AF-3124-404B-A7B6-FCC0C3430CC4
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+applies_to: 
+  - ""
+ms.date: 10/31/2019
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
+ms.custom: 
+  - ""
 ---
 
 # Monitor real-time customer sentiment

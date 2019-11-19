@@ -1,16 +1,13 @@
 ---
 title: "Manage application tab templates in Omnichannel Administration app | MicrosoftDocs"
 description: "Learn about managing application tab templates in Omnichannel Administration app"
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 610965FF-21E2-483C-85B9-3C54E38346C5
-ms.custom: 
 ---
 
 # Preview: Manage application tab templates

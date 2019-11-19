@@ -4,12 +4,10 @@ description: "Learn how to create window navigation rule for search."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: DEF24772-673F-4926-A400-C719ACAACE6B
-ms.custom: 
 ---
 
 # Step 5: Configure window navigation rule for search

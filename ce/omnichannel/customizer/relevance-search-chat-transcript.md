@@ -4,11 +4,10 @@ description: "Learn how to configure relevance search for chat transcript so age
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: C85FD1F9-A022-4215-9D48-685A32C8262F
 ---
 # Configure relevance search for transcripts 
 

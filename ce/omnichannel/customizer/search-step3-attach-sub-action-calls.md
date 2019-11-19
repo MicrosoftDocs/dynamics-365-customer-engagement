@@ -4,12 +4,10 @@ description: "Learn how to attach sub action calls to action calls for agents an
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 449385AD-ABF3-49D2-963D-51432D0DBE5C
-ms.custom: 
 ---
 
 # Step 3: Attach sub action calls to action calls

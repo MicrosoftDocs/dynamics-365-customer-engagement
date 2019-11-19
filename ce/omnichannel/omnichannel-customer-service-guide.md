@@ -1,16 +1,13 @@
 ---
 title: "Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about Omnichannel for Customer Service."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 213B2D86-403C-418F-AD64-44AD1DD3382A
-ms.custom: 
 ---
 
 # Omnichannel for Customer Service Guide

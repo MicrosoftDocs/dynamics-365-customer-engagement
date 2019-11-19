@@ -1,16 +1,13 @@
 ---
 title: "Manage session templates in Omnichannel Administration app | MicrosoftDocs"
 description: "Learn about managing session templates in Omnichannel Administration app"
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 17BE0284-BFDA-420C-8D84-CAE84D0D9270
-ms.custom: 
 ---
 
 # Preview: Manage session templates

@@ -1,15 +1,13 @@
 ---
 title: "Configure a Facebook channel | MicrosoftDocs"
 description: "Instructions to configure a a Facebook channel in Omnichannel for Customer Service."
-keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 74638652-820F-4235-8B5E-18810D7ED2E6
-ms.custom: 
 ---
 
 # Preview: Configure a Facebook channel
