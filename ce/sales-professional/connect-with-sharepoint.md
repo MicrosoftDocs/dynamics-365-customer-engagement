@@ -2,10 +2,11 @@
 title: "Configure Dynamics 365 Sales Professional to integrate with SharePoint | MicrosoftDocs"
 description: "Allow your users to store sales documents in SharePoint and collaborate on them by integrating Dynamics 365 Sales Professional with SharePoint."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-ms.assetid: 4b7ba471-25f9-403b-91cc-6e60fff2c668
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
