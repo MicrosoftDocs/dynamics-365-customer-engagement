@@ -39,7 +39,7 @@ For multinational companies with employees and customers distributed around the 
 - **Region**. Choose from the following: Asia Pacific (APAC); Canada (CAN); Europe, Middle-East, Africa (EMEA); India (IND); Japan (JPN); North America (NA); Oceania (OCE); South America (LATAM/SAM).  
   
     > [!TIP]
-    >  To view the current data centers for your region, see [Where is my data?](http://go.microsoft.com/fwlink/p/?LinkID=401277)  
+    >  To view the current data centers for your region, see [Where is my data?](https://go.microsoft.com/fwlink/p/?LinkID=401277)  
   
 - **Name**. This is typically the name of your organization and is displayed in the model-driven apps in Dynamics 365, such as Dynamics 365 Sales and Customer Service.  
   
@@ -71,7 +71,7 @@ For multinational companies with employees and customers distributed around the 
   
 3.  Proceed through the screens to purchase additional instances.  
   
-     You can choose to add Production or non-Production (Sandbox) instances. For more information, see [Pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=324564).  
+     You can choose to add Production or non-Production (Sandbox) instances. For more information, see [Pricing and licensing](https://go.microsoft.com/fwlink/p/?LinkID=324564).  
   
 ### Step 2: Configure the additional instance for a region  
   
