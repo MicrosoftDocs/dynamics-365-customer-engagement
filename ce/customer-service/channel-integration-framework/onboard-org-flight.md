@@ -1,16 +1,13 @@
 ---
 title: "Onboard your organization to Dynamics 365 Channel Integration Framework version 2.0 flight | MicrosoftDocs"
 description: "Learn about managing notification templates in Dynamics 365 Channel Integration Framework"
-keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-applies_to: 
 ms.date: 10/18/2019
-ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 8E27477D-460D-4559-9379-FEC04129CF5E
-ms.custom: 
+ms.service: 
+  - dynamics-365-customerservice
 ---
 # Preview: Onboard your organization to Dynamics 365 Channel Integration Framework version 2.0 flight
 

@@ -1,20 +1,18 @@
 ---
 title: "Support multiple providers with Dynamics 365 Channel Integration Framework | Microsoft Docs"
 description: ""
-keywords: ""
-ms.date: 10/25/2018
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: 6A4DF7FD-9C4A-4765-91DF-A0C805523887
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 10/25/2018
+ms.topic: reference
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
 ---
 
 # Preview: Support for multiple providers

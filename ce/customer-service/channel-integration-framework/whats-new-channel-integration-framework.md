@@ -1,18 +1,16 @@
 ---
 title: "What's new in Dynamics 365 Channel Integration Framework | Microsoft Docs"
 description: "Read about the new features provided in the latest release of Dynamics 365 Channel Integration Framework."
-keywords: ""
-ms.date: 10/16/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: get-started-article
-ms.assetid: 42BEC0F2-AAA7-44A1-9BD7-EA2A04F5ACDB
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 10/16/2019
+ms.topic: get-started-article
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 
 # What's new in Dynamics 365 Channel Integration Framework

@@ -1,18 +1,16 @@
 ---
 title: "Common issues and resolutions for Dynamics 365 Channel Integration Framework | Microsoft Docs"
 description: ""
-keywords: ""
-ms.date: 10/25/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: article
-ms.assetid: 42199642-3637-4823-BED9-3311A533D484
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 10/25/2019
+ms.topic: article
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 
 # Common issues and resolutions for Dynamics 365 Channel Integration Framework

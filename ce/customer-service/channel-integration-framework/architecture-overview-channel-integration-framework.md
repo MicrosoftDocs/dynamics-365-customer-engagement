@@ -1,20 +1,18 @@
 ---
 title: "Architecture overview of Dynamics 365 Channel Integration Framework helps| Microsoft Docs"
 description: "Learn the architecture overview of Dynamics 365 Channel Integration Framework."
-keywords: ""
-ms.date: 12/10/2018
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: 937bd2df-0b5c-48c8-b415-285820b246c9
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 12/10/2018
+ms.topic: get-started-article
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
 ---
 
 # Architecture overview of Dynamics 365 Channel Integration Framework 
