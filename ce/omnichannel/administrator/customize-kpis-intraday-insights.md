@@ -124,7 +124,7 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
 
     2. From the formula bar, edit the formula as required.
 
-        To learn more about change visualizations, see [Create and use your own measures](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-create-measures#create-and-use-your-own-measures).
+        To learn more about change visualizations, see [Create and use your own measures](/power-bi/desktop-tutorial-create-measures#create-and-use-your-own-measures).
     
 6. To edit a visual:
 
@@ -140,7 +140,7 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
        > [!div class=mx-imgBorder]
        > ![Change visualization from bar chart to pie chart](../media/supervisor-admin-custom-kpis-change-bar-to-pie.png "Change visualization from bar chart to pie chart")
 
-        To learn more about change visualizations, see [Add visualizations to a Power BI report](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-report-add-visualizations-i).
+        To learn more about change visualizations, see [Add visualizations to a Power BI report](/power-bi/visuals/power-bi-report-add-visualizations-i).
 
 7. Publish the report.
 
@@ -149,15 +149,16 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
 The following are the list of tables with entity attributes that are supported in Intraday insights:
 
 - [Agent](#agent)
-- [AgentAvailability](#agentAvailability)
-- [AgentQueueAssociation](#agentQueueAssociation)
-- [AgentRoleAssociation](#agentRoleAssociation)
+- [AgentAvailability](#agentavailability)
+- [AgentQueueAssociation](#agentqueueassociation)
+- [AgentRoleAssociation](#agentroleassociation)
 - [Presence](#presence)
 - [Queue](#queue)
-- [RoleBase](#roleBase)
+- [RoleBase](#rolebase)
 - [Session](#session)
-- [SessionParticipants](#sessionParticipants)
-- [WorkItem](#workItem)
+- [SessionParticipants](#sessionparticipants)
+- [WorkItem](#workitem)  
+- [WorkStream](#workstream)
 
 ### Agent
 
