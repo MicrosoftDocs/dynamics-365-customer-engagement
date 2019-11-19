@@ -3,7 +3,7 @@ title: "Analyze best practices in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the best practices analyzer, which performs analysis on the Internet Explorer settings, Unified Service Desk configurations in the Common Data Service platform, and system configurations on which you install Unified Service Desk, and displays a report to review and mitigate the issues."
 ms.date: 04/24/2018
 ms.service: 
-  - usd
+  - "dynamics-365-customerservice"
 ms.topic: article
 author: kabala123
 ms.author: kabala

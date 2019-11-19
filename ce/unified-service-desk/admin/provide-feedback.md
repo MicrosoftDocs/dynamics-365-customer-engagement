@@ -3,7 +3,7 @@ title: "Provide feedback about Unified Service Desk | MicrosoftDocs"
 description: "Learn about providing feedback about Unified Service Desk."
 ms.date: 04/24/2018
 ms.service: 
-  - usd
+  - "dynamics-365-customerservice"
 ms.topic: article
 author: kabala123
 ms.author: kabala

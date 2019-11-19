@@ -3,7 +3,7 @@ title: "Internet Explorer settings | MicrosoftDocs"
 description: "Learn about the Internet Explorer settings that best practices outlines and against which Best Practices Analyzer performs analysis."
 ms.date: 05/07/2018
 ms.service: 
-  - usd
+  - "dynamics-365-customerservice"
 ms.topic: article
 author: kabala123
 ms.author: kabala

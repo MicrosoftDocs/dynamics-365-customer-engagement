@@ -3,7 +3,7 @@ title: "Walkthrough 1  Build a simple agent application in Unified Service Desk 
 description: "Demonstrates how to set up a basic agent application from scratch using Unified Service Desk that can connect to Customer Engagement."
 ms.date: 05/07/2018
 ms.service: 
-  - usd
+  - "dynamics-365-customerservice"
 ms.topic: article
 author: kabala123
 ms.author: kabala

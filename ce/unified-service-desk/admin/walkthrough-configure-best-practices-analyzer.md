@@ -3,7 +3,7 @@ title: "Walkthrough  Configure Best Practices Analyzer in Unified Service Desk |
 description: Learn about downloading and installing the Best Practices Analyzer.
 ms.date: 05/15/2018
 ms.service: 
-  - usd
+  - "dynamics-365-customerservice"
 ms.topic: article
 author: kabala123
 ms.author: kabala
