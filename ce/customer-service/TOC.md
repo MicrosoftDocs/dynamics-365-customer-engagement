@@ -1,6 +1,8 @@
 # [Dynamics 365 Customer Service](help-hub.md)
 ## [Overview](overview.md)
 ## [What's new](whats-new-customer-service.md)
+## [Learning Catalog](learning-catalog.md)
+
 ## User Guides
 ### Customer Service Hub
 #### [Introduction to Customer Service Hub](user-guide-customer-service-hub.md)
