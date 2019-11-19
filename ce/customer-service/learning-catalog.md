@@ -1,6 +1,6 @@
 ---
 title: Customer Service Learning Catalog
-description: Find training for Customer Service 
+description: Find training for Dynamics 365 Customer Service. 
 ms.topic: article
 ms.date: 10/31/2019
 ms.service: "dynamics365-customer-service"
@@ -8,8 +8,7 @@ ms.author: loreleishannonmsft
 ---
 
 # Customer Service Learning Catalog
-Find the right online training, in person workshops, and events for your role in Customer Service for Dynamics 365.
-
+Find the right online training, in person workshops, and events for your role in Dynamics 365 Customer Service. 
 
 
 <!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
