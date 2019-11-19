@@ -8,8 +8,6 @@ ms.date: 10/30/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
-ms.custom: 
-  - ""
 ---
 
 # Provision Omnichannel for Customer Service
