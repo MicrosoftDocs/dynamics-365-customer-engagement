@@ -1,15 +1,14 @@
 ---
-title: Customer Service learning catalog 
-description: Find all the training options for customer service. 
+title: Sales Enterprise and Professional Learning Catalog 
+description: Find all the training options for Dynamics 365 Sales Enterprise and Professional. 
 author: loreleishannonmsft
 ms.topic: article
 ms.date: 11/01/2019
 ms.author: loreleishannonmsft
 ---
 
-# Customer Service Learning Catalog
-Find the right online training, in person workshops, and events for your role in Customer Service for Dynamics 365.
-
+# Sales Enterprise and Professional Learning Catalog
+Find the right online training, in person workshops, and events for your role in Dynamics 365 Sales.
 
 
 <!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
