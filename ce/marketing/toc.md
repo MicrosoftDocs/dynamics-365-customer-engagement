@@ -2,6 +2,7 @@
 
 ## [Overview](overview.md)
 ## [What's new](whats-new-marketing.md)
+## [Learning Catalog](learning-catalog.md)
 ## [Marketing videos](marketing-videos.md)
 
 ## [Administrator Guide](admin-guide.md)
