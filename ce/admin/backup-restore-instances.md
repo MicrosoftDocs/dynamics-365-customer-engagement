@@ -2,7 +2,7 @@
 title: "Back up and restore instances  | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 10/17/2019
+ms.date: 11/18/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
