@@ -46,7 +46,7 @@ search.app:
   
 - Before you can start using [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], the groups solution needs to be deployed and turned on for your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities. For more information, see [Deploy Office 365 Groups](../admin/deploy-office-365-groups.md).  
   
-## Create  or join a group  
+## Create or join a group  
   
 1. Go to the record that you want to create a group for. For example, [!INCLUDE[proc_sales_accounts](../includes/proc-sales-accounts.md)]  
   
@@ -57,7 +57,7 @@ search.app:
 4. In the **Welcome to Office 365 Groups for Dynamics 365 Customer Engagement (on-premises)!** section, select **Create Office 365 Group** or search for an existing group to join.  
   
 > [!NOTE]
-> - As of November 2019, Office Groups with MIP (Microsoft Information Protection) sensitivity labels can’t be created from Dynamics 365 (on-premises). You have to create outside of Dynamics 365 (on-premises). For more information, see [Learn more about creating new group with Sensitivity Label](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#apply-a-sensitivity-label-to-a-new-group), and then add the link from Dynamics 365 (on-premises) by following above steps to Join a group.
+> - As of November 2019, Office Groups with MIP (Microsoft Information Protection) sensitivity labels can't be created from Dynamics 365 (on-premises). You have to create the group outside of Dynamics 365 (on-premises). For more information see, [Learn more about creating new group with Sensitivity Label](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#apply-a-sensitivity-label-to-a-new-group). Once this is done, add the link from Dynamics 365 (on-premises) by [joining the group](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/collaborate-with-colleagues-using-office-365-groups#create--or-join-a-group).
 > - You can only connect to groups returned in search for which you are a member. Hover over the search results to see your status.  
 >   - When you add team members to a project, they will be automatically added to the associated group.  
 >   - You can associate existing groups to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records. You don't need to create a new group to create an association.  
