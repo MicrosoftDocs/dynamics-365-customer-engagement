@@ -6,7 +6,6 @@ ms.date: 10/31/2019
 ms.service: "dynamics365-customer-service"
 ms.author: loreleishannonmsft
 ---
-
 # Customer Service Learning Catalog
 Find the right online training, in person workshops, and events for your role in Dynamics 365 Customer Service. 
 
