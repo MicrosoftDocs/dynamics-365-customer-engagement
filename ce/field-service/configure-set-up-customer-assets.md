@@ -34,7 +34,7 @@ In this article, let's explore creating customer assets and noting them on work 
 ## Prerequisites
 
 - Customer assets can be created and noted on work orders in all versions of Field Service.
-- Customer asset to IoT device association in Connected Field Service is available with Field Service 7.5.5+ and 8.2+.
+- If you want to associate customer asset with IoT devices, you'll need Connected Field Service, which is available with Field Service 7.5.5+ and 8.2+.
 
 ## Create customer assets
 
