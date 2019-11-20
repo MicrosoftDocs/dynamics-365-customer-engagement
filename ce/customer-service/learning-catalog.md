@@ -1,14 +1,11 @@
 ---
-layout: HubPage
-hide_bc: true
-experimental: true
-experiment_id: "81ba5f65-59fb-4d"
-title: Customer Service Learning Catalog
-description:
-ms.topic: hub-page
-ms.date: 10/31/2019
-ms.service: "dynamics365-customer-service"
+title: Customer searning catalog
+description: Find all the training options for customer service.
+author: loreleishannonmsft
+ms.topic: article
+ms.date: 01/11/2019
 ms.author: loreleishannonmsft
+
 ---
 
 
