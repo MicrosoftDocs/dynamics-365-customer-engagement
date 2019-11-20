@@ -1,19 +1,19 @@
 ---
-title: "Asset Management in Field Service | MicrosoftDocs"
+title: "Asset management in Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/29/2019
-ms.reviewer: 
+ms.date: 11/20/2019
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 75a7739a-53e8-43e7-bd6d-ca7317a69d30
 caps.latest.revision: 16
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -23,150 +23,154 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Asset Management in Field Service 
+# Asset management in Dynamics 365 Field Service 
 
-Customer assets allow you to keep track of the equipment at your customers' locations that you are responsible for inspecting, maintaining, and repairing. At its simplest, customer assets note which products are located at each customer location. A more developed use of customer assets is to track service history of all past and present work orders for each asset. A further developed solution is to connect customer assets to Connected Field Service sensors that monitor the health of the asset and trigger IoT alerts and work orders as needed. 
+Customer assets let you keep track of equipment that you're responsible for inspecting, maintaining, and repairing. At their simplest, customer assets note which products are located at each customer location. But they can also track service history of all past and present work orders for each asset. And if you're using Connected Field Service, you can connect customer assets to sensors that monitor the asset's health and trigger IoT alerts and work orders as needed. 
 
 
-In this article let's explore creating customer assets and noting them on work orders, agreements, and IoT devices to build service history.
+In this article, let's explore creating customer assets and noting them on work orders, agreements, and IoT devices to build service history.
 
   
 ## Prerequisites
 
-- Customer assets can be created and noted on work orders to build service history in all versions of Field Service
-- Associating customer assets with IoT devices in Connected Field Service is available with Field Service 7.5.5+ and 8.2+ 
+- Customer assets can be created and noted on work orders in all versions of Field Service.
+- Customer asset to IoT device association in Connected Field Service is available with Field Service 7.5.5+ and 8.2+.
 
 ## Create customer assets
 
-Customer Assets can be created:
+Customer assets can be created:
 
 1. manually or via import
 2. automatically when work order products are used
 
 ### Manually create customer assets
 
-You can create customer assets manually or via import. 
-
-From the main menu, click **Field Service** > **Customer Assets** > **+New**.  
+From the main menu, go to **Field Service** > **Customer Assets** > **+New**.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customer-asset-create-manually.png)
+> ![Screenshot of a customer asset](./media/customer-asset-create-manually.png)
+
+For the following fields: 
   
-**Name:** enter a reference name or title for the customer asset that stakeholders can refer to. This can be the make and model of the customer asset, the name of the product in the product catalog, a general name like "HVAC Unit," and can even hold descriptive information like "HVAC Unit 2nd Floor".
+- **Name**: Enter a reference name or title for the customer asset. This can be the make and model of the asset, the name of the product in the product catalog, a general name like "HVAC Unit," or even hold descriptive information like "HVAC Unit 2nd Floor".
 
-**Category:** - Add or create a customer asset category that serves as a label to organize assets into useful groups by function, model, etc based on your business needs.
+- **Category**: Add or create a customer asset category that serves as a label to organize assets into useful groups by function, model, and so on, based on your business needs.
 
-**Service Account:** choose an account from the lookup to represent the location and customer of the customer asset. As a simple rule, if you were going to create a work order to repair the customer asset, the service account of the work order and the service account of the customer asset should be the same. 
+- **Service Account**: Choose an account from the lookup to represent the location and customer of the customer asset. As a simple rule, if you were going to create a work order to repair the customer asset, the service account of the work order and the service account of the customer asset should be the same. 
 
-**Product:** if the customer asset correlates with a product in your product catalog, choose it from the lookup. This is optional and allows for flexibility to manage more of the customer's assets even if the asset did not originate from your product catalog. One example is if the field service organization takes over managing existing assets from a different manufacturer or supplier. 
+- **Product**: If the customer asset correlates with a product in your product catalog, choose it from the lookup. This allows for flexibility in your asset management, even if the asset did not originate from your product catalog. One example might be if a field service organization takes over managing existing assets from a different manufacturer or supplier. 
 
-**Parent Asset:** Field Service supports hierarchical customer asset structures. As an example, a part can be the child of a widget, which is the child of a machine and you can have as many parent-child relationships as needed. Use this field to identify the direct parent of this customer asset. The **Master Asset** shows the top level parent in the relationship automatically. In addition, you can use the **Sub Asset** grid on the form to add child customer assets. 
+- **Parent Asset**: Field Service supports hierarchical customer asset structures. For example, a part can be the child of a widget, which is the child of a machine. You can have as many parent-child relationships as needed. Use this field to identify the direct parent of this customer asset. The **Master Asset** shows the top-level parent in the relationship automatically. Additionally, you can use the **Sub Asset** grid on the form to add child customer assets. 
 
- **Save**.  
+ Don't forget to **Save**.  
    
 ### Automatically create customer assets from work order products  
 
-Customer assets can also be created automatically when a work order product is used during a work order.
+Customer assets can also be created automatically when a work order product is used when the work is being done.
 
-First go to the Product in the product catalog you would like to become a customer asset when it is sold to a customer (i.e. added to a work order and used).
+First, find the product in the product catalog you would like to make a customer asset when it's sold to a customer (or in other words, added to a work order and used).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customer-asset-product-convert-to-customer-asset.png)
+> ![Screenshot of a product on the Field Service tab](./media/customer-asset-product-convert-to-customer-asset.png)
 
-In the Field Service section of the product record, set **Convert to Customer Asset** to **Yes**. 
+In the **Field Service** section of the product record, set **Convert to Customer Asset** to **Yes**. 
 
 > [!Note]
-> Services cannot become customer assets, only products where Field Service Product Type = Inventory or Non-inventory.
+> Services cannot become customer assets, only products where **Field Service Product Type** = **Inventory** or **Non-inventory**.
 
-Next add the product to a work order, thus creating a work order product. this can be done manually or automatically when a work order incident type is added.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customer-asset-product-used.png)
-
-Add a **Quantity** and set **Line Status** to **Used** on the work order product indicating it was consumed during the work order. This is most commonly done on Field Service Mobile by a field technician. 
-
+Next, add the product to a work order, which will create a work order product. This can be done manually or automatically when a work order incident type is added.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customer-asset-work-order-complete.png)
+> ![Screenshot of a work order on the Product tab showing the quantity and line status of a product](./media/customer-asset-product-used.png)
 
-Now, when a work order is completed, by changing the work order system status to **Open-Completed**, if the work order includes a work order product that was set to **Convert to Customer Asset**, the system will automatically generate the customer asset record, and associate it with the service account listed on the work order.
+Add a **Quantity** and set **Line Status** to **Used** on the work order product, indicating it was consumed during the work order. This is most commonly done on Field Service Mobile by a field technician. 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customer-asset-auto-new-list.png)
-
-Unlike manually created customer assets, ones created from work order products will have a link to the work order product. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customer-asset-auto-new-form.png)
+> ![Screenshot of a work order showing the system status set to Open-Completed](./media/customer-asset-work-order-complete.png)
+
+When a work order system status is set to **Open-Completed**, the system will automatically generate the customer asset record and associate it with the service account listed on the work order.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a list of active customer assets](./media/customer-asset-auto-new-list.png)
+
+Unlike manually created customer assets, automatically generated customer assets created from work order products will include a link to the work order product. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a customer asset with the related work order product](./media/customer-asset-auto-new-form.png)
 
   
 ## Build service history 
 
-After customer assets are created you can track repairs, inspections, tests, IoT telemetry, and issues to build service history. Understanding service history is important for making better repair decisions, maintaining asset lifespan and uptime, and ultimately keeping the customer happy.
+After customer assets are created, you can track repairs, inspections, tests, IoT data, and issues to build out a service history. Understanding service history is important for making better repair decisions, maintaining asset lifespan and uptime, and ultimately keeping customers happy. There are a few ways to build out a service history, including: 
 
-### Notes on timeline
+- With notes on the timeline
+- Work orders
+- With agreements
 
-The simplest and crudest way to build service history is to use notes and the timeline feature available on Dynamics 365 forms.
+### With notes on timeline
 
-As an example, from Field Service Mobile, the field technician can navigate to the customer asset record and add a note.
+The simplest way to build service history is to use notes and the timeline feature available on Dynamics 365 forms.
+
+For example, from Field Service Mobile, the field technician can navigate to the customer asset record and add a note.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customer-asset-note-mobile-install.png)
+> ![Screenshot of Field Service Mobile showing a list of customer assets](./media/customer-asset-note-mobile-install.png)
 
-Beyond typing text, Field Service Mobile allows you to add pictures, videos, and voice recordings with notes.
+Beyond just text, you can also add pictures, videos, and voice recordings with notes in Field Service Mobile.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customer-asset-note-web-install.png)
+> ![Screenshot of a customer asset showing the timeline with a note](./media/customer-asset-note-web-install.png)
 
-Notes will appear in the customer asset form timeline and things like pictures will show as attachments.
+Notes will appear in the customer asset form timeline and other elements like pictures will show as attachments.
 
-One drawback of using notes and the timeline is it is less organized and hard to report on or create metrics for. As an example, imagine as a field service organization you want to report on the number of times a specific asset or asset class has needed repairs; the timeline would be too unorganized for this. Using the timeline is better for anecdotal notes that give field technicians tips and context.
+One drawback of using notes and the timeline is that it's less organized and hard to report on or create metrics for. For example, imagine as a field service organization you want to report on the number of times a specific asset or asset class has needed repairs; the timeline would be too unorganized for this. Using the timeline is better for anecdotal notes that give field technicians context or tips.
 
 ### With work orders
 
 A standard and more organized way to build service history is to note the customer asset on work order incidents.
 
-As a reminder, incident types are common and distinct issues that serve as work order templates and automatically add details like work order type, work order products, services, and tasks. See the topic on [Creating work order templates with incident types](./configure-incident-types.md).
+As a reminder, incident types are common and distinct issues that serve as work order templates and automatically add details like work order type, work order products, services, and tasks. For more information, see the article on [creating work order templates with incident types](./configure-incident-types.md).
 
-The first and most important work order incident type can be added directly from the main work order form in the Primary Incident Type field. If the incident type is for example an inspection, and the purpose is to inspect a specific asset at the work order location (service account) then add a **Primary Incident Customer Asset**.
+The most important work order incident type can be added directly from the main work order form in the **Primary Incident Type** field. For example, if the incident type is an inspection, and the purpose is to inspect a specific asset at the work order location (service account), then add a **Primary Incident Customer Asset**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customer-asset-primary-incident.png)
+> ![Screenshot of a work order showing the primary incident customer asset](./media/customer-asset-primary-incident.png)
 
-Keep in mind you can add multiple work order incidents to a work order by going to **Related >  Incidents > +New Work Order Incidents** and each incident can be related to the same or different customer assets as long as they all belong to the same service account.
+Keep in mind you can add multiple work order incidents to a work order by going to **Related** >  **Incidents** > **+New Work Order Incidents** and each incident can be related to the same or different customer assets as long as they all belong to the same service account.
 
 > [!Note]
 > When noting a customer asset on a work order incident, the customer asset will also be noted on all work order products, services, and service tasks that result from that work order incident.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customer-asset-product-asset-relation.png)
+> ![Screenshot of a work order product showing the related customer asset](./media/customer-asset-product-asset-relation.png)
 
 Any time a customer asset appears on a work order incident, the work order will appear in the **Related Work Orders** section of the customer asset. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customer-asset-related-work-orders.png)
+> ![Screenshot of a customer asset showing the related work orders](./media/customer-asset-related-work-orders.png)
 
-This allows managers to easily see a list of all work orders the customer asset is or was the subject of and helps with reporting because you can concretely relate asset details (name, category, product) with work order details (service account, work order type, incident type).
+This allows managers to easily see a list of all work orders the customer asset is or was the subject of, and helps with reporting because you can concretely relate asset details (name, category, product) with work order details (service account, work order type, incident type).
 
 ### With agreements
 
-Similar to using work order incidents, you can also use Agreement Incident types to 
+Similar to using work order incidents, you can also use **Agreement Incident** types to:
 
-1. note which customer asset recurring maintenance is intended for 
-2. ensure recurring maintenance is added to the customer asset service history
+1. Note which customer asset recurring maintenance is intended for 
+2. Make sure recurring maintenance is added to the customer asset service history
 
-For more information on agreements, see the topic on [setting up agreements to automatically generate work orders and invoices](../field-service/set-up-customer-agreements.md).  
+For more information on agreements, see the article on [setting up agreements to automatically generate work orders and invoices](../field-service/set-up-customer-agreements.md).  
 
-After creating an Agreement, and then adding a related Agreement Booking Setup, you can add an Agreement Booking Incident. 
+After creating an agreement, and then adding a related **Agreement Booking Setup**, you can add an **Agreement Booking Incident**. 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customer-asset-agreement-incident.png)
+> ![Screenshot of an agreement booking incident showing the related customer asset](./media/customer-asset-agreement-incident.png)
 
-You can then note a customer asset on the Agreement Boooking Incident.
+You can then note a customer asset on the **Agreement Booking Incident**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customer-asset-agreement-setup.png)
+> ![Screenshot of the agreement booking setup showing the related incidents](./media/customer-asset-agreement-setup.png)
 
 When work orders are generated from the agreement and agreement booking setup, the incidents with their respective customer asset relationships will be added to the work orders as well.
 
@@ -174,43 +178,41 @@ Just like work order incidents, you can add multiple agreement incidents that wi
 
 ## Customer assets with Connected Field Service
 
-Lastly, Connected Field Service (CFS) utilizes assets to make better use of IoT telemetry.
+Connected Field Service (CFS) uses assets to make better use of IoT data.
 
-See the video on ![Video symbol](../field-service/media/video-icon.png "Video symbol") [setting up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk) for basic configuration. 
+See basic configuration information, see this [video on setting up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk). 
 
-CFS has an entity called Devices which represent Internet-connected sensors. An example is a thermometer that measures temperature or a hygrometer that measures humidity. CFS allows you to relate the devices to customer assets in a 1:many relationship meaning one customer asset can have many related devices. For a example, a single HVAC unit (customer asset) can have multiple device sensors (thermometer and hygrometer) that send readings to Azure IoT and CFS. 
+CFS has an entity called **Devices**, which represent Internet-connected sensors. An example is a thermometer that measures temperature or a hygrometer that measures humidity. CFS allows you to relate the devices to customer assets in a one-to-many relationship, meaning one customer asset can have many related devices. For example, a single HVAC unit (customer asset) can have multiple device sensors (thermometer and hygrometer) that send readings to Azure IoT and CFS. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customer-asset-iot-device.png)
+> ![Screenshot of a customer asset showing a list of connected devices](./media/customer-asset-iot-device.png)
 
 From a customer asset, you can relate devices in the **Connected Devices** section.
 
-Simply create a new connection and choose the device and the **Connected IoT Device** role. 
+Create a new connection and choose the device and the **Connected IoT Device** role. 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customer-asset-iot-device-connect.png)
+> ![Screenshot of a new connection showing the Connect To tab](./media/customer-asset-iot-device-connect.png)
 
 
-In practice, this means IoT alerts for a specific sensor will also tag the related customer asset, and if a work order is created from the IoT alert it will note the alert and the asset.
+In practice, this means IoT alerts for a specific sensor will also tag the related customer asset, and if a work order is created from the IoT alert, it will note the alert and the asset.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customer-asset-iot-alert.png)
+> ![Screenshot of an IoT alert showing the related customer asset](./media/customer-asset-iot-alert.png)
 
 ## Configuration considerations
-- A used work order product with quantity of 2 will not create 2 customer asset records, but there will be a lookup reference to the work order product that will show the exact quantity.
-- It is common to add custom serial number, barcode, and QR code fields to customer assets for more specific tracking. The Field Service Mobile app supports barcode scanning to populate fields and locate records in the system.
-- Only products where Field Service Product Type = Inventory or Non-inventory can be added to work orders so only those products can be automatically converted to customer assets. However, when manually creating a customer asset you can add all products. 
+- A used work order product with quantity of **2** won't create two customer asset records; there will be a lookup reference to the work order product that will show the exact quantity.
+- It's common to add custom serial number, barcode, and QR code fields to customer assets for more specific tracking. The Field Service Mobile app supports barcode scanning to populate fields and locate records in the system.
+- Only products where **Field Service Product Type** is set to **Inventory** or **Non-inventory** can be added to work orders. Only those products can be automatically converted to customer assets. However, when manually creating a customer asset, you can add all products. 
 
 
 ## Additional notes
-- [Booking alerts](./booking-alert.md) , which can display helpful reminders on the schedule board, can be related to customer assets, among many other records.
-- Field Service Mobile supports [adding 3D models to customer assets](../field-service/3D-viewer.md) that serve as three-dimensional knowledge articles and give technicians a better idea of the asset they are servicing.
+- [Booking alerts](./booking-alert.md), which can display helpful reminders on the schedule board, can be related to customer assets, among many other records.
+- Field Service Mobile supports [adding 3D models to customer assets](../field-service/3D-viewer.md) that serve as three-dimensional knowledge articles. 3D models give technicians a better idea of the asset they're working on.
   
 ### See also    
-[Create work order templates with incident types](../field-service/configure-incident-types.md) 
-
-[Set up agreements to automatically generate work orders and invoices](../field-service/set-up-customer-agreements.md)
-
-[Adding 3D models to customer assets](../field-service/3D-viewer.md)    
+- [Create work order templates with incident types](../field-service/configure-incident-types.md) 
+- [Set up agreements to automatically generate work orders and invoices](../field-service/set-up-customer-agreements.md)
+- [Adding 3D models to customer assets](../field-service/3D-viewer.md)    
  
