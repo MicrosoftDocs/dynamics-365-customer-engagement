@@ -1,5 +1,5 @@
 ---
-title: Customer searning catalog
+title: Customer service learning catalog
 description: Find all the training options for customer service.
 author: loreleishannonmsft
 ms.topic: article
@@ -8,11 +8,8 @@ ms.author: loreleishannonmsft
 
 ---
 
-
 # Customer Service Learning Catalog
 Find the right online training, in person workshops, and events for your role in Customer Service for Dynamics 365.
-
-
 
 <!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
 
