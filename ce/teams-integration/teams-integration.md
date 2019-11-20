@@ -2,7 +2,7 @@
 title: "Integrate model-driven apps in Dynamics 365 with Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Integrate model-driven apps in Dynamics 365 with Microsoft Teams."
-ms.date: 10/16/2019
+ms.date: 11/19/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -36,6 +36,9 @@ Dynamics 365 for Microsoft Teams integration enables users to easily work with C
 - **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t a Dynamics 365 apps user.
 - **File integration**: Co-author documents using Office 365 and automatically sync to Common Data Service. 
 - **Microsoft Teams mobile app**: Search from Microsoft Teams mobile app using the Dynamics 365 bot while on the go. 
+- **Dynamics 365 assistant application for Teams**: The Dynamics 365 assistant app is available on Microsoft Teams as part of the existing Dynamics 365 app. The app provides sellers with a simple-to-use experience by combining data from multiple sources such as Office 365 and Dynamics 365. For more information see, [Dynamics 365 assistant application for Teams](https://docs.microsoft.com/dynamics365/ai/sales/overview-dynamics-365-assistant-app-teams).
+
+This is included with TEams app. 
 
 > [!div class="mx-imgBorder"] 
 > ![Features of Microsoft Teams app](media/teams-intro.png "Features of Microsoft Teams app")
