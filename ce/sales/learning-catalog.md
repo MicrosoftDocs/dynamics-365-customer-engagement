@@ -10,8 +10,6 @@ ms.author: loreleishannonmsft
 # Sales learning catalog
 Find the right online training, in person workshops, and events for your role in sales for Dynamics 365.
 
-
-
 <!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
 
 :::row:::
