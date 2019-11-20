@@ -29,8 +29,9 @@ If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-
 
    > [!NOTE]
    > - Microsoft Teams integration is not supported on Dynamics 365 Customer Engagement (on-premises).
+   > - Microsoft Teams integration is not supported on Common Data Service only environment without model-driven apps.
 
-Dynamics 365 for Microsoft Teams integration enables users to easily work with Common Data Service customer information and share files directly from Microsoft Teams. This helps them to be more productive and get work done more effectively. 
+Dynamics 365 for Microsoft Teams integration enables users to easily work with model-driven apps customer information and share files directly from Microsoft Teams. This helps them to be more productive and get work done more effectively. 
 
 - **Collaboration hub**: Access a shared workspace for Office apps that most of us already use to work sales opportunities.  
 - **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t a Dynamics 365 apps user.
