@@ -22,7 +22,7 @@ Find the right online training, in person workshops, and events for your role in
 
     [Business and Technical Decision Makers Learning Catalog](learning-bus-decision_makers.md)
    
-    :::column-end:::
+        :::column-end:::
     :::column:::
 
     ### Business users
@@ -35,10 +35,10 @@ Find the right online training, in person workshops, and events for your role in
 
     [Core platform knowlege](learning-bus-user.md#core-platform)
 
-:::column-end:::
-:::row-end:::
-:::row:::
-:::column:::
+        :::column-end:::
+    :::row-end:::
+    :::row:::
+        :::column:::
 
     ### Developers
 
@@ -50,7 +50,7 @@ Find the right online training, in person workshops, and events for your role in
 
     [Extend](learning-developer.md#extend)
 
-    :::column-end:::
+        :::column-end:::
     :::column:::
 
     ### Implementation project managers
@@ -63,10 +63,10 @@ Find the right online training, in person workshops, and events for your role in
 
     [Core Platform Knowlege](learning-project_manager.md#core-platform)
 
-:::column-end:::
-:::row-end:::
-:::row:::
-:::column:::
+        :::column-end:::
+    :::row-end:::
+    :::row:::
+        :::column:::
 
     ### Functional consultants
     
@@ -80,7 +80,7 @@ Find the right online training, in person workshops, and events for your role in
 
     [Exams](learning-functional-consultant.md#exam)
 
-    :::column-end:::
+        :::column-end:::
     :::column:::
 
     ### Partner sales and marketing
