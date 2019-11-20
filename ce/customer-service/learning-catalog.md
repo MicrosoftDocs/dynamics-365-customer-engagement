@@ -23,6 +23,9 @@ Find the right online training, in person workshops, and events for your role in
 
     [Business and Technical Decision Makers Learning Catalog](learning-bus-decision_makers.md)
 
+        :::column-end:::
+    :::column:::
+
     ### Business users
 
     Did you just get a new application to use?
