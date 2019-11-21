@@ -95,13 +95,13 @@ To rename the Flow, select **Edit**, type the name of the flow as **Entity Recor
 
 ### Issue 3:
 
-There may be an issue in the **Entity Records Distribution Flow**.
+There may be an issue with customizations in the **Entity Records Distribution Flow**.
 
 ### Resolution:
 
-Go to **Entity Records Distribution Flow** and review your customization made to the flow.
+Go to **Entity Records Distribution Flow** and review your customization made to the flow. 
 
-To resolve the issue, perform steps 1 through 8 in the [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow) topic. Review and resolve the error that is due to your customizations.
+Review and resolve the error that is due to your customizations. For more information, see [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
 
 ## Entity Records are not routed and distributed to agents
 
