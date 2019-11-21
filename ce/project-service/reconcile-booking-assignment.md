@@ -87,12 +87,14 @@ To ensure accurate and predictable results when using Extend Bookings there are 
  	 
  	 
 When the user navigates to the reconciliation view, the resource assignments and the associated booking shortages will be displayed as follows:
- 
+ ![reconciliation view before extension](media/reconcile-assignments-10.png)
 
 After the Extend Bookings has been executed on each resource, since each resource’s working hours overlapped with the contours of the shortage, we were able to successfully extend bookings for each resource.
- 
+ ![reconciliation view after extension](media/reconcile-assignments-11.png) 
 
 However, a closer look at the details of the bookings shows differences in the start time of the bookings.  The bookings will start no earlier than the start time of the assignment contour and no earlier than the available start time of the resource:
+ ![new bookings of the resources in the schedule board](media/reconcile-assignments-12.png)
+
 •	For Res A, since this resource has the same calendar as the project, the start time will be 9:00A.
 •	For Res B, even though this resource starts to work at 7:00A, the bookings will begin at 9:00A as that is the earliest start time of the assignment contour.
 •	For Res C and Res D, their bookings start no earlier than their respective available start times.
