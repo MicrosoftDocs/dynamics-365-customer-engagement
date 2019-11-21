@@ -9,7 +9,7 @@
 ### [Work with views (lists)](work-with-views.md)
 ### [Manager your customers](manage-accounts-contacts.md)
 ### [Manage tasks, appointments, email, or phone calls](manage-activities.md)
-### [Learning Catalog for Sales Professional and Sales Enterprise](learning-catalog.md)
+### [Learning Catalog](learning-catalog.md)
 #### [Business Decision Maker](learning-bdm.md)
 #### [Business User](learning-bus-user.md)
 #### [Implementation Project Manager](learning-project-manager.md)
