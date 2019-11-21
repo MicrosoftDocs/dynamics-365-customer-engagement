@@ -70,7 +70,7 @@ To ensure accurate and predictable results when using Extend Bookings there are 
  
 2.	The Bookable Resource must have at least 1 minute of overlapping working time with the contours used to define the requested extension.   For the example we will review, the resources with the following working hours:
 
-![cpmparison of resource contours](media/reconcile-assignments-05.JPG)
+![cpmparison of resource contours](media/reconcile-assignments-05.png)
 
 |Entity  |Calendar  |
 |-|-|
