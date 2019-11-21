@@ -18,6 +18,9 @@ manager: annbe
 
 The PDF generation capability allows your users to generate PDF documents directly from sales records. The capability to create PDF documents is supported on the following entities: Accounts, Contacts, Leads, Opportunities, Quotes, Orders, and Invoices. You can select the entities on which you want to enable PDF generation.
 
+> [!IMPORTANT]
+> The PDF generation capability for additional entities (entities other than quote) is released with Dynamics 365 Sales (Sales Hub) app version: 9.0.1911.1009, as part of weekly release of the product to individual geographies.
+
 1.	At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
 
 2.	Under **Sales Administration**, select **PDF generation**.
