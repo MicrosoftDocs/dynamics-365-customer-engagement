@@ -7,7 +7,6 @@ ms.service: "dynamics365-customer-service"
 ms.author: v-lshann
 author: loreleishannonmsft
 ---
-
 # Customer Service Learning Catalog
 Find the right online training, in person workshops, and events for your role in Dynamics 365 Customer Service. 
 
@@ -18,44 +17,16 @@ Find the right online training, in person workshops, and events for your role in
     :::column:::
 <!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
 
-    ### Materials for functional consultants
-    
-    Are you an implementation expert for a business domain?
+    ### Business and technical decision makers
 
-    [Functional Consultants Learning Catalog](learning-functional-consultant.md)
+    Do you decide whether to invest in new technologies?
 
-    [Get started](learning-functional-consultant.md#get-started)
+    [Business and Technical Decision Makers Learning Catalog](learning-bus-decision_makers.md)
 
-    [Core Platform Knowlege](learning-functional-consultant.md#core-platform)
-
-    [Exams](learning-functional-consultant.md#exam)
-
-:::column-end:::
+        :::column-end:::
     :::column:::
 
-    ### Materials for implementation project managers
-
-    Are you in charge of making sure your company’s implementation goes smoothly?
-
-    [Project Managers Learning Catalog](learning-project_manager.md)
-
-    [Get started](learning-project_manager.md#get-started)
-
-:::column-end:::
-:::row-end:::
-:::row:::
-:::column:::
-
-    ### Materials for sales roles
-
-    Are you in charge of the planning and execution of a project?
-
-    [Sales Learning Catalog](learning-sales.md)
-
-:::column-end:::
-    :::column:::
-
-    ### Materials for business users
+    ### Business users
 
     Did you just get a new application to use?
 
@@ -70,25 +41,52 @@ Find the right online training, in person workshops, and events for your role in
 :::row:::
 :::column:::
 
-    ### Materials for business and technical decision makers
-
-    Do you decide whether to invest in new technologies?
-
-    [Business and Technical Decision Makers Learning Catalog](learning-bus-decision_makers.md)
-
-:::column-end:::
-    :::column:::
-
-    ### Materials for developers
+    ### Developers
 
     Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?
-
 
     [Developers Learning Catalog](learning-developer.md)
 
     [Build](learning-developer.md#build)
 
     [Extend](learning-developer.md#extend)
+
+    :::column-end:::
+    :::column:::
+
+    ### Implementation project managers
+
+    Are you in charge of making sure your company’s implementation goes smoothly?
+
+    [Project Managers Learning Catalog](learning-project_manager.md)
+
+    [Get started](learning-project_manager.md#get-started)
+
+    :::column-end:::
+:::row-end:::
+:::row:::
+:::column:::
+
+    ### Functional consultants
+    
+    Are you an implementation expert for a business domain?
+
+    [Functional Consultants Learning Catalog](learning-functional-consultant.md)
+
+    [Get started](learning-functional-consultant.md#get-started)
+
+    [Core Platform Knowlege](learning-functional-consultant.md#core-platform)
+
+    [Exams](learning-functional-consultant.md#exam)
+
+    :::column-end:::
+    :::column:::
+
+    ### Partner sales and marketing
+
+    Are you responsible for helping your customers buy the right solution?
+
+    [Sales Learning Catalog](learning-sales.md)
 
      :::column-end:::
 :::row-end:::
