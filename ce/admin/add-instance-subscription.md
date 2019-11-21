@@ -2,7 +2,7 @@
 title: "Add an instance to your subscription  | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 10/01/2019
+ms.date: 11/21/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite:
@@ -144,7 +144,7 @@ You can add Production and non-Production (Sandbox) instances to a subscription.
 
 - If you do not assign a security group to an instance, the instance will show up in the **Instances** tab (instance picker) in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] even for those who have not been assigned a security role in that instance.
 
-- You cannot make security groups members of other security groups.
+- Nested security groups are not supported.
 
 > [!NOTE]
 > All licensed users, whether or not they are members of the security groups, must be assigned security roles to access model-driven apps in Dynamics 365. You assign the security roles in the web application. Users can’t access instances until they are assigned at least one security role for that instance. More information: [Grant users access](../admin/grant-users-access.md).
