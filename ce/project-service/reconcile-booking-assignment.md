@@ -72,7 +72,20 @@ To ensure accurate and predictable results when using Extend Bookings there are 
 
 ![cpmparison of resource contours](media/reconcile-assignments-05.JPG)
 
-Resource	Calendar
+|Entity  |Calendar  |
+|--|--|
+|Project   |  |
+|--|--|
+|Resource A  |  |
+|--|--|
+|Resource B  |  |
+|--|--|
+|Resource C  |  |
+|--|--|
+|Resource D  |  |
+
+
+
  	 
  	 
  	 
