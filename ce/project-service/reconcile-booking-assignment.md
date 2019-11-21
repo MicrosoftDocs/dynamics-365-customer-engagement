@@ -74,15 +74,15 @@ To ensure accurate and predictable results when using Extend Bookings there are 
 
 |Entity  |Calendar  |
 |--|--|
-|Project   |  |
+|Project   | ![project calendar](media/reconcile-assignments-06.JPG) |
 |--|--|
-|Resource A  |  |
+|Resource A  | ![Resource A calendar](media/reconcile-assignments-06.JPG) |
 |--|--|
-|Resource B  |  |
+|Resource B  |  ![Resource B calendar](media/reconcile-assignments-07.JPG) |
 |--|--|
-|Resource C  |  |
+|Resource C  |  ![Resource C calendar](media/reconcile-assignments-08.JPG) |
 |--|--|
-|Resource D  |  |
+|Resource D  | ![Resource D calendar](media/reconcile-assignments-09.JPG)  |
 
 
 
