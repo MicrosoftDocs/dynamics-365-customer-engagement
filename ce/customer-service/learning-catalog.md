@@ -4,7 +4,8 @@ description: Find training for Dynamics 365 Customer Service.
 ms.topic: article
 ms.date: 10/31/2019
 ms.service: "dynamics365-customer-service"
-ms.author: loreleishannonmsft
+ms.author: v-lshann
+author: loreleishannonmsft
 ---
 
 # Customer Service Learning Catalog
