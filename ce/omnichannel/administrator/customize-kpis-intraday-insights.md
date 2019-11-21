@@ -156,7 +156,7 @@ The following are the list of tables with entity attributes that are supported i
 - [Queue](#queue)
 - [RoleBase](#rolebase)
 - [Session](#session)
-- [SessionParticipants](#sessionparticipants)
+- [SessionParticipant](#sessionparticipant)
 - [WorkItem](#workitem)  
 - [WorkStream](#workstream)
 
@@ -268,7 +268,7 @@ The Session table consists of the following entity attributes:
 
 To learn more, see [msdyn_ocsession Entity Reference](../developer/reference/entities/msdyn_ocsession.md).
 
-### SessionParticipants
+### SessionParticipant
 
 - `Agent Handling Time`
 - `AgentName`
