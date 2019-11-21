@@ -68,13 +68,13 @@ To ensure accurate and predictable results when using Extend Bookings there are 
 ![Time zone settings in personalization settings](media/reconcile-assignments-04.png)
  	 
  
-2.	The Bookable Resource must have at least 1 minute of overlapping working time with the contours used to define the requested extension.   For the example we will review, the resources with the following working hours:
+2.	The Bookable Resource must have at least 1 minute of overlapping working time with the contours used to define the requested extension.   For this example, we will reiew resources with the following working hours:
 
 ![cpmparison of resource contours](media/reconcile-assignments-05.png)
 
 |Entity  |Calendar  |
 |-|-|
-|Project   | ![project calendar](media/reconcile-assignments-06.png) |
+|Project Calendar Template   | ![project calendar](media/reconcile-assignments-06.png) |
 |Resource A  | ![Resource A calendar](media/reconcile-assignments-06.png) |
 |Resource B  |  ![Resource B calendar](media/reconcile-assignments-07.png) |
 |Resource C  |  ![Resource C calendar](media/reconcile-assignments-08.png) |
