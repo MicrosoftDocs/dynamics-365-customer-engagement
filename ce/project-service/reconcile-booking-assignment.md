@@ -59,15 +59,18 @@ You can also use the **Previous** and **Next** buttons above the grid to move th
 
 In situations where you have task assignments for a resource but no bookings, you can select the booking shortage and then select **Extend Booking**. You can then see the booking that is required in order to address the resource's shortage. You can also view the resource's bookings on the current project and other projects. Select **OK** to create the booking for the resource without regard to current availability. The project manager or resource manager can then use Schedule Board to manage situations where a resource has become overbooked beyond capacity because its bookings were extended.
 
+##Managing with Time Zones##
 To ensure accurate and predictable results when using Extend Bookings there are two key prerequisites that must be observed:  
 1.	The user must configure their device's time zone to match the time zone defined in CRM personalization settings.   See example below with Windows 10:
  
  
+![Time zone settings in Windows 10](media/reconcile-assignments-03.png)
+![Time zone settings in personalization settings](media/reconcile-assignments-04.png)
  	 
  
 2.	The Bookable Resource must have at least 1 minute of overlapping working time with the contours used to define the requested extension.   For the example we will review, the resources with the following working hours:
 
-
+![cpmparison of resource contours](media/reconcile-assignments-05.JPG)
 
 Resource	Calendar
  	 
