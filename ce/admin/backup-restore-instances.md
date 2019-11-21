@@ -2,7 +2,7 @@
 title: "Back up and restore instances  | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 10/17/2019
+ms.date: 11/18/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -39,7 +39,7 @@ Protecting your data in model-driven apps in Dynamics 365, such as Dynamics 365 
   
 - System backups occur continuously.  Since we use Azure SQL, see [Azure Sql automated backups](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups) for details.
   
-- System backups are retained up to 28 days. Check your expiration date.
+- System backups for production-type instances are retained up to 28 days. Other instance-type backups are retained up to 7 days. Check your expiration date.
 
 > [!NOTE]
 > We are working on updating the expiration date interface. Correct dates will show once this work is completed.
@@ -78,13 +78,13 @@ Protecting your data in model-driven apps in Dynamics 365, such as Dynamics 365 
   
  About Dynamics 365 apps managed **on-demand backups**:  
   
-- You can back up Production and Sandbox instances.  
+- You can back up production and Sandbox instances.  
   
-- **You can only restore to a Sandbox instance**. To restore to a Production instance, first switch it to a Sandbox instance. See [Switch an instance](../admin/switch-instance.md).  
+- **You can only restore to a Sandbox instance**. To restore to a production instance, first switch it to a Sandbox instance. See [Switch an instance](../admin/switch-instance.md).  
   
 - Only [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] or later versions are supported for backup.  
   
-- On-demand backups are retained for up to 28 days. Check your expiration date.  
+- On-demand backups are retained for up to 7 days. Check your expiration date.  
   
   ![On-demand backup expiration date](../admin/media/on-demand-backup-expiration-date.png "On-demand backup expiration date")  
   
@@ -147,7 +147,10 @@ Protecting your data in model-driven apps in Dynamics 365, such as Dynamics 365 
 <a name="BKMK_RestoreBackups"></a>   
 
 ### Restore an on-demand backup  
- You can only restore to Sandbox instances. To restore to a Production instance, first switch it to a Sandbox instance, restore to it, and then switch it back to a Production instance. See [Switch an instance](../admin/switch-instance.md).  
+You can only restore to Sandbox instances. To restore to a production instance, first switch it to a Sandbox instance. See [Switch an instance](switch-instance.md).
+
+> [!IMPORTANT]
+> Note that changing an instance type to Sandbox will immediately reduce backup retention to 7 days. If you do not need backups (restore points) older than 7 days, then you can safely switch the type. If you think you may need restore points older than 7 days, we strongly recommend that you keep the instance as production and consider restoring to a different instance of type Sandbox.
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with System Administrator or Delegated Admin security roles.  
   
@@ -211,7 +214,7 @@ No. In the current version of the product, system backups occur continuously; th
 Since Azure SQL takes continuous backups and no specific way to take additional on-demand backups, we recommend you use our on-demand backup feature to label your backups. 
 
 ### How long are my manual/on-demand backups and system backups retained?
-Both manual backups and system backups are retained for 28 days. We currently do not show all the available system backups. We plan to show the full range of available backups in the future.
+System backups for production-type instances are retained up to 28 days. Other instance-type backups are retained up to 7 days.
 
 ### Can I extend my backup to be retained beyond the standard number of days?
 You can't extend your system backups or manual/on-demand backups. However, if you want to keep the data for longer than the standard retention period, we recommend you copy your instance to an additional instance and do not modify that additional instance. 
@@ -222,8 +225,8 @@ Obtaining a copy of your database backup isn't available. If you want to move yo
 ### Do we have any database size restriction to take a backup or restoring an organization through user interface (UI) or API?
 We do not have any restriction on database size to take a backup or restore an organization through UI or API. So please use the UI or API to do self-service. Open a support ticket if the operation fails.
 
-### Can I restore to a Production instance?
-In order to prevent accidental overwrites, we don't allow users to restore to a Production instance directly. To restore to a Production instance, first switch it to a Sandbox instance. Please see [Switch an instance](../admin/switch-instance.md).   
+### Can I restore to a production instance?
+In order to prevent accidental overwrites, we don't allow users to directly restore to a production instance. To restore to a production instance, first switch it to a Sandbox instance. See [Switch an instance](switch-instance.md). Note that changing an instance type to Sandbox will immediately reduce backup retention to 7 days. If you do not need backups (restore points) older than 7 days, then you can safely switch the type. If you think you may need restore points older than 7 days, we strongly recommend that you keep the instance as production and consider restoring to a different instance of type Sandbox.
 
 ### Why is my organization in administration mode after a restore and how do I disable it?
 The newly restored instance is placed in administration mode. To disable administration mode, see [Set administration mode](manage-sandbox-instances.md#set-administration-mode).  
