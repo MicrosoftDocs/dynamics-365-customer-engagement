@@ -10,6 +10,13 @@
 ### [Manager your customers](manage-accounts-contacts.md)
 ### [Manage tasks, appointments, email, or phone calls](manage-activities.md)
 ### [Learning Catalog for Sales Professional and Sales Enterprise](learning-catalog.md)
+#### [Business Decision Maker](learning-bdm.md)
+#### [Business User](learning-bus-user.md)
+#### [Implementation Project Manager](learning-project-manager.md)
+#### [Administrator](learning-administrator.md)
+#### [Developer](learning-developer.md)
+#### [Functional Consultant](learning-functional-consultant.md)
+#### [Partner Sales and Marketing](learning-sales.md)
 
 ## User guide
 ### [Help resources for sales people](user-guide.md)
