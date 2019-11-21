@@ -6,7 +6,7 @@ manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 03/25/2019
+ms.date: 11/21/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
