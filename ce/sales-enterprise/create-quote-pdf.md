@@ -24,10 +24,10 @@ The capability to create PDF documents is available on the following entities: A
 Your system administrator can choose the entities on which PDF generation is enabled. 
 
 > [!IMPORTANT]
-> If you do not see the **Create PDF** and **Email as PDF** options on one of the supported entity records, it might be because your system administrator hasn't enabled the PDF-generation capability for that entity. In this case, check with your system administrator.
+> - The PDF generation capability for additional entities (entities other than quote) is released with Dynamics 365 Sales (Sales Hub) app version: 9.0.1911.1009, as part of weekly release of the product to individual geographies.
+> - If you do not see the **Create PDF** and **Email as PDF** options on one of the supported entity records, it might be because your system administrator hasn't enabled the PDF-generation capability for that entity. In this case, check with your system administrator.
 
 1.	Open the entity record for which you want to create a PDF document. For example, open a quote record.
-
 
 2.	On the command bar, select **Create PDF** and then select a template on which you want to create the PDF. 
 
