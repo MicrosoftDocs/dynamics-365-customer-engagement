@@ -37,14 +37,14 @@ Protecting your data in model-driven apps in Dynamics 365, such as Dynamics 365 
   
 - All your instances are backed up.  
   
-- System backups occur continuously.  Since we use Azure SQL, see [Azure Sql automated backups](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups) for details.
+- System backups occur continuously.  Since we use Azure SQL, see [Azure SQL automated backups](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups) for details.
   
 - System backups for production-type instances are retained up to 28 days. Other instance-type backups are retained up to 7 days. Check your expiration date.
 
-> [!NOTE]
-> We are working on updating the expiration date interface. Correct dates will show once this work is completed.
->
-> The retention period specified in Azure SQL documentation may be different from our retention period since we manage the retention period.
+  > [!NOTE]
+  > We are working on updating the expiration date interface. Correct dates will show once this work is completed.
+  >
+  > The retention period specified in Azure SQL documentation may be different from our retention period since we manage the retention period.
 
   ![Expires On column that shows the expiration dates for backups](media/Expires66.png "Expires On column that shows the expiration dates for backups")
 
@@ -52,15 +52,15 @@ Protecting your data in model-driven apps in Dynamics 365, such as Dynamics 365 
   
 - System backups are identified as created by **System** on the **Manage backups** page.  
   
-  ![Back up & Restore tab in the Dynamics 365 Administration Center](../admin/media/backup-and-restore-tab.png "Back up & Restore tab in the Dynamics 365 Administration Center")  
+  ![Backup & Restore tab in the Dynamics 365 Administration Center](../admin/media/backup-and-restore-tab.png "Backup & Restore tab in the Dynamics 365 Administration Center")  
   
 ### See your system backups  
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with System Administrator or Delegated Admin security roles.  
   
-2. Click **Admin centers** > **Dynamics 365**.  
+2. Select **Admin centers** > **Dynamics 365**.  
   
-3. Click the **Backup & Restore** tab.  
+3. Select the **Backup & Restore** tab.  
   
 4. Choose an instance from the **Backups for** drop-down list.  
   
@@ -93,8 +93,7 @@ Protecting your data in model-driven apps in Dynamics 365, such as Dynamics 365 
 - On-demand backups do not count against your storage limits.  
 
 - On-demand backups are identified by having a label you created and by the presence of **Edit** | **Delete** | **Restore** in the details section. System backups have only **Restore**.  
-  
-  ![Edit, Delete, and Restore buttons for on-demand backups.](../admin/media/managed-backup.png "Edit, Delete, and Restore buttons for on-demand backups.")  
+  ![Edit, Delete, and Restore buttons for on-demand backups](../admin/media/managed-backup.png "Edit, Delete, and Restore buttons for on-demand backups")  
   
 <a name="BKMK_CreateCRMBackup"></a>   
 
@@ -102,26 +101,26 @@ Protecting your data in model-driven apps in Dynamics 365, such as Dynamics 365 
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with System Administrator or Delegated Admin security roles.  
   
-2. Click **Admin centers** > **Dynamics 365**.  
+2. Select **Admin centers** > **Dynamics 365**.  
   
-3. Click the **Backup & Restore** tab.  
+3. Select the **Backup & Restore** tab.  
   
 4. Choose an instance from the **Backups for** drop-down list.  
   
-5. Click **New backup**.  
+5. Select **New backup**.  
   
    ![New backup button](../admin/media/new-backup-button.png "New backup button")  
   
 6. Type a label and any notes to help identify this backup for future restoration.  
   
-7. Click **Create**.  
+7. Select **Create**.  
   
    ![Form for creating a new backup.](../admin/media/online-backup.png "Form for creating a new backup.")  
   
    A notification will be displayed to confirm the backup is being created.  The status column in the list provides the status of the backup.  
   
 > [!NOTE]
->  The instance remains available while being backed up.  
+> The instance remains available while being backed up.  
   
 <a name="BKMK_EditBackups"></a>   
 
@@ -130,19 +129,19 @@ Protecting your data in model-driven apps in Dynamics 365, such as Dynamics 365 
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with System Administrator or Delegated Admin security roles.  
   
-2. Click **Admin centers** > **Dynamics 365**.  
+2. Select **Admin centers** > **Dynamics 365**.  
   
-3. Click the **Backup and Restore** tab.  
+3. Select the **Backup & Restore** tab.  
   
 4. Choose an instance from the **Backups for** drop-down list.  
   
 5. Choose an on-demand backup from the list of backups.  
   
-6. Click **Edit**.  
+6. Select **Edit**.  
   
    ![Edit backup button](../admin/media/edit-backup-button.png "Edit backup button")  
   
-7. Change the information as needed, and then click **Save**.  
+7. Change the information as needed, and then select **Save**.  
   
 <a name="BKMK_RestoreBackups"></a>   
 
@@ -154,28 +153,28 @@ You can only restore to Sandbox instances. To restore to a production instance, 
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with System Administrator or Delegated Admin security roles.  
   
-2. Click **Admin centers** > **Dynamics 365**.  
+2. Select **Admin centers** > **Dynamics 365**.  
   
-3. Click the **Backup and Restore** tab.  
+3. Select the **Backup & Restore** tab.  
   
 4. Choose an instance from the **Backups for** drop-down list.  
   
-5. Choose an on demand backup from the list of backups.  
+5. Choose an on-demand backup from the list of backups.  
   
-6. Click **Restore**.  
+6. Select **Restore**.  
   
    ![Restore button](../admin/media/restore-button.png "Restore button")  
   
-7. Click **Select target**  to pick a target instance.  
+7. Select **select target**  to pick a target instance.  
   
-8. Click **Next**. Verify the details, and then click **Restore**.  
+8. Select **next**. Verify the details, and then select **Restore**.  
   
    ![Restore an on-demand backup page](../admin/media/restore-backup-page.png "Restore an on-demand backup page")  
   
    A notification will be displayed confirming that the backup is being restored.  It can take some time for the restoration to complete.  
   
 > [!NOTE]
->  The instance remains unavailable while being restored.  
+> The instance remains unavailable while being restored.  
   
 <a name="BKMK_DeleteCRMBackup"></a>   
 
@@ -184,19 +183,19 @@ You can only restore to Sandbox instances. To restore to a production instance, 
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with System Administrator or Delegated Admin security roles.  
   
-2. Click **Admin centers** > **Dynamics 365**.  
+2. Select **Admin centers** > **Dynamics 365**.  
   
-3. Click the **Backup & Restore** tab.  
+3. Select the **Backup & Restore** tab.  
   
 4. Choose an instance from the **Backups for** drop-down list.  
   
 5. Choose an on-demand backup from the list of backups.  
   
-6. Click **Delete**.  
+6. Select **Delete**.  
   
    ![Delete backup button](../admin/media/delete-backup-button.png "Delete backup button")  
   
-7. Click **Confirm**.  
+7. Select **Confirm**.  
 
 ## FAQ
 
@@ -206,12 +205,12 @@ In the current version of the product, system backups occur continuously; this i
 ### How are manual/on-demand backups taken?
 In the current version of the product, system backups occur continuously; this is different from previous versions where we took backups once a day. Since we use Azure SQL, please see [Azure SQL automated backups](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups) for details.
 
-Since Azure SQL takes backups continuously, there is no need to take additional backups or specify Azure SQL to take additional backups or an on-demand full backup. So our on-demand backup is just a label and a time-stamp that we store in our system and use during restore requests. This is different from previous versions where took a full backup during an on-demand backup. 
+Since Azure SQL takes backups continuously, there is no need to take additional backups or specify Azure SQL to take additional backups or an on-demand full backup. So our on-demand backup is just a label and a time-stamp that we store in our system and use during restore requests. This is different from previous versions where we took a full backup during an on-demand backup. 
 
 ### Should I open a support ticket for taking a full backup?
-No. In the current version of the product, system backups occur continuously; this is different from previous versions where we took backups once a day. Since we use Azure SQL, please see [Azure Sql automated backups](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups) for details.
+No. In the current version of the product, system backups occur continuously; this is different from previous versions where we took backups once a day. Since we use Azure SQL, please see [Azure SQL automated backups](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups) for details.
 
-Since Azure SQL takes continuous backups and no specific way to take additional on-demand backups, we recommend you use our on-demand backup feature to label your backups. 
+Since Azure SQL takes continuous backups and there is no specific way to take additional on-demand backups, we recommend you use our on-demand backup feature to label your backups. 
 
 ### How long are my manual/on-demand backups and system backups retained?
 System backups for production-type instances are retained up to 28 days. Other instance-type backups are retained up to 7 days.
