@@ -85,7 +85,6 @@ manager: shujoshi
   <li><a href="troubleshoot-case-email-issue.md" data-raw-source="[Issue converting an email to a case](troubleshoot-case-email-issue.md)">Issue converting an email to a case</a>
   <li><a href="troubleshoot-sla-timer-issue.md" data-raw-source="[SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)">SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday</a>
 </li>
-  
   <li><a href="troubleshoot-delete-managed-solution.md" data-raw-source="[Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)">Unable to delete a managed solution consisting of an SLA-enabled entity</a></li>
   </ul><br/>  </td>
 
