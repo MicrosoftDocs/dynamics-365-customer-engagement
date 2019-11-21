@@ -18,7 +18,7 @@ Find the right online training, in person workshops, and events for your role in
 
     Do you decide whether to invest in new technologies?
 
-    [Business and Technical Decision Makers Learning Catalog](learning-bus-decision_makers.md)
+    [Business and Technical Decision Makers Learning Catalog](learning-bdm.md)
    
     :::column-end:::
     :::column:::
@@ -57,11 +57,11 @@ Find the right online training, in person workshops, and events for your role in
 
     Are you in charge of making sure your company’s implementation goes smoothly?
 
-    [Project Managers Learning Catalog](learning-project_manager.md)
+    [Project Managers Learning Catalog](learning-project-manager.md)
 
-    [Get started](learning-project_manager.md#get-started)
+    [Get started](learning-project-manager.md#get-started)
 
-    [Core Platform Knowlege](learning-project_manager.md#core-platform)
+    [Core Platform Knowlege](learning-project-manager.md#core-platform)
 
     :::column-end:::
     
