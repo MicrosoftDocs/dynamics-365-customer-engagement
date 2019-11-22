@@ -142,11 +142,10 @@ Many types of entities, including segments, show a tab labelled **Insights**  af
 
 ### The Related tab
 
-Almost all types of entities in Dynamics 365 Marketing include a **Related** tab. Use it to find records that are related to the currently open record. This "tab" is really just a drop-down list where you can select the type of related records you'd like to see. On selecting a record type (entity), a new tab named for that entity is added to the page, where you can see a list of the related records.
+Almost all types of entities in Dynamics 365 Marketing include a **Related** tab. Use it to find records that are related to the currently open record. This "tab" is really just a drop-down list where you can select the type of related records you'd like to see. On selecting a record type (entity), a new tab named for that entity is added to the page, where you can see a list of the related records of the selected type. When you select a new entity from the **Related** tab, it replaces the one currently shown.
 
-For example, to see a list of customer journeys where a segment is used, open the relevant segment, select the **Related** tab and then choose **Customer journeys** from the list. A new tab called **Customer journeys** is added to the form view. Go to this tab to view the list.
-
-When you select a new entity from the **Related** tab, it replaces the one currently shown.
+> [!NOTE]
+> The **Related** tab for segments sometimes includes an entry for **Customer journeys**, but this entry only finds journeys where the current segment is a *suppression segment*. It doesn't find journeys that use the current segment as a target segment. The reason for this is that suppression segments are related directly to the customer journey entity, while target segments are linked to journeys less directly, through a tile configuration, and therefore aren't resolved in the **Related** tab.
 
 ### See also
 

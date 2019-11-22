@@ -58,7 +58,7 @@ Dynamics 365 Channel Integration Framework version 2.0, provides multiple enhanc
 
   More information: [Support for multiple providers](support-multiple-providers.md)
 
-Here are the capabilities offered by Dynamics 365 Channel Integration Framework version 1.0 that also apply to version 2.0:
+Here are the capabilities offered by Dynamics 365 Channel Integration Framework version 1.0:
 
 - **Bring your own channel providers (integrate third-party channel providers)**
 

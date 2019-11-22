@@ -113,7 +113,7 @@ All the data parameters are passed as strings in quotes. For example, `‘[[inci
 
 ### Update Hosting Type to Chrome
 
-It is recommended to update your Hosting Type to Chomre. To learn more, see [Update Unified Service Desk Component type to Chrome](../chrome-process.md).
+It is recommended to update your Hosting Type to Chrome. To learn more, see [Update Unified Service Desk Component type to Chrome](../chrome-process.md).
 
 ### Set unified interface theme
 

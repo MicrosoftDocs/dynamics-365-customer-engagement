@@ -21,7 +21,7 @@ search.app:
 ---
 # Manage instances 
 
-We are transitioning instance management (now called environments) to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). See [Administer PowerApps](https://docs.microsoft.com/en-us/power-platform/admin/admin-guide).
+We are transitioning instance management (now called environments) to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). See [Administer PowerApps](https://docs.microsoft.com/power-platform/admin/admin-guide).
 
 Once you create [Environments](https://docs.microsoft.com/powerapps/environments-overview) provisioned with Common Data Services in the Power Platform Admin center, they will now show up as Common Data Service instances in your [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)].
 
