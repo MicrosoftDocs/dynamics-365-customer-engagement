@@ -32,6 +32,24 @@ In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field
 
 ## Dynamics 365 Field Service
 
+### Version 8.8.7.47
+
+-	Fixed: Removal of Territory from Work Order is not removed from non-primary related requirements.
+-	Fixed: Inappropriate command buttons shown for Opportunity, Quote, and Order Product and Service-based Lines Sub Grids.
+-	Fixed: Field Service Resource privilege exception on create and save of Time Off Request.
+
+### Date, Version #
+
+- This is an example bug fix.
+- This is an example bug fix.
+- This is an example bug fix.
+- This is an example bug fix.
+- This is an example bug fix.
+- This is an example bug fix.
+  
+
+## Connected Field Service (CFS)
+
 ### Date, Version #
 
 - This is an example bug fix. 
@@ -49,7 +67,7 @@ In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field
 - This is an example bug fix.
 - This is an example bug fix.
 - This is an example bug fix.
-  
+
 
 ## Field Service Mobile
 
@@ -74,7 +92,7 @@ In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field
 
 ## Universal Resource Scheduling (URS)
 
-### Nov 2019, Version 3.12.1.158
+### Version 3.12.1.158
 
 - Fixed: Workflows can be triggered when resource requirements are created with any allocation method.
 - Fixed: When upgrading URS from version 2.x to version 3.x, resource filters on the schedule board tabs are preserved. 
