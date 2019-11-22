@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 08/29/2019
+ms.date: 11/22/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: be3d6733-4d16-48d0-b231-6a6a2dd5d939
@@ -27,22 +27,26 @@ All users who are assigned the **Omnichannel administrator**, **Omnichannel supe
 
 Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. For more information, see  [Create users in the Common Data Service platform and assign security roles](../../admin/create-users-assign-online-security-roles.md).
 
-Follow these steps to assign Omnichannel roles to users in the Common Data Service platform:
+Follow these steps to assign roles to users in the **Advanced Settings**:
 
-1. Select **Settings** > **Security** > **Users**.
+1. Select **Settings** > **Advanced Settings** on the command bar. The **Settings** page is displayed in a new browser tab.
 
-2. Select the user or users from the list for whom you want to assign a security role.
+2. Select **Settings** > **Security** > **Users**.
 
-3. Select **Manage Roles** in the menu.
+3. Select the user or users from the list for whom you want to assign a security role.
+
+4. Select **Manage Roles** in the menu.
 
    Only the security roles available for that user's business unit are displayed.
 
-4. In the **Manage User Roles** dialog box, select a security role or roles that you want to provide to the user, and then select **OK**.
+5. In the **Manage User Roles** dialog box, select a security role or roles that you want to provide to the user, and then select **OK**.
     
     - Customer service app access
     - Omnichannel administrator
     - Omnichannel agent
     - Omnichannel supervisor
+    - Productivity tools user (For users of Dynamics 365 Productivity Tools)
+    - Productivity tools administrator (For administrator of Dynamics 365 Productivity Tools)
 
     > [!div class=mx-imgBorder]
     > ![user roles](../media/user-roles.png)
@@ -82,7 +86,31 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 ||Can view operating hours |
 |**Omnichannel Agent**  |Can view user list / presence list / work stream list / queue list|
 ||Can view quick replies|
+|**Productivity tools user**| Can read agent script |
+|| Can read agent script step |
+|| Can read workflow |
+|| Can read `msdyn_actioninputparameter` |
+|| Can read `msdyn_actionoutputparameter` |
+|| Can read `msdyn_inputparameters`|
+|| Can read `msdyn_macroconnector` |
+|| Can read `msdyn_parameterdefinition` |
+|| Can read `msdyn_designeroptions` |
+|| Can read `msdyn_macroactiontemplate` |
+|| Can read macro action |
+|**Productivity tools administrator**| Can create / read / write / append / delete agent script |
+|| Can create / read / write / append / delete agent script step |
+|| Can create / read / write / append / delete agent script workflow |
+|| Can read `msdyn_actioninputparameter`|
+|| Can read `msdyn_actionoutputparameter`|
+|| Can read `msdyn_inputparameters`|
+|| Can read `msdyn_macroconnector` |
+|| Can read `msdyn_parameterdefinition` |
+|| Can read `msdyn_designeroptions` |
+|| Can read `msdyn_macroactiontemplate` |
+|| Can read `msdyn_macrosolutionconfiguration` |
+|| Can create / read / write / append / delete macro action |
 ||
+
 
 
 ### See also
@@ -90,3 +118,7 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 
 [Manage users in Omnichannel for Customer Service](users-user-profiles.md)
+
+[Guide agents with scripts](agent-scripts.md)
+
+[Automate tasks with macros](macros.md)

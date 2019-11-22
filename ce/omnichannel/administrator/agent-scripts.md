@@ -46,6 +46,10 @@ The agent scripts reduce the human errors involved in the process as the agents 
 
 - Install Dynamics 365 Productivity Tools solution.
 
+- Ensure you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
+
+- Ensure agents and supervisors are assigned **Productivity tools user** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
+
 ## Walkthrough to enable agent script
 
 [Step 1: Create agent scripts](#step-1-create-agent-scripts)
