@@ -1,7 +1,7 @@
 ---
-title: "marketing form submission report for Dynamics 365 Marketing | Microsoft Docs"
-description: "See all the details of your marketing form submissions in one report, and slice and dice over timeline, related marketing messaging and automation."
-ms.date: 11/11/2019
+title: "Marketing form submission report for Dynamics 365 Marketing | Microsoft Docs"
+description: "See all the details of your marketing form submissions in one report, and slice and dice over timeline, related marketing messaging, and automation."
+ms.date: 11/22/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -22,85 +22,70 @@ search.app:
 
 # Marketing form submission report
 
-This marketing analytical report provides insights into the submission stream of your marketing forms. You'll be able to see all the details of your marketing-form submissions in one report, and then slice and dice over the timeline, related marketing messaging, and automation. 
+Use this marketing analytics report to get insights into the submission stream of your marketing forms. You'll be able to see all the details of your marketing form submissions in one report, and then slice and dice over the timeline, related marketing messaging, and automation.
 
-Use the following links to download a template for running the report on your own organization and/or a sample report filled with sample data.
+Use the following links to download a template for running the report on your own organization and a sample report filled with sample data.
 
 |Download report template  |Download sample report  |
 |---------|---------|
 [![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Form%20Submissions.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Form%20Submissions.pbix)|
 
-You can find more downloads in the [marketing analytics reporting gallery](analytics-gallery-start.md#gallery).
+> [!NOTE]
+> You can find the full list of marketing analytics downloads in the [marketing analytics reporting gallery](analytics-gallery-start.md#gallery).
 
-This analytics report includes the following report pages:
+In addition to the [common report pages](analytics-gallery-framework.md#common-report-pages), this analytics report includes the following pages:
 
-- [The hidden common pages](#common-pages), which help you to customize the report and build new marketing analytics
-- [The report homepage](#home-page) with an overview
+- [Homepage](#home-page)
 - [A timeline of form submissions](#submission-timeline)
-- [A breakdown of submissions](#submission-details) across all marketing pages
-- [A report that covers all submitted values](#submission-values) across all forms
-- [A leaderboard report](#leaderboard) for various types of conversions based on your marketing forms
-
-![Form Submission Timeline](media/MarketingForm/SubmissionTimeline.png)
-
-<a name="common-pages"></a>
-
-## Common Pages
-
-Each template and sample report contains a set of common pages that help you explain your report to your audience. 
-To learn more about the common pages, see [Common report pages](analytics-gallery-framework.md#common-report-pages).
+- [Details of form submissions](#submission-details)
+- [Submission values](#submission-values)
+- [Conversion leaderboard](#leaderboard)
 
 <a name="home-page"></a>
 
-## The marketing-form submission report home page
-
-Each report includes a filter pane on the left that lets you quickly select the relevant marketing activities to focus on. You can also chose the relevant time frame for your exploration.
+## Marketing-form submission report homepage
 
 > [!TIP]
 > The report home page gives a quick overview on your marketing forms and the submission volume.
 
-![marketing-form submission report homepage](media/MarketingForm/FormSubmissionHome.png)
+Each report includes a filter pane on the left that lets you quickly select the relevant marketing activities to focus on. You can also chose the relevant time frame for your exploration.
+
+![marketing-form submission report homepage](media/MarketingForm/FormSubmissionHome.png "Marketing-form submission report homepage")
 
 <a name="submission-timeline"></a>
 
 ## Marketing-form submission timeline
 
-> [!TIP]
-> See a timeline for the form-submission history across all your marketing forms.
+Use this report page to see a timeline of form-submission history across all your marketing forms.
 
-![marketing-form submission timeline](media/MarketingForm/SubmissionTimeline.png)
+![marketing-form submission timeline](media/MarketingForm/SubmissionTimeline.png "Marketing-form submission timeline")
 
 <a name="submission-details"></a>
 
 ## Marketing-form submission details
 
-> [!TIP]
-> Find a more detailed view of all form submissions
+You can also find a more detailed view of all form submissions.
 
-![marketing-form submission details](media/MarketingForm/SubmissionDetails.png)
+![marketing-form submission details](media/MarketingForm/SubmissionDetails.png "Marketing-form submission details")
 
 <a name="submission-values"></a>
 
 ## Marketing-form submission value report
 
-> [!TIP]
-> See what values have been submitted against which fields for all marketing forms.
+See what values have been submitted against which fields for all marketing forms.
 
-![Submitted Values report](media/MarketingForm/SubmissionValues.png)
+![Submitted values report](media/MarketingForm/SubmissionValues.png "Submitted values report")
 
 <a name="leaderboard"></a>
 
 ## Conversion leaderboard
 
-> [!TIP]
-> See the leaderboard for various types of conversions from your marketing forms.
+This leaderboard displays various types of conversions from your marketing forms. It shows which forms:
 
-The conversion leaderboard shows which forms:
+- Attracted the most submissions from new and returning visitors.
+- Created the most new contacts or updated the most existing contacts.
+- Created the most new leads or updated the most existing leads.
 
-- Attracted the most submissions from new and returning visitors
-- Created the most new contacts or updated the most existing contacts
-- Created the most new leads or updated the most existing leads
+![Conversion leaderboard from marketing-form submissions](media/MarketingForm/SubmissionConversionLeaderboard.png "Conversion leaderboard from marketing-form submissions")
 
-![Conversion leaderboard from marketing-form submissions](media/MarketingForm/SubmissionConversionLeaderboard.png)
-
-***Happy analytic reporting with Dynamics 365 Marketing!***
+***Happy analytics reporting with Dynamics 365 Marketing!***
