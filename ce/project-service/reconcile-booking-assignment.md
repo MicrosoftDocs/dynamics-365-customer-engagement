@@ -60,17 +60,17 @@ You can also use the **Previous** and **Next** buttons above the grid to move th
 In situations where you have task assignments for a resource but no bookings, you can select the booking shortage and then select **Extend Booking**. You can then see the booking that is required in order to address the resource's shortage. You can also view the resource's bookings on the current project and other projects. Select **OK** to create the booking for the resource without regard to current availability. The project manager or resource manager can then use Schedule Board to manage situations where a resource has become overbooked beyond capacity because its bookings were extended.
 
 ## Managing with Time Zones
-To ensure accurate and predictable results when using Extend Bookings there are two key prerequisites that must be observed:  
-1.	The user must configure their device's time zone to match the time zone defined in CRM personalization settings.   See example below with Windows 10:
- 
+To ensure accurate and predictable results when using Extend Bookings, there are two key prerequisites that must be met:  
+
+- The user must configure their device's time zone to match the time zone defined in your system's Personalization Settings.
  
 ![Time zone settings in Windows 10](media/reconcile-assignments-03.png)
-![Time zone settings in personalization settings](media/reconcile-assignments-04.png)
- 	 
- 
-2.	The Bookable Resource must have at least 1 minute of overlapping working time with the contours used to define the requested extension.   For this example, we will reiew resources with the following working hours:
 
-![cpmparison of resource contours](media/reconcile-assignments-05.png)
+![Time zone settings in personalization settings](media/reconcile-assignments-04.png)
+ 
+- The Bookable Resource must have at least one minute of overlapping working time with the contours that are used to define the requested extension. For this example, we will reiew resources with working hours that fall between 9:00 and 19:00:
+
+![comparison of resource contours](media/reconcile-assignments-05.png)
 
 |Entity  |Calendar  |
 |-|-|
@@ -79,24 +79,18 @@ To ensure accurate and predictable results when using Extend Bookings there are 
 |Resource B  |  ![Resource B calendar](media/reconcile-assignments-07.png) |
 |Resource C  |  ![Resource C calendar](media/reconcile-assignments-08.png) |
 |Resource D  | ![Resource D calendar](media/reconcile-assignments-09.png)  |
-
-
-
- 	 
- 	 
- 	 
- 	 
-When the user navigates to the reconciliation view, the resource assignments and the associated booking shortages will be displayed as follows:
+ 
+When you navigate to the reconciliation view, the resource assignments and the associated booking shortages will be displayed.
  ![reconciliation view before extension](media/reconcile-assignments-10.png)
 
-After the Extend Bookings has been executed on each resource, since each resource’s working hours overlapped with the contours of the shortage, we were able to successfully extend bookings for each resource.
- ![reconciliation view after extension](media/reconcile-assignments-11.png) 
+After the Extend Bookings functionality has been executed on each resource, because each resource’s working hours overlapped with the contours of the shortage, bookings were successfully extended for each resource.
+ ![reconciliation view after booking extension](media/reconcile-assignments-11.png) 
 
-However, a closer look at the details of the bookings shows differences in the start time of the bookings.  The bookings will start no earlier than the start time of the assignment contour and no earlier than the available start time of the resource:
+However, a closer look at the details of the bookings shows differences in the start time of the bookings. The bookings will start no earlier than the start time of the assignment contour and no earlier than the available start time of the resource.
  ![new bookings of the resources in the schedule board](media/reconcile-assignments-12.png)
 
--	For Res A, since this resource has the same calendar as the project, the start time of the bookings will be 9:00A.
--	For Res B, even though this resource starts to work at 7:00A, the bookings will begin at 9:00A as that is the earliest start time of the assignment contour.
+-	For Res A, because this resource has the same calendar as the project, the start time of the bookings will be 9:00.
+-	For Res B, because this resource starts to work at 7:00, the bookings will begin at 9:00 as that is the earliest start time of the assignment contour.
 -	For Res C and Res D, their bookings start no earlier than their respective available start times.
  
  
