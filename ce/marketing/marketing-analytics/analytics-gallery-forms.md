@@ -1,7 +1,7 @@
 ---
 title: "Marketing form submission report for Dynamics 365 Marketing | Microsoft Docs"
 description: "See all the details of your marketing form submissions in one report, and slice and dice over timeline, related marketing messaging, and automation."
-ms.date: 11/11/2019
+ms.date: 11/22/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -40,10 +40,6 @@ In addition to the [common report pages](analytics-gallery-framework.md#common-r
 - [Details of form submissions](#submission-details)
 - [Submission values](#submission-values)
 - [Conversion leaderboard](#leaderboard)
-
-<!--editor: this graphic occurs twice, so deleting.
-![Form Submission Timeline](media/MarketingForm/SubmissionTimeline.png)
--->
 
 <a name="home-page"></a>
 

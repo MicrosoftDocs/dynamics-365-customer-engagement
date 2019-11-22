@@ -2,7 +2,7 @@
 title: "Email marketing report for Dynamics 365 Marketing | Microsoft Docs"
 description: "This email marketing analytics report provides you interaction and conversion leaderboards, automation status, block and failure analysis, and more."
 keywords: Email marketing report
-ms.date: 11/11/2019
+ms.date: 11/22/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -42,10 +42,6 @@ In addition to the [common report pages](analytics-gallery-framework.md#common-r
 - [Geo-mapping your interactions](#geo-mapping-interactions)
 - [Detailed link-click analysis](#email-clicks)
 - [Blocked email messages and other failures](#send-blocks-fails)
-
-<!--editor: This graphic occurs twice, so deleted it.
-![Email Interaction Timeline](media/EmailMarketing/EmailMarketing-(5)InteractionTimeline.png)
--->
 
 <a name="report-home-page"></a>
 
@@ -90,7 +86,7 @@ The leaderboard shows you which of your marketing automation and messages are pe
 
 ![Email marketing leaderboard](media/EmailMarketing/EmailMarketing-(4)EmailMarketingLeaderBoard.png "Email marketing leaderboard")
 
-> [NOTE]
+> [!NOTE]
 > A [more detailed leaderboard report](analytics-gallery-leaders.md) is also available. It supports a more fine-grained leader analysis based on more interactions for both your customer journeys and email marketing activities.
 
 <a name="interaction-timeline"></a>

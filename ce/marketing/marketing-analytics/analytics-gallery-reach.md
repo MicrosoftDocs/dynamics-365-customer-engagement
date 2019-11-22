@@ -1,7 +1,7 @@
 ---
 title: "Marketing reach analysis for Dynamics 365 Marketing | Microsoft Docs"
 description: "Identify contacts and how you're reaching out to them. See all audiences reached in select journeys with the respective interactions generated."
-ms.date: 11/11/2019
+ms.date: 11/22/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing

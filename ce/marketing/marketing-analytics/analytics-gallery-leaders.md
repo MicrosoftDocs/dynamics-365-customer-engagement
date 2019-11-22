@@ -1,7 +1,7 @@
 ---
 title: "Leaderboard report for customer journeys and email marketing for Dynamics 365 Marketing | Microsoft Docs"
 description: "Use the leaderboard report for customer journey automation and email marketing to identify your most effective marketing activities."
-ms.date: 11/11/2019
+ms.date: 11/22/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing

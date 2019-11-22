@@ -1,7 +1,7 @@
 ---
 title: "Segmentation usage report for Dynamics 365 Marketing | Microsoft Docs"
 description: "The segmentation usage report shows you which segments are used in which marketing activities and helps you to identify orphaned segments."
-ms.date: 11/11/2019
+ms.date: 11/22/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing

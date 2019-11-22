@@ -1,7 +1,7 @@
 ---
 title: "Download and use marketing analytics templates and sample reports for Power BI (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Browse our Power BI template gallery, download relevant templates and sample reports, and connect them to your Dynamics 365 Marketing instance."
-ms.date: 11/21/2019
+ms.date: 11/22/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -59,23 +59,24 @@ After your Azure Blob storage is [set up and connected to Dynamics 365 Marketing
 
 1. The first time you open a Power BI template, you'll be asked to specify connection strings and credentials to connect to both Azure Blob storage and to Dynamics 365 Marketing.
 
-    ![The Power BI email marketing analyzer](../media/custom-analytics-pbi-connect.png "The Power BI email marketing analyzer")
+    ![The connection dialog for connecting your Power BI template to the relevant data sources](../media/custom-analytics-pbi-connect.png "The connection dialog for connecting your Power BI template to the relevant data sources")
 
     - To connect to the Dynamics 365 database, use the same user credentials that you use to sign in to Marketing.
     - You can [find connection details for your Azure Blob storage](../custom-analytics.md#connect-blob) by using Azure Storage Explorer.
     - Specify how many days of interaction data that you want to load (counting back from today).
 
-1. Select **Load** to load the template or analyzer into Power BI.
+1. Select **Load** to load the template into Power BI.
 
     > [!NOTE]
-    > If you see loading errors the first time you open a template or analyzer, open the query editor, select a query that has been highlighted with a warning icon, and then select **Retry** on the notification message bar. Repeat for each query that shows a warning. After all queries have loaded, select **Close & Apply**.
+    > If you see loading errors the first time you open a template, open the query editor, select a query that has been highlighted with a warning icon, and then select **Retry** on the notification message bar. Repeat for each query that shows a warning. After all queries have loaded, select **Close & Apply**.
 
-<!--editor: In the previous step and note, what I think we were calling "report" became "analyzer". Can we use "report" for consistency?-->
+<!-- [kfm: this video is being edited and will be hosted elsewhere. Revive this section and update the embed when it's ready]
+
 ## A video guide to data available for marketing analytics
 
 Watch [the following video](https://www.youtube.com/watch?v=pBrB1BohUrE)
 for a quick overview of all the data that's available for your marketing analytics reports.<br/><br/>
 
-<div class="embeddedvideo"><iframe width="560" height="315" src="https://www.youtube.com/embed/pBrB1BohUrE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="embeddedvideo"><iframe width="560" height="315" src="https://www.youtube.com/embed/pBrB1BohUrE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> -->
 
 More information: [Data sources for custom analytics](../custom-analytics.md#data-sources)
