@@ -64,13 +64,13 @@ To ensure accurate and predictable results when using Extend Bookings, there are
 
 - The user must configure their device's time zone to match the time zone defined in your system's Personalization Settings.
  
-![Time zone settings in Windows 10](media/reconcile-assignments-03.png)
+  ![Time zone settings in Windows 10](media/reconcile-assignments-03.png)
 
-![Time zone settings in personalization settings](media/reconcile-assignments-04.png)
+  ![Time zone settings in personalization settings](media/reconcile-assignments-04.png)
  
 - The Bookable Resource must have at least one minute of overlapping working time with the contours that are used to define the requested extension. For this example, we will reiew resources with working hours that fall between 9:00 and 19:00:
 
-![comparison of resource contours](media/reconcile-assignments-05.png)
+  ![comparison of resource contours](media/reconcile-assignments-05.png)
 
 |Entity  |Calendar  |
 |-|-|
