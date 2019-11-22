@@ -74,14 +74,10 @@ In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field
 
 ## Universal Resource Scheduling (URS)
 
-### Date, Version #
+### Nov 2019, Version 3.12.1.158
 
-- This is an example bug fix. 
-- This is an example bug fix.
-- This is an example bug fix.
-- This is an example bug fix.
-- This is an example bug fix.
-- This is an example bug fix.
+- Fixed: Workflows can be triggered when resource requirements are created with any allocation method.
+- Fixed: When upgrading URS from version 2.x to version 3.x, resource filters on the schedule board tabs are preserved. 
 
 ### Date, Version #
 
