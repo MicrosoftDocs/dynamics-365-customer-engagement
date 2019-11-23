@@ -32,20 +32,20 @@ In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field
 
 ## Dynamics 365 Field Service
 
+### Version 8.8.8.50
+
+- Improve error messages when the user attempting an action is missing "Field Service Setting" read privilege.
+- Form logic always turns Incident Type to not required based on Work Order Type, regardless of field settings.
+- Bookings are not shared consistently to all resources on multi-booking Work Orders.
+- Deleting and recreating a Booking associated with a Work Order changes the shared users of Booking.
+- TypeError: Cannot read property 'getDefaultView' when Requested by Contact field removed from RMA form.
+- Agreement Invoice Product Currency Set to Base Currency - should be set to Agreement's Pricelist Currency.
+
 ### Version 8.8.7.47
 
--	Fixed: Removal of Territory from Work Order is not removed from non-primary related requirements.
--	Fixed: Inappropriate command buttons shown for Opportunity, Quote, and Order Product and Service-based Lines Sub Grids.
--	Fixed: Field Service Resource privilege exception on create and save of Time Off Request.
-
-### Date, Version #
-
-- This is an example bug fix.
-- This is an example bug fix.
-- This is an example bug fix.
-- This is an example bug fix.
-- This is an example bug fix.
-- This is an example bug fix.
+-	Removal of Territory from Work Order is not removed from non-primary related requirements.
+-	Inappropriate command buttons shown for Opportunity, Quote, and Order Product and Service-based Lines Sub Grids.
+-	Field Service Resource privilege exception on create and save of Time Off Request.
   
 
 ## Connected Field Service (CFS)
@@ -94,23 +94,23 @@ In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field
 
 ### Version 3.12.2.114
 
-- Fixed: When Schedule Board Map view is opened, the Map automatically zooms out to show all the Map pins are displayed. 
--	Fixed: The Resource look up is displayed on the Schedule Board in Arabic.
--	Fixed: On the List View results of the Schedule Assistant, work Start Time on the List view aligns with the Estimated Arrival Time values on the Create Resource Booking pane. 
--	Fixed: Added additional handling to avoid the corruption of the Booking Setup Metadata and the Schedule Board Settings records. 
--	Fixed: The Bookings can be edited in the Days view of the Schedule Board by right clicking on the Booking and selecting Edit.
--	Fixed: The Select Resources dialog opens and loads successfully on the Filter View of the Schedule Board, even when there are more then 100 resources enabled to be displayed on the Schedule Board.  
--	Fixed: When Turkish language is enabled on the org, Resource Requirement records load under the Unscheduled Workorders tab of the Requirement pane of the Schedule board. 
--	Fixed: When double clicking on the Save button the new Bookable Resource Booking form, would not create duplicate records. 
--	Fixed: Resources can be searched on the Schedule Board by their name in the Search Resources search box. 
--	Fixed: Map View on the Schedule Board only shows the pins for the Requirements that are returned from the Requirement View configured for Requirement Map Filer View setting on the Map Settings of the Schedule Board tab settings. 
-- Fixed: When Hebrew language is enabled on the org, Schedule Board loads in the Chrome with browser zoom at 90%. 
--	Fixed: The requirement Demand pie chart on the Schedule Assistant information at the bottom is accessible, via Screen readers. 
+- When Schedule Board Map view is opened, the Map automatically zooms out to show all the Map pins are displayed. 
+-	The Resource look up is displayed on the Schedule Board in Arabic.
+-	On the List View results of the Schedule Assistant, work Start Time on the List view aligns with the Estimated Arrival Time values on the Create Resource Booking pane. 
+-	Added additional handling to avoid the corruption of the Booking Setup Metadata and the Schedule Board Settings records. 
+-	The Bookings can be edited in the Days view of the Schedule Board by right clicking on the Booking and selecting Edit.
+-	The Select Resources dialog opens and loads successfully on the Filter View of the Schedule Board, even when there are more then 100 resources enabled to be displayed on the Schedule Board.  
+-	When Turkish language is enabled on the org, Resource Requirement records load under the Unscheduled Workorders tab of the Requirement pane of the Schedule board. 
+-	When double clicking on the Save button the new Bookable Resource Booking form, would not create duplicate records. 
+-	Resources can be searched on the Schedule Board by their name in the Search Resources search box. 
+-	Map View on the Schedule Board only shows the pins for the Requirements that are returned from the Requirement View configured for Requirement Map Filer View setting on the Map Settings of the Schedule Board tab settings. 
+- When Hebrew language is enabled on the org, Schedule Board loads in the Chrome with browser zoom at 90%. 
+-	The requirement Demand pie chart on the Schedule Assistant information at the bottom is accessible, via Screen readers. 
 
 ### Version 3.12.1.158
 
-- Fixed: Workflows can be triggered when resource requirements are created with any allocation method.
-- Fixed: When upgrading URS from version 2.x to version 3.x, resource filters on the schedule board tabs are preserved. 
+- Workflows can be triggered when resource requirements are created with any allocation method.
+- When upgrading URS from version 2.x to version 3.x, resource filters on the schedule board tabs are preserved. 
   
 
 ## Resource Scheduling Optimization (RSO)
