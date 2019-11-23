@@ -27,7 +27,7 @@ search.app:
 
 # Sample code directory for Dynamics 365 Customer Engagement (on-premises)
 
-The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].  
+The following sample code is included for Dynamics 365 Customer Engagement (on-premises).  
   
 <a name="BKMK_Activities"></a>
 ## Activities  
