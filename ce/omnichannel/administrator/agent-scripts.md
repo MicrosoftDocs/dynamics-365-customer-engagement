@@ -129,7 +129,7 @@ The agent script is associated with the session template.
 
 After you create an agent script, you must add the agent script field to the form where you want agents to see it.
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Omnichannel Administration app, and then on the command bar select **Settings** ![Settings](../media/settings-gear.png "Settings") > **Advanced  Settings**.
 
 2. Select **Settings** > **Customizations** > **Customize the System**. **Solution Explorer** opens in a new window.
 
