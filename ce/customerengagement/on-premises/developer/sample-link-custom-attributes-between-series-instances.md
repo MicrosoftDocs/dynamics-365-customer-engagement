@@ -41,7 +41,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[ScheduleAndAppointment#LinkCustomAttributesBetweenSeriesandInstances](../snippets/csharp/CRMV8/scheduleandappointment/cs/linkcustomattributesbetweenseriesandinstances.cs#linkcustomattributesbetweenseriesandinstances)]  
   
 ### See also  
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
+    
  [Link Custom Attributes between Series and Instances](link-custom-attributes-recurring-master-appointment-entities.md)   
  [Sample Code for Recurring Appointments](sample-code-schedule-appointment-entities.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>

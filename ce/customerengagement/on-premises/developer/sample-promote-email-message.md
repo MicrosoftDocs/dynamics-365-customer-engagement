@@ -39,7 +39,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
 ### See also  
  [Sample Code for Activity](sample-code-activity-entities.md)   
  [E-mail Activity Entities](email-activity-entities.md)   
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
+    
  [Sample: Send an Email Using a Template](sample-send-email-template.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
  <xref:Microsoft.Crm.Sdk.Messages.DeliverPromoteEmailRequest>

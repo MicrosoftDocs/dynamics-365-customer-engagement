@@ -39,6 +39,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
 ### See also  
  [Sample Code for Activity](sample-code-activity-entities.md)   
  [Fax Entity](entities/fax.md)   
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
+    
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
  [Sample: Promote an Email Message to Dynamics 365 Customer Engagement (on-premises)](sample-promote-email-message.md)

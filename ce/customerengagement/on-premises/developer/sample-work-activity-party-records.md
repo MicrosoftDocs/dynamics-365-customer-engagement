@@ -42,5 +42,5 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
 ### See also  
  [Sample Code for Activity Entities](sample-code-activity-entities.md)   
  [Sample: Send Bulk Email and Monitor Results](sample-send-bulk-email-monitor-results.md)   
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
+    
  [ActivityParty Entity](activityparty-entity.md)

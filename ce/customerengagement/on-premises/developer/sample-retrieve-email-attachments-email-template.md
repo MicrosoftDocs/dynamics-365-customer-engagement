@@ -42,7 +42,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
 ### See also  
  [E-Mail Attachments](email-activity-entities.md#E-MailAttachments)   
  [Template Entity](entities/template.md)   
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
+    
  [Sample Code for Recurring Appointments](sample-code-schedule-appointment-entities.md)   
  [Sample: Convert a Fax to a Task](sample-convert-fax-task.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>

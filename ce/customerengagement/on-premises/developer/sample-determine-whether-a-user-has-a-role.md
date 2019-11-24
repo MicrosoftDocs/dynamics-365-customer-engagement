@@ -41,4 +41,4 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [Privilege and Role Entities](privilege-role-entities.md)   
  [Sample: Remove a Role for a User](sample-remove-role-user.md)   
  [User and Team Entities](user-team-entities.md)   
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
+    

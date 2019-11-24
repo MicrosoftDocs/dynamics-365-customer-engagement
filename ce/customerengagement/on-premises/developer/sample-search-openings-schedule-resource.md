@@ -44,6 +44,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [Sample Code for Schedule and Appointment Entities](sample-code-schedule-appointment-entities.md)   
  [Sample: Query the Working Hours of a User](sample-query-working-hours-user.md)   
  [Resource Entities](resource-entities.md)   
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
+    
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
  <xref:Microsoft.Crm.Sdk.Messages.SearchRequest>

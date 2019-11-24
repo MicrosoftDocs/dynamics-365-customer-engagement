@@ -40,7 +40,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[Annotation#UploadAndDownloadAttachment](../snippets/csharp/CRMV8/annotation/cs/uploadanddownloadattachment.cs#uploadanddownloadattachment)]  
   
 ### See also  
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
+    
  [Annotation (Note) Entity](annotation-note-entity.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
  <xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>   

@@ -41,7 +41,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[ScheduleAndAppointment#ConvertAnAppointmenttoRecurringAppointment](../snippets/csharp/CRMV8/scheduleandappointment/cs/convertanappointmenttorecurringappointment.cs#convertanappointmenttorecurringappointment)]  
   
 ### See also  
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
+    
  [Convert an Appointment to a Recurring Appointment](create-recurring-appointment-series-instance-exception.md#bkmk_convert)   
  [Sample Code for Recurring Appointments](sample-code-schedule-appointment-entities.md)   
  [Sample: Link Custom Attributes between Series and Instances](sample-link-custom-attributes-between-series-instances.md)   

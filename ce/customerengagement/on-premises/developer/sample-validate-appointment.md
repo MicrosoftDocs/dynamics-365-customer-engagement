@@ -44,5 +44,5 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [Sample Code for Schedule and Appointment Entities](sample-code-schedule-appointment-entities.md)   
  [Sample: Create, Retrieve, Update, and Delete a Recurring Appointment](sample-create-retrieve-update-delete-recurring-appointment.md)   
  [Appointment Entities](appointment-entities.md)   
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
+    
  <xref:Microsoft.Crm.Sdk.Messages.ValidateRequest>

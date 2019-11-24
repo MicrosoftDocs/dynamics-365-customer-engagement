@@ -42,6 +42,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [Email Entity](entities/email.md)   
  [Template Entity](entities/template.md)   
  [Sample: Work with Activity Party Records](sample-work-activity-party-records.md)   
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
+    
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
  <xref:Microsoft.Crm.Sdk.Messages.InstantiateTemplateRequest>
