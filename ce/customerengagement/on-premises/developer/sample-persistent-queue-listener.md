@@ -22,7 +22,7 @@ search.app:
 ---
 # Sample: Persistent queue listener
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with Microsoft Dynamics 365 Customer Engagement and Azure Integration](https://code.msdn.microsoft.com/Sample-Dynamics-365-and-6a95df2a) 
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with Microsoft Dynamics 365 Customer Engagement and Azure Integration](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Azure) 
   
 ## Requirements  
  This sample code requires the following additional [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] project reference: **Microsoft.ServiceBus**. The Microsoft.ServiceBus.dll assembly can be found in the [Microsoft Azure SDK](http://azure.microsoft.com/downloads/archive-net-downloads/).  
