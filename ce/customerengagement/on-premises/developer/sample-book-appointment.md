@@ -43,6 +43,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
 ### See also  
  [Sample Code for Schedule and Appointment Entities](sample-code-schedule-appointment-entities.md)   
  [Appointment Entities](appointment-entities.md)   
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
+    
  <xref:Microsoft.Crm.Sdk.Messages.BookRequest>   
  [Sample: Validate an Appointment](sample-validate-appointment.md)

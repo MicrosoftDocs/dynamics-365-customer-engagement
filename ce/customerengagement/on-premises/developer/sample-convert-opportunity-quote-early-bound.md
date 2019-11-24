@@ -42,6 +42,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[BusinessManagement#ConvertOpportunityToQuote](../snippets/csharp/CRMV8/businessmanagement/cs/convertopportunitytoquote.cs#convertopportunitytoquote)]  
   
 ### See also  
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
+    
  [Opportunity Entities](opportunity-entities.md)   
  <xref:Microsoft.Crm.Sdk.Messages.GenerateQuoteFromOpportunityRequest>

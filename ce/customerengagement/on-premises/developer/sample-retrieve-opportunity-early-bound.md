@@ -40,6 +40,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[BusinessManagement#RetrieveOpportunity](../snippets/csharp/CRMV8/businessmanagement/cs/retrieveopportunity.cs#retrieveopportunity)]  
   
 ### See also  
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
+    
  [Opportunity Entities](opportunity-entities.md)   
  [Sample: Convert an Opportunity to a Quote (Early Bound)](sample-convert-opportunity-quote-early-bound.md)
