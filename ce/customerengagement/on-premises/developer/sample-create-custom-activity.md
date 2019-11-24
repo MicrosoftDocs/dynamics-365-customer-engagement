@@ -22,7 +22,7 @@ search.app:
 ---
 # Sample: Create a custom activity
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample of [Work with entity metadata](https://code.msdn.microsoft.com/Samples-of-entities-916efa41). 
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample of [Work with entity metadata](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Entities). 
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

@@ -100,8 +100,8 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
 ## Business process flows  
 
 
-[Sample: Xrm.Page.data.process.getEnabledProcesses](https://msdn.microsoft.com/en-in/library/dn817865.aspx)<br />
-[Sample: Xrm.Page.data.process.getActivePath](https://msdn.microsoft.com/en-us/library/dn817884.aspx)<br />
+[Sample: getEnabledProcesses](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-data-process/getenabledprocesses)<br />
+[Sample: getActivePath](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-data-process/activepath/getactivepath)<br />
   
 <a name="BKMK_Charts"></a>   
 ## Charts and dashboards  
