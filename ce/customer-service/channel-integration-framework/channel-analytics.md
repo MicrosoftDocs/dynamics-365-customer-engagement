@@ -120,7 +120,7 @@ Primary entity for defining a KPI event.
 **Primary field**: name<br />
 **Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_kpieventdefinitions`
 
-More information: [msdyn_kpieventdefinition reference documentation](reference/entities-attributes/msdyn_kpieventdefinition.md).
+More information: [msdyn_kpieventdefinition](reference/entities-attributes/msdyn_kpieventdefinition.md).
 
 ### msdyn_conversationdata
 
@@ -130,7 +130,7 @@ Primary entity for a conversation.
 **Primary field**: name<br />
 **Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_conversationsdata`
 
-More information: [msdyn_conversationdata reference documentation](reference/entities-attributes/msdyn_conversationdata.md).
+More information: [msdyn_conversationdata](reference/entities-attributes/msdyn_conversationdata.md).
 
 ### msdyn_sessiondata
 
@@ -140,7 +140,7 @@ Primary entity for session data.
 **Primary field**: name<br />
 **Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_sessionsdata`
 
-More information: [msdyn_sessiondata reference documentation](reference/entities-attributes/msdyn_sessiondata.md).
+More information: [msdyn_sessiondata](reference/entities-attributes/msdyn_sessiondata.md).
 
 ### msdyn_sessionparticipantdata
 
@@ -150,7 +150,7 @@ Primary entity for representing session participants.
 **Primary field**: name<br />
 **Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_sessionparticipantsdata`
 
-More information: [msdyn_sessionparticipantdata reference documentation](reference/entities-attributes/msdyn_sessionparticipantdata.md).
+More information: [msdyn_sessionparticipantdata](reference/entities-attributes/msdyn_sessionparticipantdata.md).
 
 ### msdyn_kpieventdata
 
@@ -160,7 +160,7 @@ Primary entity for a KPI event.
 **Primary field**: name<br />
 **Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_kpieventsdata`
 
-More information: [msdyn_kpieventdata reference documentation](reference/entities-attributes/msdyn_kpieventdata.md).
+More information: [msdyn_kpieventdata](reference/entities-attributes/msdyn_kpieventdata.md).
 
 ## See also
 
