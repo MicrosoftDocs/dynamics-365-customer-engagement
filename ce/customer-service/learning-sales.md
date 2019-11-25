@@ -1,15 +1,13 @@
 ---
-title: "Sales learning catalog"
-description: "Overview of learning available for customer service professionals"
-author: LoreleiShannon
-ms.custom: na
-ms.date: 11/01/2019
+title: Microsoft partner sales and marketing learning catalog
+description: Find all the training options for partner sales and marketing.
+author: loreleishannonmsft
 ms.topic: article
-ms.service: "dynamics365-customer-service"
-ms.author: loreleishannonmsft
+ms.date: 11/01/2019
+ms.author: v-lshann
 ---
 
-# Sales Learning Catalog
+# Microsoft Sales and Marketing Learning Catalog
 
 The following catalog is organized from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.
 

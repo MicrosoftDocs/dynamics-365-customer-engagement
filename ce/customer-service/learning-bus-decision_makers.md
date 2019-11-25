@@ -4,7 +4,7 @@ description: Find all the training options for business and technical decision m
 author: loreleishannonmsft
 ms.topic: article
 ms.date: 11/01/2019
-ms.author: loreleishannonmsft
+ms.author: v-lshann
 ---
 
 # Business and Technical Decision Makers Learning Catalog

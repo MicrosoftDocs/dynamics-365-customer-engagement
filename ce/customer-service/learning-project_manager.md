@@ -1,12 +1,10 @@
 ---
-title: "Implementation project managers learning catalog"
-description: "Overview of learning available for customer service professionals"
-author: LoreleiShannon
-ms.custom: na
-ms.date: 11/01/2019
+title: Implementation project managers learning catalog
+description: Find all the training options for implementation project managers.
+author: loreleishannonmsft
 ms.topic: article
-ms.service: "dynamics365-customer-service"
-ms.author: loreleishannonmsft
+ms.date: 11/01/2019
+ms.author: v-lshann
 ---
 
 # Implementation Project Managers Learning Catalog

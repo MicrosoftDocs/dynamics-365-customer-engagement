@@ -4,7 +4,7 @@ description: Find all the training options for business users.
 author: loreleishannonmsft
 ms.topic: article
 ms.date: 11/01/2019
-ms.author: loreleishannonmsft
+ms.author: v-lshann
 ---
 
 # Business Users Learning Catalog
