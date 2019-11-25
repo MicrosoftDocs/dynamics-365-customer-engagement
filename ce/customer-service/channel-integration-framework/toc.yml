@@ -176,8 +176,8 @@
         href: reference/entities-attributes/msdyn_kpieventdata.md
       - name: "msdyn_kpieventdefinition"
         href: reference/entities-attributes/msdyn_kpieventdefinition.md
-      - name: "msdyn_kpisessiondata"
-        href: reference/entities-attributes/msdyn_kpisessiondata.md
+      - name: "msdyn_sessiondata"
+        href: reference/entities-attributes/msdyn_sessiondata.md
       - name: "msdyn_sessionparticipantdata"
         href: reference/entities-attributes/msdyn_sessionparticipantdata.md     
   - name: "Common issues"
