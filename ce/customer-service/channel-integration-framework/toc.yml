@@ -169,7 +169,17 @@
     - name: Entity reference
       items:
       - name: "msdyn_ciprovider"
-        href: reference/entities-attributes/msdyn-ciprovider.md        
+        href: reference/entities-attributes/msdyn-ciprovider.md
+      - name: "msdyn_conversationdata"
+        href: reference/entities-attributes/msdyn_conversationdata.md
+      - name: "msdyn_kpieventdata"
+        href: reference/entities-attributes/msdyn_kpieventdata.md
+      - name: "msdyn_kpieventdefinition"
+        href: reference/entities-attributes/msdyn_kpieventdefinition.md
+      - name: "msdyn_kpisessiondata"
+        href: reference/entities-attributes/msdyn_kpisessiondata.md
+      - name: "msdyn_sessionparticipantdata"
+        href: reference/entities-attributes/msdyn_sessionparticipantdata.md     
   - name: "Common issues"
     href: known-issues.md
   - name: "FAQs"
