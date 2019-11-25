@@ -32,9 +32,9 @@ what is it, why useful common examples,
 
 platforms
 
-**Scenario:** While using work orders on Field Service Mobile to complete onsite work, a field service organization uses a custom-built PowerApp to request parts orders. The organization needs technicians to be able to open the Parts Order PowerApp from work orders in Field Service Mobile and minimize the inconveneince of switching between interfaces. A proposed solution is to create a deeplink from Field Service Mobile to the Powerapp.
+**Scenario:** While using work orders on Field Service Mobile to complete onsite work, a field service organization uses a custom-built PowerApp to request orders for new parts inventory. The organization needs technicians to be able to open the Parts Order PowerApp from work orders in Field Service Mobile and minimize the inconveneince of switching between interfaces. The organization has a "bring-your-own-device" policy for technicians, so the solution needs to work on Windows, iOS, and Android devices. A proposed solution is to create a deeplink from Field Service Mobile to the Powerapp.
 
-In this article let's create a work order deeplink that when triggered by technicians on Field Service Mobile will open a PowerApps form and pass along the work order number field value. To accomplish this, we will configure both Field Service Mobile and the PowerApp by: 
+In this article let's create a work order deeplink that when triggered by technicians on Field Service Mobile will open a specific PowerApps form and pass along the work order number field value. To accomplish this, we will configure both Field Service Mobile and the PowerApp by: 
 
 1. Creating a custom command on the work order form to open the Parts Request PowerApp
 2. Constructing the deeplink
@@ -45,8 +45,9 @@ In this article let's create a work order deeplink that when triggered by techni
 
 ## Prerequisites
 
-- Field Service Mobile and the Mobile Configuration Tool (Woodford) set up for technicians to log in and view work orders.
-- A published PowerApp that has a form to deeplink to and a field to accept the work order number paramter from Field Service Mobile.
+- Field Service Mobile and the Mobile Configuration Tool (Woodford) set up for technicians to log in and view work orders. Follow the instructions in [Field Service installation (web + mobile)](https://docs.microsoft.com/en-us/dynamics365/field-service/install-field-service#step-2-download-the-field-service-mobile-app-on-a-phone-or-tablet) for more details.
+
+- This article also assumes you have a PowerApp created to deeplink to. The "Parts Order" PowerApp referenced in this article is a custom-built but simple PowerApp that connects to a sharepoint list. If you are building a PowerApp for the first time, the [PowerApp in a day](http://aka.ms/appinaday) guide and the topic on [canvas apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/getting-started) is helpful.
 
 > [!Note]
 >
