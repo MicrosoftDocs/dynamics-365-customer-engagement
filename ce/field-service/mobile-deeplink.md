@@ -28,7 +28,12 @@ search.app:
 
 # Use Deeplinks with Field Service Mobile
 
-Scenario: In this article let's explore 
+**Scenario:** In this article let's create a deeplink that when triggered by technicians on FIeld Service Mobile will open a PowerApp. More specifically, we will create a command on the work order form that opens a specific form in the PowerApp and passes along the work order number value.
+
+up deeplinking to open a PowerApps form from the Field Service Mobile work order.
+
+ form in Field Service Mobile to a PowerApps form and passing the Work Order NUmber value
+
 ## Prerequisites
 > [!Note]
 >
