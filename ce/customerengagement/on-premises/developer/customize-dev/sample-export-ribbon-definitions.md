@@ -22,7 +22,7 @@ search.app:
 ---
 # Sample: Export ribbon definitions
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. [Download the Export ribbon definitions sample](https://code.msdn.microsoft.com/Export-ribbon-definitions-df97a4cb).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. [Download the Export ribbon definitions sample](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/ExportRibbonXml).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
