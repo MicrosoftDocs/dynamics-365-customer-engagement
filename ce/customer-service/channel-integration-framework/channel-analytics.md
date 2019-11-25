@@ -2,7 +2,7 @@
 title: "Channel Analytics | MicrosoftDocs"
 description: "Read about the APIs that enable you to log analytics in Dynamics 365 Channel Integration Framework."
 keywords: ""
-ms.date: 10/25/2019
+ms.date: 11/25/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
