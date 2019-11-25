@@ -15,7 +15,13 @@ ms.custom:
 
 # Customize KPIs for Intraday insights
 
-To cater to your organizational needs, the Intraday insights allows you to customize KPIs. This allows supervisors to adapt to your organizational parameters that are specifically designed for your organization. Through the Power BI desktop application, you can customize theses KPIs. The customization of KPIs includes:
+To cater to your organizational needs, the Intraday insights allows you to customize KPIs. This allows supervisors to adapt to your organizational parameters that are specifically designed for your organization. Through the Power BI desktop application, you can customize theses KPIs.
+
+> [!NOTE]
+> Do not customize out-of-the-box reports because they will be overwritten when new versions are made available by Microsoft. However, if you do customize them, save them with another name.
+
+
+The customization of KPIs includes:
 
 - [Add custom KPIs](#add-custom-kpis)
 
@@ -242,11 +248,6 @@ To learn more, see [msdyn_systemuser_msdyn_omnichannelqueue Entity Reference](..
 
 The Session table consists of the following entity attributes:
 
-- `Agent Handling Time`
-- `Agent Handling Time Seconds`
-- `Agent Response Time`
-- `Agent Response Time Seconds`
-- `Hourly Sessions Created`
 - `msdyn_agentacceptedon`
 - `msdyn_agentassignedon`
 - `msdyn_botengagementmode`
@@ -259,28 +260,17 @@ The Session table consists of the following entity attributes:
 - `msdyn_sessionid`
 - `msdyn_sessionmodifiedon`
 - `msdyn_state`
-- `RoundSessionCreatedTime`
-- `Session Handling Time`
-- `Session Handling Time HHMMSS`
-- `Session Handling Time Seconds`
-- `Session Wait Time`
-- `Session Wait Time Seconds`
 
 To learn more, see [msdyn_ocsession Entity Reference](../developer/reference/entities/msdyn_ocsession.md).
 
 ### SessionParticipant
 
-- `Agent Handling Time`
-- `AgentName`
 - `msdyn_agentid`
 - `msdyn_joinedon`
 - `msdyn_lefton`
 - `msdyn_mode`
 - `msdyn_sessionid`
 - `msdyn_type`
-- `Participation Time`
-- `Participation Time HHMMSS`
-- `Participation Time Seconds`
 - `sessionparticipantid`
 
 To learn more, see [msdyn_sessionparticipant Entity Reference](../developer/reference/entities/msdyn_sessionparticipant.md).
@@ -289,8 +279,6 @@ To learn more, see [msdyn_sessionparticipant Entity Reference](../developer/refe
 
 The WorkItem table consists of the following entity attributes:
 
-- `Hourly conversations created`
-- `link`
 - `msdyn_activeagentassignedon`
 - `msdyn_activeagentid`
 - `msdyn_closedon`
