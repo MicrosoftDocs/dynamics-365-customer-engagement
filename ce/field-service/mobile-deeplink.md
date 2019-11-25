@@ -45,7 +45,7 @@ In this article let's create a work order deeplink that when triggered by techni
 
 ## Prerequisites
 
-- Field Service Mobile and the Mobile Configuration Tool (Woodford) set up for technicians to log in and view work orders. Follow the instructions in [Field Service installation (web + mobile)](https://docs.microsoft.com/en-us/dynamics365/field-service/install-field-service#step-2-download-the-field-service-mobile-app-on-a-phone-or-tablet) for more details.
+- Field Service Mobile must be set up for technicians to log in and view work orders. Follow the instructions in [Field Service installation (web + mobile)](https://docs.microsoft.com/en-us/dynamics365/field-service/install-field-service#step-2-download-the-field-service-mobile-app-on-a-phone-or-tablet) for more details.
 
 - This article also assumes you have a PowerApp created to deeplink to. The "Parts Order" PowerApp referenced in this article is a custom-built but simple PowerApp that connects to a sharepoint list. If you are building a PowerApp for the first time, the [PowerApp in a day](http://aka.ms/appinaday) guide and the topic on [canvas apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/getting-started) is helpful.
 
@@ -55,11 +55,25 @@ In this article let's create a work order deeplink that when triggered by techni
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
+## Create command
+
+## Construct deeplink
+
+## Add mobile JavaScript
+
+## Deeplink to PowerApps form
+
+## Pass work order parameter
+
 ## Configuration considerations
 
 ### Deeplink to Field Service Mobile
+
 fsmobile://open?jsbridge;msdyn_workorder;9a98d429-fe1e-e911-a977-000d3a370909
 fsmobile://open?jsbridge;[entity_schema_name];[GUID]
+
+### Authentication
+
 
 ## Additional Notes
 
