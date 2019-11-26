@@ -6,7 +6,7 @@ ms.custom: na
 ms.date: 11/01/2019
 ms.topic: article
 ms.service: "dynamics365-customer-service"
-ms.author: loreleishannonmsft
+ms.author: v-lshann
 ---
 
 # Implementation Project Managers Learning Catalog
