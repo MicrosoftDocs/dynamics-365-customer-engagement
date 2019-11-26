@@ -1,18 +1,15 @@
 ---
 title: "Sales Overview (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Get an overview of the sales offerings from Dynamics 365 Sales."
-keywords: "Sales Hub, Sales, overview, lead, opportunity, mobile, mobile-optimized, desktop, deal, device, sales person, sales manager"
 ms.date: 10/14/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: get-started-article
-ms.assetid: 0abe6dc4-c8bc-4d09-a29f-e41218e08927
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-caps.latest.revision: 9
 ---
 
 # Overview of Sales and Sales Hub

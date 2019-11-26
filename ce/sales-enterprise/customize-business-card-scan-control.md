@@ -1,14 +1,12 @@
 ---
 title: "Customize the business card scan control (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Customize how the data from the scanned business cards maps to the fields in the Contact and Lead forms."
-keywords: "business card, scan, scanner, lead, contact, populate, data, customize"
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 39954f18-c558-4b22-841a-7b12c9c948f2
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

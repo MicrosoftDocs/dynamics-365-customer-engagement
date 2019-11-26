@@ -1,19 +1,17 @@
 ---
 title: "Videos for Omnichannel for Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Find video-based information about Omnichannel for Dynamics 365 Customer Service."
-keywords: ""
-ms.date: 07/01/2019
-ms.service:
-  - "dynamics-365-customerservice"
-ms.custom:
-  - ""
-ms.topic: article
-applies_to:
-  - ""
-ms.assetid: 5ba2257f-98c9-4e69-bf06-28dee4f43f72
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+applies_to: 
+  - ""
+ms.date: 07/01/2019
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
+ms.custom: 
+  - ""
 ---
 
 # Videos

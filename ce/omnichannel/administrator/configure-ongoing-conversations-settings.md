@@ -1,16 +1,13 @@
 ---
 title: "Configure Ongoing Conversations dashboard settings | MicrosoftDocs"
 description: "How to configure Ongoing Conversations dashboard settings for the Omnichannel for Customer Service app on the web."
-keywords: ""
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-applies_to: 
 ms.date: 10/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 339450a8-9dcb-4dc1-bb8d-ebfec235580c
-ms.custom: 
 ---
 
 # Enable supervisors to monitor and assign conversations

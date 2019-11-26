@@ -1,18 +1,15 @@
 ---
 title: "Create a product (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use products in Dynamics 365 Sales to define the products or services that your organization offers."
-keywords: "product, service, create, sales, catalog"
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 8847977e-3768-4859-bce4-821c259aa79a
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-caps.latest.revision: 22
 ---
 
 # Set up products (Sales and Sales Hub)

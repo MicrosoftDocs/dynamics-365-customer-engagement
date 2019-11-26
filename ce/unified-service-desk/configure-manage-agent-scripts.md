@@ -1,11 +1,12 @@
 ---
 title: "Configure and manage agent scripts | MicrosoftDocs"
 description: "Learn about configuring and managing agent scripts."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: c4b63840-4613-46d9-a843-23233c259b60
 author: kabala123
 ms.author: kabala
 manager: shujoshi
