@@ -6,6 +6,7 @@ ms.topic: article
 ms.date: 11/01/2019
 ms.author: v-lshann
 ---
+
 # Business and Technical Decision Makers Learning Catalog
 The following catalog is organized from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.
 
