@@ -1,11 +1,12 @@
 ---
 title: "JAccControl Tag in Unified Service Desk | MicrosoftDocs"
 description: "<JAccControl> associates a named control to the Java accessibility element that is specified in the search path. This topic describes the elements of <AccControl> tag."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: e6b76e86-3b62-4e34-9d3e-03abf30bad4f
 author: kabala123
 ms.author: kabala
 manager: shujoshi

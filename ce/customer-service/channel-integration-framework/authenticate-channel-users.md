@@ -1,18 +1,16 @@
 ---
 title: "Authenticate channel users in Dynamics 365 Channel Integration Framework | Microsoft Docs"
 description: "Learn how to authenticate channel users in the Dynamics 365 Channel Integration Framework. The Dynamics 365 Channel Integration Framework supports the SAML-based single sign-on (SSO) for your agents or users to log in to the widget (channel)."
-keywords: ""
-ms.date: 10/25/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: article
-ms.assetid: 47B90869-152B-48A6-A249-F37059FF9C12
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 10/25/2019
+ms.topic: article
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 
 # Authenticate channel users to log in to the channel

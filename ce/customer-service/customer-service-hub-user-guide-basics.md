@@ -6,9 +6,10 @@ ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer

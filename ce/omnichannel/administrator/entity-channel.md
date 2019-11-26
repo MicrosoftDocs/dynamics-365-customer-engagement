@@ -1,16 +1,14 @@
----	
-title: Entity records routing using entity records channel | MicrosoftDocs	
-description: Learn how you can route cases automatically using entity records channel in the Omnichannel Administration app.		
-author: kabala123	
-ms.author: kabala	
-manager: shujoshi	
-applies_to: 	
+---
+title: Entity records routing using entity records channel | MicrosoftDocs
+description: Learn how you can route cases automatically using entity records channel in the Omnichannel Administration app.
+author: kabala123
+ms.author: kabala
+manager: shujoshi
 ms.date: 11/11/2019
-ms.service: dynamics-365-customerservice	
-ms.topic: article	
-ms.assetid: 5e6285ee-4b79-473d-b920-d1fab636c82e	
-ms.custom: 	
----	
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
+---
 # Entity records routing
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]

@@ -1,16 +1,13 @@
 ---
 title: Understand and create work streams
 description: Understand and create work streams in the Omnichannel for Customer Service
-keywords: Understand and create work streams; Omnichannel for Customer Service
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
 ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 0cc05811-6631-4a5c-85b1-c145be7d7a6f
-ms.custom: 
 ---
 
 # Understand and create work streams 

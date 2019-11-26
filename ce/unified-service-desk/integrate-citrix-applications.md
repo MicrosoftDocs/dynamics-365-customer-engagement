@@ -1,18 +1,19 @@
 ---
 title: "Integrate with Citrix applications in Unified Service Desk | MicrosoftDocs"
 description: "The topic explains the integration with Citrix application in Unified service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 174894bd-eb2e-4b67-95bd-74e6b3540f47
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType:
+search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 ---

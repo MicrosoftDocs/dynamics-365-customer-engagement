@@ -1,16 +1,13 @@
 ---
 title: "Ongoing Conversations dashboard for supervisor | MicrosoftDocs"
 description: "Learn about Ongoing Conversations dashboard for supervisor"
-keywords: ""
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-applies_to: 
 ms.date: 06/22/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: c4db5425-1e08-40b7-bfd8-5d6015b5ae6a
-ms.custom: 
 ---
 
 # View and understand Omnichannel Ongoing Conversations dashboard
