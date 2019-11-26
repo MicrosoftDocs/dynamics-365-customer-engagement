@@ -25,7 +25,7 @@ search.app:
 
 # Sample: Create, retrieve, update, and delete a dashboard
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work visualizations and dashboards](https://code.msdn.microsoft.com/Samples-of-visualizations-027f7480).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work visualizations and dashboards](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/VisualizationsAndDashboards).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
@@ -52,4 +52,4 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [Sample: Assign a User-Owned Dashboard to Another User](sample-assign-user-owned-dashboard-another-user.md)   
  [Actions on Dashboard](actions-dashboards.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
- [Sample: CrmServiceHelper Class](../https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)
+ 

@@ -1,11 +1,12 @@
 ---
 title: "Session Timer (Custom Hosted Control) in Unified Service Desk  | MicrosoftDocs"
 description: "Learn about Session Timer type of hosted control in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 044cd615-691e-454d-9877-31095940b226
 author: kabala123
 ms.author: kabala
 manager: shujoshi

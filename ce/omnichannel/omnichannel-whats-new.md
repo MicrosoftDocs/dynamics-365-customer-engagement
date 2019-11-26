@@ -1,16 +1,13 @@
 ---
 title: "What's new in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about what's new in Omnichannel for Customer Service."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/22/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: B8D892A6-C186-406F-AA68-A10903943EF1
-ms.custom: 
 ---
 
 # What's new in Omnichannel for Customer Service

@@ -1,16 +1,15 @@
 ---
 title: "Frequently asked questions (FAQs) about Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) for Omnichannel for Customer Service."
-ms.date: 10/25/2019
-ms.service:
-  - "dynamics-365-customerservice"
-ms.custom:
-  - ""
-ms.topic: article
-ms.assetid: BC3D3C77-982D-4F8F-B9DB-86854A1634F8
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+ms.date: 10/25/2019
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
+ms.custom: 
+  - ""
 ---
 
 # Frequently asked questions (FAQs) about Omnichannel for Customer Service

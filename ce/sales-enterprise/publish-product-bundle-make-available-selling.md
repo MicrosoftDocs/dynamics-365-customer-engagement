@@ -1,16 +1,15 @@
 ---
 title: "Publish a product or bundle to make it available for selling (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Publish a product or bundle in Dynamics 365 Sales to make it available to the sales agents so they can build orders or create opportunities for customers."
-keywords: "Publish, product, make available"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-ms.assetid: 9d60813a-0bc8-4dd2-be3f-084812c6ba5c
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-caps.latest.revision: 19
 ---
 
 # Publish a product, family, or bundle to make it available for selling (Sales)

@@ -1,16 +1,13 @@
 ---
 title: "Set up skills and assign agents | MicrosoftDocs"
-description: "Learn how to create skills and assign agents to those skills in Omnichannel for Customer Service." 
-keywords: ""
+description: "Learn how to create skills and assign agents to those skills in Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/15/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: E8E820AC-64BD-4E76-809D-4A012DDDADA7
-ms.custom: 
 ---
 
 # Preview: Set up skills and assign agents

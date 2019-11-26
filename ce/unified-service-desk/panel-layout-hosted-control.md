@@ -1,11 +1,12 @@
 ---
 title: "Panel Layout (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn about using the Panel Layout hosted control to define the arrangement of panels in Unified Service Desk. Panels hold various hosted controls, and a panel layout defines the arrangement of various hosted controls on the main screen of the Unified Service Desk client application."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: bbc0cc8e-b45c-4ad6-a7e8-616dc1a00f53
 author: kabala123
 ms.author: kabala
 manager: shujoshi

@@ -6,9 +6,10 @@ ms.author: anjgup
 manager: shujoshi
 ms.date: 07/31/2019
 ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 9036f912-b991-48ff-a701-8157e43400b6
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Introduction to Customer Service app

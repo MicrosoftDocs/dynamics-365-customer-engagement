@@ -1,11 +1,12 @@
 ---
 title: "Use custom panel types and panel layouts in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use custom panel types and panel layouts in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 9bd3b45f-3f8d-48e1-8b45-727d7045a195
 author: kabala123
 ms.author: kabala
 manager: shujoshi

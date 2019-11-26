@@ -1,11 +1,12 @@
 ---
 title: "Walkthrough 1  Build a simple agent application in Unified Service Desk  | MicrosoftDocs"
 description: "Demonstrates how to set up a basic agent application from scratch using Unified Service Desk that can connect to the Common Data Service platform."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 9e6470a9-329c-4152-bd14-d61555be1ee5
 author: kabala123
 ms.author: kabala
 manager: shujoshi

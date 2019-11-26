@@ -22,7 +22,7 @@ search.app:
 ---
 # Sample: Convert a fax to a task
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Activity entities](https://code.msdn.microsoft.com/Activities-Samples-61bf7504). 
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Activity entities](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Activities). 
   
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
@@ -39,6 +39,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
 ### See also  
  [Sample Code for Activity](sample-code-activity-entities.md)   
  [Fax Entity](entities/fax.md)   
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
+    
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
  [Sample: Promote an Email Message to Dynamics 365 Customer Engagement (on-premises)](sample-promote-email-message.md)

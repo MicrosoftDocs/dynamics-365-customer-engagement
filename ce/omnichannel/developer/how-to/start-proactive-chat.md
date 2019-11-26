@@ -1,16 +1,13 @@
 ---
 title: "Start chat proactively | Microsoft Docs"
 description: "Read how you can start chat proactively to see if customers need help and thereby improve customer experience"
-keywords: ""
-ms.date: 10/24/2019
-ms.service: dynamics-365-customerservice
-ms.custom:
-ms.topic: reference
-applies_to:
-ms.assetid: B8E99BB8-302D-4197-96FA-C8963A9560AB
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 10/24/2019
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: reference
 ---
 # Preview: Start chat proactively
 

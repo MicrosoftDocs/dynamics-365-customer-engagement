@@ -1,18 +1,16 @@
 ---
 title: "updateContext (JavaScript API Reference) for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: ""
-keywords: ""
-ms.date: 10/16/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: reference
-ms.assetid: ECA6BA3E-0E7A-4399-A954-A9FD1A26010A
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 10/16/2019
+ms.topic: reference
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 # updateContext
 

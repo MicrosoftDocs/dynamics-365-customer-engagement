@@ -1,11 +1,12 @@
 ---
 title: "Create a CTI Control | MicrosoftDocs"
 description: "The topic explains on how to create a CTI control."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: c9e49c30-dc33-454e-b067-c90ecca6d659
 author: kabala123
 ms.author: kabala
 manager: shujoshi

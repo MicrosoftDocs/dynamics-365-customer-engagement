@@ -1,11 +1,12 @@
 ---
 title: "View embedded help for actions and events in Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to view embedded help for actions and events for hosted controls in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: d43751e3-5e52-4233-a70d-a483538912d7
 author: kabala123
 ms.author: kabala
 manager: shujoshi

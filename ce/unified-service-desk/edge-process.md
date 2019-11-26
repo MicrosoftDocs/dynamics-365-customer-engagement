@@ -1,11 +1,12 @@
 ---
 title: "Use Edge Process hosting method for your controls in Unified Service Desk  | MicrosoftDocs"
 description: "Learn about the Edge Process hosting methods for your controls in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 12/19/2018
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: "article"
-ms.assetid: D9E7AED8-1D3A-4E62-BD15-7C5CF153EB4E
 author: kabala123
 ms.author: kabala
 manager: shujoshi

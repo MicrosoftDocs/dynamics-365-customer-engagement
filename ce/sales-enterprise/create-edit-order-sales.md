@@ -1,18 +1,15 @@
 ---
 title: "Create or edit orders (Dynamics 365 Sales) | MicrosoftDocs"
 description: "A sales order is a quote that your customer has accepted."
-keywords: "Order, quote, accepted"
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: get-started-article
-ms.assetid: 19543bce-3228-4723-825f-2358c4b18ff7
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-caps.latest.revision: 34
 ---
 
 # Create or edit orders (Sales and Sales Hub)
