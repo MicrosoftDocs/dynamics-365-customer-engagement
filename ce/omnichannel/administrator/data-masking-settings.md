@@ -17,7 +17,9 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Data masking allows you to block sensitive data such as credit card information, social security numbers (SSN), or even profanity in a conversation. You can create a masking rule and define a regular expression to identify the sensitive information and replace it with the masked characters. The masking rule applies to every message sent by a customer through a chat or an SMS channel. If an agent sends any sensitive data to a customer, it will not be masked. 
+Data masking allows you to block sensitive data such as credit card information, social security numbers (SSN), or even profanity in a conversation. You can create a masking rule and define a regular expression to identify the sensitive information and replace it with the masked characters. The masking rule applies to every message sent by a customer through a chat or an SMS channel. If an agent sends any sensitive data to a customer, it will not be masked.
+
+Masking rules must be active to work, and can be configured to apply to messages sent by a customer, an agent, or both. For example, if you choose to mask both customer data and agent data but the masking rules are not set to active, these selections won’t apply. Data Masking applies to both web chats and SMS channels, but on SMS, although the data is masked on the agent side, it may not appear as masked on the customer’s device. In a web chat with active masking rules applied, the data is masked for both the agent and customer. 
 
 The following masking rules are provided out of the box:
 
@@ -65,10 +67,10 @@ Once a masking rule is created, you can activate a rule, deactivate a rule, or d
 
 2.	Go to **Settings** > **Data Masking Settings**.
 
-3. Open the masking rule to be managed.
+3. Open the masking rule to be managed, then do any of the following:
 
-4. To activate a masking rule, select **Activate** from the toolbar at the top of the screen.
+    - To activate a masking rule, select **Activate** from the toolbar at the top of the screen.
 
-5. To deactivate a masking rule, select **Deactivate** from the toolbar at the top of the screen.
+    - To deactivate a masking rule, select **Deactivate** from the toolbar at the top of the screen.
 
-6. To delete a masking rule, select **Delete** from the toolbar at the top of the screen.
+    - To delete a masking rule, select **Delete** from the toolbar at the top of the screen.
