@@ -30,7 +30,7 @@ search.app:
 
 Integrate Dynamics 365 Field Service with SAP C-4Hana and SAP S-4Hana to connect your work order and scheduling system to your ERP system.
 
-Microsoft offers packages and guidance for integrating Field Service with the SAP Planned Maintenance and SAP Inudsutry-Specific Utility (IS-U) modules. This is done through the [Common Data Model](https://docs.microsoft.com/en-us/common-data-model/) You can find details and packages in the [Microsoft Consulting Services GitHub repo](https://github.com/microsoft/MCSBusinessApplicationsDynamicsFSUtilityIndustry). This is part of the Open Data Initiative
+Microsoft offers packages and guidance for integrating Field Service with the SAP Planned Maintenance and SAP Industry-Specific Utility (IS-U) modules. This is done by connecting SAP to the [Common Data Model](https://docs.microsoft.com/en-us/common-data-model/) which Field Service is built on along with other Dynamics modules. You can find details in the [Microsoft Consulting Services GitHub repo](https://github.com/microsoft/MCSBusinessApplicationsDynamicsFSUtilityIndustry), which is a baseline of materials created and updated by Microsoft but is expected that ISVs and SIs will improve and build on in an open source manner as part of the Open Data Initiative.
 
 - Create Utility (SAP/FS) Industry Accelerator as baseline solution with the ability for ISVs and SI to extend
 - 
@@ -41,9 +41,9 @@ Entities are common concepts such as Account or Contact. Entities have specific 
 
 Each standard entity has a set of well-defined attributes. These attributes contain data about aspects of the entity
 
-Additional metadata called traitscan be applied to entities, attributes, relationships etc. that provide semantic meaning.
+Additional metadata called traits can be applied to entities, attributes, relationships etc. that provide semantic meaning.
 
-CDM includes a set of standardentities, attributes and traits for easy reuse and interopacross applications.
+CDM includes a set of standardentities, attributes and traits for easy reuse and interop across applications.
 
 Combines workloads from Dynamics FS and SAP ISU 
 •Works with other solutions in your environment
