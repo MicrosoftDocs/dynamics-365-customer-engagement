@@ -1,6 +1,6 @@
 ---
-title: Customer service learning catalog
-description: Find all the training options for customer service.
+title: Customer Service learning catalog
+description: Find all the training options for Dynamics 365 Customer Service.
 author: loreleishannonmsft
 ms.topic: article
 ms.date: 11/01/2019
