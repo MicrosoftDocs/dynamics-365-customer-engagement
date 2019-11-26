@@ -52,21 +52,40 @@ In this article let's create a work order deeplink that when triggered by techni
 > [!Note]
 >
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+
 
 ## Create command
 
-mobile-deeplink-command-navigate
 
-mobile-deeplink-command
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-deeplink-command-navigate.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-deeplink-command.png)
 
 ## Construct deeplink
 
-## Add mobile JavaScript
-mobile-deeplink-work-order-js-navigate
+PowerApps mobile deeplink for iOS/Windows/Android: 
 
-mobile-deeplink-work-order-js
+ms-apps:///providers/Microsoft.PowerApps/apps/
+
+
+    // mobile: ms-apps:///providers/Microsoft.PowerApps/apps/
+    // app guid = c2fe056f-f576-4c41-9b69-c2435689e80c
+
+    web: https://apps.powerapps.com/play/c2fe056f-f576-4c41-9b69-c2435689e80c?tenantId=f782ab25-637c-4888-b38e-79c78d14bb50
+
+## Add mobile JavaScript
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-deeplink-work-order-js-navigate.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-deeplink-work-order-js.png)
+
 
     // -------------------------Power apps deeplinking
 
@@ -88,11 +107,15 @@ mobile-deeplink-work-order-js
 
 ## Deeplink to PowerApps form
 
-mobile-deeplink-powerapp-accept-deeplink
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-deeplink-powerapp-accept-deeplink.png)
 
 ## Pass work order parameter
 
-mobile-deeplink-powerapp-accept-parameter
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-deeplink-powerapp-accept-parameter.png)
 
 ## Configuration considerations
 
