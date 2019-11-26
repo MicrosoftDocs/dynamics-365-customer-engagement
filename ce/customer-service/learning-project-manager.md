@@ -1,17 +1,14 @@
 ---
-title: "Implementation project managers learning catalog"
-description: "Overview of learning available for customer service professionals"
-author: LoreleiShannon
-ms.custom: na
-ms.date: 11/01/2019
+title: Implementation project managers learning catalog
+description: Find all the training options for implementation project managers.
+author: loreleishannonmsft
 ms.topic: article
-ms.service: "dynamics365-customer-service"
+ms.date: 11/01/2019
 ms.author: v-lshann
 ---
 
 # Implementation Project Managers Learning Catalog
 The following catalog is organized from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.
-
 
 ## Getting started<a name="get-started"></a>
 
@@ -19,9 +16,12 @@ The following catalog is organized from core knowledge to specific domains, and 
 |----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|
 | [Dynamics 365 and Power Platform Fundamentals](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/)                        | Are you interested in learning about business applications? Start with this learning path to see how Dynamics 365 apps are used. Learn about cloud concepts, Power Platform, and how to get started with Dynamics 365 apps.   | Free, self-paced online learning path | 5.5 hours |
 | [Get started with Dynamics 365 for Customer Service](https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service/) | Customer service is a key aspect of any customer relationship management strategy. Microsoft Dynamics 365 for Customer Service has many features that organizations can use to manage the services they provide to customers. | Free, self-paced online learning path | .5 hours  |
+
 ## Core platform knowledge<a name="core-platform"></a>
-| Content                                                                                                     | Description                                                                                                                                                                                                                   | Format                                | Length    |
+
+| Content                                                                                                    | Description                                                                                                                                                                                                                   | Format                                | Length    |
 |----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|
 | [Work with cases in Microsoft Dynamics 365 for Customer Service](https://docs.microsoft.com/learn/paths/work-with-cases-in-dynamics-365-for-customer-service/)                                                               | This learning path focuses on Case Management capabilities of Dynamics 365 for Customer Service including options for creating cases, managing the case resolution process, working with case hierarchies and merging similar cases. Queues can be leveraged to maintain and manage Case workloads for customer service agents to include defining queues for different types of cases, managing queue items, picking and releasing queue items, and designing queue routing rules. | Free, self-paced online learning path | 3 hours |
-| [Work with Knowledge Management Solutions in Microsoft Dynamics 365 for Customer Service](https://docs.microsoft.com/learn/paths/work-with-knowledge-management-solutions-in-microsoft-dynamics-365-for-customer-service/)   | This learning path focuses on working with Knowledge Management Solutions in Microsoft Dynamics 365 for Customer Service.                                                                                                                                                                                                                                                                                                                                                           | Free, self-paced online learning path | 2 hours |
-| [Work with entitlements and service level agreements in Microsoft Dynamics 365 for Customer Service](https://docs.microsoft.com/learn/paths/work-with-entitlements-and-slas-in-microsoft-dynamics-365-for-customer-service/) | This learning path focuses on working with entitlements and service level agreements in Microsoft Dynamics 365 for Customer Service.                                                                                                                                                                                                                                                                                                                                                | Free, self-paced online learning path | 2 hours |
+| [Work with Knowledge Management Solutions in Microsoft Dynamics 365 for Customer Service](https://docs.microsoft.com/learn/paths/work-with-knowledge-management-solutions-in-microsoft-dynamics-365-for-customer-service/)   | This learning path focuses on working with Knowledge Management Solutions in Microsoft Dynamics 365 for Customer Service.    | Free, self-paced online learning path | 2 hours |
+| [Work with entitlements and service level agreements in Microsoft Dynamics 365 for Customer Service](https://docs.microsoft.com/learn/paths/work-with-entitlements-and-slas-in-microsoft-dynamics-365-for-customer-service/) | This learning path focuses on working with entitlements and service level agreements in Microsoft Dynamics 365 for Customer Service.  | Free, self-paced online learning path | 2 hours |
+

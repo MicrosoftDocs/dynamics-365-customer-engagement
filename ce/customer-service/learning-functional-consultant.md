@@ -1,12 +1,10 @@
 ---
-title: "Functional consultants learning catalog"
-description: "Overview of learning available for customer service professionals"
-author: LoreleiShannon
-ms.custom: na
-ms.date: 11/01/2019
+title: Functional consultants learning catalog
+description: Find all the training options for functional consultants.
+author: loreleishannonmsft
 ms.topic: article
-ms.service: "dynamics365-customer-service"
-ms.author: loreleishannonmsft
+ms.date: 11/01/2019
+ms.author: v-lshann
 ---
 
 # Functional Consultants Learning Catalog
