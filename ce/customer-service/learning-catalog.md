@@ -86,7 +86,7 @@ Find the right online training, in person workshops, and events for your role in
 
     Are you responsible for helping your customers buy the right solution?
 
-    [Sales Learning Catalog](learning-sales.md)
+    [Partner Sales and Marketing Learning Catalog](learning-sales.md)
 
      :::column-end:::
 :::row-end:::
