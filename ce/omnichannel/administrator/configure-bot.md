@@ -6,7 +6,7 @@ ms.author: shjais
 manager: shujoshi
 ms.date: 11/08/2019
 ms.service: 
-  - dynamics-365-customerservice
+  - "dynamics-365-customerservice"
 ms.topic: article
 ---
 

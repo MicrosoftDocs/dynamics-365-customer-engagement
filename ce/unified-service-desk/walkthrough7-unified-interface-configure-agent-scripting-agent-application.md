@@ -3,7 +3,7 @@ title: "Walkthrough 7  Configure agent scripting in your agent application | Mic
 description: 
 ms.date: 05/07/2018
 ms.service: 
-  - usd
+  - "dynamics-365-customerservice"
 ms.topic: article
 author: kabala123
 ms.author: kabala

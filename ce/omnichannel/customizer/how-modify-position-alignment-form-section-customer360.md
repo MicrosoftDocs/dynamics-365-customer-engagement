@@ -6,7 +6,7 @@ ms.author: kabala
 manager: shujoshi
 ms.date: 07/01/2019
 ms.service: 
-  - dynamics-365-customerservice
+  - "dynamics-365-customerservice"
 ms.topic: article
 ---
 # Modify the position or alignment of a section in the Customer summary

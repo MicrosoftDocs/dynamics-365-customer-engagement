@@ -6,7 +6,7 @@ ms.author: kabala
 manager: shujoshi
 ms.date: 07/01/2019
 ms.service: 
-  - dynamics-365-customerservice
+  - "dynamics-365-customerservice"
 ms.topic: article
 ---
 # Step 4: Add the action calls to the events 

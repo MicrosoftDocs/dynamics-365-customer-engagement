@@ -5,6 +5,8 @@ author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/25/2019
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
 ---
 

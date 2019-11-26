@@ -25,7 +25,7 @@ search.app:
 ---
 # Sample: Override goal total count and close the goal
 
-This sample code is for Dynamics 365 Customer Engagement(on-premises). [Download the Goals samples](https://code.msdn.microsoft.com/Goals-Samples-539b2a34). 
+This sample code is for Dynamics 365 Customer Engagement(on-premises). [Download the Goals samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Goals). 
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

@@ -6,7 +6,7 @@ ms.author: susikka
 manager: shujoshi
 ms.date: 10/17/2019
 ms.service: 
-  - dynamics-365-customerservice
+  - "dynamics-365-customerservice"
 ms.topic: article
 ---
 # Omnichannel for Customer Service for developers

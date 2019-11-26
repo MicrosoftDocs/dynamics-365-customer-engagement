@@ -85,7 +85,7 @@ search.app:
 
 - DynamicsUnifiedServiceDesk
 
-- USD<em>\<PackageName></em>Customization, where *\<PackageName>* is the name of the package that you deployed.
+- "dynamics-365-customerservice"<em>\<PackageName></em>Customization, where *\<PackageName>* is the name of the package that you deployed.
 
   If you want to deploy another sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package, you must first remove these three solutions. To do this:
 

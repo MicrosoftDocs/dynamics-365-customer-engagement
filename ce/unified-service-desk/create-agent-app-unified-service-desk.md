@@ -3,7 +3,7 @@ title: "Create agent application using Unified Service Desk in Customer Engageme
 description: 
 ms.date: 08/23/2017
 ms.service: 
-  - usd
+  - "dynamics-365-customerservice"
 ms.topic: article
 author: kabala123
 ms.author: kabala

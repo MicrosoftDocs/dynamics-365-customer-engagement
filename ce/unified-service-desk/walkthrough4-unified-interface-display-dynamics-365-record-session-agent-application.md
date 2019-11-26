@@ -3,7 +3,7 @@ title: "Walkthrough 4  Display a record in a session in your agent application |
 description: "Demonstrates how to display Customer Engagement records in a session in your agent application using window navigation rules and session controls in Unified Service Desk."
 ms.date: 11/12/2019
 ms.service: 
-  - usd
+  - "dynamics-365-customerservice"
 ms.topic: article
 author: kabala123
 ms.author: kabala

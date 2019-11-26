@@ -77,11 +77,11 @@ To create a marketing email and go live:
    > 
    > Messages that come from a familiar sender that have an enticing subject and relevant preview text are much more likely to get opened than messages that have just some, or none, of those things.
 
-1. An easy way to personalize the message is to include the name of the recipient in the greeting. Add the recipient's name as dynamic text by using the assist-edit feature as follows:
+1. An easy way to personalize the message is to include the name of the recipient in the greeting. Add the recipient's name as dynamic text by using the [assist edit](dynamic-email-content.md#assist-edit) feature as follows:
 
     1. Working in the text element you just added, enter a suitable opening such as "Dear".
 
-    1. On the pop-up toolbar, select the assist-edit button **&lt;/&gt;**. This opens the assist-edit dialog.
+    1. On the pop-up toolbar, select the **Assist edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button"). This opens the assist-edit dialog.
 
         ![Assist edit, page 1](media/assist-edit-p1.png "Assist edit, page 1")
 
@@ -93,16 +93,16 @@ To create a marketing email and go live:
 
     1. On the previous page, you choose the contact entity (in context). On this page you must choose which field from that entity you want to place. We're building the salutation, so we'd like to show the recipient's first name here. Select the **Property** radio button and then start to type "first" into the combo box here. This searches the available fields for those that include the text "first", which greatly reduces the number of fields you need to look through. Select **First Name** from the list as soon as you can see it.
 
-    1. Select OK to place the expression you've built and close the assist-edit tool. The full salutation now looks like this: **Dear {{contact.firstname}},**. (If you prefer, you can enter that code directly without using assist-edit.)
+    1. Select OK to place the expression you've built and close the assist-edit tool. The full salutation now looks like this: **Dear {{contact.firstname}},**. (If you prefer, you can enter that code directly without using assist edit.)
 
    > [!TIP]
    > You might have noticed that the **Subject** field also has an assist-edit button. This means that you can put dynamic text (including the recipient's name) in the subject too.
 
-1. The body of all email messages must include both a subscription-center link and your organization's physical address. These are required by law in many jurisdictions, and Dynamics 365 Marketing won't let you publish any marketing email that doesn't have them. These values are provided by the [content settings entity](dynamic-email-content.md#content-settings), which enables you to store their values centrally and change them for each customer journey as needed. Therefore you'll place these as contextual dynamic values, just as you did with the recipient's name (though in this case, the relevant context is the journey rather than the recipient). Place them by using assist-edit as follows:
+1. The body of all email messages must include both a subscription-center link and your organization's physical address. These are required by law in many jurisdictions, and Dynamics 365 Marketing won't let you publish any marketing email that doesn't have them. These values are provided by the [content settings entity](dynamic-email-content.md#content-settings), which enables you to store their values centrally and change them for each customer journey as needed. Therefore you'll place these as contextual dynamic values, just as you did with the recipient's name (though in this case, the relevant context is the journey rather than the recipient). Place them by using assist edit as follows:
 
-   1. Choose a suitable location for your *physical address*, and then use assist-edit to place it. Select **Contextual** and then **ContentSettings** on the first page of the assist-edit tool. Select **Next** and then pick **Property** and **msdyncrm_addressmain** on the second page. Select **OK** to place the expression `{{msdyncrm_contentsettings.msdyncrm_addressmain}}` into your message.
+   1. Choose a suitable location for your *physical address*, and then use assist edit to place it. Select **Contextual** and then **ContentSettings** on the first page of the assist-edit tool. Select **Next** and then pick **Property** and **msdyncrm_addressmain** on the second page. Select **OK** to place the expression `{{msdyncrm_contentsettings.msdyncrm_addressmain}}` into your message.
 
-   2. Choose a suitable location for the *subscription-center link*, and then enter some anchor text there (such as "Manage your subscriptions"). Select the anchor text, and then select the **Link** button ![The Link button](media/email-link-button.png "The link button") from the floating toolbar, which opens the **Link** dialog box. Select the assist-edit button for the **Link** field. In the assist-edit dialog, select **Contextual** and then **ContentSettings** on the first page. Select **Next** and then pick **Property** and **msdyncrm_subscriptioncenter** on the second page. Select **OK** to place the expression `{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}` into the **Link** field.
+   2. Choose a suitable location for the *subscription-center link*, and then enter some anchor text there (such as "Manage your subscriptions"). Select the anchor text, and then select the **Link** button ![The Link button](media/email-link-button.png "The link button") from the floating toolbar, which opens the **Link** dialog box. Select the **Assist edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") for the **Link** field. In the assist-edit dialog, select **Contextual** and then **ContentSettings** on the first page. Select **Next** and then pick **Property** and **msdyncrm_subscriptioncenter** on the second page. Select **OK** to place the expression `{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}` into the **Link** field.
 
         ![The email Link dialog](media/email-link-dialog.png "The email Link dialog box")  
 
