@@ -57,13 +57,42 @@ In this article let's create a work order deeplink that when triggered by techni
 
 ## Create command
 
+mobile-deeplink-command-navigate
+
+mobile-deeplink-command
+
 ## Construct deeplink
 
 ## Add mobile JavaScript
+mobile-deeplink-work-order-js-navigate
+
+mobile-deeplink-work-order-js
+
+    // -------------------------Power apps deeplinking
+
+    MobileCRM.UI.EntityForm.onCommand("custom_SendWOToPowerApps", ToPowerApps, true, null);
+
+        // web: https://apps.powerapps.com/play/c2fe056f-f576-4c41-9b69-c2435689e80c?tenantId=f782ab25-637c-4888-b38e-79c78d14bb50
+        // mobile: ms-apps:///providers/Microsoft.PowerApps/apps/
+        // app guid = c2fe056f-f576-4c41-9b69-c2435689e80c
+        function ToPowerApps(entityForm) {
+            var WONumber = entityForm.entity.primaryName;
+            var WOqueryString = "&WONumber=" + WONumber;
+            var url = "ms-apps:///providers/Microsoft.PowerApps/apps/c2fe056f-f576-4c41-9b69-c2435689e80c?Deeplink=requestparts" + WOqueryString ;
+            //var url = "ms-apps:///providers/Microsoft.PowerApps/apps/c2fe056f-f576-4c41-9b69-c2435689e80c?Deeplink=requestparts&WONumber=18";
+
+            //MobileCRM.bridge.alert(url);
+            MobileCRM.Platform.openUrl(url);
+        }
+
 
 ## Deeplink to PowerApps form
 
+mobile-deeplink-powerapp-accept-deeplink
+
 ## Pass work order parameter
+
+mobile-deeplink-powerapp-accept-parameter
 
 ## Configuration considerations
 
