@@ -11,8 +11,6 @@ ms.service:
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
 ---
 
 # Preview: Support for multiple providers

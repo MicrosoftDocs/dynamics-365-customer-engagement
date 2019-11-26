@@ -11,9 +11,6 @@ ms.service:
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
 ---
 # Walkthrough: Search and open records on an incoming conversation
 
