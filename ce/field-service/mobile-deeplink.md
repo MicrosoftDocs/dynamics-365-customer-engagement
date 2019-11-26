@@ -49,7 +49,6 @@ In this article let's create a work order deeplink that when triggered by techni
 
 - This article also assumes you have a PowerApp created to deeplink to. The "Parts Order" PowerApp referenced in this article is a custom-built but simple PowerApp that connects to a sharepoint list. If you are building a PowerApp for the first time, the [PowerApp in a day](http://aka.ms/appinaday) guide and the topic on [canvas apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/getting-started) is helpful.
 
-> [!Note]
 >
 
 
@@ -104,6 +103,8 @@ ms-apps:///providers/Microsoft.PowerApps/apps/
             MobileCRM.Platform.openUrl(url);
         }
 
+> [!Note]
+> Note about upgrade
 
 ## Deeplink to PowerApps form
 
