@@ -28,32 +28,38 @@ search.app:
 
 # Field Service and SAP integration
 
+Integrate Dynamics 365 Field Service with SAP C-4Hana and SAP S-4Hana to connect your work order and scheduling system to your ERP system.
+
+Microsoft offers packages and guidance for integrating Field Service with the SAP Planned Maintenance and SAP Inudsutry-Specific Utility (IS-U)
+
 - Create Utility (SAP/FS) Industry Accelerator as baseline solution with the ability for ISVs and SI to extend
 - Open Data Initiative, Published on [GitHub](https://github.com/microsoft/MCSBusinessApplicationsDynamicsFSUtilityIndustry)
 - SAP Planned maintenance and Industry SPecifc - utilities modules
--Web API’s are standard and proven way to connect to D365. It provides a modern, RESTful web services can be used to interact with data in D365 using a wide variety of platforms, programming languages and devices 
+- Web API’s are standard and proven way to connect to D365. It provides a modern, RESTful web services can be used to interact with data in D365 using a wide variety of platforms, programming languages and devices 
 
-Entitiesare common concepts such as Account or Contact. Entities have specific semantics and can be relatedto other entities.
+Entities are common concepts such as Account or Contact. Entities have specific semantics and can be relatedto other entities.
 
 Each standard entity has a set of well-defined attributes. These attributes contain data about aspects of the entity
 
-Additional metadata called traitscan be applied to entities, attributes, relationships etc. that provide semanticmeaning.
+Additional metadata called traitscan be applied to entities, attributes, relationships etc. that provide semantic meaning.
 
 CDM includes a set of standardentities, attributes and traits for easy reuse and interopacross applications.
 
-
-Combines workloads from Dynamics FS and SAP ISU •Works with other solutions in your environment•Incorporates best practices from the sector•Delivers fast, secure access to program insights•Built on an open standard owned by the sector•Encourages innovation by software partners•Notes (feedback from Kyle): published by Microsoft services, leverage the services, some attribution to Services
+Combines workloads from Dynamics FS and SAP ISU 
+•Works with other solutions in your environment•Incorporates best practices from the sector•Delivers fast, secure access to program insights
+•Built on an open standard owned by the sector•Encourages innovation by software partners
+•Notes (feedback from Kyle): published by Microsoft services, leverage the services, some attribution to Services
 
 
 https://docs.microsoft.com/en-us/connectors/sap/
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/sap-integration-meter-cash-example.png)
 
-## Prerequisites
+
+
 > [!Note]
 >
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
 
-## Configuration considerations
 ## Additional Notes
