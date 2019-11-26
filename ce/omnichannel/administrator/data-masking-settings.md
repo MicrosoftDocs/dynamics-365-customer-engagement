@@ -31,7 +31,7 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
 
 > [!NOTE]
 > - Only an administrator can access data masking rules.
-> - Only 10 data masking rules, including out of the box masking rules, can exist in Omnichannel for Customer Service. 
+> - Only 10 data masking rules, including out-of-the-box masking rules, can exist in Omnichannel for Customer Service. 
 
 ## Create a data masking rule
 
