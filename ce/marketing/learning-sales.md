@@ -1,6 +1,6 @@
 ---
-title: Sales learning catalog
-description: Find all the training options for sales.
+title: Microsoft partner sales and marketing learning catalog
+description: Find all the training options for partner sales and marketing.
 author: loreleishannonmsft
 ms.topic: article
 ms.date: 07/08/2019
