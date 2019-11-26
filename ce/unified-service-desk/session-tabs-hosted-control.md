@@ -36,11 +36,9 @@ To create the session tabs hosted control, follow these steps:
 
 4. Specify a name for the hosted control.
 
-5. Select the **Extensions** tab.
+5. Select the **Extensions** tab and update the XML in the **Extensions XML** field. To learn more, see [Chat indicator XML](#chat-indicator-xml). This is an optional step.  You need to update the XML only if you require chat indicator for your session. 
 
-6. Update the XML in the **Extensions XML** field. To learn more, see [Chat indicator XML](#chat-indicator-xml).
-
-7. Select **Save**.
+6. Select **Save**.
 
 For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).
 

@@ -52,9 +52,9 @@ Connect Azure IoT Central to Connected Field Service by configuring the "Create 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the rules tab in IoT Central](media/iot-central-alerts-4.png)
 
-5. Then, under **Actions,** select **Microsoft Flow** from the Select Action options. This will take you to another working environment in the Power Automate application. This is where you will set up your integrations.
+5. Then, under **Actions,** select **Power Automate** from the Select Action options. This will take you to another working environment in the Power Automate application. This is where you will set up your integrations.
 
-    a. **Note for Azure IoT Central trial users**: In order to use Power Automate from Azure IoT Central, you must be using the pay-as-you-go form of IoT Central. Trial users can work around this by heading directly to [Power Automate](https://flow.microsoft.com/templates/) to configure steps 7 and 8 in this tutorial. Then in Azure IoT Central, the Flow will be all ready to go. 
+    a. **Note for Azure IoT Central trial users**: In order to use Power Automate from Azure IoT Central, you must be using the pay-as-you-go form of IoT Central. Trial users can work around this by heading directly to [Power Automate](https://flow.microsoft.com/templates/) to configure steps 7 and 8 in this tutorial. Then in Azure IoT Central, the flow will be all ready to go. 
     
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Automate as an Action option in IoT Central](media/iot-central-alerts-5.png)
