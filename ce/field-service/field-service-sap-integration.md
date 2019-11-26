@@ -28,43 +28,25 @@ search.app:
 
 # Field Service and SAP integration
 
-Integrate Dynamics 365 Field Service with SAP C-4Hana and SAP S-4Hana to connect your work order and scheduling system to your ERP system.
+Integrate Dynamics 365 Field Service with SAP C-4Hana and SAP S-4Hana to connect your work order scheduling system to your ERP system.
 
-Microsoft offers packages and guidance for integrating Field Service with the SAP Planned Maintenance and SAP Industry-Specific Utility (IS-U) modules. This is done by connecting SAP to the [Common Data Model](https://docs.microsoft.com/en-us/common-data-model/) which Field Service is built on along with other Dynamics modules. You can find details in the [Microsoft Consulting Services GitHub repo](https://github.com/microsoft/MCSBusinessApplicationsDynamicsFSUtilityIndustry), which is a baseline of materials created and updated by Microsoft but is expected that ISVs and SIs will improve and build on in an open source manner as part of the Open Data Initiative.
+Microsoft offers guidance for integrating Field Service with the SAP Planned Maintenance and SAP Industry-Specific Utility (IS-U) modules. This is done by connecting SAP to the [Common Data Model](https://docs.microsoft.com/en-us/common-data-model/) which Field Service is built on along with other Dynamics modules. You can find details in the [Microsoft Consulting Services GitHub repo](https://github.com/microsoft/MCSBusinessApplicationsDynamicsFSUtilityIndustry), which is a baseline of materials created and updated by Microsoft but open to ISVs and SIs to improve and build upon in an open source manner as part of the Open Data Initiative.
 
-- Create Utility (SAP/FS) Industry Accelerator as baseline solution with the ability for ISVs and SI to extend
-- 
-- SAP Planned maintenance and Industry SPecifc - utilities modules
-- Web API’s are standard and proven way to connect to D365. It provides a modern, RESTful web services can be used to interact with data in D365 using a wide variety of platforms, programming languages and devices 
+Today the materials provide details on 3 main aspects of integrating Field Service with SAP:
 
-Entities are common concepts such as Account or Contact. Entities have specific semantics and can be relatedto other entities.
-
-Each standard entity has a set of well-defined attributes. These attributes contain data about aspects of the entity
-
-Additional metadata called traits can be applied to entities, attributes, relationships etc. that provide semantic meaning.
-
-CDM includes a set of standardentities, attributes and traits for easy reuse and interop across applications.
-
-Combines workloads from Dynamics FS and SAP ISU 
-•Works with other solutions in your environment
-•Incorporates best practices from the sector
-•Delivers fast, secure access to program insights
-•Built on an open standard owned by the sector
-•Encourages innovation by software partners
-•Notes (feedback from Kyle): published by Microsoft services, leverage the services, some attribution to Services
+1. Field Service and SAP business processes
+2. Entity, field, and data models
+3. Guiding principles and best practices 
 
 
-
+Below is an example architecture for how the SAP Industry-Specific Utility "meter to cash" solution will interact with Dynamics 365 Field Service.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/sap-integration-meter-cash-example.png)
 
 
-
-> [!Note]
->
-
-
 ## Additional notes
+
+[Microsoft Consulting Services GitHub repo](https://github.com/microsoft/MCSBusinessApplicationsDynamicsFSUtilityIndustry)
 
 [Logic Apps SAP connector](https://docs.microsoft.com/en-us/connectors/sap/)
