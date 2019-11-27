@@ -49,31 +49,61 @@ In this article let's create a work order deeplink that when triggered by techni
 
 - This article also assumes you have a PowerApp created to deeplink to. The "Parts Order" PowerApp referenced in this article is a custom-built but simple PowerApp that connects to a sharepoint list. If you are building a PowerApp for the first time, the [PowerApp in a day](http://aka.ms/appinaday) guide and the topic on [canvas apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/getting-started) is helpful.
 
->
-
-
 
 ## Create command
+
+First we need to create a work order command that the technician will select on the mobile work order form to trigger the PowerApp to open.
+
+Log in to Field Service as a system administrator and go to **Settings > Woodford > MobileCRM Woodford HTML5**
+
+Then edit the mobile project that holds the customizations for your technicians.
+
+Go to the Work order form where you will add a command.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-deeplink-command-navigate.png)
 
+In the commands section, select **Edit** then choose **New Command** in the window that appears.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-deeplink-command.png)
 
+Enter a **Name** which cannot have spaces and will be referenced in JavaScript code, and a **Label** which is what the technician will see on his or her mobile app. 
+
 ## Construct deeplink
 
-PowerApps mobile deeplink for iOS/Windows/Android: 
+Next we need to construct our deeplink. 
+
+The final deeplink will be: ms-apps:///providers/Microsoft.PowerApps/apps/c2fe056f-f576-4c41-9b69-c2435689e80c?Deeplink=requestparts&WONumber=18 
+
+Which is a concatenation of:
+
+1. Universal PowerApps link 
+2. PowerApp GUID 
+3. PowerApp form name
+4. Work order entity "work order number" field
+
+#### Universal PowerApps link
 
 ms-apps:///providers/Microsoft.PowerApps/apps/
+
+All deeplinks to Windows, iOS and Android PowerApps apps begin with: **ms-apps:///providers/Microsoft.PowerApps/apps/**
 
 
     // mobile: ms-apps:///providers/Microsoft.PowerApps/apps/
     // app guid = c2fe056f-f576-4c41-9b69-c2435689e80c
 
-    web: https://apps.powerapps.com/play/c2fe056f-f576-4c41-9b69-c2435689e80c?tenantId=f782ab25-637c-4888-b38e-79c78d14bb50
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-deeplink-app-id.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-deeplink-app-id-final.png)
+
+
+web: https://apps.powerapps.com/play/c2fe056f-f576-4c41-9b69-c2435689e80c?tenantId=f782ab25-637c-4888-b38e-79c78d14bb50
 
 ## Add mobile JavaScript
 
