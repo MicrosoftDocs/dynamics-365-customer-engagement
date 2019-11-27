@@ -154,7 +154,7 @@ Keep track of your customer requests and issues by creating support cases in Dyn
 4.  Select the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button"), select the queue that you want to add the case to, and then select **Add**.
 
 > [!Note]
-> When two agents add the same case at the same time, the case in that queue is duplicated.
+> When two agents add the same case at the same time to two different queues, the case is duplicated in both the queues.
   
 ### Save and route a case  
  When you create a new case, you can save it and route it with a single select using the **Save & Route** button.  
