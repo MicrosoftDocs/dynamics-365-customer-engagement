@@ -374,10 +374,7 @@ Quickly see the items assigned to you or that are available to work on by using 
   
    You also have an option to remove the item from the queue once you pick it up.  
   
-   When you pick an activity or a case, it gets assigned to you. The **Worked By** field (in the list of queue items) is also set to you if you leave the activity or case in the queue.  
-   
-> [!Note]
-> When two agents simultaneously pick cases from the queue, then the system creates two queue items instead of a single queue item.
+   When you pick an activity or a case, it gets assigned to you. The **Worked By** field (in the list of queue items) is also set to you if you leave the activity or case in the queue.
   
 ### Release an item or case that you’re working on so someone else can pick it up  
   
