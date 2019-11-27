@@ -368,9 +368,6 @@ You can set a parent child relationship between cases where you can set one case
 
 To know more about Queues, see [Work with Queues](customer-service-hub-user-guide-basics.md#work-with-queues).
 
-> [!Note]
-> When two agents add the same case at the same time to two different queues, the case is duplicated in both the queues.
-
 ## Save and route a case  
  To save a case record and route it to a queue in a single select, use the **Save & Route** button.  
 

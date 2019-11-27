@@ -166,8 +166,8 @@ Alternatively, you can manually add cases and activities to queues.
 To assign items in the queue to agents, select **Assign** after selecting one or multiple items in the queues grid. In the **Assign Queue** box, you can choose to assign to other users or teams.
 
 > [!Note]
-> - When two agents are assigned the same case at the same time, the case in that queue is duplicated.
-> - If you've created workflows or used custom API to assign cases to agents and if a same case is assigned to two agents at the same time, then case in that queue is duplicated. 
+> - When two agents simultaneously pick cases from the queue, then the system creates two queue items instead of a single queue item.
+> - If you've created workflows or used custom API to assign cases to agents and if a same case is assigned to two agents at the same time, then the system creates two queue items instead of a single queue item. 
 
 ### See also  
 

@@ -152,9 +152,6 @@ Keep track of your customer requests and issues by creating support cases in Dyn
 3. Select the **More Commands** ![Ellipsis button](../customer-service/media/crm-ua-ellipsis-v4.gif "Ellipsis button"), and select **Add to Queue**.  
   
 4.  Select the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button"), select the queue that you want to add the case to, and then select **Add**.
-
-> [!Note]
-> When two agents add the same case at the same time to two different queues, the case is duplicated in both the queues.
   
 ### Save and route a case  
  When you create a new case, you can save it and route it with a single select using the **Save & Route** button.  
@@ -380,7 +377,7 @@ Quickly see the items assigned to you or that are available to work on by using 
    When you pick an activity or a case, it gets assigned to you. The **Worked By** field (in the list of queue items) is also set to you if you leave the activity or case in the queue.  
    
 > [!Note]
-> When two agents pick the same case at the same time, the case in that queue is duplicated.
+> When two agents simultaneously pick cases from the queue, then the system creates two queue items instead of a single queue item.
   
 ### Release an item or case that you’re working on so someone else can pick it up  
   
