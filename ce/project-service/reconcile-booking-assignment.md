@@ -6,7 +6,7 @@ manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 03/25/2019
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -68,13 +68,20 @@ To ensure accurate and predictable results when using Extend Bookings, there are
 
   ![Time zone settings in personalization settings](media/reconcile-assignments-04.png)
  
-- The Bookable Resource must have at least one minute of overlapping working time with the contours that are used to define the requested extension. For this example, we will reiew resources with working hours that fall between 9:00 and 19:00:
+- The Bookable Resource must have at least one minute of working time that overlaps with the contours that are used to define the requested extension. For this example, we will reiew resources with working hours that fall between 9:00 am and 7:00 pm:
 
   ![comparison of resource contours](media/reconcile-assignments-05.png)
 
+The following table shows:
+
+- Project calendar template
+-	Resource A: This resource has the same calendar and is in the same timezone as the project. The start time of the bookings will be 9:00 am.
+-	Resources B: This resource is located in a different timezone than the project and therefore starts work at 7:00 am in their timezone. However, the bookings will begin at 9:00 as that is the earliest start time of the assignment contour.
+-	Resources C and D: The resources are also located in different timezones, both from each other and the project, and their bookings start no earlier than their respective available start times.
+
 |Entity  |Calendar  |
 |-|-|
-|Project Calendar Template   | ![project calendar](media/reconcile-assignments-06.png) |
+|Project calendar template   | ![project calendar](media/reconcile-assignments-06.png) |
 |Resource A  | ![Resource A calendar](media/reconcile-assignments-06.png) |
 |Resource B  |  ![Resource B calendar](media/reconcile-assignments-07.png) |
 |Resource C  |  ![Resource C calendar](media/reconcile-assignments-08.png) |
@@ -83,16 +90,12 @@ To ensure accurate and predictable results when using Extend Bookings, there are
 When you navigate to the reconciliation view, the resource assignments and the associated booking shortages will be displayed.
  ![reconciliation view before extension](media/reconcile-assignments-10.png)
 
-After the Extend Bookings functionality has been executed on each resource, because each resource’s working hours overlapped with the contours of the shortage, bookings were successfully extended for each resource.
+After the Extend Bookings functionality has been executed on each resource, bookings are successfully extended for each resource because each resource’s working hours overlapped with the contours of the shortage.
  ![reconciliation view after booking extension](media/reconcile-assignments-11.png) 
 
 However, a closer look at the details of the bookings shows differences in the start time of the bookings. The bookings will start no earlier than the start time of the assignment contour and no earlier than the available start time of the resource.
  ![new bookings of the resources in the schedule board](media/reconcile-assignments-12.png)
 
--	For Res A, because this resource has the same calendar as the project, the start time of the bookings will be 9:00.
--	For Res B, because this resource starts to work at 7:00, the bookings will begin at 9:00 as that is the earliest start time of the assignment contour.
--	For Res C and Res D, their bookings start no earlier than their respective available start times.
- 
  
 
  
