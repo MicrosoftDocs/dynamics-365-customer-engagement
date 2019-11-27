@@ -168,7 +168,10 @@ Keep track of your customer requests and issues by creating support cases in Dyn
   
    > [!IMPORTANT]
    > - The **Save & Route** button is available only on active cases.  
-   > - The **Apply Routing Rule** button that was earlier available on the case form is now available in the list of records for applying the routing rule on multiple cases.    
+   > - The **Apply Routing Rule** button that was earlier available on the case form is now available in the list of records for applying the routing rule on multiple cases.
+
+   > [!Note]
+   > When two agents simultaneously pick cases from the queue, then the system creates two queue items instead of a single queue item.
 
 ## Add an activity to a case
 The activity and notes area helps you keep track of all the interactions with your customers. Record all important conversations with the customer or the communication with your team members regarding a record in Dynamics 365 Customer Service. Add a phone call, task, notes, email, or appointments right within the case, account, contact, lead, or opportunity records without navigating to a different area and opening another form.  
