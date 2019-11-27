@@ -1,10 +1,10 @@
 ---
 title: "User Guide (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Resources for the legacy Customer Service app."
-author: anjgupta
-ms.author: anjgup
+author: kabala123
+ms.author: kabala
 manager: shujoshi
-ms.date: 07/31/2019
+ms.date: 11/27/2019
 ms.topic: get-started-article
 ms.service: 
   - dynamics-365-customerservice
