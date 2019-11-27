@@ -4,7 +4,7 @@ description: Understand Cases and SLA in Customer Service Hub for Dynamics 365 C
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/04/2019
+ms.date: 11/27/2019
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -368,6 +368,8 @@ You can set a parent child relationship between cases where you can set one case
 
 To know more about Queues, see [Work with Queues](customer-service-hub-user-guide-basics.md#work-with-queues).
 
+> [!Note]
+> When two agents add the same case at the same time to two different queues, the case is duplicated in both the queues.
 
 ## Save and route a case  
  To save a case record and route it to a queue in a single select, use the **Save & Route** button.  
