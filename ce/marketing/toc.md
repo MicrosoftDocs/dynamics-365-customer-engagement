@@ -104,6 +104,7 @@
 #### [Set the sender, receiver, language, and legal designation](email-properties.md)
 #### [Check your work using previews and test sends](email-preview.md)
 #### [Check for errors, go live, and deliver](email-check-golive.md)
+#### [Quickly design and deliver marketing emails with "send now"](email-send-now.md)
 #### [Preview: Check your spam score](spam-score.md)
 #### [Design and run A/B tests on your email designs](email-a-b-testing.md)
 
@@ -136,6 +137,7 @@
 
 ### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
+#### [Preview: Set expiration dates for emails](email-expire.md)
 #### [Preview: Use smart scheduler to help improve email engagement](smart-scheduler.md)
 #### [Preview: Expand your audience with segment boost](segment-boost.md)
 #### [Create and manage customer journey templates](journey-templates.md)
