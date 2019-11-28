@@ -4,7 +4,7 @@ description: Learn how to set up queues to manage activities and cases in Dynami
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
-ms.date: 10/01/2018
+ms.date: 11/27/2019
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -164,7 +164,11 @@ Alternatively, you can manually add cases and activities to queues.
  Queues share cases or activities as a group until these are taken out of the queue, or accepted, by a customer service agent who assumes responsibility for handling them. Agents can pick the items for themselves, or a customer service manager can manually route these cases to the agents or to other queues, users, or teams.  
 
 To assign items in the queue to agents, select **Assign** after selecting one or multiple items in the queues grid. In the **Assign Queue** box, you can choose to assign to other users or teams.
-  
+
+> [!Note]
+> - When two agents simultaneously pick cases from the queue, then the system creates two queue items instead of a single queue item.
+> - If you've created workflows or used custom API to assign cases to agents and if a same case is assigned to two agents at the same time, then the system creates two queue items instead of a single queue item. 
+
 ### See also  
 
 [Work with Queues in the Customer Service Hub](customer-service-hub-user-guide-basics.md#work-with-queues)
