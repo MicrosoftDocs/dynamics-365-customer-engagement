@@ -1,8 +1,8 @@
 ---
 title: Find knowledge articles from within a record (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to find knowledge articles from within a record in Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article

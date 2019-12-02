@@ -1,8 +1,8 @@
 ---
 title: Search knowledge articles in the Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service Hub.
-author: anjgupta
-ms.author: anjgup
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 08/01/2019
 ms.topic: article

@@ -1,8 +1,8 @@
 ---
 title: Set when your business is closed (Dynamics 365 Customer Service) | MicrosoftDocs
 description: View how to set when your business is closed in Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 11/20/2018
 ms.topic: article
