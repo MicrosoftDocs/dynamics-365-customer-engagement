@@ -35,7 +35,7 @@ Business process flows guide you through various stages of sales, marketing, or 
   
 -   You can use a maximum of 30 stages per process and a maximum of 30 steps per stage.  
   
--   Each branch can be no more that 5 levels deep.  
+-   Each branch can be no more than 10 levels deep.  
   
 -   Branching rule must be based on the steps in the stage that immediately precedes it.  
   
