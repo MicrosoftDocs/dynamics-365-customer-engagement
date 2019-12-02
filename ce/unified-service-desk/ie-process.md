@@ -1,18 +1,19 @@
 ---
 title: "Use IE Process hosting method for your controls in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the IE process hosting methods for your controls in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 12/01/2018
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: "article"
-ms.assetid: 01145E76-3E47-4D02-A986-EC2F88D5BD6A
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType:
+search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 monikerRange: '>= dynamics-usd-3'

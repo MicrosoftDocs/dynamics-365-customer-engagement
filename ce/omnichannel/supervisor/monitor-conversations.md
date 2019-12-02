@@ -1,27 +1,24 @@
 ---
-title: "Monitor conversations for supervisor | MicrosoftDocs"
-description: "Learn about how to monitor conversations for supervisor"
-keywords: ""
+title: "Monitor conversations as a supervisor | MicrosoftDocs"
+description: "Learn how to monitor conversations as a supervisor"
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-applies_to: 
 ms.date: 10/31/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 7390f4e0-2c28-4797-b2c7-62253318000e
-ms.custom: 
 ---
 
 # Monitor conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-As a supervisor, you can monitor the conversations that are being handled by agents. Monitoring the conversations helps you in identifying the conversations that need your attention to provide your expertise or suggestions to close. You can select a conversation from the dashboard and choose the **Monitor** action from the grid command bar. You can also join a conversation. When you join, notifications are sent to agent and customer who are in the conversation about your presence. You join the conversation in consult mode. The consult mode helps to provide your expertise to the agent who is interacting with the customer when necessary.
+As a supervisor, you can monitor the conversations that are being handled by agents. Monitoring the conversations helps you in identifying the conversations that need your attention to provide your expertise or suggestions to close. You can select a conversation from the dashboard and choose the **Monitor** action from the grid command bar. You can also join a conversation. When you join, notifications about your presence are sent to the agent and customer who are in the conversation. You join the conversation in consult mode, which enables you to provide your expertise to the agent who is interacting with the customer.
 
 Use the **Omnichannel Ongoing Conversations** dashboard to monitor conversations between customers and agents. To learn more, see [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
 
-The following screen shot is an example of **Omnichannel Ongoing Conversations**:
+The following screenshot is an example of Omnichannel Ongoing Conversations:
 
 > [!div class=mx-imgBorder]
 > ![Omnichannel Ongoing Conversations dashboard example](../media/supervisor-ongoing-conversations-dashboard.png "Omnichannel Ongoing Conversations dashboard example")
@@ -42,25 +39,25 @@ By monitoring the conversations, you will get an overview of how each conversati
   
 By joining the conversation, you provide necessary inputs to both agent and customer based on the selected message mode (public or internal) in the communication panel.
 
-1.	Sign in to **Omnichannel for Customer Service** app.
+1.	Sign in to the **Omnichannel for Customer Service** app.
 
-2.  From the dashboard view selector, select **Omnichannel Ongoing Conversations** dashboard.
+2.  From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
 
-    The list of conversations that currently handled by your agents are displayed. 
+    The list of conversations currently being handled by your agents is displayed. 
 
 3.	Choose a conversation to monitor and select **Monitor**.
 
     > [!div class=mx-imgBorder]
-    > ![Select monitor option](../media/supervisor-select-monitor-conversation.png "Select monitor option")
+    > ![Select Monitor option](../media/supervisor-select-monitor-conversation.png "Select Monitor option")
 
     The conversation page opens.
 
 4.	You can choose to join a conversation as required. Select **Join chat** in the communication panel.
 
     > [!div class=mx-imgBorder]
-    > ![Select join chat](../media/supervisor-select-join-chat.png "Select join chat")
+    > ![Select Join chat](../media/supervisor-select-join-chat.png "Select Join chat")
 
-    When you join the conversation, a notification will be sent to both agent and customer stating that you have joined as a consultant. Depending on your requirement, you can start consultation with agent and customer by using a messaging mode (public or internal). By default, the messaging mode is internal.
+    When you join the conversation, a notification will be sent to both agent and customer stating that you have joined as a consultant. Depending on your requirement, you can start a consultation with the agent and customer by using a messaging mode (public or internal). By default, the messaging mode is internal.
     
     To learn more, see [View communication panel](../agent/agent-oc/oc-conversation-control.md).
 
@@ -68,7 +65,7 @@ By joining the conversation, you provide necessary inputs to both agent and cust
 
 ## See also
 
-[Configure intraday insights dashboard for Unified Service Desk](../administrator/configure-intraday-dashboard-supervisor.md)
+[Configure Intraday insights dashboard for Unified Service Desk](../administrator/configure-intraday-dashboard-supervisor.md)
 
 [Enable sentiment analysis](../administrator/enable-sentiment-analysis.md)
 

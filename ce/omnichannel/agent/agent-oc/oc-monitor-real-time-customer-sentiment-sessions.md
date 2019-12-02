@@ -1,19 +1,15 @@
 ---
 title: "Monitor real-time customer sentiment | MicrosoftDocs"
-description: "Learn how to Monitor real-time customer sentiment while interacting with customers."
-keywords: ""
-ms.date: 10/31/2019
-ms.service:
-  - "dynamics-365-customerservice"
-ms.custom:
-  - ""
-ms.topic: article
-applies_to:
-  - ""
-ms.assetid: 0D1925AF-3124-404B-A7B6-FCC0C3430CC4
+description: "Learn how to monitor real-time customer sentiment while interacting with customers."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+applies_to: 
+  - ""
+ms.date: 10/31/2019
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
 ---
 
 # Monitor real-time customer sentiment
@@ -37,7 +33,7 @@ When a conversation is escalated from a bot, the sentiment icon you see is based
 
 The sentiment analysis is an automatic and unbiased measurement of satisfaction levels of the customer in real time.
 
-The sentiment icons displayed on the communication panel are as follows.
+The sentiment icons displayed on the communication panel are as follows:
 
 | Sentiment | Icon |
 |--------------------------|---------------------------------------------------|
@@ -46,7 +42,7 @@ The sentiment icons displayed on the communication panel are as follows.
 | Slightly positive | ![Slightly positive sentiment](../../media/oceh/sentiment-slightly-positive.png "Slightly positive sentiment") |
 | Neutral | ![Neutral sentiment](../../media/oceh/sentiment-neutral.png "Neutral sentiment") |
 | Slightly negative | ![Slightly negative sentiment](../../media/oceh/sentiment-slightly-negative.png "Slightly negative sentiment") |
-| Negative | ![Negative sentiment](../../media/oceh/sentiment-negative.png " Negativesentiment") |
+| Negative | ![Negative sentiment](../../media/oceh/sentiment-negative.png " Negative sentiment") |
 | Very negative | ![Very negative sentiment](../../media/oceh/sentiment-very-negative.png "Very negative sentiment") |
 
 > [!Note]
@@ -59,7 +55,7 @@ The sentiment icons displayed on the communication panel are as follows.
 
 Multi-language sentiment displays sentiment scores on some non-English conversations.
 
->[!Note]
+> [!Note]
 > Multi-language sentiment is only available if the administrator enables it for you.
 
 To learn more, see [multi-language sentiment](../../administrator/enable-sentiment-analysis.md).
@@ -67,10 +63,10 @@ To learn more, see [multi-language sentiment](../../administrator/enable-sentime
 ## See also
 
 - [Introduction to the agent interface](oc-introduction-agent-interface.md)
-- [Enable Sentiment Analysis](../../administrator/enable-sentiment-analysis.md)
+- [Enable sentiment analysis](../../administrator/enable-sentiment-analysis.md)
 - [Manage sessions](oc-manage-sessions.md)
 - [Manage applications](oc-manage-applications.md)
-- [View customer summary and know everything about customers](oc-customer-summary.md)
+- [View customer summary](oc-customer-summary.md)
 - [Search for and share knowledge articles](oc-search-knowledge-articles.md)
 - [Take notes specific to conversation](oc-take-notes.md)
 - [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)

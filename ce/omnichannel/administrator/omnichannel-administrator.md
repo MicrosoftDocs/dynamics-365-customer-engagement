@@ -1,16 +1,13 @@
 ---
 title: "Omnichannel for Customer Service for administrators | MicrosoftDocs"
 description: 
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 84d1cbc7-cbed-4d51-991d-d07245cfee7a
-ms.custom: 
 ---
 # Omnichannel for Customer Service for administrators
 
@@ -44,6 +41,7 @@ You can view the entities in the **Omnichannel Administration** site map.
 - [Manage a user in Omnichannel](users-user-profiles.md#manage-a-user-in-omnichannel)<br>
 - [Configure a chat channel](set-up-chat-widget.md) </br>
 - [Configure an SMS channel](configure-sms-channel.md) </br>
+- [Configure a Facebook channel](configure-facebook-channel.md)</br>
 - [Automatically identify customers using pre-chat responses](record-identification-rule.md)<br>
 - [Create custom presence status](presence-custom-presence.md#create-custom-presence-status)<br>
 - [Create a new Omnichannel queue](queues-omnichannel.md#create-a-new-queue)<br>

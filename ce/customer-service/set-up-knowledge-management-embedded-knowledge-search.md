@@ -6,9 +6,10 @@ ms.author: kabala
 manager: shujoshi
 ms.date: 10/19/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 68356343-fdd5-4c0e-9c09-dbebf718c764
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -89,11 +90,20 @@ After knowledge management is set up, users will be able to:
 
 This option allows users to provide feedback on knowledge articles opened from knowledge search control. 
 
-1. In the Customer Service Hub sitemap, go to **Service Management** and select **Knowledge Base Management** > **Embedded Knowledge Search**. 
+1. In the Customer Service Hub site map, go to **Service Management** and select **Knowledge Base Management** > **Embedded Knowledge Search**. 
 
-2. In the Knowledge Article Feedback section, set **Enable users to provide feedback on knowledge articles from search control** to **Yes**.
+2. In the **Knowledge Articles Feedback** section, set **Enable users to provide feedback on knowledge articles from search control** to **Yes**.
 
-To learn on how users use this option, see [Submit ratings and feedback for knowledge articles](search-knowledge-articles-csh.md#submit-ratings-and-feedback-for-knowledge-articles).
+To know more about how users use this option, see [Submit ratings and feedback for knowledge articles](search-knowledge-articles-csh.md#submit-ratings-and-feedback-for-knowledge-articles).
+
+## Enable inline images
+
+This option allows users to drag and drop or copy and paste images inline in knowledge articles.
+
+1. In the Customer Service Hub site map, go to **Service Management** and select **Knowledge Base Management** > **Embedded Knowledge Search**. 
+
+2. In the **Knowledge Articles Inline Images** section, set **Enable users to use the inline image feature when authoring articles** to **Yes**.
+
   
 ### See also  
 

@@ -1,16 +1,15 @@
 ---
 title: "Help resources for Dynamics 365 Customer Service | MicrosoftDocs"
 description: "A starting point for help of Customer Service Hub for Dynamics 365 Customer Service."
-ms.date: 11/04/2019
-ms.service:
-  - "dynamics-365-customerservice"
-ms.custom:
-  - "dyn365-customerservice"
-ms.topic: get-started-article
-ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
+ms.date: 11/04/2019
+ms.topic: get-started-article
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.custom: 
+  - "dyn365-customerservice"
 ---
 
 # Help resources for Customer Service Hub
@@ -73,7 +72,7 @@ manager: shujoshi
 <td><h2>Accessibility &amp; GDPR</h2>
 <ul>
  <li> <a href="user-guide-customer-service-hub.md#accessibility-and-gdpr" data-raw-source="[Accessibility and GDPR in the Customer Service Hub](user-guide-customer-service-hub.md#accessibility-and-gdpr)">Accessibility and GDPR in the Customer Service Hub</a> </li> 
- <li><a href="https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility" data-raw-source="[Accessibility features for Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility)">Accessibility features for Customer Engagement</a></li>
+ <li><a href="https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility" data-raw-source="[Accessibility features for model-driven apps in Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility)">Accessibility features for model-driven apps in Dynamics 365</a></li>
  <li><a href="https://docs.microsoft.com/dynamics365/get-started/gdpr/index" data-raw-source="[Microsoft Dynamics 365 Customer Service and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index)">Microsoft Dynamics 365 Customer Service and GDPR</a></li>
 </ul>
 </td>
@@ -85,7 +84,7 @@ manager: shujoshi
   <li><a href="troubleshoot-case-email-issue.md" data-raw-source="[Issue converting an email to a case](troubleshoot-case-email-issue.md)">Issue converting an email to a case</a>
   <li><a href="troubleshoot-sla-timer-issue.md" data-raw-source="[SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)">SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday</a>
 </li>
-   <li><a href="troubleshoot-delete-managed-solution.md" data-raw-source="[Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)">Unable to delete a managed solution consisting an SLA enabled entity</a></li>
+  <li><a href="troubleshoot-delete-managed-solution.md" data-raw-source="[Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)">Unable to delete a managed solution consisting of an SLA-enabled entity</a></li>
   </ul><br/>  </td>
 
 <td><h2>Customize</h2>

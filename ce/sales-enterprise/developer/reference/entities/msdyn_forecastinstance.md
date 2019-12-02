@@ -2,13 +2,12 @@
 title: "msdyn_forecastinstance EntityType | MicrosoftDocs"
 description: "Entity reference for msdyn_forecastinstance EntityType"
 ms.date: 04/08/2019
-ms.service: crm-online
+ms.service: 
+  - crm-online
 ms.topic: article
-ms.assetid: 15494171-81DE-4945-96A4-58A65DA49B85
 author: susikka
 ms.author: susikka
 manager: shujoshi
-caps.latest.revision: 22
 ---
 # msdyn_forecastinstance EntityType
 

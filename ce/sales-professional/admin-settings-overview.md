@@ -2,10 +2,11 @@
 title: "Admin settings overview (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Learn about the standard and advanced settings in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-ms.assetid: 451290a2-89ec-4fdb-b044-3e68a52dfd3a
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

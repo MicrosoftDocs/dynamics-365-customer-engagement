@@ -1,16 +1,13 @@
 ---
 title: "Introduction to Omnichannel for Customer Service | MicrosoftDocs"
 description: 
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: fbe4ca59-daca-403a-97f1-49c79d608cac
-ms.custom: 
 ---
 # Introduction to Omnichannel for Customer Service
 
@@ -30,18 +27,23 @@ You can enable the following channels in your organization with Omnichannel for 
 
 ### Chat
 
-Chat is an engagement channel that enables your agents to connect with customers in real-time. The Chat channel is generally available now. For more information about enabling Chat in your organization, see [Try chat for Dynamics 365 Customer Service](try-chat-for-dynamics365.md).
+Chat is an engagement channel that enables your agents to connect with customers in real-time. The Chat channel is generally available now. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure a chat channel](administrator/set-up-chat-widget.md).
 
 ### SMS
 
-SMS is an engagement channel that supports asynchronous mode of communication, and allows your organization to connect to customers by using text messages. The SMS channel is currently available in preview. For more information about enabling SMS in your organization, see [Configure an SMS channel](administrator/configure-sms-channel.md).
+SMS is an engagement channel that supports asynchronous mode of communication, and allows your organization to connect to customers by using text messages. The SMS channel is generally available now. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure an SMS channel](administrator/configure-sms-channel.md).
+
+### Facebook
+
+The Facebook channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience. The Facebook channel is currently available in preview. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure a Facebook channel](administrator/configure-facebook-channel.md).
 
 ## See also
 
 - [Pre-requisites and system requirements](system-requirements-omnichannel.md)
 - [Assign roles and enable users for Omnichannel for Customer Service](administrator/add-users-assign-roles.md)
-- [Try chat for Dynamics 365 Customer Service](try-chat-for-dynamics365.md)
+- [Try channels for Dynamics 365 Customer Service](try-channels.md)
 - [Configure an SMS channel](administrator/configure-sms-channel.md)
+- [Configure a Facebook channel](administrator/configure-facebook-channel.md)
 - [Quickly configure a chat widget](administrator/configure-live-chat.md)
 - [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
 - [Administrators guide](administrator/omnichannel-administrator.md)

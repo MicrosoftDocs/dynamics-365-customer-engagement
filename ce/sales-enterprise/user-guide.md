@@ -1,18 +1,15 @@
 ---
 title: "Help resources for sales people (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Contains topics that describe how to do common sales tasks in Dynamics 365 Sales"
-keywords: "sales, User guide"
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: get-started-article
-ms.assetid: b16a9d08-e24a-4b60-9dcc-6803cea4882e
 author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
-caps.latest.revision: 5
 ---
 
 # Help resources for sales people (Sales Enterprise)

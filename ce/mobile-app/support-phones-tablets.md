@@ -1,7 +1,7 @@
 ---
 title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom:
-ms.date: 10/10/2019
+ms.date: 11/25/2019
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -23,7 +23,7 @@ search.app:
 ---
 # What's supported
 
-You can access Common Data Service or Dynamics 365 Customer Engagement (on-premises) data from mobile devices in different ways. You can install and use the Dynamics 365 for phones and tablets mobile app on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)], and Windows 10 devices, or you can use your device’s web browser to run the model-driven apps web client as long as your device has sufficiently high screen resolution.
+You can access Common Data Service or Dynamics 365 Customer Engagement (on-premises) data from mobile devices in different ways. You can install and use the Dynamics 365 for phones and tablets mobile app on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)], and Windows 10 devices, or you can use your tablet’s web browser to run the model-driven apps as long as your device has sufficiently high screen resolution.
   
 ## Supported devices for the mobile app
   
@@ -43,10 +43,10 @@ To install the app see, [Install the app from your device’s app store](https:/
 
 ## Supported tablets to run model-driven apps in your web browser 
 
-For full functionality and optimized experience, we strongly recommend that you use the Dynamics 365 for phones and tablets mobile app. If you don't have the Dynamics 365 for phones and tablets app installed, you can still use the web browser on your tablet to run the model-driven apps web client. 
+For full functionality and optimized experience, we strongly recommend that you use the Dynamics 365 for phones and tablets mobile app. If you don't have the Dynamics 365 for phones and tablets app installed, you can still use the web browser on your tablet to run the model-driven apps. 
 
 > [!NOTE]
-> Using the web browser to run the model-driven apps web client on your phone is not supported. 
+> Using the web browser on your phone to run your model-driven apps isn't supported; you must use the Dynamics 365 for phones app. 
 
 
 ### Supported tablets to use the web browser
@@ -59,7 +59,7 @@ For full functionality and optimized experience, we strongly recommend that you 
         
 
   
-Using the model-driven apps web client on a web browser on an iOS or Android mobile device provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:  
+Using the model-driven apps on a web browser on an iOS or Android tablet provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:  
   
 - Pinch and zoom  
   

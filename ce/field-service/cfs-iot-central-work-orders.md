@@ -32,22 +32,22 @@ Make Connected Field Service send service information to Azure IoT Central when 
 
 2. Select an IoT alert, and then navigate to the "Related" dropdown and select "Work orders." You should see that a work order has been automatically generated for this alert.
 
-3. Select "Create a Flow" in the top menu bar.
+3. Select "Create a flow" in the top menu bar.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Create a Flow option in Connected Field Service](media/iot-central-work-orders-1.png)
 
 4. From the list of available templates, select "**Sample Contoso- When a work order is created in Connected Field Service, update IoT Central"**
 
-Note: Alternatively, you can navigate directly to [the Microsoft Flow templates page](https://preview.flow.microsoft.com/templates/) and search "CFS" to find this template, as seen below.
+Note: Alternatively, you can navigate directly to [the Power Automate templates page](https://preview.flow.microsoft.com/templates/) and search "CFS" to find this template, as seen below.
   
 > [!div class="mx-imgBorder"]
-> ![Screenshot of CFS templates in Microsoft Flow](media/iot-central-work-orders-2.png)
+> ![Screenshot of CFS templates in Power Automate](media/iot-central-work-orders-2.png)
 
-1. Sign into Flow with your Dynamics 365 organization, along with your associated IoT Central account.
+5. Sign into Power Automate with your Dynamics 365 organization, along with your associated IoT Central account.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the account association page in Microsoft Flow](media/iot-central-work-orders-4.png)
+> ![Screenshot of the account association page in Power Automate](media/iot-central-work-orders-4.png)
 
 6. The template will be mostly ready to run; you only need to make the following changes (see the screenshots below for reference):
 
@@ -61,7 +61,7 @@ Note: Alternatively, you can navigate directly to [the Microsoft Flow templates 
     
     e. Expand "Update the work order details for the device that raised the alert," and then select your IoT Central application name and also the device template, "Refrigerated Vending Machine (1.0.0)."
     
-    f. **Note**: Running this Flow will not add work order information retroactively---only devices going forward will be updated on the device page in Azure IoT Central.
+    f. **Note**: Running this flow will not add work order information retroactively---only devices going forward will be updated on the device page in Azure IoT Central.
     
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Flow template, with letters as reference points to correspond to the instructions](media/iot-central-work-orders-5.png)
@@ -74,7 +74,7 @@ Note: Alternatively, you can navigate directly to [the Microsoft Flow templates 
 
 ## See the results
 
-After you've saved the Flow, head on back to your Azure IoT Central environment. Select the device that has triggered an alert and a work order in Connected Field Service. You should now see the work order information populated in the fields on the IoT Central device properties page.
+After you've saved the flow, head on back to your Azure IoT Central environment. Select the device that has triggered an alert and a work order in Connected Field Service. You should now see the work order information populated in the fields on the IoT Central device properties page.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the updated device page in Azure IoT Central, which now includes work order information](media/iot-central-work-orders-7.png)

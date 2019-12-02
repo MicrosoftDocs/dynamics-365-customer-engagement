@@ -1,16 +1,13 @@
 ---
 title: "Troubleshoot Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to troubleshoot the issues you may face while working on Omnichannel for Customer Service."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 09/11/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 2507DF5E-99CF-4AF9-BAEF-5B9C7B43ECF7
-ms.custom: 
 ---
 
 # Troubleshoot Omnichannel for Customer Service
@@ -23,7 +20,7 @@ Use the following list of troubleshooting topics to quickly find information to 
 
 ### Issue:
 
-The Flow doesn't update automatically. Due to this issue, you can't create an entity records channel and the system shows a business process error. In Microsoft Flow, you might see either **Cases Work Distribution Flow** or **Entity Records Distribution Flow**.
+The Flow doesn't update automatically. Due to this issue, you can't create an entity records channel and the system shows a business process error. In Power Automate, you might see either **Cases Work Distribution Flow** or **Entity Records Distribution Flow**.
 
 ### Resolution:
 
@@ -35,7 +32,7 @@ To workaround the issue, you need to reset the Flow. To reset the Flow, follow t
 
 3. Select the **+ New** to create a new entity record channel.
 
-4. Select **Flow** menu in the command bar, and then select **See your flows**. Microsoft Flow opens in a new browser window.
+4. Select **Flow** menu in the command bar, and then select **See your flows**. Power Automate opens in a new browser window.
 
 5. Select **Solutions** in the sitemap, and then select **Default Solution** from the list.
 
@@ -71,11 +68,53 @@ Even though the Flow is reset, it doesn't update the name if it is **Case Work D
 
 To rename the Flow, select **Edit**, type the name of the flow as **Entity Record Distribution Flow** in the **Flow name** field, and select **Save**.
 
-## Entity routing does not route records
+## Entity Records Distribution Flow is not triggered
 
-### Issue:
+Entity Records Distribution Flow may not be triggered due to certain reasons. See the following issue  and resolution in the same order.
 
-There may not be any issue in the Entity Routing configuration, but in **Entity Records Distribution Flow**.
+### Issue 1:
+
+The routing rule is configured incorrectly or not activated.
+
+### Resolution:
+
+Verify the routing rule and ensure to activate it. To learn more, see [Create routing rules](administrator/entity-channel.md#step-4-create-routing-rules).
+
+### Issue 2:
+
+The Entity Records Distribution Flow is not displaying the latest or updated workstream.
+
+### Resolution:
+
+If you create or edit (update the name of the workstream) an entity record workstream, you must update Entity records Distribution Flow. To learn more, see [Update entity records distribution flow](administrator/multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow).
+
+After you update the flow, run the flow.
+
+### Issue 3:
+
+There is an error and due to which the flow was not triggered.
+
+### Resolution:
+
+Check if the flow has triggered or if there was any error in the trigger of the Flow. You can get this information from the Power Automate home page or Entity Records Distribution Flow's run history.
+
+To work around the issue, reset the flow. To learn more, see [Unable to create new entity record channel](#unable-to-create-new-entity-record-channel).
+
+If resetting the flow doesn't resolve the issue, contact Microsoft support.
+
+### Issue 4:
+
+The flow executed successfully but the action was not executed successfully.
+
+### Resolution:
+
+Reach out to Microsoft support for further investigation.
+
+## Entity routing configuration fails
+
+### Issue 1:
+
+There may be an issue in the **Entity Records Distribution Flow**.
 
 ### Resolution:
 
@@ -83,9 +122,7 @@ Go to **Entity Records Distribution Flow** and review your customization made to
 
 To resolve the issue, perform steps 1 through 8 in the [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow) topic. Review and resolve the error that is due to your customizations.
 
-## Entity routing configuration fails
-
-### Issue:
+### Issue 2:
 
 One of issues is that **Entity Records Distribution Flow** connection is not authorized. Due to this issue, you can see the following error message.
 

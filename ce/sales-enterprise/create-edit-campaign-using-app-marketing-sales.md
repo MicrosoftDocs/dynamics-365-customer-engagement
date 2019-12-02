@@ -1,16 +1,15 @@
 ---
 title: "Create or edit a campaign using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Expand your reach to new customers and improve sales by using campaigns in Dynamics 365 Sales."
-keywords: "Campaign, marketing information, campaign activity, marketing, planning task"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-ms.assetid: 84763cb4-b0c9-4659-86ce-7d980a57faea
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-caps.latest.revision: 50
 ---
 
 # Create or edit a campaign using in-app marketing (Sales)

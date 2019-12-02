@@ -1800,8 +1800,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Enable Integration with Microsoft Flow|
-|DisplayName|Enable Integration with Microsoft Flow|
+|Description|Enable Integration with Power Automate|
+|DisplayName|Enable Integration with Power Automate|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|enablemicrosoftflowintegration|
@@ -4263,8 +4263,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Environment selected for Integration with Microsoft Flow|
-|DisplayName|Environment selected for Integration with Microsoft Flow|
+|Description|Environment selected for Integration with Power Automate|
+|DisplayName|Environment selected for Integration with Power Automate|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
