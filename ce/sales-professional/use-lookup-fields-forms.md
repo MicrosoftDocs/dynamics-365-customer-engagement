@@ -41,6 +41,9 @@ Lookups are classified into the following:
   
 - **Regarding-type fields:** Use to select a single record from multiple entities in a lookup. 
 
+>[!NOTE] 
+>Users are not able to create complex lookups. 
+
 [More information on fields and field data types](../customize/types-of-fields.md)
 
 ### Browsing lookup
