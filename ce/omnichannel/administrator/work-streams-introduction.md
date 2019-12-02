@@ -28,9 +28,9 @@ In Omnichannel for Customer Service, you can create the following types of work 
 
 Follow these steps to create a new work stream in Omnichannel for Customer Service:
 
-1. In the Omnichannel site map, go to **Work Distribution Management** \> **Work Streams**.
+1. In the Omnichannel site map, go to **Work Distribution Management** > **Work Streams**.
 
-    The **Active Work Streams** view is shown. 
+    The **Active Work Streams** view is displayed. 
 
     > [!div class=mx-imgBorder] 
     > ![Omnichannel work streams](../media/oc-workstream-view.png)
@@ -47,9 +47,9 @@ Follow these steps to create a new work stream in Omnichannel for Customer Servi
         - Live Chat 
         - SMS 
         - Facebook
-
-        > [!IMPORTANT]
-        > Entity channel is not supported in this release, so you must select other channel type. See the [Omnichannel for Customer Service readme](../omnichannel-readme.md) for more information.
+        - Entity Records
+        
+        To learn more about Entity Records, see [Create entity record workstream](set-up-entity-workstream.md)
 
       - **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream in the text box.
       
