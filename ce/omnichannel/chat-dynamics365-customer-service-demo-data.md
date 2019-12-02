@@ -68,12 +68,7 @@ Depending on the operating system and security settings, you might need to perfo
 
 ## Set up users
 
-
-
-<!--from editor: Would it be correct to change the next sentence to "... installs a few users such as those listed in the table below." Are those the actual names that will be installed? If not, are the names from an approved list of fictitious names? -->
-
-
-The OmnichannelDemoData package installs a few users per the mentioned in the table below. To install the demo data, you need to create (or temporarily rename) users in your Common Data Service environment to match the incoming demo data configuration.
+The OmnichannelDemoData package installs a few users such as those listed in the table below. To install the demo data, you need to create (or temporarily rename) users in your Common Data Service environment to match the incoming demo data configuration.
 
 | First name | Last name | User alias   | Email                                    | Role                                            |
 |------------|-----------|--------------|------------------------------------------|-------------------------------------------------|
@@ -119,13 +114,8 @@ Next you need to update a data mapping file with the email address of the defaul
 
 4. Select **Save**.
 
-
-
-<!--from editor: Please check the link in the following Tip. It didn't open a page when I checked it. -->
-
-
-> [!TIP]
-> We recommend creating a backup of your environment so you can revert to the initial stage if you encounter issues during the demo data installation. To learn more, see [Back up and restore instances](/admin/backup-restore-instances).
+  > [!TIP]
+  > We recommend creating a backup of your environment so you can revert to the initial stage if you encounter issues during the demo data installation. To learn more, see [Back up and restore instances](https://docs.microsoft.com/dynamics365/admin/backup-restore-instances).
 
 ## Run the package deployer
 
@@ -150,14 +140,14 @@ Wondering what capabilities you can demo with the demo data? See the Fabrikam sc
 
 
 
-    | Field | Value |
-    |-------------------------|------------------------|
+    | Field | Value | Description |
+    |-------------------------|------------------------|------------------------|
     | Deployment Type | Office 365 | To connect to a Common Data Service environment. |
     | Display list of available organizations | Select the check box. |
     Show Advanced | Select the check box. |
-    |  Online Region | Select the organization that you want to connect to. |
-    | User Name | Specify the user name of the system administrator user that you configured in the [Configure users](#configure-users) section. <br> For example: <br> `lilymichael@sampleorg.onmicrosoft.com` |
-    | Password | Specify the password of the system administrator user that you configured in the [Configure users](#configure-users) section. |
+    |  Online Region | North America | Select the organization that you want to connect to. |
+    | User Name | `lilymichael@sampleorg.onmicrosoft.com` | Specify the user name of the system administrator user that you configured in the [Configure users](#configure-users) section. |
+    | Password |  | Specify the password of the system administrator user that you configured in the [Configure users](#configure-users) section. |
 
     ![Dialog box for connecting to an environment](media/omnichannel-sample-data-3.png "Dialog box for connecting to an environment")
 
@@ -243,7 +233,4 @@ A high-level overview of the Chat for Dynamics 365 Customer Service demo data is
 
 ## See also
 
-<!--from editor: Is there another link you could use here? This one is just for the user guide that this topic is part of. -->
-
-
-[Omnichannel For Customer Service guide](https://docs.microsoft.com/dynamics365/customer-engagement/omnichannel/omnichannel-customer-service-guide)
+[Try channels in Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/omnichannel/try-channels)
