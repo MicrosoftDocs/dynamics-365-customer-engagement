@@ -1,11 +1,12 @@
 ---
 title: "ElementMatchPath in Unified Service Desk | MicrosoftDocs"
 description: "<ElementMatchPath> tag uses a sequence of HTML tags delimited by forward slashes. This topic describes how <ElementMatchPath> works."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 2db66e85-cba1-4a37-bfbf-2190966295af
 author: kabala123
 ms.author: kabala
 manager: shujoshi

@@ -1,11 +1,12 @@
 ---
 title: "Connection Manager (Hosted Control) | MicrosoftDocs"
 description: "The Connection Manager hosted control type manages connections to the Common Data Service platform, and makes it available to the rest of the agent application."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: c1a9b9ef-6243-4d1c-b0fe-726def04b417
 author: kabala123
 ms.author: kabala
 manager: shujoshi

@@ -1,7 +1,6 @@
 ---
 title: Enable users for Omnichannel and assign roles | MicrosoftDocs
 description: Know how to enable users for Omnichannel and assign roles in the Omnichannel for Customer Service
-keywords: users and user profiles; Omnichannel for Customer Service; user roles
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -9,8 +8,6 @@ applies_to:
 ms.date: 11/22/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid: be3d6733-4d16-48d0-b231-6a6a2dd5d939
-ms.custom: 
 ---
 
 # Assign roles and enable users for Omnichannel for Customer Service

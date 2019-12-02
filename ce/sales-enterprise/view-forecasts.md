@@ -2,16 +2,14 @@
 title: "View forecasts (Dynamics 365 Sales) | MicrosoftDocs"
 description: "See forecasts in Dynamics 365 Sales to know the health of your pipeline or to track how your sales team is performing against their quota or target. Define the data and period to use for the purpose of forecasting in Dynamics 365 Sales."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-ms.assetid: 956295f7-b4d4-49b9-954b-677c5fbf703d
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
 
 # View forecasts
@@ -106,15 +104,19 @@ Select the field and the field becomes editable. Enter the value to adjust. In t
  
 ## Refresh forecast data
 
-If you suspect that the underlying data (participating opportunities) has changed, you can manually recalculate and refresh the forecast data to show the most up-to-date values. By default, the application automatically recalculates data in the forecast every 10 minutes. The **Last recalculated** label on the command bar shows the time when the forecast was last recalculated successfully. When you recalculate: 
+The forecast data is kept up to date by automatic recalculation at regular intervals. If you are actively interacting with the forecast, a recalculation is retriggered when the data is found to be more than 10 minutes old. After the recalculation, you will be prompted to refresh the forecast grid to show the updated forecast data.
+
+If you are not actively interacting with the forecast, the data is recalculated every hour. The Last recalculated label on the command bar shows the time when the forecast was last recalculated successfully
+
+If you know that the underlying data has changed, you can select **Recalculate** to manually recalculate, and then refresh to view the updated values. When you recalculate: 
 
 -	The aggregation and rollups for the underlying data are recalculated.
 
--	Any forecast metric or rollup query changes are considered.
-
--	Any target/quota changes or goal references are checked and updated.
+-	Any target/quota changes are checked and updated.
 
 -	Any other changes impacting the forecast values (excluding hierarchy changes) are refreshed.
+
+-	Only the current forecast period is recalculated.
 
 > [!NOTE]
 > The Recalculate option doesn’t change any value that was manually adjusted.

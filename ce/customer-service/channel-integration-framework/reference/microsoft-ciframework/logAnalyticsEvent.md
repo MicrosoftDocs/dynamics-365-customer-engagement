@@ -1,18 +1,16 @@
 ---
 title: "logAnalyticsEvent (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
 description: ""
-keywords: ""
-ms.date: 10/25/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: reference
-ms.assetid: D31DECFE-8DB9-4316-B886-36EA28F30199
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 10/25/2019
+ms.topic: reference
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 
 # logAnalyticsEvent

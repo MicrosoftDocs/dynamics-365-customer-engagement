@@ -1,20 +1,18 @@
 ---
 title: "requestFocusSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: ""
-keywords: 
-ms.date: 09/30/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - dyn365-a11y
-  - dyn365-developer
-ms.topic: reference
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-ms.assetid: C5086080-D84D-4DC8-893E-38945F2B3C26
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 09/30/2019
+ms.topic: reference
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - dyn365-a11y
+  - dyn365-developer
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
 ---
 
 # requestFocusSession

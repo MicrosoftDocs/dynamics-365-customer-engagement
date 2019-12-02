@@ -1,18 +1,19 @@
 ---
 title: "Toolbar Container (Hosted Control) | MicrosoftDocs"
 description: "Learn about using Toolbar Container type of hosted control to configure toolbars in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: d79dc1f2-cb40-4f8a-bb7c-5e6699a5ad0d
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType:
+search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 ---

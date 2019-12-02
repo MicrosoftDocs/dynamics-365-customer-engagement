@@ -1,21 +1,19 @@
 ---
 title: "setClickToAct (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
 description: ""
-keywords: ""
-ms.date: 05/14/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: reference
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-ms.assetid: 7383B0E5-3C02-45F1-8ED3-197765C0E999
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 05/14/2019
+ms.topic: reference
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ---
 
 # setClickToAct (CIF JavaScript API Reference)

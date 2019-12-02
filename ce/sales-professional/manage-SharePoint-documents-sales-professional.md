@@ -2,10 +2,11 @@
 title: "Manage your SharePoint documents and document locations in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Store your sales documents on SharePoint and manage them from within Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-ms.assetid: 98950c0c-8f3d-4cf2-9791-70c7b4ecb790
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

@@ -1,20 +1,16 @@
 ---
 title: "FAQs for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: "Frequently asked questions about the Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365."
-keywords: ""
-ms.date: 02/14/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: 25004203-DE03-4DEC-BE4A-E4E89784A4F3
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 02/14/2019
+ms.topic: reference
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 
 # Frequently asked questions (FAQs) for Dynamics 365 Channel Integration Framework

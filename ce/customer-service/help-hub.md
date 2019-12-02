@@ -1,16 +1,15 @@
 ---
 title: "Help resources for Dynamics 365 Customer Service | MicrosoftDocs"
 description: "A starting point for help of Customer Service Hub for Dynamics 365 Customer Service."
-ms.date: 11/04/2019
-ms.service:
-  - "dynamics-365-customerservice"
-ms.custom:
-  - "dyn365-customerservice"
-ms.topic: get-started-article
-ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
+ms.date: 11/04/2019
+ms.topic: get-started-article
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.custom: 
+  - "dyn365-customerservice"
 ---
 
 # Help resources for Customer Service Hub

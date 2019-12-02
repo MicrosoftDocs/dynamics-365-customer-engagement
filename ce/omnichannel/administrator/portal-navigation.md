@@ -1,15 +1,13 @@
----	
-title: "Enable portal navigation | MicrosoftDocs"	
-description: "Enable portal navigation in the Omnichannel Administration app."	
-author: kabala123	
-ms.author: kabala	
-manager: shujoshi	
-applies_to: 	
+---
+title: "Enable portal navigation | MicrosoftDocs"
+description: "Enable portal navigation in the Omnichannel Administration app."
+author: kabala123
+ms.author: kabala
+manager: shujoshi
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice	
-ms.topic: article	
-ms.assetid: 579DCD1D-3F2A-4948-BA75-10DDD7991E91
-ms.custom: 	
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
 ---
 
 # Preview: Enable portal navigation

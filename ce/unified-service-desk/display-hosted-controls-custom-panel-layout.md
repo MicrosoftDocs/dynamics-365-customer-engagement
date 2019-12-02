@@ -1,11 +1,12 @@
 ---
 title: "Display hosted controls in the custom panel layout | MicrosoftDocs"
 description: "Learn about specifying the custom panel layout as the display group for your hosted controls by using a syntax."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: f70fff3f-4007-4b74-8ea5-81e9cb7934cb
 author: kabala123
 ms.author: kabala
 manager: shujoshi

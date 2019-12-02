@@ -1,20 +1,16 @@
 ---
 title: "Modes and locations for the communication widget | MicrosoftDocs"
 description: ""
-keywords: ""
-ms.date: 10/25/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: 25004203-DE03-4DEC-BE4A-E4E89784A4F3
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 10/25/2019
+ms.topic: reference
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 
 # Preview: Modes and locations for the communication widget
