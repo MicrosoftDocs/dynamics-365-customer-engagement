@@ -14,6 +14,7 @@ ms.topic: "reference"
 Installing Omnichannel for Customer Service solution adds the following entities to your organization.
 
 | Entity name |
+|--------|
 |[msdyn_analytics](msdyn_analytics.md)|
 |[msdyn_authenticationsettings](msdyn_authenticationsettings.md)|
 |[msdyn_cannedmessage](msdyn_cannedmessage.md)|
