@@ -1,12 +1,14 @@
 ---
 title: "Create and manage invoices in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Bill your customers for upcoming sales by using invoices in Dynamics 365 Sales Professional."
-ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+keywords: ""
+ms.date: 12/03/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
+ms.assetid: a25855fe-71b2-82ff-af93-846ce6d7c347
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -14,15 +16,15 @@ manager: annbe
 
 # Create and manage invoices in Dynamics 365 Sales Professional
 
-Once your customer accepts a quote, you can create an invoice in Dynamics 365 Sales Professional to bill them for the upcoming sale.
+When a customer places an order, you can create an invoice in Dynamics 365 Sales Professional to bill them for the upcoming sale.
 
-You can also create an invoice that doesn’t generate from a quote.
+Typically, you convert an order into an invoice; however, you can also create an invoice that does not originate from an order.
 
 ## Create an invoice from a quote
 
-1.  In the site map, select **Quotes**.
+1.  In the site map, select **Orders**.
 
-2.  Select the active quote that you want to create an invoice from.
+2.  Select the order that you want to create an invoice from.
 
 3.  On the command bar, select **Create Invoice**.
 
@@ -30,8 +32,10 @@ You can also create an invoice that doesn’t generate from a quote.
 
     ![Invoice form populated with data from opportunity and quote](media/invoice-populated-form.png "Invoice form populated with data from opportunity and quote")
 
-4.  Review the contents of the invoice and make any additions or corrections
-    before sending to your customer.
+    > [!IMPORTANT]
+    > If Dynamics 365 Sales is integrated with an external order processing application, you may see the **Submit Order** button instead of the **Create Invoice** button on the Order form command bar. This is because the integration allows an order created in Dynamics 365 Sales to be submitted, after which it is synchronized with the order processing app where the lifecycle of the order continues. A submitted order is locked for editing in Dynamics 365 Sales, except by an integration user. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable sales order processing integration](developer/enable-sales-order-processing-integration.md)
+
+4.  Review the contents of the invoice and make any additions or corrections before sending to your customer.
 
 ## Create a new invoice
 
