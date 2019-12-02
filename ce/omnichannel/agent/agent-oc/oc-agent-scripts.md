@@ -43,7 +43,7 @@ Each of the steps can be identified with the actionable icon. When you expand a 
 
 ## Prerequisite 
 
-Ensure you (agent and supervisor) have the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
+Ensure you (agent and supervisor) have the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](../../administrator/add-users-assign-roles.md).
 
 ## Text instructions
 
