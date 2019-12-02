@@ -37,9 +37,14 @@ Lookups are classified into the following:
 
 - **Simple lookup:** Select a single record in a field from a single entity. 
 
-- **PartyList-type fields:** Use to select multiple records from multiple entities in a lookup. Use partylist-type fields to select multiple records. This allows you to add each record by performing a new search, multiple times. Every time you select a record, you will be able to perform a new search for another record.
+- **Complex lookup:** Select a single record or multiple records in a field from multiple entities:
+
+  - **PartyList-type fields:** Use to select multiple records from multiple entities in a lookup. Use partylist-type fields to select multiple records. This allows you to add each record by performing a new search, multiple times. Every time you select a record, you will be able to perform a new search for another record.
   
-- **Regarding-type fields:** Use to select a single record from multiple entities in a lookup. 
+  - **Regarding-type fields:** Use to select a single record from multiple entities in a lookup. 
+
+>[!NOTE] 
+>Users can't create complex lookups. 
 
 [More information on fields and field data types](../customize/types-of-fields.md)
 
