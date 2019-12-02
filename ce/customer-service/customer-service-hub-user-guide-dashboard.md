@@ -1,8 +1,8 @@
 ---
 title: Understanding dashboards in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand dashboards in Customer Service Hub for Dynamics 365 Customer Service.
-author: anjgupta
-ms.author: anjgup
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article

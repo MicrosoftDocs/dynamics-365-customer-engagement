@@ -43,6 +43,10 @@ The agent scripts reduce the human errors involved in the process as the agents 
 
 - Install Dynamics 365 Productivity Tools solution.
 
+- Ensure you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
+
+- Ensure agents and supervisors are assigned **Productivity tools user** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
+
 ## Walkthrough to enable agent script
 
 [Step 1: Create agent scripts](#step-1-create-agent-scripts)
@@ -122,7 +126,7 @@ The agent script is associated with the session template.
 
 After you create an agent script, you must add the agent script field to the form where you want agents to see it.
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Omnichannel Administration app, and then on the command bar select **Settings** ![Settings](../media/settings-gear.png "Settings") > **Advanced  Settings**.
 
 2. Select **Settings** > **Customizations** > **Customize the System**. **Solution Explorer** opens in a new window.
 

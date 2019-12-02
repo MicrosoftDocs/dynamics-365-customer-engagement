@@ -1,8 +1,8 @@
 ---
 title: Keyboard shortcuts for the Customer Service Hub | Microsoft Docs
 description: Use the keyboard shortcuts to perform common tasks in Customer Service Hub.
-author: anjgupta
-ms.author: anjgup
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 04/01/2018
 ms.topic: article
