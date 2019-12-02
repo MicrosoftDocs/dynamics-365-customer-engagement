@@ -25,13 +25,8 @@ The application tab has a **+** icon. If you select the icon, a menu  appears th
 
 You can open an application in the application tab panel in the following ways: 
 
-
-
-<!--from editor: I'm not sure about "Ctrl + mouse-click gesture." Do you mean Ctrl + click? -->
-
-
 - Use the application tab menu.
-- Use the **Ctrl + mouse-click** gesture.
+- Use the **Ctrl + click** gesture.
 
 ### Use the application tab menu
 
@@ -44,7 +39,7 @@ On the application tab panel, select **+** to view the menu that has a list of o
 <!--from editor: Same question here about mouse click as above. -->
 
 
-### Use gesture (Ctrl + mouse-click) to open an application
+### Use gesture (Ctrl + click) to open an application
 
 Use a combination of keyboard and mouse-click gesture to start an application. You can press **Ctrl** and select a link to open it in a new application tab. The application opens in the current active session.
 
@@ -62,11 +57,7 @@ You can switch between applications by selecting the application tab title.
 
 ### Title of the application tab
 
-
-<!--from editor: In the third sentence below, should it be "For third-party applications, the name is configured by your administrator." ? -->
-
-
-The title of the application tab is the name of the entity. For example, dashboard names, case, contact, account names, and so on. Third-party applications, the name appears as configured by your administrator.
+The title of the application tab is the name of the entity. For example, dashboard names, case, contact, account names, and so on. For third-party applications, the name appears as configured by your administrator.
 
 > [!div class=mx-imgBorder]
 > ![App tab title](../../media/oceh/oceh-app-tab-title.png "App tab title")
