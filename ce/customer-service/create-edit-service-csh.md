@@ -1,8 +1,8 @@
 ---
 title: Create or change a service in Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create or change a service in service scheduling in Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 11/20/2018
 ms.topic: article

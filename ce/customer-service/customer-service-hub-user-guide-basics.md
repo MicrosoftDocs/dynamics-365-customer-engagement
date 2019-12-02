@@ -1,8 +1,8 @@
 ---
 title: Learn the basics of the Customer Service Hub app | Microsoft Docs
 description: Learn the basics of the Customer Service Hub for Customer Service
-author: anjgupta
-ms.author: anjgup
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
