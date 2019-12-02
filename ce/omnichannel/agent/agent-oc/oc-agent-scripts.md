@@ -41,6 +41,10 @@ The agent script section consists of a set of steps. Based on the type of agent 
 
 Each of the steps can be identified with the actionable icon. When you expand a step, the section displays a short description of what the step entails and the action you need to perform using the icons next to it. The step that is executed successfully is indicated with a green Tick icon, and the step that has an error is indicated with a red Cross icon. You can execute the steps again as needed, and the final state of the step, green Tick or red Cross, is based on the last run.
 
+## Prerequisite 
+
+Ensure you (agent and supervisor) have the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](../../administrator/add-users-assign-roles.md).
+
 ## Text instructions
 
 The text instruction provides guidance on the actions you need to perform. The step in the agent script shows a title, instructions, and the Text instruction icon that is actionable. After you perform the step based on the instructions, you can select the **Mark as done** icon to indicate that you've completed the step.

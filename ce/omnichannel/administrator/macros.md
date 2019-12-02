@@ -49,7 +49,11 @@ The macros are like reusable component where you can use the same macro with dif
 
 ## Prerequisites
 
-- Install Dynamics 365 Productivity Tools solution
+- Install Dynamics 365 Productivity Tools solution.
+
+- Ensure you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
+
+- Ensure agents and supervisors are assigned **Productivity tools user** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
 
 ## Built-in actions
 
