@@ -38,7 +38,7 @@ search.app:
 
 # Sample: Work with solutions
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with solutions](https://code.msdn.microsoft.com/Sample-Work-with-solutions-a496ee8f).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with solutions](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Solutions).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

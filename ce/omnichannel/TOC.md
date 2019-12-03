@@ -2,7 +2,7 @@
 
 ## Get started
 ### [Introduction](introduction-omnichannel.md)
-### [Try channels in Omnichannel for Customer Service](try-chat-for-dynamics365.md)
+### [Try channels in Omnichannel for Customer Service](try-channels.md)
 ### [Chat for Dynamics 365 Customer Service demo data](chat-dynamics365-customer-service-demo-data.md)
 ### [Pre-requisites and system requirements](system-requirements-omnichannel.md)
 ### [Assign roles and enable users](administrator/add-users-assign-roles.md)
@@ -41,6 +41,7 @@
 #### Entity records
 ##### [Entity records routing](administrator/entity-channel.md)
 ##### [Route trigger for entity records](administrator/routing-trigger.md)
+##### [Understand Omnichannel for Customer Service with Customer Service Hub](administrator/understand-omnichannel-customer-service-hub.md)
 
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)

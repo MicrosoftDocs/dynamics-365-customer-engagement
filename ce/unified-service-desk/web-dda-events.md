@@ -1,11 +1,12 @@
 ---
 title: "WebDDA Events in Unified Service Desk | MicrosoftDocs"
 description: "Learn about using Web data-driven adapter (WebDDA) events that can be used in automations in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 2ecac8dc-d423-405b-bc4e-23b1b05e1d0e
 author: kabala123
 ms.author: kabala
 manager: shujoshi

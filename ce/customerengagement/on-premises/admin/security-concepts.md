@@ -86,7 +86,7 @@ You combine business units, role-based security, record-based security, and fiel
   
 <a name="WP"></a>   
 ## Security Modeling with Customer Engagement (on-premises) 
- For detailed information about and best practices for designing  the  security model in Customer Engagement (on-premises), read the [Scalable Security Modeling with Microsoft Dynamics CRM](http://download.microsoft.com/download/D/6/6/D66E61BA-3D18-49E8-B042-8434E64FAFCA/Scalable%20Security%20Modeling%20with%20Microsoft%20Dynamics%20CRM%202015.pdf) white paper available from the [!INCLUDE[pn_Microsoft_Download_Center](../includes/pn-microsoft-download-center.md)].  
+ For detailed information about and best practices for designing  the  security model in Customer Engagement (on-premises), read the [Scalable Security Modeling with Microsoft Dynamics CRM](https://download.microsoft.com/download/D/6/6/D66E61BA-3D18-49E8-B042-8434E64FAFCA/Scalable%20Security%20Modeling%20with%20Microsoft%20Dynamics%20CRM%202015.pdf) white paper available from the [!INCLUDE[pn_Microsoft_Download_Center](../includes/pn-microsoft-download-center.md)].  
   
 ### See also  
  [Field level security](../admin/field-level-security.md)   

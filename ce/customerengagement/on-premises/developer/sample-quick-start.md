@@ -47,4 +47,4 @@ This sample authenticates the user with the Dynamics 365 Customer Engagement (on
 
 [Tutorials for Learning About Dynamics 365 Customer Engagement Development apps](tutorials-resources-sdk.md)<br />
 [Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/sample-simplified-connection-quick-start.md)<br />
-[Helper Code: ServerConnection Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)<br />
+[Helper Code: ServerConnection Class](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/samples-from-msdn/HelperCode/CrmServiceHelpers.cs)<br />

@@ -4,12 +4,10 @@ description: "Learn how to set up the Omnichannel Agent Dashboard hosted control
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 17C51A23-AACD-4D77-8394-5FF4700FEE9E
-ms.custom: 
 ---
 
 # Step 1: Create Omnichannel Agent Dashboard hosted control

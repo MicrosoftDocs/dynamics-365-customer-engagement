@@ -1,16 +1,13 @@
 ---
 title: "Download and email chat transcripts | MicrosoftDocs"
 description: "Learn how to download or email chat transcripts"
-keywords: ""
 author: lerobbin
 ms.author: lerobbin
 manager: autumna
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: f19a0d99-8d53-492d-9157-9c2e7aa2d638
-ms.custom: 
 ---
 
 # Configure download and email of chat transcripts
@@ -31,31 +28,31 @@ Chat for Dynamics 365 Customer Service allows customers to download and email a 
 
 5. Under **Chat Transcripts**, select **Yes** or **No** for the following:
 
-    - **Allow download of chat transcript**: Allows your customers to download the chat transcript.
+   - **Allow download of transcript**: Allows your customers to download the chat transcript.
 
-    - **Allow email of chat transcript**: Allows your customers to send the chat transcript as an email.
+   - **Allow email of transcript**: Allows your customers to send the chat transcript as an email.
 
-    By default, both the options are set to **No**.
+   By default, both the options are set to **No**.
 
    > [!div class=mx-imgBorder]
-   > ![Enable Chat Transcript](../media/oc-chat-transcript-enable.png "Enable Chat Transcript Transcript")
+   > ![Enable chat transcript](../media/oc-chat-transcript-enable.png "Enable chat transcript")
 
-6. If you select **Yes** for **Allow email of chat transcript**, you must select an email template and a mailbox from which the email will be sent. Administrators have a choice to either:
+6. If you select **Yes** for **Allow email of transcript**, you must select an email template and a mailbox from which the email will be sent. Administrators have a choice to either:
 
-    - Use an email template provided by Chat for Dynamics 365 Customer Service
+    - Use an email template provided by Chat for Dynamics 365 Customer Service.
 
-    - Modify the email template provided by Chat for Dynamics 365 Customer Service
+    - Modify the email template provided by Chat for Dynamics 365 Customer Service.
     
-    - Create their own email template
+    - Create their own email template.
 
-   > [!div class=mx-imgBorder]
-   > ![Enable email chat transcript](../media/oc-chat-transcript-enable-email.png "Enable email chat transcript")
+    > [!div class=mx-imgBorder]
+    > ![Enable email chat transcript](../media/oc-chat-transcript-enable-email.png "Enable email chat transcript")
 
-   > [!NOTE] 
-   > Whether administrator chooses to use the email template provided or create their own, the "{conversation.transcript}" text determines where the transcript is injected into email.
+    > [!NOTE] 
+    > Whether an administrator chooses to use the email template provided or create their own, the "{conversation.transcript}" text determines where the transcript is injected into email.
 
-   > [!div class=mx-imgBorder]
-   > ![Customize email chat transcript](../media/oc-chat-transcript-customize-email-transcript.png "Customize email chat transcript")
+    > [!div class=mx-imgBorder]
+    > ![Customize email chat transcript](../media/oc-chat-transcript-customize-email-transcript.png "Customize email chat transcript")
 
 ## Customer experience
 
@@ -70,7 +67,12 @@ Customers can choose to download and email a copy of their chat transcript conve
 
     1. Enter email address in pop-up window.
         
-    2. Select **Send** to receive a copy of chat transcript once the conversation ends.
+    2. Select **Send** to receive a copy of the chat transcript once the conversation ends.
+    
+    
+    
+    <!--from editor: Please ensure that the email address in the following image is approved for public use. -->
+    
 
         > [!div class=mx-imgBorder]
         > ![Email chat transcript](../media/oc-chat-transcript-email.png "Email chat transcript")
@@ -78,7 +80,7 @@ Customers can choose to download and email a copy of their chat transcript conve
     At the end of the chat conversation, the following window appears reminding the customer they can either download or email a copy of their chat transcript to themselves.
 
     > [!div class=mx-imgBorder]
-    > ![Chat Transcript Prompt](../media/oc-chat-transcript-prompt-screen.png "Chat Transcript Prompt")
+    > ![Chat transcript prompt](../media/oc-chat-transcript-prompt-screen.png "Chat transcript prompt")
 
 
 ## See also

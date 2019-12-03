@@ -1,11 +1,12 @@
 ---
 title: "Use the generic listener adapter in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use generic listener adapter that can be used as a testing tool for integrating Unified Service Desk with the CTI middleware applications that have the ability to open a URL on the user's computer when a CTI event occurs."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: b51a92d6-5f3f-4bf4-b326-37e4d7b728ce
 author: kabala123
 ms.author: kabala
 manager: shujoshi

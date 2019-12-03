@@ -18,7 +18,6 @@
 #### [Add products to an opportunity](add-products-opportunity-sp.md)
 ### [Understand sales transactions](understanding-sales-transactions-sales-professional.md)
 #### [Create and manage quotes](create-quotes-sales-professional.md)
-#### [Create or edit orders]
 #### [Create and manage invoices](create-invoices.md)
 #### [Add products to a quote, order, or invoice](add-product-quote-order-invoice-sp.md)
 ### Set up a product catalog
@@ -29,7 +28,7 @@
 #### [Gain insights with dashboards](gain-insights-dashboards-sales-professional.md)
 #### [Assign records to a user or team](assign-records-sales-professional.md)
 #### [Use document templates to create standardized documents](use-document-templates-sales-professional.md)
-#### [Create a PDF document](create-quote-pdf-sales-professional.md)
+#### [Create PDF documents from sales records](create-quote-pdf-sales-professional.md)
 
 ## Administrator and sales manager guide
 ### [Help resources for admins and sales managers](admin-guide.md)
@@ -49,7 +48,7 @@
 #### [Create and manage Word templates](manage-word-templates.md)
 #### [Enable automatic generation of quotes and invoices](enable-automatic-generation-quotes-invoices.md)
 #### [Export data or template](export-data.md)
-#### [Enable or disable PDF generation](enable-pdf-generation-quote-sales-professional.md)
+#### [Enable or disable PDF generation from sales records](enable-pdf-generation-quote-sales-professional.md)
 ### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization-sales-professional.md)
 ### [Make price list optional](make-price-list-optional-sp.md)
 ### [Define lead qualification experience](define-lead-qualification-experience-sp.md)
@@ -65,3 +64,6 @@
 ### [Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md)
 ### [Microsoft Teams integration](../teams-integration/teams-integration.md)
 ### [Integrate sample softphone with Dynamics 365 Sales](sample-softphone-integration-sp.md)
+
+# Dynamics 365 Sales (Enterprise)
+## [Help resources for Dynamics 365 Sales (Enterprise)](../sales-enterprise/help-hub.md)

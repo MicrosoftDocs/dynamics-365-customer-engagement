@@ -1,16 +1,15 @@
 ---
 title: Preview terms for Dynamics 365 Omni-Channel Engagement Hub - TeleSign SMS  | MicrosoftDocs
 description: See the preview terms for TeleSign SMS for Dynamics 365 Omni-Channel Engagement Hub
-keywords: Preview terms; Omni-channel Engagement Hub
-author: anjgupta
-ms.author: anjgup
+author: kabala
+ms.author: kabala123
 manager: shujoshi
-applies_to: 
 ms.date: 06/13/2019
-ms.service: dynamics-365-customerservice
 ms.topic: article
+ms.service: 
+  - dynamics-365-customerservice
+keywords: Preview terms; Omni-channel Engagement Hub
 ms.assetid: 13aea895-95b0-46bb-87af-becca618ca1f
-ms.custom: 
 ---
 
 # Preview terms for TeleSign SMS in Omnichannel for Customer Service

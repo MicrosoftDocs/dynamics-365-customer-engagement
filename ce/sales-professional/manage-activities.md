@@ -2,10 +2,11 @@
 title: "Manage tasks, appointments, email, or phone calls in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Track all your customer communications with activities in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-ms.assetid: 95388471-8414-4ac9-b990-36f038ca4919
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

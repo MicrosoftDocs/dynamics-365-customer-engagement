@@ -2,10 +2,11 @@
 title: "Work with views (lists) in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Use views to browse through and manage data in Dynamics 365 Sales Professional to improve your productivity."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-ms.assetid: 93ee704c-3d36-40d6-be4e-ca3566729aba
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

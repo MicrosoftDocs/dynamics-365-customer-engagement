@@ -1,16 +1,13 @@
 ---
 title: "Troubleshoot Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to troubleshoot the issues you may face while working on Omnichannel for Customer Service."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 09/11/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 2507DF5E-99CF-4AF9-BAEF-5B9C7B43ECF7
-ms.custom: 
 ---
 
 # Troubleshoot Omnichannel for Customer Service
@@ -19,11 +16,33 @@ ms.custom:
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
 
-## Unable to create new entity record channel
+## Entity routing configuration fails
 
-### Issue:
+### Issue 1:
 
-The Flow doesn't update automatically. Due to this issue, you can't create an entity records channel and the system shows a business process error. In Microsoft Flow, you might see either **Cases Work Distribution Flow** or **Entity Records Distribution Flow**.
+One of issues is that **Entity Records Distribution Flow** connection is not authorized. Due to this issue, you can see a business process error.
+
+**Unable to complete the operation due to an error. Try again later. If the issue persists, contact Microsoft support.**
+
+   > [!div class=mx-imgBorder]
+   > ![Business Process Error](media/business-process-error1.PNG "Business Process Error")
+
+### Resolution:
+
+Go to Entity Records Distribution Flow and authenticate the connection.
+
+To resolve the issue, perform steps 1 through 9 in the [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow) topic.
+
+### Issue 2:
+
+**Entity Records Distribution Flow** is not updated automatically. Due to this issue, you can't create an entity records channel and the system shows a business process error.
+
+**The operation failed due to an incorrect configuration in Entity Records Distribution Flow. Ensure the Entity Records Distribution Flow isn't deleted or renamed.**.
+
+   > [!div class=mx-imgBorder]
+   > ![Business Process Error](media/business-process-error2.PNG "Business Process Error")
+
+In Power Automate, you might see either **Cases Work Distribution Flow** or **Entity Records Distribution Flow**.
 
 ### Resolution:
 
@@ -35,7 +54,7 @@ To workaround the issue, you need to reset the Flow. To reset the Flow, follow t
 
 3. Select the **+ New** to create a new entity record channel.
 
-4. Select **Flow** menu in the command bar, and then select **See your flows**. Microsoft Flow opens in a new browser window.
+4. Select **Flow** menu in the command bar, and then select **See your flows**. Power Automate opens in a new browser window.
 
 5. Select **Solutions** in the sitemap, and then select **Default Solution** from the list.
 
@@ -71,31 +90,55 @@ Even though the Flow is reset, it doesn't update the name if it is **Case Work D
 
 To rename the Flow, select **Edit**, type the name of the flow as **Entity Record Distribution Flow** in the **Flow name** field, and select **Save**.
 
-## Entity routing does not route records
+### Issue 3:
 
-### Issue:
-
-There may not be any issue in the Entity Routing configuration, but in **Entity Records Distribution Flow**.
+There may be an issue with customizations in the **Entity Records Distribution Flow**.
 
 ### Resolution:
 
-Go to **Entity Records Distribution Flow** and review your customization made to the flow.
+Go to **Entity Records Distribution Flow** and review your customization made to the flow. 
 
-To resolve the issue, perform steps 1 through 8 in the [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow) topic. Review and resolve the error that is due to your customizations.
+Review and resolve the error that is due to your customizations. For more information, see [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
 
-## Entity routing configuration fails
+## Entity Records are not routed and distributed to agents
 
-### Issue:
+Entity Records routing and distribution may not work due to certain reasons. Validate the following issues and resolutions in the order given below.
 
-One of issues is that **Entity Records Distribution Flow** connection is not authorized. Due to this issue, you can see the following error message.
+### Issue 1:
 
-**Unable to complete the operation due to an error. Try again later. If the issue persists, contact Microsoft support.**
+The routing rule is configured incorrectly or not activated.
 
 ### Resolution:
 
-Go to Entity Records Distribution Flow and authenticate the connection.
+Verify the routing rule set is configured correctly and ensure to activate it. To learn more, see [Create routing rules](administrator/entity-channel.md#step-4-create-routing-rules).
 
-To resolve the issue, perform steps 1 through 9 in the [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow) topic.
+### Issue 2:
+
+The Entity Records Distribution Flow is not updated with latest workstream information.
+
+### Resolution:
+
+If you create or edit (update the name of the workstream) an entity record workstream, you must update Entity records Distribution Flow. To learn more, see [Update entity records distribution flow](administrator/multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow).
+
+### Issue 3:
+
+There is an error and due to which Entity Records Distribution Flow was not triggered.
+
+### Resolution:
+
+Check if the flow has triggered or if there was any error in the trigger of the Flow. You can get this information from the Power Automate home page or Entity Records Distribution Flow's run history.
+
+To work around the issue, reset the flow. To learn more, see [Reset the flow](#resolution-1).
+
+If resetting the flow doesn't resolve the issue, contact Microsoft support.
+
+### Issue 4:
+
+The flow triggered successfully but the action was not executed successfully.
+
+### Resolution:
+
+Reach out to Microsoft support for further investigation.
 
 ## Omnichannel provisioning fails due to expired Teams Service Principal
 

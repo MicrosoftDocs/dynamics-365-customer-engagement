@@ -1,11 +1,12 @@
 ---
 title: "UII actions in Unified Service Desk | MicrosoftDocs"
 description: "Learn about UII actions in Unified Service Desk that define a specific operation that can be performed when called."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 145b3e99-2423-441e-88ac-ec99b1364ed6
 author: kabala123
 ms.author: kabala
 manager: shujoshi

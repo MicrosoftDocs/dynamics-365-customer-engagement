@@ -1,16 +1,13 @@
 ---
 title: "Omnichannel Agent Dashboard in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the Omnichannel Agent Dashboard that shows the work items for the agents using Omnichannel for Customer Service"
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 69344371-9846-488B-A9A8-875C35398F92
-ms.custom: 
 ---
 
 # View agent dashboard and agent conversations (work items)

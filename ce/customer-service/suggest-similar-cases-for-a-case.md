@@ -1,12 +1,13 @@
 ---
 title: Suggest similar cases for a case with Dynamics 365 Customer Service | MicrosoftDocs
-author: anjgupta
-ms.author: anjgup
+description: 
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 03/08/2019
 ms.topic: article
-ms.service: crm-online
-ms.assetid: 91e10e68-8edf-4eee-a69e-9d9b6fac16f9
+ms.service: 
+  - dynamics-365-customerservice
 search.audienceType: 
   - admin
   - customizer

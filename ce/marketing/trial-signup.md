@@ -180,4 +180,4 @@ Check the email inbox for the trial global admin. You should find a message tell
 2. The link opens in your browser, which should now be asking you to sign in to Dynamics 365. Sign in using the global admin account.
 
 You should now see an **Approved!** message. The system sends the new user an email that includes a link they can use to sign in to the Dynamics 365 Marketing trial using the password you chose for them.
-The new user is granted most user roles (including admin) in Dynamics 365 Marketing. If you'd like to restrict access, then see [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md) for instructions.
+The new user is granted most security roles (including admin) in Dynamics 365 Marketing. If you'd like to restrict access, then see [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md) for instructions.

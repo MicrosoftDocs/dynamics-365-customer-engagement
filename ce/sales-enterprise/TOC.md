@@ -57,10 +57,13 @@
 ### [Help resources for sales people](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)
 ### [Send email using the enhanced email experience](enhanced-email.md)
+### [Create PDF documents](create-quote-pdf.md)
+
 ### Manage customers
 #### [Work with accounts and contacts](../basics/accounts-contacts.md)
 #### [Organize contacts in live org charts for accounts](live-org-chart.md)
 #### [Scan business cards](scan-business-cards.md)
+
 ### Lead and opportunity management
 #### [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)
 #### [Create or edit leads](../sales-enterprise/create-edit-lead-sales.md)
@@ -77,7 +80,6 @@
 #### [Create or edit orders](../sales-enterprise/create-edit-order-sales.md)
 #### [Create or edit invoices](../sales-enterprise/create-edit-invoice-sales.md)
 #### [Add products to quotes, orders, or invoices](../sales-enterprise/add-product-quote-order-invoice.md)
-#### [Create PDF documents](create-quote-pdf.md)
 ### Sales forecasting
 #### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
 #### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)
@@ -127,4 +129,6 @@
 ### Action Reference
 #### [RecalculatePrice Action](../sales-enterprise/developer/reference/recalculateprice-action.md)
 
+# Dynamics 365 Sales (Professional)
+## [Help resources for Dynamics 365 Sales (Professional)](../sales-professional/help-hub.md)
 # [Dynamics 365 Sales Insights](/dynamics365/ai/sales/overview)

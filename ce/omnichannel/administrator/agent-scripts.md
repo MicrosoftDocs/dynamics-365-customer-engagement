@@ -1,16 +1,13 @@
 ---
 title: "Agent scripts in the Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about agent scripts and how to configure them in the Omnichannel Administration app." 
-keywords: ""
+description: "Learn about agent scripts and how to configure them in the Omnichannel Administration app."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 223AAEFE-1228-4CE2-94C0-1118925D1B8C
-ms.custom: 
 ---
 
 # Preview: Guide agents with scripts
@@ -45,6 +42,10 @@ The agent scripts reduce the human errors involved in the process as the agents 
 ## Prerequisites
 
 - Install Dynamics 365 Productivity Tools solution.
+
+- Ensure you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
+
+- Ensure agents and supervisors are assigned **Productivity tools user** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
 
 ## Walkthrough to enable agent script
 
@@ -125,7 +126,7 @@ The agent script is associated with the session template.
 
 After you create an agent script, you must add the agent script field to the form where you want agents to see it.
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Omnichannel Administration app, and then on the command bar select **Settings** ![Settings](../media/settings-gear.png "Settings") > **Advanced  Settings**.
 
 2. Select **Settings** > **Customizations** > **Customize the System**. **Solution Explorer** opens in a new window.
 

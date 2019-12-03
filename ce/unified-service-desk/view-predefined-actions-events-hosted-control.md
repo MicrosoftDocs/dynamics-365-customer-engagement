@@ -1,11 +1,12 @@
 ---
 title: "View predefined actions and events for a hosted control in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to view predefined actions and events for hosted controls in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 0fa8c515-9ed0-48a0-bda0-e3ead9743b95
 author: kabala123
 ms.author: kabala
 manager: shujoshi

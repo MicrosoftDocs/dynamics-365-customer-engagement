@@ -1,14 +1,15 @@
 ---
 title: "User Guide (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Resources for the legacy Customer Service app."
-author: anjgupta
-ms.author: anjgup
+author: kabala123
+ms.author: kabala
 manager: shujoshi
-ms.date: 07/31/2019
+ms.date: 11/27/2019
 ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 9036f912-b991-48ff-a701-8157e43400b6
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Introduction to Customer Service app
@@ -150,7 +151,7 @@ Keep track of your customer requests and issues by creating support cases in Dyn
   
 3. Select the **More Commands** ![Ellipsis button](../customer-service/media/crm-ua-ellipsis-v4.gif "Ellipsis button"), and select **Add to Queue**.  
   
-4.  Select the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button"), select the queue that you want to add the case to, and then select **Add**.  
+4.  Select the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button"), select the queue that you want to add the case to, and then select **Add**.
   
 ### Save and route a case  
  When you create a new case, you can save it and route it with a single select using the **Save & Route** button.  
@@ -167,7 +168,10 @@ Keep track of your customer requests and issues by creating support cases in Dyn
   
    > [!IMPORTANT]
    > - The **Save & Route** button is available only on active cases.  
-   > - The **Apply Routing Rule** button that was earlier available on the case form is now available in the list of records for applying the routing rule on multiple cases.    
+   > - The **Apply Routing Rule** button that was earlier available on the case form is now available in the list of records for applying the routing rule on multiple cases.
+
+   > [!Note]
+   > When two agents simultaneously pick cases from the queue, then the system creates two queue items instead of a single queue item.
 
 ## Add an activity to a case
 The activity and notes area helps you keep track of all the interactions with your customers. Record all important conversations with the customer or the communication with your team members regarding a record in Dynamics 365 Customer Service. Add a phone call, task, notes, email, or appointments right within the case, account, contact, lead, or opportunity records without navigating to a different area and opening another form.  
@@ -373,7 +377,7 @@ Quickly see the items assigned to you or that are available to work on by using 
   
    You also have an option to remove the item from the queue once you pick it up.  
   
-   When you pick an activity or a case, it gets assigned to you. The **Worked By** field (in the list of queue items) is also set to you if you leave the activity or case in the queue.  
+   When you pick an activity or a case, it gets assigned to you. The **Worked By** field (in the list of queue items) is also set to you if you leave the activity or case in the queue.
   
 ### Release an item or case that you’re working on so someone else can pick it up  
   

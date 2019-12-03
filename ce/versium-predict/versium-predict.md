@@ -1,21 +1,16 @@
 ---
 title: "Versium Predict (Dynamics 365 Sales) | MicrosoftDocs"
 description: ""
-keywords: ""
 ms.date: 09/30/2017
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-versium"
 ms.topic: article
-ms.assetid: 02a2310b-efb1-4418-8af6-28dc8c243f6c
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
 ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 17
 ---
 
 # Versium Predict

@@ -1,16 +1,15 @@
 ---
 title: "Nurture sales from lead to order (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the out-of-the-box sales process to close more deals and improve customer satisfaction."
-keywords: "Lead, Qualify, Opportunity"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: get-started-article
-ms.assetid: 512ad50d-6dda-42b9-832d-f72adf923821
 author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
-caps.latest.revision: 21
 ---
 
 # Nurture sales from lead to order (Sales and Sales Hub)

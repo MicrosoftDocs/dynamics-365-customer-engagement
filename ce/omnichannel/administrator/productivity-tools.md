@@ -1,16 +1,13 @@
 ---
 title: "Overview of Dynamics 365 Productivity Tools | MicrosoftDocs"
-description: "Learn about Dynamics 365 Productivity Tools in the Omnichannel Administration app." 
-keywords: ""
+description: "Learn about Dynamics 365 Productivity Tools in the Omnichannel Administration app."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 3CC313DD-919E-443C-888D-6CF69DCC0E07
-ms.custom: 
 ---
 
 # Preview: Overview of productivity tools
@@ -78,7 +75,7 @@ The smart assist feature can be enabled across all channels like Chat for Dynami
 
 - Obtain global administrator permissions in Office 365 to download and install the Dynamics 365 Productivity Tools (solution).
 
-- Deploy Chat for Dynamics 365 Customer Service in your environment as Dynamics 365 Productivity Tools works only with the Omnichannel for Customer Service app. To learn more, see [Try Chat for Dynamics 365 Customer Service](../try-chat-for-dynamics365.md).
+- Deploy Chat for Dynamics 365 Customer Service in your environment as Dynamics 365 Productivity Tools works only with the Omnichannel for Customer Service app. To learn more, see [Try channels for Dynamics 365 Customer Service](../try-channels.md) and [Configure a chat channel](set-up-chat-widget.md).
 
 
 ### Install Dynamics 365 Productivity Tools package

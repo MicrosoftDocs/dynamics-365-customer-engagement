@@ -1,11 +1,12 @@
 ---
 title: "ACCSelector Tag | MicrosoftDocs"
 description: "Learn about the AccSelector tag uses the IAccessible interface from Microsoft Active Accessibility (MSAA) to access controls that allow multiple selections, such as in a list box or combo box."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 1dad1353-6b70-42b9-95b6-3893bb022bad
 author: kabala123
 ms.author: kabala
 manager: shujoshi

@@ -180,7 +180,7 @@ To help with scheduling decisions, current traffic patterns and accidents can be
 
 Scheduling based on real-time traffic is generally not applicable because most organizations schedule days or weeks in advance, and you can't predict real-time traffic ahead of time. 
 
-Bing Maps and other mapping providers can provide real-time and historical travel-time calculations, and this information can be called with [Microsoft Flow](https://flow.microsoft.com/galleries/public/templates/71e9c3773102499fafba51edf94ebbd7/get-travel-time-and-distance-in-current-traffic-to-reach-the-destination/) to calculate whether the current travel time is greater than the estimated travel time and automatically update the booking status accordingly.
+Bing Maps and other mapping providers can provide real-time and historical travel-time calculations, and this information can be called with [Power Automate](https://flow.microsoft.com/galleries/public/templates/71e9c3773102499fafba51edf94ebbd7/get-travel-time-and-distance-in-current-traffic-to-reach-the-destination/) to calculate whether the current travel time is greater than the estimated travel time and automatically update the booking status accordingly.
 
 If a field technician begins travel to their next work order and sees that the travel time is much longer than estimated by the system, they should indicate this with a custom booking status of "running late," so dispatchers can plan accordingly. 
 

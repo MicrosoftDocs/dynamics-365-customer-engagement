@@ -1,18 +1,16 @@
 ---
 title: "What's new in Dynamics 365 Channel Integration Framework | Microsoft Docs"
 description: "Read about the new features provided in the latest release of Dynamics 365 Channel Integration Framework."
-keywords: ""
-ms.date: 10/16/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: get-started-article
-ms.assetid: 42BEC0F2-AAA7-44A1-9BD7-EA2A04F5ACDB
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 10/16/2019
+ms.topic: get-started-article
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 
 # What's new in Dynamics 365 Channel Integration Framework
@@ -44,13 +42,19 @@ More information:
 
 ### Support for multiple providers
 
-With Dynamics 365 Channel Integration Framework version 2.0, organizations can configure multiple providers in the Omnichannel for Customer Service app. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels (for example, live chat and telephony), where each of these sessions belongs to a different provider. 
+With Dynamics 365 Channel Integration Framework version 2.0, organizations can configure multiple providers in the Omnichannel for Customer Service app. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels (for example, live chat and telephony), where each of these sessions belongs to a different provider.  
 
 More information: [Support for multiple providers](support-multiple-providers.md)
 
 ### Channel Analytics
 
-Dynamics 365 Channel Integration Framework version 2.0 provides insights on how the call center is performing in terms of agent assignments, customer satisfaction, average handling time and agent performance. It uses predictive algorithms to calculate upcoming load, customer satisfaction, relationship scores, and upsell probability, and helps you use operational and conversational analytics for better future planning.
+The contact center analytics need operational and conversational data to provide historical and real-time insights into the performance of the contact center. To get precise insights into the call center performance, the analysts need data from the following sources 
+
+- **CRM transactional data**: The data about the customers, their cases, their journey and all round relationship with the organizations. This is stored in Common Data Services 
+- **Communication Data**: The data about the interactions (intended, ongoing and completed) with known and unknown customers 
+- **Agent Behavior Data**: The data about the behavior of agents before, during and after the interactions. 
+
+Channel Analytics in the Dynamics 365 Channel Integration Framework, provides a model to build a consistent, seamless, and unified experience when it comes to channel related analytics and insights.
 
 More information: [Channel Analytics](channel-analytics.md).
 

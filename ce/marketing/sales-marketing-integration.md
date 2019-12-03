@@ -23,7 +23,7 @@ search.app:
 
 # Sales and marketing collaboration with Dynamics 365
 
-Read this topic to learn how marketers and salespeople can collaborate through dedicated, optimized sales and marketing apps running on top of a unified Dynamics 365 platform. This topic provides an overview and many links that will show you:
+Read this topic to learn how marketers and salespeople can collaborate through dedicated, optimized sales and marketing apps running on top of a unified platform. This topic provides an overview and many links that will show you:
 
 - How marketers and salespeople can benefit by working on a common platform
 - How salespeople can influence marketing campaigns
@@ -34,7 +34,7 @@ Read this topic to learn how marketers and salespeople can collaborate through d
 
 ## The power of a unified platform for business apps
 
-A key strength of Dynamics 365 is that you can run multiple business apps on the same tenant, instance, and database. This enables professionals from across your organization to work with apps tailored to their specific needs while freely sharing data and processes with colleagues focusing on other parts of the business. Admins, customizers and developers have just one platform to learn, and customizations can apply everywhere. There is no need to set up complex data mappings or database connectors because common data for all apps is stored in a single, central repository.
+A key strength of model-driven apps in Dynamics 365 is that you can run multiple business apps on the same tenant, instance, and database. This enables professionals from across your organization to work with apps tailored to their specific needs while freely sharing data and processes with colleagues focusing on other parts of the business. Admins, customizers and developers have just one platform to learn, and customizations can apply everywhere. There is no need to set up complex data mappings or database connectors because common data for all apps is stored in a single, central repository.
 
 When both marketers and salespeople have access to the same contact, lead, and account data, workers from both departments can collaborate throughout the marketing and sales funnels, bringing contacts from discovery, through nurturing, and on to qualification, opportunity and closure. With Dynamics 365, your organization can move from multiple single-purpose, siloed systems to a unified, collaborative process based on a single source of truth.
 
