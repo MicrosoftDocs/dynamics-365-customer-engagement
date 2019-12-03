@@ -25,7 +25,7 @@ ms.topic: article
         
             You can optionally specify authentication settings. For more information about how to specify authentication settings, see [Create chat authentication settings](create-chat-auth-settings.md). You must save the record to enter more details.
 
-        2. In the **Work Distribution** section, browse and select the work stream you created for the chat widget. By default, **Live chat workstream** is selected. More information on work stream: [Understand and create work streams](work-streams-introduction.md)
+        2. In the **Work Distribution** section, browse and select the work stream you created for the chat widget. By default, **Live chat workstream** is selected. More information on work stream: [Understand and create work streams](work-streams-introduction.md).
         
         > [!NOTE]
         > - If you save the chat widget, you can't edit the **Work stream** field. If you want to edit the field, you must delete the chat widget and create a new one. 
