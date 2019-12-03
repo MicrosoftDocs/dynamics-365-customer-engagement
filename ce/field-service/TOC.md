@@ -3,8 +3,9 @@
 # [New and upcoming features](new-upcoming.md)
 # [Getting started with Field Service](user-guide.md)
 
-# Installation
+# Installation & upgrade
 ## [Field Service installation (web + mobile)](install-field-service.md)
+## [Upgrade Field Service](upgrade-field-service.md)
 ## [Version history (web + mobile)](version-history.md)
 ## [AppSource add-ins for Field Service](appsource-addins.md)
 

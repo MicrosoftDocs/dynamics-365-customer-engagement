@@ -92,17 +92,6 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 | [ Field Service v6.0 v1.0.0.0](https://go.microsoft.com/fwlink/p/?LinkId=808250)  |  Field Service Mobile default project.woodford | December 2018  |  **Field Service Mobile (2016)** 8.0 | 8.0 | |
 
 
-## Trials and upgrades
-
- - All new Dynamics 365 Field Service environments will install the latest generally available Field Service solution.
- - For existing environments, when a new upgrade is available, you can upgrade your solution in **Admin Center** > **Dynamics 365**, as seen in the following screenshot.
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the admin center upgrade path for Field Service](./media/admin-upgrade-to-latest-admin-center.png)
-
-- If you would like to set up a trial of the latest Field Service version, create a trial through [https://trials.dynamics.com](https://trials.dynamics.com).
-
-- Installing Field Service Mobile from the Windows Store can allow for automatic upgrades of new versions.
-
 ### See also
 
 - [New and upcoming features](new-upcoming.md)
