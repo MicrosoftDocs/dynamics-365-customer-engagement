@@ -124,34 +124,36 @@ This is a variable that holds the Work Order Number field value that will be pas
 
 Now that we have a work order form command and a deeplink, we need to use a simple JavaScript code snippet to tell the command to call the deeplink.
 
+In the mobile project where you added the work order form command earlier, go to **Offline HTML** in the left pane.
+
+Go to the **WorkOrder** folder then the **WorkOrder.js** file.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-deeplink-work-order-js-navigate.png)
 
+Here you will enter JavaScript that constructs the deeplink and instructs the work order form command to call the deeplink.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-deeplink-work-order-js.png)
 
+Here is the code snippet that was used in our example:
 
     // -------------------------Power apps deeplinking
 
     MobileCRM.UI.EntityForm.onCommand("custom_SendWOToPowerApps", ToPowerApps, true, null);
-
-        // web: https://apps.powerapps.com/play/c2fe056f-f576-4c41-9b69-c2435689e80c?tenantId=f782ab25-637c-4888-b38e-79c78d14bb50
-        // mobile: ms-apps:///providers/Microsoft.PowerApps/apps/
-        // app guid = c2fe056f-f576-4c41-9b69-c2435689e80c
         function ToPowerApps(entityForm) {
             var WONumber = entityForm.entity.primaryName;
             var WOqueryString = "&WONumber=" + WONumber;
             var url = "ms-apps:///providers/Microsoft.PowerApps/apps/c2fe056f-f576-4c41-9b69-c2435689e80c?Deeplink=requestparts" + WOqueryString ;
-            //var url = "ms-apps:///providers/Microsoft.PowerApps/apps/c2fe056f-f576-4c41-9b69-c2435689e80c?Deeplink=requestparts&WONumber=18";
-
             //MobileCRM.bridge.alert(url);
             MobileCRM.Platform.openUrl(url);
         }
 
+As you can see, the "WONumber" variable takes the primary name field value of the work order entity which equals the work order number, and this is added to the deeplink URL.
+
+
 > [!Note]
-> Note about upgrade
+> By editing the WorkOrder folder and WorkOrder.js file you are editing files included in the field service mobile project. These folders and files may be updated as new mobile projects are released by Microsoft. In this case, you run the risk of 1) not upgrading these files and missing citical new functionality or 2) overwriting your JavaScript file and losing the deeplink functionality. TO avoid this, it is recommended to use a custom folder and JavaScript file separate from the WorkOrder folder an WorkOrder.js file in production instances. 
 
 ## Deeplink to PowerApps form
 
