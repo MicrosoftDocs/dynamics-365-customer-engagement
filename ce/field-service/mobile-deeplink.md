@@ -75,7 +75,9 @@ Enter a **Name** which cannot have spaces and will be referenced in JavaScript c
 
 Next we need to construct our deeplink. 
 
-The final deeplink will be: ms-apps:///providers/Microsoft.PowerApps/apps/c2fe056f-f576-4c41-9b69-c2435689e80c?Deeplink=requestparts&WONumber=18 
+The final deeplink will be: 
+
+    ms-apps:///providers/Microsoft.PowerApps/apps/c2fe056f-f576-4c41-9b69-c2435689e80c?Deeplink=requestparts&WONumber=18 
 
 Which is a concatenation of:
 
@@ -90,20 +92,31 @@ ms-apps:///providers/Microsoft.PowerApps/apps/
 
 All deeplinks to Windows, iOS and Android PowerApps apps begin with: **ms-apps:///providers/Microsoft.PowerApps/apps/**
 
+#### PowerApp GUID
 
-    // mobile: ms-apps:///providers/Microsoft.PowerApps/apps/
-    // app guid = c2fe056f-f576-4c41-9b69-c2435689e80c
+Next you need to find and add the unique GUID of your PowerApp.
 
-
+Go to **http://make.powerapps.com/ > Apps > then select your app > Details**
+  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-deeplink-app-id.png)
 
+Find your PowerApp GUID in the App ID section. It will be a 32 digit number of format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-deeplink-app-id-final.png)
 
 
-web: https://apps.powerapps.com/play/c2fe056f-f576-4c41-9b69-c2435689e80c?tenantId=f782ab25-637c-4888-b38e-79c78d14bb50
+**Pro Tip:** The Web link can be used to open the PowerApp in a web browser
+
+#### PowerApp form name
+
+Next find the name of the specific powerapps form you would like to deeplink to. In our example it is "**requestparts**". this will be preceded by "**?Deeplink=**"
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-deeplink-powerapps-form.png)
+
+#### Work order entity "work order number" field
 
 ## Add mobile JavaScript
 
