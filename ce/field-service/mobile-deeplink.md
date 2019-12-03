@@ -111,14 +111,18 @@ Find your PowerApp GUID in the App ID section. It will be a 32 digit number of f
 
 #### PowerApp form name
 
-Next find the name of the specific powerapps form you would like to deeplink to. In our example it is "**requestparts**". this will be preceded by "**?Deeplink=**"
+Next find the name of the specific powerapps form you would like to deeplink to. In our example it is "**requestparts**". This will be preceded by "**?Deeplink=**" in the deeplink.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-deeplink-powerapps-form.png)
 
 #### Work order entity "work order number" field
 
+This is a variable that holds the Work Order Number field value that will be passed into the PowerApps form field. We will see how this value is created in the next script where we write the mobile JavaScript. 
+
 ## Add mobile JavaScript
+
+Now that we have a work order form command and a deeplink, we need to use a simple JavaScript code snippet to tell the command to call the deeplink.
 
 
 > [!div class="mx-imgBorder"]
