@@ -187,6 +187,14 @@ In the Advanced tab of the right panel, enter the following formula for the defa
 This adds the WONumber variable as the default value for the powerapps form field.
 
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-deeplink-work-order-fsm.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-deeplink-powerapp-interface.png)
+
 ## Configuration considerations
 
 ### Deeplink to Field Service Mobile
