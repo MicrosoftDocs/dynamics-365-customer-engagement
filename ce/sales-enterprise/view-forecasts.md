@@ -102,7 +102,7 @@ Select the field and the field becomes editable. Enter the value to adjust. In t
 > ![Adjusted amount in the forecast](media/forecast-view-adjust-opportunity.png "Adjusted amount in the forecast")
 
  
-## Refresh forecast data
+## Keep forecast data up to date
 
 The forecast data is kept up to date by automatic recalculation at regular intervals. If you are actively interacting with the forecast, a recalculation is retriggered when the data is found to be more than 10 minutes old. After the recalculation, you will be prompted to refresh the forecast grid to show the updated forecast data.
 
