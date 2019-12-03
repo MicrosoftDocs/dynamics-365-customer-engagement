@@ -190,7 +190,15 @@ In the Advanced tab of the right panel, enter the following formula for the defa
 
 This adds the WONumber variable as the default value for the powerapps form field.
 
+**Save** and **Publish** your PowerApp.
 
+At this point you are ready to test your deeplink. 
+
+Open the Field Service Mobile app and navigate to the work order form (not the booking form). Select the command icon in the top right and select your custom command. 
+
+PowerApps will launch and may ask to sign in if you havnt done so already.
+
+The correct form will open and the work order number will populate the desired field.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-deeplink-work-order-fsm.png)
@@ -199,10 +207,14 @@ This adds the WONumber variable as the default value for the powerapps form fiel
 
 ### Deeplink to Field Service Mobile
 
-fsmobile://open?jsbridge;msdyn_workorder;9a98d429-fe1e-e911-a977-000d3a370909
-fsmobile://open?jsbridge;[entity_schema_name];[GUID]
+This article explains how to deeplink _from_ Field Service Mobile _to_ PowerApps. You can also deeplink from another app _to_ Field Service Mobile. 
 
-### Authentication
+Here is an example:
+
+    fsmobile://open?jsbridge;msdyn_workorder;9a98d429-fe1e-e911-a977-000d3a370909
+
+
+This is a combination of the **Field Service Universal Link** (fsmobile://open?jsbridge;) + **entity_schema_name** (msdyn_workorder;) + **record GUID** (9a98d429-fe1e-e911-a977-000d3a370909)
 
 ### Deeplinking in production instances
 
@@ -210,6 +222,6 @@ By editing the WorkOrder folder and WorkOrder.js file you are editing files incl
 
 
 ### See also
-https://powerapps.microsoft.com/ro-ro/blog/powerapps-560-update/ 
+[PowerApps update – Universal links, HTML control improvements, new service connections and more](https://powerapps.microsoft.com/ro-ro/blog/powerapps-560-update/) 
 
-https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/embed-apps-dev#set-uri-parameters-for-your-app 
+[Set URI parameters for your Canvas apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/embed-apps-dev#set-uri-parameters-for-your-app)
