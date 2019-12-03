@@ -36,7 +36,7 @@ platforms
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-deeplink-work-order-fsm.png)
+> ![Screenshot of deeplink example on app](./media/mobile-deeplink-work-order-fsm.png)
 
 In this article let's create a work order deeplink that when triggered by technicians on Field Service Mobile will open a specific PowerApps form and pass along the work order number field value. To accomplish this, we will configure both Field Service Mobile and the PowerApp by: 
 
@@ -66,12 +66,12 @@ Go to the Work order form where you will add a command.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-deeplink-command-navigate.png)
+> ![Screenshot of navigating to edit mobile work order form](./media/mobile-deeplink-command-navigate.png)
 
 In the commands section, select **Edit** then choose **New Command** in the window that appears.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-deeplink-command.png)
+> ![Screenshot of creating a command](./media/mobile-deeplink-command.png)
 
 Enter a **Name** which cannot have spaces and will be referenced in JavaScript code, and a **Label** which is what the technician will see on his or her mobile app. 
 
@@ -103,12 +103,12 @@ Next you need to find and add the unique GUID of your PowerApp.
 Go to **http://make.powerapps.com/ > Apps > then select your app > Details**
   
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-deeplink-app-id.png)
+> ![Screenshot of navigating to powerapp id](./media/mobile-deeplink-app-id.png)
 
 Find your PowerApp GUID in the App ID section. It will be a 32 digit number of format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-deeplink-app-id-final.png)
+> ![Screenshot of powerapp id](./media/mobile-deeplink-app-id-final.png)
 
 
 **Pro Tip:** The Web link can be used to open the PowerApp in a web browser
@@ -118,7 +118,7 @@ Find your PowerApp GUID in the App ID section. It will be a 32 digit number of f
 Next find the name of the specific powerapps form you would like to deeplink to. In our example it is "**requestparts**". This will be preceded by "**?Deeplink=**" in the deeplink.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-deeplink-powerapps-form.png)
+> ![Screenshot of powerapps form name](./media/mobile-deeplink-powerapps-form.png)
 
 #### Work order entity "work order number" field
 
@@ -133,12 +133,12 @@ In the mobile project where you added the work order form command earlier, go to
 Go to the **WorkOrder** folder then the **WorkOrder.js** file.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-deeplink-work-order-js-navigate.png)
+> ![Screenshot of navigating to offline html](./media/mobile-deeplink-work-order-js-navigate.png)
 
 Here you will enter JavaScript that constructs the deeplink and instructs the work order form command to call the deeplink.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-deeplink-work-order-js.png)
+> ![Screenshot of javascript code snippet](./media/mobile-deeplink-work-order-js.png)
 
 Here is the code snippet that was used in our example:
 
@@ -157,7 +157,7 @@ As you can see, the "WONumber" variable takes the Primary Name field value of th
 
 
 > [!Note]
-> By editing the WorkOrder folder and WorkOrder.js file you are editing files included in the field service mobile project. These folders and files may be updated as new mobile projects are released by Microsoft. In this case, you run the risk of 1) not upgrading these files and missing citical new functionality or 2) overwriting your JavaScript file and losing the deeplink functionality. TO avoid this, it is recommended to use a custom folder and JavaScript file separate from the WorkOrder folder an WorkOrder.js file in production instances. 
+> **Deeplinking in production instances:** By editing the WorkOrder folder and WorkOrder.js file you are editing files included in the field service mobile project. These folders and files may be updated as new mobile projects are released by Microsoft. In this case, you run the risk of 1) not upgrading these files and missing citical new functionality or 2) overwriting your JavaScript file and losing the deeplink functionality. TO avoid this, it is recommended to use a custom folder and JavaScript file separate from the WorkOrder folder an WorkOrder.js file in production instances. 
 
 **Save** and **Publish** the mobile project.
 
@@ -170,7 +170,7 @@ First we want the PowerApp to accept the deeplink.
 Go to the **App** section in the left pane of the PowerApp and edit the **OnStart** formula.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-deeplink-powerapp-accept-deeplink.png)
+> ![Screenshot of editing powerapps to accept deeplink](./media/mobile-deeplink-powerapp-accept-deeplink.png)
 
 Here we entered the following that instructs the PowerApp to navigate to the specific form if the deeplink parameter is "requestparts":
 
@@ -182,7 +182,7 @@ Here we entered the following that instructs the PowerApp to navigate to the spe
 In the powerapps form, find the field you want the work order number value to populate.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-deeplink-powerapp-accept-parameter.png)
+> ![Screenshot of configuring powerapps to add work order paramter value](./media/mobile-deeplink-powerapp-accept-parameter.png)
 
 In the Advanced tab of the right panel, enter the following formula for the default value.
 
@@ -201,7 +201,7 @@ PowerApps will launch and may ask to sign in if you havnt done so already.
 The correct form will open and the work order number will populate the desired field.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-deeplink-work-order-fsm.png)
+> ![Screenshot of deeplink example on app](./media/mobile-deeplink-work-order-fsm.png)
 
 ## Configuration considerations
 
