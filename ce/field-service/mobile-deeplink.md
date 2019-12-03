@@ -34,6 +34,10 @@ platforms
 
 **Scenario:** While using work orders on Field Service Mobile to complete onsite work, a field service organization uses a custom-built PowerApp to request orders for new parts inventory. The organization needs technicians to be able to open the Parts Order PowerApp from work orders in Field Service Mobile and minimize the inconveneince of switching between interfaces. The organization has a "bring-your-own-device" policy for technicians, so the solution needs to work on Windows, iOS, and Android devices. A proposed solution is to create a deeplink from Field Service Mobile to the Powerapp.
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-deeplink-work-order-fsm.png)
+
 In this article let's create a work order deeplink that when triggered by technicians on Field Service Mobile will open a specific PowerApps form and pass along the work order number field value. To accomplish this, we will configure both Field Service Mobile and the PowerApp by: 
 
 1. Creating a custom command on the work order form to open the Parts Request PowerApp
@@ -191,10 +195,6 @@ This adds the WONumber variable as the default value for the powerapps form fiel
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-deeplink-work-order-fsm.png)
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-deeplink-powerapp-interface.png)
-
 ## Configuration considerations
 
 ### Deeplink to Field Service Mobile
@@ -204,8 +204,10 @@ fsmobile://open?jsbridge;[entity_schema_name];[GUID]
 
 ### Authentication
 
+### Deeplinking in production instances
 
-## Additional Notes
+By editing the WorkOrder folder and WorkOrder.js file you are editing files included in the field service mobile project. These folders and files may be updated as new mobile projects are released by Microsoft. In this case, you run the risk of 1) not upgrading these files and missing citical new functionality or 2) overwriting your JavaScript file and losing the deeplink functionality. TO avoid this, it is recommended to use a custom folder and JavaScript file separate from the WorkOrder folder an WorkOrder.js file in production instances.
+
 
 ### See also
 https://powerapps.microsoft.com/ro-ro/blog/powerapps-560-update/ 
