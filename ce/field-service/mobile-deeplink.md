@@ -149,23 +149,43 @@ Here is the code snippet that was used in our example:
             MobileCRM.Platform.openUrl(url);
         }
 
-As you can see, the "WONumber" variable takes the primary name field value of the work order entity which equals the work order number, and this is added to the deeplink URL.
+As you can see, the "WONumber" variable takes the Primary Name field value of the work order entity which equals the work order number, and this is added to the deeplink URL.
 
 
 > [!Note]
 > By editing the WorkOrder folder and WorkOrder.js file you are editing files included in the field service mobile project. These folders and files may be updated as new mobile projects are released by Microsoft. In this case, you run the risk of 1) not upgrading these files and missing citical new functionality or 2) overwriting your JavaScript file and losing the deeplink functionality. TO avoid this, it is recommended to use a custom folder and JavaScript file separate from the WorkOrder folder an WorkOrder.js file in production instances. 
 
+**Save** and **Publish** the mobile project.
+
 ## Deeplink to PowerApps form
 
+The last two steps are to make changes to your powerapp to navigate to the correct form when the app is opened via a deeplink and enter the work order number value from Field Service Mobile into the form. 
+
+First we want the PowerApp to accept the deeplink. 
+
+Go to the **App** section in the left pane of the PowerApp and edit the **OnStart** formula.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-deeplink-powerapp-accept-deeplink.png)
 
+Here we entered the following that instructs the PowerApp to navigate to the specific form if the deeplink parameter is "requestparts":
+
+    If(Param("Deeplink") = "requestparts", Navigate(RequestParts))
+
+
 ## Pass work order parameter
 
+In the powerapps form, find the field you want the work order number value to populate.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-deeplink-powerapp-accept-parameter.png)
+
+In the Advanced tab of the right panel, enter the following formula for the default value.
+
+    Param("WONumber")
+
+This adds the WONumber variable as the default value for the powerapps form field.
+
 
 ## Configuration considerations
 
