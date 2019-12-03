@@ -28,6 +28,12 @@ search.app:
 
 # Upgrade Field Service
 
+
+### When are Field Service updates released?
+
+### How do I upgrade my environment?
+
+
 auto update motion 
 how it works, whats the cadence, 
 same or different from platform
@@ -56,6 +62,8 @@ Error : 500: : An error occurred while processing this request. (on requirement 
 
 Installing Field Service Mobile from the Windows Store can allow for automatic upgrades of new versions.
 
+[Upgrade mobile project](mobile-upgrade-project.md)
+
 ## Resource Scheduling
 
 
@@ -82,5 +90,7 @@ Installing Field Service Mobile from the Windows Store can allow for automatic u
 
 ### See also
 [Field Service version history](version-history.md)
+
+[Install Field Service (web + mobile)](install-field-service.md)
 
 [Important Notes for Field Service and Project Service Automation after upgrade of Dynamics 365 Organizations to version 9.0](https://community.dynamics.com/365/b/365teamblog/posts/important-notes-for-field-service-and-project-service-automation-after-upgrade-of-dynamics-365-organizations-to-version-9-0)
