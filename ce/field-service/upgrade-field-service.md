@@ -28,34 +28,33 @@ search.app:
 
 # Upgrade Field Service
 
+## Field Service
 
 ### When are Field Service updates released?
-
-### How do I upgrade my environment?
-
 
 auto update motion 
 how it works, whats the cadence, 
 same or different from platform
 lack of disruption
 
-For FS v8, our plan is that orgs on v8 UR13 (FS v8.8.7.47) or higher will begin receiving automatic updates, correct? Can we add a note to the FS documentation about auto-update?
-
-https://aka.ms/fsuciupgrade
-
 Advise customers about the FS upgrade cadence and difference between FS updates and Core updates. Also to provide steps to check for available upgrades for FS as a first step.
+
+see in release planner
+
+### How do I upgrade my environment?
+
+For FS v8, our plan is that orgs on v8 UR13 (FS v8.8.7.47) or higher will begin receiving automatic updates, correct? Can we add a note to the FS documentation about auto-update?
 
 - All new Dynamics 365 Field Service environments will install the latest generally available Field Service solution. If you would like to set up a trial of the latest Field Service version, create a trial through [https://trials.dynamics.com](https://trials.dynamics.com).
 
-Customize against forms for opp, quote, etc require a specific updated in a web resource so they can work correctly.
+For existing environments, when a new upgrade is available, you can upgrade your solution in **Admin Center** > **Dynamics 365**, as seen in the following screenshot.
 
-
-Error : 500: : An error occurred while processing this request. (on requirement save)
-
-
- - For existing environments, when a new upgrade is available, you can upgrade your solution in **Admin Center** > **Dynamics 365**, as seen in the following screenshot.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the admin center upgrade path for Field Service](./media/admin-upgrade-to-latest-admin-center.png)
+
+### Best practices
+
+https://aka.ms/fsuciupgrade
 
 
 ## Mobile
@@ -72,7 +71,9 @@ Installing Field Service Mobile from the Windows Store can allow for automatic u
 
 ## Resource scheduling Optimization
 
+Go to admin center > Instances tab > solution
 
+Select Upgrade to new version to apply a new update if one is available.
 
 ## Prerequisites
 > [!Note]
@@ -83,6 +84,7 @@ Installing Field Service Mobile from the Windows Store can allow for automatic u
 ## Configuration considerations
 ## Additional Notes
 
+### Common issues
 - Field Service upgrade failure/DB out of sync and resolution steps that the customer can try on their own.
 - Solution installation failed / Update Installation Failed
 - Field Service database version is out of sync
@@ -94,3 +96,5 @@ Installing Field Service Mobile from the Windows Store can allow for automatic u
 [Install Field Service (web + mobile)](install-field-service.md)
 
 [Important Notes for Field Service and Project Service Automation after upgrade of Dynamics 365 Organizations to version 9.0](https://community.dynamics.com/365/b/365teamblog/posts/important-notes-for-field-service-and-project-service-automation-after-upgrade-of-dynamics-365-organizations-to-version-9-0)
+
+[Announcing end-of-life for Field Service (online) legacy versions by February, 2020](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/17/announcing-end-of-life-for-field-service-online-legacy-versions-by-february-2020/)
