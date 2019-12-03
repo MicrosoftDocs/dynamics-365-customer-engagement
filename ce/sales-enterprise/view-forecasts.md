@@ -106,7 +106,7 @@ Select the field and the field becomes editable. Enter the value to adjust. In t
 
 The forecast data is kept up to date by automatic recalculation at regular intervals. If you are actively interacting with the forecast, a recalculation is retriggered when the data is found to be more than 10 minutes old. After the recalculation, you will be prompted to refresh the forecast grid to show the updated forecast data.
 
-If you are not actively interacting with the forecast, the data is recalculated every hour. The Last recalculated label on the command bar shows the time when the forecast was last recalculated successfully
+If you are not actively interacting with the forecast, the data is recalculated every hour. The **Last recalculated** label on the command bar shows the time when the forecast was last recalculated successfully.
 
 If you know that the underlying data has changed, you can select **Recalculate** to manually recalculate, and then refresh to view the updated values. When you recalculate: 
 
