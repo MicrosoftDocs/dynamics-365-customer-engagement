@@ -4,7 +4,7 @@ description: "Information on entities introduced as part of Omnichannel for Cust
 author: "susikka"
 ms.author: "susikka"
 manager: "susikka"
-ms.date: 12/02/2019
+ms.date: 12/04/2019
 ms.service: 
   - crm-online
 ms.topic: "reference"
@@ -55,11 +55,31 @@ Installing Omnichannel for Customer Service solution adds the following entities
 |[msdyn_transcript](msdyn_transcript.md)|
 |[msdyn_visitorjourney](msdyn_visitorjourney.md)|
 
-> [!NOTE]
-> When you install Omnichannel for Customer Service, you will see some attributes added for already existing entities. Attribute `msdyn_capacity` gets added to <xref href="Microsoft.Dynamics.CRM.systemuser?text=SystemUser entity" />, and `msdyn_isdefaultqueue` and `msdyn_priority` attributes get added to <xref href="Microsoft.Dynamics.CRM.queue?text=Queue entity" />.
+### Attributes added for existing entities
+
+When you install Omnichannel for Customer Service, you will see some attributes added for already existing entities.
+
+#### SystemUser entity
+
+|Attribute name|
+|-----|
+|`msdyn_capacity`|
+
+More information: <xref href="Microsoft.Dynamics.CRM.systemuser?text=SystemUser entity" />.
+
+#### Queue entity
+
+|Attribute name|
+|-----|
+|`msdyn_isdefaultqueue`|
+|`msdyn_priority`|
+
+More information: <xref href="Microsoft.Dynamics.CRM.queue?text=Queue entity" />.
+
+### Deprecated entities
 
 See [Deprecated entities](deprecated-entities.md) for the list of entities that are deprecated and are no longer supported.
 
-## See also
+### See also
 
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
