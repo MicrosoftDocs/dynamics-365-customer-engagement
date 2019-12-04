@@ -143,7 +143,7 @@ To import a solution:
 ### See also
 [Manage your Marketing instances](manage-marketing-instances.md)  
 [Transfer data between instances](transfer-data.md)  
-[Administer PowerApps](https://docs.microsoft.com/power-platform/admin/admin-guide)  
+[Administer Power Apps](https://docs.microsoft.com/power-platform/admin/admin-guide)  
 [Manage instances](https://docs.microsoft.com/dynamics365/admin/new-instance-management)  
 [Move configuration data across environments and organizations](https://docs.microsoft.com/power-platform/admin/manage-configuration-data)  
 [Import, update, and export solutions](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions)

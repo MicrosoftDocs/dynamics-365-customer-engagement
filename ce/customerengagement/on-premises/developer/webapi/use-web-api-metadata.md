@@ -25,5 +25,5 @@ You can perform any of the metadata operations with the Web API that you can per
 
 [Browse the Metadata for Your Organization](../browse-your-metadata.md)<br />
 [Use the Organization service with Dynamics 365 Customer Engagement (on-premises) metadata](../org-service/use-organization-service-metadata.md)<br />
-[What is PowerApps?](/powerapps/powerapps-overview)
+[What is Power Apps?](/powerapps/powerapps-overview)
 

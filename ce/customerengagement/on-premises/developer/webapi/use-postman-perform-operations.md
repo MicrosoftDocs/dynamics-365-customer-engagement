@@ -29,4 +29,4 @@ The operations that you can perform using the Web API are same for the online an
 
 ## See also
 
-[What is PowerApps?](/powerapps/powerapps-overview)
+[What is Power Apps?](/powerapps/powerapps-overview)

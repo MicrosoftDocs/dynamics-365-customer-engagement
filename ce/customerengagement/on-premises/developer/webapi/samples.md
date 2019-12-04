@@ -42,6 +42,6 @@ The following table lists the topics that cover language specific implementation
 
 ### See also
 
-[What is PowerApps?](/powerapps/powerapps-overview)
+[What is Power Apps?](/powerapps/powerapps-overview)
 [What is Common Data Service?](/powerapps/maker/common-data-service/data-platform-intro)
 [Common Data Service Developer Guide](/powerapps/developer/common-data-service/overview)

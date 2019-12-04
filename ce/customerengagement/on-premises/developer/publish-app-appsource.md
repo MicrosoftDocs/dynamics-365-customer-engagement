@@ -28,5 +28,5 @@ Publish your app on [Microsoft AppSource](https://appsource.microsoft.com) so th
 Instructions about publishing your apps is available in the Power Apps documentation: [Publish your app on AppSource](/powerapps/developer/common-data-service/publish-app-appsource) 
 
 ### See also
-[What is PowerApps?](/powerapps/powerapps-overview)<br/>
-[Create apps in PowerApps](/powerapps/maker/)
+[What is Power Apps?](/powerapps/powerapps-overview)<br/>
+[Create apps in Power Apps](/powerapps/maker/)
