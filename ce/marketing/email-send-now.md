@@ -50,9 +50,9 @@ To use the send-now feature:
 
 1. The **Send new marketing email** dialog opens. The following settings and information are provided here. All settings are required, but some may already be filled out to match your message settings if you made them already. If your message is already live, then the **Subject** and **From** fields are read-only.
 
-    - **Subject** : This is the subject that recipients will see. You probably set this up already when designing the email, but this can strongly affect your open rate, so be sure to check it one last time.
-    - **From** : This is the user account whose name and email address will appear as the sender of the message. By default, all messages are initially configured to show the creating user's name and email address as the sender of the message, but you can choose another user here if you prefer.
-    - **Recipients** : In this area, build the list of contacts you want to send your message to. To add a contact, use the **Look for contacts** field to find and select a contact record (repeat to add more contacts). Each time you select a contact from this field, it gets added to the **Recipients** list. To remove a contact you've added, select the left column to place a check mark on the target contact and then select the **Remove** button.
+    - **Subject**: This is the subject that recipients will see. You probably set this up already when designing the email, but this can strongly affect your open rate, so be sure to check it one last time.
+    - **From**: This is the user account whose name and email address will appear as the sender of the message. By default, all messages are initially configured to show the creating user's name and email address as the sender of the message, but you can choose another user here if you prefer.
+    - **Recipients**: In this area, build the list of contacts you want to send your message to. To add a contact, use the **Look for contacts** field to find and select a contact record (repeat to add more contacts). Each time you select a contact from this field, it gets added to the **Recipients** list. To remove a contact you've added, select the left column to place a check mark on the target contact and then select the **Remove** button.
 
 1. When you've added all the contacts you want to reach with your message, select **Send now**. Dynamics 365 Marketing now does the following:
 
