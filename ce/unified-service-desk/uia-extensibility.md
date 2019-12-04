@@ -1,11 +1,12 @@
 ---
 title: "UIA Extensibility in Unified Service Desk | MicrosoftDocs"
 description: "Learn about UIA extensibility in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 7a2c950b-36e6-48ef-8990-2725219255ed
 author: kabala123
 ms.author: kabala
 manager: shujoshi

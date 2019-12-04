@@ -1,14 +1,12 @@
 ---
 title: "Create products in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Create an inventory of all the products that your company sells by creating product records in Dynamics 365 Sales."
-keywords: "inventory, catalog, product"
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 3f1aa557-fcae-4b95-a4d9-0cd9e45855bf
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

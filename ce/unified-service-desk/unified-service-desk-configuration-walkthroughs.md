@@ -1,11 +1,12 @@
 ---
 title: "Unified Service Desk  configuration walkthroughs | MicrosoftDocs"
 description: "Unified Service Desk walkthroughs provide you a step-by-step tutorial on configuring an agent application from scratch and progressively add features."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 8bf9991c-4809-489f-b478-0d86666c2299
 author: kabala123
 ms.author: kabala
 manager: shujoshi

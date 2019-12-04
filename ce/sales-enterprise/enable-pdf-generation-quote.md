@@ -1,14 +1,12 @@
 ---
 title: "Enable or disable generation of PDF from sales records (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Enable your users to create and share professional-looking PDF documents with customers."
-keywords: "Quote, proposal, create PDF, email PDF, PDF, enable"
 ms.date: 11/15/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 09e5b4a3-00c1-4577-8e6f-093df2ccdb34
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -17,6 +15,9 @@ manager: annbe
 # Enable or disable PDF generation from sales records
 
 The PDF generation capability allows your users to generate PDF documents directly from sales records. The capability to create PDF documents is supported on the following entities: Accounts, Contacts, Leads, Opportunities, Quotes, Orders, and Invoices. You can select the entities on which you want to enable PDF generation.
+
+> [!IMPORTANT]
+> The PDF generation capability for additional entities (entities other than quote) is released with Dynamics 365 Sales (Sales Hub) app version: 9.0.1911.1009, as part of weekly release of the product to individual geographies.
 
 1.	At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
 

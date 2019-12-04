@@ -1,21 +1,16 @@
 ---
 title: "Insights, powered by InsideView (Dynamics 365 Sales) | MicrosoftDocs"
 description: ""
-keywords: ""
 ms.date: 09/30/2017
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-insightsinsideview"
 ms.topic: article
-ms.assetid: cf2feda4-7286-4d0e-aee2-790a7982a847
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
 ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 33
 ---
 
 # Insights, powered by InsideView

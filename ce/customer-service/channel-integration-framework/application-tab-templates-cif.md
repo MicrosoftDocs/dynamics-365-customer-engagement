@@ -1,16 +1,13 @@
 ---
 title: "Manage application tab templates in the Dynamics 365 Channel Integration Framework app | MicrosoftDocs"
 description: "Learn about managing application tab templates in the Dynamics 365 Channel Integration Framework app"
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid: F2B26C6A-07B5-43BE-964C-BAB55D8D7782
-ms.custom: 
+ms.service: 
+  - dynamics-365-customerservice
 ---
 
 # Preview: Manage application tab templates

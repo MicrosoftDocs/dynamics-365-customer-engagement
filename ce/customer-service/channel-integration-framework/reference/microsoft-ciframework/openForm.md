@@ -1,20 +1,18 @@
 ---
 title: "openForm (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | Microsoft Docs"
 description: ""
-keywords: ""
-ms.date: 12/10/2018
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: 6FC0DBE8-037E-473A-AD0E-7DA6D77846CD
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 12/10/2018
+ms.topic: reference
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
 ---
 
 # openForm (CIF JavaScript API Reference)

@@ -1,16 +1,13 @@
 ---
 title: "Integrate a bot | MicrosoftDocs"
 description: "Instructions to integrate a bot in Omnichannel for Customer Service."
-keywords: ""
 author: sbmjais
 ms.author: ktaylor
 manager: shujoshi
-applies_to: 
 ms.date: 11/04/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: e5c82c7b-bd48-4eca-a157-e4b349e3baf8
-ms.custom: 
 ---
 
 # Preview: Integrate a Power Virtual Agents bot

@@ -1,18 +1,16 @@
 ---
 title: "Overview of templates in the Dynamics 365 Channel Integration Framework app | Microsoft Docs"
 description: "Learn about templates in the Dynamics 365 Channel Integration Framework app"
-keywords: ""
-ms.date: 10/15/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: article
-ms.assetid: 7A99074E-9C3E-4DF0-98B4-AB7546C892C1
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+ms.date: 10/15/2019
+ms.topic: article
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 
 # Preview: Overview of templates

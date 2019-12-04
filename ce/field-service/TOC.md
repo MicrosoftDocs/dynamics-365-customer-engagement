@@ -101,9 +101,9 @@
 ## [Agreement sub-statuses](set-up-agreement-sub-statuses.md)
 ## [Entitlements](work-order-entitlements.md)
 
-# Assets, inventory and purchasing
+# Assets, inventory, and purchasing
 ## Customer assets
-### [Set up customer assets](configure-set-up-customer-assets.md)
+### [Asset management](configure-set-up-customer-assets.md)
 ### [3D models](3D-viewer.md)
 ## Inventory
 ### [Warehouse](create-warehouse.md)
@@ -160,6 +160,7 @@
 # Integrations
 ## [Dynamics 365 Remote Assist and HoloLens](remote-assist-hololens.md)
 ## [Dynamics 365 Guides on HoloLens](mixed-reality-guides-integration.md)
+## [SAP integration](field-service-sap-integration.md)
 # [Troubleshoot with Solution Health Hub](troubleshoot-field-service-solution-health.md)
 # [General FAQs](troubleshoot-faq.md)
 
