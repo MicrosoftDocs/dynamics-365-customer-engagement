@@ -48,7 +48,7 @@ To create a custom solution:
 
 1. Select **New** on the command bar to create a new solution. 
 
-1. A new **PowerApps** window opens. Provide a **Display name**, **Name**, **Publisher**, and **Version** and then select **Save** on the command bar to save your solution.  
+1. A new **Power Apps** window opens. Provide a **Display name**, **Name**, **Publisher**, and **Version** and then select **Save** on the command bar to save your solution.  
     ![The new solution form](media/solution-new-1.png "The new solution form")
 
 1. For this example, we're going to copy an existing entity and then customize it, so open the **Add Existing** drop-down list and select **Entity**.    
@@ -71,21 +71,21 @@ To create a custom solution:
 
 1. When you're done making all the required settings, select **Save and close** on the command bar.
 
-1. You now return to the **PowerApps** window where you're setting up the new solution. Select **Publish All Customizations** to make your new field available to the app.
+1. You now return to the **Power Apps** window where you're setting up the new solution. Select **Publish All Customizations** to make your new field available to the app.
 
-1. In the side panel of the **PowerApps** window, go to **Components** > **Entities** > **Marketing form** > **Forms**. We need to add our new custom field to a form to make it visible to users in the app.
+1. In the side panel of the **Power Apps** window, go to **Components** > **Entities** > **Marketing form** > **Forms**. We need to add our new custom field to a form to make it visible to users in the app.
 
 1. Open the from named **Information** with a **Form type** of **Main** by selecting its name. This is the form that users see when they create or open a marketing-form record.    
     ![The forms list](media/solution-new-8.png "The forms list")
 
-1. A new **PowerApps** window opens showing your selected form setup. In the central pane of this window, scroll down to the **Summary** section. Then drag your new custom field from the **Field explorer** panel to the **General information** section under the **Summary**.    
+1. A new **Power Apps** window opens showing your selected form setup. In the central pane of this window, scroll down to the **Summary** section. Then drag your new custom field from the **Field explorer** panel to the **General information** section under the **Summary**.    
     ![Add a field to the form](media/solution-new-9.png "Add a field to the form")
 
 1. Select **Save and close** on the ribbon.
 
-1. You now return to the **PowerApps** window where you're setting up the new solution. Select **Publish All Customizations** to make your customized form available to the app.
+1. You now return to the **Power Apps** window where you're setting up the new solution. Select **Publish All Customizations** to make your customized form available to the app.
 
-1. When publishing is complete, close the **PowerApps** window.
+1. When publishing is complete, close the **Power Apps** window.
 
 If you'd like to confirm your changes, you can go to the Marketing app, open a marketing form record and look for your new field on the **Summary** tab.
 

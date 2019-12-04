@@ -56,7 +56,7 @@ To open the Dynamics 365 admin center starting from the Microsoft 365 admin cent
 
     ![Select show all admin centers](media/ms365-admin-center-all-admin.png "Select show all in the navigator")
 
-1. A list of all available admin centers opens. Select **PowerApps**.
+1. A list of all available admin centers opens. Select **Power Apps**.
 
     ![Open the Power Apps admin center](media/ms365-admin-center-center-list.png "Open the Power Apps admin center")
 
