@@ -33,7 +33,14 @@ Some of your customer journeys may include email messages with time-sensitive co
 > Because this is a preview feature, your administrator must explicitly enable it for your instance to make it available. If you don't see the features described in this topic and would like to use them, then please ask your admin to enable them. However, as mentioned, we don't recommend enabling preview features on production instances. More information: [Use feature switches to enable or disable optional and preview features](admin-feature-switches.md)
 
 > [!IMPORTANT]
-> It can sometimes occur that a message will be delivered up to six days after the expiration date (due to delays and retries built into the system), but this will only occur extremely rarely. We expect to solve this issue completely by the time this feature is released for general availability.
+> It can sometimes occur that a message will be delivered up to six days after the expiration date (due to delays and retries built into the system), but this will only occur extremely rarely. We expect to solve this issue completely by the time this feature is released for general availability. Additionally, you should only use this feature with commercial messages (not transactional messages).
+
+## Enable or disable expiration dates for email tiles
+
+To enable or disable this preview feature (admin access required):
+
+1. Go to **Settings** > **Advanced settings** > **Other settings** > **Feature switches**.
+1. Set the **Customer Journey email expiration** slider to **On** to turn the feature on, or to **Off** to turn it off.
 
 ## Set an expiration date
 
