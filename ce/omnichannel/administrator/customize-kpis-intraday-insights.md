@@ -152,22 +152,21 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
 
 ## Reference
 
-The following are the list of entity that are supported in Intraday insights:
+The tables in the Intraday insights dataset consists of entity attributes along with measures and calculated columns. The following are the list of entity that are supported in Intraday insights:
 
+- **Agent**. To learn more about entity attributes for agent, see [SystemUser entity](../developer/reference/entities/overview.md#systemuser-entity).
 
-- **Agent**. To learn more about entity attributes for agent, see [msdyn_systemuser_msdyn_omnichannelqueue Entity Reference](../developer/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md).
+- **AgentAvailability**. To learn more about entity attributes for agent availability, see [SystemUser entity](../developer/reference/entities/overview.md#systemuser-entity) and [msdyn_presence](../developer/reference/entities/msdyn_presence.md).
 
-- **AgentAvailability**. To learn more about entity attributes for agent availability, see [msdyn_systemuser_msdyn_omnichannelqueue Entity Reference](../developer/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md) and [msdyn_presence](../developer/reference/entities/msdyn_presence.md).
+- **AgentQueueAssociation**. To learn more about entity attributes for agent queue association, see [SystemUser entity](../developer/reference/entities/overview.md#systemuser-entity) and [Queue Entity](../developer/reference/entities/overview.md#queue-entity).
 
-- **AgentQueueAssociation**. To learn more about entity attributes for agent queue association, see [msdyn_systemuser_msdyn_omnichannelqueue Entity Reference - Read-only attributes](../developer/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md#read-only-attributes).
-
-- **AgentRoleAssociation**. To learn more about about entity attributes for agent role association, see [systemuserid](../developer/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md#BKMK_systemuserid).
+- **AgentRoleAssociation**. To learn more about about entity attributes for agent role association, see [SystemUser entity](../developer/reference/entities/overview.md#systemuser-entity) and [role EntityType](/dynamics365/customer-engagement/web-api/role?view=dynamics-ce-odata-9).
 
 - **Presence**. To learn more about entity attributes for presence, see [msdyn_presence Entity Reference - Writable attributes](../developer/reference/entities/msdyn_presence.md#writable-attributes).
 
-- **Queue**. To learn more about entity attributes for queue, see [msdyn_systemuser_msdyn_omnichannelqueue Entity Reference - Read-only attributes](../developer/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md#read-only-attributes).
+- **Queue**. To learn more about entity attributes for queue, see [Queue Entity](../developer/reference/entities/overview.md#queue-entity).
 
-- **RoleBase**. To learn more about entity attributes for role base, see [msdyn_systemuser_msdyn_omnichannelqueue Entity Reference](../developer/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md).
+- **RoleBase**. To learn more about entity attributes for role base, see [role EntityType](/dynamics365/customer-engagement/web-api/role?view=dynamics-ce-odata-9).
 
 - **Session**. To learn more about entity attributes for session, see [msdyn_ocsession Entity Reference](../developer/reference/entities/msdyn_ocsession.md).
 
