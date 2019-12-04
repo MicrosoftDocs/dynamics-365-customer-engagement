@@ -24,7 +24,7 @@ With Dynamics 365 Customer Engagement (on-premises), XRM tooling enables you to 
 
 
 > [!NOTE]
-> The connection string documentation that is applicable to Common Data Service users is now available in the PowerApps documentation at: [Use connection strings in XRM tooling to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-connection-strings-xrm-tooling-connect)
+> The connection string documentation that is applicable to Common Data Service users is now available in the Power Apps documentation at: [Use connection strings in XRM tooling to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-connection-strings-xrm-tooling-connect)
 >
 > [!INCLUDE[cc-cdsnote-2-topic](../includes/cc-cdsnote-2-topic.md)] 
 
@@ -90,7 +90,7 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
 
 ## Connection string examples
 
- The following examples show how you can use connection strings for connecting to Dynamics 365 Customer Engagement (on-premises) and IFD deployments. The connection string examples for Common Data Service instances is now available in the PowerApps documentation at: [Use connection strings in XRM tooling to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-connection-strings-xrm-tooling-connect)  
+ The following examples show how you can use connection strings for connecting to Dynamics 365 Customer Engagement (on-premises) and IFD deployments. The connection string examples for Common Data Service instances is now available in the Power Apps documentation at: [Use connection strings in XRM tooling to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-connection-strings-xrm-tooling-connect)  
 
 ### Integrated on-premises authentication  
 

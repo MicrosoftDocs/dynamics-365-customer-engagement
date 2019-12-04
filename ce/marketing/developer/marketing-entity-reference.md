@@ -92,7 +92,7 @@ You can perform the following actions:
 
 ## Community tools
 
-**Metadata Browser** is a tool that the XrmToolBox community developed for Dynamics 365 apps and PowerApps. See the [Community tools](/powerapps/developer/common-data-service/community-tools) topic for community developed tools.
+**Metadata Browser** is a tool that the XrmToolBox community developed for Dynamics 365 apps and Power Apps. See the [Community tools](/powerapps/developer/common-data-service/community-tools) topic for community developed tools.
 
 > [!NOTE]
 > The community tools are not a product of Microsoft. Microsoft does not extend support to the community tools. If you have questions related to the tools, please contact the publisher. More information: [XrmToolBox](https://www.xrmtoolbox.com)
