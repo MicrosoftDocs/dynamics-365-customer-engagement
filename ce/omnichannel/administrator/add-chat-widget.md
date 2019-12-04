@@ -16,8 +16,8 @@ ms.topic: article
 
 1. Sign in to Omnichannel Administration.
 2. Go to **Channels** &gt; **Chat**.
-3. Select **New** to create a chat widget.
-4. On the **New Chat Widget** page, provide the appropriate information on each tab:
+3. Select **New**. The New Chat Widget page is displayed.
+4. Provide appropriate information on each of the following tabs:
 
     - **Basic details**:
 
@@ -28,11 +28,9 @@ ms.topic: article
         2. In the **Work Distribution** section, browse and select the work stream you created for the chat widget. By default, **Live chat workstream** is selected. More information on work stream: [Understand and create work streams](work-streams-introduction.md).
         
         > [!NOTE]
-        > - If you save the chat widget, you can't edit the **Work stream** field. If you want to edit the field, you must delete the chat widget and create a new one. 
-        >
-        > - If no domains are specified, the chat widget can be embedded on any website without restrictions. If you specify a domain, the chat widget can be hosted only on the specified domain.
+        > If you save the chat widget, you can't edit the **Work stream** field. If you want to edit the field, you must delete the chat widget and create a new one.
         
-        3. Copy the value in the **Code snippet** section and embed it in the HTML source of your website.
+        3. Copy the value in the **Code snippet** section and embed it in the HTML source of your website where you need to display the chat widget.
         
         > [!div class=mx-imgBorder]
         > ![Configure the basic details of a chat widget](../media/oc-chat-widget-basic-details-tab.png "Configure the basic details of a chat widget")
@@ -53,6 +51,9 @@ ms.topic: article
 
         > [!div class=mx-imgBorder]
         > ![Configure widget and visitor location in a chat widget](../media/chat-widget-location-tab.png "Configure widget and visitor location in a chat widget")
+
+        > [Note]
+        > If no domains are specified, the chat widget can be embedded on any website without restrictions. If you specify a domain, the chat widget can be hosted only on the specified domain.
 
 ### See also
 

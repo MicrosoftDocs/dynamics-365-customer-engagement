@@ -18,8 +18,8 @@ You can configure your chat widget to show users a survey that they should respo
 
 1. Sign in to Omnichannel Administration.
 2. Go to **Channels** &gt; **Chat**.
-3. Open the chat widget in which you need to configure pre-chat survey.
-4. On the **Pre-chat survey** tab, in the **Pre-chat survey** field, select **Yes**.
+3. Open the chat widget in which you want to configure a pre-chat survey, and select **Pre-chat survey**.
+4. In the **Pre-chat survey** box, select **Yes**. The options to add questions and refresh are displayed.
 5. Select **Add question**.
 
     > [!NOTE]
@@ -34,11 +34,13 @@ You can configure your chat widget to show users a survey that they should respo
         - **Single line**: The user can enter a single line of text.
         - **Multiple lines**: The user can enter multiple lines of text.
         - **Option set**: The user can select an option in a drop-down list. You must enter options separated by a semi-colon.
+        - **User Consent**: Use this option to request user consent for the pre-chat survey. A check box will appear beside the question text in the pre-chat survey.
 
-    - **Mandatory**: Select **Yes** or **No** if the question is mandatory or not.
+    - **Mandatory**: Select **Yes** or **No** to indicate whether the question is mandatory. If  question type is **User Consent**, make sure you specify **Yes**.
 
     > [!NOTE]
     > Validations in pre-chat survey are supported only for mandatory fields.
+    
 
     > [!div class=mx-imgBorder]
     > ![Add a question to the pre-chat survey](../media/oc-add-chat-question.png "Add a question to the pre-chat survey")
