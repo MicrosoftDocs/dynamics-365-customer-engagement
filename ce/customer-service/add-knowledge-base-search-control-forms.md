@@ -1,8 +1,8 @@
 ---
 title: Add the Knowledge Base Search control to Dynamics 365 Customer Service forms | Microsoft Docs
 description: Know how to add the Knowledge Base Search control to Dynamics 365 Customer Service forms.
-author: anjgupta
-ms.author: anjgup
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article

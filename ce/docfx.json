@@ -153,12 +153,12 @@
       },
       "searchScope": {
         "**.*": [
-          "PowerApps",
+          "Power Apps",
           "Dynamics 365"
         ],        
         "customer-service/**.*": [
           "Dynamics 365",
-          "PowerApps",
+          "Power Apps",
           "Omnichannel",
           "Channel Integration Framework",
           "Unified Service Desk",
@@ -175,7 +175,7 @@
         ],        
         "field-service/**.*": [
           "Dynamics 365",
-          "PowerApps",
+          "Power Apps",
           "Field Service"
         ],
         "gamification/**.*": [
@@ -188,34 +188,34 @@
         ],
         "marketing/**.*": [
           "Dynamics 365",
-          "PowerApps",
+          "Power Apps",
           "Marketing"
         ],
         "mobile-app/**.*": [
-          "PowerApps",
+          "Power Apps",
           "Dynamics 365"
         ],
         "outlook-app/**.*": [
-          "PowerApps",
+          "Power Apps",
           "Dynamics 365"
         ],
         "portals/**.*": [
-          "PowerApps",
+          "Power Apps",
           "Dynamics 365"
         ],
         "project-service/**.*": [
           "Dynamics 365",
-          "PowerApps",
+          "Power Apps",
           "Project Service"
         ],
         "sales-enterprise/**.*": [
           "Dynamics 365",
-          "PowerApps",
+          "Power Apps",
           "Sales"
         ],
         "sales-professional/**.*": [
           "Dynamics 365",
-          "PowerApps",
+          "Power Apps",
           "Sales"
         ],
         "social-engagement/**.*": [

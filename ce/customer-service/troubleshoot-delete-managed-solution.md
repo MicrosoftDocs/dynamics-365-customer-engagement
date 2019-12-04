@@ -1,8 +1,8 @@
 ---
 title: Fix an issue to delete a managed solution with an associated entity in the Customer Service Hub app | Microsoft Docs
 description: See how you can delete a managed solution with an associated entity in the Customer Service Hub app
-author: anjgupta
-ms.author: anjgup
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 08/07/2018
 ms.topic: article

@@ -56,15 +56,15 @@ Before you configure Customer Engagement (on-premises) and SharePoint On-Premise
 
       - Microsoft SharePoint 2013 On-Premises with Service Pack 1 (SP1) or later version with the following updates.
         
-          - [Hotfix KB2883081 for SharePoint Foundation 2013 August 12, 2014 (Sts-x-none.msp)](http://support2.microsoft.com/kb/2883081)
+          - [Hotfix KB2883081 for SharePoint Foundation 2013 August 12, 2014 (Sts-x-none.msp)](https://support2.microsoft.com/kb/2883081)
         
           - The following updates are prerequisites to KB2883081 and may also be required.
             
-              - <http://support2.microsoft.com/kb/2768000>
+              - <https://support2.microsoft.com/kb/2768000>
             
-              - <http://support.microsoft.com/kb/2767999>
+              - <https://support.microsoft.com/kb/2767999>
             
-              - <http://support.microsoft.com/kb/2880963>
+              - <https://support.microsoft.com/kb/2880963>
 
   - SharePoint configuration
     
@@ -231,7 +231,7 @@ On the SharePoint on-premises server, in the SharePoint Management Shell, run th
         $app = Get-SPAppPrincipal -NameIdentifier $Identifier -Site $site.Rootweb
         Set-SPAppPrincipalPermission -AppPrincipal $app -Site $site.Rootweb -Scope "sitecollection" -Right "FullControl" -EnableAppOnlyPolicy
         #"Set up claims-based authentication mapping"
-        New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
+        New-SPClaimTypeMapping -IncomingClaimType "https://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
 
 ## Run the Enable Server-Based SharePoint Integration wizard
 
@@ -271,7 +271,7 @@ On the Windows Server where SharePoint Server On-Premises is running, open the S
     
     # Create WellKnown App principal
     $ClientId = "00000007-0000-0000-c000-000000000000"
-    $PermissionXml = "<AppPermissionRequests AllowAppOnlyPolicy=""true""><AppPermissionRequest Scope=""http://sharepoint/content/tenant"" Right=""FullControl"" /><AppPermissionRequest Scope=""http://sharepoint/social/tenant"" Right=""Read"" /><AppPermissionRequest Scope=""http://sharepoint/search"" Right=""QueryAsUserIgnoreAppPrincipal"" /></AppPermissionRequests>"
+    $PermissionXml = "<AppPermissionRequests AllowAppOnlyPolicy=""true""><AppPermissionRequest Scope=""https://sharepoint/content/tenant"" Right=""FullControl"" /><AppPermissionRequest Scope=""https://sharepoint/social/tenant"" Right=""Read"" /><AppPermissionRequest Scope=""https://sharepoint/search"" Right=""QueryAsUserIgnoreAppPrincipal"" /></AppPermissionRequests>"
     
     $wellKnownApp= New-Object -TypeName "Microsoft.SharePoint.Administration.SPWellKnownAppPrincipal" -ArgumentList ($ClientId, $PermissionXml)
     
