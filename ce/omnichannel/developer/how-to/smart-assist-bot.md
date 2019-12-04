@@ -378,7 +378,7 @@ See also: [Automate tasks with macros](../../administrator/macros.md).
 
 ### Custom actions
 
-You will have to create a web resource if you want to use embed a custom action within a suggestion. See the PowerApps topic on [Create your own actions](/powerapps/developer/common-data-service/custom-actions) for information on how to build a custom action.
+You will have to create a web resource if you want to use embed a custom action within a suggestion. See the Power Apps topic on [Create your own actions](/powerapps/developer/common-data-service/custom-actions) for information on how to build a custom action.
 
 To use a custom action, replace `MacroName` and `MacroParameters` with `CustomAction` and `CustomParameters` respectively in the adaptive card JSON. The value provided for `CustomAction` key should be the same as the name of the method that is to be called.
 
@@ -388,7 +388,7 @@ You can find the entire code sample here: [Smart Assist for Bots](https://github
 
 The sample code implements two functionalities, one that is Common Data Service specific and other is generic functionality.
 
-In the Common Data Service functionality, the bot finds the intent in the conversation and tries to query Common Data Service for a relevant Knowledge Base article. The connection to Dynamics 365 has to be specified in the `appsettings.json` file in the sample. The `DynamicsDataAccessLayer.cs` class in the sample uses the connection strings mentioned in the app settings file to query the knowledge base articles in your Dynamics 365 instance. For more information on how to S2S authentication to enable communication between Common Data Service and your bot, see the PowerApps topic: [Build web applications using Server-to-Server(S2S) authentication](/powerapps/developer/common-data-service/build-web-applications-server-server-s2s-authentication).
+In the Common Data Service functionality, the bot finds the intent in the conversation and tries to query Common Data Service for a relevant Knowledge Base article. The connection to Dynamics 365 has to be specified in the `appsettings.json` file in the sample. The `DynamicsDataAccessLayer.cs` class in the sample uses the connection strings mentioned in the app settings file to query the knowledge base articles in your Dynamics 365 instance. For more information on how to S2S authentication to enable communication between Common Data Service and your bot, see the Power Apps topic: [Build web applications using Server-to-Server(S2S) authentication](/powerapps/developer/common-data-service/build-web-applications-server-server-s2s-authentication).
 
 In the generic functionality, if the bot encounters an intent for appointment, it suggests the appointment activity in the adaptive cards. You can use [Language Understanding (LUIS)](https://luis.ai) service to extract intent from an ongoing conversation. The conversation intent can be used along with the initial conversation context to display recommendations for the agent. 
 

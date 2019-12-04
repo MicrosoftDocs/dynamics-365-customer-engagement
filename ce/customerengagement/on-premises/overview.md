@@ -27,7 +27,7 @@ For *online* customers, these apps are model-driven apps running on [Common Data
 
 For *on-premises* customers, "Dynamics 365 Customer Engagement (on-premises)" is the official name of the product that provides sales, service, and marketing features. Customer Engagement (on-premises) shares many features in common with Common Data Service and PowerApps. 
 
-To avoid duplicating the common information between Customer Engagement (on-premises) and PowerApps/Common Data Service documentation, you will find a lot of references and links from this guide pointing to the Common Data Service and PowerApps documentation.  
+To avoid duplicating the common information between Customer Engagement (on-premises) and PowerApps/Common Data Service documentation, you will find a lot of references and links from this guide pointing to the Common Data Service and Power Apps documentation.  
 
 ## Documentation for previous version
 

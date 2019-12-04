@@ -19,7 +19,7 @@ search.app:
 You can perform any of the metadata operations with the Web API that you can perform using the organization service. This section provides guidance about how to use the Web API with the entity types included in <xref:Microsoft.Dynamics.CRM.MetadataEntityTypeIndex>.  
 
 > [!NOTE]
-> Information about using Web API with metadata in Dynamics 365 Customer Engagement (on-premises) is now available in the PowerApps documentation at: [Use the Web API with metadata](/powerapps/developer/common-data-service/webapi/use-web-api-metadata).  
+> Information about using Web API with metadata in Dynamics 365 Customer Engagement (on-premises) is now available in the Power Apps documentation at: [Use the Web API with metadata](/powerapps/developer/common-data-service/webapi/use-web-api-metadata).  
 
 ### See also
 

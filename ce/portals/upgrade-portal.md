@@ -39,7 +39,7 @@ As part of any Portal release, Portal website hosts are updated automatically to
 
 ### Portal website host update
 
-If you are running a production version of Portal (you can see it on PowerApps Portals admin center), there will not be any downtime to your live Portal when your Portal is updated. However, if you are running a trial version of Portal, there will be around 6-10 minutes of downtime and you will not be able to access your Portal.
+If you are running a production version of Portal (you can see it on Power Apps Portals admin center), there will not be any downtime to your live Portal when your Portal is updated. However, if you are running a trial version of Portal, there will be around 6-10 minutes of downtime and you will not be able to access your Portal.
 
 ### Portal solution update
 

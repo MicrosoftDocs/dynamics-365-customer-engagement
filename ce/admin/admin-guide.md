@@ -36,5 +36,5 @@ For online customers, these apps are **model-driven apps** running on [Common Da
 > The content in this guide is for existing subscribers still using the Dynamics 365 admin center, which was used to manage Dynamics 365 for Customer Engagement instances. We are transitioning instance (now called environment) management to the [Power Platform admin center](https://admin.powerplatform.microsoft.com). For the latest documentation, see the [Power Platform admin guide](https://docs.microsoft.com/power-platform/admin/admin-documentation).
 
 ### See also
-[PowerApps documentation](https://docs.microsoft.com/powerapps/)<br/>
+[Power Apps documentation](https://docs.microsoft.com/powerapps/)<br/>
 [Dynamics 365 Customer Engagement (on-premises) documentation](../customerengagement/on-premises/overview.md)

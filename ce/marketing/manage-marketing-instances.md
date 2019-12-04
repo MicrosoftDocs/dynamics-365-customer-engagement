@@ -31,7 +31,7 @@ Instance-management operations are a standard feature of model-driven apps in Dy
 > This topic provides details about the exceptions that apply when working with instances where the Marketing app is installed—for all other management tasks, see [Manage instances](https://docs.microsoft.com/dynamics365/admin/new-instance-management), but read this topic first.
 
 > [!NOTE]
-> *Instances* are sometimes also known as *organizations* or *environments*. Each of these terms refers to the same concept. The PowerApps user interface and documentation usually use the term *environment*, while Dynamics 365 Marketing documentation and the Dynamics 365 admin center usually use the term *instance* (though you'll sometimes also see the terms *organization* or *org* here).
+> *Instances* are sometimes also known as *organizations* or *environments*. Each of these terms refers to the same concept. The Power Apps user interface and documentation usually use the term *environment*, while Dynamics 365 Marketing documentation and the Dynamics 365 admin center usually use the term *instance* (though you'll sometimes also see the terms *organization* or *org* here).
 
 ## Elements in a Marketing instance
 

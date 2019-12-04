@@ -25,7 +25,7 @@ Publish your app on [Microsoft AppSource](https://appsource.microsoft.com) so th
 
 [!INCLUDE[cc-cdsnote-1](./includes/cc-cdsnote-1.md)] 
 
-Instructions about publishing your apps is available in the PowerApps documentation: [Publish your app on AppSource](/powerapps/developer/common-data-service/publish-app-appsource) 
+Instructions about publishing your apps is available in the Power Apps documentation: [Publish your app on AppSource](/powerapps/developer/common-data-service/publish-app-appsource) 
 
 ### See also
 [What is PowerApps?](/powerapps/powerapps-overview)<br/>
