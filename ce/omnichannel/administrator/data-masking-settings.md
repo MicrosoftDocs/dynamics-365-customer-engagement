@@ -2,11 +2,11 @@
 title: "Create and manage data masking rules | MicrosoftDocs"
 description: "Instructions on how to create and manage data masking rules in Omnichannel for Customer Service."
 keywords: ""
-author: sbmjais
-ms.author: shjais
+author: lalexms
+ms.author: lalexms
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 12/11/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: EE5A853F-F531-4EA6-9E64-B5CA9B021AFE
@@ -17,9 +17,13 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Data masking allows you to block sensitive data such as credit card information, social security numbers (SSN), or even profanity in a conversation. You can create a masking rule and define a regular expression to identify the sensitive information and replace it with the masked characters. The masking rule applies to every message sent by a customer through a chat or an SMS channel. If an agent sends any sensitive data to a customer, it will not be masked.
+Data masking allows you to block sensitive data such as credit card information, social security numbers (SSN), or even profanity in a conversation. You can create a masking rule and define a regular expression to identify the sensitive information and replace it with the masked characters. Any text that is masked in a conversation will also be masked in the conversation transcript.
 
-Masking rules must be active to work, and can be configured to apply to messages sent by a customer, an agent, or both. For example, if you choose to mask both customer data and agent data but the masking rules are not set to active, these selections won’t apply. Data Masking applies to both web chats and SMS channels, but on SMS, although the data is masked on the agent side, it may not appear as masked on the customer’s device. In a web chat with active masking rules applied, the data is masked for both the agent and customer. 
+Masking rules can be configured to apply to messages sent by a customer, an agent, or both. You must make sure that that the masking rules you want applied are set to "active"; otherwise they will not apply to the selection(s) you make. You can choose to:
+
+- **Mask private agent data from the customer**: Data the agent sends is masked for both the customer and agent for live chat and SMS.
+- **Mask private customer data from agent**: Data the customer sends is masked for both the customer and agent for live chat, but only on the for the agent when using SMS. 
+
 
 The following masking rules are provided out of the box:
 
@@ -27,10 +31,10 @@ The following masking rules are provided out of the box:
 - **Email**: Masks the email address, if provided in a message.
 - **SSN**: Masks the social security number, if provided in a message.
 
-As an administrator, you can delete or modify out-of-the-box masking rules and create new masking rules.
+As an administrator, you can delete or modify out-of-the-box masking rules and create new masking rules. Note that the expressions offered in the out-of-box rules can be edited if an admin wants to use something more suitable. 
 
 > [!NOTE]
-> - Only an administrator can access data masking rules.
+> - Only an administrator can access and edit data masking rules.
 > - Only 10 data masking rules, including out-of-the-box masking rules, can exist in Omnichannel for Customer Service. 
 
 ## Create a data masking rule
@@ -39,7 +43,7 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
 
 2.	Go to **Settings** > **Data Masking**.
 
-3.	Select **New** to add a data masking rule.
+3.	In **Masking rules**, select **New Masking Rule** under the ellipsis to create a new data masking rule. 
 
 4.	On the **New Masking Rule** page, provide the following information:
 
@@ -48,6 +52,8 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
     - **Description**: Optional description of the masking rule.
 
     - **Regular expression**: Regular expression to identify the data to be masked.
+    
+    Note that by default, the # symbol is used to mask the sensitive data.
 
         > [!NOTE]
         > By default, the \# symbol is used to mask the sensitive data.
@@ -61,7 +67,7 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
 
 ## Manage data masking rules
 
-Once a masking rule is created, you can activate a rule, deactivate a rule, or delete it permanently.
+Once a masking rule is created, you can edit, activate, deactivate, or permanently delete it. 
 
 1.	Sign in to Omnichannel  Administration.
 
