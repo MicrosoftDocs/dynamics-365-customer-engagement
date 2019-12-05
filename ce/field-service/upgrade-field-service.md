@@ -65,15 +65,46 @@ Installing Field Service Mobile from the Windows Store can allow for automatic u
 
 ## Resource Scheduling
 
+Resource scheduling is updated in the same cadence as Field Service
+
+
+Step 1:
+
+Before upgrade we would suggest customers to make sure they dont customize any internal only web resources/java script files, so that they dont get skipped during the upgrade 
+
+Easy way to check this is by running the Resource Scheduling Service Health Diagnostics tool and make sure there are no flags when they assess their upgrade readiness 
+
+Here is where users can find this tool 
+they should remove the customizations out of the web resource and then run the upgrade. Not all customizede web resources will be flagged by this tool, only the ones that could have the critical impac 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/upgrade-rs-health-diagnostics.png)
+
+Step 2:
+
+UFX queries
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/upgrade-ufx-queries.png)
 
 ## Resource scheduling Optimization
 
 Go to admin center > Instances tab > solution
 
 Select Upgrade to new version to apply a new update if one is available.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/upgrade-rso-upgrade-available.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/upgrade-rso-applications-manage.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/upgrade-rso-upgrade-to-new-version.png)
 
 ## Prerequisites
 > [!Note]
