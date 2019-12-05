@@ -28,6 +28,8 @@ search.app:
 
 # Upgrade Field Service
 
+Microsoft releases updates to the Dynamics 365 Field Service app and related solutions to add new capabilities, enhance the performance and usability of existing features, and fix bugs. In this article we will provide details on upgrading Field Service including the related mobile app and Resource Scheduling solutions.
+
 ## Field Service
 
 ### When are Field Service updates released?
@@ -41,10 +43,34 @@ Advise customers about the FS upgrade cadence and difference between FS updates 
 
 see in release planner
 
+monthly minor updates
+bi-yearly major updates- preview 2 months in advance
+
+autoupdate is minor release eventually major
+
+field service package includes multiple solutions including URS + patches
+
+look at anchor solution to know what solution you have, or look at trial
+
+some solutions are conditionally upon woodford 
+
+delete anchor and retry maybe? talk to jorn
+
 ### How do I upgrade my environment?
 
 For FS v8, our plan is that orgs on v8 UR13 (FS v8.8.7.47) or higher will begin receiving automatic updates, correct? Can we add a note to the FS documentation about auto-update?
 
+auto update or admin center
+
+minimum of UR12 will get autoupdates **8.8.6.x**
+
+UR 11
+
+
+https://dynamics.wiki/index.php/Customer_Care_Apps_Release_Calendar(FS,CS,KM)
+
+
+auto update begins week after you can manually upgrade
 - All new Dynamics 365 Field Service environments will install the latest generally available Field Service solution. If you would like to set up a trial of the latest Field Service version, create a trial through [https://trials.dynamics.com](https://trials.dynamics.com).
 
 For existing environments, when a new upgrade is available, you can upgrade your solution in **Admin Center** > **Dynamics 365**, as seen in the following screenshot.
@@ -56,6 +82,15 @@ For existing environments, when a new upgrade is available, you can upgrade your
 
 https://aka.ms/fsuciupgrade
 
+if you have PSA you should update both FS and PSA at same time, epsecially for major updates
+
+
+unsupported modifying web resources can have functional issues after upgrade but will not block upgrade
+
+to understand if you edited a web resource, use health hub
+
+before upgrading prod org, make copy of prod and make update there 
+
 
 ## Mobile
 
@@ -63,9 +98,14 @@ Installing Field Service Mobile from the Windows Store can allow for automatic u
 
 [Upgrade mobile project](mobile-upgrade-project.md)
 
+update mobile app FIeld Service Mobile 
+
 ## Resource Scheduling
 
 Resource scheduling is updated in the same cadence as Field Service
+
+FS updates will update URS, 
+
 
 
 Step 1:
@@ -113,12 +153,21 @@ Select Upgrade to new version to apply a new update if one is available.
 
 
 ## Configuration considerations
+
+
 ## Additional Notes
+- 7.x end of life
 
 ### Common issues
 - Field Service upgrade failure/DB out of sync and resolution steps that the customer can try on their own.
 - Solution installation failed / Update Installation Failed
 - Field Service database version is out of sync
+-  upgrade did not complete, 
+if auto update fails, there is retry
+
+
+
+
 
 
 ### See also
