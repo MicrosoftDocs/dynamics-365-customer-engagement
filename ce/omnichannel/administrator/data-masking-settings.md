@@ -66,11 +66,11 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
 
 Once a masking rule is created, you can edit, activate, deactivate, or permanently delete it. 
 
-1.	Sign in to Omnichannel  Administration.
+1.	Sign in to Omnichannel Administration.
 
 2.	Go to **Settings** > **Data Masking Settings**.
 
-3. Under **Masking rules**, click the ellipsis to see the options for managing an existing masking rule.
+3.  Under **Masking rules**, click the ellipsis to see the options for managing an existing masking rule.
 
-4. To activate, deactivate, or delete a masking rule, select the rule, and then click the appropriate action from the list.
+4.  To activate, deactivate, or delete a masking rule, select the rule, and then click the appropriate action from the list.
 
