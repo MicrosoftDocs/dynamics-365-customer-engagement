@@ -71,6 +71,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
    |Allow Multiple Pages|No|  
    |Hosting Type|IE Process|
    |Application is Global|Checked|
+   |Display Group|MainPanel|
 
    ![Standard Web Application hosted control](../unified-service-desk/media/crm-itpro-usd-wt02-01-unified-interface.png "Standard Web Application hosted control") 
 
