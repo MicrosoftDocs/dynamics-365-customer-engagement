@@ -54,9 +54,6 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
     - **Regular expression**: Regular expression to identify the data to be masked.
     
     Note that by default, the # symbol is used to mask the sensitive data.
-
-        > [!NOTE]
-        > By default, the \# symbol is used to mask the sensitive data.
         
 5. To test the data masking as per the specified regular expression, enter a value in the **Enter test data** field. The masked value is displayed in the **Masked test data** field.
 
@@ -73,10 +70,7 @@ Once a masking rule is created, you can edit, activate, deactivate, or permanent
 
 2.	Go to **Settings** > **Data Masking Settings**.
 
-3. Open the masking rule to be managed, then do any of the following:
+3. Under **Masking rules**, click the ellipsis to see the options for managing an existing masking rule.
 
-    - To activate a masking rule, select **Activate** from the toolbar at the top of the screen.
+4. To activate, deactivate, or delete a masking rule, select the rule, and then click the appropriate action from the list.
 
-    - To deactivate a masking rule, select **Deactivate** from the toolbar at the top of the screen.
-
-    - To delete a masking rule, select **Delete** from the toolbar at the top of the screen.
