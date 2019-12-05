@@ -34,7 +34,7 @@ You can configure your chat widget to show users a survey that they should respo
         - **Single line**: The user can enter a single line of text.
         - **Multiple lines**: The user can enter multiple lines of text.
         - **Option set**: The user can select an option in a drop-down list. You must enter options separated by a semi-colon.
-        - **User Consent**: Use this option to request user consent for the pre-chat survey. A check box will appear beside the question text in the pre-chat survey.
+        - **User Consent**: Use this option to request user consent for the pre-chat survey. You can provide a link to a webpage, such as privacy policy. The links should be in the following format: [link text](link to the webpage). A check box will appear beside the question text in the pre-chat survey.
 
     - **Mandatory**: Select **Yes** or **No** to indicate whether the question is mandatory. If  question type is **User Consent**, make sure you specify **Yes**.
 
@@ -45,17 +45,20 @@ You can configure your chat widget to show users a survey that they should respo
     > [!div class=mx-imgBorder]
     > ![Add a question to the pre-chat survey](../media/oc-add-chat-question.png "Add a question to the pre-chat survey")
 
-7. Select **Save and Close**.
-
-    The questions are added to the pre-chat survey.
-
+7. Select **Save and Close**. The questions are added in the **Pre-chat unathenticated questions** area.
+  
     > [!div class=mx-imgBorder]
     > ![Configure a pre-chat survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure a pre-chat survey in a chat widget")
 
-8. To change the order of a question, select it, and then select **Move up** or **Move down**.
+8. Select a question and select **Move up** or **Move down** in the right corner to change its order.
 
     > [!div class=mx-imgBorder]
     > ![Change the order of a question in a pre-chat survey](../media/oc-change-question-order.png "Change the order of a question in a pre-chat survey")
+
+A sample screenshot of the pre-chat survey that will be displayed for customers is as follows.
+
+> [!div class=mx-imgBorder]
+> ![Sample pre-chat survey](../media/oc-pre-chat-survey.png "Sample pre-chat survey")
 
 More information: [Automatically identify customers using pre-chat responses](record-identification-rule.md)
 
