@@ -19,9 +19,9 @@ Data masking allows you to block sensitive data such as credit card information,
 
 Masking rules can be configured to apply to messages sent by a customer, an agent, or both. You must make sure that that the masking rules you want applied are set to "Active"; otherwise they will not apply to the selection(s) you make.
 
+   > [!div class=mx-imgBorder]
+   > ![Data masking rules](../media/general-masking-rules.png "Data masking rules")
 
-    > [!div class=mx-imgBorder]
-    > ![Data masking rules](../media/general-masking-rules.png "Data masking rules")
 
 You can choose to:
 
@@ -42,8 +42,8 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
 
 ## Create a data masking rule
 
-    > [!div class=mx-imgBorder]
-    > ![Create masking rule](../media/new-masking-rule.png "Create masking rule")
+   > [!div class=mx-imgBorder]
+   > ![Create masking rule](../media/new-masking-rule.png "Create masking rule")
     
 1.	Sign in to Omnichannel Administration.
 
@@ -70,8 +70,8 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
 
 Once a masking rule is created, you can edit, activate, deactivate, or permanently delete it. 
 
-    > [!div class=mx-imgBorder]
-    > ![Manage masking rules](../media/masking-rule-card.png "Manage masking rules")
+   > [!div class=mx-imgBorder]
+   > ![Manage masking rules](../media/masking-rule-card.png "Manage masking rules")
 
 1.	Sign in to Omnichannel Administration.
 
