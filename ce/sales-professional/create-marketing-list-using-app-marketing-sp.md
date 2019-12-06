@@ -30,7 +30,7 @@ Your marketing list is the core of running a successful marketing campaign. It c
   
 2. Select **New**.  
   
-3. Add or change the information in the **Summary** area. This screenshot provides an example.  
+3. Add or change the information in the **Summary** area.
   
    > [!NOTE]
    >  To look up records in the **Owner** field, first select **Save**, or you'll lose your changes.  

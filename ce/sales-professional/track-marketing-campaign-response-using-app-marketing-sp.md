@@ -41,7 +41,6 @@ Record the replies you get from potential customers in response to a specific ma
 4. Set the **Create campaign responses for incoming email** option to **Yes**.  
 
 > [!NOTE]
-
 > If there are multiple email replies from a customer to an email sent out from a campaign activity, only the first reply is tracked as a campaign response in the campaign.
 
   
