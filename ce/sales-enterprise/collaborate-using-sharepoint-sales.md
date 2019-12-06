@@ -23,6 +23,14 @@ For lead and opportunity records, a default document location folder is automati
 
 By default, the location is set to Documents on Default Site 1.
 
+## Document Location Clarifications
+
+### Lead Entity
+When the "Based on entity" option is not set, the documents are stored inside the entity folder. On creation of a lead entity, the documents will be stored inside the `Root -> Lead -> Lead <LeadTitle>_<LeadId>` path
+
+### Quote Entity
+Going forward, the documents related to the quote entity will be stored inside the `Root -> Opportunity -> Opportunity <OpportunityTitle>_<OpportunityId>` path of the parent Opportunity for the Quote. This ensures that every quote entity has full access to all opportunity related documents.
+
 ## Add a document
 
 1.	Open a lead or opportunity record and select the **Files** tab. For other standard or custom entities that are enabled for document management, select the **Related** tab, and then select **Documents**.
