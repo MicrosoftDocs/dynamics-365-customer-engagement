@@ -52,8 +52,7 @@ Before your organization updates to 8.8.6+ or later, you can manually apply upda
 
 Log in to [https://login.microsoftonline.com](https://login.microsoftonline.com) with administrator credentials. 
 
-go to the Admin
-
+Go to Admin
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/upgrade-admin.png)
@@ -68,29 +67,16 @@ Select and highlight the environment that has the Field Service app you want to 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/upgrade-admin-environment.png)
 
-in the list of solution, find and select the Field Service app and 
+In the list of solutions, find and select the Field Service app. It will indicate if an upgrade is available. Then select the **Upgrade** icon.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/admin-upgrade-to-latest-admin-center.png)
 
 
-In addition, once your organization begins receiving automatic updates with version **8.8.6+**, you can manually upgrade the app in the seven days between release and automatic update via the admin center process above.
+In addition, once your organization begins receiving automatic updates with version **8.8.6+**, you can manually upgrade the app in the seven days between the update release and when the automatic update applies. This is done via the admin center process above.
 
-This means 7 days after a major or minor release, your Field Service app will automatically be updated. Within the 7 days, you can
-
-For FS v8, our plan is that orgs on v8 UR13 (FS v8.8.7.47) or higher will begin receiving automatic updates, correct? Can we add a note to the FS documentation about auto-update?
-
-auto update or admin center
-
-minimum of UR12 will get autoupdates
-
-
-
-https://dynamics.wiki/index.php/Customer_Care_Apps_Release_Calendar(FS,CS,KM)
-
-
-auto update begins week after you can manually upgrade
-- All new Dynamics 365 Field Service environments will install the latest generally available Field Service solution. If you would like to set up a trial of the latest Field Service version, create a trial through [https://trials.dynamics.com](https://trials.dynamics.com).
+> [!Note]
+> All new Dynamics 365 Field Service trial environments are given the latest generally available solution when a trial is created via [https://trials.dynamics.com](https://trials.dynamics.com).
 
 
 
@@ -175,8 +161,6 @@ Select Upgrade to new version to apply a new update if one is available.
 > ![Screenshot of ](./media/upgrade-rso-upgrade-to-new-version.png)
 
 ## Prerequisites
-> [!Note]
->
 
 
 
