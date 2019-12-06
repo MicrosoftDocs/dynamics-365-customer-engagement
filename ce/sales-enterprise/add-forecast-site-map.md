@@ -1,0 +1,74 @@
+---
+title: "Add the forecast grid and configuration options in a site map (Dynamics 365 Sales) | MicrosoftDocs"
+description: "How to add the forecast grid and configuration options in a site map in Dynamics 365 Sales."
+ms.date: 12/06/2019
+ms.service: 
+  - "dynamics-365-sales"
+ms.custom: 
+  - "dyn365-sales"
+ms.topic: article
+author: udaykirang
+ms.author: udag
+manager: shujoshi
+---
+
+# Add the forecast grid and configuration options in a site map
+
+When you create a custom Model Driven app, you can choose a default solution to create a site map for the app. However, the solutions list contains solutions that are based on entity forms only. The forecast options are based on URL custom control forms and do not display in the solution list. You must manually add these options to the site map. After you add these options, users in your organization could see them on the app’s site map.
+
+Follow these steps:
+
+1.	Open your custom app on the app designer and go to the site map designer.
+
+2.	Select a group from the area for which you want to add the forecast options. 
+
+    >[!NOTE]
+    >We recommend using administration area for forecast configuration and general area for forecast grid.
+
+3.	On the site map designer canvas, select **Add** > **Subarea**.
+
+    OR
+
+    From the **Components** tab, drag the **Subarea** tile to an empty box under the **Group** section in the canvas. You'll see the empty box when you move the tile to the correct place in the canvas.
+
+4.	Select the subarea that you have created and go to **Properties** tab.
+
+5.	Under **General** section, perform the following:
+
+    a.	Select **Type** as **URL**.
+
+    b.	Enter **URL**.
+        
+       - For the forecast grid: **/main.aspx?pagetype=control&controlName=ForecastingControls.FieldControls.ForecastGridPage**
+        
+       - For the forecast configuration: **/main.aspx?pagetype=control&controlName=ForecastingControls.FieldControls.CCFForecastConfig**
+    
+    c.	Enter **Title**.
+
+       - For the forecast grid, enter **Forecasts**.
+
+       - For the forecast configurations, enter **Forecast Configurations**.
+
+    d.	Select **Icon**.
+
+       - For the forecast grid, select **Forecast Instance Entity Icon**.
+
+       - For the forecast configurations, select **Forecast Definition Entity Icon**.
+            
+    e.	(Optional) If required, enter unique IDs for the forecast grid and forecast configuration. You can also use the default IDs.
+
+    > [!div class="mx-imgBorder"]
+    > ![Properties tab of site map designer](media/forecast-sitemap-properties.png "Properties tab of site map designer")
+
+6.	Save and close the site map designer page
+
+7.	Publish your custom app.
+
+    The forecast grid and configuration options are now displayed on the site map.
+
+To learn more on how to create site map, see [Create a site map for an app using the site map designer](/customerengagement/on-premises/customize/create-site-map-app.md#add-a-subarea-to-a-group-in-the-site-map).
+
+
+### See also
+
+[Configure a forecast in your organization](configure-forecast.md)
