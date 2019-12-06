@@ -41,40 +41,28 @@ Multiple Field Service updates are released every year.
 
 Though it is rare, occasionally a critical "hot fix" will be released outside of the monthly minor updates or the bi-yearly major updates.
 
-The details of upcoming major and minor releases are listed in the [upcoming release plans](https://docs.microsoft.com/dynamics365/release-plans/) once they are committed. April release plans will include 
+The details of upcoming major and minor releases are listed in the [upcoming release plans](https://docs.microsoft.com/dynamics365/release-plans/) once they are committed. As an example, April 2020 release plans will include major and minor updates from November 2019 through April 2020; and October 2020 release plans will include major and minor updates from May 2020 through October 2020.
 
-
-auto update motion 
-how it works, whats the cadence, 
-same or different from platform
-lack of disruption
-
-Advise customers about the FS upgrade cadence and difference between FS updates and Core updates. Also to provide steps to check for available upgrades for FS as a first step.
-
-see in release planner
-
-monthly minor updates
-bi-yearly major updates- preview 2 months in advance
-
-autoupdate is minor release eventually major
-
-field service package includes multiple solutions including URS + patches
-
-look at anchor solution to know what solution you have, or look at trial
-
-some solutions are conditionally upon woodford 
-
-delete anchor and retry maybe? talk to jorn
 
 ### How do I upgrade my environment?
+
+As of Field Service version 8.8.6+, the Field Service app will be updated automatically as part of the Dynamics 365 platform [One version](https://cloudblogs.microsoft.com/dynamics365/bdm/2018/07/06/modernizing-the-way-we-update-dynamics-365/) initiative.
+
+Before your organization updates to 8.8.6+ or later, you can manually apply updates by going to the Microsoft 365 (Office 365) **Admin Center** > **Dynamics 365**, as seen in the following screenshot.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the admin center upgrade path for Field Service](./media/admin-upgrade-to-latest-admin-center.png)
+
+
+
+This means 7 days after a major or minor release, your Field Service app will automatically be updated. Within the 7 days, you can
 
 For FS v8, our plan is that orgs on v8 UR13 (FS v8.8.7.47) or higher will begin receiving automatic updates, correct? Can we add a note to the FS documentation about auto-update?
 
 auto update or admin center
 
-minimum of UR12 will get autoupdates **8.8.6.x**
+minimum of UR12 will get autoupdates
 
-UR 11
 
 
 https://dynamics.wiki/index.php/Customer_Care_Apps_Release_Calendar(FS,CS,KM)
@@ -83,10 +71,17 @@ https://dynamics.wiki/index.php/Customer_Care_Apps_Release_Calendar(FS,CS,KM)
 auto update begins week after you can manually upgrade
 - All new Dynamics 365 Field Service environments will install the latest generally available Field Service solution. If you would like to set up a trial of the latest Field Service version, create a trial through [https://trials.dynamics.com](https://trials.dynamics.com).
 
-For existing environments, when a new upgrade is available, you can upgrade your solution in **Admin Center** > **Dynamics 365**, as seen in the following screenshot.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the admin center upgrade path for Field Service](./media/admin-upgrade-to-latest-admin-center.png)
+
+### What gets updates?
+
+field service package includes multiple solutions including URS + patches
+
+look at anchor solution to know what solution you have, or look at trial
+
+some solutions are conditionally upon woodford 
+
+delete anchor and retry maybe? talk to jorn
 
 ### Best practices
 
