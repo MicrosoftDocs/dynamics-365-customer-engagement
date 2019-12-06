@@ -46,14 +46,35 @@ The details of upcoming major and minor releases are listed in the [upcoming rel
 
 ### How do I upgrade my environment?
 
-As of Field Service version 8.8.6+, the Field Service app will be updated automatically as part of the Dynamics 365 platform [One version](https://cloudblogs.microsoft.com/dynamics365/bdm/2018/07/06/modernizing-the-way-we-update-dynamics-365/) initiative.
+As of Field Service version **8.8.6+**, the Field Service app will be updated automatically as part of the Dynamics 365 platform [One version](https://cloudblogs.microsoft.com/dynamics365/bdm/2018/07/06/modernizing-the-way-we-update-dynamics-365/) initiative.
 
-Before your organization updates to 8.8.6+ or later, you can manually apply updates by going to the Microsoft 365 (Office 365) **Admin Center** > **Dynamics 365**, as seen in the following screenshot.
+Before your organization updates to 8.8.6+ or later, you can manually apply updates by going to the Microsoft 365 (Office 365) Admin Center.
+
+Log in to [https://login.microsoftonline.com](https://login.microsoftonline.com) with administrator credentials. 
+
+go to the Admin
+
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the admin center upgrade path for Field Service](./media/admin-upgrade-to-latest-admin-center.png)
+> ![Screenshot of ](./media/upgrade-admin.png)
+
+Then the Dynamics 365 Admin center
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/upgrade-admin-d365.png)
+
+Select and highlight the environment that has the Field Service app you want to upgrade.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/upgrade-admin-environment.png)
+
+in the list of solution, find and select the Field Service app and 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/admin-upgrade-to-latest-admin-center.png)
 
 
+In addition, once your organization begins receiving automatic updates with version **8.8.6+**, you can manually upgrade the app in the seven days between release and automatic update via the admin center process above.
 
 This means 7 days after a major or minor release, your Field Service app will automatically be updated. Within the 7 days, you can
 
@@ -108,6 +129,8 @@ update mobile app FIeld Service Mobile
 ## Resource Scheduling
 
 Resource scheduling is updated in the same cadence as Field Service
+
+URS is updated when FS, PSA, or CS are updated not indeodndently 
 
 FS updates will update URS, 
 
