@@ -17035,6 +17035,11 @@
       "source_path": "ce/portals/add-powerbi-report.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/admin/add-powerbi-report",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md",
+      "redirect_url": "../omnichannel/omnichannel-customer-service-guide",
+      "redirect_document_id": false
     }
   ]
 }
