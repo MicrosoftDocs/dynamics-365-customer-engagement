@@ -36,6 +36,8 @@ Additionally, product documentation with annotations is displayed in the technic
 The technician, also referred to as the first-line worker, can view Field Service bookings on their HoloLens using Remote Assist and quickly call the expert listed in the Support Contact field when needed. This enables first-line workers to do heads-up, hands-free calling through HoloLens in the context of a work orders. See the topic on [Integrating Dynamics 365 Field Service with Dynamics 365 Remote Assist](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/remote-assist/troubleshoot-field-service) for instructions.
 
 ### See also
+[Integrate Dynamics 365 Field Service with Dynamics 365 Remote Assist](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/remote-assist/troubleshoot-field-service)
+
 [Buy and deploy Dynamics 365 Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/licensing/buy-and-deploy)
 
 [Dynamics 365 Remote Assist FAQ](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/faq)
