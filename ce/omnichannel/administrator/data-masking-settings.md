@@ -6,7 +6,7 @@ author: lalexms
 ms.author: lalexms
 manager: shujoshi
 applies_to: 
-ms.date: 12/11/2019
+ms.date: 12/06/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: EE5A853F-F531-4EA6-9E64-B5CA9B021AFE
@@ -19,7 +19,10 @@ ms.custom:
 
 Data masking allows you to block sensitive data such as credit card information, social security numbers (SSN), or even profanity in a conversation. You can create a masking rule and define a regular expression to identify the sensitive information and replace it with the masked characters. Any text that is masked in a conversation will also be masked in the conversation transcript.
 
-Masking rules can be configured to apply to messages sent by a customer, an agent, or both. You must make sure that that the masking rules you want applied are set to "Active"; otherwise they will not apply to the selection(s) you make. 
+Masking rules can be configured to apply to messages sent by a customer, an agent, or both. You must make sure that that the masking rules you want applied are set to "Active"; otherwise they will not apply to the selection(s) you make.
+
+    > [!div class=mx-imgBorder]
+    > ![Data masking rules](../media/general-masking-rules.png "Data masking rules")
 
 You can choose to:
 
@@ -40,6 +43,9 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
 
 ## Create a data masking rule
 
+    > [!div class=mx-imgBorder]
+    > ![Create masking rule](../media/new-masking-rule.png "Create masking rule")
+    
 1.	Sign in to Omnichannel Administration.
 
 2.	Go to **Settings** > **Data Masking**.
@@ -57,13 +63,16 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
 5. Note that by default, the # symbol is used to mask the sensitive data. To test the data masking as per the specified regular expression, enter a value in the **Enter test data** field. The masked value is displayed in the **Masked test data** field.
 
     > [!div class=mx-imgBorder]
-    > ![Data masking rule](../media/masking-rule.png "Data masking rule")
+    > ![Email masking rule](../media/email-masking-rule.png "Email masking rule")
 
 6. Select **Save**.
 
 ## Manage data masking rules
 
 Once a masking rule is created, you can edit, activate, deactivate, or permanently delete it. 
+
+    > [!div class=mx-imgBorder]
+    > ![Manage masking rules](../media/masking-rule-card.png "Manage masking rules")
 
 1.	Sign in to Omnichannel Administration.
 
