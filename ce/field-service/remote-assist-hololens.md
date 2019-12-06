@@ -31,7 +31,9 @@ Additionally, product documentation with annotations is displayed in the technic
 
 ![product documentation with hololens](media/remote-assist-product-documentation.jpg) 
 
-To learn more about using the Field Service application with Dynamics 365 Remote Assist, see the [Dynamics 365 Remote Assist User Guide](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/user-guide#use-dynamics-365-for-field-service-from-remote-assist).
+### How does it work?
+
+The technician, also referred to as the first-line worker, can view Field Service bookings on their HoloLens using Remote Assist and quickly call the expert listed in the Support Contact field when needed. This enables first-line workers to do heads-up, hands-free calling through HoloLens in the context of a work orders. See the topic on [Integrating Dynamics 365 Field Service with Dynamics 365 Remote Assist](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/remote-assist/troubleshoot-field-service) for instructions.
 
 ### See also
 [Buy and deploy Dynamics 365 Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/licensing/buy-and-deploy)
