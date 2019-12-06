@@ -1,12 +1,11 @@
 ---
 title: "Edit and resubmit form submissions (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Learn how to view incoming form submissions, recover from failed form submissions, and edit and resubmit submissions as needed in Dynamics 365 Marketing"
-ms.date: 10/04/2019
+ms.date: 12/10/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: ca23244e-25d5-4ddf-afe2-20d63ff318a2
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha

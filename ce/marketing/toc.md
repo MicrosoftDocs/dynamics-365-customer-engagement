@@ -55,6 +55,7 @@
 ### Customize Marketing
 #### [Customizing Marketing](customize.md)
 #### [Create and customize marketing calendars](customize-marketing-calendars.md)
+#### [Create and customize template labels](customize-template-labels.md)
 
 ### Privacy and compliance
 #### [Data protection and GDPR](gdpr.md)
@@ -129,6 +130,7 @@
 #### [Design dynamic demographic or firmographic segments](segments-profile.md)
 #### [Design behavioral segments](segments-interaction.md)
 #### [Generate behavioral segments from journey results](generate-segment-from-journey.md)
+#### [Export dynamic-segment members to Excel](segments-export-members.md)
 #### [Design static segments](segments-static.md)
 #### [Manage segment memberships from a contact record](manage-segments-from-contacts.md)
 #### [Combine segments into a compound segment](segments-compound.md)

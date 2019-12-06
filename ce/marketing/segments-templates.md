@@ -1,7 +1,7 @@
 ---
 title: "Work with segment templates (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create, manage, and use segment templates in Dynamics 365 Marketing"
-ms.date: 12/04/2019
+ms.date: 12/10/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -55,6 +55,10 @@ Dynamics 365 Marketing comes with a collection of standard templates designed to
 The standard templates also provide good examples that can help you learn common techniques for designing your own segments.
 
 You'll find the standard templates listed together with any custom templates you've created under **Marketing** > **Marketing templates** > **Segment templates**. You can freely customize, rename, and delete (or deactivate) the standard templates as needed.
+
+## Template labels
+
+As with other types of templates in Dynamics 365 Marketing, segment templates support adding visual labels that help users identify and find the templates they are looking for when using a template gallery or list. More information: [Work with email, page, and form templates](email-templates.md)
 
 ### See also
 

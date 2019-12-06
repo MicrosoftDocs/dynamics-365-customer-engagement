@@ -1,7 +1,7 @@
 ---
 title: "Deliver marketing emails quickly with send now (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use the send-now feature to address and send a marketing email message right from the email-design page in Dynamics 365 Marketing"
-ms.date: 12/01/2019
+ms.date: 12/10/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin

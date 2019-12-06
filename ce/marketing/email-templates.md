@@ -23,7 +23,9 @@ search.app:
 
 # Work with email, page, and form templates
 
-Dynamics 365 Marketing comes with a wide variety of professionally designed templates. Most templates include a column layout, color scheme, sample content, and sample images, whereas others provide just a basic column layout without sample content. There is also a blank template, which provides no sample content or structure.
+Dynamics 365 Marketing comes with a wide variety of professionally designed templates. Most templates include a column layout, color scheme, sample content, and sample images, whereas others provide just a basic column layout without sample content. There are also blank templates, which provide no sample content or structure.
+
+## Templates in Dynamics 365 Marketing
 
 The templates included with Dynamics 365 Marketing provide:
 
@@ -63,9 +65,13 @@ Here are some common style settings provided by the out-of-the-box templates:
 
 The settings provided for each template are set up using custom attributes in the template's HTML. You can edit and create these as needed when customizing or creating your own templates. More information: [Use custom attributes to enable designer features in emails, pages, and forms](custom-template-attributes.md).
 
+### Details for email templates
+
+Designing and using HTML templates that look good in each of the wide variety of email clients in use today can be a challenge. Read this section for details about which clients we support with the out-of-box templates, how you can preview and test them, and other special notes.
+
 <a name="tested-clients"></a>
 
-## Tested email clients
+### Tested email clients
 
 All email templates included with Dynamics 365 Marketing have been tested against a wide range of available email clients, as listed in the following tables. The templates should work flawlessly on most modern clients, but some design elements might degrade on older, less-used clients.
 
@@ -84,7 +90,7 @@ All email templates included with Dynamics 365 Marketing have been tested agains
   </tr>
 </table>
 
-## Known issues with specific email clients
+### Known issues with specific email clients
 
 The following known issues apply to the out-of-the-box email templates and custom messages when shown on specific email clients:
 
@@ -99,7 +105,7 @@ The following known issues apply to the out-of-the-box email templates and custo
 - **SFR.fr email clients** display a background color for some links.
 - **Lotus Notes email clients** have general rendering issues with the templates.
 
-## Litmus issues for email-design previews
+### Litmus issues for email-design previews
 
 Dynamics 365 Marketing provides both a simulated preview and an inbox preview for email messages. Inbox previews are more accurate because they're rendered for specific email clients. Inbox previews are provided by a Microsoft partner called Litmus Software, Inc. Litmus previews are created by rending your message on actual email clients and then returning a screenshot of the result to you. The following known issues can occur with inbox previews.
 

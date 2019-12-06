@@ -1,7 +1,7 @@
 ---
 title: "Set expiration dates on email messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to prevent customer journeys from delivering out-of-date information by assigning an expiration date for one or more email tiles in Dynamics 365 Marketing"
-ms.date: 12/01/2019
+ms.date: 12/10/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
