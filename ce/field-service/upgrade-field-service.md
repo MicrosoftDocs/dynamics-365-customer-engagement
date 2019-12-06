@@ -33,6 +33,16 @@ Microsoft releases updates to the Dynamics 365 Field Service app and related sol
 ## Field Service
 
 ### When are Field Service updates released?
+Multiple Field Service updates are released every year.
+
+**Minor updates** are released each month and include minor new features, enhancements, and bug fixes.
+
+**Major updates** are released twice each year: April and October; and include major new features, as well as minor new features, enhancements, and bug fixes.
+
+Though it is rare, occasionally a critical "hot fix" will be released outside of the monthly minor updates or the bi-yearly major updates.
+
+The details of upcoming major and minor releases are listed in the [upcoming release plans](https://docs.microsoft.com/dynamics365/release-plans/) once they are committed. April release plans will include 
+
 
 auto update motion 
 how it works, whats the cadence, 
