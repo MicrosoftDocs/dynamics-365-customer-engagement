@@ -1,0 +1,48 @@
+---
+title: "Add a marketing list, sales literature, or product to a campaign using in-app marketing (Dynamics 365 Sales Professional) | MicrosoftDocs"
+description: "Add all items to your campaign in Dynamics 365 Sales Professional that your need in this marketing context."
+keywords: ""
+ms.date: 12/06/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
+ms.topic: article
+ms.assetid: 4362effe-730e-d197-53fe-968b8a340217
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+---
+
+# Add a marketing list, sales literature, or product to a campaign using in-app marketing (Sales Professional)
+
+Add all items to your campaign that your need in this marketing context. Usually you need to add marketing lists, but you might also want to refer campaigns to products and related campaigns, or you might want to add sales literature that documents sales procedures.  
+
+1. In the site map, select **Campaigns**.
+
+2. Choose the name of the campaign that you want to add a list, product, or sales literature to. In the nav bar, select the down arrow next to your campaign.  
+
+    The following table shows what you need to do to add each type of item.  
+
+
+   |       To add       |                                      Do this                                      |
+   |--------------------|-----------------------------------------------------------------------------------|
+   |  A marketing list  | Select **Target Marketing Lists**, and then select **Add Existing Marketing List**. |
+   |     A product      |        Select **Target Products**, and then select **Add Existing Product**.        |
+   |  Sales literature  |   Select **Sales Literature**, and then select **Add Existing Sales Literature**.   |
+   | A related campaign |      Select **Related Campaigns**, and then select **Add Existing Campaign**.       |
+
+
+3. Select the type of record you want in the **Look Up Records** dialog box, in the **Look for** list.  
+
+4. Type the first few letters of the name of the record to narrow your search in the **Search** box, and then select the **Find** button ![Quick Find button in Marketing Campaigns](../sales-enterprise/media/quick-find-button.gif "Quick Find button in Marketing Campaigns").  
+
+5. Select the check boxes for the records that you want to add in the list of records that appears, select **Add**, and then select **OK**.  
+
+6. Select **Save** or **Save and Close**.  
+
+   > [!NOTE]
+   >  To verify that the item you selected was added to the campaign, reopen the campaign. Under **Marketing**, select **Target Marketing Lists**, or under **Sales** select either **Target Products** or **Sales Literature**. The information you added appears in the list.  
+
+### See Also  
+[Get started with in-app marketing](get-started-app-marketing-sp.md)   
