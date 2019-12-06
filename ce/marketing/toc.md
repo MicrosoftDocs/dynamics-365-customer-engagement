@@ -116,7 +116,7 @@
 #### [Integrate with landing pages on external websites](embed-forms.md)
 #### [Create input fields for forms](marketing-fields.md)
 #### [Set up a subscription center](set-up-subscription-center.md)
-#### [View and recover from failed form submissions](failed-submissions.md)
+#### [Edit and resubmit form submissions](failed-submissions.md)
 
 ### Build a library of marketing content
 #### [Upload and use images and files](upload-images-files.md)
