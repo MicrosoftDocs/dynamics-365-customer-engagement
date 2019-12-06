@@ -1,18 +1,15 @@
 ---
 title: "Set up product families (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products in it in Dynamics 365 Sales."
-keywords: "Product family, create, family, sales, catalog"
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: c5844aaf-a77f-4097-bfb5-1022ad53dcea
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-caps.latest.revision: 25
 ---
 
 # Set up product families (Sales and Sales Hub)

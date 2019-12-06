@@ -22,7 +22,7 @@ search.app:
 ---
 # Sample: Create a custom activity
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample of [Work with entity metadata](https://code.msdn.microsoft.com/Samples-of-entities-916efa41). 
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample of [Work with entity metadata](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Entities). 
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
@@ -39,7 +39,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
 ### See also  
  [Sample Code for Activity Entities](sample-code-activity-entities.md)   
  [Custom Activities in Dynamics 365 Customer Engagement (on-premises)](custom-activities.md)   
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
+    
  [Sample: Create, Retrieve, Update, and Delete an Email Attachment](sample-create-retrieve-update-delete-email-attachment.md)   
  <xref:Microsoft.Xrm.Sdk.Messages.CreateEntityRequest>   
  <xref:Microsoft.Xrm.Sdk.Messages.CreateAttributeRequest>

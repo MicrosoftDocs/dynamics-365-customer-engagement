@@ -1,11 +1,12 @@
 ---
 title: "Session management in Unified Service Desk | MicrosoftDocs"
 description: "Learn about session context and session management in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 9430fbca-3c70-4a62-a259-2c9c00871057
 author: kabala123
 ms.author: kabala
 manager: shujoshi

@@ -147,7 +147,7 @@ To import data to your destination instance:
 ### See also
 [Manage your Marketing instances](manage-marketing-instances.md)  
 [Transfer customizations between instances](transfer-solution.md)  
-[Administer PowerApps](https://docs.microsoft.com/power-platform/admin/admin-guide)  
+[Administer Power Apps](https://docs.microsoft.com/power-platform/admin/admin-guide)  
 [Manage instances](https://docs.microsoft.com/dynamics365/admin/new-instance-management)  
 [Move configuration data across environments and organizations](https://docs.microsoft.com/power-platform/admin/manage-configuration-data)  
 [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)

@@ -1,16 +1,13 @@
 ---
 title: "Add the hosted control, events,forms, and action calls to configurations | MicrosoftDocs"
 description: "Learn how to add the hosted control, events, forms, and action calls to the agent and supervisor configurations in Omnichannel for Customer Service - Unified Service Desk."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 8255005a-2089-4795-a95d-d50d9fd19523
-ms.custom: 
 ---
 # Step 5: Add the hosted control, events, forms and action calls to configurations
 

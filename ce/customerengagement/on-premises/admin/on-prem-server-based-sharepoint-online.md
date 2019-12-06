@@ -59,7 +59,7 @@ Before you configure Customer Engagement (on-premises) and SharePoint Online for
 
 The following software features are required to run the Windows PowerShell cmdlets described in this topic.
 
-  - [Microsoft Online Services Sign-In Assistant for IT Professionals Beta](http://www.microsoft.com/download/details.aspx?id=39267)
+  - [Microsoft Online Services Sign-In Assistant for IT Professionals Beta](https://www.microsoft.com/download/details.aspx?id=39267)
 
   - [Azure Active Directory Module for Windows PowerShell (64-bit version)](https://docs.microsoft.com/powershell/azure/active-directory/install-msonlinev1?view=azureadps-1.0)
 

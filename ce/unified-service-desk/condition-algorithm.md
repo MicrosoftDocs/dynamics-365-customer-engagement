@@ -1,11 +1,12 @@
 ---
 title: "Condition Algorithm | MicrosoftDocs"
 description: "The topic describes the groupings of a control that needs to be uniquely identified by specifying some property condition to distinguish it from other controls."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 855ec0d6-33a4-450f-a77a-b580b2b24946
 author: kabala123
 ms.author: kabala
 manager: shujoshi

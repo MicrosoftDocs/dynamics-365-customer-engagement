@@ -57,7 +57,7 @@ Add-Pssnapin *
   
 # Create WellKnown App principal  
 $ClientId = "00000007-0000-0000-c000-000000000000"  
-$PermissionXml = "<AppPermissionRequests AllowAppOnlyPolicy=""true""><AppPermissionRequest Scope=""http://sharepoint/content/tenant"" Right=""FullControl"" /><AppPermissionRequest Scope=""http://sharepoint/social/tenant"" Right=""Read"" /><AppPermissionRequest Scope=""http://sharepoint/search"" Right=""QueryAsUserIgnoreAppPrincipal"" /></AppPermissionRequests>"  
+$PermissionXml = "<AppPermissionRequests AllowAppOnlyPolicy=""true""><AppPermissionRequest Scope=""https://sharepoint/content/tenant"" Right=""FullControl"" /><AppPermissionRequest Scope=""https://sharepoint/social/tenant"" Right=""Read"" /><AppPermissionRequest Scope=""https://sharepoint/search"" Right=""QueryAsUserIgnoreAppPrincipal"" /></AppPermissionRequests>"  
   
 $wellKnownApp= New-Object -TypeName "Microsoft.SharePoint.Administration.SPWellKnownAppPrincipal" -ArgumentList ($ClientId, $PermissionXml)  
   
