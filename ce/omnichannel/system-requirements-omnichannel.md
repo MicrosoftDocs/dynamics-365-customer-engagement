@@ -65,7 +65,7 @@ For other hardware requirements of Unified Service Desk client application, see 
 
 ## International availability
 
-The Chat for Dynamics 365 Customer Service is available in the following regions currently:
+Currently, **Chat for Dynamics 365 Customer Service** and **Dynamics 365 for Digital Messaging** are available in the following regions:
 
 - North America 
 - Europe

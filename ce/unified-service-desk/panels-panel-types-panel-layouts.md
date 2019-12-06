@@ -30,6 +30,7 @@ search.app:
 |          Panel          |                                                                                      Description                                                                                      |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |        MainPanel        |                                                                        The main work area in the bottom right.                                                                        |
+|        AboutPanel        |                                                                        The area in the top right. This panel displays Settings, Debug, About, any other configured options.                                                                        |
 |        ChatPanel        |                                                   The typical location of the chat window. It is under the agent scripting control.                                                   |
 |       HiddenPanel       |                                                    A nonvisible panel generally used for component without a user interface (UI).                                                     |
 |       LeftPanel1        |                                                                 A panel just under the **WorkflowPanel** on the left.                                                                 |
