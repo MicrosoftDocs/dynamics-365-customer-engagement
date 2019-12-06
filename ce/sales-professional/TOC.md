@@ -32,7 +32,7 @@
 ### Get started with in-app marketing
 #### [Overview](get-started-app-marketing-sp.md)
 #### [Create a marketing list](create-marketing-list-using-app-marketing-sp.md)  
-#### [Create a quick campaign](create-quick-campaign-using-app-marketing-sp.md)
+#### [Create a quick campaign](create-quick-campaign-using-app-marketing-sp.md) 
 #### [Add assets to a campaign](add-marketing-list-sales-literature-product-campaign-using-app-marketing-sp.md)
 #### [Create or edit a campaign](create-edit-campaign-using-app-marketing-sp.md)
 #### [Add an activity to a campaign](add-activity-campaign-using-app-marketing-sp.md)

@@ -2,13 +2,13 @@
 title: "Add a marketing list, sales literature, or product to a campaign using in-app marketing (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Add all items to your campaign in Dynamics 365 Sales Professional that your need in this marketing context."
 keywords: ""
-ms.date: 12/05/2019
+ms.date: 12/06/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: dd63a4a0-a72c-7959-179d-0393f8a03144
+ms.assetid: 4362effe-730e-d197-53fe-968b8a340217
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
