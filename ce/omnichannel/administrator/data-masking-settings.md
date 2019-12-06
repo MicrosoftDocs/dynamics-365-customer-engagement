@@ -62,8 +62,8 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
         
 5. Note that by default, the # symbol is used to mask the sensitive data. To test the data masking as per the specified regular expression, enter a value in the **Enter test data** field. The masked value is displayed in the **Masked test data** field.
 
-    > [!div class=mx-imgBorder]
-    > ![Email masking rule](../media/email-masking-rule.png "Email masking rule")
+   > [!div class=mx-imgBorder]
+   > ![Email masking rules](../media/masking-rule-card.png "Email masking rules")
 
 6. Select **Save**.
 
