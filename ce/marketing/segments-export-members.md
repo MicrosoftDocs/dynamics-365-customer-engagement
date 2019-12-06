@@ -20,7 +20,7 @@ search.app:
   - D365Mktg
 ---
 
-# Export dynamic-segment members to Excel
+# Export dynamic segment members to Excel
 
 You can export the contacts that are members of a dynamic segment straight to an Excel file and with just a few clicks, no matter how large the segment is. To do this:
 
