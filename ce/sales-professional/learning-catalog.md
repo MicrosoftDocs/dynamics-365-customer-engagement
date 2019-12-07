@@ -4,7 +4,7 @@ description: Find all the training options for Dynamics 365 Sales Enterprise and
 author: loreleishannonmsft
 ms.topic: article
 ms.date: 11/01/2019
-ms.author: loreleishannonmsft
+ms.author: v-lshann
 ---
 
 # Sales Enterprise and Professional Learning Catalog
@@ -19,6 +19,12 @@ Find the right online training, in person workshops, and events for your role in
     Do you decide whether to invest in new technologies?
 
     [Business and Technical Decision Makers Learning Catalog](learning-bus-decision_makers.md)
+
+    [Get started](learning-bus-decision_makers.md#get-started)
+
+    [Core Platform Knowlege](learning-bus-decision_makers.md#core-platform)
+
+    [Exam](learning-bus-decision_makers.md.#exam)
    
         :::column-end:::
     :::column:::
@@ -31,7 +37,7 @@ Find the right online training, in person workshops, and events for your role in
 
     [Get started](learning-bus-user.md#get-started)
 
-    [Core platform knowlege](learning-bus-user.md#core-platform)
+    [Exam](learning-bus-user.md#exam)
 
         :::column-end:::
     :::row-end:::
@@ -61,6 +67,8 @@ Find the right online training, in person workshops, and events for your role in
 
     [Core Platform Knowlege](learning-project_manager.md#core-platform)
 
+    [Exams](learning-developer.md#exam)
+
         :::column-end:::
     :::row-end:::
     :::row:::
@@ -85,8 +93,11 @@ Find the right online training, in person workshops, and events for your role in
 
     Are you responsible for helping your customers purchase the right solution?
 
-
     [Sales Learning Catalog](learning-sales.md)
+
+    [Getting started](learning-sales.md#get-started)
+
+    [Exam](learning-sales.md#exam)
 
      :::column-end:::
 :::row-end:::
