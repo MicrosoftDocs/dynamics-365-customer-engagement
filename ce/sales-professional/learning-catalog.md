@@ -24,7 +24,7 @@ Find the right online training, in person workshops, and events for your role in
 
     [Core Platform Knowlege](learning-bus-decision_makers.md#core-platform)
 
-    [Exam](learning-bus-decision_makers.md.#exam)
+    [Exam](learning-bus-decision_makers.md#exam)
    
         :::column-end:::
     :::column:::
