@@ -50,6 +50,9 @@ To set an expiration date for an email message:
 
 1. Add and/or select the marketing-email-message tile where you'd like to set an expiration date and then open its **Properties** panel. More information: [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
 
+    ![Journey email-tile expiration settings](media/journey-email-expire.png "Journey email-tile expiration settings")
+
+
 1. Set the **Email expiration** switch to **On**.
 
 1. Use the date and time settings below the **Email expiration** heading to set the date and time at which the message configured for the current tile should expire. After this time arrives, the customer journey won't deliver this message, but will instead pass all contacts directly to the next tile.
