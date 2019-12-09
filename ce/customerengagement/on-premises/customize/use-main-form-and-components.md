@@ -5,7 +5,7 @@ keywords: Main forms; Customer service; Customer Service Hub; Dynamics 365 Custo
 author: Mattp123
 ms.author: matp
 manager: kvivek
-ms.date: 01/11/2019
+ms.date: 02/09/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -93,7 +93,7 @@ To know in detail about the form properties, see [Form properties](../customize/
   
  Rather than designing forms that depend on scripts to control visibility of options, consider whether a business process flow, a dialog, or switching to a different form may be better suited to meet your requirements. If you do use scripts, make sure that any element that might be hidden is hidden by default. Only show it with scripts when your logic calls for it. This way it isn’t displayed in presentations that don’t support scripts.
  > [!NOTE]
-> When using setVisible with Client API if a control spans more than one column in a section in the Unified Interface, the control will be hidden but whitespace will not be removed.
+> When you use setVisible with the Client API, if a control spans more than one column in a section in the Unified Interface, the control will be hidden but whitespace will not be removed.
   
 ## Tab properties  
 
