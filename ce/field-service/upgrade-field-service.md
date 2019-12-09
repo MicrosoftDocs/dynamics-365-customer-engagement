@@ -106,6 +106,7 @@ Upgrading the mobile experience for technicians requires three steps:
 2. Upgrading the mobile configuration tool (Woodford) solution
 3. Upgrading the mobile project template.
 
+All of these steps are dependent on each other and need to be coordinated and executed together. 
 
 ### Upgrading the Field Service Mobile app
 
@@ -116,9 +117,13 @@ When a new version of the mobile app is released, the app will need to be udpate
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service mobile app download example](media/mobile-field-service-mobile-windows-app-store.png)
 
-As an example, 
+As an example, downloading Field Service Mobile from the Windows Store can allow for automatic updates as new versions are released. 
 
 ### Upgrading the mobile configuration tool (Woodford) solution
+
+To unlock the new capabilities of the updated Field Service Mobile app, you'll need to download and import a new version of the Mobile Configuration tool (Woodford) solution that corresponds with your [Field Service Mobile app version](https://docs.microsoft.com/en-us/dynamics365/field-service/mobile-faq-latest-version). 
+
+See download instructions in the [Field Service installation topic](https://docs.microsoft.com/en-us/dynamics365/field-service/install-field-service#step-3-install-the-field-service-mobile-configuration-tool).
 
 ### Upgrading the mobile project template.
 
