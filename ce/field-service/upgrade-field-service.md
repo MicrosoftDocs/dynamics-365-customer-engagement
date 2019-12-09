@@ -137,19 +137,22 @@ See the topic on [upgrading mobile projects](mobile-upgrade-project.md) for guid
 
 Resource Scheduling, also called Universal Resource Scheduling, is the app that powers Field Service scheduling. You cannot upgrade Resource Scheduling on its own, it is upgraded with Field Service, Project Service Automation, or Customer Service. 
 
-However, there are a few things to consider before adn after Resource Scheduling is upgraded via Field Service, Project Service Automation, or Customer Service.
+However, there are a few things to consider before and after Resource Scheduling is upgraded via Field Service, Project Service Automation, or Customer Service.
 
 ### Before upgrading Resource Scheduling
 
-Before upgrading it is recommended to make sure no Resource Scheduling web resources or JavaScript files were edited. If so, they will get skipped during upgrade and this could cause functional issues. 
+Before upgrading, run the **Resource Scheduling: Service Health Diagnostics** tool to understand if any critical web resources or JavaScript files were edited. If so, they will get skipped during upgrade and this could cause functional issues and missed functionality. 
 
-Easy way to check this is by running the Resource Scheduling Service Health Diagnostics tool and make sure there are no flags when they assess their upgrade readiness 
+Go to **Resource Scheduling app > Settings > Administration > Scheduling Parameters**
 
-Here is where users can find this tool 
-they should remove the customizations out of the web resource and then run the upgrade. Not all customizede web resources will be flagged by this tool, only the ones that could have the critical impac 
+Then select Health Diagnostics in the top ribbon.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/upgrade-rs-health-diagnostics.png)
+
+If the diagnostic tool flags any web resources that should not have been edited, you will need to remove the customizations from the web resources and then run the upgrade. Not all customized web resources will be flagged by this tool, only the ones that could have the critical impact. 
+
+
 
 ### After upgrading Resource Scheduling
 
