@@ -154,9 +154,7 @@ If the diagnostic tool flags any web resources that should not have been edited,
 
 ### Plan for updated Universal Fextch XML (UFX) queries
 
-Occasionnally, Resource Scheduling releases will include updates to the Universal Fextch XML (UFX) queries
-UFX queries
-
+Occasionnally, Resource Scheduling releases will include updates to the Universal Fextch XML (UFX) queries that control how resources and requirements are fetched and loaded on the schedule board or in schedule assistant results. See the topic on [Schedule Board Tab Settings](https://docs.microsoft.com/en-us/dynamics365/field-service/schedule-board-tab-settings#other-settings) for more details.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/upgrade-ufx-queries.png)
