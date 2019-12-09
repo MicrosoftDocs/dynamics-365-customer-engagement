@@ -1,7 +1,7 @@
 ---
 title: "Work with email, page, and form templates (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Describes how to work with email, page, and form templates and gives details about client support and known issues related to email designs in Dynamics 365 Marketing"
-ms.date: 05/07/2018
+ms.date: 12/10/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -65,7 +65,39 @@ Here are some common style settings provided by the out-of-the-box templates:
 
 The settings provided for each template are set up using custom attributes in the template's HTML. You can edit and create these as needed when customizing or creating your own templates. More information: [Use custom attributes to enable designer features in emails, pages, and forms](custom-template-attributes.md).
 
-### Details for email templates
+## Add visual labels for templates
+
+When you design a new marketing email, page, form, or segment, you are first presented with a gallery of templates to choose from. You can add an eye-catching visual label to any template to make it easier to other users to find and identify it when browsing the gallery and other displays.
+
+### View template labels
+
+For template galleries and lists using the tile view, each label appears as a colorful overlay for each relevant template. For displays using the grid view (list view), the labels are displayed as column values, where they also show their configured colored background.
+
+In the following screenshot, you can see a tile view of marketing-page templates labelled with &quot;New&quot; (green), &quot;Old&quot; (red), and &quot;VIP&quot; (gold). Use the **Show as** drop-down list to switch views between **Grid** (list) and **Tiles**.
+
+![Template gallery with labels in tile view](media/template-label-example.png "Template gallery with labels in tile view")
+
+The following screenshot shows the same collection of marketing-page templates, but with **Show as** set to **Grid**. In this example, the labels are shown in the **Tag** column.
+
+![Template gallery with labels in tile view](media/template-label-list.png "Template gallery with labels in tile view")
+
+### Set the label for each template
+
+To assign a label to a template, open the relevant template under the **Marketing** > **Marketing template** heading, open the appropriate tab and then make a selection from the relevant drop-down list. See the following table for details about how to make this setting for various types of templates on a default instance.
+
+| Template type | Navigation | Tab | Field name (drop-down list) |
+| --- | --- | --- | --- |
+| Customer journeys | Marketing templates > Journey templates | General | Tag |
+| Marketing emails | Marketing templates > Email templates | General info | Tag |
+| Marketing pages | Marketing templates > Page templates | Summary | Tag |
+| Marketing forms | Marketing templates > Form templates | Summary | Tag |
+| Segments | Marketing templates > Segment templates | General | Category |
+
+### Customize your label selection, text, and colors
+
+System customizers can create as many labels as you need for each entity and define the display text and background color for each label. For instructions about how to make these customizations, see [Create and customize template labels](customize-template-labels.md).
+
+## Email template compatibility and previews
 
 Designing and using HTML templates that look good in each of the wide variety of email clients in use today can be a challenge. Read this section for details about which clients we support with the out-of-box templates, how you can preview and test them, and other special notes.
 
