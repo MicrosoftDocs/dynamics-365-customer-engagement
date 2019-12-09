@@ -79,16 +79,21 @@ In addition, once your organization begins receiving automatic updates with vers
 > All new Dynamics 365 Field Service trial environments are given the latest generally available solution when a trial is created via [https://trials.dynamics.com](https://trials.dynamics.com).
 
 
-### What gets updates?
+### What gets updated?
 
-When the Field Service app is upgraded, multiple solutions are upgraded including Field Service, Universal Resource Scheduling (also called "Resource Scheduling"), 
-field service package includes multiple solutions including URS + patches
+When the Field Service app is upgraded, the Field Service solution is upgraded and multiple other solutions can be upgraded as well such as Universal Resource Scheduling (also called "Resource Scheduling"), Geofencing for Field Service, Field Service Mobile Push Notifications, and more.
 
-look at anchor solution to know what solution you have, or look at trial
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/upgrade-solution-list.png)
+
+To understand what version of the Field Service solution is in your environment, look at the version of the solution named **FieldService_anchor**. 
+
+
 
 some solutions are conditionally upon woodford 
 
-delete anchor and retry maybe? talk to jorn
+
 
 ### Best practices
 
@@ -165,6 +170,7 @@ Select Upgrade to new version to apply a new update if one is available.
 
 ## Additional Notes
 - 7.x end of life
+delete anchor and retry maybe? talk to jorn
 
 ### Common issues
 - Field Service upgrade failure/DB out of sync and resolution steps that the customer can try on their own.
