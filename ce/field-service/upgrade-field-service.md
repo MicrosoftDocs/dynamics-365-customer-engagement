@@ -102,16 +102,15 @@ The Field Service mobile experience is updated independently of the Field Servic
 
 Upgrading the mobile experience for technicians requires three steps:
 
-1. Upgrading the Field Service Mobile app
-2. Upgrading the mobile configuration tool (Woodford) solution
-3. Upgrading the mobile project template.
+1. Update the Field Service Mobile app
+2. Upgrade the mobile configuration tool (Woodford) solution
+3. Upgrade the mobile project template
 
-All of these steps are dependent on each other and need to be coordinated and executed together. 
 
 > [!Note]
-> Occasionally, only a new mobile project template is released and that needs to be upgraded without the need to update the mobile app (step 1) or upgrade the mobile configuration tool (Woodford) solution (step 2).
+> All of the steps are dependent on each other and need to be coordinated and executed together. Occasionally, only a new mobile project template is released and needs to be upgraded without the need to update the mobile app or upgrade the mobile configuration tool (Woodford) solution. In this case, **skip to step 3**.
 
-### Upgrading the Field Service Mobile app
+### Step 1: Update the Field Service Mobile app
 
 Technicians use the Field Service Mobile app on their phones, tablets, and Windows 10 devices. 
 
@@ -122,17 +121,16 @@ When a new version of the mobile app is released, the app will need to be udpate
 
 As an example, downloading Field Service Mobile from the Windows Store can allow for automatic updates as new versions are released. 
 
-### Upgrading the mobile configuration tool (Woodford) solution
+### Step 2: Upgrade the mobile configuration tool (Woodford) solution
 
 To unlock the new capabilities of the updated Field Service Mobile app, you'll then need to [download](https://aka.ms/fsmobile-configurator) and [import](https://docs.microsoft.com/en-us/dynamics365/field-service/mobile-faq-latest-version) the latest version of the Mobile Configuration tool (Woodford) solution into your environment.
  
 
-### Upgrading the mobile project template.
+### Step 3: Upgrade the mobile project template.
 
-Finally, you may need to import a new mobile project template 
+Mobile projects hold the configurations and customizations of the mobile app. Periodically, Microsoft releases new mobile projects in conjunction with or independent of a mobile app update or a new version of the mobile configuration tool (Woodford) solution.
 
-
-[Upgrade mobile project](mobile-upgrade-project.md)
+See the topic on [upgrading mobile projects](mobile-upgrade-project.md) for guidance and best practices.
 
 
 ## Resource Scheduling
