@@ -195,6 +195,8 @@ Then select **Upgrade to new version**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/upgrade-rso-upgrade-to-new-version.png)
 
+**Pro Tip:** By selecting Change Organization, you can point RSO at a different environment to optimize those work orders, projects, cases, etc. DOing so will initiate an upgrade. Furthermore, your RSO data and configurations (Optimization Scopes, Goals, and Schedules) will remain in the previous environment in case you ever want to switch it back.
+
 ## Configuration considerations
 
 
