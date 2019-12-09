@@ -135,17 +135,13 @@ See the topic on [upgrading mobile projects](mobile-upgrade-project.md) for guid
 
 ## Resource Scheduling
 
-Resource scheduling is updated in the same cadence as Field Service
+Resource Scheduling, also called Universal Resource Scheduling, is the app that powers Field Service scheduling. You cannot upgrade Resource Scheduling on its own, it is upgraded with Field Service, Project Service Automation, or Customer Service. 
 
-URS is updated when FS, PSA, or CS are updated not indeodndently 
+However, there are a few things to consider before adn after Resource Scheduling is upgraded via Field Service, Project Service Automation, or Customer Service.
 
-FS updates will update URS, 
+### Before upgrading Resource Scheduling
 
-
-
-Step 1:
-
-Before upgrade we would suggest customers to make sure they dont customize any internal only web resources/java script files, so that they dont get skipped during the upgrade 
+Before upgrading it is recommended to make sure no Resource Scheduling web resources or JavaScript files were edited. If so, they will get skipped during upgrade and this could cause functional issues. 
 
 Easy way to check this is by running the Resource Scheduling Service Health Diagnostics tool and make sure there are no flags when they assess their upgrade readiness 
 
@@ -155,7 +151,7 @@ they should remove the customizations out of the web resource and then run the u
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/upgrade-rs-health-diagnostics.png)
 
-Step 2:
+### After upgrading Resource Scheduling
 
 UFX queries
 
