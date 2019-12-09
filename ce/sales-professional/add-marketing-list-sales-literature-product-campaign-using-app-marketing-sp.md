@@ -18,19 +18,19 @@ manager: annbe
 
 Add all items to your campaign that your need in this marketing context. Usually you need to add marketing lists, but you might also want to refer campaigns to products and related campaigns, or you might want to add sales literature that documents sales procedures.  
 
-1. In the site map, select **Campaigns**.
+1. In the site map, select **Marketing Lists**.
 
-2. Choose the name of the campaign that you want to add a list, product, or sales literature to. In the nav bar, select the down arrow next to your campaign.  
+2. Open a marketing list record, and then in the **Campaigns** area, open the campaign to which you want to add a list, product, or sales literature. 
 
     The following table shows what you need to do to add each type of item.  
 
 
    |       To add       |                                      Do this                                      |
    |--------------------|-----------------------------------------------------------------------------------|
-   |  A marketing list  | Select **Target Marketing Lists**, and then select **Add Existing Marketing List**. |
-   |     A product      |        Select **Target Products**, and then select **Add Existing Product**.        |
-   |  Sales literature  |   Select **Sales Literature**, and then select **Add Existing Sales Literature**.   |
-   | A related campaign |      Select **Related Campaigns**, and then select **Add Existing Campaign**.       |
+   |  A marketing list  | On the **Related** tab, select **Target Marketing Lists**, and then select **Add Existing Marketing List**. |
+   |     A product      | On the **Related** tab, select **Target Products**, and then select **Add Existing Product**.        |
+   |  Sales literature  | On the **Related** tab, select **Sales Literature**, and then select **Add Existing Sales Literature**.   |
+   | A related campaign | On the **Related** tab, select **Related Campaigns**, and then select **Add Existing Campaign**.       |
 
 
 3. Select the type of record you want in the **Look Up Records** dialog box, in the **Look for** list.  
