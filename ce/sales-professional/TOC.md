@@ -18,6 +18,7 @@
 #### [Add products to an opportunity](add-products-opportunity-sp.md)
 ### [Understand sales transactions](understanding-sales-transactions-sales-professional.md)
 #### [Create and manage quotes](create-quotes-sales-professional.md)
+#### [Create or edit orders](create-orders.md)
 #### [Create and manage invoices](create-invoices.md)
 #### [Add products to a quote, order, or invoice](add-product-quote-order-invoice-sp.md)
 ### Set up a product catalog
