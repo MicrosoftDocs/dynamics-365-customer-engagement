@@ -2,13 +2,13 @@
 title: "Learn the basics of Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Get started with the Sales Professional app quickly by learning about the user interface and its components."
 keywords: ""
-ms.date: 10/14/2019
+ms.date: 12/09/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 2e3beeb9-d0c8-71e3-7ae7-e9326a487512
+ms.assetid: 81df4057-a92f-8eff-1602-922247717eee
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
