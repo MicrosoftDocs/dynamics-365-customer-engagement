@@ -98,6 +98,8 @@ To understand what version of the Field Service solution is in your environment,
 
 ## Mobile
 
+The Field Service mobile experience is updated independently of the Field Service app but on a similar cadence, meaning minor and major updates throughout the year. 
+
 Upgrading the mobile experience for technicians requires three steps:
 
 1. Upgrading the Field Service Mobile app
@@ -106,6 +108,15 @@ Upgrading the mobile experience for technicians requires three steps:
 
 
 ### Upgrading the Field Service Mobile app
+
+Technicians use the Field Service Mobile app on their phones, tablets, and Windows 10 devices. 
+
+When a new version of the mobile app is released, the app will need to be udpated on each user's device. This can be done manually, automatically, or via Microsoft Intune.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service mobile app download example](media/mobile-field-service-mobile-windows-app-store.png)
+
+As an example, 
 
 ### Upgrading the mobile configuration tool (Woodford) solution
 
