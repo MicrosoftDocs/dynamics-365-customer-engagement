@@ -1,12 +1,14 @@
 ---
 title: "Learn the basics of Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Get started with the Sales Professional app quickly by learning about the user interface and its components."
-ms.date: 10/14/2019
-ms.service: 
+keywords: ""
+ms.date: 12/09/2019
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
+ms.custom:
   - "dyn365-sales"
 ms.topic: article
+ms.assetid: 81df4057-a92f-8eff-1602-922247717eee
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -27,7 +29,7 @@ Start here to onboard quickly and learn about the Sales Professional app and its
 
 2.  On the Dynamics 365 home page, select **Sales Professional**.
 
-    ![Tile for Dynamics 365 Sales Professional](media/sales-professional-app-tile.png "Tile for Dynamics 365 Sales Professional")
+    ![Tile for Dynamics 365 Sales Professional](media/sales-professional-app-tile-updated.png "Tile for Dynamics 365 Sales Professional")
 
 ## Find your way around the app
 

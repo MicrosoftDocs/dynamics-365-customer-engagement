@@ -32,15 +32,15 @@ Promote your business, expand your reach to new customers, and improve sales by 
   
   Campaigns can include whatever planning activities you want to perform before you launch the campaign, and also the campaign activities you want to manage as part of the campaign. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add an activity to a campaign using in-app marketing](add-activity-campaign-using-app-marketing-sp.md)  
   
-1. In the site map, select **Campaigns**.
+1. In the site map, select **Marketing Lists**.
+
+2. Open a marketing list record, and then in the **Campaigns** area, select **New Campaign**.  
   
-2. To create a new campaign, select **New**.  
+   \- OR -  
   
-   - OR -  
+   To edit a campaign, open a campaign from the list.  
   
-     To edit a campaign, open a campaign from the list.  
-  
-3. Add or change information in the text boxes.  
+4. Add or change information in the text boxes.  
   
    1. In the **Campaign** section, enter the campaign details such as, name, type, and the expected response rate.  
   
@@ -50,11 +50,11 @@ Promote your business, expand your reach to new customers, and improve sales by 
   
    4. To track conversations in the planning phase of the campaign, in the **Activities** area, add activities.  
   
-4. When you're ready to save your data, select **Save**.  
+5. When you're ready to save your data, select **Save**.  
   
-5. To add a marketing list to the campaign, in the **Marketing Lists** area, select **+**, and in the **Look Up Records** dialog box, find and select a marketing list.  
+6. To add a marketing list to the campaign, in the **Marketing Lists** area, select **+**, and in the **Look Up Records** dialog box, find and select a marketing list.  
   
-6. To create planning and campaign activities for your campaign, for example, identifying advertising channels or prepare campaign communications to send to the members on the marketing lists, see [Add an activity to a campaign using in-app marketing](add-activity-campaign-using-app-marketing-sp.md).  
+7. To create planning and campaign activities for your campaign, for example, identifying advertising channels or prepare campaign communications to send to the members on the marketing lists, see [Add an activity to a campaign using in-app marketing](add-activity-campaign-using-app-marketing-sp.md).  
   
 
 ### See Also  

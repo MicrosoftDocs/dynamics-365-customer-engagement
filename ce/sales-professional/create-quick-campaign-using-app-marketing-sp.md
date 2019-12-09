@@ -22,9 +22,9 @@ If you need to perform more than one activity for your campaign, such as an emai
   
 1. In the site map, select **Marketing Lists**.  
   
-2. Open a record, and then in the **Quick Campaigns** area, select the **Add** button ![Add button](../sales-enterprise/media/add-button.PNG "Add button").  
+2. Open a record, and then in the **Quick Campaigns** area, select **New Quick Campaign**.  
   
-3. In the Quick Campaign Wizard, read the instructions on the Welcome page, and select **Next**.  
+3. In the Create a Quick Campaign Wizard, read the instructions on the Welcome page, and select **Next**.  
   
 4. Specify a name for the quick campaign.  
   

@@ -37,77 +37,75 @@ Your marketing list is the core of running a successful marketing campaign. It c
   
 4. Select **Save** so you can enter information in other areas of the form.  
   
-5. Add any other information that applies to your marketing list in the **Notes** area.  
+5. Select the **Notes** tab to add any other information that applies to your marketing list.  
   
 6. Select **Save**.  
   
 ## Add members to a static marketing list  
   
-1.  In any marketing list record, in the **Members** area, select the **Add**![Add button](../sales-enterprise/media/add-button.PNG "Add button") button.  
+In any marketing list record, select the **Members** tab, and on the command bar, select Manage Members and then select one of the following options.  
   
-2.  In the **Manage Members** dialog box, select one of the following options, and then select **Continue**.  
+  #### Add using Lookup  
   
-    #### Add using Lookup  
+  1.  In the **Look Up Records** dialog box, select your search criteria.  
   
-    1.  In the **Look Up Records** dialog box, select your search criteria.  
+  2.  Select the records that you want to add, select **Select**, and then select **Add**.  
   
-    2.  Select the records that you want to add, select **Select**, and then select **Add**.  
+  #### Add using Advanced Find  
   
-    #### Add using Advanced Find  
+  1.  In the **Add Members** dialog box, select **Select**, and then select the field on which you want to search, such as **Account Name** or **City**. You can select fields from the current record type, or from related record types. When you select a related record type, a new line appears with another Select list for the related record type.  
   
-    1.  In the **Add Members** dialog box, select **Select**, and then select the field on which you want to search, such as **Account Name** or **City**. You can select fields from the current record type, or from related record types. When you select a related record type, a new line appears with another Select list for the related record type.  
+  2.  Select **Equals**, and then select a query relational operator (for example **Contains** or **Begins With**).  
   
-    2.  Select **Equals**, and then select a query relational operator (for example **Contains** or **Begins With**).  
+  3.  Select **Enter Text**, and then type the value that you want to locate.  
   
-    3.  Select **Enter Text**, and then type the value that you want to locate.  
+  4.  To specify the columns to include in the search results, select **Edit Columns**, and then **Add Columns**. Then select the columns that you want to add, and select **OK**.  
   
-    4.  To specify the columns to include in the search results, select **Edit Columns**, and then **Add Columns**. Then select the columns that you want to add, and select **OK**.  
+  5.  Select **Find**.  
   
-    5.  Select **Find**.  
+  6.  Select the members that you want to add, select one of the following, and then select **Add to Marketing List**.  
   
-    6.  Select the members that you want to add, select one of the following, and then select **Add to Marketing List**.  
+      -   Add only the selected members to the marketing list  
   
-        -   Add only the selected members to the marketing list  
+      -   Add all the members returned by the search to the marketing list  
   
-        -   Add all the members returned by the search to the marketing list  
+  #### Remove using Advanced Find  
   
-    #### Remove using Advanced Find  
+  1.  In the **Add Members** dialog box, select **Select**, and then select the field on which you want to search, such as **Account Name** or **City**. You can select fields from the current record type, or from related record types. When you select a related record type, a new line appears with another Select list for the related record type.  
   
-    1.  In the **Add Members** dialog box, select **Select**, and then select the field on which you want to search, such as **Account Name** or **City**. You can select fields from the current record type, or from related record types. When you select a related record type, a new line appears with another Select list for the related record type.  
+  2.  Select **Equals**, and then select a query relational operator (for example **Contains** or **Begins With**).  
   
-    2.  Select **Equals**, and then select a query relational operator (for example **Contains** or **Begins With**).  
+  3.  Select **Enter Text**, and then type the value you want to locate.  
+ 
+  4.  To specify the columns to include in the search results, select **Edit Columns**, and then select **Add Columns**. Then select the columns that you want to add, and select **OK**.  
   
-    3.  Select **Enter Text**, and then type the value you want to locate.  
+  5.  Select **Find**.  
   
-    4.  To specify the columns to include in the search results, select **Edit Columns**, and then select **Add Columns**. Then select the columns that you want to add, and select **OK**.  
+  6.  Select the members that you want to remove, select one of the following, and then select **Remove from Marketing List**.  
   
-    5.  Select **Find**.  
+      -   Remove only the selected members from the marketing list  
+ 
+      -   Remove all the members returned by the search from the marketing list  
   
-    6.  Select the members that you want to remove, select one of the following, and then select **Remove from Marketing List**.  
+  #### Evaluate using Advanced Find  
   
-        -   Remove only the selected members from the marketing list  
+  1.  In the **Add Members** dialog box, select **Select**, and then select the field on which you want to search, such as **Account Name** or **City**. You can select fields from the current record type, or from related record types. When you select a related record type, a new line appears with another Select list for the related record type.  
   
-        -   Remove all the members returned by the search from the marketing list  
+  2.  Select **Equals**, and then select a query relational operator (for example **Contains** or **Begins With**).  
   
-    #### Evaluate using Advanced Find  
+  3.  Select **Enter Text**, and then type the value you want to locate.  
+ 
+  4.  To specify the columns to include in the search results, select **Edit Columns**, and then select **Add Columns**. Then select the columns that you want to add, and select **OK**.  
   
-    1.  In the **Add Members** dialog box, select **Select**, and then select the field on which you want to search, such as **Account Name** or **City**. You can select fields from the current record type, or from related record types. When you select a related record type, a new line appears with another Select list for the related record type.  
+  5.  Select **Find**.  
   
-    2.  Select **Equals**, and then select a query relational operator (for example **Contains** or **Begins With**).  
+  6.  Select the members that you want to keep, select one of the following, and then select **Update Marketing List**.  
   
-    3.  Select **Enter Text**, and then type the value you want to locate.  
+      -   Keep only the selected members in the marketing list  
   
-    4.  To specify the columns to include in the search results, select **Edit Columns**, and then select **Add Columns**. Then select the columns that you want to add, and select **OK**.  
-  
-    5.  Select **Find**.  
-  
-    6.  Select the members that you want to keep, select one of the following, and then select **Update Marketing List**.  
-  
-        -   Keep only the selected members in the marketing list  
-  
-        -   Keep all the members returned by the search in the marketing list  
+      -   Keep all the members returned by the search in the marketing list  
 
-  > [!NOTE]
+> [!NOTE]
   > You can add up to 120,000 members to a static marketing list in one Add operation. If you need to add more than 120,000 members to a static marketing list, split those members into multiple add operations. One way to do this is by using the [Advanced Find](#add-using-advanced-find) dialog to create queries that return less than 120,000 members. Alternatively, depending on your scenario, you can also consider using a dynamic marketing list instead of static list. More information: [Create a dynamic marketing list](#define-the-member-selection-criteria-for-a-dynamic-marketing-list)
 
 ## Define the member selection criteria for a dynamic marketing list  
