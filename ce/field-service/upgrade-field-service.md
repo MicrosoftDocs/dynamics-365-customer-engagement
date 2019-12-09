@@ -57,7 +57,7 @@ Go to Admin
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/upgrade-admin.png)
 
-Then the Dynamics 365 Admin center
+Then go to the Dynamics 365 Admin center
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/upgrade-admin-d365.png)
@@ -79,9 +79,9 @@ In addition, once your organization begins receiving automatic updates with vers
 > All new Dynamics 365 Field Service trial environments are given the latest generally available solution when a trial is created via [https://trials.dynamics.com](https://trials.dynamics.com).
 
 
-
 ### What gets updates?
 
+When the Field Service app is upgraded, multiple solutions are upgraded including Field Service, Universal Resource Scheduling (also called "Resource Scheduling"), 
 field service package includes multiple solutions including URS + patches
 
 look at anchor solution to know what solution you have, or look at trial
@@ -160,10 +160,6 @@ Select Upgrade to new version to apply a new update if one is available.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/upgrade-rso-upgrade-to-new-version.png)
 
-## Prerequisites
-
-
-
 ## Configuration considerations
 
 
@@ -176,10 +172,6 @@ Select Upgrade to new version to apply a new update if one is available.
 - Field Service database version is out of sync
 -  upgrade did not complete, 
 if auto update fails, there is retry
-
-
-
-
 
 
 ### See also
