@@ -20,13 +20,15 @@ Record the replies you get from potential customers in response to a specific ma
   
 ## Create campaign responses manually  
   
-1. In the site map, select **Campaigns**.
+1. In the site map, select **Marketing Lists**.
   
-2. Select the campaign that you want to add campaign responses to, and under **Responses**, select **Add**![Add button](../sales-enterprise/media/add-button.PNG "Add button").  
+2.  Open a marketing list record, and then in the **Campaigns** area, open the campaign to which you want to add campaign responses to, and on the **Related** tab, select **Campaign Responses**.
+
+3. Select **New Campaign Response**.
   
-3. Add information in the **Campaign Response** form.  
+4. Add information in the **Campaign Response** form.  
   
-4. Select **Save**.  
+5. Select **Save**.  
   
 ## Create campaign responses automatically  
   
