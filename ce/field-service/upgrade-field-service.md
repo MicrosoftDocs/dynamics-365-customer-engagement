@@ -91,12 +91,25 @@ To understand what version of the Field Service solution is in your environment,
 
 ### Best practices
 
-1. Before upgrading your production instance of Field Service, make a copy of the production instance and upgrade the copy first. Then test your business processes to understand consequences and upgrade the 
+1. Before upgrading your production instance of Field Service, make a copy of the production instance and upgrade the copy first. Then test your business processes to understand consequences and upgrade the actual production instance after.
 2. Upgrading from Field Service version 7.x to 8.x is considered a major upgrade because its upgrading to the [Unified Client Interface (UCI)](https://docs.microsoft.com/en-us/power-platform/admin/about-unified-interface). See the [Field Service UCI Upgrage Playbook](https://aka.ms/fsuciupgrade) for more details and best practices. 
 3. If your organization is using Project Service Automation along with Field Service, it is recommended to upgrade both at the same time or soon after each other due to shared functionality.
 4. Editing out-of-the-box web resources is unsupported and can cause functional issues after upgrading. You can use [Solution Health Hub](./troubleshoot-field-service-solution-health.md) to understand if web resources have been edited.
 
 ## Mobile
+
+Upgrading the mobile experience for technicians requires three steps:
+
+1. Upgrading the Field Service Mobile app
+2. Upgrading the mobile configuration tool (Woodford) solution
+3. Upgrading the mobile project template.
+
+
+### Upgrading the Field Service Mobile app
+
+### Upgrading the mobile configuration tool (Woodford) solution
+
+### Upgrading the mobile project template.
 
 Installing Field Service Mobile from the Windows Store can allow for automatic upgrades of new versions.
 
