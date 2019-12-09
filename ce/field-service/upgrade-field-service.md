@@ -137,9 +137,9 @@ See the topic on [upgrading mobile projects](mobile-upgrade-project.md) for guid
 
 Resource Scheduling, also called Universal Resource Scheduling, is the app that powers Field Service scheduling. You cannot upgrade Resource Scheduling on its own, it is upgraded with Field Service, Project Service Automation, or Customer Service. 
 
-However, there are a few things to consider before and after Resource Scheduling is upgraded via Field Service, Project Service Automation, or Customer Service.
+However, before upgrading Resource Scheduling consider 1) running the Resource Scheduling: Service Health Diagnostics and 2) planning for updated Universal Fextch XML (UFX) queries on the Schedule Board and Schedule Assistant.
 
-### Before upgrading Resource Scheduling
+### Run Resource Scheduling: Service Health Diagnostics
 
 Before upgrading, run the **Resource Scheduling: Service Health Diagnostics** tool to understand if any critical web resources or JavaScript files were edited. If so, they will get skipped during upgrade and this could cause functional issues and missed functionality. 
 
@@ -150,12 +150,11 @@ Then select Health Diagnostics in the top ribbon.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/upgrade-rs-health-diagnostics.png)
 
-If the diagnostic tool flags any web resources that should not have been edited, you will need to remove the customizations from the web resources and then run the upgrade. Not all customized web resources will be flagged by this tool, only the ones that could have the critical impact. 
+If the diagnostic tool flags any web resources that should not have been edited, you will need to remove the customizations from the web resources and then run the upgrade. Not all customized web resources will be flagged by this tool, only the ones that could have critical impact. 
 
+### Plan for updated Universal Fextch XML (UFX) queries
 
-
-### After upgrading Resource Scheduling
-
+Occasionnally, Resource Scheduling releases will include updates to the Universal Fextch XML (UFX) queries
 UFX queries
 
 
