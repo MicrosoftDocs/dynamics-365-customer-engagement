@@ -33,7 +33,7 @@ Typically, you convert an order into an invoice; however, you can also create an
     ![Invoice form populated with data from opportunity and quote](media/invoice-populated-form.png "Invoice form populated with data from opportunity and quote")
 
     > [!IMPORTANT]
-    > If Dynamics 365 Sales is integrated with an external order processing application, you may see the **Submit Order** button instead of the **Create Invoice** button on the Order form command bar. This is because the integration allows an order created in Dynamics 365 Sales to be submitted, after which it is synchronized with the order processing app where the lifecycle of the order continues. A submitted order is locked for editing in Dynamics 365 Sales, except by an integration user. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable sales order processing integration](developer/enable-sales-order-processing-integration.md)
+    > If Dynamics 365 Sales is integrated with an external order processing application, you may see the **Submit Order** button instead of the **Create Invoice** button on the Order form command bar. This is because the integration allows an order created in Dynamics 365 Sales to be submitted, after which it is synchronized with the order processing app where the lifecycle of the order continues. A submitted order is locked for editing in Dynamics 365 Sales, except by an integration user. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)
 
 4.  Review the contents of the invoice and make any additions or corrections before sending to your customer.
 
