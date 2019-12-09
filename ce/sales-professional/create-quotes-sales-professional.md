@@ -75,7 +75,7 @@ When the customer accepts the quote, you create an order. Otherwise, you close t
 
 ## Email a quote
 
-When you’ve added all the details to the quote, you can send it to the customer. To directly send an email to a customer with a quote attached, open the quote, and on the command bar, select **Email as PDF**. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Email a quote PDF](create-quote-pdf.md#email-as-a-pdf-document)
+When you’ve added all the details to the quote, you can send it to the customer. To directly send an email to a customer with a quote attached, open the quote, and on the command bar, select **Email as PDF**. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Email a quote PDF](create-quote-pdf#email-as-a-pdf-document)
 
 ### See also
 
