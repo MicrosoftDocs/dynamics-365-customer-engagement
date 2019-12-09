@@ -32,7 +32,9 @@ To stop selling a product, delete it. If you delete a parent family, its child p
 4. In the **Confirm Deletion** dialog box, select **Delete**.
 
    ![Confirm deletion](media/confirm-deletion.png "Confirm deletion")
-
+   
+>[!NOTE]
+>Products or bundles can't be deleted if they are listed in an existing order or invoice. Product families can't be deleted if they have child families, products, or bundles. 
 
 ## Delete a family, product, or bundle (Sales)
 

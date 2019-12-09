@@ -1,8 +1,8 @@
 ---
 title: Create entitlements to define the support terms for a customer (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to create entitlements to define the support terms for a customer in Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article

@@ -1,12 +1,11 @@
 ---
 title: Suggest similar cases for a case with Dynamics 365 Customer Service | MicrosoftDocs
 description: 
-author: anjgupta
-ms.author: anjgup
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 03/08/2019
 ms.topic: article
-ms.service: 
 ms.service: 
   - dynamics-365-customerservice
 search.audienceType: 

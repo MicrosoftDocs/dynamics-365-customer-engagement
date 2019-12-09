@@ -1,7 +1,7 @@
 ---
 title: "Manage Support instances | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -61,7 +61,7 @@ Database (via SQL query tools):
 
 **How long does a Support instance stay in your tenant?**
 
-1. 14 days or upon resolution of the problem.
+1. Seven days or upon resolution of the problem.
 2. System admins can [delete](delete-instance.md) the Support instance at any time.
 
 **Is access and usage of Support instance audited?** 

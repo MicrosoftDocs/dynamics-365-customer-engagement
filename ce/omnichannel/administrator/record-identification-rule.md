@@ -1,13 +1,13 @@
 ---
 title: Automatically identify customers using pre-chat responses | MicrosoftDocs
 description: See how you can Automatically identify customers using pre-chat responses in the Omnichannel for Customer Service
-author: anjgupta
-ms.author: anjgup
+author: kabala
+ms.author: kabala123
 manager: shujoshi
 ms.date: 07/01/2019
+ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
-ms.topic: article
 ---
 
 # Automatically identify customers using pre-chat responses

@@ -4,7 +4,7 @@ description: "Instructions to integrate an Azure bot in Omnichannel for Customer
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
-ms.date: 11/08/2019
+ms.date: 12/02/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -19,6 +19,18 @@ A bot is a program that provides automated responses in a conversational manner 
 A bot eases the load on your customer service agents by handling basic queries. This saves your agents' time and they can work on more complex issues. You can configure your bots to escalate the query to a human agent as and when required by the customer.
 
 In Omnichannel for Customer Service, you can integrate a bot to start the conversation with a customer, provide automated responses, and then shift the conversation to a human agent, if required. Let's now see how to integrate a bot with Omnichannel for Customer Service.
+
+When you integrate an Azure bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
+
+- Seamlessly integrate your Azure bot with all channels, such as Chat, SMS, and Facebook without needing to add channel-specific code in the bot. 
+- Transfer bot conversations to human agents with complete context.
+- Analyze the bot transcript that is available in Common Data Service after the chat is completed. 
+- Configure routing rules to selectively route incoming requests to bots based on context, such as issue type and customer type. For example, route low complexity issues to bots, or route the conversation to sales or support bot based on webpage browsing history of customer. 
+- Monitor the bot conversations in real-time using the supervisor dashboard with details, such as the sentiment.
+- Using the historical dashboards, get insights into the effectiveness of the bots with metrics, such as the resolution rate, escalation rate, resolution time, escalation time, and average sentiment. 
+- Configure routing rules to use bots in post-chat surveys. 
+- Repurpose bots to be smart-assist bots and provide recommendations to agents.
+
 
 ## Integrate a bot with Omnichannel for Customer Service 
 

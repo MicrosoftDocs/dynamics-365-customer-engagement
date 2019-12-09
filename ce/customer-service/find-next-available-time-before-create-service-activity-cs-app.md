@@ -1,8 +1,8 @@
 ---
 title: Find the next available time before creating a service activity (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Find the next available time before creating a service activity in Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article

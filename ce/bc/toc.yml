@@ -50,10 +50,7 @@
     topicHref: /dynamics365/customer-engagement/outlook-app/overview
   - name: Company News Timeline
     tocHref: /dynamics365/customer-engagement/company-news-timeline/
-    topicHref: /dynamics365/customer-engagement/company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets
-  - name: "Live Assist, powered by Café X"
-    tocHref: /dynamics365/customer-engagement/live-assist/
-    topicHref: /dynamics365/customer-engagement/live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x
+    topicHref: /dynamics365/customer-engagement/company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets  
   - name: Versium Predict
     tocHref: /dynamics365/customer-engagement/versium-predict
     topicHref: /dynamics365/customer-engagement/versium-predict/versium-predict
