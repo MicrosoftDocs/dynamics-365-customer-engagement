@@ -2,7 +2,7 @@
 title: "Create and manage quotes in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Use quotes in Dynamics 365 Sales Professional to make formal offers for products with proposed prices to customers."
 keywords: ""
-ms.date: 12/0122019
+ms.date: 12/12/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
