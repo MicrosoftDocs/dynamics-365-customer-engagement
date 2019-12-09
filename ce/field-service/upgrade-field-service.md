@@ -89,24 +89,21 @@ When the Field Service app is upgraded, the Field Service solution is upgraded a
 
 To understand what version of the Field Service solution is in your environment, look at the version of the solution named **FieldService_anchor**. 
 
-
-
-some solutions are conditionally upon woodford 
-
-
-
 ### Best practices
 
-https://aka.ms/fsuciupgrade
+1. Before upgrading your production instance of Field Service, make a copy of the production instance and upgrade the copy first. Then test your business processes to understand consequences and upgrade the 
+2. Upgrading from Field Service version 7.x to 8.x is considered a major upgrade because its upgrading to the [Unified Client Interface (UCI)](https://docs.microsoft.com/en-us/power-platform/admin/about-unified-interface). See the [Field Service UCI Upgrage Playbook](https://aka.ms/fsuciupgrade) for more details and best practices. 
+3. If your organization is using Project Service Automation along with Field Service, it is recommended to upgrade both at the same time or soon after each other due to shared functionality.
 
-if you have PSA you should update both FS and PSA at same time, epsecially for major updates
+
+
 
 
 unsupported modifying web resources can have functional issues after upgrade but will not block upgrade
 
 to understand if you edited a web resource, use health hub
 
-before upgrading prod org, make copy of prod and make update there 
+
 
 
 ## Mobile
@@ -171,6 +168,11 @@ Select Upgrade to new version to apply a new update if one is available.
 ## Additional Notes
 - 7.x end of life
 delete anchor and retry maybe? talk to jorn
+- push notifications require woodford to be installed to install or update
+   Make sure Woodford 11.1 or higher.
+    2)   Delete the Field Service Anchor from CRM
+    3)   Trigger FS Upgrade 8.8.0.88 again from Admin Center
+    4) This will skip most of the installed solutions and will install msdyn_FSMNotification and msdyn_GeoFenceAlerts (since Woodford solution requirement has met)
 
 ### Common issues
 - Field Service upgrade failure/DB out of sync and resolution steps that the customer can try on their own.
