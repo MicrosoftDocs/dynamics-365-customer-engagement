@@ -80,5 +80,5 @@ When you’ve added all the details to the quote, you can send it to the custome
 ### See also
 
 [Develop sales from lead to cash in Dynamics 365 Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
-[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
-[Sales transactions in Dynamics 365 Sales Professional](understanding-sales-transactions-sales-professional.md)
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
+[Sales transactions in Dynamics 365 Sales Professional](understanding-sales-transactions-sales-professional.md)  
