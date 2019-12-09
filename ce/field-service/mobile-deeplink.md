@@ -28,9 +28,9 @@ search.app:
 
 # Use Deeplinks with Field Service Mobile
 
-what is it, why useful common examples,
+Deeplinking allows users to move from one application to another and is very common on computers and mobile devices. Simple examples include a mobile application deeplinking to Facebook to sign in, an email address deeplinking to the Mail app to compose a message, or a website deeplinking to an app store to download the related mobile application. As multiple apps may be needed to complete onsite work, an organization can allow technicians to deeplink from Field Service Mobile to other apps and vice versa. 
 
-platforms
+In this article, let's explore deeplinking from Field Service Mobile to other apps to make the expereince of using multiple apps easier for technicians while they complete work orders.
 
 **Scenario:** While using work orders on Field Service Mobile to complete onsite work, a field service organization uses a custom-built PowerApp to request orders for new parts inventory. The organization needs technicians to be able to open the Parts Order PowerApp from work orders in Field Service Mobile and minimize the inconveneince of switching between interfaces. The organization has a "bring-your-own-device" policy for technicians, so the solution needs to work on Windows, iOS, and Android devices. A proposed solution is to create a deeplink from Field Service Mobile to the Powerapp.
 
@@ -38,7 +38,7 @@ platforms
 > [!div class="mx-imgBorder"]
 > ![Screenshot of deeplink example on app](./media/mobile-deeplink-work-order-fsm.png)
 
-In this article let's create a work order deeplink that when triggered by technicians on Field Service Mobile will open a specific PowerApps form and pass along the work order number field value. To accomplish this, we will configure both Field Service Mobile and the PowerApp by: 
+In this article we will create a work order deeplink that when triggered by technicians on Field Service Mobile will open a specific PowerApps form and pass along the work order number field value. To accomplish this, we will configure both Field Service Mobile and the PowerApp by: 
 
 1. Creating a custom command on the work order form to open the Parts Request PowerApp
 2. Constructing the deeplink
