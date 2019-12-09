@@ -168,20 +168,29 @@ All UFX queries, both custom ones your organziation creates and those included w
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/upgrade-configurations.png)
 
-## Resource scheduling Optimization
+## Resource Scheduling Optimization
 
-Go to admin center > Instances tab > solution
+Resource Scheduling Optimization is the app that allows for automated scheduling of work orders, projects tasks, cases, and more. Major and minor updates are released thoughout the year. Unlike Resource Scheduling, Resource Scheduling Optimization (RSO) can be upgraded independently.
 
-Select Upgrade to new version to apply a new update if one is available.
+First check if an RSO update is available. 
 
+From the Dynamics 365 Admin ceneter, select and highlight the environment that has the Resource Scheduling Optimization (RSO) app and select solutions.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/upgrade-admin-environment.png)
+
+In the lsit of solutions, it will indicate if there is an Upgrade Available for the Resource Scheduling Optimization solution.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/upgrade-rso-upgrade-available.png)
+
+If so, go to the Applications tab at the top, find the RSO application that relates to your environment, and choose **Manage**.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/upgrade-rso-applications-manage.png)
 
+Then select **Upgrade to new version**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/upgrade-rso-upgrade-to-new-version.png)
