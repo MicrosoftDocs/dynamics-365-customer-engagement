@@ -156,8 +156,17 @@ If the diagnostic tool flags any web resources that should not have been edited,
 
 Occasionnally, Resource Scheduling releases will include updates to the Universal Fextch XML (UFX) queries that control how resources and requirements are fetched and loaded on the schedule board or in schedule assistant results. See the topic on [Schedule Board Tab Settings](https://docs.microsoft.com/en-us/dynamics365/field-service/schedule-board-tab-settings#other-settings) for more details.
 
+As an example, a new version of Resource Scheduling may add a new resource filter to the left panel of the schedule board. To make this possible, the update will come with a new UFX query for the Retrieve Resources Query as seen in the screenshot below.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/upgrade-ufx-queries.png)
+
+However, the XML in each UFX can be edited based on your specific needs. If a UFX query has been edited by your organization, the Resource Scheduling upgrade will import the new UFX query, but **will not apply it**. Therefore, you'll need to add your customizations to the new UFX query and select and apply it manually from the Schedule Board Tab Settings. One option is to use GitHub to understand the differences between the old XML file with your custom queries and the new XML file as part of the Resource Scheduling upgrade.
+
+All UFX queries, both custom ones your organziation creates and those included with the Resource Scheduling app, are listed as records in the Configurations entity, and each record holds the XML queries.  
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/upgrade-configurations.png)
 
 ## Resource scheduling Optimization
 
