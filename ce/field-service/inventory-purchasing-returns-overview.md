@@ -28,12 +28,16 @@ search.app:
 
 # Overview of inventory, purchasing, and returns
 
-FieldOne Sky Inventory capabilities include:
-Warehousing
-Purchasing
-Adjustments and Transfers
-Selling Products through the Work Order process
-Returns
+Dynamics 365 Field Service inventory capabilities include:
+
+- Warehousing
+- Adjustments and transfers
+- Consuming and billing products through the Work Order process
+- Inventory journals
+- Purchasing
+- Returns
+
+For basic inventory requirements, many organizations utilize the above capabilities included with Field Service. For more complex inventory and pricing requirements, Field Service is designed to integrate with enterprise resource planning (ERP) such as [Dynamics 365 Finance & Operations](https://docs.microsoft.com/en-us/dynamics365/supply-chain/sales-marketing/prospect-to-cash) using the [common data service "prospect to cash" app](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3?src=office&tab=Overview) as one example.
 
 ## Prerequisites
 > [!Note]
@@ -101,12 +105,20 @@ And may allow it to become a piece of Customer Equipment depending if the Produc
 
 ## Inventory journals
 
+Inventory Journals are kept for each Warehouse. They keep track of Product movements
+Navigate to a Warehouse
+Select the Inventory Journals tile in the ribbon
+
 ## Purchase orders
 
 The Purchase Order process includes:
 Requesting Products from a Vendor by creating a Purchase Order
 Gaining approval
 Finally, documenting receipt of Products by creating a PO receipt. This will add the ordered Product to Inventory
+
+A P.O. Receipt does not need to contain all Products requested or all quantities requested. Oftentimes, Products
+will be received as they arrive. Some Products may arrive sooner and larger quantity shipments may arrive in
+numerous shipments. In these situations, numerous P.O. Receipts can be created for a single Purchase Order
 
 ## Returns
 
@@ -141,5 +153,17 @@ confirms the correct Product and quantity are
 received as well as date and person handling
 the receipt.
 
+There are three steps when issuing a Return
+Create RMA
+Create RMA Receipt
+Inventory and/or Equipment adjustments are carried out (done automatically)
+The RMA designates the Product, unit, quantity, related Work Order, and Price List of return. It also specifies a processing
+action, which is the type of Return.
+The RMA Receipt confirms the correct Product and quantity are received as well as date and person handling the receipt.
+Finally, Inventory and/or Equipment adjustments are carried out. This typically includes an increase in Inventory,
+document of Return and reason for Return, and in some cases documentation of a new owner of a Product/Equipment.
+
 ## Configuration considerations
+- Inventory purchase security role
+
 ## Additional Notes
