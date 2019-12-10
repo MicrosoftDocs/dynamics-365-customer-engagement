@@ -31,7 +31,7 @@ The leaderboard report for customer journeys and email marketing identifies your
 > [!NOTE]
 > You can find the full list of marketing analytics downloads in the [marketing analytics reporting gallery](analytics-gallery-start.md#gallery).
 
-In addition to the [common report pages](analytics-gallery-framework.md#common-report-pages) and a report homepage, this analytics report includes the following pages:
+In addition to the [common report pages](analytics-gallery-framework.md#common-report-pages) and a report home page, this analytics report includes the following pages:
 
 - [A detailed leaderboard of email marketing activities](#email-leaderboard)
 - [A detailed leaderboard of customer journeys](#journey-leaderboard)

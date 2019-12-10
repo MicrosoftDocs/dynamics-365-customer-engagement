@@ -34,7 +34,7 @@ This marketing analytics report provides insights into your email marketing and 
 
 In addition to the [common report pages](analytics-gallery-framework.md#common-report-pages), this analytics report includes the following pages:
 
-- [Homepage](#report-home-page)
+- [Home page](#report-home-page)
 - [Email marketing plan overview](#marketing-plan)
 - [Email marketing template usage report](#template-usage)
 - [A leaderboard of your most effective email activities](#leaderboard)
@@ -45,16 +45,16 @@ In addition to the [common report pages](analytics-gallery-framework.md#common-r
 
 <a name="report-home-page"></a>
 
-## Email marketing report homepage
+## Email marketing report home page
 
 Each report includes a filter pane on the left that lets you quickly select the relevant marketing activities to focus on. You can also chose the relevant time frame for your exploration.
 
 > [!TIP]
-> Use the report homepage to get a quick overview of your core marketing automation objects, customer journeys, and email marketing messages.
+> Use the report home page to get a quick overview of your core marketing automation objects, customer journeys, and email marketing messages.
 
 Here you can define report-wide data filtering, select the data range you'd like to include, and limit the view to include just the customer journeys and marketing messages you're interested in.An additional view shows the timeline of interactions arriving from your audience, which helps you set filters and define what to show.
 
-![Email marketing report homepage](media/EmailMarketing/EmailMarketing-(1)Home.png "Email marketing report homepage")
+![Email marketing report home page](media/EmailMarketing/EmailMarketing-(1)Home.png "Email marketing report home page")
 
 <a name="marketing-plan"></a>
 
