@@ -32,7 +32,7 @@ In the background, Dynamics 365 Marketing creates a static segment to contain yo
 Compared to the [standard procedure](prepare-marketing-emails.md#process-overview-how-to-create-and-go-live-with-a-marketing-email) for sending marketing emails, in which you manually set up a segment and customer journey to send a message you've already designed, the send-now feature adds a few limitations. These are:
 
 - You can send to a maximum of 30 contacts, selected one at a time (as with a static segment).
-- Your message can include [dynamic expressions](dynamic-email-content,md), but you can't use relations. That means you can have just one hop (period) in your dynamic expressions, so for example, `{{contact.name}}` is supported but `{{contact.contact_account_parentcustomerid.name}}` isn't.
+- Your message can include [dynamic expressions](dynamic-email-content.md), but you can't use relations. That means you can have just one hop (period) in your dynamic expressions, so for example, `{{contact.name}}` is supported but `{{contact.contact_account_parentcustomerid.name}}` isn't.
 - Your message must still pass the standard error check, and must therefore include all the standard required content (including a subject, a subscription-center link, your organization's physical post address, and valid to and from addresses).
 
 ## Design and send an email with send now

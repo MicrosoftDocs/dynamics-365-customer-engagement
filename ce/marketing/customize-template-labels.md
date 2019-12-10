@@ -31,7 +31,7 @@ The template labelling feature enables users to add any of several available lab
 In a default installation, the email template, page template, and form template entities are all configured to share the same global option set to establish their template-label options (segments use a [local option set](#label-values-colors) instead). That means that you can edit just one option set and make your customizations available to all these template types at once. 
 
 > [!NOTE]
-> The field that's preconfigured to hold label values for each of these entities can't be changed to use a local option set or another global option set. If you need to use unique labels for one of these entities, you must create a new field that is either a local option set or uses another global option set, and then [configure the template entity](#label-display-design-template) and its [related design entity](#label-display-design) to use that new field for their labels.
+> The field that's preconfigured to hold label values for each of these entities can't be changed to use a local option set or another global option set. If you need to use unique labels for one of these entities, you must create a new field that is either a local option set or uses another global option set, and then [configure the template entity](#label-field-templates) and its [related design entity](#label-display-design) to use that new field for their labels.
 
 To establish label values and colors for the default global option set:
 
