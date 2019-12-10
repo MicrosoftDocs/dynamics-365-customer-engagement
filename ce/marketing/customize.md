@@ -38,7 +38,7 @@ To access the customization settings in the advanced-settings area:
 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 1. Navigate to **Settings** > **Customizations** > **Customizations**.
 
-For complete details about how to customize model-driven apps in Dynamics 365, see the [PowerApps documentation](https://docs.microsoft.com/powerapps/#pivot=home&panel=getstarted).
+For complete details about how to customize model-driven apps in Dynamics 365, see the [Power Apps documentation](https://docs.microsoft.com/powerapps/#pivot=home&panel=getstarted).
 
 For details about customizations that apply only to the Marketing app (but not other Dynamics 365 apps), see the following topics:
 
@@ -54,4 +54,4 @@ More information: [Design model-driven apps by using the app designer](https://d
 
 ## Advanced customization through coding
 
-Advanced customization and integration with external systems is possible through code-based interactions with the system's various APIs. For details about writing code and developing for Dynamics 365 Marketing and other model-driven apps in Dynamics 365, see the [developer documentation for PowerApps](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer).
+Advanced customization and integration with external systems is possible through code-based interactions with the system's various APIs. For details about writing code and developing for Dynamics 365 Marketing and other model-driven apps in Dynamics 365, see the [developer documentation for Power Apps](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer).

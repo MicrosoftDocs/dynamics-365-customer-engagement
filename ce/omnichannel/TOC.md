@@ -236,6 +236,7 @@
 #### [Auto-close a conversation](developer/auto-close-conversation.md)
 #### [Build a custom smart assist bot](developer/how-to/smart-assist-bot.md)
 ### Entity reference
+#### [Overview](developer/reference/entities/overview.md)
 #### [Deprecated entities](developer/reference/entities/deprecated-entities.md)
 #### [msdyn_analytics](developer/reference/entities/msdyn_analytics.md)
 #### [msdyn_authenticationsettings](developer/reference/entities/msdyn_authenticationsettings.md)

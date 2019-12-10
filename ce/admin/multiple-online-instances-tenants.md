@@ -21,10 +21,9 @@ search.app:
 ---
 # About multiple online instances or tenants
 
+[!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
+
 Model-driven apps in Dynamics 365, such as Dynamics 365 Sales and Customer Service, gives you options for segregating your data and user access. For most companies, adding and using multiple instances in your subscription provides the right mix of functionality and ease of management. Enterprises with separate geographic locations might consider using multiple tenants to separate licenses. Multiple instances can share users among instances; multiple tenants cannot.  
-  
-> [!NOTE]
->  The concept and operation of tenants and instances, though similar, differs between online and on-premises deployments of Dynamics 365. This topic is for those administering deployments.  
   
 <a name="BKMK_Terminology"></a>   
 ## Terminology  

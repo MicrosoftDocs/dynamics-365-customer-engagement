@@ -1,5 +1,5 @@
 ---
-title: "Get started with custom business app making in PowerApps | MicrosoftDocs"
+title: "Get started with custom business app making in Power Apps | MicrosoftDocs"
 description: "Learn how you can get started building and customizing custom business apps"
 ms.custom: 
 ms.date: 12/04/2018

@@ -107,7 +107,10 @@ Your marketing list is the core of running a successful marketing campaign. It c
         -   Keep only the selected members in the marketing list  
   
         -   Keep all the members returned by the search in the marketing list  
-  
+
+  > [!NOTE]
+  > You can add up to 120,000 members to a static marketing list in one Add operation. If you need to add more than 120,000 members to a static marketing list, split those members into multiple add operations. One way to do this is by using the [Advanced Find](#add-using-advanced-find) dialog to create queries that return less than 120,000 members. Alternatively, depending on your scenario, you can also consider using a dynamic marketing list instead of static list. More information: [Create a dynamic marketing list](#define-the-member-selection-criteria-for-a-dynamic-marketing-list)
+
 ## Define the member selection criteria for a dynamic marketing list  
   
 <a name="Collapsed3"></a>   

@@ -1,8 +1,8 @@
 ---
 title: Create and design forms for Customer Service Hub | Microsoft Docs
 description: Know how to create and design main forms for Customer Service Hub
-author: anjgupta
-ms.author: anjgup
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article

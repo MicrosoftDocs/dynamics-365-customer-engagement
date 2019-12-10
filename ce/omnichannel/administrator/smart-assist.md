@@ -103,7 +103,7 @@ After you create a bot user, you need to add the bot to the workstream so that t
 
 After you add the smart assist bot to a workstream, you must add the smart assist field to the form where you want to show it for the agents.
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Omnichannel Administration app, and then on the command bar select **Settings** ![Settings](../media/settings-gear.png "Settings") > **Advanced  Settings**.
 
 2. Select **Settings** > **Customizations** > **Customize the System**. **Solution Explorer** opens in a new window.
 

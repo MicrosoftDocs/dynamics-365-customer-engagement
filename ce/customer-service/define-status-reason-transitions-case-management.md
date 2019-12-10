@@ -1,8 +1,8 @@
 ---
 title: Define status reason transitions for case management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Understand how to define status reason transitions for case management in Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article

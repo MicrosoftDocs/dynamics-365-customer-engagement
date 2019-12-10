@@ -227,7 +227,7 @@ Get-Help “Crm”
    - If you are connecting to the Dynamics 365 for Customer Engagement apps (on-premises) instance:  
   
      ```  
-     $CRMConn = Get-CrmConnection -ServerUrl http://<your_CRM_Server> -OrganizationName <your_Org_Name> -Credential $Cred  
+     $CRMConn = Get-CrmConnection -ServerUrl https://<your_CRM_Server> -OrganizationName <your_Org_Name> -Credential $Cred  
      ```  
   
    - If you are connecting to the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] server:  
