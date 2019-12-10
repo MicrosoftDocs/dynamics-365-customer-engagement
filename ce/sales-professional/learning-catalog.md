@@ -43,7 +43,7 @@ Find the right online training, in person workshops, and events for your role in
     :::row-end:::
     :::row:::
         :::column:::
-
+        
     ### Developers
 
     Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?
