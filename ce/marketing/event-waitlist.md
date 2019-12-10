@@ -102,7 +102,7 @@ Talk to your system administrator to make sure the waitlisted entity is being sy
 
 To create a segment that finds contacts who _are not_ using automatic registration, but who should now be invited to register, do the following:
 
-1. Go to **Marketing** > **Customers** > **Segments** and select **New** on the command bar. Then select **Demographic** on the **Let's create your segment** screen.
+1. Go to **Marketing** > **Customers** > **Segments** and select **New** on the command bar. The **Segment templates** dialog box opens; select **Cancel** to close it, and then select **Demographic** on the **Let's create your segment** screen.
 
 1. A new demographic segment opens. Check the view setting near the upper corner of the **Definition** tab and make sure it's set to **Tree view**. (You could use either view, but in this procedure we show and describe the tree view, so it's a good idea to use it for now.)
 

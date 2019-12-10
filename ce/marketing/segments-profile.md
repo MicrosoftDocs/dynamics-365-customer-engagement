@@ -35,7 +35,7 @@ Both demographic and firmographic segments are examples of dynamic profile segme
 To manage your segments, go to **Marketing** > **Customers** > **Segments** and then do one of the following
 
 - Select any listed segment to open it for editing.
-- To create a new demographic or firmographic segment, select **New** on the command bar and then select the **Demographic** or **Firmographic** option, as described in [Working with segments](segmentation-lists-subscriptions.md).
+- To create a new demographic or firmographic segment, select **New** on the command bar. The **Segment templates** dialog box opens; select **Cancel** to close it, and then select the **Demographic** or **Firmographic** option, as described in [Working with segments](segmentation-lists-subscriptions.md).
 
 Now design the logic for your demographic or firmographic segment as described in the remainder of this topic. For mor information about other types of segments, and links to topics about how to work with them, see [Working with segments](segmentation-lists-subscriptions.md)
 
@@ -162,7 +162,7 @@ Here's an example of how to define a segment that finds contacts associated with
 
 1. If your Marketing instance isn't already set up to sync the **Opportunity (opportunity)** entity with the marketing-insights service, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the marketing-insights service](mkt-settings-sync.md) for instructions.
 
-1. Go to **Marketing** > **Customers** > **Segments** and select **New** on the command bar. Then select **Demographic** on the **Let's create your segment** screen.
+1. Go to **Marketing** > **Customers** > **Segments** and select **New** on the command bar. The **Segment templates** dialog box opens; select **Cancel** to close it, and then select **Demographic** on the **Let's create your segment** screen.
 
 1. A new demographic segment opens. Check the view setting near the upper corner of the **Definition** tab and make sure it's set to **Tree view**. (You could use either view, but in this procedure we show and describe the tree view, so it's a good idea to use it for now.)
 

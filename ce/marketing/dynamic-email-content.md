@@ -203,14 +203,16 @@ One typical way to take advantage of this feature is to set the **From name** an
 
 You can use similar techniques to place the owning user's name or email address anywhere in the message content. You could do this using assist edit, or copy/paste the handlebar expressions, or even type the handlebar expressions manually.
 
-<!-- > [!TIP]
-> You can include conditional statements in the **Sender and receiver** fields—for example, to use `contact.emailaddress2` if `contact.emailaddress1` is empty. -->
+<a name="image-source"></a>
 
 ## Use dynamic values to choose an image source or link
 
 You can use a dynamic expression to define the source URL for image elements. To do so, select the image element, go to its **Properties** panel and then select the **Assist edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") next to the **Source** field to place dynamic text as part of the URL. You'll typically mix this with static text to assemble a complete URL. For example, you could include the recipient's contact ID or company name to select an image that is relevant for each individual recipient.
 
 You can likewise use assist edit to help construct a dynamic expression for setting a **Link** destination for the image.
+
+> [!NOTE]
+> The Dynamics 365 Marketing [files library](upload-images-files.md) generates a unique GUID-based file path for each image you upload, which means that the images in the files library have unpredictable URLs that don't include your original file name. Therefore, to use the technique described here, you must host your images on your own website or any third-party hosting service where the URLs are predictable and can include a value that you can easily extract from a Dynamics 365 field.
 
 <a name="record-ids"></a>
 
