@@ -54,6 +54,7 @@
 
 ### Customize Marketing
 #### [Customizing Marketing](customize.md)
+#### [Open the Power Apps customization window](customize-open-powerapps.md)
 #### [Create and customize marketing calendars](customize-marketing-calendars.md)
 #### [Create and customize template labels](customize-template-labels.md)
 
