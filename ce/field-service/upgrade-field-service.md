@@ -195,26 +195,17 @@ Then select **Upgrade to new version**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/upgrade-rso-upgrade-to-new-version.png)
 
-**Pro Tip:** By selecting Change Organization, you can point RSO at a different environment to optimize those work orders, projects, cases, etc. DOing so will initiate an upgrade. Furthermore, your RSO data and configurations (Optimization Scopes, Goals, and Schedules) will remain in the previous environment in case you ever want to switch it back.
-
-## Configuration considerations
+**Pro Tip:** By selecting Change Organization, you can point RSO at a different environment to optimize those work orders, projects, cases, etc. Doing so will initiate an upgrade. Furthermore, your RSO data and configurations (Optimization Scopes, Goals, and Schedules) will remain in the previous environment in case you ever want to switch it back.
 
 
 ## Additional Notes
-- 7.x end of life
-delete anchor and retry maybe? talk to jorn
-- push notifications require woodford to be installed to install or update
-   Make sure Woodford 11.1 or higher.
-    2)   Delete the Field Service Anchor from CRM
-    3)   Trigger FS Upgrade 8.8.0.88 again from Admin Center
-    4) This will skip most of the installed solutions and will install msdyn_FSMNotification and msdyn_GeoFenceAlerts (since Woodford solution requirement has met)
 
-### Common issues
-- Field Service upgrade failure/DB out of sync and resolution steps that the customer can try on their own.
-- Solution installation failed / Update Installation Failed
-- Field Service database version is out of sync
--  upgrade did not complete, 
-if auto update fails, there is retry
+Field Service Mobile Push Notifications and Geofence Alerts solutions that are part of the install and upgrade of Field Service will only be installed if the Mobile Configuration tool (Woodford) version 11.1+ is present in the environment. Follow the steps below to get these solutions in cases where the Mobile Configuration tool (Woodford) was not present at install or upgrade.
+
+  1. [Download](https://aka.ms/fsmobile-configurator) the Mobile Configuration tool (Woodford) and import into **Settings > Solutions**
+  2. Delete the **FieldService_Anchor** from the solutions list in **Settings > Solutions** NOT the Field Service solution.
+  3. In Admin Center an upgrade will be available, proceed to manually upgrade.
+  4. This will skip most of the installed solutions and will install msdyn_FSMNotification and msdyn_GeoFenceAlerts since the Woodford dependency has been met.
 
 
 ### See also
