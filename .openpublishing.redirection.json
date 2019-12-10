@@ -17087,7 +17087,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "ce/portals/implement-gdpr",
+      "source_path": "ce/portals/implement-gdpr.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/implement-gdpr",
       "redirect_document_id": false
     },
@@ -17154,11 +17154,6 @@
     {
       "source_path": "ce/portals/portal-faq.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/faq",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "ce/portals/implement-gdpr.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/implement-gdpr",
       "redirect_document_id": false
     }
   ]
