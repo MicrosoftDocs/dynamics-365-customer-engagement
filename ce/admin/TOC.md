@@ -1,6 +1,6 @@
 
-# [Administer model-driven apps in Dynamics 365](admin-guide.md)
-## [Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)
+# [Administer model-driven apps in Dynamics 365]
+## [Overview](admin-guide.md)
 ## Manage instances
 ### [Manage instances](new-instance-management.md)
 ### [Sandbox](manage-sandbox-instances.md)

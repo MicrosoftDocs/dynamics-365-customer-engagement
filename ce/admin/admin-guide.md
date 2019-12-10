@@ -17,7 +17,6 @@ search.audienceType:
   - admin
 search.app: 
   - D365CE
-  - Powerplatform
 ---
 # Administer model-driven apps in Dynamics 365
 
