@@ -33,7 +33,9 @@ Define the actions to be performed by a command bar or ribbon control in a `<Com
 - **Open a URL**: The ribbon opens a URL using the value from an Address attribute in the `<Url>` element. Additional parameters can pass information about how what querystring parameters are passed and the mode in which the window opens.  
   
      You have several options to pass parameters to a URL using the ribbon. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Passing Parameters to a URL using the Ribbon](pass-parameters-url-by-using-ribbon.md)  
-  
+  > [!NOTE]
+>   -   Don’t use this action to open entity forms or web resources. Use the <JavaScriptFunction> (RibbonDiffXml) with a function that uses Xrm.Utility.openEntityForm or Xrm.Utility.openWebResource instead.
+
 ### Passing parameters to ribbon actions  
  Use the following elements to define data to pass to your custom action:  
   
