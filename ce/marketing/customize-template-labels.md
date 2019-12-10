@@ -35,7 +35,7 @@ In a default installation, the email template, page template, and form template 
 
 To establish label values and colors for the default global option set:
 
-1. [Open a PowerApps customization window](customize-open-powerapps.md).
+1. [Open a Power Apps customization window](customize-open-powerapps.md).
 
 1. In the left panel, select **Components** > **Option Sets** to see a list of all global option sets.
 
@@ -63,7 +63,7 @@ In a default installation, the segment template entity is configured to use a lo
 
 To establish label values and colors for a local option set:
 
-1. [Open a PowerApps customization window](customize-open-powerapps.md).
+1. [Open a Power Apps customization window](customize-open-powerapps.md).
 
 1. In the left panel, expand **Components** > **Entities** to see a list of all entities.
 
@@ -102,7 +102,7 @@ You must configure your label field for both the template entity and its related
 
 To set the field used to define label options for a template entity:
 
-1. [Open a PowerApps customization window](customize-open-powerapps.md).
+1. [Open a Power Apps customization window](customize-open-powerapps.md).
 
 1. In the left panel, expand **Components** > **Entities** to see a list of all entities.
 
@@ -136,7 +136,7 @@ As mentioned previously, you must configure both the template entity and its rel
 
 To set the field used to define label options for a design entity:
 
-1. [Open a PowerApps customization window](customize-open-powerapps.md).
+1. [Open a Power Apps customization window](customize-open-powerapps.md).
 
 1. Find and take note of the exact **Name** value for the label field you have already configured for the template entity that is related to the design entity you will set up now, as described in [Configure the field used to hold label options for each template entity](#label-field-templates).
 
