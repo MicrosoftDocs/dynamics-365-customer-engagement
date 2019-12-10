@@ -21,6 +21,8 @@ search.app:
 ---
 # Manage Support instances
 
+[!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
+
 A Support instance is any non-Production instance of Common Data Service used by Microsoft Support to reproduce and resolve customer issues. When there is an issue affecting the operation of your online service, Microsoft can create a Support instance in your tenant to troubleshoot and repair the issue.  It is isolated from your Production instance so it does not impact your business operations. System admins have full control of managing and providing organization data by [copying it](copy-instance.md) to a Support instance. 
 
 **What is a Support instance?**
