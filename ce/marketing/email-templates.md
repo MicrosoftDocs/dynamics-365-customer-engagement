@@ -95,7 +95,7 @@ To assign a label to a template, open the relevant template under the **Marketin
 
 ### Customize your label selection, text, and colors
 
-System customizers can create as many labels as you need for each entity and define the display text and background color for each label. For instructions about how to make these customizations, see [Create and customize template labels](customize-template-labels.md).
+System customizers can create as many labels as you need for each type of template and define the display text and background color for each label. For instructions about how to make these customizations, see [Create and customize template labels](customize-template-labels.md).
 
 ## Email template compatibility and previews
 
