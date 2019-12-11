@@ -19,6 +19,13 @@ Find the right online training, in person workshops, and events for your role in
     Do you decide whether to invest in new technologies?
 
     [Business and Technical Decision Makers Learning Catalog](learning-bdm.md)
+
+    [Get started](learning-bdm.md#get-started)
+
+    [Core Platform Knowlege](learning-bdm.md#core-platform)
+
+    [Exam](learning-bdm.md#exam)
+
    
     :::column-end:::
     :::column:::
@@ -31,13 +38,13 @@ Find the right online training, in person workshops, and events for your role in
 
     [Get started](learning-bus-user.md#get-started)
 
-    [Core platform knowlege](learning-bus-user.md#core-platform)
+    [Exam](learning-bus-user.md#exam)
 
-    :::column-end:::
- :::row-end:::
- 
- :::row:::
-    :::column:::
+        :::column-end:::
+    :::row-end:::
+    :::row:::
+        :::column:::
+        
 
     ### Developers
 
@@ -63,12 +70,13 @@ Find the right online training, in person workshops, and events for your role in
 
     [Core Platform Knowlege](learning-project-manager.md#core-platform)
 
-    :::column-end:::
-    
-:::row-end:::
-    
-:::row:::
-    :::column:::
+    [Exams](learning-developer.md#exam)
+
+        :::column-end:::
+    :::row-end:::
+    :::row:::
+        :::column:::
+
 
     ### Functional consultants
     
@@ -90,8 +98,12 @@ Find the right online training, in person workshops, and events for your role in
 
     Are you responsible for helping your customers purchase the right solution?
 
+    [Sales Learning Catalog](learning-sales.md)
 
-    [Partner Sales and Marketing Learning Catalog](learning-sales.md)
+
+    [Getting started](learning-sales.md#get-started)
+
+    [Exam](learning-sales.md#exam)
 
      :::column-end:::
 :::row-end:::
