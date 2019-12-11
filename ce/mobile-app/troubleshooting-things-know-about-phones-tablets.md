@@ -23,8 +23,20 @@ search.app:
 ---
 # Potential issues and resolutions
 
+## Get a session ID
 
-## Troubleshoot *We can’t find any apps for your role* error message on Dynamics 365 for phones and tablets.
+If you encounter a problem with the mobile app, you can help Microsoft troubleshoot the problem much more effectively if you provide them with a session ID for that problem.
+
+
+1. From the navigation bar, select ![Sign out button](media/settingsmorebutton.png "Sign out button") > Settings.
+
+    ![Get a session ID](media/sessionID1.png)
+    
+2. Select **About** and then you will see the **Sesson ID.
+
+    ![Get a session ID](media/sessionID2.png)
+
+## Troubleshoot *We can’t find any apps for your role* error message on Dynamics 365 for phones and tablets.**
 
 When using Dynamics 365 for phones and tablets, you encounter the following message:
 
