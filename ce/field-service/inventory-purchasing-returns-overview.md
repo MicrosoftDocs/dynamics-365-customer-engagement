@@ -90,6 +90,7 @@ If a Work Order Product is used during a Work Order (Line Status = Used), the in
 Purchase orders are used to order products to a warehouse or directly to a work order to complete on site work. 
 
 The Purchase Order process includes:
+
 1. Requesting Products from a Vendor by creating a Purchase Order and adding Purchase Order Products
 2. Gaining approval
 3. Documenting receipt of Products by creating a PO receipt and PO Receipt Products. This will add the received Products to warehouse inventory or as Work Order Products.
@@ -100,10 +101,11 @@ The Purchase Order process includes:
 Sometimes the same organization that installs parts and equipment at a customer's location needs to process a return of that product or customer asset.
 
 Common examples for why returns may be initiated include:
-- If the product or quipment is defective
-- Customer is dissatisfied
-- A repair i needed and the repair will not take place on site, but back at the service provider's or manufacturer's location.
-- End of lease and the customer is not renewing.
+
+- The part or equipment is defective
+- The customer is dissatisfied
+- A repair is needed and the repair will not take place on site, but back at the service provider's or manufacturer's location
+- The equipment was at the customer's location as part of a lease that is ending and will not be renewed
 
 
 Field Service supports three out-of-the-box returns:
@@ -112,25 +114,14 @@ Field Service supports three out-of-the-box returns:
 - Return to Vendor
 - Change of Equipment Ownership
 
-
-
-Each Return can be related to a piece of Customer Equipment if applicable. This is another way of keeping track of service history. Throughout the lifetime of Equipment, you can see all the times it was returned, repaired, scrapped, changed owner, etc.
-
-You can issue credits to customers who return Products regardless if it is a full or partial credit based on warranty or other circumstances.
-
-All Product Returns are initiated with Return Merchandise Authorizations, simply referred to as “RMAs.” The RMA designates the Products to be returned as well as all other important information, such as warranty and pricing. It also specifies a processing action, which is the type of Return. However, the Return isn’t finalized until an RMA Receipt is created. The RMA Receipt confirms the correct Product and quantity are received as well as date and person handling the receipt.
+All Product Returns are initiated with Return Merchandise Authorizations, simply referred to as “RMAs.” The RMA designates the Products to be returned as well as all other important information, such as pricing. It also specifies a processing action, which is the type of Return. However, the return isn’t finalized until an RMA Receipt is created. The RMA Receipt confirms the correct Product and quantity were received as well as date and person handling the receipt.
 
 There are three steps when issuing a Return
 1. Create RMA
 2. Create RMA Receipt
-3. Inventory and/or Equipment adjustments are carried out (done automatically)
+3. Inventory and Customer Asset adjustments are carried out (done automatically)
 
-The RMA designates the Product, unit, quantity, related Work Order, and Price List of return. It also specifies a processing
-action, which is the type of Return.
-
-The RMA Receipt confirms the correct Product and quantity are received as well as date and person handling the receipt.
-Finally, Inventory and/or Equipment adjustments are carried out. This typically includes an increase in Inventory,
-document of Return and reason for Return, and in some cases documentation of a new owner of a Product/Equipment.
+Other important features of RMAs include the ability to issue credits to customers who initiate returns and the ability to rrack returns as part of customer asset service history.
 
 ## Inventory journals
 
