@@ -61,10 +61,12 @@ A Warehouse in Field Service is any company location that holds inventory. This 
 
 For each warehouse, you can track inventory levels for the various products at that warehouse. This is recorded in the related Product Inventory entity.
 
-Quantity Available represents how many units are left to be sold.
-Quantity Allocated represents how many units are currently listed on Work Orders as allocated Work Order products.
-Quantity on Hand represents the total of quantity available and quantity allocated.
-Quantity on Order represents how many units are currently listed on Purchase Orders but have not been received and added to Inventory yet. Basically, units that are on the way.
+For each product at the warehouse, the system tracks:
+
+**Quantity Available** - how many units are left to be sold.
+**Quantity Allocated** - how many units are currently listed on Work Orders as allocated Work Order products.
+**Quantity on Hand** - sum of quantity available and quantity allocated. Basically unsold units.
+**Quantity on Order** - how many units are currently listed on Purchase Orders but have not been received and added to Inventory yet. Basically, units that are on the way.
 
 ## Inventory adjustments and transfers
 
