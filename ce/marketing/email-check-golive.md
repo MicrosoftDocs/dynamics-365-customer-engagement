@@ -33,8 +33,8 @@ Before you can go-live with or test-send your message, it must pass an error che
 
 All messages must include the following:
 
-- Subscription center link, using a URL taken from the [content settings](dynamic-email-content.md#content-settings) using the expression `{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}` (required for commercial messages only). More information: [Add standard, required, and specialized links to your message](email-design.md#required-links) and [Use assist-edit to place dynamic field values](dynamic-email-content.md#assist-edit)
-- Sender's physical address, taken from the [content settings](dynamic-email-content.md#content-settings) using the expression `{{msdyncrm_contentsettings.msdyncrm_addressmain}}`. More information: [Use assist-edit to place dynamic field values](dynamic-email-content.md#assist-edit)
+- Subscription center link, using a URL taken from the [content settings](dynamic-email-content.md#content-settings) using the expression `{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}` (required for commercial messages only). More information: [Add standard, required, and specialized links to your message](email-design.md#required-links) and [Use assist edit to place dynamic field values](dynamic-email-content.md#assist-edit)
+- Sender's physical address, taken from the [content settings](dynamic-email-content.md#content-settings) using the expression `{{msdyncrm_contentsettings.msdyncrm_addressmain}}`. More information: [Use assist edit to place dynamic field values](dynamic-email-content.md#assist-edit)
 - A **Subject** entered as static text or a [dynamic expression](dynamic-email-content.md) that resolves to valid text.
 - A **From name** and valid **From address** entered as static text or [dynamic expressions](dynamic-email-content.md) that resolve to a valid name and address.
 - An HTML body (your message content).

@@ -1,12 +1,12 @@
 ---
 title: "Manage playbook templates (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Create and manage playbook templates to help your team consistently perform recurrent business processes such as a sales process."
-keywords: "playbook, consistent, activity, sales process, business process, best practice"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-ms.assetid: 66a9d402-bbf6-48ee-86b6-5f93fc864896
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

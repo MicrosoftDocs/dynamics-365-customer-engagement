@@ -6,9 +6,10 @@ ms.author: anjgup
 manager: shujoshi
 ms.date: 07/31/2019
 ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: b7c2eb02-765a-4b9f-b8cd-d9f0285ea10b
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Introduction to Customer Service Hub

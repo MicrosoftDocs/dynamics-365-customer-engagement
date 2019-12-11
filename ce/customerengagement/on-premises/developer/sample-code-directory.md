@@ -27,7 +27,7 @@ search.app:
 
 # Sample code directory for Dynamics 365 Customer Engagement (on-premises)
 
-The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].  
+The following sample code is included for Dynamics 365 Customer Engagement (on-premises).  
   
 <a name="BKMK_Activities"></a>
 ## Activities  
@@ -100,8 +100,8 @@ The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../i
 ## Business process flows  
 
 
-[Sample: Xrm.Page.data.process.getEnabledProcesses](https://msdn.microsoft.com/en-in/library/dn817865.aspx)<br />
-[Sample: Xrm.Page.data.process.getActivePath](https://msdn.microsoft.com/en-us/library/dn817884.aspx)<br />
+[Sample: getEnabledProcesses](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-data-process/getenabledprocesses)<br />
+[Sample: getActivePath](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-data-process/activepath/getactivepath)<br />
   
 <a name="BKMK_Charts"></a>   
 ## Charts and dashboards  
@@ -252,7 +252,7 @@ The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../i
 [Sample: Authenticate Users with Dynamics 365 Customer Engagement Web Services](sample-authenticate-users-web-services.md)<br />
 [Sample: Execute Multiple Requests](org-service/sample-execute-multiple-requests.md)<br />
 [Sample: Execute multiple requests in transaction](org-service/sample-execute-multiple-requests-transaction.md)<br />
-[Helper Code: ServerConnection Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)<br />
+[Helper Code: ServerConnection Class](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/samples-from-msdn/HelperCode/CrmServiceHelpers.cs)<br />
 [Helper Code: SystemUserProvider class](org-service/helper-code-systemuserprovider-class.md)<br />
 [Sample: Impersonation using the ActOnBehalfOf privilege](org-service/sample-impersonate-actonbehalfof-privilege.md)<br />
 [Sample: Quick Start for Dynamics 365 Customer Engagement (on-premises)](sample-quick-start.md)<br />

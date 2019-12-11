@@ -2,7 +2,7 @@
 title: "Integrate model-driven apps in Dynamics 365 with Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Integrate model-driven apps in Dynamics 365 with Microsoft Teams."
-ms.date: 10/16/2019
+ms.date: 11/19/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -29,13 +29,16 @@ If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-
 
    > [!NOTE]
    > - Microsoft Teams integration is not supported on Dynamics 365 Customer Engagement (on-premises).
+   > - Microsoft Teams integration is not supported on Common Data Service only environment without model-driven apps.
 
-Dynamics 365 for Microsoft Teams integration enables users to easily work with Common Data Service customer information and share files directly from Microsoft Teams. This helps them to be more productive and get work done more effectively. 
+Dynamics 365 for Microsoft Teams integration enables users to easily work with model-driven apps customer information and share files directly from Microsoft Teams. This helps them to be more productive and get work done more effectively. 
 
 - **Collaboration hub**: Access a shared workspace for Office apps that most of us already use to work sales opportunities.  
 - **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t a Dynamics 365 apps user.
 - **File integration**: Co-author documents using Office 365 and automatically sync to Common Data Service. 
 - **Microsoft Teams mobile app**: Search from Microsoft Teams mobile app using the Dynamics 365 bot while on the go. 
+- **Dynamics 365 assistant application for Microsoft Teams**: The Dynamics 365 assistant app is available on Microsoft Teams as part of the existing Dynamics 365 app. The app provides sellers with a simple-to-use experience by combining data from multiple sources such as Office 365 and Dynamics 365. For more information, see [Dynamics 365 assistant application for Microsoft Teams](https://docs.microsoft.com/dynamics365/ai/sales/overview-dynamics-365-assistant-app-teams).
+
 
 > [!div class="mx-imgBorder"] 
 > ![Features of Microsoft Teams app](media/teams-intro.png "Features of Microsoft Teams app")

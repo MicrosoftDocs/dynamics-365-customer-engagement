@@ -1,11 +1,12 @@
 ---
 title: "Create custom listeners for auditing, diagnostics and traces | MicrosoftDocs"
 description: "Learn about creating custom listeners that lets you target the log output to files, the event log, or other sources. Until the previous version of Unified Service Desk, you could only use the standard listeners to write auditing, diagnostics, and trace logs in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: c4290a42-e760-4eba-a11d-de605e239c2d
 author: kabala123
 ms.author: kabala
 manager: shujoshi

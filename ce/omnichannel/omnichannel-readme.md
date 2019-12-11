@@ -1,16 +1,13 @@
 ---
 title: "Known issues and limitations | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Omnichannel for Customer Service."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/10/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: BC3D3C77-982D-4F8F-B9DB-86854A1634F8
-ms.custom: 
 ---
 
 # Omnichannel for Customer Service readme (known issues and limitations)

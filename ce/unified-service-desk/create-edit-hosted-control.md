@@ -1,11 +1,12 @@
 ---
 title: "Create or edit a hosted control | MicrosoftDocs"
 description: "Learn about creating or editing an existing hosted control."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 738ededa-c01e-42a5-b5ee-56885c764a59
 author: kabala123
 ms.author: kabala
 manager: shujoshi

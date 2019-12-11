@@ -1,16 +1,13 @@
 ---
 title: "Manage sessions in Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Learn how to manage sessions using the session panel in Omnichannel for Customer Service app"
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 56B33304-9A3C-4ECF-9C4B-5D838323C327
-ms.custom: 
 ---
 
 # Manage sessions in Omnichannel for Customer Service

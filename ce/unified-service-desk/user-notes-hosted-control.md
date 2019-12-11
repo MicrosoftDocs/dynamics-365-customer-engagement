@@ -1,18 +1,19 @@
 ---
 title: "User Notes (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the User Notes type of hosted control in Unified Servoce Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 7d3fec60-2f91-4b25-8a80-f41def5a5f74
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType:
+search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 ---

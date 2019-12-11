@@ -1,11 +1,12 @@
 ---
 title: "Import hosted application from Unified Service Desk  | MicrosoftDocs"
 description: "Learn about importing the hosted application from Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 78a6d0fc-f4cd-4052-b2da-e73c2c897d08
 author: kabala123
 ms.author: kabala
 manager: shujoshi

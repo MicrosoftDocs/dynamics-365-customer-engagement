@@ -1,13 +1,13 @@
 ---
-title: Sales Enterprise and Professional Learning Catalog 
-description: Find all the training options for Dynamics 365 Sales Enterprise and Professional. 
+title: Sales Professional and Enterprise Learning Catalog 
+description: Find all the training options for Dynamics 365 Sales Professional and Enterprise. 
 author: loreleishannonmsft
 ms.topic: article
 ms.date: 11/01/2019
 ms.author: v-lshann
 ---
 
-# Sales Enterprise and Professional Learning Catalog
+# Sales Professional and Enterprise Learning Catalog
 Find the right online training, in person workshops, and events for your role in Dynamics 365 Sales.
 
 :::row:::
@@ -25,8 +25,9 @@ Find the right online training, in person workshops, and events for your role in
     [Core Platform Knowlege](learning-bus-decision_makers.md#core-platform)
 
     [Exam](learning-bus-decision_makers.md#exam)
+
    
-        :::column-end:::
+    :::column-end:::
     :::column:::
 
     ### Business users
@@ -44,6 +45,7 @@ Find the right online training, in person workshops, and events for your role in
     :::row:::
         :::column:::
         
+
     ### Developers
 
     Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?
@@ -54,18 +56,19 @@ Find the right online training, in person workshops, and events for your role in
 
     [Extend](learning-developer.md#extend)
 
-        :::column-end:::
+    :::column-end:::
+    
     :::column:::
 
     ### Implementation project managers
 
     Are you in charge of making sure your company’s implementation goes smoothly?
 
-    [Project Managers Learning Catalog](learning-project_manager.md)
+    [Project Managers Learning Catalog](learning-project-manager.md)
 
-    [Get started](learning-project_manager.md#get-started)
+    [Get started](learning-project-manager.md#get-started)
 
-    [Core Platform Knowlege](learning-project_manager.md#core-platform)
+    [Core Platform Knowlege](learning-project-manager.md#core-platform)
 
     [Exams](learning-developer.md#exam)
 
@@ -73,6 +76,7 @@ Find the right online training, in person workshops, and events for your role in
     :::row-end:::
     :::row:::
         :::column:::
+
 
     ### Functional consultants
     
@@ -86,7 +90,8 @@ Find the right online training, in person workshops, and events for your role in
 
     [Exams](learning-functional-consultant.md#exam)
 
-        :::column-end:::
+    :::column-end:::
+    
     :::column:::
 
     ### Partner sales and marketing
@@ -94,6 +99,7 @@ Find the right online training, in person workshops, and events for your role in
     Are you responsible for helping your customers purchase the right solution?
 
     [Sales Learning Catalog](learning-sales.md)
+
 
     [Getting started](learning-sales.md#get-started)
 

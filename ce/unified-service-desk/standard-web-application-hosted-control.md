@@ -1,11 +1,12 @@
 ---
 title: "Standard Web Application (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn about Standard Web Application type of hosted control in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 0c2f9b12-07f1-455a-9e2d-9a51351f3188
 author: kabala123
 ms.author: kabala
 manager: shujoshi

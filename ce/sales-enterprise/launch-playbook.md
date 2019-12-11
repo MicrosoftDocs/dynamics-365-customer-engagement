@@ -1,12 +1,12 @@
 ---
 title: "Launch a playbook to carry out activities consistently (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Playbooks lets you consistently perform recurrent business processes such as a sales process."
-keywords: "playbook, launch, run, report"
 ms.date: 02/20/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-ms.assetid: 7af39c5d-fc85-4dcd-9744-15baa3e8cdf8
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

@@ -1,14 +1,12 @@
 ---
-title: "Preview: Send email using the enhanced email experience in Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Preview  Send email using the enhanced email experience in Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Set up the enhanced email experience so sales reps can compose and send email without leaving the context of what they are working on."
-keywords: "email, popup, pop-up, context, enhanced, set up"
 ms.date: 10/17/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
