@@ -74,31 +74,15 @@ For each product at the warehouse, the system tracks:
 
 **Inventory Transfers** is a feature that allows you to transfer Inventory from a source Warehouse to a destination warehouse. The most common example of this is transferring Inventory from a Warehouse to a technicians’s truck.
 
-You can also enable adjustments and transfers on the Field Service Mobile app to allow technicians to meet in the field and record an inventory transfer from one truck to another as one exmaple.
+You can also enable adjustments and transfers on the Field Service Mobile app to allow technicians to meet in the field and record an inventory transfer from one truck to another as one example.
 
 ## Work order inventory
 
-Adding Products to Work Orders affects Inventory.
-As an example, adding a Product as estimated reserves a portion of Inventory from the specified Warehouse, though it
-doesn’t actually deduct it.
-If a Work Order Product is added as used or an estimated Product is then used and sold to a customer during a Work
-Order, this will deduct the Product from Inventory
+Adding products to work orders and using them affects inventory. 
 
-We can add a Product to a Work Order as estimated. This
-will allocate a portion of that Warehouse’s Inventory. It is also
-important to note that we can skip the warehousing and transfer
-process if we need to and send parts directly from a Purchase
-Order to a Work Order location. This is done by simply relating a
-Purchase Order to a Work Order. Refer to the LMS course titled
-“Purchase Orders” for more details.
+As an example, adding a product as estimated and allocated (Line Status = Estimated, Allocated = Yes) reserves a portion of inventory from the specified warehouse, though it doesn’t actually deduct it.
 
-Adding a Product to a Work Order affects Inventory
-There are two options when adding a Product as Estimated to a Work Order:
-Not marked as Allocated: not reserving Product but specifying need
-Marked as Allocated: reserving Product for the Work Order
-Next, a Product may be added to a Work Order as Used
-This deducts it from Inventory
-And may allow it to become a piece of Customer Equipment depending if the Product is marked to do so
+If a Work Order Product is used (Line Status = Used) during a Work Order, the inventory at the related warehouse is deducted by the work order prduct quantity.
 
 ## Inventory journals
 
@@ -117,7 +101,7 @@ A P.O. Receipt does not need to contain all Products requested or all quantities
 will be received as they arrive. Some Products may arrive sooner and larger quantity shipments may arrive in
 numerous shipments. In these situations, numerous P.O. Receipts can be created for a single Purchase Order
 
- 
+ We can add a Product to a Work Order as estimated. This will allocate a portion of that Warehouse’s Inventory. It is also important to note that we can skip the warehousing and transfer process if we need to and send parts directly from a Purchase Order to a Work Order location. This is done by simply relating a Purchase Order to a Work Order. 
 
 ## Returns
 
