@@ -43,8 +43,8 @@ Multi-language sentiment scoring is enabled by default.
 
 Conversations in more than 40 languages are scored:
 
-    > [!div class=mx-imgBorder]
-    > ![Language list](../media/oc-sentiment-langauge-list.png "Language list") 
+   > [!div class=mx-imgBorder]
+   > ![Language list](../media/oc-sentiment-langauge-list.png "Language list") 
 
 
 
