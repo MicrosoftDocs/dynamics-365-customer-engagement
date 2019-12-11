@@ -1,12 +1,12 @@
 ---
 title: "Monitor real-time customer sentiment | MicrosoftDocs"
 description: "Learn how to monitor real-time customer sentiment while interacting with customers."
-author: kabala123
-ms.author: kabala
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 10/31/2019
+ms.date: 12/13/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -16,13 +16,13 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-As an agent, when you interact with your customers, you want to know their sentiment intensities in real time. Analysis of the customer's satisfaction helps you understand the problem level and take a course of action to solve the problem. In Omnichannel for Customer Service, you can see the customer's satisfaction levels instantly while you communicate with the customer.
+As an agent, when you interact with your customers, you want to know the sentiments they're experiencing in real time. Analysis of the customer's satisfaction level helps you understand how serious the problem is and develop a course of action to solve it. In Omnichannel for Customer Service, you can see the customer's satisfaction levels instantly while you communicate with the customer.
 
 ## View real-time customer sentiment
 
-The real-time sentiment is displayed at the top of the communication panel. The sentiment icon changes dynamically based on the most recent six customer messages sent to you.
+A customer's real-time sentiment is displayed at the top of the communication panel. The sentiment icon changes dynamically based on the six most recent customer messages sent to you.
 
-When you get an incoming conversation request, you accept the request and communicate with the customer. By default, you see the neutral sentiment icon, which indicates at this moment the customer satisfaction is neutral. As you continue to communicate with the customer, the sentiment icon changes dynamically according to the conversation.
+When you get an incoming conversation request, you accept the request and communicate with the customer. By default, you see the neutral sentiment icon, which indicates that at this moment the customer's satisfaction level is neutral. As you continue to communicate with the customer, the sentiment icon changes dynamically according to the conversation.
 
 When a conversation is escalated from a bot, the sentiment icon you see is based on the previous messages exchanged between the customer and the bot.
 
@@ -46,12 +46,14 @@ The sentiment icons displayed on the communication panel are as follows:
 | Very negative | ![Very negative sentiment](../../media/oceh/sentiment-very-negative.png "Very negative sentiment") |
 
 > [!Note]
-> The real-time sentiment is shown to you only if the supervisor or administrator has enabled sentiment analysis for a queue where you are added as a member.
+> The real-time sentiment is shown to you only if the supervisor or administrator has enabled sentiment analysis for a queue where you've been added as a member.
+
+If profanity is detected in English, the sentiment is displayed as Negative or Very negative.
 
 > [!div class="nextstepaction"]
 > [Next topic: Manage presence status](oc-manage-presence-status.md)
 
-##  Preview: Multi-language sentiment 
+##  Preview: Multi-language sentiment
 
 Multi-language sentiment displays sentiment scores on some non-English conversations.
 
@@ -60,13 +62,14 @@ Multi-language sentiment displays sentiment scores on some non-English conversat
 
 To learn more, see [multi-language sentiment](../../administrator/enable-sentiment-analysis.md).
 
-## See also
+<!--note from editor: See also sections should be H3s, so they won't appear in the article's mini-TOC. Note also, some of the topic titles need attention (i.e. they need "a"s and "the"s), but I realize this is a more pervasive change than you've asked for today.-->
+### See also
 
 - [Introduction to the agent interface](oc-introduction-agent-interface.md)
 - [Enable sentiment analysis](../../administrator/enable-sentiment-analysis.md)
 - [Manage sessions](oc-manage-sessions.md)
 - [Manage applications](oc-manage-applications.md)
-- [View customer summary](oc-customer-summary.md)
+- [View the customer summary](oc-customer-summary.md)
 - [Search for and share knowledge articles](oc-search-knowledge-articles.md)
-- [Take notes specific to conversation](oc-take-notes.md)
-- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+- [Take notes specific to a conversation](oc-take-notes.md)
+- [View the customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
