@@ -33,9 +33,9 @@ Dynamics 365 Field Service inventory capabilities include:
 - Warehousing
 - Inventory adjustments and transfers
 - Consuming and billing products during Work Orders
-- Inventory journals
 - Purchasing
 - Returns
+- Inventory journals
 
 For basic inventory requirements, many organizations utilize the above capabilities included with Field Service. For more complex inventory and pricing requirements, Field Service is designed to integrate with enterprise resource planning (ERP) systems. A common example is integrating to [Dynamics 365 Finance & Operations](https://docs.microsoft.com/en-us/dynamics365/supply-chain/sales-marketing/prospect-to-cash) using a pre-built [common data service "prospect to cash" template](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3?src=office&tab=Overview).
 
@@ -82,7 +82,52 @@ Adding products to work orders and using them affects inventory.
 
 As an example, adding a product as estimated and allocated (Line Status = Estimated, Allocated = Yes) reserves a portion of inventory from the specified warehouse, though it doesn’t actually deduct it.
 
-If a Work Order Product is used (Line Status = Used) during a Work Order, the inventory at the related warehouse is deducted by the work order prduct quantity.
+If a Work Order Product is used during a Work Order (Line Status = Used), the inventory at the related warehouse is deducted by the work order product quantity. Typically, the warehouse listed on a work order product is the technician's truck.
+
+
+## Purchase orders
+
+Purchase orders are used to order products to a warehouse or directly to a work order to complete on site work. 
+
+The Purchase Order process includes:
+1. Requesting Products from a Vendor by creating a Purchase Order and adding Purchase Order Products
+2. Gaining approval
+3. Documenting receipt of Products by creating a PO receipt and PO Receipt Products. This will add the received Products to warehouse inventory or as Work Order Products.
+
+
+## Returns
+
+Field Service supports three out-of-the-box returns:
+
+- Return to Warehouse
+- Return to Vendor
+- Change of Equipment Ownership
+
+Returns can be categorized to gain important analytics.
+- Common examples include:
+- Defect
+- Customer dissatisfaction
+- Repair under warranty
+- Repair not under warranty
+- End of lease
+
+Each Return can be related to a piece of Customer Equipment if applicable. This is another way of keeping track of service history. Throughout the lifetime of Equipment, you can see all the times it was returned, repaired, scrapped, changed owner, etc.
+
+You can issue credits to customers who return Products regardless if it is a full or partial credit based on warranty or other circumstances.
+
+All Product Returns are initiated with Return Merchandise Authorizations, simply referred to as “RMAs.” The RMA designates the Products to be returned as well as all other important information, such as warranty and pricing. It also specifies a processing action, which is the type of Return. However, the Return isn’t finalized until an RMA Receipt is created. The RMA Receipt confirms the correct Product and quantity are received as well as date and person handling the receipt.
+
+There are three steps when issuing a Return
+1. Create RMA
+2. Create RMA Receipt
+3. Inventory and/or Equipment adjustments are carried out (done automatically)
+
+The RMA designates the Product, unit, quantity, related Work Order, and Price List of return. It also specifies a processing
+action, which is the type of Return.
+
+The RMA Receipt confirms the correct Product and quantity are received as well as date and person handling the receipt.
+Finally, Inventory and/or Equipment adjustments are carried out. This typically includes an increase in Inventory,
+document of Return and reason for Return, and in some cases documentation of a new owner of a Product/Equipment.
 
 ## Inventory journals
 
@@ -90,63 +135,8 @@ Inventory Journals are kept for each Warehouse. They keep track of Product movem
 Navigate to a Warehouse
 Select the Inventory Journals tile in the ribbon
 
-## Purchase orders
-
-The Purchase Order process includes:
-Requesting Products from a Vendor by creating a Purchase Order
-Gaining approval
-Finally, documenting receipt of Products by creating a PO receipt. This will add the ordered Product to Inventory
-
-A P.O. Receipt does not need to contain all Products requested or all quantities requested. Oftentimes, Products
-will be received as they arrive. Some Products may arrive sooner and larger quantity shipments may arrive in
-numerous shipments. In these situations, numerous P.O. Receipts can be created for a single Purchase Order
-
- We can add a Product to a Work Order as estimated. This will allocate a portion of that Warehouse’s Inventory. It is also important to note that we can skip the warehousing and transfer process if we need to and send parts directly from a Purchase Order to a Work Order location. This is done by simply relating a Purchase Order to a Work Order. 
-
-## Returns
-
-FieldOne Sky supports three out-of-the-box Returns:
-Return to Warehouse
-Return to Vendor
-Change of Equipment Ownership
-
-Returns can be categorized to gain important analytics.
-Common examples include:
-Defect
-Customer dissatisfaction
-Repair under warranty
-Repair not under warranty
-End of lease
-Each Return can be related to a piece of Customer Equipment if applicable. This is another way of keeping track of service
-history. Throughout the lifetime of Equipment, you can see all the times it was returned, repaired, scrapped, changed
-owner, etc.
-You can issue credits to customers who return Products regardless if it is a full or partial credit based on warranty or other
-circumstances.
-
-All Product Returns are initiated with Return
-Merchandise Authorizations, simply referred to
-as “RMAs.” The RMA designates the Products
-to be returned as well as all other important
-information, such as warranty and pricing. It
-also specifies a processing action, which is
-the type of Return.
-However, the Return isn’t finalized until an
-RMA Receipt is created. The RMA Receipt
-confirms the correct Product and quantity are
-received as well as date and person handling
-the receipt.
-
-There are three steps when issuing a Return
-Create RMA
-Create RMA Receipt
-Inventory and/or Equipment adjustments are carried out (done automatically)
-The RMA designates the Product, unit, quantity, related Work Order, and Price List of return. It also specifies a processing
-action, which is the type of Return.
-The RMA Receipt confirms the correct Product and quantity are received as well as date and person handling the receipt.
-Finally, Inventory and/or Equipment adjustments are carried out. This typically includes an increase in Inventory,
-document of Return and reason for Return, and in some cases documentation of a new owner of a Product/Equipment.
-
 ## Configuration considerations
 - Inventory purchase security role
+- truck on bookable resource record
 
 ## Additional Notes

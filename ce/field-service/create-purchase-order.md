@@ -117,6 +117,10 @@ When you create a [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-fie
 2.  On the **Active Ship Via** screen, click **+New** in the upper left corner.  
   
 3.  Use the tooltips to help you fill in your information, and then click **Save**.  
+
+A P.O. Receipt does not need to contain all Products requested or all quantities requested. Oftentimes, Products
+will be received as they arrive. Some Products may arrive sooner and larger quantity shipments may arrive in
+numerous shipments. In these situations, numerous P.O. Receipts can be created for a single Purchase Order
   
 ### See also      
  [Configure and set up customer assets](../field-service/configure-set-up-customer-assets.md)   

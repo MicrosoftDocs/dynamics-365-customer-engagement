@@ -172,11 +172,10 @@ When you create a [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-fie
 3.  Use the tooltips to help you fill in your information, and then click **Save**.  
   
 ### See also    
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Configure and set up customer assets](../field-service/configure-set-up-customer-assets.md)   
  [Create a purchase order](../field-service/create-purchase-order.md)   
  [Create an inventory adjustment](../field-service/create-inventory-adjustment.md)   
  [Create an inventory transfer](../field-service/create-inventory-transfer.md)   
  [View product inventory](../field-service/view-product-inventory.md)   
  [Create a return to vendo](../field-service/create-return-vendor.md)<br>
- [User's Guide](../field-service/user-guide.md)
+
