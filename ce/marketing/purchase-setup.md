@@ -34,9 +34,11 @@ Read this topic to learn how to set up a new Dynamics 365 Marketing instance aft
 
 ## How Marketing is licensed
 
-Production versions of Dynamics 365 Marketing are licensed per instance, with each instance priced according to the number of *marketing contacts* stored in your database. Marketing contacts only include those that you engage with marketing activities such as emails, landing pages, forms, LinkedIn integration, events, and surveys. Contacts that you never engage in marketing activities won't be counted as part of your Dynamics 365 Marketing license. Each license also includes quotas that limit the total number of free Litmus inbox previews you can view and marketing email messages you can send each month. See your license agreement for complete details about the quota limits that apply to you. You can view your quota limits and consumption on the [Quota limits](quota-management.md) page. While you're planning your marketing activities, please be sure to purchase enough marketing contacts to remain within your quota.
+Dynamics 365 Marketing has several licensing options:
 
-You can also purchase sandbox-only licenses for Dynamics 365 Marketing. This license entitles you to set up a test instance for trying out new features or customizations. Sandboxes are fully functional, but have much stricter quotas and can't be used to run production campaigns. They are significantly less expensive than production licenses, but are also much more limited.
+- **Production (full) license**: Production versions of Dynamics 365 Marketing are licensed per instance, with each instance priced according to the number of *marketing contacts* stored in your database. Marketing contacts only include those that you engage with marketing activities such as emails, landing pages, forms, LinkedIn integration, events, and surveys. Contacts that you never engage in marketing activities won't be counted as part of your Dynamics 365 Marketing license. Each license also includes quotas that limit the total number of free Litmus inbox previews you can view and marketing email messages you can send each month. See your license agreement for complete details about the quota limits that apply to you. You can view your quota limits and consumption on the [Quota limits](quota-management.md) page. While you're planning your marketing activities, please be sure to purchase enough marketing contacts to remain within your quota.
+- **Sandbox-only license**: A sandbox-only license entitles you to set up a test instance for trying out new features or customizations. Sandboxes are fully functional, but have much stricter quotas and can't be used to run production campaigns. They are significantly less expensive than production licenses, but are also much more limited.
+- **Solution-only license**: A solution-only license includes all of the entities and solutions for Dynamics 365 Marketing, but doesn't include any of the marketing services, which means that many features, including email delivery and insights, aren't available. This license is intended for use on development instances for testing certain types of customizations and compatibility issues.
 
 > [!NOTE]
 > When you sign up for Dynamics 365 Marketing, you'll choose a licensing option that defines your contract period and various quotas for that period. Each of the contacts that you engage through marketing activities during the contract period count against your total contact quota, even if you delete, or otherwise stop marketing to, an existing marketing contact during the contract period. You can only reduce your purchased contact quota on contract renewal date.
@@ -99,7 +101,9 @@ To set up a new Marketing instance:
 
    ![Set up Marketing using the Applications tab, not the Instances tab](media/purchase-app-tab.png "Set up Marketing using the Applications tab, not the Instances tab")
 
-1. Find and select an unconfigured **Dynamics 365 Marketing Application** in the list on the **Applications** tab. Then choose **Manage** from the side panel.  
+1. Find and select an unconfigured **Dynamics 365 Marketing Application** in the list on the **Applications** tab. Then choose **Manage** from the side panel. You may have more than one type of license available, so be sure to pick the one that meets your needs. They are identified as follows:
+    - **Dynamics 365 Marketing Application**: This will install both solutions and services.
+    - **Dynamics 365 Marketing - Solution Only**: This will install the Dynamics 365 Marketing solutions, including all database entities, but not the services. Many features, including email delivery and insights, won't be available.
 
     ![Choose an app and then select the Manage button](media/purchase-manage-button.png "Choose an app and then select the Manage button")
 
