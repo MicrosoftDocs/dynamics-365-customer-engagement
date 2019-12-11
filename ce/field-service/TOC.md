@@ -107,14 +107,10 @@
 ## [Create an inventory transfer](create-inventory-transfer.md)
 ## [Create an inventory adjustment](create-inventory-adjustment.md)
 ## [Manual inventory journals](manual-inventory-journals.md)
+## [Create a purchase order](create-purchase-order.md)
 ## [Process a return](process-return.md)
 ## [Return product to vendor](create-return-vendor.md)
-## [RMA sub-status](create-rma-sub-status.md)
-## [RTV sub-statuses](set-up-rtv-sub-statuses.md)
-## [Ship via](create-ship-via.md)
-## [Create a purchase order](create-purchase-order.md)
-## [Purchase order sub-statuses](set-up-purchase-order-sub-statuses.md)
-## [Payment terms](set-up-payment-terms.md)
+
 
 # Resource Scheduling Optimization (RSO) add-in
 ## [Overview](rso-overview.md)

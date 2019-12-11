@@ -122,6 +122,8 @@ A P.O. Receipt does not need to contain all Products requested or all quantities
 will be received as they arrive. Some Products may arrive sooner and larger quantity shipments may arrive in
 numerous shipments. In these situations, numerous P.O. Receipts can be created for a single Purchase Order
 
+ 
+
 ## Returns
 
 FieldOne Sky supports three out-of-the-box Returns:

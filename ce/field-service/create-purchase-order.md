@@ -105,13 +105,24 @@ In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]
 5.  To add items on the bill, from the top menu, click the drop-down arrow next to the bill name, and then click **Receipt Products**.  
   
 6.  On the **Purchase Order receipt Product Associated View** screen, click **+Add New Purchase Order Receipt Products**, and then add the item.  
+
+## Ship via
+
+When you create a [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] purchase order in the system, it's a good idea  to track how the order is shipped. This helps you track the purchase order. The ship-via option lets you specify different shipping methods used by your company.  
   
-### See also    
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
+ For example, you might use freight shipping, USPS Ground, or FedEx when products are purchased. In this case, you can specify these shipping methods in the ship-via setting. When you create ship-via methods, you'll see this in the purchase order form.  
+  
+1.  From the main menu, click **Field Service** > **Administration**, and then choose **Ship Via**.  
+  
+2.  On the **Active Ship Via** screen, click **+New** in the upper left corner.  
+  
+3.  Use the tooltips to help you fill in your information, and then click **Save**.  
+  
+### See also      
  [Configure and set up customer assets](../field-service/configure-set-up-customer-assets.md)   
  [Create an inventory adjustment](../field-service/create-inventory-adjustment.md)   
  [Create an inventory transfer](../field-service/create-inventory-transfer.md)   
  [View product inventory](../field-service/view-product-inventory.md)   
  [Create a return to vendor](../field-service/create-return-vendor.md)   
  [Process a return](../field-service/process-return.md)<br>
- [User's Guide](../field-service/user-guide.md)
+

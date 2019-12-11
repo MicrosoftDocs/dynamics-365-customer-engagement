@@ -158,6 +158,18 @@ You only need to create an RTV if the return is going back to the vendor. Once t
 12. Click the RMA receipt.  
   
 13. On the command bar at the top, click **Credit to Customer**.  
+
+## Ship via
+
+When you create a [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] purchase order in the system, it's a good idea  to track how the order is shipped. This helps you track the purchase order. The ship-via option lets you specify different shipping methods used by your company.  
+  
+ For example, you might use freight shipping, USPS Ground, or FedEx when products are purchased. In this case, you can specify these shipping methods in the ship-via setting. When you create ship-via methods, you'll see this in the purchase order form.  
+  
+1.  From the main menu, click **Field Service** > **Administration**, and then choose **Ship Via**.  
+  
+2.  On the **Active Ship Via** screen, click **+New** in the upper left corner.  
+  
+3.  Use the tooltips to help you fill in your information, and then click **Save**.  
   
 ### See also    
  [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
