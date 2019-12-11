@@ -138,7 +138,11 @@ Most importantly, inventory journals are sometimes used to integrate Field Servi
 > ![Screenshot of advanced find in Dynamics 365](./media/work-order-product-inv-journals.png)
 
 ## Configuration considerations
-- Inventory purchase security role
-- truck on bookable resource record
+- Adding the **Inventory Purchase** security role to a user's existing security role (Dispatcher or Resource) will give them access to create and edit inventory related entities such as Warehouse, Purchase Orders, and RMAs.
+- By adding a warehouse to each Bookable Resource, you can define the default warehouse that will be used when that bookable resource uses a work order product.
 
-## Additional Notes
+### See also
+
+[Products and services](./create-product-or-service.md)
+
+[Manual inventory journals](./manual-inventory-journals.md)
