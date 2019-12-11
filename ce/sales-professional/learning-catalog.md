@@ -18,13 +18,13 @@ Find the right online training, in person workshops, and events for your role in
 
     Do you decide whether to invest in new technologies?
 
-    [Business and Technical Decision Makers Learning Catalog](learning-bus-decision_makers.md)
+    [Business and Technical Decision Makers Learning Catalog](learning-bdm.md)
 
-    [Get started](learning-bus-decision_makers.md#get-started)
+    [Get started](learning-bdm.md#get-started)
 
-    [Core Platform Knowlege](learning-bus-decision_makers.md#core-platform)
+    [Core Platform Knowlege](learning-bdm.md#core-platform)
 
-    [Exam](learning-bus-decision_makers.md#exam)
+    [Exam](learning-bdm.md#exam)
 
    
     :::column-end:::
