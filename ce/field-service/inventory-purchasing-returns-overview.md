@@ -111,29 +111,12 @@ If a Work Order Product is used during a Work Order (Line Status = Used), the in
 
 Purchase orders are used to order products to a warehouse or directly to a work order to complete on site work. 
 
-
-
 The Purchase Order process includes:
 
 1. Requesting Products from a Vendor by creating a Purchase Order and adding Purchase Order Products
 2. Gaining approval
 3. Documenting receipt of Products by creating a PO receipt and PO Receipt Products. This will add the received Products to warehouse inventory or as Work Order Products.
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inventory-purchase-order.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inventory-purchase-order-products.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inventory-purchase-order-receipt.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inventory-purchase-order-receipt-product.png)
 
 ## Returns
 
