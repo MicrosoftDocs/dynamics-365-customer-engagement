@@ -97,19 +97,22 @@ The Purchase Order process includes:
 
 ## Returns
 
+Sometimes the same organization that installs parts and equipment at a customer's location needs to process a return of that product or customer asset.
+
+Common examples for why returns may be initiated include:
+- If the product or quipment is defective
+- Customer is dissatisfied
+- A repair i needed and the repair will not take place on site, but back at the service provider's or manufacturer's location.
+- End of lease and the customer is not renewing.
+
+
 Field Service supports three out-of-the-box returns:
 
 - Return to Warehouse
 - Return to Vendor
 - Change of Equipment Ownership
 
-Returns can be categorized to gain important analytics.
-- Common examples include:
-- Defect
-- Customer dissatisfaction
-- Repair under warranty
-- Repair not under warranty
-- End of lease
+
 
 Each Return can be related to a piece of Customer Equipment if applicable. This is another way of keeping track of service history. Throughout the lifetime of Equipment, you can see all the times it was returned, repaired, scrapped, changed owner, etc.
 
