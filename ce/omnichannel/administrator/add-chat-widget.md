@@ -30,12 +30,12 @@ ms.topic: article
         > [!NOTE]
         > If you save the chat widget, you can't edit the **Work stream** field. If you want to edit the field, you must delete the chat widget and create a new one.
         
-        3. In the **File Attachments** section, select the options to allow or deny customers and agents to attach and send files as attachments. More information: [Configure file attachment capability](configure-file-attachment.md).
-        4. In the **Chat Transcripts** section, select the options to download and email the chat transcripts. More information: [Configure download and email of chat transcripts](download-email-chat-transcripts.md).
-        5. In the **Queue position** section, set the option to show customers their position in the queue when they are waiting to interact with an agent. More information: [Show customers their position in a queue](show-queue.md). 
-        <!--note from editor: In the screenshot, there is no Queue position section. Where is that? -->
-
-        6. Copy the value in the **Code snippet** section and embed it in the HTML source of your website where you need to display the chat widget.
+        3. In the **Proactive chat** section, select the options to enable or disable proactive chat. More information: [Configure proactive chat](proactive-chat.md).
+        4. In the **File Attachments** section, select the options to allow or deny customers and agents to attach and send files as attachments. More information: [Configure file attachment capability](configure-file-attachment.md).
+        5. In the **Chat Transcripts** section, select the options to download and email the chat transcripts. More information: [Configure download and email of chat transcripts](download-email-chat-transcripts.md).
+        6. In the **Queue position** section, set the option to show customers their position in the queue when they are waiting to interact with an agent. More information: [Show customers their position in a queue](show-queue.md). 
+        
+        7. Copy the value in the **Code snippet** section and embed it in the HTML source of your website where you need to display the chat widget.
         
         > [!div class=mx-imgBorder]
         > ![Configure the basic details of a chat widget](../media/oc-chat-widget-basic-details-tab.png "Configure the basic details of a chat widget")
