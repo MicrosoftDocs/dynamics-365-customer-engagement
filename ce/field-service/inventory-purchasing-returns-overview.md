@@ -53,11 +53,13 @@ Knowledge of [Field Service product catalog capabilities](./create-product-or-se
 ## Warehouses and product inventory
 
 A Warehouse in Field Service is any company location that holds inventory. This includes static as well as mobile locations such as:
+
 - Warehouses
 - Technician trucks
 - Distribution centers
 - Loading docks
 
+For each warehouse, you can track inventory levels for the various products at that warehouse. This is recorded in the related Product Inventory entity.
 
 Quantity Available represents how many units are left to be sold.
 Quantity Allocated represents how many units are currently listed on Work Orders as allocated Work Order products.
