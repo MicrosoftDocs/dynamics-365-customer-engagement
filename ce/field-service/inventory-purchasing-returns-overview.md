@@ -121,13 +121,13 @@ There are three steps when issuing a Return
 2. Create RMA Receipt
 3. Inventory and Customer Asset adjustments are carried out (done automatically)
 
-Other important features of RMAs include the ability to issue credits to customers who initiate returns and the ability to rrack returns as part of customer asset service history.
+Other important features of RMAs include the ability to issue credits to customers who initiate returns and the ability to track returns as part of customer asset service history.
 
 ## Inventory journals
 
-Inventory Journals are kept for each Warehouse. They keep track of Product movements
-Navigate to a Warehouse
-Select the Inventory Journals tile in the ribbon
+All inventory transactions are recorded in the Inventory Journals entity. As an example, when one product is allocated to a work order, an inventory journal is created that increases Quantity Allocated by 1. When that same product is then used to complete the work order, another inventory journal is created that decreases Quantity On Hand. This happens for all increases and decreases of product inventory. Basically, inventory journals serve as an inventory ledger within Field Service.
+
+Most importantly, inventory journals are sometimes used to integrate Field Service inventory transactions into external ERP systems depending on how the integration is architected. To make integrations easier and more flexible, [inventory journals can be manually created](./manual-inventory-journals.md). 
 
 ## Configuration considerations
 - Inventory purchase security role
