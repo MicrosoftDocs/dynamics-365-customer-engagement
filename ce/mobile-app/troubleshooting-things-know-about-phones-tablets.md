@@ -30,11 +30,13 @@ If you encounter a problem with the mobile app, you can help Microsoft troublesh
 
 1. From the navigation bar, select ![Sign out button](media/settingsmorebutton.png "Sign out button") > Settings.
 
-    ![Get a session ID](media/sessionID1.png)
+   > [!div class="mx-imgBorder"]
+   > ![Get a session ID](media/sessionID1.png)
     
-2. Select **About** and then you will see the **Sesson ID.
+2. Select **About** and then you will see the **Sesson ID**.
 
-    ![Get a session ID](media/sessionID2.png)
+   > [!div class="mx-imgBorder"]
+   > ![Get a session ID](media/sessionID2.png)
 
 ## Troubleshoot *We can’t find any apps for your role* error message on Dynamics 365 for phones and tablets.**
 
