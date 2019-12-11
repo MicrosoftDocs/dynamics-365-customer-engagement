@@ -31,8 +31,8 @@ search.app:
 Dynamics 365 Field Service inventory capabilities include:
 
 - Warehousing
-- Adjustments and transfers
-- Consuming and billing products through the Work Order process
+- Inventory adjustments and transfers
+- Consuming and billing products during Work Orders
 - Inventory journals
 - Purchasing
 - Returns
@@ -52,24 +52,17 @@ Knowledge of [Field Service product catalog capabilities](./create-product-or-se
 
 ## Warehouses and product inventory
 
-A Warehouse in FieldOne Sky is any company location that holds Inventory. This includes static as well as mobile locations
-such as:
-Warehouses
-Distribution centers
-Loading docks
-Trucks
+A Warehouse in Field Service is any company location that holds inventory. This includes static as well as mobile locations such as:
+- Warehouses
+- Technician trucks
+- Distribution centers
+- Loading docks
 
-Quantity Available represents how many
-units are left to be sold.
-Quantity Allocated represents how many
-units are currently listed on Work Orders as
-Work Order products.
-Quantity on Hand represents the total of
-quantity available and quantity allocated.
-Quantity on Order represents how many units
-are currently listed on Purchase Orders but
-have not been received and added to Inventory
-yet. Basically, units that are on the way
+
+Quantity Available represents how many units are left to be sold.
+Quantity Allocated represents how many units are currently listed on Work Orders as allocated Work Order products.
+Quantity on Hand represents the total of quantity available and quantity allocated.
+Quantity on Order represents how many units are currently listed on Purchase Orders but have not been received and added to Inventory yet. Basically, units that are on the way.
 
 ## Inventory adjustments and transfers
 
