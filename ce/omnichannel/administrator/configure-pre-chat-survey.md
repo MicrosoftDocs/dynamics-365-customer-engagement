@@ -4,7 +4,7 @@ description: "Instructions to configure a pre-chat survey in Omnichannel for Cus
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
-ms.date: 08/29/2019
+ms.date: 12/13/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -34,12 +34,12 @@ You can configure your chat widget to show users a survey that they must respond
         - **Single line**: The user can enter a single line of text.
         - **Multiple lines**: The user can enter multiple lines of text.
         - **Option set**: The user can select an option in a drop-down list. You must enter options separated by a semi-colon.
-        - **User Consent**: Use this option to request user consent for the pre-chat survey. You can provide a link to a webpage, such as the privacy policy page. The links should be in the following format: [link text](link to the webpage). A check box will appear beside the question text in the pre-chat survey.
+        - **User consent**: Use this option to request user consent for the pre-chat survey. You can provide a link to a webpage, such as the privacy policy page. Links must be in the following format: [link text](link to the webpage). A check box will appear beside the question text in the pre-chat survey.
 
     - **Mandatory**: Select **Yes** or **No** to indicate whether the question is mandatory. If  question type is **User Consent**, make sure you specify **Yes**.
 
     > [!NOTE]
-    > Validations in pre-chat survey are supported only for mandatory fields.
+    > Validations in pre-chat surveys are supported only for mandatory fields.
     
 
     > [!div class=mx-imgBorder]
