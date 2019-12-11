@@ -47,8 +47,7 @@ Knowledge of [Field Service product catalog capabilities](./create-product-or-se
 > Only products that have a Field Service Type = Inventory are tracked in inventory.
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+
 
 
 ## Warehouses and product inventory
@@ -59,6 +58,15 @@ A Warehouse in Field Service is any company location that holds inventory. This 
 - Technician trucks
 - Distribution centers
 - Loading docks
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inventory-warehouse.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inventory-warehouse-product-inventory.png)
 
 Inventory at each warehouse is tracked as used work order products, purchase orders, returns, adjustments and transfers events incremement and decrement inventory levels. This is recorded in the related Product Inventory entity.
 
@@ -77,9 +85,18 @@ For each product at the warehouse, the system tracks:
 
 **Inventory Adjustments** is a feature that allows you to manually add or subtract Inventory from Warehouses. This feature is typically used for routine checkups to reflect shrinkage and defects as well as compare expected Inventory to actual Inventory and then adjust for the difference.
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inventory-adjustment.png)
+
 **Inventory Transfers** is a feature that allows you to transfer Inventory from a source Warehouse to a destination warehouse. The most common example of this is transferring Inventory from a Warehouse to a technicians’s truck.
 
 You can also enable adjustments and transfers on the Field Service Mobile app to allow technicians to meet in the field and record an inventory transfer from one truck to another as one example.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inventory-transfer.png)
+
 
 ## Work order inventory
 
@@ -94,12 +111,29 @@ If a Work Order Product is used during a Work Order (Line Status = Used), the in
 
 Purchase orders are used to order products to a warehouse or directly to a work order to complete on site work. 
 
+
+
 The Purchase Order process includes:
 
 1. Requesting Products from a Vendor by creating a Purchase Order and adding Purchase Order Products
 2. Gaining approval
 3. Documenting receipt of Products by creating a PO receipt and PO Receipt Products. This will add the received Products to warehouse inventory or as Work Order Products.
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inventory-purchase-order.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inventory-purchase-order-products.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inventory-purchase-order-receipt.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inventory-purchase-order-receipt-product.png)
 
 ## Returns
 
@@ -125,6 +159,14 @@ There are three steps when issuing a Return
 1. Create RMA
 2. Create RMA Receipt
 3. Inventory and Customer Asset adjustments are carried out (done automatically)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inventory-rma.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inventory-rma-product.png)
 
 Other important features of RMAs include the ability to issue credits to customers who initiate returns and the ability to track returns as part of customer asset service history.
 
