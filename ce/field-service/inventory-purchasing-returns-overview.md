@@ -40,10 +40,11 @@ Dynamics 365 Field Service inventory capabilities include:
 For basic inventory requirements, many organizations utilize the above capabilities included with Field Service. For more complex inventory and pricing requirements, Field Service is designed to integrate with enterprise resource planning (ERP) systems. A common example is integrating to [Dynamics 365 Finance & Operations](https://docs.microsoft.com/en-us/dynamics365/supply-chain/sales-marketing/prospect-to-cash) using a pre-built [common data service "prospect to cash" template](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3?src=office&tab=Overview).
 
 ## Prerequisites
+
 Knowledge of [Field Service product catalog capabilities](./create-product-or-service.md) is a critical before utilizing inventory, purchasing, and return functionality.
 
 > [!Note]
->
+> Only products that have a Field Service Type = Inventory are tracked in inventory.
 
 
 > [!div class="mx-imgBorder"]
@@ -64,9 +65,13 @@ Inventory at each warehouse is tracked as used work order products, purchase ord
 For each product at the warehouse, the system tracks:
 
 **Quantity Available** - how many units are left to be sold.
+
 **Quantity Allocated** - how many units are currently listed on Work Orders as allocated Work Order products.
+
 **Quantity on Hand** - sum of quantity available and quantity allocated. Basically unsold units.
+
 **Quantity on Order** - how many units are currently listed on Purchase Orders but have not been received and added to Inventory yet. Basically, units that are on the way.
+
 
 ## Inventory adjustments and transfers
 
@@ -128,6 +133,9 @@ Other important features of RMAs include the ability to issue credits to custome
 All inventory transactions are recorded in the Inventory Journals entity. As an example, when one product is allocated to a work order, an inventory journal is created that increases Quantity Allocated by 1. When that same product is then used to complete the work order, another inventory journal is created that decreases Quantity On Hand. This happens for all increases and decreases of product inventory. Basically, inventory journals serve as an inventory ledger within Field Service.
 
 Most importantly, inventory journals are sometimes used to integrate Field Service inventory transactions into external ERP systems depending on how the integration is architected. To make integrations easier and more flexible, [inventory journals can be manually created](./manual-inventory-journals.md). 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of advanced find in Dynamics 365](./media/work-order-product-inv-journals.png)
 
 ## Configuration considerations
 - Inventory purchase security role
