@@ -59,7 +59,7 @@ A Warehouse in Field Service is any company location that holds inventory. This 
 - Distribution centers
 - Loading docks
 
-For each warehouse, you can track inventory levels for the various products at that warehouse. This is recorded in the related Product Inventory entity.
+Inventory at each warehouse is tracked as used work order products, purchase orders, returns, adjustments and transfers events incremement and decrement inventory levels. This is recorded in the related Product Inventory entity.
 
 For each product at the warehouse, the system tracks:
 
@@ -70,13 +70,11 @@ For each product at the warehouse, the system tracks:
 
 ## Inventory adjustments and transfers
 
-Inventory Adjustments is a FieldOne Sky feature that allows you to manually add or subtract Inventory from Warehouses.
-This feature is typically used for routine checkups to reflect shrinkage and defects as well as compare expected Inventory
-to actual Inventory and then adjust for the difference.
-Inventory Transfers is a FieldOne Sky feature that allows you transfer Inventory from a source Warehouse to a destination
-Warehouse. The most common example of this is transferring Inventory from a Warehouse to a Field Agent’s truck.
+**Inventory Adjustments** is a feature that allows you to manually add or subtract Inventory from Warehouses. This feature is typically used for routine checkups to reflect shrinkage and defects as well as compare expected Inventory to actual Inventory and then adjust for the difference.
 
-INVENTORY TRANSFERS ON THE FIELDONE SKY MOBILE APP
+**Inventory Transfers** is a feature that allows you to transfer Inventory from a source Warehouse to a destination warehouse. The most common example of this is transferring Inventory from a Warehouse to a technicians’s truck.
+
+You can also enable adjustments and transfers on the Field Service Mobile app to allow technicians to meet in the field and record an inventory transfer from one truck to another as one exmaple.
 
 ## Work order inventory
 
