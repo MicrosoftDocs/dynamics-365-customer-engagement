@@ -28,7 +28,7 @@ search.app:
 If you encounter a problem with the mobile app, you can help Microsoft troubleshoot the problem much more effectively if you provide them with a session ID for that problem.
 
 
-1. From the navigation bar, select ![Sign out button](media/settingsmorebutton.png "Sign out button") > Settings.
+1. From the navigation bar, select ![Sign out button](media/settingsmorebutton.png "Sign out button") > **Settings**.
 
    > [!div class="mx-imgBorder"]
    > ![Get a session ID](media/sessionID1.png)
