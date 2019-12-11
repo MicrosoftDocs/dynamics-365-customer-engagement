@@ -1,12 +1,12 @@
 ---
-title: "Preview  Sentiment Monitoring | MicrosoftDocs"
+title: "Preview  Sentiment monitoring | MicrosoftDocs"
 description: "Enable sentiment monitoring to understand customer sentiment across channels"
-author: lerobbin
-ms.author: lerobbin
-manager: autumna
+author: lalexms
+ms.author: laalexan
+manager: shujoshi
 applies_to: 
   - ""
-ms.date: 10/25/2019
+ms.date: 12/13/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -20,101 +20,109 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Omnichannel sentiment analysis enables agents and supervisors to understand real-time and historical customer sentiment across channels to improve customer service via the following:
+<!--note from editor: I think the bullets made a confusing structure, suggest not using them and doing something like the following:-->
+Sentiment analysis enables agents and supervisors to understand real-time and historical customer sentiment across channels to improve customer service. Omnichannel for Customer Service uses natural language processing (NLP) and machine learning (ML) algorithms to understand customer sentiments.
 
-- Natural language processing (NLP) and machine learning (ML) algorithms to understand customer sentiments. 
-- Sentiment intensities and indicators, which are displayed based on the previous six customer messages. Sentiments are scored in seven intensities: three positive, three negative, and one neutral gradient. 
+Sentiment intensity indicators are displayed based on the previous six customer messages received in a conversation. Sentiment intensity is scored in one of seven gradients: three positive, three negative, and one neutral.
 
-    > [!div class=mx-imgBorder]
-    > ![Sentiment Analysis Chart](../media/oc-sentiment-chart.png "Sentiment Analysis Chart")
+| Sentiment | Icon |
+|--------------------------|---------------------------------------------------|
+| Very positive | ![Very positive sentiment](../media/oceh/sentiment-very-positive.png "Very positive sentiment") |
+| Positive | ![Positive sentiment](../media//oceh/sentiment-positive.png "Positive sentiment") |
+| Slightly positive | ![Slightly positive sentiment](../media/oceh/sentiment-slightly-positive.png "Slightly positive sentiment") |
+| Neutral | ![Neutral sentiment](../media/oceh/sentiment-neutral.png "Neutral sentiment") |
+| Slightly negative | ![Slightly negative sentiment](../media/oceh/sentiment-slightly-negative.png "Slightly negative sentiment") |
+| Negative | ![Negative sentiment](../media/oceh/sentiment-negative.png " Negative sentiment") |
+| Very negative | ![Very negative sentiment](../media/oceh/sentiment-very-negative.png "Very negative sentiment") |
 
-- Omnichannel sentiment analysis, which supports multiple languages. Using Microsoft Azure Text Translator API, conversations in more than 40 languages now receive sentiment scores.   
+Omnichannel for Customer Service sentiment analysis supports multiple languages. Using Microsoft Azure Text Translator API, conversations in more than 40 languages now receive sentiment scores.
 
 > [!NOTE]
-> - Non-English conversations are translated to English and then scored. 
-> - Unsupported languages do not receive a sentiment score. 
-
+> - Non-English conversations are translated to English, then scored. 
+> - Unsupported languages don't receive a sentiment score.
+> - If profanity is detected in English, the sentiment shows as Negative or Very negative.
 
 To learn more, see [Explore Text Translator API](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).
 
 ## Personas
 
-The multi-language sentiment feature (preview) caters to the following personas:
+The multi-language sentiment feature (preview) supports the following personas: adminstrator, supervisor (team lead), and agent.
 
-- Administrator: 
+- If you're an administrator:
 
-    - As an administrator, you can configure sentiment for English only and non-English languages. 
-        > [!NOTE]
-        > Sentiment is enabled in Omnichannel for Customer Service by default.
+<!--note from editor: Not sure what "English only and non-English languages" means?-->
+   - You can configure sentiment for English only and non-English languages.
+       > [!NOTE]
+       > Sentiment is enabled in Omnichannel for Customer Service by default.
 
-- Supervisor (Team Lead)
+- If you're a supervisor (team lead):
 
-    - As a supervisor, you can track agents' performance and engage in real time to continuously improve the support quality. 
+    - You can track agents' performance and engage in real time to continuously improve the support quality.
     
-        Example: Identifying negative sentiment events in conversations between agents and customers.
+        Example: Identifying negative sentiment events, including English profanity, in conversations between agents and customers.
 
-    - As a supervisor, when you identify negative sentiment, provide timely inputs to help an agent resolve an issue. 
+    - When you identify negative sentiment, you can provide timely inputs to help an agent resolve an issue.
 
-        Example: Monitor and join the conversation. 
+        Example: Monitor and join the conversation.
 
-    - Real-time sentiment tracking enables supervisors to identify chat and SMS sessions that are going well or that require monitoring. 
+    - You can identify which chat and text sessions are going well, and which might require monitoring.
 
-- Agent: 
+- If you're an agent: 
 
-    - As an agent, you want to know customers' sentiments in real time and see customers’ satisfaction levels instantly when communicating. 
+    - You want to know customers' sentiments in real time and see customer satisfaction levels instantly as you communicate.
 
-    - You can be responsible for handling multiple customer engagements at any given time. 
+    - You can be responsible for handling multiple customer engagements at any given time.
 
-    - You can engage directly with the customer to solve the customer's issue. 
+    - You can engage directly with the customer to solve the customer's issue.
 
-    - Analysis of customer sentiment helps you to understand problem severity and act. 
+    - You can use analysis of customer sentiment to understand the severity of the problem, and take action. 
 
+<!--note from editor: Suggest deleting this section, there's nothing new in it.-->
 ## Sentiment intensity indicators
 
-Omnichannel sentiment analysis sentiment intensity indicators are an automatic and unbiased measurement of satisfaction levels of the customer in real time. These indicators provide agents and supervisors with the ability to see how a conversation is trending and a real-time gauge that supervisors can use to decide when they need to step in and assist. 
+Omnichannel for Customer Service sentiment intensity indicators are an automatic and unbiased measurement of a customer's satisfaction level in real time. These indicators show agents and supervisors how a conversation is trending, and give supervisors a real-time gauge they can use to decide when they need to step in and assist.
 
-- Agents
+- For agents:
 
-    Sentiment intensity indicators on the top of the communication panel help you understand the customer’s sentiment.
+    Sentiment intensity indicators at the top of the communication panel help you understand the customer’s sentiment.
 
     > [!div class=mx-imgBorder]
     > ![Sentiment display](../media/oc-sentiment-sentiment-display.png "Sentiment display")
 
-- Supervisors
+- For supervisors:
 
-    - Sentiment intensity indicators identify ongoing chat sessions that need the supervisor's attention, so that you can better assess and apply their time where it is the most valuable. 
+    - Sentiment intensity indicators identify ongoing chat sessions that need your attention, so that you can better assess and apply your time where it's most valuable.
 
-    - Using sentiment intensity indicators on the Omnichannel Ongoing Conversations dashboard allows you to easily identify ongoing customer support chat sessions that are not going well.
+    - Using sentiment intensity indicators on the Omnichannel Ongoing Conversations dashboard allows you to easily identify ongoing customer support chat sessions that aren't going well.
 
     > [!div class=mx-imgBorder]
     > ![Sentiment conversation display](../media/oc-sentiment-conversation-dashboard.png "Sentiment conversation display")
 
 ## Multi-language sentiment limitations
 
-Sentiment relies on the initial customer messages in any conversation to detect the language of the conversation.  
+Sentiment analysis relies on the initial customer messages in any conversation to detect the language of the conversation.  
 
-Expect the following system behavior: 
+Expect the following system behavior:
 
-- If the customer’s initial messages are detected as English, the system assumes that subsequent messages are in English as well. If your customer switches away from English after these initial messages, the system does not perform language redetection. In this situation, you would most often see a neutral sentiment throughout the rest of the non-English conversation.
+- If a customer's initial messages are detected as English, the system assumes that subsequent messages will be in English as well. If your customer switches away from English after these initial messages, the system doesn't perform language re-detection. In this situation, you'll most often see a neutral sentiment score throughout the rest of the non-English conversation.
 
-- If the customer’s initial messages are detected as non-English, the system performs redetection and scoring for subsequent messages. If any following message is detected as non-English, its subsequent message will be redetected and scored according to its detected language.
+<!--note from editor: I don't know what "its subsequent message" means in that second sentence. -->
+- If a customer's initial messages are detected as non-English, the system performs re-detection and scoring for subsequent messages. If any following message is detected as non-English, its subsequent message will be re-detected and scored according to its detected language.
 
-## Requirements 
+## Requirements
 
-Your environment must have the latest version of Omnichannel for Customer Service. To learn more, see [Upgrade Omnichannel for Customer Service](../administrator/upgrade-omnichannel.md). 
+Your environment must have the latest version of Omnichannel for Customer Service. To learn more, see [Upgrade Omnichannel for Customer Service](../administrator/upgrade-omnichannel.md).
 
 ## Install and configure
 
-Once you have signed up, see step 4 of [Enable sentiment analysis](../administrator/enable-sentiment-analysis.md) to configure sentiment analysis. 
+After you've signed up, see step 4 of [Enable sentiment analysis](../administrator/enable-sentiment-analysis.md) to configure sentiment analysis. 
 
 ## Policy notice 
 
-This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
-## See also
+### See also
 
-[Enable sentiment analysis](../administrator/enable-sentiment-analysis.md)
-
-[Monitor real-time customer sentiment](../agent/agent-oc/oc-monitor-real-time-customer-sentiment-sessions.md)
-
+[Enable sentiment analysis](../administrator/enable-sentiment-analysis.md)<br>
+[Monitor real-time customer sentiment](../agent/agent-oc/oc-monitor-real-time-customer-sentiment-sessions.md)<br>
 [Monitor conversations](monitor-conversations.md)
