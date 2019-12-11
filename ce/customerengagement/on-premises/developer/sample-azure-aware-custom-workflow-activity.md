@@ -28,6 +28,8 @@ This sample obtains the data context from the current Dynamics 365 Customer Enga
   
 Download the [sample](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/Azurecustomworkflowactivity).  
 
+[!INCLUDE[cc-sample-note](../includes/cc-sample-note.md)]
+
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
   
