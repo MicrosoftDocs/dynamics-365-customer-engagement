@@ -16,39 +16,36 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Enable sentiment analysis for supervisors to view the real-time sentiment of conversations on the **Omnichannel Ongoing Conversation** dashboard in **Omnichannel for Customer Service**. You can enable or disable real-time sentiment through **Sentiment Analysis Settings** in **Omnichannel Administration**.
+Enable sentiment analysis so supervisors can use the **Omnichannel Ongoing Conversation** dashboard to view customer sentiment in real time during conversations between customers and agents. You can enable or disable real-time sentiment through **Sentiment Analysis Settings** in **Omnichannel Administration**.
 
 > [!NOTE]
 > Sentiment analysis is enabled by default.
 
-1. Go to *https://yourorganization.dynamics.com/apps* and select the **Omnichannel Administration** app.
+<!--note from editor: In most cases, it looks like "Sign in to Omnichannel Administration" is the way this step is being worded.-->
+1. Sign in to **Omnichannel Administration**.
 
-2. Go to **Settings** > **Sentiment Analysis** and select **Real-Time Sentiment Analysis**.
-
-    > [!div class=mx-imgBorder]
-    > ![Select Sentiment analysis](../media/supervisor-admin-activat-sentiment-analysis.png "Select Sentiment analysis")
-
-3. On the **General** tab, set **Monitor real-time customer sentiment** to **Enabled** and then click **Save**.
-
-
-    <!--from editor: Note that the image shows Enabled as No. Is that OK? -->
-    
+2. Go to **Settings** > **Sentiment Analysis**, and then select **Real-Time Sentiment Analysis**.
 
     > [!div class=mx-imgBorder]
-    > ![Enable sentiment analysis](../media/monitor-real-time.png "Enable sentiment analysis")
+    > ![Select sentiment analysis](../media/supervisor-admin-activat-sentiment-analysis.png "Select sentiment analysis")
 
-After you enable real-time customer sentiment, you can view scores in the [Omnichannel Insights Dashboard](https://docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/configure-historical-sentiment-dashboard-supervisor).
+3. On the **General** tab, set **Monitor real-time customer sentiment** to **Enabled**, and then select **Save**.
 
-Multi-language sentiment scoring is enabled by default.
+<!--note from Nona: Looks like the former editor's note ("the image shows Enabled as No. Is that OK?") has been resolved.-->
 
-Conversations in more than 40 languages are scored:
+  > [!div class=mx-imgBorder]
+  > ![Enable sentiment analysis](../media/monitor-real-time.png "Enable sentiment analysis")
+
+<!--note from editor: Made this a relative link.-->
+After you enable real-time customer sentiment, you can view scores in the [Omnichannel Insights dashboards](configure-historical-sentiment-dashboard-supervisor.md).
+
+Multi-language sentiment scoring is enabled by default. Conversations in more than 40 languages are scored. The languages are listed in the following table.
+
+<!--note from editor: This information should be in an actual table, not solely in a graphic (screen readers can't read it, someone reading this on a smartphone won't be able to see it, also it's just too hard to maintain). I'd be happy to whip one up; just let me know.-->
 
    > [!div class=mx-imgBorder]
-   > ![Language list](../media/oc-sentiment-langauge-list.png "Language list") 
+   > ![Language list](../media/oc-sentiment-langauge-list.png "Language list")
 
-
-
-
-## See also
+### See also
 
 [Monitor conversations](../supervisor/monitor-conversations.md)
