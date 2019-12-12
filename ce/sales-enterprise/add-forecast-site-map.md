@@ -69,7 +69,7 @@ Follow these steps:
 
     The forecast grid and configuration options are now displayed on the site map.
 
-More information: [Create a site map for an app using the site map designer](/customerengagement/on-premises/customize/create-site-map-app.md#add-a-subarea-to-a-group-in-the-site-map).
+More information: [Create a site map for an app using the site map designer](/customerengagement/on-premises/customize/create-site-map-app.md#add-a-subarea-to-a-group-in-the-site-map)
 <!--note from editor: Rather than have a link here, could you simply add it to the See also section directly below?-->
 
 
