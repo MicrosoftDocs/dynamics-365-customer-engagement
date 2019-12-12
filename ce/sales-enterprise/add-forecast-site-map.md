@@ -55,11 +55,10 @@ Follow these steps to individually configure the sitemap for forecast and foreca
 
        - For the forecast configurations, select **Forecast Definition Entity icon**.
             
-    e.	(Optional) If required, enter unique IDs for the forecast grid and forecast configuration. You can also use the default IDs:
-    <!--note from editor: Are the following the default IDs you mentioned? I made the sentence leading into this end with a colon assuming it is referring to these. -->
-
-    > [!div class="mx-imgBorder"]
-    > ![Properties tab of site map designer](media/forecast-sitemap-properties.png "Properties tab of site map designer")
+    e.	(Optional) If required, enter unique IDs for the forecast grid and forecast configuration. You can also use the default IDs.
+    
+       > [!div class="mx-imgBorder"]
+       > ![Properties tab of site map designer](media/forecast-sitemap-properties.png "Properties tab of site map designer")
 
 6.	Save and close the site map designer page.
 
@@ -68,7 +67,6 @@ Follow these steps to individually configure the sitemap for forecast and foreca
     The forecast grid and configuration options are now displayed on the site map.
 
 More information: [Create a site map for an app using the site map designer](/customerengagement/on-premises/customize/create-site-map-app.md#add-a-subarea-to-a-group-in-the-site-map)
-<!--note from editor: Rather than have a link here, could you simply add it to the See also section directly below?-->
 
 
 ### See also
