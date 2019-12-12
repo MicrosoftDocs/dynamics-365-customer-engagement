@@ -68,3 +68,7 @@ The following dashboard customizations are not supported currently.
 We recommend that you do not change the default App for Outlook dashboard as that is not a supported.
 
   ![App for Outlook App Designer Dashboard](media/AppDesignerDashboard.PNG "App for Outlook App Designer Dashboard")
+  
+> [!Note]
+> Business Process Flows are not supported in Dynamics 365 App for Outlook. When customizing the app, you should not explicitly select any Business Process Flows
+
