@@ -23,7 +23,7 @@ Resource Scheduling Optimization (RSO) automatically schedules jobs to the peopl
 
 Whereas the schedule board and the schedule assistant help dispatchers schedule a single job, RSO can schedule many jobs at one time, maximizing overall utilization and minimizing total travel time. Furthermore, RSO considers the requirements of the job and the unique attributes of the resources like if the job requires an experienced manager with specific skills in the same area.
 
-For many organizations, using RSO for automated scheduling is a requirement because scheduling a high volume of jobs individually would take too long. For other organizations, they adopt RSO to aid their schedulers in job matching and to free up some of their time to focus on other tasks.
+For many organizations, using RSO for automated scheduling is a requirement because scheduling a high volume of jobs manually would take too long. For other organizations, they adopt RSO to aid their schedulers in job matching and to free up some of their time to focus on other tasks. 
 
 ### Benefits of using Resource Scheduling Optimization
 
@@ -78,19 +78,10 @@ RSO is one of three ways to schedule with Dynamics 365 Field Service:
     > [!div class="mx-imgBorder"]
     > ![Screenshot of ](media/8cce1b1462b960eecac5012ad1a2d685.png)
 
- 
-
-
 
 - continuum of manual and semi-automated scheduling
 - considerations - skills, territory, priority
 
-Why You need it
-- 5 resources and 1 job
-- 5 resources and 2 jobs
-- 1 resource 4 jobs
-- 1 resource 5 jobs
-- 5 resources 10 jobs
 
 ## Scenarios
 
