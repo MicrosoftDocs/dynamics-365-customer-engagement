@@ -41,7 +41,7 @@ After you enable real-time customer sentiment, you can view scores in the [Omnic
 
 Multi-language sentiment scoring is enabled by default. Conversations in more than 40 languages are scored. The languages are listed in the following table.
 
-<!--note from editor: This information should be in an actual table, not solely in a graphic. I'd be happy to whip one up; just let me know.-->
+<!--note from editor: This information should be in an actual table, not solely in a graphic (screen readers can't read it, someone reading this on a smartphone won't be able to see it, also it's just too hard to maintain). I'd be happy to whip one up; just let me know.-->
 
    > [!div class=mx-imgBorder]
    > ![Language list](../media/oc-sentiment-langauge-list.png "Language list")
