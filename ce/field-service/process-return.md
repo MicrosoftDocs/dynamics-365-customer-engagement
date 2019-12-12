@@ -2,7 +2,7 @@
 title: "Process a return (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
+ms.date: 12/11/2019
 ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -23,7 +23,7 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Process a return (Field Service)
+# Process a return (RMAs and RTVs)
 
 In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)], a return merchandise authorization (RMA) is created in the system when a product is returned. There are three ways of returning a product: return to warehouse, return to vendor (RTV), or change equipment ownership.  
   
