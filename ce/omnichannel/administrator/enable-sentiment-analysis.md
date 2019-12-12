@@ -41,10 +41,66 @@ After you enable real-time customer sentiment, you can view scores in the [Omnic
 
 Multi-language sentiment scoring is enabled by default. Conversations in more than 40 languages are scored. The languages are listed in the following table.
 
-<!--note from editor: This information should be in an actual table, not solely in a graphic (screen readers can't read it, someone reading this on a smartphone won't be able to see it, also it's just too hard to maintain). I'd be happy to whip one up; just let me know.-->
-
+<!--note from editor: This information should be in an actual table, not solely in a graphic (screen readers can't read it, someone reading this on a smartphone won't be able to see it, also it's just too hard to maintain). ALSO: "Hang Kong" is misspelled. I'd be happy to whip one up; just let me know.-->
+<!--
    > [!div class=mx-imgBorder]
    > ![Language list](../media/oc-sentiment-langauge-list.png "Language list")
+-->
+<table>
+<tbody>
+<colgroup span = "3">
+<col width = "34%"></col>
+<col width = "33%"></col>
+<col width = "33%"></col>
+</colgroup>
+<tr>
+<td>Arabic<br>
+Bulgarian<br>
+Chinese (Hong Kong SAR)<br>
+Catalan<br>
+Chinese Simplified<br>
+Chinese Traditional<br>
+Croatian<br>
+Czech<br>
+Danish<br>
+Dutch<br>
+English<br>
+Estonian<br>
+Finnish<br>
+French<br>
+</td>
+<td>German<br>
+Greek<br>
+Hebrew<br>
+Hindi<br>
+Hungarian<br>
+Indonesian<br>
+Italian<br>
+Japanese<br>
+Korean<br>
+Latvian<br>
+Lithuanian<br>
+Malay<br>
+Norwegian<br>
+Polish<br>
+</td>
+<td>Portuguese<br>
+Romanian<br>
+Russian<br>
+Serbian (Cyrillic)<br>
+Serbian (Latin)<br>
+Slovak<br>
+Slovenian<br>
+Spanish<br>
+Swedish<br>
+Thai<br>
+Turkish<br>
+Ukrainian<br>
+Vietnamese<br>
+</td>
+</tbody>
+</table>
+
 
 ### See also
 
