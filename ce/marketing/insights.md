@@ -246,7 +246,9 @@ To view website insights, go to **Marketing** > **Internet marketing** > **Marke
 Marketing pages provide the following [categories](#categories) on the **Insights** tab:
 
 - **Overview**: Provides a list of the most popular website pages that include the script created and tracked by this website record, and a map that shows where people were when opening those pages.
-- **Timeline**: Shows a table that provides details about each time a page that includes the script created and tracked by this website record was loaded.
+- **Visits**: Shows a table that provides details about each time a page that includes the script created and tracked by this website record was loaded.
+- **Form visits**: Shows a table that lists each time an anonymous or known contact opened a page on this website that included an embedded or captured marketing form.
+- **Form submissions**: Shows a table that lists each time a contact submitted an embedded or captured marketing form from this website. Hover your mouse pointer over a value in the **Form submissions** column to view the values sent with any listed submission.
 
 ## Redirect URL insights
 
