@@ -51,7 +51,7 @@ As with all types of segments, the segments that you create for use with account
 
 Firmographic segments are dynamic segments pre-configured to include a query into the account entity, but which resolve to the contact entity. Here's how to set up a segment like this:
 
-1. Go to **Marketing** > **Customers** > **Segments** and select **New** on the command bar. Then select **Firmographic** on the **Let's create your segment** screen.
+1. Go to **Marketing** > **Customers** > **Segments** and select **New** on the command bar. The **Segment templates** dialog box opens; select **Cancel** to close it, and then select **Firmographic** on the **Let's create your segment** screen.
 
 1. A new firmographic segment opens. Check the view setting near the upper corner of the **Definition** tab and make sure it's set to **Tree view**. (You could use either view, but in this procedure we show and describe the tree view, so it's a good idea to use it for now.)
 
@@ -86,7 +86,7 @@ Firmographic segments are dynamic segments pre-configured to include a query int
 
 When you set up a static segment, you'll mark a check box for each specific contact you want to include in the segment. The segment won't change after that unless you edit it manually. If your database includes many contacts, then you'll probably find it useful to use the filter control to find the contacts you are looking for.
 
-1. Go to **Marketing** > **Customers** > **Segments** and select **New** on the command bar. Then select **Static** on the **Let's create your segment** screen.
+1. Go to **Marketing** > **Customers** > **Segments** and select **New** on the command bar. The **Segment templates** dialog box opens; select **Cancel** to close it, and then select **Static** on the **Let's create your segment** screen.
 
 1. The static-segment designer opens which shows a list of all contacts in your database, plus a set of filter controls that can help you find the contacts you want to include. Select the filter button to expose the filter controls.
 

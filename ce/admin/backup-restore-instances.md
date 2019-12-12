@@ -22,6 +22,8 @@ search.app:
 ---
 # Back up and restore instances
 
+[!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
+
 Protecting your data in model-driven apps in Dynamics 365, such as Dynamics 365 Sales and Customer Service, and providing continuous availability of service is important for you and for us. You have multiple options for backing up and restoring your instances.   
 
 > [!NOTE]

@@ -35,7 +35,7 @@ Use the following links to download a template for running the report on your ow
 
 In addition to the [common report pages](analytics-gallery-framework.md#common-report-pages), this analytics report includes the following pages:
 
-- [Homepage](#home-page)
+- [Home page](#home-page)
 - [A timeline of form submissions](#submission-timeline)
 - [Details of form submissions](#submission-details)
 - [Submission values](#submission-values)
@@ -43,14 +43,14 @@ In addition to the [common report pages](analytics-gallery-framework.md#common-r
 
 <a name="home-page"></a>
 
-## Marketing-form submission report homepage
+## Marketing-form submission report home page
 
 > [!TIP]
 > The report home page gives a quick overview on your marketing forms and the submission volume.
 
 Each report includes a filter pane on the left that lets you quickly select the relevant marketing activities to focus on. You can also chose the relevant time frame for your exploration.
 
-![marketing-form submission report homepage](media/MarketingForm/FormSubmissionHome.png "Marketing-form submission report homepage")
+![marketing-form submission report home page](media/MarketingForm/FormSubmissionHome.png "Marketing-form submission report home page")
 
 <a name="submission-timeline"></a>
 

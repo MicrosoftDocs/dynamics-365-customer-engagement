@@ -21,6 +21,8 @@ search.app:
 ---
 # Manage instances
 
+[!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
+
 You manage your instances from the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].  
 
 > [!NOTE]
@@ -32,5 +34,4 @@ You manage your instances from the [!INCLUDE[pn_dyn_365_admin_center](../include
   
 This section provides information on how you add or edit instances of a subscription and set up additional non-Production (Sandbox) instances.  
   
-### See also
-[Terminology used in the product and documentation](online-terminology.md)
+

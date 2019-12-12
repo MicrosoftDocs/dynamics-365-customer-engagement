@@ -40,9 +40,10 @@ To access the customization settings in the advanced-settings area:
 
 For complete details about how to customize model-driven apps in Dynamics 365, see the [Power Apps documentation](https://docs.microsoft.com/powerapps/#pivot=home&panel=getstarted).
 
-For details about customizations that apply only to the Marketing app (but not other Dynamics 365 apps), see the following topic:
+For details about customizations that apply only to the Marketing app (but not other Dynamics 365 apps), see the following topics:
 
 - [Create and customize marketing calendars](customize-marketing-calendars.md)
+- [Create and customize template labels](customize-template-labels.md)
 
 ## Create a custom app that includes Marketing solutions
 
