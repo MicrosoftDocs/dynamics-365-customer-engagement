@@ -74,8 +74,8 @@ Customers can choose to download and email a copy of their chat transcript conve
     <!--from editor: Please ensure that the email address in the following image is approved for public use. -->
     
 
-        > [!div class=mx-imgBorder]
-        > ![Email chat transcript](../media/oc-chat-transcript-email.png "Email chat transcript")
+     > [!div class=mx-imgBorder]
+     > ![Email chat transcript](../media/oc-chat-transcript-email.png "Email chat transcript")
 
     At the end of the chat conversation, the following window appears reminding the customer they can either download or email a copy of their chat transcript to themselves.
 

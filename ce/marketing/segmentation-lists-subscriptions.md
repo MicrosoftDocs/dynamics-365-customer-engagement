@@ -83,17 +83,22 @@ Read this section to get a basic overview of how to create a segment and start i
 
 1. Select **New** to start creating your new segment.
 
-1. To help you get started, the designer asks you to choose which type of segment you want to create. This selection will establish the initial structure of your segment and also affects the user interface you'll see for working with it. Read the names and descriptions shown, and choose one of the following to get started:
+1. The **Segment template** dialog box opens, showing a list of available [templates](segments-templates.md). Each template provides a fully or partially defined query designed for a particular purpose, as indicated by the template name. Select any template to read more information about it in the information panel. **Filter** and **Search** features are provided to help you find the template you're looking for. Select a listed template and then choose **Select** to load the that template, or choose **Cancel** to start building a new segment from scratch.
+
+    ![Choose a segment template](media/segment-choose-template.png "Choose a segment template")
+
+1. If you selected a template, then your template loads and you skip this step. If you selected **Cancel** on the **Segment template** dialog, the designer now  asks you to choose which type of segment you want to create. This selection will establish the initial structure of your segment and also affects the user interface you'll see for working with it. Read the names and descriptions shown, and choose one of the following to get started:
 
     - **Demographic**: Creates a dynamic profile segment prepared to query contact records directly, but you can still add relations as needed to create a query of arbitrary complexity. For details about how to work with this kind of segment, see [Design a demographic or firmographic segment](segments-profile.md)
     - **Firmographic**: Creates a dynamic profile segment prepared with a relation to the accounts entity already in place. Other than this, this is the same as selecting **Demographic**. For details about how to work with this kind of segment, see [Design a demographic or firmographic segment](segments-profile.md)
     - **Behavioral**: Creates a behavioral segment, which queries interaction records from the marketing-insights service to find contacts that have interacted in specific ways with your marketing initiatives, such as by opening an email, clicking a link, or visiting a web page. For details about how to work with this kind of segment, see [Design behavioral segments](segments-interaction.md)
     - **Static**: Creates a segment where you manually select each member rather than creating a logical query. For details about how to work with this kind of segment, see [Design static segments](segments-static.md)
     - **Combined audiences**: Creates a compound segment, which combines any number of existing segments union, exclude, and/or intersect operators. For details about how to work with this kind of segment, see [Combine segments into a compound segment (combined audiences)](segments-compound.md)
+    - **Segment template**: If you'd like to load a template after all, then choose the **Select item** button ![Name your segment](media/select-item-button.png "Name your segment") here to open the **Segment templates** dialog box, which is described in the previous step.
 
     ![Choose a segment type](media/segment-hub.png "Choose a segment type")
 
-1. The segment designer opens, showing settings and tools that are appropriate for your selection. Start by naming your segment. Select the expansion button at the side of the header area to expand a drop-down dialog where you can make a few key settings. Use it to enter a **Name** for your new segment.
+1. The segment designer opens, showing settings and tools that are appropriate for your selection or template. Start by naming your segment. Select the expansion button at the side of the header area to expand a drop-down dialog where you can make a few key settings. Use it to enter a **Name** for your new segment.
 
     ![Name your segment](media/segment-enter-name.png "Name your segment")
 
@@ -149,6 +154,7 @@ Almost all types of entities in Dynamics 365 Marketing include a **Related** tab
 
 ### See also
 
+[Work with segment templates](segments-templates.md)  
 [Create a segment](create-segment.md)  
 [Set up subscription lists and subscription centers](set-up-subscription-center.md)  
 [Go live with publishable entities and track their status](go-live.md)

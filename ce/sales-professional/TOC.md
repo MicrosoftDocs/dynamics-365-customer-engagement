@@ -18,6 +18,7 @@
 #### [Add products to an opportunity](add-products-opportunity-sp.md)
 ### [Understand sales transactions](understanding-sales-transactions-sales-professional.md)
 #### [Create and manage quotes](create-quotes-sales-professional.md)
+#### [Create or edit orders](create-orders.md)
 #### [Create and manage invoices](create-invoices.md)
 #### [Add products to a quote, order, or invoice](add-product-quote-order-invoice-sp.md)
 ### Set up a product catalog
@@ -29,6 +30,14 @@
 #### [Assign records to a user or team](assign-records-sales-professional.md)
 #### [Use document templates to create standardized documents](use-document-templates-sales-professional.md)
 #### [Create PDF documents from sales records](create-quote-pdf-sales-professional.md)
+### Get started with in-app marketing
+#### [Overview](get-started-app-marketing-sp.md)
+#### [Create a marketing list](create-marketing-list-using-app-marketing-sp.md)  
+#### [Create a quick campaign](create-quick-campaign-using-app-marketing-sp.md) 
+#### [Add assets to a campaign](add-marketing-list-sales-literature-product-campaign-using-app-marketing-sp.md)
+#### [Create or edit a campaign](create-edit-campaign-using-app-marketing-sp.md)
+#### [Add an activity to a campaign](add-activity-campaign-using-app-marketing-sp.md)
+#### [Track a marketing campaign response](track-marketing-campaign-response-using-app-marketing-sp.md)
 
 ## Administrator and sales manager guide
 ### [Help resources for admins and sales managers](admin-guide.md)
