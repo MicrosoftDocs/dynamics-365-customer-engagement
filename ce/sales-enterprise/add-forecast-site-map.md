@@ -41,9 +41,9 @@ Follow these steps:
 
     b.	In **URL**:
         
-       - For the forecast grid: **/main.aspx?pagetype=control&controlName=ForecastingControls.FieldControls.ForecastGridPage**
+       - For the forecast grid, enter: **/main.aspx?pagetype=control&controlName=ForecastingControls.FieldControls.ForecastGridPage**
         
-       - For the forecast configuration: **/main.aspx?pagetype=control&controlName=ForecastingControls.FieldControls.CCFForecastConfig**
+       - For the forecast configuration, enter: **/main.aspx?pagetype=control&controlName=ForecastingControls.FieldControls.CCFForecastConfig**
     
     c.	In **Title**:
 
@@ -51,7 +51,7 @@ Follow these steps:
 
        - For the forecast configurations, enter **Forecast configurations**.
 
-    d.	Select an **Icon**:
+    d.	In **Icon**, select the following:
 
        - For the forecast grid, select **Forecast Instance Entity icon**.
 
