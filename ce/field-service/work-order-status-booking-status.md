@@ -243,7 +243,7 @@ Here is the customer asset that results from the used work order product. Notice
 - **Booking Timestamp** is created.
 
 #### In Progress
-- **Actual Arrival Time** field is updated with the date and time the when booking status is changed from the mobile app or schedule board, but not from the entity UCI or web form.
+- **Actual Arrival Time** field is updated with the date and time the when booking status is changed from the mobile app or schedule board, but not from the form.
 - **Actual Travel Duration** field is updated, calculated as the total time the booking status is **Traveling**.
 - **Booking Timestamp** is created.
 
