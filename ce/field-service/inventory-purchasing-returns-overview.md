@@ -56,16 +56,15 @@ A Warehouse in Field Service is any company location that holds inventory. This 
 - Distribution centers
 - Loading docks
 
-
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inventory-warehouse.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inventory-warehouse-product-inventory.png)
-
 Inventory at each warehouse is tracked as used work order products, purchase orders, returns, adjustments and transfers events incremement and decrement inventory levels. This is recorded in the related Product Inventory entity.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inventory-product-inventory.png)
 
 For each product at the warehouse, the system tracks:
 
@@ -78,6 +77,9 @@ For each product at the warehouse, the system tracks:
 **Quantity on Order** - how many units are currently listed on Purchase Orders but have not been received and added to Inventory yet. Basically, units that are on the way.
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inventory-warehouse-product-inventory.png)
+
 ## Inventory adjustments and transfers
 
 **Inventory Adjustments** is a feature that allows you to manually add or subtract Inventory from Warehouses. This feature is typically used for routine checkups to reflect shrinkage and defects as well as compare expected Inventory to actual Inventory and then adjust for the difference.
@@ -88,12 +90,11 @@ For each product at the warehouse, the system tracks:
 
 **Inventory Transfers** is a feature that allows you to transfer Inventory from a source Warehouse to a destination warehouse. The most common example of this is transferring Inventory from a Warehouse to a technicians’s truck.
 
-You can also enable adjustments and transfers on the Field Service Mobile app to allow technicians to meet in the field and record an inventory transfer from one truck to another as one example.
-
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inventory-transfer.png)
 
+
+You can also enable adjustments and transfers on the Field Service Mobile app to allow technicians to meet in the field and record an inventory transfer from one truck to another as one example.
 
 ## Work order inventory
 
