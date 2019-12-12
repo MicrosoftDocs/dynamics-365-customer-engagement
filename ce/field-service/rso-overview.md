@@ -38,6 +38,13 @@ RSO is one of three ways to schedule with Dynamics 365 Field Service:
     > [!div class="mx-imgBorder"]
     > ![](media/8cce1b1462b960eecac5012ad1a2d685.png)
 
+## How it works
+
+- scopes, goals, schedules
+- schedule board
+- Azure 
+- Bing Maps
+
 ## Running RSO
 
 ## Optimized schedules
