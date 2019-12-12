@@ -14,7 +14,7 @@ manager: shujoshi
 
 # Add the forecast grid and configuration options in a site map
 
-When you create a custom model-driven app, you can choose a default solution to create a site map for the app. However, the solutions list contains solutions that are based on entity forms only. The forecast options are based on URL custom control forms and do not display in the solution list. You must manually add these options to the site map. After you add these options, users in your organization can see them on the app’s site map.
+When you create a custom model-driven app, you can choose a default solution to create a site map for the app. However, the solutions list contains solutions that are based on entity forms only. The forecast options are based on URL custom control forms and do not appear in the solution list. You must manually add these options to the site map. After you add these options, users in your organization can see them on the app’s site map.
 
 Follow these steps:
 
