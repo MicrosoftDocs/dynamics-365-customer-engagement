@@ -25,20 +25,25 @@ search.app:
 ---
 # Process a return (RMAs and RTVs)
 
-In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)], a return merchandise authorization (RMA) is created in the system when a product is returned. There are three ways of returning a product: return to warehouse, return to vendor (RTV), or change equipment ownership.  
-  
- All product returns are initiated with an RMA. The RMA designates the product, unit, quantity, related work order, and price list for the return. It also specifies the processing action, which is the type of return.  
-  
- A return is not finalized until an RMA receipt is created. The RMA receipt confirms that the correct product and quantity are received, as well as the date and person handling the receipt.  
-  
- After the RMA receipt is processed, the correct inventory or equipment adjustment is carried out. This can be a return to the warehouse, RTV, or a change in  equipment ownership.  
-  
- In cases where a product must be returned to a vendor, an RTV must be created after receipt of the product that is going back to the vendor. 
+Sometimes the same organization that installs parts and equipment at a customer's location needs to process a return of that product or customer asset.
+
+Common examples for why returns may be initiated include:
+
+- The part or equipment is defective
+- The customer is dissatisfied
+- A repair is needed and the repair will not take place on site, but back at the service provider's or manufacturer's location
+- The equipment was at the customer's location as part of a lease that is ending and will not be renewed
+
+Field Service supports three out-of-the-box returns:
+
+- Return to Warehouse
+- Return to Vendor
+- Change of Equipment Ownership
   
 
 ## Step 1: Create an RMA  
   
-1. From the main menu, click **Field Service** > **RMAs**.  
+1. From the main menu, click **Field Service** > **Inventory tab** > **RMAs**.  
   
 2. On the **Active RMAs** screen, click **+New**  
   
@@ -46,7 +51,7 @@ In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]
   
    - If the product was used in a work order, choose the related **Work Order** where the product was used. The related **Service Account** is automatically filled in when you choose a work order.  
   
-   - Choose an RMA substatus, for example, Exchange, Repair, Retire, or Upgrade. These options are configurable in the admin section. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create an RMA sub-status](../field-service/create-rma-sub-status.md)  
+   - Choose an RMA substatus, for example, Exchange, Repair, Retire, or Upgrade. These options are configurable in **Field Service > Settings > RMA Substatuses**.
   
    - Select the **Date Requested** and if it's **Taxable** or not.  
   
@@ -59,7 +64,7 @@ In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]
 
 #### Ship via
 
-When you create a [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] purchase order in the system, it's a good idea to track how the order is shipped. This helps you track the purchase order. The **ship-via** field lets you specify different shipping methods used by your company. You can create new options in **Field Service > Settings > Ship Via**. COmmon examples include freight shipping, USPS Ground, or FedEx.  
+When you create an [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] RMA, it's a good idea to track how the return will be transported. This helps you track the part or customer asset. The **ship-via** field lets you specify different shipping methods used by your company. You can create new options in **Field Service > Settings > Ship Via**. COmmon examples include freight shipping, USPS Ground, or FedEx.  
   
 ## Step 2: Add RMA products  
  Once an RMA is created, you must add the products to be returned. There are two ways to add RMA products—either manually or by choosing a product that was used in a work order.  
