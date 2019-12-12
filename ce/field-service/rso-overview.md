@@ -26,35 +26,19 @@ RSO is one of three ways to schedule with Dynamics 365 Field Service:
 1.  **Manual scheduling**: Drag and drop work order requirements from the bottom panel to the resource’s calendar above.
 
     > [!div class="mx-imgBorder"]
-    > ![](media/29a8d922fb088fa1d668c598f6887e65.png)
+    > ![Screenshot of ](media/29a8d922fb088fa1d668c598f6887e65.png)
 
 2.  **Scheduling Assistant**: This allows you to filter resources on the left panel by travel range, skills, dates, roles, territories, and more. The system recommends available resources on the right and displays estimated travel times.
 
     > [!div class="mx-imgBorder"]
-    > ![](media/131ed6d21d96cbc0ccc5a730dcbe1bd0.png)
+    > ![Screenshot of ](media/131ed6d21d96cbc0ccc5a730dcbe1bd0.png)
 
 3.  **Resource Scheduling Optimization**: This add-on evaluates routes and automatically schedules bookable records to minimize travel time and maximize working hours and more, based on your configured objectives, such as “minimize travel time” and “maximize working hours.”
 
     > [!div class="mx-imgBorder"]
-    > ![](media/8cce1b1462b960eecac5012ad1a2d685.png)
+    > ![Screenshot of ](media/8cce1b1462b960eecac5012ad1a2d685.png)
 
-## How it works
-
-- scopes, goals, schedules
-- schedule board
-- Azure 
-- Bing Maps
-
-## Running RSO
-
-## Optimized schedules
-
-- same location
-- reduce overall travel time
-- traveling time vs working time
-
-## Benefits of using Resource Scheduling Optimization 
-
+ 
 - **Automated scheduling**: Automatically scheduling the majority of
 requirements saves time and empowers dispatchers to focus on exceptions and
 billing.
@@ -81,28 +65,50 @@ for urgent situations.
 
 - **Improved customer retention**: Giving preference to higher-priority work orders helps avoid service level agreement (SLA) penalties and helps you meet customer service commitments.
 
-## More resources 
 
--   [What’s New for Dynamics 365 Resource Scheduling Optimization v2.6
-    Release](https://blogs.msdn.microsoft.com/crm/2018/05/09/whats-new-for-dynamics-365-resource-scheduling-optimization-v2-6-release/)
--   [What’s New for Dynamics 365 Resource Scheduling Optimization v2.5
-    Release](https://blogs.msdn.microsoft.com/crm/2018/04/02/whats-new-for-dynamics-365-resource-scheduling-optimization-v2-5-release/)
--   [Release Notes for Resource Scheduling Optimization (v2.0) – Dynamics
-    365](https://blogs.msdn.microsoft.com/crm/2017/12/12/release-notes-for-resource-scheduling-optimization-v2-0-17335-1-dynamics-365/)
--   [What’s New for Dynamics 365 Resource Scheduling Optimization v1.5
-    Release](https://blogs.msdn.microsoft.com/crm/2017/10/26/whats-new-for-dynamics-365-resource-scheduling-optimization-v1-5-17284-2-release/)
--   [Scheduling anything in Dynamics 365 with Universal Resource
-    Scheduling](https://www.microsoft.com/en-US/dynamics/crm-customer-center/scheduling-anything-in-dynamics-365-with-universal-resource-scheduling.aspx)
+- continuum of manual and semi-automated scheduling
+- considerations - skills, territory, priority
+Why You need it
+- 5 resources and 1 job
+- 5 resources and 2 jobs
+- 1 resource 4 jobs
+- 1 resource 5 jobs
+- 5 resources 10 jobs
 
-<a name="bkmk_step3 "></a>   
+## Scenarios
+
+overnight
+simulation
+single resource 
+emergency (workflow)
+intra-day
+
+
+## How it works
+
+Ways to run RSO
+- scopes, goals, schedules
+- schedule board
+- Azure 
+- Bing Maps
+
+## Optimized schedules
+
+- same location back to back
+- reduce overall travel time
+- traveling time vs working time
+
+
+
+
+
 
 ## Next steps
 Get RSO
 Deploy RSO
 Configure RSO
 
-## Privacy notice  
-[!INCLUDE[cc_privacy_rso_location_info_bing_maps](../includes/cc-privacy-rso-location-info-bing-maps.md)]
+
 
 
 ## See also
