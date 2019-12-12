@@ -2,7 +2,7 @@
 title: "Configure default settings (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/15/2019
+ms.date: 12/12/2019
 ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.suite: 
