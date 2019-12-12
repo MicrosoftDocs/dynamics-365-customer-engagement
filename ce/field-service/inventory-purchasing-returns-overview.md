@@ -44,10 +44,7 @@ For basic inventory requirements, many organizations utilize the above capabilit
 Knowledge of [Field Service product catalog capabilities](./create-product-or-service.md) is a critical before utilizing inventory, purchasing, and return functionality.
 
 > [!Note]
-> Only products that have a Field Service Type = Inventory are tracked in inventory.
-
-
-
+> Only products that have a Field Service Type = Inventory are tracked in inventory. Keep this in mind when adding products to work orders, purchase orders, and RMAs and expecting to see inventory changes.
 
 
 ## Warehouses and product inventory
