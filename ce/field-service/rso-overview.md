@@ -104,14 +104,14 @@ Ways to run RSO
 
 
 ## Next steps
-Get RSO
-Deploy RSO
-Configure RSO
+[Get RSO](rso-get-install.md)
 
-
-
+[Deploy RSO](rso-deployment.md)
 
 ## See also
 
-- Quickstart
-- Quickstart video
+[RSO Quickstart](rso-quickstart.md)
+
+![Video symbol](../field-service/media/video-icon.png "Video symbol") [RSO Quickstart](https://youtu.be/oJ-3HTJWRMo)
+
+[Configure RSO](rso-configuration.md)
