@@ -108,12 +108,9 @@ A P.O. Receipt does not need to contain all Products requested or all quantities
   
 3.  Click **Save**.  
   
-4.  To add items on the bill, from the top menu, click the drop-down arrow next to the bill name, and then click **Receipt Products**.  
-  
-5.  On the **Purchase Order receipt Product Associated View** screen, click **+Add New Purchase Order Receipt Products**, and then add the item.  
+4.  To add items on the bill, from the PO Bill go to **Related > Receipt Products > +Add New Purchase Order Receipt Products**.
 
 
-  
 ### See also      
  [Configure and set up customer assets](../field-service/configure-set-up-customer-assets.md)   
  [Create an inventory adjustment](../field-service/create-inventory-adjustment.md)   
