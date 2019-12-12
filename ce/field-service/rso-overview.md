@@ -19,7 +19,20 @@ search.app:
 
 # Overview of the Resource Scheduling Optimization (RSO) solution
 
-Resource Scheduling Optimization (RSO) is an add-on capability for the Dynamics 365 Field Service application that enables you to automatically schedule work orders for the most appropriate resources, by optimizing bookings for the shortest travel time, available work hours, and many other constraints.
+Resource Scheduling Optimization (RSO) automatically schedules jobs to the people, equipment, and facilities best equipped to complete them. This includes automatically scheduling work orders to field technicians, cases to customer service reps, and any other example based on how you are using Dynamics 365 Field Service, Customer Service, and Project Service Automation. 
+
+Whereas the schedule board and the schedule assistant help dispatchers schedule a single job, RSO can schedule many jobs at one time, maximizing overall utilization and minimizing total travel time.
+
+
+ by finding the best travel routes in the exa and twhich means the algorithm can maximize resource utilization and minimze travel times by finding the best travel routes . 
+
+Beyond automatically scheduling jobs, RSO also optimizes scheduling to maximize resoure utilization
+
+
+
+needed who are best
+
+is an add-on capability for the Dynamics 365 Field Service application that enables you to automatically schedule work orders for the most appropriate resources, by optimizing bookings for the shortest travel time, available work hours, and many other constraints.
 
 RSO is one of three ways to schedule with Dynamics 365 Field Service:
 
@@ -92,6 +105,8 @@ built on URS which is inlcuded with FS, PSA, and CS
 uses things like requirements, the schedule board
 
 ## How it works
+
+traveling salesman problem and vehicle routing problem
 
 Ways to run RSO
 adds on to URS and optimizes anything
