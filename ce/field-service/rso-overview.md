@@ -2,7 +2,7 @@
 title: Resource Scheduling Optimization (RSO)
 author: shellyhaverkamp
 manager: shellyha
-ms.date: 08/07/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.custom: 
   - dyn365-fieldservice
@@ -19,34 +19,32 @@ search.app:
 
 # Overview of the Resource Scheduling Optimization (RSO) solution
 
-Resource Scheduling Optimization (RSO) is an add-on capability for the Dynamics
-365 for Field Service application that enables you to automatically schedule
-work orders for the most appropriate resources, by optimizing bookings for the
-shortest travel time, available work hours, and many other constraints.
+Resource Scheduling Optimization (RSO) is an add-on capability for the Dynamics 365 for Field Service application that enables you to automatically schedule work orders for the most appropriate resources, by optimizing bookings for the shortest travel time, available work hours, and many other constraints.
 
 RSO is one of three ways to schedule with Dynamics 365 Field Service:
 
-1.  **Manual scheduling**: Drag and drop work order requirements from the bottom
-    panel to the resource’s calendar above.
+1.  **Manual scheduling**: Drag and drop work order requirements from the bottom panel to the resource’s calendar above.
 
     > [!div class="mx-imgBorder"]
     > ![](media/29a8d922fb088fa1d668c598f6887e65.png)
 
-2.  **Scheduling Assistant**: This allows you to filter resources on the left
-    panel by travel range, skills, dates, roles, territories, and more. The
-    system recommends available resources on the right and displays estimated
-    travel times.
+2.  **Scheduling Assistant**: This allows you to filter resources on the left panel by travel range, skills, dates, roles, territories, and more. The system recommends available resources on the right and displays estimated travel times.
 
     > [!div class="mx-imgBorder"]
     > ![](media/131ed6d21d96cbc0ccc5a730dcbe1bd0.png)
 
-3.  **Resource Scheduling Optimization**: This add-on evaluates routes and
-    automatically schedules bookable records to minimize travel time and
-    maximize working hours and more, based on your configured objectives, such
-    as “minimize travel time” and “maximize working hours.”
+3.  **Resource Scheduling Optimization**: This add-on evaluates routes and automatically schedules bookable records to minimize travel time and maximize working hours and more, based on your configured objectives, such as “minimize travel time” and “maximize working hours.”
 
     > [!div class="mx-imgBorder"]
     > ![](media/8cce1b1462b960eecac5012ad1a2d685.png)
+
+## Running RSO
+
+## Optimized schedules
+
+- same location
+- reduce overall travel time
+- traveling time vs working time
 
 ## Benefits of using Resource Scheduling Optimization 
 
@@ -90,5 +88,17 @@ for urgent situations.
     Scheduling](https://www.microsoft.com/en-US/dynamics/crm-customer-center/scheduling-anything-in-dynamics-365-with-universal-resource-scheduling.aspx)
 
 <a name="bkmk_step3 "></a>   
+
+## Next steps
+Get RSO
+Deploy RSO
+Configure RSO
+
 ## Privacy notice  
 [!INCLUDE[cc_privacy_rso_location_info_bing_maps](../includes/cc-privacy-rso-location-info-bing-maps.md)]
+
+
+## See also
+
+- Quickstart
+- Quickstart video
