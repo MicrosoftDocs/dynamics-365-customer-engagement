@@ -129,27 +129,17 @@ Common examples for why returns may be initiated include:
 - A repair is needed and the repair will not take place on site, but back at the service provider's or manufacturer's location
 - The equipment was at the customer's location as part of a lease that is ending and will not be renewed
 
-
 Field Service supports three out-of-the-box returns:
 
 - Return to Warehouse
 - Return to Vendor
 - Change of Equipment Ownership
 
-All Product Returns are initiated with Return Merchandise Authorizations, simply referred to as “RMAs.” The RMA designates the Products to be returned as well as all other important information, such as pricing. It also specifies a processing action, which is the type of Return. However, the return isn’t finalized until an RMA Receipt is created. The RMA Receipt confirms the correct Product and quantity were received as well as date and person handling the receipt.
+There are three steps when issuing a Return:
+1. Create RMA - All Product Returns are initiated with Return Merchandise Authorizations, simply referred to as “RMAs.” The RMA designates the Products to be returned as well as all other important information, such as pricing. It also specifies a processing action, which is the type of Return. 
+2. Create RMA Receipt - the return isn’t finalized until an RMA Receipt is created. The RMA Receipt confirms the correct Product and quantity were received as well as date and person handling the receipt.
+3. Inventory and Customer Asset adjustments are carried out - this is done automatically in the background.
 
-There are three steps when issuing a Return
-1. Create RMA
-2. Create RMA Receipt
-3. Inventory and Customer Asset adjustments are carried out (done automatically)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inventory-rma.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inventory-rma-product.png)
 
 Other important features of RMAs include the ability to issue credits to customers who initiate returns and the ability to track returns as part of customer asset service history.
 
