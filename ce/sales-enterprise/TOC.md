@@ -36,12 +36,14 @@
 #### [Delete a family, product or bundle](../sales-enterprise/delete-family-product-bundle.md)
 #### [See relationships in a hierarchical view](../basics/hierarchical-relationship.md)
 #### [Add editable products grid on forms](../sales-enterprise/editable-product-grid-forms.md) 
+
 ### Forecast and Goal management
 #### [Goal settings](../admin/system-settings-dialog-box-goals-tab.md)
 #### [Create or edit goals](../sales-enterprise/create-edit-goal-sales.md)
 #### [Define a goal metric](../sales-enterprise/create-edit-goal-metric.md)
 #### [Define a goal rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)
 #### [Configure a forecast in your organization](configure-forecast.md)
+#### [Add forecast grid and configuration options in site map](add-forecast-site-map.md)
 
 ### Playbook management
 #### [Define playbook categories](define-playbook-categories.md)  
@@ -75,20 +77,24 @@
 #### [Close opportunities as won or lost](../sales-enterprise/close-opportunity-won-lost-sales.md)
 #### [Create or edit competitor records](../sales-enterprise/create-edit-competitor-record-sales.md)
 #### [Manage sales literature](../sales-enterprise/create-sales-literature.md)
+
 ### Quotes and order management
 #### [Create or edit quotes](../sales-enterprise/create-edit-quote-sales.md)
 #### [Create or edit orders](../sales-enterprise/create-edit-order-sales.md)
 #### [Create or edit invoices](../sales-enterprise/create-edit-invoice-sales.md)
 #### [Add products to quotes, orders, or invoices](../sales-enterprise/add-product-quote-order-invoice.md)
+
 ### Sales forecasting
 #### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
 #### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)
 #### [View forecasts](view-forecasts.md)
+
 ### Playbooks
 #### [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)
 #### [Launch a playbook to carry out activities consistently](launch-playbook.md)  
 #### [Mark playbook as completed](mark-playbook-completed.md)  
 #### [Track playbook activities](track-playbook-activities.md)
+
 ### Get started with in-app marketing
 #### [Overview](../sales-enterprise/get-started-app-marketing-sales.md)
 #### [Create a marketing list](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)  
