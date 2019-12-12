@@ -49,7 +49,7 @@ In this exercise, you'll create a couple of fictional contacts with email addres
 
 1. Go to **Marketing** > **Customers** > **Segments**. This takes you to a list of existing segments. On the command bar, select **New**.  
 
-1. The **New Segment** page opens. It shows a selection of segment types. We're going to base this segment on properties of contact records alone, so select **Demographic** to create a demographic segment.
+1. The **Segment templates** dialog box opens; select **Cancel** to close it and continue to the **Let's create your segment** screen. We're going to base this segment on properties of contact records alone, so select **Demographic** to create a demographic segment.
 
     ![Create a demographic segment](media/segment-hub-demographic.png "Create a demographic segment")
 

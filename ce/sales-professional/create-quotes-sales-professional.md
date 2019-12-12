@@ -1,11 +1,14 @@
 ---
 title: "Create and manage quotes in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Use quotes in Dynamics 365 Sales Professional to make formal offers for products with proposed prices to customers."
-ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+keywords: ""
+ms.date: 12/12/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-ms.assetid: 9f0790d3-9141-4e2e-a0fe-f15324d67337
+ms.assetid: f659c86c-eca1-a87b-8101-687a60c5ba9f
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -19,7 +22,7 @@ If you’ve created your quote from an opportunity, you might have already added
 
 You’ll probably edit a quote multiple times as a sale progresses. Initially, you create a draft, and then you need to activate it when it’s ready to go to a customer.
 
-When the customer accepts the quote, and you are ready to ship the products, you create an invoice. Otherwise, you close the quote as revised, canceled, or lost.
+When the customer accepts the quote, you create an order. Otherwise, you close the quote as revised, canceled, or lost.
 
 ## Create a quote from an opportunity
 
@@ -72,12 +75,10 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
 ## Email a quote
 
-When you’ve added all the details to the quote, you can send it to the customer. To directly send an email to customer with a quote attached, open the quote, and on the command bar, select **Send by Email**.
-
-![Send By Email command bar button](media/send-by-email-button.png "Send By Email command bar button")
+When you’ve added all the details to the quote, you can send it to the customer. To directly send an email to a customer with a quote attached, open the quote, and on the command bar, select **Email as PDF**. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Email a quote PDF](create-quote-pdf-sales-professional.md#email-as-a-pdf-document)
 
 ### See also
 
 [Develop sales from lead to cash in Dynamics 365 Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
-[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
-[Sales transactions in Dynamics 365 Sales Professional](understanding-sales-transactions-sales-professional.md)
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
+[Sales transactions in Dynamics 365 Sales Professional](understanding-sales-transactions-sales-professional.md)  

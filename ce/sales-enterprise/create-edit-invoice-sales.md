@@ -1,18 +1,15 @@
 ---
 title: "Create or edit invoices (Dynamics 365 Sales) | MicrosoftDocs"
 description: "An invoice is an order that has been billed to the customer."
-keywords: "Invoice, bill, sale"
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: b58780fa-4e39-4925-99ad-e2e1bbfb5fa4
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-caps.latest.revision: 34
 ---
 
 # Create or edit invoices (Sales and Sales Hub)
@@ -35,7 +32,7 @@ Typically, you convert an order into an invoice; however, you can also create an
 3. Select **Create Invoice** at the top of the screen.  
 
     > [!IMPORTANT]
-    > If Dynamics 365 Salesintegrated with an external order processing application, you may see the **Submit Order** button instead of the **Create Invoice** button on the Order form command bar. This is because the integration allows an order created in DynaDynamics 365 Salesubmitted, and it is synced to the order processing app where the lifecycle of the order continues. A submitted order is locked for editing in DynamicsDynamics 365 Salesn integration user. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable sales order processing integration](developer/enable-sales-order-processing-integration.md)
+    > If Dynamics 365 Sales is integrated with an external order processing application, you may see the **Submit Order** button instead of the **Create Invoice** button on the Order form command bar. This is because the integration allows an order created in Dynamics 365 Sales to be submitted, after which it is synchronized with the order processing app where the lifecycle of the order continues. A submitted order is locked for editing in Dynamics 365 Sales, except by an integration user. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable sales order processing integration](developer/enable-sales-order-processing-integration.md)
 
 4. Review the contents of the invoice and make any additions or corrections before sending to your customer.  
 

@@ -1,20 +1,18 @@
 ---
 title: "setMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework | Microsoft Docs"
 description: ""
-keywords: ""
-ms.date: 10/15/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: 779E3C9F-BC13-4BE1-8470-4E432765F414
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 10/15/2019
+ms.topic: reference
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
 ---
 
 # setMode (CIF JavaScript API Reference)

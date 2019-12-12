@@ -1,18 +1,19 @@
 ---
 title: "Configure Unified Service Desk to use model-driven apps | MicrosoftDocs"
 description: "Learn how to configure Unified Service Desk to use model-driven apps."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/17/2018
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: c2e0f4b1-c09a-413c-b703-03ff851ffb9d
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 ---

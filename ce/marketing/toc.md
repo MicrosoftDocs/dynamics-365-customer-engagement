@@ -54,7 +54,9 @@
 
 ### Customize Marketing
 #### [Customizing Marketing](customize.md)
+#### [Open the Power Apps customization window](customize-open-powerapps.md)
 #### [Create and customize marketing calendars](customize-marketing-calendars.md)
+#### [Create and customize template labels](customize-template-labels.md)
 
 ### Privacy and compliance
 #### [Data protection and GDPR](gdpr.md)
@@ -104,6 +106,7 @@
 #### [Set the sender, receiver, language, and legal designation](email-properties.md)
 #### [Check your work using previews and test sends](email-preview.md)
 #### [Check for errors, go live, and deliver](email-check-golive.md)
+#### [Quickly design and deliver marketing emails with "send now"](email-send-now.md)
 #### [Preview: Check your spam score](spam-score.md)
 #### [Design and run A/B tests on your email designs](email-a-b-testing.md)
 
@@ -115,7 +118,7 @@
 #### [Integrate with landing pages on external websites](embed-forms.md)
 #### [Create input fields for forms](marketing-fields.md)
 #### [Set up a subscription center](set-up-subscription-center.md)
-#### [View and recover from failed form submissions](failed-submissions.md)
+#### [Edit and resubmit form submissions](failed-submissions.md)
 
 ### Build a library of marketing content
 #### [Upload and use images and files](upload-images-files.md)
@@ -128,14 +131,17 @@
 #### [Design dynamic demographic or firmographic segments](segments-profile.md)
 #### [Design behavioral segments](segments-interaction.md)
 #### [Generate behavioral segments from journey results](generate-segment-from-journey.md)
+#### [Export dynamic-segment members to Excel](segments-export-members.md)
 #### [Design static segments](segments-static.md)
 #### [Manage segment memberships from a contact record](manage-segments-from-contacts.md)
 #### [Combine segments into a compound segment](segments-compound.md)
+#### [Work with segment templates](segments-templates.md)
 #### [Market to Dynamics 365 segments on LinkedIn ](linkedin-matched-audience.md)
 #### [Use Customer Insights segments in Marketing](customer-insights-segments.md)
 
 ### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
+#### [Preview: Set expiration dates for emails](email-expire.md)
 #### [Preview: Use smart scheduler to help improve email engagement](smart-scheduler.md)
 #### [Preview: Expand your audience with segment boost](segment-boost.md)
 #### [Create and manage customer journey templates](journey-templates.md)
@@ -186,7 +192,17 @@
 ### Analyze marketing results
 #### [Analyze results to gain insights](insights.md)
 #### [Insights glossary](insights-glossary.md)
-#### [Preview: Create custom analytics with Power BI](custom-analytics.md)
+#### [Preview: Prepare for analytic reporting with Power BI](custom-analytics.md)
+
+#### Power BI report and template gallery
+##### [Download and use templates for Power BI](marketing-analytics/analytics-gallery-start.md)
+##### [Gallery: Analytic reporting framework](marketing-analytics/analytics-gallery-framework.md)
+##### [Gallery: Leaderboard report for journeys and email](marketing-analytics/analytics-gallery-leaders.md)
+##### [Gallery: Email marketing analytical report](marketing-analytics/analytics-gallery-email.md)
+##### [Gallery: Segmentation usage report](marketing-analytics/analytics-gallery-segments.md)
+##### [Gallery: Marketing program effectiveness analysis](marketing-analytics/analytics-gallery-program.md)
+##### [Gallery: Marketing reach analysis](marketing-analytics/analytics-gallery-reach.md)
+##### [Gallery: Marketing form submission report](marketing-analytics/analytics-gallery-forms.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)
 ### [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)

@@ -1,5 +1,5 @@
 ---
-title: "Collaborate with Microsoft Teams| MicrosoftDocs"
+title: "Basic Collaboration Experience with Microsoft Teams integration| MicrosoftDocs"
 ms.custom: 
 description: "Collaborate with team members using the Dynamics 365 app for Microsoft Teams."
 ms.date: 10/16/2019

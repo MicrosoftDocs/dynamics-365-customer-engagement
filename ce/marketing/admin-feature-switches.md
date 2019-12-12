@@ -1,6 +1,6 @@
 ---
-title: "Enable or disable optional features with feature switches (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to use the Feature switches page to enable or disable optional features in Dynamics 365 Marketing."
+title: "Enable or disable optional and preview features with feature switches (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to use the Feature switches page to enable or disable optional and preview features in Dynamics 365 Marketing."
 keywords: administration; sample data
 ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
@@ -22,11 +22,17 @@ search.app:
   - D365Mktg
 ---
 
-# Use feature switches to enable or disable optional features
+# Use feature switches to enable or disable optional and preview features
 
-Use the **Feature switches** page to enable or disable optional features in Dynamics 365 Marketing. Currently, the only feature available here is business unit scoping. To enable or disable this feature:
+Use the **Feature switches** page to enable or disable optional and preview features in Dynamics 365 Marketing.
 
-1. Go to **Settings** > **Advanced settings** > **Other settings** > **Feature switches**.
-1. Set the **Business unit scoping** slider to **On** to turn the feature on, or to **Off** to turn it off.
+To enable or disable a feature, go to **Settings** > **Advanced settings** > **Other settings** > **Feature switches** and set the various feature sliders to **On** or **Off** as needed. The following table lists each available feature together with its preview status and links for more information.
 
-For details about how business units work in Dynamics 365 Marketing and how this setting affects them, see [Use business units to control access to Marketing records](business-units.md).
+| Feature switch | Preview or production | Link for more information |
+|---|---|---|
+| Business unit scoping | Production | [Use business units to control access to Marketing records](business-units.md)|
+| Customer journey email expiration | Preview | [Preview: Set expiration dates for selected email tiles in a customer journey](email-expire.md) |
+
+> [!IMPORTANT]
+> [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
+> [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  

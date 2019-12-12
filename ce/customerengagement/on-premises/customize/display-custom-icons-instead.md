@@ -2,7 +2,7 @@
 title: "Display custom icons alongside values in list views | MicrosoftDocs"
 description: "Learn how to display custom icon graphics in a view"
 ms.custom: 
-ms.date: 02/14/2019
+ms.date: 11/20/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -32,9 +32,7 @@ search.app:
 > [!div class="mx-imgBorder"] 
 > ![](media/icon-in-opportunity-view.png "All Opportunities view with Rating column displaying icons and text value")
 
-  
-> [!NOTE]
->  Grid icons are only shown in the web interface. They are not shown in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] or the mobile app.  
+Custom icons in list views can display in Unified Interface, classic web client, mobile app, and App for Outlook.
   
 ### Add custom graphics and JavaScript as web resources  
   

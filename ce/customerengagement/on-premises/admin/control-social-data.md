@@ -43,4 +43,4 @@ You can enable or disable your ability to receive social data in [!INCLUDE[pn_mi
   
 ### See also  
  [Connect to Microsoft Social Engagement](../admin/connect-microsoft-social-engagement.md)   
- [Receive social data in Microsoft Dynamics CRM](http://go.microsoft.com/fwlink/p/?LinkID=392629)
+ [Receive social data in Microsoft Dynamics CRM](https://go.microsoft.com/fwlink/p/?LinkID=392629)

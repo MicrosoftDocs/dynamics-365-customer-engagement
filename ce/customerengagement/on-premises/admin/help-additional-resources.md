@@ -30,5 +30,5 @@ There are several resources available to you covering planning, operating, and u
   
 -   Search the [Support Blog](https://community.dynamics.com/crm/b/dynamicscrmsupportblog/default.aspx) and [Community Forum](https://community.dynamics.com/product/crm/f/117.aspx)  
   
--   Search the [Microsoft Knowledge Base](http://go.microsoft.com/fwlink/p/?LinkId=203050)  
+-   Search the [Microsoft Knowledge Base](https://go.microsoft.com/fwlink/p/?LinkId=203050)  
   

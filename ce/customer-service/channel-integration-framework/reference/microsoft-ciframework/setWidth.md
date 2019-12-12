@@ -1,19 +1,18 @@
 ---
 title: "setWidth (JavaScript API Reference) for Dynamics 365 Channel Integration Framework | Microsoft Docs"
 description: ""
-ms.date: 12/10/2018
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - dyn365-a11y
-  - dyn365-developer
-ms.topic: reference
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-ms.assetid: 3B05CB86-5C50-4EED-A33E-86A0B46A1D33
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 12/10/2018
+ms.topic: reference
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - dyn365-a11y
+  - dyn365-developer
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
 ---
 
 # setWidth (CIF JavaScript API Reference)

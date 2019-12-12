@@ -1,20 +1,16 @@
 ---
 title: "Get started with building a simple communication widget | MicrosoftDocs"
 description: "Read how to develop and host a simple communication widget in Microsoft Dynamics 365 Channel Integration Framework."
-keywords: ""
-ms.date: 03/14/2019
-ms.service:
-  - "dynamics-365-cross-app"
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: 1BDBDB0C-8DEA-454E-97B2-884F97C7596D
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 03/14/2019
+ms.topic: reference
+ms.service: 
+  - "dynamics-365-cross-app"
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 # Walkthrough: Get started with building a simple communication widget
 

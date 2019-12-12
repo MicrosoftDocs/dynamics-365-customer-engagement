@@ -1,18 +1,16 @@
 ---
 title: "What is Dynamics 365 Channel Integration Framework? | Microsoft Docs"
 description: "Learn what Dynamics 365 Channel Integration Framework is and how to get started using it."
-keywords: ""
-ms.date: 10/18/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: get-started-article
-ms.assetid: e6d23c5f-e4ec-41f7-aff7-9cb50828357f
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 10/18/2019
+ms.topic: get-started-article
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 
 # What is Dynamics 365 Channel Integration Framework?
@@ -58,7 +56,7 @@ Dynamics 365 Channel Integration Framework version 2.0, provides multiple enhanc
 
   More information: [Support for multiple providers](support-multiple-providers.md)
 
-Here are the capabilities offered by Dynamics 365 Channel Integration Framework version 1.0 that also apply to version 2.0:
+Here are the capabilities offered by Dynamics 365 Channel Integration Framework version 1.0:
 
 - **Bring your own channel providers (integrate third-party channel providers)**
 

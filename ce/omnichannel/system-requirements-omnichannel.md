@@ -1,19 +1,17 @@
 ---
 title: "Pre-requisites and system requirements of Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the system requirements of Omnichannel for Customer Service."
-keywords: ""
-ms.date: 11/06/2019
-ms.service:
-  - "dynamics-365-customerservice"
-ms.custom:
-  - ""
-ms.topic: article
-applies_to:
-  - ""
-ms.assetid: 94FFAD86-B4BF-48C1-90A5-81FDE7A8D13E
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+applies_to: 
+  - ""
+ms.date: 11/06/2019
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
+ms.custom: 
+  - ""
 ---
 
 # Pre-requisites and system requirements of Omnichannel for Customer Service
@@ -67,7 +65,7 @@ For other hardware requirements of Unified Service Desk client application, see 
 
 ## International availability
 
-The Chat for Dynamics 365 Customer Service is available in the following regions currently:
+Currently, **Chat for Dynamics 365 Customer Service** and **Dynamics 365 for Digital Messaging** are available in the following regions:
 
 - North America 
 - Europe
