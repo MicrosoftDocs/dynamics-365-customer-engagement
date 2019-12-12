@@ -100,17 +100,12 @@
 
 # Assets, inventory, and purchasing
 ## [Overview](inventory-purchasing-returns-overview.md)
-## [Asset management](configure-set-up-customer-assets.md)
+## [Customers Assets](configure-set-up-customer-assets.md)
 ## [3D asset models](3D-viewer.md)
 ## [Warehouse](create-warehouse.md)
-## [View product inventory](view-product-inventory.md)
-## [Create an inventory transfer](create-inventory-transfer.md)
-## [Create an inventory adjustment](create-inventory-adjustment.md)
-## [Manual inventory journals](manual-inventory-journals.md)
 ## [Create a purchase order](create-purchase-order.md)
 ## [Process a return](process-return.md)
-## [Return product to vendor](create-return-vendor.md)
-
+## [Manual inventory journals](manual-inventory-journals.md)
 
 # Resource Scheduling Optimization (RSO) add-in
 ## [Overview](rso-overview.md)

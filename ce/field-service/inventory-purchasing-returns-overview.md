@@ -145,7 +145,7 @@ Other important features of RMAs include the ability to issue credits to custome
 
 ## Inventory journals
 
-All inventory transactions are recorded in the Inventory Journals entity. As an example, when one product is allocated to a work order, an inventory journal is created that increases Quantity Allocated by 1. When that same product is then used to complete the work order, another inventory journal is created that decreases Quantity On Hand. This happens for all increases and decreases of product inventory. Basically, inventory journals serve as an inventory ledger within Field Service.
+All inventory transactions are recorded in the **Inventory Journals** entity that can be found via an Advanced Find. As an example, when one product is allocated to a work order, an inventory journal is created that increases Quantity Allocated by 1. When that same product is then used to complete the work order, another inventory journal is created that decreases Quantity On Hand. This happens for all increases and decreases of product inventory. Basically, inventory journals serve as an inventory ledger within Field Service.
 
 Most importantly, inventory journals are sometimes used to integrate Field Service inventory transactions into external ERP systems depending on how the integration is architected. To make integrations easier and more flexible, [inventory journals can be manually created](./manual-inventory-journals.md). 
 
