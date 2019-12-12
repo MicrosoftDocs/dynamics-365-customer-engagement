@@ -4,7 +4,7 @@ author: fieldservicedave
 ms.author: daclar
 ms.reviewer: krbjoran
 manager: shellyha
-ms.date: 11/12/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.custom: 
   - dyn365-fieldservice
@@ -20,7 +20,7 @@ search.app:
 
 # Optimization goals 
 
-A goal is what the RSO solution aspires to optimize. An example of a goal is to maximize working hours or minimize travel time. You define how bookings should be optimized (constraints and objectives). The Resource Scheduling Optimization engine processes a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route or list of bookings for the resources. Bookings are considered optimally scheduled if they:
+A goal is what the Resource Scheduling Optimization (RSO) solution aspires to optimize. An example of a goal is to maximize working hours or minimize travel time. You define how bookings should be optimized (constraints and objectives). The Resource Scheduling Optimization engine processes a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route or list of bookings for the resources. Bookings are considered optimally scheduled if they:
 
 - Meet all company constraints.
 - Have the highest possible score for the company’s objectives.
