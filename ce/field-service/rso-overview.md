@@ -21,37 +21,12 @@ search.app:
 
 Resource Scheduling Optimization (RSO) automatically schedules jobs to the people, equipment, and facilities best equipped to complete them. This includes automatically scheduling work orders to field technicians, cases to customer service reps, and any other example based on how you are using Dynamics 365 Field Service, Customer Service, and Project Service Automation. 
 
-Whereas the schedule board and the schedule assistant help dispatchers schedule a single job, RSO can schedule many jobs at one time, maximizing overall utilization and minimizing total travel time.
 
 
- by finding the best travel routes in the exa and twhich means the algorithm can maximize resource utilization and minimze travel times by finding the best travel routes . 
+Whereas the schedule board and the schedule assistant help dispatchers schedule a single job, RSO can schedule many jobs at one time, maximizing overall utilization and minimizing total travel time. Furthermore, RSO considers the requirements of the job and the unique attributes of the resources like if the job requires an experienced manager with specific skills in the same area.
 
-Beyond automatically scheduling jobs, RSO also optimizes scheduling to maximize resoure utilization
+### Benefits of using Resource Scheduling Optimization
 
-
-
-needed who are best
-
-is an add-on capability for the Dynamics 365 Field Service application that enables you to automatically schedule work orders for the most appropriate resources, by optimizing bookings for the shortest travel time, available work hours, and many other constraints.
-
-RSO is one of three ways to schedule with Dynamics 365 Field Service:
-
-1.  **Manual scheduling**: Drag and drop work order requirements from the bottom panel to the resource’s calendar above.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of ](media/29a8d922fb088fa1d668c598f6887e65.png)
-
-2.  **Scheduling Assistant**: This allows you to filter resources on the left panel by travel range, skills, dates, roles, territories, and more. The system recommends available resources on the right and displays estimated travel times.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of ](media/131ed6d21d96cbc0ccc5a730dcbe1bd0.png)
-
-3.  **Resource Scheduling Optimization**: This add-on evaluates routes and automatically schedules bookable records to minimize travel time and maximize working hours and more, based on your configured objectives, such as “minimize travel time” and “maximize working hours.”
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of ](media/8cce1b1462b960eecac5012ad1a2d685.png)
-
- 
 - **Automated scheduling**: Automatically scheduling the majority of
 requirements saves time and empowers dispatchers to focus on exceptions and
 billing.
@@ -78,6 +53,34 @@ for urgent situations.
 
 - **Improved customer retention**: Giving preference to higher-priority work orders helps avoid service level agreement (SLA) penalties and helps you meet customer service commitments.
 
+ by finding the best travel routes in the exa and twhich means the algorithm can maximize resource utilization and minimze travel times by finding the best travel routes . 
+
+Beyond automatically scheduling jobs, RSO also optimizes scheduling to maximize resoure utilization
+
+
+
+needed who are best
+
+is an add-on capability for the Dynamics 365 Field Service application that enables you to automatically schedule work orders for the most appropriate resources, by optimizing bookings for the shortest travel time, available work hours, and many other constraints.
+
+RSO is one of three ways to schedule with Dynamics 365 Field Service:
+
+1.  **Manual scheduling**: Drag and drop work order requirements from the bottom panel to the resource’s calendar above.
+
+  
+
+2.  **Scheduling Assistant**: This allows you to filter resources on the left panel by travel range, skills, dates, roles, territories, and more. The system recommends available resources on the right and displays estimated travel times.
+
+ 
+
+3.  **Resource Scheduling Optimization**: This add-on evaluates routes and automatically schedules bookable records to minimize travel time and maximize working hours and more, based on your configured objectives, such as “minimize travel time” and “maximize working hours.”
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of ](media/8cce1b1462b960eecac5012ad1a2d685.png)
+
+ 
+
+
 
 - continuum of manual and semi-automated scheduling
 - considerations - skills, territory, priority
@@ -103,6 +106,7 @@ cases, projects, custom entities
 online
 built on URS which is inlcuded with FS, PSA, and CS
 uses things like requirements, the schedule board
+its an add on
 
 ## How it works
 
@@ -114,6 +118,8 @@ adds on to URS and optimizes anything
 - schedule board
 - Azure 
 - Bing Maps
+
+you can schedule some jobs one way, and other jobs another
 
 ## Optimized schedules
 

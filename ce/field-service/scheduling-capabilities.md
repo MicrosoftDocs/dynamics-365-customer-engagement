@@ -40,6 +40,9 @@ Manual scheduling works well in the following scenarios:
 - To handle exceptions like emergency work.
 - For less complex requirements or less mature scheduling processes.
 
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of ](media/29a8d922fb088fa1d668c598f6887e65.png)
+
 > [!Note]
 > The schedule board plays a big role across all types of scheduling, and is configurable and extensible to meet specific scheduling requirements.
 
@@ -53,9 +56,16 @@ The schedule assistant uses requirement details to recommend times and resources
 
 The schedule assistant is configurable and extensible, and can be used from within the schedule board or from within a work order. It can also be embedded on others forms (like case forms). 
 
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of ](media/131ed6d21d96cbc0ccc5a730dcbe1bd0.png)
+
 ## Optimized or automated scheduling 
 
 Field service includes a set of optimized or automated capabilities called Resource Scheduling Optimization (RSO) that can be used in various combinations, including in combination with manual scheduling and the schedule assistant.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](media/8cce1b1462b960eecac5012ad1a2d685.png)
+
 
 RSO provides several different types of scheduling optimizations:
 
