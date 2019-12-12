@@ -4,7 +4,7 @@ description: "Instructions to embed chat widget in Dynamics 365 Portals."
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
-ms.date: 08/29/2019
+ms.date: 12/13/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -22,7 +22,7 @@ To embed a chat widget in Dynamics 365 Portals:
 5.	On the **Basic details** tab, copy the widget snippet code from the **Code snippet** section.
     > [!div class=mx-imgBorder]
     > ![Copy code snippet of a chat widget](../media/chat-widget-snippet.png "Copy code snippet of a chat widget")
-6.	Open the Dynamics 365 Portals app.
+6.	[Open the Portal Management app](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
 7.	Go to **Portal** > **Content Snippets**.
 8.	Find the **Chat Widget Code** content snippet and open it.
     > [!div class=mx-imgBorder]
