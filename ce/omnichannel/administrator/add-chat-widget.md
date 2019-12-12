@@ -4,7 +4,7 @@ description: "Instructions to add a chat widget in Omnichannel for Customer Serv
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
-ms.date: 08/29/2019
+ms.date: 12/13/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -25,13 +25,13 @@ ms.topic: article
         
             You can optionally specify authentication settings. For more information about how to specify authentication settings, see [Create chat authentication settings](create-chat-auth-settings.md). You must save the record to enter more details.
 
-        2. In the **Work Distribution** section, browse and select the work stream you created for the chat widget. By default, **Live chat workstream** is selected. More information: [Understand and create work streams](work-streams-introduction.md).
+        2. In the **Work distribution** section, browse and select the work stream you created for the chat widget. By default, **Live chat workstream** is selected. More information: [Understand and create work streams](work-streams-introduction.md).
         
         > [!NOTE]
         > If you save the chat widget, you can't edit the **Work stream** field. If you want to edit the field, you must delete the chat widget and create a new one.
         
         3. In the **Proactive chat** section, select the options to enable or disable proactive chat. More information: [Configure proactive chat](proactive-chat.md).
-        4. In the **File Attachments** section, select the options to allow or deny customers and agents to attach and send files as attachments. More information: [Configure file attachment capability](configure-file-attachment.md).
+        4. In the **File attachments** section, select the options to allow or deny customers and agents to attach and send files as attachments. More information: [Configure file attachment capability](configure-file-attachment.md).
         5. In the **Chat Transcripts** section, select the options to download and email the chat transcripts. More information: [Configure download and email of chat transcripts](download-email-chat-transcripts.md).
         6. In the **Queue position** section, set the option to show customers their position in the queue when they are waiting to interact with an agent. More information: [Show customers their position in a queue](show-queue.md). 
         
@@ -64,6 +64,7 @@ ms.topic: article
 
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Configure agent display name](agent-display-name.md)<br>
+[Configure proactive chat](proactive-chat.md)<br>
 [Configure file attachment capability](configure-file-attachment.md)<br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>

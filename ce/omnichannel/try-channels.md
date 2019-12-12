@@ -30,8 +30,7 @@ With this option, you can get a free 30-day trial of Chat, SMS, and Facebook Mes
 - You must have an existing organizational account with the global administrator role to enable the trial.
 
 > [!NOTE]
-> - This option is currently available only in North America, Europe, Canada, United Kingdom, Australia, Asia Pacific, and South America. Your tenant must be located in one of these regions. 
-> - The 30-day trial period does not apply to the Facebook Messenger channel as it is in preview.
+> This option is currently available only in North America, Europe, Canada, United Kingdom, Australia, Asia Pacific, and South America. Your tenant must be located in one of these regions. 
 
 ### Step 1: Get a Dynamics 365 trial instance
 
@@ -90,9 +89,6 @@ Once a channel is enabled in your organization, you can sign in to Dynamics 365 
 ## Option 2: Channels trial through Microsoft 365 admin center
 
 With this option, you can sign-up for a free 30-day trial of Chat, SMS, and Facebook Messenger channels from the Microsoft 365 admin center only if you have a paid subscription of Dynamics 365 Customer Service Enterprise that has been purchased directly through the Microsoft 365 admin center (that is, Web Direct). If you do not have the pre-requisite subscription, or if you have purchased the pre-requisite subscription other than Web Direct, then the option to try channels will not be available in the Microsoft 365 admin center.
-
-> [!NOTE]
-> The 30-day trial period does not apply to the Facebook Messenger channel as it is in preview.
 
 The channel you can try depends on the add-on you purchase from the Microsoft 365 admin center. The following add-ons are available for purchase:
 
