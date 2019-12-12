@@ -48,7 +48,10 @@ Before understanding purchase orders it's important to understand how [products 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inventory-purchase-order.png)
 
-  
+#### Ship via
+
+When you create a [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] purchase order in the system, it's a good idea to track how the order is shipped. This helps you track the purchase order. The **ship-via** field lets you specify different shipping methods used by your company. You can create new options in **Field Service > Settings > Ship Via**. COmmon examples include freight shipping, USPS Ground, or FedEx.
+    
 ### Step 2: Add products to the P.O.  
   
   
@@ -70,7 +73,7 @@ Back on the Purchase order, change the Purchase Order **System Status** to **Sub
 If you have permissions to approve the P.O., then go to the purchase order and change the **System Status** to **Approved**.  
 
 > [!NOTE]
-> For products that are tracked in inventory and for purchase orders for warehouses, an inventory journal is created automatically in the background that increases the "On Order" warehouse quantity by the PO Product quantity. This helps inventory manages understand if more units have already been ordered.
+> For products that are tracked in inventory and for purchase orders being received to warehouses, an inventory journal is created automatically in the background that increases the "On Order" warehouse quantity by the PO Product quantity. This helps inventory manages understand if more units have already been ordered.
    
 ### Step 4: Create a receipt for the P.O.  
 
@@ -88,45 +91,28 @@ When the order arrives, then you can create a receipt.
     
 ### Step 5: Add P.O. receipt products  
   
-1. From the PO Receipt, add related PO Receipt Products  
+From the PO Receipt, add related PO Receipt Products.
 
+A P.O. Receipt does not need to contain all Products requested or all quantities requested. Oftentimes, Products will be received as they arrive. Some Products may arrive sooner and larger quantity shipments may arrive in numerous shipments. In these situations, numerous P.O. Receipts can be created for a single Purchase Order
 
-  
-  
 ### Step 6: Create P.O. bill  
  Once you receive an invoice from the vendor, then you can create a purchase order bill.  
   
-1.  From the top menu, click the drop-down arrow next to the P.O. name that you created, and then click **Bills**.  
+1.  From the original purchase order go to **Related > Bills > +Add New Purchase Order Bill**. 
+    
+2.  Use the tooltips to help fill in your information:  
   
-2.  On the **Purchase Order Bill Associated View** screen, click **+Add New Purchase Order Bill**.  
-  
-3.  Use the tooltips to help fill in your information:  
-  
-    -   Enter a **Bill Date**—this is the date that's on the purchase order bill.  
+    -   Enter a **Bill Date** — this is the date that's on the purchase order bill.  
   
     -   Enter a **Vendor Invoice Number** so that you’ll have a cross reference to the invoice number that the vendor provided.  
   
-4.  Click **Save**.  
+3.  Click **Save**.  
   
-5.  To add items on the bill, from the top menu, click the drop-down arrow next to the bill name, and then click **Receipt Products**.  
+4.  To add items on the bill, from the top menu, click the drop-down arrow next to the bill name, and then click **Receipt Products**.  
   
-6.  On the **Purchase Order receipt Product Associated View** screen, click **+Add New Purchase Order Receipt Products**, and then add the item.  
+5.  On the **Purchase Order receipt Product Associated View** screen, click **+Add New Purchase Order Receipt Products**, and then add the item.  
 
-## Ship via
 
-When you create a [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] purchase order in the system, it's a good idea  to track how the order is shipped. This helps you track the purchase order. The ship-via option lets you specify different shipping methods used by your company.  
-  
- For example, you might use freight shipping, USPS Ground, or FedEx when products are purchased. In this case, you can specify these shipping methods in the ship-via setting. When you create ship-via methods, you'll see this in the purchase order form.  
-  
-1.  From the main menu, click **Field Service** > **Administration**, and then choose **Ship Via**.  
-  
-2.  On the **Active Ship Via** screen, click **+New** in the upper left corner.  
-  
-3.  Use the tooltips to help you fill in your information, and then click **Save**.  
-
-A P.O. Receipt does not need to contain all Products requested or all quantities requested. Oftentimes, Products
-will be received as they arrive. Some Products may arrive sooner and larger quantity shipments may arrive in
-numerous shipments. In these situations, numerous P.O. Receipts can be created for a single Purchase Order
   
 ### See also      
  [Configure and set up customer assets](../field-service/configure-set-up-customer-assets.md)   
