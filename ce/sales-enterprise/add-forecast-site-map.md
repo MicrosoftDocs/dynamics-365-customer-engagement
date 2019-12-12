@@ -39,19 +39,19 @@ Follow these steps:
 
     a.	Select **Type** as **URL**.
 
-    b.	Enter **URL**.
+    b.	In **URL**:
         
        - For the forecast grid: **/main.aspx?pagetype=control&controlName=ForecastingControls.FieldControls.ForecastGridPage**
         
        - For the forecast configuration: **/main.aspx?pagetype=control&controlName=ForecastingControls.FieldControls.CCFForecastConfig**
     
-    c.	Enter **Title**.
+    c.	In **Title**:
 
        - For the forecast grid, enter **Forecasts**.
 
        - For the forecast configurations, enter **Forecast configurations**.
 
-    d.	Select **Icon**.
+    d.	Select an **Icon**:
 
        - For the forecast grid, select **Forecast Instance Entity icon**.
 
