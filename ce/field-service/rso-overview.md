@@ -87,24 +87,17 @@ Resource Scheduling Optimization (RSO) is an enhanced application of the famous 
 
 Here's how it works.
 
-First you create a list of jobs that need to be completed. These are generally work orders for onsite service, cases for remote service, and project tasks. 
+1. First you create a list of jobs that need to be completed. These are generally work orders for onsite service, cases for remote service, and project tasks. 
 
-For each job, you list what kind of resource is needed and when it needs to be completed. As an example, for a project you may need someone with accounting skills and the task needs to be completed by next friday. Much of this information is automatically populated based on the job details. 
+2. For each job, you list what kind of resource is needed and when it needs to be completed. As an example, for a work order you may need someone nearby with repair skills and the work order needs to be completed by end of this week. Much of this information is automatically populated based on the job details. 
 
-Next you pick a list of resources that are elegible to be considered for your list of jobs, and each resource has different attributes like where they are located, what role he or she has, what type of resource they are (employee, contractor, facility, equipment), and what skills they have. 
+3. Next you pick a list of resources that are elegible to be considered for your list of jobs, and each resource has different attributes like where they are located, what role he or she has, what type of resource they are (employee, contractor, facility, equipment), and what skills they have. 
 
-- continuum of manual and semi-automated scheduling
+4. After that you Run RSO. RSO can be run manually by pushing a button, based on a predefined schedule or timetable, or triggered by a workflow.
 
-Ways to run RSO
-adds on to URS and optimizes anything
-- scopes, goals, schedules
-- schedule board
-- Azure 
-- Bing Maps
+5. When RSO runs, the job requirements and the list of resources are sent to Azure and RSO computes an optimal schedule that is displayed on the schedule board.
 
-you can schedule some jobs one way, and other jobs another
-
-
+6. After RSO runs, dispatchers can use the interactive schedule board and schedule assistant to makes changes as needed.
 
 
 ## Optimized schedules
