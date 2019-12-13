@@ -103,20 +103,16 @@ Here's how it works.
 
 ## Optimized schedules
 
-RSO _optimizes_ schedules in addition to automatically scheduling them. After running RSO, its important to understand the optimized results. Lets look at a few examples.
+RSO _optimizes_ schedules in addition to automatically scheduling them. After running RSO, it's important to understand the optimized results. Lets look at a few examples.
 
-In the image below is an optimized schedule board. In the left pane you'll see a map view of the optimized bookings. One way you can see RSO working effectively is the travel routes are clustered around each resources' starting location and each color represent a different technician's route. When dispatchers manaully schedule jobs without using RSO, the travel routes are often 
-
-
-- same location back to back
-
+In the image below is an optimized schedule board. In the left pane you'll see a map view of the optimized bookings. One way you can see RSO working effectively is the travel routes are clustered around each resource's starting location and each color represent a different technician's route. When dispatchers manaully schedule jobs without using RSO, the travel routes are often spread across the map zig-zagging in different directions.
 
   > [!div class="mx-imgBorder"]
   > ![Screenshot of ](media/rso-optimized-schedule-board-routes-with-annotation.png)
 
-- reduce overall travel time
-- traveling time vs working time
+Also, in the image above you can see some bookings are scheduled back-to-back with no travel time in between. This means RSO scheduled a job and understood there was another job at the same location for the same customer and decided to schedule them together. This is a simple type of optimization that is harder for dispatchers to do manually, especially across many jobs.
 
+Every time RSO runs, it keeps track of the total travel time compared to working time in a graph as seen in the image below. This helps you uderstand how RSO will reduce the total travel time across all of your field technicians compared to manual or semi-automated scheduling (schedule assistant).
 
 > [!div class="mx-imgBorder"]
   > ![Screenshot of ](media/rso-working-vs-travel-time.png)
