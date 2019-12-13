@@ -23,7 +23,7 @@ search.app:
 
 Resource Scheduling Optimization (RSO) automatically schedules jobs to the people, equipment, and facilities best equipped to complete them. This includes automatically scheduling work orders to field technicians, cases to customer service reps, and any other example based on how you are using Dynamics 365 Field Service, Customer Service, and Project Service Automation. 
 
-RSO is one of three ways to schedule with Dynamics 365 Field Service. Whereas the schedule board and the schedule assistant help dispatchers schedule a single job, RSO can schedule many jobs at one time, maximizing overall utilization and minimizing total travel time. Furthermore, RSO considers the requirements of the job and the unique attributes of the resources like if the job requires an experienced manager with specific skills in the same area.
+RSO is a more advanced form of scheduling as you'll see in the [5 stages of scheduling adoption](5-stages-scheduling-adoption.md) for field service organizations. Whereas the schedule board and the schedule assistant help dispatchers schedule a single job, RSO can schedule many jobs at one time, maximizing overall utilization and minimizing total travel time. Furthermore, RSO considers the requirements of the job and the unique attributes of the resources like if the job requires an experienced manager with specific skills in the same area.
 
   > [!div class="mx-imgBorder"]
   > ![Screenshot of ](media/8cce1b1462b960eecac5012ad1a2d685.png)
@@ -103,6 +103,11 @@ Here's how it works.
 
 ## Optimized schedules
 
+RSO _optimizes_ schedules in addition to automatically scheduling them. After running RSO, its important to understand the optimized results. Lets look at a few examples.
+
+In the image below is an optimized schedule board. In the left pane you'll see a map view of the optimized bookings. One way you can see RSO working effectively is the travel routes are clustered around each resources' starting location and each color represent a different technician's route. When dispatchers manaully schedule jobs without using RSO, the travel routes are often 
+
+
 - same location back to back
 
 
@@ -116,20 +121,16 @@ Here's how it works.
 > [!div class="mx-imgBorder"]
   > ![Screenshot of ](media/rso-working-vs-travel-time.png)
 
-## Next steps
+## Get started
 [Get RSO](rso-get-install.md)
 
 [Deploy RSO](rso-deployment.md)
-
-## See also
-
-![Video symbol](../field-service/media/video-icon.png "Video symbol") [RSO overview and scenarios](https://youtu.be/fcQwIXgmnqk)
-
-
 [RSO Quickstart](rso-quickstart.md)
 
 ![Video symbol](../field-service/media/video-icon.png "Video symbol") [RSO Quickstart](https://youtu.be/oJ-3HTJWRMo)
 
-[Configure RSO](rso-configuration.md)
+## See also
+
+![Video symbol](../field-service/media/video-icon.png "Video symbol") [RSO overview and scenarios](https://youtu.be/fcQwIXgmnqk)
 
 [5 stages of scheduling adoption](5-stages-scheduling-adoption.md)
