@@ -63,6 +63,8 @@ business to scale to new territories or lines of business.
 
 RSO is very configurable based on your business needs. Here are common scenarios where RSO is used.
 
+you can schedule some jobs one way, and other jobs another
+
 **Overnight scheduling** - RSO runs automatically each night and schedules new jobs and re-optimizes existing bookings for the next day.
 
 **Single Resource Optimization** - a dispatcher runs RSO for a single techniciain's schedule for the rest of today to recalculate an optimal travel route after a cancellation. [See more details](single-resource-optimization.md).
@@ -89,16 +91,18 @@ Here's how it works.
 
 1. First you create a list of jobs that need to be completed. These are generally work orders for onsite service, cases for remote service, and project tasks. 
 
-2. For each job, you list what kind of resource is needed and when it needs to be completed. As an example, for a work order you may need someone nearby with repair skills and the work order needs to be completed by end of this week. Much of this information is automatically populated based on the job details. 
+2. For each job, you list what kind of resource is needed and when it needs to be completed. As an example, for a work order you may need someone nearby with repair skills and the work order needs to be completed by the end of this week. Much of this information is automatically populated based on the job details. 
 
 3. Next you pick a list of resources that are elegible to be considered for your list of jobs, and each resource has different attributes like where they are located, what role he or she has, what type of resource they are (employee, contractor, facility, equipment), and what skills they have. 
 
-4. After that you Run RSO. RSO can be run manually by pushing a button, based on a predefined schedule or timetable, or triggered by a workflow.
+4. After that you Run RSO. RSO can be run manually by pushing a button, based on a predefined schedule or timetable, or triggered by a workflow. Also, RSO can run differently depending on what its scheduling. It can run differently for US jobs compared to Canadian jobs or differently for work orders compared to cases.
 
 5. When RSO runs, the job requirements and the list of resources are sent to Azure and RSO computes an optimal schedule that is displayed on the schedule board.
 
 6. After RSO runs, dispatchers can use the interactive schedule board and schedule assistant to makes changes as needed.
 
+
+you can schedule some jobs one way, and other jobs another
 
 ## Optimized schedules
 
