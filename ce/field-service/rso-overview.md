@@ -19,64 +19,36 @@ search.app:
 
 # Overview of the Resource Scheduling Optimization (RSO) solution
 
+ Manual scheduling
+
 Resource Scheduling Optimization (RSO) automatically schedules jobs to the people, equipment, and facilities best equipped to complete them. This includes automatically scheduling work orders to field technicians, cases to customer service reps, and any other example based on how you are using Dynamics 365 Field Service, Customer Service, and Project Service Automation. 
 
-Whereas the schedule board and the schedule assistant help dispatchers schedule a single job, RSO can schedule many jobs at one time, maximizing overall utilization and minimizing total travel time. Furthermore, RSO considers the requirements of the job and the unique attributes of the resources like if the job requires an experienced manager with specific skills in the same area.
+RSO is one of three ways to schedule with Dynamics 365 Field Service. Whereas the schedule board and the schedule assistant help dispatchers schedule a single job, RSO can schedule many jobs at one time, maximizing overall utilization and minimizing total travel time. Furthermore, RSO considers the requirements of the job and the unique attributes of the resources like if the job requires an experienced manager with specific skills in the same area.
 
-For many organizations, using RSO for automated scheduling is a requirement because scheduling a high volume of jobs manually would take too long. For other organizations, they adopt RSO to aid their schedulers in job matching and to free up some of their time to focus on other tasks. 
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of ](media/8cce1b1462b960eecac5012ad1a2d685.png)
+ 
 
 ### Benefits of using Resource Scheduling Optimization
 
-- **Automated scheduling**: Automatically scheduling the majority of
-requirements saves time and empowers dispatchers to focus on exceptions and
-billing.
+For many organizations, using RSO for automated scheduling is a requirement because scheduling a high volume of jobs manually would take too long. For other organizations, they adopt RSO to aid their schedulers in job matching and to free up some of their time to focus on other tasks.
+
+- **Automated scheduling**: Automatically scheduling the majority of requirements saves time and empowers dispatchers to focus on exceptions and billing.
 
 - **Achieve scale**: Allows dispatchers to manage more resources, enabling the
-business to scale.
+business to scale to new territories or lines of business.
 
-- **Customer satisfaction**: Improved efficiency drives more predictable
-arrival and completion times and seamlessly schedules alternate technicians
-for urgent situations.
+- **Customer satisfaction**: Improved efficiency drives more predictable arrival and completion times and seamlessly schedules alternate technicians for urgent situations.
 
 - **Technician efficiencies and reduced cost**:
-  -   Fitting more appointments into working hours drives revenue and reduces
-    overtime costs.
-  -   Matching work orders and technician skillsets reduces the cost of lost
-    appointments.
+  -   Fitting more appointments into working hours drives revenue and reduces overtime costs.
+  -   Matching work orders and technician skillsets reduces the cost of lost appointments.
 
 - **Reduced travel time means reduced fuel consumption and less vehicle maintenance**:
-  -   Ensuring your technicians are taking the shortest possible route with
-    turn-by-turn directions from Bing Maps or your custom mapping provider
-    reduces fuel consumption and wear and tear on vehicles.
-  -   If each field technician saves one tank of gas a month, the savings
-    generally will surpass the cost of RSO. 
+  -   Ensuring your technicians are taking the shortest possible route with turn-by-turn directions from Bing Maps or your custom mapping provider reduces fuel consumption and wear and tear on vehicles.
+  -   If each field technician saves one tank of gas a month, the savings generally will surpass the cost of RSO. 
 
-- **Improved customer retention**: Giving preference to higher-priority work orders helps avoid service level agreement (SLA) penalties and helps you meet customer service commitments.
-
- by finding the best travel routes in the exa and twhich means the algorithm can maximize resource utilization and minimze travel times by finding the best travel routes . 
-
-Beyond automatically scheduling jobs, RSO also optimizes scheduling to maximize resoure utilization
-
-
-
-needed who are best
-
-is an add-on capability for the Dynamics 365 Field Service application that enables you to automatically schedule work orders for the most appropriate resources, by optimizing bookings for the shortest travel time, available work hours, and many other constraints.
-
-RSO is one of three ways to schedule with Dynamics 365 Field Service:
-
-1.  **Manual scheduling**: Drag and drop work order requirements from the bottom panel to the resource’s calendar above.
-
-  
-
-2.  **Scheduling Assistant**: This allows you to filter resources on the left panel by travel range, skills, dates, roles, territories, and more. The system recommends available resources on the right and displays estimated travel times.
-
- 
-
-3.  **Resource Scheduling Optimization**: This add-on evaluates routes and automatically schedules bookable records to minimize travel time and maximize working hours and more, based on your configured objectives, such as “minimize travel time” and “maximize working hours.”
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of ](media/8cce1b1462b960eecac5012ad1a2d685.png)
+- **Improved customer retention**: Giving preference to higher-priority work orders helps avoid service level agreement (SLA) penalties and helps you meet customer service commitments. 
 
 
 - continuum of manual and semi-automated scheduling
@@ -131,3 +103,5 @@ you can schedule some jobs one way, and other jobs another
 ![Video symbol](../field-service/media/video-icon.png "Video symbol") [RSO Quickstart](https://youtu.be/oJ-3HTJWRMo)
 
 [Configure RSO](rso-configuration.md)
+
+[5 stages of scheduling adoption](5-stages-scheduling-adoption.md)
