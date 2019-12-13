@@ -31,7 +31,7 @@ RSO is one of three ways to schedule with Dynamics 365 Field Service. Whereas th
 
 ### Benefits of using Resource Scheduling Optimization
 
-For many organizations, using RSO for automated scheduling is a requirement because scheduling a high volume of jobs manually would take too long. For other organizations, they adopt RSO to aid their schedulers in job matching and to free up some of their time to focus on other tasks.
+For many organizations, using RSO for automated scheduling is a requirement because scheduling a high volume of jobs manually would take too long. For other organizations, they adopt RSO to aid their schedulers in job matching and to free up some of their time to focus on other tasks. Here are other reasons organizations choose to adopt RSO.
 
 - **Automated scheduling**: Automatically scheduling the majority of requirements saves time and empowers dispatchers to focus on exceptions and billing.
 
@@ -51,18 +51,20 @@ business to scale to new territories or lines of business.
 - **Improved customer retention**: Giving preference to higher-priority work orders helps avoid service level agreement (SLA) penalties and helps you meet customer service commitments. 
 
 
-- continuum of manual and semi-automated scheduling
-- considerations - skills, territory, priority
-
-
 ## Scenarios
 
-overnight
-simulation
-single resource 
-emergency (workflow)
-intra-day
-cases, projects, custom entities
+RSO is very configurable based on your business needs. Here are common scenarios where RSO is used.
+
+**Overnight scheduling** - RSO runs automatically each night and schedule the next day's jobs.
+
+**Single Resource Optimization** - A dispatcher runs RSO for a single techniciain's schedule for today to re-optimize after a cancellation. [See more details](single-resource-optimization.md).
+
+**Simulation** - a service manager runs a simulation of RSO to understand how many jobs could be completed with a varying number of resourcers.
+
+**Intraday scheduling** - RSO runs every 30 minutes to schedule and adjust as new jobs are created and others are cancelled or rescheduled.
+
+**Emergency scheduling** - when an emergency job is created, an RSO run is triggered that schedules the high-priority-emergency job as soon as possible ahead of lower priority jobs.
+
 
 ## System requirements
 
@@ -75,6 +77,9 @@ its an add on
 
 traveling salesman problem and vehicle routing problem
 
+- continuum of manual and semi-automated scheduling
+- considerations - skills, territory, priority
+
 Ways to run RSO
 adds on to URS and optimizes anything
 - scopes, goals, schedules
@@ -83,6 +88,12 @@ adds on to URS and optimizes anything
 - Bing Maps
 
 you can schedule some jobs one way, and other jobs another
+
+## Glossary
+
+- run
+-optimize
+
 
 ## Optimized schedules
 
