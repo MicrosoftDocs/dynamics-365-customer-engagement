@@ -101,12 +101,14 @@ Here's how it works.
 
 6. After RSO runs, dispatchers can use the interactive schedule board and schedule assistant to makes changes as needed.
 
-
-you can schedule some jobs one way, and other jobs another
-
 ## Optimized schedules
 
 - same location back to back
+
+
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of ](media/rso-optimized-schedule-board-routes-with-annotation.png)
+
 - reduce overall travel time
 - traveling time vs working time
 
