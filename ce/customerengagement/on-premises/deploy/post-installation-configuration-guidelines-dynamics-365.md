@@ -99,14 +99,21 @@ This section describes several of the tasks that the [!INCLUDE[pn_microsoftcrm](
   
 1.  Log on to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server as an administrator.  
   
-2.  In a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] console window, run the following script:  
+2. Add the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)][!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] snap-in (Microsoft.Crm.PowerShell.dll). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer the deployment using Windows PowerShell](https://technet.microsoft.com/library/dn531202.aspx)  
   
-    ```powershell  
-    $ClaimsSettings = Get-CrmSetting -SettingType OAuthClaimsSettings  
-    $ClaimsSettings.Enabled = $true  
-    Set-CrmSetting -Setting $ClaimsSettings  
+   ```powershell  
+   Add-PSSnapin Microsoft.Crm.PowerShell  
+   ```  
   
-    ```  
+3. Enter the following [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] commands.  
+  
+   ```powershell  
+  
+   $ClaimsSettings = Get-CrmSetting -SettingType OAuthClaimsSettings  
+   $ClaimsSettings.Enabled = $true  
+   Set-CrmSetting -Setting $ClaimsSettings  
+  
+   ```  
   
 ### Register the client apps  
  The client apps must be registered with [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)].  
