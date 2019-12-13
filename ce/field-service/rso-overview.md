@@ -113,6 +113,9 @@ Here's how it works.
 - traveling time vs working time
 
 
+> [!div class="mx-imgBorder"]
+  > ![Screenshot of ](media/rso-working-vs-travel-time.png)
+
 ## Next steps
 [Get RSO](rso-get-install.md)
 
