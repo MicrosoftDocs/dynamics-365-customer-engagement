@@ -83,11 +83,17 @@ RSO is very configurable based on your business needs. Here are common scenarios
 
 ## How it works
 
-Resource Scheduling Optimization (RSO) is an enhanced application of the famous traveling salesman problem which asks the following question: "Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city and returns to the origin city?". 
-traveling salesman problem and vehicle routing problem
+Resource Scheduling Optimization (RSO) is an enhanced application of the famous "traveling salesman problem" which asks the following question: "Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city and returns to the origin city?". It's a mathematical problem and the solution is a large part of the RSO computation. Nevertheless, RSO goes beyond finding the shortest routes because it also considers things like skills, territory, roles, priority, resource preferences, promised time windows, and more. 
+
+Here's how it works.
+
+First you create a list of jobs that need to be completed. These are generally work orders for onsite service, cases for remote service, and project tasks. 
+
+For each job, you list what kind of resource is needed and when it needs to be completed. As an example, for a project you may need someone with accounting skills and the task needs to be completed by next friday. Much of this information is automatically populated based on the job details. 
+
+Next you pick a list of resources that are elegible to be considered for your list of jobs, and each resource has different attributes like where they are located, what role he or she has, what type of resource they are (employee, contractor, facility, equipment), and what skills they have. 
 
 - continuum of manual and semi-automated scheduling
-- considerations - skills, territory, priority
 
 Ways to run RSO
 adds on to URS and optimizes anything
@@ -114,6 +120,9 @@ you can schedule some jobs one way, and other jobs another
 [Deploy RSO](rso-deployment.md)
 
 ## See also
+
+![Video symbol](../field-service/media/video-icon.png "Video symbol") [RSO overview and scenarios](https://youtu.be/fcQwIXgmnqk)
+
 
 [RSO Quickstart](rso-quickstart.md)
 
