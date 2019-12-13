@@ -74,14 +74,15 @@ you can schedule some jobs one way, and other jobs another
 
 ## Glossary
 
-- Run - When RSO performs its scheduling and optimization functions, we call this a run. It consists of a send and receive to Azure and an update to schedules as seen on the Schedule Board.
-- Optimize - Rather than just automatically scheduling jobs, we say that RSO optimizes jobs meaning that it attempts to find the best schedules to reduce travel time and maximize utilization as two examples.
-- Scope - this is jobs and resources RSO will consider. As an example, you may not have RSO schedule every job in the system to every resource. You will most likley partition the jobs and resources into a scope.  
-- Goal - this defines what the aim of an RSO run will be. What is most important for your company: minimizing travel time, maximizing utilization, handling high priority jobs, scheduling jobs as soon as possible? These are all goals that you will need to rank because sometimes there are trade-offs.
-- resources
-- schedules, bookings
-- requirements
-- jobs
+- **Resources**
+- **Schedules, bookings**
+- **Requirements**
+- **Jobs**
+- **Run** - When RSO performs its scheduling and optimization functions, we call this a run. It consists of a send and receive to Azure and an update to schedules as seen on the Schedule Board.
+- **Optimize** - Rather than just automatically scheduling jobs, we say that RSO optimizes jobs meaning that it attempts to find the best schedules to reduce travel time and maximize utilization as two examples.
+- **Scope** - this is jobs and resources RSO will consider. As an example, you may not have RSO schedule every job in the system to every resource. You will most likley partition the jobs and resources into a scope.  
+- **Goal** - this defines what the aim of an RSO run will be. What is most important for your company: minimizing travel time, maximizing utilization, handling high priority jobs, scheduling jobs as soon as possible? These are all goals that you will need to rank because sometimes there are trade-offs.
+
 
 ## How it works
 
