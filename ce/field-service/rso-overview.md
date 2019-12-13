@@ -121,9 +121,10 @@ Every time RSO runs, it keeps track of the total travel time compared to working
 [Get RSO](rso-get-install.md)
 
 [Deploy RSO](rso-deployment.md)
-[RSO Quickstart](rso-quickstart.md)
 
-![Video symbol](../field-service/media/video-icon.png "Video symbol") [RSO Quickstart](https://youtu.be/oJ-3HTJWRMo)
+[RSO Quickstart guide](rso-quickstart.md)
+
+![Video symbol](../field-service/media/video-icon.png "Video symbol") [RSO Quickstart video](https://youtu.be/oJ-3HTJWRMo)
 
 ## See also
 
