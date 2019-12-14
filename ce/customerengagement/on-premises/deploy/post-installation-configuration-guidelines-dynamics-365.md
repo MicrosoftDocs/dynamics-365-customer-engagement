@@ -1,7 +1,7 @@
 ---
 title: "Post-installation and configuration guidelines for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/09/2019"
+ms.date: "12/13/2019"
 ms.prod: "crm-2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -81,7 +81,7 @@ This section describes several of the tasks that the [!INCLUDE[pn_microsoftcrm](
 <!--   
 > [!NOTE]
 >  -   There are a few issues that were present when configuring [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] 2.0 and 2.1 that are no longer needed for [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] 2.2. For example, with 2.0/2.1 you had to configure the MEX endpoint using a script or obtain a hotfix. This isn’t needed with [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] 2.2. In addition, [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] 2.2 adds the rule “Pass through all UPN Claims” in the [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] claim provider trust by default, so the extra step to add the rule is no longer required.  -->
-<!-- > -   To register [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)],  see [Set up the connection between Dynamics CRM and Social Engagement](http://go.microsoft.com/fwlink/p/?LinkId=733269).  -->
+<!-- > -   To register [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)],  see [Set up the connection between Dynamics CRM and Social Engagement](https://go.microsoft.com/fwlink/p/?LinkId=733269).  -->
   
 ### Enable forms authentication  
  By default, forms authentication is disabled in the intranet zone. You must enable forms authentication by following these steps:  
@@ -202,7 +202,7 @@ To make sure that devices can connect to your deployment, follow the instruction
 
 <a name="BKMK_usertrain"></a>   
 ## User training and adoption  
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Training and Adoption Kit for Microsoft Dynamics 365](http://go.microsoft.com/fwlink/p/?LinkId=386503)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Training and Adoption Kit for Microsoft Dynamics 365](https://go.microsoft.com/fwlink/p/?LinkId=386503)  
   
 ## See also  
  [Installing on-premises Dynamics 365](installing-on-premises-dynamics-365.md)   
