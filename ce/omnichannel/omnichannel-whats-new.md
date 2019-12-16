@@ -10,6 +10,13 @@ ms.service:
 ms.topic: article
 ---
 
+
+<!--from editor: Please review use of "Customer Engagement organization" in line 106. Can "Customer Engagement" be removed, so the sentence is "... in the specified organization"? 
+Also, in line 76, the "More information" is missing a link. 
+-->
+
+
+
 # What's new in Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
