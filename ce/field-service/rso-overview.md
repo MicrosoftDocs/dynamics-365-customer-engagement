@@ -77,8 +77,7 @@ you can schedule some jobs one way, and other jobs another
 - **Jobs** - generic term referring to work that needs to be completed like work orders, cases, and projects; however there is no "jobs" entity in Field Service or Resource Scheduling Optimization. 
 - **Resources** - anyone or anything that needs to be scheduled to a job including people, equipment, and facilities.
 - **Schedules, bookings** - schedules adn bookings are used interchangibly and refer to the appointment time slot when a resource is assigned to a job.
-- **Requirements** - the entity related
-
+- **Requirements** - the entity related to a job entity (work orders, cases, projects, etc) that defines what type of resource is needed to complete the work. this is the entity that will ultimately be scheduled via RSO.
 - **Run** - When RSO performs its scheduling and optimization functions, we call this a run. It consists of a send and receive to Azure and an update to schedules as seen on the Schedule Board.
 - **Optimize** - Rather than just automatically scheduling jobs, we say that RSO optimizes jobs meaning that it attempts to find the best schedules to reduce travel time and maximize utilization as two examples.
 - **Scope** - this is jobs and resources RSO will consider. As an example, you may not have RSO schedule every job in the system to every resource. You will most likley partition the jobs and resources into a scope.  
@@ -107,13 +106,18 @@ Here's how it works.
 
 RSO _optimizes_ schedules in addition to automatically scheduling them. After running RSO, it's important to understand the optimized results. Lets look at a few examples.
 
+**Clustered routes** -
+
+
 In the image below is an optimized schedule board. In the left pane you'll see a map view of the optimized bookings. One way you can see RSO working effectively is the travel routes are clustered around each resource's starting location and each color represent a different technician's route. When dispatchers manaully schedule jobs without using RSO, the travel routes are often spread across the map zig-zagging in different directions.
 
   > [!div class="mx-imgBorder"]
   > ![Screenshot of ](media/rso-optimized-schedule-board-routes-with-annotation.png)
 
+**Sequential work orders at the same location**
 Also, in the image above you can see some bookings are scheduled back-to-back with no travel time in between. This means RSO scheduled a job and understood there was another job at the same location for the same customer and decided to schedule them together. This is a simple type of optimization that is harder for dispatchers to do manually, especially across many jobs.
 
+**Travel time vs working time**
 Every time RSO runs, it keeps track of the total travel time compared to working time in a graph as seen in the image below. This helps you uderstand how RSO will reduce the total travel time across all of your field technicians compared to manual or semi-automated scheduling (schedule assistant).
 
 > [!div class="mx-imgBorder"]
