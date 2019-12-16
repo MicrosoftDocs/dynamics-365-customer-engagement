@@ -14,11 +14,12 @@
 ### [Help resources for sales people](user-guide.md)
 ### [Develop sales from lead to cash](develop-sales-lead-to-cash-sales-professional.md)
 #### [Create and manage leads](manage-leads-sales-professional.md)
-#### [Manage opportunities](manage-opportunities-sales-professional.md)
+#### [Create or edit opportunities](manage-opportunities-sales-professional.md)
 #### [Add products to an opportunity](add-products-opportunity-sp.md)
-### [Understand sales transactions](understanding-sales-transactions-sales-professional.md)
+### Understand sales transactions
+#### [Understand sales transactions](understanding-sales-transactions-sales-professional.md)
 #### [Create and manage quotes](create-quotes-sales-professional.md)
-#### [Create or edit orders](create-orders.md)
+#### [Create and edit orders](create-orders.md)
 #### [Create and manage invoices](create-invoices.md)
 #### [Add products to a quote, order, or invoice](add-product-quote-order-invoice-sp.md)
 ### Set up a product catalog
@@ -44,8 +45,8 @@
 ### [Provision your Dynamics 365 Sales Professional environment](provision-sales-professional-instance.md)
 ### [Overview of admin settings](admin-settings-overview.md)
 ### Standard settings
-#### [Integrate with SharePoint](connect-with-sharepoint.md)
-#### [Import data](import-data.md)
+#### [Configure Dynamics 365 Sales Professional to integrate with SharePoint](connect-with-sharepoint.md)
+#### [Import data into Dynamics 365 Sales Professional](import-data.md)
 #### [Add or remove sample data](install-sample-data.md)
 #### [Add or manage users](manage-users.md)
 #### [Set up email by integrating with Exchange](configure-email.md)
