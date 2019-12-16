@@ -74,10 +74,11 @@ you can schedule some jobs one way, and other jobs another
 
 ## Glossary
 
-- **Resources**
-- **Schedules, bookings**
-- **Requirements**
-- **Jobs**
+- **Jobs** - generic term referring to work that needs to be completed like work orders, cases, and projects; however there is no "jobs" entity in Field Service or Resource Scheduling Optimization. 
+- **Resources** - anyone or anything that needs to be scheduled to a job including people, equipment, and facilities.
+- **Schedules, bookings** - schedules adn bookings are used interchangibly and refer to the appointment time slot when a resource is assigned to a job.
+- **Requirements** - the entity related
+
 - **Run** - When RSO performs its scheduling and optimization functions, we call this a run. It consists of a send and receive to Azure and an update to schedules as seen on the Schedule Board.
 - **Optimize** - Rather than just automatically scheduling jobs, we say that RSO optimizes jobs meaning that it attempts to find the best schedules to reduce travel time and maximize utilization as two examples.
 - **Scope** - this is jobs and resources RSO will consider. As an example, you may not have RSO schedule every job in the system to every resource. You will most likley partition the jobs and resources into a scope.  
