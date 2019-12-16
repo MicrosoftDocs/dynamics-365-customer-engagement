@@ -40,7 +40,7 @@ An agent will get a notification in the **Conversation summary** section whether
         > [!div class=mx-imgBorder]
         > ![Create chat authentication setting record](../media/chat-auth-settings.png "Create chat authentication setting record")
 
-    For more information about how to find the public key URL and JavaScript client function, see the [Setup for a Power Apps portals](#setup-for-power-apps-portals) section or the [Setup for portals that don't use Power Apps (custom portal)](#setup-for-portals-that-are-not-created-using-power-apps-custom-portal) section later in this topic.
+    For more information about how to find the public key URL and JavaScript client function, see the [Setup for a Power Apps portals](#setup-for-power-apps-portals) section or the [Setup for portals that are not created using Power Apps (custom portal)](#setup-for-portals-that-are-not-created-using-power-apps-custom-portal) section later in this topic.
 
 5. Select **Save**.
 
@@ -65,7 +65,7 @@ If you're adding authentication for a chat widget on a website developed using P
 
 ## Setup for portals that are not created using Power Apps (custom portal)
 
-If you're adding authentication for a chat widget on a portal that doesn't use Dynamics 365 (that is, on a custom portal), follow these steps to set up the environment.
+If you're adding authentication for a chat widget on a portal that is not created using Power Apps (that is, on a custom portal), follow these steps to set up the environment.
 
 1. Define the private/public key pairs on your server. These keys are used to sign and encrypt the JWT that is sent to the server. Only RSA256 keys are supported.
 
@@ -97,7 +97,7 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
     }
     ```
 
-4. After authentication, you must identify your customer from among Dynamics 365 contacts. You must extract the globally unique identifier (GUID) that Dynamics 365 uses for the contact. Here is an example of a GUID: `87b4d06c-abc2-e811-a9b0-000d3a10e09e`.
+4. After authentication, you must identify your customer from among contacts. You must extract the globally unique identifier (GUID) that is used for the contact. Here is an example of a GUID: `87b4d06c-abc2-e811-a9b0-000d3a10e09e`.
 5. Create a JSON payload that includes `sub` (the GUID) and three attributes (`iss`, `iat`, `exp`) as mandatory claims.
 
     Here is a sample JSON payload.
