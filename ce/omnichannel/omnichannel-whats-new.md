@@ -12,7 +12,7 @@ ms.topic: article
 
 
 <!--from editor: Please review use of "Customer Engagement organization" in line 106. Can "Customer Engagement" be removed, so the sentence is "... in the specified organization"? 
-Also, in line 76, the "More information" is missing a link. 
+Also, I fixed the link in line 76. 
 -->
 
 
@@ -73,7 +73,7 @@ This section contains information about new features and enhancements in Omnicha
     > [!div class=mx-imgBorder]
     > ![Create account, contact, and case](media/oceh/customer-summary-create-record.PNG "Create account, contact, and case")
 
-    More information: [](agent/agent-oc/oc-create-record.md#create-a-new-record-from-the-customer-summary-page)
+    More information: [Create a new record from the Customer Summary page](agent/agent-oc/oc-create-record.md#create-a-new-record-from-the-customer-summary-page)
 
 - **View timeline based on the Case, Contact, or Account record:** The Timeline section on the Customer Summary page displays case- and customer-related activities in the form of a timeline. The **Linked records** field is used to switch the timeline based on the Case, Contact, or Account record linked to the conversation.
 
