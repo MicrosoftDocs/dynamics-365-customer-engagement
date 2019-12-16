@@ -4,13 +4,13 @@
   - name: Channel Integration Framework version 1.0
     items:
     - name: Overview
-    items:
-    - name: "What is Channel Integration Framework?"
-      href: overview-channel-integration-framework.md
-    - name: "Architecture overview of Channel Integration Framework (CIF)"
-      href: architecture-overview-channel-integration-framework.md
-    - name: "System requirements for Channel Integration Framework"
-      href:  system-requirements-channel-integration-framework.md
+      items:
+      - name: "What is Channel Integration Framework?"
+        href: overview-channel-integration-framework.md
+      - name: "Architecture overview of Channel Integration Framework (CIF)"
+        href: architecture-overview-channel-integration-framework.md
+      - name: "System requirements for Channel Integration Framework"
+        href:  system-requirements-channel-integration-framework.md
   - name: "What's new"
     href: whats-new-channel-integration-framework.md
   - name: "Onboard to version 2.0 flight"
@@ -187,13 +187,13 @@
   - name: Channel Integration Framework version 1.0
     items:
     - name: Overview
-    items:
-    - name: "What is Channel Integration Framework?"
-      href: overview-channel-integration-framework.md
-    - name: "Architecture overview of Channel Integration Framework (CIF)"
-      href: architecture-overview-channel-integration-framework.md
-    - name: "System requirements for Channel Integration Framework"
-      href:  system-requirements-channel-integration-framework.md
+      items:
+      - name: "What is Channel Integration Framework?"
+        href: overview-channel-integration-framework.md
+      - name: "Architecture overview of Channel Integration Framework (CIF)"
+        href: architecture-overview-channel-integration-framework.md
+      - name: "System requirements for Channel Integration Framework"
+        href:  system-requirements-channel-integration-framework.md
   - name: "What's new"
     href: whats-new-channel-integration-framework.md
   - name: "Onboard to version 2.0 flight"
