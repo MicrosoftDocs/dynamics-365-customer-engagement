@@ -29,8 +29,6 @@ RSO is a more advanced form of scheduling as you'll see in the [5 stages of sche
  > [!div class="mx-imgBorder"]
   > ![Screenshot of ](media/rso-optimized-schedule-board-routes.png)
 
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of ](media/8cce1b1462b960eecac5012ad1a2d685.png)
  
 
 ### Benefits of using Resource Scheduling Optimization
@@ -74,7 +72,7 @@ you can schedule some jobs one way, and other jobs another
 ## System requirements
 
 - Dynamics 365 online
-- RSO is an add-on to [Unviersal Resource Scheduling (URS)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md) and is built on top of its entities. Organizations that use either Dynamics 365 Field Service, Customer Service, and Project Service Automation are entitled to URS. If for example, you wanted to use RSO to automatically schedule Dynamics 365 Sales opportunities to sales reps, you would need either Dynamics 365 Field Service, Customer Service, or Project Service Automation in addition to Sales in order to access URS as a prerequisite. 
+- RSO is an add-on to [Universal Resource Scheduling (URS)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md) and is built on top of its entities. Organizations that use either Dynamics 365 Field Service, Customer Service, and Project Service Automation are entitled to URS. If for example, you wanted to use RSO to automatically schedule Dynamics 365 Sales opportunities to sales reps, you would need either Dynamics 365 Field Service, Customer Service, or Project Service Automation in addition to Sales in order to access URS as a prerequisite. 
 
 ## Glossary
 
@@ -86,7 +84,10 @@ you can schedule some jobs one way, and other jobs another
 - **Optimize** - Rather than just automatically scheduling jobs, we say that RSO optimizes jobs meaning that it attempts to find the best schedules to reduce travel time and maximize utilization as two examples.
 - **Scope** - this is jobs and resources RSO will consider. As an example, you may not have RSO schedule every job in the system to every resource. You will most likley partition the jobs and resources into a scope.  
 - **Goal** - this defines what the aim of an RSO run will be. What is most important for your company: minimizing travel time, maximizing utilization, handling high priority jobs, scheduling jobs as soon as possible? These are all goals that you will need to rank because sometimes there are trade-offs.
-
+ 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](media/8cce1b1462b960eecac5012ad1a2d685.png)
+ 
 
 ## How it works
 
