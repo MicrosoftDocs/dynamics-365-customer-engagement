@@ -28,6 +28,7 @@ search.app:
 
 # Resource Preferences
 
+Resource preferences allow dispatchers to give preference to specific resources over others when scheduling with Schedule Assistant or Resource Scheduling Optimization. 
 
 ## Prerequisites
 
