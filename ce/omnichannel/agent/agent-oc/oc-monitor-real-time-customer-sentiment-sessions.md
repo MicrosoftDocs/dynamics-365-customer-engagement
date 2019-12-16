@@ -61,9 +61,7 @@ Multi-language sentiment displays sentiment scores on some non-English conversat
 > Multi-language sentiment is only available if the administrator enables it for you.
 
 To learn more, see [multi-language sentiment](../../administrator/enable-sentiment-analysis.md).
-
-<!--note from editor: See also sections should be H3s, so they won't appear in the article's mini-TOC. Note also, some of the topic titles need attention (i.e. they need "a"s and "the"s), but I realize this is a more pervasive change than you've asked for today.-->
-### See also
+## See also
 
 - [Introduction to the agent interface](oc-introduction-agent-interface.md)
 - [Enable sentiment analysis](../../administrator/enable-sentiment-analysis.md)
