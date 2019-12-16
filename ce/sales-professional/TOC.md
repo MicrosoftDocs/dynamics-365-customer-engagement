@@ -7,7 +7,7 @@
 ### [Learn the basics](learn-basics-sales-professional.md)
 ### [Use lookup fields on forms](use-lookup-fields-forms.md)
 ### [Work with views (lists)](work-with-views.md)
-### [Manager your customers](manage-accounts-contacts.md)
+### [Manage your customers](manage-accounts-contacts.md)
 ### [Manage tasks, appointments, email, or phone calls](manage-activities.md)
 
 ## User guide
