@@ -1,6 +1,6 @@
 ---
-title: "Embed chat widget in Dynamics 365 Portals | MicrosoftDocs"
-description: "Instructions to embed chat widget in Dynamics 365 Portals."
+title: "Embed chat widget in Power Apps portals | MicrosoftDocs"
+description: "Instructions to embed chat widget in Power Apps portals."
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
@@ -10,15 +10,15 @@ ms.service:
 ms.topic: article
 ---
 
-# Embed chat widget in Dynamics 365 Portals
+# Embed chat widget in Power Apps portals
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-To embed a chat widget in Dynamics 365 Portals:
+To embed a chat widget in Power Apps portals:
 
 1.	Sign in to Omnichannel Administration.
 2.	Go to **Channels** &gt; **Chat**.
-3.	Open the chat widget you want to embed in Dynamics 365 Portals.
+3.	Open the chat widget you want to embed in Power Apps portals.
 5.	On the **Basic details** tab, copy the widget snippet code from the **Code snippet** section.
     > [!div class=mx-imgBorder]
     > ![Copy code snippet of a chat widget](../media/chat-widget-snippet.png "Copy code snippet of a chat widget")
