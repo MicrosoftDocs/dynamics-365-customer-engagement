@@ -1,1 +1,0 @@
-Opens an entity form or a quick create form.

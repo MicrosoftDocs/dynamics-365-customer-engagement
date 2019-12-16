@@ -1,1 +1,0 @@
-Gets the current state of the panel.

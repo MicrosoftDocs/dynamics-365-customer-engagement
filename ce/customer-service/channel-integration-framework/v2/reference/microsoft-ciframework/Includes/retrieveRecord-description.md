@@ -1,1 +1,0 @@
-Retrieves an entity record.
