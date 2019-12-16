@@ -25,6 +25,10 @@ Resource Scheduling Optimization (RSO) automatically schedules jobs to the peopl
 
 RSO is a more advanced form of scheduling as you'll see in the [5 stages of scheduling adoption](5-stages-scheduling-adoption.md) for field service organizations. Whereas the schedule board and the schedule assistant help dispatchers schedule a single job, RSO can schedule many jobs at one time, maximizing overall utilization and minimizing total travel time. Furthermore, RSO considers the requirements of the job and the unique attributes of the resources like if the job requires an experienced manager with specific skills in the same area.
 
+
+ > [!div class="mx-imgBorder"]
+  > ![Screenshot of ](media/rso-optimized-schedule-board-routes.png)
+
   > [!div class="mx-imgBorder"]
   > ![Screenshot of ](media/8cce1b1462b960eecac5012ad1a2d685.png)
  
@@ -106,8 +110,7 @@ Here's how it works.
 
 RSO _optimizes_ schedules in addition to automatically scheduling them. After running RSO, it's important to understand the optimized results. Lets look at a three examples.
 
-**1. Clustered routes** -
-
+**1. Clustered routes** 
 
 In the image below is an optimized schedule board. In the left pane you'll see a map view of the optimized bookings. One way you can see RSO working effectively is the travel routes are clustered around each resource's starting location and each color represent a different technician's route. When dispatchers manaully schedule jobs without using RSO, the travel routes are often spread across the map zig-zagging in different directions.
 
@@ -121,7 +124,7 @@ Also, in the image above you can see some bookings are scheduled back-to-back wi
 Every time RSO runs, it keeps track of the total travel time compared to working time in a graph as seen in the image below. This helps you uderstand how RSO will reduce the total travel time across all of your field technicians compared to manual or semi-automated scheduling (schedule assistant).
 
 > [!div class="mx-imgBorder"]
-  > ![Screenshot of ](media/rso-working-vs-travel-time.png)
+> ![Screenshot of ](media/rso-working-vs-travel-time.png)
 
 ## Get started
 [Get RSO](rso-get-install.md)
