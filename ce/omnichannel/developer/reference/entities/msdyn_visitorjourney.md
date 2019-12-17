@@ -11,6 +11,10 @@ ms.service:
   - crm-online
 ms.topic: "reference"
 ---
+
+<!--from editor: The metadata title mentions "Developer Guide for Dynamics 365 Customer Engagement." Has that guide title been updated? If so, the metadata here should also be updated. -->
+
+
 # msdyn_visitorjourney Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
