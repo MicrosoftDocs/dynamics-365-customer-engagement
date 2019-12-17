@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-<!-- from editor: The code in this topic contains several mentions of "Customer Engagement." Leaving as is. Will this be updated at some point? -->
+<!-- from editor: The code in this topic contains several mentions of "Customer Engagement." Will this be updated at some point? -->
 
 
 
