@@ -1,18 +1,3 @@
----
-title: "Add a Dynamics 365 Channel Integration Framework solution as a dependent solution| Microsoft Docs"
-description: "Read how you can add a Dynamics 365 Channel Integration Framework solution as a dependent solution and use the solution's capabilities in your own solution."
-author: susikka
-ms.author: susikka
-manager: shujoshi
-ms.date: 12/10/2018
-ms.topic: get-started-article
-ms.service: 
-  - dynamics-365-cross-app
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
----
-
 # Add a Dynamics 365 Channel Integration Framework solution as a dependent solution
 
 Third-party channel providers can add a Dynamics 365 Channel Integration Framework solution as a dependent solution to use its capabilities in the solutions they develop for Dynamics 365. This topic describes how users can install, update, and delete a Dynamics 365 Channel Integration Framework solution as a dependent solution.
