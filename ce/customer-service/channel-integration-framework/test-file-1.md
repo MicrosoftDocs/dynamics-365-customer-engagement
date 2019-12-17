@@ -1,5 +1,5 @@
 ---
-title: "Test | Microsoft Docs"
+title: "Test 1 | Microsoft Docs"
 description: "Read how you can add a Dynamics 365 Channel Integration Framework solution as a dependent solution and use the solution's capabilities in your own solution."
 author: susikka
 ms.author: susikka
@@ -13,4 +13,5 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-[!INCLUDE[add-cif-solution-dependent-solution](../../shared/cif/add-cif-solution-dependent-solution.md)] 
+[!INCLUDE[authenticate-channel-users](../../shared/cif/authenticate-channel-users.md)] 
+
