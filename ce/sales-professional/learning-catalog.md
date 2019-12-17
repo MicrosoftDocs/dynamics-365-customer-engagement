@@ -12,7 +12,6 @@ Find the right online training, in person workshops, and events for your role in
 
 :::row:::
     :::column:::
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
 
     ### Business and technical decision makers
 
@@ -25,9 +24,9 @@ Find the right online training, in person workshops, and events for your role in
     [Core Platform Knowlege](learning-bdm.md#core-platform)
 
     [Exam](learning-bdm.md#exam)
-
    
     :::column-end:::
+    
     :::column:::
 
     ### Business users
@@ -40,12 +39,11 @@ Find the right online training, in person workshops, and events for your role in
 
     [Exam](learning-bus-user.md#exam)
 
-        :::column-end:::
+    :::column-end:::
     :::row-end:::
     :::row:::
-        :::column:::
-        
-
+    :::column:::
+      
     ### Developers
 
     Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?
@@ -72,11 +70,10 @@ Find the right online training, in person workshops, and events for your role in
 
     [Exams](learning-developer.md#exam)
 
-        :::column-end:::
+    :::column-end:::
     :::row-end:::
     :::row:::
-        :::column:::
-
+    :::column:::
 
     ### Functional consultants
     
