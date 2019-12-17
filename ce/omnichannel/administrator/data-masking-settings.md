@@ -33,7 +33,7 @@ The following masking rules are provided out of the box:
 - **Email**: Masks the email address, if provided in a message.
 - **SSN**: Masks the SSN, if provided in a message.
 
-As an administrator, you can delete or modify out-of-the-box masking rules and create new masking rules. <!--note from editor: Suggest deleting this sentence, it seems to just repeat the previous one: Note that the expressions provided in the out-of-the-box rules can be edited if an admin wants to use an alternative.-->
+As an administrator, you can delete or modify out-of-the-box masking rules and create new masking rules.
 
 > [!NOTE]
 > - Only an administrator can access and edit data-masking rules.
