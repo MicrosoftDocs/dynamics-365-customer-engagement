@@ -39,7 +39,7 @@ Third-party channel providers can add a Dynamics 365 Channel Integration Framewo
 
 ## See also
 
-[Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)<br />
+[Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md) <br />
 [Configure a channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)<br />
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
 [Authenticate channel users to the channel (widget)](authenticate-channel-users.md)<br />
