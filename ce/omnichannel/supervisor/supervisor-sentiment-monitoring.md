@@ -20,7 +20,6 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-<!--note from editor: I think the bullets made a confusing structure, suggest not using them and doing something like the following:-->
 Sentiment analysis enables agents and supervisors to understand real-time and historical customer sentiment across channels to improve customer service. Omnichannel for Customer Service uses natural language processing (NLP) and machine learning (ML) algorithms to understand customer sentiments.
 
 Sentiment intensity indicators are displayed based on the previous six customer messages received in a conversation. Sentiment intensity is scored in one of seven gradients: three positive, three negative, and one neutral.
@@ -50,7 +49,6 @@ The multi-language sentiment feature (preview) supports the following personas: 
 
 - If you're an administrator:
 
-<!--note from editor: Not sure what "English only and non-English languages" means?-->
    - You can configure sentiment for English only and non-English languages.
        > [!NOTE]
        > Sentiment is enabled in Omnichannel for Customer Service by default.
@@ -77,7 +75,6 @@ The multi-language sentiment feature (preview) supports the following personas: 
 
     - You can use analysis of customer sentiment to understand the severity of the problem, and take action. 
 
-<!--note from editor: Suggest deleting this section, there's nothing new in it.-->
 ## Sentiment intensity indicators
 
 Omnichannel for Customer Service sentiment intensity indicators are an automatic and unbiased measurement of a customer's satisfaction level in real time. These indicators show agents and supervisors how a conversation is trending, and give supervisors a real-time gauge they can use to decide when they need to step in and assist.
@@ -106,7 +103,6 @@ Expect the following system behavior:
 
 - If a customer's initial messages are detected as English, the system assumes that subsequent messages will be in English as well. If your customer switches away from English after these initial messages, the system doesn't perform language re-detection. In this situation, you'll most often see a neutral sentiment score throughout the rest of the non-English conversation.
 
-<!--note from editor: I don't know what "its subsequent message" means in that second sentence. -->
 - If a customer's initial messages are detected as non-English, the system performs re-detection and scoring for subsequent messages. If any following message is detected as non-English, its subsequent message will be re-detected and scored according to its detected language.
 
 ## Requirements
