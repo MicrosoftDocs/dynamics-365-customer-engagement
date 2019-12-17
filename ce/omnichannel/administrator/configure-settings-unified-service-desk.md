@@ -18,7 +18,7 @@ The topic explains the recommended settings for Unified Service Desk.
 
 ## Set up Chrome Process with Unified Service Desk
 
-The Chrome Process is used to host web applications in the Unified Service Desk client application. More information: [Use Chrome Process to host web applications in Unified Service Desk (Preview)](/dynamics365/customer-engagement/unified-service-desk/chrome-process)
+The Chrome Process is used to host web applications in the Unified Service Desk client application. More information: [Use Chrome Process to host web applications in Unified Service Desk (Preview)](/dynamics365/unified-service-desk/chrome-process)
 
 ## Set up Unified Service Desk recommended settings for Internet Explorer
 
@@ -177,7 +177,7 @@ Also, the PowerShell script updates the recommended Internet Explorer settings s
 
 ### Set up Internet Explorer settings
 
-To configure the **Enable Protected Mode** option, **TabProcGrowth** (Tab Process Growth), **TabShutdownDelay** (Tab Shutdown Delay) registry key, and **Enable Automatic Crash Recovery** option, see [Internet Explorer setting guidelines](/dynamics365/customer-engagement/unified-service-desk/admin/internet-explorer-settings-bpa).
+To configure the **Enable Protected Mode** option, **TabProcGrowth** (Tab Process Growth), **TabShutdownDelay** (Tab Shutdown Delay) registry key, and **Enable Automatic Crash Recovery** option, see [Internet Explorer setting guidelines](/dynamics365/unified-service-desk/admin/internet-explorer-settings-bpa).
 
 ## Disable the recommended settings using PowerShell script
 
