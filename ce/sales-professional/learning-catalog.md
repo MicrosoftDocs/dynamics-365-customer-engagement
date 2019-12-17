@@ -40,8 +40,10 @@ Find the right online training, in person workshops, and events for your role in
     [Exam](learning-bus-user.md#exam)
 
     :::column-end:::
-    :::row-end:::
-    :::row:::
+
+:::row-end:::
+
+:::row:::
     :::column:::
       
     ### Developers
@@ -71,8 +73,11 @@ Find the right online training, in person workshops, and events for your role in
     [Exams](learning-developer.md#exam)
 
     :::column-end:::
-    :::row-end:::
-    :::row:::
+    
+:::row-end:::
+
+:::row:::
+
     :::column:::
 
     ### Functional consultants
@@ -103,4 +108,5 @@ Find the right online training, in person workshops, and events for your role in
     [Exam](learning-sales.md#exam)
 
      :::column-end:::
+    
 :::row-end:::
