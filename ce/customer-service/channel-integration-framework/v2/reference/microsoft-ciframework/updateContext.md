@@ -14,7 +14,7 @@ ms.custom:
 ---
 # updateContext
 
-[!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 This method allows you to set automation dictionary. It enables providers to add, modify and remove values of slugs and the updated values are subsequently available for future macro invocations.
 

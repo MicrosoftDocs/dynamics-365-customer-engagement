@@ -15,7 +15,7 @@ ms.custom:
 
 # initLogAnalytics
 
-[!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Invoke this method on an incoming conversation to log analytics.
 

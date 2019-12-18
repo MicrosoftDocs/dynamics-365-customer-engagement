@@ -15,7 +15,7 @@ ms.custom:
 
 # refreshTab
 
-[!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Refreshes the tab.
 

@@ -15,7 +15,7 @@ ms.custom:
 
 # onSessionSwitched event (CIF JavaScript API reference)
 
-[!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Invoked by the client when a session is closed. This handler will pass the `sessionClosed` message to the widget as an event resulting in the registered widget-side handler, if any, being invoked.
 
