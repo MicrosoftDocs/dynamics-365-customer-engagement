@@ -10,8 +10,6 @@ ms.service:
 ms.topic: article
 ---
 
-<!--from editor: There are two places below (lines 78 and 97) that refer to the "Microsoft Dynamics 365 for Customer Engagement screen." Has that screen name been updated? If so, we should update it here as well. --> 
-
 
 
 # Deploy Unified Service Desk - Omnichannel for Customer Service package
