@@ -13,4 +13,4 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-[!INCLUDE[add-cif-solution-dependent-solution](../../shared/cif/add-cif-solution-dependent-solution.md)] 
+[!INCLUDE[add-cif-solution-dependent-solution](../shared/add-cif-solution-dependent-solution.md)] 

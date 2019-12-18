@@ -13,5 +13,5 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-[!INCLUDE[authenticate-channel-users](../../shared/cif/authenticate-channel-users.md)] 
+[!INCLUDE[authenticate-channel-users](../shared/authenticate-channel-users.md)] 
 

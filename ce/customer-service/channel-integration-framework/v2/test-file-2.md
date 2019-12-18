@@ -13,4 +13,4 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-[!INCLUDE[enable-outbound-communication-clicktoact](../../shared/cif/enable-outbound-communication-clicktoact.md)] 
+[!INCLUDE[enable-outbound-communication-clicktoact](../shared/enable-outbound-communication-clicktoact.md)] 
