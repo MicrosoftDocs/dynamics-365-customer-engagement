@@ -72,14 +72,14 @@ For more information on what's new, see [What's new with Dynamics 365 App for Ou
 
 Users who are assigned a custom security role may not be able to access [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. We are working on a fix for this issue. In the meantime, for more information, see:
  - [Support article](https://support.microsoft.com/help/4078135/sorry-something-went-wrong-while-initializing-the-app-when-accessing-t)
- - [Configure Outlook or Exchange folder-level tracking](https://docs.microsoft.com/dynamics365/customer-engagement/admin/configure-outlook-exchange-folder-level-tracking)
-  - [Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-addin/user-guide/set-option-automatically-track-incoming-outlook-email)
+ - [Configure Outlook or Exchange folder-level tracking](https://docs.microsoft.com/power-platform/admin/configure-outlook-exchange-folder-level-tracking)
+  - [Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](https://docs.microsoft.com/dynamics365/outlook-addin/user-guide/set-option-automatically-track-incoming-outlook-email)
 
 Delegated users cannot track emails using [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. Try using folder-level tracking or automatic tracking for delegated users.  
 
 For other known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 apps Readme](../admin/readme-9.md). 
 
-For more information on FAQ's, see [Frequently Asked Questions about Dynamics 365 App for Outlook](faq.md).
+For more information on FAQs, see [Frequently Asked Questions about Dynamics 365 App for Outlook](faq.md).
 
 
 ### See also
