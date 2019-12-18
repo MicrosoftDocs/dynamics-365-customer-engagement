@@ -1,5 +1,5 @@
 ---
-title: "msdyn_ApplyRoutingRuleEntityRecord Action Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_ApplyRoutingRuleEntityRecord Action Reference (Developer Guide for Omnichannel for Customer Service)| MicrosoftDocs"
 description: "Reference information about the msdyn_ApplyRoutingRuleEntityRecord Action."
 author: "susikka"
 ms.author: "susikka"
@@ -11,10 +11,6 @@ ms.service:
   - crm-online
 ms.topic: "reference"
 ---
-
-<!--from editor: The metadata title includes mention of the Developer Guide for Dynamics 365 Customer Engagement. Has that guide title been updated? If so, the metadata here should also be updated. -->
-
-
 
 # msdyn_ApplyRoutingRuleEntityRecord Action Reference
 
