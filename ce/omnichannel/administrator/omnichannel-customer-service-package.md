@@ -75,7 +75,7 @@ The **Upgrade** package updates the Customization files and creates the newly in
 
 1. Run the **PackageDeployer.exe** file.
 
-2. On the **Connect to Microsoft Dynamics 365 for Customer Engagement** screen, provide authentication details to connect to the instance where you want to deploy the package.
+2. On the connect screen, provide authentication details to connect to the instance where you want to deploy the package.
 
 3. The next screen displays information about the packages. Select the **Unified Service Desk - Omnichannel for Customer Service - Add-On** or **Unified Service Desk - Omnichannel for Customer Service** to install on your instance. Review the information and choose **Next**.
 
@@ -94,7 +94,7 @@ To learn more, see [Deploy a sample Unified Service Desk package using Package D
 
 1. Run the **PackageDeployer.exe** file.
 
-2. On the **Connect to Microsoft Dynamics 365 for Customer Engagement** screen, provide authentication details to connect to the instance where you want to upgrade the current package.
+2. On the connect screen, provide authentication details to connect to the instance where you want to upgrade the current package.
 
 3. On the **Select the import package to use** page, choose **Unified Service Desk - Omnichannel for Customer Service - Upgrade**, and then select **Next**. The **Unified Service Desk - Omnichannel for Customer Service - Upgrade Setup Tool** page appears.
 
