@@ -10,10 +10,6 @@ ms.service:
 ms.topic: article
 ---
 
-<!-- from editor: The code in this topic contains several mentions of "Customer Engagement." Will this be updated at some point? -->
-
-
-
 # Configure recommended settings for Unified Service Desk
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
