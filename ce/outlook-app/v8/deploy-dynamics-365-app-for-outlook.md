@@ -263,7 +263,7 @@ Exchange Server version 15.0.1236.3.32 (Cumulative Update 14 for Exchange Server
 2. In the **Apps for Dynamics 365 apps** screen, under **[!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)]**, users click **Add app to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]**.  
 
 > [!NOTE]
->  Users can also disable or remove the add-in themselves, if needed. For more information, see the [Dynamics 365 App for Outlook User’s Guide](https://go.microsoft.com/fwlink/p/?LinkID=613099).
+>  Users can also disable or remove the add-in themselves, if needed. For more information, see the [Dynamics 365 App for Outlook User Guide](https://go.microsoft.com/fwlink/p/?LinkID=613099).
 
 <a name="BKMK_DeployOnprem"></a>
 
