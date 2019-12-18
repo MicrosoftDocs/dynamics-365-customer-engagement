@@ -10,13 +10,6 @@ ms.service:
 ms.topic: article
 ---
 
-
-<!--from editor: Please review use of "Customer Engagement organization" in line 106. Can "Customer Engagement" be removed, so the sentence is "... in the specified organization"? 
-Also, I fixed the link in line 76. 
--->
-
-
-
 # What's new in Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
@@ -103,7 +96,7 @@ This section contains information about new features and enhancements in Omnicha
 
 - **Omnichannel for Customer Service packages**
 
-    - **Unified Service Desk - Omnichannel for Customer Service - Add-on**: Use this sample package if you have an existing deployment of Unified Service Desk and want to start using Omnichannel for Customer Service with it. This package installs Unified Service Desk solutions with minimal configuration data for Omnichannel for Customer Service to work with an existing Unified Service Desk in the specified Customer Engagement organization.
+    - **Unified Service Desk - Omnichannel for Customer Service - Add-on**: Use this sample package if you have an existing deployment of Unified Service Desk and want to start using Omnichannel for Customer Service with it. This package installs Unified Service Desk solutions with minimal configuration data for Omnichannel for Customer Service to work with an existing Unified Service Desk in the specified organization.
 
     - **Unified Service Desk - Omnichannel for Customer Service**: Use this sample package if you want to start using a new Unified Service Desk environment with Omnichannel. This package installs Unified service desk solutions and Omnichannel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Service organization. This package provides basic configuration data.
 
