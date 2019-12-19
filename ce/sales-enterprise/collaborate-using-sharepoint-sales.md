@@ -26,10 +26,17 @@ By default, the location is set to Documents on Default Site 1.
 ## Document Location Clarifications
 
 ### Lead Entity
+
 When the "Based on entity" option is not set, the documents are stored inside the entity folder. On creation of a lead entity, the documents will be stored inside the `Root -> Lead -> Lead <LeadTitle>_<LeadId>` path
 
-### Quote Entity
-Going forward, the documents related to the quote entity will be stored inside the `Root -> Opportunity -> Opportunity <OpportunityTitle>_<OpportunityId>` path of the parent Opportunity for the Quote. This ensures that every quote entity has full access to all opportunity related documents.
+### Opportunity - Quote documents sharing
+
+When you create a quote through sub-grid in an opportunity record, the documents that are associated with the opportunity are automatically made available in the documents tab of the created quote, if there is at least one SharePoint document location already created for the opportunity record.
+
+If you don’t want to share the quote and opportunity documents, use **Quotes** grid to create quote and then add an opportunity as reference, the documents of the opportunity will not be shared with the quote.
+ 
+Additionally, by default, the **Files** and **Documents** tab are added to the **Opportunity** form and a SharePoint document location is added to the opportunity record. The **Files** tab can be removed using system customizations.
+
 
 ## Add a document
 
