@@ -90,6 +90,8 @@ To upgrade Omnichannel, see [Upgrade Omnichannel for Customer Service](administr
 > - Omnichannel for Customer Service is supported only on desktops, and not on phones and tablets.
 >
 > - Omnichannel for Customer Service for other regions will be available in the future.
+>
+> - Omnichannel for Customer Service does not work if MFA (Multi Factor Authtentication) is enabled on the tenant
 
 ## See also
 
