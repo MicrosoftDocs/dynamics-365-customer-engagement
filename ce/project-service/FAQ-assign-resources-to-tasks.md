@@ -22,6 +22,10 @@ search.app:
   - D365PS
 ---
 
+<!--from editor: The metadata includes mention of Customer Engagement in the ms.technology entry. What should this be updated to? -->
+
+
+
 # Assign a resource to a task
 
 There are three ways to assign a resource to a task in Microsoft Dynamics 365 Project Service Automation.
