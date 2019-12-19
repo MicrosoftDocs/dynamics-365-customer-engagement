@@ -3,6 +3,8 @@
   items:
   - name: "What's new"
     href: whats-new-channel-integration-framework.md
+  - name: "System requirements for Channel Integration Framework"
+    href:  system-requirements-channel-integration-framework.md    
   - name: Version 1.0
     items:
     - name: Overview
@@ -11,8 +13,6 @@
         href: overview-channel-integration-framework.md
       - name: "Architecture overview of Channel Integration Framework (CIF)"
         href: architecture-overview-channel-integration-framework.md
-      - name: "System requirements for Channel Integration Framework"
-        href:  system-requirements-channel-integration-framework.md
     - name: Get the application
       items:
       - name: "Get Channel Integration Framework (CIF)"
@@ -119,8 +119,6 @@
         href: overview-channel-integration-framework.md
       - name: "Architecture overview of Channel Integration Framework (CIF)"
         href: architecture-overview-channel-integration-framework.md
-      - name: "System requirements for Channel Integration Framework"
-        href:  system-requirements-channel-integration-framework.md
     - name: "Onboard to version 2.0 flight"
       href: v2/onboard-org-flight.md
     - name: Get the application

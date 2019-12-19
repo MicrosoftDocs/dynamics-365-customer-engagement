@@ -52,7 +52,7 @@ The automation dictionary uses the context data parameters that are available fr
 - [Context data from Common Data Service](#context-data-from-common-data-service)
 
 > [!div class=mx-imgBorder] 
-> ![Automation dictionary](media/automation-dictionary-cif.PNG "Automation dictionary")
+> ![Automation dictionary](../media/automation-dictionary-cif.PNG "Automation dictionary")
 
 ### Context data from the channel provider 
 

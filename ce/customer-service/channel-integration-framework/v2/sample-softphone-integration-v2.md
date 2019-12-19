@@ -50,7 +50,7 @@ ms.custom:
 
    For example, `https://sampleinteg.azurewebsites.net`.
 
-   ![Select Create to publish app on Azure](media/publish-app-azure.PNG "Select Create to publish app on Azure")<br />
+   ![Select Create to publish app on Azure](../media/publish-app-azure.PNG "Select Create to publish app on Azure")<br />
 
 ## Create function to use with the app service
 
