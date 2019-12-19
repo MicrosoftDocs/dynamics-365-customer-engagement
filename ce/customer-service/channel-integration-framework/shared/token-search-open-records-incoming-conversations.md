@@ -1,5 +1,3 @@
-# Walkthrough: Search and open records on an incoming conversation
-
 In this tutorial, we demonstrate how you can search and open records in Dynamics 365 on an incoming call using the Microsoft Dynamics 365 Channel Integration Framework APIs.
 
 The sample given below covers four scenarios:
@@ -26,7 +24,7 @@ The sample given below covers four scenarios:
 
 2. Open the `Index.cshtml` file and replace the code in the file with the code given below. 
 
-   ![Open Index.cshtml file from solution explorer](../../customer-service/channel-integration-framework/media/cif-helloworld-solution-explorer.PNG "Open Index.cshtml file from solution explorer")<br />
+   ![Open Index.cshtml file from solution explorer](../media/cif-helloworld-solution-explorer.PNG "Open Index.cshtml file from solution explorer")<br />
 
 ```html
 <!DOCTYPE html>
@@ -191,10 +189,4 @@ The sample given below covers four scenarios:
 
 Follow the steps mentioned in [Publish and configure the widget](getting-started-simple-widget.md#BKMK_publish) to publish the widget. The published widget should look like this:
 
-  ![Published sample widget in Unified Interface apps](../../customer-service/channel-integration-framework/media/cif-search-records-publish-app.PNG "Published sample widget in Unified Interface apps")<br />
-
-## See also
-
-[Get started with building a simple communication widget](getting-started-simple-widget.md)<br />
-[Sample code for softphone integration](sample-softphone-integration.md)<br />
-[Frequently asked questions](faq-channel-integration-framework.md)
+  ![Published sample widget in Unified Interface apps](../media/cif-search-records-publish-app.PNG "Published sample widget in Unified Interface apps")<br />
