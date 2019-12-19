@@ -1,10 +1,10 @@
 ---
 title: "Provision Omnichannel for Customer Service | MicrosoftDocs"
 description: "See how you can provision Omnichannel for Customer Service"
-author: sbmjais
-ms.author: shjais
+author: lalexms
+ms.author: lalexms
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 12/19/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -38,7 +38,7 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 ## Provision Omnichannel for Customer Service application
 
 > [!IMPORTANT]
-> Ensure that you are either a **Global Tenant Admin** or **Dynamics 365 Service Admin** of your org to be able to provision the Omnichannel for Customer Service application.
+> To be able to provision the Omnichannel for Customer Service application, you must have both **Global Tenant Admin** and **Dynamics 365 System Admin** permissions for your organization.
 
 ### Set up Omnichannel for Customer Service
 
