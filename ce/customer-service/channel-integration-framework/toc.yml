@@ -130,29 +130,29 @@
       - name: "Get Channel Integration Framework (CIF)"
         href: get-channel-integration-framework.md
       - name: "Sample softphone integration"
-        href: sample-softphone-integration-v2.md
+        href: v2/sample-softphone-integration-v2.md
     - name: "Integrate with multi-session app"
-      href: integration-multi-session-experiences.md
+      href: v2/integration-multi-session-experiences.md
     - name: "Support multiple providers"
-      href: support-multiple-providers.md
+      href: v2/support-multiple-providers.md
     - name: "Modes for communication widget"
-      href: modes-communication-widget.md
+      href: v2/modes-communication-widget.md
     - name: Templates
       items:
       - name: "Overview of templates"
-        href: templates-overview-cif.md
+        href: v2/templates-overview-cif.md
       - name: "Manage session templates"
-        href: session-templates-cif.md
+        href: v2/session-templates-cif.md
       - name: "Manage application tab templates"
-        href: application-tab-templates-cif.md      
+        href: v2/application-tab-templates-cif.md      
       - name: "Manage notification templates"
-        href: notification-templates-cif.md
+        href: v2/notification-templates-cif.md
       - name: "Use automation dictionary to pass data parameter keys"
-        href: automation-dictionary-keys-cif.md
+        href: v2/automation-dictionary-keys-cif.md
       - name: "Associate templates with scenarios"
-        href: associate-templates-cif.md          
+        href: v2/associate-templates-cif.md          
     - name: "Channel Analytics"
-      href: channel-analytics.md
+      href: v2/channel-analytics.md
     - name: How-to
       items:
       - name: "Configure channel provider for your Dynamics 365 organization"
