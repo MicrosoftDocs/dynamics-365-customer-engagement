@@ -1,5 +1,3 @@
-# How to configure a channel provider for your Dynamics 365 organization
-
 Using the Dynamics 365 Channel Integration Framework solution, you can configure channel providers.
 To configure channel providers:
 
@@ -7,7 +5,7 @@ To configure channel providers:
 
 2. Select the drop-down button on the Dynamics 365 and select **Channel Integration Framework**.
 
-  ![Dynamics 365 drop-down button to find Channel Integration Framework](../../customer-service/channel-integration-framework/media/cif-app-navigation.png "Dynamics 365 drop-down button to find Channel Integration Framework")
+  ![Dynamics 365 drop-down button to find Channel Integration Framework](../media/cif-app-navigation.png "Dynamics 365 drop-down button to find Channel Integration Framework")
 
 3.	Select **+ New** to add a new provider.
 
@@ -26,17 +24,15 @@ To configure channel providers:
   |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface App.|
   |Custom Parameter|This takes a text blob as input and [Microsoft.CIFramework.getEnvironment](reference/microsoft-ciframework/getEnvironment.md) will return this as value of key `customParams`.|
   
-  ![Channel provider configuration](../../customer-service/channel-integration-framework/media/channel-provider-configuration.PNG "Channel provider configuration")
+  ![Channel provider configuration](../media/channel-provider-configuration.PNG "Channel provider configuration")
 
   > [!Note]
   > The msdyn_ciprovider entity is accessible only for the administrator roles and hence the panel will not load for a non-administrator roles. To load the panel for the non-administrator roles, create a new role and provide read-access to the msdyn_ciprovider entity. Now, add the role to the users who will be accessing the Channel Integration Framework.
 
 5. Launch the Unified Interface App to see the communication widget on the right side.<br><br>
 **The communication widget in the minimized mode**<br><br>
-![communication widget in the minimized mode](../../customer-service/channel-integration-framework/media/widget-minimized-mode.PNG "communication widget in the minimized mode")
+![communication widget in the minimized mode](../media/widget-minimized-mode.PNG "communication widget in the minimized mode")
 <br><br>
-**The communication widget in the expanded mode**<br><br>
-![communication widget in the expanded mode](../../customer-service/channel-integration-framework/media/widget-expanded-mode.PNG "communication widget in the expanded mode")
 
-> [!div class ="nextstepaction"]
-> [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)
+**The communication widget in the expanded mode**<br><br>
+![communication widget in the expanded mode](../media/widget-expanded-mode.PNG "communication widget in the expanded mode")

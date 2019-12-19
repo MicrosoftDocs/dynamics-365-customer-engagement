@@ -1,5 +1,3 @@
-# Pass a Dynamics 365 URL to a widget library
-
 To access the Dynamics 365 Channel Integration Framework (CIF) APIs, you need to load the `msdyn_cilibrary.js` file inside your communication widget. Since the widget is in a different domain, this library needs to know what Dynamics 365 domain it should talk to. For this reason you need to pass your Dynamics 365 instance URL to the widget library.
 
 > [!IMPORTANT]
@@ -28,10 +26,3 @@ Another method is to pass a `ucilib` parameter in the landing URL, like `ucilib=
 ### Example
 
 `https://widget.domain.com?ucilib=https://crmorg.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js`
-
-## See also
-
-[Configure a channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)<br />
-[Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
-[Add a Channel Integration Framework solution as a dependent solution](add-cif-solution-dependent-solution.md)<br />
-[Authenticate channel users to the channel (widget)](authenticate-channel-users.md)

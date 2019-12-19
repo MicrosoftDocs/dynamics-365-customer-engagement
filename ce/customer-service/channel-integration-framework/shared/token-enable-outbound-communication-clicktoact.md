@@ -1,5 +1,3 @@
-# How to enable outbound communication (ClickToAct) in Channel Integration Framework?
-
 To enable outbound communication for your channel, you must perform the following:
 
 - **Step 1:** In the channel provider configurations, set the **Enable Outbound Communication** field to **Yes**.
@@ -27,21 +25,21 @@ You can add the Channel Communication Control based on your organization and bus
 2. Go to **Settings** > **Customizations**.
 
 3. Expand **Entites** > **Contact** and select **Forms**.<br>
-![Expand contact entity and select forms](../../customer-service/channel-integration-framework/media/contact-entity-forms.PNG "Expand contact entity and select forms")
+![Expand contact entity and select forms](../media/contact-entity-forms.PNG "Expand contact entity and select forms")
 
 4. Select the **Contact** form of the **Main** type from the list.<br>
-![Select contact form of Main type](../../customer-service/channel-integration-framework/media/contact-main-form.PNG "Select contact form of Main type")
+![Select contact form of Main type](../media/contact-main-form.PNG "Select contact form of Main type")
 
 5. Select the phone field for which you want to add the control. Double-click the **Business Phone** or **Mobile Phone** field.<br> The **Field Properties** dialog appears.
 
 6. In the **Field Properties** dialog, choose **Controls** tab, and select the **Add control...** option. <br>
-![Select phone, then select the Controls tab, and select the Add control option](../../customer-service/channel-integration-framework/media/add-custom-control.PNG "Select business or mobile phone, then select the Controls tab, and select the Add control option")
+![Select phone, then select the Controls tab, and select the Add control option](../media/add-custom-control.PNG "Select business or mobile phone, then select the Controls tab, and select the Add control option")
 
 7. In the **Add Control** dialog, choose **Channel Communication Control**, and select **Add**.<br>
-![Choose Channel Communication Control and select add](../../customer-service/channel-integration-framework/media/add-control.PNG "Choose Channel Communication Control and select add")
+![Choose Channel Communication Control and select add](../media/add-control.PNG "Choose Channel Communication Control and select add")
 
 8. In the **Field Properties** dialog, select the radio buttons for **Web**, **Phone**, and **Tablet**, and then select **Ok**.<br>
-![Select the radio buttons of web, phone, and tablet](../../customer-service/channel-integration-framework/media/select-radio-buttons.PNG "Select the radio buttons pf web, phone, and tablet") 
+![Select the radio buttons of web, phone, and tablet](../media/select-radio-buttons.PNG "Select the radio buttons pf web, phone, and tablet") 
 
 9. Select **Save**, and then select **Publish** to publish all customizations.
 
@@ -58,17 +56,3 @@ function initCTI() {
 ```
 > [!Note]
 > Channel Integration Framework invokes the onclicktoact event only if you programmatically set the `setClickToAct` API to `true` or by configuring the **Enable Outbound Communication** to **Yes** in the channel provider configurations.
-
-> [!div class="nextstepaction"]
-> [Add Channel Integration Framework as a dependent solution](add-cif-solution-dependent-solution.md)
-
-## See also
-
-[Entity reference](reference/entities-attributes/msdyn-ciprovider.md)
-
-[setClickToAct](reference/microsoft-ciframework/setClickToAct.md)
-
-[getClickToAct](reference/microsoft-ciframework/getClickToAct.md)
-
-[onclicktoact](reference/events/onclicktoact.md)
-
