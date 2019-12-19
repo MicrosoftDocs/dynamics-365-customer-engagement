@@ -20,6 +20,11 @@ search.app:
   - D365CE
   - D365PS
 ---
+
+
+<!--from editor: The paragraph in line 32 contains a Customer Engagement "includes" tag. This paragraph needs to be rewritten to remove mention of Customer Engagement (unless it is the on-premises version). The tag also should be removed from line 39. --> 
+
+
 # Install and customize (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -33,7 +38,7 @@ search.app:
 ## Customize [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] forms and reports  
  If you want to customize any of the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] forms, dashboards, or reports, you can find more information about customizing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] in the following links:  
   
-- [Customize your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement system](../customize/getting-started-customization.md)  
+- [Get started with app making and customization](../customize/getting-started-customization.md)  
   
 - [Create and design forms](../customize/create-design-forms.md)  
   
