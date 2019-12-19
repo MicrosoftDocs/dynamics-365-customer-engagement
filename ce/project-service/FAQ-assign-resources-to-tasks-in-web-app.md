@@ -23,6 +23,10 @@ search.app:
   - D365PS
 ---
 
+
+<!--from editor: The metadata includes a mention of Customer Engagement in the ms.technology entry. What should this be updated to? -->
+
+
 # How do I assign a bookable resource to a task in the web app (Project Service app v2.x)?
 
 [!INCLUDE[cc-applies-to-psa-app-1.x-2.x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -44,10 +48,10 @@ With this method you add a resource to the project team and then assign tasks to
     > ![Screenshot of adding team member](media/FAQ-Resources-to-Tasks2-1.png "Screenshot of adding team member")
  
 4.	Select one of the following allocation methods for booking the resource:
-  - **Full Capacity** books the resource’s full capacity for the specified from and to dates.
-  - **Percentage Capacity** books the resource for a percentage of the resource's capacity for the specified from and to dates.
-  - **By Hours Distribute Evenly** books the resource for a specified number of hours, distributing it evenly per day over the specified from and to dates.
-  - **By Hours Front Load** books the resource for a specified number of hours, front-loading the per-day hours over the specified from and to dates.
+    - **Full Capacity** books the resource’s full capacity for the specified from and to dates.
+    - **Percentage Capacity** books the resource for a percentage of the resource's capacity for the specified from and to dates.
+    - **By Hours Distribute Evenly** books the resource for a specified number of hours, distributing it evenly per day over the specified from and to dates.
+    - **By Hours Front Load** books the resource for a specified number of hours, front-loading the per-day hours over the specified from and to dates.
 
     Don’t select **None** because it adds the resource to the team but doesn’t create any bookings that absorb the resource's capacity.
 5.	Select **Save**.
