@@ -92,5 +92,4 @@ To get the Dynamics 365 Channel Integration Framework solution from within Dynam
 
 ## See also
 
-[Onboard your organization to Dynamics 365 Channel Integration Framework version 2.0](onboard-org-flight.md)<br />
-[Softphone integration sample code for Dynamics 365 Channel Integration Framework version 2.0](sample-softphone-integration-v2.md)
+[Softphone integration sample code for Dynamics 365 Channel Integration Framework version 1.0](sample-softphone-integration.md)

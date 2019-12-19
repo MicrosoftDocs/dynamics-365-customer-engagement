@@ -19,5 +19,6 @@ ms.custom:
 
 ## See also
 
-[Onboard your organization to Dynamics 365 Channel Integration Framework version 2.0](onboard-org-flight.md)<br />
+[Onboard your organization to Dynamics 365 Channel Integration Framework version 2.0](onboard-org-flight.md)
+
 [Softphone integration sample code for Dynamics 365 Channel Integration Framework version 2.0](sample-softphone-integration-v2.md)

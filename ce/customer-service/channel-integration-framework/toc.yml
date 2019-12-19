@@ -116,7 +116,7 @@
     - name: Overview
       items:
       - name: "What is Channel Integration Framework?"
-        href: overview-channel-integration-framework.md
+        href: v2/overview-channel-integration-framework.md
       - name: "Architecture overview of Channel Integration Framework (CIF)"
         href: architecture-overview-channel-integration-framework.md
     - name: "Onboard to version 2.0 flight"
@@ -124,7 +124,7 @@
     - name: Get the application
       items:
       - name: "Get Channel Integration Framework (CIF)"
-        href: get-channel-integration-framework.md
+        href: v2/get-channel-integration-framework.md
       - name: "Sample softphone integration"
         href: v2/sample-softphone-integration-v2.md
     - name: "Integrate with multi-session app"
