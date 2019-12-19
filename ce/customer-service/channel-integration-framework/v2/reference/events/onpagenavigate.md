@@ -1,5 +1,5 @@
 ---
-title: "onpagenavigate (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
+title: "onpagenavigate (JavaScript API Reference) for Microsoft Dynamics 365 Channel Integration Framework (CIF) version 2.0 | Microsoft Docs"
 description: ""
 author: susikka
 ms.author: susikka
