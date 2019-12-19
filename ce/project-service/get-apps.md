@@ -20,6 +20,10 @@ search.app:
   - D365CE
   - D365PS
 ---
+
+<!--from editor: The metadata includes Customer Engagement in the title and description. What should this be updated to? -->
+
+
 # Get the apps (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
