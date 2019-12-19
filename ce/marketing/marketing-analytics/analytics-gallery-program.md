@@ -31,13 +31,13 @@ Use this report to analyze the end-to-end effectiveness of your marketing progra
 > [!NOTE]
 > You can find the full list of marketing analytics downloads in the [marketing analytics reporting gallery](analytics-gallery-start.md#gallery).
 
-This report walks you through and end-to-end analytical exploration that starts from your marketing plan and continues all the way to return on investment (ROI) and attribution to sales versus marketing. Start your exploration on the [homepage](#home-page), which provides a high-level overview of your marketing activities. Then go to the [marketing plan](#plan-overview) to see a Gantt chart that shows when your customer journeys are running and which messaging is being used. At the next station, you can find out [who exactly is included in your audience](#journey-reach), and what feedback and interactions have been detected. Go to the [leaderboard](#leaderboard) to compare which of your automated marketing activities performs best.
+This report walks you through and end-to-end analytical exploration that starts from your marketing plan and continues all the way to return on investment (ROI) and attribution to sales versus marketing. Start your exploration on the [home page](#home-page), which provides a high-level overview of your marketing activities. Then go to the [marketing plan](#plan-overview) to see a Gantt chart that shows when your customer journeys are running and which messaging is being used. At the next station, you can find out [who exactly is included in your audience](#journey-reach), and what feedback and interactions have been detected. Go to the [leaderboard](#leaderboard) to compare which of your automated marketing activities performs best.
 
 Next stop is [lead generation](#lead-generation), where you can find out which leads were created by inbound versus outbound marketing activities, see the stage the leads are in, and view related customer interactions. Explore the [full lead pipeline](#lead-pipeline) to find all leads, whether they're inbound/outbound or sales-generated; these leads are grouped by their current stage, as they leave marketing, go through tele-prospecting, and finally become sales-accepted. At the end of the exploration, the [return on investment report](#roi) helps you see where the opportunities with highest budget, highest estimated revenue, and actual total amount have been generated&mdash;by inbound marketing, outbound marketing, or direct sales activities.
 
 In addition to the [common report pages](analytics-gallery-framework.md#common-report-pages), this analytics report includes the following pages:
 
-- [Homepage](#home-page)
+- [Home page](#home-page)
 - [Marketing automation plan overview](#plan-overview)
 - [Journey reach](#journey-reach)
 - [A leaderboard of your most effective marketing automation activities](#leaderboard)
@@ -47,14 +47,14 @@ In addition to the [common report pages](analytics-gallery-framework.md#common-r
 
 <a name="home-page"></a>
 
-## Marketing automation report homepage
+## Marketing automation report home page
 
 > [!TIP]
-> The report homepage gives you a quick overview of your core marketing automation objects, customer journeys, and email marketing messages.
+> The report home page gives you a quick overview of your core marketing automation objects, customer journeys, and email marketing messages.
 
 Each report includes a filter pane on the left that lets you select the relevant marketing activities to focus on. You can also chose the relevant time frame for your exploration. You can define report-wide data filtering here, select the data range you'd like to report on, and limit the view to selected customer journeys.
 
-![Automation report homepage](media/Automation/Automation-HomePage.png "Automation report homepage")
+![Automation report home page](media/Automation/Automation-HomePage.png "Automation report home page")
 
 <a name="plan-overview"></a>
 

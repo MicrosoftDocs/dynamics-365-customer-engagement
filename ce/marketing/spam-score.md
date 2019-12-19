@@ -7,7 +7,7 @@ ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
-ms.topic: get-started-article
+ms.topic: article
 ms.assetid: 361dea50-9093-4668-910c-50f715fdd572
 author: kamaybac
 ms.author: kamaybac

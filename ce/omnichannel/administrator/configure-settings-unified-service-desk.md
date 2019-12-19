@@ -18,13 +18,13 @@ The topic explains the recommended settings for Unified Service Desk.
 
 ## Set up Chrome Process with Unified Service Desk
 
-The Chrome Process is used to host web applications in Unified Service Desk client application. More information: [Use Chrome Process to host web applications in Unified Serivce Desk (Preview)](/dynamics365/customer-engagement/unified-service-desk/chrome-process)
+The Chrome Process is used to host web applications in the Unified Service Desk client application. More information: [Use Chrome Process to host web applications in Unified Service Desk (Preview)](/dynamics365/unified-service-desk/chrome-process)
 
 ## Set up Unified Service Desk recommended settings for Internet Explorer
 
 The Internet Explorer process is used to host web applications in Unified Service Desk client application. When you use Omnichannel for Customer Service on Unified Service Desk client application, certain settings are recommended for Internet Explorer for optimal performance.
 
-Set up the Internet Explorer Settings on the every client desktops for the following areas :
+Set up the Internet Explorer settings on the client desktops for the following areas:
 
  - Enable popups for trusted sources 
  - Enable Protected Mode option
@@ -142,7 +142,7 @@ Write-Host
 Read-Host -Prompt 'Press any key to exit...' 
 ```
 
-The PowerShell script file updates the following URLs to the **Allowed sites** section of the **Pop-up Blocker** settings. You can view and also add the the allowed sites manually by opening **Internet Explorer** > **Settings** > **Internet Options** > **Privacy**. Under the **Pop-up Blocker** section, select Settings and in the **Turn on Pop-up Blocker Settings** window, you can see the sites under the **Allowed sites** section.
+The PowerShell script file updates the following URLs to the **Allowed sites** section of the **Pop-up Blocker** settings. You can view and also add the allowed sites manually by opening **Internet Explorer** > **Settings** > **Internet Options** > **Privacy**. Under the **Pop-up Blocker** section, select **Settings** and in the **Turn on Pop-up Blocker Settings** window, you can see the sites under the **Allowed sites** section.
 
  - https://login.microsoftonline.com
  - https://www.office.com
@@ -177,7 +177,7 @@ Also, the PowerShell script updates the recommended Internet Explorer settings s
 
 ### Set up Internet Explorer settings
 
-To configure the **Enable Protected Mode** option, **TabProcGrowth** (Tab Process Growth), **TabShutdownDelay** (Tab Shutdown Delay) registry key, and **Enable Automatic Crash Recovery** option, see [Internet Explorer setting guidelines](/dynamics365/customer-engagement/unified-service-desk/admin/internet-explorer-settings-bpa).
+To configure the **Enable Protected Mode** option, **TabProcGrowth** (Tab Process Growth), **TabShutdownDelay** (Tab Shutdown Delay) registry key, and **Enable Automatic Crash Recovery** option, see [Internet Explorer setting guidelines](/dynamics365/unified-service-desk/admin/internet-explorer-settings-bpa).
 
 ## Disable the recommended settings using PowerShell script
 
