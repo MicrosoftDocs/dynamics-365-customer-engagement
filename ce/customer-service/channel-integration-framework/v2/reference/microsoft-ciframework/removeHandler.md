@@ -1,10 +1,10 @@
 ---
-title: "removeHandler (JavaScript API Reference) for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
+title: "removeHandler (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0 | MicrosoftDocs"
 description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/10/2018
+ms.date: 12/31/2019
 ms.topic: reference
 ms.service: 
   - dynamics-365-cross-app
@@ -19,16 +19,7 @@ applies_to:
 
 [!INCLUDE[removeHandler-description](includes/removeHandler-description.md)] 
 
-## Syntax
-
-`Microsoft.CIFramework.removeHandler(eventName, handlerFunction);`
-
-## Parameters
-
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| eventName | string | Yes | Name of the event for which the handler is set. <br>The supported events are as follows:<br><ul><li><b>onclicktoact:</b> The event is invoked when the outbound communication (ClickToAct) enabled filed is clicked.</li> <li><b>onmodechanged:</b> The event is invoked when the panel mode is manually toggled between Minimized (0) and Docked (1). </li><li><b>onsizechanged:</b>The event is invoked when the panel size is manually changed by dragging </li><li><b>onpagenavigate:</b>The event is triggered before a navigation event occurs on the main page </li><li><b>onsendkbarticle: </b> The event is invoked when the user clicks the send button on the KB control.</li></ul>  |
-| handlerFunction | Function | Yes | The handler function that is to removed. |
+[!INCLUDE[authenticate-channel-users](../../../shared/token-removeHandler.md)]
 
 
 ## Related topics
