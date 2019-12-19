@@ -64,7 +64,7 @@
       - name: "Microsoft.CIFramework"
         items:
         - name: "Overview"
-          href: v2/reference/microsoft-ciframework.md
+          href: v2/reference/microsoft-ciframework-v2.md
         - name: "Communication Panel management APIs"
           items:
           - name: "setWidth"
@@ -176,10 +176,6 @@
           href: reference/entities-attributes/msdyn_sessiondata.md
         - name: "msdyn_sessionparticipantdata"
           href: v2/reference/entities-attributes/msdyn_sessionparticipantdata.md
-  - name: "Common issues"
-    href: known-issues.md
-  - name: "FAQs"
-    href: faq-channel-integration-framework.md
 
   - name: Version 1.0
     items:
@@ -284,6 +280,10 @@
           href: reference/entities-attributes/msdyn_sessiondata.md
         - name: "msdyn_sessionparticipantdata"
           href: reference/entities-attributes/msdyn_sessionparticipantdata.md
+  - name: "Common issues"
+    href: known-issues.md
+  - name: "FAQs"
+    href: faq-channel-integration-framework.md
 
 - name: Dynamics 365 Customer Service
   href: https://docs.microsoft.com/dynamics365/customer-service/help-hub
