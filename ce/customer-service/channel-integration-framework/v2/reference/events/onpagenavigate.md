@@ -4,7 +4,7 @@ description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/10/2018
+ms.date: 12/31/2019
 ms.topic: reference
 ms.service: 
   - dynamics-365-cross-app
