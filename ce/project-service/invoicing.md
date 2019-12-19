@@ -22,6 +22,10 @@ search.app:
   - D365PS
 ---
 
+<!--from editor: The metadata includes mention of Customer Engagement in the ms.technology entry. What should this be updated to? -->
+
+
+
 # Invoicing in Project Service Automation
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
