@@ -1,5 +1,5 @@
 ---
-title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
+title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework (CIF) version 2.0 | Microsoft Docs"
 description: ""
 author: susikka
 ms.author: susikka
