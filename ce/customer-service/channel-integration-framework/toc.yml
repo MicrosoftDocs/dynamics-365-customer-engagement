@@ -1,7 +1,7 @@
 - name: "Dynamics 365 Channel Integration Framework"
   href: channel-integration-framework.md
   items:
-  - name: Channel Integration Framework version 1.0
+  - name: Version 1.0
     items:
     - name: Overview
       items:
@@ -183,7 +183,7 @@
         - name: "msdyn_sessionparticipantdata"
           href: reference/entities-attributes/msdyn_sessionparticipantdata.md
           
-  - name: Channel Integration Framework version 2.0
+  - name: Version 2.0
     items:
     - name: Overview
       items:
