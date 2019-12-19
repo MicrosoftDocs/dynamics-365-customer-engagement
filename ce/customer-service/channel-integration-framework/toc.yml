@@ -124,7 +124,7 @@
       - name: "System requirements for Channel Integration Framework"
         href:  system-requirements-channel-integration-framework.md
     - name: "Onboard to version 2.0 flight"
-      href: onboard-org-flight.md
+      href: v2/onboard-org-flight.md
     - name: Get the application
       items:
       - name: "Get Channel Integration Framework (CIF)"

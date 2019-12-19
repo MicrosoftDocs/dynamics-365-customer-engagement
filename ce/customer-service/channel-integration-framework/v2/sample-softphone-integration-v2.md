@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Preview: Sample code for softphone integration using Dynamics 365 Channel Integration Framework version 2.0
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 [Download](https://experience.dynamics.com/insider/campaign/program-downloads/?id=86c59063-b2c9-e911-a96f-000d3a4f33c1) softphone integration sample for Microsoft Dynamics 365 Channel Integration Framework version 2.0.
 

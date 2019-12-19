@@ -11,7 +11,7 @@ ms.service:
 ---
 # Preview: Onboard your organization to Dynamics 365 Channel Integration Framework version 2.0 flight
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Before you go to AppSource to install Dynamics 365 Channel Integration Framework version 2.0, you will need to onboard your organization to the version 2.0 flight. Follow these steps to do that.
 
