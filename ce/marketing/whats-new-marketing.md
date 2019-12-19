@@ -63,7 +63,7 @@ System customizers can create as many labels as you need, and define the display
 
 ![Template gallery with labels in tile view](media/template-label-example.png "Template gallery with labels in tile view")
 
-More information: [Add visual labels for templates](email-templates#add-visual-labels-for-templates)
+More information: [Add visual labels for templates](email-templates.md#add-visual-labels-for-templates)
 
 ### Quickly design and deliver a marketing email with _send now_
 
