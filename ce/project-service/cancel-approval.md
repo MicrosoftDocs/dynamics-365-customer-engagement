@@ -21,6 +21,11 @@ search.app:
   - D365PS
 ---
 
+
+<!--from editor: The metadata entry for "ms.technology" still refers to Customer Engagement. What should that be updated to? -->
+
+
+
 # Cancel previously approved time or expense entries
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
