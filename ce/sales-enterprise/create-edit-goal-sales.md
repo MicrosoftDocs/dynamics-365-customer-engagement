@@ -1,12 +1,14 @@
 ---
 title: "Create or edit goals (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Keep track of your progress on achieving target revenue by using goals."
+keywords: ""
 ms.date: 10/01/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
+ms.custom:
   - "dyn365-sales"
 ms.topic: article
+ms.assetid: 56eaa1d7-5b06-9ae8-6d42-d761330bf888
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -24,8 +26,6 @@ Use goals to keep track of your progress on achieving target revenue.
   
 3. On the command bar, select **New**.  
 
-    ![Goal form](media/goal-form.png "Goal form")
-  
 4. Fill in your information. Use the handy tooltips as a guide.
 
    - Name. Type a name that describes the goal. 
@@ -34,11 +34,13 @@ Use goals to keep track of your progress on achieving target revenue.
     
    - Goal Metric. Choose how the goal will be tracked by selecting a metric for the goal.
 
-     > [!NOTE]
-     > 
-     > If you select a parent goal for this goal, you can't select a goal metric. It is automatically populated from the parent goal.
+         > [!NOTE]
+         > If you select a parent goal for this goal, you can't select a goal metric. It is automatically populated from the parent goal.
     
    - Goal Owner. Select the user or team responsible for meeting the goal.
+
+          > [!div class="mx-imgBorder"]
+          > ![Goal form](media/goal-form.png "Goal form")
   
 5. Select **Save**.
 
@@ -48,7 +50,8 @@ Use goals to keep track of your progress on achieving target revenue.
     
    - If **Goal Period** Type is **Custom Period**, select a date in the From and To fields to define a custom period for which the goal is tracked.
 
-     ![Time Period tab on the Goal form](media/time-period-tab-goal-form.png "Time Period tab on the Goal form")
+     > [!div class="mx-imgBorder"]
+     > ![Time Period tab on the Goal form](media/time-period-tab-goal-form.png "Time Period tab on the Goal form")
 
    > [!NOTE]
    > 

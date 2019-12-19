@@ -24,7 +24,7 @@ Units are the quantities or measurements that you sell your products or services
 
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
-2. Select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **App Settings**, 
+2. Select the site map icon ![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **App Settings**. 
   
 3. In the **Product Catalog** area, select **Unit Groups**. 
 
