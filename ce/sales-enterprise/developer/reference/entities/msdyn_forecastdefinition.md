@@ -9,6 +9,11 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
+
+
+<!--from editor: Please review the use of Customer Engagement in lines 49 and 50 and update them appropriately. -->
+
+
 # msdyn_forecastdefinition EntityType
 
 [!INCLUDE[msdyn_forecastdefinition-description](../includes/msdyn_forecastdefinition-description.md)]
