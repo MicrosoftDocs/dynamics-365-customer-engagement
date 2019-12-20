@@ -19,8 +19,8 @@ ms.custom:
 
 ## See also
 
-- [setClickToAct](../microsoft-ciframework/setClickToAct.md)
+[setClickToAct](../microsoft-ciframework/setClickToAct.md)
 
-- [addHandler](../microsoft-ciframework/addHandler.md)
+[addHandler](../microsoft-ciframework/addHandler.md)
 
-- [removeHandler](../microsoft-ciframework/removeHandler.md)
+[removeHandler](../microsoft-ciframework/removeHandler.md)

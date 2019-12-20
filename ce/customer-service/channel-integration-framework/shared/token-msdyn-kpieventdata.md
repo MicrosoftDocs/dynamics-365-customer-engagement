@@ -1,5 +1,3 @@
-# msdyn_KPIEventData Entity Reference
-
 Primary entity for a kpi event
 
 **Added by**: Channel API Integration Framework Analytics Solution

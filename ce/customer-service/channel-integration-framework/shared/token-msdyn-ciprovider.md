@@ -1,5 +1,3 @@
-# msdyn_ciprovider Entity Reference
-
 Base entity for Channel Integration Framework.
 
 ## Entity properties

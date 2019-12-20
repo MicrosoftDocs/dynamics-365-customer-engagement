@@ -21,10 +21,10 @@ applies_to:
 
 ## Related topics
 
-- [setMode](../microsoft-ciframework/setMode.md)
+[setMode](../microsoft-ciframework/setMode.md)
 
-- [getMode](../microsoft-ciframework/getMode.md)
+[getMode](../microsoft-ciframework/getMode.md)
 
-- [addHandler](../microsoft-ciframework/addHandler.md)
+[addHandler](../microsoft-ciframework/addHandler.md)
 
-- [removeHandler](../microsoft-ciframework/removeHandler.md)
+[removeHandler](../microsoft-ciframework/removeHandler.md)

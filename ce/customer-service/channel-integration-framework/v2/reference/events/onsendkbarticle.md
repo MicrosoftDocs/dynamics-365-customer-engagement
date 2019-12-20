@@ -21,6 +21,6 @@ applies_to:
 
 ## Related topics
 
-- [addHandler](../microsoft-ciframework/addHandler.md)
+[addHandler](../microsoft-ciframework/addHandler.md)
 
-- [removeHandler](../microsoft-ciframework/removeHandler.md)
+[removeHandler](../microsoft-ciframework/removeHandler.md)

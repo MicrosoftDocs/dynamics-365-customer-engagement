@@ -16,6 +16,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ---
 
+# msdyn_ciprovider Entity Reference
+
 [!INCLUDE[authenticate-channel-users](../../../shared/token-msdyn-ciprovider.md)]
 
 ## Related topics

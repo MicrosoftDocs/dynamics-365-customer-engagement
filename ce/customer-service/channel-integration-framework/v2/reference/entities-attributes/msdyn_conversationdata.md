@@ -10,9 +10,12 @@ ms.author: "susikka"
 manager: "shujoshi"
 ---
 
+# msdyn_conversationdata Entity Reference
+
 [!INCLUDE[authenticate-channel-users](../../../shared/token-msdyn-sessionparticipantdata.md)]
 
 ### See also
 
-[Microsoft.CIFramework APIs](../microsoft-ciframework.md)<br />
+[Microsoft.CIFramework APIs](../microsoft-ciframework.md)
+
 [Client-side events](../client-side-events.md)
