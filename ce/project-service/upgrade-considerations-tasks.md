@@ -23,6 +23,9 @@ search.app:
   
 ---
 
+<!--from editor: The metadata includes mention of Customer Engagement in the ms.technology entry. What should this be updated to? -->
+
+
 # Upgrade considerations for the work breakdown structure
 This topic provides information about upgrading the work breakdown structure from Project Service Automation 2.x to 3.x. This topic defines the healthy state of a project in Project Service Automation (PSA) that is required for a successful upgrade. There is also information about the common blocking conditions that will cause upgrade to fail. For more information about defining project tasks and their functions within a project schedule, see [Project schedules](project-creating.md).
 
@@ -74,7 +77,7 @@ To ensure a successful upgrade, the following relationships must be correctly ma
 - For any tasks where the duration is greater than 1,250 days, consider adding multiple tasks to represent the total duration, if feasible.
 
 >[!NOTE]
-> Items noted with an asterisk (*) have limits that are due to the fact that customer relationship management (CRM) supports only 7,320 recurrence expansions. You must stay below this limit.
+> Items noted with an asterisk (\*) have limits that are due to the fact that customer relationship management (CRM) supports only 7,320 recurrence expansions. You must stay below this limit.
 
 ## Resource Assignment relationships
 To ensure a successful upgrade, the following relationships must be correctly maintained:
