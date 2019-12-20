@@ -1,10 +1,10 @@
 ---
-title: "Client-side Events (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
+title: "Client-side Events (JavaScript API Reference) for Channel Integration Framework (CIF) version 1.0 | Microsoft Docs"
 description: "Read about the client side events that you can use to trigger the client-side code."
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 10/21/2019
+ms.date: 12/31/2019
 ms.topic: reference
 ms.service: 
   - dynamics-365-cross-app
