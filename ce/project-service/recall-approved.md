@@ -4,14 +4,14 @@ title: Recall approved time or expense entries
 description: This topic provides information about how to recall a previously approved time or expense transaction.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-projectservice
 ms.custom:
   - dyn365-projectservice
 ms.date: 03/08/2019
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
-ms.technology: Microsoft Dynamics 365 for Customer Engagement for Project Service 2.x and Microsoft Dynamics 365 for Customer Engagement for Project Service 3.x
+ms.technology: Microsoft Dynamics 365 Project Service Automation 2.x and 3.x
 audience: Admin
 search.audienceType: 
   - admin
@@ -22,7 +22,6 @@ search.app:
   - D365PS
 ---
 
-<!--from editor: The metadata includes mention of Customer Engagement in the ms.technology entry. What should this be updated to? -->
 
 
 # Recall approved time or expense entries
