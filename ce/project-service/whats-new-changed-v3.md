@@ -2,14 +2,14 @@
 title: What's new or changed in Project Service Automation version 3
 description: This topic provides information about what is new and changed in Project Service Automation version 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-projectservice
 ms.custom:
   - dyn365-projectservice
 ms.date: 11/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
-ms.technology: Dynamics 365 for Customer Engagement for Project Service 3.x
+ms.technology: Dynamics 365 Project Service Automation 3.x
 author: JohnPBurrows
 ms.author: john.burrows
 audience: Admin
@@ -23,7 +23,6 @@ search.app:
   
 ---
 
-<!--from editor: The metadata includes mention of Customer Engagement in the ms.technology entry. What should this be updated to? -->
 
 
 # What's new or changed in Project Service Automation version 3
