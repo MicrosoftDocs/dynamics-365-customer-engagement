@@ -3,7 +3,7 @@ title: Developers learning catalog
 description: Find all the training options for developers.
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 12/19/19
+ms.date: 12/19/2019
 ms.author: v-lshann
 ---
 
