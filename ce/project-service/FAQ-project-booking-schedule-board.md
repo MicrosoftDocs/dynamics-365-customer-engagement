@@ -8,7 +8,7 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 9/26/2019
 ms.topic: article
-ms.prod: Applies to Dynamics 365 for Customer Engagement Project Service versions 2.x and 3.x 
+ms.prod: Dynamics 365 Project Service Autoamtion 2.x and 3.x 
 ms.service: business-applications
 ms.technology: 
 ms.author: ruhercul
@@ -21,8 +21,6 @@ search.app:
   - D365CE
   - D365PS
 ---
-
-<!--from editor: The metadata includes mention of Customer Engagement in the ms.prod entry. What should this be updated to? -->
 
 
 
