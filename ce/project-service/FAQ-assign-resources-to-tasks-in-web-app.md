@@ -11,7 +11,7 @@ ms.date: 8/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
-ms.technology: Dynamics 365 for Customer Engagement Project Service 2.x on platform version 9.x
+ms.technology: Dynamics 365 Project Service Automation 2.x on platform version 9.x
 ms.author: john.burrows
 audience: Admin
 search.audienceType: 
@@ -22,9 +22,6 @@ search.app:
   - D365CE
   - D365PS
 ---
-
-
-<!--from editor: The metadata includes a mention of Customer Engagement in the ms.technology entry. What should this be updated to? -->
 
 
 # How do I assign a bookable resource to a task in the web app (Project Service app v2.x)?
