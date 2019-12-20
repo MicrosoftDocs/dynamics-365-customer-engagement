@@ -16,6 +16,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
+
+
+<!--from editor: The paragraph in line 27 mentions Customer Engagement. What should that change to? -->
+
+
 # Custom actions for manual forecasting
 
 > [!IMPORTANT]
