@@ -21,8 +21,6 @@ search.app:
   - D365PS
 ---
 
-<!--from editor: The metadata includes Customer Engagement in the title and description. What should this be updated to? -->
-
 
 # Get the apps (Project Service)
 
