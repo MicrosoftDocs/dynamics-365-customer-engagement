@@ -72,11 +72,11 @@ To ensure a successful upgrade, the following relationships must be correctly ma
 ### Potential mitigation steps
 - Use Advanced Find to identify Project tasks that do not contain a Project ID.
 - Use Advanced Find to identify Project tasks where the scheduled duration is greater than > 1,800,000.
-- Prior to making any data changes, you should investigate any customizations associated with the entity which may have lead to getting the data into bad state. These customizations should be addressed before proceeding with any data related updates.
+- Prior to making any data changes, you should investigate any customizations associated with the entity that may have led to getting the data into a bad state. These customizations should be addressed before proceeding with any data-related updates.
 - For the identified tasks that have been orphaned, consider deleting these tasks if they are not needed or if they should be associated with the correct parent project.
 - For any tasks where the duration is greater than 1,250 days, consider adding multiple tasks to represent the total duration, if feasible.
 
->[!NOTE]
+> [!NOTE]
 > Items noted with an asterisk (\*) have limits that are due to the fact that customer relationship management (CRM) supports only 7,320 recurrence expansions. You must stay below this limit.
 
 ## Resource Assignment relationships
