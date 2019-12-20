@@ -24,12 +24,12 @@ applies_to:
 
 ## Related topics
 
-- [onclicktoact](../events/onclicktoact.md)
+[onclicktoact](../events/onclicktoact.md)
 
-- [onmodechanged](../events/onmodechanged.md)
+[onmodechanged](../events/onmodechanged.md)
 
-- [onpagenavigate](../events/onpagenavigate.md)
+[onpagenavigate](../events/onpagenavigate.md)
 
-- [onsendkbarticle](../events/onsendkbarticle.md)
+[onsendkbarticle](../events/onsendkbarticle.md)
 
-- [onsizechanged](../events/onsizechanged.md)
+[onsizechanged](../events/onsizechanged.md)
