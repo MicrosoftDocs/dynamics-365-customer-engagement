@@ -7,9 +7,9 @@ ms.suite:
 ms.technology: 
   - field-service
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-author: JohnPBurrows
-ms.author: jburrows
+  - Dynamics 365 Project Service Automation
+author: ruhercul
+ms.author: ruhercul
 ms.reviewer: kfend
 search.audienceType: 
   - admin
@@ -20,7 +20,6 @@ search.app:
   - D365PS
 --- 
 
-<!--from editor: Line 69 needs updating to remove mention of Customer Engagement. Also, the metadata entry for applies_to needs to be updated to remove Customer Engagement.  -->
 
 
 # Sample data installation for the Project Service application
@@ -65,8 +64,6 @@ If you have questions about installing these sample data packages, [send us an e
 ## Requirements
 
 The installation protocol assumes the following about your target instance (org):
-
-- Dynamics 365 for Customer Engagement 9.0.x or later.
 
 - Base language is English and base currency is US dollar (USD,$).
 
