@@ -9,7 +9,7 @@ ms.date: 10/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
-ms.technology: Dynamics 365 for Customer Engagement for Project Service 3.x
+ms.technology: Dynamics 365 Project Service Automation 3.x
 author: JohnPBurrows
 ms.author: john.burrows
 audience: Admin
@@ -23,7 +23,6 @@ search.app:
   
 ---
 
-<!--from editor: The metadata includes mention of Customer Engagement in the ms.technology entry. What should this be updated to? -->
 
 
 # How do I customize the Project Stages business process flow?
