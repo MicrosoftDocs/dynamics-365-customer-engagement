@@ -20,6 +20,11 @@ search.app:
   - D365CE
   - D365PS
 ---
+
+
+<!--from editor: Lines 45, 52, 54, and 56 contain Customer Engagement "includes" tags that need to be updated to remove Customer Engagement. -->
+
+
 # Manage projects and bookings in your calendar (Project Service)
 
 > [!Note]
@@ -37,11 +42,11 @@ View personal appointments, project-work bookings, and field service work order 
   
  Your calendar will sync project and work order bookings from today to upcoming four weeks. This setting can’t be changed.  
   
- Syncing is only supported one way, from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement to your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar. If you update a field service or project service booking in your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar, it will not sync and update in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. If you want to update or modify a booking, make sure you do it in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] – so that the booking syncs with your calendar.  
+ Syncing is only supported one way, from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar. If you update a field service or project service booking in your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar, it will not sync and update in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. If you want to update or modify a booking, make sure you do it in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] – so that the booking syncs with your calendar.  
   
  To learn how to use your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar, see [Calendar in Outlook on the web for business](https://support.office.com/article/Calendar-in-Outlook-on-the-web-for-business-5219c457-d1fe-4c2f-9032-1a816b88e936).  
   
-## Set-up  
+## Setup  
  Before you can see and manage your bookings on your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar, you need to set a few things up.  
   
 - You will need to have [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] Global Administrator or [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator credentials.  
@@ -50,7 +55,7 @@ View personal appointments, project-work bookings, and field service work order 
   
 ## Turn on synchronization for your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization (admin task)  
   
-1.  From the main menu, click **Settings** -> **Administration**.  
+1.  From the main menu, click **Settings** > **Administration**.  
   
 2.  Click **System Settings**.  
   
