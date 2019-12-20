@@ -22,6 +22,9 @@ search.app:
   - D365PS
 ---
 
+<!--from editor: The metadata includes mention of Customer Engagement in the ms.technology entry. What should this be updated to? -->
+
+
 # Recall approved time or expense entries
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
@@ -98,7 +101,7 @@ The following illustration shows the changes that occur for approved time entrie
 
 ![Time Entry state transitions](media/TimeEntryStateTransitions.png)
 
-### Changes to expense entry records
+## Changes to expense entry records
 
 The following illustration shows the changes that occur for approved expense entries when they are recalled.
 
