@@ -20,6 +20,10 @@ search.app:
   - D365CE
   - D365PS
 ---
+
+<!--from editor: Lines 31 and 33 contain Customer Engagement "includes" tags that need to be updated to remove Customer Engagement. Also, Customer Engagement is mentioned in line 50. Is that still part of the UI? If not, please update. -->
+
+
 # Sign in to Project Service Automation
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
