@@ -22,8 +22,6 @@ search.app:
 ---
 
 
-<!--from editor: The paragraph in line 32 contains a Customer Engagement "includes" tag. This paragraph needs to be rewritten to remove mention of Customer Engagement (unless it is the on-premises version). The tag also should be removed from line 39. --> 
-
 
 # Install and customize (Project Service)
 
