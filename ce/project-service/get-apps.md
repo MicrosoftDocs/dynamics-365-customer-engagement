@@ -1,14 +1,14 @@
 ---
-title: Get the Dynamics 365 for Customer Engagement and Project Finder Mobile apps (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
-description: How to get the Dynamics 365 for Customer Engagement and Project Finder Mobile apps
+title: Get the Dynamics 365 Project Finder Mobile apps | MicrosoftDocs
+description: How to get the Dynamics 365 Project Finder Mobile apps
 author: ruhercul
 manager: kfend  
-ms.service: dynamics-365-customerservice
+ms.service: 
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: Dynamics 365 Project Service Automation
 ms.technology: 
 ms.author: ruhercul
 audience: Admin
