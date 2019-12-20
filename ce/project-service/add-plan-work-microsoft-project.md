@@ -3,7 +3,7 @@ title: Use the Project Service Add-in to plan your work in Microsoft Project | M
 description: This topic provides information about how to add, configure, and use the Microsoft Project add-in for Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: Dynamics 365 Project Service Automation
 ms.custom: 
   - dyn365-projectservice
 ms.date: 04/06/2019
@@ -21,7 +21,6 @@ search.app:
   - D365PS
 ---
 
-<!--from editor: The "Important" note (line 37) contains one mention of Customer Engagement as well as a Customer Engagement "includes" tag. The tag is also used in line 132. What should this change to, since Customer Engagement is no longer OK to use. -->
 
 
 
