@@ -8,7 +8,7 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 9/26/2019
 ms.topic: article
-ms.prod: Dynamics 365 Project Service Autoamtion 2.x and 3.x 
+ms.prod: Dynamics 365 Project Service Automation 2.x and 3.x 
 ms.service: business-applications
 ms.technology: 
 ms.author: ruhercul
