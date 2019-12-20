@@ -21,7 +21,6 @@ search.app:
 ---
 
 
-<!--from editor: Lines 45, 52, 54, and 56 contain Customer Engagement "includes" tags that need to be updated to remove Customer Engagement. -->
 
 
 # Manage projects and bookings in your calendar (Project Service)
