@@ -1,6 +1,6 @@
 ---
 title: Upgrade considerations - Project Service Automation version 2.x or 1.x to version 3
-description: This topic provides information about the considerations you must make when you upgrade from PSA version 2.x or 1.x to version 3.
+description: This topic provides information about the considerations you must make when you upgrade from Project Service Automation version 2.x or 1.x to version 3.
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom:
@@ -23,18 +23,21 @@ search.app:
   
 ---
 
+<!--from editor: The metadata includes mention of Customer Engagement in the ms.technology entry. What should this be updated to? Also, Project Service Automation should not be abbreviated. Please update the title. -->
+
+
 # Upgrade considerations - PSA version 2.x or 1.x to version 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-## Project service automation and Field service
-Both Project Service Automation and Field Service (FS) use the Universal Resourcing Scheduling (URS) solution for resource scheduling. If you have both PSA and FS in your instance, you should plan on upgrading both solutions to the latest version (version 3.x for PSA, version 8.x for FS). Upgrading PSA or FS will install the latest version of URS, which means that inconsistent behavior is possible if both PSA and FS solutions in the same instance aren’t upgraded to the latest version.
+## Project Service Automation and Field Service
+Both Dynamics 365 Project Service Automation and Dynamics 365 Field Service use the Universal Resourcing Scheduling (URS) solution for resource scheduling. If you have both Project Service Automation and Field Service in your instance, you should plan on upgrading both solutions to the latest version (version 3.x for Project Service Automation, version 8.x for Field Service). Upgrading Project Service Automation or Field Service will install the latest version of URS, which means that inconsistent behavior is possible if both Project Service Automation and Field Service solutions in the same instance aren’t upgraded to the latest version.
 
 ## Resource assignments
-In Project Service Automation (PSA) version 2 and version 1, task assignments were stored as child tasks (also called line tasks) in the **Task entity**, and indirectly related to the **Resource Assignment** entity. The line task was visible in the assignment pop-up window on the Work Breadown Structure (WBS).
+In Project Service Automation version 2 and version 1, task assignments were stored as child tasks (also called line tasks) in the **Task entity**, and indirectly related to the **Resource Assignment** entity. The line task was visible in the assignment pop-up window on the Work Breakdown Structure (WBS).
 
-![Line tasks on the WBS in PSA version 2 and version 1](media/upgrade-line-task-01.png)
+![Line tasks on the WBS in Project Service Automation version 2 and version 1](media/upgrade-line-task-01.png)
 
-In version 3 of PSA, the underlying schema of assigning bookable resources to tasks has changed. The line task has been deprecated and there is a direct 1:1 relationship between the task in the **Task entity** and the team member in the **Resource Assignment** entity. Tasks that are assigned to a project team member are now stored directly in the Resource Assignment entity.  
+In version 3 of Project Service Automation, the underlying schema of assigning bookable resources to tasks has changed. The line task has been deprecated and there is a direct 1:1 relationship between the task in the **Task entity** and the team member in the **Resource Assignment** entity. Tasks that are assigned to a project team member are now stored directly in the Resource Assignment entity.  
 
 These changes impact the upgrade of any existing projects that have resource assignments for named bookable resources and generic resources on a project team. This topic provides the considerations that you will need to take into account for your projects when you upgrade to version 3. 
 
@@ -91,9 +94,9 @@ When you generate a team for the project, two generic team members are created d
 ![Generated generic team members](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
-> In PSA version 2 and version 1, the team member does not hold the organization unit, that is maintained on the line task.
+> In Project Service Automation version 2 and version 1, the team member does not hold the organization unit, that is maintained on the line task.
 
-![Version 2 and version 1 line tasks in PSA](media/line-tasks-12.png)
+![Version 2 and version 1 line tasks in Project Service Automation](media/line-tasks-12.png)
 
 You can see the organization unit on the estimates view. 
 
