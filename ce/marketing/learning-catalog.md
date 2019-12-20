@@ -3,8 +3,8 @@ title: Marketing learning catalog
 description: Find all the training options for Dynamics 365 Marketing.
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 07/08/2019
-ms.author: loreleishannonmsft
+ms.date: 12/19/2019
+ms.author: v-lshann
 ---
 
 
@@ -64,8 +64,6 @@ Find the right online training, in person workshops, and events for your role in
 
     [Project Managers Learning Catalog](learning-project_manager.md)
 
-    [Get started](learning-project_manager.md#get-started)
-
     [Marketing](learning-project_manager.md#marketing)
 
     [Exams](learning-project_manager.md#exam)
@@ -80,8 +78,6 @@ Find the right online training, in person workshops, and events for your role in
     Are you an implementation expert for a business domain?
 
     [Functional Consultants Learning Catalog](learning-functional-consultant.md)
-
-    [Get started](learning-functional-consultant.md#get-started)
 
     [Marketing](learning-functional-consultant.md#marketing)
 
