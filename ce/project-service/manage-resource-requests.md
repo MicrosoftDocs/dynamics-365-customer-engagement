@@ -3,7 +3,7 @@ title: Manage resource requests
 description: How to manage resource requests in Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-project service
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018
@@ -21,14 +21,12 @@ search.app:
   - D365PS
 ---
 
-<!--from editor: Line 31 contains a Customer Engagement "includes" tag that needs to be updated to remove Customer Engagement. -->
-
 
 # Manage resource requests (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Account managers and project managers regularly request resources for their projects. With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can find and match consultants who have the required skills and proficiencies to those resource requests.  
+Account managers and project managers regularly request resources for their projects. With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities, you can find and match consultants who have the required skills and proficiencies to those resource requests.  
   
 1. Go to **Project Service** > **Resource Requests**.  
   
