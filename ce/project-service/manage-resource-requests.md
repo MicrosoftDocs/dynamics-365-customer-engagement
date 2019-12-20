@@ -20,6 +20,10 @@ search.app:
   - D365CE
   - D365PS
 ---
+
+<!--from editor: Line 31 contains a Customer Engagement "includes" tag that needs to be updated to remove Customer Engagement. -->
+
+
 # Manage resource requests (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
