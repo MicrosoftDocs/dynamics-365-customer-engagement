@@ -7,9 +7,7 @@ ms.date: 07/08/2019
 ms.author: loreleishannonmsft
 ---
 
-<div id="main" class="v2">
-<div class="container">
-<h1>Marketing Learning Catalog</h1>
+# Marketing Learning Catalog
 <p> Find the right online training, in person workshops, and events for your role in Customer Service for Dynamics 365.</p>
 
 
@@ -39,13 +37,13 @@ ms.author: loreleishannonmsft
 
     Are you in charge of making sure your company’s implementation goes smoothly?
 
-    [Project Managers Learning Catalog](learning-project_manager.md)
+    [Project Managers Learning Catalog](learning-project-manager.md)
 
-    [Get started](learning-project_manager.md#get-started)
+    [Get started](learning-project-manager.md#get-started)
 
-    [Marketing](learning-project_manager.md#marketing)
+    [Marketing](learning-project-manager.md#marketing)
 
-    [Exams](learning-project_manager.md#exam)
+    [Exams](learning-project-manager.md#exam)
 
 :::column-end:::
 :::row-end:::
