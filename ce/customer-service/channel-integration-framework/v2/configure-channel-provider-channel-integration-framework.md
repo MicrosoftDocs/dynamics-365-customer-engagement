@@ -17,5 +17,8 @@ ms.custom:
 
 [!INCLUDE[token-configure-channel-provider-channel-integration-framework](../shared/token-configure-channel-provider-channel-integration-framework.md)]
 
-> [!div class ="nextstepaction"]
-> [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)
+## See also
+
+[Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)
+
+[Microsoft.CIFramework.getEnvironment](../v2/reference/microsoft-ciframework/getEnvironment.md)

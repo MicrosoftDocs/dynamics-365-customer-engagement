@@ -1,7 +1,3 @@
-# msdyn_SessionParticipantData Entity Reference
-
-
-
 **Added by**: Channel API Integration Framework Analytics Solution
 
 

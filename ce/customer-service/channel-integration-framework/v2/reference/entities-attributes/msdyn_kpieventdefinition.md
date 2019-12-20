@@ -10,9 +10,12 @@ ms.author: "susikka"
 manager: "shujoshi"
 ---
 
+# msdyn_KPIEventDefinition Entity Reference
+
 [!INCLUDE[authenticate-channel-users](../../../shared/token-msdyn-kpieventdefinition.md)]
 
 ### See also
 
-[Microsoft.CIFramework APIs](../microsoft-ciframework.md)<br />
+[Microsoft.CIFramework APIs](../microsoft-ciframework.md)
+
 [Client-side events](../client-side-events.md)

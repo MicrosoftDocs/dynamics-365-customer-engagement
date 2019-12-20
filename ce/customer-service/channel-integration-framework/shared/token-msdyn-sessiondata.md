@@ -1,5 +1,3 @@
-# msdyn_SessionData Entity Reference
-
 Primary entity for session data
 
 **Added by**: Channel API Integration Framework Analytics Solution
