@@ -2,14 +2,14 @@
 title: Upgrade considerations for the work breakdown structure 
 description: This topic provides information about upgrading the work breakdown structure from Project Service Automation 2.x to 3.x.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-projectservice
 ms.custom:
   - dyn365-projectservice
 ms.date: 10/18/2019
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
-ms.technology: Dynamics 365 for Customer Engagement for Project Service 2.x
+ms.technology: Dynamics 365 Project Service Automation 2.x
 author: ruhercul
 ms.author: ruhercul
 audience: Admin
@@ -23,7 +23,6 @@ search.app:
   
 ---
 
-<!--from editor: The metadata includes mention of Customer Engagement in the ms.technology entry. What should this be updated to? -->
 
 
 # Upgrade considerations for the work breakdown structure
