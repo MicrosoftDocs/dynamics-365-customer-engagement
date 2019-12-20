@@ -1,15 +1,15 @@
 ---
-title: Upgrade considerations - Project Service Automation version 2.x or 1.x to version 3
+title: Upgrade considerations - Microsoft Dynamics 365 Project Service Automation version 2.x or 1.x to version 3
 description: This topic provides information about the considerations you must make when you upgrade from Project Service Automation version 2.x or 1.x to version 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-projectservice
 ms.custom:
   - dyn365-projectservice
 ms.date: 11/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
-ms.technology: Dynamics 365 for Customer Engagement for Project Service 3.x
+ms.technology: Dynamics 365 Project Service Automation 3.x
 author: JohnPBurrows
 ms.author: john.burrows
 audience: Admin
@@ -18,12 +18,9 @@ search.audienceType:
   - customizer
   - enduser
 search.app: 
-  - D365CE
   - D365PS
   
 ---
-
-<!--from editor: The metadata includes mention of Customer Engagement in the ms.technology entry. What should this be updated to? Also, Project Service Automation should not be abbreviated. Please update the title. -->
 
 
 # Upgrade considerations - PSA version 2.x or 1.x to version 3
