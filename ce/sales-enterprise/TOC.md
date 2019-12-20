@@ -1,5 +1,5 @@
 # [Help resources for Dynamics 365 Sales](help-hub.md)
-## [Overview](../sales-enterprise/overview.md)
+## [Overview of Sales and Sales Hub](../sales-enterprise/overview.md)
 ## [What's new](../sales-enterprise/whats-new.md)
 ## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
 ## Administrator & Sales Manager Guide
@@ -7,13 +7,13 @@
 ### Sales management
 #### [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
-#### [Define sales settings](../admin/system-settings-dialog-box-sales-tab.md)
+#### [System Settings - Sales](../admin/system-settings-dialog-box-sales-tab.md)
 #### [Enable or disable PDF generation from sales records](enable-pdf-generation-quote.md)
-#### [Set up the enhanced email experience](set-up-enhanced-email.md)
+#### [Set up enhanced email](set-up-enhanced-email.md)
 #### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
 #### [Customize the Opportunity Close form](customize-opportunity-close-experience.md)
 #### [Define lead qualification experience](define-lead-qualification-experience.md)
-#### [Make price list optional](make-price-list-optional.md)
+#### [Allow adding products without associated price list](make-price-list-optional.md)
 #### [Enable or disable saving of business card image](retain-business-card-image-after-scanning.md)
 #### [Customize the business card scanner control](customize-business-card-scan-control.md)
 
@@ -22,7 +22,7 @@
 #### [Set up products](../sales-enterprise/create-product-sales.md)
 #### [Set up product families](../sales-enterprise/create-product-family.md) 
 #### [Set up product bundles to sell multiple items together](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)
-#### [Change parent of a product](change-product-parent.md)
+#### [Change parent of a product (reparenting)](change-product-parent.md)
 #### [Publish a product, bundle, or family](../sales-enterprise/publish-product-bundle-make-available-selling.md)
 #### [Define product pricing with price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)
 #### [Create a unit group and add units](../sales-enterprise/create-unit-group-add-units-that-group.md)
