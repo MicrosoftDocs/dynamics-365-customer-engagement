@@ -1,10 +1,10 @@
 ---
 title: "Configure a chat widget and embed it in portal | MicrosoftDocs"
-description: "Instructions to configure a chat widget in Omnichannel for Customer Service and embed it in Dynamics 365 Portals."
+description: "Instructions to configure a chat widget in Omnichannel for Customer Service and embed it in Power Apps portals."
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
-ms.date: 10/01/2019
+ms.date: 12/13/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -44,7 +44,7 @@ Quickly configure and add a chat widget to your portal to chat with your website
 
 ## Step 3: Embed chat widget in portal
 
-1.	Open the Dynamics 365 Portals app.
+1.	[Open the Portal Management app](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
 2.	Go to **Portal** > **Content Snippets**.
 3.	Find the **Chat Widget Code** content snippet and open it.
     > [!div class=mx-imgBorder]
