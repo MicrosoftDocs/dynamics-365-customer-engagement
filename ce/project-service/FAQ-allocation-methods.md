@@ -5,14 +5,14 @@ title: Booking allocation methods
 description: This topic provides information about the different ways you can book allocations.
 author: ruhercul                
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-projectservice
 ms.custom:
   - dyn365-projectservice
 ms.date: 9/26/2019
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
-ms.technology: Microsoft Dynamics 365 for Customer Engagement for Project Service 2.x and Microsoft Dynamics 365 for Customer Engagement for Project Service 3.x
+ms.technology: Microsoft Dynamics 365 Project Service Automation 2.x and 3.x
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
@@ -23,8 +23,6 @@ search.app:
   - D365CE
   - D365PS
 ---
-
-<!--from editor: The metadata mentions Customer Engagement in the ms.technology entry. What should this be updated to? -->
 
 
 # Booking allocation methods
