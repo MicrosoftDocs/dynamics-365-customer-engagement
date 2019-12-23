@@ -7,18 +7,19 @@
 ### [Learn the basics](learn-basics-sales-professional.md)
 ### [Use lookup fields on forms](use-lookup-fields-forms.md)
 ### [Work with views (lists)](work-with-views.md)
-### [Manager your customers](manage-accounts-contacts.md)
+### [Manage your customers](manage-accounts-contacts.md)
 ### [Manage tasks, appointments, email, or phone calls](manage-activities.md)
 
 ## User guide
 ### [Help resources for sales people](user-guide.md)
 ### [Develop sales from lead to cash](develop-sales-lead-to-cash-sales-professional.md)
 #### [Create and manage leads](manage-leads-sales-professional.md)
-#### [Manage opportunities](manage-opportunities-sales-professional.md)
+#### [Create or edit opportunities](manage-opportunities-sales-professional.md)
 #### [Add products to an opportunity](add-products-opportunity-sp.md)
-### [Understand sales transactions](understanding-sales-transactions-sales-professional.md)
+### Understand sales transactions
+#### [Understand sales transactions](understanding-sales-transactions-sales-professional.md)
 #### [Create and manage quotes](create-quotes-sales-professional.md)
-#### [Create or edit orders](create-orders.md)
+#### [Create and manage orders](create-orders.md)
 #### [Create and manage invoices](create-invoices.md)
 #### [Add products to a quote, order, or invoice](add-product-quote-order-invoice-sp.md)
 ### Set up a product catalog
@@ -28,6 +29,7 @@
 ### Improve productivity
 #### [Gain insights with dashboards](gain-insights-dashboards-sales-professional.md)
 #### [Assign records to a user or team](assign-records-sales-professional.md)
+#### [Manage your SharePoint documents and document locations](manage-sharepoint-documents-sales-professional.md)
 #### [Use document templates to create standardized documents](use-document-templates-sales-professional.md)
 #### [Create PDF documents from sales records](create-quote-pdf-sales-professional.md)
 ### Get started with in-app marketing
@@ -44,8 +46,8 @@
 ### [Provision your Dynamics 365 Sales Professional environment](provision-sales-professional-instance.md)
 ### [Overview of admin settings](admin-settings-overview.md)
 ### Standard settings
-#### [Integrate with SharePoint](connect-with-sharepoint.md)
-#### [Import data](import-data.md)
+#### [Configure Dynamics 365 Sales Professional to integrate with SharePoint](connect-with-sharepoint.md)
+#### [Import data into Dynamics 365 Sales Professional](import-data.md)
 #### [Add or remove sample data](install-sample-data.md)
 #### [Add or manage users](manage-users.md)
 #### [Set up email by integrating with Exchange](configure-email.md)
