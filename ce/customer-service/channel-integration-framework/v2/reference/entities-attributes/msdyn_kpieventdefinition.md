@@ -16,6 +16,6 @@ manager: "shujoshi"
 
 ### See also
 
-[Microsoft.CIFramework APIs](../microsoft-ciframework.md)
+[Microsoft.CIFramework APIs](../microsoft-ciframework-v2.md)
 
 [Client-side events](../client-side-events.md)

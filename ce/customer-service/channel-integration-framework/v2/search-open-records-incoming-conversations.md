@@ -18,8 +18,8 @@ ms.custom:
 
 ## See also
 
-[Get started with building a simple communication widget](getting-started-simple-widget.md)
+[Get started with building a simple communication widget](../getting-started-simple-widget.md)
 
-[Sample code for softphone integration](sample-softphone-integration.md)
+[Sample code for softphone integration](../sample-softphone-integration.md)
 
-[Frequently asked questions](faq-channel-integration-framework.md)
+[Frequently asked questions](../faq-channel-integration-framework.md)

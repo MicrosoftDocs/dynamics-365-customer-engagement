@@ -18,11 +18,11 @@ The Omnichannel for Dynamics 365 Customer Service app enables organizations to i
 
 To learn more, see:
 
-- [Agents using Omnichannel for Customer Service app](../../omnichannel/agent/agent-oc/omnichannel-customer-service-app-agent.md)
+- [Agents using Omnichannel for Customer Service app](../../../omnichannel/agent/agent-oc/omnichannel-customer-service-app-agent.md)
 
-- [Introduction to the agent interface of Omnichannel for Customer Service](../../omnichannel/agent/agent-oc/oc-introduction-agent-interface.md)
+- [Introduction to the agent interface of Omnichannel for Customer Service](../../../omnichannel/agent/agent-oc/oc-introduction-agent-interface.md)
 
-- [Manage sessions in Omnichannel for Customer Service](../../omnichannel/agent/agent-oc/oc-manage-sessions.md)
+- [Manage sessions in Omnichannel for Customer Service](../../../omnichannel/agent/agent-oc/oc-manage-sessions.md)
 
 ## See also
 

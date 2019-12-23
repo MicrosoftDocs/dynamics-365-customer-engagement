@@ -24,7 +24,7 @@ applies_to:
 
 - [Configure the channel provider](../../configure-channel-provider-channel-integration-framework.md)
 
-- [Microsoft.CIFramework](../microsoft-ciframework.md)
+- [Microsoft.CIFramework](../microsoft-ciframework-v2.md)
 
 - [Client-side events](../client-side-events.md)
 

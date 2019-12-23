@@ -86,7 +86,7 @@ Here are the other capabilities offered by Dynamics 365 Channel Integration Fram
 
   Dynamics 365 Channel Integration Framework is web browser- and operating system-agnostic, and lets you integrate the cloud-based channels of your choice that are best for your organization's requirements.
 
-  See the list of supported web browsers here: [Supported browsers](system-requirements-channel-integration-framework.md#supported-browsers)
+  See the list of supported web browsers here: [Supported browsers](../system-requirements-channel-integration-framework.md#supported-browsers)
 
 - **Support for screen pop**
 
@@ -101,7 +101,7 @@ Here are the other capabilities offered by Dynamics 365 Channel Integration Fram
   Seamless upgrade to new versions of third-party channel providers or channel aggregators as the Dynamics 365 Channel Integration Framework provides the infrastructure framework to integrate the channels but does not control the channel versions.
 
 > [!div class="nextstepaction"]
-> [Architecture overview of Channel Integration Framework](architecture-overview-channel-integration-framework.md)
+> [Architecture overview of Channel Integration Framework](../architecture-overview-channel-integration-framework.md)
 
 ## See also
 
@@ -109,4 +109,4 @@ Here are the other capabilities offered by Dynamics 365 Channel Integration Fram
 
 [FAQs](../faq-channel-integration-framework.md)
 
-[Get Dynamics 365 Channel Integration Framework](../get-channel-integration-framework.md)
+[Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)
