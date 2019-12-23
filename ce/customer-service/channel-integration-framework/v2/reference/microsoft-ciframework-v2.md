@@ -17,16 +17,11 @@ applies_to:
 
 # Microsoft.CIFramework methods (CIF JavaScript API reference)
 
-Provides methods to use JavaScript API to manage the channel (widget), notifications, application tab, records, and forms in the Dynamics 365.
+Provides methods to use JavaScript API to manage the communication panel (widget), notification, application tab, sessions, records, and forms in the Dynamics 365 model-driven app.
 
 ## Communication Panel Management APIs
 
-The Communication Panel is where you, as an agent, interact with the customer. Partner widgets built using Channel Integration Framework version 2.0 are loaded in this panel. The communication widget in this experience has following key differences as compared to version 1.0 based widgets.
-
-| Version 2.0 | Version 1.0 |
-|---------|---------|
-| Communication panel is displayed to the left of the session panel. | Communication panel is displayed to the right of the screen. |
-| Communication panel supports Docked, Minimized and Hidden modes | Communication panel supports Docked and Minimized modes |
+The Communication Panel is where you, as an agent, interact with the customer. Partner widgets built using Channel Integration Framework version 2.0 are loaded in this panel. The communication widget in this version is displayed to the left of the session panel and supports Docked, Minimized and Hidden modes.
 
 You can use the APIs mentioned below to manage the state of the communication panel(widget).
 
@@ -107,5 +102,6 @@ Channel Analytics APIs enable you to track event analytics.
 
 ## See also
 
-[What's new in Channel Integration Framework](../whats-new-channel-integration-framework.md)<br />
-[System requirements for Channel Integration Framework](../system-requirements-channel-integration-framework.md)
+[What's new in Channel Integration Framework](../../whats-new-channel-integration-framework.md)
+
+[System requirements for Channel Integration Framework](../../system-requirements-channel-integration-framework.md)
