@@ -19,4 +19,4 @@ applies_to:
 
 [!INCLUDE[deleteRecord](includes/deleteRecord-description.md)] 
 
-[!INCLUDE[authenticate-channel-users](../../../shared/token-deleteRecord.md)]
+[!INCLUDE[authenticate-channel-users](../../shared/token-deleteRecord.md)]
