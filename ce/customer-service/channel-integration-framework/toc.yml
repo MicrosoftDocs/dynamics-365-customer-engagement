@@ -10,7 +10,7 @@
     - name: "What is Channel Integration Framework?"
       href: v2/overview-channel-integration-framework.md
     - name: "Architecture overview of Channel Integration Framework (CIF)"
-      href: architecture-overview-channel-integration-framework.md
+      href: v2/architecture-overview-channel-integration-framework-v2.md
     - name: "Onboard to version 2.0 flight"
       href: v2/onboard-org-flight.md
     - name: Get the application
