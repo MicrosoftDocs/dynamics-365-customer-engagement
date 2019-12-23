@@ -1,5 +1,5 @@
 ---
-title: "Create a solution | MicrosoftDocs"
+title: "Create a solution (Dynamics 365 Customer Engagement on-premises) | MicrosoftDocs"
 description: "Learn how to create a solution"
 ms.custom: 
 ms.date: 11/28/2018
@@ -21,10 +21,10 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
+
 # Create a solution
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create a solution](/powerapps/maker/common-data-service/create-solution)
  
-
  Because the default solution contains all the solutions components, it may be easier for you to locate just the solution components that you’ve customized if you create a separate solution and do all your customization there. This also makes it easy to export a backup of your solution as a smaller file. If you choose to do this, you must always remember to add any of the solution components you edit to this solution. When you create new solution components, you should always create them in the context of this solution. This way the solution publisher customization prefix will be applied consistently. After you have created solution components in your solution, or added existing solution components to that solution, you can also edit them in the default solution if you wish.  
 
  For more information about solution concepts, see [Working with solutions](solutions-overview.md).  

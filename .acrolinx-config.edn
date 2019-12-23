@@ -1,2 +1,2 @@
 {:allowed-branchname-matches ["^master$"]
- :allowed-filename-matches ["ce/field-service"]}
+ :allowed-filename-matches ["ce/field-service" "ce/shared/urs" "ce/includes" "ce/omnichannel" "ce/customer-service"]}

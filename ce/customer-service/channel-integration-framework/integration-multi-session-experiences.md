@@ -1,16 +1,16 @@
 ---
 title: "Integrate with Omnichannel for Customer Service app (multi-session app) | MicrosoftDocs"
-ms.date: 10/25/2019
-ms.service:
-  - "dynamics-365-cross-app"
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: reference
-ms.assetid: C227B20E-4795-4B6C-891A-9C1C014A5B6D
+description: 
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+ms.date: 10/25/2019
+ms.topic: reference
+ms.service: 
+  - "dynamics-365-cross-app"
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 # Preview: Integrate with Omnichannel for Customer Service app (multi-session app)
 

@@ -1,18 +1,16 @@
 ---
 title: "onSessionSwitched event (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
 description: ""
-keywords: ""
-ms.date: 09/30/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: reference
-ms.assetid: 0D296A83-BAB6-4129-9620-C0F4AB5F1CD5
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 09/30/2019
+ms.topic: reference
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 
 # onSessionSwitched event (CIF JavaScript API reference)

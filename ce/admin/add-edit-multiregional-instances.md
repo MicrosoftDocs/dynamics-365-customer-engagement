@@ -17,29 +17,29 @@ search.audienceType:
   - admin
 search.app:
   - D365CE
-  - Powerplatform
 ---
 # Add and edit multiregional instances
 
-> [!IMPORTANT]
-> We are currently enabling only a very limited number of instances for multiple regions. Check back for updated information on availability.
->
-> To request the ability to create instances (Production and non-Production) in more than one geographical region, please contact your account manager or [Technical Support](contact-technical-support.md).  
+[!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
 
 For multinational companies with employees and customers distributed around the world, you can create and manage instances specific to your global regions. You can create an instance in a different region than where your tenant resides. Local instances can provide quicker data access for users in that region. Be sure to read [A multi-instance deployment](../admin/multiple-online-instances-tenants.md#BKMK_Single) to understand the features of multiple instances.  
   
  Purchase the instance on the [Purchase subscriptions](https://admin.microsoft.com/Commerce/Catalog.aspx) page. You must have an active account to complete the purchase. Additional storage and instances can be purchased by customers who have a paid Dynamics 365 Professional or Dynamics 365 Enterprise subscription.  
   
- You must have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator or System administrator role to do these tasks. For more information, see [Assigning admin roles](https://support.office.com/article/Assign-admin-roles-eac4d046-1afd-4f1a-85fc-8219c79e1504).  
+ You must have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator or System administrator role to do these tasks. For more information, see [Assigning admin roles](https://support.office.com/article/Assign-admin-roles-eac4d046-1afd-4f1a-85fc-8219c79e1504). 
+
+> [!IMPORTANT]
+> - We are currently enabling only a very limited number of instances for multiple regions. Check back for updated information on availability.
+> - To request the ability to create instances (Production and non-Production) in more than one geographical region, please contact your account manager or [Technical Support](contact-technical-support.md). 
   
 <a name="BKMK_info_instance"></a>   
 ## What information do I need to create an instance?  
- During the initial configuration an instance, you can accept the default values, or enter different values to create an instance.  
+ During the initial configuration of an instance, you can accept the default values, or enter different values to create an instance.  
   
 - **Region**. Choose from the following: Asia Pacific (APAC); Canada (CAN); Europe, Middle-East, Africa (EMEA); India (IND); Japan (JPN); North America (NA); Oceania (OCE); South America (LATAM/SAM).  
   
     > [!TIP]
-    >  To view the current data centers for your region, see [Where is my data?](http://go.microsoft.com/fwlink/p/?LinkID=401277)  
+    >  To view the current data centers for your region, see [Where is my data?](https://go.microsoft.com/fwlink/p/?LinkID=401277)  
   
 - **Name**. This is typically the name of your organization and is displayed in the model-driven apps in Dynamics 365, such as Dynamics 365 Sales and Customer Service.  
   
@@ -71,7 +71,7 @@ For multinational companies with employees and customers distributed around the 
   
 3.  Proceed through the screens to purchase additional instances.  
   
-     You can choose to add Production or non-Production (Sandbox) instances. For more information, see [Pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=324564).  
+     You can choose to add Production or non-Production (Sandbox) instances. For more information, see [Pricing and licensing](https://go.microsoft.com/fwlink/p/?LinkID=324564).  
   
 ### Step 2: Configure the additional instance for a region  
   

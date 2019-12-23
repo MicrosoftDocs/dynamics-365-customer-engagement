@@ -1,18 +1,16 @@
 ---
 title: "getAllSessions (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
 description: ""
-keywords: ""
-ms.date: 09/30/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: reference
-ms.assetid: 4BA28EBF-5731-40E0-B9C6-6D8C557E1E26
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 09/30/2019
+ms.topic: reference
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 
 # getAllSessions

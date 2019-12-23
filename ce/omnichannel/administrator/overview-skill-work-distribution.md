@@ -1,27 +1,17 @@
 ---
 title: "Skill-based routing in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about the skill-based routing in Omnichannel for Customer Service app." 
-keywords: ""
+description: "Learn about the skill-based routing in Omnichannel for Customer Service app."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
-ms.date: 10/15/2019
-ms.service: dynamics-365-customerservice
+ms.date: 12/13/2019
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 81343ED1-4115-4D6A-874D-2282F0BFA3A9
-ms.custom: 
 ---
-# Preview: Overview of skill-based routing
+# Overview of skill-based routing
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
 > [!Note]
 > The data such as but not limited to skills, rating model, and rating value that is created, updated, and used in Omnichannel are shared between other model-driven apps (Field Service and Project Service Automation) installed in your environment. Similarly, the data that are created, updated, and used in other model-driven apps are available for use in Omnichannel.

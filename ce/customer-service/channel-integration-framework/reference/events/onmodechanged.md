@@ -1,20 +1,18 @@
 ---
 title: "onmodechanged (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
 description: ""
-keywords: ""
-ms.date: 10/21/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: CE3EB64F-F73F-421B-BB16-FA269ED43086
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 10/21/2019
+ms.topic: reference
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
 ---
 
 # onmodechanged event (CIF JavaScript API reference)

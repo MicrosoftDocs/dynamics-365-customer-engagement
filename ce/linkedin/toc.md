@@ -5,5 +5,6 @@
 ## [Review and analyze leads](review-leads.md)
 # [Integrate LinkedIn Sales Navigator](integrate-sales-navigator.md)
 ## [Enable default LinkedIn Sales Navigator controls](install-sales-navigator.md)
+## [Data validation capability](data-validation.md)
 ## [Add Sales Navigator controls to forms](add-sales-navigator-controls-forms.md)
 ## [View Sales Navigator controls on forms](view-sales-navigator-forms.md)

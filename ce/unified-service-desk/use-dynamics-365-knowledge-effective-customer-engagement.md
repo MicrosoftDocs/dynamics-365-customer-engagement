@@ -1,18 +1,19 @@
 ---
 title: "Use knowledge for effective customer engagement in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use knowledge base for effective customer engagement in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/17/2018
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 68ef2469-7976-4121-b107-2b88c15ade3c
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 ---

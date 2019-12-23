@@ -2,10 +2,11 @@
 title: "Associate documents with playbook activities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Associate documents with playbook activities to help your team access accurate and current sales materials or training content to close a deal."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-ms.assetid: 293f83ce-5ea3-4a3a-ab8a-52cae27b7859
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

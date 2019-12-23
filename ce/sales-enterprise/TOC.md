@@ -1,5 +1,5 @@
 # [Help resources for Dynamics 365 Sales](help-hub.md)
-## [Overview](../sales-enterprise/overview.md)
+## [Overview of Sales and Sales Hub](../sales-enterprise/overview.md)
 ## [What's new](../sales-enterprise/whats-new.md)
 ## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
 ## Administrator & Sales Manager Guide
@@ -7,13 +7,13 @@
 ### Sales management
 #### [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
-#### [Define sales settings](../admin/system-settings-dialog-box-sales-tab.md)
+#### [System Settings - Sales](../admin/system-settings-dialog-box-sales-tab.md)
 #### [Enable or disable PDF generation from sales records](enable-pdf-generation-quote.md)
-#### [Set up the enhanced email experience](set-up-enhanced-email.md)
+#### [Set up enhanced email](set-up-enhanced-email.md)
 #### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
 #### [Customize the Opportunity Close form](customize-opportunity-close-experience.md)
 #### [Define lead qualification experience](define-lead-qualification-experience.md)
-#### [Make price list optional](make-price-list-optional.md)
+#### [Allow adding products without associated price list](make-price-list-optional.md)
 #### [Enable or disable saving of business card image](retain-business-card-image-after-scanning.md)
 #### [Customize the business card scanner control](customize-business-card-scan-control.md)
 
@@ -22,7 +22,7 @@
 #### [Set up products](../sales-enterprise/create-product-sales.md)
 #### [Set up product families](../sales-enterprise/create-product-family.md) 
 #### [Set up product bundles to sell multiple items together](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)
-#### [Change parent of a product](change-product-parent.md)
+#### [Change parent of a product (reparenting)](change-product-parent.md)
 #### [Publish a product, bundle, or family](../sales-enterprise/publish-product-bundle-make-available-selling.md)
 #### [Define product pricing with price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)
 #### [Create a unit group and add units](../sales-enterprise/create-unit-group-add-units-that-group.md)
@@ -36,12 +36,14 @@
 #### [Delete a family, product or bundle](../sales-enterprise/delete-family-product-bundle.md)
 #### [See relationships in a hierarchical view](../basics/hierarchical-relationship.md)
 #### [Add editable products grid on forms](../sales-enterprise/editable-product-grid-forms.md) 
+
 ### Forecast and Goal management
 #### [Goal settings](../admin/system-settings-dialog-box-goals-tab.md)
 #### [Create or edit goals](../sales-enterprise/create-edit-goal-sales.md)
 #### [Define a goal metric](../sales-enterprise/create-edit-goal-metric.md)
 #### [Define a goal rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)
 #### [Configure a forecast in your organization](configure-forecast.md)
+#### [Add forecast grid and configuration options in site map](add-forecast-site-map.md)
 
 ### Playbook management
 #### [Define playbook categories](define-playbook-categories.md)  
@@ -75,20 +77,24 @@
 #### [Close opportunities as won or lost](../sales-enterprise/close-opportunity-won-lost-sales.md)
 #### [Create or edit competitor records](../sales-enterprise/create-edit-competitor-record-sales.md)
 #### [Manage sales literature](../sales-enterprise/create-sales-literature.md)
+
 ### Quotes and order management
 #### [Create or edit quotes](../sales-enterprise/create-edit-quote-sales.md)
 #### [Create or edit orders](../sales-enterprise/create-edit-order-sales.md)
 #### [Create or edit invoices](../sales-enterprise/create-edit-invoice-sales.md)
 #### [Add products to quotes, orders, or invoices](../sales-enterprise/add-product-quote-order-invoice.md)
+
 ### Sales forecasting
 #### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
 #### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)
 #### [View forecasts](view-forecasts.md)
+
 ### Playbooks
 #### [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)
 #### [Launch a playbook to carry out activities consistently](launch-playbook.md)  
 #### [Mark playbook as completed](mark-playbook-completed.md)  
 #### [Track playbook activities](track-playbook-activities.md)
+
 ### Get started with in-app marketing
 #### [Overview](../sales-enterprise/get-started-app-marketing-sales.md)
 #### [Create a marketing list](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)  

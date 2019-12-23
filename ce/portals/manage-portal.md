@@ -1,7 +1,7 @@
 ---
 title: "Administer a portal | MicrosoftDocs"
 description: "Instructions to administer your portal."
-keywords: "portal administration, PowerApps Portals admin center"
+keywords: "portal administration, Power Apps Portals admin center"
 ms.date: 10/01/2019
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -39,7 +39,7 @@ If you are not a global administrator and you try to manage a portal that has al
 
 ### To add yourself as an owner of the Azure AD application
 
-1. Go to the PowerApps Portals admin center and open the **Portal Details** tab.
+1. Go to the Power Apps Portals admin center and open the **Portal Details** tab.
 
 2. Copy the value from the **Application ID** field.
 
@@ -55,7 +55,7 @@ If you are not a global administrator and you try to manage a portal that has al
     > [!Note]
     > This task can be performed either by a global administrator of your organization or the existing owner of this application.
 
-6. After you've added yourself as an owner, reopen the PowerApps Portals admin center page.
+6. After you've added yourself as an owner, reopen the Power Apps Portals admin center page.
 
 ## Link your portal to a custom domain
 

@@ -4,12 +4,10 @@ description: "Learn how to create window navigation rule for communication panel
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 202680d0-af33-4aee-9e5f-f642483cfb58
-ms.custom: 
 ---
 
 # Step 5: Configure window navigation rule for communication panel

@@ -27,7 +27,7 @@ This topic lists new features that are available with Dynamics 365 Customer Enga
 | [App design enhancements](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-app)   |
 |  Relationship Assistant [(base cards only)](/dynamics365/customer-engagement/sales-enterprise/action-cards-reference#base-cards)   |  
 | [Sales Insights](/dynamics365/customer-engagement/sales-enterprise/sales-insights-addon)     |
-|  [Virtual entities](/dynamics365/customer-engagement//on-premises/customize/create-edit-virtual-entities)  |
+|  [Virtual entities](customize/create-edit-virtual-entities.md)  |
 |  [Security enhancements: User session and access management](/dynamics365/customerengagement/on-premises/admin/user-session-management)   |
 
 > [!NOTE]

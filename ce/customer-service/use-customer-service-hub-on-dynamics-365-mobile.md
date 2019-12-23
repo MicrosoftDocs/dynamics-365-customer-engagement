@@ -1,14 +1,15 @@
 ---
 title: Use Customer Service Hub on mobile | Microsoft Docs
 description: Use Customer Service Hub app on mobile devices like phones and tablets
-author: anjgupta
-ms.author: anjgup
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: a7f5cc83-80cc-1aad-aab5-fdd52a6891fe
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer

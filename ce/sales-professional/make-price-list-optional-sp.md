@@ -1,14 +1,12 @@
 ---
 title: "Make price list optional (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Allow your salespeople to add products without associating a price list first."
-keywords: "price list, optional, Quote, order, invoice, opportunity"
 ms.date: 08/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 37a1d038-b24a-4c91-a2a1-3f9e0db3e2c0
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

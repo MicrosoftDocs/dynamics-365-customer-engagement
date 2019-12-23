@@ -4,12 +4,10 @@ description: "Learn how to create and add toolbar buttons to search."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: FB51E003-38DF-4960-BD8F-F668CFAD00AD
-ms.custom: 
 ---
 
 # Step 6:  Create toolbar buttons for search

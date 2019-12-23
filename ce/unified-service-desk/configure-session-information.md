@@ -1,11 +1,12 @@
 ---
 title: "Configure session information | MicrosoftDocs"
 description: "Learn about configuring session information."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 574034ed-82c1-4db4-ac64-786591397e74
 author: kabala123
 ms.author: kabala
 manager: shujoshi

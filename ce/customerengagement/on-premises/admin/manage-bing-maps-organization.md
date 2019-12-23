@@ -28,7 +28,7 @@ search.app:
 Learn how you can manage [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)] for your entire [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps organization. When [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)] is turned on, people see a map of a customer’s location when they view contacts, leads, or accounts.  
   
 > [!IMPORTANT]
-> Dynamics 365 (on-premises) organizations may need to enter a Bing Maps Enterprise Key to use the maps feature. Go to the [Bing Maps licensing page](http://go.microsoft.com/fwlink/p/?linkid=390116) for details on how to get a key.
+> Dynamics 365 (on-premises) organizations may need to enter a Bing Maps Enterprise Key to use the maps feature. Go to the [Bing Maps licensing page](https://go.microsoft.com/fwlink/p/?linkid=390116) for details on how to get a key.
 
 ## Turn Bing Maps on or off for your organization  
   
@@ -42,7 +42,7 @@ Learn how you can manage [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)] f
 
 ## Enter a Bing Maps license key (on-premises only)
 
-Go to the [Bing Maps licensing page](http://go.microsoft.com/fwlink/p/?linkid=390116) for details on how to get a key.
+Go to the [Bing Maps licensing page](https://go.microsoft.com/fwlink/p/?linkid=390116) for details on how to get a key.
 
 1.  Go to **Settings** > **Administration**.
 

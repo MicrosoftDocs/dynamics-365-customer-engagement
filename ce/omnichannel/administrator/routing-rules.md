@@ -1,16 +1,13 @@
 ---
 title: Create and manage routing rules in Omnichannel for Customer Service | MicrosoftDocs
 description: Understand how to create and manage routing rules in Omnichannel for Customer Service
-keywords: routing rules; Omnichannel for Customer Service
-author: anjgupta
-ms.author: anjgup
+author: kabala
+ms.author: kabala123
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid: ae408147-bb2c-4016-8ae7-cf06eb12ceb0
-ms.custom: 
+ms.service: 
+  - "dynamics-365-customerservice"
 ---
 # Create and manage routing rules
 

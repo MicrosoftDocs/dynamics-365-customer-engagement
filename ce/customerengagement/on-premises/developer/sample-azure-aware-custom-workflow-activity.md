@@ -2,8 +2,8 @@
 title: "Sample: Azure aware custom workflow activity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to write a custom workflow activity that can post the data context from the current Dynamics 365 Customer Engagement operation to the Azure Service Bus"
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
+ms.date: 12/10/2019
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -24,9 +24,11 @@ search.app:
 ---
 # Sample: Azure aware custom workflow activity
 
-This sample obtains the data context from the current Dynamics 365 Customer Engagement (on-premises) for Customer Engagement (on-premises) operation and posts it to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)].  
+This sample obtains the data context from the current Dynamics 365 Customer Engagement (on-premises) operation and posts it to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)].  
   
- This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with Microsoft Dynamics 365 Customer Engagement and Azure Integration](https://code.msdn.microsoft.com/Sample-Dynamics-365-and-6a95df2a)  
+Download the [sample](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/Azurecustomworkflowactivity).  
+
+[!INCLUDE[cc-sample-note](./includes/cc-sample-note.md)]
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
@@ -36,7 +38,9 @@ This sample obtains the data context from the current Dynamics 365 Customer Enga
   
  Notice the “Input id” required argument in the code. When you add this activity to a workflow, you must provide the GUID of a [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] service endpoint.
   
- When registering this custom workflow activity with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you must register it in the sandbox (partial trust).  
+ When registering this custom workflow activity with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you must register it in the sandbox (partial trust).
+
+ Consult the sample's README for detailed instructions. 
   
 [!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
   
