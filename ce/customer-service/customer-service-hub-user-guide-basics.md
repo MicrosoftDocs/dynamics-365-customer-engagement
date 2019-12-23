@@ -4,7 +4,7 @@ description: Learn the basics of the Customer Service Hub for Customer Service
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/01/2018
+ms.date: 12/23/2019
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -201,7 +201,8 @@ For example, here’s a view of how the tabs appear on the case form:
 ### Timeline  
  See a combined view of your customer’s interactions across various channels, such as phone, email, or even social activities in the Timeline. The Timeline also shows any related notes or system posts.  The Timeline makes collaboration with other users easy and efficient.
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+> [!Note]
+> This section is pre-release documentation and is subject to change.
 
 The Customer Service Hub comes with an enhanced timeline that shows you all customer interactions arranged in a single stream. 
 Managing activities in the timeline wall will be faster and more responsive with improvements to data viewability and usability.
@@ -293,7 +294,7 @@ Select an activity from the timeline to expand and view.
 
 #### Configure Timeline section for your users
 
- To learn more about configuration, see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control).
+ To learn more about configuration, see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control) and [FAQs for timeline control](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/faqs-timeline-control).
 
 ### Related section  
 In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps, for information, see  [Reference Panel in model-driven apps ](https://docs.microsoft.com/powerapps/user/navigation#reference-panel).
