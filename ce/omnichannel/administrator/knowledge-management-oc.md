@@ -4,7 +4,7 @@ description: Understand how you can share knowledge articles in the Omnichannel 
 author: kabala
 ms.author: kabala123
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 12/27/2019
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
