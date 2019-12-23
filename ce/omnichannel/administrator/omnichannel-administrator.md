@@ -4,7 +4,7 @@ description:
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 27/12/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
