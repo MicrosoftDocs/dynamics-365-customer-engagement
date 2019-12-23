@@ -1,10 +1,10 @@
 ---
-title: "Integrate with Omnichannel for Customer Service app (multi-session app) | MicrosoftDocs"
-description: 
+title: "Integrate Dynamics 365 Channel Integration Framework version 2.0 with the Omnichannel for Customer Service app (multi-session app) | MicrosoftDocs"
+description: "Integrate Dynamics 365 Channel Integration Framework version 2.0 with the Omnichannel for Customer Service app (multi-session app)."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 10/25/2019
+ms.date: 12/31/2019
 ms.topic: reference
 ms.service: 
   - "dynamics-365-cross-app"

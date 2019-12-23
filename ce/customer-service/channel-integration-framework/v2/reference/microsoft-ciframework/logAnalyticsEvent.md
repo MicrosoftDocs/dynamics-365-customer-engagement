@@ -1,5 +1,5 @@
 ---
-title: "logAnalyticsEvent (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
+title: "logAnalyticsEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
 description: ""
 author: susikka
 ms.author: susikka

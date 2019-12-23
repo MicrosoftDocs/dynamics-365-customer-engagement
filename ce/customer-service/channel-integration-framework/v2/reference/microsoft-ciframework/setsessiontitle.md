@@ -1,10 +1,10 @@
 ---
-title: "setSessionTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework | Microsoft Docs"
+title: "setSessionTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0 | Microsoft Docs"
 description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 09/30/2019
+ms.date: 12/31/2019
 ms.topic: reference
 ms.service: 
   - dynamics-365-cross-app

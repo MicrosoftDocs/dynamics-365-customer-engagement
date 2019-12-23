@@ -1,10 +1,10 @@
 ---
-title: "Support multiple providers with Dynamics 365 Channel Integration Framework | Microsoft Docs"
-description: ""
+title: "Support multiple providers with Dynamics 365 Channel Integration Framework version 2.0 | Microsoft Docs"
+description: "Support multiple providers with Dynamics 365 Channel Integration Framework version 2.0"
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 10/25/2018
+ms.date: 12/31/2018
 ms.topic: reference
 ms.service: 
   - dynamics-365-cross-app

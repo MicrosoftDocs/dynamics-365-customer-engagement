@@ -1,10 +1,10 @@
 ---
-title: "getSession (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
+title: "getSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
 description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 09/30/2019
+ms.date: 12/31/2019
 ms.topic: reference
 ms.service: 
   - dynamics-365-cross-app
