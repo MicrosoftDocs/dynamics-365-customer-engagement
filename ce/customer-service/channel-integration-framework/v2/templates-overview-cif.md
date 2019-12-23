@@ -1,10 +1,10 @@
 ---
-title: "Overview of templates in the Dynamics 365 Channel Integration Framework app | Microsoft Docs"
-description: "Learn about templates in the Dynamics 365 Channel Integration Framework app"
+title: "Overview of templates in the Dynamics 365 Channel Integration Framework version 2.0 | Microsoft Docs"
+description: "Learn about templates in Dynamics 365 Channel Integration Framework version 2.0 "
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 10/15/2019
+ms.date: 12/31/2019
 ms.topic: article
 ms.service: 
   - dynamics-365-cross-app
