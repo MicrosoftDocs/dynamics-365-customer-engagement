@@ -1,6 +1,6 @@
 ---
-title: "Search and open records on an incoming conversation in Dynamics 365 Channel Integration Framework (CIF) version 1.0 | MicrosoftDocs"
-description: "Read how you can use the Dynamics 365 Channel Integration Framework (CIF) version 1.0 APIs to search and open records on an incoming conversation."
+title: "Search and open records on an incoming conversation in Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
+description: "Read how you can use the Dynamics 365 Channel Integration Framework (CIF) version 2.0 APIs to search and open records on an incoming conversation."
 author: susikka
 ms.author: susikka
 manager: shujoshi
@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Walkthrough: Search and open records on an incoming conversation
 
-[!INCLUDE[token-search-open-records-incoming-conversations](shared/token-search-open-records-incoming-conversations.md)]
+[!INCLUDE[token-search-open-records-incoming-conversations](../shared/token-search-open-records-incoming-conversations.md)]
 
 ## See also
 

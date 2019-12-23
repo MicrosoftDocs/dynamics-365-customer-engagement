@@ -17,6 +17,9 @@ ms.custom:
 
 [!INCLUDE[token-enable-outbound-communication-clicktoact](../shared/token-enable-outbound-communication-clicktoact.md)]
 
+> [!div class="nextstepaction"]
+> [Add Channel Integration Framework as a dependent solution](add-cif-solution-dependent-solution.md)
+
 ## See also
 
 [Entity reference](reference/entities-attributes/msdyn-ciprovider.md)
