@@ -1,5 +1,5 @@
 ---
-title: "Create agent application using Unified Service Desk in Customer Engagement apps | MicrosoftDocs"
+title: "Create agent application using Unified Service Desk | MicrosoftDocs"
 description: 
 ms.date: 08/23/2017
 ms.service: 
@@ -33,8 +33,8 @@ tags: NoHandoff
   
   [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] ![Video symbol](./media/usd-video-thumbnail.png "Video symbol") [Video: Overview of Unified Service Desk (5:00)](http://go.microsoft.com/fwlink/p/?LinkId=506900)  
   
-[!IMPORTANT]  
-Before you start using [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)], you must install and deploy it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)][Install, deploy, and upgrade Unified Service Desk](../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md).  
+> [!IMPORTANT]  
+> Before you start using [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)], you must install and deploy it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Install, deploy, and upgrade Unified Service Desk](../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md).  
     
   
 ## Related Sections  
