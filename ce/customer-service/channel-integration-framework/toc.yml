@@ -53,12 +53,6 @@
         href: authenticate-channel-users.md
       - name: "Pass Dynamics 365 URL to widget library"
         href: pass-url-widget-library.md
-      - name: "Build a communication widget"
-        items:
-        - name: "Get started with building a simple widget"
-          href: getting-started-simple-widget.md
-        - name: "Search and open records on an incoming conversation"
-          href: search-open-records-incoming-conversations.md
     - name: JavaScript API Reference
       items:
       - name: "Microsoft.CIFramework"
