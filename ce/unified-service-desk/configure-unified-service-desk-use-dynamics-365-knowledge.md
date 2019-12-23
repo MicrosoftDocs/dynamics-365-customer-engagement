@@ -18,8 +18,14 @@ search.app:
   - D365USD
 ---
 
-# Configure Unified Service Desk to use Model-driven apps
-The **KM Control** and **Unified Interface KM Control** type of hosted controls expose a bunch of events and action calls to configure an integrated experience for your agents to easily search for knowledge base articles in the Common Data Service platform from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and then perform various actions on the search result items.  
+
+<!--from editor: The paragraph in line 129 uses an "includes" tag for Customer Engagement. What should this change to? 
+Also, there might be a typo in line 75. Should articlepubliceurl instead be articlepublicurl? -->
+
+
+
+# Configure Unified Service Desk to use model-driven apps
+The **KM Control** and **Unified Interface KM Control** types of hosted controls expose a bunch of events and action calls to configure an integrated experience for your agents to easily search for knowledge base articles in the Common Data Service platform from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and then perform various actions on the search result items.  
   
 ::: moniker range="dynamics-usd-3"
  Create an instance of the **KM Control** type of hosted control to begin with your configuration. After you have created an instance of the hosted control, you can configure things mentioned later in this topic.
