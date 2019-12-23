@@ -1,6 +1,6 @@
 ---
 title: "Search and open records on an incoming conversation | MicrosoftDocs"
-description: "Read how you can use the Dynamics 365 Channel Integration Framework APIs to search and open records on an incoming conversation."
+description: "Read how you can use the Dynamics 365 Channel Integration Framework version 1.0 APIs to search and open records on an incoming conversation."
 author: susikka
 ms.author: susikka
 manager: shujoshi
@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Walkthrough: Search and open records on an incoming conversation
 
-In this tutorial, we demonstrate how you can search and open records in Dynamics 365 on an incoming call using the Microsoft Dynamics 365 Channel Integration Framework APIs.
+In this tutorial, we demonstrate how you can search and open records in the Dynamics 365 model-driven app on an incoming call using the Microsoft Dynamics 365 Channel Integration Framework version 1.0 APIs.
 
 The sample given below covers four scenarios:
 
@@ -209,6 +209,8 @@ Follow the steps mentioned in [Publish and configure the widget](getting-started
 
 ## See also
 
-[Get started with building a simple communication widget](getting-started-simple-widget.md)<br />
-[Sample code for softphone integration](sample-softphone-integration.md)<br />
+[Get started with building a simple communication widget](getting-started-simple-widget.md)
+
+[Sample code for softphone integration](sample-softphone-integration.md)
+
 [Frequently asked questions](faq-channel-integration-framework.md)
