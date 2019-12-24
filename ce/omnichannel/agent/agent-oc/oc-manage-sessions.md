@@ -51,7 +51,7 @@ You can start a SMS or Chat session manually from the Omnichannel Agent Dashboar
 When you accept an incoming conversation request by selecting the **Accept** button, a session is started and the customer summary page is loaded in the Unified Interface application area.
 
  > [!div class=mx-imgBorder]
- > ![Incoming SMS notification](../../media/oceh/sms-notification-request.png "Incoming SMS notification")
+ > ![Incoming SMS notification](../../media/oceh/chat-notification-request.png "Incoming SMS notification")
 
  > [!div class=mx-imgBorder]
  > ![Session start](../../media/oceh/oceh-session-start.png "Session start")
