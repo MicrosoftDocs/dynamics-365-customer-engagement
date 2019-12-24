@@ -1,12 +1,14 @@
 ---
 title: "Revise products (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Keep the product inventory updated by quickly revising the products in Dynamics 365 Sales."
+keywords: ""
 ms.date: 10/01/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
+ms.custom:
   - "dyn365-sales"
 ms.topic: article
+ms.assetid: 03f4eb10-5bfb-728c-0c23-bd409788f7ce
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -24,7 +26,8 @@ Keep the product inventory updated by quickly revising properties for the produc
     
 3. Open an active product, bundle, or family you want to change, and on the command bar, select **Revise**.  
 
-   ![Revise Product button on the Product form](media/revise-product.png "Revise Product button on the Product form")
+   > [!div class="mx-imgBorder"]
+   > ![Revise Product button on the Product form](media/revise-product.png "Revise Product button on the Product form")
   
 4. In the **Confirm Revise** dialog box, select **Confirm**.
 
