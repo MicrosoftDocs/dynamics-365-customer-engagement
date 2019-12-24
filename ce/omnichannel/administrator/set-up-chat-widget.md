@@ -22,4 +22,4 @@ In this section, you will learn how to:
 - [Configure agent display name](agent-display-name.md)
 - [Configure a pre-chat survey](configure-pre-chat-survey.md)
 - [Configure file attachment capability](configure-file-attachment.md)
-- [Embed chat widget in Dynamics 365 Portals](embed-chat-widget-portal.md)
+- [Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)
