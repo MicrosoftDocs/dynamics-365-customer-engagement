@@ -26,17 +26,17 @@ You create or edit an existing hosted control using the Unified Service Desk Adm
   
    ![Hosted controls list in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-hostedcontrollist.png "Hosted controls list in Unified Service Desk")  
   
-4. On the hosted control page:  
+3. On the hosted control page:  
   
    1.  To create a hosted control, select **New**.  
   
    2.  To edit a hosted control, either select on the hosted control name in the **Name** column, or select the hosted control record in the list, and then select **Edit**.  
   
-5. Depending on what you selected, a new hosted control page or the existing hosted control page is displayed.  
+4. Depending on what you selected, a new hosted control page or the existing hosted control page is displayed.  
   
    ![New hosted control in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-newhostedcontrol.PNG "New hosted control in Unified Service Desk")  
   
-6. Under the **General** area, specify or change a name, sort order, and display name for the hosted control. Note that fields marked with a red asterisk are required.  
+5. Under the **General** area, specify or change a name, sort order, and display name for the hosted control. Note that fields marked with a red asterisk are required.  
   
    1.  Specify a **Name** for your hosted control. Each hosted application must have a unique name.  
   
@@ -44,9 +44,9 @@ You create or edit an existing hosted control using the Unified Service Desk Adm
   
    3.  By default, the name of the current user is displayed in the **Owner** field. Set another user as the owner of this hosted control, if required.  
   
-7. Under the **Unified Service Desk** area, select a hosted control type from the **USD Component Type** list. The fields in the **New Hosted Control** page change based on the type of hosted control you select. For information about the various types of hosted control and the respective fields, see [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md).  
+6. Under the **Unified Service Desk** area, select a hosted control type from the **USD Component Type** list. The fields in the **New Hosted Control** page change based on the type of hosted control you select. For information about the various types of hosted control and the respective fields, see [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md).  
   
-8. select **Save** to create or update the hosted control.  
+7. select **Save** to create or update the hosted control.  
   
    After you have created a new hosted control, you can view, add, or remove actions and events to the hosted control.  
   
