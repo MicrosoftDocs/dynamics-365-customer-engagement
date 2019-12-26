@@ -1,6 +1,6 @@
 ---
 title: "Walkthrough 1  Build a simple agent application in Unified Service Desk for Unified Interface apps | MicrosoftDocs"
-description: "Demonstrates how to set up a basic agent application from scratch using Unified Service Desk that can connect to Customer Engagement."
+description: "Demonstrates how to set up a basic agent application from scratch using Unified Service Desk."
 ms.date: 05/07/2018
 ms.service: 
   - "dynamics-365-customerservice"
@@ -16,7 +16,7 @@ search.app:
   - D365USD
 ---
 
-# Walkthrough 1: Build a simple agent application for Unified Interface Apps
+# Walkthrough 1: Build a simple agent application for Unified Interface apps
 This walkthrough demonstrates how to set up a basic agent application from scratch using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] that can connect to the Common Data Service platform. This agent application provides you with an empty desktop without any functionality, and you can use it when you go through the rest of the walkthroughs in this section. In this walkthrough, you’ll use the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration to filter out existing controls in the "New Environment" sample application package from appearing in your agent application.
   
 ## Prerequisites  
@@ -29,12 +29,12 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
   
   - [Unified Service Desk Hosted Controls](../unified-service-desk/unified-service-desk-hosted-controls.md)  
   
-  - These three types of hosted controls: Connection Manager, Global Manager, and Panel Layout. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
+  - These three types of hosted controls: Connection Manager, Global Manager, and Panel Layout. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hosted control types, action, and event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](../unified-service-desk/admin/manage-access-using-unified-service-desk-configuration.md)  
   
 <a name="Top"></a>   
-## In This Walkthrough  
+## In this walkthrough  
  [Step 1: Create the basic hosted controls](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md#Step1) 
   
  [Step 2: Add the hosted controls to a configuration](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md#Step2)  
@@ -166,7 +166,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
 
  [Walkthrough 3: Display Unified Interface apps records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)
 
- [Walkthrough 4: Display aUnified Interface apps record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)
+ [Walkthrough 4: Display a Unified Interface apps record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)
 
  [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)
 
