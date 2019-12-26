@@ -295,5 +295,6 @@ As we are checking for maximum number of sessions on the creation of a new sessi
 
 ### See also  
  [Popup Notification (Hosted Control)](../unified-service-desk/popup-notification-hosted-control.md)   
- [Add action calls to an event](../unified-service-desk/add-action-calls-event.md)   
+ [Add action calls to an event](../unified-service-desk/add-action-calls-event.md)
+  
  [Get started with configuring your agent application](../unified-service-desk/get-started-configuring-agent-application.md)
