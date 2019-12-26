@@ -1,6 +1,6 @@
 ---
 title: "Walkthrough 4  Display a record in a session in your agent application | MicrosoftDocs"
-description: "Demonstrates how to display Customer Engagement records in a session in your agent application using window navigation rules and session controls in Unified Service Desk."
+description: "Demonstrates how to display records in a session in your agent application using window navigation rules and session controls in Unified Service Desk."
 ms.date: 11/12/2019
 ms.service: 
   - "dynamics-365-customerservice"
@@ -16,9 +16,9 @@ search.app:
   - D365USD
 ---
 
-# Walkthrough 4: Display aUnified Interface apps record in a session in your agent application
+# Walkthrough 4: Display a Unified Interface apps record in a session in your agent application
 
-This walkthrough demonstrates how to display records in a session in your agent application using window navigation rules and session controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. It also demonstrates the use of replacement parameters to dynamically display the name of the hosted control based on the currently displayed account record. This walkthrough is built on top of the previous walkthrough, [Walkthrough 3: DisplayUnified Interface apps records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md), to display an account record in a session when you select one of the accounts in the **Account** search result window.  
+This walkthrough demonstrates how to display records in a session in your agent application using window navigation rules and session controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. It also demonstrates the use of replacement parameters to dynamically display the name of the hosted control based on the currently displayed account record. This walkthrough is built on top of the previous walkthrough, [Walkthrough 3: Display Unified Interface apps records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md), to display an account record in a session when you select one of the accounts in the **Account** search result window.  
   
 ## Prerequisites  
   
