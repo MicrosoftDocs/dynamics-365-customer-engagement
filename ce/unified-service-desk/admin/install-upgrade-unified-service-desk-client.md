@@ -18,6 +18,11 @@ search.app:
   - D365USD
 tags: MigrationHO
 ---
+
+
+!--from editor: Please review the folder path in line 105. Is "Customer Engagement" still correct there or should this be updated? -->
+
+
 # Installing the Unified Service Desk client
 
 Make sure your computer meets all requirements before you install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Service Desk system requirements](../../unified-service-desk/admin/unified-service-desk-system-requirements.md)
