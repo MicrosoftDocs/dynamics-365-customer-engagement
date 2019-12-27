@@ -9,13 +9,13 @@
     items:
     - name: "What is Channel Integration Framework?"
       href: v2/overview-channel-integration-framework.md
-    - name: "Architecture overview of Channel Integration Framework (CIF)"
+    - name: "Architecture of version 2.0"
       href: v2/architecture-overview-channel-integration-framework-v2.md
     - name: "Onboard to version 2.0 flight"
       href: v2/onboard-org-flight.md
     - name: Get the application
       items:
-      - name: "Get Channel Integration Framework (CIF)"
+      - name: "Get Channel Integration Framework"
         href: v2/get-channel-integration-framework.md
       - name: "Sample softphone integration"
         href: v2/sample-softphone-integration-v2.md
@@ -175,11 +175,11 @@
     items:
     - name: "What is Channel Integration Framework?"
       href: overview-channel-integration-framework.md
-    - name: "Architecture overview of Channel Integration Framework (CIF)"
+    - name: "Architecture of version 1.0"
       href: architecture-overview-channel-integration-framework.md
     - name: Get the application
       items:
-      - name: "Get Channel Integration Framework (CIF)"
+      - name: "Get Channel Integration Framework"
         href: get-channel-integration-framework.md
       - name: "Sample softphone integration" 
         href: sample-softphone-integration.md
