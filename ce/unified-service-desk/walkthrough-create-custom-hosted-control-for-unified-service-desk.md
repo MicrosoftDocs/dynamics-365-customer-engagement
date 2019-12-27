@@ -119,7 +119,7 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
   
 3. Select **+ New**.  
   
-4. On the hosted control page, specify the following:
+4. On the hosted control page, specify the following.
 
   | Field | Value |
   |-------------------------|-------------------------------|
