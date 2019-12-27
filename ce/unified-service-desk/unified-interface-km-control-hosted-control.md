@@ -3,7 +3,7 @@ title: "Unified Interface KM Control (Hosted Control) in Unified Service Desk fo
 description: "Learn using the KM Control type of hosted control to display knowledge base articles in your agent application."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/17/2018
+ms.date: 12/31/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article
@@ -24,7 +24,7 @@ monikerRange: ">=dynamics-usd-4"
 Use the **Unified Interface KM Control** type of hosted control to display knowledge base articles in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use knowledge base for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use knowledge](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)
 
 > [!NOTE]
-> The Unified Interface KM Control supports all search techniques available in the model-driven apps except the **Relevance Search**. More informaiton: [Relevance search for knowledge management](https://docs.microsoft.com/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management)
+> The Unified Interface KM Control supports all search techniques available in the model-driven apps except the **Relevance Search**. More information: [Relevance search for knowledge management](https://docs.microsoft.com/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management)
 
 <a name="Create"></a>   
 ## Create a KM Control hosted control  
@@ -34,11 +34,11 @@ Use the **Unified Interface KM Control** type of hosted control to display knowl
 
  In the **New Hosted Control** screen:
 
-- Under **Unified Service Desk** area, select **Unified Interface KM Control** from the **USD Component Type** drop-down list.  
+- Under **Unified Service Desk** area, select **Unified Interface KM Control** from the **Unified Service Desk Component Type** drop-down list.  
 
 - The **Allow Multiple Pages** drop-down list is not supported for this hosted control type.  
 
-- The **Hosting Type** is **IE Process** (default). For more information, see [Select a hosting method for hosted controls](../unified-service-desk/select-hosting-method-controls.md).  
+- The **Hosting Type** is **Chrome Process**. For more information, see [Select a hosting method for hosted controls](../unified-service-desk/select-hosting-method-controls.md).  
 
 - Under the **Common Properties** area, select the **Application is Global** check box to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall or search are common uses for global hosted controls. Global hosted controls do not have session-specific state so when you change sessions, these same global hosted controls remain. If the check box is not selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.  
 
