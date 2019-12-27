@@ -127,7 +127,7 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-inte
   
 12. In the **Extensions** section, specify additional configuration information for your hosted control. For an example of the Extentions XML configuration, see the definition of the Kpi hosted control. Kpi hosted control is one of the sample applications that is shipped with **Unified Service Desk**.  
   
-13. Click **Save** to create the hosted application.  
+13. Select **Save** to create the hosted application.  
   
 ### See also  
  [Integrate with external applications and web applications](../unified-service-desk/integrate-external-applications-web-applications.md)   
