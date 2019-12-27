@@ -152,7 +152,7 @@ search.app:
 ## Step 4: Test the application  
  Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Common Data Service platform instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration** in [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md). For information about connecting to the Common Data Service platform instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to a model-driven app instance using the Unified Service Desk client](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
 
- Your agent application will now have a **DEBUGGER** button in the toolbar area. Clicking this button displays the Debugger control.  
+ Your agent application will now have a **DEBUGGER** button in the toolbar area. Selecting this button displays the Debugger control.  
 
  ![Debugger in your agent application](../unified-service-desk/media/usd-debugger-agent-application.png "Debugger in your agent application")  
 
