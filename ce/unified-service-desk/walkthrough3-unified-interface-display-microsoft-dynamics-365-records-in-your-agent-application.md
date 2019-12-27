@@ -300,9 +300,9 @@ This walkthrough demonstrates how to display model-driven app records in your ag
 
 8. Type the name of the hosted control mentioned in the above table in the search box. The hosted controls are displayed in the search results. Select the record from the list, and then select **Add**.
 
-9. Select the **Related** tab, and then select **Toolbars**.
+9. Select the **Hosted Controls, Events and Action Calls** tab.
 
-10. Select **Add Existing Toolbar**. The **Lookup Records** pane is displayed.
+10. Select the ellipsis (...) in the **Toolbars** section, and then select **Add Existing Toolbar**. The **Lookup Records** pane is displayed.
 
 11. Type **Contoso Main Toolbar** in the search box. Select the record from the list, and then select **Add**.
 
