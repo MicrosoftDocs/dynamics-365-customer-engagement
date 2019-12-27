@@ -53,7 +53,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
 ## Step 1: Create a hosted control to display the webpage  
  In this step, you’ll create a hosted control of Standard Web Application type to display the webpage.  
 
-1. Sign in to Unified Service Desk.  
+1. Sign in to Unified Service Desk Administrator.  
 
 2. Select **Hosted Controls** under **Basic Settings**.  
 
@@ -77,7 +77,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
 ## Step 2: Create a toolbar container type of hosted control  
  Toolbar Container hosted controls are used to hold and display the toolbars in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. In this section, you’ll create a **Toolbar Container** type of hosted control that appears in the toolbar region of the client application.  
 
-1. Sign in to Unified Service Desk.  
+1. Sign in to Unified Service Desk Administrator.  
 
 2. Select **Hosted Controls** under **Basic Settings**.  
 
@@ -97,7 +97,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
 ## Step 3: Add a toolbar and attach it to the toolbar container  
  In this step, you’ll create a toolbar, and attach the toolbar to the toolbar container hosted control created in step 2. This is done to display the toolbar in your agent application.  
 
-1. Sign in to Unified Service Desk.  
+1. Sign in to Unified Service Desk Administrator.  
 
 2. Select **Toolbars** under **Basic Settings**.   
 
