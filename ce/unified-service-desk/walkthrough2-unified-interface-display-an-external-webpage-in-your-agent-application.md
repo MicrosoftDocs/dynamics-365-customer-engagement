@@ -117,7 +117,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
 ## Step 4: Add a toolbar button and action calls to display the webpage  
  In this step, add a button on the toolbar and attach an action call to the button so that when the button is clicked, the specified webpage is displayed in the hosted control that you created in step 1.  
 
-1. After you save the toolbar in step 3, select the **Genral** tab. 
+1. After you save the toolbar in step 3, select the **General** tab. 
 
 2. In the **Buttons** area, select **+ New Toolbar Button**.  
 
