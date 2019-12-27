@@ -126,9 +126,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
    |Field|Value|  
    |-----------|-----------|  
    |Name|Contoso Show Help|  
-   |Button Text|Show Help|  
-
-   ![Create a new toolbar button](../unified-service-desk/media/crm-itpro-usd-wt02-03.png "Create a new toolbar button")  
+   |Button Text|Show Help|
 
 4. Select **Save** to save the record. After you save, the **Actions** area is enabled.  
 
