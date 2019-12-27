@@ -65,7 +65,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
    |-----------|-----------|  
    |Name|Contoso Help|  
    |Display Name|Contoso Help|  
-   |USD Component Type|Standard Web Application|  
+   |Unified Service Desk Component Type|Standard Web Application|  
    |Allow Multiple Pages|No|  
    |Hosting Type|Chrome Process|
    |Application is Global|Checked|
@@ -88,7 +88,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
    |Field|Value|  
    |-----------|-----------|  
    |Name|Contoso About Toolbar Container|  
-   |USD Component Type|Toolbar Container|  
+   |Unified Service Desk Component Type|Toolbar Container|  
    |Display Group|AboutPanel|
 
 5. Select **Save**.  
