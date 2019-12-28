@@ -18,6 +18,9 @@ search.app:
   - D365USD
 ---
 
+<!--from editor: Please review the use of "Customer Engagement" in lines 72, 80, and 177. If it does not refer to on-premises, what should it change to? -->
+
+
 # What's new in Unified Service Desk for administrators
 
 ::: moniker range="dynamics-usd-4.1"
@@ -60,23 +63,23 @@ Bring your channel providers and integrate them with Unified Service Desk client
 
 If your organization wants to use the cloud-based channel that you have developed using the [Channel Integration Framework](/dynamics365/customer-engagement/developer/channel-integration-framework/channel-integration-framework), you can integrate the same channel in Unified Service Desk with minimal configuration experience. In turn, this eliminates the need for developing multiple channels. 
 
-The User Interface Integration (UII) framework provides a hosted control - **Channel Integration Framework** for you to host the channel provider within Unified Service Desk client application.
+The User Interface Integration (UII) framework provides a hosted control - **Channel Integration Framework** - for you to host the channel provider within the Unified Service Desk client application.
 
 More information: [Integrate channel using Channel Integration Framework](../integrate-channel-provider-channel-integration-framework.md)
 
-### Cache specific configuration for agents
+### Cache-specific configuration for agents
 
 The Configuration Cache Version option causes the client caching feature to retrieve the configuration that has undergone change from the Customer Engagement server to the agent’s desktop and avoid retrieving all configurations.
 
-Your organization may have several departments and a each department has a configuration with agents added to those configurations. Whenever you make a change to one of those configurations, the **Configuration Cache Version** feature helps to download only that specific configuration for which you've made a change. Also, when the agents assigned to other configurations, sign in to the client application, the feature doesn't download the configurations thus improves the startup time of Unified Service Desk. This is also helpful in better application life cycle management for Unified Service Desk in cases where your organization want to make changes in your pilot or developer configurations without impacting the production users.
+Your organization may have several departments, each with a configuration and agents added to those configurations. Whenever you make a change to one of those configurations, the **Configuration Cache Version** feature helps to download only that specific configuration for which you've made a change. Also, when the agents assigned to other configurations sign in to the client application, the feature doesn't download the configurations, thus improving the startup time of Unified Service Desk. This is also helpful in better application lifecycle management for Unified Service Desk in cases where your organization wants to make changes in your pilot or developer configurations without impacting the production users.
 
 More information: [Cache specific configuration for agents](../admin/set-configuration-cache-version.md)
 
-### Single Sign On for Unified Service Desk
+### Single sign-on for Unified Service Desk
 
-Single Sign On (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a improved startup performance and user experience by authenticating users to access Customer Engagement apps without the need for entering the credentials multiple times. This eliminates the need for entering the same password again and minimizes the possibility of login errors and ensures seamless experience.
+Single sign-on (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides an improved startup performance and user experience by authenticating users to access Customer Engagement apps without the need for entering the credentials multiple times. This eliminates the need for entering the same password again and minimizes the possibility of login errors and ensures a seamless experience.
 
-More information: [Single Sign On (SSO) for Unified Service Desk](../admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk)
+More information: [Single sign-on (SSO) for Unified Service Desk](../admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk)
 
 ### Unified Service Desk Administrator App
 
