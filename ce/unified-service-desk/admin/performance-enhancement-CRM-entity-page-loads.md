@@ -1,6 +1,6 @@
 ---
 title: "Performance enhancement for Common Data Service platform entity page loads | MicrosoftDocs"
-description: "Learn about Internet Explorer pooling feature, which creates a dynamic pool of Internet Explorer process instances. The hosted control that you open uses an Internet Explorer instance from the pool to perform faster inline navigation."
+description: "Learn about the Internet Explorer pooling feature, which creates a dynamic pool of Internet Explorer process instances. The hosted control that you open uses an Internet Explorer instance from the pool to perform faster inline navigation."
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
@@ -17,6 +17,11 @@ search.app:
   - D365CE
   - D365USD
 ---
+
+
+<!--from editor: Should the title (below) change to the title in the metadata? Unless this refers to on-premises, we should not use Customer Engagement. -- >
+
+
 # Performance enhancement for loading Customer Engagement app pages
 
 ::: moniker range="<=dynamics-usd-4"
