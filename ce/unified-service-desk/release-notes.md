@@ -1,7 +1,7 @@
 ---
 title: "Unified Service Desk Release Notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
-ms.date: 07/12/2018
+ms.date: 12/31/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -49,14 +49,13 @@ You must remove the Favorites bar from Internet Explorer and then end the IE Pro
 
 If you don't want to remove the Favorites bar for Internet Explorer, add the **KillUSDIEProcessesOnExit** UII option and set the value to true. Setting the UII option ends the IE Process running in the background at the time of exiting the Unified Service Desk client application. Then when you launch the Unified Service Desk client application, you might not see the error.
 
-1. Sign in to the Common Data Service platform.
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
-3. Choose **Options**.
-4. Select **New** on the **Active UII Options** page.
-5. Choose **Others** for the **Global Option** field.
-6. Type **KillUSDIEProcessesOnExit** for the **Name** field.
-7. Set **True** for the **Value** field.
-8. Select **Save**.
+1. Sign in to Unified Service Desk Administrator.
+2. Select **Options**.
+3. Select **New** on the **Active UII Options** page.
+4. Choose **Others** for the **Global Option** field.
+5. Type **KillUSDIEProcessesOnExit** for the **Name** field.
+6. Set **True** for the **Value** field.
+7. Select **Save**.
 
 > [!Note]
 > The mitigation works for the issue with HRESULT: 0x8150002E.
@@ -132,11 +131,11 @@ When you host your web application in Unified Service Desk client application us
 Some of the URI schemes and applications are as follows:
 
 | URI Scheme | Launches |
-| ----------:|----------|
+|----------|----------|
 |bingmaps | Maps app |
-|mailto: | Default email app |
-|ms-call:|  Call app |
-|ms-chat: | Messaging app |
+|mailto\: | Default email app |
+|ms-call\:|  Call app |
+|ms-chat\: | Messaging app |
 
 A workaround is to open the Microsoft Edge browser separately, navigate to the website URL and select the URI scheme to launch the application.
 

@@ -1,12 +1,14 @@
 ---
 title: "Clone products (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Quickly create a copy of an existing product in Dynamics 365 Sales including all its details by cloning it."
+keywords: ""
 ms.date: 10/01/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
+ms.custom:
   - "dyn365-sales"
 ms.topic: article
+ms.assetid: c9e2dae3-fcf6-c8da-ba88-3bb3cbf70e4b
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -24,7 +26,8 @@ When you're creating a new product, family or bundle, save time by cloning an ex
   
 3. Select a product family, product, or bundle record that you want to clone, and on the command bar, select **Clone**. 
 
-    ![List of products with Clone button](media/clone-product.png "List of products with Clone button")
+    > [!div class="mx-imgBorder"]
+    > ![List of products with Clone button](media/clone-product.png "List of products with Clone button")
 
     A confirmation dialog box appears.
     

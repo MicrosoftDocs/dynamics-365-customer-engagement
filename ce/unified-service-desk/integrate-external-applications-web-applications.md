@@ -3,7 +3,7 @@ title: "Integrate with external applications and web applications in Unified Ser
 description: "Learn about integrating with external application and web application n Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
+ms.date: 12/31/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article

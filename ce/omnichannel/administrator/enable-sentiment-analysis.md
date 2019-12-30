@@ -6,7 +6,7 @@ ms.author: lalexms
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 12/13/2019
+ms.date: 12/27/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -24,9 +24,6 @@ Enable sentiment analysis so supervisors can use the **Omnichannel Ongoing Conve
 1. Sign in to **Omnichannel Administration**.
 
 2. Go to **Settings** > **Sentiment Analysis**, and then select **Real-Time Sentiment Analysis**.
-
-    > [!div class=mx-imgBorder]
-    > ![Select sentiment analysis](../media/supervisor-admin-activat-sentiment-analysis.png "Select sentiment analysis")
 
 3. On the **General** tab, set **Monitor real-time customer sentiment** to **Enabled**, and then select **Save**.
 

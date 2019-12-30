@@ -1,23 +1,23 @@
 ---
-title: "Create quick replies | MicrosoftDocs"
-description: "Instructions to set up quick replies in Omnichannel for Customer Service."
+title: "Create quick responses | MicrosoftDocs"
+description: "Instructions to set up quick responses in Omnichannel for Customer Service."
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
-ms.date: 10/01/2019
+ms.date: 12/27/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Create quick replies
+# Create quick responses
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Quick replies are pre-defined messages that can be created for agents to quickly reply to common questions by customers. For information on agent experience of quick response, see [Send quick replies in the chat](../agent/agent-usd/left-control-panel.md#send-quick-replies-in-the-chat).  
+Quick responses are pre-defined messages that can be created for agents to quickly reply to common questions by customers. For information on agent experience of quick response, see [Send quick responses in the chat](../agent/agent-usd/left-control-panel.md#send-quick-replies-in-the-chat).  
 
 1. Sign in to Omnichannel Administration.
-2. Go to **Agent Experience** &gt; **Quick Replies**.
+2. Go to **Agent Experience** > **Quick responses**.
 3. Select **New** to add a quick reply. To edit an existing quick reply, select the name of the quick reply.
 4. Provide or change the following information:
 
