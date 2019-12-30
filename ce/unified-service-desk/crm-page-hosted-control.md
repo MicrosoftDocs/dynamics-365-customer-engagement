@@ -3,7 +3,7 @@ title: "CRM Page (Hosted Control) | MicrosoftDocs"
 description: "Learn about the CRM Page hosted control type to load a URL or page from the model-driven app. When a model-driven apps page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
+ms.date: 12/31/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article
@@ -30,7 +30,7 @@ Use the **CRM Page** hosted control type to load a URL or page from model-driven
 
  In the **New Hosted Control** screen:
 
-- Under **Unified Service Desk** area, select **CRM Page** from the **USD Component Type** drop-down list.
+- Under **Unified Service Desk** area, select **CRM Page** from the **Unified Service Desk Component Type** drop-down list.
 
 - Select **Pre-fetch Data** to load related information for an entity record in the context along with the entity record page without having to wait for the full entity web page to load in the client application. The fetched entity
   information is populated in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] context thus enabling any hosted control to quickly display relevant entity information on the client
@@ -39,7 +39,7 @@ Use the **CRM Page** hosted control type to load a URL or page from model-driven
 
 - From the **Allow Multiple Pages** drop-down list, select **No** (default) to replace the model-driven apps page that is currently displayed, and update the browser history when [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] receives a navigate action call or a page is routed to the tab. Select **Yes** to automatically create a drop-down list when a second URL is called or a window navigation rule directs a page to the tab. This will allow the user to quickly search between the model-driven apps page that are attached to this control. Also, when you select **Yes**, an additional field, **Maximum Browsers**, becomes available where you can specify the maximum number of pages to be displayed in the drop-down list.  
 
-- The **Hosting Type** drop-down list specifies how you want this control to be hosted. You can choose **IE Process** (default) or **Internal WPF** . For more information, see [Select a hosting method for hosted controls](../unified-service-desk/select-hosting-method-controls.md).
+- The **Hosting Type** drop-down list specifies how you want this control to be hosted. You can choose **Chrome Process** . For more information, see [Select a hosting method for hosted controls](../unified-service-desk/select-hosting-method-controls.md).
 
 - Under the **Common Properties** area, select the **Application is Global** check box to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall or search are common uses for global hosted controls. Global hosted controls do not have session-specific state so when you change sessions, these same global hosted controls remain. If the check box is not selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.
 
@@ -52,7 +52,7 @@ Use the **CRM Page** hosted control type to load a URL or page from model-driven
  These are the predefined actions for this hosted control type.
 
 ### AssociatedView  
- This action loads a specific associated view of model-driven apps. These views are typically accessed by clicking down arrow next to an entity record name in the nav bar, and selecting the associated entities.  
+ This action loads a specific associated view of model-driven apps. These views are typically accessed by selecting down arrow next to an entity record name in the nav bar, and selecting the associated entities.  
 
 
 |  Parameter  |                                                 Description                                                  |
