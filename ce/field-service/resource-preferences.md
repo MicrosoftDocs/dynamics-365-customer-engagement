@@ -95,4 +95,4 @@ For RSO to consider resource preferences when automatically scheduling, add the 
 > ![Screenshot of ](./media/rso-constraints-meets-resource-preferences.png)
 
 ## Additional Notes
-- The preferred resource (including must choose from preference type) must meet the other conditions of the requirement to show as   Resource preferences will not override other requirement attributes. As an example, if a requirement calls for "Skill A", and a resource without Skill A is added as a "Preferred" or "Must choose from" resource preference, the resource will not show in results.
+- The resource that is added as a preferred resource (including the "Must choose from" preference type) must meet the other conditions of the requirement. As an example, if a requirement calls for "Skill A", and a resource without Skill A is added as a "Preferred" or "Must choose from" resource preference, the resource will not show in results or be autoamtically scheduled.
