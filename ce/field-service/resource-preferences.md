@@ -30,14 +30,24 @@ search.app:
 
 Resource preferences allow dispatchers to give preference to specific resources over others when scheduling with Schedule Assistant or Resource Scheduling Optimization. 
 
+From a requirement, the dispatcher can add a one or more resource preference records. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-resource-preference.png)
+
+
+There are three options:
+- Preferred: scheduling
+- Restricted:
+- Must choose from:
+
 ## Prerequisites
 
 - Resource Scheduling Optimization v3.0.19263.1+ for RSO to consider the "Must choose from" constraint
 > [!Note]
 >
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
 
 
 ## Preferred
