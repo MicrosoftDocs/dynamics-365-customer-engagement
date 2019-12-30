@@ -36,7 +36,7 @@ The softphone channel is hosted in the widget that Dynamics 365 Channel Integrat
 The softphone channel is the service that you want to integrate and interact with Dynamics 365 environment using the Dynamics 365 Channel Integration Framework. The capabilities of a channel are specific to the channel provider, and Dynamics 365 Channel Integration Framework is agnostic on the working of the channel.
 
 > [!div class="nextstepaction"]
-> [System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)
+> [System requirements of Dynamics 365 Channel Integration Framework](../system-requirements-channel-integration-framework.md)
 
 
 ## See also
