@@ -58,6 +58,10 @@ For each resource that is added as a resource preference, you can define a **Pre
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-resource-preference-preferred.png)
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-resource-preference-preferred-grid.png)
+
 ## Restricted
 
 **Restricted** these resources will be excluded from Schedule Assistant results and RSO will not auto schedule this requirement to them.
@@ -77,6 +81,10 @@ For each resource that is added as a resource preference, you can define a **Pre
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-resource-preference-must-choose-from.png)
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-resource-preference-must-choose-from-grid.png)
+
 ## Configuration considerations
 
 ### Using resource preferences with RSO
@@ -86,7 +94,5 @@ For RSO to consider resource preferences when automatically scheduling, add the 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-constraints-meets-resource-preferences.png)
 
-filters
-
 ## Additional Notes
-- Resource preferences will not override other requirement attributes. As an example, if a requirement calls for "Skill A", and a resource without Skill A is added as a "Preferred" or "Must choose from" resource preference, the resource will not show in results.
+- The preferred resource (including must choose from preference type) must meet the other conditions of the requirement to show as   Resource preferences will not override other requirement attributes. As an example, if a requirement calls for "Skill A", and a resource without Skill A is added as a "Preferred" or "Must choose from" resource preference, the resource will not show in results.
