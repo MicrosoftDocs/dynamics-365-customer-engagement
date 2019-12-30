@@ -16,10 +16,6 @@ search.app:
   - D365USD
 ---
 
-
-<!--from editor: Line 82 mentions upgrading a Customer Engagement instance. Unless this refers to on-premises, we should not use Customer Engagement. What should this change to? Also, the term "dirty" is used in lines 94 and 104. The style guide says to instead use "marked for edit," "marked as modified," or another, similar phrase. -->
-
-
 # Unified Service Desk known issues and limitations
 
 ::: moniker range="dynamics-usd-4.1"
@@ -79,7 +75,7 @@ When you use Unified Service Desk with the Unified Interface apps, Window Naviga
 
 ### Importing solution causes error with Package Deployer
 
-When you use the latest version of the package deployer (4.1.1.1246) to deploy sample packages, you might encounter an error. To work around the issue, you must upgrade your Customer Engagement instance to the latest version (9.1.0.4626).
+When you use the latest version of the package deployer (4.1.1.1246) to deploy sample packages, you might encounter an error. To work around the issue, you must upgrade your environment to the latest version (9.1.0.4626).
 
 ### Support for inactivity timeout with Chrome Process and SSO
 
@@ -91,7 +87,7 @@ While you use **Chrome Process** to host applications in Unified Service Desk, i
 
 ### Support for CloseAndPrompt action in Chrome Process
 
-The Chrome Process does not support the **CloseAndPrompt** action for web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
+The Chrome Process does not support the **CloseAndPrompt** action for web client. When you make changes in a webpage or a form on a web client, the process does not perform a page modified (data changes) check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
 
 ### Support for Microphone and webcam with Channel Integration Framework
 
@@ -101,7 +97,7 @@ When you integrate a channel with Unified Service Desk using the Channel Integra
 
 #### Support for CloseAndPrompt action in Edge Process
 
-The Edge Process does not support the **CloseAndPrompt** action for web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
+The Edge Process does not support the **CloseAndPrompt** action for web client. When you make changes in a webpage or a form on a web client, the process does not perform a page modified (data changes) check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
 
 #### Support for alert dialog with WebView control
 
