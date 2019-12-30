@@ -69,11 +69,13 @@ For each resource that is added as a resource preference, you can define a **Pre
 > [!Note]
 >
 
-
-
 ## Must choose from
 
 **Must choose from:** only these resources will show in Schedule Assistant results and RSO will schedule to one of them. If none of these resources are available, the requirement will not be scheduled.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-resource-preference-must-choose-from.png)
 
 ## Configuration considerations
 filters
