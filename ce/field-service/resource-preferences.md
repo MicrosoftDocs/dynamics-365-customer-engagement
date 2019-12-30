@@ -37,24 +37,33 @@ From a requirement, the dispatcher can add a one or more resource preference rec
 > ![Screenshot of ](./media/scheduling-resource-preference.png)
 
 
-There are three options:
+For each resource that is added as a resource preference, you can define a **Preference Type**: 
 - **Preferred:** these resources will show at the top of Schedule Assistant results and RSO will prioritize these resource over others but will not guarantee the requirement is scheduled to them.
 - **Restricted:** these resources will be excluded from Schedule Assistant results and RSO will not auto schedule this requirement to them.
-- **Must choose from:** Only these resources will show in Schedule Assistant results and RSO will schedule to one of them. If none of these resources are available, the requirement will not be scheduled.
+- **Must choose from:** only these resources will show in Schedule Assistant results and RSO will schedule to one of them. If none of these resources are available, the requirement will not be scheduled.
 
 ## Prerequisites
 
 - Resource Scheduling Optimization v3.0.19263.1+ for RSO to consider the "Must choose from" constraint
+
+> [!Note]
+>
+
+
+## Preferred
+**Preferred** resources will show at the top of Schedule Assistant results and RSO will prioritize these resource over others but will not guarantee the requirement is scheduled to them.
+
+## Restricted
+**Restricted** these resources will be excluded from Schedule Assistant results and RSO will not auto schedule this requirement to them.
+
 > [!Note]
 >
 
 
 
-## Preferred
-
-## Restricted
-
 ## Must choose from
+**Must choose from:** only these resources will show in Schedule Assistant results and RSO will schedule to one of them. If none of these resources are available, the requirement will not be scheduled.
 
 ## Configuration considerations
 ## Additional Notes
+- what if there is a must choose from but the resource doesnt meet other conditions like skills?
