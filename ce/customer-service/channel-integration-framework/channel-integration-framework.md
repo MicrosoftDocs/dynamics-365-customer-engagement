@@ -132,5 +132,7 @@ ms.custom:
 <h2>Related apps & framework</h2>
 
 <a href="https://docs.microsoft.com/dynamics365/customer-service/help-hub" data-raw-source="[Customer Service Hub Help](https://docs.microsoft.com/dynamics365/customer-service/help-hub)">Customer Service Hub Help</a>
+
 <a href="https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide)">Omnichannel for Customer Service Guide</a>
+
 <a href="https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk" data-raw-source="[Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)">Unified Service Desk Guide</a>
