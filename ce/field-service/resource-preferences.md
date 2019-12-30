@@ -51,10 +51,20 @@ For each resource that is added as a resource preference, you can define a **Pre
 
 
 ## Preferred
+
 **Preferred** resources will show at the top of Schedule Assistant results and RSO will prioritize these resource over others but will not guarantee the requirement is scheduled to them.
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-resource-preference-preferred.png)
+
 ## Restricted
+
 **Restricted** these resources will be excluded from Schedule Assistant results and RSO will not auto schedule this requirement to them.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-resource-preference-restricted.png)
 
 > [!Note]
 >
@@ -62,8 +72,11 @@ For each resource that is added as a resource preference, you can define a **Pre
 
 
 ## Must choose from
+
 **Must choose from:** only these resources will show in Schedule Assistant results and RSO will schedule to one of them. If none of these resources are available, the requirement will not be scheduled.
 
 ## Configuration considerations
+filters
+
 ## Additional Notes
 - what if there is a must choose from but the resource doesnt meet other conditions like skills?
