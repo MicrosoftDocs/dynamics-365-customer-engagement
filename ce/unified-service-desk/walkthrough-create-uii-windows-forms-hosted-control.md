@@ -167,8 +167,6 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
    > [!NOTE]
    > **Assembly URI** is the name of your assembly and the **Assembly Type** is the name of your assembly followed by a dot (.) and then the class name in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project. In this example, the name of the assembly is `UIIWindowsFormHostedControl1` and name of the class is `UiiWinformControl`, which is the default class name when you create a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] Windows Forms hosted control.
 
-   ![New hosted control in Unified Service Desk](../unified-service-desk/media/usd-new-hosted-control-uii-windows-fosrm.png "New hosted control in Unified Service Desk")
-
 5. Select **Save** to create the hosted control.
 
 <a name="step3"></a>

@@ -202,8 +202,6 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |Hide Command Bar|No|  
     |Hide Navigation Bar|Yes|
 
-    ![Create a window navigation rule](../unified-service-desk/media/usd-new-navigation-rule-case-account-session-rule.png "Create a window navigation rule")  
-
 16. Select **Save**.  
 
 <a name="Step5"></a>   
@@ -414,27 +412,27 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
 
 1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Common Data Service platform instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md). For information about connecting to the Common Data Service platform instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to CRM instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
 
-2. Click the down arrow next to the **SEARCH** button in the toolbar, and then click **Account** to display the account records from your model-driven app.  
+2. Select the down arrow next to the **SEARCH** button in the toolbar, and then select **Account** to display the account records from your model-driven app.  
 
-3. Click the expander to display the left pane.  
+3. Select the expander to display the left pane.  
 
    ![Choose the expander in Unified Service Desk](../unified-service-desk/media/usd-choose-expander.png "Choose the expander in Unified Service Desk")  
 
-4. Click on any of the account records to display the respective account information in a session. In the left pane, the **Contoso: Welcome to Account Session** agent script appears.  
+4. Select on any of the account records to display the respective account information in a session. In the left pane, the **Contoso: Welcome to Account Session** agent script appears.  
 
    ![Agent script in Unified Service Desk](../unified-service-desk/media/usd-agent-script.png "Agent script in Unified Service Desk")  
 
 5. In the agent script:  
 
-   1.  Click **New case** to open a new case form with pre-populated values (in the red box) from the current account record.  
+   1.  Select **New case** to open a new case form with pre-populated values (in the red box) from the current account record.  
 
    ![New case form using the agent script](../unified-service-desk/media/usd-new-case-form-agent-script.png "New case form using the agent script")  
 
-   2.  Click **Display existing cases** to display the associated cases for the current account record.  
+   2.  Select **Display existing cases** to display the associated cases for the current account record.  
 
    ![Display existing cases for an account](../unified-service-desk/media/usd-show-cases-account.png "Display existing cases for an account")  
 
-   3.  Click **Close session** to close the current session.  
+   3.  Select **Close session** to close the current session.  
 
 <a name="Conclusion"></a>   
 ## Conclusion  
