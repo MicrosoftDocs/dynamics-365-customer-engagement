@@ -1,10 +1,10 @@
 ---
 title: "Provision Omnichannel for Customer Service | MicrosoftDocs"
 description: "See how you can provision Omnichannel for Customer Service"
-author: sbmjais
-ms.author: shjais
+author: lalexms
+ms.author: lalexms
 manager: shujoshi
-ms.date: 10/30/2019
+ms.date: 12/19/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -38,7 +38,7 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 ## Provision Omnichannel for Customer Service application
 
 > [!IMPORTANT]
-> Ensure that you are either a **Global Tenant Admin** or **Dynamics 365 Service Admin** of your org to be able to provision the Omnichannel for Customer Service application.
+> To be able to provision the Omnichannel for Customer Service application, you must have both **Global Tenant Admin** and **Dynamics 365 System Admin** permissions for your organization.
 
 ### Set up Omnichannel for Customer Service
 
@@ -91,9 +91,6 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
     > [!div class=mx-imgBorder]
     > ![Enable Facebook Messenger with Omnichannel](../media/enable-facebook.png "Enable Facebook Messenger with Omnichannel")
 
-    > [!IMPORTANT]
-    > You must select the check box for **Preview Terms** to enable Facebook Messenger and proceed with the setup.
-    
 7. On the **Summary** page, select the check mark icon to provision Omnichannel for Customer Service in your organization.
 
     The setup can take few mins. You may close the window and check after some time, or refresh to check if it's complete. Once the setup is complete, the selected channels are enabled in your environment.
@@ -125,7 +122,7 @@ After Omnichannel for Customer Service application is successfully provisioned, 
 
 3. Select the channel to be enabled. For example, in this procedure, we will enable the Facebook Messenger channel.
 
-4. On the **Facebook** tab, select **Select to enable Facebook Messenger in your organization** and **Preview Terms** check boxes.
+4. On the **Facebook** tab, select **Select to enable Facebook Messenger in your organization**.
 
     > [!div class=mx-imgBorder]
     > ![Enable Facebook Messenger channel](../media/enable-fb-channel.png "Enable Facebook Messenger channel")

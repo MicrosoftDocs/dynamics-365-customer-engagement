@@ -1,12 +1,14 @@
 ---
 title: "Create a marketing list using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
-description: 
+description: ""
+keywords: ""
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: get-started-article
+ms.assetid: 20dc8c5e-9dba-4ba6-8df0-565521335a66
 author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
@@ -28,9 +30,10 @@ Your marketing list is the core of running a successful marketing campaign. It c
   
 2. Click **New**.  
   
-3. Add or change the information in the **Summary** area. This screenshot provides an example.  
+3. On the **Summary** tab, add or change the information. This screenshot provides an example.  
   
-   ![Example of marketing list summary area](../sales-enterprise/media/marketing-list-summary-example.png "Example of marketing list summary area")  
+   > [!div class="mx-imgBorder"]  
+   > ![Example of marketing list summary area](../sales-enterprise/media/marketing-list-summary-example.png "Example of marketing list summary area")  
   
    > [!NOTE]
    >  To look up records in the **Owner** field, first click **Save**, or you'll lose your changes.  
@@ -44,7 +47,7 @@ Your marketing list is the core of running a successful marketing campaign. It c
 ## Add members to a static marketing list  
   
 <a name="Collapsed2"></a>   
-1.  In any marketing list record, in the **Members** area, click the **Add**![Add button](../sales-enterprise/media/add-button.PNG "Add button") button.  
+1.  In any marketing list record, on the **Members** tab, select the **Add**![Add button](../sales-enterprise/media/add-button.PNG "Add button") button.  
   
 2.  In the **Manage Members** dialog box, select one of the following options, and then click **Continue**.  
   

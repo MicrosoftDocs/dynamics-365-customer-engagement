@@ -16,9 +16,8 @@ manager: annbe
 
 # Create and manage invoices in Dynamics 365 Sales Professional
 
-When a customer places an order, you can create an invoice in Dynamics 365 Sales Professional to bill them for the upcoming sale.
-
-Typically, you convert an order into an invoice; however, you can also create an invoice that does not originate from an order.
+Once your customer accepts a quote, you can create an invoice in Dynamics 365 Sales Professional to bill them for the upcoming sale.
+You can also create an invoice that doesn’t generate from a quote.
 
 ## Create an invoice from a quote
 
