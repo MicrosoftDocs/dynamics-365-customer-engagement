@@ -39,6 +39,8 @@ ms.custom:
 <td>
 <h2> Version 2.0 (Preview) </h2>
 </td>
+<td>
+</td>
 </tr>
 
 <tr>
@@ -101,6 +103,8 @@ ms.custom:
 <td>
 <h2> Version 1.0 </h2>
 </td>
+</td>
+<td>
 </tr>
 
 <tr>
