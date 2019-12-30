@@ -1,12 +1,14 @@
 ---
 title: "Define product pricing with price lists and price list items (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define what to charge for your products or services in Dynamics 365 Sales."
+keywords: ""
 ms.date: 10/01/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
+ms.custom:
   - "dyn365-sales"
 ms.topic: get-started-article
+ms.assetid: a9564eb5-28eb-16e1-386a-ecd8751ae348
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -23,7 +25,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
-2. Select the Site map icon ![Site map icon](media/site-map-icon.png "Site map icon"), then select ellipses ![Ellipses to open more options](media/ellipsis-more-options.png "Ellipses to open more options"), and then select **App Settings**. 
+2. At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**. 
   
 3. In the **Product Catalog** area, select **Price Lists**. 
 
@@ -43,13 +45,15 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
     c.  **Currency**. Select the currency you’re creating the price list for. You can have different price list for different currencies.
 
-    ![General tab in price list form](media/price-list-form.png "General tab in price list form")
+    > [!div class="mx-imgBorder"]
+    > ![General tab in price list form](media/price-list-form.png "General tab in price list form")
   
 6.	To add price per unit for a product, create and add price list items.
 
     a.	In the **Price List** form, select the **Price List Items** tab, and then select **Add New Price List Item**.
 
-    ![Add New Price List Item button on the Price List Items tab](media/price-list-form-price-list-items-tab.png "Add New Price List Item button on the Price List Items tab")
+    > [!div class="mx-imgBorder"]
+    > ![Add New Price List Item button on the Price List Items tab](media/price-list-form-price-list-items-tab.png "Add New Price List Item button on the Price List Items tab")
  
     b.  In the **Price List Item** form, fill in the information, and select **Save**:
 
@@ -63,7 +67,8 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
        -  **Quantity Selling Option**. select whether the product or service can be ordered in whole, partial, or both types of quantities. This information is used in the Quantity field of Quote Product, Order Product, and Invoice Product records. 
 
-          ![Price list item form](media/price-list-item-form.png "Price list item form")
+       > [!div class="mx-imgBorder"]
+       > ![Price list item form](media/price-list-item-form.png "Price list item form")
 
     c.  In the **Price List item** form, on the **Pricing information** tab, fill in the following information, and select **Save & Close**:
 
@@ -98,7 +103,8 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
        -  **Rounding Amount**. Enter the amount.
 
-          ![Pricing information tab on the price list form](media/pricing-information-tab-price-list-item-form.png "Pricing information tab on the price list form")
+            > [!div class="mx-imgBorder"]
+            > ![Pricing information tab on the price list form](media/pricing-information-tab-price-list-item-form.png "Pricing information tab on the price list form")
  
 7.  You can also associate default price lists for territories so that the sales reps working with accounts on contacts in certain territories have the price list selected by default. 
 
@@ -106,13 +112,14 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
     b.	In the **Territories** section, select **Add New Connection**.
 
-    c.	In the **New Connection** form, enter the following, and select **Save & Close**:
-
-      -  **Name**. Select the Lookup button and select a territory.
+    c.	In the **New Connection** form, enter the following, and select **Save & Close**: 
+    
+    -  **Name**. Select the Lookup button and select a territory.
       
-      -  **As this role**. Select a connection role that is associated with the territory record type. 
+    -  **As this role**. Select a connection role that is associated with the territory record type.
 
-          ![Add territory as connection](media/add-territory-as-connection.png "Add territory as connection")
+              > [!div class="mx-imgBorder"]
+              > ![Add territory as connection](media/add-territory-as-connection.png "Add territory as connection")
  
     d.	In the price list record, select **Save & Close**.
   
