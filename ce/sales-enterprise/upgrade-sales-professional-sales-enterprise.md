@@ -1,12 +1,14 @@
 ---
 title: "Upgrade from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Follow the steps in this topic to upgrade from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise."
+keywords: ""
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
+ms.assetid: 82effd98-e46a-b70c-6d1b-3f487e103565
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -32,21 +34,25 @@ The upgrade process involves three steps:
 
 2. Select **Billing** > **Subscriptions**.
 
-   ![Select Subscriptions](media/subscription-office-365-admin-center.png "Select Subscriptions")
+   > [!div class="mx-imgBorder"]
+   > ![Select Subscriptions](media/subscription-office-365-admin-center.png "Select Subscriptions")
 
    You’ll see the active subscriptions. 
 
-   ![Active subscriptions](media/active-subscriptions.png "Active subscriptions")
+   > [!div class="mx-imgBorder"]
+   > ![Active subscriptions](media/active-subscriptions.png "Active subscriptions")
 
 3. Select **Add subscriptions**.
 
    The **Purchase Services** page opens. You’ll see a tile for [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise Edition.
 
-   ![Dynamics 365 for for Sales Enterprise Edition tile on Purchase Services page](media/purchase-services-page.png "Dynamics 365 Sales Enterprise Edition tile on Purchase Services page")
+   > [!div class="mx-imgBorder"]
+   > ![Dynamics 365 for for Sales Enterprise Edition tile on Purchase Services page](media/purchase-services-page.png "Dynamics 365 Sales Enterprise Edition tile on Purchase Services page")
  
 4. In the **[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise Edition** tile, move your mouse over the Ellipses icon and select **Buy Now**, and then follow the steps to purchase new licenses. 
 
-   ![Buy Dynamics 365 Sales Enterprise Edition plan](media/buy-sales-enterprise.png "Buy Dynamics 365 Sales Enterprise Edition plan")
+   > [!div class="mx-imgBorder"]
+   > ![Buy Dynamics 365 Sales Enterprise Edition plan](media/buy-sales-enterprise.png "Buy Dynamics 365 Sales Enterprise Edition plan")
 
 
 ## Assign licenses to your users
@@ -57,32 +63,37 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 2.	Select multiple users, and then select **Edit product licenses**. 
     
-    ![Bulk action to edit multiple product licenses](media/bulk-actions-edit-product-licenses.png "Bulk action to edit multiple product licenses")
+   > [!div class="mx-imgBorder"]
+   > ![Bulk action to edit multiple product licenses](media/bulk-actions-edit-product-licenses.png "Bulk action to edit multiple product licenses")
 
 3.	Select **Replace existing product license assignments**, and then select **Next**. 
 
 4.	Turn on the license for your Dynamics 365 Sales plan. 
 
-    ![Turn on your Dynamics 365 Sales plan](media/turn-license-on.png "Turn on your Dynamics 365 Sales plan")
+   > [!div class="mx-imgBorder"]
+   > ![Turn on your Dynamics 365 Sales plan](media/turn-license-on.png "Turn on your Dynamics 365 Sales plan")
 
 5.	Select **Replace**, and then select **Close** twice. 
 
 6.	Review the license status on the **Active users** page and make other assignments as needed. 
 
-    ![Active users page](media/active-users-page.png "Active users page")
+   > [!div class="mx-imgBorder"]
+   > ![Active users page](media/active-users-page.png "Active users page")
 
 
 ## Install Dynamics 365 Sales Enterprise solution
 
 1.	In the Microsoft 365 admin center, select **Admin Centers** > **Dynamics 365**.
 
-    ![Dynamics 365 admin center in Office 365 nav bar](media/select-admin-center.png "Dynamics 365 admin center in Office 365 nav bar")
+   > [!div class="mx-imgBorder"]
+   > ![Dynamics 365 admin center in Office 365 nav bar](media/select-admin-center.png "Dynamics 365 admin center in Office 365 nav bar")
     
     The **Dynamics 365 Administration Center** opens.
 
 2.	On the **Instances** tab, select your production instance, and on the product instance tile, select the **Manage your solutions** ![Manage your solutions](media/manage-your-solutions.png "Manage your solutions") icon.
 
-    ![Production instance on the Instances tab](media/production-instance-on-instances-tab.png "Production instance on the Instances tab")
+   > [!div class="mx-imgBorder"]
+   > ![Production instance on the Instances tab](media/production-instance-on-instances-tab.png "Production instance on the Instances tab")
 
 3.	On the **Manage your solutions** page, select **Dynamics 365 Sales Application**, and on the tile, select **Install**.
 
@@ -102,8 +113,6 @@ After you complete these steps, your organization will be effectively upgraded t
     > [!NOTE]
 
     > When you delete this solution, the Sales Pro app module is deleted, and any configuration specific to this app module such as its site map and form preferences are also lost.
-
-
 
 > [!IMPORTANT]
 > 
