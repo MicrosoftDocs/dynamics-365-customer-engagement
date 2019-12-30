@@ -84,10 +84,9 @@ Here are the capabilities offered by Dynamics 365 Channel Integration Framework 
 
   Seamless upgrade to new versions of third-party channel providers or channel aggregators as the Dynamics 365 Channel Integration Framework provides the infrastructure framework to integrate the channels but does not control the channel versions.
 
-> [!div class="nextstepaction"]
-> [Architecture overview of Channel Integration Framework](architecture-overview-channel-integration-framework.md)
-
 ## See also
+
+[Architecture overview of Channel Integration Framework](architecture-overview-channel-integration-framework.md)
 
 [System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)
 

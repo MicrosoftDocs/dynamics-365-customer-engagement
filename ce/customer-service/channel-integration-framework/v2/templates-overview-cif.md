@@ -37,4 +37,4 @@ To choose the applications you want to open for every session, according to your
 
 ## See also
 
-- [Associate templates with scenarios](associate-templates-cif.md)
+[Associate templates with scenarios](associate-templates-cif.md)

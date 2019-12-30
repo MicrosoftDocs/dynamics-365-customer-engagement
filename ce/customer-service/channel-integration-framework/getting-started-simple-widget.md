@@ -80,10 +80,8 @@ In this tutorial, we demonstrate how to build a simple *Hello World!* communicat
 
 Now, proceed to the next section of this walkthrough that shows how you can search and open a record in Dynamics 365  on an incoming call.<br />
 
-> [!div class="nextstepaction"]
-> [Search and open records on an incoming conversation](search-open-records-incoming-conversations.md)
-
 ### See also
+[Search and open records on an incoming conversation](search-open-records-incoming-conversations.md)
 
 [Sample code for softphone integration](sample-softphone-integration.md)
 

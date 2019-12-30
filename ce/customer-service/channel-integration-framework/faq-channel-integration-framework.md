@@ -94,5 +94,6 @@ During the preview period you can get Omnichannel for Customer Service using the
 
 ## See also
 
-[Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)<br />
+[Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)
+
 [System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)

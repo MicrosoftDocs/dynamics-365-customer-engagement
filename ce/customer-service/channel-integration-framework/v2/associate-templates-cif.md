@@ -26,7 +26,10 @@ To associate the templates in your scenarios, you must use the `templateName` pa
 
 ## See also
 
-- [Manage session templates](session-templates-cif.md)
-- [Manage application tab templates](application-tab-templates-cif.md)
-- [Manage notification templates](notification-templates-cif.md)
-- [Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)
+[Manage session templates](session-templates-cif.md)
+
+[Manage application tab templates](application-tab-templates-cif.md)
+
+[Manage notification templates](notification-templates-cif.md)
+
+[Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)

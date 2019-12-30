@@ -145,7 +145,10 @@ The application type is used to display first-party and third-party websites as 
 
 ## See also
 
-- [Manage session templates](session-templates-cif.md)
-- [Manage notification templates](notification-templates-cif.md)
-- [Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)
-- [Associate templates with workstreams](associate-templates-cif.md)
+[Manage session templates](session-templates-cif.md)
+
+[Manage notification templates](notification-templates-cif.md)
+
+[Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)
+
+[Associate templates with workstreams](associate-templates-cif.md)

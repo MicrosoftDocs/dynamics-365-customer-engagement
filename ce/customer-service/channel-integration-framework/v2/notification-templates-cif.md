@@ -90,7 +90,10 @@ As an administrator, you can edit the value of a notification field header in th
 
 ## See also
 
-- [Manage session templates](session-templates-cif.md)
-- [Manage application tab templates](application-tab-templates-cif.md)
-- [Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)
-- [Associate templates with workstreams](associate-templates-cif.md)
+[Manage session templates](session-templates-cif.md)
+
+[Manage application tab templates](application-tab-templates-cif.md)
+
+[Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)
+
+[Associate templates with workstreams](associate-templates-cif.md)

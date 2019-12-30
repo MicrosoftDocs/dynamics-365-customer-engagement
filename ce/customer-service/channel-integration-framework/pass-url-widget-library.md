@@ -19,7 +19,10 @@ ms.custom:
 
 ## See also
 
-[Configure a channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)<br />
-[Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
-[Add a Channel Integration Framework solution as a dependent solution](add-cif-solution-dependent-solution.md)<br />
+[Configure a channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)
+
+[Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)
+
+[Add a Channel Integration Framework solution as a dependent solution](add-cif-solution-dependent-solution.md)
+
 [Authenticate channel users to the channel (widget)](authenticate-channel-users.md)

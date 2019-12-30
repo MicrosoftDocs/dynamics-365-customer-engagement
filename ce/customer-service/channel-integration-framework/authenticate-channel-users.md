@@ -22,7 +22,10 @@ ms.custom:
 
 ## See Also
 
-[Configure channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)<br />
-[Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
-[Add Dynamics 365 Channel Integration Framework solution as a dependent solution](add-cif-solution-dependent-solution.md)<br />
+[Configure channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)
+
+[Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)
+
+[Add Dynamics 365 Channel Integration Framework solution as a dependent solution](add-cif-solution-dependent-solution.md)
+
 [Pass Dynamics 365 URL to widget library](pass-url-widget-library.md)

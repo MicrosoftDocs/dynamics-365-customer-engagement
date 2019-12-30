@@ -98,12 +98,12 @@ A valid Azure subscription is required to publish the sample app to Azure.
 
 ## Related topics
 
-- [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)
+[Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)
 
-- [Configure the channel provider](configure-channel-provider-channel-integration-framework.md)
+[Configure the channel provider](configure-channel-provider-channel-integration-framework.md)
 
-- [Microsoft.CIFramework](reference/microsoft-ciframework.md)
+[Microsoft.CIFramework](reference/microsoft-ciframework.md)
 
-- [Client-side events](reference/client-side-events.md)
+[Client-side events](reference/client-side-events.md)
 
-- [Entity reference](reference/entities-attributes/msdyn-ciprovider.md)
+[Entity reference](reference/entities-attributes/msdyn-ciprovider.md)

@@ -4,7 +4,7 @@ description: "Dynamics 365 Channel Integration Framework is a cloud-to-cloud ext
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 10/17/2019
+ms.date: 12/31/2019
 ms.topic: article
 ms.service: 
   - dynamics-365-cross-app
@@ -89,8 +89,8 @@ ms.custom:
 
 <h2> JavaScript API Reference </h2>
  
-<li><a href="v2/reference/microsoft-ciframework.md" data-raw-source="[Microsoft.CIFramework
- methods](v2/reference/microsoft-ciframework.md)">Microsoft.CIFramework</a></li>
+<li><a href="v2/reference/microsoft-ciframework-v2.md" data-raw-source="[Microsoft.CIFramework
+ methods](v2/reference/microsoft-ciframework-v2.md)">Microsoft.CIFramework</a></li>
 <li><a href="v2/reference/client-side-events.md" data-raw-source="[Client-side events](v2/reference/client-side-events.md)">Client-side events</a>
 <li><a href="v2/reference/entities-attributes/msdyn-ciprovider.md" data-raw-source="[Entity reference](v2/reference/entities-attributes/msdyn-ciprovider.md)">Entity reference</a></li>
 

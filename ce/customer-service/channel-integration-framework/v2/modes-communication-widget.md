@@ -19,5 +19,6 @@ ms.custom:
 
 ## See also
 
-[setMode (JavaScript API reference)](reference/microsoft-ciframework/setMode.md)<br />
+[setMode (JavaScript API reference)](reference/microsoft-ciframework/setMode.md)
+
 [getMode (JavaScript API reference)](reference/microsoft-ciframework/getMode.md)

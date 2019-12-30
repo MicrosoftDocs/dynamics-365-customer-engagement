@@ -124,7 +124,10 @@ Session title = `Chat conversation`
 
 ## See also
 
-- [Manage session templates](session-templates-cif.md)
-- [Manage application tab templates](application-tab-templates-cif.md)
-- [Manage notification templates](notification-templates-cif.md)
-- [Associate templates with workstreams](associate-templates-cif.md)
+[Manage session templates](session-templates-cif.md)
+
+[Manage application tab templates](application-tab-templates-cif.md)
+
+[Manage notification templates](notification-templates-cif.md)
+
+[Associate templates with workstreams](associate-templates-cif.md)

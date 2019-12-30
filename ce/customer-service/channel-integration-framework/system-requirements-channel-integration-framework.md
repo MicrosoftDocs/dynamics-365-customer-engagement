@@ -44,5 +44,6 @@ All the URLs must be secure (HTTPS).
 
 ## See also
 
-[Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)<br />
+[Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)
+
 [FAQs](faq-channel-integration-framework.md)
