@@ -81,7 +81,7 @@ For each resource that is added as a resource preference, you can define a **Pre
 
 ### Using resource preferences with RSO
 
-TO have RSO consider resource preferences when automatically scheduling, add the **Meets Resource Preferences** constraint to the related Optimization Goal.
+For RSO to consider resource preferences when automatically scheduling, add the **Meets Resource Preferences** constraint to the related Optimization Goal. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-constraints-meets-resource-preferences.png)
@@ -89,4 +89,4 @@ TO have RSO consider resource preferences when automatically scheduling, add the
 filters
 
 ## Additional Notes
-- what if there is a must choose from but the resource doesnt meet other conditions like skills?
+- Resource preferences will not override other requirement attributes. As an example, if a requirement calls for "Skill A", and a resource without Skill A is added as a "Preferred" or "Must choose from" resource preference, the resource will not show in results.
