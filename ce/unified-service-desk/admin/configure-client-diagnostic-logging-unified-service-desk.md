@@ -4,7 +4,7 @@ description: "Learn how to set client diagnostic logging."
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 08/23/2017
+ms.date: 12/31/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article
@@ -205,17 +205,19 @@ StackTrace:   at DemoControl.USDControl.throwExceptionMethod()
 <a name="exceptionoptions"></a>   
 ### Configure error diagnostics reporting  
 
-1. In the web application, go to **Settings** > **Unified Service Desk** > **Auditing and Diagnostics**.  
+1. Sign in to Unified Service Desk Administrator. 
 
-2. Click **New**, and then select **DiagnosticsConfiguration**.  
+2. Select **Auditing and Diagnostics** under **Advanced Settings**.  
+
+2. Select **+ New**, and then select **DiagnosticsConfiguration**.  
 
 3. Select or enter the values that you want, such as tracking, exit monitoring, and the diagnostics logs folder location. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Diagnostics](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md#create-an-audit--diagnostics-record-to-use-for-auditing)
 
-4. Click **Save & Close**.  
+4. Select **Save & Close**.  
 
 ## See also  
  [Configure auditing and diagnostics in Unified Service Desk](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md)
- 
+
  [Debugging support in Unified Service Desk to troubleshoot issues](../../unified-service-desk/admin/troubleshoot-unified-service-desk.md)   
  
  [Debug issues in Unified Service Desk](../../unified-service-desk/debug-issues-unified-service-desk.md)

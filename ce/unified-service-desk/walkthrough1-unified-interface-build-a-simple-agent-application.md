@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough 1  Build a simple agent application in Unified Service Desk for Unified Interface apps | MicrosoftDocs"
 description: "Demonstrates how to set up a basic agent application from scratch using Unified Service Desk."
-ms.date: 05/07/2018
+ms.date: 12/31/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -49,55 +49,43 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
 ## Step 1: Create the basic hosted controls  
  Create the following three types of hosted control so that the application can connect to an instance of the Common Data Service platform: Connection Manager, Global Manager, and Panel Type.  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Hosted Controls** under **Basic Settings**.  
   
-3. Click **Hosted Controls**.  
+3. Select **+ New**.  
   
-4. Click **New**.  
-  
-5. On the **New Hosted Control** page, specify the following values.  
+4. On the **New Hosted Control** page, specify the following values.  
   
    |Field|Value|  
    |-----------|-----------|  
    |Name|Contoso Connection Manager|  
    |Sort Order|1|  
-   |USD Component Type|Connection Manager|  
+   |Unified Service Desk Component Type|Connection Manager|
+
+5. Select **Save**.
   
-   ![Connection Manager hosted control](../unified-service-desk/media/crm-itpro-usd-wt01-01.png "Connection Manager hosted control")
-  
-6. Click **Save**.  
-  
-7. Click **New** to create another hosted control.  
-  
-8. On the **New Hosted Control** page, specify the following values.  
+6. Repeat Step 4 and 5 to create another hosted control with the following values.  
   
    |Field|Value|  
    |-----------|-----------|  
    |Name|Contoso Global Manager|  
    |Sort Order|2|  
-   |USD Component Type|Global Manager|  
+   |Unified Service Desk Component Type|Global Manager|
   
-   ![Global Manager hosted control](../unified-service-desk/media/crm-itpro-usd-wt01-02.png "Global Manager hosted control")
-  
-9. Click **Save**.  
-  
-10. Click **New** to create another hosted control.  
-  
-11. On the **New Hosted Control** page, specify the following values.  
+7. Select **Save**.
+
+8. Repeat Step 4 and 5 to create another hosted control with the following values.  
   
     |Field|Value|  
     |-----------|-----------|  
     |Name|Contoso Main Panel Layout|  
-    |USD Component Type|Panel Layout|  
+    |Unified Service Desk Component Type|Panel Layout|  
     |Panel Type|Standard Main Panel|  
     |Application is Dynamic|No|  
-    |User Can Close|Unchecked|  
+    |User Can Close|Unchecked|
   
-    ![Panel Layout hosted control](../unified-service-desk/media/crm-itpro-usd-wt01-03.png "Panel Layout hosted control")  
-  
-12. Click **Save**.  
+9. Select **Save**.  
   
 > [!IMPORTANT]
 >  If you don’t create a **Panel Layout** type of hosted control in your agent application, the default panel layout, **Standard Main Panel**, is created automatically when you run the client application. 
@@ -106,37 +94,38 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
 ## Step 2: Add the hosted controls to a configuration  
  A configuration in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] helps you filter access to components that are displayed in the agent application to a user. In this step, create a configuration, and then add the hosted controls created earlier to the configuration.  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Configuration** under **Advanced Settings**.  
   
-3. Click **Configuration**.  
+3. Select **+ New**. 
   
-4. Click **New**.  
+4. On the **New Configuration** page, type `Contoso Configuration` as the name of the configuration, and select **Save**.  
   
-5. On the **New Configuration** page, type `Contoso Configuration` as the name of the configuration, and click **Save**.  
+5. After the new configuration is saved, select the **Hosted Controls, Events and Action Calls** tab.  
   
-6. After the new configuration is saved, on the nav bar, click the down arrow next to the configuration name, and then select **Hosted Controls**.  
-  
-7. Click **Add Existing Hosted Control**, type `Contoso` in the search bar, and then press ENTER or click the search icon.  
-  
-8. The three hosted controls added earlier display in the search results. Click the **Look up more Records** link.  
-  
-9. Select the three hosted controls, click **Select**, and then click **Add**.  
+6. Select the ellipsis (...) under **Hosted Controls** and select **Add Existing Hosted Control**. The **Lookup Records** pane is displayed.
+
+7. Type `Contoso` in the search bar, and select the search icon. The three hosted controls that you created earlier are displayed in the search results. Select the records and then select **Add**. 
   
    ![Add the hosted controls to the configuration](../unified-service-desk/media/crm-itpro-usd-wt01-04.PNG "Add the hosted controls to the configuration")  
   
-10. The hosted controls are added to the configuration. Click **Save**.  
+    The hosted controls are added to the configuration. 
+
+8. Select **Save**.  
   
 <a name="Step3"></a>   
 ## Step 3: Assign users to the configuration  
+
  In this step, assign users to the configuration so that when they sign in using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, they can only access the three hosted controls that are added to this configuration. For this walkthrough, assign only a single user to the configuration who will be testing the application at the end of the walkthrough.  
   
-1. On the nav bar, click the down arrow next to the **Contoso Configuration**, and then select **Assigned Users**.  
+1. Select the **Genral** tab of the **Contoso Configuration**, and then select ellipsis (...) in the **Users** section.  
   
-2. On the next page, click **Add Existing User**, type the name of the user in the search bar, and then press ENTER or click the search icon.  
+2. Select **Add Existing User**. The **Lookup Records** pane is displayed. 
+
+3. Type the name of the user in the search bar, and then select **Add**.  
   
-3. From the search result, click the user name that you want to be assigned to the configuration. The user is added to the configuration. In this case, assign **Randy Blythe** to the configuration. Click **Save**.  
+3. Select **Save**.  
   
    ![User added to the configuration](../unified-service-desk/media/crm-itpro-usd-wt01-05.png "User added to the configuration") 
   

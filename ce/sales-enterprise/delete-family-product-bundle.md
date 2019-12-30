@@ -1,12 +1,14 @@
 ---
 title: "Delete a family, product, or bundle (Dynamics 365 Sales) | MicrosoftDocs"
 description: "If you're no longer selling a product, delete it from Dynamics 365 Sales."
+keywords: ""
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
+ms.assetid: bb13f5db-315a-9a2e-f153-de5bb5a5606e
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -27,7 +29,8 @@ To stop selling a product, delete it. If you delete a parent family, its child p
   
 3. Select a product family, product, or bundle record you want to delete, and on the command bar, select **Delete**.  
 
-   ![Delete a product](media/delete-product.png "Delete a product")
+   > [!div class="mx-imgBorder"]
+   > ![Delete a product](media/delete-product.png "Delete a product")
 
 4. In the **Confirm Deletion** dialog box, select **Delete**.
 

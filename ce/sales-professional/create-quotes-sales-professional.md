@@ -22,7 +22,7 @@ If you’ve created your quote from an opportunity, you might have already added
 
 You’ll probably edit a quote multiple times as a sale progresses. Initially, you create a draft, and then you need to activate it when it’s ready to go to a customer.
 
-When the customer accepts the quote, you create an order. Otherwise, you close the quote as revised, canceled, or lost.
+When the customer accepts the quote, and you are ready to ship the products, you create an invoice. Otherwise, you close the quote as revised, canceled, or lost.
 
 ## Create a quote from an opportunity
 

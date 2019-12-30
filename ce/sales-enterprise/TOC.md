@@ -75,6 +75,7 @@
 #### [Add products to an opportunity](add-products-opportunity.md)  
 #### [Recalculate an opportunity](recalculate-opportunity.md)
 #### [Close opportunities as won or lost](../sales-enterprise/close-opportunity-won-lost-sales.md)
+#### [Collaborate using SharePoint](collaborate-using-sharepoint-sales.md)
 #### [Create or edit competitor records](../sales-enterprise/create-edit-competitor-record-sales.md)
 #### [Manage sales literature](../sales-enterprise/create-sales-literature.md)
 

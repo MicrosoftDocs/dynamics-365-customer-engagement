@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough 4  Display a record in a session in your agent application | MicrosoftDocs"
 description: "Demonstrates how to display records in a session in your agent application using window navigation rules and session controls in Unified Service Desk."
-ms.date: 11/12/2019
+ms.date: 12/31/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -55,15 +55,13 @@ This walkthrough demonstrates how to display records in a session in your agent 
 ## Step 1: Create a session-scoped hosted control to display account record in a session  
  In this step, you’ll create a session-scoped hosted control to display an account record in a session.  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator 
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Hosted Controls** under **Basic Settings**.  
   
-3. Select **Hosted Controls**.  
+3. Select **+ New**.  
   
-4. Select **New**.  
-  
-5. On the **New Hosted Control** page, specify the following values.  
+4. On the **New Hosted Control** page, specify the following values.  
   
    |Field|Value|  
    |-----------|-----------|  
@@ -73,54 +71,54 @@ This walkthrough demonstrates how to display records in a session in your agent 
    |Allow Multiple Pages|No|
    |Pre-Fetch Data|Checked|
    |Application is Global|Not checked <br>**Note:**  This ensures that the hosted control is session-scoped, that is, only displayed in a session.|  
-   |Display Group|MainPanel|  
+   |Display Group|MainPanel|
   
-   ![Create a session scoped hosted control](../unified-service-desk/media/usd-create-session-scoped-hosted-control-unified-interface.png "Create a session-scoped hosted control") 
-  
-6. Select **Save**.
+5. Select **Save**.
   
 <a name="Step2"></a>   
 ## Step 2: Configure the event to close the hosted control from where the search originated  
+
  In this step, you’ll configure the **PageReady** event on the **Contoso Account Session** hosted control so that when it’s loaded, the parent hosted control from where the user selected to open the account, **Contoso Accounts Search**, is closed. The **Contoso Accounts Search** hosted control was created in [Walkthrough 3: Display Unified Interface apps records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md). This is done to ensure that the user can’t open other account information in the same session tab.  
   
-1. On the nav bar, select the down arrow next to the **Contoso Account Session** hosted control, and select **Events**.  
-  
-   ![Configure events for a hosted control](../unified-service-desk/media/usd-configure-events-hosted-control2.png "Configure events for a hosted control")  
+1. On the **Contoso Account Session** hosted control, and select the **Related** tab, and then select **Events**.
   
 2. On the events page, select **PageReady**.  
   
-3. On the **PageReady** page, select **+** in the **Active Actions** area to add an action call to the event.  
+3. On the **PageReady** page, select **Add Existing Action Call** in the **Active Actions** area. The **Lookup Records** pane is displayed.  
   
-4. In the search box, select the search icon or press ENTER, and then select **New** in the lower-right corner of the search results box.  
-  
-   ![Add an action call to an event](../unified-service-desk/media/usd-add-action-call-pageready-event.png "Add an action call to an event")  
+4. Select the search icon, and then select **+ New Action Call**.
   
 5. On the **New Action Call** page, specify the following values.  
   
    |Field|Value|  
    |-----------|-----------|  
    |Name|Contoso Action Call: Close Accounts Search|  
-   |Hosted Control|Contoso Account Search|  
-   |Action|Close|  
+   |Hosted Control|Contoso Accounts Search|  
+   |Action|Close| 
   
-   ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call-pageready-close.png "Create an action call in Unified Service Desk")  
-  
-6. Select **Save** to add the action call to the **PageReady** event.  
+6. Select **Save**.
+
+7. Select the back button on the browser to go back to the **PageReady** event.  
+
+8. Select **Add Existing Action Call**. The **Lookup Records** pane is displayed. 
+
+9. Type **Contoso Action Call: Close Accounts Search** in the search box. Select the record from the list, and then select **Add**. The action call is now added to the **PageReady** event.
+
+10. Select **Save**.
   
 <a name="Step3"></a>   
 ## Step 3: Create a Session Tabs hosted control  
+
  To display records in sessions in your agent application, an instance of the **Session Tabs** type of hosted control must be configured in your agent application.  
   
-1. On the hosted control page, select **New**.  
+1. On the hosted control page, select **+ New**.  
   
 2. On the New Hosted Control page, specify the following values.  
   
    |Field|Value|  
    |-----------|-----------|  
    |Name|Contoso Session Tab|  
-   |USD Component Type|Session Tabs|  
-  
-   ![Create a Session Tabs hosted control](../unified-service-desk/media/usd-create-sessiontabs-hosted-control.png "Create a Session Tabs hosted control")  
+   |Unified Service Desk Component Type|Session Tabs| 
   
 3. Update the XML in the **Extensions XML** field. To learn more, see [Chat indicator XML](session-tabs-hosted-control.md#chat-indicator-xml).
   
@@ -130,13 +128,11 @@ This walkthrough demonstrates how to display records in a session in your agent 
 ## Step 4: Create a window navigation rule to display the account record in a session  
  In this step, you’ll create a window navigation rule that displays the record in a session when the user selects any of the accounts in the search results window.
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Window Navigation Rules** under **Basic Settings**.  
   
-3. Select **Window Navigation Rules**.  
-  
-4. Select **New**.  
+4. Select **+ New**.  
   
 5. On the **New Window Navigation Rule** page, specify the following values.  
   
@@ -144,17 +140,20 @@ This walkthrough demonstrates how to display records in a session in your agent 
    |-----------|-----------|  
    |Name|Contoso Account Session Rule|  
    |Order|5|  
-   |From|Contoso Accounts Search|  
+   |From|Contoso Accounts Search|
    |Entity|account|  
+
+6. Select the **Result** tab, and specify the following values.
+
+   |Field|Value|  
+   |-----------|-----------| 
    |Route Type|In Place|  
    |Destination|Tab|  
    |Action|Create Session|  
    |Target Tab|Contoso Account Session|  
    |Show Tab|Contoso Account Session|  
    |Hide Command Bar|No|  
-   |Hide Navigation Bar|Yes|  
-  
-   ![Create a window navigation rule](../unified-service-desk/media/usd-create-window-navigation-rule-unified-interface.png "Create a window navigation rule")  
+   |Hide Navigation Bar|Yes|
   
 6. Select **Save**.  
   
@@ -170,27 +169,37 @@ This walkthrough demonstrates how to display records in a session in your agent 
 |PageReady|Event for the Contoso Account Session hosted control|  
 |Contoso Account Session|Hosted Control|  
 |Contoso Session Tab|Hosted Control|  
-|Contoso Account Session Rule|Window navigation rule|  
+|Contoso Account Session Rule|Window navigation rule|
   
  To add a control to the configuration:  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Configuration** under **Advanced Settings**.  
   
-3. Select **Configuration**.  
+3. Select **Contoso Configuration** to open the definition.  
   
-4. Select **Contoso Configuration** to open the definition.  
+4. Select the **Hosted Controls, Events and Action Calls** tab.  
+
+5. Select the ellipsis (...) in the **Action Calls** section, and then select **Add Existing Action Call**. The **Lookup Records** pane is displayed.
+
+6. Type he name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.  
   
-5. On the nav bar, select the down arrow next to **Contoso Configuration**, and select **Action Calls**.  
+7. Select the ellipsis (...) in the **Hosted Controls** section, and then select **Add Existing Hosted Control**. The **Lookup Records** pane is displayed.  
+
+8. Type the name of the hosted control mentioned in the above table in the search box. The hosted controls are displayed in the search results. Select the record from the list, and then select **Add**.
+
+9. Select the ellipsis (...) in the **Events** section, and then select **Add Existing Events**. The **Lookup Records** pane is displayed.  
+
+10. Type the name of the event mentioned in the above table in the search box. The event is displayed in the search results. Select the record from the list, and then select **Add**.
+
+11. Select the **Toolbars, Window Navigation Rules and Entity Searches** tab. 
+
+11. Select the ellipsis (...) in the **Window Navigation Rules** section, and then select **Add Existing Window Navigation Rule**. The **Lookup Records** pane is displayed. 
+
+12. Type the name of the Window Navigation Rule mentioned in the above table in the search box. The rule is displayed in the search results. Select the record from the list, and then select **Add**.
   
-6. On the next page, select **Add Existing Action Call**, type “`Contoso Action Call: Close Accounts Search`” in the search bar, and then press ENTER or select the search icon.  
-  
-7. In the search result box, select the action call to add it to **Contoso Configuration**.  
-  
-8. Similarly, add the event, hosted controls and window navigation rule by selecting the down arrow next to **Contoso Configuration**, and selecting **Events** **Hosted Controls** and **Window navigation Rules** respectively.  
-  
-9. Select **Save**.  
+13. Select **Save**.  
   
 <a name="Step6"></a>   
 ## Step 6: Test the application  
