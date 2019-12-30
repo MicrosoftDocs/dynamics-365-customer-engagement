@@ -44,7 +44,7 @@ ms.custom:
 <tr>
 <td>
 
-<h2> Templates </h2>
+<h3> Templates </h3>
 
 <li><a href="v2/session-templates-cif.md" data-raw-source="[Manage session templates](v2/session-templates-cif.md)">Manage session templates</a></li>
 <li><a href="v2/application-tab-templates-cif.md" data-raw-source="[Manage application tab templates](v2/application-tab-templates-cif.md)">Manage application tab templates</a></li>
@@ -54,7 +54,7 @@ ms.custom:
 </td>
 <td>
 
-<h2> Channel Analytics </h2>
+<h3> Channel Analytics </h3>
 
 <li><a href="v2/channel-analytics.md" data-raw-source="[Channel Analytics](v2/channel-analytics.md)">Channel Analytics</a></li>
 </td>
@@ -62,14 +62,14 @@ ms.custom:
 <tr>
 <td>
 
-<h2> Integrate</h2>
+<h3> Integrate</h3>
 
 <li><a href="integration-multi-session-experiences.md" data-raw-source="[Integration with multi-session experiences](integration-multi-session-experiences.md)">Integration with multi-session experiences</a></li>
 </td>
 
 <td>
 
-<h2> Support for multiple providers </h2>
+<h3> Support for multiple providers </h3>
 
 <li><a href="support-multiple-providers.md" data-raw-source="[Support for multiple providers](support-multiple-providers.md)">Support for multiple providers</a></li>
 </td>
@@ -77,7 +77,7 @@ ms.custom:
 <tr>
 <td>
 
-<h2> How to </h2>
+<h3> How to </h3>
 
 <li><a href="v2/configure-channel-provider-channel-integration-framework.md" data-raw-source="[Configure a channel provider for your organization](v2/configure-channel-provide-channel-integration-framework.md)">Configure a channel provider for your organization</a></li>
 <li><a href="v2/enable-outbound-communication-clicktoact.md" data-raw-source="[Enable outbound communication (ClickTOAct)](v2/enable-outbound-communication-clicktoact.md)">Enable outbound communication (ClickTOAct)</a></li>
@@ -87,7 +87,7 @@ ms.custom:
 </td>
 <td>
 
-<h2> JavaScript API Reference </h2>
+<h3> JavaScript API Reference </h3>
  
 <li><a href="v2/reference/microsoft-ciframework-v2.md" data-raw-source="[Microsoft.CIFramework
  methods](v2/reference/microsoft-ciframework-v2.md)">Microsoft.CIFramework</a></li>
@@ -106,7 +106,7 @@ ms.custom:
 <tr>
 <td>
 
-<h2> How to </h2>
+<h3> How to </h3>
 
 <li><a href="configure-channel-provider-channel-integration-framework.md" data-raw-source="[Configure a channel provider for your organization](configure-channel-provide-channel-integration-framework.md)">Configure a channel provider for your organization</a></li>
 <li><a href="getting-started-simple-widget.md" data-raw-source="[Build a simple communication widget](getting-started-simple-widget.md)">Build a simple communication widget</a></li>
@@ -118,7 +118,7 @@ ms.custom:
 </td>
 <td>
 
-<h2> JavaScript API Reference </h2>
+<h3> JavaScript API Reference </h3>
 
 <li><a href="reference/microsoft-ciframework.md" data-raw-source="[Microsoft.CIFramework
  methods](reference/microsoft-ciframework.md)">Microsoft.CIFramework</a></li>
