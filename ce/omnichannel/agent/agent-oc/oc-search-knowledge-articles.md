@@ -4,7 +4,7 @@ description: "Learn how to set your presence status in Omnichannel for Customer 
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 12/27/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article

@@ -4,7 +4,7 @@ description: "Learn how to create skills and assign agents to those skills in Om
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 12/27/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -45,7 +45,7 @@ After you create a skill-type, you can create skills.
 
 1. Sign in to the Omnichannel Administration app.
 
-2. Select **Skills** under **Users & Queues** in the sitemap.
+2. Select **Skills** under **Queues & Users** in the sitemap.
 
 3. Select **+ New**.
 
