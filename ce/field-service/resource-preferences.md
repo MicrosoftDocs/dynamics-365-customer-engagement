@@ -78,6 +78,14 @@ For each resource that is added as a resource preference, you can define a **Pre
 > ![Screenshot of ](./media/scheduling-resource-preference-must-choose-from.png)
 
 ## Configuration considerations
+
+### Using resource preferences with RSO
+
+TO have RSO consider resource preferences when automatically scheduling, add the **Meets Resource Preferences** constraint to the related Optimization Goal.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-constraints-meets-resource-preferences.png)
+
 filters
 
 ## Additional Notes
