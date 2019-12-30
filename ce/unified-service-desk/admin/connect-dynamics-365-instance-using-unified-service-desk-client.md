@@ -19,9 +19,6 @@ search.app:
 tags: MigrationHO
 ---
 
-<!--from editor: In line 68, should it be Common Data Service platform server? -->
-
-
 # Connect to a model-driven app overview
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client is the agent application you can use to connect to the Common Data Service platform instance where you have deployed your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities and configuration data. On signing in through the client application, it reads the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration on the Common Data Service platform instance, and accordingly exposes the controls and functionality in the application.  
 
@@ -65,7 +62,7 @@ Single sign-on (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-un
 
 ### Understand SSO for Unified Service Desk
 
-While signing in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you must enter the model-driven apps credentials and sign in, and again, you are shown a dialog to enter credentials to connect to the Common Data Platform server. To avoid entering credentials multiple times, the single sign-on (SSO) feature is introduced.
+While signing in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you must enter the model-driven apps credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Common Data Service. To avoid entering credentials multiple times, the single sign-on (SSO) feature is introduced.
 
 By default, the SSO feature is enabled for the Chrome Process. With SSO, you need to enter the credentials only once while signing in to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and the Common Data Service platform server.
 

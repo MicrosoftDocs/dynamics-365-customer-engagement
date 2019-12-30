@@ -1,6 +1,6 @@
 ---
-title: "Use knowledge for effective customer engagement in Unified Service Desk | MicrosoftDocs"
-description: "Learn how to use knowledge base for effective customer engagement in Unified Service Desk."
+title: "Use knowledge management for effective customer engagement in Unified Service Desk | MicrosoftDocs"
+description: "Learn how to use knowledge management for effective customer engagement in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
 ms.date: 08/17/2018

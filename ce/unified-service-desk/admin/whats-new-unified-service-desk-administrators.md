@@ -18,9 +18,6 @@ search.app:
   - D365USD
 ---
 
-<!--from editor: Please review the use of "Customer Engagement" in lines 72, 80, and 177. If it does not refer to on-premises, what should it change to? -->
-
-
 # What's new in Unified Service Desk for administrators
 
 ::: moniker range="dynamics-usd-4.1"
@@ -69,7 +66,7 @@ More information: [Integrate channel using Channel Integration Framework](../int
 
 ### Cache-specific configuration for agents
 
-The Configuration Cache Version option causes the client caching feature to retrieve the configuration that has undergone change from the Customer Engagement server to the agent’s desktop and avoid retrieving all configurations.
+The Configuration Cache Version option causes the client caching feature to retrieve the configuration that has undergone change from the server to the agent’s desktop and avoid retrieving all configurations.
 
 Your organization may have several departments, each with a configuration and agents added to those configurations. Whenever you make a change to one of those configurations, the **Configuration Cache Version** feature helps to download only that specific configuration for which you've made a change. Also, when the agents assigned to other configurations sign in to the client application, the feature doesn't download the configurations, thus improving the startup time of Unified Service Desk. This is also helpful in better application lifecycle management for Unified Service Desk in cases where your organization wants to make changes in your pilot or developer configurations without impacting the production users.
 
@@ -77,7 +74,7 @@ More information: [Cache specific configuration for agents](../admin/set-configu
 
 ### Single sign-on for Unified Service Desk
 
-Single sign-on (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides an improved startup performance and user experience by authenticating users to access Customer Engagement apps without the need for entering the credentials multiple times. This eliminates the need for entering the same password again and minimizes the possibility of login errors and ensures a seamless experience.
+Single sign-on (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides an improved startup performance and user experience by authenticating users to access the model-driven apps without the need for entering the credentials multiple times. This eliminates the need for entering the same password again and minimizes the possibility of login errors and ensures a seamless experience.
 
 More information: [Single sign-on (SSO) for Unified Service Desk](../admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk)
 
@@ -174,7 +171,7 @@ See the video to know [What's New in Unified Service Desk 3.3](https://go.micros
 
 ### Analyze best practices in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 
-Best practices are the guidelines about System Configurations, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], Internet Explorer settings, and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Customer Engagement. Consider these guidelines as our recommended way to use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and serve your customers.
+Best practices are the guidelines about System Configurations, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], Internet Explorer settings, and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations. Consider these guidelines as our recommended way to use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and serve your customers.
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the compliance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with best practice rules in certain categories. The [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] displays the results of analysis in the form of a report with severity levels, description of the parameter, and mitigation for the non-compliant / problematic areas.
 

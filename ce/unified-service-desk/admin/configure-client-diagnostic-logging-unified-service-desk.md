@@ -19,9 +19,6 @@ search.app:
 tags: MigrationHO
 ---
 
-<!--from editor: Please review line 46 - is "Customer Engagement" used correctly, or should it be changed? -->
-
-
 # Client diagnostic logging overview
 There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client diagnostic logging:  
 

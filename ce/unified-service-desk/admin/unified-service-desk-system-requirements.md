@@ -13,9 +13,6 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-
-<!--from editor: Please review the use of "Customer Engagement" in line 84. If not refering to on-premises, what should it change to? -->
-
 # Requirements
 This topic provides information about the system requirements for installing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and deploying the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications on the Common Data Service platform instance.  
 
@@ -81,7 +78,7 @@ Supported Unified Service Desk versions are:
 
 ## Impact of Unified Interface Only availability with Unified Service Desk
 
-You have deployed Unified Service Desk in a Customer Engagement Sandbox environment and when you reset the sandbox environment, you will have only the Unified Interface experience. To enable the Web Client experience, see [How to enable/disable Unified Interface Only mode](/dynamics365/customer-engagement/admin/enable-unified-interface-only#how-to-enable-unified-interface-only-mode).
+You have deployed Unified Service Desk in a Sandbox environment and when you reset the sandbox environment, you will have only the Unified Interface experience. To enable the Web Client experience, see [How to enable/disable Unified Interface Only mode](/dynamics365/customer-engagement/admin/enable-unified-interface-only#how-to-enable-unified-interface-only-mode).
 
 After you enable the Web Client experience, go to the Window Navigation Rules and update the navigation URLs for the all the rules.
 
