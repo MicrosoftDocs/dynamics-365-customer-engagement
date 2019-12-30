@@ -4,7 +4,7 @@ description: "Learn how to manage applications using the application tab panel i
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 27/12/2019
+ms.date: 12/27/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
