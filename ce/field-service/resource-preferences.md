@@ -30,37 +30,56 @@ search.app:
 
 Resource preferences allow dispatchers to give preference to specific resources over others when scheduling with Schedule Assistant or Resource Scheduling Optimization (RSO). 
 
-From a requirement, the dispatcher can add a one or more resource preference records. 
+From a requirement, the dispatcher can add a one or more resource preferences. 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-resource-preference.png)
 
 
-For each resource that is added as a resource preference, you can define a **Preference Type**: 
+For each resource that is added as a resource preference, you can define a **Preference Type**:
+
 - **Preferred:** these resources will show at the top of Schedule Assistant results and RSO will prioritize these resource over others but will not guarantee the requirement is scheduled to them.
 - **Restricted:** these resources will be excluded from Schedule Assistant results and RSO will not auto schedule this requirement to them.
 - **Must choose from:** only these resources will show in Schedule Assistant results and RSO will schedule to one of them. If none of these resources are available, the requirement will not be scheduled.
+
+Because you can add multiple resource preferences to a single requirement, you can note both preferred resources and restricted resources on the same requirement.
+
+To explain resource preferences, let's look at one example for each preference type: preferred, restricted, and must choose from.
+
 
 ## Prerequisites
 
 - Resource Scheduling Optimization v3.0.19263.1+ for RSO to consider the "Must choose from" constraint
 
-> [!Note]
->
-
-
 ## Preferred
 
 **Preferred** resources will show at the top of Schedule Assistant results and RSO will prioritize these resource over others but will not guarantee the requirement is scheduled to them.
+
+First create a work order.
+
+Then go to the resource requirement that is automaticlaly created when a work order is created.
+
+Alongside where you can add skills and resource roles that are required, add a new resource preference record.
+
+Select a resource and choose **Preferred** for **Preference Type**.
+
+
+In the example below, we created a work order (WO-1000000053) and then added Abraham McCormick as a preferred resource to the related resource requirement.
+
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-resource-preference-preferred.png)
 
+From the schedule board, select and highlight the requirement and choose **Find Availability** to trigger the schedule assistant. You will notice your preferred resource is shown at the top of the list with a heart icon indicating he or she is preferred.
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-resource-preference-preferred-grid.png)
+
+> [!Note]
+> The preferred resource will only show if it meets the other fitler criteria such as location, skills, resource types, etc.
 
 ## Restricted
 
@@ -71,7 +90,7 @@ For each resource that is added as a resource preference, you can define a **Pre
 > ![Screenshot of ](./media/scheduling-resource-preference-restricted.png)
 
 > [!Note]
->
+> Expiration date
 
 ## Must choose from
 
