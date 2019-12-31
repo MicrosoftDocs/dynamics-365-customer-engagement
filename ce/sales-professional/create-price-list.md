@@ -1,12 +1,14 @@
 ---
 title: "Create price lists in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Define what to charge for your products or services by creating a price list and price list items in Dynamics 365 Sales Professional."
+keywords: ""
 ms.date: 10/01/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
+ms.custom:
   - "dyn365-sales"
 ms.topic: article
+ms.assetid: a42ae5c9-c422-9cfe-b292-5e265c65d69e
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -27,7 +29,8 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
     The Price List form opens.
 
-    ![Empty Price list form](media/empty-price-list-form.png "Empty Price list form")
+    > [!div class="mx-imgBorder"]
+    > ![Empty Price list form](media/empty-price-list-form.png "Empty Price list form")
 
 4.  Fill in your information, and then select **Save**.
 
@@ -41,7 +44,8 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
     1.  In the **Price List** form, select the **Price List Items** tab, and then select **Add New Price List Item**.
 
-    ![Add New Price List Item button on the Price List Items tab](media/price-list-items-tab.png "Add New Price List Item button on the Price List Items tab")
+    > [!div class="mx-imgBorder"]
+    > ![Add New Price List Item button on the Price List Items tab](media/price-list-items-tab.png "Add New Price List Item button on the Price List Items tab")
 
     2. In the **Price List Item** form, fill in the information, and select **Save and Close**:
 
@@ -59,7 +63,8 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
         -  **Quantity Selling Option**. Select whether the product or service can be ordered in whole, partial, or both types of quantities. This information is used in the Quantity field of Quote Product, Order Product, and Invoice Product records.
 
-        ![New Price List Item form](media/empty-price-list-item-form.png "New Price List Item form")
+        > [!div class="mx-imgBorder"]
+        > ![New Price List Item form](media/empty-price-list-item-form.png "New Price List Item form")
 
 
 ### See also

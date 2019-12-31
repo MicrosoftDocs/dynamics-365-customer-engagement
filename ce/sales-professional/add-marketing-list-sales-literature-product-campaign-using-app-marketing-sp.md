@@ -35,7 +35,7 @@ Add all items to your campaign that your need in this marketing context. Usually
 
 3. Select the type of record you want in the **Look Up Records** dialog box, in the **Look for** list.  
 
-4. Type the first few letters of the name of the record to narrow your search in the **Search** box, and then select the **Find** button ![Quick Find button in Marketing Campaigns](../sales-enterprise/media/quick-find-button.gif "Quick Find button in Marketing Campaigns").  
+4. Type the first few letters of the name of the record to narrow your search in the **Search** box, and then select the Search icon ![Search icon](../sales-enterprise/media/search-icon.png "Search icon").  
 
 5. Select the check boxes for the records that you want to add in the list of records that appears, select **Add**, and then select **OK**.  
 

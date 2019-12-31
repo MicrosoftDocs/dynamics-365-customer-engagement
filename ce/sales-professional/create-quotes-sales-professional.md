@@ -34,7 +34,8 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
     The Quote form opens.
 
-    ![Quote form with data from opportunity](media/quote-form-opportunity-data.png "Quote form with data from opportunity")
+    > [!div class="mx-imgBorder"]
+    > ![Quote form with data from opportunity](media/quote-form-opportunity-data.png "Quote form with data from opportunity")
 
 4.  Enter shipping and payment information in the **Shipping Information** area of the **Quote** screen.
 
@@ -57,7 +58,8 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
     The Quote form opens.
 
-    ![Quote form](media/empty-quote-form.png "Quote form")
+    > [!div class="mx-imgBorder"]
+    > ![Quote form](media/empty-quote-form.png "Quote form")
 
 3.  Add your quote information.
 

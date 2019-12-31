@@ -1,12 +1,14 @@
 ---
 title: "Customize the opportunity Close form (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Customize the opportunity close experience in Dynamics 365 Sales Professional to enable sales reps to capture important details about why an opportunity was closed."
+keywords: ""
 ms.date: 10/11/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
+ms.custom:
   - "dyn365-sales"
 ms.topic: article
+ms.assetid: 52a9d56b-d6b1-fa13-8ab5-4f05493edc60
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -44,13 +46,15 @@ Any custom attribute added to the Opportunity Close form should be added to the 
 
 1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
-    ![Advanced Settings option on the Settings menu](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
+    > [!div class="mx-imgBorder"]
+    > ![Advanced Settings option on the Settings menu](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
 
 2.  On the navigation bar, select **Settings**, and then under **Application**, select **My Apps**.
 
 3.	On the Sales Professional tile, select the **More options** icon ![More options icon](media/more-options-icon.png "More options icon"), and then select **Open in App designer**.
 
-    ![Open app in app designer](media/open-in-app-designer.png "Open app in app designer")
+    > [!div class="mx-imgBorder"]
+    > ![Open app in app designer](media/open-in-app-designer.png "Open app in app designer")
 
     The app designer opens.
 
@@ -58,7 +62,8 @@ Any custom attribute added to the Opportunity Close form should be added to the 
 
 5.	In the **Search Entities** box, type Opportunity Close, select the **Opportunity Close** entity. 
 
-    ![Select Opportunity Close entity](media/select-opportunity-close-entity.png "Select Opportunity Close entity")
+    > [!div class="mx-imgBorder"]
+    > ![Select Opportunity Close entity](media/select-opportunity-close-entity.png "Select Opportunity Close entity")
 
 6. Select the **See more options for the entity** icon, and then select the **Add all assets** and **Include entity metadata** check boxes.
 
@@ -72,13 +77,15 @@ To create fields,
 
 1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
-    ![Advanced Settings option on the Settings menu](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
+    > [!div class="mx-imgBorder"]
+    > ![Advanced Settings option on the Settings menu](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
 
     The **Business Management** page opens.
 
 2.  On the navigation bar, select **Settings**, and then select **Customizations**.
 
-    ![Customization option on the site map](../sales-enterprise/media/customization-in-sitemap.png "Customization option on the site map")
+    > [!div class="mx-imgBorder"]
+    > ![Customization option on the site map](../sales-enterprise/media/customization-in-sitemap.png "Customization option on the site map")
 
 3.  On the **Customization** page, select **Customize the System**.
 
@@ -97,7 +104,8 @@ After you’ve created the fields that are required by your organization, add th
 
 2.  Under **Opportunity Close** node, select **Forms**.
 
-    ![Forms node in Solution explorer](../sales-enterprise/media/forms-node-solution-explorer.png "Forms node in Solution explorer")
+    > [!div class="mx-imgBorder"]
+    >![Forms node in Solution explorer](../sales-enterprise/media/forms-node-solution-explorer.png "Forms node in Solution explorer")
 
 3.  Open the **Opportunity Close** form of type **Quick Create**.
 

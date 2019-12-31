@@ -118,8 +118,8 @@ Price lists tie the unit, product, and pricing details together, so before you c
       
     -  **As this role**. Select a connection role that is associated with the territory record type.
 
-              > [!div class="mx-imgBorder"]
-              > ![Add territory as connection](media/add-territory-as-connection.png "Add territory as connection")
+         > [!div class="mx-imgBorder"]
+         > ![Add territory as connection](media/add-territory-as-connection.png "Add territory as connection")
  
     d.	In the price list record, select **Save & Close**.
   
