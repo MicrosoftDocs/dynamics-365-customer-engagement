@@ -46,39 +46,6 @@ ms.custom:
 <tr>
 <td>
 
-<h3> Templates </h3>
-
-<li><a href="v2/session-templates-cif.md" data-raw-source="[Manage session templates](v2/session-templates-cif.md)">Manage session templates</a></li>
-<li><a href="v2/application-tab-templates-cif.md" data-raw-source="[Manage application tab templates](v2/application-tab-templates-cif.md)">Manage application tab templates</a></li>
-<li><a href="v2/notification-templates-cif.md" data-raw-source="[Manage notification templates](v2/notification-templates-cif.md)">Manage notification templates</a></li>
-<li><a href="v2/automation-dictionary-keys-cif.md" data-raw-source="[Use automation dictionary to pass data parameter keys](v2/automation-dictionary-keys-cif.md)">Use automation dictionary to pass data parameter keys</a></li>
-<li><a href="v2/associate-templates-cif.md" data-raw-source="[Associate templates with scenarios](v2/associate-templates-cif.md)">Associate templates with scenarios</a></li>
-</td>
-<td>
-
-<h3> Channel Analytics </h3>
-
-<li><a href="v2/channel-analytics.md" data-raw-source="[Channel Analytics](v2/channel-analytics.md)">Channel Analytics</a></li>
-</td>
-</tr>
-<tr>
-<td>
-
-<h3> Integrate</h3>
-
-<li><a href="integration-multi-session-experiences.md" data-raw-source="[Integration with multi-session experiences](integration-multi-session-experiences.md)">Integration with multi-session experiences</a></li>
-</td>
-
-<td>
-
-<h3> Support for multiple providers </h3>
-
-<li><a href="support-multiple-providers.md" data-raw-source="[Support for multiple providers](support-multiple-providers.md)">Support for multiple providers</a></li>
-</td>
-</tr>
-<tr>
-<td>
-
 <h3> How to </h3>
 
 <li><a href="v2/configure-channel-provider-channel-integration-framework.md" data-raw-source="[Configure a channel provider for your organization](v2/configure-channel-provide-channel-integration-framework.md)">Configure a channel provider for your organization</a></li>
@@ -86,6 +53,12 @@ ms.custom:
 <li><a href="v2/add-cif-solution-dependent-solution.md" data-raw-source="[Add a Dynamics 365 Channel Integration Framework solution as a dependent solution](v2/add-cif-solution-dependent-solution.md)">Add a Dynamics 365 Channel Integration Framework solution as a dependent solution</a></li>
 <li><a href="v2/authenticate-channel-users.md" data-raw-source="[Authenticate channel users to the channel (widget)](v2/authenticate-channel-users.md)">Authenticate channel users to the channel (widget)</a></li>
 <li><a href="v2/pass-url-widget-library.md" data-raw-source="[Pass Dynamics 365 URL to widget library](v2/pass-url-widget-library.md)">Pass Dynamics 365 URL to widget library</a></li>
+<li><a href="v2/session-templates-cif.md" data-raw-source="[Manage session templates](v2/session-templates-cif.md)">Manage session templates</a></li>
+<li><a href="v2/application-tab-templates-cif.md" data-raw-source="[Manage application tab templates](v2/application-tab-templates-cif.md)">Manage application tab templates</a></li>
+<li><a href="v2/notification-templates-cif.md" data-raw-source="[Manage notification templates](v2/notification-templates-cif.md)">Manage notification templates</a></li>
+<li><a href="v2/associate-templates-cif.md" data-raw-source="[Associate templates with scenarios](v2/associate-templates-cif.md)">Associate templates with scenarios</a></li>
+<li><a href="v2/channel-analytics.md" data-raw-source="[Channel Analytics](v2/channel-analytics.md)">Channel Analytics</a></li>
+<li><a href="support-multiple-providers.md" data-raw-source="[Support for multiple providers](support-multiple-providers.md)">Support for multiple providers</a></li>
 </td>
 <td>
 
@@ -95,7 +68,6 @@ ms.custom:
  methods](v2/reference/microsoft-ciframework-v2.md)">Microsoft.CIFramework</a></li>
 <li><a href="v2/reference/client-side-events.md" data-raw-source="[Client-side events](v2/reference/client-side-events.md)">Client-side events</a>
 <li><a href="v2/reference/entities-attributes/msdyn-ciprovider.md" data-raw-source="[Entity reference](v2/reference/entities-attributes/msdyn-ciprovider.md)">Entity reference</a></li>
-
 </td>
 </tr>
 
