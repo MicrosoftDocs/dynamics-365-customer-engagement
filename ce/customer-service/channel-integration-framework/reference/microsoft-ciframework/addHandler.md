@@ -7,7 +7,7 @@ manager: shujoshi
 ms.date: 10/12/2018
 ms.topic: reference
 ms.service: 
-  - dynamics-365-cross-app
+  - dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

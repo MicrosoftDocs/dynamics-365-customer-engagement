@@ -7,7 +7,7 @@ manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: get-started-article
 ms.service: 
-  - dynamics-365-cross-app
+  - dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -25,14 +25,14 @@ With the Dynamics 365 Channel Integration Framework application, you can configu
 
 ## Challenges of channel provider integration systems
 
-Organizations expect their call centers to do more with fewer resources, and there is a constant drive to increase productivity in terms of call center agents handling more phone calls. Reducing the average time to handle customers can save companies millions of dollars. Telephony channel (Computer Telephony Integration (CTI)) in call centers is one of the key indicators for success and customer satisfaction. In that context, some of the challenges the call center industry faces with the telephony (CTI) are as follows:
+Organizations expect their call centers to do more with fewer resources, and there is a constant drive to increase productivity in terms of call center agents handling more phone calls. Reducing the average time to handle customers can save companies millions of dollars. Telephony channel in call centers is one of the key indicators for success and customer satisfaction. In that context, some of the challenges the call center industry faces with the telephony are as follows:
 
   - Integrating third-party telephony channel into the Customer Relationship Management (CRM) platforms.
   - Accessing and performing operations on the CRM from the telephony widget area.
-  - Developing and deploying telephony channel (CTI) needs writing adapters and complex custom codes for solution integration.
+  - Developing and deploying telephony channel needs writing adapters and complex custom codes for solution integration.
   - Using APIs and out-of-box customization, which are not supported for the production environment.
-  - The dependency of telephony channel (CTI) on the operating system and web browsers.
-  - Customizing the telephony channel (CTI) based on the business and process workflows.
+  - The dependency of telephony channel on the operating system and web browsers.
+  - Customizing the telephony channel based on the business and process workflows.
 
 ## Advantages and value propositions of Dynamics 365 Channel Integration Framework
 

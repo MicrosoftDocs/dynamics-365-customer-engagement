@@ -7,7 +7,7 @@ manager: shujoshi
 ms.date: 10/18/2019
 ms.topic: get-started-article
 ms.service: 
-  - dynamics-365-cross-app
+  - dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -25,14 +25,14 @@ With the Dynamics 365 Channel Integration Framework application (solution), you 
 
 ## Challenges of channel provider integration systems
 
-Organizations expect their call centers to do more with fewer resources, and there is a constant drive to increase productivity in terms of call center agents handling more chats, phone calls, emails, and so on. Reducing the average time to handle customers can save companies millions of dollars. Channel providers (Computer Telephony Integration (CTI), messaging, and email systems) in call centers are one of the key indicators for success and customer satisfaction. In that context, some of the challenges the call center industry faces with the channel providers (CTI, messaging (SMS), and the email systems) are as follows:
+Organizations expect their call centers to do more with fewer resources, and there is a constant drive to increase productivity in terms of call center agents handling more chats, phone calls, emails, and so on. Reducing the average time to handle customers can save companies millions of dollars. Channel providers (telephony, messaging, and chat channels) in call centers are one of the key indicators for success and customer satisfaction. In that context, some of the challenges the call center industry faces with the channel providers (telephony, messaging, and chat channels) are as follows:
 
   - Integrating third-party channel providers into the Customer Relationship Management (CRM) platforms.
-  - Accessing and performing operations on the CRM from the CTI, messaging (SMS), and the email systems.
-  - Developing and deploying CTI, messaging (SMS), and the email system needs writing adapters and complex custom codes for solution integration.
+  - Accessing and performing operations on the model-driven app from the telephony, messaging (SMS), and the chat channels.
+  - Developing and deploying telephony, messaging (SMS), and the chat channel needs writing adapters and complex custom codes for solution integration.
   - Using APIs and out-of-box customization, which are not supported for the production environment.
-  - The dependency of channel providers (CTI, messaging (SMS), and the email systems) on the operating system and web browsers.
-  - Customizing the channel provider (CTI, messaging (SMS), and the email systems) based on the business and process workflows.
+  - The dependency of channel providers (telephony, messaging, and chat channels) on the operating system and web browsers.
+  - Customizing the channel provider (telephony, messaging, and chat channels) based on the business and process workflows.
 
 ## Advantages and value propositions of Dynamics 365 Channel Integration Framework
 
