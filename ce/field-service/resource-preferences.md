@@ -97,15 +97,16 @@ Then trigger the schedule assistant for the requirement.
 The restricted resource will show as restricted in the filter panel and will not display in results. Dispatchers have the option to edit or delete the resource preference in the filter panel as needed. 
 
 
-
 ## Must choose from
 
-**Must choose from:** only these resources will show in Schedule Assistant results and RSO will schedule to one of them. If none of these resources are available, the requirement will not be scheduled.
+The "Must choose from" resource preference means only these resources will show in Schedule Assistant results and RSO will schedule to one of them. If none of these resources are available, the requirement will not be scheduled.
 
+In the example below, the resource "Edgar Dominguez" was added to a requirement as a "must choose from" resource preference (preference type = Must choose from).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-resource-preference-must-choose-from.png)
 
+In the schedule assistant grid view, the available time slots for only the "must choose from" resource(s) is shown. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-resource-preference-must-choose-from-grid.png)
