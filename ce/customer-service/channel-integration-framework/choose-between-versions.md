@@ -26,11 +26,15 @@ You can use Dynamics 365 Channel Integration Framework version 1.0 to integrate 
 - Dynamics 365 Project Service
 - Dynamics 365 Field Service
 
-You can integrate channels, such as telephony, messaging (SMS), chat with any of the single-session Dynamics 365 model-driven app to have an immersive experience.
+You can integrate channels, such as telephony, messaging (SMS), chat and social channels with any of the single-session Dynamics 365 model-driven app to have an immersive experience.
+
+More information: [Channel Integration Framework version 1.0](overview-channel-integration-framework.md)
 
 ## Channel Integration Framework version 2.0
 
 You can use Dynamics 365 Channel Integration Framework version 2.0 to integrate a channel provider of your choice if your organization is using any of the multi-session app like Omnichannel for Customer Service. You can integrate telephony channel to have an immersive experience.
+
+More information: [Channel Integration Framework version 2.0](v2/overview-channel-integration-framework.md)
 
 ## Version 1.0 and 2.0
 
@@ -49,6 +53,6 @@ The matrix explains the various aspects of version 1.0 and 2.0.
 
 ## See also
 
-[Channel Integration Framework version 2.0](v2/overview-channel-integration-framework.md)
+[Channel Integration Framework version 1.0](overview-channel-integration-framework.md)
 
-[Channel Integration Framework version 1.0](verview-channel-integration-framework.md)
+[Channel Integration Framework version 2.0](v2/overview-channel-integration-framework.md)
