@@ -58,7 +58,7 @@ ms.custom:
 <li><a href="v2/notification-templates-cif.md" data-raw-source="[Manage notification templates](v2/notification-templates-cif.md)">Manage notification templates</a></li>
 <li><a href="v2/associate-templates-cif.md" data-raw-source="[Associate templates with scenarios](v2/associate-templates-cif.md)">Associate templates with scenarios</a></li>
 <li><a href="v2/channel-analytics.md" data-raw-source="[Channel Analytics](v2/channel-analytics.md)">Channel Analytics</a></li>
-<li><a href="support-multiple-providers.md" data-raw-source="[Support for multiple providers](support-multiple-providers.md)">Support for multiple providers</a></li>
+<li><a href="v2/support-multiple-providers.md" data-raw-source="[Support for multiple providers](v2/support-multiple-providers.md)">Support for multiple providers</a></li>
 </td>
 <td>
 
