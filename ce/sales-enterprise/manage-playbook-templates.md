@@ -1,12 +1,14 @@
 ---
 title: "Manage playbook templates (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Create and manage playbook templates to help your team consistently perform recurrent business processes such as a sales process."
+keywords: ""
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
+ms.assetid: 457ab189-dffe-bfc0-1db9-ee1e063a0dc9
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -20,7 +22,7 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
 
 1.  Make sure you have **Playbook administrator** role or equivalent permissions.
 
-2.  Select the site map ![Site Map icon](media/site-map-icon.png "site map icon") icon, select **More options** ![more options icon](media/more-options-icon.png "More Options icon"), and then select **App Settings**.  
+2.  In the site map, select the Change area icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.  
 
 3.  Select **Playbook Templates**.
 

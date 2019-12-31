@@ -27,7 +27,7 @@ While creating a new hosted control, the fields in the New Hosted Control screen
 
 In the New Hosted Control screen:
 
-- Under **[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]** area, select **Unified Interface Page** from the **USD Component Type** drop-down list.
+- Under **[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]** area, select **Unified Interface Page** from the **Unified Service Desk Component Type** drop-down list.
 
 - Select **Pre-fetch Data** to load related information for an entity record in the context along with the entity record page without having to wait for the full entity web page to load in the client application. The fetched entity information is populated in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context thus enabling any hosted control to quickly display relevant entity information on the client application. This could help agents instantly act or kick start discussion with customers, and save crucial interaction time.
 

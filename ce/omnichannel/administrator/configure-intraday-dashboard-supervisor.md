@@ -6,7 +6,7 @@ ms.author: udag
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 6/20/2019
+ms.date: 12/27/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -82,9 +82,6 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     > ![Select Overview option](../media/supervisor-admin-select-overview-dashboard.png "Select Overview option")
 
     The Power BI configuration view opens.
-
-    > [!div class=mx-imgBorder]
-    > ![Configuration of Power BI workspace](../media/supervisor-admin-active-powerbi-configuration.png "Configuration of Power BI workspace")
 
 3.  Select **+ New**. 
 

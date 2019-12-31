@@ -33,9 +33,9 @@ With the new release, the Service Manager moves under the Customer Service Hub, 
 
 ### Customer Service Hub
 
-Use the Service Management to set up various admin tasks for customer service. You can access service management from the Customer Service Hub sitemap.
+Use the Service Management to set up various admin tasks for customer service.
 
-In the Customer Service Hub sitemap, select **...** to go to Service Management.
+In the bottom left pane, select the change area, and select Service Management.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand the sitemap navigation](customer-service-hub-user-guide-basics.md#understand-the-sitemap-navigation)
 
