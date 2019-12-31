@@ -4,7 +4,7 @@ description: "Learn about the system requirements of Dynamics 365 Channel Integr
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 10/16/2019
+ms.date: 12/31/2019
 ms.topic: article
 ms.service: 
   - dynamics-365-cross-app
@@ -38,11 +38,11 @@ To have multisession capabilities, your organization must use Omnichannel for Cu
 
 All the URLs must be secure (HTTPS).
 
-> [!div class="nextstepaction"]
-> [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)
-
-
 ## See also
+
+[Get Dynamics 365 Channel Integration Framework version 2.0](get-channel-integration-framework.md)
+
+[Get Dynamics 365 Channel Integration Framework version 1.0](v2/get-channel-integration-framework.md)
 
 [Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)
 

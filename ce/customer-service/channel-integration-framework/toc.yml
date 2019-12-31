@@ -1,58 +1,60 @@
 - name: "Dynamics 365 Channel Integration Framework"
   href: channel-integration-framework.md
   items:
+  - name: "Channel Integration Framework version 2.0?"
+    href: v2/overview-channel-integration-framework.md
+  - name: "Channel Integration Framework version 1.0?"
+    href: overview-channel-integration-framework.md    
   - name: "What's new"
     href: whats-new-channel-integration-framework.md
   - name: "System requirements"
     href:  system-requirements-channel-integration-framework.md
   - name: Version 2.0
     items:
-    - name: "What is Channel Integration Framework?"
-      href: v2/overview-channel-integration-framework.md
     - name: "Architecture of version 2.0"
       href: v2/architecture-overview-channel-integration-framework-v2.md
     - name: "Onboard to version 2.0 flight"
       href: v2/onboard-org-flight.md
-    - name: Get the application
+    - name: Download
       items:
       - name: "Get Channel Integration Framework"
         href: v2/get-channel-integration-framework.md
       - name: "Sample softphone integration"
         href: v2/sample-softphone-integration-v2.md
-    - name: "Integrate with multi-session app"
-      href: v2/integration-multi-session-experiences.md
-    - name: "Support multiple providers"
-      href: v2/support-multiple-providers.md
-    - name: "Modes for communication widget"
-      href: v2/modes-communication-widget.md
-    - name: Templates
-      items:
-      - name: "Overview of templates"
-        href: v2/templates-overview-cif.md
-      - name: "Manage session templates"
-        href: v2/session-templates-cif.md
-      - name: "Manage application tab templates"
-        href: v2/application-tab-templates-cif.md      
-      - name: "Manage notification templates"
-        href: v2/notification-templates-cif.md
-      - name: "Use automation dictionary to pass data parameter keys"
-        href: v2/automation-dictionary-keys-cif.md
-      - name: "Associate templates with scenarios"
-        href: v2/associate-templates-cif.md          
-    - name: "Channel Analytics"
-      href: v2/channel-analytics.md
     - name: How-to
       items:
       - name: "Configure channel provider for your Dynamics 365 organization"
-        href: configure-channel-provider-channel-integration-framework.md
+        href: v2/configure-channel-provider-channel-integration-framework.md
       - name: "Enable outbound communication (ClickToAct)"
-        href: enable-outbound-communication-clicktoact.md
+        href: v2/enable-outbound-communication-clicktoact.md
       - name: "Add CIF solution as a dependent solution"
-        href: add-cif-solution-dependent-solution.md   
+        href: v2/add-cif-solution-dependent-solution.md   
       - name: "Authenticate channel users to the channel (widget)"
-        href: authenticate-channel-users.md
+        href: v2/authenticate-channel-users.md
       - name: "Pass Dynamics 365 URL to widget library"
-        href: pass-url-widget-library.md
+        href: v2/pass-url-widget-library.md
+      - name: "Integrate with multi-session app"
+        href: v2/integration-multi-session-experiences.md
+      - name: "Support multiple providers"
+        href: v2/support-multiple-providers.md
+      - name: "Modes for communication widget"
+        href: v2/modes-communication-widget.md
+      - name: Templates
+        items:
+        - name: "Overview of templates"
+          href: v2/templates-overview-cif.md
+        - name: "Manage session templates"
+          href: v2/session-templates-cif.md
+        - name: "Manage application tab templates"
+          href: v2/application-tab-templates-cif.md      
+        - name: "Manage notification templates"
+          href: v2/notification-templates-cif.md
+        - name: "Use automation dictionary to pass data parameter keys"
+          href: v2/automation-dictionary-keys-cif.md
+        - name: "Associate templates with scenarios"
+          href: v2/associate-templates-cif.md          
+      - name: "Channel Analytics"
+        href: v2/channel-analytics.md
     - name: JavaScript API Reference
       items:
       - name: "Microsoft.CIFramework"
@@ -173,11 +175,9 @@
 
   - name: Version 1.0
     items:
-    - name: "What is Channel Integration Framework?"
-      href: overview-channel-integration-framework.md
     - name: "Architecture of version 1.0"
       href: architecture-overview-channel-integration-framework.md
-    - name: Get the application
+    - name: Download
       items:
       - name: "Get Channel Integration Framework"
         href: get-channel-integration-framework.md
