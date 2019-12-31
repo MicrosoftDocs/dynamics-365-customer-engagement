@@ -1,12 +1,14 @@
 ---
 title: "Manage tasks, appointments, email, or phone calls in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Track all your customer communications with activities in Dynamics 365 Sales Professional."
+keywords: ""
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
+ms.assetid: de532150-5c51-5fab-4b5d-4614aa3206df
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -25,7 +27,8 @@ every email, phone call, task, or appointment. That way, a customer’s history 
 
 1. In the site map, select **Activities**. 
 
-    ![Select activities in site map](media/task-activity-in-menu.png "Select activities in site map")
+    > [!div class="mx-imgBorder"]
+    > ![Select activities in site map](media/task-activity-in-menu.png "Select activities in site map")
 
 2. From the view list, select a view to see activities for one of the following activity types:
 
@@ -37,7 +40,8 @@ every email, phone call, task, or appointment. That way, a customer’s history 
 
     -   Phone Call
 
-     ![Select a view from the View list](media/view-list-activity.png "Select a view from the View list")
+      > [!div class="mx-imgBorder"]
+      > ![Select a view from the View list](media/view-list-activity.png "Select a view from the View list")
 
 ## Filter the list of activities
 
@@ -47,7 +51,8 @@ You can filter the list of activities to see only the ones you’re interested i
 
 2.  Select the arrow next to the view name at the top of the page, and select the **My Sent Emails** view.
 
-   ![Drop-down list to select a view](media/drop-down-list-select-a-view.png "Drop-down list to select a view")
+    > [!div class="mx-imgBorder"]
+    > ![Drop-down list to select a view](media/drop-down-list-select-a-view.png "Drop-down list to select a view")
 
 
 ## Add a new activity for a customer
@@ -71,7 +76,8 @@ Otherwise, to keep a history of your interactions with a customer, you should ad
 
 2.  On the command bar, select an activity type—for example, **Task**.
 
-    ![Command bar button for creating a new activity type Task](media/create-task.png "Command bar button for creating a new activity type Task")
+    > [!div class="mx-imgBorder"]
+    > ![Command bar button for creating a new activity type Task](media/create-task.png "Command bar button for creating a new activity type Task")
     
 3.  Fill in the fields, and then select **Save**.
 
@@ -85,7 +91,8 @@ you can mark the activity for that action as completed.
 
 2.  On the command bar, select **Mark Complete**.
 
-    ![Command bar button to mark an activity complete](media/command-bar-button-mark-activity-complete.png "Command bar button to mark an activity complete")
+    > [!div class="mx-imgBorder"]
+    > ![Command bar button to mark an activity complete](media/command-bar-button-mark-activity-complete.png "Command bar button to mark an activity complete")
 
 
 ### See also

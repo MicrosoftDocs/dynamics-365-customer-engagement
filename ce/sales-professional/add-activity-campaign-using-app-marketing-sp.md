@@ -47,23 +47,25 @@ Make your marketing campaigns successful by creating, distributing, and assignin
   
 ## Add a campaign activity to a campaign  
   
-1. In the site map, select **Marketing Lists**, and from the Campaigns area, open the campaign to which you want to add a campaign activity.
+1. In the site map, select **Marketing Lists**, and from the **Campaigns** area, open the campaign to which you want to add a campaign activity.
   
-2. on the **Related** tab, select **Campaign Activities**, and then select **New Campaign Activity**.  
+2. On the **Related** tab, select **Campaign Activities**, and then select **New Campaign Activity**.  
   
 3. In the **Summary** section of the **Campaign Activity** form, enter the required information: 
 
     a.  **Subject**. Type the objective of the campaign activity.
     
     b.  **Used in Campaign.** When you create the campaign activity from a campaign, the campaign is automatically added here. 
-    
-    c.  Scheduled start and end date. Enter the expected date and time the activity is scheduled to start and end.   
+
+    c.  **Channel.** Select the channel through which the communication for this activity must be sent. For example, phone, letter, or email. 
+        
+    d.  Scheduled start and end date. Enter the expected date and time the activity is scheduled to start and end.   
 
 4. In the **Anti-Spam Settings** section, enter the frequency cap (in days) for marketing activities directed at any contact. Contacts that have been contacted more recently than this will be excluded from new campaign activity distributions. Enter "0" to disable the limit.
 
 5. On the Campaign Activity form, select **Save**.
 
-6. To add a marketing list, select **+**. In the **Look Up Records** box, type in your search and select the **Search** button, select one or more marketing lists, and select **Add**.  
+6. The marketing list from which the campaign activity is created is automatically added in the Marketing list section. To add more marketing list, select the **More Commands** icon ![More Commands icon](media/more-commands-button.png "More Commands icon"), and then select **Add Existing Marketing List**.  
   
 7. To distribute the new campaign activity, on the command bar, select **Distribute Campaign Activity**.  
   

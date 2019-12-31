@@ -36,7 +36,7 @@ Promote your business, expand your reach to new customers, and improve sales by 
 
 2. Open a marketing list record, and then in the **Campaigns** area, select **New Campaign**.
 
-   - OR -
+   \- OR -
 
    To edit a campaign, open a campaign from the list.
   
