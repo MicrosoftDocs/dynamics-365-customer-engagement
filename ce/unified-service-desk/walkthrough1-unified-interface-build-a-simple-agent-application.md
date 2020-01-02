@@ -55,7 +55,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
   
 3. Select **+ New**.  
   
-4. On the **New Hosted Control** page, specify the following values.  
+4. On the **New Hosted Control** page, specify the following values:  
   
    |Field|Value|  
    |-----------|-----------|  
@@ -65,7 +65,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
 
 5. Select **Save**.
   
-6. Repeat Step 4 and 5 to create another hosted control with the following values.  
+6. Repeat Step 4 and 5 to create another hosted control with the following values:  
   
    |Field|Value|  
    |-----------|-----------|  
@@ -75,7 +75,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
   
 7. Select **Save**.
 
-8. Repeat Step 4 and 5 to create another hosted control with the following values.  
+8. Repeat Step 4 and 5 to create another hosted control with the following values:  
   
     |Field|Value|  
     |-----------|-----------|  
@@ -119,7 +119,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
 
  In this step, assign users to the configuration so that when they sign in using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, they can only access the three hosted controls that are added to this configuration. For this walkthrough, assign only a single user to the configuration who will be testing the application at the end of the walkthrough.  
   
-1. Select the **Genral** tab of the **Contoso Configuration**, and then select ellipsis (...) in the **Users** section.  
+1. Select the **General** tab of the **Contoso Configuration**, and then select ellipsis (...) in the **Users** section.  
   
 2. Select **Add Existing User**. The **Lookup Records** pane is displayed. 
 
@@ -133,7 +133,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
 ## Step 4: Test the application  
  Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Common Data Service platform instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration** in the previous step. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect to a model-driven app instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
   
- Your agent application will look like the following.  
+ Your agent application will look like the following:  
   
  ![Basic agent application without any controls](../unified-service-desk/media/crm-itpro-usd-wt01-06.png "Basic agent application without any controls")  
   
