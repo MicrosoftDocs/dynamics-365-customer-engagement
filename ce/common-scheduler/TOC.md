@@ -31,3 +31,5 @@
 ### [Understanding and customizing resource matching](developer/understanding-and-customizing-resource-matching-in-urs.md)
 ### [Find resources by language - A step by step guide](developer/extending-urs-step-by-step.md)
 ### [Universal FetchXML](developer/universal-fetchxml.md)
+
+# [Bug fixes](bug-fixes.md)
