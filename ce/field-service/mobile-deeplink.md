@@ -2,7 +2,7 @@
 title: "Use Deeplinks with Field Service Mobile | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/25/2019
+ms.date: 01/02/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -26,11 +26,11 @@ search.app:
   - D365FS
 ---
 
-# Use Deeplinks with Field Service Mobile
+# Use deeplinks with Field Service Mobile
 
 Deeplinking allows users to move from one application to another and is very common on computers and mobile devices. Simple examples include a mobile application deeplinking to Facebook to sign in, an email address deeplinking to the Mail app to compose a message, or a website deeplinking to an app store to download the related mobile application. As multiple apps may be needed to complete onsite work, an organization can allow technicians to deeplink from Field Service Mobile to other apps and vice versa. 
 
-In this article, let's explore deeplinking from Field Service Mobile to other apps to make the expereince of using multiple apps easier for technicians while they complete work orders.
+In this article, let's explore deeplinking from Field Service Mobile to other apps to make the experience of using multiple apps easier for technicians while they complete work orders.
 
 **Scenario:** While using work orders on Field Service Mobile to complete onsite work, a field service organization uses a custom-built PowerApp to request orders for new parts inventory. The organization needs technicians to be able to open the Parts Order PowerApp from work orders in Field Service Mobile and minimize the inconveneince of switching between interfaces. The organization has a "bring-your-own-device" policy for technicians, so the solution needs to work on Windows, iOS, and Android devices. A proposed solution is to create a deeplink from Field Service Mobile to the Powerapp.
 
@@ -222,6 +222,6 @@ By editing the WorkOrder folder and WorkOrder.js file you are editing files incl
 
 
 ### See also
-[PowerApps update – Universal links, HTML control improvements, new service connections and more](https://powerapps.microsoft.com/ro-ro/blog/powerapps-560-update/) 
+- [Power Apps update – Universal links, HTML control improvements, new service connections and more](https://powerapps.microsoft.com/ro-ro/blog/powerapps-560-update/) 
 
-[Set URI parameters for your Canvas apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/embed-apps-dev#set-uri-parameters-for-your-app)
+- [Set URI parameters for your Canvas apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/embed-apps-dev#set-uri-parameters-for-your-app)
