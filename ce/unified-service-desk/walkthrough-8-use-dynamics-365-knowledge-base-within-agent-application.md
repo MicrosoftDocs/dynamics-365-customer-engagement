@@ -78,7 +78,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 4. Click **New**.  
 
-5. On the **New Hosted Control** page, specify the following values.  
+5. On the **New Hosted Control** page, specify the following values:  
 
    |Field|Value|  
    |-----------|-----------|  
@@ -104,7 +104,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 3. Click **New**.  
 
-4. On the **New Action Call** page, specify the following values.  
+4. On the **New Action Call** page, specify the following values:  
 
    |Field|Value|  
    |-----------|-----------|  
@@ -159,7 +159,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 9. Click **New**.  
 
-10. On the **New Action Call** page, specify the following values.  
+10. On the **New Action Call** page, specify the following values:  
 
 
     |     Field      |                                                                                              Value                                                                                               |
@@ -225,7 +225,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 3. Click **New**.  
 
-4. On the **New Action Call** page, specify the following values  
+4. On the **New Action Call** page, specify the following values:  
 
    |Field|Value|  
    |-----------|-----------|  
@@ -278,7 +278,7 @@ In this step, you will:
 
 3. Click **New**.  
 
-4. On the **New Hosted Control** page, specify the following values.  
+4. On the **New Hosted Control** page, specify the following values:  
 
    |Field|Value|  
    |-----------|-----------|  
@@ -302,7 +302,7 @@ In this step, you will:
 
 8. Click **New**.  
 
-9. On the **New Action Call** page, specify the following values.  
+9. On the **New Action Call** page, specify the following values:  
 
     |Field|Value|  
     |-----------|-----------|  
@@ -318,7 +318,7 @@ In this step, you will:
 
 11. Click **New** to create another action call for displaying the article in the hosted control created earlier in this step.  
 
-12. On the **New Action Call** page, specify the following values.  
+12. On the **New Action Call** page, specify the following values:  
 
     |Field|Value|  
     |-----------|-----------|  
@@ -334,7 +334,7 @@ In this step, you will:
 
 14. Click **New** to create another action call for displaying the hosted control created earlier in this step in the main panel.  
 
-15. On the **New Action Call** page, specify the following values  
+15. On the **New Action Call** page, specify the following values:  
 
     |Field|Value|  
     |-----------|-----------|  
@@ -376,7 +376,7 @@ In this step, you will:
 
 5. In the **Buttons** area, click the **+** symbol to add buttons to the toolbar.  
 
-6. On the **New Toolbar Button** page, specify the following values.  
+6. On the **New Toolbar Button** page, specify the following values:  
 
    |Field|Value|  
    |-----------|-----------|  
@@ -398,7 +398,7 @@ In this step, you will:
 
     ![Create a new action call for the toolbar button](../unified-service-desk/media/usd-actioncallfortoolbarbutton.png "Create a new action call for the toolbar button")  
 
-11. On the **New Action Call** page, specify the following values.  
+11. On the **New Action Call** page, specify the following values:  
 
 
     |     Field      |                 Value                 |
@@ -417,7 +417,7 @@ In this step, you will:
 
 15. In the **Buttons** area, click the + button to add buttons to the toolbar.  
 
-16. On the **New Toolbar Button** page, specify the following values.  
+16. On the **New Toolbar Button** page, specify the following values:  
 
 
     |    Field    |                                                                              Value                                                                               |
