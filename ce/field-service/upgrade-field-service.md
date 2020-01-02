@@ -81,7 +81,7 @@ In addition, once your organization begins receiving automatic updates with vers
 
 ### What gets updated?
 
-When the Field Service app is upgraded, the Field Service solution is upgraded and multiple other solutions can be upgraded as well such as Universal Resource Scheduling (also called "Resource Scheduling"), geofencing for Field Service, Field Service Mobile push notifications, and more.
+When the Field Service app is upgraded, the Field Service solution is upgraded and multiple other solutions can be upgraded as well such as Universal Resource Scheduling (also called "Resource Scheduling"), Geofencing for Field Service, Field Service Mobile Push Notifications, and more.
 
 
 > [!div class="mx-imgBorder"]
@@ -203,7 +203,7 @@ Then select **Upgrade to new version**.
 
 ## Additional notes
 
-Field Service Mobile push notifications and geofence alerts solutions that are part of the install and upgrade of Field Service will only be installed if the mobile configuration tool (Woodford) version 11.1+ is present in the environment. Follow the steps below to get these solutions in cases where the mobile configuration tool (Woodford) was not present at install or upgrade.
+Field Service Mobile Push Notifications and Geofence Alerts solutions that are part of the install and upgrade of Field Service will only be installed if the mobile configuration tool (Woodford) version 11.1+ is present in the environment. Follow the steps below to get these solutions in cases where the mobile configuration tool (Woodford) was not present at install or upgrade.
 
   1. [Download](https://aka.ms/fsmobile-configurator) the mobile configuration tool (Woodford) and import into **Settings** > **Solutions**
   2. Delete the **FieldService_Anchor** from the solutions list in **Settings** > **Solutions**.
