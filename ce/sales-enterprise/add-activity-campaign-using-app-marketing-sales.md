@@ -1,14 +1,12 @@
 ---
 title: "Add an activity to a campaign using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Add planning and campaign activities to a campaign to make it successful."
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 79774944-c1e1-175d-5ddb-d58b3d4f4274
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

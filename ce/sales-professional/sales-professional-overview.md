@@ -1,14 +1,12 @@
 ---
 title: "Overview of Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 Sales Professional."
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: ed8162a3-8e51-b8b6-4845-f1aa7e5b7bc1
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

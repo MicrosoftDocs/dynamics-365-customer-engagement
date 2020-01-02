@@ -8,7 +8,6 @@ ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: sakudes
-ms.reviewer: 
 search.audienceType: 
   - admin
   - customizer

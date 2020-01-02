@@ -1,14 +1,12 @@
 ---
 title: "Reopen leads (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Make changes to a disqualified lead by activating it."
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: cf4eaa1c-e724-4a12-f4b8-9fd3bdd1c891
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

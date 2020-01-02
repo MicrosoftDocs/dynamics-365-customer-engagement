@@ -1,12 +1,10 @@
 ---
 title: "Manage sales literature (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Stores sales-related information by using sales literature in Dynamics 365 Sales."
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
 ms.topic: article
-ms.assetid: 1b15f47f-8c90-c9b3-407b-a0df8e250bc2
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
