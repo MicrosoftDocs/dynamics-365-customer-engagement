@@ -50,6 +50,7 @@ To explain resource preferences, let's look at one example for each preference t
 
 ## Prerequisites
 
+- Field Service v8.8.7+
 - For RSO to consider the "Must choose from" resource preference, you must be using Resource Scheduling Optimization v3.0.19263.1+. 
 
 ## Preferred
@@ -63,7 +64,7 @@ Then go to **Related > Requirements** to view the requirement that is automatica
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-resource-preference-navigate.png)
 
-Alternatively, you can navigate to **Related > Resource Preferences** directly from the work order.
+Alternatively, you can go to **Related > Resource Preferences** directly from the work order.
 
 
 Alongside where you can add skills and resource roles that are required, add a new resource preference record.
