@@ -6,12 +6,12 @@
 - Added additional handling to avoid the corruption of the booking setup metadata and the schedule board settings records. 
 - Bookings can be edited in the days view of the schedule board by right-clicking on the booking and selecting **Edit**.
 - The select resources dialog opens and loads successfully on the filter view of the schedule board, even when there are more than 100 resources enabled to be displayed on the schedule board.  
-- When Turkish language is enabled on the org, resource requirement records load under the **Unscheduled Workorders** tab of the Requirement pane of the Schedule board. 
-- When double clicking on the Save button the new Bookable Resource Booking form, would not create duplicate records. 
-- Resources can be searched on the Schedule Board by their name in the Search Resources search box. 
-- Map View on the Schedule Board only shows the pins for the Requirements that are returned from the Requirement View configured for Requirement Map Filer View setting on the Map Settings of the Schedule Board tab settings. 
-- When Hebrew language is enabled on the org, Schedule Board loads in the Chrome with browser zoom at 90%. 
-- The requirement Demand pie chart on the Schedule Assistant information at the bottom is accessible, via Screen readers. 
+- When Turkish language is enabled on the org, resource requirement records load under the **Unscheduled Workorders** tab of the requirement pane of the schedule board. 
+- When double clicking on the save button the new bookable resource booking form, would not create duplicate records. 
+- Resources can be searched on the schedule board by their name in the search resources search box. 
+- Map view on the schedule board only shows the pins for the requirements that are returned from the requirement view configured for requirement map filer view setting on the map settings of the schedule board tab settings. 
+- When Hebrew language is enabled on the org, schedule board loads in the Chrome with browser zoom at 90%. 
+- The requirement demand pie chart on the schedule assistant information at the bottom is accessible, via screen readers. 
 
 ### Version 3.12.1.158
 
