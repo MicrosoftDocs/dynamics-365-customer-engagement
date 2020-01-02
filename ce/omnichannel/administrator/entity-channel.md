@@ -15,10 +15,7 @@ ms.topic: article
 
 ## Overview
  
-In Omnichannel Administration, **Entity Records** channel helps you to automatically route cases and other entity records to agents based on the agent's skill (preview), capacity, and presence.
-
-> [!Note]
-> Skill base-routing is currently in preview. To learn more, see [Skill based routing overview](overview-skill-work-distribution.md)
+In Omnichannel Administration, **Entity Records** channel helps you to automatically route cases and other entity records to agents based on the agent's skill, capacity, and presence. To learn more about skill-based routing, see [Skill-based routing overview](overview-skill-work-distribution.md).
 
 ### Automatic distribution of cases and other entity records
 
