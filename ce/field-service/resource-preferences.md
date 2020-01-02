@@ -58,7 +58,7 @@ Preferred resources will show at the top of Schedule Assistant results and RSO w
 
 First create a work order.
 
-Then go to the related resource requirement that is automatically created when a work order is created.
+Then go to **Related > Requirements** to view the requirement that is automatically created when a work order is created. This is where you can add details for the kinds of resources eligible to perform the work order. Alternatively, you can navigate to **Related > Resource Preferences** directly from the work order.
 
 
 > [!div class="mx-imgBorder"]
