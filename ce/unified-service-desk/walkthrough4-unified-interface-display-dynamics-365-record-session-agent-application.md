@@ -80,7 +80,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
 
  In this step, you’ll configure the **PageReady** event on the **Contoso Account Session** hosted control so that when it’s loaded, the parent hosted control from where the user selected to open the account, **Contoso Accounts Search**, is closed. The **Contoso Accounts Search** hosted control was created in [Walkthrough 3: Display Unified Interface apps records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md). This is done to ensure that the user can’t open other account information in the same session tab.  
   
-1. On the **Contoso Account Session** hosted control, and select the **Related** tab, and then select **Events**.
+1. On the **Contoso Account Session** hosted control, select the **Related** tab, and then select **Events**.
   
 2. On the events page, select **PageReady**.  
   
@@ -183,7 +183,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
 
 5. Select the ellipsis (...) in the **Action Calls** section, and then select **Add Existing Action Call**. The **Lookup Records** pane is displayed.
 
-6. Type he name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.  
+6. Type the name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.  
   
 7. Select the ellipsis (...) in the **Hosted Controls** section, and then select **Add Existing Hosted Control**. The **Lookup Records** pane is displayed.  
 
