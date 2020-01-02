@@ -18,11 +18,14 @@ By default, any business card that is scanned is stored as an image and associat
 
 To enable or disable saving of business card image:
 
-1.  On the navigation bar, select **Settings**, and then select **Advanced Settings**.
+1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
-    The **Business Management** settings page opens.
+    > [!div class="mx-imgBorder"]
+    > ![Advanced Settings option on the Settings menu](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
 
-2. On the navigation bar, select **Settings**, and then under **System**, select **Administrator**.
+    The **Business Management** page opens.
+
+2. On the navigation bar, select **Settings**, and then under **System**, select **Administration**.
 
 3. Select **System Settings**.
 

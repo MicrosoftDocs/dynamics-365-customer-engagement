@@ -6,7 +6,7 @@ ms.author: lerobbin
 manager: autumna
 applies_to: 
   - ""
-ms.date: 10/29/2019
+ms.date: 12/27/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -204,21 +204,23 @@ Each supervisor must configure their Dynamics 365 Customer Service environment t
 
 You must add users to the supervisor configuration to access any supervisor dashboard in Unified Service Desk. To add users to the supervisor configuration, follow these steps:
 
-1.  Sign in to Dynamics 365 Customer Service.
+1.  Sign in to Unified Service Desk.
 
-2.  Go to **Settings** > **Unified Service Desk** and then select **Configuration**.
+2.  Go to **Configuration** under **Advanced Settings**.
 
-3.  On the configuration page, select **Supervisor Configuration**.
+3.  Select **Supervisor Configuration**.
 
     > [!div class=mx-imgBorder]
     > ![Select Supervisor Configuration](../media/supervisor-admin-select-supervisor-configuration-add-user.png "Select Supervisor Configuration")
 
-4.  On the **Users** section, select **+ Add User record** and enter the user name you want to add.
+4.  On the **Users** section, select **...** and select **Add Existing User**. The **Lookup Records** pane is displayed.
 
     > [!div class=mx-imgBorder]
     > ![Add user to supervisor configuration](../media/oc-config16.PNG "Add user to supervisor configuration")
 
-5.  Save and close the configuration.
+5. Type the name of the user you want to add, and select **Add**.
+
+6.  Save and close the configuration.
 
     Users are added to the supervisor dashboard. Now when they sign in to Omnichannel on Unified Service Desk, the supervisor dashboard tabs are available.
 

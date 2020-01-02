@@ -23,11 +23,11 @@ With this change for *online* customers, we are no longer using the term "Dynami
 - Dynamics 365 Field Service
 - Dynamics 365 Project Service Automation
 
-For *online* customers, these apps are model-driven apps running on [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro). You can build model-driven apps using PowerApps. More information: [What are model-driven apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
+For *online* customers, these apps are model-driven apps running on [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro). You can build model-driven apps using Power Apps. More information: [What are model-driven apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
-For *on-premises* customers, "Dynamics 365 Customer Engagement (on-premises)" is the official name of the product that provides sales, service, and marketing features. Customer Engagement (on-premises) shares many features in common with Common Data Service and PowerApps. 
+For *on-premises* customers, "Dynamics 365 Customer Engagement (on-premises)" is the official name of the product that provides sales, service, and marketing features. Customer Engagement (on-premises) shares many features in common with Common Data Service and Power Apps. 
 
-To avoid duplicating the common information between Customer Engagement (on-premises) and PowerApps/Common Data Service documentation, you will find a lot of references and links from this guide pointing to the Common Data Service and PowerApps documentation.  
+To avoid duplicating the common information between Customer Engagement (on-premises) and Power Apps/Common Data Service documentation, you will find a lot of references and links from this guide pointing to the Common Data Service and Power Apps documentation.  
 
 ## Documentation for previous version
 

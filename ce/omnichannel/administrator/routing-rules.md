@@ -4,7 +4,7 @@ description: Understand how to create and manage routing rules in Omnichannel fo
 author: kabala
 ms.author: kabala123
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 12/27/2019
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"

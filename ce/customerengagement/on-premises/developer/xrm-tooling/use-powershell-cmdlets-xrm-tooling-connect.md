@@ -25,7 +25,7 @@ search.app:
 XRM tooling provides you with the following Windows PowerShell cmdlets that you can use to connect to Dynamics 365 Customer Engagement (on-premises) and retrieve organizations that the current user has access to: `Get-CrmConnection` and `Get-CrmOrganizations`.  
 
 > [!NOTE]
-> The PowerShell cmdlets documentation that is applicable to Common Data Service users is now available in the PowerApps documentation at: [Use PowerShell cmdlets in XRM tooling to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect)
+> The PowerShell cmdlets documentation that is applicable to Common Data Service users is now available in the Power Apps documentation at: [Use PowerShell cmdlets in XRM tooling to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect)
   
 <a name="Prereq"></a> 
 

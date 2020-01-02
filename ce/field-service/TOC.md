@@ -3,11 +3,9 @@
 # [New and upcoming features](new-upcoming.md)
 # [Getting started with Field Service](user-guide.md)
 
-# Installation & upgrade
+# Installation + upgrade
 ## [Field Service installation (web + mobile)](install-field-service.md)
 ## [Upgrade Field Service](upgrade-field-service.md)
-## [Version history (web + mobile)](version-history.md)
-## [AppSource add-ins for Field Service](appsource-addins.md)
 
 # Administration
 ## [Work order process architecture](field-service-architecture.md)
@@ -127,14 +125,17 @@
 ## [Get RSO](rso-get-install.md)
 ## [Quickstart](rso-quickstart.md)
 ## [Deployment](rso-deployment.md)
-## [Configuration](rso-configuration.md)
+## [Configuration and setup](rso-configuration.md)
+## [Scopes](rso-optimization-scope.md)
+## [Goals](rso-optimization-goal.md)
+## [Schedules](rso-optimization-schedule.md)
+## [Publishing](rso-schedule-optimization.md)
+## [Lock options for bookings](booking-lock-options.md)
+## [Resolving conflicts for bookings](rso-handling-resolving-booking-conflicts.md)
 ## [Set up a proof of concept](rso-proof-concept.md)
-## Running RSO
-### [Publishing + monitoring](rso-schedule-optimization.md)
+## Scenarios
 ### [Overnight scheduling](rso-overnight-scheduling.md)
 ### [Single resource optimization](single-resource-optimization.md)
-### [Booking lock options](booking-lock-options.md)
-### [Resolving booking conflicts](rso-handling-resolving-booking-conflicts.md)
 ## [FAQs + troubleshooting](rso-faq.md)
 
 # Connected Field Service (IoT) add-in
@@ -162,6 +163,11 @@
 ## [Dynamics 365 Remote Assist and HoloLens](remote-assist-hololens.md)
 ## [Dynamics 365 Guides on HoloLens](mixed-reality-guides-integration.md)
 ## [SAP integration](field-service-sap-integration.md)
+
+# Resources
+## [Version history (web + mobile)](version-history.md)
+## [Bug fixes](bug-fixes.md)
+## [AppSource add-ins for Field Service](appsource-addins.md)
+
 # [Troubleshoot with Solution Health Hub](troubleshoot-field-service-solution-health.md)
 # [General FAQs](troubleshoot-faq.md)
-

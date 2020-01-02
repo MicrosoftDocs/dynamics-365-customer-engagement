@@ -34,7 +34,7 @@
 ##### [Configure agent display name](administrator/agent-display-name.md)
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
-##### [Embed chat widget in Dynamics 365 Portals](administrator/embed-chat-widget-portal.md)
+##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
 ##### [Configure proactive chat](administrator/proactive-chat.md)
 #### [Configure an SMS channel](administrator/configure-sms-channel.md)
 #### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
@@ -236,6 +236,7 @@
 #### [Auto-close a conversation](developer/auto-close-conversation.md)
 #### [Build a custom smart assist bot](developer/how-to/smart-assist-bot.md)
 ### Entity reference
+#### [Overview](developer/reference/entities/overview.md)
 #### [Deprecated entities](developer/reference/entities/deprecated-entities.md)
 #### [msdyn_analytics](developer/reference/entities/msdyn_analytics.md)
 #### [msdyn_authenticationsettings](developer/reference/entities/msdyn_authenticationsettings.md)

@@ -52,7 +52,6 @@ If your administrator has set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md
   
    ![Notebooks in Document Associated Grid](media/document-associated-grid.png "Notebooks in Document Associated Grid")
 
-[//]: # (The graphic for step 3 is the same as for step 1. In the Note in step 3, I used the pn-crm-shortest.md token for "Dynamics 365 Customer Engagement (on-premises), " to match the token you used above. Also in the Note, please note that I changed ". onetoc2" to ".onetoc2". I assume it and .one are both file name extensions?)
 ### Get started with OneNote (web app)  
 
 1. In the activities area of a record, select **OneNote**.  

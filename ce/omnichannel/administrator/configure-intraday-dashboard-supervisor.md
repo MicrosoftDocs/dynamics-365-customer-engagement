@@ -6,7 +6,7 @@ ms.author: udag
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 6/20/2019
+ms.date: 12/27/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -64,7 +64,7 @@ Follow these steps to configure Intraday insights for the Omnichannel for Custom
 
 1. [Configure Power BI workspace in Omnichannel Administration app](#configure-power-bi-workspace-in-omnichannel-administration-app)
 
-2. [Share reports with supervisors](#share-reports-with-supervisors)
+2. [Share workspace and reports with supervisors](#share-workspace-and-reports-with-supervisors)
 
 
 ### Configure Power BI workspace in Omnichannel Administration app
@@ -82,9 +82,6 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     > ![Select Overview option](../media/supervisor-admin-select-overview-dashboard.png "Select Overview option")
 
     The Power BI configuration view opens.
-
-    > [!div class=mx-imgBorder]
-    > ![Configuration of Power BI workspace](../media/supervisor-admin-active-powerbi-configuration.png "Configuration of Power BI workspace")
 
 3.  Select **+ New**. 
 
@@ -131,7 +128,7 @@ You must configure the Power BI workspace using the **Omnichannel Administration
    > - If you want to create a new configuration, deactivate and delete the existing configuration.
    > - You can edit an existing configuration to update the Power BI workspace details.
 
-### Share reports with supervisors
+### Share workspace and reports with supervisors
 
 1.  Sign in to [Power BI Service](https://app.powerbi.com).
 
@@ -140,13 +137,25 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     > [!div class=mx-imgBorder]
     > ![Select workspace](../media/supervisor-admin-power-bi-app-select-workspace.png "Select workspace")  
 
-3.  Open the workspace that you have created and verify that the following are available:
+3. Open the workspace that you have created and verify that the following are available:
 
     - An empty dashboard with the name of the workspace.
 
     - The report and datasets **Intraday Monitoring**.
 
-4.  Select the report and share with supervisor users to access the report as an app tab in the **Omnichannel for Customer Service** app on the web. To learn more, see [Share Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
+4.  Select **Access**.
+
+    > [!div class=mx-imgBorder]
+    > ![Select access](../media/supervisor-admin-powerbi-select-access.png "Select access")
+
+5. Add email address of the security groups, distribution lists, Office 365 groups, or individuals to these workspaces as members, contributors, or admins.  
+
+    > [!div class=mx-imgBorder]
+    > ![Add members to workspace](../media/supervisor-admin-power-bi-workspace-add-members.png "Add members to workspace")
+
+6. Select **Add** > **Close**.
+
+7. Select the report and share with supervisor users to access the report as an app tab in the **Omnichannel for Customer Service** app on the web. To learn more, see [Share Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
 
 
 ## Configure Intraday insights for Unified Service Desk 

@@ -29,7 +29,7 @@ Here are the flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md
 - The Sales Hub app is built on the Unified Interface framework. The Unified Interface framework uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. The Sales Hub app is optimized to work on mobile devices as well as desktops.
 
     > [!IMPORTANT]
-    > Dynamics 365 Sales is a model-driven app that is built on the Common Data Service platform. You can create and manage model-driven apps by using PowerApps. More information: What are model-driven apps?
+    > Dynamics 365 Sales is a model-driven app that is built on the Common Data Service platform. You can create and manage model-driven apps by using Power Apps. More information: What are model-driven apps?
 
 - The Sales app is designed for the legacy web client and is the full-featured, desktop-optimized web client app for sales scenarios. 
 

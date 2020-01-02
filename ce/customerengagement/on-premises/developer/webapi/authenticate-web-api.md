@@ -25,13 +25,13 @@ search.app:
 > [!NOTE]
 > [!INCLUDE[](../includes/cc-cdsnote-2-topic.md)]
 > 
-> The authentication documentation that is applicable to Dynamics 365 Customer Engagement app (online) users is now available in the PowerApps documentation at: [Authenticate to Common Data Service with the Web API](/powerapps/developer/common-data-service/webapi/authenticate-web-api).
+> The authentication documentation that is applicable to Dynamics 365 Customer Engagement app (online) users is now available in the Power Apps documentation at: [Authenticate to Common Data Service with the Web API](/powerapps/developer/common-data-service/webapi/authenticate-web-api).
 
 The code you write to manage authentication when using the Web API depends on the type of deployment and where your code is.  
 
 ## Authenticate with JavaScript in web resources
 
-For information on how to authenticate with JavaScript in web resources, see this PowerApps Common Data Service topic: [Authenticate to Common Data Service with the Web API](/powerapps/developer/common-data-service/webapi/authenticate-web-api).
+For information on how to authenticate with JavaScript in web resources, see this Power Apps Common Data Service topic: [Authenticate to Common Data Service with the Web API](/powerapps/developer/common-data-service/webapi/authenticate-web-api).
   
 ## Web API authentication with On-premise deployments
   
