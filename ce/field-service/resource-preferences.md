@@ -60,7 +60,15 @@ First create a work order.
 
 Then go to the related resource requirement that is automatically created when a work order is created.
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-resource-preference-navigate.png)
+
 Alongside where you can add skills and resource roles that are required, add a new resource preference record.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-resource-preference-requirement.png)
 
 Select a resource and choose **Preferred** for **Preference Type**.
 
