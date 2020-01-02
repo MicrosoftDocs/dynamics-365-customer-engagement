@@ -58,11 +58,13 @@ Preferred resources will show at the top of Schedule Assistant results and RSO w
 
 First create a work order.
 
-Then go to **Related > Requirements** to view the requirement that is automatically created when a work order is created. This is where you can add details for the kinds of resources eligible to perform the work order. Alternatively, you can navigate to **Related > Resource Preferences** directly from the work order.
-
+Then go to **Related > Requirements** to view the requirement that is automatically created when a work order is created. This is where you can add details for the kinds of resources eligible to perform the work order including resource preferences. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-resource-preference-navigate.png)
+
+Alternatively, you can navigate to **Related > Resource Preferences** directly from the work order.
+
 
 Alongside where you can add skills and resource roles that are required, add a new resource preference record.
 
@@ -73,14 +75,13 @@ Alongside where you can add skills and resource roles that are required, add a n
 Select a resource and choose **Preferred** for **Preference Type**.
 
 
-In the example below, we created a work order (WO-1000000053) and then added Abraham McCormick as a preferred resource to the related resource requirement.
+In this example, we created a work order (WO-1000000053) and then added Abraham McCormick as a preferred resource to the related resource requirement.
 
-
+From the schedule board, select and highlight the requirement and choose **Find Availability** to trigger the schedule assistant. You will notice your preferred resource is shown at the top of the list with a heart icon indicating he or she is preferred.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-resource-preference-preferred.png)
 
-From the schedule board, select and highlight the requirement and choose **Find Availability** to trigger the schedule assistant. You will notice your preferred resource is shown at the top of the list with a heart icon indicating he or she is preferred.
 
 In the schedule assistant grid view, you will see the same heart icon next to preferred resources as seen in the image below.
 
@@ -95,7 +96,7 @@ In the schedule assistant grid view, you will see the same heart icon next to pr
 
 Restricted resources will be excluded from Schedule Assistant results and RSO will not auto schedule the requirement to them.
 
-Following the same steps as before, add a resource preference with preference type of Restricted to the requirement. For restricted resources you have the option of adding a date range for which the restriction takes effect.
+Following the same steps as before, add a resource preference with preference type of **Restricted** to the requirement. For restricted resources you have the option of adding a date range for which the restriction takes effect.
 
 Then trigger the schedule assistant for the requirement.
 
