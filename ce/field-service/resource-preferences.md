@@ -97,7 +97,7 @@ In the schedule assistant grid view, you will see the same heart icon next to pr
 
 Restricted resources will be excluded from Schedule Assistant results and RSO will not auto schedule the requirement to them.
 
-Following the same steps as before, add a resource preference with preference type of **Restricted** to the requirement. For restricted resources you have the option of adding a date range for which the restriction takes effect.
+Following the same steps as before, go to the requirement and add a resource preference with preference type of **Restricted**. For restricted resources you have the option of adding a date range for which the restriction takes effect.
 
 Then trigger the schedule assistant for the requirement.
 
@@ -124,9 +124,7 @@ In the schedule assistant grid view, the available time slots for only the "must
 > [!Note]
 > You can add multiple resources as must choose from resource preferences. All will show as schedule assistant results (given they meet other filters) and RSO will schedule to one of them.
 
-## Configuration considerations
-
-### Using resource preferences with RSO
+## Using resource preferences with RSO
 
 - For RSO to consider "Restricted" and "Must choose from" resource preferences when automatically scheduling, add the **Meets Resource Preferences** constraint to the related Optimization Goal. 
 
