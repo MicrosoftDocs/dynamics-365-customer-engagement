@@ -124,10 +124,13 @@ In the schedule assistant grid view, the available time slots for only the "must
 
 ### Using resource preferences with RSO
 
-For RSO to consider resource preferences when automatically scheduling, add the **Meets Resource Preferences** constraint to the related Optimization Goal. 
+- For RSO to consider "Restricted" and "Must choose from" resource preferences when automatically scheduling, add the **Meets Resource Preferences** constraint to the related Optimization Goal. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-constraints-meets-resource-preferences.png)
 
+- For RSO to consider "Preferred" resource preferences, add the **Maximize Preferred Resources** objective to the Optimization Goal. Preferred resources are considered an objective and not a constraint because RSO does not gurarantee requirements are scheduled to preferred resource whereas not scheduling to restricted resource and scheduling to must choose from resources is guaranteed.  
+- You can add multiple resources with the must choose from preference. RSO will give preference in the order in which they are added.
+
 ## Additional Notes
-- The resource that is added as a preferred resource (including the "Must choose from" preference type) must meet the other conditions of the requirement. As an example, if a requirement calls for "Skill A", and a resource without Skill A is added as a "Preferred" or "Must choose from" resource preference, the resource will not show in results or be autoamtically scheduled.
+- The resource that is added as a preferred resource (including the "Must choose from" preference type) must meet the other conditions of the requirement. As an example, if a requirement calls for "Skill A", and a resource without Skill A is added as a "Preferred" or "Must choose from" resource preference, the resource will not show in results or be automatically scheduled.
