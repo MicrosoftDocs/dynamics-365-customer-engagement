@@ -61,7 +61,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
   
 3. Select **+ New**.  
   
-4. On the **New Hosted Control** page, specify the following values.  
+4. On the **New Hosted Control** page, specify the following values:  
   
    |Field|Value|  
    |-----------|-----------|  
@@ -88,7 +88,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
   
 4. Select the search icon, and then select **+ New Action Call**.
   
-5. On the **New Action Call** page, specify the following values.  
+5. On the **New Action Call** page, specify the following values:  
   
    |Field|Value|  
    |-----------|-----------|  
@@ -113,7 +113,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
   
 1. On the hosted control page, select **+ New**.  
   
-2. On the New Hosted Control page, specify the following values.  
+2. On the New Hosted Control page, specify the following values:  
   
    |Field|Value|  
    |-----------|-----------|  
@@ -134,7 +134,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
   
 4. Select **+ New**.  
   
-5. On the **New Window Navigation Rule** page, specify the following values.  
+5. On the **New Window Navigation Rule** page, specify the following values:  
   
    |Field|Value|  
    |-----------|-----------|  
@@ -143,7 +143,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
    |From|Contoso Accounts Search|
    |Entity|account|  
 
-6. Select the **Result** tab, and specify the following values.
+6. Select the **Result** tab, and specify the following values:
 
    |Field|Value|  
    |-----------|-----------| 
@@ -161,7 +161,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
 ## Step 5: Add the controls to the configuration  
  In this step, you’ll add the action call, event, hosted controls, and window navigation rule configured in this walkthrough to **Contoso Configuration** to display these controls to the user who is assigned to the configuration. **Contoso Configuration** was created in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md).  
   
- Add the following to **Contoso Configuration**.  
+ Add the following to **Contoso Configuration**:  
   
 |Control name|Control type|  
 |------------------|------------------|  
