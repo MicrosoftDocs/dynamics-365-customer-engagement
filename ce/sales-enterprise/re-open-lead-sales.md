@@ -1,15 +1,17 @@
 ---
 title: "Reopen leads (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Make changes to a disqualified lead by activating it."
+keywords: ""
 ms.date: 10/01/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
+ms.custom:
   - "dyn365-sales"
 ms.topic: article
+ms.assetid: cf4eaa1c-e724-4a12-f4b8-9fd3bdd1c891
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ---
 
 # Reopen leads (Sales and Sales Hub)
@@ -17,12 +19,14 @@ manager: sakudes
 Great news! A lead that you thought wasn't interested has contacted you, and it looks like the person will buy after all. Assuming that you disqualified the lead (instead of deleting it), you'll be able to reopen it without reentering all the information you already gathered.  
   
 1.  On the list of leads, select the down arrow, and then select the **Closed Leads** view.  
-  
-    ![Shows closed leads in Dynamics 365 Sales](../sales-enterprise/media/close-sales-lead.png "Shows closed leads in Dynamics 365 Sales")  
+
+   > [!div class="mx-imgBorder"]
+   > ![Shows closed leads in Dynamics 365 Sales](../sales-enterprise/media/close-sales-lead.png "Shows closed leads in Dynamics 365 Sales")  
   
 2.  Select the lead you want to reopen, and then select **Reactivate Lead**.  
-  
-    ![Shows reactivating a lead in Dynamics 365 Sales](../sales-enterprise/media/sales-lead-reactivate.png "Shows reactivating a lead in Dynamics 365 Sales")  
+
+   > [!div class="mx-imgBorder"]  
+   > ![Shows reactivating a lead in Dynamics 365 Sales](../sales-enterprise/media/sales-lead-reactivate.png "Shows reactivating a lead in Dynamics 365 Sales")  
   
 ### See also  
  [Create or edit a lead](../sales-enterprise/create-edit-lead-sales.md)   

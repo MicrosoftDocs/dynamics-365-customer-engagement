@@ -22,7 +22,7 @@ Record the replies you get from potential customers in response to a specific ma
   
 1. In the site map, select **Marketing Lists**.
   
-2.  Open a marketing list record, and then in the **Campaigns** area, open the campaign to which you want to add campaign responses to, and on the **Related** tab, select **Campaign Responses**.
+2.  Open a marketing list record, and then in the **Campaigns** area, open the campaign to which you want to add campaign responses, and on the **Related** tab, select **Campaign Responses**.
 
 3. Select **New Campaign Response**.
   
@@ -38,9 +38,9 @@ Record the replies you get from potential customers in response to a specific ma
 
 3. On the navigation bar, select **Settings**, and then select **Administration**.
 
-4. Select **System Settings** > **Marketing** tab.  
+4. Select **System Settings**, and then select the **Marketing** tab.  
   
-4. Set the **Create campaign responses for incoming email** option to **Yes**.  
+5. Set the **Create campaign responses for incoming email** option to **Yes**.  
 
 > [!NOTE]
 > If there are multiple email replies from a customer to an email sent out from a campaign activity, only the first reply is tracked as a campaign response in the campaign.
