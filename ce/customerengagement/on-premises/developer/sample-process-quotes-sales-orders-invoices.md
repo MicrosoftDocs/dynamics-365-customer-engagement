@@ -2,7 +2,7 @@
 title: "Sample: Process quotes, sales orders and invoices (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to convert an opportunity that is won to a quote, then convert a quote to a sales order, and then convert a sales order to an invoice."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 01/02/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -16,10 +16,9 @@ helpviewer_keywords:
   - sample for converting opportunities to sales orders, sales entities sample
   - sample for locking and unlocking sales orders and invoice prices, quote; order; and invoice entities
 ms.assetid: 7cf7de1a-789b-4c87-a6c3-6410a68369a1
-caps.latest.revision: 19
-author: JimDaly
-ms.author: jdaly
-manager: amyla
+author: KumarVivek
+ms.author: kvivek
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 
@@ -27,7 +26,7 @@ search.app:
 ---
 # Sample: Process quotes, sales orders and invoices
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Business management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement).   
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Business management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/sales/ProcessQuotesSalesOrdersInvoices).   
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

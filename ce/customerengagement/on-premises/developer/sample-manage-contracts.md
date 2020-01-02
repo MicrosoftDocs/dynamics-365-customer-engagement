@@ -2,7 +2,7 @@
 title: "Sample: Manage contracts (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "This sample demonstrates how to create and manage contracts"
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 01/02/2020
 ms.reviewer: 
 ms.service:
 ms.suite: 
@@ -24,7 +24,7 @@ search.app:
 ---
 # Sample: Manage contracts
 
-This sample code is for the Dynamics 365 Customer Engagement (on-premises) platform. Download the complete sample from [Sample: Work with Service entities](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Service).  
+This sample code is for the Dynamics 365 Customer Engagement (on-premises) platform. Download the complete sample from [Sample: Work with Service entities](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/sales/ManageContracts).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

@@ -2,7 +2,7 @@
 title: "Sample: Create and publish products (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrates how to create a product family, override a product property, publish a product hierarchy, and revise a overridden property."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 01/02/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -11,10 +11,9 @@ ms.topic: samples
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0f70898c-c451-47e5-afc8-224e25f32c69
-caps.latest.revision: 12
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 
@@ -22,7 +21,7 @@ search.app:
 ---
 # Sample: Create and publish products
 
-This sample code is for Dynamics 365 Customer Engagement(on-premises). [Download the Product Catalog samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/ProductCatalog).    
+This sample code is for Dynamics 365 Customer Engagement(on-premises). [Download the Product Catalog samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/sales/CreatePublishProducts).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

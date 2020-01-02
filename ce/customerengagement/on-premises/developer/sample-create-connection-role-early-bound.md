@@ -2,7 +2,7 @@
 title: "Sample: Create a connection role (early bound) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample code demonstrates how to create a connection role that are used for accouunts and contacts."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 01/02/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,10 +14,9 @@ helpviewer_keywords:
   - sample for creating connection roles, accounts and contacts
   - creating connection roles, sample
 ms.assetid: d501cdfa-67b0-4e59-a05c-1817528971e1
-caps.latest.revision: 14
-author: JimDaly
-ms.author: jdaly
-manager: amyla
+author: KumarVivek
+ms.author: kvivek
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 
@@ -25,7 +24,7 @@ search.app:
 ---
 # Sample: Create a connection role (early bound)
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Business Management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement).  
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Business Management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/sales/CreateConnectionRoleEarlyBound).  
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
