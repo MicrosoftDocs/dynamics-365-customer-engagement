@@ -2,7 +2,7 @@
 title: "Resource Preferences | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 12/16/2019
+ms.date: 1/2/2020
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -120,6 +120,9 @@ In the schedule assistant grid view, the available time slots for only the "must
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-resource-preference-must-choose-from-grid.png)
 
+> [!Note]
+> You can add multiple resources as must choose from resource preferences. All will show as schedule assistant results (given they meet other filters) and RSO will schedule to one of them.
+
 ## Configuration considerations
 
 ### Using resource preferences with RSO
@@ -130,7 +133,7 @@ In the schedule assistant grid view, the available time slots for only the "must
 > ![Screenshot of ](./media/rso-constraints-meets-resource-preferences.png)
 
 - For RSO to consider "Preferred" resource preferences, add the **Maximize Preferred Resources** objective to the Optimization Goal. Preferred resources are considered an objective and not a constraint because RSO does not gurarantee requirements are scheduled to preferred resource whereas not scheduling to restricted resource and scheduling to must choose from resources is guaranteed.  
-- You can add multiple resources with the must choose from preference. RSO will give preference in the order in which they are added.
+
 
 ## Additional Notes
-- The resource that is added as a preferred resource (including the "Must choose from" preference type) must meet the other conditions of the requirement. As an example, if a requirement calls for "Skill A", and a resource without Skill A is added as a "Preferred" or "Must choose from" resource preference, the resource will not show in results or be automatically scheduled.
+- The resource that is added as a preferred resource (including the "Must choose from" preference type) must meet the other conditions of the requirement. As an example, if a requirement calls for "Skill A", and a resource without Skill A is added as a "Preferred" or "Must choose from" resource preference, the resource will **not** show in results or be automatically scheduled.
