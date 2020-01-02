@@ -92,7 +92,7 @@ To understand what version of the Field Service solution is in your environment,
 ### Best practices
 
 1. Before upgrading your production instance of Field Service, make a copy of the production instance and upgrade the copy first. Then test your business processes to understand consequences and upgrade the actual production instance after.
-2. Upgrading from Field Service version 7.x to 8.x is considered a major upgrade because its upgrading to the [Unified Client Interface (UCI)](https://docs.microsoft.com/power-platform/admin/about-unified-interface). See the [Field Service UCI Upgrage Playbook](https://aka.ms/fsuciupgrade) for more details and best practices. 
+2. Upgrading from Field Service version 7.x to 8.x is considered a major upgrade because it's upgrading to the [Unified Client Interface (UCI)](https://docs.microsoft.com/power-platform/admin/about-unified-interface). For more information, see the [Field Service UCI Upgrade Playbook](https://aka.ms/fsuciupgrade). 
 3. If your organization is using Project Service Automation along with Field Service, it is recommended to upgrade both at the same time or soon after each other due to shared functionality.
 4. Editing out-of-the-box web resources is unsupported and can cause functional issues after upgrading. You can use [Solution Health Hub](./troubleshoot-field-service-solution-health.md) to understand if web resources have been edited.
 
@@ -114,7 +114,7 @@ Upgrading the mobile experience for technicians requires three steps:
 
 Technicians use the Field Service Mobile app on their phones, tablets, and Windows 10 devices. 
 
-When a new version of the mobile app is released, the app will need to be udpated on each user's device. This can be done manually, automatically, or via Microsoft Intune.
+When a new version of the mobile app is released, the app will need to be updated on each user's device. This can be done manually, automatically, or via Microsoft Intune.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service mobile app download example](media/mobile-field-service-mobile-windows-app-store.png)
@@ -140,11 +140,11 @@ Resource Scheduling, also called Universal Resource Scheduling, is the app that 
 However, before upgrading Resource Scheduling consider: 
 
 1. Running the Resource Scheduling: Service Health Diagnostics
-2. Planning for updated Universal Fextch XML (UFX) queries on the schedule board and schedule assistant.
+2. Planning for updated Universal FetchXML (UFX) queries on the schedule board and schedule assistant.
 
 ### Run Resource Scheduling: Service Health Diagnostics
 
-Before upgrading, run the **Resource Scheduling: Service Health Diagnostics** tool to understand if any critical web resources or JavaScript files were edited. If so, they will get skipped during upgrade and this could cause functional issues and missed functionality. 
+Before upgrading, run the **Resource Scheduling: Service Health Diagnostics** tool to understand if any critical web resources or JavaScript files were edited. If so, they will get skipped during upgrade, which could cause functional issues and missed functionality. 
 
 Go to **Resource Scheduling app** > **Settings** > **Administration** > **Scheduling Parameters**
 
@@ -155,9 +155,9 @@ Then select **Health Diagnostics** in the top ribbon.
 
 If the diagnostic tool flags any web resources that should not have been edited, you will need to remove the customizations from the web resources and then run the upgrade. Not all customized web resources will be flagged by this tool, only the ones that could have critical impact. 
 
-### Plan for updated Universal Fextch XML (UFX) queries
+### Plan for updated Universal FetchXML (UFX) queries
 
-Occasionnally, Resource Scheduling releases will include updates to the Universal Fextch XML (UFX) queries that control how resources and requirements are fetched and loaded on the schedule board or in schedule assistant results. See the topic on [schedule board tab settings](https://docs.microsoft.com/dynamics365/field-service/schedule-board-tab-settings#other-settings) for more details.
+Occasionally, Resource Scheduling releases will include updates to the Universal FetchXML (UFX) queries that control how resources and requirements are fetched and loaded on the schedule board or in schedule assistant results. For more information, see the topic on [schedule board tab settings](https://docs.microsoft.com/dynamics365/field-service/schedule-board-tab-settings#other-settings).
 
 As an example, a new version of Resource Scheduling may add a new resource filter to the left panel of the schedule board. To make this possible, the update will come with a new UFX query for the **Retrieve Resources Query** as seen in the screenshot below.
 
@@ -166,18 +166,18 @@ As an example, a new version of Resource Scheduling may add a new resource filte
 
 However, the XML in each UFX can be edited based on your specific needs. If a UFX query has been edited by your organization, the Resource Scheduling upgrade will import the new UFX query, but **will not apply it**. Therefore, you'll need to add your customizations to the new UFX query and select and apply it manually from the Schedule Board Tab Settings. One option is to use GitHub to understand the differences between the old XML file with your custom queries and the new XML file as part of the Resource Scheduling upgrade.
 
-All UFX queries, both custom ones your organziation creates and those included with the Resource Scheduling app, are listed as records in the configurations entity, and each record holds the XML queries.  
+All UFX queries, both custom ones your organization creates and those included with the Resource Scheduling app, are listed as records in the configurations entity, and each record holds the XML queries.  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a list of records and queries](./media/upgrade-configurations.png)
 
 ## Resource scheduling optimization
 
-Resource scheduling optimization (RSO) is the app that allows for automated scheduling of work orders, projects tasks, cases, and more. Major and minor updates are released thoughout the year. Unlike Resource Scheduling, RSO can be upgraded independently.
+Resource scheduling optimization (RSO) is the app that allows for automated scheduling of work orders, projects tasks, cases, and more. Major and minor updates are released throughout the year. Unlike Resource Scheduling, RSO can be upgraded independently.
 
 First, check if an RSO update is available. 
 
-From the Dynamics 365 Admin ceneter, select and highlight the environment that has the RSO app and select solutions.
+From the Dynamics 365 Admin Center, select and highlight the environment that has the RSO app and select solutions.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 admin center](./media/upgrade-admin-environment.png)
@@ -218,4 +218,4 @@ Field Service Mobile push notifications and geofence alerts solutions that are p
 
 - [Important Notes for Field Service and Project Service Automation after upgrade of Dynamics 365 Organizations to version 9.0](https://community.dynamics.com/365/b/365teamblog/posts/important-notes-for-field-service-and-project-service-automation-after-upgrade-of-dynamics-365-organizations-to-version-9-0)
 
-- [Announcing end-of-life for Field Service (online) legacy versions by February, 2020](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/17/announcing-end-of-life-for-field-service-online-legacy-versions-by-february-2020/)
+- [Announcing end of life for Field Service (online) legacy versions by February 2020](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/17/announcing-end-of-life-for-field-service-online-legacy-versions-by-february-2020/)
