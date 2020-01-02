@@ -1,14 +1,12 @@
 ---
 title: "Set up email in Dynamics 365 Sales Professional by integrating with Exchange | MicrosoftDocs"
 description: "Enable users to send and receive emails by configuring email in Dynamics 365 Sales Professional."
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: b0eb0b17-e481-ea31-e557-01ae82b27484
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

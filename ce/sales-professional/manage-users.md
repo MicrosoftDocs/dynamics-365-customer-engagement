@@ -1,14 +1,12 @@
 ---
 title: "Add or manage users in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Create a user account for every person in the organization, and assign roles so they can access the Dynamics 365 Sales Professional app."
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: fcedd453-bf13-b18c-6e6e-e2bf370faf9a
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

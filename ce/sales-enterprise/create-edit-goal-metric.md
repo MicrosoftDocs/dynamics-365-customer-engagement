@@ -1,12 +1,10 @@
 ---
 title: "Define a goal metric (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define how you want to measure your goals by using goal metrics in Dynamics 365 Sales."
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
 ms.topic: article
-ms.assetid: f0453941-d507-ce3c-8235-2b51b9071022
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
