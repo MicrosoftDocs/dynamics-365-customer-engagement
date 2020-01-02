@@ -3,7 +3,9 @@
 # [New and upcoming features](new-upcoming.md)
 # [Getting started with Field Service](user-guide.md)
 
-# [Field Service installation (web + mobile)](install-field-service.md)
+# Installation + upgrade
+## [Field Service installation (web + mobile)](install-field-service.md)
+## [Upgrade Field Service](upgrade-field-service.md)
 
 # Administration
 ## [Work order process architecture](field-service-architecture.md)
@@ -169,4 +171,3 @@
 
 # [Troubleshoot with Solution Health Hub](troubleshoot-field-service-solution-health.md)
 # [General FAQs](troubleshoot-faq.md)
-
