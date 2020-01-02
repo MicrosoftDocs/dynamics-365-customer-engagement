@@ -4,7 +4,7 @@ author: fieldservicedave
 ms.author: daclar
 ms.reviewer: krbjoran
 manager: shellyha
-ms.date: 11/12/2019
+ms.date: 01/02/2020
 ms.topic: article
 ms.custom: 
   - dyn365-fieldservice
@@ -18,7 +18,7 @@ search.app:
   - D365FS
 ---
 
-# Resource Scheduling Optimization (RSO) configuration
+# Resource scheduling optimization (RSO) configuration 
 
 Perform these configuration steps after you deploy the RSO solution.
 

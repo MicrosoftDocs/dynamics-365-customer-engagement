@@ -4,7 +4,7 @@ author: fieldservicedave
 ms.author: daclar
 ms.reviewer: krbjoran
 manager: shellyha
-ms.date: 12/12/2019
+ms.date: 01/02/2020
 ms.topic: article
 ms.custom: 
   - dyn365-fieldservice
@@ -20,27 +20,27 @@ search.app:
 
 # Optimization goals 
 
-A goal is what the Resource Scheduling Optimization (RSO) solution aspires to optimize. An example of a goal is to maximize working hours or minimize travel time. You define how bookings should be optimized (constraints and objectives). The Resource Scheduling Optimization engine processes a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route or list of bookings for the resources. Bookings are considered optimally scheduled if they:
+A goal is what the resource scheduling optimization (RSO) solution aims to optimize. An example of a goal is to maximize working hours or minimize travel time. You define how bookings should be optimized (constraints and objectives). The RSO engine processes a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route or list of bookings for the resources. Bookings are considered optimally scheduled if they:
 
 - Meet all company constraints.
 - Have the highest possible score for the company’s objectives.
 
 ## Default optimization goal
 
-When Resource Scheduling Optimization is deployed for the first time, the system automatically creates a default goal with some constraints and objectives enabled. Users can modify as needed or create a new optimization goal and associate it as a default goal.
+When RSO is deployed for the first time, the system automatically creates a default goal with some constraints and objectives enabled. Users can modify as needed or create a new optimization goal and associate it as a default goal.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of default goal in scheduling parameters](media/rso-default-goal-1.png)
 
-**Engine Effort Level** determines how much effort RSO makes to find the best combination of resources, route, and day or time. The higher the effort, the longer RSO takes to complete the execution. For example, the effort might be very light, light, moderate, intense, or very intense. The higher the intensity, the more iterations of possible combinations the RSO engine considers.
+**Engine Effort Level** determines how much effort RSO makes finding the best combination of resources, route, and day or time. The higher the effort, the longer RSO takes to complete the execution. For example, the effort might be very light, light, moderate, intense, or very intense. The higher the intensity, the more iterations of possible combinations the RSO engine considers.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-default-goal-2.png)
+> ![Screenshot of default goal deployed with RSO](media/rso-default-goal-2.png)
 
 The default goal is used when single resource optimization is selected from the schedule board.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-single-resource-1.png)
+> ![Screenshot of default goal deployed with RSO](media/rso-single-resource-1.png)
  
 
 ## Define constraints
@@ -55,10 +55,10 @@ This verifies the resource has all the required characteristics and should have 
 
 ### Meets Required Roles
 
-As of **RSO v3.0.19263.1+** RSO will respect the resource roles added to a requirement. If for example, the requirement calls for a resource with the role "Robotics Engineer", RSO will schedule to a resource who has that role. If the requirement calls for two resource roles, RSO will schedule the requirement to resources that have either of those roles, following "OR" logic.
+As of **RSO v3.0.19263.1+**, RSO will respect the resource roles added to a requirement. If for example, the requirement calls for a resource with the role "Robotics Engineer", RSO will schedule to a resource who has that role. If the requirement calls for two resource roles, RSO will schedule the requirement to resources that have either of those roles, following "OR" logic.
 
 ### Scheduling Lock Option
-If marked, RSO will respect lock options configured on a Bookable Resource Booking record.
+If marked, RSO will respect lock options configured on a bookable resource booking record.
 - Time Range
 - Resource
 - Time
@@ -74,51 +74,48 @@ If marked, RSO will schedule work to comply within the time window start and end
  > [!div class="mx-imgBorder"]
  > ![Screenshot of the date selectors](media/753086631f45017fa9cef8f3795078ba.png)
 
-- If **Time Window Start** and **Time Window End** are set as shown in the following example, it indicates you want RSO to schedule a booking from 2 AM to 6 AM and the date doesn’t matter.
+- If **Time Window Start** and **Time Window End** are set as shown in the following example, it indicates you want RSO to schedule a booking from 2:00 AM to 6:00 AM and the date doesn’t matter.
  > [!div class="mx-imgBorder"]
  > ![Screenshot of the time window start and time window end fields](media/8dfb6c914473209fa9b74cad5b6dcd45.png)
 
-- If **Time From Promised** and **Time To Promised** are set as shown in the following example, it indicates you want RSO to schedule a booking between 4 AM and 8 AM on 5/24/2018. It has to be a specific date and specific time range.
+- If **Time From Promised** and **Time To Promised** are set as shown in the following example, it indicates you want RSO to schedule a booking between 4:00 AM and 8:00 AM on 5/24/2018. It has to be a specific date and specific time range.
  > [!div class="mx-imgBorder"]
  > ![Screenshot of the time from promised and time to promised fields](media/f08dd1dd681a4369a2b46a968c08e631.png)
   
 > [!NOTE]
 > 
-> - If these fields are conflicting, RSO uses **Time From Promised** and > **Time To Promised** first. Then it will use one or a combination of other fields.
+> - If these fields are conflicting, RSO uses **Time From Promised** and **Time To Promised** first. Then it will use one or a combination of other fields.
 > - RSO will ensure the **Estimated Arrival Time** falls into the window specified above. It does not guarantee that the booking’s end time will fall within the time window.
   - **Empty time values (v3.0+)** 
   RSO will respect scenarios when only a start or end time is defined on a requirement.
      
-  In the following example, a requirement has only a time window start value; RSO schedules the requirement any time after 1:00 PM regardless of date.
+  In the following example, a requirement has only a time window start value; RSO schedules the requirement anytime after 1:00 PM regardless of date.
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-empty-time-promised.png)
+  > ![Screenshot of requirement group with two requirements](./media/scheduling-rso-3-0-empty-time-promised.png)
 
   This logic applies to the following fields. 
 
-  On the Resource Requirement entity: 
-        -	Time Window Start/End 
-        -	Time From Promised/ Time To Promised 
-        -	From Date/ To Date 
+  On the resource requirement entity: 
+        -	**Time Window Start** and **Time Window End** 
+        -	**Time From Promised** and **Time To Promised** 
+        -	**From Date** and **To Date** 
 
-  On the Resource Booking entity: 
-        -	Time Window Start/End 
-        -	Time From Promised/ Time To Promised 
-        -	From Date/ To Date 
-    
-
-    
+  On the resource booking entity: 
+        -	**Time Window Start** and **Time Window End** 
+        -	**Time From Promised** and **Time To Promised** 
+        -	**From Date** and **To Date** 
 
 
 ### Meets Resource Preferences
 
-Formerly called "Restricted Resources" constraint, the constraint was expanded to include all Resource Preferences on requirements as of **RSO v3.0.19263.1**.
+Formerly called "Restricted Resources" constraint, the constraint was expanded to include all resource preferences on requirements as of **RSO v3.0.19263.1**.
 
 If marked, RSO will respect the three different types of resource preferences on a requirement:
 
-- **Preferred** - RSO will give scheduling preference to the resource if he or she is available but will not guarantee as RSO may need to balance overall objectives such as minimizing travel time. 
+- **Preferred** - RSO will give scheduling preference to the resource if the resource is available but will not guarantee as RSO may need to balance overall objectives such as minimizing travel time. 
 - **Restricted** - RSO will not schedule to resources who are added to requirements with this resource preference
-- **Must choose from** - RSO will schedule to this resource given he or she is available during the time range of RSO. You can add multiple resources with a "Must choose from" preference and RSO will schedule to one of them; the first that is available. 
+- **Must choose from** - RSO will schedule to this resource given the resource is available during the time range of RSO. You can add multiple resources with a "Must choose from" preference and RSO will schedule to one of them; the first that is available. 
 
 ### Matches Territories
 If marked, RSO will respect the Territory field value on the requirement. As a reminder, a requirement can only belong to one territory, but resources can belong to multiple.
@@ -137,7 +134,7 @@ Bookable resources include these types:
 - Crew
 - Pool
 
-\* Indicates resource types the optimization will consider
+\* *Indicates resource types the optimization will consider*
 
 In general, resource types define how the resource relates to the organization. For example, resources with the resource type **Users** are typically employees, whereas the resource type **Contacts** or **Accounts** are typically contractors.
 
@@ -152,7 +149,7 @@ Add and rank the objectives of RSO scheduling by using the **Move Up** and **Mov
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-order-objectives.png)
+> ![Screenshot of requirement group with two requirements](./media/scheduling-rso-3-0-order-objectives.png)
 
 ### Maximize total working hours: The combination of the engine results
     (iteration) with the total highest aggregate work time will best meet this
@@ -204,7 +201,7 @@ The following screenshot shows an example of adding a resource to a requirement 
 After running an optimization schedule, the requirement is scheduled to the preferred resource. In the following example, work order 00100 is scheduled to Jorge Gault.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-preferred-resource-optimized.png)
+> ![Screenshot of requirement group with two requirements](./media/scheduling-rso-3-0-preferred-resource-optimized.png)
 
 > [!Note]
 > The Maximize Preferred Resources objective only applies to **preferred** resources. 
@@ -229,11 +226,11 @@ For example, if a characteristic (skill) rating model ranges from 1 to 10, and t
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-characteristic-proficiency-chart.png)
+> ![Screenshot of requirement group with two requirements](./media/scheduling-rso-3-0-characteristic-proficiency-chart.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-characteristic-proficiency-objective.png)
+> ![Screenshot of requirement group with two requirements](./media/scheduling-rso-3-0-characteristic-proficiency-objective.png)
 
 ### Schedule as soon as possible
 
@@ -243,4 +240,4 @@ In order to effectively front load optimized bookings, add the **Schedule As Soo
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of schedule as soon as possible contraint in correct order](./media/rso-schedule-as-soon-as-possible-objective-order.png)
+> ![Screenshot of schedule as soon as possible constraint in correct order](./media/rso-schedule-as-soon-as-possible-objective-order.png)

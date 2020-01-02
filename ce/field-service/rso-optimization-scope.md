@@ -4,7 +4,7 @@ author: fieldservicedave
 ms.author: daclar
 ms.reviewer: krbjoran
 manager: shellyha
-ms.date: 11/12/2019
+ms.date: 01/02/2020
 ms.topic: article
 ms.custom: 
   - dyn365-fieldservice
@@ -18,9 +18,9 @@ search.app:
   - D365FS
 ---
 
-## Optimization scopes
+## Optimization scopes 
 
-You can define what RSO optimizes, including resources, requirements, or bookings.
+You can define what resource scheduling optimization (RSO) optimizes, including resources, requirements, or bookings.
 
 Scope is the RSO mechanism for defining the relevant inputs: resource requirements, resources, and existing resource bookings. It also includes the timeframes to be considered for optimization. Extensible scope leverages Dynamics 365 entity views, providing an easy and flexible way to define what to optimize (resource requirements, resources, and existing resource bookings).
 
@@ -37,7 +37,7 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a modal with system view options](media/e7dd89ff112dcae60489d52534c564f2.png)
 
-1. Using **Resource View** as an example, 0_WA Resources has been defined with
+1. Using **Resource View** for example, 0_WA Resources has been defined with
     the filter conditions shown in the following screenshot. This is equivalent
     to configuring WA territory as an optimization scope in the previous version
     of RSO. Users can apply more filter conditions as needed to specify
@@ -55,7 +55,7 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
    > ![Screenshot showing that users must select on requirement or booking view](media/843748f6ea067de2163318e71ac4851d.png)
 
 3. If you select booking view, you can set it to **Now or After**. For example,
-    maybe you want to optimize bookings for the next 5 days, from 2 hours on
+    maybe you want to optimize bookings for the next five days, from 2 hours on
     (while excluding bookings within the next 2 hours and bookings in the past).
     The current, out-of-the-box Dynamics 365 entity view filter doesn’t support
     this Now or After condition; RSO enabled this additional setting on top of
@@ -64,10 +64,10 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
    > [!div class="mx-imgBorder"]
    > ![Screenshot of Bookings for this Optimization](media/322f8b809e438d032b150b13fde88148.png)
 
-4. Optimization Range Settings is the time range where bookings can be created,
+4. **Optimization Range Settings** is the time range where bookings can be created,
     updated, and deleted.
 
-   **Example 1:** You want to have a booking created/moved ahead 24 hours but from 1 hour on; in other words, bookings will be moved into a range starting Now+1hour and ending Now+1hour+1day (which might partly still be today).
+   **Example 1:** You want to have a booking created or moved ahead 24 hours but from 1 hour on; in other words, bookings will be moved into a range starting Now+1hour and ending Now+1hour+1day (which might partly still be today).
   
    > [!div class="mx-imgBorder"]
    > ![Screenshot of optimization range settings](media/62ab888c08dfc0bdd81587535de73d5d.png)
