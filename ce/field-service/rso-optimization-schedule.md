@@ -18,7 +18,7 @@ search.app:
   - D365FS
 ---
 
-## Optimization schedules 
+# Optimization schedules 
 After creating a scope and a goal, you can combine and schedule them in an optimization schedule.
 
 You can define when resource scheduling optimization (RSO) should optimize requirements and bookings for selected resources - for example, at 1:00 AM on weekdays. Creating a schedule also includes creating a scope and a goal.

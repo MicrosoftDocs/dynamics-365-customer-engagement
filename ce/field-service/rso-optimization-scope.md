@@ -18,7 +18,7 @@ search.app:
   - D365FS
 ---
 
-## Optimization scopes 
+# Optimization scopes 
 
 You can define what resource scheduling optimization (RSO) optimizes, including resources, requirements, or bookings.
 
