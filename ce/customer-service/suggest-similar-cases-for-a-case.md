@@ -71,7 +71,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
 
   4. In the **Match Fields** tab:
 
-     - Select **Add New Text Analytics Entity Mapping** to add a new related text analytics entity mapping record to this rule.
+     - Select **New Text Analytics Entity Mapping** to add a related text analytics entity mapping record to this rule.
      - Fill in the details in the **Details** tab in the new record. These values are used to determine the keywords or key phrases from source records using relevance search to match with target records using text search. This helps to achieve keyword-based similarity between source and target records.  
 
 
