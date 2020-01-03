@@ -18,10 +18,6 @@ search.app:
   - D365USD
 ---
 
-
-<!--from editor: Please check the link for Channel Integration Framework in line 49. It's showing a 404 page. -->
-
-
 # What's new in Unified Service Desk for developers and customizers
 
 ::: moniker range="dynamics-usd-4.1"
@@ -46,7 +42,7 @@ More information: [Use Chrome Process to host web applications in Unified Servic
 
 Bring your channel providers and integrate them with Unified Service Desk client application using Channel Integration Framework.
 
-If your organization wants to use the cloud-based channel that you have developed using the [Channel Integration Framework](/dynamics365/customer-engagement/developer/channel-integration-framework/channel-integration-framework), you can integrate the same channel in Unified Service Desk with minimal configuration experience. In turn, this eliminates the need for developing multiple channels. 
+If your organization wants to use the cloud-based channel that you have developed using the [Channel Integration Framework](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework), you can integrate the same channel in Unified Service Desk with minimal configuration experience. In turn, this eliminates the need for developing multiple channels. 
 
 The User Interface Integration (UII) framework provides a hosted control - **Channel Integration Framework** - for you to host the channel provider within Unified Service Desk client application.
 
