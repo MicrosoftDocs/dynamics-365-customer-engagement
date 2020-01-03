@@ -18,6 +18,7 @@ search.app:
   - D365USD
 tags: MigrationHO
 ---
+
 # Client diagnostic logging overview
 There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client diagnostic logging:  
 
@@ -32,8 +33,8 @@ There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../in
  This section describes how to manually configure diagnostic logging in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. Rather than use the procedure described here, we recommend you use the Audit & Diagnostics Settings feature that provides centralized administration of diagnostics and the ability to connect a custom listener. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure auditing and diagnostics in Unified Service Desk](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md)  
 
 > [!IMPORTANT]
-> - The manually-configured diagnostics (as described here), will no longer work after you enable an Audit & Diagnostics Settings record that is configured for diagnostics.  
->   - [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] also provides an API that lets you configure rich diagnostic logging for custom hosted controls. More information:  [Configure enhanced diagnostic logging for custom hosted controls](../../unified-service-desk/configure-enhanced-diagnostic-logging-custom-hosted-controls.md)  
+> - The manually configured diagnostics (as described here) will no longer work after you enable an Audit & Diagnostics Settings record that is configured for diagnostics.  
+> - [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] also provides an API that lets you configure rich diagnostic logging for custom hosted controls. More information:  [Configure enhanced diagnostic logging for custom hosted controls](../../unified-service-desk/configure-enhanced-diagnostic-logging-custom-hosted-controls.md)  
 
  This topic describes how to change client logging characteristics.  
 

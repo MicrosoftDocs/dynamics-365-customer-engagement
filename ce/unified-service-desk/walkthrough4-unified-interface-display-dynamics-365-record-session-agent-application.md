@@ -1,6 +1,6 @@
 ---
 title: "Walkthrough 4  Display a record in a session in your agent application | MicrosoftDocs"
-description: "Demonstrates how to display Customer Engagement records in a session in your agent application using window navigation rules and session controls in Unified Service Desk."
+description: "Demonstrates how to display records in a session in your agent application using window navigation rules and session controls in Unified Service Desk."
 ms.date: 12/31/2019
 ms.service: 
   - "dynamics-365-customerservice"
@@ -16,9 +16,9 @@ search.app:
   - D365USD
 ---
 
-# Walkthrough 4: Display aUnified Interface apps record in a session in your agent application
+# Walkthrough 4: Display a Unified Interface apps record in a session in your agent application
 
-This walkthrough demonstrates how to display records in a session in your agent application using window navigation rules and session controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. It also demonstrates the use of replacement parameters to dynamically display the name of the hosted control based on the currently displayed account record. This walkthrough is built on top of the previous walkthrough, [Walkthrough 3: DisplayUnified Interface apps records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md), to display an account record in a session when you select one of the accounts in the **Account** search result window.  
+This walkthrough demonstrates how to display records in a session in your agent application using window navigation rules and session controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. It also demonstrates the use of replacement parameters to dynamically display the name of the hosted control based on the currently displayed account record. This walkthrough is built on top of the previous walkthrough, [Walkthrough 3: Display Unified Interface apps records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md), to display an account record in a session when you select one of the accounts in the **Account** search result window.  
   
 ## Prerequisites  
   
@@ -61,7 +61,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
   
 3. Select **+ New**.  
   
-4. On the **New Hosted Control** page, specify the following values.  
+4. On the **New Hosted Control** page, specify the following values:  
   
    |Field|Value|  
    |-----------|-----------|  
@@ -80,7 +80,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
 
  In this step, you’ll configure the **PageReady** event on the **Contoso Account Session** hosted control so that when it’s loaded, the parent hosted control from where the user selected to open the account, **Contoso Accounts Search**, is closed. The **Contoso Accounts Search** hosted control was created in [Walkthrough 3: Display Unified Interface apps records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md). This is done to ensure that the user can’t open other account information in the same session tab.  
   
-1. On the **Contoso Account Session** hosted control, and select the **Related** tab, and then select **Events**.
+1. On the **Contoso Account Session** hosted control, select the **Related** tab, and then select **Events**.
   
 2. On the events page, select **PageReady**.  
   
@@ -88,7 +88,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
   
 4. Select the search icon, and then select **+ New Action Call**.
   
-5. On the **New Action Call** page, specify the following values.  
+5. On the **New Action Call** page, specify the following values:  
   
    |Field|Value|  
    |-----------|-----------|  
@@ -113,7 +113,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
   
 1. On the hosted control page, select **+ New**.  
   
-2. On the New Hosted Control page, specify the following values.  
+2. On the New Hosted Control page, specify the following values:  
   
    |Field|Value|  
    |-----------|-----------|  
@@ -134,7 +134,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
   
 4. Select **+ New**.  
   
-5. On the **New Window Navigation Rule** page, specify the following values.  
+5. On the **New Window Navigation Rule** page, specify the following values:  
   
    |Field|Value|  
    |-----------|-----------|  
@@ -143,7 +143,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
    |From|Contoso Accounts Search|
    |Entity|account|  
 
-6. Select the **Result** tab, and specify the following values.
+6. Select the **Result** tab, and specify the following values:
 
    |Field|Value|  
    |-----------|-----------| 
@@ -161,7 +161,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
 ## Step 5: Add the controls to the configuration  
  In this step, you’ll add the action call, event, hosted controls, and window navigation rule configured in this walkthrough to **Contoso Configuration** to display these controls to the user who is assigned to the configuration. **Contoso Configuration** was created in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md).  
   
- Add the following to **Contoso Configuration**.  
+ Add the following to **Contoso Configuration**:  
   
 |Control name|Control type|  
 |------------------|------------------|  
@@ -183,7 +183,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
 
 5. Select the ellipsis (...) in the **Action Calls** section, and then select **Add Existing Action Call**. The **Lookup Records** pane is displayed.
 
-6. Type he name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.  
+6. Type the name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.  
   
 7. Select the ellipsis (...) in the **Hosted Controls** section, and then select **Add Existing Hosted Control**. The **Lookup Records** pane is displayed.  
 
