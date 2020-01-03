@@ -51,7 +51,7 @@ In this article, we'll create a work order deep link that when triggered by tech
 
 - Field Service Mobile must be set up for technicians to log in and view work orders. Follow the instructions in [Field Service installation (web + mobile)](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-2-download-the-field-service-mobile-app-on-a-phone-or-tablet).
 
-- This article assumes you have a Power App to deep link to. The Parts Order Power App referenced in this article is a simple, custom-built Power App that connects to a SharePoint list. If you are building a Power App for the first time, the [Power App in a day](http://aka.ms/appinaday) guide and the topic on [canvas apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started) is helpful.
+- This article assumes you have a Power App to deep link to. The Parts Order Power App referenced in this article is a simple, custom-built Power App that connects to a SharePoint list. If you are building a Power App for the first time, the [Power App in a day](https://aka.ms/appinaday) guide and the topic on [canvas apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started) is helpful.
 
 
 ## 1. Create custom command
@@ -98,7 +98,7 @@ All deep links to Windows, iOS, and Android Power Apps apps begin with: **ms-app
 
 ### Power App GUID
 
-To find and add the unique GUID of your Power App, go to **http://make.powerapps.com/** > **Apps**, select your app, and then **Details**.
+To find and add the unique GUID of your Power App, go to **https://make.powerapps.com/** > **Apps**, select your app, and then **Details**.
   
 > [!div class="mx-imgBorder"]
 > ![Screenshot of navigating to Power App id](./media/mobile-deeplink-app-id.png)
@@ -221,4 +221,4 @@ By editing the **WorkOrder** folder and WorkOrder.js file, you're editing files 
 
 ### See also
 - [Power Apps update – Universal links, HTML control improvements, new service connections and more](https://powerapps.microsoft.com/ro-ro/blog/powerapps-560-update/) 
-- [Set URI parameters for your canvas apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/embed-apps-dev#set-uri-parameters-for-your-app)
+- [Set URI parameters for your canvas apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/embed-apps-dev#set-uri-parameters-for-your-app)
