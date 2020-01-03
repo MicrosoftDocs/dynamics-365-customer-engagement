@@ -16,4 +16,4 @@ ms.custom:
 
 [!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[authenticate-channel-users](../../shared/token-updateContext.md)]
+[!INCLUDE[update-updateContext](../../shared/token-updateContext.md)]

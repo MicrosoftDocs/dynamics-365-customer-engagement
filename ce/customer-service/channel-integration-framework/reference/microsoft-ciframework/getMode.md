@@ -19,4 +19,4 @@ applies_to:
 
 [!INCLUDE[getMode](includes/getMode-description.md)]
 
-[!INCLUDE[authenticate-channel-users](../../shared/token-getMode.md)]
+[!INCLUDE[token-getMode](../../shared/token-getMode.md)]

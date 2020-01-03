@@ -19,4 +19,4 @@ applies_to:
 
 [!INCLUDE[renderSearchPage-description](includes/renderSearchPage-description.md)] 
 
-[!INCLUDE[authenticate-channel-users](../../../shared/token-renderSearchPage.md)]
+[!INCLUDE[token-renderSearchPage](../../../shared/token-renderSearchPage.md)]

@@ -19,7 +19,7 @@ applies_to:
 
 [!INCLUDE[addHandler-description](includes/addHandler-description.md)] 
 
-[!INCLUDE[authenticate-channel-users](../../../shared/token-addHandler.md)]
+[!INCLUDE[token-addHandler](../../../shared/token-addHandler.md)]
 
 ## Related topics
 

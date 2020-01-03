@@ -19,4 +19,4 @@ applies_to:
 
 [!INCLUDE[setWidth](includes/setWidth-description.md)]
 
-[!INCLUDE[authenticate-channel-users](../../shared/token-setWidth.md)]
+[!INCLUDE[token-setWidth](../../shared/token-setWidth.md)]

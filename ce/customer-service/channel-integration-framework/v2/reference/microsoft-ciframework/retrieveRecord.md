@@ -19,4 +19,4 @@ applies_to:
 
 [!INCLUDE[retrieveRecord](includes/retrieveRecord-description.md)] 
 
-[!INCLUDE[authenticate-channel-users](../../../shared/token-retrieveRecord.md)]
+[!INCLUDE[token-retrieveRecord](../../../shared/token-retrieveRecord.md)]

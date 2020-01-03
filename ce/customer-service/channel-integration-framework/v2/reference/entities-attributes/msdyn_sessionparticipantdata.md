@@ -12,7 +12,7 @@ manager: "shujoshi"
 
 # msdyn_SessionParticipantData Entity Reference
 
-[!INCLUDE[authenticate-channel-users](../../../shared/token-msdyn-sessionparticipantdata.md)]
+[!INCLUDE[token-msdyn-sessionparticipantdata](../../../shared/token-msdyn-sessionparticipantdata.md)]
 
 ### See also
 

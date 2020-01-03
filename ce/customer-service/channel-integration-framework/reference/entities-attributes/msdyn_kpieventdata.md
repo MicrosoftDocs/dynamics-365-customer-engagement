@@ -11,7 +11,7 @@ manager: "shujoshi"
 ---
 # msdyn_KPIEventData Entity Reference
 
-[!INCLUDE[authenticate-channel-users](../../shared/token-msdyn-kpieventdata.md)]
+[!INCLUDE[token-msdyn-kpieventdata](../../shared/token-msdyn-kpieventdata.md)]
 
 ### See also
 

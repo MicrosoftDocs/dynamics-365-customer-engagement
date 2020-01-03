@@ -19,4 +19,4 @@ applies_to:
 
 [!INCLUDE[openForm](includes/openForm-description.md)]
 
-[!INCLUDE[authenticate-channel-users](../../../shared/token-openForm.md)]
+[!INCLUDE[token-openForm](../../../shared/token-openForm.md)]

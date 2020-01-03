@@ -19,7 +19,7 @@ applies_to:
 
 [!INCLUDE[removeHandler-description](includes/removeHandler-description.md)] 
 
-[!INCLUDE[authenticate-channel-users](../../../shared/token-removeHandler.md)]
+[!INCLUDE[token-removeHandler](../../../shared/token-removeHandler.md)]
 
 
 ## Related topics

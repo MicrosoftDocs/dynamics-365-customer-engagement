@@ -19,4 +19,4 @@ applies_to:
 
 [!INCLUDE[getEntityMetadata-description](includes/getEntityMetadata-description.md)] 
 
-[!INCLUDE[authenticate-channel-users](../../../shared/token-getEntityMetadata.md)]
+[!INCLUDE[token-getEntityMetadata](../../../shared/token-getEntityMetadata.md)]

@@ -17,7 +17,7 @@ applies_to:
 
 # onsizechanged event (CIF JavaScript API reference)
 
-[!INCLUDE[authenticate-channel-users](../../shared/token-onsizechanged.md)]
+[!INCLUDE[token-onsizechanged](../../shared/token-onsizechanged.md)]
 
 ## Related topics
 

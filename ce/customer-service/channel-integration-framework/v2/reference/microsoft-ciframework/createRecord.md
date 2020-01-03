@@ -19,4 +19,4 @@ applies_to:
 
 [!INCLUDE[createRecord](includes/createRecord-description.md)] 
 
-[!INCLUDE[authenticate-channel-users](../../../shared/token-createRecord.md)]
+[!INCLUDE[token-createRecord](../../../shared/token-createRecord.md)]

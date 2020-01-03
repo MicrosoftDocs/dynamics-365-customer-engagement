@@ -17,7 +17,7 @@ applies_to:
 
 # onsendkbarticle event (CIF JavaScript API reference)
 
-[!INCLUDE[authenticate-channel-users](../../shared/token-onsendkbarticle.md)]
+[!INCLUDE[token-onsendkbarticle](../../shared/token-onsendkbarticle.md)]
 
 ## Related topics
 

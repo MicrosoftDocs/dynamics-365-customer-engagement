@@ -17,7 +17,7 @@ applies_to:
 
 # onpagenavigate event (CIF JavaScript API reference)
 
-[!INCLUDE[authenticate-channel-users](../../shared/token-onpagenavigate.md)]
+[!INCLUDE[token-onpagenavigate](../../shared/token-onpagenavigate.md)]
 
 ## Related topics
 

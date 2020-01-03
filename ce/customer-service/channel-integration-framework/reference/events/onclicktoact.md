@@ -15,7 +15,7 @@ ms.custom:
 
 # onclicktoact event (CIF JavaScript API reference)
 
-[!INCLUDE[authenticate-channel-users](../../shared/token-onclicktoact.md)]
+[!INCLUDE[token-onclicktoact](../../shared/token-onclicktoact.md)]
 
 ## See also
 

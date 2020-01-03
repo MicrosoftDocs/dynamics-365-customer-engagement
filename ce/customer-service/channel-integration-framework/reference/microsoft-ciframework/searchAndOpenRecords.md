@@ -20,4 +20,4 @@ applies_to:
 
 [!INCLUDE[searchAndOpenRecords](includes/searchAndOpenRecords-description.md)]
 
-[!INCLUDE[authenticate-channel-users](../../shared/token-searchAndOpenRecords.md)]
+[!INCLUDE[token-searchAndOpenRecords](../../shared/token-searchAndOpenRecords.md)]

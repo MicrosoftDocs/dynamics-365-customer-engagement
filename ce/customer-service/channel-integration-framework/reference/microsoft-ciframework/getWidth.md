@@ -19,4 +19,4 @@ applies_to:
 
 [!INCLUDE[getWidth](includes/getWidth-description.md)]
 
-[!INCLUDE[authenticate-channel-users](../../shared/token-getWidth.md)]
+[!INCLUDE[token-getWidth](../../shared/token-getWidth.md)]

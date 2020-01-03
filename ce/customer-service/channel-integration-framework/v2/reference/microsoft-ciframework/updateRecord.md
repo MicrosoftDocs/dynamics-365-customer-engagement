@@ -19,4 +19,4 @@ applies_to:
 
 [!INCLUDE[updateRecord](includes/updateRecord-description.md)] 
 
-[!INCLUDE[authenticate-channel-users](../../../shared/token-updateRecord.md)]
+[!INCLUDE[token-updateRecord](../../../shared/token-updateRecord.md)]

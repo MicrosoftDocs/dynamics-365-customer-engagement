@@ -17,7 +17,7 @@ applies_to:
 
 # onmodechanged event (CIF JavaScript API reference)
 
-[!INCLUDE[authenticate-channel-users](../../../shared/token-onmodechanged.md)]
+[!INCLUDE[token-onmodechanged](../../../shared/token-onmodechanged.md)]
 
 ## Related topics
 

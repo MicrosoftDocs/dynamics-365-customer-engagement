@@ -19,4 +19,4 @@ applies_to:
 
 [!INCLUDE[setMode](includes/setMode-description.md)]
 
-[!INCLUDE[authenticate-channel-users](../../../shared/token-setMode.md)]
+[!INCLUDE[token-setMode](../../../shared/token-setMode.md)]

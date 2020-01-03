@@ -11,7 +11,7 @@ manager: "shujoshi"
 ---
 # msdyn_conversationdata Entity Reference
 
-[!INCLUDE[authenticate-channel-users](../../shared/token-msdyn-sessionparticipantdata.md)]
+[!INCLUDE[token-msdyn-conversationdata](../../shared/token-msdyn-sessionparticipantdata.md)]
 
 ### See also
 

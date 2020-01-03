@@ -19,4 +19,4 @@ applies_to:
 
 [!INCLUDE[getEnvironment](includes/getEnvironment-description.md)]
 
-[!INCLUDE[authenticate-channel-users](../../shared/token-getEnvironment.md)]
+[!INCLUDE[token-getEnvironment](../../shared/token-getEnvironment.md)]

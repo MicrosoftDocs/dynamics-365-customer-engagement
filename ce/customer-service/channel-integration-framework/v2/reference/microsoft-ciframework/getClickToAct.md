@@ -19,4 +19,4 @@ applies_to:
 
 [!INCLUDE[getClickToAct](includes/getClickToAct-description.md)]
 
-[!INCLUDE[authenticate-channel-users](../../../shared/token-getClickToAct.md)]
+[!INCLUDE[token-getClickToAct](../../../shared/token-getClickToAct.md)]
