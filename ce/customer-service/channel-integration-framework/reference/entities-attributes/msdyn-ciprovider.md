@@ -18,7 +18,7 @@ applies_to:
 
 # msdyn_ciprovider Entity Reference
 
-
+[!INCLUDE[token-msdyn-ciprovider](../../shared/token-msdyn-ciprovider.md)]
 
 ## Related topics
 

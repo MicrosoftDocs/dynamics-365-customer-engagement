@@ -18,7 +18,7 @@ applies_to:
 
 # msdyn_ciprovider Entity Reference
 
-[!INCLUDE[authenticate-channel-users](../../../shared/token-msdyn-ciprovider.md)]
+[!INCLUDE[token-msdyn-ciprovider](../../../shared/token-msdyn-ciprovider.md)]
 
 ## Related topics
 
