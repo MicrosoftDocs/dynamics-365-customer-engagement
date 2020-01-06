@@ -30,9 +30,3 @@ To configure channel providers:
   > The msdyn_ciprovider entity is accessible only for the administrator roles and hence the panel will not load for a non-administrator roles. To load the panel for the non-administrator roles, create a new role and provide read-access to the msdyn_ciprovider entity. Now, add the role to the users who will be accessing the Channel Integration Framework.
 
 5. Launch the Unified Interface App to see the communication widget on the right side.<br><br>
-**The communication widget in the minimized mode**<br><br>
-![communication widget in the minimized mode](../media/widget-minimized-mode.PNG "communication widget in the minimized mode")
-<br><br>
-
-**The communication widget in the expanded mode**<br><br>
-![communication widget in the expanded mode](../media/widget-expanded-mode.PNG "communication widget in the expanded mode")

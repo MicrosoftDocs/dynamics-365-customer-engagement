@@ -17,6 +17,12 @@ ms.custom:
 
 [!INCLUDE[token-configure-channel-provider-channel-integration-framework](shared/token-configure-channel-provider-channel-integration-framework.md)]
 
+**The communication widget in the minimized mode**<br><br>
+![communication widget in the minimized mode](media/widget-minimized-mode.PNG "communication widget in the minimized mode")
+<br><br>
+
+**The communication widget in the expanded mode**<br><br>
+![communication widget in the expanded mode](media/widget-expanded-mode.PNG "communication widget in the expanded mode")
 
 ## See also
 
