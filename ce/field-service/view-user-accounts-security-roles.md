@@ -2,7 +2,7 @@
 title: "Set up field service users and security roles | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/3/2020
+ms.date: 01/6/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
