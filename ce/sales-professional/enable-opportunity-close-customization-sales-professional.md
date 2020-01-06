@@ -1,14 +1,12 @@
 ---
 title: "Enable customization of the Opportunity Close form (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Enable the system customizers to customize the opportunity close experience in Dynaimcs 365 for Sales to enable sales reps to capture important details about why an opportunity was closed."
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 8b8d22c0-bb89-c033-a85f-507823e40b7e
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

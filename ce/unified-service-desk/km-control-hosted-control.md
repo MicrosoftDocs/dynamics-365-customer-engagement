@@ -1,6 +1,6 @@
 ---
-title: "KM Control (Hosted Control) in Unified Service Desk | MicrosoftDocs"
-description: "Learn using the KM Control type of hosted control to display knowledge base articles in your agent application."
+title: "KM Control (hosted control) in Unified Service Desk | MicrosoftDocs"
+description: "Learn how to use the KM Control type of hosted control to display knowledge base articles in your agent application."
 ms.custom: 
   - dyn365-USD
 ms.date: 12/31/2019
@@ -17,8 +17,8 @@ search.app:
   - D365CE
   - D365USD
 ---
-# KM Control (Hosted Control)
-Use the **KM Control** type of hosted control to display knowledge base articles in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use knowledge base for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use knowledge](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)
+# KM Control (hosted control)
+Use the **KM Control** type of hosted control to display knowledge base articles in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use model-driven apps](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)
 
 <a name="Create"></a>   
 ## Create a KM Control hosted control  
@@ -181,7 +181,7 @@ These are the predefined actions for this hosted control type.
 |`postdata`|The formdata object containing a set of key/value pairs representing form fields and their values for a knowledge article.|  
 
 ### See also  
- [Leverage knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)   
- [Configure knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
- [Walkthrough 8: Use knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)   
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
+ [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)   
+ [Configure Unified Service Desk to use model-driven apps](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
+ [Walkthrough 8: Use knowledge base within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)   
+ [Hosted control types, action, and event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)

@@ -1,14 +1,12 @@
 ---
 title: "Track playbook activities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Carry out the playbook activities to ensure every event or scenario is dealt with consistently."
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: a0cbed18-8ab8-7418-22e7-71b6b48740b6
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

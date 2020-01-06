@@ -1,12 +1,10 @@
 ---
 title: "What if you're no longer working a lead? (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn more how and when to disqualify a lead."
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
 ms.topic: article
-ms.assetid: fa7fb7ff-a685-6d26-c696-752ab8e6a6a0
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
