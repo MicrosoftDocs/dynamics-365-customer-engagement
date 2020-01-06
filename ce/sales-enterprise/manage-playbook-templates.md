@@ -1,14 +1,12 @@
 ---
 title: "Manage playbook templates (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Create and manage playbook templates to help your team consistently perform recurrent business processes such as a sales process."
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 457ab189-dffe-bfc0-1db9-ee1e063a0dc9
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -28,29 +26,32 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
 
 4.  In the **Playbook Template** form, provide the following details, and then select **Save**:
 
-    * **Category**. Select the category for which you want to create the playbook template. Think of the category as an event or an issue that you want to address.
+    - **Category**. Select the category for which you want to create the playbook template. Think of the category as an event or an issue that you want to address.
 
-    * **Name**. Enter a descriptive name for the template.
+    - **Name**. Enter a descriptive name for the template.
 
-    * **Track progress**. Select whether to track the progress of the playbook by creating the activities under a playbook; those activities are in turn linked to the record type that the playbook applies to.
+    - **Track progress**. Select whether to track the progress of the playbook by creating the activities under a playbook; those activities are in turn linked to the record type that the playbook applies to.
 
         For example, consider a situation where you have a template created for an opportunity. If you set **Track Progress** to **Yes**, all playbook activities are created under the playbook that is launched from the opportunity record (following the hierarchy Opportunity record &gt; Playbook record &gt; Activities).
 
         If you set **Track Progress** to **No**, the playbook activities are created directly under the opportunity record (following the hierarchy Opportunity record &gt; Activities).
 
-    * **Estimated duration (days)**. Enter the estimated duration in days to indicate the time it might take to complete the playbook template once launched.
+    - **Estimated duration (days)**. Enter the estimated duration in days to indicate the time it might take to complete the playbook template once launched.
 
-        ![information section on playbook template form](media/playbook-template-information-section.png "Information section on Playbook template form")  
+        > [!div class="mx-imgBorder"]
+        > ![information section on playbook template form](media/playbook-template-information-section.png "Information section on Playbook template form")  
 
 5.  In the **Select record types that this playbook applies to** section, the **Available** box lists all the entities that are enabled for using playbooks. Select and move the record types to which the current playbook template applies into the **Selected** box.
 
     The playbook capability is currently enabled only on **Lead**, **Quote**, **Opportunity**, **Order**, **Invoice**, **Account**, and **Contact** record types. As a playbook manager, when you create a playbook template, you can select which entity that playbook applies to.
 
-    ![section to select record types the playbook applies to](media/playbook-applies-to.png "Section to select record types the playbook applies to")  
+    > [!div class="mx-imgBorder"]
+    > ![section to select record types the playbook applies to](media/playbook-applies-to.png "Section to select record types the playbook applies to")  
 
 6.  In the **Playbook Activities** section, select **Add Activity**, and then select the activity you want to create.
 
-    ![add playbook activity](media/add-activity.png "Add playbook activity")  
+    > [!div class="mx-imgBorder"]
+    > ![add playbook activity](media/add-activity.png "Add playbook activity")  
 
     For example, if the playbook is defined for an event in which a decision maker leaves the organization while working with a sales person, you can create a phone call record to make a call to the new decision maker, and schedule an appointment.
 
@@ -76,7 +77,8 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
 
     * **Priority**. Select the priority of the activity.
 
-        ![quick create form for phone call activity](media/quick-create-phone-call-form.png "Quick create form for phone call activity")  
+        > [!div class="mx-imgBorder"]
+        > ![quick create form for phone call activity](media/quick-create-phone-call-form.png "Quick create form for phone call activity")  
 
 8.  In the lower-right corner, select **Save**.
 
