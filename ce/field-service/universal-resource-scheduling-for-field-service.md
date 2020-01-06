@@ -2,7 +2,7 @@
 title: "Universal Resource Scheduling for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/15/2018
+ms.date: 1/6/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -92,7 +92,7 @@ When a requirement is created, it inherits attributes from the work order, inclu
 
 - Name (work order number text)
 - Work order (lookup reference to work order)
-- Work location (typically set to onsite by default, meaning a latitude and longitude must be set. Location agnostic work orders are supported)
+- Work location ("Onsite" by default meaning the work order should be performed at the customer's location and latitude and longitude values must be entered. If latitude and longitude values are not entered it is assumed the work order will be performed remotely and is "Location agnostic")
 - Latitude
 - Longitude
 - Service Territory
