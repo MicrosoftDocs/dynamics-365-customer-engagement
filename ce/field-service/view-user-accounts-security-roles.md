@@ -55,7 +55,7 @@ By setting security roles for users, you control the types of data and entities 
 
 
 > [!Note]
-> New product releases may update field service security roles. You can either make custom roles or copies of existing roles to mitigate the risks. If you intend to **add** additional privileges it is recommended to create a custom security role with the added privileges and assign both the field service security role and the add on role. If you intend to **remove** or "lower" privileges then it is recommended to make a copy of the field service security role, make your changes, and assign the copied security role to the user. To copy a security role, go to **Settings > Security > Security Roles**, then select a security role record and choose **Actions > Copy Role**. See the following screenshot for reference.
+> New product releases may update field service security roles. You can either make custom roles or copies of existing roles to mitigate the risks. If you intend to *add* additional privileges, we recommend creating a custom security role with the added privileges, and assigning both the Field Service security role and the add-on role. If you intend to *remove* or lower privileges, then we recommend that you make a copy of the Field Service security role, make your changes, and assign the copied security role to the user. To copy a security role, go to **Settings** > **Security** > **Security Roles**, then select a security role record and choose **Actions** > **Copy Role**. See the following screenshot for reference.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of copying a security role](media/admin-security-role-copy.png) 
