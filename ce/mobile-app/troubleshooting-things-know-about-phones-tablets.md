@@ -89,16 +89,16 @@ If you receive this message it means that your IT administrator is using Microso
  
 Steps to resolve the issue are device manufacturer-specific and depend which authenticator app you have installed. Microsoft authenticator apps are Authenticator and Company Portal. Your company may also use a third-party authenticator app. If you are unsure, ask your IT administrator which authenticator app you should be using and then follow the instructions below.
 
-For **Huawei** and **Honor** device, do the folling:
+For **Huawei** and **Honor** device, do the following:
 
 1. Go to **Settings** > **Battery** > **App launch**.
-2. Under **Manage automatically** for the authenticator app set the toggle swith to **OFF**.
+2. Under **Manage automatically** for the authenticator app set the toggle switch to **OFF**.
 3. On the **Manage manually** screen ensure that **Secondary launch / Can be launched by other apps** is enabled. This will allow Dynamics 365 for phones and tablets can launch the app.
 
 For **Vivo** device, do the following:
 
 1. Go to **Settings** > **More Settings** > **Applications** > **Autostart**.
-2. Set the the toggle switch to **ON** for the authenticator app.
+2. Set the toggle switch to **ON** for the authenticator app.
 
 For other device manufacturers, please email Dynamics 365 Mobile Support dynmobisup@microsoft.com and include your device make and model and quote the error message above.
 
