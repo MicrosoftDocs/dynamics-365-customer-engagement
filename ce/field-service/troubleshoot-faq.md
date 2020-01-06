@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/10/2019
+ms.date: 1/6/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -44,9 +44,9 @@ This is different from previous versions (7.x and 6.x), where Field Service was 
 > ![Screenshot of the former Field Service navigation menu](./media/navigation-fs-sitemap-7.png)
 
 
-## Can I customize out-of-the-box web resources, option sets, or security roles? 
+## Can I customize out-of-the-box web resources, option sets, security roles, or workflows? 
 
-No, this is not supported. Organizations that customize these components may not immediately cause the environment to break, but eventually, as Microsoft releases changes to the customized components, the changes will not be applied to the top layer of that component. The specific customized layer will override all future changes. This will almost certainly eventually cause the instances that have customized these components to experience unpredictable errors and behavior.
+No. Customizing, taking dependencies, or custom invocation of these components is not supported and could result in unintended system behaviors. Organizations that customize these components may not immediately cause the environment to break, but eventually, as Microsoft releases changes to the customized components, the changes will not be applied to the top layer of that component. The specific customized layer will override all future changes. This will almost certainly eventually cause the instances that have customized these components to experience unpredictable errors and behavior.  
 
 ## Why are there work orders with duplicate work order numbers?
 
