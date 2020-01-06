@@ -29,7 +29,7 @@ The single-session Dynamics 365 model-driven app exposes the Dynamics 365 Channe
 **3 - Channel Integration Framework Adapter**<br>
 The Channel Integration Framework Adapter enables the communication between a single-session Dynamics 365 model-driven app and the capabilities of the channel provider.
 
-**4 - Web-based communication widget**<br>
+**4 - Web-based Communication widget**<br>
 The web-based communication channel (third party) is hosted in the widget that Dynamics 365 Channel Integration Framework provides. This is a multipurpose communication widget wherein you can host a CTI, chat, or email channels of your choice.
 
 **5 - Cloud Channel Provider**<br>

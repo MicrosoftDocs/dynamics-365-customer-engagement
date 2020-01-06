@@ -29,10 +29,10 @@ The Dynamics 365 model-driven app exposes the Dynamics 365 Channel integration F
 **3 - Channel Integration Framework Adapter**<br>
 The Channel Integration Framework Adapter enables the communication between Dynamics 365 model-driven app and the capabilities of the telephony channel.
 
-**4 - Web-based communication widget**<br>
+**4 - Web-based Communication widget**<br>
 The telephony channel is hosted in the widget that Dynamics 365 Channel Integration Framework provides. You can host your choice of telephony channel.
 
-**5 - Cloud Channel Provider**<br>
+**5 - Telephony Channel Provider**<br>
 The telephony channel is the service that you want to integrate and interact with Dynamics 365 environment using the Dynamics 365 Channel Integration Framework. The capabilities of a channel are specific to the channel provider, and Dynamics 365 Channel Integration Framework is agnostic on the working of the channel.
 
 
