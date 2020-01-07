@@ -45,16 +45,14 @@ This [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] version req
 >  For detailed hardware and software requirements or specific product versions and service pack levels that are supported for this version, see the topics in this section. 
 >
 >  For hardware and software requirements of earlier versions, see the following topics.  
->  - [Dynamics 365 (version 8.x) and Dynamics CRM 2016](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699831(v%3dcrm.8))
->  - [Microsoft Dynamics CRM 2015](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2015/deployment-administrators-guide/hh699831(v=crm.7))
->  - [Microsoft Dynamics CRM 2013](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2013/implementation-guide/hh699831(v%3dcrm.6))
+>  - [Dynamics 365 (version 8.x) and Dynamics CRM 2016](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699831(v%3dcrm.8))
+>  - [Microsoft Dynamics CRM 2015](https://docs.microsoft.com/previous-versions/dynamicscrm-2015/deployment-administrators-guide/hh699831(v=crm.7))
+>  - [Microsoft Dynamics CRM 2013](https://docs.microsoft.com/previous-versions/dynamicscrm-2013/implementation-guide/hh699831(v%3dcrm.6))
   
 > [!IMPORTANT]
->  Typically, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] applications support the latest version and service pack (SP) for all required components, such as [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)], [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)], and [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)]. However, to fully support the latest version of a required component, you should apply the latest update for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
->   
->  The optional and dependent products listed here that have reached their mainstream support end date might only receive full support with the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] application. Updates may not be made available if Microsoft determines the issue is caused by the expired product. For more information about product lifecycles, see [Select a Product for Lifecycle Information](http://go.microsoft.com/fwlink/p/?LinkId=248439).  
+>  The optional and dependent products listed here that have reached their mainstream support end date might only receive full support with the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] application. Updates may not be made available if Microsoft determines the issue is caused by the expired product. For more information about product lifecycles, see [Select a Product for Lifecycle Information](https://go.microsoft.com/fwlink/p/?LinkId=248439).  
   
- Before you install [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], review the topics in this section, which provide detailed information about the products and technologies that are required or optional and supported configurations.  
+ Before you install [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], review the articles in this section, which provide detailed information about the products and technologies that are required or optional and supported configurations.  
   
   
 ## See also

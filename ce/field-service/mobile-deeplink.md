@@ -83,7 +83,7 @@ Next we need to construct our deep link.
 
 The final deep link will be: 
 
-    ms-apps:///providers/Microsoft.PowerApps/apps/c2fe056f-f576-4c41-9b69-c2435689e80c?deep link=requestparts&WONumber=18 
+    ms-apps:///providers/Microsoft.PowerApps/apps/c2fe056f-f576-4c41-9b69-c2435689e80c?deeplink=requestparts&WONumber=18 
 
 This deep link is a concatenation of:
 
@@ -113,7 +113,7 @@ Find your Power App GUID in the **App ID** section. It will be a 32-digit number
 
 ### Power App form name
 
-Next, find the name of the specific Power Apps form you want to deep link to. In our example, it's "**requestparts**". This will be preceded by "**?deep link=**" in the deep link.
+Next, find the name of the specific Power Apps form you want to deep link to. In our example, it's "**requestparts**". This will be preceded by "**?deeplink=**" in the deep link.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Apps form name](./media/mobile-deeplink-powerapps-form.png)
@@ -146,7 +146,7 @@ Here is the code snippet that was used in our example:
         function ToPowerApps(entityForm) {
             var WONumber = entityForm.entity.primaryName;
             var WOqueryString = "&WONumber=" + WONumber;
-            var url = "ms-apps:///providers/Microsoft.PowerApps/apps/c2fe056f-f576-4c41-9b69-c2435689e80c?deep link=requestparts" + WOqueryString ;
+            var url = "ms-apps:///providers/Microsoft.PowerApps/apps/c2fe056f-f576-4c41-9b69-c2435689e80c?deeplink=requestparts" + WOqueryString ;
             //MobileCRM.bridge.alert(url);
             MobileCRM.Platform.openUrl(url);
         }
@@ -172,7 +172,7 @@ Go to the **App** section in the left pane of the Power App and edit the **OnSta
 
 In our example, we entered the following logic that tells the Power App to go to the specific form if the deep link parameter is "requestparts":
 
-    If(Param("deep link") = "requestparts", Navigate(RequestParts))
+    If(Param("deeplink") = "requestparts", Navigate(RequestParts))
 
 
 ## 5. Pass work order parameter
