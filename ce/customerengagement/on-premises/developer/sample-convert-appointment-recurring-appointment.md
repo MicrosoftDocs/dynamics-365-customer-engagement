@@ -24,6 +24,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
+
 # Sample: Convert an appointment to a recurring appointment
 
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Schedule and Appointment samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/ScheduleAndAppointment).
