@@ -67,9 +67,7 @@ Also, below the these tabs, at all times, you can see the Conversation details s
 
 The **Pre-chat survey** tab displays the survey answers against the questions that are requested by your organization, which helps your interaction with the customer.
 
-### Preview: Portal navigation
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+### Portal navigation
 
 The **Portal navigation** tab displays information on the path (recent actions) the customer took just before initiating a conversation. The information enables the agents to understand the customer intent and provide a personalized service with fast resolution for improved customer satisfaction. The **Portal navigation** tab displays the information in the reverse chronological order, and is categorized into the following type of actions:
 
