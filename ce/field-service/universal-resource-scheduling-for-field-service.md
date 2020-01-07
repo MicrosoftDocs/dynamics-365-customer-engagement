@@ -92,7 +92,7 @@ When a requirement is created, it inherits attributes from the work order, inclu
 
 - Name (work order number text)
 - Work order (lookup reference to work order)
-- Work location ("Onsite" by default meaning the work order should be performed at the customer's location and latitude and longitude values must be entered. If latitude and longitude values are not entered it is assumed the work order will be performed remotely and is "Location agnostic")
+- Work location 
 - Latitude
 - Longitude
 - Service Territory
@@ -240,6 +240,9 @@ To make sure resources are geocoded properly, navigate to **Universal Resource S
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of geo coded resource on map](media/scheduling-urs-schedule-board-locate-resource.png)
+
+## Additional notes
+If the work order or requirement does not have a latitude or longitude, the location is treated as Location agnostic which means the location of resources is not considered during scheduling. If the work order or requirement has a latitude and longitude and work location = onsite, resource locations, travel time, and routes are considered during scheduling.
 
 ### See also
 - [Universal Resource Scheduling documentation](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
