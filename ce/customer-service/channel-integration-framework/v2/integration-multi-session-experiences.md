@@ -26,4 +26,4 @@ To learn more, see:
 
 ## See also
 
-[Modes and locations for the communication widget](modes-communication-widget.md)
+[Modes and locations for the communication widget](v2/modes-communication-widget.md)
