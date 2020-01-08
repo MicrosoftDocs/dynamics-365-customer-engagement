@@ -37,4 +37,4 @@ The data that you track as recent actions is stored in an entity where it is pas
 
 ## See also
 
-[Self service](../agent/agent-oc/oc-customer-summary.md#Self service)
+[Self service](../agent/agent-oc/oc-customer-summary.md#self-service)
