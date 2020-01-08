@@ -49,7 +49,6 @@ Set **Time Off Approval Required** to _Yes_ if the time off needs to be approved
 
 ## Submit a time-off request  
 
-
 1.  From the main menu, select **Field Service** > **Time Off Requests**.  
   
 2.  On the **Active Time Off Request** screen, select **New**.  
@@ -62,6 +61,8 @@ Set **Time Off Approval Required** to _Yes_ if the time off needs to be approved
   
 
 ## Approve a time-off request  
+
+If the resource for which the time off request applies to requires an approval, a Field Service Administrator 
   
 1. From the main menu, select **Field Service** > **Time Off Requests**.
 
@@ -71,18 +72,28 @@ Set **Time Off Approval Required** to _Yes_ if the time off needs to be approved
 
 4. When the approval is completed, select **OK**.
 
-5. Approved time-off requests will change to status "Inactive." Inactive records can be found in the view **Inactive Time Off Requests**.
-
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/time-off-approve.png)
 
+5. Approved time-off requests will change to status "Inactive." Inactive records can be found in the view **Inactive Time Off Requests**.
+
+
 ## View time off on the schedule board
+
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/time-off-schedule-board.png)
 
 ## Delete a time off request
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/time-off-delete.png)
+
+## Additional notes
+
+- security role needed
   
 ### See also  
     
