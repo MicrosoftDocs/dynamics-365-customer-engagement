@@ -46,7 +46,7 @@ The matrix explains the various aspects of version 1.0 and 2.0.
 |Channel | Telephony, messaging (SMS), chat and social channels | Telephony channels|
 |Model-driven app | Dynamics 365 Customer Service <br> Dynamics 365 Sales <br> Dynamics 365 Project Service <br> Dynamics 365 Field Service | Omnichannel for Customer Service |
 |Communication panel | Right side | Left side |
-|Communication panel modes | | |
+|Communication panel modes | Minimized <br> Expanded | Docked <br> Minimized <br> Hidden |
 |Features| Support for one channel provider at any time <br> Communication panel management |Support for multiple telephony channel providers <br> Communication panel management <br> Channel analytics <br> Notification management templates<br> Application tab management templates<br> Session management templates |
 
 > [!div class="mx-imgBorder"]
