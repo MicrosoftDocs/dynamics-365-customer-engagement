@@ -29,7 +29,7 @@ This sample shows how to use [PickFromQueueRequest](https://docs.microsoft.com/d
 
 ## How to run this sample
 
-[!include[cc-how-to-run-samples](../../includes/cc-how-to-run-samples.md)]
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
 
 ## What this sample does
 
