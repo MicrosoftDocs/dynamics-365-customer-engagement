@@ -85,8 +85,13 @@ If the resource for which the time off request applies to requires an approval, 
 
 ## Edit and delete a time off request
 
-Time off requests can be edited or deleted from the resource's calendar.
+Time off requests can be edited or deleted from the resource's calendar only.
 
+Go to the bookable resource record for who the time off belongs to, and select **Show Work Hours**.
+
+To **edit**, double click the time off which was created when the time off request was created or approved.
+
+To **delete**, select and highlight the time off and click the delete icon.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/time-off-delete.png)
