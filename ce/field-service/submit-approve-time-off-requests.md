@@ -80,8 +80,12 @@ If the resource for which the time off request applies to requires an approval, 
 
 ## View time off on the schedule board
 
+Once the time off request is approved or simply created, depending on whether the resource requires approval or not, the resource's time off time range will show as unavailable on the schedule board.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/time-off-schedule-board.png)
+
+This is displayed and treated the same as non-working hours.
 
 ## Edit and delete a time off request
 
