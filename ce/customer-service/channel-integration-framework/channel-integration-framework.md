@@ -33,7 +33,7 @@ ms.custom:
 
 <tr>
 <td>
-<h2> Get started </h2>
+<h3> Get started </h3>
 <li><a href="overview-channel-integration-framework.md" data-raw-source="[Dynamics 365 Channel Integration Framework overview](overview-channel-integration-framework.md)">Dynamics 365 Channel Integration Framework overview</a></li>
 <li><a href="architecture-overview-channel-integration-framework.md" data-raw-source="[Architecture overview of Dynamics 365 Channel Integration Framework](architecture-overview-channel-integration-framework.md)">Architecture overview</a></li>
 <li><a href="system-requirements-channel-integration-framework.md" data-raw-source="[System requirements](system-requirements-channel-integration-framework.md)">System requirements</a></li>
@@ -41,7 +41,7 @@ ms.custom:
 
 <td>
 
-<h2> Download </h2>
+<h3> Download </h3>
 
 <li><a href="get-channel-integration-framework.md" data-raw-source="[Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)">Get Dynamics 365 Channel Integration Framework</a></li>
 <li><a href="sample-softphone-integration.md" data-raw-source="[Download sample code for softphone integration (version 1.0)](sample-softphone-integration.md)">Download sample code for softphone integration (version 1.0)</a></li>
@@ -86,7 +86,7 @@ ms.custom:
 <tr>
 
 <td>
-<h2> Get started </h2>
+<h3> Get started </h3>
 <li><a href="v2/overview-channel-integration-framework.md" data-raw-source="[Dynamics 365 Channel Integration Framework overview](v2/overview-channel-integration-framework.md)">Dynamics 365 Channel Integration Framework overview</a></li>
 <li><a href="v2/architecture-overview-channel-integration-framework-v2.md" data-raw-source="[Architecture overview of Dynamics 365 Channel Integration Framework](v2/architecture-overview-channel-integration-framework-v2.md)">Architecture overview</a></li>
 <li><a href="v2/system-requirements-channel-integration-framework-v2.md" data-raw-source="[System requirements](v2/system-requirements-channel-integration-framework-v2.md)">System requirements</a></li>
@@ -94,7 +94,7 @@ ms.custom:
 
 <td>
 
-<h2> Download </h2>
+<h3> Download </h3>
 
 <li><a href="get-channel-integration-framework.md" data-raw-source="[Get Dynamics 365 Channel Integration Framework](v2/get-channel-integration-framework.md)">Get Dynamics 365 Channel Integration Framework</a></li>
 <li><a href="v2/onboard-org-flight.md" data-raw-source="[Onboard to Version 2.0 flight](v2/onboard-org-flight.md)">Onboard to Version 2.0 flight</a></li>
