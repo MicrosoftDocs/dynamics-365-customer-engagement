@@ -91,8 +91,8 @@ ms.custom:
 <td>
 <h2> Get started </h2>
 <li><a href="v2/overview-channel-integration-framework.md" data-raw-source="[Dynamics 365 Channel Integration Framework overview](v2/overview-channel-integration-framework.md)">Dynamics 365 Channel Integration Framework overview</a></li>
-<li><a href="v2/architecture-overview-channel-integration-framework.md" data-raw-source="[Architecture overview of Dynamics 365 Channel Integration Framework](v2/architecture-overview-channel-integration-framework.md)">Architecture overview</a></li>
-<li><a href="system-requirements-channel-integration-framework-v2.md" data-raw-source="[System requirements](v2/system-requirements-channel-integration-framework-v2.md)">System requirements</a></li>
+<li><a href="v2/architecture-overview-channel-integration-framework-v2.md" data-raw-source="[Architecture overview of Dynamics 365 Channel Integration Framework](v2/architecture-overview-channel-integration-framework-v2.md)">Architecture overview</a></li>
+<li><a href="v2/system-requirements-channel-integration-framework-v2.md" data-raw-source="[System requirements](v2/system-requirements-channel-integration-framework-v2.md)">System requirements</a></li>
 </td>
 
 <td>
