@@ -29,11 +29,9 @@ Keep the schedule board in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dy
   
 For example, if one of your field technicians is taking a vacation, it's important to log the request so that a dispatcher can see the time-off request on the schedule board when scheduling a work order.  
   
-When a resource has an approved time-off request, the scheduling assistant will not recommend that resource for a job in that time period, and the time slots for that resource will be grayedout on the schedule board to provide a visual notification to the dispatchers that the resource is not scheduled to be available during that time period.  
+When a resource has an approved time-off request, the scheduling assistant will not recommend that resource for a job in that time period, and the time slots for that resource will be grayedout on the schedule board to provide a visual notification to the dispatchers that the resource is not available during that time period.  
   
 If a bookable resource is set to require time-off approval, then when a time-off request is created for that resource, an approval request will be sent to that user's manager, before the time-off request is reflected in the schedule assistant and on the schedule board.  
-
-
 
 
 ## Prerequsites
@@ -45,7 +43,7 @@ Go to **Resource Scheduling > Resources** then edit a bookable resource record.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/time-off-resource.png)
 
-Set **Time Off Approval Required** to _Yes_ if the time off needs to be approved in order to take effect, or _No_ if it should take effect immediately once the time off is submitted. This value is No by default.
+Set **Time Off Approval Required** to _Yes_ if the time off needs to be approved in order to take effect, or _No_ if it should take effect immediately once the time off is submitted. This value is "No" by default.
 
 ## Submit a time-off request  
 
@@ -62,20 +60,22 @@ Set **Time Off Approval Required** to _Yes_ if the time off needs to be approved
 
 ## Approve a time-off request  
 
-If the resource for which the time off request applies to requires an approval, a Field Service Administrator 
+If the related resource requires an approval, a Field Service Administrator or dispatcher can approve the request. 
   
-1. From the main menu, select **Field Service** > **Time Off Requests**.
+1. Log into Field Service with a user with the correct security role to approve time off requests (Field Service-Administrator or Field Service-Dispatcher).
 
-2. From the list of views, select the arrow, then select **Active Time Off Requests**. This shows a list of unapproved time-off requests.
+2. From the main menu, select **Field Service** > **Time Off Requests**.
 
-3. To approve a request, select it, and in the command bar at the top, select **Approve**.
+3. From the list of views, select the arrow, then select **Active Time Off Requests**. This shows a list of unapproved time-off requests.
 
-4. When the approval is completed, select **OK**.
+4. To approve a request, select it, and in the command bar at the top, select **Approve**.
+
+5. When the approval is completed, select **OK**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/time-off-approve.png)
 
-5. Approved time-off requests will change to status "Inactive." Inactive records can be found in the view **Inactive Time Off Requests**.
+Approved time-off requests will change to a status of "Inactive." Inactive records can be found in the view **Inactive Time Off Requests**. In addition, time off requests will show in the resource's calendar along with their normal working hours.
 
 
 ## View time off on the schedule board
@@ -105,7 +105,7 @@ To **delete**, select and highlight the time off and click the delete icon.
 
 ## Additional notes
 
-- security role needed
+Users with **Field Service-Administrator** or **Field Service-Resource** security roles can approve time off requests.
   
 ### See also  
     
