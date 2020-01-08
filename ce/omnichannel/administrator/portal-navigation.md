@@ -29,12 +29,12 @@ The data that you track as recent actions is stored in an entity where it is pas
 
 1. Sign in to the Omnichannel Administration app.
 
-2. Select **Portal Navigation** under **Settings**.
+2. Select **Portal navigation** under **Settings**. The **Omnichannel Configuration** page appears.
 
-3. Set the **Portal Navigation** toggle to **Yes** in the **Omnichannel Configuration** view.
+3. On the **Portal navigation settings** tab, set the **Portal Navigation** toggle to **Yes**.
 
-4. Select **Save** to save the changes.
+4. Select **Save**.
 
 ## See also
 
-[Portal navigation](../agent/agent-oc/oc-customer-summary.md#preview-portal-navigation)
+[Self service](../agent/agent-oc/oc-customer-summary.md#Self service)

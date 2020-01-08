@@ -49,11 +49,11 @@ Use the customer form to search for an existing contact or account record in omn
 The conversation summary section displays tabs with the details that help you understand the information about the conversation with customer. It displays the following tabs:
 
 - Pre-chat survey
-- Portal navigation
+- Self service
 - Visitor details
 - Additional details (Only if configured and additional context variables available)
 
-Also, below the these tabs, at all times, you can see the Conversation details section that shows the following details:
+The Conversation details section shows the following details:
 
 - Engagement channel
 - Waiting time
@@ -68,21 +68,21 @@ Also, below the these tabs, at all times, you can see the Conversation details s
 
 The **Pre-chat survey** tab displays the survey answers against the questions that are requested by your organization, which helps your interaction with the customer.
 
-### Portal navigation
+### Self service
 
-The **Portal navigation** tab displays information on the path (recent actions) the customer took just before initiating a conversation. The information enables the agents to understand the customer intent and provide a personalized service with fast resolution for improved customer satisfaction. The **Portal navigation** tab displays the information in reverse chronological order, and is categorized into the following types of actions:
+The **Self service** tab displays information on the activites that the customer had performed prior to initiating a conversation through chat. The information enables the agents to understand the customer intent and provide a personalized service for improved customer satisfaction. The activity information is categorized into the following action types and appears in reverse chronological order:
 
 | Action type | Description |
 |-------------|-----------------------------------|
-| Page visited | The page visited on the portal (website) along with the timestamp.|
-| Phrase searched | The keyword or phrase searched for, along with the timestamp. |
-| Knowledge article viewed | The knowledge article viewed along with the timestamp. |
-| Custom action performed | Any other custom action that is tracked by your organization as per your business requirements are displayed along with the timestamp. |
+| Page visited | The page visited on the portal with the timestamp.|
+| Phrase searched | The keyword or phrase searched for, with the timestamp. |
+| Knowledge article viewed | The knowledge article viewed with the timestamp. |
+| Custom action performed | Any other custom action that is tracked by your organization as per your business requirements are displayed with the timestamp. |
 
    > [!div class='mx-imgBorder']
-   > ![Portal navigation tab](../../media/customer-summary-portal-navigation-tab.png "Portal navigation tab")
+   > ![Self service tab](../../media/customer-summary-portal-navigation-tab.png "Self service tab")
 
-To configure the portal navigation tab, see [Enable visitor portal navigation](../../administrator/portal-navigation.md).
+To configure the appearance of the **Self service** tab, see [Enable portal navigation](../../administrator/portal-navigation.md).
 
 ### Visitor details
 
