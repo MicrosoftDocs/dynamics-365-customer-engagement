@@ -1,8 +1,8 @@
 ---
-title: "Submit and approve time-off requests (Dynamics 365 Field Service) | MicrosoftDocs"
+title: "Submit and approve time-off requests | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/22/2019
+ms.date: 01/07/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -32,8 +32,24 @@ For example, if one of your field technicians is taking a vacation, it's importa
 When a resource has an approved time-off request, the scheduling assistant will not recommend that resource for a job in that time period, and the time slots for that resource will be grayedout on the schedule board to provide a visual notification to the dispatchers that the resource is not scheduled to be available during that time period.  
   
 If a bookable resource is set to require time-off approval, then when a time-off request is created for that resource, an approval request will be sent to that user's manager, before the time-off request is reflected in the schedule assistant and on the schedule board.  
-  
-<a name="BKMK_SubmitTimeOffRequest"></a>   
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/time-off-request.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/time-off-resource.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/time-off-approve.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/time-off-schedule-board.png)
+
+
+ 
 ## Submit a time-off request  
   
 1.  From the main menu, select **Field Service** > **Time Off Requests**.  
@@ -42,7 +58,7 @@ If a bookable resource is set to require time-off approval, then when a time-off
   
 3.  Use the tooltips to help fill in your information, and then select **Save**.  
   
-<a name="BKMK_ApproveTimeOffRequest"></a>   
+
 ## Approve a time-off request  
   
 1. From the main menu, select **Field Service** > **Time Off Requests**.
@@ -57,8 +73,5 @@ If a bookable resource is set to require time-off approval, then when a time-off
   
 ### See also  
     
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
- [Create a work order](../field-service/create-work-order.md)   
- [Schedule a work order](../field-service/schedule-work-order.md)   
- [Configure the schedule board](../field-service/configure-schedule-board.md)<br>
- [User's Guide](../field-service/user-guide.md)
+ [Set up bookable resources](../field-service/set-up-bookable-resources.md)   
+
