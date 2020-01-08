@@ -10,8 +10,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 4ee28c9c-4d78-47b1-911b-782527bcda45
 author: JimDaly
-ms.author: jdaly
-manager: jdaly
+ms.author: nabuthuk
+manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -25,24 +25,34 @@ search.app:
 
 # Sample: Retrieve all charts attached to an entity
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with visualizations and dashboards](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/VisualizationsAndDashboards).
+This sample shows how to retrieve all the organization-owned visualizations attached to an entity by using the [IOrganizationService.RetrieveMultiple](https://docs.microsoft.com//dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrievemultiple?view=dynamics-general-ce-9) method.
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to retrieve all the organization-owned visualizations attached to an entity by using the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*> method.  
-  
-## Example  
- [!code-csharp[VisualizationsAndDashboards#RetrieveVisualizationsAttachedToAnEntity](../../snippets/csharp/CRMV8/visualizationsanddashboards/cs/retrievevisualizationsattachedtoanentity.cs#retrievevisualizationsattachedtoanentity)]  
-  
-### See also  
-  
- [Working with Visualizations](view-data-with-visualizations-charts.md)   
- [Sample Code for Visualization](sample-code-charts-visualizations.md)   
- [Sample: Assign a Chart to Another User](sample-assign-chart-another-user.md)   
-<xref:Microsoft.Xrm.Sdk.IOrganizationService>   
- <xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>
+You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveChartsAttachedToEntity).
+
+[!include[cc-sample-note](../includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](../includes/cc-how-to-run-samples.md)]
+
+
+## What this sample does
+
+The `IOrganizationService` message is intended to be used in a scenario where it contains data that provides programmatic access to the metadata and data for an organization.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+Checks for the current version of the org.
+
+### Demonstrate
+
+The `newSavedQuery` method creates a query for retrieving all organization-owned visualizations that are attached to the account entity.
+
+
+### Clean up
+
+This sample creates no records. No cleanup is required.

@@ -1,8 +1,8 @@
 ---
-title: "Sample: Associate a security role to a team (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Associate a security role to a team | MicrosoftDocs"
 description: "The sample shows how to assign a security role to a team by using the AssignRequest message."
 ms.custom: 
-ms.date: 12/15/2017
+ms.date: 01/08/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -17,8 +17,8 @@ helpviewer_keywords:
 ms.assetid: 6097b89f-b3a6-472b-8fed-4f1aef62817f
 caps.latest.revision: 21
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -26,23 +26,34 @@ search.app:
 ---
 # Sample: Associate a security role to a team
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the Sample: [Work with early bound entity classes in code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/EarlyBound). 
+This sample shows how to assign a security role to a team by using the [AssignRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.assignrequest?view=dynamics-general-ce-9) message. Note that this example does not take into consideration that a team or user can only be assigned a role from its business unit. The role to be assigned is the first from the collection that is returned by the RetrieveMultiple method. If that record is from a business unit that is different from the requesting team, the assignment fails.
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to assign a security role to a team by using the <xref:Microsoft.Crm.Sdk.Messages.AssignRequest> message. Note that this example does not take into consideration that a team or user can only be assigned a role from its business unit. The role to be assigned is the first from the collection that is returned by the `RetrieveMultiple` method. If that record is from a business unit that is different from the requesting team, the assignment fails.  
-  
-## Example  
- [!code-csharp[StrongTypes#AssignSecurityRoleToTeam1](../snippets/csharp/CRMV8/strongtypes/cs/assignsecurityroletoteam1.cs#assignsecurityroletoteam1)]  
-  
-### See also  
- [Assign](introduction-entities.md#Assign)   
- [Privilege and Role Entities](privilege-role-entities.md)   
- [Sample: Associate a Security Role to a User](sample-associate-security-role-user.md)   
- [User and Team Entities](user-team-entities.md)   
- <xref:Microsoft.Crm.Sdk.Messages.AssignRequest>
+You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/AssociateSecurityRoleToTeam).
+
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+
+## What this sample does
+
+The [AssignRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.assignrequest?view=dynamics-general-ce-9) message is intended to be used in a scenario where it contains data that is needed to assign the specified record to a new owner (user or team) by changing the OwnerId attribute of the record.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+2. The `CreateRequiredRecords` method creates the records required by the sample.
+
+### Demonstrate
+
+1. The `query` method retrieves a role from Common Data Service.
+2. The `Associate` message assigns the role to a team.
+
+### Clean up
+
+Display an option to delete the sample data in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.

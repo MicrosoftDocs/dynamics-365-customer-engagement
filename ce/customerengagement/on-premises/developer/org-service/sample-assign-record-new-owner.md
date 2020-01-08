@@ -2,7 +2,7 @@
 title: "Sample: Assign a record to a new owner (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to assign an account to another user by using the AssignRequest message"
 keywords: 
-ms.date: 12/15/2017
+ms.date: 01/08/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples

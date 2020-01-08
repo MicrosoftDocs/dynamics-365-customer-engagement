@@ -1,5 +1,5 @@
 ---
-title: "Sample: Merge two records (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Sample: Merge two records | MicrosoftDocs"
 description: "The sample demonstrates how to merge two records. "
 ms.custom: 
 ms.date: 10/31/2017
@@ -16,8 +16,8 @@ helpviewer_keywords:
 ms.assetid: 41f7666e-de15-4567-b856-d34440b743af
 caps.latest.revision: 15
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -25,21 +25,34 @@ search.app:
 ---
 # Sample: Merge two records
 
-This sample code is for Dynamics 365 Customer Engagement (on-premises) and Common Data Service. Download the complete sample here [Business Management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement)
+This sample shows how to merge two record. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/MergeTwoRecords).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to merge two records.  
-  
-## Example  
- [!code-csharp[BusinessManagement#Merge](../snippets/csharp/CRMV8/businessmanagement/cs/merge.cs#merge)]  
-  
-### See also  
- [Introduction to Entities in Dynamics 365 Customer Engagement (on-premises)](introduction-entities.md)   
- <xref:Microsoft.Crm.Sdk.Messages.MergeRequest>   
- [Sample: Validate Record State and Set the State of the Record](sample-validate-record-state-set-state-record.md)
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+
+## What this sample does
+
+The `MergeRequest` message is intended to be used in a scenario where it contains the data that’s needed to merge the information from two entity records of the same type.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+2. The `CreateRequiredRecords` method creates any entity records that this sample requires.
+
+### Demonstrate
+
+1. The `MergeRequest` method creates the request. 
+2. The `Account` message creates another account to hold new data to merge into the entity.
+
+
+### Clean up
+
+Display an option to delete the sample data that is created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+

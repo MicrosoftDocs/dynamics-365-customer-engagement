@@ -16,8 +16,8 @@ helpviewer_keywords:
 ms.assetid: 2f1e1939-7dd3-4a12-92b2-13fb166c0dea
 caps.latest.revision: 20
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -25,21 +25,58 @@ search.app:
 ---
 # Sample: Rollup goal data for a fiscal period against the stretch target count
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Goals samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Goals). 
+This sample shows how to roll up goal data for a fiscal period against stretch target count, representing a number of completed phone calls. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/GoalDataForFiscalYear).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-   
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to roll up goal data for a fiscal period against stretch target count representing a number of completed telephone calls.  
-  
-## Example  
- [!code-csharp[Goals#RollupAllGoalsForFiscalPeriodAndStretchedTargetRevenue](../snippets/csharp/CRMV8/goals/cs/rollupallgoalsforfiscalperiodandstretchedtargetrevenue.cs#rollupallgoalsforfiscalperiodandstretchedtargetrevenue)]  
-  
-### See also  
- [Goal Management Entities](goal-management-entities.md)   
- <xref:Microsoft.Crm.Sdk.Messages.RecalculateRequest>   
- [Sample: Use Rollup Queries to Track Goals](sample-use-rollup-queries-track-goals.md)
+This sample requires additional users that are not in your system. Create the three required users **as is** shown below manually in **Office 365**. Replace `yourorg` with the organization name.
+
+**First Name**: Nancy<br/>
+**Last Name**: Anderson<br/>
+**Security Role**: Salesperson<br/>
+**UserName**: nanderson@yourorg.onmicrosoft.com<br/>
+
+**First Name**: David<br/>
+**Last Name**: Bristol<br/>
+**Security Role**: Salesperson<br/>
+**UserName**: dbristol@yourorg.onmicrosoft.com<br/>
+
+**First Name**: Kevin<br/>
+**Last Name**: Cook<br/>
+**Security Role**: SalesManager<br/>
+**UserName**: kcook@yourorg.onmicrosoft.com<br/>
+
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+
+## What this sample does
+
+This sample shows how to roll up goal data for a fiscal period against stretch target count representing a number of completed telephone calls.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the version of the org.
+2. Retrieves the sales manager and 2 sales representatives, created manually in **Office 365**.
+3. Creates a `PhoneCall` record and supporting account record for the sample.
+4. Creates ActivityPartys for the phone calls **From** field.
+5. Creates an open phone call.
+6. Closes the first phone call and creates a second one.
+7. Closes the second phone call.
+
+### Demonstrate
+
+1. Creates Metric, and setting the Metric type to **count** and enabling stretch tracking.
+2. Creates a rollup field which targets completed (received) phone calls.
+3. The `GoalRollupQuery` creates the goal rollup queries, locating the incoming and outgoing closed phone calls. 
+4. Creates three goals, one parent goal and two child goals.
+5. The `RecalculateRequest` calculates the rollup for goals. 
+
+### Clean up
+
+Display an option to delete the sample data created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+

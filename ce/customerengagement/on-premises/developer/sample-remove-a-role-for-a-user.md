@@ -12,8 +12,8 @@ applies_to:
 ms.assetid: 6f25132e-30d2-4a20-9395-3e42aafdd959
 caps.latest.revision: 16
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -21,27 +21,41 @@ search.app:
 ---
 # Sample: Remove a role for a user
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Users and Roles](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/UsersAndRoles). 
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to disassociate a role from a user by using the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*> method. A snippet showing just the key sections of the sample is shown first, followed by the [complete sample code](sample-create-on-premises-user.md#complete_sample). Note that this sample can only be run in an on-premises environment because it creates a user. However, the section of the sample that demonstrates disassociating a role from a user will work for all environments.  
-  
- [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] 
- 
-## Example  
- [!code-csharp[UsersAndRoles#RemoveRoleFromUser1](../snippets/csharp/CRMV8/usersandroles/cs/removerolefromuser1.cs#removerolefromuser1)]  
-  
-<a name="complete_sample"></a>   
-### Complete sample code  
- [!code-csharp[UsersAndRoles#RemoveRoleFromUser](../snippets/csharp/CRMV8/usersandroles/cs/removerolefromuser.cs#removerolefromuser)]  
-  
-### See also  
- [Privilege and Role Entities](privilege-role-entities.md)   
- [Sample: Retrieve the Roles for an Organization](sample-retrieve-roles-organization.md)   
- [User and Team Entities](user-team-entities.md)   
-<xref:Microsoft.Xrm.Sdk.IOrganizationService>   
+This sample shows how to disassociate a role from a user by using the [IOrganizationService.Disassociate](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.disassociate?view=dynamics-general-ce-9) method. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RemoveRoleFromUser).
+
+This sample requires an additional user that isn't available in your system. Create the required user manually in **Office 365** in order to run the sample without any errors. For this sample create a user profile **as is** shown below. 
+
+**First Name**: Dan<br/>
+**Last Name**: Park<br/>
+**Security Role**: No security role<br/>
+**UserName**: dpark@yourorg.onmicrosoft.com<br/>
+
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+
+## What this sample does
+
+The [IOrganizationService.Disassociate](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.disassociate?view=dynamics-general-ce-9) message is intended to be used in a scenario where it deletes a link between records.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+2. The `CreateRequiredRecords` method creates the records required by the sample.
+
+### Demonstrate
+
+1. The `query` method retrieves a role from Common Data Service.
+2. The `Disassociate` message removes the role to a team.
+
+### Clean up
+
+This sample creates no records. No cleanup is required.
     
  

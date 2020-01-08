@@ -1,8 +1,8 @@
 ---
-title: "Sample: Enable field security for an entity (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Sample: Enable field security for an entity| MicrosoftDocs"
 description: "The sample shows how to enable field security for an entity."
 ms.custom: 
-ms.date: 12/15/2017
+ms.date: 01/08/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
 ms.assetid: e0219990-26af-46d2-beba-f021b26021cc
 caps.latest.revision: 19
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -25,21 +25,40 @@ search.app:
 ---
 # Sample: Enable field security for an entity
 
-This sample code is for Dynamics 365 Customer Engagement. Download the complete sample here [Work with Field security entities](https://code.msdn.microsoft.com/Work-with-Field-Security-a18489bf).  
+This sample shows how to enable field security for an entity.  You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/FieldSecurity). 
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Example  
- This sample shows how to enable field security for an entity.  
-  
- [!code-csharp[FieldSecurity#EnableFieldSecurityForAnEntity1](../snippets/csharp/CRMV8/fieldsecurity/cs/enablefieldsecurityforanentity1.cs#enablefieldsecurityforanentity1)]  
-  
-### See also  
- [How Field Security Can Be Used to Control Access to Field Values in Dynamics 365 Customer Engagement (on-premises)](security-dev/use-field-security-control-access-field-values.md)   
- [Field Security Entities](field-security-entities.md)   
- [Sample: Retrieve Field Sharing Records](sample-retrieve-field-sharing-records.md)   
-<xref:Microsoft.Xrm.Sdk.IOrganizationService>
+This sample requires additional users that are not in your system. Create the required users manually in **Office 365** in order to run the sample without any errors. For this sample, create a user profile **as is** shown below. 
+
+**First Name**: Samantha<br/>
+**Last Name**: Smith<br/>
+**Security Role**: Marketing Manager<br/>
+**UserName**: ssmith@yourorg.onmicrosoft.com<br/>
+
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+
+## How this sample works
+
+In order to simulate the scenario described above, the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+2. Gets the user that you have created manually in **Office 365**.
+3. Retrieve the security role needed to assign to the user. 
+4. Retrieve the default business unit needed to create the team.
+5. Instantiate a team entity record and set its property values. 
+
+### Demonstrate
+
+1. Creates field security profile and create the request object and set the monikers with the teamprofiles_assocation relationship.
+2. Creates custom activity entity and attributes using the `CreateEntityRequest` and `CreateAttributeRequest` message.
+3. Create the field permission for the identity attribute.
+
+### Clean up
+
+Display an option to delete the records in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+

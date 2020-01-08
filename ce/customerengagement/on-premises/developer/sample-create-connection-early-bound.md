@@ -1,5 +1,5 @@
 ---
-title: "Sample: Create a connection (early bound) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Create a connection (early bound)| MicrosoftDocs"
 description: "The sample demonstrates how to create a connection between an account and a contact that have matching connection roles."
 ms.custom: 
 ms.date: 10/31/2017
@@ -16,8 +16,8 @@ helpviewer_keywords:
 ms.assetid: b638e13f-c1bc-400e-8122-217cc31d6850
 caps.latest.revision: 15
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -25,24 +25,34 @@ search.app:
 ---
 # Sample: Create a connection (early bound)
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Business Management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement).  
+This sample shows how to create a connection between an account and a contact entity that have matching connection roles. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ConnectionEarlyBound). 
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
- 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
+[!include[cc-sample-note](includes/cc-sample-note.md)]
   
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to create a connection between an account and a contact that have matching connection roles.  
-  
-## Example  
- [!code-csharp[BusinessManagement#CreateConnection](../snippets/csharp/CRMV8/businessmanagement/cs/createconnection.cs#createconnection)]  
-  
-### See also  
- [Sample Code for Connection Entities](sample-code-connection-entities.md)   
- [Connection Entities](connection-entities.md)   
- [Sample: Query Connection Roles by Entity Type Code (Early Bound)](sample-query-connection-roles-entity-type-code-early-bound.md)
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+
+## What this sample does
+
+This sample shows how to create a connection between an account and a contact that have matching connection roles.  
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+2. Creates a connection role for account and contact entity.
+3. Creates a related connection role object type code for account and contact entity.
+4. Associates the connection role with itself.
+
+### Demonstrate
+
+1. Creates a connection between account and contact entity. 
+2. Assigns a connection role to a record.
+
+### Clean up
+
+Display an option to delete the records created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.

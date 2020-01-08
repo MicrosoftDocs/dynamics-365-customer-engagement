@@ -13,8 +13,8 @@ applies_to:
 ms.assetid: 8b0e6460-46cb-436b-b689-91f11085b8c7
 caps.latest.revision: 13
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -22,25 +22,33 @@ search.app:
 ---
 # Sample: Retrieve the roles for an organization
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Users and Roles](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/UsersAndRoles).   
+This sample shows how to retrieve the roles for an organization by using the [IOrganizationService.RetrieveMultiple](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrievemultiple?view=dynamics-general-ce-9) method.
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to retrieve the roles for an organization by using the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*> method. A snippet that shows just the key sections of the sample is shown first, followed by the [complete sample code](sample-create-on-premises-user.md#complete_sample).  
-  
-## Example  
- [!code-csharp[UsersAndRoles#RetrieveRolesForOrg1](../snippets/csharp/CRMV8/usersandroles/cs/retrieverolesfororg1.cs#retrieverolesfororg1)]  
-  
-<a name="complete_sample"></a>   
-### Complete sample code  
- [!code-csharp[UsersAndRoles#RetrieveRolesForOrg](../snippets/csharp/CRMV8/usersandroles/cs/retrieverolesfororg.cs#retrieverolesfororg)]  
-  
-### See also  
- [Privilege and Role Entities](privilege-role-entities.md)   
-<xref:Microsoft.Xrm.Sdk.IOrganizationService>   
+You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveRolesForOrganization).
+
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+
+## What this sample does
+
+The [IOrganizationService.RetrieveMultiple](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrievemultiple?view=dynamics-general-ce-9) message is intended to be used in a scenario where it contains data  that is needed to retrieve a collection of records.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+Checks for the current version of the org.
+
+### Demonstrate
+
+The `query` method retrieves all the roles that are present in an organization.
+
+### Clean up
+
+This sample creates no records. No cleanup is required.
  

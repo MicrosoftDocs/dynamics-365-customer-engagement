@@ -16,8 +16,8 @@ helpviewer_keywords:
 ms.assetid: c95bec08-bdd2-420a-93aa-ee7c0f20fa16
 caps.latest.revision: 18
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -25,25 +25,35 @@ search.app:
 ---
 # Sample: Send an email
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Activity entities](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Activities).
+This sample shows how to send an email using [SendEmailRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.sendemailrequest?view=dynamics-general-ce-9) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/SenEmail).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-    
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to send an email <xref:Microsoft.Crm.Sdk.Messages.SendEmailRequest> message.  
-  
-## Example  
- [!code-csharp[Activities#SendEmail](../snippets/csharp/CRMV8/activities/cs/sendemail.cs#sendemail)]  
-  
-### See also  
- [Sample Code for Activity](sample-code-activity-entities.md)   
- [Sample: Create an Email Using a Template](sample-create-email-template.md)   
- [E-mail Activity Entities](email-activity-entities.md)   
- [Email Entity](entities/email.md)   
-    
-<xref:Microsoft.Xrm.Sdk.IOrganizationService>   
- <xref:Microsoft.Crm.Sdk.Messages.SendEmailRequest>
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+
+## What this sample does
+
+The `SendEmailRequest` message is intended to be used in a scenario where it contains data that is needed to send an email message.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+1. The `Contact` method creates a contact to send an email to `(To: field)`.
+1. The `WhoAmIRequest` method gets the current user information to send the email `(From: field)`.
+1. The `ActivityParty`method creates  `To` and `From` activity party for the email.
+1. The `Email` method creates an email message.
+
+### Demonstrate
+
+The `SendEmailRequest` method sends an email message created in the [Setup](#setup).
+
+### Clean up
+
+Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+

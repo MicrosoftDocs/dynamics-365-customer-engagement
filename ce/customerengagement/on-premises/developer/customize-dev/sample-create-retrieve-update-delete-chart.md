@@ -10,8 +10,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 51d4ecad-3c50-4f81-bfff-aa321d62cb2c
 author: JimDaly
-ms.author: jdaly
-manager: jdaly
+ms.author: nabuthuk
+manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -25,36 +25,43 @@ search.app:
 
 # Sample: Create, retrieve, update, and delete a chart
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with visualizations and dashboards](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/VisualizationsAndDashboards).
+This sample shows how to create, retrieve, update, and delete an user-owned visualization using the following methods:
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to create, retrieve, update, and delete an organization-owned visualization. This sample uses the following common methods:  
-  
--   <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>  
-  
--   <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>  
-  
--   <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>  
-  
--   <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>  
-  
-## Example  
- [!code-csharp[VisualizationsAndDashboards#CRUDVisualization](../../snippets/csharp/CRMV8/visualizationsanddashboards/cs/crudvisualization.cs#crudvisualization)]  
-  
-### See also  
-    
- [Actions on Chart](actions-visualizations-charts.md)   
- [Create a Chart](create-visualization-chart.md)   
- [Sample Code for Visualization](sample-code-charts-visualizations.md)   
- [Sample: Retrieve all Charts Attached to an Entity](sample-retrieve-all-charts-attached-entity.md)   
-<xref:Microsoft.Xrm.Sdk.IOrganizationService>   
- <xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>   
- <xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>   
- <xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>   
- <xref:Microsoft.Crm.Sdk.Messages.PublishAllXmlRequest>
+- [IOrganizationService.Create](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.create?view=dynamics-general-ce-9)
+- [IOrganizationService.Retrieve](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrieve?view=dynamics-general-ce-9)
+- [IOrganizationService.Update](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.update?view=dynamics-general-ce-9)
+- [IOrganizationService.Delete](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.delete?view=dynamics-general-ce-9)
+
+You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/CRUDOperationsChart).
+
+[!include[cc-sample-note](../includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](../includes/cc-how-to-run-samples.md)]
+
+## What this sample does
+
+The `IOrganizationService` message is intended to be used in a scenario where it contains data that provides programmatic access to the metadata and data for an organization.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+1. The `CreateRequiredRecords` method creates entity records that is required for the sample.
+
+### Demonstrate
+
+1. The `presentationXml` method sets the presentation XML string. 
+2. The `dataXml` method sets the data XML string.
+3. The `newUserOwnedVisualization` method creates the visualization entity instance.
+4. The `retrievedOrgOwnedVisualization` method retrieves the visualization.
+5. The `newDataXml` method updates the name and the data description string.
+
+
+### Clean up
+
+Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.

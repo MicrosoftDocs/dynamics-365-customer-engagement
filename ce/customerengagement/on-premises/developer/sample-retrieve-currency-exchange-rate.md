@@ -13,8 +13,8 @@ applies_to:
 ms.assetid: d071fe46-4d71-4fd1-95b8-069bd4a96f8d
 caps.latest.revision: 13
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -22,20 +22,31 @@ search.app:
 ---
 # Sample: Retrieve currency exchange rate
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Business Management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement).  
+This sample shows how to create a new currency, and how to retrieve and display the currency exchange rate relative to the organization’s base currency. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveCurrencyExchangeRate).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to create a new currency, and how to retrieve and display the currency exchange rate relative to the organization’s base currency.  
-  
-## Example  
- [!code-csharp[BusinessManagement#TransactionCurrencyExchangeRate](../snippets/csharp/CRMV8/businessmanagement/cs/transactioncurrencyexchangerate.cs#transactioncurrencyexchangerate)]  
-  
-### See also  
- [Transaction Currency (Currency) Entity](transaction-currency-currency-entity.md)   
- <xref:Microsoft.Crm.Sdk.Messages.RetrieveExchangeRateRequest>
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+
+## What this sample does
+
+The `RetrieveExchangeRateRequest` message is intended to be used in a scenario where it contains data that is needed to retrieve the exchange rate.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org. 
+2. The `TransactionCurrency` method creates a new currency for the sample.
+
+### Demonstrate
+
+The `RetrieveExchangeRateRequest` message retrieves the exchange rate against the base currency of the org.
+
+### Clean up
+
+Display an option to delete the sample data created  in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.

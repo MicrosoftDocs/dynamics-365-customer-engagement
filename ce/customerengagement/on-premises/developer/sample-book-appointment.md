@@ -1,5 +1,5 @@
 ---
-title: "Sample: Book an appointment (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Book an appointment | MicrosoftDocs"
 description: "Sample demonstrates how to book or schedule an appointment by using the BookRequest message."
 ms.custom: 
 ms.date: 10/31/2017
@@ -17,8 +17,8 @@ helpviewer_keywords:
 ms.assetid: 56e6a047-88dd-4f9b-b211-e5fc878595a9
 caps.latest.revision: 17
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -26,23 +26,31 @@ search.app:
 ---
 # Sample: Book an appointment
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Schedule and Appointment](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/ScheduleAndAppointment). 
+This sample shows how to book or schedule an appointment by using the [BookRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.bookrequest?view=dynamics-general-ce-9) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/BookAppointment).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to book or schedule an appointment by using the <xref:Microsoft.Crm.Sdk.Messages.BookRequest> message.  
-  
-## Example  
- [!code-csharp[ScheduleAndAppointment#BookAppointment](../snippets/csharp/CRMV8/scheduleandappointment/cs/bookappointment.cs#bookappointment)]  
-  
-### See also  
- [Sample Code for Schedule and Appointment Entities](sample-code-schedule-appointment-entities.md)   
- [Appointment Entities](appointment-entities.md)   
-    
- <xref:Microsoft.Crm.Sdk.Messages.BookRequest>   
- [Sample: Validate an Appointment](sample-validate-appointment.md)
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+
+## What this sample does
+
+The `BookRequest` message is intended to be used in a scenario to book or schedule an appointment.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks the current version of the org.
+1. Gets the current user information and creates the ActivityParty instance.
+
+### Demonstrate
+
+Creates the appointment instance using the [BookRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.bookrequest?view=dynamics-general-ce-9) message and verifies that the appointment has been scheduled or not.
+
+### Clean up
+
+Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.

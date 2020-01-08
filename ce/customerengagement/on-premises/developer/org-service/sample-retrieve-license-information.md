@@ -2,7 +2,7 @@
 title: "Sample: Retrieve license information (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to use the IDeploymentService.RetrieveDeploymentLicenseTypeRequest message and the IOrganizationService.RetrieveLicenseInfoRequest message to retrieve information about licenses"
 keywords: 
-ms.date: 12/15/2017
+ms.date: 01/08/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
@@ -24,29 +24,35 @@ search.app:
 
 # Sample: Retrieve license information
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the Sample: [Work with early bound entity classes in code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/EarlyBound).   
+This sample shows how to use the [IDeploymentService.RetrieveDeploymentLicenseTypeRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.retrievedeploymentlicensetyperequest?view=dynamics-general-ce-9) message and the [IOrganizationService.RetrieveLicenseInfoRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.retrievelicenseinforequest?view=dynamics-general-ce-9) message to retrieve information about licenses.
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]
-  
- [Full Sample – C#](sample-initialize-record-existing-record.md#full_C)  
-  
-## Demonstrates  
- This sample shows how to use the <xref:Microsoft.Xrm.Sdk.Deployment.IDeploymentService>.<xref:Microsoft.Crm.Sdk.Messages.RetrieveDeploymentLicenseTypeRequest> message and the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Crm.Sdk.Messages.RetrieveLicenseInfoRequest> message to retrieve information about licenses.  
-  
-## Example  
- [!code-csharp[StrongTypes#License1](../../snippets/csharp/CRMV8/strongtypes/cs/license1.cs#license1)]  
-  
-<a name="full_C"></a>   
-## Full Sample – C#  
- [!code-csharp[StrongTypes#License](../../snippets/csharp/CRMV8/strongtypes/cs/license.cs#license)]  
-  
-### See also  
- [Use the Early Bound Entity Classes in Code](use-early-bound-entity-classes-code.md)   
- <xref:Microsoft.Xrm.Sdk.Deployment.IDeploymentService>   
-<xref:Microsoft.Xrm.Sdk.IOrganizationService>   
- <xref:Microsoft.Crm.Sdk.Messages.RetrieveDeploymentLicenseTypeRequest>   
- <xref:Microsoft.Crm.Sdk.Messages.RetrieveLicenseInfoRequest>
+You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveLicenseInformation).
+
+[!include[cc-sample-note](../includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](../includes/cc-how-to-run-samples.md)]
+
+## What this sample does
+
+The [IDeploymentService.RetrieveDeploymentLicenseTypeRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.retrievedeploymentlicensetyperequest?view=dynamics-general-ce-9) message is intended to be used in a scenario where it contains data  that is needed to retrieve the type of license for a deployment of Common Data Service.
+
+The [IOrganizationService.RetrieveLicenseInfoRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.retrievelicenseinforequest?view=dynamics-general-ce-9) message is intended to be used in a scenario where it contains data that is needed to retrieve the number of used and available licenses for a deployment of Common Data Service.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+Checks for the current version of the org.
+
+### Demonstrate
+
+1. The `deploymentTypeRequest` method creates a request to retrieve the deployment license types.
+2. The `licenseInfoRequest` message creates request to retrieve the licensed info request.
+
+### Clean up
+
+This sample creates no records. No cleanup is required.

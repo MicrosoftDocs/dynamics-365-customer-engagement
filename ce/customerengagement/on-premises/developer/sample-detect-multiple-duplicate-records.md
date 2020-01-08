@@ -1,5 +1,5 @@
 ---
-title: "Sample: Detect multiple duplicate records (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Sample: Detect multiple duplicate records | MicrosoftDocs"
 description: "Sample demonstrates how to detect and log multiple duplicate records for a specified entity type."
 keywords: 
 ms.date: 10/31/2017
@@ -10,8 +10,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 5c83c1c2-25ef-480b-9195-6eabe9f6c4c7
 author: JimDaly
-ms.author: jdaly
-manager: jdaly
+ms.author: nabuthuk
+manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -25,23 +25,35 @@ search.app:
 
 # Sample: Detect multiple duplicate records
 
-This sample code is for Dynamics 365 Customer Engagement. Download the sample: [With with duplicate detections](https://code.msdn.microsoft.com/Work-with-duplicate-9c7d6f59).
+This sample shows how to detect and log multiple duplicate records for a specified entity type. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/DetectMultipleDuplicateRecords).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to detect and log multiple duplicate records for a specified entity type.  
-  
-## Example  
- [!code-csharp[DuplicateDetection#BulkDetectDuplicates](../snippets/csharp/CRMV8/duplicatedetection/cs/bulkdetectduplicates.cs#bulkdetectduplicates)]  
-  
-### See also  
- [Detect Duplicate Data in Dynamics 365 Customer Engagement (on-premises)](detect-duplicate-data-for-developers.md)   
- [Enable and disable duplicate detection](enable-disable-duplicate-detection.md)   
- [Run Duplicate Detection](run-duplicate-detection.md)   
- <xref:Microsoft.Crm.Sdk.Messages.BulkDetectDuplicatesRequest>  
- [Duplicate detection messages](duplicate-detection-messages.md)
+
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+
+## What this sample does
+
+The `BulkDetectDuplicatesRequest` message is intended to be used in a scenario that contains data that is needed to submit an asynchronous system job that detects and logs multiple duplicate records.
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+1. The `CreateRequiredRecords` class creates some duplicate entity records for the sample.
+1. The `DuplicateRule` method creates a duplicate detection rule.
+1. The  `DuplicateRuleCondition` method creates a duplicate detection rule condition for detecting duplicate records.
+1. The `PublishDuplicateRuleRequest` method publishes the duplicate detection rule.
+1. The `PublishDuplicateRuleRequest` returns before the publish is completed, so we keep retrieving the async job state until it is `Completed`
+
+### Demonstrate
+
+The `BulkDetectDuplicatesRequest` method creates the BulkDetectDuplicatesRequest object
+
+### Clean up
+
+Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.

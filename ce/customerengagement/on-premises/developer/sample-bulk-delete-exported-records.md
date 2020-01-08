@@ -1,5 +1,5 @@
 ---
-title: "Sample: Bulk delete exported records (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Sample: Bulk delete exported records | MicrosoftDocs"
 description: "Sample demonstrates how to perform a bulk deletion of records that were previously exported by using the Export-to-Excel option."
 keywords: 
 ms.date: 10/31/2017
@@ -10,8 +10,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d5483d27-ee03-428f-ad70-2765765ae262
 author: JimDaly
-ms.author: jdaly
-manager: jdaly
+ms.author: nabuthuk
+manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -28,23 +28,34 @@ search.app:
 
 # Sample: Bulk delete exported records
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with deleting data in bulk](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BulkDelete).
+This sample shows how to perform a bulk deletion of records that were previously exported from Common Data Service by using the **Export to Excel** option. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/BulkDeleteExported).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to perform a *bulk deletion* of records that were previously exported from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] by using the **Export to Excel** option.  
-  
-## Example  
- [!code-csharp[BulkDelete#BulkDeleteBackup](../snippets/csharp/CRMV8/bulkdelete/cs/bulkdeletebackup.cs#bulkdeletebackup)]  
-  
-### See also  
- [Delete Data in Bulk in Dynamics 365 Customer Engagement (on-premises)](delete-data-bulk.md)   
- [Run Bulk Delete](run-bulk-delete.md)   
- <xref:Microsoft.Crm.Sdk.Messages.BulkDeleteRequest>   
- [Recurrence Pattern in Asynchronous Job Execution](recurrence-pattern-asynchronous-job-execution.md)   
- [Sample: Bulk Delete Records That Match Common Criteria](sample-bulk-delete-records-match-common-criteria.md)
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+
+## What this sample does
+
+The `BulkDeleteRequest` message is intended to be used in a scenario where it contains data that is needed to create the bulk delete request.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+2. Query for a system user to send an email after bulk delete request operation completes.
+3. The `BulkDeleteRequest` creates the bulk delete process and set the request properties.
+4. The `CheckSuccess` method queries for the `BulkDeleteOperation` until it has been completed or until the designated time runs out. It then checks to see if the operation is complete.
+
+### Demonstrate
+
+The `PerformBulkDeleteBackup` method performs the main bulk delete operation on inactive opportunities and activities to remove them from the system.
+
+### Clean up
+
+Display an option to delete the sample data that is created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
