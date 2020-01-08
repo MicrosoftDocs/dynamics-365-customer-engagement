@@ -23,8 +23,8 @@ Dynamics 365 Channel Integration Framework version 2.0 provides an extensible fr
 **1 - Microsoft Dynamics 365**<br>
 Dynamics 365 environment where the Dynamics 365 Channel Integration Framework app is present to create and manage the configurations required for a telephony channel to interact with the Dynamics 365 model-driven app.
 
-**2 - Dynamics 365 model-driven app**<br>
-The Dynamics 365 model-driven app exposes the Dynamics 365 Channel integration Framework panel to host the telephony channel.
+**2 - Omnichannel for Customer Service app**<br>
+The Omnichannel for Customer Service app exposes the Dynamics 365 Channel integration Framework panel to host the telephony channel.
 
 **3 - Channel Integration Framework Adapter**<br>
 The Channel Integration Framework Adapter enables the communication between Dynamics 365 model-driven app and the capabilities of the telephony channel.
