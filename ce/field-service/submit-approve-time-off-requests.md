@@ -34,29 +34,31 @@ When a resource has an approved time-off request, the scheduling assistant will 
 If a bookable resource is set to require time-off approval, then when a time-off request is created for that resource, an approval request will be sent to that user's manager, before the time-off request is reflected in the schedule assistant and on the schedule board.  
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/time-off-request.png)
+
+
+## Prerequsites
+
+For each resource, determine if their time off requests must be approved in order to take effect and show as unavailable on the schedule board. 
+
+Go to **Resource Scheduling > Resources** then edit a bookable resource record. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/time-off-resource.png)
 
+Set **Time Off Approval Required** to _Yes_ if the time off needs to be approved in order to take effect, or _No_ if it should take effect immediately once the time off is submitted. This value is No by default.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/time-off-approve.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/time-off-schedule-board.png)
-
-
- 
 ## Submit a time-off request  
-  
+
+
 1.  From the main menu, select **Field Service** > **Time Off Requests**.  
   
 2.  On the **Active Time Off Request** screen, select **New**.  
   
 3.  Use the tooltips to help fill in your information, and then select **Save**.  
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/time-off-request.png)
+
   
 
 ## Approve a time-off request  
@@ -70,6 +72,17 @@ If a bookable resource is set to require time-off approval, then when a time-off
 4. When the approval is completed, select **OK**.
 
 5. Approved time-off requests will change to status "Inactive." Inactive records can be found in the view **Inactive Time Off Requests**.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/time-off-approve.png)
+
+## View time off on the schedule board
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/time-off-schedule-board.png)
+
+## Delete a time off request
   
 ### See also  
     
