@@ -88,12 +88,14 @@ ms.topic: article
 
 <td>
 <h2> Videos </h2>
+To get yourself oriented about Omnichannel for Customer Service, watch the videos that are available on the [Videos](https://docs.microsoft.com/en-us/dynamics365/omnichannel/videos) page.
+<!-->
 <li><a href="https://go.microsoft.com/fwlink/p/?linkid=2097511" data-raw-source="[Introduction to Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097511)">Overview of chat and omnichannel capabilities in Dynamics 365 Customer Service </a></li>
 <li><a href="https://go.microsoft.com/fwlink/p/?linkid=2097416" data-raw-source="[Set up chat](https://go.microsoft.com/fwlink/p/?linkid=2097416)">Overview of omnichannel chat setup in Dynamics 365 Customer Service</a></li>
 <li><a href="https://go.microsoft.com/fwlink/p/?linkid=2097512" data-raw-source="[Agent Experience](https://go.microsoft.com/fwlink/p/?linkid=2097512)">Overview of omnichannel agent experience in Dynamics 365 Customer Service </a></li>
 <li><a href="https://go.microsoft.com/fwlink/p/?linkid=2097513" data-raw-source="[Real-time Sentiment Analysis](https://go.microsoft.com/fwlink/p/?linkid=2097513)">Overview of omnichannel real-time sentiment analysis in Dynamics 365 Customer Service </a></li>
 <li><a href="https://go.microsoft.com/fwlink/p/?linkid=2097418" data-raw-source="[Historical Insights Report](https://go.microsoft.com/fwlink/p/?linkid=2097418)">Overview of omnichannel historical reporting in Dynamics 365 Customer Service </a></li>
-
+-->
 </td>
 <td>
 <h2>Related apps & framework</h2>

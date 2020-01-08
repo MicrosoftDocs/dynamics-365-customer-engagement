@@ -17,7 +17,16 @@ ms.custom:
 # Videos
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
+The following videos help you to get started with Omnichannel for Customer Service:
+<li><a href="https://go.microsoft.com/fwlink/p/?linkid=2097511" data-raw-source="[Introduction to Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097511)">Overview of chat and Omnichannel capabilities in Dynamics 365 Customer Service </a></li>
+<li><a href="https://go.microsoft.com/fwlink/p/?linkid=2097416" data-raw-source="[Set up chat](https://go.microsoft.com/fwlink/p/?linkid=2097416)">Overview of Omnichannel chat setup in Dynamics 365 Customer Service</a></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<!-->
 <table>
 <tr>
 <td>
@@ -60,4 +69,4 @@ ms.custom:
 </tr>
 
 </table>
-
+-->
