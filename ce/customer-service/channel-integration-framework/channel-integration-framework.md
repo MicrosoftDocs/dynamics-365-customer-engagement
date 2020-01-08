@@ -21,9 +21,6 @@ ms.custom:
 <li><a href="choose-between-versions.md" data-raw-source="[Choose between Channel Integration Framework version 1.0 and 2.0](choose-between-versions.md)">Choose between Channel Integration Framework version 1.0 and 2.0</a></li>
 <li><a href="faq-channel-integration-framework.md" data-raw-source="[Frequently asked questions](faq-channel-integration-framework.md)">Frequently asked questions</a></li>
 
-<td>
-
-</td>
 </tr>
 
 <tr>
