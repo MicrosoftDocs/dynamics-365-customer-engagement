@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/06/2020
+ms.date: 01/08/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -104,6 +104,23 @@ You can resolve this issue by following the steps outlined below. These attribut
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the troubleshooting pathway outlined in the previous steps in the customization settings](./media/faq-attributemap-upgrade-error-billing-account.png)
+
+## What is the msdyn_postponegenerationuntil field that is found on many Field Service entities?
+
+The **msdyn_postponegenerationuntil** field is intended for internal use only as it is used for workflow record generation design. Manipulating values in this field or taking dependencies on it is not supported and can lead to unexpected system behavior.
+
+This field is found in the following entities:
+
+1.	Agreement Booking Setup (msdyn_agreementbookingsetup)
+2.	Agreement Booking Date (msdyn_agreementbookingdate)
+3.	Agreement Invoice Setup (msdyn_agreementinvoicesetup)
+4.	Agreement Invoice Date (msdyn_agreementinvoicedate)
+5.	Order Invoicing Setup (msdyn_orderinvoicingsetup)
+6.	Order Invoicing Setup Date (msdyn_orderinvoicingsetupdate)
+7.	Order Invoicing Date (msdyn_orderinvoicingdate)
+8.	Incident Types Setup (msdyn_incidenttypessetup)
+9.	Quote Booking Setup (msdyn_quotebookingsetup)
+
 
 ## See also
 
