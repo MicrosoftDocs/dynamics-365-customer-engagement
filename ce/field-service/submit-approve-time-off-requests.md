@@ -80,16 +80,19 @@ If the resource for which the time off request applies to requires an approval, 
 
 ## View time off on the schedule board
 
-
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/time-off-schedule-board.png)
 
-## Delete a time off request
+## Edit and delete a time off request
+
+Time off requests can be edited or deleted from the resource's calendar.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/time-off-delete.png)
+
+> [!Note]
+> Deleting a time off request record will not delete the time off from the schedule board or resource's calendar.
 
 ## Additional notes
 
