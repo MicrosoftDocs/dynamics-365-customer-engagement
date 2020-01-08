@@ -1,7 +1,7 @@
 ---
 title: "Prerequisites for Connected Field Service for IoT Central | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
-ms.date: 09/24/2018
+ms.date: 01/08/2020
 ms.reviewer: 
 ms.suite: 
 ms.technology: 
@@ -32,18 +32,21 @@ Before you take these tutorials, you need to complete four tasks:
 This topic provides you with links to everything you need, and walks you through the steps to get started.
 
 ## Provision the Azure IoT Central solution using the sample Contoso template
-The sample Contoso template contains a **Refrigerated Vending Machine** device template, which you need to create your device type and generate a simulated device for testing purposes.
+
+The various industry templates for retail, energy, government, and healthcare contain device templates that you can use for testing purposes.
 
 First, [navigate to Azure IoT Central](https://azure.microsoft.com/services/iot-central/). Then select **Get started**. To start creating your new Azure IoT Central application, select **New Application**. 
  
 On the **Create Application** dialog: 
  1. Select the **Paid** payment plan (you won't be asked for a credit card). 
- 2. Select the **Sample Contoso** template. 
+ 2. Select the industry template of your choosing (recommended) or create a custom app to start from scratch. 
  3. Then select **Create**.
+
 > [!div class="mx-imgBorder"]
 > ![Azure IoT Central with payment plan and template selected](media/Azure-IoT-Central-create-app-dialog.PNG "Azure IoT Central with payment plan and template selected")  
 
 After a few seconds, you'll see the Contoso home page. 
+
 > [!div class="mx-imgBorder"]
 > ![Contoso home page for Azure IoT Central](media/Azure-IoT-Central-Contoso-home-dialog.PNG "Contoso home page for Azure IoT Central")
 
@@ -54,6 +57,8 @@ You'll need a Dynamics 365 Field Service tenant that you can connect your IoT so
 New to Field Service and need a tenant? No worries. [Sign up for a free trial for development purposes](https://appsource.microsoft.com/product/dynamics-365/mscrm.40fd37ef-dca4-4b0d-9f41-d16703b7d070).
 
 ## Install the Dynamics 365 Connected Field Service add-on from the Dynamics 365 admin center  
+
+As of Field Service v8.2, Connected Field Service is included with the Field Service app. FOllow the instructions below if you are using an earlier version without the Connected Field Service solution.
 
 To install Connected Field Service:
 1. Navigate to the Dynamics 365 admin center. 
