@@ -1,8 +1,8 @@
 ---
-title: "Resource Preferences | MicrosoftDocs"
+title: "Resource preferences | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 1/2/2020
+ms.date: 01/09/2020
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -26,7 +26,7 @@ search.app:
   - D365FS
 ---
 
-# Resource Preferences
+# Resource preferences
 
 Resource preferences allow dispatchers to give preference to specific resources over others when scheduling with the Schedule Assistant or Resource Scheduling Optimization (RSO). This is helpful for scenarios where a particular person or list of people are the only people that can perform a work order or job requirement. It is also helpful for scenarios where a person or group of people should *not* be eligible for a work order or job requirement.
 
