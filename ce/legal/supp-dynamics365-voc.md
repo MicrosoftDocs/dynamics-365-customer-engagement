@@ -1,4 +1,10 @@
-**PLEASE NOTE**: Microsoft Corporation (or based on where you live, one of its
+---
+author: m-hartmann
+title: Supplement
+---
+# Supplemental Terms of Use for Microsoft Dynamics 365 Voice of the Customer
+
+**PLEASE NOTE:** Microsoft Corporation (or based on where you live, one of its
 affiliates) licenses this supplement to you. You may use it with each validly
 licensed copy of Microsoft Dynamics 365 software (for which this supplement is
 applicable) (the “software”) or each validly licensed subscription of Microsoft

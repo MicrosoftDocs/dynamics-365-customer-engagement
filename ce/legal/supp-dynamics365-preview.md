@@ -3,8 +3,7 @@ title: Supplemental Terms of Use for Microsoft Dynamics 365 for Online Previews
 author: ReneeW-CPub
 ---
 
-**Supplemental Terms of Use for**
-**Microsoft Dynamics 365 Online Previews**
+# Supplemental Terms of Use for Microsoft Dynamics 365 for Online Previews
 
 Last updated: January 2020
 
