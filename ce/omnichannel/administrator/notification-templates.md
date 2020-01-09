@@ -56,7 +56,7 @@ Omnichannel system supports the following slugs.
 
 1.	Sign in to the Omnichannel Administration app.
 
-2.	Select **Notifications** under **Templates** in the sitemap.
+2.	Select **Notifications** under **Agent Experience** in the sitemap.
 
 3.	Select **+ New** in the **Active Notifications** page.
 
@@ -109,7 +109,7 @@ As an administrator, you can edit the value of a notification field header in th
 
 1.	Sign in to the Omnichannel Administration app.
 
-2.	Select **Notifications** under **Templates** in the sitemap.
+2.	Select **Notifications** under **Agent Experience** in the sitemap.
 
 3.	Select the notification you want to edit on the **Active Notifications** page.
 

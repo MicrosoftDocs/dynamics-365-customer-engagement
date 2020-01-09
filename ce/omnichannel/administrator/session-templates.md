@@ -42,7 +42,7 @@ To create a session template, follow these steps:
 
 1. Sign in to the Omnichannel Administration app.
 
-2. Select **Sessions** under **Templates** in the sitemap.
+2. Select **Sessions** under **Agent Experience** in the sitemap.
 
 3. Select **+ New** on the **Active Session Templates** page.
 

@@ -30,7 +30,7 @@ As an administrator, you can create multiple application tab templates.
 
 1. Sign in to the Omnichannel Administration app.
 
-2. Select **Application Tabs** under **Templates** in the sitemap.
+2. Select **Application Tabs** under **Agent Experience** in the sitemap.
 
 3. Select **+ New** in the **Active Application Tabs** page.
 
