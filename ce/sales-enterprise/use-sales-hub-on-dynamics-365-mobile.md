@@ -45,9 +45,9 @@ The Favorites and Recently Used sections provide quick access to your records, v
 
   ![Favorites and Recent items](media/Favs_3.png "Favorites and Recent items")
   
-## How to use the Dynamics 365 for phones mobile app on the go  
+## How to use the Sales Hub app on the go  
 
-Dynamics 365 for phones mobile app is designed to be your work assistant. The app helps you to engage with customers, close more deals, and acts as your office assistant.
+The Sales Hub app on the Dynamics 365 for phones mobile app is designed to be your work assistant. The app helps you to engage with customers, close more deals, and acts as your office assistant.
 
 Here are a few tasks that you could perform on your day-to-day activities using the Sales Hub app module on the Dynamics 365 for phone mobile app:
 
@@ -63,7 +63,7 @@ Here are a few tasks that you could perform on your day-to-day activities using 
 
 - [Add and qualify lead](#add-and-qualify-lead)
 
-- [Generate and share quotes and order](#generate-and-share-quotes-and-order)
+- [Generate and share a quote or order](#generate-and-share-a-quote-or-order)
 
 - [Manage your to-do list](#manage-your-to-do-list)
 
@@ -73,11 +73,7 @@ Here are a few tasks that you could perform on your day-to-day activities using 
 
 As you start your day and to know how busy your day is, go to **My Appointments**. The **My Appointments** feature provides insights on your meetings, travel, and free time. With this information, you can plan for the day ahead by reviewing who you will be meeting during the day, where you need to travel, and how much free time you have left.
 
-To view your appointments, follow these steps:
-
-1. Open **Sales Hub** app on your mobile device.
-
-2. Select Site map > **My Activities** >  **My Appointments**.
+To view your appointments, select Site map > **My Activities** >  **My Appointments**.
 
 ### Attend meetings with information at your fingertips
 
@@ -86,7 +82,7 @@ During your travel, open any appointment in the calendar to view more details su
 > [!div class="mx-imgBorder"]
 > ![Appointment details](media/mobile-app-appointment-details.png "Appointment details")
 
-Further, select the **Regarding** field to view which opportunity or account the meeting is about. As you view the opportunity or account, review the timeline of notes and past activities to ramp-up on past context.
+Further, select the **Regarding** record to view which opportunity or account the meeting is about. As you view the opportunity or account, review the timeline of notes and past activities to ramp-up on past context.
 
 > [!div class="mx-imgBorder"]
 > ![Opportunity related to appointment](media/mobile-app-appointment-details-opportunity.png "Opportunity related to appointment")
@@ -97,21 +93,19 @@ It's no longer necessary for you to open a laptop to add notes to an opportunity
 
 To add notes to an opportunity, follow these steps:
 
-1. Open **Sales Hub** app on your mobile device.
+1. Select Site map > **Opportunities** >  **My Opportunities**.
 
-2. Select Site map > **Opportunities** >  **My Opportunities**.
-
-3. On the opportunity, go to timeline section and add a note. 
+2. On the opportunity, go to timeline section and add a note. 
 
     > [!div class="mx-imgBorder"]
     > ![Add note to an opportunity](media/mobile-app-take-notes-timeline.png "Add note to an opportunity")
 
-4. (Optional) If the customer is showing interest in additional products, go to **Product line items**, select **More options** > **+ Add Product** and then select a product from the catalog or enter a product.
+3. (Optional) If the customer is showing interest in additional products, go to **Product line items**, select **More options** > **+ Add Product** and then select a product from the catalog or enter a product.
 
     > [!div class="mx-imgBorder"]
     > ![Add product to an opportunity](media/mobile-app-add-product.png "Add product to an opportunity")
 
-5. (Optional) If you have met a new stakeholder at the customer’s offices, go to the **Stakeholder** section, select **More options** > **+ New Connection** and add the stakeholder. You can also add the contact from an account record.
+4. (Optional) If you have met a new stakeholder at the customer’s offices, go to the **Stakeholder** section, select **More options** > **+ New Connection** and add the stakeholder. You can also add the contact from an account record.
 
     > [!div class="mx-imgBorder"]
     > ![Stakeholder section](media/mobile-app-stakeholder-tab.png "Stakeholder section")
@@ -122,20 +116,18 @@ After you step out of a meeting, you can quickly update information about the de
 
 Follow these steps:
 
-1. Open **Sales Hub** app on your mobile device.
-
-2. Open the opportunity from the relevant appointment
+1. Open the opportunity from the relevant appointment
 
     OR
     
     Select Site map > **Opportunities** >  **My Opportunities**.
     
-3. On the opportunity, you can update the forecasted revenue or move to the next stage. 
+2. On the opportunity, you can update the forecasted revenue or move to the next stage. 
 
     > [!div class="mx-imgBorder"]
     > ![Update opportunity](media/mobile-app-update-opportunity.png "Update opportunity")
 
-4. To create a follow-up appointment for the opportunity, go to **Appointments** tab and the select **More options** > **+ New Appointment**.
+3. To create a follow-up appointment for the opportunity, go to **Appointments** tab and the select **More options** > **+ New Appointment**.
 
     > [!div class="mx-imgBorder"]
     > ![New appointment](media/mobile-app-new-appointment.png "New appointment")
@@ -152,25 +144,23 @@ Follow these steps:
 
 You can search and find information about a contact or account referenced in a meeting. Follow these steps:
 
-1. Open **Sales Hub** app on your mobile device.
-
-2. Select Site map > **Customers** >  **Contacts**.
+1. Select Site map > **Customers** >  **Contacts**.
 
     For accounts, select **Accounts**.
 
     > [!div class="mx-imgBorder"]
     > ![Select contacts](media/mobile-app-select-contacts.png "Select contacts")
 
-3. On the contacts page, select **More options** > **Search**. 
+2. On the contacts page, select **More options** > **Search**. 
 
     The search page opens.
 
-4. In the search, enter the name you want to search and the results are displayed. 
+3. In the search, enter the name you want to search and the results are displayed. 
 
     > [!div class="mx-imgBorder"]
     > ![Search contact results](media/mobile-app-search-contact-results.png "Search contact results")
 
-5. Select and open the contact to view more information.
+4. Select and open the contact to view more information.
 
 ### Add and qualify lead
 
@@ -178,50 +168,46 @@ When you met a new lead at an event and you can immediately add the lead through
 
 Follow these steps to add and qualify the lead:
 
-1. Open **Sales Hub** app on your mobile device.
+1. Select Site map > **Sales** >  **Leads**.
 
-2. Select Site map > **Sales** >  **Leads**.
-
-3. On the leads page, select **More options** > **+ New**.
+2. On the leads page, select **More options** > **+ New**.
 
     > [!div class="mx-imgBorder"]
     > ![Create new lead](media/mobile-app-new-lead.png "Create new lead")
 
-4. Enter necessary information and save the lead.
+3. Enter necessary information and save the lead.
 
-5. To qualify a lead, open the lead and select  **More options** > **Qualify**.
+    > [!div class="mx-imgBorder"]
+    > ![Lead form](media/mobile-app-new-lead-form.png "Lead form")
+
+4. To qualify a lead, open the lead and select  **More options** > **Qualify**.
 
     > [!div class="mx-imgBorder"]
     > ![Qualify lead](media/mobile-app-qualify-lead.png "Qualify lead")
 
-### Generate and share quotes and order
+### Generate and share a quote or order
 
 After a successful meeting, you can quickly generate a PDF of the quote from an opportunity or a PDF of the order related to an account and share it with the customer who requests it.
 
 Follow these steps:
 
-1. Open **Sales Hub** app on your mobile device.
+1. Select Site map > **Opportunities** >  **My Opportunities**.
 
-2. Select Site map > **Opportunities** >  **My Opportunities**.
-
-3. Open the opportunity for which you want to generate PDF of quote and select **More options** > **Quote**. 
-
-    > [!div class="mx-imgBorder"]
-    > ![Select quote](media/mobile-app-opportunity-open-quote.png "Select quote")
-
-4. In the quote section, select **More options** > **+ New Quote**. A quote is generated.
+2. Open the opportunity for which you want to generate PDF of quote and select **More options** > **Quote**. 
 
     > [!div class="mx-imgBorder"]
     > ![Generate a quote](media/mobile-app-generate-quote.png "Generate a quote")
 
-5. On the quote page, select **More options** > **Email as PDF** > **Print quote for customer**.
+3. In the quote section, select **More options** > **+ New Quote**. A quote is generated.
+
+4. On the quote page, select **More options** > **Email as PDF** > **Print quote for customer**.
 
     An email opens with the quote as attachment.
 
     > [!div class="mx-imgBorder"]
     > ![Send quote as email](media/mobile-app-quote-email.png "Send quote as email")
 
-6. Send the email.
+5. Send the email.
 
 ### Manage your to-do list
 
@@ -232,11 +218,9 @@ Before you wrap up the day, make sure your opportunity status is reflected corre
 
 Quickly review pending tasks and close the ones you got to during the day. Follow these steps:
 
-1. Open **Sales Hub** app on your mobile device.
+1. Select Site map > **My Work** > **Activities**.
 
-2. Select Site map > **My Work** > **Activities**.
-
-3. On the activities page, select **My Tasks** view.
+2. On the activities page, select **My Tasks** view.
 
     > [!div class="mx-imgBorder"]
     > ![My tasks view](media/mobile-app-my-tasks.png  "My tasks view")
