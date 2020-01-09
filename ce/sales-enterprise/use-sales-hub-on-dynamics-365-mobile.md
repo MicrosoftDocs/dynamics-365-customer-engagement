@@ -27,13 +27,15 @@ Before you can start using the app, you need to install the Dynamics 365 for mob
 1.	When you sign in, you'll see the MyApps page with all your apps listed. 
 2.	Select **Sales Hub**.
 
-![Choose an app](media/ChooseAnApp_1.png "Choose an app")
+    > [!div class="mx-imgBorder"]
+    > ![Choose an app](media/ChooseAnApp_1.png "Choose an app")
 
 **The navigation bar**
 
-Use the nav bar to get to your work area, create a new record, search, or do other tasks. To access more commands, tap ![More Button](media/MoreButton.png "More Button")
+Use the nav bar to get to your work area, create a new record, search, or do other tasks. To access more commands, tap ![More Button](media/MoreButton.png "More Button").
 
-![Nav Bar](media/NavBar_2.png "Nav Bar")
+    > [!div class="mx-imgBorder"]
+    > ![Nav Bar](media/NavBar_2.png "Nav Bar")
 
 **Favorites and recently used records**
 
@@ -43,7 +45,8 @@ The Favorites and Recently Used sections provide quick access to your records, v
 
 - To pin an item as a favorite, from the list of **Recently Used** items, tap the pin. This will pin and move the item to **Favorites**.
 
-  ![Favorites and Recent items](media/Favs_3.png "Favorites and Recent items")
+    > [!div class="mx-imgBorder"]
+    > ![Favorites and Recent items](media/Favs_3.png "Favorites and Recent items")
   
 ## How to use the Sales Hub app on the go  
 
