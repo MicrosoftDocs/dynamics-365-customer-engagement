@@ -3,8 +3,8 @@ title: Sales Enterprise and Professional Learning Catalog
 description: Find all the training options for Dynamics 365 Sales Enterprise and Professional. 
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 11/01/2019
-ms.author: loreleishannonmsft
+ms.date: 01/08/2020
+ms.author: v-lshann
 ---
 
 # Sales Enterprise and Professional Learning Catalog
@@ -37,6 +37,30 @@ Find the right online training, in person workshops, and events for your role in
     :::row-end:::
     :::row:::
         :::column:::
+        
+    ### Implementation project managers
+
+    Are you in charge of making sure your company’s implementation goes smoothly?
+
+    [Project Managers Learning Catalog](learning-project_manager.md)
+
+    [Get started](learning-project_manager.md#get-started)
+
+    [Core Platform Knowlege](learning-project_manager.md#core-platform)
+
+     :::column-end:::
+    :::column:::
+
+    ### Administrators
+
+    Do you need to keep systems and data flowing, provisioned,and secure round-the-clock?
+
+    [Administrators learning catalog](learning-administrator.md)
+
+     :::column-end:::
+    :::row-end:::
+    :::row:::
+        :::column:::
 
     ### Developers
 
@@ -48,23 +72,8 @@ Find the right online training, in person workshops, and events for your role in
 
     [Extend](learning-developer.md#extend)
 
-        :::column-end:::
+       :::column-end:::
     :::column:::
-
-    ### Implementation project managers
-
-    Are you in charge of making sure your company’s implementation goes smoothly?
-
-    [Project Managers Learning Catalog](learning-project_manager.md)
-
-    [Get started](learning-project_manager.md#get-started)
-
-    [Core Platform Knowlege](learning-project_manager.md#core-platform)
-
-        :::column-end:::
-    :::row-end:::
-    :::row:::
-        :::column:::
 
     ### Functional consultants
     
@@ -79,12 +88,13 @@ Find the right online training, in person workshops, and events for your role in
     [Exams](learning-functional-consultant.md#exam)
 
         :::column-end:::
-    :::column:::
+    :::row-end:::
+    :::row:::
+        :::column:::
 
     ### Partner sales and marketing
 
     Are you responsible for helping your customers purchase the right solution?
-
 
     [Sales Learning Catalog](learning-sales.md)
 

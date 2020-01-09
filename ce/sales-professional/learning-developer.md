@@ -3,11 +3,12 @@ title: Developers learning catalog
 description: Find all the training options for developers. 
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 11/01/2019
-ms.author: loreleishannonmsft
+ms.date: 01/08/2020
+ms.author: v-lshann
 ---
 
 # Developers Learning Catalog
+Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?
 
 The following catalog is organized from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.
 
