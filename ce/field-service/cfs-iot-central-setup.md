@@ -58,7 +58,7 @@ New to Field Service and need a tenant? No worries. [Sign up for a free trial fo
 
 ## Install the Dynamics 365 Connected Field Service add-on from the Dynamics 365 admin center  
 
-As of Field Service v8.2, Connected Field Service is included with the Field Service app. FOllow the instructions below if you are using an earlier version without the Connected Field Service solution.
+As of Field Service v8.2, Connected Field Service is included with the Field Service app. Follow the instructions below if you are using an earlier version without the Connected Field Service solution.
 
 To install Connected Field Service:
 1. Navigate to the Dynamics 365 admin center. 
