@@ -34,8 +34,8 @@ Before you can start using the app, you need to install the Dynamics 365 for mob
 
 Use the nav bar to get to your work area, create a new record, search, or do other tasks. To access more commands, tap ![More Button](media/MoreButton.png "More Button").
 
-    > [!div class="mx-imgBorder"]
-    > ![Nav Bar](media/NavBar_2.png "Nav Bar")
+   > [!div class="mx-imgBorder"]
+   > ![Nav Bar](media/NavBar_2.png "Nav Bar")
 
 **Favorites and recently used records**
 
