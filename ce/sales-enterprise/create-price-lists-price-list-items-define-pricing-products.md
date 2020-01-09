@@ -1,18 +1,15 @@
 ---
 title: "Define product pricing with price lists and price list items (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define what to charge for your products or services in Dynamics 365 Sales."
-keywords: "Price list, price list items"
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: get-started-article
-ms.assetid: dd53d178-2cd2-4aeb-beb5-be538585d297
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-caps.latest.revision: 44
 ---
 
 # Define product pricing with price lists and price list items (Sales and Sales Hub)

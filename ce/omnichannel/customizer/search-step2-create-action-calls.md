@@ -4,12 +4,10 @@ description: "Learn how to set up the search-related action calls for agents and
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: FAFACDC8-9A63-408C-8B94-37E8AFEED493
-ms.custom: 
 ---
 
 # Step 2: Create search-related action calls

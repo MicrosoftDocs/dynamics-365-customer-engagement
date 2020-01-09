@@ -1,26 +1,32 @@
 ---
-title: Sales Enterprise and Professional Learning Catalog 
-description: Find all the training options for Dynamics 365 Sales Enterprise and Professional. 
+title: Sales Professional and Enterprise Learning Catalog 
+description: Find all the training options for Dynamics 365 Sales Professional and Enterprise. 
 author: loreleishannonmsft
 ms.topic: article
 ms.date: 01/08/2020
 ms.author: v-lshann
 ---
 
-# Sales Enterprise and Professional Learning Catalog
+# Sales Professional and Enterprise Learning Catalog
 Find the right online training, in person workshops, and events for your role in Dynamics 365 Sales.
 
 :::row:::
     :::column:::
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
 
     ### Business and technical decision makers
 
     Do you decide whether to invest in new technologies?
 
-    [Business and Technical Decision Makers Learning Catalog](learning-bus-decision_makers.md)
+    [Business and Technical Decision Makers Learning Catalog](learning-bdm.md)
+
+    [Get started](learning-bdm.md#get-started)
+
+    [Core Platform Knowlege](learning-bdm.md#core-platform)
+
+    [Exam](learning-bdm.md#exam)
    
-        :::column-end:::
+    :::column-end:::
+    
     :::column:::
 
     ### Business users
@@ -31,7 +37,9 @@ Find the right online training, in person workshops, and events for your role in
 
     [Get started](learning-bus-user.md#get-started)
 
-    [Core platform knowlege](learning-bus-user.md#core-platform)
+    [Exam](learning-bus-user.md#exam)
+
+    :::column-end:::
 
         :::column-end:::
     :::row-end:::
@@ -42,11 +50,19 @@ Find the right online training, in person workshops, and events for your role in
 
     Are you in charge of making sure your company’s implementation goes smoothly?
 
-    [Project Managers Learning Catalog](learning-project_manager.md)
+    [Project Managers Learning Catalog](learning-project-manager.md)
 
-    [Get started](learning-project_manager.md#get-started)
+    [Get started](learning-project-manager.md#get-started)
 
-    [Core Platform Knowlege](learning-project_manager.md#core-platform)
+    [Core Platform Knowlege](learning-project-manager.md#core-platform)
+
+    [Exams](learning-developer.md#exam)
+
+    :::column-end:::
+    
+:::row-end:::
+
+:::row:::
 
      :::column-end:::
     :::column:::
@@ -98,5 +114,11 @@ Find the right online training, in person workshops, and events for your role in
 
     [Sales Learning Catalog](learning-sales.md)
 
+
+    [Getting started](learning-sales.md#get-started)
+
+    [Exam](learning-sales.md#exam)
+
      :::column-end:::
+    
 :::row-end:::

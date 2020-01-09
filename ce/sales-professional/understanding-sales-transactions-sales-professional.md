@@ -2,10 +2,11 @@
 title: "Sales transactions in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Understand how quotes and invoices are used in a sales transaction."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-ms.assetid: cbbd1a83-f9a7-4fd0-addf-9c9dbdc84d0a
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

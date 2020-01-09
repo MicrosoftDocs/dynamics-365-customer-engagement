@@ -1,16 +1,13 @@
 ---
 title: "Introduction to Omnichannel Insights dashboard for supervisors | MicrosoftDocs"
 description: "Introduction to Omnichannel Insights dashboard for supervisors"
-keywords: ""
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-applies_to: 
 ms.date: 10/31/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: c59f8487-0f19-445c-bd96-4c2d468802d4
-ms.custom: 
 ---
 
 # Introduction to Omnichannel Insights dashboard

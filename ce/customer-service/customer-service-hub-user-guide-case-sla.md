@@ -6,9 +6,10 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 11/04/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer

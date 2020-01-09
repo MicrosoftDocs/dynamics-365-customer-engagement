@@ -49,4 +49,4 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [Sample: Determine Whether a User has a Role](sample-determine-user-role.md)   
  [User and Team Entities](user-team-entities.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)  
+   

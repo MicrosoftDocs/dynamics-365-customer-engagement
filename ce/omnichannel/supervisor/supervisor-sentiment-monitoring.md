@@ -1,19 +1,17 @@
 ---
-title: "Preview: Sentiment Monitoring | MicrosoftDocs"
+title: "Preview  Sentiment Monitoring | MicrosoftDocs"
 description: "Enable sentiment monitoring to understand customer sentiment across channels"
-keywords: ""
-ms.date: 10/25/2019
-ms.service:
-  - "dynamics-365-customerservice"
-ms.custom:
-  - ""
-ms.topic: article
-applies_to:
-  - ""
-ms.assetid: c7a7358b-1704-4096-8e69-7cad6697b705
 author: lerobbin
 ms.author: lerobbin
 manager: autumna
+applies_to: 
+  - ""
+ms.date: 10/25/2019
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
+ms.custom: 
+  - ""
 ---
 
 # Preview: Sentiment monitoring

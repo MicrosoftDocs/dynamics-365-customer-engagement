@@ -22,7 +22,7 @@ search.app:
 ---
 # Sample: Create a process using a template
 
-This sample code is for Dynamics 365 Customer Engagement (on-premises). Download the sample: [Work with workflows](https://code.msdn.microsoft.com/Work-with-workflows-edf8f3bf).
+This sample code is for Dynamics 365 Customer Engagement (on-premises). Download the sample: [Work with workflows](hhttps://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Workflows).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

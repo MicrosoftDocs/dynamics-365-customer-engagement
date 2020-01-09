@@ -6,9 +6,10 @@ ms.author: lalexms
 manager: shujoshi
 ms.date: 10/25/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: ae39f0a0-1909-44b0-8625-ccee22f3ccd4
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer

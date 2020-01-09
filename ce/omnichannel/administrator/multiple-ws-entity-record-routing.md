@@ -1,15 +1,13 @@
----	
-title: "Create multiple workstreams for entity records routing | MicrosoftDocs"	
-description: "This walkthrough demonstrates how you can route entity record automatically using Entity Records channel in the Omnichannel Administration app."	
-author: kabala123	
-ms.author: kabala	
-manager: shujoshi	
-applies_to: 	
+---
+title: "Create multiple workstreams for entity records routing | MicrosoftDocs"
+description: "This walkthrough demonstrates how you can route entity record automatically using Entity Records channel in the Omnichannel Administration app."
+author: kabala123
+ms.author: kabala
+manager: shujoshi
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice	
-ms.topic: article	
-ms.assetid: 3DBB1579-ECD2-43E6-B994-6D83A7C2C8F1
-ms.custom: 	
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
 ---
 
 # Create multiple workstreams for entity records routing

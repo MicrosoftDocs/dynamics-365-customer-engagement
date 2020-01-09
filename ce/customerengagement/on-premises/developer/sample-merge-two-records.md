@@ -25,7 +25,7 @@ search.app:
 ---
 # Sample: Merge two records
 
-This sample code is for Dynamics 365 Customer Engagement (on-premises) and Common Data Service. Download the complete sample here [Business Management samples](https://code.msdn.microsoft.com/Business-Management-Samples-6a482e62)
+This sample code is for Dynamics 365 Customer Engagement (on-premises) and Common Data Service. Download the complete sample here [Business Management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement)
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
