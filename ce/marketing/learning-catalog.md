@@ -60,7 +60,7 @@ Find the right online training, in person workshops, and events for your role in
 
     Do you need to keep systems and data flowing, provisioned, and secure round-the-clock?
 
-    [Administrators learning catalog]{learning-administrator.md}
+    [Administrators learning catalog](learning-administrator.md)
 
     :::column-end:::
 :::row-end:::
