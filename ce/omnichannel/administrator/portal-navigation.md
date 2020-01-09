@@ -1,6 +1,6 @@
 ---
-title: "Enable portal navigation | MicrosoftDocs"
-description: "Enable portal navigation in the Omnichannel Administration app."
+title: "Enable self service settings | MicrosoftDocs"
+description: "Enable self service in the Omnichannel Administration app."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -10,30 +10,32 @@ ms.service:
 ms.topic: article
 ---
 
-# Enable self service
+# Enable self-service settings of customer actions in conversation summary
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 ## Overview
 
-The portal navigation feature displays information on the path (recent operations) the customer took just before initiating a conversation. The information enables the agents to understand why a customer reached out and also to provide a personalized service with fast resolution and improved customer satisfaction.
+The self service feature displays information on the recent operations that the customer performs before initiating a conversation with an agent. This information helps the agents  understand why a customer reached out and provide a personalized service for enhanced customer satisfaction.
 
-The data that you track as recent actions is stored in an entity where it is passed as part of context with portal navigation type, for a conversation that has been successfully closed between the customer and agent. A portal navigation record is created for each portal navigation action. To learn more, see [msdyn_visitorjourney Entity Reference](../developer/reference/entities/msdyn_visitorjourney.md).
+The data that you track as recent actions is stored in an entity where it is passed as part of context with self service type, for a conversation that has been successfully closed between the customer and agent. A record is created for each self service action. To learn more, see [msdyn_visitorjourney Entity Reference](../developer/reference/entities/msdyn_visitorjourney.md).
 
-## Prerequisites
+You need to enable the self service feature using one of the following methods:
+ - Omnichannel Administration app
+ - Developer experience. To learn more, see [Pass portal navigation history as context](../developer/reference/methods/setcontextprovider.md#pass-customers-portal-navigation-as-context) and [msdyn_visitorjourney](../developer/reference/entities/msdyn_visitorjourney.md#msdyn_type-options). 
 
-- As an administrator, you need to enable the feature for the agents to see the **Portal navigation** tab is displayed to the agents when in a session. To learn more, see [Enable portal navigation](portal-navigation.md#enable-portal-navigation).
-- As a developer, you need to enable the portal navigation using the developer experience. To learn more, see [Pass portal navigation history as context](../developer/reference/methods/setcontextprovider.md#pass-customers-portal-navigation-as-context) and [msdyn_visitorjourney](../developer/reference/entities/msdyn_visitorjourney.md#msdyn_type-options). 
-
-## Enable portal navigation
+## Enable self service
 
 1. Sign in to the Omnichannel Administration app.
 
-2. Select **Portal navigation** under **Settings**. The **Omnichannel Configuration** page appears.
+2. Select **Self service** under **Settings**. The **Omnichannel Configuration** page appears.
 
-3. On the **Portal navigation settings** tab, set the **Portal Navigation** toggle to **Yes**.
+3. On the **Self service settings** tab, set the **Self service** toggle to **Yes**.
 
-4. Select **Save**.
+  > [!div class='mx-imgBorder']
+  > ![Enable self service](../media/enable-self-service.png "enable self service")
+ 
+4. Select **Save**. The Self service tab will appear for the agent when a chat is initiated with a customer.
 
 ## See also
 

@@ -70,7 +70,7 @@ The **Pre-chat survey** tab displays the survey answers against the questions th
 
 ### Self service
 
-The **Self service** tab displays information on the activites that the customer had performed prior to initiating a conversation through chat. The information enables the agents to understand the customer intent and provide a personalized service for improved customer satisfaction. The activity information is categorized into the following action types and appears in reverse chronological order:
+The **Self service** tab displays information on the activites that the customer performs before initiating a conversation with an agent. This information helps the agents  understand why a customer reached out and provide a personalized service for enhanced customer satisfaction. The activity information is categorized into the following action types and appears in reverse chronological order:
 
 | Action type | Description |
 |-------------|-----------------------------------|
@@ -82,7 +82,7 @@ The **Self service** tab displays information on the activites that the customer
    > [!div class='mx-imgBorder']
    > ![Self service tab](../../media/customer-summary-portal-navigation-tab.png "Self service tab")
 
-To configure the appearance of the **Self service** tab, see [Enable portal navigation](../../administrator/portal-navigation.md).
+To configure the appearance of the **Self service** tab, see [Enable self-service settings of customer actions in conversation summary](../../administrator/portal-navigation.md).
 
 ### Visitor details
 
