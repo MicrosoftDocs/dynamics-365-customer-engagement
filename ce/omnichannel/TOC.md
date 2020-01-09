@@ -70,6 +70,13 @@
 #### [Create quick replies](administrator/create-quick-replies.md)
 #### [Configure and manage custom presence](administrator/presence-custom-presence.md)
 #### [Share knowledge articles](administrator/knowledge-management-oc.md)
+#### Templates
+##### [Overview](administrator/templates-overview.md)
+##### [Manage session templates](administrator/session-templates.md)
+##### [Manage application tab templates](administrator/application-tab-templates.md)
+##### [Manage notification templates](administrator/notification-templates.md)
+##### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
+##### [Associate templates with workstreams](administrator/associate-templates.md)
 
 ### Supervisor Experience
 #### [Configure to view Intraday insights](administrator/configure-intraday-dashboard-supervisor.md)
@@ -86,14 +93,6 @@
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
 #### [Enable portal navigation](administrator/portal-navigation.md)
-
-### Templates
-#### [Overview](administrator/templates-overview.md)
-#### [Manage session templates](administrator/session-templates.md)
-#### [Manage application tab templates](administrator/application-tab-templates.md)
-#### [Manage notification templates](administrator/notification-templates.md)
-#### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
-#### [Associate templates with workstreams](administrator/associate-templates.md)
 
 ## Agent guide
 
