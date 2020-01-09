@@ -241,4 +241,4 @@ Now, you've built the expression.
 
 [Smart Assist](smart-assist.md)
 
-[Session templates](session)
+[Session templates](session-templates.md)
