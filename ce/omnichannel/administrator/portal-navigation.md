@@ -22,7 +22,7 @@ The data that you track as recent actions is stored in an entity where it is pas
 
 You need to enable the self service feature using one of the following methods:
  - Omnichannel Administration app
- - Developer experience. To learn more, see [Pass portal navigation history as context](../developer/reference/methods/setcontextprovider.md#pass-customers-portal-navigation-as-context) and [msdyn_visitorjourney](../developer/reference/entities/msdyn_visitorjourney.md#msdyn_type-options). 
+ - Developer experience. To learn more, see [Pass self service history as context](../developer/reference/methods/setcontextprovider.md#pass-customers-portal-navigation-as-context) and [msdyn_visitorjourney](../developer/reference/entities/msdyn_visitorjourney.md#msdyn_type-options). 
 
 ## Enable self service
 
@@ -35,7 +35,7 @@ You need to enable the self service feature using one of the following methods:
   > [!div class='mx-imgBorder']
   > ![Enable self service](../media/enable-self-service.png "enable self service")
  
-4. Select **Save**. The Self service tab will appear for the agent when a chat is initiated with a customer.
+4. Select **Save**. The **Self service** tab will appear for the agent when a chat is initiated with a customer.
 
 ## See also
 
