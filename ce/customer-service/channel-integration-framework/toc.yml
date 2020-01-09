@@ -134,7 +134,7 @@
         href: v2/configure-channel-provider-channel-integration-framework.md
       - name: "Enable outbound communication (ClickToAct)"
         href: v2/enable-outbound-communication-clicktoact.md
-      - name: "Add CIF solution as a dependent solution"
+      - name: "Add Channel Integration Framework solution as a dependent solution"
         href: v2/add-cif-solution-dependent-solution.md   
       - name: "Authenticate channel users to the channel (widget)"
         href: v2/authenticate-channel-users.md
