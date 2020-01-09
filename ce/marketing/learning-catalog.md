@@ -3,15 +3,13 @@ title: Marketing learning catalog
 description: Find all the training options for Dynamics 365 Marketing.
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 12/19/2019
+ms.date: 01/08/2020
 ms.author: v-lshann
 ---
 
 
 # Marketing Learning Catalog
 Find the right online training, in person workshops, and events for your role in Dynamics 365 Marketing.
-
-
 
 <!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
 
@@ -45,19 +43,6 @@ Find the right online training, in person workshops, and events for your role in
 :::row:::
     :::column:::
 
-    ### Developers
-
-    Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?
-
-    [Developers Learning Catalog](learning-developer.md)
-
-    [Build](learning-developer.md#build)
-
-    [Extend](learning-developer.md#extend)
-
-        :::column-end:::
-    :::column:::
-
     ### Implementation project managers
 
     Are you in charge of making sure your company’s implementation goes smoothly?
@@ -68,10 +53,32 @@ Find the right online training, in person workshops, and events for your role in
 
     [Exams](learning-project_manager.md#exam)
 
+   :::column-end:::
+    :::column:::
+
+    ### Administrators
+
+    Do you need to keep systems and data flowing, provisioned, and secure round-the-clock?
+
+    [Administrators learning catalog]{learning-administrator.md}
+
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
+    
+    ### Developers
+
+    Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?
+
+    [Developers Learning Catalog](learning-developer.md)
+
+    [Build](learning-developer.md#build)
+
+    [Extend](learning-developer.md#extend)
+
+     :::column-end:::
+    :::column::: 
 
     ### Functional consultants
     
@@ -83,8 +90,10 @@ Find the right online training, in person workshops, and events for your role in
 
     [Exams](learning-functional-consultant.md#exam)
 
-        :::column-end:::
-    :::column:::
+     :::column-end:::
+:::row-end:::
+:::row:::
+    :::column:::  
 
     ### Partner sales and marketing
 
