@@ -2,7 +2,7 @@
 title: "Universal Resource Scheduling for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 1/6/2020
+ms.date: 01/09/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -242,7 +242,7 @@ To make sure resources are geocoded properly, navigate to **Universal Resource S
 > ![Screenshot of geo coded resource on map](media/scheduling-urs-schedule-board-locate-resource.png)
 
 ## Additional notes
-If the work order or requirement does not have a latitude or longitude, the location is treated as Location agnostic which means the location of resources is not considered during scheduling. If the work order or requirement has a latitude and longitude and work location = onsite, resource locations, travel time, and routes are considered during scheduling.
+If the work order or requirement doesn't have a latitude or longitude, the location is treated as location-agnostic, which means the location of resources isn't considered during scheduling. If the work order or requirement has a latitude and longitude and work location is set to **onsite**, resource locations, travel time, and routes are considered during scheduling.
 
 ### See also
 - [Universal Resource Scheduling documentation](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
