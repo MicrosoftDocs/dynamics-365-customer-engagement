@@ -66,7 +66,9 @@ Omnichannel system supports the following slugs.
     |---------|--------------------|-----------------------------------------------|--------------------|
     | General | Name | Specify the name for the notification. This name wouldn't be visible for the agents at the run-time. | Authenticated chat notification |
     | General | Title | Provide a title to the notification that you want the agents to see at the run-time. | Incoming chat conversation |
+    | General | Theme | Dark |Select a theme from the list. You can choose dark or light theme. <br><br> **Note:** Dark is the default value. To learn more, see [Set theme for notification](#set-theme-for-notification) |
     | General | Icon | Select web resource path to add an icon. | /webresources/msdyn_chat_icon_zfp.svg <br><br> **Note:** This is the default value. You can change the icon as your requirement. |
+    | General |Show timeout| Yes |Set **Yes** to show the timer in the notification, or **No** to hide the timer in the notification for the agents. <br><br> **Note:** <br> - Irrespective of whether you set **Yes** or **No** to show or to hide the timeout value for the agent, the timer runs, and after the timeout duration, the notification disappears. <br> - Yes is the default value.|
     | General | Timeout (seconds) | Provide a duration in seconds; after this duration, the notification disappears. | 120. <br><br> **Note:** This is the default value. You can change the duration as per your requirement.
     | General | Accept Button | Specify a text for the accept button. This text appears for the agents to accept a conversation request. | Accept <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
     | General | Reject Button | Set the toggle to yes if you want to show the reject button to agents. <br> After you set the toggle to Yes, the button text box appears. Specify a text for the accept button. This text appears for the agents to reject a conversation request. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
@@ -116,6 +118,12 @@ As an administrator, you can edit the value of a notification field header in th
 4.	Select a notification field you want to edit and then select the record to edit it.
 
 5.	Select the save icon in thr grid.
+
+## Set theme for notification
+
+You can set a theme for the notification while creating a notification template. There are two themes: Dark and Light, and Dark is the default theme.
+
+For example, when an agent is working on conversations from **Chat** and **Facebook** channels, and you want to differentiate the notification. You can set **Dark** for **Chat** channel and **Light** for **Facebook** channel.
 
 ## Customize notification
 
