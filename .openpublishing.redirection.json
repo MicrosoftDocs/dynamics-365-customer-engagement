@@ -1,6 +1,66 @@
 {
   "redirections": [
     {
+      "source_path": "ce/field-service/create-inventory-adjustment.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/create-inventory-transfer.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/create-return-vendor.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/create-rma-sub-status.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/create-ship-via.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/set-up-payment-terms.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/set-up-purchase-order-sub-statuses.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/set-up-rtv-sub-statuses.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/view-product-inventory.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/preview-terms-sms.md",
+      "redirect_url": "thirdparty-messaging-terms",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/preview-terms-dynamics-365-for-microsoft-teams.md",
+      "redirect_url": "/dynamics365/teams-integration/teams-integration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/supp-dynamics365-mobile-offline.md",
+      "redirect_url": "/dynamics365/mobile-app/setup-mobile-offline-for-admin",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/new-segment-designer.md",
       "redirect_url": "segmentation-lists-subscriptions",
       "redirect_document_id": "false"
@@ -17039,6 +17099,121 @@
     {
       "source_path": "ce/live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md",
       "redirect_url": "../omnichannel/omnichannel-customer-service-guide",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/websites.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/websites",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/website-bindings.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/website-bindings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/web-page.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/web-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/view-email-in-timeline.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/view-email-in-timeline",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/rate-webpage-blog-post.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/rate-webpage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/enable-header-footer-output-caching.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/enable-header-footer-output-caching",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/faq.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/change-dynamics-instance.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/admin/change-dynamics-instance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/upgrade-portal.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/implement-gdpr.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/implement-gdpr",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/cds-portal.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/create-portal",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/view-primary-domain.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/portal-new-content-editor.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/webpage-access-control.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/webpage-access-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/website-access-permission.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/website-access-permission",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/assign-entity-permissions.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/legacy-portal-faq.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/legacy-portal-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/create-run-advertisement.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/create-run-advertisement",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/gather-feedback-poll.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/gather-feedback-poll",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/publishing-states.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/publishing-states",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/administer-manage-portal-dynamics-365.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/monthly-updates-portals.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/release-updates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/portal-faq.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/faq",
       "redirect_document_id": false
     }
   ]
