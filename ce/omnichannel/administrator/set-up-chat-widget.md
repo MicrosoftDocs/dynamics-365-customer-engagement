@@ -23,3 +23,9 @@ In this section, you will learn how to:
 - [Configure a pre-chat survey](configure-pre-chat-survey.md)
 - [Configure file attachment capability](configure-file-attachment.md)
 - [Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)
+
+## Videos
+
+[Overview of Chat for Dynamics 365 Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097416)
+
+To view more videos on Omnichannel for Customer Service, see [Videos](../videos.md).
