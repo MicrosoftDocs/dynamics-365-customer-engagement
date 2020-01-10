@@ -90,33 +90,36 @@ The conversations that are completed by ending, and closing the session are clas
 
 ## Automatic closure of a conversation
 
-Omnichannel for Customer Service has a default time set for the conversations to close automatically. That is, if a conversation in a certain state remains in the same state more than the default time, then the conversation is automatically moved to the closed state.
+Omnichannel for Customer Service has a default time set for the conversations to close automatically. That is, if a conversation in a certain state remains in the same state more than the default time, then the conversation is moved to the closed state.
 
-Advantages of automatically closing a conversation:
+Advantages of auto-closure of a conversation:
 
 - Conversations don’t stay in a state for long duration, and the system helps in the clean-up job.
 - Conversations achieve a closure and agents can focus on important conversations thus enhancing productivity.
 
 ### Understand working of auto-close of conversations
 
-The Omnichannel for Customer Service application checks the conversations every 24 hours to identify the conversations that remains in the same state more than the default configured time. These conversation become eligible for auto-closure, and next time, when the scheduler runs, these conversations are automatically moved from the existing state to the **Closed** state.
+The Omnichannel for Customer Service application checks the conversations every 24 hours to identify the conversations that remains in the same state more than the default configured time. These conversation become eligible for auto-closure, and next time, when the scheduler runs, these conversations are moved from the existing state to the **Closed** state.
 
 ### Default time for automatic closure of conversation
 
-The conversations coming from different channel has different scenarios and hence different default configured time. The matrix describes the channel, state, and default configured time.
+The conversations coming from different channel has different scenarios and hence different default configured time. 
+Administrator can change the default configured time as per the business requirement programmatically. To learn more, see [Set default time using APIs](#set-default-time-using-apis)
+
+The matrix describes the channel, state, and default configured time. 
 
  | Channel | Existing state | Default configured time | Description |
  |--------------------|-------|-------------|--------------------------------------|
- | Chat | Open |  20 min   | For a chat channel, a conversation in the **Open** state for more than 20 minutes is eligible for auto-closure. Next time, when the scheduler runs, the conversation automatically moved from the **Open** state to the **Closed** state. |
+ | Chat | Open |  20 min   | For a chat channel, a conversation in the **Open** state for more than 20 minutes is eligible for auto-closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
  | Chat | Active | None | For a chat channel, a conversation in the Active won’t be automatically closed. |
- | Chat | Wrap-up | 15 minutes | For a chat channel, a conversation in the **Wrap-up** state for more than 15 minutes is eligible for auto-closure. Next time, when the scheduler runs, the conversation automatically moved from the **Wrap-up** state to the **Closed** state. |
+ | Chat | Wrap-up | 15 minutes | For a chat channel, a conversation in the **Wrap-up** state for more than 15 minutes is eligible for auto-closure. Next time, when the scheduler runs, the conversation will be moved from the **Wrap-up** state to the **Closed** state. |
  |  |  |  |  |
  | Entity records (Case) | Open | None | For an entity channel, a conversation in the **Open** won’t be automatically closed. |
  | Entity records (Case) | Active | None | For an entity channel, a conversation in the **Active** state won’t be automatically closed. |
  |  |  |  |  |
- | SMS | Open | 30 days | For a SMS channel, a conversation in the **Open** state for more than 30 days is eligible for auto-closure. Next time, when the scheduler runs, the conversation automatically moved from the **Open** state to the **Closed** state. |
- | SMS | Active | 30 days | For a SMS channel, a conversation in the **Active** state for more than 30 days is eligible for auto-closure. Next time, when the scheduler runs, the conversation automatically moved from the **Active** state to the **Closed** state. |
- | SMS | Wrap-up | 1 day | For a SMS channel, a conversation in the **Wrap-up** state for more than 1 day is eligible for auto-closure. Next time, when the scheduler runs, the conversation automatically moved from the **Wrap-up** state to the **Closed** state. |
+ | SMS | Open | 30 days | For a SMS channel, a conversation in the **Open** state for more than 30 days is eligible for auto-closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
+ | SMS | Active | 30 days | For a SMS channel, a conversation in the **Active** state for more than 30 days is eligible for auto-closure. Next time, when the scheduler runs, the conversation will be moved from the **Active** state to the **Closed** state. |
+ | SMS | Wrap-up | 1 day | For a SMS channel, a conversation in the **Wrap-up** state for more than 1 day is eligible for auto-closure. Next time, when the scheduler runs, the conversation will be moved from the **Wrap-up** state to the **Closed** state. |
 
 **Example**
 
