@@ -66,7 +66,7 @@ When a customer initiates a conversation, the following happens:
 
 
 ## See also
-<a href="https://go.microsoft.com/fwlink/p/?linkid=2114717" data-raw-source="[Skill-based routing in Dynamics 365 Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114717)">Skill-based routing in Dynamics 365 Omnichannel for Customer Service</a>
+[Video: Overview of skill-based routing in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114717)
 
 [Enable skill-based routing and create rating model](enable-skill-routing-create-rating-model.md)
 
