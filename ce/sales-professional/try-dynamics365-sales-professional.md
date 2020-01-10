@@ -1,12 +1,10 @@
 ---
 title: "Sign up for a free trial of Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Learn how to sign up for a free trial of Dynamics 365 Sales Professional."
-keywords: "try, trial, free, Dynamics 365 Sales, admin"
 ms.date: 10/30/2019
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-ms.assetid: d0b1cfa2-9963-f436-dbe0-d2fbe2cd4a1a
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -20,9 +18,9 @@ Sales Professional trials are fully functional, but limited to 30 days. Each Sal
 
 Dynamics 365 Sales Professional is a cloud-based application that runs on a Microsoft 365 tenant*. Your tenant hosts your cloud applications (including Office 365 and Dynamics 365), provides user and license management, and more. The procedure for setting up your trial depends on whether you already have a *managed* tenant (a tenant where Azure Active Directory is available), an unmanaged tenant, or no tenant at all.
 
-- \*If you already have a managed tenant, you can sign up for the Dynamics Sales Professional trial by following the instructions in the section [Installation steps when you belong to an existing Microsoft 365 tenant](#installation-steps-when-you-belong-to-an-existing-microsoft-365-tenant).
+- \*If you already have a managed tenant, you can sign up for the Dynamics 365 Sales Professional trial by following the instructions in the section [Installation steps when you belong to an existing Microsoft 365 tenant](#installation-steps-when-you-belong-to-an-existing-microsoft-365-tenant).
 
-- If you don’t have a Microsoft 365 tenant, you can sign up for the Dynamics Sales Professional trial by following the instructions in the section [Installation steps when you don't belong to an existing tenant](#installation-steps-when-you-dont-belong-to-an-existing-microsoft-365-tenant).
+- If you don’t have a Microsoft 365 tenant, you can sign up for the Dynamics 365 Sales Professional trial by following the instructions in the section [Installation steps when you don't belong to an existing tenant](#installation-steps-when-you-dont-belong-to-an-existing-microsoft-365-tenant).
 
 -  *If you already have an unmanaged tenant and prefer to continue using it*, then you must first convert it to a managed tenant. For more information, see [Take over an unmanaged directory as administrator in Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=866761). Then continue with the steps in the section [Installation steps when you belong to an existing Microsoft 365 tenant](#installation-steps-when-you-belong-to-an-existing-microsoft-365-tenant).
 
