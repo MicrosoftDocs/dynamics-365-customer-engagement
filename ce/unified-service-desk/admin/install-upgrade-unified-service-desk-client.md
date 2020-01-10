@@ -18,6 +18,7 @@ search.app:
   - D365USD
 tags: MigrationHO
 ---
+
 # Installing the Unified Service Desk client
 
 Make sure your computer meets all requirements before you install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Service Desk system requirements](../../unified-service-desk/admin/unified-service-desk-system-requirements.md)
@@ -115,7 +116,7 @@ SetupUnifiedServiceDesk.exe uninstall
   
 <a name="BKMK_USDNext"></a>   
 ## Next Step  
- Deploy the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample packages on the Common Data Service platform. For more information, see [Deploy Unified Service Desk packages to a Common Data Service platform using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
+ Deploy the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample packages on Common Data Service. For more information, see [Deploy Unified Service Desk packages to a Common Data Service platform using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
   
 <a name="knownissues"></a>   
 ## Known issues  

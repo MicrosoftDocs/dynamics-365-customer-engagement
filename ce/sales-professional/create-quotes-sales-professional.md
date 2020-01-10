@@ -1,14 +1,12 @@
 ---
 title: "Create and manage quotes in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Use quotes in Dynamics 365 Sales Professional to make formal offers for products with proposed prices to customers."
-keywords: ""
 ms.date: 12/12/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: f659c86c-eca1-a87b-8101-687a60c5ba9f
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -22,7 +20,7 @@ If you’ve created your quote from an opportunity, you might have already added
 
 You’ll probably edit a quote multiple times as a sale progresses. Initially, you create a draft, and then you need to activate it when it’s ready to go to a customer.
 
-When the customer accepts the quote, you create an order. Otherwise, you close the quote as revised, canceled, or lost.
+When the customer accepts the quote, and you are ready to ship the products, you create an invoice. Otherwise, you close the quote as revised, canceled, or lost.
 
 ## Create a quote from an opportunity
 
@@ -34,7 +32,8 @@ When the customer accepts the quote, you create an order. Otherwise, you close t
 
     The Quote form opens.
 
-    ![Quote form with data from opportunity](media/quote-form-opportunity-data.png "Quote form with data from opportunity")
+    > [!div class="mx-imgBorder"]
+    > ![Quote form with data from opportunity](media/quote-form-opportunity-data.png "Quote form with data from opportunity")
 
 4.  Enter shipping and payment information in the **Shipping Information** area of the **Quote** screen.
 
@@ -57,7 +56,8 @@ When the customer accepts the quote, you create an order. Otherwise, you close t
 
     The Quote form opens.
 
-    ![Quote form](media/empty-quote-form.png "Quote form")
+    > [!div class="mx-imgBorder"]
+    > ![Quote form](media/empty-quote-form.png "Quote form")
 
 3.  Add your quote information.
 

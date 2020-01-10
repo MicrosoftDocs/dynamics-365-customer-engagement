@@ -1,9 +1,9 @@
 ---
-title: "Schedule anything with Universal Resource Scheduling (Dynamics 365) | MicrosoftDocs"
+title: "Overview of Resource Scheduling (Dynamics 365) | MicrosoftDocs"
 ms.custom: 
   - dyn365-projectservice
   - dyn365-fieldservice
-ms.date: 10/09/2019
+ms.date: 01/03/2020
 searchScope: 
   - Customer Service
   - Field Service
@@ -29,9 +29,9 @@ search.app:
   - D365PS
   - D365FS
 ---
-# Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)
+# Overview of Resource Scheduling in Dynamics 365
 
-Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can enable scheduling for any entity including custom entities.   
+Schedule anything in Dynamics 365 using Resource Scheduling (RS). You can enable scheduling for any entity in Dynamics 365 Sales, Field Service, Customer Service, and Project Service Automation, including custom entities.   
   
 For organizations that use:
 
@@ -42,18 +42,18 @@ For organizations that use:
 - Dynamics 365 Project Service Automation, you can use scheduling tools to staff projects with consultants who have availability and the appropriate skillset. More information: [Dynamics 365 Project Service Automation Help](../project-service/overview.md) 
     
 ## Prerequisites  
- Before you can use Universal Resource Scheduling, make sure you have:  
+ Before you can use Resource Scheduling, make sure you have:  
   
 - Dynamics 365 Field Service, Project Service, *or* Customer Service.
   
-- A license for Universal Resource Scheduling. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboard your organization and users to Dynamics 365 (online)](../admin/onboard-your-organization-and-users-to-dynamics-365-online.md)  
+- A license for Resource Scheduling. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboard your organization and users to Dynamics 365 (online)](../admin/onboard-your-organization-and-users-to-dynamics-365-online.md)  
   
-- User credentials with the Universal Resource Scheduling security role, in order to manage the solution once it has been deployed.
+- User credentials with the Resource Scheduling security role, in order to manage the solution once it has been deployed.
   
 ## Enable scheduling for an entity  
  When scheduling is enabled for an entity, the system creates a resource requirement record for the entity. This way, when you create a resource requirement, the system automatically checks which entity the resource requirement is for.  
   
-1.  From the main menu, click **Resources Scheduling** > **Administration**.  
+1.  From the main menu, click **Resource Scheduling** > **Administration**.  
   
 2.  Click **Enable Resource Scheduling for Entities**.  
   
@@ -80,7 +80,7 @@ For organizations that use:
   
 ## Edit or turn off scheduling for an entity  
   
-1.  From the main menu, click **Resources Scheduling** > **Administration** > **Enable Schedulable for Entities**.  
+1.  From the main menu, click **Resource Scheduling** > **Administration** > **Enable Schedulable for Entities**.  
   
 2.  From the list of **Enable Entities**, double click on the entity that you want to edit.  
   

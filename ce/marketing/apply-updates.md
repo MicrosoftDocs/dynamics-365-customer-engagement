@@ -48,7 +48,7 @@ When you install Dynamics 365 Marketing, all its solutions are installed by the 
 
 ## Find out when new updates are available
 
-Microsoft releases updates to Dynamics 365 Marketing each month or so, with a major refresh every six months or so. We announce monthly updates (and other news) on the [Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/tag/dynamics-365-for-marketing-kb-articles/), where we identify each update by the month or season in which it became available. Future directions and major releases are furthermore described on the [Dynamics 365 and Power Platform Release Plans](https://docs.microsoft.com/business-applications-release-notes/index) website.
+Microsoft releases updates to Dynamics 365 Marketing each month or so, with a major refresh every six months. We announce monthly updates (and other news) in the [What's new in Dynamics 365 Marketing](whats-new-marketing.md) topic, where we also summarize all the new features and bug fixes included with each release. Future directions and major releases are furthermore described on the [Dynamics 365 and Power Platform Release Plans](https://docs.microsoft.com/business-applications-release-notes/index) website.
 
 You can also find out when an update is available by checking the status of your apps and solutions in the Dynamics 365 admin center, as described in the following sections.
 

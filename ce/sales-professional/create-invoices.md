@@ -1,14 +1,12 @@
 ---
 title: "Create and manage invoices in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Bill your customers for upcoming sales by using invoices in Dynamics 365 Sales Professional."
-keywords: ""
 ms.date: 12/03/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: a25855fe-71b2-82ff-af93-846ce6d7c347
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -16,9 +14,8 @@ manager: annbe
 
 # Create and manage invoices in Dynamics 365 Sales Professional
 
-When a customer places an order, you can create an invoice in Dynamics 365 Sales Professional to bill them for the upcoming sale.
-
-Typically, you convert an order into an invoice; however, you can also create an invoice that does not originate from an order.
+Once your customer accepts a quote, you can create an invoice in Dynamics 365 Sales Professional to bill them for the upcoming sale.
+You can also create an invoice that doesn’t generate from a quote.
 
 ## Create an invoice from a quote
 
@@ -30,7 +27,8 @@ Typically, you convert an order into an invoice; however, you can also create an
 
     The Invoice form opens.
 
-    ![Invoice form populated with data from opportunity and quote](media/invoice-populated-form.png "Invoice form populated with data from opportunity and quote")
+    > [!div class="mx-imgBorder"]
+    > ![Invoice form populated with data from opportunity and quote](media/invoice-populated-form.png "Invoice form populated with data from opportunity and quote")
 
     > [!IMPORTANT]
     > If Dynamics 365 Sales is integrated with an external order processing application, you may see the **Submit Order** button instead of the **Create Invoice** button on the Order form command bar. This is because the integration allows an order created in Dynamics 365 Sales to be submitted, after which it is synchronized with the order processing app where the lifecycle of the order continues. A submitted order is locked for editing in Dynamics 365 Sales, except by an integration user. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)
@@ -45,22 +43,23 @@ Typically, you convert an order into an invoice; however, you can also create an
 
     The Invoice form opens.
 
-    ![Invoice form](media/empty-invoice-form.png "Invoice form")
+    > [!div class="mx-imgBorder"]
+    > ![Invoice form](media/empty-invoice-form.png "Invoice form")
 
 3.  Add the invoice details.
 
-4.  In the **Sales Information** section, select the customer you’re creating this invoice for. If the record doesn’t already exist, you can create a new
-    one.
+4.  In the **Sales Information** section, select the customer you’re creating this invoice for. If the record doesn’t already exist, you can create a new one.
 
 5.  Select **Save** at the top left to create the invoice record.
 
 6.  To add products from your opportunity to your order, choose **Get Products** at the top of the screen, select your opportunity, and select **OK**.
 
-    OR
+    \-OR-
 
     In the **Products** section, select the **More Commands** icon, and then select **Add New Invoice Products**.
 
-    ![Add New Invoice Products menu option](media/add-new-invoice-products-menu-option.png "Add New Invoice Products menu option")
+    > [!div class="mx-imgBorder"]
+    > ![Add New Invoice Products menu option](media/add-new-invoice-products-menu-option.png "Add New Invoice Products menu option")
 
 
 7.  In the **Quick Create: Invoice Product** form, enter the details:
@@ -73,20 +72,17 @@ Typically, you convert an order into an invoice; however, you can also create an
 
     2.  Fill in details in the **Pricing** section:
 
-        1.  Toggle the **Pricing** button to indicate whether you want to use the default pricing that is listed in the product catalog or
-            override the price. For a write-in product, this field is set to **Override** Price.
+        1.  Toggle the **Pricing** button to indicate whether you want to use the default pricing that is listed in the product catalog or override the price. For a write-in product, this field is set to **Override** Price.
 
         2.  If you’re adding a write-in product, in **Price Per Unit**, enter the price to be charged per unit for the product.
 
         3.  Enter the quantity of the product or service that will be included.
 
-        4.  If you want to offer a discount to the product price, enter it in
-            **Manual Discount**.
+        4.  If you want to offer a discount to the product price, enter it in **Manual Discount**.
 
         5.  If required, enter the appropriate tax amount. You need to enter the tax amount when you add a product to a quote,
             order, or invoice. Dynamics 365 Sales Professional doesn’t automatically calculate tax for individual products. However, the
-            total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or
-            invoice.
+            total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or invoice.
 
 2.  Select **Save and Close**.
 
@@ -100,7 +96,7 @@ To lock a price:
 
 2.  To lock the price, on the command bar, select **Lock Pricing**. 
 
-    -OR-
+    \-OR-
 
     To use the price of a product from the product catalog, select **Use Current Pricing**.  
 

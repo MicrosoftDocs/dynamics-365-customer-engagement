@@ -1,5 +1,5 @@
 ---
-title: "Pre-requisites and system requirements of Omnichannel for Customer Service | MicrosoftDocs"
+title: "Prerequisites and system requirements of Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the system requirements of Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
@@ -14,27 +14,27 @@ ms.custom:
   - ""
 ---
 
-# Pre-requisites and system requirements of Omnichannel for Customer Service
+# Prerequisites and system requirements of Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This topic provides information about the pre-requisites and system requirements for deploying Omnichannel for Customer Service on your organization.
+This topic provides information about the prerequisites and system requirements for deploying Omnichannel for Customer Service in your organization.
 
-You can deploy Omnichannel for Customer Service solution over a Customer Service application and experience it through the following ways:
+You can deploy Omnichannel for Customer Service over a Customer Service application and experience it in the following ways:
 
 - Unified Service Desk client application
 
-- Omnichannel for Customer Service app - Web experience on Unified Interface application.
+- Omnichannel for Customer Service app - Web experience on Unified Interface application
 
 ## Prerequisites
 
-This section explains the pre-requisites for using Omnichannel for Customer Service.
+This section explains the prerequisites for using Omnichannel for Customer Service.
 
 ### Licensing
 
-- You must have an active subscription of Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each Chat user.
+- You must have an active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each Chat user.
 
-- You must have an active subscription of Chat for Dynamics 365 Customer Service.
+- You must have an active subscription to Chat for Dynamics 365 Customer Service.
 
 - Use of historical Supervisor reporting through **Omnichannel Intraday Insights**, **Omnichannel Chat Insights**, and **Omnichannel Sentiment Insights Dashboards** also requires Power BI Pro license or higher for each individual in a Supervisor role.
 
@@ -42,30 +42,30 @@ This section explains the pre-requisites for using Omnichannel for Customer Serv
 
 | Area | Requirements | 
 |----------|----------|
-| Model-driven app | Dynamics 365 Customer Service app version 9.1.0000.3653 and a higher version |
+| Model-driven app | Dynamics 365 Customer Service app version 9.1.0000.3653 or higher  |
 | Web browsers | Supported browsers are: <li>Microsoft Edge</li><li>Google Chrome</li> |
 
-For hardware and other requirements, see [Model-driven app requirements](../admin/online-requirements.md)
+For hardware and other requirements, see [Model-driven app requirements](../admin/online-requirements.md).
 
 ## System and hardware requirements of Omnichannel for Customer Service with Unified Service Desk
 
-You require the following to use Omnichannel for Customer Service with Unified Service Desk:
+You will need the following to use Omnichannel for Customer Service with Unified Service Desk:
 
 | Area | Requirements | 
 |----------|----------|
 | Desktop application | Unified Service Desk 4.1.1.1253 and higher version <br><br>More information: [Download Unified Service Desk](administrator/omnichannel-customer-service-unified-service-desk.md#download-unified-service-desk-client-application)|
-| Model-driven app |Dynamics 365 Customer Service app version 9.1.0000.3653 and a higher version<br><br> **Note:** We recommend you to use a new production Dynamics 365 Customer Service instance to use Omnichannel for Customer Service on Unified Service Desk. |
+| Model-driven app |Dynamics 365 Customer Service app version 9.1.0000.3653 and a higher version<br><br> **Note:** We recommend you use a new production Dynamics 365 Customer Service instance to use Omnichannel for Customer Service on Unified Service Desk. |
 | Hosting Types | Supported hosting types are: <li>Chrome Process</li> <li>IE Process</li> <br> To learn more about the hosting types, see [Configure recommended settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md). |
 | Operating system |<li>For Microsoft Edge - Windows 10 (October 2018 release and a higher version)</li><li>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7 Service Pack 1 (SP1)</li>|
 | Memory (Hardware) | ^8-GB RAM or more |
 
-^The memory requirement is for out-of-the-box solution. Evaluate the requirements when creating complex configurations to the Unified Service Desk - Omnichannel for Customer Service solution or when using other line-of-business applications with Unified Service Desk.
+^The memory requirement is for out-of-the-box solutions. Evaluate the requirements when creating complex configurations to the Unified Service Desk - Omnichannel for Customer Service solution or when using other line-of-business applications with Unified Service Desk.
 
-For other hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements](/dynamics365/customer-engagement/unified-service-desk/admin/unified-service-desk-system-requirements)
+For other hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements](/dynamics365/unified-service-desk/admin/unified-service-desk-system-requirements).
 
 ## International availability
 
-Currently, **Chat for Dynamics 365 Customer Service** and **Dynamics 365 for Digital Messaging** are available in the following regions:
+Currently, **Chat for Dynamics 365 Customer Service** and **Dynamics 365 for Digital Messaging** are available in the following countries or regions:
 
 - North America 
 - Europe
@@ -73,10 +73,10 @@ Currently, **Chat for Dynamics 365 Customer Service** and **Dynamics 365 for Dig
 - United Kingdom
 - Government Cloud Computing (GCC)
 - Australia
-- Asia pacific
+- Asia Pacific
 - South America
 
-For the service to work, your tenant and organization have to be co-located in one of these regions.
+For the service to work, your tenant and organization have to be co-located in one of these countries or regions.
 
 ## Provision Omnichannel
 

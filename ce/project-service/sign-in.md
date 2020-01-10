@@ -3,7 +3,7 @@ title: Sign in to Project Service Automation
 description: How to sign in to Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-projectservice
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018
@@ -20,13 +20,15 @@ search.app:
   - D365CE
   - D365PS
 ---
+
+
 # Sign in to Project Service Automation
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-When you sign in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Dynamics 365 apps, you need to have the following information from your administrator:  
+When you sign in to Dynamics 365 apps, you need to have the following information from your administrator:  
   
-- URL for your organization’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system  
+- URL for your organization’s system  
   
 - Your user name  
   
@@ -43,7 +45,7 @@ When you sign in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] 
   
 3.  Click the **Email** tab.  
   
-4.  Select **Allow other Microsoft Dynamics 365 for Customer Engagement users to send email on your behalf**.  
+4.  Select **Allow other Microsoft Dynamics 365 users to send email on your behalf**.  
   
 5.  Click **OK**.  
   

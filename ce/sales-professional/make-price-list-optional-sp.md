@@ -28,7 +28,8 @@ When adding products to opportunities, quotes, orders, or invoices, at times, sa
 
 4.  In the **System Settings dialog** box, on the **Sales** tab, set the **Make price lists optional** field to **Yes**.
 
-    ![Option to make selection of price list optional](../sales-enterprise/media/make-price-list-optional.png "Option to make selection of price list optional")
+    > [!div class="mx-imgBorder"]
+    > ![Option to make selection of price list optional](../sales-enterprise/media/make-price-list-optional.png "Option to make selection of price list optional")
 
 ### See also
 [Add products to an opportunity](add-products-opportunity-sp.md)  

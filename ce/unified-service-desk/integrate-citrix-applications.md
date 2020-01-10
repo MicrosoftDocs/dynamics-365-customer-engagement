@@ -3,7 +3,7 @@ title: "Integrate with Citrix applications in Unified Service Desk | MicrosoftDo
 description: "The topic explains the integration with Citrix application in Unified service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
+ms.date: 12/31/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article
@@ -51,11 +51,11 @@ Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with
 <a name="ConfRemoteHosted"></a>   
 ### Configure a Remote Hosted Application  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Hosted Controls** under **Basic Settings**.
   
-3. Select **Hosted Controls**, and then select **New**. The **New Hosted Control** page is displayed.
+3. Select **+ New**.
   
 4. Specify the following in the **General** tab of the **New Hosted Control** page.
 
@@ -202,5 +202,7 @@ Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with
 
 ### See also
  [UII hosted applications](../unified-service-desk/uii-hosted-applications.md)
+
  [Create and manage UII hosted applications](../unified-service-desk/create-manage-uii-hosted-applications.md)
+ 
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)

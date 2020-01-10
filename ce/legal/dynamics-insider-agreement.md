@@ -13,7 +13,7 @@ ms.assetid: 445E87AC-42EA-4FD2-852E-281AEFC2AB18
 ms.custom: 
 ---
 
-**Microsoft Dynamics Insider Program Agreement**
+# Microsoft Dynamics Insider Program Agreement
 
 **Last Updated: April 2018**
 

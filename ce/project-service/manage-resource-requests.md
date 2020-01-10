@@ -3,7 +3,7 @@ title: Manage resource requests
 description: How to manage resource requests in Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-project service
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018
@@ -20,13 +20,15 @@ search.app:
   - D365CE
   - D365PS
 ---
+
+
 # Manage resource requests (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Account managers and project managers regularly request resources for their projects. With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement, you can find and match consultants who have the required skills and proficiencies to those resource requests.  
+Account managers and project managers regularly request resources for their projects. With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities, you can find and match consultants who have the required skills and proficiencies to those resource requests.  
   
-1. Go to **Project Service > Resource Requests**.  
+1. Go to **Project Service** > **Resource Requests**.  
   
 2. Select a resource request and click **Find Resources**. This shows a calendar view of all resources and their availability, with color coding that provides a visual view of a resource’s booking status.  
   
@@ -38,7 +40,7 @@ Account managers and project managers regularly request resources for their proj
   
    -   Click **Filter** to display the **Filter** pane, which lets you filter your results by organizational unit, role, skill, or other attributes.  
   
-   ![ProjectService&#95;ResourceRequestScreen](../project-service/media/project-service-resource-request-screen.png "ProjectService_ResourceRequestScreen")  
+       ![Project Service Resource Request screen](../project-service/media/project-service-resource-request-screen.png "Project Service Resource Request screen")  
   
 3. In the calendar for the resource you want to book, select the time period to book the resource, and then either click **Book** to book the resource or **Propose Booking** to propose the booking and have the requestor approve it. When you book a resource, you can soft book or hard book.  
   

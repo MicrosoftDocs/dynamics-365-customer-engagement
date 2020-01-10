@@ -1,9 +1,9 @@
 ---
-title: MICROSOFT SOFTWARE LICENSE TERMS MICROSOFT DYNAMICS 365 FOR WINDOWS PROJECT FINDER MOBILE FOR MICROSOFT DYNAMICS 365 FOR WINDOWS
-author: brycho
+title: Microsoft Software License Terms Project Finder Mobile for Microsoft Dynamics 365 for Windows 
+author: kfend
 ---
 
-MICROSOFT SOFTWARE LICENSE TERMS<br>MICROSOFT DYNAMICS 365 FOR WINDOWS<br>PROJECT FINDER MOBILE FOR MICROSOFT DYNAMICS 365 FOR WINDOWS
+# Microsoft Software License Terms<br>Project Finder Mobile for Microsoft Dynamics 365 for Windows
 ======================================================================================================================================
 
 These license terms are an agreement between you and Microsoft Corporation (or
@@ -22,9 +22,9 @@ HAVE THE RIGHTS BELOW. BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS.
 >   with the Microsoft account associated with your Windows Store account for
 >   your use solely with the following Microsoft applications or services:
 > 
-> >   • Microsoft Dynamics CRM; or
+> >   • Microsoft Dynamics 365 for phones and Microsoft Dynamics 365 for tablets apps that support model-driven apps, such as Dynamics 365 Sales and Dynamics 365 Customer Service, built on Common Data Service 
 > > 
-> >   • Microsoft Dynamics 365 for Customer Engagement.
+> >   • Microsoft Dynamics 365 Customer Engagement (on-premises)
 > 
 >   **b. Third Party Programs.** The software may include third party programs
 >   that Microsoft, not the third party, licenses to you under this agreement.

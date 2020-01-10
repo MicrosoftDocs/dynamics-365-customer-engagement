@@ -25,8 +25,7 @@ Dynamics 365 Sales Professional uses server-side synchronization to synchronize 
 
 Using server-side synchronization makes messaging data available to a web browser, tablet, or smartphone that is running Dynamics 365 Sales Professional.
 
-Server-side synchronization provides direct Dynamics 365 Sales Professional-to-email server synchronization. When you use Microsoft Exchange, you can
-synchronize email, contacts, tasks, and appointments.
+Server-side synchronization provides direct Dynamics 365 Sales Professional-to-email server synchronization. When you use Microsoft Exchange, you can synchronize email, contacts, tasks, and appointments.
 
 Some features offered by server-side synchronization include the following: 
 
@@ -54,7 +53,8 @@ instances](https://go.microsoft.com/fwlink/?linkid=730725).
 
 3.  If you don’t have an Office 365 subscription, you’ll be prompted to purchase one. Select the link to purchase an Office 365 subscription.
 
-    ![Link to sign up for Microsoft Exchange](media/get-microsoft-exchange.png "Link to sign up for Microsoft Exchange")
+    > [!div class="mx-imgBorder"]
+    > ![Link to sign up for Microsoft Exchange](media/get-microsoft-exchange.png "Link to sign up for Microsoft Exchange")
 
 4.  After you purchase a subscription, go to **Set up email**. This time, Exchange is automatically detected and configured in the background.
 
@@ -77,7 +77,8 @@ instances](https://go.microsoft.com/fwlink/?linkid=730725).
 
 6. The mailboxes will be in the **Not Run** state initially. Select **Approve and Test mailboxes** to test the mailboxes and approve them.  
 
-    ![Button to configure Exchange](media/button-configure-exchange.png "Button to configure Exchange")
+    > [!div class="mx-imgBorder"]
+    > ![Button to configure Exchange](media/button-configure-exchange.png "Button to configure Exchange")
 
     > [!Note]
     > If an error occurs in a mailbox, an alert is sent to the user of the mailbox. You can also see the alert when you open the mailbox record. The **Test Run Status** column is set to **Failure** for the mailbox. Select the **Approve and test mailboxes** button to test and approve the mailboxes.

@@ -3,7 +3,7 @@ title: "Standard Web Application (Hosted Control) in Unified Service Desk | Micr
 description: "Learn about Standard Web Application type of hosted control in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
+ms.date: 12/31/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article
@@ -31,11 +31,11 @@ The **Standard Web Application** hosted control type is similar to the **CRM Pag
 
  In the **New Hosted Control** screen:  
 
-- Under **Unified Service Desk** area, select **Standard Web Application** from the **USD Component Type** drop-down list.  
+- Under **Unified Service Desk** area, select **Standard Web Application** from the **Unified Service Desk Component Type** drop-down list.  
 
 - From the **Allow Multiple Pages** drop-down list, select **Yes** to automatically create a drop-down list when a second URL is called or a window navigation rule directs a page to the tab. This will allow the user to quickly search between the pages that are attached to this control. If you select **No**, when [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] receives a navigate action call or a page is routed to the tab, it will replace the page that is currently displayed and update the browser history.  
 
-- The **Hosting Type** drop-down list specifies how you want this control to be hosted. You can choose **IE Process** default or **Internal WPF**. For more information, see [Select a hosting method for hosted controls](../unified-service-desk/select-hosting-method-controls.md).  
+- The **Hosting Type** drop-down list specifies how you want this control to be hosted. You can choose **Chrome Process** default or **Internal WPF**. For more information, see [Select a hosting method for hosted controls](../unified-service-desk/select-hosting-method-controls.md).  
 
 - Under the **Common Properties** area, select the **Application is Global** check box to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall or search are common uses for global hosted controls. Global hosted controls do not have session-specific state so when you change sessions, these same global hosted controls remain. If the check box is not selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.  
 
@@ -59,10 +59,10 @@ The **Standard Web Application** hosted control type is similar to the **CRM Pag
  All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](../unified-service-desk/create-user-defined-event.md).  
 
 ### GoBack  
- This action is equivalent to clicking the back button on the browser instance.  
+ This action is equivalent to selecting the back button on the browser instance.  
 
 ### GoForward  
- This action is equivalent to clicking the forward button on the browser instance.  
+ This action is equivalent to selecting the forward button on the browser instance.  
 
 ### GoHome  
  This action goes to the initial URL specified for this browser instance.  
