@@ -80,9 +80,22 @@ Sometimes it is necessary to create a URL link to a specific schedule board tab 
 
 First get the GUID for the specific schedule board tab you want to link to.
 
-Then copy and paste the GUID into the template link below.
+A GUID is a 32 digit number in the format XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX and each record in Dynamics 365 has a GUID as a unique identifier, including schedule baord tabs.
 
-https://jcc12.crm.dynamics.com/webresources/msdyn_/fps/ScheduleBoard/scheduleboard.html?#tab=AE595A88-A57C-E911-A95A-000D3A3B9A2B 
+You can find the GUID of a schedule board tab with an advanced find of the **Schedule Board Settings** entity. Select the record that corresponds with the scheduel baord tab you want to share and use the "Email a link" button to get the GUID.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of choosing users and teams to share the schedule board with](../../field-service/media/scheduling-link-sb-get-link.png)
+
+Lastly, copy and paste the GUID into the template link below.
+
+    https://[dynamics org name].crm.dynamics.com/webresources/msdyn_/fps/ScheduleBoard/scheduleboard.html?#tab=[32 digit GUID].
+
+Below is an example of an acceptable URL to a specific schedule board tab.
+
+https://fieldservice.crm.dynamics.com/webresources/msdyn_/fps/ScheduleBoard/scheduleboard.html?#tab=AE595A88-A57C-E911-A95A-000D3A3B9A2B
+
+Then test the link by entering it into a browser. People who click the link will have to log in with Dynamics 365 Field Service credentials.
 
 ## Additional notes
 
