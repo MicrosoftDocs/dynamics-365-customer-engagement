@@ -64,9 +64,14 @@ When a customer initiates a conversation, the following happens:
 - [Step 5: Assign agents to skill](setup-skills-assign-agents.md#assign-agents-to-skill)
 - [Step 6: Create rules to attach skill](attach-skills.md#create-rules-to-attach-a-skill)
 
+## Videos
+
+[Video: Overview of skill-based routing in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114717)
+
+To view more videos on Omnichannel for Customer Service, see [Videos](../videos.md).
+
 
 ## See also
-[Video: Overview of skill-based routing in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114717)
 
 [Enable skill-based routing and create rating model](enable-skill-routing-create-rating-model.md)
 
