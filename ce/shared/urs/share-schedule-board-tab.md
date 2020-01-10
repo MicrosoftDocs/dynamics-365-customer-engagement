@@ -74,6 +74,16 @@ Finally, use the pop up screen to add users and teams to share the schedule boar
 > [!div class="mx-imgBorder"]
 > ![Screenshot of choosing users and teams to share the schedule board with](../../field-service/media/schedule-board-share-permissions.png)
 
+## Link to specific schedule board
+
+Sometimes it is necessary to create a URL link to a specific schedule board tab that dispatchers can use as a browser shortcut, to share with teammates and managers, and to reduce the load time by not having to load the entire board.
+
+First get the GUID for the specific schedule board tab you want to link to.
+
+Then copy and paste the GUID into the template link below.
+
+https://jcc12.crm.dynamics.com/webresources/msdyn_/fps/ScheduleBoard/scheduleboard.html?#tab=AE595A88-A57C-E911-A95A-000D3A3B9A2B 
+
 ## Additional notes
 
 - Even if a schedule board tab is shared with a specific user, that user must have the minimum user permissions on the **Schedule Board Settings entity** to view it. Minimum permissions are included with the **Field Service - Administrator**, **Field Service - Dispatcher**, and **Field Service - Resource** security roles.
