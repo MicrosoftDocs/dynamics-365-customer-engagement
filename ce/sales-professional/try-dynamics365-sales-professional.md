@@ -114,7 +114,7 @@ Dynamics 365 Sales Professional is a cloud-based application that runs on a Micr
     > [!div class="mx-imgBorder"]
     > ![Enter phone verification code](media/admin-trial-setup-verification-code.png "Enter phone verification code")
 
-9. While your tenant and user account are being created, you'll see the sign-in page URL and your user ID. Make a note of these because you will need them later to sign in to your trial.  
+9. While your tenant and user account are being created, you'll see the sign-in page URL and your user ID. Make a note of these details because you will need them later to sign in to your trial.  
 
     > [!div class="mx-imgBorder"]
     > ![Save your sign-in information](media/admin-trial-setup-save-details.png "Save your sign-in information")
