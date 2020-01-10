@@ -66,7 +66,7 @@ Omnichannel system supports the following slugs.
     |---------|--------------------|-----------------------------------------------|--------------------|
     | General | Name | Specify the name for the notification. This name wouldn't be visible for the agents at the run-time. | Authenticated chat notification |
     | General | Title | Provide a title to the notification that you want the agents to see at the run-time. | Incoming chat conversation |
-    | General | Theme | Dark |Select a theme from the list. You can choose dark or light theme. <br><br> **Note:** Dark is the default value. To learn more, see [Set theme for notification](#set-theme-for-notification) |
+    | General | Theme | Dark |Select a theme from the list. You can choose dark or light theme. <br><br> **Note:** Dark is the default value. To learn more, see [Set theme for notification](#set-theme-for-notification). |
     | General | Icon | Select web resource path to add an icon. | /webresources/msdyn_chat_icon_zfp.svg <br><br> **Note:** This is the default value. You can change the icon as your requirement. |
     | General |Show timeout| Yes |Set **Yes** to show the timer in the notification, or **No** to hide the timer in the notification for the agents. <br><br> **Note:** <br> - Irrespective of whether you set **Yes** or **No** to show or to hide the timeout value for the agent, the timer runs, and after the timeout duration, the notification disappears. <br> - Yes is the default value.|
     | General | Timeout (seconds) | Provide a duration in seconds; after this duration, the notification disappears. | 120. <br><br> **Note:** This is the default value. You can change the duration as per your requirement.
@@ -150,7 +150,9 @@ As an administrator, you need to customize the notification template to show the
 |---------|--------------------|-----------------------------------------------|
 | General | Name | Customized case notification template |
 | General | Title | A new case is assigned |
+| General | Theme | Light |
 | General | Icon |/webresources/msdyn_chat_icon_zfp.svg <br><br> **Note:** This is the default value. |
+| General |Show timeout| No |
 | General | Timeout (seconds) | 120. <br><br> **Note:** This is the default value. |
 | General | Accept Button | Accept <br><br> **Note:** This is the default value.|
 | General | Reject Button | Reject <br><br> Set the toggle to yes to show the reject button to agents. <br> After you set the toggle to **Yes**, the button text box appears. <br><br> **Note:** This is the default value.|
