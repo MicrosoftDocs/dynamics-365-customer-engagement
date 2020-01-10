@@ -212,7 +212,7 @@ You can build the expression in the **Agent scripts** tab that is present in the
 4. Set the **Enable build expression** toggle to **Yes**, and then select the **Build Expression** button to start to define the expression. The **Expression builder** page is displayed.
 
     > [!div class=mx-imgBorder] 
-    > ![Clear display label](../media/agent-script-agent-script-build-expression.png "Clear display label")
+    > ![Clear display label](../media/agent-script-build-expression.png "Clear display label")
 
 5. Select the **Condition** step, create the condition. 
 
@@ -221,7 +221,7 @@ You can build the expression in the **Agent scripts** tab that is present in the
 7. Select the **Customer Service** tab, and then select the **Set default agent script** action.
 
     > [!div class=mx-imgBorder] 
-    > ![Clear display label](../media/agent-script-agent-script-build-expression2.png "Clear display label")
+    > ![Clear display label](../media/agent-script-build-expression2.png "Clear display label")
 
 8. Paste the agent script ID that you stored in the **Agent script ID** field. To learn how to retrieve the agent script, see [Get agent script id](#get-agent-script-id).
 
