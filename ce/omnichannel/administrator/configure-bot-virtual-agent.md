@@ -104,3 +104,6 @@ You understand that your data may be transmitted and shared with external system
 [Create and manage routing rules](routing-rules.md)<br>
 [Add a chat widget](add-chat-widget.md)<br>
 [Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)
+
+<a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2114716" data-raw-source-"[Power Virtual Agents integration](https://go.microsoft.com/fwlink/p/?linkid=2114716)"> Power Virtual Agents integration with Dynamics 365 Omnichannel for Customer Service</a>

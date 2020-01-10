@@ -57,3 +57,5 @@ Verify the following prerequisites before you use the supervisor dashboards:
 -  [View and understand Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
  
 -  [Monitor conversations](monitor-conversations.md)
+
+- <a href="https://go.microsoft.com/fwlink/p/?linkid=2099487" data-raw-source="[Supervisor Experience](https://go.microsoft.com/fwlink/p/?linkid=2099487)">Overview of Omnichannel supervisor experience in Dynamics 365 Customer Service </a>

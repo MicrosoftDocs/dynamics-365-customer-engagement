@@ -71,3 +71,4 @@ To learn more, see [multi-language sentiment](../../administrator/enable-sentime
 - [Search for and share knowledge articles](oc-search-knowledge-articles.md)
 - [Take notes specific to a conversation](oc-take-notes.md)
 - [View the customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+- <a href="https://go.microsoft.com/fwlink/p/?linkid=2114615" data-raw-source="[Real-time Sentiment Analysis](https://go.microsoft.com/fwlink/p/?linkid=2114615">Overview of Omnichannel real-time sentiment analysis in Dynamics 365 Customer Service </a>
