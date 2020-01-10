@@ -74,9 +74,16 @@ The details you’ll see for a SMS channel are:
 > [!div class="nextstepaction"]
 > [Next topic: View customer summary and know everything about customers](oc-customer-summary.md)
 
+## Incoming Facebook notification
+
+You receive a notification for a Facebook conversation request. When you accept the Facebook request, a session is started, and the communication panel appears where you can exchange messages with the customer.
+
+> [!div class=mx-imgBorder]
+> ![Facebook chat agent notification](../../media/fb-agent-notif.png "Facebook chat agent notification")
+
 ## Theme of the notification
 
-There are two themes for the notification - Dark and Light. You'll see the theme as configured by your admininstrator.
+There are two themes for the notification - Dark and Light. You'll see the theme as configured by your administrator.
 
 **Dark** and **Light** theme 
 
