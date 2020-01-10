@@ -179,13 +179,13 @@ Now, you can set default agent script for your agents who are handling different
 
 When your agents are serving different services, customers or products, you need way to show a script that is more appropriate according to the context of the customer and the agent. With agent script expression builder, you can define the conditions based on which the agents are shown a script as default in the Omnichannel for Customer Service app.
 
-When the accepts an incoming conversation, based on the conditions, the agent script control selects a script from the different scripts that is made available for that particular session type, and shows the script to the agent.
+When the agent accepts an incoming conversation, based on the conditions, the agent script control selects a script from the different scripts that is made available for that particular session type, and shows the script to the agent.
 
-Agent can still manually select a script from the list of available agent scripts.
+In addition, agent can manually select a script from the list of available agent scripts to switch between different scripts.
 
 ### Get agent script id
 
-Before you start to build the expression, keep the ID of the scripts that you want to make it default for the agents.
+Before you start to build the expression, keep the ID of the scripts that you want to set as default for your agents.
 To get the agent script ID, select an agent script ID, and from the URL, you can copy the agent script ID.
 
 For example, you've selected an agent script and the URL looks as follows:
@@ -194,7 +194,7 @@ For example, you've selected an agent script and the URL looks as follows:
 
 Here, the agent script ID is `fc4fa20e-982b-ea11-a810-000d3a579b35`. Store the ID so that while building the expression, you would need it.
 
-You need to store agent script IDs for each of the following scenarios:
+You need to retrieve and store the agent script IDs for each of the following scenarios:
 
 - When the condition is true.
 - When the condition is false.
@@ -209,14 +209,14 @@ You can build the expression in the **Agent scripts** tab that is present in the
 
 3. Select the **Agent scripts** tab.
 
-4. Set the **Enable build expression** toggle to **Yes**, and then select the **Build Expression** button to start to define the expression. The **Expression builder** page is displayed.
+4. Set the **Enable build expression** toggle to **Yes**, and then select the **Build Expression** button to define the expression. The **Expression builder** page is displayed.
 
     > [!div class=mx-imgBorder] 
     > ![Clear display label](../media/agent-script-build-expression.png "Clear display label")
 
-5. Select the **Condition** step, create the condition. 
+5. Select the **Condition** step, and then create the condition. 
 
-6. Select **Add an action** button in the **If true** step. The **Condition** step is displayed.
+6. Select the **Add an action** button in the **If true** step. The **Condition** step is displayed.
 
 7. Select the **Customer Service** tab, and then select the **Set default agent script** action.
 
