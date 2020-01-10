@@ -136,6 +136,12 @@ In Dynamics 365 Administration Center, go to the **Applications** tab, select th
 
 Once a channel is enabled in your organization, you can sign in to Dynamics 365 organization, and select the Omnichannel Administration application to start configuring the channel. More information on configuring channels in Omnichannel for Customer Service: [Configure a chat channel](administrator/set-up-chat-widget.md), [Configure an SMS channel](administrator/configure-sms-channel.md), and [Configure a Facebook channel](administrator/configure-facebook-channel.md).
 
+## Videos
+
+[Try channels in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114715)
+
+To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).
+
 ### See also
 
 [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)
@@ -145,5 +151,3 @@ Once a channel is enabled in your organization, you can sign in to Dynamics 365 
 [Configure an SMS channel](administrator/configure-sms-channel.md)
 
 [Configure a Facebook channel](administrator/configure-facebook-channel.md)
-
-[Try channels in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114715)
