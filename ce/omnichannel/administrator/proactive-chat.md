@@ -61,6 +61,8 @@ If your administrator or developer configures the **Additional details** tab and
 
 To learn more, see [setContextProvider](../developer/reference/methods/setContextProvider.md).
 
-You can also watch a short tutorial on <a href="https://go.microsoft.com/fwlink/p/?linkid=2114614" data-raw-source="[Proactive chat in Dynamics 365 Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114614)">Proactive chat in Dynamics 365 Omnichannel for Customer Service</a>.
+## Videos
 
+[Proactive chat in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114614)
 
+To view more videos on Omnichannel for Customer Service, see [Videos](../videos.md).
