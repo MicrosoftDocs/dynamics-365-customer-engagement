@@ -138,8 +138,12 @@ Once a channel is enabled in your organization, you can sign in to Dynamics 365 
 
 ### See also
 
-[Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)  
+[Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)
+
 [Configure a chat channel](administrator/set-up-chat-widget.md)
+
 [Configure an SMS channel](administrator/configure-sms-channel.md)
+
 [Configure a Facebook channel](administrator/configure-facebook-channel.md)
-<A href="https://go.microsoft.com/fwlink/p/?linkid=2114715" data-raw-source="[Try channels in Dynamics 365 Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114715)">Try channels in Dynamics 365 Omnichannel for Customer Service</a>
+
+[Try channels in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114715)
