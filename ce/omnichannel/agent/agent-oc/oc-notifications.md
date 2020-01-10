@@ -4,7 +4,7 @@ description: "Learn about notifications and their types. Agents will see notific
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 01/31/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -73,6 +73,14 @@ The details you’ll see for a SMS channel are:
 
 > [!div class="nextstepaction"]
 > [Next topic: View customer summary and know everything about customers](oc-customer-summary.md)
+
+## Theme of the notification
+
+There are two themes for the notification - Dark and Light. You'll see the theme as configured by your admininstrator.
+
+**Dark** and **Light** theme 
+
+![Dark theme](../../media/oceh/chat-notification-request.png "Dark theme") ![Light theme](../../media/oceh/chat-notification-request-light.png "Light theme")
 
 ## See also
 

@@ -125,6 +125,10 @@ You can set a theme for the notification while creating a notification template.
 
 For example, when an agent is working on conversations from **Chat** and **Facebook** channels, and you want to differentiate the notification. You can set **Dark** for **Chat** channel and **Light** for **Facebook** channel.
 
+**Dark** and **Light** theme 
+
+![Dark theme](../media/oceh/chat-notification-request.png "Dark theme") ![Light theme](../media/oceh/chat-notification-request-light.png "Light theme")
+
 ## Customize notification
 
 Let's see a scenario: In the Contoso Pvt Ltd customer service center, every case notification that is shown to an agent needs to have the following:
