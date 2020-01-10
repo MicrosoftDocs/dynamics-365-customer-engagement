@@ -67,8 +67,8 @@ Marketing pages published to the same portal are also affected in similar ways. 
 To update the URL for any existing, live event or page record after changing your portal URL, you must stop and then republish each individual record. To do this:
 
 1. Open the event or page.
-1. For events, set the **Publish status** from **Live** to **Draft** and save the record. For pages, select **Stop** on the command bar.
-1. For events, set the **Publish status** back to **Live**. For pages, select **Go live** on the command bar. The **Event URL** or **Full page URL** field is now updated, so all marketing emails that refer to these events and pages will now use the correct new URL.
+1. Select **Stop** on the command bar.
+1. Select **Go live** on the command bar. The **Event URL** or **Full page URL** field is now updated, so all marketing emails that refer to these events and pages will now use the correct new URL.
 1. Repeat this procedure for each page or event record that you are still using. We recommend that you do it for all events and pages in your system.
 
 You can update the URLs for many events at the same time, but you'll still need to update marketing pages one at a time. To update several events at once:
