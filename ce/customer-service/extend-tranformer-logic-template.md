@@ -1,14 +1,17 @@
 ---
 title: Extend transformer logic on templates (Dynamics 365 Customer Service) | MicrosoftDocs
+description: 
 author: susikka
 ms.author: susikka
 manager: shujoshi
 ms.date: 08/01/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 3BEFC582-E967-4310-8744-60639EF56200
-search.audienceType: developer
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
+search.audienceType: 
+  - developer
 search.app: 
   - D365CE
   - D365CS

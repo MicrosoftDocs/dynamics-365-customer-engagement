@@ -1,18 +1,16 @@
 ---
 title: "notifyEvent (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
 description: ""
-keywords: ""
-ms.date: 09/30/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: reference
-ms.assetid: 7B5FC441-8020-45CB-8318-1466D3B0FD9A
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 09/30/2019
+ms.topic: reference
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 
 # notifyEvent

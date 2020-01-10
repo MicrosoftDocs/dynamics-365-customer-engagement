@@ -1,21 +1,18 @@
 ---
-title: "Add products to a quote, order, or invoice (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Include details about the products that your customer is interested in purchasing in your quote, order, or invoice in Dynamics 365 Sales."
-keywords: "product, quote, order, invoice"
+title: "Add products to a quote, order, or invoice (Dynamics 365 Sales Professional) | MicrosoftDocs"
+description: "Include details about the products that your customer is interested in purchasing in your quote, order, or invoice in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 0d002dc0-464b-4778-a3a2-1de46d7cc8d6
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-caps.latest.revision: 58
 ---
 
-# Add products to a quote, order, or invoice (Sales Hub)
+# Add products to a quote, order, or invoice (Sales Professional)
 
 You can add products or product bundles to a quote, order, or invoice record. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog or an ad hoc product that you add as a write-in product. 
 

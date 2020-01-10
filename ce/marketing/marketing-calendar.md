@@ -42,7 +42,7 @@ The main marketing calendar is available at **Marketing** > **My work** > **Mark
 
 ### The room reservation calendar
 
-The room reservation calendar is a form-level calendar provided for event records. To use it, go to **Events** > **Event** > **Event**, open an event record and then go to its **Room reservations** tab. The calendar shows all room reservations that are associated with the currently displayed event.
+The room reservation calendar is a form-level calendar provided for event records. To use it, go to **Events** > **Event** > **Event**, open an event record and then go to its **Room reservations** tab. The calendar shows all room reservations assigned to the currently displayed event and its sessions. Unreserved rooms aren't shown, nor are events or sessions without assigned rooms. The calendar is read-only, so you can't create any sessions or reservations here.
 
 ### The speaker engagement calendar
 

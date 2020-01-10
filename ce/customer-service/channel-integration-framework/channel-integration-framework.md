@@ -1,18 +1,16 @@
 ---
 title: "Dynamics 365 Channel Integration Framework guide | Microsoft Docs"
 description: "Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party Computer Telephony Integration (CTI) systems with Dynamics 365 Unified Interface apps using a browser-based JavaScript API library."
-keywords: ""
-ms.date: 10/17/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: article
-ms.assetid: 7923e36d-3640-49f7-9f2f-c97358a632db
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 10/17/2019
+ms.topic: article
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 
 # Dynamics 365 Channel Integration Framework guide
@@ -99,6 +97,14 @@ manager: shujoshi
 <h2> FAQs </h2>
 
 <li><a href="faq-channel-integration-framework.md" data-raw-source="[Frequently asked questions](faq-channel-integration-framework.md)">Frequently asked questions</a></li>
+
+</td>
+<td>
+<h2>Related apps & framework</h2>
+
+<li><a href="https://docs.microsoft.com/dynamics365/customer-service/help-hub" data-raw-source="[Customer Service Hub Help](https://docs.microsoft.com/dynamics365/customer-service/help-hub)">Customer Service Hub Help</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide)">Omnichannel for Customer Service Guide</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk" data-raw-source="[Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)">Unified Service Desk Guide</a></li>
 
 </td>
 </tr>

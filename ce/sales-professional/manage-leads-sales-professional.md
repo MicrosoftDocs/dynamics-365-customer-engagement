@@ -1,14 +1,12 @@
 ---
 title: "Create and manage leads in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Track your potential buyers as leads in Dynamics 365 Sales Professional."
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: dcf30d6e-d973-4902-9a6a-df9291119462
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -30,7 +28,8 @@ When you create a lead, there are system-required fields to fill out. But other 
 
     The Lead form opens.
 
-    ![Lead form](media/lead-form.png "Lead form")
+    > [!div class="mx-imgBorder"]
+    > ![Lead form](media/lead-form.png "Lead form")
 
 3.  If you’re creating the lead for new customers, enter name, contact details, and company name in the **Summary** tab of the Lead form.
 
@@ -80,7 +79,8 @@ Your system administrator defines what happens to a lead when it is qualified:
 
     If you see a prompt to select which records to create when the lead is qualified, select **Yes** for the records that you want to create, and then select **OK**.
 
-    ![Select which records to create in the Qualify lead dialog box](../sales-enterprise/media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
+    > [!div class="mx-imgBorder"]
+    > ![Select which records to create in the Qualify lead dialog box](../sales-enterprise/media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
 
     If you don’t see a prompt, qualifying a lead will automatically create an account, contact, and opportunity record.
 
@@ -99,7 +99,8 @@ To qualify multiple leads at once, go to the list of lead records. Select the ch
 
 When qualifying a lead, if a duplicate account or contact is detected while creating new records, a “Duplicate warning ” dialog box is shown to you.
 
-![Duplicate warning while qualifying a lead](../sales-enterprise/media/lead-qualification-duplicate-warning.png "Duplicate warning while qualifying a lead")
+> [!div class="mx-imgBorder"]
+> ![Duplicate warning while qualifying a lead](../sales-enterprise/media/lead-qualification-duplicate-warning.png "Duplicate warning while qualifying a lead")
 
 In the **Account** and **Contact** fields, select the matching account and contact record and select **Continue**. To ignore the duplicate warning and create new records, leave the Account and Contact fields blank, and select **Continue**.
 

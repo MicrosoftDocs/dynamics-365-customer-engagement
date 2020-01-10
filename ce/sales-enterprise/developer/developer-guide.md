@@ -1,18 +1,15 @@
 ---
 title: "Developer Guide for Dynamics 365 Sales | MicrosoftDocs"
 description: "Contains topics that describe how developers can work with Dynamics 365 Sales"
-keywords: "sales, developer guide"
 ms.date: 04/08/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: get-started-article
-ms.assetid: b16a9d08-e24a-4b60-9dcc-6803cea4882e
 author: susikka
 ms.author: susikka
 manager: shujoshi
-caps.latest.revision: 5
 ---
 
 # Developer Guide for Dynamics 365 Sales

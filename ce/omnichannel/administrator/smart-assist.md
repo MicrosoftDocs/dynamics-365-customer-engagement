@@ -1,16 +1,13 @@
 ---
 title: "Smart assist for agents | MicrosoftDocs"
-description: "Learn about how to smartly assist agents with the next-best steps in the Omnichannel Administration app." 
-keywords: ""
+description: "Learn about how to smartly assist agents with the next-best steps in the Omnichannel Administration app."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 203CB28E-C1AF-4A0E-820B-55563A6AD45C
-ms.custom: 
 ---
 
 # Preview: Smart assist for agents
@@ -106,7 +103,7 @@ After you create a bot user, you need to add the bot to the workstream so that t
 
 After you add the smart assist bot to a workstream, you must add the smart assist field to the form where you want to show it for the agents.
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Omnichannel Administration app, and then on the command bar select **Settings** ![Settings](../media/settings-gear.png "Settings") > **Advanced  Settings**.
 
 2. Select **Settings** > **Customizations** > **Customize the System**. **Solution Explorer** opens in a new window.
 

@@ -1,23 +1,21 @@
----	
-title: Route trigger for entity records | MicrosoftDocs	
-description: Learn how to route entity records automatically.		
-author: kabala123	
-ms.author: kabala	
-manager: shujoshi	
-applies_to: 	
+---
+title: Route trigger for entity records | MicrosoftDocs
+description: Learn how to route entity records automatically.
+author: kabala123
+ms.author: kabala
+manager: shujoshi
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice	
-ms.topic: article	
-ms.assetid:	F3FBCEC3-B854-447B-9D33-159B3DDE6D2C
-ms.custom: 	
----	
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
+---
 # Route trigger for entity records
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 ## Overview
 
-After you set up and enable an entity for routing, you can manually trigger the routing for these records using the save and route button on the entity record forms. As an administrator, you can also setup automatic triggers to route these entity records using Microsoft Flow. Let us look at the triggers in detail in the following sections:
+After you set up and enable an entity for routing, you can manually trigger the routing for these records using the save and route button on the entity record forms. As an administrator, you can also setup automatic triggers to route these entity records using Power Automate. Let us look at the triggers in detail in the following sections:
 
 - Manual trigger using **Save & Route** and **Apply Routing Rules**
 - Automatic trigger using custom Flow
@@ -56,7 +54,7 @@ You can setup a custom flow, to trigger routing for records based on conditions 
 
 To enable automatic trigger to route the entity records, create a custom Flow.
 
-1. Sign in to Microsoft Flow.
+1. Sign in to Power Automate.
 
 2. Select the environment for which you want to update the Flow.
 

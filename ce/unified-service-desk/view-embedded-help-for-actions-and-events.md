@@ -1,11 +1,12 @@
 ---
 title: "View embedded help for actions and events in Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to view embedded help for actions and events for hosted controls in Unified Service Desk."
-ms.custom: dyn365-USD
-ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: d43751e3-5e52-4233-a70d-a483538912d7
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -29,14 +30,15 @@ search.app:
 ## Embedded help for events  
  Open an event definition to view the help for the event. To do so:  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator. 
+
+2. Select **Events** under **Basic Settings**. 
   
-2. On the nav bar, choose **Dynamics 365** > **Settings** > **Unified Service Desk** > **Events**.  
-  
-3. On the events page, click an event name under the **Name** column to view the event definition. The help is displayed in the lower part of the event definition page.  
+3. Select an event name from the list and view the event definition. The help is displayed in the lower part of the event definition page.  
   
    ![Embedded help for events](../unified-service-desk/media/crm-itpro-usd-embeddedhelpevents.png "Embedded help for events")  
   
 ### See also  
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
+ [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
+    
  [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)

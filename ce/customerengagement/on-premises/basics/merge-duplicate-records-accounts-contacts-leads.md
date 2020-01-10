@@ -1,7 +1,7 @@
 ---
 title: "Merge duplicate records for accounts, contacts, or leads (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 10/31/2017
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -20,7 +20,9 @@ search.app:
 ---
 # Merge duplicate records for accounts, contacts, or leads
 
-Duplicate records can creep into your data when you or others enter data manually or import data in bulk. Dynamics 365 Customer Engagement (on-premises) helps you address potential duplicates by providing duplicate detection for accounts, contacts, and leads. Your administrator may also set up duplicate detection rules for other situations.  
+Duplicate records can creep into your data when you or others enter data manually or import data in bulk. Dynamics 365 Customer Engagement (on-premises) helps you address potential duplicates by providing duplicate detection for active records such as, accounts, contacts, and leads. When you merge a record any related or child records will also be merged.  Your administrator may also set up duplicate detection rules for other situations.  
+
+
   
  For example, let's say you enter a contact record, Jim Glynn,  along with a mobile phone number.  The duplicate detection rule discovers that you already have a similar record, and displays this dialog box.  
   

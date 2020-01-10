@@ -2,8 +2,7 @@
 
 ## Get started
 ### [Introduction](introduction-omnichannel.md)
-### [Preview features in Omnichannel for Customer Service](preview-features.md)
-### [Try channels in Omnichannel for Customer Service](try-chat-for-dynamics365.md)
+### [Try channels in Omnichannel for Customer Service](try-channels.md)
 ### [Chat for Dynamics 365 Customer Service demo data](chat-dynamics365-customer-service-demo-data.md)
 ### [Pre-requisites and system requirements](system-requirements-omnichannel.md)
 ### [Assign roles and enable users](administrator/add-users-assign-roles.md)
@@ -25,22 +24,24 @@
 #### [Deploy Unified Service Desk - Omnichannel for Customer Service package](administrator/omnichannel-customer-service-package.md)
 #### [Configure settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md)
 ### [Delete Omnichannel solutions](administrator/delete-solution.md)
-
 ### [Integrate an Azure bot](administrator/configure-bot.md)
+### [Integrate a Power Virtual Agents bot](administrator/configure-bot-virtual-agent.md)
 
 ### Channels
 #### [Configure a chat channel](administrator/set-up-chat-widget.md)
 ##### [Add a chat widget](administrator/add-chat-widget.md)
+##### [Configure download and email of chat transcripts](administrator/download-email-chat-transcripts.md)
 ##### [Configure agent display name](administrator/agent-display-name.md)
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
-##### [Embed chat widget in Dynamics 365 Portals](administrator/embed-chat-widget-portal.md)
+##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
 ##### [Configure proactive chat](administrator/proactive-chat.md)
 #### [Configure an SMS channel](administrator/configure-sms-channel.md)
 #### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
 #### Entity records
 ##### [Entity records routing](administrator/entity-channel.md)
 ##### [Route trigger for entity records](administrator/routing-trigger.md)
+##### [Understand Omnichannel for Customer Service with Customer Service Hub](administrator/understand-omnichannel-customer-service-hub.md)
 
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)
@@ -77,6 +78,7 @@
 <!--#### [Enable supervisors to monitor and assign conversations](administrator/configure-ongoing-conversations-settings.md)-->
 #### [Enable sentiment analysis](administrator/enable-sentiment-analysis.md)
 #### [Configure Omnichannel Insights dashboards](administrator/configure-historical-sentiment-dashboard-supervisor.md)
+
 
 ### Settings
 #### [Create and manage operating hours](administrator/create-operating-hours.md)
@@ -137,15 +139,21 @@
 #### [View Omnichannel conversation and Omnichannel session in Model-driven apps](agent/agent-usd/view-omnichannel-conversation-session.md)
 #### [View customer summary for an incoming conversation request](agent/agent-usd/view-customer-summary-incoming-conversation-request.md)
 
-
 ## Supervisor guide
 ### [Introduction to intraday supervisor experiences](supervisor/intro-intraday-insights-dashboard.md)
-#### [View and understand Omnichannel intraday insights](supervisor/intraday-insights-dashboard.md) 
+#### [View and understand Omnichannel intraday insights](supervisor/intraday-insights-dashboard.md)
 #### [View and understand Omnichannel Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
-#### [Monitor conversations](supervisor/monitor-conversations.md)
+
 <!--#### [Assign conversations](supervisor/assign-conversations.md)-->
-### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
+### Introduction to Omnichannel Insights
+#### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
 #### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)
+
+### Monitor Conversations
+#### [Monitor conversations](supervisor/monitor-conversations.md)
+#### [Sentiment Monitoring](supervisor/supervisor-sentiment-monitoring.md)
+
+
 
 
 ## System customizer guide
@@ -228,6 +236,7 @@
 #### [Auto-close a conversation](developer/auto-close-conversation.md)
 #### [Build a custom smart assist bot](developer/how-to/smart-assist-bot.md)
 ### Entity reference
+#### [Overview](developer/reference/entities/overview.md)
 #### [Deprecated entities](developer/reference/entities/deprecated-entities.md)
 #### [msdyn_analytics](developer/reference/entities/msdyn_analytics.md)
 #### [msdyn_authenticationsettings](developer/reference/entities/msdyn_authenticationsettings.md)
@@ -290,3 +299,8 @@
 ### [Readme](omnichannel-readme.md)
 ### [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
 ### [FAQs](faqs.md)
+
+
+# [Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/customer-service/help-hub)
+# [Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)
+# [Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)

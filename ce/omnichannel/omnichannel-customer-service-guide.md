@@ -1,16 +1,13 @@
 ---
 title: "Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about Omnichannel for Customer Service."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 213B2D86-403C-418F-AD64-44AD1DD3382A
-ms.custom: 
 ---
 
 # Omnichannel for Customer Service Guide
@@ -96,6 +93,14 @@ ms.custom:
 <li><a href="https://go.microsoft.com/fwlink/p/?linkid=2097512" data-raw-source="[Agent Experience](https://go.microsoft.com/fwlink/p/?linkid=2097512)">Overview of omnichannel agent experience in Dynamics 365 Customer Service </a></li>
 <li><a href="https://go.microsoft.com/fwlink/p/?linkid=2097513" data-raw-source="[Real-time Sentiment Analysis](https://go.microsoft.com/fwlink/p/?linkid=2097513)">Overview of omnichannel real-time sentiment analysis in Dynamics 365 Customer Service </a></li>
 <li><a href="https://go.microsoft.com/fwlink/p/?linkid=2097418" data-raw-source="[Historical Insights Report](https://go.microsoft.com/fwlink/p/?linkid=2097418)">Overview of omnichannel historical reporting in Dynamics 365 Customer Service </a></li>
+
+</td>
+<td>
+<h2>Related apps & framework</h2>
+
+<li><a href="https://docs.microsoft.com/dynamics365/customer-service/help-hub" data-raw-source="[Customer Service Hub Help](https://docs.microsoft.com/dynamics365/customer-service/help-hub)">Customer Service Hub Help</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk" data-raw-source="[Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)">Unified Service Desk Guide</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)">Dynamics 365 Channel Integration Framework Guide</a></li>
 
 </td>
 </tr>

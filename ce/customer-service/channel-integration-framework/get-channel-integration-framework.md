@@ -1,20 +1,16 @@
 ---
 title: "Get Dynamics 365 Channel Integration Framework  | Microsoft Docs"
 description: "Learn how to download, install, and set up Dynamics 365 Channel Integration Framework."
-keywords: ""
-ms.date: 12/17/2018
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: 600FFEDC-E2C0-4CC7-9A58-A6842535D50E
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 12/17/2018
+ms.topic: get-started-article
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 
 # How to get Dynamics 365 Channel Integration Framework

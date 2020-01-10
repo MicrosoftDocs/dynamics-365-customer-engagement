@@ -1,18 +1,15 @@
 ---
 title: "Retire products (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Retire a product in Dynamics 365 Sales so that it is no longer available to your sales agents for selling."
-keywords: "retire, retire product"
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 14603f94-a8bc-4c63-8f87-6042bb6c3787
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-caps.latest.revision: 12
 ---
 
 # Retire products (Sales and Sales Hub)
@@ -27,7 +24,8 @@ If your organization doesn't sell a product anymore, retire it so that the produ
   
 3. Open an active product, bundle, or family that you want to retire, and on the command bar, select **Retire**.  
 
-   ![Product form with the Retire button](media/retire-product.png "Product form with the Retire button")
+   > [!div class="mx-imgBorder"]
+   > ![Product form with the Retire button](media/retire-product.png "Product form with the Retire button")
 
 4. In the **Confirm Retire** dialog box, select **Confirm**.
  

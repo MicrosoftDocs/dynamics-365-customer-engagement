@@ -1,14 +1,15 @@
 ---
 title: Overview of service and service scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know the basics of service and service scheduling in Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
+author: lalexms
+ms.author: laalexan
 manager: shellyha
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.assetid: 7904d0f0-6295-4fec-a843-f1ee5267536b
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +17,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365FS
+ms.assetid: 7904d0f0-6295-4fec-a843-f1ee5267536b
 ---
 
 # Overview of service and service scheduling (Customer Service)

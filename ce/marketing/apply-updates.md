@@ -38,17 +38,17 @@ Read this topic to get an overview of how to update Dynamics 365 Marketing and i
 
 ## Solutions included with Dynamics 365 Marketing
 
-Dynamics 365 Marketing is implemented using several different *solutions*, where a *solution* is a type of software package that adds functionality to your Dynamics 365 platform. Dynamics 365 Marketing includes several solutions that are unique to the Marketing app, plus a few more that are available as separate apps or in other app bundles.
+Dynamics 365 Marketing is implemented using several different *solutions*, where a *solution* is a type of software package that adds functionality to model-driven apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation). Dynamics 365 Marketing includes several solutions that are unique to the Marketing app, plus a few more that are available as separate apps or in other app bundles.
 
 When you install Dynamics 365 Marketing, all its solutions are installed by the setup wizard. However, when it comes to keeping your system up to date, you'll need to monitor and update each of the following types of solutions separately:
 
 - **Core Marketing solutions**: These are the solutions that provide core features that are unique to Marketing (including the Dynamics 365 Connector for LinkedIn Lead Gen Forms). Though there are several of these, you'll be able to maintain and update them all at once using a setup wizard like the one you used to install Marketing for the first time.
-- **Voice of the Customer**: This solution enables Dynamics 365 apps for the Common Data Service platform to host surveys and collect responses. It's also available as an add-on or bundle for other apps. You must update this solution separately from the other solutions included with Marketing, using its own update program.
-- **Dynamics 365 Portals**: This solution enables Dynamics 365 apps for the Common Data Service platform to host interactive portals that display and collect Dynamics 365 data, including the events portal and marketing pages. Like Voice of the Customer, you must update this solution using its own update program.
+- **Voice of the Customer**: This solution enables model-driven apps in Dynamics 365 to host surveys and collect responses. It's also available as an add-on or bundle for other apps. You must update this solution separately from the other solutions included with Marketing, using its own update program.
+- **Dynamics 365 Portals**: This solution enables model-driven apps in Dynamics 365 to host interactive portals that display and collect Dynamics 365 data, including the events portal and marketing pages. Like Voice of the Customer, you must update this solution using its own update program.
 
 ## Find out when new updates are available
 
-Microsoft releases updates to Dynamics 365 Marketing each month or so, with a major refresh every six months or so. We announce monthly updates (and other news) on the [Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/tag/dynamics-365-for-marketing-kb-articles/), where we identify each update by the month or season in which it became available. Future directions and major releases are furthermore described on the [Dynamics 365 and Power Platform Release Plans](https://docs.microsoft.com/business-applications-release-notes/index) website.
+Microsoft releases updates to Dynamics 365 Marketing each month or so, with a major refresh every six months. We announce monthly updates (and other news) in the [What's new in Dynamics 365 Marketing](whats-new-marketing.md) topic, where we also summarize all the new features and bug fixes included with each release. Future directions and major releases are furthermore described on the [Dynamics 365 and Power Platform Release Plans](https://docs.microsoft.com/business-applications-release-notes/index) website.
 
 You can also find out when an update is available by checking the status of your apps and solutions in the Dynamics 365 admin center, as described in the following sections.
 

@@ -1,10 +1,10 @@
 ---
 title: "Unified Service Desk Release Notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
-ms.date: 07/12/2018
-ms.service: usd
+ms.date: 12/31/2019
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: B0070DA6-803C-4F92-92E7-9524EDD7C1A2
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -24,39 +24,38 @@ search.app:
 
 ### Creating an Instance of COM component with CLSID
 
-You use IE process hosting type and upgrade your Windows 10 to the latest version. When you launch Unified Service Desk client application, you might see the following error: 
+You use IE process hosting type and upgrade your Windows 10 to the latest version. When you launch the Unified Service Desk client application, you might see the following error: 
 
 **Creating an Instance of COM component with CLSID (0002DF01-0000-0000-C000-000000000046) from the IClassfactory failed due to the following error: 8150002e Exception from the HRESULT: 0x8150002E.**
 
-If Favorites Bar is enabled in Internet Explorer, then you might see the aforementioned error.
+If the Favorites bar is enabled in Internet Explorer, then you might see that error.
 
 #### Workaround
 
 You can work around the issue in two ways:
 
-- Remove the Favorites Bar from the Internet Explorer
-- Add the KillUSDIEProcessesOnExit UII option
+- Remove the Favorites bar from Internet Explorer.
+- Add the KillUSDIEProcessesOnExit UII option.
 
-##### Remove the Favorites Bar from the Internet Explorer
+##### Remove the Favorites bar from Internet Explorer
 
-You must remove the favorites bar from the Internet Explorer, and then end all the IE Process manually before restarting the Unified Service Desk client application. When the launch Unified Service Desk client application, you might not see the error.
+You must remove the Favorites bar from Internet Explorer and then end the IE Process manually before restarting the Unified Service Desk client application. Then when you launch the Unified Service Desk client application, you might not see the error.
 
-1. Open the Internet Explorer.
-2. Right-click on the Favorites bar. The context menu appears.
+1. Open Internet Explorer.
+2. Right-click the Favorites bar. The context menu appears.
 3. Select **Favorites bar** to disable.
 
 ##### Add the KillUSDIEProcessesOnExit UII option
 
-If you don't want to remove the favorites bar for the Internet Explorer, add the **KillUSDIEProcessesOnExit** UII option and set the value to true. Setting the UII option ends all the IE Process running in the background at the time of exiting Unified Service Desk client application. When the launch Unified Service Desk client application, you might not see the error.
+If you don't want to remove the Favorites bar for Internet Explorer, add the **KillUSDIEProcessesOnExit** UII option and set the value to true. Setting the UII option ends the IE Process running in the background at the time of exiting the Unified Service Desk client application. Then when you launch the Unified Service Desk client application, you might not see the error.
 
-1. Sign in to the Common Data Service platform.
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
-3. Choose **Options**.
-4. Select **New** on the **Active UII Options** page.
-5. Choose **Others** for the **Global Option** field.
-6. Type **KillUSDIEProcessesOnExit** for the **Name** field.
-7. Set **True** for the **Value** field.
-8. Select **Save**.
+1. Sign in to Unified Service Desk Administrator.
+2. Select **Options**.
+3. Select **New** on the **Active UII Options** page.
+4. Choose **Others** for the **Global Option** field.
+5. Type **KillUSDIEProcessesOnExit** for the **Name** field.
+6. Set **True** for the **Value** field.
+7. Select **Save**.
 
 > [!Note]
 > The mitigation works for the issue with HRESULT: 0x8150002E.
@@ -75,19 +74,19 @@ When you use Unified Service Desk with the Unified Interface apps, Window Naviga
 
 ### Importing solution causes error with Package Deployer
 
-When you use the latest version of the package deployer (4.1.1.1246) to deploy sample packages, you might encounter an error. To workaround the issue, you must upgrade your Customer Engagement instance to the latest version (9.1.0.4626).
+When you use the latest version of the package deployer (4.1.1.1246) to deploy sample packages, you might encounter an error. To work around the issue, you must upgrade your environment to the latest version (9.1.0.4626).
 
 ### Support for inactivity timeout with Chrome Process and SSO
 
-If your organization has enforced the Inactivity session timeout for the agents, then with Chrome Process, the agent is not automatically signed out when the inactivity session timeout expires as SSO is enabled by default. If you want to enforce Inactivity session timeout for the agents, then disable the SSO feature for the Chrome Process. To learn more see, [Disable Single Sign On](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#enable-or-disable-single-sign-on).
+If your organization has enforced the Inactivity session timeout for the agents, then with Chrome Process, the agent is not automatically signed out when the inactivity session timeout expires as SSO is enabled by default. If you want to enforce Inactivity session timeout for the agents, then disable the SSO feature for the Chrome Process. To learn more, see [Disable Single Sign On](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#enable-or-disable-single-sign-on).
 
 ### JavaScript Alert and Confirmation dialog
 
-While you use **Chrome Process** to host applications in Unified Service Desk, if you load applications hosted using **IE Process**, then web pages doesn't show the JavaScript alert, Confirmation, and prompt dialog on the application that uses **IE Process**. The web pages show the dialogs on the applications hosted using the Chrome Process. This issue occurs if you have at least one application hosted using Chrome Process and loaded in Unified Service Desk.
+While you use **Chrome Process** to host applications in Unified Service Desk, if you load applications hosted using **IE Process**, then web pages don't show the JavaScript alert, Confirmation, and prompt dialog on the application that uses **IE Process**. The web pages show the dialogs on the applications hosted using the Chrome Process. This issue occurs if you have at least one application hosted using Chrome Process and loaded in Unified Service Desk.
 
 ### Support for CloseAndPrompt action in Chrome Process
 
-The Chrome Process does not support the **CloseAndPrompt** action for web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
+The Chrome Process does not support the **CloseAndPrompt** action for web client. When you make changes in a webpage or a form on a web client, the process does not perform a page modified (data changes) check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
 
 ### Support for Microphone and webcam with Channel Integration Framework
 
@@ -97,7 +96,7 @@ When you integrate a channel with Unified Service Desk using the Channel Integra
 
 #### Support for CloseAndPrompt action in Edge Process
 
-The Edge Process does not support the **CloseAndPrompt** action for web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
+The Edge Process does not support the **CloseAndPrompt** action for web client. When you make changes in a webpage or a form on a web client, the process does not perform a page modified (data changes) check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
 
 #### Support for alert dialog with WebView control
 
@@ -132,17 +131,17 @@ When you host your web application in Unified Service Desk client application us
 Some of the URI schemes and applications are as follows:
 
 | URI Scheme | Launches |
-| ----------:|----------|
+|----------|----------|
 |bingmaps | Maps app |
-|mailto: | Default email app |
-|ms-call:|  Call app |
-|ms-chat: | Messaging app |
+|mailto\: | Default email app |
+|ms-call\:|  Call app |
+|ms-chat\: | Messaging app |
 
 A workaround is to open the Microsoft Edge browser separately, navigate to the website URL and select the URI scheme to launch the application.
 
 #### KB article support with Edge Process
 
-In web client, when you host the KB article in Unified Service Desk client application using Edge Process, the KB articles does not render. 
+In the web client, when you host the KB article in Unified Service Desk client application using Edge Process, the KB articles does not render. 
 
 A workaround is to change the **Unified Service Desk Component Type** of the **KB Article** hosted control from **CRM Page** to **Unified Interface Page**.
 
@@ -158,9 +157,9 @@ Remove the following values from the data field:
 
 `header=[[header]+]` 
 
-To open an KB article, only the article url is sufficient. For example: `url=[[KB Search.articleurl]g]`
+To open a KB article, only the article URL is sufficient. For example: `url=[[KB Search.articleurl]g]`
 
-Now, save the configuration. Login to Unified Service Desk and open any article to see the article contents.
+Now, save the configuration. Log in to Unified Service Desk and open any article to see the article contents.
 
 ### Ribbon command not loading in the forms
 
@@ -169,7 +168,7 @@ For example, if you are navigating from a case grid to a case, and in the URL wh
 
 #### Workaround
 
-As a work around for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
+As a workaround for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
 
 ## See also
 
@@ -214,15 +213,15 @@ Now, save the configuration. Login to Unified Service Desk and open any article 
 ![Remove the header and postdata parameter to see the article contents](media/kb-search-fix.PNG "Remove the header and postdata parameter to see the article contents")
 
 
-### Toolbar shows Unified Blue theme instead Air theme
+### Toolbar shows Unified Blue theme instead of Air theme
 
-In the **Unified Interface Settings** record, select **Air** theme instead **Unified Blue** theme, and select an Unified Interface App. 
+In the **Unified Interface Settings** record, select **Air** theme instead of **Unified Blue** theme, and select a Unified Interface App. 
 
 ![Air theme is set in the Unified Interface Settings record](media/usd-crm-unified-interface-air-theme.png "Air theme is set in the Unified Interface Settings record")
 
-Now, if you login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], the **About Tool Bar** and **Main** toolbar chooses to show **Unified Blue** theme colors instead **Air** theme.
+Now, if you log in to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], the **About Tool Bar** and **Main** toolbar chooses to show **Unified Blue** theme colors instead of **Air** theme.
 
-![The main and about toolbar shows Unified Interface theme colors instead Air theme colors](media/about-toolbar-main-toolbar-known-issue.png "The main and about toolbar shows Unified Interface theme colors instead Air theme colors")
+![The main and about toolbar shows Unified Interface theme colors instead of Air theme colors](media/about-toolbar-main-toolbar-known-issue.png "The main and about toolbar shows Unified Interface theme colors instead of Air theme colors")
 
 #### Workaround
 
@@ -356,7 +355,7 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
 - **Warning for HelpImproveUSD parameter in Customer Engagement (on-premises)**
 
-  Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is enabled/disabled only for the Common Data Service platform. If you are using Customer Engagement (On-premises), you can see a warning for the Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] (HelpImproveUSD) parameter in the report.
+  Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is enabled/disabled only for the Common Data Service platform. If you are using Customer Engagement (on-premises), you can see a warning for the Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] (HelpImproveUSD) parameter in the report.
 
 - **Error for Enable Enhanced Protected mode in Windows 7 operating system**
 

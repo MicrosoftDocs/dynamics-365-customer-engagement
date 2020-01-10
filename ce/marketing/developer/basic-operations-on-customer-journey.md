@@ -20,12 +20,12 @@ search.app:
 As you engage potential customers, they start by discovering your product, evaluating whether it meets their needs, looking for a good offer, and finally making a purchase. We call this process the *customer journey*. Use customer journeys to create a model that helps you guide the members of a selected marketing segment through this process by using automated messaging, activity generation, interactive decision points, and more. More information: [Create Customer Journey](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/customer-journeys-create-automated-campaigns).
 
 The Customer Journey API enables programmatic interaction with customer journey records including publishing and validation.
-The API leverages the standard Dynamics 365 API for manipulating entities or messages. More information: [Dynamics 365 Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api).
+The API leverages the standard Common Data Service Web API for manipulating entities or messages. More information: [Common Data Service Web API](/powerapps/developer/common-data-service/webapi/overview).
 
 When you create a customer journey, the properties will be stored in the `msdyncrm_customerjourney` entity. You can browse the entity metadata information using `@odata.context`in the `GET` response.
 
 > [!NOTE]
-> Before you perform operations, you should install the [Dynamics 365 Marketing app](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup). 
+> Before you perform operations, you should install the [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup). 
 
 This topic demonstrates how to perform operations on the `msdyncrm_customerjourney` entity. The `msdyncrm_name` field is the only required field to create a simple customer journey. The fields that are used in this topic to create a customer journey are shown in the following table.
 
@@ -33,7 +33,7 @@ This topic demonstrates how to perform operations on the `msdyncrm_customerjourn
 |----------|--------------|------|
 |Name|msdyncrm_name|Name of the Customer Journey|
 |Status Reason|statuscode|Current status of the customer journey. Following are the available statuscodes: <br />- Draft `192350000`<br />- Live `192350001`<br />- Stopped `192350002`<br />- Live, Editable `192350003`<br />- Error `192350005`<br />- Going Live `192350006`<br />- Stopping `192350007`<br />
-|Suppression Segment|msdyncrm_SuppressionSegmentId|The ID of the associated [Suppression Segment](https://docs.microsoft.com/en-au/dynamics365/customer-engagement/marketing/suppression-segments). Use it to set reference to a record from `msdyncrm_segments` record set.|
+|Suppression Segment|msdyncrm_SuppressionSegmentId|The ID of the associated [Suppression Segment](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/suppression-segments). Use it to set reference to a record from `msdyncrm_segments` record set.|
 |Recurrence Interval (Days)|msdyncrm_recurrenceintervaldays|The duration of the iteration (in days). Non-negative integer.|
 |Minimum Consent|msgdpr_requiredconsent|- (1) Consent `587030001` <br /> - (2) Transactional `587030002`<br /> - (3) Subscriptions `587030003`<br /> - (4) Marketing `587030004` <br/> - (5) Profiling `587030005`|
 |Recurrence Count|msdyncrm_recurrencecount|The number of iterations. Non-negative integer.|
@@ -51,7 +51,7 @@ This topic demonstrates how to perform operations on the `msdyncrm_customerjourn
 > [!NOTE]
 > The `statuscode` and `statecode` fields define the state of the customer journey. Changing their values can result in `Publishing` or `Stopping` of customer journey workflow. If you wish to `go live` save the record in `Going Live` state (statuscode = 192350006). To stop a customer journey record, save the Live record in `Stopping` state (statuscode = 192350007).
 
-Use the Postman tool to test the operations. More information: [Use Postman With Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/webapi/use-postman-perform-operations).
+Use the Postman tool to test the operations. More information: [Use Postman With Web API](/powerapps/developer/common-data-service/webapi/use-postman-web-api).
 
 ## Create, retrieve, update and delete operations
 

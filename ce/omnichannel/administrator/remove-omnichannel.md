@@ -1,14 +1,13 @@
 ---
 title: "Remove Omnichannel for Custimer Service| MicrosoftDocs"
 description: "Learn how to remove Omnichannel for Customer Service and disable all channels on an organization."
-ms.date: 10/25/2019
-ms.service:
-  - "dynamics-365-customerservice"
-ms.topic: article
-ms.assetid: 36c885b1-e696-43f3-a198-de167268f91a
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+ms.date: 10/30/2019
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
 ---
 
 # Remove Omnichannel for Customer Service
@@ -25,7 +24,8 @@ To remove the Omnichannel for Customer Service from the organization,
 
 1.	In Dynamics 365 Administration Center, select Omnichannel for Customer Service, and select **Manage**.
  
-    ![Select Manage for Omnichannel for Customer Service](../media/manage-omnichannel-application.png "Select Manage for Omnichannel for Customer Service")
+    > [!div class=mx-imgBorder]
+    > ![Select Manage for Omnichannel for Customer Service](../media/manage-omnichannel-application.png "Select Manage for Omnichannel for Customer Service")
 
     The **Manage Omnichannel instances** page is displayed.
 
@@ -35,7 +35,8 @@ To remove the Omnichannel for Customer Service from the organization,
  
 3.	In the confirmation dialog box, select **Remove** to proceed. 
 
-    ![Remove confirmation dialog box](../media/removal-confirmation-dialog-box.png "Remove confirmation dialog box")
+    > [!div class=mx-imgBorder]
+    > ![Remove confirmation dialog box](../media/removal-confirmation-dialog-box.png "Remove confirmation dialog box")
     
 > [!IMPORTANT]
 > Removing Omnichannel for Customer Service will disable all channels in the selected organization. 

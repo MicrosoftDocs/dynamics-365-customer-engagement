@@ -37,7 +37,7 @@ You can sign up for, install, and use a trial version of Dynamics 365 Marketing 
 > Your system is constrained by certain limits and quotas that apply to the number of contacts you can market to, monthly email messages you can send, Litmus previews you can view, and more. Please familiarize yourself with the terms and limits of the product before you begin to use it. The limits are different based on whether you are running a trial, preview, or subscribed version of the product.
 > 
 > - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
-> - For trial and previews, see [Dynamics 365 Marketing limits for trials and previews](trial-preview-limits.md).
+> - For trials, see [Dynamics 365 Marketing limits for trials](trial-preview-limits.md).
 > 
 > You can keep an eye on your usage levels by going to  **Settings**  >  **Advanced settings**  >  **Other settings**  >  **Quota limits**  in Dynamics 365 Marketing. More information: [Quota limits](quota-management.md)
 > 
@@ -50,7 +50,7 @@ You can sign up for, install, and use a trial version of Dynamics 365 Marketing 
 
 In most ways, Marketing trials are fully functional, but time-limited, production instances. However, there are a few key differences:
 
-- Each Marketing trial comes pre-installed on a dedicate trial instance included with the trial. You can't install a Marketing trial on an existing instance.
+- Each Marketing trial comes pre-installed on a dedicated trial instance included with the trial. You can't install a Marketing trial on an existing instance.
 - Marketing trials can't be integrated with a Dynamics 365 Portal. Instead, they provide a special mechanism that lets you try out landing pages, forms, the event website, and other interactive features without requiring a Dynamics 365 Portal or external CMS system. More information: [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
 - You can't uninstall/re-install trials using the standard tools provided by the Dynamics 365 admin center. Trials are special and are handled differently than production instances.
 - You don't need to run the [setup wizard](purchase-setup.md) when setting up a trial.
@@ -180,4 +180,4 @@ Check the email inbox for the trial global admin. You should find a message tell
 2. The link opens in your browser, which should now be asking you to sign in to Dynamics 365. Sign in using the global admin account.
 
 You should now see an **Approved!** message. The system sends the new user an email that includes a link they can use to sign in to the Dynamics 365 Marketing trial using the password you chose for them.
-The new user is granted most user roles (including admin) in Dynamics 365 Marketing. If you'd like to restrict access, then see [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md) for instructions.
+The new user is granted most security roles (including admin) in Dynamics 365 Marketing. If you'd like to restrict access, then see [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md) for instructions.

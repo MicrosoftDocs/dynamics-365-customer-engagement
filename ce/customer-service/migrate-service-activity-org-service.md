@@ -6,8 +6,8 @@ ms.author: susikka
 manager: shujoshi
 ms.date: 11/20/2018
 ms.topic: get-started-article
-ms.service: crm-online
-ms.assetid: 45CF1131-3FD0-48F8-8212-B6F0CFA519EF
+ms.service: 
+  - crm-online
 ---
 # Sample: Migrate Service Activity entity
 

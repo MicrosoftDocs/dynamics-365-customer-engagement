@@ -3,7 +3,7 @@ title: MICROSOFT SOFTWARE LICENSE TERMS MICROSOFT DYNAMICS 365 FOR WINDOWS PROJE
 author: brycho
 ---
 
-MICROSOFT SOFTWARE LICENSE TERMS<br>MICROSOFT DYNAMICS 365 FOR ANDROID<br>PROJECT FINDER MOBILE FOR MICROSOFT DYNAMICS 365 FOR ANDROID
+# MICROSOFT SOFTWARE LICENSE TERMS<br>MICROSOFT DYNAMICS 365 FOR ANDROID<br>PROJECT FINDER MOBILE FOR MICROSOFT DYNAMICS 365 FOR ANDROID
 ======================================================================================================================================
 
 These license terms are an agreement between you and Microsoft Corporation (or

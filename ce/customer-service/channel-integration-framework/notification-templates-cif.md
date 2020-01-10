@@ -1,16 +1,13 @@
 ---
 title: "Manage notification templates in Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: "Learn about managing notification templates in Dynamics 365 Channel Integration Framework"
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 64B58892-6A6D-43C2-95E5-B75D847F6E56
-ms.custom: 
+ms.service: 
+  - dynamics-365-customerservice
 ---
 
 # Preview: Manage notification templates

@@ -5,13 +5,14 @@ ms.custom:
   - dyn365-USD
   - dyn365-admin
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 1a69d545-24d2-4009-814d-0f9837732bea
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: admin
+search.audienceType: 
+  - admin
 search.app: 
   - D365CE
   - D365USD
@@ -38,7 +39,13 @@ search.app:
   -   Customer Information System  
   
 > [!IMPORTANT]
->  The sample applications aren't supported for production use.  
+> -  The sample applications aren't supported for production use.
+>  
+> - The sample application installs random sample records for entities like Account, Contact, Cases, and so on.
+>
+> - The sample application reactivates already resolved cases and sets up the **Customer Satisfaction** and **Average Handling Time**  to random value and closes them. This sample application's data might interfere with your existing records.
+>
+> - The sample application adds two fields to account (msdyusd_facebook, msdyusd_twitter) and three fields to contact (msdyusd_facebook, msdyusd_twitter, msdyusd_currentprofile) and sets their values randomly. 
   
   
  Here’s what you’ll see when you install the Web Client package:  

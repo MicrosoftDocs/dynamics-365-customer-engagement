@@ -4,19 +4,21 @@ description: "Learn how to set client diagnostic logging."
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 3c690a33-f305-4a6d-a65d-990e9504d5e5
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: admin
+search.audienceType: 
+  - admin
 search.app: 
   - D365CE
   - D365USD
 tags: MigrationHO
 ---
+
 # Client diagnostic logging overview
 There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client diagnostic logging:  
 
@@ -31,8 +33,8 @@ There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../in
  This section describes how to manually configure diagnostic logging in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. Rather than use the procedure described here, we recommend you use the Audit & Diagnostics Settings feature that provides centralized administration of diagnostics and the ability to connect a custom listener. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure auditing and diagnostics in Unified Service Desk](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md)  
 
 > [!IMPORTANT]
-> - The manually-configured diagnostics (as described here), will no longer work after you enable an Audit & Diagnostics Settings record that is configured for diagnostics.  
->   - [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] also provides an API that lets you configure rich diagnostic logging for custom hosted controls. More information:  [Configure enhanced diagnostic logging for custom hosted controls](../../unified-service-desk/configure-enhanced-diagnostic-logging-custom-hosted-controls.md)  
+> - The manually configured diagnostics (as described here) will no longer work after you enable an Audit & Diagnostics Settings record that is configured for diagnostics.  
+> - [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] also provides an API that lets you configure rich diagnostic logging for custom hosted controls. More information:  [Configure enhanced diagnostic logging for custom hosted controls](../../unified-service-desk/configure-enhanced-diagnostic-logging-custom-hosted-controls.md)  
 
  This topic describes how to change client logging characteristics.  
 
@@ -203,15 +205,19 @@ StackTrace:   at DemoControl.USDControl.throwExceptionMethod()
 <a name="exceptionoptions"></a>   
 ### Configure error diagnostics reporting  
 
-1. In the web application, go to **Settings** > **Unified Service Desk** > **Auditing and Diagnostics**.  
+1. Sign in to Unified Service Desk Administrator. 
 
-2. Click **New**, and then select **DiagnosticsConfiguration**.  
+2. Select **Auditing and Diagnostics** under **Advanced Settings**.  
+
+2. Select **+ New**, and then select **DiagnosticsConfiguration**.  
 
 3. Select or enter the values that you want, such as tracking, exit monitoring, and the diagnostics logs folder location. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Diagnostics](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md#create-an-audit--diagnostics-record-to-use-for-auditing)
 
-4. Click **Save & Close**.  
+4. Select **Save & Close**.  
 
 ## See also  
  [Configure auditing and diagnostics in Unified Service Desk](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md)
+
  [Debugging support in Unified Service Desk to troubleshoot issues](../../unified-service-desk/admin/troubleshoot-unified-service-desk.md)   
+ 
  [Debug issues in Unified Service Desk](../../unified-service-desk/debug-issues-unified-service-desk.md)

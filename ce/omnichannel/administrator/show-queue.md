@@ -4,12 +4,10 @@ description: "How to show customers their queue position for a chat widget in Om
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 71A87EAA-98EA-4DB5-8BAF-3500F552FDDE
-ms.custom: 
 ---
 
 # Show customers their position in a queue
@@ -52,4 +50,4 @@ To configure the queue display feature, follow these steps:
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>
-[Embed chat widget in Dynamics 365 Portals](embed-chat-widget-portal.md)
+[Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)

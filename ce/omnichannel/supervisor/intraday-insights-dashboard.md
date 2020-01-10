@@ -1,16 +1,13 @@
 ---
 title: "Intraday insights dashboard for supervisor | MicrosoftDocs"
 description: "Learn about intraday insights dashboard for supervisor"
-keywords: ""
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-applies_to: 
-ms.date: 06/22/2019
-ms.service: dynamics-365-customerservice
+ms.date: 12/27/2019
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: e88852ce-b7ad-4196-8939-419f019f3c5f
-ms.custom: 
 ---
 
 # View and understand Omnichannel intraday insights dashboard

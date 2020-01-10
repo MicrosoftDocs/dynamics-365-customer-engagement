@@ -31,7 +31,7 @@ search.app:
 
 # Sample: Import data using complex data map
 
-This sample code is for Dynamics 365 Customer Engagement. Download the sample: [Work with importing data](https://code.msdn.microsoft.com/Samples-of-data-import-bd371c8c).
+This sample code is for Dynamics 365 Customer Engagement. Download the sample: [Work with importing data](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/DataImport).
   
 > [!NOTE]
 >  The source data for this sample is contained in the following file:   

@@ -1,20 +1,16 @@
 ---
 title: "Sample code for softphone integration using Dynamics 365 Channel Integration Framework version 1.0 | Microsoft Docs"
 description: "Learn about sample code for softphone integration using Dynamics 365 Channel Integration Framework version 1.0 with Unified Interface apps."
-keywords: ""
-ms.date: 10/16/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: 30E520EC-1791-48DD-BD70-1D29D78E89AB
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 10/16/2019
+ms.topic: article
+ms.service: 
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 
 # Sample softphone integration using Dynamics 365 Channel Integration Framework

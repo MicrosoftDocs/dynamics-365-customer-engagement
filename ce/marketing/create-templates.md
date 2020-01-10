@@ -1,12 +1,11 @@
 ---
 title: "Work with templates (Dynamics 365 Marketing) | Microsoft Docs"
 description: "A tutorial for how to work with templates for creating common and standardized content in Dynamics 365 Marketing"
-keywords: tutorial; templates; email; customer journey; marketing page; page
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started-article
+ms.topic: article
 ms.assetid: d349381b-9165-4013-b3da-9b1323fdaede
 author: kamaybac
 ms.author: kamaybac
@@ -28,10 +27,10 @@ As you've seen, each time you create a new email message, customer journey, mark
 
 When you create a template, the process is nearly the same as when you create an actual message, page, journey, or form. Go to one of the following pages to create a template:
 
-- **Marketing** > **Templates** > **Customer Journey Templates**
-- **Marketing** > **Templates** > **Marketing Email Templates**
-- **Marketing** > **Templates** > **Marketing Page Templates**
-- **Marketing** > **Templates** > **Marketing Form Templates**
+- **Marketing** > **Marketing templates** > **Journey templates**
+- **Marketing** > **Marketing templates** > **Email templates**
+- **Marketing** > **Marketing templates** > **Page templates**
+- **Marketing** > **Marketing templates** > **Form templates**
 
 In each case, you'll start with a list of available templates, which you can open and edit as needed. And you can create a new template by selecting **New** on the command bar.
 

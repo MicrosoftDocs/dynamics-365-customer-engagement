@@ -26,31 +26,32 @@ search.app:
 # Customizing Dynamics 365 Marketing
 
 ## Basic customizations
-Dynamics 365 Marketing is built on the Common Data Service platform, which provides rich possibilities for customization without coding. Customizers can add new fields to existing entities, add or hide fields in list or form views, design custom business processes and workflows, and much more—all while working in their web browser. Other types of customization include installing custom solutions from Microsoft AppSource, such as a third-party SMS solution for Marketing. The system also provides APIs that enable developers to write code that implements even more advanced custom functionality and third-party integration.
+Model-driven apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation) provide rich possibilities for customization without coding. Customizers can add new fields to existing entities, add or hide fields in list or form views, design custom business processes and workflows, and much more—all while working in their web browser. Other types of customization include installing custom solutions from Microsoft AppSource, such as a third-party SMS solution for Marketing. The system also provides APIs that enable developers to write code that implements even more advanced custom functionality and third-party integration.
 
 > [!WARNING]
 > Do not include sensitive information in your customized schema and display names. Schema and display names for fields, entities, relations, attributes, and other elements are displayed in various interfaces throughout the Marketing application. They may also be referenced by other object definitions and get shared through various other channels. They may also appear in telemetry.
 
-The techniques for customizing the Marketing application are the same as those for customizing other Dynamics 365 apps for the Common Data Service platform. You'll make these customizations using the advanced-settings area. The advanced-settings area provides settings that are common for all Dynamics 365 Common Data Service platform apps on your tenant, including user, security, and customization settings.
+The techniques for customizing Dynamics 365 Marketing are the same as those for customizing other model-driven apps in Dynamics 365. You'll make these customizations using the advanced-settings area. The advanced-settings area provides settings that are common for all Dynamics 365 model-driven apps on your tenant, including user, security, and customization settings.
 
 To access the customization settings in the advanced-settings area:
 
 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 1. Navigate to **Settings** > **Customizations** > **Customizations**.
 
-For complete details about how to customize Dynamics 365 apps for the Common Data Service platform, see the [Customization Guide for Dynamics 365](../customize/overview.md).
+For complete details about how to customize model-driven apps in Dynamics 365, see the [Power Apps documentation](https://docs.microsoft.com/powerapps/#pivot=home&panel=getstarted).
 
-For details about customizations that apply only to the Marketing app (but not other Dynamics 365 apps), see the following topic:
+For details about customizations that apply only to the Marketing app (but not other Dynamics 365 apps), see the following topics:
 
 - [Create and customize marketing calendars](customize-marketing-calendars.md)
+- [Create and customize template labels](customize-template-labels.md)
 
 ## Create a custom app that includes Marketing solutions
 
 Customizers and developers can create custom app modules that include any number of existing solutions, plus other custom elements, as needed. You can include 
 Dynamics 365 Marketing solutions in custom apps such as these, but the *Marketing email test send* entity won't be included automatically when you add the Marketing solution. As a result, your custom app won't support test sends of marketing emails by default. If you'd like to include this feature in your custom app, then you must add the *Marketing email test send* entity manually to your app after you add the Marketing solution.
 
-More information: [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)
+More information: [Design model-driven apps by using the app designer](https://docs.microsoft.com/powerapps/maker/model-driven-apps/design-custom-business-apps-using-app-designer)
 
 ## Advanced customization through coding
 
-Advanced customization and integration with external systems is possible through code-based interactions with the system's various APIs. For details about writing code and developing for Dynamics 365 apps on the Common Data Service platform, see the [Developer Guide for Dynamics 365](../developer/developer-guide.md).
+Advanced customization and integration with external systems is possible through code-based interactions with the system's various APIs. For details about writing code and developing for Dynamics 365 Marketing and other model-driven apps in Dynamics 365, see the [developer documentation for Power Apps](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer).

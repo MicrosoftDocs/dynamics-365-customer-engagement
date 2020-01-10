@@ -1,18 +1,19 @@
 ---
 title: "Panels, panel types, and panel layouts in Unified Service Desk | MicrosoftDocs"
 description: "Learn about using panels to display hosted controls of various types. Various predefined panel types are available in Unified Service Desk to support a variety of layout options such as tabbed layout, deck layout, and stacked layout."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: cc93dff6-3d0e-4a73-918d-16dd883d7fec
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType:
+search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 ---
@@ -29,6 +30,7 @@ search.app:
 |          Panel          |                                                                                      Description                                                                                      |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |        MainPanel        |                                                                        The main work area in the bottom right.                                                                        |
+|        AboutPanel        |                                                                        The area in the top right. This panel displays Settings, Debug, About, any other configured options.                                                                        |
 |        ChatPanel        |                                                   The typical location of the chat window. It is under the agent scripting control.                                                   |
 |       HiddenPanel       |                                                    A nonvisible panel generally used for component without a user interface (UI).                                                     |
 |       LeftPanel1        |                                                                 A panel just under the **WorkflowPanel** on the left.                                                                 |

@@ -1,18 +1,16 @@
 ---
 title: "Channel Analytics | MicrosoftDocs"
 description: "Read about the APIs that enable you to log analytics in Dynamics 365 Channel Integration Framework."
-keywords: ""
-ms.date: 10/25/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: reference
-ms.assetid: 340185D3-8C9E-43B2-901D-13D9591632F5
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 11/25/2019
+ms.topic: reference
+ms.service:
+  - dynamics-365-cross-app
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 
 # Preview: Channel Analytics
@@ -28,7 +26,7 @@ The contact center analytics need operational and conversational data to provide
 
 - **CRM transactional data**: The data about the customers, their cases, their journey and all round relationship with the organizations. This is stored in Common Data Services 
 - **Communication Data**: The data about the interactions (intended, ongoing and completed) with known and unknown customers 
-- **Agent Behaviour Data**: The data about the behaviour of agents before, during and after the interactions. 
+- **Agent Behavior Data**: The data about the behavior of agents before, during and after the interactions. 
 
 Channel Analytics in the Dynamics 365 Channel Integration Framework, provides a model to build a consistent, seamless, and unified experience when it comes to channel related analytics and insights. 
 
@@ -40,7 +38,7 @@ Without the channel analytics model, if you want to build a contact center analy
 
 ## How does Channel Analytics help?
 
-- It generates instrumentation for agent behaviour on the Dynamics 365. 
+- It generates instrumentation for agent behavior on the Dynamics 365. 
 - It provides APIs to ingest the conversational data into the common data services. 
 - It standardizes schema for how the aforementioned analytical data will be stored  
 - It defines mechanism to correlate the communication data from multiple providers, CRM transactional data and agent behavior data. 
@@ -120,6 +118,8 @@ Primary entity for defining a KPI event.
 **Primary field**: name<br />
 **Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_kpieventdefinitions`
 
+More information: [msdyn_kpieventdefinition](reference/entities-attributes/msdyn_kpieventdefinition.md).
+
 ### msdyn_conversationdata
 
 Primary entity for a conversation.
@@ -127,6 +127,8 @@ Primary entity for a conversation.
 **Logical name**: Conversation Data<br />
 **Primary field**: name<br />
 **Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_conversationsdata`
+
+More information: [msdyn_conversationdata](reference/entities-attributes/msdyn_conversationdata.md).
 
 ### msdyn_sessiondata
 
@@ -136,6 +138,8 @@ Primary entity for session data.
 **Primary field**: name<br />
 **Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_sessionsdata`
 
+More information: [msdyn_sessiondata](reference/entities-attributes/msdyn_sessiondata.md).
+
 ### msdyn_sessionparticipantdata
 
 Primary entity for representing session participants.
@@ -144,6 +148,8 @@ Primary entity for representing session participants.
 **Primary field**: name<br />
 **Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_sessionparticipantsdata`
 
+More information: [msdyn_sessionparticipantdata](reference/entities-attributes/msdyn_sessionparticipantdata.md).
+
 ### msdyn_kpieventdata
 
 Primary entity for a KPI event.
@@ -151,6 +157,8 @@ Primary entity for a KPI event.
 **Display name**: KPI Event Data<br />
 **Primary field**: name<br />
 **Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_kpieventsdata`
+
+More information: [msdyn_kpieventdata](reference/entities-attributes/msdyn_kpieventdata.md).
 
 ## See also
 

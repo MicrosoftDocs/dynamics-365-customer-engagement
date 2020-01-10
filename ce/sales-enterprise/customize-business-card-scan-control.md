@@ -1,14 +1,12 @@
 ---
 title: "Customize the business card scan control (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Customize how the data from the scanned business cards maps to the fields in the Contact and Lead forms."
-keywords: "business card, scan, scanner, lead, contact, populate, data, customize"
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 39954f18-c558-4b22-841a-7b12c9c948f2
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -25,9 +23,12 @@ Dynamics 365 Sales comes with an out-of-the-box business card control that defin
 
 To edit the mappings:
 
-1.  On the navigation bar, select **Settings**, and then select **Advanced Settings**.
+1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
-    The **Business Management** settings page opens.
+    > [!div class="mx-imgBorder"]
+    > ![Advanced Settings option on the Settings menu](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
+
+    The **Business Management** page opens.
 
 2.  On the navigation bar, select **Settings**, and then under **Customization**, select **Customizations**.
 
@@ -37,17 +38,20 @@ To edit the mappings:
 
 5.  Select **Forms**.
 
-    ![Forms node of Contact entity in the solution explorer](media/forms-node-in-contact-entity.png "Forms node of Contact entity in the solution explorer")
+    > [!div class="mx-imgBorder"]
+    > ![Forms node of Contact entity in the solution explorer](media/forms-node-in-contact-entity.png "Forms node of Contact entity in the solution explorer")
 
 6.  Open the form of type **Quick Create**.
 
 7.  Locate and select the **Business Card** field on the form, and select **Change Properties** in the **Edit** group.
 
-    ![Scan business card field in the Contact form](media/scan-business-card-field-in-contact-form.png "Scan business card field in the Contact form")
+    > [!div class="mx-imgBorder"]
+    > ![Scan business card field in the Contact form](media/scan-business-card-field-in-contact-form.png "Scan business card field in the Contact form")
 
 8.  In the **Field Properties** dialog box, select **AI Builder Business Card control** on the **Control** tab.
 
-    ![Business card scanner control in the Field Properties dialog box](media/business-card-scanner-control-field-properties-dialog-box.png "Business card scanner control in the Field Properties dialog box")
+    > [!div class="mx-imgBorder"]
+    > ![Business card scanner control in the Field Properties dialog box](media/business-card-scanner-control-field-properties-dialog-box.png "Business card scanner control in the Field Properties dialog box")
 
 9.  Select the property that you want to change the mapping for, and select the **Edit** icon ![Edit icon](media/edit-icon.png "Edit icon") to change the value the field maps to.
 

@@ -1,24 +1,25 @@
 ---
-title: "Use knowledge for effective customer engagement in Unified Service Desk | MicrosoftDocs"
-description: "Learn how to use knowledge base for effective customer engagement in Unified Service Desk."
-ms.custom: dyn365-USD
+title: "Use knowledge base management for effective customer engagement in Unified Service Desk | MicrosoftDocs"
+description: "Learn how to use knowledge base management for effective customer engagement in Unified Service Desk."
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/17/2018
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 68ef2469-7976-4121-b107-2b88c15ade3c
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 ---
 
-# Use knowledge for effective customer engagement in Unified Service Desk
-Knowledge management plays an important part in the customer service process, and access to accurate and up-to-date information can help your customer service agents reduce the average handle time to provide quick and accurate answers to your customers. The new knowledge management solution in [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] guides you through the process of creating and publishing rich knowledge articles with multimedia data like pictures and videos. It also provides translation and versioning capabilities to support the knowledge lifecycle. If you’re using model-driven apps, you can set up knowledge management to use knowledge. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management](http://go.microsoft.com/fwlink/p/?LinkId=691083)  
+# Use knowledge base management for effective customer engagement in Unified Service Desk
+Knowledge base management plays an important part in the customer service process, and access to accurate and up-to-date information can help your customer service agents reduce the average handle time to provide quick and accurate answers to your customers. The new knowledge management solution in [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] guides you through the process of creating and publishing rich knowledge articles with multimedia data like pictures and videos. It also provides translation and versioning capabilities to support the knowledge lifecycle. If you’re using model-driven apps, you can set up knowledge management to use knowledge. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management](http://go.microsoft.com/fwlink/p/?LinkId=691083)  
   
  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] enables you to use the rich knowledge base from within the agent desktop so that your customer service agents can quickly search for relevant knowledge while working on a case, and provide accurate answers to the customers, without having to switch applications.  
 
@@ -67,16 +68,17 @@ Knowledge management plays an important part in the customer service process, an
   
   ![Knowledge base article can be popped out or in](../unified-service-desk/media/usd-kb-article-popped-out.png "Knowledge base article can be popped out or in")  
   
-  For information about how you can configure knowledge management integration in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Configure knowledge management in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md) and [Walkthrough 8: Use knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md).  
+  For information about how you can configure knowledge management integration in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Configure Unified Service Desk to use model-driven apps](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md) and [Walkthrough 8: Use knowledge base within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md).  
   
 ### See also  
- [Configure knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
+ [Configure Unified Service Desk to use model-driven apps](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
+ 
  [KM Control (Hosted Control)](../unified-service-desk/km-control-hosted-control.md)
 
  [Unified Interface KM Control (Hosted Control)](../unified-service-desk/unified-interface-km-control-hosted-control.md)
 
- [Walkthrough 8: Use knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)
+ [Walkthrough 8: Use knowledge base within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)
 
- [Set up knowledge management](http://go.microsoft.com/fwlink/p/?LinkId=691083)
+ [Set up knowledge base management](http://go.microsoft.com/fwlink/p/?LinkId=691083)
 
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)

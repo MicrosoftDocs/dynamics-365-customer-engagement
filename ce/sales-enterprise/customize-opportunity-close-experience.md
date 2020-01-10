@@ -1,14 +1,12 @@
 ---
 title: "Customize the opportunity Close form (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Customize the opportunity close experience in Dynamics 365 Sales to enable sales reps to capture important details about why an opportunity was closed."
-keywords: "Opportunity, Close, Closing, Customization, dialog box, quick create, custom fields,"
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 00b7d8fc-fc21-4c95-8e85-3d9ed19e828e
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -19,6 +17,9 @@ manager: annbe
 Enable sales managers to draw key insights based on the information the sales representatives fill in while closing an opportunity.
 
 System administrators or customizers can use the **Opportunity Close** quick create form to add custom fields, so that sales representatives can capture important details about why an opportunity was closed. Sales managers can use this data to know which products are doing well and develop a better strategy.
+
+> [!NOTE]
+> The capability to customize the **Opportunity Close** form is supported only in the sales app built on the Unified Interface.
 
 ## What customizations are possible?
 
@@ -50,21 +51,23 @@ To create fields,
 
 1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
-    ![Advanced Settings option on the Settings menu](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
+    > [!div class="mx-imgBorder"]
+    > ![Advanced Settings option on the Settings menu](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
 
     The **Business Management** page opens.
 
-1.  On the navigation bar, select **Settings**, and then select **Customizations**.
+2.  On the navigation bar, select **Settings**, and then select **Customizations**.
 
-    ![Customization option on the site map](media/customization-in-sitemap.png "Customization option on the site map")
+    > [!div class="mx-imgBorder"]
+    > ![Customization option on the site map](media/customization-in-sitemap.png "Customization option on the site map")
 
-2.  On the **Customization** page, select **Customize the System**.
+3.  On the **Customization** page, select **Customize the System**.
 
-3.  In the solution explorer, under **Components**, expand **Entities**, and then expand **Opportunity Close**.
+4.  In the solution explorer, under **Components**, expand **Entities**, and then expand **Opportunity Close**.
 
-4.  Under the **Opportunity Close** node, select **Fields**.
+5.  Under the **Opportunity Close** node, select **Fields**.
 
-5.  To add a new field, on the **Actions** toolbar, select **New**, and enter a **Display Name** to generate the **Name**. For more information on the data to enter, see [Create and edit fields (attributes)](../customize/create-edit-fields.md)
+6.  To add a new field, on the **Actions** toolbar, select **New**, and enter a **Display Name** to generate the **Name**. For more information on the data to enter, see [Create and edit fields (attributes)](../customize/create-edit-fields.md)
 
 
 ## Add newly created custom fields to the Opportunity Close form
@@ -75,7 +78,8 @@ After you’ve created the fields that are required by your organization, add th
 
 2.  Under **Opportunity Close** node, select **Forms**.
 
-    ![Forms node in Solution explorer](media/forms-node-solution-explorer.png "Forms node in Solution explorer")
+    > [!div class="mx-imgBorder"]
+    > ![Forms node in Solution explorer](media/forms-node-solution-explorer.png "Forms node in Solution explorer")
 
 3.  Open the **Opportunity Close** form of type **Quick Create**.
 

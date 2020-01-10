@@ -23,8 +23,8 @@ search.app:
 
 Partners can create a workflow or plug-in to implement their custom logic. For information about creating a workflow or plug-in, see:
 
-- [Workflows overview](../../customize/workflow-processes.md) and [Automate your business processes in Dynamics 365](../../developer/automate-business-processes-customer-engagement.md)
-- [Write plug-ins to extend business processes](../../developer/write-plugin-extend-business-processes.md)
+- [Workflows overview](../../customize/workflow-processes.md) and [Automate your business processes](../../developer/automate-business-processes-customer-engagement.md)
+- [Write plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins)
 
 The workflow or the plug-in should be configured to:
 

@@ -1,11 +1,12 @@
 ---
-title: "KM Control (Hosted Control) in Unified Service Desk | MicrosoftDocs"
-description: "Learn using the KM Control type of hosted control to display knowledge base articles in your agent application."
-ms.custom: dyn365-USD
-ms.date: 08/17/2018
-ms.service: dynamics-365-customerservice
+title: "KM Control (hosted control) in Unified Service Desk | MicrosoftDocs"
+description: "Learn how to use the KM Control type of hosted control to display knowledge base articles in your agent application."
+ms.custom: 
+  - dyn365-USD
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 8c4b9dd8-d37c-4256-b6c1-f2e42105c52b
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -16,8 +17,8 @@ search.app:
   - D365CE
   - D365USD
 ---
-# KM Control (Hosted Control)
-Use the **KM Control** type of hosted control to display knowledge base articles in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use knowledge base for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use knowledge](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)
+# KM Control (hosted control)
+Use the **KM Control** type of hosted control to display knowledge base articles in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use model-driven apps](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)
 
 <a name="Create"></a>   
 ## Create a KM Control hosted control  
@@ -27,11 +28,11 @@ Use the **KM Control** type of hosted control to display knowledge base articles
 
  In the **New Hosted Control** screen:  
 
-- Under **Unified Service Desk** area, select **KM Control** from the **USD Component Type** drop-down list.  
+- Under **Unified Service Desk** area, select **KM Control** from the **Unified Service Desk Component Type** drop-down list.  
 
 - The **Allow Multiple Pages** drop-down list is not supported for this hosted control type.  
 
-- The **Hosting Type** drop-down list specifies how you want this control to be hosted. You can **IE Process** (default) or **Internal WPF**. For more information, see [Select a hosting method for hosted controls](../unified-service-desk/select-hosting-method-controls.md).  
+- The **Hosting Type** drop-down list specifies how you want this control to be hosted. You can select **Chrome Process**. For more information, see [Select a hosting method for hosted controls](../unified-service-desk/select-hosting-method-controls.md).  
 
 - Under the **Common Properties** area, select the **Application is Global** check box to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall or search are common uses for global hosted controls. Global hosted controls do not have session-specific state so when you change sessions, these same global hosted controls remain. If the check box is not selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.  
 
@@ -41,7 +42,8 @@ Use the **KM Control** type of hosted control to display knowledge base articles
 
 <a name="actions"></a>   
 ## Predefined UII actions  
- These are the predefined actions for this hosted control type.  
+
+These are the predefined actions for this hosted control type.  
 
 <a name="Associate"></a>   
 ### Associate  
@@ -179,7 +181,7 @@ Use the **KM Control** type of hosted control to display knowledge base articles
 |`postdata`|The formdata object containing a set of key/value pairs representing form fields and their values for a knowledge article.|  
 
 ### See also  
- [Leverage knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)   
- [Configure knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
- [Walkthrough 8: Use knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)   
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
+ [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)   
+ [Configure Unified Service Desk to use model-driven apps](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
+ [Walkthrough 8: Use knowledge base within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)   
+ [Hosted control types, action, and event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)

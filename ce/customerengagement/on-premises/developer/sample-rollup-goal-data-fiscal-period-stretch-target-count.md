@@ -25,7 +25,7 @@ search.app:
 ---
 # Sample: Rollup goal data for a fiscal period against the stretch target count
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Goals samples](https://code.msdn.microsoft.com/Goals-Samples-539b2a34). 
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Goals samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Goals). 
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

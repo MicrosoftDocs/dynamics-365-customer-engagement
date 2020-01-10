@@ -1,15 +1,13 @@
 ---
 title: "What if you're no longer working a lead? (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn more how and when to disqualify a lead."
-keywords: "disqualify, delete, lead"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
+ms.service: 
+  - "dynamics-365-sales"
 ms.topic: article
-ms.assetid: 6e9d73ba-ee3b-4115-b875-c939bfe42512
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-caps.latest.revision: 4
 ---
 
 # What if you're no longer working a lead? (Sales and Sales Hub)
@@ -25,7 +23,8 @@ You'll need to disqualify the lead and give the reason.
   
 2. On the command bar, select **Disqualify**, and then select the reason.  
   
-   ![Shows how to disqualify leads in Dynamics 365 Sales](../sales-enterprise/media/sales-lead-disqualify.png "Shows how to disqualify leads in Dynamics 365 Sales")  
+   > [!div class="mx-imgBorder"]  
+   > ![Shows how to disqualify leads in Dynamics 365 Sales](../sales-enterprise/media/sales-lead-disqualify.png "Shows how to disqualify leads in Dynamics 365 Sales")  
   
 ### See also  
  [Create or edit a lead](../sales-enterprise/create-edit-lead-sales.md)   

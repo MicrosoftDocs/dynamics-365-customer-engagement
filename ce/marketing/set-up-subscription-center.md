@@ -1,12 +1,11 @@
 ---
 title: "Set up a subscription center (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create subscription lists and add them to a subscription center in Dynamics 365 Marketing"
-keywords: tutorial; subscription center; static list; subscription list; marketing page; page
 ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started-article
+ms.topic: article
 ms.assetid: 21159fd7-50cc-4879-884c-888bc0d6b457
 author: kamaybac
 ms.author: kamaybac
@@ -151,9 +150,9 @@ For a detailed walkthrough of how to create a marketing page, see [Create a land
 
 ## Identify a subscription center in content settings
 
-Content settings hold common values that you can place into an email message as dynamic text by using assist-edit (or by typing the correct code). You can create as many content-settings records as you need, and you must assign one to each customer journey. Because of this architecture, you can use the same email message in several customer journeys, but the subscription center link (and other content settings) included in the message can be different for each journey.
+Content settings hold common values that you can place into an email message as dynamic text by using assist- edit (or by typing the correct code). You can create as many content-settings records as you need, and you must assign one to each customer journey. Because of this architecture, you can use the same email message in several customer journeys, but the subscription center link (and other content settings) included in the message can be different for each journey.
 
-To work with content settings records, go to **Marketing** > **Templates** > **Content Settings**. This brings you to a list of current content settings. As usual, you can edit any listed record or select **New** on the command bar to create a new one.
+To work with content settings records, go to **Marketing** > **Marketing templates** > **Content Settings**. This brings you to a list of current content settings. As usual, you can edit any listed record or select **New** on the command bar to create a new one.
 
 > [!TIP]
 > Like email messages and customer journeys, content settings must be published to the Dynamics 365 Marketing email marketing service (by selecting **Go Live**). If you need to edit a live content-settings record, choose **Edit** on the toolbar after opening the record, make your changes, and then select **Save**; on save, it automatically publishes your changes and returns to the live state.
@@ -166,10 +165,10 @@ To specify a subscription center in the content settings:
 
 1. Select the **Subscription Center** field.
 
-1. Select the assist-edit button **&lt;/&gt;** for the **Subscription Center** field.
+1. Select the **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") for the **Subscription Center** field.
 
 1. The assist-edit dialog opens. Select the **Static** radio button.    
-    ![Assist-edit with Static selected](media/assist-edit-subcenter-1.png "Assist-edit with Static selected")
+    ![Assist edit with Static selected](media/assist-edit-subcenter-1.png "Assist edit with Static selected")
 
 1. From the **Select an option** combo box, select **Marketing page**.
 
@@ -187,7 +186,7 @@ To specify a subscription center in the content settings:
 1. Select **OK** to add the dynamic expression you have built to your content settings.
 
     > [!TIP]
-    > The expression you just created by using assist-edit is of the form:
+    > The expression you just created by using assist edit is of the form:
     >
     > **{{*EntityName*(*EntityID*).*AttributeName*}}**
     >
@@ -221,7 +220,7 @@ To add a subscription center link to a marketing email:
 1. Select the anchor text, and then select the **Link** button ![The link button](media/email-link-button.png "The Link button") from the floating toolbar, which opens the **Link** dialog box.    
       ![The email Link dialog](media/email-link-dialog.png "The email Link dialog box")  
 
-1. Select the assist-edit button for the **Link** field. In the assist-edit dialog, select **Contextual** and then **ContentSettings** on the first page. Select **Next** and then pick **Property** and **msdyncrm_subscriptioncenter** on the second page. Select **OK** to place the expression `{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}` into the **Link** field. 
+1. Select the **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") for the **Link** field. In the assist-edit dialog, select **Contextual** and then **ContentSettings** on the first page. Select **Next** and then pick **Property** and **msdyncrm_subscriptioncenter** on the second page. Select **OK** to place the expression `{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}` into the **Link** field. 
 
 1. Select **OK** to create the link.
 

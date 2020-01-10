@@ -1,18 +1,15 @@
 ---
 title: "Define related products to increase sales (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Improve your opportunities to increase sales by adding related products as suggestions for up-sell, cross-sell, accessories, or substitutes in Dynamics 365 Sales."
-keywords: "Related, product"
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: feff6902-ef54-47ff-a13f-e5edc213adb0
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-caps.latest.revision: 18
 ---
 
 # Define related products to increase sales
@@ -25,19 +22,21 @@ Improve your opportunities to increase sales by adding related products as sugge
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
-2. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Products**. 
+2. Select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), then select **App Settings**, and then select **Families and Products**.
 
 3. Open a product you want to define related products for. The product must be in the **Draft**, **Active** or **Under Revision** state. 
 
-4. Select the **Related** tab, and then select **Relationships**.
+4. Select the **Related** tab, and then select **Product Relationships**.
 
-    ![Relationships option on the Related tab](media/relationships-option-in-related-tab.png "Relationships option on the Related tab")
+    > [!div class="mx-imgBorder"]
+    > ![Relationships option on the Related tab](media/relationships-option-in-related-tab.png "Relationships option on the Related tab")
 
-    On the **Relationships** tab, you’ll see the list of products if the product has existing related products.
+    On the **Product Relationships** tab, you’ll see the list of products if the product has existing related products.
 
-5. Select **Add New Product Relationship**. 
+5. Select **New Product Relationship**. 
  
-    ![Add New Product Relationship button on the Relationships tab](media/relationships-tab.png "Add New Product Relationship button on the Relationships tab")
+    > [!div class="mx-imgBorder"]
+    > ![Add New Product Relationship button on the Relationships tab](media/relationships-tab.png "Add New Product Relationship button on the Relationships tab")
 
 6. In the **New Product Relationship** form, enter the following details: 
 

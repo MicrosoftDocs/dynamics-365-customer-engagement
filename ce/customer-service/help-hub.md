@@ -1,24 +1,18 @@
 ---
-title: Quick help for Customer Service Hub for Dynamics 365 Customer Service | MicrosoftDocs
-description: Your starting point for help of Customer Service Hub for Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
+title: "Help resources for Dynamics 365 Customer Service | MicrosoftDocs"
+description: "A starting point for help of Customer Service Hub for Dynamics 365 Customer Service."
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 11/20/2018
+ms.date: 11/04/2019
 ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365CS
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.custom: 
+  - "dyn365-customerservice"
 ---
 
-# Customer Service Hub Help & Training
+# Help resources for Customer Service Hub
 
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/6e415bd9-49b7-4416-b744-70278d9fa077" frameborder="0" allowfullscreen=""></iframe></div>
@@ -78,7 +72,7 @@ search.app:
 <td><h2>Accessibility &amp; GDPR</h2>
 <ul>
  <li> <a href="user-guide-customer-service-hub.md#accessibility-and-gdpr" data-raw-source="[Accessibility and GDPR in the Customer Service Hub](user-guide-customer-service-hub.md#accessibility-and-gdpr)">Accessibility and GDPR in the Customer Service Hub</a> </li> 
- <li><a href="https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility" data-raw-source="[Accessibility features for Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility)">Accessibility features for Customer Engagement</a></li>
+ <li><a href="https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility" data-raw-source="[Accessibility features for model-driven apps in Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility)">Accessibility features for model-driven apps in Dynamics 365</a></li>
  <li><a href="https://docs.microsoft.com/dynamics365/get-started/gdpr/index" data-raw-source="[Microsoft Dynamics 365 Customer Service and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index)">Microsoft Dynamics 365 Customer Service and GDPR</a></li>
 </ul>
 </td>
@@ -90,7 +84,7 @@ search.app:
   <li><a href="troubleshoot-case-email-issue.md" data-raw-source="[Issue converting an email to a case](troubleshoot-case-email-issue.md)">Issue converting an email to a case</a>
   <li><a href="troubleshoot-sla-timer-issue.md" data-raw-source="[SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)">SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday</a>
 </li>
-   <li><a href="troubleshoot-delete-managed-solution.md" data-raw-source="[Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)">Unable to delete a managed solution consisting an SLA enabled entity</a></li>
+  <li><a href="troubleshoot-delete-managed-solution.md" data-raw-source="[Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)">Unable to delete a managed solution consisting of an SLA-enabled entity</a></li>
   </ul><br/>  </td>
 
 <td><h2>Customize</h2>
@@ -127,14 +121,13 @@ search.app:
 </ul>
 </td>
 
-<td>&#160;</td>
+<td>
+<h2>Related apps & framework</h2>
+
+<li><a href="https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide)">Omnichannel for Customer Service Guide</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk" data-raw-source="[Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)">Unified Service Desk Guide</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)">Dynamics 365 Channel Integration Framework Guide</a></li>
+
+</td>
 
 </tr>
-
-
-
-
-
-
-
-

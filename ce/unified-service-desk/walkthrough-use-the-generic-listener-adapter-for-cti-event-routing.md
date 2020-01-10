@@ -1,18 +1,19 @@
 ---
 title: "Walkthrough  Use the generic listener adapter for CTI event routing | MicrosoftDocs"
 description: "Learn about using the CTI Desktop Manager and generic listener in to expose the CTI events as screen pops in Unified Service Desk."
-ms.custom: dyn365-USD
-ms.date: 01/25/2019
-ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: d6013727-b00e-4671-97c6-f0c0600da980
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType:
+search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 ---
@@ -39,15 +40,13 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
 <a name="step1"></a>   
 ## Step 1: Configure a CTI Desktop Manager hosted control in Unified Service Desk  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. On the nav bar, choose **Dynamics 365** > **Settings** > **Unified Service Desk**.  
+2. Select **Hosted Controls** under **Basic Settings**.  
   
-3. On the **Unified Service Desk** page, choose **Hosted Controls**.  
+3. Select **+ New**.  
   
-4. On the **Hosted Controls** page, choose **New**.  
-  
-5. On the **New Hosted Control** page, specify the following values.  
+4. On the **New Hosted Control** page, specify the following values.  
   
    |Field|Value|  
    |-----------|-----------|  
@@ -58,11 +57,9 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
    |Assembly Type|Microsoft.Crm.UnifiedServiceDesk.GenericListener.DesktopManager|  
   
    > [!NOTE]
-   >  The values specified in the **Assembly URI** and **Assembly Type** fields are the generic listener values for the **CTI Desktop Manager** hosted control type.  
+   >  The values specified in the **Assembly URI** and **Assembly Type** fields are the generic listener values for the **CTI Desktop Manager** hosted control type. 
   
-   ![Configure CTI Dekstop Manager hosted control](../unified-service-desk/media/usd-cti-desktop-manager.png "Configure CTI Dekstop Manager hosted control")  
-  
-6. Click **Save** to create the hosted control.  
+6. Select **Save** to create the hosted control.  
   
 <a name="step2"></a>   
 ## Step 2: Test if the CTI events are raised in Unified Service Desk  
@@ -89,26 +86,28 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
   
    ![Query for contacts based on email address](../unified-service-desk/media/usd-contactsadvancedfind.png "Query for contacts based on email address")  
   
-3. Click **Download Fetch XML** to save the query as `FetchXML`.  
+3. Select **Download Fetch XML** to save the query as `FetchXML`.  
   
-4. On the nav bar, choose **Dynamics 365** > **Settings** > **Unified Service Desk** > **Window Navigation Rules**.  
+4. Go to the Unified Service Desk Administrator app.
+
+5. Select **Window Navigation Rules**.  
   
-5. Click **New**, and on the **New Window Navigation Rule** window, specify the following values.  
+6. Select **+ New**
+
+7. On the **New Window Navigation Rule** window, specify the following values.  
   
    |Field|Value|  
    |-----------|-----------|  
    |Name|CTITestRoute|  
    |Order|50|  
    |From|CTITest<br /><br /> This is the name of your CTI Desktop Manager hosted control.|  
-   |Direction|Both|  
+   |Direction|Both|
   
-   ![New window navigation rule for routing CTI event](../unified-service-desk/media/usd-cti-route-rule.png "New window navigation rule for routing CTI event")  
+8. Save the rule. This enables the rest of the controls on the page.  
   
-6. Save the rule. This enables the rest of the controls on the page.  
+9. Now, add the `FetchXML` query that was saved earlier to this rule. Under the **CTI Searches** area, choose Add.  
   
-7. Now, add the `FetchXML` query that was saved earlier to this rule. Under the **CTI Searches** area, choose Add ![Add a record button](../unified-service-desk/media/crm-ua-add-record.gif "Add a record button").  
-  
-8. In the **New CTI Search** window, specify the following values:  
+10. In the **New CTI Search** window, specify the following values:  
   
    - **Name**: CTIContactSearch  
   
@@ -143,26 +142,24 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
   
    ![Define a CTI search for contacts](../unified-service-desk/media/usd-contactctisearch.png "Define a CTI search for contacts")  
   
-9. Save the CTI search rule, and return to the window navigation rule.  
+11. Save the CTI search rule, and return to the window navigation rule.  
   
-10. Under **Single Match**, in the **Decision** field, select **Create Session, Load Match then Do Action**.  
+12. Under **Single Match**, in the **Decision** field, select **Create Session, Load Match then Do Action**.  
   
-11. Under **Single Match**, in the **Action** field, click the search icon to select a value, and then click **New**.  
+13. Under **Single Match**, in the **Action** field, select the search icon to select a value, and then select **+ New**.  
   
-12. On the **New Action Call** page, create an action call to open the contact record by specifying the following values.  
+14. On the **+ New Action Call** page, create an action call to open the contact record by specifying the following values.  
   
     |Field|Value|  
     |-----------|-----------|  
     |Name|CTIOpenContact|  
     |Hosted Control|CRM Global Manager|  
     |Action|Open_CRM_Page|  
-    |Data|Id=[[$Context.Id]]<br />LogicalName=[[$Context.LogicalName]]|  
+    |Data|Id=[[$Context.Id]]<br />LogicalName=[[$Context.LogicalName]]|
   
-    ![Configure an action to display contact](../unified-service-desk/media/usd-ctiopencontact.png "Configure an action to display contact")  
+15. Save the action call, and then close the action call page to return to the window navigation rule definition page.  
   
-13. Save the action call, and then close the action call page to return to the window navigation rule definition page.  
-  
-14. Under the **Result** area:  
+16. Under the **Result** area:  
   
     1. In the **Destination** field, choose **Tab** to display the matching contact record in a tab.  
   
@@ -172,7 +169,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
   
     ![Specify appropriate values for the rule definition](../unified-service-desk/media/usd-windownavruledefinition.png "Specify appropriate values for the rule definition")  
   
-15. Save the window navigation rule.  
+17. Save the window navigation rule.  
   
 <a name="test"></a>   
 ## Test your CTI adapter  
@@ -181,7 +178,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
   
    ![Unified Service Desk client](../unified-service-desk/media/usd-usdclientwithdebugger.png "Unified Service Desk client")  
   
-2. Start the USD CTI Simulator application, type **Email** in the **Key** column and specify a valid email ID for the contact that you want to search. In this case, type someone_d@example.com in the **Value** column. Click **Send To USD**.  
+2. Start the USD CTI Simulator application, type **Email** in the **Key** column and specify a valid email ID for the contact that you want to search. In this case, type someone_d@example.com in the **Value** column. Select **Send To USD**.  
   
    ![Specify the email to search for a contact](../unified-service-desk/media/usd-testctiadapter01.png "Specify the email to search for a contact")  
   

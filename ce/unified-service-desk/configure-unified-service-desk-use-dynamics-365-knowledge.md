@@ -1,24 +1,25 @@
 ---
 title: "Configure Unified Service Desk to use model-driven apps | MicrosoftDocs"
 description: "Learn how to configure Unified Service Desk to use model-driven apps."
-ms.custom: dyn365-USD
-ms.date: 08/17/2018
-ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: c2e0f4b1-c09a-413c-b703-03ff851ffb9d
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 ---
 
-# Configure Unified Service Desk to use Model-driven apps
-The **KM Control** and **Unified Interface KM Control** type of hosted controls expose a bunch of events and action calls to configure an integrated experience for your agents to easily search for knowledge base articles in the Common Data Service platform from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and then perform various actions on the search result items.  
+# Configure Unified Service Desk to use model-driven apps
+The **KM Control** and **Unified Interface KM Control** types of hosted controls expose a bunch of events and action calls to configure an integrated experience for your agents to easily search for knowledge base articles in the Common Data Service platform from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and then perform various actions on the search result items.  
   
 ::: moniker range="dynamics-usd-3"
  Create an instance of the **KM Control** type of hosted control to begin with your configuration. After you have created an instance of the hosted control, you can configure things mentioned later in this topic.
@@ -65,7 +66,7 @@ articlepublicurl=[[KB Search.publicUrl]]
 ```  
   
 > [!NOTE]
->  If you are using the knowledge base, the `articleprivateurl` parameter isn’t applicable, and therefore the respective replacement parameter (in this case, `[[KB Search.serviceDeskUri]]` will always be null. So, you should use `articleprivateurl=[[KB Search.serviceDeskUri]+]` instead of `articleprivateurl=[[KB Search.serviceDeskUri]]` to ensure that a null or non-existent key is replaced with a blank string, or use conditions if you plan to use the Common Data Service platform . Also, the replacement parameter for `articlepubliceurl` (in this case `[[KB Search.publicUrl]]`) will contain data only if the knowledge article is already published to an external portal (**Use an external portal** option is selected in the **Knowledge Base management Settings** dialog box in the Common Data Service platform).  
+>  If you are using the knowledge base, the `articleprivateurl` parameter isn’t applicable, and therefore the respective replacement parameter (in this case, `[[KB Search.serviceDeskUri]]`) will always be null. So, you should use `articleprivateurl=[[KB Search.serviceDeskUri]+]` instead of `articleprivateurl=[[KB Search.serviceDeskUri]]` to ensure that a null or non-existent key is replaced with a blank string, or use conditions if you plan to use the Common Data Service platform . Also, the replacement parameter for `articlepublicurl` (in this case `[[KB Search.publicUrl]]`) will contain data only if the knowledge article is already published to an external portal (**Use an external portal** option is selected in the **Knowledge Base management Settings** dialog box in the Common Data Service platform).  
   
  The following syntax shows the data parameter you can use with the `Disassociate` action on the `KM Control` (say `KB Search`) to disassociate an article from an incident record.  
   
@@ -119,10 +120,10 @@ entitytypename=incident
 
 <a name="Other"></a>
 ## Configure other tasks for knowledge base articles
- You can configure other tasks for the knowledge base articles such as copy the link of an article or send an email with pre-populated values as the case title in the email subject and knowledge base article link in the email body. These tasks are available when you deploy the **Knowledge Management** sample application, and you can view the configuration for these tasks in your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps instance under **Settings** > **Unified Service Desk** ([How do I get there?](https://go.microsoft.com/fwlink/p/?LinkId=525636)).
+ You can configure other tasks for the knowledge base articles such as copy the link of an article or send an email with pre-populated values as the case title in the email subject and knowledge base article link in the email body. These tasks are available when you deploy the **Knowledge Management** sample application, and you can view the configuration for these tasks in your environment in **Unified Service Desk Administrator**.
 
 ### See also
- [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)
+ [Use knowledge management for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)
 
  [KM Control (Hosted Control)](../unified-service-desk/km-control-hosted-control.md)
 

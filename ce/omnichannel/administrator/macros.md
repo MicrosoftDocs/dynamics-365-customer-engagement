@@ -1,16 +1,13 @@
 ---
 title: "Macros in the Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about macros and how to configure in the Omnichannel Administration app." 
-keywords: ""
+description: "Learn about macros and how to configure in the Omnichannel Administration app."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 5CC1D385-5E05-4366-BFE9-4772F1E044A5
-ms.custom: 
 ---
 
 # Preview: Automate tasks with macros 
@@ -52,7 +49,11 @@ The macros are like reusable component where you can use the same macro with dif
 
 ## Prerequisites
 
-- Install Dynamics 365 Productivity Tools solution
+- Install Dynamics 365 Productivity Tools solution.
+
+- Ensure you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
+
+- Ensure agents and supervisors are assigned **Productivity tools user** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
 
 ## Built-in actions
 

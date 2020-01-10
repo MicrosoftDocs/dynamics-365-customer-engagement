@@ -1,10 +1,10 @@
 ---
 title: "Walkthrough 5  Display enhanced session information by displaying session name and overview data | MicrosoftDocs"
 description: "Demonstrates how to dynamically display session name and session overview information in Unified Service Desk to enhance the customer-interaction experience for your agents."
-ms.date: 05/07/2018
-ms.service: usd
+ms.date: 12/31/2019
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: ED76404B-A0DD-4F59-83FB-C1036BE92961
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -51,37 +51,32 @@ In the previous walkthrough, [Walkthrough 4: Display a Unified Interface apps re
 ## Step 1: Create a Session Lines type of hosted control to display session overview information  
  To display session overview information in your agent application, create an instance of a **Session Lines** type of hosted control in your agent application.  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Hosted Controls** under **Basic Settings**.  
   
-3. Click **Hosted Controls**.  
+3. Select **+ New**.  
   
-4. Click **New**.  
-  
-5. On the **New Hosted Control** page, specify the following values:  
+4. On the **New Hosted Control** page, specify the following values:  
   
    |Field|Value|  
    |-----------|-----------|  
    |Name|Contoso Session Overview|  
    |USD Component Type|Session Lines|  
-   |Display Group|SessionExplorerPanel|  
+   |Display Group|SessionExplorerPanel| 
   
-   ![Create a Session Lines hosted control](../unified-service-desk/media/crm-itpro-usd-wt05-01-unified-interface.png "Create a Session Lines hosted control")  
-  
-6. Click **Save**. 
+5. Select **Save**. 
   
 <a name="Step2"></a>   
-## Step 2: Define session name information  
+## Step 2: Define session name information 
+
  To dynamically display the session tab name, you’ll configure a session lines rule using the replacement parameters.  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Session Lines** under **Basic Settings**.
   
-3. Click **Session Lines**.  
-  
-4. Click **New**.  
+3. Select **+ New**.  
   
 5. On the **New Session Information** page, specify the following values:  
   
@@ -91,25 +86,21 @@ In the previous walkthrough, [Walkthrough 4: Display a Unified Interface apps re
    |Name|Contoso Session Name|  
    |Selected Entity|account|  
    |Type|Session Name|  
-   |Display|Session: [[account.name]]<br /><br /> We are using the replacement parameters to define the session tab name format. In this case the session name will be **Session:** followed by the name of the account record that is displayed in the session.|  
+   |Display|Session: [[account.name]]<br /><br /> We are using the replacement parameters to define the session tab name format. In this case the session name will be **Session:** followed by the name of the account record that is displayed in the session.| 
   
-   ![Define session tab name text and format](../unified-service-desk/media/crm-itpro-usd-wt05-02-unified-interface.png "Define session tab name text and format")  
-  
-6. Click **Save**.  
+6. Select **Save**.  
   
 <a name="Step3"></a>   
 ## Step 3: Define session overview information  
  Define the session overview information to display in the **Session Lines** type of hosted control that you configured in step 1.  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Unified Service Desk Administrator. 
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Session Lines** under **Basic Settings**.  
   
-3. Click **Session Lines**.  
+3. Select **+ New**.  
   
-4. Click **New**.  
-  
-5. On the **New Session Information** page, specify the following values.  
+4. On the **New Session Information** page, specify the following values.  
   
    - **Order**: Any random value; say 6.  
   
@@ -146,11 +137,9 @@ In the previous walkthrough, [Walkthrough 4: Display a Unified Interface apps re
        ```  
   
        > [!NOTE]
-       >  This sample uses XAML and replacement parameters to define the session overview information that displays the current account’s primary contact, address, and phone number in the session overview area.  
+       >  This sample uses XAML and replacement parameters to define the session overview information that displays the current account’s primary contact, address, and phone number in the session overview area. 
   
-   ![Define session overview information](../unified-service-desk/media/crm-itpro-usd-wt05-03-unified-interface.png "Define session overview information")  
-  
-6. Click **Save**.
+5. Select **Save**.
   
 <a name="Step4"></a>   
 ## Step 4: Add the controls to the configuration  
@@ -166,23 +155,25 @@ In the previous walkthrough, [Walkthrough 4: Display a Unified Interface apps re
   
  To add a control to the configuration:  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Configuration** under **Advanced Settings**.  
   
-3. Click **Configuration**.  
+3. Select **Contoso Configuration** to open the definition.  
   
-4. Click **Contoso Configuration** to open the definition.  
+4. Select the **Hosted Controls, Events and Action Calls** tab.  
+
+5. Select the ellipsis (...) in the **Hosted Controls** section, and then select **Add Existing Hosted Control**. The **Lookup Records** pane is displayed.
+
+6. Type he name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.  
   
-5. On the nav bar, click the down arrow next to **Contoso Configuration**, and select **Hosted Controls**.  
+7. Select the **Session Lines, Agent Scripts and Scriptlets** tab.  
+
+8. Select the ellipsis (...) in the **Session Lines** section, and then select **Add Existing Session Line**. The **Lookup Records** pane is displayed.
+
+9. Type he name of the Session Line mentioned in the above table in the search box. The session line is displayed in the search results. Select the record from the list, and then select **Add**.  
   
-6. On the next page, click **Add Existing Hosted Control**, type “`Contoso Session Overview`” in the search bar, and then press ENTER or click the search icon.  
-  
-7. In the search result box, click the hosted control to add it to **Contoso Configuration**.  
-  
-8. Similarly, add the session line controls by clicking the down arrow next to **Contoso Configuration**, and clicking **Session Lines**.  
-  
-9. Click **Save**.  
+10. Select **Save**.  
   
 <a name="Step5"></a>   
 ## Step 5: Test the application  

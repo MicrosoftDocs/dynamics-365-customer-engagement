@@ -31,9 +31,8 @@ The following illustration provides a high-level overview of the operation flow 
 2. On creation of the entity instance, the custom business logic present in a partner-developed plug-in or workflow is triggered, and interacts with the external service to execute custom operations. For example, send a message to the external service and receive a response from the external service.
 3. Activity execution feedback is processed through a custom action, **CustomChannelActivity CreateInteraction**, and the interactions are sent to the marketing-insights service to enable analytics and triggers on the interactions. For example, one message could generate three interactions: sent, delivered, opened.
   
-  
-### See also 
+## See also 
 
 [Workflows overview](../../customize/workflow-processes.md)  
-[Write plug-ins to extend business processes](../../developer/write-plugin-extend-business-processes.md)  
-[Web resources for Dynamics 365](../../developer/web-resources.md)  
+[Write plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins)  
+[Web resources for Common Data Service](/powerapps/developer/model-driven-apps/web-resources)  

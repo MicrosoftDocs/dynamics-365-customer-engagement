@@ -2,9 +2,9 @@
 title: "Unified Interface Page (Hosted Control) | MicrosoftDocs"
 description: "Learn about the Unified Interface Page hosted control type to load a URL or page from the model-driven app. When a model-driven apps page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
 ms.date: 04/24/2018
-ms.service: usd
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 3AEB8475-FCBE-4526-8000-CF06CED9586C
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -27,7 +27,7 @@ While creating a new hosted control, the fields in the New Hosted Control screen
 
 In the New Hosted Control screen:
 
-- Under **[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]** area, select **Unified Interface Page** from the **USD Component Type** drop-down list.
+- Under **[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]** area, select **Unified Interface Page** from the **Unified Service Desk Component Type** drop-down list.
 
 - Select **Pre-fetch Data** to load related information for an entity record in the context along with the entity record page without having to wait for the full entity web page to load in the client application. The fetched entity information is populated in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context thus enabling any hosted control to quickly display relevant entity information on the client application. This could help agents instantly act or kick start discussion with customers, and save crucial interaction time.
 

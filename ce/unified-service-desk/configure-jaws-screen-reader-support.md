@@ -5,9 +5,9 @@ ms.custom:
   - dyn365-a11y
   - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: D9FE67A6-2E02-48DF-B9C2-4250433D72BE
 author: kabala123
 ms.author: kabala
 manager: shujoshi

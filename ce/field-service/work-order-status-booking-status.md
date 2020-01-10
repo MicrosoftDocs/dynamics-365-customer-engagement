@@ -243,7 +243,7 @@ Here is the customer asset that results from the used work order product. Notice
 - **Booking Timestamp** is created.
 
 #### In Progress
-- **Actual Arrival Time** field is updated with the date and time the booking status was changed.
+- **Actual Arrival Time** field is updated with the date and time the when booking status is changed from the mobile app or schedule board, but not from the form.
 - **Actual Travel Duration** field is updated, calculated as the total time the booking status is **Traveling**.
 - **Booking Timestamp** is created.
 
@@ -350,7 +350,7 @@ For the following fields:
 > [!Note]
 > **Field Service Status** is required when creating booking statuses for Field Service use cases. This allows the booking status to fit into the above work order processes. By default, only booking statuses with field service statuses are available for work order bookings, but this is editable in **Booking Setup Metadata**.
 
-Finally, **Save and Close**.
+Click **Save and Close**.
 
 This means the new **Delayed Booking Status** will appear as an option on the Field Service Mobile for field technicians, and on the schedule board. 
 
@@ -373,7 +373,7 @@ For the following fields:
 
 **Default Substatus:** set to **Yes** if all **Open-Completed** work orders should be given a substatus of **Follow-Up Required** by default. For our example, we will choose **No** because not all completed work orders require a follow-up so it's left to the discretion of the field technician.
 
-Finally, **Save and Close**.
+Click **Save and Close**.
 
 Unlike work order system statuses, work order substatuses can be updated on the mobile app by the field technicians. 
 
@@ -395,7 +395,7 @@ Options include:
 
 If you create a new custom **Booking Status**, then you should pick a scheduling method that relates to the field service booking status. For example, the out-of-the-box booking status **Traveling** has an RSO scheduling method set to **Do Not Move** because RSO should not move bookings that a field technician is traveling to. Therefore, using our previous example, our new **Delayed** booking status is related to the **Traveling** Field Service status, so its scheduling method should be set to **Do Not Move** as well.
 
-See the topic on [RSO configuration](rso-configuration.md) for more details.
+See the topic on [Resource Scheduling Optimization (RSO) configuration](rso-configuration.md) for more details.
 
 ### See also
 - [Booking Statuses blog post](https://community.dynamics.com/365/b/365teamblog/archive/2017/06/01/manage-the-status-of-your-team-s-bookings-with-universal-resource-scheduling)

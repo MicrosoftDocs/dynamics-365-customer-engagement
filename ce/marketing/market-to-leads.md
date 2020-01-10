@@ -46,7 +46,7 @@ Dynamics 365 Marketing lets you create segments based on queries against your cu
 
 For example, to set up a segment that finds all the leads collected at a recent conference, you could do the following:
 
-1. Go to **Marketing** > **Customers** > **Segments** and select **New** on the command bar. Then select **Demographic** on the **Let's create your segment** screen.
+1. Go to **Marketing** > **Customers** > **Segments** and select **New** on the command bar. The **Segment templates** dialog box opens; select **Cancel** to close it, and then select **Demographic** on the **Let's create your segment** screen.
 
 1. A new demographic segment opens. Check the view setting near the upper corner of the **Definition** tab and make sure it's set to **Tree view**. (You could use either view, but in this procedure we show and describe the tree view, so it's a good idea to use it for now.)
 
@@ -85,7 +85,7 @@ Segments, customer journeys, and other Dynamics 365 Marketing features require t
 
 To solve this, you can use Dynamics 365 custom workflows to automatically generate and link a contact record for each new or existing unmatched lead record. To create the link, populate the `parentcontactid` field of each lead record with the GUID of the relevant contact record (this field is labelled as **Parent contact for lead** when you're designing a workflow in the UI). This field connects to the contact record through an N:1 relation called `lead_parent_contact`.
 
-For more information about workflows, start with the [Workflows overview](../customize/workflow-processes.md).
+For more information about workflows, start with the [Classic Common Data Service workflows](https://docs.microsoft.com/flow/workflow-processes).
 
 Also, any user can manually select or create a contact for a lead by using the **Inquiry** stage of the **Lead to opportunity marketing sales process** business process on the lead record.
 

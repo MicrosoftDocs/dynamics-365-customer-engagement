@@ -22,6 +22,8 @@ search.app:
 ---
 # Copy an instance to a Sandbox instance
 
+[!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
+
 You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] to copy the model-driven apps in Dynamics 365, such as Dynamics 365 Sales and Customer Service, and all data from any instance to a Sandbox instance. You can do either a full or minimal copy.  
   
 > [!NOTE]

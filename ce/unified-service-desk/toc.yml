@@ -130,6 +130,8 @@
       href: admin/download-migration-assistant.md      
     - name: Migration steps
       href: admin/migration-steps-web-client-unified-interface-configuration.md
+    - name: Post-requisites steps
+      href: admin/test-migration.md
   - name: Migrate Unified Service Desk configuration to another Customer Engagement instance 
     items:    
     - name: Migration of a Unified Service Desk configuration
@@ -242,16 +244,16 @@
         href: unified-service-desk-unified-interface-configuration-walkthroughs.md
       - name: 'Walkthrough 1: Build a simple agent application for Unified Interface Apps'
         href: walkthrough1-unified-interface-build-a-simple-agent-application.md
-      - name: 'Walkthrough 2: Display an external webpage in your agent application'
-        href: walkthrough-2-display-an-external-webpage-in-your-agent-application.md
+      - name: 'Walkthrough 2: Display an external webpage in your agent application' 
+        href: walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md
       - name: 'Walkthrough 3: Display records in your agent application'
-        href: walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md
+        href: walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md
       - name: 'Walkthrough 4: Display a record in a session in your agent application'
-        href: walkthrough-display-dynamics-365-record-session-agent-application.md
+        href: walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md
       - name: 'Walkthrough 5: Display enhanced session information by displaying session name and overview data'
-        href: walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md
+        href: walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md
       - name: 'Walkthrough 6: Configure the Debugger hosted control in your agent application'
-        href: walkthrough-configure-debugger-hosted-control-agent-application.md
+        href: walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md
       - name: 'Walkthrough 7: Configure agent scripting in your agent application'
         href: walkthrough7-unified-interface-configure-agent-scripting-agent-application.md
     - name: Configure using Web Client
@@ -579,3 +581,10 @@
   href: admin/accessibility-unified-service-desk-microsoft-dynamics-365.md
 - name: Known issues and limitations of Unified Service Desk
   href: release-notes.md
+
+- name: Dynamics 365 Customer Service
+  href: https://docs.microsoft.com/dynamics365/customer-service/help-hub
+- name: Omnichannel for Customer Service Guide
+  href: https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide
+- name: Dynamics 365 Channel Integration Framework Guide
+  href: https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework

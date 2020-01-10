@@ -1,11 +1,12 @@
 ---
 title: "Release history (Unified Service Desk )| MicrosoftDocs"
-description: "The topic provide release history information for the Unified Service Desk Guide."
-ms.custom: dyn365-USD
+description: "This topic provides release history information for the Unified Service Desk Guide."
+ms.custom: 
+  - dyn365-USD
 ms.date: 07/15/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 1949915b-77a0-4489-addf-b3b3b37c3e89
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -50,7 +51,7 @@ The list provides an overview of documentation updates made in [!INCLUDE [pn-uni
 | [Unified Interface Settings](admin/unified-interface-settings.md) | Unified Interface Settings is a new configuration element introduced under Advanced Settings in the Unified Service Desk Administrator app. Unified Interface Settings enables you as an administrator to configure the default Unified Interface App for your agents and transform the Unified Service Desk sign-in experience. <br><br> Topic under [Administer and manage Unified Service Desk](admin/administer-manage-unified-service-desk.md).|
 | [Recover a Chrome Process instance](admin/recover-chrome-process-instance.md) | Unified Service Desk can help agents to recover the terminated (crashed) webpages hosted in Chrome Process in Unified Service Desk. <br><br> New topic under [Administer and manage Unified Service Desk](admin/administer-manage-unified-service-desk.md). |
 | [Cache specific configuration for agents ](admin/set-configuration-cache-version.md) | New topic about caching specific configurations for the agents. <br><br> Topic under [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md) |
-| [Pool process instances for Chrome Process](admin/performance-enhancement-crm-entity-page-loads.md#pool-process-instances-for-chrome-process) | New section about pooling of Chrome Process instance. <br><br> New section in [Performance enhancement for loading Customer Engagement app pages](admin/performance-enhancement-crm-entity-page-loads.md) |
+| [Pool process instances for Chrome Process](admin/performance-enhancement-crm-entity-page-loads.md#pool-process-instances-for-chrome-process) | New section about pooling of Chrome Process instance. <br><br> New section in [Performance enhancement for loading app pages](admin/performance-enhancement-crm-entity-page-loads.md) |
 | [Configure notifications in Unified Service Desk](configure-notifications-unified-service-desk.md) | Updated information about configuring stack notification in Unified Service Desk.|
 | [Navigate on the notifications using keyboard shortcuts](configure-notifications-unified-service-desk.md#navigate-on-the-notifications-using-keyboard-shortcuts) | New UII options for navigating on the stack notifications. <br><br> New section in [Configure notifications in Unified Service Desk](configure-notifications-unified-service-desk.md) |
 | [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md) | New topic about hosting web applications using Chrome Process in Unified Service Desk <br><br> Topic under [Select a hosting method for your controls in Unified Service Desk](select-hosting-method-controls.md).  |

@@ -1,16 +1,13 @@
 ---
 title: "Agent scripts in the Omnichannel for Customer Service app | MicrosoftDocs"
-description: "Learn how to use agent scripts in the Omnichannel for Customer Service app." 
-keywords: ""
+description: "Learn how to use agent scripts in the Omnichannel for Customer Service app."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 90361CFB-001A-4EFF-8BCF-5505CF14D052
-ms.custom: 
 ---
 
 # Preview: Guide customer interaction with agent scripts
@@ -43,6 +40,10 @@ The agent script section consists of a set of steps. Based on the type of agent 
 - Agent script
 
 Each of the steps can be identified with the actionable icon. When you expand a step, the section displays a short description of what the step entails and the action you need to perform using the icons next to it. The step that is executed successfully is indicated with a green Tick icon, and the step that has an error is indicated with a red Cross icon. You can execute the steps again as needed, and the final state of the step, green Tick or red Cross, is based on the last run.
+
+## Prerequisite 
+
+Ensure you (agent and supervisor) have the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](../../administrator/add-users-assign-roles.md).
 
 ## Text instructions
 

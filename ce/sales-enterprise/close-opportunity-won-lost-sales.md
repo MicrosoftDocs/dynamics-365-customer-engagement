@@ -1,18 +1,15 @@
 ---
 title: "Close opportunities as won or lost (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Close the opportunity to indicate whether it was won or lost."
-keywords: "Close, Won, Lost, opportunity, proposal"
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: be3ff5e6-019b-4c07-aebb-e5792af19b4d
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-caps.latest.revision: 13
 ---
 
 # Close opportunities as won or lost (Sales and Sales Hub)
@@ -33,7 +30,8 @@ If your customer has accepted your proposal, congratulations! However, whether y
  
    - To close your opportunity as lost, select **Close as Lost**.
 
-      ![Close as Won and Close as Lost options on the Opportunity form](media/close-opportunity.png "Close as Won and Close as Lost options on the Opportunity form")
+      > [!div class="mx-imgBorder"]  
+      > ![Close as Won and Close as Lost options on the Opportunity form](media/close-opportunity.png "Close as Won and Close as Lost options on the Opportunity form")
 
 4. When you close the opportunity as **Won**, in the **Close Opportunity** dialog box, do the following, and select **OK**:
 
@@ -41,7 +39,8 @@ If your customer has accepted your proposal, congratulations! However, whether y
     
     - In **Description**, enter details about what contributed to winning this opportunity. 
 
-      ![Close Opportunity dialog box when the opportunity is won](media/close-as-won.png "Close Opportunity dialog box when the opportunity is won")
+      > [!div class="mx-imgBorder"]  
+      > ![Close Opportunity dialog box when the opportunity is won](media/close-as-won.png "Close Opportunity dialog box when the opportunity is won")
 
     When you close the opportunity as **Lost**, in the **Close Opportunity** dialog box, do the following, and select **OK**:
   
@@ -49,7 +48,8 @@ If your customer has accepted your proposal, congratulations! However, whether y
     
     -  In **Description**, add more details around why the opportunity was lost.
 
-        ![Close Opportunity dialog box when the opportunity is lost](media/close-as-lost.png "Close Opportunity dialog box when the opportunity is lost")
+        > [!div class="mx-imgBorder"]  
+        > ![Close Opportunity dialog box when the opportunity is lost](media/close-as-lost.png "Close Opportunity dialog box when the opportunity is lost")
 
     > [!IMPORTANT]
     > If your system administrator has enabled custom fields on the Opportunity Close form, you may be required to fill in data in other fields as defined by your organization. 
@@ -69,7 +69,8 @@ If you've closed an opportunity as lost, but would like to start discussions abo
 
 2. To see all the closed opportunities, in the view selector, select the **Closed Opportunities** view.  
 
-    ![Closed Opportunities view in the view selector](media/select-closed-opportunities-view.png "Closed Opportunities view in the view selector")
+    > [!div class="mx-imgBorder"]  
+    > ![Closed Opportunities view in the view selector](media/select-closed-opportunities-view.png "Closed Opportunities view in the view selector")
 
 3. Select the opportunity that you want to repoen, and on the command bar, select **Reopen Opportunity**. The reopened opportunities start appearing in the open opportunities list.
   

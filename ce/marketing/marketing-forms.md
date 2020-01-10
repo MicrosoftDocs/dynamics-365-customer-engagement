@@ -87,6 +87,8 @@ The following settings and information are provided on the **Summary** tab:
     - **Error image URL**: The error-notification message includes a small graphic. By default, it shows a red circle with an X mark. If you prefer a custom graphic, then upload the graphic somewhere and enter the full URL here.
     - **Limit exceeded notification**: Enter a short message announcing that the system has stopped processing new submissions temporarily, and inviting the user to try again later. This situation can occur if the server detects a submission pattern consistent with abuse of the system and has therefore entered a defensive stance.
     - **Redirect URL**: Enter a URL to send the submitter to immediately after they submit the form. This typically would be a page on your own website that thanks the submitter and confirms their submission, or some other message related to the purpose of your marketing page.
+    - **Store all form submissions**. Marketing-form records  provide a tab called **Form submissions**, where you can see all incoming submissions for the current form that haven't been processed yet. Failed submissions will remain listed here so you can inspect,  possibly fix, and resubmit them. Set this option to **Yes** if you'd also like to keep a record of all successfully processed submission here, which you'll also be able to inspect, update, and resubmit if needed. Set this to **No** to keep only pending and failed submission in the list. Either way, all successfully processed submissions will be applied to your database, and you'll always be able to see these submissions on the **Insights** > **Submissions** tab (but you can't edit or resubmit from there). More information: [Edit and resubmit form submissions](failed-submissions.md)
+
 - **Timeline**: Shows a history of notes and other activities related to the current form. Most types of entities in Dynamics 365 Marketing include this type of display.
 - **Related marketing pages**: Here you can see a list of marketing pages where this form is used. Select any listed page to open it.
 - **Related fields**: Here you can see a list of fields used in this form. Select any listed field to open its definition.
@@ -198,7 +200,7 @@ As with marketing pages themselves, marketing forms are also based on templates,
 
 Dynamics 365 Marketing comes with a collection of sample form templates, and you can also save your own templates, which you might do to establish your own visual identity and quickly create new forms that conform to it.
 
-You can view, edit, and create form templates by going to **Marketing** > **Templates** > **Marketing Form Templates**. The process for creating a new template is nearly the same as creating a new form.
+You can view, edit, and create form templates by going to **Marketing** > **Marketing templates** > **Form templates**. The process for creating a new template is nearly the same as creating a new form.
 
 ## Add a form to a marketing page
 

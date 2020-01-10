@@ -1,11 +1,12 @@
 ---
 title: "Create custom listeners for auditing, diagnostics and traces | MicrosoftDocs"
 description: "Learn about creating custom listeners that lets you target the log output to files, the event log, or other sources. Until the previous version of Unified Service Desk, you could only use the standard listeners to write auditing, diagnostics, and trace logs in Unified Service Desk."
-ms.custom: dyn365-USD
-ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: c4290a42-e760-4eba-a11d-de605e239c2d
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -209,9 +210,7 @@ namespace SampleCustomUSDListener
   
 <a name="ListenerHostedControl"></a>   
 ## Create Listener Hosted Control instances to use your custom listener code  
- The new Listener hosted Control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] lets you reference and use your custom listener code for logging data as per your code. The **Assembly Info** area in the new hosted control screen lets you specify the details about your assembly that you want to be referred to by the Listener Hosted Control. Specify your assembly (.dll) name in the **Assembly URI** field, and *\<AssemblyName>.\<ClassName>* in the **Assembly Type** field. The *\<ClassName>* should be the class that contains your code.  
-  
- ![Create a Listener Hosted Control](../unified-service-desk/media/usd-listener-hosted-control-1.png "Create a Listener Hosted Control")  
+ The new Listener hosted Control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] lets you reference and use your custom listener code for logging data as per your code. The **Assembly Info** area in the new hosted control screen lets you specify the details about your assembly that you want to be referred to by the Listener Hosted Control. Specify your assembly (.dll) name in the **Assembly URI** field, and *\<AssemblyName>.\<ClassName>* in the **Assembly Type** field. The *\<ClassName>* should be the class that contains your code.
   
  For example, if we consider the sample code for custom listeners earlier in this topic and assuming that all the sample codes are compiled into a single assembly called SampleCustomUSDListener.dll, you must create a listener hosted control record each for audit, diagnostic, and trace with the following values in the **Assembly URI** and **Assembly Type** fields.  
   

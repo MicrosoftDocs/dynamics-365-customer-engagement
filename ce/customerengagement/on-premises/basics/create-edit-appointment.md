@@ -1,7 +1,7 @@
 ---
 title: "Create or edit an appointment (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 11/17/2017
+ms.date: 10/31/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,6 +22,9 @@ search.app:
 # Create or edit an appointment
 
 Block time to meet or talk to your customers by using appointments. You can modify any of the information in an open appointment. If you change the date and times of the appointment, the appointment will be rechecked for schedule conflicts.  
+
+> [!NOTE]
+> Recurring appointments are not supported on the Dynamics 365 App for Outlook, Dynamics 365 for phones app, and when you run the model-driven apps web client on your mobile phone web browser. 
 
 The calendar displays canceled and completed appointments and service activities. 
 
