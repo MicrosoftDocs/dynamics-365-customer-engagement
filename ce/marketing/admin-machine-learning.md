@@ -32,10 +32,8 @@ search.app:
 Dynamics 365 Marketing provides several artificial intelligence (AI), which include:
 
 - **[Spam score](spam-score.md)**, which analyzes the content of each marketing email message and generates a score that predicts how likely it is to be flagged by content-based spam filters.
-- **[Smart scheduler](smart-scheduler.md)**, which analyzes email results to identify the days and times when each contact is most likely to be actively reading his or her email. It combines specific results for each contact with general results that apply to similar contacts identified by the AI. 
-- **[Segment booster](segment-boost.md)**, which finds prospects who resemble and behave like the best contacts from a current segment and automatically adds those contacts to a running customer journey.
-
-Each of these features applies AI technologies to generate their recommendations. The system "learns" by analyzing all the data available in your system in combination with general trends found across Microsoft services. The recommendations provided are tuned to apply to your specific customers based on your collected history of marketing activities and contact interactions. The more results you have in your system, and the more you use these features, the "smarter" the system becomes.
+- **[Smart scheduler](smart-scheduler.md)**, which "learns" the days and times when each contact is most likely to be actively reading his or her email by analyzing the email results in your system. It combines specific results for each contact with general results that apply to similar contacts identified by the AI. The more results you have in your system, and the more you use this features, the "smarter" the system becomes. 
+- **[Segment booster](segment-boost.md)**, which finds prospects who resemble and behave like the best contacts from a current segment and automatically adds those contacts to a running customer journey. 
 
 When you first install Dynamics 365 Marketing, all artificial intelligence (AI) features are disabled by default and include privacy settings that can help make sure that you remain compliant with local privacy regulations (including GDPR) and other laws when you use them.
 
