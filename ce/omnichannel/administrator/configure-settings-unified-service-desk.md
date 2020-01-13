@@ -4,7 +4,7 @@ description: "Learn how to configure recommended settings for Unified Service De
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 01/13/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -15,6 +15,9 @@ ms.topic: article
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 The topic explains the recommended settings for Unified Service Desk.
+
+> [!Note]
+> Unified Service Desk single sign-on is not compatible with Omnichannel for Customer Service.
 
 ## Set up Chrome Process with Unified Service Desk
 
