@@ -116,7 +116,7 @@ To set working hours:
 
  > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/resource-work-hours-new-navigate.png)
-
+In Field Service **v8.8.14** or later the work hours are displayed directly in the form.
 
 
 Select **+New** > **Working hours**
