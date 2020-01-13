@@ -144,7 +144,7 @@ Define the level of service or support that your organization agrees to offer to
      ![Success criteria for an SLA](../customer-service/media/crm-ua-sla-details-success-criteria.png "Success criteria for an SLA")  
 
      > [!NOTE]
-     >  Before you specify the SLA failure and warning actions, save the SLA item record.  </br> </br> If the conditions configured in the SLA fields are conflicting, then the SLA is cancelled before meeting the success or failure criteria. For example, if the **Case Status** field is set as **Active** in the **Applicable When** section and is set as **not equal to Active** in the **Success Criteria** section, then the SLA will be cancelled when implemented.
+     >  Before you specify the SLA failure and warning actions, save the SLA item record.  </br> </br> If the conditions configured in the SLA fields are conflicting, then the SLA is canceled before meeting the success or failure criteria. For example, if the **Case Status** field is set as **Active** in the **Applicable When** section and is set as **not equal to Active** in the **Success Criteria** section, then the SLA will be canceled when implemented.
 
    - Under **SLA Item Failure**, in the **Failure After** drop-down list, select when the SLA items will be considered as failed. For example, if you select **1 hour**, the KPI will be considered as failed if the first response is not done within 1 hour of case creation. 1 hour is calculated based on the value in date/time field that you select in the **Applicable From** field of the SLA record.  
 
@@ -216,12 +216,12 @@ Define the level of service or support that your organization agrees to offer to
 
    - **SLA KPI**. Select the key performance indicator the SLA item is about. For example, if you are creating a KPI for sending the first response within a specified time, select the **First Response By KPI** option from the drop-down list.  
 
-        For example, select **First Response By KPI** in the **SLA KPI** field, and set **Failure After** to 2 hours from                      record                     creation. If the                      record                     is created at 09:00, the **Failure Time** field of the SLA KPI Instance record is set to 11:00 assuming the business hours are 24 x 7.  
+        For example, select **First Response By KPI** in the **SLA KPI** field, and set **Failure After** to 2 hours from record creation. If the record is created at 09:00, the **Failure Time** field of the SLA KPI Instance record is set to 11:00 assuming the business hours are 24 x 7.  
 
        > [!TIP]
        >  If you're creating an SLA for a Case entity, by default, there are two options available in the drop-down list. If you want to track other KPIs      for Case or if you're creating the SLA for entities other than Case, ask your system customizer to create new fields (of type lookup) that refer to the SLA KPI Instance entity.  
 
-   - In the **Applicable When** section, define the conditions under which the KPI will be applicable. The condition can be based on primary entity                     or related entity fields.  
+   - In the **Applicable When** section, define the conditions under which the KPI will be applicable. The condition can be based on primary entity or related entity fields.  
 
       For example, the conditions could be as follows.  
 
@@ -232,7 +232,10 @@ Define the level of service or support that your organization agrees to offer to
      ![Success criteria for an SLA](../customer-service/media/crm-ua-sla-details-success-criteria.png "Success criteria for an SLA")  
 
      > [!NOTE]
-     >  Before you specify the SLA failure and warning details, save the SLA item record.  
+     >  Before you specify the SLA failure and warning details, save the SLA item record.
+     <br>
+     <br>
+     >  If the conditions configured in the SLA fields are conflicting, then the SLA is canceled before meeting the success or failure criteria. For example, if the **Case Status** field is set as **Active** in the **Applicable When** section and is set as not equal to **Active** in the **Success Criteria** section, then the SLA will be canceled when implemented. 
 
    - In the **Success Action** section, select **Add Step**, and then specify the actions that you want the application to take when the success criteria is met before the violation time. For example, select **Add Step** > **Change Status**. Then, in the first drop-down list, select **Case**, and in the next drop-down list, select **Information Provided**. This option is available only if you’re creating enhanced SLAs.  
 
