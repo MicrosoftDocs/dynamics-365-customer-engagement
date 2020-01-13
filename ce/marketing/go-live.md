@@ -2,7 +2,7 @@
 title: "Publish records with go live and track their status (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Find out which types of records must be published (go live) before you can use them, how to track their go-live status, and how to stop or edit records that are already live in Dynamics 365 Marketing"
 keywords: publish;live;status;status reason;go live
-ms.date: 02/01/2019
+ms.date: 12/11/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -139,7 +139,7 @@ The **Status reason** indicates the segment's current go-live state and is read-
 
 | Status | Status&nbsp;reason | Description |
 | --- | --- | --- |
-| Active | Draft | The segment is new and has never been published. You can edit all settings.<br><br>To publish a draft segment, open it and then choose **Go Live** on the command bar. |
+| Active | Draft | The segment is new and has never been live. You can edit all settings.<br><br>To publish a draft segment, open it and then choose **Go Live** on the command bar. |
 | Active | Live | The segment is currently live and continuously updating its contacts list. It might be in use for targeting a customer journey.<br><br>The segment can't be edited locally while in this state, but you can stop it at any time by choosing **Stop** on the command bar, then edit and go live again if needed. |
 | Active | Live, editable | The segment is currently live, and can still be used, but you have chosen to edit it locally at the same time.<br><br>Make the required changes and then choose **Save** to update the live segment automatically (after an error check) and return to the active/live state. |
 | Active | Stopped | The segment was once live but is now stopped and can be edited if needed.<br><br>While stopped, you can edit and save the segment without going live. Select **Go live** to republish it. |
@@ -196,17 +196,13 @@ All marketing-form settings are editable when the page has a status reason of Dr
 
 ## Events, session, and tracks go-live operations and status
 
-When you publish an event, Dynamics 365 Marketing makes that event available to the event website. The event website displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the record, and any changes you make to a published event, and its related published records, will immediately be reflected on the website too.
+When you go live with an event, Dynamics 365 Marketing makes that event available to the event website. The event website displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you go live, and any changes you make to a live event, and its related live records, will immediately be reflected on the website too.
 
-Event sessions work similarly to the event itself, and essentially function as sub-events that, taken together, create the overall event schedule. The event website shows a schedule of sessions that belong to each event. An event can include both published and unpublished sessions, but only published sessions belonging to published events are shown on the website.
+Event sessions work similarly to the event itself, and essentially function as sub-events that, taken together, create the overall event schedule. The event website shows a schedule of live sessions that belong to each event. An event can include both live and not-live sessions, but only live sessions belonging to live events are shown on the website.
 
-Event tracks are collections of sessions, usually related by theme or audience. Tracks provide a convenient way for attendees to register for several related sessions at once. Like event sessions, you must publish each track to make it appear on the website for its related event. An event can include both published and unpublished tracks, but only the published tracks belonging to published events are shown on the website.
+Event tracks are collections of sessions, usually related by theme or audience. Tracks provide a convenient way for attendees to register for several related sessions at once. Like event sessions, you must publish each track to make it appear on the website for its related event. An event can include both live and not-live tracks, but only the live tracks belonging to live events are shown on the website.
 
-Event, session, and track entities all have a **Status** field, which works the same way as it does for most entities, but they don't use the **Status reason** field to monitor publish status. Instead, these entities have a **Publish status** field, which is fully editable all the time you work with them. This value is shown as a drop-down list in the upper-right corner when you are editing an event or session record, but is part of the main form for session tracks.
-
-![The Publish Status menu for events](media/golive-publish-event.png "The Publish Status menu for events")
-
-The default values for **Publish status** are _Draft_, _Ready to go live_, _In progress_, _Live_, and _Cancelled_. Other than _Live_, all these values are for information only, so you can use them to track your work progress and coordinate with coworkers as needed. However, when you set this to _Live_, then the event, session, or track details will become available publicly on your portals server. Set the **Publish status** to any value other than _Live_ to hide the event, session, or track on your portal.
+Event, session, and tracks all have a **Status** field, which works the same way as it does for most entities, but their go-live functionality works slightly differently than for other types of entities. For details, see [Publish events, sessions, tracks, and related records to the website](set-up-event-portal.md#publish-event).
 
 ### See also
 
