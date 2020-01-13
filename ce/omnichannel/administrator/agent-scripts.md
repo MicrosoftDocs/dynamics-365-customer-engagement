@@ -175,29 +175,13 @@ After you create an agent script, you must add the agent script field to the for
 
 ## Set default agent script for agents
 
-Now, you can set default agent script for your agents who are handling different service, customers, or products.
+As an administrator, you can set default agent script for your agents who are handling different service, customers, or products.
 
 When your agents are serving different services, customers or products, you need way to show a script that is more appropriate according to the context of the customer and the agent. With agent script expression builder, you can define the conditions based on which the agents are shown a script as default in the Omnichannel for Customer Service app.
 
 When the agent accepts an incoming conversation, based on the conditions, the agent script control selects a script from the different scripts that is made available for that particular session type, and shows the script to the agent.
 
 In addition, agent can manually select a script from the list of available agent scripts to switch between different scripts.
-
-### Get agent script id
-
-Before you start to build the expression, keep the ID of the scripts that you want to set as default for your agents.
-To get the agent script ID, select an agent script ID, and from the URL, you can copy the agent script ID.
-
-For example, you've selected an agent script and the URL looks as follows:
-
-`https://crmtest.crm.dynamics.com/main.aspx?appid=972bd5a4-ab25-ea11-a813-000d3a330ca1&pagetype=entityrecord&etn=msdyn_agentscript&id=fc4fa20e-982b-ea11-a810-000d3a579b35`
-
-Here, the agent script ID is `fc4fa20e-982b-ea11-a810-000d3a579b35`. Store the ID so that while building the expression, you would need it.
-
-You need to retrieve and store the agent script IDs for each of the following scenarios:
-
-- When the condition is true.
-- When the condition is false.
 
 ### Enable and build the expression
 
@@ -212,7 +196,7 @@ You can build the expression in the **Agent scripts** tab that is present in the
 4. Set the **Enable build expression** toggle to **Yes**, and then select the **Build Expression** button to define the expression. The **Expression builder** page is displayed.
 
     > [!div class=mx-imgBorder] 
-    > ![Clear display label](../media/agent-script-build-expression.png "Clear display label")
+    > ![Build expression](../media/agent-script-build-expression.png "Build expression")
 
 5. Select the **Condition** step, and then create the condition. 
 
@@ -221,17 +205,18 @@ You can build the expression in the **Agent scripts** tab that is present in the
 7. Select the **Customer Service** tab, and then select the **Set default agent script** action.
 
     > [!div class=mx-imgBorder] 
-    > ![Clear display label](../media/agent-script-build-expression2.png "Clear display label")
+    > ![Set default agent script](../media/agent-script-build-expression2.png "Set default agent script")
 
-8. Paste the agent script ID that you stored in the **Agent script ID** field. To learn how to retrieve the agent script, see [Get agent script id](#get-agent-script-id).
+8. Select a script from the **Agent script** list.
+
+    > [!div class=mx-imgBorder] 
+    > ![Set default agent script](../media/agent-script-set-default.png "Set default agent script")
 
 9. Similarly, follow the Steps 5-8 for the **If false** step.
 
 10. Select **Save and close** to save the expression and close the builder. 
 
 Now, you've built the expression.
-
-
 
 ## See also
 
