@@ -36,6 +36,9 @@ Organizations expect their call centers to do more with fewer resources, and the
 
 ## Advantages and value propositions of Dynamics 365 Channel Integration Framework
 
+> [!NOTE]
+> Dynamics 365 Channel Integration Framework version 2.0 supports only Telephony channels.
+
 Dynamics 365 Channel Integration Framework version 2.0, provides multiple enhancements over version 1.0, particularly in terms of its ability to integrate with the latest multi-session agent experiences for customer service. Following are the key new features in Dynamics 365 Channel Integration Framework version 2.0: 
 
 - **Integration with the multi-session experiences** 
