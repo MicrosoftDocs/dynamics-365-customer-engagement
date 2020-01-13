@@ -4,7 +4,7 @@ description: "Read how you can build a smart assist bot to help agents resolve c
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 10/25/2019
+ms.date: 01/20/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -115,6 +115,8 @@ Given below is the adaptive card JSON for displaying knowledge article recommend
 }
 ```
 The [code sample](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot) uses a Web API query to search <xref href="Microsoft.Dynamics.CRM.kbarticle?text=Knowledge Base Article entity" /> in your Dynamics 365 instance. You can modify this query to use <xref href="Microsoft.Dynamics.CRM.incident?text=Incident(case) entity" /> if you wish to search incidents.
+
+For information on how to create a knowledge article using template, see [Create a knowledge article using a template](../../../create-knowledge-article-using-template.md).
 
 ### Smart assist using similar cases
 
