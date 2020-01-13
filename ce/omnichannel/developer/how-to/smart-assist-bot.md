@@ -393,3 +393,4 @@ In the generic functionality, if the bot encounters an intent for appointment, i
 [Create a bot with Azure bot service](/azure/bot-service/abs-quickstart)<br />
 [Automate tasks with macros](../../administrator/macros.md)<br />
 [Integrate an Azure bot](../../administrator/configure-bot.md)
+[Create knowledge article template](../../../create-templates-knowledge-article.md)
