@@ -17,3 +17,13 @@
 
 - Workflows can be triggered when resource requirements are created with any allocation method.
 - When upgrading URS from version 2.x to version 3.x, resource filters on the schedule board tabs are preserved. 
+
+### Previous versions of Resource Scheduling
+
+To see older bug fixes, see the following links to blog posts:
+
+- [3.7.0.70](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/14/enhancements-and-bug-fixes-in-universal-resource-scheduling-urs-version-3-7-0-70/)
+- [3.6.0.18](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/01/release-notes-for-universal-resource-scheduling-version-3-6-0-18/)
+- [2.4.11.59](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/14/enhancements-and-bug-fixes-in-universal-resource-scheduling-urs-version-2-4-11-59/)
+- [2.4.10.56](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/01/release-notes-for-universal-resource-scheduling-version-2-4-10-56/)
+- [2.1](https://cloudblogs.microsoft.com/dynamics365/it/2017/05/19/universal-resource-scheduling-solution-for-dynamics-365-update-6-1/)
