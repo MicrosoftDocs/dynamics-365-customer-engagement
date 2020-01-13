@@ -28,7 +28,7 @@ This method is used to indicate a KPI breach. Using this API, a red circle appea
 | **Name**        | **Type** | **Required** | **Description**                                                                                                  |
 |-----------------|----------|--------------|------------------------------------------------------------------------------------------------------------------|
 | sessionId           | String   | Yes    | Unique identifier of the session.                            |
-| shouldReset | Boolean | No     | Flag to reset KPI breach indication. |
+| shouldReset | Boolean | No     | Flag to reset KPI breach indication. The default value is `false`. |
 | details   | String | No           | Details about the KPI breach.             |
 | successCallback| Function | No | A function to call when the request is successful. |
 | errorCallback | Function | No | A function to call when the request fails. |
