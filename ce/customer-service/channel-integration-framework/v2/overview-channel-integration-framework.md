@@ -48,7 +48,7 @@ Dynamics 365 Channel Integration Framework version 2.0, provides multiple enhanc
 
   Telephony channel provider can now define experiences for the minimized mode of the communication widgets they build. Agents can manually change the mode of the control from docked to minimized. The same can be achieved programmatically as well. 
 
-  More information: [New modes and locations for the communication widget](v2/modes-communication-widget.md)
+  More information: [New modes and locations for the communication widget](modes-communication-widget.md)
 
 - **Support for multiple providers**
 
