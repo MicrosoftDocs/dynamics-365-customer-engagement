@@ -392,5 +392,5 @@ In the generic functionality, if the bot encounters an intent for appointment, i
 [Smart assist for agents](../../administrator/smart-assist.md)<br />
 [Create a bot with Azure bot service](/azure/bot-service/abs-quickstart)<br />
 [Automate tasks with macros](../../administrator/macros.md)<br />
-[Integrate an Azure bot](../../administrator/configure-bot.md)
+[Integrate an Azure bot](../../administrator/configure-bot.md)<br />
 [Create knowledge article template](../../../create-templates-knowledge-article.md)
