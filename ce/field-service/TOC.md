@@ -103,9 +103,9 @@
 
 # Assets, inventory, and purchasing
 ## [Overview](inventory-purchasing-returns-overview.md)
-## [Customers Assets](configure-set-up-customer-assets.md)
+## [Customer assets](configure-set-up-customer-assets.md)
 ## [3D asset models](3D-viewer.md)
-## [Warehouse](create-warehouse.md)
+## [Warehouses](create-warehouse.md)
 ## [Create a purchase order](create-purchase-order.md)
 ## [Process a return](process-return.md)
 ## [Manual inventory journals](manual-inventory-journals.md)
