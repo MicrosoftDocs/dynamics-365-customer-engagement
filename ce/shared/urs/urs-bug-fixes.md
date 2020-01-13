@@ -7,7 +7,7 @@
 - Bookings can be edited in the days view of the schedule board by right-clicking on the booking and selecting **Edit**.
 - The select resources dialog opens and loads successfully on the filter view of the schedule board, even when there are more than 100 resources enabled to be displayed on the schedule board.  
 - When Turkish language is enabled on the org, resource requirement records load under the **Unscheduled Workorders** tab of the requirement pane of the schedule board. 
-- When double clicking on the save button the new bookable resource booking form, would not create duplicate records. 
+- When double-clicking on the save button the new bookable resource booking form, would not create duplicate records. 
 - Resources can be searched on the schedule board by their name in the search resources search box. 
 - Map view on the schedule board only shows the pins for the requirements that are returned from the requirement view configured for requirement map filer view setting on the map settings of the schedule board tab settings. 
 - When Hebrew language is enabled on the org, schedule board loads in the Chrome with browser zoom at 90%. 
