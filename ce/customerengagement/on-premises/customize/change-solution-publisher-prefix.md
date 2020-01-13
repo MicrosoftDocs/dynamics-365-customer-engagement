@@ -1,5 +1,5 @@
 ---
-title: "Change the solution publisher prefix in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Change the publisher prefix (Dynamics 365 Customer Engagement on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
@@ -20,9 +20,8 @@ search.app:
   - D365CE
 ---
 
-<a name="BKMK_SolutionPublisher"></a>   
 # Change the solution publisher prefix for the default publisher  
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Change the solution publisher prefix](/powerapps/maker/common-data-service/change-solution-publisher-prefix)
 
 
  Every solution has a publisher. The default solution has a publisher named “Default Publisher for \<your organization name>”.  

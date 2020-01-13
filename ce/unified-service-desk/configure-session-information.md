@@ -3,7 +3,7 @@ title: "Configure session information | MicrosoftDocs"
 description: "Learn about configuring session information."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
+ms.date: 12/31/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article
@@ -23,11 +23,11 @@ The session information is displayed under tabs in [!INCLUDE[pn_unified_service_
 <a name="SessionName"></a>   
 ## Configure the session tab name format  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
-  
-3. Click **Session Lines**.  
+2. Select **Session Lines** under **Basic Settings**. 
+
+3. Select **+ New**.
   
 4. On new **New Session Information** page:  
   
@@ -50,16 +50,16 @@ The session information is displayed under tabs in [!INCLUDE[pn_unified_service_
     In the preceding example, [[account.name]] will be looking for the name field from an account entity that has been loaded somewhere within the current session. Because we used the lowercased version of “account” that matches to the entity name in the Common Data Service platform, it means that it is looking for the last account page loaded no matter which tab it happens to be loaded within. Because of this, if you load a subaccount and your rules have it loading in a subaccount tab (thus displaying your primary account in the Account tab, and your subaccount in your Sub Account tab), the account name that will be used will be that of the sub account. This is because the subaccount is loaded after the Account tab. If you instead wish to always use the account name of the account that is displayed in the Account tab, you would use the following: **[[Account.name]]**.<br><br>
     The [[$Context.InitialEntity]] value is replaced at runtime with the InitialEntity context variable. This is a special context variable populated by the system with the entity name that is used to start the session.  
   
-5. Click **Save**.  
+5. Select **Save**.  
   
 <a name="SessionOverview"></a>   
 ## Define session overview information  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
-  
-3. Click **Session Lines**.  
+2. Select **Session Lines** under **Basic Settings**. 
+
+3. Select **+ New**. 
   
 4. On **New Session Information** page,  
   
@@ -75,7 +75,7 @@ The session information is displayed under tabs in [!INCLUDE[pn_unified_service_
   
    ![Configure session overview](../unified-service-desk/media/usd-configure-session-overview.png "Configure session overview")  
   
-5. Click **Save**.  
+5. Select **Save**.  
   
 <a name="scriptlet"></a>   
 ## Define session overview information using scriptlets  

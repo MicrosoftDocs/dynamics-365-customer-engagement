@@ -4,7 +4,7 @@ description: "Read how you can pass an authentication token to Omnichannel for C
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 07/09/2019
+ms.date: 12/13/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: reference
@@ -13,7 +13,7 @@ ms.topic: reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-To authenticate a customer when they initiate a chat, pass an authentication token to Omnichannel for Customer Service. This token is used to validate a signed-in customer from a domain, and to extract information based on the context variables that are defined. Custom authentication is optional and is relevant only when hosting the chat widget outside Dynamics 365 Portals.
+To authenticate a customer when they initiate a chat, pass an authentication token to Omnichannel for Customer Service. This token is used to validate a signed-in customer from a domain, and to extract information based on the context variables that are defined. Custom authentication is optional and is relevant only when hosting the chat widget outside Power Apps portals.
 
 > [!IMPORTANT]
 > In the payload of the JSON Web Token (JWT) token, the value provided for `lwicontexts` key should be the serialized custom context.<br />

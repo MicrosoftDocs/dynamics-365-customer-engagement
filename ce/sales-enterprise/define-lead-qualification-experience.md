@@ -18,7 +18,12 @@ Give your salespeople the flexibility to choose which records to create—accoun
 
 To define the experience: 
 
-1.	In the Sales app, select the **Settings** icon, and then select **Advanced Settings**.
+1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Advanced Settings option on the Settings menu](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
+
+    The **Business Management** page opens.
 
 2.	Select **Settings**, then **Administration**, and then **System Settings**.
 

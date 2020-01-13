@@ -1,6 +1,6 @@
 ---
 title: "Unified Service Desk  system requirements | MicrosoftDocs"
-description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk ."
+description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk."
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
@@ -78,7 +78,7 @@ Supported Unified Service Desk versions are:
 
 ## Impact of Unified Interface Only availability with Unified Service Desk
 
-You have deployed Unified Service Desk in a Customer Engagement Sandbox environment and when you reset the sandbox environment, you will have only the Unified Interface experience. To enable the Web Client experience, see [How to enable/disable Unified Interface Only mode](/dynamics365/customer-engagement/admin/enable-unified-interface-only#how-to-enable-unified-interface-only-mode).
+You have deployed Unified Service Desk in a sandbox environment and when you reset the sandbox environment, you will have only the Unified Interface experience. To enable the Web Client experience, see [How to enable/disable Unified Interface Only mode](/dynamics365/customer-engagement/admin/enable-unified-interface-only#how-to-enable-unified-interface-only-mode).
 
 After you enable the Web Client experience, go to the Window Navigation Rules and update the navigation URLs for the all the rules.
 

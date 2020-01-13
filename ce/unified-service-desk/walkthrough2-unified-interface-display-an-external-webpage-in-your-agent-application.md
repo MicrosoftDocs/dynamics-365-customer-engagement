@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough 2  Display an external webpage in your agent application | MicrosoftDocs"
 description: "Demonstrates how to display an external web page in Unified Service Desk."
-ms.date: 05/07/2018
+ms.date: 12/31/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -53,102 +53,86 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
 ## Step 1: Create a hosted control to display the webpage  
  In this step, you’ll create a hosted control of Standard Web Application type to display the webpage.  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
 
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Hosted Controls** under **Basic Settings**.  
 
-3. Click **Hosted Controls**.  
+3. Select **+ New**.  
 
-4. Click **New**.  
-
-5. On the **New Hosted Control** page, specify the following values:  
+4. On the **New Hosted Control** page, specify the following values:  
 
    |Field|Value|  
    |-----------|-----------|  
    |Name|Contoso Help|  
    |Display Name|Contoso Help|  
-   |USD Component Type|Standard Web Application|  
+   |Unified Service Desk Component Type|Standard Web Application|  
    |Allow Multiple Pages|No|  
-   |Hosting Type|IE Process|
+   |Hosting Type|Chrome Process|
    |Application is Global|Checked|
    |Display Group|MainPanel|
 
-   ![Standard Web Application hosted control](../unified-service-desk/media/crm-itpro-usd-wt02-01-unified-interface.png "Standard Web Application hosted control") 
-
-6. Click **Save**.  
+5. Select **Save**.  
 
 <a name="Step2"></a>   
 ## Step 2: Create a toolbar container type of hosted control  
  Toolbar Container hosted controls are used to hold and display the toolbars in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. In this section, you’ll create a **Toolbar Container** type of hosted control that appears in the toolbar region of the client application.  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
 
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Hosted Controls** under **Basic Settings**.  
 
-3. Click **Hosted Controls**.  
+3. Select **+ New**.   
 
-4. Click **New**.  
-
-5. On the **New Hosted Control** page, specify the following values:  
+4. On the **New Hosted Control** page, specify the following values:  
 
    |Field|Value|  
    |-----------|-----------|  
    |Name|Contoso About Toolbar Container|  
-   |USD Component Type|Toolbar Container|  
+   |Unified Service Desk Component Type|Toolbar Container|  
    |Display Group|AboutPanel|
 
-   ![Toolbar Container hosted control](../unified-service-desk/media/crm-itpro-usd-wt02-02-unified-interface.png "Toolbar Container hosted control") 
-
-6. Click **Save**.  
+5. Select **Save**.  
 
 <a name="Step3"></a>   
 ## Step 3: Add a toolbar and attach it to the toolbar container  
  In this step, you’ll create a toolbar, and attach the toolbar to the toolbar container hosted control created in step 2. This is done to display the toolbar in your agent application.  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
 
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Toolbars** under **Basic Settings**.   
 
-3. Click **Toolbars**.  
+3. Select **+ New**.  
 
-4. Click **New**.  
+4. On the **New Toolbar** page, type **Contoso About Toolbar** in the **Name** box, and then select **Save**.  
 
-5. On the **New Toolbar** page, type **Contoso About Toolbar** in the **Name** box, and then click **Save**.  
+5. Attach the toolbar to the toolbar container hosted control created in step 2. Select the **Related** tab, and then select **Hosted Controls**.
 
-6. Attach the toolbar to the toolbar container hosted control created in step 2. On the nav bar, click the down arrow next to **Contoso About Toolbar**, and click **Hosted Controls**.  
+6. Select **Add Existing Hosted Control**. The **Lookup Records** pane is displayed.
 
-7. On the next page, click **Add Existing Hosted Control**, type `Contoso About Toolbar Container` in the search bar, and then press ENTER or click the search icon.  
+7. Type `Contoso About Toolbar Container` in the search bar. Select the record from the list, and then select **Add**. 
 
-8. From the search results, select **Contoso About Toolbar Container**.  
-
-9. Click **Save**.  
+8. Select **Save**.  
 
 <a name="Step4"></a>   
 ## Step 4: Add a toolbar button and action calls to display the webpage  
  In this step, add a button on the toolbar and attach an action call to the button so that when the button is clicked, the specified webpage is displayed in the hosted control that you created in step 1.  
 
-1. After you save the toolbar in step 3, the **Buttons** area becomes available. In the **Buttons** area, click **+** on the right corner to add a button.  
+1. After you save the toolbar in step 3, select the **General** tab. 
 
-2. On the **New Toolbar Button** page, specify the following values.  
+2. In the **Buttons** area, select **+ New Toolbar Button**.  
+
+3. On the **New Toolbar Button** page, specify the following values.  
 
    |Field|Value|  
    |-----------|-----------|  
    |Name|Contoso Show Help|  
-   |Button Text|Show Help|  
+   |Button Text|Show Help|
 
-   ![Create a new toolbar button](../unified-service-desk/media/crm-itpro-usd-wt02-03.png "Create a new toolbar button")  
+4. Select **Save** to save the record. After you save, the **Actions** area is enabled.  
 
-3. Click **Save** to save the record, and enable the **Actions** area.  
+5. Add two action calls to specify the URL of the webpage to navigate to for the hosted control that you created in step 1. Additionally, create another action call to on the **Contoso Global Manager** hosted control to display the hosted control created in step 1 in the agent application. In the **Actions** area, select **Add Existing Action Call**. The **Lookup Records** pane is displayed.
 
-4. Add two action calls to specify the URL of the webpage to navigate to for the hosted control that you created in step 1. Additionally, create another action call to on the **Contoso Global Manager** hosted control to display the hosted control created in step 1 in the agent application.  
-
-    In the **Actions** area, click **+** on the right corner to add an action call.  
-
-5. In the search box in the **Actions** area, press ENTER or click the search icon.  
-
-6. In the search results box, click **New** in the lower right corner to create an action call for this toolbar button.  
-
-   ![Choose New to create an action call](../unified-service-desk/media/crm-itpro-usd-wt02-04.png "Choose New to create an action call")  
+6. Select the search icon in the search box in the **Actions** area, and then select **+ New Action Call**.
 
 7. On the **New Action Call** page, specify the following values:  
 
@@ -159,17 +143,17 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
    |     Order      |                          1                          |
    | Hosted Control |                    Contoso Help                     |
    |     Action     |                      Navigate                       |
-   |      Data      | url=<http://go.microsoft.com/fwlink/?LinkID=856273> |
+   |      Data      | url=https://docs.microsoft.com/en-us/dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.1 | 
 
-   ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt02-05-unified-interface.png "Create an action call in Unified Service Desk")  
+8. Select **Save**. 
 
-8. Click **Save**. The new action call is added to the **Contoso Show Help** button.  
+9. Select the back button on the browser to go back to the **Contoso Show Help** button. 
 
-9. Add another action call to the button to set the focus on the hosted control that displays the webpage in the client application. In the **Actions** area, click **+** in the right corner to add an action call.  
+10. Select **Add Existing Action Call** in the **Actions** area. The **Lookup Records** pane is displayed.
 
-10. In the search results box, click **New** in the lower right corner to create an action call for this toolbar button.  
+11. Type the name of the action you created earlier in the search box. Select the record from the list, and then select **Add**.
 
-11. On the **New Action Call** page, specify the following values.  
+12. Repeat Steps 5 and 6 to create another action call with the following details:
 
     |Field|Value|  
     |-----------|-----------|  
@@ -177,11 +161,11 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
     |Order|2|  
     |Hosted Control|Contoso Global Manager|  
     |Action|ShowTab|  
-    |Data|Contoso Help|  
+    |Data|Contoso Help|
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt02-06-unified-interface.png "Create an action call in Unified Service Desk")  
+14. Repeat Steps 8 t 11.
 
-12. Click **Save**. The new action call gets added to the **Contoso Show Help** button. You can see both action calls added to the toolbar button.  
+15. Select **Save**. The new action call gets added to the **Contoso Show Help** button. You can see both action calls added to the toolbar button.  
 
     ![Action calls added to the toolbar button](../unified-service-desk/media/crm-itpro-usd-wt02-07.png "Action calls added to the toolbar button")  
 
@@ -201,25 +185,29 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
 
  To add a control to the configuration:  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
 
-2. On the nav bar, click **Dynamics 365**, and then select **Settings**.  
+2. Select **Configuration** under **Advanced Settings**.  
 
-3. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+3. Select **Contoso Configuration** to open the definition.  
 
-4. Click **Configuration**.  
+4. Select the **Hosted Controls, Events and Action Calls** tab.  
 
-5. Click **Contoso Configuration** to open the definition.  
+5. Select the ellipsis (...) in the **Action Calls** section, and then select **Add Existing Action Call**. The **Lookup Records** pane is displayed.
 
-6. On the nav bar, click the down arrow next to **Contoso Configuration**, and select **Action Calls**.  
+6. Type **Contoso Action Call** in the search box. Both action calls are displayed in the search results. Select the record from the list, and then select **Add**.
 
-7. On the next page, click **Add Existing Action Call**, type “`Contoso Action Call`” in the search bar, and then press ENTER or click the search icon.  
+7. Select the ellipsis (...) in the **Hosted Controls** section, and then select **Add Existing Hosted Control**. The **Lookup Records** pane is displayed.
 
-8. Both action calls are displayed in the search results. Add both of them.  
+8. Type **Contoso** in the search box. Both the hosted controls are displayed in the search results. Select the record from the list, and then select **Add**.
 
-9. Similarly, add both of the hosted controls and the toolbar by clicking the down arrow next to **Contoso Configuration**, and clicking **Hosted Controls** and **Toolbars** respectively.  
+9. Select the **Related** tab, and then select **Toolbars**.
 
-10. Click **Save**.  
+10. Select **Add Existing Toolbar**. The **Lookup Records** pane is displayed.
+
+11. Type **Contoso About Toolbar** in the search box. Select the record from the list, and then select **Add**.
+
+12. Select **Save**.  
 
 <a name="Step6"></a>   
 ## Step 6: Test the application  

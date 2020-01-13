@@ -20,7 +20,8 @@ Start here to onboard quickly and learn about the different offerings of Sales a
 
 1. Sign in to [!INCLUDE[pn-office-365](../includes/pn-office-365.md)], select the [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] app launcher, and then select the icon for **[!INCLUDE[pn-dyn-365](../includes/pn-dyn-365.md)]**.
 
-   ![Office 365 App Launcher pane](media/app-launcher-pane.png "Office 365 App Launcher pane")  
+   > [!div class="mx-imgBorder"]
+   > ![Office 365 App Launcher pane](media/app-launcher-pane.png "Office 365 App Launcher pane")  
 
    > [!Note]
    > 
@@ -28,7 +29,8 @@ Start here to onboard quickly and learn about the different offerings of Sales a
 
 2. To open Sales hub, select the tile for **Sales Hub** (Unified Interface).
 
-   ![Tile for Sales Hub](media/saleshub_tile_unified_interface.png "Tile for Sales Hub")
+   > [!div class="mx-imgBorder"]
+   > ![Tile for Sales Hub](media/saleshub_tile_unified_interface.png "Tile for Sales Hub")
 
    
 ## Understand the data in the app

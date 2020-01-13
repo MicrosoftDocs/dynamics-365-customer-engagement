@@ -3,7 +3,7 @@ title: "View predefined actions and events for a hosted control in Unified Servi
 description: "Learn how to view predefined actions and events for hosted controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
+ms.date: 12/31/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article
@@ -18,11 +18,16 @@ search.app:
   - D365USD
 ---
 # View predefined actions and events for a hosted control in Unified Service Desk
+
 Each predefined hosted control type in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports a set of UII actions and events. To view the predefined UII actions and events for a hosted control:  
   
-1. Open an existing hosted control or create a hosted control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. For information, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
+1. Sign in to Unified Service Desk Administrator.
+
+2. Select **Hosted Controls** under **Basic Settings**.
+
+3. Open an existing hosted control or create a hosted control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. For information, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
-2. On the nav bar, click the down arrow next to the hosted control name, and then click **UII Actions** or **Events** to view the predefined UII actions or events for the hosted control.  
+4. Select **Related** tab, and select **UII Actions** or **Events** to view the predefined UII actions or events for the hosted control.   
   
    ![Navigation to predefined UII actions and events](../unified-service-desk/media/usd-hosted-control.png "Navigation to predefined UII actions and events")  
   

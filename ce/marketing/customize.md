@@ -40,9 +40,14 @@ To access the customization settings in the advanced-settings area:
 
 For complete details about how to customize model-driven apps in Dynamics 365, see the [Power Apps documentation](https://docs.microsoft.com/powerapps/#pivot=home&panel=getstarted).
 
-For details about customizations that apply only to the Marketing app (but not other Dynamics 365 apps), see the following topic:
+For details about customizations that apply only to the Marketing app (but not other Dynamics 365 apps), see the following topics:
 
 - [Create and customize marketing calendars](customize-marketing-calendars.md)
+- [Create and customize template labels](customize-template-labels.md)
+
+## Don't remove status-reason values used by go-live functionality
+
+Entities that include [go-live functionality](go-live.md) provide a **Status reason** field that tracks the go-live status of each record. The field is an option set that must include the following values: **Draft**, **Live**, **Stopped**, "**Live, editable**", **Error**, **Going live**, and "**Stopping...**". Be sure not to delete any of these standard values. If you do, the entity will no longer be able to go live.
 
 ## Create a custom app that includes Marketing solutions
 

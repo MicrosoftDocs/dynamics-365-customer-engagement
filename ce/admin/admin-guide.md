@@ -17,7 +17,6 @@ search.audienceType:
   - admin
 search.app: 
   - D365CE
-  - Powerplatform
 ---
 # Administer model-driven apps in Dynamics 365
 
@@ -34,6 +33,8 @@ For online customers, these apps are **model-driven apps** running on [Common Da
 
 > [!IMPORTANT]
 > The content in this guide is for existing subscribers still using the Dynamics 365 admin center, which was used to manage Dynamics 365 for Customer Engagement instances. We are transitioning instance (now called environment) management to the [Power Platform admin center](https://admin.powerplatform.microsoft.com). For the latest documentation, see the [Power Platform admin guide](https://docs.microsoft.com/power-platform/admin/admin-documentation).
+>
+> The content in this guide applies only to model-driven apps in Dynamics 365; it does not apply to other Dynamics 365 apps such as Finance, Supply Chain Management, Business Central, and so on.
 
 ### See also
 [Power Apps documentation](https://docs.microsoft.com/powerapps/)<br/>

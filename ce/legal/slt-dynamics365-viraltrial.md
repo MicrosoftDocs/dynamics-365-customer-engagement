@@ -1,10 +1,11 @@
 ---
 title: MICROSOFT ONLINE SERVICES TRIAL AGREEMENT
-author: brycho
+author: ReneeW-CPub
 ---
 
-MICROSOFT ONLINE SERVICES TRIAL AGREEMENT<br>Last Revised: November 2017
+# MICROSOFT ONLINE SERVICES TRIAL AGREEMENT
 ========================================================================
+**Last Revised: November 2017**
 
 This Microsoft Online Service Trial Agreement (this “**Agreement**”) applies
 when:
