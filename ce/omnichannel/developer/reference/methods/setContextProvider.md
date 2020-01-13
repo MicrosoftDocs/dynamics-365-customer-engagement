@@ -62,9 +62,9 @@ The `isDisplayable` attribute, if set to `true`, will display the passed items w
 
 <a name="bkmk_navigationhistory"></a>
 
-### Pass customer's portal navigation as context
+### Pass customer's self service as context
 
-You can pass a customer's portal navigation as context at the start of a conversation with that customer.
+You can pass a customer's self service as context at the start of a conversation with that customer.
 
 Given below is the sample code that shows how to use the `setContextProvider` method for this.
 
@@ -73,7 +73,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 
 Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
     return {
-            'Navigation': { 'value' : 
+            'SelfService': { 'value' : 
                 '[ {"msdyn_displaytitle":"PageTitle1", "msdyn_starttime":"yyyy-mm-ddThh:mm:ssZ","msdyn_endtime":"yyyy-mm-ddThh:mm:ssZ","msdyn_type":192350000}, \
                    {"msdyn_displaytitle":"PageTitle2", "msdyn_starttime":"yyyy-mm-ddThh:mm:ssZ","msdyn_endtime":"yyyy-mm-ddThh:mm:ssZ","msdyn_type":192350001} \
                  ]'
