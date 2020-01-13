@@ -2,7 +2,7 @@
 title: "Bug fixes for Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 12/05/2019
+ms.date: 01/13/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -48,6 +48,63 @@ In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field
 -	Field Service Resource privilege exception on create and save of Time Off Request.
   
   
+## Field Service Mobile
+
+### Version 12.1
+
+- Win10: Use standard fileIO methods (except open & delete) 
+- When copying DynamicEntity, copy the partylist not just the pointer 
+- SharePoint upload: A misleading sync error removed 
+- Sync does not download NN entities (incl. listmember entity) 
+- Set entity multiselect picklist property value using JsonSerializers 
+- Always reload EntityHub command 
+- Improve the username discovery for OAuth2 
+- Chat: Don't crash when chat is closed during loading posts 
+- EmailForm: Espace attachment name. Attachment name with ' (single quote) was not visible 
+- iOS, Android: Choosen multiple photos (note list) now respect max image size 
+- DownloadEntityImages(): Preventing duplicated IDs 
+- iOS: Permission descriptions were added to Info.plist (due to Inspections review rejection) 
+- Open content file in read mode. iOS doesn't allow to open it as writable 
+- Scheduler: An "undefined" string was shown in Task/TimeOff tooltip, when Task/TimeOff name was not set 
+- UpdateAddress ignores non-string fields 
+- DownloadMarketingListMembers check lists in batches (100) 
+- Sync MarketingMembers has incorrect logic 
+- Scheduler: Error object was not converted to string message properly 
+- Scheduler: FallbackView was not used also when task, source or resource entity did not have 
+- Don't inspect dirty flag on disposed form controller (AppStore crashes) 
+- Android: Delay LocationTracking service creation on startup 
+- Desktop: Bring all types of DetailItems into view. Previously only Text items were handled 
+- Google, Exchange contacts: fullname filter is compatible 
+- iOS: MessageBox-related fixes 
+- SearchForm force the cached entities, we already know the entities to search 
+- Desktop: Do not scrollIntoView multiline text DetailItem on click 
+- Google, Exchange contacts: fullname filter is compatible 
+- Clicking on PowerBI Sign in button doesn't open authentication dialog 
+- iOS'Navigate To' command in Account form doesn't fill in the destination automatically after redirecting to the map app 
+- 'Direct to current location' button on the map of work order doesn't work in iOS 
+- "Unlock with your fingerprint" window doesn't appear in Android 
+- Android - unable to use 'navigate to' on account and WO 
+- NavigateTo on iOS opens Google Maps even though Apple Maps is selected 
+- Scan Barcode in the hamburger menu doesn't work 
+- FSM Android splash screen hang. 
+- OAuth with Proxy - If Proxy is bad, the app doesn't show any indication and it remains on the Sign In page. 
+- Saving IoT Device Command - Getting Error "Server Error: PluginBase" 
+- Allow sign in to OnPrem url 
+- OAuth on Android - authentication attempt with valid server entered shows error pop up "One or more errors occurred" . 
+- Validate mobile app with no Woodford project. 
+- "e" letter is displaying in separate line for "Mark Complete" button on Service Tasks sub-grid of Work Order form 
+- Booking record should be deleted from the app if it is removed from the Schedule Board 
+- Server error appear when user with FS Dispatcher privileges try to create Customer Asset in online mode
+
+
+### Version 11.3
+
+- Fixed saving of offline Booking Signatures
+- Fixed update address button error message
+- Fixed unresponsive iOS buttons
+- Fixed date picker on Android
+- Fixed issue on iOS where user was not prompted to grant “Always” location permission to app
+- PushRegistrationIntentService start fixed for Android 8+
 
 ## Universal Resource Scheduling (URS) 
 
