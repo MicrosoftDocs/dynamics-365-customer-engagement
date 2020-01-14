@@ -44,8 +44,7 @@ Define the level of service or support that your organization agrees to offer to
 > [!NOTE]
   >  The standard SLAs have been deprecated and replaced with enhanced SLAs.
   <br>
-  More information: [Standard SLAs in Dynamics 365 Customer Service are deprecated](https://docs.microsoft.com/p/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated)
-
+  More information: [Standard SLAs in Dynamics 365 Customer Service are deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated).
 
 ## Entities (record types) that support SLA  
  In previous releases, you could create SLAs only for case records. With Dynamics 365 Customer Service, you can now create enhanced SLAs for entities that are enabled for SLA. A system administrator or customizer can enable SLAs for the following entities:  
