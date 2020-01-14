@@ -2,7 +2,7 @@
 title: "Booking timestamps | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2019
+ms.date: 01/15/2020
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -28,7 +28,19 @@ search.app:
 
 # Booking timestamps
 
+Booking Timestamps are..
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-timestamps-booking-statuses-per-fs-status.png)
+
+
+they are importqant because 
+
+you have two options for how timestamps are created
+
+1. Per Field Service Status Change (default) - choose if you jsut want timestamps on the major work order milestones - Scheduled, Traveling, In Progress, Completed
+2. Per Booking status change - choose if you want more granularity and detail especially for custom statuses.
 
 ## Prerequisites
 
@@ -37,18 +49,18 @@ search.app:
 >
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/scheduling-timestamps-booking-statuses.png)
 
-- choose if you want 
 
+First choose how you want booking timestamps to be created.  
+
+Go to **Field Service > Settings > Work Order/Booking section > Timestamp Frequency** 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-timestamps-frequency-setting.png)
 
-when to use each?
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-timestamps-booking-statuses.png)
+
 
 
 > [!div class="mx-imgBorder"]
