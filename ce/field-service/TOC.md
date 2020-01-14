@@ -57,13 +57,15 @@
 
 ## Scheduling
 ### [Travel time and distance](schedule-with-travel-time.md)
+### [Time constraints](schedule-time-constraints.md)
+### [Resource preferences](resource-preferences.md)
 ### [Quick scheduling](quick-scheduling.md)
 ### [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
 ### [Multi-day scheduling](schedule-multi-day-work.md)
 ### [Resource crew scheduling](resource-crews.md)
 ### [Resource pools](resource-pools.md)
 ### [Facility scheduling](facility-scheduling.md)
-### [Time constraints](schedule-time-constraints.md)
+
 
 
 ## Schedule board 
@@ -110,9 +112,9 @@
 ## [Process a return](process-return.md)
 ## [Manual inventory journals](manual-inventory-journals.md)
 
-# Resource Scheduling Optimization (RSO) add-in
+# Resource scheduling optimization add-in
 ## [Overview](rso-overview.md)
-## [Get RSO](rso-get-install.md)
+## [Get resource scheduling optimization](rso-get-install.md)
 ## [Quickstart](rso-quickstart.md)
 ## [Deployment](rso-deployment.md)
 ## [Configuration and setup](rso-configuration.md)
@@ -123,7 +125,8 @@
 ## [Lock options for bookings](booking-lock-options.md)
 ## [Resolving conflicts for bookings](rso-handling-resolving-booking-conflicts.md)
 ## [Set up a proof of concept](rso-proof-concept.md)
-## Scenarios
+## Running resource scheduling optimization
+### [Publishing + monitoring](rso-schedule-optimization.md)
 ### [Overnight scheduling](rso-overnight-scheduling.md)
 ### [Single resource optimization](single-resource-optimization.md)
 ## [FAQs + troubleshooting](rso-faq.md)
