@@ -31,7 +31,8 @@ To enable customization:
 
 3.  In the **System Settings dialog** box, on the **Sales** tab, set the **Customize close opportunity form** field to **Yes**.
 
-    ![Customize opportunity close option in System Settings](media/system-setting-customize-close-opportunity-form.png "Customize opportunity close option in System Settings")
+    > [!div class="mx-imgBorder"]
+    > ![Customize opportunity close option in System Settings](media/system-setting-customize-close-opportunity-form.png "Customize opportunity close option in System Settings")
 
 4.  Select **OK**.
 

@@ -1,7 +1,7 @@
 ---
 title: "What's new (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about what's been added, improved, and fixed in each monthly and biannual release of Dynamics 365 Marketing."
-ms.date: 12/10/2019
+ms.date: 12/19/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -11,7 +11,7 @@ author: kamaybac
 ms.author: kamaybac
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -23,7 +23,7 @@ search.app:
 
 # What's new in Dynamics 365 Marketing
 
-Dynamics 365 Marketing is usually updated monthly, with major updates occurring twice a year. For news about major updates, including a recent history and announcements of upcoming features, see the [Dynamics 365 and Power Platform Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). This topic summarizes the smaller feature improvements and bug fixes introduced with each monthly update and provides links for more information. This topic also announces when preview or early-access versions of upcoming major features become available for you to try out.
+Dynamics 365 Marketing is usually updated monthly, with major updates occurring twice a year. For news about major updates, including a recent history and announcements of upcoming features, see the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/). This topic summarizes the smaller feature improvements and bug fixes introduced with each monthly update and provides links for more information. This topic also announces when preview or early-access versions of upcoming major features become available for you to try out.
 
 Microsoft rolls out each monthly and biannual update on a region-by-region basis, with the update typically becoming available to all regions by the end of the month (but often earlier). You must manually check for and apply each update to each of your Marketing instances. As soon as the update is available in your region, you'll be able to see and apply it as described in [Keep Marketing up to date](apply-updates.md). We recommend updating all Marketing instances right away.
 
@@ -63,7 +63,7 @@ System customizers can create as many labels as you need, and define the display
 
 ![Template gallery with labels in tile view](media/template-label-example.png "Template gallery with labels in tile view")
 
-More information: [Add visual labels for templates](https://microsoft.sharepoint.com/:w:/t/crmtechreview/EcQfoqGUQk9HsEgAkqYsU8oByj_nc23AEOB6jr8nc9mzZg?e=YWQkS5)
+More information: [Add visual labels for templates](email-templates.md#add-visual-labels-for-templates)
 
 ### Quickly design and deliver a marketing email with _send now_
 

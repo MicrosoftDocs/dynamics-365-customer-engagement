@@ -3,7 +3,9 @@
 # [New and upcoming features](new-upcoming.md)
 # [Getting started with Field Service](user-guide.md)
 
-# [Field Service installation (web + mobile)](install-field-service.md)
+# Installation + upgrade
+## [Field Service installation (web + mobile)](install-field-service.md)
+## [Upgrade Field Service](upgrade-field-service.md)
 
 # Administration
 ## [Work order process architecture](field-service-architecture.md)
@@ -84,6 +86,7 @@
 ## [Upgrade the mobile project template](mobile-upgrade-project.md)
 ## [Push notifications](mobile-push-notifications.md)
 ## [Geofencing](geofencing.md)
+## [Deep linking](mobile-deeplink.md)
 ## FAQs + troubleshooting
 ### [Frequently asked questions](mobile-faq.md)
 ### Troubleshooting topics
@@ -101,38 +104,31 @@
 ## [Entitlements](work-order-entitlements.md)
 
 # Assets, inventory, and purchasing
-## Customer assets
-### [Asset management](configure-set-up-customer-assets.md)
-### [3D models](3D-viewer.md)
-## Inventory
-### [Warehouse](create-warehouse.md)
-###  [View product inventory](view-product-inventory.md)
-###  [Create an inventory transfer](create-inventory-transfer.md)
-###  [Create an inventory adjustment](create-inventory-adjustment.md)
-###  [Manual inventory journals](manual-inventory-journals.md)
-###  [Process a return](process-return.md)
-###  [Return product to vendor](create-return-vendor.md)
-### [RMA sub-status](create-rma-sub-status.md)
-### [RTV sub-statuses](set-up-rtv-sub-statuses.md)
-### [Ship via](create-ship-via.md)
-## Purchasing
-### [Create a purchase order](create-purchase-order.md)
-### [Purchase order sub-statuses](set-up-purchase-order-sub-statuses.md)
-### [Payment terms](set-up-payment-terms.md)
+## [Overview](inventory-purchasing-returns-overview.md)
+## [Customer assets](configure-set-up-customer-assets.md)
+## [3D asset models](3D-viewer.md)
+## [Warehouses](create-warehouse.md)
+## [Create a purchase order](create-purchase-order.md)
+## [Process a return](process-return.md)
+## [Manual inventory journals](manual-inventory-journals.md)
 
 # Resource scheduling optimization add-in
 ## [Overview](rso-overview.md)
 ## [Get resource scheduling optimization](rso-get-install.md)
 ## [Quickstart](rso-quickstart.md)
 ## [Deployment](rso-deployment.md)
-## [Configuration](rso-configuration.md)
+## [Configuration and setup](rso-configuration.md)
+## [Scopes](rso-optimization-scope.md)
+## [Goals](rso-optimization-goal.md)
+## [Schedules](rso-optimization-schedule.md)
+## [Publishing](rso-schedule-optimization.md)
+## [Lock options for bookings](booking-lock-options.md)
+## [Resolving conflicts for bookings](rso-handling-resolving-booking-conflicts.md)
 ## [Set up a proof of concept](rso-proof-concept.md)
 ## Running resource scheduling optimization
 ### [Publishing + monitoring](rso-schedule-optimization.md)
 ### [Overnight scheduling](rso-overnight-scheduling.md)
 ### [Single resource optimization](single-resource-optimization.md)
-### [Booking lock options](booking-lock-options.md)
-### [Resolving booking conflicts](rso-handling-resolving-booking-conflicts.md)
 ## [FAQs + troubleshooting](rso-faq.md)
 
 # Connected Field Service (IoT) add-in
@@ -168,4 +164,3 @@
 
 # [Troubleshoot with Solution Health Hub](troubleshoot-field-service-solution-health.md)
 # [General FAQs](troubleshoot-faq.md)
-

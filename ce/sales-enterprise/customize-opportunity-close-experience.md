@@ -51,21 +51,23 @@ To create fields,
 
 1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
-    ![Advanced Settings option on the Settings menu](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
+    > [!div class="mx-imgBorder"]
+    > ![Advanced Settings option on the Settings menu](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
 
     The **Business Management** page opens.
 
-1.  On the navigation bar, select **Settings**, and then select **Customizations**.
+2.  On the navigation bar, select **Settings**, and then select **Customizations**.
 
-    ![Customization option on the site map](media/customization-in-sitemap.png "Customization option on the site map")
+    > [!div class="mx-imgBorder"]
+    > ![Customization option on the site map](media/customization-in-sitemap.png "Customization option on the site map")
 
-2.  On the **Customization** page, select **Customize the System**.
+3.  On the **Customization** page, select **Customize the System**.
 
-3.  In the solution explorer, under **Components**, expand **Entities**, and then expand **Opportunity Close**.
+4.  In the solution explorer, under **Components**, expand **Entities**, and then expand **Opportunity Close**.
 
-4.  Under the **Opportunity Close** node, select **Fields**.
+5.  Under the **Opportunity Close** node, select **Fields**.
 
-5.  To add a new field, on the **Actions** toolbar, select **New**, and enter a **Display Name** to generate the **Name**. For more information on the data to enter, see [Create and edit fields (attributes)](../customize/create-edit-fields.md)
+6.  To add a new field, on the **Actions** toolbar, select **New**, and enter a **Display Name** to generate the **Name**. For more information on the data to enter, see [Create and edit fields (attributes)](../customize/create-edit-fields.md)
 
 
 ## Add newly created custom fields to the Opportunity Close form
@@ -76,7 +78,8 @@ After you’ve created the fields that are required by your organization, add th
 
 2.  Under **Opportunity Close** node, select **Forms**.
 
-    ![Forms node in Solution explorer](media/forms-node-solution-explorer.png "Forms node in Solution explorer")
+    > [!div class="mx-imgBorder"]
+    > ![Forms node in Solution explorer](media/forms-node-solution-explorer.png "Forms node in Solution explorer")
 
 3.  Open the **Opportunity Close** form of type **Quick Create**.
 

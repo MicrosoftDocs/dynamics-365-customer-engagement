@@ -3,7 +3,7 @@ title: "Deploy the hosted application to Unified Service Desk | MicrosoftDocs"
 description: "Learn about deploying the hosted application in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
+ms.date: 12/31/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article
@@ -31,24 +31,20 @@ Once you have created a hosted application as described in [Create a HAT hosted 
   
    ![Publish to dialog box](../unified-service-desk/media/usd-deploy.png "Publish to dialog box")  
   
-3. If there is more than one organization, check the **Display list of available organizations** check box and click **Login**.  
+3. If there is more than one organization, check the **Display list of available organizations** check box and select **Login**.  
   
-4. Select your organization from the list of organizations displayed and click **OK**.  
+4. Select your organization from the list of organizations displayed and select **OK**.  
   
 <a name="verify"></a>   
 ## Verify that the application is successfully deployed  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. On the nav bar, choose **Dynamics 365**.  
+2. Select **Hosted Controls** under **Basic Settings**.  
   
-3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
+3. From the list of hosted controls, select the hosted application you just deployed. In this case, it’s [!INCLUDE[pn_bing](../includes/pn-bing.md)] Search. 
   
-4. From the list of hosted controls, select the hosted application you just deployed. In this case, it’s [!INCLUDE[pn_bing](../includes/pn-bing.md)] Search.  
-  
-   ![List of hosted controls showing Bing Search](../unified-service-desk/media/usd-hat-deploy-test.PNG "List of hosted controls showing Bing Search")  
-  
-5. The configuration information for the hosted application is displayed.  
+4. The configuration information for the hosted application is displayed.  
   
    ![Hosted control information dialog box](../unified-service-desk/media/usd-deploy-test-hosted-control-info.PNG "Hosted control information dialog box")  
   

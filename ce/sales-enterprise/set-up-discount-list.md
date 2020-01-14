@@ -20,11 +20,13 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
 
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
-2. Select the Site map icon ![Site map icon](media/site-map-icon.png "Site map icon"), then select ellipses ![Ellipses to open more options](media/ellipsis-more-options.png "Ellipses to open more options"), and then select **App Settings**. 
+2. Select the site map icon ![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **App Settings**. 
   
 3. In the **Product Catalog** area, select **Discount Lists**. 
 
-    ![Discount lists in site map](media/site-map-product-catalog.png "Discount lists in site map")
+    > [!div class="mx-imgBorder"]
+    > ![Unit groups in site map](media/site-map-unit-group.png "Unit groups in site map")
+
 
 4.	To create a new discount list, on the command bar, select **New**.
 
@@ -40,11 +42,13 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
 
     c.	**Currency**. If you chose to give discount as a fixed amount, select the currency.
 
-    ![Discount list form](media/discount-list-form.png "Discount list form")
+    > [!div class="mx-imgBorder"]
+    > ![Discount list form](media/discount-list-form.png "Discount list form")
  
 6.	To add discount details to the list, on select the **Related** tab, and then select **Discounts**.
 
-    ![Discount tab on the Discount List form](media/discount-list-form-related-tab-discounts-option.png "Discount tab on the Discount List form")
+    > [!div class="mx-imgBorder"]
+    > ![Discount tab on the Discount List form](media/discount-list-form-related-tab-discounts-option.png "Discount tab on the Discount List form")
  
 7.	On the **Discounts** tab, select **Add New Discount**.
 
@@ -58,7 +62,8 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
 
     For example, this discount list will offer a discount of 5% whenever the customer purchases between 3 – 5 pieces of televisions.
 
-      ![Discount form](media/discount-form.png "Discount form")
+    > [!div class="mx-imgBorder"]
+    > ![Discount form](media/discount-form.png "Discount form")
  
 
 
