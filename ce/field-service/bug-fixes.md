@@ -61,7 +61,7 @@ In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field
 - Improve the username discovery for OAuth2 
 - Chat: Don't crash when chat is closed during loading posts 
 - EmailForm: Espace attachment name. Attachment name with ' (single quote) was not visible 
-- iOS, Android: Choosen multiple photos (note list) now respect max image size 
+- iOS, Android: Chosen multiple photos (note list) now respect max image size 
 - DownloadEntityImages(): Preventing duplicated IDs 
 - iOS: Permission descriptions were added to Info.plist (due to Inspections review rejection) 
 - Open content file in read mode. iOS doesn't allow to open it as writable 
@@ -86,15 +86,15 @@ In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field
 - Android - unable to use 'navigate to' on account and WO 
 - NavigateTo on iOS opens Google Maps even though Apple Maps is selected 
 - Scan Barcode in the hamburger menu doesn't work 
-- FSM Android splash screen hang. 
+- FSM Android splash screen hangss. 
 - OAuth with Proxy - If Proxy is bad, the app doesn't show any indication and it remains on the Sign In page. 
 - Saving IoT Device Command - Getting Error "Server Error: PluginBase" 
 - Allow sign in to OnPrem url 
-- OAuth on Android - authentication attempt with valid server entered shows error pop up "One or more errors occurred" . 
+- OAuth on Android - authentication attempt with valid server entered shows error pop-up "One or more errors occurred". 
 - Validate mobile app with no Woodford project. 
 - "e" letter is displaying in separate line for "Mark Complete" button on Service Tasks sub-grid of Work Order form 
 - Booking record should be deleted from the app if it is removed from the Schedule Board 
-- Server error appear when user with FS Dispatcher privileges try to create Customer Asset in online mode
+- Server error appearss when users with FS Dispatcher privileges try to create Customer Asset in online mode
 
 
 ### Version 11.3
@@ -117,9 +117,9 @@ In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field
 
 - ConsiderTravelTime parameter for SA API msdyn_SearchResourceAvailability is not working as expected
    - Create a resource requirement with 4 hours duration, and location = Onsite 
-   - Create a resource A with 4 hours available hour on his calendar , make sure there is few mins travel time between the location between resource and requirement
-   - Use msdyn_SearchResourceAvailability with ConsiderTravelTime parameter set to false , and to find availability for this requirement 
-Before: no potential bookable slot returned , now there is potential bookable slot return from resource A since resource A has enough available hours 
+   - Create a resource A with 4 hours available hour on his calendar, make sure there is few mins travel time between the location between resource and requirement
+   - Use msdyn_SearchResourceAvailability with ConsiderTravelTime parameter set to false, and to find availability for this requirement 
+Before: no potential bookable slot returned, now there is potential bookable slot return from resource A since resource A has enough available hours 
 - RSO Booking Details -> Operation Details field doesn't show message anymore if RSO application user missing FS-admin security role
 - Booking status form showing false Scheduling Method when first time open after setup fresh RSO environment
 - Fixed upgrade issue from RSO v3.0.18341.1 to latest in-market version
