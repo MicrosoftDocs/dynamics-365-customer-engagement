@@ -91,7 +91,7 @@ Finally, copy and paste the GUID into the template link below.
 
     https://[dynamics org name].crm.dynamics.com/webresources/msdyn_/fps/ScheduleBoard/scheduleboard.html?#tab=[32 digit GUID].
 
-See the following screenshot for an example of an acceptable URL to a specific schedule board tab.
+See the following for an example of an acceptable URL to a specific schedule board tab.
 
 https://fieldservice.crm.dynamics.com/webresources/msdyn_/fps/ScheduleBoard/scheduleboard.html?#tab=AE595A88-A57C-E911-A95A-000D3A3B9A2B
 
