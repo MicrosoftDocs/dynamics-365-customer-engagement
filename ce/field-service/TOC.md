@@ -102,24 +102,13 @@
 ## [Entitlements](work-order-entitlements.md)
 
 # Assets, inventory, and purchasing
-## Customer assets
-### [Asset management](configure-set-up-customer-assets.md)
-### [3D models](3D-viewer.md)
-## Inventory
-### [Warehouse](create-warehouse.md)
-###  [View product inventory](view-product-inventory.md)
-###  [Create an inventory transfer](create-inventory-transfer.md)
-###  [Create an inventory adjustment](create-inventory-adjustment.md)
-###  [Manual inventory journals](manual-inventory-journals.md)
-###  [Process a return](process-return.md)
-###  [Return product to vendor](create-return-vendor.md)
-### [RMA sub-status](create-rma-sub-status.md)
-### [RTV sub-statuses](set-up-rtv-sub-statuses.md)
-### [Ship via](create-ship-via.md)
-## Purchasing
-### [Create a purchase order](create-purchase-order.md)
-### [Purchase order sub-statuses](set-up-purchase-order-sub-statuses.md)
-### [Payment terms](set-up-payment-terms.md)
+## [Overview](inventory-purchasing-returns-overview.md)
+## [Customer assets](configure-set-up-customer-assets.md)
+## [3D asset models](3D-viewer.md)
+## [Warehouses](create-warehouse.md)
+## [Create a purchase order](create-purchase-order.md)
+## [Process a return](process-return.md)
+## [Manual inventory journals](manual-inventory-journals.md)
 
 # Resource Scheduling Optimization (RSO) add-in
 ## [Overview](rso-overview.md)
