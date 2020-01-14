@@ -44,7 +44,7 @@ Define the level of service or support that your organization agrees to offer to
 > [!NOTE]
   >  The standard SLAs have been deprecated and replaced with enhanced SLAs.
   <br>
-  More information: [Standard SLAs in Dynamics 365 Customer Service are deprecated](https://docs.microsoft.com/en-us/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated)
+  More information: [Standard SLAs in Dynamics 365 Customer Service are deprecated](https://docs.microsoft.com/p/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated)
 
 
 ## Entities (record types) that support SLA  
