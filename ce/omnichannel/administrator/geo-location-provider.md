@@ -4,7 +4,7 @@ description: "Instructions to set up visitor location detection in Omnichannel f
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
-ms.date: 10/01/2019
+ms.date: 12/13/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article

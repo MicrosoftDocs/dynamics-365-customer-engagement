@@ -3,7 +3,7 @@ title: "Add multi-language support for your agent applications | MicrosoftDocs"
 description: "Learn about adding multi-language support for your agent applications. The multi-language support is available for all the components except for those that are surfaced through Customer Care Accelerator, which doesn’t support multi-language scenarios. This includes the hosted control tab names."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
+ms.date: 12/31/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article
@@ -54,17 +54,17 @@ search.app:
   
 4. After publishing the web resource for your language resource file, add the web resource to your **Global Manager** hosted control.  
   
-   1. On the nav bar, choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
+   1. Sign in to Unified Service Desk Administrator.
+
+   2. Select **Hosted Controls** under **Basic Settings**.  
   
-   2. Click **CRM Global Manager** under the **Name** column, or select the record, and click **Edit** on the command bar.  
+   2. Select **CRM Global Manager** from the list.  
   
       > [!NOTE]
       > **CRM apps Global Manager** is the name of the default **Global Manager** hosted control type in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. If you have a Global Manager hosted control with different name, select it instead.  
   
-   3. On the **CRM Global Manager** page, under the **Language Services** area, click **+** to add a language module record.  
-  
-   ![Add a language module](../unified-service-desk/media/usd-add-language-module.png "Add a language module")  
-  
+   3. On the **CRM Global Manager** page, select the **Language Services** tab, select **+ New Language Module** to add a language module record.  
+
    4.  On the **New Language Module** page, specify the name, LCID, and the name of the web resource that contains the translation file.  
   
         The LCID should be populated with a value that represents the language that this resource represents. [View the list of locale IDs](https://msdn.microsoft.com/library/ms912047\(WinEmbedded.10\).aspx).  
@@ -74,7 +74,7 @@ search.app:
    > [!IMPORTANT]
    >  If you use language services, you should always configure language services for your base the Common Data Service platform language. In this example, add an English language service as well. The base language translation file is always used if someone uses a language pack in the Common Data Service platform that doesn’t have a translation file in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] language services.  
   
-5. Click **Save**.  
+5. Select **Save**.  
   
 ## Use the translated text  
  To use the translated text, refer to the entry using a replacement parameter as shown here.  

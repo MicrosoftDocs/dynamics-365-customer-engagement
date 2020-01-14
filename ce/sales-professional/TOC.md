@@ -19,7 +19,6 @@
 ### Understand sales transactions
 #### [Understand sales transactions](understanding-sales-transactions-sales-professional.md)
 #### [Create and manage quotes](create-quotes-sales-professional.md)
-#### [Create and edit orders](create-orders.md)
 #### [Create and manage invoices](create-invoices.md)
 #### [Add products to a quote, order, or invoice](add-product-quote-order-invoice-sp.md)
 ### Set up a product catalog
@@ -29,6 +28,7 @@
 ### Improve productivity
 #### [Gain insights with dashboards](gain-insights-dashboards-sales-professional.md)
 #### [Assign records to a user or team](assign-records-sales-professional.md)
+#### [Manage your SharePoint documents and document locations](manage-sharepoint-documents-sales-professional.md)
 #### [Use document templates to create standardized documents](use-document-templates-sales-professional.md)
 #### [Create PDF documents from sales records](create-quote-pdf-sales-professional.md)
 ### Get started with in-app marketing

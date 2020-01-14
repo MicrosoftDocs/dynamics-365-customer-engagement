@@ -20,10 +20,10 @@ manager: annbe
 
 <h2>Get started</h2>
 <ul>
-<li><a href="sales-professional-overview.md" data-raw-source="[Dynamics 365 Sales Professional Overview](sales-professional-overview.md)">Dynamics 365 Sales Professional Overview</a></li>
-<li><a href="whats-new.md" data-raw-source="[What's new](whats-new.md)">What's new</a></li>
+<li><a href="sales-professional-overview.md" data-raw-source="[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)">Overview of Dynamics 365 Sales Professional</a></li>
+<li><a href="whats-new.md" data-raw-source="[What's new](whats-new.md)">What's new in Dynamics 365 Sales Professional</a></li>
 <li><a href="learn-basics-sales-professional.md" data-raw-source="[Learn the basics](learn-basics-sales-professional.md)">Learn the basics</a></li>
-<li><a href="manage-accounts-contacts.md" data-raw-source="[Manager your customers](manage-accounts-contacts.md)">Manager your customers</a></li>
+<li><a href="manage-accounts-contacts.md" data-raw-source="[Manage your customers](manage-accounts-contacts.md)">Manage your customers</a></li>
 <li><a href="manage-activities.md" data-raw-source="[Manage tasks, appointments, email, or phone calls](manage-activities.md)">Manage tasks, appointments, email, or phone calls</a></li>
 </ul>
 </td><td>
@@ -33,6 +33,7 @@ manager: annbe
 <li><a href="manage-leads-sales-professional.md" data-raw-source="[Create and manage leads](manage-leads-sales-professional.md)">Create and manage leads</a></li>
 <li><a href="manage-opportunities-sales-professional.md" data-raw-source="[Create or edit opportunities](manage-opportunities-sales-professional.md)">Create or edit opportunities</a></li>
 <li><a href="create-quotes-sales-professional.md" data-raw-source="[Create and manage quotes](create-quotes-sales-professional.md)">Create and manage quotes</a></li>
+<li><a href="create-orders.md" data-raw-source="[Create and manage orders](create-orders.md)">Create and manage orders</a></li>
 <li><a href="create-invoices.md" data-raw-source="[Create and manage invoices](create-invoices.md)">Create and manage invoices</a></li>
 <li><a href="create-products.md" data-raw-source="[Create products](create-products.md)">Create products</a></li>
 <li><a href="create-price-list.md" data-raw-source="[Create price lists](create-price-list.md)">Create price lists</a></li>
@@ -46,6 +47,7 @@ manager: annbe
 <li><a href="gain-insights-dashboards-sales-professional.md" data-raw-source="[Gain insights with dashboards](gain-insights-dashboards-sales-professional.md)">Gain insights with dashboards</a></li>
 <li><a href="assign-records-sales-professional.md" data-raw-source="[Assign records to a user or team](assign-records-sales-professional.md)">Assign records to a user or team</a></li>
 <li><a href="use-document-templates-sales-professional.md" data-raw-source="[Use document templates to create standardized documents](use-document-templates-sales-professional.md)">Use document templates to create standardized documents</a></li>
+<li><a href="create-quote-pdf-sales-professional.md" data-raw-source="[Create PDF documents from sales records](create-quote-pdf-sales-professional.md)">Create PDF documents from sales records</a></li>
 <li><a href="manage-SharePoint-documents-sales-professional.md" data-raw-source="[Manage your SharePoint documents and document locations](manage-sharepoint-documents-sales-professional.md)">Manage your SharePoint documents and document locations</a></li>
 </ul>
 
@@ -63,10 +65,10 @@ manager: annbe
 <h2>Administer the app</h2>
 <ul>
 <li><a href="admin-settings-overview.md" data-raw-source="[Set up the app for use](admin-settings-overview.md)">Set up the app for use</a></li>
-<li><a href="connect-with-sharepoint.md" data-raw-source="[Connect with SharePoint](connect-with-sharepoint.md)">Connect with SharePoint</a></li>
+<li><a href="connect-with-sharepoint.md" data-raw-source="[Configure Dynamics 365 Sales Professional to integrate with SharePoint](connect-with-sharepoint.md)">Configure Dynamics 365 Sales Professional to integrate with SharePoint</a></li>
 <li><a href="import-data.md" data-raw-source=" [Import data](import-data.md)">Import data</a></li>
-<li><a href="manage-users.md" data-raw-source=" [Manage users](manage-users.md)">Manage users</a></li>
-<li><a href="configure-email.md" data-raw-source=" [Set up email](configure-email.md)">Configure email</a></li>
+<li><a href="manage-users.md" data-raw-source=" [Add or manage users](manage-users.md)">Add or manage users</a></li>
+<li><a href="configure-email.md" data-raw-source=" [Set up email by integrating with Microsoft Exchange](configure-email.md)">Set up email by integrating with Microsoft Exchange</a></li>
 <li><a href="admin-guide.md" data-raw-source="[More resources for admins and sales managers](admin-guide.md)">More help resources for admins and sales managers...</a></li>
 </td><td>
 

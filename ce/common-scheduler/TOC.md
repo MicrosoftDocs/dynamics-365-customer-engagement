@@ -1,4 +1,4 @@
-# [Overview of Universal Resource Scheduling (URS)](schedule-anything-with-universal-resource-scheduling.md)
+# [Overview of Resource Scheduling (RS)](schedule-anything-with-universal-resource-scheduling.md)
 
 # Scheduling
 ## [Quick scheduling](quick-scheduling.md)
@@ -33,3 +33,4 @@
 ### [Universal FetchXML](developer/universal-fetchxml.md)
 
 # [Bug fixes](bug-fixes.md)
+

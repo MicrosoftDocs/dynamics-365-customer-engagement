@@ -27,7 +27,8 @@ Your system administrator can choose the entities on which PDF generation is ena
 
 2.	On the command bar, select **Create PDF** and then select a template on which you want to create the PDF.  
 
-    ![A quote form showing the Create PDF button on the command bar](media/create-pdf-sales-professional.png "A quote form showing the Create PDF button on the command bar")
+    > [!div class="mx-imgBorder"]
+    > ![A quote form showing the Create PDF button on the command bar](media/create-pdf-sales-professional.png "A quote form showing the Create PDF button on the command bar")
 
 
     > [!IMPORTANT]
@@ -47,7 +48,8 @@ You can also generate a PDF document and directly email it to a customer.
 
 2.	On the command bar, select **Email as PDF** and then select a document template.
 
-    ![A quote form showing the Email as PDF button on the command bar](media/email-as-pdf-sales-professional.png "A quote form showing the Email as PDF button on the command bar")
+    > [!div class="mx-imgBorder"]
+    > ![A quote form showing the Email as PDF button on the command bar](media/email-as-pdf-sales-professional.png "A quote form showing the Email as PDF button on the command bar")
     
     An email form opens. 
     

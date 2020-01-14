@@ -52,7 +52,8 @@ To create or edit an opportunity:
 
     -   **Est. Revenue**. Opportunities with products added to them have their estimated revenue value calculated based on the base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, Dynamics 365 Sales Professional recalculates the estimated revenue value based on any changes to the products or product quantities associated with the opportunity.
 
-        ![Opportunity form](media/opportunity-form.png "Opportunity form")
+        > [!div class="mx-imgBorder"]
+        > ![Opportunity form](media/opportunity-form.png "Opportunity form")
 
 4.  In the **Stakeholders** section, select **More Commands** ![More Commands button](media/more-commands-button.png "More Commands button"), and then select **New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making.
 
@@ -77,7 +78,8 @@ To create or edit an opportunity:
 
     -   **Develop Proposal**. Select the check box to indicate that you’ve included notes on how the account will be approached (optional).
 
-        ![Develop Opportunity stage in the process bar](media/develop-opportunity-stage-bpf.png "Develop Opportunity stage in the process bar")
+       > [!div class="mx-imgBorder"]
+       > ![Develop Opportunity stage in the process bar](media/develop-opportunity-stage-bpf.png "Develop Opportunity stage in the process bar")
 
 9.  In the **Develop Opportunity** stage, select **Next**.
 
@@ -110,19 +112,20 @@ Whether you win a sale or close an opportunity, you probably want to close it. Y
 
 2.  On the command bar, select **Close as Won** or **Close as Lost**.
 
-    ![Close Opportunity dialog box](media/close-opportunity-dialog-box.png "Close Opportunity dialog box")
+    > [!div class="mx-imgBorder"]
+    > ![Close Opportunity dialog box](media/close-opportunity-dialog-box.png "Close Opportunity dialog box")
 
     1. When you close the opportunity as **Won**, in the **Close Opportunity** pane, do the following, and select **OK**:
 
-            - In **Actual Revenue**, Verify the amount, and make changes, if necessary.
+        - In **Actual Revenue**, Verify the amount, and make changes, if necessary.
 
-            - In **Description**, enter details about what contributed to winning this opportunity. 
+        - In **Description**, enter details about what contributed to winning this opportunity. 
 
     2. When you close the opportunity as **Lost**, in the **Close Opportunity** pane, do the following, and select **OK**:
 
-            -  In **Competitor**, select a competitor you lost this opportunity to.
+        -  In **Competitor**, select a competitor you lost this opportunity to.
 
-            -  In **Description**, add more details around why the opportunity was lost.
+        -  In **Description**, add more details around why the opportunity was lost.
 
     > [!IMPORTANT]
     > If your system administrator has enabled custom fields on the **Opportunity Close** form, you may be required to fill in data in other fields as defined by your organization. 

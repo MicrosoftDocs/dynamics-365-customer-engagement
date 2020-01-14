@@ -3,9 +3,9 @@ title: "Dynamics 365 Sales troubleshooting guide for sales people | MicrosoftDoc
 description: "Follow the instructions in this topic to troubleshoot the issues you may face while working on Dynamics 365 Sales."
 ms.date: 10/01/2019
 ms.service: 
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom: 
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -23,7 +23,8 @@ Use the following list of troubleshooting topics to quickly find information to 
 When you determine that the lead you’ve nurtured has a potential to turn into business, you qualify a lead. When you qualify a lead, it becomes an opportunity.
 To qualify a lead, select **Qualify** on the command bar of the lead record.
 
-![Qualify button on the Lead form](media/qualify-button-lead-form.png "Qualify button on the Lead form")
+> [!div class="mx-imgBorder"]  
+> ![Qualify button on the Lead form](media/qualify-button-lead-form.png "Qualify button on the Lead form")
 
 You can also qualify a lead from the list of leads. Go to **Sales** > **Leads**. Select the lead you want to qualify and on the command bar, select **Qualify**.
 
@@ -39,8 +40,8 @@ The following sections describe each of these errors and how you can resolve the
 <a name="duplicate"> </a>
 #### 1. Duplicate warning - There might already be a match for this account or contact. If so, please select it.
 
-
-![Duplicate warning while qualifying lead](media/duplicate-warning.png "Duplicate warning while qualifying lead")
+> [!div class="mx-imgBorder"]  
+> ![Duplicate warning while qualifying lead](media/duplicate-warning.png "Duplicate warning while qualifying lead")
 
 
 **Reason:**
@@ -77,7 +78,8 @@ The lead that you are trying to qualify isn’t in the Active state. This may ha
 1.	Open the lead record.
 2.	On the process stage, select the Set **Active** button.
 
-    ![Set Active button in the Qualify stage of lead form](media/set-active-button-qualify-stage.png "Set Active button in the Qualify stage of lead form")
+    > [!div class="mx-imgBorder"]  
+    > ![Set Active button in the Qualify stage of lead form](media/set-active-button-qualify-stage.png "Set Active button in the Qualify stage of lead form")
 
 <a name="AccessDenied"> </a> 
 #### 4. Access denied or Insufficient permissions
@@ -103,8 +105,8 @@ When you close an opportunity, the opportunity is marked as complete, and can’
 
 To close an opportunity, open the opportunity record, and on the command bar, select **Close as Won** or **Close as Lost**.
 
-
-![Close opportunity as Won or Lost](media/close-opportunity.png "Close opportunity as Won or Lost")
+> [!div class="mx-imgBorder"]  
+> ![Close opportunity as Won or Lost](media/close-opportunity.png "Close opportunity as Won or Lost")
 
 ### Why am I not able to close an opportunity?
 
@@ -127,7 +129,8 @@ There may be active or draft quotes associated with the opportunity.
 1.	In the Opportunity record, go to the **Quotes** tab (or **Quotes line item** tab).
 2.	Make sure none of the quotes are in the Draft or Active status.
 
-    ![Quotes in the Draft status](media/quotes-in-draft-state.png "Quotes in the Draft status")
+    > [!div class="mx-imgBorder"]  
+    > ![Quotes in the Draft status](media/quotes-in-draft-state.png "Quotes in the Draft status")
 
 
 <a name="AccessDeniedOpportunity"> </a> 
@@ -157,8 +160,9 @@ If you want to make changes to the already-closed opportunity, reopen the opport
 If you have already closed an opportunity as Won or Lost, it becomes read-only and you can no more change it. If you want to make any changes to the opportunity, reopen the opportunity. 
 
 To reopen, open the opportunity, and on the command bar, select **Reopen Opportunity**.
- 
-![Reopen opportunity](media/reopen-opportunity.png "Reopen opportunity")
+
+> [!div class="mx-imgBorder"]
+> ![Reopen opportunity](media/reopen-opportunity.png "Reopen opportunity")
 
 ### Why am I not able to add products to opportunity? 
 
