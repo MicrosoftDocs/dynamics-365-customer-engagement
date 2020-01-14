@@ -30,6 +30,7 @@ search.app:
 
 Booking Timestamps are..
 
+- date and time of a booking status change
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-timestamps-booking-statuses-per-fs-status.png)
@@ -80,13 +81,25 @@ you have two options for how timestamps are created
 
 ## Create timestamps
 
-Timestamps are created when a booking status is updated. This happens most often when field technicians update the status of their bookings from the Field Service Mobile app, though booking statuses can also be updated in the back office by dispatchers for example.
+Timestamps are created when a booking status is updated. This happens most often when field technicians update the status of their bookings from the Field Service Mobile app, though booking statuses can also be updated in the back office by dispatchers.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-timestamps-mobile-status.png)
 
 > [!Note]
 > **Booking timestamps work when Field Service Mobile is in offline mode** without internet access. This means that every time a technician changes his or her booking status, whether to "traveling", "In progress" or a custom booking status, the timestamp documenting the status change is saved locally to the device, and synced to the server when internet access is resumed.
+
+You can then view the timestamps by going to the **booking (entity name bookableresourcebooking) > Related > Booking Timestamps** where you can see:
+
+
+**Booking Status** - status changed to
+
+**System Status** - related field service status for work order process if applicable
+
+**Timestamp Time** - date and time of status change
+
+**Timestamp Source** - interface the booking status was changed from. Typically "Mobile" when technicians change the status from Field Service Mobile and "Desktop" if dispatchers change the status from the schedule board. 
+
 
 ### Per Field Service Status
 
