@@ -35,13 +35,22 @@ Booking Timestamps are..
 > ![Screenshot of ](./media/scheduling-timestamps-booking-statuses-per-fs-status.png)
 
 
-
-
 they are important because 
 
 - reporting
 - time keeping
 - booking journals
+
+While Dynamics 365 Field Service has always supported capture of booking timestamps when the underlying Field Service setting is changed, many customers extend or change our solution to enable capture of timestamps at the increased frequency of the change of booking status. They use this to drive increased accuracy of costing, to drive deeper understanding of where time goes on each booking and work order, and to drive other extension scenarios.
+
+For customers, changing this logic is complex and often leads to challenges or a redundant set of customer records. It can be challenging to correctly handle in offline scenarios. Field Service has introduced this configuration to simplify implementations for Field Service customers and to allow customers the flexibility of deciding what level of detail they wish to capture when performing work.
+
+This includes:
+
+- Define in Field Service settings the frequency at which timestamps will be captured for each booking.
+- Enabling the system to respect that setting regardless of whether the booking status change occurs on the mobile device or via a web browser.
+- Capturing appropriate details on the relevant timestamps.
+- When a time entry is created from a timestamp, ensure that the time entry holds the right level of detail depending on the org's setting."
 
 
 ## Prerequisites
@@ -50,11 +59,13 @@ they are important because
 > [!Note]
 >
 
-First verify that you have booking statuses For more information on booking statuses see the topic on [work order lifecycle and statuses](./work-order-status-booking-status.md).
+First verify your booking statuses and understand how each Booking Status can have a Field Service Status and how that affects the work order process. For more information on booking statuses see the topic on [work order lifecycle and statuses](./work-order-status-booking-status.md). 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-timestamps-booking-statuses.png)
+
+As an example, the "Arrived On Site" booking status in the image above
 
 
 Next choose how you want booking timestamps to be created.  
@@ -72,7 +83,7 @@ Go to **Field Service > Settings > Work Order/Booking section > Timestamp Freque
 
 ## Create timestamps
 
-Timestamps are created when a booking status is updated. This happens most often when field technicians update the sattus of their bookings from the Field Service Mobile app, though booking statuses can also be updated in the back office by dispatchers for example.
+Timestamps are created when a booking status is updated. This happens most often when field technicians update the status of their bookings from the Field Service Mobile app, though booking statuses can also be updated in the back office by dispatchers for example.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-timestamps-mobile-status.png)
