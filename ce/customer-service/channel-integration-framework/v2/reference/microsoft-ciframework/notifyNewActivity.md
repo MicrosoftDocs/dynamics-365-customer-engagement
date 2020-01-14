@@ -19,7 +19,7 @@ ms.custom:
 
 This method is used to update the number of new activities in a particular session.
 
-![Notify new activity](../../media/notifyNewActivity.PNG "Notify new activity")
+![Notify new activity](../../../media/notifyNewActivity.PNG "Notify new activity")
 <br>
 
 ## Syntax
