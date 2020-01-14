@@ -76,7 +76,7 @@ Here are a few tasks that you could perform on your day-to-day activities using 
 
 As you start your day and to know how busy your day is, go to **My Appointments**. The **My Appointments** feature provides insights on your meetings, travel, and free time. With this information, you can plan for the day ahead by reviewing who you will be meeting during the day, where you need to travel, and how much free time you have left.
 
-To view your appointments, select Site map > **My Activities** >  **My Appointments**.
+To view your appointments, select Site map > **Activities** and select **My Appointments** view.
 
 ### Attend meetings with information at your fingertips
 
@@ -103,12 +103,17 @@ To add notes to an opportunity, follow these steps:
     > [!div class="mx-imgBorder"]
     > ![Add note to an opportunity](media/mobile-app-take-notes-timeline.png "Add note to an opportunity")
 
-3. (Optional) If the customer is showing interest in additional products, go to **Product line items**, select **More options** > **+ Add Product** and then select a product from the catalog or enter a product.
+3. (Optional) If the customer is showing interest in additional products, go to **Product line items**, select **More options** > **+ Add Product**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select add product option](media/mobile-app-select-add-product.png "Select add product option")
+
+4. Select a product from the catalog or enter a product.
 
     > [!div class="mx-imgBorder"]
     > ![Add product to an opportunity](media/mobile-app-add-product.png "Add product to an opportunity")
 
-4. (Optional) If you have met a new stakeholder at the customer’s offices, go to the **Stakeholder** section, select **More options** > **+ New Connection** and add the stakeholder. You can also add the contact from an account record.
+4. (Optional) If you have met a new stakeholder at the customer’s offices, under **Summary**, go to the **Stakeholder** section, select **More options** > **+ New Connection** and add the stakeholder. You can also add the contact from an account record.
 
     > [!div class="mx-imgBorder"]
     > ![Stakeholder section](media/mobile-app-stakeholder-tab.png "Stakeholder section")
@@ -141,7 +146,6 @@ Follow these steps:
     > ![Appointment saved](media/mobile-app-appointment-saved.png "Appointment saved")
 
     Once the appointment is complete, you can open the appointment and mark as complete.
-
 
 ### Search contact or account
 
@@ -180,9 +184,6 @@ Follow these steps to add and qualify the lead:
 
 3. Enter necessary information and save the lead.
 
-    > [!div class="mx-imgBorder"]
-    > ![Lead form](media/mobile-app-new-lead-form.png "Lead form")
-
 4. To qualify a lead, open the lead and select  **More options** > **Qualify**.
 
     > [!div class="mx-imgBorder"]
@@ -198,12 +199,14 @@ Follow these steps:
 
 2. Open the opportunity for which you want to generate PDF of quote and select **More options** > **Quote**. 
 
+3. In the quote section, select **More options** > **+ New Quote**.
+
     > [!div class="mx-imgBorder"]
     > ![Generate a quote](media/mobile-app-generate-quote.png "Generate a quote")
 
-3. In the quote section, select **More options** > **+ New Quote**. A quote is generated.
+    A quote is generated.
 
-4. On the quote page, select **More options** > **Email as PDF** > **Print quote for customer**.
+4. From the quote page, on the tool bar, select **More options** > **Email as PDF** > **Print quote for customer**.
 
     An email opens with the quote as attachment.
 
