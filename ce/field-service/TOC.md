@@ -120,14 +120,14 @@
 ### [Purchase order sub-statuses](set-up-purchase-order-sub-statuses.md)
 ### [Payment terms](set-up-payment-terms.md)
 
-# Resource Scheduling Optimization (RSO) add-in
+# Resource scheduling optimization add-in
 ## [Overview](rso-overview.md)
-## [Get RSO](rso-get-install.md)
+## [Get resource scheduling optimization](rso-get-install.md)
 ## [Quickstart](rso-quickstart.md)
 ## [Deployment](rso-deployment.md)
 ## [Configuration](rso-configuration.md)
 ## [Set up a proof of concept](rso-proof-concept.md)
-## Running RSO
+## Running resource scheduling optimization
 ### [Publishing + monitoring](rso-schedule-optimization.md)
 ### [Overnight scheduling](rso-overnight-scheduling.md)
 ### [Single resource optimization](single-resource-optimization.md)

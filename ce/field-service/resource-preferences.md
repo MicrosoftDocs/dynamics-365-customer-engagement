@@ -28,7 +28,7 @@ search.app:
 
 # Resource preferences
 
-Resource preferences allow dispatchers to give preference to specific resources over others when scheduling with the schedule assistant or resource scheduling optimization (RSO). This is helpful for scenarios where a particular person or list of people are the only people that can perform a work order or job requirement. It's also helpful for scenarios where a person or group of people should *not* be eligible for a work order or job requirement.
+Resource preferences allow dispatchers to give preference to specific resources over others when scheduling with the schedule assistant or resource scheduling optimization. This is helpful for scenarios where a particular person or list of people are the only people that can perform a work order or job requirement. It's also helpful for scenarios where a person or group of people should *not* be eligible for a work order or job requirement.
 
 From a requirement, the dispatcher can add one or more resource preferences. 
 
@@ -39,9 +39,9 @@ From a requirement, the dispatcher can add one or more resource preferences.
 
 For each resource added as a resource preference, you can define a **Preference Type**:
 
-- **Preferred:** these resources will show at the top of schedule assistant results. RSO will prioritize these resources over others, but will not guarantee the requirement is scheduled to them.
-- **Restricted:** these resources will be excluded from schedule assistant results. RSO will not auto schedule the requirement to them.
-- **Must choose from:** only these resources will show in schedule assistant results. RSO will schedule to one of them. If none of these resources are available, the requirement will not be scheduled.
+- **Preferred:** these resources will show at the top of schedule assistant results. Resource scheduling optimization will prioritize these resources over others, but will not guarantee the requirement is scheduled to them.
+- **Restricted:** these resources will be excluded from schedule assistant results. Resource scheduling optimization will not auto schedule the requirement to them.
+- **Must choose from:** only these resources will show in schedule assistant results. Resource scheduling optimization will schedule to one of them. If none of these resources are available, the requirement will not be scheduled.
 
 Because you can add multiple resource preferences to a single requirement, you can note both preferred resources and restricted resources on the same requirement.
 
@@ -51,11 +51,11 @@ To explain resource preferences, let's look at one example for each preference t
 ## Prerequisites
 
 - Field Service v8.8.7+
-- For RSO to consider the "Must choose from" resource preference, you must be using resource scheduling optimization v3.0.19263.1+ 
+- For resource scheduling optimization to consider the "Must choose from" resource preference, you must be using resource scheduling optimization v3.0.19263.1+ 
 
 ## Preferred
 
-Preferred resources will show at the top of schedule assistant results. RSO will prioritize these resources over others, but will not guarantee the requirement is scheduled to them.
+Preferred resources will show at the top of schedule assistant results. Resource scheduling optimization will prioritize these resources over others, but will not guarantee the requirement is scheduled to them.
 
 First create a work order.
 
@@ -91,7 +91,7 @@ In the schedule assistant grid view, you'll see the same heart icon next to pref
 
 ## Restricted
 
-Restricted resources will be excluded from schedule assistant results. RSO will not auto schedule the requirement to restricted resources.
+Restricted resources will be excluded from schedule assistant results. Resource scheduling optimization will not auto schedule the requirement to restricted resources.
 
 Following the same steps from the previous section, go to the requirement and add a resource preference with preference type of **Restricted**. For restricted resources, you have the option of adding a date range for which the restriction takes effect.
 
@@ -105,7 +105,7 @@ The restricted resource will show as restricted in the filter panel and will not
 
 ## Must choose from
 
-The "Must choose from" resource preference means only these resources will show in schedule assistant results, and RSO will schedule to one of them. If none of these resources are available, the requirement will not be scheduled.
+The "Must choose from" resource preference means only these resources will show in schedule assistant results, and resource scheduling optimization will schedule to one of them. If none of these resources are available, the requirement will not be scheduled.
 
 In the following example, the resource "Edgar Dominguez" was added to a requirement as a "must choose from" resource preference (preference type set to **Must choose from**).
 
@@ -118,16 +118,16 @@ In the schedule assistant grid view, the available time slots for only the "must
 > ![Screenshot of "Must choose from" resource in the schedule assistant](./media/scheduling-resource-preference-must-choose-from-grid.png)
 
 > [!Note]
-> You can add multiple resources as "must choose from" resource preferences. All will show as schedule assistant results (given they meet other filters) and RSO will schedule to one of them.
+> You can add multiple resources as "must choose from" resource preferences. All will show as schedule assistant results (given they meet other filters) and resource scheduling optimization will schedule to one of them.
 
-## Using resource preferences with RSO
+## Using resource preferences with resource scheduling optimization
 
-- For RSO to consider restricted and "Must choose from" resource preferences when automatically scheduling, add the **Meets Resource Preferences** constraint to the related optimization goal. 
+- For resource scheduling optimization to consider restricted and "Must choose from" resource preferences when automatically scheduling, add the **Meets Resource Preferences** constraint to the related optimization goal. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the meets resource preferences constraint on an optimization goal](./media/rso-constraints-meets-resource-preferences.png)
 
-- For RSO to consider preferred resource preferences, add the **Maximize Preferred Resources** objective to the optimization goal. Preferred resources are considered an objective and not a constraint because RSO does not guarantee requirements are scheduled to preferred resources. Not scheduling to restricted resource and scheduling to "Must choose from" resources are both guaranteed.  
+- For resource scheduling optimization to consider preferred resource preferences, add the **Maximize Preferred Resources** objective to the optimization goal. Preferred resources are considered an objective and not a constraint because resource scheduling optimization does not guarantee requirements are scheduled to preferred resources. Not scheduling to restricted resource and scheduling to "Must choose from" resources are both guaranteed.  
 
 
 ## Additional notes
