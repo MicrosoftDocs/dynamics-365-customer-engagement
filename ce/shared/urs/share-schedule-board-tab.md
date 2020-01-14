@@ -80,9 +80,9 @@ Sometimes, you may need a link to a specific schedule board tab that dispatchers
 
 First get the GUID for the specific schedule board tab you want to link to.
 
-A GUID is a 32 digit number in the format XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX and each record in Dynamics 365 has a GUID as a unique identifier, including schedule baord tabs.
+A GUID is a 32 digit number in the format XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX and each record in Dynamics 365 has a GUID as a unique identifier, including schedule board tabs.
 
-You can find the GUID of a schedule board tab with an advanced find of the **Schedule Board Settings** entity. Select the record that corresponds with the scheduel baord tab you want to share and use the **Email a link** button to get the GUID.
+You can find the GUID of a schedule board tab with an advanced find of the **Schedule Board Settings** entity. Select the record that corresponds with the schedule board tab you want to share and use the **Email a link** button to get the GUID.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of choosing users and teams to share the schedule board with](../../field-service/media/scheduling-link-sb-get-link.png)
