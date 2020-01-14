@@ -31,7 +31,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
   
 ## Requirements  
-[!include[cc-how-to-run-samples](../../includes/cc-how-to-run-samples.md)]
+[!include[cc-how-to-run-samples](./includes/cc-how-to-run-samples.md)]
 
 Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/Workflow/README.md) for additional information about the sample.
   
