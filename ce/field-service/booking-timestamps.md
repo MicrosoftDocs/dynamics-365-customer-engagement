@@ -35,12 +35,14 @@ Booking Timestamps are..
 > ![Screenshot of ](./media/scheduling-timestamps-booking-statuses-per-fs-status.png)
 
 
-they are importqant because 
 
-you have two options for how timestamps are created
 
-1. Per Field Service Status Change (default) - choose if you jsut want timestamps on the major work order milestones - Scheduled, Traveling, In Progress, Completed
-2. Per Booking status change - choose if you want more granularity and detail especially for custom statuses.
+they are important because 
+
+- reporting
+- time keeping
+- booking journals
+
 
 ## Prerequisites
 
@@ -48,34 +50,45 @@ you have two options for how timestamps are created
 > [!Note]
 >
 
+First verify that you have 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-timestamps-booking-statuses.png)
 
 
-First choose how you want booking timestamps to be created.  
+Next choose how you want booking timestamps to be created.  
+
+you have two options for how timestamps are created
 
 Go to **Field Service > Settings > Work Order/Booking section > Timestamp Frequency** 
+
+1. **Per Field Service Status Change** (default) - choose if you jsut want timestamps on the major work order milestones - Scheduled, Traveling, In Progress, Completed
+2. **Per Booking Status Change** - choose if you want more granularity and detail especially for custom statuses.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-timestamps-frequency-setting.png)
 
 
+## Create timestamps
 
-
-
+Timestamps are created when a booking status is updated. This happens most often when field technicians update the sattus of their bookings from the Field Service Mobile app, though booking statuses can also 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-timestamps-mobile-status.png)
 
+they work offline
+
+### Per Field Service Status
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-timestamps-booking-statuses-per-fs-status.png)
+
+### Per Booking Status
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-timestamps-booking-statuses-per-booking.png)
 
 
 ## Configuration considerations
-- works offline
+
 
 ## Additional Notes
 - booking journals 
