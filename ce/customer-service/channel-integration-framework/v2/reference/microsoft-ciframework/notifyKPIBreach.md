@@ -19,6 +19,9 @@ ms.custom:
 
 This method is used to indicate a KPI breach. Using this API, a red circle appears on the display image of the contact when a KPI breach has occurred.
 
+![Notify KPI Breach](../../media/notifyKPIBreach.PNG "Notify KPI Breach")
+<br>
+
 ## Syntax
 
 `Microsoft.CIFramework.notifyKPIBreach(sessionId, shouldReset, details).then(successCallback, errorCallback);`
