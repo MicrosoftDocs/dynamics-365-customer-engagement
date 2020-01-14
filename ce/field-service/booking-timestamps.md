@@ -61,11 +61,13 @@ This includes:
 
 First verify you have booking statuses in the system that correspond with your business needs. Many booking statuses exist by default and correspond with the work order process. These booking statuses have an associated Field Service Status. For example, the out-of-the-box "In progress" booking status has a Field Service Status of "In progress" and this changes the related work order system status to "Open-In Progress" automatically.
 
-However, you can create custom booking statuses that work the same way. As an example, the "Arrived On Site" booking status in the image below is also related to the "In progress" Field Service Status. 
+You can create custom booking statuses that work the same way. As an example, the "Arrived On Site" booking status in the image below is a custom creation that is also related to the "In progress" Field Service Status. 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-timestamps-booking-statuses.png)
+
+However, not all booking statuses need to have a Field Service Status and relate to work orders. Imagine a booking status that 
 
  For more information on booking statuses see the topic on [work order lifecycle and statuses](./work-order-status-booking-status.md). 
 
