@@ -25,10 +25,17 @@ A crew consists of a crew resource. The crew resource serves as a container for 
 
 To create a crew resource, navigate to **Universal Resource Scheduling > Resources > +New** and set the resource type to **Crew**.
 
-Assign a **Name**.
+On the **General** tab, assign a **Name**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Bookable Resource with Resource Type set to Crew](../../common-scheduler/media/scheduling-crew-header.png)
+
+You can also assign a **Crew Strategy.** Crew strategy determines how the crew manages its work. There are 3 options:
+
+- **Cascade and Accept Cascade Completely**: All resources on a crew can manage all the work. This is useful when a crew is made up of one user and the rest of the crew is equipment.
+- **Crew Leader Management**: There is a designated person (or persons) can manage the work of a crew. This is useful when a crew is made up of multiple users. You can designate more than one person to be a leader and manage the work.
+- **Crew Member Self-Management**: Resources can manage their own work. This is useful when a crew is made up of users who regularly work together, but may not always work together at the same place or time. Self-management also means better time capturing 
+
 
 Set the **Start and End Locations**.
 
@@ -39,6 +46,7 @@ Note that start and end location must be the same and can be set to either:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Crew Bookable Resource with Start and End Location set to Organizational Unit](../../common-scheduler/media/scheduling-crew-organizational-unit.png)
+
  
 ### 2. Add resource children to the crew
 
