@@ -100,6 +100,7 @@ You can then view the timestamps by going to the **booking (entity name bookable
 
 **Timestamp Source** - interface the booking status was changed from. Typically "Mobile" when technicians change the status from Field Service Mobile and "Desktop" if dispatchers change the status from the schedule board. 
 
+Booking timestamps will generate differently based on the setting you chose for the **Timestamp Frequency** field in Field Service Settings.
 
 ### Per Field Service Status
 
