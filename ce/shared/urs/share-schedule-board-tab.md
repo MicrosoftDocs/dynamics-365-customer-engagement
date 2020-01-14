@@ -69,7 +69,7 @@ Double-click the record to go to the form, and select **Share** on the top ribbo
 > ![Screenshot of the share button for a specific schedule board setting](../../field-service/media/schedule-board-share.png)
 
 
-Finally, use the pop up screen to add users and teams to share the schedule board with. Any user or team added here can see the schedule board tab, given they also have access to the schedule board.
+Finally, use the pop-up screen to add users and teams to share the schedule board with. Any user or team added here can see the schedule board tab, given they also have access to the schedule board.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of choosing users and teams to share the schedule board with](../../field-service/media/schedule-board-share-permissions.png)
@@ -80,7 +80,7 @@ Sometimes, you may need a link to a specific schedule board tab that dispatchers
 
 First get the GUID for the specific schedule board tab you want to link to.
 
-A GUID is a 32 digit number in the format XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX and each record in Dynamics 365 has a GUID as a unique identifier, including schedule board tabs.
+A GUID is a 32-digit number in the format XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX and each record in Dynamics 365 has a GUID as a unique identifier, including schedule board tabs.
 
 You can find the GUID of a schedule board tab with an advanced find of the **Schedule Board Settings** entity. Select the record that corresponds with the schedule board tab you want to share and use the **Email a link** button to get the GUID.
 
