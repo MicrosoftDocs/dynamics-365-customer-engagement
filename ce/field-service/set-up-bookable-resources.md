@@ -110,38 +110,39 @@ After saving the bookable resource, it's time to set the working hours of the re
 
 Let's walk through how to set up working hours.
 
-To set working hours:
-  - In the web interface (Field Service v7.x or earlier), select the arrow next to the resource name, and choose **Work Hours**.
-  - In the unified client interface (Field Service v8.x or later), select **Show Working Hours** at the top of the form. 
+In the web interface (Field Service v7.x or earlier), select the arrow next to the resource name, and choose **Work Hours**.
+
+In the unified client interface (Field Service v8.x or later), select **Show Working Hours** at the top of the form. 
 
  > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/resource-work-hours-new-navigate.png)
+> ![Screenshot of work hours tab on a bookable resource](./media/resource-work-hours-new-navigate.png)
+
 In Field Service **v8.8.14** or later the work hours are displayed directly in the form.
 
 
-Select **+New** > **Working hours**
+Select **+New** > **Working hours**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/resource-work-hours-new-working-hours.png)
+> ![Screenshot of the new work hours dropdown](./media/resource-work-hours-new-working-hours.png)
 
-Choosing the beginning and end time of working hours, along with a repeat option such as "every day".
+Choosing the beginning and end time of working hours, along with a repeat option such as "every day."
 
 Then **Save**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/resource-work-hours-new-hours.png)
+> ![Screenshot of the working hours, with emphasis on the repeat feature](./media/resource-work-hours-new-hours.png)
 
 This will update the working hours calendar.
 
-You can edite or delete the working hours bu double clicking the time slot on the calendar. 
+You can edit or delete the working hours bu double-clicking the time slot on the calendar. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/resource-work-hours-new-edit.png) 
+> ![Screenshot of work hours on a bookable resource](./media/resource-work-hours-new-edit.png) 
 
 > [!Note]
-> Whether setting the working hours for a day or longer, ensure the time zone reflects where the resource is located, which is configured on the resource form.
+> Whether setting the working hours for a day or longer, make sure the time zone reflects where the resource is located, which is configured on the resource form.
 
-In Field Service versions previous to **8.8.14**, select the **Set-Up** drop-down list and choose one of the following as seen in the image below:  
+In Field Service versions earlier than **8.8.14**, select the **Set-Up** drop-down list and choose one of the following as seen in the following screenshot:  
   
   - **New Weekly Schedule**: Set an ongoing weekly schedule for the resource.  
   
