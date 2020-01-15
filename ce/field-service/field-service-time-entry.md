@@ -39,6 +39,11 @@ However, organizations that only use one of these products will not be required 
 Further, this feature makes it simple to configure a solution to create time actuals that capture costs from approved time entries, enabling organizations to drive more accurate accounting practices and profit-loss calculations."
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/booking-timestamps.md.png)
+
+
+
 
 ## Prerequisites
 > [!Note]
@@ -47,9 +52,31 @@ Further, this feature makes it simple to configure a solution to create time act
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
+## Work orders
+
+## Time off
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/time-entry-new-time-off.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/time-entry-time-off-submitted.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/time-entry-time-off-approve.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/time-entry-time-off-approve-time-entry.png)
+
 ## Configuration considerations
 ## Additional Notes
 
 ### See also
 
-[Time, expense, and collaboration in Project Service Automation](https://docs.microsoft.com/en-us/dynamics365/project-service/time-expense-collaboration-guide)
+[Time and expense in Project Service Automation](https://docs.microsoft.com/en-us/dynamics365/project-service/time-expense-collaboration-guide)
+[Bookimg timestamps](booking-timestamps.md)
+[Time off requests](submit-approve-time-off-requests.md)
