@@ -32,8 +32,8 @@ search.app:
 
 However, organizations that only use one of these products will not be required to install Project Service Automation simply to capture time entries within Field Service. Field Service will support:
 
-- automatic time capture for work orders based on booking timestamps
 - manual time capture 
+- automatic time capture for work orders based on booking timestamps
 - custom time capture mechanisms unique to specific business processes or needs
 
 Further, this feature makes it simple to configure a solution to create time actuals that capture costs from approved time entries, enabling organizations to drive more accurate accounting practices and profit-loss calculations."
@@ -52,7 +52,10 @@ Further, this feature makes it simple to configure a solution to create time act
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
+## Manual time entry
+
 ## Work orders
+
 
 ## Time off
 
