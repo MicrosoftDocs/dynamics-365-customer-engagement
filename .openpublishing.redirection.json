@@ -411,6 +411,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/social-engagement/eol/overview.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/create-inventory-adjustment.md",
       "redirect_url": "inventory-purchasing-returns-overview",
       "redirect_document_id": "false"
