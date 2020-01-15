@@ -89,7 +89,9 @@ Timestamps are created when a booking status is updated. This happens most often
 > [!Note]
 > **Booking timestamps work when Field Service Mobile is in offline mode** without internet access. This means that every time a technician changes his or her booking status, whether to "traveling", "In progress" or a custom booking status, the timestamp documenting the status change is saved locally to the device, and synced to the server when internet access is resumed.
 
-You can then view the timestamps by going to the **booking (entity name bookableresourcebooking) > Related > Booking Timestamps** where you can see:
+## View timestamps
+
+You can view timestamps by going to the booking (entity name bookableresourcebooking)  then **Related > Booking Timestamps** where you can see:
 
 
 **Booking Status** - status changed to
@@ -102,19 +104,25 @@ You can then view the timestamps by going to the **booking (entity name bookable
 
 Booking timestamps will generate differently based on the setting you chose for the **Timestamp Frequency** field in Field Service Settings.
 
+Using our example of two custom booking statuses "Arrived on site" and "Wrench time" both of which relate to a Field Service Status of In Progress; and assuming the technician first changes the booking status to "Arrived on site" and then "Wrench time", the timestamps will be generated according to the following:
+
 ### Per Field Service Status
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-timestamps-booking-statuses-per-fs-status.png)
 
+Only the timestamp for "Arrived on site" is generated because with the **Per Field Service Status** setting, timestamps are created when theres a change in the field service status of a booking status, and in this example both are considered in progress.
+
 ### Per Booking Status
+
+On the other hand, with the **Per Booking Status** setting, a timestamp is created for all boking status changes regardless if it results in a field service status change.
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-timestamps-booking-statuses-per-booking.png)
 
-
-## Configuration considerations
+In our example, this means both "Arrived on site" and "Wrench time" are recorded. The main difference is how detailed an organization wants to be for reporting and integration purposes.
 
 
 ## Additional Notes
-- booking journals 
+- Booking timestamps are used to calculate Booking Journals that calcualte total travel time and working time for a specific booking. From the booking go to **Related > Booking Journals** to view them. The **Timestamp Frequency** setting _does not_ effect how booking journals are created or calculated.
