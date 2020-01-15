@@ -22,7 +22,9 @@ search.app:
 ---
 # Sample: Create a process using a template
 
-This sample code is for Dynamics 365 Customer Engagement (on-premises). Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/Workflow).
+[!INCLUDE[cc-sample-note](./includes/cc-sample-note.md)]
+
+Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/Workflow).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
