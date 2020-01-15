@@ -28,7 +28,7 @@ search.app:
 
 # Bug fixes
 
-In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field Service, Resource Scheduling (RS), Field Service Mobile, Resource Scheduling Optimization (RSO), and Connected Field Service (CFS). For information about other updates to Field Service, visit the [Dynamics 365 Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). 
+In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field Service, Universal Resource Scheduling (URS), Field Service Mobile, resource scheduling optimization, and Connected Field Service (CFS). For information about other updates to Field Service, visit the [Dynamics 365 Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). 
 
 ## Dynamics 365 Field Service
 
@@ -68,25 +68,24 @@ To see older bug fixes, see the following links to blog posts:
 |                                                                                                                                         | [7.4.1.31](https://cloudblogs.microsoft.com/dynamics365/it/2018/04/03/release-notes-for-field-service-and-project-service-automation-update-release-5/)   |                                                                                                                                                         |
 |                                                                                                                                         | [7.4.0.74](https://cloudblogs.microsoft.com/dynamics365/it/2018/02/22/release-notes-for-field-service-and-project-service-automation-update-release-4/)   |                                                                                                                                                         |
 
-  
 
 ## Resource Scheduling (RS) 
 
 [!INCLUDE[urs-bug-fixes.md](../shared/urs/urs-bug-fixes.md)]
   
 
-## Resource Scheduling Optimization (RSO)
+## Resource scheduling optimization
 
 ### Version 3.0.19316.2
 
 - ConsiderTravelTime parameter for SA API msdyn_SearchResourceAvailability is not working as expected
    - Create a resource requirement with 4 hours duration, and location = Onsite 
-   - Create a resource A with 4 hours available hour on his calendar, make sure there is few mins travel time between the location between resource and requirement
-   - Use msdyn_SearchResourceAvailability with ConsiderTravelTime parameter set to false, and to find availability for this requirement 
-- Before: no potential bookable slot returned; now there is potential bookable slot return from resource A since resource A has enough available hours 
-- RSO Booking Details -> Operation Details field doesn't show message anymore if RSO application user missing FS-admin security role
-- Booking status form showing false Scheduling Method when first time open after setup fresh RSO environment
-- Fixed upgrade issue from RSO v3.0.18341.1 to latest in-market version
+   - Create a resource A with 4 hours available hour on his calendar , make sure there is few mins travel time between the location between resource and requirement
+   - Use msdyn_SearchResourceAvailability with ConsiderTravelTime parameter set to false , and to find availability for this requirement 
+Before: no potential bookable slot returned , now there is potential bookable slot return from resource A since resource A has enough available hours 
+- Resource scheduling optimization Booking Details -> Operation Details field doesn't show message anymore if resource scheduling optimization application user missing FS-admin security role
+- Booking status form showing false Scheduling Method when first time open after setup fresh resource scheduling optimization environment
+- Fixed upgrade issue from resource scheduling optimization v3.0.18341.1 to latest in-market version
 
 ### Previous versions of Resource Scheduling Optimization
 
