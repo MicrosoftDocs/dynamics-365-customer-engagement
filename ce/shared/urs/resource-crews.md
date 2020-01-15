@@ -33,8 +33,12 @@ On the **General** tab, assign a **Name**.
 You can also assign a **Crew Strategy.** Crew strategy determines how the crew manages its work. There are 3 options:
 
 - **Cascade and Accept Cascade Completely**: All resources on a crew can manage all the work. This is useful when a crew is made up of one user and the rest of the crew is equipment.
-- **Crew Leader Management**: There is a designated person (or persons) can manage the work of a crew. This is useful when a crew is made up of multiple users. You can designate more than one person to be a leader and manage the work.
+- **Crew Leader Management**: A designated person (or persons) can manage the work of a crew. This is useful when a crew is made up of multiple users. You can designate more than one person to be a leader and manage the work.
 - **Crew Member Self-Management**: Resources can manage their own work. This is useful when a crew is made up of users who regularly work together, but may not always work together at the same place or time. Self-management also means better time capturing, which is good for organizations who bill for time spent on work. 
+
+> [!Note]
+> Crew strategies affect if and how a crew booking is rescheduled. For instance, if a crew leader's bookings are moved, then all bookings are moved.
+
 
 On the **Common** tab, set the **Start and End Locations**.
 
