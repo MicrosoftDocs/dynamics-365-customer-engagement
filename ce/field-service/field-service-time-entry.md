@@ -67,27 +67,32 @@ utilization
 
 Time off requests are automatically recorded as time entries as well.
 
-First create a time off request. This can be done in the web browser or from Field Service Mobile.
+First submit a time off request. This can be done in the web browser or from Field Service Mobile.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/time-entry-new-time-off.png)
 
+A time entry record will automatically be created. The type will be Vacation by default and the entry status will be submitted.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/time-entry-time-off-submitted.png)
 
+Next approve the time off request. This is only required if the resource on the time off request requires approval as defined on the bookable resource record.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/time-entry-time-off-approve.png)
 
+The time entry Entry Status will be updated as approved.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/time-entry-time-off-approve-time-entry.png)
 
-> [!Note]
-> can update time entry and it will udpate time off, same with duration or dates
+Furthermore, making changes to the date or duration of the time entry will udpate the time off request and vice versa.
 
-time off submitted on mobile will create time entries upon sync. you can create time off requests off line. you can create time entries off line
+> [!Note]
+> You can create time off requests from Field Service Mobile in online and offline modes and the time entries will be created upon sync. 
+
+
 
 ## Configuration considerations
 ## Additional Notes
@@ -95,5 +100,7 @@ time off submitted on mobile will create time entries upon sync. you can create 
 ### See also
 
 [Time and expense in Project Service Automation](https://docs.microsoft.com/en-us/dynamics365/project-service/time-expense-collaboration-guide)
+
 [Bookimg timestamps](booking-timestamps.md)
+
 [Time off requests](submit-approve-time-off-requests.md)
