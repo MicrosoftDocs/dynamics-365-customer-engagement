@@ -1,6 +1,66 @@
 {
   "redirections": [
     {
+      "source_path": "ce/field-service/create-inventory-adjustment.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/create-inventory-transfer.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/create-return-vendor.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/create-rma-sub-status.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/create-ship-via.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/set-up-payment-terms.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/set-up-purchase-order-sub-statuses.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/set-up-rtv-sub-statuses.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/view-product-inventory.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/preview-terms-sms.md",
+      "redirect_url": "thirdparty-messaging-terms",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/preview-terms-dynamics-365-for-microsoft-teams.md",
+      "redirect_url": "/dynamics365/teams-integration/teams-integration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/supp-dynamics365-mobile-offline.md",
+      "redirect_url": "/dynamics365/mobile-app/setup-mobile-offline-for-admin",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/new-segment-designer.md",
       "redirect_url": "segmentation-lists-subscriptions",
       "redirect_document_id": "false"

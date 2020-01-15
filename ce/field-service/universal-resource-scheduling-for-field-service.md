@@ -2,7 +2,7 @@
 title: "Universal Resource Scheduling for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/15/2018
+ms.date: 01/09/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -92,7 +92,7 @@ When a requirement is created, it inherits attributes from the work order, inclu
 
 - Name (work order number text)
 - Work order (lookup reference to work order)
-- Work location (typically set to onsite by default, meaning a latitude and longitude must be set. Location agnostic work orders are supported)
+- Work location 
 - Latitude
 - Longitude
 - Service Territory
@@ -150,7 +150,7 @@ The lower schedule board pane displays requirement records and can be configured
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule board](media/scheduling-urs-schedule-board-schedule-assistant.png) 
 
-The requirement can be dragged and dropped onto a resource on the schdedule board to schedule the work order. Alternatively, selecting  **find availability** on the requirement in the lower pane will trigger the schedule assistant, which recommends the most appropriate resources. 
+The requirement can be dragged and dropped onto a resource on the schedule board to schedule the work order. Alternatively, selecting  **find availability** on the requirement in the lower pane will trigger the schedule assistant, which recommends the most appropriate resources. 
 
 ### Book with Resource Scheduling Optimization
 
@@ -240,6 +240,9 @@ To make sure resources are geocoded properly, navigate to **Universal Resource S
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of geo coded resource on map](media/scheduling-urs-schedule-board-locate-resource.png)
+
+## Additional notes
+If the work order or requirement doesn't have a latitude or longitude, the location is treated as location-agnostic, which means the location of resources isn't considered during scheduling. If the work order or requirement has a latitude and longitude and work location is set to **onsite**, resource locations, travel time, and routes are considered during scheduling.
 
 ### See also
 - [Universal Resource Scheduling documentation](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)

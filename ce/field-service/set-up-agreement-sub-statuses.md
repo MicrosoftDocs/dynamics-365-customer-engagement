@@ -37,5 +37,4 @@ Set up agreement sub-statuses in [!INCLUDE[pn_dyn_365_field_service](../includes
  [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Set up customer agreements](../field-service/set-up-customer-agreements.md)   
  [Set up tax codes](../field-service/set-up-tax-codes.md)   
- [Set up payment terms](../field-service/set-up-payment-terms.md)<br>
  [User's Guide](../field-service/user-guide.md)

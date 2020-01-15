@@ -57,13 +57,15 @@
 
 ## Scheduling
 ### [Travel time and distance](schedule-with-travel-time.md)
+### [Time constraints](schedule-time-constraints.md)
+### [Resource preferences](resource-preferences.md)
 ### [Quick scheduling](quick-scheduling.md)
 ### [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
 ### [Multi-day scheduling](schedule-multi-day-work.md)
 ### [Resource crew scheduling](resource-crews.md)
 ### [Resource pools](resource-pools.md)
 ### [Facility scheduling](facility-scheduling.md)
-### [Time constraints](schedule-time-constraints.md)
+
 
 
 ## Schedule board 
@@ -102,28 +104,17 @@
 ## [Entitlements](work-order-entitlements.md)
 
 # Assets, inventory, and purchasing
-## Customer assets
-### [Asset management](configure-set-up-customer-assets.md)
-### [3D models](3D-viewer.md)
-## Inventory
-### [Warehouse](create-warehouse.md)
-###  [View product inventory](view-product-inventory.md)
-###  [Create an inventory transfer](create-inventory-transfer.md)
-###  [Create an inventory adjustment](create-inventory-adjustment.md)
-###  [Manual inventory journals](manual-inventory-journals.md)
-###  [Process a return](process-return.md)
-###  [Return product to vendor](create-return-vendor.md)
-### [RMA sub-status](create-rma-sub-status.md)
-### [RTV sub-statuses](set-up-rtv-sub-statuses.md)
-### [Ship via](create-ship-via.md)
-## Purchasing
-### [Create a purchase order](create-purchase-order.md)
-### [Purchase order sub-statuses](set-up-purchase-order-sub-statuses.md)
-### [Payment terms](set-up-payment-terms.md)
+## [Overview](inventory-purchasing-returns-overview.md)
+## [Customer assets](configure-set-up-customer-assets.md)
+## [3D asset models](3D-viewer.md)
+## [Warehouses](create-warehouse.md)
+## [Create a purchase order](create-purchase-order.md)
+## [Process a return](process-return.md)
+## [Manual inventory journals](manual-inventory-journals.md)
 
-# Resource Scheduling Optimization (RSO) add-in
+# Resource scheduling optimization add-in
 ## [Overview](rso-overview.md)
-## [Get RSO](rso-get-install.md)
+## [Get resource scheduling optimization](rso-get-install.md)
 ## [Quickstart](rso-quickstart.md)
 ## [Deployment](rso-deployment.md)
 ## [Configuration and setup](rso-configuration.md)
@@ -134,7 +125,8 @@
 ## [Lock options for bookings](booking-lock-options.md)
 ## [Resolving conflicts for bookings](rso-handling-resolving-booking-conflicts.md)
 ## [Set up a proof of concept](rso-proof-concept.md)
-## Scenarios
+## Running resource scheduling optimization
+### [Publishing + monitoring](rso-schedule-optimization.md)
 ### [Overnight scheduling](rso-overnight-scheduling.md)
 ### [Single resource optimization](single-resource-optimization.md)
 ## [FAQs + troubleshooting](rso-faq.md)

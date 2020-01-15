@@ -1,11 +1,6 @@
 ---
 title: Supplemental Terms
-description: Supplemental Terms
-ms.date: 11/08/2019
-ms.topic: article
-author: sbmjais
-ms.author: shjais
-manager: shujoshi
+author: ReneeW-CPub
 ---
 
 **PLEASE NOTE:**  Microsoft Corporation (or based on where you live, one of its
