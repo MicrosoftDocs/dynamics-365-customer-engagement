@@ -28,7 +28,7 @@ search.app:
 
 # Integrated technician time tracking
 
-"Capturing time in an easily viewable and editable format within Dynamics 365 Field Service has been highly anticipated for Field Service organizations. Field Service time entry aligns with Dynamics 365 Project Service Automation to capture time entries into the same entity that Project Service Automation has always used for consistent capture, regardless of whether your organization uses Field Service, Project Service Automation, or both.
+
 
 However, organizations that only use one of these products will not be required to install Project Service Automation simply to capture time entries within Field Service. Field Service will support:
 
@@ -42,8 +42,12 @@ Further, this feature makes it simple to configure a solution to create time act
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/booking-timestamps.md.png)
 
+charging scenarios
+reporting 
+utilization
 
-- shared with PSA time entry
+
+ Field Service time entry aligns with Dynamics 365 Project Service Automation to capture time entries into the same entity that Project Service Automation has always used for consistent capture, regardless of whether your organization uses Field Service, Project Service Automation, or both.
 
 ## Prerequisites
 > [!Note]
@@ -79,6 +83,8 @@ Further, this feature makes it simple to configure a solution to create time act
 
 > [!Note]
 > can update time entry and it will udpate time off, same with duration or dates
+
+time off submitted on mobile will create time entries upon sync. you can create time off requests off line. you can create time entries off line
 
 ## Configuration considerations
 ## Additional Notes
