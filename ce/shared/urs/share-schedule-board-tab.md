@@ -69,10 +69,33 @@ Double-click the record to go to the form, and select **Share** on the top ribbo
 > ![Screenshot of the share button for a specific schedule board setting](../../field-service/media/schedule-board-share.png)
 
 
-Finally, use the pop up screen to add users and teams to share the schedule board with. Any user or team added here can see the schedule board tab, given they also have access to the schedule board.
+Finally, use the pop-up screen to add users and teams to share the schedule board with. Any user or team added here can see the schedule board tab, given they also have access to the schedule board.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of choosing users and teams to share the schedule board with](../../field-service/media/schedule-board-share-permissions.png)
+
+## Link to specific schedule board
+
+Sometimes, you may need a link to a specific schedule board tab that dispatchers can use as a browser shortcut, to share with teammates and managers, and to reduce the load time by not having to load the entire board.
+
+First get the GUID for the specific schedule board tab you want to link to.
+
+A GUID is a 32-digit number in the format XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX and each record in Dynamics 365 has a GUID as a unique identifier, including schedule board tabs.
+
+You can find the GUID of a schedule board tab with an advanced find of the **Schedule Board Settings** entity. Select the record that corresponds with the schedule board tab you want to share and use the **Email a link** button to get the GUID.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of choosing users and teams to share the schedule board with](../../field-service/media/scheduling-link-sb-get-link.png)
+
+Finally, copy and paste the GUID into the template link below.
+
+    https://[dynamics org name].crm.dynamics.com/webresources/msdyn_/fps/ScheduleBoard/scheduleboard.html?#tab=[32 digit GUID].
+
+See the following for an example of an acceptable URL to a specific schedule board tab.
+
+https://fieldservice.crm.dynamics.com/webresources/msdyn_/fps/ScheduleBoard/scheduleboard.html?#tab=AE595A88-A57C-E911-A95A-000D3A3B9A2B
+
+Be sure to test the link by entering it into a browser. Note that people who follow the link will be prompted to log in to Dynamics 365 Field Service if they aren't already logged in.
 
 ## Additional notes
 
