@@ -1,0 +1,55 @@
+---
+title: "Install and setup Dynamics 365 for Field Service | MicrosoftDocs"
+ms.custom: 
+  - dyn365-fieldservice
+ms.date: 01/15/2020
+ms.reviewer: ""
+ms.service: dynamics-365-customerservice
+ms.suite: ""
+ms.technology: 
+  - "field-service"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+author: krbjoran
+ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
+caps.latest.revision: 42
+ms.author: FieldServiceDave
+manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+search.app: 
+  - D365CE
+  - D365FS
+---
+
+# Integrated technician time tracking
+
+"Capturing time in an easily viewable and editable format within Dynamics 365 Field Service has been highly anticipated for Field Service organizations. Field Service time entry aligns with Dynamics 365 Project Service Automation to capture time entries into the same entity that Project Service Automation has always used for consistent capture, regardless of whether your organization uses Field Service, Project Service Automation, or both.
+
+However, organizations that only use one of these products will not be required to install Project Service Automation simply to capture time entries within Field Service. Field Service will support:
+
+- automatic time capture for work orders based on booking timestamps
+- manual time capture 
+- custom time capture mechanisms unique to specific business processes or needs
+
+Further, this feature makes it simple to configure a solution to create time actuals that capture costs from approved time entries, enabling organizations to drive more accurate accounting practices and profit-loss calculations."
+
+
+
+## Prerequisites
+> [!Note]
+>
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+## Configuration considerations
+## Additional Notes
+
+### See also
+
+[Time, expense, and collaboration in Project Service Automation](https://docs.microsoft.com/en-us/dynamics365/project-service/time-expense-collaboration-guide)
