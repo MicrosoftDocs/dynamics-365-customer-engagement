@@ -95,6 +95,9 @@ Furthermore, making changes to the date or duration of the time entry will udpat
 
 
 ## Configuration considerations
+
+Actuals
+
 ## Additional Notes
 
 ### See also
