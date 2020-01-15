@@ -2,8 +2,8 @@
 title: "Sample: Run a workflow (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "This sample demonstrates how to programmatically execute a workflow by using the ExecuteWorkflowRequest"
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
+ms.date: 1/14/2020
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -14,7 +14,7 @@ ms.assetid: c32a634c-3e01-42cd-b3ed-d1a89586b1cc
 caps.latest.revision: 22
 author: JimDaly
 ms.author: jdaly
-manager: amyla
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -22,19 +22,21 @@ search.app:
 ---
 # Sample: Run a workflow
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with workflows](hhttps://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Workflows).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/Workflow).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
   
 ## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
+[!include[cc-how-to-run-samples](./includes/cc-how-to-run-samples.md)]
+
+Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/Workflow/README.md) for additional information about the sample.
   
 ## Demonstrates  
- The following sample demonstrates how to programmatically execute a workflow by using the <xref:Microsoft.Crm.Sdk.Messages.ExecuteWorkflowRequest>.  
+ The sample demonstrates how to programmatically execute a workflow using <xref:Microsoft.Crm.Sdk.Messages.ExecuteWorkflowRequest>.  
   
 ## Example  
- [!code-csharp[Workflows#ExecuteWorkflow](../snippets/csharp/CRMV8/workflows/cs/executeworkflow.cs#executeworkflow)]  
+[ExecuteWorkflow.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/Workflow/Workflow/ExecuteWorkflow.cs)
   
 ### See also  
  [Sample code for workflows](sample-code-processes.md)   
