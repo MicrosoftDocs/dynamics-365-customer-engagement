@@ -1,5 +1,6 @@
 {
-  "redirections": [    {
+  "redirections": [
+    {
       "source_path": "ce/social-engagement/accessibility.md",
       "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
       "redirect_document_id": "false"
@@ -230,11 +231,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/social-engagement/media",
-      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/social-engagement/more-options-with-data-set.md",
       "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
       "redirect_document_id": "false"
@@ -356,11 +352,6 @@
     },
     {
       "source_path": "ce/social-engagement/tags.md",
-      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/social-engagement/TOC.md",
       "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
       "redirect_document_id": "false"
     },
