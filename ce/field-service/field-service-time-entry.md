@@ -43,7 +43,7 @@ Further, this feature makes it simple to configure a solution to create time act
 > ![Screenshot of ](./media/booking-timestamps.md.png)
 
 
-
+- shared with PSA time entry
 
 ## Prerequisites
 > [!Note]
@@ -53,6 +53,8 @@ Further, this feature makes it simple to configure a solution to create time act
 > ![Screenshot of ](./media/.png)
 
 ## Manual time entry
+
+### mobile app
 
 ## Work orders
 
@@ -74,6 +76,9 @@ Further, this feature makes it simple to configure a solution to create time act
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/time-entry-time-off-approve-time-entry.png)
+
+> [!Note]
+> can update time entry and it will udpate time off, same with duration or dates
 
 ## Configuration considerations
 ## Additional Notes
