@@ -65,6 +65,9 @@ utilization
 
 ## Time off
 
+Time off requests are automatically recorded as time entries as well.
+
+First create a time off request. This can be done in the web browser or from Field Service Mobile.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/time-entry-new-time-off.png)
