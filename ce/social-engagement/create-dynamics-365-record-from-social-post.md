@@ -150,7 +150,7 @@ A typical JSON payload is given here.
     "userPreferredTargetEntity": "incident",
     "socialHandle": "Contoso",
     "profileName": "Contoso",
-    "profilelink": "http://www.twitter.com/Contoso",
+    "profilelink": "https://www.twitter.com/Contoso",
     "fullName": "Contoso",
     "community": 2,
     "influencescore": 41.0,

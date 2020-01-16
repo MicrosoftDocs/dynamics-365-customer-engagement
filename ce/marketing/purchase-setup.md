@@ -2,7 +2,7 @@
 title: "Set up Dynamics 365 Marketing | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 Marketing"
 keywords: setup; licensing; FRE; Azure; privacy; marketing services; marketing-insights service
-ms.date: 08/16/2019
+ms.date: 01/14/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -56,11 +56,11 @@ For more information about Dynamics 365 Marketing licensing, see the [Administra
 > 
 > - You must already have a Microsoft 365 tenant.
 > - An unconfigured Dynamics 365 Marketing app must be available on your tenant.
-> - You must not already have a Dynamics 365 Marketing app installed on your Dynamics 365 instance. You can have at most one Dynamics 365 Marketing per instance, and each  Dynamics 365 Marketing app can only be used with one Dynamics 365 instance.
+> - You must not already have a Dynamics 365 Marketing app installed on your Dynamics 365 instance. You can have at most one Dynamics 365 Marketing per instance, and each Dynamics 365 Marketing app can only be used with one Dynamics 365 instance.
 > - You must sign into your tenant with a user account that has all the following:
->   - Admin privileges on the Dynamics 365 instance where you are installing Marketing.
+>   - A security role (such as _Global admin_ or _Service support admin_) that allows you to modify the target Dynamics 365 instance. (If you're reinstalling Marketing on an instance where Marketing was previously installed, then _Service support admin_ users must use the same user ID as was used for the initial install. If you're not sure which ID was used for the initial install, or if you're getting errors, then try to install as a _Global admin_.)
 >   - Permissions to register applications in Azure. The global administrator always has this right, but other accounts can also have it. See [Do I have permissions to register applications on Azure?](setup-troubleshooting.md#register-apps-azure) for information about how to confirm this setting for your account.
-> - A known issue currently prevents you from running the setup wizard unless you have a Dynamics 365 license assigned to you on your tenant. However, although most of our customers do have this license, it's not actually required by the terms of the Dynamics 365 Marketing license agreement. A workaround is available for users who need to install Marketing without having a Dynamics 365 license assigned to them&mdash;see [Configuration, installation, and first-run experience](readme.md#configuration-installation-and-first-run-experience) in the readme for details.
+>   - A Dynamics 365 license with the _System Administrator_ security role assigned on your target Dynamics 365 instance. (The Dynamics 365 Marketing license agreement doesn't legally require the installing user to have this license, but a known technical issue currently makes it necessary.)
 > - You must be located in a country/region where the product is supported. To read the latest list of countries/regions where you can use Dynamics 365 Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
 > - Close all other browser windows and tabs before starting.
 > - Clear your browser cache before starting.

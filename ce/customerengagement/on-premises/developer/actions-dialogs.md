@@ -83,7 +83,7 @@ information about custom workflow activities, see [Custom Workflow Activities](c
  You can start an activated dialog by specifying the URL of the dialog. To do so, you must specify the URL in the following format:  
 
 ```
-http://CRMServer_Name/Org_Name/cs/dialog/rundialog.aspx?DialogId=DialogID&EntityName=EntityLogicalName&ObjectId=EntityObjectId  
+https://CRMServer_Name/Org_Name/cs/dialog/rundialog.aspx?DialogId=DialogID&EntityName=EntityLogicalName&ObjectId=EntityObjectId  
 ```
 
  Where,  
@@ -98,7 +98,7 @@ http://CRMServer_Name/Org_Name/cs/dialog/rundialog.aspx?DialogId=DialogID&Entity
 
 - _EntityObjectId_ is the GUID of the primary entity record.  
   A sample URL to start a dialog:  
-  `http://crmserver/AdventureWorksCycle/cs/dialog/rundialog.aspx?DialogId=9F53D2D8-AC54-46A6-A190-F23DE6677C65&EntityName=contact&ObjectId=41D1884E-B4B6-DF11-BF5E-00155DB05986`  
+  `https://crmserver/AdventureWorksCycle/cs/dialog/rundialog.aspx?DialogId=9F53D2D8-AC54-46A6-A190-F23DE6677C65&EntityName=contact&ObjectId=41D1884E-B4B6-DF11-BF5E-00155DB05986`  
      
 
 ### See also

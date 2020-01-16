@@ -39,7 +39,7 @@ Read this topic only if you have an existing installation of [!INCLUDE[pn_unifie
 ## Update Unified Service Desk solutions  
  Before you update your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solutions, ensure that the version of your Customer Engagement (on-premises) organization is [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)], [!INCLUDE[pn_crm_2015_shortest](../../includes/pn-crm-2015-shortest.md)], or [!INCLUDE[pn_crm_2013_sp_shortest](../../includes/pn-crm-2013-sp-shortest.md)].  
   
-1. [Download the Unified Service Desk package file](http://go.microsoft.com/fwlink/p/?LinkID=2007340) (CRM2016-8.x.x-USD-PackageDeployer.exe), and save it on your computer.  
+1. [Download the Unified Service Desk package file](https://go.microsoft.com/fwlink/p/?LinkID=2007340) (CRM2016-8.x.x-USD-PackageDeployer.exe), and save it on your computer.  
   
 2. Run the downloaded file to extract the contents into a folder.  
   

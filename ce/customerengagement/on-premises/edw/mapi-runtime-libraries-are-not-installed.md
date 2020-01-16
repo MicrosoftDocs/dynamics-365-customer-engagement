@@ -20,5 +20,5 @@ ms.author: matp
   
  ## Solution
   
- For download information and installation instructions, see [MAPI client runtime libraries](http://go.microsoft.com/fwlink/p/?linkid=78805).
+ For download information and installation instructions, see [MAPI client runtime libraries](https://go.microsoft.com/fwlink/p/?linkid=78805).
 

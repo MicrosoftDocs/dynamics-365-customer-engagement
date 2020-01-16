@@ -42,7 +42,7 @@ You can set up knowledge management for your Customer Engagement (on-premises) i
   
   
 ## Reference  
- [Blog: New Knowledge Management in the Microsoft Dynamics CRM 2016 release](http://blogs.msdn.com/b/crm/archive/2015/10/15/new-knowledge-management-in-microsoft-dynamics-crm-2016-release.aspx)  
+ [Blog: New Knowledge Management in the Microsoft Dynamics CRM 2016 release](https://blogs.msdn.com/b/crm/archive/2015/10/15/new-knowledge-management-in-microsoft-dynamics-crm-2016-release.aspx)  
   
 ## Related Sections  
  [Knowledge base search control (client-side reference)](/powerapps/developer/model-driven-apps/clientapi/reference/controls#kbsearch-knowledge-base-search-control-type)  

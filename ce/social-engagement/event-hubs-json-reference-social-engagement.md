@@ -141,7 +141,7 @@ This is a sample post payload for a [!INCLUDE[tn_facebook](../includes/tn-facebo
     "id": "1234567",  
     "contentType": "POST",  
     "postType": "reply",  
-    "uri": "http://www.facebook.com/123456789/posts/987654321?comment_id=123123123",  
+    "uri": "https://www.facebook.com/123456789/posts/987654321?comment_id=123123123",  
     "publicationDate": "2016-01-23T12:34:56-07:00",  
     "acquisitionDate": "2016-01-23T12:34:56-07:00",  
     "modificationDate": "2016-01-23T12:34:56-07:00",  
@@ -149,7 +149,7 @@ This is a sample post payload for a [!INCLUDE[tn_facebook](../includes/tn-facebo
       "name": "Name of the profile",  
       "id": "mse-fb://#109826384650057",
       "uri": "mse-fb://#109826384650057",  
-      "profileIcon": "http://graph.facebook.com/123456789/picture?type=square",  
+      "profileIcon": "https://graph.facebook.com/123456789/picture?type=square",  
       "externalId": "123456789"  
     },  
     "source": {  
@@ -201,7 +201,7 @@ This is a sample post payload for a video post acquired through [!INCLUDE[pn_net
     "id": "1234567",  
     "contentType": "VIDEO",  
     "postType": "post",  
-    "uri": "http://www.youtube.com/watch?v=videoId",  
+    "uri": "https://www.youtube.com/watch?v=videoId",  
     "title": "Title of the video",  
     "publicationDate": "2016-01-23T12:34:56-07:00",  
     "acquisitionDate": "2016-01-23T12:34:56-07:00",  
@@ -225,11 +225,11 @@ This is a sample post payload for a video post acquired through [!INCLUDE[pn_net
       "code": "en"  
     },  
     "abstractText": "Text description as provided for the video. This is usually a",  
-    "embeddedMedia": "http://www.youtube.com/embed/videoId",  
+    "embeddedMedia": "https://www.youtube.com/embed/videoId",  
     "media": [  
       {  
         "type": "VIDEO",  
-        "embedUrl": "http://www.youtube.com/embed/videoId"  
+        "embedUrl": "https://www.youtube.com/embed/videoId"  
       }  
     ],  
     "sentiment": {  
@@ -260,7 +260,7 @@ This is a sample post payload for a blog post acquired through [!INCLUDE[pn_netb
     "id": "1234567",  
     "contentType": "POST",  
     "postType": "post",  
-    "uri": "http://someblog.tld/path/to/post",  
+    "uri": "https://someblog.tld/path/to/post",  
     "title": "Heading of this blog",  
     "acquisitionDate": "2016-01-23T12:34:56.789+0000",  
     "modificationDate": "2016-01-23T12:34:56.789+0000",  
@@ -313,7 +313,7 @@ This is a sample post payload for a forum post acquired through [!INCLUDE[pn_net
     "id": "1234567",  
     "contentType": "POST",  
     "postType": "reply",  
-    "uri": "http://forumdomain.tld/path/to/the/forum",  
+    "uri": "https://forumdomain.tld/path/to/the/forum",  
     "publicationDate": "2016-01-23T12:34:56.789+0000",  
     "acquisitionDate": "2016-01-23T12:34:56.789+0000",  
     "modificationDate": "2016-01-23T12:34:56.789+0000",  
@@ -1465,7 +1465,7 @@ Array of JSON objects describing the media in a post.
 ```json  
 "media": {  
   "type": "VIDEO",  
-  "embedUrl": "http://www.youtube.com/embed/1dWKf8d8zfg"  
+  "embedUrl": "https://www.youtube.com/embed/1dWKf8d8zfg"  
 },  
 ```  
 

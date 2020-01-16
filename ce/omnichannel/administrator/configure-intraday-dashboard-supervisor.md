@@ -43,7 +43,7 @@ Review the following prerequisites before configuring the supervisor insights: 
 
    2. As a Power BI admin, you need to enable service principal in the **Developer settings** in the Power BI admin portal and the security group that you created in Azure AD.
    
-      a. Sign in to [Power BI service](http://app.powerbi.com) and go to **Settings** > **Admin portal**.
+      a. Sign in to [Power BI service](https://app.powerbi.com) and go to **Settings** > **Admin portal**.
            
          > [!div class=mx-imgBorder]
          > ![Select Admin portal](../media/supervisor-admin-powerbi-select-admin-portal.png "Select Admin portal") 

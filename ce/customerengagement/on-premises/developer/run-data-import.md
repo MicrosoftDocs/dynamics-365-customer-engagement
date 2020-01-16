@@ -92,5 +92,5 @@ Data import runs directly on the [!INCLUDE[pn_microsoftcrm](../includes/pn-micro
 ### See also  
  [Import Data in Dynamics 365 Customer Engagement (on-premises)](import-data.md)   
  [Configure Data Import](configure-data-import.md)   
- [Blog Post: How to Import attachments programmatically](http://blogs.msdn.com/b/crm/archive/2012/08/06/how-to-import-attachments-programmatically.aspx)   
+ [Blog Post: How to Import attachments programmatically](https://blogs.msdn.com/b/crm/archive/2012/08/06/how-to-import-attachments-programmatically.aspx)   
  [Data Import Entities](data-import-entities.md)

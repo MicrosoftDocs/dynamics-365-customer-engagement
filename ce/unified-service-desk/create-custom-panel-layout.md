@@ -33,9 +33,9 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
 - [!INCLUDE[pn_microsoft_visual_studio_2012](../includes/pn-microsoft-visual-studio-2012.md)], [!INCLUDE[pn_visual_studio_2013](../includes/pn-visual-studio-2013.md)], or [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)]  
   
-- [!INCLUDE[tn_nuget](../includes/tn-nuget.md)] Package Manager for [Visual Studio 2012](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
+- [!INCLUDE[tn_nuget](../includes/tn-nuget.md)] Package Manager for [Visual Studio 2012](https://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](https://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
   
-- **CRM SDK Templates** for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the custom panel layout project template. [Download](http://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+- **CRM SDK Templates** for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the custom panel layout project template. [Download](https://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
   
 <a name="HowTo"></a>   
 ## Create a custom panel layout  
@@ -62,10 +62,10 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
    ```  
    <USD:PanelLayoutBase             
            x:Class="MyUSDCustomPanelLayout.CustomLayout"  
-           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
-           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  
-           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"  
+           xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+           xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"  
+           xmlns:mc="https://schemas.openxmlformats.org/markup-compatibility/2006"  
+           xmlns:d="https://schemas.microsoft.com/expression/blend/2008"  
            mc:Ignorable="d"   
            xmlns:local="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"  
            xmlns:USD="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics.PanelLayouts;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"  
