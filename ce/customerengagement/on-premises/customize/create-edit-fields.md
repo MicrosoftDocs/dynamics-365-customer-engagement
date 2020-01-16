@@ -29,7 +29,7 @@ With Dynamics 365 Customer Engagement (on-premises), fields define the individua
 ## Create and edit fields  
  Before you create a custom field, evaluate whether using an existing field would meet your requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create new metadata or use existing metadata](../customize/create-edit-metadata.md#BKMK_CreateNewOrUseExistingMetadata)  
   
- Part of the name of any custom field you create is the customization prefix. This is set based on the solution publisher for the solution you’re working in. If you care about the customization prefix, make sure that you are working in an unmanaged solution or the default solution where the customization prefix is the one you want for this entity. More information about how to change the customization prefix: see [Solution Publisher](../customize/change-solution-publisher-prefix.md#BKMK_SolutionPublisher).  
+ Part of the name of any custom field you create is the customization prefix. This is set based on the solution publisher for the solution you’re working in. If you care about the customization prefix, make sure that you are working in an unmanaged solution or the default solution where the customization prefix is the one you want for this entity. More information about how to change the customization prefix: see [Solution Publisher](../customize/change-solution-publisher-prefix.md).  
   
  You can access fields in the application in several ways:  
   
