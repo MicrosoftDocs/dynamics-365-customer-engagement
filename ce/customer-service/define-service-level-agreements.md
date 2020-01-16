@@ -39,7 +39,7 @@ Define the level of service or support that your organization agrees to offer to
 
 -   Add success actions to an SLA. For example, you may want to send communications internally or outside your organization when the SLA has succeeded. Success actions are initiated only when the success condition is met on time, not when it is breached.  
 
--   Track SLA statuses and times right on the case form by default. These details are tracked through the SLA KPI Instance record type.  
+-   Track SLA statuses and times on the case form by default. These details are tracked through the SLA KPI Instance record type.  
 
 > [!NOTE]
   >  The standard SLAs have been deprecated and replaced with enhanced SLAs.
@@ -128,7 +128,7 @@ Define the level of service or support that your organization agrees to offer to
 
    - **Name**. Type a meaningful name.  
 
-   - **Related Case Field**. Select a field of DateTime type of the case record that this SLA item refers to. For example, if you are creating a KPI for sending the first response within a specified time, select the **First Response By** option from the drop-down list. If required, ask your system customizer to create new fields of type DateTime.  
+   - **Related Case Field**. Select a field of DateTime type of the case record that this SLA item refers to. For example, if you are creating a KPI for sending the first response within a specified time, select the **First Response By** option from the drop-down list. If necessary, ask your system customizer to create new fields of type DateTime.  
 
         When a case record is created or updated, in the case record this field is set to the date and time when the failure time will be reached for the respective SLA item. For example, select **First Response By** in **Related Case Field**, and set **Failure After** to 2 hours from case creation. If the case is created at 09:00, the **First Response By** field in the case record will be set to 11:00, assuming the business hours are 24 x 7.  
 
