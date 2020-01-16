@@ -4,11 +4,19 @@
 ## [What's new](whats-new.md)
 ## Get started
 ### [Overview](sales-professional-overview.md)
-### [Learn the basics](learn-basics-sales-professional.md)
+### [Get started with the basics](learn-basics-sales-professional.md)
 ### [Use lookup fields on forms](use-lookup-fields-forms.md)
 ### [Work with views (lists)](work-with-views.md)
 ### [Manage your customers](manage-accounts-contacts.md)
 ### [Manage tasks, appointments, email, or phone calls](manage-activities.md)
+### [Learning Catalog](learning-catalog.md)
+#### [Business Decision Maker](learning-bdm.md)
+#### [Business User](learning-bus-user.md)
+#### [Implementation Project Manager](learning-project-manager.md)
+#### [Administrator](learning-administrator.md)
+#### [Developer](learning-developer.md)
+#### [Functional Consultant](learning-functional-consultant.md)
+#### [Partner Sales and Marketing](learning-sales.md)
 
 ## User guide
 ### [Help resources for sales people](user-guide.md)
@@ -77,3 +85,4 @@
 
 # Dynamics 365 Sales (Enterprise)
 ## [Help resources for Dynamics 365 Sales (Enterprise)](../sales-enterprise/help-hub.md)
+
