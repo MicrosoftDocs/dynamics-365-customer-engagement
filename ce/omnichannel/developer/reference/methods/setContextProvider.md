@@ -87,6 +87,8 @@ Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProv
 });
 ```
 
+For the complete script, see [Self Service sample code](https://github.com/susikka/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/self-service).
+
 ## Error codes
 
 The following error codes can occur with this method.
