@@ -39,6 +39,8 @@
 #### [Create or edit a campaign](create-edit-campaign-using-app-marketing-sp.md)
 #### [Add an activity to a campaign](add-activity-campaign-using-app-marketing-sp.md)
 #### [Track a marketing campaign response](track-marketing-campaign-response-using-app-marketing-sp.md)
+### [Use Sales Professional on the mobile app](use-sales-professional-on-dynamics-365-mobile.md)
+
 
 ## Administrator and sales manager guide
 ### [Help resources for admins and sales managers](admin-guide.md)
