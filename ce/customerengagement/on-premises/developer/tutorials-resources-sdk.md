@@ -27,7 +27,7 @@ search.app:
 
 This topic lists the walkthroughs that are included in the SDK, and tells you where to find videos, training, and sample code to get you started with development for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. For the fastest way to get some code running, see [Quick Start: A Simple Program](simple-program-web-services.md).
 
-Questions? Get help in the [Dynamics 365 Customer Engagement (on-premises) Development Forum](https://social.microsoft.com/Forums/en-US/home?forum=crmdevelopment).
+Questions? Get help in the [Dynamics 365 Customer Engagement (on-premises) Development Forum](https://social.microsoft.com/Forums/home?forum=crmdevelopment).
 
 Need Support? [Search the knowledge base or contact technical support](http://go.microsoft.com/fwlink/p/?LinkID=394391).
 <!-- TODO: Verify that this is still the correct link for support -->
@@ -70,7 +70,7 @@ There are hundreds of samples found throughout this SDK documentation. For a cat
 
 Looking for more developer resources? Here are some other sources of information:
 
-- [Dynamics 365 Customer Engagement Development Forum](https://social.microsoft.com/Forums/en-US/home?forum=crmdevelopment)
+- [Dynamics 365 Customer Engagement Development Forum](https://social.microsoft.com/Forums/home?forum=crmdevelopment)
 - [Dynamics 365 Customer Engagement Team Blog](http://blogs.msdn.com/b/crm/)
 - [Community provided sample code on MSDN Code Gallery](http://code.msdn.microsoft.com/site/search?query=crm%2Bonline&f%5B0%5D.Value=crm%2Bonline&f%5B0%5D.Type=SearchText&ac=4)
 - [Community provided open source projects on CodePlex](http://www.codeplex.com/site/search?query=dynamics%20crm&sortBy=Relevance&licenses=|&ac=4)
@@ -79,10 +79,10 @@ Looking for more developer resources? Here are some other sources of information
 
 Looking for more than just developer information? Here are other sites and pointers to social media you can use:
 
-- [Dynamics 365 Customer Engagement Documentation](https://docs.microsoft.com/en-us/dynamics365/)
+- [Dynamics 365 Customer Engagement Documentation](https://docs.microsoft.com/dynamics365/)
 - [Dynamics 365 Customer Engagement pre-sales information](http://www.microsoft.com/dynamics/default.aspx)
 - [Dynamics 365 Customer Engagement: Deployment Forum](http://social.microsoft.com/Forums/crmdeployment/home/)
-- [Certification Training](https://www.microsoft.com/learning/en-us/dynamics-certification.aspx)
+- [Certification Training](https://www.microsoft.com/learning/dynamics-certification.aspx)
 - [Contact Dynamics 365 Customer Engagement Customer Support](http://go.microsoft.com/fwlink/p/?LinkID=394391)
 - [Dynamics 365 Customer Engagement on Facebook](https://www.facebook.com/msftdynamics)
 - [Dynamics 365 Customer Engagement group on Linkedin](https://www.linkedin.com/groups/21231)

@@ -40,7 +40,7 @@ This page is designed for developers who want to link to the Dynamics 365 Custom
   
  **Developer Guide** 
 
- The [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/developer-guide) contains a wealth of information to help developers. Here you will find the SDK, which includes documentation, samples, and tools, as well as technical articles, ramp-up kits, videos, blogs, and more. 
+ The [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](https://docs.microsoft.com/dynamics365/customer-engagement/developer/developer-guide) contains a wealth of information to help developers. Here you will find the SDK, which includes documentation, samples, and tools, as well as technical articles, ramp-up kits, videos, blogs, and more. 
  
 For more information about using each item on the developer resources page, see [Download the endpoints using the Dynamics 365 Customer Engagement (on-premises) Developer resources page](../developer/developer-resources-page.md).   
   

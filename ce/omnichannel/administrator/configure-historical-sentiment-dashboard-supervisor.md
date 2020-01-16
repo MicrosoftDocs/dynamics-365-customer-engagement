@@ -241,7 +241,7 @@ Before customizing the template app, read the following information and perform 
 ## Requirements
 
 1. [Power BI service registration.](https://app.powerbi.com/)
-2. [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) application for editing Power BI reports.
+2. [Power BI Desktop](https://powerbi.microsoft.com/desktop/) application for editing Power BI reports.
 3. Power BI report for Omnichannel Insights template app that you want to customize. [Download the Omnichannel Insights report.](https://aka.ms/OC-Insights-pbix)
 
 ## Prepare PBIX for customization

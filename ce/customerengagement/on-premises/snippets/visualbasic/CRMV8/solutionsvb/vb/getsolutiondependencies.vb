@@ -44,7 +44,7 @@ Namespace Microsoft.Crm.Sdk.Samples
 
         ' Specify which language code to use in the sample. If you are using a language
         ' other than US English, you will need to modify this value accordingly.
-        ' See http://msdn.microsoft.com/en-us/library/0h88fahh.aspx
+        ' See http://msdn.microsoft.com/library/0h88fahh.aspx
         Private Const _languageCode As Integer = 1033
 
 

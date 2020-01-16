@@ -34,7 +34,7 @@ Namespace Microsoft.Crm.Sdk.Samples
 		''' it creates the workflow record with this XAML and then activates it.
 		''' </summary>
 		''' <remarks>
-		''' Visit http://msdn.microsoft.com/en-us/library/gg309458.aspx 
+		''' Visit http://msdn.microsoft.com/library/gg309458.aspx 
 		''' for instructions on enabling XAML workflows on the Microsoft Dynamics CRM server.
 		''' </remarks>
 		''' <param name="serverConfig">Contains server connection information.</param>

@@ -90,7 +90,7 @@ search.app:
 <a name="BKMK_Rollup"></a>   
 
 ## Rollup attributes  
- Because rollup attributes persist in the database, they can be used for filtering or sorting just like regular attributes. Any kind of process or plug-in will use the most recently calculated value of the attribute. Rollup attribute values are calculated asynchronously by scheduled system jobs. Administrators set when a job is run or pause the job. By default, each attribute is updated hourly. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define rollup fields](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/define-rollup-fields).  
+ Because rollup attributes persist in the database, they can be used for filtering or sorting just like regular attributes. Any kind of process or plug-in will use the most recently calculated value of the attribute. Rollup attribute values are calculated asynchronously by scheduled system jobs. Administrators set when a job is run or pause the job. By default, each attribute is updated hourly. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define rollup fields](https://docs.microsoft.com/dynamics365/customer-engagement/customize/define-rollup-fields).  
   
  When a rollup attribute is created or updated a **Mass Calculated Rollup Fields** job is scheduled to run in 12 hours. The 12-hour delay is intended to perform this resource intensive operation during a time that will affect users the least. After the job completes, the next time it is scheduled to run will be 10 years in the future. If there is a problem with the calculation, this will be reported with the system job. Locate the system job in **Settings** > **System Jobs** to find any errors with rollup fields.  
   
@@ -189,4 +189,4 @@ search.app:
  [Video: Rollup and Calculated Fields in Dynamics 365 Customer Engagement (on-premises)](http://youtu.be/RoahCH1p3T8)   
  [Introduction to entity attributes](introduction-to-entity-attributes.md)   
  [Define calculated fields](https://technet.microsoft.com/library/dn832103.aspx)   
- [Define rollup fields](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/define-rollup-fields)
+ [Define rollup fields](https://docs.microsoft.com/dynamics365/customer-engagement/customize/define-rollup-fields)

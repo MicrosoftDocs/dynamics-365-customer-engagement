@@ -201,7 +201,7 @@ Before you customize the template app, read the information here and perform eac
 
 - [Power BI service registration](http://powerbi.com "Power BI service registration").
 
-- [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/ "Power BI Desktop") application for editing Power BI reports. 
+- [Power BI Desktop](https://powerbi.microsoft.com/desktop/ "Power BI Desktop") application for editing Power BI reports. 
 
 - Power BI report for the Customer Service template app that you want to customize.
 

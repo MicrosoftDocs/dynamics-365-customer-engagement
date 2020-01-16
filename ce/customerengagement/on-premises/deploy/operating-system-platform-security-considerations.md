@@ -76,7 +76,7 @@ In the broadest sense, security involves planning and considering tradeoffs betw
 ## Securing mobile devices  
  As organizations move to support an increasingly mobile workforce, strong security remains essential. Here are some resources to help you implement best practices for mobile devices, such as smartphones and tablets:  
 
--   [Microsoft Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune)  
+-   [Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune)  
   
 -   [iOS in Business](http://www.apple.com/ipad/business/it-center/security.html) (iPad and iPhone)  
   

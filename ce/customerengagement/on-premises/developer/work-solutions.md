@@ -160,7 +160,7 @@ This topic presents specific programming tasks included in [Sample: Work With So
                   languagecode="1033" />  
     </Descriptions>  
     <EMailAddress>someone@microsoft.com</EMailAddress>  
-    <SupportingWebsiteUrl>http://msdn.microsoft.com/en-us/dynamics/crm/default.aspx</SupportingWebsiteUrl>  
+    <SupportingWebsiteUrl>http://msdn.microsoft.com/dynamics/crm/default.aspx</SupportingWebsiteUrl>  
     <Addresses>  
      <Address>  
       <City />  

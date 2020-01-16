@@ -43,4 +43,4 @@ An extra step is required after importing into an organization a solution contai
   
 ### See also  
  [Azure extensions for Dynamics 365 Customer Engagement (on-premises)](azure-extensions.md)   
- [Service Bus authentication and authorization](https://azure.microsoft.com/en-us/documentation/articles/service-bus-authentication-and-authorization/)
+ [Service Bus authentication and authorization](https://azure.microsoft.com/documentation/articles/service-bus-authentication-and-authorization/)

@@ -143,7 +143,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
    |     Order      |                          1                          |
    | Hosted Control |                    Contoso Help                     |
    |     Action     |                      Navigate                       |
-   |      Data      | url=https://docs.microsoft.com/en-us/dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.1 | 
+   |      Data      | url=https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.1 | 
 
 8. Select **Save**. 
 

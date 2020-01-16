@@ -56,7 +56,7 @@ To recover from any scenario, you must back up all needed information and store 
   
 <a name="BKMK_BackupAD"></a>   
 ## Backing up Active Directory  
- You can use [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] Backup to protect your operating system state, volumes, files, and application data. For instructions about how to back up [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)], see [Windows Server Backup Feature Overview](https://technet.microsoft.com/library/jj614621.aspx) and [Windows Server 2012: Planning for Active Directory Forest Recovery](https://www.microsoft.com/en-us/download/details.aspx?id=16506).  
+ You can use [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] Backup to protect your operating system state, volumes, files, and application data. For instructions about how to back up [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)], see [Windows Server Backup Feature Overview](https://technet.microsoft.com/library/jj614621.aspx) and [Windows Server 2012: Planning for Active Directory Forest Recovery](https://www.microsoft.com/download/details.aspx?id=16506).  
   
  Although we recommend that you back up [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)], the only way to avoid data loss is to have multiple [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain controllers. Then, if a domain controller fails, the other domain controllers will have a complete copy of the directory. With a backup, you have data only as recent as your last backup.  -->
   
