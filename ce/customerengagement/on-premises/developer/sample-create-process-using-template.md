@@ -2,8 +2,8 @@
 title: "Sample: Create a process using a template (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "This sample demonstrates how to create a workflow process using a template using the CreateWorkflowFromTemplateRequest"
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
+ms.date: 1/14/2020
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -14,7 +14,7 @@ ms.assetid: 5c7f045f-7b57-4e44-a99c-becefe533035
 caps.latest.revision: 20
 author: JimDaly
 ms.author: jdaly
-manager: amyla
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -22,19 +22,29 @@ search.app:
 ---
 # Sample: Create a process using a template
 
-This sample code is for Dynamics 365 Customer Engagement (on-premises). Download the sample: [Work with workflows](hhttps://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Workflows).
+[!INCLUDE[cc-sample-note](./includes/cc-sample-note.md)]
+
+Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/Workflow).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
   
 ## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
+
+To obtain a local copy of all samples, do the following:
+1. Download or clone the  [Samples](https://github.com/microsoft/PowerApps-Samples) repo so that you have a local copy.
+2. (Optional) Edit the cds/App.config file to define a connection string specifying the instance/org you want to connect to.
+3. Open the sample solution in Visual Studio and press **F5** to run the sample. After you specify a connection string in cds/App.config, any sample you run will use that connection information.
+
+If you do not specify a connection string in cds/App.config file, a dialog will open each time you run the sample and you will need to enter information about which instance/org you want to connect to and which credentials you want to use. This dialog will cache previous connections so that you can choose a previously used connection.
+
+Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/Workflow/README.md) for additional information about the sample.
   
 ## Demonstrates  
- The following code example demonstrates how to create a workflow process using a template using the <xref:Microsoft.Crm.Sdk.Messages.CreateWorkflowFromTemplateRequest>.  
+ The following code example demonstrates how to create a workflow process from a template using <xref:Microsoft.Crm.Sdk.Messages.CreateWorkflowFromTemplateRequest>.  
   
 ## Example  
- [!code-csharp[Workflows#CreateProcessFromTemplate](../snippets/csharp/CRMV8/workflows/cs/createprocessfromtemplate.cs#createprocessfromtemplate)]  
+ [CreateProcessFromTemplate.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/Workflow/Workflow/CreateProcessFromTemplate.cs)
   
 ### See also  
  [Sample Code for Processes](sample-code-processes.md)   
