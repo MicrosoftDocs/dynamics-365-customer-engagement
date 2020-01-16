@@ -2,6 +2,15 @@
 
 ## [Overview](overview.md)
 ## [What's new](whats-new-marketing.md)
+## [Learning Catalog](learning-catalog.md)
+### [Business Decision Maker](learning-bdm.md)
+### [Business User](learning-bus-user.md)
+### [Implementation Project Manager](learning-project-manager.md)
+### [Administrator](learning-administrator.md)
+### [Developer](learning-developer.md)
+### [Functional Consultant](learning-functional-consultant.md)
+### [Partner Sales and Marketing](learning-sales.md)
+
 ## [Marketing videos](marketing-videos.md)
 
 ## [Administrator Guide](admin-guide.md)
