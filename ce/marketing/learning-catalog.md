@@ -76,7 +76,7 @@ ms.author: v-lshann
 
     Do you decide whether to invest in new technologies?
 
-    [Business and Technical Decision Makers Learning Catalog](learning-bmd.md)
+    [Business and Technical Decision Makers Learning Catalog](learning-bdm.md)
 
 :::column-end:::
     :::column:::
