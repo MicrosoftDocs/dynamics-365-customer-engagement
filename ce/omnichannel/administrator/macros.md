@@ -76,7 +76,6 @@ This action is used to open a new form to create a record. This action contains 
    | Attribute Name | Specify the attribute logical name. You need to provide the attribute name in order to pre-populate the field with a value.| |
    | Attribute Value | Specify the attribute value. You need to provide the attribute value to pre-populate for the attribute field. | |
    
-
 #### Open an existing form
 
 This action is used to open an existing record form. This action contains the following fields.
@@ -149,6 +148,9 @@ This action is used to open an email with a predefined template. This action con
 
 As an administrator, you can use the built-in actions any number of times across different macros to automate and perform operations related to a session in Omnichannel for Customer Service app.
 
+   > [!div class=mx-imgBorder] 
+   > ![Macro actions](../media/macro-session-connector.png "Macro actions") 
+
 #### Refresh tab
 
 This action is used to refresh a tab in the Omnichannel for Customer Service app session. This action contains the following fields.
@@ -172,6 +174,9 @@ This action is used to get the details of the current page in the Omnichannel fo
 ### Omnichannel connector
 
 As an administrator, you can use the built-in actions any number of times across different macros to automate and perform operations related to the Omnichannel for Customer Service app.
+
+   > [!div class=mx-imgBorder] 
+   > ![Macro actions](../media/macro-omnichannel-connector.png "Macro actions") 
 
 #### Link record to the conversation
 
