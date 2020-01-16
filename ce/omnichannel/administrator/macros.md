@@ -219,7 +219,15 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
    > [!div class=mx-imgBorder] 
    > ![Create macro](../media/create-macro1.png "Create macro")
 
-6. Select an action from a list of built in actions. You can add as many as actions as per your business requirements.
+6. Select a connector from the list. Following connectors are available:
+
+   - Productivity Automation
+   - Session Connector
+   - Omnichannel Connector
+
+7. Select an action from a list of built in actions. You can add as many as actions as per your business requirements.
+
+   If you select **Productivity Automation**, then you'll see the following actions.
 
     | Purpose | Action name |
     |-----------------------------|---------------------------------------------|
@@ -232,18 +240,39 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     | Open an email form with predefined template | Open email |
     | Resolve a case | Resolve case |
 
-    For example, select **Open a new form to create a record**, and the step appears.
+   For example, select **Open a new form to create a record**, and the step appears.
 
-7. Specify the values in the fields.
+   To learn more, see [Productivity automation](#productivity-automation).
 
-8. Select **Show advanced options** to add required attributes and values. If required, you can select **+ Add new item** to add more attributes.
+   If you select **Session connector**, then you'll see the following actions.
+
+    | Purpose | Action name |
+    |-----------------------------|---------------------------------------------|
+    | Refresh the application tab | Refresh tab |
+    | Focus on a particular application tab from another application tab| Focus tab |
+    | Get the details of the current application tab | Get current page |
+
+   To learn more, see [Session connector](#session-connector).
+
+   If you select **Omnichannel connector**, then you'll see the following actions.
+
+    | Purpose | Action name |
+    |-----------------------------|---------------------------------------------|
+    | Link a record to the conversation while interacting with the customer | Link record to the conversation |
+    | Unlink a record from the conversation while interacting with the customer | Unlink record from the conversation |
+
+   To learn more, see [Omnichannel connector](#omnichannel-connector).
+
+8. Specify the values in the fields. To learn how to specify the values, see [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md).
+
+   If you selected **Open a new form to create a record**, then you can select **Show advanced options** to add required attributes and values. If required, you can select **+ Add new item** to add more attributes.
 
    > [!div class=mx-imgBorder] 
    > ![Macro actions](../media/macro-fields.png "Macro actions") 
 
 9. Select **Save and close** to save and close the macro changes.
 
-Now, when the agent executes the macro, the actions will be executed by fetching the data parameter keys according the context available from the sources.
+Now, when the agent executes the macro, the actions will be executed by fetching the data parameter keys according the context available from the sources. To learn more, see [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md).
 
 ## See also
 
