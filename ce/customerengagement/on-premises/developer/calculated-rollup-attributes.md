@@ -25,7 +25,7 @@ search.app:
 
 *Calculated* and *rollup* attributes free the user from having to manually perform calculations and focus on their work. System administrators can now easily define a field to contain the value of many common calculations without having to work with a developer. Developers can also leverage the platform capabilities to perform these calculations rather than within their own code.  
   
- [Video: Rollup and Calculated Fields in Microsoft Dynamics CRM 2015](http://youtu.be/RoahCH1p3T8)  
+ [Video: Rollup and Calculated Fields in Microsoft Dynamics CRM 2015](https://youtu.be/RoahCH1p3T8)  
   
 <a name="BKMK_CommonElements"></a>   
 ## Common elements and characteristics  
@@ -186,7 +186,7 @@ search.app:
 ```  
   
 ### See also  
- [Video: Rollup and Calculated Fields in Dynamics 365 Customer Engagement (on-premises)](http://youtu.be/RoahCH1p3T8)   
+ [Video: Rollup and Calculated Fields in Dynamics 365 Customer Engagement (on-premises)](https://youtu.be/RoahCH1p3T8)   
  [Introduction to entity attributes](introduction-to-entity-attributes.md)   
  [Define calculated fields](https://technet.microsoft.com/library/dn832103.aspx)   
  [Define rollup fields](https://docs.microsoft.com/dynamics365/customer-engagement/customize/define-rollup-fields)

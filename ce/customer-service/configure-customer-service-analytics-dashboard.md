@@ -42,7 +42,7 @@ Review the following prerequisites before configuring the supervisor dashboard:
 ### Step 2: Install Dynamics 365 Customer Service Analytics app 
 
 1. Sign in to [Power BI](https://app.powerbi.com/) app as an administrator. 
-2. As a Power BI admin, open the link: [http://aka.ms/cs-analytics](http://aka.ms/cs-analytics)
+2. As a Power BI admin, open the link: [https://aka.ms/cs-analytics](https://aka.ms/cs-analytics)
 3. Install the **Dynamics 365 Customer Service Analytics** app. 
 4. After the **Dynamics 365 Customer Service Analytics** app is installed, the app configuration options page is displayed.
     
@@ -199,7 +199,7 @@ Before you customize the template app, read the information here and perform eac
 
 ### Prerequisites
 
-- [Power BI service registration](http://powerbi.com "Power BI service registration").
+- [Power BI service registration](https://powerbi.com "Power BI service registration").
 
 - [Power BI Desktop](https://powerbi.microsoft.com/desktop/ "Power BI Desktop") application for editing Power BI reports. 
 

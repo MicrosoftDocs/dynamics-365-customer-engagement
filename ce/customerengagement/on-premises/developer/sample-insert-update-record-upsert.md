@@ -24,7 +24,7 @@ search.app:
 
 This sample code shows how to insert or update records by using the `Upsert` message. For more information about the feature that this sample demonstrates, see [Use Upsert to insert or update a record](use-upsert-insert-update-record.md).  
 
- This is available to download from [Insert or update a record using Upsert](http://go.microsoft.com/fwlink/p/?LinkId=532924).  
+ This is available to download from [Insert or update a record using Upsert](https://go.microsoft.com/fwlink/p/?LinkId=532924).  
 
 ## Prerequisites  
 

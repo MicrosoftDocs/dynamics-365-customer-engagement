@@ -100,7 +100,7 @@ Now, when the user tries to pin the Common Data Service entity to the required M
 
 This happens when the external app for Microsoft Teams service is not enabled by your Office 365 admin. To fix the issue, do the following:
 
-1. Sign in to [http://portal.office.com](http://portal.office.com).
+1. Sign in to [https://portal.office.com](https://portal.office.com).
 2. From the list of apps, select **Admin**.
 
    > [!div class="mx-imgBorder"] 

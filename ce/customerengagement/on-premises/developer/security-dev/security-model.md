@@ -52,7 +52,7 @@ search.app:
   
   Combine role-based security, record-level security, and field-level security to define the overall security rights that users have within your customDynamics 365 Customer Engagement (on-premises).  
   
-  More overview information about security can be found on the [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/Dynamics365), and in this white paper: [Microsoft Dynamics CRM Online security and compliance planning guide](http://download.microsoft.com/download/B/4/A/B4A6FDE3-A5ED-43A8-99CB-E218E51AE106/Microsoft%20Dynamics%20CRM%20Online%20security%20and%20compliance%20planning%20guide.pdf).  
+  More overview information about security can be found on the [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/Dynamics365), and in this white paper: [Microsoft Dynamics CRM Online security and compliance planning guide](https://download.microsoft.com/download/B/4/A/B4A6FDE3-A5ED-43A8-99CB-E218E51AE106/Microsoft%20Dynamics%20CRM%20Online%20security%20and%20compliance%20planning%20guide.pdf).  
   
 ## In This Section  
  [How Role-Based Security Can Be Used to Control Access to Entities In Microsoft Dynamics 365 Customer Engagemen (on-premises)](how-role-based-security-control-access-entities.md)  

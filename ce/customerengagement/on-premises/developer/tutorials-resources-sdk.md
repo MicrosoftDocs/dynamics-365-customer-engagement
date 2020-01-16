@@ -29,7 +29,7 @@ This topic lists the walkthroughs that are included in the SDK, and tells you wh
 
 Questions? Get help in the [Dynamics 365 Customer Engagement (on-premises) Development Forum](https://social.microsoft.com/Forums/home?forum=crmdevelopment).
 
-Need Support? [Search the knowledge base or contact technical support](http://go.microsoft.com/fwlink/p/?LinkID=394391).
+Need Support? [Search the knowledge base or contact technical support](https://go.microsoft.com/fwlink/p/?LinkID=394391).
 <!-- TODO: Verify that this is still the correct link for support -->
 
 <a name="walk"></a>
@@ -56,7 +56,7 @@ The following table lists the walkthroughs that are available in this SDK docume
 
 Here is a series of feature overview videos to get you started: [YouTube Videos](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ/playlists?view=50&flow=list&shelf_id=14).
 
-Here is a series of videos that feature xRM development: [Building xRM solutions: a three-part video series](http://blogs.msdn.com/b/crm/archive/2015/11/25/building-xrm-solutions-three-part-video-series-available.aspx)
+Here is a series of videos that feature xRM development: [Building xRM solutions: a three-part video series](https://blogs.msdn.com/b/crm/archive/2015/11/25/building-xrm-solutions-three-part-video-series-available.aspx)
 
 <a name="samples"></a>
 
@@ -71,19 +71,19 @@ There are hundreds of samples found throughout this SDK documentation. For a cat
 Looking for more developer resources? Here are some other sources of information:
 
 - [Dynamics 365 Customer Engagement Development Forum](https://social.microsoft.com/Forums/home?forum=crmdevelopment)
-- [Dynamics 365 Customer Engagement Team Blog](http://blogs.msdn.com/b/crm/)
-- [Community provided sample code on MSDN Code Gallery](http://code.msdn.microsoft.com/site/search?query=crm%2Bonline&f%5B0%5D.Value=crm%2Bonline&f%5B0%5D.Type=SearchText&ac=4)
-- [Community provided open source projects on CodePlex](http://www.codeplex.com/site/search?query=dynamics%20crm&sortBy=Relevance&licenses=|&ac=4)
+- [Dynamics 365 Customer Engagement Team Blog](https://blogs.msdn.com/b/crm/)
+- [Community provided sample code on MSDN Code Gallery](https://code.msdn.microsoft.com/site/search?query=crm%2Bonline&f%5B0%5D.Value=crm%2Bonline&f%5B0%5D.Type=SearchText&ac=4)
+- [Community provided open source projects on CodePlex](https://www.codeplex.com/site/search?query=dynamics%20crm&sortBy=Relevance&licenses=|&ac=4)
 - [Community provided open source projects on GitHub](https://github.com/search?q=dynamics+365&s=stars)
-- [XrmToolBox](http://www.xrmtoolbox.com/) provides many valuable tools created by the community
+- [XrmToolBox](https://www.xrmtoolbox.com/) provides many valuable tools created by the community
 
 Looking for more than just developer information? Here are other sites and pointers to social media you can use:
 
 - [Dynamics 365 Customer Engagement Documentation](https://docs.microsoft.com/dynamics365/)
-- [Dynamics 365 Customer Engagement pre-sales information](http://www.microsoft.com/dynamics/default.aspx)
-- [Dynamics 365 Customer Engagement: Deployment Forum](http://social.microsoft.com/Forums/crmdeployment/home/)
+- [Dynamics 365 Customer Engagement pre-sales information](https://www.microsoft.com/dynamics/default.aspx)
+- [Dynamics 365 Customer Engagement: Deployment Forum](https://social.microsoft.com/Forums/crmdeployment/home/)
 - [Certification Training](https://www.microsoft.com/learning/dynamics-certification.aspx)
-- [Contact Dynamics 365 Customer Engagement Customer Support](http://go.microsoft.com/fwlink/p/?LinkID=394391)
+- [Contact Dynamics 365 Customer Engagement Customer Support](https://go.microsoft.com/fwlink/p/?LinkID=394391)
 - [Dynamics 365 Customer Engagement on Facebook](https://www.facebook.com/msftdynamics)
 - [Dynamics 365 Customer Engagement group on Linkedin](https://www.linkedin.com/groups/21231)
 - [Dynamics 365 Customer Engagement on Twitter](https://twitter.com/MSFTDynamics365)

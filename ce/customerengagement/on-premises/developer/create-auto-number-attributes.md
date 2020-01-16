@@ -268,7 +268,7 @@ OData-Version: 4.0
 ### Auto Number Manager
 
 **[Auto Number Manager](https://www.xrmtoolbox.com/plugins/Rappen.XrmToolBox.AutoNumManager/)** for XrmToolBox is a community driven tool for Dynamics 365 Customer Engagement (on-premises) that provides a UI to set, update and remove auto number format on new or existing attributes.
-Please see the [Developer tools](developer-tools.md) topic for community developed tools and [anm.xrmtoolbox.com](http://anm.xrmtoolbox.com) for more information about Auto Number Manager.
+Please see the [Developer tools](developer-tools.md) topic for community developed tools and [anm.xrmtoolbox.com](https://anm.xrmtoolbox.com) for more information about Auto Number Manager.
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 

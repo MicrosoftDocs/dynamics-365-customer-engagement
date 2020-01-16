@@ -343,7 +343,7 @@ This sample code shows how you can use Bing's Geolocation APIs to know the geogr
 					console.log("Bing Geolocation API call has failed and returned error: " + this.statusText);
 				}
 			};
-			xhttp.open("GET", 'http://dev.virtualearth.net/REST/v1/Locations/'+ latitude +','+ longitude +'?key='+ bingMapApiKey, true);
+			xhttp.open("GET", 'https://dev.virtualearth.net/REST/v1/Locations/'+ latitude +','+ longitude +'?key='+ bingMapApiKey, true);
 			xhttp.setRequestHeader("Content-type", "application/json");
 			xhttp.send();
 		}

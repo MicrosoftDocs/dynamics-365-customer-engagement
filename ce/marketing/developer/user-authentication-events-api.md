@@ -33,7 +33,7 @@ This `token_id` can be retrieved by authenticating the user against Azure Active
 curl -X GET \ 
   'https:// b7c1ad1ab7fa4a7482b16315d94a26af.svc-tip.dynamics.com/EvtMgmt/api/v2.0/events/published?emApplicationtoken=VZsLZhx251OM9uJa..' \ 
   -H 'Authorization: Bearer eyJ0eXAiOiJK…\ 
-  -H 'Origin: http://localhost:4200' 
+  -H 'Origin: https://localhost:4200' 
 ``` 
 
 ## Contact matching strategy
@@ -57,7 +57,7 @@ The Events API provides an endpoint that returns the information of the authenti
 curl -X GET \
   'https:// b7c1ad1ab7fa4a7482b16315d94a26af.svc-tip.dynamics.com/EvtMgmt/api/v2.0/users/authenticated?emApplicationtoken=VZsLZhx251OM9uJa..' \
   -H 'Authorization: Bearer eyJ0eXAiOiJK…\ 
-  -H 'Origin: http://localhost:4200'
+  -H 'Origin: https://localhost:4200'
 ```
 
 **Response** 

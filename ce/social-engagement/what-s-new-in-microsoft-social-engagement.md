@@ -120,7 +120,7 @@ Good to know: This change doesn't affect the way you [work with social profiles]
 
 ### New sign-in URL for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
-A new sign-in page is available to sign in directly to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] without memorizing the solution URL or going through the Office 365 portal. Go to [http://social.dynamics.com/login](http://social.dynamics.com/login) to sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+A new sign-in page is available to sign in directly to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] without memorizing the solution URL or going through the Office 365 portal. Go to [https://social.dynamics.com/login](https://social.dynamics.com/login) to sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 ### Removal of interaction functionality for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles
 
@@ -158,7 +158,7 @@ All major releases of browsers (Microsoft Edge, Internet Explorer, Firefox, Chro
 |---------|---|--------|---------|
 |Microsoft Edge| equals or higher |12.10240| Compatible by [default](https://developer.microsoft.com/microsoft-edge/platform/status/tls12/?q=TLS%201.2)|
 |Internet Explorer | | 11 | Enabled by default, Desktop & Mobile |
-|Firefox | equals or higher | 27 | [Release notes](http://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/firefox/27.0/releasenotes/?flang=es-MX), all operating systems  |
+|Firefox | equals or higher | 27 | [Release notes](https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/firefox/27.0/releasenotes/?flang=es-MX), all operating systems  |
 |Chrome | equals or higher| 29 | [Details](https://bugs.chromium.org/p/chromium/issues/detail?id=90392#c28), all operating systems |
 |Safari | equals or higher | 7 | |
 |Opera  | equals or higher | 12 | [Release notes](https://blogs.opera.com/security/2016/02/opera-12-and-opera-mail-security-update/) |

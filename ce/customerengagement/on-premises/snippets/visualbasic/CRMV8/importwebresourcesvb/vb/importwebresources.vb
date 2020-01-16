@@ -148,7 +148,7 @@ Namespace Microsoft.Crm.Sdk.Samples
                     .FriendlyName =
                     "Microsoft Dynamics CRM SDK Samples Import Web Resources Sample",
                     .SupportingWebsiteUrl =
-                    "http://msdn.microsoft.com/dynamics/crm/default.aspx",
+                    "https://msdn.microsoft.com/dynamics/crm/default.aspx",
                     .CustomizationPrefix = "sample",
                     .EMailAddress = "someone@microsoft.com",
                     .Description = "This publisher is used by the Import Web Resources " _

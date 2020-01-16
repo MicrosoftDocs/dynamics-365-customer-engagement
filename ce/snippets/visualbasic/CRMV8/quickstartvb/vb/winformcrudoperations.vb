@@ -34,7 +34,7 @@ Namespace Microsoft.Crm.Sdk.Samples
 	''' records created by this program.
 	''' 
 	''' No helper code from CrmServiceHelpers.cs is used in this sample.</remarks>
-	''' <see cref="http://msdn.microsoft.com/library/gg695810.aspx"/>
+	''' <see cref="https://msdn.microsoft.com/library/gg695810.aspx"/>
 
 	Partial Public Class WinCRUDOperations
 		Inherits Form

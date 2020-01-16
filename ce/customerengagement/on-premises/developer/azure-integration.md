@@ -124,7 +124,7 @@ You can connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-on
  This contract type applies to [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] Event Hub solutions.  
   
 > [!IMPORTANT]
->  To use these contracts, you must write your listener applications using the [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)][SDK](http://www.windowsazure.com/develop/downloads/) v1.7 or later.  
+>  To use these contracts, you must write your listener applications using the [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)][SDK](https://www.windowsazure.com/develop/downloads/) v1.7 or later.  
   
  Identifying the kind of security a contract uses is part of the contract’s configuration. A contract can use Transport security, which uses Transport Layer Security (TLS) or Secure Sockets Layer (SSL) (https).  
   

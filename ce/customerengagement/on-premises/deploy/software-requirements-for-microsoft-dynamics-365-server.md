@@ -152,7 +152,7 @@ This topic lists the software and application requirements for this version of [
   
 -   SQL word breakers  
   
-     This is only required for some [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] language editions. For more information about word breaker versions for languages supported by [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], see [Configure and Manage Word Breakers and Stemmers for Search](http://go.microsoft.com/fwlink/p/?linkid=127754).  
+     This is only required for some [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] language editions. For more information about word breaker versions for languages supported by [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], see [Configure and Manage Word Breakers and Stemmers for Search](https://go.microsoft.com/fwlink/p/?linkid=127754).  
   
 -   [!INCLUDE[pn_SQL_Server_Agent](../includes/pn-sql-server-agent.md)] service  
   

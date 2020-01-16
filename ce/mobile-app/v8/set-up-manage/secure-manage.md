@@ -45,7 +45,7 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../../../includes/pn
 ### More information  
  For more information about getting and using [!INCLUDE[pn_intune](../../../includes/pn-intune.md)], see:  
   
--   [Microsoft Intune](http://www.microsoft.com/server-cloud/products/microsoft-intune/)  
+-   [Microsoft Intune](https://www.microsoft.com/server-cloud/products/microsoft-intune/)  
   
 -   [Documentation for Microsoft Intune](https://technet.microsoft.com/library/jj676587.aspx)  
   
@@ -59,7 +59,7 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../../../includes/pn
 > [!INCLUDE[cc_feature_included_with_update_8_1_0_admins](../../../includes/cc-feature-included-with-update-8-1-0-admins.md)]
 
 ## Secure [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] on mobile devices with [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)]
- [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)] is a special version of [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] that works with the [!INCLUDE[pn_good_technology](../../../includes/pn-good-technology.md)] mobile security platform. [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)] is currently supported for [!INCLUDE[tn_Apple_ipad](../../../includes/tn-apple-ipad.md)] and [!INCLUDE[tn_Apple_iphone](../../../includes/tn-apple-iphone.md)] running iOS 7 or later. To use [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)], you must have [!INCLUDE[pn_good_dynamics](../../../includes/pn-good-dynamics.md)] server software and services from [Good Technology](http://www1.good.com/).
+ [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)] is a special version of [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] that works with the [!INCLUDE[pn_good_technology](../../../includes/pn-good-technology.md)] mobile security platform. [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)] is currently supported for [!INCLUDE[tn_Apple_ipad](../../../includes/tn-apple-ipad.md)] and [!INCLUDE[tn_Apple_iphone](../../../includes/tn-apple-iphone.md)] running iOS 7 or later. To use [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)], you must have [!INCLUDE[pn_good_dynamics](../../../includes/pn-good-dynamics.md)] server software and services from [Good Technology](https://www1.good.com/).
 
 ### Prepare to use [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)]
  Your organization should have services set up with [!INCLUDE[pn_good_technology](../../../includes/pn-good-technology.md)]. Then follow the common directions for configuring [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] in [Set up Dynamics 365 for phones and Dynamics 365 for tablets](set-up.md).
@@ -75,12 +75,12 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../../../includes/pn
 3. Send users the email address and access key they will need to set up the app, or set up another secured application to act as an authentication delegate.  
   
 ### What users need to do  
- Users should update to the latest version of the [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)] application. On the Apple App store, the latest version is 1.1. On the [Good Dynamics Marketplace](http://go.microsoft.com/fwlink/p/?LinkId=524809) or Good Control Console, the latest version is listed as 1.1.0.  
+ Users should update to the latest version of the [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)] application. On the Apple App store, the latest version is 1.1. On the [Good Dynamics Marketplace](https://go.microsoft.com/fwlink/p/?LinkId=524809) or Good Control Console, the latest version is listed as 1.1.0.  
   
- Direct your users to [Secure your mobile data with Microsoft Dynamics 365 apps for Good](http://go.microsoft.com/fwlink/p/?LinkID=525026)  
+ Direct your users to [Secure your mobile data with Microsoft Dynamics 365 apps for Good](https://go.microsoft.com/fwlink/p/?LinkID=525026)  
   
 ### Install [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)]  
- The app is listed in the [Good Dynamics Marketplace](http://go.microsoft.com/fwlink/p/?LinkId=524809) and can be downloaded from the [Apple App Store](http://go.microsoft.com/fwlink/p/?LinkId=524762).  
+ The app is listed in the [Good Dynamics Marketplace](https://go.microsoft.com/fwlink/p/?LinkId=524809) and can be downloaded from the [Apple App Store](https://go.microsoft.com/fwlink/p/?LinkId=524762).  
   
 ### Supported languages for [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)]  
  [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)] supports the same languages as [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]. However, when users are viewing [!INCLUDE[pn_good_dynamics](../../../includes/pn-good-dynamics.md)] pages, only the following languages are supported:  
@@ -132,5 +132,5 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../../../includes/pn
   
 - Remote wipe is available and will not affect non-secured apps leaving personal apps and information untouched.  
   
-- Contact [Good Technology](http://www1.good.com/) regarding the specific support that can be provided with your suite/pricing, as well as the correct server setup for your needs and situation.  
+- Contact [Good Technology](https://www1.good.com/) regarding the specific support that can be provided with your suite/pricing, as well as the correct server setup for your needs and situation.  
 

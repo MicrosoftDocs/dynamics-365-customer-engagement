@@ -41,7 +41,7 @@ The new knowledge articles in Dynamics 365 Customer Engagement (on-premises) ena
 > [!NOTE]
 >  If you’re using the earlier knowledge base article (`KBArticle`) entity model, see [Work with earlier Dynamics 365 Customer Engagement (on-premises) knowledge base articles](work-knowledge-articles.md#EarlierKBArticle) later in this topic.  
   
- You can’t programmatically enable the knowledge base management feature for entities in your Dynamics 365 Customer Engagement (on-premises) instance; it can only be done using the Dynamics 365 Customer Engagement (on-premises) web client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management](http://go.microsoft.com/fwlink/p/?LinkId=691083)  
+ You can’t programmatically enable the knowledge base management feature for entities in your Dynamics 365 Customer Engagement (on-premises) instance; it can only be done using the Dynamics 365 Customer Engagement (on-premises) web client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management](https://go.microsoft.com/fwlink/p/?LinkId=691083)  
   
 <a name="Create"></a>   
 ## Create a knowledge article  
@@ -220,7 +220,7 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
 > [!NOTE]
 >  A knowledge base article cannot be deleted, if it is in the Published state.  
   
- For more information on creating, updating, editing, and locating an article in the knowledge base, see [Use articles in the knowledge base](http://go.microsoft.com/fwlink/p/?LinkId=526812).  
+ For more information on creating, updating, editing, and locating an article in the knowledge base, see [Use articles in the knowledge base](https://go.microsoft.com/fwlink/p/?LinkId=526812).  
   
 ### See also  
  [Knowledge Base Entities](knowledge-management-entities.md)

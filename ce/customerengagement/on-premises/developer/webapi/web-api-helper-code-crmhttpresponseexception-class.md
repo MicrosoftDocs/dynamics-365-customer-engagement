@@ -25,7 +25,7 @@ Use the `CrmHttpResponseException` class to represent [HTTP status errors](https
 
  The `CrmHttpResponseException` class is located in the file Exceptions.cs in the [CRM SDK Web API Helper Library](https://www.nuget.org/packages/Microsoft.CrmSdk.WebApi.Samples.HelperCode/).  It is used extensively in the other helper library classes and C# Web API samples. For more information, see [Use the Dynamics 365 Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).  
 
- This class utilizes JSON string-handling functionality from the open source [Json.NET](http://www.newtonsoft.com/json) library.  
+ This class utilizes JSON string-handling functionality from the open source [Json.NET](https://www.newtonsoft.com/json) library.  
 
 ## Class members  
 

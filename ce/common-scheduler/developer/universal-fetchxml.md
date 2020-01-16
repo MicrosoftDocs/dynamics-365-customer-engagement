@@ -128,7 +128,7 @@ UFX Queries are written as XML-based **UFX Bags**. Properties in the bag can con
 
 The following UFX Query defines the `accounts` property in the bag with the `source` UFX directive. This results in the inline FetchXML to be executed by Dynamics 365 and the `accounts` property to become a list of bags, or an `EntityCollection`, with each bag being an instance of an account record from Dynamics 365.
 ```xml
-<bag xmlns:ufx="http://schemas.microsoft.com/dynamics/2017/universalfetchxml">
+<bag xmlns:ufx="https://schemas.microsoft.com/dynamics/2017/universalfetchxml">
     <accounts ufx:source="fetch">
         <fetch top="10">
             <entity name="account" />
@@ -147,7 +147,7 @@ Here's a snippet of the result of the previous UFX Query serialized to XML. Obse
       <accountnumber ufx-type="string">ABSS4G45</accountnumber>
       <name ufx-type="string">Fourth Coffee (sample)</name>
       <statecode ufx-type="option" ufx-formatvalue="Active">0</statecode>
-      <websiteurl ufx-type="string">http://www.fourthcoffee.com/</websiteurl>
+      <websiteurl ufx-type="string">https://www.fourthcoffee.com/</websiteurl>
       <primarycontactid ufx-type="lookup" ufx-formatvalue="Yvonne McKay (sample)" ufx-logicalname="contact">7c6e39dd-34a1-e611-8111-00155d652f01</primarycontactid>
       ...
     </bag>
@@ -156,7 +156,7 @@ Here's a snippet of the result of the previous UFX Query serialized to XML. Obse
       <accountnumber ufx-type="string">ACTBBDC3</accountnumber>
       <name ufx-type="string">Litware, Inc. (sample)</name>
       <statecode ufx-type="option" ufx-formatvalue="Active">0</statecode>
-      <websiteurl ufx-type="string">http://www.litwareinc.com/</websiteurl>
+      <websiteurl ufx-type="string">https://www.litwareinc.com/</websiteurl>
       <primarycontactid ufx-type="lookup" ufx-formatvalue="Susanna Stubberod (sample)" ufx-logicalname="contact">7e6e39dd-34a1-e611-8111-00155d652f01</primarycontactid>
       ...
     </bag>
@@ -167,7 +167,7 @@ Here's a snippet of the result of the previous UFX Query serialized to XML. Obse
 
 The `select` UFX directive takes an XPath expression that selects values from the current bag.
 ```xml
-<bag xmlns:ufx="http://schemas.microsoft.com/dynamics/2017/universalfetchxml">
+<bag xmlns:ufx="https://schemas.microsoft.com/dynamics/2017/universalfetchxml">
     <accounts ufx:source="fetch">
         <fetch top="10">
             <entity name="account" />
@@ -191,7 +191,7 @@ Certainly the most powerful aspect of a UFX Query is its ability to dynamically 
 In the sample below, we search for accounts by a value supplied by the user and available as a UFX Bag through the XPath `$input` variable. Notice the UFX **if** and **value** directives on the `condition` element.
 
 ```xml
-<bag xmlns:ufx="http://schemas.microsoft.com/dynamics/2017/universalfetchxml">
+<bag xmlns:ufx="https://schemas.microsoft.com/dynamics/2017/universalfetchxml">
     <accounts ufx:source="fetch">
         <fetch top="10">
             <entity name="account">

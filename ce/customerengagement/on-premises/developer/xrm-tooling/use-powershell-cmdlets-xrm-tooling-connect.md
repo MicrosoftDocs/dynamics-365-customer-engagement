@@ -75,13 +75,13 @@ You’re now ready to use the PowerShell cmdlet. To list the cmdlets that you re
    - If you’re connecting to the Dynamics 365 Customer Engagement (on-premises) server:  
   
      ```powershell  
-     $CRMOrgs = Get-CrmOrganizations –ServerUrl http://<CRM_Server_Host> –Credential $Cred  
+     $CRMOrgs = Get-CrmOrganizations –ServerUrl https://<CRM_Server_Host> –Credential $Cred  
      ```      
   
    - If you’re connecting to the  Dynamics 365 Customer Engagement (on-premises) server using the claims-based authentication against the specified Home realm:  
   
      ```powershell  
-     $CRMOrgs = Get-CrmOrganizations –ServerUrl http://<CRM_Server_Host> –Credential $Cred –HomRealmURL http://<Identity_Provider_Address>  
+     $CRMOrgs = Get-CrmOrganizations –ServerUrl https://<CRM_Server_Host> –Credential $Cred –HomRealmURL https://<Identity_Provider_Address>  
      ```  
   
 3. Your supplied credentials are validated when you run the command in step 2. On successful execution of the command, type the following command, and press ENTER to display the organizations that you have access to:  
@@ -125,13 +125,13 @@ You’re now ready to use the PowerShell cmdlet. To list the cmdlets that you re
    - If you’re connecting to the Dynamics 365 Customer Engagement (on-premises) server:  
   
      ```powershell  
-     $CRMConn = Get-CrmConnection –ServerUrl http://<CRM_Server_Host> -Credential $Cred -OrganizationName <OrgName>  
+     $CRMConn = Get-CrmConnection –ServerUrl https://<CRM_Server_Host> -Credential $Cred -OrganizationName <OrgName>  
      ```
   
    - If you’re connecting to the Dynamics 365 Customer Engagement (on-premises) server using the claims-based authentication against the specified Home realm:  
   
      ```powershell  
-     $CRMConn = Get-CrmConnection –ServerUrl http://<CRM_Server_Host> -Credential $Cred -OrganizationName <OrgName> –HomRealmURL http://<Identity_Provider_Address>  
+     $CRMConn = Get-CrmConnection –ServerUrl https://<CRM_Server_Host> -Credential $Cred -OrganizationName <OrgName> –HomRealmURL https://<Identity_Provider_Address>  
      ```  
   
    > [!NOTE]
@@ -150,4 +150,4 @@ You’re now ready to use the PowerShell cmdlet. To list the cmdlets that you re
 
 [Use XRM Tooling API to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect)<br />
 [Build Windows client applications using the XRM tools](/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools)<br /> 
-[Blog: PowerShell module for performing data operations and manipulating user and system settings in Dynamics 365 Customer Engagement (on-premises)](http://blogs.msdn.com/b/crm/archive/2015/09/25/powershell-module-for-performing-data-operations-and-manipulating-user-and-system-settings-in-crm.aspx)
+[Blog: PowerShell module for performing data operations and manipulating user and system settings in Dynamics 365 Customer Engagement (on-premises)](https://blogs.msdn.com/b/crm/archive/2015/09/25/powershell-module-for-performing-data-operations-and-manipulating-user-and-system-settings-in-crm.aspx)

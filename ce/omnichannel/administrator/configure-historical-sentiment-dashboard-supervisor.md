@@ -61,7 +61,7 @@ Review the following prerequisites before configuring the dashboard:
 
 1.	Sign in to the [Power BI](https://app.powerbi.com/) app as an administrator.
 
-2.	As a Power BI administrator, open the [Omnichannel Insights for Dynamics 365](http://aka.ms/d365-oc-insights) app page.
+2.	As a Power BI administrator, open the [Omnichannel Insights for Dynamics 365](https://aka.ms/d365-oc-insights) app page.
 
 3.  Select **GET IT NOW** to install the app.
 
