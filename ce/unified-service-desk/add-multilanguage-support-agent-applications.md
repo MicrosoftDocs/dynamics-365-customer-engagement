@@ -40,7 +40,7 @@ search.app:
   
    1. Sign in to the Common Data Service platform.  
   
-   2. Go to **Settings** > **Customizations** ([How do I get there?](http://go.microsoft.com/fwlink/p/?LinkId=525636))  
+   2. Go to **Settings** > **Customizations** ([How do I get there?](https://go.microsoft.com/fwlink/p/?LinkId=525636))  
   
    3. Click **Customize the System** to add the web resources to the default solution.  
   

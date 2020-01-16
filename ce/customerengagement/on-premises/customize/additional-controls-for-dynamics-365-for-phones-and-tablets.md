@@ -148,7 +148,7 @@ search.app:
  Use the website preview control to map a URL field and show a preview of the website.  
   
 > [!IMPORTANT]
->  By enabling this control, you consent to allow your users to share certain identifiable device information with an external system. Data imported from external systems into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] are subject to our privacy statement at [Microsoft Privacy and Cookies](http://go.microsoft.com/fwlink/p/?LinkId=521839).  
+>  By enabling this control, you consent to allow your users to share certain identifiable device information with an external system. Data imported from external systems into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] are subject to our privacy statement at [Microsoft Privacy and Cookies](https://go.microsoft.com/fwlink/p/?LinkId=521839).  
 > 
 >  [Privacy notices](../customize/use-the-form-editor-legacy.md#BKMK_PrivacyNotices)  
   

@@ -22,5 +22,5 @@ ms.author: matp
   
  Enter a valid and supported [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] product key or, if the product key presents a downgrade, reconfigure the deployment to meet the conditions described previously.  
   
- For more information about [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] licensing, contact your local [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] representative. If you do not have a representative available, contact Microsoft Customer Support Services. For a complete list of Microsoft Customer Support Services telephone numbers and information about support costs, visit the Microsoft [Help and Support Contact](http://go.microsoft.com/fwlink/p/?LinkId=99244) webpage.
+ For more information about [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] licensing, contact your local [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] representative. If you do not have a representative available, contact Microsoft Customer Support Services. For a complete list of Microsoft Customer Support Services telephone numbers and information about support costs, visit the Microsoft [Help and Support Contact](https://go.microsoft.com/fwlink/p/?LinkId=99244) webpage.
 

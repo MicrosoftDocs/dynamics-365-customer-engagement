@@ -39,7 +39,7 @@ This topic describes how to develop a custom webpage that can make SDK calls to 
   
 - [System requirements and required technologies](https://technet.microsoft.com/library/hh699831.aspx) - Accessing Dynamics 365 Customer Engagement (on-premises) from the Internet - Claims-based authentication and [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)] requirements  
   
-  For more information about identity management, see [the identity training course](http://channel9.msdn.com/Learn/Courses/IdentityTrainingCourse).  
+  For more information about identity management, see [the identity training course](https://channel9.msdn.com/Learn/Courses/IdentityTrainingCourse).  
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Walkthrough: Single Sign-on from a Custom Web Page](https://msdn.microsoft.com/library/gg509057\(v=crm.5\).aspx) in the [!INCLUDE[pn_CRM_2011](../includes/pn-crm-2011.md)] SDK.  
   
@@ -48,17 +48,17 @@ This topic describes how to develop a custom webpage that can make SDK calls to 
  This scenario is for use with Dynamics 365 Customer Engagement (on-premises) where [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] hosts a custom webpage that’s optionally displayed in an inline frame of the Dynamics 365 Customer Engagement (on-premises) web application. This scenario uses federated claims, provided by the [!INCLUDE[pn_Windows_Live](../includes/pn-windows-live.md)] security token service (STS) server for identity management. You must provide a certificate to be used when making Dynamics 365 Customer Engagement (on-premises) and the [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] website relying parties, which established cross-domain trust between these parties.  
   
 ### Background information  
- For more information about how to configure a relying party, see the following topic: [Secure Azure Web Role ASP.NET Web Application Using Access Control Service v2.0](http://social.technet.microsoft.com/wiki/contents/articles/2590.aspx)  
+ For more information about how to configure a relying party, see the following topic: [Secure Azure Web Role ASP.NET Web Application Using Access Control Service v2.0](https://social.technet.microsoft.com/wiki/contents/articles/2590.aspx)  
   
- For more information about identity management, see [http://channel9.msdn.com/Learn/Courses/IdentityTrainingCourse](http://channel9.msdn.com/Learn/Courses/IdentityTrainingCourse)  
+ For more information about identity management, see [https://channel9.msdn.com/Learn/Courses/IdentityTrainingCourse](https://channel9.msdn.com/Learn/Courses/IdentityTrainingCourse)  
   
- For more information about implementing this scenario including problems you may run into and the workarounds, see these blogs: [Dynamics 365 Customer Engagement (on-premises) & Azure: Improving the SSO experience](http://blogs.msdn.com/b/devkeydet/archive/2013/01/14/crm-online-amp-windows-azure-improving-the-sso-experience.aspx), and [Dynamics 365 Customer Engagement (on-premises) & Azure Series](http://blogs.msdn.com/b/devkeydet/archive/2013/01/27/crm-online-amp-windows-azure-series.aspx).  
+ For more information about implementing this scenario including problems you may run into and the workarounds, see these blogs: [Dynamics 365 Customer Engagement (on-premises) & Azure: Improving the SSO experience](https://blogs.msdn.com/b/devkeydet/archive/2013/01/14/crm-online-amp-windows-azure-improving-the-sso-experience.aspx), and [Dynamics 365 Customer Engagement (on-premises) & Azure Series](https://blogs.msdn.com/b/devkeydet/archive/2013/01/27/crm-online-amp-windows-azure-series.aspx).  
   
 <a name="BKMK_EnableIFrameCommunicationAccrossDomains"></a>   
 ## Enable inline frame communication across domains  
  If you want to enable communication for an inline frame (iframe) that contains content from a different domain, you can use the `Window.postMessage` method. This browser method can be used for [!INCLUDE[pn_IE_8](../includes/pn-ie-8.md)]. [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)], [!INCLUDE[tn_Mozilla_Firefox](../includes/tn-mozilla-firefox.md)], and [!INCLUDE[tn_Apple_Safari](../includes/tn-apple-safari.md)] also support this method. For more information about using `postMessage`, see the following blog posts:  
   
--   [Cross domain calls to the parent CRM 2011 form](http://blogs.msdn.com/b/devkeydet/archive/2012/02/14/cross-domain-calls-to-the-parent-crm-2011-form.aspx)  
+-   [Cross domain calls to the parent CRM 2011 form](https://blogs.msdn.com/b/devkeydet/archive/2012/02/14/cross-domain-calls-to-the-parent-crm-2011-form.aspx)  
   
 -   [Cross-Document Messaging and RPC](https://msdn.microsoft.com/magazine/ff800814.aspx)  
   

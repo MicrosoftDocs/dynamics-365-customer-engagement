@@ -1,8 +1,8 @@
 ---
 title: "Sample: Set the state of a workflow (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "The sample shows how to change the state of a workflow, through activating and deactivating it, by using the SetStateRequest message. In addition, the sample shows how to create a custom XAML workflow. A snippet showing just the key sections of the sample is shown first, followed by the Complete Sample Code. "
+description: "The sample shows how to change the state of a workflow, through activating and deactivating it, by using the SetStateRequest message. In addition, the sample shows how to create a custom XAML workflow."
 keywords: 
-ms.date: 10/31/2017
+ms.date: 1/14/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
@@ -11,8 +11,8 @@ applies_to:
 ms.assetid: 68a5e1da-7432-4520-a9df-72372ddb8a20
 author: JimDaly
 ms.author: jdaly
-manager: jdaly
-ms.reviewer: 
+manager: kvivek
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 21
@@ -25,36 +25,32 @@ search.app:
 
 # Sample: Set the state of a workflow
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with workflows](hhttps://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Workflows).
+[!INCLUDE[cc-sample-note](./includes/cc-sample-note.md)]
+
+Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/Workflow).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
   
 ## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
+
+To obtain a local copy of all samples, do the following:
+1. Download or clone the  [Samples](https://github.com/microsoft/PowerApps-Samples) repo so that you have a local copy.
+2. (Optional) Edit the cds/App.config file to define a connection string specifying the instance/org you want to connect to.
+3. Open the sample solution in Visual Studio and press **F5** to run the sample. After you specify a connection string in cds/App.config, any sample you run will use that connection information.
+
+If you do not specify a connection string in cds/App.config file, a dialog will open each time you run the sample and you will need to enter information about which instance/org you want to connect to and which credentials you want to use. This dialog will cache previous connections so that you can choose a previously used connection.
+
+Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/Workflow/README.md) for additional information about the sample.
   
 ## Demonstrates  
- This sample shows how to change the state of a workflow, through activating and deactivating it, by using the <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest> message. In addition, the sample shows how to create a custom XAML workflow. A snippet showing just the key sections of the sample is shown first, followed by the [Complete Sample Code](sample-set-state-workflow.md#complete_sample).  
+ This sample shows how to change the state of a workflow, through activating and deactivating it, by using the <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest> message. In addition, the sample shows how to create a custom XAML workflow.  
   
 ## Example  
- Code snippet that shows how to activate and deactivate a workflow.  
-  
- [!code-csharp[Workflows#SetStateWorkflow1](../snippets/csharp/CRMV8/workflows/cs/setstateworkflow1.cs#setstateworkflow1)]  
-[!code-csharp[Workflows#SetStateWorkflow2](../snippets/csharp/CRMV8/workflows/cs/setstateworkflow2.cs#setstateworkflow2)]  
-  
-## Example  
- Code snippet that shows how to create a XAML workflow.  
-  
- [!code-csharp[Workflows#SetStateWorkflow3](../snippets/csharp/CRMV8/workflows/cs/setstateworkflow3.cs#setstateworkflow3)]  
-  
- For the XAML code that defines the workflow, see the [Complete Sample Code](sample-set-state-workflow.md#complete_sample).  
-  
-<a name="complete_sample"></a>   
-## Complete Sample Code  
- [!code-csharp[Workflows#SetStateWorkflow](../snippets/csharp/CRMV8/workflows/cs/setstateworkflow.cs#setstateworkflow)]  
-  
+[SetStateWorkflow.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/Workflow/Workflow/SetStateWorkflow.cs)
+
 ### See also  
  [Sample code for workflows](sample-code-processes.md)   
  [Processes in Dynamics 365 Customer Engagement (on-premises)(formerly Workflows)](automate-business-processes-customer-engagement.md)      
  <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>   
-<xref:Microsoft.Xrm.Sdk.IOrganizationService>
+ <xref:Microsoft.Xrm.Sdk.IOrganizationService>

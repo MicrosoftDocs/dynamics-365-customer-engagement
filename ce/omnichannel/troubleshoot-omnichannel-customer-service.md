@@ -363,7 +363,7 @@ When you enter different credentials, this issue occurs.
 
 ### Resolution:
 
-If you use **IE process** to host applications, open Internet Explorer browser, and go to http://login.microsoftonline.com/logout.srf. The URL signs you from office.com. Now, sign in to Unified Service Des client application and try again. 
+If you use **IE process** to host applications, open Internet Explorer browser, and go to https://login.microsoftonline.com/logout.srf. The URL signs you from office.com. Now, sign in to Unified Service Des client application and try again. 
 
 If you use **Chrome process** to host applications, go to `C:\Users\<USER_NAME>\AppData\Roaming\Microsoft\USD` and delete the **CEF** folder. Now, sign in to Unified Service Des client application and try again. 
 
