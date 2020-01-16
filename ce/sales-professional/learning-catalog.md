@@ -3,7 +3,7 @@ title: Sales Professional and Enterprise Learning Catalog
 description: Find all the training options for Dynamics 365 Sales Professional and Enterprise. 
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 11/01/2019
+ms.date: 01/08/2020
 ms.author: v-lshann
 ---
 
@@ -41,25 +41,11 @@ Find the right online training, in person workshops, and events for your role in
 
     :::column-end:::
 
-:::row-end:::
-
-:::row:::
-    :::column:::
-      
-    ### Developers
-
-    Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?
-
-    [Developers Learning Catalog](learning-developer.md)
-
-    [Build](learning-developer.md#build)
-
-    [Extend](learning-developer.md#extend)
-
-    :::column-end:::
-    
-    :::column:::
-
+        :::column-end:::
+    :::row-end:::
+    :::row:::
+        :::column:::
+        
     ### Implementation project managers
 
     Are you in charge of making sure your company’s implementation goes smoothly?
@@ -78,6 +64,31 @@ Find the right online training, in person workshops, and events for your role in
 
 :::row:::
 
+     :::column-end:::
+    :::column:::
+
+    ### Administrators
+
+    Do you need to keep systems and data flowing, provisioned,and secure round-the-clock?
+
+    [Administrators learning catalog](learning-administrator.md)
+
+     :::column-end:::
+    :::row-end:::
+    :::row:::
+        :::column:::
+
+    ### Developers
+
+    Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?
+
+    [Developers Learning Catalog](learning-developer.md)
+
+    [Build](learning-developer.md#build)
+
+    [Extend](learning-developer.md#extend)
+
+       :::column-end:::
     :::column:::
 
     ### Functional consultants
@@ -92,9 +103,10 @@ Find the right online training, in person workshops, and events for your role in
 
     [Exams](learning-functional-consultant.md#exam)
 
-    :::column-end:::
-    
-    :::column:::
+        :::column-end:::
+    :::row-end:::
+    :::row:::
+        :::column:::
 
     ### Partner sales and marketing
 
