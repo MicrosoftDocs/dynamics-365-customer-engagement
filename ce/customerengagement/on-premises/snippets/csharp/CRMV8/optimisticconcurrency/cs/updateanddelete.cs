@@ -16,7 +16,7 @@ namespace Microsoft.Crm.Sdk.Samples
     /// <remarks>
     /// At run-time, you will be given the option to delete all the
     /// database records created by this program.</remarks>
-    /// <see cref="https://msdn.microsoft.com/en-us/library/dn932125.aspx"/>
+    /// <see cref="https://msdn.microsoft.com/library/dn932125.aspx"/>
     public class UpdateAndDelete
     {
         #region Class Level Members

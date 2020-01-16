@@ -247,5 +247,5 @@ If the work order or requirement doesn't have a latitude or longitude, the locat
 ### See also
 - [Universal Resource Scheduling documentation](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
 - [Resource Scheduling Optimization overview](rso-overview.md)
-- [Frequently asked questions about the mobile solution](http://www.resco.net/mobilecrm/support.aspx) 
+- [Frequently asked questions about the mobile solution](https://www.resco.net/mobilecrm/support.aspx) 
 - [Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf) 

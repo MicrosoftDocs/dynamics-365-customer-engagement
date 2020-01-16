@@ -32,7 +32,7 @@ Namespace Microsoft.Crm.Sdk.Samples
 
             If String.IsNullOrEmpty(config) Then
 
-                webAddress = "http://www.bing.com"
+                webAddress = "https://www.bing.com"
 
             Else
 

@@ -30,7 +30,7 @@ Refer to the following documents and web pages for legal information about [!INC
   
 ## Privacy Statement  
 
- We're committed to protect your privacy. Review the detailed [Microsoft Online Services Privacy Statement](http://go.microsoft.com/fwlink/p/?LinkId=512132) for additional information.  
+ We're committed to protect your privacy. Review the detailed [Microsoft Online Services Privacy Statement](https://go.microsoft.com/fwlink/p/?LinkId=512132) for additional information.  
   
 ## Additional Privacy Notices  
 

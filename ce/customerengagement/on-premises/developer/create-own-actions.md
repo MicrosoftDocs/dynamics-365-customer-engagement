@@ -182,7 +182,7 @@ To download the CrmSvcUtil.exe, see [Download tools from NuGet](download-tools-N
  The following sample shows the format for running the tool from the command line for an on-premises installation of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You supply the parameter values for your installation.  
   
 ```ms-dos  
-CrmSvcUtil.exe /url:http://<serverName>/<organizationName>/XRMServices/2011/Organization.svc /out:<outputFilename>.cs /username:<username> /password:<password> /domain:<domainName> /namespace:<outputNamespace> /serviceContextName:<serviceContextName> /generateActions  
+CrmSvcUtil.exe /url:https://<serverName>/<organizationName>/XRMServices/2011/Organization.svc /out:<outputFilename>.cs /username:<username> /password:<password> /domain:<domainName> /namespace:<outputNamespace> /serviceContextName:<serviceContextName> /generateActions  
 ```  
   
  The following sample shows the format for running the tool from the command line with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. You supply the parameter values appropriate for your account and server.  

@@ -104,7 +104,7 @@ To use the area filter with a keyboard, select Tab until you reach the **Area fi
 Commonly used screen readers are supported, empowering the blind, visually impaired, or people with learning disabilities.
 
 - [Learn more about working with Microsoft Narrator](https://support.microsoft.com/help/22798)
-- [Learn more about working with JAWS](http://www.freedomscientific.com/Products/Blindness/JawsDocumentation)
+- [Learn more about working with JAWS](https://www.freedomscientific.com/Products/Blindness/JawsDocumentation)
 - [Learn more about working with NVDA](https://www.nvaccess.org/get-help/)
 
 ### Use the keyboard to navigate the user interface
@@ -135,9 +135,9 @@ For accessibility information for specific browsers, visit the following website
 
 -   [Microsoft Edge accessibility](https://docs.microsoft.com/microsoft-edge/accessibility)
 
--   [Firefox accessibility features](http://support.mozilla.org/kb/accessibility-features-firefox-make-firefox-and-we?redirectlocale=en-US&redirectslug=accessibility)
+-   [Firefox accessibility features](https://support.mozilla.org/kb/accessibility-features-firefox-make-firefox-and-we?redirectlocale=en-US&redirectslug=accessibility)
 
--   [Safari accessibility features](http://www.apple.com/support/accessibility/)
+-   [Safari accessibility features](https://www.apple.com/support/accessibility/)
 
 -   [Google Chrome accessibility features](https://sites.google.com/a/chromium.org/dev/user-experience)
 

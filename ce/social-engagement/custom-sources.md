@@ -48,7 +48,7 @@ Extend the coverage of your data sources by adding public RSS feeds in [!INCLUDE
 
 4. Enter your RSS or Atom feed and click the **Add** ![New or Add button](media/plus-icon.png "New or Add button") button to validate and add a source.
 
-   **Example of feed URL**: `http://contoso.com/rss`
+   **Example of feed URL**: `https://contoso.com/rss`
 
 5. Click **Save** ![Save button](media/save-icon.png "Save button").
 

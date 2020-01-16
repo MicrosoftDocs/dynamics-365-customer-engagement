@@ -33,7 +33,7 @@ You can enter the following values in your list of allowed domains:
   
 - Domain names with wildcards: This enables communication between all subdomains of the entered domain and your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution, for example, `*.contoso.com`  
   
-- Host names: This enables communication between a custom host name and your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution, for example, `http://hostname`  
+- Host names: This enables communication between a custom host name and your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution, for example, `https://hostname`  
 
 > [!IMPORTANT]
 > Make sure to remove trailing slashes from the domain name.

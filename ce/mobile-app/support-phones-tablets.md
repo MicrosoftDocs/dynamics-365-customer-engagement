@@ -29,15 +29,15 @@ You can access Common Data Service or Dynamics 365 Customer Engagement (on-premi
   
 |                              Platform                              |   Versions    | RAM (minimum)  | 
 |--------------------------------------------------------------------|---------------|---------------|
-|       [iOS](https://docs.microsoft.com/en-us/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store)       | 11.4.1 or later  |     1 GB (2 GB recommended)     
-|     [Android](https://docs.microsoft.com/en-us/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store)     | 6.0.1 or later |     2 GB (3 GB recommended)    |                                  |
-| [Windows](https://docs.microsoft.com/en-us/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store) |      10       |     2 GB (4 GB recommended)                     
+|       [iOS](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store)       | 11.4.1 or later  |     1 GB (2 GB recommended)     
+|     [Android](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store)     | 6.0.1 or later |     2 GB (3 GB recommended)    |                                  |
+| [Windows](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store) |      10       |     2 GB (4 GB recommended)                     
  
  
   
 ## Install the app 
 
-To install the app see, [Install the app from your device’s app store](https://docs.microsoft.com/en-us/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
+To install the app see, [Install the app from your device’s app store](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
 
    
 
@@ -89,7 +89,7 @@ For more information about web browser support, see [Web application requirement
 - On December 1, 2019, the mobile app will no longer support iOS 10, Android 4.4, and Android 5. The minimum Android version will be 6.0.1 and the minimum iOS version will be 11.4.1.
 
 - As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated and will be removed from the iOS App Store on October 31, 2019. For more information, [Dynamics 365 for Blackberry is deprecated
-](https://docs.microsoft.com/en-us/power-platform/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).
+](https://docs.microsoft.com/power-platform/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).
 
 - On February 21, 2018, we announced the deprecation of the Windows Phone app for Dynamics 365 apps. Effective May 22, 2018, the Windows phone app is no longer supported for model-driven apps in Dynamics 365.
 

@@ -46,7 +46,7 @@ This topic describes how to define layout and behavior of the notification using
  | Markup  | Copy and paste the XML content as shown below  |
 
 ```XML
-  <Border xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  <Border xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"
 xmlns:CCA="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"
 xmlns:Converters="clr-namespace:USDConverters;assembly=USDConverters" xmlns:local="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"  xmlns:System="clr-namespace:System;assembly=mscorlib" BorderThickness="1,1,1,1" CornerRadius="0" >
  <Border.Resources>
@@ -122,7 +122,7 @@ xmlns:Converters="clr-namespace:USDConverters;assembly=USDConverters" xmlns:loca
       <ColumnDefinition Width="37"/>
      </Grid.ColumnDefinitions>
      <TextBlock Style="{DynamicResource NotificationTextStyle}" Grid.Column="0" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow" Text="[[ToastNotificationText]+]" VerticalAlignment="Center" FontSize="14" TextTrimming="WordEllipsis" FontFamily="Segoe UI"  LineHeight="16" FontWeight="SemiBold" />
-     <Button Grid.Column="1" Margin="7,3,0,0" BorderThickness="0" Height="16" Width="16"  Command="CCA:ActionCommands.DoActionCommand" CommandParameter="http://uii/Omnichannel Toast Notification/Close" FontWeight="SemiBold" FontFamily="Segoe UI" >
+     <Button Grid.Column="1" Margin="7,3,0,0" BorderThickness="0" Height="16" Width="16"  Command="CCA:ActionCommands.DoActionCommand" CommandParameter="https://uii/Omnichannel Toast Notification/Close" FontWeight="SemiBold" FontFamily="Segoe UI" >
       <Button.Style>
        <Style TargetType="{x:Type Button}">
         <Setter Property="Background" Value="#00FFFFFF"/>

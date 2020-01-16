@@ -185,7 +185,7 @@ Or wrap the proxy classes in a new class. Another technique is to explicitly che
 
 ### Best practices for Dynamics 365 Customer Engagement (on-premises)
 
-The [Microsoft Dynamics 365 Customer Engagement (on-premises) patterns & principles for solution builders](http://go.microsoft.com/fwlink/p/?LinkID=533946) white paper download provides guidance specifically about building solutions using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+The [Microsoft Dynamics 365 Customer Engagement (on-premises) patterns & principles for solution builders](https://go.microsoft.com/fwlink/p/?LinkID=533946) white paper download provides guidance specifically about building solutions using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
 
 ### Using custom entities and attributes
 
@@ -265,7 +265,7 @@ Best practices for securing your implementation of Dynamics 365 Customer Engagem
 - Require that all users use strong passwords for their accounts.
 
 <!-- This is an on-prem topic, not yet migrated. Put in a different link for a placeholder
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Considerations for Dynamics 365 Customer Engagement](https://technet.microsoft.com/en-us/library/hh699825.aspx)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Considerations for Dynamics 365 Customer Engagement](https://technet.microsoft.com/library/hh699825.aspx)  
 -->
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Concepts for Dynamics 365 Customer Engagement (on-premises)](../admin/security-concepts.md)  
 
@@ -326,7 +326,7 @@ Best practices for developing customizations for the [!INCLUDE[pn_crm_shortest](
   For more information, see the following:  
 
 - [Overview of Web Application Security Threats](https://msdn.microsoft.com/library/f13d73y6.aspx)  
-- [Download: Microsoft Anti-Cross Site Scripting Library V4.2](http://www.microsoft.com/download/details.aspx?id=28589)  
+- [Download: Microsoft Anti-Cross Site Scripting Library V4.2](https://www.microsoft.com/download/details.aspx?id=28589)  
 - [ASP.NET Web Application Security](https://msdn.microsoft.com/library/330a99hc.aspx)  
 - [Introduction to Web Application Security](https://msdn.microsoft.com/library/aa711426\(VS.71\).aspx)  
 

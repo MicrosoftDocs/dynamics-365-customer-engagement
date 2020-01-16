@@ -23,13 +23,13 @@ manager: kvivek
   
 -   In the `machine.config` and `web.config` configuration files you can determine whether debugging is enabled, and also if detailed error messages are sent to the client. You should make sure that debugging is disabled on all production servers, and that a generic error message is sent to the client if a problem occurs. This avoids unnecessary information about the web server configuration being sent to the client.  
   
--   Make sure that the latest operating system and [!INCLUDE[pn_iis](../includes/pn-iis.md)] service packs and updates are applied. For the latest information, see the [Microsoft Security](http://go.microsoft.com/fwlink/p/?linkid=92540) website.  
+-   Make sure that the latest operating system and [!INCLUDE[pn_iis](../includes/pn-iis.md)] service packs and updates are applied. For the latest information, see the [Microsoft Security](https://go.microsoft.com/fwlink/p/?linkid=92540) website.  
   
 -   Dynamics 365 Server Setup creates application pools called **[!INCLUDE[ui_CRMAppPool](../includes/ui-crmapppool.md)]** and **[!INCLUDE[ui_CRMDeploymentServiceAppPool](../includes/ui-crmdeploymentserviceapppool.md)]** that operate under user credentials that you specify during Setup. To facilitate a least-privileged model, we recommend that you specify separate domain user accounts for these application pools instead of using the Network Service account. Additionally, we recommend that no other [!INCLUDE[pn_ASP.NET_short](../includes/pn-asp-net-short.md)]-connected application be installed under these application pools. For information about the minimum permissions required for these components, see [Minimum permissions required for Microsoft Dynamics 365 Setup and services](security-considerations-for-microsoft-dynamics-365.md#BKMK_MinimumPermissions).  
   
 > [!IMPORTANT]
 >  -   Make sure all websites that are running on the same computer as the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] website also have access to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] database.  
-> -   If you use a domain user account, before you run [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)], you may need to verify that the service principal name (SPN) is set correctly for that account, and if necessary, set the correct SPN. For more information about SPNs and how to set them, see [How to use SPNs when you configure Web applications that are hosted on IIS](http://go.microsoft.com/fwlink/p/?linkid=99582).  
+> -   If you use a domain user account, before you run [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)], you may need to verify that the service principal name (SPN) is set correctly for that account, and if necessary, set the correct SPN. For more information about SPNs and how to set them, see [How to use SPNs when you configure Web applications that are hosted on IIS](https://go.microsoft.com/fwlink/p/?linkid=99582).  
   
 ## Service principal name management in Microsoft Dynamics 365  
  The service principal name (SPN) attribute is a multivalued, nonlinked attribute that is built from the DNS host name. The SPN is used during mutual authentication between the client and the server hosting a particular service. The client finds a computer account based on the SPN of the service that it’s trying to connect to.  
@@ -54,7 +54,7 @@ manager: kvivek
   
  If application and deployment web services are running on the same system, and kernel-mode authentication is disabled, you could configure both services to run under the same domain user account to prevent duplicate SPN issues. If you can’t enable kernel-mode authentication, install the Application and Deployment web services on separate systems. The SPNs may still need to be created manually since kernel-mode authentication is disabled.  
   
- <!-- For more information about SPNs and how to set them, see [Service Principal Name (SPN) checklist for Kerberos authentication with IIS 7.0/7.5](http://go.microsoft.com/fwlink/p/?linkid=213659)  -->
+ <!-- For more information about SPNs and how to set them, see [Service Principal Name (SPN) checklist for Kerberos authentication with IIS 7.0/7.5](https://go.microsoft.com/fwlink/p/?linkid=213659)  -->
   
 ## See Also  
  [Security considerations for Microsoft Dynamics 365](security-considerations-for-microsoft-dynamics-365.md)   </br>

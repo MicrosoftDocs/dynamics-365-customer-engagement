@@ -55,7 +55,7 @@ In Dynamics 365 Customer Engagement (on-premises), you use field-level security 
   
    Role-based security lets you see records of a specific entity type, record-based security lets you see individual records, and field-level security lets you see specific fields.  
   
-   [Video: Field Level Security in Microsoft Dynamics CRM 2015](http://youtu.be/Czc9sKvWd9k)  
+   [Video: Field Level Security in Microsoft Dynamics CRM 2015](https://youtu.be/Czc9sKvWd9k)  
   
 ## Frequently asked questions  
   
@@ -185,7 +185,7 @@ In Dynamics 365 Customer Engagement (on-premises), you use field-level security 
  If you are using [!INCLUDE[pn_crm_outlook_offline_access](../../includes/pn-crm-outlook-offline-access.md)], only the secured field values that you have access to replicate into the offline database. If you don’t have access to the data, it is not saved offline.  
   
 ### See also  
- [Video: Field Level Security in Microsoft Dynamics CRM 2015](http://youtu.be/Czc9sKvWd9k)   
+ [Video: Field Level Security in Microsoft Dynamics CRM 2015](https://youtu.be/Czc9sKvWd9k)   
  [The Security Model of Microsoft Dynamics 365 Customer Engagement](security-model.md)   
  [How role-based security can be used to control access to entities in Microsoft Dynamics 365 Customer Engagement](how-role-based-security-control-access-entities.md)   
  [Use record-based security to control access to records](use-record-based-security-control-access-records.md)
