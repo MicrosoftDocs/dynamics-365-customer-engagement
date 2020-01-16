@@ -1,7 +1,7 @@
 ---
 title: "Deploy and configure AD FS | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-12-09"
+ms.date: 12/09/2016
 ms.prod: "crm-2016"
 ms.reviewer: ""
 ms.suite: ""
