@@ -31,7 +31,7 @@ Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/t
   
 ## Requirements  
 
-[!INCLUDE[cc-how-to-run-PA-samples](./cc-how-to-run-PA-samples.md)]
+[!INCLUDE[cc-how-to-run-PA-samples](./includes/cc-how-to-run-PA-samples.md)]
 
 Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/Workflow/README.md) for additional information about the sample.
   
