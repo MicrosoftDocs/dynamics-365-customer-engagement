@@ -112,6 +112,10 @@ This action is used for searching knowledge articles based on the populated phra
    |-----------------|-----------------------------|--------------------------|
    | Search string |  Provide the phrase based on which you want to do a relevance search. You can provide the context data. For example, the context data parameter can be case title. <br> This is a mandatory field.  |  |
 
+#### Save the record
+
+This action is used for saving the record after entering all the mandatory fields. The action fails if the mandatory fields are entered or left blank.
+
 #### Update an existing record
 
 This action is used to update an existing record. This action contains the following fields.
