@@ -18,14 +18,14 @@ search.app:
   - D365USD
 ---
 # Use the generic listener adapter in Unified Service Desk
-[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides a generic listener adapter that can be used as a testing tool for integrating [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] with the [!INCLUDE[pn_computer_telephony_integration_cti](../includes/pn-computer-telephony-integration-cti.md)] middleware applications that have the ability to open a URL on the user's computer when a [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] event occurs. The generic listener adapter listens for HTTP request on a known port (5000): `http://localhost:5000/`  
+[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides a generic listener adapter that can be used as a testing tool for integrating [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] with the [!INCLUDE[pn_computer_telephony_integration_cti](../includes/pn-computer-telephony-integration-cti.md)] middleware applications that have the ability to open a URL on the user's computer when a [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] event occurs. The generic listener adapter listens for HTTP request on a known port (5000): `https://localhost:5000/`  
 
 <a name="How"></a>   
 ## How does the generic listener work  
  The generic listener adapter extracts a query string from the URL, uses the values in the string as parameters to evaluate them as a [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] event, and then raises a [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] screen pop in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. Once the adapter starts listening on the specified port, it waits for the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] middleware to open a URL such as:  
 
 ```  
-http://localhost:5000/?ani=1234&dnis=4355&type=phonecall&customerid=49383433  
+https://localhost:5000/?ani=1234&dnis=4355&type=phonecall&customerid=49383433  
 ```  
 
  In the example URL, the query string is split out and passed to the Global Manager hosted control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] as the following parameters.  
@@ -58,7 +58,7 @@ http://localhost:5000/?ani=1234&dnis=4355&type=phonecall&customerid=49383433
 
 <a name="ChangePort"></a>   
 ## Change the port of generic listener  
- By default, the generic listener adapter listens for HTTP request on port 5000: `http://localhost:5000/`.  
+ By default, the generic listener adapter listens for HTTP request on port 5000: `https://localhost:5000/`.  
 
  You can use the **Options** setting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to define a different port for the generic listener, if required. To do so:  
 
@@ -73,7 +73,7 @@ http://localhost:5000/?ani=1234&dnis=4355&type=phonecall&customerid=49383433
    |Field|Value|  
    |-----------|-----------|  
    |Name|GenericListener|  
-   |Value|Specify the new URL for the listener. For example: `http://localhost:5001/`|
+   |Value|Specify the new URL for the listener. For example: `https://localhost:5001/`|
 
 5. Select **Save & Close**.  
 

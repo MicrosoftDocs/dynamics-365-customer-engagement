@@ -30,7 +30,7 @@ Business apps are available to users based on their security roles. If your syst
   
     The page shows all published Customer Engagement (on-premises) based on your organization's licensing options, and your security role.  
   
-    You can also directly open the My Apps page by entering the following URL in your browser:  http://\<server name>/\<orgName>/apps.  
+    You can also directly open the My Apps page by entering the following URL in your browser:  https://\<server name>/\<orgName>/apps.  
   
     The My Apps page has two views: Published Apps and Apps Being Edited. All draft apps are available in the **Apps Being Edited** view. All published apps are available in the **Published Apps** view.  
   

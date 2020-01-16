@@ -32,4 +32,4 @@ Use Postman to perform ad hoc queries or to verify the behavior of operations wi
 >
 > The documentation that is applicable to Dynamics 365 Customer Engagement app (online) users is now available in the Power Apps documentation at: [Use Postman with Common Data Service Web API](/powerapps/developer/common-data-service/webapi/use-postman-web-api).
 
-Postman offers many other capabilities beyond those covered in this content. More information: [First 5 things to try if you’re new to Postman](http://blog.getpostman.com/2018/04/11/first-5-things-to-try-if-youre-new-to-postman/)
+Postman offers many other capabilities beyond those covered in this content. More information: [First 5 things to try if you’re new to Postman](https://blog.getpostman.com/2018/04/11/first-5-things-to-try-if-youre-new-to-postman/)

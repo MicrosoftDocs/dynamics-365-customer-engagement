@@ -34,7 +34,7 @@ To use the Events API, you need to provide a web application token in each reque
     
 4. Select **New** to create a new web application token.
 5. Enter details in the **Name** field.
-6. For the **Origin** field enter the  URL from where your application is served in the **Primary endpoint** value that you got while enabling the static website. For example: `http://localhost:4200` or `https://contoso.com`.
+6. For the **Origin** field enter the  URL from where your application is served in the **Primary endpoint** value that you got while enabling the static website. For example: `https://localhost:4200` or `https://contoso.com`.
 
    ![Web application token details](../media/enter-web-application-token-details.png "Web application token details")
    

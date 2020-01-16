@@ -26,7 +26,7 @@ search.app:
   
 ```vb  
 # RELAX NG XML grammar for FindWindow   
-# http://relaxng.org/compact-tutorial-20030326.html   
+# https://relaxng.org/compact-tutorial-20030326.html   
 #   
 Grammar  
 {   

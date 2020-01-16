@@ -53,7 +53,7 @@ The deployment architecture you will use depends on your business needs. Example
 >  Running [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] in a production environment on an [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain controller is not supported.  
   
 > [!TIP]
->  To reduce IT administration overhead, consider running [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in the cloud. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Microsoft Dynamics](http://go.microsoft.com/fwlink/p/?LinkId=513167)  
+>  To reduce IT administration overhead, consider running [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in the cloud. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Microsoft Dynamics](https://go.microsoft.com/fwlink/p/?LinkId=513167)  
   
 
 ## See Also  

@@ -14,7 +14,7 @@ may not use this supplement if you do not have a license for the software or the
 online service. The license terms for the software or the online service apply
 to your use of this supplement. Notwithstanding anything to the contrary in the
 applicable license terms or in the Microsoft Privacy Statement (which can be
-found at <http://go.microsoft.com/fwlink/?LinkId=512132>), the following
+found at <https://go.microsoft.com/fwlink/?LinkId=512132>), the following
 additional terms will govern your use of the supplement.
 
 This supplement is not provisioned in a dedicated data center for exclusive use

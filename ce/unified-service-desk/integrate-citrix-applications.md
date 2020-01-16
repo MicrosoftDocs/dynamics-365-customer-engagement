@@ -30,7 +30,7 @@ Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with
 ## Configure server-side component for Citrix integration  
  The server-side component is implemented as an executable (Microsoft.Uii.Csr.CitrixIntegration.exe) that is configured as a startup program to automatically start when a [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application starts. The executable quickly self-terminates if the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application has not been invoked from a [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. The server-side component needs to be configured on each [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] server.  
   
-1. [Download](http://go.microsoft.com/fwlink/p/?LinkId=519179) the [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] SDK package.  
+1. [Download](https://go.microsoft.com/fwlink/p/?LinkId=519179) the [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] SDK package.  
   
 2. Double-click the package file to extract the contents.  
   

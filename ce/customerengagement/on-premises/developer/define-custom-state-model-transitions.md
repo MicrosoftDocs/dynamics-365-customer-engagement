@@ -54,12 +54,12 @@ You can specify custom state transitions for the `Incident` (**Case**) entity or
   
 <a name="BKMK_DetectValidStatusTransitions"></a>   
 ## Detect valid status transitions  
- You can modify the `statuscode` attribute to define which other status options represent valid transitions from the current status. For instructions, see the Customization Guide topic: [Define status reason transitions](http://go.microsoft.com/fwlink/p/?LinkId=393657)  
+ You can modify the `statuscode` attribute to define which other status options represent valid transitions from the current status. For instructions, see the Customization Guide topic: [Define status reason transitions](https://go.microsoft.com/fwlink/p/?LinkId=393657)  
   
  When custom state transitions are applied to an entity, the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.EnforceStateTransitions> property will be `true`. Also, each <xref:Microsoft.Xrm.Sdk.Metadata.StatusOptionMetadata> within the <xref:Microsoft.Xrm.Sdk.Metadata.StatusAttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.OptionSetMetadata.Options> collection will have a new <xref:Microsoft.Xrm.Sdk.Metadata.StatusOptionMetadata.TransitionData> property. This property will contain a String value that represents an XML document. This document contains the definition of the allowed transitions. For example, the default `Incident` (**Case**) `StatusCode` attribute option may have the following `TransitionData` value.  
   
 ```xml  
-<allowedtransitions xmlns="http://schemas.microsoft.com/crm/2009/WebServices">  
+<allowedtransitions xmlns="https://schemas.microsoft.com/crm/2009/WebServices">  
 <allowedtransition sourcestatusid="1" tostatusid="6" />  
 <allowedtransition sourcestatusid="1" tostatusid="1000" />   
 <allowedtransition sourcestatusid="1" tostatusid="2000" />  
@@ -71,7 +71,7 @@ You can specify custom state transitions for the `Incident` (**Case**) entity or
 >  When this data is retrieved in unmanaged code from the web service, for example when using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)], it will be escaped and appear like the following example.  
   
 ```  
-&lt;allowedtransitions xmlns="http://schemas.microsoft.com/crm/2009/WebServices"&gt;  
+&lt;allowedtransitions xmlns="https://schemas.microsoft.com/crm/2009/WebServices"&gt;  
 &lt;allowedtransition sourcestatusid="1" tostatusid="6" /&gt;  
 &lt;allowedtransition sourcestatusid="1" tostatusid="1000" /&gt;  
 &lt;allowedtransition sourcestatusid="1" tostatusid="2000" /&gt;  
@@ -85,4 +85,4 @@ You can specify custom state transitions for the `Incident` (**Case**) entity or
  [Sample: Retrieve Valid Status Transitions](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveValidTransitions)   
  [Record state and status](introduction-entities.md#bkmk_RecordStateandStatus)   
  [Retrieve and Detect Changes to Metadata](retrieve-detect-changes-metadata.md)   
- <!--[Define status reason transitions](http://go.microsoft.com/fwlink/p/?LinkId=393657)-->
+ <!--[Define status reason transitions](https://go.microsoft.com/fwlink/p/?LinkId=393657)-->

@@ -102,7 +102,7 @@ Use following mapping while entering the values:
 * clientID: Application id 
 * signUpSignInPolicy: Policy (e.g. `B2C_1_default-sign-up`)
 * b2cScopes: ['Scope'] (e.g. https://contosoeventmanagementtest.onmicrosoft.com/events/registration)
-* redirectUri: Application > Reply URL > Pick your application uri (e.g. for localhost `http://localhost:4200`)
+* redirectUri: Application > Reply URL > Pick your application uri (e.g. for localhost `https://localhost:4200`)
 
 An example of the full aadB2cConfig object would be:
 
@@ -113,6 +113,6 @@ aadB2CConfig: {
     clientID: '7e67b9fe-d976-4db0-be90-05d797332658',
     signUpSignInPolicy: 'B2C_1_default-sign-up',
     b2cScopes: ['https://contoso.onmicrosoft.com/events/registration'],
-    redirectUri: 'http://localhost:4200'
+    redirectUri: 'https://localhost:4200'
 }
 ```

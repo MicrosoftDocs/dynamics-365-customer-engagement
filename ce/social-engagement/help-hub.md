@@ -72,9 +72,9 @@ search.app:
 <h2> Additional resources </h2>
 
 <li><a href="https://go.microsoft.com/fwlink/p/?linkid=861639">Video training course on MVA (English only)</a></li>
-<li><a href="http://go.microsoft.com/fwlink/p/?LinkId=400720">YouTube playlist</a></li>
-<li><a href="http://go.microsoft.com/fwlink/p/?LinkId=400719">Community forum</a></li>
-<li><a href="http://go.microsoft.com/fwlink/p/?LinkId=394391">Contact support</a></li>
+<li><a href="https://go.microsoft.com/fwlink/p/?LinkId=400720">YouTube playlist</a></li>
+<li><a href="https://go.microsoft.com/fwlink/p/?LinkId=400719">Community forum</a></li>
+<li><a href="https://go.microsoft.com/fwlink/p/?LinkId=394391">Contact support</a></li>
 
 </td>
 <td>
@@ -82,8 +82,8 @@ search.app:
 <h2> Product updates </h2>
 
 <li><a href="what-s-new-in-microsoft-social-engagement.md" data-raw-source="[What&#39;s new in Microsoft Social Engagement](what-s-new-in-microsoft-social-engagement.md)">What&#39;s new in Microsoft Social Engagement</a></li>
-<li><a href="http://go.Microsoft.com/fwlink/p/?LinkId=393612" data-raw-source="[Microsoft Social Engagement Readme](https://go.Microsoft.com/fwlink/p/?LinkId=393612)">Microsoft Social Engagement Readme</a></li>
-<li><a href="http://go.Microsoft.com/fwlink/p/?LinkID=391086" data-raw-source="[International availability for Dynamics 365](https://go.Microsoft.com/fwlink/p/?LinkID=391086)">International availability for Dynamics 365</a></li>
+<li><a href="https://go.Microsoft.com/fwlink/p/?LinkId=393612" data-raw-source="[Microsoft Social Engagement Readme](https://go.Microsoft.com/fwlink/p/?LinkId=393612)">Microsoft Social Engagement Readme</a></li>
+<li><a href="https://go.Microsoft.com/fwlink/p/?LinkID=391086" data-raw-source="[International availability for Dynamics 365](https://go.Microsoft.com/fwlink/p/?LinkID=391086)">International availability for Dynamics 365</a></li>
 </td>
 </tr>
 </table>

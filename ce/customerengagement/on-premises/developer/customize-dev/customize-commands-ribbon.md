@@ -36,7 +36,7 @@ search.app:
 > [!NOTE]
 >  Because the underlying XML schema was designed to display commands as ribbons, the term *ribbon* will continue to be used in the documentation.  
   
- The SDK describes the process of editing the ribbon by editing the customization.xml file directly. The most frequently used tool created by the community is the [Ribbon Workbench](http://www.develop1.net/public/rwb/ribbonworkbench.aspx) 
+ The SDK describes the process of editing the ribbon by editing the customization.xml file directly. The most frequently used tool created by the community is the [Ribbon Workbench](https://www.develop1.net/public/rwb/ribbonworkbench.aspx) 
  
 To obtain support or help to use this program, contact the program publisher.  
   

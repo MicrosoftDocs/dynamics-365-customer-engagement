@@ -21,11 +21,11 @@ search.app:
 ---
 # Web API Helper code: CrmHttpResponseException class
 
-Use the `CrmHttpResponseException` class to represent [HTTP status errors](https://msdn.microsoft.com/library/gg334391.aspx) generated during [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web API calls.  This class is derived from the standard .NET System.[Exception](https://msdn.microsoft.com/library/system.exception.aspx) class to easily integrate with your existing exception-handling mechanisms. For more general information, see [Handling and Throwing Exceptions](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/index).  
+Use the `CrmHttpResponseException` class to represent [HTTP status errors](https://msdn.microsoft.com/library/gg334391.aspx) generated during [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web API calls.  This class is derived from the standard .NET System.[Exception](https://msdn.microsoft.com/library/system.exception.aspx) class to easily integrate with your existing exception-handling mechanisms. For more general information, see [Handling and Throwing Exceptions](https://docs.microsoft.com/dotnet/standard/exceptions/index).  
 
  The `CrmHttpResponseException` class is located in the file Exceptions.cs in the [CRM SDK Web API Helper Library](https://www.nuget.org/packages/Microsoft.CrmSdk.WebApi.Samples.HelperCode/).  It is used extensively in the other helper library classes and C# Web API samples. For more information, see [Use the Dynamics 365 Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).  
 
- This class utilizes JSON string-handling functionality from the open source [Json.NET](http://www.newtonsoft.com/json) library.  
+ This class utilizes JSON string-handling functionality from the open source [Json.NET](https://www.newtonsoft.com/json) library.  
 
 ## Class members  
 

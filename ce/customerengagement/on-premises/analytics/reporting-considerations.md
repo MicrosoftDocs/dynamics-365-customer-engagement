@@ -23,7 +23,7 @@ search.app:
 ---
 # Dynamics 365 Customer Engagement (on-premises) reporting considerations
 
-Microsoft Dynamics 365 Customer Engagement (on-premises) have a number of capabilities that allow customers to surface business data that helps them drive decisions and interact with their customers more effectively.  Capabilities that are available include views, charts, dashboards, and [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] reports. Also included is [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] integration that allows users to easily build self-service reports using the Power BI features [PowerView](http://www.microsoft.com/powerBI/home/visualize.aspx), PowerPivot, and [PowerQuery](http://blogs.msdn.com/b/powerbi/archive/2013/12/19/dynamics-crm-online-in-power-query.aspx). As the volume of data held in the database continues to grow it becomes more important than ever to think about your BI strategy and determine the most effective mechanisms for reporting and visualizing large datasets.  
+Microsoft Dynamics 365 Customer Engagement (on-premises) have a number of capabilities that allow customers to surface business data that helps them drive decisions and interact with their customers more effectively.  Capabilities that are available include views, charts, dashboards, and [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] reports. Also included is [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] integration that allows users to easily build self-service reports using the Power BI features [PowerView](https://www.microsoft.com/powerBI/home/visualize.aspx), PowerPivot, and [PowerQuery](https://blogs.msdn.com/b/powerbi/archive/2013/12/19/dynamics-crm-online-in-power-query.aspx). As the volume of data held in the database continues to grow it becomes more important than ever to think about your BI strategy and determine the most effective mechanisms for reporting and visualizing large datasets.  
   
  In a Dynamics 365 Customer Engagement environment, the reporting infrastructure is shared and separate from the database. In this architecture, although customers share the resources required to run the report, each report runs against the customers’ individual database instances.  Additionally, with Power Apps model-driven apps, users can run as many reports as they need whenever they want to run them to meet business goals. We do not place time restrictions on reports.  
   
@@ -59,31 +59,31 @@ Microsoft Dynamics 365 Customer Engagement (on-premises) have a number of capabi
 > [!IMPORTANT]
 >  When you use these tools, we recommend you move or synchronize data during nonbusiness hours.  
   
- If needed, there are many Microsoft partners who can help provide a solution for your specific reporting needs, such as creating an offline copy of the data specifically used for running large reports.  These partners are knowledgeable with the data integration tools available. More information: [Find the right partner](http://dynamics-crm.pinpoint.microsoft.com/companies/search?q=)  
+ If needed, there are many Microsoft partners who can help provide a solution for your specific reporting needs, such as creating an offline copy of the data specifically used for running large reports.  These partners are knowledgeable with the data integration tools available. More information: [Find the right partner](https://dynamics-crm.pinpoint.microsoft.com/companies/search?q=)  
   
 <a name="BKMK_ThirdPartyAdapt"></a>   
 ## Third-party adapters for SSIS  
   
--   [CozyRoc SSIS+ component for Microsoft Dynamics CRM](http://www.cozyroc.com/ssis/dynamics-crm-destination)  
+-   [CozyRoc SSIS+ component for Microsoft Dynamics CRM](https://www.cozyroc.com/ssis/dynamics-crm-destination)  
   
--   [KingswaySoft SSIS Integration Toolkit for Microsoft Dynamics CRM](http://www.kingswaysoft.com/products/ssis-integration-toolkit-for-microsoft-dynamics-crm/)  
+-   [KingswaySoft SSIS Integration Toolkit for Microsoft Dynamics CRM](https://www.kingswaysoft.com/products/ssis-integration-toolkit-for-microsoft-dynamics-crm/)  
   
--   [RSSBus SSIS task for Microsoft Dynamics CRM](http://www.rssbus.com/ssis/mscrm/)  
+-   [RSSBus SSIS task for Microsoft Dynamics CRM](https://www.rssbus.com/ssis/mscrm/)  
   
--   [Team4 SSIS Connector for Microsoft CRM](http://www.team4.com/ssismicrosoftcrm/index.html)  
+-   [Team4 SSIS Connector for Microsoft CRM](https://www.team4.com/ssismicrosoftcrm/index.html)  
   
--   [PragmaticWorks TaskFactory SSIS Source/Destination for Dynamics CRM](http://pragmaticworks.com/Products/Task-Factory/Features/DynamicsCRMSource.aspx)  
+-   [PragmaticWorks TaskFactory SSIS Source/Destination for Dynamics CRM](https://pragmaticworks.com/Products/Task-Factory/Features/DynamicsCRMSource.aspx)  
   
 <a name="BKMK_ETL"></a>   
 ## ETL tools  
   
--   [Scribe Insight and Scribe Online with adapter for Microsoft Dynamics CRM](http://www.scribesoft.com/microsoft-dynamics-crm.asp)  
+-   [Scribe Insight and Scribe Online with adapter for Microsoft Dynamics CRM](https://www.scribesoft.com/microsoft-dynamics-crm.asp)  
   
 -   [Productivity tools from Informatica](https://community.informatica.com/community/search.jspa?peopleEnabled=true&userID=&containerType=14&container=2002&spotlight=true&resultTypes=solution&q=dynamics+CRM)  
   
 ### See also  
- [Report Authoring Extension (with SQL Server Data Tools support)](http://www.microsoft.com/download/details.aspx?id=45013) <br />
- [Introduction to Microsoft Power Query for Excel](http://office.microsoft.com/en-ca/excel-help/introduction-to-microsoft-power-query-for-excel-HA104003940.aspx?CTT=5&origin=HA104003813)   <br />
+ [Report Authoring Extension (with SQL Server Data Tools support)](https://www.microsoft.com/download/details.aspx?id=45013) <br />
+ [Introduction to Microsoft Power Query for Excel](https://office.microsoft.com/en-ca/excel-help/introduction-to-microsoft-power-query-for-excel-HA104003940.aspx?CTT=5&origin=HA104003813)   <br />
  [Dynamics 365 for Customer Engagement OData Feeds and Power Query: What’s the &#91;Record&#93;?](https://community.dynamics.com/crm/b/survivingcrm/archive/2014/02/16/dynamics-crm-odata-feeds-and-power-query-what-s-the-record.aspx)   <br />
- [Using Power View in Excel 2013 to Analyze CRM Data](http://blogs.msdn.com/b/crm/archive/2013/04/17/using-power-view-in-excel-2013-to-analyze-crm-data.aspx)   <br />
+ [Using Power View in Excel 2013 to Analyze CRM Data](https://blogs.msdn.com/b/crm/archive/2013/04/17/using-power-view-in-excel-2013-to-analyze-crm-data.aspx)   <br />
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)
