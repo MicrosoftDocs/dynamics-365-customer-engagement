@@ -3,14 +3,12 @@ title: Marketing learning catalog
 description: Find all the training options for marketing.
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 07/08/2019
-ms.author: loreleishannonmsft
+ms.date: 01/08/2020
+ms.author: v-lshann
 ---
 
 # Marketing Learning Catalog
 <p> Find the right online training, in person workshops, and events for your role in Customer Service for Dynamics 365.</p>
-
-
 
 <!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
 
