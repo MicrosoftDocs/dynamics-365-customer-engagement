@@ -81,14 +81,6 @@ You receive a notification for a Facebook conversation request. When you accept 
 > [!div class=mx-imgBorder]
 > ![Facebook chat agent notification](../../media/fb-agent-notif.png "Facebook chat agent notification")
 
-## Theme of the notification
-
-There are two themes for the notification - Dark and Light. You'll see the theme as configured by your administrator.
-
-**Dark** and **Light** theme 
-
-![Dark theme](../../media/oceh/chat-notification-request.png "Dark theme") ![Light theme](../../media/oceh/chat-notification-request-light.png "Light theme")
-
 ## See also
 
 - [View communication panel](oc-conversation-control.md)
