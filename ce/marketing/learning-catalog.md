@@ -22,8 +22,6 @@ ms.author: v-lshann
 
     [Functional Consultants Learning Catalog](learning-functional-consultant.md)
 
-    [Get started](learning-functional-consultant.md#get-started)
-
     [Marketing](learning-functional-consultant.md#marketing)
 
     [Exams](learning-functional-consultant.md#exam)
@@ -78,7 +76,7 @@ ms.author: v-lshann
 
     Do you decide whether to invest in new technologies?
 
-    [Business and Technical Decision Makers Learning Catalog](learning-bus-decision_makers.md)
+    [Business and Technical Decision Makers Learning Catalog](learning-bmd.md)
 
 :::column-end:::
     :::column:::
