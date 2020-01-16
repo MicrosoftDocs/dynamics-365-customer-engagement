@@ -221,9 +221,9 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
 
 6. Select a connector from the list. Following connectors are available:
 
-   - Productivity Automation
-   - Session Connector
-   - Omnichannel Connector
+   - [Productivity Automation](#productivity-automation)
+   - [Session Connector](#session-connector)
+   - [Omnichannel Connector](#omnichannel-connector)
 
 7. Select an action from a list of built in actions. You can add as many as actions as per your business requirements.
 
