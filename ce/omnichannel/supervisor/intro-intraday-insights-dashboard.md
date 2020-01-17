@@ -46,7 +46,12 @@ Verify the following prerequisites before you use the supervisor dashboards:
 
 -  Omnichannel supervisor role is assigned. To learn more, see [Enable users for Omnichannel Customer Service](../administrator/add-users-assign-roles.md).
 
--  **Power BI Pro** or **Power BI Premium** license is assigned to you.  
+-  **Power BI Pro** or **Power BI Premium** license is assigned to you.
+
+## Videos
+[Overview of supervisor experience in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2099487)
+
+To view more videos on Omnichannel for Customer Service, see [Videos](../videos.md).
 
 ### See also
 
