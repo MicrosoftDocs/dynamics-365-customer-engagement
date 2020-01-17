@@ -66,7 +66,7 @@ When a customer initiates a conversation, the following happens:
 
 ## Videos
 
-[Overview of skill-based routing in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114717)
+[Skill-based routing in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114717)
 
 To view more videos on Omnichannel for Customer Service, see [Videos](../videos.md).
 

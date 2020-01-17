@@ -62,7 +62,7 @@ Multi-language sentiment displays sentiment scores on some non-English conversat
 
 To learn more, see [multi-language sentiment](../../administrator/enable-sentiment-analysis.md).
 ## Videos
-[Overview of real-time sentiment analysis in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114615)
+[Real-time sentiment analysis in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114615)
 
 To view more videos on Omnichannel for Customer Service, see [Videos](../videos.md).
 ## See also

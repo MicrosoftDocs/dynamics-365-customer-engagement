@@ -99,7 +99,7 @@ You understand that your data may be transmitted and shared with external system
 
 ## Videos
 
-[Overview of integration of Power Virtual Agents bot with Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114716)
+[Power Virtual Agents integration with Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114716)
 
 To view more videos on Omnichannel for Customer Service, see [Videos](../videos.md).
 
