@@ -4,7 +4,7 @@ description: "Learn about macros and how to configure in the Omnichannel Adminis
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 01/24/2020
+ms.date: 01/31/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -282,6 +282,35 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
 9. Select **Save and close** to save and close the macro changes.
 
 Now, when the agent executes the macro, the actions will be executed by fetching the data parameter keys according the context available from the sources. To learn more, see [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md).
+## View macro run history
+
+As an administrator, you can view the macro run history, which shows how many times a macro has been run, along with the success or fail status. When you select a macro that failed, you can view the exact action step at which the failure occurred.
+
+1. Sign in to Omnichannel Administration.
+
+2. Select **Macros** under **Agent Experiences**.
+
+3. Select a macro for which you want to view the history.
+
+4. Select **View run history**.
+
+   > [!div class=mx-imgBorder] 
+   > ![Macro actions](../media/macro-run-history.png "Macro actions")
+
+5. Select a macro from the list that failed.
+
+   > [!div class=mx-imgBorder] 
+   > ![Macro actions](../media/macro-run-history-list.png "Macro actions")
+
+6. See the macro action step caused the failure. Review the previous for any issue in the slug data parameters that was passed incorrectly or slug data parameters was updated incorrectly.
+
+   > [!div class=mx-imgBorder] 
+   > ![Macro actions](../media/macro-run-history-fail.png "Macro actions")
+
+7. Fix the macro step action which you think might have caused the failure and the try running again.
+
+> [!Note]
+> If the issue persists, contact Microsoft support.
 
 ## See also
 

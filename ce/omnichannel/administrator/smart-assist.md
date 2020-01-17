@@ -4,7 +4,7 @@ description: "Learn about how to smartly assist agents with the next-best steps 
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 01/24/2020
+ms.date: 01/31/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
