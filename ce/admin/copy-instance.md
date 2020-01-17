@@ -22,6 +22,10 @@ search.app:
 ---
 # Copy an instance to a Sandbox instance
 
+Copying an instance (environment) is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Create and manage environments in the Power Platform Admin center](https://docs.microsoft.com/power-platform/admin/create-environment).
+
+<!--
+
 [!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
 
 You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] to copy the model-driven apps in Dynamics 365, such as Dynamics 365 Sales and Customer Service, and all data from any instance to a Sandbox instance. You can do either a full or minimal copy.  
@@ -162,3 +166,4 @@ Once the copy process is complete, the target instance is placed in [Administrat
     - **Client-side JavaScript**. Take a look at your JavaScript and HTML web resources for read/write operations that could impact external services.  
     - **IFRAMES**. Determine if the target of an IFRAME is a Production instance.  
   
+-->
