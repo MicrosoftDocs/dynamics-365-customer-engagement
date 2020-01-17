@@ -1,7 +1,7 @@
 ---
 title: "Integrate a bot | MicrosoftDocs"
 description: "Instructions to integrate a bot in Omnichannel for Customer Service."
-author: sbmjais
+author: platkat
 ms.author: ktaylor
 manager: shujoshi
 ms.date: 11/04/2019
