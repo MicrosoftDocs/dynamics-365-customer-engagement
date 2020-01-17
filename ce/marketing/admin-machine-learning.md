@@ -33,7 +33,6 @@ Dynamics 365 Marketing provides several artificial intelligence (AI), which incl
 
 - **[Spam score](spam-score.md)**, which analyzes the content of each marketing email message and generates a score that predicts how likely it is to be flagged by content-based spam filters.
 - **[Smart scheduler](smart-scheduler.md)**, which "learns" the days and times when each contact is most likely to be actively reading his or her email by analyzing the email results in your system. The more results you have in your system, and the more you use this feature, the "smarter" the system becomes. 
-- **[Segment booster](segment-boost.md)**, which finds prospects who resemble and behave like the best contacts from a current segment and automatically adds those contacts to a running customer journey. 
 
 When you first install Dynamics 365 Marketing, all artificial intelligence (AI) features are disabled by default and include privacy settings that can help make sure that you remain compliant with local privacy regulations (including GDPR) and other laws when you use them.
 
@@ -46,7 +45,7 @@ To enable AI features and make privacy settings for them:
 1. For each AI feature you'd like to use, set the **Enabled** slider to **On**.
 
 1. For those AI features that include a **Consent level** setting, choose the level of consent that each contact must provide before being processed by that feature.
-    - The **Optimal email sending time** and **Segment booster** features apply automated processing to data collected for each individual contact. Therefore, you probably need a required level of **(5) Profiling** to use these features in countries/regions where GDPR is in effect, and possibly in other countries/regions too.
+    - The **Optimal email sending time** feature applies automated processing to data collected for each individual contact. Therefore, you probably need a required level of **(5) Profiling** to use this feature wherever GDPR is in effect.
     - The **Spam score** feature doesn't process any personal data, so no consent level is required for this feature.
 
 1. Select the **Save** button near the top of the page to save your settings.
