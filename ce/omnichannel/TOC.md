@@ -163,6 +163,8 @@
 #### [Customize quick view forms](customizer/customize-quick-view-form.md)
 
 ### [Customize the session forms](customizer/customize-session-form.md)
+### [Customize section properties form](customizer/how-modify-section-properties-form-section.md)
+### [Customize customer summary form](customizer/how-modify-position-alignment-form-section-customer360.md)
 ### [Configure link to conversation button in model-driven app entity form](customizer/configure-link-to-conversation-model-driven-app-form.md)
 ### [Configure relevance search for transcripts](customizer/relevance-search-chat-transcript.md)
 ### Unified Service Desk settings
