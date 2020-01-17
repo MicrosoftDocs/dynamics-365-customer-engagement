@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/segment-boost.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/social-engagement/accessibility.md",
       "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
       "redirect_document_id": "false"
