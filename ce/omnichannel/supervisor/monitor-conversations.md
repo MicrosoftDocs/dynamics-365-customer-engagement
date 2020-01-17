@@ -1,10 +1,10 @@
 ---
 title: "Monitor conversations as a supervisor | MicrosoftDocs"
 description: "Learn how to monitor conversations as a supervisor"
-author: udaykirang
-ms.author: udag
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 10/31/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article

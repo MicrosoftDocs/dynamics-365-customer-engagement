@@ -1,10 +1,10 @@
 ---
 title: "Intraday insights dashboard for supervisor | MicrosoftDocs"
 description: "Learn about intraday insights dashboard for supervisor"
-author: udaykirang
-ms.author: udag
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 12/27/2019
+ms.date: 06/22/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article

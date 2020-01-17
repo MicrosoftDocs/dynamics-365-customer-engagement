@@ -1,10 +1,10 @@
 ---
 title: "Provision Omnichannel for Customer Service | MicrosoftDocs"
 description: "See how you can provision Omnichannel for Customer Service"
-author: lalexms
-ms.author: lalexms
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 12/19/2019
+ms.date: 10/30/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
