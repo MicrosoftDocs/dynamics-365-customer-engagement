@@ -80,9 +80,9 @@ The **Self service** tab displays information on the activites that the customer
 | Custom action performed | Any other custom action that is tracked by your organization as per your business requirements are displayed with the timestamp. |
 
    > [!div class='mx-imgBorder']
-   > ![Self service tab](../../media/customer-summary-portal-navigation-tab.png "Self service tab")
+   > ![Self service tab](../../media/customer-summary-self-service-tab.png "Self service tab")
 
-To configure the appearance of the **Self service** tab, see [Enable self-service settings of customer actions in conversation summary](../../administrator/portal-navigation.md).
+To configure the appearance of the **Self service** tab, see [Enable self-service settings of customer actions in conversation summary](../../administrator/enable-self-service-settings.md).
 
 ### Visitor details
 
