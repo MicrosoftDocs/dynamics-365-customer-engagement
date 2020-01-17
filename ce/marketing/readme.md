@@ -65,6 +65,8 @@ This document provides important, late-breaking information about known issues a
 
 - Static segments are limited to a maximum of 1,000 members.
 
+- Everytime you refresh a static segment without saving it will default to dynamic one. <!--- 1666195 -->
+
 ### Fixed issues
 
 - The Save button works correctly when creating a new segment.<br><del>The **Save** button isn't visible on the command bar after the initial save of the segment. Use the **Save** button in the lower-right corner of the page instead.</del> <!-- 862491 -->
