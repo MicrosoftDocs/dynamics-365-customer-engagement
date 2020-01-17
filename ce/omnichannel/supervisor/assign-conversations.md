@@ -1,8 +1,8 @@
 ---
 title: "Supervisors can assign conversations | MicrosoftDocs"
 description: "How to assign conversations to queues and agents"
-author: udaykirang
-ms.author: udag
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 06/22/2019
 ms.service: 

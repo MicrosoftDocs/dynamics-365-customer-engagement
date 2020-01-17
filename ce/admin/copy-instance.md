@@ -2,7 +2,7 @@
 title: "Copy an instance  | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 05/28/2019
+ms.date: 01/17/2020
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -32,13 +32,10 @@ You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/
 ## Full copy instance
  A full copy includes all application data, users, and customizations from the source instance and is suitable for:
 
--   User acceptance testing
-
--   Upgrade testing
-
--   Preview in production (TAP/EA)
-
--   Training
+- User acceptance testing
+- Upgrade testing
+- Preview in production (TAP/EA)
+- Training
 
 **An example scenario**
 
@@ -49,11 +46,9 @@ After the full copy is complete, Isaac receives a mail from Thomas telling him t
 ## Minimal copy instance
  A Minimal copy only includes users, customizations, and schema from the source instance and is suitable for:
 
--   Iterative team development
-
--   Partner/ISV solutions
-
--   Proof of concept
+- Iterative team development
+- Partner/ISV solutions
+- Proof of concept
 
 **An example scenario**
 
@@ -79,6 +74,8 @@ After modifying and enabling some of the plug-ins, the developer Sandbox instanc
 |Mailbox|
 |Organization|
 |Position|
+|Queues|
+|QueueMembership|
 |Report|
 |Resource|
 |ResourceGroup|
@@ -142,11 +139,9 @@ Once the copy process is complete, the target instance is placed in [Administrat
   
 - **Email**. A mailbox cannot be synced with two different instances. For a full copy instance, the user mailboxes in the copy instance must be disabled so the mailboxes do not attempt to send or receive email, or track appointments, contacts, or tasks. Set synchronization for the following to None.  
   
-    -   Incoming Email  
-  
-    -   Outgoing Email  
-  
-    -   Appointments, Contacts, Tasks  
+    - Incoming Email  
+    - Outgoing Email  
+    - Appointments, Contacts, Tasks  
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set the delivery method for incoming and outgoing email](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
   
@@ -159,12 +154,10 @@ Once the copy process is complete, the target instance is placed in [Administrat
 - **Platform extensibility**. Consider disabling the following that could be running in the copy instance and impacting external service components.  
   
     - **Server-side plug-ins**.  
-  
     - **Workflow custom activity**.  
   
 - **Client extensibility**. Review the following.  
   
     - **Client-side JavaScript**. Take a look at your JavaScript and HTML web resources for read/write operations that could impact external services.  
-  
     - **IFRAMES**. Determine if the target of an IFRAME is a Production instance.  
   

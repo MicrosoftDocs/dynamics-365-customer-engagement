@@ -1,8 +1,8 @@
 ---
 title: "Create chat authentication settings | MicrosoftDocs"
 description: "Instructions to create chat authentication settings in Omnichannel for Customer Service."
-author: sbmjais
-ms.author: shjais
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 12/13/2019
 ms.service: 
