@@ -34,7 +34,6 @@ ms.author: v-lshann
     Are you in charge of making sure your company’s implementation goes smoothly?
 
     [Project Managers Learning Catalog](learning-project-manager.md)
-    [Get started](learning-project-manager.md#get-started)
     [Marketing](learning-project-manager.md#marketing)
 
     [Exams](learning-project-manager.md#exam)
