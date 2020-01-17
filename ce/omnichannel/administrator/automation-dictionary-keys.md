@@ -38,7 +38,7 @@ The system replaces these parameter keys with the actual values based on the con
 
 To learn more, see [Types of context data parameters](#types-of-context-data-parameters).
 
-### Pass data parameter in macros
+### Pass data parameter in macros and agent scripts
 
 Macros are a set of configured sequential actions that are executed on-demand by user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to pass the data parameters. To learn more, see [Automation dictionary formats to pass data parameter keys](#automation-dictionary-formats-to-pass-data-parameter-keys).
 
@@ -108,6 +108,8 @@ The automation dictionary supports the following formats:
 #### Slugs for productivity tools (macros and agent scripts)
 
 Slug is a replacement parameter that system populates at the runtime based on the context. Use the following list of slugs only for Macros, Agent Scripts, and to set an agent script as default using the expression builder.
+
+To learn more, see [Productivity tools](productivity-tools.md).
 
 The list of supported slugs are:
 
