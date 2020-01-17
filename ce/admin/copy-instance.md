@@ -79,12 +79,15 @@ After modifying and enabling some of the plug-ins, the developer Sandbox instanc
 |Mailbox|
 |Organization|
 |Position|
+|Queues|
+|QueueMembership|
 |Report|
 |Resource|
 |ResourceGroup|
 |Role|
 |RollupField|
 |SavedQuery|
+|Sites|
 |SLAKPIInstance|
 |Solution|
 |Subject|
