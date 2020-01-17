@@ -1,10 +1,10 @@
 ---
-title: "Embed chat widget in Dynamics 365 Portals | MicrosoftDocs"
-description: "Instructions to embed chat widget in Dynamics 365 Portals."
-author: lalexms
-ms.author: laalexan
+title: "Embed chat widget in Power Apps portals | MicrosoftDocs"
+description: "Instructions to embed chat widget in Power Apps portals."
+author: sbmjais
+ms.author: shjais
 manager: shujoshi
-ms.date: 08/29/2019
+ms.date: 12/13/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article

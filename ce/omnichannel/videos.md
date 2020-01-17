@@ -4,10 +4,14 @@ description: "Find video-based information about Omnichannel for Dynamics 365 Cu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
+applies_to: 
+  - ""
+ms.date: 01/17/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
+ms.custom: 
+  - ""
 ---
 
 # Videos

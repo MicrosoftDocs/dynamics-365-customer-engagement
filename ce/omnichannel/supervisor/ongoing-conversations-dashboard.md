@@ -1,8 +1,8 @@
 ---
 title: "Ongoing Conversations dashboard for supervisor | MicrosoftDocs"
 description: "Learn about Ongoing Conversations dashboard for supervisor"
-author: neeranelli
-ms.author: nenellim
+author: udaykirang
+ms.author: udag
 manager: shujoshi
 ms.date: 06/22/2019
 ms.service: 
