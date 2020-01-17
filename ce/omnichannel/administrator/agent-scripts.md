@@ -218,7 +218,7 @@ You can build the expression in the **Agent scripts** tab that is present in the
 
 Now, you've built the expression.
 
-## Use automation dictionary to pass macro context data parameters
+## Use automation dictionary to pass context data parameters
 
 As an administrator, you need to configure the condition using the automation dictionary based on the evaluation of the condition, a script is set as default, and the same is displayed to the agent at the run time. 
 
