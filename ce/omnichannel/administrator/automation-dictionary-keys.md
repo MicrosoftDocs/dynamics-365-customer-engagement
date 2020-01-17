@@ -105,6 +105,78 @@ The automation dictionary supports the following formats:
 
 ### Slugs
 
+#### Slugs for productivity tools (macros and agent scripts)
+
+Slug is a replacement parameter that system populates at the runtime based on the context. Use the following list of slugs only for Macros, Agent Scripts, and to set an agent script as default using the expression builder.
+
+The list of supported slugs are:
+
+| Slug | Description |
+|------------|-----------------------------------|
+| `${customerName}` | Name of the customer who initiated the conversation. |
+| `${caseId}` | Unique Id of a case. The system displays the case Id only if a cased linked to the conversation. |
+| `${caseTitle}` | Title of the case. The system displays the title of the case only if a cased linked to the conversation. |
+| `${queueId}` | Unique Id of a queue. |
+| `${visitorLanguage}` | The language of the customer who initiated the conversation. |
+| `${visitorDevice}` | The device of the customer who initiated the conversation. |
+| `${entityRoutingLogicalName}` | Name of the entity if the notification is for a entity records. |
+| `${entityRoutingRecordId}` | Unique Id of the entity record if the notification is for a entity records. To learn more, see [Entity records routing](../../omnichannel/administrator/entity-channel.md). |
+| `${customerEntityName}` | Name of the entity (contact or account entity) if the customer is authenticated. |
+| `${customerRecordId}` | Unique Id of t.he entity (contact or account entity) if the customer is authenticated. |
+| `${<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
+
+#### Format
+
+The `${Slug}` parameter format that retrieves the context from the channel provider, current user session, output of other macro actions, and/or the Common Data Service platform.
+
+**Productivity automation context**
+
+When you want to execute a slug in the productivity automation context which is used to perform operations related to a Dynamics 365 model-driven apps, then use the ${<slug>} format.
+
+   For example: `${customerName}`
+
+**Session connector context**
+
+When you want to execute a slug in the session context, then you must use the `${$session.<slug>}` format.
+
+For example: `${$session.customerName}`
+
+Some of the slugs that are available for session context are:
+
+- `${$session.visitorDevice}`
+- `${$session.visitorDevice}`
+- `${$session.entityRoutingLogicalName}`
+- `${$session.entityRoutingRecordId}`
+- `${$session.<name of the pre-chat survey questions>` - Pre-chat survey questions
+
+**Omnichannel connector context**
+
+When you want to execute a slug in the Omnichannel context, then you must use the `${$oc.<slug>}` format.
+
+For example: `${$oc.customerName}`
+
+> [!Note]
+> The `Session.CurrentTab.<Attribute>` and `Session.AnchorTab.<Attribute>` parameter provides context data based on the current session and the anchor tab or the current tab in focus.
+> The following are the supported attribute types:
+>
+>   - EntityName
+>   - EntityId
+>
+>      For example:
+>
+>      `Session.CurrentTab.<EntityName>`
+>
+>      `Session.CurrentTab.<EntityId>`
+>
+>      `Session.AnchorTab.<EntityName>`
+>
+>      `Session.AnchorTab.<EntityId>`
+
+   > [!NOTE]
+   > The `Session.CurrentTab.<Attribute>` and `Session.AnchorTab.<Attribute>` parameter is only applicable to macros, and it is not applicable to templates.
+
+#### Slugs for templates
+
 Slug is a replacement parameter that system populates at the runtime based on the context. The list of supported slugs are:
 
 | Slug | Description |
@@ -123,29 +195,9 @@ Slug is a replacement parameter that system populates at the runtime based on th
 
 #### Format
 
-The `{Slug}` parameter format that retrieves the context from the channel provider, current user session, output of other macro actions, and/or the Common Data Service platform.
+The `{Slug}` parameter format that retrieves the template context from the channel provider, current user session, and/or the Common Data Service platform.
 
    For example: `{caseId}` 
-
-- The `Session.CurrentTab.<Attribute>` and `Session.AnchorTab.<Attribute>` parameter provides context data based on the current session and the anchor tab or the current tab in focus.
-
-   The following are the supported attribute types:
-
-   - EntityName
-   - EntityId
-
-      For example:
-
-      `Session.CurrentTab.<EntityName>`
-
-      `Session.CurrentTab.<EntityId>`
-
-      `Session.AnchorTab.<EntityName>`
-
-      `Session.AnchorTab.<EntityId>`
-
-    > [!NOTE]
-    > The `Session.CurrentTab.<Attribute>` and `Session.AnchorTab.<Attribute>` parameter is only applicable to macros, and it is not applicable to templates.
 
 ### OData queries
 
