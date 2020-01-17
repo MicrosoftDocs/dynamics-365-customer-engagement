@@ -1,6 +1,6 @@
 ---
 title: "Bring your own channel | Microsoft Docs"
-description: "Read how you can send display custom context on the UI"
+description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
@@ -21,11 +21,12 @@ Omnichannel for Customer Service allows you to implement a connector to integrat
 
 When the user enters a message, the adapter API is invoked from the channel and it processes the inbound request and sends success or failure status as a response. The adapter API service must implement IChannelAdapter interface and sends the inbound request to the respective channel adapter to process the request.
 
-    /// <summary>
-    /// Accept an incoming web-hook request from MessageBird Channel
-    /// </summary>
-    /// <param name="requestPayload">Inbound request Object</param>
-    /// <returns>Executes the result operation of the action method asynchronously.</returns>
+```javascript
+/// <summary>
+/// Accept an incoming web-hook request from MessageBird Channel
+/// </summary>
+/// <param name="requestPayload">Inbound request Object</param>
+/// <returns>Executes the result operation of the action method asynchronously.</returns>
     [HttpPost("postactivityasync")]
     public async Task<IActionResult> PostActivityAsync(JToken requestPayload)
     {
@@ -46,8 +47,11 @@ When the user enters a message, the adapter API is invoked from the channel and 
 
         return StatusCode(200);
     }
-2. Channel Adapters
-Channel adapter must implement IAdapterBuilder interface. Channel Adapter is responsible to process inbound and outbound activities.
+```
+
+### Channel Adapters
+
+Channel adapter must implement `IAdapterBuilder` interface. Channel Adapter is responsible to process inbound and outbound activities.
 
 I. Process Inbound Activities
 The channel adapters do following steps:
