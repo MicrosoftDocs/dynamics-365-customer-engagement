@@ -16,11 +16,11 @@ ms.topic: article
 
 ## Overview
 
-The self service feature displays information on the recent operations that the customer performs before initiating a conversation with an agent. This information helps the agents  understand why a customer reached out and provide a personalized service for enhanced customer satisfaction.
+The self service feature displays information on the recent operations that the customer performs before starting a conversation with an agent. This information helps agents  understand customer issues and provide a personalized service for enhanced customer satisfaction.
 
-The data that you track as recent actions is stored in an entity where it is passed as part of context with self service type, for a conversation that has been successfully closed between the customer and agent. A record is created for each self service action. To learn more, see [msdyn_visitorjourney Entity Reference](../developer/reference/entities/msdyn_visitorjourney.md).
+The recent actions data that you track is stored in an entity where it's passed as part of context with self-service type for a conversation that has been successfully closed between the customer and agent. A record is created for each self-service action. To learn more, see [msdyn_visitorjourney Entity Reference](../developer/reference/entities/msdyn_visitorjourney.md).
 
-You need to enable the self service feature using one of the following methods:
+You can enable the self service feature using one of the following methods:
  - Omnichannel Administration app
  - Developer experience. To learn more, see [Pass self service history as context](../developer/reference/methods/setcontextprovider.md#pass-customers-portal-navigation-as-context) and [msdyn_visitorjourney](../developer/reference/entities/msdyn_visitorjourney.md#msdyn_type-options). 
 
@@ -35,7 +35,7 @@ You need to enable the self service feature using one of the following methods:
   > [!div class='mx-imgBorder']
   > ![Enable self service](../media/enable-self-service.png "enable self service")
  
-4. Select **Save**. The **Self service** tab will appear for the agent when a chat is initiated with a customer.
+4. Select **Save**. The **Self service** tab will appear for the agent when a chat is started with a customer.
 
 ## See also
 
