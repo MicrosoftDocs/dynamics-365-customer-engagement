@@ -12,7 +12,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Use Sales Professional on the mobile app
+# Use Sales Professional on the mobile
 
 Access your Sales Professional data while you're on the go using Dynamics 365 for phones or Dynamics 365 for tablets on your mobile device.
 
