@@ -1,8 +1,8 @@
 ---
 title: Upgrade Omnichannel for Customer Service | MicrosoftDocs
 description: Understand how you can upgrade Omnichannel for Customer Service
-author: neeranelli
-ms.author: nenellim
+author: sbmjais
+ms.author: shjais
 manager: shujoshi
 ms.date: 10/30/2019
 ms.service: 

@@ -1,8 +1,8 @@
 ---
 title: "Configure an SMS channel | MicrosoftDocs"
 description: "Instructions for configuring an SMS channel in Omnichannel for Customer Service."
-author: lalexms
-ms.author: laalexan
+author: sbmjais
+ms.author: shjais
 manager: shujoshi
 ms.date: 11/18/2019
 ms.service: 

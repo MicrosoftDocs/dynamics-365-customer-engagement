@@ -1,8 +1,8 @@
 ---
 title: "Introduction to Omnichannel Insights dashboard for supervisors | MicrosoftDocs"
 description: "Introduction to Omnichannel Insights dashboard for supervisors"
-author: neeranelli
-ms.author: nenellim
+author: udaykirang
+ms.author: udag
 manager: shujoshi
 ms.date: 10/31/2019
 ms.service: 
