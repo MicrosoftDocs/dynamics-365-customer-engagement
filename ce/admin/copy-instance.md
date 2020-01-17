@@ -82,6 +82,7 @@ After modifying and enabling some of the plug-ins, the developer Sandbox instanc
 |Role|
 |RollupField|
 |SavedQuery|
+|Sites|
 |SLAKPIInstance|
 |Solution|
 |Subject|
