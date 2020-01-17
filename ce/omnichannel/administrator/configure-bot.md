@@ -1,10 +1,10 @@
 ---
 title: "Integrate an Azure bot | MicrosoftDocs"
 description: "Instructions to integrate an Azure bot in Omnichannel for Customer Service."
-author: sbmjais
-ms.author: shjais
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 12/02/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article

@@ -1,12 +1,10 @@
 ---
 title: "Enable sentiment analysis to view in Omnichannel Ongoing Conversation dashboard | MicrosoftDocs"
 description: "How to enable sentiment analysis for Omnichannel Ongoing Conversation dashboard in Omnichannel for Customer Service."
-author: lalexms
-ms.author: lalexms
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-applies_to: 
-  - ""
-ms.date: 12/27/2019
+ms.date: 10/31/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
