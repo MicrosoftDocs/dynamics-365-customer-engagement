@@ -227,6 +227,15 @@ Additionally, the newly created requirement group is tagged with an **Auto Group
 > ![Screenshot showing field "Auto Group Type" exposed on the requirement group and set to "crew" on the form. The field is hidden by default](../../common-scheduler/media/scheduling-crew-auto-grou-type.png)
 
 
+## Rescheduling crews
+
+- rescheduling or editing crew bookings depends on crew strategy chosen earlier.
+
+- **Cascade and Accept Cascade Completely**: - any reschedule or booking change affects everyones bookings
+- **Crew Leader Management**: only the leader can make changes, so if leader changes booking, everyones booking changes, but team member cannot change bookings
+- **Crew Member Self-Management**: independent bookings. the system wont keep them all in sync, when crew is scheduled, all crew members get scheduled, but reschedules are done indpedndently and can be out of sync and if one is changed only that one is changed. 
+
+
 ## Additional notes
 
 **Attempting to book a resource that is part of a crew**
