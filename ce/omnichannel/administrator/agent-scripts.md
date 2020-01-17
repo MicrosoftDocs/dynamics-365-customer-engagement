@@ -200,7 +200,7 @@ You can build the expression in the **Agent scripts** tab that is present in the
 
 5. Select the **Condition** step, and then create the condition. 
 
-6. Select the **Add an action** button in the **If true** step. The **Condition** step is displayed.
+6. Select the **Add an action** button in the **If true** step. The **Condition** step is displayed. To learn about the conditions, see [Use automation dictionary to pass macro context data parameters](#use-automation-dictionary-to-pass-macro-context-data-parameters)
 
 7. Select the **Customer Service** tab, and then select the **Set default agent script** action.
 
@@ -217,6 +217,18 @@ You can build the expression in the **Agent scripts** tab that is present in the
 10. Select **Save and close** to save the expression and close the builder. 
 
 Now, you've built the expression.
+
+## Use automation dictionary to pass macro context data parameters
+
+As an administrator, you need to configure the condition using the automation dictionary based on the evaluation of the condition, a script is set as default, and the same is displayed to the agent at the run time. 
+
+The automation dictionary provides you certain data parameters keys that you can used an build your condition. 
+
+These parameter keys are resolved and replaced by the contextual values at the run time.
+
+To learn about the slugs for productivity tools, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-agent-scripts).
+
+To learn more, see [Use automation dictionary to pass data parameter keys](automation-dictionary-keys.md#pass-data-parameter-in-macros-and-agent-scripts).
 
 ## See also
 
