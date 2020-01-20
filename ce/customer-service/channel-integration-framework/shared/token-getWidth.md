@@ -13,4 +13,4 @@
 
 **Type:** Number
 
-**Description:** Returns a promise object the value (width of the panel in pixels).
+**Description:** Returns a promise object containing the width of the panel, in pixels.
