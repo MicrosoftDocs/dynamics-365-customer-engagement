@@ -63,7 +63,7 @@ This document provides important, late-breaking information about known issues a
 
 - When trying to estimate the size of a segment where the query doesn't end in a contact, the system displays a server communication error. To correct this error, make sure your segment definition ends with a clause that links to the contact entity as described in [Design dynamic demographic or firmographic segments](segments-profile.md). <!-- 1226384 -->
 - Static segments are limited to a maximum of 1,000 members.
-- Every time you refresh a static segment without saving it will default to dynamic one. <!--- 1666195 -->
+- If you create a new static segment and then refresh the page before saving the segment at least once, it will revert to a dynamic segment and you'll need to start over to create a new static one. <!--- 1666195 -->
 
 ### Fixed issues
 
