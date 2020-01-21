@@ -20,7 +20,7 @@ search.app:
 # Integrate with Citrix applications in Unified Service Desk
 
 > [!Note]
-> Integration of Citrix applications with Unified Service Desk isn't supported anymore.
+> Hosting Citrix applications within Unified Service Desk isn't supported anymore.
 
 Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by hosting them in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. This enables customer service agents to interact with the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications from within the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client while working on the customer data in the Common Data Service platform. You can configure a Windows application as a virtual application on Citrix XenApp 7.6 that runs as a hosted application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. More information: [Software requirements for Citrix XenApp application virtualization](admin/unified-service-desk-system-requirements.md#software-requirements-for-citrix-xenapp-application-virtualization)  
   
