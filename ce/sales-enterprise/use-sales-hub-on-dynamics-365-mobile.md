@@ -12,17 +12,15 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Use Sales Hub app on the mobile
+# Use the Sales Hub app on mobile devices
 
-Access your Sales Hub data while you're on the go using Dynamics 365 for phones or Dynamics 365 for tablets on your mobile device.
+Access your Sales Hub data while you're on the go by using Dynamics 365 for phones or Dynamics 365 for tablets on your mobile device. The Sales Hub app works the same whether you're using it on your mobile device or on a web browser on your computer.
 
-The Sales Hub app works the same whether you're using it on your mobile device or using it on a web browser on your computer.
+Before you can start using the app, you need to install the Dynamics 365 for mobile app on your device. 
 
-Before you can start using the app, you need to install the Dynamics 365 for mobile app on your device device. 
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
-
-## Basic Navigation
+## Basic navigation
 
 1.	When you sign in, you'll see the MyApps page with all your apps listed. 
 2.	Select **Sales Hub**.
@@ -32,16 +30,16 @@ Before you can start using the app, you need to install the Dynamics 365 for mob
 
 **The navigation bar**
 
-Use the nav bar to get to your work area, create a new record, search, or do other tasks. To access more commands, tap ![More Button](media/MoreButton.png "More Button").
+Use the nav bar to get to your work area, create a new record, search, or do other tasks. To access more commands, tap **More** (![More](media/MoreButton.png "More")).
 
    > [!div class="mx-imgBorder"]
    > ![Nav Bar](media/NavBar_2.png "Nav Bar")
 
 **Favorites and recently used records**
 
-The Favorites and Recently Used sections provide quick access to your records, views, and dashboards. 
+The **Favorites** and **Recently Used** sections provide quick access to your records, views, and dashboards. 
 
-- To access these sections, choose the **Menu** ![Menu button](media/MenuButton.png "Menu button") button on the nav bar, and then choose the **Favorites and Recent** ![Fav Button](media/FavButton.png "Fav Button") button.
+- To access these sections, select **Menu** ![Menu button](media/MenuButton.png "Menu button") on the nav bar, and then select **Favorites and Recent** ![Fav Button](media/FavButton.png "Fav Button").
 
 - To pin an item as a favorite, from the list of **Recently Used** items, tap the pin. This will pin and move the item to **Favorites**.
 
@@ -52,7 +50,7 @@ The Favorites and Recently Used sections provide quick access to your records, v
 
 The Sales Hub app on the Dynamics 365 for phones mobile app is designed to be your work assistant. The app helps you to engage with customers, close more deals, and acts as your office assistant.
 
-Here are a few tasks that you could perform on your day-to-day activities using the Sales Hub app module on the Dynamics 365 for phone mobile app:
+Here are a few tasks that you can perform during your day-to-day activities by using the Sales Hub app on the Dynamics 365 for phones mobile app:
 
 - [Plan for your day](#plan-for-your-day)
 
@@ -62,9 +60,9 @@ Here are a few tasks that you could perform on your day-to-day activities using 
 
 - [Update deals and customer information after a meeting](#update-deals-and-customer-information-after-a-meeting)
 
-- [Search contact or account](#search-contact-or-account)
+- [Search for a contact or account](#search-contact-or-account)
 
-- [Add and qualify lead](#add-and-qualify-lead)
+- [Add and qualify leads](#add-and-qualify-lead)
 
 - [Generate and share a quote or order](#generate-and-share-a-quote-or-order)
 
@@ -74,46 +72,48 @@ Here are a few tasks that you could perform on your day-to-day activities using 
 
 ### Plan for your day
 
-As you start your day and to know how busy your day is, go to **My Appointments**. The **My Appointments** feature provides insights on your meetings, travel, and free time. With this information, you can plan for the day ahead by reviewing who you will be meeting during the day, where you need to travel, and how much free time you have left.
+As you start your day, go to **My Appointments** to find out how busy you're going to be. The **My Appointments** feature provides insights on your meetings, travel, and free time. With this information, you can plan for the day ahead by reviewing who you'll be meeting, where you'll need to travel, and how much free time you'll have left.
 
-To view your appointments, select Site map > **Activities** and select **My Appointments** view.
+**To view your appointments**
+
+*   On the site map, select **Activities**, and then select **My Appointments**.
 
 ### Attend meetings with information at your fingertips
 
-During your travel, open any appointment in the calendar to view more details such as the start time, duration, and description of the meeting. The following image is an example of appointment details. 
+During your travels, you can open any appointment in the calendar to view more details such as start time, duration, and description of the meeting. The following image shows an example.
 
 > [!div class="mx-imgBorder"]
 > ![Appointment details](media/mobile-app-appointment-details.png "Appointment details")
 
-Further, select the **Regarding** record to view which opportunity or account the meeting is about. As you view the opportunity or account, review the timeline of notes and past activities to ramp-up on past context.
+In addition, you can select the **Regarding** record to view which opportunity or account the meeting is about. As you view the opportunity or account, you can review the timeline of notes and past activities to ramp up on context before the meeting begins.
 
 > [!div class="mx-imgBorder"]
-> ![Opportunity related to appointment](media/mobile-app-appointment-details-opportunity.png "Opportunity related to appointment")
+> ![Opportunity related to appointment](media/mobile-app-appointment-details-opportunity.png "Opportunity related to an appointment")
 
 ### Take notes in a meeting
 
-It's no longer necessary for you to open a laptop to add notes to an opportunity. The Sales Hub mobile app allows you to quickly add notes to an opportunity through your mobile device. 
+It's no longer necessary for you to open a laptop to add notes to an opportunity. You can use the Sales Hub mobile app to quickly add notes to an opportunity by using your mobile device.
 
-To add notes to an opportunity, follow these steps:
+**To add notes to an opportunity**
 
-1. Select Site map > **Opportunities** >  **My Opportunities**.
+1. On the site map, select **Opportunities** >  **My Opportunities**.
 
 2. On the opportunity, go to timeline section and add a note. 
 
     > [!div class="mx-imgBorder"]
-    > ![Add note to an opportunity](media/mobile-app-take-notes-timeline.png "Add note to an opportunity")
+    > ![Add note to an opportunity](media/mobile-app-take-notes-timeline.png "Add a note to an opportunity")
 
-3. (Optional) If the customer is showing interest in additional products, go to **Product line items**, select **More options** > **+ Add Product**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Select add product option](media/mobile-app-select-add-product.png "Select add product option")
-
-4. Select a product from the catalog or enter a product.
+3. (Optional) If the customer shows interest in additional products, go to the **Product line items** section, and then select **More options** > **+ Add Product**.
 
     > [!div class="mx-imgBorder"]
-    > ![Add product to an opportunity](media/mobile-app-add-product.png "Add product to an opportunity")
+    > ![Select add product option](media/mobile-app-select-add-product.png "Select the Add Product option")
 
-4. (Optional) If you have met a new stakeholder at the customer’s offices, under **Summary**, go to the **Stakeholder** section, select **More options** > **+ New Connection** and add the stakeholder. You can also add the contact from an account record.
+4. Select a product from the catalog, or enter a product.
+
+    > [!div class="mx-imgBorder"]
+    > ![Add product to an opportunity](media/mobile-app-add-product.png "Add a product to an opportunity")
+
+4. (Optional) If you've met a new stakeholder at the customer's office, under **Summary**, go to the **Stakeholder** section, select **More options** > **+ New Connection**, and then add the stakeholder. You can also add the contact from an account record.
 
     > [!div class="mx-imgBorder"]
     > ![Stakeholder section](media/mobile-app-stakeholder-tab.png "Stakeholder section")
@@ -122,38 +122,39 @@ To add notes to an opportunity, follow these steps:
 
 After you step out of a meeting, you can quickly update information about the deal or the opportunity.
 
-Follow these steps:
+**To update information after a meeting**
 
-1. Open the opportunity from the relevant appointment
+1. Open the opportunity from the relevant appointment.
 
-    OR
+    Or
     
-    Select Site map > **Opportunities** >  **My Opportunities**.
+    On the site map, select **Opportunities** > **My Opportunities**.
     
 2. On the opportunity, you can update the forecasted revenue or move to the next stage. 
 
     > [!div class="mx-imgBorder"]
-    > ![Update opportunity](media/mobile-app-update-opportunity.png "Update opportunity")
+    > ![Update an opportunity](media/mobile-app-update-opportunity.png "Update an opportunity")
 
-3. To create a follow-up appointment for the opportunity, go to **Appointments** tab and the select **More options** > **+ New Appointment**.
+3. To create a follow-up appointment for the opportunity, go to the **Appointments** tab, and then select **More options** > **+ New Appointment**.
 
     > [!div class="mx-imgBorder"]
     > ![New appointment](media/mobile-app-new-appointment.png "New appointment")
 
-    On the quick create appointment page, enter the necessary information and save.
+    On the Quick Create Appointment page, enter the necessary information, and then save the appointment.
 
     > [!div class="mx-imgBorder"]
     > ![Appointment saved](media/mobile-app-appointment-saved.png "Appointment saved")
 
-    Once the appointment is complete, you can open the appointment and mark as complete.
+After you're done, you can open the appointment and mark it as complete.
 
-### Search contact or account
+### Search for a contact or account <a name="search-contact-or-account"></a>
 
-You can search and find information about a contact or account referenced in a meeting. Follow these steps:
+You can search for and find information about a contact or account referenced in a meeting. 
 
-1. Select Site map > **Customers** >  **Contacts**.
+**To search for a contact or account**
 
-    For accounts, select **Accounts**.
+1. On the site map, select **Customers** >  **Contacts**. (For accounts, select **Accounts**.)
+
 
     > [!div class="mx-imgBorder"]
     > ![Select contacts](media/mobile-app-select-contacts.png "Select contacts")
@@ -162,42 +163,43 @@ You can search and find information about a contact or account referenced in a m
 
     The search page opens.
 
-3. In the search, enter the name you want to search and the results are displayed. 
+3. In the search box, enter the name you want to search for. The results are displayed. 
 
     > [!div class="mx-imgBorder"]
     > ![Search contact results](media/mobile-app-search-contact-results.png "Search contact results")
 
 4. Select and open the contact to view more information.
 
-### Add and qualify lead
 
-When you met a new lead at an event and you can immediately add the lead through the app and qualify to make sure your team has visibility over the progress right away. 
+### Add and qualify leads <a id="add-and-qualify-lead"></a>
 
-Follow these steps to add and qualify the lead:
+When you meet a new lead at an event, you can immediately add and qualify the lead with the app to make sure your team has visibility right away of the progress you've made.
 
-1. Select Site map > **Sales** >  **Leads**.
+**To add and qualify a lead**
+
+1. On the site map, select > **Sales** >  **Leads**.
 
 2. On the leads page, select **More options** > **+ New**.
 
     > [!div class="mx-imgBorder"]
-    > ![Create new lead](media/mobile-app-new-lead.png "Create new lead")
+    > ![Create new lead](media/mobile-app-new-lead.png "Create a new lead")
 
-3. Enter necessary information and save the lead.
+3. Enter the necessary information, and then save the lead.
 
 4. To qualify a lead, open the lead and select  **More options** > **Qualify**.
 
     > [!div class="mx-imgBorder"]
-    > ![Qualify lead](media/mobile-app-qualify-lead.png "Qualify lead")
+    > ![Qualify lead](media/mobile-app-qualify-lead.png "Qualify a new lead")
 
 ### Generate and share a quote or order
 
 After a successful meeting, you can quickly generate a PDF of the quote from an opportunity or a PDF of the order related to an account and share it with the customer who requests it.
 
-Follow these steps:
+**To generate and share a quote or order**
 
-1. Select Site map > **Opportunities** >  **My Opportunities**.
+1. On the site map, select > **Opportunities** >  **My Opportunities**.
 
-2. Open the opportunity for which you want to generate PDF of quote and select **More options** > **Quote**. 
+2. Open the opportunity for which you want to generate a PDF of the quote, and then select **More options** > **Quote**. 
 
 3. In the quote section, select **More options** > **+ New Quote**.
 
@@ -206,43 +208,45 @@ Follow these steps:
 
     A quote is generated.
 
-4. From the quote page, on the tool bar, select **More options** > **Email as PDF** > **Print quote for customer**.
+4. From the quote page, on the toolbar, select **More options** > **Email as PDF** > **Print quote for customer**.
 
-    An email opens with the quote as attachment.
+    An email opens with the quote as an attachment.
 
     > [!div class="mx-imgBorder"]
-    > ![Send quote as email](media/mobile-app-quote-email.png "Send quote as email")
+    > ![Send a quote as an email](media/mobile-app-quote-email.png "Send a quote as an email")
 
 5. Send the email.
 
 ### Manage your to-do list
 
-Before you wrap up the day, make sure your opportunity status is reflected correctly in the dashboards. 
+Before you wrap up the day, make sure your opportunity status is reflected correctly in the dashboards.
 
 > [!div class="mx-imgBorder"]
 > ![Open opportunities](media/mobile-app-open-opportunities.png  "Open opportunities")
 
-Quickly review pending tasks and close the ones you got to during the day. Follow these steps:
+Quickly review pending tasks and close the ones you got to during the day.
 
-1. Select Site map > **My Work** > **Activities**.
+**To manage your to-do list**
 
-2. On the activities page, select **My Tasks** view.
+1. On the site map, select > **My Work** > **Activities**.
+
+2. On the activities page, select the **My Tasks** view.
 
     > [!div class="mx-imgBorder"]
     > ![My tasks view](media/mobile-app-my-tasks.png  "My tasks view")
 
-    Review your tasks and close the tasks that you have completed.
+    Review your tasks, and close any tasks that you've completed.
 
 
 ### Work offline when you have intermittent connectivity
 
-The Sales Hub on Dynamics 365 for mobile is available in offline mode if you have intermittent connectivity. Select the **Enable Mobile Offline** option in the app module properties to access the Sales Hub app offline. 
+The Sales Hub app on Dynamics 365 for mobile is available in offline mode if you have intermittent connectivity. Select the **Enable Mobile Offline** option in the app module properties to access the Sales Hub app offline. 
 
-You must also add users for offline access by associating a mobile offline profile to their user records before they work offline. You can use the **Sample Sales Scenario** mobile offline profile that is shipped out-of-the-box or create your own profile. For more information, see [Set up mobile offline synchronization to allow users to work in offline mode on their mobile device](../mobile-app/setup-mobile-offline-for-admin.md).
+You <!--note from editor: This seems like something an admin must do, not necessarily the reader of this article. Should this say something like "An admin must have associated a mobile offline profile to your user record before you can work offline. The admin can use the Sample Sales Scenario, etc."? -->must also add users for offline access by associating a mobile offline profile to their user records before they work offline. You can use the **Sample Sales Scenario** mobile offline profile that's shipped out of the box, or create your own profile. For more information, see [Set up mobile offline synchronization to allow users to work in offline mode on their mobile device](../mobile-app/setup-mobile-offline-for-admin.md).
 
-To learn more on how to work offline on your mobile device, see [Work offline on your mobile device](../mobile-app/work-in-offline-mode.md).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work offline on your mobile device](../mobile-app/work-in-offline-mode.md)
 
-The following table lists the actions that are supported in online and offline mode for entities:
+The following table lists the actions that are supported in online and offline mode for entities.
 
 | Record type	| Actions supported online | Actions supported offline |
 |---------|--------------------------|---------------------------|
@@ -265,28 +269,26 @@ Yes, custom fields of all types are available to use offline. For lookup fields,
 
 ## Known issues
 
--	**Business Process Flows**: Business process flows are not supported for mobile offline. When you are offline, business process flows grids and views will not be available and rendered on records that are opened in offline mode. If a record containing a business process flow was loaded prior to going offline, business process flow functions, such as move next or move previous will not work. Business process flows support the ability to branch to a different set of stages, based on conditions defined on fields of the record. In offline mode, these conditions to determine the next set of stages in the business process flows will not be evaluated.
+-	**Business process flows**: Business process flows aren't supported for mobile offline. When you're offline, business process flows grids and views won't be available to be rendered on records that are opened in offline mode. If a record containing a business process flow was loaded prior to going offline, business process flow functions&mdash;such as move next or move previous&mdash;won't work. Business process flows support the ability to branch to a different set of stages, based on conditions defined on fields of the record. In offline mode, the conditions that determine the next set of stages in the business process flows won't be evaluated.
 
--	**Qualify a lead**: When a lead created in mobile offline is qualified and when you go online, the business process stage will still show the qualify stage. You will have to manually select **Next stage** to move the lead to next stage.
+-	**Qualify a lead**: After you've created and qualified a lead in mobile offline, when you go back online the business process stage will still be shown as the qualify stage. You'll have to manually select **Next stage** to move the lead to next stage.
 
--	**Views**: Views are not supported for the following entities in offline mode:
+-	**Views**: Views aren't supported for the following entities in offline mode:
     -	Email
     -	Task
     -	Appointment
     -	Phonecall
     
-    Any views that have linked entities (related entity) that are not available offline are also not supported.
+    Any views that have linked entities (related entity) that aren't available offline are also not supported.
 
--	Adding stakeholders, competitors, and sales team to opportunities is not supported in offline mode.
+-	Adding stakeholders, competitors, and sales teams to opportunities isn't supported in offline mode.
 
--	Product suggestions (when adding product lines to opportunities, quotes, orders, or invoices) are not supported in offline mode.
+-	Product suggestions (when you're adding product lines to opportunities, quotes, orders, or invoices) aren't supported in offline mode.
 
-- Product property related entities (DynamicProperty, DynamicPropertyInstance, DynamicPropertyOptionSetItem, and ProductSubstitute) are not enabled for offline out of the box. These entities must be enabled for offline and added to an offline profile if product properties are to be used in offline mode.
+-   Product property&ndash;related entities (DynamicProperty, DynamicPropertyInstance, DynamicPropertyOptionSetItem, and ProductSubstitute) aren't enabled for offline out of the box. These entities must be enabled for offline and added to an offline profile if you want to use product properties in offline mode.
 
-## General information on how to use the mobile app 
+### See also
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md).
-
-### See Also  
+[Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)
 
 [User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)
