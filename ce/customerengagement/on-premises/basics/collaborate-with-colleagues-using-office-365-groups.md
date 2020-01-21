@@ -37,7 +37,7 @@ search.app:
 > [!NOTE]
 >  Check out the following for a quick introduction to [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]:  
 > 
-> - [![Video symbol](../basics/media/video-button.png "Video symbol")](http://go.microsoft.com/fwlink/p/?LinkId=404225) Video: [Introducing Groups in Office 365](http://go.microsoft.com/fwlink/p/?LinkID=723955).  
+> - [![Video symbol](../basics/media/video-button.png "Video symbol")](https://go.microsoft.com/fwlink/p/?LinkId=404225) Video: [Introducing Groups in Office 365](https://go.microsoft.com/fwlink/p/?LinkID=723955).  
 >   -   [Learn more about groups](https://support.office.com/article/Learn-more-about-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2?ct=t\(GS_SPO1_11_2015\)&ui=en-US&rs=en-US&ad=US).  
   
 ## Prerequisites  

@@ -16,7 +16,7 @@
    New SharePointSite With {
     .Name = "Sample SharePoint Site",
     .Description = "Sample SharePoint Site Location record",
-    .AbsoluteURL = "http://www.example.com"
+    .AbsoluteURL = "https://www.example.com"
    }
   ' TODO: Change this URL to a valid SharePoint URL.                        
 
@@ -54,7 +54,7 @@
 
   ' Update the URL of the SharePoint site.
   ' TODO: Change this URL to a valid SharePoint URL.
-  retrievedSpSite.AbsoluteURL = "http://www.example.net"
+  retrievedSpSite.AbsoluteURL = "https://www.example.net"
   _serviceProxy.Update(retrievedSpSite)
 
   ' Update the SharePoint document location to associate it with the 

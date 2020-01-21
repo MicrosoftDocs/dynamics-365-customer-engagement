@@ -10,7 +10,7 @@
      Description = "Sample SharePoint Site Location record",
      
      // TODO: Change this URL to a valid SharePoint URL.                        
-     AbsoluteURL = "http://www.example.com",
+     AbsoluteURL = "https://www.example.com",
  };
 
  // Create a SharePoint site record named Sample SharePoint Site.

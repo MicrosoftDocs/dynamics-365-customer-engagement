@@ -98,7 +98,7 @@ search.app:
    - To install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with offline capability, click **Options**, select the **Offline Capability** check box on the **Customize Installation** page, and then click **Install Now**. If you don’t install offline capability during installation, you can add it later by choosing **Go Offline** in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].
 
      > [!IMPORTANT]
-     >  If you aren’t able to install offline capability, check to make sure you don’t have any pending [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)] updates. [Learn more about Windows updates](http://go.microsoft.com/fwlink/p/?LinkID=399355)  
+     >  If you aren’t able to install offline capability, check to make sure you don’t have any pending [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)] updates. [Learn more about Windows updates](https://go.microsoft.com/fwlink/p/?LinkID=399355)  
   
 9. When prompted, restart [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
   
@@ -114,12 +114,12 @@ search.app:
    > [!TIP]
    >  If you want to add another organization, you can run the Configuration Wizard again after you have successfully configured the first organization. To run the Configuration Wizard, in the [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)] Start screen, search for **Configuration Wizard** and run it. In earlier versions of [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)], click **Start > All Programs > Microsoft Dynamics 365 apps**, and then click **Configuration Wizard**.  
    > 
-   >  If you encounter an issue configuring [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization, use the [Microsoft Support and Recovery Assistant](http://aka.ms/crmocpub) to diagnose and fix the issue. You’ll need to sign in to the diagnostics tool with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] credentials.  
+   >  If you encounter an issue configuring [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization, use the [Microsoft Support and Recovery Assistant](https://aka.ms/crmocpub) to diagnose and fix the issue. You’ll need to sign in to the diagnostics tool with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] credentials.  
   
 ## CRM 2015 for Outlook  
  If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full.md)] as your communications, scheduling, and contact management hub for business. You can continue to use the familiar [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] interface and integrate [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] at the same time by using [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)]. [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)] can also provide access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while you’re offline. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Do your Dynamics 365 apps work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)  
   
- ![Video button](../media/video-button.png "Video button") [Watch a video on setup, configuration, and upgrading (5:19)](http://go.microsoft.com/fwlink/p/?LinkId=522526)  
+ ![Video button](../media/video-button.png "Video button") [Watch a video on setup, configuration, and upgrading (5:19)](https://go.microsoft.com/fwlink/p/?LinkId=522526)  
   
 > [!IMPORTANT]
 > - To install and use [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)], your organization must be running [!INCLUDE[pn_crm_2015_server](../../includes/pn-crm-2015-server.md)].
@@ -188,7 +188,7 @@ search.app:
    - To install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with offline capability, click **Options**, select the **Offline Capability** check box on the **Customize Installation** page, and then click **Install Now**. If you don’t install offline capability during installation, you can add it later by choosing **Go Offline** in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].
 
      > [!IMPORTANT]
-     >  If you aren’t able to install offline capability, check to make sure you don’t have any pending [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)] updates. [Learn more about Windows updates](http://go.microsoft.com/fwlink/p/?LinkID=399355)  
+     >  If you aren’t able to install offline capability, check to make sure you don’t have any pending [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)] updates. [Learn more about Windows updates](https://go.microsoft.com/fwlink/p/?LinkID=399355)  
   
 8. When prompted, restart [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
   
@@ -229,7 +229,7 @@ search.app:
 - [Microsoft Dynamics 365 for Outlook hardware requirements](../admin-guide/hardware-requirements.md)
   #### Install updates  
   
-- Before you install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], make sure you have all the latest [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] updates, including all security updates from [!INCLUDE[pn_Microsoft_Update](../../includes/pn-microsoft-update.md)]. [Go to Microsoft Update](http://go.microsoft.com/fwlink/p/?LinkId=165705).  
+- Before you install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], make sure you have all the latest [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] updates, including all security updates from [!INCLUDE[pn_Microsoft_Update](../../includes/pn-microsoft-update.md)]. [Go to Microsoft Update](https://go.microsoft.com/fwlink/p/?LinkId=165705).  
   
 ### Step 2: Download the software  
  Before you or your users install [!INCLUDE[pn_crm_2013_for_outlook_short](../../includes/pn-crm-2013-for-outlook-short.md)], please note the following:  
@@ -248,7 +248,7 @@ search.app:
   
       ![Dynamics 365 apps message bar for installing Dynamics 365 apps for Outllook](../media/install-crm-outloook-message-bar.png "Dynamics 365 apps message bar for installing Dynamics 365 apps for Outllook")  
   
-   - **From the web:** [Go to the download page](http://go.microsoft.com/fwlink/p/?LinkID=393787), and then download and run the appropriate executable file (32-bit or 64-bit), depending on your system and the version of [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] you use.  
+   - **From the web:** [Go to the download page](https://go.microsoft.com/fwlink/p/?LinkID=393787), and then download and run the appropriate executable file (32-bit or 64-bit), depending on your system and the version of [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] you use.  
   
    - **From a DVD:** Double-click **SetupClient.exe** in the appropriate [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] installation folder (32-bit or 64-bit).  
   
@@ -281,7 +281,7 @@ search.app:
   
    - To connect to a [!INCLUDE[pn_crm_2013_shortest](../../includes/pn-crm-2013-shortest.md)] (on-premises) organization, there are two types of URLs, depending on whether your computer is connected to the Internet or not:  
   
-     - For internal deployments (not connected over the Internet), type the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] server or discovery service URL using the following format: **<http://crmserver>** or **<http://crmserver:5555>**.  
+     - For internal deployments (not connected over the Internet), type the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] server or discovery service URL using the following format: **<https://crmserver>** or **<https://crmserver:5555>**.  
   
      - To connect over the Internet, use the discovery service URL using the following format: **https://dev.crmserver.contoso.com**.  
   

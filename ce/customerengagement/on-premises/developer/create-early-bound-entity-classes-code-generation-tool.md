@@ -59,7 +59,7 @@ Run the CrmSvcUtil.exe tool from the SDK\Bin folder. If you run the tool from an
 The following sample shows the format for running the tool from the command line for an installation of Dynamics 365 Customer Engagement (on-premises). You supply the parameter values for your installation.
 
 ```ms-dos
-CrmSvcUtil.exe /url:http://<serverName>/<organizationName>/XRMServices/2011/Organization.svc    /out:<outputFilename>.cs /username:<username> /password:<password> /domain:<domainName>    /namespace:<outputNamespace> /serviceContextName:<serviceContextName>  
+CrmSvcUtil.exe /url:https://<serverName>/<organizationName>/XRMServices/2011/Organization.svc    /out:<outputFilename>.cs /username:<username> /password:<password> /domain:<domainName>    /namespace:<outputNamespace> /serviceContextName:<serviceContextName>  
 ```
 
 You can look up the correct URL in the web application by selecting **Settings**, navigating to **Customizations**, and then choosing **Developer Resources**. The URL is shown under **Organization Service**.  

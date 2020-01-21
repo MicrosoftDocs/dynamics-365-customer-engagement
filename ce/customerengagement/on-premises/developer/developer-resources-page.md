@@ -70,7 +70,7 @@ You should generally use the Web API global discovery service because this will 
 ### For on-premises Dynamics 365 Customer Engagement (on-premises)
  Use the following URL to access the discovery service:  
   
- http://`ServerName`/XRMServices/2011/Discovery.svc  
+ https://`ServerName`/XRMServices/2011/Discovery.svc  
 
 For more information, see [Discover the URL for your organization using the Organization Service](org-service/discover-url-organization-organization-service.md).
   

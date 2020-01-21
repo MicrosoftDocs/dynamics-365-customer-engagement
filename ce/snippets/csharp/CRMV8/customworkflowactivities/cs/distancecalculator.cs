@@ -81,7 +81,7 @@ namespace Microsoft.Crm.Sdk.Samples
             string BingMapsKey = "Au9tmAwIDZ2XAQVedm85L51EujHtSfgvdFBLpLXBvH-p94kNrokavf00POMu74Xz";
 
             // Create a REST request for the route's details. 
-            string requestUrl = "http://dev.virtualearth.net/REST/v1/Routes" +
+            string requestUrl = "https://dev.virtualearth.net/REST/v1/Routes" +
                 "?output=json" + "&amp;key=" + BingMapsKey + "&amp;wp.0=" + fromAddress +
                 "&amp;wp.1=" + toAddress + "&amp;optimize=" + optimize +
                 "&amp;travelMode=" + travelMode + "&amp;distanceUnit=" + distanceUnit;

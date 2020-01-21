@@ -114,7 +114,7 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** d
 #### License tab  
  After opening the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]**Properties** dialog box, select the **License** tab.  
   
- The **License** tab displays a summary of all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users that are configured in the deployment. <!-- For information about each of these client access license types, see [Dynamics 365 Customer Engagement (on-premises) purchase plans](http://go.microsoft.com/fwlink/p/?LinkId=306766).  -->
+ The **License** tab displays a summary of all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users that are configured in the deployment. <!-- For information about each of these client access license types, see [Dynamics 365 Customer Engagement (on-premises) purchase plans](https://go.microsoft.com/fwlink/p/?LinkId=306766).  -->
   
  The following information for all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users and their respective client access license (CAL) types is displayed:  
   

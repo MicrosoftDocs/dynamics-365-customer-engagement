@@ -25,7 +25,7 @@ Namespace Microsoft.Crm.Sdk.Samples
         ''' This sample demonstrates how to execute a collection of message requests using a single web service
         ''' call and optionally return the results.
         ''' </summary>
-        ''' <seealso cref="http://msdn.microsoft.com/en-us/library/gg328075.aspx"/>
+        ''' <seealso cref="https://msdn.microsoft.com/library/gg328075.aspx"/>
         ''' <param name="serverConfig">Contains server connection information.</param>
         ''' <param name="promptforDelete">When True, the user will be prompted to delete all
         ''' created entities.</param>
