@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 01/31/2020
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: b6bdcd99-a9c0-4ff5-984c-605cd3323e89
@@ -15,15 +15,11 @@ ms.custom:
 
 # Modify the section properties of a form
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
-
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 1.  Sign in to Dynamics 365 for Customer Engagement instance.
 
 2.  Go to **Settings** > **Customization** > **Customize the system**.
 
-3.  Expand **Components** > **Entities** > **Conversation** and then select **Forms**.
+3.  Expand **Components** > **Entities** > **Conversation**, and then select **Forms**.
 
 4.  Select **Session Overview Form** in the list.
 
@@ -85,7 +81,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 7.  Select **OK** to save the changes.
 
-8.  Select **Save** and then select **Publish**.
+8.  Select **Save**, and then select **Publish**.
 
 > [!div class="nextstepaction"]
 > [Next topic: Add or remove the fields in the form](add-remove-fields-form-section.md)
