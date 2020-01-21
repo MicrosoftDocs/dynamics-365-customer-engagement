@@ -28,7 +28,30 @@ search.app:
 
 # Manage Field Service Mobile with Microsoft Intune
 
+Leverage your Intune enabled infrastructure to manage and protect organizational data within the Field Service Mobile Application. 
+ 
+With an Intune enabled Field Service Mobile app, IT administrators can:
+- Add and assign your Field Service Mobile app to user groups and devices, including users in specific groups, devices in specific groups, and more.
+- Configure the Field Service Mobile app to start or run with specific settings enabled, and update your existing app when already on the device.
+- See reports and track app usage.
+ 
+ 
+ 
+Here is generic Intune/MAM 
+ 
+
+Mobile Application Management (MAM): Intune has the ability to set app restriction policies at the app level for use with or without MDM device enrollment. Intune’s MAM capabilities enable IT to help protect corporate data with the policies that restrict data leakage such as “Cut/Copy/Paste/Save As”, provide encryption at rest, enforce application access and compliance, and remove corporate data at the application level.
+ 
+ 
+We’ll be part of this list of apps soon:
+https://aka.ms/mamenabledapps
+
+
 ## Prerequisites
+
+- Field Service Mobile v12.1+
+- No Field Service Mobile Configurator (Woodford) requirements 
+
 > [!Note]
 >
 
@@ -37,3 +60,7 @@ search.app:
 
 ## Configuration considerations
 ## Additional Notes
+
+### See also
+
+[What is Microsoft Intune app management?](https://docs.microsoft.com/en-us/intune/apps/app-management)
