@@ -242,7 +242,8 @@ Quickly review pending tasks and close the ones you got to during the day.
 
 You can use the Sales Hub app on Dynamics 365 for mobile in offline mode when you're experiencing intermittent connectivity. Select the **Enable Mobile Offline** option in the app module properties to access the Sales Hub app offline. 
 
-<!--note from editor: This seems like something an admin must do, not necessarily the reader of this article. Should it say something like "An admin must have associated a mobile offline profile to your user record before you can work offline. The admin can use the Sample Sales Scenario, etc."? -->You must also add users for offline access by associating a mobile offline profile to their user records before they work offline. You can use the **Sample Sales Scenario** mobile offline profile that's shipped out of the box, or create your own profile. For more information, see [Set up mobile offline synchronization to allow users to work in offline mode on their mobile device](../mobile-app/setup-mobile-offline-for-admin.md).
+<!--note from editor: This seems like something an admin must do, not necessarily the reader of this article. Should it say something like "An admin must have associated a mobile offline profile to your user record before you can work offline. The admin can use the Sample Sales Scenario, etc."? -->
+You must also add users for offline access by associating a mobile offline profile to their user records before they work offline. You can use the **Sample Sales Scenario** mobile offline profile that's shipped out of the box, or create your own profile. For more information, see [Set up mobile offline synchronization to allow users to work in offline mode on their mobile device](../mobile-app/setup-mobile-offline-for-admin.md).
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work offline on your mobile device](../mobile-app/work-in-offline-mode.md)
 
