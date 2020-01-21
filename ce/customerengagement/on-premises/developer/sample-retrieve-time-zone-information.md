@@ -27,9 +27,11 @@ search.app:
 
 This sample shows how to retrieve time zone information. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveTimeZone).
 
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
 ## How to run this sample
 
-[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
 
 ## What this sample does
 

@@ -28,7 +28,7 @@ This sample shows how to create an email activity instance from the specified em
 
 ## How to run this sample
 
-[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
 
 ## What this sample does
 

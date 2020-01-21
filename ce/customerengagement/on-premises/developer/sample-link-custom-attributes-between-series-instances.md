@@ -30,6 +30,10 @@ This sample shows how to link a custom attribute that is created for a recurring
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
+## How to run this samples
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
 ## What this sample does
 
 The `CreateAttributeRequest` message is intended to be used in a scenario where it contains data that is needed to create custom attributes.

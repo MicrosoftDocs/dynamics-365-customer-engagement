@@ -39,7 +39,7 @@ This sample requires additional users that are not present in your system. Creat
 
 ## How to run this sample
 
-[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
 
 ## What this sample does
 

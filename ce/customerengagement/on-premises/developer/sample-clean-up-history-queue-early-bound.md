@@ -33,7 +33,7 @@ This sample shows how to clean up the history for the queue by using [RemoveFrom
 
 ## How to run this sample
 
-[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
 
 ## What this sample does
 

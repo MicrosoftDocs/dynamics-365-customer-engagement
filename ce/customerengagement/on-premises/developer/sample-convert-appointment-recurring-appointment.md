@@ -27,23 +27,35 @@ search.app:
 
 # Sample: Convert an appointment to a recurring appointment
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Schedule and Appointment samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/ScheduleAndAppointment).
+This sample shows how to convert an appointment to a recurring appointment series using the [AddRecurrenceRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.addrecurrencerequest?view=dynamics-general-ce-9) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ConvertToRecurring).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to convert an appointment to a recurring appointment series by using the <xref:Microsoft.Crm.Sdk.Messages.AddRecurrenceRequest> message.  
-  
-## Example  
- [!code-csharp[ScheduleAndAppointment#ConvertAnAppointmenttoRecurringAppointment](../snippets/csharp/CRMV8/scheduleandappointment/cs/convertanappointmenttorecurringappointment.cs#convertanappointmenttorecurringappointment)]  
-  
-### See also  
-    
- [Convert an Appointment to a Recurring Appointment](create-recurring-appointment-series-instance-exception.md#bkmk_convert)   
- [Sample Code for Recurring Appointments](sample-code-schedule-appointment-entities.md)   
- [Sample: Link Custom Attributes between Series and Instances](sample-link-custom-attributes-between-series-instances.md)   
- <xref:Microsoft.Crm.Sdk.Messages.AddRecurrenceRequest>
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+The `AddRecurrenceRequest` message is intended to be used in a scenario where it contains the data that is needed to add recurrence information to an existing appointment.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+1. Creates an sample appointment that is later converted into an recurring appointment.
+
+### Demonstrate
+
+1. Specifies the recurrence information that needs to be added to the appointment created in the [Setup](#setup).
+2. Defines the anonymous types that define the possible recurrence pattern values and also possible values for days.
+3. Defines the anonymous types that define the possible values for the recurrence rule pattern and type.
+4. The `RecurringAppointmentMaster` specifies the recurrence information. 
+5. The `AddRecurrence` message converts the created appointment into recurring appointment.
+
+### Clean up
+
+Display an option to delete the sample data created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the sample data to achieve the same result.

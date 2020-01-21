@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
+
 # Metadata and data models
 
 Dynamics 365 Customer Engagement (on-premises) uses a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes. This structure also makes upgrades and the transportation of customizations easier. The data structure can change without requiring any change to code in the Dynamics 365 Customer Engagement (on-premises) server or client applications.  
