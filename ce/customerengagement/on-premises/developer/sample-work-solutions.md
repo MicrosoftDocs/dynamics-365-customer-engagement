@@ -38,7 +38,7 @@ search.app:
 
 # Sample: Work with solutions
 
-This sample shows how to how to perform the following actions with solutions:
+This sample shows how to perform the following actions with solutions:
 
 - Create a publisher.
 - Retrieve the default publisher.
@@ -56,11 +56,11 @@ You can download the sample from [here](https://github.com/Microsoft/PowerApps-S
 
 ## How to run this sample
 
-[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
 
 ## What this sample does
 
-This sample shows how to work with solutions. This sample covers how to create a publisher, create a solution, export and import solution and also how to delete the solution.
+This sample shows how to work with solutions. This sample covers how to create a publisher, create a solution, export, and import solution and also how to delete the solution.
 
 ## How this sample works
 
