@@ -37,21 +37,11 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing an example of the Device Readings chart](./media/connected-field-service-IoT-hub-device-measurements-workorder.png)
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-device-readings-standard.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-device-readings-select.png)
-
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-device-readings-hover-history.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-device-readings-click-history.png)
+
 
 ## Prerequisites
 
@@ -103,6 +93,10 @@ To view device readings, the following data must be in place:
  > [!div class="mx-imgBorder"]
 > ![Screenshot of an example of the device readings chart](./media/connected-field-service-IoT-hub-device-measurements-devicechart.png)
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-device-readings-standard.png)
+
+
 2. Choose the time period from the drop-down list. If the device sends device measurements to TSI, and the device measurement data exists for the selected time period, a chart is loaded.  
 
 > [!Note]
@@ -115,13 +109,30 @@ To view device readings, the following data must be in place:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the device readings chart with tooltip showing](./media/connected-field-service-IoT-hub-device-measurements-hoover.png)
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-device-readings-select.png)
+
+
 5. Select the eye icon next to **Work Orders** to show or hide any work orders created and closed during the selected time period. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-device-readings-click-history.png)
+
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of device readings chart showing toolip for work orders](./media/connected-field-service-IoT-hub-device-measurements-workorder.png)
 
 > [!Note]
 > If there are no work orders in the selected time period, work order selection will not be displayed.
+
+Furthermore, a summary of the device readings such as average measurements and number of work orders is calculated and displayed on the device, customer asset, and alert as seen in the image below.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-device-readings-history.png)
+
+> [!Note]
+> The device summaries use the device data history information on the device record that based on data with a slight delay (30-60min) however you can use the **Pull Device Data** ribbon button to get the latest data from AzureIoT. The device summary is only displayed on customer assets if there is one related device, even though multiple devices can be related to one customer asset. 
 
 ## Error codes
 
@@ -142,12 +153,6 @@ Use the following table to troubleshoot error codes related to device readings.
 | 5000207 |		Unable to get the access token to query Time Series Insights |		Retry your request, and if the problem persists, try updating new Client ID and Client Secret by re-running the CFS Deployment App |
 | 5000603	 |	Request to Time Series Insights API returned with a failure	 |	Retry your request. If the problem persists, contact Microsoft Support to investigate |
 | 5000604	 |	Response from Time Series Insights API is not in an expected format	 |	Retry your request. If the problem persists, please contact Microsoft Support to investigate |
-
-
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-device-readings-history.png)
 
 
 ## Additional notes
