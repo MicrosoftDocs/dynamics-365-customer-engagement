@@ -10,8 +10,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: a3008ed8-a934-4790-9979-43be7b5e7aaf
 author: JimDaly
-ms.author: jdaly
-manager: jdaly
+ms.author: nabuthuk
+manager: kvivek
 ms.reviewer: "pehecke"
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -38,39 +38,52 @@ search.app:
 
 # Sample: Work with solutions
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with solutions](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Solutions).
+This sample shows how to perform the following actions with solutions:
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to how to perform the following actions with solutions:  
-  
--   Create a publisher.  
--   Retrieve the default publisher.  
--   Create a solution.  
--   Retrieve a solution.  
--   Add an existing solution component.  
--   Remove a solution component.  
--   Export or package a solution.  
--   Install or upgrade a solution.  
--   Delete a solution.  
-  
-## Example  
- [!code-csharp[Solutions#WorkWithSolutions](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions.cs#workwithsolutions)]  
-  
-### See also  
- [Package and Distribute Extensions with Dynamics 365 Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)   
- [Sample: Detect Solution Dependencies](sample-detect-solution-dependencies.md)   
- [Introduction to Solutions](introduction-solutions.md)   
- [Plan For Solution Development](plan-solution-development.md)   
- [Dependency Tracking for Solution Components](dependency-tracking-solution-components.md)   
- [Create, Export, or Import an Unmanaged Solution](create-export-import-unmanaged-solution.md)   
- [Create, Install, and Update a Managed Solution](create-install-update-managed-solution.md)   
- [Uninstall or Delete a Solution](uninstall-delete-solution.md)   
- [Solution Entities](solution-entities.md)   
- [Work with Solutions](work-solutions.md)   
- [Sample: Detect Solution Dependencies](sample-detect-solution-dependencies.md)
+- Create a publisher.
+- Retrieve the default publisher.
+- Create a solution.
+- Retrieve a solution.
+- Add an existing solution component.
+- Remove a solution component.
+- Export or package a solution.
+- Install or upgrade a solution.
+- Delete a solution.
+
+You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/WorkwithSolutions).
+
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+This sample shows how to work with solutions. This sample covers how to create a publisher, create a solution, export, and import solution and also how to delete the solution.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+1. The `Publisher` method defines a new publisher. 
+1. The `Solution` method creates a new solution.
+1. The `OptionSetMetadata` method adds a solution component.
+1. The `ExportSolutionRequest` method exports the created solution in the [Setup](#setup).
+1. The `DeleteSolutionRequest` method deletes the solution and the components.
+
+
+### Demonstrate
+
+1. The `querySDKSamplePublisher` method checks whether the publisher is already in the system.
+1. The `querySampleSolutionResults` method checks whether the solution is already in the system.
+1. The `ExportSolutionRequest` method exports the solution. 
+1. The `ImportSolutionRequest` method imports the solution.
+
+### Clean up
+
+Displays an option to delete all the data created in the sample. The deletion is optional in case you want to examine the data created by the sample. You can manually delete the data to achieve same results.
+
