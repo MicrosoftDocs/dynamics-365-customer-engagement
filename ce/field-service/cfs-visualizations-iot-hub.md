@@ -132,7 +132,7 @@ Furthermore, a summary of the device readings such as average measurements and n
 > ![Screenshot of ](./media/cfs-device-readings-history.png)
 
 > [!Note]
-> The device summaries use the device data history information on the device record that based on data with a slight delay (30-60min) however you can use the **Pull Device Data** ribbon button to get the latest data from AzureIoT. The device summary is only displayed on customer assets if there is one related device, even though multiple devices can be related to one customer asset. 
+> The device summaries use the device data history information on the device record that based on data with a slight delay (30-60min) however you can use the **Pull Device Data** ribbon button to get the latest data from AzureIoT. The device summary is only displayed on customer assets if there is one related device, even though multiple devices can be related to one customer asset. Device summary calcualtions respect security roles so will change based on the nuber of alerts, work orders, etc your user has access to.
 
 ## Error codes
 
