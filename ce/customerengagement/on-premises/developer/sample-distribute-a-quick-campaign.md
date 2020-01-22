@@ -23,22 +23,40 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
+
 # Sample: Distribute a quick campaign
 
-This sample code is for Dynamics 365 Customer Engagement (on-premises). Download the complete sample from [Sample: Work with Marketing entities](https://code.msdn.microsoft.com/Marketing-Samples-c5429380).  
+This sample shows how to create and distribute a quick campaign. You can download the sample from [here](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/marketing/DistributeQuickCampaign).
 
-## Prerequisites
+[!include[cc-sample-note](includes/cc-sample-note.md)]
 
-Internet connection is required to download the sample project and to restore the NuGet packages used in the sample project.
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to create and distribute a quick campaign.  
-  
-## Example  
- [!code-csharp[Marketing#QuickCampaign](../snippets/csharp/CRMV8/marketing/cs/quickcampaign.cs#quickcampaign)]  
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+
+## What this sample does
+
+This sample shows how to create and distribute a quick campaign.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org. 
+2. The `CreateRequiredRecords` method creates any entity records that this sample requires.
+3. The `CreateAndRetrieveQuickCampaignForQueryExpression` method creates a quick campaign for a set of accounts selected by a query.
+4. The `CreateAndRetrieveQuickCampaignForMarketingList` method creates quick campaign for a given marketing list and returns the Guid of the quick campaign.
+
+### Demonstrate
+
+1. The `List` method creates the marketing list that is required for the sample. 
+2. The `QueryExpression` method constructs a query expression to specify which records quick campaign should include. 
+
+### Clean up
+
+Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
   
 ### See also  
  [Campaign Entities](campaign-entities.md)   
