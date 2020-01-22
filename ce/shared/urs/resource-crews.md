@@ -229,11 +229,11 @@ Additionally, the newly created requirement group is tagged with an **Auto Group
 
 ## Rescheduling crews
 
-- rescheduling or editing crew bookings depends on crew strategy chosen earlier.
+Depedning on the crew strategy, the way the work ......... rescheduling crew bookings will behave differenly:
 
-- **Cascade and Accept Cascade Completely**: - any reschedule or booking change affects everyones bookings
-- **Crew Leader Management**: only the leader can make changes, so if leader changes booking, everyones booking changes, but team member cannot change bookings
-- **Crew Member Self-Management**: independent bookings. the system wont keep them all in sync, when crew is scheduled, all crew members get scheduled, but reschedules are done indpedndently and can be out of sync and if one is changed only that one is changed. 
+- **Cascade and Accept Cascade Completely**: any change to the booking affects everyone's bookings.
+- **Crew Leader Management**: only the designated leader can make changes on bookings. If the leader changes a booking, everyone's booking changes. Individual team members cannot change bookings.
+- **Crew Member Self-Management**: All crew bookings are indepepent of one another, and bookings are not kept in sync across the crew. When the crew is scheduled, each crew member gets scheduled, but can change their own bookings regardless of others' work.
 
 
 ## Additional notes
