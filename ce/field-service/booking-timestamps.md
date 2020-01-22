@@ -26,7 +26,7 @@ search.app:
   - D365FS
 ---
 
-# Booking timestamps
+# Booking timestamps in Dynamics 365 Field Service
 
 Booking Timestamps are..
 
@@ -94,13 +94,13 @@ Timestamps are created when a booking status is updated. This happens most often
 You can view timestamps by going to the booking (entity name bookableresourcebooking)  then **Related > Booking Timestamps** where you can see:
 
 
-**Booking Status** - status changed to
+**Booking Status**: What the status changed to
 
-**System Status** - related field service status for work order process if applicable
+**System Status**: The related Field Service status for work order process, if applicable
 
-**Timestamp Time** - date and time of status change
+**Timestamp Time**: The date and time of status change
 
-**Timestamp Source** - interface the booking status was changed from. Typically "Mobile" when technicians change the status from Field Service Mobile and "Desktop" if dispatchers change the status from the schedule board. 
+**Timestamp Source**: The device from which the status was changed. If the status was changed from Field Service Mobile, this will read **Mobile**. If the status was changed from the schedule board, it will read **Desktop**. 
 
 Booking timestamps will generate differently based on the setting you chose for the **Timestamp Frequency** field in Field Service Settings.
 
@@ -124,5 +124,5 @@ On the other hand, with the **Per Booking Status** setting, a timestamp is creat
 In our example, this means both "Arrived on site" and "Wrench time" are recorded. The main difference is how detailed an organization wants to be for reporting and integration purposes.
 
 
-## Additional Notes
+## Additional notes 
 - Booking timestamps are used to calculate Booking Journals that calcualte total travel time and working time for a specific booking. From the booking go to **Related > Booking Journals** to view them. The **Timestamp Frequency** setting _does not_ effect how booking journals are created or calculated.
