@@ -2,7 +2,7 @@
 title: "Visualizing device readings | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/09/2019
+ms.date: 01/22/2020
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -37,6 +37,21 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing an example of the Device Readings chart](./media/connected-field-service-IoT-hub-device-measurements-workorder.png)
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-device-readings-standard.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-device-readings-select.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-device-readings-hover-history.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-device-readings-click-history.png)
 
 ## Prerequisites
 
@@ -127,6 +142,13 @@ Use the following table to troubleshoot error codes related to device readings.
 | 5000207 |		Unable to get the access token to query Time Series Insights |		Retry your request, and if the problem persists, try updating new Client ID and Client Secret by re-running the CFS Deployment App |
 | 5000603	 |	Request to Time Series Insights API returned with a failure	 |	Retry your request. If the problem persists, contact Microsoft Support to investigate |
 | 5000604	 |	Response from Time Series Insights API is not in an expected format	 |	Retry your request. If the problem persists, please contact Microsoft Support to investigate |
+
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-device-readings-history.png)
+
 
 ## Additional notes
 - Available only in United States English (en-US)
