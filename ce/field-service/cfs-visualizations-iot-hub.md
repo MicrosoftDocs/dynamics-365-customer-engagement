@@ -34,14 +34,9 @@ The device readings chart is available on the IoT alert, work order, case, devic
 
 To enable the device readings chart, administrators need to deploy Azure Time Series (Preview) into the Azure subscription when deploying or upgrading Connected Field Service with Azure IoT Hub for their organization. Administrators do the deployment through the [IoT Deployment app (aka.ms/deploycfs).](https://aka.ms/deploycfs)  
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing an example of the Device Readings chart](./media/connected-field-service-IoT-hub-device-measurements-workorder.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-device-readings-hover-history.png)
-
-
-
 
 ## Prerequisites
 
@@ -90,8 +85,6 @@ To view device readings, the following data must be in place:
 
  1. Open the **Device Readings (Preview)** tab on IoT alert, work order, case, device, or asset form.
 
- > [!div class="mx-imgBorder"]
-> ![Screenshot of an example of the device readings chart](./media/connected-field-service-IoT-hub-device-measurements-devicechart.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-device-readings-standard.png)
@@ -107,17 +100,14 @@ To view device readings, the following data must be in place:
 4. Hover over the chart to see tooltip with measurement details. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the device readings chart with tooltip showing](./media/connected-field-service-IoT-hub-device-measurements-hoover.png)
-
-> [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-device-readings-select.png)
 
 
-5. Select the eye icon next to **Work Orders** to show or hide any work orders created and closed during the selected time period. 
-
+5. Click a work order on the device readings chart to open service history with a link directly to the work order. 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-device-readings-click-history.png)
 
+Select the eye icon next to **Work Orders** to show or hide any work orders created and closed during the selected time period. 
 
 
 > [!div class="mx-imgBorder"]
@@ -132,7 +122,7 @@ Furthermore, a summary of the device readings such as average measurements and n
 > ![Screenshot of ](./media/cfs-device-readings-history.png)
 
 > [!Note]
-> The device summaries use the device data history information on the device record that based on data with a slight delay (30-60min) however you can use the **Pull Device Data** ribbon button to get the latest data from AzureIoT. The device summary is only displayed on customer assets if there is one related device, even though multiple devices can be related to one customer asset. Device summary calcualtions respect security roles so will change based on the nuber of alerts, work orders, etc your user has access to.
+> The device summaries use the device data history information on the device record that update at a slight delay (30-60min), however you can use the **Pull Device Data** ribbon button to get the latest data from AzureIoT. The device summary is only displayed on customer assets if there is one related device, even though multiple devices can be related to one customer asset. Device summary calculations respect security roles so will change based on the nuber of alerts, work orders, etc the logged in user has access to.
 
 ## Error codes
 
