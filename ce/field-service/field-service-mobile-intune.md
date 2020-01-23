@@ -28,7 +28,14 @@ search.app:
 
 # Manage Field Service Mobile with Microsoft Intune
 
+## Prerequisites
+
+- Field Service Mobile v12.1+ for iOS and Android
+- No Field Service Mobile Configurator (Woodford) requirements 
+
+
 ## What is Mobile Application Management (MAM)?
+
 Mobile Application Management (MAM) is software that enables IT administrators to apply and enforce corporate policies on mobile apps. One MAM option for IT administrators is [Microsoft Intune](https://docs.microsoft.com/en-us/intune/apps/app-management) that offers a suite of features that let you publish, push, configure, secure, monitor, and update mobile apps including Field Service Mobile, which you will find in a [list of Microsoft apps that are commonly used with Intune](https://aka.ms/mamenabledapps).
 
 ## Why is MAM important to Field Service organizations?
@@ -38,38 +45,19 @@ MAM is important to field service organizations whose technicians use Field Serv
 1. Technicians are "on the go" traveling to multiple different locations and there is a need to protect sensitive company data.
 2. Many field service organizations have a Bring-Your-Own-Device (BYOD) policy which means the field service mobile app needs management amond many different kinds of devices alongside personal apps. 
 
-Here are the most common uses of Intune MAM for Field Service Mobile:
-
-- protect corporate data with the policies that restrict data leakage such as “Cut/Copy/Paste/Save As”, provide encryption at rest, enforce application access and compliance, and remove corporate data at the application level.
-
-why is it helpful
-Leverage your Intune enabled infrastructure to manage and protect organizational data within the Field Service Mobile Application. 
-BYOD
 With an Intune enabled Field Service Mobile app, IT administrators can:
 - Add and assign your Field Service Mobile app to user groups and devices, including users in specific groups, devices in specific groups, and more.
 - Configure the Field Service Mobile app to start or run with specific settings enabled, and update your existing app when already on the device.
 - See reports and track app usage.
-limit the sharing of corporate data among apps
+- Limit the sharing of corporate data among apps by restricting data leakage through “Cut/Copy/Paste/Save As”
+- Provide encryption at rest
 
+## Get started
 
-We’ll be part of this list of apps soon:
+To get started follow the instructions for [adding and assigning an app with Intune](https://docs.microsoft.com/en-us/intune/apps/quickstart-add-assign-app)
 
-
-
-## Prerequisites
-
-- Field Service Mobile v12.1+
-- No Field Service Mobile Configurator (Woodford) requirements 
-
-> [!Note]
->
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
-
-## Configuration considerations
-## Additional Notes
-- with or without MDM device enrollment
+## Additional notes
+- MAM with Intune for Field Service Mobile will work with or without MDM device enrollment
 
 ### See also
 
