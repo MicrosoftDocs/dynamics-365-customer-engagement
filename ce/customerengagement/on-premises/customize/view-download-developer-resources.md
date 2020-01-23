@@ -46,7 +46,7 @@ For more information about using each item on the developer resources page, see 
   
  **Discovery Service**  
   
- This is a Web service that provides information about the organizations that are available on the Dynamics 365 Customer Engagement (on-premises) server using the SOAP protocol. This information includes the URL for each organization.  
+ This is a Web service that provides information about the organizations that are available on the Dynamics 365 Server using the SOAP protocol. This information includes the URL for each organization.  
   
  **Organization Service**  
   

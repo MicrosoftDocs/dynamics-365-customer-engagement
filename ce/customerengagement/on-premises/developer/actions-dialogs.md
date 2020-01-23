@@ -88,7 +88,7 @@ https://CRMServer_Name/Org_Name/cs/dialog/rundialog.aspx?DialogId=DialogID&Entit
 
  Where,  
 
-- *CRMServer_Name* is the name of your Dynamics 365 Customer Engagement (on-premises) server.  
+- *CRMServer_Name* is the name of your Dynamics 365 Server.  
 
 - _Org_Name_ is the organization name.  
 
