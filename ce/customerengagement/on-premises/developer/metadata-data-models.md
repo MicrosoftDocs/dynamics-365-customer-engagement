@@ -1,6 +1,6 @@
 ---
 title: "Metadata and data models (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "Dynamics 365 Customer Engagement (on-premises) uses a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes. This structure also makes upgrades and the transportation of customizations easier. The data structure can change without requiring any change to code in the Customer Engagement server or client applications."
+description: "Dynamics 365 Customer Engagement (on-premises) uses a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes. This structure also makes upgrades and the transportation of customizations easier. The data structure can change without requiring any change to code in the Dynamics 365 Server or client applications."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -21,15 +21,15 @@ search.app:
 ---
 # Metadata and data models
 
-Dynamics 365 Customer Engagement (on-premises) uses a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes. This structure also makes upgrades and the transportation of customizations easier. The data structure can change without requiring any change to code in the Dynamics 365 Customer Engagement (on-premises) server or client applications.  
+Dynamics 365 Customer Engagement (on-premises) uses a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes. This structure also makes upgrades and the transportation of customizations easier. The data structure can change without requiring any change to code in the Dynamics 365 Server or client applications.  
 
- All the information necessary for Dynamics 365 Customer Engagement (on-premises) server to operate is stored in the Dynamics 365 Customer Engagement (on-premises) metadata. This includes information about entities, attributes, relationships, and option sets.  
+ All the information necessary for Dynamics 365 Server to operate is stored in the Dynamics 365 Customer Engagement (on-premises) metadata. This includes information about entities, attributes, relationships, and option sets.  
 
  The Dynamics 365 Customer Engagement (on-premises) Web services contain the messages that you use to read or write the definitions for all the entities each organization. It can also be used to build a client-side metadata cache, which is useful for applications that access the metadata frequently. For example, you may want to create a custom search solution that supports all entities, even those created after the solution has been installed.  
 
  A very important role of the metadata is to provide the framework to deliver a fully metadata driven user interface. The entity metadata controls the grid and form layout, and how navigation options are presented.  
 
- When you create a custom entity, the information in the attributes and relationships are used to create the appropriate user interface for that entity. In addition, this supports multiple languages in the user interface so that one user may see labels and other text in a different language from another user. These languages and the associated labels are stored in the metadata. The language edition of Dynamics 365 Customer Engagement (on-premises) server that is installed for an organization is considered its base language. You then install Multilingual User Interface (MUI) language packs for additional languages as they are needed.  
+ When you create a custom entity, the information in the attributes and relationships are used to create the appropriate user interface for that entity. In addition, this supports multiple languages in the user interface so that one user may see labels and other text in a different language from another user. These languages and the associated labels are stored in the metadata. The language edition of Dynamics 365 Server that is installed for an organization is considered its base language. You then install Multilingual User Interface (MUI) language packs for additional languages as they are needed.  
 
  To read more about metadata and how to find metadata reports, see [Entity Metadata](introduction-entities.md#bkmk_EntityMetadata).  
 

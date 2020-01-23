@@ -137,7 +137,7 @@ The following supported tasks require this procedure:
   
 - Modifications to any .aspx, .css, .htm, .js, .xml, .jpg, or .gif files or the addition of files in the `wwwroot` directories of the Dynamics 365 Customer Engagement (on-premises) application, Dynamics 365 Customer Engagement (on-premises) tools, or Dynamics 365 Customer Engagement (on-premises) files located at Program Files\\Dynamics 365 Customer Engagement (on-premises). However, if you have made changes to these files, these files are checked for modifications and will not be overwritten.  
   
-- Modifications to the Dynamics 365 Customer Engagement (on-premises) website (file and website settings). Custom applications should be installed in a different website. This includes modifications to the file system access control lists (ACLs) of any files on the Dynamics 365 Customer Engagement (on-premises) server.  
+- Modifications to the Dynamics 365 Customer Engagement (on-premises) website (file and website settings). Custom applications should be installed in a different website. This includes modifications to the file system access control lists (ACLs) of any files on the Dynamics 365 Server.  
   
 - Use of client certificates is not supported. If you configure the Dynamics 365 Customer Engagement (on-premises) website to require IIS client certificates, you will get authentication failures for any applications that were built using the SDK.  
   
