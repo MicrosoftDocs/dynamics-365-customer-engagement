@@ -1,10 +1,10 @@
 ---
-title: "Search, link and unlink a record in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn on how to search, link and unlink a record in Omnichannel for Customer Service and link the record to a conversation."
+title: "Search, link, and unlink a record in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn on how to search, link, and unlink a record in Omnichannel for Customer Service, and link the record to a conversation."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 12/27/2019
+ms.date: 31/01/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -14,9 +14,9 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-The topic explains how to Search for records, link a record to the conversation, and unlink a record from the conversation.
+The topic explains how to Search for records, link a record to a conversation, and unlink the record from the conversation.
 
-You can search for the records in two ways:
+You can search for records in two ways:
 
 - Inline search
 - Relevance search
@@ -60,11 +60,11 @@ During inline search, the search results are displayed and you can select a reco
 
 Search the records using the relevance search option. When you select the Search icon, the search page launches in the application management toolbar. Specify the details and select the search icon. You will see the details in the form of a list.
 
-You can search for the case, account, contact and its associated fields as enabled by your administrator.
+You can search for a case, account, contact, and the associated fields as enabled by your administrator.
 
 1. Select the search icon ![Relevance Search icon](../../media/oceh-oc-search-icon.png "Relevance Search icon"). The application launches the **Relevance Search** tab in the application tab.  
 
-2. In the search box, specify the entity or attribute based on your search requirements and select the search icon.
+2. In the search box, specify the entity or attribute based on your search requirements, and select the search icon.
 
 3. Select **Search**. The search results appear.
 

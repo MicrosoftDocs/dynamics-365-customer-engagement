@@ -4,7 +4,7 @@ description: "Learn how to search for transcripts in Omnichannel for Customer Se
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 10/25/2019
+ms.date: 31/01/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -26,11 +26,11 @@ When you want to look for any details from the transcript, you can search for it
 
 2. Select search icon in the nav bar. The Search tab opens in the application tab panel.
 
-3. Type the phrase in the search box, and select the search icon. The results appears as a list.
+3. Type a phrase in the search box, and select the search icon. The results appears as a list.
 
-4. Select a result and the **Conversation Form** opens in the application tab panel.
+4. Select a result. The **Conversation Form** opens in the application tab panel.
 
-You can now view details in the **Transcript** section.
+You can now view the details in the **Transcript** section.
 
 ## See also
 
