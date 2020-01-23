@@ -46,7 +46,7 @@ The agent scripts reduce the human errors involved in the process as the agents 
 
 [Step 2: Associate agent script with session template](#step-2-associate-agent-script-with-session-template)
 
-[Step 3: Add agent script control to a form](#step-3-add-agent-script-control-to-a-form)
+[Step 3: Enable productivity pane](#step-3-enable-productivity-pane)
 
 ## Step 1: Create agent scripts
 
@@ -117,61 +117,31 @@ After you configure the agent script and add the field to a form, you need to as
 
 The agent script is associated with the session template.
 
-## Step 3: Add agent script control to a form
+## Step 3: Enable productivity pane
 
-After you create an agent script, you must add the agent script field to the form where you want agents to see it.
+After you've created the agent script, you need to enable the productivity pane to display the script to the agents in the Omnichannel for Customer app.
 
-1. Sign in to the Omnichannel Administration app, and then on the command bar select **Settings** ![Settings](../media/settings-gear.png "Settings") > **Advanced  Settings**.
+1. Sign in to the Omnichannel Administration app.
 
-2. Select **Settings** > **Customizations** > **Customize the System**. **Solution Explorer** opens in a new window.
+2. Select **Productivity pane** under **Agent Experience**.
 
-3. Expand **Entities** and select the entity for which you want to add the field. In this procedure, we will add to the **Customer Summary** form in the **Conversation** entity.
+3. Set the **Productivity pane** toggle to **Enabled** to enable the productivity pane for the users in the Omnichannel for Customer app.
 
-4. Expand **Conversation** > **Forms** > **Customer Summary**. The **Customer Summary** form opens in a new window.
+4. Set the **Mode** toggle as per your requirement. By default, the **Collapsed** mode is set, and you can set it to **Expanded**.
 
-5. Select the **INSERT** tab from the command bar, and then select **Section** > **One Column** in the command bar.
-
-    > [!div class=mx-imgBorder] 
-    > ![Add section](../media/agent-script-control5.png "Add section")
-
-6. Select the section, and then select **Change Properties** from the command bar. The **Section Properties** dialog appears.
-
-7. Specify **Agent script** as the value for both the **Name** and **Label** fields.
-
-8. Select the **Show the label of this section on the Form**  check box, and then select **OK**.
+    The productivity pane will be in expanded mode for the users if you set **Expanded**.
 
     > [!div class=mx-imgBorder] 
-    > ![Add name and show label](../media/agent-script-control8.png "Add name and show label")
+    > ![Enable productivity pane](../media/productivity-pane-enable.png "Enable productivity pane")
 
-9. Select a field of type **Text** from **Field Explorer**. For example, the **Title** field is of type **Text**. If you hover the cursor on a field, you can view the type.
+You've enabled the productivity pane. Now, users can see the agent script on the productivity pane in the Omnichannel for Customer Service app.
 
-    > [!div class=mx-imgBorder] 
-    > ![Add field of type Text](../media/agent-script-control9.png "Add field of type Text")
-
-10. Drag and drop the **Title** field to the section you added in the earlier step.
-
-11. Select the **Title** field in the **Agent script** section, and then select **Change Properties** from the command bar. The **Field Properties** dialog appears.
-
-12. Clear the **Display the label on the form** check box in the **Display** tab.
-
-    > [!div class=mx-imgBorder] 
-    > ![Clear display label](../media/agent-script-control12.png "Clear display label")
-
-13. Select the **Controls** tab in the **Field Properties** dialog, and then select **Add Control**.
-
-    > [!div class=mx-imgBorder] 
-    > ![Add agent script control](../media/agent-script-control13.png "Add agent script control")
-
-14. Select **Agent script control** in the **Add Control** dialog, and then select **Add**.
-
-15. Choose the **Web** radio button for the **Agent script control** option, and then select **OK**.
-
-    > [!div class=mx-imgBorder] 
-    > ![Choose web option](../media/agent-script-control15.png "Choose web option")
-
-16. Select **Save** to save the changes.
-
-17. Select **Publish** to publish the customizations.
+> [!Note]
+> - If you don't create agent script and enable the productivity pane, then users wouldn't see the pane in the Omnichannel for Customer Service app. 
+>
+> - It is recommended to remove the agent script control If you've customized a form to add the agent script field so agents can see it.
+>
+> - If you don't remove the agent script control, then agents will see the agent script control in the form and also in the productivity pane.
 
 ## Set default agent script for agents
 

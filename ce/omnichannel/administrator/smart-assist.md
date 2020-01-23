@@ -50,7 +50,7 @@ The smart assist feature can be enabled across all channels like Chat for Dynami
 
 [Step 3: Add smart assist bot to workstream](#step-3-add-smart-assist-bot-to-a-workstream)
 
-[Step 4: Add smart assist control to form](#step-4-add-smart-assist-control-to-a-form)
+[Step 4: Enable productivity pane](#step-4-enable-productivity-pane)
 
 ## Step 1: Develop a custom smart assist bot
 
@@ -92,61 +92,31 @@ After you create a bot user, you need to add the bot to the workstream so that t
 
 7. Select **Save** the workstream changes.
  
-## Step 4: Add smart assist control to a form
+## Step 4: Enable productivity pane
 
-After you add the smart assist bot to a workstream, you must add the smart assist field to the form where you want to show it for the agents.
+After you've created the agent script, you need to enable the productivity pane to display the smart assist card to the agents in the Omnichannel for Customer app.
 
-1. Sign in to the Omnichannel Administration app, and then on the command bar select **Settings** ![Settings](../media/settings-gear.png "Settings") > **Advanced  Settings**.
+1. Sign in to the Omnichannel Administration app.
 
-2. Select **Settings** > **Customizations** > **Customize the System**. **Solution Explorer** opens in a new window.
+2. Select **Productivity pane** under **Agent Experience**.
 
-3. Expand **Entities** and select the entity for which you want to add the field. In this procedure, let us add to the **Customer Summary** form in the **Conversation** entity.
+3. Set the **Productivity pane** toggle to **Enabled** to enable the productivity pane for the users in the Omnichannel for Customer app.
 
-4. Expand **Conversation** > **Forms** > **Customer Summary**. The **Customer Summary** form opens in a new window.
+4. Set the **Mode** toggle as per your requirement. By default, the **Collapsed** mode is set, and you can set it to **Expanded**.
 
-5. Select **INSERT** tab from the command bar, and then select **Section** > **One Column** in the command bar.
-
-    > [!div class=mx-imgBorder] 
-    > ![Add section](../media/agent-script-control5.png "Add section")
-
-6. Select the section, and then select **Change Properties** from the command bar. The **Section Properties** dialog appears.
-
-7. Specify **Smart Assist** as the value for both **Name** and **Label** field.
-
-8. Select the **Show the label of this section on the Form**  check box, and then select **OK**.
+    The productivity pane will be in expanded mode for the users if you set **Expanded**.
 
     > [!div class=mx-imgBorder] 
-    > ![Add name and show label](../media/smart-assist-control8.png "Add name and show label")
+    > ![Enable productivity pane](../media/productivity-pane-enable.png "Enable productivity pane")
 
-9. Select a field of type **Text** from **Field Explorer**. For example, the **Title** field is of type **Text**. If you hover the cursor on a field, you can view the type.
+You've enabled the productivity pane. Now, users can see the smart assist on the productivity pane in the Omnichannel for Customer Service app.
 
-    > [!div class=mx-imgBorder] 
-    > ![Add field of type Text](../media/agent-script-control9.png "Add field of type Text")
-
-10. Drag and drop the **Title** field to the section you added in earlier step.
-
-11. Select the **Title** field in the **Smart Assist** section, and then select **Change Properties** from the command bar. The **Field Properties** dialog appears.
-
-12. Clear the **Display the label on the form** check box in the **Display** tab.
-
-    > [!div class=mx-imgBorder] 
-    > ![Clear display label](../media/agent-script-control12.png "Clear display label")
-
-13. Select the **Controls** tab in the **Field Properties** dialog, and then select **Add Control**.
-
-    > [!div class=mx-imgBorder] 
-    > ![Add smart assist control](../media/agent-script-control13.png "Add smart assist control")
-
-14. Select **Smart Assist control** in the **Add Control** dialog, and then select **Add**.
-
-15. Choose the **Web** radio button for the **Smart Assist control** option, and then select **OK**.
-
-    > [!div class=mx-imgBorder] 
-    > ![Choose web option](../media/smart-assist-control15.png "Choose web option")
-
-16. Select **Save** to save the changes.
-
-17. Select **Publish** to publish the customizations.
+> [!Note]
+> - If you don't create smart assist card and enable the productivity pane, then users wouldn't see the pane in the Omnichannel for Customer Service app. 
+>
+> - It is recommended to remove the smart assist control If you've customized a form to add the smart assist field so agents can see it.
+>
+> - If you don't remove the smart assist control, then agents will see the smart assist control in the form and also in the productivity pane.
 
 ## See also
 
