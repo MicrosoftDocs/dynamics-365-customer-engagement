@@ -1,6 +1,6 @@
 ---
-title: "Use Sales Hub on Dynamics 365 for phones and tablets (Dynamics 365 Sales) | Microsoft Docs"
-description: "Use Sales Hub on Dynamics 365 phones and tablets"
+title: "Use Sales Professional on Dynamics 365 for phones and tablets (Dynamics 365 Sales) | Microsoft Docs"
+description: "Use Sales Professional on Dynamics 365 phones and tablets"
 ms.date: 10/01/2019
 ms.service: 
   - dynamics-365-sales
@@ -12,9 +12,9 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Use the Sales Hub app on mobile devices
+# Use the Sales Professional app on mobile devices
 
-Access your Sales Hub data while you're on the go by using Dynamics 365 for phones or Dynamics 365 for tablets on your mobile device. The Sales Hub app works the same whether you're using it on your mobile device or on a web browser on your computer.
+Access your Sales Professional data while you're on the go by using Dynamics 365 for phones or Dynamics 365 for tablets on your mobile device. The Sales Professional app works the same whether you're using it on your mobile device or on a web browser on your computer.
 
 Before you can start using the app, you need to install the Dynamics 365 for mobile app on your device. 
 
@@ -23,7 +23,7 @@ Before you can start using the app, you need to install the Dynamics 365 for mob
 ## Basic navigation
 
 1.	When you sign in, you'll see the MyApps page with all your apps listed. 
-2.	Select **Sales Hub**.
+2.	Select **Sales Professional**.
 
     > [!div class="mx-imgBorder"]
     > ![Choose an app](media/ChooseAnApp_1.png "Choose an app")
@@ -46,11 +46,11 @@ The **Favorites** and **Recently Used** sections provide quick access to your re
     > [!div class="mx-imgBorder"]
     > ![Favorites and Recent items](media/Favs_3.png "Favorites and Recent items")
   
-## How to use the Sales Hub app on the go  
+## How to use the Sales Professional app on the go  
 
-The Sales Hub app on the Dynamics 365 for phones mobile app is designed to be your work assistant. The app helps you to engage with customers, close more deals, and acts as your office assistant.
+The Sales Professional app on the Dynamics 365 for phones mobile app is designed to be your work assistant. The app helps you to engage with customers, close more deals, and acts as your office assistant.
 
-Here are a few tasks that you can perform during your day-to-day activities by using the Sales Hub app on the Dynamics 365 for phones mobile app:
+Here are a few tasks that you can perform during your day-to-day activities by using the Sales Professional app on the Dynamics 365 for phones mobile app:
 
 - [Plan for your day](#plan-for-your-day)
 
@@ -92,7 +92,7 @@ In addition, you can select the **Regarding** record to view which opportunity o
 
 ### Take notes in a meeting
 
-It's no longer necessary for you to open a laptop to add notes to an opportunity. You can use the Sales Hub mobile app to quickly add notes to an opportunity by using your mobile device.
+It's no longer necessary for you to open a laptop to add notes to an opportunity. You can use the Sales Professional mobile app to quickly add notes to an opportunity by using your mobile device.
 
 **To add notes to an opportunity**
 
@@ -240,7 +240,7 @@ Quickly review pending tasks and close the ones you got to during the day.
 
 ### Work offline when you have intermittent connectivity
 
-You can use the Sales Hub app on Dynamics 365 for mobile in offline mode when you're experiencing intermittent connectivity. Select the **Enable Mobile Offline** option in the app module properties to access the Sales Hub app offline. 
+You can use the Sales Professional app on Dynamics 365 for mobile in offline mode when you're experiencing intermittent connectivity. Select the **Enable Mobile Offline** option in the app module properties to access the Sales Professional app offline. 
 
 An administrator must have associated a mobile offline profile to your user record before you can work offline. The administrator can use the **Sample Sales Scenario** mobile offline profile that's shipped out of the box, or create your own profile. For more information, see [Set up mobile offline synchronization to allow users to work in offline mode on their mobile device](../mobile-app/setup-mobile-offline-for-admin.md).
 
@@ -291,4 +291,4 @@ Yes, custom fields of all types are available to use offline. For lookup fields,
 
 [Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)
 
-[User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)
+[Help resources for salespeople](user-guide.md)
