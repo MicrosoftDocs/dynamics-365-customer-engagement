@@ -16,7 +16,7 @@ ms.topic: article
 
 ## Overview of agent scripts
 
-Agent scripts in Omnichannel for Customer Service provide guidance about what you (an agent) should do when you get a customer issue. They ensure that you share only accurate and company-endorsed information. Agent scripts help you to be accurate and effective while also being faster and more efficient in terms of customer handling.
+Agent scripts in Omnichannel for Customer Service provide guidance about what you (an agent) should do when you get a customer issue and ensure that you share only accurate and company-endorsed information. Agent scripts help you to be accurate and effective while also being faster and more efficient in terms of customer handling.
 
 > [!div class='mx-imgBorder']
 > ![Agent script](../../media/agent-script-section.PNG "Agent script")
@@ -26,7 +26,7 @@ Agent scripts in Omnichannel for Customer Service provide guidance about what yo
 3. Macro
 4. Agent script
 
-The agent script section consists of a set of steps. Based on the type of agent script the administrator has configured, you might follow these types of steps:
+The agent script section consists of a set of steps. Based on the type of agent script the administrator has configured, you might see the following types:
 
 - Text instructions
 - Macro
