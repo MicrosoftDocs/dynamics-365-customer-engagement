@@ -72,13 +72,13 @@ You’re now ready to use the PowerShell cmdlet. To list the cmdlets that you re
 
 2. Use the following command to retrieve your organizations, and store the information in the `$CRMOrgs` variable:
   
-   - If you’re connecting to the Dynamics 365 Customer Engagement (on-premises) server:  
+   - If you’re connecting to the Dynamics 365 Server:  
   
      ```powershell  
      $CRMOrgs = Get-CrmOrganizations –ServerUrl https://<CRM_Server_Host> –Credential $Cred  
      ```      
   
-   - If you’re connecting to the  Dynamics 365 Customer Engagement (on-premises) server using the claims-based authentication against the specified Home realm:  
+   - If you’re connecting to the  Dynamics 365 Server using the claims-based authentication against the specified Home realm:  
   
      ```powershell  
      $CRMOrgs = Get-CrmOrganizations –ServerUrl https://<CRM_Server_Host> –Credential $Cred –HomRealmURL https://<Identity_Provider_Address>  
@@ -122,13 +122,13 @@ You’re now ready to use the PowerShell cmdlet. To list the cmdlets that you re
   
 1. To connect to Dynamics 365 Customer Engagement (on-premises), use the following commands. Note that these commands use the `$Cred` variable created earlier to store the credential while retrieving the organizations. The connection information is stored in the `$CRMConn` variable:
   
-   - If you’re connecting to the Dynamics 365 Customer Engagement (on-premises) server:  
+   - If you’re connecting to the Dynamics 365 Server:  
   
      ```powershell  
      $CRMConn = Get-CrmConnection –ServerUrl https://<CRM_Server_Host> -Credential $Cred -OrganizationName <OrgName>  
      ```
   
-   - If you’re connecting to the Dynamics 365 Customer Engagement (on-premises) server using the claims-based authentication against the specified Home realm:  
+   - If you’re connecting to the Dynamics 365 Server using the claims-based authentication against the specified Home realm:  
   
      ```powershell  
      $CRMConn = Get-CrmConnection –ServerUrl https://<CRM_Server_Host> -Credential $Cred -OrganizationName <OrgName> –HomRealmURL https://<Identity_Provider_Address>  

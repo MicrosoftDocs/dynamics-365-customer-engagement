@@ -1,5 +1,5 @@
 ---
-title: "User who is running Microsoft Dynamics 365 for Customer Engagement Server Setup is not a domain user | Microsoft Docs"
+title: "User who is running Microsoft Dynamics 365 Server Setup is not a domain user | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -12,7 +12,7 @@ robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# User who is running Microsoft Dynamics 365 for Customer Engagement Server Setup is not a domain user
+# User who is running Microsoft Dynamics 365 Server Setup is not a domain user
 
 ## Cause 1
   

@@ -74,7 +74,7 @@ CrmSvcUtil.exe /?
 
 ## Usage examples
 
-The following examples show how to use of the code generation tool from the command line. Note that user name and password are optional parameters. If your credentials for the target Dynamics 365 Customer Engagement (on-premises) server are stored in the [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] credential vault, you do not have to provide them to run the code generation tool.
+The following examples show how to use of the code generation tool from the command line. Note that user name and password are optional parameters. If your credentials for the target Dynamics 365 Server are stored in the [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] credential vault, you do not have to provide them to run the code generation tool.
 
 ### Claims authentication – Active Directory
 
