@@ -19,6 +19,11 @@ ms.topic: article
 Agent scripts in Omnichannel for Customer Service provide guidance about what you (an agent) should do when you get a customer issue and ensure that you share only accurate and company-endorsed information. Agent scripts help you to be accurate and effective while also being faster and more efficient in terms of customer handling.
 
 > [!div class='mx-imgBorder']
+> ![Productivity pane](../../media/productivity-pane.PNG "Productivity pane")
+
+## Components in agent script
+
+> [!div class='mx-imgBorder']
 > ![Agent script](../../media/agent-script-section.PNG "Agent script")
 
 1. Agent script menu
