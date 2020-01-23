@@ -20,7 +20,7 @@ Smart assist is an intelligent assistant that provides real-time recommendations
 
 ## Smart assist control
 
-The smart assist control can appear in any of the entity forms as configured by your administrator. 
+If your administrator has configured the Productivity pane, then the productivity pane appears and on which the smart assist cards appear. To configure productivity pane, see [Enable productivity pane](../../administrator/smart-assist.md#step-4-enable-productivity-pane).
 
 The smart assist bot interprets the conversation in the communication panel and provides real-time recommendations.
 
