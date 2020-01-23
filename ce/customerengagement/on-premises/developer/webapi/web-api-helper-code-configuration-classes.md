@@ -51,11 +51,11 @@ Use the configuration class hierarchy to specify the required connection data fo
 
 ```xml  
 <connectionStrings> 
-    <add name="default" connectionString="Url=http://myserver/myorg/; Username=name; Password=password; Domain=domain" /> 
+    <add name="default" connectionString="Url=https://myserver/myorg/; Username=name; Password=password; Domain=domain" /> 
 </connectionStrings> 
 <appSettings> 
     <add key="ClientId" value="e5cf0024-a66a-4f16-85ce-99ba97a24bb2" /> 
-    <add key="RedirectUrl" value="http://localhost/SdkSample" /> 
+    <add key="RedirectUrl" value="https://localhost/SdkSample" /> 
 </appSettings>  
 ```  
 
@@ -147,7 +147,7 @@ if (cmdargs.Length > 0) { config = new FileConfiguration(cmdargs[0]); } else { c
       <clear />
       <!-- When providing a password, make  
                 sure to set the app.config file's security so that only you can read it. -->
-      <add name="default" connectionString="Url=http://myserver/myorg/; Username=name; Password=password; Domain=domain" />
+      <add name="default" connectionString="Url=https://myserver/myorg/; Username=name; Password=password; Domain=domain" />
       <add name="CrmOnline" connectionString="Url=https://mydomain.crm.dynamics.com/;                   Username=someone@mydomain.onmicrosoft.com; Password=password" />
    </connectionStrings>
    <appSettings>
@@ -156,7 +156,7 @@ if (cmdargs.Length > 0) { config = new FileConfiguration(cmdargs[0]); } else { c
       <!--Active Directory application registration. -->
       <!--These are dummy values and should be replaced with your actual app registration values.-->
       <add key="ClientId" value="e5cf0024-a66a-4f16-85ce-99ba97a24bb2" />
-      <add key="RedirectUrl" value="http://localhost/SdkSample" />
+      <add key="RedirectUrl" value="https://localhost/SdkSample" />
       <!-- Use an alternate configuration file for connection string and setting values. This optional setting enables use of an app.config file shared among multiple applications. If the specified file does not exist,  
                 this setting is ignored.-->
       <add key="AlternateConfig" value="C:\Temp\crmsample.exe.config" />

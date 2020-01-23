@@ -45,7 +45,7 @@ Both spam filters and sender-reputation systems analyze the content of the messa
 
 ### Authenticate your sending domain
 
-Dynamics 365 Marketing provides a feature that enables you to set up _DomainKeys Identified Mail_ ([DKIM](http://dkim.org/info/dkim-faq.html)) to link your Dynamics 365 Marketing sending domain with your own email domain. For complete details on why this is important and how to do it, see [Set up DKIM for your sending domain](#dkim).
+Dynamics 365 Marketing provides a feature that enables you to set up _DomainKeys Identified Mail_ ([DKIM](https://dkim.org/info/dkim-faq.html)) to link your Dynamics 365 Marketing sending domain with your own email domain. For complete details on why this is important and how to do it, see [Set up DKIM for your sending domain](#dkim).
 
 ### Avoid sending to invalid and inactive email addresses
 

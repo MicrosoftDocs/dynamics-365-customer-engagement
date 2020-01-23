@@ -75,7 +75,7 @@ The smart assist feature can be enabled across all channels like Chat for Dynami
 
 To set up the Dynamics 365 Productivity Tools, follow the steps. 
 
-1. Go to [Microsoft AppSource](https://appsource.microsoft.com/en-us/product/dynamics-crm/mscrm.d365_productivity_tools-preview?flightCodes=d365productivitytoolspreview). The Dynamics 365 Productivity Tools page appears.
+1. Go to [Microsoft AppSource](https://appsource.microsoft.com/product/dynamics-crm/mscrm.d365_productivity_tools-preview?flightCodes=d365productivitytoolspreview). The Dynamics 365 Productivity Tools page appears.
 
 2. Select **GET IT NOW**. 
 
