@@ -68,10 +68,8 @@ Verify the following prerequisites before you use the Resource Scheduling Report
 
 | Visuals |	Description |
 | --- | --- |
-| Avg work time per day (hrs.)  |	Average length of time per day that a technician(s) takes to work at the customer site. |
-| Total length of work time/ count of days in the given period from slicer |
-| Avg travel time per day (hrs.) |	Average length of time per day that a technician(s) takes on travel.
-Total length of travel time/ count of days in the given period from slicer Total miles traveled 	Total miles on truck rolls in the given period from slicer.  |
+| Avg work time per day (hrs.)  |	Average length of time per day that a technician(s) takes to work at the customer site. Total length of work time/ count of days in the given period from slicer |
+| Avg travel time per day (hrs.) |	Average length of time per day that a technician(s) takes on travel. Total length of travel time/ count of days in the given period from slicer Total miles traveled 	Total miles on truck rolls in the given period from slicer.  |
 | Avg miles traveled per day |	Average miles on truck rolls per day. Total miles/count of days in the given period from slicer |
 | Utilization rate | The percentage of time a resource spends on work and travel in the given period from slicer. (work duration +travel duration)/available time on the calendar rule  |
 | Late arrival rate |	For all in progress or completed bookings, the percentage of bookings where technician arrives later than the “Time to Promise” or “Estimated arrival time” if “Time to Promise” is not enabled in the implementation.  |
@@ -83,6 +81,16 @@ Total length of travel time/ count of days in the given period from slicer Total
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-analytics2.png)
+
+| Visuals |	Description | 
+| --- | --- |
+| Bookings by Territory  |	Display a filled map for each territory and hover on a specific territory that will display no of bookings, total work time, travel time and break time. 
+For territory, it is based on territory entity. So, to render this report properly, the territory needs to be a physical geo location rather a logical geo location.  |
+| Variance to estimated travel time |	Calculate the variance between estimated travel time and actual travel time. Lump sum the variance by each territory and display the comparable result in a whole. |
+| Requirement duration % vs. allocated resource duration % |	Gauge whether the total requirement in each territory is balanced with total resource allocated to that territory. 
+The analysis is to display percentage value of requirement duration and compare with percentage value of allocated resource duration  |
+| Miles travels by trend |	The visual displays the trend of total miles traveled per month |
+
 
 
 > [!div class="mx-imgBorder"]
