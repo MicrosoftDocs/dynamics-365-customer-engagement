@@ -109,7 +109,7 @@ After you've created the agent script, you need to enable the productivity pane 
     > [!div class=mx-imgBorder] 
     > ![Enable productivity pane](../media/productivity-pane-enable.png "Enable productivity pane")
 
-You've enabled the productivity pane. Now, users can see the smart assist on the productivity pane in the Omnichannel for Customer Service app.
+You've enabled the productivity pane. Now, users can see the smart assist cards on the productivity pane in the Omnichannel for Customer Service app.
 
 > [!Note]
 > - If you don't create smart assist card and enable the productivity pane, then users wouldn't see the pane in the Omnichannel for Customer Service app. 
