@@ -244,7 +244,7 @@ namespace PowerApps.Samples
         /// <summary>
         /// Helper method to create an active directory account
         /// </summary>
-        /// <param name="userName">The username field as set in Microsoft Dynamics CRM</param>
+        /// <param name="userName">The username field as set in Dynamics 365 Customer Engagement</param>
         /// <param name="firstName">The first name of the system user to be retrieved</param>
         /// <param name="lastName">The last name of the system user to be retrieved</param>
         /// <param name="service">The client service object to your environment</param>
