@@ -78,11 +78,11 @@ For information about the bug fixes that are included in each update that is par
 
 ### Removed and deprecated features
 
-The [Removed or deprecated features](../../dev-itpro/migration-upgrade/deprecated-features.md) topic describes features that have been removed or deprecated.
+The Removed or deprecated features topic describes features that have been removed or deprecated.
 
 - A *removed* feature is no longer available in the product.
 - A *deprecated* feature isn't in active development and might be removed in a future update.
 
-A deprecation notice will be added in the [Removed or deprecated features](../../dev-itpro/migration-upgrade/deprecated-features.md) topic 12 months before the removal of any feature from the product.
+
 
 For breaking changes that affect only compilation time, but that are binary-compatible with sandbox and production environments, the deprecation time will be less than 12 months. Typically, these changes are functional updates that must be made to the compiler.
