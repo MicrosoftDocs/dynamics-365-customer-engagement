@@ -9,7 +9,7 @@ applies_to:
   - Dynamics 365 Sales
 ms.assetid: e9258994-b84a-cefb-4d97-762f4bc3ca5a
 author: shubhadaj
-ms.author: mhart
+ms.author: shujoshi
 search.audienceType: 
   - admin
   - customizer

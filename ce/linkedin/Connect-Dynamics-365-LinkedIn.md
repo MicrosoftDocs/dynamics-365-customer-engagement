@@ -9,7 +9,7 @@ applies_to:
   - Dynamics 365 Sales
 ms.assetid: 4140669d-2155-4f43-a4fc-253b67e42f7d
 author: shubhadaj
-ms.author: mhart
+ms.author: shujoshi
 manager: sakudes
 topic-status: Drafting
 ms.custom: 

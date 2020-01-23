@@ -10,7 +10,7 @@ applies_to:
   - Dynamics 365 Marketing
 ms.assetid: 7ceb9c1e-c044-4d4c-8710-9fe0b79aeb68
 author: shubhadaj
-ms.author: mhart
+ms.author: shujoshi
 manager: sakudes
 topic-status: Drafting
 search.audienceType: 

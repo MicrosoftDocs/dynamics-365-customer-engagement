@@ -9,7 +9,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
   - "Dynamics 365 (online)"
 author: shubhadaj
-ms.author: mhart
+ms.author: shujoshi
 search.audienceType: 
   - admin
   - customizer

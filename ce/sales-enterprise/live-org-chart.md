@@ -6,7 +6,7 @@ ms.service:
   - "dynamics-365-sales"
 ms.topic: article
 author: shubhadaj
-ms.author: mhart
+ms.author: shujoshi
 manager: shellyha
 ---
 

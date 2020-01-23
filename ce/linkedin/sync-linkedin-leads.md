@@ -9,7 +9,7 @@ applies_to:
   - Dynamics 365 Sales
 ms.assetid: 13c8a439-30bc-45a4-bf4e-a25781148a4c
 author: shubhadaj
-ms.author: mhart
+ms.author: shujoshi
 manager: sakudes
 ms.custom:
   - dyn365-LinkedIn
