@@ -61,7 +61,7 @@ Verify the following prerequisites before you use the Resource Scheduling Report
 - For Resource and utilization, Field Service is provisioned, and the report is assigned to a role that wants to get the access by Administrator.   
 - For RSO Admin and Optimization summary reports, RSO is provisioned and the report is assigned a role that wants to get the access by Administrator.   
 
-
+## Resource Scheduling analytics
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-analytics1.png)
@@ -94,13 +94,42 @@ Verify the following prerequisites before you use the Resource Scheduling Report
 | Resource work time quartile analysis  |	Display the work time and travel time per resource given the period from slicer. Segment individual resource compared with the work time quartile.  Work time quartile: <1st quartile (25%), Between 1st -2nd quartile (25%-50%), Between 2nd to 3rd quartile (50%-75%), >3rd quartile (>75%)  |
 | Resource metrics |	Show the breakdown of KPIs for each resource that include no of bookings, % utilization, Year on Year % change of utilization, work time, travel time, break time and idle time. Rank the resource by no of bookings. Drill by the column to view the data by year, month, week and day. | 
 
+## Resource Scheduling Optimization analytics
 
+
+### RSO Admin
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-analytics-rso-admin.png)
 
 
+| Visuals |	Description | 
+| --- | --- |
+| Avg bookings |	The average number of bookings in given schedule requests.  |
+|Avg Requirements |	The average number of requirements in given schedule requests. |
+|Avg Resources |	The average number of schedulable resources in given schedule requests. |
+|Optimization E2E time |	This metric will define the optimization execution time |
+| Number of failed optimization request |	The number of failed optimization request in the given schedule requests. |
+
+### Optimization summary
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-analytics-rso-summary.png)
+
+| Visuals |	Description | 
+| --- | --- |
+| Booking scheduled |	The total number of bookings scheduled in given schedule requests. | 
+| Resource allocated |	The total number of resources allocated in given schedule requests. | 
+| Work time allocated (hrs.) |	The total work time allocated in given schedule requests. |
+| Travel time allocated (hrs.) |	The total travel time allocated in given schedule requests. |
+|Total time allocation (hrs.) |	The break down percentage and value between work time and travel time |
+| Resource time allocation |	Uncover RSO reports of the booking scheduled, locked bookings, work time and travel time per individual resource in given schedule requests.  Hight light the overloaded resource with color coding. |
+| Least allocated resource |	Rank the resource based on the utilization so the planner can squeeze new emergency to least allocated resource |
+
+
+| Visuals |	Description | 
+| --- | --- | 
+|Territory summary |	Show the filled map for each territory and you can filter the data by selecting one of Territory |
+| Booking metrics by territory | 	 The scheduled bookings, worktime allocated, and total travel time allocated for each territory. |
+
 
 ## Configuration considerations
 ## Additional Notes
