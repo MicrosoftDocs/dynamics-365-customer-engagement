@@ -45,6 +45,8 @@ You can change how [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
         >  Some negative numbering options always display numbers within parentheses, for example (100.00), regardless of the preferred setting in some countries/regions. Additionally, some long numbers will not appear with commas as they should, for example 10000. This issue will be corrected in a future release.  
   
     -   **Currency**. Set options for the currency format, negative currency amounts, and number of decimal places.  
+        > [!IMPORTANT]
+        > The base currency of an organization cannot be changed. If the wrong base currency is selected, the environment must be reset and the correct currency must be chosen at that time.
   
     -   **Time**. Set options for the time format, time separator, and notation for morning and afternoon.  
   
