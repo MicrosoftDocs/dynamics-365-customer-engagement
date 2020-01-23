@@ -1,7 +1,7 @@
 ---
 title: "Customize your regional settings (number, currency, time, and date) in Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/11/2016
+ms.date: 01/23/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
