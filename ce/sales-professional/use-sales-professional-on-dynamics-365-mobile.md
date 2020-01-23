@@ -27,7 +27,7 @@ Before you can start using the app, you need to install the Dynamics 365 for mob
 
     > [!div class="mx-imgBorder"]
     > ![Choose an app](media/ChooseAnApp_1.png "Choose an app")
-<!--note from editor: In the preceding graphic, I don't think "CDS De" is an approved fictitious company name, is it? Can it just be "Contoso" everywhere?-->
+
 **The navigation bar**
 
 Use the nav bar to get to your work area, create a new record, search, or do other tasks. To access more commands, tap **More** (![More](media/MoreButton.png "More")).
@@ -84,7 +84,7 @@ During your travels, you can open any appointment in the calendar to view more d
 
 > [!div class="mx-imgBorder"]
 > ![Appointment details](media/mobile-app-appointment-details.png "Appointment details")
-<!--note from editor: In the preceding graphic, I don't find these user names in our current list of approved fictitious names. Are they from sample data?-->
+
 In addition, you can select the **Regarding** record to view which opportunity or account the meeting is about. As you view the opportunity or account, you can review the timeline of notes and past activities to ramp up on context before the meeting begins.
 
 > [!div class="mx-imgBorder"]
@@ -102,12 +102,12 @@ It's no longer necessary for you to open a laptop to add notes to an opportunity
 
     > [!div class="mx-imgBorder"]
     > ![Add a note to an opportunity](media/mobile-app-take-notes-timeline.png "Add a note to an opportunity")
-<!--note from editor: In the preceding graphic, I don't find John Peltier in our current list of approved fictitious names. Is this from sample data?-->
+
 3. (Optional) If the customer shows interest in additional products, go to the **Product line items** section, and then select **More options** > **+ Add Product**.
 
     > [!div class="mx-imgBorder"]
     > ![Select the Add Product option](media/mobile-app-select-add-product.png "Select the Add Product option")
-<!--note from editor: In the preceding graphic, is the fictitious name approved?-->
+
 4. Select a product from the catalog, or enter a product.
 
     > [!div class="mx-imgBorder"]
@@ -117,7 +117,7 @@ It's no longer necessary for you to open a laptop to add notes to an opportunity
 
     > [!div class="mx-imgBorder"]
     > ![Stakeholder section](media/mobile-app-stakeholder-tab.png "Stakeholder section")
-<!--note from editor: Are these names approved?-->
+
 ### Update deals and customer information after a meeting
 
 After you step out of a meeting, you can quickly update information about the deal or the opportunity.
@@ -134,7 +134,7 @@ After you step out of a meeting, you can quickly update information about the de
 
     > [!div class="mx-imgBorder"]
     > ![Update an opportunity](media/mobile-app-update-opportunity.png "Update an opportunity")
-<!--note from editor: Fictitious name okay?-->
+
 3. To create a follow-up appointment for the opportunity, go to the **Appointments** tab, and then select **More options** > **+ New Appointment**.
 
     > [!div class="mx-imgBorder"]
@@ -144,7 +144,7 @@ After you step out of a meeting, you can quickly update information about the de
 
     > [!div class="mx-imgBorder"]
     > ![Appointment saved](media/mobile-app-appointment-saved.png "Appointment saved")
-<!--note from editor: Fictitious name okay?-->
+
 After you're done, you can open the appointment and mark it as complete.
 
 ### Search for a contact or account <a id="search-contact-or-account"></a>
@@ -167,7 +167,7 @@ You can search for and find information about a contact or account referenced in
 
     > [!div class="mx-imgBorder"]
     > ![Search contact results](media/mobile-app-search-contact-results.png "Search contact results")
-<!--note from editor: Fictitious name okay?-->
+
 4. In the search results, select and open the contact to view more information.
 
 
@@ -183,7 +183,7 @@ When you meet a new lead at an event, you can immediately add and qualify the le
 
     > [!div class="mx-imgBorder"]
     > ![Create new lead](media/mobile-app-new-lead.png "Create a new lead")
-<!--note from editor: Fictitious name okay?-->
+
 3. Enter the necessary information, and then save the lead.
 
 4. To qualify a lead, open the lead and select  **More options** > **Qualify**.
@@ -207,14 +207,14 @@ After a successful meeting, you can quickly generate a PDF of the quote from an 
     > ![Generate a quote](media/mobile-app-generate-quote.png "Generate a quote")
 
     A quote is generated.
-<!--note from editor: Fictitious name okay?-->
+
 4. From the quote page, on the toolbar, select **More options** > **Email as PDF** > **Print quote for customer**.
 
     An email opens with the quote as an attachment.
 
     > [!div class="mx-imgBorder"]
     > ![Send a quote as an email](media/mobile-app-quote-email.png "Send a quote as an email")
-<!--note from editor: Fictitious name okay?-->
+
 5. Send the email.
 
 ### Manage your to-do list
@@ -242,8 +242,7 @@ Quickly review pending tasks and close the ones you got to during the day.
 
 You can use the Sales Professional app on Dynamics 365 for mobile in offline mode when you're experiencing intermittent connectivity. Select the **Enable Mobile Offline** option in the app module properties to access the Sales Professional app offline. 
 
-<!--note from editor: This seems like something an admin must do, not necessarily the reader of this article. Should it say something like "An admin must have associated a mobile offline profile to your user record before you can work offline. The admin can use the Sample Sales Scenario, etc."? -->
-You must also add users for offline access by associating a mobile offline profile to their user records before they work offline. You can use the **Sample Sales Scenario** mobile offline profile that's shipped out of the box, or create your own profile. For more information, see [Set up mobile offline synchronization to allow users to work in offline mode on their mobile device](../mobile-app/setup-mobile-offline-for-admin.md).
+An administrator must have associated a mobile offline profile to your user record before you can work offline. The administrator can use the **Sample Sales Scenario** mobile offline profile that's shipped out of the box, or create your own profile. For more information, see [Set up mobile offline synchronization to allow users to work in offline mode on their mobile device](../mobile-app/setup-mobile-offline-for-admin.md).
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work offline on your mobile device](../mobile-app/work-in-offline-mode.md)
 
