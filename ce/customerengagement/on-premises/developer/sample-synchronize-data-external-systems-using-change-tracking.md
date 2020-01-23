@@ -22,84 +22,39 @@ search.app:
 ---
 # Sample: Synchronize data with external systems using change tracking
 
-This sample code shows how to retrieve changes from an entity and synchronize data with external systems by using the `RetrieveEntityChangesRequest` message. For more information about the feature that this sample demonstrates, see [Use change tracking to synchronize data with external systems](use-change-tracking-synchronize-data-external-systems.md).  
+This sample code shows how to retrieve changes from an entity and synchronize data with external systems by using the `RetrieveEntityChanges` message with the [RetrieveEntityChangesRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.retrieveentitychangesrequest) and [RetrieveEntityChangesResponse](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.retrieveentitychangesresponse) classes. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/Changetracking).
 
- This sample requires [!INCLUDE[pn_crm_8_1_0_both](../includes/pn-crm-8-1-0-both.md)] or later . This sample is available to download from [Synchronize data with external systems using change tracking](https://go.microsoft.com/fwlink/p/?LinkId=533957).  
+[!include[cc-sample-note](includes/cc-sample-note.md)]
 
-## Prerequisites  
-
-1. Have access to a [!INCLUDE[pn_crm_8_1_0_both](../includes/pn-crm-8-1-0-both.md)] or later organization.  
-
-2. Download the ChangeTrackingSample Visual Studio project.  
-
-3. Open the ChangeTrackingSample Visual Studio project and install the latest Microsoft.CrmSdk.CoreAssemblies NuGet Package. See [Install NuGet packages](#BKMK_install) for instructions.  
-
-4. After you install the NuGet packages, see [Run the sample](#BKMK_runSample) for instructions on how to run the sample and what to expect.  
-
-<a name="BKMK_whatsampledoes"></a>   
-## What this sample does  
-
-1. The `ChangeTrackingSample` class `Run` method calls the `ImportChangeTrackingSolution` method which first detects whether the ChangeTrackingSample managed solution is already installed. If it is not, the ChangeTrackingSample_1_0_0_0_managed.zip file is imported to install this managed solution.  
-
-    This managed solution contains a custom sample_book entity that is used by this sample. This entity has a sample_bookcode alternate key that creates a unique constraint on the values stored in that attribute.  
-
-2. The `WaitForEntityAndKeysToBeActive` method is necessary because the alternate keys required for this sample may not be ready immediately after the ChangeTrackingSample solution is installed. This method polls the metadata for the sample_book entity to delay the execution of the rest of the sample until the alternate keys are ready.  
-
-3. `CreateRequiredRecords` method generates 10 records in the sample_book entity.  
-
-4. The first time the `RetrieveEntityChangesRequest` is called; it performs an initial synchronization and retrieves all the records in the entity along with the version number and caches the retrieved records.  
-
-5. After caching the initial records, the program asks if you want to view the sample_book entity records. If you respond with ‘y’ the program will attempt to open [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] to a view showing the newly created records.  
-
-6. `UpdateRecords` method adds ten new records, updates an existing record and deletes a record in the sample_book entity.  
-
-7. After updating the records, the program resets the paging information and instantiates the cache objects.  
-
-8. When `RetrieveEntityChangesRequest` is called again, it only retrieves the updated records since the last synchronization.  
-
-9. After retrieving the changes, the program will ask if you want to view the sample_book entity records. If you respond with ‘y’ the program will attempt to open [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] to a view showing the newly created records.  
-
-10. Finally, the `DeleteChangeTrackingSampleSolution` will prompt you to delete the ChangeTrackingSample managed solution.  
-
-     If you select “y”, the managed solution will be deleted including the sample_book entity and all the data in that entity. Your organization will be left with nothing added to it.  
-
-     If you select “n”, you can inspect the details of the solution including the data created by the sample. But you must manually delete the managed solution to return your organization to the original state.  
-
-<a name="BKMK_install"></a>   
-## Install NuGet packages  
- Use the following steps to install the required assemblies for this sample:  
-
-1.  Download this sample and extract the files.  
-
-2.  Navigate to the C# folder and open the ChangeTrackingSample.sln file using Visual Studio.  
-
-3.  In Visual Studio, right-click the ChangeTrackingSample project and chose **Manage NuGet Packages**.  
-
-4.  For the preview release, make sure to select **Include Prerelease** rather than **Stable Only** in the search criteria. Then search for “Microsoft Dynamics CRM 2016 SDK core assemblies”. Make sure you select the latest version.  
-
-5.  Click **Install**. You’ll need to accept the license terms to complete installing this package.  
-
-<a name="BKMK_runSample"></a>   
-## Run the sample  
-
-1. In Visual Studio, with the solution open and the necessary NuGet packages installed, press F5.  
-
-2. If you have not previously run one of the Dynamics 365 Customer Engagement managed code samples before, you’ll need to enter information to run the code, otherwise enter the number for one of the Dynamics 365 Servers you have previously set up.  
+For more information about the feature that this sample demonstrates, see [Use change tracking to synchronize data with external systems](https://docs.microsoft.com/powerapps/developer/common-data-service/use-change-tracking-synchronize-data-external-systems).
 
 
-   |                                 Prompt                                  |                                                                                                                                                                                      Description                                                                                                                                                                                       |
-   |-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |      Enter a Dynamics 365 Server name and port [crm.dynamics.com]       | Type the name of your Dynamics 365 Server. The default is [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] (crm.dynamics.com) in North America.<br /><br /> Example: <br />myservername<br />myprefix.myservername:5500<br />crm5.dynamics.com<br /><br /> Don’t include the name of your organization or Internet protocol (http or https). You’ll be prompted for that later. |
-   |  Is this server configured for Secure Sockets Layer (https) (y/n) [n]   |                                                                                                                                            Type **y** if the URL you use to access Dynamics 365 Customer Engagement begins with https://, otherwise type **n**.                                                                                                                                            |
-   | Is this organization provisioned in Microsoft online services (y/n) [n] |                                                                                                                                           Type **y** if this is a Microsoft online services provisioned organization. Otherwise, type **n**.                                                                                                                                           |
-   |                          Enter domain\username                          |                                                                                                       Type your Microsoft account. <br />For [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)], type your network domain and user name separated by a backslash (\\).                                                                                                        |
-   |                             Enter password                              |                                                                                                                Type your password. The characters will show as “\*” in the window. Your password is securely saved in the Microsoft Credential Manager for later reuse.                                                                                                                |
-   |                Specify an organization number (1-n) [1]                 |                                                                                                                From the list of organizations shown that you belong to, type the corresponding number. The default is 1, indicating the first organization in the list.                                                                                                                |
+## How to run this sample
 
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
 
-3. The sample will perform the operations described in [What this sample does](#BKMK_whatsampledoes) and may prompt you with additional options.  
+## What this sample does
 
-4. When the sample is complete, press ENTER to close the console window.  
+The `RetrieveEntityChanges` message is intended to be used in a scenario where data from an external system is synchronized and the capability to use change tracking can be used to detect and reconcile data changes.
 
-### See also  
- [Use change tracking to synchronize data with external systems](use-change-tracking-synchronize-data-external-systems.md)
+Without a separate system required to fully replicate this scenario, this sample simulates the scenario by performing two requests. In between the requests some data is changed so that the second request will return data about what was changed over time.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Import a managed solution (ChangeTrackingSample_1_0_0_0_managed.zip) that creates a `sample_book` entity that has an alternate key named `sample_bookcode`. Verify that the indexes to support the alternate key are active
+1. 10 initial sample_book entity records are created so that changes to those entities can be tracked.
+
+### Demonstrate
+
+1. Perform initial request and cache the results, including the `DataToken`
+1. Update the records created in [Setup](#setup)
+1. Perform a second request, this time passing the `DataVersion` with the `DataToken` value retrieved from the initial request.
+1. Show the entity changes returned by the second request
+
+### Clean up
+
+Display an option to delete the managed solution imported in [Setup](#setup), which removes the `sample_book` entity and all the data created in the sample. The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the `ChangeTrackingSample` to achieve the same result.

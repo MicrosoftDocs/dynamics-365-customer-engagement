@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
+
 # Sample: Work with business process flows
 
 This sample demonstrates how to programmatically work with business process flows such as retrieving the business process flow instances for an entity record, retrieving active path for a business process flow instance and its process stages, and changing the active stage. For information about these concepts, see [Model business process flows](model-business-process-flows.md)  
@@ -26,6 +27,7 @@ This sample demonstrates how to programmatically work with business process flow
 This sample is available to download from [Sample: Work with business process flows](https://go.microsoft.com/fwlink/p/?LinkId=846108).  
 
 <a name="BKMK_Prerequisites"></a>   
+
 ## Prerequisites  
  Before you can run the sample:  
 
@@ -38,6 +40,7 @@ This sample is available to download from [Sample: Work with business process fl
 4. Have Internet connection to download the sample project and to restore the NuGet packages used in the sample project.  
 
 <a name="BKMK_WhatThisSampleDoes"></a>   
+
 ## What this sample does  
 
 1.  Creates a sample Lead record. This automatically creates an instance of the "Lead To Opportunity Sales Process" business process flow for the Lead record.  
@@ -82,7 +85,7 @@ This sample is available to download from [Sample: Work with business process fl
    |                Specify an organization number (1-n) [1]                 |                      From the list of organizations shown that you belong to, type the corresponding number. The default is 1, indicating the first organization in the list.                       |
 
 
-6. The sample will perform the operations described in [What this sample does](sample-insert-update-record-upsert.md#BKMK_WhatThisSampleDoes) and may prompt you with additional options  
+6. The sample will perform the operations described in [What this sample does](sample-insert-update-record-upsert.md) and may prompt you with additional options  
 
 7. When the sample is complete, press ENTER to close the console window.  
 
