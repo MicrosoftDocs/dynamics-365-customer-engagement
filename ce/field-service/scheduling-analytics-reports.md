@@ -50,6 +50,11 @@ Note: Contact your system administrator, for configuration errors or if you are 
 Public preview
 > [!Note]
 >
+Install or upgrade field service to get Resource and Utilization Report
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-analytics-install-data-insights.png)
 
 Verify the following prerequisites before you use the Resource Scheduling Reports: 
 
