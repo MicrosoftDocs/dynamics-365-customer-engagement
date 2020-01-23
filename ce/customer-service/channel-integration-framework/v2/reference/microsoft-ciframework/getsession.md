@@ -4,7 +4,7 @@ description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 01/23/2020
 ms.topic: reference
 ms.service: 
   - dynamics-365-customerservice
@@ -37,7 +37,7 @@ Returns an object containing the unique identifier of the session, context and t
 
 ## Return Value
 
-Object containing session Id, context and isFocused parameter
+Object containing session Id, conversation Id, context and isFocused parameter
 
 ## Example
 
