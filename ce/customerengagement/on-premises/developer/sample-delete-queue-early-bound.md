@@ -1,5 +1,5 @@
 ---
-title: "Sample: Delete a queue (early bound) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Delete a queue (early bound) | MicrosoftDocs"
 decription: The sample code demonstrates how to delete a queue.
 ms.custom: 
 ms.date: 10/31/2017
@@ -16,8 +16,8 @@ helpviewer_keywords:
 ms.assetid: 33bcb496-4c76-4b9f-987d-1c2f9ef2315c
 caps.latest.revision: 16
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -25,21 +25,33 @@ search.app:
 ---
 # Sample: Delete a queue (early bound)
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Business Management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement). 
+This sample shows how to delete a simple queue using the [IOrganizationService.Delete](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.delete?view=dynamics-general-ce-9) message.
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-   
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to delete a queue.  
-  
-## Example  
- [!code-csharp[BusinessManagement#DeleteQueue](../snippets/csharp/CRMV8/businessmanagement/cs/deletequeue.cs#deletequeue)]  
-  
-### See also  
- [Sample Code for Queue Entities](sample-code-queue-entities.md)   
- [Queue Entities](queue-entities.md)   
- [Sample: Add a Record to a Queue (Early Bound)](sample-add-record-queue-early-bound.md)
+You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/DeleteQueue).
+
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+The `IOrganizationService` message is intended to be used in a scenario where it contains data that provides programmatic access to the metadata and data for an organization.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+2. The `CreateRequiredRecords` method creates entity records that are required for the sample.
+
+### Demonstrate
+
+The `newQueue` method creates a queue instance and set its property values. 
+
+### Clean up
+
+Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
