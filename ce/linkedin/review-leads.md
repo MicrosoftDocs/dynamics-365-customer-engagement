@@ -8,7 +8,7 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 ms.assetid: c372e325-991c-4178-a507-f7f4dfcc0dd5
-author: m-hartmann
+author: shubhadaj
 ms.author: mhart
 manager: sakudes
 ms.custom: 

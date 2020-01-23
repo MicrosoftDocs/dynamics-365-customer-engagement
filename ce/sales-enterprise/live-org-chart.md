@@ -5,7 +5,7 @@ ms.date: 10/01/2019
 ms.service: 
   - "dynamics-365-sales"
 ms.topic: article
-author: m-hartmann
+author: shubhadaj
 ms.author: mhart
 manager: shellyha
 ---

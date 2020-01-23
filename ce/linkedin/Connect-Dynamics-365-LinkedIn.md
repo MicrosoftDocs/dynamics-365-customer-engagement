@@ -8,7 +8,7 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 ms.assetid: 4140669d-2155-4f43-a4fc-253b67e42f7d
-author: m-hartmann
+author: shubhadaj
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting

@@ -9,7 +9,7 @@ applies_to:
   - Dynamics 365 Sales
   - Dynamics 365 Marketing
 ms.assetid: 7ceb9c1e-c044-4d4c-8710-9fe0b79aeb68
-author: m-hartmann
+author: shubhadaj
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
