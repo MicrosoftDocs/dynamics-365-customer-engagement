@@ -66,6 +66,20 @@ Verify the following prerequisites before you use the Resource Scheduling Report
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-analytics1.png)
 
+| Visuals |	Description |
+| --- | --- |
+| Avg work time per day (hrs.)  |	Average length of time per day that a technician(s) takes to work at the customer site. |
+| Total length of work time/ count of days in the given period from slicer |
+| Avg travel time per day (hrs.) |	Average length of time per day that a technician(s) takes on travel.
+Total length of travel time/ count of days in the given period from slicer Total miles traveled 	Total miles on truck rolls in the given period from slicer.  |
+| Avg miles traveled per day |	Average miles on truck rolls per day. Total miles/count of days in the given period from slicer |
+| Utilization rate | The percentage of time a resource spends on work and travel in the given period from slicer. (work duration +travel duration)/available time on the calendar rule  |
+| Late arrival rate |	For all in progress or completed bookings, the percentage of bookings where technician arrives later than the “Time to Promise” or “Estimated arrival time” if “Time to Promise” is not enabled in the implementation.  |
+|Booking Cancellation rate |	For all in progress or completed bookings, the percentage of bookings that have been cancelled in the given period from slicer. |
+| Resource utilization breakdown  |	The visual displays the percentage of time on work, travel, break and idle time over a period.  It can break via booking status slicer such as in progress job or completed job. |
+| Duration break down |	The visual displays the trend of total work time, travel time, break time and idle time. It can drill by booking status slicer such as in progress job or completed job. |
+
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-analytics2.png)
