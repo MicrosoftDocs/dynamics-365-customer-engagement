@@ -33,14 +33,14 @@ Mobile Application Management (MAM) is software that enables IT administrators t
 
 ## Why is MAM important to Field Service organizations?
 
-MAM is important to Field Service organizations whose technicians use Field Service Mobile primarily because:
+MAM is important to field service organizations whose technicians use Field Service Mobile primarily because:
 
-1. BYOD 
-2. Sensitive information on the go
+1. Technicians are "on the go" traveling to multiple different locations and there is a need to protect sensitive company data.
+2. Many field service organizations have a Bring-Your-Own-Device (BYOD) policy which means the field service mobile app needs management amond many different kinds of devices alongside personal apps. 
 
-what is it
- 
-protect corporate data with the policies that restrict data leakage such as “Cut/Copy/Paste/Save As”, provide encryption at rest, enforce application access and compliance, and remove corporate data at the application level.
+Here are the most common uses of Intune MAM for Field Service Mobile:
+
+- protect corporate data with the policies that restrict data leakage such as “Cut/Copy/Paste/Save As”, provide encryption at rest, enforce application access and compliance, and remove corporate data at the application level.
 
 why is it helpful
 Leverage your Intune enabled infrastructure to manage and protect organizational data within the Field Service Mobile Application. 
