@@ -1,8 +1,8 @@
 ---
 
 
-title: What's new in Project Service Automation UR 16
-description: This topic lists the features and fixes that are available in the UR 16 release of Project Service Automation.
+title: What's new in Project Service Automation Update Release 16, V3
+description: This topic lists the features and fixes that are available in release 16 of Project Service Automation V3.
 author: ruhercul                
 manager: kfend
 ms.service: dynamics-365-projectservice
@@ -24,9 +24,9 @@ search.app:
 ---
 
 
-# What's new in Project Service Automation UR 16
+# Project Service Automation V3, Update Release 16
 
-This topic lists thefeatures and fixes that are new or changed for Project Service Automation (PSA) UR 16. This version has a build number of 7.0.XXXX and is available on the following schedule:
+This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 15 This version has a build number of V3.x.x.xand is available on the following schedule:
 
 - **Preview release:** February 2020
 - **General availability (self-update):** March 2020
@@ -71,9 +71,9 @@ To learn more about the feature, see: (remove this bulleted list if you don't ha
 
 ## Additional resources
 
-### UR 16 bug fixes
+### Update Release 15 bug fixes
 
-For information about the bug fixes that are included in each update that is part of Platform update 32, sign in to LCS, and view [this KB article](https://fix.lcs.dynamics.com/Issue/Details?bugId=400369&dbType=3&qc=30ab94ba46d00083bda800e9a50600fa1fdf63a47c33e8e83f74774b6d245f27).
+For information about the bug fixes that are included in each update that is part of Update Release 16, go to....
 
 
 ### Removed and deprecated features
