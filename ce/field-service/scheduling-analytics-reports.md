@@ -84,13 +84,15 @@ Verify the following prerequisites before you use the Resource Scheduling Report
 
 | Visuals |	Description | 
 | --- | --- |
-| Bookings by Territory  |	Display a filled map for each territory and hover on a specific territory that will display no of bookings, total work time, travel time and break time. 
-For territory, it is based on territory entity. So, to render this report properly, the territory needs to be a physical geo location rather a logical geo location.  |
+| Bookings by Territory  |	Display a filled map for each territory and hover on a specific territory that will display no of bookings, total work time, travel time and break time. For territory, it is based on territory entity. So, to render this report properly, the territory needs to be a physical geo location rather a logical geo location.  |
 | Variance to estimated travel time |	Calculate the variance between estimated travel time and actual travel time. Lump sum the variance by each territory and display the comparable result in a whole. |
-| Requirement duration % vs. allocated resource duration % |	Gauge whether the total requirement in each territory is balanced with total resource allocated to that territory. 
-The analysis is to display percentage value of requirement duration and compare with percentage value of allocated resource duration  |
+| Requirement duration % vs. allocated resource duration % |	Gauge whether the total requirement in each territory is balanced with total resource allocated to that territory. The analysis is to display percentage value of requirement duration and compare with percentage value of allocated resource duration  |
 | Miles travels by trend |	The visual displays the trend of total miles traveled per month |
 
+| Visuals |	Description | 
+| --- | --- |
+| Resource work time quartile analysis  |	Display the work time and travel time per resource given the period from slicer. Segment individual resource compared with the work time quartile.  Work time quartile: <1st quartile (25%), Between 1st -2nd quartile (25%-50%), Between 2nd to 3rd quartile (50%-75%), >3rd quartile (>75%)  |
+| Resource metrics |	Show the breakdown of KPIs for each resource that include no of bookings, % utilization, Year on Year % change of utilization, work time, travel time, break time and idle time. Rank the resource by no of bookings. Drill by the column to view the data by year, month, week and day. 
 
 
 > [!div class="mx-imgBorder"]
