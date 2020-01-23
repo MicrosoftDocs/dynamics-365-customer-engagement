@@ -92,7 +92,7 @@ Verify the following prerequisites before you use the Resource Scheduling Report
 | Visuals |	Description | 
 | --- | --- |
 | Resource work time quartile analysis  |	Display the work time and travel time per resource given the period from slicer. Segment individual resource compared with the work time quartile.  Work time quartile: <1st quartile (25%), Between 1st -2nd quartile (25%-50%), Between 2nd to 3rd quartile (50%-75%), >3rd quartile (>75%)  |
-| Resource metrics |	Show the breakdown of KPIs for each resource that include no of bookings, % utilization, Year on Year % change of utilization, work time, travel time, break time and idle time. Rank the resource by no of bookings. Drill by the column to view the data by year, month, week and day. 
+| Resource metrics |	Show the breakdown of KPIs for each resource that include no of bookings, % utilization, Year on Year % change of utilization, work time, travel time, break time and idle time. Rank the resource by no of bookings. Drill by the column to view the data by year, month, week and day. | 
 
 
 > [!div class="mx-imgBorder"]
