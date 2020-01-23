@@ -1,106 +1,110 @@
-- name: Dynamics 365
-  tocHref: /dynamics365/
-  topicHref: /dynamics365/
+- name: Docs
+  href: /
+  topicHref: /
   items:
-  - name: "Customer Engagement (on-premises)"
-    tocHref: /dynamics365/customerengagement/on-premises/
-    topicHref: /dynamics365/customerengagement/on-premises/overview
+  - name: Dynamics 365
+    href: /dynamics365/
+    topicHref: /dynamics365/
     items:
-    - name: "Basics Guide"
-      tocHref: /dynamics365/customerengagement/on-premises/basics/
-      topicHref: /dynamics365/customerengagement/on-premises/basics/basics-guide
-    - name: "Administrator Guide"
-      tocHref: /dynamics365/customerengagement/on-premises/admin/
-      topicHref: /dynamics365/customerengagement/on-premises/admin/overview
-    - name: "Customization Guide"
-      tocHref: /dynamics365/customerengagement/on-premises/customize/
-      topicHref: /dynamics365/customerengagement/on-premises/customize/overview
-    - name: "Reporting and Analytics Guide"
-      tocHref: /dynamics365/customerengagement/on-premises/analytics/
-      topicHref: /dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365
-    - name: Developer Guide
-      tocHref: /dynamics365/customerengagement/on-premises/developer/
-      topicHref: /dynamics365/customerengagement/on-premises/developer/overview
-    - name: Deploy and operate
-      tocHref: /dynamics365/customerengagement/on-premises/deploy/
-      topicHref: /dynamics365/customerengagement/on-premises/deploy/deploy-and-operate-dynamics-365-on-premises
-  - name: Sales Enterprise
-    tocHref: /dynamics365/customer-engagement/sales-enterprise/
-    topicHref: /dynamics365/customer-engagement/sales-enterprise/overview
-  - name: Sales Professional
-    tocHref: /dynamics365/customer-engagement/sales-professional/
-    topicHref: /dynamics365/customer-engagement/sales-professional/sales-professional-overview  
-  - name: Customer Service
-    tocHref: /dynamics365/customer-engagement/customer-service/
-    topicHref: /dynamics365/customer-engagement/customer-service/overview
-  - name: Universal Resource Scheduling
-    tocHref: /dynamics365/customer-engagement/common-scheduler/
-    topicHref: /dynamics365/customer-engagement/common-scheduler/schedule-anything-with-universal-resource-scheduling
-  - name: Field Service
-    tocHref: /dynamics365/customer-engagement/field-service/
-    topicHref: /dynamics365/customer-engagement/field-service/overview
-  - name: Project Service Automation
-    tocHref: /dynamics365/customer-engagement/project-service/
-    topicHref: /dynamics365/customer-engagement/project-service/overview
-  - name: Phones and tablets
-    tocHref: /dynamics365/customer-engagement/mobile-app/
-    topicHref: /dynamics365/customer-engagement/mobile-app/overview
-  - name: App for Outlook
-    tocHref: /dynamics365/customer-engagement/outlook-app/
-    topicHref: /dynamics365/customer-engagement/outlook-app/overview
-  - name: Company News Timeline
-    tocHref: /dynamics365/customer-engagement/company-news-timeline/
-    topicHref: /dynamics365/customer-engagement/company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets  
-  - name: Versium Predict
-    tocHref: /dynamics365/customer-engagement/versium-predict
-    topicHref: /dynamics365/customer-engagement/versium-predict/versium-predict
-  - name: Gamification
-    tocHref: /dynamics365/customer-engagement/gamification
-    topicHref: /dynamics365/customer-engagement/gamification/increase-employee-productivity-with-dynamics-365-gamification
-  - name: Voice of the Customer
-    tocHref: /dynamics365/customer-engagement/voice-of-customer
-    topicHref: /dynamics365/customer-engagement/voice-of-customer/create-voice-of-customer-survey
-  - name: Social Engagement
-    tocHref: /dynamics365/customer-engagement/social-engagement
-    topicHref: /dynamics365/customer-engagement/social-engagement/get-connected-social-conversation
-  - name: Portals
-    tocHref: /dynamics365/customer-engagement/portals
-    topicHref: /dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365
-  - name: LinkedIn
-    tocHref: /dynamics365/customer-engagement/linkedin
-    topicHref: /dynamics365/customer-engagement/linkedin/sync-linkedin-leads
-  - name: Sales Preview
-    tocHref: /dynamics365/customer-engagement/sales-business
-    topicHref: /dynamics365/customer-engagement/sales-business/help-hub
-  - name: Marketing
-    tocHref: /dynamics365/customer-engagement/marketing
-    topicHref: /dynamics365/customer-engagement/marketing/get-started-section
-  - name: Omnichannel for Customer Service
-    tocHref: /dynamics365/customer-engagement/omnichannel/
-    topicHref: /dynamics365/customer-engagement/omnichannel/omnichannel-customer-service-guide
-    items:
-    - name: Administrator
-      tocHref: /dynamics365/customer-engagement/omnichannel/administrator/
-      topicHref: /dynamics365/customer-engagement/omnichannel/administrator/omnichannel-administrator          
-    - name: Agent
-      tocHref: /dynamics365/customer-engagement/omnichannel/agent/
-      topicHref: /dynamics365/customer-engagement/omnichannel/agent/omnichannel-customer-service-agent
+    - name: "Customer Engagement (on-premises), version 9"
+      tocHref: /dynamics365/customerengagement/on-premises/
+      topicHref: /dynamics365/customerengagement/on-premises/overview
       items:
-      - name: Agent using Unified Service Desk
-        tocHref: /dynamics365/customer-engagement/omnichannel/agent/agent-usd/
-        topicHref: /dynamics365/customer-engagement/omnichannel/agent/agent-usd/omnichannel-customer-service-agent
-      - name: Agent using Omnichannel for Customer Service
-        tocHref: /dynamics365/customer-engagement/omnichannel/agent/agent-oc/
-        topicHref:  /dynamics365/customer-engagement/omnichannel/agent/agent-oc/oceh-omnichannel-customer-service-agent
-    - name: Supervisor
-      tocHref: /dynamics365/customer-engagement/omnichannel/supervisor/
-      topicHref: /dynamics365/customer-engagement/omnichannel/supervisor/omnichannel-supervisor          
-    - name: System Customizer
-      tocHref: /dynamics365/customer-engagement/omnichannel/customizer/
-      topicHref: /dynamics365/customer-engagement/omnichannel/customizer/omnichannel-customizer                  
-    - name: Channel Integration Framework
-      tocHref: /dynamics365/customer-engagement/developer/channel-integration-framework/
-      topicHref: /dynamics365/customer-engagement/developer/channel-integration-framework/channel-integration-framework
-    - name: Extend Outlook Client
-      tocHref: /dynamics365/customer-engagement/developer/outlook-client/
-      topicHref: /dynamics365/customer-engagement/developer/extend-customer-engagement-outlook
+      - name: "Basics Guide"
+        tocHref: /dynamics365/customerengagement/on-premises/basics/
+        topicHref: /dynamics365/customerengagement/on-premises/basics/basics-guide
+      - name: "Administrator Guide"
+        tocHref: /dynamics365/customerengagement/on-premises/admin/
+        topicHref: /dynamics365/customerengagement/on-premises/admin/overview
+      - name: "Customization Guide"
+        tocHref: /dynamics365/customerengagement/on-premises/customize/
+        topicHref: /dynamics365/customerengagement/on-premises/customize/overview
+      - name: "Reporting and Analytics Guide"
+        tocHref: /dynamics365/customerengagement/on-premises/analytics/
+        topicHref: /dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365
+      - name: Developer Guide
+        tocHref: /dynamics365/customerengagement/on-premises/developer/
+        topicHref: /dynamics365/customerengagement/on-premises/developer/overview
+      - name: Deploy and operate
+        tocHref: /dynamics365/customerengagement/on-premises/deploy/
+        topicHref: /dynamics365/customerengagement/on-premises/deploy/deploy-and-operate-dynamics-365-on-premises
+    - name: Sales Enterprise
+      tocHref: /dynamics365/customer-engagement/sales-enterprise/
+      topicHref: /dynamics365/customer-engagement/sales-enterprise/overview
+    - name: Sales Professional
+      tocHref: /dynamics365/customer-engagement/sales-professional/
+      topicHref: /dynamics365/customer-engagement/sales-professional/sales-professional-overview  
+    - name: Customer Service
+      tocHref: /dynamics365/customer-engagement/customer-service/
+      topicHref: /dynamics365/customer-engagement/customer-service/overview
+    - name: Universal Resource Scheduling
+      tocHref: /dynamics365/customer-engagement/common-scheduler/
+      topicHref: /dynamics365/customer-engagement/common-scheduler/schedule-anything-with-universal-resource-scheduling
+    - name: Field Service
+      tocHref: /dynamics365/customer-engagement/field-service/
+      topicHref: /dynamics365/customer-engagement/field-service/overview
+    - name: Project Service Automation
+      tocHref: /dynamics365/customer-engagement/project-service/
+      topicHref: /dynamics365/customer-engagement/project-service/overview
+    - name: Phones and tablets
+      tocHref: /dynamics365/customer-engagement/mobile-app/
+      topicHref: /dynamics365/customer-engagement/mobile-app/overview
+    - name: App for Outlook
+      tocHref: /dynamics365/customer-engagement/outlook-app/
+      topicHref: /dynamics365/customer-engagement/outlook-app/overview
+    - name: Company News Timeline
+      tocHref: /dynamics365/customer-engagement/company-news-timeline/
+      topicHref: /dynamics365/customer-engagement/company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets  
+    - name: Versium Predict
+      tocHref: /dynamics365/customer-engagement/versium-predict
+      topicHref: /dynamics365/customer-engagement/versium-predict/versium-predict
+    - name: Gamification
+      tocHref: /dynamics365/customer-engagement/gamification
+      topicHref: /dynamics365/customer-engagement/gamification/increase-employee-productivity-with-dynamics-365-gamification
+    - name: Voice of the Customer
+      tocHref: /dynamics365/customer-engagement/voice-of-customer
+      topicHref: /dynamics365/customer-engagement/voice-of-customer/create-voice-of-customer-survey
+    - name: Social Engagement
+      tocHref: /dynamics365/customer-engagement/social-engagement
+      topicHref: /dynamics365/customer-engagement/social-engagement/get-connected-social-conversation
+    - name: Portals
+      tocHref: /dynamics365/customer-engagement/portals
+      topicHref: /dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365
+    - name: LinkedIn
+      tocHref: /dynamics365/customer-engagement/linkedin
+      topicHref: /dynamics365/customer-engagement/linkedin/sync-linkedin-leads
+    - name: Sales Preview
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/help-hub
+    - name: Marketing
+      tocHref: /dynamics365/customer-engagement/marketing
+      topicHref: /dynamics365/customer-engagement/marketing/get-started-section
+    - name: Omnichannel for Customer Service
+      tocHref: /dynamics365/customer-engagement/omnichannel/
+      topicHref: /dynamics365/customer-engagement/omnichannel/omnichannel-customer-service-guide
+      items:
+      - name: Administrator
+        tocHref: /dynamics365/customer-engagement/omnichannel/administrator/
+        topicHref: /dynamics365/customer-engagement/omnichannel/administrator/omnichannel-administrator          
+      - name: Agent
+        tocHref: /dynamics365/customer-engagement/omnichannel/agent/
+        topicHref: /dynamics365/customer-engagement/omnichannel/agent/omnichannel-customer-service-agent
+        items:
+        - name: Agent using Unified Service Desk
+          tocHref: /dynamics365/customer-engagement/omnichannel/agent/agent-usd/
+          topicHref: /dynamics365/customer-engagement/omnichannel/agent/agent-usd/omnichannel-customer-service-agent
+        - name: Agent using Omnichannel for Customer Service
+          tocHref: /dynamics365/customer-engagement/omnichannel/agent/agent-oc/
+          topicHref:  /dynamics365/customer-engagement/omnichannel/agent/agent-oc/oceh-omnichannel-customer-service-agent
+      - name: Supervisor
+        tocHref: /dynamics365/customer-engagement/omnichannel/supervisor/
+        topicHref: /dynamics365/customer-engagement/omnichannel/supervisor/omnichannel-supervisor          
+      - name: System Customizer
+        tocHref: /dynamics365/customer-engagement/omnichannel/customizer/
+        topicHref: /dynamics365/customer-engagement/omnichannel/customizer/omnichannel-customizer                  
+      - name: Channel Integration Framework
+        tocHref: /dynamics365/customer-engagement/developer/channel-integration-framework/
+        topicHref: /dynamics365/customer-engagement/developer/channel-integration-framework/channel-integration-framework
+      - name: Extend Outlook Client
+        tocHref: /dynamics365/customer-engagement/developer/outlook-client/
+        topicHref: /dynamics365/customer-engagement/developer/extend-customer-engagement-outlook

@@ -1,6 +1,6 @@
 ---
-title: "Performance enhancement for Common Data Service platform entity page loads | MicrosoftDocs"
-description: "Learn about Internet Explorer pooling feature, which creates a dynamic pool of Internet Explorer process instances. The hosted control that you open uses an Internet Explorer instance from the pool to perform faster inline navigation."
+title: "Performance enhancement for model-driven page loads | MicrosoftDocs"
+description: "Learn about the Internet Explorer pooling feature, which creates a dynamic pool of Internet Explorer process instances. The hosted control that you open uses an Internet Explorer instance from the pool to perform faster inline navigation."
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
@@ -17,7 +17,8 @@ search.app:
   - D365CE
   - D365USD
 ---
-# Performance enhancement for loading Customer Engagement app pages
+
+# Performance enhancement for loading the model-driven app pages
 
 ::: moniker range="<=dynamics-usd-4"
 

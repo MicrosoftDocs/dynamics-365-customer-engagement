@@ -28,7 +28,7 @@ The following configuration file installs an update file that is located on an i
 <LicenseKey>XXXXX-XXXXX-XXXXX-XXXXX-XXXXX</LicenseKey>  
 <SqlServer>SQLServer</SqlServer>  
 <Database create="true"/>  
-<Reporting URL="http://MyReportingServer/ReportServer"/>  
+<Reporting URL="https://MyReportingServer/ReportServer"/>  
 <OrganizationCollation>Latin1_General_CI_AI</OrganizationCollation>  
 <basecurrency isocurrencycode="USD" currencyname="US Dollar" currencysymbol="$" currencyprecision="2"/>  
 <Organization>Organization Display Name</Organization>  

@@ -1,14 +1,12 @@
 ---
 title: "Dynamics 365 Sales troubleshooting guide for sales people | MicrosoftDocs"
 description: "Follow the instructions in this topic to troubleshoot the issues you may face while working on Dynamics 365 Sales."
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 3db39230-4658-af9e-6cc1-4a64e76e42e7
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

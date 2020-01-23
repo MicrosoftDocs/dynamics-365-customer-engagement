@@ -168,7 +168,7 @@ This action is used to navigate to a model-driven app url. The App Id for the Ap
 </tr>
 <tr class="odd">
 <td>postdata</td>
-<td>Data that is sent to the server as part of an HTTPPOST transaction. A POST transaction is typically used to send data gathered by an HTML page. In Unified Service Desk, this data can be received from any event triggered using &quot;<a href="http://event/?" class="uri">http://event/?</a>&quot;. Example: [[postdata]+]<br />
+<td>Data that is sent to the server as part of an HTTPPOST transaction. A POST transaction is typically used to send data gathered by an HTML page. In Unified Service Desk, this data can be received from any event triggered using &quot;<a href="https://event/?" class="uri">https://event/?</a>&quot;. Example: [[postdata]+]<br />
 <br />
 Alternatively, the data can be passed as an encoded string with its header type in the intended format.</td>
 </tr>

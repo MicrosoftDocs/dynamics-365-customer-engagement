@@ -1,10 +1,11 @@
 ---
 title: MICROSOFT ONLINE SERVICES TRIAL AGREEMENT
-author: brycho
+author: ReneeW-CPub
 ---
 
-MICROSOFT ONLINE SERVICES TRIAL AGREEMENT<br>Last Revised: November 2017
+# MICROSOFT ONLINE SERVICES TRIAL AGREEMENT
 ========================================================================
+**Last Revised: November 2017**
 
 This Microsoft Online Service Trial Agreement (this “**Agreement**”) applies
 when:
@@ -509,7 +510,7 @@ arbitrator will decide. **Class action lawsuits, class-wide arbitrations,
 private attorney-general actions,** and any other proceeding where someone acts
 in a representative capacity **are not allowed**; nor is combining individual
 proceedings without the consent of all parties. The complete Arbitration
-Agreement contains more terms and is at <http://aka.ms/arb-agreement-1>.
+Agreement contains more terms and is at <https://aka.ms/arb-agreement-1>.
 Customer and Microsoft agree to these terms.
 
 **11. CUSTOMER’S DUTY TO PROTECT MICROSOFT**
@@ -638,7 +639,7 @@ the earlier of the date the applicable Trial Period or this Agreement ends.
 international export laws and regulations that apply to any software or the
 Trial Service, which include restrictions on destinations, end users, and end
 use. For further information on export restrictions, visit
-<http://aka.ms/exporting>.
+<https://aka.ms/exporting>.
 
 **12.12. Reservation of Rights.** Microsoft or its suppliers own any and all
 right, title, and interest in any copyright and other intellectual property

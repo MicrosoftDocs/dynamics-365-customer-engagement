@@ -1,14 +1,12 @@
 ---
 title: "Track a marketing campaign response using in-app marketing (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Record the replies you get from potential customers in response to a specific marketing campaign to make sure your team can act on the responses in Dynamics 365 Sales Professional."
-keywords: ""
 ms.date: 12/06/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: f4bb1cc7-689e-1551-848e-adda9b163873
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

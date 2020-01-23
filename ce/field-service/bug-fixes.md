@@ -2,7 +2,7 @@
 title: "Bug fixes for Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 12/05/2019
+ms.date: 01/13/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -28,7 +28,7 @@ search.app:
 
 # Bug fixes
 
-In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field Service, Universal Resource Scheduling (URS), Field Service Mobile, Resource Scheduling Optimization (RSO), and Connected Field Service (CFS). For information about other updates to Field Service, visit the [Dynamics 365 Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). 
+In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field Service, Universal Resource Scheduling (URS), Field Service Mobile, resource scheduling optimization, and Connected Field Service (CFS). For information about other updates to Field Service, visit the [Dynamics 365 Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). 
 
 ## Dynamics 365 Field Service
 
@@ -40,49 +40,119 @@ In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field
 - Deleting and recreating a Booking associated with a Work Order changes the shared users of Booking.
 - TypeError: Cannot read property 'getDefaultView' when Requested by Contact field removed from RMA form.
 - Agreement Invoice Product Currency Set to Base Currency - should be set to Agreement's Pricelist Currency.
+- See this blog post for more information.
 
 ### Version 8.8.7.47
 
 -	Removal of Territory from Work Order is not removed from non-primary related requirements.
 -	Inappropriate command buttons shown for Opportunity, Quote, and Order Product and Service-based Lines Sub Grids.
 -	Field Service Resource privilege exception on create and save of Time Off Request.
+
+### Previous versions of Field Service
+
+To see older bug fixes, see the following links to blog posts:  
+
+| **Version 8**                                                                                                                               | **Version 7**                                                                                                                                                 | **Version 6**                                                                                                                                               |
+|-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [8.8.3.533](https://cloudblogs.microsoft.com/dynamics365/it/2019/09/10/enhancements-and-bug-fixes-for-field-service-version-8-8-3-533/) | [7.5.13.73](https://cloudblogs.microsoft.com/dynamics365/it/2019/09/10/enhancements-and-bug-fixes-for-field-service-version-7-5-13-73/)                   | [6.2.3.24](https://cloudblogs.microsoft.com/dynamics365/it/2018/01/26/release-notes-for-field-service-and-project-service-automation-update-5/)         |
+| [8.8.2.160](https://cloudblogs.microsoft.com/dynamics365/it/2019/08/11/enhancements-and-bug-fixes-for-field-service-version-8-8-2-160/) | [7.5.12.53](https://cloudblogs.microsoft.com/dynamics365/it/2019/08/06/enhancements-and-bug-fixes-for-field-service-version-7-5-12-53/)                   | [6.2.2.13](https://cloudblogs.microsoft.com/dynamics365/it/2017/10/31/dynamics-365-for-field-service-and-project-service-automation-update-4/)          |
+| [8.8.1.45](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/07/enhancements-and-bug-fixes-for-field-service-version-8-8-1-45/)   | [7.5.11.102](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/07/enhancements-and-bug-fixes-for-field-service-version-7-5-11-102/)                 | [6.2.1.38](https://cloudblogs.microsoft.com/dynamics365/it/2017/07/14/dynamics-365-for-field-service-and-project-services-automation-update-3/)         |
+| [8.8.0.88](https://cloudblogs.microsoft.com/dynamics365/it/2019/06/10/release-notes-for-field-service-version-8-8-0-88/)                | [7.5.10.235](https://cloudblogs.microsoft.com/dynamics365/it/2019/06/10/release-notes-for-field-service-version-7-5-10-235/)                              | [6.2](https://cloudblogs.microsoft.com/dynamics365/it/2017/05/19/dynamics-365-for-field-service-and-project-services-automation-february-2017-updates/) |
+| [8.7.0.105](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/06/release-notes-for-field-service-version-8-7-0-105/)              | [7.5.9.91](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/06/release-notes-for-field-service-version-7-5-9-91/)                                  |                                                                                                                                                         |
+| [8.6.0.274](https://cloudblogs.microsoft.com/dynamics365/it/2019/04/06/release-notes-for-field-service-version-8-6-0-274/)              | [7.5.8.93](https://cloudblogs.microsoft.com/dynamics365/it/2019/04/06/release-notes-for-field-service-version-7-5-8-93/)                                  |                                                                                                                                                         |
+| [8.5.0.345](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-8-5-0-345/)              | [7.5.7.87](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-7-5-7-87/)                                  |                                                                                                                                                         |
+| [8.4.0.338](https://cloudblogs.microsoft.com/dynamics365/it/2019/02/11/release-notes-for-field-service-version-8-4-0-338/)              | [7.5.6.97](https://cloudblogs.microsoft.com/dynamics365/it/2019/02/04/release-notes-for-field-service-version-7-5-6-97/)                                  |                                                                                                                                                         |
+| [8.3.0.255](https://cloudblogs.microsoft.com/dynamics365/it/2018/12/21/release-notes-for-field-service-version-8-update-release-3/)     | [7.5.5.48](https://cloudblogs.microsoft.com/dynamics365/it/2018/12/05/release-notes-for-field-service-version-7-update-release-11/)                       |                                                                                                                                                         |
+| [8.2.0.286](https://cloudblogs.microsoft.com/dynamics365/it/2018/11/08/release-notes-for-field-service-version-8-update-release-2/)     | [7.5.4.51](https://cloudblogs.microsoft.com/dynamics365/it/2018/11/08/release-notes-for-field-service-version-7-update-release-10/)                       |                                                                                                                                                         |
+|                                                                                                                                         | [7.5.0.60](https://cloudblogs.microsoft.com/dynamics365/it/2018/05/08/release-notes-for-field-service-and-project-service-automation-update-release-5-2/) |                                                                                                                                                         |
+|                                                                                                                                         | [7.4.1.31](https://cloudblogs.microsoft.com/dynamics365/it/2018/04/03/release-notes-for-field-service-and-project-service-automation-update-release-5/)   |                                                                                                                                                         |
+|                                                                                                                                         | [7.4.0.74](https://cloudblogs.microsoft.com/dynamics365/it/2018/02/22/release-notes-for-field-service-and-project-service-automation-update-release-4/)   |                                                                                                                                                         |
+
+ 
+## Field Service Mobile
+
+### Version 12.1
+
+- Win10: Use standard fileIO methods (except open & delete) 
+- When copying DynamicEntity, copy the partylist not just the pointer 
+- SharePoint upload: A misleading sync error removed 
+- Sync does not download NN entities (incl. listmember entity) 
+- Set entity multiselect picklist property value using JsonSerializers 
+- Always reload EntityHub command 
+- Improve the username discovery for OAuth2 
+- Chat: Don't crash when chat is closed during loading posts 
+- EmailForm: Espace attachment name. Attachment name with ' (single quote) was not visible 
+- iOS, Android: Chosen multiple photos (note list) now respect max image size 
+- DownloadEntityImages(): Preventing duplicated IDs 
+- iOS: Permission descriptions were added to Info.plist (due to Inspections review rejection) 
+- Open content file in read mode. iOS doesn't allow to open it as writable 
+- Scheduler: An "undefined" string was shown in Task/TimeOff tooltip, when Task/TimeOff name was not set 
+- UpdateAddress ignores non-string fields 
+- DownloadMarketingListMembers check lists in batches (100) 
+- Sync MarketingMembers has incorrect logic 
+- Scheduler: Error object was not converted to string message properly 
+- Scheduler: FallbackView was not used also when task, source or resource entity did not have 
+- Don't inspect dirty flag on disposed form controller (AppStore crashes) 
+- Android: Delay LocationTracking service creation on startup 
+- Desktop: Bring all types of DetailItems into view. Previously only Text items were handled 
+- Google, Exchange contacts: fullname filter is compatible 
+- iOS: MessageBox-related fixes 
+- SearchForm force the cached entities, we already know the entities to search 
+- Desktop: Do not scrollIntoView multiline text DetailItem on click 
+- Google, Exchange contacts: fullname filter is compatible 
+- Clicking on PowerBI Sign in button doesn't open authentication dialog 
+- iOS'Navigate To' command in Account form doesn't fill in the destination automatically after redirecting to the map app 
+- 'Direct to current location' button on the map of work order doesn't work in iOS 
+- "Unlock with your fingerprint" window doesn't appear in Android 
+- Android - unable to use 'navigate to' on account and WO 
+- NavigateTo on iOS opens Google Maps even though Apple Maps is selected 
+- Scan Barcode in the hamburger menu doesn't work 
+- FSM Android splash screen hangss. 
+- OAuth with Proxy - If Proxy is bad, the app doesn't show any indication and it remains on the Sign In page. 
+- Saving IoT Device Command - Getting Error "Server Error: PluginBase" 
+- Allow sign in to OnPrem url 
+- OAuth on Android - authentication attempt with valid server entered shows error pop-up "One or more errors occurred". 
+- Validate mobile app with no Woodford project. 
+- "e" letter is displaying in separate line for "Mark Complete" button on Service Tasks sub-grid of Work Order form 
+- Booking record should be deleted from the app if it is removed from the Schedule Board 
+- Server error appearss when users with FS Dispatcher privileges try to create Customer Asset in online mode
+
+
+### Version 11.3
+
+- Fixed saving of offline Booking Signatures
+- Fixed update address button error message
+- Fixed unresponsive iOS buttons
+- Fixed date picker on Android
+- Fixed issue on iOS where user was not prompted to grant “Always” location permission to app
+- PushRegistrationIntentService start fixed for Android 8+
+
+
+## Resource Scheduling (RS) 
+
+[!INCLUDE[urs-bug-fixes.md](../shared/urs/urs-bug-fixes.md)]
   
-  
 
-## Universal Resource Scheduling (URS)
-
-### Version 3.12.2.114
-
-- When the schedule board map view is opened, the map automatically zooms out to show all the map pins. 
--	The resource look up is displayed on the schedule board in Arabic.
--	On the schedule assistant results list view, work start time aligns with the estimated arrival time values on the create resource booking pane. 
--	Added additional handling to avoid the corruption of the booking setup metadata and the schedule board settings records. 
--	Bookings can be edited in the days view of the schedule board by right-clicking on the booking and selecting **Edit**.
--	The select resources dialog opens and loads successfully on the filter view of the schedule board, even when there are more than 100 resources enabled to be displayed on the schedule board.  
--	When Turkish language is enabled on the org, resource requirement records load under the **Unscheduled Workorders** tab of the Requirement pane of the Schedule board. 
--	When double clicking on the Save button the new Bookable Resource Booking form, would not create duplicate records. 
--	Resources can be searched on the Schedule Board by their name in the Search Resources search box. 
--	Map View on the Schedule Board only shows the pins for the Requirements that are returned from the Requirement View configured for Requirement Map Filer View setting on the Map Settings of the Schedule Board tab settings. 
-- When Hebrew language is enabled on the org, Schedule Board loads in the Chrome with browser zoom at 90%. 
--	The requirement Demand pie chart on the Schedule Assistant information at the bottom is accessible, via Screen readers. 
-
-### Version 3.12.1.158
-
-- Workflows can be triggered when resource requirements are created with any allocation method.
-- When upgrading URS from version 2.x to version 3.x, resource filters on the schedule board tabs are preserved. 
-  
-
-## Resource Scheduling Optimization (RSO)
+## Resource scheduling optimization
 
 ### Version 3.0.19316.2
 
 - ConsiderTravelTime parameter for SA API msdyn_SearchResourceAvailability is not working as expected
    - Create a resource requirement with 4 hours duration, and location = Onsite 
-   - Create a resource A with 4 hours available hour on his calendar , make sure there is few mins travel time between the location between resource and requirement
-   - Use msdyn_SearchResourceAvailability with ConsiderTravelTime parameter set to false , and to find availability for this requirement 
-Before: no potential bookable slot returned , now there is potential bookable slot return from resource A since resource A has enough available hours 
+   - Create a resource A with 4 hours available hour on his calendar, make sure there is few mins travel time between the location between resource and requirement
+   - Use msdyn_SearchResourceAvailability with ConsiderTravelTime parameter set to false, and to find availability for this requirement 
+Before: no potential bookable slot returned, now there is potential bookable slot return from resource A since resource A has enough available hours 
 - RSO Booking Details -> Operation Details field doesn't show message anymore if RSO application user missing FS-admin security role
 - Booking status form showing false Scheduling Method when first time open after setup fresh RSO environment
 - Fixed upgrade issue from RSO v3.0.18341.1 to latest in-market version
 
+### Previous versions of Resource Scheduling Optimization
+
+To see older bug fixes, see the following links to blog posts: 
+
+- [3.0.19263.1](https://cloudblogs.microsoft.com/dynamics365/it/2019/10/03/whats-new-in-dynamics-365-resource-scheduling-optimization-version-3-0-19263-1/)
+- [3.0.19109.3](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/01/whats-new-for-dynamics365-resource-scheduling-optimization-v3-0-update-release/)
+- [2.8](https://cloudblogs.microsoft.com/dynamics365/it/2018/10/16/whats-new-for-dynamics-365-resource-scheduling-optimization-v2-8-release/)
+- [2.7](https://cloudblogs.microsoft.com/dynamics365/it/2018/08/16/whats-new-in-the-dynamics-365-resource-scheduling-optimization-version-2-7-release/)
+- [2.6](https://cloudblogs.microsoft.com/dynamics365/it/2018/05/09/whats-new-for-dynamics-365-resource-scheduling-optimization-v2-6-release/)
 

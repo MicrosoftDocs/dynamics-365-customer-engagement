@@ -113,7 +113,7 @@ In the previous walkthrough, [Walkthrough 4: Display a Unified Interface apps re
    - **Display**:  
   
        ```xaml  
-       <Grid Margin="0"      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"      xmlns:CCA="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics">  
+       <Grid Margin="0"      xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"      xmlns:CCA="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics">  
          <Grid.RowDefinitions>  
            <RowDefinition Height="auto" />  
            <RowDefinition Height="auto" />  
