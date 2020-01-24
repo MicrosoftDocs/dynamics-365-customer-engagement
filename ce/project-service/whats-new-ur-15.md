@@ -43,8 +43,7 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
     -   Project Management
 
-        -   Fixed: A new notification banner has been added to the project form
-            when the time zone differs between user and project.
+       
 
 -   **Bug fixes**
 
@@ -52,7 +51,7 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
         -   Fixed: Add on-load error handling in the reconciliation view.
 
-        -   Fixed: Project Resource Hub: Rename "Amount" to reduce ambiguity
+        -   Fixed: Project Resource Hub: Rename "Amount" to reduce ambiguity.
 
         -   Fixed: Adjust the view "Copy Time Entry Columns" to include the
             type.
@@ -65,29 +64,32 @@ This topic lists the features and fixes that are new or changed for Project Serv
         -   Fixed: The dropdown for Use in tracking View does not expand based
             on the width of the options.
 
-        -   Fixed: +13 time zone project tasks shifts when created
+        -   Fixed: +13 time zone project tasks shifts when created.
 
-        -   Fixed: Team Member End Time incorrect when using 24hr Calendar
+        -   Fixed: Team Member End Time incorrect when using 24hr Calendar.
 
-        -   Fixed: Re-activate the BPF in msdyn_project main form
+        -   Fixed: Re-activate the BPF in msdyn_project main form.
 
-        -   Fixed: Assignments calculation is ignoring one day
+        -   Fixed: Assignments calculation is ignoring one day.
+        
+        -   Fixed: A new notification banner has been added to the project form
+            when the time zone differs between user and project.
 
     -   Sales
 
-        -   Fixed: Expense estimate category lookup does not filter duplicates
+        -   Fixed: Expense estimate category lookup does not filter duplicates.
 
         -   Fixed: Code inside PluginDomain.ExecuteInTryCatchBlock(..) hides
             origin of the exception.
 
         -   Fixed: Error when getting an error message in Project lookup in
-            Quote Line form when more than 1000 Projects
+            Quote Line form when more than 1000 Projects.
 
         -   Fixed: Estimates grid for labor estimates and expense estimates does
-            not show the correct currency symbol
+            not show the correct currency symbol.
 
         -   Fixed: [Org where PS upgraded from UR14 to UR15] - "Schedule" tab
-            showing as blank on Project form
+            showing as blank on Project form.
 
 
 
