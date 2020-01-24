@@ -34,7 +34,7 @@ With Dynamics 365 Customer Engagement (on-premises), XRM tooling enables you to 
 
 ```xml  
 <connectionStrings>  
-    <add name="MyCRMServer" connectionString="AuthType=AD;Url=http://contoso:8080/Test;" />  
+    <add name="MyCRMServer" connectionString="AuthType=AD;Url=https://contoso:8080/Test;" />  
 </connectionStrings>  
 ```  
 
@@ -64,7 +64,7 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
 
 |             Parameter name              |                                                                                                                                                                                                                                                                                                                                                                                                                              Description                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `ServiceUri`, `Service Uri`, `Url`, or `Server` | Specifies the URL to the Dynamics 365 Customer Engagement (on-premises) Server. The URL can use http or https protocol, and the port is optional. The default port is 80 for the http protocol and 443 for the https protocol. The server URL is typically in the format of http://crm-server:port/organization-name for Dynamics 365 Customer Engagement (on-premises).<br /><br /> The organization-name is required. You can specify either the friendly or the unique name of the organization to connect to.<br /><br /> Example: http://contoso/test, http://contoso:5555/test, https://contoso/test, or http://10.10.10.2/test. |
+| `ServiceUri`, `Service Uri`, `Url`, or `Server` | Specifies the URL to the Dynamics 365 Server. The URL can use http or https protocol, and the port is optional. The default port is 80 for the http protocol and 443 for the https protocol. The server URL is typically in the format of https://crm-server:port/organization-name for Dynamics 365 Customer Engagement (on-premises).<br /><br /> The organization-name is required. You can specify either the friendly or the unique name of the organization to connect to.<br /><br /> Example: https://contoso/test, https://contoso:5555/test, https://contoso/test, or https://10.10.10.2/test. |
 |                ` Domain`                  |                                                                                                                                                                                                                                                                                                                                                                                                        Specifies the domain that will verify user credentials.                                                                                                                                                                                                                                                                                                                                                                                                        |
 | `UserName`, `User Name`, `UserId`, or `User Id` |                                                                                                                                                                                                                                                                                                                                                                                               Specifies the user's identification name associated with the credentials.                                                                                                                                                                                                                                                                                                                                                                                               |
 |                `Password`                 |                                                                                                                                                                                                                                                                                                                                                                                               Specifies the password for the user name associated with the credentials.                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -97,7 +97,7 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
 ```xml
 <add name="MyCRMServer"
 connectionString="AuthType=AD;
-Url=http://contoso:8080/Test;" />  
+Url=https://contoso:8080/Test;" />  
 ```  
 
 ### Named account using on-premises authentication  
@@ -105,7 +105,7 @@ Url=http://contoso:8080/Test;" />
 ```xml  
 <add name="MyCRMServer"
 connectionString="AuthType=AD;
-Url=http://contoso:8080/Test;
+Url=https://contoso:8080/Test;
 Domain=CONTOSO;
 Username=jsmith;
 Password=passcode" />  
@@ -182,7 +182,7 @@ Create a new connection to Dynamics 365 Customer Engagement (on-premises) using 
 
 ```xml
 <add name="MyCRMServer"
-connectionString="AuthType=IFD;Url=http://contoso:8080/Test;
+connectionString="AuthType=IFD;Url=https://contoso:8080/Test;
  HomeRealmUri=https://server-1.server.com/adfs/services/trust/mex/;
 Domain=CONTOSO; 
 Username=jsmith; 

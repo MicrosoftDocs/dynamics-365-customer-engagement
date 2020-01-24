@@ -97,5 +97,5 @@ User and team management is the area of [!INCLUDE[pn_microsoftcrm](../includes/p
  [Sample: Disable a User](sample-disable-user.md)   
  [Sample: Share Records Using GrantAccess, ModifyAccess and RevokeAccess Messages](sample-share-records-using-grantaccess-modifyaccess-revokeaccess-messages.md)   
  [Sample: Share a record using an access team](sample-share-record-using-access-team.md)   
- [Blog: Service Accounts – Non-Interactive Users](http://go.microsoft.com/fwlink/p/?LinkId=234350)   
+ [Blog: Service Accounts – Non-Interactive Users](https://go.microsoft.com/fwlink/p/?LinkId=234350)   
  [Privilege and Role Entities](privilege-role-entities.md)

@@ -58,7 +58,7 @@ My_Global_Application.CallExternalWebService(“[[account.accountnumber]$]”);
   
 ```  
 <Grid Margin="0"  
-  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+  xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"  
   xmlns:CCA="clr-namespace:Dynamics;assembly=Dynamics">  
 <Grid.RowDefinitions>  
  <RowDefinition Height="auto" />  

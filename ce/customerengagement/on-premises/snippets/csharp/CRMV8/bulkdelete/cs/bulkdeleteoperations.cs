@@ -75,7 +75,7 @@ namespace Microsoft.Crm.Sdk.Samples
             var account = new Account
             {
                 Name = "Fourth Coffee",
-                WebSiteURL = "http://www.fourthcoffee.com/"
+                WebSiteURL = "https://www.fourthcoffee.com/"
             };
             _serviceProxy.Create(account);
         }

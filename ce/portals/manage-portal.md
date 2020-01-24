@@ -30,7 +30,7 @@ After provisioning a portal, you can perform various actions such as setting up 
 
 To manage an existing portal, you must be assigned any one of the following roles:
 - Office 365 Global Administrator 
-- Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/en-us/library/mt793847.aspx)  
+- Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/library/mt793847.aspx)  
 - System Administrator of the Common Data Service environment selected for the portal
 
 If you haven't been assigned any of the above-mentioned roles, the following message is displayed: You need to be a global administrator, service administrator, or system administrator for this organization in order to manage this portal.

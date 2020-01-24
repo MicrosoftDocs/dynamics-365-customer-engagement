@@ -150,7 +150,7 @@ The lower schedule board pane displays requirement records and can be configured
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule board](media/scheduling-urs-schedule-board-schedule-assistant.png) 
 
-The requirement can be dragged and dropped onto a resource on the schdedule board to schedule the work order. Alternatively, selecting  **find availability** on the requirement in the lower pane will trigger the schedule assistant, which recommends the most appropriate resources. 
+The requirement can be dragged and dropped onto a resource on the schedule board to schedule the work order. Alternatively, selecting  **find availability** on the requirement in the lower pane will trigger the schedule assistant, which recommends the most appropriate resources. 
 
 ### Book with Resource Scheduling Optimization
 
@@ -247,5 +247,5 @@ If the work order or requirement doesn't have a latitude or longitude, the locat
 ### See also
 - [Universal Resource Scheduling documentation](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
 - [Resource Scheduling Optimization overview](rso-overview.md)
-- [Frequently asked questions about the mobile solution](http://www.resco.net/mobilecrm/support.aspx) 
+- [Frequently asked questions about the mobile solution](https://www.resco.net/mobilecrm/support.aspx) 
 - [Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf) 

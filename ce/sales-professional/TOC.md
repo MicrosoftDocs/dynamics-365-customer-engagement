@@ -5,11 +5,19 @@
 ## [Sign up for free trial of Dynamics 365 Sales Professional](try-dynamics365-sales-professional.md) 
 ## Get started
 ### [Overview](sales-professional-overview.md)
-### [Learn the basics](learn-basics-sales-professional.md)
+### [Get started with the basics](learn-basics-sales-professional.md)
 ### [Use lookup fields on forms](use-lookup-fields-forms.md)
 ### [Work with views (lists)](work-with-views.md)
 ### [Manage your customers](manage-accounts-contacts.md)
 ### [Manage tasks, appointments, email, or phone calls](manage-activities.md)
+### [Learning Catalog](learning-catalog.md)
+#### [Business Decision Maker](learning-bdm.md)
+#### [Business User](learning-bus-user.md)
+#### [Implementation Project Manager](learning-project-manager.md)
+#### [Administrator](learning-administrator.md)
+#### [Developer](learning-developer.md)
+#### [Functional Consultant](learning-functional-consultant.md)
+#### [Partner Sales and Marketing](learning-sales.md)
 
 ## User guide
 ### [Help resources for sales people](user-guide.md)
@@ -40,6 +48,8 @@
 #### [Create or edit a campaign](create-edit-campaign-using-app-marketing-sp.md)
 #### [Add an activity to a campaign](add-activity-campaign-using-app-marketing-sp.md)
 #### [Track a marketing campaign response](track-marketing-campaign-response-using-app-marketing-sp.md)
+### [Use Sales Professional on the mobile app](use-sales-professional-on-dynamics-365-mobile.md)
+
 
 ## Administrator and sales manager guide
 ### [Help resources for admins and sales managers](admin-guide.md)
@@ -78,3 +88,4 @@
 
 # Dynamics 365 Sales (Enterprise)
 ## [Help resources for Dynamics 365 Sales (Enterprise)](../sales-enterprise/help-hub.md)
+

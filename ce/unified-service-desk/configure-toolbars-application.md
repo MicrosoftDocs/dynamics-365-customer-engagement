@@ -106,8 +106,8 @@ The resources in the dictionary refers to other resources that are available on 
 > You can find this sample XAML styles in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] - Unified Interface sample package.
 
   ```XAML
-  <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
-  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+  <ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+  xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml" 
   xmlns:usd="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics" 
   xmlns:controlStyles="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics.Controls.Styles;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics" 
   xmlns:usdPanelLayouts="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics.PanelLayouts;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics" 
@@ -447,8 +447,8 @@ The sample XAML that defines defines <xref:System.Windows.ResourceDictionary> of
 > You can find this sample XAML styles in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] - Unified Interface sample package.
 
   ```XAML
-  <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  <ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"
   xmlns:usd="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"
   xmlns:controlStyles="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics.Controls.Styles;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"
   xmlns:usdPanelLayouts="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics.PanelLayouts;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"

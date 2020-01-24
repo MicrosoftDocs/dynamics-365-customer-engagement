@@ -85,9 +85,9 @@ Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service 2.0.
  The caller was not authenticated by the service.  
   
 ### Synchronization support for Cached Exchange Mode  
- [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] synchronization is not supported if Cached Exchange Mode is turned off in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  See: [Turn on Cached Exchange Mode](http://office.microsoft.com/outlook-help/turn-on-cached-exchange-mode-HA102809573.aspx)  
+ [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] synchronization is not supported if Cached Exchange Mode is turned off in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  See: [Turn on Cached Exchange Mode](https://office.microsoft.com/outlook-help/turn-on-cached-exchange-mode-HA102809573.aspx)  
   
- Server-side synchronization is supported if Cached Exchange Mode is turned off in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. See: [Turn on Cached Exchange Mode](http://office.microsoft.com/outlook-help/turn-on-cached-exchange-mode-HA102809573.aspx)  
+ Server-side synchronization is supported if Cached Exchange Mode is turned off in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. See: [Turn on Cached Exchange Mode](https://office.microsoft.com/outlook-help/turn-on-cached-exchange-mode-HA102809573.aspx)  
   
 ### Automatic email tagging off by default  
  This setting is in the Microsoft Dynamics 365 apps Diagnostics tool included with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. Click **Start** > **All Programs** > **Microsoft Dynamics 365 apps** > **Diagnostics** > **Synchronization Troubleshooting** tab.  
@@ -159,5 +159,5 @@ Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service 2.0.
 6. Click **OK** to close System Settings.  
   
 ### See Also  
- [Blog: Microsoft Dynamics CRM for Outlook Configuration Diagnostic](http://go.microsoft.com/fwlink/p/?LinkID=717230)   
+ [Blog: Microsoft Dynamics CRM for Outlook Configuration Diagnostic](https://go.microsoft.com/fwlink/p/?LinkID=717230)   
  [Troubleshooting and monitoring server-side synchronization](https://technet.microsoft.com/library/dn850386.aspx)

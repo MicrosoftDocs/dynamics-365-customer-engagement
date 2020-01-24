@@ -39,9 +39,9 @@ The following diagram illustrates the key programmability scenarios for Dynamics
 <a name="bkmk_webAPI"></a>
 
 ### Web API
- The Web API was introduced with [!INCLUDE[pn_crm_2016_and_online_full](../includes/pn-crm-2016-and-online-full.md)] and it provides a development experience that can be used across a wide variety of programming languages, platforms, and devices. The Web API implements the [OData](http://odata.org) (Open Data Protocol) v4. OData is an OASIS standard for building and consuming RESTful APIs over rich data sources.
+ The Web API was introduced with [!INCLUDE[pn_crm_2016_and_online_full](../includes/pn-crm-2016-and-online-full.md)] and it provides a development experience that can be used across a wide variety of programming languages, platforms, and devices. The Web API implements the [OData](https://odata.org) (Open Data Protocol) v4. OData is an OASIS standard for building and consuming RESTful APIs over rich data sources.
 
- When you use the Web API, you can choose from [a list of community-supported libraries that support the OData v4 standard](http://www.odata.org/libraries/). You can also choose to write code using HTTP directly. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Dynamics 365 Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md)
+ When you use the Web API, you can choose from [a list of community-supported libraries that support the OData v4 standard](https://www.odata.org/libraries/). You can also choose to write code using HTTP directly. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Dynamics 365 Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md)
 
  When you connect to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] (on-premises) environments with Internet-facing deployment (IFD), you can use [Azure AD Authentication Libraries (ADAL)](https://azure.microsoft.com/documentation/articles/active-directory-authentication-libraries/) to enable authentication from a wide variety of programming languages and platforms. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Authenticate to Dynamics 365 Customer Engagement (on-premises) with the Web API](webapi/authenticate-web-api.md)
 

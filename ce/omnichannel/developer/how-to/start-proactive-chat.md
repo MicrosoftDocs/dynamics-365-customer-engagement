@@ -307,7 +307,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 
 ### Sample code
 
-This sample code shows how you can use Bing's Geolocation APIs to know the geographic region of the customer and offer chat request based on that. More information about Bing's location APIs: [Bing Maps Locations API](https://docs.microsoft.com/en-us/bingmaps/rest-services/locations/).
+This sample code shows how you can use Bing's Geolocation APIs to know the geographic region of the customer and offer chat request based on that. More information about Bing's location APIs: [Bing Maps Locations API](https://docs.microsoft.com/bingmaps/rest-services/locations/).
 
 ```javascript
 <!-- Code to show proactive chat invite if visitor is visiting the page in a particular country or region -->
@@ -343,7 +343,7 @@ This sample code shows how you can use Bing's Geolocation APIs to know the geogr
 					console.log("Bing Geolocation API call has failed and returned error: " + this.statusText);
 				}
 			};
-			xhttp.open("GET", 'http://dev.virtualearth.net/REST/v1/Locations/'+ latitude +','+ longitude +'?key='+ bingMapApiKey, true);
+			xhttp.open("GET", 'https://dev.virtualearth.net/REST/v1/Locations/'+ latitude +','+ longitude +'?key='+ bingMapApiKey, true);
 			xhttp.setRequestHeader("Content-type", "application/json");
 			xhttp.send();
 		}
@@ -354,7 +354,7 @@ This sample code shows how you can use Bing's Geolocation APIs to know the geogr
 			var longitude = position.coords.longitude;
 			console.log('Your latitude is :'+latitude+' and longitude is '+longitude);
 			//convert current loaction to a country/ region via Bing Geolocation APIs
-			var bingMapApiKey = 'Enter your Bing Map API key';// Get Bing Map API key here : https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key
+			var bingMapApiKey = 'Enter your Bing Map API key';// Get Bing Map API key here : https://docs.microsoft.com/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key
 			GetCountryUsingBingGeoLocationAPIAndOfferProactiveChatIfVisitorCountryMatchesWithGivenCountry( latitude, longitude, bingMapApiKey, countryNameWhereProactiveChatInviteShouldBeOffered);// get Country name using Bing Geolocation API and offer proctiveChat if visitor's country matches with Country name where proactive chat invite should be offered
 		}
 		
