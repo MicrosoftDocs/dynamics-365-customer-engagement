@@ -159,7 +159,7 @@ You can build the expression in the **Agent scripts** tab that is present in the
 
 5. Select the **Condition** step, and then create the condition. 
 
-6. Select the **Add an action** button in the **If true** step. The **Condition** step is displayed. To learn about the conditions, see [Use automation dictionary to pass macro context data parameters](#use-automation-dictionary-to-pass-macro-context-data-parameters)
+6. Select the **Add an action** button in the **If true** step. The **Condition** step is displayed. To learn about the conditions, see [Use automation dictionary to pass macro context data parameters](#use-automation-dictionary-to-pass-context-data-parameters)
 
 7. Select the **Customer Service** tab, and then select the **Set default agent script** action.
 
