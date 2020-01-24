@@ -252,6 +252,8 @@
           items:
           - name: "initLogAnalytics"
             href: v2/reference/microsoft-ciframework/initLogAnalytics.md
+          - name: "updateConversation"
+            href: v2/reference/microsoft-ciframework/updateConversation.md
           - name: "logAnalyticsEvent"
             href: v2/reference/microsoft-ciframework/logAnalyticsEvent.md
       - name: "Client-side events"
