@@ -233,7 +233,7 @@ Consider the crew strategy when rescheduling or editing crew bookings:
 
 - **Cascade and Accept Cascade Completely**: any change to the booking affects everyone's bookings.
 - **Crew Leader Management**: only the designated leader or leaders can make changes on bookings. If a leader changes a booking, everyone's booking changes. Individual team members cannot change bookings.
-- **Crew Member Self-Management**: All crew bookings are indepepent of one another, and bookings are not kept in sync across the crew. When the crew is scheduled, each crew member gets scheduled, but can change their own bookings regardless of others' work.
+- **Crew Member Self-Management**: All crew bookings are independent of one another, and bookings are not kept in sync across the crew. When the crew is scheduled, each crew member gets scheduled, but can change their own bookings regardless of others' work.
 
 
 ## Additional notes
