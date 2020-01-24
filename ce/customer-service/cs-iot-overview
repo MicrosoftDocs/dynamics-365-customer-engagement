@@ -1,6 +1,6 @@
 ---
 title: "Connected Customer Service for Azure IoT Central - Overview| MicrosoftDocs"
-description: "Instructions on how to create and manage data-masking rules in Omnichannel for Customer Service."
+description: "Overview of Connected Customer Service for Azure IoT Central."
 keywords: ""
 author: lalexms
 ms.author: lalexms
@@ -87,6 +87,6 @@ Connected Customer Service uses SQL Azure to store device heartbeat messages for
 
 [Azure Blob Storage](https://azure.microsoft.com/services/storage/)
 
-Queries that Stream Analytics will use are stored to Azure Blob storage.
+Queries that Stream Analytics uses are stored to Azure Blob storage.
 
 - [Connected Customer Service Device Readings (Preview)](https://docs.microsoft.com/en-us/dynamics365/field-service/cfs-visualizations-iot-hub) uses [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
