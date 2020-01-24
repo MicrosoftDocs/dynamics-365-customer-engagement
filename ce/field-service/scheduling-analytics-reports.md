@@ -30,6 +30,11 @@ search.app:
 
 Resource manager or operation manager are responsible for managing the resources who work onsite to provide support on customer needs no matter it is a break-fix or a regular maintenance ask.  They need to be able to monitor key operational metrics to gauge resource and scheduling performance. The reports can uncover business questions as whether resources are being effectively utilized over a period time and, as a whole, what is the variance between estimated and actual time and whether requirements and allocated resource are balanced.  So, they can fine turn the resource scheduling strategy and provide appropriate guidance to resources, and ultimately that will lead to savings in time, money and continues improvement on customer experience. 
 
+3 scheduling analytic reports will be available, 1 with field service and 2 with rso
+
+1. Resource and utilization (included with Field Service)
+2. RSO Admin (included with RSO)
+3. Optimization summary (included with RSO)
   
 This Public preview contains three reports focused on different scenarios and user personas - “Resource and Utilization”, “RSO Admin” and “Optimization summary”. 
 
@@ -132,4 +137,25 @@ Verify the following prerequisites before you use the Resource Scheduling Report
 
 
 ## Configuration considerations
+
+- Other than editing filters and the ability to drill down, the reports are not configurable or customizable. 
+
+
 ## Additional Notes
+
+- The reports are built on PowerBI
+
+### How to share the reports:
+By default, the Tenant administrator will be able to view all the reports, but by following the below steps, he/she can share the reports to the users.
+
+Go to advanced find and search the Data Analytics Reports entity.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-analytics-share.png)
+
+Each report will show as a record, select the report you would like to share and click **Share** at the top.
+
+Then add the users or teams you want to give access to. Make sure the Read access is selected and click the Share button.
+
+Users or teams the report is shared with will be able to view the reports when they log in.
+
