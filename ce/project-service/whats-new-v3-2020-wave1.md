@@ -28,7 +28,7 @@ search.app:
 The topic highlights key upgrade considerations when moving to the latest release of Project Service Automation (PSA) version 3.x wave 1 2020.
 
 ## Time entry
-The time entry experience has been extended to deliver capabilities for extending time entry into more customer scenarios. This includes the capability to add entry types, which now drive specific behavior based on the field schema name **Time Entry Settings"**, displayed as **Time Source**.
+The time entry experience has been extended to deliver capabilities for extending time entry into more customer scenarios. This includes the capability to add entry types, which now drive specific behavior based on the field schema name **Time Entry Settings**, displayed as **Time Source**.
 
 ### Upgrade consideration
 To support this functionality, the roles within PSA have been updated to include new privileges. These privileges grant read access to the new entity, **Time Entry Settings**.
