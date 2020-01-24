@@ -30,25 +30,12 @@ search.app:
 
 Resource manager or operation manager are responsible for managing the resources who work onsite to provide support on customer needs no matter it is a break-fix or a regular maintenance ask.  They need to be able to monitor key operational metrics to gauge resource and scheduling performance. The reports can uncover business questions as whether resources are being effectively utilized over a period time and, as a whole, what is the variance between estimated and actual time and whether requirements and allocated resource are balanced.  So, they can fine turn the resource scheduling strategy and provide appropriate guidance to resources, and ultimately that will lead to savings in time, money and continues improvement on customer experience. 
 
-3 scheduling analytic reports will be available, 1 with field service and 2 with rso
+Field Service and Resource Scheduling Optimization (RSO) cotnain three reports focused on different scenarios and user personas - “Resource and Utilization”, “RSO Admin” and “Optimization summary”. 
 
 1. Resource and utilization (included with Field Service)
 2. RSO Admin (included with RSO)
 3. Optimization summary (included with RSO)
   
-This Public preview contains three reports focused on different scenarios and user personas - “Resource and Utilization”, “RSO Admin” and “Optimization summary”. 
-
-Resource Manager can use Resource and Utilization report to perform the following tasks:  
-
-- Monitor metrics across resource and utilization, time spent on bookings and miles on truck rolls.   
-- Unpack insights on the territory as a whole; what is the allocation of bookings, is territory imbalance between demand and supply, what is the estimated travel time versus the actual travel time?  
-- Understand how individual resource is using their time to react and resolve and whether individual resource is under or over utilized comparing to others.  
-
-Resource Manager can use RSO Admin and Optimization summary reports to perform the following tasks:     
-
-- A post-analysis to provide recap of each optimization request such as number of requirements, number of bookings, allocated hours and least allocated resource.  
-
-Note: Contact your system administrator, for configuration errors or if you are unable to view the dashboards.   
 
 
 ## Prerequisites
@@ -67,6 +54,12 @@ Verify the following prerequisites before you use the Resource Scheduling Report
 - For RSO Admin and Optimization summary reports, RSO is provisioned and the report is assigned a role that wants to get the access by Administrator.   
 
 ## Resource Scheduling analytics
+
+Resource Manager can use Resource and Utilization report to perform the following tasks:  
+
+- Monitor metrics across resource and utilization, time spent on bookings and miles on truck rolls.   
+- Unpack insights on the territory as a whole; what is the allocation of bookings, is territory imbalance between demand and supply, what is the estimated travel time versus the actual travel time?  
+- Understand how individual resource is using their time to react and resolve and whether individual resource is under or over utilized comparing to others.  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-analytics1.png)
@@ -102,7 +95,11 @@ Verify the following prerequisites before you use the Resource Scheduling Report
 ## Resource Scheduling Optimization analytics
 
 
+
 ### RSO Admin
+
+The RSO admin report analyzes when and how RSO runs, but not the actual booking results.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-analytics-rso-admin.png)
 
@@ -116,6 +113,9 @@ Verify the following prerequisites before you use the Resource Scheduling Report
 | Number of failed optimization request |	The number of failed optimization request in the given schedule requests. |
 
 ### Optimization summary
+
+The optimization summary analyzes the automatically scheduled bookings and the effect this has on the business such as an analysis of minimized travel time.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-analytics-rso-summary.png)
 
@@ -157,5 +157,5 @@ Each report will show as a record, select the report you would like to share and
 
 Then add the users or teams you want to give access to. Make sure the Read access is selected and click the Share button.
 
-Users or teams the report is shared with will be able to view the reports when they log in.
+Users or teams the report is shared with will be able to view the report when they log in.
 
