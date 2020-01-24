@@ -121,20 +121,9 @@ The agent script is associated with the session template.
 
 After you've created the agent script, you need to enable the productivity pane to display the script to the agents in the Omnichannel for Customer app.
 
-1. Sign in to the Omnichannel Administration app.
+To enable productivity pane, see [Enable productivity pane to provide guidance to agents](productivity-pane.md).
 
-2. Select **Productivity pane** under **Agent Experience**.
-
-3. Set the **Productivity pane** toggle to **Enabled** to enable the productivity pane for the users in the Omnichannel for Customer app.
-
-4. Set the **Mode** toggle as per your requirement. By default, the **Collapsed** mode is set, and you can set it to **Expanded**.
-
-    The productivity pane will be in expanded mode for the users if you set **Expanded**.
-
-    > [!div class=mx-imgBorder] 
-    > ![Enable productivity pane](../media/productivity-pane-enable.png "Enable productivity pane")
-
-You've enabled the productivity pane. Now, users can see the agent script on the productivity pane in the Omnichannel for Customer Service app.
+After you've enabled the productivity pane, users can see the agent scripts on the productivity pane in the Omnichannel for Customer Service app.
 
 > [!Note]
 > - If you don't create agent script and enable the productivity pane, then users wouldn't see the pane in the Omnichannel for Customer Service app. 
