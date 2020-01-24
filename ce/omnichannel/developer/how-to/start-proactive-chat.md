@@ -4,7 +4,7 @@ description: "Read how you can start chat proactively to see if customers need h
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 10/24/2019
+ms.date: 01/24/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: reference
