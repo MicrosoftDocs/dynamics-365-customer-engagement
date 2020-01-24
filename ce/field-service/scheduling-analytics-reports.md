@@ -42,18 +42,22 @@ Field Service and Resource Scheduling Optimization (RSO) cotnain three reports f
 This feature is in public preview.
 
 To get the Resource and utilization report: 
+
 1. Install or upgrade Field Service
 2. Install the Data Insights and Analytics for Resource Scheduling solution in your instance.
-3. The Resource and utilization report will appear in the Field Service app for users with **System Administrator or Field Service-Administrator** security roles. 
+3. The Resource and utilization report will appear in the Field Service app for users with **System Administrator** or **Field Service-Administrator** security roles. 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-analytics-install-data-insights.png)
 
-Verify the following prerequisites before you use the Resource Scheduling Reports: 
+To get the Resource Scheduling Optimization reports:
 
-- For Resource and utilization, Field Service is provisioned, and the report is assigned to a role that wants to get the access by Administrator.   
-- For RSO Admin and Optimization summary reports, RSO is provisioned and the report is assigned a role that wants to get the access by Administrator.   
+1. Install or upgrade Field Service
+2. Install or upgrade Resource Scheduling Optimization 
+3. Install the Data Insights and Analytics for Resource Scheduling solution in your instance.
+4. The RSO Admin Optimization summary reports will appear in the Resource Scheduling Optimization app for users with **System Administrator** or **Field Service-Administrator** security roles. 
+
 
 ## Resource Scheduling analytics
 
