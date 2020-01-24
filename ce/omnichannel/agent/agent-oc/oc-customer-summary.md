@@ -1,6 +1,6 @@
 ---
-title: "View customer summary | MicrosoftDocs"
-description: "Customer summary is a form where you can get complete information about the customer with whom you are going to interact."
+title: "View a customer summary in Omnichannel for Dynamics 365 | MicrosoftDocs"
+description: "Customer summary is a page where you can get all available information about the customer with whom you're going to interact."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -10,50 +10,39 @@ ms.service:
 ms.topic: article
 ---
 
-# View customer summary
-
+# View a customer summary to get all available information about a customer
+<!--note from editor: Edit suggested. I think "all available information" is a bit more descriptive.-->
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-One of the major challenges that customers face when contacting customer support is providing repetitive information about the issue with the support agent. Also, if the customer wants to review the status of the request later, the customer shares the same information with another support agent to explain the context of the engagement. To avoid this, the support agent needs access to customer information with details about the product/service, issue, case history, related cases, location, and so on.
+One of the major challenges that customers face when contacting customer support is repeatedly giving the same information about the issue to each support agent they talk to. And if they want to review the status of their request later, they'll have to share the same information with another support agent to explain the context of the engagement. To avoid this situation, support agents need access to all the information the customer has provided, including details about the product or service, issue, case history, related cases, and location.
 
-Having this information ready when a customer contacts the support agent can reduce the hold time that the agent spends to retrieve the customer information, reduce the average handling time (AHT), and increase customer satisfaction with faster resolution of the issue.
+Having this information ready can help support agents reduce the hold time that they spend retrieving customer information, reduce average handling time, and increase customer satisfaction by resolving issues faster.
 
-## What is Customer summary?
+## What is a customer summary?
 
 Customer summary is a page that gives you complete information about a customer. The page appears when you accept an incoming request from any channel. The default Customer summary view provides the following sections:
 
  - Customer (Contact or Account)
-
  - Conversation summary
-
  - Case
-
  - Recent cases
-
  - Timeline
 
 > [!div class='mx-imgBorder']
-> ![View Customer summary](../../media/customer-summary.png "View Customer summary")
+> ![View Customer summary](../../media/customer-summary.png "View the Customer summary page")
 
 ## Customer (Contact or Account)
 
-This section provides details like the contact name or account name. For a contact, you can view the location, email, and any other details of the contact. For an account, you can view location, telephone number, and primary contact person for the account.
+This section provides details like the contact name or account name. For a contact, you can view the location, email, and other details of the contact. For an account, you can view location, telephone number, and primary contact person for the account.
 
-Use the customer form to search for an existing contact or account record in omnichannel and select the record to link it to the conversation. If the record doesn't exist, you can create a new contact or account record using the **+ Add Contact** or **+ Add Account** button respectively.  After you create, search the record and then select it to link to the conversation.
+Use the Customer form to search for an existing contact or account record in Omnichannel for Microsoft Dynamics 365 Customer Service, and select the record to link it to the conversation. If the record doesn't exist, you can create a new contact or account record by using the **+ Add Contact** or **+ Add Account** button, respectively. After you create it, search for the record and then select it to link it to the conversation.
 
 > [!div class='mx-imgBorder']
-> ![Customer profile section in the customer summary form](../../media/customer-summary-customer-form.PNG "Customer profile section in the customer summary form")
+> ![Customer profile section in the customer summary form](../../media/customer-summary-customer-form.PNG "Customer profile section of the Customer summary page")
 
 ## Conversation summary
-
-The conversation summary section displays tabs with the details that help you understand the information about the conversation with customer. It displays the following tabs:
-
-- Pre-chat survey
-- Self service
-- Visitor details
-- Additional details (Only if configured and additional context variables available)
-
-The Conversation details section shows the following details:
+<!--note from editor: Rearrangement suggested, so the description of the tabs isn't interrupted by the "Conversation details" discussion. -->
+The **Conversation summary** section provides detailed information about the conversation between the agent and customer. The details shown in the **Conversation details** area include the following:
 
 - Engagement channel
 - Waiting time
@@ -61,12 +50,24 @@ The Conversation details section shows the following details:
 - Queue
 - Start time
 
+
   > [!div class='mx-imgBorder']
-  > ![Conversation details](../../media/conversation-details.png "Conversation details")
+  > ![Conversation details](../../media/conversation-details.png "Conversation-details")
+ 
+In addition, the **Conversation summary** section includes several tabs:
+
+- Pre-chat survey
+- Self service
+- Visitor details
+- Additional details, if they've been configured and additional context variables are available<!--note from editor: Will your reader understand what this means? -->
+
+These tabs are described in the following sections.
 
 ### Pre-chat survey
 
-The **Pre-chat survey** tab displays the survey answers against the questions that are requested by your organization, which helps your interaction with the customer.
+<!--note from editor: Please double-check this edit. I tried to make it clear whose answers are being displayed, but might have guessed wrong.-->
+The **Pre-chat survey** tab displays the customer's answers to the survey questions that were posed by your organization, which helps your interaction with the customer.
+<!--note from editor: It would be nice to have an illustration here.-->
 
 ### Self service
 
@@ -86,53 +87,57 @@ To configure the appearance of the **Self service** tab, see [Enable self-servic
 
 ### Visitor details
 
-The **Visitor details** tab provides some information such as whether the customer is authenticated or not, browser used by the customer for contacting support, operating system used by the customer, location of the customer, interacting language of the customer, and so on.
+The **Visitor details** tab provides information such as whether the customer is authenticated, the browser the customer used to contact support, the operating system used by the customer, the customer's location, and the language used during the interaction.
+<!--note from editor: What does the following image have to do with the Visitor details tab? Doesn't seem to fit.-->
 
 > [!div class='mx-imgBorder']
-> ![Conversation summary section in the customer summary form](../../media/customer-summary-conversation-summary.png "Conversation summary section in the customer summary form")
+> ![Conversation summary section in the customer summary form](../../media/customer-summary-conversation-summary.png "The Conversation summary section of the Customer summary page")
 
-If the customer signs in to the portal to initiate a chat with the support, then as an agent, you can see the **Authenticated** field value as **Yes** in the **Visitor details** tab of the **Conversation summary** section. Otherwise, the **Authenticated** field value is shown as **No**.
+ If the customer has signed in to the portal to initiate the chat with a support agent, the **Authenticated** field value is **Yes**; otherwise, the **Authenticated** field value is **No**.
 
-![Authenticated chat shows as Yes in the Visitor details tab of Conversation summary](../../media/conversation-summary-authenticated-chat.PNG "Authenticated chat shows as Yes in the Visitor details tab of Conversation summary") ![Unauthenticated chat shows as No in the Visitor details tab of Conversation summary](../../media/conversation-summary-unauthenticated-chat.PNG "Unauthenticated chat shows as Yes in the Visitor details tab of Conversation summary")
+![Authenticated chat shown as Yes on the Visitor details tab](../../media/conversation-summary-authenticated-chat.PNG "Authenticated chat shown as Yes on the Visitor details tab") ![Unauthenticated chat shown as No on the Visitor details tab](../../media/conversation-summary-unauthenticated-chat.PNG "Unauthenticated chat shown as No on the Visitor details tab")
 
 To learn more, see [Create chat authentication settings](../../administrator/create-chat-auth-settings.md).
 
 ### Additional details
 
-If your administrator or developer configures the **Additional details** tab and if there are any additional context variables, it is displayed in the **Additional details** tab. 
+If your administrator or developer has configured the **Additional details** tab and if any additional context variables exist, they're displayed on the **Additional details** tab. 
 
 To learn more, see [setContextProvider](../../developer/reference/methods/setContextProvider.md).
 
 ## Case
 
-Use the case form to search for an existing case in omnichannel and select the case to link it to the conversation. If the record doesn't exist, you can create a new case using the **+ Add Case** button.  After you create, search the record and then select it to link to the conversation.
+Use the **Case** section to search for an existing case in Omnichannel for Customer Service, and select the case to link it to the conversation. If the record doesn't exist, you can create a new case by using the **+ Add Case** button. After you create it, search for the record and then select it to link it to the conversation.
 
 > [!div class='mx-imgBorder']
-> ![Case section in the customer summary form](../../media/customer-summary-issue-snapshot.PNG "Case section in the customer summary form")
+> ![Case section in the customer summary form](../../media/customer-summary-issue-snapshot.PNG "Case section on the Customer summary page")
 
 ## Recent cases
 
 This section displays recent cases related to the customer.
 
 > [!div class='mx-imgBorder']
-> ![Recent cases section in the customer summary form](../../media/customer-summary-recent-cases.png "Recent cases section in the customer summary form")
+> ![Recent cases section in the customer summary form](../../media/customer-summary-recent-cases.png "Recent cases section on the Customer summary page")
 
 ## Timeline
 
-This section displays case- and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Use the **Linked records** field to switch the timeline based on the Case, Contact, or Account record linked to the conversation.
+This section displays case-related and customer-related activities in the form of a timeline. You can create quick notes based on your discussion with the customer. Use the **Linked records** field to switch the timeline based on the case, contact, or account record linked to the conversation.
+<!--note from editor: In the following image, I don't see these names (Monte Kong and Bert Hair) in our current fictitious names list. Did they come from sample data? Also, is it okay that I changed the image alt text to "Timeline section" from "Recent activities section," to match the UI as shown in the image?-->
 
 > [!div class='mx-imgBorder']
-> ![Recent activities section in the customer summary form](../../media/customer-summary-recent-activities.PNG "Recent activities section in the customer summary form")
+> ![The Timeline section on the Customer summary page](../../media/customer-summary-recent-activities.PNG "The Timeline section on the Customer summary page")
 
-The **Linked records** field drop-down shows the record that is linked to conversation. For example, if you link a contact and case to the conversation, the **Linked records** field drop-down shows **Contact** and **Case** respectively.
+The **Linked records** field shows the record that's linked to the conversation. For example, if you link a contact and case to the conversation, the **Linked records** drop-down list shows **Contact** and **Case**, respectively.
+<!--note from editor: In the following image, I don't see "Nandini R" in our current fictitious names list. Is that from sample data?-->
+
 
 > [!div class='mx-imgBorder']
-> ![View only the linked records in the drop-down](../../media/oceh/customer-summary-linked-records.PNG "View only the linked records in the drop-down")
+> ![View only the linked records in the drop-down](../../media/oceh/customer-summary-linked-records.PNG "View only the linked records in the drop-down list")
 
 > [!div class="nextstepaction"]
 > [Next topic: Search for and share knowledge articles](oc-search-knowledge-articles.md)
 
-## See also
+### See also
 
 - [View communication panel](oc-conversation-control.md)
 - [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
