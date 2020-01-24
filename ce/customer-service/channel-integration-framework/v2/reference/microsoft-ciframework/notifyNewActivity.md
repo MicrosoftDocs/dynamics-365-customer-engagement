@@ -54,6 +54,6 @@ Microsoft.CIFramework.notifyNewActivity(sessionId, count).then(
 );
 ```
 
-## See also
+### See also
 
 [notifyKPIBreach API](notifyKPIBreach.md)

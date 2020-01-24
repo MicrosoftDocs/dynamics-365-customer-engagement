@@ -17,7 +17,7 @@ ms.custom:
 
 [!include[cc-beta-prerelease-disclaimer](../../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This method is used to indicate a KPI breach. Using this API, a red circle appears on the display image of the contact when a KPI breach has occurred.
+This method is used to indicate a KPI breach. When this KPI is used, a red circle appears on the display image of the contact when a KPI breach has occurred.
 
 ![Notify KPI Breach](../../../media/notifyKPIBreach.PNG "Notify KPI Breach")
 <br>
@@ -31,7 +31,7 @@ This method is used to indicate a KPI breach. Using this API, a red circle appea
 | **Name**        | **Type** | **Required** | **Description**                                                                                                  |
 |-----------------|----------|--------------|------------------------------------------------------------------------------------------------------------------|
 | sessionId           | String   | Yes    | Unique identifier of the session.                            |
-| shouldReset | Boolean | No     | Flag to reset KPI breach indication. The default value is `false`. |
+| shouldReset | Boolean | No     |  A flag to reset the KPI breach indication. The default value is `false`. |
 | details   | String | No           | Details about the KPI breach.             |
 | successCallback| Function | No | A function to call when the request is successful. |
 | errorCallback | Function | No | A function to call when the request fails. |
@@ -54,6 +54,6 @@ Microsoft.CIFramework.notifyKPIBreach(sessionId, shouldReset, details).then(
 	}
 );
 ```
-## See also
+### See also
 
 [notifyNewActivity API](notifyNewActivity.md)
