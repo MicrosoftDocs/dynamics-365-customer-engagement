@@ -40,11 +40,13 @@ Further, this feature makes it simple to configure a solution to create time act
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/booking-timestamps.md.png)
+> ![Screenshot of ](./media/work-order-time-entry.png)
 
-charging scenarios
-reporting 
-utilization
+
+
+- charging scenarios
+- reporting 
+- utilization
 
 
  Field Service time entry aligns with Dynamics 365 Project Service Automation to capture time entries into the same entity that Project Service Automation has always used for consistent capture, regardless of whether your organization uses Field Service, Project Service Automation, or both.
@@ -53,14 +55,23 @@ utilization
 > [!Note]
 >
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
 
 ## Manual time entry
 
 ### mobile app
 
 ## Work orders
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-time-entry-booking-statuses.png)
+
+
+upon complete
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-time-entry-work-order.png)
 
 
 ## Time off
@@ -95,6 +106,8 @@ Furthermore, making changes to the date or duration of the time entry will udpat
 
 
 ## Configuration considerations
+
+Booking timestamps
 
 Actuals
 
