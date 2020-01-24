@@ -59,7 +59,8 @@ By installing Connected Customer Service for Dynamics 365, when you provide your
 
 Azure components and services that are involved with Connected Customer Service functionality are detailed in the following sections.
 
-For more information about additional Azure service offerings, see the [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/).
+> [!NOTE]
+> For more information about additional Azure service offerings, see the [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/).
 
 [Service bus queue](https://azure.microsoft.com/documentation/articles/service-bus-dotnet-get-started-with-queues/)
 
