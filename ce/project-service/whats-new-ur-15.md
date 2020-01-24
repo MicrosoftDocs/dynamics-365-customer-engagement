@@ -2,7 +2,13 @@
 
 
 title: What's new in Project Service Automation Update Release 15, V3
-description: This topic lists the features and fixes that are available in release 15 of Project Service Automation V3.
+description: We’re pleased to announce the latest update for the Project Service Automation
+application for Dynamics 365. This release includes some important improvements
+to quality, performance, and usability.
+
+This release is compatible with Dynamics 365 9.x. To update to this release,
+visit the Admin Center for Dynamics 365 online, solutions page to install the
+update. For details, refer How to Install, Update a Preferred Solution
 author: ruhercul                
 manager: kfend
 ms.service: dynamics-365-projectservice
@@ -28,61 +34,60 @@ search.app:
 
 This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 15 This version has a build number of V3.10.5.28 and is available on the following schedule:
 
-- **Preview release:** February 2020
-- **General availability (self-update):** March 2020
-- **Auto-update:** April 2020
+- **General availability (self-update):** January 2020
 
-## Features included in this release
 
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
-
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
-
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
-
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
-
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
-
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
-
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
-
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
-
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
-
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
-
-## Additional resources
 
 ### Update Release 15 bug fixes
+-   **Enhancements**
 
-For information about the bug fixes that are included in each update that is part of Update Release 15, go to....
+    -   Project Management
+
+        -   Fixed: A new notification banner has been added to the project form
+            when the time zone differs between user and project.
+
+-   **Bug fixes**
+
+    -   Time and Expense
+
+        -   Fixed: Add on-load error handling in the reconciliation view.
+
+        -   Fixed: Project Resource Hub: Rename "Amount" to reduce ambiguity
+
+        -   Fixed: Adjust the view "Copy Time Entry Columns" to include the
+            type.
+
+        -   Fixed: Editing time entry duration in the grid view using decimal
+            numbers results in unknown error for some numbers.
+
+    -   Project Management
+
+        -   Fixed: The dropdown for Use in tracking View does not expand based
+            on the width of the options.
+
+        -   Fixed: +13 time zone project tasks shifts when created
+
+        -   Fixed: Team Member End Time incorrect when using 24hr Calendar
+
+        -   Fixed: Re-activate the BPF in msdyn_project main form
+
+        -   Fixed: Assignments calculation is ignoring one day
+
+    -   Sales
+
+        -   Fixed: Expense estimate category lookup does not filter duplicates
+
+        -   Fixed: Code inside PluginDomain.ExecuteInTryCatchBlock(..) hides
+            origin of the exception.
+
+        -   Fixed: Error when getting an error message in Project lookup in
+            Quote Line form when more than 1000 Projects
+
+        -   Fixed: Estimates grid for labor estimates and expense estimates does
+            not show the correct currency symbol
+
+        -   Fixed: [Org where PS upgraded from UR14 to UR15] - "Schedule" tab
+            showing as blank on Project form
 
 
-### Removed and deprecated features
 
-The Removed or deprecated features topic describes features that have been removed or deprecated.
-
-- A *removed* feature is no longer available in the product.
-- A *deprecated* feature isn't in active development and might be removed in a future update.
-
-
-
-For breaking changes that affect only compilation time, but that are binary-compatible with sandbox and production environments, the deprecation time will be less than 12 months. Typically, these changes are functional updates that must be made to the compiler.
