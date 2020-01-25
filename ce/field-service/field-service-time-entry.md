@@ -78,10 +78,14 @@ In addition, when the work order system status (different than the booking statu
 
 ## Manual time entry
 
+Time entries can also be created manually. From the desktop go to **Field Service > Time Entries > +New**.
+
+Add a start time, end time or a duration, and the bookable resource that the time entry relates to.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-time-entry-manual.png)
 
+Optionally you can relate the time entry to other records like work orders and bookings as needed.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-time-entry-mobile.png)
