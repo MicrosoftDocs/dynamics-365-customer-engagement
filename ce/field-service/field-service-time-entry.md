@@ -1,5 +1,5 @@
 ---
-title: "Install and setup Dynamics 365 for Field Service | MicrosoftDocs"
+title: "Time entries for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 01/15/2020
@@ -26,32 +26,36 @@ search.app:
   - D365FS
 ---
 
-# Integrated technician time tracking
+# Time entries for Field Service
 
+Tme entry capabilities help field service organizations better track technician time during work orders and other scenarios.
 
+Time entries canb e created
 
-However, organizations that only use one of these products will not be required to install Project Service Automation simply to capture time entries within Field Service. Field Service will support:
-
-- automatic time capture for work orders based on booking timestamps
-- manual time capture 
-- time off
-
-Further, this feature makes it simple to configure a solution to create time actuals that capture costs from approved time entries, enabling organizations to drive more accurate accounting practices and profit-loss calculations."
+- automatically during the work roder process
+- automatically for time off requests
+- manually for custom business processes
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-time-entry.png)
 
+This feature is valuable because
 
-
-- charging scenarios
 - reporting 
 - utilization
+- charging scenarios
+
+Further, this feature makes it simple to configure a solution to create time actuals that capture costs from approved time entries, enabling organizations to drive more accurate accounting practices and profit-loss calculations."
 
 
  Field Service time entry aligns with Dynamics 365 Project Service Automation to capture time entries into the same entity that Project Service Automation has always used for consistent capture, regardless of whether your organization uses Field Service, Project Service Automation, or both.
 
 ## Prerequisites
+
+Public preview
+
+
 > [!Note]
 >
 
@@ -80,12 +84,14 @@ In addition, when the work order system status (different than the booking statu
 
 Time entries can also be created manually. From the desktop go to **Field Service > Time Entries > +New**.
 
-Add a start time, end time or a duration, and the bookable resource that the time entry relates to.
+Add a start time, end time or duration, and the bookable resource that the time entry relates to.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-time-entry-manual.png)
 
 Optionally you can relate the time entry to other records like work orders and bookings as needed.
+
+Time entries can also be created manually from Field Service Mobile.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-time-entry-mobile.png)
@@ -121,19 +127,16 @@ Furthermore, making changes to the date or duration of the time entry will udpat
 > You can create time off requests from Field Service Mobile in online and offline modes and the time entries will be created upon sync. 
 
 
-
 ## Configuration considerations
 
 Time entries are created based on booking timestamps, and booking timestamps are created based on the **Timestamp Frequency** setting in Field Service Settings. See the topic on [Bookimg timestamps](booking-timestamps.md) to understand how timestamps can be created based on the booking statuses or field service booking statuses.
-
-mobile app
-
 
 
 ## Additional Notes
 
 Time entries are only automatically created for work order bookings and not for independent bookings or bookings related to other entities such as cases or custom entities.
 
+Time entries are not created in offline mode, but are created upon sync. 
 
 ### See also
 
