@@ -32,9 +32,9 @@ search.app:
 
 However, organizations that only use one of these products will not be required to install Project Service Automation simply to capture time entries within Field Service. Field Service will support:
 
-- manual time capture 
 - automatic time capture for work orders based on booking timestamps
-- custom time capture mechanisms unique to specific business processes or needs
+- manual time capture 
+- time off
 
 Further, this feature makes it simple to configure a solution to create time actuals that capture costs from approved time entries, enabling organizations to drive more accurate accounting practices and profit-loss calculations."
 
@@ -56,10 +56,6 @@ Further, this feature makes it simple to configure a solution to create time act
 >
 
 
-## Manual time entry
-
-### mobile app
-
 ## Work orders
 
 
@@ -72,6 +68,18 @@ upon complete
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-time-entry-work-order.png)
+
+upon closed-posted
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-time-entry-actuals.png)
+
+## Manual time entry
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-time-entry-manual.png)
 
 
 ## Time off
@@ -107,9 +115,13 @@ Furthermore, making changes to the date or duration of the time entry will udpat
 
 ## Configuration considerations
 
+Time entries are created based on booking timestamps, and booking timestamps are created based on the **Timestamp Frequency** setting in Field Service Settings. See the topic on [Bookimg timestamps](booking-timestamps.md) to understand how timestamps can be created based on the booking statuses or field service booking statuses.
+
 Booking timestamps
 
-Actuals
+mobile app
+
+
 
 ## Additional Notes
 
