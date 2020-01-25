@@ -117,13 +117,14 @@ Furthermore, making changes to the date or duration of the time entry will udpat
 
 Time entries are created based on booking timestamps, and booking timestamps are created based on the **Timestamp Frequency** setting in Field Service Settings. See the topic on [Bookimg timestamps](booking-timestamps.md) to understand how timestamps can be created based on the booking statuses or field service booking statuses.
 
-Booking timestamps
-
 mobile app
 
 
 
 ## Additional Notes
+
+Time entries are only automatically created for work order bookings and not for independent bookings or bookings related to other entities such as cases or custom entities.
+
 
 ### See also
 
