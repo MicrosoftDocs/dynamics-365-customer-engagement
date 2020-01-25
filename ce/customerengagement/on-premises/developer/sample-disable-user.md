@@ -46,7 +46,7 @@ To view the summary of the specified system user in Customer Engagement, navigat
 
 ## Example  
 [SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/DisableOrEnableUser/DisableOrEnableUser/SampleProgram.cs)  
-[SampleMethod.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/DisableOrEnableUser/DisableOrEnableUser/SampleMethod.cs)]
+[SampleMethod.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/DisableOrEnableUser/DisableOrEnableUser/SampleMethod.cs)
   
 ### See also
 
