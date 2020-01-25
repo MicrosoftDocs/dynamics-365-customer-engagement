@@ -58,18 +58,19 @@ Further, this feature makes it simple to configure a solution to create time act
 
 ## Work orders
 
+Time entries are automatically during the work order process. As a work order is scheduled and performed, the booking status changes are tracked in booking timestamps.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-time-entry-booking-statuses.png)
 
 
-upon complete
+When the work order booking status is changed to **Completed**, time entries are created based on the booking timestamps.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-time-entry-work-order.png)
 
-upon closed-posted
+In addition, when the work order system status (different than the booking status) is changed to **Closed-Posted**, Actual records are created. These represent the internal cost of the technician's time to the field service organization.
 
 
 > [!div class="mx-imgBorder"]
@@ -80,6 +81,10 @@ upon closed-posted
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-time-entry-manual.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-time-entry-mobile.png)
 
 
 ## Time off
