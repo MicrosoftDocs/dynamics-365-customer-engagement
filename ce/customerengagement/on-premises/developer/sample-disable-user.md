@@ -24,7 +24,7 @@ search.app:
 
 This sample shows how to disable and enable a system user account in an online or on-premise/IFD environment. Download the complete sample from [Sample: Disable a User](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/DisableOrEnableUser).
 
-[!INCLUDE[cc-sample-note](./includes/cc-sample.note.md)]
+[!INCLUDE[cc-sample-note](./includes/cc-sample-note.md)]
 
 ## Prerequisites
 
