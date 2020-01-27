@@ -27,7 +27,7 @@ This method logs a conversation record that is returned by [getSession](getsessi
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
 | `id` | String(GUID) | Yes | Unique identifier of the conversation returned by `Microsoft.CIFramework.getSession` API.|
-| `data` | Object | Yes | A JSON object containing key-value pairs, where key is the property of the entity and value is the value of the property you want to update in [msdyn_ocliveworkitem](https://docs.microsoft.com/en-us/dynamics365/omnichannel/developer/reference/entities/msdyn_ocliveworkitem) entity.|
+| `data` | Object | Yes | A JSON object containing key-value pairs, where key is the property of the entity and value is the value of the property you want to update in [msdyn_ocliveworkitem](https://docs.microsoft.com/dynamics365/omnichannel/developer/reference/entities/msdyn_ocliveworkitem) entity.|
 
 ## Example
 
