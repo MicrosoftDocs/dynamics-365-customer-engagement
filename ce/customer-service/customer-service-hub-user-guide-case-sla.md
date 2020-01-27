@@ -387,10 +387,10 @@ To know more about Queues, see [Work with Queues](customer-service-hub-user-guid
 An active routing rule set is automatically applied to all automatically created cases. Perform the following steps to manually apply a routing rule to the existing or manually created cases:
 
 1.	In Customer Service Hub, select Cases. The **My Active Cases** page appears.
-2.	Select the cases that you want to apply the routing rule, and on the command bar, select **Apply Routing Rule**. The routing rule will be applied for the selected cases.
+2.	Select the cases for which you want to apply the routing rule, and on the command bar, select **Apply Routing Rule**. The routing rule will be applied for the selected cases.
 
   > [!NOTE]
-  > If you’re importing bulk records, and you don’t want the routing rules to apply to the cases that you’re importing, add a column **Route Case** to your spreadsheet, and add the value **No** for all the cases that you don’t want to route.
+  > If you’re importing bulk records, and don’t want the routing rules to be applied to the cases that you’re importing, add a column **Route Case** to your spreadsheet, and add the value **No** for all the cases that you don’t want to route.
 
 ## Use SLA on the Customer Service Hub records 
 
