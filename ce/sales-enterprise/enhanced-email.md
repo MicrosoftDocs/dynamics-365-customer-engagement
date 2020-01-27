@@ -1,7 +1,7 @@
 ---
 title: "Preview  Send email using the enhanced email experience in Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the enhanced email experience to compose an email without leaving the context of what you are working on."
-ms.date: 10/17/2019
+ms.date: 02/03/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -42,7 +42,7 @@ Compose an email using the enhanced experience:
 
    The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
 
-2. Write your email from scratch or select **Insert Template** to search for and apply a template. 
+2. Write your email from scratch or select **Insert Template** to search for and apply a template. For more information on inserting an email template, see [Insert an email template](insert-email-template.md).
 
 3. Select **Attach file** if you want to add attachments.
 
@@ -57,3 +57,4 @@ Compose an email using the enhanced experience:
 ### See also
 
 [Set up enhanced email](set-up-enhanced-email.md)
+[Insert an email template](insert-email-template.md)
