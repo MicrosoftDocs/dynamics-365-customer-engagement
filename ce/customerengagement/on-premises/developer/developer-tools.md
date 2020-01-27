@@ -53,6 +53,8 @@ This section provides a single location for you to learn about the developer too
 
 - [Auto Number Manager](https://anm.xrmtoolbox.com) - Provides a UI to set, update and remove auto number format on new or existing attributes. More information: [Create auto-number attributes](https://docs.microsoft.com/dynamics365/customer-engagement/developer/create-auto-number-attributes)
 
+- [Chromium Metadata Browser for Dynamics 365 & Power Apps](https://community.dynamicslabs.io/feed/metadata-browser) is a browser extension developed for Dynamics 365 Customer Engagement (online) and Power Apps. It works with Microsoft Edge and Google Chrome browsers.
+
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
 > If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com). 
