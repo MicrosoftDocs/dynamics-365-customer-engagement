@@ -41,7 +41,7 @@ Watch this video to learn more about case management in the Customer Service Hub
 
    If you select a case record from the case view, you see these additional options on the command bar:
 
-   - Select **Apply Routing Rule** to apply a routing rule on a selected case.
+   - Select [**Apply Routing Rule**](#apply-a-routing-rule-set) to apply a routing rule on a selected case.
    - Select **Assign** to assign a case to another owner.
    - Select **Add to Queue** to add a case to a queue.  
 
@@ -381,6 +381,13 @@ To know more about Queues, see [Work with Queues](customer-service-hub-user-guid
 
     > [!IMPORTANT]
     >  The **Save & Route** button is available only on active cases.  
+
+## Apply a routing rule set
+
+An active routing rule set is automatically applied to all automatically created cases. Perform the following steps to manually apply a routing rule to the existing or manually created cases:
+
+1.	In Customer Service Hub, select Cases. The **My Active Cases** page appears.
+2.	Select the cases that you want to apply the routing rule, and on the command bar, select **Apply Routing Rule**. The routing rule will be applied for the selected cases.
 
 
 ## Use SLA on the Customer Service Hub records 

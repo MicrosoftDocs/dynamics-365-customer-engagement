@@ -23,41 +23,45 @@ search.app:
 
 Use routing rules in Dynamics 365 Customer Service to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues. 
 
-## Install Routing Rules
+## Preview: Install Routing Rules
+
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 To install Routing Rules - Preview solution, see [Install Routing Rules - Preview solution](install-routing-rules-preview-solution.md). 
 
-## Add routing rule sets sitemap for custom apps 
+## Preview: Add routing rule sets sitemap for custom apps 
+
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 While creating custom apps, you might not have routing rules sets available in your sitemap. You must add the routing rule sets sitemap for your custom app to access. To add routing rule sets to sitemap, follow these steps:
 
-1. Sign in to Dynamics 365 and go to App designer.
+1. Sign in to https://<org>.dynamics.com/apps, and go to App designer.
 
-2. On your custom app, select more options (**...**) and then select **OPEN IN APP DESIGNER**.
+2. Select the **More Options** ellipsis (...) on your custom app, and then select **OPEN IN APP DESIGNER**. The **App Designer** page appears.
 
-3. Select pencil icon corresponding to **Site Map**. 
+3. Select the pencil icon beside **Site Map**. The **Sitemap Designer** page appears.
 
-4. Select the area in which you want to add the routing rule set entity. Select **+ Add** and then select **Subarea**.
+4. Select the area in which you want to add the routing rule set entity, select **Add**, and then select **Subarea**.
  
-5. On the **Properties** tab, under General section, add the subarea properties:
+5. On the **Properties** tab, under **General** section, do the following:
 
-    - **Type** as **Entity**.
+    - **Type:** Select **Entity**.
 
-    - **Entity** as **Routing Rule Sets**.
+    - **Entity:** Select **Routing Rule Sets**.
 
 6. Save and publish the sitemap. 
 
-    The sitemap is created with Routing Rule Set and go to your custom app to locate Routing Rule Sets in the sitemap.
+    The sitemap is created with the Routing Rule Set. Go to your custom app to locate Routing Rule Sets in the sitemap.
 
 To Learn more, see [Create a site map for an app using the site map designer](../customerengagement/on-premises/customize/create-site-map-app.md)
 
-## Create a routing rule set (Customer Service Hub)
+## Preview: Create a routing rule set (Customer Service Hub)
 
 ### Prerequisites
 
 Review the following prerequisites before creating a routing rule set:
 
-1. Verify that you have the Customer Service Manager, System Administrator, System Customizer security role, or equivalent permissions before creating a routing rule set record.
+- Verify that you have the Customer Service Manager, System Administrator, System Customizer security role, or equivalent permissions.
 
    **Check your security role**  
 
@@ -65,58 +69,61 @@ Review the following prerequisites before creating a routing rule set:
 
     - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
-2. In addition to the specified security role for creating a routing rule set, verify that you have below permissions for Routing Rule Instance entity before applying routing rules:
-
-    > [!div class="mx-imgBorder"]
-    > ![Provide privileges to CSR manager](media/rr-privileges-csrm.png "Provide privileges to CSR manager")
-
-
 ### Create routing rule sets to automatically route cases
 
-1.	In the Customer Service Hub sitemap, go to **Service Management** and select **Case Settings** > **Routing Rule Sets**.
-[!Note] In the Customer Service app, go to Settings > Service Management and select Routing Rule Sets.
-2.	To create a new routing rule set, select **New** on the command bar.
+1.	In the Customer Service Hub sitemap, go to **Service Management**, and select **Case Settings** > **Routing Rule Sets**.
+    > [!NOTE]
+    > In the Customer Service app, go to **Settings** > **Service Management** and select **Routing Rule Sets**.
+2.	To create a routing rule set, select **New** on the command bar.
 
 3.	Enter **Name** and **Description** of the new routing rule set in the **Routing Rule Set Information** section of the **General** tab.
 
-4.	Select **Save** to save the new routing rule set. The **Rule Items** section is displayed.
+4.	Select **Save**. The routing rule set is saved, and the **Rule Items** section is displayed.
 
     > [!div class="mx-imgBorder"]
     > ![Create routing rules general information](media/rr-create-rule-set.png "Create routing rules general information")
 
-5.	In the **Rule Items** section, select **Add New Rule Item** to specify conditions that will be evaluated while routing cases to a queue, an agent or a team.
+5.	In the **Rule Items** section, select **Add New Rule Item** to specify conditions that will be evaluated while routing cases to a queue, an agent, or a team.
 
-6.	You can add multiple rule items and arrange them in the desired order. The rule items are evaluated in the order of definition.
+6.	You can add multiple rule items and arrange them in the required order. The rule items are evaluated in the order of definition.
 
-    Rule items are evaluated from top to bottom. If a rule item is evaluated as **True**, the case gets routed to the destination agent and skips further evaluation. If a rule item is evaluated as False, further rule items are evaluated.
+    Rule items are evaluated from top to bottom. If a rule item is evaluated as true, the case gets routed to the destination agent and skips further evaluation. If a rule item is evaluated as false, further rule items are evaluated.
     
-    a.	In the **General** tab of the **Rule Item** form, enter a **Name** and **Description** for the new rule item.
+    a.	On the **General** tab of the **Rule Item** form, enter a **Name** and **Description** for the new rule item.
 
-    b.	Specify the **If Conditions** and **Then Conditions**. **If Conditions** evaluate the case and **Then Conditions** specify the destination of the case once it is evaluated. You can specify the conditions in the following ways:
+    b.	Specify the **If Conditions** and **Then Conditions**. **If Conditions** evaluate the case and **Then Conditions** specify the destination of the case after it is evaluated. You can specify the conditions in the following ways:
     
-       - Add a new condition row using **Add Row**. Select **…** to group multiple rows of conditions into one group.
+       - **Add Row:** Select **…** to group multiple rows of conditions into one group.
         
-       -	Add a group of conditions using **Add Group**. Select **…** to ungroup a group of conditions.
+       - **Add Group:** Select **…** to ungroup a group of conditions.
         
-       -	Add a condition for a specific entity using **Add related entity**.
-    
-      > [!TIP]
-      > To group conditions in a particular criterion, use the **And** or **Or** options.
+       - **Add related entity:** Select to add a condition for a specific entity.
+     
+      > [!NOTE]
+      > The following limitations are applicable that will be fixed at a later date:
+      > - You can't select time for date condition when defining rule criteria.
+      > - Only one level of condition hierarchy is currently supported though the application lets you select nested conditions.
+      > - You can't create a group if an item of type related entity is present.
+      > - Attribute with "Multi Select Option Set" data type is not supported.
+      > - The "not in" for String & Memo data type and "not-on" for Date data type operators are not supported.
+      > - The supported operators in look ups are "equal", "not equal", "null", and "not null".
+      > - In the Add related entity list, "One to Many" and "Many to Many" options are not supported.
 
-       -	Select the destination in the **Action** section. You can route the case to an agent, a queue, or a team.
+    c. Select the destination in the **Action** section. You can route the case to an agent, a queue, or a team.
+      
 
-      For example, all cases (Case Title) about printer issues from customers based in Portland, United States, should be routed to an agent named Gilda Moss, who is the subject-matter expert of the team. The rule item for the above condition can be configured as shown next.
+      For example, all cases about printer issues from customers should be routed to an agent named Bert Heir, who is the subject matter expert in the team. The rule item for the condition can be configured as shown in the screenshot.
 
       > [!div class="mx-imgBorder"]
       > ![Create condition](media/rr-create-condition.png "Create condition")
 
     c.	Select **Save & Close** to save and close the rule item.
 
-7.	In the **Routing Rule Set** record, select **Activate** so that the rule set is applied to the cases matching the conditions in the rule.
+7.	In the **Routing Rule Set** record, select **Activate**. The rule set is applied to cases that match the conditions in the rule.
 
     > [!NOTE]
-    > - Only one routing rule set can be active at any point of time. If you try to activate another rule when one rule is already active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.  
-    > - You can’t edit an active routing rule set. Therefore, if you’re importing a solution that includes an active routing rule set into an organization where the rule already exists with the same ID, the solution import will fail.  
+    > - Only one routing rule set can be active at any point of time. If you try to activate a rule when another rule is active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.
+    > - If you want to edit an active routing rule set, you must deactivate it. To successfuly import a solution that includes an active routing rule set into an organization where a rule exists with the same ID, deactivate the rule in the organization.  
 
 ## Create a routing rule set (Customer Service app)
 
