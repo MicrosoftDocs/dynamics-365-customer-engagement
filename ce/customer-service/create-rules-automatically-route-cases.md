@@ -123,7 +123,7 @@ Review the following prerequisites before creating a routing rule set:
 
     > [!NOTE]
     > - Only one routing rule set can be active at any point of time. If you try to activate a rule when another rule is active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.
-    > - If you want to edit an active routing rule set, you must deactivate it. To successfuly import a solution that includes an active routing rule set into an organization where a rule exists with the same ID, deactivate the rule in the organization.  
+    > - If you want to edit an active routing rule set, you must deactivate it. To successfully import a solution that includes an active routing rule set into an organization where a rule exists with the same ID, deactivate the rule in the organization.  
 
 ## Create a routing rule set (Customer Service app)
 
