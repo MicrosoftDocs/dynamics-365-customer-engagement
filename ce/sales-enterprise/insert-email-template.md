@@ -32,5 +32,5 @@ To insert an email template:
 
 ### See also
 
-[Set up enhanced email](set-up-enhanced-email.md)
+[Set up enhanced email](set-up-enhanced-email.md)<br>
 [Compose and send email using the enhanced email experience](enhanced-email.md)

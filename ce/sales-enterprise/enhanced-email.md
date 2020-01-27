@@ -56,5 +56,5 @@ Compose an email using the enhanced experience:
 
 ### See also
 
-[Set up enhanced email](set-up-enhanced-email.md)
+[Set up enhanced email](set-up-enhanced-email.md)<br>
 [Insert an email template](insert-email-template.md)
