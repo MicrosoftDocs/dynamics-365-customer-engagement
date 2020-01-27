@@ -31,7 +31,7 @@ To enable the enhanced experience:
 
 2.	Under **Product Catalog**, select **Product Catalog Settings**.
 
-3.	Set **Adding Products Enhanced Add product experience** to **Yes**.
+3.	Set **Adding Products** > **Enhanced Add product experience** to **Yes**.
 
     ![Enhanced ""Add product" experience setting](media/enhanced-add-product-experience-setting.png "Enhanced ""Add product" experience setting")
 

@@ -48,7 +48,7 @@ To add a product using the enhanced experience:
 
 4.  If you want the estimated revenue of the opportunity to be calculated based on the total amount of products, set **Revenue** to **System Calculated**. If you want to use a custom estimated revenue, set it to **User Provided**.
 
-5.  In the **Product Line Items** grid, select **Add New Opportunity Product**.
+5.  In the **Product Line Items** grid, select **Add products**.
 
     The Quick Create: Opportunity Product pane opens.
 
@@ -57,23 +57,19 @@ To add a product using the enhanced experience:
 
     The form shows three tabs
 
-    -   Products. This tab lists all the products and product bundles that are in the **Active** or **Revised** state. Along with the product name, it’s also possible for you to enter the price per unit and quantity. By default, 25 products are shown. Select **Load more** to see more products. On this tab, you search and filter the list of products and select the one you want to add.
+    -   **Products**. This tab lists all the products and product bundles that are in the **Active** or **Revised** state. Along with the product name, it’s also possible for you to enter the price per unit and quantity. By default, 25 products are shown. Select **Load more** to see more products. On this tab, you can search and filter the list of products and select the one you want to add.
 
-        More information:
-
-        -   Search for products
+        If you've selected a price list for the opportunity, only the product list is filtered to show only those product records that have the same price list associated.
     
-        -   filter products
+    -   **Recently Used**. This tab lists the last 15 products that the currently logged in user has recently added to any opportunity.
     
-    -   Recently Used. This tab lists the last 15 products that the currently logged in user has recently added to any opportunity.
+    -   **Write-In**. This tab lets you add a write-in product.
     
-    -   Write-In. This tab lets you add a write-in product.
-    
-    -   Selected. This tab shows the count of the products selected to be added to the opportunity. Use this tab to look at the final list of items you’ve selected to add or remove them.
+    -   **Selected**. This tab shows the count of the products selected to be added to the opportunity. Use this tab to look at the final list of items you’ve selected to add or remove them.
 
 6.  Search for and select the products you want to add and select **Add to Opportunity**. 
     
-    For more information, see 
+    For more information, see:
     
     -  [Search for products](#search-for-products)
     -  [Filter products](#filter-products)
@@ -84,15 +80,15 @@ To add a product using the enhanced experience:
 
 ## Search for products
 
-To search for a specific product from the list, on the **Products** tab, enter the keyword in the **Search** field, and select the **Search** icon. The products matching the search criteria are shown.
+To search for a specific product from the list, on the **Products** tab, enter the keyword in the **Search** field, and select the **Search** icon or hit Enter. The products matching the search criteria are shown.
 
-The Search capability searches for the keyword in the product names or the fields of Single Line of Text or Multiple Line of Text in the Quick Find View of the Product entity.
+The Search capability searches for the keyword in the product names or the fields of Single Line of Text or Multiple Line of Text in the Quick Find View of the Product entity. The search is performed using the 'Contain' search operator. This means that search results show all the products that contain the keyword in one of the supported fields.
 
 Here’s how the search results are ranked/ordered:
 
 -  The records that have values that exactly exact match the keywords are shown first.
 
--   The records that broadly match the keywords are shown the next. For example, if you enter Windows 8.1 as the search keyword, it will search for product records that contain either Windows or 8.1 in the name or other fields supported fields.
+-   The records that broadly match the keywords are shown the next. For example, if you enter Windows 8.1 as the search keyword, it will search for product records that contain either Windows or 8.1 in the name or other supported fields.
 
 ## Filter products
 
@@ -101,7 +97,7 @@ Filters are available to enable you to further narrow down your search.
 The following filters are available:
 
 -  Product family. Use this filter to see products in a specific product family
--  Views. Use this filter to see products in a specific save view that your system administrator has created. 
+-  Views. Use this filter to see products in a specific saved view or user view. 
 
 > [!div class="mx-imgBorder"]  
 > ![Use product filters](media/filter-products.png "Use product filters")
