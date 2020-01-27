@@ -1,7 +1,7 @@
 ---
 title: "What's new (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about what's been added, improved, and fixed in each monthly and biannual release of Dynamics 365 Marketing."
-ms.date: 12/19/2019
+ms.date: 02/03/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -26,6 +26,28 @@ search.app:
 Dynamics 365 Marketing is usually updated monthly, with major updates occurring twice a year. For news about major updates, including a recent history and announcements of upcoming features, see the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/). This topic summarizes the smaller feature improvements and bug fixes introduced with each monthly update and provides links for more information. This topic also announces when preview or early-access versions of upcoming major features become available for you to try out.
 
 Microsoft rolls out each monthly and biannual update on a region-by-region basis, with the update typically becoming available to all regions by the end of the month (but often earlier). You must manually check for and apply each update to each of your Marketing instances. As soon as the update is available in your region, you'll be able to see and apply it as described in [Keep Marketing up to date](apply-updates.md). We recommend updating all Marketing instances right away.
+
+## February 2020 update
+
+The Dynamics 365 Marketing February 2020 update includes an improved segment experience plus several improvements for existing features, performance improvements, and bug fixes.
+
+### 2020 release wave 1 plan
+
+- [Ability to test-send dynamic email messages](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/ability-test-send-dynamic-email-messages)
+- [Export data to Excel for further analysis](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/export-data-excel-further-analysis)
+- [Improved email content designer](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-email-content-designer)
+- [Improved event management experience](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-event-management-experience)
+- [Improved segment design and management](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-segment-design-management)
+- [Improved customer journey experience](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-customer-journey-experience)
+
+### Other enhancements
+
+- Forms Pro integration
+- Time zone aware segments
+
+### Bug fixes
+
+- 
 
 ## December 2019 update
 
