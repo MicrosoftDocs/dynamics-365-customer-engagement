@@ -12,7 +12,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Install Routing Rules
+# Preview: Install Routing Rules
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
