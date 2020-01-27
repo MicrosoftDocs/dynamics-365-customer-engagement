@@ -35,7 +35,7 @@ Having this information ready can help support agents reduce the hold time that 
 
 This section provides details like the contact name or account name. For a contact, you can view the location, email, and other details of the contact. For an account, you can view location, telephone number, and primary contact person for the account.
 
-Use the Customer form to search for an existing contact or account record in Omnichannel for Microsoft Dynamics 365 Customer Service, and select the record to link it to the conversation. If the record doesn't exist, you can create a new contact or account record by using the **+ Add Contact** or **+ Add Account** button, respectively. After you create it, search for the record and then select it to link it to the conversation.
+Use the customer section to search for an existing contact or account record in Omnichannel for Customer Service, and select the record to link it to the conversation. If the record doesn't exist, you can create a new contact or account record by using the **+ Add Contact** or **+ Add Account** button, respectively. After you create it, search for the record and then select it to link it to the conversation.
 
 > [!div class='mx-imgBorder']
 > ![Customer profile section in the customer summary form](../../media/customer-summary-customer-form.PNG "Customer profile section of the Customer summary page")

@@ -22,7 +22,7 @@ Having this information ready can help support agents reduce the hold time that 
 
 ## What is a customer summary?
 
-**Customer summary** is a page in Omnichannel for Microsoft Dynamics 365 Customer Service where you can get all available information about a customer when you accept an incoming request from any engagement channel. The default view of the **Customer summary** page provides the following sections:
+**Customer summary** is a page in Omnichannel for Customer Service where you can get all available information about a customer when you accept an incoming request from any engagement channel. The default view of the **Customer summary** page provides the following sections:
 
    - Customer
    - Conversation summary
