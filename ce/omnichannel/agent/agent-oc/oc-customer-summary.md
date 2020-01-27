@@ -4,13 +4,13 @@ description: "Customer summary is a page where you can get all available informa
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 10/25/2019
+ms.date: 01/31/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# View a customer summary to get all available information about a customer
+# View a customer summary to get available information about a customer
 <!--note from editor: Edit suggested. I think "all available information" is a bit more descriptive.-->
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
@@ -83,17 +83,13 @@ The **Self service** tab displays information on the activites that the customer
    > [!div class='mx-imgBorder']
    > ![Self service tab](../../media/customer-summary-self-service-tab.png "Self service tab")
 
-To configure the appearance of the **Self service** tab, see [Enable self-service settings of customer actions in conversation summary](../../administrator/enable-self-service-settings.md).
+To configure the appearance of the **Self service** tab, see [Enable self-service settings for customer actions in a conversation summary](../../administrator/enable-self-service-settings.md).
 
 ### Visitor details
 
 The **Visitor details** tab provides information such as whether the customer is authenticated, the browser the customer used to contact support, the operating system used by the customer, the customer's location, and the language used during the interaction.
-<!--note from editor: What does the following image have to do with the Visitor details tab? Doesn't seem to fit.-->
 
-> [!div class='mx-imgBorder']
-> ![Conversation summary section in the customer summary form](../../media/customer-summary-conversation-summary.png "The Conversation summary section of the Customer summary page")
-
- If the customer has signed in to the portal to initiate the chat with a support agent, the **Authenticated** field value is **Yes**; otherwise, the **Authenticated** field value is **No**.
+If the customer has signed in to the portal to initiate the chat with a support agent, the **Authenticated** field value is **Yes**; otherwise, the **Authenticated** field value is **No**.
 
 ![Authenticated chat shown as Yes on the Visitor details tab](../../media/conversation-summary-authenticated-chat.PNG "Authenticated chat shown as Yes on the Visitor details tab") ![Unauthenticated chat shown as No on the Visitor details tab](../../media/conversation-summary-unauthenticated-chat.PNG "Unauthenticated chat shown as No on the Visitor details tab")
 
