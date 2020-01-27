@@ -4,7 +4,7 @@ description: Learn the basics of the Customer Service Hub for Customer Service
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/23/2019
+ms.date: 02/03/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -198,11 +198,20 @@ For example, here’s a view of how the tabs appear on the case form:
   
  For account records, the card shows contact details for the primary contact associated with the account. For contact records, the card appears if the contact is the customer value on the case form.  
 
-### Timeline  
- See a combined view of your customer’s interactions across various channels, such as phone, email, or even social activities in the Timeline. The Timeline also shows any related notes or system posts.  The Timeline makes collaboration with other users easy and efficient.
+### Timeline
 
 > [!Note]
 > This section is pre-release documentation and is subject to change.
+
+ See a combined view of your customer’s interactions across various channels, such as phone, email, or even social activities in the Timeline. The Timeline also shows any related notes or system posts.  The Timeline control makes collaboration with other users easy and efficient.
+
+ You can do the following:
+
+- Identify the key activities with simple icons.
+- Quick access to the command bar to perform common actions on an activity with ease.
+- Filter activities on the timeline with multiple filter options.
+- View and manage email conversation threads on the timeline with ease.
+- Expand and collapse activities in the timeline with ease.
 
 The Customer Service Hub comes with an enhanced timeline that shows you all customer interactions arranged in a single stream. 
 Managing activities in the timeline wall will be faster and more responsive with improvements to data viewability and usability.
@@ -237,17 +246,33 @@ You can create, edit, and delete an activity, note, post, and other interactions
   ![timeline-ellipsis](media/timeline-ellipsis.png "Timeline ellipsis to filter activities")
 
 #### **Take a note**
-You can select the **Enter a note** field in the timeline and specify a title and message. You can also add attachments to your notes.
 
-![Timeline notes and attachment](media/timeline-attachment.png "Timeline notes and attachment")
+You can select the **Enter a note** box in the timeline and specify a title and message. The message box has a rich text editor that enables you to create rich and well-formatted content for the notes with emphasis. The editor brings common word processor features like: 
 
-You can do the following:
+- Copy formatting
+- Font and size
+- Bold, italic, and underline
+- Background color for text and text color 
+- Bulleted and numbered list
+- Decrease and increase indent
+- Block quote
+- Text alignment (align left, centre, and right)
+- Link and unlink
+- Text strikethrough
+- Text direction from right to left and left to right
+- Undo and redo
+- Remove format
+- Table
 
-- Identify the key activities with simple icons.
-- Quick access to the command bar to perform common actions on an activity with ease.
-- Filter activities on the timeline with multiple filter options.
-- View and manage email conversation threads on the timeline with ease.
-- Expand and collapse activities in the timeline with ease.
+  ![Timeline notes rich text editor](media/timeline-notes1.png "Timeline notes rich text editor")
+
+You can also add attachments to your notes.
+
+   ![Timeline notes and attachment](media/timeline-attachment.png "Timeline notes and attachment")
+
+  > [!Note]
+  > - The notes rich-text editor is available only for Unified Interface and not for web client.
+  > - If you administrator has enabled the rich-text editor in web client, then you will see the notes with HTML syntax.
 
 #### **Identify the activities with icons**
 The timeline shows a simple icon next to the activity making it easy for you to identify the type of activity.
