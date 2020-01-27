@@ -71,8 +71,16 @@ To add a product using the enhanced experience:
     
     -   Selected. This tab shows the count of the products selected to be added to the opportunity. Use this tab to look at the final list of items you’ve selected to add or remove them.
 
-6.  Search for and select the products you want to add and select **Add to Opportunity**. For more information, select [Search for
-    products](#search-for-products), [Filter products](#filter-products), [See product details](#see-product-details-applies-to-both-products-and-recently-used-tabs), [Select products to add](#select-products-to-add), [Review selected products](#review-selected-products), [Remove the selected products](#remove-the-selected-products).
+6.  Search for and select the products you want to add and select **Add to Opportunity**. 
+    
+    For more information, see 
+    
+    -  [Search for products](#search-for-products)
+    -  [Filter products](#filter-products)
+    -  [See product details](#see-product-details-applies-to-both-products-and-recently-used-tabs)
+    -  [Select products to add](#select-products-to-add)
+    -  [Review selected products](#review-selected-products)
+    -  [Remove the selected products](#remove-the-selected-products)
 
 ## Search for products
 
@@ -165,3 +173,4 @@ To remove a product from the selection, go to the **Selected** tab. For the prod
 ### See also
 
 [Add products to an opportunity](add-products-opportunity.md)  
+[Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)
