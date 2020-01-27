@@ -16,17 +16,15 @@ ms.topic: article
 
 ## Overview
 
-As an agent, you communicate with customers to resolve the issues. All of those conversations are stored as transcripts in Omnichannel for Customer Service app.
-
-When you want to look for any details from the transcript, you can search for it.
+As an agent, you communicate with customers to resolve issues. All those conversations are stored as transcripts in Omnichannel for Customer Service app. When you want to find any details from the transcript, you can search for them.
 
 ## Search details in transcripts
 
-1. Sign in to Omnichannel for Customer Service app.
+1. Sign in to Omnichannel for Customer Service.
 
-2. Select search icon in the nav bar. The Search tab opens in the application tab panel.
+2. Select **Search** in the nav bar. The **Search** tab opens in the application tab panel.
 
-3. Type a phrase in the search box, and select the search icon. The results appears as a list.
+3. Type a phrase in the search box, and then select the search icon. The results appears as a list.
 
 4. Select a result. The **Conversation Form** opens in the application tab panel.
 
