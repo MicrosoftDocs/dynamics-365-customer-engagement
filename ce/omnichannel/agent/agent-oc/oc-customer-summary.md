@@ -20,7 +20,7 @@ Having this information ready can help support agents reduce the hold time that 
 
 ## What is a customer summary?
 
-Customer summary is a page that gives you complete information about a customer. The page appears when you accept an incoming request from any channel. The default Customer summary view provides the following sections:
+**Customer summary** is a page that gives you complete information about a customer. The page appears when you accept an incoming request from any channel. The default **Customer summary** view provides the following sections:
 
  - Customer (Contact or Account)
  - Conversation summary
@@ -71,17 +71,17 @@ The **Pre-chat survey** tab displays the customer's answers to the survey questi
 
 ### Self service
 
-The **Self service** tab displays information on the activites that the customer performs before initiating a conversation with an agent. This information helps the agents  understand why a customer reached out and provide a personalized service for enhanced customer satisfaction. The activity information is categorized into the following action types and appears in reverse chronological order:
+The **Self service** tab displays information about the activities that the customer performed before initiating a conversation with an agent. This information helps you understand why the customer reached out and helps you provide a personalized service for enhanced customer satisfaction. The activity information, which is categorized into the following action types, appears in reverse chronological order:
 
 | Action type | Description |
 |-------------|-----------------------------------|
-| Page visited | The page visited on the portal with the timestamp.|
-| Phrase searched | The keyword or phrase searched for, with the timestamp. |
-| Knowledge article viewed | The knowledge article viewed with the timestamp. |
-| Custom action performed | Any other custom action that is tracked by your organization as per your business requirements are displayed with the timestamp. |
+| Page visited | The page visited on the portal, with time stamp.|
+| Phrase searched | The keyword or phrase that was searched for, with time stamp. |
+| Knowledge article viewed | The knowledge article viewed, with time stamp. |
+| Custom action performed | Any other custom action that's being tracked by your organization, with time stamp. |
 
    > [!div class='mx-imgBorder']
-   > ![Self service tab](../../media/customer-summary-self-service-tab.png "Self service tab")
+   > ![Self service tab](../../media/customer-summary-self-service-tab.png "The Self service tab")
 
 To configure the appearance of the **Self service** tab, see [Enable self-service settings for customer actions in a conversation summary](../../administrator/enable-self-service-settings.md).
 
