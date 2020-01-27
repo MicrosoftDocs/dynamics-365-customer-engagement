@@ -16,6 +16,8 @@ ms.custom:
 
 [!include[cc-beta-prerelease-disclaimer](../../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
+This method logs a conversation record that is returned by [getSession](getsession.md) method.
+
 ## Syntax
 
 `Microsoft.CIFramework.updateConversation(id, data, correlationId).then(successCallback, errorCallback)`

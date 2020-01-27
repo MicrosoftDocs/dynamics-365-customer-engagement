@@ -4,7 +4,7 @@ description: "Learn how to choose between Dynamics 365 Channel Integration Frame
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 01/28/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -34,6 +34,8 @@ More information: [Channel Integration Framework version 1.0](overview-channel-i
 
 You can use Dynamics 365 Channel Integration Framework version 2.0 to integrate a channel provider of your choice if your organization is using the multi-session app, Omnichannel for Customer Service. You can integrate the telephony channel to have an immersive experience.
 
+Using Channel Integration Framework version 2.0 with Omnichannel for Customer Service enables you to use cross-channel analytics. More information: [Channel Analytics](v2/channel-analytics.md).
+
 More information: [Channel Integration Framework version 2.0](v2/overview-channel-integration-framework.md)
 
 ## Version 1.0 and 2.0
@@ -54,6 +56,7 @@ The matrix explains the various aspects of version 1.0 and 2.0.
 
 ## See also
 
-[Channel Integration Framework version 1.0](overview-channel-integration-framework.md)
-
-[Channel Integration Framework version 2.0](v2/overview-channel-integration-framework.md)
+[Channel Integration Framework version 1.0](overview-channel-integration-framework.md)<br />
+[Channel Integration Framework version 2.0](v2/overview-channel-integration-framework.md)<br />
+[Integrate Channel Integration Framework version 2.0 with Omnichannel for Customer Service](v2/integration-multi-session-experiences.md)<br />
+[Multi-session agent experiences](https://docs.microsoft.com/business-applications-release-notes/april19/service/omnichannel-for-customer-service/multi-session-agent-experiences-web-usd)
