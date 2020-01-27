@@ -218,10 +218,14 @@ Managing activities in the timeline wall will be faster and more responsive with
 
   ![Timeline shows customer activities across channels](../customer-service/media/v9-case-form-timeline.png "Timeline shows customer activities across channels")
 
-  1. Add info and activities
-  2. Filter
-  3. More commands
-  4. Activity icons
+  1. Search Records
+  2. Take notes
+  3. Add info and activities
+  4. Filter
+  5. More commands
+  6. Activity status
+  7. Activity icons
+  8. Date and time
 
 The timeline section is available on the **Summary** tab for account, contact, case records, and for knowledge articles, and it shows the following:
 - Activity
