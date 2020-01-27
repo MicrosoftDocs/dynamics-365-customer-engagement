@@ -34,7 +34,7 @@ System administrators or customizers can use the **Opportunity Close** quick cre
 
 -   Customization of views
 
-Any custom attribute added to the Opportunity Close form should be added to the Opportunity close entity. If the attribute added to the Opportunity Close form belongs to a different entity, it must be maintained in both the entities with a mapping of the attributes between the entities. After an Opportunity Close record is created, mapped attributes must be updated in the other entity records. Example: If Opportunity Close form needs to capture ‘Purchase process’, which belongs to the Opportunity entity, the attribute ‘Purchase process’ must be maintained in both Opportunity Close and Opportunity entities with a custom logic to keep the data synchronized between both the entities.  
+Any custom attribute added to the **Opportunity Close** form should be added to the **Opportunity Close** entity. If the attribute added to the **Opportunity Close** form belongs to a different entity, it must be maintained in both the entities with a mapping of the attributes between the entities. After an **Opportunity Close** record is created, mapped attributes must be updated in the other entity records. Example: If **Opportunity Close** form needs to capture the ‘Purchase process’, which belongs to the Opportunity entity, the attribute ‘Purchase process’ must be maintained in both **Opportunity Close** and **Opportunity** entities with a custom logic to keep the data synchronized between both the entities.  
 
 
 > [!NOTE]
@@ -112,7 +112,7 @@ To enable the capability of customizing the opportunity close experience on a cu
 
 7. Select **Publish**, and then select **Save and Close**. 
 
-After completing the steps in this section, follow the steps in the sections [Create custom fields for the Opportunity Close](#create-custom-fields-for-the-opportunity-close) and [Add newly created custom fields to the Opportunity Close form](#add-newly-created-custom-fields-to-the-opportunity-close-form). 
+After completing the steps in this section, follow the steps in the sections [Create custom fields for the Opportunity Close](#create-custom-fields-for-the-opportunity-close-entity) and [Add newly created custom fields to the Opportunity Close form](#add-newly-created-custom-fields-to-the-opportunity-close-form). 
 
 
 ### See also
