@@ -266,25 +266,23 @@ You can select the **Enter a note** box in the timeline and specify a title and 
 
   ![Timeline notes rich text editor](media/timeline-notes1.png "Timeline notes rich text editor")
 
-You can also add attachments to your notes.
+  > [!Note]
+  > You can format only the message (body), and not the title.
 
-   ![Timeline notes and attachment](media/timeline-attachment.png "Timeline notes and attachment")
+  You can also add attachments to your notes, and the attachment is displayed below the note.
+
+  ![Timeline notes and attachment](media/timeline-attachment.png "Timeline notes and attachment")
 
   > [!Note]
   > - The notes rich-text editor is available only for Unified Interface and not for web client.
   > - If you administrator has enabled the rich-text editor in web client, then you will see the notes with HTML syntax.
 
-#### **Identify the activities with icons**
-The timeline shows a simple icon next to the activity making it easy for you to identify the type of activity.
+#### **Identify the activities with icons along with time stamp**
+The timeline shows a simple icon before the activity making it easy for you to identify the type of activity.
+
+Also, you can view the timestamp at all times. Activities that were created or updated today will reflect only the time and created or updated with on other days will reflect the date and time.
 
   ![Timeline activity icons](../customer-service/media/activity-icons.png "Timeline activity icons")
-
-  1. Task
-  2. Phone Call
-  3. Posts
-  4. Email
-  5. Note
-  6. Appointment
 
 #### **Access command bar to perform actions**
 When you hover the cursor on an activity, the command bar appears with the options specific to the activity, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, liking a post, replying to a post, editing a note, or deleting the activity.
@@ -305,9 +303,14 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
   | Activity type | <ul> <li> Appointment </li> <li> Email </li> <li> Phone Call </li> <li> Task</li> </ul> |
   | Activity status | <ul> <li> Active </li> <li> Active and overdue </li> <li> Closed </li> </ul> |
   | Activity due date (active) | <ul> <li> Next 30 days </li> <li> Next 7 days </li> <li> Next 24 hours </li> <li> Last 24 hours </li> <li> Last 7 days </li> <li> Last 30 days </li> </ul> |
+  | Posts by | <ul> <li> Auto-post </li> <li> Users </li> </ul> |
   | Modified date | <ul> <li> Last 24 hours </li> <li> Last 7 days </li> <li> Last 30 days </li> </ul> |
 
   ![Timeline activity filter](../customer-service/media/timeline-filter2.png "Timeline activity filter") ![Timeline activity filter](../customer-service/media/timeline-filter5.png "Timeline activity filter")
+
+  When you filter based on the activity status, then those activities in a particular status are displayed to you.
+
+  ![Timeline activity filter](../customer-service/media/timeline-filter6.png "Timeline activity filter")
 
 #### **View and manage email conversations**
 You can easily set email messages to show as conversation threads on the timeline, significantly reducing usability (scroll and clicks) when managing email activities.
@@ -319,7 +322,8 @@ Select an activity from the timeline to expand and view.
 
 #### Configure Timeline section for your users
 
- To learn more about configuration, see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control) and [FAQs for timeline control](https://docs.microsoft.com/powerapps/maker/model-driven-apps/faqs-timeline-control).
+ To learn more about configuration, see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control) and [FAQs for timeline control](https://docs.microsoft.com/powerapps/maker/model-driven-apps/faqs-timeline-control) in the Microsoft Power Apps documentation.
+
 
 ### Related section  
 In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps, for information, see  [Reference Panel in model-driven apps ](https://docs.microsoft.com/powerapps/user/navigation#reference-panel).
