@@ -4,7 +4,7 @@ description: Understand how to create rules to automatically route cases in Dyna
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/01/2018
+ms.date: 02/03/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -23,13 +23,11 @@ search.app:
 
 Use routing rules in Dynamics 365 Customer Service to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues. 
 
-## Preview: Install Routing Rules - Preview solution
+## Install Routing Rules
 
 To install Routing Rules - Preview solution, see [Install Routing Rules - Preview solution](install-routing-rules-preview-solution.md). 
 
-## Preview: Add routing rule sets sitemap for custom apps 
-
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+## Add routing rule sets sitemap for custom apps 
 
 While creating custom apps, you might not have routing rules sets available in your sitemap. You must add the routing rule sets sitemap for your custom app to access. To add routing rule sets to sitemap, follow these steps:
 
@@ -53,9 +51,7 @@ While creating custom apps, you might not have routing rules sets available in y
 
 To Learn more, see [Create a site map for an app using the site map designer](../customerengagement/on-premises/customize/create-site-map-app.md)
 
-## Preview: Create a routing rule set (Customer Service Hub)
-
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+## Create a routing rule set (Customer Service Hub)
 
 ### Prerequisites
 
@@ -75,10 +71,10 @@ Review the following prerequisites before creating a routing rule set:
     > ![Provide privileges to CSR manager](media/rr-privileges-csrm.png "Provide privileges to CSR manager")
 
 
-### Creating routing rule set
+### Create routing rule sets to automatically route cases
 
 1.	In the Customer Service Hub sitemap, go to **Service Management** and select **Case Settings** > **Routing Rule Sets**.
-
+[!Note] In the Customer Service app, go to Settings > Service Management and select Routing Rule Sets.
 2.	To create a new routing rule set, select **New** on the command bar.
 
 3.	Enter **Name** and **Description** of the new routing rule set in the **Routing Rule Set Information** section of the **General** tab.
