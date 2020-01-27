@@ -4,7 +4,7 @@ description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 01/23/2020
+ms.date: 01/28/2020
 ms.topic: reference
 ms.service: 
   - dynamics-365-customerservice
@@ -30,5 +30,21 @@ ms.custom:
 ## Example
 
 ```javascript
-
+var data = {
+    "subject": "Troubleshooting printer malfunction",
+    "prioritycode": 2
+}
+var conversationId = "05145e77-ce40-ea11-a812-000d3a579805";
+var jsonData = JSON.stringify(data);
+Microsoft.CIFramework.updateConversation(conversationId, jsonData).then(
+    function success (response) {
+        var result = JSON.parse(response);
+        console.log("Conversation updated with ID: " + result.id);
+        //the Conversation is updated
+      },
+      function (error) {
+          console.log(error);
+          //handle errors
+      }
+  );
 ```
