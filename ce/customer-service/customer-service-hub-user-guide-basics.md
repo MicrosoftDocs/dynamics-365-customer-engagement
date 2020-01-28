@@ -203,7 +203,7 @@ For example, here’s a view of how the tabs appear on the case form:
 > [!Note]
 > This section is pre-release documentation and is subject to change.
 
- See a combined view of your customer’s interactions across various channels, such as phone, email, or even social activities in the Timeline. The Timeline also shows any related notes or system posts.  The Timeline control makes collaboration with other users easy and efficient.
+ See a combined view of your customer’s interactions across various channels, such as phone, email, or even social activities in the Timeline. The Timeline enables you to create notes and posts, and also, to view any related notes or system posts.  The Timeline control makes collaboration with other users easy and efficient.
 
  You can do the following:
 
@@ -273,13 +273,13 @@ You can select the **Enter a note** box in the timeline and specify a title and 
   > [!Note]
   > You can format only the message (body), and not the title.
 
-  You can also add attachments to your notes, and the attachment is displayed below the note.
+  You can also add an attachment to your notes, and the attachment is displayed below the note. At anytime, you can attach one file. Before adding the note, if you want upload another file than the one you've selected, you can again browse and choose another file. This will replace the already selected file.
 
   ![Timeline notes and attachment](media/timeline-attachment.png "Timeline notes and attachment")
 
   > [!Note]
   > - The notes rich-text editor is available only for Unified Interface and not for web client.
-  > - If you administrator has enabled the rich-text editor in web client, then you will see the notes with HTML syntax.
+  > - If you create a note with the rich-text editor formatting in Unified Interface, and when you see the note in Web Client, the note is displayed to you with HTML syntax.
 
 #### **Identify the activities with icons along with time stamp**
 The timeline shows a simple icon before the activity making it easy for you to identify the type of activity.
@@ -289,7 +289,7 @@ Also, you can view the timestamp at all times. Activities that were created or u
   ![Timeline activity icons](../customer-service/media/activity-icons.png "Timeline activity icons")
 
 #### **Access command bar to perform actions**
-When you hover the cursor on an activity, the command bar appears with the options specific to the activity, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, liking a post, replying to a post, editing a note, or deleting the activity.
+When you hover the cursor on or expand an activity, the command bar appears with the options specific to the activity, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, liking a post, replying to a post, editing a note, or deleting the activity.
 
   ![Timeline command bar options](../customer-service/media/timeline-options1.png "Timeline command bar options")
   ![Timeline command bar options](../customer-service/media/timeline-options2.png "Timeline command bar options")
@@ -304,8 +304,8 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
   | Category | Sub-category |
   |-----------------------|-----------------------|
   | Record type | <ul> <li> Notes </li> <li> Posts </li> <li> Activities </li> </ul> |
-  | Activity type | <ul> <li> Appointment </li> <li> Email </li> <li> Phone Call </li> <li> Task</li> </ul> |
-  | Activity status | <ul> <li> Active </li> <li> Active and overdue </li> <li> Closed </li> </ul> |
+  | Activity type | <ul> <li> Appointment </li> <li> Email </li> <li> Phone Call </li> <li> Task</li> <li>Custom activities (as configured by your administrator) </li> </ul> |
+  | Activity status | <ul> <li> Active </li> <li> Overdue </li> <li> Closed </li> </ul> |
   | Activity due date (active) | <ul> <li> Next 30 days </li> <li> Next 7 days </li> <li> Next 24 hours </li> <li> Last 24 hours </li> <li> Last 7 days </li> <li> Last 30 days </li> </ul> |
   | Posts by | <ul> <li> Auto-post </li> <li> Users </li> </ul> |
   | Modified date | <ul> <li> Last 24 hours </li> <li> Last 7 days </li> <li> Last 30 days </li> </ul> |
@@ -316,7 +316,7 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
 
   ![Timeline activity filter](../customer-service/media/timeline-filter6.png "Timeline activity filter")
 
-#### **Search for reacords**
+#### **Search for records**
 
 You can easily search for records in the timeline. When you search for a phrase, the timeline searches the title, subject, description and body of the content, and then displays the record to you.
 
