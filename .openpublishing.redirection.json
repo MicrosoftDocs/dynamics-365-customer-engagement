@@ -1,6 +1,21 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customerengagement/on-premises/admin/control-social-data.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/connect-microsoft-social-engagement.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/install-social-selling-assistant.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/segment-boost.md",
       "redirect_url": "help-hub",
       "redirect_document_id": "false"
