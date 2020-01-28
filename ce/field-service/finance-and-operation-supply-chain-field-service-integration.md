@@ -28,24 +28,16 @@ search.app:
 
 # Integrate Field Service and Finance & Operations Supply Chain Management
 
-While Dynamics 365 Field Service includes basic [inventory capbilities](./inventory-purchasing-returns-overview.md) for managing technician truck stock, tracking asset service history, requesting purchase orders, and documenting returns; many field service organizations still integrate with their Enterprise Resource Planning (ERP) systems. Organizations utilizing the Microsoft Dynamics 365 stack will find it exceptionally easy to integrate Dynamics 365 Field Service and Finance & Operations Supply Chain Management systems. 
+While Dynamics 365 Field Service includes basic [inventory capbilities](./inventory-purchasing-returns-overview.md) for managing technician truck stock, tracking asset service history, requesting purchase orders, and documenting returns; many field service organizations still integrate Field Service with their Enterprise Resource Planning (ERP) system. Organizations utilizing the Microsoft Dynamics 365 stack will find it exceptionally easy to integrate Dynamics 365 Field Service and Finance & Operations [Supply Chain Management](https://docs.microsoft.com/en-us/dynamics365/supply-chain/) systems. 
 
-Customers often need support for both supply chain management and field service scenarios as part of their Dynamics 365 deployment. They need these two solutions to work well together, which we support by integrating Dynamics 365 Field Service with Dynamics 365 Supply Chain Management. Leveraging the common data model and common data service in Dynamics 365, you can use Supply Chain Management features including warehouse, payment type, and shipment method.
+Leveraging the common data model and common data service in Dynamics 365, you can set up a synchronous two-way integration for the following 4 entities, with more entities being added over time: 
 
-This is only the first step in Field Service and Supply Chain Management integration. Further integration will be developed over time.
-
-
-
-A synchronous (realtime) two way integration between  [Supply Chain Management](https://docs.microsoft.com/en-us/dynamics365/supply-chain/)
-
-As of today, 4 entities are integrated between Field Service and Supply Chain Management with more expected:
+4 entities are integrated between Field Service and Supply Chain Management with more expected:
 
 - Warehouse
 - Customer Asset
 - Payment Terms
 - Ship Via
-
-same table with no dupicate data
 
 ## Why is it useful
 
@@ -96,6 +88,7 @@ asynchronous and batch exists today and this is a more robusy version of prospec
 
 can integrate to common tables in CDS (Warehouse, Customer Asset, Account, etc) even without field service
 
+same table with no dupicate data
 
 ## See also
 
