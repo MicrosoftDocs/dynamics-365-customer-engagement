@@ -43,7 +43,7 @@ As of today, 4 entities are integrated between Field Service and Supply Chain Ma
 - Payment Terms
 - Ship Via
 
-
+same table with no dupicate data
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inventory-warehouse-supply-chain1.png)
@@ -56,6 +56,7 @@ As of today, 4 entities are integrated between Field Service and Supply Chain Ma
 ## Prerequisites
 > [!Note]
 >
+only need one license, few people will have licenses to both. only need a license for the interface that you are accessing
 
 Public preview 
 
@@ -72,7 +73,10 @@ respect business logic
 
 ## Why is it useful
 
-technicians will have a view of all warehouses and customer assets
+
+When creating a work order for repair or maintenance on a customer asset, dispatchers can know they are looking at the full list of managed assets between both systems.
+
+Furthermore this empowers technicians with a complete list of nearby warehouses.
 
 
 
