@@ -66,6 +66,9 @@ To create a session template, follow these steps:
 
 9. Build the expression, and then select **Save and close**. To learn more, see [Set default agent script for agents](agent-scripts.md#set-default-agent-script-for-agents).
 
+  > [!Note] 
+  > Step 8 and 9 are optional, and applicable only when you've configured agent scripts and enabled productivity pane. To learn more, see [Agent scripts](agent-scripts.md) and [Enable the productivity pane to provide guidance to agents](productivity-pane.md).
+
 10. Select **Save** to save the changes.
 
    > [!div class=mx-imgBorder] 

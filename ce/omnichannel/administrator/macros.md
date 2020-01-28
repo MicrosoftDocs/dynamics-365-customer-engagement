@@ -169,9 +169,9 @@ This action is used to focus on a tab in the Omnichannel for Customer Service se
    |-----------------|-----------------------------|--------------------------|
    | Tab Id | Specify the ID of the tab that you want to give focus to. <br> This is a mandatory field.| 
 
-#### Get current page
+#### Get current tab
 
-This action is used to get the details of the current page in Omnichannel for Customer Service.
+This action is used to get the details of the current tab in Omnichannel for Customer Service. The get current tab action retrieves the Tab Id that could be used in the **Refresh tab** and **Focus tab** actions.
 
 ### Omnichannel connector
 
@@ -259,7 +259,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     |-----------------------------|---------------------------------------------|
     | Refresh the application tab | Refresh tab |
     | Focus on a particular application tab from another application tab| Focus tab |
-    | Get the details of the current application tab | Get current page |
+    | Get the details of the current application tab | Get current tab |
 
    To learn more, see [Session connector](#session-connector).
 

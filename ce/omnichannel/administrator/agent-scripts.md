@@ -171,7 +171,7 @@ Now, you've built the expression.
 
 ## Use the automation dictionary to pass context data parameters
 
-As an administrator, you need to configure the condition by using the automation dictionary based on the evaluation of the condition. A script is set as default, and this script is displayed to the agent at runtime.<!--note from editor: Edit okay?-->
+As an administrator, you need to configure the condition by using the automation dictionary based on the evaluation of the condition. A script is set as default, and this script is displayed to the agent at runtime.
 
 The automation dictionary provides you certain data parameter keys that you can use to build your condition. These parameter keys are resolved and replaced by contextual values at runtime.
 

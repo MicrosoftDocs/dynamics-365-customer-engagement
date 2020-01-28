@@ -14,7 +14,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The productivity pane in Omnichannel for Customer Service enables you to display agent scripts and smart-assist cards in a unified view. First you need to configure agent scripts and smart-assist cards, and then you enable the productivity pane so they're displayed to users in Omnichannel for Customer Service.
+The productivity pane in Omnichannel for Customer Service enables you to display the **Agent Guidance** control (agent scripts and smart-assist cards) in a unified view. First you need to configure agent scripts and smart-assist cards, and then you enable the productivity pane so that the **Agent Guidance** control displays agent scripts and smart-assist cards to users in Omnichannel for Customer Service.
 
 To learn more about configuring agent scripts and smart-assist cards, see [Agent scripts](agent-scripts.md) and [Smart assist](smart-assist.md).
 
