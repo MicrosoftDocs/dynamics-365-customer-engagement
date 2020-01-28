@@ -28,9 +28,8 @@ search.app:
 
 This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 14 This version has a build number of V3.10.4.21 and is available on the following schedule:
 
-- **Preview release:** February 2020
-- **General availability (self-update):** March 2020
-- **Auto-update:** April 2020
+- **General availability (self-update):** January 2020
+- **Auto-update:** February 2020
 
 ## Features included in this release
  -   Sales
