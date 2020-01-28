@@ -59,6 +59,8 @@ ms.topic: article
 
         > [!NOTE]
         > If no domains are specified, the chat widget can be embedded on any website without restrictions. If you specify a domain, the chat widget can be hosted only on the specified domain.
+        
+    - **Conversation options**: Use this tab to enable or disable third-party co-browse and screen sharing. You must install a third-party provider from AppSource in order to use these features. Administrators can install the two solutions and manage them separately.
 
 ### See also
 
