@@ -33,8 +33,8 @@ Perform the following steps to enable self service.
 3. Under **Settings**, select **Self service**. The **Omnichannel Configuration** page appears.
 4. On the **Self service settings** tab, set the **Self service** toggle to **Yes**.
 
-  > [!div class='mx-imgBorder']
-  > ![Enable self service](../media/enable-self-service.png "Enable self service")
+   > [!div class='mx-imgBorder']
+   > ![Enable self service](../media/enable-self-service.png "Enable self service")
  
 5. Select **Save**. The **Self service** tab will appear for the agent when a chat is started with a customer.
 
