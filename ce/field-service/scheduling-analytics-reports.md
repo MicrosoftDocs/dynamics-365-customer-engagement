@@ -28,7 +28,7 @@ search.app:
 
 # Resource scheduling and optimization analytics dashboard
 
-> ![Note]
+> [!Note]
 > This functionality is available in early access as of February 3, 2020. For more information, visit [this article on opting into early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates).
 
 Resource and operations managers need to be able to monitor key operational metrics so that they can gauge resource and scheduling performance. Metric reports can help explore important business-related questions, like: 
