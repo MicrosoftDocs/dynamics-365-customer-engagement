@@ -60,7 +60,6 @@ In this topic, we'll look at how to configure booking timestamps.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the timestamp frequency functionality in Field Service settings.](./media/scheduling-timestamps-frequency-setting.png)
 
-
 ## Prerequisites
 
 In order to get the most out of booking timestamps:
@@ -127,4 +126,5 @@ In our example, this means both "Arrived on site" and "Wrench time" are recorded
 
 
 ## Additional notes 
+
 - Booking timestamps are used to calculate **Booking Journals** that calculate total travel time and working time for a specific booking. From the booking, go to **Related** > **Booking Journals** to see them. The **Timestamp Frequency** setting _does not_ affect how booking journals are created or calculated.
