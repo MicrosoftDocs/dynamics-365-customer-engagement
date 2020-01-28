@@ -2,7 +2,7 @@
 
 
 title: What's new in Project Service Automation Update Release 14, V3
-description: This topic lists the features and fixes that are available in release 14 of Project Service Automation V3.
+description: This topic lists the features and fixes that are available in release 14 of Project Service Automation V3.10.4.21.
 author: ruhercul                
 manager: kfend
 ms.service: dynamics-365-projectservice
@@ -33,54 +33,38 @@ This topic lists the features and fixes that are new or changed for Project Serv
 - **Auto-update:** April 2020
 
 ## Features included in this release
+ -   Sales
 
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
+        -   Custom field values from Quote Line Details are copied to Project
+            Contract Line Details when a Quote is updated to closed as won.
 
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
+        -   Confirmed projects can be ‘Closed as lost’.
 
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
+    -   Resource Management
 
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
-
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
-
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
-
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
-
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
-
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
-
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
+        -   When extending Bookings, users will be prompted with a confirmation
+            dialog to summarize booking results and provide a link to Maintain
+            Bookings.
 
 ## Additional resources
 
 ### Update Release 14 bug fixes
 
-For information about the bug fixes that are included in each update that is part of Update Release 14, go to....
+   -   Time and Expense
 
+        -   Fixed: Correct entries - Improved user experience when the user has
+            not selected anything to be corrected.
 
-### Removed and deprecated features
+    -   Resource Management
 
-The Removed or deprecated features topic describes features that have been removed or deprecated.
+        -   Fixed: Booking resource multiple times overflows the name of the
+            bookable resource.
 
-- A *removed* feature is no longer available in the product.
-- A *deprecated* feature isn't in active development and might be removed in a future update.
+    -   Sales
 
-For breaking changes that affect only compilation time, but that are binary-compatible with sandbox and production environments, the deprecation time will be less than 12 months. Typically, these changes are functional updates that must be made to the compiler.
+        -   Fixed: Total sales price is not calculated until the user also
+            inputs a cost price for expense estimates on a project.
+
+        -   Fixed: Closing Quote as Won fails if associated Project Contract is
+            not in the Draft state.
+
