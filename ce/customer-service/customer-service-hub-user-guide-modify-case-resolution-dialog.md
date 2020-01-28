@@ -2,9 +2,9 @@
 title: Modify case resolution dialog in Customer Service Hub | Microsoft Docs
 description: Understand Cases in Customer Service Hub for Dynamics 365 Customer Service.
 author: neeranelli
-ms.author: nenellim
+ms.author: lrobbin
 manager: shujoshi
-ms.date: 11/27/2019
+ms.date: 2/3/2019
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
