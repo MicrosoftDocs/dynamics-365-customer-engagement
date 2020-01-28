@@ -1,6 +1,6 @@
 ---
 title: "Productivity pane in the Omnichannel for Customer Service app | MicrosoftDocs"
-description: "Learn how to enable productivity pane in in the Omnichannel for Customer Service app to display agent scripts and smart assist cards for your agents."
+description: "Learn how to enable the productivity pane in Omnichannel for Customer Service to display agent scripts and smart-assist cards for your agents."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -10,54 +10,49 @@ ms.service:
 ms.topic: article
 ---
 
-# Enable productivity pane to provide guidance to agents
+# Enable the productivity pane to provide guidance to agents
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Productivity pane in Omnichannel for Customer Service app enables you to display agent scripts and smart assist cards in an unified view. First you need to configure agent scripts and smart assist cards, and then enable the productivity pane so that the agent scripts and the smart assist cards are displayed to the users who use the Omnichannel for Customer Service app.
+The productivity pane in Omnichannel for Customer Service enables you to display agent scripts and smart-assist cards in a unified view. First you need to configure agent scripts and smart-assist cards, and then you enable the productivity pane so they're displayed to users in Omnichannel for Customer Service.
 
-To learn more about configuring agent scripts and smart assist cards, see [Agent scripts](agent-scripts.md) and [Smart assist](smart-assist.md).
+To learn more about configuring agent scripts and smart-assist cards, see [Agent scripts](agent-scripts.md) and [Smart assist](smart-assist.md).
 
-According to the requirements, for your users, you can set the pane in two modes:
+You can set the productivity pane in collapsed mode or expanded mode, as shown in the following illustrations.
 
-**Collapsed** mode
-
-> [!div class='mx-imgBorder']
-> ![Productivity pane](../media/productivity-pane-collapsed.PNG "Productivity pane")
-
-**Expanded** mode
+**Collapsed mode**
 
 > [!div class='mx-imgBorder']
-> ![Productivity pane](../media/productivity-pane-expanded.PNG "Productivity pane")
+> ![Productivity pane](../media/productivity-pane-collapsed.PNG "Productivity pane in collapsed mode")
 
-## Enable productivity pane
+**Expanded mode**
 
-After you've created the agent script and/or smart assist, you need to enable the productivity pane to display the agent script and/or smart assist to the agents in the Omnichannel for Customer app.
+> [!div class='mx-imgBorder']
+> ![Productivity pane](../media/productivity-pane-expanded.PNG "Productivity pane in expanded mode")
+
+## Enable the productivity pane
+
+After you've created the agent script or smart-assist card, you need to enable the productivity pane to display them to agents in Omnichannel for Customer Service.
 
 1. Sign in to the Omnichannel Administration app.
 
-2. Select **Productivity pane** under **Agent Experience**.
+2. Under **Agent Experience**, select **Productivity pane**.
 
-3. Set the **Productivity pane** toggle to **Enabled** to enable the productivity pane for the users in the Omnichannel for Customer app.
+3. Set the **Productivity pane** toggle to **Enabled**.
 
-4. Set the **Mode** toggle as per your requirement. By default, the **Collapsed** mode is set, and you can set it to **Expanded**.
-
-    The productivity pane will be in expanded mode for the users if you set **Expanded**.
+4. Set the **Mode** toggle based on your requirements. By default, the **Collapsed** mode is set; you can change this to **Expanded**.
 
     > [!div class=mx-imgBorder] 
-    > ![Enable productivity pane](../media/productivity-pane-enable.png "Enable productivity pane")
+    > ![Enable the productivity pane](../media/productivity-pane-enable.png "Enable the productivity pane")
 
-After you've enabled the productivity pane, users can see the agent scripts and the smart assist cards on the productivity pane in the Omnichannel for Customer Service app.
+After you've enabled the productivity pane, users can see the agent scripts and smart-assist cards on the productivity pane in Omnichannel for Customer Service.
 
 > [!Note]
-> - If you don't create agent script and enable the productivity pane, then users wouldn't see the pane in the Omnichannel for Customer Service app. 
+> - If you don't create agent scripts or smart-assist cards and you enable the productivity pane, users won't see the pane in Omnichannel for Customer Service. 
 >
-> - It is recommended to remove the agent script control If you've customized a form to add the agent script field so agents can see it.
->
-> - If you don't remove the agent script control, then agents will see the agent script control in the form and also in the productivity pane.
+> - We recommend that you remove the agent script control or smart-assist control if you've customized a form to add agent script or smart-assist. If you don't remove the agent script control or smart-assist control, agents will see the agent script control or smart-assist control in the form, and also in the productivity pane.
 
-## See also
+### See also
 
-[Agent scripts](agent-scripts.md)
-
+[Agent scripts](agent-scripts.md)<br>
 [Smart assist](smart-assist.md)
