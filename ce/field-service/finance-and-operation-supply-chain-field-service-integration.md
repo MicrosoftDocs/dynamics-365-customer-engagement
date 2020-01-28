@@ -53,21 +53,6 @@ search.app:
 ## Configuration considerations
 ## Additional Notes
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 https://docs.microsoft.com/en-us/dynamics365/supply-chain/
 
 https://docs.microsoft.com/en-us/business-applications-release-notes/april19/cdm-data-integration/dual-write-link-common-data-service-apps
