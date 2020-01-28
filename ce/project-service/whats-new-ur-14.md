@@ -39,11 +39,11 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
         -   Confirmed projects can be ‘Closed as lost’.
 
-    -   Resource Management
+  -   Resource Management
 
-        -   When extending Bookings, users will be prompted with a confirmation
-            dialog to summarize booking results and provide a link to Maintain
-            Bookings.
+      -   When extending Bookings, users will be prompted with a confirmation
+          dialog to summarize booking results and provide a link to Maintain
+          Bookings.
 
 ## Additional resources
 
