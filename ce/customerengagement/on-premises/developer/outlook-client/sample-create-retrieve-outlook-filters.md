@@ -21,7 +21,7 @@ search.app:
 ---
 # Sample: Create and retrieve Outlook filters
 
-This sample shows how to retrieve filters for Microsoft Dynamics 365 for Outlook. You can download the sample from [here]().
+This sample shows how to retrieve filters for Microsoft Dynamics 365 for Outlook. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/CreartRetrieveOutlookFilters).
 
 [!include[cc-sample-note](../includes/cc-sample-note.md)]
 

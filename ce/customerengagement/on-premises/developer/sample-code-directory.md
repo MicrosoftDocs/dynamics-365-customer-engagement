@@ -325,7 +325,7 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
 
 
 [Sample: Download Report Definition](sample-download-report-definition.md)<br />
-[Sample: Get Report History Limit](sample-get-report-hitory-limit.md)<br />
+[Sample: Get Report History Limit](sample-get-report-history-limit.md)<br />
 [Sample: Make a Report Available or Unavailable to Organization](sample-make-report-available-unavailable-organization.md)<br />
 [Sample: Publish a Report](sample-publish-report.md)<br />
   

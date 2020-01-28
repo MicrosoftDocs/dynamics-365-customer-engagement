@@ -22,7 +22,7 @@ search.app:
 
 # Sample: Use Dynamics 365 for Outlook methods
 
-This sample shows how to use the methods available in the [Microsoft.Crm.Outlook.Sdk.dll](https://docs.microsoft.com/dotnet/api/microsoft.crm.outlook.sdk?view=dynamics-outlookclient-ce-9) assembly. You can download the sample from [here]().
+This sample shows how to use the methods available in the [Microsoft.Crm.Outlook.Sdk.dll](https://docs.microsoft.com/dotnet/api/microsoft.crm.outlook.sdk?view=dynamics-outlookclient-ce-9) assembly. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/UseOutlookMethods).
 
 [!include[cc-sample-note](../includes/cc-sample-note.md)]
 

@@ -29,7 +29,7 @@ This sample shows how to publish a report by creating a **Report** record and th
 
 ## How to run this sample
 
-[!include[cc-how-to-run-samples](../includes/cc-how-to-run-PA-samples.md)]
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
 
 ## How this sample works
 
