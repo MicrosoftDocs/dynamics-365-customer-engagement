@@ -209,6 +209,8 @@ To learn about the slugs for productivity tools, see [Slugs](automation-dictiona
 
 To learn more, see [Use automation dictionary to pass data parameter keys](automation-dictionary-keys.md#pass-data-parameter-in-macros-and-agent-scripts).
 
+<a name="create-macro"></a>
+
 ## Create a macro
 
 1. Sign in to the Omnichannel Administration app.

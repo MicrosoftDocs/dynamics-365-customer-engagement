@@ -50,7 +50,7 @@ The smart assist feature can be enabled across all channels like Chat for Dynami
 
 [Step 3: Add smart assist bot to a workstream](#step-3-add-smart-assist-bot-to-a-workstream)
 
-[Step 4: Enable productivity pane](#step-4-enable-productivity-pane)
+[Step 4: Enable the productivity pane](#step-4-enable-the-productivity-pane)
 
 ## Step 1: Develop a custom smart-assist bot<a name="step-1-develop-a-custom-smart-assist-bot"></a>
 
@@ -91,6 +91,8 @@ You can add multiple bots to a workstream based on your business requirements.
 
 7. Select **Save**.
  
+<a name="step-4-enable-productivity-pane"></a>
+
 ## Step 4: Enable the productivity pane
 
 After you've created the agent script, you need to enable the productivity pane to display the smart-assist card to agents in Omnichannel for Customer Service.
