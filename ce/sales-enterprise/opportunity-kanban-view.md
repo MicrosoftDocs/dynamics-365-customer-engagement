@@ -25,7 +25,8 @@ To open the Kanban view:
 1. In the site map, select **Opportunities**.
 2. On the command bar, select the **More commands** icon ![More commands icon](media/more-commands-button.png "More commands icon"), and select **Show As** > **Kanban**.
 
-    ![More commands icon on the opportunity grid](media/opportunity-grid-more-commands-icon.png "More commands icon on the opportunity grid") 
+    > [!div class="mx-imgBorder"]  
+    > ![More commands icon on the opportunity grid](media/opportunity-grid-more-commands-icon.png "More commands icon on the opportunity grid") 
 
 ## Available Kanban views for opportunity records
 
@@ -36,11 +37,13 @@ The following two types of Kanban views available for opportunities:
 
 You can switch between the views by selecting the Kanban type from the Kanban type drop-down list.
 
-![Kanban type list](media/kanban-type-list-kanban-view.png "Kanban type list")
+> [!div class="mx-imgBorder"]  
+> ![Kanban type list](media/kanban-type-list-kanban-view.png "Kanban type list")
  
 In the status-based Kanban view, each lane represents a default opportunity status such as, Open, Won, or Lost.
 
-![Status-based opportunity Kanban view](media/status-based-opportunity-kanban-view.png "Status-based opportunity Kanban view")
+> [!div class="mx-imgBorder"]  
+> ![Status-based opportunity Kanban view](media/status-based-opportunity-kanban-view.png "Status-based opportunity Kanban view")
  
 In the Business process flow-based view, swim lanes represent the following stages of opportunities in the Opportunity sales process business process flow:
 
@@ -51,14 +54,16 @@ In the Business process flow-based view, swim lanes represent the following stag
 
 Currently, the Kanban view is only available for the Opportunity sales process business process flow.
 
-![Business process flow-based opportunity Kanban view](media/bpf-based-kanban-view.png "Business process flow-based opportunity Kanban view")
+> [!div class="mx-imgBorder"]  
+> ![Business process flow-based opportunity Kanban view](media/bpf-based-kanban-view.png "Business process flow-based opportunity Kanban view")
  
 ## Know your Kanban views
 
 Here are some important things to know about your Kanban view:
 -  At the top of each lane, the total estimated revenue for the opportunities in that lane is shown. 
 
-    ![Sum of estimated revenue](media/total-estimated-revenue.png "Sum of estimated revenue")
+    > [!div class="mx-imgBorder"]  
+    > ![Sum of estimated revenue](media/total-estimated-revenue.png "Sum of estimated revenue")
 
     It also shows a count of opportunity cards in that lane. At any given point, only the first 10 records/cards will be shown in any lane. If there are more than 10 opportunity cards in a lane, for example, 50, the count shows 10/50. To see more cards, scroll down in the lane. When you scroll down, the count changes to show 20/50, and so on.
 
@@ -66,7 +71,8 @@ Here are some important things to know about your Kanban view:
 
 -  The card fields are editable. You can quickly change details for the three fields of an opportunity record that are shown in the card.
 
-    ![Editable fields on the opportunity card](media/editable-fields-opportunity-card.png "Editable fields on the opportunity card")
+    > [!div class="mx-imgBorder"]  
+    > ![Editable fields on the opportunity card](media/editable-fields-opportunity-card.png "Editable fields on the opportunity card")
 
 -  When you select a different view, cards in the lanes are filtered based on the selected view. 
 

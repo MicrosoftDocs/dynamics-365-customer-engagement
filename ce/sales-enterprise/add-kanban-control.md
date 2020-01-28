@@ -17,8 +17,8 @@ To enable your sales people to use the Kanban view to manage their opportunity, 
 To add the control:
 1.	In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
-
-    ![Advanced Settings link in the site map](media/advanced-settings-option.png "Advanced Settings link in the site map")
+    > [!div class="mx-imgBorder"]  
+    > ![Advanced Settings link in the site map](media/advanced-settings-option.png "Advanced Settings link in the site map")
  
     The Business Management page opens.
 
@@ -30,17 +30,20 @@ To add the control:
 
 5.	Go to the **Controls** tab and select **Add Control**.
 
-    ![Read-only Grid control selected as default](media/read-only-grid-control.png "Read-only Grid control selected as default")
+    > [!div class="mx-imgBorder"]  
+    > ![Read-only Grid control selected as default](media/read-only-grid-control.png "Read-only Grid control selected as default")
 
 6.	In the **Add Control** dialog box, select **Kanban**, and then select **Add**.
 
-    ![Add Control dialog box](media/add-control-dialog-box.png "Add Control dialog box")
+    > [!div class="mx-imgBorder"]  
+    > ![Add Control dialog box](media/add-control-dialog-box.png "Add Control dialog box")
 
     The Kanban control is added to the list of controls.
 
 7.	By default, the Read-only grid option is selected, so when users select **Opportunities** from the site map, they'll see a list of opportunities. To make the Kanban view the default view instead, select the radio button for the Kanban control for the corresponding options.  
 
-    ![Make the Kanban view the default view](media/make-kanban-view-default.png "Make the Kanban view the default view") 
+    > [!div class="mx-imgBorder"]  
+    > ![Make the Kanban view the default view](media/make-kanban-view-default.png "Make the Kanban view the default view") 
 
 8.	Select the **Save** icon to save your changes.
 
