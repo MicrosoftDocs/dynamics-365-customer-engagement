@@ -28,6 +28,9 @@ search.app:
 
 # Integrate Field Service and Finance & Operations Supply Chain Management
 
+A synchronous (realtime) two way integration between 
+
+As of today, 4 entities are integrated between Field Service and Supply Chain Management with more expected:
 
 - Warehouse
 - Customer Asset
@@ -48,10 +51,22 @@ search.app:
 > [!Note]
 >
 
+Public preview 
+
+## How does it work?
+
+Creating a warehouse in field service creates a record in Common Data Service and dual write connects Supply Chain management to Common Data Service
+
+respect business logic 
+
 
 
 ## Configuration considerations
 ## Additional Notes
+
+this is better than the [prospect to cash](https://docs.microsoft.com/en-us/dynamics365/supply-chain/sales-marketing/prospect-to-cash) data integrator which is one direction, batch, asynchronous and doesnt respect rules
+
+asynchronous and batch exists today and this is a more robusy version of prospect to cash
 
 https://docs.microsoft.com/en-us/dynamics365/supply-chain/
 
