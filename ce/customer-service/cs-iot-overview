@@ -1,6 +1,6 @@
 ---
-title: "Connected Customer Service for Azure IoT Central - Overview| MicrosoftDocs"
-description: "Overview of Connected Customer Service for Azure IoT Central."
+title: "Connected Customer Service - Overview| MicrosoftDocs"
+description: "Overview of Connected Customer Service."
 keywords: ""
 author: lalexms
 ms.author: lalexms
@@ -12,11 +12,11 @@ ms.topic: article
 ---
 
 
-# Connected Customer Service for Azure IoT Central - Overview
+# Connected Customer Service - Overview
 
-Connected Customer Service for Azure IoT Central enables organizations to transform their service model into a proactive and predictive service model with the availability of IoT diagnostics, IoT device update, and case management on one platform. Agents using Customer Service Hub can diagnose and fix issues remotely, which leads to cost savings and improved customer satisfaction. 
+Connected Customer Service enables organizations to transform their service model into a proactive and predictive service model with the availability of IoT diagnostics, IoT device update, and case management on one platform. Agents using Customer Service Hub can diagnose and fix issues remotely, which leads to cost savings and improved customer satisfaction. 
 
-Key benefits of Connected Customer Service include the following:
+Key benefits of Connected Customer Service:
 
 - Reduce downtime by connecting to IoT devices to diagnose problems before customers are aware of an issue
 - Address issues faster by remotely monitoring and updating devices and keeping customers in the loop
