@@ -154,7 +154,7 @@
 ## [Security roles for Connected Field Service](cfs-security-roles.md)
 
 # Integrations
-## [Dynamics 365 Finance Operations Supply Chain](finance-and-operation-supply-chain-field-service-integration.md)
+## [Dynamics 365 Finance & Operations Supply Chain Management](finance-and-operation-supply-chain-field-service-integration.md)
 ## [Dynamics 365 Remote Assist and HoloLens](remote-assist-hololens.md)
 ## [Dynamics 365 Guides on HoloLens](mixed-reality-guides-integration.md)
 ## [SAP integration](field-service-sap-integration.md)
