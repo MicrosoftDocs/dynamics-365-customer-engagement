@@ -16,21 +16,22 @@ ms.topic: article
 
 ## Overview
 
-The self-service feature displays information about the recent actions that a customer performed before starting a conversation with an agent. This information helps agents understand customer issues and provide a personalized service for enhanced customer satisfaction.
+The self-service feature displays information about the recent actions that a customer performs before starting a conversation with an agent. This information helps agents understand customer issues and provide a personalized service for enhanced customer satisfaction.
 
-The data about the recent actions that you track is stored in an entity where it's passed as part of context with self-service [action type](../agent/agent-oc/oc-customer-summary.md#self-service) for a conversation that has been successfully closed between the customer and agent. A record is created for each self-service action. To learn more, see [msdyn_visitorjourney Entity Reference](../developer/reference/entities/msdyn_visitorjourney.md).
+The data about the recent actions is stored in an entity for the conversation that has been closed. A record is created for each self-service action and [action type](../agent/agent-oc/oc-customer-summary.md#self-service). To learn more, see [msdyn_visitorjourney Entity Reference](../developer/reference/entities/msdyn_visitorjourney.md).
+
+Enabling the self-service feature is a two-step process as follows:
+1. Add a code snippet in the self-service portal that is configured for your organization. For the sample code and to learn more, see [Pass self service history as context](../developer/reference/methods/setcontextprovider.md#pass-customers-self-service-as-context).
+2. Update the settings in the Omnichannel Administration app.
 
 ## Enable self service
 
 Perform the following steps to enable self service.
 
-1. Add a code snippet in the customer self-service portal that is configured for your organization. For information about the code snippet, see [Pass self service history as context](../developer/reference/methods/setcontextprovider.md#pass-customers-portal-navigation-as-context) and [msdyn_visitorjourney](../developer/reference/entities/msdyn_visitorjourney.md#msdyn_type-options).
- 
-3. Sign in to the Omnichannel Administration app.
-
-4. Under **Settings**, select **Self service**. The **Omnichannel Configuration** page appears.
-
-5. On the **Self service settings** tab, set the **Self service** toggle to **Yes**.
+1. Add the code snippet in the customer self-service portal.
+2. Sign in to the Omnichannel Administration app.
+3. Under **Settings**, select **Self service**. The **Omnichannel Configuration** page appears.
+4. On the **Self service settings** tab, set the **Self service** toggle to **Yes**.
 
   > [!div class='mx-imgBorder']
   > ![Enable self service](../media/enable-self-service.png "Enable self service")
