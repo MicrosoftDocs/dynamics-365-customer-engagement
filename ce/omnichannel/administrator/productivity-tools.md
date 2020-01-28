@@ -43,22 +43,35 @@ The Dynamics 365 Productivity Tools app contains the following tools:
     > [!div class=mx-imgBorder] 
     > ![Productivity Tools](../media/productivity-tools.png "Productivity Tools")
 
-## Macros
+### Macros
 
 With macros, agents can perform repetitive, monotonous tasks—Open model-driven app forms, pre-populate fields with the details, send an email to a customer, take notes, and much more—all in a single click.
 A macro is a set of sequential actions that tells the system how to complete a task. When an agent executes a macro, the system performs each action and this helps save time and accommodate agents to handle more customer issues. Also, macro provides preciseness, clarity and consistency to the tasks that agents perform.
  
-## Agent scripts 
+### Agent scripts 
 
 Agent scripts provide guidance to agents about what to do when they get a customer issue. The scripts ensure that only accurate, company-endorsed information is being shared, while also safeguarding the organization in regard to legal-compliance issues. Agent scripts help organizations to be unified, accurate, and effective while also being faster and more efficient in terms of customer handling.
  
-## Smart assist
+### Smart assist
 
 Smart assist is an intelligent assistant that provides real-time recommendations to the agents, helping them to take actions while interacting with customers. It allows organizations to build a custom bot and plug-in real-time to their environment. Also, organizations can develop relevant recommendations such as knowledge articles, similar cases, and next-best steps using Microsoft Adaptive cards. These recommendation cards are surfaced to the agent's user interface based on the context of the current conversation.
 
 The smart assist feature can be enabled across all channels like Chat for Dynamics 365 Customer Service, SMS, and Facebook except entity records making it a consistent experience for agents.
 
+## Agent guidance in productivity pane
+
+The productivity pane, when enabled, displays the agent guidance control that shows the agent scripts and smart-assist cards.
+
+> [!div class='mx-imgBorder']
+> ![Productivity pane](../media/productivity-pane-expanded.PNG "Productivity pane in expanded mode")
+
+To learn more, see [Enable the productivity pane to provide guidance to agents](productivity-pane.md).
+
 ## Set up Dynamics 365 Productivity Tools
+
+If you use new Omnichannel for Customer Service environment, then Dynamics 365 Productivity Tools will be available by default.
+
+If you are using Omnichannel for Customer Service, and want Productivity Tools, then you must install it manually from the Microsoft AppSource. To learn more, see [Prerequisites](#prerequisites) and [Install Dynamics 365 Productivity Tools package](#install-dynamics-365-productivity-tools-package).
 
 ### Prerequisites 
 
@@ -69,7 +82,6 @@ The smart assist feature can be enabled across all channels like Chat for Dynami
 - Obtain global administrator permissions in Office 365 to download and install the Dynamics 365 Productivity Tools (solution).
 
 - Deploy Chat for Dynamics 365 Customer Service in your environment as Dynamics 365 Productivity Tools works only with the Omnichannel for Customer Service app. To learn more, see [Try channels for Dynamics 365 Customer Service](../try-channels.md) and [Configure a chat channel](set-up-chat-widget.md).
-
 
 ### Install Dynamics 365 Productivity Tools package
 

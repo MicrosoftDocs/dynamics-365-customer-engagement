@@ -96,7 +96,7 @@ The agent script is now configured.
 
 ## Step 2: Associate an agent script with a session template
 
-After you configure the agent script and add the field to a form, you need to associate the agent script with a session template so that the agent script will load for agents based on the type of session they've opened.<!--note from editor: Suggested.-->
+After you configure the agent script and add the field to a form, you need to associate the agent script with a session template so that the agent script will load for agents based on the type of session they've opened.
 
 1. Sign in to the Omnichannel Administration app.
 
