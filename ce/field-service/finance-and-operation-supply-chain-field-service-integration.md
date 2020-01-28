@@ -56,16 +56,11 @@ To view integrated data, a user only needs the required license and security for
 
 ## How does it work?
 
-The real-time, two-way synchronous integration is made possible with [Dual Write](https://powerapps.microsoft.com/en-us/blog/announcing-dual-write-preview/)
-When dual write is enabled, a solution is imported into field service that adds fields to allow a synchronization Field Service and Supply Chain Management
+The integration is made possible because Field Service is built on top of the Common Data Service and [Dual Write](https://powerapps.microsoft.com/en-us/blog/announcing-dual-write-preview/) that writes changes in Dynamics 365 Finance and Operations to the Common Data Service and vice versa.
 
-updating fields will be kpet in sync
+After dual write is enabled, a solution is imported into Field Service that adds the required fields to make the entities in each system integratable. 
 
-
-Creating a warehouse in field service creates a record in Common Data Service and [dual write](https://docs.microsoft.com/en-us/business-applications-release-notes/april19/cdm-data-integration/dual-write-link-common-data-service-apps) connects Supply Chain management to Common Data Service
-
-respect business logic 
-
+As an example, in Field Service you will see new fields added to the warehouse entity that are required in Supply Chain Management.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inventory-warehouse-supply-chain1.png)
@@ -74,6 +69,14 @@ respect business logic
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inventory-warehouse-supply-chain2.png)
+
+When a warehouse record is created or updated in either system, the change will show in the other system in near real time.
+
+Furthermore, business logic and validations in either system is respected in the other system. As an example, imagine a warehouse cannot not be created in Supply Chain Management
+respect business logic 
+
+
+
 
 
 
