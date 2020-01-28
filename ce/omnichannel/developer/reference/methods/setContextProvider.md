@@ -64,7 +64,7 @@ The `isDisplayable` attribute, if set to `true`, will display the passed items w
 
 ### Pass customer's self service as context
 
-You can pass a customer's self service as context at the start of a conversation with that customer.
+You can pass a customer's self service as context at the start of a conversation with that customer. The `setContextProvider` method passes the recent customer actions as part of context with self service type, for a new conversation between the customer and agent. A visitor journey record is created for each self service action.
 
 Given below is the sample code that shows how to use the `setContextProvider` method for this.
 
