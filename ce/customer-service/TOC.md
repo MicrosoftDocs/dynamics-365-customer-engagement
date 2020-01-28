@@ -118,6 +118,9 @@
 ## Customize
 ### [Create and design forms](create-design-forms-customer-service-hub.md)
 ### [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
+
+### [Add a site to an existing entity](add-a-site-existing-entity.md)
+
 ### [Understand Knowledge Base search mechanisms](knowledge-base-search-methods.md)
 ### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
 ### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
