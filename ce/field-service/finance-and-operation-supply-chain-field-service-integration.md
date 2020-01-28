@@ -70,17 +70,11 @@ As an example, in Field Service you will see new fields added to the warehouse e
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inventory-warehouse-supply-chain2.png)
 
-When a warehouse record is created or updated in either system, the change will show in the other system in near real time.
+When a warehouse record is created or updated in either system, the change will show in the other system in near real-time.
 
-Furthermore, business logic and validations in either system is respected in the other system. As an example, imagine a warehouse cannot not be created in Supply Chain Management
-respect business logic 
-
+Furthermore, business logic and validations in either system is respected in the other system. As an example, imagine a warehouse cannot not be created in Supply Chain Management without a specific field value. When a user attempts to create the warehouse in Field Service, an error will appear based on the validation logic in Supply Chain Management.
 
 
-
-
-
-## Configuration considerations
 ## Additional Notes
 
 this is better than the [prospect to cash](https://docs.microsoft.com/en-us/dynamics365/supply-chain/sales-marketing/prospect-to-cash) data integrator which is one direction, batch, asynchronous and doesnt respect rules
