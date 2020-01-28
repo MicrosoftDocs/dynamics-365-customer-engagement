@@ -107,6 +107,7 @@
 #### Productivity tools
 ##### [Agent scripts](agent/agent-oc/oc-agent-scripts.md)
 ##### [Smart assist](agent/agent-oc/oc-smart-assist.md)
+##### [Productivity pane](agent/agent-oc/oc-productivity-pane.md)
 #### [View agent dashboard and conversations (work items)](agent/agent-oc/oc-agent-dashboard.md)
 #### [Create a record](agent/agent-oc/oc-create-record.md)
 #### [Search, link, and unlink a record](agent/agent-oc/oc-search-link-unlink-record.md)
