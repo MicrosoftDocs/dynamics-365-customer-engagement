@@ -128,6 +128,8 @@ After you've created the agent script, you need to enable the productivity pane 
 >
 > - If you don't remove the agent script control, agents will see the agent script control in the form and also in the productivity pane.<!--note from editor: And this is a bad thing, I assume? If so, I have no more questions, but if this isn't what you mean, I think it would be good to be more explicit about what you're asking the reader to be careful not to do.-->
 
+<a name="set-default-agent-script-for-agents"></a>
+
 ## Set the default agent script for agents
 
 As an administrator, you can set different default agent scripts for agents who handle different services, customers, or products. You need a way to show these agents a script that's appropriate for the context of the conversation between them and the customer. With the agent script expression builder, you can define the conditions that define which script an agent is shown by default in Omnichannel for Customer Service.
