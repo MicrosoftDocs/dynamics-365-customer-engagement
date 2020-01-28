@@ -25,63 +25,42 @@ search.app:
 
 
 # Project Service Automation V3, Update Release 12
+We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365. This release includes some important improvements to quality, performance, and usability.
+This release is compatible with Dynamics 365 9.x. To update to this release, visit the Admin Center for Dynamics 365 online, solutions page to install the update. For details, refer How to Install, Update a Preferred Solution
+
 
 This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 12. This version has a build number of V3.10.2.34 and is available on the following schedule:
 
-- **Preview release:** February 2020
-- **General availability (self-update):** March 2020
-- **Auto-update:** April 2020
-
-## Features included in this release
-
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
-
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
-
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
-
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
-
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
-
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
-
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
-
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
-
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
-
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
-
-## Additional resources
-
-### Update Release 12 bug fixes
-
-For information about the bug fixes that are included in each update that is part of Update Release 12, go to....
+- **General availability (self-update):** October 2019
 
 
-### Removed and deprecated features
+## Update Release 12 bug fixes
 
-The Removed or deprecated features topic describes features that have been removed or deprecated.
+  -   Time and Expense
 
-- A *removed* feature is no longer available in the product.
-- A *deprecated* feature isn't in active development and might be removed in a future update.
+        -   Fixed: Search functionality on expense Approval page does not work
+            when searching by expense purpose.
+
+  -   Resource Management
+
+      -   Fixed: Numbers in the reconciliation have been updated to be right
+          justified.
+
+      -   Fixed: Named Resources cannot be assigned to tasks through the
+          Schedule tab.
+
+  -   Project Management
+
+      -   Fixed: Null reference exception when assigning team member when
+          TransactionType missing setup for Unit and DefaultGroup.
+
+  -   Sales
+
+      -   Fixed: Duplicate Transaction Type records leads to non-graceful
+          failure during creation of Role Price records.
+
+      -   Fixed: Extra buttons(New Opportunity/Quote/Order Line, Add Product)
+          are visible in more commands for Opportunity/Quote/Order Product and
+          project-based Lines Sub Grid.
 
 
-For breaking changes that affect only compilation time, but that are binary-compatible with sandbox and production environments, the deprecation time will be less than 12 months. Typically, these changes are functional updates that must be made to the compiler.
