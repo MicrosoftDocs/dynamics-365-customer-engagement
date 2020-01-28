@@ -25,7 +25,7 @@ search.app:
 
 # Project Service Automation V3, Update Release 15
 
-We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application. This release includes some important improvements to quality, performance, and usability. This release is compatible with Dynamics 365 9.x. To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update. For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/en-us/power-platform/admin/install-remove-preferred-solution).
+We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application. This release includes some important improvements to quality, performance, and usability. This release is compatible with Dynamics 365 9.x. To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update. For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 This topic lists the features and fixes that are new or changed for PSA V3, Update Release 15. This version has a build number of V3.10.5.28 and is generally available through a self-update in January 2020.
 
@@ -47,7 +47,7 @@ This topic lists the features and fixes that are new or changed for PSA V3, Upda
 - Project Management
 
   - Fixed: The drop-down menu for **Use in Tracking View** now expands based on the width of the options.
-  - Fixed: +13 time zone project tasks shifts when created.
+  - Fixed: When managing projects in the +13 time zone, tasks calculations can display inaccurate results.
   - Fixed: **Team Member End Time** has been corrected when using a 24-hour calendar.
   - Fixed: Re-activated the **BPF** in **msdyn_project** main form.
   - Fixed: Assignments calculation no longer ignores one day.
