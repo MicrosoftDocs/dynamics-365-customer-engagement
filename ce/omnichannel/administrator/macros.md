@@ -251,6 +251,9 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     | Open an email form with predefined template | Open email |
     | Resolve a case | Resolve case |
 
+   > [!div class=mx-imgBorder] 
+   > ![Macro actions](../media/macro-actions.png "Macro actions")    
+
    For example, select **Open a new form to create a record**, and the step appears. To learn more, see [Productivity automation](#productivity-automation).
 
    If you select **Session connector**, you'll see the following actions.
@@ -261,6 +264,9 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     | Focus on a particular application tab from another application tab| Focus tab |
     | Get the details of the current application tab | Get current tab |
 
+   > [!div class=mx-imgBorder] 
+   > ![Macro actions](../media/macro-session-connector.png "Macro actions")    
+
    To learn more, see [Session connector](#session-connector).
 
    If you select **Omnichannel connector**, you'll see the following actions.
@@ -269,6 +275,9 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     |-----------------------------|---------------------------------------------|
     | Link a record to the conversation while interacting with the customer | Link record to the conversation |
     | Unlink a record from the conversation while interacting with the customer | Unlink record from the conversation |
+
+   > [!div class=mx-imgBorder] 
+   > ![Macro actions](../media/macro-omnichannel-connector.png "Macro actions") 
 
    To learn more, see [Omnichannel connector](#omnichannel-connector).
 
