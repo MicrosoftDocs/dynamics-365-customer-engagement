@@ -14,7 +14,8 @@
 ### Customer Service Hub
 #### [Introduction to Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
-#### [Work with cases](customer-service-hub-user-guide-create-a-case.md)
+
+#### Work with cases
 ##### [Create a case](customer-service-hub-user-guide-create-a-case.md)
 ##### [Merge cases](customer-service-hub-user-guide-merge-cases.md)
 ##### [Create and manage parent and child cases](customer-service-hub-user-guide-create-and-manage-parent-and-child-cases.md)
