@@ -14,7 +14,7 @@ ms.topic: article
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 ## Overview
-<!--note from editor: It can be "the Omnichannel for Customer Service app" - note that has to have "the" and "app" - or better, simply "Omnichannel for Customer Service."-->
+
 In Omnichannel for Customer Service, agents can search for details in transcripts. To enable agents to search in transcripts, you as a system customizer need to configure relevance search for the Note entity.
 
 ## Prerequisites
@@ -31,7 +31,7 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 
 1. Sign in to Common Data Service.
 
-2. Select **Settings** > **Customizations** > **Customize the System**<!--note from editor: Edit okay? It was **Design customization the System**-->. The **Solution: Default Solution - Microsoft Dynamics 365** window appears.
+2. Select **Settings** > **Customizations** > **Customize the System**. The **Solution: Default Solution - Microsoft Dynamics 365** window appears.
 
 3. Under **Components**, select **Entities**.
 
@@ -54,7 +54,7 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 
 2. Select **More Options** (...) in the **Omnichannel for Customer Service** app tile, and then select **OPEN IN APP DESIGNER**. The **App Designer** opens in a new browser tab.
 
-3. On the **Components** tab, under **ARTIFACTS**, select **Entities**.<!--note from editor: why does this need the phrase "in the right pane"? Haven't readers already been directed to the place they need to be?-->
+3. On the **Components** tab, under **ARTIFACTS**, select **Entities**.
 
     > [!div class=mx-imgBorder]
     > ![Select entities](../media/app-designer-entities.png "Select entities") 

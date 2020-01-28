@@ -23,7 +23,7 @@ You can search for records in two ways:
 
 ## Search for records by using the inline search option
 
-When you accept an incoming conversation request and there's no customer record identified in Omnichannel for Customer Service, use the inline search option in the customer (**Contact** or **Account**) <!--note from editor: Now I see that this section doesn't actually have a name until either a contact or account is selected. I'll change the Customer Summary topics to match.-->section and **Case** section to search for a contact or account and case, respectively. Inline search is based on the Lookup View and Quick Find View. You can search the fields (attributes) that are included in the Lookup View and Quick Find View fields.
+When you accept an incoming conversation request and there's no customer record identified in Omnichannel for Customer Service, use the inline search option in the customer (**Contact** or **Account**) section and **Case** section to search for a contact or account and case, respectively. Inline search is based on the Lookup View and Quick Find View. You can search the fields (attributes) that are included in the Lookup View and Quick Find View fields.
 
 For the customer (**Contact** or **Account**) section, you can search for a Contact or Account entity. By default, you can search by using the following fields.
 
@@ -46,17 +46,17 @@ Only active views are displayed for the search results. You can customize the Qu
 > [!div class=mx-imgBorder]
 > ![Customer and Case sections are blank when there are no records](../../media/agent-inline-search-no-record.PNG "Customer and Case sections are blank when there are no records")
 
-During an inline search, the search results are displayed and you can select a record to link the conversation to the selected record. <!--note from editor: Do you need to explain how to link the record by going to the communication panel, as you do when you describe relevance search?-->After you link the record, the **Customer summary** page is updated with the details.
+During an inline search, the search results are displayed and you can select a record to link the conversation to the selected record. After you link the record, the **Customer summary** page is updated with the details.
 
 > [!div class=mx-imgBorder]
 > ![The Customer summary page is updated with details from the linked record](../../media/agent-inline-search-link.PNG "The Customer summary page is updated with details from the linked record")
 
-> [!Note]
+> [!NOTE]
 > You can link only one contact or account in the customer (**Contact** or **Account**) section and one case in the **Case** section.
 
 ## Search for records by using relevance search
 
-You can also search for records by using the relevance search option. When you select the search icon, the search page opens in the application management toolbar<!--note from editor: How is the "application management toolbar" different from the "Application tab" referred to in the next section? It doesn't look like these area actually UI labels, so it's good that they aren't formatted bold here, but I hope we're using consistent terminology for these areas of the UI.-->. Specify the details for your search, and then select the search icon. The results appear in a list.
+You can also search for records by using the relevance search option. When you select the search icon, the search page opens in the application tab. Specify the details for your search, and then select the search icon. The results appear in a list.
 
 You can search for a case, account, contact, and associated fields as enabled by your administrator.
 
@@ -64,8 +64,7 @@ You can search for a case, account, contact, and associated fields as enabled by
 
 2. In the search box, specify the entity or attribute details based on your search requirements, and then select **Search** ![Relevance Search icon](../../media/oceh-oc-search-icon.png "Relevance Search icon").
 
-<!--note from editor: I don't see Mae Gibbs in our list of approved names. Did that name come from sample data?-->
- ![Search for a case record by using relevance search](../../media/oceh-oc-search-record-case.png "Search for a case record by using relevance search")
+![Search for a case record by using relevance search](../../media/oceh-oc-search-record-case.png "Search for a case record by using relevance search")
 
 ## Link a record to the conversation when doing relevance search
 
@@ -74,7 +73,7 @@ After you search for a record by using relevance search, you can link the record
 > [!Note]
 > You can link only one record to a conversation.
 
-1. Select the record from the list of search results. The record opens in the application tab.<!--note from editor: Please see note above about the name of this UI element.-->
+1. Select the record from the list of search results. The record opens in the application tab.
 
 2. Select **More options** (...) in the communication panel, and then select **Link to conversation**.
 
@@ -83,7 +82,7 @@ After you search for a record by using relevance search, you can link the record
 
 Now, the **Customer summary** page is refreshed and updated with details from the record. Similarly, you can link other record types.
 
-> [!Note]
+> [!NOTE]
 > You can link only one contact or account in the customer (**Contact** or **Account**) section and one case in the **Case** section.
 
 ## Unlink a record from the conversation
