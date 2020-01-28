@@ -77,5 +77,5 @@ Here are some important things to know about your Kanban view:
 
 ### See also
 
+[Add the Kanban control entity](add-kanban-control.md)  
 [Create or edit opportunities](create-edit-opportunity-sales.md)  
-[Add the Kanban control entity](add-kanban-control.md)
