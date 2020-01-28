@@ -252,7 +252,6 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
 [Sample: Authenticate Users with Dynamics 365 Customer Engagement Web Services](sample-authenticate-users-web-services.md)<br />
 [Sample: Execute Multiple Requests](org-service/sample-execute-multiple-requests.md)<br />
 [Sample: Execute multiple requests in transaction](org-service/sample-execute-multiple-requests-transaction.md)<br />
-[Helper Code: ServerConnection Class](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/samples-from-msdn/HelperCode/CrmServiceHelpers.cs)<br />
 [Helper Code: SystemUserProvider class](org-service/helper-code-systemuserprovider-class.md)<br />
 [Sample: Impersonation using the ActOnBehalfOf privilege](org-service/sample-impersonate-actonbehalfof-privilege.md)<br />
 [Sample: Quick Start for Dynamics 365 Customer Engagement (on-premises)](sample-quick-start.md)<br />
@@ -325,10 +324,10 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
 ## Reports  
 
 
-[Sample: Download Report Definition](https://msdn.microsoft.com/library/gg328306.aspx)<br />
-[Sample: Get Report History Limit](Shttps://msdn.microsoft.com/library/gg328398.aspx)<br />
-[Sample: Make a Report Available or Unavailable to Organization](https://msdn.microsoft.com/library/hh210211.aspx)<br />
-[Sample: Publish a Report](https://msdn.microsoft.com/library/gg309505.aspx)<br />
+[Sample: Download Report Definition](sample-download-report-definition.md)<br />
+[Sample: Get Report History Limit](sample-get-report-hitory-limit.md)<br />
+[Sample: Make a Report Available or Unavailable to Organization](sample-make-report-available-unavailable-organization.md)<br />
+[Sample: Publish a Report](sample-publish-report.md)<br />
   
 ## Sales: Leads, opportunities, quotes, orders, invoices, connections  
 
