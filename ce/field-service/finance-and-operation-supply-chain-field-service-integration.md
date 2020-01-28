@@ -28,6 +28,8 @@ search.app:
 
 # Integrate Field Service and Finance & Operations Supply Chain Management
 
+Though Dynamics 365 Field Service includes basic [inventory capbilities](./inventory-purchasing-returns-overview.md), many field service organizations integrate with Enterprise Resource Planning (ERP) systems to manage product inventory and pricing for their. Organizations using Dynamics 365 Field Service can use 
+
 Customers often need support for both supply chain management and field service scenarios as part of their Dynamics 365 deployment. They need these two solutions to work well together, which we support by integrating Dynamics 365 Field Service with Dynamics 365 Supply Chain Management. Leveraging the common data model and common data service in Dynamics 365, you can use Supply Chain Management features including warehouse, payment type, and shipment method.
 
 This is only the first step in Field Service and Supply Chain Management integration. Further integration will be developed over time.
@@ -45,13 +47,14 @@ As of today, 4 entities are integrated between Field Service and Supply Chain Ma
 
 same table with no dupicate data
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inventory-warehouse-supply-chain1.png)
+## Why is it useful
 
 
+When creating a work order for repair or maintenance on a customer asset, dispatchers can know they are looking at the full list of managed assets between both systems.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inventory-warehouse-supply-chain2.png)
+Furthermore this empowers technicians with a complete list of nearby warehouses.
+
+
 
 ## Prerequisites
 > [!Note]
@@ -71,12 +74,16 @@ Creating a warehouse in field service creates a record in Common Data Service an
 
 respect business logic 
 
-## Why is it useful
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inventory-warehouse-supply-chain1.png)
 
 
-When creating a work order for repair or maintenance on a customer asset, dispatchers can know they are looking at the full list of managed assets between both systems.
 
-Furthermore this empowers technicians with a complete list of nearby warehouses.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inventory-warehouse-supply-chain2.png)
+
+
 
 
 
@@ -88,5 +95,12 @@ this is better than the [prospect to cash](https://docs.microsoft.com/en-us/dyna
 asynchronous and batch exists today and this is a more robusy version of prospect to cash
 
 can integrate to common tables in CDS (Warehouse, Customer Asset, Account, etc) even without field service
+
+
+## See also
+
+inventory
+customer assets
+pricing
 
 
