@@ -1,6 +1,7 @@
 # [Dynamics 365 Customer Service](help-hub.md)
 ## [Overview](overview.md)
 ## [What's new](whats-new-customer-service.md)
+## [Availability of Customer Service Hub](availability-customer-service-hub.md)
 ## [Learning Catalog](learning-catalog.md)
 ### [Business Decision Maker](learning-bdm.md)
 ### [Business User](learning-bus-user.md)
