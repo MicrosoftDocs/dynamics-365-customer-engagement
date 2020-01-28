@@ -31,7 +31,7 @@ This release is compatible with Dynamics 365 9.x. To update to this release, vis
 This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 13. This version has a build number of V3.10.3.18 and is available on the following schedule:
 
 - **General availability (self-update):** November 2019
-- **Auto-update:** December 2020
+- **Auto-update:** December 2019
 
 
 ## Update Release 13 bug fixes
