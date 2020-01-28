@@ -30,7 +30,7 @@ search.app:
 
 While Dynamics 365 Field Service includes basic [inventory capbilities](./inventory-purchasing-returns-overview.md) for managing technician truck stock, tracking asset service history, requesting purchase orders, and documenting returns; many field service organizations still integrate Field Service with their Enterprise Resource Planning (ERP) system. Organizations utilizing the Microsoft Dynamics 365 stack will find it exceptionally easy to integrate Dynamics 365 Field Service and Finance & Operations [Supply Chain Management](https://docs.microsoft.com/en-us/dynamics365/supply-chain/) systems. 
 
-Leveraging the common data model and common data service in Dynamics 365, you can set up a synchronous two-way integration for the following 4 entities, with more entities being added over time: 
+Leveraging the common data model and common data service in Dynamics 365, you can set up a synchronous two-way integration for the following 4 entities, with more entities planned: 
 
 4 entities are integrated between Field Service and Supply Chain Management with more expected:
 
@@ -39,12 +39,10 @@ Leveraging the common data model and common data service in Dynamics 365, you ca
 - Payment Terms
 - Ship Via
 
-## Why is it useful
+This first round of integrtion is particularly important for two key scenarios:
 
-
-When creating a work order for repair or maintenance on a customer asset, dispatchers can know they are looking at the full list of managed assets between both systems.
-
-Furthermore this empowers technicians with a complete list of nearby warehouses.
+1. **Asset management** - When creating a work order for repair or maintenance on a customer asset, the integration will allow dispatchers to pick from a full list of customer assets regardless of which system it was created in.
+2. **Warehouses** - Integration empowers technicians with a complete list of nearby warehouses and relevant details.
 
 
 
