@@ -28,7 +28,7 @@ search.app:
 
 # Integrate Field Service and Finance & Operations Supply Chain Management
 
-Though Dynamics 365 Field Service includes basic [inventory capbilities](./inventory-purchasing-returns-overview.md), many field service organizations integrate with Enterprise Resource Planning (ERP) systems to manage product inventory and pricing for their. Organizations using Dynamics 365 Field Service can use 
+While Dynamics 365 Field Service includes basic [inventory capbilities](./inventory-purchasing-returns-overview.md) for managing technician truck stock, tracking asset service history, requesting purchase orders, and documenting returns; many field service organizations still integrate with their Enterprise Resource Planning (ERP) systems. Organizations utilizing the Microsoft Dynamics 365 stack will find it exceptionally easy to integrate Dynamics 365 Field Service and Finance & Operations Supply Chain Management systems. 
 
 Customers often need support for both supply chain management and field service scenarios as part of their Dynamics 365 deployment. They need these two solutions to work well together, which we support by integrating Dynamics 365 Field Service with Dynamics 365 Supply Chain Management. Leveraging the common data model and common data service in Dynamics 365, you can use Supply Chain Management features including warehouse, payment type, and shipment method.
 
