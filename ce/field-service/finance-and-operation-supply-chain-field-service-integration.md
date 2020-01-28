@@ -26,7 +26,7 @@ search.app:
   - D365FS
 ---
 
-# Integrate Field Service and Finance & Operations Supply Chain Management
+# Integrate Field Service and Supply Chain Management
 
 While Dynamics 365 Field Service includes basic [inventory capbilities](./inventory-purchasing-returns-overview.md) for managing technician truck stock, tracking asset service history, requesting purchase orders, and documenting returns; many field service organizations still integrate Field Service with their Enterprise Resource Planning (ERP) system. Organizations utilizing the Microsoft Dynamics 365 stack will find it exceptionally easy to integrate Dynamics 365 Field Service and Finance & Operations [Supply Chain Management](https://docs.microsoft.com/en-us/dynamics365/supply-chain/) systems. 
 
@@ -72,23 +72,21 @@ As an example, in Field Service you will see new fields added to the warehouse e
 
 When a warehouse record is created or updated in either system, the change will show in the other system in near real-time.
 
-Furthermore, business logic and validations in either system is respected in the other system. As an example, imagine a warehouse cannot not be created in Supply Chain Management without a specific field value. When a user attempts to create the warehouse in Field Service, an error will appear based on the validation logic in Supply Chain Management.
+Furthermore, business rules and validations in either system is respected in the other system. As an example, imagine a warehouse cannot not be created in Supply Chain Management without a specific field value. When a user attempts to create the warehouse in Field Service, an error will appear based on the validation logic in Supply Chain Management.
 
 
 ## Additional Notes
 
-this is better than the [prospect to cash](https://docs.microsoft.com/en-us/dynamics365/supply-chain/sales-marketing/prospect-to-cash) data integrator which is one direction, batch, asynchronous and doesnt respect rules
+Dual write allows organizations to integrate Supply Chain Management with the Common Data Service even without Field Service. 
 
-asynchronous and batch exists today and this is a more robusy version of prospect to cash
-
-can integrate to common tables in CDS (Warehouse, Customer Asset, Account, etc) even without field service
-
-same table with no dupicate data
+The Dual Write integration described in this article is separate and more robust than the previosuly released [Prospect to Cash](https://docs.microsoft.com/en-us/dynamics365/supply-chain/sales-marketing/prospect-to-cash) data integrator that is one-direction, batch, asynchronous, and does not respect business rules and validations. 
 
 ## See also
 
-inventory https://docs.microsoft.com/en-us/dynamics365/field-service/inventory-purchasing-returns-overview
-customer assets https://docs.microsoft.com/en-us/dynamics365/field-service/configure-set-up-customer-assets
-pricing https://docs.microsoft.com/en-us/dynamics365/field-service/create-price-list 
+[Overview of Field Service inventory capabilities](https://docs.microsoft.com/en-us/dynamics365/field-service/inventory-purchasing-returns-overview)
+
+[Customer assets](https://docs.microsoft.com/en-us/dynamics365/field-service/configure-set-up-customer-assets)
+
+[Pricing](https://docs.microsoft.com/en-us/dynamics365/field-service/create-price-list) 
 
 
