@@ -55,7 +55,7 @@ To learn more, see [Types of context data parameter](#types-of-context-data-para
 The automation dictionary uses the context data parameters that are available from the following sources:
 
 - [Context data from the channel provider](#context-data-from-the-channel-provider)
-- [Context data from the user actions](#context-data-from-the-user-actions)
+- [Context data from user actions](#context-data-from-user-actions)
 - [Context data from Common Data Service](#context-data-from-common-data-service)
 - [Context data from other macro actions](#context-data-from-other-macro-actions)
 
@@ -66,7 +66,7 @@ The automation dictionary uses the context data parameters that are available fr
 
 This context data is from the first-party channel provider such as Omnichannel for Customer Service or a third-party channel provider that uses the widget exposed by Dynamics 365 Channel Integration Framework. The context data from Omnichannel for Customer Service are pre-chat survey, visitor portal navigation, and so on.
 
-### Context data from user actions 
+### Context data from user actions
 
 This data is populated as and when agents perform some activities in the session. An example is opening a new customer record, case, and so on.
 

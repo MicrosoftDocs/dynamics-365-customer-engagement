@@ -44,9 +44,9 @@ Agent scripts reduce the human errors involved in the process, because agents kn
 
 [Step 1: Create agent scripts](#step-1-create-agent-scripts)
 
-[Step 2: Associate an agent script with a session template](#step-2-associate-agent-script-with-session-template)
+[Step 2: Associate an agent script with a session template](#step-2-associate-an-agent-script-with-a-session-template)
 
-[Step 3: Enable the productivity pane](#step-3-enable-productivity-pane)
+[Step 3: Enable the productivity pane](#step-3-enable-the-productivity-pane)
 
 ## Step 1: Create agent scripts
 <!--note from editor: I know the edits in this section go farther than you wanted me to edit, but I wanted to mark up these steps to show you what the Writing Style Guide recommends: We should tell the user where to go before we tell them what to do. "In this place, perform this action."-->
@@ -94,7 +94,7 @@ First, you need to create agent scripts in the Omnichannel Administration app. <
 
 The agent script is now configured.
 
-## Step 2: Associate an agent script with a session template<a name="#step-2-associate-agent-script-with-session-template"></a>
+## Step 2: Associate an agent script with a session template
 
 After you configure the agent script and add the field to a form, you need to associate the agent script with a session template so that the agent script will load for agents based on the type of session they've opened.<!--note from editor: Suggested.-->
 
@@ -117,7 +117,7 @@ After you configure the agent script and add the field to a form, you need to as
 
 The agent script is associated with the session template.
 
-## Step 3: Enable the productivity pane<a name="#step-3-enable-productivity-pane"></a>
+## Step 3: Enable the productivity pane
 
 After you've created the agent script, you need to enable the productivity pane to display the script to agents in Omnichannel for Customer Service. For more information, see [Enable the productivity pane to provide guidance to agents](productivity-pane.md).
 
@@ -151,7 +151,7 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
 
 5. Select the **Condition** step, and then create the condition.
 
-6. In the **If true** step, select **Add an action**. The **Condition** step is displayed. To learn about conditions, see [Use the automation dictionary to pass macro context data parameters](#use-automation-dictionary-to-pass-context-data-parameters).
+6. In the **If true** step, select **Add an action**. The **Condition** step is displayed. To learn about conditions, see [Use the automation dictionary to pass context data parameters](#use-the-automation-dictionary-to-pass-context-data-parameters).
 
 7. Select the **Customer Service** tab, and then select **Set default agent script**.
 

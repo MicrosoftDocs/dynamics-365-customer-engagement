@@ -48,7 +48,7 @@ Macros are like reusable components where you can use the same macro with differ
 
 In Omnichannel for Customer Service, macros provide three connectors:
 
-- [Productivity automation](#productivity-utomation): Provides actions to perform model-driven app operations.
+- [Productivity automation](#productivity-automation): Provides actions to perform model-driven app operations.
 
 - [Session connector](#session-connector): Provides actions to perform session-related operations.
 
