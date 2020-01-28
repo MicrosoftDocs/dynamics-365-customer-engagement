@@ -46,13 +46,11 @@ After you've created the agent script or smart-assist card, you need to enable t
     > ![Enable the productivity pane](../media/productivity-pane-enable.png "Enable the productivity pane")
 
 After you've enabled the productivity pane, users can see the agent scripts and smart-assist cards on the productivity pane in Omnichannel for Customer Service.
-<!--note from editor: The edits to the following note are duplicated from agent-scripts.md, except here I added references to smart-assist cards as well. I hope that is okay.-->
+
 > [!Note]
 > - If you don't create agent scripts or smart-assist cards and you enable the productivity pane, users won't see the pane in Omnichannel for Customer Service. 
 >
-> - We recommend that you remove the agent script control or smart-assist control if you've customized a form to add the agent script field or smart-assist field.<!--note from editor: (Duplicated from agent-scripts.md) Please check this edit. I was a confused by the difference between the "agent script/smart-assist control" on the productivity pane and an "agent script/smart-assist field" on a form. I assume that we don't want the script or card to show up in both places, and that's why we're issuing this warning?-->
->
-> - If you don't remove the agent script control or smart-assist control, agents will see the agent script control or smart-assist control in the form, and also in the productivity pane.<!--note from editor: (Duplicated from agent-scripts.md) And this is a bad thing, I assume? If so, I have no more questions, but if this isn't what you mean, I think it would be good to be more explicit about what you're asking the reader to be careful not to do.-->
+> - We recommend that you remove the agent script control or smart-assist control if you've customized a form to add agent script or smart-assist. If you don't remove the agent script control or smart-assist control, agents will see the agent script control or smart-assist control in the form, and also in the productivity pane.
 
 ### See also
 

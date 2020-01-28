@@ -16,7 +16,7 @@ ms.topic: article
 
 ## Overview of agent scripts
 
-In the customer service industry, agents need to deal with continuous updates both to products and processes. Even after agents have been rigorously trained, recurrent human errors and delays in service delivery occur due to a lack of guidance in real-time customer scenarios. These issues lead to lower productivity and thus <!--note from editor: Style guide wants "impact" only as a noun, never a verb.-->negatively affect customer satisfaction levels. To avoid errors and ensure that processes are adhered to, agents need guidance.
+In the customer service industry, agents need to deal with continuous updates both to products and processes. Even after agents have been rigorously trained, recurrent human errors and delays in service delivery occur due to a lack of guidance in real-time customer scenarios. These issues lead to lower productivity and thus negatively affect customer satisfaction levels. To avoid errors and ensure that processes are adhered to, agents need guidance.
 
 Agent scripts provide guidance to agents about what to do when they get a customer issue. The scripts ensure that only accurate, company-endorsed information is being shared, while also safeguarding the organization in regard to issues of legal compliance. Agent scripts help organizations to be unified, accurate, and effective while also being faster and more efficient in terms of customer handling.
 
@@ -49,8 +49,8 @@ Agent scripts reduce the human errors involved in the process, because agents kn
 [Step 3: Enable the productivity pane](#step-3-enable-the-productivity-pane)
 
 ## Step 1: Create agent scripts
-<!--note from editor: I know the edits in this section go farther than you wanted me to edit, but I wanted to mark up these steps to show you what the Writing Style Guide recommends: We should tell the user where to go before we tell them what to do. "In this place, perform this action."-->
-First, you need to create agent scripts in the Omnichannel Administration app. <!--note from editor: Maybe it would be good here to say something like "The following procedure creates an example of an agent script for a chat session. You can modify this procedure for other types of sessions your agents are likely to encounter." We don't really say that this is one example of many ways to create an agent script.-->
+
+First, you need to create agent scripts in the Omnichannel Administration app. The following procedure creates an example of an agent script for a chat session. You can modify this procedure for other types of sessions your agents are likely to encounter.
 
 1. Sign in to the Omnichannel Administration app.
 
@@ -124,9 +124,7 @@ After you've created the agent script, you need to enable the productivity pane 
 > [!Note]
 > - If you don't create agent scripts and enable the productivity pane, users won't see the pane in Omnichannel for Customer Service. 
 >
-> - We recommend that you remove the agent script control if you've customized a form by adding an agent script field.<!--note from editor: Please check this edit. I was a confused by the difference between the "agent script control" on the productivity pane and an "agent script field" on a form. I assume that we don't want the script to show up in both places, and that's why we're issuing this warning?-->
->
-> - If you don't remove the agent script control, agents will see the agent script control in the form and also in the productivity pane.<!--note from editor: And this is a bad thing, I assume? If so, I have no more questions, but if this isn't what you mean, I think it would be good to be more explicit about what you're asking the reader to be careful not to do.-->
+> - We recommend that you remove the agent script control if you've customized a form and added agent script. If you don't remove the agent script control, agents will see the agent script control in the form and also in the productivity pane.
 
 <a name="set-default-agent-script-for-agents"></a>
 
@@ -165,7 +163,7 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
     > [!div class=mx-imgBorder] 
     > ![Set default agent script](../media/agent-script-set-default.png "Set default agent script")
 
-9. Follow steps 5 through 8 for the **If false** step.<!--note from editor: Will the reader know what to do here, or should we provide more guidance?-->
+9. Follow steps 5 through 8 for the **If false** step.
 
 10. Select **Save and close** to save the expression and close the builder.
 

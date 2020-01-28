@@ -178,7 +178,7 @@ For example: `${$oc.customerName}`
    > The `Session.CurrentTab.<Attribute>` and `Session.AnchorTab.<Attribute>` parameters are only applicable to macros and aren't applicable to templates.
 
 #### Slugs for templates
-<!--note from editor: Can this section somehow be combined with the "Slugs for productivity tools" section, or would that be too complicated?-->
+
 A *slug* is a replacement parameter that the system populates at runtime based on context. The list of supported slugs are:
 
 | Slug | Description |

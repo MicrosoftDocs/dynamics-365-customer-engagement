@@ -112,7 +112,7 @@ This action is used for searching knowledge articles based on the populated phra
 
 #### Save the record
 
-This action is used for saving the record after you've entered data in all the mandatory fields. The action fails if the mandatory fields <!--note from editor: Should we delete "are entered"? I don't understand what this is saying--> are entered or left blank.
+This action is used for saving the record after you've entered data in all the mandatory fields. The action fails if the mandatory fields aren't entered or left blank.
 
 #### Update an existing record
 
@@ -138,7 +138,6 @@ This action is used to open an email with a predefined template. This action con
 
 #### Resolve a case
 
-<!--note from editor: Edit okay?-->
 This action is used to resolve a case. This action contains the following fields.
 
    | Field | Description | Parameter |
@@ -172,7 +171,7 @@ This action is used to focus on a tab in the Omnichannel for Customer Service se
 
 #### Get current page
 
-This action is used to get the details of the current page in Omnichannel for Customer Service. This action contains the following fields.<!--note from editor: TABLE IS MISSING-->
+This action is used to get the details of the current page in Omnichannel for Customer Service.
 
 ### Omnichannel connector
 

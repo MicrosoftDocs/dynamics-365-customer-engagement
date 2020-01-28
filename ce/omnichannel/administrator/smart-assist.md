@@ -22,7 +22,7 @@ As agents become more efficient and productive, the cost of operating the call c
 
 Smart assist is an intelligent assistant that provides real-time recommendations to agents, helping them to take actions while interacting with customers. It allows organizations to build a custom bot and plug-in to their environment. These custom bots interpret conversations in real time and provide relevant recommendations such as knowledge articles, similar cases, and next-best steps to the agent's user interface. The recommendations are shown to the agents by using Microsoft Adaptive cards.
 
-The smart assist feature can be enabled across all channels like Chat for Dynamics 365 Customer Service, SMS, and Facebook<!--note from editor: I'm deleting "except entity records" because I don't think it belongs here?--><!--except entity records-->, making it a consistent experience for agents.
+The smart assist feature can be enabled across all channels like Chat for Dynamics 365 Customer Service, SMS, and Facebook (excluding Entity Records Channel), making it a consistent experience for agents.
 
 ## Value proposition
 
@@ -100,13 +100,11 @@ After you've created the agent script, you need to enable the productivity pane 
 To enable the productivity pane, see [Enable the productivity pane to provide guidance to agents](productivity-pane.md).
 
 After you've enabled the productivity pane, users can see the smart-assist cards on the productivity pane in Omnichannel for Customer Service.
-<!--note from editor: Please see agent-scripts.md for queries around this note.-->
+
 > [!Note]
 > - If you don't create smart-assist cards and enable the productivity pane, users won't see the pane in Omnichannel for Customer Service. 
 >
-> - We recommend that you remove the smart-assist control if you've customized a form to add the smart-assist field.
->
-> - If you don't remove the smart-assist control, agents will see the smart-assist control in the form and also in the productivity pane.
+> - We recommend that you remove the smart-assist control if you've customized a form to add smart-assist. If you don't remove the smart-assist control, agents will see the smart-assist control in the form and also in the productivity pane.
 
 ### See also
 
