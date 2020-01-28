@@ -30,6 +30,8 @@ search.app:
 
 While Dynamics 365 Field Service includes basic [inventory capbilities](./inventory-purchasing-returns-overview.md) for managing technician truck stock, tracking asset service history, requesting purchase orders, and documenting returns; many field service organizations still integrate Field Service with their Enterprise Resource Planning (ERP) system. Organizations utilizing the Microsoft Dynamics 365 stack will find it exceptionally easy to integrate Dynamics 365 Field Service and Finance & Operations [Supply Chain Management](https://docs.microsoft.com/en-us/dynamics365/supply-chain/) systems. 
 
+## Introduction
+
 Leveraging the common data model and common data service in Dynamics 365, you can set up a synchronous two-way integration for the following 4 entities, with more entities planned: 
 
 4 entities are integrated between Field Service and Supply Chain Management with more expected:
@@ -39,22 +41,22 @@ Leveraging the common data model and common data service in Dynamics 365, you ca
 - Payment Terms
 - Ship Via
 
-This first round of integrtion is particularly important for two key scenarios:
+This first round of integration development is particularly important for two key scenarios:
 
 1. **Asset management** - When creating a work order for repair or maintenance on a customer asset, the integration will allow dispatchers to pick from a full list of customer assets regardless of which system it was created in.
-2. **Warehouses** - Integration empowers technicians with a complete list of nearby warehouses and relevant details.
-
-
+2. **Nearby warehouses** - Integration empowers technicians with a complete list of nearby warehouses and relevant details.
 
 ## Prerequisites
-> [!Note]
->
-only need one license, few people will have licenses to both. only need a license for the interface that you are accessing
 
-Public preview 
+This feature is available as an early access public preview https://docs.microsoft.com/en-us/power-platform/admin/opt-in-early-access-updates 
+
+
+To view integrated data, a user only needs the required license and security for one system. Only few IT administrators will need access to both systems - Field Service and Supply Chain Management. In other words, users only need a license for the interface they are accessing the data in.
+
 
 ## How does it work?
 
+The real-time, two-way synchronous integration is made possible with [Dual Write](https://powerapps.microsoft.com/en-us/blog/announcing-dual-write-preview/)
 When dual write is enabled, a solution is imported into field service that adds fields to allow a synchronization Field Service and Supply Chain Management
 
 updating fields will be kpet in sync
@@ -75,8 +77,6 @@ respect business logic
 
 
 
-
-
 ## Configuration considerations
 ## Additional Notes
 
@@ -90,8 +90,8 @@ same table with no dupicate data
 
 ## See also
 
-inventory
-customer assets
-pricing
+inventory https://docs.microsoft.com/en-us/dynamics365/field-service/inventory-purchasing-returns-overview
+customer assets https://docs.microsoft.com/en-us/dynamics365/field-service/configure-set-up-customer-assets
+pricing https://docs.microsoft.com/en-us/dynamics365/field-service/create-price-list 
 
 
