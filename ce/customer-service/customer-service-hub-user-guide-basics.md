@@ -284,7 +284,7 @@ You can select the **Enter a note** box in the timeline and specify a title and 
 #### **Identify the activities with icons along with time stamp**
 The timeline shows a simple icon before the activity making it easy for you to identify the type of activity.
 
-Also, you can view the timestamp at all times. Activities that were created or updated today will reflect only the time and created or updated with on other days will reflect the date and time.
+Also, you can view the timestamp at all times. Activities that were created or updated today will reflect only the time and created or updated on other days will reflect the date and time.
 
   ![Timeline activity icons](../customer-service/media/activity-icons.png "Timeline activity icons")
 
@@ -307,7 +307,7 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
   | Activity type | <ul> <li> Appointment </li> <li> Email </li> <li> Phone Call </li> <li> Task</li> <li>Custom activities (as configured by your administrator) </li> </ul> |
   | Activity status | <ul> <li> Active </li> <li> Overdue </li> <li> Closed </li> </ul> |
   | Activity due date (active) | <ul> <li> Next 30 days </li> <li> Next 7 days </li> <li> Next 24 hours </li> <li> Last 24 hours </li> <li> Last 7 days </li> <li> Last 30 days </li> </ul> |
-  | Posts by | <ul> <li> Auto-post </li> <li> Users </li> </ul> |
+  | Posts by | <ul> <li> Auto post </li> <li> Users </li> </ul> |
   | Modified date | <ul> <li> Last 24 hours </li> <li> Last 7 days </li> <li> Last 30 days </li> </ul> |
 
   ![Timeline activity filter](../customer-service/media/timeline-filter2.png "Timeline activity filter") ![Timeline activity filter](../customer-service/media/timeline-filter5.png "Timeline activity filter")
@@ -318,7 +318,7 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
 
 #### **Search for records**
 
-You can easily search for records in the timeline. When you search for a phrase, the timeline searches the title, subject, description and body of the content, and then displays the record to you.
+You can easily search for records in the timeline. When you search for a phrase, the timeline searches the title or subject and description or body of the content, and then displays the record to you.
 
   ![Timeline keyword search](../customer-service/media/timeline-keyword-search.png "Timeline keyword search")
 
