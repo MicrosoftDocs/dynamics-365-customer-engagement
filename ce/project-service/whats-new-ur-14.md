@@ -54,16 +54,16 @@ This topic lists the features and fixes that are new or changed for Project Serv
         -   Fixed: Correct entries - Improved user experience when the user has
             not selected anything to be corrected.
 
-    -   Resource Management
+  -   Resource Management
 
-        -   Fixed: Booking resource multiple times overflows the name of the
-            bookable resource.
+      -   Fixed: Booking resource multiple times overflows the name of the
+          bookable resource.
 
-    -   Sales
+  -   Sales
 
-        -   Fixed: Total sales price is not calculated until the user also
-            inputs a cost price for expense estimates on a project.
+      -   Fixed: Total sales price is not calculated until the user also
+          inputs a cost price for expense estimates on a project.
 
-        -   Fixed: Closing Quote as Won fails if associated Project Contract is
-            not in the Draft state.
+      -   Fixed: Closing Quote as Won fails if associated Project Contract is
+          not in the Draft state.
 
