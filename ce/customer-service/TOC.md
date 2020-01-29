@@ -22,7 +22,7 @@
 #### [Use Customer Service Hub on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)
 #### [Upgrade to Customer Service Hub](upgrade-ish-csh.md)
 #### [Keyboard navigation support](keyboard-navigation-support-customer-service-hub.md)
-
+### [Customer Service Team Member](customer-service-team-member.md)
 ### Customer Service app
 #### [Introduction to Customer Service app](user-guide-customer-service.md)
 #### [Create and manage a case](user-guide-customer-service.md#create-and-manage-a-case)
