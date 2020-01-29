@@ -22,10 +22,10 @@ A Kanban view is available when the Kanban control is added to the Activity enti
 To open the Kanban view:
 
 1. In the site map, select **Activities**.
-2. On the command bar, select the **More commands** icon ![More commands icon](media/more-commands-button.png "More commands icon"), and select **Show As** > **Kanban**.
+2. On the command bar, select the **More commands** icon ![More commands icon](media/more-commands-icon.png "More commands icon"), and select **Show As** > **Kanban**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Show activities in the Kanban view](media/activities-show-as-kanban-view.png "Show activities in the Kanban view") 
+    > ![Show activities in the Kanban view](media/activity-show-as-kanban-view.png "Show activities in the Kanban view") 
 
     The activities are shown in the Kanban view.
 
