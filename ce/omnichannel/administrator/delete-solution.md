@@ -1,10 +1,10 @@
 ---
 title: "Delete Omnichannel solutions | MicrosoftDocs"
-description: "Learn how to delete a Omnichannel solution from an organization."
+description: "Learn how to delete an Omnichannel solution from an organization."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 01/29/20
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -14,11 +14,43 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-When you upgrade Omnichannel for Customer Service to the latest release, certain managed solutions appear in the **Solutions** page of your Common Data Service platform. After the upgrade is complete, you must delete the solution from the previous release if the upgrade does not delete. In addition, if your organization is using **Customer Service Hub** app, then you must delete the app from the channel configuration in the **Channel Integration Framework** app.
+When you remove Omnichannel for Customer Service from your organization, the Omnichannel solutions are not deleted. If you want to delete Omnichannel solutions from your organization, you must use the following sequence. 
+
+1.	Navigate to Dynamics 365 Settings > Solutions.
+
+2.	On the Solutions page, select each solution from the list below, one at a time, in sequence, and then select Delete. 
+    a. OmnichannelPrimeChatAnchor
+    b. OmnichannelPrimeSMSAnchor
+    c. OmnichannelPrimeFacebookAnchor
+    d. msdyn_OmnichannelSBRPatch_managed
+    e. OmnichannelSBR
+    f. msdyn_CIFrameworkPatch
+    g. msdyn_OmnichannelEngagementHubPatch
+    h. msdyn_OmnichannelBotEnablerPatch
+    i. msdyn_OmnichannelPrimePatch
+    j. msdyn_OmnichannelSMSPatch
+    k. msdyn_OmnichannelChatPatch
+    l. msdyn_OmnichannelFacebookPatch
+    m. OmnichannelEngagementHubPreview
+    n. msdyn_OmnichannelBasePatch
+    o. OmnichannelPrime
+    p. OmnichannelSMS
+    q. OmnichannelChat
+    r. OmnichannelFacebook
+    s. OmnichannelBotEnabler
+    t. OmnichannelBase
+    u. ScenariosAndChannels
+    v. ChannelAPIIntegrationFramework
+    
+3.	A confirmation message appears, prompting you to uninstall the managed solution. Select OK.
+	Once all the above solutions are deleted, Omnichannel for Customer Service solutions are completely deleted from your organization. 
+
 
 ## Delete OmnichannelCustomerServiceHub solution
 
-The steps describe how to delete the solution from your organization.
+When you upgrade Omnichannel for Customer Service to the latest release, certain managed solutions appear in the **Solutions** page of your Common Data Service platform. After the upgrade is complete, you must delete the solution from the previous release if the upgrade does not delete. In addition, if your organization is using **Customer Service Hub** app, then you must delete the app from the channel configuration in the **Channel Integration Framework** app.
+
+The following steps describe how to delete the solution from your organization.
 
 1. Sign in to the Common Data Service platform.
 
