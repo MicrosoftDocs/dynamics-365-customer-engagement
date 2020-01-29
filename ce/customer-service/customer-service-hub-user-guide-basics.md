@@ -270,7 +270,7 @@ You can select the **Enter a note** box in the timeline and specify a title and 
 
   ![Timeline notes rich text editor](media/timeline-notes1.png "Timeline notes rich text editor")
 
-  You administrator need to enable rich-text editor for you. To learn more, see [Enable rich-text editor for notes in timeline](https://review.docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-rich-text-editor-for-notes-in-timeline).
+  The feature is enabled by default, your administrator can enable or disable rich-text editor for you. To learn more, see [Enable rich-text editor for notes in timeline](https://review.docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-or-disable-rich-text-editor-for-notes-in-timeline).
 
   > [!Note]
   > You can format only the message (body), and not the title.
