@@ -35,19 +35,29 @@ Prerequisites
 
 To enable this capability, you need to enable the **OrgDBOrgSetting** in your organization. Common Data Service apps provides the **OrgDBOrgSettings** tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations.
 
-Follow the instructions in this article for steps to extract the tool. After extracting the tool, enable the **OrgDBOrgSettin TrackAppointmentsFromNonOrganizer**.
+Follow the instructions in [this article](https://support.microsoft.com/en-us/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm) for steps to extract the tool. After extracting the tool, enable the **OrgDBOrgSettin TrackAppointmentsFromNonOrganizer**.
 
-You can also use this tool to edit the **OrgDBOrgSetting TrackAppointmentsFromNonOrganizer**.
+You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit the **OrgDBOrgSetting TrackAppointmentsFromNonOrganizer**.
 
 1.	Sign in as an admin to Dynamics 365 at [https://home.dynamics.com](https://home.dynamics.com).
 2.	On the home page, go to **Settings** > **Advanced Settings**.
 
-## Turn on delegate access
+    > [!div class="mx-imgBorder"] 
+    > ![](media/step1.png) 
 
-1. From the main menu go to **Settings** > **Customization** and then select **Solutions**.
-2. On the **All Solutions** screen, select **Organization Settings Editor (Dynamics 365)**.
+3. From the main menu go to **Settings** > **Customization** and then select **Solutions**.
 
-3. On the **Solution Organization Settings Editor** screen, find
+    > [!div class="mx-imgBorder"] 
+    > ![](media/step2.png) 
+    
+4. On the **All Solutions** screen, select **Organization Settings Editor (Dynamics 365)**.
+
+    > [!div class="mx-imgBorder"] 
+    > ![](media/step4.png) 
+5. On the **Solution Organization Settings Editor** screen, find
  	**TrackAppointmentsFromNonOrganizer** and **DelegateAccessEnabled** setting and set both to **True** and then select **Update**.
+  
+    > [!div class="mx-imgBorder"] 
+    > ![](media/step4.png) 
 
 ![Custom entity in Quick create](media/custom-entity-quick-create.png) 
