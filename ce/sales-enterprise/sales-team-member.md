@@ -24,8 +24,6 @@ The designated app modules are:
 - Sales Team Member
 - Project Resource Hub
 
-After the license enforcement is turned on (starting April 1, 2020), users won't have access to unentitled apps such as Customer Service Hub, Sales Hub, and custom apps. 
-
 At a high level, users with the Team Member license can do the following tasks in the Sales Team Member app:
 
 -  Customer management. Work with accounts and contacts
@@ -48,6 +46,10 @@ For more information on the use rights for the Team Member license, see the [Mic
 
     > [!div class="mx-imgBorder"]
     > ![Site map of the Sales Team Member app](media/sales-team-member-app-site-map.png "Site map of the Sales Team Member app")
+
+
+> [!IMPORTANT]
+> Give users access to the Sales Team Member app. The Sales CS Team Member role gives access to the Sales Team Member app. Customers can reuse this role or use custom roles.
 
 ### See also
 
