@@ -1,7 +1,7 @@
 ---
 title: "Customizing App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 06/19/2019
+ms.date: 02/07/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
