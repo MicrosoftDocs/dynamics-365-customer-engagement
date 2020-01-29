@@ -12,7 +12,7 @@ manager: annbe
 
 # Add the Kanban control to opportunity or activity entity
 
-Kanban views help sales people to manage their opportunities and activities effectively. Add the Kanban control to the Opportunity and Activity entity so salespeople can use the Kanban views.
+Kanban views help salespeople to manage their opportunities and activities effectively. Add the Kanban control to the Opportunity and Activity entity so salespeople can use the Kanban views.
 
 To add the control:
 1.	In your app, select the **Settings** icon, and then select **Advanced Settings**.
@@ -53,3 +53,4 @@ To add the control:
 ### See also
 
 [Work with opportunities in the Kanban view](opportunity-kanban-view.md)  
+[Work with activities in the Kanban view](activity-kanban-view.md)

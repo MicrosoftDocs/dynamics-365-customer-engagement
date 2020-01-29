@@ -62,9 +62,9 @@ Here are some important things to know about your Kanban view:
 
     It also shows a count of opportunity cards in that lane. At any given point, only the first 10 records/cards will be shown in any lane. If there are more than 10 opportunity cards in a lane, for example, 50, the count shows 10/50. To see more cards, scroll down in the lane. When you scroll down, the count changes to show 20/50, and so on.
 
--  Selecting the card title opens the opportunity record/form.
+-  Selecting the card title opens the opportunity Main form. The Main form also opens When you move cards across business process flow stages. When you close the Main form, the whole Kanban view is refreshed.
 
--  The card fields are editable. You can quickly change details for the three fields of an opportunity record that are shown in the card.
+-  The card fields are editable inline. You can quickly change details for the three fields of an opportunity record right from the card.
 
     > [!div class="mx-imgBorder"]  
     > ![Editable fields on the opportunity card](media/editable-fields-opportunity-card.png "Editable fields on the opportunity card")
