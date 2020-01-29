@@ -36,7 +36,7 @@ You can see the activities in three different views:
 
 
 > [!IMPORTANT]
-> The Kanban view is introduced in the February 2020 release. 
+> The Kanban view and calendar view is released as early access in the February 2020 release. 
 
 To switch to a different view:
 
@@ -53,19 +53,10 @@ You can use views to see the activities you want. For example, you can use the *
 
 ## Filter the list of activities
 
-You can filter the list of activities to see only the ones you’re interested in. For example, you can further limit the activities you are seeing in a view by using the activity type. The available filters are:
+You can filter the list of activities to see only the ones you’re interested in. For example, you can further limit the activities you are seeing in a view by using the activity type filter. The Activity type filter allows you to filter activities based on the type, such as, email, task, phone call and so on.
 
--  Activity Type. Filter based on the type of activity, such as, email, task, phone call and so on.
-
-    > [!div class="mx-imgBorder"] 
-    > ![Activity Type filter](media/activity-type-filter.png "Activity Type filter")
-
--  Due. Filter activities based on the date (range) when they are due. With the February 2020 release, the default is set to **Overdue**.
-
-After you filter the activities, you can also save the filters as a view. 
-
-> [!NOTE]
-> The option to save filter to view is only applicable to the grid column filters and not the sub-filters for the view. 
+> [!div class="mx-imgBorder"] 
+> ![Activity Type filter](media/activity-type-filter.png "Activity Type filter")
 
 ## Create a new activity
 
