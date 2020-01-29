@@ -13,12 +13,12 @@ manager: annbe
 # Work with opportunities in the Kanban view
 
 Use the Kanban view to effectively keep tabs on the sales pipeline. 
-The Kanban view shows opportunities as cards. The lanes in the Kanban view represent the default statuses or stages of opportunities. The opportunity cards within the swim lanes show where in the process the opportunities are. 
+The Kanban view shows opportunities as cards. The lanes in the Kanban view represent the default statuses or business process flow stages of opportunities. The opportunity cards within the swim lanes show where in the process the opportunities are. 
 You can drag the opportunities to different lanes to move them from one status/stage to another.
 
 ## Open a Kanban view
 
-A Kanban view is available when your system customizer has added the Kanban control to the Opportunity entity. If you don't see the Kanban view, talk to your system customizer.
+A Kanban view is available when the Kanban control is added to the Opportunity entity. If you don't see the Kanban view, talk to your system customizer.
 
 To open the Kanban view:
 
@@ -45,12 +45,7 @@ In the status-based Kanban view, each lane represents a default opportunity stat
 > [!div class="mx-imgBorder"]  
 > ![Status-based opportunity Kanban view](media/status-based-opportunity-kanban-view.png "Status-based opportunity Kanban view")
  
-In the Business process flow-based view, swim lanes represent the following stages of opportunities in the Opportunity sales process business process flow:
-
-- Qualify
-- Develop
-- Propose
-- Won
+In the Business process flow-based view, swim lanes represent the stages of opportunities in the Opportunity sales process business process flow. 
 
 Currently, the Kanban view is only available for the Opportunity sales process business process flow.
 
@@ -78,7 +73,23 @@ Here are some important things to know about your Kanban view:
 
 -  You can use the **Search** box to filter the records/cards in the swim lane based on the search criteria.
 
--  You can drag a card and move it to other lanes. When you drag a card from one lane to another, the opportunity status or the stage changes depending on which type of Kanban view you're using.  
+-  You can drag a card and move it to other lanes. When you drag a card from one lane to another, the opportunity status or the stage changes:
+
+    **In the Status-based Kanban view:**
+    
+    - You can drag an opportunity card from the Open pane to Won or Close lanes. 
+    
+    - When you move the card to the Won or Lost lane, it's closed and becomes inactive—you can't edit the fields on the card.
+    
+    - You can still reopen a closed opportunity by moving a card from Won or lost lanes to the Open lane. 
+    
+    - When you're dragging a card to move to another lane, the lanes where the card can't be dropped are greyed out.
+
+    **In the Business process flow-based view:**
+    
+    - You can move the card from current lane to the consecutive next or previous lane. Swim lanes where the card can't be dropped are greyed out.
+
+    - When you're dragging a card to move to another lane, the lanes where card can't be dropped are greyed out.
 
 
 ### See also

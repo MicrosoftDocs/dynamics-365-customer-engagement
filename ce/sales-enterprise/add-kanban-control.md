@@ -1,6 +1,6 @@
 ---
-title: "Add the Kanban control to opportunity entity (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Add the Kanban control to the opportunity entity to enable salespeople to effectively monitor their pipeline or see where opportunities are in a business process flow."
+title: "Add the Kanban control to opportunity or activity entity (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Add the Kanban control to the opportunity or Activity entity. The Kanban control enables salespeople to monitor their pipeline, see where opportunities are in a business process flow, or track their activities efficiently."
 ms.date: 02/03/2020
 ms.service:
   - "dynamics-365-sales"
@@ -12,7 +12,7 @@ manager: annbe
 
 # Add the Kanban control to opportunity or activity entity
 
-To enable your sales people to use the Kanban view to manage their opportunity, you must add the Kanban control that comes with Dynamics 365 Sales to the Opportunity form first.
+Kanban views help sales people to manage their opportunities and activities effectively. Add the Kanban control to the Opportunity and Activity entity so salespeople can use the Kanban views.
 
 To add the control:
 1.	In your app, select the **Settings** icon, and then select **Advanced Settings**.
@@ -26,7 +26,7 @@ To add the control:
 
 3.	Select **Customize the System**.
 
-4.	Under **Components** in the solution explorer, expand **Entities**, and then select **Opportunity**.
+4.	Under **Components** in the solution explorer, expand **Entities**, and then select **Opportunity** or **Activity**.
 
 5.	Go to the **Controls** tab and select **Add Control**.
 
@@ -40,7 +40,7 @@ To add the control:
 
     The Kanban control is added to the list of controls.
 
-7.	By default, the Read-only grid option is selected, so when users select **Opportunities** from the site map, they'll see a list of opportunities. To make the Kanban view the default view instead, select the radio button for the Kanban control for the corresponding options.  
+7.	The Read-only grid is the default option, so when users select **Opportunities** from the site map, they see a read-only grid of opportunities. To make the Kanban view the default view instead, select the radio button for the Kanban control for the corresponding options.  
 
     > [!div class="mx-imgBorder"]  
     > ![Make the Kanban view the default view](media/make-kanban-view-default.png "Make the Kanban view the default view") 
