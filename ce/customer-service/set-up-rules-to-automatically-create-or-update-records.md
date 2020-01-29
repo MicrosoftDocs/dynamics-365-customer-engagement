@@ -97,7 +97,7 @@ Make sure that the following prerequisites are met:
 
 ### How you can automatically create or update records for customer activities
 
-### Create a basic rule
+### Create a rule
 You can create a basic rule that when active will be run for incoming emails. Using the feature to create rules, you can define the conditions for the rules to be run.
 
 1. In Customer Service Hub sitemap, select **Service Management** > **Automatic record creation and update rules**. The **Automatic record creation and update rules** page appears.
