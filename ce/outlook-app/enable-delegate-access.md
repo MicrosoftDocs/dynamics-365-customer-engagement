@@ -28,21 +28,26 @@ Enable delegate access to allow someone to track Common Data Service information
 Set up delegate access in Outlook to give someone permission to act on your behalf. For example, you might have an assistant that you want to create and respond to email or meeting requests for you and then track the information in Common Data service using the Dynamic 365 Outlook App.
 
 Prerequisites
-•	Exchange Online and Microsoft Outlook builds 16.0.12130.20272 or later.
-•	Configure delegate access in Microsoft Outlook. For more information, see Allow someone else to manage your mail and calendar.  
-•	Both manager and delegate user need to be set up to use Dynamics 365 App for Outlook. For more information, see Deploy Dynamics 365 App for Outlook.
 
-To enable this capability, you need to enable the OrgDBOrgSetting in your organization. Common Data Service apps provides the OrgDBOrgSettings tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations.
-Follow the instructions in this article for steps to extract the tool. After extracting the tool, enable the *OrgDBOrgSettin TrackAppointmentsFromNonOrganizer*.
-You can also use this tool to edit the *OrgDBOrgSetting TrackAppointmentsFromNonOrganizer*.
+- Exchange Online and Microsoft Outlook builds 16.0.12130.20272 or later.
+- Configure delegate access in Microsoft Outlook. For more information, see [Allow someone else to manage your mail and calendar](https://support.office.com/article/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926).  
+- Both manager and delegate user need to be set up to use Dynamics 365 App for Outlook. For more information, see [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md).
+
+To enable this capability, you need to enable the **OrgDBOrgSetting** in your organization. Common Data Service apps provides the **OrgDBOrgSettings** tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations.
+
+Follow the instructions in this article for steps to extract the tool. After extracting the tool, enable the **OrgDBOrgSettin TrackAppointmentsFromNonOrganizer**.
+
+You can also use this tool to edit the **OrgDBOrgSetting TrackAppointmentsFromNonOrganizer**.
+
 1.	Sign in as an admin to Dynamics 365 at [https://home.dynamics.com](https://home.dynamics.com).
 2.	On the home page, go to **Settings** > **Advanced Settings**.
 
+## Turn on delegate access
 
-From the main menu go to Setting > Customization and then select Solutions.
-1.	On the All Solutions screen, select Organization Settings Editor (Dynamics 365).
+1. From the main menu go to **Settings** > **Customization** and then select **Solutions**.
+2. On the **All Solutions** screen, select **Organization Settings Editor (Dynamics 365)**.
 
-2.	On the Solution Organization Settings Editor screen, find
- 	TrackAppointmentsFromNonOrganizer and DelegateAccessEnabled setting and set both to True and then select Update.
+3. On the **Solution Organization Settings Editor** screen, find
+ 	**TrackAppointmentsFromNonOrganizer** and **DelegateAccessEnabled** setting and set both to **True** and then select **Update**.
 
 ![Custom entity in Quick create](media/custom-entity-quick-create.png) 
