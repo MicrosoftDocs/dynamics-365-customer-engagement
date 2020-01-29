@@ -37,12 +37,21 @@
 #### [See relationships in a hierarchical view](../basics/hierarchical-relationship.md)
 #### [Add editable products grid on forms](../sales-enterprise/editable-product-grid-forms.md) 
 
-### Forecast and Goal management
+### Goal management
 #### [Goal settings](../admin/system-settings-dialog-box-goals-tab.md)
 #### [Create or edit goals](../sales-enterprise/create-edit-goal-sales.md)
 #### [Define a goal metric](../sales-enterprise/create-edit-goal-metric.md)
 #### [Define a goal rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)
+
+
+### Forecast management
 #### [Configure a forecast in your organization](configure-forecast.md)
+#### [Enable forecast](enable-forecast.md)
+#### [Select a template](select-template-forecast.md)
+#### [Define general properties and scheduling](define-general-properties-scheduling-forecast.md)
+#### [Provide permissions](provide-permissions-forecast.md)
+#### [Choose layout and columns](choose-layout-and-columns-forecast.md)
+#### [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
 #### [Add forecast grid and configuration options in site map](add-forecast-site-map.md)
 
 ### Playbook management
