@@ -62,10 +62,10 @@ The two APIs for tracking event analytics are:
 
 | Name | Description |
 |-------|-------|
-| [initLogAnalytics](reference/microsoft-ciframework/initLogAnalytics.md) | Invoke this method on an incoming conversation to log analytics. |
+| [updateConversation](reference/microsoft-ciframework/updateConversation.md) | Invoke this method to update a conversation record. |
 | [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events. |
 
-Ideally `initLogAnalytics` API should be called before the incoming notification is displayed. `logAnalyticsEvent` API can be called as many times as needed after the `initLogAnalytics` call succeeds. 
+Ideally `updateConversation` API should be called before the incoming notification is displayed. `logAnalyticsEvent` API can be called as many times as needed after the `updateConversation` call succeeds. 
 
 If there is a need to log events from the server side, the following required entity records need to be created before the event logging can take place.
 - Conversation Data
@@ -98,7 +98,7 @@ Xrm.WebApi.updateRecord("msdyn_ciprovider", <msdyn_ciproviderid fetched from pre
 
 ## Typical flow for Channel Analytics
 
-For every incident conversation, the provider will call the [initLogAnalytics API](reference/microsoft-ciframework/initLogAnalytics.md). The data payload of the API will contain the information to create a conversation record (with session and participant information).
+For every incident conversation, the provider will call the [updateConversation API](reference/microsoft-ciframework/updateConversation.md). The data payload of the API will contain the information to create a conversation record (with session and participant information).
 
 For that session, all first-party instrumentation events like notification displayed, notification response, session started, and session switched will be fired with the correlation ID.
 

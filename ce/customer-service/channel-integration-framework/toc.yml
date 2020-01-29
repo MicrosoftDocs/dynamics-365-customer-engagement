@@ -250,8 +250,6 @@
             href: v2/reference/microsoft-ciframework/settabtitle.md
         - name: "Analytics APIs"
           items:
-          - name: "initLogAnalytics"
-            href: v2/reference/microsoft-ciframework/initLogAnalytics.md
           - name: "updateConversation"
             href: v2/reference/microsoft-ciframework/updateConversation.md
           - name: "logAnalyticsEvent"
