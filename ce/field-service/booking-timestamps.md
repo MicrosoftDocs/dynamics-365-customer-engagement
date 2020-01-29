@@ -97,6 +97,18 @@ Each booking timestamp details:
 > [!Note]
 > By default Booking Timestamps are only generated when there is a change in the related Field Service Status which is noted on each booking status, but this is configurable based on the Timestamp Frequency setting described below.
 
+By default, booking timestamps are generated when a **Field Service Status** changes. If you have associated several booking statuses with a single Field Service status, a timestamp will only generate by default when a booking status associated with a different Field Service status changes. 
+
+To help illustrate, consider that you have three booking statuses: 
+
+1. **In Transit**, associated with the Field Service status **In Progress**
+2. **Wrench Time**, associated with the Field Service status **In Progress**
+3. **Complete**, associated with the Field Service status **Complete**
+
+When a technician updates their booking Status on Field Service Mobile to **In Transit**, a timestamp will be created. When they arrive onsite and begin work, they mark the booking status as **Wrench Time**. By default in Field Service, a new timestamp will *not* be created, as the associated Field Service status is still **In Progress**. When the booking status is updated to **Complete**, another timestamp will be created, as the associated Field Service status is different. 
+
+
+
 ## Timestamp Frequency setting
 
  will generate differently based on the setting you chose for the **Timestamp Frequency** field in Field Service Settings.
@@ -112,15 +124,7 @@ To understand how booking timestamps are generated, it's important to distinguis
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the timestamp frequency functionality in Field Service settings.](./media/scheduling-timestamps-frequency-setting.png)
 
-By default, booking timestamps are generated when a **Field Service Status** changes. If you have associated several booking statuses with a single Field Service status, a timestamp will only generate by default when a booking status associated with a different Field Service status changes. 
 
-To help illustrate, consider that you have three booking statuses: 
-
-1. **In Transit**, associated with the Field Service status **In Progress**
-2. **Wrench Time**, associated with the Field Service status **In Progress**
-3. **Complete**, associated with the Field Service status **Complete**
-
-When a technician updates their booking Status on Field Service Mobile to **In Transit**, a timestamp will be created. When they arrive onsite and begin work, they mark the booking status as **Wrench Time**. By default in Field Service, a new timestamp will *not* be created, as the associated Field Service status is still **In Progress**. When the booking status is updated to **Complete**, another timestamp will be created, as the associated Field Service status is different. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of booking timestamps on a bookable resource booking.](./media/scheduling-timestamps-booking-statuses-per-fs-status.png)
