@@ -60,4 +60,6 @@ You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releas
   
     > [!div class="mx-imgBorder"] 
     > ![](media/step4.png) 
+ 
+To more information on how to use delegate access see, [Use delegate access](/dynamics-365-app-outlook-user-s-guide.md#use-delegate-access).
 
