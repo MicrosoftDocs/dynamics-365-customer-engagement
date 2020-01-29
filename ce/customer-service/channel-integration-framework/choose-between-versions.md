@@ -30,6 +30,9 @@ You can integrate channels, such as telephony, messaging (SMS), chat and social 
 
 More information: [Channel Integration Framework version 1.0](overview-channel-integration-framework.md).
 
+> [!NOTE]
+> Channel Integration Framework version 1.0 is available for Government Community Cloud(GCC).
+
 ## Channel Integration Framework version 2.0
 
 You can use Dynamics 365 Channel Integration Framework version 2.0 to integrate a channel provider of your choice if your organization is using the multi-session app, Omnichannel for Customer Service. You can integrate the telephony channel to have an immersive experience.
