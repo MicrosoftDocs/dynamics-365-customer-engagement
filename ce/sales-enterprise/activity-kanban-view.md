@@ -10,7 +10,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Work with opportunities in the Kanban view
+# Work with activities in the Kanban view
 
 The Kanban view for activities helps salespeople to manage multiple activities quickly. Looking at the kanban view, salespeople can quickly see the activities and the status they're in. In the Activity Kanban view, activities are represented visually with cards.
 The lanes represent the default statuses of activities. You can drag the activities to different lanes to move them from one status to another.
