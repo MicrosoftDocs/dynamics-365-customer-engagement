@@ -237,15 +237,15 @@ The timeline section is available on the **Summary** tab for account, contact, c
 - Post
 
 > [!Note]
-> The activities mentioned above are out-of-the-box. If your administrator or system customizer has configured other activities, then those will appear. 
+> The activities, note, and post are standard entities. If your administrator or system customizer has configured other entities, then those will appear. 
 
 You can create, edit, and delete an activity, note, post, and other interactions from the timeline itself. Additionally, you can filter and sort the interactions. In the timeline area, you can see three actions: **Add info and activities**, **Open filter pane**, and **More commands**. Use these options to add, filter, and sort the interactions on the timeline.
 
-- **Add info and activities:** Select the **+** icon in the timeline area to quickly open an activity type page to create and save. The activity type you created appears in the timeline.
+- **Add activities, posts, and notes:** Select the **+** icon in the timeline area to quickly open an form or quick create form to create and save. The item you created appears in the timeline.
 
-- **Filter the activities:** With the help of text and visual filters, you can filter by activity types in the timeline. You can also view the items from the previous day or week, and you can filter the interactions using the filter icon in the timeline area. To learn more, see [Filter activities on the timeline](#filter-activities-on-the-timeline)
+- **Filter the activities, post, and note:** With the help of text and visual filters, you can filter by activities, notes, posts, and other custom entities in the timeline. You can also view the items from the previous day or week, and you can filter the interactions using the filter icon in the timeline area. To learn more, see [Filter activities, posts, and notes on the timeline](#filter-activities-posts-and-notes-on-the-timeline).
 
-- **More commands:** The timeline provides the options to refresh so you see the updated list of activities and sort the timeline interactions. Select the ellipsis (**...**) in the timeline to refresh and sort the timeline by choosing one of the two: **Sort newer to older** and **Sort older to newer**.
+- **More commands:** The timeline provides the options to refresh so you see the updated list of activities, notes, and posts and sort the timeline interactions. Select the ellipsis (**...**) in the timeline to refresh and sort the timeline by choosing one of the two: **Sort newer to older** and **Sort older to newer**.
 
   ![timeline-ellipsis](media/timeline-ellipsis.png "Timeline ellipsis to filter activities")
 
@@ -283,23 +283,23 @@ You can select the **Enter a note** box in the timeline and specify a title and 
   > - The notes rich-text editor is available only for Unified Interface and not for web client.
   > - If you create a note with the rich-text editor formatting in Unified Interface, and when you see the note in Web Client, the note is displayed to you with HTML syntax.
 
-#### **Identify the activities with icons along with time stamp**
-The timeline shows a simple icon before the activity making it easy for you to identify the type of activity.
+#### **Identify the activities, notes, and posts with icons along with time stamp**
+The timeline shows a simple icon before the activity, post, note, and custom entity making it easy for you to identify the type.
 
-Also, you can view the timestamp at all times. Activities that were created or updated today will reflect only the time and created or updated on other days will reflect the date and time.
+Also, you can view the timestamp at all times. Activities, posts, and notes that were created or updated today will reflect only the time and created or updated on other days will reflect the date and time.
 
   ![Timeline activity icons](../customer-service/media/activity-icons.png "Timeline activity icons")
 
 #### **Access command bar to perform actions**
-When you hover the cursor on or expand an activity, the command bar appears with the options specific to the activity, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, liking a post, replying to a post, editing a note, or deleting the activity.
+When you hover the cursor on or expand an activity, post, and note, the command bar appears with the options specific to the activity, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, liking a post, replying to a post, editing a note, or deleting the activity.
 
   ![Timeline command bar options](../customer-service/media/timeline-options1.png "Timeline command bar options")
   ![Timeline command bar options](../customer-service/media/timeline-options2.png "Timeline command bar options")
   ![Timeline command bar options](../customer-service/media/timeline-options3.png "Timeline command bar options")
   ![Timeline command bar options](../customer-service/media/timeline-options4.png "Timeline command bar options")
 
-#### **Filter activities on the timeline**
-Quickly filter the activities with multiple filter options to see what matters to you. The filter is available for the activity types that are present in timeline. That is, in the image shown, all are activity types are present in the timeline so the filter displays the activity types and the count of those activity types. 
+#### **Filter activities, posts, and notes on the timeline**
+Quickly filter the activities, posts, and notes with multiple filter options to see what matters to you. The filter is available for the activities, posts, notes, and custom entities that are present in timeline. The timeline filters and displays the records and the count of those records that are present in the timeline. 
 
 When you select the filter icon, you can see the **Filter by** menu where you can filter the items based on the following categories.
 
@@ -314,7 +314,7 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
 
   ![Timeline activity filter](../customer-service/media/timeline-filter2.png "Timeline activity filter") ![Timeline activity filter](../customer-service/media/timeline-filter5.png "Timeline activity filter")
 
-  When you filter based on the activity status, then those activities in a particular status are displayed to you.
+  When you filter based on the activity status, then those activities, notes, and posts in a particular status are displayed to you.
 
   ![Timeline activity filter](../customer-service/media/timeline-filter6.png "Timeline activity filter")
 
