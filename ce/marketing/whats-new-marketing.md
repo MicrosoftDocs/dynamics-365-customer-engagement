@@ -1,5 +1,5 @@
 ---
-title: "What's new (Dynamics 365 Marketing) | Microsoft Docs"
+title: "New and upcoming features in Dynamics 365 Marketing | Microsoft Docs"
 description: "Learn about what's been added, improved, and fixed in each monthly and biannual release of Dynamics 365 Marketing."
 ms.date: 02/03/2020
 ms.service: dynamics-365-marketing
@@ -7,8 +7,8 @@ ms.custom:
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: 
@@ -23,9 +23,14 @@ search.app:
 
 # What's new in Dynamics 365 Marketing
 
-Dynamics 365 Marketing is usually updated monthly, with major updates occurring twice a year. For news about major updates, including a recent history and announcements of upcoming features, see the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/). This topic summarizes the smaller feature improvements and bug fixes introduced with each monthly update and provides links for more information. This topic also announces when preview or early-access versions of upcoming major features become available for you to try out.
+We're excited to announce our newest updates! To see the latest enhancements and upcoming features, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/).
+
+This topic summarizes the smaller feature improvements and bug fixes. This topic also announces when preview or early-access versions of upcoming major features become available for you to try out.
 
 Microsoft rolls out each monthly and biannual update on a region-by-region basis, with the update typically becoming available to all regions by the end of the month (but often earlier). You must manually check for and apply each update to each of your Marketing instances. As soon as the update is available in your region, you'll be able to see and apply it as described in [Keep Marketing up to date](apply-updates.md). We recommend updating all Marketing instances right away.
+
+> [!Note]
+> To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
 
 ## February 2020 update
 
@@ -47,7 +52,22 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
 
 ### Bug fixes
 
-- 
+- Core sending: Quota management error (1681791)
+- Customer journeys: Custom channel code snippet (1601076)
+- Customer journeys: Attached workflows are now deactivated when a customer journey with a record update tile is stopped. (1672435)
+- Event management: Events now properly issue alert messages when installations are missing required services. (1573857)
+- Marketing email designer: Auto save no longer overwrites email templates with unsaved changes. (1591869)
+- Marketing email designer: Improved responsive design for emails on mobile devices. (1654492)
+- Marketing email designer: Resolved error where HTML code did not copy accurately to the email designer. (1661820)
+- Marketing pages: Invalid or empty values in DateTime fields are no longer incorrectly parsed. (1443508)
+- Marketing pages: Resolved error caused by importing a marketing page exported from a portal org into a non-portal org. (1588129)
+- Marketing pages: Marketing pages no longer hang in the Going Live state after publishing. (1605629)
+- Marketing pages: Option sets created in the form-capture wizard now invoke an options mapping list. (1630090)
+- Marketing pages: Websites with misconfigured allowed domains no longer cause errors messages when externally hosted forms are loaded. (1653133)
+- Segmentation: Resolved issue where default customer journey content settings were not populated for BU user roles. (1577022)
+- Shared UX: Improved visibility of ID values in assist edit. (1592061)
+- Shared UX: Resolved an issue where segments with long names were overflowing onto the white background. (1641950)
+- Template galleries: Improved marketing email designer template gallery loading consistency for all user roles. (1680037)
 
 ## December 2019 update
 
