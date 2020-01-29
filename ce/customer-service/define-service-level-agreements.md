@@ -4,7 +4,7 @@ description: Know how to define service level agreements in Dynamics 365 Custome
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/01/2018
+ms.date: 02/03/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -69,6 +69,36 @@ Define the level of service or support that your organization agrees to offer to
   >  SLA can also be enabled for custom entities and custom activities.  
 
   For more information, see         [Enable entities for service level agreements](../customer-service/enable-entities-service-level-agreements.md).  
+
+## Preview: Configure SLAs in Customer Service Hub
+
+To configure SLAs in Customer Service Hub, perform the following steps:
+-	Review prerequisites. To learn more, see Prerequisites.
+-	Create SLA KPIs. To learn more, see Create SLA KPIs.
+-	Create SLAs. To learn more, see Create SLAs.
+-	Learn how the created SLA is applied to entity records. To learn more, see [How is the SLA is applied](define-service-level-agreements.md#how-is-the-sla-applied)
+
+## Prerequisites
+
+Review the following requirements before configuring SLAs for your organization:
+
+- System Administrator, System Customizer, or Service Level Agreement Manager role is assigned to you.
+
+- Identify target entities and add customizations. To add customizations in target entities to track SLAs, follow these steps:
+
+  a. Create lookup fields in entities for which the SLA is configured. Lookup fields are created in the web application so that you can view the service level agreement in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](/on-premises/customize/create-edit-fields#create-and-edit-fields).
+  
+    For example, to track an SLA on case for first response KPI in the timer, you must create a new field as *FirstResponseByKPI* on the Case entity and provide the respective Target Record Type as Service Level Agreement Instances and Data Type as *Lookup*.
+
+  b. Establish a 1:N relationship between the SLA entity and the Service Level Agreement instances.
+
+    For example, create a relationship between the case and service level agreement instances, so that the service level agreement instances can be viewed in the grid on the case form. To learn more, see [Create and edit relationships between entities](/on-premises/customize/create-edit-entity-relationships).
+  
+  c.	Configure the timer control on the case form to track time against an SLA.
+  
+    Add a timer control to an entity form to help users gauge the amount of time they have to complete a task—typically as specified in a service level agreement. The timer control initially displays a countdown timer to show the time remaining to complete the task. To learn more, see [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md).
+
+
 
 ## Create a standard SLA  
 
