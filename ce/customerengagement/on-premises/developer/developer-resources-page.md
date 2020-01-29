@@ -55,7 +55,7 @@ The Developer Resources page in the [!INCLUDE[pn_dynamics_crm_online](../include
 
 ## Discovery service  
 
- The Discovery Service web service provides information about the organizations available on the Dynamics 365 Customer Engagement (on-premises) server. This information includes the web address (URL) for each organization.
+ The Discovery Service web service provides information about the organizations available on the Dynamics 365 Server. This information includes the web address (URL) for each organization.
 
   
 ### For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]
