@@ -317,7 +317,12 @@ As an administrator, you can view the macro run history, which shows how many ti
    > [!div class=mx-imgBorder] 
    > ![Review the macro action steps](../media/macro-run-history-fail.png "Review the macro action steps")
 
-7. Fix the macro step action that you think might have caused the failure, and then try running it again.
+   For example, when you select on the **Open a new form to create a record** step, select **Show more**, and you can view that the mandatory fields doesn't have values, which is mandatory to save the record. Due to this reason, the macro execution failed at the **Save the record** step.
+
+   > [!div class=mx-imgBorder] 
+   > ![Review the macro action steps](../media/macro-run-history-fail-reason.png "Review the macro action steps")
+
+7. Fix the macro step action that you think might have caused the failure, and then try running it again. For example, since the values are not resolved, go to the macro designer and then check on the slugs, and then try running the macro again.
 
 > [!Note]
 > If the issue persists, contact Microsoft support.
