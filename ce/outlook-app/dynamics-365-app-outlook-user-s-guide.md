@@ -147,6 +147,49 @@ Let's go over the individual elements in the menu bar.
 |![Menu - Insights](media/navbar-insights-btn.png)|Choose **Insights** to view the most important and relevant information in relation to what you are doing right now. <br />See [Gain insights into your activities with relationship assistant](#gain-insights-into-your-activities-with-relationship-assistant)|
 |![Menu - Documents](media/navbar-add-template-btn.png)|Choose **Documents** to add email templates, sales literature, or knowledge base articles. <br />See [Add an email template when you create an email message](#add-an-email-template-when-you-create-an-email-message) and [Add sales literature or a knowledge base article when you create an email message](#add-sales-literature-or-a-knowledge-base-article-when-you-create-an-email-message)|
 
+## Use delegate access 
+
+Delegate access is granted to users who manage certain aspects of Outlook and Common Data Service information for another person.
+Once delegate access in turned on, you can use the Dynamics 365 Outlook App to track emails and calendar appointments information for someone else.
+
+> [!Important]
+> Track status may not update immediately until the sync cycles complete for both the user and the delegated user. This might take few minutes. 
+
+### Track new email contact
+1. Go to the person email folder that you are a delegate for and open an email from a contact that you want t**o track.
+2. In the Dynamics 365 pane, select **Contact** > **Set Regarding**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/pic1.png)
+
+3. The status on the email changes to **Track pending** for both the user and the delegated user. 
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/pic3.png)
+   
+4. Once the email has finished synchronizing in Common Data Service, status of the email changes to **Tracked regarding** for both the user and the delegated user.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/pic3.png)
+
+### Track new contact from a meeting invitation
+
+1. Go to calendar for the person that you are a delegate for and open the invitation where you want to track a new contact in Common Data service.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/pic4.png)
+  
+2. When the meeting invitation is open, on the main menu, select **Dynamics 365** to open the mail app.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/pic5.png)
+
+3. In the Dynamics 365 pane, select **Contact** > **Set Regarding**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/pic6.png)
+
+
 ## Experience App for Outlook as a pinnable taskpane
 
 If you're running Outlook 2016 for Windows (click to run build 7668.2000 or later), App for Outlook will appear as a pinnable vertical [taskpane](https://docs.microsoft.com/outlook/add-ins/add-in-commands-for-outlook#launching-a-task-pane) to the right of an open message or appointment in Outlook. For more information, see [Implement a pinnable taskpane in Outlook](https://docs.microsoft.com/outlook/add-ins/pinnable-taskpane). 
