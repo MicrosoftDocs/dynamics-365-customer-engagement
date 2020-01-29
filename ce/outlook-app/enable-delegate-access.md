@@ -53,11 +53,11 @@ You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releas
 4. On the **All Solutions** screen, select **Organization Settings Editor (Dynamics 365)**.
 
     > [!div class="mx-imgBorder"] 
-    > ![](media/step4.png) 
+    > ![](media/step3.png) 
+    
 5. On the **Solution Organization Settings Editor** screen, find
  	**TrackAppointmentsFromNonOrganizer** and **DelegateAccessEnabled** setting and set both to **True** and then select **Update**.
   
     > [!div class="mx-imgBorder"] 
     > ![](media/step4.png) 
 
-![Custom entity in Quick create](media/custom-entity-quick-create.png) 
