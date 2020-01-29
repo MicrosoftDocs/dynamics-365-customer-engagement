@@ -17,9 +17,13 @@ In Dynamics 365 Sales, you use activities to plan, track, and organize all your 
 The system automatically timestamps every activity and shows who created it. You and other people on your team can scroll through the activities to see the history as you work with a customer.
 
 To get the most out of Dynamics 365 Sales, it’s important for everyone in the organization to track all their customer interactions by adding an activity for every email, phone call, task, or appointment. That way, a customer’s history is complete. 
-Find your activities
+
+## Find your activities
 
 You can find your activities under **My Work** in the site map. 
+
+> [!div class="mx-imgBorder"] 
+> ![Activities link in the site map](media/activities-in-sitemap.png "Activities link in the site map")
 
 ## See activities in List, Calendar, or Kanban view
 
@@ -38,13 +42,14 @@ To switch to a different view:
 
 1.	In the site map, select **Activities**.
 
-2.	On the command bar, select the **More commands** icon ![More commands icon](media/more-commands-button.png "More commands icon"), and select **Show As** > **Kanban** or **Calendar Control** or Read-only grid view.
+2.	On the command bar, select the **More commands** icon ![More commands icon](media/more-commands-icon.png "More commands icon"), and then select **Show As** > **Kanban** or **Calendar Control** or Read-only grid view.
 
 ## Change your activities view
 
 You can use views to see the activities you want. For example, you can use the **My Activities** view to see activities assigned to you and **My Team Members’ Activities** view to see your team’s activities. 
 
-![Activity view drop-down list](media/activity-view-drop-down.png "Activity view drop-down list")
+> [!div class="mx-imgBorder"] 
+> ![Activity view drop-down list](media/activity-view-drop-down.png "Activity view drop-down list")
 
 ## Filter the list of activities
 
@@ -52,7 +57,8 @@ You can filter the list of activities to see only the ones you’re interested i
 
 -  Activity Type. Filter based on the type of activity, such as, email, task, phone call and so on.
 
-    ![Activity Type filter](media/activity-type-filter.png "Activity Type filter")
+    > [!div class="mx-imgBorder"] 
+    > ![Activity Type filter](media/activity-type-filter.png "Activity Type filter")
 
 -  Due. Filter activities based on the date (range) when they are due. With the February 2020 release, the default is set to **Overdue**.
 
