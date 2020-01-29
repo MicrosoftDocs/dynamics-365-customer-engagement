@@ -1,7 +1,7 @@
 ---
 title: "Enable delegate access for Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/09/2019
+ms.date: 02/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -61,5 +61,5 @@ You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releas
     > [!div class="mx-imgBorder"] 
     > ![](media/step4.png) 
  
-To more information on how to use delegate access see, [Use delegate access](/dynamics-365-app-outlook-user-s-guide.md#use-delegate-access).
+To more information on how to use delegate access see, [Use delegate access](dynamics-365-app-outlook-user-s-guide.md#use-delegate-access).
 
