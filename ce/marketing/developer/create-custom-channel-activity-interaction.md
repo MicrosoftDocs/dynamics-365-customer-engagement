@@ -1,3 +1,23 @@
+---
+title: "Custom channel activity create interaction (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+description: "Describes the input parameters required by the `msdyncrm_CustomChannelActivityCreateInteraction` action"
+ms.custom: 
+ms.date: 04/01/2018
+ms.service: crm-online
+ms.technology: 
+  - marketing
+ms.topic: conceptual
+ms.assetid: db4ef53d-8a48-4b27-899f-8f4c788bc43c
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
+  - D365Mktg
+---
+
 #  Custom channel activity create interaction
 
 The following table describes the input parameters required by the `msdyncrm_CustomChannelActivityCreateInteraction` action: 
@@ -14,9 +34,7 @@ The following table describes the input parameters required by the `msdyncrm_C
 |TriggerKeyword |String |(Optional) Keyword for custom response type defined in the custom tile definition.| 
 
  
-XML document below shows the section of custom channel tile definition. This section defines three types of responses: 
-
-The first two, `sent` and `delivered` are the standard response types. The third `keyword` allows passing additional textual value to interaction.  
+The XML below shows the section of the custom channel tile definition. This section defines three types of responses. The first two, `sent` and `delivered`, are the standard response types. The third `keyword` allows passing additional textual value to the interaction.  
 
 ```XML
  <ResponseTypes> 
