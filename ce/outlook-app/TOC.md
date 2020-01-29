@@ -2,6 +2,7 @@
 # [What's new with Dynamics 365 App for Outlook](whats-new.md)
 # [Deploying the app](deploy-dynamics-365-app-for-outlook.md)
 # [Customizing the app](Customizing-the-app.md)
+## [Enable-delegate-access.md](enable-delegate-access.md)
 ## [Customize the track regarding card](customize-the-track-regarding-card.md)
 ## [Customize which entities appear in Quick create ](add-a-custom-entity-to-quick-create.md)
 ## [Customize the Regarding lookup to add or remove entities](enable-a-custom-entity-to-appear-in-the-regarding-lookup.md)
