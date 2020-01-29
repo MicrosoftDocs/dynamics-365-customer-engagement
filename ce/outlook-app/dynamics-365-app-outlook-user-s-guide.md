@@ -160,34 +160,34 @@ Once delegate access in turned on, you can use the Dynamics 365 Outlook App to t
 2. In the Dynamics 365 pane, select **Contact** > **Set Regarding**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/pic1.png)
+   > ![](media/Pic1.png)
 
 3. The status on the email changes to **Track pending** for both the user and the delegated user. 
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/pic3.png)
+   > ![](media/Pic2.png)
    
 4. Once the email has finished synchronizing in Common Data Service, status of the email changes to **Tracked regarding** for both the user and the delegated user.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/pic3.png)
+   > ![](media/Pic3.png)
 
 ### Track new contact from a meeting invitation
 
 1. Go to calendar for the person that you are a delegate for and open the invitation where you want to track a new contact in Common Data service.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/pic4.png)
+   > ![](media/Pic4.png)
   
 2. When the meeting invitation is open, on the main menu, select **Dynamics 365** to open the mail app.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/pic5.png)
+   > ![](media/Pic5.png)
 
 3. In the Dynamics 365 pane, select **Contact** > **Set Regarding**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/pic6.png)
+   > ![](media/Pic6.png)
 
 
 ## Experience App for Outlook as a pinnable taskpane
