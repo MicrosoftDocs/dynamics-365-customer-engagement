@@ -4,7 +4,7 @@ description: "Dynamics 365 Channel Integration Framework is a cloud-to-cloud ext
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 02/03/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice

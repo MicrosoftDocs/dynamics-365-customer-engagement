@@ -4,7 +4,7 @@ description: "Learn how to choose between Dynamics 365 Channel Integration Frame
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 01/28/2020
+ms.date: 02/03/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -15,7 +15,7 @@ ms.custom:
 
 # Choose between Channel Integration Framework version 1.0 and version 2.0
 
-This topic explains the key feature differences between Dynamics 365 Channel Integration Framework version 1.0 and version 2.0 and to choose a version that suits your business requirements.
+This topic explains the key feature differences between Dynamics 365 Channel Integration Framework version 1.0 and version 2.0 and helps you choose a version that suits your business requirements.
 
 ## Channel Integration Framework version 1.0
 
@@ -28,7 +28,7 @@ You can use Dynamics 365 Channel Integration Framework version 1.0 to integrate 
 
 You can integrate channels, such as telephony, messaging (SMS), chat and social channels with any of the single-session Dynamics 365 model-driven app to have an immersive experience.
 
-More information: [Channel Integration Framework version 1.0](overview-channel-integration-framework.md)
+More information: [Channel Integration Framework version 1.0](overview-channel-integration-framework.md).
 
 ## Channel Integration Framework version 2.0
 
@@ -36,7 +36,7 @@ You can use Dynamics 365 Channel Integration Framework version 2.0 to integrate 
 
 Using Channel Integration Framework version 2.0 with Omnichannel for Customer Service enables you to use cross-channel analytics. More information: [Channel Analytics](v2/channel-analytics.md).
 
-More information: [Channel Integration Framework version 2.0](v2/overview-channel-integration-framework.md)
+More information: [Channel Integration Framework version 2.0](v2/overview-channel-integration-framework.md).
 
 ## Version 1.0 and 2.0
 
