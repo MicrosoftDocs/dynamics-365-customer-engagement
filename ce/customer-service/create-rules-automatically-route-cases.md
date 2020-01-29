@@ -23,12 +23,6 @@ search.app:
 
 Use routing rules in Dynamics 365 Customer Service to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues. 
 
-## Preview: Install Routing Rules
-
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-To install Routing Rules - Preview solution, see [Install Routing Rules - Preview solution](install-routing-rules-preview-solution.md). 
-
 ## Preview: Add routing rule sets sitemap for custom apps 
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -70,28 +64,24 @@ Review the following prerequisites before creating a routing rule set:
     - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
 ### Create routing rule sets to automatically route cases
+When creating routing rule sets, you can add multiple rule items and arrange them in the required order. The rule items are evaluated in the order of definition. Rule items are evaluated from top to bottom. If a rule item is evaluated as true, the case gets routed to the destination agent and skips further evaluation. If a rule item is evaluated as false, further rule items are evaluated.
 
 1.	In the Customer Service Hub sitemap, go to **Service Management**, and select **Case Settings** > **Routing Rule Sets**.
-    > [!NOTE]
-    > In the Customer Service app, go to **Settings** > **Service Management** and select **Routing Rule Sets**.
+
 2.	To create a routing rule set, select **New** on the command bar.
 
-3.	Enter **Name** and **Description** of the new routing rule set in the **Routing Rule Set Information** section of the **General** tab.
+3.	On the **General** tab, in **Routing Rule Set Information**, Enter **Name** and **Description** for the routing rule set.
 
 4.	Select **Save**. The routing rule set is saved, and the **Rule Items** section is displayed.
 
     > [!div class="mx-imgBorder"]
     > ![Create routing rules general information](media/rr-create-rule-set.png "Create routing rules general information")
 
-5.	In the **Rule Items** section, select **Add New Rule Item** to specify conditions that will be evaluated while routing cases to a queue, an agent, or a team.
-
-6.	You can add multiple rule items and arrange them in the required order. The rule items are evaluated in the order of definition.
-
-    Rule items are evaluated from top to bottom. If a rule item is evaluated as true, the case gets routed to the destination agent and skips further evaluation. If a rule item is evaluated as false, further rule items are evaluated.
+5.	In the **Rule Items** section, select **New Rule Item**. The **New Rule Item** dialog box appears in which you can specify conditions that will be evaluated for routing cases to a queue, an agent, or a team.
     
-    a.	On the **General** tab of the **Rule Item** form, enter a **Name** and **Description** for the new rule item.
+    a.	On the **General** tab, in **Rule Item Information**, enter a **Name** and **Description**.
 
-    b.	Specify the **If Conditions** and **Then Conditions**. **If Conditions** evaluate the case and **Then Conditions** specify the destination of the case after it is evaluated. You can specify the conditions in the following ways:
+    b.	In **Rule Criteria**, you can specify the conditions in one or a combination of the following way to evaluate for routing cases:
     
        - **Add Row:** Select **…** to group multiple rows of conditions into one group.
         
@@ -105,13 +95,12 @@ Review the following prerequisites before creating a routing rule set:
       > - Only one level of condition hierarchy is currently supported though the application lets you select nested conditions.
       > - You can't create a group if an item of type related entity is present.
       > - Attribute with "Multi Select Option Set" data type is not supported.
-      > - The "not in" for String & Memo data type and "not-on" for Date data type operators are not supported.
-      > - The supported operators in look ups are "equal", "not equal", "null", and "not null".
+      > - The "not in" operator for Single Line of Text and Multiple Lines of Text data types and the "not-on" operator for Date data type are not supported.
+      > - The supported operators in lookups are "equal", "not equal", "null", and "not null".
       > - In the Add related entity list, "One to Many" and "Many to Many" options are not supported.
 
-    c. Select the destination in the **Action** section. You can route the case to an agent, a queue, or a team.
+    c. In **Action** > **Route to**, select queue or user/team.
       
-
       For example, all cases about printer issues from customers should be routed to an agent named Bert Heir, who is the subject matter expert in the team. The rule item for the condition can be configured as shown in the screenshot.
 
       > [!div class="mx-imgBorder"]
