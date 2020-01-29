@@ -25,6 +25,7 @@ search.app:
 
 Customize the Dynamics 365 App for Outlook to best suit your organization needs. Here's what you can customize:
 
+ - [Enable delegate access](enable-delegate-access.md)
  - [Customize the track regarding card](customize-the-track-regarding-card.md)
  - [Customize which entities appear in Quick create ](add-a-custom-entity-to-quick-create.md)
  - [Customize the Regarding lookup to add or remove entities](enable-a-custom-entity-to-appear-in-the-regarding-lookup.md)
