@@ -2,10 +2,8 @@
 title: "Enable customization of the Opportunity Close form (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Enable the system customizers to customize the opportunity close experience in Dynaimcs 365 for Sales to enable sales reps to capture important details about why an opportunity was closed."
 ms.date: 10/01/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -35,6 +33,12 @@ To enable customization:
     > ![Customize opportunity close option in System Settings](media/system-setting-customize-close-opportunity-form.png "Customize opportunity close option in System Settings")
 
 4.  Select **OK**.
+
+
+> [!IMPORTANT]
+> With the February 2020 early access release, you can find this setting in the Sales Hub App Settings area itself. To go to this setting:
+> 1. At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**. 
+> 2. In the site map, select **Overview**, and on the **Overview** page, select **Manage** for **Collect additional details about closed opportunities using custom form fields on the closing form**.
 
 
 ### See also
