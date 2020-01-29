@@ -34,3 +34,7 @@ Use the arrow to set the mode of the productivity pane.
 
 > [!div class='mx-imgBorder']
 > ![Productivity pane](../../media/productivity-pane-expanded.PNG "Productivity pane in expanded mode")
+
+## See also
+
+[Enable the productivity pane to provide guidance to agents](../../administrator/productivity-pane.md)
