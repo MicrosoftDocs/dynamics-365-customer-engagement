@@ -253,22 +253,24 @@ You can create, edit, and delete an activity, note, post, and other interactions
 
 You can select the **Enter a note** box in the timeline and specify a title and message. The message box has a rich text editor that enables you to create rich and well-formatted content for the notes with emphasis. The editor brings common word processor features like: 
 
-- Copy formatting
-- Font and size
-- Bold, italic, and underline
-- Background color for text and text color 
-- Bulleted and numbered list
-- Decrease and increase indent
-- Block quote
-- Text alignment (align left, centre, and right)
-- Link and unlink
-- Text strikethrough
-- Text direction from right to left and left to right
-- Undo and redo
-- Remove format
-- Table
+  - Copy formatting
+  - Font and size
+  - Bold, italic, and underline
+  - Background color for text and text color 
+  - Bulleted and numbered list
+  - Decrease and increase indent
+  - Block quote
+  - Text alignment (align left, centre, and right)
+  - Link and unlink
+  - Text strikethrough
+  - Text direction from right to left and left to right
+  - Undo and redo
+  - Remove format
+  - Table
 
   ![Timeline notes rich text editor](media/timeline-notes1.png "Timeline notes rich text editor")
+
+  You administrator need to enable rich-text editor for you. To learn more, see [Enable rich-text editor for notes in timeline](https://review.docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-rich-text-editor-for-notes-in-timeline).
 
   > [!Note]
   > You can format only the message (body), and not the title.
