@@ -152,6 +152,8 @@ Let's go over the individual elements in the menu bar.
 Delegate access is granted to users who manage certain aspects of Outlook and Common Data Service information for another person.
 Once delegate access in turned on, you can use the Dynamics 365 Outlook App to track emails and calendar appointments information for someone else.
 
+For more information on how to turn on delegate access, see [Enable delegate access](enable-delegate-access.md).
+
 > [!Important]
 > Track status may not update immediately until the sync cycles complete for both the user and the delegated user. This might take few minutes. 
 
