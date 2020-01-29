@@ -61,4 +61,4 @@ Here are some important things to know about your Kanban view:
 
 ### See also
 
-[Add the Kanban control entity](add-kanban-control.md)  
+[Add the Kanban control to opportunity or activity entities](add-kanban-control.md)  
