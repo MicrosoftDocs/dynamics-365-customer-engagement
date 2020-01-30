@@ -81,7 +81,7 @@ When creating routing rule sets, you can add multiple rule items and arrange the
     
     a.	On the **General** tab, in **Rule Item Information**, enter a **Name** and **Description**.
 
-    b.	In **Rule Criteria**, you can specify the conditions in one or a combination of the following way to evaluate for routing cases:
+    b.	In **Rule Criteria**, you can specify the conditions in one or a combination of the following to be evaluated for routing cases:
     
        - **Add Row:** Select **…** to group multiple rows of conditions into one group.
         
@@ -91,7 +91,7 @@ When creating routing rule sets, you can add multiple rule items and arrange the
      
       > [!NOTE]
       > The following limitations are applicable when defining a rule criteria:
-      > - You can’t select a time value for the Date and Time data type.
+      > - You can’t select a time value for the Date and Time data type. If you try to edit an existing rule item that was created in the web client, the time will be set to 00:00.
       > - Only one level of the related entity hierarchy is supported though the application lets you select nested related entities.
       > - The related entity inside a group of the and/or clause is not supported.
       > - By design, the attribute with "Multi Select Option Set" data type is not supported.
