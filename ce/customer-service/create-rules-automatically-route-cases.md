@@ -90,14 +90,14 @@ When creating routing rule sets, you can add multiple rule items and arrange the
        - **Add related entity:** Select to add a condition for a specific entity.
      
       > [!NOTE]
-      > The following limitations are applicable that will be fixed at a later date:
-      > - You can't select time for date condition when defining rule criteria.
-      > - Only one level of condition hierarchy is currently supported though the application lets you select nested conditions.
-      > - You can't create a group if an item of type related entity is present.
-      > - Attribute with "Multi Select Option Set" data type is not supported.
-      > - The "not in" operator for Single Line of Text and Multiple Lines of Text data types and the "not-on" operator for Date data type are not supported.
-      > - The supported operators in lookups are "equal", "not equal", "null", and "not null".
-      > - In the Add related entity list, "One to Many" and "Many to Many" options are not supported.
+      > The following limitations are applicable when defining a rule criteria:
+      > - You can’t select a time value for the Date and Time data type.
+      > - Only one level of the related entity hierarchy is supported though the application lets you select nested related entities.
+      > - The related entity inside a group of the and/or clause is not supported.
+      > - By design, the attribute with "Multi Select Option Set" data type is not supported.
+      > - The "in" and "not in" operators for the Single Line of Text and Multiple Lines of Text data types and the "not-on" operator for the Date data type are not supported.
+      > - For the lookups data type, only the "equal", "not equal", "null", and "not null" operators are supported.
+      > - In the Add related entity list, the "One to Many" and "Many to Many" options are not supported even though the application lets you select them.
 
     c. In **Action** > **Route to**, select queue or user/team.
       
@@ -112,13 +112,13 @@ When creating routing rule sets, you can add multiple rule items and arrange the
 
     > [!NOTE]
     > - Only one routing rule set can be active at any point of time. If you try to activate a rule when another rule is active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.
-    > - If you want to edit an active routing rule set, you must deactivate it. To successfully import a solution that includes an active routing rule set into an organization where a rule exists with the same ID, deactivate the rule in the organization.  
+    > - If you want to edit an active routing rule set, you must deactivate it. To successfully import a solution that includes an active routing rule set into an organization where a rule exists with the same ID, deactivate the rule in the organization.
 
 ## Create a routing rule set (Customer Service app)
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
-     When you create and activate a routing rule set, internally a corresponding workflow is also created. Whatever action you do on the routing rule set, like creating or assigning the rule, you must have privileges to perform the same action on workflows. For the rule to work, you must have sufficient privileges to run a workflow. The routine rule set is applied in context of the privileges that the owner of the routing rule set has.  
+     When you create and activate a routing rule set, internally a corresponding workflow is also created. Whatever action you do on the routing rule set, such as creating or assigning the rule, you must have privileges to perform the same action on workflows. For the rule to work, you must have sufficient privileges to run a workflow. The routine rule set is applied in context of the privileges that the owner of the routing rule set has.  
 
     #### Check your security role  
 
