@@ -34,22 +34,22 @@ For more information about the user rights for the Team Member license, see the 
 
 ## Access the Sales Team Member app
 
-1. Go to home.dynamics.com. You'll see the Team Member apps you have access to. Open the one you want to work on.
+Users with the Team Member license can go to home.dynamics.com. They'll see the team member apps they've access to. 
 
-    > [!div class="mx-imgBorder"]
-    > ![Sales Team Member app](media/sales-team-member-app.png "Sales Team Member app")
+> [!div class="mx-imgBorder"]
+> ![Sales Team Member app](media/sales-team-member-app.png "Sales Team Member app")
     
-    > [!IMPORTANT]
-    > During the early access phase, the Sales Team Member app is shown on the Dynamics 365 home page only if you already have the Sales Hub installed. If you don't see the Sales Team Member app, you can get it from Microsoft AppSource.
+> [!IMPORTANT]
+> - During the early access phase, the Sales Team Member app is shown for a user on the Dynamics 365 home page only if they have the Sales Hub installed. If the Sales Team Member app isn't available on the Dynamics 365 home page, they can get it from Microsoft AppSource.
+> - To allow your users to use the Sales Team Member app, give them access. The Sales Team Member role gives access to the Sales Team Member app. You can use this role or use custom roles. To learn more, see [Add security roles to the app](/powerapps/maker/model-driven-apps/share-model-driven-app#add-security-roles-to-the-app) in the Power Apps documentation.
     
-2. When you open the app, in the site map, you'll see the entities available in the app. 
+When users open the app, in the site map, they'll see the entities available in the app. 
 
-    > [!div class="mx-imgBorder"]
-    > ![Site map of the Sales Team Member app](media/sales-team-member-app-site-map.png "Site map of the Sales Team Member app")
+> [!div class="mx-imgBorder"]
+> ![Site map of the Sales Team Member app](media/sales-team-member-app-site-map.png "Site map of the Sales Team Member app")
+
 
 <!--note from editor: I'm not sure if the "you" in the procedure above is the same "you" this Important note is addressed to? It doesn't seem to be the same audience.-->
-> [!IMPORTANT]
-> Give users access to the Sales Team Member app. The Sales CS Team Member role gives access to the Sales Team Member app. Customers can reuse this role or use custom roles.
 
 ### See also
 
