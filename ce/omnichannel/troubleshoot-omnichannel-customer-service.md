@@ -456,3 +456,25 @@ Perform the following:
 - Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/?linkid=2070932) to get access. To learn more, see [Provide data access consent](administrator/omnichannel-provision-license.md#provide-data-access-consent).
 - Ensure the agent account has the role **Omnichannel Agent**. For more information about the relevant roles, see [Understand roles and their privileges](administrator/add-users-assign-roles.md#understand-roles-and-their-privileges). 
 - Ensure the agent account is assigned to at least one queue in the Omnichannel Administration app. To learn more, see [Manage users in Omnichannel for Customer Service](administrator/users-user-profiles.md).
+
+## Unable to provision Omnichannel for Customer Service app with multi-geo tenants
+
+## Issue:
+
+For security, reliability, and performance reasons, Omnichannel is separated by geographical locations known as regions. The provisioning web page only displays instances in the same region, so you might experience issues that you don’t see all the instances from the Organization selector if you have instances in more than one region and provision Omnichannel without selecting the correct region.
+
+### Resolution:
+
+Perform the following:
+
+From the admin portal, select the desired region from the drop-down menu. 
+
+   > [!div class=mx-imgBorder]
+   > ![Region drop-down menu screenshot](media/oceh/oc-region-menu.png "Region drop-down menu")
+
+Changing the region causes the portal to reload. When it has finished reloading, proceed to **Applications** > **Omnichannel for Customer Service**, and then proceed with the usual provisioning steps.
+
+The provisioning application you are directed to is associated with the region you chose, and all instances located in that region are displayed as options for provisioning.
+
+   > [!div class=mx-imgBorder]
+   > ![Provisioning application screenshot](media/oceh/oc-region-provision.png "Provisioning application screenshot")
