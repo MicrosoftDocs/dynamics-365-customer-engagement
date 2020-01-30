@@ -18,6 +18,7 @@ You can use an email template—a preformatted email message—to quickly create
 
 > [!NOTE]
 > If you try to insert an email template on a device with smaller screen size, you'll only see an option to search and select a template name.
+>
 > [!div class="mx-imgBorder"]
 > ![Search template](media/search-template.png "Search template") 
 
