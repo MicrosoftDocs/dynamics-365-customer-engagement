@@ -31,7 +31,7 @@ You can view and edit the underlying opportunities in two ways:
 
 - [View and edit in a table view](#view-and-edit-in-a-table-view)
 
-- [View and edit in a Kanban view](#view-and-edit-in-a-Kanban-view)
+- [View and edit in a Kanban view](#view-and-edit-in-a-kanban-view)
 
 ## View and edit in a table view
 
