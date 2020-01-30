@@ -125,27 +125,19 @@ To return to the list of records, select **Open Views** in the command bar.
   
  
 ## Navigate through records and pages  
-  
--   When you're viewing a record, select and expand **Open Record Set** to navigate to other records. A side panel opens where you can view other records. You can directly select the records from the panel and view the details of the  record.
- 
-      ![record-set](media/v9-record-set.png "Record set")
 
+When you're viewing a record:
+
+1. Select and expand **Open Record Set** to navigate to other records. 
+
+    ![open record set behavior in top nav](channel-integration-framework\media\Nav-fly-out-1.png "open record set in top nav") 
+
+2. A side panel opens where you can view other records. You can directly select the records from the panel and view the details of the  record.
+
+    ![record set list](channel-integration-framework\media\Nav-fly-out-2.png "record set list") 
+ 
 > [!NOTE]
 > The option Open Record Set will not be available on devices with comparatively smaller screen sizes.
-  
--   To go the previous page in the Customer Service Hub, click the browser’s **Back** button. 
-
-
-You can navigate entities to easily view and sort queue records, activities, and cases using the record set which is located in the top nav bar across all entities.
-
-![open record set behavior in top nav](channel-integration-framework\media\Nav-fly-out-1.png "open record set in top nav") 
-
-
-When clicked, the record set expands to display a list which the agent can quickly scroll through to find information faster and is displayed when clicked.  
-
-![record set list](channel-integration-framework\media\Nav-fly-out-2.png "record set list") 
-
-Organize, prioritize, and monitor work by creating and managing queues and cases.
 
 More information: [Create and manage queues](https://docs.microsoft.com/en-us/dynamics365/customer-service/set-up-queues-manage-activities-cases) and [Create and manage a case](https://docs.microsoft.com/en-us/dynamics365/customer-service/user-guide-customer-service#create-and-manage-a-case).
    
