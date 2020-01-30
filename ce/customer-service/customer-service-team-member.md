@@ -27,7 +27,7 @@ search.app:
 > - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../legal/dynamics-insider-agreement.md).
 
-With the entry-level Team Member license, you can now address self-service support scenarios for your employees using a Dynamics 365 Customer Service app. The employees can search the knowledge base for solutions pertaining to their problems, such as laptop issues, HR queries, and administrative needs. The employees can create cases and interact with agents through the comments feature.
+With the entry-level Team Member license, you can now address self-service support scenarios for your employees using a Dynamics 365 Customer Service app. The emploees can create cases for their problems, such as laptop issues, HR queries, and administrative needs, and interact with agents through the commenting feature. They can also search the knowledge base for solutions pertaining to their problems.
 
 The Customer Service Team Member app is a new  module that will be available to you with the Dynamics 365 Team Member license.
 
