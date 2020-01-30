@@ -16,7 +16,7 @@ manager: annbe
 
 For salespeople, it's important to be able to quickly update opportunities by adding products that their customers are interested in.
 
-With the simplified experience of adding products, salespeople can:
+With the enhanced experience of adding products, salespeople can:
 
 -  Quickly find products from the catalog based on free-text search, or filter products based on the product family or views.
 
@@ -32,7 +32,7 @@ With the simplified experience of adding products, salespeople can:
 
 
 > [!IMPORTANT]
-> - The enhanced "add product" experience is currently in preview (early access). 
+> - The enhanced "add product" experience is released as part of the February 2020 early access release. 
 > - For salespeople to use the enhanced experience, a system administrator must enable it. If you don't see the enhanced experience, check with your system administrator. 
 
 **To add a product by using the enhanced experience**
@@ -46,7 +46,7 @@ With the simplified experience of adding products, salespeople can:
     > [!NOTE]
     > By default, you must select a price list to be able to add products to an opportunity; however, your administrator can change your organization settings to make the **Price List** field optional.
 
-4.  If you want the estimated revenue of the opportunity to be calculated based on the total number of products, set **Revenue** to **System Calculated**. If you want to use a custom estimated revenue, set it to **User Provided**.
+4.  If you want the estimated revenue of the opportunity to be calculated based on all the products added to the opportunity, set **Revenue** to **System Calculated**. If you want to use a custom estimated revenue, set it to **User Provided**.
 
 5.  In the **Product Line Items** grid, select **Add products**.
 
@@ -55,7 +55,7 @@ With the simplified experience of adding products, salespeople can:
     > [!div class="mx-imgBorder"]  
     > ![Add Opportunity Product pane](media/add-opportunity-product-pane.png "Add Opportunity Product pane")
 
-    The form shows three tabs:
+    The form shows four tabs:
 
     -   **Products**. This tab lists all the products and product bundles that are in the **Active** or **Revised** state. Along with entering the product name, it's also possible for you to enter the price per unit and quantity. By default, 25 products are shown. Select **Load more** to see more products. On this tab, you can search and filter the list of products and select the one you want to add.
 
@@ -63,7 +63,7 @@ With the simplified experience of adding products, salespeople can:
     
     -   **Recently Used**. This tab lists the last 15 products that the currently logged-in user has recently added to any opportunity.
     
-    -   **Write-In**. This tab lets you write in a product.
+    -   **Write-In**. This tab lets you create and add a write-in product.
     
     -   **Selected**. This tab shows the count of the products selected to be added to the opportunity. Use this tab to verify or modify the final list of the items you've selected.
 
@@ -86,7 +86,7 @@ The Search capability searches for the keyword in the product names or the field
 
 Here's how the search results are ranked/ordered:
 
--  The records that have values that exactly exact match the keywords are shown first.
+-  The records that have values that exactly match the keywords are shown first.
 
 -   The records that broadly match the keywords are shown next. For example, if you enter **Windows 8.1** as the search keyword, it will search for product records that contain either Windows or 8.1 in the name or other supported fields.
 

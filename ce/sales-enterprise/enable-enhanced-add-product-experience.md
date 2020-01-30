@@ -14,7 +14,7 @@ manager: annbe
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Increase seller productivity by enabling the enhanced experience for searching and adding products to opportunities. With the enhanced experience, sellers can:
+Increase seller productivity by enabling the enhanced experience for searching and adding products to opportunities. With the enhanced experience, salespeople can:
 
 -  Quickly search for products.
 -  View product details inline.
@@ -23,7 +23,7 @@ Increase seller productivity by enabling the enhanced experience for searching a
 
 
 > [!IMPORTANT]
-> The enhanced 'add product' experience is currently in preview (early access). 
+> - The enhanced "add product" experience is released as part of the February 2020 early access release. 
 
 **To enable the enhanced experience**
 
