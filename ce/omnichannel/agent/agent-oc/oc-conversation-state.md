@@ -127,6 +127,9 @@ The scheduler runs for every 24 hours considering starting at 0000 hours AM.
 
 For the chat channel, a conversation is in Open state at 1100 hours of Jan 10, 2020. and remains in this state until midnight 2359 hours. Since the conversation is in Open state for more than 20 minutes (default configured time), this conversation is eligible for auto-closure. At 0000 hours of Jan 11, 2020, the scheduler runs and the conversation in the **Open** state is moved to the **Closed** state.
 
+> [!Note]
+> A scheduler runs every 24 hours to close all eligible conversations. However, the exact time at which the scheduler runs is dependent on the Omnichannel for Customer Service deployment time in your region. For more information, contact Microsoft support.
+
 ### Conversation in waiting state
 
 For chat and SMS channel, a conversation in the **Waiting** state is moved to the **Closed** state when the conversation is inactive for a specified time. **Auto-close after inactivity** is the option in the work stream configuration based on which the conversation is moved to the closed state. 
