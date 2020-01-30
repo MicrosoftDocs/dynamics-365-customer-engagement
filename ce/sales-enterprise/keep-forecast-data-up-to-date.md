@@ -1,0 +1,61 @@
+---
+title: "Maintain up-to-date forecast data (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Maintain up-to-date forecast data in Dynamics 365 Sales."
+ms.date: 02/03/2020
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
+ms.topic: article
+author: udaykirang
+ms.author: udag
+manager: shujoshi
+---
+
+# Maintain up-to-date forecast data
+
+The forecast data is kept latest by automatic recalculation at regular intervals. If you're actively interacting with the forecast, a recalculation is triggered when the data is found to be more than 10 minutes old. After the recalculation, you'll be prompted to refresh the forecast grid to show the updated forecast data.
+
+If you're not actively interacting with the forecast, the data is recalculated every hour. The **Last recalculated** label on the command bar shows the time when the forecast was last recalculated successfully.
+
+If you know that the underlying data has changed, you can select **Recalculate** to manually recalculate, and then refresh to view the updated values. When you recalculate: 
+
+-	The aggregation and rollups for the underlying data are recalculated.
+
+-	Any target/quota changes are checked and updated.
+
+-	Any other changes impacting the forecast values (excluding hierarchy changes) are refreshed.
+
+-	Only the current forecast period is recalculated.
+
+> [!NOTE]
+> The Recalculate option doesn’t change any value that was manually adjusted.
+
+To recalculate and refresh the data in the forecast manually, follow these steps:
+
+1. Select **Recalculate** on the command bar.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select Recalculate](media/forecast-select-recalculate.png "Select Recalculate")
+    
+    A notification appears at the bottom of the screen confirming the recalculation. Recalculation happens in the background and you can continue to work while recalculation is happening.
+
+    > [!div class="mx-imgBorder"]
+    > ![Notification to confirm recalculation](media/forecast-recalculate-data-toast-notification.png "Notification to confirm recalculation")
+
+2. After the application recalculates the forecast data, a notification appears to refresh the data. On the notification, select **Refresh page**.
+
+
+    > [!div class="mx-imgBorder"]
+    > ![Notification to refresh page](media/forecast-refresh-data-toast-notification.png "Notification to refresh page")
+
+    > [!NOTE]
+    > You can cancel the notification and refresh the data later. Select **Refresh** on the command bar.
+
+    The data in the forecast reflects the latest opportunity and hierarchical changes.
+
+### See also
+
+[Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)
+
+[View a forecast](view-forecasts.md)

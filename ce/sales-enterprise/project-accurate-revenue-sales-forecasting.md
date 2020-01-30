@@ -1,7 +1,7 @@
 ---
 title: "Project accurate revenue with sales forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Accurately project sales for your team and estimate the revenue by using sales forecasting in Dynamics 365 Sales."
-ms.date: 10/01/2019
+ms.date: 02/03/2020
 ms.service: 
   - dynamics-365-sales
 ms.custom: 
@@ -14,28 +14,33 @@ manager: shujoshi
 
 # Project accurate revenue with sales forecasting
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+A forecast helps your organization predict how much revenue your sales team will generate in a given timeframe. When done correctly, it can play a significant role in your company's success. Using a forecast:
 
-> [!IMPORTANT]
-> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-> - To learn how to enable a preview feature, see [What are Preview features and how do I enable them?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature)
+- Sellers can track performance against their targets and identify pipeline risks that could jeopardize the ability to hit the targets.
 
+- Managers can track individual sales performance against quotas to pro-actively provide coaching.
 
-Forecasting helps organizations create sales projections and estimate revenue–insights, which can help them manage their resources and cash flow.
+- Directors can use the forecast trends to anticipate departmental sales and reallocate resources.
 
-Salespeople can use forecasting to spot pipeline risks that jeopardize their deals, or to track performance against their targets.
+- Organization leaders can use the projected estimates to change the product strategy or convey updated projections to investors.
 
-A new forecast starts with defining parameters, such as the forecasting time period, and which data will be used. To learn more, see [Configure a forecast](configure-forecast.md).
+## Review prerequisites
 
-An option set must be chosen, and columns configured to determine the confidence level of an opportunity as it moves along the path to conversion. For example, when you select the entity as **opportunities** and the option set as **forecast categories**, the forecast grid displays the stages that are defined in the option set. You can also manually configure your columns for a fully customized forecast. To learn more about the different stages of the Forecast categories option set, see [Capture forecast category for opportunity](capture-forecast-category-opportunity.md).  
+Review the following prerequisites before using forecast:
+
+-	At least a forecast is created with one of the following options:
+
+    -	A hierarchy that you're part of or
+
+    -	Forecast access is provided to a security role that you're part of.
+
+    To learn more, see [Configure a forecast](configure-forecast.md).
+
+-	You should have read privileges for user and territory entities. To learn more, see [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
 
 ## See also
 
 [Configure a forecast](configure-forecast.md) 
 
-[Capture forecast category for opportunity](capture-forecast-category-opportunity.md)  
-
-[View forecasts](view-forecasts.md)
+[View a forecast](view-forecasts.md)

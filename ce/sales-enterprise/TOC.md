@@ -52,6 +52,7 @@
 #### [Provide permissions](provide-permissions-forecast.md)
 #### [Choose layout and columns](choose-layout-and-columns-forecast.md)
 #### [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
+#### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)
 #### [Add forecast grid and configuration options in site map](add-forecast-site-map.md)
 
 ### Playbook management
@@ -64,6 +65,8 @@
 ### Upgrade or downgrade
 #### [Upgrade from Dynamics 365 Sales Professional](upgrade-sales-professional-sales-enterprise.md)
 #### [Move from Dynamics 365 Sales Enterprise to Professional](move-sales-enterprise-sales-professional.md)
+
+
 ## User Guide
 ### [Help resources for sales people](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)
@@ -96,8 +99,11 @@
 
 ### Sales forecasting
 #### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
-#### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)
-#### [View forecasts](view-forecasts.md)
+#### [View a forecast](view-forecasts.md)
+#### [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md)
+#### [Adjust values in a forecast](adjust-values-in-forecast.md)
+#### [Maintain up to date forecast data](keep-forecast-data-up-to-date.md)
+
 
 ### Playbooks
 #### [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)
