@@ -6,7 +6,7 @@ ms.author: kabala
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 11/06/2019
+ms.date: 01/30/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -90,6 +90,26 @@ To upgrade Omnichannel, see [Upgrade Omnichannel for Customer Service](administr
 > - Omnichannel for Customer Service is supported only on desktops, and not on phones and tablets.
 >
 > - Omnichannel for Customer Service for other regions will be available in the future.
+
+## Allow access to websites or URLs
+
+If your organization is using a URL filter to block a category of websites or URLs, you might have to allow a specific website as an exception.
+
+Add the following URLs for your users to access Omnichannel for Customer Service:
+
+- `https://plat.teams.microsoft.com`
+- `https://aad.skypetoken.skype.com`
+- `https://authsvc.teams.microsoft.com`
+- `https://oc-cdn-ocprod.azureedge.net/*`
+- `https://swc.cdn.skype.com/*`
+- `https://config.edge.skype.com/*`
+- `https://edge.skype.com/* `
+- `https://api.aps.skype.com/*` 
+- `https://*.ng.msg.teams.microsoft.com/* `
+- `https://*.notifications.teams.microsoft.com/* ` 
+- `https://*.omnichannelengagementhub.com/*`
+- `https://browser.pipe.aria.microsoft.com/*`
+
 
 ## See also
 
