@@ -39,7 +39,7 @@ Review the following prerequisites before using forecast:
 -	You should have read privileges for user and territory entities. To learn more, see [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
 
-## See also
+### See also
 
 [Configure a forecast](configure-forecast.md) 
 

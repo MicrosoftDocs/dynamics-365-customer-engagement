@@ -87,7 +87,7 @@ Using the forecast grid, you can do the following tasks:
 - [Maintain up to date forecast data](keep-forecast-data-up-to-date.md)
 
  
-## See also
+### See also
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)
 
