@@ -48,6 +48,6 @@ One such resource will be an API Connection type to Dynamics CRM. Select and edi
 Finally, select **Authorize**, **Save**, and use your Dynamics 365 credentials that you use to sign into your Connected Customer Service environment, which may be different than your Azure credentials to the Azure portal.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of authorizing the subscription](./media/cfs-iothub-api-connection-authorize.png)
+> ![Screenshot of authorizing the subscription](media/cfs-iothub-api-connection-authorize.png)
 
 Congratulations! You are now ready to pass data between Azure IoTHub and Dynamics 365 to use Connected Customer Service.
