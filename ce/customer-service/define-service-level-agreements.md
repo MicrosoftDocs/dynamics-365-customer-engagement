@@ -132,7 +132,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 4. In the **Applicable When** section, define the conditions for the entity when the SLA can be applied:
 5. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
 6. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
-7. Select **Save**. THe **Actions** section appears on the page.
+7. Select **Save**. The **Actions** section appears on the page.
 8. Select **Configure Actions**. The Power Automate application opens on a new tab where you can configure the actions and reminders for agents to keep track of their SLAs.
 9. Do the following to configure actions in Power Automate:
     
