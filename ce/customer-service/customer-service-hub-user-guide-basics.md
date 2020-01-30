@@ -85,11 +85,14 @@ The Customer Service Hub comes with an enhanced sitemap to enable easy navigatio
 
 
 ## Understand the sitemap navigation
-  
+
+Open site from <b>Advanced find</b> to create new site and add site to any entity, for example, <b>account</b>.
+
+  ![navigate recods](channel-integration-framework\media\add-site-to-any-entity.png "Navigate records")
+
+
 1. Select the sitemap icon ![Sitemap](media/sitemap-icon.png). Select **Service**, and then select an entity record type.
-  
-    ![navigate recods](channel-integration-framework\media\add-site-to-any-entity.png "Navigate records")
-  
+    
     Now you can add a site to any entity (for example “account”) when you select a record type from the menu, such as Accounts, Contacts, or Cases, you’ll see a list of corresponding customer records (also known as **Entity grid**). 
 
  	To view recently opened records, select the down-arrow next to the record type in the sitemap.
