@@ -1,3 +1,11 @@
+### Version 3.12.3.9
+
+- The one hour offset issue for the bookings created on the Schedule board is fixed in the Brazil Day light saving time.
+- The caching issue with the Schedule Assistant’s Default Availability View setting is set to Board, is now fixed.
+- When a new booking is created on the Days view of the Schedule Board, the board will be refreshed automatically.
+- Resource Requirement map pins are loaded, only when the Map view is opened on the Filter panel of the Schedule Board. 
+- Fixed an upgrade issue due to bad data in the Filter values. 
+
 ### Version 3.12.2.114
 
 - When the schedule board map view is opened, the map automatically zooms out to show all the map pins. 
