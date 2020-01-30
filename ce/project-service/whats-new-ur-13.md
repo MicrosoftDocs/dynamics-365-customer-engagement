@@ -2,12 +2,12 @@
 
 
 title: What's new in Project Service Automation Update Release 13, V3
-description: This topic lists the features and fixes that are available in release 13 of Project Service Automation V3.
+description: This topic provides information about what's new in Project Service Automation Update Release 13, V3.
 author: ruhercul                
 manager: kfend
 ms.service: dynamics-365-projectservice
 ms.custom: dyn365-projectservice
-ms.date: 01/23/2020
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
@@ -25,8 +25,7 @@ search.app:
 
 
 # Project Service Automation V3, Update Release 13
-We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365. This release includes some important improvements to quality, performance, and usability.
-This release is compatible with Dynamics 365 9.x. To update to this release, visit the Admin Center for Dynamics 365 online, solutions page to install the update. For details, refer How to Install, Update a Preferred Solution.
+We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application. This release includes some important improvements to quality, performance, and usability. This release is compatible with Dynamics 365 9.x. To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update. For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 13. This version has a build number of V3.10.3.18 and is available on the following schedule:
 
@@ -34,33 +33,26 @@ This topic lists the features and fixes that are new or changed for Project Serv
 - **Auto-update:** December 2019
 
 
-## Update Release 13 bug fixes
+## Update Release 13 
 
-  -   Time and Expense
+### Bug fixes
 
-        -   Fixed: Search functionality on expense Approval page does not work
-            when searching by expense purpose.
+- Time and Expense
 
-  -   Resource Management
+     - Fixed: Search functionality on the expense **Approval** page does not work when searching by expense purpose.
 
-      -   Fixed: Numbers in the reconciliation have been updated to be right
-          justified.
+- Resource Management
 
-      -   Fixed: Named Resources cannot be assigned to tasks through the
-          Schedule tab.
+     - Fixed: Numbers in the reconciliation have been updated to be right justified.
+     - Fixed: Named Resources cannot be assigned to tasks through the Schedule tab.
 
-  -   Project Management
+- Project Management
 
-      -   Fixed: Null reference exception when assigning team member when
-          TransactionType missing setup for Unit and DefaultGroup.
+     - Fixed: Null reference exception when assigning team member when TransactionType missing setup for Unit and DefaultGroup.
 
-  -   Sales
+- Sales
 
-      -   Fixed: Duplicate Transaction Type records leads to non-graceful
-          failure during creation of Role Price records.
-
-      -   Fixed: Extra buttons(New Opportunity/Quote/Order Line, Add Product)
-          are visible in more commands for Opportunity/Quote/Order Product and
-          project-based Lines Sub Grid.
+     - Fixed: Duplicate Transaction Type records leads to non-graceful failure during creation of Role Price records.
+     - Fixed: Extra buttons(New Opportunity/Quote/Order Line, Add Product) are visible in more commands for Opportunity/Quote/Order Product and project-based Lines Sub Grid.
 
 
