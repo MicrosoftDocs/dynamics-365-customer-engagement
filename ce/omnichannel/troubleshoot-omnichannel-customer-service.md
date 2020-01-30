@@ -457,7 +457,7 @@ Perform the following:
 - Ensure the agent account has the role **Omnichannel Agent**. For more information about the relevant roles, see [Understand roles and their privileges](administrator/add-users-assign-roles.md#understand-roles-and-their-privileges). 
 - Ensure the agent account is assigned to at least one queue in the Omnichannel Administration app. To learn more, see [Manage users in Omnichannel for Customer Service](administrator/users-user-profiles.md).
 
-## Unable to provision Omnichannel for Customer Service app with multi-geo tenants
+## The instance is not available to select on the provisioning application
 
 ## Issue:
 
