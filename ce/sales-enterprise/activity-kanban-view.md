@@ -17,7 +17,7 @@ The lanes represent the default statuses of activities. You can drag the activit
 
 ## Open a Kanban view
 
-A Kanban view is available when the Kanban control is added to the Activity entity. If you don't see the Kanban view, talk to your system customizer.
+A Kanban view is available when the Kanban control is added to the Activity entity. If you don't see the Kanban view, check with your system customizer. 
 
 To open the Kanban view:
 
@@ -47,7 +47,10 @@ Here are some important things to know about your Kanban view:
 
 -  When you select a different view or filter, cards in the lanes are refreshed to show the filtered activity records. For example, if you are currently using thee 'All Activities' view, and select the **Activity Type** filter to only Phone call, the swim lanes is refreshed to show only the phone call activities.
 
--  You can use the **Search** box to filter the records/cards in the swim lane based on the search criteria.
+-  You can use the **Search** box to filter the records/cards in the swim lane based on the search criteria. For example, if you enter the keyword "Discuss", it will refresh the Kanban view to only show the activity records where the title begins with "Discuss".
+
+    > [!div class="mx-imgBorder"]  
+    > ![Use the Search box to filter records in the Kanban view](media/search-in-activity-kanban.png "Use the Search box to filter records in the Kanban view")
 
 -  You can drag a card and move it to other lanes. When you drag a card from one lane to another, the activity status changes:
 

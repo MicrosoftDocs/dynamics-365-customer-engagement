@@ -30,10 +30,18 @@ You can find your activities under **My Work** in the site map.
 You can see the activities in three different views:
 -  List. Shows a list of all activities. 
 
+    > [!div class="mx-imgBorder"] 
+    > ![Activity List view](media/activity-list-view.png "Activity List view")
+
 -  Calendar. Shows a calendar with a list of the day’s scheduled activities and the associated deals. The calendar also syncs the calendar events (phone call) and appointments to your linked email calendar, making sure you never drop the ball on an important opportunity. 
+
+    > [!div class="mx-imgBorder"] 
+    > ![Activity Calendar view](media/activity-calendar-view.png "Activity Calendar view")
 
 -  Kanban. Shows a visual representation of your sales activities in their different states. This lets you see the status of every activity in your pipeline and drag them to move from one status to another (eg. Open, Scheduled, Completed, Canceled). More information: [Work with activities in the Kanban view](activity-kanban-view.md)
 
+    > [!div class="mx-imgBorder"]  
+    > ![Activities in the Kanban view](media/activities-kanban-view.png "Activities in the Kanban view") 
 
 > [!IMPORTANT]
 > The Kanban view and calendar view is released as early access in the February 2020 release. 
@@ -43,6 +51,9 @@ To switch to a different view:
 1.	In the site map, select **Activities**.
 
 2.	On the command bar, select the **More commands** icon ![More commands icon](media/more-commands-icon.png "More commands icon"), and then select **Show As** > **Kanban** or **Calendar Control** or Read-only grid view.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Show activities in the Kanban view](media/activity-show-as-kanban-view.png "Show activities in the Kanban view") 
 
 ## Change your activities view
 
@@ -58,11 +69,18 @@ You can filter the list of activities to see only the ones you’re interested i
 > [!div class="mx-imgBorder"] 
 > ![Activity Type filter](media/activity-type-filter.png "Activity Type filter")
 
+You can also use the **Due** filter to see the activities that are due in a specified time, such as activities that are due today or earlier or activities that are due in the Next 7 days or earlier.
+
+> [!div class="mx-imgBorder"] 
+> ![Due filter](media/due-filter-activity.png "Activity Type filter")
+
 ## Create a new activity
 
 You can create independent activities that aren’t associated with any customer or sales record. To do so, in the site map, select **Activities**, and then on the command bar, select **Email** or **Phone Call** or **Task** depending on which activity you want to create.
 
-With the February 2020 release of Dynamics 365 Sales, a new pop-up window opens on the right of the screen.
+
+> [!NOTE]
+> With the February 2020 release of Dynamics 365 Sales, when you create a new activity, the record opens in a Main form dialog. A Main form dialog is a Main form opening in a dialog (a pop-up window). Main form dialogs allow you to stay in context while working on one record with the ability to open a second or third record in dialog experience. This makes it easier to edit the records.
 
 ## Add a new activity for a customer
 
