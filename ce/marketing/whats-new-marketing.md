@@ -23,7 +23,7 @@ search.app:
 
 # What's new in Dynamics 365 Marketing
 
-We're excited to announce our newest updates! To see the latest enhancements and upcoming features, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/).
+We're excited to announce our newest updates! To see the latest enhancements and upcoming features, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/). This topic summarizes the smaller feature improvements and bug fixes introduced with each monthly update and provides links for more information. This topic also announces when preview or early-access versions of upcoming major features become available for you to try out.
 
 Microsoft rolls out each monthly and biannual update on a region-by-region basis, with the update typically becoming available to all regions by the end of the month (but often earlier). You must manually check for and apply each update to each of your Marketing instances. As soon as the update is available in your region, you'll be able to see and apply it as described in [Keep Marketing up to date](apply-updates.md). We recommend updating all Marketing instances right away.
 
@@ -34,7 +34,7 @@ Microsoft rolls out each monthly and biannual update on a region-by-region basis
 
 The Dynamics 365 Marketing February 2020 update includes an improved segment experience, an updated marketing email designer, plus several feature enhancements, performance upgrades, and bug fixes.
 
-### 2020 release wave 1 plan
+### 2020 Release wave 1 plan
 
 - [Ability to test-send dynamic email messages](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/ability-test-send-dynamic-email-messages)
 - [Export data to Excel for further analysis](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/export-data-excel-further-analysis)
@@ -43,29 +43,24 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
 - [Improved segment design and management](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-segment-design-management)
 - [Improved customer journey experience](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-customer-journey-experience)
 
-### Other enhancements
-
-- Forms Pro integration
-- Time zone aware segments
-
 ### Bug fixes
 
-- Core sending: Checks for whether an installation is complete no longer result in an error message for non-admin users.
+- Quota management: Checks for whether an installation is complete no longer result in an error message for non-admin users.
 - Customer journeys: Added a sample code snippet to enable easier testing of custom channels.
 - Customer journeys: Attached workflows are now deactivated when a customer journey with a record update tile is stopped.
-- Event management: Events now properly issue alert messages when installations are missing required services.
+- Event management: Events now issue an alert message when installations are missing required services.
+- Marketing controls: Improved the visibility of ID values in assist edit.
 - Marketing email designer: Auto save no longer overwrites email templates with unsaved changes.
 - Marketing email designer: Improved responsive design for emails on mobile devices.
-- Marketing email designer: Resolved error where HTML code did not copy and paste correctly into the email designer.
+- Marketing email designer: Resolved an error where HTML code did not copy and paste correctly into the email designer.
 - Marketing pages: Invalid or empty values in DateTime fields are no longer incorrectly parsed.
-- Marketing pages: Resolved error caused by importing a marketing page exported from a portal org into a non-portal org.
+- Marketing pages: Resolved an error caused by importing a marketing page exported from an org with Dynamics 365 Portal to a Portal-less org.
 - Marketing pages: Resolved issue where marketing pages would occasionally hang in the Going Live state after publishing.
 - Marketing pages: Option sets created in the form-capture wizard now invoke an options mapping list.
 - Marketing pages: Websites with misconfigured allowed domains no longer cause errors messages when externally hosted forms are loaded.
-- Segmentation: Resolved issue where default customer journey content settings were not populated for BU user roles.
-- Shared UX: Improved the visibility of ID values in assist edit.
-- Shared UX: Resolved an issue where long segment names could blend into the page background.
-- Template galleries: Improved marketing email designer template gallery loading for all user roles.
+- Segmentation: Resolved an issue where default customer journey content settings were not populated for BU user roles.
+- Segmentation: Resolved an issue where long segment names blended into the page background.
+- Template galleries: Resolved issue where the marketing email designer template gallery sometimes did not load correctly for all users.
 
 ## December 2019 update
 
