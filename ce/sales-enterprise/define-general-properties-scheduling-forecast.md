@@ -28,7 +28,7 @@ To enter configuration and scheduling information in the **General** step, follo
     > [!div class="mx-imgBorder"]
     > ![Forecast rollup entity](media/forecast-rollup-entity-opportunity.png "Forecast rollup entity")
 
-3.	Choose a **Default underlying records view**. This is the default view when users select a row or a cell of the forecast to view the underlying opportunities. To learn more, see [View and edit the underlying opportunities](View-manage-underlying-opportunities.md).
+3.	Choose a **Default underlying records view**. This is the default view when users select a row or a cell of the forecast to view the underlying opportunities. To learn more, see [View and edit the underlying opportunities](view-and-manage-underlying-opportunities.md).
 
 4.	The **Hierarchy route** is configured based on the template that you’ve selected. This determines how the forecast will roll up through your organization. The following **Hierarchy routes** are pre-defined:
 
