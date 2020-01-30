@@ -83,18 +83,13 @@ The Customer Service Hub comes with an enhanced sitemap to enable easy navigatio
 > [!NOTE]
 > The navigation bar for the Customer Service Hub is different from the navigation bar in the Common Data Service platform. </br> Any record types that are enabled for mobile are also available for use in the Customer Service Hub. However, these records are read-only.  
 
-## Create new site
-
-Open site from <b>Advanced find</b> to create new site and add site to any entity, for example, <b>account</b>.
-
-  ![Create New Site](channel-integration-framework\media\add-site-to-any-entity.png "Create New Site")
-
-
 ## Understand the sitemap navigation
 
-1. Select the sitemap icon ![Sitemap](media/sitemap-icon.png). Select **Service**, and then select an entity record type.
-    
-    Now you can add a site to any entity (for example “account”) when you select a record type from the menu, such as Accounts, Contacts, or Cases, you’ll see a list of corresponding customer records (also known as **Entity grid**). 
+1. Open site from <b>Advanced find</b> to create new site.  You can add a site to any entity, for example <b>account</b>.
+
+     ![Create New Site](channel-integration-framework\media\add-site-to-any-entity-1.png "Create New Site")
+ 
+     When you select a record type from the menu, such as Accounts, Contacts, or Cases, you’ll see a list of corresponding customer records (also known as **Entity grid**). 
 
  	To view recently opened records, select the down-arrow next to the record type in the sitemap.
 
