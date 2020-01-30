@@ -23,27 +23,25 @@ To enter configuration and scheduling information in the **General** step, follo
     > [!div class="mx-imgBorder"]
     > ![Enter a Name for the forecast](media/forecast-general-properties-forecast-name.png "Enter a Name for the forecast")
 
-2.	The **Rollup entity** is configured as **Opportunity** by default and cannot be changed.
+2.	By default, the **Rollup entity** is configured as **Opportunity**. This value can't be changed.
 
     > [!div class="mx-imgBorder"]
     > ![Forecast rollup entity](media/forecast-rollup-entity-opportunity.png "Forecast rollup entity")
 
-3.	Choose a **Default underlying records view**. This is the default view when users selects a row or a cell of the forecast to view the underlying opportunities. To learn more, see [View and edit the underlying opportunities](View-manage-underlying-opportunities.md).
+3.	Choose a **Default underlying records view**. This is the default view when users select a row or a cell of the forecast to view the underlying opportunities. To learn more, see [View and edit the underlying opportunities](View-manage-underlying-opportunities.md).
 
 4.	The **Hierarchy route** is configured based on the template that you’ve selected. This determines how the forecast will roll up through your organization. The following **Hierarchy routes** are pre-defined:
 
     | Template | Hierarchy route | Description |
     |----------|-----------------|-------------|
-    | Org chart forecast | Opportunity > Owner | The forecast hierarchy is defined based on the user hierarchy. |
+    | Org chart forecast | Opportunity > Owner | The forecast hierarchy is defined based on the organizational hierarchy. |
     | Territory forecast | Opportunity > Account > Territory | The forecast hierarchy is defined based on the territory hierarchy. |
 
-5.	In **Top of hierarchy**, browse and select a user or a territory that is at the top of this forecast hierarchy. 
+5.	In **Top of hierarchy**, choose the user or territory that is at the top of this forecast hierarchy. 
 
-    When the hierarchy route is selected as the Opportunity > Owner, the top of the hierarchy lists all active users in your organization. You can then select a user from the list for the top of the hierarchy. 
+    For example, When the hierarchy route is selected as the Opportunity > Owner, the top of the hierarchy lists all active users in your organization. You can then select a user from the list for the top of the hierarchy. Say, **Kenny Smith**, a sales director, wants a forecast for his team, then he'll select his name as top name in the hierarchy for **Org chart** based forecast. 
 
-    For example, say **Kenny Smith**, a sales director, wants a forecast for his whole team. Then while creating the **Org chart** based forecast, **Kenny Smith** would be selected as the top of the hierarchy. 
-
-    Once selected, you'll see a preview of full hierarchy. 
+    Once selected, you'll see a preview of full hierarchy on the right pane. 
 
     > [!div class="mx-imgBorder"]
     > ![Configuration section](media/forecast-general-tab-configuration-section.png "Configuration section")
@@ -52,10 +50,10 @@ To enter configuration and scheduling information in the **General** step, follo
 
     | Parameter | Description |
     |-----------|-------------|
-    | Forecast period | Select whether the forecast is to be generated monthly or quarterly. By default, Quarterly is selected. You can generate the forecast up to one year. |
+    | Forecast period | Select whether the forecast is to be generated monthly or quarterly. By default, **Quarterly** is selected. You can schedule the forecast up to one year. |
     | Fiscal year | Select the fiscal year for the forecast. This is populated based on the organization’s fiscal year settings. |
-    | Forecast starts at | Select the time period to start forecasting. If you select the forecast period as Monthly, select the month from which you want to start forecasting. If you select the forecast period as Quarterly, select the quarter from which forecasting should start. |
-    | Number of periods | Enter the number of forecast periods to be generated. You can only create forecasts that span a full year. <br> **Note**: If you select the Forecast period as monthly, Fiscal year as FY19, Forecast starts at as January, and Number of periods as 4, the forecasts that are generated are grouped by four months, January, February, March, and April. In such case, the Forecast start and end dates are automatically set to January 1, 2019, and April 30, 2019, respectively. |
+    | Forecast starts at | Select the time period to start forecasting. If you select the forecast period as **Monthly**, select the month from which you want to start forecasting. If you select the forecast period as **Quarterly**, select the quarter from which you want to start forecasting. |
+    | Number of periods | Enter the number of forecast periods to be generated. You can only create forecasts that span a full year. <br> **Note**: If you select the Forecast period as monthly, Fiscal year as FY19, Forecast starts at as January, and Number of periods as 4, the generated forecasts will be grouped by four months, January, February, March, and April. In such case, the Forecast start and end dates are automatically set to January 1, 2019, and April 30, 2019, respectively. |
     | Valid from | The start date is read-only and helps you to identify the date when the forecast starts. |
     | Valid to | The end date is read-only and helps you to identify the date when the forecast ends. |
  

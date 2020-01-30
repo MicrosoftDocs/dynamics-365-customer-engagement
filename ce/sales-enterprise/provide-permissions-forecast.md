@@ -14,7 +14,7 @@ manager: shujoshi
 
 # Provide permissions
 
-In the **Permissions** step, define who can view and adjust the forecast data at each level of the hierarchy. You can also add additional security roles who can view the forecast. 
+In the **Permissions** step, define which team members can view and adjust the forecast data at each level of the hierarchy. Also, you can provide access to users with specific security roles to view the forecast. 
 
 To set permissions, follow these steps:
 
@@ -31,10 +31,10 @@ To set permissions, follow these steps:
 2.	Under the **Additional security roles** section, select an option as described in the following table to provide permissions to users who are not part of the hierarchy to view the forecast.
 
     | Additional security roles option | Description |
-	|----------------------------------|-------------|
+    |----------------------------------|-------------|
     | No additional security roles | This option provides access only to the selected hierarchy users. When you select this option, other security role users in the organization can't view the forecast. By default, this option is selected. |
-	| All security roles (everyone can access the forecast) | This option provides access to all the security role users in your organization to view the forecast. |
-	| Specific security roles | This option allows you to specify security roles when you want a few external users to view the forecast. |
+    | All security roles (everyone can access the forecast) | This option provides access to all the security role users in your organization to view the forecast. |
+	  | Specific security roles | This option allows you to specify security roles when you want a few external users to view the forecast. |
 
     > [!div class="mx-imgBorder"]
     > ![Forecast permissions step](media/forecast-permissions.png "Forecast permissions step")

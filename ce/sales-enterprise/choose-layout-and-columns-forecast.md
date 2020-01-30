@@ -26,25 +26,25 @@ Perform the following steps to add columns and configure the forecast grid:
 
 ## Add columns from an option set
 
-Every forecast must consist of an option set to define roll up columns. 
+Every forecast needs an option set to define roll up columns. 
 
 > [!IMPORTANT]
-> The **Prediction** column is only available after Predictive forecasting has been enabled in your organization and only when the forecast template is of type **Org chart**. To learn more, see [About premium forecasting](/ai/sales/configure-premium-forecasting).
+> The **Prediction** column is only available when Predictive forecasting is enabled for your organization. The predictive forecasting only works with forecasts based on an **Org chart** template. To learn more, see [About premium forecasting](/ai/sales/configure-premium-forecasting).
 
-To start configuring the layout, first you will select an option set and then add the rollup columns accordingly:
+To start the layout configuration, select an option set and then add the rollup columns accordingly. Follow these steps:
 
 1.	In the **Layout and column** section, select **+ Add from option set**. A list of option sets appears.
 
 2.	Choose an option set and select **Choose selected**. The list shows only the option sets defined on the opportunity entity. Each option set value of the selected option set is added as a column for you to configure.
 
     > [!TIP]
-    > We recommend you use the out-of-the-box **Forecast category** option set for column configuration. After choosing this option, select **Auto-configure** in the dialog box asking if you want to auto-populate the configuration parameters. Column values are then auto-populated according to best practice, saving you the time of configuring each column individually.
+    > We recommend you use the out-of-the-box **Forecast category** option set for column configuration. After choosing this option, select **Auto-configure** in the dialog box asking if you want to auto-populate the configuration parameters. This saves time by automatically populating column according to best practices.
 
     > [!div class="mx-imgBorder"]
     > ![Choose option set for forecast](media/forecast-layout-column-selection.png "Choose option set for forecast")
 
     > [!NOTE]
-    > By default, a **Quota** column of type **Simple** is added to the forecast. You must manually upload an excel file with the quota values to get added in the forecast. To learn more, see [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md).
+    > By default, a **Quota** column of type **Simple** is added to the forecast. To begin taacking against targets, an Excel file containing quota values must be manually uploaded to the forecast. To learn more, see [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md).
 
     Once the rollup columns are added to the forecast, you can rearrange or remove the columns that aren't required through **More options**.
 
@@ -57,16 +57,16 @@ You can individually configure each column according to your organizational requ
 
 Follow these steps:
 
-1.	Hover the cursor over a column name, select **More options** icon, and then select **Configure**. For example, hover the cursor over **Best case** and select **Configure**.
+1.	Hover the cursor over a column name, select the **More options** icon, and then select **Configure**. For example, hover the cursor over **Best case** and then select **Configure**.
 
     > [!div class="mx-imgBorder"]
     > ![Select configuration option for a column](media/forecast-layout-column-configuration-selection.png "Select configuration option for a column")
 
-    The configuration options open.
+    The column configuration options appear.
 
 2.	In the column configuration page, the **Name** specifies the name of the column.
 
-3.	Select the **Type** of column. Depending on the type of column, the options to configure also changes. For example, when you select column type as **Calculated**, a text box appears allowing you to enter the calculation to use. 
+3.	Select the **Type** of column. Depending on the type of column, the options to configure appear. For example, when you select column type as **Calculated**, a text box appears allowing you to enter a formula to use. 
 
     The following types are supported:
 
@@ -86,7 +86,7 @@ Follow these steps:
 
 ### Rollup type
 
-The Rollup column type aggregates all opportunities’ amount field where the current state of the selected forecast option set is equal to the column’s selector value. 
+The **Rollup** column type aggregates the values of all fields based on the selected **Selector** and **Amount field** values, using **Date field** value as filter criteria. 
 
 Select the column **Type** as **Rollup**. The following options are available to configure:
 
@@ -97,10 +97,10 @@ Select the column **Type** as **Rollup**. The following options are available to
 | Amount field | Select the amount field on which the aggregation is calculated. The available fields are based on the selected **Rollup entity**, such as **Opportunity**. For example, if the **Forecast category** option set is selected, the amount field is automatically configured as **Est. Revenue**. <br> If you're using custom field to track the estimated revenue for your organization, select that custom field. |
 | Date field | Select the date field that defines the record’s forecast period. The available fields are based on the selected **Rollup entity**, such as **Opportunity**. For example, if the **Forecast category** option set is selected, the date field is configured as **Est. Close Date**. <br>If you're using custom field to track the estimated close date for your organization, select that custom field.|
 | Description | Enter a description for the column. This description appears as a tool tip on the column header of the forecast grid helping your users get more information. |
-| Allow adjustments | Enable this setting to provide users the ability to overwrite a system calculated value directly in the forecast grid. When enabled, you’ll see a pencil icon next to the forecasted value in that column. To learn more, see [Adjust values in a forecast](adjust-values-in-forecast.md). |
-| Show progress compared to quota | Enable this option to compare the column’s value against the quota column. When enabled, a progress bar indicating the attainment percentage is shown below the forecast value in that column.|
+| Allow adjustments | Enable this setting to provide users the ability to manually edit a system calculated value directly in the forecast grid. When enabled, you’ll see a pencil icon next to the forecasted value in that column. To learn more, see [Adjust values in a forecast](adjust-values-in-forecast.md). |
+| Show progress compared to quota | Enable this option to compare the column’s value against the quota column. When enabled, a progress bar indicating the attainment percentage is shown below the column's value.|
 | Show in Trend Chart | Enable this option to show the value in the **Trend Chart**. This option is available only when predictive forecasting is enabled for your organization. To learn more about Trend Chart, see [Understand forecast projection through trend chart](/ai/sales/understand-forecast-projection-through-trend-chart.md). |
-| Unique name | The unique name is used to uniquely identify the column when writing a formula for a **Calculated** column. |	
+| Unique name | The unique name is used to identify the column when writing a formula for a **Calculated** column. |	
 
 ### Calculated type
 
@@ -109,13 +109,13 @@ When you select column **Type** as **Calculated**, the values for the column are
 | Parameter | Description |
 |-----------|-------------|
 | Data type	| Select a data type for the column that is to be displayed on the forecast grid based on the formula. You can select the value **Currency** or **Decimal** depending on your requirements. |
-| Calculation | Enter a formula that is used to calculate the value for the column. When you start typing a formula, auto suggestions are displayed for your convenience. The names that are displayed are the unique names and display value of the columns. For example, if you want to see the best case forecast in this column, enter the formula as **Closed + Commit + Best Case**. <br> If you enter an invalid formula, an appropriate error is displayed below the **Calculation** field. |
+| Calculation | Enter a formula to calculate values for the column. When you start typing a formula, auto suggestions are displayed for your convenience. The names shown are the column's unique name and value. For example, if you want to see the best case forecast in this column, enter the formula as **Closed + Commit + Best Case**. <br> If you enter an invalid formula, an appropriate error message appears below the **Calculation** field. |
 | Amount field | Select the amount field on which the aggregation is calculated. The available fields are based on the selected Rollup entity, such as Opportunity. For example, if the Forecast category option set is selected, the amount field is automatically configured as Est. Revenue. <br> If you're using custom field to track the estimated revenue for your organization, select that custom field. |
 | Date field | Select the date field that defines the record’s forecast period. The available fields are based on the selected Rollup entity (Opportunity). For example, if the Forecast category option set is selected, the date field is configured as Est. Close Date. <br>If you're using custom field to track the estimated close date for your organization, select that custom field.|
 | Description | Enter a description for the column. This description appears as a tool tip on the column header of the forecast grid helping your users get more information. |
 | Show progress compared to quota | Enable this option to compare the column’s value against the quota column. When enabled, a progress bar indicating the attainment percentage is shown below the forecast value in that column.|
 | Show in Trend Chart | Enable this option to show the value in the **Trend Chart**. This option is available only when predictive forecasting is enabled for your organization. To learn more about Trend Chart, see [Understand forecast projection through trend chart](/ai/sales/understand-forecast-projection-through-trend-chart.md). |
-| Unique name | The unique name is used to uniquely identify the column when writing a formula for a **Calculated** column. |	
+| Unique name | The unique name is used to identify the column when writing a formula for a **Calculated** column. |	
 
 ### Simple type
 
@@ -129,7 +129,7 @@ The following options are available to configure:
 |-----------|-------------|
 | Data type	| Select a data type for the column that is to be displayed on the forecast grid. You can select the value as **Single Line of Text**, **Currency**, or **Decimal** depending on the type of value that you’ll be uploading through an Excel file. |
 | Description | Enter a description for the column. This description appears as a tool tip on the column header of the forecast grid helping your users get more information. |
-| Unique name | The unique name is used to uniquely identify the column when writing a formula for a **Calculated** column. |
+| Unique name | The unique name is used to identify the column when writing a formula for a **Calculated** column. |
 
 ### Hierarchy related type
 
@@ -138,9 +138,9 @@ When you select column **Type** as **Hierarchy related**, the column helps you p
 | Parameter | Description |
 |-----------|-------------|
 | Data type	| Data type of the column that is to be displayed on the forecast grid. By default, the value is selected as **Decimal** and can't be changed. |
-| Attribute field | Select an attribute to display in the column. For example, select **Email that will be unique to each user in your organization and helps you to identify to whom the record belongs. |
+| Attribute field | Select an attribute to display in the column. For example, select **Email** which will be unique to each user in your organization and helps you to identify to whom the record belongs. |
 | Description | Enter a description for the column. This description appears as a tool tip on the column header of the forecast grid helping your users get more information. |
-| Unique name | The unique name is used to uniquely identify the column when writing a formula for a **Calculated** column. |
+| Unique name | The unique name is used to identify the column when writing a formula for a **Calculated** column. |
 
 ## Apply additional filters
 

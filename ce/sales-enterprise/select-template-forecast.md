@@ -14,13 +14,13 @@ manager: shujoshi
 
 # Select a template
 
-You must select a template to create a forecast. The provided templates populate the **Hierarchy route** field, which is used to define the entity for the forecast hierarchy.
+You must select a template to create a forecast. The selected templates populate the **Hierarchy route** field, which defines the entity type in your hierarchy.
 
 To select a template, go to the **Forecast configurations** page and select one of the following templates:
 
--	**Org chart forecast**: The rollups and projections are based on your organization’s reporting structure. This template uses the **Manager** field on the **User** entity for hierarchy.
+-	**Org chart forecast**: Rollups and projections are based on your organization’s reporting structure. This template uses the **Manager** field on the **User** entity for hierarchy.
 
--	**Territory forecast**: The rollups and projections are based on the sales territory hierarchy.
+-	**Territory forecast**: Rollups and projections are based on the sales territory hierarchy.
 
 > [!div class="mx-imgBorder"]
 > ![Forecasting is enabled](media/forecast-enable-forecasting-enabled.png "Forecasting is enabled")

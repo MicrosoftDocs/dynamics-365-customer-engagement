@@ -12,22 +12,22 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Enable forecast
+# Enable forecasting
 
 To use forecasting in your organization, an administrator must enable the feature through the **Forecast configurations** page. When the feature is enabled, the following changes appear in the **Sales Hub** app:
 
--	The **Forecasts** option is created under **Performance** in **Sales** site map.
+-	The **Forecasts** option appears under **Performance** in **Sales** site map.
     
     > [!div class="mx-imgBorder"]
     > ![Forecasts option in sales site map](media/forecast-select-sales-performance-forecasts.png "Forecasts option in sales site map")
  
--	The **Forecast category** option set field is displayed on the **Opportunity** form. These categories in the option set define the status of an opportunity. If required, you can add custom option values specifically defined for your organization.
+-	The **Forecast category** option set field appears on the **Opportunity** form. These categories in the option set define the status of an opportunity. If necessary, you can add custom option values specifically defined for your organization.
 
     > [!div class="mx-imgBorder"]
     > ![Forecast category option in opportunity form](media/capture-forecast-category-opportunity-form.png "Forecast category option in opportunity form")
 
     > [!NOTE]
-    > The **Forecast category** option set consists of **Won** and **Lost** opportunity statuses. If an opportunity is set as won or lost, the forecast category will automatically change to won or lost through an out-of-the-box workflow. <br>
+    > The **Forecast category** option set consists of **Won** and **Lost** opportunity statuses. If an opportunity is set as Won or Lost, the forecast category will automatically change the status through an out-of-the-box workflow. <br>
     > If you’re using custom options set for the forecast category, you must create a workflow to automatically sync the opportunity status with your forecast category to ensure that the forecast is projecting accurate values. <br>
     > To learn more, see [Use Workflow processes to automate processes that don't require user interaction](/customize/workflow-processes).
 
