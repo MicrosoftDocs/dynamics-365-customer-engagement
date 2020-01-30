@@ -68,6 +68,14 @@
 ### Similar Record Suggestions
 #### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
 
+## Connected Customer Service (IoT) add-in
+### [Overview](cs-iot-overview.md)
+### Connected Customer Service for Azure IoT Central
+#### [Overview](cs-iot-azure-overview.md)
+#### [Prerequisites for setting up Connected Customer Service for Azure IoT Central](cs-iot-prerequisites)
+### Connected Customer Service for Azure IoT Hub
+#### [Overview](
+#### [Architecture]
 
 ## Service Scheduling Guide
 ### [Understand Service Scheduling](basics-service-service-scheduling.md)
