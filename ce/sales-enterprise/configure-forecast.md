@@ -36,7 +36,7 @@ To configure a forecast, follow these steps:
 
 4.	[Define general properties and scheduling](define-general-properties-scheduling-forecast.md)
 
-5.	[Provide permissions](provide-permissions-forecast.md)
+5.	[Provide viewing permissions](provide-permissions-forecast.md)
 
 6.	[Choose layout and columns](choose-layout-and-columns-forecast.md)
 

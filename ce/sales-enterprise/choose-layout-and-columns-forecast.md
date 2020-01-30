@@ -175,7 +175,7 @@ For example, you know that opportunities related to **Adatum Corporation** and r
 <tr><td>
 
 > [!div class="nextstepaction"] 
-> [Previous step: Provide permissions](provide-permissions-forecast.md)
+> [Previous step: Provide viewing permissions](provide-permissions-forecast.md)
 </td><td>
 
 > [!div class="nextstepaction"] 

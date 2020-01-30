@@ -70,7 +70,7 @@ To enter configuration and scheduling information in the **General** step, follo
 </td><td>
 
 > [!div class="nextstepaction"] 
-> [Next step: Provide permissions](provide-permissions-forecast.md)
+> [Next step: Provide viewing permissions](provide-permissions-forecast.md)
 </td></tr>
 </table>
 

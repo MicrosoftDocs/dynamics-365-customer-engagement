@@ -49,7 +49,7 @@
 #### [Enable forecasting](enable-forecast.md)
 #### [Select a template](select-template-forecast.md)
 #### [Define general properties and scheduling](define-general-properties-scheduling-forecast.md)
-#### [Provide permissions](provide-permissions-forecast.md)
+#### [Provide viewing permissions](provide-permissions-forecast.md)
 #### [Choose layout and columns](choose-layout-and-columns-forecast.md)
 #### [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
 #### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)
