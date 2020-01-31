@@ -148,11 +148,13 @@ The knowledge base search control provides sort the knowledge articles interacti
 
 When configured, you can link an article to case. You can associate and dissociate the knowledge article with a record.
 
+
+  ![Link to case](media\Knowledge-base-search-2.PNG)
+
+  
 1. From the navigation in the top right of the article there is a link icon. 
 2. When configured, you can click on the link icon and this will link the article to a case.
 3. Articles that are linked to a case will display  <b>Linked to Case</b> in blue in the bottom left and the link icon will update and diplay as: ![Linked to case](media\km-linked-icon.png)
-
-  ![Link to case](media\Knowledge-base-search-2.PNG)
 
 ### Email the knowledge article
 
