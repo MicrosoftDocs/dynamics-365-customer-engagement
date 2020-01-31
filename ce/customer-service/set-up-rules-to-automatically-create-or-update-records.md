@@ -4,7 +4,7 @@ description: Know how to set up rules to automatically create or update records 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -88,7 +88,7 @@ These activities can be converted to any default (system) entity records or cust
 
 - Any rules upgraded to and edited in [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] or later can’t be exported back to an earlier release.  
 
-### Prerequisites 
+## Prerequisites 
 
 Before you can use automatic record creation rules, be sure your external application/social engagement system is already integrated with your Common Data Service platform instance.  
 
