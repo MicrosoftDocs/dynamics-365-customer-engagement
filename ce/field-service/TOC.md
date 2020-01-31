@@ -30,7 +30,8 @@
 ## [Create a new work order](create-work-order.md)
 ## [Add account details to a work order](work-order-customer-account.md)
 ## [Work order types](create-work-order-types.md)
-## [Price list](crt or service](create-product-or-service.md)
+## [Price list](create-price-list.md)
+## [Create a product or service](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
 
@@ -43,8 +44,7 @@
 ## [Time entry](field-service-time-entry.md)
 
 # Scheduling
-## [Universal Resoueate-price-list.md)
-## [Create a producrce Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)
+## [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)
 ## [Types of scheduling](scheduling-capabilities.md)
 ## [Scheduling personas](scheduling-roles-personas.md)
 ## [The 5 stages of scheduling adoption](5-stages-scheduling-adoption.md)

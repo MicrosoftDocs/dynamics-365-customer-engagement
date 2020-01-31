@@ -127,10 +127,10 @@ Making changes to the date or duration of the time entry will update the time-of
 
 ## Configuration considerations
 
-- If you do not want time entries created automatically for the work order process, go to **Field Service > Settings > Field Service Settings** and set the **Time Entry Generation Strategy** to **Manual**.
+- If you do not want time entries created automatically for the work order process, go to **Field Service** > **Settings** > **Field Service Settings** and set the **Time Entry Generation Strategy** to **Manual**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-time-entry-setting.png)
+> ![Screenshot of the manual time entry generation strategy.](./media/work-order-time-entry-setting.png)
 
 
 - Time entries are created based on booking timestamps, and booking timestamps are created based on the **Timestamp Frequency** setting in Field Service Settings. See the [topic on booking timestamps](booking-timestamps.md) to understand how timestamps can be created based on the booking statuses or Field Service booking statuses.
