@@ -107,7 +107,6 @@ Add the following URLs for your users to access the Omnichannel for Customer Ser
 - `https://*.ng.msg.teams.microsoft.com/* `
 - `https://*.notifications.teams.microsoft.com/* ` 
 - `https://*.omnichannelengagementhub.com/*`
-- `https://browser.pipe.aria.microsoft.com/*`
 
 **Geo-specific URLs**
 
