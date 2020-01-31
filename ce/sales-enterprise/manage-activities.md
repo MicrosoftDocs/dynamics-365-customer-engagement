@@ -33,7 +33,7 @@ You can see the activities in three different views:
     > [!div class="mx-imgBorder"] 
     > ![Activity List view](media/activity-list-view.png "Activity List view")
 
--  Calendar. Shows a calendar with a list of the day’s scheduled activities and the associated deals. The calendar also syncs the calendar events (phone call) and appointments to your linked email calendar, making sure you never drop the ball on an important opportunity. 
+-  Calendar. Shows a calendar with a list of the day’s scheduled activities and the associated deals.  
 
     > [!div class="mx-imgBorder"] 
     > ![Activity Calendar view](media/activity-calendar-view.png "Activity Calendar view")
