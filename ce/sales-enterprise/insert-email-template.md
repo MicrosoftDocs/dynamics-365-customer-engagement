@@ -16,12 +16,6 @@ manager: shujoshi
 
 You can use an email template—a preformatted email message—to quickly create and send email messages. You can insert the template while composing an email by selecting **Insert Template** on the command bar. The list of available templates is displayed in the **Email templates** window. In the **Recently used** section, the four most recently used templates by you are displayed. The **All templates** section displays a list of all out-of-the-box email templates (global and entity specific), in alphabetical order. Global templates are shown as the type User. If you've created a custom email template, it will also be available here. For information about creating a custom email template, see [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email).
 
-> [!NOTE]
-> If you try to insert an email template on a device with smaller screen size, you'll only see an option to search and select a template.
->
-> [!div class="mx-imgBorder"]
-> ![Search template](media/search-template.png "Search template") 
-
 You can see templates of a particular language by selecting a language from the **Language** list. You can either search for a template or browse through the list and select it. When you select an email template, a preview is displayed on the right side of the window. The preview shows you the content so you can pick the template that best meets your needs. After inserting an email template, you can modify the content as needed, and then send the email.
 
 > [!NOTE]
@@ -46,6 +40,12 @@ You can see templates of a particular language by selecting a language from the 
 
      > [!div class="mx-imgBorder"]
      > ![Email templates window](media/email-templates-window.png "Email templates window")
+
+> [!NOTE]
+> If you try to insert an email template on a device with smaller screen size, you'll only see an option to search and select a template.
+>
+> [!div class="mx-imgBorder"]
+> ![Search template](media/search-template.png "Search template") 
 
 ### See also
 
