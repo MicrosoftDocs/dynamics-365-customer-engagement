@@ -85,6 +85,7 @@
 ## [Activate mobile configurator](activate-fs-mobile-app-license.md)
 ## [Upgrade the mobile project template](mobile-upgrade-project.md)
 ## [Push notifications](mobile-push-notifications.md)
+## [Device and app management with Microsoft Intune](field-service-mobile-intune.md)
 ## [Geofencing](geofencing.md)
 ## [Deep linking](mobile-deeplink.md)
 ## FAQs + troubleshooting
