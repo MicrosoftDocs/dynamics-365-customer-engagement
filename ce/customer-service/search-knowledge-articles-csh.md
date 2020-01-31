@@ -98,16 +98,6 @@ In the knowledge base search control, you perform the following:
 - Email the knowledge article
 - View the knowledge article inline in the search control
 
-### Link to Case
-
-When configured, you can link an article to case.
-
-1. From the navigation in the top right of the article there is a link icon. 
-2. When configured, you can click on the link icon and this will link the article to a case.
-3. Articles that are linked to a case will display  <b>Linked to Case</b> in blue in the bottom left and the link icon will update and diplay as: ![Linked to case](media\km-linked-icon.png)
-
-  ![Link to case](media\Knowledge-base-search-2.PNG)
-
 ### Display knowledge article pop outs 
 
 1. In the top right corner, click on the ellipsis (...) 
@@ -156,9 +146,13 @@ The knowledge base search control provides sort the knowledge articles interacti
 
 ### Link and unlink the knowledge article to a record
 
-You can associate and dissociate the knowledge article with a record by using the **Link** and **Unlink** buttons.
+When configured, you can link an article to case. You can associate and dissociate the knowledge article with a record.
 
-  ![Knowledge article link and unlink buttons](media/km-link-unlink.png "Knowledge article link and unlink buttons") 
+1. From the navigation in the top right of the article there is a link icon. 
+2. When configured, you can click on the link icon and this will link the article to a case.
+3. Articles that are linked to a case will display  <b>Linked to Case</b> in blue in the bottom left and the link icon will update and diplay as: ![Linked to case](media\km-linked-icon.png)
+
+  ![Link to case](media\Knowledge-base-search-2.PNG)
 
 ### Email the knowledge article
 
