@@ -100,7 +100,6 @@ Add the following URLs for your users to access the Omnichannel for Customer Ser
 - `https://plat.teams.microsoft.com`
 - `https://aad.skypetoken.skype.com`
 - `https://authsvc.teams.microsoft.com`
-- `https://oc-cdn-ocprod.azureedge.net/*`
 - `https://swc.cdn.skype.com/*`
 - `https://config.edge.skype.com/*`
 - `https://edge.skype.com/* `
@@ -110,6 +109,21 @@ Add the following URLs for your users to access the Omnichannel for Customer Ser
 - `https://*.omnichannelengagementhub.com/*`
 - `https://browser.pipe.aria.microsoft.com/*`
 
+**Geo-specific URLs**
+
+| Geographic location | URL |
+|-------------------------------|----------------------------------|
+| North America | `oc-cdn-ocprod.azureedge.net/*`|
+| Europe | `oc-cdn-public-eur.azureedge.net/*`|
+| South America | `oc-cdn-public-sam.azureedge.net/*`|
+| United Kingdom | `oc-cdn-public-gbr.azureedge.net/*`|
+| Japan | `oc-cdn-public-jpn.azureedge.net/*`|
+| Asia Pacific | `oc-cdn-public-eur.azureedge.net/*`|
+| Canada | `oc-cdn-public.azureedge.net/*`|
+| India | `oc-cdn-public-ind.azureedge.net/*`|
+| Asia-Pacific and Japan | `oc-cdn-public-apj.azureedge.net/*`|
+| Australia | `oc-cdn-public-oce.azureedge.net/*`|
+| France | `oc-cdn-public-fra.azureedge.net/*`|
 
 ## See also
 
