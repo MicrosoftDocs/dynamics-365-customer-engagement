@@ -63,8 +63,7 @@ Lets walk through an example.
 
 Assume a work order was created and scheduled to a technician.  When the dispatcher scheduled the booking, it was given a booking status of "Scheduled" by default.
 
-
-Next the technician sees the booking and work order on his or her mobile device and updates the booking status to reflect his or her progress by changing it to traveling, in progress, completed or other custom booking statuses based on your business needs.
+Next, the technician sees the booking and work order on their mobile device and updates the booking status to reflect progress by changing it to traveling, in progress, completed, or some other custom booking status.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service Mobile on a tablet device, showing the booking status field.](./media/scheduling-timestamps-mobile-status.png)
@@ -106,31 +105,30 @@ To help illustrate, consider that you have three booking statuses:
 When a technician updates their booking Status on Field Service Mobile to **Arrived On Site**, a timestamp will be created. When they arrive onsite and begin work, they mark the booking status as **Wrench Time**. By default in Field Service, a new timestamp will *not* be created, as the associated Field Service status is still **In Progress**. When the booking status is updated to **Complete**, another timestamp will be created, as the associated Field Service status is different. 
 
 
-## Timestamp Frequency setting
+## Timestamp frequency setting
 
->[!Note]
-> The timestamp frequency setting is available in Public Preview as of February 3, 2020. 
+> [!Note]
+> This functionality is available in early access as of February 3, 2020. For more information, visit [this article on opting into early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates).
 
 
-Timestamp Frequency setting allows you to choose when booking timestamps are created.
+The **Timestamp Frequency** setting allows you to choose when booking timestamps are created.
 
-Go to **Field Service > Settings > Field Service Settings**
+Go to **Field Service** > **Settings** > **Field Service Settings**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the timestamp frequency functionality in Field Service settings.](./media/scheduling-timestamps-frequency-setting.png)
 
-In the Timestamp Frequency field choose one of the following options:
+In the **Timestamp Frequency** field, choose one of the following options:
 
- - **Per Field Service Status Change**, to create timestamps only when a booking status change results in a field service status change. This is the default setting as seen in the scenario above.
-- **Per Booking Status Change**, to create timestamps with every booking status change.
+ - **Per Field Service Status Change** to create timestamps only when a booking status change results in a field service status change. This is the default setting as seen in the previous scenario.
+- **Per Booking Status Change** to create timestamps with every booking status change.
 
-The main difference is how detailed an organization wants to be for time entry,reporting, and integration purposes.
+The main difference is how detailed an organization wants to be for time entry, reporting, and integration purposes.
 
 
 ### Per Field Service Status Change
 
-Using our example above with three booking statuses each with a related FIeld Service Status, if Timestamp Frequency setting is set to *Per Field Service Status Change* the related booking timestamps will be created as seen the image below.
-
+Using our example with three booking statuses each with a related Field Service status, if **Timestamp Frequency** is set to *Per Field Service Status Change* the related booking timestamps will be created as seen the following screenshot.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of booking timestamps on a bookable resource booking.](./media/scheduling-timestamps-booking-statuses-per-fs-status.png)
