@@ -51,6 +51,10 @@ Currently, the Kanban view is only available for the **Opportunity sales process
 
 > [!div class="mx-imgBorder"]  
 > ![Business process flow-based opportunity Kanban view](media/bpf-based-kanban-view.png "Business process flow-based opportunity Kanban view")
+
+
+> [!NOTE]
+> If your system administrator or customizer has customized the **Opportunity sales process** business process, such as changing the stages in the business process flow, the changes are reflected in the business process flow-based opportunity Kanban view. 
  
 ## Know your Kanban views
 
