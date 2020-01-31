@@ -1,6 +1,6 @@
 ---
-title: "Add the Kanban control to opportunity or activity entity (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Add the Kanban control to the opportunity or Activity entity. The Kanban control enables salespeople to monitor their pipeline, see where opportunities are in a business process flow, or track their activities efficiently."
+title: "Add the Kanban control to Opportunity or Activity entities (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Add the Kanban control to the Opportunity or Activity entity. The Kanban control enables salespeople to monitor their pipeline, see where opportunities are in a business process flow, or track their activities efficiently."
 ms.date: 02/03/2020
 ms.service:
   - "dynamics-365-sales"
@@ -10,7 +10,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Add the Kanban control to opportunity or activity entity
+# Add the Kanban control to Opportunity or Activity entities
 
 Kanban views help salespeople to manage their opportunities and activities effectively. Add the Kanban control to the Opportunity and Activity entity so salespeople can use the Kanban views.
 
@@ -22,18 +22,18 @@ To add the control:
  
     The Business Management page opens.
 
-2.	On the navigation bar, select **Settings**, and then under **Customization**, select **Customizations**.
+2.	On the navigation bar, select **Settings** and then under **Customization**, select **Customizations**.
 
 3.	Select **Customize the System**.
 
-4.	Under **Components** in the solution explorer, expand **Entities**, and then select **Opportunity** or **Activity**.
+4.	Under **Components** in the solution explorer, expand **Entities** and then select **Opportunity** or **Activity**.
 
 5.	Go to the **Controls** tab and select **Add Control**.
 
     > [!div class="mx-imgBorder"]  
     > ![Read-only Grid control selected as default](media/read-only-grid-control.png "Read-only Grid control selected as default")
 
-6.	In the **Add Control** dialog box, select **Kanban**, and then select **Add**.
+6.	In the **Add Control** dialog box, select **Kanban** and then select **Add**.
 
     > [!div class="mx-imgBorder"]  
     > ![Add Control dialog box](media/add-control-dialog-box.png "Add Control dialog box")
@@ -45,7 +45,7 @@ To add the control:
     > [!div class="mx-imgBorder"]  
     > ![Make the Kanban view the default view](media/make-kanban-view-default.png "Make the Kanban view the default view") 
 
-8.	Select the **Save** icon to save your changes.
+8.	Select **Save** to save your changes.
 
 9.	To publish the changes you’ve made, select **Publish**.
 
@@ -53,4 +53,5 @@ To add the control:
 ### See also
 
 [Work with opportunities in the Kanban view](opportunity-kanban-view.md)  
+
 [Work with activities in the Kanban view](activity-kanban-view.md)
