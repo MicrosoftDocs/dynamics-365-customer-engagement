@@ -85,13 +85,13 @@ The Customer Service Hub comes with an enhanced sitemap to enable easy navigatio
 
 ## Understand the sitemap navigation
 
-1. Open site from <b>Advanced find</b> to create new site.  You can add a site to any entity, for example <b>account</b>.
+1. Select the sitemap icon ![sitemap icon](media\sitemap-icon.png) Sitemap. Select Service, and then select an entity record type.
 
-     ![Create New Site](channel-integration-framework\media\add-site-to-any-entity-1.png "Create New Site")
- 
-     When you select a record type from the menu, such as Accounts, Contacts, or Cases, you’ll see a list of corresponding customer records (also known as **Entity grid**). 
+  ![Navigate Records](media\v9-navigate-records.png "Navigate Records")
 
- 	To view recently opened records, select the down-arrow next to the record type in the sitemap.
+When you select a record type from the menu, such as Accounts, Contacts, or Cases, you’ll see a list of corresponding customer records (also known as Entity grid).
+
+To view recently opened records, select the down-arrow next to the record type in the sitemap.
 
     Here is what each entity record type is used for:
 
@@ -396,6 +396,13 @@ In the Customer Service Hub sitemap, select **Service** > **Queues**. The queues
     - **Release** the record. It will be assigned back to the queue owner for other's to pick up.
 
 To know how to add a case to a queues, see [Add a case to a queue](customer-service-hub-user-guide-case-sla.md#add-a-case-to-a-queue).
+
+## Understand Site
+
+Now when you create a new site, you need to go to <b>advanced find</b> ![advanced find](media\advanced-find-icon.png ""), where you can add a site to any entity, for example <b>account</b>.
+
+  ![Create New Site](channel-integration-framework\media\add-site-to-any-entity-1.png "Create New Site")
+ 
 
 
 ### See also
