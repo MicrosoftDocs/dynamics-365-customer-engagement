@@ -28,7 +28,7 @@ search.app:
 
 # Schedule in sequence with Requirement Dependencies
 
-
+By adding dependencies to your requirements you can ensure Resource Scheduling Optimization will 
 Very helpful for scenarios where a technician needs to travel to one location to pick up parts before performing a work order or any scenario with sequential work at the same or different locations
 
 Ensure RSO auto schedules requirements in sequence
@@ -78,6 +78,14 @@ Applies to single requirements
 ## Additional Notes
 
 Will ensure the start time of the successor is after the end time of the predecessor. RSO may schedule the successive requirements on the following day or days but to the same resource. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-requirement-dependency-day-gap.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-requirement-dependency-different-location.png)
 
 Does not apply to requirement groups
 Does not apply to manual scheduling or schedule assistant
