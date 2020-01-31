@@ -34,14 +34,45 @@ Microsoft rolls out each monthly and biannual update on a region-by-region basis
 
 The Dynamics 365 Marketing February 2020 update includes an improved segment experience, an updated marketing email designer, plus several feature enhancements, performance upgrades, and bug fixes.
 
-### 2020 Release wave 1 plan
+### Early access features
 
-- [Ability to test-send dynamic email messages](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/ability-test-send-dynamic-email-messages)
-- [Export data to Excel for further analysis](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/export-data-excel-further-analysis)
-- [Improved email content designer](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-email-content-designer)
-- [Improved event management experience](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-event-management-experience)
-- [Improved segment design and management](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-segment-design-management)
-- [Improved customer journey experience](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-customer-journey-experience)
+- **Ability to test-send dynamic email messages**
+    - [Release plan](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/ability-test-send-dynamic-email-messages)
+    - [Docs]()
+- **Export data to Excel for further analysis**
+    - [Release plan](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/export-data-excel-further-analysis)
+    - [Docs]()
+- **Improved email content designer**
+    - [Release plan](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-email-content-designer)
+    - [Docs]()
+- **Improved event management experience**
+    - [Release plan](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-event-management-experience)
+    - [Docs]()
+- **Improved segment design and management**
+    - [Release plan](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-segment-design-management)
+    - [Docs]()
+- **Improved customer journey experience**
+    - [Release plan](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-customer-journey-experience)
+    - [Docs]()
+
+### General availability enhancements
+
+- Customer journey: 
+- Marketing forms: 
+- Marketing forms: 
+- Marketing forms: 
+- Marketing forms: 
+- Other improvements: 
+- Other improvements: 
+- Other improvements: 
+- Recurrent events: Improved saving of recurrent events.
+- Recurrent events: 
+- Recurrent events: 
+- Segments: 
+- Segments: 
+- Segments: 
+- Segments: 
+- Segments: 
 
 ### Bug fixes
 
