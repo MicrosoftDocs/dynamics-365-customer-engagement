@@ -95,7 +95,7 @@ To upgrade Omnichannel, see [Upgrade Omnichannel for Customer Service](administr
 
 If your organization is using a URL filter to block a category of websites or URLs, you might have to allow a specific website as an exception.
 
-Add the following URLs for your users to access Omnichannel for Customer Service:
+Add the following URLs for your users to access the Omnichannel for Customer Service app and live chat widget in the portal:
 
 - `https://plat.teams.microsoft.com`
 - `https://aad.skypetoken.skype.com`
