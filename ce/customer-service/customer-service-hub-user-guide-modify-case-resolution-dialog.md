@@ -26,7 +26,7 @@ Updates to the case resolution main form dialog (MFD) provides customers with ad
 The new MFD experience is similar to the old experience, but behind the scenes this is a form which customers can freely edit.  Customers have the ability to go into the form designer and edit and modify fields as desired based on business needs.
 
 ## Set Resolution Type
-One example of how the new case resolution features can be leverage is through resolving a situation where you receive duplicate cases by having the ability to set the resolution type to display which cases have duplicate status.  
+One example of how case resolution can be used, is by resolving situations where you receive duplicate cases. You now can set the resolution type to display which cases have duplicate status.  
 
 The following steps provide walk you through how to set the resolution type for duplicate cases:
 
