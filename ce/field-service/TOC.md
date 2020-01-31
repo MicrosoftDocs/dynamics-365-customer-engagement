@@ -54,6 +54,7 @@
 ### [Booking statuses](set-up-booking-statuses.md)
 ### [Fulfillment preferences](set-up-time-groups.md)
 ### [Booking rules](set-up-booking-rules.md)
+### [Analytics dashboard](scheduling-analytics-reports.md)
 
 ## Scheduling
 ### [Travel time and distance](schedule-with-travel-time.md)
@@ -129,6 +130,7 @@
 ### [Publishing + monitoring](rso-schedule-optimization.md)
 ### [Overnight scheduling](rso-overnight-scheduling.md)
 ### [Single resource optimization](single-resource-optimization.md)
+## [Analytics dashboard](scheduling-analytics-reports.md)
 ## [FAQs + troubleshooting](rso-faq.md)
 
 # Connected Field Service (IoT) add-in
@@ -152,6 +154,7 @@
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 ## [Security roles for Connected Field Service](cfs-security-roles.md)
+
 # Integrations
 ## [Dynamics 365 Remote Assist and HoloLens](remote-assist-hololens.md)
 ## [Dynamics 365 Guides on HoloLens](mixed-reality-guides-integration.md)
