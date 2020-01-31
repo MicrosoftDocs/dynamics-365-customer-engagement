@@ -142,9 +142,9 @@ The optimization summary analyzes the automatically scheduled bookings and the e
 | Work time allocated (hrs.) |	The total work time allocated in given schedule requests. |
 | Travel time allocated (hrs.) |	The total travel time allocated in given schedule requests. |
 |Total time allocation (hrs.) |	The breakdown percentage and value between work time and travel time. |
-| Resource time allocation |	Uncover RSO reports of the booking scheduled, locked bookings, work time and travel time per individual resource in given schedule requests.  Highlight the overloaded resource with color coding. |
-| Least allocated resource |	Rank the resource based on lower utilization so the planner can squeeze new emergency to least allocated resource |
-|Territory summary |	Show the filled map for each territory and you can filter the data by selecting one of Territory |
+| Resource time allocation |	Within a an optimization request, understand each resource's scheduled bookings, locked bookings, work time and travel time. Overbooked resources are highlighted as well. |
+| Least allocated resource |	Ranks resources by lowest utilization. This can help dispatchers assign new emergency jobs accordingly. |
+|Territory summary |	Displays optimized territories on a map, with the ability to drill down. |
 | Booking metrics by territory | 	Shows scheduled bookings, work time allocated, and total travel time allocated for each territory. |
 
 
