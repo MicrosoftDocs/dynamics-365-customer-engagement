@@ -125,7 +125,7 @@ The RSO admin report analyzes when and how RSO runs, but not the actual booking 
 | Optimization Scope: Number of bookings |	The average number of bookings in given schedule requests.  |
 | Optimization Scope: Number of requirements |	The average number of requirements in given schedule requests. |
 | Optimization Scope: Number of resources |	The average number of schedulable resources in given schedule requests. |
-|Optimization E2E time |	This metric defines the optimization execution time |
+|Optimization E2E time |	This metric defines the optimization execution time. |
 | Number of failed optimization requests |	The number of failed optimization requests in the given schedule requests. |
 
 ## Optimization summary reports
