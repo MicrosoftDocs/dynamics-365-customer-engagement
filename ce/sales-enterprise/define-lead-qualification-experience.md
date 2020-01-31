@@ -10,6 +10,10 @@ ms.author: shujoshi
 manager: annbe
 ---
 
+<!--from editor: I recommend that you update the publication date in the metadata. -->
+
+
+
 # Define lead qualification experience
 
 Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified. 
@@ -41,5 +45,5 @@ This behavior is applicable on all the leads that are qualified after this setti
 > 2. In the site map, select **Overview**, and on the **Overview** page, select **Manage** for **Auto-create records for newly qualified leads**.
 
 ### See also
-[Qualify a lead](qualify-lead-convert-opportunity-sales.md)  
-[Create or edit a lead](create-edit-lead-sales.md)  
+[Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)  
+[Create or edit leads](create-edit-lead-sales.md)  
