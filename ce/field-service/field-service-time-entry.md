@@ -31,16 +31,16 @@ search.app:
 > [!Note]
 > This functionality is available in early access as of February 3, 2020. For more information, visit [this article on opting into early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates).
 
-Time entry capabilities help field service organizations better track the time that technicians spend during work orders and other scenarios. By capturing costs from approved time entries, organizations can drive more accurate accounting practices and profit-loss calculations.
+Time entry capabilities help field service organizations better track the time that technicians spend during work orders and other scenarios. 
 
 Time entries are useful for: 
 
 - reporting 
 - understanding utilization
-- billing and invoicing for service
+- billing and invoicing for service 
 
 > [!Note]
-> Field Service time entry aligns with Dynamics 365 Project Service Automation to capture time entries into the same entity that Project Service Automation has always used for consistent capture, regardless of whether your organization uses Field Service, Project Service Automation, or both.
+> Field Service time entry utilizes the same entity that Project Service Automation has always used. This creates a consistent time capture process, regardless of whether your organization uses Field Service, Project Service Automation, or both.
 
 There are three ways time entries are created in Dynamics 365 Field Service: 
 
@@ -70,7 +70,7 @@ When the work order booking status is changed to **Completed**, time entries are
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a list of time entries for one person.](./media/work-order-time-entry-work-order.png)
 
-When the work order system status (different than the booking status) is changed to **Closed-Posted**, actual records are created. These represent the internal cost of the technician's time.
+When the work order system status (different than the booking status) is changed to **Closed-Posted**, actual records are created based on the time entries. These represent the internal cost of the technician's time.
 
 
 > [!div class="mx-imgBorder"]
@@ -124,6 +124,13 @@ Making changes to the date or duration of the time entry will update the time-of
 
 
 ## Configuration considerations
+
+- If you do not want time entries created automatically for the work order process, go to **Field Service > Settings > Field Service Settings** 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-time-entry-setting.png)
+
+
 
 Time entries are created based on booking timestamps, and booking timestamps are created based on the **Timestamp Frequency** setting in Field Service Settings. See the [topic on booking timestamps](booking-timestamps.md) to understand how timestamps can be created based on the booking statuses or Field Service booking statuses.
 
