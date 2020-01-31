@@ -92,7 +92,7 @@ Time entries can also be created manually from Field Service Mobile.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of time entry on Field Service Mobile.](./media/work-order-time-entry-mobile.png)
 
-Import [this April 2020 early access mobile project Template](http://aka.ms/fsmproject-mobile-ea) into the Mobile Configuration Tool (Woodford) to display Time Entries in Field Service Mobile. 
+Import [this April 2020 early access mobile project Template](https://aka.ms/fsmproject-mobile-ea) into the Mobile Configuration Tool (Woodford) to display Time Entries in Field Service Mobile. 
 
 
 ## Time off
