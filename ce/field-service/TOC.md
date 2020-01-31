@@ -56,6 +56,7 @@
 ### [Timestamps](booking-timestamps.md)
 ### [Fulfillment preferences](set-up-time-groups.md)
 ### [Booking rules](set-up-booking-rules.md)
+### [Analytics dashboard](scheduling-analytics-reports.md)
 
 ## Scheduling
 ### [Travel time and distance](schedule-with-travel-time.md)
@@ -132,6 +133,7 @@
 ### [Publishing + monitoring](rso-schedule-optimization.md)
 ### [Overnight scheduling](rso-overnight-scheduling.md)
 ### [Single resource optimization](single-resource-optimization.md)
+## [Analytics dashboard](scheduling-analytics-reports.md)
 ## [FAQs + troubleshooting](rso-faq.md)
 
 # Connected Field Service (IoT) add-in
