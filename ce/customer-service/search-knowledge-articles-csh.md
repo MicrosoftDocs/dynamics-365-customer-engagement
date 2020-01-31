@@ -73,16 +73,21 @@ The Customer Service Hub comes with an enhanced Knowledge Base Search that shows
 
 When you select the Knowledge Base Search option in the RELATED section, the Knowledge Base Search control loads, and you can view the following:
 
-  ![Knowledge-article-search](media/case-form-kb-search.png "Knowledge article search")
+  ![Knowledge-article-search](media\Knowledge-base-search-1.png "Knowledge article search")
 
   1. Knowledge Base Search
   2. Open filter pane
   3. Sort search results by
   4. Search knowledge articles
   5. Link this article to the current record (unlink will be displayed when the article is already linked to a record)
-  6. Link this article to a record and send via Email
-  7. Views
-  8. Rating
+  6. Copy
+  7. Displays Popout and Email link this article to a record and send via Email 
+  8. Link this article to a record and send via Email
+  9. Rating
+  10. Link to case
+  11. Views
+  12. Confirmation that record is linked to case
+  13. Article date
 
 
 In the knowledge base search control, you perform the following:
@@ -93,11 +98,30 @@ In the knowledge base search control, you perform the following:
 - Email the knowledge article
 - View the knowledge article inline in the search control
 
+### Link to Case
+
+When configured, you can link an article to case.
+
+1. From the navigation in the top right of the article there is a link icon. 
+2. When configured, you can click on the link icon and this will link the article to a case.
+3. Articles that are linked to a case will display  <b>Linked to Case</b> in blue in the bottom left.
+
+  ![Link to case](media\Knowledge-base-search-2.PNG)
+
+### Display knowledge article pop outs 
+
+1. In the top right corner, click on the ellipsis (...) 
+2. A display window will appear with the Pop out option
+3. Click on <b>Pop out</b> option
+4. This will opened and the article will be expanded into a new window.
+
+  ![Pop out](media\Knowledge-base-search-3.PNG)
+
 ### Search for knowledge articles
 
 Type a keyword in the search box to search for knowledge articles.
 
-  ![Knowledge-article-search](media/search-kb-article.png "Knowledge article search")
+  ![Knowledge-article-search](media\search-kb-article.PNG "Knowledge article search")
 
 - If Relevance search is not enabled, the keywords that you enter will initiate  a search (using Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 
