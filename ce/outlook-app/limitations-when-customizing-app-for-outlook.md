@@ -1,7 +1,7 @@
 ---
 title: "Limitations when customizing Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/07/2019
+ms.date: 01/30/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -70,5 +70,5 @@ We recommend that you do not change the default App for Outlook dashboard as tha
   ![App for Outlook App Designer Dashboard](media/AppDesignerDashboard.PNG "App for Outlook App Designer Dashboard")
   
 > [!Note]
-> Business process rlows are not supported in Dynamics 365 App for Outlook. When customizing the app, you should not explicitly select any business process flows.
+> Business process flows are not supported in Dynamics 365 App for Outlook. When customizing the app, you should not explicitly select any business process flows.
 
