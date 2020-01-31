@@ -92,6 +92,8 @@ Time entries can also be created manually from Field Service Mobile.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of time entry on Field Service Mobile.](./media/work-order-time-entry-mobile.png)
 
+Import [this April 2020 early access mobile project Template](http://aka.ms/fsmproject-mobile-ea) into the Mobile Configuration Tool (Woodford) to display Time Entries in Field Service Mobile. 
+
 
 ## Time off
 
@@ -125,14 +127,13 @@ Making changes to the date or duration of the time entry will update the time-of
 
 ## Configuration considerations
 
-- If you do not want time entries created automatically for the work order process, go to **Field Service > Settings > Field Service Settings** 
+- If you do not want time entries created automatically for the work order process, go to **Field Service > Settings > Field Service Settings** and set the **Time Entry Generation Strategy** to **Manual**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-time-entry-setting.png)
 
 
-
-Time entries are created based on booking timestamps, and booking timestamps are created based on the **Timestamp Frequency** setting in Field Service Settings. See the [topic on booking timestamps](booking-timestamps.md) to understand how timestamps can be created based on the booking statuses or Field Service booking statuses.
+- Time entries are created based on booking timestamps, and booking timestamps are created based on the **Timestamp Frequency** setting in Field Service Settings. See the [topic on booking timestamps](booking-timestamps.md) to understand how timestamps can be created based on the booking statuses or Field Service booking statuses.
 
 
 ## Additional notes
