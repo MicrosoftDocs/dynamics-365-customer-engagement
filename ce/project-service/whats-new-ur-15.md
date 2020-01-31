@@ -29,7 +29,7 @@ We’re pleased to announce the latest update for the Dynamics 365 Project Servi
 
 This topic lists the features and fixes that are new or changed for PSA V3, Update Release 15. This version has a build number of V3.10.5.28 and is generally available through a self-update in January 2020.
 
-## Update Release 15 bug fixes
+## Update Release 15 
 
 ### Enhancements
 
