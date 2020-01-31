@@ -26,7 +26,8 @@ Your system administrator can choose the entities for which PDF generation is en
 
 2.	On the command bar, select **Create PDF**, and then select the template you want to use to create the PDF. 
 
-    ![A quote form showing the Create PDF button on the command bar](media/create-pdf.png "A quote form showing the Create PDF button on the command bar")
+    > [!div class="mx-imgBorder"]
+    > ![A quote form showing the Create PDF button on the command bar](media/create-pdf.png "A quote form showing the Create PDF button on the command bar")
 
     > [!IMPORTANT]
     > Templates are available out of the box for the Account, Opportunity, Order, Quote, and Invoice entities. For entities that don't have out-of-the-box templates, you can create new templates. You can't create a PDF document for an entity record if there's no template available for that entity. 
@@ -35,13 +36,14 @@ Your system administrator can choose the entities for which PDF generation is en
     > To learn more about using Word templates, see [Use Word templates to create standardized documents](../admin/using-word-templates-dynamics-365.md). 
 
     You’ll see a dialog box with options to save the PDF or download the PDF. 
+
+    > [!div class="mx-imgBorder"]    
+    > ![Option to save or download PDF document](media/save-or-download-pdf-document.png "Option to save or download a PDF document")
     
-    ![Option to save or download PDF document](media/save-or-download-pdf-document.png "Option to save or download a PDF document")
-    
-    If you select **Save**, the PDF document is stored in the default SharePoint site if SharePoint is configured and enabled for the **Quote** entity. If SharePoint isn't configured, the **Save** option saves the PDF as a Notes attachment to the **Quote** record in Dynamics 365 Sales. The **Download** option downloads the PDF to your local drive. After it's downloaded, you can add this document to a note, send it as an attachment in an email, or upload it to SharePoint.
+    If you select **Save**, the PDF document is stored in the default SharePoint site if SharePoint is configured and enabled for the **Quote** entity. If SharePoint isn't configured, the **Save** option saves the PDF as a Notes attachment to the Quote record in Dynamics 365 Sales. The **Download** option downloads the PDF to your local drive. After it's downloaded, you can add this document to a note, send it as an attachment in an email, or upload it to SharePoint.
 
     > [!NOTE]
-    > The capability to save a PDF to SharePoint is currently in preview. 
+    > The capability to save a PDF to SharePoint is released as early access in the February 2020 release. 
 
 ## Email a PDF document
 
