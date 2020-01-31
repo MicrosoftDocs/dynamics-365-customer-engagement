@@ -12,8 +12,7 @@ manager: annbe
 
 # Work with activities in the Kanban view
 
-The Kanban view for activities helps salespeople to manage multiple activities quickly. Looking at the kanban view, salespeople can quickly see the activities and the status they're in. In the Activity Kanban view, activities are represented visually with cards.
-The lanes represent the default statuses of activities. You can drag the activities to different lanes to move them from one status to another.
+The Kanban view for activities helps salespeople to manage multiple activities quickly. Looking at the Kanban view, salespeople can quickly see the activities and the status they're in. In the Activity Kanban view, activities are represented visually with cards. The lanes represent the default statuses of activities. You can drag the activities to different lanes to move them from one status to another.
 
 ## Open a Kanban view
 
@@ -36,7 +35,7 @@ To open the Kanban view:
 ## Know your Kanban views
 
 Here are some important things to know about your Kanban view:
--  At the top of each lane, the count of activities in that lane is shown. At any given point, only the first 10 records/cards are shown in any lane. For example, if there are total 30 open activities, the count shows 10/30. To see more cards, scroll down in the lane. When you scroll down, the count changes to show 20/30, and so on.
+-  At the top of each lane, the count of activities in that lane is shown. At any given point, only the first 10 records/cards are shown in any lane. For example, if there are a total of 30 open activities, the count shows 10/30. To see more cards, scroll down in the lane. When you scroll down, the count changes to show 20/30, and so on.
 
 -  Selecting the card title opens the activity main form. When you close the Main form, the whole Kanban view is refreshed.
 
@@ -45,9 +44,9 @@ Here are some important things to know about your Kanban view:
     > [!div class="mx-imgBorder"]  
     > ![Editable fields on the activity card](media/editable-card-fields.png "Editable fields on the activity card")
 
--  When you select a different view or filter, cards in the lanes are refreshed to show the filtered activity records. For example, if you are currently using thee 'All Activities' view, and select the **Activity Type** filter to only Phone call, the swim lanes is refreshed to show only the phone call activities.
+-  When you select a different view or filter, cards in the lanes are refreshed to show the filtered activity records. For example, if you are currently using the All Activities view, and select the **Activity Type** filter to show only phone calls, the swim lanes are refreshed to show only the phone call activities.
 
--  You can use the **Search** box to filter the records/cards in the swim lane based on the search criteria. For example, if you enter the keyword "Discuss", it will refresh the Kanban view to only show the activity records where the title begins with "Discuss".
+-  You can use the **Search** box to filter the records/cards in the swim lane based on the search criteria. For example, if you enter the keyword "Discuss," it will refresh the Kanban view to only show the activity records where the title begins with "Discuss".
 
     > [!div class="mx-imgBorder"]  
     > ![Use the Search box to filter records in the Kanban view](media/search-in-activity-kanban.png "Use the Search box to filter records in the Kanban view")
@@ -60,7 +59,7 @@ Here are some important things to know about your Kanban view:
 
     - There's no restrictions on the movement of custom activity cards—they can be moved from any lane to any lane.
  
-    - When you're dragging a card to move to another lane, the lanes where the card can't be dropped are greyed out.
+    - When you're dragging a card to move to another lane, the lanes where the card can't be dropped appear dimmed.
 
 ### See also
 
