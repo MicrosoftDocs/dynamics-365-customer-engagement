@@ -373,9 +373,7 @@ In the Customer Service Hub sitemap, select **Service** > **Activities**. The **
 
 - To view the status of an activity, click the activity record and see bottom-left in the activity form. 
 
-## View and create 
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+## View and create email
 
 Dynamics 365 Customer Service lets agents interact with customers through email. Email functionality allows agents to:
 
