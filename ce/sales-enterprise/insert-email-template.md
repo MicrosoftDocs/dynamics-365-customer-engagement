@@ -41,9 +41,8 @@ You can see templates of a particular language by selecting a language from the 
      > [!div class="mx-imgBorder"]
      > ![Email templates window](media/email-templates-window.png "Email templates window")
 
-> [!NOTE]
-> If you try to insert an email template on a device with smaller screen size, you'll only see an option to search and select a template.
->
+If you try to insert an email template on a device with smaller screen size, you'll only see an option to search and select a template.
+
 > [!div class="mx-imgBorder"]
 > ![Search template](media/search-template.png "Search template") 
 
