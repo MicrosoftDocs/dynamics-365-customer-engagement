@@ -2,7 +2,7 @@
 title: "Visualizing device readings | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/22/2020
+ms.date: 02/03/2020
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
