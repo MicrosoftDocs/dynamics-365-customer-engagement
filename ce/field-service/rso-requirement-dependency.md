@@ -43,6 +43,10 @@ This feature enables the configuration of requirement dependencies to ensure tec
 In 2020 release wave 1, this feature will only be supported by resource scheduling optimization with the ability to view these bookings on the schedule board. Also these dependencies will work only for single-resource, single-day scenarios.
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-requirement-dependency.png)
+
+
 ## Prerequisites
 
 Early access Feb 3
@@ -50,21 +54,33 @@ Early access Feb 3
 > [!Note]
 >
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+
 
 ## Instructions
 
+Create a requirement and add predecessor and successor requirements
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-requirement-dependency-nav.png)
 
+
+As an example
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-requirement-dependency-successor.png)
+
+
+Run RSO, there is no constraint or objective, RSO will always respect dependencies
 
 ## Configuration considerations
 
 Applies to single requirements
-Will schedule to the same resource
-Does not apply to requirement groups
-Does not apply to manual scheduling or schedule assistant
+
 
 ## Additional Notes
+
+Will ensure the start time of the successor is after the end time of the predecessor. RSO may schedule the successive requirements on the following day or days but to the same resource. 
+
+Does not apply to requirement groups
+Does not apply to manual scheduling or schedule assistant
 
 Chain is scheduled to same resource 
 
