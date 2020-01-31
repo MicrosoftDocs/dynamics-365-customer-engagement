@@ -45,6 +45,7 @@ Field Service and resource scheduling optimization (RSO) provide three reports f
 2. RSO admin, included with RSO
 3. Optimization summary, included with RSO
   
+
 In this topic, we'll take a look at these three reports in greater detail. 
 
 ## Prerequisites
@@ -108,7 +109,7 @@ Let's take a look at what each of these metrics are reporting.
 | Variance to estimated travel time |	Shows the variance by region between estimated travel times and actual travel times. |
 | Requirement duration % vs. allocated resource duration % |	Gauge whether the total number of requirements in each territory is balanced with the total number of resources allocated to that territory. The resulting analysis shows the percentage of requirement duration versus percentage value of allocated resource duration.  |
 | Miles traveled |	Shows the trend of total miles traveled per month. |
-| Resource work time quartile analysis  |	Shows the work time and travel time per resource given the time range. The chart segments individual resources compared with the work time quartile. Work time quartile: <1st quartile (25%), Between 1st -2nd quartile (25%-50%), Between 2nd to 3rd quartile (50%-75%), >3rd quartile (>75%)  |
+| Resource work time quartile analysis  |	Compares each resource's travel time to work time and ranks them into relative quartiles.  |
 | Resource metrics |	Shows the breakdown of KPIs for each resource, including number of bookings, utilization percentage, year over year percentage change in utilization, work time, travel time, break time, and idle time. Sort the resources by number of bookings, or by year, month, week, or day. | 
 
 ## RSO admin reports
@@ -121,9 +122,9 @@ The RSO admin report analyzes when and how RSO runs, but not the actual booking 
 
 | Visuals |	Description | 
 | --- | --- |
-| Avg bookings |	The average number of bookings in given schedule requests.  |
-|Avg requirements |	The average number of requirements in given schedule requests. |
-|Avg resources |	The average number of schedulable resources in given schedule requests. |
+| Optimization Scope: Number of bookings |	The average number of bookings in given schedule requests.  |
+| Optimization Scope: Number of requirements |	The average number of requirements in given schedule requests. |
+| Optimization Scope: Number of resources |	The average number of schedulable resources in given schedule requests. |
 |Optimization E2E time |	This metric defines the optimization execution time |
 | Number of failed optimization requests |	The number of failed optimization requests in the given schedule requests. |
 
