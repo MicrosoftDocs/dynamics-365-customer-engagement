@@ -41,6 +41,7 @@
 ## [Characteristics](set-up-characteristics.md)
 ## [Resource pay types](set-up-resource-pay-types.md)
 ## [Submit and approve time-off requests](submit-approve-time-off-requests.md)
+## [Time entry](field-service-time-entry.md)
 
 # Scheduling
 ## [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)
