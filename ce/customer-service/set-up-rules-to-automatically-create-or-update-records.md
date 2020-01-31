@@ -21,7 +21,6 @@ search.app:
 
 # Set up rules to automatically create or update records
 
-
 Every organization has multiple applications to capture customer interactions. The ability to channel external data into the Common Data Service platform records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into the Common Data Service platform with the help of *record creation and update rules*.  
 
 By using record creation and update rules in Dynamics 365 Customer Service, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, or custom activities, without writing any code. Not just that, you can set up the rule to convert the incoming activity into multiple records. For example, you can create a case and a lead from a single social activity.  
@@ -34,7 +33,8 @@ By using record creation and update rules in Dynamics 365 Customer Service, you 
 > With the latest release of Dynamics 365 Customer Service app, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
 
 
-## Activities and entities supported by record creation and update rules  
+## Activities and entities supported by record creation and update rules
+
  By default, Dynamics 365 Customer Service supports creating records from the following activities, also called source types in the context of record creation and update rules:  
 
 -   Email  
@@ -47,7 +47,8 @@ By using record creation and update rules in Dynamics 365 Customer Service, you 
 
 These activities can be converted to any default (system) entity records or custom entity records. For example, you could create a lead, opportunity (system record), or incident (custom record) from an incoming email.  
 
-## Capture data from external sources  
+## Capture data from external sources
+
  You can also capture additional valuable customer information provided by an external application in the form of JSON (a collection of name-value pairs), and use it to enhance the quality of the target records and set various conditions in the record creation and update rules.  
 
  Every default (out-of-the-box) activity or custom activity has an Additional Parameters attribute. This attribute stores the JSON payload received from an external application.  
@@ -61,17 +62,19 @@ These activities can be converted to any default (system) entity records or cust
 > [!NOTE]
 >  Any configuration done in the channel properties is only valid if those name-value pairs exist in the JSON payload. Also, you must only use parameters received from the external application in the rule item conditions and as record properties.
 
-## Activate or deactivate a rule  
- For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.  
+## Activate or deactivate a rule
+
+ For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.
 
  When a record creation and update rule is activated, a corresponding workflow is created automatically. You can use channel properties to define a workflow’s conditions and operators in mapping the target entity attribute values. For complex scenarios, you may configure child workflows.  
 
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure workflow steps](../customerengagement/on-premises/customize/configure-workflow-steps.md)  
 
-## How do record creation and update rules work with queues?  
+## How do record creation and update rules work with queues?
+
  In a record creation and update rule, when you specify a queue for a source type, any incoming activity from that source is added as a queue item for that specified queue. That is, if a rule for a particular source activity and queue combination is active, the rule processes the incoming activity on that queue to create or update records.  
 
- For an email source type, specifying a queue is mandatory. For all other source types including custom activities, it is optional.  
+ For an email source type, specifying a queue is mandatory. For all other source types including custom activities, it is optional. 
 
 > [!NOTE]
 > When an automatic record creation (ARC) rule is applied to an Email queue item, it gets deactivated.
@@ -84,58 +87,6 @@ These activities can be converted to any default (system) entity records or cust
 - Any rule that you created in [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] or later can’t be exported to an earlier release.  
 
 - Any rules upgraded to and edited in [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] or later can’t be exported back to an earlier release.  
-
-## Preview: Automatically create or update records (Customer Service Hub)
-
-In Dynamics 365 Customer Service Hub, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this section, you will learn about creating rules for automatically creating records for cases from incoming emails.
-
-### Prerequisites
-
-Make sure that the following prerequisites are met:
-- Permission or role to create rules
-- Information on the queues for which you want to create the rules
-
-### How you can automatically create or update records for customer activities
-
-### Create a basic rule
-You can create a basic rule that when active will be run for incoming emails. Using the feature to create rules, you can define the conditions for the rules to be run.
-
-1. In Customer Service Hub sitemap, select **Service Management** > **Automatic record creation and update rules**. The **Automatic record creation and update rules** page appears.
-
-2. Select **New**. The **New automatic record creation and update rule** page is displayed.
-
-3. On the **Basic** tab, in the **Step one details**, enter the following details:
-  > - **Rule name**: Enter a name for the rule.
-  > - **Queue to monitor**: Enter the name of the queue on which the rule will be activated.
-  > - **Activity type to monitor**: Select **Email** in the list.
-
-4. In **Step two: conditions to evaluate and actions to take**, select **New**. The **Condition builder** page is displayed.
-
-5. In **New condition** > **Condition name**, enter an intuitive name.
-
-6. In **Condition that must pass to continue (pass if blank)**,  use the options to define the criteria on which the email activity will be evaluated and the rule will be run.
-
-7. In **Actions to take** > **Record to create**, the default action is **Case** that you can't edit. A case will be created if the conditions specified in the previous step are met for the email activity.
-
-8. In **Configure in Microsoft Power Automate**, select **Save and open in Power Automate**. The Power Automate application opens in a new tab where you can configure additional criteria that must be evaluated for the email activity. To learn more about using Power Automate, see the documentation for Power Automate.
-
-9. Select **Save & Close**. The condition builder is closed.
-
-10. In **Step three: additional actions to take after matching with a condition**, select an option based on your requirement for **Automatically reply to email**.
-
-11. If you selected **Yes**, select an email template in the **Select email template** list box.
-
-
-### Create an advanced rule
-
-You can update a basic rule or create a rule from scratch, and use the Advanced tab of the Record Creation and Update Rule page to specify additional conditions that need to be evaluated.
-
-
-### Example scenarios
-### Scenario for a basic rule
-### Scenario for an advanced rule
-### Troubleshoot
-### Common questions
 
 ### Prerequisites 
 
