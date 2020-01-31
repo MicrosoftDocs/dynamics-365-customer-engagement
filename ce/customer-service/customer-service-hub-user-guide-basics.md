@@ -93,16 +93,16 @@ When you select a record type from the menu, such as Accounts, Contacts, or Case
 
 To view recently opened records, select the down-arrow next to the record type in the sitemap.
 
-    Here is what each entity record type is used for:
+  Here is what each entity record type is used for:
 
-    - **Dashboards** collect all your most important data in one place. You can select from multiple dashboards as per your role.
-    - **Activities** help you keep track of tasks, email messages, appointments, phone calls and much more.
-    - **Accounts** are the companies you do business with.
-    - **Contacts** help you manage and store information about the customers you work with.
-    - **Social Profiles** let you track a contact's presence in social media.
-    - **Cases** help you create and track your customer requests and issues.
-    - **Queues** keep a track of cases waiting for you to work on.
-    - **Knowledge Articles** capture your customer’s questions, issues, feedback, and resolutions, so that other service reps can benefit from them.
+  - **Dashboards** collect all your most important data in one place. You can select from multiple dashboards as per your role.
+  - **Activities** help you keep track of tasks, email messages, appointments, phone calls and much more.
+  - **Accounts** are the companies you do business with.
+  - **Contacts** help you manage and store information about the customers you work with.
+  - **Social Profiles** let you track a contact's presence in social media.
+  - **Cases** help you create and track your customer requests and issues.
+  - **Queues** keep a track of cases waiting for you to work on.
+  - **Knowledge Articles** capture your customer’s questions, issues, feedback, and resolutions, so that other service reps can benefit from them.
 
 2. Select **...** to go to **Training** and access the documentation site to view the **Help Center**. 
 3. You can also access **Service Management** from the sitemap. Service Management lets you define all the customer service admin settings from the Customer Service Hub sitemap.  Select **...** to go to **Service Management**. 
