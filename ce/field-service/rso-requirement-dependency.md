@@ -76,24 +76,27 @@ For as many requirements as there are in the sequence, add a requirement depende
 After creating each requirement and adding the desired requirement dependencies, run RSO. Assuming the requirements are within RSO's scope, RSO will resepct the dependencies. There is no constrain or objective that must be added to the Optimization Goal.
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-requirement-dependency-different-location.png)
+
+In the image above Requirements Task 1.1, Task 1.2, and Task 1.3 were all scheduled in order. You can see there is expected travel time between Task 1.1 and Task 1.2; this indicates a different location and was respected by RSO. 
+
 ## Configuration considerations
 
-Applies to single requirements
+- Requirement dependencies are only compatible with single requirements and not Requirement Groups.
 
-Also these dependencies will work only for single-resource, single-day scenarios.
-
+- Dependencies will only work for single resource scenarios meaning successive requirements will only be schedule to the same resource as the predecessor was schedule to.
 
 ## Additional Notes
 
-Will ensure the start time of the successor is after the end time of the predecessor. RSO may schedule the successive requirements on the following day or days but to the same resource. 
+RSO will ensure the start time of the successor is after the end time of the predecessor and if all requirements cannot be completed on the same day RSO will schedule the following day to the same resource assuming the following day is within the time scope of RSO. In the image below requirement "Task 2.3" was scheduled on the day following requirement "Task 2.2".  
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-requirement-dependency-day-gap.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/rso-requirement-dependency-different-location.png)
+
 
 Does not apply to requirement groups
 Does not apply to manual scheduling or schedule assistant
