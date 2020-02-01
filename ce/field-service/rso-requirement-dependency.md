@@ -28,20 +28,15 @@ search.app:
 
 # Schedule in sequence with Requirement Dependencies
 
-By adding dependencies to your requirements you can ensure Resource Scheduling Optimization will 
-Very helpful for scenarios where a technician needs to travel to one location to pick up parts before performing a work order or any scenario with sequential work at the same or different locations
+Ensure Resource Scheduling Optimization (RSO) auto schedules requirements in sequence by adding requirement dependencies.
 
-Ensure RSO auto schedules requirements in sequence
+This is helpful for many scenarios including but not limited to:
+
+1) a technician needs to travel to one location to pick up a unique part from the warehouse before performing at the customer's site.
+2) a work order must be completed and approved before another work order can begin. For example, a physical installation must occur before an electrical connection.
 
 
-Business value
-Sometimes it's necessary to sequence work in order to make sure that it's done in the correct order. For example, a physical installation must occur before electrical connection. Businesses can optimize operations workflows by ensuring dependent tasks are done in order. This feature allows organizations to complete work in a specific order.
-
-Feature details
-This feature enables the configuration of requirement dependencies to ensure technicians follow the optimal workflow and achieve the most efficient service operation. Requirement dependencies allow customers to schedule requirements in a specific order by relating them through a predecessor and successor dependency relationship. For example, a technician might need to pick up a unique part from the warehouse and then perform work at the customer's site. Critical jobs that rely on a series of tasks dependent on one another can now be linked together as predecessors and successors and booked through the resource scheduling optimizer.
-
-In 2020 release wave 1, this feature will only be supported by resource scheduling optimization with the ability to view these bookings on the schedule board. Also these dependencies will work only for single-resource, single-day scenarios.
-
+Requirement dependencies allow customers to schedule requirements in a specific order by relating them through a predecessor and successor dependency relationship. When RSO 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-requirement-dependency.png)
@@ -73,6 +68,8 @@ Run RSO, there is no constraint or objective, RSO will always respect dependenci
 ## Configuration considerations
 
 Applies to single requirements
+
+Also these dependencies will work only for single-resource, single-day scenarios.
 
 
 ## Additional Notes
