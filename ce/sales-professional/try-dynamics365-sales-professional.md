@@ -26,7 +26,7 @@ Dynamics 365 Sales Professional is a cloud-based application that runs on a Micr
 
 ## Installation steps when you belong to an existing Microsoft 365 tenant
 
-1.  Open the [Dynamics 365 Sales Professional sign-up page](https://signup.microsoft.com/Signup?sku=9c7bff7a-3715-4da7-88d3-07f57f8d0fb6&RU=https://salesprotrial.dynamics.microsoft.com).
+1.  Open the [Dynamics 365 Sales Professional trial sign-up page](https://signup.microsoft.com/Signup?sku=9c7bff7a-3715-4da7-88d3-07f57f8d0fb6&RU=https://salesprotrial.dynamics.microsoft.com).
 
 2.  In the **Step up to Sales Professional** page, enter your work email address and then select **Sign up**.
 
@@ -60,9 +60,6 @@ Dynamics 365 Sales Professional is a cloud-based application that runs on a Micr
 
     You’ll be redirected to the Sales Professional app page.
 
-    > [!div class="mx-imgBorder"]
-    > ![Launch Sales Professional from the apps page](media/apps-page-launch-sales-professional.png "Launch Sales Professional from the apps page")
-
     On launching the app, you'll see an interactive dashboard that provides a view of the Sales pipeline, Leads, Opportunities, Activities, and Sales Leaderboard based on preloaded sample data. To see the visual filters as illustrated below, select **Show Visual Filter** in the dashboard command ribbon.
 
     > [!div class="mx-imgBorder"]
@@ -70,7 +67,7 @@ Dynamics 365 Sales Professional is a cloud-based application that runs on a Micr
 
 ## Installation steps when you don't belong to an existing Microsoft 365 tenant 
 
-1.  Open the [Dynamics 365 Sales Professional sign-up page](https://signup.microsoft.com/Signup?sku=9c7bff7a-3715-4da7-88d3-07f57f8d0fb6&RU=https://salesprotrial.dynamics.microsoft.com).
+1.  Open the [Dynamics 365 Sales Professional trial sign-up page](https://signup.microsoft.com/Signup?sku=9c7bff7a-3715-4da7-88d3-07f57f8d0fb6&RU=https://salesprotrial.dynamics.microsoft.com).
 
 2.  In the **Step up to Sales Professional** page, enter your work email address and then select **Sign up**.
 
