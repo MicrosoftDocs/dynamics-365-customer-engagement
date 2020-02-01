@@ -54,16 +54,16 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
 
 ### General availability enhancements
 
-- Customer journey: Improved handling of publishable entities used in live customer journeys.
-- Marketing forms: Lookup support for forms hosted on marketing pages and externally hosted forms.
-- Marketing forms: Multi-option lists are now supported in forms.
-- Marketing forms: Multi-option lists are supported in externally hosted and marketing page-hosted forms.
-- Recurrent events: For easier navigation, recurrent event instances now show a list of other recurring events on the same series in a sub-grid. Recurrent event series records show a list of all the events in the series. Recurrent event series records can also be shown on a calendar.
-- Recurrent events: Custom fields and publish statuses now copy over from recurrent event series records to each recurrent event instance record.
-- Segments: Static segments are completely revamped for a better user experience. Static segments can now handle a large volume of contacts and allow rule-based additions to segment list members. We also improved the user interface with clearer instructions for creation and manipulation of segments.
-- Segments: Segments are now time zone-aware, aligning with the functionality of time zone-aware customer journeys.
-- Segments: Support added for partial dates in the segment editor.
-- Segments: Improved user interface for segment templates.
+- [Customer journey](https://docs.microsoft.com/en-us/dynamics365/marketing/go-live): Improved handling of publishable entities used in live customer journeys.
+- [Marketing forms](https://docs.microsoft.com/en-us/dynamics365/marketing/marketing-forms): Lookup support for forms hosted on marketing pages and externally hosted forms.
+- [Marketing forms](https://docs.microsoft.com/en-us/dynamics365/marketing/marketing-forms): Multi-option lists are now supported in forms.
+- [Marketing forms](https://docs.microsoft.com/en-us/dynamics365/marketing/marketing-forms): Multi-option lists are supported in externally hosted and marketing page-hosted forms.
+- [Recurring events](https://docs.microsoft.com/en-us/dynamics365/marketing/event-recurring): For easier navigation, recurrent event instances now show a list of other recurring events on the same series in a sub-grid. Recurrent event series records show a list of all the events in the series. Recurrent event series records can also be shown on a calendar.
+- [Recurring events](https://docs.microsoft.com/en-us/dynamics365/marketing/event-recurring): Custom fields and publish statuses now copy over from recurrent event series records to each recurrent event instance record.
+- [Segments](https://docs.microsoft.com/en-us/dynamics365/marketing/segments-static): Static segments are completely revamped for a better user experience. Static segments can now handle a large volume of contacts and allow rule-based additions to segment list members. We also improved the user interface with clearer instructions for creation and manipulation of segments.
+- [Segments](https://docs.microsoft.com/en-us/dynamics365/marketing/segmentation-lists-subscriptions): Segments are now time zone-aware, aligning with the functionality of time zone-aware customer journeys.
+- [Segments](https://docs.microsoft.com/en-us/dynamics365/marketing/segments-profile): Support added for partial dates in the segment editor.
+- [Segments](https://docs.microsoft.com/en-us/dynamics365/marketing/segments-templates): Improved user interface for segment templates.
 
 ### Bug fixes
 
