@@ -12,6 +12,10 @@ manager: annbe
 
 # Work with opportunities in the Kanban view
 
+[!INCLUDE [cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]  
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Use the Kanban view to effectively keep tabs on the sales pipeline. 
 
 The Kanban view shows opportunities as cards. The lanes in the Kanban view represent the default statuses or business process flow stages of opportunities. The opportunity cards within the swim lanes show where in the process the opportunities are. 

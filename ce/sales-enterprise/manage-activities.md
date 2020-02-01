@@ -48,8 +48,9 @@ You can see the activities in three different views:
     > ![Activities in the Kanban view](media/activities-kanban-view.png "Activities in the Kanban view") 
 
 > [!IMPORTANT]
-> The Kanban view and Calendar view will be released as early access in the February 2020 release. 
-
+> The Kanban view and Calendar view are early access features. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. 
+For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](/power-platform/admin/opt-in-early-access-updates).
+ 
 To switch to a different view:
 
 1.	In the site map, select **Activities**.
@@ -77,18 +78,26 @@ You can filter the list of activities to see only the ones you’re interested i
 > [!div class="mx-imgBorder"] 
 > ![Activity type filter](media/activity-type-filter.png "Activity type filter")
 
+> [!IMPORTANT]
+> The Activity Type filter is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. 
+For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](/power-platform/admin/opt-in-early-access-updates).
+
 You can also use the **Due** filter to see the activities that are due in a specified time, such as activities that are due today or earlier or activities that are due in the next seven days or earlier.
 
 > [!div class="mx-imgBorder"] 
 > ![Due filter](media/due-filter-activity.png "Due filter")
 
-## Create a new activity
+## Create or edit a new activity
 
 You can create independent activities that aren’t associated with any customer or sales record. To do so, in the site map, select **Activities** and then on the command bar, select **Email** or **Phone Call** or **Task**, depending on which activity you want to create.
 
+Or, you can open an existing activity record to edit it.
+
 
 > [!NOTE]
-> With the February 2020 release of Dynamics 365 Sales, when you create a new activity, the record opens in a Main form dialog. A Main form dialog is a Main form opening in a dialog (a pop-up window). Main form dialogs allow you to stay in context while working on one record with the ability to open a second or third record in dialog experience. This makes it easier to edit the records.
+> - With the February 2020 release of Dynamics 365 Sales, when you create or edit a new activity, the record opens in a Main form dialog. A Main form dialog is a Main form opening in a dialog (a pop-up window). Main form dialogs allow you to stay in context while working on one record with the ability to open a second or third record in dialog experience. This makes it easier to edit the records.
+> - The Main form dialog is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. 
+For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](/power-platform/admin/opt-in-early-access-updates).
 
 ## Add a new activity for a customer
 
@@ -178,9 +187,9 @@ Here are some suggestions about how to use activities to your organization’s b
 <!--from editor: Please confirm that Chris Preston and Imported Sports are approved fictitious names to use. -->
 
 
-- **Keep in mind that activities “roll up” under their associated records.** Let’s say you want to remind yourself to follow up with Chris Preston, a contact who’s associated with the account, Imported Sports. You’ll need to add the task activity to the contact record for Chris (not for the account, Imported Sports).  
+- **Keep in mind that activities “roll up” under their associated records.** Let’s say you want to remind yourself to follow up with Cecil Langer, a contact who’s associated with the account, ​Wingtip Toys. You’ll need to add the task activity to the contact record for Cecil (not for the account, ​Wingtip Toys).  
   
-     That way, your task will “roll up” under the account automatically, and you and other people on your team will see the task when they’re looking at the contact and when they’re looking at the account for Imported Sports. (And they’ll know you’ve got it handled.) 
+     That way, your task will “roll up” under the account automatically, and you and other people on your team will see the task when they’re looking at the contact and when they’re looking at the account for ​Wingtip Toys. (And they’ll know you’ve got it handled.) 
 
 
 ### See also
