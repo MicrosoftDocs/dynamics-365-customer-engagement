@@ -2,7 +2,7 @@
 title: "Visualizing device readings | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/09/2019
+ms.date: 02/03/2020
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -34,9 +34,9 @@ The device readings chart is available on the IoT alert, work order, case, devic
 
 To enable the device readings chart, administrators need to deploy Azure Time Series (Preview) into the Azure subscription when deploying or upgrading Connected Field Service with Azure IoT Hub for their organization. Administrators do the deployment through the [IoT Deployment app (aka.ms/deploycfs).](https://aka.ms/deploycfs)  
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing an example of the Device Readings chart](./media/connected-field-service-IoT-hub-device-measurements-workorder.png)
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of an IoT alert in Connected Field Service](./media/cfs-device-readings-hover-history.png)
 
 ## Prerequisites
 
@@ -69,7 +69,7 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 > - The IoT Deployment app adds timeseriesinsightsconsumergroup into IoT Hub Consumer Group.
 
 
-6. After deployment, the **Device Readings (Preview)** tab is displayed on the IoT alert, work order, case, device, and asset forms.  
+7. After deployment, the **Device Readings (Preview)** tab is displayed on the IoT alert, work order, case, device, and asset forms.  
 
 ## Use the device readings chart
 
@@ -85,8 +85,10 @@ To view device readings, the following data must be in place:
 
  1. Open the **Device Readings (Preview)** tab on IoT alert, work order, case, device, or asset form.
 
- > [!div class="mx-imgBorder"]
-> ![Screenshot of an example of the device readings chart](./media/connected-field-service-IoT-hub-device-measurements-devicechart.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of standard device readings.](./media/cfs-device-readings-standard.png)
+
 
 2. Choose the time period from the drop-down list. If the device sends device measurements to TSI, and the device measurement data exists for the selected time period, a chart is loaded.  
 
@@ -98,15 +100,29 @@ To view device readings, the following data must be in place:
 4. Hover over the chart to see tooltip with measurement details. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the device readings chart with tooltip showing](./media/connected-field-service-IoT-hub-device-measurements-hoover.png)
+> ![Screenshot of an IoT alert device reading, showing information on hover.](./media/cfs-device-readings-select.png)
 
-5. Select the eye icon next to **Work Orders** to show or hide any work orders created and closed during the selected time period. 
+
+5. Select a work order on the device readings chart to open service history with a link directly to the work order. 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of an IoT alert showing service history.](./media/cfs-device-readings-click-history.png)
+
+6. Select the eye icon next to **Work Orders** to show or hide any work orders created and closed during the selected time period. 
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of device readings chart showing toolip for work orders](./media/connected-field-service-IoT-hub-device-measurements-workorder.png)
 
 > [!Note]
 > If there are no work orders in the selected time period, work order selection will not be displayed.
+
+A summary of the device readings such as average measurements and number of work orders is calculated and displayed on the device, customer asset, and alert as seen in the following screenshot.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of device readings on an IoT device, with attention to work orders](./media/cfs-device-readings-history.png)
+
+> [!Note]
+> The device summaries use the device data history information on the device record, which updates with a slight delay (30-60min); however, you can use the **Pull Device Data** option to get the latest data from AzureIoT. The device summary is only displayed on customer assets if there is one related device, even though multiple devices can be related to one customer asset. Device summary calculations respect security roles, so will change based on the nuber of alerts, work orders, and so on that the logged-in user has access to.
 
 ## Error codes
 
@@ -117,7 +133,7 @@ Use the following table to troubleshoot error codes related to device readings.
 | 5000101	 |	Local Config Store is not available |	Contact Microsoft Support to investigate |
 | 4001002	 |	Value for the Search Span parameter passed to the custom action msdyn_IoTHubQueryDeviceReadings is Null	 |	Please verify that valid values for all the required arguments are passed to the custom action msdyn_IoTHubQueryDeviceReadings |
 | 4000103	 |	Value for the From or To date argument passed to the custom action msdyn_IoTHubQueryDeviceReadings is not a valid DateTime |		Verify that valid values for all the required arguments are passed to the custom action msdyn_IoTHubQueryDeviceReadings | 
-| 4000104	 |	Value for the Interval argument passed to the custom action msdyn_IoTHubQueryDeviceReadings is not a valid Duration	 |	Verify that valid values for all the required arguments are passed to the custom action msdyn_IoTHubQueryDeviceReadings. For interval, the format should be in the [ISO 8601 Duration Format](https://en.wikipedia.org/wiki/ISO_8601#Durations). For example: PT1H |
+| 4000104	 |	Value for the Interval argument passed to the custom action msdyn_IoTHubQueryDeviceReadings is not a valid Duration	 |	Verify that valid values for all the required arguments are passed to the custom action msdyn_IoTHubQueryDeviceReadings. For interval, the format should be in the [ISO 8601 Duration Format](https://wikipedia.org/wiki/ISO_8601#Durations). For example: PT1H |
 | 4000201	 |	Value for the IotDeviceId argument passed to the custom action msdyn_IoTHubQueryDeviceReadings is not a valid Guid	 |	Verify that valid values for all the required arguments are passed to the custom action msdyn_IoTHubQueryDeviceReadings. For IotDeviceId, the value should be the msdyn_iotdeviceid, which is a global unique identifier (GUID). |
 | 4010202 |		The user doesn't have permission to query Device Entity (msdyn_iotdevice)	 |	Ensure the user can query Device entity (msdyn_iotdevice) |
 | 5000203 |		Unable to get msdyn_DeviceId for the given msdyn_iotdeviceid in the Device Entity (msdyn_iotdevice) |		Make sure the attribute msdyn_DeviceId is populated for the device |
@@ -127,6 +143,7 @@ Use the following table to troubleshoot error codes related to device readings.
 | 5000207 |		Unable to get the access token to query Time Series Insights |		Retry your request, and if the problem persists, try updating new Client ID and Client Secret by re-running the CFS Deployment App |
 | 5000603	 |	Request to Time Series Insights API returned with a failure	 |	Retry your request. If the problem persists, contact Microsoft Support to investigate |
 | 5000604	 |	Response from Time Series Insights API is not in an expected format	 |	Retry your request. If the problem persists, please contact Microsoft Support to investigate |
+
 
 ## Additional notes
 - Available only in United States English (en-US)
