@@ -12,7 +12,10 @@ manager: annbe
 
 # Add products to an opportunity by using the enhanced experience
 
+[!INCLUDE [cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
+
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 
 For salespeople, it's important to be able to quickly update opportunities by adding products that their customers are interested in.
 

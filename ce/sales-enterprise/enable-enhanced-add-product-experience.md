@@ -12,6 +12,8 @@ manager: annbe
 
 # Enable the enhanced experience of adding products (Sales Hub)
 
+[!INCLUDE [cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
+
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Increase seller productivity by enabling the enhanced experience for searching and adding products to opportunities. With the enhanced experience, salespeople can:
