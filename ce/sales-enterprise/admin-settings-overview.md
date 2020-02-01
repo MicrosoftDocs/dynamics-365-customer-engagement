@@ -12,7 +12,8 @@ manager: annbe
 
 # Overview of admin settings 
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]  
+[!INCLUDE [cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]  
 
 System administrators in Dynamics 365 Sales are the users who have the System Administrator role or equivalent permissions assigned. Dynamics 365 Sales offers an organized and unified experience to administrators so they can quickly and easily configure their sales app from a single place.
 
@@ -31,7 +32,7 @@ The Overview page opens. The Overview page is a landing page that consolidates a
 
 ### See also
 
-[Define lead qualification experience](define-lead-qualification-experience.md)
+[Define lead qualification experience](define-lead-qualification-experience.md)  
 [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)  
 [Set up enhanced email](set-up-enhanced-email.md)  
 [Enable or disable saving of business card image](retain-business-card-image-after-scanning.md)  
