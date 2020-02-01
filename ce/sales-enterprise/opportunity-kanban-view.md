@@ -42,6 +42,8 @@ You can switch between the views by selecting the Kanban type from the Kanban ty
 > [!div class="mx-imgBorder"]  
 > ![Kanban type list](media/kanban-type-list-kanban-view.png "Kanban type list")
 
+In the status-based Kanban view, each swim lane represents a default opportunity status such as, Open, Won, or Lost.
+
 > [!div class="mx-imgBorder"]  
 > ![Status-based opportunity Kanban view](media/status-based-opportunity-kanban-view.png "Status-based opportunity Kanban view")
  
@@ -51,6 +53,10 @@ Currently, the Kanban view is only available for the **Opportunity sales process
 
 > [!div class="mx-imgBorder"]  
 > ![Business process flow-based opportunity Kanban view](media/bpf-based-kanban-view.png "Business process flow-based opportunity Kanban view")
+
+
+> [!NOTE]
+> If your system administrator or customizer has customized the **Opportunity sales process** business process, such as changing the stages in the business process flow, the changes are reflected in the business process flow-based opportunity Kanban view. 
  
 ## Know your Kanban views
 
