@@ -22,7 +22,7 @@ manager: kvivek
 The following requirements and recommendations apply to new and existing installations of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)].  
   
 <a name="sql_gen_rec"></a>   
-## General recommendations  
+## General requirements and recommendations  
   
 -   [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] requires an instance of [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] be installed, running, and available. All installations of the supported [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] editions can be used as the reporting server. However, the [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] edition must match the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] edition.  
   
