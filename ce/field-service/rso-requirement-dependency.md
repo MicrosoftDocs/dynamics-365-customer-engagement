@@ -2,7 +2,7 @@
 title: "Schedule in sequence with Requirement Dependencies | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2020
+ms.date: 02/3/2020
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -85,22 +85,16 @@ In the image above Requirements Task 1.1, Task 1.2, and Task 1.3 were all schedu
 
 - Requirement dependencies are only compatible with single requirements and not Requirement Groups.
 
-- Dependencies will only work for single resource scenarios meaning successive requirements will only be schedule to the same resource as the predecessor was schedule to.
+- Dependencies will only work for single resource scenarios meaning successive requirements will only be scheduled to the same resource as the predecessor was scheduled to.
 
 ## Additional Notes
 
-RSO will ensure the start time of the successor is after the end time of the predecessor and if all requirements cannot be completed on the same day RSO will schedule the following day to the same resource assuming the following day is within the time scope of RSO. In the image below requirement "Task 2.3" was scheduled on the day following requirement "Task 2.2".  
+- Requirment dependencies are not considered by the schedule assistant or when manually scheduling via the schedule board. 
 
+- RSO will ensure the start time of the successor is after the end time of the predecessor and if all requirements cannot be completed on the same day RSO will schedule the following day to the same resource assuming the following day is within the time scope of RSO. In the image below requirement "Task 2.3" was scheduled on the day following requirement "Task 2.2".  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-requirement-dependency-day-gap.png)
 
 
-
-
-Does not apply to requirement groups
-Does not apply to manual scheduling or schedule assistant
-
-Chain is scheduled to same resource 
-
-Will schedule around other bookings 
+- If needed RSO will schedule successive requirements around existing bookings in cases where an existing booking is locked and cannot be moved. 
