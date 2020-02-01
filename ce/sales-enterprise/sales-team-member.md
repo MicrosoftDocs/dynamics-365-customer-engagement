@@ -14,6 +14,8 @@ manager: annbe
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+[!INCLUDE [cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
+
 The new Sales Team Member app is designed for the lightweight sales scenarios where users don't need the full capabilities of an enterprise application. This app is included<!--note from editor: Edit okay?--> with the Team Member license. 
 
 During the early access phase of the Team Member license enforcement, users with the Team Member license can use the designated app modules alongside all existing apps.
