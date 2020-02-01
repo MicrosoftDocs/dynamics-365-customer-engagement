@@ -10,6 +10,9 @@ ms.author: shujoshi
 manager: annbe
 ---
 
+<!--from editor: Recommend updating the publication date in the metadata. -->
+
+
 # Preview: Set up enhanced email
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -37,4 +40,4 @@ To enable enhanced email:
 
 ### See also
 
-[Compose and send email using the enhanced email experience](enhanced-email.md)
+[Send email using the enhanced email experience](enhanced-email.md)
