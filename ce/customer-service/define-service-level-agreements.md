@@ -110,10 +110,11 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
     > [!NOTE]
     > You must configure this field to see the SLA timer in the case during runtime. If this field is not configured, the timer will not appear, but the SLA will still be calculated. In that case, you can see the status of the SLA in Understand service level agreement instances grid in case form. If this field is configured later, when the system customizer updates the lookup fields in the case entity, then the timer will appear for the cases created after this customization.
 
-  - **Description:** (Optional.) Description for the SLA KPI.
+  - **Description:** (Optional.) Description for the SLA KPI. 
+
 5. Select **Save**, and then select **Activate**. The SLA KPI is saved and activated.
 
-## Create an SLA in Customer Service Hub
+## Preview: Create an SLA in Customer Service Hub
 
 Create SLAs to define conditions and actions that are applicable when an SLA is applied to an entity.
 
@@ -136,13 +137,19 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
        ![SLA flow in Power Automate](../customer-service/media/sla-default-flow.png "SLA FLow in Power Automate")
 
       > [!NOTE] 
-      > We recommend that you not edit the predefined flow that may cause breaks in the flow and the SLA may not work as defined.
+      > We recommend that you do not edit the predefined flow that may cause breaks in the flow and the SLA may not work as defined.
     
-      You can add actions for the following condition steps as required:
+     b. Select Switch, and add actions for the following condition steps as required:
 
-      - IsNearing Non-Compliance: Will run when warning time is reached for the SLA.
-      - Is Succeeded: Will run when SLA is succeded.
-      - Is Non-Compliant: Will run when SLA is failed.
+      - **IsNearing Non-Compliance:** Will run when warning time is reached for the SLA.
+      - **Is Succeeded:** Will run when SLA succeeds.
+      - Is Non-Compliant: Will run when SLA fails.
+
+      c. Select **[Do not delete or update] Is Nearing Non Compliance** > **Add an action**. THe **Choose an action** area appears.
+
+      d. Search for an action to add or go to the existing entities, such as mail. The **Send an email notification** appears.
+      e. Select **Send an email notification**. Configure to 
+      For example, you can configure an action for IsNearing Non-Compliance that will run when warning time has reached for the SLA.
 
     b. Write down the steps for sending an email as an action for one of the conditions
 
