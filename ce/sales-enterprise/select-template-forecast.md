@@ -18,9 +18,9 @@ You must select a template to create a forecast. The selected templates populate
 
 To select a template, go to the **Forecast configurations** page and select one of the following templates:
 
--	**Org chart forecast**: Rollups and projections are based on your organization’s reporting structure. This template uses the **Manager** field on the **User** entity for hierarchy.
+-	**Org chart forecast**: Roll-up columns and projections are based on your organization's reporting structure. This template uses the **Manager** field on the **User** entity for the hierarchy.
 
--	**Territory forecast**: Rollups and projections are based on the sales territory hierarchy.
+-	**Territory forecast**: Roll-up columns and projections are based on the sales territory hierarchy.
 
 > [!div class="mx-imgBorder"]
 > ![Forecasting is enabled](media/forecast-enable-forecasting-enabled.png "Forecasting is enabled")
@@ -30,7 +30,7 @@ To select a template, go to the **Forecast configurations** page and select one 
 <tr><td>
 
 > [!div class="nextstepaction"] 
-> [Previous step: Enable forecast](enable-forecast.md)
+> [Previous step: Enable forecasting](enable-forecast.md)
 </td><td>
 
 > [!div class="nextstepaction"] 
@@ -40,4 +40,4 @@ To select a template, go to the **Forecast configurations** page and select one 
 
 ### See also
 
-[Configure a forecast in your organization](configure-forecast.md)
+[Configure forecasts in your organization](configure-forecast.md)
