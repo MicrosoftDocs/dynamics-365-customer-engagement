@@ -1,5 +1,6 @@
 # [Help resources for Dynamics 365 Sales](help-hub.md)
 ## [Overview of Sales and Sales Hub](../sales-enterprise/overview.md)
+## [Sales Team Member app](sales-team-member.md)
 ## [What's new](../sales-enterprise/whats-new.md)
 ## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
 ## Administrator & Sales Manager Guide
