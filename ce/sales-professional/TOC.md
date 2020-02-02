@@ -2,6 +2,7 @@
 ## [Help resources for Dynamics 365 Sales Professional](help-hub.md)
 
 ## [What's new](whats-new.md)
+## [Sign up for free trial of Dynamics 365 Sales Professional](try-dynamics365-sales-professional.md) 
 ## Get started
 ### [Overview](sales-professional-overview.md)
 ### [Get started with the basics](learn-basics-sales-professional.md)
