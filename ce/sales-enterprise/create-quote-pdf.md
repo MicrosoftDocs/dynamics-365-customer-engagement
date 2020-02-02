@@ -43,8 +43,7 @@ Your system administrator can choose the entities for which PDF generation is en
     If you select **Save**, the PDF document is stored in the default SharePoint site if SharePoint is configured and enabled for the **Quote** entity. If SharePoint isn't configured, the **Save** option saves the PDF as a Notes attachment to the Quote record in Dynamics 365 Sales. The **Download** option downloads the PDF to your local drive. After it's downloaded, you can add this document to a note, send it as an attachment in an email, or upload it to SharePoint.
 
     > [!NOTE]
-    > Save a PDF to SharePoint is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](/power-platform/admin/opt-in-early-access-updates).
-. 
+    > Save a PDF to SharePoint is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](/power-platform/admin/opt-in-early-access-updates). 
 
 ## Email a PDF document
 
