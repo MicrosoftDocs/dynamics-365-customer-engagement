@@ -5,6 +5,7 @@
 ## Administrator & Sales Manager Guide
 ### [Help resources for admins and sales managers](../sales-enterprise/admin-guide.md)
 ### Sales management
+#### [Overview of admin settings](admin-settings-overview.md)
 #### [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
 #### [System Settings - Sales](../admin/system-settings-dialog-box-sales-tab.md)
@@ -14,8 +15,10 @@
 #### [Customize the Opportunity Close form](customize-opportunity-close-experience.md)
 #### [Define lead qualification experience](define-lead-qualification-experience.md)
 #### [Allow adding products without associated price list](make-price-list-optional.md)
+#### [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)
 #### [Enable or disable saving of business card image](retain-business-card-image-after-scanning.md)
 #### [Customize the business card scanner control](customize-business-card-scan-control.md)
+#### Add the Kanban control to Opportunity or Activity entities(add-kanban-control.md)
 
 ### Product management
 #### [Set up a product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)
@@ -65,6 +68,8 @@
 #### [Work with accounts and contacts](../basics/accounts-contacts.md)
 #### [Organize contacts in live org charts for accounts](live-org-chart.md)
 #### [Scan business cards](scan-business-cards.md)
+#### [Track and manage activities](manage-activities.md) 
+#### [Work with activities in the Kanban view](activity-kanban-view.md)  
 
 ### Lead and opportunity management
 #### [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)
@@ -73,6 +78,7 @@
 #### [Create or edit opportunities](../sales-enterprise/create-edit-opportunity-sales.md)  
 #### [Reopen leads](../sales-enterprise/re-open-lead-sales.md)
 #### [Add products to an opportunity](add-products-opportunity.md)  
+#### [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md)
 #### [Recalculate an opportunity](recalculate-opportunity.md)
 #### [Close opportunities as won or lost](../sales-enterprise/close-opportunity-won-lost-sales.md)
 #### [Collaborate using SharePoint](collaborate-using-sharepoint-sales.md)
