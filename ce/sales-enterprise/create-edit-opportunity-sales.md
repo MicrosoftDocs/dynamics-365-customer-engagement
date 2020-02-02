@@ -28,6 +28,9 @@ If you're following the sales process from start to finish, you *qualify* a lead
     
     To create a new opportunity, on the command bar, select **+ New**.
 
+    > [!NOTE]
+    > If your system administrator has set the Kanban view as the default, you'll see the Kanban view instead of the list view. More information: [Work with opportunities in the kanban view](opportunity-kanban-view.md) 
+
 3. In the opportunity form, make sure that your potential customer's important details are captured. If you've qualified a lead to an opportunity, most of the fields will be automatically populated from the lead record.
  
    - **Topic**: What the customer is interested in that created the opportunity, such as specific product details.
@@ -152,6 +155,7 @@ Need a faster way to enter opportunities? Try one of these:
 [Add products to an opportunity using the enhanced experience](add-products-enhanced-experience.md)  
 [Recalculate an opportunity](recalculate-opportunity.md)  
 [Close an opportunity](close-opportunity-won-lost-sales.md)  
+[Work with opportunities in the Kanban view](opportunity-kanban-view.md)  
 [Dynamics 365 Sales troubleshooting guide for sales people](troubleshooting.md)  
 [Dynamics 365 Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)   
