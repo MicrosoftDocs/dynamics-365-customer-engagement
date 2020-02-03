@@ -23,9 +23,10 @@ search.app:
 
 Use routing rules in Dynamics 365 Customer Service to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues. 
 
-## Preview: Add routing rule sets sitemap for custom apps 
+## Add routing rule sets sitemap for custom apps 
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
+
 
 While creating custom apps, you might not have routing rules sets available in your sitemap. You must add the routing rule sets sitemap for your custom app to access. To add routing rule sets to sitemap, follow these steps:
 
@@ -33,9 +34,13 @@ While creating custom apps, you might not have routing rules sets available in y
 
 2. Select the **More Options** ellipsis (...) on your custom app, and then select **OPEN IN APP DESIGNER**. The **App Designer** page appears.
 
-3. Select the pencil icon beside **Site Map**. The **Sitemap Designer** page appears.
+3. Select the pencil icon beside **Site Map**. The **Customer Service Hub** page appears.
 
-4. Select the area in which you want to add the routing rule set entity, select **Add**, and then select **Subarea**.
+4. Select the area in which you want to add the routing rule set entity, such as **Service Management**, select **Add**, and then select **Subarea**.
+ 
+    > [!div class="mx-imgBorder"]
+    > ![add routing rules to site map](media/rr-add-to-sitemap.png "add routing rules to site map")
+
  
 5. On the **Properties** tab, under **General** section, do the following:
 
@@ -49,7 +54,9 @@ While creating custom apps, you might not have routing rules sets available in y
 
 To Learn more, see [Create a site map for an app using the site map designer](../customerengagement/on-premises/customize/create-site-map-app.md)
 
-## Preview: Create a routing rule set (Customer Service Hub)
+## Create a routing rule set (Customer Service Hub)
+
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ### Prerequisites
 
