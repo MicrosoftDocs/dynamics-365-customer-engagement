@@ -35,6 +35,6 @@ With [Power Automate templates](https://preview.flow.microsoft.com/templates/), 
 
 ## Learn more about Azure IoT Central
 
-- [What is Azure IoT Central?](https://docs.microsoft.com/en-us/azure/iot-central/core/overview-iot-central)
+- [What is Azure IoT Central?](https://docs.microsoft.com/azure/iot-central/core/overview-iot-central)
 - [Tour of Azure IoT Central user interface](https://docs.microsoft.com/azure/iot-central/overview-iot-central-tour)
-- [Create a new application in Azure IoT Central - tutorial](https://docs.microsoft.com/en-us/azure/iot-central/core/quick-deploy-iot-central)
+- [Create a new application in Azure IoT Central - tutorial](https://docs.microsoft.com/azure/iot-central/core/quick-deploy-iot-central)
