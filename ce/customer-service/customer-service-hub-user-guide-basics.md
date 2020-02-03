@@ -200,8 +200,7 @@ For example, here’s a view of how the tabs appear on the case form:
 
 ### Timeline
 
-> [!Note]
-> This section is pre-release documentation and is subject to change.
+[!INCLUDE[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
 
  See a combined view of your customer’s interactions across various channels, such as phone, email, or even social activities in the Timeline. The Timeline enables you to create notes and posts, and also, to view any related notes or system posts.  The Timeline control makes collaboration with other users easy and efficient.
 
