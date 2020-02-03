@@ -4,7 +4,7 @@ description: Learn the basics of the Customer Service Hub for Customer Service
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/23/2019
+ms.date: 02/03/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -198,21 +198,33 @@ For example, here’s a view of how the tabs appear on the case form:
   
  For account records, the card shows contact details for the primary contact associated with the account. For contact records, the card appears if the contact is the customer value on the case form.  
 
-### Timeline  
- See a combined view of your customer’s interactions across various channels, such as phone, email, or even social activities in the Timeline. The Timeline also shows any related notes or system posts.  The Timeline makes collaboration with other users easy and efficient.
+### Timeline
 
-> [!Note]
-> This section is pre-release documentation and is subject to change.
+[!INCLUDE[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
+
+ See a combined view of your customer’s interactions across various channels, such as phone, email, or even social activities in the Timeline. The Timeline enables you to create notes and posts, and also, to view any related notes or system posts.  The Timeline control makes collaboration with other users easy and efficient.
+
+ You can do the following:
+
+- Identify the key activities with simple icons.
+- Quick access to the command bar to perform common actions on an activity with ease.
+- Filter activities on the timeline with multiple filter options.
+- View and manage email conversation threads on the timeline with ease.
+- Expand and collapse activities in the timeline with ease.
 
 The Customer Service Hub comes with an enhanced timeline that shows you all customer interactions arranged in a single stream. 
 Managing activities in the timeline wall will be faster and more responsive with improvements to data viewability and usability.
 
   ![Timeline shows customer activities across channels](../customer-service/media/v9-case-form-timeline.png "Timeline shows customer activities across channels")
 
-  1. Add info and activities
-  2. Filter
-  3. More commands
-  4. Activity icons
+  1. Search Records
+  2. Take notes
+  3. Add info and activities
+  4. Filter
+  5. More commands
+  6. Activity status
+  7. Activity icons
+  8. Date and time
 
 The timeline section is available on the **Summary** tab for account, contact, case records, and for knowledge articles, and it shows the following:
 - Activity
@@ -224,65 +236,99 @@ The timeline section is available on the **Summary** tab for account, contact, c
 - Post
 
 > [!Note]
-> The activities mentioned above are out-of-the-box. If your administrator or system customizer has configured other activities, then those will appear. 
+> The activities, note, and post are standard entities. If your administrator or system customizer has configured other entities, then those will appear. 
 
 You can create, edit, and delete an activity, note, post, and other interactions from the timeline itself. Additionally, you can filter and sort the interactions. In the timeline area, you can see three actions: **Add info and activities**, **Open filter pane**, and **More commands**. Use these options to add, filter, and sort the interactions on the timeline.
 
-- **Add info and activities:** Select the **+** icon in the timeline area to quickly open an activity type page to create and save. The activity type you created appears in the timeline.
+- **Add activities, posts, and notes:** Select the **+** icon in the timeline area to quickly open an form or quick create form to create and save. The item you created appears in the timeline. The standard activities that you can currently create with **+** button in the timeline are as follows:
 
-- **Filter the activities:** With the help of text and visual filters, you can filter by activity types in the timeline. You can also view the items from the previous day or week, and you can filter the interactions using the filter icon in the timeline area. To learn more, see [Filter activities on the timeline](#filter-activities-on-the-timeline)
+	- Appointment
+	- Task
+	- Phone Call
+	- Email
 
-- **More commands:** The timeline provides the options to refresh so you see the updated list of activities and sort the timeline interactions. Select the ellipsis (**...**) in the timeline to refresh and sort the timeline by choosing one of the two: **Sort newer to older** and **Sort older to newer**.
+  Based on your administrator configuration, other entities may appear.
+
+- **Filter the activities, post, and note:** With the help of text and visual filters, you can filter by activities, notes, posts, and other custom entities in the timeline. You can also view the items from the previous day or week, and you can filter the interactions using the filter icon in the timeline area. To learn more, see [Filter activities, posts, and notes on the timeline](#filter-activities-posts-and-notes-on-the-timeline).
+
+- **More commands:** The timeline provides the options to refresh so you see the updated list of activities, notes, and posts and sort the timeline interactions. Select the ellipsis (**...**) in the timeline to refresh and sort the timeline by choosing one of the two: **Sort newer to older** and **Sort older to newer**.
 
   ![timeline-ellipsis](media/timeline-ellipsis.png "Timeline ellipsis to filter activities")
 
 #### **Take a note**
-You can select the **Enter a note** field in the timeline and specify a title and message. You can also add attachments to your notes.
 
-![Timeline notes and attachment](media/timeline-attachment.png "Timeline notes and attachment")
+You can select the **Enter a note** box in the timeline and specify a title and message. The message box has a rich text editor that enables you to create rich and well-formatted content for the notes with emphasis. The editor brings common word processor features like: 
 
-You can do the following:
+  - Copy formatting
+  - Font and size
+  - Bold, italic, and underline
+  - Background color for text and text color 
+  - Bulleted and numbered list
+  - Decrease and increase indent
+  - Block quote
+  - Text alignment (align left, centre, and right)
+  - Link and unlink
+  - Text strikethrough
+  - Text direction from right to left and left to right
+  - Undo and redo
+  - Remove format
+  - Table
 
-- Identify the key activities with simple icons.
-- Quick access to the command bar to perform common actions on an activity with ease.
-- Filter activities on the timeline with multiple filter options.
-- View and manage email conversation threads on the timeline with ease.
-- Expand and collapse activities in the timeline with ease.
+  ![Timeline notes rich text editor](media/timeline-notes1.png "Timeline notes rich text editor")
 
-#### **Identify the activities with icons**
-The timeline shows a simple icon next to the activity making it easy for you to identify the type of activity.
+  The feature is enabled by default, your administrator can enable or disable rich-text editor for you. To learn more, see [Enable rich-text editor for notes in timeline](https://review.docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-or-disable-rich-text-editor-for-notes-in-timeline).
+
+  > [!Note]
+  > You can format only the message (body), and not the title.
+
+  You can also add an attachment to your notes, and the attachment is displayed below the note. At anytime, you can attach one file. Before adding the note, if you want upload another file than the one you've selected, you can again browse and choose another file. This will replace the already selected file.
+
+  ![Timeline notes and attachment](media/timeline-attachment.png "Timeline notes and attachment")
+
+  > [!Note]
+  > - The notes rich-text editor is available only for Unified Interface and not for web client.
+  > - If you create a note with the rich-text editor formatting in Unified Interface, and when you see the note in Web Client, the note is displayed to you with HTML syntax.
+
+#### **Identify the activities, notes, and posts with icons along with time stamp**
+The timeline shows a simple icon before the activity, post, note, and custom entity making it easy for you to identify the type.
+
+Also, you can view the timestamp at all times. Activities, posts, and notes that were created or updated today will reflect only the time and created or updated on other days will reflect the date and time.
 
   ![Timeline activity icons](../customer-service/media/activity-icons.png "Timeline activity icons")
 
-  1. Task
-  2. Phone Call
-  3. Posts
-  4. Email
-  5. Note
-  6. Appointment
-
 #### **Access command bar to perform actions**
-When you hover the cursor on an activity, the command bar appears with the options specific to the activity, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, liking a post, replying to a post, editing a note, or deleting the activity.
+When you hover the cursor on or expand an activity, post, and note, the command bar appears with the options specific to the activity, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, liking a post, replying to a post, editing a note, or deleting the activity.
 
   ![Timeline command bar options](../customer-service/media/timeline-options1.png "Timeline command bar options")
   ![Timeline command bar options](../customer-service/media/timeline-options2.png "Timeline command bar options")
   ![Timeline command bar options](../customer-service/media/timeline-options3.png "Timeline command bar options")
   ![Timeline command bar options](../customer-service/media/timeline-options4.png "Timeline command bar options")
 
-#### **Filter activities on the timeline**
-Quickly filter the activities with multiple filter options to see what matters to you. The filter is available for the activity types that are present in timeline. That is, in the image shown, all are activity types are present in the timeline so the filter displays the activity types and the count of those activity types. 
+#### **Filter activities, posts, and notes on the timeline**
+Quickly filter the activities, posts, and notes with multiple filter options to see what matters to you. The filter is available for the activities, posts, notes, and custom entities that are present in timeline. The timeline filters and displays the records and the count of those records that are present in the timeline. 
 
 When you select the filter icon, you can see the **Filter by** menu where you can filter the items based on the following categories.
 
   | Category | Sub-category |
   |-----------------------|-----------------------|
   | Record type | <ul> <li> Notes </li> <li> Posts </li> <li> Activities </li> </ul> |
-  | Activity type | <ul> <li> Appointment </li> <li> Email </li> <li> Phone Call </li> <li> Task</li> </ul> |
-  | Activity status | <ul> <li> Active </li> <li> Active and overdue </li> <li> Closed </li> </ul> |
+  | Activity type | <ul> <li> Appointment </li> <li> Email </li> <li> Phone Call </li> <li> Task</li> <li>Custom activities (as configured by your administrator) </li> </ul> |
+  | Activity status | <ul> <li> Active </li> <li> Overdue </li> <li> Closed </li> </ul> |
   | Activity due date (active) | <ul> <li> Next 30 days </li> <li> Next 7 days </li> <li> Next 24 hours </li> <li> Last 24 hours </li> <li> Last 7 days </li> <li> Last 30 days </li> </ul> |
+  | Posts by | <ul> <li> Auto post </li> <li> Users </li> </ul> |
   | Modified date | <ul> <li> Last 24 hours </li> <li> Last 7 days </li> <li> Last 30 days </li> </ul> |
 
   ![Timeline activity filter](../customer-service/media/timeline-filter2.png "Timeline activity filter") ![Timeline activity filter](../customer-service/media/timeline-filter5.png "Timeline activity filter")
+
+  When you filter based on the activity status, then those activities, notes, and posts in a particular status are displayed to you.
+
+  ![Timeline activity filter](../customer-service/media/timeline-filter6.png "Timeline activity filter")
+
+#### **Search for records**
+
+You can easily search for records in the timeline. When you search for a phrase, the timeline searches the title or subject and description or body of the content, and then displays the record to you.
+
+  ![Timeline keyword search](../customer-service/media/timeline-keyword-search.png "Timeline keyword search")
 
 #### **View and manage email conversations**
 You can easily set email messages to show as conversation threads on the timeline, significantly reducing usability (scroll and clicks) when managing email activities.
@@ -294,7 +340,8 @@ Select an activity from the timeline to expand and view.
 
 #### Configure Timeline section for your users
 
- To learn more about configuration, see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control) and [FAQs for timeline control](https://docs.microsoft.com/powerapps/maker/model-driven-apps/faqs-timeline-control).
+ To learn more about configuration, see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control) and [FAQs for timeline control](https://docs.microsoft.com/powerapps/maker/model-driven-apps/faqs-timeline-control) in the Microsoft Power Apps documentation.
+
 
 ### Related section  
 In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps, for information, see  [Reference Panel in model-driven apps ](https://docs.microsoft.com/powerapps/user/navigation#reference-panel).
