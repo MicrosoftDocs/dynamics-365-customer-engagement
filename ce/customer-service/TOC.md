@@ -80,9 +80,6 @@
 #### [Introduction](introduction-migration-entity-records.md)
 #### [Plan your migration](plan-migration.md)
 #### [Migrate entity records data using migration tool](migrate-entity-records.md)
-### Developer Guide
-#### [Migrate Service Activity entity](migrate-service-activity-entity.md)
-#### [Sample: Migrate Service Activity entity using Organization Service](migrate-service-activity-org-service.md)
 
 ### Legacy Service Scheduling (Customer Service app)
 #### [Set up business closure](set-when-business-closed-cs-app.md)
