@@ -80,7 +80,7 @@ You can filter the list of activities to see only the ones you’re interested i
 
 > [!IMPORTANT]
 > The Activity Type filter is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. 
-For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](/power-platform/admin/opt-in-early-access-updates).
+For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](https://aka.ms/EarlyAccessOpt-in).
 
 You can also use the **Due** filter to see the activities that are due in a specified time, such as activities that are due today or earlier or activities that are due in the next seven days or earlier.
 
@@ -91,13 +91,13 @@ You can also use the **Due** filter to see the activities that are due in a spec
 
 You can create independent activities that aren’t associated with any customer or sales record. To do so, in the site map, select **Activities** and then on the command bar, select **Email** or **Phone Call** or **Task**, depending on which activity you want to create.
 
-Or, you can open an existing activity record to edit it.
+Or, to edit an existing activity record, open the activity by selecting its title.
 
 
 > [!NOTE]
 > - With the February 2020 release of Dynamics 365 Sales, when you create or edit a new activity, the record opens in a Main form dialog. A Main form dialog is a Main form opening in a dialog (a pop-up window). Main form dialogs allow you to stay in context while working on one record with the ability to open a second or third record in dialog experience. This makes it easier to edit the records.
 > - The Main form dialog is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. 
-For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](/power-platform/admin/opt-in-early-access-updates).
+For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](https://aka.ms/EarlyAccessOpt-in).
 
 ## Add a new activity for a customer
 

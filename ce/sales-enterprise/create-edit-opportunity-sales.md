@@ -1,7 +1,7 @@
 ---
 title: "Create or edit opportunities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
-ms.date: 10/01/2019
+ms.date: 02/03/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
