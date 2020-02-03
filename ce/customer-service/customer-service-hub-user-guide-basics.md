@@ -395,7 +395,8 @@ To view your email:
 
 2. Select the **All Activities** drop-down, and then select **My Received Emails**.
 
-![csh-view-emails](media/csh-view-emails.png "Display received emails")
+   > [!div class=mx-imgBorder]
+   > ![csh-view-emails](media/csh-view-emails.png "Display received emails")
 
 3. Select the email you want to view to open it. The email will open, where you can then reply to the sender and recipients or forward it.
 
@@ -407,7 +408,8 @@ The following steps detail how to create an email.
 
 2. On the command bar, select **Email**. A new email window opens.
 
-![csh-create-email](media/csh-create-email.png "Create a new email")
+   > [!div class=mx-imgBorder]
+   > ![csh-create-email](media/csh-create-email.png "Create a new email")
 
 The **From** field is automatically populated based on the currently logged-in user.
 
@@ -415,7 +417,8 @@ The **From** field is automatically populated based on the currently logged-in u
 
 4. To compose your email in a full-screen window, select the expand icon.
 
-![csh-email-expand-window](media/csh-email-expand-window.png "Expand the email window")
+   > [!div class=mx-imgBorder]
+   > ![csh-email-expand-window](media/csh-email-expand-window.png "Expand the email window")
 
 The message box has a rich text editor that enables you to create rich and well-formatted content for the emails with emphasis. The editor brings common word processor features like: 
 
@@ -435,7 +438,8 @@ The message box has a rich text editor that enables you to create rich and well-
 - Remove format
 - Table
 
-![csh-email-toolbar](media/csh-email-toolbar.png "Use the rich text editor features")
+  > [!div class=mx-imgBorder]
+  > ![csh-email-toolbar](media/csh-email-toolbar.png "Use the rich text editor features")
 
 5. When you're done, select **Send**.
 
