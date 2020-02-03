@@ -1,6 +1,6 @@
 ---
 title: "Custom channel activity create interaction (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
-description: "Describes the input parameters required by the `msdyncrm_CustomChannelActivityCreateInteraction` action"
+description: "Describes the input parameters required by the msdyncrm_CustomChannelActivityCreateInteraction action"
 ms.custom: 
 ms.date: 04/01/2018
 ms.service: crm-online
@@ -18,23 +18,23 @@ search.app:
   - D365Mktg
 ---
 
-#  Custom channel activity create interaction
+# Custom channel activity create interaction
 
 The following table describes the input parameters required by the `msdyncrm_CustomChannelActivityCreateInteraction` action: 
 
-|Input parameter|Type|Desctiption|
+|Input parameter|Type|Description|
 |-----------|----------|---------|
 |ActivityId |String|The `msdyncrm_activityid` attribute value of the `msdyncrm_customerjourneycustomchannelactivity` entity containing custom channel Activity Id.|
 |CustomerJourney |EntityReference|The `msdyncrm_customerjourney` attribute value of the `msdyncrm_customerjourneycustomchannelactivity` entity containing Entity Reference to customer journey originating the call.| 
 |CustomerJourneyIteration| EntityReference|The `msdyncrm_customerjourneyiteration` attrbiute value of the `msdyncrm_customerjourneycustomchannelactivity` entity containing Entity Reference to customer journey iteration.| 
 |Contact |EntityReference| The `msdyncrm_contact` attribute value of the `msdyncrm_customerjourneycustomchannelactivity` entity containing Entity Reference to processed contact.| 
-|EntityType  |String |The `msdyncrm_entitytype` attribute value of the `msdyncrm_customerjourneycustomchannelactivity` entity containing the string representing the entity type of custom entity create in [step1](create-entities-forms.md) and defined in the custom channel tile [definition](configure-tile-custom-channel#sample-tile-xml-file).| 
+|EntityType  |String |The `msdyncrm_entitytype` attribute value of the `msdyncrm_customerjourneycustomchannelactivity` entity containing the string representing the entity type of custom entity create in [step1](create-entities-forms.md) and defined in the custom channel tile [definition](configure-tile-custom-channel.md#sample-tile-xml-file).| 
 |EntityId |String |The `msdyncrm_entityid` attribute value  of the `msdyncrm_customerjourneycustomchannelactivity` record id of the custom entity defined in the solution by `EntityType` element in the custom channel tile [definition](configure-tile-custom-channel.md#sample-tile-xml-file).|
 |ResponseType |String |Id of one of the response types defined in the custom channel tile [definition](configure-tile-custom-channel.md#sample-tile-xml-file).| 
 |TriggerKeyword |String |(Optional) Keyword for custom response type defined in the custom tile [definition](configure-tile-custom-channel.md#sample-tile-xml-file).| 
 
  
-The XML below shows the section of the custom channel tile definition. This section defines three types of responses. The first two, `sent` and `delivered`, are the standard response types. The third `keyword` allows passing additional textual value to the interaction.  
+The XML below shows the section of the custom channel tile definition. This section defines three types of responses. The first two, `sent` and `delivered`, are the standard response types. The third one,  `keyword` allows passing additional textual value to the interaction.  
 
 ```XML
  <ResponseTypes> 
@@ -65,7 +65,7 @@ The XML below shows the section of the custom channel tile definition. This sect
 
 ## Emit custom Channel Activity Create Interaction
 
-The following code shows how to emit Custom Channel Activity Create Interaction programmatically. In this example, reference activity is defined in the custom channel activity record. We emit interaction with `ResponseType = keyword` and `TriggerKeyword = interested`.  
+The following code shows how to emit Custom Channel Activity Create Interaction programmatically. In this example, reference activity is defined in the custom channel activity record. We emit the interaction with `ResponseType = keyword` and `TriggerKeyword = interested`.  
 
 ```csharp
     var orgServiceFactory = serviceProvider.GetService(typeof(IOrganizationServiceFactory)) as IOrganizationServiceFactory; 
