@@ -44,7 +44,8 @@ If you select **Save**, the PDF document is stored in the default SharePoint sit
 
 
 > [!NOTE]
-> The capability to save a PDF to SharePoint is released as early access in the February 2020 release.
+> Save a PDF to SharePoint is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](https://aka.ms/EarlyAccessOpt-in). 
+
 
 
 ## Email as a PDF document
