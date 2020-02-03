@@ -86,7 +86,7 @@ search.app:
 <a name="bkmk_useJavaScriptFramework"></a>
 
 ### Use a cross-browser JavaScript library for HTML web resource user interfaces  
- A cross-browser [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library, such as [jQuery](http://jquery.com/), provides many advantages when developing HTML web resources that must support multiple browsers. [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries like jQuery provide a unified development experience for all browsers supported by Dynamics 365 Customer Engagement (on-premises). These capabilities are appropriate when you are using HTML web resources to provide user interfaces. [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries like jQuery provide consistent ways to interact with the Document Object Model (DOM).  
+ A cross-browser [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library, such as [jQuery](https://jquery.com/), provides many advantages when developing HTML web resources that must support multiple browsers. [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries like jQuery provide a unified development experience for all browsers supported by Dynamics 365 Customer Engagement (on-premises). These capabilities are appropriate when you are using HTML web resources to provide user interfaces. [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries like jQuery provide consistent ways to interact with the Document Object Model (DOM).  
   
 <a name="bkmk_nojQuery"></a>
  
@@ -135,7 +135,7 @@ search.app:
  When you access data by using the Dynamics 365 Customer Engagement (on-premises) web services, always use an [XMLHttpRequest](https://msdn.microsoft.com/library/ms535874\(VS.85\).aspx) that is configured to execute asynchronously. The reason is that the browser operates on a single thread. If that thread is being used to execute a long-running process synchronously the browser will stop responding.  
   
 > [!NOTE]
->  Synchronous XMLHttpRequests are deprecated on the main thread of the browser because of the detrimental effects to the end user’s experience. Some browsers now provide a warning when this is detected. If browsers implement the specification at some time in the future an InvalidAccessError exception will be thrown. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [http://www.w3.org/TR/XMLHttpRequest/#synchronous-flag](http://www.w3.org/TR/XMLHttpRequest/) and [https://xhr.spec.whatwg.org/#the-open()-method](https://xhr.spec.whatwg.org/)  
+>  Synchronous XMLHttpRequests are deprecated on the main thread of the browser because of the detrimental effects to the end user’s experience. Some browsers now provide a warning when this is detected. If browsers implement the specification at some time in the future an InvalidAccessError exception will be thrown. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [https://www.w3.org/TR/XMLHttpRequest/#synchronous-flag](https://www.w3.org/TR/XMLHttpRequest/) and [https://xhr.spec.whatwg.org/#the-open()-method](https://xhr.spec.whatwg.org/)  
   
   
   
@@ -148,4 +148,4 @@ search.app:
  [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)<br />
  [Use the Web API with web resources](webapi/get-started-web-api-client-side-javascript.md)<br />
  [Understand the Client API Object Model](clientapi/understand-clientapi-object-model.md)<br />
- [Blog: Debugging JavaScript code in CRM using browser developer tools](http://go.microsoft.com/fwlink/p/?LinkId=715699)<br />
+ [Blog: Debugging JavaScript code in CRM using browser developer tools](https://go.microsoft.com/fwlink/p/?LinkId=715699)<br />

@@ -2,7 +2,7 @@
 title: "Back up and restore instances  | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 11/18/2019
+ms.date: 01/17/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,6 +21,10 @@ search.app:
   - Powerplatform
 ---
 # Back up and restore instances
+
+Backing up and restoring an instance (environment) is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Back up and restore environments](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
+
+<!--
 
 [!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
 
@@ -231,3 +235,4 @@ In order to prevent accidental overwrites, we don't allow users to directly rest
 
 ### Why is my organization in administration mode after a restore and how do I disable it?
 The newly restored instance is placed in administration mode. To disable administration mode, see [Set administration mode](manage-sandbox-instances.md#set-administration-mode).  
+-->

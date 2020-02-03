@@ -85,8 +85,6 @@ The colored circles on the security role settings page define the access level f
 
 A security role can be set to provide a team member with direct Basic-level access user privileges. A team member can create records that they own and records that have the team as owner when the Basic access level for Create is given. When the Basic access level for Read is given, team member can access records that are owned by both that team member and by the team.  
 
-This member’s privilege inheritance role is applicable to [Owner](manage-teams.md#about-owner-teams) and Azure Active Directory (Azure AD) [Group teams](manage-teams.md#about-group-teams). 
-
 ### Create a security role with team member’s privilege inheritance
 
 #### Prerequisites

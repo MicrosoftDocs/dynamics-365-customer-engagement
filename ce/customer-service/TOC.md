@@ -1,6 +1,15 @@
 # [Dynamics 365 Customer Service](help-hub.md)
 ## [Overview](overview.md)
 ## [What's new](whats-new-customer-service.md)
+## [Learning Catalog](learning-catalog.md)
+### [Business Decision Maker](learning-bdm.md)
+### [Business User](learning-bus-user.md)
+### [Implementation Project Manager](learning-project-manager.md)
+### [Administrator](learning-administrator.md)
+### [Developer](learning-developer.md)
+### [Functional Consultant](learning-functional-consultant.md)
+### [Partner Sales and Marketing](learning-sales.md)
+
 ## User Guides
 ### Customer Service Hub
 #### [Introduction to Customer Service Hub](user-guide-customer-service-hub.md)

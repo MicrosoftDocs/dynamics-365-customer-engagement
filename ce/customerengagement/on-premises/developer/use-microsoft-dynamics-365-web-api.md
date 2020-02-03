@@ -22,12 +22,12 @@ search.app:
 ---
 # Use the Dynamics 365 Customer Engagement Web API
 
-The Customer Engagement Web API provides a development experience that can be used across a wide variety of programming languages, platforms, and devices. The Web API implements the OData (Open Data Protocol), version 4.0, an OASIS standard for building and consuming RESTful APIs over rich data sources. You can learn more about this protocol at [http://www.odata.org/](http://www.odata.org/). Details about this standard are available at [https://www.oasis-open.org/standards#odatav4.0](https://www.oasis-open.org/standards#odatav4.0).  
+The Customer Engagement Web API provides a development experience that can be used across a wide variety of programming languages, platforms, and devices. The Web API implements the OData (Open Data Protocol), version 4.0, an OASIS standard for building and consuming RESTful APIs over rich data sources. You can learn more about this protocol at [https://www.odata.org/](https://www.odata.org/). Details about this standard are available at [https://www.oasis-open.org/standards#odatav4.0](https://www.oasis-open.org/standards#odatav4.0).  
 
 > [!NOTE]
 > Both Customer Engagement (on-premises) and Common Data Service share the same Web API. The Web API documentation available in the Power Apps documentation at: [Use the Common Data Service Web API](/powerapps/developer/common-data-service/webapi/overview).
   
- Because the Web API is built on open standards, we don’t provide assemblies for a specific developer experience. You can compose HTTP requests for specific operations or use third-party libraries to generate classes for whatever language or platform you want. You can find a list of libraries that support OData version 4.0 at [http://www.odata.org/libraries/](http://www.odata.org/libraries/).  
+ Because the Web API is built on open standards, we don’t provide assemblies for a specific developer experience. You can compose HTTP requests for specific operations or use third-party libraries to generate classes for whatever language or platform you want. You can find a list of libraries that support OData version 4.0 at [https://www.odata.org/libraries/](https://www.odata.org/libraries/).  
   
  To compare the Web API with other Dynamics 365 Customer Engagement (on-premises) web services, see [Use Dynamics 365 Customer Engagement web services](use-microsoft-dynamics-365-web-services.md). 
 
@@ -36,5 +36,5 @@ The Customer Engagement Web API provides a development experience that can be us
 [Use Dynamics 365 Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)<br/>
 [What is Power Apps?](/powerapps/powerapps-overview)<br/>
 [Common Data Service Developer Guide](/powerapps/developer/common-data-service/overview) <br/>
-[OData - the best way to REST](http://www.odata.org/)
+[OData - the best way to REST](https://www.odata.org/)
 

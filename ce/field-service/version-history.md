@@ -2,7 +2,7 @@
 title: "Field Service Version History | MicrosoftDocs"
 ms.custom:
   - dyn365-fieldservice
-ms.date: 12/12/2019
+ms.date: 01/13/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -32,10 +32,10 @@ search.app:
 
 | Solution                             | Latest version | Download links                                                                                                                     |
 |--------------------------------------|----------------|------------------------------------------------------------------------------------------------------------------------------------|
-| Field Service                        |  8.8.6.300           | [https://trials.dynamics.com](https://trials.dynamics.com).   See additional notes at the end of this document.                  |
-| Field Service Mobile                 | 11.3.106          | [Windows](https://aka.ms/fsmobile-windows),   [iOS](https://aka.ms/fsmobile-ios), and   [Android](https://aka.ms/fsmobile-android) |
-| Mobile Configuration Tool (Woodford) | 11.3+          | [Direct download link (English only)](https://aka.ms/fsmobile-configurator)                                                       |
-| Mobile Project Template              | 1.0.3482       | [Direct download link (English only)](https://aka.ms/fsmobile-project)      |
+| Field Service                        |  8.8.8           | [https://trials.dynamics.com](https://trials.dynamics.com).   See additional notes at the end of this document.                  |
+| Field Service Mobile                 | 12.1.203          | [Windows](https://aka.ms/fsmobile-windows),   [iOS](https://aka.ms/fsmobile-ios), and   [Android](https://aka.ms/fsmobile-android) |
+| Mobile Configuration Tool (Woodford) | 12.1+          | [Direct download link (English only)](https://aka.ms/fsmobile-configurator)                                                       |
+| Mobile Project Template              | 1.0.3514       | [Direct download link (English only)](https://aka.ms/fsmobile-project)      |
 
 ## Field Service version history
 
@@ -79,17 +79,18 @@ search.app:
 
 ## Mobile project file library
 
-Mobile projects hold configurations and customizations of the Field Service Mobile app such as view and form layout, mobile workflows called form rules, and offline HTML/JavaScript. These mobile projects are imported through the Field Service Mobile Configuration Tool (Woodford). The Field Service engineering team periodically releases new mobile project templates to reflect new product updates and improve usability and performance.
+Mobile projects hold configurations and customizations of the Field Service Mobile app such as view and form layout, mobile workflows called form rules, and offline HTML/JavaScript. These mobile projects are imported through the Field Service Mobile Configuration Tool (Woodford). The Field Service engineering team periodically releases new mobile project templates and the latest one can always be downloaded at [https://aka.ms/fsmobile-project](https://aka.ms/fsmobile-project).
 
 To learn more about mobile projects, see our topic on [installing the Field Service Mobile Configuration Tool](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool).
 
-| Template version  | Template name | Release date | Relates to Field Service Mobile version |  Publish to Woodford Version | Minimum Field Service Version |
+| Template version  | Release date | Relates to Field Service Mobile version |  Publish to Woodford Version | Minimum Field Service Version | 
 |---|---|---|---|---| --- |
-| [1.0.3482](https://aka.ms/fsmobile-project)  |  FSDyn365_1.0.3482.woodford | November 2019  |  11.3+ | 11.3+ | 8.8.6.300 |
-| [1.0.2735](https://aka.ms/fsmobile-project-2735)  |  FSDyn365_1.0.2735.woodford | August 2019  |  11.3 | 11.3 | |
-| [1.0.1322](https://aka.ms/fsmobile-project-1322)  |  FSDyn365_1.0.1322.woodford | December 2018  |  11.2 | 11.2 | |
-| [Field Service v6.1 v1.0.0.0](https://go.microsoft.com/fwlink/p/?linkid=836310)  |  CentaurusStoreVersion.woodford | December 2018  |  **Field Service Mobile (2017)** 9.0+ | 9.1 | |
-| [ Field Service v6.0 v1.0.0.0](https://go.microsoft.com/fwlink/p/?LinkId=808250)  |  Field Service Mobile default project.woodford | December 2018  |  **Field Service Mobile (2016)** 8.0 | 8.0 | |
+| [1.0.3514](https://aka.ms/fsmobile-project)  |  January 2020  |  12.1+ | 12.1+ | 8.8.6.300 | 
+| [1.0.3482](https://aka.ms/fsmobile-project-3482)  |   November 2019  |  11.3+ | 11.3+ | 8.8.6.300 | 
+| [1.0.2735](https://aka.ms/fsmobile-project-2735)  |  August 2019  |  11.3 | 11.3 | | 
+| [1.0.1322](https://aka.ms/fsmobile-project-1322)  |   December 2018  |  11.2 | 11.2 | | 
+| [Field Service v6.1 v1.0.0.0](https://go.microsoft.com/fwlink/p/?linkid=836310)  |  December 2018  |  **Field Service Mobile (2017)** 9.0+ | 9.1 | | 
+| [ Field Service v6.0 v1.0.0.0](https://go.microsoft.com/fwlink/p/?LinkId=808250)  |  December 2018  |  **Field Service Mobile (2016)** 8.0 | 8.0 | | 
 
 
 ### See also

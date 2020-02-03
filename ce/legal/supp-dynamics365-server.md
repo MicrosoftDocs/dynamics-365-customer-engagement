@@ -1,7 +1,9 @@
 ---
 title: Supplemental Terms
-author: brycho
+author: Mattp123
 ---
+
+# Supplemental Terms of Use for Microsoft Dynamics 365 Server
 
 PLEASE NOTE: Your use of the subscription service and software is subject to the
 terms and conditions of the agreement you agreed to when you signed up for the
@@ -32,11 +34,11 @@ required user consent, and maintain a prominent privacy policy that accurately
 informs users about how you use, collect, and share their data. You can learn
 more about Microsoft’s data collection and use in the product documentation and
 the Microsoft Privacy Statement at
-<http://go.microsoft.com/fwlink/?LinkID=521839>. You agree to comply with all
+<https://go.microsoft.com/fwlink/?LinkID=521839>. You agree to comply with all
 applicable provisions of the Microsoft Privacy Statement.
 
 **Processing of Personal Data.** To the extent Microsoft is a processor or
 subprocessor of personal data in connection with the software, Microsoft makes
 the commitments in the European Union General Data Protection Regulation Terms
 of the Online Services Terms to all customers effective May 25, 2018, at
-<http://go.microsoft.com/?linkid=9840733>.
+<https://go.microsoft.com/?linkid=9840733>.

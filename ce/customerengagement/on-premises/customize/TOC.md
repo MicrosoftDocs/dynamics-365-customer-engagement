@@ -25,7 +25,7 @@
 #### [Change navigation within a form](use-the-form-editor-legacy.md)
 #### [Add a field to a form](add-field-form.md)
 #### [Form properties](form-properties-legacy.md)
-#### [Tab properties](tab-properties-legacy.md)
+#### [Work with form tabs](tab-properties-legacy.md)
 #### [Section properties](section-properties-legacy.md)
 #### [Common field properties](common-field-properties-legacy.md)
 #### [Special field properties](special-field-properties-legacy.md)

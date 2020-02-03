@@ -46,14 +46,14 @@ IFRAME and web resource controls embed content from another location in pages by
 |        Attribute        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `security="restricted"` |                                                                                                                                                                                                                                                                                                    This attribute is supported only by versions of [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] no earlier than version 6. The security attribute applies the user security setting Restricted Sites to the source file of the IFRAME. (Zone settings are found on the **Security** tab of the **Internet Options** dialog box.) By default, scripting isn’t enabled in the Restricted Sites zone. By changing the security settings of the zone, various negative results can occur, including allowing scripts to run. For more information, see [security attribute](https://msdn.microsoft.com/library/ie/ms534622.aspx).                                                                                                                                                                                                                                                                                                     |
-|      `sandbox=""`       | For browsers that support this attribute, the content in the IFRAME is essentially limited to only displaying information. The following restrictions could be applied:<br /><br /> -   Browser plug-ins are disabled.<br />-   Forms and scripts are disabled.<br />-   Links to other browsing contexts are disabled.<br />-   Content is treated as from a different domain even if the domain is the same.<br /><br /> This attribute is defined by W3C and is supported by the following browsers:<br /><br /> - [!INCLUDE[pn_IE_10](../includes/pn-ie-10.md)], [!INCLUDE[pn_ie_11](../includes/pn-ie-11.md)], and [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)]<br />- [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)]<br />- [!INCLUDE[tn_Apple_Safari](../includes/tn-apple-safari.md)]<br />- [!INCLUDE[tn_Mozilla_Firefox](../includes/tn-mozilla-firefox.md)]<br /><br /> For more information about the sandbox attribute see:<br /><br /> -   [How to Safeguard your Site with HTML5 Sandbox](https://msdn.microsoft.com/hh563496)<br />-   [WC3 Sandbox attribute](http://dev.w3.org/html5/spec-author-view/the-iframe-element.html)<br />-   [Sandbox](https://msdn.microsoft.com/library/ie/hh673561.aspx) |
+|      `sandbox=""`       | For browsers that support this attribute, the content in the IFRAME is essentially limited to only displaying information. The following restrictions could be applied:<br /><br /> -   Browser plug-ins are disabled.<br />-   Forms and scripts are disabled.<br />-   Links to other browsing contexts are disabled.<br />-   Content is treated as from a different domain even if the domain is the same.<br /><br /> This attribute is defined by W3C and is supported by the following browsers:<br /><br /> - [!INCLUDE[pn_IE_10](../includes/pn-ie-10.md)], [!INCLUDE[pn_ie_11](../includes/pn-ie-11.md)], and [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)]<br />- [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)]<br />- [!INCLUDE[tn_Apple_Safari](../includes/tn-apple-safari.md)]<br />- [!INCLUDE[tn_Mozilla_Firefox](../includes/tn-mozilla-firefox.md)]<br /><br /> For more information about the sandbox attribute see:<br /><br /> -   [How to Safeguard your Site with HTML5 Sandbox](https://msdn.microsoft.com/hh563496)<br />-   [WC3 Sandbox attribute](https://dev.w3.org/html5/spec-author-view/the-iframe-element.html)<br />-   [Sandbox](https://msdn.microsoft.com/library/ie/hh673561.aspx) |
 
 <a name="BKMK_EnableIFrameCommunicationAccrossDomains"></a>   
 
 ### Enabling IFrame communication across domains  
  There are times when you want to enable communication for an IFRAME that contains content on a different domain. `Window.postMessage` is a browser method that provides this capability for versions of [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] no earlier than [!INCLUDE[pn_IE_8](../includes/pn-ie-8.md)]. [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)], [!INCLUDE[tn_Mozilla_Firefox](../includes/tn-mozilla-firefox.md)], and [!INCLUDE[tn_Apple_Safari](../includes/tn-apple-safari.md)] also support it. For more information about using `postMessage`, see the following blog posts:  
 
--   [Cross domain calls to the parent CRM 2011 form](http://blogs.msdn.com/b/devkeydet/archive/2012/02/14/cross-domain-calls-to-the-parent-crm-2011-form.aspx)  
+-   [Cross domain calls to the parent CRM 2011 form](https://blogs.msdn.com/b/devkeydet/archive/2012/02/14/cross-domain-calls-to-the-parent-crm-2011-form.aspx)  
 
 -   [Cross-Document Messaging and RPC](https://msdn.microsoft.com/magazine/ff800814.aspx)  
 
@@ -82,18 +82,18 @@ IFRAME and web resource controls embed content from another location in pages by
  The following sample shows the URL without parameters.  
 
 ```  
-http://myserver/mypage.aspx  
+https://myserver/mypage.aspx  
 ```  
 
  The following sample shows the URL with parameters.  
 
 ```  
-http://myserver/mypage.aspx?id=%7bB2232821-A775-DF11-8DD1-00155DBA3809%7d&orglcid=1033&orgname=adventureworkscycle&type=1&typename=account&userlcid=1033  
+https://myserver/mypage.aspx?id=%7bB2232821-A775-DF11-8DD1-00155DBA3809%7d&orglcid=1033&orgname=adventureworkscycle&type=1&typename=account&userlcid=1033  
 ```  
 
 ### Read passed parameters  
 
- Passed parameters are typically read in the target .aspx page by using the **HttpRequest.QueryString** property. In an HTML page, the parameters can be accessed by using the **window.location.search** property in [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]. For more information, see [HttpRequest.QueryString Property](http://msdn2.microsoft.com/library/system.web.httprequest.querystring.aspx) and [search Property](http://msdn2.microsoft.com/library/ms534620.aspx).  
+ Passed parameters are typically read in the target .aspx page by using the **HttpRequest.QueryString** property. In an HTML page, the parameters can be accessed by using the **window.location.search** property in [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]. For more information, see [HttpRequest.QueryString Property](https://msdn2.microsoft.com/library/system.web.httprequest.querystring.aspx) and [search Property](https://msdn2.microsoft.com/library/ms534620.aspx).  
 
 <a name="BKMK_PassFormData"></a>  
 
@@ -125,10 +125,10 @@ var newTarget = "";
 //Set the target based on the value of the option set  
 switch (value) {  
     case 100000001:  
-        newTarget = "http://myServer/test/pageOne.aspx";  
+        newTarget = "https://myServer/test/pageOne.aspx";  
         break;  
     default:  
-        newTarget = "http://myServer/test/pageTwo.aspx";  
+        newTarget = "https://myServer/test/pageTwo.aspx";  
         break;  
 }  
 //Get the default URL for the IFRAME, which includes the   

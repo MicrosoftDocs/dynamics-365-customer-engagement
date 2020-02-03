@@ -1,6 +1,6 @@
 ---
 title: "Walkthrough: Register a Dynamics 365 Customer Engagement app with Active Directory (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
-description: "This walkthrough describes how to register an application with Azure Active Directory so that it can connect to the Dynamics 365 Customer Engagement server, authenticate using OAuth, and access the web services"
+description: "This walkthrough describes how to register an application with Azure Active Directory so that it can connect to the Dynamics 365 Server, authenticate using OAuth, and access the web services"
 ms.custom: 
 ms.date: 03/29/2019
 ms.prod: crm-2016
@@ -26,7 +26,7 @@ search.app:
 ---
 # Walkthrough: Register a Dynamics 365 Customer Engagement app with Active Directory
 
-This walkthrough describes how to register a desktop client or mobile application so that it can connect to and authenticate with the Dynamics 365 Customer Engagement (on-premises) server and access the Web services. Once registered, an application can access the Web services using HTTP requests through the server’s SOAP or Web API endpoints.  
+This walkthrough describes how to register a desktop client or mobile application so that it can connect to and authenticate with the Dynamics 365 Server and access the Web services. Once registered, an application can access the Web services using HTTP requests through the server’s SOAP or Web API endpoints.  
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] 
 
@@ -77,7 +77,7 @@ Windows.Security.Authentication.Web.WebAuthenticationBroker.getCurrentApplicatio
   
 1.  Configures the external application by entering the client ID and server address URL in the app as instructed.  
   
-### Dynamics 365 Customer Engagement (on-premises) server setup  
+### Dynamics 365 Server setup  
  To configure the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server to enable federated claims, follow these steps.  
   
 ##### Configure claims settings  

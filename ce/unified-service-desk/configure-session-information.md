@@ -110,7 +110,7 @@ The session information is displayed under tabs in [!INCLUDE[pn_unified_service_
  Since there is no code behind for this XAML, we take advantage of another XAML feature, Commands. There is a special command defined in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], “USD:ActionCommands.DoActionCommand”. This command is designed to call a [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] action on any application within the agents currently running session. The CommandParameter is a URL encoded action call, with the following format.  
   
 ```  
-http://uii/[UII Hosted Application]/[Action]?[Parameter]  
+https://uii/[UII Hosted Application]/[Action]?[Parameter]  
 ```  
   
  The action must be configured as a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] action for the specified [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] hosted application. This button calls the GotoTask action on the AgentScripting application and passes “Welcome” as the parameter. For the AgentScripting application, this call locates the task with the name, “Welcome” and jumps to that task, thus displaying a new agent script.  
