@@ -82,7 +82,7 @@ To configure SLAs in Customer Service Hub, perform the following steps:
 
 ## Prerequisites
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Review the following requirements before configuring SLAs for your organization:
 
@@ -101,7 +101,7 @@ Review the following requirements before configuring SLAs for your organization:
 
 ## Create SLA KPIs in Customer Service Hub
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 SLA KPIs are performance indicators, such as First Response or Resolve by, that you’d like to track. 
 
@@ -122,7 +122,7 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
 ## Create an SLA in Customer Service Hub
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Create SLAs to define conditions and actions that are applicable when an SLA is applied to an entity. The following steps are involved in creating the SLA:
 
