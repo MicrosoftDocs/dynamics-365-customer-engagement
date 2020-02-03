@@ -1,6 +1,7 @@
 # [Dynamics 365 Customer Service](help-hub.md)
 ## [Overview](overview.md)
 ## [What's new](whats-new-customer-service.md)
+## [Availability of Customer Service Hub](availability-customer-service-hub.md)
 ## [Learning Catalog](learning-catalog.md)
 ### [Business Decision Maker](learning-bdm.md)
 ### [Business User](learning-bus-user.md)
@@ -32,7 +33,7 @@
 #### [Use Customer Service Hub on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)
 #### [Upgrade to Customer Service Hub](upgrade-ish-csh.md)
 #### [Keyboard navigation support](keyboard-navigation-support-customer-service-hub.md)
-
+### [Customer Service Team Member](customer-service-team-member.md)
 ### Customer Service app
 #### [Introduction to Customer Service app](user-guide-customer-service.md)
 #### [Create and manage a case](user-guide-customer-service.md#create-and-manage-a-case)
@@ -53,8 +54,8 @@
 ### Case Settings
 #### [Create and manage queues](set-up-queues-manage-activities-cases.md)
 #### [Define parent and child case settings](define-settings-parent-child-cases.md)
-#### [Install Routing Rules - Preview solution](install-routing-rules-preview-solution.md)
 #### [Automatically route cases using routing rule sets](create-rules-automatically-route-cases.md)
+#### [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)
 #### [Automatically create and update records](set-up-rules-to-automatically-create-or-update-records.md)
 #### [Automatically create a case from an email](automatically-create-case-from-email.md)
 #### [Define subjects to categorize cases](../admin/define-subjects-categorize-cases-products-articles.md)
@@ -79,6 +80,25 @@
 ### Similar Record Suggestions
 #### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
 
+## Connected Customer Service (IoT) add-in
+### [Overview](cs-iot-overview.md)
+### Connected Customer Service for Azure IoT Central
+#### [Overview](cs-iot-azure-overview.md)
+#### Tutorials
+##### [Prerequisites](cs-iot-prerequisites.md)
+##### [Receive IoT Alerts from Azure IoT Central](cs-iot-receive-alerts.md)
+##### [Associate devices with customer accounts](cs-iot-central-associate-devices.md)
+### Connected Customer Service for Azure IoT Hub
+#### [Overview](cs-iot-create-customized-solutions.md)
+#### [Architecture](cs-iot-connected-customer-service-architecture.md)
+#### [Quickstart: Build your own IoT solution](cs-iot-build-own-solution.md)
+#### [Prerequisites for Azure subscription](cs-iot-azure-subscription-prerequisites.md)
+#### [Installation and setup](cs-iot-installation-setup.md)
+#### [Authorize API app connections](cs-iot-authorize-api-connection.md)
+#### [Visualize device readings](cs-iot-visualize-device-readings.md)
+#### [Extend standard components or add Azure services](cs-iot-extend-connected-customer-service-solutions.md)
+#### [IoT - Parent IoT Alerts workflow](cs-iot-parent-alerts-workflow.md)
+### [Security roles for Connected Customer Service](cs-iot-security-roles.md)
 
 ## Service Scheduling Guide
 ### [Understand Service Scheduling](basics-service-service-scheduling.md)
@@ -100,9 +120,6 @@
 #### [Introduction](introduction-migration-entity-records.md)
 #### [Plan your migration](plan-migration.md)
 #### [Migrate entity records data using migration tool](migrate-entity-records.md)
-### Developer Guide
-#### [Migrate Service Activity entity](migrate-service-activity-entity.md)
-#### [Sample: Migrate Service Activity entity using Organization Service](migrate-service-activity-org-service.md)
 
 ### Legacy Service Scheduling (Customer Service app)
 #### [Set up business closure](set-when-business-closed-cs-app.md)

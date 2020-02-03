@@ -3,14 +3,12 @@ title: Marketing learning catalog
 description: Find all the training options for marketing.
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 07/08/2019
-ms.author: loreleishannonmsft
+ms.date: 01/08/2020
+ms.author: v-lshann
 ---
 
 # Marketing Learning Catalog
 <p> Find the right online training, in person workshops, and events for your role in Customer Service for Dynamics 365.</p>
-
-
 
 <!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
 
@@ -24,8 +22,6 @@ ms.author: loreleishannonmsft
 
     [Functional Consultants Learning Catalog](learning-functional-consultant.md)
 
-    [Get started](learning-functional-consultant.md#get-started)
-
     [Marketing](learning-functional-consultant.md#marketing)
 
     [Exams](learning-functional-consultant.md#exam)
@@ -38,9 +34,6 @@ ms.author: loreleishannonmsft
     Are you in charge of making sure your company’s implementation goes smoothly?
 
     [Project Managers Learning Catalog](learning-project-manager.md)
-
-    [Get started](learning-project-manager.md#get-started)
-
     [Marketing](learning-project-manager.md#marketing)
 
     [Exams](learning-project-manager.md#exam)
@@ -80,7 +73,7 @@ ms.author: loreleishannonmsft
 
     Do you decide whether to invest in new technologies?
 
-    [Business and Technical Decision Makers Learning Catalog](learning-bus-decision_makers.md)
+    [Business and Technical Decision Makers Learning Catalog](learning-bdm.md)
 
 :::column-end:::
     :::column:::

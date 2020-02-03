@@ -1,6 +1,26 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customerengagement/on-premises/admin/control-social-data.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/connect-microsoft-social-engagement.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/install-social-selling-assistant.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/segment-boost.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/social-engagement/accessibility.md",
       "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
       "redirect_document_id": "false"
@@ -17629,6 +17649,26 @@
     {
       "source_path": "ce/portals/portal-faq.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/supervisor/assign-conversations.md",
+      "redirect_url": "intro-intraday-insights-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/administrator/configure-ongoing-conversations-settings.md",
+      "redirect_url": "configure-intraday-dashboard-supervisor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/migrate-service-activity-org-service.md",
+      "redirect_url": "introduction-migration-entity-records.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/migrate-service-activity-entity.md",
+      "redirect_url": "introduction-migration-entity-records.md",
       "redirect_document_id": false
     }
   ]
