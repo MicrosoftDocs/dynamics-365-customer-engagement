@@ -44,4 +44,4 @@ The data that you track as recent actions is stored in an entity where it is pas
 
 ## See also
 
-[Portal navigation](../agent/agent-oc/oc-customer-summary.md#preview-portal navigation)
+[Portal navigation](../agent/agent-oc/oc-customer-summary.md#preview-portal-navigation)

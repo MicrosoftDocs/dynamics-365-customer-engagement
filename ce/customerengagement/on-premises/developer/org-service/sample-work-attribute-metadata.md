@@ -11,8 +11,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 377198f5-ac08-40e1-a727-f3ac51e7a01e
 author: JimDaly
-ms.author: jdaly
-manager: jdaly
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -21,22 +21,36 @@ search.app:
 
 # Sample: Work with attribute metadata
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with attribute metadata](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Attributes).
+This sample shows how to perform various actions on attributes. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/WorkWithAttributes).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to perform various actions on attributes.  
-  
-## Example  
- [!code-csharp[attributes#WorkWithAttributes](../../snippets/csharp/CRMV8/attributes/cs/workwithattributes.cs#workwithattributes)]  
-  
-### See also  
- [Extend the Metadata Model for Dynamics 365 Customer Engagement](use-organization-service-metadata.md)   
- [Customize Entity Attribute Metadata](../customize-entity-attribute-metadata.md)   
- [Sample: Dump Attribute Metadata to a File](sample-dump-attribute-metadata-file.md)   
- [Work with Attributes](work-attribute-metadata.md)
+[!include[cc-sample-note](../includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](../includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+This sample shows how to create different types of attributes in Common Data Service.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+Checks for the current version of the org.
+
+### Demonstrate
+
+1. The `BooleanAttributeMetadata` method creates an attribute of type boolean.
+2. The `DateTimeAttributeMetadata` message creates an attribute of type date time.
+3. The `DecimalAttributeMetadata` message creates an attribute of type decimal.
+4. The `IntegerAttributeMetadata` message creates an attribute of type integer.
+5. The `MemoAttributeMetadata` message creates an attribute of type memo.
+6. The `MoneyAttributeMetadata` message creates an attribute of type money.
+7. The `PicklistAttributeMetadata` message creates an attribute of type picklist.
+
+### Clean up
+
+Displays an option to delete all the data created in the sample. The deletion is optional in case you want to examine the data created by the sample. You can manually delete the data to achieve same results.

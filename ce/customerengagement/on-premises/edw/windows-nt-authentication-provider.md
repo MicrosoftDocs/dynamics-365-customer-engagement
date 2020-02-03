@@ -32,5 +32,5 @@ ms.author: matp
   
  This attribute must be configured to support both Kerberos and NTLM authentication (Negotiate,NTLM).  
   
- For information about how to set this attribute, see [How to configure IIS to support both the Kerberos protocol and the NTLM protocol for network authentication](http://go.microsoft.com/fwlink/p/?LinkID=24925).
+ For information about how to set this attribute, see [How to configure IIS to support both the Kerberos protocol and the NTLM protocol for network authentication](https://go.microsoft.com/fwlink/p/?LinkID=24925).
 

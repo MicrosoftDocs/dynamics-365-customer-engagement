@@ -1,5 +1,5 @@
 ---
-title: "Sample: Collaborate with activity feeds (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Collaborate with activity feeds| MicrosoftDocs"
 description: The sample shows how to create posts with comments and mentions and how to follow Dynamics 365 Customer Engagement (on-premise) records. It also demonstrates how to retrieve information for the personal and record walls.
 ms.custom: 
 ms.date: 10/31/2017
@@ -24,8 +24,8 @@ helpviewer_keywords:
 ms.assetid: d680463c-09d4-4cd8-bdbe-2ca4309c12a3
 caps.latest.revision: 24
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -34,6 +34,8 @@ search.app:
 # Sample: Collaborate with activity feeds
 
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Activity Feeds](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/ActivityFeeds).  
+
+[!include[cc-sample-note](includes/cc-sample-note.md)]
   
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

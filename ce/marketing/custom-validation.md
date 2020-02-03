@@ -73,7 +73,7 @@ To test your validation pipeline, do the following:
 
 1. Open a Google Chrome console, and then execute the following code (where *&lt;YourDomain&gt;* is the domain where your system is running):  
 
-    `$.ajax({type:"POST", url:"http://<YourDomain>/StarterPortal/api/data/v8.2/new_ValidationPipeline", data: JSON.stringify({ValidationContext: "val-ctx"}), contentType:"application/json", dataType:"json"})`
+    `$.ajax({type:"POST", url:"https://<YourDomain>/StarterPortal/api/data/v8.2/new_ValidationPipeline", data: JSON.stringify({ValidationContext: "val-ctx"}), contentType:"application/json", dataType:"json"})`
 
     ![Google Chrome console](media/custom-validation-test1.png "Google Chrome console")
 
