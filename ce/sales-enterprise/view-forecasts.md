@@ -14,69 +14,69 @@ manager: shujoshi
 
 # View a forecast
 
-Bottoms-up forecasting is the projection of what a salesperson, team, or organization will sell in a given pre-defined period (month or quarter). Sellers can also use forecasts to track their performance with assigned sales targets or quotas.
+Bottoms-up forecasting is the projection of what a salesperson, team, or organization will sell in a given predefined period (month or quarter). Sellers can also use forecasts to track their performance by using assigned sales targets or quotas.
 
-To view a forecast, follow these steps:
+**To view a forecast**
 
 1.	[Review the prerequisites](project-accurate-revenue-sales-forecasting.md#review-prerequisites).
 
-2.	Sign in to **Sales Hub** app.
+2.	Sign in to the Sales Hub app.
 
-3.	At the bottom of the site map, select the **Change area** icon, and then select **Sales**. 
+3.	At the bottom of the site map, select **Change area** ![Change area icon](media/change-area-icon.png "Change area icon"), and then select **Sales**. <!--note from editor: Do you think the following graphic is necessary? Other procedures just use the inline graphic and alt text as I've added here. (However, this edit presumes the graphic does have a tooltip that says "Change area.")-->
  
     > [!div class="mx-imgBorder"]
-    > ![Icon to change area in the site map](media/site-map-area.png "Icon to change area in the site map")
+    > ![Icon to change area in the site map](media/site-map-area.png "Icon to change an area of the site map")
 
-3. Under **Performance**, select **Forecasts**. The forecast grid page displays.
+3. Under **Performance**, select **Forecasts**. 
 
     > [!div class="mx-imgBorder"]
     > ![Forecasts view page](media/forecast-view-page.png "Forecasts view page")
     
-4.	On the grid page, select the following options:
+4.	On the grid page, do the following:
 
-    -	A forecast from the drop-down list. Any forecasts for which you have permissions will appear here.
+    -	Select a forecast from the drop-down list. Any forecasts for which you have permissions will appear here.
 
-    -	The forecast period you want to see. Options in the drop-down list reflect the number of forecast periods defined in the forecast configuration. The default period is current period’s forecast.
+    -	Choose the forecast period you want to see. Options in the drop-down list reflect the number of forecast periods defined in the forecast configuration. The default is the current period.
 
  
     > [!div class="mx-imgBorder"]
-    > ![Drop-down list to select forecast](media/forecast-view-drop-down.png "Drop-down list to select forecast")
+    > ![Drop-down list to select forecast](media/forecast-view-drop-down.png "Drop-down list to select a forecast")
 
-5. The forecast grid displays all relevant columns as defined in the forecast configuration. The totals are aggregated by user or territory at each level of the hierarchy and for each period according to the forecast column attributes.
+5. The forecast grid displays all relevant columns as defined in the forecast configuration. The totals are aggregated by user or by territory, at each level of the hierarchy and for each period according to the forecast column attributes.
 
-    For example, if you're using the out-of-the-box **Forecast category** on an **Org chart** forecast, the grid will display the following information:   
+    For example, if you're using the out-of-the-box **Forecast category** on an org chart forecast, the grid will display the following information:
 
     -	**Users**: Shows the hierarchy of users as defined by the **Manager** field. To learn more, see [Forecasts and sales hierarchy](#forecasts-and-sales-hierarchy). 
 
-    -	**Quota**: A target amount set for a specific owner over a given timeframe. The progress bar is calculated against this value. 
+    -	**Quota**: A target amount set for a specific owner over a given time frame. The progress bar is calculated against this value. 
 
-    -  **Committed**: Shows the aggregated (rolled-up) value of estimated revenue for all open opportunities with forecast category set as **Committed** (high-confidence). This value can be adjusted.
+    -  **Committed**: Shows the aggregated (rolled-up) value of estimated revenue for all open opportunities that have the forecast category set as **Committed** (high confidence). This value can be adjusted.
 
-    -	**Best case**: Shows the aggregated (rolled-up) value of estimated revenue of all open opportunities with forecast category set as **Best Case** (medium-confidence). This value can be adjusted during forecast.
+    -	**Best case**: Shows the aggregated (rolled-up) value of estimated revenue of all open opportunities that have the forecast category set as **Best Case** (medium confidence). This value can be adjusted during forecast.<!--note from editor: The previous and next paragraphs simply say "This value can be adjusted." Is there a reason only this one says "during forecast," or should they be the same?-->
 
-    -	**Pipeline**: Shows the aggregated (rolled-up) value of estimated revenue for all open opportunities with forecast category set as **Pipeline** (low-confidence). This value can be adjusted.
+    -	**Pipeline**: Shows the aggregated (rolled-up) value of estimated revenue for all open opportunities that have the forecast category set as **Pipeline** (low confidence). This value can be adjusted.
 
-    -	**Omitted**: Shows the aggregated (rolled-up) value of excluded revenue of all open opportunities with forecast category set as **Omitted**.
+    -	**Omitted**: Shows the aggregated (rolled-up) value of excluded revenue for all open opportunities that have the forecast category set as **Omitted**.
 
-    -	**Won**: Shows the aggregated (rolled-up) value of revenue that is generated of all won opportunities with forecast category set as **Won**.
+    -	**Won**: Shows the aggregated (rolled-up) value of revenue that's generated for all won opportunities that have the forecast category set as **Won**.
 
-    - **Lost**: Shows the aggregated (rolled-up) value of revenue that is lost of all lost opportunities with forecast category set as **lost**.
+    - **Lost**: Shows the aggregated (rolled-up) value of revenue that's lost for all lost opportunities that have the forecast category set as **Lost**.
 
     > [!NOTE]
-    > The permissions granted during the forecast configuration affects who can view the forecast values. To learn more, see [Provide permissions](provide-permissions-forecast.md).
+    > The permissions granted during the forecast configuration affects who can view the forecast values. To learn more, see [Provide viewing permissions](provide-permissions-forecast.md).
 
 ## Forecasts and sales hierarchy
 
-Every forecast is attached to an organization defined hierarchy that rolls up the values level by level. If the **Org chart forecast** template is used, the forecast is created based on the sales team hierarchy as defined by the manager role on the **User** record. Similarly, if **Territory forecast** template is used, the hierarchy is based on the **Territory Manager** lookup field.
+Every forecast is attached to an organization-defined hierarchy that rolls up the values level by level. If the **Org chart forecast** template is used, the forecast is created based on the sales team hierarchy as defined by the manager role on the **User** record. Similarly, if the **Territory forecast** template is used, the hierarchy is based on the **Territory manager** lookup field.
 
-For example, you created a forecast with **Org chart forecast** template. The hierarchy is defined based on user record. If Alyce Durham is a sales manager with one direct report, and she's designated as manager in her direct reports' **User** records. she'll see a forecast for herself and her direct report. Since Alyce Durham reports to Samuel Strom, Samuel will see his own forecasts along with rolled-up forecasts of his direct reports including Alyce's.
+For example, you created a forecast by using the **Org chart forecast** template. The hierarchy is defined based on the **User** record. If Alyce Durham is a sales manager with one direct report, and she's designated as manager in her direct report's **User** record, she'll see a forecast for herself and her direct report. Because Alyce Durham reports to Samuel Strom, Samuel will see his own forecasts along with the rolled-up forecasts of his direct reports, including Alyce's.
 
 > [!div class="mx-imgBorder"]
 > ![Forecasts for a manager and direct reports](media/forecast-for-team-hierarchy.png "Forecasts for a manager and direct reports")
 
 To see the rolled-up forecast for everyone in the hierarchy, expand a specific forecast.
 
-## Tasks you can do on forecast grid
+## Tasks you can do on the forecast grid
 
 Using the forecast grid, you can do the following tasks:
 
@@ -84,13 +84,11 @@ Using the forecast grid, you can do the following tasks:
 
 - [Adjust values in a forecast](adjust-values-in-forecast.md)
 
-- [Maintain up to date forecast data](keep-forecast-data-up-to-date.md)
+- [Maintain up-to-date forecast data](keep-forecast-data-up-to-date.md)
 
  
 ### See also
 
-[Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)
-
-[Configure a forecast](configure-forecast.md)
-
+[Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
+[Configure a forecast](configure-forecast.md)<br>
 [Entity reference for manual forecasting](developer/reference/manual-forecasting-entity-reference.md)

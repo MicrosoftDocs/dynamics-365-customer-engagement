@@ -14,45 +14,45 @@ manager: shujoshi
 
 # Enable forecasting
 
-To use forecasting in your organization, an administrator must enable the feature through the **Forecast configurations** page. When the feature is enabled, the following changes appear in the **Sales Hub** app:
+To use forecasting in your organization, an administrator must enable the feature through the **Forecast configurations** page. When the feature is enabled, the following changes appear in the Sales Hub app:
 
--	The **Forecasts** option appears under **Performance** in **Sales** site map.
+-	**Forecasts** appears under **Performance** in the **Sales** site map.
     
     > [!div class="mx-imgBorder"]
-    > ![Forecasts option in sales site map](media/forecast-select-sales-performance-forecasts.png "Forecasts option in sales site map")
+    > ![Forecasts option in sales site map](media/forecast-select-sales-performance-forecasts.png "Forecasts option in the Sales site map")
  
--	The **Forecast category** option set field appears on the **Opportunity** form. These categories in the option set define the status of an opportunity. If necessary, you can add custom option values specifically defined for your organization.
+-	**Forecast category** appears on the **Opportunity** form. The categories define the status of an opportunity. If necessary, you can add custom values specifically defined for your organization.
 
     > [!div class="mx-imgBorder"]
-    > ![Forecast category option in opportunity form](media/capture-forecast-category-opportunity-form.png "Forecast category option in opportunity form")
+    > ![Forecast category option in opportunity form](media/capture-forecast-category-opportunity-form.png "Forecast category in an opportunity form")
 
     > [!NOTE]
-    > The **Forecast category** option set consists of **Won** and **Lost** opportunity statuses. If an opportunity is set as Won or Lost, the forecast category will automatically change the status through an out-of-the-box workflow. <br>
-    > If you’re using custom options set for the forecast category, you must create a workflow to automatically sync the opportunity status with your forecast category to ensure that the forecast is projecting accurate values. <br>
+    > **Forecast category** options consists of **Won** and **Lost** opportunity statuses. If an opportunity is set as **Won** or **Lost**, the forecast category automatically changes status through an out-of-the-box workflow. <br>
+    > If you're using custom options for the forecast category, you must create a workflow to automatically sync the opportunity status with your forecast category to ensure that the forecast is projecting accurate values. <br>
     > To learn more, see [Use Workflow processes to automate processes that don't require user interaction](/customize/workflow-processes).
 
-To enable forecasting, follow these steps:
+**To enable forecasting**
 
-1.	Sign in to the **Sales Hub** app.
+1.	Sign in to the Sales Hub app.
 
-2.	At the bottom of the site map, select the **Change area** icon, and then select **App settings**.
+2.	At the bottom of the site map, select **Change area** ![Change area icon](media/change-area-icon.png "Change area icon"), and then select **App settings**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select app settings from change area](media/change-area-app-settings.png "Select app settings from change area")
+    > ![Select app settings from change area](media/change-area-app-settings.png "Select App settings from the change area")
  
 3.	Under **Performance management**, select **Forecast configurations**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select enable forecast option](media/forecast-enable-select-enable.png "Select enable forecast option")
+    > ![Select enable forecast option](media/forecast-enable-select-enable.png "Select the Enable forecasting option")
  
-4.	Select **Enable forecasting**. A confirmation message is displayed.
+4.	Select **Enable forecasting**.
 
-5.	Select **Enable**. 
+5.	In the confirmation message, select **Enable**. 
 
-    Forecasting is now enabled for your organization and the following page is displayed:
+Forecasting is now enabled for your organization, and the following page is displayed:
  
-    > [!div class="mx-imgBorder"]
-    > ![Forecasting is enabled](media/forecast-enable-forecasting-enabled.png "Forecasting is enabled") 
+ > [!div class="mx-imgBorder"]
+ > ![Forecasting is enabled](media/forecast-enable-forecasting-enabled.png "Forecasting is enabled") 
 
 
 <table>

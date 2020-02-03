@@ -45,7 +45,7 @@
 
 
 ### Forecast management
-#### [Configure a forecast in your organization](configure-forecast.md)
+#### [Configure forecasts in your organization](configure-forecast.md)
 #### [Enable forecasting](enable-forecast.md)
 #### [Select a template](select-template-forecast.md)
 #### [Define general properties and scheduling](define-general-properties-scheduling-forecast.md)

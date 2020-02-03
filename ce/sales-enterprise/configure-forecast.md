@@ -12,21 +12,21 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Configure a forecast in your organization
+# Configure forecasts in your organization
+<!--note from editor: It seems that either the plural form "forecasts" or "forecasting" make more sense for referring to the feature. I think "a forecast" implies there's only one at a time.-->
+A forecast helps your organization predict how much revenue your sales team will generate in a given timeframe. When done correctly, forecasting can play a significant role in your company's success. By using a forecast:
 
-A forecast helps your organization predict how much revenue your sales team will generate in a given timeframe. When done correctly, it can play a significant role in your company's success. Using a forecast:
+- Sellers can track performance against their targets and identify pipeline risks that might jeopardize their ability to hit their targets.
 
-- Sellers can track performance against their targets and identify pipeline risks that could jeopardize the ability to hit the targets.
+- Managers can track individual sales performance against quotas to proactively provide coaching.
 
-- Managers can track individual sales performance against quotas to pro-actively provide coaching.
-
-- Directors can use the forecast trends to anticipate departmental sales and reallocate resources.
+- Directors can use forecast trends to anticipate departmental sales and reallocate resources if necessary.
 
 - Organization leaders can use the projected estimates to change the product strategy or convey updated projections to investors.
 
-As an administrator or forecast manager, you can configure forecasts in your organization. By configuring forecast, you define the type of forecast, hierarchy, permissions, and details to appear on the forecast grid. Once a forecast is activated, your sales team can view the revenue and pipeline projections.
-
-To configure a forecast, follow these steps:
+As an administrator or forecast manager, you can configure forecasts in your organization. You can define the type of forecast, its hierarchy, permissions for accessing it, and the details you want to appear on the forecast grid. After a forecast is activated, your sales team can view the revenue and pipeline projections.
+<!--note from editor: You'll see that I edit most procedure introductions to be simply a bold infinitive phrase with no colon (**To enable forecasting** in enable-forecast.md, for example). This matches the recommendation of the Writing Style Guide. But for this "mega-procedure", I think it's good the way you have it, with a prose introduction.-->
+To configure forecasting in your organization, these are the general steps to follow:
 
 1.	[Review prerequisites](#review-prerequisites)
 
@@ -45,30 +45,29 @@ To configure a forecast, follow these steps:
 
 ## Review prerequisites
 
-Verify the following prerequisites before configuring a forecast:
+Verify that you've met the following prerequisites:
 
--	You’re assigned the **Administrator** or **Forecast manager** role. The **Forecast manager** role is created specifically to configure forecast. Using this role, you can:
+-	You've been assigned the **Administrator** or **Forecast manager** role. The **Forecast manager** role is created specifically to configure forecasts. By using this role, you can:
 
     -	Create, assign, and edit forecast configurations for your organization.
 
-    -	Delete, activate, and deactivate forecast configurations that are defined for your organization.
+    -	Delete, activate, and deactivate forecast configurations that have been defined for your organization.
 
     > [!NOTE]
     > To learn more about assigning a role, see [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
--	You’ve enabled forecasting in your organization. To learn more, see [Enable forecast](enable-forecast.md).
+-	You've enabled forecasting in your organization.
 
 
 <table>
 <tr><td>
 
 > [!div class="nextstepaction"] 
-> [Next step: Enable forecast](enable-forecast.md)
+> [Next step: Enable forecasting](enable-forecast.md)
 </td></tr>
 </table>
 
-## See also
+### See also
 
-[Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
-
+[Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
 [View forecasts](view-forecasts.md)
