@@ -1,5 +1,8 @@
 # msdyn_conversationdata Entity Reference
 
+> [!NOTE]
+> This entity has been deprecated. It will still be visible in the [$metadata](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-types-operations#bkmk_csdl) document but using it to access Common Data Service data is not supported.
+
 Primary entity for a conversation
 
 **Added by**: Channel API Integration Framework Analytics Solution

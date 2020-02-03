@@ -4,7 +4,7 @@ description: "Read about the APIs that enable you to log analytics in Dynamics 3
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 02/03/2020
 ms.topic: reference
 ms.service:
   - dynamics-365-customerservice
@@ -13,14 +13,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Preview: Channel Analytics
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../../legal/dynamics-insider-agreement.md).
+# Channel Analytics
 
 The contact center analytics need operational and conversational data to provide historical and real-time insights into the performance of the contact center. To get precise insights into the call center performance, the analysts need data from the following sources 
 
@@ -35,6 +28,9 @@ Without the channel analytics model, if you want to build a contact center analy
 - Disjointed and distributed communication data that is generated and maintained by the channel providers.
 - Agent behavior is not logged and instrumented.
 - No clear guidance on how to ingest analytical data and in what schema.
+
+> [!IMPORTANT]
+> Channel Analytics is not supported for Channel Integration Framework version 1.0.
 
 ## How does Channel Analytics help?
 
@@ -66,10 +62,10 @@ The two APIs for tracking event analytics are:
 
 | Name | Description |
 |-------|-------|
-| [initLogAnalytics](reference/microsoft-ciframework/initLogAnalytics.md) | Invoke this method on an incoming conversation to log analytics. |
+| [updateConversation](reference/microsoft-ciframework/updateConversation.md) | Invoke this method to update a conversation record. |
 | [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events. |
 
-Ideally `initLogAnalytics` API should be called before the incoming notification is displayed. `logAnalyticsEvent` API can be called as many times as needed after the `initLogAnalytics` call succeeds. 
+Ideally `updateConversation` API should be called before the incoming notification is displayed. `logAnalyticsEvent` API can be called as many times as needed after the `updateConversation` call succeeds. 
 
 If there is a need to log events from the server side, the following required entity records need to be created before the event logging can take place.
 - Conversation Data
@@ -102,7 +98,7 @@ Xrm.WebApi.updateRecord("msdyn_ciprovider", <msdyn_ciproviderid fetched from pre
 
 ## Typical flow for Channel Analytics
 
-For every incident conversation, the provider will call the [initLogAnalytics API](reference/microsoft-ciframework/initLogAnalytics.md). The data payload of the API will contain the information to create a conversation record (with session and participant information).
+For every incident conversation, the provider will call the [updateConversation API](reference/microsoft-ciframework/updateConversation.md). The data payload of the API will contain the information to create a conversation record (with session and participant information).
 
 For that session, all first-party instrumentation events like notification displayed, notification response, session started, and session switched will be fired with the correlation ID.
 
@@ -162,4 +158,7 @@ More information: [msdyn_kpieventdata](reference/entities-attributes/msdyn_kpiev
 
 ## See also
 
-[What's new in Dynamics 365 Channel Integration Framework](../whats-new-channel-integration-framework.md)
+[What's new in Dynamics 365 Channel Integration Framework](../whats-new-channel-integration-framework.md)<br />
+[Frequently asked questions](../faq-channel-integration-framework.md)<br />
+[updateConversation API](reference/microsoft-ciframework/updateConversation.md)<br />
+[logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md)

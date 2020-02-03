@@ -13,4 +13,4 @@
 
 **Type:** String
 
-**Description:** Returns a promise object containing string with the available details of the current Unified Interface page. The details include: * 'appid', 'pagetype', 'record-id' (if available), 'clientUrl', 'appUrl' 'orgLcid', 'orgUniqueName', 'userId', 'userLcid', and 'username'.
+**Description:** Returns a promise object containing a string with the available details of the current Unified Interface page. The details include: * `appid`, `pagetype`, `record-id` (if available), `clientUrl`, `appUrl`, `orgLcid`, `orgUniqueName`, `userId`, `userLcid`, `isDirty`, and `username`.

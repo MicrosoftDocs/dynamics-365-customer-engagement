@@ -4,7 +4,7 @@ description: "Learn how to choose between Dynamics 365 Channel Integration Frame
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 02/03/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -15,7 +15,7 @@ ms.custom:
 
 # Choose between Channel Integration Framework version 1.0 and version 2.0
 
-This topic explains the key feature differences between Dynamics 365 Channel Integration Framework version 1.0 and version 2.0 and to choose a version that suits your business requirements.
+This topic explains the key feature differences between Dynamics 365 Channel Integration Framework version 1.0 and version 2.0 and helps you choose a version that suits your business requirements.
 
 ## Channel Integration Framework version 1.0
 
@@ -28,15 +28,20 @@ You can use Dynamics 365 Channel Integration Framework version 1.0 to integrate 
 
 You can integrate channels, such as telephony, messaging (SMS), chat and social channels with any of the single-session Dynamics 365 model-driven app to have an immersive experience.
 
-More information: [Channel Integration Framework version 1.0](overview-channel-integration-framework.md)
+More information: [Channel Integration Framework version 1.0](overview-channel-integration-framework.md).
+
+> [!NOTE]
+> Channel Integration Framework version 1.0 is available for Government Community Cloud(GCC).
 
 ## Channel Integration Framework version 2.0
 
 You can use Dynamics 365 Channel Integration Framework version 2.0 to integrate a channel provider of your choice if your organization is using the multi-session app, Omnichannel for Customer Service. You can integrate the telephony channel to have an immersive experience.
 
-To learn more about multi-session app, see [Omnichannel for Customer Service](../../omnichannel/omnichannel-customer-service-guide.md).
+Using Channel Integration Framework version 2.0 with Omnichannel for Customer Service enables you to use cross-channel analytics. More information: [Channel Analytics](v2/channel-analytics.md).
 
-More information: [Channel Integration Framework version 2.0](v2/overview-channel-integration-framework.md)
+More information: [Channel Integration Framework version 2.0](v2/overview-channel-integration-framework.md).
+
+To learn more about multi-session app, see [Omnichannel for Customer Service](../../omnichannel/omnichannel-customer-service-guide.md).
 
 ## Version 1.0 and 2.0
 
@@ -56,6 +61,7 @@ The matrix explains the various aspects of version 1.0 and 2.0.
 
 ## See also
 
-[Channel Integration Framework version 1.0](overview-channel-integration-framework.md)
-
-[Channel Integration Framework version 2.0](v2/overview-channel-integration-framework.md)
+[Channel Integration Framework version 1.0](overview-channel-integration-framework.md)<br />
+[Channel Integration Framework version 2.0](v2/overview-channel-integration-framework.md)<br />
+[Integrate Channel Integration Framework version 2.0 with Omnichannel for Customer Service](v2/integration-multi-session-experiences.md)<br />
+[Multi-session agent experiences](https://docs.microsoft.com/business-applications-release-notes/april19/service/omnichannel-for-customer-service/multi-session-agent-experiences-web-usd)
