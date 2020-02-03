@@ -83,27 +83,26 @@ The Customer Service Hub comes with an enhanced sitemap to enable easy navigatio
 > [!NOTE]
 > The navigation bar for the Customer Service Hub is different from the navigation bar in the Common Data Service platform. </br> Any record types that are enabled for mobile are also available for use in the Customer Service Hub. However, these records are read-only.  
 
-
 ## Understand the sitemap navigation
-  
-1. Select the sitemap icon ![Sitemap](media/sitemap-icon.png). Select **Service**, and then select an entity record type.
-  
-    ![navigate recods](media/v9-navigate-records.png "Navigate records")
-  
-    When you select a record type from the menu, such as Accounts, Contacts, or Cases, you’ll see a list of corresponding customer records (also known as **Entity grid**). 
 
- 	To view recently opened records, select the down-arrow next to the record type in the sitemap.
+1. Select the sitemap icon ![sitemap icon](media/sitemap-icon.png "Sitemap"). Select Service, and then select an entity record type.
 
-    Here is what each entity record type is used for:
+  ![Navigate Records](media/v9-navigate-records.png "Navigate Records")
 
-    - **Dashboards** collect all your most important data in one place. You can select from multiple dashboards as per your role.
-    - **Activities** help you keep track of tasks, email messages, appointments, phone calls and much more.
-    - **Accounts** are the companies you do business with.
-    - **Contacts** help you manage and store information about the customers you work with.
-    - **Social Profiles** let you track a contact's presence in social media.
-    - **Cases** help you create and track your customer requests and issues.
-    - **Queues** keep a track of cases waiting for you to work on.
-    - **Knowledge Articles** capture your customer’s questions, issues, feedback, and resolutions, so that other service reps can benefit from them.
+When you select a record type from the menu, such as Accounts, Contacts, or Cases, you’ll see a list of corresponding customer records (also known as Entity grid).
+
+To view recently opened records, select the down-arrow next to the record type in the sitemap.
+
+  Here is what each entity record type is used for:
+
+  - **Dashboards** collect all your most important data in one place. You can select from multiple dashboards as per your role.
+  - **Activities** help you keep track of tasks, email messages, appointments, phone calls and much more.
+  - **Accounts** are the companies you do business with.
+  - **Contacts** help you manage and store information about the customers you work with.
+  - **Social Profiles** let you track a contact's presence in social media.
+  - **Cases** help you create and track your customer requests and issues.
+  - **Queues** keep a track of cases waiting for you to work on.
+  - **Knowledge Articles** capture your customer’s questions, issues, feedback, and resolutions, so that other service reps can benefit from them.
 
 2. Select **...** to go to **Training** and access the documentation site to view the **Help Center**. 
 3. You can also access **Service Management** from the sitemap. Service Management lets you define all the customer service admin settings from the Customer Service Hub sitemap.  Select **...** to go to **Service Management**. 
@@ -125,20 +124,26 @@ To return to the list of records, select **Open Views** in the command bar.
   
  
 ## Navigate through records and pages  
-  
--   When you're viewing a record, select and expand **Open Record Set** to navigate to other records. A side panel opens where you can view other records. You can directly select the records from the panel and view the details of the  record.
- 
-      ![record-set](media/v9-record-set.png "Record set")
 
+When you're viewing a record:
+
+1. Select and expand **Open Record Set** to navigate to other records. 
+
+    ![open record set behavior in top nav](channel-integration-framework/media/Nav-fly-out-1.png "open record set in top nav") 
+
+2. A side panel opens where you can view other records. You can directly select the records from the panel and view the details of the  record.
+
+    ![record set list](channel-integration-framework/media/Nav-fly-out-2.png "record set list") 
+ 
 > [!NOTE]
 > The option Open Record Set will not be available on devices with comparatively smaller screen sizes.
-  
--   To go the previous page in the Customer Service Hub, click the browser’s **Back** button. 
-   
+
+More information: [Create and manage queues](https://docs.microsoft.com/dynamics365/customer-service/set-up-queues-manage-activities-cases) and [Create and manage a case](https://docs.microsoft.com/dynamics365/customer-service/user-guide-customer-service#create-and-manage-a-case).
    
 ## Quickly create new records
   
 - To create records quickly by filling in only the most basic information, select the **New** button ![Create button](../customer-service/media/quick-create-button.png "Create button") given on the nav bar.
+
 
   > [!TIP]
   > On a mobile device, from the nav bar, tap ![ellipsis](media/ellipsis.png) and then tap **Quick Create Menu**.
@@ -507,7 +512,14 @@ In the Customer Service Hub sitemap, select **Service** > **Queues**. The queues
     - **Pick** the record. It will be assigned to you and will be moved to your queue.
     - **Release** the record. It will be assigned back to the queue owner for other's to pick up.
 
-To know how to add a case to a queues, see [Add a case to a queue](customer-service-hub-user-guide-case-sla.md#add-a-case-to-a-queue).
+To know how to add a case to a queues, see [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md).
+
+## Understand Site
+
+Now when you create a new site, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find"), where you can add a site to any entity, for example **Account**.
+
+  ![Create New Site](channel-integration-framework/media/add-site-to-any-entity-1.png "Create New Site")
+ 
 
 
 ### See also

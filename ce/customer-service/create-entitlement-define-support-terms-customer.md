@@ -157,7 +157,7 @@ As you save the entitlement, additional sections are added for a new entitlement
 ## Associate entitlements to cases  
  In a case record, in the **Entitlement** field, select the **Lookup** button,and select an entitlement. The inline lookup shows only the active entitlement for the customer of the case.  
   
- The Entitlements section in the case record lists all the active entitlements for the customer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [See recent cases and entitlements](customer-service-hub-user-guide-case-sla.md#see-recent-cases-and-entitlements)
+ The Entitlements section in the case record lists all the active entitlements for the customer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [See recent cases and entitlements](customer-service-hub-user-guide-basics.md#related-section)
 
   
 ## Cancel an entitlement  
