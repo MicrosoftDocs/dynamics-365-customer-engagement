@@ -4,30 +4,23 @@ description: "Learn about agent scripts and how to configure them in the Omnicha
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 10/25/2019
+ms.date: 01/31/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Preview: Guide agents with scripts
+# Guide agents with scripts
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
-
 ## Overview of agent scripts
 
-In the customer service industry, agents need to deal with continuous updates both in the product and processes. Even after rigorous training of agents, recurrent human errors and delays in service delivery occur due to a lack of guidance in real-time customer scenarios. These issues lead to lower productivity and thus impact customer satisfaction levels. To avoid errors and ensure adherence to processes, agents need guidance.
+In the customer service industry, agents need to deal with continuous updates both to products and processes. Even after agents have been rigorously trained, recurrent human errors and delays in service delivery occur due to a lack of guidance in real-time customer scenarios. These issues lead to lower productivity and thus negatively affect customer satisfaction levels. To avoid errors and ensure that processes are adhered to, agents need guidance.
 
-Agent scripts provide guidance to agents about what to do when they get a customer issue. The scripts ensure that only accurate, company-endorsed information is being shared, while also safeguarding the organization in regard to legal-compliance issues. Agent scripts help organizations to be unified, accurate, and effective while also being faster and more efficient in terms of customer handling.
+Agent scripts provide guidance to agents about what to do when they get a customer issue. The scripts ensure that only accurate, company-endorsed information is being shared, while also safeguarding the organization in regard to issues of legal compliance. Agent scripts help organizations to be unified, accurate, and effective while also being faster and more efficient in terms of customer handling.
 
-The agent scripts reduce the human errors involved in the process as the agents know the next actions they need to perform while interacting with a customer, which enables them to adhere to business process. The option, in turn, leads the agents to provide a quick resolution to the issue (low average handling time) and improve customer satisfaction.
+Agent scripts reduce the human errors involved in the process, because agents know which actions they need to perform next while they interact with a customer, which enables them to adhere to business process. This, in turn, leads agents to provide quick resolutions for the issue (low average handling time) and improve customer satisfaction.
 
 ## Value propositions
 
@@ -35,7 +28,7 @@ The agent scripts reduce the human errors involved in the process as the agents 
 
 - Adherence to business processes.
 
-- Lower Average Handling Time.
+- Lower average handling time.
 
 - Improved customer satisfaction.
 
@@ -43,145 +36,152 @@ The agent scripts reduce the human errors involved in the process as the agents 
 
 - Install Dynamics 365 Productivity Tools solution.
 
-- Ensure you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
+- Ensure that you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
 
-- Ensure agents and supervisors are assigned **Productivity tools user** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
+- Ensure that agents and supervisors are assigned the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
 
-## Walkthrough to enable agent script
+## Walk-through to enable agent scripts
 
 [Step 1: Create agent scripts](#step-1-create-agent-scripts)
 
-[Step 2: Associate agent script with session template](#step-2-associate-agent-script-with-session-template)
+[Step 2: Associate an agent script with a session template](#step-2-associate-an-agent-script-with-a-session-template)
 
-[Step 3: Add agent script control to a form](#step-3-add-agent-script-control-to-a-form)
+[Step 3: Enable the productivity pane](#step-3-enable-the-productivity-pane)
 
 ## Step 1: Create agent scripts
 
+First, you need to create agent scripts in the Omnichannel Administration app. The following procedure creates an example of an agent script for a chat session. You can modify this procedure for other types of sessions your agents are likely to encounter.
+
 1. Sign in to the Omnichannel Administration app.
 
-2. Select **Agent Scripts** under **Agent Experience**.
+2. Under **Agent Experience**, select **Agent Scripts**.
 
-3. Select **+ New** in the **Active Agent scripts** page.
+3. On the **Active Agent scripts** page, select **+ New**.
 
-4. Specify the following in the **New Agent script** page.
+4. On the **New Agent script** page, specify the following:
 
     | Field | Description | Value |
     |------------|------------------------------|-------------------|
-    | Name | Provide a name to the agent script. | Chat session script |
-    | Language | Select a language from the list. The languages that are enabled in the Common Data Service platform appear in the list. | English |
+    | Name | Provide a name for the agent script. | Chat session script |
+    | Language | Select a language from the list. The languages that are enabled in Common Data Service appear in the list. | English |
     | Description | Describe the agent script. | This agent script is used for chat sessions. |
 
-5. Select **Save**. After you save, the **Agent script steps** appears.
+5. Select **Save**. The **Agent script steps** appears.
 
-6. Select **+ New Agent script step** in the **Agent script steps** section. The **Quick Create: Agent script step** appears.
+6. In the **Agent script steps** section, select **+ New Agent script step**. **Quick Create: Agent script step** appears.
 
-7. Specify the following in the quick create form.
+7. Specify the following in the quick-create form.
 
     | Field | Description | Example Value |
     |--------------------|------------------------------|-------------------------------------------|
-    | Name | Provide a name to the agent script step; this appears for the agent at runtime. | Greet customer. |
+    | Name | Provide a name for the agent script step; this appears for the agent at runtime. | Greet the customer. |
     | Order | Specify the order number based on which step is displayed to the agent. | 1 |
     | Action Type | Select an action type from the list: <ul> <li> Text instruction </li> <li> Macro </li> <li> Script </li> |
-    | Description | Describe the step briefly for your reference. | This step opens a draft email to send knowledge article links to customer. <br><br> **Note:** <br> This field appears only when you select the **Action Type** value as **Target Macro** or **Target script**. |
-    | Text instruction | Specify the text instructions the agent needs to follow and execute. This is a text field. Additonally, you can pass parameter values using the Slugs and OData queries. To learn more see, [Pass parameter values](automation-dictionary-keys.md)<br><br> **Note:** <br> This field appears only if you select the **Text** value for the **Action Type** field. | Greet the customer with welcome message from the quick reply repository. |
-    | Target macro | Type the name of the configured macro in the text box and select the macro from the lookup results. <br><br> **Note:** <br> This field appears only if you select the **Macro** value for the **Action Type** field. | Email |
-    | Target script | Type the name of the configured script in the text box and select the script from the lookup results. <br><br> **Note:** <br> This field appears only if you select the **Script** value for the **Action Type** field. | Close session |
+    | Description | Describe the step briefly for your reference. | This step opens a draft email to send the customer links to knowledge articles. <br><br> **Note:** <br> This field appears only when you select the **Action Type** value as **Target Macro** or **Target script**. |
+    | Text instruction | Specify the text instructions the agent needs to follow and execute. This is a text field. Additionally, you can pass parameter values by using the Slugs and OData queries. More information: [Pass parameter values](automation-dictionary-keys.md)<br><br> **Note:** <br> This field appears only if you select the **Text** value for the **Action Type** field. | Greet the customer with the welcome message from the quick reply repository. |
+    | Target macro | Type the name of the configured macro in the text box, and then select the macro from the lookup results. <br><br> **Note:** <br> This field appears only if you select the **Macro** value for the **Action Type** field. | Email |
+    | Target script | Type the name of the configured script in the text box, and then select the script from the lookup results. <br><br> **Note:** <br> This field appears only if you select the **Script** value for the **Action Type** field. | Close the session |
 
     > [!div class=mx-imgBorder] 
     > ![Quick create: Agent script - Text](../media/create-agent-script2.png "Quick create: Agent script text step")
 
-8. Select **Save and Close** to add, save, and close the quick create form.
+8. Select **Save and Close** to add, save, and close the quick-create form.
 
 9. Select **Save** to save the changes.
 
     > [!div class=mx-imgBorder] 
     > ![Agent script](../media/create-agent-script1.png "Agent script")
 
-Now, the agent script is configured.
+The agent script is now configured.
 
-## Step 2: Associate agent script with session template
+## Step 2: Associate an agent script with a session template
 
-After you configure the agent script and add the field to a form, you need to associate the agent script with a session template so that, based on the session type, the agent script loads to the agents.
+After you configure the agent script and add the field to a form, you need to associate the agent script with a session template so that the agent script will load for agents based on the type of session they've opened.
 
 1. Sign in to the Omnichannel Administration app.
 
-2. Select **Sessions** under **Templates**.
+2. Under **Templates**, select **Sessions**.
 
 3. Select a template from the list for which you want to associate the template. For example, select the **Chat - Default Session** template.
 
 4. Select the **Agent scripts** tab.
 
-5. Select **Add Existing Agent script** in the **Agent scripts** section. The **Lookup Records** pane appears.
+5. In the **Agent scripts** section, select **Add Existing Agent script**. The **Lookup Records** pane appears.
 
-6. Select the search icon in the **Look for Records** box. Select the agent script from the list and select **Add**.
+6. In the **Look for Records** box, select the search icon. Select the agent script from the list, and then select **Add**.
 
     > [!div class=mx-imgBorder] 
-    > ![Associate agent script](../media/associate-agent-script.png "Associate agent script")
+    > ![Associate an agent script](../media/associate-agent-script.png "Associate an agent script")
 
 7. Select **Save**.
 
 The agent script is associated with the session template.
 
-## Step 3: Add agent script control to a form
+## Step 3: Enable the productivity pane
 
-After you create an agent script, you must add the agent script field to the form where you want agents to see it.
+After you've created the agent script, you need to enable the productivity pane to display the script to agents in Omnichannel for Customer Service. For more information, see [Enable the productivity pane to provide guidance to agents](productivity-pane.md).
 
-1. Sign in to the Omnichannel Administration app, and then on the command bar select **Settings** ![Settings](../media/settings-gear.png "Settings") > **Advanced  Settings**.
+> [!Note]
+> - If you don't create agent scripts and enable the productivity pane, users won't see the pane in Omnichannel for Customer Service. 
+>
+> - We recommend that you remove the agent script control if you've customized a form and added agent script. If you don't remove the agent script control, agents will see the agent script control in the form and also in the productivity pane.
 
-2. Select **Settings** > **Customizations** > **Customize the System**. **Solution Explorer** opens in a new window.
+<a name="set-default-agent-script-for-agents"></a>
 
-3. Expand **Entities** and select the entity for which you want to add the field. In this procedure, we will add to the **Customer Summary** form in the **Conversation** entity.
+## Set the default agent script for agents
 
-4. Expand **Conversation** > **Forms** > **Customer Summary**. The **Customer Summary** form opens in a new window.
+As an administrator, you can set different default agent scripts for agents who handle different services, customers, or products. You need a way to show these agents a script that's appropriate for the context of the conversation between them and the customer. With the agent script expression builder, you can define the conditions that define which script an agent is shown by default in Omnichannel for Customer Service.
 
-5. Select the **INSERT** tab from the command bar, and then select **Section** > **One Column** in the command bar.
+Based on these conditions, when an agent accepts an incoming conversation, the agent script control selects a script from the different scripts that were made available for that particular session type and shows the script to the agent. In addition, agents can manually select a script from the list of available agent scripts if they need to switch between different scripts.
 
-    > [!div class=mx-imgBorder] 
-    > ![Add section](../media/agent-script-control5.png "Add section")
+### Enable and build the expression
 
-6. Select the section, and then select **Change Properties** from the command bar. The **Section Properties** dialog appears.
+You can build the expression in the **Agent scripts** tab in the sessions template.
 
-7. Specify **Agent script** as the value for both the **Name** and **Label** fields.
+1. Sign in to Omnichannel Administration.
 
-8. Select the **Show the label of this section on the Form**  check box, and then select **OK**.
+2. Under **Agent Experience**, select **Sessions**.
 
-    > [!div class=mx-imgBorder] 
-    > ![Add name and show label](../media/agent-script-control8.png "Add name and show label")
+3. Select the **Agent scripts** tab.
 
-9. Select a field of type **Text** from **Field Explorer**. For example, the **Title** field is of type **Text**. If you hover the cursor on a field, you can view the type.
-
-    > [!div class=mx-imgBorder] 
-    > ![Add field of type Text](../media/agent-script-control9.png "Add field of type Text")
-
-10. Drag and drop the **Title** field to the section you added in the earlier step.
-
-11. Select the **Title** field in the **Agent script** section, and then select **Change Properties** from the command bar. The **Field Properties** dialog appears.
-
-12. Clear the **Display the label on the form** check box in the **Display** tab.
+4. Set the **Enable build expression** toggle to **Yes**, and then select **Build Expression** to define the expression. The **Expression builder** page is displayed.
 
     > [!div class=mx-imgBorder] 
-    > ![Clear display label](../media/agent-script-control12.png "Clear display label")
+    > ![Build expression](../media/agent-script-build-expression.png "Build expression")
 
-13. Select the **Controls** tab in the **Field Properties** dialog, and then select **Add Control**.
+5. Select the **Condition** step, and then create the condition.
 
-    > [!div class=mx-imgBorder] 
-    > ![Add agent script control](../media/agent-script-control13.png "Add agent script control")
+6. In the **If true** step, select **Add an action**. The **Condition** step is displayed. To learn about conditions, see [Use the automation dictionary to pass context data parameters](#use-the-automation-dictionary-to-pass-context-data-parameters).
 
-14. Select **Agent script control** in the **Add Control** dialog, and then select **Add**.
-
-15. Choose the **Web** radio button for the **Agent script control** option, and then select **OK**.
+7. Select the **Customer Service** tab, and then select **Set default agent script**.
 
     > [!div class=mx-imgBorder] 
-    > ![Choose web option](../media/agent-script-control15.png "Choose web option")
+    > ![Set default agent script](../media/agent-script-build-expression2.png "Set default agent script")
 
-16. Select **Save** to save the changes.
+8. Select a script from the **Agent script** list.
 
-17. Select **Publish** to publish the customizations.
+    > [!div class=mx-imgBorder] 
+    > ![Set default agent script](../media/agent-script-set-default.png "Set default agent script")
 
-## See also
+9. Follow steps 5 through 8 for the **If false** step.
 
-[Agent script](../agent/agent-oc/oc-agent-scripts.md)
+10. Select **Save and close** to save the expression and close the builder.
 
-[Macros](macros.md)
+Now, you've built the expression.
 
-[Smart Assist](smart-assist.md)
+## Use the automation dictionary to pass context data parameters
+
+As an administrator, you need to configure the condition by using the automation dictionary based on the evaluation of the condition. A script is set as default, and this script is displayed to the agent at runtime.
+
+The automation dictionary provides you certain data parameter keys that you can use to build your condition. These parameter keys are resolved and replaced by contextual values at runtime.
+
+To learn about the slugs for productivity tools, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-agent-scripts).
+
+To learn more, see [Use the automation dictionary to pass data parameter keys](automation-dictionary-keys.md#pass-data-parameter-in-macros-and-agent-scripts).
+
+### See also
+
+[Agent scripts](../agent/agent-oc/oc-agent-scripts.md)<br>
+[Macros](macros.md)<br>
+[Smart assist](smart-assist.md)<br>
+[Session templates](session-templates.md)
