@@ -41,6 +41,8 @@ Using Channel Integration Framework version 2.0 with Omnichannel for Customer Se
 
 More information: [Channel Integration Framework version 2.0](v2/overview-channel-integration-framework.md).
 
+To learn more about multi-session app, see [Omnichannel for Customer Service](../../omnichannel/omnichannel-customer-service-guide.md).
+
 ## Version 1.0 and 2.0
 
 The matrix explains the various aspects of version 1.0 and 2.0.
