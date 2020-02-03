@@ -70,7 +70,7 @@ Define the level of service or support that your organization agrees to offer to
 
   For more information, see         [Enable entities for service level agreements](../customer-service/enable-entities-service-level-agreements.md).  
 
-## Preview: Configure SLAs in Customer Service Hub
+## Configure SLAs in Customer Service Hub
 
 To configure SLAs in Customer Service Hub, perform the following steps:
 -	Review prerequisites. To learn more, see Prerequisites.
