@@ -22,7 +22,7 @@ search.app:
 
 [!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
 
-The Customer Service Team Member app is a new  module that will be available to you with the Dynamics 365 Team Member license.
+With the entry-level Team Member license, you can now address self-service support scenarios for your employees using the new Customer Service Team Member app module. Employees can create cases for their problems, such as laptop issues, HR queries, and administrative needs, and interact with agents through the commenting feature. They can also search the knowledge base for solutions pertaining to their problems.
 
 ## Install Customer Service Team Member app
 
@@ -35,8 +35,18 @@ The Customer Service Team Member app must be manually installed in your instance
 
 ## Change the default account
 
-You can update the default account that is configured for employees when they create a case. Perform the steps outlined in this section to associate a different account as the default account.
+You can update the default account that appears for employees when they are creating a case. Perform the steps outlined in this section to update the default account.
 
+> [!NOTE]
+> We recommend that you do not modify or update the default account that is available out of the box with the app, and configure a new account and set it as the default.
+
+1. In your instance, log on to Customer Service Hub as an administrator, and create an account.
+2. Retrieve the account record ID from the URL where you created the account.
+3. Go to https://make.preview.powerapps.com/, and select **Solutions**.
+4. In the **Solutions** list, browse and select **Customer Service Team Member**.
+5. On the **Solutions** > **Customer Service Team Member** page, select **Default customer account**. The **Edit Default customer account** dialog box appears.
+6. Under **Current value**, select **New value**.
+7. In the box that appears, paste the account ID that you had copied in step 2, and select **Save**. The account that you have chosen is set as the default account.
 
 ## Use the Customer Service Team Member app
 
@@ -57,7 +67,7 @@ In the Customer Service Team Member app, you can perform the following tasks:
      -  **Description:** Specify a description that summarizes the problem.
 
     > [!NOTE]
-    > The **Customer** value is not available for editing.
+    > The **Customer** value is not available for editing; it is mapped to the "Default Account" that is configured by your administrator.
 
 5. Select **Save**. The **Comments** section appears on the page that can be used to provide additional information.
 6. Select **New Comment**. The **New Comment** page appears.
@@ -67,7 +77,8 @@ In the Customer Service Team Member app, you can perform the following tasks:
     > [!div class="mx-imgBorder"]
     > ![New comment](media/cstm-new-comment.png "New comment")
 
-9. (Optional.) Select Enter a note to add notes and attach files.
-10. Select **Save & CLose**. The **Active Cases created by me** page appears.
+9. (Optional.) Select **Enter a note** to add notes and attach files.
+10. Select **Save & Close**. The **Active Cases created by me** page appears.
 11. Select **Knowledge Search** to search for articles pertaining to your problem area that may help in addressing the issue.
+12. If you want to close a case after it has been resolved, you can select the case on the **Active Cases created by me** page and click **Close Case**. Alternatively, you can close the case on the **My Case** page.
 
