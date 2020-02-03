@@ -64,7 +64,7 @@ To create or edit an opportunity:
 
 6.  To save your changes, on the command bar, select **Save**.
 
-7.  Add products to your opportunity. For more information, see [Add products to an opportunity](add-products-opportunity-sp.md), [Add products to an opportunity using the enhanced experience](add-products-enhanced-experience-sp.md).
+7.  Add products to your opportunity. For more information, see [Add products to an opportunity](add-products-opportunity-sp.md).
 
 8.  Follow the process bar to move the opportunity to the next stage. In the **Develop Opportunity** stage, enter data for these fields:
 

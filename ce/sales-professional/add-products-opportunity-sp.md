@@ -68,10 +68,6 @@ Here are the actions you can take on the products added to the **Product Line It
 |See and add related products for cross-selling or upselling or to select an accessory or substitute product | Select a product, and on the command bar, select **Suggestions**. The Suggestions pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
 |See specific records together by moving a record up or down in the grid | Select a record, and on the command bar, use the **Up** or **Down** button. |
 
-> [!IMPORTANT]
-> If your system administrator has enabled the enhanced "add product" experience for adding products to an opportunity, you'll see a different experience. To learn more, see [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience-sp.md). The enhanced experience for adding products is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](https://aka.ms/EarlyAccessOpt-in).
-
-
 ### See also  
 
 [Create or edit opportunities](manage-opportunities-sales-professional.md)  
