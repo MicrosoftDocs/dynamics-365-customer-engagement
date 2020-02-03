@@ -17660,6 +17660,16 @@
       "source_path": "ce/omnichannel/administrator/configure-ongoing-conversations-settings.md",
       "redirect_url": "configure-intraday-dashboard-supervisor",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/migrate-service-activity-org-service.md",
+      "redirect_url": "introduction-migration-entity-records.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/migrate-service-activity-entity.md",
+      "redirect_url": "introduction-migration-entity-records.md",
+      "redirect_document_id": false
     }
   ]
 }
