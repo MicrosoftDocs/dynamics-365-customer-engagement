@@ -24,14 +24,14 @@ The following table describes the input parameters required by the `msdyncrm_C
 
 |Input parameter|Type|Desctiption|
 |-----------|----------|---------|
-|ActivityId |String|Attribute msdyncrm_activityid of msdyncrm_customerjourneycustomchannelactivity entity containing custom channel Activity Id.|
-|CustomerJourney |EntityReference|Attribute msdyncrm_customerjourney of msdyncrm_customerjourneycustomchannelactivity entity containing Entity Reference to customer journey originating the call.| 
-|CustomerJourneyIteration| EntityReference|Attribute msdyncrm_customerjourneyiteration of msdyncrm_customerjourneycustomchannelactivity entity containing Entity Reference to customer journey iteration.| 
-|Contact |EntityReference| Attribute msdyncrm_contact of msdyncrm_customerjourneycustomchannelactivity entity containing Entity Reference to processed contact.| 
-|EntityType  |String |Attribute  msdyncrm_entitytype of msdyncrm_customerjourneycustomchannelactivity entity containing the string representing entity type of custom entity defined in the custom channel tile definition.| 
-|EntityId |String |Attribute msdyncrm_entityid of msdyncrm_customerjourneycustomchannelactivity Record Id of custom entity defined in the solution by EntityType element in the custom channel tile definition.|
-|ResponseType |String |Id of one of the response types defined in the custom channel tile definition.| 
-|TriggerKeyword |String |(Optional) Keyword for custom response type defined in the custom tile definition.| 
+|ActivityId |String|The `msdyncrm_activityid` attribute value of the `msdyncrm_customerjourneycustomchannelactivity` entity containing custom channel Activity Id.|
+|CustomerJourney |EntityReference|The `msdyncrm_customerjourney` attribute value of the `msdyncrm_customerjourneycustomchannelactivity` entity containing Entity Reference to customer journey originating the call.| 
+|CustomerJourneyIteration| EntityReference|The `msdyncrm_customerjourneyiteration` attrbiute value of the `msdyncrm_customerjourneycustomchannelactivity` entity containing Entity Reference to customer journey iteration.| 
+|Contact |EntityReference| The `msdyncrm_contact` attribute value of the `msdyncrm_customerjourneycustomchannelactivity` entity containing Entity Reference to processed contact.| 
+|EntityType  |String |The `msdyncrm_entitytype` attribute value of the `msdyncrm_customerjourneycustomchannelactivity` entity containing the string representing the entity type of custom entity create in [step1](create-entities-forms.md) and defined in the custom channel tile [definition](configure-tile-custom-channel#sample-tile-xml-file).| 
+|EntityId |String |The `msdyncrm_entityid` attribute value  of the `msdyncrm_customerjourneycustomchannelactivity` record id of the custom entity defined in the solution by `EntityType` element in the custom channel tile [definition](configure-tile-custom-channel.md#sample-tile-xml-file).|
+|ResponseType |String |Id of one of the response types defined in the custom channel tile [definition](configure-tile-custom-channel.md#sample-tile-xml-file).| 
+|TriggerKeyword |String |(Optional) Keyword for custom response type defined in the custom tile [definition](configure-tile-custom-channel.md#sample-tile-xml-file).| 
 
  
 The XML below shows the section of the custom channel tile definition. This section defines three types of responses. The first two, `sent` and `delivered`, are the standard response types. The third `keyword` allows passing additional textual value to the interaction.  
@@ -96,3 +96,7 @@ The following code shows how to emit Custom Channel Activity Create Interaction 
     //Emit interaction 
     orgService.Execute(emitInteractionRequest); 
  ```
+
+## See also
+[Create custom channel](create-custom-channel.md)<br/>
+[Configure the tile for custom channel](configure-tile-custom-channel.md)
