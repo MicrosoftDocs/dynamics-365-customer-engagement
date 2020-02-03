@@ -58,7 +58,7 @@ Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../
   
 1. Log on to the computer as a user who has local Administrators group permissions.  
   
-2. Best practice: Make sure that all Microsoft Office security updates are installed. To verify, visit [Microsoft Update](http://go.microsoft.com/fwlink/p/?LinkId=165705).  
+2. Best practice: Make sure that all Microsoft Office security updates are installed. To verify, visit [Microsoft Update](https://go.microsoft.com/fwlink/p/?LinkId=165705).  
   
 3. Locate and run the appropriate installation file:  
   
@@ -68,7 +68,7 @@ Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../
   
      -   ... \Client\i386 for 32-bit  
   
-   - To install from the web, open the [Microsoft Dynamics CRM 2016 for Outlook (Outlook Client)](http://go.microsoft.com/fwlink/p/?LinkID=690396) download page and then download and run the installation package.  
+   - To install from the web, open the [Microsoft Dynamics CRM 2016 for Outlook (Outlook Client)](https://go.microsoft.com/fwlink/p/?LinkID=690396) download page and then download and run the installation package.  
   
    - To install from the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] user interface, click **Get Dynamics 365 for Outlook** on the message bar. If you see any dialog boxes titled **Security Warning**, click **Run** in each.  
   
@@ -132,7 +132,7 @@ Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../
   
 - **Cross-architecture upgrade requires uninstalling and reinstalling**. If you have a 64-bit PC running a 64-bit version of [!INCLUDE[pn_ms_Windows_long](../../includes/pn-ms-windows-long.md)], you can change from 32-bit to 64-bit [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)] by performing the following steps in the order listed.  
   
-  1. Make sure that your PC has a 64-bit version of Windows. [How to determine whether a computer is running a 32-bit version or 64-bit version of the Windows operating system](http://support.microsoft.com/kb/827218).  
+  1. Make sure that your PC has a 64-bit version of Windows. [How to determine whether a computer is running a 32-bit version or 64-bit version of the Windows operating system](https://support.microsoft.com/kb/827218).  
   
   2. Uninstall [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)].  
   

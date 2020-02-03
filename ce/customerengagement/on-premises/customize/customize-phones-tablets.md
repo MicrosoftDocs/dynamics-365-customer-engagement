@@ -145,7 +145,7 @@ See [Change application navigation using the SiteMap](../developer/customize-dev
 > [!NOTE]
 >  Icons configured for commands aren’t displayed, and labels that are too long are truncated.  
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize commands and the ribbon](http://go.microsoft.com/fwlink/p/?LinkId=320344)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize commands and the ribbon](https://go.microsoft.com/fwlink/p/?LinkId=320344)  
 
 <a name="BKMK_FormScriptDifferences"></a>   
 ## Form script differences for Dynamics 365 for phones and tablets  
@@ -176,7 +176,7 @@ See [Change application navigation using the SiteMap](../developer/customize-dev
 
 
 ### See also  
- [Video: Visual controls (4:32)](http://go.microsoft.com/fwlink/p/?LinkID=724424) <br/>
+ [Video: Visual controls (4:32)](https://go.microsoft.com/fwlink/p/?LinkID=724424) <br/>
  [Create and edit metadata](../customize/create-edit-metadata.md)   
  [Create and design forms](../customize/create-design-forms.md)   
  [Create or edit views](../customize/create-edit-views.md)   

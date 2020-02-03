@@ -25,19 +25,32 @@ search.app:
 ---
 # Sample: Distribute campaign activities to qualified marketing list
 
-This sample code is for Dynamics 365 Customer Engagement (on-premises). Download the complete sample from [Sample: Work with Marketing entities](https://code.msdn.microsoft.com/Marketing-Samples-c5429380).   
+This sample shows how to distribute campaign activities to the qualified members of a marketing list. You can download the sample from [here](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/marketing/DistributeCampaignActivitiesToMarketList).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to distribute campaign activities to the qualified members of a marketing list.  
-  
-## Example  
- [!code-csharp[Marketing#DistributeCampaignFromMarketingList](../snippets/csharp/CRMV8/marketing/cs/distributecampaignfrommarketinglist.cs#distributecampaignfrommarketinglist)]  
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
+
+## How this sample works
+
+In order to simulate the scenario described above, the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org. 
+2. The `CreateRequiredRecords` method creates any entity records that this sample requires.
+
+### Demonstrate
+
+1. The `DistributeCampaign` method creates and distributes campaign. 
+2. The `CreateMarketingList` method creates static marketing lists. 
+3. The `RemoveRelationships` method removes the marketing list from the campaign activity.
+
+### Clean up
+
+Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
   
 ### See also  
  [Campaign Entities](campaign-entities.md)   

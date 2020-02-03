@@ -59,5 +59,4 @@ For example, if the state of California has a state and county tax, then you mig
  [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Set up customer agreements](../field-service/set-up-customer-agreements.md)   
  [Set up agreement sub-statuses](../field-service/set-up-agreement-sub-statuses.md)   
- [Set up payment terms](../field-service/set-up-payment-terms.md)<br>
  [User's Guide](../field-service/user-guide.md)

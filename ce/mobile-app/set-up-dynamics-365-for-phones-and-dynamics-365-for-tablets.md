@@ -138,9 +138,9 @@ This list identifies all services to which Dynamics 365 for Phones and Tablets t
  If your mobile devices are managed under the control of group policy, the following steps describe what you need to do.  
   
 > [!CAUTION]
->  This task contains steps that tell you how to modify the registry. However, because serious problems may occur if you modify the registry incorrectly, it’s important that you follow these steps carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, open the following link to view the article in the Microsoft Knowledge Base: [How to back up and restore the registry in Windows](http://support.microsoft.com/kb/322756).  
+>  This task contains steps that tell you how to modify the registry. However, because serious problems may occur if you modify the registry incorrectly, it’s important that you follow these steps carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, open the following link to view the article in the Microsoft Knowledge Base: [How to back up and restore the registry in Windows](https://support.microsoft.com/kb/322756).  
   
-1. If you plan on using group policy to do a domain wide deployment of the registry change and your server is not running [!INCLUDE[pn_windows_server_2012_r2](../includes/pn-windows-server-2012-r2.md)] or later, download and install the [Windows Server Administrative Templates](http://go.microsoft.com/fwlink/p/?LinkId=392790).  
+1. If you plan on using group policy to do a domain wide deployment of the registry change and your server is not running [!INCLUDE[pn_windows_server_2012_r2](../includes/pn-windows-server-2012-r2.md)] or later, download and install the [Windows Server Administrative Templates](https://go.microsoft.com/fwlink/p/?LinkId=392790).  
   
 2. Open the Group Policy Management Editor.  
   
@@ -152,7 +152,7 @@ This list identifies all services to which Dynamics 365 for Phones and Tablets t
   
 6. Close the group policy editor and save your changes.  
   
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to update links to external web pages for an enterprise environment](http://go.microsoft.com/fwlink/p/?LinkId=392788) and [Group Policy](https://technet.microsoft.com/windowsserver/bb310732.aspx)  
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to update links to external web pages for an enterprise environment](https://go.microsoft.com/fwlink/p/?LinkId=392788) and [Group Policy](https://technet.microsoft.com/windowsserver/bb310732.aspx)  
   
 ### Update the registry on unmanaged mobile devices using a script  
  If your mobile devices are unmanaged, see the following sample [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] script that shows how to change the registry on each [!INCLUDE[pn_windows_8_1](../includes/pn-windows-8-1.md)] or later device.  

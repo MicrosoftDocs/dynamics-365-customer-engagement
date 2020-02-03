@@ -29,7 +29,7 @@ Namespace Microsoft.Crm.Sdk.Samples
 		''' <summary>
 		''' NOTE: When you add this activity to a workflow, you must set the following properties:
 		'''
-		''' URL - manually add the URL to which you will be posting data.  For example: http://myserver.com/ReceivePostURL.aspx  
+		''' URL - manually add the URL to which you will be posting data.  For example: https://myserver.com/ReceivePostURL.aspx  
 		'''		 See this sample's companion file 'ReceivePostURL.aspx' for an example of how the receiving page might look.
 		'''
 		''' AccountName - populate this property with the Account's 'name' attribute.
@@ -65,7 +65,7 @@ Namespace Microsoft.Crm.Sdk.Samples
 		End Sub
 
 		' Define Input/Output Arguments
-        <Input("URL"), [Default]("http://localhost:9999/ReceivePostURL.aspx")> _
+        <Input("URL"), [Default]("https://localhost:9999/ReceivePostURL.aspx")> _
   Public Property URL() As InArgument(Of String)
 
 		<Input("Account Name")> _

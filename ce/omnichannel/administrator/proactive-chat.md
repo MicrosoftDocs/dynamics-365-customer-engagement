@@ -1,8 +1,8 @@
 ---
 title: "Configure proactive chat | MicrosoftDocs"
 description: "How to configure proactive chat in Omnichannel for Customer Service."
-author: sbmjais
-ms.author: shjais
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 12/13/2019
 ms.service: 
@@ -61,5 +61,8 @@ If your administrator or developer configures the **Additional details** tab and
 
 To learn more, see [setContextProvider](../developer/reference/methods/setContextProvider.md).
 
+## Videos
 
+[Proactive chat in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114614)
 
+To view more videos on Omnichannel for Customer Service, see [Videos](../videos.md).
