@@ -54,37 +54,43 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
 
 ### General availability enhancements
 
-- [Customer journey](https://docs.microsoft.com/dynamics365/marketing/go-live): Improved handling of publishable entities used in live customer journeys.
-- [Marketing forms](https://docs.microsoft.com/dynamics365/marketing/marketing-forms): Lookup support for forms hosted on marketing pages and externally hosted forms.
-- [Marketing forms](https://docs.microsoft.com/dynamics365/marketing/marketing-forms): Multi-option lists are now supported in forms.
-- [Marketing forms](https://docs.microsoft.com/dynamics365/marketing/marketing-forms): Multi-option lists are supported in externally hosted and marketing page-hosted forms.
-- [Recurring events](https://docs.microsoft.com/dynamics365/marketing/event-recurring): For easier navigation, recurrent event instances now show a list of other recurring events on the same series in a sub-grid. Recurrent event series records show a list of all the events in the series. Recurrent event series records can also be shown on a calendar.
-- [Recurring events](https://docs.microsoft.com/dynamics365/marketing/event-recurring): Custom fields and publish statuses now copy over from recurrent event series records to each recurrent event instance record.
-- [Recurring events](https://docs.microsoft.com/dynamics365/marketing/event-recurring): Recurring events are no longer locked down when in the "going live" state. Now, if you would like to immediately publish your recurring series to your website, you can do so. Additionally, you can change the recurrence pattern for already created events.
-- [Segments](https://docs.microsoft.com/dynamics365/marketing/segments-static): Static segments are completely revamped for a better user experience. Static segments can now handle a large volume of contacts and allow rule-based additions to segment list members. We also improved the user interface with clearer instructions for creation and manipulation of segments.
-- [Segments](https://docs.microsoft.com/dynamics365/marketing/segmentation-lists-subscriptions): Segments are now time zone-aware, aligning with the functionality of time zone-aware customer journeys.
-- [Segments](https://docs.microsoft.com/dynamics365/marketing/segments-profile): Support added for partial dates in the segment editor.
-- [Segments](https://docs.microsoft.com/dynamics365/marketing/segments-templates): Improved user interface for segment templates.
+- **Customer journeys**
+    - Improved handling of [publishable entities](https://docs.microsoft.com/dynamics365/marketing/go-live) in live customer journeys.
+- **Marketing forms**
+    - [Lookup support](https://docs.microsoft.com/dynamics365/marketing/marketing-forms) in marketing page-hosted and externally hosted forms.
+    - [Multi-option list](https://docs.microsoft.com/dynamics365/marketing/marketing-forms) support in marketing page-hosted and externally hosted forms.
+- **Recurring events**
+    - Recurring event instances [now show a list](https://docs.microsoft.com/dynamics365/marketing/event-recurring) of other recurring events in the same series in a sub-grid, simplifying navigation. Recurring event series records show a list of all events in the series. There is also a new calendar view for recurring event series records.
+    - Custom fields and publish statuses now [copy over](https://docs.microsoft.com/dynamics365/marketing/event-recurring) from recurring event series records to each recurring event instance record.
+    - Recurring events are [no longer locked down](https://docs.microsoft.com/dynamics365/marketing/event-recurring) when in the "going live" state. Now, if you would like to immediately publish your recurring series to your website, you can do so. Additionally, you can change the recurrence pattern for already created events.
 
 ### Bug fixes
 
-- Customer journeys: Added a sample code snippet to enable easier testing of custom channels.
-- Customer journeys: Attached workflows are now deactivated when a customer journey with a record update tile is stopped.
-- Event management: Events now issue an alert message when installations are missing required services.
-- Marketing controls: Improved the visibility of ID values in assist edit.
-- Marketing email designer: Litmus now supports plain text previews.
-- Marketing email designer: Auto save no longer overwrites email templates with unsaved changes.
-- Marketing email designer: Improved responsive design for emails on mobile devices.
-- Marketing email designer: Resolved an error where HTML code did not copy and paste correctly into the email designer.
-- Marketing pages: Invalid or empty values in DateTime fields are no longer incorrectly parsed.
-- Marketing pages: Resolved an error caused by importing a marketing page exported from an org with Dynamics 365 Portal to a Portal-less org.
-- Marketing pages: Resolved issue where marketing pages would occasionally hang in the Going Live state after publishing.
-- Marketing pages: Option sets created in the form-capture wizard now invoke an options mapping list.
-- Marketing pages: Websites with misconfigured allowed domains no longer cause errors messages when externally hosted forms are loaded.
-- Quota management: Checks for whether an installation is complete no longer result in an error message for non-admin users.
-- Segmentation: Resolved an issue where default customer journey content settings were not populated for BU user roles.
-- Segmentation: Resolved an issue where long segment names blended into the page background.
-- Template galleries: Resolved issue where the marketing email designer template gallery sometimes did not load correctly for all users.
+- **Customer journeys**
+    - Added a sample code snippet for easier testing of custom channels.
+    - Attached workflows are now deactivated when a customer journey with a record update tile is stopped.
+- **Event management**
+    - Events now issue an alert message when installations are missing required services.
+- **Marketing controls**
+    - Improved visibility of ID values in assist edit.
+- **Marketing email designer**
+    - Litmus now supports plain text previews.
+    - Auto save no longer overwrites email templates with unsaved changes.
+    - Improved responsive design for email on mobile devices.
+    - Resolved an error where HTML code did not copy and paste correctly into the email designer.
+- **Marketing pages**
+    - Invalid or empty values in DateTime fields are no longer incorrectly parsed.
+    - Resolved an error caused by importing a marketing page exported from an org with Dynamics 365 Portal to a Portal-less org.
+    - Resolved issue where marketing pages would occasionally hang in the Going Live state after publishing.
+    - Option sets created in the form-capture wizard now invoke an options mapping list.
+    - Websites with misconfigured allowed domains no longer cause errors messages when externally hosted forms are loaded.
+- **Quota management**
+    - Checks for whether an installation is complete no longer result in an error message for non-admin users.
+- **Segmentation**
+    - Resolved an issue where default customer journey content settings were not populated for BU user roles.
+    - Resolved an issue where long segment names blended into the page background.
+- **Template galleries**
+    - Resolved issue where the marketing email designer template gallery occasionally did not load correctly for all users.
 
 ## December 2019 update
 
