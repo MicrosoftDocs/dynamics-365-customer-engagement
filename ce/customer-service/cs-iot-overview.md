@@ -17,6 +17,8 @@ applies_to:
 
 # Connected Customer Service - Overview
 
+[!INCLUDE[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
+
 Connected Customer Service enables organizations to transform their service model into a proactive and predictive service model with the availability of IoT diagnostics, IoT device update, and case management on one platform. Agents using Customer Service Hub can diagnose and fix issues remotely, which leads to cost savings and improved customer satisfaction. 
 
 Key benefits of Connected Customer Service:

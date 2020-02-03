@@ -16,8 +16,7 @@ applies_to:
 
 # Extend Connected Customer Service solutions
 
-> [!Note]
-> This section is pre-release documentation and is subject to change.
+[Includes[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Connected Customer Service for Dynamics 365 supports the customization of each standard component or service and the easy addition of custom Azure-based components and services. This flexible architecture is required to support the wide range of current and future IoT devices and the envisioned supporting services for these devices.  
   

@@ -88,7 +88,6 @@
 #### [IoT - Parent IoT Alerts workflow](cs-iot-parent-alerts-workflow.md)
 ### [Security roles for Connected Customer Service](cs-iot-security-roles.md)
 
-
 ## Service Scheduling Guide
 ### [Understand Service Scheduling](basics-service-service-scheduling.md)
 ### [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-service-scheduling-experience)

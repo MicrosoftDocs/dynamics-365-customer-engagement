@@ -16,6 +16,8 @@ applies_to:
 
 # Quickstart: Build your own Connected Customer Service (IoT) solution
 
+[Includes[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 This article shows you how to get up and running quickly to build your own Connected Customer Service solution that integrates IoT data with Dynamics 365 Customer Service.
 
 ## What is Connected Customer Service?

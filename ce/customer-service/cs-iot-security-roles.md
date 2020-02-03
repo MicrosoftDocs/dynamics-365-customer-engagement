@@ -16,6 +16,8 @@ applies_to:
 
 # Security roles for Connected Field Service
 
+[Includes[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Security roles for Connected Customer Service allow administrators to give appropriate access to Internet of Things (IoT) entities, including alerts, assets, devices, and commands, which are all included with Customer Service 9.0.20034.20XX +. These security roles should be added to existing Customer Service security roles. 
 
 1. Customer Service Representative who needs to work with device registration and device data pulls (IoT Hub operations) 
