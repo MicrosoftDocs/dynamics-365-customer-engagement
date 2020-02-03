@@ -1,8 +1,8 @@
 ---
 title: "Create quick responses | MicrosoftDocs"
 description: "Instructions to set up quick responses in Omnichannel for Customer Service."
-author: sbmjais
-ms.author: shjais
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 12/27/2019
 ms.service: 

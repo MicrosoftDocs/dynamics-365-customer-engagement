@@ -20,5 +20,5 @@ ms.author: matp
   
  ## Solution
   
- To resolve this problem, specify a different computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] or contact Microsoft Customer Support Services. For a complete list of Microsoft Customer Support Services telephone numbers and information about support costs, visit the Microsoft [Help and Support Contact](http://go.microsoft.com/fwlink/p/?LinkId=99244) webpage.
+ To resolve this problem, specify a different computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] or contact Microsoft Customer Support Services. For a complete list of Microsoft Customer Support Services telephone numbers and information about support costs, visit the Microsoft [Help and Support Contact](https://go.microsoft.com/fwlink/p/?LinkId=99244) webpage.
 

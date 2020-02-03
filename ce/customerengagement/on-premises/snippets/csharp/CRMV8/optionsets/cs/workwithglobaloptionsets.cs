@@ -43,7 +43,7 @@ namespace Microsoft.Crm.Sdk.Samples
         
         // Specify which language code to use in the sample. If you are using a language
         // other than US English, you will need to modify this value accordingly.
-        // See http://msdn.microsoft.com/en-us/library/0h88fahh.aspx
+        // See https://msdn.microsoft.com/library/0h88fahh.aspx
         private const int _languageCode = 1033;
 
         // Specify the option set's schema name is used in many operations related to

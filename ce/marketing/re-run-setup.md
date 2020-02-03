@@ -30,6 +30,8 @@ In addition to helping you install Dynamics 365 Marketing for the first time, th
 - Add or remove [portals integration](portal-optional.md)
 - Configure an integrated portal
 - Fix installation issues
+- Connect a disconnected instance to marketing services
+- Clean up after a [copy or restore operation](manage-marketing-instances.md)
 - [Uninstall](uninstall-marketing.md) Marketing
 
 To re-run the Marketing setup wizard:

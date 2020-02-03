@@ -101,7 +101,7 @@ The SolutionPackager tool can be used with any source control system. After a so
 ## Create a solution  
  The following procedure identifies the typical steps used when first creating a solution.  
   
-1. In a clean organization, create a solution on Dynamics 365 Customer Engagement (on-premises) server, and then add or create components as necessary.  
+1. In a clean organization, create a solution on Dynamics 365 Server, and then add or create components as necessary.  
   
 2. When you are ready to check in, do the following.  
   

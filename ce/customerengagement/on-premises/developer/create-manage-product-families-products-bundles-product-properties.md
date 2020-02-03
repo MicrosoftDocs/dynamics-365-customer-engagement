@@ -121,7 +121,7 @@ _productPropertyId = _serviceProxy.Create(newProperty);
 > [!NOTE]
 >  When you create a product property of `Option Set` data type, you must define individual options for the product property by creating  `DynamicPropertyOptionSetItem` entity records. Each entity record stores information about the individual option where the  `DynamicPropertyOptionSetItem.DynamicPropertyOptionName` and `DynamicPropertyOptionSetItem.DynamicPropertyOptionValue` attributes define the option name and value respectively, and you can associate individual option records to the parent product property instance using the `DynamicPropertyOptionSetItem.DynamicPropertyId` attribute.  
   
- For information about creating and managing product properties using the web client, see [Use properties to describe a product](http://go.microsoft.com/fwlink/p/?LinkId=512709)  
+ For information about creating and managing product properties using the web client, see [Use properties to describe a product](https://go.microsoft.com/fwlink/p/?LinkId=512709)  
   
 > [!NOTE]
 >  The way you define a product property determines how it can be used by the sales agent at run time, that is, while adding an associated product to an opportunity, quote, order, or invoice. An *updatable* product property’s value can be changed at run time, whereas the value of a *read-only* product property can’t be. For a product property set as *required*, a value for the property must be specified at the run time. Otherwise, the property is displayed as unresolved. A *hidden* property won’t be displayed to sales agents at the run time.  

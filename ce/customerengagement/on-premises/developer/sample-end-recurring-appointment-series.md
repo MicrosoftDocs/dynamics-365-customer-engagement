@@ -1,5 +1,5 @@
 ---
-title: "Sample: End a recurring appointment series (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: End a recurring appointment series | MicrosoftDocs"
 description: "Sample demonstrates how to end a recurring appointment series by using the DeleteOpenInstancesRequest message."
 ms.custom: 
 ms.date: 10/31/2017
@@ -17,8 +17,8 @@ helpviewer_keywords:
 ms.assetid: 914a0fde-42ad-4a56-8d2d-7d0166bb2d3f
 caps.latest.revision: 25
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -26,24 +26,33 @@ search.app:
 ---
 # Sample: End a recurring appointment series
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Schedules and Appointments](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/ScheduleAndAppointment). 
+This sample shows how to end a recurring appointment series by using the [DeleteOpenInstancesRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.deleteopeninstancesrequest?view=dynamics-general-ce-9) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/EndRecurringAppointment).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- The following sample shows how to end a recurring appointment series by using the <xref:Microsoft.Crm.Sdk.Messages.DeleteOpenInstancesRequest> message.  
-  
-## Example  
- [!code-csharp[ScheduleAndAppointment#EndRecurringAppointmentSeries](../snippets/csharp/CRMV8/scheduleandappointment/cs/endrecurringappointmentseries.cs#endrecurringappointmentseries)]  
-  
-### See also  
-    
- [Delete or End a Recurring Appointment Series or Instance](delete-or-end-a-recurring-appointment-series-or-instance.md)   
- <xref:Microsoft.Crm.Sdk.Messages.DeleteOpenInstancesRequest>   
- [Sample Code for Recurring Appointments](sample-code-schedule-appointment-entities.md)   
- [Sample: Convert an Appointment to a Recurring Appointment](sample-convert-appointment-recurring-appointment.md)   
-<xref:Microsoft.Xrm.Sdk.IOrganizationService>
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+The `DeleteOpenInstanceRequest` message is intended to be used in a scenario where it contains the data that is needed to delete instances of a recurring appointment master that has an `Open` state.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+2. Defines the anonymous types that define possible recurrence pattern values, possible values for days, and recurrence rule pattern end type values.
+3. Creates a new recurring appointment that is required for the sample.
+
+### Demonstrate
+
+1. The `RecurringAppointmentMaster` message retrieves a recurring appointment series that is created in the [Setup](#setup).
+2. The `DeleteOpenInstanceRequest` message ends the recurring appointment series to the last occurring past instance date w.r.t. the series end date.
+
+### Clean up
+
+Display an option to delete the sample data created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
