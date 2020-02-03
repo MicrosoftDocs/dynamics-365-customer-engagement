@@ -42,7 +42,7 @@ To add the control:
 5.	Go to the **Controls** tab and select **Add Control**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Read-only Grid control selected as default](media/read-only-grid-control.png "Read-only Grid control selected as default")
+    > ![Read-only Grid control selected as default](../sales-enterprise/media/read-only-grid-control.png "Read-only Grid control selected as default")
 
 6.	In the **Add Control** dialog box, select **Kanban** and then select **Add**.
 
@@ -54,7 +54,7 @@ To add the control:
 7.	The Read-only grid is the default option, so when users select **Opportunities** from the site map, they see a read-only grid of opportunities. To make the Kanban view the default view instead, select the radio button for the Kanban control for the corresponding options.  
 
     > [!div class="mx-imgBorder"]  
-    > ![Make the Kanban view the default view](media/make-kanban-view-default.png "Make the Kanban view the default view") 
+    > ![Make the Kanban view the default view](../sales-enterprise/media/make-kanban-view-default.png "Make the Kanban view the default view") 
 
 8.	Select **Save** to save your changes.
 
@@ -63,6 +63,5 @@ To add the control:
 
 ### See also
 
-[Work with opportunities in the Kanban view](opportunity-kanban-view.md)  
-
-[Work with activities in the Kanban view](activity-kanban-view.md)
+[Work with opportunities in the Kanban view](opportunity-kanban-view-sp.md)  
+[Work with activities in the Kanban view](activity-kanban-view-sp.md)

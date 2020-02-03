@@ -68,7 +68,7 @@ To switch to a different view:
 2.	On the command bar, select the **More commands** icon ![More commands icon](media/more-commands-icon.png "More commands icon"), and then select **Show As** > **Kanban** or **Calendar Control** or Read-only grid view.
 
     > [!div class="mx-imgBorder"]  
-    > ![Show activities in the Kanban view](media/activity-show-as-kanban-view.png "Show activities in the Kanban view") 
+    > ![Show activities in the Kanban view](../sales-enterprise/media/activity-show-as-kanban-view.png "Show activities in the Kanban view") 
 
 
 ## Change your activities view
