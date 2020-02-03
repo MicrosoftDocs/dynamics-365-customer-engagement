@@ -21,7 +21,7 @@ search.app:
 
 # Automatically create or update records in Customer Service Hub
 
-[!INCLUDE[cc-early-access-2020w1](/includes/cc-early-access-2020w1.md)]
+[!INCLUDE[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
 
 In Dynamics 365 Customer Service Hub, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this section, you will learn about creating rules for automatically creating records for cases from incoming emails.
 
@@ -102,7 +102,7 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
  
    - **Create records for email from unknown senders:** Set it to yes if you want records to be created when email messages arrive from senders whose email addresses aren't present in any records. A contact record is also created.
    
-        This option, in conjunction with the Automatically create records in Dynamics 365 for Customer Engagement option in the rule owner's Personal Options, determines whether a case and contact record is created. To learn more, see [Set personal options]((../basics/set-personal-options.md)).
+        This option, in conjunction with the Automatically create records in Dynamics 365 for Customer Engagement option in the rule owner's Personal Options, determines whether a case and contact record is created. To learn more, see [Set personal options](../customerengagement/on-premises/basics/set-personal-options.md).
     
     - **Require a valid entitlement on the connected case:** If you select **Yes**, the Common Data Service platform creates a case only if an active entitlement exists for the customer.
     
