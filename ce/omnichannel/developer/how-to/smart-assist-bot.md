@@ -4,21 +4,14 @@ description: "Read how you can build a smart assist bot to help agents resolve c
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 10/25/2019
+ms.date: 01/20/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
-# Preview: Build a custom smart assist bot
+# Build a custom smart assist bot
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
-
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../../../legal/dynamics-insider-agreement.md).
 
 Smart assist is an intelligent assistant that provides real-time recommendations to the agents, enabling them to take actions while interacting with the customers. It allows organizations to build a custom bot to push real-time recommendations to agents within the smart assist control on the agent UI. The smart assist bot interprets the ongoing conversation and provides recommendations to the agent using [Microsoft Adaptive Cards](https://adaptivecards.io).
 
@@ -122,6 +115,8 @@ Given below is the adaptive card JSON for displaying knowledge article recommend
 }
 ```
 The [code sample](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot) uses a Web API query to search <xref href="Microsoft.Dynamics.CRM.kbarticle?text=Knowledge Base Article entity" /> in your Dynamics 365 instance. You can modify this query to use <xref href="Microsoft.Dynamics.CRM.incident?text=Incident(case) entity" /> if you wish to search incidents.
+
+For information on how to create a knowledge article using template, see [Create a knowledge article using a template](../../../customer-service/create-knowledge-article-using-template.md).
 
 ### Smart assist using similar cases
 
@@ -397,4 +392,5 @@ In the generic functionality, if the bot encounters an intent for appointment, i
 [Smart assist for agents](../../administrator/smart-assist.md)<br />
 [Create a bot with Azure bot service](/azure/bot-service/abs-quickstart)<br />
 [Automate tasks with macros](../../administrator/macros.md)<br />
-[Integrate an Azure bot](../../administrator/configure-bot.md)
+[Integrate an Azure bot](../../administrator/configure-bot.md)<br />
+[Create knowledge article template](../../../customer-service/create-templates-knowledge-article.md)
