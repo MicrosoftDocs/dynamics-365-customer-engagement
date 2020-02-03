@@ -1,5 +1,5 @@
 ---
-title: "Preview Insert email template while composing an email in model-driven apps | MicrosoftDocs"
+title: "Insert email template while composing an email in model-driven apps | MicrosoftDocs"
 description: "Insert a preformatted email message while composing an email."
 ms.date: 02/03/2020
 ms.service:
@@ -10,7 +10,9 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Preview: Insert an email template
+# Insert an email template
+
+[!INCLUDE [cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
