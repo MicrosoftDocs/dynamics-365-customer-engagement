@@ -47,5 +47,5 @@ The resolution for this is to adjust the screen size.
 
 ## See also
 
-[What's new in Dynamics 365 Channel Integration Framework](../whats-new-channel-integration-framework.md)<br />
-[Frequently asked questions](../faq-channel-integration-framework.md)
+[What's new in Dynamics 365 Channel Integration Framework](whats-new-channel-integration-framework.md)<br />
+[Frequently asked questions](faq-channel-integration-framework.md)
