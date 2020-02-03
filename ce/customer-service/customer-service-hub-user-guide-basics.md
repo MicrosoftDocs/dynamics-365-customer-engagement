@@ -395,7 +395,7 @@ In the Customer Service Hub sitemap, select **Service** > **Queues**. The queues
     - **Pick** the record. It will be assigned to you and will be moved to your queue.
     - **Release** the record. It will be assigned back to the queue owner for other's to pick up.
 
-To know how to add a case to a queues, see [Add a case to a queue](customer-service-hub-user-guide-case-sla.md#add-a-case-to-a-queue).
+To know how to add a case to a queues, see [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md).
 
 ## Understand Site
 

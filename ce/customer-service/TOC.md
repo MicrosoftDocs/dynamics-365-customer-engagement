@@ -21,10 +21,8 @@
 ##### [Create and manage parent and child cases](customer-service-hub-user-guide-create-and-manage-parent-and-child-cases.md)
 ##### [Resolve, cancel, and reassign a case](customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md)
 ##### [Case queues and routing](customer-service-hub-user-guide-case-queues-and-routing.md)
-
 ##### [Modify case resolution dialog](customer-service-hub-user-guide-modify-case-resolution-dialog.md)
-
-##### [Manage actvities from the timeline](customer-service-hub-user-guide-manage-timeline-activities.md)
+##### [Manage activities from the timeline](customer-service-hub-user-guide-manage-timeline-activities.md)
 ##### [Convert case to knowledge article](customer-service-hub-user-guide-convert-case-to-knowledge-article.md)
 ##### [Manage Case SLAs](customer-service-hub-user-guide-case-sla.md)
 #### [Search for knowledge articles](search-knowledge-articles-csh.md)
