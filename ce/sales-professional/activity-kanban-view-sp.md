@@ -1,5 +1,5 @@
 ---
-title: "Work with activities in the Kanban view (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Work with activities in the Kanban view (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Use the opportunity Kanban view to visualize all your activities with a card-based view and manage these activities quickly by moving them across the swim lanes."
 ms.date: 02/03/2020
 ms.service:
@@ -10,7 +10,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Work with activities in the Kanban view
+# Work with activities in the Kanban view (Sales Professional)
 
 [!INCLUDE [cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]  
 

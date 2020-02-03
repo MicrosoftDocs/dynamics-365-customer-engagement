@@ -10,6 +10,8 @@
 ### [Work with views (lists)](work-with-views.md)
 ### [Manage your customers](manage-accounts-contacts.md)
 ### [Manage tasks, appointments, email, or phone calls](manage-activities.md)
+### [Send email using the enhanced email experience](enhanced-email-sp.md)
+### [Work with activities in the Kanban view](activity-kanban-view-sp.md)
 ### [Learning Catalog](learning-catalog.md)
 #### [Business Decision Maker](learning-bdm.md)
 #### [Business User](learning-bus-user.md)
@@ -25,6 +27,7 @@
 #### [Create and manage leads](manage-leads-sales-professional.md)
 #### [Create or edit opportunities](manage-opportunities-sales-professional.md)
 #### [Add products to an opportunity](add-products-opportunity-sp.md)
+#### [Work with opportunities in the Kanban view](opportunity-kanban-view-sp.md)
 ### Understand sales transactions
 #### [Understand sales transactions](understanding-sales-transactions-sales-professional.md)
 #### [Create and manage quotes](create-quotes-sales-professional.md)
@@ -73,6 +76,10 @@
 ### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization-sales-professional.md)
 ### [Make price list optional](make-price-list-optional-sp.md)
 ### [Define lead qualification experience](define-lead-qualification-experience-sp.md)
+
+### Other settings
+#### [Set up enhanced email](set-up-enhanced-email-sp.md)
+#### [Add the Kanban control to Opportunity or Activity entities](add-kanban-control-sp.md)
 
 ## Customizer guide
 ### [Customize forms](customize-forms.md)

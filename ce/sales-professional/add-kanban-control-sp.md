@@ -1,5 +1,5 @@
 ---
-title: "Add the Kanban control to Opportunity or Activity entities (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Add the Kanban control to Opportunity or Activity entities (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Add the Kanban control to the Opportunity or Activity entity. The Kanban control enables salespeople to monitor their pipeline, see where opportunities are in a business process flow, or track their activities efficiently."
 ms.date: 02/03/2020
 ms.service:
@@ -10,7 +10,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Add the Kanban control to Opportunity or Activity entities
+# Add the Kanban control to Opportunity or Activity entities (Sales Professional)
 
 [!INCLUDE [cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]  
 
@@ -22,8 +22,15 @@ To add the control:
 1.	In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Advanced Settings link in the site map](media/advanced-settings-option.png "Advanced Settings link in the site map")
- 
+    > ![Advanced Settings link in the site map](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
+
+    The **Settings** page opens in Power Platform Admin center.
+
+2.  Expand the **Resources** section, and select **All legacy settings**. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Option to open legacy settings](../sales-enterprise/media/legacy-settings-power-platform-admin-center.png "Option to open legacy settings")
+    
     The Business Management page opens.
 
 2.	On the navigation bar, select **Settings** and then under **Customization**, select **Customizations**.

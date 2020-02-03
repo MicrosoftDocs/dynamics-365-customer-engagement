@@ -1,5 +1,5 @@
 ---
-title: "Work with opportunities in the Kanban view (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Work with opportunities in the Kanban view (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Use the opportunity Kanban view to effectively monitor the pipeline and see the opportunities in their different statuses or stages of business process flow."
 ms.date: 02/03/2020
 ms.service:
@@ -10,7 +10,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Work with opportunities in the Kanban view
+# Work with opportunities in the Kanban view (Sales Professional)
 
 [!INCLUDE [cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]  
 

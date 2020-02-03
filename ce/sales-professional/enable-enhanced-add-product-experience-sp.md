@@ -30,7 +30,19 @@ Increase seller productivity by enabling the enhanced experience for searching a
 
 **To enable the enhanced experience**
 
-1.	In the Sales Hub app, at the bottom of the site map, select **Change area** ![Icon to change the work area](../sales-enterprise/media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.
+1.	In your app, select the **Settings** icon, and then select **Advanced Settings**.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Advanced Settings link in the site map](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
+
+    The **Settings** page opens in Power Platform Admin center.
+
+2.  Expand the **Resources** section, and select **All legacy settings**. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Option to open legacy settings](../sales-enterprise/media/legacy-settings-power-platform-admin-center.png "Option to open legacy settings")
+    
+    The Business Management page opens.
 
 2.	Under **Product Catalog**, select **Product Catalog Settings**.
 
