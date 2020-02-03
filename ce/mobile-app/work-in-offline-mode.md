@@ -150,7 +150,7 @@ These entities and corresponding commands are available in offline mode.
 |Team |Read only	|
 |User |Read only	|
 
-**Add Existing on subgrids**: Add Existing is not supported for mobile offline for certain types of relationships. When you are offline, certain relationships such as relationships that are N:N are read only, and the Add Existing command will be hidden on subgrids for those relationships. Even if the button is unhidden via customization, the command will not work in offline.
+**Add Existing on subgrids**: **Add Existing** is not supported for mobile offline for certain types of relationships. When you are offline, certain relationships such as relationships that are N:N are read only, and the **Add Existing** command will be hidden on subgrids for those relationships. Even if the button is unhidden via customization, the command will not work in offline.
 
 **Business rules**: Business rules are supported in mobile offline. For more information, see [Create business rules and recommendations to apply logic in a model-driven app form](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-business-rules-recommendations-apply-logic-form).
 
