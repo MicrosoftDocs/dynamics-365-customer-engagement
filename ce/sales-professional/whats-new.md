@@ -15,7 +15,7 @@ manager: annbe
 This topic provides resources where you can learn about the new features that have recently released or new features that will be releasing over the next few months.
 
 For information about new features releasing over the next few months that you can use for planning, see:
-- [April 2019 release notes](https://docs.microsoft.com/business-applications-release-notes/april19/dynamics365-sales/planned-features/planned-features)
+- [April 2019 release notes](https://docs.microsoft.com/business-applications-release-notes/april19/dynamics365-sales/planned-features)
 - [2019 release wave 2 plan](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-sales/planned-features)
 
 > [!NOTE]
