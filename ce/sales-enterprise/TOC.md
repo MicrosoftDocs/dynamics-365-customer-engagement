@@ -63,6 +63,7 @@
 ### [Help resources for sales people](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)
 ### [Send email using the enhanced email experience](enhanced-email.md)
+### [Insert an email template](insert-email-template.md)
 ### [Create PDF documents](create-quote-pdf.md)
 ### [Track and manage activities](manage-activities.md) 
 ### [Work with activities in the Kanban view](activity-kanban-view.md)  

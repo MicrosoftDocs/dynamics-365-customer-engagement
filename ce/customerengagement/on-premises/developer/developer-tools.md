@@ -27,7 +27,7 @@ This section provides a single location for you to learn about the developer too
 
 [XrmToolBox](https://www.xrmtoolbox.com) developed the following community tools for Dynamics 365 Customer Engagement (on-premises):
 
-- [WebResources Manager](https://www.xrmtoolbox.com/plugins/MsCrmTools.WebResourcesManager) - The tool helps you to create, update, delete, and preview web resources.
+- [WebResources Manager](https://www.xrmtoolbox.com/plugins/MsCrmTools.WebResourcesManager) - The tool helps you to create, update, delete, and preview web resources. It also includes support for deploying TypeScript files and Mapping files, allowing client side debugging of TypeScript.
 
 - [FetchXML Builder](https://fxb.xrmtoolbox.com) - Provides a UI to compose FetchXML queries, execute, convert to code, update system views etc. More information: [Build queries with FetchXML](https://docs.microsoft.com/dynamics365/customer-engagement/developer/org-service/build-queries-fetchxml).
 
@@ -35,7 +35,7 @@ This section provides a single location for you to learn about the developer too
 
 - [View Designer](https://www.xrmtoolbox.com/plugins/Cinteros.XrmToolBox.ViewDesigner) - The tool helps you view layouts and modify queries using FetchXML Builder.
 
-- [Early Bound Generator](https://www.xrmtoolbox.com/plugins/DLaB.Xrm.EarlyBoundGenerator) - The tool helps you to generate Early Bound Entities, Option Sets, or Actions. The tools uses [CrmSvcUtil.exe](download-tools-NuGet.md) and display the command lines that are used to create theses classes.
+- [Early Bound Generator](https://www.xrmtoolbox.com/plugins/DLaB.Xrm.EarlyBoundGenerator) - The tool helps you to generate Early Bound Entities, Option Sets, or Actions. The tools uses the [CrmSvcUtil.exe](download-tools-NuGet.md) and displays the command lines that are used to create theses classes.
 
 - [Metadata Browser](https://www.xrmtoolbox.com/plugins/MsCrmTools.MetadataBrowser) - The tool helps you browse metadata from your Dynamics 365 organization.
 
