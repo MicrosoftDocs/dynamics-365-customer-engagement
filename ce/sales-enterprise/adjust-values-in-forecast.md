@@ -51,7 +51,7 @@ You can also view the history of the adjustments that are made on a forecast, an
     > [!div class="mx-imgBorder"]
     > ![Values adjusted](media/forecast-adjust-value-adjusted-value.png "Values adjusted")
 
-4.	You can roll back the value if you think it was inappropriately adjusted from the system-calculated value<!--note from editor: Edit okay? I didn't know what "inappropriate from the system-calculated value" meant.-->. Open the adjustment dialog box, and then select **Reset**.
+4.	You can roll back the value if you think it was inappropriately adjusted from the system-calculated value. Open the adjustment dialog box, and then select **Reset**.
 
     > [!div class="mx-imgBorder"]
     > ![Select reset value](media/forecast-adjust-value-reset.png "Select Reset")

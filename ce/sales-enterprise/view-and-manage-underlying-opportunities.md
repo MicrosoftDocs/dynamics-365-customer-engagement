@@ -13,7 +13,7 @@ manager: shujoshi
 ---
 
 # View and manage underlying opportunities 
-<!--note from editor: I've defaulted to lowercase "kanban" because I see no evidence it's a proper noun.-->
+
 To understand which opportunities are affecting forecast values, select one of the following options: 
 
 - Select a row to show all opportunities, regardless of forecast category.
@@ -103,7 +103,7 @@ You can view and edit underlying opportunities in two ways:
 
 4.	To edit the opportunity, you can directly change the values for the attributes displayed on the card, and drag the cards from one forecast category to another.
     
-    The changes are saved, and the opportunity is updated in Dynamics 365 Sales<!--note from editor: Edit okay?-->. The changes are also automatically applied in the forecast grid.
+    The changes are saved, and the opportunity is updated in Dynamics 365 Sales. The changes are also automatically applied in the forecast grid.
 
     > [!NOTE]
     > To edit more attributes for the opportunity, select the name of the opportunity. The opportunity will open in a new page, where you can edit it as required, and then save and close it.

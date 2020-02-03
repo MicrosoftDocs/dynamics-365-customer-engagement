@@ -22,7 +22,7 @@ Bottoms-up forecasting is the projection of what a salesperson, team, or organiz
 
 2.	Sign in to the Sales Hub app.
 
-3.	At the bottom of the site map, select **Change area** ![Change area icon](media/change-area-icon.png "Change area icon"), and then select **Sales**. <!--note from editor: Do you think the following graphic is necessary? Other procedures just use the inline graphic and alt text as I've added here. (However, this edit presumes the graphic does have a tooltip that says "Change area.")-->
+3.	At the bottom of the site map, select **Change area** ![Change area icon](media/change-area-icon.png "Change area icon"), and then select **Sales**. 
  
     > [!div class="mx-imgBorder"]
     > ![Icon to change area in the site map](media/site-map-area.png "Icon to change an area of the site map")
@@ -50,11 +50,11 @@ Bottoms-up forecasting is the projection of what a salesperson, team, or organiz
 
     -	**Quota**: A target amount set for a specific owner over a given time frame. The progress bar is calculated against this value. 
 
-    -  **Committed**: Shows the aggregated (rolled-up) value of estimated revenue for all open opportunities that have the forecast category set as **Committed** (high confidence). This value can be adjusted.
+    -  **Committed**: Shows the aggregated (rolled-up) value of estimated revenue for all open opportunities that have the forecast category set as **Committed** (high confidence). This value can be adjusted during forecast.
 
-    -	**Best case**: Shows the aggregated (rolled-up) value of estimated revenue of all open opportunities that have the forecast category set as **Best Case** (medium confidence). This value can be adjusted during forecast.<!--note from editor: The previous and next paragraphs simply say "This value can be adjusted." Is there a reason only this one says "during forecast," or should they be the same?-->
+    -	**Best case**: Shows the aggregated (rolled-up) value of estimated revenue of all open opportunities that have the forecast category set as **Best Case** (medium confidence). This value can be adjusted during forecast.
 
-    -	**Pipeline**: Shows the aggregated (rolled-up) value of estimated revenue for all open opportunities that have the forecast category set as **Pipeline** (low confidence). This value can be adjusted.
+    -	**Pipeline**: Shows the aggregated (rolled-up) value of estimated revenue for all open opportunities that have the forecast category set as **Pipeline** (low confidence). This value can be adjusted during forecast.
 
     -	**Omitted**: Shows the aggregated (rolled-up) value of excluded revenue for all open opportunities that have the forecast category set as **Omitted**.
 

@@ -13,7 +13,7 @@ manager: shujoshi
 ---
 
 # Configure forecasts in your organization
-<!--note from editor: It seems that either the plural form "forecasts" or "forecasting" make more sense for referring to the feature. I think "a forecast" implies there's only one at a time.-->
+
 A forecast helps your organization predict how much revenue your sales team will generate in a given timeframe. When done correctly, forecasting can play a significant role in your company's success. By using a forecast:
 
 - Sellers can track performance against their targets and identify pipeline risks that might jeopardize their ability to hit their targets.
@@ -25,7 +25,7 @@ A forecast helps your organization predict how much revenue your sales team will
 - Organization leaders can use the projected estimates to change the product strategy or convey updated projections to investors.
 
 As an administrator or forecast manager, you can configure forecasts in your organization. You can define the type of forecast, its hierarchy, permissions for accessing it, and the details you want to appear on the forecast grid. After a forecast is activated, your sales team can view the revenue and pipeline projections.
-<!--note from editor: You'll see that I edit most procedure introductions to be simply a bold infinitive phrase with no colon (**To enable forecasting** in enable-forecast.md, for example). This matches the recommendation of the Writing Style Guide. But for this "mega-procedure", I think it's good the way you have it, with a prose introduction.-->
+
 To configure forecasting in your organization, these are the general steps to follow:
 
 1.	[Review prerequisites](#review-prerequisites)

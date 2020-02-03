@@ -46,14 +46,14 @@ Using the general properties and scheduling, you can define a forecast model by 
     > [!div class="mx-imgBorder"]
     > ![Configuration section](media/forecast-general-tab-configuration-section.png "Configuration section")
 
-6.	In the **Scheduling** section, specify or note <!--note from editor: Because two of these parameters can't be specified.-->the following information.
+6.	In the **Scheduling** section, specify or note the following information.
 
     | Parameter | Description |
     |-----------|-------------|
     | Forecast period | Select whether the forecast is to be generated monthly or quarterly. By default, **Quarterly** is selected. You can schedule the forecast up to one year. |
     | Fiscal year | Select the fiscal year for the forecast. This is populated based on the organization's fiscal year settings. |
     | Forecast starts at | Select the time period to start forecasting. If you select the forecast period as **Monthly**, select the month you want to start forecasting. If you select the forecast period as **Quarterly**, select the quarter you want to start forecasting. |
-    | Number of periods | Enter the number of forecast periods to be generated. You can only create forecasts that span a full year. <!--note from editor: This seems to contradict what you said under "Forecast period,"which is that you can schedule for "up to one year."--><br> **Note**: If you set the **Forecast period** to **Monthly**, **Fiscal year** to **FY19**, **Forecast starts at** as **January**, and **Number of periods** as **4**, the generated forecasts will be grouped by four months: January, February, March, and April. In such a case, the forecast start and end dates will automatically be set to January 1, 2019 and April 30, 2019, respectively. |
+    | Number of periods | Enter the number of forecast periods to be generated. You can only create forecasts that span up to one year. <br> **Note**: If you set the **Forecast period** to **Monthly**, **Fiscal year** to **FY19**, **Forecast starts at** as **January**, and **Number of periods** as **4**, the generated forecasts will be grouped by four months: January, February, March, and April. In such a case, the forecast start and end dates will automatically be set to January 1, 2019 and April 30, 2019, respectively. |
     | Valid from | This field is read-only. It identifies the date the forecast starts. |
     | Valid to | This field is read-only. It identifies the date the forecast ends. |
  
