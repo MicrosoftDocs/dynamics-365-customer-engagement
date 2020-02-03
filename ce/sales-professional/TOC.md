@@ -73,11 +73,12 @@
 #### [Enable automatic generation of quotes and invoices](enable-automatic-generation-quotes-invoices.md)
 #### [Export data or template](export-data.md)
 #### [Enable or disable PDF generation from sales records](enable-pdf-generation-quote-sales-professional.md)
-### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization-sales-professional.md)
-### [Make price list optional](make-price-list-optional-sp.md)
-### [Define lead qualification experience](define-lead-qualification-experience-sp.md)
+
 
 ### Other settings
+#### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization-sales-professional.md)
+#### [Make price list optional](make-price-list-optional-sp.md)
+#### [Define lead qualification experience](define-lead-qualification-experience-sp.md)
 #### [Set up enhanced email](set-up-enhanced-email-sp.md)
 #### [Add the Kanban control to Opportunity or Activity entities](add-kanban-control-sp.md)
 

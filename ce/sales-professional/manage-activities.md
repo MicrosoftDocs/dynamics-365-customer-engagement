@@ -65,7 +65,7 @@ To switch to a different view:
 
 1.	In the site map, select **Activities**.
 
-2.	On the command bar, select the **More commands** icon ![More commands icon](media/more-commands-icon.png "More commands icon"), and then select **Show As** > **Kanban** or **Calendar Control** or Read-only grid view.
+2.	On the command bar, select the **More commands** icon ![More commands icon](../sales-enterprise/media/more-commands-icon.png "More commands icon"), and then select **Show As**, and then the view type such as, **Kanban**, **Calendar Control**, or **Read Only Grid**.
 
     > [!div class="mx-imgBorder"]  
     > ![Show activities in the Kanban view](../sales-enterprise/media/activity-show-as-kanban-view.png "Show activities in the Kanban view") 

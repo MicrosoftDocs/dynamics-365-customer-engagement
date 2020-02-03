@@ -11,9 +11,6 @@ manager: annbe
 ---
 
 
-<!--from editor: Please see questions below in lines 58, 158, and 178. Also, images in this topic include names of people and businesses. I recognize the business names as being Microsoft-approved, and I also find Kenny Smith on our team's name list, but I don't find these other names: Daniel Thomas, Brenden Thiel, and Dorothy Anderson. Can you confirm that they are OK to use? -->
-
-
 # Track and manage activities
 
 In Dynamics 365 Sales, you use activities to plan, track, and organize all your customer communications. For example, you can take notes, send email, make phone calls, set up appointments, and assign yourself tasks as you work a sale or resolve a service case. These actions are all considered types of activities.
@@ -55,11 +52,7 @@ To switch to a different view:
 
 1.	In the site map, select **Activities**.
 
-
-<!--from editor: I don't see a "Read-only grid view" choice in the image. Step 2 makes it sound like that's something you can select. -->
-
-
-2.	On the command bar, select the **More commands** icon ![More commands icon](media/more-commands-icon.png "More commands icon"), and then select **Show As** > **Kanban** or **Calendar Control** or Read-only grid view.
+2.	On the command bar, select the **More commands** icon ![More commands icon](media/more-commands-icon.png "More commands icon"), and then select **Show As**, and then the view type such as, **Kanban**, **Calendar Control**, or **Read Only Grid**.
 
     > [!div class="mx-imgBorder"]  
     > ![Show activities in the Kanban view](media/activity-show-as-kanban-view.png "Show activities in the Kanban view") 
@@ -164,10 +157,7 @@ After you call someone, complete a task, send an email, or go to an appointment,
 ## Mark several activities complete at the same time  
 
 
-<!--from editor: Unclear what on the left is being selected. Select to the left to select it is confusing. -->
-
-
-1.  On the list of activities, select to the left of each activity to select it.  
+1.  On the list of activities, select all the activities that you want to mark complete.  
   
 2.  On the command bar, select **Mark Complete**.  
   
@@ -182,10 +172,6 @@ Here are some suggestions about how to use activities to your organization’s b
 - **Add activities for yourself, too**. You can keep track of your own assignments, events, and notes without associating these activities with a customer.  
   
      Use the **Create** command on the navigation bar. Find these activities in the list by sorting on the **Regarding** column, which is blank to let you know that the activity isn’t associated with a customer record.  
-
-
-<!--from editor: Please confirm that Chris Preston and Imported Sports are approved fictitious names to use. -->
-
 
 - **Keep in mind that activities “roll up” under their associated records.** Let’s say you want to remind yourself to follow up with Cecil Langer, a contact who’s associated with the account, ​Wingtip Toys. You’ll need to add the task activity to the contact record for Cecil (not for the account, ​Wingtip Toys).  
   

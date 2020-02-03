@@ -64,13 +64,13 @@
 ### [Learn the basics](user-guide-learn-basics.md)
 ### [Send email using the enhanced email experience](enhanced-email.md)
 ### [Create PDF documents](create-quote-pdf.md)
+### [Track and manage activities](manage-activities.md) 
+### [Work with activities in the Kanban view](activity-kanban-view.md)  
 
 ### Manage customers
 #### [Work with accounts and contacts](../basics/accounts-contacts.md)
 #### [Organize contacts in live org charts for accounts](live-org-chart.md)
 #### [Scan business cards](scan-business-cards.md)
-#### [Track and manage activities](manage-activities.md) 
-#### [Work with activities in the Kanban view](activity-kanban-view.md)  
 
 ### Lead and opportunity management
 #### [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)

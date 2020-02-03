@@ -48,7 +48,8 @@ Increase seller productivity by enabling the enhanced experience for searching a
 
 3.	Set **Adding Products** > **Enhanced Add product experience** to **Yes**.
 
-    ![Enhanced 'add product' experience setting](../sales-enterprise/media/enhanced-add-product-experience-setting.png "Enhanced 'add product' experience setting")
+    > [!div class="mx-imgBorder"]
+    > ![Enhanced 'add product' experience setting](../sales-enterprise/media/enhanced-add-product-experience-setting.png "Enhanced 'add product' experience setting")
 
 4.	Select **Apply**.
 

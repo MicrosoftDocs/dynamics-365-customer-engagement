@@ -12,11 +12,11 @@ manager: annbe
 
 # Sales Team Member app for users with Team Member license
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 [!INCLUDE [cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
 
-The new Sales Team Member app is designed for the lightweight sales scenarios where users don't need the full capabilities of an enterprise application. This app is included<!--note from editor: Edit okay?--> with the Team Member license. 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+The new Sales Team Member app is designed for the lightweight sales scenarios where users don't need the full capabilities of an enterprise application. This app is included with the Team Member license. 
 
 During the early access phase of the Team Member license enforcement, users with the Team Member license can use the designated app modules alongside all existing apps.
 
@@ -43,9 +43,9 @@ Users with the Team Member license can go to home.dynamics.com. They'll see the 
     
 > [!IMPORTANT]
 > - During the early access phase, the Sales Team Member app is shown for a user on the Dynamics 365 home page only if they have the Sales Hub installed. If the Sales Team Member app isn't available on the Dynamics 365 home page, they can get it from Microsoft AppSource.
-> - Assign the Sales Team Member role to the users who will access the app. To learn about assigning the role, see [Assign a security roles to a user](/power-platform/admin/create-users-assign-online-security-roles) in the Power Platform documentation.
+> - You must assign the Sales Team Member role to the users who will access the app. To learn about assigning the role, see [Assign a security roles to a user](/power-platform/admin/create-users-assign-online-security-roles) in the Power Platform documentation.
     
-When users open the app, in the site map, they'll see the entities available in the app. 
+When users open the app, in the site map, they'll see the entities available in the Sales Team Member app. 
 
 > [!div class="mx-imgBorder"]
 > ![Site map of the Sales Team Member app](media/sales-team-member-app-site-map.png "Site map of the Sales Team Member app")
