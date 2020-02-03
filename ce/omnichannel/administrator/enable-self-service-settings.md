@@ -4,7 +4,7 @@ description: "Enable self service in the Omnichannel Administration app."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 01/31/2020
+ms.date: 02/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article

@@ -4,7 +4,7 @@ description: "Customer summary is a page where you can get all available informa
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 01/31/2020
+ms.date: 02/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -96,7 +96,7 @@ To learn more, see [Create chat authentication settings](../../administrator/cre
 
 ## Case
 
-For an incoming conversation request, the system links an existing case to the conversation and shows it in the **Case** section.<!--note from editor: Edit okay? The image doesn't show "Issue snapshot" anywhere in the UI, just "Case".--> This section shows information such as the title of the case, its priority, its status, the relevant product, and the owner of the case.
+For an incoming conversation request, the system links an existing case to the conversation and shows it in the **Case** section. This section shows information such as the title of the case, its priority, its status, the relevant product, and the owner of the case.
 
 > [!div class='mx-imgBorder']
 > ![The Case section of the Customer summary page](../../media/customer-summary-issue-snapshot.PNG "The Case section of the Customer summary page")
@@ -133,7 +133,7 @@ When you accept an incoming conversation request, a session starts and the **Cus
 3. Macro
 4. Sub agent script
 
-Based on the type of agent script your system administrator has configured, you might see one or more<!--note from editor: Edit okay? I assume that a script can have several types of steps?--> of the following types of steps:
+Based on the type of agent script your system administrator has configured, you might see one or more of the following types of steps:
 
 - Text instructions
 - Macro
@@ -153,7 +153,7 @@ Text instructions provides guidance for the action you must perform. A text inst
 
 ### Macro
 
-A macro is a set of instructions that tells the system how to complete a task. When a macro runs, the system performs each instruction. A macro step in the agent script shows a title, the instruction that the system performs, and the macro icon. When you select the **Run macro**<!--note from editor: Is this the tooltip? The image shows it as "Run"--> icon, the system executes the macro.
+A macro is a set of instructions that tells the system how to complete a task. When a macro runs, the system performs each instruction. A macro step in the agent script shows a title, the instruction that the system performs, and the macro icon. When you select the **Run macro** icon, the system executes the macro.
 
 **Example**
 
