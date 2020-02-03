@@ -28,9 +28,9 @@ To enable enhanced email:
 
 2. In the site map, select **Overview**.
 
-3. On the Overview page, under **Productivity tools**, select **Manage** for **Multitask, compose and save drafts using email pop-up windows**.
+3. On the **Overview** page, under **Productivity tools**, select **Manage** for **Enhanced Email**.
 
-4. On the **Enhanced email** page, change the **Multitask, compose and save drafts using email pop-up windows** switch to **Yes**.
+4. On the **Productivity tools** page, change the **Enhanced Email** switch to **Yes**.
 
 5. Select **Save**.
 

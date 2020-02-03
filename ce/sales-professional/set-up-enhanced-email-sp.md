@@ -32,11 +32,20 @@ To enable enhanced email:
 
     The **Settings** page opens in Power Platform Admin center.
 
-2. Expand the **Email** section, and select **Email Settings**. 
+2.  Expand the **Resources** section, and select **All legacy settings**. 
 
-3. On the Email settings page, change the **Multitask, compose and save drafts using email pop-up windows** switch to **Yes**.
+    > [!div class="mx-imgBorder"]
+    > ![Option to open legacy settings](../sales-enterprise/media/legacy-settings-power-platform-admin-center.png "Option to open legacy settings")
+    
+    The Business Management page opens.
 
-5. Select **Save**.
+3. On the navigation bar, select **Settings** > **Administration**.
+
+4. Select **System Settings**.
+
+5. On the **Email** tab of **System Settings** dialog box, select the **Multitask, compose, and save drafts, using email pop-up windows, when creating email from timeline** check box. 
+
+5. Select **OK**.
 
 ### See also
 
