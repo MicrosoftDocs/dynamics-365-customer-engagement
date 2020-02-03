@@ -14,7 +14,7 @@ manager: annbe
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The enhanced email experience in model-driven apps allows you to compose an email without leaving the record they’re working on. With the enhanced email experience, you can:
+The enhanced email experience in model-driven apps allows users to compose an email without leaving the record they’re working on. With the enhanced email experience, you can:
 
 - Navigate to different pages without losing the email content.
 - Minimize the email window to get back to the records you were working on.
@@ -50,7 +50,7 @@ Compose an email using the enhanced experience:
 5. When you're done, select **Send**. 
 
 > [!IMPORTANT]
-> - The enhanced email experience is available only for email activities created from the **Timeline** section of a model-driven app. 
+> - The enhanced email experience is available only for email activities created from the **Timeline** section of any model-driven app. 
 > - The enhanced email pop-up window opens only when the height and width of your screen size is at least 600 x 840 pixels or greater. If lower, you will be taken to the standard form instead of the enhanced email experience. 
 
 ### See also

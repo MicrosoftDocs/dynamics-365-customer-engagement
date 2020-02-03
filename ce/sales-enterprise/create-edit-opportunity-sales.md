@@ -1,11 +1,9 @@
 ---
 title: "Create or edit opportunities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
-ms.date: 10/01/2019
-ms.service: 
+ms.date: 02/03/2020
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -29,6 +27,9 @@ If you're following the sales process from start to finish, you *qualify* a lead
     OR
     
     To create a new opportunity, on the command bar, select **+ New**.
+
+    > [!NOTE]
+    > If your system administrator has set the Kanban view as the default, you'll see the Kanban view instead of the list view. More information: [Work with opportunities in the kanban view](opportunity-kanban-view.md) 
 
 3. In the opportunity form, make sure that your potential customer's important details are captured. If you've qualified a lead to an opportunity, most of the fields will be automatically populated from the lead record.
  
@@ -72,7 +73,7 @@ If you're following the sales process from start to finish, you *qualify* a lead
 
 8. To save your changes, on the command bar, select **Save**.
 
-9. Add products to your opportunity. [!include[proc-more-information](../includes/proc-more-information.md)] [Add products to an opportunity](add-products-opportunity.md) 
+9. Add products to your opportunity. [!include[proc-more-information](../includes/proc-more-information.md)] [Add products to an opportunity](add-products-opportunity.md), [Add products to an opportunity using the enhanced experience](add-products-enhanced-experience.md)
 
 10.	Follow the process bar to move the opportunity to the next stage. In the **Develop** stage, enter data for the following fields:
     
@@ -151,8 +152,10 @@ Need a faster way to enter opportunities? Try one of these:
 ### See also 
 
 [Add products to an opportunity](add-products-opportunity.md)  
+[Add products to an opportunity using the enhanced experience](add-products-enhanced-experience.md)  
 [Recalculate an opportunity](recalculate-opportunity.md)  
 [Close an opportunity](close-opportunity-won-lost-sales.md)  
+[Work with opportunities in the Kanban view](opportunity-kanban-view.md)  
 [Dynamics 365 Sales troubleshooting guide for sales people](troubleshooting.md)  
 [Dynamics 365 Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)   
