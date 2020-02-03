@@ -116,7 +116,7 @@ Given below is the adaptive card JSON for displaying knowledge article recommend
 ```
 The [code sample](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot) uses a Web API query to search <xref href="Microsoft.Dynamics.CRM.kbarticle?text=Knowledge Base Article entity" /> in your Dynamics 365 instance. You can modify this query to use <xref href="Microsoft.Dynamics.CRM.incident?text=Incident(case) entity" /> if you wish to search incidents.
 
-For information on how to create a knowledge article using template, see [Create a knowledge article using a template](../../../../customer-service/create-knowledge-article-using-template.md).
+For information on how to create a knowledge article using template, see [Create a knowledge article using a template](../../../customer-service/create-knowledge-article-using-template.md).
 
 ### Smart assist using similar cases
 
@@ -393,4 +393,4 @@ In the generic functionality, if the bot encounters an intent for appointment, i
 [Create a bot with Azure bot service](/azure/bot-service/abs-quickstart)<br />
 [Automate tasks with macros](../../administrator/macros.md)<br />
 [Integrate an Azure bot](../../administrator/configure-bot.md)<br />
-[Create knowledge article template](../../../../customer-service/create-templates-knowledge-article.md)
+[Create knowledge article template](../../../customer-service/create-templates-knowledge-article.md)
