@@ -4,7 +4,7 @@ description: "Learn about Omnichannel Insights dashboards for supervisors"
 author: lerobbin
 ms.author: lerobbin
 manager: autumna
-ms.date: 02/03/2020
+ms.date: 10/29/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
