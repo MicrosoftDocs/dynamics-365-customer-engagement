@@ -67,9 +67,17 @@
 ##### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
 ##### [Agent scripts](administrator/agent-scripts.md)
 ##### [Smart assist](administrator/smart-assist.md)
+##### [Productivity pane](administrator/productivity-pane.md)
 #### [Create quick replies](administrator/create-quick-replies.md)
 #### [Configure and manage custom presence](administrator/presence-custom-presence.md)
 #### [Share knowledge articles](administrator/knowledge-management-oc.md)
+#### Templates
+##### [Overview](administrator/templates-overview.md)
+##### [Manage session templates](administrator/session-templates.md)
+##### [Manage application tab templates](administrator/application-tab-templates.md)
+##### [Manage notification templates](administrator/notification-templates.md)
+##### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
+##### [Associate templates with workstreams](administrator/associate-templates.md)
 
 ### Supervisor Experience
 #### [Configure to view Intraday insights](administrator/configure-intraday-dashboard-supervisor.md)
@@ -85,15 +93,7 @@
 #### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
-#### [Enable portal navigation](administrator/portal-navigation.md)
-
-### Templates
-#### [Overview](administrator/templates-overview.md)
-#### [Manage session templates](administrator/session-templates.md)
-#### [Manage application tab templates](administrator/application-tab-templates.md)
-#### [Manage notification templates](administrator/notification-templates.md)
-#### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
-#### [Associate templates with workstreams](administrator/associate-templates.md)
+#### [Enable self service settings in conversation summary](administrator/enable-self-service-settings.md)
 
 ## Agent guide
 
@@ -107,6 +107,7 @@
 #### Productivity tools
 ##### [Agent scripts](agent/agent-oc/oc-agent-scripts.md)
 ##### [Smart assist](agent/agent-oc/oc-smart-assist.md)
+##### [Productivity pane](agent/agent-oc/oc-productivity-pane.md)
 #### [View agent dashboard and conversations (work items)](agent/agent-oc/oc-agent-dashboard.md)
 #### [Create a record](agent/agent-oc/oc-create-record.md)
 #### [Search, link, and unlink a record](agent/agent-oc/oc-search-link-unlink-record.md)
