@@ -44,6 +44,7 @@
 #### [Create and manage queues](set-up-queues-manage-activities-cases.md)
 #### [Define parent and child case settings](define-settings-parent-child-cases.md)
 #### [Automatically route cases using routing rule sets](create-rules-automatically-route-cases.md)
+#### [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)
 #### [Automatically create and update records](set-up-rules-to-automatically-create-or-update-records.md)
 #### [Automatically create a case from an email](automatically-create-case-from-email.md)
 #### [Define subjects to categorize cases](../admin/define-subjects-categorize-cases-products-articles.md)
