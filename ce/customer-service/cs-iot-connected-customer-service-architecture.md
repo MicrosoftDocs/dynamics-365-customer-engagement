@@ -27,7 +27,7 @@ For this topic, the words **data** and **telemetry** refer to information sent f
 ## Architecture
 
 > [!div class="mx-imgBorder"]
-> ![Diagram illustrating the connections between Connected Customer Service with IoTHub architecture, and how each of the elements relate to each other](../media/cs-iot-architecture.png)
+> ![Diagram illustrating the connections between Connected Customer Service with IoTHub architecture, and how each of the elements relate to each other](media/cs-iot-architecture.png)
 
 - **IoT Devices & Edge**: Internet-connected sensors on equipment send data to IoTHub typically via WiFi or cellular connectivity. A single piece of equipment can have multiple sensors, each taking different measurements such as temperature and pressure. If a building or area has a collection of equipment each with multiple sensors, then an **Edge device** can be used to organize them and broker telemetry sent to IoTHub.
 

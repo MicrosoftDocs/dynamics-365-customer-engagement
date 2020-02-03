@@ -27,18 +27,18 @@ Associate a device in Connected Customer Service with a customer account so that
 
 1. In your Connected Customer Service application, navigate to the device page you wish to associate with a customer account. You can find this under "Devices" in the left-side menu.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of "Devices" in the menu](media/cs-iot-device-page.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of "Devices" in the menu](media/cs-iot-device-page.png)
 
 2. On the Active Device page, select one of the devices without an account associated.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a list of IoT devices in Connected Customer Service](media/cs-iot-central-associate-devices.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of a list of IoT devices in Connected Customer Service](media/cs-iot-central-associate-devices.png)
 
 3. On the device detail page, start typing the name of the customer account in the "Account" field.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the account field on the device detail page in Connected Customer Service](media/cs-iot-central-device-account.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the account field on the device detail page in Connected Customer Service](media/cs-iot-central-device-account.png)
 
 4. Save the changes you've made (the Save button is in the bottom corner of your window).
 

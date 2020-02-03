@@ -28,7 +28,7 @@ To enable the first scenario, the following capabilities are supported:
 
 - Abstract device registration in an action, so that devices can be easily registered using the CRM web client or the mobile client 
 
-- Enable any CRM entity to be IOT-enabled, enabling straightforward IoT integration within existing business processes by using [Connection entities](https://docs.microsoft.com/en-us/dynamics365/developer/connection-entities) 
+- Enable any CRM entity to be IOT-enabled, enabling straightforward IoT integration within existing business processes by using [Connection entities](https://docs.microsoft.com/dynamics365/developer/connection-entities) 
 
 - Receive service alerts and automating their response with a customized workflow 
 

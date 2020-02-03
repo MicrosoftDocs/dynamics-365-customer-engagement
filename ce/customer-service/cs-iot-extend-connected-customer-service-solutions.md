@@ -27,7 +27,7 @@ The Azure services and components, including the ones detailed in [Connected Cus
   
  After the standard installation, Connected Customer Service will configure your resource group with a set of Azure services similar to the following.  
   
- ![Connected Customer Service Standard Azure Services](../media/cs-iot-standard-azure-service.png "Connected Customer Service Standard Azure Services")  
+ ![Connected Customer Service Standard Azure Services](media/cs-iot-standard-azure-service.png "Connected Customer Service Standard Azure Services")  
   
  Although extending these Azure services (or adding additional ones) is beyond the scope of this topic, there are ample resources available to the developer, including the following from Microsoft:  
   

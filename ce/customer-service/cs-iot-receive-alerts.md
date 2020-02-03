@@ -56,16 +56,16 @@ Connect Azure IoT Central to Connected Customer Service by configuring the "Crea
 
 6. You'll be taken to the Power Automate template page for "Create Connected Service alerts from IoT Central." Select **Use this template**. (If you have trouble finding these templates, head to the [Power Automate Templates page](https://flow.microsoft.com/templates/) and search for "CDS").
 
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of the Power Automate template page](media/cs-iot-use-template.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the Power Automate template page](media/cs-iot-use-template.png)
 
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of the Power Automate template page](media/cs-iot-use-template-2.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the Power Automate template page](media/cs-iot-use-template-2.png)
 
 7. You'll be prompted now to sign in to both IoT Central and Dynamics accounts. Select your accounts from each, and then select **Continue**. 
 
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of the Power Automate template page](media/cs-iot-select-accounts.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the Power Automate template page](media/cs-iot-select-accounts.png)
 
 8. Now you'll see the actual Flow. Because this is a template, the only actions you must take are:
 

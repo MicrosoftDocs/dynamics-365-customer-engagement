@@ -27,7 +27,7 @@ This guide provides all the steps required for getting up and running with Conne
   
 - An active Azure subscription with appropriate privileges. See our [topic on Azure prerequisites](cs-iot-azure-subscription-prerequisites.md) for more information.
   
-- Microsoft Power BI PRO and the sample report template. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Download the Power BI Template for Connected Customer Service](http://download.microsoft.com/download/E/B/5/EB5ED97A-A36A-4CAE-8C04-333A1E463B4F/PowerBI%20Report%20Template%20for%20Connected%20Field%20Service%20for%20Microsoft%20Dynamics%20365.pbix)  
+- Microsoft Power BI PRO and the sample report template. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Download the Power BI Template for Connected Customer Service](https://download.microsoft.com/download/E/B/5/EB5ED97A-A36A-4CAE-8C04-333A1E463B4F/PowerBI%20Report%20Template%20for%20Connected%20Field%20Service%20for%20Microsoft%20Dynamics%20365.pbix)  
   
 <a name="bkmk_install"></a>   
 
@@ -40,7 +40,7 @@ Connected Customer Service is included with Dynamics 365 Customer Service. Creat
  
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of IoT alerts in the asset menu in the sidebar](./media/cs-iot--navigation.png)
+> ![Screenshot of IoT alerts in the asset menu in the sidebar](media/cs-iot-navigation.png)
 
 Verify you have the Connected Customer Service entities in your environment.
 

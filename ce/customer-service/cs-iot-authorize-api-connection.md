@@ -40,16 +40,16 @@ From there, go to **Resource Groups** and find the resource group you recently d
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Azure resource groups](./media/cs-iot-resource-group.png)
+> ![Screenshot of Azure resource groups](media/cs-iot-resource-group.png)
 
 One such resource will be an API Connection type to Dynamics CRM. Select and edit this resource.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of API connection between dynamics and azure](./media/cs-iot-api-connection.png)
+> ![Screenshot of API connection between dynamics and azure](media/cs-iot-api-connection.png)
 
 Finally, select **Authorize**, **Save**, and use your Dynamics 365 credentials that you use to sign into your Connected Customer Service environment, which may be different than your Azure credentials to the Azure portal.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of authorizing the subscription](media/cfs-iothub-api-connection-authorize.png)
+> ![Screenshot of authorizing the subscription](media/cs-iot-hub-api-connection-authorize.png)
 
 Congratulations! You are now ready to pass data between Azure IoTHub and Dynamics 365 to use Connected Customer Service.
