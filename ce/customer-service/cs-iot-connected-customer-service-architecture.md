@@ -16,7 +16,7 @@ applies_to:
 
 # Architecture of Connected Customer Service with IoTHub
 
-[Includes[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Connected Customer Service with IoTHub brings together AzureIoT and Dynamics 365 Customer Service. In this topic, you will find an explanation of the architecture and how it all works together.
 
