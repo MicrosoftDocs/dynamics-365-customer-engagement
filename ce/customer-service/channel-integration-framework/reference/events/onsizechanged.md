@@ -1,13 +1,13 @@
 ---
-title: "onsizechanged (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
+title: "onsizechanged (JavaScript API Reference) for Microsoft Dynamics 365 Channel Integration Framework (CIF) version 1.0 | Microsoft Docs"
 description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/10/2018
+ms.date: 12/31/2019
 ms.topic: reference
 ms.service: 
-  - dynamics-365-cross-app
+  - dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -17,15 +17,7 @@ applies_to:
 
 # onsizechanged event (CIF JavaScript API reference)
 
-The `onsizechanged` event is invoked when the side panel width is changed.
-
-## eventData
-
-The `onsizechanged` event takes following eventData:
-
-| eventData | Example |
-|-----------|---------|
-| ```{"value": <number>}``` | ```{"value": 35"}``` |
+[!INCLUDE[token-onsizechanged](../../shared/token-onsizechanged.md)]
 
 ## Related topics
 
