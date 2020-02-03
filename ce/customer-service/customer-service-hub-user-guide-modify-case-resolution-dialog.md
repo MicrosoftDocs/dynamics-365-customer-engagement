@@ -124,7 +124,7 @@ You will know if a case has been successfully resolved per the status bar at the
 
 ### See also
 
-[Work with cases](customer-service-hub-user-guide-work-with-cases.md)
+[Work with cases](customer-service-hub-user-guide-create-a-case.md) 
 
 [Create a case](customer-service-hub-user-guide-create-a-case.md)
 
