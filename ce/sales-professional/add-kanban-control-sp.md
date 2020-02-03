@@ -47,7 +47,7 @@ To add the control:
 6.	In the **Add Control** dialog box, select **Kanban** and then select **Add**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Add Control dialog box](media/add-control-dialog-box.png "Add Control dialog box")
+    > ![Add Control dialog box](../sales-enterprise/media/add-control-dialog-box.png "Add Control dialog box")
 
     The Kanban control is added to the list of controls.
 
