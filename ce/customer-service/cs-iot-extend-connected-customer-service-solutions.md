@@ -16,11 +16,14 @@ applies_to:
 
 # Extend Connected Customer Service solutions
 
+> [!Note]
+> This section is pre-release documentation and is subject to change.
+
 Connected Customer Service for Dynamics 365 supports the customization of each standard component or service and the easy addition of custom Azure-based components and services. This flexible architecture is required to support the wide range of current and future IoT devices and the envisioned supporting services for these devices.  
   
 ## Extend Azure Services
 
- The Azure services and components, including the ones detailed in [Connected Customer Service architecture](cs-iot-connected-customer-service-architecture.md), are designed for reliability, scalability, and extensibility.  They support management and customization through UI-based and PowerShell administration, JSON-based template-driven deployment and initialization, and REST-based programming interfaces (often including client libraries for specific languages, such as C#/.NET, Python, Java, and Node.js).  
+The Azure services and components, including the ones detailed in [Connected Customer Service architecture](cs-iot-connected-customer-service-architecture.md), are designed for reliability, scalability, and extensibility. They support management and customization through UI-based and PowerShell administration, JSON-based template-driven deployment and initialization, and REST-based programming interfaces (often including client libraries for specific languages, such as C#/.NET, Python, Java, and Node.js).  
   
  After the standard installation, Connected Customer Service will configure your resource group with a set of Azure services similar to the following.  
   
