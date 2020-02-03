@@ -140,7 +140,7 @@ Microsoft.Crm.Application.Outlook.ConfigWizard.exe /Q /i c:\config_client.xml /x
 ```
 <Deployments>
 <Deployment>
-<DiscoveryUrl>http://crmserver</DiscoveryUrl>
+<DiscoveryUrl>https://crmserver</DiscoveryUrl>
 <Organizations>
 <Organization IsPrimary='true'>Contoso</Organization>
 <Organization>AdventureWorksCycle</Organization>
@@ -176,7 +176,7 @@ Microsoft.Crm.Application.Outlook.ConfigWizard.exe /Q /i c:\config_client.xml /x
 
    ```
    <Deployment>
-   <DiscoveryUrl>http://CrmDiscoveryUrl</DiscoveryUrl>
+   <DiscoveryUrl>https://CrmDiscoveryUrl</DiscoveryUrl>
    <Organizations>
    <Organization IsPrimary='true'>Organization1</Organization>
    </Organizations>

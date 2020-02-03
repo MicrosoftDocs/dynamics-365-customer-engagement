@@ -16,8 +16,8 @@ helpviewer_keywords:
 ms.assetid: 9430d553-f519-44d7-95aa-068d17071ed5
 caps.latest.revision: 21
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nkrb
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 

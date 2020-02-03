@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Dynamics 365 for Customer Engagement Server feature using the same account as instance of SQL Server Reporting Services | Microsoft Docs"
+title: "Microsoft Dynamics 365 Server feature using the same account as instance of SQL Server Reporting Services | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -12,7 +12,7 @@ robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# Microsoft Dynamics 365 for Customer Engagement Server feature using the same account as instance of SQL Server Reporting Services
+# Microsoft Dynamics 365 Server feature using the same account as instance of SQL Server Reporting Services
 A [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] feature is using the same account as the instance of [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] that you specified.  
   
  ## Cause 

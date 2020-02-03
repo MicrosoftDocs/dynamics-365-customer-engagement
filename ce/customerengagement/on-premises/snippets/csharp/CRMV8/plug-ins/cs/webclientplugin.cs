@@ -32,7 +32,7 @@ namespace Microsoft.Crm.Sdk.Samples
         {
             if (String.IsNullOrEmpty(config))
             {
-                webAddress = "http://www.bing.com";
+                webAddress = "https://www.bing.com";
             }
             else
             {

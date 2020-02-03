@@ -154,7 +154,7 @@ namespace Microsoft.Crm.Sdk.Samples
             #region Creating Accounts
 
             String accountName = "Contoso, Ltd";
-            String websiteUrl = "http://www.contoso.com/";
+            String websiteUrl = "https://www.contoso.com/";
 
             Console.WriteLine("  Creating duplicate records (Account name={0}, Website URL={1})", accountName, 
                 websiteUrl);
