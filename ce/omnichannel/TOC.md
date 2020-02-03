@@ -93,7 +93,7 @@
 #### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
-#### [Enable portal navigation](administrator/portal-navigation.md)
+#### [Enable self service settings in conversation summary](administrator/enable-self-service-settings.md)
 
 ## Agent guide
 

@@ -79,7 +79,7 @@ To create a new record, follow the steps:
  > [!div class=mx-imgBorder]
  > ![Quick create contact](../../media/oc-oceh-quick-create-contact.png "Quick create contact")
 
-After you save the changes, you can link the record to the conversation. To learn more, see [Search and link a record to the conversation](oc-search-link-unlink-record.md#search-for-records-using-inline-search-option)
+After you save the changes, you can link the record to the conversation. To learn more, see [Search and link a record to the conversation](oc-search-link-unlink-record.md#search-for-records-by-using-the-inline-search-option) 
 
 ## Create a new record using the new option
 
