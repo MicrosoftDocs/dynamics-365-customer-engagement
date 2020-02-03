@@ -32,7 +32,7 @@ Microsoft rolls out each monthly and biannual update on a region-by-region basis
 
 ## February 2020 update
 
-The Dynamics 365 Marketing February 2020 update includes an improved segment experience, an updated marketing email designer, plus several feature enhancements, performance upgrades, and bug fixes.
+The Dynamics 365 Marketing February 2020 update includes an improved segment experience plus several feature enhancements, performance upgrades, and bug fixes. Early access features include an updated email content designer, marketing forms for event registrations, and improved customer journeys.
 
 ### Early access features
 
