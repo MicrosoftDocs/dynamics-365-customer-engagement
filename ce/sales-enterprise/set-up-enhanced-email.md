@@ -2,10 +2,8 @@
 title: "Preview  Set up the enhanced email experience in Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Set up the enhanced email experience so sales reps can compose and send email without leaving the context of what they are working on."
 ms.date: 02/03/2020
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -28,12 +26,14 @@ To enable enhanced email:
 
 1. At the bottom of the site map, select **Change area** ![Change area](media/change-area-icon.png "Change area") and then select **App Settings**.
 
-2. Under **Productivity tools**, select **Manage** in the **Enhanced Email** row.
+2. In the site map, select **Overview**.
 
-3. On the **Productivity tools** page, change the **Enhanced email** toggle to **Yes**.
+3. On the Overview page, under **Productivity tools**, select **Manage** for **Multitask, compose and save drafts using email pop-up windows**.
 
-4. Select **Save**.
+4. On the **Enhanced email** page, change the **Multitask, compose and save drafts using email pop-up windows** switch to **Yes**.
+
+5. Select **Save**.
 
 ### See also
 
-[Compose and send email using the enhanced email experience](enhanced-email.md)
+[Send email using the enhanced email experience](enhanced-email.md)
