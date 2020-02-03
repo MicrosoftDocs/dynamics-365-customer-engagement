@@ -69,6 +69,25 @@
 ### Similar Record Suggestions
 #### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
 
+## Connected Customer Service (IoT) add-in
+### [Overview](cs-iot-overview.md)
+### Connected Customer Service for Azure IoT Central
+#### [Overview](cs-iot-azure-overview.md)
+#### Tutorials
+##### [Prerequisites](cs-iot-prerequisites.md)
+##### [Receive IoT Alerts from Azure IoT Central](cs-iot-receive-alerts.md)
+##### [Associate devices with customer accounts](cs-iot-central-associate-devices.md)
+### Connected Customer Service for Azure IoT Hub
+#### [Overview](cs-iot-create-customized-solutions.md)
+#### [Architecture](cs-iot-connected-customer-service-architecture.md)
+#### [Quickstart: Build your own IoT solution](cs-iot-build-own-solution.md)
+#### [Prerequisites for Azure subscription](cs-iot-azure-subscription-prerequisites.md)
+#### [Installation and setup](cs-iot-installation-setup.md)
+#### [Authorize API app connections](cs-iot-authorize-api-connection.md)
+#### [Visualize device readings](cs-iot-visualize-device-readings.md)
+#### [Extend standard components or add Azure services](cs-iot-extend-connected-customer-service-solutions.md)
+#### [IoT - Parent IoT Alerts workflow](cs-iot-parent-alerts-workflow.md)
+### [Security roles for Connected Customer Service](cs-iot-security-roles.md)
 
 ## Service Scheduling Guide
 ### [Understand Service Scheduling](basics-service-service-scheduling.md)
