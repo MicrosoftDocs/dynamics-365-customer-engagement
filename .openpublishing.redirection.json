@@ -17650,6 +17650,16 @@
       "source_path": "ce/portals/portal-faq.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/faq",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/supervisor/assign-conversations.md",
+      "redirect_url": "intro-intraday-insights-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/administrator/configure-ongoing-conversations-settings.md",
+      "redirect_url": "configure-intraday-dashboard-supervisor",
+      "redirect_document_id": false
     }
   ]
 }
