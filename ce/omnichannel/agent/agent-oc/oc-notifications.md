@@ -4,7 +4,7 @@ description: "Learn about notifications and their types. Agents will see notific
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 01/31/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -73,6 +73,13 @@ The details you’ll see for a SMS channel are:
 
 > [!div class="nextstepaction"]
 > [Next topic: View customer summary and know everything about customers](oc-customer-summary.md)
+
+## Incoming Facebook notification
+
+You receive a notification for a Facebook conversation request. When you accept the Facebook request, a session is started, and the communication panel appears where you can exchange messages with the customer.
+
+> [!div class=mx-imgBorder]
+> ![Facebook chat agent notification](../../media/fb-agent-notif.png "Facebook chat agent notification")
 
 ## See also
 
