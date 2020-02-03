@@ -30,82 +30,97 @@ One example of how case resolution can be used, is by resolving situations where
 
 The following steps provide walk you through how to set the resolution type for duplicate cases:
 
-<b>Step 1:</b> Click on <b>Customize the System</b><BR> 
-<b>Step 2:</b> Select <b>Case</b>
+**Step 1:** Select on **Customize the System**
 
-![customize the system](media\case_resolution_1a.png "from customize the system select case")
+**Step 2:** Select **Case**
 
-<b>Step 3:</b> Select Fields
+  > [!div class=mx-imgBorder]
+  > ![customize the system](media/case_resolution_1a.png "from customize the system select case")
 
-![Select Fields](media\case_resolution_2.png "Select Fields")
+**Step 3:** Select Fields
 
-<b>Step 4:</b> Select the field you wish to update.  For this example, we’ll select, <b>Status Reason</b> 
+  > [!div class=mx-imgBorder]
+  > ![Select Fields](media/case_resolution_2.png "Select Fields")
 
-![Select the field you wish to update](media\case_resolution_3.png "Select the field you wish to update")
+**Step 4:** Select the field you wish to update.  For this example, we’ll select, **Status Reason** 
 
-Once you select the entity, the <b>Status Reason</b> in the case window will display.
+  > [!div class=mx-imgBorder]
+  > ![Select the field you wish to update](media/case_resolution_3.png "Select the field you wish to update")
 
-<b>Step 5:</b> From the <b>Status</b> field a drop down box will appear. For this example, we’ll select <b>Resolved</b>. 
+Once you select the entity, the **Status Reason** in the case window will display.
 
-![Select Resolved](media\case_resolution_4.png "Select Resolved")
+**Step 5:** From the **Status** field a drop down box will appear. For this example, we’ll select **Resolved**. 
 
-<b>Step 6:</b> In the bottom right, click on <b>Add</b>.
+  > [!div class=mx-imgBorder]
+  > ![Select Resolved](media/case_resolution_4.png "Select Resolved")
 
-!click Add](media\case_resolution_5.png "click Add")
+**Step 6:** In the bottom right, select on **Add**.
 
-Once you click Add, the <b>Add List Value</b> window will appear. 
+  > [!div class=mx-imgBorder]
+  > ![Select Add](media/case_resolution_5.png "Select Add")
 
-<b>Step 7:</b>  In <b>Label</b> field, enter <b>Duplicate</b>. 
+Once you select Add, the **Add List Value** window will appear. 
 
-![Enter Duplicate](media\case_resolution_6.png "Enter Duplicate")
+**Step 7:**  In **Label** field, enter **Duplicate**. 
+
+  > [!div class=mx-imgBorder]
+  > ![Enter Duplicate](media/case_resolution_6.png "Enter Duplicate")
 
 You’ve successfully added a duplicate status to the status code field, now you can edit the form to add the field you just created.  
 
 ## Edit Form
 Case resolution allows you to tailor form fields to support the needs of your business.  You now can add or remove fields that don’t apply to your business model without using code.  
 
-For example, your business model does not require a <b>Billable Time</b> field because your case resolutions do not track billable hours, therefore you would like to remove that field from the form.  Also, your business process needs the ability to specify the date when a case was resolved, because your agents enter the resolution on a different date from when the case was actually resolved.
+For example, your business model does not require a **Billable Time** field because your case resolutions do not track billable hours, therefore you would like to remove that field from the form.  Also, your business process needs the ability to specify the date when a case was resolved, because your agents enter the resolution on a different date from when the case was actually resolved.
 
-The following steps will walk you through how to remove the <b>Billable Time</b> field and add a new <b>Resolution Date</b> field in the Form Editor.
+The following steps will walk you through how to remove the **Billable Time** field and add a new **Resolution Date** field in the Form Editor.
 
-<b>Step 1:</b>  Go to the <b>Case Resolution</b> entity and click on <b>Forms</b>.  
+**Step 1:**  Go to the **Case Resolution** entity and select on **Forms**.  
+  > [!div class=mx-imgBorder]
+  > ![Select on Forms](media/case_resolution_8.png "Select on Forms")
 
-![Click on Forms](media\case_resolution_8.png "Click on Forms")
+**Step 2:**  Select on the name of the form you want to edit. In this example, we’ll select the Information form.
 
-<b>Step 2:</b>  Click on the name of the form you want to edit. In this example, we’ll select the Information form.
-
-![Click on the name of the form you want to edit](media\case_resolution_9.png "Click on the name of the form you want to edit")
+  > [!div class=mx-imgBorder]
+  > ![Select on the name of the form you want to edit](media/case_resolution_9.png "Select on the name of the form you want to edit")
 
 This will open up the form in the form designer.
 
-<b>Step 3:</b> a. Click on <b>Billable Time field</b><BR>
-b. On top nav bar, click on <b>Remove</b>. <b>Billable Time</b> field will disappear.
+**Step 3:** a. Select on **Billable Time field**<BR>
+b. On top nav bar, select on **Remove**. **Billable Time** field will disappear.
 
-![Billable Time field](media\case_resolution_10.png "Billable Time field")
+  > [!div class=mx-imgBorder]
+  > ![Billable Time field](media/case_resolution_10.png "Billable Time field")
 
-<b>Step 4:</b> a. Go to <b>Field</b> section. Find field you want to add to form designer.  For this example, we’ll be adding the <b>Resolution Date</b> field.<BR>
-b. Drag field and drop into the position of your choice in the form designer. 
+**Step 4:** a. Go to **Field** section. Find field you want to add to form designer.  For this example, we’ll be adding the **Resolution Date** field.
+  
+  b. Drag field and drop into the position of your choice in the form designer. 
 
-![Go to Time field](media\case_resolution_11.png "Go to Time field")
+  ![Go to Time field](media/case_resolution_11.png "Go to Time field")
 
 You also have the ability to resize the fields so that align with others in the form:
 
-![field properties](media\case_resolution_12.png "field properties")
+  > [!div class=mx-imgBorder]
+  > ![field properties](media/case_resolution_12.png "field properties")
 
 Once you have updated the field(s) that you want you are done.
 
-<b>Step 5:</b> a. Click <b>save</b><BR>
-b. Click <b>publish</b>
+**Step 5:** a. Select **save**<BR>
 
-![save and publish](media\case_resolution_13.png "save and publish")
+  b. Select **publish**
+
+  > [!div class=mx-imgBorder]
+  > ![save and publish](media/case_resolution_13.png "save and publish")
 
 Now when you open your case, the case resolution dialog should now display the fields you’ve added:
 
-![save and publish](media\case_resolution_14.png "save and publish")
+  > [!div class=mx-imgBorder]
+  > ![save and publish](media/case_resolution_14.png "save and publish")
 
 You will know if a case has been successfully resolved per the status bar at the top of the form. 
 
-![status bar](media\case_resolution_15.png "status bar")
+  > [!div class=mx-imgBorder]
+  > ![status bar](media/case_resolution_15.png "status bar")
 
 ### See also
 
@@ -128,29 +143,3 @@ You will know if a case has been successfully resolved per the status bar at the
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
 
 [Use the Main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

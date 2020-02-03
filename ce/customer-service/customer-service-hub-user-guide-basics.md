@@ -85,9 +85,9 @@ The Customer Service Hub comes with an enhanced sitemap to enable easy navigatio
 
 ## Understand the sitemap navigation
 
-1. Select the sitemap icon ![sitemap icon](media\sitemap-icon.png) Sitemap. Select Service, and then select an entity record type.
+1. Select the sitemap icon ![sitemap icon](media/sitemap-icon.png "Sitemap"). Select Service, and then select an entity record type.
 
-  ![Navigate Records](media\v9-navigate-records.png "Navigate Records")
+  ![Navigate Records](media/v9-navigate-records.png "Navigate Records")
 
 When you select a record type from the menu, such as Accounts, Contacts, or Cases, you’ll see a list of corresponding customer records (also known as Entity grid).
 
@@ -129,16 +129,16 @@ When you're viewing a record:
 
 1. Select and expand **Open Record Set** to navigate to other records. 
 
-    ![open record set behavior in top nav](channel-integration-framework\media\Nav-fly-out-1.png "open record set in top nav") 
+    ![open record set behavior in top nav](channel-integration-framework/media/Nav-fly-out-1.png "open record set in top nav") 
 
 2. A side panel opens where you can view other records. You can directly select the records from the panel and view the details of the  record.
 
-    ![record set list](channel-integration-framework\media\Nav-fly-out-2.png "record set list") 
+    ![record set list](channel-integration-framework/media/Nav-fly-out-2.png "record set list") 
  
 > [!NOTE]
 > The option Open Record Set will not be available on devices with comparatively smaller screen sizes.
 
-More information: [Create and manage queues](https://docs.microsoft.com/en-us/dynamics365/customer-service/set-up-queues-manage-activities-cases) and [Create and manage a case](https://docs.microsoft.com/en-us/dynamics365/customer-service/user-guide-customer-service#create-and-manage-a-case).
+More information: [Create and manage queues](https://docs.microsoft.com/dynamics365/customer-service/set-up-queues-manage-activities-cases) and [Create and manage a case](https://docs.microsoft.com/dynamics365/customer-service/user-guide-customer-service#create-and-manage-a-case).
    
 ## Quickly create new records
   
@@ -399,9 +399,9 @@ To know how to add a case to a queues, see [Add a case to a queue](customer-serv
 
 ## Understand Site
 
-Now when you create a new site, you need to go to <b>advanced find</b> ![advanced find](media\advanced-find-icon.png ""), where you can add a site to any entity, for example <b>account</b>.
+Now when you create a new site, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find"), where you can add a site to any entity, for example **Account**.
 
-  ![Create New Site](channel-integration-framework\media\add-site-to-any-entity-1.png "Create New Site")
+  ![Create New Site](channel-integration-framework/media/add-site-to-any-entity-1.png "Create New Site")
  
 
 
