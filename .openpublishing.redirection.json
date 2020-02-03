@@ -17810,6 +17810,11 @@
       "source_path": "ce/customer-service/channel-integration-framework/v2/reference/microsoft-ciframework/initLogAnalytics.md",
       "redirect_url": "updateConversation",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/migrate-service-activity-entity.md",
+      "redirect_url": "introduction-migration-entity-records.md",
+      "redirect_document_id": false
     }
   ]
 }
