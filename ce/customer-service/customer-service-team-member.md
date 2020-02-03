@@ -18,16 +18,9 @@ search.app:
   - D365CE
   - D365CS
 ---
-# Preview: Customer Service Team Member app
+# Customer Service Team Member app
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../legal/dynamics-insider-agreement.md).
-
-With the entry-level Team Member license, you can now address self-service support scenarios for your employees using a Dynamics 365 Customer Service app. The emploees can create cases for their problems, such as laptop issues, HR queries, and administrative needs, and interact with agents through the commenting feature. They can also search the knowledge base for solutions pertaining to their problems.
+[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
 
 The Customer Service Team Member app is a new  module that will be available to you with the Dynamics 365 Team Member license.
 
