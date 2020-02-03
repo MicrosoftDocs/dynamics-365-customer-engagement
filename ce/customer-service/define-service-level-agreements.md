@@ -118,44 +118,59 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
 Create SLAs to define conditions and actions that are applicable when an SLA is applied to an entity.
 
-1. In **Customer Service Hub** > **Service Management**, select **Service Level Agreements (SLAs)**. The **Active Service Level Agreements** page appears.
-2. Select **New**. The **New Service Level Agreement** page appears.
-3. On the **SLA Setup** tab, in **General Information**, do the following:
+1. In **Customer Service Hub** > **Service Management**, select **SLAs**. The **All Service Level Agreements** page appears.
+2. Select **New**. The **New SLA** page appears.
+3. On the **General** tab, do the following:
    -  **Name:** Enter a name for the SLA.
-   -  **SLA KPI:** Select an SLA KPI.
+   -  **Primary Entity:** Select a value in the box.
+   -  **Description:** Enter a description for the SLA.
+4. Select **Save**. The **SLA Items** section appears on the page.
+5. Perform the following steps:
+ 
+   a. Select **New SLA Item**. The **New SLA Item** dialog box appears.
+
+   b. On the **General** tab, enter the following details.
+   -  **Name:** Enter a name.
+   -  **KPI:** Select an SLA KPI.
+   -  **Allow Pause and Resume:** (Optional.) Enable this option if you want the SLA to pause during the time the record is on hold. For each entity that's enabled for the SLA, you can set the statuses that will be considered “on hold”in the **Service Management** > **Service Configuration Settings** page.
    -  **Business Hours:** (Optional.) Select a value to assign business hours. The SLA is calculated based on the business hours and business closure that you define. To learn more, see [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
-   -  **Allow Pause and Resume:** (Optional.) Enable this option if you want the SLA to pause during the time the record is on hold. For each entity that's enabled for the SLA, you can set the statuses that will be considered “on hold” in the **Service Management** > **Service Configuration Settings** page.
-   -  **Description:** (Optional.) Provide a description for the SLA.
-4. In the **Applicable When** section, define the conditions for the entity when the SLA can be applied:
-5. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
-6. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
-7. Select **Save**.
-8. Select **Configure Actions**. The Power Automate application opens on a new tab where you can configure the actions and reminders for agents to keep track of their SLAs.
-9. Do the following to configure actions in Power Automate:
+  
+   c. In the **Applicable When** section, define the conditions for the entity when the SLA can be applied:
+   - In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
+   - In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
+   
+   d. Select **Save**. A message appears on the top stating that warning and failure actions are not set.
+
+   e. Select **Configure Actions**. The Power Automate application opens on a new tab where you can configure the actions and reminders for agents to keep track of their SLAs.
+   
+   f.  Do the following to configure actions in Power Automate:
     
-    a. Select **Edit** > **Continue**. The predefined flow opens that is specific to the SLA.
-       ![SLA flow in Power Automate](../customer-service/media/sla-default-flow.png "SLA FLow in Power Automate")
+    i. Select **Continue**. The predefined flow that is specific to the SLA appears.
+       
 
       > [!NOTE] 
       > We recommend that you do not edit the predefined flow that may cause breaks in the flow and the SLA may not work as defined.
     
-     b. Select Switch, and add actions for the following condition steps as required:
+    ii. Select **Switch**. The following condition steps are displayed:
 
-      - **IsNearing Non-Compliance:** Will run when warning time is reached for the SLA.
+      - **Is Nearing Non-Compliance:** Will run when warning time is reached for the SLA.
       - **Is Succeeded:** Will run when SLA succeeds.
-      - Is Non-Compliant: Will run when SLA fails.
+      - **Is Non-Compliant:** Will run when SLA fails.
+      ![SLA flow in Power Automate](../customer-service/media/sla-default-flow.png "SLA FLow in Power Automate")
+    
+    iii. Select **[Do not delete or update] Is Nearing Non Compliance** > **Add an action**. The **Choose an action** area appears in which you can configure the action that must be performed when warning time has reached for the SLA.
 
-      c. Select **[Do not delete or update] Is Nearing Non Compliance** > **Add an action**. THe **Choose an action** area appears.
+    iv. Search for an action to add or go to the existing entities, such as **Mail**.
+    
+    v. Select **Send an email notification**. Update the options to define the mail template.
 
-      d. Search for an action to add or go to the existing entities, such as mail. The **Send an email notification** appears.
-      e. Select **Send an email notification**. Configure to 
-      For example, you can configure an action for IsNearing Non-Compliance that will run when warning time has reached for the SLA.
+    vi. Configure the actions for "Is Succeeded" and Is "Non-compliant" as required.
 
-    b. Write down the steps for sending an email as an action for one of the conditions
+   g. Save and exit Power Automate.
 
-    c. Save and exit Power Automate.
-
-10. Select **Activate**. The SLA is activated.
+6. Select **Save & Close** on the SLA item dialog box.
+7. Define as many SLA items as required.
+8. Select **Activate**. The SLA is activated.
 
 
 ## Create a standard SLA (Customer Service app)
