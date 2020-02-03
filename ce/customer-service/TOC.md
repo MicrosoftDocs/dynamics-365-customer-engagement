@@ -1,6 +1,7 @@
 # [Dynamics 365 Customer Service](help-hub.md)
 ## [Overview](overview.md)
 ## [What's new](whats-new-customer-service.md)
+## [Availability of Customer Service Hub](availability-customer-service-hub.md)
 ## [Learning Catalog](learning-catalog.md)
 ### [Business Decision Maker](learning-bdm.md)
 ### [Business User](learning-bus-user.md)
@@ -21,7 +22,7 @@
 #### [Use Customer Service Hub on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)
 #### [Upgrade to Customer Service Hub](upgrade-ish-csh.md)
 #### [Keyboard navigation support](keyboard-navigation-support-customer-service-hub.md)
-
+### [Customer Service Team Member](customer-service-team-member.md)
 ### Customer Service app
 #### [Introduction to Customer Service app](user-guide-customer-service.md)
 #### [Create and manage a case](user-guide-customer-service.md#create-and-manage-a-case)
