@@ -44,3 +44,8 @@ If you have a form open when you expand the communication widget, you will obser
 You will not observe flickering if the form has just one row and if all cells in the row are filled. Also, you will not observe this if there are 4 columns and 4 rows with non-empty cells. Flickering of forms is observed when there are 2 or more rows, with or without empty cells.
 
 The resolution for this is to adjust the screen size.
+
+## See also
+
+[What's new in Dynamics 365 Channel Integration Framework](../whats-new-channel-integration-framework.md)<br />
+[Frequently asked questions](../faq-channel-integration-framework.md)

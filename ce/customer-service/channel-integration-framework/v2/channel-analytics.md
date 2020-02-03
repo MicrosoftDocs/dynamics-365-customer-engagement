@@ -4,7 +4,7 @@ description: "Read about the APIs that enable you to log analytics in Dynamics 3
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 02/03/2020
 ms.topic: reference
 ms.service:
   - dynamics-365-customerservice
@@ -158,4 +158,7 @@ More information: [msdyn_kpieventdata](reference/entities-attributes/msdyn_kpiev
 
 ## See also
 
-[What's new in Dynamics 365 Channel Integration Framework](../whats-new-channel-integration-framework.md)
+[What's new in Dynamics 365 Channel Integration Framework](../whats-new-channel-integration-framework.md)<br />
+[Frequently asked questions](../faq-channel-integration-framework.md)<br />
+[updateConversation API](reference/microsoft-ciframework/updateConversation.md)<br />
+[logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md)
