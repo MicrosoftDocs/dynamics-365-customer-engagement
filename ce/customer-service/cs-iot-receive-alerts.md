@@ -28,49 +28,44 @@ Connect Azure IoT Central to Connected Customer Service by configuring the "Crea
 
 1. Log into your Azure IoT Central application and navigate to **Devices.**
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of devices navigation in IoT Central](media/cs-iot-devices.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of devices navigation in IoT Central](media/cs-iot-devices.png)
 
 2. From the list of devices, select "MXChip001".
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the device list in IoT Central](media/cs-iot-device-list.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the device list in IoT Central](media/cs-iot-device-list.png)
 
-3. Once on the MXChip001 detail page, navigate to the **Measurement* tab, seen below in the screenshot.
+3. Once on the MXChip001 detail page, navigate to the **Rules** tab, and create the rule "Temperature level." For more information on creating a rule, learn more in [this IoT Central tutorial](https://docs.microsoft.com/azure/iot-central/tutorial-configure-rules).
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the rules tab in IoT Central](media/cs-iot-rules.png)
+
+4. Then, under **Conditions**, select **+** to set up the alert trigger threshold. 
     
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the service details on an IoT Central device](media/cs-iot-device-mxchip001.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the conditions option in IoT Central](media/cs-iot-conditions.png)
 
-4. Next, while still on this detail page, head over to the **Rules** tab, and create the rule "Temperature level." For more information on creating a rule, learn more in [this IoT Central tutorial](https://docs.microsoft.com/azure/iot-central/tutorial-configure-rules).
+5. Then, under **Actions**, click **+**, and then choose **Microsoft Flow**. This is where you will set up your integrations.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the rules tab in IoT Central](media/cs-iot-rules.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the Actions option in IoT Central](media/cs-iot-actions.png)
 
-5. Then, under **Conditions**, select **+** to set up the alert trigger threshold. 
-    
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the conditions option in IoT Central](media/cs-iot-conditions.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the Microsoft Flow option in IoT Central](media/cs-iot-microsoft-flow.png)
 
-6. Then, under **Actions**, click **+**, and then choose **Microsoft Flow**. This is where you will set up your integrations.
+6. You'll be taken to the Power Automate template page for "Create Connected Service alerts from IoT Central." Select **Use this template**. (If you have trouble finding these templates, head to the [Power Automate Templates page](https://flow.microsoft.com/templates/) and search for "CDS").
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Actions option in IoT Central](media/cs-iot-actions.png)
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of the Power Automate template page](media/cs-iot-use-template.png)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Microsoft Flow option in IoT Central](media/cs-iot-microsoft-flow.png)
-
-7. You'll be taken to the Power Automate template page for "Create Connected Service alerts from IoT Central." Select **Use this template**. (If you have trouble finding these templates, head to the [Power Automate Templates page](https://flow.microsoft.com/templates/) and search for "CDS").
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Automate template page](media/iot-use-template.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Automate template page](media/iot-use-template-2.png)
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of the Power Automate template page](media/cs-iot-use-template-2.png)
 
 7. You'll be prompted now to sign in to both IoT Central and Dynamics accounts. Select your accounts from each, and then select **Continue**. 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Automate template page](media/cs-iot-select-accounts.png)
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of the Power Automate template page](media/cs-iot-select-accounts.png)
 
 8. Now you'll see the actual Flow. Because this is a template, the only actions you must take are:
 
@@ -88,11 +83,11 @@ Connect Azure IoT Central to Connected Customer Service by configuring the "Crea
 
     g. Save the Flow.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Flow fields for IoT Central and Dynamics 365](media/cs-iot-central-alerts-1.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the Flow fields for IoT Central and Dynamics 365](media/cs-iot-central-alerts-1.png)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the advanced fields, highlighting Alert Type Label](media/cs-iot-central-alerts-2.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the advanced fields, highlighting Alert Type Label](media/cs-iot-central-alerts-2.png)
 
 From here, the workflow will trigger based on the alert type.
 
