@@ -39,7 +39,7 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
 - Time and Expense
 
-     - Fixed: Search functionality on the expense **Approval** page does not work when searching by expense purpose.
+     - Fixed: Search functionality on the expense approval page does not work when searching by expense purpose.
 
 - Resource Management
 
