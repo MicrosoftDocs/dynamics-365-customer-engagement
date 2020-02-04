@@ -104,7 +104,7 @@ After you've enabled the productivity pane, users can see the smart-assist cards
 > [!Note]
 > - If you don't create smart-assist cards and enable the productivity pane, users won't see the pane in Omnichannel for Customer Service. 
 >
-> - We recommend that you remove the smart-assist control if you've customized a form to add smart-assist. If you don't remove the smart-assist control, agents will see the smart-assist control in the form and also in the productivity pane.
+> - We recommend that you remove the smart-assist control if you've customized a form to add smart-assist. If you don't remove the smart-assist control, agents won't be able to see the smart-assist control in the form and also in the productivity pane.
 
 ### See also
 
