@@ -47,6 +47,9 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
 - **Improved customer journey experience**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-customer-journey-experience)
 
+> [!Note]
+> Check back soon for updated documentation for each new early access feature!
+
 ### General availability enhancements
 
 - **Customer journeys**
