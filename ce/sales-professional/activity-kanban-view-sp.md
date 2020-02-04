@@ -57,9 +57,9 @@ Here are some important things to know about your Kanban view:
 
 -  You can drag a card and move it to other lanes. When you drag a card from one lane to another, the activity status changes:
 
-    - The cards for the out-of-the-box activity types can be moved from Open to Completed and Canceled lanes. Once the card is moved to the Completed or Canceled lane, the card becomes inactive (and the activity status changes to closed). You can't change fields on an inactive card.
+    - The cards for the out-of-the-box activity types can be moved from Open to Completed and Canceled lanes. Once the card is moved to the Completed or Canceled lane, the activity status changes to closed, the activity card becomes inactive, and a lock is shown on the card. You can't change the fields on an inactive or locked card.
 
-    - Only the Campaign response cards can be moved back from Completed or Canceled lanes to the Open lane.
+    - You can't reopen an inactive activity other than the Campaign Response activity. An inactive/locked card of Campaign Response activity can be moved back from Completed or Canceled lanes to the Open lane.
 
     - There's no restrictions on the movement of custom activity cards—they can be moved from any lane to any lane.
  
