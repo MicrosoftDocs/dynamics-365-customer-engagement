@@ -32,7 +32,7 @@ search.app:
 
 You can now export all customer journey interactions into a .CSV file for further analysis or reporting. You can easily export interactions from the same category (e.g., Delivered emails) with just a click of a button.
 
-  ![Delivered email interactions](media/export-journey-interactions.png "Delivered email interactions")
+  ![Delivered email interactions](media/export-journey-interactions.PNG "Delivered email interactions")
 
 ## Export a .CSV file
 
