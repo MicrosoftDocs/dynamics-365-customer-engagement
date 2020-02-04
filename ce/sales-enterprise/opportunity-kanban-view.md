@@ -98,7 +98,7 @@ Here are some important things to know about your Kanban view:
 
     - You can drag an opportunity card from the Open pane to the Won or Close lanes. 
     
-    - When you move the card to the Won or Lost lanes, the opportunity record is closed. A lock is shown on the card, which means that the card (opportunity record) is inactive—you can't edit the fields on the card.
+    - When you move the card to the Won or Lost lanes, the opportunity record is closed. A lock icon is shown on the card, which means that the card (opportunity record) is inactive—you can't edit the fields on the card.
     
     - You can still reopen a closed opportunity (a locked card) by moving the card from the Won or Lost lanes to the Open lane. 
     
