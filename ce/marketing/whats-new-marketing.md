@@ -38,6 +38,7 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
 
 - **Export data to Excel for further analysis**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/export-data-excel-further-analysis)
+    - [Docs](https://docs.microsoft.com/dynamics365/marketing/export-journey)
 - **Improved email content designer**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-email-content-designer)
 - **Improved event management experience**
