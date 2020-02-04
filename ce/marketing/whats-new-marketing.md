@@ -41,10 +41,13 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
     - [Docs](https://docs.microsoft.com/dynamics365/marketing/export-journey)
 - **Improved email content designer**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-email-content-designer)
+    - [Docs](https://docs.microsoft.com/dynamics365/marketing/email-design-update)
 - **Improved event management experience**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-event-management-experience)
+    - [Docs](https://docs.microsoft.com/dynamics365/marketing/event-forms)
 - **Improved segment design and management**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-segment-design-management)
+    - [Docs](https://docs.microsoft.com/dynamics365/marketing/segments-update)
 - **Improved customer journey experience**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-customer-journey-experience)
     - [Docs](https://docs.microsoft.com/dynamics365/marketing/email-expire)
