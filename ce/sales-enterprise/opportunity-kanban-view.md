@@ -114,6 +114,8 @@ Here are some important things to know about your Kanban view:
     - You can move the card from the current lane to the consecutive next or previous lane. Swim lanes where the card can't be dropped appear dimmed.
 
     - When you're dragging a card to move to another lane, the lanes where the card can't be dropped appear dimmed.
+    
+    - For all closed opportunities a lock icon is shown. The lock icon means that you can't change the information on the card inline, but you can still move the cards from one lane to another.
 
 
 ### See also
