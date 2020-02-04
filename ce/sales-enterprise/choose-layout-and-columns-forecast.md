@@ -35,7 +35,7 @@ To start the layout configuration, select an option set and then add the roll-up
 
 1.	In the **Layout and column** section, select **+ Add from option set**. A list of option sets appears.
 
-2.	Choose an option set, and then select **Choose selected**. The list shows only the option sets defined on the opportunity entity. Each option set value you select is added as a column for you to configure.<!--note from editor: Edit okay? I was a bit confused. -->
+2.	Choose an option set, and then select **Choose selected**. The list shows only the option sets defined on the opportunity entity. Each option set value you select is added as a column for you to configure.
 
     > [!TIP]
     > We recommend you use the out-of-the-box **Forecast category** option set for column configuration. After choosing this option, select **Auto-configure** in the dialog box that asks if you want to auto-populate the configuration parameters. This saves time by automatically populating columns according to best practices.

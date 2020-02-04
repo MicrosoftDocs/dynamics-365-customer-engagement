@@ -13,7 +13,7 @@ manager: shujoshi
 ---
 
 # Project accurate revenue with sales forecasting
-<!--note from editor: Along with create-forecast-definition.md, this doesn't seem to belong in the current docset. Please let me know how it fits into the set of files you need edited, and whether I should get back to it?-->
+
 A forecast helps your organization predict how much revenue your sales team will generate in a given timeframe. When done correctly, it can play a significant role in your company's success. Using a forecast:
 
 - Sellers can track performance against their targets and identify pipeline risks that could jeopardize the ability to hit the targets.
