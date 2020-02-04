@@ -142,10 +142,10 @@ If you want to add custom status values, they need to be added in two places:
 
 To edit the entities use the following steps:
 
-<b>Step 1:</b> Got to Settings
+<b>Step 1:</b> Go to <b>Settings</b>
     ![Status Values - Select Settings](media\status-values-step-1.PNG)
 
-<b>Step 2:</b> Click on <b>All Legacy settings</b>
+<b>Step 2:</b> Click on <b>All legacy settings</b>
     ![Status Values - Select All Legacy settings](media\status-values-step-2.PNG)
 
 <b>Step 3:</b> Click on <b>Customize the System</b>
