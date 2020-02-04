@@ -50,7 +50,9 @@ After you've enabled the productivity pane, users can see the agent scripts and 
 > [!Note]
 > - If you don't create agent scripts or smart-assist cards and you enable the productivity pane, users won't see the pane in Omnichannel for Customer Service. 
 >
-> - We recommend that you remove the agent script control or smart-assist control if you've customized a form to add agent script or smart-assist. If you don't remove the agent script control or smart-assist control, agents will see the agent script control or smart-assist control in the form, and also in the productivity pane.
+> - We recommend that you remove the agent script control if you've customized a form to add agent script. If you don't remove the agent script control, agents will see the agent script control in the form, and also in the productivity pane.
+>
+> - We recommend that you remove the smart-assist control if you've customized a form to smart-assist. If you don't remove the smart-assist control, agents won't be able to see the smart-assist control in the form, and also in the productivity pane.
 
 ### See also
 
