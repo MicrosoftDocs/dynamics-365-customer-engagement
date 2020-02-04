@@ -116,10 +116,10 @@ Although a proxy server can act as a cache server and can help load a webpage fa
 Frequently, people avoid manual proxy configuration and use automatic proxy configuration. 
 This shortcut helps in load balancing the proxy servers, but depending on the complexity of the configuration script, a significant delay can be experienced when you use automatic proxy configuration.  
 
-When the Dynamics 365 Customer Engagement (on-premises) server is installed, you can bypass the proxy server to achieve better throughput. 
+When the Dynamics 365 Server is installed, you can bypass the proxy server to achieve better throughput. 
 
 The server offers a local web address that requires no proxy to be reached. You can select **Bypass proxy server for local addresses** and provide the fully qualified domain name of the 
-Dynamics 365 Customer Engagement (on-premises) server in the exceptions list. This gives better throughput when records are created by using the SDK assemblies.  
+Dynamics 365 Server in the exceptions list. This gives better throughput when records are created by using the SDK assemblies.  
 
 <a name="caching"></a>
 

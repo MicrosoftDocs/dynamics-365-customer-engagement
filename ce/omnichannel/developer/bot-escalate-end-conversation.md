@@ -122,7 +122,7 @@ namespace EchoBot.OmniChannel
         /// </summary>
         /// <param name="activity">Bot's reply activity</param>
         /// <param name="contextVars">Omnichannel for Customer Service Workstream context variable value pairs</param>
-        public static void AddEscalationContext(IActivity activity, Dictionary<string, object> con-textVars)
+        public static void AddEscalationContext(IActivity activity, Dictionary<string, object> contextVars)
         {
             Command command = new Command
             {
@@ -206,7 +206,7 @@ namespace Microsoft.Bot.Builder.EchoBot
         /// <param name="turnContext">Turn Context object</param>
         /// <param name="cancellationToken">CancellationToken</param>
         /// <returns></returns>
-        protected override async Task OnMessageActivityAsync(ITurnContext<IMessageActivity> turnCon-text, CancellationToken cancellationToken)
+        protected override async Task OnMessageActivityAsync(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
         {
             if (turnContext.Activity.Type == ActivityTypes.Message)
             {

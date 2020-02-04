@@ -1,6 +1,6 @@
 ---
 title: "Run data import (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "Data importation runs directly on the Dynamics 365 Customer Engagement server, and requires three asynchronous jobs for parsing, map-guided transformation, and uploading."
+description: "Data importation runs directly on the Dynamics 365 Server, and requires three asynchronous jobs for parsing, map-guided transformation, and uploading."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 

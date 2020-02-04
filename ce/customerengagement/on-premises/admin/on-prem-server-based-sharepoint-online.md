@@ -71,7 +71,7 @@ The following software features are required to run the Windows PowerShell cmdle
 
 #### Set up server-based authentication
 
-1.  On the Customer Engagement (on-premises) Server where the deployment tools server role is running, start the Azure Active Directory Module for Windows PowerShell.
+1.  On the Dynamics 365 Server where the deployment tools server role is running, start the Azure Active Directory Module for Windows PowerShell.
     
 
     > [!IMPORTANT]

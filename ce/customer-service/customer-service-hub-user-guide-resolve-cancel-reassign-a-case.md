@@ -91,7 +91,8 @@ The Customer Service Hub provides you with the ability to resolve, cancel, and r
 
 Located on the right side of the form, is the case resolution sub-grid. Here you will find the case resolution history.  Should a case need to be reopened, agents have the ability to view case history here.
 
-![status bar](media\case_resolution_16.png "status bar")
+  > [!div class=mx-imgBorder]
+  > ![status bar](media/case_resolution_16.png "status bar")
 
 
 ### See also
