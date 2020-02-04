@@ -107,6 +107,35 @@ You will know if a case has been successfully resolved per the status bar at the
 
 ![status bar](media\case_resolution_15.png "status bar")
 
+## Permissions
+
+[!NOTE] Permissions need to be set per the example below, otherwise you will not see the modified case resolution dialog. Instead, you will see the box case resolution experience.
+
+![Security Role: Customer Service Representative](media\csr-setting-case-resolution.png)
+
+![Security Roles: Customer Service Representative (CSR) Manager](media\csr-manager-setting-case-resolution.png)
+
+[!IMPORTANT] If you have created your own security roles, you'll need to update your roles before you can use the modified case resolution dialog.
+
+## Status Values 
+
+If you want to add custom status values, they need to be added in two places:
+1. Incident entity - status code.
+2. Incident resolution entity - resolution type code.
+
+To edit the entities use the following steps:
+
+<b>Step 1:</b> Got to Settings
+    ![Status Values - Select Settings](media\status-values-step-1.PNG)
+
+<b>Step 2:</b> Click on <b>All Legacy settings</b>
+    ![Status Values - Select All Legacy settings](media\status-values-step-2.PNG)
+
+<b>Step 3:</b> Click on <b>Customize the System</b>
+    ![Status Values - Customize the system](media\status-values-step-3.PNG)
+
+ 
+
 ### See also
 
 [Work with cases](customer-service-hub-user-guide-work-with-cases.md)
