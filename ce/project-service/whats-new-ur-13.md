@@ -39,7 +39,7 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
 - Time and Expense
 
-     - Fixed: Search functionality on the expense approval page does not work when searching by expense purpose.
+     - Fixed: Search functionality on the **Expense approval** page does not work when searching by expense purpose.
 
 - Resource Management
 
@@ -48,11 +48,11 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
 - Project Management
 
-     - Fixed: Null reference exception when assigning team member when the **TransactionType** is missing setup for **Unit** and **DefaultGroup**.
+     - Fixed: Null reference exception when assigning team member when the **TransactionType** is missing setup information for **Unit** and **DefaultGroup**.
 
 - Sales
 
-     - Fixed: Duplicate Transaction Type records leads to non-graceful failure when Role Price records are created.
-     - Fixed: Extra buttons, **New Opportunity**, **Quote**, **Order Line**, and **Add Product** are visible in more commands for Opportunities, Quotes, Order Products, and the project-based Lines sub-grid.
+     - Fixed: Duplicate transaction type records return an error when role price records are created.
+     - Fixed: Extra buttons for **New Opportunity**, **Quote**, **Order Line**, and **Add Product** are visible in commands for Opportunities, Quotes, Order Products, and the project-based Lines sub-grid.
 
 
