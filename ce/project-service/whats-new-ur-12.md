@@ -7,7 +7,7 @@ author: ruhercul
 manager: kfend
 ms.service: dynamics-365-projectservice
 ms.custom: dyn365-projectservice
-ms.date: 01/30/2020
+ms.date: 02/04/2020
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
@@ -35,53 +35,30 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
 ### Bug fixes
 
--   Time and Expense
+- Time and Expense
 
-        -   Fixed: Time entry error messaging has been updated with more
-            relevant context.
+    - Fixed: Time entry error messaging has been updated with more relevant context.
+    - Fixed: Time entry grid and schedule correctly displays the vertical scrollbar when required.
+    - Fixed: Submitted expense and time entries can be approved.
+    - Fixed: Cancel approval confirmation dialog message has been corrected to reflect the status of the approval when changed from **Approved** to **Submitted**.
+    - Fixed: **Price**, **Unit**, and **Quantity** fields are now locked on the Expense record after it is has been approved.
 
-        -   Fixed: Time entry grid and schedule correctly displays vertical
-            scrollbar when required.
+- Project Management
 
-        -   Fixed: Submitted expense and time entries can be approved.
+    - Fixed: **New** action on **Team member** main form has been removed.
+    - Fixed: Resource assignments have been updated to account for inaccurate rounding errors which lead to shifts in a task’s end date.
+    - Fixed: In the task grid, relevant server-side errors will be surfaced to the user.
+    - Fixed: The team member’s name now renders in the task people picker instead of the position name.
 
-        -   Fixed: Cancel approval confirmation dialog message has been
-            corrected to reflect the status of the approval when changed from
-            “Approved” to “Submitted”.
+- Resource Management
 
-        -   Fixed: Price, unit, and quantity fields are now locked on the
-            Expense record after it is has been approved.
+    - Fixed: Resource requirement details for projects created from a template now respect the project calendar.
+    - Fixed: Skills and competencies are now defaulted from a role master data on to the resource requirement created for that role.
 
-    -   Project Management
+- Sales
 
-      -   Fixed: "New" action on team member main form has been removed.
-
-      -   Fixed: Resource assignments have been updated to account for
-          inaccurate rounding errors which lead to shifts in a task’s end
-          date.
-
-      -   Fixed: In the task grid, relevant server-side errors will be
-          surfaced to the user.
-
-      -   Fixed: The Team Member’s name now renders in the task people picker
-          instead of the position name.
-
-    -   Resource Management
-
-      -   Fixed: Resource requirement details for projects created from a
-          template now respect the project calendar.
-
-      -   Fixed: Skills and competencies are now defaulted from a role master
-          data on to the resource requirement created for that role.
-
-    -   Sales
-
-      -   Fixed: Duplicate object IDs found in the contract main form.
-
-      -   Fixed: Logic has been fine tuned to make the Quote Analysis tab
-          visible so that it honors the metadata setup of the tab.
-
-      -   Fixed: Accounting date on the actual record now comes from the date
-          of the time/expense entry date and not the date of the approval.
+    - Fixed: Duplicate object IDs found in the contract main form.
+    - Fixed: Logic has been fine tuned to make the **Quote Analysis** tab visible so that it honors the metadata setup of the tab.
+    - Fixed: Accounting date on the actual record now comes from the date of the time/expense entry date and not the date of the approval.
 
 
