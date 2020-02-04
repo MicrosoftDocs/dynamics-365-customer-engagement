@@ -32,7 +32,7 @@ search.app:
 
 You can now export all customer journey interactions into a .CSV file for further analysis or reporting. You can easily export interactions from the same category (e.g., Delivered emails) with just a click of a button.
 
-    ![Journey expiration date and time above tile](media/journey-email-expire.png "Journey expiration date and time above tile")
+    ![Journey email-tile expiration date and time](media/journey-email-expire.png "Journey email-tile expiration date and time")
 
 ## Export a .CSV file
 
