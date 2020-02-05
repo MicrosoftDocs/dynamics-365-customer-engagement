@@ -4,7 +4,7 @@ description: Know how to define service level agreements in Dynamics 365 Custome
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/01/2018
+ms.date: 02/03/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -68,9 +68,133 @@ Define the level of service or support that your organization agrees to offer to
   > [!NOTE]
   >  SLA can also be enabled for custom entities and custom activities.  
 
-  For more information, see         [Enable entities for service level agreements](../customer-service/enable-entities-service-level-agreements.md).  
+  For more information, see [Enable entities for service level agreements](../customer-service/enable-entities-service-level-agreements.md).  
 
-## Create a standard SLA  
+## Configure SLAs in Customer Service Hub
+
+[!INCLUDE[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
+
+To configure SLAs in Customer Service Hub, perform the following steps:
+-	Review prerequisites. To learn more, see Prerequisites.
+-	Create SLA KPIs. To learn more, see Create SLA KPIs.
+-	Create SLAs. To learn more, see Create SLAs.
+-	Learn how the created SLA is applied to entity records. To learn more, see [How is the SLA is applied](define-service-level-agreements.md#how-is-the-sla-applied)
+
+## Prerequisites
+
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Review the following requirements before configuring SLAs for your organization:
+
+- System Administrator, System Customizer, or Service Level Agreement Manager role is assigned to you.
+
+- Identify target entities and add customizations. To add customizations in target entities to track SLAs, follow these steps:
+
+  a. Create lookup fields in entities for which the SLA is configured. Lookup fields are created in the web application so that you can view the service level agreement in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](/on-premises/customize/create-edit-fields#create-and-edit-fields).
+  
+    For example, to track an SLA on case for first response KPI in the timer, you must create a new field as *FirstResponseByKPI* on the Case entity and provide the respective Target Record Type as Service Level Agreement Instances and Data Type as *Lookup*.
+
+  b. Configure the timer control on the case form to track time against an SLA.
+  
+    Add a timer control to an entity form to help users gauge the amount of time they have to complete a task—typically as specified in a service level agreement. The timer control initially displays a countdown timer to show the time remaining to complete the task. To learn more, see [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md).
+
+
+## Create SLA KPIs in Customer Service Hub
+
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+SLA KPIs are performance indicators, such as First Response or Resolve by, that you’d like to track. 
+
+1. Sign in to Dynamics 365 for Customer Service, and open the **Customer Service Hub** app.
+2. Select **Change area** > **Service Management** > **SLA KPIs**. A list of active SLA KPIs is displayed.
+3. Select New. The **New SLA KPI** page appears.
+4. Enter the following details on the **General** tab:
+  - **Name:** Name of the SLA KPI.
+  - **Entity Name:** Select the entity for which the KPI must be measured.
+  - **Applicable From:** Specify from when the warning time and failure time of an SLA should be calculated. For example, if you choose Created On, the warning and failure time for an SLA is calculated from the date and time when the entity was created.
+  - **KPI Field:** (Optional.) Select the respective KPI field. For example, if you are creating an SLA KPI to define the time within which a first response should be sent to the customer, then select **FirstResponseByKPI** in the list.
+    > [!NOTE]
+    > You must configure this field to see the SLA timer in the case during runtime. If this field is not configured, the timer will not appear, but the SLA will still be calculated. In that case, you can see the status of the SLA in Understand service level agreement instances grid in case form. If this field is configured later, when the system customizer updates the lookup fields in the case entity, then the timer will appear for the cases created after this customization.
+
+  - **Description:** (Optional.) Description for the SLA KPI. 
+
+5. Select **Save**, and then select **Activate**. The SLA KPI is saved and activated.
+
+## Create an SLA in Customer Service Hub
+
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Create SLAs to define conditions and actions that are applicable when an SLA is applied to an entity. The following steps are involved in creating the SLA:
+
+1. Create an SLA
+2. Create an SLA item
+3. Configure actions for the SLA item
+4. Activate the SLA
+
+### Create an SLA
+
+1. In **Customer Service Hub** > **Service Management**, select **SLAs**. The **All Service Level Agreements from unified interface** page appears.
+2. Select **New**. The **New SLA** page appears.
+3. On the **General** tab, do the following:
+   -  **Name:** Enter a name for the SLA.
+   -  **Primary Entity:** Select a value in the box.
+   -  **Description:** Enter a description for the SLA.
+4. Select **Save**. The **SLA Items** section appears on the page, and the SLA is saved.
+
+### Create an SLA item
+
+1. On the **All Service Level Agreements from unified interface** page, select the SLA for which you want to add an SLA item.
+ 
+2. On the page that appears, select **New SLA Item**. The **New SLA Item** dialog box appears.
+
+3. On the **General** tab, enter the following details.
+   -  **Name:** Enter a name.
+   -  **KPI:** Select an SLA KPI.
+   -  **Allow Pause and Resume:** (Optional.) Enable this option if you want the SLA to pause during the time the record is on hold. For each entity that's enabled for the SLA, you can set the statuses that will be considered “on hold”in the **Service Management** > **Service Configuration Settings** page.
+   -  **Business Hours:** (Optional.) Select a value to assign business hours. The SLA is calculated based on the business hours and business closure that you define. To learn more, see [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
+  
+4. In the **Applicable When** section, define the conditions for the entity when the SLA can be applied:
+   - In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
+   - In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
+   
+5. Select **Save**. A message appears on the top stating that warning and failure actions are not set.
+
+### Configure actions for the SLA item
+
+1. On the SLA page, select the SLA item, and then select **Edit SLA Item**. The SLA item page appears.
+2. In the **Actions** area, select **Configure Actions**. The Power Automate application opens on a new tab where you can configure the actions and reminders for agents to keep track of their SLAs.
+   
+3. Perform the following steps in Power Automate:
+    
+    a. Select **Continue**. The predefined flow that is specific to the SLA appears.
+       
+
+      > [!NOTE] 
+      > We recommend that you do not edit the predefined flow that may cause breaks in the flow and the SLA may not work as defined.
+    
+    b. Select **Switch**. The following condition steps are displayed:
+
+      - **Is Nearing Non-Compliance:** Will run when warning time is reached for the SLA.
+      - **Is Succeeded:** Will run when SLA succeeds.
+      - **Is Non-Compliant:** Will run when SLA fails.
+      ![SLA flow in Power Automate](../customer-service/media/sla-default-flow.png "SLA FLow in Power Automate")
+    
+    c. Select **[Do not delete or update] Is Nearing Non-Compliance** > **Add an action**. The **Choose an action** area appears in which you can configure the action that must be performed when warning time has reached for the SLA.
+
+    d. Search for an action to add or go to the existing entities, such as **Mail**.
+    
+    e. Select **Send an email notification**. Update the options to define the information in the mail.
+
+    f. Configure the actions for "Is Succeeded" and "Is Non-compliant" as required.
+
+    g. Save and exit Power Automate.
+
+3. Select **Save & Close** on the SLA item dialog box.
+4. Define as many SLA items as required.
+5. Select **Activate**. The SLA is activated.
+
+
+## Create a standard SLA (Customer Service app)
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
