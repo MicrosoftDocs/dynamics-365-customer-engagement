@@ -26,6 +26,9 @@ To change the estimated revenue of an opportunity based on any changes you've ma
 
 5.	On the command bar, select **Recalculate Opportunity**.
 
+> [!IMPORTANT]
+> After you close an opportunity, price calculations are not recalculated on the opportunity when an opportunity product is added or changed.
+
 ### See also  
 
 [Create or edit an opportunity](../sales-enterprise/create-edit-opportunity-sales.md)  
