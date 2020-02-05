@@ -21,16 +21,15 @@ To use forecasting in your organization, an administrator must enable the featur
     > [!div class="mx-imgBorder"]
     > ![Forecasts option in sales site map](media/forecast-select-sales-performance-forecasts.png "Forecasts option in the Sales site map")
  
--	**Forecast category** appears on the **Opportunity** form. The categories define the status of an opportunity. If necessary, you can add custom values specifically defined for your organization.
+-	**Forecast category** appears on the **Opportunity** form. The categories define the confidence level of closing an opportunity. If necessary, you can add custom values specifically defined for your organization.
 
     > [!div class="mx-imgBorder"]
     > ![Forecast category option in opportunity form](media/capture-forecast-category-opportunity-form.png "Forecast category in an opportunity form")
 
     > [!NOTE]
-    > **Forecast category** options consists of **Won** and **Lost** opportunity statuses. If an opportunity is set as **Won** or **Lost**, the forecast category automatically changes status through an out-of-the-box workflow. <br>
-    > The **Opportunity Forecast Category Mapping Process** out-of-the-box workflow is provided to automatically update the **Won** and **Lost** labels for the forecast category. <br>
+    > **Forecast category** options consists of **Won** and **Lost** opportunity statuses. If an opportunity is set as **Won** or **Lost**, the forecast category automatically changes status through the **Opportunity Forecast Category Mapping Process** out-of-the-box workflow. <br>
     > To view the **Opportunity Forecast Category Mapping Process** workflow, go to **Settings** > **Process Center** > **Processes** and select **All Processes** view. Search and open the **Opportunity Forecast Category Mapping Process** workflow. You can customize or deactivate the workflow according to your organization's requirements. <br>
-    > If you're using custom options for the forecast category, you must create a workflow to automatically sync the opportunity status with your forecast category to ensure that the forecast is projecting accurate values. <br> 
+    > If you're using custom option sets instead of forecast category, you must create a workflow to automatically sync the opportunity status with your option set to ensure that the forecast is projecting accurate values. <br> 
     >  To learn more, see [Use Workflow processes to automate processes that don't require user interaction](/customize/workflow-processes).
 
 **To enable forecasting**
