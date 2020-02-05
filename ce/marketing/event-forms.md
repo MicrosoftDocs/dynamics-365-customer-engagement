@@ -26,7 +26,7 @@ search.app:
 > [!IMPORTANT]
 > This is an early access feature, which means that it's currently available only on opted-in instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
 >
-> For instructions on how to opt in and enable early access, see [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). For more information about the 2020 release wave 1 schedule, and for answers to frequently asked questions about the early access program, see [2020 release wave 1 features available for early access](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/features-ready-early-access).
+> For instructions on how to opt in and enable early access, see [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). For more information about the 2020 release wave 1 schedule, and for answers to frequently asked questions about the early access program, see [2020 release wave 1 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/features-ready-early-access).
 >
 >We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
 
@@ -42,17 +42,15 @@ The event management application now allows you to use marketing forms for event
 3. Choose the **Event Registration Form** template.
 4. The template will load into the form designer.
 
-      ![Delivered email interactions](./media/export-journey-interactions.png "Delivered email interactions")
+      ![Event registration form example](./media/event-forms-demo.png "Event registration form example")
 
-## Export a .CSV file
+## Settings in the header
 
-1. Go to **Insights** and select the interaction category you want to export (e.g., **Delivered emails**).
+The header settings are available at the top of the page no matter which tab is shown. To edit the header settings, select the **More header fields** button (which looks like a down-pointing chevron) at the side of the header to open a drop-down dialog with the following settings:
 
-2. Select the **Export to CSV** button in the right top corner of a selected table.
+- **Name:** Enter a name for the form. This is the name you'll see in the forms list and when adding the form to an event page.
+- **Form type:** For event registration marketing forms, leave the selected form type set to Event registration.
 
-3. That’s it! The .CSV file is automatically downloaded with the same columns and data as the table you selected to export.
+## Customizing, validating, and going live
 
-      ![Exported data to .CSV file](media/export-journey-csv.png "Exported data to .CSV file")
-
-> [!IMPORTANT]
-> You cannot download different categories of interactions (e.g., **Sent** + **Delivered** + **Blocked** + **Delivery failed**) all at once into one file.
+You can [customize your registration form’s design and check](https://docs.microsoft.com/dynamics365/marketing/marketing-forms#design-and-validate-your-form-content) for errors just as you would with any marketing form. You can even add custom fields or multi-select buttons. If no errors are returned, you are ready to [go live to make your form available for use](https://docs.microsoft.com/dynamics365/marketing/marketing-forms#go-live-to-make-your-marketing-form-available-for-use).
