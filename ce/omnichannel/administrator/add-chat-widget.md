@@ -4,7 +4,7 @@ description: "Instructions to add a chat widget in Omnichannel for Customer Serv
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 01/31/2020
+ms.date: 02/05/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
