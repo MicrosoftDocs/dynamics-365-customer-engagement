@@ -9,6 +9,7 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
+
 # msdyn_forecastdefinition EntityType
 
 [!INCLUDE[msdyn_forecastdefinition-description](../includes/msdyn_forecastdefinition-description.md)]
@@ -41,8 +42,8 @@ Properties represent fields of data stored in the entity. Some properties are re
 |msdyn_numberofrecurrences|Number of recurrences|Edm.Int32|Indicate the number of recurrences that the forecast will be generated|
 |msdyn_quotasource|Quota source|Edm.Int32|Select whether the quota for the forecast must be taken from a goal or entered manually.|
 |msdyn_rollupquery|Rollup query|Edm.Guid|Select the query that will be used to calculate data for the rollup field|
-|msdyn_validfrom|Valid from|Edm.Date|Shows the date from which the forecast is applicable. The date and time are displayed in the time zone selected in Dynamics 365 for Customer Engagement apps options.|
-|msdyn_validto|Valid to|Edm.Date|Shows the date through which the forecast is applicable. The date and time are displayed in the time zone selected in Dynamics 365 for Customer Engagement apps options.|
+|msdyn_validfrom|Valid from|Edm.Date|Shows the date from which the forecast is applicable. The date and time are displayed in the time zone selected in Dynamics 365 apps options.|
+|msdyn_validto|Valid to|Edm.Date|Shows the date through which the forecast is applicable. The date and time are displayed in the time zone selected in Dynamics 365 apps options.|
 |overriddencreatedon|Record Created On|Edm.DateTimeOffset|Date and time that the record was migrated.|
 |owner|Owner|Edm.Guid|Owner ID|
 |owningbusinessunit|Owning Business Unit|Edm.Guid|Unique identifier for the business unit that owns the record.|
