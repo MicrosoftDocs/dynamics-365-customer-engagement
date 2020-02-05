@@ -57,7 +57,7 @@ If you're following the sales process from start to finish, you *qualify* a lead
    - **Est. Revenue**: A field calculated for opportunities that have products added to them. Estimated revenue is calculated based on base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] recalculates the estimated revenue based on any changes to the products or product quantities associated with the opportunity. 
    
        > [!IMPORTANT]
-       > When a price list is selected on the opportunity, only existing products with the same price list associated can be added to the opportunity. However, if through some custom logic, you are able to add a product that doesn't have the same price list associated, only the products with price list same as the opportunity's price list are considered for price calculation. 
+       > When a price list is selected in an opportunity, only the existing products associated with that price list can be added to the opportunity. However, through some custom logic, if you're able to add a product that doesn't have the same price list associated, only the products with price list same as the opportunity's price list are considered for price calculation. 
    
 4. Select **Save** to enable other sections on the form.
 
