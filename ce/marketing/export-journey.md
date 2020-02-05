@@ -32,8 +32,6 @@ search.app:
 
 You can now export all customer journey interactions into a .CSV file for further analysis or reporting. You can easily export interactions from the same category (e.g., Delivered emails) with just a click of a button.
 
-  ![Delivered email interactions](./media/export-journey-interactions.png "Delivered email interactions")
-
 ## Export a .CSV file
 
 1. Go to **Insights** and select the interaction category you want to export (e.g., **Delivered emails**).
@@ -41,8 +39,6 @@ You can now export all customer journey interactions into a .CSV file for furthe
 2. Select the **Export to CSV** button in the right top corner of a selected table.
 
 3. That’s it! The .CSV file is automatically downloaded with the same columns and data as the table you selected to export.
-
-      ![Exported data to .CSV file](media/export-journey-csv.png "Exported data to .CSV file")
 
 > [!IMPORTANT]
 > You cannot download different categories of interactions (e.g., **Sent** + **Delivered** + **Blocked** + **Delivery failed**) all at once into one file.
