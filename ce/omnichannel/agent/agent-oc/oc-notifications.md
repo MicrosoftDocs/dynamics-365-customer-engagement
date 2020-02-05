@@ -30,6 +30,18 @@ Some of the scenarios where you can receive notifications:
 
 - Conversation escalation from Bot
 
+## Desktop notification
+
+You'll receive desktop notifications when the Omnichannel for Customer Service app is not in focus. Some of the scenarios, where the app is not focus are: 
+
+- When you've minimized the app.
+- When you are working on another browser window.
+- When you are working on a another browser tab.
+
+The desktop notification theme is based on Windows operating system theme and settings.
+
+To get the desktop notification, you need to allow browser notification
+
 
 ## Types of notifications
 
