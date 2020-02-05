@@ -17,6 +17,7 @@ manager: annbe
 Before sales reps can use enhanced email, you must enable it.
 
 > [!IMPORTANT]
+> - The enhanced email experience is available only for email activities created from the **Timeline** section of any model-driven app. 
 > - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
