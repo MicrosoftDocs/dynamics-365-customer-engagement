@@ -4,7 +4,7 @@ description: "Learn about managing notification templates in Omnichannel Adminis
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 01/31/2020
+ms.date: 02/07/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -71,6 +71,7 @@ Omnichannel system supports the following slugs.
     | General | Timeout (seconds) | Provide a duration in seconds; after this duration, the notification disappears. | 120. <br><br> **Note:** This is the default value. You can change the duration as per your requirement.
     | General | Accept Button | Specify a text for the accept button. This text appears for the agents to accept a conversation request. | Accept <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
     | General | Reject Button | Set the toggle to yes if you want to show the reject button to agents. <br> After you set the toggle to Yes, the button text box appears. Specify a text for the accept button. This text appears for the agents to reject a conversation request. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
+    | General | Show desktop notifications | Specify whether you want to show notifications to the agents when the Omnichannel for Customer Service app not in focus. <br><br> **Note:** **Never** is the default value.| When app is in background |
 
      > [!div class=mx-imgBorder] 
      > ![Create notification template](../media/notification-template1.png "Create notification template")
@@ -144,6 +145,7 @@ As an administrator, you need to customize the notification template to show the
 | General | Timeout (seconds) | 120. <br><br> **Note:** This is the default value. |
 | General | Accept Button | Accept <br><br> **Note:** This is the default value.|
 | General | Reject Button | Reject <br><br> Set the toggle to yes to show the reject button to agents. <br> After you set the toggle to **Yes**, the button text box appears. <br><br> **Note:** This is the default value.|
+| General | Show desktop notifications | When app is in background |
 
 ### Step 2: Create the Notification Fields with the following values
 
