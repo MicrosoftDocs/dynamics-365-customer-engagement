@@ -30,7 +30,7 @@ To select a template, go to the **Forecast configurations** page and select one 
 <tr><td>
 
 > [!div class="nextstepaction"] 
-> [Previous step: Review prerequisites](review-prerequisites-forecast.md)
+> [Previous step: Review prerequisite tasks](configure-forecast.md#prerequisite-tasks)
 </td><td>
 
 > [!div class="nextstepaction"] 
