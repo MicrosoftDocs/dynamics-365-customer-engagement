@@ -30,7 +30,7 @@ To select a template, go to the **Forecast configurations** page and select one 
 <tr><td>
 
 > [!div class="nextstepaction"] 
-> [Previous step: Enable forecasting](enable-forecast.md)
+> [Previous step: Review prerequisites](review-prerequisites-forecast.md)
 </td><td>
 
 > [!div class="nextstepaction"] 

@@ -30,38 +30,24 @@ As an administrator or forecast manager, you can configure forecasts in your org
 
 To configure a forecast in your organization, follow these steps:
 
-1.	[Review prerequisites](#review-prerequisites)
+1.	[Review prerequisites](review-prerequisites-forecast.md)
 
-2.	[Enable forecasting](enable-forecast.md)
+2.	[Select a template](select-template-forecast.md)
 
-3.	[Select a template](select-template-forecast.md)
+3.	[Define general properties and scheduling](define-general-properties-scheduling-forecast.md)
 
-4.	[Define general properties and scheduling](define-general-properties-scheduling-forecast.md)
+4.	[Provide viewing permissions](provide-permissions-forecast.md)
 
-5.	[Provide viewing permissions](provide-permissions-forecast.md)
+5.	[Choose layout and columns](choose-layout-and-columns-forecast.md)
 
-6.	[Choose layout and columns](choose-layout-and-columns-forecast.md)
-
-7.	[Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
-
-
-## Review prerequisites
-
-Verify that you have been assigned the **Administrator** or **Forecast manager** role that will allow you to perform the following tasks:
-
-    -	Create, assign, and edit forecast configurations for your organization.
-
-    -	Delete, activate, and deactivate forecast configurations that have been defined for your organization.
-
-    > [!NOTE]
-    > To learn more about assigning a role, see [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+6.	[Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
 
 
 <table>
 <tr><td>
 
 > [!div class="nextstepaction"] 
-> [Next step: Enable forecasting](enable-forecast.md)
+> [Next step: Review prerequisites](review-prerequisites-forecast.md)
 </td></tr>
 </table>
 
