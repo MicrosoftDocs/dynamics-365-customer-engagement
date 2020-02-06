@@ -52,9 +52,6 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-customer-journey-experience)
     - [Docs](https://docs.microsoft.com/dynamics365/marketing/email-expire)
 
-> [!Note]
-> Check back soon for updated documentation for each new early access feature!
-
 ### General availability enhancements
 
 - **Customer journeys**
