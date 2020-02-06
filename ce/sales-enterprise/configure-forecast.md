@@ -45,9 +45,9 @@ To configure forecasting in your organization, these are the general steps to fo
 
 ## Review prerequisites
 
-Verify the following prerequisites:
+Verify the following prerequisite:
 
--	You've been assigned the **Administrator** or **Forecast manager** role. The **Forecast manager** role is created specifically to configure forecasts. By using this role, you can:
+You've been assigned the **Administrator** or **Forecast manager** role. The **Forecast manager** role is created specifically to configure forecasts. By using this role, you can:
 
     -	Create, assign, and edit forecast configurations for your organization.
 
