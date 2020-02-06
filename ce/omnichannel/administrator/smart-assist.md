@@ -70,7 +70,7 @@ To learn more, see [Smart assist bot](../developer/how-to/smart-assist-bot.md).
 
 ## Step 2: Create a bot user
 
-After you create a bot, you must create a bot user to work as a smart assistant to the agent. A bot user is created as an application user and assigned the **Omnichannel agent** role. If you bot needs to search for knowledge base articles, then you need to provide either the **Customer Service Manager** or **Customer Service Representative** role.
+After you create a bot, you must create a bot user to work as a smart assistant to the agent. A bot user is created as an application user and assigned the **Omnichannel agent** role. If your bot needs to search for knowledge base articles, then you need to provide either the **Customer Service Manager** or **Customer Service Representative** role.
 
 Creating an application user is supported in the web client only. For information about creating a bot user, see [Create a bot user](configure-bot.md#step-1-create-a-bot-user).
 
