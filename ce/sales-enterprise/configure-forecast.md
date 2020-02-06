@@ -30,7 +30,7 @@ As an administrator or forecast manager, you can configure forecasts in your org
 
 To configure a forecast in your organization, follow these steps:
 
-1.	[Review prerequisites](review-prerequisites-forecast.md)
+1.	[Prerequisite tasks](review-prerequisites-forecast.md)
 
 2.	[Select a template](select-template-forecast.md)
 

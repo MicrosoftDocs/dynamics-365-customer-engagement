@@ -13,11 +13,11 @@ manager: shujoshi
 ---
 
 
-# Review prerequisites
+# Prerequisite tasks
 
-Verify the following prerequisites:
+Perform the following prerequisite tasks:
 
-- You have been assigned the **Administrator** or **Forecast manager** role that will allow you to perform the following tasks:
+- Assign the **Administrator** or **Forecast manager** role that will allow you to perform the following tasks:
 
     -	Create, assign, and edit forecast configurations for your organization.
 
@@ -26,7 +26,7 @@ Verify the following prerequisites:
     > [!NOTE]
     > To learn more about assigning a role, see [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
-- Forecasting is enabled in your organization. To enable forecasting, follow these steps:
+- Enable forecasting in your organization. To enable forecasting, follow these steps:
 
     1.	Sign in to the **Sales Hub** app.
     
