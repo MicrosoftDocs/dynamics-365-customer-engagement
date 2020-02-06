@@ -80,7 +80,7 @@ Perform the following prerequisite tasks:
         > If you're using a custom option set instead of forecast category, you must create a workflow to automatically sync the opportunity status with your option set to ensure that the forecast is projecting accurate values. <br> 
         >  To learn more, see [Use Workflow processes to automate processes that don't require user interaction](/customize/workflow-processes).
 
-## How do I configure forecasts?
+## How do I configure a forecast?
 
 To configure a forecast in your organization, follow these steps:
 
