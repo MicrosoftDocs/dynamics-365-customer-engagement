@@ -63,7 +63,7 @@ You can take the following actions from the hierarchical view:
    > [!div class="mx-imgBorder"] 
    > ![See child records](../basics/media/see-child-records.png "See child records")
 
-     The number before the arrow denotes the number of child records for that record.
+   The number before the arrow denotes the number of child records for that record.
 
 -	 Use command bar options to take action on selected records. You can select a record by selecting the check box in the top-right corner of a tile in the Tile view. 
 
