@@ -38,7 +38,7 @@ From the hierarchical charts view for **users**, you can find out who another te
 
 Hierarchical views are also available on mobile.  
 
-To see hierarchies that show the relationships between records, on the list of accounts, contacts, products, or users, select a record, and on the command bar, choose **View Hierarchy**.   
+To see hierarchies that show the relationships between records, on the list of accounts, contacts, products, or users, select a record, and on the command bar, choose **View Hierarchy** or select the hierarchy icon.   
 
 ![View Hierarchy button in Dynamics 365 Customer Engagement (on-premises)](../basics/media/view-hierarchy-button.png "View Hierarchy button in Dynamics 365 Customer Engagement (on-premises)")  
 
