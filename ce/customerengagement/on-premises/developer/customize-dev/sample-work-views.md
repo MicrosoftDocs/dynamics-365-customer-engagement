@@ -19,8 +19,8 @@ helpviewer_keywords:
 ms.assetid: bb59d373-0d8c-48c0-86e4-bc7ff6d240ce
 caps.latest.revision: 13
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -28,19 +28,36 @@ search.app:
 ---
 # Sample: Work with views
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)].  Download the complete sample from [Sample: Work with Views](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/WorkWithViews). 
+This sample shows how to perform various actions on views.  You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/WorkWithViews). 
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to perform various actions on views.  
-  
-## Example  
- [!code-csharp[WorkWithViews#WorkWithViews](../../snippets/csharp/CRMV8/workwithviews/cs/workwithviews.cs#workwithviews)]  
+[!include[cc-sample-note](../includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](../includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+The `IOrganizationService` message is intended to be used in a scenario where it contains data that provides programmatic access to the metadata and data for an organization.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+Checks for the current version of the org.
+
+### Demonstrate
+
+1. The `layoutXml` method creates a layout for the view on the account entity.
+2. The `fetchXml` method creates a view on the account entity.
+3. The `SavedQuery` method saves the newly created view.
+
+### Clean up
+
+Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+ 
   
 ### See also  
  [Customize Entity Views in Microsoft Dynamics 365 Customer Engagement](customize-entity-views.md)    
