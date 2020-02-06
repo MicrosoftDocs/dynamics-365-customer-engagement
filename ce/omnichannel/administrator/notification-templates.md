@@ -44,7 +44,7 @@ If agents select the notification message/body and not the button, then the Omni
 
 You can configure the wait time and this time applies to the desktop notification, but doesn't display the wait time on the desktop notification. The desktop notification theme is based on Windows operating system theme and settings.
 
-To get the desktop notification, agents need to allow the browser (Microsoft Edge and Google Chrome) notification. Also, you can the browser notification permission through group policy.
+To get the desktop notification, agents need to allow the browser (Microsoft Edge and Google Chrome) notification. Also, you can set the browser notification permission through group policy.
 
  > [!div class=mx-imgBorder]
  > ![Allow desktop notification](../media/oceh/allow-desktop-notification.png "Allow desktop notification")
