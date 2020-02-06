@@ -54,8 +54,11 @@ If you're following the sales process from start to finish, you *qualify* a lead
  
    - **Est. Close Date**: An estimated date by which the opportunity is expected to close. 
   
-   - **Est. Revenue**: A field calculated for opportunities that have products added to them. Estimated revenue is calculated based on base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] recalculates the estimated revenue based on any changes to the products or product quantities associated with the opportunity.
-
+   - **Est. Revenue**: A field calculated for opportunities that have products added to them. Estimated revenue is calculated based on base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] recalculates the estimated revenue based on any changes to the products or product quantities associated with the opportunity. 
+   
+       > [!IMPORTANT]
+       > When a price list is selected in an opportunity, only the existing products associated with that price list can be added to the opportunity. However, through some custom logic, if you're able to add a product that doesn't have the same price list associated, only the products with price list same as the opportunity's price list are considered for price calculation. 
+   
 4. Select **Save** to enable other sections on the form.
 
 5. In the **Stakeholders** section, select the **More Commands** button ![More Commands button](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
