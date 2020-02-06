@@ -45,7 +45,7 @@ To configure forecasting in your organization, these are the general steps to fo
 
 ## Review prerequisites
 
-Verify that you've met the following prerequisites:
+Verify the following prerequisites:
 
 -	You've been assigned the **Administrator** or **Forecast manager** role. The **Forecast manager** role is created specifically to configure forecasts. By using this role, you can:
 
@@ -55,8 +55,6 @@ Verify that you've met the following prerequisites:
 
     > [!NOTE]
     > To learn more about assigning a role, see [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
-
--	You've enabled forecasting in your organization.
 
 
 <table>
