@@ -120,6 +120,37 @@ Type a keyword in the search box to search for knowledge articles.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms)
 
+## Independent knowledge base search
+
+Agents can do knowledge base searches outside of cases using the <b>Knowledge Search</b> feature located in the Knowledge section.  This functionality performs like a knowledge search hub. Agents can view and send article pop outs and copy the article URL (For more information. See Configure knowledge base article URL.
+
+  ![Independent KB search](media\kb-independent-search.png)
+
+  1. Under the Knowledge section, click on Knowledge Search
+  2.	In search window, enter key keywords of article  
+  3.	Click copy the article URL action
+  4.	Click to pop out the article in a new window action
+  5.	Copy the article URL 
+  6.	Pop out the article in a new window  
+
+### Configure knowledge base article URL
+
+Knowledge articles can be configured to their own URLs, which agents can copy and share.  To configure a knowledge based article URL, use the following steps:
+
+  <b>Step 1:</b> Under Knowledge Based Management click on Embedded Knowledge URL
+  <b>Step 2:</b> Select the URL format
+
+ ![Independent KB search](media\kb-independent-search-url-1.png)
+
+  <b>Step 3:</b> Under Support Portal Connection select Yes
+  <b>Step 4:</b> Under URL Format, enter URL name
+  <b>Step 5:</b> Click Save
+
+  ![Independent KB search](media\kb-independent-search-url-2.png)
+
+Your knowledge based (KB) article URL is now active and can be copied and shared.
+
+
 ### Filter knowledge articles
 
 With the help of text and visual filters, you can filter the knowledge articles. To see knowledge articles in specific states, use the **Status** filter. You can filter search results to see all draft, published, or approved articles. See articles that are categorized as internal and external. You can also filter the articles based on date and language.
