@@ -55,19 +55,13 @@ In this topic, we'll take a look at these three reports in greater detail.
 - To get the resource and utilization report: 
 
   1. Install or upgrade Field Service
-  2. Install the **Data Insights and Analytics for Resource Scheduling** solution in your instance.
-  3. The Resource and utilization report will appear in the Field Service app for users with **System Administrator** or **Field Service-Administrator** security roles. 
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 admin center.](./media/scheduling-analytics-install-data-insights.png)
+  2. The Resource and utilization report will appear in the Field Service app for users with **System Administrator** or **Field Service-Administrator** security roles. 
 
 - To get both resource scheduling optimization reports:
 
   1. Install or upgrade Field Service
   2. Install or upgrade the **Resource Scheduling Optimization** add-in
-  3. Install the **Data Insights and Analytics for Resource Scheduling** solution in your instance.
-  4. Both the RSO admin and the optimization summary reports will appear in the resource scheduling optimization app for users with **System Administrator** or **Field Service-Administrator** security roles. 
+  3. Both the RSO admin and the optimization summary reports will appear in the resource scheduling optimization app for users with **System Administrator** or **Field Service-Administrator** security roles. 
 
 
 ## Resource and utilization reports
