@@ -28,7 +28,7 @@ Dynamics 365 Customer Engagement (on-premises) is “process-driven.” But what
   
  In this example, the business process bar for new opportunities shows you the four stages to follow (**Qualify**, **Develop**, **Propose**, and **Close**), where you are in the process, and what to do next, so there’s no guesswork.  
  
-Select the next stage in the process bar to enter data. When you're ready to move on to the next stage select **Next Stage**.
+Select the next stage in the process bar to enter data. When you're ready to move on to the next stage select, **Next Stage**.
   
  ![What is a business process](../basics/media/what-is-a-business-process.png "What is a business process")  
   
