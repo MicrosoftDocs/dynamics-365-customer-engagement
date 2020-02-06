@@ -2,17 +2,17 @@
 title: "Publish records with go live and track their status (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Find out which types of records must be published (go live) before you can use them, how to track their go-live status, and how to stop or edit records that are already live in Dynamics 365 Marketing"
 keywords: publish;live;status;status reason;go live
-ms.date: 12/11/2019
+ms.date: 02/06/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 ms.assetid: c618e1c0-53a3-4e8a-950b-ae8bcbf28e5f
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status:
 search.audienceType: 
   - admin
   - customizer
@@ -34,7 +34,7 @@ Nearly all entities in Dynamics 365 have both **Status** and **Status reason** f
 
 For most types of entities, you can manually assign the active/inactive **Status** for each record using buttons on the command bar. You might use this, for example, to mark a contact as inactive, which hides that contact from most views but keeps it in your database for future or historical reference. For publishable entities in Marketing, the system usually manages the **Status reason** value (which is therefore read-only) to give you more information about the publish status. For some publishable entities in Marketing, the **Status** field is also managed by the system and therefore may not be editable directly either. See the remaining sections of this topic for details.
 
-All entities provide a view selector for list views, where you can choose a saved query such as "Active journeys", "All live journeys", "Inactive journeys", and so on. In most cases, you can find inactive records by going to the "Inactive …" view, where you can usually reactivate a record if needed.
+All entities provide a view selector for list views, where you can choose a saved query such as "Active journeys," "All live journeys," "Inactive journeys," and so on. In most cases, you can find inactive records by going to the "Inactive …" view, where you can usually reactivate a record if needed.
 
 ![Use the system-view selector to see inactive records](media/golive-see-inactive-records.png "Use the system-view selector to see inactive records")
 
@@ -69,6 +69,10 @@ Some customer journey settings become locked (read-only) based on the journey's 
 | Template | Editable | Editable | Locked |
 | Pipeline (tile positions) | Editable | Locked | Locked |
 | Tile settings | Editable | Editable (see note) | Locked |
+
+If you attempt to delete emails, forms, or segments used in live customer journeys, a warning dialog will pop up to prevent you from accidentally deleting or stopping live entities.
+
+![Warning dialog when deleting a live record](media/customer-journey-publishable-entities.png "Warning dialog when deleting a live record")
 
 > [!NOTE]
 > If you change the recurrence interval after the journey has already started, then the current iteration will continue to run using the previous interval. Your new interval will take effect starting at the next iteration.
