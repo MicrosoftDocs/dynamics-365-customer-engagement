@@ -60,8 +60,8 @@ You can take the following actions from the hierarchical view:
 
 -	 In the Tile view, select the down arrow to see the record’s child records of the existing record.
 
-    > [!div class="mx-imgBorder"] 
-    > ![See child records](../basics/media/see-child-records.png "See child records")
+   > [!div class="mx-imgBorder"] 
+   > ![See child records](../basics/media/see-child-records.png "See child records")
 
      The number before the arrow denotes the number of child records for that record.
 
