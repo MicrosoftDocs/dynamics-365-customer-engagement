@@ -30,24 +30,37 @@ Some of the scenarios where you can receive notifications:
 
 - Conversation escalation from Bot
 
-## Desktop notification
+## Preview: Receive notification when app is in background
 
-You'll receive desktop notifications when the Omnichannel for Customer Service app is not in focus. Some of the scenarios, where the app is not focus are: 
+> [!Note]
+> This section of the topic is in pre-release documentation and subject to change.
+
+You'll receive desktop notifications when the Omnichannel for Customer Service app is not in focus. The desktop notification helps you not to miss any conversation notification requests. Some of the scenarios, where the app is not focus are: 
 
 - When you've minimized the app.
 - When you are working on another browser window.
 - When you are working on a another browser tab.
 
-The desktop notification theme is based on Windows operating system theme and settings.
+ > [!div class=mx-imgBorder]
+ > ![Desktop notification](../../media/oceh/desktop-notification.png "Desktop notification")
 
-To get the desktop notification, you need to allow browser notification
+You can accept or reject by selecting a button on the desktop notification. When you accept the conversation by selecting a button on the desktop notification, then the Omnichannel for Customer Service app is made active, displayed to you, and a session is started.
+
+If you select the notification message/body and not the button, then the Omnichannel for Customer Service app is made active and the notification is displayed to you in the app. Now, you can choose to accept or reject the conversation using the appropriate buttons.
+
+The wait time that is configured by your administrator applies to the desktop notification, but doesn't display the wait time on the desktop notification. The desktop notification theme is based on Windows operating system theme and settings.
+
+To get the desktop notification, you need to allow browser (Microsoft Edge and Google Chrome) notification.
+
+ > [!div class=mx-imgBorder]
+ > ![Allow desktop notification](../../media/oceh/allow-desktop-notification.png "Allow desktop notification")
 
 
 ## Types of notifications
 
 There are two types of notifications:
 
-- **Toast notifications:** A toast notification or floating notification is a notification message type where you receive information in a dialog, which disappears after a stipulated time. If you select the notification, the associated session or application opens. This type notifications appear for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios and so on. 
+- **Toast notifications:** A toast notification or floating notification is a notification message type where you receive information in a dialog, which disappears after a stipulated time. This type notifications appear for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios and so on. 
 
 - **Alert notifications:** An alert notification is a type of notification where a dialog appears with actionable buttons. When you select the **Accept** button, a screen pops up with Customer summary details. You need to take an action within the stipulated time and the notification disappears when the time is up.
 
@@ -58,13 +71,7 @@ You receive a notification for an incoming chat request. When you accept the cha
  > [!div class=mx-imgBorder]
  > ![Incoming chat notification](../../media/oceh/chat-notification-request.png "Incoming chat notification")  
 
-The details you’ll see for a chat channel are:
-
- - Name of the customer
-
- - Comment
-
- - Wait time
+The details you’ll see for a chat channel are as configured by your administrator.
 
 ## Incoming SMS notification
 
@@ -75,16 +82,7 @@ Identification of a customer happens based on the **Mobile Phone** field present
  > [!div class=mx-imgBorder]
  > ![Incoming SMS notification](../../media/oceh/sms-notification-request.png "Incoming SMS notification") 
 
-The details you’ll see for a SMS channel are:
-
- - Name of the customer
-
- - Comment
-
- - Wait time
-
-> [!div class="nextstepaction"]
-> [Next topic: View customer summary and know everything about customers](oc-customer-summary.md)
+The details you’ll see for a SMS channel are as configured by your administrator
 
 ## Incoming Facebook notification
 
@@ -92,6 +90,9 @@ You receive a notification for a Facebook conversation request. When you accept 
 
 > [!div class=mx-imgBorder]
 > ![Facebook chat agent notification](../../media/fb-agent-notif.png "Facebook chat agent notification")
+
+> [!div class="nextstepaction"]
+> [Next topic: View customer summary and know everything about customers](oc-customer-summary.md)
 
 ## See also
 
