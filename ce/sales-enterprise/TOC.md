@@ -47,7 +47,7 @@
 
 ### Forecast management
 #### [Configure forecasts in your organization](configure-forecast.md)
-#### [Review prerequisites](review-prerequisites-forecast.md)
+#### [Prerequisite tasks](review-prerequisites-forecast.md)
 #### [Select a template](select-template-forecast.md)
 #### [Define general properties and scheduling](define-general-properties-scheduling-forecast.md)
 #### [Provide viewing permissions](provide-permissions-forecast.md)

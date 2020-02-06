@@ -14,7 +14,7 @@ manager: shujoshi
 
 # Choose layout and columns
 
-In the **Layout** step, you configure columns to define how the forecast grid appears for users. You can configure roll-up columns from option sets that are defined for opportunities in your organization.
+In the **Layout** step of the forecast configuration, you configure columns to define the forecast grid that appears for users. You can configure roll-up columns from option sets that are defined for opportunities in your organization.
 
 Perform the following steps to add columns and configure the forecast grid:
 

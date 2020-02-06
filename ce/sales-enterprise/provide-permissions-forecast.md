@@ -14,21 +14,21 @@ manager: shujoshi
 
 # Provide viewing permissions
 
-In the **Permissions** step, you define which team members can view and adjust the forecast data at each level of the hierarchy. Also, you can provide access to users who have specific security roles to view the forecast. 
+In the **Permissions** step of the forecast configuration, you define which team members can view and adjust the forecast data at each level of the hierarchy. Also, you can provide access to users who have specific security roles to view the forecast. 
 
 **To set viewing permissions**
 
-1.	In the **User security field** section, choose **User lookup field**. Choosing this field determines the owner of the forecast row that allows the user to view the forecast and the forecasts for those below that user in the forecast hierarchy. The following default system user value is selected based on the template:
+1.	In the **User security field** section, choose **User lookup field**. Choosing this field determines the owner of the forecast row. The following default system user value is selected based on the template:
 
     -	For **Org chart forecast**, the value is selected as **User**.
 
     -	For **Territory forecast**, the value is selected as **Manager**.
 
-    If you select a different value from the default, a new column is created in the forecast grid.
+    If you select a value other than the default, a column is created in the forecast grid.
 
     For example, when you select **User lookup field** as **Manager** for a territory forecast, the forecast is visible only to the managers of the territories in the selected hierarchy. The managers can edit forecast data that directly belongs to them and to their reporting territories.
 
-2.	In the **Additional security roles** section, select an option as described in the following table to provide permissions to view the forecast to users who aren't part of the hierarchy.
+2.	In the **Additional security roles** section, select one of the following option to provide permissions to view the forecast to users who aren't part of the hierarchy.
 
     | Additional security roles option | Description |
     |----------------------------------|-------------|

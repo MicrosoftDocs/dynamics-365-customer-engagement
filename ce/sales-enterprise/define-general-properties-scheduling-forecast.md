@@ -14,7 +14,7 @@ manager: shujoshi
 
 # Define general properties and scheduling
 
-Using the general properties and scheduling, you can define a forecast model by specifying a hierarchy and timeframe. 
+Using the general properties and scheduling options of the forecast configuration page, you can define a forecast model by specifying a hierarchy and timeframe. 
 
 **To enter configuration and scheduling information**
 
@@ -23,21 +23,21 @@ Using the general properties and scheduling, you can define a forecast model by 
     > [!div class="mx-imgBorder"]
     > ![Enter a name for the forecast](media/forecast-general-properties-forecast-name.png "Enter a name for the forecast")
 
-2.	By default, **Rollup entity** is configured as **Opportunity**. This value can't be changed.
+    >[!NOTE]
+    >By default, **Rollup entity** is configured as **Opportunity**. This value can't be changed.<br>
+    >![Forecast rollup entity](media/forecast-rollup-entity-opportunity.png "Forecast rollup entity")
 
-    > [!div class="mx-imgBorder"]
-    > ![Forecast rollup entity](media/forecast-rollup-entity-opportunity.png "Forecast rollup entity")
+2.	Choose a **Default underlying records view**. This is the default view used when users select a row or a cell of the forecast to view its underlying opportunities. To learn more, see [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md).
 
-3.	Choose a **Default underlying records view**. This is the default view used when users select a row or a cell of the forecast to view its underlying opportunities. To learn more, see [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md).
 
-4.	**Hierarchy route** is configured based on the template that you've selected. This determines how the forecast will roll up through your organization. The following **Hierarchy routes** are predefined:
+    **Hierarchy route** is configured based on the template that you've selected. This determines how the forecast will roll up through your organization. The following **Hierarchy routes** are predefined:
 
-    | Template | Hierarchy route | Description |
-    |----------|-----------------|-------------|
-    | Org chart forecast | Opportunity > Owner | The forecast hierarchy is defined based on the organizational hierarchy. |
-    | Territory forecast | Opportunity > Account > Territory | The forecast hierarchy is defined based on the territory hierarchy. |
+        | Template | Hierarchy route | Description |
+        |----------|-----------------|-------------|
+        | Org chart forecast | Opportunity > Owner | The forecast hierarchy is defined based on the organizational hierarchy. |
+        | Territory forecast | Opportunity > Account > Territory | The forecast hierarchy is defined based on the territory hierarchy. |
 
-5.	In the **Top of hierarchy** list, choose the user or territory that's at the top of this forecast hierarchy. 
+3.	In the **Top of hierarchy** list, choose the user or territory that's at the top of this forecast hierarchy. 
 
     When the hierarchy route is **Opportunity > Owner**, the top of the hierarchy lists all active users in your organization. You can then select a user from the list to be displayed at the top of the hierarchy. 
     
@@ -46,7 +46,7 @@ Using the general properties and scheduling, you can define a forecast model by 
     > [!div class="mx-imgBorder"]
     > ![Configuration section](media/forecast-general-tab-configuration-section.png "Configuration section")
 
-6.	In the **Scheduling** section, specify or note the following information.
+4.	In the **Scheduling** section, specify the following information.
 
     | Parameter | Description |
     |-----------|-------------|
@@ -60,7 +60,7 @@ Using the general properties and scheduling, you can define a forecast model by 
     > [!div class="mx-imgBorder"]
     > ![Scheduling section](media/forecast-general-tab-scheduling-section.png "Scheduling section")
 
-7.	Select **Next**.
+5.	Select **Next**.
 
 <table>
 <tr><td>
