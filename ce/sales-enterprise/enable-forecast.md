@@ -14,7 +14,7 @@ manager: shujoshi
 
 # Enable forecasting
 
-To use forecasting in your organization, an administrator must enable the feature through the **Forecast configurations** page. When the feature is enabled, the following changes appear in the Sales Hub app:
+To use forecasting in your organization, an administrator must enable the feature through the **Forecast configurations** page for the first time. Once enabled, you can continue with forecast configuration by selecting the template. When the feature is enabled, the following changes appear in the Sales Hub app:
 
 -	**Forecasts** appears under **Performance** in the **Sales** site map.
     

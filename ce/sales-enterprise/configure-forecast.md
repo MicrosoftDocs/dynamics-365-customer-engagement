@@ -26,7 +26,9 @@ A forecast helps your organization predict how much revenue your sales team will
 
 As an administrator or forecast manager, you can configure forecasts in your organization. You can define the type of forecast, its hierarchy, permissions for accessing it, and the details you want to appear on the forecast grid. After a forecast is activated, your sales team can view the revenue and pipeline projections.
 
-To configure forecasting in your organization, these are the general steps to follow:
+## How do I configure forecasts?
+
+To configure a forecast in your organization, follow these steps:
 
 1.	[Review prerequisites](#review-prerequisites)
 
@@ -45,9 +47,7 @@ To configure forecasting in your organization, these are the general steps to fo
 
 ## Review prerequisites
 
-Verify the following prerequisite:
-
-You've been assigned the **Administrator** or **Forecast manager** role. The **Forecast manager** role is created specifically to configure forecasts. By using this role, you can:
+Verify that you have been assigned the **Administrator** or **Forecast manager** role that will allow you to perform the following tasks:
 
     -	Create, assign, and edit forecast configurations for your organization.
 
