@@ -122,11 +122,14 @@ Type a keyword in the search box to search for knowledge articles.
 
 ## Independent knowledge base search
 
-Agents can do knowledge base searches outside of cases using the <b>Knowledge Search</b> feature located in the Knowledge section.  This functionality performs like a knowledge search hub. Agents can view and send article pop outs and copy the article URL (For more information. See Configure knowledge base article URL.
+Agents can do knowledge base searches outside of cases using the <b>Knowledge Search</b> feature located in the Knowledge section.  This functionality performs like a knowledge search hub. 
+
+Agents can view and send article pop outs and copy and send article URLs when configured. See [Configure knowledge base article URLs](/search-knowledge-articles-csh.md#configure-knowledge-base-article-url) for more information.
+
 
   ![Independent KB search](media\kb-independent-search.png)
 
-  1. Under the Knowledge section, click on Knowledge Search
+  1.  Under the Knowledge section, click on Knowledge Search
   2.	In search window, enter key keywords of article  
   3.	Click copy the article URL action
   4.	Click to pop out the article in a new window action
@@ -137,18 +140,18 @@ Agents can do knowledge base searches outside of cases using the <b>Knowledge Se
 
 Knowledge articles can be configured to their own URLs, which agents can copy and share.  To configure a knowledge based article URL, use the following steps:
 
-  <b>Step 1:</b> Under Knowledge Based Management click on Embedded Knowledge URL
+  <b>Step 1:</b> Under Knowledge Based Management click on Embedded Knowledge URL<BR>
   <b>Step 2:</b> Select the URL format
 
  ![Independent KB search](media\kb-independent-search-url-1.png)
 
-  <b>Step 3:</b> Under Support Portal Connection select Yes
-  <b>Step 4:</b> Under URL Format, enter URL name
+  <b>Step 3:</b> Under Support Portal Connection select <b>Yes</b> <BR>
+  <b>Step 4:</b> Under URL Format, enter URL name<BR>
   <b>Step 5:</b> Click Save
 
   ![Independent KB search](media\kb-independent-search-url-2.png)
 
-Your knowledge based (KB) article URL is now active and can be copied and shared.
+Knowledge based (KB) article URL is now active and can be copied and shared.
 
 
 ### Filter knowledge articles
