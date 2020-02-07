@@ -127,13 +127,13 @@ Your marketing list is the core of running a successful marketing campaign. It c
     >   
     >  If you don't have any quick campaigns, the Quick Campaign Wizard will start.  
   
-## Customizing Marketing list form
+## Customizing marketing list form
 
-If you create a custom form for a Marketing list that does not include certain fields you will see the following message:
+If you create a custom form for a marketing list that does not include certain fields you will see the following message:
 
    > 'The form is missing the following elements: 'query', 'membertype', 'accountsUCI', 'contactsUCI', 'leadsUCI', 'dynamic_accounts', 'dynamic_contacts', 'dynamic_leads'. Functionalities will be affected.
 
-The elements listed in the message are needed to populate the members list which is included in the default form. If your custom form does not display the Members List then the message can be safely ignored.
+The elements listed in the message are needed to populate the members list which is included in the default form. If your custom form does not display the members list then the message can be safely ignored.
 
 ### See also  
  [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)   
