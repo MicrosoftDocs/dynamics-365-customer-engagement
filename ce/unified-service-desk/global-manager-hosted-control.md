@@ -188,6 +188,11 @@ Param=value
 ### CreateSession
  Creates a session.
 
+|Parameter|Description|
+|---------------|-----------------|
+| BackGround | Set the value of the parameter to True. <br>A session is created but the focus is not changed to the new session right away. All the sub actions on this action call are then executed only when you manually switch to this session. |
+| SessionName | Name of the session tab for the newly created session. This parameter is dependent on the BackGround parameter. |
+
 <a name="DeleteEntity"></a>   
 ### DeleteEntity  
  Deletes a record in the model-driven apps.  
