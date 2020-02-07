@@ -67,11 +67,9 @@ Here are the required view columns:
 
 ## Knowledge Base Search control
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 The Customer Service Hub comes with an enhanced Knowledge Base Search that shows you the articles arranged in a single stream. Searching, sorting, and filtering the articles in the search control will be faster and more responsive with improvements to article viewability and usability.
 
-When you select the Knowledge Base Search option in the RELATED section, the Knowledge Base Search control loads, and you can view the following:
+When you select the **Knowledge Base Search** option in the **RELATED** section, the **Knowledge Base Search** control loads, and you can view the following:
 
   > [!div class=mx-imgBorder]
   > ![Knowledge-article-search](media/Knowledge-base-search-1.png "Knowledge article search")
@@ -101,9 +99,9 @@ In the knowledge base search control, you perform the following:
 
 ### Display knowledge article pop outs 
 
-1. In the top right corner, click on the ellipsis (...) 
+1. In the top right corner, select the ellipsis (...) 
 2. A display window will appear with the Pop out option
-3. Click on <b>Pop out</b> option
+3. Select on **Pop out** option
 4. This will opened and the article will be expanded into a new window.
 
   > [!div class=mx-imgBorder]
@@ -121,6 +119,50 @@ Type a keyword in the search box to search for knowledge articles.
 - If Relevance search is enabled, you can configure the fields based that you want to be searched upon. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms)
+
+## Independent knowledge base search
+
+Agents can do knowledge base searches outside of cases using the **Knowledge Search** option in the sitemap under **Knowledge**.  This functionality performs like a knowledge search hub. 
+
+Agents can perform the following:
+
+- View a article 
+- Send an article pop out 
+- Copy and send article URLs when configured. 
+
+To configure, see [Configure knowledge base article URLs](/search-knowledge-articles-csh.md#configure-knowledge-base-article-url).
+
+  > [!div class=mx-imgBorder]
+  > ![Independent KB search](media/kb-independent-search.png)
+
+  1. In the sitemap, select **Knowledge Search**.
+  2. In search box, type keywords of an article.  
+  3. Select copy URL icon to copy the article URL.
+  4. Select to pop out icon to open an article in a new window action.
+  5. Select the button **Copy URL** button to copy the article URL.
+  6. Select the button **Pop out** to open the article in a new window.  
+
+### Configure knowledge base article URL
+
+Knowledge articles can be configured to their own URLs, which agents can copy and share.  To configure a knowledge based article URL, use the following steps:
+
+1. In the sitemap, under **Knowledge Base Management** select **Embedded Knowledge URL**.
+
+2. Select the URL format.
+
+   > [!div class=mx-imgBorder]
+   > ![Independent KB search](media/kb-independent-search-url-1.png)
+
+3. Under **Support Portal Connection**, select **Yes**
+
+4. Under URL Format, enter URL name.
+
+5. Select **Save**.
+
+    > [!div class=mx-imgBorder]
+    > ![Independent KB search](media/kb-independent-search-url-2.png)
+
+Knowledge based (KB) article URL is now active and can be copied and shared.
 
 ### Filter knowledge articles
 
@@ -158,8 +200,8 @@ When configured, you can link an article to case. You can associate and dissocia
 
   
 1. From the navigation in the top right of the article there is a link icon. 
-2. When configured, you can click on the link icon and this will link the article to a case.
-3. Articles that are linked to a case will display  <b>Linked to Case</b> in blue in the bottom left and the link icon will update and diplay as: ![Linked to case](media/km-linked-icon.png)
+2. When configured, you can select the link icon and this will link the article to a case.
+3. Articles that are linked to a case will display  **Linked to Case** in blue in the bottom left and the link icon will update and display as: ![Linked to case](media/km-linked-icon.png)
 
 ### Email the knowledge article
 
