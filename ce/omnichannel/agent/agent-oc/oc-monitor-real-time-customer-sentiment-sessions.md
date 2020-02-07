@@ -64,7 +64,7 @@ To learn more, see [multi-language sentiment](../../administrator/enable-sentime
 ## Videos
 [Real-time sentiment analysis in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114615)
 
-To view more videos on Omnichannel for Customer Service, see [Videos](../videos.md).
+To view more videos on Omnichannel for Customer Service, see [Videos](../../videos.md).
 ## See also
 
 - [Introduction to the agent interface](oc-introduction-agent-interface.md)

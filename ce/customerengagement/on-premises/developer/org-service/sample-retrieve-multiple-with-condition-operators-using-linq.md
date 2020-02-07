@@ -2,7 +2,7 @@
 title: "Sample: Retrieve multiple with condition operators using LINQ (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to retrieve multiple condition operators with .NET Language-Integrated Query (LINQ)"
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 02/05/2020
 ms.reviewer: "pehecke"
 ms.service: crm-online
 ms.suite: 
@@ -26,19 +26,22 @@ search.app:
 ---
 # Sample: Retrieve multiple with condition operators using LINQ
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Sample: Work with Queries](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Queries). 
+Download the complete sample from [Sample: Query data using LINQ](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/QueriesUsingLINQ).
+
+[!INCLUDE[cc-sample-note](../includes/cc-sample-note.md)]
  
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
  
 ## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]
+[!INCLUDE[cc-how-to-run-PA-samples](../includes/cc-how-to-run-PA-samples.md)]
   
 ## Demonstrates  
  This sample shows how to retrieve multiple condition operators with [!INCLUDE[pn_LINQ](../../includes/pn-linq.md)].  
   
 ## Example  
- [!code-csharp[query#RetrieveMultipleConditionOperatorsLinq](../../snippets/csharp/CRMV8/query/cs/retrievemultipleconditionoperatorslinq.cs#retrievemultipleconditionoperatorslinq)]  
+
+[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/QueriesUsingLINQ/RetrieveMultipleUsingConditions/SampleProgram.cs) 
   
 ### See also  
  [Build Queries with LINQ (.NET Language-Integrated Query)](build-queries-with-linq-net-language-integrated-query.md)   

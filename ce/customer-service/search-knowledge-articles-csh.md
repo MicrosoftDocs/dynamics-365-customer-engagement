@@ -73,16 +73,22 @@ The Customer Service Hub comes with an enhanced Knowledge Base Search that shows
 
 When you select the Knowledge Base Search option in the RELATED section, the Knowledge Base Search control loads, and you can view the following:
 
-  ![Knowledge-article-search](media/case-form-kb-search.png "Knowledge article search")
+  > [!div class=mx-imgBorder]
+  > ![Knowledge-article-search](media/Knowledge-base-search-1.png "Knowledge article search")
 
   1. Knowledge Base Search
   2. Open filter pane
   3. Sort search results by
   4. Search knowledge articles
   5. Link this article to the current record (unlink will be displayed when the article is already linked to a record)
-  6. Link this article to a record and send via Email
-  7. Views
-  8. Rating
+  6. Copy
+  7. Displays Popout and Email link this article to a record and send via Email 
+  8. Link this article to a record and send via Email
+  9. Rating
+  10. Link to case
+  11. Views
+  12. Confirmation that record is linked to case
+  13. Article date
 
 
 In the knowledge base search control, you perform the following:
@@ -93,11 +99,22 @@ In the knowledge base search control, you perform the following:
 - Email the knowledge article
 - View the knowledge article inline in the search control
 
+### Display knowledge article pop outs 
+
+1. In the top right corner, click on the ellipsis (...) 
+2. A display window will appear with the Pop out option
+3. Click on <b>Pop out</b> option
+4. This will opened and the article will be expanded into a new window.
+
+  > [!div class=mx-imgBorder]
+  > ![Pop out](media/Knowledge-base-search-3.PNG)
+
 ### Search for knowledge articles
 
 Type a keyword in the search box to search for knowledge articles.
 
-  ![Knowledge-article-search](media/search-kb-article.png "Knowledge article search")
+  > [!div class=mx-imgBorder]
+  > ![Knowledge-article-search](media/search-kb-article.PNG "Knowledge article search")
 
 - If Relevance search is not enabled, the keywords that you enter will initiate  a search (using Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 
@@ -117,7 +134,8 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
   | Date | <ul> <li> Last 7 days </li> <li> Last 30 days </li> <li> Last 6 months </li> <li> Last year </li> <li> All </li> </ul> |
   | Language | <ul> <li> List of languages </li> </ul> **Note:** The language list is based on the articles that are present in the those languages. For example, there are a total of 50 articles in five different languages such as French, English, Japanese, Spanish, and Danish. The language filter will show only these five languages. |
 
-  ![Knowledge article filter](media/km-filter1.png "Knowledge article filter")  
+  > [!div class=mx-imgBorder]
+  > ![Knowledge article filter](media/km-filter1.png "Knowledge article filter")  
 
 ### Sort knowledge articles
 
@@ -128,25 +146,34 @@ The knowledge base search control provides sort the knowledge articles interacti
 - Last modified date (newest first) 
 - Last modified date (oldest first)
 
-  ![Knowledge article sort](media/km-sort.png "Knowledge article sort")
+  > [!div class=mx-imgBorder]
+  > ![Knowledge article sort](media/km-sort.png "Knowledge article sort")
 
 ### Link and unlink the knowledge article to a record
 
-You can associate and dissociate the knowledge article with a record by using the **Link** and **Unlink** buttons.
+When configured, you can link an article to case. You can associate and dissociate the knowledge article with a record.
 
-  ![Knowledge article link and unlink buttons](media/km-link-unlink.png "Knowledge article link and unlink buttons") 
+  > [!div class=mx-imgBorder]
+  > ![Link to case](media/Knowledge-base-search-2.PNG)
+
+  
+1. From the navigation in the top right of the article there is a link icon. 
+2. When configured, you can click on the link icon and this will link the article to a case.
+3. Articles that are linked to a case will display  <b>Linked to Case</b> in blue in the bottom left and the link icon will update and diplay as: ![Linked to case](media/km-linked-icon.png)
 
 ### Email the knowledge article
 
 Use the **Email** button to send the knowledge article via mail. When you select the **Email** button, first, the knowledge article is linked to the current case record. Simultaneously, an email form opens with the link to the article. The article content is populated in the email body. The fields are automatically populated based on the case and customer details. Add other information as needed, and then on the command bar, select **Send**.
 
-  ![Email knowledge article](media/km-email.png "Email knowledge article")
+  > [!div class=mx-imgBorder]
+  > ![Email knowledge article](media/km-email.png "Email knowledge article")
 
 ### View the knowledge article inline in the search control
 
 Select a article title to see its full content rendered in the same control. The article opens inline and you can scroll to read the complete article. In this view mode, you can perform the actions such as linking the knowledge article to a record and emailing the knowledge article to a customer. To learn more about send the knowledge articles via email, see [Email the knowledge article](#email-the-knowledge-article).
 
-  ![Knowledge article inline view](media/km-inline-article-view.png "Knowledge article inline view")
+  > [!div class=mx-imgBorder]
+  > ![Knowledge article inline view](media/km-inline-article-view.png "Knowledge article inline view")
 
 > [!Note]
 > - Select the **Copy Link** button ![Copy knowledge article link button Dynamics 365 Customer Service](../customer-service/media/copy-link-button.png "Copy knowledge article link button Dynamics 365 Customer Service") to copy the external URL of the article so you can share it with your customers over channels like chat or email.  If you use a browser other than [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], this option isn’t available. 
