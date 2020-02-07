@@ -14,6 +14,8 @@ manager: shujoshi
 
 # Activate and upload simple columns data
 
+[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
+
 Use the **Activate & add quotas** step to activate the forecast and make it available for users. After the forecast is active, you can download a template (Excel workbook) and upload it back with data, such as quotas and sample column types for all users who are defined in the forecast hierarchy.
 
 > [!IMPORTANT]

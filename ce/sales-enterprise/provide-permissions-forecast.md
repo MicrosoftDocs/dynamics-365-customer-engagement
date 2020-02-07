@@ -14,6 +14,8 @@ manager: shujoshi
 
 # Provide viewing permissions
 
+[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
+
 In the **Permissions** step of the forecast configuration, you define which team members can view and adjust the forecast data at each level of the hierarchy. Also, you can provide access to users who have specific security roles to view the forecast. 
 
 **To set viewing permissions**

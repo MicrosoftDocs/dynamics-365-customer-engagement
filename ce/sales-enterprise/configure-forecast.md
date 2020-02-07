@@ -14,6 +14,8 @@ manager: shujoshi
 
 # Configure forecasts in your organization
 
+[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
+
 A forecast helps your organization predict how much revenue your sales team will generate in a given timeframe. When done correctly, forecasting can play a significant role in your company's success. By using a forecast:
 
 - Sellers can track performance against their targets and identify pipeline risks that might jeopardize their ability to hit their targets.
@@ -69,7 +71,7 @@ Perform the following prerequisite tasks:
         > [!div class="mx-imgBorder"]
         > ![Forecasts option in sales site map](media/forecast-select-sales-performance-forecasts.png "Forecasts option in the Sales site map")
  
-    -	**Forecast category** appears on the **Opportunity** form. The categories define the confidence level of closing an opportunity. If necessary, you can add custom values specifically defined for your organization.
+    -	**Forecast category** appears on the **Opportunity** form. The categories define the confidence level of closing an opportunity. If necessary, you can add custom values specifically defined for your organization. To learn more, see [Capture forecast category for opportunity](capture-forecast-category-opportunity.md).
 
         > [!div class="mx-imgBorder"]
         > ![Forecast category option in opportunity form](media/capture-forecast-category-opportunity-form.png "Forecast category in an opportunity form")

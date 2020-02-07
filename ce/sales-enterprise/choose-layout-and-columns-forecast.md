@@ -14,6 +14,8 @@ manager: shujoshi
 
 # Choose layout and columns
 
+[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
+
 In the **Layout** step of the forecast configuration, you can configure columns to define the forecast grid that appears for users. You can configure roll-up columns from option sets that are defined for opportunities in your organization.
 
 Perform the following steps to add columns and configure the forecast grid:

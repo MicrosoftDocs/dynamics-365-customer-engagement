@@ -14,6 +14,8 @@ manager: shujoshi
 
 # View a forecast
 
+[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
+
 Bottoms-up forecasting is the projection of what a salesperson, team, or organization will sell in a given predefined period (month or quarter). Sellers can also use forecasts to track their performance by using assigned sales targets or quotas.
 
 **To view a forecast**
