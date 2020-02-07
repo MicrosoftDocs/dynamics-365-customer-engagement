@@ -338,6 +338,10 @@ Occurs when the page has finished loading. On a Unified Interface Page type of h
 > [!Note]
 > For dashboards, web resources, and search pages, the DataReady event isn't fired.
 
+### BrowserWindowReady
+
+The `BrowserWindowReady` event is invoked when the browser window is ready within Unified Service Desk client application. Use `BrowserWindowReady` for dashboards and web resources.
+
 ### OnClickToAct
 
 The `OnClickToAct` event invoked when user selects the outbound communication (ClickToAct) field in a form.
@@ -351,11 +355,6 @@ To learn more, see [onclicktoact](/dynamics365/customer-engagement/developer/cha
 The `OnSendKbArticle` event is invoked when the user selects the **Send** button in the Knowledge Base control. The eventData are the URL and the title of KB article that you need to pass.
 
 To learn more, see [onsendkbarticle](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/events/onsendkbarticle)
-
-### BrowserWindowReady
-
-	The `BrowserWindowReady` event is invoked when the browser window is ready within Unified Service Desk client application. Use `BrowserWindowReady` for dashboards and web resources.
-
 
 ## See also
 
