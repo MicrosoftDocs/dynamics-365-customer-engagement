@@ -42,7 +42,7 @@ You can update the default account that appears for employees when they are crea
 
 1. In your instance, log on to Customer Service Hub as an administrator, and create an account.
 2. Retrieve the account record ID from the URL where you created the account.
-3. Go to https://make.preview.powerapps.com/, and select **Solutions**.
+3. Go to the [Build business apps](https://make.powerapps.com/) portal, and select **Solutions**.
 4. In the **Solutions** list, browse and select **Customer Service Team Member**.
 5. On the **Solutions** > **Customer Service Team Member** page, select **Default customer account**. The **Edit Default customer account** dialog box appears.
 6. Under **Current value**, select **New value**.
