@@ -79,5 +79,5 @@ In the Customer Service Team Member app, you can perform the following tasks:
 
 9. (Optional.) Select **Enter a note** to add notes and attach files.
 10. Select **Save & Close**. The **Active Cases created by me** page appears.
-11. Select **Knowledge Search** to search for articles pertaining to your problem area that may help in addressing the issue. To learn more, see [Independent knowledge base search](https://docs.microsoft.com/en-us/dynamics365/customer-service/search-knowledge-articles-csh#independent-knowledge-base-search).
+11. Select **Knowledge Search** to search for articles pertaining to your problem area that may help in addressing the issue. To learn more, see [Independent knowledge base search](https://docs.microsoft.com/dynamics365/customer-service/search-knowledge-articles-csh#independent-knowledge-base-search).
 12. If you want to close a case after it has been resolved, you can select the case on the **Active Cases created by me** page and click **Close Case**. Alternatively, you can close the case on the **My Case** page.
