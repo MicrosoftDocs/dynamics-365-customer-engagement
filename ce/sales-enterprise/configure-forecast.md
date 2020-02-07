@@ -108,4 +108,5 @@ To configure a forecast in your organization, follow these steps:
 ### See also
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
-[View forecasts](view-forecasts.md)
+[View forecasts](view-forecasts.md)<br>
+[About premium forecasting](/ai/sales/configure-premium-forecasting)

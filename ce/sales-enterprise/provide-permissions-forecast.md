@@ -39,6 +39,12 @@ In the **Permissions** step of the forecast configuration, you define which team
     > [!div class="mx-imgBorder"]
     > ![Forecast permissions step](media/forecast-permissions.png "Forecast permissions step")
 
+    A message displays at the bottom of the page that helps you understand how the forecast security is applied based on your selections.
+
+    > [!div class="mx-imgBorder"]
+    > ![Information on forecast security](media/forecast-add-security-information.png "Information on forecast security")
+
+    
 3.	Select **Next**.
 
 

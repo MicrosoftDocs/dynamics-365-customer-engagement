@@ -14,7 +14,7 @@ manager: shujoshi
 
 # Choose layout and columns
 
-In the **Layout** step of the forecast configuration, you configure columns to define the forecast grid that appears for users. You can configure roll-up columns from option sets that are defined for opportunities in your organization.
+In the **Layout** step of the forecast configuration, you can configure columns to define the forecast grid that appears for users. You can configure roll-up columns from option sets that are defined for opportunities in your organization.
 
 Perform the following steps to add columns and configure the forecast grid:
 
@@ -29,11 +29,11 @@ Perform the following steps to add columns and configure the forecast grid:
 Every forecast needs an option set to define roll-up columns. 
 
 > [!IMPORTANT]
-> The **Prediction** column is only available when predictive forecasting is enabled for your organization. This type of forecasting only works with forecasts that are based on the **Org chart** template. To learn more, see [About premium forecasting](/ai/sales/configure-premium-forecasting).
+> The **Prediction** column is available only when predictive forecasting is enabled for your organization. This type of forecasting works only with forecasts that are based on the **Org chart** template. To learn more, see [About premium forecasting](/ai/sales/configure-premium-forecasting).
 
-To start the layout configuration, select an option set and then add the roll-up columns accordingly, as described in the following steps.
+To define the layout, select an option set and then add the roll-up columns accordingly, as described in the following steps.
 
-1.	In the **Layout and column** section, select **+ Add from option set**. A list of option sets appears.
+1.	In the **Layout and column** section, select **Add from option set**. A list of option sets appears.
 
 2.	Choose an option set, and then select **Choose selected**. The list shows only the option sets defined on the opportunity entity. Each option set value you select is added as a column for you to configure.
 
@@ -60,7 +60,7 @@ You can configure each column individually&mdash;such as changing the column typ
     > [!div class="mx-imgBorder"]
     > ![Select configuration option for a column](media/forecast-layout-column-configuration-selection.png "Select a configuration option for a column")
 
-2.	On the column configuration page, the **Name** specifies the name of the column.
+    On the column configuration page, the **Name** specifies the name of the column.
 
 3.	Select the **Type** of column. The options that appear depend on the type of column you select. For example, when you select a column of type **Calculated**, a text box appears for you to enter a formula to use for calculating the value of the column. 
 
@@ -106,8 +106,6 @@ When you select column **Type** as **Calculated**, the values for the column are
 |-----------|-------------|
 | Data type	| Select a data type for the column that you want to display on the forecast grid, based on the formula. You can select the value **Currency** or **Decimal**, depending on your requirements. |
 | Calculation | Enter a formula to calculate values for the column. When you start typing a formula, suggestions are displayed for your convenience. The names shown are the column's unique name and value. For example, if you want to see the best case forecast in this column, enter the formula as **Closed + Commit + Best Case**. <br> If you enter an invalid formula, an appropriate error message appears below the **Calculation** field. |
-| Amount field | Select the amount field on which the aggregation will be calculated. The available fields are based on the selected **Rollup** entity, such as **Opportunity**. For example, if the **Forecast category** option set is selected, the amount field is automatically configured as **Est. Revenue**. <br> If you're using a custom field to track the estimated revenue for your organization, select that custom field. |
-| Date field | Select the date field that defines the record's forecast period. The available fields are based on the selected **Rollup** entity (**Opportunity**). For example, if the **Forecast category** option set is selected, the date field is configured as **Est. Close Date**. <br>If you're using a custom field to track the estimated close date for your organization, select that custom field.|
 | Description | Enter a description for the column. This description appears as a tooltip on the column header of the forecast grid, to help your users understand what the column contains. |
 | Show progress compared to quota | Enable this option to compare the column's value against the quota column. When enabled, a progress bar indicating the attainment percentage is shown below the forecast value in that column.|
 | Show in Trend Chart | Enable this option to show the value in the **Trend Chart**. This option is available only when predictive forecasting is enabled for your organization. To learn more about trend charts, see [Understand forecast projection through trend chart](/ai/sales/understand-forecast-projection-through-trend-chart.md). |
@@ -179,4 +177,6 @@ For example, you know that opportunities related to **Adatum Corporation** and r
 
 ### See also
 
-[Configure forecasts in your organization](configure-forecast.md)
+[Configure forecasts in your organization](configure-forecast.md)<br>
+[View a forecast](view-forecasts.md)<br>
+[About premium forecasting](/ai/sales/configure-premium-forecasting)

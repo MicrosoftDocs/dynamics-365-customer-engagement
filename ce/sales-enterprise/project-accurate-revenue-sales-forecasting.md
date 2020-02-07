@@ -41,6 +41,5 @@ Review the following prerequisites before using forecast:
 
 ### See also
 
-[Configure a forecast](configure-forecast.md) 
-
+[Configure a forecast](configure-forecast.md)<br>
 [View a forecast](view-forecasts.md)

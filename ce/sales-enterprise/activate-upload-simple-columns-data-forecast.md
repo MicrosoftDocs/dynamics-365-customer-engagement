@@ -14,10 +14,10 @@ manager: shujoshi
 
 # Activate and upload simple columns data
 
-Use the **Activate & add quotas** step to activate the forecast and make it available for users. After the forecast is active, you can download a template (Excel workbook) for later uploading; this template includes quotas and sample column types for all users who are defined in the forecast hierarchy.
+Use the **Activate & add quotas** step to activate the forecast and make it available for users. After the forecast is active, you can download a template (Excel workbook) and upload it back with data, such as quotas and sample column types for all users who are defined in the forecast hierarchy.
 
 > [!IMPORTANT]
-> At any given time, you can have only six active forecasts in your organization.
+> At a time, you can have only six active forecasts in your organization.
 
 1.	In the **Activate forecast** section, select **Activate forecast**. The configured forecast starts calculating the values for forecast and becomes available for users in your organization. The activation might take a few minutes.
 
@@ -28,7 +28,7 @@ Use the **Activate & add quotas** step to activate the forecast and make it avai
 
     > [!NOTE]
     > - If the activation fails, the forecast definition's status and status reason are set to **Active and Failed**. To learn more, see [Why am I unable to publish forecast definition?](troubleshooting.md#why-am-i-unable-to-publish-forecast-definition). <br>
-    > - Forecast auto-recalculation only works while the forecast is active. If the last period of the forecast has just lapsed, the forecast will continue auto-recalculating for 30 more days and then will stop.
+    > - Forecast auto-recalculation works only when the forecast is active. If the last period of the forecast has just lapsed, the forecast will continue auto-recalculating for 30 more days and then will stop.
 
 2.	In the **Upload quota and other static data for this forecast** section, select **Download simple data column template**. A template (Excel workbook) showing users in the hierarchy is downloaded to your local computer.
  
@@ -46,12 +46,12 @@ Use the **Activate & add quotas** step to activate the forecast and make it avai
     > [!div class="mx-imgBorder"]
     > ![Sample Excel workbook view](media/forecasting-excel-file-example.png "Sample Excel workbook view")
 
-    -	**Direct** tab: This tab shows all the sales reps or territories (also called leaf nodes) in the forecasting hierarchy. Enter values the values you want, and when the workbook is uploaded, the values will be displayed under their respective columns in the forecast grid. The values you enter for managers or parent territories on the **Direct** tab won't affect the values that you enter on the **Parent** tab (a manager or parent territory can also be working on opportunities and will have certain values as an individual).
+    -	***Column* (Direct)** tab: This tab shows all the sales reps or territories (also called leaf nodes) in the forecasting hierarchy. Enter the forecast values. After you upload the workbook, the values will be displayed under their respective columns in the forecast grid. The values you enter for managers or parent territories on the **Direct** tab won't affect the values that you enter on the **Parent** tab (a manager or parent territory can also be working on opportunities and will have certain values as an individual).
 
-    -	**Parent** tab: This tab shows anyone who has direct reports in the selected hierarchy. A manager or parent territory has at least one direct report. Enter the values you want, and when the workbook is uploaded, the values will be shown under their respective columns in the forecast grid for managers or parent territories (a level above individuals).
+    -	***Column* (Parent)** tab: This tab shows anyone who has direct reports in the selected hierarchy. A manager or parent territory has at least one direct report. Enter the values you want, and when the workbook is uploaded, the values will be shown under their respective columns in the forecast grid for managers or parent territories (a level above individuals).
 
     > [!IMPORTANT]
-    > Don't change the **Record Id** values in the workbook. If they're changed, the forecast might display inaccurate values.
+    > Don't change the **Record Id** values in the workbook. If they're changed, the forecast will display inaccurate values.
 
 4.	Save and close the workbook.
 

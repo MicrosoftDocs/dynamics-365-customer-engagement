@@ -57,4 +57,5 @@ After recalculation, the data in the forecast reflects the latest opportunity an
 ### See also
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
-[View a forecast](view-forecasts.md)
+[View a forecast](view-forecasts.md)<br>
+[About premium forecasting](/ai/sales/configure-premium-forecasting)

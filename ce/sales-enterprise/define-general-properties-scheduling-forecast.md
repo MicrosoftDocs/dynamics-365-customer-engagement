@@ -32,10 +32,10 @@ Using the general properties and scheduling options of the forecast configuratio
 
     **Hierarchy route** is configured based on the template that you've selected. This determines how the forecast will roll up through your organization. The following **Hierarchy routes** are predefined:
 
-        | Template | Hierarchy route | Description |
-        |----------|-----------------|-------------|
-        | Org chart forecast | Opportunity > Owner | The forecast hierarchy is defined based on the organizational hierarchy. |
-        | Territory forecast | Opportunity > Account > Territory | The forecast hierarchy is defined based on the territory hierarchy. |
+    | Template | Hierarchy route | Description |
+    |----------|-----------------|-------------|
+    | Org chart forecast | Opportunity > Owner | The forecast hierarchy is defined based on the organizational hierarchy. |
+    | Territory forecast | Opportunity > Account > Territory | The forecast hierarchy is defined based on the territory hierarchy. |
 
 3.	In the **Top of hierarchy** list, choose the user or territory that's at the top of this forecast hierarchy. 
 
