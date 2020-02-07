@@ -69,7 +69,7 @@ Here are the required view columns:
 
 The Customer Service Hub comes with an enhanced Knowledge Base Search that shows you the articles arranged in a single stream. Searching, sorting, and filtering the articles in the search control will be faster and more responsive with improvements to article viewability and usability.
 
-When you select the Knowledge Base Search option in the RELATED section, the Knowledge Base Search control loads, and you can view the following:
+When you select the **Knowledge Base Search** option in the **RELATED** section, the **Knowledge Base Search** control loads, and you can view the following:
 
   > [!div class=mx-imgBorder]
   > ![Knowledge-article-search](media/Knowledge-base-search-1.png "Knowledge article search")
@@ -99,7 +99,7 @@ In the knowledge base search control, you perform the following:
 
 ### Display knowledge article pop outs 
 
-1. In the top right corner, select on the ellipsis (...) 
+1. In the top right corner, select the ellipsis (...) 
 2. A display window will appear with the Pop out option
 3. Select on **Pop out** option
 4. This will opened and the article will be expanded into a new window.
@@ -132,8 +132,8 @@ Agents can perform the following:
 
 To configure, see [Configure knowledge base article URLs](/search-knowledge-articles-csh.md#configure-knowledge-base-article-url).
 
-
-  ![Independent KB search](media/kb-independent-search.png)
+  > [!div class=mx-imgBorder]
+  > ![Independent KB search](media/kb-independent-search.png)
 
   1. In the sitemap, select **Knowledge Search**.
   2. In search box, type keywords of an article.  
@@ -146,19 +146,21 @@ To configure, see [Configure knowledge base article URLs](/search-knowledge-arti
 
 Knowledge articles can be configured to their own URLs, which agents can copy and share.  To configure a knowledge based article URL, use the following steps:
 
-  1. In the sitemap, under **Knowledge Base Management** select **Embedded Knowledge URL**.
+1. In the sitemap, under **Knowledge Base Management** select **Embedded Knowledge URL**.
 
-  2. Select the URL format.
+2. Select the URL format.
 
-  ![Independent KB search](media/kb-independent-search-url-1.png)
+   > [!div class=mx-imgBorder]
+   > ![Independent KB search](media/kb-independent-search-url-1.png)
 
-  3. Under **Support Portal Connection**, select **Yes**
+3. Under **Support Portal Connection**, select **Yes**
 
-  4. Under URL Format, enter URL name
+4. Under URL Format, enter URL name.
 
-  5. Select **Save**
+5. Select **Save**.
 
-  ![Independent KB search](media/kb-independent-search-url-2.png)
+    > [!div class=mx-imgBorder]
+    > ![Independent KB search](media/kb-independent-search-url-2.png)
 
 Knowledge based (KB) article URL is now active and can be copied and shared.
 
@@ -198,7 +200,7 @@ When configured, you can link an article to case. You can associate and dissocia
 
   
 1. From the navigation in the top right of the article there is a link icon. 
-2. When configured, you can select on the link icon and this will link the article to a case.
+2. When configured, you can select the link icon and this will link the article to a case.
 3. Articles that are linked to a case will display  **Linked to Case** in blue in the bottom left and the link icon will update and display as: ![Linked to case](media/km-linked-icon.png)
 
 ### Email the knowledge article
