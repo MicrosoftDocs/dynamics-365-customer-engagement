@@ -75,7 +75,7 @@ By default, Setup installs all Dynamics 365 Server roles on the local computer. 
  `DeploymentWebService`  
  Installs the [!INCLUDE[pn_Deployment_Web_Service](../includes/pn-deployment-web-service.md)] component that is required to manage the deployment by using the methods described in the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)], such as create an organization or remove a [!INCLUDE[pn_Deployment_Administrator](../includes/pn-deployment-administrator.md)] role from a user.  
   
- `VSSWriter`  
+ `VssWriterService`  
  Installs the interface that can be used to back up and restore [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data by using the Windows Server Volume Shadow Copy Service (VSS) infrastructure.  
   
 > [!IMPORTANT]
