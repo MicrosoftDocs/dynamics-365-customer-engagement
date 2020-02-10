@@ -25,23 +25,24 @@ To use the Events API, you need to provide a web application token in each reque
 
 1. Open your Dynamics 365 Marketing instance and navigate to **Event Management**.
 2. Select the drop-down and select **Settings**
-
-    ![Settings](../media/event-management-settings.png "Settings")
+    > [!div class="mx-imgBorder"]
+    > ![Settings](../media/event-management-settings.png "Settings")
     
 3. Select **Web applications**.
-    
-    ![Web application token](../media/create-web-application-token.png "Web application token")
+    > [!div class="mx-imgBorder"]
+    > ![Web application token](../media/create-web-application-token.png "Web application token")
     
 4. Select **New** to create a new web application token.
 5. Enter details in the **Name** field.
 6. For the **Origin** field enter the  URL from where your application is served in the **Primary endpoint** value that you got while enabling the static website. For example: `https://localhost:4200` or `https://contoso.com`.
-
-   ![Web application token details](../media/enter-web-application-token-details.png "Web application token details")
+   
+   > [!div class="mx-imgBorder"]
+   > ![Web application token details](../media/enter-web-application-token-details.png "Web application token details")
    
    > [!NOTE]
    > When you enter the Primary endpoint value, make sure that you don't have a trailing slash (/) at the end of the url.
    
-7. Select **Save**. You will get the web application token and the API endpoint. 
+7. Select **Save**. You will get the web application token and the API endpoint.
 
 ## See also
 
