@@ -14,8 +14,6 @@ manager: shujoshi
 
 # View a forecast
 
-[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
-
 Bottoms-up forecasting is the projection of what a salesperson, team, or organization will sell in a given predefined period (month or quarter). Sellers can also use forecasts to track their performance by using assigned sales targets or quotas.
 
 **To view a forecast**
@@ -93,5 +91,5 @@ Using the forecast grid, you can do the following tasks:
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
 [Configure a forecast](configure-forecast.md)<br>
-[Analyze revenue outcome by using predictive forecasting](/ai/sales/analyze-revenue-outcome-using-predictive-forecasting)<br>
+[Analyze revenue outcome by using predictive forecasting](https://docs.microsoft.com/dynamics365/ai/sales/analyze-revenue-outcome-using-predictive-forecasting)<br>
 [Entity reference for manual forecasting](developer/reference/manual-forecasting-entity-reference.md)
