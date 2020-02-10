@@ -14,8 +14,6 @@ manager: shujoshi
 
 # Choose layout and columns
 
-[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
-
 In the **Layout** step of the forecast configuration, you can configure columns to define the forecast grid that appears for users. You can configure roll-up columns from option sets that are defined for opportunities in your organization.
 
 Perform the following steps to add columns and configure the forecast grid:
@@ -31,7 +29,7 @@ Perform the following steps to add columns and configure the forecast grid:
 Every forecast needs an option set to define roll-up columns. 
 
 > [!IMPORTANT]
-> The **Prediction** column is available only when predictive forecasting is enabled for your organization. This type of forecasting works only with forecasts that are based on the **Org chart** template. To learn more, see [About premium forecasting](/ai/sales/configure-premium-forecasting).
+> The **Prediction** column is available only when predictive forecasting is enabled for your organization. This type of forecasting works only with forecasts that are based on the **Org chart** template. To learn more, see [About premium forecasting](https://docs.microsoft.com/dynamics365/ai/sales/configure-premium-forecasting).
 
 To define the layout, select an option set and then add the roll-up columns accordingly, as described in the following steps.
 
@@ -84,6 +82,9 @@ You can configure each column individually&mdash;such as changing the column typ
 
 ### Rollup type
 
+> [!NOTE]
+> Rollup type is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](https://aka.ms/EarlyAccessOpt-in).
+
 The **Rollup** column type aggregates the values of all fields based on the selected **Selector** and **Amount field** values, by using the **Date field** value as the filter criteria. 
 
 Select the column **Type** as **Rollup**. The following options are available to configure.
@@ -102,6 +103,9 @@ Select the column **Type** as **Rollup**. The following options are available to
 
 ### Calculated type
 
+> [!NOTE]
+> Calculated type is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](https://aka.ms/EarlyAccessOpt-in). 
+
 When you select column **Type** as **Calculated**, the values for the column are calculated and displayed based on a formula that you define. The following options are available to configure.
 
 | Parameter | Description |
@@ -110,7 +114,7 @@ When you select column **Type** as **Calculated**, the values for the column are
 | Calculation | Enter a formula to calculate values for the column. When you start typing a formula, suggestions are displayed for your convenience. The names shown are the column's unique name and value. For example, if you want to see the best case forecast in this column, enter the formula as **Closed + Commit + Best Case**. <br> If you enter an invalid formula, an appropriate error message appears below the **Calculation** field. |
 | Description | Enter a description for the column. This description appears as a tooltip on the column header of the forecast grid, to help your users understand what the column contains. |
 | Show progress compared to quota | Enable this option to compare the column's value against the quota column. When enabled, a progress bar indicating the attainment percentage is shown below the forecast value in that column.|
-| Show in Trend Chart | Enable this option to show the value in the **Trend Chart**. This option is available only when predictive forecasting is enabled for your organization. To learn more about trend charts, see [Understand forecast projection through trend chart](/ai/sales/understand-forecast-projection-through-trend-chart.md). |
+| Show in Trend Chart | Enable this option to show the value in the **Trend Chart**. This option is available only when predictive forecasting is enabled for your organization. To learn more about trend charts, see [Understand forecast projection through trend chart](https://docs.microsoft.com/dynamics365/ai/sales/understand-forecast-projection-through-trend-chart). |
 | Unique name | The unique name is used to identify the column when you're writing a formula for a **Calculated** column. |	
 
 ### Simple type
@@ -137,6 +141,8 @@ When you select column **Type** as **Hierarchy related**, the column helps you p
 | Unique name | The unique name is used to identify the column to use when you're writing a formula for a **Calculated** column. |
 
 ## Apply additional filters
+
+[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
 
 Using additional filters, you can filter the opportunities that participate in calculating the forecast values. To filter the opportunities, you create filters based on conditions by using the attributes that belong to the Opportunity entity, including related entity attributes.
 
@@ -181,4 +187,4 @@ For example, you know that opportunities related to **Adatum Corporation** and r
 
 [Configure forecasts in your organization](configure-forecast.md)<br>
 [View a forecast](view-forecasts.md)<br>
-[About premium forecasting](/ai/sales/configure-premium-forecasting)
+[About premium forecasting](https://docs.microsoft.com/dynamics365/ai/sales/configure-premium-forecasting)
