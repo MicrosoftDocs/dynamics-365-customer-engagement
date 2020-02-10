@@ -26,14 +26,13 @@ search.app:
 
 You can remove Marketing from any Dynamics 365 instance where you have installed it. After removing it, you'll end up with a free Marketing entitlement (license) that you can install on another Dynamics 365 instance if needed.
 
-> [!NOTE]
-> If you want to release your Marketing entitlement to use for a different instance, you do not need to uninstall the Marketing app.
-
-The uninstall process has up to three steps:
+To uninstall Marketing and reuse the entitlement, complete the following steps:
 
 1. Uninstall the Marketing services by running the uninstall wizard.
 1. Reset all Dynamics 365 Portals that were connected to the Marketing (if any).
-1. Clean up the Marketing solutions in Dynamics 365.
+
+> [!NOTE]
+> If you want to release your Marketing entitlement to use for a different instance, you do not need to uninstall the Marketing solutions.
 
 ## Uninstall the Marketing services
 The Marketing uninstall wizard manages most of the uninstall process. It:
