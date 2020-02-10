@@ -4,7 +4,7 @@ description: Customer Service Team Member app
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/07/2020
+ms.date: 02/10/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -22,7 +22,7 @@ search.app:
 
 [!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
 
-With the entry-level Team Member license, you can now address self-service support scenarios for your employees using the new Customer Service Team Member app module. Employees can create cases for their problems, such as laptop issues, HR queries, and administrative needs, and interact with agents through the commenting feature. They can also search the knowledge base for solutions pertaining to their problems.
+With the entry-level Team Member license, you can now address self-service support scenarios for your employees using the new Customer Service Team Member app module. Employees can create cases for their problems, such as laptop issues, HR queries, and administrative needs, and interact with agents through the commenting feature. They can also search the knowledge base for solutions pertaining to their problems. 
 
 ## Install Customer Service Team Member app
 
@@ -31,7 +31,7 @@ The Customer Service Team Member app must be manually installed in your instance
 1. As an administrator, sign in to Dynamics 365 Administration Center, and select **Manage Solutions**. The **Manage your Dynamics 365 instances** page appears.
 2. Select the instance in which you want to install the Team Member app, and select the edit icon beside **Solutions**. The **Manage your solutions** page appears.
 3. Select **Customer Service Team Member Anchor**, and select **INSTALL**. The solution is installed and the **STATUS** column in the table displays "Installed".
-4. Grant the **Customer Service Team Member** role to the users who will access the app. To learn about granting the role, see [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+4. Grant the **Customer Service Team Member** role to the users who will access the app. To learn about granting the role, see [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
 ## Change the default account
 
@@ -79,9 +79,13 @@ In the Customer Service Team Member app, you can perform the following tasks:
 
 9. (Optional.) Select **Enter a note** to add notes and attach files.
 10. Select **Save & Close**. The **Active Cases created by me** page appears.
-11. Select **Knowledge Search** to search for articles pertaining to your problem area that may help in addressing the issue. To learn more, see [Independent knowledge base search](https://docs.microsoft.com/dynamics365/customer-service/search-knowledge-articles-csh#independent-knowledge-base-search).
+11. Select **Knowledge Search** to search for articles pertaining to your problem area that may help in addressing the issue. To learn more, see [Independent knowledge base search](search-knowledge-articles-csh#independent-knowledge-base-search).
 
     > [!NOTE]
-    > Copying and sending article URLs is not supported in the Customer Service Team Member app. 
+    > Sending article URLs is not supported in the Customer Service Team Member app. 
 
 12. If you want to close a case after it has been resolved, you can select the case on the **Active Cases created by me** page and click **Close Case**. Alternatively, you can close the case on the **My Case** page.
+
+### See also
+
+[Dynamics 365 Team Members license](https://docs.microsoft.com/dynamics365/get-started/team-members-license)
