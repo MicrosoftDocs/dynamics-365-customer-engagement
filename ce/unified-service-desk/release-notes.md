@@ -22,6 +22,15 @@ search.app:
 
 ## Unified Service Desk 4.1 known issues and limitations
 
+### Condition evaluation is not working
+
+If you've followed the security advisory recommendations on [Microsoft Guidance on Scripting Engine Memory Corruption Vulnerability](https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200001), you might see that the condition evaluation inside Unified Service Desktop will stop working.
+
+#### Workaround
+
+To workaround the issue, upgrade your Unified Service Desk client to a version greater than 4.1.1.1395.
+
+
 ### Creating an Instance of COM component with CLSID
 
 You use IE process hosting type and upgrade your Windows 10 to the latest version. When you launch the Unified Service Desk client application, you might see the following error: 
