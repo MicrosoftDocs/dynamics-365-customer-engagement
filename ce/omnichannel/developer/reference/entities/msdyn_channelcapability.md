@@ -1,56 +1,51 @@
 ---
-title: "msdyn_chatwidgetlanguage Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_chatwidgetlanguage entity."
+title: "msdyn_channelcapability Entity Reference| MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_channelcapability entity."
+ms.date: 02/06/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
-# msdyn_chatwidgetlanguage Entity Reference
+# msdyn_channelcapability Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-The language of the configured live chat widget.
+The capability that a channel can enable, such as co-browse, screen sharing.
 
-**Added by**: Omnichannel – Chat Solution
+**Added by**: Omnichannel - Base Patch Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_chatwidgetlanguages(*msdyn_chatwidgetlanguageid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_chatwidgetlanguages<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_chatwidgetlanguages(*msdyn_chatwidgetlanguageid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_channelcapabilities<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple|<xref href="Microsoft.Dynamics.CRM.CreateMultiple?text=CreateMultiple Action" />|CreateMultipleRequest|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_channelcapabilities(*msdyn_channelcapabilityid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_chatwidgetlanguages(*msdyn_chatwidgetlanguageid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_chatwidgetlanguages<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_chatwidgetlanguages(*msdyn_chatwidgetlanguageid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_chatwidgetlanguages(*msdyn_chatwidgetlanguageid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_channelcapabilities(*msdyn_channelcapabilityid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_channelcapabilities<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_channelcapabilities(*msdyn_channelcapabilityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_channelcapabilities(*msdyn_channelcapabilityid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple|<xref href="Microsoft.Dynamics.CRM.UpdateMultiple?text=UpdateMultiple Action" />|UpdateMultipleRequest|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_chatwidgetlanguages|
-|DisplayCollectionName|Chat Widget Languages|
-|DisplayName|Chat Widget Language|
-|EntitySetName|msdyn_chatwidgetlanguages|
+|CollectionSchemaName|msdyn_channelcapabilities|
+|DisplayCollectionName|Channel Capabilites|
+|DisplayName|Channel Capability|
+|EntitySetName|msdyn_channelcapabilities|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_chatwidgetlanguages|
-|LogicalName|msdyn_chatwidgetlanguage|
-|OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_chatwidgetlanguageid|
-|PrimaryNameAttribute|msdyn_languagename|
-|SchemaName|msdyn_chatwidgetlanguage|
+|LogicalCollectionName|msdyn_channelcapabilities|
+|LogicalName|msdyn_channelcapability|
+|OwnershipType|OrganizationOwned|
+|PrimaryIdAttribute|msdyn_channelcapabilityid|
+|PrimaryNameAttribute|msdyn_name|
+|SchemaName|msdyn_channelcapability|
 
 <a name="writable-attributes"></a>
 
@@ -59,12 +54,12 @@ The language of the configured live chat widget.
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_chatwidgetlanguageId](#BKMK_msdyn_chatwidgetlanguageId)
-- [msdyn_languagename](#BKMK_msdyn_languagename)
-- [msdyn_localeid](#BKMK_msdyn_localeid)
+- [msdyn_channelcapabilityId](#BKMK_msdyn_channelcapabilityId)
+- [msdyn_ConversationAction](#BKMK_msdyn_ConversationAction)
+- [msdyn_EscalationChannelMode](#BKMK_msdyn_EscalationChannelMode)
+- [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_Provider](#BKMK_msdyn_Provider)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
-- [OwnerId](#BKMK_OwnerId)
-- [OwnerIdType](#BKMK_OwnerIdType)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
 - [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
@@ -88,50 +83,86 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_chatwidgetlanguageId"></a> msdyn_chatwidgetlanguageId
+### <a name="BKMK_msdyn_channelcapabilityId"></a> msdyn_channelcapabilityId
 
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|Chat Widget Language|
+|DisplayName|Channel Capability|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_chatwidgetlanguageid|
+|LogicalName|msdyn_channelcapabilityid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
 
-### <a name="BKMK_msdyn_languagename"></a> msdyn_languagename
+### <a name="BKMK_msdyn_ConversationAction"></a> msdyn_ConversationAction
 
 |Property|Value|
 |--------|-----|
-|Description|The language name of the record.|
-|DisplayName|Language Name|
+|Description||
+|DisplayName|Conversation Action|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_conversationaction|
+|RequiredLevel|None|
+|Targets|msdyn_conversationaction|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_EscalationChannelMode"></a> msdyn_EscalationChannelMode
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Escalation Channel Mode|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_escalationchannelmode|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+
+#### msdyn_EscalationChannelMode Options
+
+|Value|Label|
+|-----|-----|
+|100000000|Screen sharing|
+|192350000|Audio|
+|192350001|Video|
+|192350002|Co-browse|
+|192350003|None|
+
+
+
+### <a name="BKMK_msdyn_name"></a> msdyn_name
+
+|Property|Value|
+|--------|-----|
+|Description|The name of the custom entity.|
+|DisplayName|Name|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_languagename|
+|LogicalName|msdyn_name|
 |MaxLength|100|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_localeid"></a> msdyn_localeid
+### <a name="BKMK_msdyn_Provider"></a> msdyn_Provider
 
 |Property|Value|
 |--------|-----|
-|Description|The Locale ID of the language this record represents.|
-|DisplayName|Locale ID|
-|Format|None|
+|Description||
+|DisplayName|Provider|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_localeid|
-|MaxValue|100000|
-|MinValue|0|
+|LogicalName|msdyn_provider|
 |RequiredLevel|ApplicationRequired|
-|Type|Integer|
+|Targets|msdyn_provider|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -150,42 +181,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|DateTime|
 
 
-### <a name="BKMK_OwnerId"></a> OwnerId
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Owner Id|
-|DisplayName|Owner|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|ownerid|
-|RequiredLevel|SystemRequired|
-|Targets|systemuser,team|
-|Type|Owner|
-
-
-### <a name="BKMK_OwnerIdType"></a> OwnerIdType
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Owner Id Type|
-|DisplayName||
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owneridtype|
-|RequiredLevel|SystemRequired|
-|Type|EntityName|
-
-
 ### <a name="BKMK_statecode"></a> statecode
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Chat Widget Language|
+|Description|Status of the Channel Capability|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -207,7 +207,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Chat Widget Language|
+|Description|Reason for the status of the Channel Capability|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -275,11 +275,10 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [OwnerIdName](#BKMK_OwnerIdName)
-- [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
-- [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
-- [OwningTeam](#BKMK_OwningTeam)
-- [OwningUser](#BKMK_OwningUser)
+- [msdyn_ConversationActionName](#BKMK_msdyn_ConversationActionName)
+- [msdyn_ProviderName](#BKMK_msdyn_ProviderName)
+- [OrganizationId](#BKMK_OrganizationId)
+- [OrganizationIdName](#BKMK_OrganizationIdName)
 - [VersionNumber](#BKMK_VersionNumber)
 
 
@@ -521,88 +520,70 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_OwnerIdName"></a> OwnerIdName
-
-**Added by**: Active Solution Solution
+### <a name="BKMK_msdyn_ConversationActionName"></a> msdyn_ConversationActionName
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the owner|
+|Description||
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|owneridname|
+|LogicalName|msdyn_conversationactionname|
 |MaxLength|100|
-|RequiredLevel|SystemRequired|
+|RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
-
-**Added by**: Active Solution Solution
+### <a name="BKMK_msdyn_ProviderName"></a> msdyn_ProviderName
 
 |Property|Value|
 |--------|-----|
-|Description|Yomi name of the owner|
+|Description||
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|owneridyominame|
+|LogicalName|msdyn_providername|
 |MaxLength|100|
-|RequiredLevel|SystemRequired|
+|RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
+### <a name="BKMK_OrganizationId"></a> OrganizationId
 
 **Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for the business unit that owns the record|
-|DisplayName|Owning Business Unit|
+|Description|Unique identifier for the organization|
+|DisplayName|Organization Id|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|owningbusinessunit|
+|LogicalName|organizationid|
 |RequiredLevel|None|
-|Targets|businessunit|
+|Targets|organization|
 |Type|Lookup|
 
 
-### <a name="BKMK_OwningTeam"></a> OwningTeam
+### <a name="BKMK_OrganizationIdName"></a> OrganizationIdName
 
 **Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for the team that owns the record.|
-|DisplayName|Owning Team|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|owningteam|
-|RequiredLevel|None|
-|Targets|team|
-|Type|Lookup|
-
-
-### <a name="BKMK_OwningUser"></a> OwningUser
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for the user that owns the record.|
-|DisplayName|Owning User|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owninguser|
-|RequiredLevel|None|
-|Targets|systemuser|
-|Type|Lookup|
+|LogicalName|organizationidname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
@@ -621,29 +602,26 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="onetomany"></a>
+<a name="manytoone"></a>
 
-## One-To-Many Relationships
+## Many-To-One Relationships
 
-Listed by **SchemaName**.
+Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
+
+- [msdyn_msdyn_provider_msdyn_channelcapability_Provider](#BKMK_msdyn_msdyn_provider_msdyn_channelcapability_Provider)
+- [msdyn_msdyn_conversationaction_msdyn_channelcapability_ConversationAction](#BKMK_msdyn_msdyn_conversationaction_msdyn_channelcapability_ConversationAction)
 
 
-### <a name="BKMK_msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale"></a> msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale
+### <a name="BKMK_msdyn_msdyn_provider_msdyn_channelcapability_Provider"></a> msdyn_msdyn_provider_msdyn_channelcapability_Provider
 
-Same as msdyn_livechatconfig entity [msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale](msdyn_livechatconfig.md) Many-To-One relationship.
+See msdyn_provider Entity [msdyn_msdyn_provider_msdyn_channelcapability_Provider](msdyn_provider.md#BKMK_msdyn_msdyn_provider_msdyn_channelcapability_Provider) One-To-Many relationship.
 
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_livechatconfig|
-|ReferencingAttribute|msdyn_widgetlocale|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+### <a name="BKMK_msdyn_msdyn_conversationaction_msdyn_channelcapability_ConversationAction"></a> msdyn_msdyn_conversationaction_msdyn_channelcapability_ConversationAction
 
+See msdyn_conversationaction Entity [msdyn_msdyn_conversationaction_msdyn_channelcapability_ConversationAction](msdyn_conversationaction.md#BKMK_msdyn_msdyn_conversationaction_msdyn_channelcapability_ConversationAction) One-To-Many relationship.
 
 ### See also
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
-[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)<br />
+<xref href="Microsoft.Dynamics.CRM.msdyn_channelcapability?text=msdyn_channelcapability EntityType" />
