@@ -136,8 +136,6 @@ When you select column **Type** as **Hierarchy related**, the column helps you p
 
 ## Apply additional filters
 
-[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
-
 Using additional filters, you can filter the opportunities that participate in calculating the forecast values. To filter the opportunities, you create filters based on conditions by using the attributes that belong to the Opportunity entity, including related entity attributes.
 
 For example, you know that opportunities related to **Adatum Corporation** and revenue more than or equal to **$10,000** can't be closed for the current quarter. To filter such opportunities in the forecast, follow these steps to create a query for this condition.
