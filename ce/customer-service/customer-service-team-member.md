@@ -79,7 +79,7 @@ In the Customer Service Team Member app, you can perform the following tasks:
 
 9. (Optional.) Select **Enter a note** to add notes and attach files.
 10. Select **Save & Close**. The **Active Cases created by me** page appears.
-11. Select **Knowledge Search** to search for articles pertaining to your problem area that may help in addressing the issue. To learn more, see [Independent knowledge base search](search-knowledge-articles-csh#independent-knowledge-base-search).
+11. Select **Knowledge Search** to search for articles pertaining to your problem area that may help in addressing the issue. To learn more, see [Independent knowledge base search](search-knowledge-articles-csh.md#independent-knowledge-base-search).
 
     > [!NOTE]
     > Sending article URLs is not supported in the Customer Service Team Member app. 
