@@ -1,56 +1,60 @@
 ---
-title: "msdyn_chatwidgetlanguage Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_chatwidgetlanguage entity."
-author: "susikka"
-ms.author: "susikka"
-manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
+title: "msdyn_conversationactionlocale Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_conversationactionlocale entity."
+ms.date: 02/06/2020
+ms.service: "crm-online"
 ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
+author: "JimDaly"
+ms.author: "jdaly"
+manager: "jdaly"
 ---
-# msdyn_chatwidgetlanguage Entity Reference
+# msdyn_conversationactionlocale Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-The language of the configured live chat widget.
+Localization information associated with the Conversation action.
 
-**Added by**: Omnichannel – Chat Solution
+**Added by**: Omnichannel - Base Patch Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_chatwidgetlanguages(*msdyn_chatwidgetlanguageid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_chatwidgetlanguages<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_chatwidgetlanguages(*msdyn_chatwidgetlanguageid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_conversationactionlocales(*msdyn_conversationactionlocaleid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_conversationactionlocales<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple|<xref href="Microsoft.Dynamics.CRM.CreateMultiple?text=CreateMultiple Action" />|CreateMultipleRequest|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_conversationactionlocales(*msdyn_conversationactionlocaleid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_chatwidgetlanguages(*msdyn_chatwidgetlanguageid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_chatwidgetlanguages<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_conversationactionlocales(*msdyn_conversationactionlocaleid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_conversationactionlocales<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_chatwidgetlanguages(*msdyn_chatwidgetlanguageid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_chatwidgetlanguages(*msdyn_chatwidgetlanguageid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_conversationactionlocales(*msdyn_conversationactionlocaleid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_conversationactionlocales(*msdyn_conversationactionlocaleid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple|<xref href="Microsoft.Dynamics.CRM.UpdateMultiple?text=UpdateMultiple Action" />|UpdateMultipleRequest|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_chatwidgetlanguages|
-|DisplayCollectionName|Chat Widget Languages|
-|DisplayName|Chat Widget Language|
-|EntitySetName|msdyn_chatwidgetlanguages|
+|CollectionSchemaName|msdyn_conversationactionlocales|
+|DisplayCollectionName|Conversation Action Locale|
+|DisplayName|Conversation Action Locale|
+|EntitySetName|msdyn_conversationactionlocales|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_chatwidgetlanguages|
-|LogicalName|msdyn_chatwidgetlanguage|
+|LogicalCollectionName|msdyn_conversationactionlocales|
+|LogicalName|msdyn_conversationactionlocale|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_chatwidgetlanguageid|
-|PrimaryNameAttribute|msdyn_languagename|
-|SchemaName|msdyn_chatwidgetlanguage|
+|PrimaryIdAttribute|msdyn_conversationactionlocaleid|
+|PrimaryNameAttribute|msdyn_name|
+|SchemaName|msdyn_conversationactionlocale|
 
 <a name="writable-attributes"></a>
 
@@ -59,9 +63,13 @@ The language of the configured live chat widget.
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_chatwidgetlanguageId](#BKMK_msdyn_chatwidgetlanguageId)
-- [msdyn_languagename](#BKMK_msdyn_languagename)
-- [msdyn_localeid](#BKMK_msdyn_localeid)
+- [msdyn_Conversationactionkey](#BKMK_msdyn_Conversationactionkey)
+- [msdyn_conversationactionlocaleId](#BKMK_msdyn_conversationactionlocaleId)
+- [msdyn_Label](#BKMK_msdyn_Label)
+- [msdyn_Locale_picklist](#BKMK_msdyn_Locale_picklist)
+- [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_SlashCommands](#BKMK_msdyn_SlashCommands)
+- [msdyn_Tooltip](#BKMK_msdyn_Tooltip)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -88,50 +96,116 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_chatwidgetlanguageId"></a> msdyn_chatwidgetlanguageId
+### <a name="BKMK_msdyn_Conversationactionkey"></a> msdyn_Conversationactionkey
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Conversation Action key|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_conversationactionkey|
+|RequiredLevel|ApplicationRequired|
+|Targets|msdyn_conversationaction|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_conversationactionlocaleId"></a> msdyn_conversationactionlocaleId
 
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|Chat Widget Language|
+|DisplayName|Conversation Action Locale|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_chatwidgetlanguageid|
+|LogicalName|msdyn_conversationactionlocaleid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
 
-### <a name="BKMK_msdyn_languagename"></a> msdyn_languagename
+### <a name="BKMK_msdyn_Label"></a> msdyn_Label
 
 |Property|Value|
 |--------|-----|
-|Description|The language name of the record.|
-|DisplayName|Language Name|
+|Description||
+|DisplayName|Label|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_languagename|
+|LogicalName|msdyn_label|
 |MaxLength|100|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_localeid"></a> msdyn_localeid
+### <a name="BKMK_msdyn_Locale_picklist"></a> msdyn_Locale_picklist
 
 |Property|Value|
 |--------|-----|
-|Description|The Locale ID of the language this record represents.|
-|DisplayName|Locale ID|
-|Format|None|
+|Description||
+|DisplayName|Locale|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_localeid|
-|MaxValue|100000|
-|MinValue|0|
+|LogicalName|msdyn_locale_picklist|
 |RequiredLevel|ApplicationRequired|
-|Type|Integer|
+|Type|Picklist|
+
+#### msdyn_Locale_picklist Options
+
+|Value|Label|
+|-----|-----|
+|1033|English(en-US)|
+
+
+
+### <a name="BKMK_msdyn_name"></a> msdyn_name
+
+|Property|Value|
+|--------|-----|
+|Description|The name of the custom entity.|
+|DisplayName|Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_name|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_SlashCommands"></a> msdyn_SlashCommands
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Slash Commands|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_slashcommands|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_Tooltip"></a> msdyn_Tooltip
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Tooltip|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_tooltip|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -185,7 +259,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Chat Widget Language|
+|Description|Status of the Conversation Action Locale|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -207,7 +281,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Chat Widget Language|
+|Description|Reason for the status of the Conversation Action Locale|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -275,6 +349,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_conversationactionkeyName](#BKMK_msdyn_conversationactionkeyName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -521,6 +596,22 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msdyn_conversationactionkeyName"></a> msdyn_conversationactionkeyName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_conversationactionkeyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
 **Added by**: Active Solution Solution
@@ -621,29 +712,19 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="onetomany"></a>
+<a name="manytoone"></a>
 
-## One-To-Many Relationships
+## Many-To-One Relationships
 
-Listed by **SchemaName**.
+Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
 
-### <a name="BKMK_msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale"></a> msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale
+### <a name="BKMK_msdyn_msdyn_conversationaction_msdyn_conversationactionlocale_CAkey"></a> msdyn_msdyn_conversationaction_msdyn_conversationactionlocale_CAkey
 
-Same as msdyn_livechatconfig entity [msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale](msdyn_livechatconfig.md) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_livechatconfig|
-|ReferencingAttribute|msdyn_widgetlocale|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
+See msdyn_conversationaction Entity [msdyn_msdyn_conversationaction_msdyn_conversationactionlocale_CAkey](msdyn_conversationaction.md#BKMK_msdyn_msdyn_conversationaction_msdyn_conversationactionlocale_CAkey) One-To-Many relationship.
 
 ### See also
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
-[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)<br />
+<xref href="Microsoft.Dynamics.CRM.msdyn_conversationactionlocale?text=msdyn_conversationactionlocale EntityType" />
