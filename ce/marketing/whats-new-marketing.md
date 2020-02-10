@@ -30,9 +30,17 @@ Microsoft rolls out each monthly and biannual update on a region-by-region basis
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
 
-## February 2020 update (version 1.35.10058.1075)
+## February 2020 update
 
 The Dynamics 365 Marketing February 2020 update includes an improved segment experience plus several feature enhancements, performance upgrades, and bug fixes. Early access features include an updated email content designer, marketing forms for event registrations, and improved customer journeys.
+
+### Version numbers
+
+|          | GA release      | Early access    |
+|----------|-----------------|-----------------|
+| MKT      | 1.35.10058.1075 | 1.35.10058.2083 |
+| EM       | 1.12.10020.1013 | 1.12.10020.1013 |
+| LinkedIn | 1.13.10021.1004 | 1.13.10021.1004 |
 
 ### Early access features
 
