@@ -12,9 +12,9 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Retrieve forecast data using msdyn_ForecastInstanceActions
+# Retrieve forecast and snapshot data using msdyn_ForecastInstanceActions
 
-Use **msdyn_ForecastInstanceActions** to programmatically retrieve the forecast data that is related to you and your hierarchy. 
+Use **msdyn_ForecastInstanceActions** to programmatically retrieve the forecast and snapshot data that is related to you and your hierarchy. 
 
 >[!NOTE]
 > This topic is applicable only for [Forecast](../../../project-accurate-revenue-sales-forecasting.md) feature.
@@ -58,9 +58,17 @@ Use **msdyn_ForecastInstanceActions** to programmatically retrieve the forecast 
 
 To retrieve your data, you must perform the following:
 
-1. Create a post request to get metadata for the forecast. To learn more, see [Get metadata of the forecast](#get-metadata-of-the-forecast).
+1. Create a post request to get metadata for the forecast or snapshot.
 
-2. Using the metadata response, create a post request to retrieve forecast data. To learn more, see [Retrieve forecast data](#retrieve-forecast-data).
+    - For forecast, see [Get metadata of the forecast](#get-metadata-of-the-forecast).
+
+    - For snapshot, see 
+
+2. Using the metadata response, create a post request to retrieve forecast or snapshot data.
+
+    - For forecast data, see [Retrieve forecast data](#retrieve-forecast-data).
+
+    - For snapshot data, see 
 
 
 ## Get metadata of the forecast
@@ -124,7 +132,7 @@ OData-Version: 4.0
 }
 ```
 
-From the response, get the forecast ID for the forecast that you want to view the data. Use the attributes `ForecastConfigurationId` and `Name` from `ForecastConfigurations` and get the `Id` of the forecast from `ForecastRecurrences`. In this example, we are retrieving the forecast data for **Best Case** from **FY2019 Q4** of the **Forecast 2019**. Here we identified the forecast ID value as `a13ae9c8-9586-4c5f-ace2-f13faba56c44` through `ForecastConfigurationId` value `5e732d3e-ac11-ea11-a811-000d3a382afe` and `Name` `Forecast 2019`. Using the `Id` value, you can create a post request to fetch data **Best Case** from **FY2019 Q4** for the forecast. 
+From the response, use the attributes `ForecastConfigurationId` and `Name` from `ForecastConfigurations` and get the `Id` of the recurrence from `ForecastRecurrences`. In this example, we are retrieving the forecast data for **Best Case** from **FY2019 Q4** of the **Forecast 2019**. Here we identified the recurrence ID value as `a13ae9c8-9586-4c5f-ace2-f13faba56c44` through `ForecastConfigurationId` value `5e732d3e-ac11-ea11-a811-000d3a382afe` and `Name` `Forecast 2019`. Using the `Id` value, you can create a post request to fetch data **Best Case** from **FY2019 Q4** for the forecast. 
 
 ## Retrieve forecast data
 
@@ -352,10 +360,8 @@ In the response, you got  `ForecastConfiguration`, `ForecastRecurrence`, and `Fo
 Match `ForecastConfigurationColumnId` in the response and in the metadata response to identify the name of the column. In this example, the ID value is **971841a0-5d42-4d9e-998d-a7b985148e9f** for the response column **Best Case**. To view the values, see the `SystemValue` attribute of each column which is also shown on the forecast grid.
 
 
-
-
 ### See also
 
 [View forecasts](../../../view-forecasts.md)
 
-[Configure a forecast](../../../sales-enterprise/configure-forecast.md)
+[Configure a forecast](../../../configure-forecast.md)
