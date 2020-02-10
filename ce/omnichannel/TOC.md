@@ -247,6 +247,9 @@
 #### [msdyn_chatquestionnaireresponse](developer/reference/entities/msdyn_chatquestionnaireresponse.md)
 #### [msdyn_chatquestionnaireresponseitem](developer/reference/entities/msdyn_chatquestionnaireresponseitem.md)
 #### [msdyn_chatwidgetlanguage](developer/reference/entities/msdyn_chatwidgetlanguage.md)
+#### [msdyn_channelcapability](developer/reference/entities/msdyn_channelcapability.md)
+#### [msdyn_conversationaction](developer/reference/entities/msdyn_conversationaction.md)
+#### [msdyn_conversationactionlocale](developer/reference/entities/msdyn_conversationactionlocale.md)
 #### [msdyn_entityconfig](developer/reference/entities/msdyn_entityconfig.md)
 #### [msdyn_livechatconfig](developer/reference/entities/msdyn_livechatconfig.md)
 #### [msdyn_livechatengagementctx](developer/reference/entities/msdyn_livechatengagementctx.md)
@@ -265,6 +268,7 @@
 #### [msdyn_ocsystemmessage](developer/reference/entities/msdyn_ocsystemmessage.md)
 #### [msdyn_omnichannelpersonalization](developer/reference/entities/msdyn_omnichannelpersonalization.md)
 #### [msdyn_operatinghour](developer/reference/entities/msdyn_operatinghour.md)
+#### [msdyn_provider](developer/reference/entities/msdyn_provider.md)
 #### [msdyn_presence](developer/reference/entities/msdyn_presence.md)
 #### [msdyn_questionsequence](developer/reference/entities/msdyn_questionsequence.md)
 #### [msdyn_routingruleinstance](developer/reference/entities/msdyn_routingruleinstance.md)
@@ -278,6 +282,7 @@
 #### [msdyn_systemuser_msdyn_omnichannelqueue](developer/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md)
 #### [msdyn_transcript](developer/reference/entities/msdyn_transcript.md)
 #### [msdyn_visitorjourney](developer/reference/entities/msdyn_visitorjourney.md)
+
 ### Live chat JavaScript API Reference
 #### [Overview](developer/omnichannel-reference.md)
 #### [Methods]()

@@ -14,8 +14,6 @@ manager: shujoshi
 
 # Capture forecast category for opportunity
 
-[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
-
 You must select an option set while configuring the forecast to determine the confidence level of an opportunity as it moves along the path to conversion. For example, when you select the option set as **forecast categories**, the forecast grid displays the stages that are defined in the option set.
 
 You can also manually configure your columns for a fully customized forecast. Forecast shows how many opportunities are in the pipeline and which of those are committed, delivering actionable insights. 

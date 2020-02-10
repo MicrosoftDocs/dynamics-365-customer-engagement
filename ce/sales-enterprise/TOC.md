@@ -147,6 +147,7 @@
 ##### [msdyn_forecastdefinition](../sales-enterprise/developer/reference/entities/msdyn_forecastdefinition.md)
 ##### [msdyn_forecastinstance](../sales-enterprise/developer/reference/entities/msdyn_forecastinstance.md)
 ##### [msdyn_forecastrecurrence](../sales-enterprise/developer/reference/entities/msdyn_forecastrecurrence.md)
+##### [msdyn_ForecastInstanceActions](../sales-enterprise/developer/reference/entities/export-forecast-data.md)
 #### [Custom actions](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
 ### Playbooks
 #### [Entity reference](../sales-enterprise/developer/reference/playbook-entity-reference.md)
