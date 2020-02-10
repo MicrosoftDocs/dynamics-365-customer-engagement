@@ -1,7 +1,7 @@
 ---
 title: "Unified Interface Page (Hosted Control) | MicrosoftDocs"
 description: "Learn about the Unified Interface Page hosted control type to load a URL or page from the model-driven app. When a model-driven apps page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
-ms.date: 04/24/2018
+ms.date: 02/14/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -355,6 +355,9 @@ To learn more, see [onclicktoact](/dynamics365/customer-engagement/developer/cha
 The `OnSendKbArticle` event is invoked when the user selects the **Send** button in the Knowledge Base control. The eventData are the URL and the title of KB article that you need to pass.
 
 To learn more, see [onsendkbarticle](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/events/onsendkbarticle)
+
+> [!Note]
+> We recommend not to use `window.IsUSD` in the model-driven app forms, and instead use the [PageReady](#pageready) event or other events as listed in this topic.
 
 ## See also
 
