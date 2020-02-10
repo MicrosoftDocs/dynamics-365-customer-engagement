@@ -36,11 +36,11 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
 
 ### Version numbers
 
-|          | GA release      | Early access    |
-|----------|-----------------|-----------------|
-| MKT      | 1.35.10058.1075 | 1.35.10058.2083 |
-| EM       | 1.12.10020.1013 | 1.12.10020.1013 |
-| LinkedIn | 1.13.10021.1004 | 1.13.10021.1004 |
+| App              | GA release      | Early access    |
+|------------------|-----------------|-----------------|
+| Marketing        | 1.35.10058.1075 | 1.35.10058.2083 |
+| Event Management | 1.12.10020.1013 | 1.12.10020.1013 |
+| LinkedIn         | 1.13.10021.1004 | 1.13.10021.1004 |
 
 ### Early access features
 
