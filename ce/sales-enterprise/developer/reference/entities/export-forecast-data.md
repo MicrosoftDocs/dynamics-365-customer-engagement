@@ -17,7 +17,7 @@ manager: shujoshi
 Use **msdyn_ForecastInstanceActions** to programmatically retrieve the forecast data that is related to you and your hierarchy. 
 
 >[!NOTE]
-> This topic is applicable only for [Forecast](../sales-enterprise/project-accurate-revenue-sales-forecasting.md) feature.
+> This topic is applicable only for [Forecast](../../../project-accurate-revenue-sales-forecasting.md) feature.
 
 ## Action parameters
 
@@ -356,6 +356,6 @@ Match `ForecastConfigurationColumnId` in the response and in the metadata respon
 
 ### See also
 
-[View forecasts](../sales-enterprise/view-forecasts.md)
+[View forecasts](../../../view-forecasts.md)
 
-[Configure a forecast](../sales-enterprise/configure-forecast.md)
+[Configure a forecast](../../../sales-enterprise/configure-forecast.md)
