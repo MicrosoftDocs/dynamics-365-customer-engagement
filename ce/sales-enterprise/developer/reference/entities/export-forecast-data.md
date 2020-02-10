@@ -62,13 +62,13 @@ To retrieve your data, you must perform the following:
 
     - For forecast, see [Get metadata of the forecast](#get-metadata-of-the-forecast).
 
-    - For snapshot, see 
+    - For snapshot, see [Get snapshot list](#get-snapshot-list)
 
 2. Using the metadata response, create a post request to retrieve forecast or snapshot data.
 
     - For forecast data, see [Retrieve forecast data](#retrieve-forecast-data).
 
-    - For snapshot data, see 
+    - For snapshot data, see [Retrieve forecast data from a snapshot](#retrieve-forecast-data-from-a-snapshot)
 
 
 ## Get metadata of the forecast
