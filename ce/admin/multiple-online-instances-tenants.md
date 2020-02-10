@@ -1,7 +1,7 @@
 ---
 title: "Multiple instances or tenants | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/06/2020
+ms.date: 02/10/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite:
@@ -59,8 +59,6 @@ Model-driven apps in Dynamics 365, such as Dynamics 365 Sales and Customer Servi
  You can provide access to one or both instances easily.  Sales and Marketing users could be limited to their instance while Service users with extended access could update support escalations records related to accounts in both instances.  
   
  About single tenant with multiple instances:  
-  
-- A tenant can include up to 50 Production instances and up to 75 non-Production (Sandbox) instances.  
   
 - Each instance within the tenant receives its own SQL database.  
   
