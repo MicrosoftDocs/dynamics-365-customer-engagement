@@ -1141,7 +1141,7 @@ Same as msdyn_ocliveworkstreamcontextvariable entity [msdyn_msdyn_liveworkstream
 
 **Added by**: Omnichannel – Chat Solution
 
-Same as msdyn_livechatconfig entity [msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid](msdyn_livechatconfig.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid) Many-To-One relationship.
+Same as msdyn_livechatconfig entity [msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid](msdyn_livechatconfig.md) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
