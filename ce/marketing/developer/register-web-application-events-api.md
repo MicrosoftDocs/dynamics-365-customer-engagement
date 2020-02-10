@@ -30,7 +30,7 @@ To use the Events API, you need to provide a web application token in each reque
     
 3. Select **Web applications**.
     
-    ![Web application token](../media/create-we-application-token.png "Web application token")
+    ![Web application token](../media/create-web-application-token.png "Web application token")
     
 4. Select **New** to create a new web application token.
 5. Enter details in the **Name** field.
