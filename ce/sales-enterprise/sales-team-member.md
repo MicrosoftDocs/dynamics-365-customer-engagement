@@ -53,4 +53,4 @@ When users open the app, in the site map, they'll see the entities available in 
 
 ### See also
 
-[Dynamics 365 Team Members license]https://docs.microsoft.com/dynamics365/get-started/team-members-license)  
+[Dynamics 365 Team Members license](https://docs.microsoft.com/dynamics365/get-started/team-members-license)  
