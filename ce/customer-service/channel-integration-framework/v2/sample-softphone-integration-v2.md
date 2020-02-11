@@ -4,7 +4,7 @@ description: "Learn about sample code for softphone integration using Dynamics 3
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 02/11/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Sample code for softphone integration using Dynamics 365 Channel Integration Framework version 2.0
 
-[Download](https://experience.dynamics.com/insider/campaign/program-downloads/?id=86c59063-b2c9-e911-a96f-000d3a4f33c1) softphone integration sample for Microsoft Dynamics 365 Channel Integration Framework version 2.0.
+[Download](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/channel-integration-framework/TwilioSampleInteg_version2) softphone integration sample for Microsoft Dynamics 365 Channel Integration Framework version 2.0.
 
 > [!NOTE]
 > The sample code is not supported on Internet Explorer and on browsers that do not have webRTC support. More information: [WebRTC](https://webrtc.org/)
