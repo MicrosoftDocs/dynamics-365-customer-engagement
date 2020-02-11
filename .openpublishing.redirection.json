@@ -17832,7 +17832,7 @@
       "redirect_document_id": false
     },
     {  
-      "source_path": "ce/sales-enterprise/create-forecast-definition.md​",
+      "source_path": "ce/sales-enterprise/create-forecast-definition.md",
       "redirect_url": "configure-forecast",
       "redirect_document_id": false
     },
@@ -17842,7 +17842,7 @@
       "redirect_document_id": false
     },
     {  
-      "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastdefinition.md​",
+      "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastdefinition.md",
       "redirect_url": "export-forecast-data",
       "redirect_document_id": false
     },
