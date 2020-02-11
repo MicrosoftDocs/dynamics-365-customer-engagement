@@ -4,7 +4,7 @@ description: "Learn what the conversation states are in Omnichannel."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 01/10/2020
+ms.date: 02/14/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -148,6 +148,3 @@ Programmatically, you can change the default time and set it as per your organiz
 ## See also
 
 [Automatic closure of a conversation](../../developer/auto-close-conversation.md)
-
-
-these conversations , When the scheduler runs
