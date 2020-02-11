@@ -24,37 +24,41 @@ search.app:
 
 # Uninstall Dynamics 365 Marketing
 
-You can remove the Marketing application from any Dynamics 365 instance where it's installed. After removing it, you'll end up with a  
+You can remove the Marketing application from any Dynamics 365 instance where it's installed. After removing it, you'll end up with a Marketing license that you can use on another Dynamics 365 instance, if desired.
 
-## Uninstall the Marketing services
-The Marketing uninstall wizard manages most of the uninstall process. It:
 
-- Removes all Marketing, event management, and Dynamics 365 Connector for LinkedIn Lead Gen Forms services from your Dynamics 365 application server.
-- Removes your marketing-insights service and its data.
-- Turns off user syncing from Office 365 for Marketing-only users.
-- Frees your Dynamics 365 Marketing entitlement (license) for use with another Dynamics 365 instance if needed.
+## Uninstall Dynamics 365 Marketing services
+> [!NOTE]
+> If you want to release your Marketing entitlement to use on a different instance, you do not need to uninstall the Marketing solutions.
+
+The Marketing uninstall wizard handles most of the uninstall process. The uninstall wizard:
+
+- Removes all services for Marketing, event management, and Dynamics 365 Connector for LinkedIn Lead Gen Forms 
+- Removes the marketing insights service and its data
+- Turns off user syncing from Office 365 for Dynamics 365 Marketing users.
+- Frees your Dynamics 365 Marketing license for use with another Dynamics 365 instance
 
 To run the uninstall wizard:
 
 1. If you have sample data installed, remove it. More information: [Manage sample data](additional-settings.md).
 
-1. [Launch the Marketing setup wizard](re-run-setup.md) for the instance you want to uninstall Marketing from. Make sure the correct instance (organization) is shown.
+1. [Launch the Marketing setup wizard](re-run-setup.md) for the instance where you want to uninstall the Marketing application. Make sure the correct instance is shown.
 
     ![Setup wizard for an existing instance with portal integration](media/fre-re-run.png "Setup wizard for an existing instance with portal integration")
 
 1. From the **Other actions** panel, choose **Uninstall Marketing from this org**.
 
-1. Follow the instructions on your screen to confirm and complete the uninstall.
+1. Follow the on-screen instructions to confirm and complete the uninstall.
 
 <a name="reset-portal"></a>
 
 ## Reset any Dynamics 365 Portals connected to the uninstalled Marketing app
 
-If the Dynamics 365 Marketing instance that you are uninstalling was integrated with a Dynamics 365 Portal (for example to run marketing pages and the events website) then you must reset the portal to release its license. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
+If the Dynamics 365 Marketing instance that you are uninstalling was connected to a Dynamics 365 Portal (for example to run marketing pages or the events website), then you need to reset the portal to release its license. After the reset, the portal still shows as configured in the Dynamics 365 admin center, but you'll be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
 
 Portals are optional, so you might not have one connected to your Marketing instance. For more information about how Dynamics 365 Marketing uses portals, see [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md).
 
-To reset a portal being used by Marketing:
+To reset a portal:
 
 1. Follow the instructions provided in [Reset a portal](../portals/reset-portal.md).
 1. Portal reset leaves behind its website bindings, which may prevent you from reusing your portal name. Therefore, you should always delete all website bindings that are related to the portals used by your uninstalled Marketing instance. See [Create and manage website bindings](../portals/website-bindings.md) for instructions.
