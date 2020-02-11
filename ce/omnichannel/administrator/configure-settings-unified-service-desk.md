@@ -4,7 +4,7 @@ description: "Learn how to configure recommended settings for Unified Service De
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 01/13/2020
+ms.date: 01/30/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article

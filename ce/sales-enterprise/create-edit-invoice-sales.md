@@ -91,8 +91,10 @@ Typically, you convert an order into an invoice; however, you can also create an
 3. Add or change any details about your invoice.  
   
 4. Select **Save** in the lower-right corner of the screen.  
+
+> [!NOTE]
+> It isn't possible to edit multiple invoice records at once. 
   
-<a name="bkmk4"></a>   
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/orange-right-arrow-button.png "Right arrow button") [Close an opportunity as won or lost (Sales)](../sales-enterprise/close-opportunity-won-lost-sales.md)  
   

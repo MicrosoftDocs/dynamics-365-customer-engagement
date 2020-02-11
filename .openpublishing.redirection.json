@@ -1,6 +1,486 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customerengagement/on-premises/admin/control-social-data.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/connect-microsoft-social-engagement.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/install-social-selling-assistant.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/segment-boost.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/accessibility.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/activity-maps.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/adaptive-learning.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/add-rules-search-topic.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/administer-microsoft-social-engagement.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/analytics-conversations.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/analytics-location.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/analytics-overview.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/analytics-sentiment.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/analytics-sources.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/analyze-social-data-using-widgets.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/assign-user-roles.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/author-details.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/author-tags.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/automation-rules.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/configure-automatic-record-creation.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/configure-social-selling-assistant.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/connect-dynamics-365-social-engagement.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/connect-other-domains.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/copyright.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/create-delete-search-topic.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/create-dynamics-365-record-from-social-post.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/custom-sources.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/data-retention-social-engagement.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/delegated-admin.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/email-alerts.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/engage-on-social-networks.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/event-hubs-json-reference-social-engagement.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/facebook-pages-data-acquisition.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/faq.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/get-content-pack-for-power-bi.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/get-help.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/get-started.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/help-hub.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/instagram-data-acquisition.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/install-social-selling-assistant.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/integrate-social-engagement-dynamics-365.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/link-posts-to-dynamics-365.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/manage-access-tokens.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/manage-authors.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/manage-connection-dynamics-365-social-engagement.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/manage-connections.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/manage-global-settings.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/manage-licenses.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/manage-post-quota.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/manage-social-profiles.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/more-options-with-data-set.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/office-365-groups-social-engagement.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/overview-marketing-scenario.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/overview-sales-scenario.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/overview-service-scenario.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/overview.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/personalize-social-selling-assistant.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/posts-conversations.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/privacy-notices.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/publish-react-posts.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/readme.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/refine-search-rules.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/search-results-quality.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/search-topic-categories.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/set-up-microsoft-social-engagement.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/set-up-searches.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/sign-in.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/social-center.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/social-insights-widgets.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/social-profiles-health-state.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/social-selling-assistant-overview.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/sources-coverage.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/stream-data-to-event-hubs.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/system-browser-settings.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/tags.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/understand-filters.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/use-filters.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/user-preferences.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/user-roles.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/what-s-new-archive-2015.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/what-s-new-archive-2016.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/what-s-new-archive-2017.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/what-s-new-in-microsoft-social-engagement.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/work-with-event-hubs.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/work-with-posts.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/work-with-social-selling-assistant.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/eol/overview.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/create-inventory-adjustment.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/create-inventory-transfer.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/create-return-vendor.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/create-rma-sub-status.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/create-ship-via.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/set-up-payment-terms.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/set-up-purchase-order-sub-statuses.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/set-up-rtv-sub-statuses.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/view-product-inventory.md",
+      "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/legal/preview-terms-sms.md",
       "redirect_url": "thirdparty-messaging-terms",
       "redirect_document_id": "false"
@@ -8453,7 +8933,7 @@
     },
     {
       "source_path": "ce/admin/onboard-your-organization-and-users-to-dynamics-365-online.md",
-      "redirect_url": "https://docs.microsoft.com/power-platform/admin/try-dynamics-365-online",
+      "redirect_url": "https://docs.microsoft.com/power-platform/admin/try-powerapps-dynamics-365",
       "redirect_document_id": "false"
     },
     {
@@ -17169,6 +17649,186 @@
     {
       "source_path": "ce/portals/portal-faq.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/supervisor/assign-conversations.md",
+      "redirect_url": "intro-intraday-insights-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/administrator/configure-ongoing-conversations-settings.md",
+      "redirect_url": "configure-intraday-dashboard-supervisor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/onboard-org-flight.md",
+      "redirect_url": "v2/onboard-org-flight",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/sample-softphone-integration-v2.md",
+      "redirect_url": "v2/sample-softphone-integration-v2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/integration-multi-session-experiences.md",
+      "redirect_url": "v2/integration-multi-session-experiences",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/support-multiple-providers.md",
+      "redirect_url": "v2/ support-multiple-providers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/templates-overview-cif.md",
+      "redirect_url": "v2/templates-overview-cif",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/session-templates-cif.md",
+      "redirect_url": "v2/session-templates-cif",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/application-tab-templates-cif.md",
+      "redirect_url": "v2/application-tab-templates-cif      ",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/notification-templates-cif.md",
+      "redirect_url": "v2/notification-templates-cif",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/automation-dictionary-keys-cif.md",
+      "redirect_url": "v2/automation-dictionary-keys-cif",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/associate-templates-cif.md",
+      "redirect_url": "v2/associate-templates-cif          ",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/channel-analytics.md",
+      "redirect_url": "v2/channel-analytics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/notifyevent.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/notifyevent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/cancreatesession.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/cancreatesession",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/createsession.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/createsession",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/getsession.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/getsession",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/getfocusedsession.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/getfocusedsession",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/getallsessions.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/getallsessions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/setsessiontitle.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/setsessiontitle",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/requestfocussession.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/requestfocussession",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/createtab.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/createtab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/gettabs.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/gettabs  ",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/focustab.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/focustab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/getfocusedtab.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/getfocusedtab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/refreshtab.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/refreshtab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/settabtitle.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/settabtitle",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/initLogAnalytics.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/initLogAnalytics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/logAnalyticsEvent.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/logAnalyticsEvent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/events/onSessionSwitched.md",
+      "redirect_url": "../../v2/reference/events/onSessionSwitched",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/events/onSessionClosed.md",
+      "redirect_url": "../../v2/reference/events/onSessionClosed",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/v2/reference/microsoft-ciframework/initLogAnalytics.md",
+      "redirect_url": "updateConversation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/administrator/portal-navigation.md",
+      "redirect_url": "enable-self-service-settings",
+      "redirect_document_id": false
+    },
+    {  
+      "source_path": "ce/customer-service/migrate-service-activity-org-service.md",
+      "redirect_url": "introduction-migration-entity-records.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/v2/reference/microsoft-ciframework/notifyNewActivity.md",
+      "redirect_url": "../microsoft-ciframework-v2",
+      "redirect_document_id": false
+    },
+    {  
+      "source_path": "ce/customer-service/channel-integration-framework/v2/reference/microsoft-ciframework/notifyKPIBreach.md",
+      "redirect_url": "../microsoft-ciframework-v2",
       "redirect_document_id": false
     }
   ]

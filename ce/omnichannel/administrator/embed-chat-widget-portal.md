@@ -1,8 +1,8 @@
 ---
 title: "Embed chat widget in Power Apps portals | MicrosoftDocs"
 description: "Instructions to embed chat widget in Power Apps portals."
-author: sbmjais
-ms.author: shjais
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 12/13/2019
 ms.service: 

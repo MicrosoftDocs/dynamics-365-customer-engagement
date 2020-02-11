@@ -1,6 +1,6 @@
 ---
-title: "Discover the URL for your organization using the Discovery Service (Developer Guide for Dynamics 365 Customer Engagement (on-premises) )| MicrosoftDocs"
-description: "For a multi-tenant environment like Dynamics 365 Customer Engagement (on-premises), you can use Discovery service to determine the organizations that a user is member of"
+title: "Discover the URL for your organization using the Discovery Service (Developer Guide for Dynamics 365 Server )| MicrosoftDocs"
+description: "For a multi-tenant environment like Dynamics 365 Server, you can use Discovery service to determine the organizations that a user is member of"
 ms.custom: on-premise
 ms.date: 09/05/2019
 ms.reviewer: "pehecke"
@@ -23,9 +23,9 @@ search.app:
 
 # Discover the URL for your organization using the Discovery Service 
 
-Use the Discovery service to determine the organizations that a user is a member of, and the endpoint address URL to access the organization service for each of those organizations. This Discovery service is necessary because Dynamics 365 Customer Engagement (on-premises) is a multi-tenant environment—a single Customer Engagement (on-premises) server can host multiple business organizations. By using the Discovery service, your application can determine the endpoint address URL to access the target organization’s business data.  
+Use the Discovery service to determine the organizations that a user is a member of, and the endpoint address URL to access the organization service for each of those organizations. This Discovery service is necessary because Dynamics 365 Server is a multi-tenant environment—a single Dynamics 365 Server can host multiple business organizations. By using the Discovery service, your application can determine the endpoint address URL to access the target organization’s business data.  
   
- For Dynamics 365 Customer Engagement (on-premises) installations, server and organization allocation may change as part of datacenter management and load balancing. Therefore, the Discovery service provides a way to discover which Dynamics 365 Customer Engagement (on-premises) server is serving your organization at a given time.  
+ For Dynamics 365 Server installations, server and organization allocation may change as part of datacenter management and load balancing. Therefore, the Discovery service provides a way to discover which Dynamics 365 Server is serving your organization at a given time.  
   
  For an Internet-facing deployment (IFD) installation, the Web service URL has the following form:  
 ```  

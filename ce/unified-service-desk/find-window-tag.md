@@ -24,7 +24,7 @@ The `<FindWindow>` tag consists of a list of child elements that represent a seq
   
 ```xml  
 # RELAX NG XML grammar for FindWindow  
-# http://relaxng.org/compact-tutorial-20030326.html  
+# https://relaxng.org/compact-tutorial-20030326.html  
 #  
 grammar {  
    start      = FindWindow  

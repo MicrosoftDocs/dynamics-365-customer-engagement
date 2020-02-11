@@ -1,7 +1,7 @@
 ---
 title: "Deploy and configure AD FS | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-12-09"
+ms.date: 12/09/2016
 ms.prod: "crm-2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,7 +28,7 @@ A variety of identity providers can be used with [!INCLUDE[pn_microsoftcrm_serve
 >  This does not apply to [!INCLUDE[pn_windows_server_2012_r2](../includes/pn-windows-server-2012-r2.md)] as [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] in [!INCLUDE[pn_windows_server_2012_r2](../includes/pn-windows-server-2012-r2.md)] does not depend on IIS.  
   
 ## Deploy a federation server  
- For information on deploying an [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] server, see [AD FS Deployment](http://go.microsoft.com/fwlink/p/?LinkID=390135).  
+ For information on deploying an [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] server, see [AD FS Deployment](https://go.microsoft.com/fwlink/p/?LinkID=390135).  
   
 ## Configure AD FS for Windows Server 2012 R2  
  To configure [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] as a stand-alone federation server for [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] claims authentication, do the following:  

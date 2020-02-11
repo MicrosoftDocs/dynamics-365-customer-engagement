@@ -192,5 +192,5 @@ The mobile project template contains all customizations for the Field Service Mo
 
 ### See also
 
-- [Frequently asked questions about the mobile solution](http://www.resco.net/mobilecrm/support.aspx)
+- [Frequently asked questions about the mobile solution](https://www.resco.net/mobilecrm/support.aspx)
 - [Woodford guide](https://www.resco.net/downloads/Woodford_Guide.pdf)

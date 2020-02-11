@@ -1,8 +1,8 @@
 ---
 title: "Configure a pre-chat survey | MicrosoftDocs"
 description: "Instructions to configure a pre-chat survey in Omnichannel for Customer Service."
-author: sbmjais
-ms.author: shjais
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 12/13/2019
 ms.service: 
