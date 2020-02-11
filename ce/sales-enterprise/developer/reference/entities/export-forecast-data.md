@@ -12,7 +12,7 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Retrieve forecast and snapshot data using msdyn_ForecastInstanceActions
+# Retrieve forecast and snapshot data using msdyn_ForecastInstanceActions for GDPR
 
 Use **msdyn_ForecastInstanceActions** to programmatically retrieve the forecast and snapshot data that is related to you and your hierarchy. 
 

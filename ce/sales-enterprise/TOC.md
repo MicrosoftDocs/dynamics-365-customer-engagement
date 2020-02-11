@@ -142,12 +142,8 @@
 ## Developer Guide
 ### [Get started](../sales-enterprise/developer/developer-guide.md)
 ### [Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)
-### Manual forecasting
-#### [Entity reference](../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md)
-##### [msdyn_forecastdefinition](../sales-enterprise/developer/reference/entities/msdyn_forecastdefinition.md)
-##### [msdyn_forecastinstance](../sales-enterprise/developer/reference/entities/msdyn_forecastinstance.md)
-##### [msdyn_forecastrecurrence](../sales-enterprise/developer/reference/entities/msdyn_forecastrecurrence.md)
-##### [msdyn_ForecastInstanceActions](../sales-enterprise/developer/reference/entities/export-forecast-data.md)
+### Forecasting
+#### [msdyn_ForecastInstanceActions](../sales-enterprise/developer/reference/entities/export-forecast-data.md)
 #### [Custom actions](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
 ### Playbooks
 #### [Entity reference](../sales-enterprise/developer/reference/playbook-entity-reference.md)
