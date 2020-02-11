@@ -48,7 +48,7 @@ search.app:
 - Accessibility and design testing built into the email designer.
 - Set rounded corners for images, borders, and buttons.
 
-![Email editor content assist](./media/email-design-update-content-assist.png "Email editor content assist")
+![Updated email content designer features](./media/email-design-update-email-editor.png "Updated email content designer features")
 
 ## Improvements to the pages and forms content editors
 
