@@ -69,6 +69,8 @@
 ### Upgrade or downgrade
 #### [Upgrade from Dynamics 365 Sales Professional](upgrade-sales-professional-sales-enterprise.md)
 #### [Move from Dynamics 365 Sales Enterprise to Professional](move-sales-enterprise-sales-professional.md)
+### Export forecast data
+#### [Retrieve forecast and snapshot data using msdyn_ForecastInstanceActions for GDPR](../sales-enterprise/developer/reference/entities/export-forecast-data.md)
 
 
 ## User Guide
