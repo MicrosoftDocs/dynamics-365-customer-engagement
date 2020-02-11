@@ -70,7 +70,7 @@ Some customer journey settings become locked (read-only) based on the journey's 
 | Pipeline (tile positions) | Editable | Locked | Locked |
 | Tile settings | Editable | Editable (see note) | Locked |
 
-If you attempt to delete emails, forms, or segments utilized by live customer journeys, a warning dialog will pop up to prevent you from removing an entity that may stop or corrupt a live journey.
+If you attempt to stop emails, forms, or segments utilized by live customer journeys, a warning dialog will pop up to prevent you from stopping an entity that may disrupt a live journey.
 
 ![Warning dialog when deleting a live record](media/customer-journey-publishable-entities.png "Warning dialog when deleting a live record")
 
