@@ -6,7 +6,7 @@ author: lalexms
 ms.author: lalexms
 manager: shujoshi
 applies_to: 
-ms.date: 12/06/2019
+ms.date: 01/10/2020
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ---
@@ -15,7 +15,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Use data masking to block sensitive data such as credit card information, social security number (SSN), or even profanity in a conversation. You can create a masking rule and define a regular expression to identify the sensitive information and replace it with the masked characters. Any text that's masked in a conversation will also be masked in the conversation transcript.
+Use data masking to block sensitive data such as credit card information, social security number (SSN), or even profanity in a conversation. You can create a masking rule and define a regular expression to identify the sensitive information and replace it with the masked characters. Any text that's masked in a conversation will also be masked in the conversation transcript. Data masking works for chat and async channels.
 
 Masking rules can be configured to apply to messages sent by a customer, an agent, or both. You must make sure that the masking rules you want applied are set to **Active**; otherwise, they won't apply to the selections you make.
 
@@ -24,8 +24,8 @@ Masking rules can be configured to apply to messages sent by a customer, an agen
 
 You can choose to:
 
-- **Mask private agent data from the customer**: Data the agent sends is masked for both the customer and agent for live chat and text messages.
-- **Mask private customer data from the agent**: Data the customer sends is masked for both the customer and agent for live chat, but only for the agent when using text.
+- **Mask private agent data from the customer**: Data the agent sends is masked for both the customer and agent for live chat and async channel messages.
+- **Mask private customer data from the agent**: Data the customer sends is masked for both the customer and agent for live chat, but only for the user interface of the agent when using async channels.
 
 
 The following masking rules are provided out of the box:

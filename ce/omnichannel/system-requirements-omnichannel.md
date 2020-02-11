@@ -6,7 +6,7 @@ ms.author: kabala
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 11/06/2019
+ms.date: 01/30/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -90,6 +90,51 @@ To upgrade Omnichannel, see [Upgrade Omnichannel for Customer Service](administr
 > - Omnichannel for Customer Service is supported only on desktops, and not on phones and tablets.
 >
 > - Omnichannel for Customer Service for other regions will be available in the future.
+
+## Allow access to websites or URLs
+
+If your organization is using a URL filter to block a category of websites or URLs, you might have to allow a specific website as an exception.
+
+Add the following URLs for your users to access the Omnichannel for Customer Service app and live chat widget in the portal:
+
+- `https://plat.teams.microsoft.com`
+- `https://aad.skypetoken.skype.com`
+- `https://authsvc.teams.microsoft.com`
+- `https://swc.cdn.skype.com/*`
+- `https://config.edge.skype.com/*`
+- `https://edge.skype.com/* `
+- `https://api.aps.skype.com/*` 
+- `https://*.ng.msg.teams.microsoft.com/* `
+- `https://*.notifications.teams.microsoft.com/* ` 
+- `https://*.omnichannelengagementhub.com/*`
+
+**Geo-specific URLs**
+
+| Geographic location | URL |
+|-------------------------------|----------------------------------|
+| North America | `oc-cdn-ocprod.azureedge.net/*`|
+| Europe | `oc-cdn-public-eur.azureedge.net/*`|
+| South America | `oc-cdn-public-sam.azureedge.net/*`|
+| United Kingdom | `oc-cdn-public-gbr.azureedge.net/*`|
+| Japan | `oc-cdn-public-jpn.azureedge.net/*`|
+| Asia Pacific | `oc-cdn-public-eur.azureedge.net/*`|
+| Canada | `oc-cdn-public.azureedge.net/*`|
+| India | `oc-cdn-public-ind.azureedge.net/*`|
+| Asia-Pacific and Japan | `oc-cdn-public-apj.azureedge.net/*`|
+| Australia | `oc-cdn-public-oce.azureedge.net/*`|
+| France | `oc-cdn-public-fra.azureedge.net/*`|
+
+**Government Community Cloud (GCC)**
+
+- `https://ocprodocprodnamgs.blob.core.usgovcloudapi.net`
+- `https://*.omnichannelengagementhub.us/*`
+- `https://oc-auth.azurewebsites.us`
+- `https://swc.cdn.skype.com/*`
+- `https://config.edge.skype.com/*`
+- `https://*.gcc.teams.microsoft.com`
+- `https://api.ams.gcc.teams.microsoft.com/*`
+- `https://browser.pipe.aria.microsoft.com/*`
+
 
 ## See also
 

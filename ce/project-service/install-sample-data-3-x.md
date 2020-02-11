@@ -5,19 +5,12 @@ ms.date: 11/08/2018
 ms.reviewer: 
 ms.suite: 
 ms.technology: 
-  - field-service
-applies_to: 
-  - Dynamics 365 Project Service Automation
+applies_to: Dynamics 365 Project Service Automation
 author: ruhercul
 ms.author: ruhercul
 ms.reviewer: kfend
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
+search.audienceType: IT Pro, Developer
 search.app: 
-  - D365CE
-  - D365PS
 --- 
 
 

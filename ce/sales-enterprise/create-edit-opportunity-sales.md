@@ -1,11 +1,9 @@
 ---
 title: "Create or edit opportunities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
-ms.date: 10/01/2019
-ms.service: 
+ms.date: 02/03/2020
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -30,6 +28,9 @@ If you're following the sales process from start to finish, you *qualify* a lead
     
     To create a new opportunity, on the command bar, select **+ New**.
 
+    > [!NOTE]
+    > If your system administrator has set the Kanban view as the default, you'll see the Kanban view instead of the list view. More information: [Work with opportunities in the kanban view](opportunity-kanban-view.md) 
+
 3. In the opportunity form, make sure that your potential customer's important details are captured. If you've qualified a lead to an opportunity, most of the fields will be automatically populated from the lead record.
  
    - **Topic**: What the customer is interested in that created the opportunity, such as specific product details.
@@ -53,8 +54,11 @@ If you're following the sales process from start to finish, you *qualify* a lead
  
    - **Est. Close Date**: An estimated date by which the opportunity is expected to close. 
   
-   - **Est. Revenue**: A field calculated for opportunities that have products added to them. Estimated revenue is calculated based on base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] recalculates the estimated revenue based on any changes to the products or product quantities associated with the opportunity.
-
+   - **Est. Revenue**: A field calculated for opportunities that have products added to them. Estimated revenue is calculated based on base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] recalculates the estimated revenue based on any changes to the products or product quantities associated with the opportunity. 
+   
+       > [!IMPORTANT]
+       > When a price list is selected in an opportunity, only the existing products associated with that price list can be added to the opportunity. However, through some custom logic, if you're able to add a product that doesn't have the same price list associated, only the products with price list same as the opportunity's price list are considered for price calculation. 
+   
 4. Select **Save** to enable other sections on the form.
 
 5. In the **Stakeholders** section, select the **More Commands** button ![More Commands button](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
@@ -72,7 +76,7 @@ If you're following the sales process from start to finish, you *qualify* a lead
 
 8. To save your changes, on the command bar, select **Save**.
 
-9. Add products to your opportunity. [!include[proc-more-information](../includes/proc-more-information.md)] [Add products to an opportunity](add-products-opportunity.md) 
+9. Add products to your opportunity. [!include[proc-more-information](../includes/proc-more-information.md)] [Add products to an opportunity](add-products-opportunity.md), [Add products to an opportunity using the enhanced experience](add-products-enhanced-experience.md)
 
 10.	Follow the process bar to move the opportunity to the next stage. In the **Develop** stage, enter data for the following fields:
     
@@ -129,7 +133,6 @@ If you want to create an opportunity without first creating a lead, do the follo
   
 
 > [!IMPORTANT]
-
 > The **Pipeline Phase** field of the Opportunity entity has been used in sales charts and dashboards to show the current phase in the sales pipeline for the opportunity. This field is populated by the stage change information on the business process flow for the Opportunity entity.
 > Because [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] supports multiple business process flows for the Opportunity entity, the **Pipeline Phase** field will be populated with the last stage change information done on any business process flow on the opportunity record. If you're using multiple business process flows on opportunity, exercise your discretion while using this field. [!include[proc-more-information](../includes/proc-more-information.md)] [Business process flows overview](../customize/business-process-flows-overview.md)
 
@@ -152,8 +155,10 @@ Need a faster way to enter opportunities? Try one of these:
 ### See also 
 
 [Add products to an opportunity](add-products-opportunity.md)  
+[Add products to an opportunity using the enhanced experience](add-products-enhanced-experience.md)  
 [Recalculate an opportunity](recalculate-opportunity.md)  
 [Close an opportunity](close-opportunity-won-lost-sales.md)  
+[Work with opportunities in the Kanban view](opportunity-kanban-view.md)  
 [Dynamics 365 Sales troubleshooting guide for sales people](troubleshooting.md)  
 [Dynamics 365 Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)   

@@ -70,7 +70,7 @@ Dynamics 365 Customer Engagement (on-premises) include a web application tool ca
   
 - Transform the parsed data.  
   
-- Upload the transformed data into the target Dynamics 365 Customer Engagement (on-premises) server.  
+- Upload the transformed data into the target Dynamics 365 Server.  
   
   You can import data from one source file or several source files. A source file can contain data for one entity type or multiple entity types.  
   
@@ -99,7 +99,7 @@ The configuration information that is required for importing data is contained i
   
 ## Run data import
 
-Data import runs directly on the Dynamics 365 Customer Engagement (on-premises) server. To run data import, set up asynchronous jobs to run in the background that do the following, in this order:
+Data import runs directly on the Dynamics 365 Server. To run data import, set up asynchronous jobs to run in the background that do the following, in this order:
 
 - Parse source data that is contained in the import file.
 - Transform parsed data by using the data map.

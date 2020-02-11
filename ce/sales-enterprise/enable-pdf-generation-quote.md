@@ -1,36 +1,35 @@
 ---
 title: "Enable or disable generation of PDF from sales records (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Enable your users to create and share professional-looking PDF documents with customers."
-keywords: ""
-ms.date: 11/15/2019
+ms.date: 02/03/2020
 ms.service:
   - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
 ms.topic: article
-ms.assetid: 5ff0c47d-0ac4-084b-6122-4055ec5e3eb8
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
 ---
+
 
 # Enable or disable PDF generation from sales records
 
 The PDF generation capability allows your users to generate PDF documents directly from sales records. The capability to create PDF documents is supported on the following entities: Accounts, Contacts, Leads, Opportunities, Quotes, Orders, and Invoices. You can select the entities on which you want to enable PDF generation.
 
 > [!IMPORTANT]
-> The PDF generation capability for additional entities (entities other than quote) is released with Dynamics 365 Sales (Sales Hub) app version: 9.0.1911.1009, as part of weekly release of the product to individual geographies.
+> The PDF generation capability for additional entities (entities other than quote) is released with Dynamics 365 Sales (Sales Hub) app version: 9.0.1911.1009, as part of the weekly release of the product to individual geographies.
 
 1.	At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
 
-2.	Under **Sales Administration**, select **PDF generation**.
+2. In the site map, select **Overview**.
 
-3.	To enable or disable PDF generation, on the **Generate PDF file** page, under **Select whether PDF files can be created, saved, and emailed based on Dynamics 365 Sales entity records**, set the entity toggle to **Enabled** or **Disabled**. For example, if you want to enable PDF generation on **Opportunity** records, set the Opportunity toggle to **Enabled**.
+3. On the Overview page, under **Productivity tools**, select **Manage** for **Create, save and send pdf files on Dynamics 365 Sales records**.
+
+4.	To enable or disable PDF generation, on the Convert to PDF page, set the entity toggle to **Enabled** or **Disabled**. For example, if you want to enable PDF generation on Opportunity records, set the **Opportunity** toggle to **Enabled**.
 
     > [!div class="mx-imgBorder"]
-    > ![PDF generation settings page to enable PDF generation](media/enable-pdf-generation.png "PDF generation settings page to enable PDF generation")
+    > ![Enable PDF generation on entities](media/convert-to-pdf-setting.png "Enable PDF generation on entities")
 
-4. Select **Apply**.
+5. Select **Save**.
 
 ### See also
 

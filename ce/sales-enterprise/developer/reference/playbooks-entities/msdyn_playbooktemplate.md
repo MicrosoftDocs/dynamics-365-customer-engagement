@@ -8,7 +8,6 @@ ms.topic: article
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.reviewer: 
 ---
 # msdyn_playbooktemplate EntityType
 

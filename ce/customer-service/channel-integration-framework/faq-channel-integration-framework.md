@@ -4,10 +4,10 @@ description: "Frequently asked questions about the Dynamics 365 Channel Integrat
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 02/14/2019
+ms.date: 02/03/2020
 ms.topic: reference
 ms.service: 
-  - dynamics-365-cross-app
+  - dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -95,4 +95,6 @@ During the preview period you can get Omnichannel for Customer Service using the
 ## See also
 
 [Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)<br />
-[System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)
+[What's new in Dynamics 365 Channel Integration Framework](whats-new-channel-integration-framework.md)<br />
+[System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)<br />
+[Known issues of Dynamics 365 Channel Integration Framework](known-issues.md)

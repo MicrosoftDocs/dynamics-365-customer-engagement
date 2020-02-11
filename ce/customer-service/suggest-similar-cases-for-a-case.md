@@ -121,7 +121,7 @@ See the below table to understand how search results are impacted when Relevance
 
 You can view the similar case suggestions in the Related section of the Customer Service Hub. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See and manage related records in the Related section](customer-service-hub-user-guide-case-sla.md#see-and-manage-related-records-in-the-related-section)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See and manage related records in the Related section](customer-service-hub-user-guide-basics.md#related-section)
   
 1. In the Customer Service Hub, navigate to **Service** > **Cases** and open a case from the **My Active Cases** view.
   

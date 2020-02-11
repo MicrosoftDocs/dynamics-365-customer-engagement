@@ -4,7 +4,7 @@
 ### [Introduction](introduction-omnichannel.md)
 ### [Try channels in Omnichannel for Customer Service](try-channels.md)
 ### [Chat for Dynamics 365 Customer Service demo data](chat-dynamics365-customer-service-demo-data.md)
-### [Pre-requisites and system requirements](system-requirements-omnichannel.md)
+### [Prerequisites and system requirements](system-requirements-omnichannel.md)
 ### [Assign roles and enable users](administrator/add-users-assign-roles.md)
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)
 ### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
@@ -23,7 +23,7 @@
 #### [Overview](administrator/omnichannel-customer-service-unified-service-desk.md)
 #### [Deploy Unified Service Desk - Omnichannel for Customer Service package](administrator/omnichannel-customer-service-package.md)
 #### [Configure settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md)
-### [Delete Omnichannel solutions](administrator/delete-solution.md)
+### [Delete solutions](administrator/delete-solution.md)
 ### [Integrate an Azure bot](administrator/configure-bot.md)
 ### [Integrate a Power Virtual Agents bot](administrator/configure-bot-virtual-agent.md)
 
@@ -67,9 +67,17 @@
 ##### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
 ##### [Agent scripts](administrator/agent-scripts.md)
 ##### [Smart assist](administrator/smart-assist.md)
+##### [Productivity pane](administrator/productivity-pane.md)
 #### [Create quick replies](administrator/create-quick-replies.md)
 #### [Configure and manage custom presence](administrator/presence-custom-presence.md)
 #### [Share knowledge articles](administrator/knowledge-management-oc.md)
+#### Templates
+##### [Overview](administrator/templates-overview.md)
+##### [Manage session templates](administrator/session-templates.md)
+##### [Manage application tab templates](administrator/application-tab-templates.md)
+##### [Manage notification templates](administrator/notification-templates.md)
+##### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
+##### [Associate templates with workstreams](administrator/associate-templates.md)
 
 ### Supervisor Experience
 #### [Configure to view Intraday insights](administrator/configure-intraday-dashboard-supervisor.md)
@@ -85,15 +93,7 @@
 #### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
-#### [Enable portal navigation](administrator/portal-navigation.md)
-
-### Templates
-#### [Overview](administrator/templates-overview.md)
-#### [Manage session templates](administrator/session-templates.md)
-#### [Manage application tab templates](administrator/application-tab-templates.md)
-#### [Manage notification templates](administrator/notification-templates.md)
-#### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
-#### [Associate templates with workstreams](administrator/associate-templates.md)
+#### [Enable self service settings in conversation summary](administrator/enable-self-service-settings.md)
 
 ## Agent guide
 
@@ -107,6 +107,7 @@
 #### Productivity tools
 ##### [Agent scripts](agent/agent-oc/oc-agent-scripts.md)
 ##### [Smart assist](agent/agent-oc/oc-smart-assist.md)
+##### [Productivity pane](agent/agent-oc/oc-productivity-pane.md)
 #### [View agent dashboard and conversations (work items)](agent/agent-oc/oc-agent-dashboard.md)
 #### [Create a record](agent/agent-oc/oc-create-record.md)
 #### [Search, link, and unlink a record](agent/agent-oc/oc-search-link-unlink-record.md)
@@ -246,6 +247,9 @@
 #### [msdyn_chatquestionnaireresponse](developer/reference/entities/msdyn_chatquestionnaireresponse.md)
 #### [msdyn_chatquestionnaireresponseitem](developer/reference/entities/msdyn_chatquestionnaireresponseitem.md)
 #### [msdyn_chatwidgetlanguage](developer/reference/entities/msdyn_chatwidgetlanguage.md)
+#### [msdyn_channelcapability](developer/reference/entities/msdyn_channelcapability.md)
+#### [msdyn_conversationaction](developer/reference/entities/msdyn_conversationaction.md)
+#### [msdyn_conversationactionlocale](developer/reference/entities/msdyn_conversationactionlocale.md)
 #### [msdyn_entityconfig](developer/reference/entities/msdyn_entityconfig.md)
 #### [msdyn_livechatconfig](developer/reference/entities/msdyn_livechatconfig.md)
 #### [msdyn_livechatengagementctx](developer/reference/entities/msdyn_livechatengagementctx.md)
@@ -264,6 +268,7 @@
 #### [msdyn_ocsystemmessage](developer/reference/entities/msdyn_ocsystemmessage.md)
 #### [msdyn_omnichannelpersonalization](developer/reference/entities/msdyn_omnichannelpersonalization.md)
 #### [msdyn_operatinghour](developer/reference/entities/msdyn_operatinghour.md)
+#### [msdyn_provider](developer/reference/entities/msdyn_provider.md)
 #### [msdyn_presence](developer/reference/entities/msdyn_presence.md)
 #### [msdyn_questionsequence](developer/reference/entities/msdyn_questionsequence.md)
 #### [msdyn_routingruleinstance](developer/reference/entities/msdyn_routingruleinstance.md)
@@ -277,6 +282,7 @@
 #### [msdyn_systemuser_msdyn_omnichannelqueue](developer/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md)
 #### [msdyn_transcript](developer/reference/entities/msdyn_transcript.md)
 #### [msdyn_visitorjourney](developer/reference/entities/msdyn_visitorjourney.md)
+
 ### Live chat JavaScript API Reference
 #### [Overview](developer/omnichannel-reference.md)
 #### [Methods]()

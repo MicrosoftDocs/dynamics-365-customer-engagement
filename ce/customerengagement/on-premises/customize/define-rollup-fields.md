@@ -191,5 +191,5 @@ Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fie
  [Define calculated fields](../customize/define-calculated-fields.md)   
  [Behavior and format of the Date and Time field](../customize/behavior-format-date-time-field.md)   
  [Query and visualize hierarchical data](../customize/query-visualize-hierarchical-data.md)   
- [Video: Rollup and Calculated Fields ](http://www.youtube.com/watch?v=RoahCH1p3T8&list=PLC3591A8FE4ADBE07&index=8)   
- [Video: Using Power BI](http://www.youtube.com/watch?v=PkQe4BFlBS8&list=PLC3591A8FE4ADBE07&index=3)
+ [Video: Rollup and Calculated Fields ](https://www.youtube.com/watch?v=RoahCH1p3T8&list=PLC3591A8FE4ADBE07&index=8)   
+ [Video: Using Power BI](https://www.youtube.com/watch?v=PkQe4BFlBS8&list=PLC3591A8FE4ADBE07&index=3)

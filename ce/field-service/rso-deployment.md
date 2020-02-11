@@ -55,3 +55,6 @@ RSO is associated with a single Dynamics 365 organization in the tenant. You can
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the "Manage Resource Scheduling Optimization instance" window](media/rso-completed.png)
+
+## Privacy notice  
+[!INCLUDE[cc_privacy_rso_location_info_bing_maps](../includes/cc-privacy-rso-location-info-bing-maps.md)]
