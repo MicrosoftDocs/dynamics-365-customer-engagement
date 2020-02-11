@@ -14,8 +14,6 @@ manager: shujoshi
 
 # Define general properties and scheduling
 
-[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
-
 Using the general properties and scheduling options of the forecast configuration page, you can define a forecast model by specifying a hierarchy and timeframe. 
 
 **To enter configuration and scheduling information**
