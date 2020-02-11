@@ -34,7 +34,7 @@ The Marketing uninstall wizard handles most of the uninstall process. The uninst
 
 - Removes all services for Marketing, event management, and Dynamics 365 Connector for LinkedIn Lead Gen Forms 
 - Removes the marketing insights service and its data
-- Turns off user syncing from Office 365 for Dynamics 365 Marketing users.
+- Turns off user syncing from Office 365 for Dynamics 365 Marketing users
 - Frees your Dynamics 365 Marketing license for use with another Dynamics 365 instance
 
 > [!NOTE]
