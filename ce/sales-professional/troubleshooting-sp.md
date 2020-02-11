@@ -18,17 +18,27 @@ Use the following list of troubleshooting topics to quickly find information to 
 
 ### I'm not able to sign up for Sales Professional trial
 
-If your Microsoft 365 tenant administrator has disabled trial signup for your organization, you'll see the error message "Your IT department has turned off signup for Dynamics 365 Sales Professional Trial. Contact them to complete signup." 
+**Reason:**
+
+If your Microsoft 365 tenant administrator has disabled trial signup for your organization, you'll see the error message: Your IT department has turned off signup for Dynamics 365 Sales Professional Trial. Contact them to complete signup. 
+
+> [!div class="mx-imgBorder"]
+> ![Trial signup is turned off](media/trial-signup-turned-off.png "Trial signup is turned off")
+
+**Workaround:**
 
 Please contact your IT department and work with them to help you sign up. 
 
 ### I see the error while signing up: "Something went wrong building your Sales Pro experience. Do you want to try again?"
 
+> [!div class="mx-imgBorder"]
+> ![Error while signing up](media/something-went-wrong-retry.png "Error while signing up")
+
 **Reason:**
 
 There could be multiple reasons for this error:
 
-- You've already signed up for the Sales Professional application for your tenant and are trying again with other credentials for the same tenant before the first trial instance expiry.
+- You've already signed up for the Sales Professional application for your tenant, and are trying again with other credentials for the same tenant before the expiry of the first trial instance.
 
 - You aren't using the complete sign-up URL, but using the reply URL present in the sign-up URL. For example, you're using https://salesprotrial.dynamics.microsoft.com  instead of https://signup.microsoft.com/Signup?sku=9c7bff7a-3715-4da7-88d3-07f57f8d0fb6&RU=https://salesprotrial.dynamics.microsoft.com.
 
