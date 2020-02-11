@@ -4,7 +4,7 @@ description: See how you can Automatically identify customers using pre-chat res
 author: kabala
 ms.author: kabala123
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 02/14/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
@@ -25,20 +25,17 @@ For more information, see [View Customer summary for an incoming engagement requ
 
 Use the below question names to create pre-chat questions for an **Unauthenticated chat**.
 
-|Question name   |Answer type |
-|---------|---------|---------|
-|CaseNumber     |    Single line |  
-|Name      | Single line         |   
-|Email      |    Single line      |  
-|Phone      |  Single line       |   
-|    |         |         |
+|Entity   |     Mapping    | Answer type |
+|---------|----------------|-------------|
+| Account |	Question context key: **Name** <br> Attribute Logical Name: **name** <br><br> Question context key: **Email** <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** | Single line | 
+| Contact | Question context key: **Name** <br> Attribute logical name: **fullname** <br><br> Question context key: Email <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** |Single line | 
+| Incident | 	Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line | 
 
 For **Authenticated chat**, the logged in user details will be used to search and load contact information in the **Customer summary** page. You can add pre-chat question for **Case Number** to allow identification of the relevant case for the current conversation.
 
-|Question name  |Answer type  |
-|---------|---------|---------|
-|CaseNumber    |     Single line    |  |    
-|         |         |
+|Entity   |     Mapping    | Answer type |
+|---------|----------------|-------------|
+| Incident | 	Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line | 
 
 
 ### See also
