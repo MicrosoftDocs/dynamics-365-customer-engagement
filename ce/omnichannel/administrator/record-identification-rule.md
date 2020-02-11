@@ -37,7 +37,7 @@ For **Authenticated chat**, the logged in user details will be used to search an
 |---------|----------------|-------------|
 | Incident | 	Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line | 
 
-## Use setContextProvider API method
+## Use the setContextProvider API method
 
 You can automatically identify of records using custom context set using setContext API apart from pre-chat answers. To programmatically set these values, see [setContextProvider](../developer/reference/methods/setcontextprovider.md).
 

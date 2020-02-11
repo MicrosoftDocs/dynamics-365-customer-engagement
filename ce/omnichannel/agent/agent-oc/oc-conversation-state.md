@@ -99,7 +99,7 @@ Advantages of auto-closure of a conversation:
 
 ### Understand working of auto-close of conversations
 
-The Omnichannel for Customer Service application checks the conversations every 24 hours to identify the conversations that remains in the same state more than the default configured time. These conversation become eligible for auto-closure, and next time, when the scheduler runs, these conversations are moved from the existing state to the **Closed** state.
+The Omnichannel for Customer Service application checks the conversations every 24 hours to identify the conversations that remain in the same state more than the default configured time. These conversations become eligible for auto-closure, and next time, when the scheduler runs, these conversations are moved from the existing state to the **Closed** state.
 
 ### Default time for automatic closure of conversation
 
