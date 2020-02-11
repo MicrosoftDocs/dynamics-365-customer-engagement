@@ -37,7 +37,11 @@ For **Authenticated chat**, the logged in user details will be used to search an
 |---------|----------------|-------------|
 | Incident | 	Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line | 
 
+To programmatically set these values, see [setContextProvider](../developer/reference/methods/setcontextprovider.md)
+
 
 ### See also
 
 [Understand and create work streams](work-streams-introduction.md)
+
+[setContextProvider](../developer/reference/methods/setcontextprovider.md)
