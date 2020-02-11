@@ -28,9 +28,9 @@ Please contact your IT department and work with them to help you sign up.
 
 There could be multiple reasons for this error:
 
-- You've already signed up for the Sales Professional application for his tenant and are trying again with other credentials for the same tenant before the first trial instance expiry.
+- You've already signed up for the Sales Professional application for your tenant and are trying again with other credentials for the same tenant before the first trial instance expiry.
 
-- You aren't using the complete sign-up URL and using reply URL present in sign-up URL. For example, you're using https://salesprotrial.dynamics.microsoft.com  instead of https://signup.microsoft.com/Signup?sku=9c7bff7a-3715-4da7-88d3-07f57f8d0fb6&RU=https://salesprotrial.dynamics.microsoft.com.
+- You aren't using the complete sign-up URL, but using the reply URL present in the sign-up URL. For example, you're using https://salesprotrial.dynamics.microsoft.com  instead of https://signup.microsoft.com/Signup?sku=9c7bff7a-3715-4da7-88d3-07f57f8d0fb6&RU=https://salesprotrial.dynamics.microsoft.com.
 
 - The Sales Professional trial license that's assigned to you as part of the sign-up process isn't synced with Azure Active Directory.
 
