@@ -78,12 +78,12 @@ To add the JavaScript code, you need to follow the steps below:
 1. Navigate to **Marketing** app and go to **Marketing pages**.
 2. Choose **New** to create a new marketing page.
 3. Drag and drop **Form** element from the **Toolbox** tab into the **Designer** tab and select the marketing form you want to use.
-
-   ![Add new form page](../media/new-marketing-page.png "Add new form page")
+   > [!div class="mx-imgBorder"]
+   > ![Add new form page](../media/new-marketing-page.png "Add new form page")
    
 4. Switch to **HTML** tab and your code snippet.
-
-   ![Add code in HTML tab](../media/marketing-page-html-tab.png "Add code in HTML tab")
+   > [!div class="mx-imgBorder"]
+   > ![Add code in HTML tab](../media/marketing-page-html-tab.png "Add code in HTML tab")
 
 5. Select **Save** to save your changes and then select **Go live**.
 
@@ -95,22 +95,22 @@ To add the code snippet, you need to follow the steps below:
 2. Choose **New** to create a new marketing form.
 3. Select **Go live**.
 4. Select the **Form hosting** tab and under the **Whitelist rules**, select **...** and **Add New Form whitelist rule**.
-    
-    ![Form Hosting Tab](../media/form-hosting-whitelist-rule-page.png "Form Hosting Tab")
+    > [!div class="mx-imgBorder"]
+    > ![Form Hosting Tab](../media/form-hosting-whitelist-rule-page.png "Form Hosting Tab")
 
 5. Add your own CMS domain and select **Save**.
 6. In the **From hosting** tab, under the **Related marketing form pages** tab, select **...** and **Add New Form Page** to add a marketing form page.
-    
-    ![Related Marketing Form Pages](../media/form-hosting-related-marketing-form-pages.png "Related Marketing Form Pages")
+    > [!div class="mx-imgBorder"]
+    > ![Related Marketing Form Pages](../media/form-hosting-related-marketing-form-pages.png "Related Marketing Form Pages")
 
 7. Select **Save**.
 8. Now select the form page you have created and copy the script to the clipboard.
-   
-    ![Add code snippet](../media/new-form-page-adding-code.png "Add code snippet")
+    > [!div class="mx-imgBorder"]
+    > ![Add code snippet](../media/new-form-page-adding-code.png "Add code snippet")
 
 9. Now in your CMS, edit the page where you want to include the form, add your customizations and script.
-    
-    ![Ad customizations to CMS](../media/add-code-to-cms-site.png "Add customization to CMS")
+    > [!div class="mx-imgBorder"]
+    > ![Ad customizations to CMS](../media/add-code-to-cms-site.png "Add customization to CMS")
 
 
 ## Examples 
