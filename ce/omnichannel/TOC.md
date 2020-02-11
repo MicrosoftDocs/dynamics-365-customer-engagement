@@ -33,6 +33,7 @@
 ##### [Configure download and email of chat transcripts](administrator/download-email-chat-transcripts.md)
 ##### [Configure agent display name](administrator/agent-display-name.md)
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
+##### [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md)
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
 ##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
 ##### [Configure proactive chat](administrator/proactive-chat.md)
@@ -57,7 +58,6 @@
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
 #### [Create workstream for entity record routing](administrator/set-up-entity-workstream.md)
 #### [Create multiple workstreams for entity records routing](administrator/multiple-ws-entity-record-routing.md)
-#### [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
 
 ### Agent Experience
