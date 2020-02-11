@@ -129,7 +129,7 @@ For information on how to create a knowledge article using template, see [Create
 
 Based on the context and the information extracted from an ongoing conversation, Omnichannel for Customer Service can populate the smart assist adaptive cards with similar case recommendations, which agents can refer to for information on how similar cases were resolved.
 
-Given below is the adaptive card JSON for displaying similar case recommendations.
+Given below is the adaptive card JSON for displaying similar case recommendations. Edit the `actions` field in the JSON to instruct the bot on the actions it needs to perform.
 
 ```json
 {
@@ -207,7 +207,7 @@ Given below is the adaptive card JSON for displaying similar case recommendation
 
 Smart assist adaptive cards can also contain recommendations for the next case.
 
-Given below is the adaptive card JSON for cross sell recommendation.
+Given below is the adaptive card JSON for cross sell recommendation. Edit the `actions` field in the JSON to instruct the bot on the actions it needs to perform.
 
 ```json
 {
@@ -275,7 +275,7 @@ Given below is the adaptive card JSON for cross sell recommendation.
 
 Omnichannel for Customer Service allows you to schedule an appointment with a customer by pre-populating appointment fields in the adaptive card based on the context passed in the conversation.
 
-Given below is the adaptive card JSON for creating an appointment with the customer.
+Given below is the adaptive card JSON for creating an appointment with the customer. Edit the `actions` field in the JSON to instruct the bot on the actions it needs to perform.
 
 ```json
 {
