@@ -13,10 +13,10 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
