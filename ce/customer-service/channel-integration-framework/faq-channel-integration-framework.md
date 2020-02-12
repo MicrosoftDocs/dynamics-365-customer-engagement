@@ -84,7 +84,7 @@ Yes. Dynamics 365 Channel Integration Framework version 1.0 APIs will continue t
 
 Dynamics 365 Channel Integration Framework version 2.0 works only with multi-session app (Omnichannel for Customer Service). You can integrate any third-party telephony provider with Omnichannel for Customer Service using the Channel Integration Framework 2.0 APIs. 
 
-To learn more, see [Choose between version 1.0 and version 2.0](../choose-between-versions.md).
+To learn more, see [Choose between version 1.0 and version 2.0](choose-between-versions.md).
 
 For information on license, see the [Dynamics 365 Customer Service pricing overview](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing) and [Dynamics 365 Customer Service pricing plan](https://dynamics.microsoft.com/en-us/pricing/customer-service/#plans) pages.
 
