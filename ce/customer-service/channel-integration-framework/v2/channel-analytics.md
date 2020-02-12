@@ -32,9 +32,6 @@ Without the channel analytics model, if you want to build a contact center analy
 > [!IMPORTANT]
 > Channel Analytics is not supported for Channel Integration Framework version 1.0.
 
-> [!NOTE]
-> Channel Integration Framework creates a Conversation entity ([msdyn_ocliveworkitem](../../../omnichannel/developer/reference/entities/msdyn_ocliveworkitem.md)) record in Common Data Service for every third party conversation launched through it.
-
 ## How does Channel Analytics help?
 
 - It generates instrumentation for agent behavior on the Dynamics 365. 
@@ -115,6 +112,8 @@ For that session, all first-party instrumentation events like notification displ
 If the partner wants to fire some custom event for their KPIs, they can do it with the same correlation ID as well using the [logAnalyticsEvent API](reference/microsoft-ciframework/logAnalyticsEvent.md).
 
 ## Channel Analytics Entities
+
+Channel Integration Framework creates a Conversation entity ([msdyn_ocliveworkitem](../../../omnichannel/developer/reference/entities/msdyn_ocliveworkitem.md)) record in Common Data Service for every third party conversation launched through it.
 
 ### msdyn_kpieventdefinition
 
