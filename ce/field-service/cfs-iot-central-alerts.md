@@ -2,7 +2,7 @@
 title: "Receive IoT alerts in Connected Field Service from Azure IoT Central | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
 ms.date: 09/24/2018
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.suite: 
 ms.technology: 
   - field-service
