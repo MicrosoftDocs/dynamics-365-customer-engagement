@@ -1,6 +1,6 @@
 ---
 title: "Publish records through the go-live process (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Find out which types of records must be published (go live) before you can use them, how to track go-live status, and how to edit records that are already live in Dynamics 365 Marketing"
+description: "Find out which types of records must be published (go live) before you can use them, how to track go-live status, and how to stop processing records that are already live in Dynamics 365 Marketing"
 keywords: publish;live;status;status reason;go live
 ms.date: 02/11/2020
 ms.service: dynamics-365-marketing
