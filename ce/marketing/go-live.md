@@ -1,8 +1,8 @@
 ---
-title: "Publish records with go live and track their status (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Find out which types of records must be published (go live) before you can use them, how to track their go-live status, and how to stop or edit records that are already live in Dynamics 365 Marketing"
+title: "Publish records through the go-live process (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Find out which types of records must be published (go live) before you can use them, how to track go-live status, and how to edit records that are already live in Dynamics 365 Marketing"
 keywords: publish;live;status;status reason;go live
-ms.date: 02/06/2020
+ms.date: 02/11/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -22,33 +22,33 @@ search.app:
   - D365Mktg
 ---
 
-# Go live with publishable entities and track their status
+# Go live with publishable entities and track the go-live status of records
 
-Many entities within Dynamics 365 Marketing require you to _go live_ with a record before you can incorporate it into your live marketing initiatives. The go-live process takes a record you are working with, checks it for errors, prepares it for use, and marks it as available. In some cases, the go-live process ends by moving the final record to a marketing service, which runs in parallel to your application instance and processes data-intensive features like bulk email sending, collecting and analyzing results, or populating dynamic segments. The go-live process is sometimes also referred to as _publishing_.
+Many entities within Dynamics 365 Marketing require you to _go live_ with a record before you can incorporate it into your marketing initiatives. The go-live process checks a record for errors, prepares it for use, and then marks it as available. In some cases, the go-live process ends by moving the record to a marketing service, which runs in parallel and processes data-intensive features like bulk email sending, collecting and analyzing results, or populating dynamic segments. The go-live process is also referred to as _publishing_.
 
-Some types of entities require you to stop live records before you can edit the entity, while others let you push updates from Marketing without stopping the live process. In some cases, you won't be able to make certain types of changes (or even any changes at all) once you go live with a given record.
+Some entities require you to stop live records before you edit the entity, while others let you push updates from the Marketing application without stopping the live process. In some cases, you won't be able to make certain types of changes (or even any changes at all) after you go live with a given record.
 
-## Monitor the go-live status with status and status reason
+## Monitor go-live status with the status and status reason fields
 
-Nearly all entities in Dynamics 365 have both **Status** and **Status reason** fields. The **Status** is always either _active_ or _inactive_, which indicates whether the record is in use and can affect where it is visible and selectable in the UI. The **Status reason** gives more information about the **Status**, and often functions as a sub-status (which it usually does for publishable entities in Marketing).
+Most entities in Dynamics 365 have a **Status** and a **Status reason** field. A record's **Status** is either _active_ or _inactive_, which indicates whether the record is in use, and affects where the record is visible and selectable in the user interface. The **Status reason** gives more information about the **Status**, and often functions as a substatus (which it usually does for publishable entities in Marketing).
 
-For most types of entities, you can manually assign the active/inactive **Status** for each record using buttons on the command bar. You might use this, for example, to mark a contact as inactive, which hides that contact from most views but keeps it in your database for future or historical reference. For publishable entities in Marketing, the system usually manages the **Status reason** value (which is therefore read-only) to give you more information about the publish status. For some publishable entities in Marketing, the **Status** field is also managed by the system and therefore may not be editable directly either. See the remaining sections of this topic for details.
+For most entities, you can manually assign the active or inactive **Status** for each record using buttons on the command bar. For example, you might mark a contact as inactive, which hides that contact from most views but keeps it in your database for future or historical reference. For publishable entities in the Marketing application, the system usually manages the **Status reason** value (which is read-only) to give you more information about the publish status. For some publishable entities, the **Status** field is managed by the system and may not be editable directly either.
 
-All entities provide a view selector for list views where you can choose a saved query such as "Active journeys," "All live journeys," "Inactive journeys," and so on. In most cases, you can find inactive records by going to the "Inactive …" view, where you can usually reactivate a record if needed.
+All entities provide a view selector for list views where you choose a saved query such as "Active journeys," "All live journeys," "Inactive journeys," and so on. In most cases, you can find inactive records by going to the "Inactive …" view, where you can usually reactivate a record if needed.
 
 ![Use the system-view selector to see inactive records](media/golive-see-inactive-records.png "Use the system-view selector to see inactive records")
 
 ## Customer journey go-live operations and status
 
-For customer journeys, both the **Status** and a **Status reason** are managed by the system to indicate the journey's current go-live and operational status. Both values are read-only.
+For customer journeys, the **Status** and **Status reason** fields are managed by the system to indicate the journey's current go-live and operational status. Both values are read-only.
 
 | Status | Status&nbsp;reason | Description |
 | --- | --- | --- |
 | Active | Draft | The journey has never been live and can be edited, saved, or deleted without restrictions.<br><br>To publish a draft journey, open it and then choose **Go Live** on the command bar. |
-| Active | Live | The journey is currently live. If the current date is between the journey start and end dates, then it is processing contacts. The journey will automatically go to the stopped state when its end date passes.<br><br>To stop a live journey, open it and then choose **Stop** on the command bar.<br><br>To edit a live journey without stopping it, open it and then choose **Edit** on the command bar.<br><br>You can't delete a journey while it's live. |
-| Active | Stopped | The journey was once live, and may have already processed some contacts, but is now stopped, so it won't process any more contacts or take any other actions. It may have stopped because the end date passed, or because you stopped it manually.<br><br>Thirty days after the end date, the journey will automatically change from _active/stopped_ to _inactive/expired_. Once a journey has expired, you can no longer edit or restart it, but until then you can extend the end date and restart it if needed.<br><br>While stopped, you can edit and save the journey without going live. Select **Go live** to start running the journey again.<br><br>You can delete a stopped journey even if its end date hasn't passed. |
+| Active | Live | The journey is currently live. If the current date is between the journey start and end dates, then it's processing contacts. The journey will automatically go to the stopped state when its end date passes.<br><br>To stop a live journey, open it and then choose **Stop** on the command bar.<br><br>To edit a live journey without stopping it, open it and then choose **Edit** on the command bar.<br><br>You can't delete a journey while it's live. |
+| Active | Stopped | The journey was once live, and may have already processed some contacts, but is now stopped, so it won't process any more contacts or take any other actions. It may have stopped because the end date passed, or because you stopped it manually.<br><br>30 days after the end date, the journey will automatically change from _active/stopped_ to _inactive/expired_. After a journey has expired, you can no longer edit or restart it, but until then you can extend the end date and restart it if needed.<br><br>While stopped, you can edit and save the journey without going live. Select **Go live** to start running the journey again.<br><br>You can delete a stopped journey even if its end date hasn't passed. |
 | Active | Live, editable | The journey is currently live, but you have chosen to edit it locally. The live journey will continue to process contacts and take other actions while you work with the local version.<br><br>Make the required changes and then choose **Save** to update the live journey automatically (after an error check) and return to the active/live state. You can't delete a journey while it's in this state.|
-| Active | Error | An error occurred while the journey was going live. This is usually a temporary issue, so you should wait a short time, then try again to go live. |
+| Active | Error | An error occurred while the journey was going live. This issue is usually temporary so you should wait a short time, then try again to go live. |
 | Active | Going live | The journey is currently in the process of going live. |
 | Active | Stopping | The journey has been live but is currently in the process of stopping due to a stop request. |
 | Inactive | Expired | The journey end date passed at least 30 days ago and the journey can't be restarted. You can delete expired journeys if needed. |
@@ -70,7 +70,7 @@ Some customer journey settings become locked (read-only) based on the journey's 
 | Pipeline (tile positions) | Editable | Locked | Locked |
 | Tile settings | Editable | Editable (see note) | Locked |
 
-If you attempt to stop records such as emails, forms, or segments utilized by live customer journeys, a warning dialog will pop up to prevent you from stopping a record that may disrupt a live journey.
+If you attempt to stop records such as email messages, forms, or segments utilized by live customer journeys, a warning pops up to prevent you from stopping a record that may disrupt a live journey.
 
 ![Warning dialog when deleting a live record](media/customer-journey-publishable-entities.png "Warning dialog when deleting a live record")
 
@@ -78,11 +78,11 @@ If you attempt to stop records such as emails, forms, or segments utilized by li
 > If you change the recurrence interval after the journey has already started, the current iteration will continue to run using the previous interval. Your new interval will take effect starting at the next iteration.
 
 > [!NOTE]
-> If you change the segment source for one or more segment tiles after a journey has started, the journey won't process any contacts that are no longer part of the segment and that haven't yet left the segment group tile. However, removed contacts that have already started the journey (that *have* left the segment group tile) will continue to be processed to the end. This means that the removed segment might be fully unprocessed, partially processed, or fully processed, depending on how far it progressed by the time you removed it. New contacts added by a new segment will join the journey as usual, and contacts that were part of both the replaced and new segment will continue where they left off.
+> If you change the segment source for one or more segment tiles after a journey has started, the journey won't process any contacts that are no longer part of the segment and that haven't yet left the segment group tile. However, removed contacts that have already started the journey (that *have* left the segment group tile) continue to be processed to the end. The removed segment might be fully unprocessed, partially processed, or fully processed, depending on how far it progressed by the time you removed it. New contacts added by a new segment join the journey as usual, and contacts that were part of both the replaced and new segment continue where they left off.
 
 ## Marketing email go-live operations and status
 
-You can manually set the **Status** of a message to _active_ or _inactive_ by using the buttons on the command bar (as with most entities). The **Status reason** indicates the message's go-live state and is read-only.
+You can manually set the **Status** of a message to _active_ or _inactive_ by using the buttons on the command bar. The **Status reason** indicates the message's go-live state and is read-only.
 
 | Status | Status&nbsp;reason | Description |
 | --- | --- | --- |
@@ -112,7 +112,7 @@ Some email settings become locked (read-only) based on the message's status reas
 
 ## Content settings go-live operations and status
 
-You can manually set the **Status** of a content-settings record to _active_ or _inactive_ by using the buttons on the command bar (as with most entities). The **Status reason** indicates the content-settings record's go-live state and is read-only.
+You can manually set the **Status** of a content-settings record to _active_ or _inactive_ by using the buttons on the command bar. The **Status reason** indicates the content-settings record's go-live state and is read-only.
 
 | Status | Status&nbsp;reason | Description |
 | --- | --- | --- |
