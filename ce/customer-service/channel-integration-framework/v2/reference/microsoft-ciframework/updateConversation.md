@@ -4,7 +4,7 @@ description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 01/28/2020
+ms.date: 02/12/2020
 ms.topic: reference
 ms.service: 
   - dynamics-365-customerservice
@@ -13,8 +13,6 @@ ms.custom:
   - "dyn365-developer"
 ---
 # updateConversation
-
-[!include[cc-beta-prerelease-disclaimer](../../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 This method logs a conversation record that is returned by [getSession](getsession.md) method.
 

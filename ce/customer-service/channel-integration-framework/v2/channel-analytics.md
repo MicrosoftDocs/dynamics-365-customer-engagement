@@ -32,6 +32,9 @@ Without the channel analytics model, if you want to build a contact center analy
 > [!IMPORTANT]
 > Channel Analytics is not supported for Channel Integration Framework version 1.0.
 
+> [!NOTE]
+> Channel Integration Framework creates a Conversation entity ([msdyn_ocliveworkitem](../../../omnichannel/developer/reference/entities/msdyn_ocliveworkitem.md)) record in Common Data Service for every third party conversation launched through it.
+
 ## How does Channel Analytics help?
 
 - It generates instrumentation for agent behavior on the Dynamics 365. 
@@ -76,7 +79,21 @@ After the above records are created, the event logging can be done by creating `
 
 ### How to enable analytics for your organization
 
-Channel Analytics can be enabled at a Dynamics 365 Channel Integration Framework provider level. 
+Channel Analytics can be enabled at a Dynamics 365 Channel Integration Framework provider level. It can be enabled using both the user interface and the Web API.
+
+#### Using User Interface
+
+1. Select the drop-down button on the Dynamics 365 and select **Channel Integration Framework**.
+
+![Dynamics 365 drop-down button to find Channel Integration Framework](../media/cif-app-navigation.png "Dynamics 365 drop-down button to find Channel Integration Framework")
+
+2. Select **+ New** to add a new provider.
+
+3. In the **New Channel** page, set **Enable Analytics** field to **Yes**.
+
+![Enable channel analytics using user interface](../media/enable-channel-analytics.PNG "Enable channel analytics")
+
+#### Using Web API
 
 1. Query for the provider record ID by using the following Web API request:
 
