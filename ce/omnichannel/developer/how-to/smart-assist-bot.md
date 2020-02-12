@@ -242,13 +242,13 @@ The [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/mas
 
 To develop a new web application based smart-assist bot, follow the steps mentioned below.
 
-- Download the GitHub based [code sample](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot).
-- Go to directory **Dynamics365-Apps-Samples\customer-service\omnichannel\smart-assist-bot\SmartAssistBot**.
-- Open the solution file [SmartBot.sln](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/SmartAssistBot/CoreBot.sln) in Microsoft Visual Studio 2017 or any above version.
+1. Download the GitHub based [code sample](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot).
+2. Go to directory **Dynamics365-Apps-Samples\customer-service\omnichannel\smart-assist-bot\SmartAssistBot**.
+3. Open the solution file [SmartBot.sln](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/SmartAssistBot/CoreBot.sln) in Microsoft Visual Studio 2017 or any above version.
 
 To run the sample, you will need to update the LUIS, Bot and Common Data Service settings values in [Appsettings.json](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/SmartAssistBot/appsettings.json).
 
-1. **LUIS Settings**
+##### LUIS Settings
 
 Follow the instructions mentioned in topic [Add natural language understanding to your bot](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&tabs=csharp) to add LUIS to your bot. Once you have created a LUIS app, see [this section](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&tabs=csharp#retrieve-application-information-from-the-luisai-portal) to get `LuisAppId`, `LuisAPIKey` and `LuiAPIHostName`
 
@@ -261,14 +261,14 @@ Follow the instructions mentioned in topic [Add natural language understanding t
 "LuisAppId": "",
 ```
 
-2. **BOT Settings**
+##### BOT Settings
 
 Register your bot with Azure Bot Service and obtain the Microsoft App ID and a Client secret like mentioned below<br />
 
-a. Create registration resource following [this documentation](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0#create-a-registration-resource)<br />
-b. Go to the resource which is just created and select settings from left pane and copy the generated Microsoft App Id<br />
-c. Generate Client secret like mentioned [here](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0#get-registration-password) and copy it separately<br />
-d. Now update both the Microsoft App ID and secret in appsettings.json
+1. Create registration resource following [this documentation](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0#create-a-registration-resource)<br />
+2. Go to the resource which is just created and select settings from left pane and copy the generated Microsoft App Id<br />
+3. Generate Client secret like mentioned [here](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0#get-registration-password) and copy it separately<br />
+4. Now update both the Microsoft App ID and secret in appsettings.json
 
 ```
 // Bot settings
@@ -278,11 +278,12 @@ d. Now update both the Microsoft App ID and secret in appsettings.json
 "ScmType": "None"```
 ```
 
-3. **CDS settings**
-a. Login to Azure portal with CDS credentials<br />
-b. Create an azure application to access dynamics CDS following [this link](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory#create-an-application-registration)<br />
-c. Copy the Application (client) ID and client secret<br />
-d. Update appsettings.json<br />
+##### CDS settings
+
+1. Login to Azure portal with CDS credentials<br />
+2. Create an azure application to access dynamics CDS following [this link](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory#create-an-application-registration)<br />
+3. Copy the Application (client) ID and client secret<br />
+4. Update appsettings.json<br />
 
 ```
 //Dynamics connection settings
