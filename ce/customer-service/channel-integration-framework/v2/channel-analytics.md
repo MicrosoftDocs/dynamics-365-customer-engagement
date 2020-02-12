@@ -68,14 +68,7 @@ The two APIs for tracking event analytics are:
 | [updateConversation](reference/microsoft-ciframework/updateConversation.md) | Invoke this method to update a conversation record. |
 | [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events. |
 
-Ideally `updateConversation` API should be called before the incoming notification is displayed. `logAnalyticsEvent` API can be called as many times as needed after the `updateConversation` call succeeds. 
-
-If there is a need to log events from the server side, the following required entity records need to be created before the event logging can take place.
-- Conversation Data
-- Session Data 
-- Session Participant Data
-
-After the above records are created, the event logging can be done by creating `KPI Event Data` entity record. 
+The `updateConversation` API can be invoked if the channel provider wants to enrich the Conversation entity record with details from third party systems. `logAnalyticsEvent` API can be called as many times as needed after the `updateConversation` call succeeds. 
 
 ### How to enable analytics for your organization
 
