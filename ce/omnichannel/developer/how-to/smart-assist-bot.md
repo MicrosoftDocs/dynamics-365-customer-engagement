@@ -15,7 +15,8 @@ ms.topic: article
 
 Smart assist is an intelligent assistant that provides real-time recommendations to the agents, enabling them to take actions while interacting with the customers. It allows organizations to build a custom bot to push real-time recommendations to agents within the smart assist control on the agent UI. The smart assist bot interprets the ongoing conversation and provides recommendations to the agent using [Microsoft Adaptive Cards](https://adaptivecards.io).
 
-See this topic on how to enable smart assist: [Smart assist for agents](../../administrator/smart-assist.md).
+> [!NOTE]
+> See this administrator guide topic on how to enable smart assist: [Smart assist for agents](../../administrator/smart-assist.md). It provides instructions on how to create a bot user, how to add a smart assist bot to a workstream and how to enable a productivity pane.
 
 This topic provides the information on how you can get started with building a custom smart assist bot.
 
@@ -232,6 +233,67 @@ You can find the entire code sample here: [Smart Assist for Bots](https://github
 The sample code implements two functionalities, one that is Common Data Service specific and other is generic functionality.
 
 In the Common Data Service functionality, the bot finds the intent in the conversation and tries to query Common Data Service for a relevant Knowledge Base article. The connection to Dynamics 365 has to be specified in the `appsettings.json` file in the sample. The `DynamicsDataAccessLayer.cs` class in the sample uses the connection strings mentioned in the app settings file to query the knowledge base articles in your Dynamics 365 instance. For more information on how to S2S authentication to enable communication between Common Data Service and your bot, see the Power Apps topic: [Build web applications using Server-to-Server(S2S) authentication](/powerapps/developer/common-data-service/build-web-applications-server-server-s2s-authentication).
+
+### Getting started with the code sample
+
+The [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot) contains custom smart bot implementation for suggesting KB articles and for Natural Language Understanding using [LUIS](https://www.luis.ai/home).
+
+#### Deploying a new Smart Assist Bot
+
+To develop a new web application based smart-assist bot, follow the steps mentioned below.
+
+- Download the GitHub based [code sample](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot).
+- Go to directory **Dynamics365-Apps-Samples\customer-service\omnichannel\smart-assist-bot\SmartAssistBot**.
+- Open the solution file [SmartBot.sln](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/SmartAssistBot/CoreBot.sln) in Microsoft Visual Studio 2017 or any above version.
+
+To run the sample, you will need to update the LUIS, Bot and Common Data Service settings values in [Appsettings.json](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/SmartAssistBot/appsettings.json).
+
+1. **LUIS Settings**
+
+Follow the instructions mentioned in topic [Add natural language understanding to your bot](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&tabs=csharp) to add LUIS to your bot. Once you have created a LUIS app, see [this section](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&tabs=csharp#retrieve-application-information-from-the-luisai-portal) to get `LuisAppId`, `LuisAPIKey` and `LuiAPIHostName`
+
+**LUIS** app settings can be left blank if you are interested only in KB search
+
+```
+// LUIS connection settings
+"LuisAPIHostName": "westus.api.cognitive.microsoft.com",
+"LuisAPIKey": "",
+"LuisAppId": "",
+```
+
+2. **BOT Settings**
+
+Register your bot with Azure Bot Service and obtain the Microsoft App ID and a Client secret like mentioned below<br />
+
+a. Create registration resource following [this documentation](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0#create-a-registration-resource)<br />
+b. Go to the resource which is just created and select settings from left pane and copy the generated Microsoft App Id<br />
+c. Generate Client secret like mentioned [here](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0#get-registration-password) and copy it separately<br />
+d. Now update both the Microsoft App ID and secret in appsettings.json
+
+```
+// Bot settings
+"MicrosoftAppId": "<Microsoft App Id as generated in step 2b>",
+"MicrosoftAppPassword": "<Microsoft App password as generated in step 2c>",
+"REMOTEDEBUGGINGVERSION": "15.0.28307.222",
+"ScmType": "None"```
+```
+
+3. **CDS settings**
+a. Login to Azure portal with CDS credentials<br />
+b. Create an azure application to access dynamics CDS following [this link](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory#create-an-application-registration)<br />
+c. Copy the Application (client) ID and client secret<br />
+d. Update appsettings.json<br />
+
+```
+//Dynamics connection settings
+"DynamicsAppId": "<Azure Application Id copied in step 3c, This enables Bot to talk to CDS>",
+"DynamicsAppSecret": "<App secret for CDS App Id copied in step 3c>",
+"DynamicsOrgUrl": "<CDS Org Url>",
+"TenantId": "<CDS Tenant Id>"
+```
+Use the same app ID while [creating a bot user](https://docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/smart-assist#step-2-create-a-bot-user) later. Also if you want your bot to search for knowledge base articles, then provide either the **Customer Service Manager** or **Customer Service Representative** role to your bot user.
+
+For more information, see the code sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file.
 
 ## See also
 
