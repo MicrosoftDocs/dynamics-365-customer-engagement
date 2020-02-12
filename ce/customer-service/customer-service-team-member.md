@@ -67,7 +67,7 @@ In the Customer Service Team Member app, you can perform the following tasks:
      -  **Description:** Specify a description that summarizes the problem.
 
     > [!NOTE]
-    > The **Customer** value is not available for editing; it is mapped to the "Default Account" that is configured by your administrator.
+    > The **Customer** value is not available for editing; it is mapped to the "Default account" that is configured by your administrator.
 
 5. Select **Save**. The **Comments** section appears on the page that can be used to provide additional information.
 6. Select **New Comment**. The **New Comment** page appears.
@@ -82,7 +82,7 @@ In the Customer Service Team Member app, you can perform the following tasks:
 11. Select **Knowledge Search** to search for articles pertaining to your problem area that may help in addressing the issue. To learn more, see [Independent knowledge base search](search-knowledge-articles-csh.md#independent-knowledge-base-search).
 
     > [!NOTE]
-    > Sending article URLs is not supported in the Customer Service Team Member app. 
+    > "Send article URLs" is not supported in the Customer Service Team Member app. 
 
 12. If you want to close a case after it has been resolved, you can select the case on the **Active Cases created by me** page and click **Close Case**. Alternatively, you can close the case on the **My Case** page.
 
