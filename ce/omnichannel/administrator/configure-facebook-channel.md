@@ -92,6 +92,9 @@ After completing the prerequisites, you can add the Facebook channel for your or
 
 After you add a Facebook page, values for **Callback Uri** and **Verify Token** are generated automatically. These values are used to configure webhooks in the Facebook application.
 
+   > [!Note]
+   > You can add multiple Facebook **Page Id** (pages) to a **Facebook Application** channel. However, a Facebook **Page Id** can be linked to one **Facebook Application** only. If you link the same Facebook **Page Id** to multiple **Facebook Application** channels, then **Callback Uri** and **Verify Token** won't be generated automatically.
+
 > [!div class=mx-imgBorder]
 > ![Facebook application created](../media/fb-app-created.png "Facebook application created")
 
