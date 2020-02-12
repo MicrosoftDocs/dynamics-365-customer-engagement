@@ -14,8 +14,6 @@ manager: shujoshi
 
 # Select a template
 
-[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
-
 You must select a template to create a forecast. The selected templates populate the **Hierarchy route** field that defines the entity type in your hierarchy.
 
 To select a template, go to the **Forecast configurations** page and select one of the following templates:

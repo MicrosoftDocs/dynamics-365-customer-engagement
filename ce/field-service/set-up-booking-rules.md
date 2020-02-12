@@ -10,10 +10,10 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 87e2cafc-ead7-43b2-b62a-db3a2fc05380
 caps.latest.revision: 13
-ms.author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
