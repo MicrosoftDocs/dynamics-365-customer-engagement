@@ -79,7 +79,7 @@ A custom domain can help your customers find your support resources more easily 
      > - Contains all intermediate certificates in the certificate chain
      > - Must be SHA2 enabled; SHA1 support is being removed from popular browsers
      > 
-     > The steps to export SSL certificate as a password-protected PFX file may vary depending on your certificate provider. Check with your certificate provider for recommendation. For example, certain providers may suggest to use OpenSSL 3rd party tool from [OpenSSL](https://www.openssl.org/) or [OpenSSL](https://wiki.openssl.org/index.php/Binaries) Binaries sites. 
+     > The steps to export SSL certificate as a password-protected PFX file may vary depending on your certificate provider. Check with your certificate provider for recommendation. For example, certain providers may suggest to use OpenSSL 3rd party tool from [OpenSSL](https://www.openssl.org/) or [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries) sites. 
 
 5. Select **Next**.
 
