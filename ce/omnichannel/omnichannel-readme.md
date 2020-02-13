@@ -21,7 +21,7 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 
 ## Third-party application tab refreshes when focus is changed
 
-When you host first- and/or third-party URLs in Ominchannel for Customer Service using the application tab, and when an agent switches the from the current application tab to another application tab within the session or switches to another session, the application hosted in the tab will be refreshed to the initial state. 
+When you host first- and/or third-party URLs in Ominchannel for Customer Service using the application tab, and when an agent switches from the current application tab to another application tab within the session or switches to another session, the application hosted in the tab will be refreshed to the initial state. 
 
 For example, your session has two application tabs, **Knowledge Search** and **Bing Search** (`https://www.bing.com`. You select the **Bing Search** tab and see the Bing search page. Now, you'll search for a keyword - **Latest Surface laptop**, and the search results are displayed.  When you switch from  **Bing Search** to **Knowledge Search**, and again switch to **Bing Search**, the search page is refreshed, and you'll see the Bing search page.
 
