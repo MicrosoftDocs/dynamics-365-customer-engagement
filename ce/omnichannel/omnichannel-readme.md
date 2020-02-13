@@ -37,11 +37,11 @@ In your entity records channel, if you see an error that states: **You must inst
 
 After you upgrade Omnichannel for Customer Service to the latest version in the sandbox or trial environment, conversations that agent closes may not appear in the **Closed work items** stream of the agent dashboard and closed conversations view.
 
-### Workaround
+### Work around
 
 As an administrator, you must activate the **SDK Message Processing Steps** associated to Omnichannel solution.
 
-To workaround the issue, follow these steps:
+To work around the issue, follow these steps:
 
 1. Sign in to the Common Data Service platform.
 
@@ -62,9 +62,9 @@ To workaround the issue, follow these steps:
 
 When you open the quick replies menu in the communication panel (Chat and SMS), you see the messages are repeated multiple times.
 
-### Workaround
+### Work around
 
-To workaround the issue, follow these steps:
+To work around the issue, follow these steps:
 
 1. Sign in to Omnichannel Administration app.
 2. Select **Quick Replies** in the site map.
@@ -97,7 +97,7 @@ If you change the organization name, the upgrade process doesn’t start, and an
 ## Conversation does not open as session or as a form 
 When you use Omnichannel for Customer Service with Unified Service Desk and use **IE Process** to host web applications, a conversation (work item) from the Omnichannel agent dashboard doesn't open as a session or as a form in the application management toolbar.
 
-### Workaround
+### Work around
 
 To work around the issue, follow these steps:
 
@@ -143,16 +143,16 @@ If your organization has deployed a third-party channel provider using the Dynam
 You can continue to use the third-party channel provider in the unified interface apps such as Customer Service Hub, Sales Hub and so on. However, you can't use the third-party channel provider in the Omnichannel for Customer Service app. That is, you should not add the **Omnichannel for Customer Service** app while configuring the app list for in the channel provider.
  
 ## Support for automatic record linking to conversation 
-While working on a session, after an agent creates a customer (contact/account) or case record using the quick create (+) option in the nav bar, it is not auto-linked to the conversation. As a workaround, the agent can perform an inline search for the newly created record and link it to the conversation.
+While working on a session, after an agent creates a customer (contact/account) or case record using the quick create (+) option in the nav bar, it is not auto-linked to the conversation. As a work around, the agent can perform an inline search for the newly created record and link it to the conversation.
 
 ## Authentication error for different agent credentials
-If an agent is signed in to Office 365 or Common Data Service through a different username in the browser (Internet Explorer or Edge) than the one used for USD sign in, an authentication error is shown and the user is not allowed to sign in. As a workaround, the user should sign out from all other accounts on the browser and try signing back in.
+If an agent is signed in to Office 365 or Common Data Service through a different username in the browser (Internet Explorer or Edge) than the one used for USD sign in, an authentication error is shown and the user is not allowed to sign in. As a work around, the user should sign out from all other accounts on the browser and try signing back in.
 
 ## Transfer to queue does not show a message for the initiating agent 
 When an agent initiates a transfer, the initiating agent becomes a consulting agent without any user interface message. However, the session tab name shows the **Consult** tag because the initiating agent is added to the same conversation as a consulting agent to enable smooth transition.
 
 ## Support for Notes when customer is not linked to a conversation
-You as an agent, cannot launch and capture notes for a session where customer is not linked to the conversation. As a workaround, link the conversation to a customer (contact) and then try launching the notes control for capturing the notes.
+You as an agent, cannot launch and capture notes for a session where customer is not linked to the conversation. As a work around, link the conversation to a customer (contact) and then try launching the notes control for capturing the notes.
 
 ## Queue support for notifications
 The agents are shown one notification at a time. If a new notification arrives before the agents either accepts or rejects the conversation (work item), the incoming conversation will not be assigned to the agent.
@@ -160,7 +160,7 @@ The agents are shown one notification at a time. If a new notification arrives b
 ## Cases Work Distribution Flow is not saved successfully
 The updates you do to the out-of-the-box **Cases Work Distribution Flow** for unified routing of case entity records might fail due to authentication issues.
 
-### Workaround
+### Work around
 Authorize Common Data Service native connector in the flow before you save it.
 
 More information: [Update cases work distribution flow](administrator/multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow)
@@ -171,7 +171,7 @@ Entity records routing doesn't route and distribute case records to the agents.
 
 The case entity record won't be automatically distributed to the agents when the option - **Automatically move records to the owner's default queue when a record is created or assigned** is enabled in the case entity customization page.
 
-### Workaround
+### Work around
 You must clear the checkbox to automatically distribute the case records.
 
 > [!div class=mx-imgBorder]
@@ -185,6 +185,6 @@ In the Omnichannel Administration app, in the sitemap, **Entity Records** under 
 
 You might see the routing rules sub grid under an entity records channel displays error intermittently. The error is **You do not have permission to access these records. Contact your administrator for help.**
 
-### Workaround
+### Work around
 
 To load the page without the error, refresh the page to load the routing rules sub grid, and proceed with routing rules configuration.
