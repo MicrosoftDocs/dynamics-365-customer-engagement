@@ -19,6 +19,12 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 > [!Important]
 > We recommend updating Omnichannel for Customer Service to the latest versions for the best experience. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
 
+## Third-party application tab refreshes when focus is changed
+
+When you host first- and/or third-party URLs in Ominchannel for Customer Service using the application tab, and when an agent switches the from the current application tab to another application tab within the session or switches to another session, the application hosted in the tab will be refreshed to the initial state. 
+
+For example, your session has two application tabs, **Knowledge Search** and **Bing Search** (`https://www.bing.com`. You select the **Bing Search** tab and see the Bing search page. Now, you'll search for a keyword - **Latest Surface laptop**, and the search results are displayed.  When you switch from  **Bing Search** to **Knowledge Search**, and again switch to **Bing Search**, the search page is refreshed, and you'll see the Bing search page.
+
 ## Install routing rules solution to use entity records routing
 
 In your entity records channel, if you see an error that states: **You must install routing rule solution to use entity records routing. To learn more see aka.ms/routingrules.**, then perform the following:

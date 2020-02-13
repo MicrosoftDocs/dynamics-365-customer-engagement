@@ -2,14 +2,14 @@
 title: "How do I extend my Woodford Trial? (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
 ms.date: 10/24/2018
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: fs-mobile-extend-woodford-trial
-author: shellyhaverkamp
-ms.author: FieldServiceDave
+author: FieldServiceDave
+ms.author: daclar
 ms.manager: shellyhaverkamp
 search.audienceType: 
   - admin

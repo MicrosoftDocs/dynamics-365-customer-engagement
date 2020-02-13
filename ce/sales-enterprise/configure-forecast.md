@@ -14,8 +14,6 @@ manager: shujoshi
 
 # Configure forecasts in your organization
 
-[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
-
 A forecast helps your organization predict how much revenue your sales team will generate in a given timeframe. When done correctly, forecasting can play a significant role in your company's success. By using a forecast:
 
 - Sellers can track performance against their targets and identify pipeline risks that might jeopardize their ability to hit their targets.
@@ -80,7 +78,7 @@ Perform the following prerequisite tasks:
         > **Forecast category** options consists of **Won** and **Lost** opportunity statuses. If an opportunity is set as **Won** or **Lost**, the forecast category automatically changes status through the **Opportunity Forecast Category Mapping Process** out-of-the-box workflow. <br>
         > To view the **Opportunity Forecast Category Mapping Process** workflow, go to **Settings** > **Process Center** > **Processes** and select **All Processes** view. Search and open the **Opportunity Forecast Category Mapping Process** workflow. You can customize or deactivate the workflow according to your organization's requirements. <br>
         > If you're using a custom option set instead of forecast category, you must create a workflow to automatically sync the opportunity status with your option set to ensure that the forecast is projecting accurate values. <br> 
-        >  To learn more, see [Use Workflow processes to automate processes that don't require user interaction](/customize/workflow-processes).
+        >  To learn more, see [Use Workflow processes to automate processes that don't require user interaction](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes).
 
 ## How do I configure a forecast?
 
@@ -111,4 +109,4 @@ To configure a forecast in your organization, follow these steps:
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
 [View forecasts](view-forecasts.md)<br>
-[About premium forecasting](/ai/sales/configure-premium-forecasting)
+[About premium forecasting](https://docs.microsoft.com/dynamics365/ai/sales/configure-premium-forecasting)
