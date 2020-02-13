@@ -42,16 +42,11 @@ The forms that are displayed on the portal for creating and updating cases can b
 5. Select **Submit**.
 
 > [!NOTE] 
-> If case creation fails with "*An unknown failure has occurred. Error ID # [GUID]*" error, check if the following conditions apply:
+> By default, following error appears if you choose a contact that doesn't belong to the selected account while creating a case:
 > 
-> - Your current portal login is selected as the primary contact for one parent account and at least one child account.
-> - You selected parent or child account from the *Account Lookup View* for the value of *Customer* field on form that your current portal login is primary contact for.
+> *The specified contact doesn't belong to the account selected as the customer. Specify a contact that belongs to the selected account, and then try again.*
 > 
-> When this happens, you can do one of the following to fix this issue:
-> - Deactivate the entity permission *Customer Service - Primary Contact of the Account*. Ensure this permission is not utilized anywhere else in the portal before deactivating it.
-> - Remove your current portal login from primary contact field of parent or child account(s) so that your login is listed as primary contact for only one account.
-> 
-> After this change, the *Account Lookup View* for *Customer* field will only display one account and you can successfully create a case.
+> You can customize this default error by adding a [Content Snippet](https://docs.microsoft.com/powerapps/maker/portals/configure/customize-content-snippets#edit-snippets) with the Name **cases/unrelatedcontact**.
 
 ## Add case notes
 
