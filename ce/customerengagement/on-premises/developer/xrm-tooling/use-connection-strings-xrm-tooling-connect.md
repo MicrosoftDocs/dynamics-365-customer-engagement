@@ -39,7 +39,6 @@ With Dynamics 365 Customer Engagement (on-premises), XRM tooling enables you to 
 ```  
 
 > [!IMPORTANT]
-
 > If you add any sensitive information to the `app.config` or `web.config` file, for example an account password, be sure to take appropriate security precautions to protect the information.  
 
  After creating the connection string, you use it to create a <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> object.  
