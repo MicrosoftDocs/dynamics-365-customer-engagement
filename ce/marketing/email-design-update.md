@@ -34,14 +34,14 @@ search.app:
 
 The improved email editor enables you to create eye-catching emails faster than ever. New email templates with updated layout capabilities offer a head start on the design process. More intuitive controls enable you to drag to resize email content elements including images, dividers, and buttons. Improved color picker controls offer improved support across browsers and mobile devices. Updated property controls allow you to set email-wide properties, creating a consistent look with just a few clicks.
 
-The new email editor offers a variety of customization choices. Picture-over-picture and button-over-picture capabilities add flexibility to your designs. To help boost email open rates, you can add custom preheaders with tailored email message preview text. Options such as rounded corners and individually customizable columns offer even more design possibilities. 
+The new email editor offers many customization choices. Picture-over-picture and button-over-picture capabilities add flexibility to your designs. To help boost email open rates, you can add custom preheaders with tailored email message preview text. Options such as rounded corners and individually customizable columns offer even more design possibilities.
 
-The email preview feature is also improved, allowing you to preview fields with resolved dynamic text. This means you’ll see exactly how your email will look when customers receive it. The built-in accessibility checker helps ensure that all recipients will be able to view your email message.
+The email preview feature is also improved, allowing you to preview fields with resolved dynamic text. The enhanced preview means you’ll see exactly how your email will look when customers receive it. The built-in accessibility checker helps ensure all recipients can view your email message.
 
 ![Updated email content designer features](./media/email-design-update-email-editor.png "Updated email content designer features")
 
 ## Improvements to the pages and forms content editors
 
-The email content designer improvements are also available in the forms and pages designers. Additionally, the fields view in the toolbox is improved the simplify the process of working with multiple custom fields. Form fields are also now searchable for easier navigation.
+The email content designer improvements are also available in the forms and pages designers. Additionally, the fields view in the toolbox is improved to simplify the process of working with multiple custom fields. Form fields are also now searchable for easier navigation.
 
 ![Form editor improvements](./media/email-design-update-form-editor.png "Form editor improvements")
