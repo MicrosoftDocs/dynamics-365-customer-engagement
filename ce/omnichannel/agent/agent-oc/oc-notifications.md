@@ -60,9 +60,6 @@ You receive a notification for a SMS conversation request. When you accept the S
 
 Identification of a customer happens based on the **Mobile Phone** field present in the Contact record in Dynamics 365 Customer Service. That is, if the incoming SMS conversation is from a phone whose number is present in the mobile phone field of a Contact record, the conversation automatically links to the contact record.
 
- > [!div class=mx-imgBorder]
- > ![Incoming SMS notification](../../media/oceh/sms-notification-request.png "Incoming SMS notification") 
-
 The details you’ll see for a SMS channel are:
 
  - Name of the customer
@@ -80,6 +77,9 @@ You receive a notification for a Facebook conversation request. When you accept 
 
 > [!div class=mx-imgBorder]
 > ![Facebook chat agent notification](../../media/fb-agent-notif.png "Facebook chat agent notification")
+
+ > [!div class=mx-imgBorder]
+ > ![Incoming SMS notification](../../media/oceh/sms-notification-request.png "Incoming SMS notification") 
 
 ## See also
 

@@ -38,13 +38,15 @@ From the hierarchical charts view for **users**, you can find out who another te
 
 Hierarchical views are also available on mobile.  
 
-To see hierarchies that show the relationships between records, on the list of accounts, contacts, products, or users, select a record, and on the command bar, choose **View Hierarchy**.   
+To see hierarchies that show the relationships between records, on the list of accounts, contacts, products, or users, select a record, and on the command bar, choose **View Hierarchy** or select the hierarchy icon.   
 
-![View Hierarchy button in Dynamics 365 Customer Engagement (on-premises)](../basics/media/view-hierarchy-button.png "View Hierarchy button in Dynamics 365 Customer Engagement (on-premises)")  
+> [!div class="mx-imgBorder"] 
+> ![View Hierarchy button in Dynamics 365 Customer Engagement (on-premises)](../basics/media/view-hierarchy-button.png "View Hierarchy button in Dynamics 365 Customer Engagement (on-premises)")  
 
 The hierarchy of the related records is shown in a Tree view and Tile view:
 
-![Tree view and Tile view in hierarchy in Dynamics 365 Customer Engagement (on-premises)](../basics/media/tree-view-and-tile-view-in-hierarchy.png "Tree view and Tile view in hierarchy in Dynamics 365 Customer Engagement (on-premises)")
+> [!div class="mx-imgBorder"] 
+> ![Tree view and Tile view in hierarchy in Dynamics 365 Customer Engagement (on-premises)](../basics/media/tree-view-and-tile-view-in-hierarchy.png "Tree view and Tile view in hierarchy in Dynamics 365 Customer Engagement (on-premises)")
 
 You can take the following actions from the hierarchical view:
 
@@ -58,9 +60,10 @@ You can take the following actions from the hierarchical view:
 
 -	 In the Tile view, select the down arrow to see the record’s child records of the existing record.
 
-     ![See child records](../basics/media/see-child-records.png "See child records")
+   > [!div class="mx-imgBorder"] 
+   > ![See child records](../basics/media/see-child-records.png "See child records")
 
-     The number before the arrow denotes the number of child records for that record.
+   The number before the arrow denotes the number of child records for that record.
 
 -	 Use command bar options to take action on selected records. You can select a record by selecting the check box in the top-right corner of a tile in the Tile view. 
 

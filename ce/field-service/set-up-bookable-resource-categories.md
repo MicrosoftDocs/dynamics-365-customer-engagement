@@ -3,17 +3,17 @@ title: "Set up bookable resource categories (Dynamics 365 Field Service) | Micro
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 4dd88e0c-ee95-463a-9d0d-5a1a4f056e4e
 caps.latest.revision: 13
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin

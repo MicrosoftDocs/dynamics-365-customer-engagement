@@ -124,6 +124,18 @@ Add the following URLs for your users to access the Omnichannel for Customer Ser
 | Australia | `oc-cdn-public-oce.azureedge.net/*`|
 | France | `oc-cdn-public-fra.azureedge.net/*`|
 
+**Government Community Cloud (GCC)**
+
+- `https://ocprodocprodnamgs.blob.core.usgovcloudapi.net`
+- `https://*.omnichannelengagementhub.us/*`
+- `https://oc-auth.azurewebsites.us`
+- `https://swc.cdn.skype.com/*`
+- `https://config.edge.skype.com/*`
+- `https://*.gcc.teams.microsoft.com`
+- `https://api.ams.gcc.teams.microsoft.com/*`
+- `https://browser.pipe.aria.microsoft.com/*`
+
+
 ## See also
 
 - [Introduction](introduction-omnichannel.md)
