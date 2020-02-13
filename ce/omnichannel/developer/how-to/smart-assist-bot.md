@@ -122,9 +122,11 @@ The [code sample](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/mas
 
 For information on how to create a knowledge article using template, see [Create a knowledge article using a template](../../../customer-service/create-knowledge-article-using-template.md).
 
-You can also implement functionalities like suggesting similar cases, providing cross sell recommendations and creating appointments. These are Out-of-the-box features and the [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot) does not implement these scenarios. To implement these functionalities, you will need to update the `actions` field in the adaptive cards JSON provided above. The `actions` field instructs the bot on the actions it needs to perform.
+You can also implement functionalities like suggesting similar cases, providing cross sell recommendations and creating appointments. These are Out-of-the-box features and the [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot) does not implement these scenarios. To implement these functionalities, you will need to update the `actions` field in the adaptive cards JSON provided above and develop web resources. The `actions` field instructs the bot on the actions it needs to perform.
 
 ## Calling macros and custom actions using adaptive cards
+
+Macros and custom actions can help you implement custom functionalities in your smart assist bot.
 
 ### Macros
 
@@ -154,7 +156,7 @@ See also: [Automate tasks with macros](../../administrator/macros.md).
 
 ### Custom actions
 
-You will have to create a web resource if you want to use embed a custom action within a suggestion. See the Power Apps topic on [Create your own actions](/powerapps/developer/common-data-service/custom-actions) for information on how to build a custom action.
+You will have to create a web resource if you want to use embed a custom action within a suggestion. See the Power Apps topic on [Create your own actions](/powerapps/developer/common-data-service/custom-actions) for information on how to build a custom action. See the topic [Web resources in model-driven apps](/powerapps/developer/common-data-service/custom-actions) for information on how to create web resources.
 
 To use a custom action, replace `MacroName` and `MacroParameters` with `CustomAction` and `CustomParameters` respectively in the adaptive card JSON. The value provided for `CustomAction` key should be the same as the name of the method that is to be called.
 
