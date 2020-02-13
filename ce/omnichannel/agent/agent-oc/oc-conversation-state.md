@@ -72,7 +72,7 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** state un
 
 ## Waiting
 
-Conversation in waiting state doesn't block your capacity. The conversations get transitioned to waiting state when you (agent) close the session without ending the conversation (without clicking **End** button on communication panel). For example, you are waiting for some information from customer and do not want to end the conversation. 
+Conversation in waiting state doesn't block your capacity. The conversations get transitioned to waiting state when you (agent) close the session without ending the conversation (without selecting **End** button on communication panel). For example, you are waiting for some information from customer and do not want to end the conversation. 
 
 The conversation (work item) transitions from **Waiting** to **Closed**, **Active**, or **Open** state under the following scenarios.
 
