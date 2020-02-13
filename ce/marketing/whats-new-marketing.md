@@ -71,7 +71,6 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
     - You no longer need to create compound dynamic segments to combine behavioral and demographic data. Segments are now categorized as dynamic or static.
     - Static segments are redesigned. Static segments now handle an unlimited number of total contacts (up to 10,000 at a time) and allow rule-based addition to list members.
     - You can now use segment queries to manage or add members.
-    - You can select static segment contacts based on their behavioral data. This feature was previously only available for dynamic segments.
     - Segments are time zone-aware, mirroring the time zone functionality in customer journeys.
     - This release also incorporates a new partial date operator. Partial dates allow you to create segments for events such as “today” or people performing an action on the first day of the month, rather than specifying exact dates.
 - **Customer journeys**
