@@ -52,7 +52,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 | From state | To state | Scenario  | Type (Chat, SMS, and Entity Record) |
 |---------------|------------------|---------------------------------------------------------|------------|
 | Active        | Wrap-up          | When you select the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget (only for a chat channel). | Chat and SMS |
-| Active        | Open             | When you disconnect the conversation and doesn't reconnect with in a specified timeout period. <br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another queue. <br><br> | Chat and SMS |
+| Active        | Open             | When you disconnect the conversation and don't reconnect within a specified timeout period. <br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another queue. <br><br> | Chat and SMS |
 | Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button) while the conversation is active.<br><br> When the customer is disconnected from the conversation and you are no longer getting reply, you can close the session without ending the conversation (this is applicable only for a SMS channel). This will keep conversation in waiting state. |   Chat and SMS |
 | Active | Closed | When you resolve the case (or get an entity record to non-active state) and close the session. | Entity Record |
 
@@ -72,13 +72,13 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** state un
 
 ## Waiting
 
-Conversation in waiting state don't block your capacity. The conversations get transitioned to waiting state when you (agent) close the session without ending the conversation (without clicking **End** button on communication panel). For example, you are waiting for some information from customer and do not want to end the conversation. 
+Conversation in waiting state doesn't block your capacity. The conversations get transitioned to waiting state when you (agent) close the session without ending the conversation (without clicking **End** button on communication panel). For example, you are waiting for some information from customer and do not want to end the conversation. 
 
 The conversation (work item) transitions from **Waiting** to **Closed**, **Active**, or **Open** state under the following scenarios.
 
 | From state | To state | Scenario  | Type (Chat, SMS, and Entity Record) |
 |---------------|------------------|---------------------------------------------------------|------------|
-| Waiting       | Closed           | When there is no activity on this conversation from either customer or agent, with in inactivity timeout period. <br><br> When the customer selects the **End** button to end the conversation and close the session (only for a chat channel).| Chat and SMS |
+| Waiting       | Closed           | When there is no activity on this conversation from either customer or agent, within inactivity timeout period. <br><br> When the customer selects the **End** button to end the conversation and close the session (only for a chat channel).| Chat and SMS |
 | Waiting       | Active           | When you revive the session from your **My work items** stream on **Omnichannel Agent Dashboard**. | Chat and SMS |
 | Waiting       | Open             | When the customer revives the conversation within a specified timeout period while the session is still active in the browser. | Chat and SMS |
 
