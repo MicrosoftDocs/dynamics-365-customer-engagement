@@ -14,7 +14,7 @@ ms.custom:
 ---
 # updateConversation
 
-This method allows you to update a Conversation([msdyn_ocliveworkitem](../../../../omnichannel/developer/reference/entities/msdyn_ocliveworkitem.md)) record.
+This method allows you to update a Conversation([msdyn_ocliveworkitem](../../../../../omnichannel/developer/reference/entities/msdyn_ocliveworkitem.md)) record.
 
 ## Syntax
 

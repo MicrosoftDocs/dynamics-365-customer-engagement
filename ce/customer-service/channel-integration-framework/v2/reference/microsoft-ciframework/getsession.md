@@ -15,13 +15,11 @@ ms.custom:
 
 # getSession
 
- 
-
 [!include[applies-to-v2](../../includes/applies-to-v2.md)]
 
 [!include[session-api-omnichannel](../../includes/session-api-omnichannel.md)]
 
-Returns an object containing the unique identifier of the session, context and the value of isFocused parameter, in case the session belongs to the channel provider.
+Returns an object containing the unique identifier of the session, unique identifier of the conversation, context and the value of isFocused parameter, in case the session belongs to the channel provider.
 
 ## Syntax
 
