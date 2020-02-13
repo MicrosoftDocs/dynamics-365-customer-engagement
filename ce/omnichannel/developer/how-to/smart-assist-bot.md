@@ -23,7 +23,7 @@ This topic provides the information on how you can get started with building a c
 
 ## Pre-requisites
 
-To get started with building a custom smart assist bot, you will first need to create a bot with [Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0).
+To get started with building a custom smart assist bot, you will first need to create a bot with [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0).
 
 ## Interpret the conversation
 
@@ -160,7 +160,9 @@ See also: [Automate tasks with macros](../../administrator/macros.md).
 
 ### Custom actions
 
-You will have to create a web resource if you want to use embed a custom action within a suggestion. See the Power Apps topic on [Create your own actions](/powerapps/developer/common-data-service/custom-actions) for information on how to build a custom action. See the topic [Web resources in model-driven apps](/powerapps/developer/common-data-service/custom-actions) for information on how to create web resources.
+You will have to create a web resource if you want to use embed a custom action within a suggestion. See the Power Apps topic on [Create your own actions](/powerapps/developer/common-data-service/custom-actions) for information on how to build a custom action. See the topic [Web resources in model-driven apps](/powerapps/developer/common-data-service/custom-actions) for information on how to create web resources. These web resources will have to be uploaded under the **Customer Summary Form**, as shown in the screenshot below.
+
+![Customer summary form](../../media/conversation-entity-customer-summary.png "Customer summary form")
 
 To use a custom action, replace `MacroName` and `MacroParameters` with `CustomAction` and `CustomParameters` respectively in the adaptive card JSON. The value provided for `CustomAction` key should be the same as the name of the method that is to be called.
 
