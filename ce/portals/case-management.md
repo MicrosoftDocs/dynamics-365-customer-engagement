@@ -46,7 +46,7 @@ The forms that are displayed on the portal for creating and updating cases can b
 > 
 > *The specified contact doesn't belong to the account selected as the customer. Specify a contact that belongs to the selected account, and then try again.*
 > 
-> You can customize this default error by adding a [Content Snippet](https://docs.microsoft.com/powerapps/maker/portals/configure/customize-content-snippets#edit-snippets) with the Name **cases/unrelatedcontact**.
+> You can customize this default error by adding a [Content Snippet](https://docs.microsoft.com/powerapps/maker/portals/configure/customize-content-snippets#edit-snippets) with the *Name* as **cases/unrelatedcontact** and *Value* as your custom error message text.
 
 ## Add case notes
 
