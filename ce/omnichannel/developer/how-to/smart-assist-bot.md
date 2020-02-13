@@ -21,6 +21,8 @@ This topic provides the information on how you can get started with building a c
 > [!IMPORTANT]
 > For the complete code sample on how to create a custom smart assist bot, see: [Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot). Refer to the code sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file for information on how to setup and run the sample.
 
+To setup a smart assist bot, you need to create a custom bot that can interpret a conversation and send recommendations to the agent. The bot should contain logic to understand the underlying context of a conversation and send recommendations using adaptive cards. The actions on adaptive cards can be implemented using macros or custom web resources.
+
 ## Prerequisites
 
 - To get started with building a custom smart assist bot, you will first need to create a bot with [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0). When you register your bot with Azure Bot Service, you will obtain `Microsoft App ID` and `Client secret` which you will need to update the `appsettings.json` file in the bot.
@@ -42,6 +44,8 @@ It is essential to analyze the conversation and understand its context before yo
 Based on the intent extracted from an ongoing conversation, you can provide appropriate recommendations to the agent using adaptive cards. This section covers some examples for adaptive cards that can be used for various scenarios. You can use the [Adaptive Cards Designer](https://adaptivecards.io/designer/) to create your own adaptive card template.
 
 ### Smart assist using knowledge articles
+
+Consider the scenario wherein a customer is trying to troubleshoot his printer and he initiates a chat with customer support to resolve his queries. Customer tells the agent that his printer is making a loud noise and that he has tried restarting it but it did not work. The smart assist assesses the context of the conversation and based on that it displays recommendations on similar cases.
 
 Given below is the adaptive card JSON for displaying knowledge article recommendations.
 
