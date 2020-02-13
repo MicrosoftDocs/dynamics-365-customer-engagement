@@ -102,6 +102,7 @@
 
 ## Service Scheduling Guide
 ### [Understand Service Scheduling](basics-service-service-scheduling.md)
+### [Search Resource Availability and Create Bookings for Requirement Groups](universal-resource-scheduling.md)
 ### [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-service-scheduling-experience)
 ### [Manage security roles](manage-security-roles.md)
 ### Schedule entities
