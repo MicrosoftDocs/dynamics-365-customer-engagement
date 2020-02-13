@@ -21,6 +21,10 @@ This topic provides the information on how you can get started with building a c
 > [!IMPORTANT]
 > For the complete code sample on how to create a custom smart assist bot, see: [Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot). Refer to the code sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file for information on how to setup and run the sample.
 
+## Pre-requisites
+
+To get started with building a custom smart assist bot, you will first need to create a bot with [Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0).
+
 ## Interpret the conversation
 
 It is essential to analyze the conversation and understand its context before you can suggest an action to the agent. Use [Language Understanding (LUIS)](https://luis.ai) to find the intent of the ongoing conversation. You can use the extracted intent to perform actions such as suggesting a knowledge base article, scheduling an appointment or suggesting similar cases. Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
@@ -185,7 +189,7 @@ The sample code implements two functionalities, one that is Common Data Service 
 
 In the Common Data Service functionality, the bot finds the intent in the conversation and tries to query Common Data Service for a relevant Knowledge Base article. The connection to Dynamics 365 has to be specified in the `appsettings.json` file in the sample. The `DynamicsDataAccessLayer.cs` class in the sample uses the connection strings mentioned in the app settings file to query the knowledge base articles in your Dynamics 365 instance. For information on how to register your application on Azure Active Directory, see [Register an app with Azure AD](/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
 
-Use the same app ID while [creating a bot user](https://docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/smart-assist#step-2-create-a-bot-user) later. Also if you want your bot to search for knowledge base articles, then provide either the **Customer Service Manager** or **Customer Service Representative** role to your bot user.
+Use the same app ID while [creating a bot user](https://docs.microsoft.com/dynamics365/omnichannel/administrator/smart-assist#step-2-create-a-bot-user) later. Also if you want your bot to search for knowledge base articles, then provide either the **Customer Service Manager** or **Customer Service Representative** role to your bot user.
 
 For more information, see the code sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file.
 
