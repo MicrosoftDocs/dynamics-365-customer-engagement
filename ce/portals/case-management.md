@@ -41,7 +41,8 @@ The forms that are displayed on the portal for creating and updating cases can b
 
 5. Select **Submit**.
 
-> [!NOTE] If case creation fails with "*An unknown failure has occurred. Error ID # [GUID]*" error, check if the following conditions apply:
+> [!NOTE] 
+> If case creation fails with "*An unknown failure has occurred. Error ID # [GUID]*" error, check if the following conditions apply:
 > 
 > - Your current portal login is selected as the primary contact for one parent account and at least one child account.
 > - You selected parent or child account from the *Account Lookup View* for the value of *Customer* field on form that your current portal login is primary contact for.
