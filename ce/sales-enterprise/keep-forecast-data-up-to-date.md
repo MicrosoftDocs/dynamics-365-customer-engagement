@@ -14,8 +14,6 @@ manager: shujoshi
 
 # Maintain up-to-date forecast data
 
-[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
-
 Forecast data is kept up to date by being automatically recalculated at regular intervals. If you're actively interacting with the forecast, a recalculation is triggered when the data is found to be more than 10 minutes old. After the recalculation, you'll be prompted to refresh the forecast grid to show the latest data.
 
 If you're not actively interacting with the forecast, the data is recalculated every hour. The **Last recalculated** label on the command bar shows the time when the forecast was last recalculated successfully.
@@ -60,4 +58,4 @@ After recalculation, the data in the forecast reflects the latest opportunity an
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
 [View a forecast](view-forecasts.md)<br>
-[About premium forecasting](/ai/sales/configure-premium-forecasting)
+[Analyze revenue outcome by using predictive forecasting](https://docs.microsoft.com/dynamics365/ai/sales/analyze-revenue-outcome-using-predictive-forecasting)

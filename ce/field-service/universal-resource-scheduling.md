@@ -8,17 +8,17 @@ searchScope:
   - Customer Service
   - Field Service
   - Project Service
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - common-scheduler
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: c92c0cba-cc1d-41ef-983f-869a7a8c1988
 caps.latest.revision: 14
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
