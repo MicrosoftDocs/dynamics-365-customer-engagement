@@ -1,14 +1,14 @@
 ---
 title: "Manage cases in a portal | MicrosoftDocs"
 description: "Learn how to manage cases in a portal."
-ms.date: 12/03/2018
+ms.date: 02/12/2020
 ms.service: crm-online
 ms.topic: article
 ms.assetid: 546B2F5F-3DEA-466D-99B8-4D504D38E487
 author: sbmjais
 ms.author: shjais
 manager: shubhadaj
-ms.reviewer: 
+ms.reviewer: tapanm
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -40,6 +40,17 @@ The forms that are displayed on the portal for creating and updating cases can b
     ![Create a new case](media/create-case.png "Create a new case") 
 
 5. Select **Submit**.
+
+> [!NOTE] If case creation fails with "*An unknown failure has occurred. Error ID # [GUID]*" error, check if the following conditions apply:
+> 
+> - Your current portal login is selected as the primary contact for one parent account and at least one child account.
+> - You selected parent or child account from the *Account Lookup View* for the value of *Customer* field on form that your current portal login is primary contact for.
+> 
+> When this happens, you can do one of the following to fix this issue:
+> - Deactivate the entity permission *Customer Service - Primary Contact of the Account*. Ensure this permission is not utilized anywhere else in the portal before deactivating it.
+> - Remove your current portal login from primary contact field of parent or child account(s) so that your login is listed as primary contact for only one account.
+> 
+> After this change, the *Account Lookup View* for *Customer* field will only display one account and you can successfully create a case.
 
 ## Add case notes
 
