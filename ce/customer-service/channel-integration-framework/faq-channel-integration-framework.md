@@ -88,6 +88,18 @@ To learn more, see [Choose between version 1.0 and version 2.0](choose-between-v
 
 For information on license, see the [Dynamics 365 Customer Service pricing overview](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing) and [Dynamics 365 Customer Service pricing plan](https://dynamics.microsoft.com/en-us/pricing/customer-service/#plans) pages.
 
+### How do third party telephony providers start their default session?
+
+You can invoke the `Microsoft.CIFramework.setMode(1)` method from your provider code to make the panel visible. This can be put at the end of your initialization code, so that the widget is visible right from the time the channel provider is loaded.
+
+Beyond that point, you can listen to `onSessionClosed` Event to show the provider widget when the last session is closed. This way you can make sure that the channel provider widget is visible all the time whether or not a session is open.
+
+For more information, see [setMode](reference/microsoft-ciframework/setmode.md) API and [onSessionClosed](reference/events/onsessionclosed.md) event.
+
+### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
+
+This is to make sure that updated data is available for the agent at all times.
+
 ## See also
 
 [Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)<br />
