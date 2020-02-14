@@ -338,7 +338,7 @@ Migration can be done for legacy Search and Book API to URS API. Use the followi
 
 This section adds more details on API mapping from legacy to the new URS API explained with the example. Below are scenario-based explanations and elaboration of new API adaption.  
 
-### Scenario 1: Legacy setup screen shot for reference.  
+## Scenario 1: Legacy setup screen shot for reference.  
 
 ![Legacy setup screen shot for reference](media\ur-scheduling-16.png)
 
