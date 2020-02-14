@@ -9,7 +9,7 @@ ms.topic: article
 author: cabeln
 ms.author: cabeln
 manager: 
-ms.reviewer: kamaybac
+ms.reviewer: alfergus
 topic-status: Drafting
 search.audienceType: 
   - admin
