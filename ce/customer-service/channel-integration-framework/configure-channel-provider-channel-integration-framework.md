@@ -4,7 +4,7 @@ description: "Learn how to configure a channel provider in Microsoft Dynamics 36
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 02/14/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -41,7 +41,7 @@ To configure channel providers:
   |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface App.|
   |Custom Parameter|This takes a text blob as input and `Microsoft.CIFramework.getEnvironment` will return this as value of key `customParams`.|
   
-  ![Channel provider configuration](../media/channel-provider-configuration.PNG "Channel provider configuration")
+  ![Channel provider configuration](../media/channel-provider-configuration-v1.PNG "Channel provider configuration")
 
   > [!Note]
   > The msdyn_ciprovider entity is accessible only for the administrator roles and hence the panel will not load for a non-administrator roles. To load the panel for the non-administrator roles, create a new role and provide read-access to the msdyn_ciprovider entity. Now, add the role to the users who will be accessing the Channel Integration Framework.
