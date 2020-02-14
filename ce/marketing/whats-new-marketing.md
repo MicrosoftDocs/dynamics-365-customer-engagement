@@ -32,6 +32,25 @@ Microsoft rolls out each monthly and biannual update on a region-by-region basis
 
 ## March 2020 update
 
+The Dynamics 365 Marketing March 2020 update includes several feature enhancements, performance upgrades, and bug fixes. The March release also includes a preview of the redesigned getting started page.
+
+### Version numbers
+
+| App              | GA release      | Early access    |
+|------------------|-----------------|-----------------|
+| Marketing        | 1.35.10058.1075 | 1.35.10058.2083 |
+
+> [!Tip]
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+
+### Preview features
+
+- **Redesigned getting started page**
+
+### General availability enhancements
+
+### Bug fixes
+
 ## February 2020 update
 
 The Dynamics 365 Marketing February 2020 update includes an improved segment experience plus several feature enhancements, performance upgrades, and bug fixes. Early access features include an updated email content designer, marketing forms for event registrations, and improved customer journeys.
