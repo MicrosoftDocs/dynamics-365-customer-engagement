@@ -55,6 +55,7 @@ The customer journey SDK sample shows how to:
 3. Create a new customer journey with a specific workflow design.
 4. Validate an existing customer journey record for any errors.  
 5. Publish an existing customer journey record. 
+6. Creates [custom channel activity interaction](create-custom-channel-activity-interaction.md) from customer journey custom channel activity record.
 
 ## Examples
 
