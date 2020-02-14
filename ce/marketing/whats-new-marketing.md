@@ -36,9 +36,9 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
 
 ### Version numbers
 
-| App              | GA release      | Early access    |
-|------------------|-----------------|-----------------|
-| Marketing        | 1.35.10058.1075 | 1.35.10058.2083 |
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10058.1075 |
 
 > [!Tip]
 > To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
@@ -49,7 +49,23 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
 
 ### General availability enhancements
 
+- **Customer journeys**
+    - Custom channel name in interaction timeline
+    - Warning when stopping records (emails, forms, segments) used by customer journeys
+- **Event management**
+    - Stop event registration
+    - Improved recurrent event behavior
+- **Marketing forms**
+    - External form hosting and form capture setup UX improvements
+- **Segment management**
+    - Improved date operations
+
 ### Bug fixes
+
+- **GDPR**
+    - Disable behavior tracking for consent confirmation
+- **Digital assets**
+    - Upload any file using the provided access token
 
 ## February 2020 update
 
@@ -88,12 +104,6 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
 
 ### General availability enhancements
 
-- **Segment Management**
-    - You no longer need to create compound dynamic segments to combine behavioral and demographic data. Segments are now categorized as dynamic or static.
-    - Static segments are redesigned. Static segments now handle an unlimited number of total contacts (up to 10,000 at a time) and allow rule-based addition to list members.
-    - You can select static segment contacts based on query and segment data.
-    - Segments are time zone-aware, mirroring the time zone functionality in customer journeys.
-    - This release also incorporates a new partial date operator. Partial dates allow you to create segments for events such as “today” or people doing an action on the first day of the month, rather than specifying exact dates.
 - **Customer journeys**
     - Improved handling of [publishable entities](https://docs.microsoft.com/dynamics365/marketing/go-live) in live customer journeys.
 - **Marketing forms**
@@ -103,6 +113,12 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
     - Recurring event instances [now show a list](https://docs.microsoft.com/dynamics365/marketing/event-recurring) of other recurring events in the same series in a sub grid, simplifying navigation. Recurring event series records show a list of all events in the series. There is also a new calendar view for recurring event series records.
     - Custom fields and publish statuses now [copy over](https://docs.microsoft.com/dynamics365/marketing/event-recurring) from recurring event series records to each recurring event instance record.
     - Recurring events are [no longer locked down](https://docs.microsoft.com/dynamics365/marketing/event-recurring) when in the "going live" state. Now, if you would like to immediately publish your recurring series to your website, you can do so. Additionally, you can change the recurrence pattern for already created events.
+- **Segment management**
+    - You no longer need to create compound dynamic segments to combine behavioral and demographic data. Segments are now categorized as dynamic or static.
+    - Static segments are redesigned. Static segments now handle an unlimited number of total contacts (up to 10,000 at a time) and allow rule-based addition to list members.
+    - You can select static segment contacts based on query and segment data.
+    - Segments are time zone-aware, mirroring the time zone functionality in customer journeys.
+    - This release also incorporates a new partial date operator. Partial dates allow you to create segments for events such as “today” or people doing an action on the first day of the month, rather than specifying exact dates.
 
 ### Bug fixes
 
@@ -126,7 +142,7 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
     - Websites with misconfigured allowed domains no longer cause errors messages when externally hosted forms are loaded.
 - **Quota management**
     - Checks for whether an installation is complete no longer result in an error message for non-admin users.
-- **Segmentation**
+- **Segment management**
     - Resolved an issue where default customer journey content settings were not populated for BU user roles.
     - Resolved an issue where long segment names blended into the page background.
 - **Template galleries**
