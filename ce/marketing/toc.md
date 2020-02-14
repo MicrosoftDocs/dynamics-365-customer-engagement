@@ -110,6 +110,7 @@
 
 ### Create marketing emails
 #### [Email marketing overview](prepare-marketing-emails.md)
+#### [Early access: Improved email content designer](email-design-update.md)
 #### [Create a new email and design its content](email-design.md)
 #### [Add dynamic content to email messages](dynamic-email-content.md)
 #### [Set the sender, receiver, language, and legal designation](email-properties.md)
@@ -150,6 +151,7 @@
 
 ### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
+#### [Early access: Export to Excel for further analysis](export-journey.md)
 #### [Early access: Set expiration dates for emails](email-expire.md)
 #### [Preview: Use smart scheduler to help improve email engagement](smart-scheduler.md)
 #### [Create and manage customer journey templates](journey-templates.md)
@@ -165,6 +167,7 @@
 
 ### Event planning and management
 #### [Event management overview](event-management.md)
+#### [Early access: Improved event management experience](event-forms.md)
 #### [Open the event management work area](open-events.md)
 #### [Set up an event](set-up-event.md)
 #### [Set up session-level registration and waitlisting](session-level-registration.md)
