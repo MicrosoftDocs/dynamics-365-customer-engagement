@@ -2,15 +2,15 @@
 title: "Custom channel activity create interaction (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
 description: "Describes the input parameters required by the msdyncrm_CustomChannelActivityCreateInteraction action"
 ms.custom: 
-ms.date: 04/01/2018
+ms.date: 02/15/2020
 ms.service: crm-online
 ms.technology: 
   - marketing
 ms.topic: conceptual
 ms.assetid: db4ef53d-8a48-4b27-899f-8f4c788bc43c
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+author: nkrb
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -26,10 +26,10 @@ The following table describes the input parameters required by the `msdyncrm_C
 |-----------|----------|---------|
 |ActivityId |String|The `msdyncrm_activityid` attribute value of the `msdyncrm_customerjourneycustomchannelactivity` entity containing custom channel Activity Id.|
 |CustomerJourney |EntityReference|The `msdyncrm_customerjourney` attribute value of the `msdyncrm_customerjourneycustomchannelactivity` entity containing Entity Reference to customer journey originating the call.| 
-|CustomerJourneyIteration| EntityReference|The `msdyncrm_customerjourneyiteration` attrbiute value of the `msdyncrm_customerjourneycustomchannelactivity` entity containing Entity Reference to customer journey iteration.| 
+|CustomerJourneyIteration| EntityReference|The `msdyncrm_customerjourneyiteration` attribute value of the `msdyncrm_customerjourneycustomchannelactivity` entity containing Entity Reference to customer journey iteration.| 
 |Contact |EntityReference| The `msdyncrm_contact` attribute value of the `msdyncrm_customerjourneycustomchannelactivity` entity containing Entity Reference to processed contact.| 
 |EntityType  |String |The `msdyncrm_entitytype` attribute value of the `msdyncrm_customerjourneycustomchannelactivity` entity containing the string representing the entity type of custom entity created in [step1](create-entities-forms.md) and defined in the custom channel tile [definition](configure-tile-custom-channel.md#sample-tile-xml-file).| 
-|EntityId |String |The `msdyncrm_entityid` attribute value  of the `msdyncrm_customerjourneycustomchannelactivity` record id of the custom entity create in [step1](create-entities-forms.md) and defined by `EntityType` element in the custom channel tile [definition](configure-tile-custom-channel.md#sample-tile-xml-file).|
+|EntityId |String |The `msdyncrm_entityid` attribute value of the `msdyncrm_customerjourneycustomchannelactivity` record id of the custom entity created in [step1](create-entities-forms.md) and defined by the `EntityType` element in the custom channel tile [definition](configure-tile-custom-channel.md#sample-tile-xml-file).|
 |ResponseType |String |Id of one of the response types defined in the custom channel tile [definition](configure-tile-custom-channel.md#sample-tile-xml-file).| 
 |TriggerKeyword |String |(Optional) Keyword for custom response type defined in the custom tile [definition](configure-tile-custom-channel.md#sample-tile-xml-file).| 
 
