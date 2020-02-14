@@ -37,7 +37,7 @@ The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_s
 
 <a name="predefined"></a>   
 ## Predefined UII actions  
- Global Manager provides a series of predefined actions that allow you to manipulate the Common Data Service platform record data through the web services. These can be used during configuration to perform advanced functions in the Common Data Service platform.  
+ Global Manager provides a series of predefined actions that allow you to manipulate the Common Data Service platform record data through the web services. The predefined actions can be used during configuration to perform advanced functions in the Common Data Service platform.  
 
  The following predefined UII actions are available for the **Global Manager** hosted control type:
 
@@ -54,7 +54,7 @@ The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_s
 |ContextId|String representing the context ID.|
 |ApplicationId|GUID of the hosted control for the auditing.|
 |AgentState|String representing the agent state|
-|ActionData|This is the data to write out to the audit entry. If this parameter isn’t explicitly provided, it will use all the remainder lines in the **Data** field of the action call definition.|
+|ActionData|Data to write out to the audit entry. If this parameter isn’t explicitly provided, it will use all the remainder lines in the **Data** field of the action call definition.|
 
 <a name="CallDoAction"></a>
 ### CallDoAction
@@ -62,10 +62,10 @@ The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_s
 
 |Parameter|Description|
 |---------------|-----------------|
-|panel|This is the panel to find the active application, if no application is specified.|
-|action|This is the action to call on the hosted control.|
-|data|This is the data parameter to pass to the action.|
-|application|This is the hosted control name for which you want to execute an action call. If this is specified, the **panel** parameter is ignored.|
+|panel|Panel to find the active application, if no application is specified.|
+|action|Action to call on the hosted control.|
+|data|Data parameter to pass to the action.|
+|application|Hosted control name for which you want to execute an action call. If the hosted control name is specified, the **panel** parameter is ignored.|
 
 <a name="ClearAppBar"></a>
 ### ClearAppBar
@@ -81,7 +81,7 @@ The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_s
 
 |Parameter|Description|
 |---------------|-----------------|
-|global|`True` if you want the search results tied to the global session to be cleared. You must be careful while storing search results in the global session as these are not automatically cleared by the system. In this case, you must call the **ClearEntityList** action before calling the **DoSearch** action.|
+|global|`True` if you want the search results tied to the global session to be cleared. You must be careful while storing search results in the global session as the search results are not automatically cleared by the system. In this case, you must call the **ClearEntityList** action before calling the **DoSearch** action.|
 
 <a name="Close"></a>
 ### Close
@@ -125,7 +125,7 @@ The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_s
 |StatusCode|The display name of the final status code after the activity is closed.|
 |StateCode|The display name of the final state code after the activity is closed.|
 
- For example, to close a phone call activity, you must specify the following:
+ For example, to close a phone call activity, you must specify the following parameter and values:
 
 ```
 Id=<GUID of the phone activity record>
@@ -146,7 +146,7 @@ statecode=Completed
 |Parameter|Description|
 |---------------|-----------------|
 |`LogicalName`|The logical name of the entity to create the record.|
-|`RunAsync`|Set this to **True** to create the entity record asynchronously so that Unified Service Desk is not blocked and remains responsive during the action execution.<br/><br/>**Note**: The associated sub-action calls and subsequent action calls for the **CreateEntity** action do not wait for the asynchronous create operation to complete. So, you must ensure that if you are running the **CreateEntity** action asynchronously, the sub-action calls that depend on the created record are configured to execute only when the target record is complete. This can be achieved using the **ExecuteOnDataAvailable** action on the Global Manager hosted control.|
+|`RunAsync`|Set the parameter to **True** to create the entity record asynchronously so that Unified Service Desk is not blocked and remains responsive during the action execution.<br/><br/>**Note**: The associated sub-action calls and subsequent action calls for the **CreateEntity** action do not wait for the asynchronous create operation to complete. So, you must ensure that if you are running the **CreateEntity** action asynchronously, the sub-action calls that depend on the created record are configured to execute only when the target record is complete. This can be achieved using the **ExecuteOnDataAvailable** action on the Global Manager hosted control.|
 
  Each subsequent line in the parameter list contains a series of Name=Value pairs that will define your other fields to populate on create.
 
@@ -199,7 +199,7 @@ Param=value
 
 |Parameter|Description|
 |---------------|-----------------|
-|Id|The ID of the value to delete. This must be the GUID of the record to delete.|
+|Id|The ID (GUID) of the record to delete.|
 |LogicalName|The logical name of the entity to delete.|
 
 <a name="route"></a>
@@ -220,7 +220,7 @@ Param=value
 |Parameter|Description|
 |---------------|-----------------|
 |name|The name of the entity search to be used for searching the record.|
-|global|`True` if you want the search results tied to the global session to be cleared. You must be careful while storing search results in the global session as these are not automatically cleared by the system. In this case, you must call the **ClearEntityList** action before calling this action.|
+|global|`True` if you want the search results tied to the global session to be cleared. You must be careful while storing search results in the global session as the search results are not automatically cleared by the system. In this case, you must call the **ClearEntityList** action before calling this action.|
 |maxcount|The maximum number of records to store in the EntityList results from this call.|
 
 > [!NOTE]
@@ -235,8 +235,8 @@ Param=value
 
 | Parameter |                                                                             Description                                                                             |
 |-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   text    |      This is the text displayed in the message box. If this parameter is not specified, any remaining text (remainder parameter) or empty string will be used.      |
-|  caption  | This is the caption displayed in the message box. If no caption is specified, **the Common Data Service platform Message** will be used. |
+|   text    |      Text displayed in the message box. If this parameter is not specified, any remaining text (remainder parameter) or empty string will be used.      |
+|  caption  | Caption displayed in the message box. If no caption is specified, **the Common Data Service platform Message** will be used. |
 
 ### ExecuteOnDataAvailable
  Delays the execution of the sub-actions until a specified set of replacement parameters becomes available. A time-out value may be specified to limit the amount of time to wait for the replacement parameters to become available. If no time-out is specified, it will wait indefinitely or until the session ends. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Blog: How to use the special actions, ExecuteOnTimeout, ExecuteOnDataAvailable, ExecuteOnExpressionTrue](https://blogs.msdn.com/b/usd/archive/2015/09/25/how-to-use-the-special-actions-executeontimeout-executeondataavailable-executeonexpressiontrue.aspx)
@@ -387,7 +387,7 @@ Param=value
 
 <a name="RedoScreenPop"></a>   
 ### RedoScreenPop  
- Pops the last screen again. This can be useful in cases where the session limit was reached and the pop up wasn’t successful, or you closed the session but more work is required. This action requires no parameters.  
+ Pops the last screen again. This can be useful in cases where the session limit was reached and the pop-up wasn’t successful, or you closed the session but more work is required. This action requires no parameters.  
 
 <a name="ResetLocalCache"></a>   
 ### ResetLocalCache  
@@ -410,7 +410,7 @@ Param=value
 
 <a name="SaveSetting"></a>
 ### SaveSetting
- Stores a user specific setting.
+ Stores a user-specific setting.
 
 |Parameter|Description|
 |---------------|-----------------|
@@ -539,7 +539,7 @@ Param=Boolean(value)
 Param=PartyList(email[“test@test.com”], er[“contact”, guid])
 ```
 
- You can use any number of email and er entries to represent email addresses and entity references respectively.
+ You can use any number of emails and er entries to represent email addresses and entity references respectively.
 
  Other values such as string values can be specified like the following:
 
