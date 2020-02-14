@@ -127,6 +127,9 @@
 #### [Plan your migration](plan-migration.md)
 #### [Migrate entity records data using migration tool](migrate-entity-records.md)
 
+### Service Scheduling Developer Guide
+### [Search Resource Availability and Create Bookings](universal-resource-scheduling.md)
+
 ### Legacy Service Scheduling (Customer Service app)
 #### [Set up business closure](set-when-business-closed-cs-app.md)
 #### [Set work hours to define availability](set-work-hours-resource.md)
@@ -154,7 +157,6 @@
 ## Developer guide
 ### [Create knowledge article using template](create-knowledge-article-using-template.md)
 ### [Extend transformer logic on templates](extend-tranformer-logic-template.md)
-### [Search Resource Availability and Create Bookings](universal-resource-scheduling.md)
 
 ## [Omnichannel for Customer Service Guide](https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide)
 ## [Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)
