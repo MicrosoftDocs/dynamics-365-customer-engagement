@@ -124,7 +124,8 @@ Next, we'll use the following scenario to walk through how to schedule a Require
   6. Subject <b>Test Requirement Group</b>
   7. Service <b>Test Requirement Group</b>
 
-  [!NOTE:] This will  auto create a resource requirement group which will have the same name as service activity. 
+> [!NOTE]
+> This will  auto create a resource requirement group which will have the same name as service activity. 
 
 Now you have a requirement group automatically created which has one technicians(resources) to be scheduled to perform service at your customer’s location. 
 
@@ -136,9 +137,11 @@ Below is an example configuration of the Resource Requirement Group page:
 
 1. Active Requirements Group
 
-    [!NOTE]: To access the <b>Requirement Group</b> page from the Customer Service Hub (CSH) app, you will need to navigate there via a URL. 
+ > [!NOTE] 
+ > To access the <b>Requirement Group</b> page from the Customer Service Hub (CSH) app, you will need to navigate there via a URL. 
 
-    ![IMPORTANT]: Use the following URL to reach the <b>Resource Requirements Group</b> page: <<YourOrgURL>YourOrgURL>?appid=guid&pagetype=entitylist&etn=msdyn_requirementgroupr.
+> [!IMPORTANT]
+> Use the following URL to reach the <b>Resource Requirements Group</b> page: <<YourOrgURL>YourOrgURL>?appid=guid&pagetype=entitylist&etn=msdyn_requirementgroupr.
 
 2. Test Requirements Group
 
@@ -162,7 +165,8 @@ In this next scenario, we show how to pass values for a specific Requirement Gro
     
 - If the API is called from a client (browser or canvas app) based on JavaScript, you need to have the extended SOAP SDK which is provided in the sample files for download.
 
-  [!NOTE] The extended SOAP SDK is not a Microsoft official release, but is provided in the sample for guidance.
+> [!NOTE] 
+> The extended SOAP SDK is not a Microsoft official release, but is provided in the sample for guidance.
 
 - We recommend you test in your development or test environments to validate your scenario(s) and results before running in production environments.
 
