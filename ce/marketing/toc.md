@@ -150,7 +150,7 @@
 
 ### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
-#### [Preview: Set expiration dates for emails](email-expire.md)
+#### [Early access: Set expiration dates for emails](email-expire.md)
 #### [Preview: Use smart scheduler to help improve email engagement](smart-scheduler.md)
 #### [Create and manage customer journey templates](journey-templates.md)
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
