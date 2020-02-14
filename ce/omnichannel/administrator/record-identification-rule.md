@@ -14,9 +14,9 @@ ms.service:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Identify and assist customers better by showing their details on the **Customer summary** page. To automatically identify and load customer and case details for an incoming conversation, you need to set up pre-chat questions in the relevant chat widgets. Customer responses are used to search for details in the records and display the results. For an Account or Contact, the search is performed on **Name**, **Email**, or **Phone Number** field. For Cases, the search is performed on **Case Number** field.
+Identify and assist customers better by showing their details on the **Customer summary** page. To automatically identify and load customer and case details for an incoming conversation, you need to set up pre-chat questions in the relevant chat widgets. Customer responses are used to search for details in the records and display the results. For an Account or Contact, the search is performed on the **Name**, **Email**, or **Phone Number** field. For Cases, the search is performed on the **Case Number** field.
 
-When an incoming conversation request is received, a notification appears that includes contextual information for the request, including customer details  if available. When an agent accepts the incoming notification, the **Customer summary** page opens, and shows the details of the identified customer and case. 
+For every incoming conversation request agent receives a notification appears that includes contextual information for the request, including customer details if available. After the agent accepts the incoming notification, the **Customer summary** page opens, and shows the details of the identified customer and case. 
 
 For more information, see [View Customer summary for an incoming engagement request](../agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md).
 
