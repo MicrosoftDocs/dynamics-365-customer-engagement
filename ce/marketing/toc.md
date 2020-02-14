@@ -110,7 +110,6 @@
 
 ### Create marketing emails
 #### [Email marketing overview](prepare-marketing-emails.md)
-#### [Early access: Improved email content designer](email-design-update.md)
 #### [Create a new email and design its content](email-design.md)
 #### [Add dynamic content to email messages](dynamic-email-content.md)
 #### [Set the sender, receiver, language, and legal designation](email-properties.md)
@@ -137,7 +136,6 @@
 
 ### Define market segments
 #### [Working with segments](segmentation-lists-subscriptions.md)
-#### [Early access: Improved segment design and management](segments-update.md)
 #### [Segments vs. lists](segments-vs-lists.md)
 #### [Design dynamic demographic or firmographic segments](segments-profile.md)
 #### [Design behavioral segments](segments-interaction.md)
@@ -152,7 +150,6 @@
 
 ### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
-#### [Early access: Export to Excel for further analysis](export-journey.md)
 #### [Early access: Set expiration dates for emails](email-expire.md)
 #### [Preview: Use smart scheduler to help improve email engagement](smart-scheduler.md)
 #### [Create and manage customer journey templates](journey-templates.md)
@@ -168,7 +165,6 @@
 
 ### Event planning and management
 #### [Event management overview](event-management.md)
-#### [Early access: Improved event management experience](event-forms.md)
 #### [Open the event management work area](open-events.md)
 #### [Set up an event](set-up-event.md)
 #### [Set up session-level registration and waitlisting](session-level-registration.md)
@@ -221,8 +217,8 @@
 #### [Overview of custom channel](developer/overview-custom-channel.md)
 #### [Create a custom channel](developer/create-custom-channel.md)
 ##### [Step 1: Create required entities and forms](developer/create-entities-forms.md) 
-##### [Step 2: Create a workflow or plug-in to implement your custom logic](developer/create-workflow-plugin-custom-channel.md)
-##### [Step 3: Configure the tile for custom channel](developer/configure-tile-custom-channel.md)
+##### [Step 2: Configure the tile for custom channel](developer/configure-tile-custom-channel.md)
+##### [Step 3: Create a workflow or plug-in to implement your custom logic](developer/create-workflow-plugin-custom-channel.md)
 ##### [Step 4: Test your custom channel tile](developer/test-custom-channel-tile.md)
 #### [Publish custom channel on AppSource](developer/publish-custom-channel-appsource.md)
 #### [Configure and use custom channel](developer/configure-use-custom-channel.md)

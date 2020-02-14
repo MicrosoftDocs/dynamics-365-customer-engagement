@@ -80,7 +80,7 @@ No, that is not supported.
 
 Yes. Dynamics 365 Channel Integration Framework version 1.0 APIs will continue to be available and supported for the single-session Unified Interface apps like Customer Service Hub and Sales Hub. Even with the Dynamics 365 Channel Integration Framework version 2.0 app, they will continue to work.
 
-### I want to use the multi-session experiences for my contact center with a third-party provider's communication widget built using the Dynamics 365 Channel Integration Framework version 2.0 APIs. What licenses do I need to purchase for that?
+### I want to use the multi-session experiences for my contact center with a third-party provider's communication widget
 
 Dynamics 365 Channel Integration Framework version 2.0 works only with multi-session app (Omnichannel for Customer Service). You can integrate any third-party telephony provider with Omnichannel for Customer Service using the Channel Integration Framework 2.0 APIs. 
 
