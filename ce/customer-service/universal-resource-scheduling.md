@@ -88,17 +88,17 @@ Use the following input and output parameters below for the Search Resource Avai
 Use the following input and output parameters below for the Create Requirement Group Bookings (<b> msdyn_CreateRequirementGroupBookings</b>) API:
 
 ### Input parameters
-|                                  |         |
-|----------------------------------|---------|
-|Version (String)                  |Required |
-|RequirementGroup (EntityReference)|Required |
-|Start (DateTime)                  |Required |
-|Duration (Int)                    |Required |
+|                                  |   |         |
+|----------------------------------|---|---------|
+|Version (String)                  |   |Required |
+|RequirementGroup (EntityReference)|   |Required |
+|Start (DateTime)                  |   |Required |
+|Duration (Int)                    |   |Required |
 |ResourceAssignments (EntityCollection)|Requirement (Guid)|Required|
-|<li> Resource (Guid)|Required|
-|<li> BookingStatusID (Guid)|Required|
-|<li> Effort (Int)          |Required|
-|<li> TravelTime (double)   |Required|
+|<li> Resource (Guid)                  | |Required|
+|<li> BookingStatusID (Guid)           | |Required|
+|<li> Effort (Int)                     | |Required|
+|<li> TravelTime (double)              | |Required|
 
 ### Output parameters
 HandlerExecuted (Boolean)
