@@ -24,9 +24,9 @@ Creating a custom channel for customer journeys involves using the extensibility
 Creating a custom channel for customer journeys broadly involves the following steps:
 > [Step 1: Create required entities and forms](create-entities-forms.md)
 > 
-> [Step 2: Create a workflow or plug-in to implement your custom logic](create-workflow-plugin-custom-channel.md)
+> [Step 2: Configure the tile for custom channel](configure-tile-custom-channel.md)
 > 
-> [Step 3: Configure the tile for custom channel](configure-tile-custom-channel.md)
+> [Step 3: Create a workflow or plug-in to implement your custom logic](create-workflow-plugin-custom-channel.md)
 > 
 > [Step 4: Test your custom channel tile](test-custom-channel-tile.md)
 
