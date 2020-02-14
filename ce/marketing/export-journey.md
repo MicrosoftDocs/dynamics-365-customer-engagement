@@ -30,11 +30,11 @@ search.app:
 >
 >We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
 
-You can now export all customer journey interactions into a .CSV file for further analysis or reporting. You can easily export interactions from the same category (e.g., Delivered emails) with just a click of a button.
+You can now export all customer journey interactions into a .CSV file for further analysis or reporting. You can easily export interactions from the same category (for example, Delivered emails) with just a click of a button.
 
 ## Export a .CSV file
 
-1. Go to **Insights** and select the interaction category you want to export (e.g., **Delivered emails**).
+1. Go to **Insights** and select the interaction category you want to export (for example, **Delivered emails**).
 
 2. Select the **Export to CSV** button in the right top corner of a selected table.
 
