@@ -24,14 +24,7 @@ To add the control:
     > [!div class="mx-imgBorder"]  
     > ![Advanced Settings link in the site map](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
 
-    The **Settings** page opens in Power Platform Admin center.
-
-2.  Expand the **Resources** section, and select **All legacy settings**. 
-
-    > [!div class="mx-imgBorder"]
-    > ![Option to open legacy settings](../sales-enterprise/media/legacy-settings-power-platform-admin-center.png "Option to open legacy settings")
-    
-    The Business Management page opens.
+    The **Business Management settings** page opens in a new browser tab.
 
 2.	On the navigation bar, select **Settings** and then under **Customization**, select **Customizations**.
 

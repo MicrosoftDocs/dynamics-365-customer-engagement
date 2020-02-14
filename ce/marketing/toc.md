@@ -150,7 +150,7 @@
 
 ### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
-#### [Preview: Set expiration dates for emails](email-expire.md)
+#### [Early access: Set expiration dates for emails](email-expire.md)
 #### [Preview: Use smart scheduler to help improve email engagement](smart-scheduler.md)
 #### [Create and manage customer journey templates](journey-templates.md)
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
@@ -217,8 +217,8 @@
 #### [Overview of custom channel](developer/overview-custom-channel.md)
 #### [Create a custom channel](developer/create-custom-channel.md)
 ##### [Step 1: Create required entities and forms](developer/create-entities-forms.md) 
-##### [Step 2: Create a workflow or plug-in to implement your custom logic](developer/create-workflow-plugin-custom-channel.md)
-##### [Step 3: Configure the tile for custom channel](developer/configure-tile-custom-channel.md)
+##### [Step 2: Configure the tile for custom channel](developer/configure-tile-custom-channel.md)
+##### [Step 3: Create a workflow or plug-in to implement your custom logic](developer/create-workflow-plugin-custom-channel.md)
 ##### [Step 4: Test your custom channel tile](developer/test-custom-channel-tile.md)
 #### [Publish custom channel on AppSource](developer/publish-custom-channel-appsource.md)
 #### [Configure and use custom channel](developer/configure-use-custom-channel.md)
