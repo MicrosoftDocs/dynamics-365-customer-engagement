@@ -7,8 +7,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: reference
 ms.assetid: d1975d36-2383-4b88-ab84-e66930ec2dd0
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
