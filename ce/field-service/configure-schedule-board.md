@@ -35,6 +35,9 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 > 3. Open the record and scroll down to the **Resource Scheduling Optimization** section.  
 > 4. On the **Connect to Maps** field, choose **Yes**.  
 > 5. Accept the terms and save the record. 
+
+> [!Note]
+> Along with this article, see [this video on the schedule board](https://youtu.be/-noHEU7wgiQ).
   
 ## View the schedule board  
   
