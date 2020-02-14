@@ -18,7 +18,7 @@ search.app:
   - D365CE
   - D365CS
 ---
-# Search Resource Availability and Create Bookings for Requirement Groups in Universal Resource Scheduling   
+# Search Resource Availability and Create Bookings   
 
 The Search Resource Availability API for requirement groups, and Create Requirement Group Bookings API creates the booking records for requirement groups. 
 
@@ -88,23 +88,20 @@ Use the following input and output parameters below for the Search Resource Avai
 Use the following input and output parameters below for the Create Requirement Group Bookings (<b> msdyn_CreateRequirementGroupBookings</b>) API:
 
 ### Input parameters
-|                                  |   |         |
-|----------------------------------|---|---------|
-|Version (String)                  |   |Required |
-|RequirementGroup (EntityReference)|   |Required |
-|Start (DateTime)                  |   |Required |
-|Duration (Int)                    |   |Required |
+|                                  |         |
+|----------------------------------|---------|
+|Version (String)                  |Required |
+|RequirementGroup (EntityReference)|Required |
+|Start (DateTime)                  |Required |
+|Duration (Int)                    |Required |
 |ResourceAssignments (EntityCollection)|Requirement (Guid)|Required|
-|    |Resource (Guid)|Required|
-|    |BookingStatusID (Guid)|Required|
-|    |Effort (Int)          |Required|
-|    |TravelTime (double)   |Required|
+|<li> Resource (Guid)|Required|
+|<li> BookingStatusID (Guid)|Required|
+|<li> Effort (Int)          |Required|
+|<li> TravelTime (double)   |Required|
 
 ### Output parameters
-
-|    |    |
-|----|----|
-|HandlerExecuted (Boolean)|
+HandlerExecuted (Boolean)
 
 ## Using Requirement Group API
 
@@ -317,13 +314,14 @@ Migration can be done for legacy Search and Book API to URS API. Use the followi
 |Sites  |OrganizationUnits  |Site/OU GUID |
 |RequiredResource  |Preferred Resources|Resources which customer prefers to schedule. |
 |Constraints |Constraints |Customer entity(ufx) |
-|RecurrenceDuration ||In case of recurrence appointment search, duration for appointment |
-|RecurrenceTimeZoneCode | |Time Zone for a recurring request.|
-|SearchDirection | |Forward or backward search for slots based on dates given. |
-|AnchorOffSet | |Offset in hours from midnight |
-|UserTimeZoneCode | |Time zone for user which is set ||SearchRecurrenceRule | |Frequency and interval and count etc |
-| |Resource Types |Type of resource|
-| |Restricted Resources |Restricted for scheduling the appointment
+|RecurrenceDuration     |                     |In case of recurrence appointment search, duration for appointment |
+|RecurrenceTimeZoneCode |                     |Time Zone for a recurring request.        |
+|SearchDirection        |                     |Forward or backward search for slots based on dates given. |
+|AnchorOffSet           |                     |Offset in hours from midnight             |
+|UserTimeZoneCode       |                     |Time zone for user which is set           | 
+|SearchRecurrenceRule   |                     |Frequency and interval and count etc      | 
+|                       |Resource Types       |Type of resource                          |
+|                       |Restricted Resources |Restricted for scheduling the appointment |
 
 ###  Output Mapping for Search API 
 

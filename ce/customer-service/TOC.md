@@ -102,7 +102,6 @@
 
 ## Service Scheduling Guide
 ### [Understand Service Scheduling](basics-service-service-scheduling.md)
-### [Search Resource Availability and Create Bookings for Requirement Groups](universal-resource-scheduling.md)
 ### [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-service-scheduling-experience)
 ### [Manage security roles](manage-security-roles.md)
 ### Schedule entities
@@ -121,7 +120,8 @@
 #### [Introduction](introduction-migration-entity-records.md)
 #### [Plan your migration](plan-migration.md)
 #### [Migrate entity records data using migration tool](migrate-entity-records.md)
-
+### Developer Guide
+#### [Search Resource Availability and Create Bookings](universal-resource-scheduling.md)
 ### Legacy Service Scheduling (Customer Service app)
 #### [Set up business closure](set-when-business-closed-cs-app.md)
 #### [Set work hours to define availability](set-work-hours-resource.md)
