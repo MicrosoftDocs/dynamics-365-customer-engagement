@@ -42,7 +42,7 @@ You must associate the notification templates with a session template.
     | General | Accept Button | Specify a text for the Accept button. This text appears for the agents to accept a conversation request. | Accept <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
     | General | Reject Button | Set the toggle to **Yes** if you want to show the Reject button to agents. <br> After you set the toggle to Yes, the button text box appears. Specify a text for the Reject button. This text appears for the agents to reject a conversation request. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
 
-![Create a notification template](media/create-notification-template.png "Create a notification template")
+![Create a notification template](../media/create-notification-template.png "Create a notification template")
 
 5.	Select **Save** to save the notification template. After you save, the **Notification Fields** section appears in the page.
 
