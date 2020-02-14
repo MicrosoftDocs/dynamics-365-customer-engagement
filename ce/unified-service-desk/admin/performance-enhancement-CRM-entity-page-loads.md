@@ -65,7 +65,7 @@ By default, Internet Explorer pooling is disabled. To enable pooling, a System A
 
 7. Type **InternetExplorerPooling** for the **Name** field.
 
-8. Set **True** for the **Value** field.
+8. Set **False** for the **Value** field.
 
 9. Select **Save**.
 
