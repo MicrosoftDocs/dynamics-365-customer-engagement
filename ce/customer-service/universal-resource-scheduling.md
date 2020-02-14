@@ -157,13 +157,13 @@ Below is an example configuration of the Resource Requirement Group page:
 
 In this next scenario, we show how to pass values for a specific Requirement Group (Entity Reference - GUID), Required Resources to complete work and match the Resource to the Organizational Unit.      
 
-[!IMPORTANT] 
-- To run API, you need GUIDs for:<BR>
-  - requirement group<BR>
-  - bookable resources<BR>
-  - organizational unit (which can be retrieve using the [Web API](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/webapi/query-metadata-web-api)
-    
-- If the API is called from a client (browser or canvas app) based on JavaScript, you need to have the extended SOAP SDK which is provided in the sample files for download.
+> [!IMPORTANT] 
+> - To run API, you need GUIDs for:<BR>
+>   - requirement group<BR>
+>   - bookable resources<BR>
+>   - organizational unit (which can be retrieve 
+> using the [Web API](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/webapi/query-metadata-web-api)
+> - If the API is called from a client (browser or canvas app) based on JavaScript, you need to have the extended SOAP SDK which is provided in the sample files for download.
 
 > [!NOTE] 
 > The extended SOAP SDK is not a Microsoft official release, but is provided in the sample for guidance.
@@ -192,9 +192,9 @@ To execute this search against your organization, you need to download the [samp
 
 ![Modify the hard-coded input parameters](media\ur-scheduling-9.PNG)
 
-We can see there are multiple sets of time slots that are returned with each Set corresponding to a matching available Resource mapped to the underlying Requirement of the Requirement Group.   
+  We can see there are multiple sets of time slots that are returned with each Set corresponding to a matching available Resource mapped to the underlying Requirement of the Requirement Group.   
 
-Once the timeslot Sets are returned by the API, you can display them on your custom web portal, app or a Power app (model/canvas).    
+  Once the timeslot Sets are returned by the API, you can display them on your custom web portal, app or a Power app (model/canvas).    
 
 5. Once you choose a specific timeslot set, (example: we chose Set number 1), update your new_msdyn_CreateRequirementGroupBookingsSample.js web resource in your org to pass the Resource Assignments (Requirement guid, Resource guid) and the Requirement Group per the example below:    
 
@@ -212,7 +212,7 @@ Once the timeslot Sets are returned by the API, you can display them on your cus
 
 ![Modify the hard-coded input parameters](media\ur-scheduling-13.png)
 
-We can also verify this by going back into the organization and checking the Associated bookings of the Service/Requirement group we created as shown below.    
+  We can also verify this by going back into the organization and checking the Associated bookings of the Service/Requirement group we created as shown below.    
 
 ![Modify the hard-coded input parameters](media\ur-scheduling-14.png)
 
