@@ -1,4 +1,4 @@
-# [Overview of Resource Scheduling (RS)](schedule-anything-with-universal-resource-scheduling.md)
+# [Overview of Universal Resource Scheduling (URS)](schedule-anything-with-universal-resource-scheduling.md)
 
 # Scheduling
 ## [Quick scheduling](quick-scheduling.md)
