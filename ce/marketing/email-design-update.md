@@ -32,11 +32,11 @@ search.app:
 
 ## Improved email editor design and functionality
 
-The improved email editor enables you to create eye-catching emails faster than ever. New email templates with updated layout capabilities offer a head start on the design process. More intuitive controls enable you to drag to resize email content elements including images, dividers, and buttons. Improved color picker controls offer improved support across browsers and mobile devices. Updated property controls allow you to set email-wide properties, creating a consistent look with just a few clicks.
+The improved email editor enables you to create eye-catching emails faster than ever. New email templates with updated layout capabilities give you a head start on the design process. More intuitive controls enable you to drag and resize email content elements including images, dividers, and buttons. Improved color picker controls offer support across browsers and mobile devices. Updated property controls allow you to set email-wide properties, creating a consistent look with just a few clicks.
 
-The new email editor offers many customization choices. Picture-over-picture and button-over-picture capabilities add flexibility to your designs. To help boost email open rates, you can add custom preheaders with tailored email message preview text. Options such as rounded corners and individually customizable columns offer even more design possibilities.
+The new email editor offers many customization choices. Picture-over-picture and button-over-picture capabilities add flexibility to your designs. To help boost email open rates, you can now add custom preheaders with tailored email message preview text. Options such as rounded corners and individually customizable columns offer even more design possibilities.
 
-The email preview feature is also improved, allowing you to preview fields with resolved dynamic text. The enhanced preview means you’ll see exactly how your email will look when customers receive it. The built-in accessibility checker helps ensure all recipients can view your email message.
+The email preview feature is also improved. You can now preview fields with resolved dynamic text. The enhanced preview means you’ll see exactly how your messages will look when customers receive them. The built-in accessibility checker helps you ensure that all recipients can view your messages.
 
 ![Updated email content designer features](./media/email-design-update-email-editor.png "Updated email content designer features")
 
