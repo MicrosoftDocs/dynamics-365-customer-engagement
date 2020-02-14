@@ -36,7 +36,7 @@ Before we begin, here are the top places for information about Field Service:
 
 - [YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X): This includes concept videos for Field Service.
 
-- [Video tutorials](https://aka.ms/fs-videos): Step by step video tutorials for work orders, scheduling, and more.
+- [Video tutorials](https://aka.ms/fs-videos): Step-by-step video tutorials for work orders, scheduling, and more.
   - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 1: Using Field Service work orders, scheduling, mobile app, reporting, and more](https://youtu.be/h5X1z0pTtSA)
   - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 2: Field Service installation and setup](https://youtu.be/hvcqAbe4g4E)
   - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 3: Set up bookable resources](https://youtu.be/g118F_LnxyE)
@@ -152,7 +152,7 @@ Similarly, the pinnacle of work order creation is Connected Field Service (CFS) 
 
 First, get an [Overview](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/connected-field-service) of CFS and learn about the [CFS with IoTHub architecture](../field-service/developer/connected-field-service-architecture.md) to better understand how Azure and Dynamics 365 work together.
 
-Next, learn the difference between CFS with [IoTCentral](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/cfs-iot-overview) and CFS with [IoTHub](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/developer/connected-field-service-developer-guide). In short, think of **IoTCentral** as the software-as-a-service option, an easy way to create and demonstrate a protoype, perform a proof-of-concept, test the IoT process with dynamics to outline structure and objectives, and implement CFS for organizations starting from scratch with no IoT infrastructure. Think of **IoTHub** as the platform offering and what will most likely be implemented because it is more customizable and is especially helpful for organizations with existing IoT infrastructure.
+Next, learn the difference between CFS with [IoTCentral](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/cfs-iot-overview) and CFS with [IoTHub](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/developer/connected-field-service-developer-guide). In short, think of **IoTCentral** as the software-as-a-service option, an easy way to create and demonstrate a prototype, perform a proof-of-concept, test the IoT process with dynamics to outline structure and objectives, and implement CFS for organizations starting from scratch with no IoT infrastructure. Think of **IoTHub** as the platform offering and what will most likely be implemented because it is more customizable and is especially helpful for organizations with existing IoT infrastructure.
 
 Next, set up a Connected Field Service environment to create work orders from simulated IoT telemetry. See the following video tutorial for detailed instructions: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
 
