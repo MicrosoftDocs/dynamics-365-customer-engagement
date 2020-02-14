@@ -3,17 +3,17 @@ title: "Configure the schedule board (Dynamics 365 Field Service and Dynamics 36
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: a9a65fd8-1d2f-475e-83d2-2c052b9f2573
 caps.latest.revision: 32
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin

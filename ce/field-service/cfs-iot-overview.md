@@ -8,8 +8,7 @@ ms.suite:
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
-author: shellyhaverkamp
-ms.author: vihuang
+author: FieldServiceDave
 ms.manager: shellyhaverkamp
 search.audienceType: 
   - admin

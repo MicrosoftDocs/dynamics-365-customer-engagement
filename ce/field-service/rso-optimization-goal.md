@@ -1,6 +1,6 @@
 ---
 title: Resource Scheduling Optimization (RSO) Goals
-author: fieldservicedave
+author: FieldServiceDave
 ms.author: daclar
 ms.reviewer: krbjoran
 manager: shellyha

@@ -5,6 +5,7 @@
 ## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
 ## Administrator & Sales Manager Guide
 ### [Help resources for admins and sales managers](../sales-enterprise/admin-guide.md)
+
 ### Sales management
 #### [Overview of admin settings](admin-settings-overview.md)
 #### [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
@@ -41,12 +42,21 @@
 #### [See relationships in a hierarchical view](../basics/hierarchical-relationship.md)
 #### [Add editable products grid on forms](../sales-enterprise/editable-product-grid-forms.md) 
 
-### Forecast and Goal management
+### Goal management
 #### [Goal settings](../admin/system-settings-dialog-box-goals-tab.md)
 #### [Create or edit goals](../sales-enterprise/create-edit-goal-sales.md)
 #### [Define a goal metric](../sales-enterprise/create-edit-goal-metric.md)
 #### [Define a goal rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)
-#### [Configure a forecast in your organization](configure-forecast.md)
+
+
+### Forecast management
+#### [Configure forecasts in your organization](configure-forecast.md)
+#### [Select a template](select-template-forecast.md)
+#### [Define general properties and scheduling](define-general-properties-scheduling-forecast.md)
+#### [Provide viewing permissions](provide-permissions-forecast.md)
+#### [Choose layout and columns](choose-layout-and-columns-forecast.md)
+#### [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
+#### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)
 #### [Add forecast grid and configuration options in site map](add-forecast-site-map.md)
 
 ### Playbook management
@@ -59,6 +69,8 @@
 ### Upgrade or downgrade
 #### [Upgrade from Dynamics 365 Sales Professional](upgrade-sales-professional-sales-enterprise.md)
 #### [Move from Dynamics 365 Sales Enterprise to Professional](move-sales-enterprise-sales-professional.md)
+
+
 ## User Guide
 ### [Help resources for sales people](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)
@@ -95,8 +107,11 @@
 
 ### Sales forecasting
 #### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
-#### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)
-#### [View forecasts](view-forecasts.md)
+#### [View a forecast](view-forecasts.md)
+#### [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md)
+#### [Adjust values in a forecast](adjust-values-in-forecast.md)
+#### [Maintain up to date forecast data](keep-forecast-data-up-to-date.md)
+
 
 ### Playbooks
 #### [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)
@@ -132,6 +147,7 @@
 ##### [msdyn_forecastdefinition](../sales-enterprise/developer/reference/entities/msdyn_forecastdefinition.md)
 ##### [msdyn_forecastinstance](../sales-enterprise/developer/reference/entities/msdyn_forecastinstance.md)
 ##### [msdyn_forecastrecurrence](../sales-enterprise/developer/reference/entities/msdyn_forecastrecurrence.md)
+##### [msdyn_ForecastInstanceActions](../sales-enterprise/developer/reference/entities/export-forecast-data.md)
 #### [Custom actions](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
 ### Playbooks
 #### [Entity reference](../sales-enterprise/developer/reference/playbook-entity-reference.md)
