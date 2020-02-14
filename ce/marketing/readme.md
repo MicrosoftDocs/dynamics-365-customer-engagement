@@ -4,8 +4,8 @@ ms.date: 06/07/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: 78dc5157-cf1d-4e32-ace7-9e71763e7510
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: annbe
 search.audienceType: 
   - admin
