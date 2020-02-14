@@ -28,7 +28,7 @@ The designated app modules are:
 
 At a high level, users with the Team Member license can perform the following tasks in the Sales Team Member app:
 
--  Customer management: work with accounts and contacts.
+-  Customer management: work with contacts or see accounts.
 -  Lead and opportunity management: see leads or opportunities linked with accounts or contacts, or see other sales-related data.
 -  Add activities, such as notes.
 
@@ -43,7 +43,7 @@ Users with the Team Member license can go to home.dynamics.com. They'll see the 
     
 > [!IMPORTANT]
 > - During the early access phase, the Sales Team Member app is shown for a user on the Dynamics 365 home page only if they have the Sales Hub installed. If the Sales Team Member app isn't available on the Dynamics 365 home page, they can get it from Microsoft AppSource.
-> - You must assign the Sales Team Member role to the users who will access the app. To learn about assigning the role, see [Assign a security roles to a user](/power-platform/admin/create-users-assign-online-security-roles) in the Power Platform documentation.
+> - You must assign the Sales Team Member role to the users who will access the app. If you want to give customized permissions to your users, clone the Sales Team Member app role, and provide them the required permissions. To learn about assigning the role, see [Assign a security roles to a user](/power-platform/admin/create-users-assign-online-security-roles) in the Power Platform documentation.
     
 When users open the app, in the site map, they'll see the entities available in the Sales Team Member app. 
 
