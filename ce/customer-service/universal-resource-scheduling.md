@@ -163,12 +163,8 @@ In this next scenario, we show how to pass values for a specific Requirement Gro
 >   - bookable resources<BR>
 >   - organizational unit (which can be retrieve 
 > using the [Web API](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/webapi/query-metadata-web-api)
-> - If the API is called from a client (browser or canvas app) based on JavaScript, you need to have the extended SOAP SDK which is provided in the sample files for download.
-
-> [!NOTE] 
-> The extended SOAP SDK is not a Microsoft official release, but is provided in the sample for guidance.
-
-- We recommend you test in your development or test environments to validate your scenario(s) and results before running in production environments.
+> - If the API is called from a client (browser or canvas app) based on JavaScript, you need to have the extended SOAP SDK which is provided in the sample files for download. The extended SOAP SDK is not a Microsoft official release, but is provided in the sample for guidance. 
+> - We recommend you test in your development or test environments to validate your scenario(s) and results before running in production environments.
 
 To execute this search against your organization, you need to download the [sample files](https://go.microsoft.com/fwlink/?linkid=2117045). Once sample code is downloaded, follow the steps below:   
 
@@ -482,7 +478,7 @@ response.ToString(); <BR>
 response.Dump(); <BR>
 } <BR>
 
-### See Also
+## See Also
 [Service Scheduling Guide](basics-service-service-scheduling.md)
 
 [Service Scheduling FAQ](service-scheduling-faq.md)
