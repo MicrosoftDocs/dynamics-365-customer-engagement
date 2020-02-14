@@ -25,7 +25,7 @@ search.app:
 
 We're excited to announce our newest updates! To see the latest upcoming features, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/). This topic summarizes early access features, preview features, monthly general availability enhancements, and bug fixes.
 
-Microsoft rolls out each monthly and biannual update on a region-by-region basis. Updates are typically available to all regions by the end of the month. You must manually update each of your Marketing instances. As soon as an update is available in your region, you can apply it to your instances as described in [Keep Marketing up to date](apply-updates.md). We recommend updating all Marketing instances right away.
+Microsoft rolls out each monthly and biannual update on a region-by-region basis. Updates are available to all regions by the end of the month. You must manually update each of your Marketing instances. As soon as an update is available in your region, you can apply it to your instances as described in [Keep Marketing up to date](apply-updates.md). We recommend updating all Marketing instances as soon as an update is available.
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
@@ -54,22 +54,25 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
 
 - **Export data to Excel for further analysis**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/export-data-excel-further-analysis)
+    - [Docs](https://docs.microsoft.com/dynamics365/marketing/export-journey)
 - **Improved email content designer**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-email-content-designer)
+    - [Docs](https://docs.microsoft.com/dynamics365/marketing/email-design-update)
 - **Improved event management experience**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-event-management-experience)
+    - [Docs](https://docs.microsoft.com/dynamics365/marketing/event-forms)
 - **Improved customer journey experience**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-customer-journey-experience)
+    - [Docs](https://docs.microsoft.com/dynamics365/marketing/email-expire)
 
 ### General availability enhancements
 
 - **Segment Management**
     - You no longer need to create compound dynamic segments to combine behavioral and demographic data. Segments are now categorized as dynamic or static.
     - Static segments are redesigned. Static segments now handle an unlimited number of total contacts (up to 10,000 at a time) and allow rule-based addition to list members.
-    - You can now use segment queries to manage or add members.
-    - You can select static segment contacts based on their behavioral data. This feature was previously only available for dynamic segments.
+    - You can select static segment contacts based on query and segment data.
     - Segments are time zone-aware, mirroring the time zone functionality in customer journeys.
-    - This release also incorporates a new partial date operator. Partial dates allow you to create segments for events such as “today” or people performing an action on the first day of the month, rather than specifying exact dates.
+    - This release also incorporates a new partial date operator. Partial dates allow you to create segments for events such as “today” or people doing an action on the first day of the month, rather than specifying exact dates.
 - **Customer journeys**
     - Improved handling of [publishable entities](https://docs.microsoft.com/dynamics365/marketing/go-live) in live customer journeys.
 - **Marketing forms**
@@ -93,7 +96,7 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
     - Litmus now supports plain text previews.
     - Auto save no longer overwrites email templates with unsaved changes.
     - Improved responsive design for email on mobile devices.
-    - Resolved an error where HTML code did not copy and paste correctly into the email designer.
+    - Resolved an error where HTML code didn't copy and paste correctly into the email designer.
 - **Marketing pages**
     - Invalid or empty values in DateTime fields are no longer incorrectly parsed.
     - Resolved an error caused by importing a marketing page exported from an org with Dynamics 365 Portal to a Portal-less org.
