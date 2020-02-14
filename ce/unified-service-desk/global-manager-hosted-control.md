@@ -3,7 +3,7 @@ title: "Global Manager (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "The Global Manager hosted control type is the core of Unified Service Desk, and an instance of this hosted control is required by Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 12/31/2019
+ms.date: 02/17/2020
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article

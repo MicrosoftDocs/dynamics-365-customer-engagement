@@ -1,7 +1,7 @@
 ---
 title: "Unified Service Desk Release Notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
-ms.date: 12/31/2019
+ms.date: 02/17/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -22,13 +22,25 @@ search.app:
 
 ## Unified Service Desk 4.1 known issues and limitations
 
+## Unified Service Desk shuts down with with an exception
+
+Unified Service Desk client application suddenly shuts down with an exception. The reason for the sudden shut down issue is due to an issue with the .NET framework installed on your system.
+
+#### Work around
+
+To work around the issue, try the following:
+
+- Update the .NET framework on your system to the latest version.
+- Update all the video drivers on your system.
+- If the crash is reported on a single system, you can try re-imaging the Windows operating system on that system.
+
 ### Condition evaluation is not working
 
 If you've followed the security advisory recommendations on [Microsoft Guidance on Scripting Engine Memory Corruption Vulnerability](https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200001), you might see that the condition evaluation inside Unified Service Desktop will stop working.
 
-#### Workaround
+#### Work around
 
-To workaround the issue, upgrade your Unified Service Desk client to a version greater than 4.1.1.1395.
+To work around the issue, upgrade your Unified Service Desk client to a version greater than 4.1.1.1395.
 
 
 ### Creating an Instance of COM component with CLSID
@@ -39,7 +51,7 @@ You use IE process hosting type and upgrade your Windows 10 to the latest versio
 
 If the Favorites bar is enabled in Internet Explorer, then you might see that error.
 
-#### Workaround
+#### Work around
 
 You can work around the issue in two ways:
 
@@ -73,7 +85,7 @@ If you don't want to remove the Favorites bar for Internet Explorer, add the **K
 
 With Chrome Process, you can't access the DOM element from the C3 custom code. 
 
-#### Workaround
+#### Work around
 
 To work around, you must write JavaScript code to access the DOM and execute the RunScript action on it.
 
@@ -131,7 +143,7 @@ When you execute a long-running script with Edge Process, the Unified Service De
 
 When you host your web pages in a Unified Service Desk client application using Edge Process, downloading files from the web application is not supported with Edge Process.
 
-A workaround is to open the Microsoft Edge browser separately, navigate to the website URL and download the file.
+A work around is to open the Microsoft Edge browser separately, navigate to the website URL and download the file.
 
 #### Support for launching application for a URI with Edge WebView control
 
@@ -146,13 +158,13 @@ Some of the URI schemes and applications are as follows:
 |ms-call\:|  Call app |
 |ms-chat\: | Messaging app |
 
-A workaround is to open the Microsoft Edge browser separately, navigate to the website URL and select the URI scheme to launch the application.
+A work around is to open the Microsoft Edge browser separately, navigate to the website URL and select the URI scheme to launch the application.
 
 #### KB article support with Edge Process
 
 In the web client, when you host the KB article in Unified Service Desk client application using Edge Process, the KB articles does not render. 
 
-A workaround is to change the **Unified Service Desk Component Type** of the **KB Article** hosted control from **CRM Page** to **Unified Interface Page**.
+A work around is to change the **Unified Service Desk Component Type** of the **KB Article** hosted control from **CRM Page** to **Unified Interface Page**.
 
 Change the **Unified Service Desk Component Type** of the **KB Search** hosted control from **KM Control** to **Unified Interface KM Control**.
 
@@ -175,9 +187,9 @@ Now, save the configuration. Log in to Unified Service Desk and open any article
 For an entity list, in the URL, if the `cmdbar=false`, then any URL originating from the URL might not have ribbon command bar.
 For example, if you are navigating from a case grid to a case, and in the URL when `cmdbar=false`, then the case page might not have ribbon command bar.
 
-#### Workaround
+#### Work around
 
-As a workaround for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
+As a work around for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
 
 ## See also
 
@@ -201,7 +213,7 @@ With the Unified Interface KM Control hosted control, if you login to Unified Se
 
 ![Opening article displays server error](media/kb-search-server-error.PNG "Opening article displays server error")
 
-#### Workaround
+#### Work around
 
 To fix the issue, you must manually update the data parameter for the Unified Interface KM Control action call.
 
@@ -232,7 +244,7 @@ Now, if you log in to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-
 
 ![The main and about toolbar shows Unified Interface theme colors instead of Air theme colors](media/about-toolbar-main-toolbar-known-issue.png "The main and about toolbar shows Unified Interface theme colors instead of Air theme colors")
 
-#### Workaround
+#### Work around
 
 Remove the **Custom Styles** XAML from the **About Tool Bar** and **Main** toolbar so that toolbar picks the **Air** theme colors.
 
@@ -273,7 +285,7 @@ However, the tab does not close, and the Unified Interface page (form) navigates
 
 ![Unified Interface page navigates to Dashboard page](media/usd-crm-page-navigates-dashboard.png "Unified Interface page navigates to Dashboard page")
 
-#### Workaround
+#### Work around
 
 To close the tab, you need to select **User Can Close** in the hosted control so that you see **X** button the tab in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. 
 
@@ -287,7 +299,7 @@ Now, login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-
 
 You cannot view and attach an action call to another call (sub-action call) in Unified Service Desk Administrator app as the **Action Calls** in Unified Service Desk Administrator app does not display the **Sub Action Calls** option in the related tab. .
 
-#### Workaround
+#### Work around
 
 You can add an action call to another call using the Unified Service Desk configurations in Web Client. 
 
@@ -323,7 +335,7 @@ Open the recent log file in the notepad. Search for the following message -
 
 One of the reason for the application crash is due to caching of multiple tokens. 
 
-#### Workaround
+#### Work around
 
 To resolve the Unified Service Desk application crash issue, follow the steps.
 
@@ -405,7 +417,7 @@ If you execute a RunScript action on a tab or a page that is not in focus, the e
 
 Accounts and Contacts tabs are open and focus is on Accounts tab. You execute `window.close()` RunScript command to close the Contacts tab. Since, the focus is on Accounts tab the RunScript execution does not execute and the Contacts tab does not close.
 
-**Workaround:**
+**Work around:**
 
 If you open several tabs and want to execute a RunScript action on a tab that is not in focus, set the focus on the tab you want to work and then execute the RunScript action.
 
@@ -427,7 +439,7 @@ When **InternetExplorerPooling** is enabled, and if you close a CRM entity page 
   
   _Image 2: CRM entity page start loading but never completes loading_
 
-**Workaround**
+**Work around**
 
 If you close the CRM entity page, the page starts loading but never completes the loading. In this case, to restore the CRM entity page, right-click on CRM entity page and select **Forward** from the context menu (_see Image 1_).
 
@@ -444,7 +456,7 @@ If you open any webpage in the browser with hosted controls using IE Process hos
 
 Since the webpage is opened in the new window within the same hosted control overlaying the existing page or window, clicking the back button in the webpage does not perform the navigation back to the original page. This behavior is that the new window does not have any history to navigate back to the original page.
 
-**Workaround**
+**Work around**
 
 Configure **Show Outside** action call to show the webpage in an **IE process** outside of the hosted control space in the popup window.
 
@@ -512,7 +524,7 @@ Open the recent log file in the notepad. Search for the following message -
 
 One of the reason for the application crash is due to caching of multiple tokens. 
 
-#### Workaround
+#### Work around
 
 To resolve the Unified Service Desk application crash issue, follow the steps.
 
@@ -533,7 +545,7 @@ You can sign in to Unified Service Desk client application now.
 For an entity list, in the URL, if the `cmdbar=false`, then any URL originating from the URL might not have ribbon command bar.
 For example, if you are navigating from a case grid to a case, and in the URL when `cmdbar=false`, then the case page might not have ribbon command bar.
 
-#### Workaround
+#### Work around
 
 As a work around for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
 
