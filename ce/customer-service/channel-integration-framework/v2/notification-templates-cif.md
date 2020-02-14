@@ -30,7 +30,7 @@ You must associate the notification templates with a session template.
 
 3.	Select **+ New** on the **Active Notifications** page.
 
-4.	Specify the following on the **New Application Tabs** page.
+4.	Specify the following on the **New Notification Template** page.
 
     | Tab | Name | Value description | Example |
     |---------|--------------------|-----------------------------------------------|--------------------|
