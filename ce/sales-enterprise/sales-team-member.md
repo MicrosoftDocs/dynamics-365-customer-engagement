@@ -46,7 +46,7 @@ Users with the Team Member license can go to home.dynamics.com. They'll see the 
 > - Assign the Sales Team Member role to the users who will access the app. If you want to give customized permissions to your users, we recommend that you clone the Sales Team Member app role, and give the required permissions in alignment with the Microsoft Dynamics 365 Licensing Guide. 
   > To learn about assigning the role, see [Assign a security roles to a user](/power-platform/admin/create-users-assign-online-security-roles) in the Power Platform documentation.
     
-When users open the app, in the site map, they'll see the entities available in the Sales Team Member app. 
+When users open the Sales Team Member app, in the site map, they'll see the available entities. 
 
 > [!div class="mx-imgBorder"]
 > ![Site map of the Sales Team Member app](media/sales-team-member-app-site-map.png "Site map of the Sales Team Member app")
