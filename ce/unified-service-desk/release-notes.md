@@ -309,7 +309,7 @@ The Unified Interface KM Control supports [Full-Text search](https://docs.micros
 
 ### Quick create in Unified Service Administrator app
 
-Selecting the **New** button (quick create)  in the **Navigation** toolbar of the Unified Service Desk Administraor app does not display any option to create.
+Selecting the **New** button (quick create)  in the **Navigation** toolbar of the Unified Service Desk Administrator app does not display any option to create.
 
 ![Quick create option in the Navigation toolbar](media/usd-crm-quick-create-button.PNG "Quick create option in the Navigation toolbar")
 
@@ -466,8 +466,8 @@ In this step, you will create an action call to show the webpage.
 
 1. Sign in to the Common Data Service platform.
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
-3. Clikc **Action Calls**.
-4. Click **+ New**.
+3. Select **Action Calls**.
+4. Select **+ New**.
 5. On the **New Action Call** page, specify the following values.
   
    | Field | Value |
@@ -478,7 +478,7 @@ In this step, you will create an action call to show the webpage.
    |Data| [[SUBJECTURL]]|
 
    ![Show outside Action Call](media/show-outside-action-call.PNG "Show outside Action Call")
-6. Click **Save**.
+6. Select **Save**.
 
 #### Step 2: Configure Window Navigation Rules and add the Action Call
 
