@@ -2,7 +2,7 @@
 title: "Resource scheduling and optimization analytics dashboard | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 02/03/2020
+ms.date: 02/14/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -110,6 +110,8 @@ Let's take a look at what each of these metrics are reporting.
 
 The RSO admin report analyzes when and how RSO runs, but not the actual booking results.
 
+To run the report, the RSO Administrator needs to select one optimization schedule e.g., - WA Schedule 1 and select one or more optimization requests.  
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the resource scheduling optimization admin report.](./media/scheduling-analytics-rso-admin.png)
 
@@ -150,17 +152,62 @@ The optimization summary analyzes the automatically scheduled bookings and the e
 ## Additional notes
 
 - The reports explored in this article are all built on Microsoft Power BI.
+- The report dataset will be refreshed in every 24 hours. You may see a warning icon next to the label Last refresh (UTC) which is in top right of each report. This icon typically indicates if there is a delay or issue with the data set refresh. If the data has not been refreshed in last 24 hours, you will see a tooltip message when you hover over on the icon.
+- Data Retention: 24 months. 
+- Travel Calculation: All travel calculation is based on the miles.
+- Data Availability for Entities: We are consuming the following list of entities to generate these reports. If there is no data for any of the below entities, then the report may show blank. If you have customized these entities or not using the out of box entities, then the reports will show blank too. 
+FieldService entities:  
+- Bookableresource 
+- bookableresourcebooking 
+- msdyn_resourcerequirement 
+- Territory 
+- Calendarrule 
+- Bookableresourcegroup 
+- Bookingstatus 
+- msdyn_bookingtimestamp 
+- Organization 
 
-### Sharing reports
+ResourceSchedulingOptimization entities: 
+- Resource 
+- Bookableresource 
+- Territory 
+- Bookableresourcebooking 
+- msdyn_optimizationrequestbooking 
+- msdyn_resourcerequirement 
+- msdyn_priority 
+- msdyn_routingoptimizationrequest 
+- msdyn_routingprofileconfiguration 
+- Calendar 
+- Calendarrule 
+- bookableresourcegroup 
+- Bookingstatus 
+- Organization
 
-By default, the tenant administrator will be able to see all reports. In order to share reports, go to **Advanced Find** and search the **Data Analytics Reports** entity.
+### Error messages
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of advanced find in Dynamics 365, with attention to the data analytics reports section](./media/scheduling-analytics-share.png)
+| Error Message | Action |   
+| --- | --- |
+| Oops! No reports were found in CRM. You may not have access to these reports. Please contact your system administrator. | Contact your organization's system administrator to access the reports | 
+| Oops! Internal service error, please contact your system administrator with Error Code: {numeric value}. | Contact Microsoft Support and create a support ticket |
+|Oops! There was a problem rendering the report. | Refresh the report and if it doesn’t work, contact Microsoft Support and create a support ticket |
+|Oops! There was a problem rendering the report, please try again. | Refresh the report and if it doesn’t work, contact Microsoft Support and create a support ticket |
 
-Each report will show as a record. Select the report you want to share, and then **Share** at the top.
+### Supported regions
 
-Add the users or teams you want to give access to. Make sure the read access is selected, and select the Share button.
+Supported Regions: 
 
-Users or teams the report is shared with will be able to see the report when they log in.
+Below is the list of regions we support the Resource Scheduling Reports (except France): 
+
+| Region | Name | 
+| --- | --- |
+| North America| NAM |
+| South America | SAM |
+| Canada | CAN |
+| Europe | EUR |
+| Asia Pacific Japan |APJ |
+| Australia | OCE |
+| Japan| JPN |
+| India | IND |
+| Great Britain |GBR |
+
 
