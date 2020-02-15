@@ -37,7 +37,7 @@ The list provides an overview of documentation updates made in Unified Service D
 | [DataReady](unified-interface-page-hosted-control.md#dataready) | Added a note for the DataReady event in the Unified Interface page hosted control. |
 | [DataReady](unified-interface-page-hosted-control.md#dataready) | Added a note for the DataReady event in the Unified Interface page hosted control. |
 | [Find](unified-interface-page-hosted-control.md#find) | Added new parameters for the Find event in the Unified Interface page hosted control. |
-| [CreateSession](global-manager-hosted-control#createsession) | Added new parameters for the CreateSession event in the global manager hosted control. |
+| [CreateSession](global-manager-hosted-control.md#createsession) | Added new parameters for the CreateSession event in the global manager hosted control. |
 
 <a name="Release_4_1_1"></a>
 
