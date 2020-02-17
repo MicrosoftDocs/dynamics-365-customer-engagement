@@ -119,6 +119,7 @@
 #### [View customer summary](agent/agent-oc/oc-customer-summary.md)
 #### [Search for and share knowledge articles](agent/agent-oc/oc-search-knowledge-articles.md)
 #### [Take notes specific to conversation](agent/agent-oc/oc-take-notes.md)
+#### [Elevate chat to voice and video call](agent/agent-oc/elevate-chat-voice-video.md)
 #### [Search for transcripts](agent/agent-oc/oc-search-transcipts.md)
 #### [View conversation and session activity types in the Model-driven apps](agent/agent-oc/oc-view-activity-types.md)
 #### [View customer summary for an incoming conversation request](agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md)
