@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: get-started-article
 ms.assetid: f722b098-be63-412a-aadc-7b34d11fa668
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
