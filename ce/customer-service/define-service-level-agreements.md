@@ -141,7 +141,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA
 
-1. In **Customer Service Hub** > **Service Management**, select **SLAs**. The **All Service Level Agreements from unified interface** page appears.
+1. In **Customer Service Hub** > **Service Management**, select **SLAs**. The default view page appears.
 2. Select **New**. The **New SLA** page appears.
 3. On the **General** tab, do the following:
    -  **Name:** Enter a name for the SLA.
@@ -151,7 +151,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA item
 
-1. On the **All Service Level Agreements from unified interface** page, select the SLA for which you want to add an SLA item.
+1. On the default view page, select the SLA for which you want to add an SLA item.
  
 2. On the page that appears, select **New SLA Item**. The **New SLA Item** dialog box appears.
 
