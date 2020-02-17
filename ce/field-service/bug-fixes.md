@@ -86,6 +86,19 @@ To see older bug fixes, see the following links to blog posts:
  
 ## Field Service Mobile
 
+### Version 12.1.20
+-	App crashes when wrong url is entered on sign in screen
+-	FSM app crashes when sending logs if networkLog.txt does not exit
+-	FSM app crashes when connecting to an org without woodford
+-	FSM app crashes when click on 'password manager' from login screen
+-	App crashing on certain older Android devices (misc)
+-	MobileReport - formatting issue on Word/HTML
+-	MobileReport - contents of Word document is removed if user saves Work Order without closing active doc.
+-	Unit Amount and Unit Cost are not calculated when the offline Work Order Product created and sync backed to server
+-	Certain actions don't work under work profile on Android
+-	Conditionally displaying a URL via a shared-variable linked field does not update icon
+
+
 ### Version 12.1
 
 - Win10: Use standard fileIO methods (except open & delete) 
