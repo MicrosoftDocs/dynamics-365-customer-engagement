@@ -99,6 +99,8 @@ ms.topic: article
    > [!NOTE]
    > You can select one co-browse provider and/or one screen sharing provider for each chat widget. 
 
+10. Select **Save** to save the configurations.   
+
 ### See also
 
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
