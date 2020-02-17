@@ -20,7 +20,7 @@
 #### [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)
 #### [Enable or disable saving of business card image](retain-business-card-image-after-scanning.md)
 #### [Customize the business card scanner control](customize-business-card-scan-control.md)
-#### Add the Kanban control to Opportunity or Activity entities(add-kanban-control.md)
+#### [Add the Kanban control to Opportunity or Activity entities](add-kanban-control.md)
 
 ### Product management
 #### [Set up a product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)
