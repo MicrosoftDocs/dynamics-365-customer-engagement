@@ -30,7 +30,7 @@ Review the following prerequisites before using forecasts:
 
  -  The forecast was created with at least one of the following options:
 
-    -  A hierarchy that you're part of has access to the forecast.
+    -  A hierarchy that you're part of.
 
     -  A security role that you're part of has been granted access.
 
