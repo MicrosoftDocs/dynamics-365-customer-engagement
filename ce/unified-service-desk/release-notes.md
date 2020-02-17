@@ -22,7 +22,7 @@ search.app:
 
 ## Unified Service Desk 4.1 known issues and limitations
 
-## Unified Service Desk shuts down with with an exception
+## Unified Service Desk shuts down with an exception
 
 Unified Service Desk client application suddenly shuts down with an fatal exception error message. The reason for the fatal exception error is due to an issue with the .NET framework installed on your system.
 
@@ -42,6 +42,8 @@ Microsoft.Crm.UnifiedServiceDesk    Error    2     Message: Origin:USD
 		   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
    at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
 ```
+
+More information: [WPF Render Thread Failures](https://docs.microsoft.com/archive/blogs/dsui_team/wpf-render-thread-failures)
 
 #### Work around
 
