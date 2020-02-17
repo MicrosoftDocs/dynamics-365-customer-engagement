@@ -91,7 +91,7 @@ ms.topic: article
     | Remote assistance | Screen sharing | Select to enable or disable third-party screen share. You must install a third-party provider from AppSource in order to use the feature. | Enabled |
     | Remote assistance | Screen sharing provider | Select the provider from the list.| Screen_sharing_provider|
     ||||
-    |Calling | Calling options | Select a calling option from the list. You've the following options: <br> - No calling <br> - Video and voice calling <br> - Voice only | Video and voice calling |
+    |Calling | Calling options | Select a calling option from the list. You've the following options: <ul>**No calling**: <br>Agents can't make voice or video calls. </ul><br> <ul>**Video and voice calling**:<br> Agents can make both voice and video calls. </ul><br><ul>**Voice only**:<br> Agents can make only voice calls.  </ul>| Video and voice calling |
 
    > [!div class=mx-imgBorder]
    > ![Enable third-party co-browse and screen sharing through conversation options in a chat widget](../media/chat-widget-conversation-options.png "Enable third-party co-browse and screen sharing through conversation options in a chat widget")
