@@ -84,13 +84,14 @@ ms.topic: article
 
 9. Select the **Conversation options** tab, and specify the information for the following fields. 
 
-
-Use this tab to enable or disable third-party co-browse and screen sharing. You must install a third-party provider from AppSource in order to use these features.
-        
-        
-   1. Select the **Co-browse** field to enable it. In the **Co-browse provider** section, select a provider from the drop-down list and select **Save**.
-   2. Select the **Screen sharing** field to enable it. In the **Screen sharing provider** section, select a provider from the drop-down list and select **Save**.
-   3. Select a calling option. From the drop-down list select an option - **Video and voice calling** or **Voice only**.
+    | Section | Field | Description | Example value |
+    |---------------|------------------------|-----------------------------------|---------------------|
+    | Remote assistance | Co-browse | Select to enable or disable third-party co-browse. You must install a third-party provider from AppSource in order to use the feature. | Enabled |
+    | Remote assistance | Co-browse provider | Select the provider from the list. | Co-browse_provider |
+    | Remote assistance | Screen sharing | Select to enable or disable third-party screen share. You must install a third-party provider from AppSource in order to use the feature. | Enabled |
+    | Remote assistance | Screen sharing provider | Select the provider from the list.| Screen_sharing_provider|
+    ||||
+    |Calling | Calling options | Select a calling option from the list. You've the following options: <br> - No calling <br> - Video and voice calling <br> - Voice only | Video and voice calling |
 
    > [!div class=mx-imgBorder]
    > ![Enable third-party co-browse and screen sharing through conversation options in a chat widget](../media/chat-widget-conversation-options.png "Enable third-party co-browse and screen sharing through conversation options in a chat widget")
