@@ -28,4 +28,4 @@ Dynamics 365 Channel Integration Framework version 2.0 can be obtained by provis
 [Prerequisites and system requirements for Omnichannel for Customer Service](../../../omnichannel/system-requirements-omnichannel.md)<br />
 [Provision Omnichannel for Customer Service](../../../omnichannel/administrator/omnichannel-provision-license.md)<br />
 [Known issues](../known-issues.md)<br />
-[FAQs for Channel Integration Framework](faq-channel-integration-framework.md)
+[FAQs for Channel Integration Framework](../faq-channel-integration-framework.md)
