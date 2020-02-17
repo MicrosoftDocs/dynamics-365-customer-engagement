@@ -3,7 +3,7 @@ title: "Release history (Unified Service Desk )| MicrosoftDocs"
 description: "This topic provides release history information for the Unified Service Desk Guide."
 ms.custom: 
   - dyn365-USD
-ms.date: 07/15/2019
+ms.date: 02/17/2020
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article
@@ -22,6 +22,22 @@ search.app:
 This is the release history page for the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide.  
 
 ::: moniker range="dynamics-usd-4.1"
+
+<a name="Release_4_1_2"></a>
+
+## Release history for Unified Service Desk 4.1.2, February 2020
+
+The list provides an overview of documentation updates made in Unified Service Desk 4.1.2.
+
+| Topic | Updates |
+|--------------|----------------|
+| [Single sign on for Unified Service Desk](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk) | Added a new note under the single sign on support. |
+| [BrowserWindowReady](unified-interface-page-hosted-control.md#browserwindowready)| Added a new event in the Unified Interface page hosted control. |
+| [PageReady](unified-interface-page-hosted-control.md#pageready) | Added a note for the PageReady event in the Unified Interface page hosted control. |
+| [DataReady](unified-interface-page-hosted-control.md#dataready) | Added a note for the DataReady event in the Unified Interface page hosted control. |
+| [DataReady](unified-interface-page-hosted-control.md#dataready) | Added a note for the DataReady event in the Unified Interface page hosted control. |
+| [Find](unified-interface-page-hosted-control.md#find) | Added new parameters for the Find event in the Unified Interface page hosted control. |
+| [CreateSession](global-manager-hosted-control.md#createsession) | Added new parameters for the CreateSession event in the global manager hosted control. |
 
 <a name="Release_4_1_1"></a>
 

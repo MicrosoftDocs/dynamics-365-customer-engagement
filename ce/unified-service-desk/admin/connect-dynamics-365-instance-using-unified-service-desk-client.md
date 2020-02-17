@@ -4,7 +4,7 @@ description: "Learn how to connect to the Unified Service Desk solution using th
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 04/10/2019
+ms.date: 02/14/2020
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article
@@ -70,6 +70,8 @@ By default, the SSO feature is enabled for the Chrome Process. With SSO, you nee
 > - The SSO feature is available only for Dynamics 365 model-driven apps and Unified Service Desk.
 >
 > - If your organization has enforced the Inactivity session timeout for the agents, then with Chrome Process, the agent is not automatically singed out when the inactivity session timeout expires as SSO is enabled by default. If you want to enforce Inactivity session timeout for the agents, then disable the SSO feature for the Chrome Process. To learn more see, [Disable Single Sign On](#enable-or-disable-single-sign-on).
+>
+> - SSO is not supported for Dynamics 365 Customer Engagement (on-premises).
 
 **SingleSignOnThreshold** is a UII option that indicates the timeout period in milliseconds for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to wait before showing a dialog to enter credentials to sign in to the Common Data Service Platform server. By default, **SingleSignOnThreshold** value is 5000 milliseconds. To learn more, see [Manage options in Unified Service Desk](../admin/manage-options-unified-service-desk.md). The **SingleSignOnThreshold** UII option works only when you configure the **SingleSignOnEnabledBrowsers** UII option and specify a valid value.
 
