@@ -29,11 +29,9 @@ Unified Service Desk client application suddenly shuts down with an fatal except
 **Example error message:** 
 
 ```
-Microsoft.Crm.UnifiedServiceDesk    Error    2    02/18/2020 11:18:23  Message: Origin:USD BOOT FAILURE : DispatcherUnhandledException, IsFatal:True
+Microsoft.Crm.UnifiedServiceDesk    Error    2     Message: Origin:USD BOOT FAILURE : DispatcherUnhandledException, IsFatal:True
 		Source    : PresentationCore
 		Method    : SyncFlush
-		Time    : 11:18:23
-		Date    : 02/18/2020
 		Error    : UCEERR_RENDERTHREADFAILURE (Exception from HRESULT: 0x88980406)
 		Stack Trace    : at System.Windows.Media.Composition.DUCE.Channel.SyncFlush()
 		   at System.Windows.Interop.HwndTarget.UpdateWindowSettings(Boolean enableRenderTarget, Nullable`1 channelSet)
