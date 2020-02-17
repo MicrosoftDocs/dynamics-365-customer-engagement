@@ -26,4 +26,6 @@ Dynamics 365 Channel Integration Framework version 2.0 can be obtained by provis
 
 [Softphone integration sample code for Dynamics 365 Channel Integration Framework version 2.0](sample-softphone-integration-v2.md)<br />
 [Prerequisites and system requirements for Omnichannel for Customer Service](../../../omnichannel/system-requirements-omnichannel.md)<br />
-[Provision Omnichannel for Customer Service](../../../omnichannel/administrator/omnichannel-provision-license.md)
+[Provision Omnichannel for Customer Service](../../../omnichannel/administrator/omnichannel-provision-license.md)<br />
+[Known issues](../known-issues.md)<br />
+[FAQs for Channel Integration Framework](faq-channel-integration-framework.md)
