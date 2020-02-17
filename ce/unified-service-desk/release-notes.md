@@ -24,7 +24,26 @@ search.app:
 
 ## Unified Service Desk shuts down with with an exception
 
-Unified Service Desk client application suddenly shuts down with an exception. The reason for the sudden shut down issue is due to an issue with the .NET framework installed on your system.
+Unified Service Desk client application suddenly shuts down with an fatal exception error message. The reason for the fatal exception error is due to an issue with the .NET framework installed on your system.
+
+**Example error message:** 
+
+```
+Microsoft.Crm.UnifiedServiceDesk    Error    2    10/04/2019 11:18:23  Message: Origin:USD BOOT FAILURE : DispatcherUnhandledException, IsFatal:True
+		Source    : PresentationCore
+		Method    : SyncFlush
+		Time    : 11:18:23
+		Date    : 10/04/2019
+		Error    : UCEERR_RENDERTHREADFAILURE (Exception from HRESULT: 0x88980406)
+		Stack Trace    : at System.Windows.Media.Composition.DUCE.Channel.SyncFlush()
+		   at System.Windows.Interop.HwndTarget.UpdateWindowSettings(Boolean enableRenderTarget, Nullable`1 channelSet)
+		   at System.Windows.Interop.HwndTarget.HandleMessage(WindowMessage msg, IntPtr wparam, IntPtr lparam)
+		   at System.Windows.Interop.HwndSource.HwndTargetFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+		   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+		   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+		   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+```
 
 #### Work around
 
