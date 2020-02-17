@@ -24,22 +24,10 @@ search.app:
 # Use the default solution to customize  
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use the Common Data Services Default Solution](/powerapps/maker/common-data-service/use-solutions-for-your-customizations)
 
- When you customize a custom business app, you may work with the default solution. To open the default solution, open solution explorer.  
+ ~When you customize a custom business app, you may work with the default solution. To open the default solution, open solution explorer.~
+ 
+**EDIT: Never ever customize in the Default Solution. This is higly discouraged and customizations should always be made in purposefully created solutions. See [Create a solution](create-solution).**
   
-> [!TIP]
->  After you have the default solution open, use `Ctrl+D` to create a favorite or bookmark in your browser. This will help you open it faster even if you don’t already have the web application open.  
-  
- Every environment has a default solution and it has some unique properties. The default solution contains all the solution components available in your environment. Other solutions may include a subset of the solution components visible in the default solution, but the default solution contains all of them.  
-  
-> [!TIP]
->  Before you start creating new customizations, remember to change the solution publisher customization prefix. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Solution publisher prefix](change-solution-publisher-prefix.md).  
-  
-<a name="BKMK_PrivacyNotice"></a>   
-
-## Privacy notices  
- [!INCLUDE[cc_privacy_crm_gcc_solution_import](../includes/cc-privacy-crm-gcc-solution-import.md)]  
-  
- [!INCLUDE[cc_privacy_crm_customizations](../includes/cc-privacy-crm-customizations.md)]  
   
 ### See also  
  [Customization overview](../customize/overview.md)<br/>
