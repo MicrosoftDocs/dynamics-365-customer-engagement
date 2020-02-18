@@ -26,7 +26,7 @@ search.app:
 
 # Project Service Automation V3, Update Release 16
 
-This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 15 This version has a build number of V3.x.x.xand is available on the following schedule:
+This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 15 This version has a build number of V3.10.6.34 and is available on the following schedule:
 
 - **Preview release:** February 2020
 - **General availability (self-update):** March 2020
@@ -71,7 +71,7 @@ To learn more about the feature, see: (remove this bulleted list if you don't ha
 
 ## Additional resources
 
-### Update Release 15 bug fixes
+### Update Release 16 bug fixes
 
 For information about the bug fixes that are included in each update that is part of Update Release 16, go to....
 
