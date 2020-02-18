@@ -25,63 +25,52 @@ search.app:
 
 
 # Project Service Automation V3, Update Release 16
+We’re pleased to announce the latest update for the Project Service Automation
+application for Dynamics 365. This release includes some important improvements
+to quality, performance, and usability.
 
-This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 15 This version has a build number of V3.10.6.34 and is available on the following schedule:
+This release is compatible with Dynamics 365 9.x. To update to this release,
+visit the Admin Center for Dynamics 365 online, solutions page to install the
+update. For details, refer How to Install, Update a Preferred Solution
 
-- **Preview release:** February 2020
-- **General availability (self-update):** March 2020
-- **Auto-update:** April 2020
+**Bug fixes**
 
-## Features included in this release
+-   Time and Expense
 
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
+    -   Fixed: Users attempting to submit deleted time and expense entries for
+        approvals will receive contextually relevant error messages.
 
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
+-   Project Management
 
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
+    -   Fixed: The resourcing units defined for team members in templates are
+        respected with the templates are applied to a new project.
 
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
+    -   Fixed: Improved handling of the re-assignment of record ownership.
 
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
+    -   Fixed: Projects in the progress of being copied will not be permitted to
+        copied until all copy operations are complete.
 
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
+-   Resource Management
 
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
+    -   Fixed: Extend Bookings now handle small durations correctly and does not
+        create zero hours of extended bookings.
 
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
+    -   Fixed: Reconciliation view now renders when the project timezone is
+        +5:30 GMT and the user’s timezone is different.
 
-### Feature name (must match the name of the feature found in the release plan)
-To read a description of this feature, see [Feature name](URL to feature description in release plan) in the release plan.
+-   Sales
 
-To learn more about the feature, see: (remove this bulleted list if you don't have any other content published)
-- [Title of content](URL of content)
-- [Title of content](URL of content)
+    -   Fixed: On updating the project field on a project contract line, there
+        must downstream updates to actuals
 
-## Additional resources
+    -   Fixed: Additional validation has been added to an estimate line’s
+        "amount" field to ensure null values are not persisted.
 
-### Update Release 16 bug fixes
+    -   Fixed: [PSA 3.x] When actuals have been updated on a project, a new
+        refresh button has been added to the project main form to allow users to
+        re-sync the actuals.
 
-For information about the bug fixes that are included in each update that is part of Update Release 16, go to....
+    -   Fixed: When users upgrade from 2.X to 3.X, projects with a NULL value
+        for project name will be permitted.
 
-
-### Removed and deprecated features
-
-The Removed or deprecated features topic describes features that have been removed or deprecated.
-
-- A *removed* feature is no longer available in the product.
-- A *deprecated* feature isn't in active development and might be removed in a future update.
-
-
-For breaking changes that affect only compilation time, but that are binary-compatible with sandbox and production environments, the deprecation time will be less than 12 months. Typically, these changes are functional updates that must be made to the compiler.
+Project Service Automation Team
