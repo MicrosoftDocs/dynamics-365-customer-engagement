@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting guide for Dynamics 365 Sales Professional | MicrosoftDocs"
-description: "Follow the instructions in this topic to troubleshoot the issues your users may face while working on Dynamics 365 Sales."
+description: "Follow the instructions in this topic to troubleshoot the issues your users might face while working on Dynamics 365 Sales."
 ms.date: 02/10/2020
 ms.service:
   - "dynamics-365-sales"
@@ -11,19 +11,19 @@ manager: annbe
 ---
 
 # Dynamics 365 Sales Professional troubleshooting guide
+<!--from editor: These error messages use unusual terminology - not just "signup" (which isn't actually a word) but "Sales Pro" when the rest of the content calls it Sales Professional. Is there any way to change this UI?-->
+Use the following troubleshooting topics to quickly find information to solve your users' issues.
 
-Use the following list of troubleshooting topics to quickly find information to solve your users' issues.
+## Trial sign-up
 
-## Trial signup
-
-### I'm not able to sign up for Sales Professional trial
+### I'm not able to sign up for a Sales Professional trial
 
 **Reason:**
 
-If your Microsoft 365 tenant administrator has disabled trial signup for your organization, you'll see the error message: Your IT department has turned off signup for Dynamics 365 Sales Professional Trial. Contact them to complete signup. 
+If your Microsoft 365 tenant administrator has disabled trial sign-up for your organization, you'll see the error message, "Your IT department has turned off signup for Dynamics 365 Sales Professional Trial. Contact them to complete signup."
 
 > [!div class="mx-imgBorder"]
-> ![Trial signup is turned off](media/trial-signup-turned-off.png "Trial signup is turned off")
+> ![Trial sign-up is turned off](media/trial-signup-turned-off.png "Trial sign-up is turned off")
 
 **Workaround:**
 
@@ -36,11 +36,11 @@ Please contact your IT department and work with them to help you sign up.
 
 **Reason:**
 
-There could be multiple reasons for this error:
+There are several possible reasons for this error:
 
-- You've already signed up for the Sales Professional application for your tenant, and are trying again with other credentials for the same tenant before the expiry of the first trial instance.
+- You've already signed up for the Sales Professional application for your tenant, and are trying to sign up again by using other credentials for the same tenant before the expiry of the first trial instance.
 
-- You aren't using the complete sign-up URL, but using the reply URL present in the sign-up URL. For example, you're using https://salesprotrial.dynamics.microsoft.com  instead of https://signup.microsoft.com/Signup?sku=9c7bff7a-3715-4da7-88d3-07f57f8d0fb6&RU=https://salesprotrial.dynamics.microsoft.com.
+- You aren't using the complete sign-up URL, but are using the reply URL present in the sign-up URL. For example, you're using https://salesprotrial.dynamics.microsoft.com instead of https://signup.microsoft.com/Signup?sku=9c7bff7a-3715-4da7-88d3-07f57f8d0fb6&RU=https://salesprotrial.dynamics.microsoft.com.
 
 - The Sales Professional trial license that's assigned to you as part of the sign-up process isn't synced with Azure Active Directory.
 
@@ -50,11 +50,11 @@ Try the following steps to resolve this issue:
 
 1. Clear your browser cache, and close the browser.
 
-2. Wait for at least 5 minutes, and then open the browser in a private browsing mode.
+2. Wait for at least five minutes, and then open the browser in private browsing mode.
 
 3. Use the full [sign-up URL](https://signup.microsoft.com/Signup?sku=9c7bff7a-3715-4da7-88d3-07f57f8d0fb6&RU=https://salesprotrial.dynamics.microsoft.com).
 
 
 ### See also
 
-[Sign up for a free trial of Dynamics 365 Sales Professional](try-dynamics365-sales-professional.md)t
+[Sign up for a free trial of Dynamics 365 Sales Professional](try-dynamics365-sales-professional.md)
