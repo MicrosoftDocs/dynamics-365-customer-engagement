@@ -11,7 +11,8 @@ manager: annbe
 ---
 
 # Dynamics 365 Sales Professional troubleshooting guide
-<!--from editor: These error messages use unusual terminology - not just "signup" (which isn't actually a word) but "Sales Pro" when the rest of the content calls it Sales Professional. Is there any way to change this UI?-->
+
+
 Use the following troubleshooting topics to quickly find information to solve your users' issues.
 
 ## Trial sign-up
