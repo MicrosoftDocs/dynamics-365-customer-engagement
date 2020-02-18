@@ -48,9 +48,9 @@ If you are using an older version, for resource availability see, [View resource
 
 1.  From the **Booking Requirement** list, right-click on an unscheduled booking and choose one of the following:  
   
- - Choose **Find availability - Current Resources** to find an available resource from the list on the schedule board.  
+    - Choose **Find availability - Current Resources** to find an available resource from the list on the schedule board.  
   
- - Choose **Find availability - All Resources**, to find an available resource from resources in the system  
+    - Choose **Find availability - All Resources**, to find an available resource from resources in the system  
   
         > [!NOTE]
         >  When you do this, the filters will show options for the selected booking requirement.  
