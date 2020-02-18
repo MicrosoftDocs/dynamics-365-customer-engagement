@@ -47,7 +47,7 @@ The list provides an overview of documentation updates made in Unified Service D
 
 | Topic | Updates |
 |--------------|----------------|
-| [KillUSDIEProcessesOnExit](admin/manage-options-unified-service-desk.md) | Added new UII option to kill the IE Process on exit of Unified Service Desk client application. <br><br> New option in the [Mange Options in Unified Service Desk](admin/manage-options-unified-service-desk.md).|
+| [KillUSDIEProcessesOnExit](admin/manage-options-unified-service-desk.md) | Added new UII option to kill the IE Process on exit of Unified Service Desk client application. <br><br> New option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md).|
 | [Generate Chrome Process crash report](chrome-process.md#generate-chrome-process-crash-report) | Added information about generating Chrome Process crash report. <br><br> New section in [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md).  |
 | [Use window.IsUSD property to invoke Unified Service Desk event](chrome-process.md#use-windowisusd-property-to-invoke-unified-service-desk-event) | Updated information about window.IsUSD property <br><br> New section in [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md).  |
 | [Download attachments in Chrome Process](chrome-process.md#download-attachments-in-chrome-process) | Added information about downloading file attachments in Chrome Process <br><br> New section in [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md).  |
