@@ -27,7 +27,9 @@ As an agent, when you communicate with a customer via chat, there is a huge exch
 - Enhanced customer satisfaction
 - Positive relationship with the customers
 
-## Agent initiate voice and video call
+## Agent experience
+
+### Initiate voice and video call
 
 When you are chatting with the customer, you can initiate the voice or video call. In the communication panel, beside the **End** button, an ellipsis (...) is present.Select the ellipsis and the **Voice Call** and **Video Call** options are displayed to you. Based on your administrator configuration, you might see **Voice Call** and **Video Call** or just **Voice call** option.
 
@@ -37,10 +39,21 @@ When you are chatting with the customer, you can initiate the voice or video cal
 
 When you initiate a voice call, you can view the call fly-out with buttons.
 
-- Video: 
-- Mute and Unmute
-- End call
+|Button | Name | Description |
+|----------------------|-------------------------|-----------------------------|
+|![Turn on or off video](../../media/turn-on-off-video.png "Turn on or off video")| Turn on video / Turn off video |  Use the button to turn on or off the video while in a call with the customer.|
+|![Mute and unmute](../../media/mute-unmute.png "Mute and unmute")| Mute / Unmute | Use the button to mute or unmute the call while communicating with the customer. |
+|![End call](../../media/end-call.png "End call")| End call | Use this button to end the call. |
 
 
 > [!div class=mx-imgBorder]
 > ![Chat to Voice Call](../../media/chat-voice-call.png "Chat to Voice Call")
+
+
+
+### Receive voice and video call
+
+### Capacity of the agent
+
+When you or the customer initiate a voice or video call, your capacity is consumed and you can't any conversation until you hang up.
+
