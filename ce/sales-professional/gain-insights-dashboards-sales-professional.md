@@ -52,7 +52,7 @@ The Sales dashboard is a multi-stream dashboard where each stream shows an entit
 
 #### Take a quick action on a record in the stream
 
-You can take entity-specific actions right from the stream. For example, in the Open Leads stream, select the More options icon to open the More options menu. From this menu, you can quickly qualify a lead or assign it to other users.
+You can take entity-specific actions right from the stream. For example, in the **Open Leads** stream, select the **More options** icon to open the **More options** menu. From this menu, you can quickly qualify a lead or assign it to other users.
 
 > [!div class="mx-imgBorder"]
 > ![Take quick action on records from the dashboard](media/quick-action-dashboard.png "Take quick action on records from the dashboard")
