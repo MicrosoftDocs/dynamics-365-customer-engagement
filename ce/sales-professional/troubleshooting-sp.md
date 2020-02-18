@@ -22,6 +22,10 @@ Use the following troubleshooting topics to quickly find information to solve yo
 
 If your Microsoft 365 tenant administrator has disabled trial sign-up for your organization, you'll see the error message, "Your IT department has turned off signup for Dynamics 365 Sales Professional Trial. Contact them to complete signup."
 
+There are two ways that the tenant administrator can prevent users from performing self-service sign-up:  
+- Prevent email sign-ups for the tenant by using the *AdHocSubscriptionsNotAllowed* parameter
+- Prevent new users to be created within the tenant (NewUsersNotAllowed).  
+
 > [!div class="mx-imgBorder"]
 > ![Trial sign-up is turned off](media/trial-signup-turned-off.png "Trial sign-up is turned off")
 
