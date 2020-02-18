@@ -31,7 +31,7 @@ to quality, performance, and usability.
 
 This release is compatible with Dynamics 365 9.x. To update to this release,
 visit the Admin Center for Dynamics 365 online, solutions page to install the
-update. For details, refer [How to Install, Update a Preferred Solution] (https://docs.microsoft.com/en-us/dynamics365/project-service/upgrade-psa-home-page)
+update. For details, refer [How to Install, Update a Preferred Solution] https://docs.microsoft.com/en-us/dynamics365/project-service/upgrade-psa-home-page
 
 **Bug fixes**
 
