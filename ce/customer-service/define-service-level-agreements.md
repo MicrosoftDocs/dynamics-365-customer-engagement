@@ -127,13 +127,13 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
 4. Enter the following details on the **General** tab:
 
-  - **Name:** Name of the SLA KPI.
+   - **Name:** Name of the SLA KPI.
 
-  - **Owner:** The user creating the SLA is populated by default. You can specify a different owner.
+   - **Owner:** The user creating the SLA is populated by default. You can specify a different owner.
 
-  - **Entity Name:** Select the entity for which the KPI must be measured.
+   - **Entity Name:** Select the entity for which the KPI must be measured.
 
-  - **KPI Field:** Select the respective KPI field. For example, if you are creating an SLA KPI to define the time within which a first response should be sent to the customer, then select **FirstResponseByKPI** in the list.
+   - **KPI Field:** Select the respective KPI field. For example, if you are creating an SLA KPI to define the time within which a first response should be sent to the customer, then select **FirstResponseByKPI** in the list.
 
    - **Applicable From:** Select a value based on which the warning and failure time will be measured. For example, if you select Created On, the warning and failure start time for an SLA is calculated from the date and time when the entity was created.
 
@@ -158,9 +158,9 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 3. On the **General** tab, do the following:
 
-  -  **Name:** Enter a name for the SLA.
-  -  **Primary Entity:** Select a value in the box.
-  -  **Description:** Enter a description for the SLA.
+   -  **Name:** Enter a name for the SLA.
+   -  **Primary Entity:** Select a value in the box.
+   -  **Description:** Enter a description for the SLA.
 
 4. Select **Save**. The **SLA Items** section appears on the page, and the SLA is saved. You can perform the steps to create SLA items as mentioned in the subsequent section.
 
@@ -172,15 +172,15 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 3. On the **General** tab, enter the following details.
 
-  -  **Name:** Enter a name.
-  -  **KPI:** Select an SLA KPI.
-  -  **Allow Pause and Resume:** (Optional.) Enable this option if you want the SLA to pause during the time the record is on hold. For each entity that's enabled for the SLA, you can set the statuses that will be considered “on hold” in the **Service Management** > **Service Configuration Settings** page.
-  -  **Business Hours:** (Optional.) Select a value to assign business hours. The SLA is calculated based on the business hours and business closure that you define. To learn more, see [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
+   -  **Name:** Enter a name.
+   -  **KPI:** Select an SLA KPI.
+   -  **Allow Pause and Resume:** (Optional.) Enable this option if you want the SLA to pause during the time the record is on hold. For each entity that's enabled for the SLA, you can set the statuses that will be considered “on hold” in the **Service Management** > **Service Configuration Settings** page.
+   -  **Business Hours:** (Optional.) Select a value to assign business hours. The SLA is calculated based on the business hours and business closure that you define. To learn more, see [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
   
 4. In the **Applicable When** section, define the conditions for the entity when the SLA can be applied:
 
-  - In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
-  - In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
+   - In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
+   - In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
 
 5. Select **Save**. A message appears on the top stating that warning and failure actions are not set.
 
