@@ -48,14 +48,14 @@ If you are using an older version, for resource availability see, [View resource
 
 1.  From the **Booking Requirement** list, right-click on an unscheduled booking and choose one of the following:  
   
-    1.  Choose **Find availability - Current Resources** to find an available resource from the list on the schedule board.  
+ - Choose **Find availability - Current Resources** to find an available resource from the list on the schedule board.  
   
-    2.  Choose **Find availability - All Resources**, to find an available resource from resources in the system  
+ - Choose **Find availability - All Resources**, to find an available resource from resources in the system  
   
         > [!NOTE]
         >  When you do this, the filters will show options for the selected booking requirement.  
   
-    3.  When you see an available slot right-click on the time slot on the schedule board and choose **Book Here**. Or, drag and drop the booking requirement to the available time slot.  
+2. When you see an available slot right-click the time slot on the schedule board and choose **Book Here**. Or, drag and drop the booking requirement to the available time slot.  
   
 
 ## Book a resource using the daily view and find who’s under-booked
