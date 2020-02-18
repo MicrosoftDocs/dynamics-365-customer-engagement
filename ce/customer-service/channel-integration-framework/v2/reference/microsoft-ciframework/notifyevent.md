@@ -15,7 +15,7 @@ ms.custom:
 
 # notifyEvent
 
-[!include[cc-beta-prerelease-disclaimer](../../../../../includes/cc-beta-prerelease-disclaimer.md)]
+ 
 
 Displays a notification that can be used to inform agent about an incoming conversation.
 
