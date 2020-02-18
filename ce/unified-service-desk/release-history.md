@@ -25,7 +25,7 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 <a name="Release_4_1_2"></a>
 
-## Release history for Unified Service Desk 4.1.2, February 2020
+## Release history for Unified Service Desk 4.1.1, February 2020
 
 The list provides an overview of documentation updates made in Unified Service Desk 4.1.2.
 
