@@ -27,7 +27,10 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 ## Release history for Unified Service Desk 4.1.1.1397, February 2020
 
-The list provides an overview of documentation updates made in Unified Service Desk 4.1.2.
+The list provides an overview of documentation updates made in Unified Service Desk 4.1.1.1397
+
+> [!NOTE]
+> If your organization is using any lower version of Unified Service Desk, then you need to uninstall that version and install Unified Service Desk 4.1.1.1397 freshly, instead of upgrading to 4.1.1.1397 version.
 
 | Topic | Updates |
 |--------------|----------------|
