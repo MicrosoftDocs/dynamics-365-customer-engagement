@@ -16,7 +16,7 @@ This topic provides resources where you can learn about the new features that ha
 
 For information about new features releasing over the next few months that you can use for planning, see:
 - [2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-sales/planned-features)  
-    To learn more about early access features and how to opt in to early access updates, see     [2020 release wave 1 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/features-ready-early-access), [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates)
+  To learn more about early access features in the 2020 wave 1 release and how to opt in to early access updates, see [2020 release wave 1 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/features-ready-early-access), [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates)
 - [2019 release wave 2 plan](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-sales/planned-features)
 - [April 2019 release notes](https://docs.microsoft.com/business-applications-release-notes/april19/dynamics365-sales/planned-features)
 
