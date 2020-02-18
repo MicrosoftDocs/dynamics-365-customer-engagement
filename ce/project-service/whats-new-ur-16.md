@@ -60,8 +60,7 @@ update. For details, refer How to Install, Update a Preferred Solution
 
 -   Sales
 
-    -   Fixed: On updating the project field on a project contract line, there
-        must downstream updates to actuals
+    -   Fixed: Whenever a project mapped to a contract line is removed and new project is mapped, the actual records on the newly project were not getting re-evaluated based on the billing and pricing rules defined on the contract line. This has been fixed in this release. Pricing and actual records on the newly mapped project will get reversed and re-created correctly based on the pricing and billing rules of the contract line. The actual records of the un-mapped project will also get re-evaluated and re-created as a consequence. 
 
     -   Fixed: Additional validation has been added to an estimate line’s
         "amount" field to ensure null values are not persisted.
