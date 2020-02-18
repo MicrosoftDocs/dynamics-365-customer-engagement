@@ -35,4 +35,12 @@ When you are chatting with the customer, you can initiate the voice or video cal
 > ![Voice and video call](../../media/chat-voice-video-call.png "Voice and video call")
 
 
+When you initiate a voice call, you can view the call fly-out with buttons.
 
+- Video: 
+- Mute and Unmute
+- End call
+
+
+> [!div class=mx-imgBorder]
+> ![Chat to Voice Call](../../media/chat-voice-call.png "Chat to Voice Call")
