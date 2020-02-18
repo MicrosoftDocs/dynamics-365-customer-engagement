@@ -27,8 +27,11 @@ As an agent, when you communicate with a customer via chat, there is a huge exch
 - Enhanced customer satisfaction
 - Positive relationship with the customers
 
-## Make voice and video call
+## Agent initiate voice and video call
 
-When you and the customer is chatting either of you can initiate the voice or video call.
+When you are chatting with the customer, you can initiate the voice or video call. In the communication panel, beside the **End** button, an ellipsis (...) is present.Select the ellipsis and the **Voice Call** and **Video Call** options are displayed to you. Based on your administrator configuration, you might see **Voice Call** and **Video Call** or just **Voice call** option.
 
-### Agent 
+
+
+
+
