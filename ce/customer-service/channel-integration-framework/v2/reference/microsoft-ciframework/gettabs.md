@@ -15,7 +15,7 @@ ms.custom:
 
 # getTabs
 
-[!include[cc-beta-prerelease-disclaimer](../../../../../includes/cc-beta-prerelease-disclaimer.md)]
+ 
 
 Returns an array of tab Ids associated with template name or template tags for tabs in the session in focus, if the session belongs to the channel provider.
 
