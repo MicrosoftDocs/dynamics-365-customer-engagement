@@ -23,6 +23,16 @@
 - When the Map panel on the Schedule Board is loaded, the map should be zoomed enough to show all the Map pins in the Requirement Map filter view definition.  
 - XML syntax validation is now added on editing the Schedule Assistant filter layout.  
 
+### Version 3.12.4.9
+
+- Fixed an upgrade issue related to the Timezone conversion of the TimeGroupDetail record.  
+- Fixed incorrect booking time offset on DST dates for Auckland Timezone.  
+- Fixed the issue where some resources show unavailable on the Schedule Board, due to the number of calendar rules on all the Resources on the Schedule Board.  
+- When there are characteristics on the filter panel are paged, the rating value of the selected characteristic is lost in the filter, which is now fixed.  
+- Fixed the flickering issue on the second page of the Open Requirements tab of the Requirement panel.  
+- Fixed the alignment of the available time on the Days view of the Schedule Assistant.  
+- The Filters on the filter panel now support the Text fields as well.  
+
 ### Version 3.12.3.9
 
 - The one hour offset issue for the bookings created on the schedule board is fixed in the Brazil daylight savings time.
