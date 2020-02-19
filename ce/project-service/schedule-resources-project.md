@@ -35,18 +35,18 @@ If you are using an older version, for resource availability see, [View resource
 > [!IMPORTANT]
 >  To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.  
 > 
-> 1. From the main menu, click **Resource Scheduling** > **Administration**.  
->    2.  Click **Scheduling parameters**.  
->    3.  Open record and scroll down to the **Resource Scheduling Optimization** section.  
->    4.  On the **Connect to Maps** field, choose **Yes**.  
->    5.  Accept terms and save the record.  
+> 1. On the main menu, select **Resource Scheduling** > **Administration**.  
+> 2.  Click **Scheduling parameters**.  
+> 3.  Open record and scroll down to the **Resource Scheduling Optimization** section.  
+> 4.  On the **Connect to Maps** field, choose **Yes**.  
+> 5.  Accept terms and save the record.  
   
 <a name="BKMK_ScheduleWOManually"></a>   
-1.  From the Main menu, click **Project Service** > **Schedule board**. From here, there are several ways to manually schedule a booking requirement. Choose the method that works for you.
+> 6.  From the oin menu, select **Project Service** > **Schedule board**. From here, there are several ways to manually schedule a booking requirement. Choose the method that works for you.
   
-## Right-click on an unscheduled booking to find available resources
+## Right-click an unscheduled booking to find available resources
 
-1.  From the **Booking Requirement** list, right-click on an unscheduled booking and choose one of the following:  
+1.  From the **Booking Requirement** list, right-click an unscheduled booking and choose one of the following:  
   
     - Choose **Find availability - Current Resources** to find an available resource from the list on the schedule board.  
   
@@ -60,15 +60,15 @@ If you are using an older version, for resource availability see, [View resource
 
 ## Book a resource using the daily view and find who’s under-booked
   
-1.  On the schedule board, click **View Mode** and select **Days**.  
+1.  On the schedule board, select **View Mode** and select **Days**.  
   
     This shows a grid view of how many hours a resource is booked per day and which days they are free.  
   
-2.  Click the name of the resource you want to book, and then click **Book**.  
+2.  Click the name of the resource you want to book, and then select **Book**.  
   
 3.  On the **Resource booking (create)** dialog box, choose the project that you want to book the resource for along with booking method and start and end times.  
   
-4.  When you’re done, click **Book**.  
+4.  When you’re done, select **Book**.  
   
 ## Drag an unscheduled booking requirement from the list view to the schedule board
   
@@ -76,7 +76,7 @@ If you are using an older version, for resource availability see, [View resource
   
 2.  Drag the booking requirement to an available resource/time slot on the schedule board.  
   
-3.  When you're done, click **Book**.  
+3.  When you're done, select **Book**.  
   
 ### See Also  
  [Resource Manager Guide](../project-service/resource-manager-guide.md)
