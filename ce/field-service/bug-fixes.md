@@ -2,7 +2,7 @@
 title: "Bug fixes for Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/13/2020
+ms.date: 02/19/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
