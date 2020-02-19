@@ -109,7 +109,7 @@ Next, we'll use the following scenario to walk through how to schedule a Require
 
 ### Service Configuration 
 
-![Service Configuration ](media\ur-scheduling-1.png)
+![Service Configuration ](media\ur-scheduling-1-new.png)
 
   1. In site map, under Scheduling, select <b>Service</b>
   2. Go to <b>Resource Requirements</b>
@@ -117,7 +117,7 @@ Next, we'll use the following scenario to walk through how to schedule a Require
 
 ### Service Activity Configuration  
 
-![Service Activity Configuration](media\ur-scheduling-2.png)
+![Service Activity Configuration](media\ur-scheduling-2-new.png)
 
   4. In site map, under Scheduling, select <b>Service Activities</b>
   5. Go to <b>Service Activities</b>
@@ -133,7 +133,7 @@ Now you have a requirement group automatically created which has one technicians
 
 Below is an example configuration of the Resource Requirement Group page: 
 
-![Resource Requirement Group Grid](media\ur-scheduling-3.png)
+![Resource Requirement Group Grid](media\ur-scheduling-3-new.png)
 
 1. Active Requirements Group
 
@@ -145,7 +145,7 @@ Below is an example configuration of the Resource Requirement Group page:
 
 2. Test Requirements Group
 
-![Resource Requirement Group Grid](media\ur-scheduling-4.png)
+![Resource Requirement Group Grid](media\ur-scheduling-4-new.png)
 
 3. Go to <b>General</b>
 4. Name field <b>Test Requirement Group </b>
@@ -176,9 +176,9 @@ To execute this search against your organization, you need to download the [samp
 
 2. Add the files in the sample folder as web resources in your organization 
 
-![Modify the hard-coded input parameters](media\ur-scheduling-6.png)
+![Modify the hard-coded input parameters](media\ur-scheduling-6-new.png)
 
-![Modify the hard-coded input parameters](media\ur-scheduling-7.PNG)
+![Modify the hard-coded input parameters](media\ur-scheduling-7-new.PNG)
 
 3. Navigate to the newly added new_msdyn_SearchResourceAvailabilityForRequirementGroupSample.htm page. Example: <<YourOrgURL>>//WebResources/new_msdyn_SearchResourceAvailabilityForRequirementGroupSample.htm   
 
@@ -194,11 +194,11 @@ To execute this search against your organization, you need to download the [samp
 
 5. Once you choose a specific timeslot set, (example: we chose Set number 1), update your new_msdyn_CreateRequirementGroupBookingsSample.js web resource in your org to pass the Resource Assignments (Requirement guid, Resource guid) and the Requirement Group per the example below:    
 
-![Modify the hard-coded input parameters](media\ur-scheduling-10.PNG)
+![Modify the hard-coded input parameters](media\ur-scheduling-10-new.PNG)
 
 [Code Sample Create Requirement Group](https://go.microsoft.com/fwlink/?linkid=2117045)  
 
-![Modify the hard-coded input parameters](media\ur-scheduling-11.png)
+![Modify the hard-coded input parameters](media\ur-scheduling-11-new.png)
 
 6. Navigate to the newly added new_ msdyn_CreateRequirementGroupBookingsSample.htm page. (Example: <<YourOrgURL>>//WebResources/new_msdyn_CreateRequirementGroupBookingsSample.htm) to invoke a call the Booking API and create the Booking   
 
@@ -210,9 +210,9 @@ To execute this search against your organization, you need to download the [samp
 
   We can also verify this by going back into the organization and checking the Associated bookings of the Service/Requirement group we created as shown below.    
 
-![Modify the hard-coded input parameters](media\ur-scheduling-14.png)
+![Modify the hard-coded input parameters](media\ur-scheduling-14-new.png)
 
-![Modify the hard-coded input parameters](media\ur-scheduling-15.png)
+![Modify the hard-coded input parameters](media\ur-scheduling-15-new.png)
 
 Other possible scenarios that could leverage these APIs are:   
 - Build a custom web app or a Dynamics 365 portal to provide appointment scheduling for end users to show available time slots for the service/product being offered using multi-resource requirements (requirement groups).
@@ -340,7 +340,7 @@ This section adds more details on API mapping from legacy to the new URS API exp
 
 ## Scenario 1: Legacy setup screen shot for reference.  
 
-![Legacy setup screen shot for reference](media\ur-scheduling-16.png)
+![Legacy setup screen shot for reference](media\ur-scheduling-16-new.png)
 
 1. Create one Site (Site1) and one User (User1) and one equipment (facility/ equipment) (Eq1) with a site as Site1. 
 
@@ -348,7 +348,7 @@ This section adds more details on API mapping from legacy to the new URS API exp
 
 3. Create a new service (Service1)with add required resources as "Choose 2” from User1, Eq1. Save and close the service. 
 
-![Service Activity](media\ur-scheduling-17.png)
+![Service Activity](media\ur-scheduling-17-new.png)
 
 4. Go to homepage -> Service Activity -> select the service and click on Schedule -> Now click on find available slots. 
 
@@ -387,7 +387,7 @@ RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"<BR>
 
 ## Scenario 2: Legacy setup screen shot for reference 
 
-![Legacy setup screen shot for reference](media\ur-scheduling-18.png)
+![Legacy setup screen shot for reference](media\ur-scheduling-18-new.png)
 
 1. Create the following: 
 - two Site (Micr0s0ftSite1, Site2)
@@ -398,7 +398,7 @@ RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"<BR>
 
 3. Create a new service with status "reserved" and required resources as "Choose 2” from “same site “ from User1, User2, Eq1, Eq2. Save and close the service. 
 
-![Service Activity](media\ur-scheduling-19.png)
+![Service Activity](media\ur-scheduling-19-new.png)
 
 4. Go to the homepage -> Service Activity -> Schedule -> select service created above -> and select the site as Site1 and click Search for a specific start and end time. 
 
@@ -436,7 +436,7 @@ response.Dump();<BR>
 
 ## Scenario 3: Legacy setup screen shot for reference
 
-![Legacy setup screen shot for reference](media\ur-scheduling-20.png)
+![Legacy setup screen shot for reference](media\ur-scheduling-20-new.png)
 
 1. Create two Site(Site1, Site2) and then create 3 equipment (eq1, eq2, eq3) 
 
@@ -444,7 +444,7 @@ response.Dump();<BR>
 
 3. Create a new service (Service1)Choose 1 from (Random) eq1, eq2, eq3 
 
-![Service Activity](media\ur-scheduling-21.png)
+![Service Activity](media\ur-scheduling-21-new.png)
 
 4. On the Schedule Service Activity dialog (scheduling dialog) search for proposals for Service1 by adding a required resource as "eq1" for a specific date range. 
 
