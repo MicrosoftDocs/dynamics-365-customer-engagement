@@ -157,6 +157,8 @@ For more information on how to turn on delegate access, see [Enable delegate acc
 > [!Important]
 > Track status may not update immediately until the sync cycles complete for both the user and the delegated user. This might take few minutes. 
 
+> Delegated user should be able to access and interact with the primary user's mailbox.
+
 ### Track new email contact
 1. Go to the person email folder that you are a delegate for and open an email from a contact that you want t**o track.
 2. In the Dynamics 365 pane, select **Contact** > **Set Regarding**.
