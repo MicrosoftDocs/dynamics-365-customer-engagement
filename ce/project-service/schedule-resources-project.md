@@ -36,26 +36,22 @@ If you are using an older version, for resource availability see, [View resource
 >  To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.  
 > 
 > 1. On the main menu, select **Resource Scheduling** > **Administration**.  
-> 2.  Click **Scheduling parameters**.  
-> 3.  Open record and scroll down to the **Resource Scheduling Optimization** section.  
-> 4.  On the **Connect to Maps** field, choose **Yes**.  
-> 5.  Accept terms and save the record.  
-  
-<a name="BKMK_ScheduleWOManually"></a>   
-> 6.  From the oin menu, select **Project Service** > **Schedule board**. From here, there are several ways to manually schedule a booking requirement. Choose the method that works for you.
+> 2. Click **Scheduling parameters**.  
+> 3. Open record and scroll down to the **Resource Scheduling Optimization** section.  
+> 4. On the **Connect to Maps** field, choose **Yes**.  
+> 5. Accept terms and save the record.  
+> 6. On the main menu, select **Project Service** > **Schedule board**. From here, there are several ways to manually schedule a booking requirement. Choose the method that works for you.
   
 ## Right-click an unscheduled booking to find available resources
 
 1.  From the **Booking Requirement** list, right-click an unscheduled booking and choose one of the following:  
   
-    - Choose **Find availability - Current Resources** to find an available resource from the list on the schedule board.  
+- Choose **Find availability - Current Resources** to find an available resource from the list on the schedule board.  
+- Choose **Find availability - All Resources**, to find an available resource from resources in the system  
+   > [!NOTE]
+   >  When you do this, the filters will show options for the selected booking requirement.  
   
-    - Choose **Find availability - All Resources**, to find an available resource from resources in the system  
-  
-        > [!NOTE]
-        >  When you do this, the filters will show options for the selected booking requirement.  
-  
-2. When you see an available slot right-click the time slot on the schedule board and choose **Book Here**. Or, drag and drop the booking requirement to the available time slot.  
+2. When you see an available slot, right-click the time slot on the schedule board and choose **Book Here**. Or, drag and drop the booking requirement to the available time slot.  
   
 
 ## Book a resource using the daily view and find who’s under-booked
@@ -78,5 +74,5 @@ If you are using an older version, for resource availability see, [View resource
   
 3.  When you're done, select **Book**.  
   
-### See Also  
- [Resource Manager Guide](../project-service/resource-manager-guide.md)
+### Additional resources  
+ [Resource manager gGuide](../project-service/resource-manager-guide.md)
