@@ -29,7 +29,7 @@ As an agent, when you communicate with a customer via chat, there is a huge exch
 
 ### Initiate voice and video call
 
-When you are chatting with the customer, you can initiate the voice or video call. In the communication panel, beside the **End** button, an ellipsis (...) is present.Select the ellipsis and the **Voice Call** and **Video Call** options are displayed to you. Based on your administrator configuration, you might see **Voice Call** and **Video Call** or just **Voice call** option.
+When you are chatting with the customer, you can initiate the voice or video call. In the communication panel, beside the **End** button, an ellipsis (...) is present. Select the ellipsis and the **Voice Call** and **Video Call** options are displayed to you. Based on your administrator configuration, you might see **Voice Call** and **Video Call** or just **Voice call** option.
 
 > [!div class=mx-imgBorder]
 > ![Voice and video call](../../media/chat-voice-video-call.png "Voice and video call")
