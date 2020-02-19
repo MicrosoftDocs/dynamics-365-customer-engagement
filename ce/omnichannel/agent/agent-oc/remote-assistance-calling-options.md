@@ -1,6 +1,6 @@
 ---
-title: "Elevate chat conversation to voice and video calls in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn how to elevate chat conversations to voice and video calls in Omnichannel for Customer Service"
+title: "Remote assistance and calling options in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn how to use remote assistance, such as co-browse and screen sharing, and elevating a chat conversation to voice and video call in Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -10,24 +10,24 @@ ms.service:
 ms.topic: article
 ---
 
-# Make voice and video calls in live chat
+# Remote assistance and calling options in live chat
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-## Overview
+## Make voice and video calls in live chat
 
 Make voice and video call in chat conversation feature helps you to initiate a voice or video call while communicating with the customer via chat channel. 
 
 As an agent, when you communicate with a customer via chat, there is a huge exchange of information, which might increase the time you spend on resolving the customer issue. Or, the customer prefers to show and explain the issue with a physical product​. In these scenarios, you want to initiate a voice or video call while still the chat conversation is active, and resolve the issue quickly. The voice and video call option in the communication panel helps you to make a voice and video call during the chat conversation.
 
-## Advantages of voice and video call in live chat
+### Advantages of voice and video call in live chat
 
 - Resolve the customer issue quickly
 - Reduces average handle time and improves productivity
 - Enhanced customer satisfaction
 - Positive relationship with the customers
 
-## Initiate voice and video call
+### Initiate voice and video call
 
 When you are chatting with the customer, you can initiate the voice or video call. In the communication panel, beside the **End** button, an ellipsis (...) is present.Select the ellipsis and the **Voice Call** and **Video Call** options are displayed to you. Based on your administrator configuration, you might see **Voice Call** and **Video Call** or just **Voice call** option.
 
@@ -45,6 +45,19 @@ When you initiate a voice call, you can view the call fly-out with buttons.
 > [!div class=mx-imgBorder]
 > ![Chat to Voice Call](../../media/chat-voice-call.png "Chat to Voice Call")
 
-## Capacity of the agent
+### Capacity of the agent
 
 When you initiate a voice or video call, your capacity is consumed, and you can't get any conversation request until you hang up.
+
+### Site permissions
+
+As an agent, you need to provide the camera and microphone access in the browser to make an video and audio call respectively.
+
+## Customer experience
+
+On receiving a call, customer on the portal can the accept voice call with audio, accept voice with video, or reject the call.
+
+> [!div class=mx-imgBorder]
+> ![Chat to Voice Call](../../media/call-accept.png "Chat to Voice Call")
+
+After accepting the call , customer can turn on or off the video, mute or unmute, and end the call.
