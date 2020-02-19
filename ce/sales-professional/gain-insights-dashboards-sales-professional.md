@@ -12,126 +12,121 @@ manager: annbe
 
 # Gain insights with dashboards in Dynamics 365 Sales Professional
 
-Dashboards in Dynamics 365 Sales Professional provide an overview of
-business data—actionable information that’s viewable across the organization. Use dashboards to see important data at a glance.
+Dashboards in Dynamics 365 Sales Professional provide an overview of actionable business data that's viewable across the organization. Use dashboards to see important data at a glance.
 
-Dashboards use views, lists, and charts to bring data that is meaningful to you to one place.
+Dashboards use views, lists, and charts to bring data that's meaningful to you to one place.
 
 ## Where to find dashboards
 
-To go to dashboards, in the site map, select **Dashboards**.
+To open dashboards, select **Dashboards** in the site map.
 
-## Dashboards in Dynamics 365 Sales Professional
+## Dashboards in Sales Professional
 
 Sales Professional comes with the following prebuilt dashboards that you can use to quickly get insights on your sales data and team performance.
 
 ### Sales Manager Summary dashboard
 
-This dashboard shows data that helps sales managers get important insights on how their sales team is performing. The sales pipeline shows open opportunities in different stages. 
+This dashboard shows data that helps sales managers get important insights on how their sales team is doing. The sales pipeline shows open opportunities in different stages. 
 
-The “deal won versus deal lost” chart shows the number of opportunities won or lost by an owner. The dashboard also includes charts that show important financial data such as estimated versus actual revenue by month.
+The **Deals Won vs. Deals Lost** chart shows the number of opportunities won or lost by an owner. The dashboard also includes charts that show important financial data, such as estimated versus actual revenue by month.
 
 > [!div class="mx-imgBorder"]
-> ![Sales Manager Summary dashboard](media/sales-manager-summary-dashboard.png "Sales manager Summary dashboard")
+> ![Sales Manager Summary dashboard](media/sales-manager-summary-dashboard.png "Sales Manager Summary dashboard")
 
 ### Sales Professional Summary dashboard
 
-This dashboard shows daily work-related sales numbers such as the activities you’re working on, your sales pipeline, or your open opportunities and leads.
+This dashboard shows daily work-related sales numbers, such as the activities you're working on, your sales pipeline, and your open opportunities and leads.
 
 > [!div class="mx-imgBorder"]
 > ![Sales Professional Summary dashboard](media/sales-professional-summary-dashboard.png "Sales Professional Summary dashboard")
 
 ### Sales dashboard
 
-Sales dashboard is an interactive dashboard. It helps you review information from various entities and act on it. You can use visual and global filters in the dashboard to quickly get to what's most important.
+The interactive Sales dashboard helps you review information from various entities and act on it. You can use visual and global filters in the dashboard to quickly get to what's most important.
 
-The Sales dashboard is a multi-stream dashboard where each stream shows an entity view. 
+The Sales dashboard is a multi-stream dashboard, where each stream shows a view of an entity. 
  
 > [!div class="mx-imgBorder"]
 > ![Sales dashboard](media/sales-dashboard-interactive.png "Sales dashboard")
 
-#### Take a quick action on a record in the stream
+#### Take quick action on a record in the stream
 
-You can take entity-specific actions right from the stream. For example, in the **Open Leads** stream, select the **More options** icon to open the **More options** menu. From this menu, you can quickly qualify a lead or assign it to other users.
+You can take entity-specific actions right from the stream. For example, in the **Open Leads** stream, select **More options**. From the **More options** menu, you can quickly qualify a lead or assign it to other users.<!--from editor: The alt text uses "the dashboard," "the interactive dashboard," and "an interactive dashboard." I couldn't deduce any pattern for these phrases, so I went with "the dashboard" because it's the shortest.-->
 
 > [!div class="mx-imgBorder"]
 > ![Take quick action on records from the dashboard](media/quick-action-dashboard.png "Take quick action on records from the dashboard")
 
 #### Perform bulk actions
 
-You can select multiple records and take action on them at once. Select the **Select multiple records to perform bulk actions** icon ![Select multiple records for bulk action](media/select-multiple-records-bulk-action.png "Select multiple records for bulk action")  and select multiple records by selecting the check box. Then, select the **More Commands** icon (**...**) to see the actions that can be performed on the selected records.
+You can select multiple records and take action on all of them at once. Select **Select multiple records to perform bulk actions** ![Select multiple records for bulk action](media/select-multiple-records-bulk-action.png "Select multiple records for bulk action"), select multiple records by selecting the check boxes next to the records, and then select **More Commands** (**...**) to show the actions that can be performed on the selected records.
  
 > [!div class="mx-imgBorder"]
-> ![Bulk actions on records in the interactive dashboard](media/bulk-actions-dashboard.png "Bulk actions on records in the interactive dashboard")
+> ![Bulk actions on records in the dashboard](media/bulk-actions-dashboard.png "Bulk actions on records in the dashboard")
 
-#### Visual filters in the Sales dashboard 
+#### Visual filters in the Sales dashboard
 
-In the multi-stream dashboard, when you select **Show Visual Filter**, you see a row of visual filters at the top with the data streams below. 
+When you select **Show Visual Filter** in a multi-stream dashboard, you see a row of visual filters at the top with the data streams below. 
 
-Visual filters provide a visual snapshot of key metrics, such as opportunities by account or rating or opportunities in different stages of a sales pipeline. 
-
-> [!div class="mx-imgBorder"]
-> ![Visual filters in interactive dashboard](media/visual-filters-interactive-dashboard.png "Visual filters in interactive dashboard")
- 
-Visual filters help in displaying information that interests you most. For example, if you select the Hot area of the **Opportunities by Rating** chart, the dashboard and the streams are refreshed to show only the opportunities with Hot rating.
+Visual filters provide a snapshot of key metrics, such as opportunities by account or by rating, or opportunities in different stages of a sales pipeline. 
 
 > [!div class="mx-imgBorder"]
-> ![Hot area selected in the Opportunities by rating chart](media/opportunities-by-rating-chart.png "Hot area selected in the Opportunities by rating chart")
+> ![Visual filters in an interactive dashboard](media/visual-filters-interactive-dashboard.png "Visual filters in an interactive dashboard")
  
-You’ll see the filter applied at the top of the charts. 
+Use visual filters to display the information that interests you most. For example, when you select the **Hot** area of the **Opportunities by Rating** chart, the dashboard and the streams are refreshed to show only the opportunities that have a **Hot** rating.
+
+> [!div class="mx-imgBorder"]
+> ![Hot area selected in the Opportunities by Rating chart](media/opportunities-by-rating-chart.png "Hot area selected in the Opportunities by Rating chart")
+ 
+You'll see the filter applied at the top of the charts. 
  
 > [!div class="mx-imgBorder"]
 > ![Chart with filters applied](media/chart-with-visual-filters-applied.png "Chart with filters applied")
 
-To remove a specific filter, select the **Close** icon for the applied filter:
+To remove a specific filter, select the **Close** icon <!--from editor: Via the Style Guide, you use the pattern "the **NameOfIcon** icon" only if you don't have an image for the icon. If you do have an image, you just say "**NameOfIcon** [image]".-->for the applied filter.
 
 > [!div class="mx-imgBorder"]
-> ![Remove visual filters](media/remove-visual-filters.png "Remove visual filters")
+> ![Remove a visual filter](media/remove-visual-filters.png "Remove a visual filter")
  
-To remove all the applied filters, select **Clear All**.
+To remove all applied filters, select **Clear All**.
 
 #### Global filters in the Sales dashboard
 
-To drill down further into your data, use the Global filter. 
-For example, you can apply the Global filter to see only those opportunities that have their estimated close date set to a date in this week. 
+To drill down further into your data, use the global filter. For example, you can apply the global filter to see only those opportunities whose estimated close date is set to a date in the current week. 
 
-To apply a global filter, on the command bar, select **Show Global Filter**. 
+To apply a global filter, select **Show Global Filter** on the command bar.
 
 ![Global filters in an interactive dashboard](media/global-filters-interactive-dashboard.png "Global filters in an interactive dashboard")
  
-After you choose a filter, select the **Apply filter** icon ![Apply filter icon](media/apply-filter-icon.png "Image hover text"). You can also save this filter for future by selecting the **Save as a reusable filter** icon  ![Save as a reusable filter icon](media/save-as-reusable-filter.png "Save as a reusable filter icon").
+After you choose a filter, select **Apply filter** ![Apply filter](media/apply-filter-icon.png "Apply filter"). You can also save this filter for the future by selecting **Save as a reusable filter** ![Save as a reusable filter](media/save-as-reusable-filter.png "Save as a reusable filter").
 
 #### Set the sort order
+
 You can easily switch the sort order in the stream by selecting the field on which you want the data to be sorted. 
  
 > [!div class="mx-imgBorder"]
 > ![Set the sort order](media/sort-order.png "Set the sort order")
 
-
 ## Open a different dashboard
 
-You can use the view selector to select a dashboard of your choice. Select the dashboard name, and from the drop-down list, select the dashboard you want to open.
+You can use the view selector to select the dashboard of your choice. Select the view selector<!--from editor: Edit okay? I didn't know which dashboard name you'd select before you select a name from the drop-down list.-->, and then select the dashboard you want to open from the drop-down list.
 
 ![Dashboard drop-down list](media/dashboard-drop-down-list.png "Dashboard drop-down list")
 
-
 ## Set a dashboard as the default
 
-To see a specific dashboard every time you sign in to Dynamics 365 Sales Professional, set it as the default. To do this, open the dashboard, and on the command bar, select **Set as Default**.
+To see a specific dashboard every time you sign in to Sales Professional, set it as the default. To do this, open the dashboard, and then select **Set as Default** in the site map.
 
 ## Entity dashboards
 
-Other than the dashboards described earlier, there are dashboards specific to entities. These are available for account, contact, lead, opportunity, quote, and invoice entities. Remember, an entity is the same as a record type.
+In addition to the dashboards described earlier, some dashboards display information specific to entities. These are available for Account, Contact, Lead, Opportunity, Quote, and Invoice entities. Remember, an entity is the same as a record type.
 
-To see an entity dashboard, go to the list of records for the entity, and then on the command bar, select **Open Dashboards**.
+To see an entity dashboard, go to the list of records for the entity, and then select **Open Dashboards** on the command bar. For example, when you select **Open Dashboard** in the list of opportunities, the following dashboard specific to the Opportunity entity is displayed.
 
-For example, in the list of opportunities, when you select **Open Dashboard**, the following dashboard, specific to the opportunity entity, is displayed.
+![Entity dashboard for opportunities](media/opportunity-entity-dashboard.png "Entity dashboard for opportunities")
 
-![Entity dashboard for opportunity](media/opportunity-entity-dashboard.png "Entity dashboard for opportunity")
-
-You can use the global or visual filters to see only the data that is important to you.
+As with other dashboards<!--from editor: Suggested, just to tie this idea in with previous mentions.-->, you can use the global or visual filters to show only the data that's important to you.
 
 ### See also
 
-[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)<br>
 [Learn the basics](learn-basics-sales-professional.md)  
