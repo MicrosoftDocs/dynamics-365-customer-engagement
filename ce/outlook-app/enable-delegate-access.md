@@ -1,7 +1,7 @@
 ---
 title: "Enable delegate access for Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 02/07/2020
+ms.date: 02/19/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -32,7 +32,7 @@ Prerequisites
 - Exchange Online and Microsoft Outlook builds 16.0.12130.20272 or later.
 - Configure delegate access in Microsoft Outlook. For more information, see [Allow someone else to manage your mail and calendar](https://support.office.com/article/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926).  
 - Both manager and delegate user need to be set up to use Dynamics 365 App for Outlook. For more information, see [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md).
-- Skype Url is whitelisted. For more information, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
+- Skype Url is whitelisted. For more information, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 
 To enable this capability, you need to enable the **OrgDBOrgSetting** in your organization. Common Data Service apps provides the **OrgDBOrgSettings** tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations.
 
