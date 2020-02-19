@@ -148,7 +148,7 @@ Typically, the pricing of products in bundles is different than the individual p
   
 10. To change properties of an individual product in the bundle, select **Customize** corresponding to the product, and change the values, as required.  
 
-    If you've added this bundle to a family, the bundle will inherit the properites from its parent family. 
+    If you've added this bundle to a family, the bundle will inherit the properties from its parent family. 
 
 11. To change the bundle's property, open the property, and select **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
   
