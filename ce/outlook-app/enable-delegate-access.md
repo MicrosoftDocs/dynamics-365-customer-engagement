@@ -62,13 +62,14 @@ You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releas
     > [!div class="mx-imgBorder"] 
     > ![](media/step4.png) 
     
-    
-Things to verify before enabling delegate access in App for Outlook
-- Verify delegate access is setup correctly in Outlook.
-- Delegated user should have sufficient permissions on the delegated mailbox
-- Skype URL is whitelisted
-- Delegated user has the correct Outlook version
-- Organization Settings are configured properly
+
+> [!IMPORTANT]
+>Things to verify before enabling delegate access in App for Outlook
+>- Verify delegate access is setup correctly in Outlook.
+>- Delegated user should have sufficient permissions on the delegated mailbox
+>- Skype URL is whitelisted
+>- Delegated user has the correct Outlook version
+>- Organization Settings are configured properly
 
 For more information on how to use delegate access see, [Use delegate access](dynamics-365-app-outlook-user-s-guide.md#use-delegate-access).
 
