@@ -67,9 +67,9 @@ The details you’ll see for a SMS channel are:
  - Comment
 
  - Wait time
+ > [!div class=mx-imgBorder]
+ > ![Incoming SMS notification](../../media/oceh/sms-notification-request.png "Incoming SMS notification") 
 
-> [!div class="nextstepaction"]
-> [Next topic: View customer summary and know everything about customers](oc-customer-summary.md)
 
 ## Incoming Facebook notification
 
@@ -78,8 +78,8 @@ You receive a notification for a Facebook conversation request. When you accept 
 > [!div class=mx-imgBorder]
 > ![Facebook chat agent notification](../../media/fb-agent-notif.png "Facebook chat agent notification")
 
- > [!div class=mx-imgBorder]
- > ![Incoming SMS notification](../../media/oceh/sms-notification-request.png "Incoming SMS notification") 
+> [!div class="nextstepaction"]
+> [Next topic: View customer summary and know everything about customers](oc-customer-summary.md)
 
 ## See also
 
