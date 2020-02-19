@@ -29,7 +29,6 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
 > [!IMPORTANT]
 > - The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with [Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/overview.md) and [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro), which implies that it also works with model-driven apps such as Dynamics 365 Sales and Dynamics 365 Customer Service. 
 > - For a prior release that works with earlier versions of Dynamics 365 apps, see [Deploy Dynamics 365 App for Outlook](https://technet.microsoft.com/library/dn946901.aspx).
->  - [Delegated users](https://support.office.com/article/Allow-someone-else-to-manage-your-mail-and-calendar-9684B670-7588-4EEA-8717-9E5799047540) can not use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] to track emails and calendar items. Please try using [Outlook folder-level tracking](../admin/configure-outlook-exchange-folder-level-tracking.md) or [category-based tracking](../admin/use-outlook-category-track-appointments-emails.md) for delegated users to track Outlook items on the owner's behalf.
 
  For example, when you open an email message, view information from your Dynamics 365 app about the email recipients. Or with a single click, link an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message or appointment to a specific Dynamics 365 record. When you link an email message or appointment to a Dynamics 365 record, the [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] record appears as an activity for that record in Dynamics 365 apps.  
 
@@ -155,9 +154,12 @@ Once delegate access in turned on, you can use the Dynamics 365 Outlook App to t
 For more information on how to turn on delegate access, see [Enable delegate access](enable-delegate-access.md).
 
 > [!Important]
-> Track status may not update immediately until the sync cycles complete for both the user and the delegated user. This might take few minutes. 
 
-> Delegated user should be able to access and interact with the primary user's mailbox.
+> - Track status may not update immediately until the sync cycles complete for both the user and the delegated user. This might take few minutes. 
+
+> - Delegated user should be able to access and interact with the primary user's mailbox.
+
+> - Delegated user cannot track contacts on the delegated mailbox
 
 ### Track new email contact
 1. Go to the person email folder that you are a delegate for and open an email from a contact that you want t**o track.
