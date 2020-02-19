@@ -14,22 +14,19 @@ manager: annbe
 
 # Set up product bundles to sell multiple items together (Sales and Sales Hub)
 
-Encourage customers to buy more products instead of a single product by combining products in a bundle.   
-  
-These are the differences between kits and bundles:  
-  
-- You can't sell the products in a kit individually or separately, but you can mark certain products in a bundle as optional and sell them individually.  
-  
-- You can't see individual products added in a kit when you create an opportunity or order, but you can see the products in a bundle.  
-  
-- You can create nested kits (kits within a kit), but you can only add products to a bundle; you cannot add product families, kits, or other bundles to a bundle.  
+Encourage customers to buy more products instead of a single product by combining products in a bundle.  
 
-Similar to a kit, a bundle is a collection of products that is sold as single unit. Product bundling is useful in cases like:  
+A bundle is a collection of products that is sold as single unit. Product bundling is useful in cases like:  
   
 - Pairing a top-selling product with a less popular product  
   
 - Grouping products in a way that customers get more benefit from the full line of products, for example, Microsoft Office Suite or a digital camera with lenses)
 
+Here are some things to know about bundles:  
+  
+- You can mark certain products in a bundle as optional and sell them individually.  
+  
+- You can't add product families, kits, or other bundles to a bundle.  
 
 ## Create a product bundle (Sales Hub)
 
