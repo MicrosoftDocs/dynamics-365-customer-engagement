@@ -20,7 +20,7 @@ A bundle is a collection of products that is sold as single unit. Product bundli
   
 - Pairing a top-selling product with a less popular product  
   
-- Grouping products in a way that customers get more benefit from the full line of products, for example, Microsoft Office Suite or a digital camera with lenses)
+- Grouping products in a way that customers get more benefit from the full line of products, for example, Microsoft Office Suite or a digital camera with lenses
 
 Here are some things to know about bundles:  
   
