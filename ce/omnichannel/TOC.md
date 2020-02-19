@@ -121,7 +121,7 @@
 #### [Take notes specific to conversation](agent/agent-oc/oc-take-notes.md)
 #### [Remote assistance and call options in live chat](agent/agent-oc/remote-assistance-calling-options.md)
 #### [Search for transcripts](agent/agent-oc/oc-search-transcipts.md)
-#### [View conversation and session activity types in the Model-driven apps](agent/agent-oc/oc-view-activity-types.md)
+#### [View conversation and session forms](agent/agent-oc/oc-view-activity-types.md)
 #### [View customer summary for an incoming conversation request](agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md)
 
 
