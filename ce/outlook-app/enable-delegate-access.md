@@ -70,6 +70,7 @@ You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releas
 >- Skype URL is whitelisted
 >- Delegated user has the correct Outlook version
 >- Organization Settings are configured properly
+>- After the Organization settings are configured, App for Outlook is redeployed for all the delegated users
 
 For more information on how to use delegate access see, [Use delegate access](dynamics-365-app-outlook-user-s-guide.md#use-delegate-access).
 
